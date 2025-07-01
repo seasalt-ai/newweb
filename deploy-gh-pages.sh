@@ -18,13 +18,14 @@ if ! git diff-index --quiet HEAD --; then
   echo "✘ Uncommitted changes detected; please commit/stash first." >&2
   exit 1
 fi
+
+npm run build
+npm run seo-update
+
 if [[ ! -d "$BUILD_DIR" ]]; then
   echo "✘ Build directory '$BUILD_DIR' not found. Did you run your build?" >&2
   exit 1
 fi
-
-npm run build
-npm run seo-update
 
 # 2. Prepare the gh-pages worktree
 git worktree add -B "$TARGET_BRANCH" "$TMP_DIR" origin/"$TARGET_BRANCH" || \
