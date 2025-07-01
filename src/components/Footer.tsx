@@ -93,7 +93,7 @@ const Footer = () => {
                     </Link>
                   ) : (
                     <a 
-                      href={solution.href}
+                      href={solution.path}
                       className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
                     >
                       <MessageSquare className="h-4 w-4 mr-2" />

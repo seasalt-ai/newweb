@@ -48,14 +48,14 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
       {/* Language alternates */}
       {availableLanguages.map(language => {
         const langUrl = canonicalUrl.replace(`/${lang}/`, `/${language}/`);
-        return <link key={language} rel="alternate" hreflang={language} href={langUrl} />;
+        return <link key={language} rel="alternate" hrefLang={language} href={langUrl} />;
       })}
       
       {/* x-default hreflang (points to English version) */}
       {lang !== 'en' && (
         <link 
           rel="alternate" 
-          hreflang="x-default" 
+          hrefLang="x-default" 
           href={canonicalUrl.replace(`/${lang}/`, '/en/')} 
         />
       )}

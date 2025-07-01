@@ -197,7 +197,7 @@ const Header = () => {
                     ) : (
                       <a 
                         key={index}
-                        href={solution.href}
+                        href={solution.path}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                       >
                         {solution.title}
@@ -406,7 +406,7 @@ const Header = () => {
                     ) : (
                       <a 
                         key={index}
-                        href={solution.href}
+                        href={solution.path}
                         className="block py-1 text-sm text-gray-600 hover:text-gray-900"
                       >
                         {solution.title}
