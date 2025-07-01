@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile responsiveness improvements */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  .prose h1 {
+    font-size: 1.75rem;
+  }
+  
+  .prose h2 {
+    font-size: 1.5rem;
+  }
+  
+  .prose h3 {
+    font-size: 1.25rem;
+  }
+  
+  .prose p, .prose li {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Responsive table handling */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Improve tap targets on mobile */
+@media (max-width: 640px) {
+  button, a {
+    min-height: 44px;
+  }
+}

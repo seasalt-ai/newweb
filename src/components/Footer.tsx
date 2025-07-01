@@ -1,0 +1,241 @@
+import React from 'react';
+import { Phone, Mail, MapPin, MessageSquare, Bot, BarChart3 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { products } from '../data/productsData';
+import { solutions } from '../data/solutionsData';
+import { industries } from '../data/industriesData';
+
+const Footer = () => {
+  const { t } = useTranslation();
+
+  return (
+    <footer className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+          {/* Company Info */}
+          <div className="lg:col-span-1">
+            <div className="flex items-center mb-6">
+              <img 
+                src="/seasalt-ai-logo.png" 
+                alt="Seasalt.ai" 
+                className="h-8 w-auto brightness-0 invert"
+              />
+            </div>
+            <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
+              The all-in-one contact center built for small businesses. 
+              Automate support, capture every lead, and unify all your customer conversations.
+            </p>
+            <div className="space-y-2 sm:space-y-3">
+              <div className="flex items-center text-gray-300">
+                <Phone className="h-4 w-4 mr-2" />
+                <span className="text-sm">+1 (555) 123-4567</span>
+              </div>
+              <div className="flex items-center text-gray-300">
+                <Mail className="h-4 w-4 mr-2" />
+                <span className="text-sm">hello@seasalt.ai</span>
+              </div>
+              <div className="flex items-center text-gray-300">
+                <MapPin className="h-4 w-4 mr-2" />
+                <span className="text-sm">San Francisco, CA</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Products */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.products')}</h3>
+            <ul className="space-y-2 sm:space-y-3">
+              {products.map((product, index) => (
+                <li key={index}>
+                  <a 
+                    href={product.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {product.title}
+                  </a>
+                  {product.subProducts && (
+                    <ul className="ml-4 mt-1 sm:mt-2 space-y-1 sm:space-y-2">
+                      {product.subProducts.map((subProduct, subIndex) => (
+                        <li key={subIndex}>
+                          <a
+                            href={subProduct.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-gray-300 transition-colors duration-200 text-sm"
+                          >
+                            {subProduct.title}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Solutions */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.solutions')}</h3>
+            <ul className="space-y-2 sm:space-y-3">
+              {solutions.map((solution, index) => (
+                <li key={index}>
+                  {solution.path ? (
+                    <Link 
+                      to={solution.path}
+                      className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+                    >
+                      <BarChart3 className="h-4 w-4 mr-2" />
+                      {solution.title}
+                    </Link>
+                  ) : (
+                    <a 
+                      href={solution.href}
+                      className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+                    >
+                      <MessageSquare className="h-4 w-4 mr-2" />
+                      {solution.title}
+                    </a>
+                  )}
+                </li>
+              ))}
+              <li>
+                <Link to="/channels-overview" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('header.allChannelsOverview')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Industries */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.industries')}</h3>
+            <ul className="space-y-2 sm:space-y-3">
+              {industries.slice(0, 6).map((industry, index) => (
+                <li key={index}>
+                  <Link 
+                    to={`/industries/${industry.slug}`}
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {industry.title}
+                  </Link>
+                </li>
+              ))}
+              {industries.length > 6 && (
+                <li>
+                  <Link 
+                    to="/"
+                    className="text-gray-400 hover:text-gray-300 transition-colors duration-200 text-sm"
+                  >
+                    View All Industries →
+                  </Link>
+                </li>
+              )}
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.company.title')}</h3>
+            <ul className="space-y-2 sm:space-y-3">
+              <li>
+                <Link to="/blog" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('header.blog')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/pricing" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('header.pricing')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/compare-us-overview" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('header.compareUs')}
+                </Link>
+              </li>
+              <li>
+                <a href="#case-studies" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="#documentation" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#api" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  API Reference
+                </a>
+              </li>
+              <li>
+                <a href="#support" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  Help Center
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
+              <p className="text-gray-300 text-sm">
+                {t('footer.copyright')}
+              </p>
+              <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
+                <a href="#privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.privacyPolicy')}
+                </a>
+                <a href="#terms" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.termsOfService')}
+                </a>
+                <a href="#security" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.security')}
+                </a>
+              </div>
+            </div>
+            
+            {/* Social Proof */}
+            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
+              <span>🏥 {t('footer.compliance.hipaa')}</span>
+              <span>🌍 {t('footer.compliance.uptime')}</span>
+            </div>
+          </div>
+          <div className="text-center mt-4">
+            <p className="text-gray-300 text-sm">Made with <i className="fa fa-heart"></i> in the city of <i className="fa fa-coffee"></i> <i className="fa fa-umbrella"></i> <i className="fa fa-plane"></i> <i className="fa fa-diamond"></i></p>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA Banner */}
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+          <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+            {t('footer.cta.title')}
+          </h3>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <a
+              href="#signup"
+              className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              {t('footer.cta.startFreeTrial')}
+            </a>
+            <a
+              href="#demo"
+              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              {t('footer.cta.scheduleDemo')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
