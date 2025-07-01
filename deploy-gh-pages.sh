@@ -23,6 +23,9 @@ if [[ ! -d "$BUILD_DIR" ]]; then
   exit 1
 fi
 
+npm run build
+npm run seo-update
+
 # 2. Prepare the gh-pages worktree
 git worktree add -B "$TARGET_BRANCH" "$TMP_DIR" origin/"$TARGET_BRANCH" || \
 git worktree add -B "$TARGET_BRANCH" "$TMP_DIR"
