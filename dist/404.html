@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script takes the current URL and converts the path and query
+    // string into just a query string, and then redirects the browser
+    // to the new URL with only a query string and hash fragment.
+
+    // Parse the URL
+    var pathSegmentsToKeep = 0;
+    var l = window.location;
+    
+    // Get the current path without leading/trailing slashes
+    var path = l.pathname.replace(/^\/+|\/+$/g, '');
+    var pathSegments = path.split('/');
+    var possibleLanguageCodes = ['en', 'es', 'fr', 'de', 'pl', 'pt', 'ru', 'ar', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'hi'];
+    var languageCode = 'en';
+    if (pathSegments.length > 0 && possibleLanguageCodes.includes(pathSegments[0])) {
+      languageCode = pathSegments[0];
+      pathSegments = pathSegments.slice(1);
+    }
+    var url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+    var hashPath = '#/' + languageCode;
+    if (pathSegments.length > 0 && pathSegments[0] !== '') {
+      hashPath += '/' + pathSegments.join('/');
+    }
+    if (l.search) {
+      hashPath += l.search;
+    }
+    window.location.replace(url + '/' + hashPath);
+  </script>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+</body>
+</html>
