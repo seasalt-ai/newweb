@@ -15,35 +15,24 @@
     var pathSegmentsToKeep = 0;
     var l = window.location;
     
-    // Extract the language code from the URL if present
-    var pathArray = l.pathname.split('/');
-    var languageCode = '';
-    
-    // Check if the first segment is a language code
+    // Get the current path without leading/trailing slashes
+    var path = l.pathname.replace(/^\/+|\/+$/g, '');
+    var pathSegments = path.split('/');
     var possibleLanguageCodes = ['en', 'es', 'fr', 'de', 'pl', 'pt', 'ru', 'ar', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'hi'];
-    if (pathArray.length > 1 && possibleLanguageCodes.includes(pathArray[1])) {
-      // Keep the language code
-      languageCode = '/' + pathArray[1];
-      // Remove the language code from the path for the redirect
-      pathArray.splice(1, 1);
-    } else {
-      // Default to English if no language code is present
-      languageCode = '/en';
+    var languageCode = 'en';
+    if (pathSegments.length > 0 && possibleLanguageCodes.includes(pathSegments[0])) {
+      languageCode = pathSegments[0];
+      pathSegments = pathSegments.slice(1);
     }
-
     var url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
-    
-    // Construct the redirect URL
-    url += languageCode + '/#';
-    
-    // Add the remaining path
-    url += pathArray.slice(1).join('/');
-    
-    // Add query string
-    url += l.search;
-    
-    // Redirect to the new URL
-    window.location.href = url;
+    var hashPath = '#/' + languageCode;
+    if (pathSegments.length > 0 && pathSegments[0] !== '') {
+      hashPath += '/' + pathSegments.join('/');
+    }
+    if (l.search) {
+      hashPath += l.search;
+    }
+    window.location.replace(url + '/' + hashPath);
   </script>
 </head>
 <body>
