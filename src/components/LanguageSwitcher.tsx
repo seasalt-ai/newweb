@@ -55,6 +55,8 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
       // If no language in path, add it
       newPath = `/${languageCode}${cleanPathname}`;
     }
+
+
     
     // Change the language and navigate to the new path
     i18n.changeLanguage(languageCode);
