@@ -323,10 +323,10 @@ const BlogPostPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <a
-                href="#signup"
-                className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
-              >
-                Start Free Trial
+                 href="https://seax.seasalt.ai/signup"
+                 className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+               >
+                 Sign Up
               </a>
               <a
                 href="#demo"

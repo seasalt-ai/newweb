@@ -265,10 +265,9 @@ const FacebookMessenger = () => {
                 Connect Messenger
               </a>
               <a
-                href="#demo"
-                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                See Live Demo
+                Book A Demo
               </a>
             </div>
           </div>

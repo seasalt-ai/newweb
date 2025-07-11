@@ -94,10 +94,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                 </h2>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#signup"
-                    className={`${color.replace('text-', 'bg-')} hover:opacity-90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
-                  >
-                    Start Free Trial
+                     href="https://seax.seasalt.ai/signup"
+                     className={`${color.replace('text-', 'bg-')} hover:opacity-90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
+                   >
+                     Sign Up
                   </a>
                   <a
                     href="#demo"
@@ -233,10 +233,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
-                className="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
-              >
-                Start Free Trial
+                 href="https://seax.seasalt.ai/signup"
+                 className="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+               >
+                 Sign Up
               </a>
               <a
                 href="#demo"

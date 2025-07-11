@@ -404,10 +404,10 @@ const OpenPhoneAlternative = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
-                className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
-              >
-                Start Free Trial
+                 href="https://seax.seasalt.ai/signup"
+                 className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+               >
+                 Sign Up
               </a>
               <a
                 href="#migration"

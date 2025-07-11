@@ -28,7 +28,7 @@ const PricingPage = () => {
         'Basic Integrations (Shopify, etc.)',
         'Email support'
       ],
-      cta: 'Start for Free',
+      cta: 'Sign Up',
       ctaStyle: 'bg-gray-600 hover:bg-gray-700 text-white',
       popular: false
     },
@@ -212,8 +212,8 @@ const PricingPage = () => {
               <a href="#login" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Login
               </a>
-              <a href="#signup" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium">
-                Start for Free
+              <a href="https://seax.seasalt.ai/signup" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium">
+                 Sign Up
               </a>
             </div>
           </div>
@@ -412,10 +412,9 @@ const PricingPage = () => {
           {/* Final CTA */}
           <div className="text-center">
             <a
-              href="#signup"
-              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+               href="https://seax.seasalt.ai/signup" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Start Your Free Account Today
+              Sign Up Now
             </a>
             <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">No credit card required • Setup in under 5 minutes</p>
           </div>

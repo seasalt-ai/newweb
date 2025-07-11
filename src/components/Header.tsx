@@ -320,7 +320,7 @@ const Header = () => {
               )}
             </div>
             <a
-              href="#login"
+              href="https://seax.seasalt.ai/signin"
               className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
             >
               {t('header.login')}

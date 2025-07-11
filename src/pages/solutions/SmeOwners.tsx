@@ -171,10 +171,9 @@ const SmeOwners = () => {
                     Get Your AI Assistant
                   </a>
                   <a
-                    href="#demo"
-                    className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                     href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    See 2-Min Demo
+                    Book A Demo
                   </a>
                 </div>
               </div>

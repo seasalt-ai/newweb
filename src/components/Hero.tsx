@@ -27,15 +27,14 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 sm:mb-12">
                 <a
                   href="https://seax.seasalt.ai/signup"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
                 >
                   Sign Up
                 </a>
                 <a
-                  href="#demo"
-                  className="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                   href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                 >
-                  See 2-Min Demo
+                  Book A Demo
                 </a>
               </div>
 
@@ -43,7 +42,7 @@ const Hero = () => {
               <div className="border-t border-gray-200 pt-6 sm:pt-8">
                 <p className="text-sm text-gray-500 mb-4">
                   Seasalt.ai brings developers an agentic communication tool for the following{' '}
-                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                  <code className="text-sm font-mono text-red-800 px-3 py-1.5 rounded-md font-semibold whitespace-nowrap">
                     tool use
                   </code>
                   :
