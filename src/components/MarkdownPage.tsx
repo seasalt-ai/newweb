@@ -47,7 +47,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ pageType }) => {
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
-              code({ node, className, children, inline, ...props }: { node: any; className?: string; children: React.ReactNode; inline?: boolean; [key: string]: any; }) {
+              code({ className = '', children, inline, ...props }: { className?: string; children?: React.ReactNode; inline?: boolean; [key: string]: any; }) {
                 const match = /language-(\w+)/.exec(className || '');
                 return !inline && match ? (
                   <SyntaxHighlighter
