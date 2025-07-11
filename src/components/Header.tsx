@@ -277,7 +277,7 @@ const Header = () => {
                   {industries.map((industry, index) => (
                     <Link 
                       key={index}
-                      to={`/${i18n.language}/industries/${industry.slug}`} 
+                      to={`/${i18n.language}/industry/${industry.slug}`} 
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                     >
                       {industry.title}
@@ -382,9 +382,9 @@ const Header = () => {
               {t('header.login')}
             </a>
             <a
-              href="#signup"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
-            >
+                href="https://seax.seasalt.ai/signup"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
+              >
               {t('header.startForFree')}
             </a>
           </div>
@@ -477,7 +477,7 @@ const Header = () => {
                   {industries.map((industry, index) => (
                     <Link 
                       key={index}
-                      to={`/${i18n.language}/industries/${industry.slug}`}
+                      to={`/${i18n.language}/industry/${industry.slug}`}
                       className="block py-1 text-sm text-gray-600 hover:text-gray-900"
                     >
                       {industry.title}
@@ -520,7 +520,7 @@ const Header = () => {
                 <a href="#login" className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
                   {t('header.login')}
                 </a>
-                <a href="#signup" className="block px-3 py-2 bg-blue-600 text-white rounded-md text-center font-medium">
+                <a href="https://seax.seasalt.ai/signup" className="block px-3 py-2 bg-blue-600 text-white rounded-md text-center font-medium">
                   {t('header.startForFree')}
                 </a>
               </div>

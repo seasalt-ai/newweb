@@ -166,13 +166,13 @@ const CustomerSupport = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#signup"
+                    href="https://seax.seasalt.ai/signup"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Improve Support Now
                   </a>
                   <a
-                    href="#demo"
+                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo
@@ -375,7 +375,7 @@ const CustomerSupport = () => {
                  Sign Up
               </a>
               <a
-                href="#demo"
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Book Support Demo
