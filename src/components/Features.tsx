@@ -82,9 +82,9 @@ const Features = () => {
         {/* Testimonial Quote */}
         <div className="mt-20 text-center">
           <blockquote className="text-xl sm:text-2xl font-medium text-gray-900 mb-4">
-            "I recommend SeaChat for its powerful knowledge base system and channel support!"
+            "I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!"
           </blockquote>
-          <cite className="text-base sm:text-lg text-gray-600">— Gartner Review</cite>
+          <cite className="text-base sm:text-lg text-gray-600">— Solution Architect Review</cite>
         </div>
       </div>
     </section>

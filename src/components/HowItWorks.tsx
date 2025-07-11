@@ -75,7 +75,7 @@ const HowItWorks = () => {
           >
             Sign Up Now
           </a>
-          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">No credit card required • Setup in under 5 minutes</p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">Setup in under 5 minutes</p>
         </div>
       </div>
     </section>

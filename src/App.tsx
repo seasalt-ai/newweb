@@ -52,6 +52,7 @@ import AIAutomation from './pages/solutions/AIAutomation';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import LanguageRouter from './components/LanguageRouter';
+import MarkdownPage from './components/MarkdownPage';
 
 function HomePage() {
   const { t } = useTranslation();
@@ -151,6 +152,8 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
         </Route>
+        <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
+        <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         
         {/* Fallback for direct access to non-language prefixed routes 
              This will catch any routes that don't match the patterns above and redirect to the current language */}

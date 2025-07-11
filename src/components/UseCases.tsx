@@ -90,7 +90,7 @@ const UseCases = () => {
     },
     {
       icon: <MessageSquare className="h-10 w-10" />,
-      title: 'Intelligent Chatbot Support',
+      title: 'Intelligent Chatbot and Voicebot AI Support',
       headline: 'AI-Powered Customer Support That Never Sleeps',
       description: 'Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.',
       features: [

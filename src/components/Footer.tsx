@@ -29,15 +29,15 @@ const Footer = () => {
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center text-gray-300">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+1 (877) 731-2882 </span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">hello@seasalt.ai</span>
+                <span className="text-sm">info@seasalt.ai</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-sm">San Francisco, CA</span>
+                <span className="text-sm">Seattle, WA</span>
               </div>
             </div>
           </div>
@@ -185,18 +185,15 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                {t('footer.copyright')}
+                {t('footer.copyright', { year: new Date().getFullYear() })}
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
-                <a href="#privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
                   {t('footer.privacyPolicy')}
-                </a>
-                <a href="#terms" className="text-gray-300 hover:text-white transition-colors duration-200">
+                </Link>
+                <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
                   {t('footer.termsOfService')}
-                </a>
-                <a href="#security" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  {t('footer.security')}
-                </a>
+                </Link>
               </div>
             </div>
             
