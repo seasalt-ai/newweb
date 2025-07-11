@@ -1,8 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Phone, MessageSquare, MessageCircle, Mail, Monitor, Smartphone, Megaphone, BarChart3, Users, Inbox } from 'lucide-react';
 
 const Hero = () => {
   const [activeTab, setActiveTab] = useState('marketing');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveTab((prevTab) => (prevTab === 'marketing' ? 'support' : 'marketing'));
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16 pb-20">
