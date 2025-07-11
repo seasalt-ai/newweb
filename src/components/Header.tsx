@@ -184,7 +184,8 @@ const Header = () => {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {isSolutionsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                <div className="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                  {/* Existing Solutions */}
                   {solutions.map((solution, index) => (
                     solution.path ? (
                       <Link 
@@ -204,6 +205,61 @@ const Header = () => {
                       </a>
                     )
                   ))}
+                  {/* Use Cases Section */}
+                  <div className="border-t border-gray-100 mt-2 pt-2">
+                    <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
+                    {/* Small & Medium Businesses */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="building">🏢</span> Small & Medium Businesses
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600">
+                        <li><a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" className="hover:underline" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a></li>
+                        <li><a href="https://usecase.seasalt.ai/bulk-send-sms/" className="hover:underline" target="_blank" rel="noopener noreferrer">Bulk send SMS</a></li>
+                        <li><a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" className="hover:underline" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a></li>
+                        <li><a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" className="hover:underline" target="_blank" rel="noopener noreferrer">Call your customers in batch</a></li>
+                        <li><a href="https://usecase.seasalt.ai/auto-answer-calls-247/" className="hover:underline" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a></li>
+                      </ul>
+                    </div>
+                    {/* Healthcare */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="plus">➕</span> Healthcare
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600">
+                        <li><a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" className="hover:underline" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a></li>
+                        <li><a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" className="hover:underline" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a></li>
+                      </ul>
+                    </div>
+                    {/* Education */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="graduation-cap">🎓</span> Education
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600">
+                        <li><a href="https://usecase.seasalt.ai/education/" className="hover:underline" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a></li>
+                      </ul>
+                    </div>
+                    {/* Campaign Messaging */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="comment-alt">💬</span> Campaign Messaging
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600">
+                        <li><a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" className="hover:underline" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a></li>
+                      </ul>
+                    </div>
+                    {/* Speech Analysis */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="circle">⚪</span> Speech Analysis
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600">
+                        <li><a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" className="hover:underline" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a></li>
+                        <li><a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" className="hover:underline" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
