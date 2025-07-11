@@ -19,17 +19,17 @@ const Hero = () => {
                 Call, WhatsApp, and Chat in One Simple Inbox.
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
-                Seasalt.ai is the all-in-one contact center built for small businesses. Automate support, 
+                Seasalt.ai is the all-in-one contact center built for businesses. Automate support, 
                 capture every lead, and manage all your conversations from a single screen.
               </p>
               
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 sm:mb-12">
                 <a
-                  href="#signup"
+                  href="https://seax.seasalt.ai/signup"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
-                  Start for Free
+                  Sign Up
                 </a>
                 <a
                   href="#demo"
@@ -41,12 +41,26 @@ const Hero = () => {
 
               {/* Social Proof */}
               <div className="border-t border-gray-200 pt-6 sm:pt-8">
-                <p className="text-sm text-gray-500 mb-4">Trusted by growing businesses worldwide</p>
-                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-6 opacity-60">
-                  <div className="h-6 sm:h-8 w-16 sm:w-20 bg-gray-300 rounded"></div>
-                  <div className="h-6 sm:h-8 w-16 sm:w-20 bg-gray-300 rounded"></div>
-                  <div className="h-6 sm:h-8 w-16 sm:w-20 bg-gray-300 rounded"></div>
-                  <div className="h-6 sm:h-8 w-16 sm:w-20 bg-gray-300 rounded"></div>
+                <p className="text-sm text-gray-500 mb-4">
+                  Seasalt.ai brings developers an agentic communication tool for the following{' '}
+                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                    tool use
+                  </code>
+                  :
+                </p>
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
+                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                    phone use
+                  </code>
+                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                    message use
+                  </code>
+                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                    email use
+                  </code>
+                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                    meeting use
+                  </code>
                 </div>
               </div>
             </div>
