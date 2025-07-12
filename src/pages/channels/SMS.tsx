@@ -76,13 +76,13 @@ const SMS = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#setup"
+                    href="https://seax.seasalt.ai/signup"
                     className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Start SMS Campaigns
                   </a>
                   <a
-                    href="#demo"
+                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo

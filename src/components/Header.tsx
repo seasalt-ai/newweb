@@ -274,15 +274,45 @@ const Header = () => {
               </button>
               {isIndustriesOpen && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
-                  {industries.map((industry, index) => (
-                    <Link 
-                      key={index}
-                      to={`/${i18n.language}/industry/${industry.slug}`} 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
-                    >
-                      {industry.title}
-                    </Link>
-                  ))}
+                  {industries.map((industry, index) => {
+                    // If industry has a demo link, replace #demo with external link
+                    if (industry.href === '#demo') {
+                      return (
+                        <a
+                          key={index}
+                          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {industry.title}
+                        </a>
+                      );
+                    }
+                    // If industry has a signup link, replace #signup with external link
+                    if (industry.href === '#signup') {
+                      return (
+                        <a
+                          key={index}
+                          href="https://seax.seasalt.ai/signup"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {industry.title}
+                        </a>
+                      );
+                    }
+                    return (
+                      <Link 
+                        key={index}
+                        to={`/${i18n.language}/industries/${industry.slug}`.replace(/^(\/[^/]+)\1/, '$1')}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                      >
+                        {industry.title}
+                      </Link>
+                    );
+                  })}
                 </div>
               )}
             </div>

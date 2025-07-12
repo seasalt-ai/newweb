@@ -77,13 +77,13 @@ const WhatsApp = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#setup"
+                    href="https://seax.seasalt.ai/signup"
                     className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Connect WhatsApp in 10 Minutes
                   </a>
                   <a
-                    href="#demo"
+                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo
@@ -206,7 +206,7 @@ const WhatsApp = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
+                href="https://seax.seasalt.ai/signup"
                 className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Start Integration

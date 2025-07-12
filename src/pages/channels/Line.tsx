@@ -99,13 +99,13 @@ const Line = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#setup"
+                    href="https://chat.seasalt.ai/gpt/signup"
                     className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Start LINE Integration
                   </a>
                   <a
-                    href="#demo"
+                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo
@@ -282,7 +282,7 @@ const Line = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
+                href="https://seax.seasalt.ai/signup"
                 className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Start LINE Integration

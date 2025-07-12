@@ -81,7 +81,7 @@ const WebsiteChat = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#setup"
+                    href="https://chat.seasalt.ai/gpt/signup"
                     className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Get Your Free Widget
@@ -267,7 +267,7 @@ const WebsiteChat = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
+                href="https://seax.seasalt.ai/signup"
                 className="bg-white text-indigo-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Get Widget Code

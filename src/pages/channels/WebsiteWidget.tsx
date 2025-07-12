@@ -109,7 +109,7 @@ const WebsiteWidget = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="#setup"
+                    href="https://seax.seasalt.ai/signup"
                     className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Deploy Widget Now
@@ -297,7 +297,7 @@ const WebsiteWidget = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#signup"
+                href="https://seax.seasalt.ai/signup"
                 className="bg-white text-orange-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Get Widget Code
