@@ -29,15 +29,15 @@ const Footer = () => {
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center text-gray-300">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+1 (877) 731-2882 </span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">hello@seasalt.ai</span>
+                <span className="text-sm">info@seasalt.ai</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-sm">San Francisco, CA</span>
+                <span className="text-sm">Seattle, WA</span>
               </div>
             </div>
           </div>
@@ -185,24 +185,24 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                {t('footer.copyright')}
+                {t('footer.copyright', { year: new Date().getFullYear() })}
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
-                <a href="#privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
                   {t('footer.privacyPolicy')}
-                </a>
-                <a href="#terms" className="text-gray-300 hover:text-white transition-colors duration-200">
+                </Link>
+                <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
                   {t('footer.termsOfService')}
-                </a>
-                <a href="#security" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  {t('footer.security')}
-                </a>
+                </Link>
               </div>
             </div>
             
             {/* Social Proof */}
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
-              <span>🏥 {t('footer.compliance.hipaa')}</span>
+              <Link to="/seahealth" className="flex items-center hover:text-white transition-colors duration-200">
+                <img src="/hipaa-icon.svg" alt="HIPAA" className="h-5 w-5 mr-1 inline-block align-text-bottom" />
+                {t('footer.compliance.hipaa')}
+              </Link>
               <span>🌍 {t('footer.compliance.uptime')}</span>
             </div>
           </div>
@@ -220,13 +220,13 @@ const Footer = () => {
           </h3>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
-              href="#signup"
+              href="https://seax.seasalt.ai/signup"
               className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               {t('footer.cta.startFreeTrial')}
             </a>
             <a
-              href="#demo"
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               {t('footer.cta.scheduleDemo')}

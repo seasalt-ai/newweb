@@ -71,12 +71,11 @@ const HowItWorks = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="#signup"
-            className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+             href="https://seax.seasalt.ai/signup" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
-            Start Your Free Account
+            Sign Up Now
           </a>
-          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">No credit card required • Setup in under 5 minutes</p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">Setup in under 5 minutes</p>
         </div>
       </div>
     </section>

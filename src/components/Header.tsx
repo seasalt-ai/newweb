@@ -9,13 +9,14 @@ import { products } from '../data/productsData';
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isProductsOpen, setIsProductsOpen] = useState(false);
+  // Only one dropdown open at a time
+  const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
   const [isSeaVoiceSubMenuOpen, setIsSeaVoiceSubMenuOpen] = useState(false);
-  const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
-  const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
-  const [isChannelsOpen, setIsChannelsOpen] = useState(false);
-  const [isCompareOpen, setIsCompareOpen] = useState(false);
-  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  // Helper to open only one dropdown at a time
+  const handleDropdown = (dropdown: typeof openDropdown) => {
+    setOpenDropdown(prev => (prev === dropdown ? null : dropdown));
+    if (dropdown !== 'products') setIsSeaVoiceSubMenuOpen(false);
+  };
 
   const channels = [
     { name: 'WhatsApp Business', path: '/channels/whatsapp' },
@@ -84,7 +85,7 @@ const Header = () => {
     window.location.href = newPath;
     
     // Close the dropdown
-    setIsLanguageOpen(false);
+    setOpenDropdown(null);
   };
 
   // Get current language name
@@ -112,13 +113,13 @@ const Header = () => {
           <nav className="hidden lg:flex items-center space-x-8">
             <div className="relative">
               <button
-                onClick={() => setIsProductsOpen(!isProductsOpen)}
+                onClick={() => handleDropdown('products')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.products')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isProductsOpen && (
+              {openDropdown === 'products' && (
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
                   {products.map((product, index) => (
                     <div key={index} className="relative">
@@ -177,14 +178,15 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsSolutionsOpen(!isSolutionsOpen)}
+                onClick={() => handleDropdown('solutions')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.solutions')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isSolutionsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+              {openDropdown === 'solutions' && (
+                <div className="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                  {/* Existing Solutions */}
                   {solutions.map((solution, index) => (
                     solution.path ? (
                       <Link 
@@ -204,42 +206,127 @@ const Header = () => {
                       </a>
                     )
                   ))}
+                  {/* Use Cases Section */}
+                  <div className="border-t border-gray-100 mt-2 pt-2">
+                    <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
+                    {/* Small & Medium Businesses */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="building">🏢</span> Small & Medium Businesses
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                        <li><a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" className="hover:underline" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a></li>
+                        <li><a href="https://usecase.seasalt.ai/bulk-send-sms/" className="hover:underline" target="_blank" rel="noopener noreferrer">Bulk send SMS</a></li>
+                        <li><a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" className="hover:underline" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a></li>
+                        <li><a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" className="hover:underline" target="_blank" rel="noopener noreferrer">Call your customers in batch</a></li>
+                        <li><a href="https://usecase.seasalt.ai/auto-answer-calls-247/" className="hover:underline" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a></li>
+                      </ul>
+                    </div>
+                    {/* Healthcare */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="plus">➕</span> Healthcare
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                        <li><a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" className="hover:underline" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a></li>
+                        <li><a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" className="hover:underline" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a></li>
+                      </ul>
+                    </div>
+                    {/* Education */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="graduation-cap">🎓</span> Education
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                        <li><a href="https://usecase.seasalt.ai/education/" className="hover:underline" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a></li>
+                      </ul>
+                    </div>
+                    {/* Campaign Messaging */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="comment-alt">💬</span> Campaign Messaging
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                        <li><a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" className="hover:underline" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a></li>
+                      </ul>
+                    </div>
+                    {/* Speech Analysis */}
+                    <div className="px-4 mb-2">
+                      <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                        <span role="img" aria-label="circle">⚪</span> Speech Analysis
+                      </div>
+                      <ul className="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                        <li><a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" className="hover:underline" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a></li>
+                        <li><a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" className="hover:underline" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
             
             <div className="relative">
               <button
-                onClick={() => setIsIndustriesOpen(!isIndustriesOpen)}
+                onClick={() => handleDropdown('industries')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.industries')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isIndustriesOpen && (
+              {openDropdown === 'industries' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
-                  {industries.map((industry, index) => (
-                    <Link 
-                      key={index}
-                      to={`/${i18n.language}/industries/${industry.slug}`} 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
-                    >
-                      {industry.title}
-                    </Link>
-                  ))}
+                  {industries.map((industry, index) => {
+                    // If industry has a demo link, replace #demo with external link
+                    if (industry.href === '#demo') {
+                      return (
+                        <a
+                          key={index}
+                          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {industry.title}
+                        </a>
+                      );
+                    }
+                    // If industry has a signup link, replace #signup with external link
+                    if (industry.href === '#signup') {
+                      return (
+                        <a
+                          key={index}
+                          href="https://seax.seasalt.ai/signup"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {industry.title}
+                        </a>
+                      );
+                    }
+                    return (
+                      <Link 
+                        key={index}
+                        to={`/${i18n.language}/industries/${industry.slug}`.replace(/^(\/[^/]+)\1/, '$1')}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                      >
+                        {industry.title}
+                      </Link>
+                    );
+                  })}
                 </div>
               )}
             </div>
             
             <div className="relative">
               <button
-                onClick={() => setIsChannelsOpen(!isChannelsOpen)}
+                onClick={() => handleDropdown('channels')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.channels')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isChannelsOpen && (
+              {openDropdown === 'channels' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   <Link to={`/${i18n.language}/channels-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
                     {t('header.allChannelsOverview')}
@@ -263,13 +350,13 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsCompareOpen(!isCompareOpen)}
+                onClick={() => handleDropdown('compare')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.compareUs')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isCompareOpen && (
+              {openDropdown === 'compare' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   <Link to={`/${i18n.language}/compare-us-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
                     All Comparisons Overview
@@ -297,13 +384,13 @@ const Header = () => {
             {/* Language Selector */}
             <div className="relative">
               <button
-                onClick={() => setIsLanguageOpen(!isLanguageOpen)}
+                onClick={() => handleDropdown('language')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 <span className="mr-1">{getCurrentLanguageName()}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
-              {isLanguageOpen && (
+              {openDropdown === 'language' && (
                 <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
                   {languages.map((language) => (
                     <button
@@ -320,15 +407,15 @@ const Header = () => {
               )}
             </div>
             <a
-              href="#login"
+              href="https://seax.seasalt.ai/signin"
               className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
             >
               {t('header.login')}
             </a>
             <a
-              href="#signup"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
-            >
+                href="https://seax.seasalt.ai/signup"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
+              >
               {t('header.startForFree')}
             </a>
           </div>
@@ -464,7 +551,7 @@ const Header = () => {
                 <a href="#login" className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
                   {t('header.login')}
                 </a>
-                <a href="#signup" className="block px-3 py-2 bg-blue-600 text-white rounded-md text-center font-medium">
+                <a href="https://seax.seasalt.ai/signup" className="block px-3 py-2 bg-blue-600 text-white rounded-md text-center font-medium">
                   {t('header.startForFree')}
                 </a>
               </div>

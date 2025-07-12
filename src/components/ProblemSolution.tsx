@@ -102,10 +102,10 @@ const ProblemSolution = () => {
             </div>
 
             <a
-              href="#signup"
+              href="https://seax.seasalt.ai/signup"
               className="inline-flex items-center bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              See How Seasalt.ai Solves This
+              Use Seasalt.ai to Solve This
             </a>
           </div>
         </div>

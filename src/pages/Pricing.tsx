@@ -3,6 +3,8 @@ import { Check, Star, ArrowLeft, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const PricingPage = () => {
   const { i18n } = useTranslation();
@@ -28,7 +30,7 @@ const PricingPage = () => {
         'Basic Integrations (Shopify, etc.)',
         'Email support'
       ],
-      cta: 'Start for Free',
+      cta: 'Sign Up',
       ctaStyle: 'bg-gray-600 hover:bg-gray-700 text-white',
       popular: false
     },
@@ -190,36 +192,8 @@ const PricingPage = () => {
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />
-      
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <Link to="/" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mr-8">
-                <ArrowLeft className="h-5 w-5 mr-2" />
-                Back to Home
-              </Link>
-              <div className="flex items-center">
-                <img 
-                  src="/seasalt-ai-logo.png" 
-                  alt="Seasalt.ai" 
-                  className="h-8 w-auto"
-                />
-              </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <a href="#login" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
-                Login
-              </a>
-              <a href="#signup" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium">
-                Start for Free
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-
+      {/* Global Header */}
+      <Header />
       {/* Main Content */}
       <main className="py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
@@ -412,15 +386,15 @@ const PricingPage = () => {
           {/* Final CTA */}
           <div className="text-center">
             <a
-              href="#signup"
-              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+               href="https://seax.seasalt.ai/signup" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Start Your Free Account Today
+              Sign Up Now
             </a>
-            <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">No credit card required • Setup in under 5 minutes</p>
+            <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">Setup in under 5 minutes</p>
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
