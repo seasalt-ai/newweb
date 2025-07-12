@@ -17,7 +17,7 @@
     var url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
     // Special fallback for /seahealth and /health
     if (l.pathname === '/seahealth' || l.pathname === '/health') {
-      window.location.replace(url + '/seahealth');
+      window.location.replace(url + '/#/seahealth');
     } else {
       // Language fallback (default to en)
       var pathSegments = path.split('/');
