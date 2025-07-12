@@ -115,8 +115,7 @@ function App() {
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
         {/* /health redirects to /seahealth */}
         <Route path="/health" element={<Navigate to="/seahealth" replace />} />
-        {/* Global SeaHealth route (not language-prefixed) */}
-        <Route path="/seahealth" element={<SeaHealth />} />
+        <Route path="/seahealth" element={<Navigate to="/en/seahealth" replace />} />
         {/* Language-specific routes */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
@@ -159,8 +158,9 @@ function App() {
           <Route path="solutions/ai-automation" element={<AIAutomation />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
-        </Route>
-        <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
+        <Route path="seahealth" element={<SeaHealth />} />
+      </Route>
+      <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
