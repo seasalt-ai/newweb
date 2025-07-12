@@ -40,6 +40,20 @@ const Footer = () => {
                 <span className="text-sm">Seattle, WA</span>
               </div>
             </div>
+            <div className="flex space-x-4 mt-6">
+              <a href="https://www.linkedin.com/company/seasalt-ai/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <i className="fab fa-linkedin text-xl"></i>
+              </a>
+              <a href="https://www.youtube.com/@seasaltai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <i className="fab fa-youtube text-xl"></i>
+              </a>
+              <a href="https://twitter.com/SeasaltAI" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <i className="fab fa-twitter text-xl"></i>
+              </a>
+              <a href="https://discord.gg/VgAWg3c7rU" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <i className="fab fa-discord text-xl"></i>
+              </a>
+            </div>
           </div>
 
           {/* Products */}
