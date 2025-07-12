@@ -20,14 +20,13 @@ function getBlogPosts() {
   const contentFiles = glob.sync('content/**/*.md');
   
   contentFiles.forEach(file => {
-    // Extract language and slug from file path
-    // Example: content/en/blog-post.md -> { lang: 'en', slug: 'blog-post' }
+    // Only process files like content/en/blog-post.md
     const pathParts = file.split('/');
-    const lang = pathParts[1];
-    const slug = pathParts[2].replace('.md', '');
-    
-    // Add to blog posts array
-    blogPosts.push({ lang, slug });
+    if (pathParts.length === 3) {
+      const lang = pathParts[1];
+      const slug = pathParts[2].replace('.md', '');
+      blogPosts.push({ lang, slug });
+    }
   });
   
   return blogPosts;
