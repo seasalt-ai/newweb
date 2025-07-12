@@ -14,24 +14,21 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: process.env.NODE_ENV === 'development',
-    
+    load: 'languageOnly', // Always load e.g. 'en' for 'en-US'
     // Backend configuration
     backend: {
       // Path to load language files from
       loadPath: '/locales/{{lng}}.json',
     },
-    
     // Detect language from browser
     detection: {
       order: ['navigator', 'htmlTag', 'path', 'cookie'],
       caches: ['localStorage', 'cookie'],
       lookupLocalStorage: 'i18nextLng',
     },
-    
     interpolation: {
       escapeValue: false, // React already escapes values
     },
-    
     // Wait for translations to be loaded before rendering
     react: {
       useSuspense: true,
