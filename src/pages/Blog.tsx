@@ -118,6 +118,7 @@ const Blog = () => {
       <SEOHelmet
         title={`Blog - Seasalt.ai`}
         description="Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl || `/${lang}/blog`}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

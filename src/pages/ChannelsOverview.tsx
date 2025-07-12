@@ -181,6 +181,7 @@ const ChannelsOverview = () => {
       <SEOHelmet
         title="Communication Channels - Seasalt.ai"
         description="Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

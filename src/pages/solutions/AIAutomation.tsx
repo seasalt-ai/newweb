@@ -135,6 +135,7 @@ const AIAutomation = () => {
       <SEOHelmet
         title="AI Automation Solutions - Seasalt.ai"
         description="Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

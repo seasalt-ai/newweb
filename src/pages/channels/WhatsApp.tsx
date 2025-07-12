@@ -51,6 +51,7 @@ const WhatsApp = () => {
       <SEOHelmet
         title="WhatsApp Business Integration - Seasalt.ai"
         description="Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

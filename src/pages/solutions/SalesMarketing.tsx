@@ -135,6 +135,7 @@ const SalesMarketing = () => {
       <SEOHelmet
         title="Sales & Marketing Solutions - Seasalt.ai"
         description="Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

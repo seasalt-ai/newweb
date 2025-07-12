@@ -160,6 +160,7 @@ const BlogPostPage = () => {
         <SEOHelmet
           title={post.title}
           description={post.meta_description || `${post.title} - Seasalt.ai Blog`}
+          favicon="/seasalt-ai-favicon.ico"
           canonicalUrl={canonicalUrl}
           availableLanguages={post.availableLanguages}
           image={post.image_thumbnail}

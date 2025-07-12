@@ -3,9 +3,16 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaCheckCircle, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegHospital, FaRegAddressBook, FaRegComments, FaRegThumbsUp, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegEnvelopeOpen, FaRegStar, FaRegHeart, FaRegLightbulb, FaRegCalendarPlus, FaRegCalendarCheck, FaRegCalendarTimes, FaRegArrowAltCircleRight, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown, FaRegArrowAltCircleLeft } from 'react-icons/fa';
+import SEOHelmet from '../components/SEOHelmet';
 
 const SeaHealth = () => (
   <div className="min-h-screen bg-white flex flex-col">
+    <SEOHelmet 
+      title="SeaHealth - AI-Powered Communication for Healthcare"
+      description="Elevate patient communication and streamline operations with SeaHealth's AI-powered, HIPAA-compliant platform. Unify calls, texts, and messaging in one secure inbox."
+      favicon="/health-images/main/favicon-seahealth.ico"
+      canonicalUrl={typeof window !== 'undefined' ? `${window.location.origin}/seahealth` : `/seahealth`}
+    />
     <Header />
     <main className="flex-1 w-full bg-white">
       {/* Hero Section */}

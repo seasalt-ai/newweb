@@ -69,6 +69,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
       <SEOHelmet
         title={`${title} Solutions - Seasalt.ai`}
         description={`${headline} See how Seasalt.ai helps ${title} businesses improve customer communications and drive growth.`}
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

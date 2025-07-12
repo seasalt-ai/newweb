@@ -39,6 +39,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ pageType }) => {
       <SEOHelmet
         title={pageType === 'privacy' ? 'Privacy Policy - Seasalt.ai' : 'Terms of Service - Seasalt.ai'}
         description={pageType === 'privacy' ? 'Read the Privacy Policy of Seasalt.ai.' : 'Read the Terms of Service of Seasalt.ai.'}
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={typeof window !== 'undefined' ? `${window.location.origin}/${pageType}` : `/${pageType}`}
       />
       <Header />

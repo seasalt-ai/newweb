@@ -129,6 +129,7 @@ const CompareUsOverview = () => {
       <SEOHelmet
         title="Compare Seasalt.ai to Alternatives"
         description="See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

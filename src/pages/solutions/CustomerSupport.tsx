@@ -135,6 +135,7 @@ const CustomerSupport = () => {
       <SEOHelmet
         title="Customer Support Solutions - Seasalt.ai"
         description="Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

@@ -135,6 +135,7 @@ const SmeOwners = () => {
       <SEOHelmet
         title="SME Owner Solutions - Seasalt.ai"
         description="You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />

@@ -55,6 +55,8 @@ import LanguageRouter from './components/LanguageRouter';
 import MarkdownPage from './components/MarkdownPage';
 import SeaHealth from './pages/SeaHealth';
 
+import SEOHelmet from './components/SEOHelmet';
+
 function HomePage() {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -67,25 +69,12 @@ function HomePage() {
   
   return (
     <div className="min-h-screen bg-white">
-      <Helmet>
-        <title>Seasalt.ai - Omni-Channel Contact Center for Small Businesses</title>
-        <meta name="description" content="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses." />
-        <link rel="canonical" href={canonicalUrl} />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:title" content="Seasalt.ai - Omni-Channel Contact Center for Small Businesses" />
-        <meta property="og:description" content="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses." />
-        <meta property="og:image" content="/seasalt-ai-logo.png" />
-        
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={canonicalUrl} />
-        <meta property="twitter:title" content="Seasalt.ai - Omni-Channel Contact Center for Small Businesses" />
-        <meta property="twitter:description" content="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses." />
-        <meta property="twitter:image" content="/seasalt-ai-logo.png" />
-      </Helmet>
+      <SEOHelmet 
+        title="Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
+        description="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses."
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={canonicalUrl}
+      />
       <Header />
       <Hero />
       <ProblemSolution />
