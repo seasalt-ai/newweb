@@ -3,6 +3,7 @@ import { Check, Star, ArrowLeft, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';
+import Header from '../components/Header';
 
 const PricingPage = () => {
   const { i18n } = useTranslation();
@@ -190,36 +191,8 @@ const PricingPage = () => {
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />
-      
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <Link to="/" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mr-8">
-                <ArrowLeft className="h-5 w-5 mr-2" />
-                Back to Home
-              </Link>
-              <div className="flex items-center">
-                <img 
-                  src="/seasalt-ai-logo.png" 
-                  alt="Seasalt.ai" 
-                  className="h-8 w-auto"
-                />
-              </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <a href="#login" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
-                Login
-              </a>
-              <a href="https://seax.seasalt.ai/signup" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium">
-                 Sign Up
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-
+      {/* Global Header */}
+      <Header />
       {/* Main Content */}
       <main className="py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
