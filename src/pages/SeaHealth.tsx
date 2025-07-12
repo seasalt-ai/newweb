@@ -63,47 +63,47 @@ const SeaHealth = () => (
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-10">Solutions for Every Healthcare Setting</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/hospital.png" alt="Hospitals & Clinics" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Hospitals & Clinics</h3>
+            {/* Hospitals & Clinics */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/hospital.svg" alt="Hospitals & Clinics Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Hospitals & Clinics</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/dental.png" alt="Dental Clinics" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Dental Clinics</h3>
+            {/* Dental Clinics */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/dental.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/dental.svg" alt="Dental Clinics Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Dental Clinics</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/hospice.png" alt="Hospice Homes" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Hospice Homes</h3>
+            {/* Hospice Homes */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/hospice.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/hospice.svg" alt="Hospice Homes Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Hospice Homes</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/emergency.png" alt="Emergency Care" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Emergency Care</h3>
+            {/* Emergency Care */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/emergency.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/emergency.svg" alt="Emergency Care Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Emergency Care</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/adult.png" alt="Adult Family Homes" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Adult Family Homes</h3>
+            {/* Adult Family Homes */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/adult.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/adult.svg" alt="Adult Family Homes Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Adult Family Homes</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/vet.png" alt="Veterinary Hospitals" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Veterinary Hospitals</h3>
+            {/* Veterinary Hospitals */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/vet.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/vet.svg" alt="Veterinary Hospitals Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Veterinary Hospitals</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
-            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
-              <div className="absolute w-full h-full inset-0">
-                <img src="health-images/settings/cosmetic.png" alt="Cosmetic Surgery" className="w-full h-full object-cover" />
-              </div>
-              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Cosmetic Surgery</h3>
+            {/* Cosmetic Surgery */}
+            <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/cosmetic.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <img src="/health-images/settings/cosmetic.svg" alt="Cosmetic Surgery Icon" className="w-16 h-16 mb-2 z-10" />
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Cosmetic Surgery</h3>
+              <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
           </div>
         </div>
@@ -218,8 +218,8 @@ const SeaHealth = () => (
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex flex-row flex-wrap justify-center items-center gap-8 w-full mb-8">
               <img src="/health-images/main/image-partners-kontak.png" alt="Kontak" className="h-12 md:h-14" />
-              <img src="/health-images/main/image-partners-patients_force.svg" alt="Patients Force" className="h-12 md:h-14" />
               <img src="/health-images/main/image-partners-momentum.svg" alt="Momentum" className="h-12 md:h-14" />
+              <img src="/health-images/main/image-partners-patients_force.svg" alt="Patients Force" className="h-12 md:h-14" />
             </div>
             <div className="flex justify-center items-center w-full">
               <img src="/health-images/main/image-partners-gold.png" alt="Twilio Gold Partner" className="h-24 md:h-32" />
