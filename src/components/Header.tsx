@@ -277,7 +277,7 @@ const Header = () => {
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   {industries.map((industry, index) => {
                     // If industry has a demo link, replace #demo with external link
-                    if (industry.href === '#demo') {
+                    if (industry.href && industry.href === '#demo') {
                       return (
                         <a
                           key={index}
@@ -291,7 +291,7 @@ const Header = () => {
                       );
                     }
                     // If industry has a signup link, replace #signup with external link
-                    if (industry.href === '#signup') {
+                    if (industry.href && industry.href === '#signup') {
                       return (
                         <a
                           key={index}

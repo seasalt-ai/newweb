@@ -1,6 +1,18 @@
 import { ShoppingCart, Heart, Home, Utensils, GraduationCap, Car, Briefcase, Building } from 'lucide-react';
 
-export const industries = [
+export interface Industry {
+  icon: any;
+  title: string;
+  slug: string;
+  headline: string;
+  benefits: string[];
+  color: string;
+  bgColor: string;
+  borderColor: string;
+  href?: string;
+}
+
+export const industries: Industry[] = [
   {
     icon: ShoppingCart,
     title: 'E-commerce',
