@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset } from 'react-icons/fa';
 
 const SeaHealth = () => (
   <div className="min-h-screen bg-white flex flex-col">
@@ -9,7 +10,7 @@ const SeaHealth = () => (
     <main className="flex-1 w-full bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 py-16 px-4 text-center overflow-hidden">
-        <img src="https://seasalt.ai/health/images/main/background-hero.svg" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
+        <img src="/health-images/main/background-hero.svg" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Transform Patients Interactions, with <span className="text-blue-600">SeaHealth</span></h1>
           <p className="text-lg md:text-xl text-blue-800 mb-8">AI-powered front office for healthcare. Never miss a call, complaint, or appointment again.</p>
@@ -22,17 +23,22 @@ const SeaHealth = () => (
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">Top 4 reasons hospitals and clinics choose SeaHealth:</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[
-              'Never Miss a Call',
-              'Never Miss a Customer Complaint',
-              'Book New Patient Appointments After Business Hours',
-              'Provide 24/7 Hotline to Prospective and Existing Patients',
-            ].map((reason, idx) => (
-              <li key={idx} className="flex items-center bg-blue-50 rounded-xl p-5 shadow-sm">
-                <img src="https://seasalt.ai/health/images/main/icon-list_item.svg" alt="Check" className="w-8 h-8 mr-4" />
-                <span className="text-lg text-blue-900 font-medium">{reason}</span>
-              </li>
-            ))}
+            <li className="flex items-center bg-blue-50 rounded-xl p-5 shadow-sm">
+              <span className="flex items-center justify-center w-8 h-8 mr-4"><FaPhoneAlt className="w-7 h-7 text-blue-500" aria-label="Call" /></span>
+              <span className="text-lg text-blue-900 font-medium">Never Miss a Call</span>
+            </li>
+            <li className="flex items-center bg-blue-50 rounded-xl p-5 shadow-sm">
+              <span className="flex items-center justify-center w-8 h-8 mr-4"><FaCommentDots className="w-7 h-7 text-blue-500" aria-label="Complaint" /></span>
+              <span className="text-lg text-blue-900 font-medium">Never Miss a Customer Complaint</span>
+            </li>
+            <li className="flex items-center bg-blue-50 rounded-xl p-5 shadow-sm">
+              <span className="flex items-center justify-center w-8 h-8 mr-4"><FaCalendarCheck className="w-7 h-7 text-blue-500" aria-label="Appointment" /></span>
+              <span className="text-lg text-blue-900 font-medium">Book New Patient Appointments After Business Hours</span>
+            </li>
+            <li className="flex items-center bg-blue-50 rounded-xl p-5 shadow-sm">
+              <span className="flex items-center justify-center w-8 h-8 mr-4"><FaHeadset className="w-7 h-7 text-blue-500" aria-label="Hotline" /></span>
+              <span className="text-lg text-blue-900 font-medium">Provide 24/7 Hotline to Prospective and Existing Patients</span>
+            </li>
           </ul>
         </div>
       </section>
@@ -65,7 +71,7 @@ const SeaHealth = () => (
                   { text: 'Enhance professionalism with improved speaking tone and receptionist conduct.', icon: 'icon-challenge-phone-missed.svg' },
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center">
-                    <img src={`https://seasalt.ai/health/images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
+                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
                     <span className="text-blue-900">{item.text}</span>
                   </li>
                 ))}
@@ -80,7 +86,7 @@ const SeaHealth = () => (
                   { text: 'Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.', icon: 'icon-challenge-phone-outbound.svg' },
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center">
-                    <img src={`https://seasalt.ai/health/images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
+                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
                     <span className="text-blue-900">{item.text}</span>
                   </li>
                 ))}
@@ -97,14 +103,14 @@ const SeaHealth = () => (
                   { text: 'Reactivate lapsed patients with effective promotions to fill empty slots.', icon: 'icon-challenge-check.svg' },
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center">
-                    <img src={`https://seasalt.ai/health/images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
+                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
                     <span className="text-blue-900">{item.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
             <div className="flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg p-8">
-              <img src="https://seasalt.ai/health/images/main/icon-appointment-health_care_provider.svg" alt="Appointment" className="w-16 h-16 mb-4" />
+              <img src="/logo-seahealth.svg" alt="SeaHealth Logo" className="w-32 h-32 mb-4" />
               <h3 className="text-xl font-semibold text-blue-800 mb-2">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>
               <p className="text-blue-900 mb-2">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>
             </div>
@@ -125,12 +131,12 @@ const SeaHealth = () => (
                   'Increase operational efficiency',
                 ].map((text, idx) => (
                   <li key={idx} className="flex items-center">
-                    <img src="https://seasalt.ai/health/images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
+                    <img src="/health-images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
                     <span className="text-blue-900">{text}</span>
                   </li>
                 ))}
               </ul>
-              <img src="https://seasalt.ai/health/images/main/icon-appointment-patients.svg" alt="Patients" className="w-20 h-20 mt-6" />
+              <img src="/health-images/main/icon-appointment-patients.svg" alt="Patients" className="w-20 h-20 mt-6" />
             </div>
             <div>
               <h3 className="text-xl font-semibold text-blue-800 mb-4">For Patients</h3>
@@ -141,7 +147,7 @@ const SeaHealth = () => (
                   'Seamless communication',
                 ].map((text, idx) => (
                   <li key={idx} className="flex items-center">
-                    <img src="https://seasalt.ai/health/images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
+                    <img src="/health-images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
                     <span className="text-blue-900">{text}</span>
                   </li>
                 ))}
@@ -162,7 +168,7 @@ const SeaHealth = () => (
               { title: 'Automation Done Right', desc: 'Always caring for patients and your own employees.', img: 'image-why-3.png' },
             ].map((item, idx) => (
               <div key={idx} className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
-                <img src={`https://seasalt.ai/health/images/main/${item.img}`} alt={item.title} className="w-20 h-20 mb-4" />
+                <img src={`/health-images/main/${item.img}`} alt={item.title} className="w-20 h-20 mb-4" />
                 <h3 className="text-lg font-semibold text-blue-800 mb-2">{item.title}</h3>
                 <p className="text-blue-900">{item.desc}</p>
               </div>
@@ -208,14 +214,14 @@ const SeaHealth = () => (
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">Partners & Integrations</h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
-            {[
-              { alt: 'Kontak', img: 'image-partners-kontak.png' },
-              { alt: 'Patients Force', img: 'image-partners-patients_force.svg' },
-              { alt: 'Momentum', img: 'image-partners-momentum.svg' },
-              { alt: 'Gold', img: 'image-partners-gold.png' },
-            ].map((p, idx) => (
-              <img key={idx} src={`https://seasalt.ai/health/images/main/${p.img}`} alt={p.alt} className="h-16" />
-            ))}
+            <div className="flex flex-row flex-wrap justify-center items-center gap-8 w-full mb-8">
+              <img src="/health-images/main/image-partners-kontak.png" alt="Kontak" className="h-12 md:h-14" />
+              <img src="/health-images/main/image-partners-patients_force.svg" alt="Patients Force" className="h-12 md:h-14" />
+              <img src="/health-images/main/image-partners-momentum.svg" alt="Momentum" className="h-12 md:h-14" />
+            </div>
+            <div className="flex justify-center items-center w-full">
+              <img src="/health-images/main/image-partners-gold.png" alt="Twilio Gold Partner" className="h-24 md:h-32" />
+            </div>
           </div>
         </div>
       </section>
