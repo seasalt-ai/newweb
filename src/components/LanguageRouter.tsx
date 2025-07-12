@@ -29,7 +29,7 @@ const LanguageRouter: React.FC = () => {
       i18n.changeLanguage(lang);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lang, location.pathname, navigate]);
+  }, [lang, location.pathname, navigate, i18n]);
   
   return <Outlet />;
 };

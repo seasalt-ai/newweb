@@ -30,7 +30,7 @@ Seasalt.ai may update this Agreement by posting new terms and conditions on this
 
 By creating an account or accepting this Agreement, you represent that you are at least 18 years old or have reached the age of majority where you live, if that is more than 18 years of age. If you are under 18 or have not reached such age of majority, your parent or legal guardian must set up an account on your behalf and accept this Agreement.
 
-The Service Components are intended to function as described in the associated documentation, but please note that the Service Components are a preview and that Seasalt.ai does not provide warranties or a service level agreement for the Service Components. This Agreement limits our liability in sections 12 and 16. Please read them carefully.
+The Service Components are intended to function as described in the associated documentation, but please note that the Service Components are a preview and that Seasalt.ai does not provide warranties or a service level agreement for the Service Components. Please read them carefully.
 
 ## Section 3 - License
 

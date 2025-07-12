@@ -118,7 +118,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="pricing" element={<PricingPage />} />
           <Route path="channels-overview" element={<ChannelsOverview />} />
-          <Route path="compare-us_overview" element={<CompareUsOverview />} />
+          <Route path="compare-us-overview" element={<CompareUsOverview />} />
           <Route path="channels/whatsapp" element={<WhatsApp />} />
           <Route path="channels/phone-calls" element={<PhoneCalls />} />
           <Route path="channels/sms" element={<SMS />} />

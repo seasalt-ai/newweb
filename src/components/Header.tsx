@@ -508,7 +508,7 @@ const Header = () => {
                   {industries.map((industry, index) => (
                     <Link 
                       key={index}
-                      to={`/${i18n.language}/industry/${industry.slug}`}
+                      to={`/${i18n.language}/industries/${industry.slug}`}
                       className="block py-1 text-sm text-gray-600 hover:text-gray-900"
                     >
                       {industry.title}

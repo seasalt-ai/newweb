@@ -131,7 +131,7 @@ The Fair Information Practices Principles form the backbone of privacy law in th
 
 **SMS Opt-in Information Protection**
 
-The information gathered during the SMS opt in will not be shared or sold to third parties, specially for promotional aims.
+The information gathered during the SMS opt in will not be shared or sold to third parties, especially for promotional aims.
 
 In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:
 
