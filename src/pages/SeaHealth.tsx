@@ -15,17 +15,17 @@ const SeaHealth = () => (
           <h1 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-2 drop-shadow-lg">SeaHealth lets healthcare professionals –</h1>
           <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">Transform Patients Interactions, with:</h2>
           <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-10">
-            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-4 text-blue-800 font-bold shadow-xl min-w-[200px] hover:scale-105 transition-transform duration-300 animate-fade-in-up">
-              <FaUserPlus className="w-10 h-10 mb-2 text-blue-500 animate-bounce" />
-              <span className="text-xl md:text-2xl">Patient Acquisition Web Widgets</span>
+            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+              <FaUserPlus className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">New Patients Acquisition</span>
             </li>
-            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-4 text-blue-800 font-bold shadow-xl min-w-[200px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-100">
-              <FaRobot className="w-10 h-10 mb-2 text-blue-500 animate-bounce" />
-              <span className="text-xl md:text-2xl">After-hour Voice AI Receptionists</span>
+            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-100">
+              <FaRobot className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">After-hour Voice AI Receptionists</span>
             </li>
-            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-4 text-blue-800 font-bold shadow-xl min-w-[200px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-200">
-              <FaChartBar className="w-10 h-10 mb-2 text-blue-500 animate-bounce" />
-              <span className="text-xl md:text-2xl">Front Office Call Analytics</span>
+            <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-200">
+              <FaChartBar className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">Front Office Call Analytics</span>
             </li>
           </ul>
           <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
@@ -82,6 +82,53 @@ const SeaHealth = () => (
               <span className="text-xl md:text-2xl text-center">Provide 24/7 Hotline to Prospective and Existing Patients</span>
             </li>
           </ul>
+        </div>
+      </section>
+
+      {/* Addressing Front Office Challenges */}
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">
+            Addressing Front Office Challenges
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Unmonitored Front Desk Phone Call */}
+            <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up">
+              <div className="mb-2 flex items-center justify-center">
+                <FaPhoneSlash className="w-16 h-16 text-blue-500 mr-4" aria-label="Unmonitored Call" />
+                <h3 className="text-xl font-bold text-blue-900 text-center">Unmonitored Front Desk Phone Call</h3>
+              </div>
+              <ul className="space-y-2 text-blue-800 text-base">
+                <li className="flex items-center"><FaExclamationTriangle className="w-10 h-10 mr-3 text-yellow-500" aria-label="Warning" />Address customer complaints before they escalate.</li>
+                <li className="flex items-center"><FaUserMd className="w-10 h-10 mr-3 text-blue-400" aria-label="Doctor" />Mitigate risks from initial medical triage errors.</li>
+                <li className="flex items-center"><FaRegComments className="w-16 h-16 mr-4 text-green-500" aria-label="Comments" />Enhance professionalism with improved speaking tone and receptionist conduct.</li>
+              </ul>
+            </div>
+            {/* Missed Inbound Calls from Patients */}
+            <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-100">
+              <div className="mb-2 flex items-center justify-center">
+                <FaRegArrowAltCircleDown className="w-16 h-16 text-blue-500 mr-4" aria-label="Missed Call" />
+                <h3 className="text-xl font-bold text-blue-900 text-center">Missed Inbound Calls from Patients</h3>
+              </div>
+              <ul className="space-y-2 text-blue-800 text-base">
+                <li className="flex items-center"><FaRegBell className="w-10 h-10 mr-3 text-cyan-500" aria-label="Bell" />Eliminate after-hour voicemails with active follow-ups.</li>
+                <li className="flex items-center"><FaRegCalendarCheck className="w-10 h-10 mr-3 text-green-500" aria-label="Calendar" />Simplify appointment scheduling and rescheduling.</li>
+                <li className="flex items-center"><FaRegLifeRing className="w-16 h-16 mr-4 text-blue-400" aria-label="Life Ring" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>
+              </ul>
+            </div>
+            {/* Outbound Calls Nobody Wants to Make */}
+            <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-200">
+              <div className="mb-2 flex items-center justify-center">
+                <FaRegArrowAltCircleUp className="w-16 h-16 text-blue-500 mr-4" aria-label="Outbound Call" />
+                <h3 className="text-xl font-bold text-blue-900 text-center">Outbound Calls Nobody Wants to Make</h3>
+              </div>
+              <ul className="space-y-2 text-blue-800 text-base">
+                <li className="flex items-center"><FaRegListAlt className="w-10 h-10 mr-3 text-blue-400" aria-label="List" />Ensure thoroughness in procedure follow-up calls.</li>
+                <li className="flex items-center"><FaRegHandshake className="w-10 h-10 mr-3 text-green-500" aria-label="Handshake" />Simplify lengthy conversations with insurance companies.</li>
+                <li className="flex items-center"><FaRegStar className="w-16 h-16 mr-4 text-yellow-500" aria-label="Star" />Reactivate lapsed patients with effective promotions to fill empty slots.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 

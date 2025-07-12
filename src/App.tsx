@@ -109,6 +109,8 @@ function App() {
       <Routes>
         {/* Root path redirects to current language */}
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
+        {/* /health redirects to /seahealth */}
+        <Route path="/health" element={<Navigate to="/seahealth" replace />} />
         {/* Global SeaHealth route (not language-prefixed) */}
         <Route path="/seahealth" element={<SeaHealth />} />
         {/* Language-specific routes */}
