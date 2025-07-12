@@ -103,9 +103,13 @@ function HomePage() {
 function App() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  
+
+  // Set basename for GitHub Pages if needed (e.g., '/new-seasalt-ai-website')
+  // If deploying to root, set to '/'. Adjust as needed for your deployment.
+  const basename = import.meta.env.BASE_URL || '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         {/* Root path redirects to current language */}
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
