@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { Phone, MessageSquare, MessageCircle, Mail, Monitor, Smartphone, Megaphone, BarChart3, Users, Inbox } from 'lucide-react';
 
+
 const Hero = () => {
   const [activeTab, setActiveTab] = useState('marketing');
+  const [fade, setFade] = useState(true);
+  const [scale, setScale] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveTab((prevTab) => (prevTab === 'marketing' ? 'support' : 'marketing'));
-    }, 5000);
-
+      setFade(false);
+      setScale(false);
+      setTimeout(() => {
+        setActiveTab((prevTab) => (prevTab === 'marketing' ? 'support' : 'marketing'));
+        setFade(true);
+        setScale(true);
+      }, 250); // fade/scale out, then switch
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -115,87 +123,94 @@ const Hero = () => {
 
                 <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">AI & Human Agents, 24/7</p>
                 
-                {/* Support Tab Content */}
-                {activeTab === 'support' && (
-                  <div className="space-y-2 sm:space-y-3">
-                    <div className="flex items-center p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-                      <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
-                      <div className="flex-1">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900">Sarah Johnson</p>
-                        <p className="text-xs text-gray-600 truncate">Phone call about order status (Human Agent)</p>
+                {/* Animated Tab Content */}
+                <div
+                  className={`transition-all duration-300
+                    ${fade ? 'opacity-100' : 'opacity-0'}
+                    ${scale ? 'scale-100' : 'scale-95'}
+                    ${activeTab === 'support' ? 'shadow-[0_0_24px_4px_rgba(37,99,235,0.15)] bg-cyan-200' : 'shadow-[0_0_24px_4px_rgba(251,146,60,0.15)] bg-orange-50'}
+                    rounded-xl
+                  `}
+                  style={{
+                    boxShadow: activeTab === 'support'
+                      ? '0 0 32px 8px rgba(37,99,235,0.18), 0 2px 8px 0 rgba(0,0,0,0.04)'
+                      : '0 0 32px 8px rgba(251,146,60,0.18), 0 2px 8px 0 rgba(0,0,0,0.04)'
+                  }}
+                  key={activeTab}
+                >
+                  {activeTab === 'support' && (
+                    <div className="space-y-2 sm:space-y-3">
+                      <div className="flex items-center p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                        <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="text-xs sm:text-sm font-medium text-gray-900">Sarah Johnson</p>
+                          <p className="text-xs text-gray-600 truncate">Phone call about order status (Human Agent)</p>
+                        </div>
+                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">2m ago</span>
                       </div>
-                      <span className="text-xs text-gray-500 ml-1 flex-shrink-0">2m ago</span>
-                    </div>
-                    
-                    <div className="flex items-center p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
-                      <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0" />
-                      <div className="flex-1">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900">Mike Chen</p>
-                        <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question (AI Chatbot)</p>
+                      <div className="flex items-center p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
+                        <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="text-xs sm:text-sm font-medium text-gray-900">Mike Chen</p>
+                          <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question (AI Chatbot)</p>
+                        </div>
+                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">5m ago</span>
                       </div>
-                      <span className="text-xs text-gray-500 ml-1 flex-shrink-0">5m ago</span>
-                    </div>
-                    
-                    <div className="flex items-center p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-                      <MessageSquare className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0" />
-                      <div className="flex-1">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900">Lisa Park</p>
-                        <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry (AI & Human)</p>
+                      <div className="flex items-center p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+                        <MessageSquare className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="text-xs sm:text-sm font-medium text-gray-900">Lisa Park</p>
+                          <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry (AI & Human)</p>
+                        </div>
+                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">8m ago</span>
                       </div>
-                      <span className="text-xs text-gray-500 ml-1 flex-shrink-0">8m ago</span>
-                    </div>
-
-                    <div className="flex items-center p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
-                      <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0" />
-                      <div className="flex-1">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900">David Kim</p>
-                        <p className="text-xs text-gray-600 truncate">Support call: Technical issue (AI Voicebot)</p>
+                      <div className="flex items-center p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
+                        <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="text-xs sm:text-sm font-medium text-gray-900">David Kim</p>
+                          <p className="text-xs text-gray-600 truncate">Support call: Technical issue (AI Voicebot)</p>
+                        </div>
+                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">12m ago</span>
                       </div>
-                      <span className="text-xs text-gray-500 ml-1 flex-shrink-0">12m ago</span>
                     </div>
-                  </div>
-                )}
-
-                {/* Marketing Tab Content */}
-                {activeTab === 'marketing' && (
-                  <div className="space-y-3">
-                    <div className="flex items-center p-3 bg-orange-50 rounded-lg border-l-4 border-orange-500">
-                      <Megaphone className="h-5 w-5 text-orange-600 mr-3" />
-                      <div className="flex-1">
-                        <p className="text-sm font-medium text-gray-900">Black Friday Campaign</p>
-                        <p className="text-xs text-gray-600">SMS: 2,847 sent • 312 replies (AI & Human)</p>
+                  )}
+                  {activeTab === 'marketing' && (
+                    <div className="space-y-3">
+                      <div className="flex items-center p-3 bg-orange-50 rounded-lg border-l-4 border-orange-500">
+                        <Megaphone className="h-5 w-5 text-orange-600 mr-3" />
+                        <div className="flex-1">
+                          <p className="text-sm font-medium text-gray-900">Black Friday Campaign</p>
+                          <p className="text-xs text-gray-600">SMS: 2,847 sent • 312 replies (AI & Human)</p>
+                        </div>
+                        <span className="text-xs text-green-600 font-medium">+47 leads</span>
                       </div>
-                      <span className="text-xs text-green-600 font-medium">+47 leads</span>
-                    </div>
-                    
-                    <div className="flex items-center p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
-                      <MessageCircle className="h-5 w-5 text-green-600 mr-3" />
-                      <div className="flex-1">
-                        <p className="text-sm font-medium text-gray-900">WhatsApp Product Launch</p>
-                        <p className="text-xs text-gray-600">1,523 messages • 89 conversations (AI Copilot)</p>
+                      <div className="flex items-center p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
+                        <MessageCircle className="h-5 w-5 text-green-600 mr-3" />
+                        <div className="flex-1">
+                          <p className="text-sm font-medium text-gray-900">WhatsApp Product Launch</p>
+                          <p className="text-xs text-gray-600">1,523 messages • 89 conversations (AI Copilot)</p>
+                        </div>
+                        <span className="text-xs text-green-600 font-medium">+23 sales</span>
                       </div>
-                      <span className="text-xs text-green-600 font-medium">+23 sales</span>
-                    </div>
-                    
-                    <div className="flex items-center p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-                      <BarChart3 className="h-5 w-5 text-blue-600 mr-3" />
-                      <div className="flex-1">
-                        <p className="text-sm font-medium text-gray-900">Abandoned Cart Recovery</p>
-                        <p className="text-xs text-gray-600">Email + SMS: 156 recovered (AI Automation)</p>
+                      <div className="flex items-center p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                        <BarChart3 className="h-5 w-5 text-blue-600 mr-3" />
+                        <div className="flex-1">
+                          <p className="text-sm font-medium text-gray-900">Abandoned Cart Recovery</p>
+                          <p className="text-xs text-gray-600">Email + SMS: 156 recovered (AI Automation)</p>
+                        </div>
+                        <span className="text-xs text-green-600 font-medium">+$12.4k</span>
                       </div>
-                      <span className="text-xs text-green-600 font-medium">+$12.4k</span>
-                    </div>
-
-                    <div className="flex items-center p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-                      <Phone className="h-5 w-5 text-purple-600 mr-3" />
-                      <div className="flex-1">
-                        <p className="text-sm font-medium text-gray-900">Follow-up Call Campaign</p>
-                        <p className="text-xs text-gray-600">AI Voicebot: 89 calls • 34 appointments booked</p>
+                      <div className="flex items-center p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+                        <Phone className="h-5 w-5 text-purple-600 mr-3" />
+                        <div className="flex-1">
+                          <p className="text-sm font-medium text-gray-900">Follow-up Call Campaign</p>
+                          <p className="text-xs text-gray-600">AI Voicebot: 89 calls • 34 appointments booked</p>
+                        </div>
+                        <span className="text-xs text-green-600 font-medium">+34 appts</span>
                       </div>
-                      <span className="text-xs text-green-600 font-medium">+34 appts</span>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
 
               {/* Floating Channel Icons */}
