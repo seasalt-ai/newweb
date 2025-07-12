@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset } from 'react-icons/fa';
+import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaCheckCircle, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegHospital, FaRegAddressBook, FaRegComments, FaRegThumbsUp, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegEnvelopeOpen, FaRegStar, FaRegHeart, FaRegLightbulb, FaRegCalendarPlus, FaRegCalendarCheck, FaRegCalendarTimes, FaRegArrowAltCircleRight, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown, FaRegArrowAltCircleLeft } from 'react-icons/fa';
 
 const SeaHealth = () => (
   <div className="min-h-screen bg-white flex flex-col">
@@ -12,9 +12,24 @@ const SeaHealth = () => (
       <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 py-16 px-4 text-center overflow-hidden">
         <img src="/health-images/main/background-hero.svg" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
         <div className="relative z-10 max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Transform Patients Interactions, with <span className="text-blue-600">SeaHealth</span></h1>
-          <p className="text-lg md:text-xl text-blue-800 mb-8">AI-powered front office for healthcare. Never miss a call, complaint, or appointment again.</p>
-          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg transition-all duration-200">Book a Demo Today!</a>
+          <h1 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-2">SeaHealth lets healthcare professionals –</h1>
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-800 mb-4">Transform Patients Interactions, with:</h2>
+          <ul className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-6 mb-8">
+            <li className="flex flex-col items-center bg-white/80 border border-blue-100 rounded-lg px-4 py-2 text-blue-700 font-semibold shadow-sm min-w-[180px]">
+              <FaUserPlus className="w-8 h-8 mb-1 text-blue-500" />
+              Patient Acquisition Web Widgets
+            </li>
+            <li className="flex flex-col items-center bg-white/80 border border-blue-100 rounded-lg px-4 py-2 text-blue-700 font-semibold shadow-sm min-w-[180px]">
+              <FaRobot className="w-8 h-8 mb-1 text-blue-500" />
+              After-hour Voice AI Receptionists
+            </li>
+            <li className="flex flex-col items-center bg-white/80 border border-blue-100 rounded-lg px-4 py-2 text-blue-700 font-semibold shadow-sm min-w-[180px]">
+              <FaChartBar className="w-8 h-8 mb-1 text-blue-500" />
+              Front Office Call Analytics
+            </li>
+          </ul>
+          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg transition-all duration-200 mb-4">Book a Demo Today!</a>
+          <p className="text-lg md:text-xl text-blue-800">AI-powered front office for healthcare. Never miss a call, complaint, or appointment again.</p>
         </div>
       </section>
 
@@ -45,113 +60,100 @@ const SeaHealth = () => (
 
       {/* Solutions for Every Healthcare Setting */}
       <section className="py-16 bg-blue-50">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">Solutions for Every Healthcare Setting</h2>
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            {[
-              { name: 'Hospitals & Clinics', url: 'https://seasalt.ai/health/categories/hospitals-clinics/' },
-              { name: 'Dental Clinics', url: 'https://seasalt.ai/health/categories/dental-clinics/' },
-              { name: 'Hospice Homes', url: 'https://seasalt.ai/health/categories/hospice-homes/' },
-              { name: 'Emergency Care', url: 'https://seasalt.ai/health/categories/emergency-care/' },
-              { name: 'Adult Family Homes', url: 'https://seasalt.ai/health/categories/adult-family-homes/' },
-              { name: 'Veterinary Hospitals', url: 'https://seasalt.ai/health/categories/veterinary-hospitals/' },
-              { name: 'Cosmetic Surgery', url: 'https://seasalt.ai/health/categories/cosmetic-surgery/' },
-            ].map((cat, idx) => (
-              <a key={idx} href={cat.url} target="_blank" rel="noopener noreferrer" className="bg-white border border-blue-200 rounded-lg px-5 py-2 text-blue-700 font-semibold hover:bg-blue-100 transition-all">{cat.name}</a>
-            ))}
-          </div>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Addressing Front Office Challenges</h3>
-              <ul className="space-y-3">
-                {[
-                  { text: 'Unmonitored Front Desk Phone Call', icon: 'icon-challenge-phone-in_talk.svg' },
-                  { text: 'Address customer complaints before they escalate.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Mitigate risks from initial medical triage errors.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Enhance professionalism with improved speaking tone and receptionist conduct.', icon: 'icon-challenge-phone-missed.svg' },
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
-                    <span className="text-blue-900">{item.text}</span>
-                  </li>
-                ))}
-              </ul>
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-10">Solutions for Every Healthcare Setting</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/hospital.png" alt="Hospitals & Clinics" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Hospitals & Clinics</h3>
             </div>
-            <div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Missed Inbound Calls from Patients</h3>
-              <ul className="space-y-3">
-                {[
-                  { text: 'Eliminate after-hour voicemails with active follow-ups.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Simplify appointment scheduling and rescheduling.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.', icon: 'icon-challenge-phone-outbound.svg' },
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
-                    <span className="text-blue-900">{item.text}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/dental.png" alt="Dental Clinics" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Dental Clinics</h3>
             </div>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 mt-8">
-            <div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Outbound Calls Nobody Wants to Make</h3>
-              <ul className="space-y-3">
-                {[
-                  { text: 'Ensure thoroughness in procedure follow-up calls.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Simplify lengthy conversations with insurance companies.', icon: 'icon-challenge-check.svg' },
-                  { text: 'Reactivate lapsed patients with effective promotions to fill empty slots.', icon: 'icon-challenge-check.svg' },
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <img src={`/health-images/main/${item.icon}`} alt="" className="w-7 h-7 mr-3" />
-                    <span className="text-blue-900">{item.text}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/hospice.png" alt="Hospice Homes" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Hospice Homes</h3>
             </div>
-            <div className="flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg p-8">
-              <img src="/logo-seahealth.svg" alt="SeaHealth Logo" className="w-32 h-32 mb-4" />
-              <h3 className="text-xl font-semibold text-blue-800 mb-2">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>
-              <p className="text-blue-900 mb-2">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/emergency.png" alt="Emergency Care" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Emergency Care</h3>
+            </div>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/adult.png" alt="Adult Family Homes" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Adult Family Homes</h3>
+            </div>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/vet.png" alt="Veterinary Hospitals" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Veterinary Hospitals</h3>
+            </div>
+            <div className="relative flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56">
+              <div className="absolute w-full h-full inset-0">
+                <img src="health-images/settings/cosmetic.png" alt="Cosmetic Surgery" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="relative z-10 text-lg font-semibold text-white drop-shadow-md text-center flex items-center justify-center w-full">Cosmetic Surgery</h3>
             </div>
           </div>
         </div>
       </section>
 
-      {/* For Providers & Patients */}
+      {/* SeaHealth Solution + For Providers & Patients */}
       <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">For Healthcare Providers</h3>
-              <ul className="space-y-3">
-                {[
-                  'Reduce administrative burden',
-                  'Improve patient satisfaction',
-                  'Increase operational efficiency',
-                ].map((text, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <img src="/health-images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
-                    <span className="text-blue-900">{text}</span>
-                  </li>
-                ))}
-              </ul>
-              <img src="/health-images/main/icon-appointment-patients.svg" alt="Patients" className="w-20 h-20 mt-6" />
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-12">
+            <div className="flex flex-col items-center justify-center bg-white rounded-2xl shadow-lg p-8 w-full md:w-1/2">
+              <img src="/logo-seahealth.svg" alt="SeaHealth Logo" className="w-40 h-40 mb-4" />
+              <h3 className="text-xl font-semibold text-blue-800 mb-2 text-center">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>
+              <p className="text-blue-900 mb-2 text-center">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">For Patients</h3>
-              <ul className="space-y-3">
-                {[
-                  '24/7 access to support',
-                  'Quick appointment scheduling',
-                  'Seamless communication',
-                ].map((text, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <img src="/health-images/main/icon-appointment-check.svg" alt="Check" className="w-7 h-7 mr-3" />
-                    <span className="text-blue-900">{text}</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2">
+              <div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-4">For Healthcare Providers</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center">
+                    <FaRegListAlt className="w-7 h-7 mr-3 text-blue-500" aria-label="Reduce administrative burden" />
+                    <span className="text-blue-900">Reduce administrative burden</span>
                   </li>
-                ))}
-              </ul>
+                  <li className="flex items-center">
+                    <FaRegSmile className="w-7 h-7 mr-3 text-green-500" aria-label="Improve patient satisfaction" />
+                    <span className="text-blue-900">Improve patient satisfaction</span>
+                  </li>
+                  <li className="flex items-center">
+                    <FaChartBar className="w-7 h-7 mr-3 text-blue-400" aria-label="Increase operational efficiency" />
+                    <span className="text-blue-900">Increase operational efficiency</span>
+                  </li>
+                </ul>
+                {/* Removed decorative hospital icon as requested */}
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-4">For Patients</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center">
+                    <FaRegClock className="w-7 h-7 mr-3 text-blue-500" aria-label="24/7 access to support" />
+                    <span className="text-blue-900">24/7 access to support</span>
+                  </li>
+                  <li className="flex items-center">
+                    <FaRegCalendarPlus className="w-7 h-7 mr-3 text-green-500" aria-label="Quick appointment scheduling" />
+                    <span className="text-blue-900">Quick appointment scheduling</span>
+                  </li>
+                  <li className="flex items-center">
+                    <FaRegComments className="w-7 h-7 mr-3 text-blue-400" aria-label="Seamless communication" />
+                    <span className="text-blue-900">Seamless communication</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
