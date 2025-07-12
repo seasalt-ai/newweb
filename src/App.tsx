@@ -158,15 +158,8 @@ function App() {
         </Route>
         <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
-        
-        {/* Fallback for direct access to non-language prefixed routes 
-             This will catch any routes that don't match the patterns above and redirect to the current language */}
-        <Route path="*" element={
-          <Navigate 
-            to={`/${currentLanguage}${window.location.pathname === '/' ? '' : window.location.pathname}`} 
-            replace 
-          />
-        } />
+        {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
+        <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
       </Routes>
     </Router>
   );
