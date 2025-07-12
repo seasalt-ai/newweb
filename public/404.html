@@ -12,27 +12,30 @@
     // to the new URL with only a query string and hash fragment.
 
     // Parse the URL
-    var pathSegmentsToKeep = 0;
     var l = window.location;
-    
-    // Get the current path without leading/trailing slashes
     var path = l.pathname.replace(/^\/+|\/+$/g, '');
-    var pathSegments = path.split('/');
-    var possibleLanguageCodes = ['en', 'es', 'fr', 'de', 'pl', 'pt', 'ru', 'ar', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'hi'];
-    var languageCode = 'en';
-    if (pathSegments.length > 0 && possibleLanguageCodes.includes(pathSegments[0])) {
-      languageCode = pathSegments[0];
-      pathSegments = pathSegments.slice(1);
-    }
     var url = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
-    var hashPath = '#/' + languageCode;
-    if (pathSegments.length > 0 && pathSegments[0] !== '') {
-      hashPath += '/' + pathSegments.join('/');
+    // Special fallback for /seahealth and /health
+    if (l.pathname === '/seahealth' || l.pathname === '/health') {
+      window.location.replace(url + '/seahealth');
+    } else {
+      // Language fallback (default to en)
+      var pathSegments = path.split('/');
+      var possibleLanguageCodes = ['en', 'es', 'fr', 'de', 'pl', 'pt', 'ru', 'ar', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'hi'];
+      var languageCode = 'en';
+      if (pathSegments.length > 0 && possibleLanguageCodes.includes(pathSegments[0])) {
+        languageCode = pathSegments[0];
+        pathSegments = pathSegments.slice(1);
+      }
+      var hashPath = '#/' + languageCode;
+      if (pathSegments.length > 0 && pathSegments[0] !== '') {
+        hashPath += '/' + pathSegments.join('/');
+      }
+      if (l.search) {
+        hashPath += l.search;
+      }
+      window.location.replace(url + '/' + hashPath);
     }
-    if (l.search) {
-      hashPath += l.search;
-    }
-    window.location.replace(url + '/' + hashPath);
   </script>
 </head>
 <body>
