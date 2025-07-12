@@ -9,13 +9,14 @@ import { products } from '../data/productsData';
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isProductsOpen, setIsProductsOpen] = useState(false);
+  // Only one dropdown open at a time
+  const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
   const [isSeaVoiceSubMenuOpen, setIsSeaVoiceSubMenuOpen] = useState(false);
-  const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
-  const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
-  const [isChannelsOpen, setIsChannelsOpen] = useState(false);
-  const [isCompareOpen, setIsCompareOpen] = useState(false);
-  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  // Helper to open only one dropdown at a time
+  const handleDropdown = (dropdown: typeof openDropdown) => {
+    setOpenDropdown(prev => (prev === dropdown ? null : dropdown));
+    if (dropdown !== 'products') setIsSeaVoiceSubMenuOpen(false);
+  };
 
   const channels = [
     { name: 'WhatsApp Business', path: '/channels/whatsapp' },
@@ -84,7 +85,7 @@ const Header = () => {
     window.location.href = newPath;
     
     // Close the dropdown
-    setIsLanguageOpen(false);
+    setOpenDropdown(null);
   };
 
   // Get current language name
@@ -112,13 +113,13 @@ const Header = () => {
           <nav className="hidden lg:flex items-center space-x-8">
             <div className="relative">
               <button
-                onClick={() => setIsProductsOpen(!isProductsOpen)}
+                onClick={() => handleDropdown('products')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.products')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isProductsOpen && (
+              {openDropdown === 'products' && (
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
                   {products.map((product, index) => (
                     <div key={index} className="relative">
@@ -177,13 +178,13 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsSolutionsOpen(!isSolutionsOpen)}
+                onClick={() => handleDropdown('solutions')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.solutions')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isSolutionsOpen && (
+              {openDropdown === 'solutions' && (
                 <div className="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                   {/* Existing Solutions */}
                   {solutions.map((solution, index) => (
@@ -266,13 +267,13 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsIndustriesOpen(!isIndustriesOpen)}
+                onClick={() => handleDropdown('industries')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.industries')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isIndustriesOpen && (
+              {openDropdown === 'industries' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   {industries.map((industry, index) => {
                     // If industry has a demo link, replace #demo with external link
@@ -319,13 +320,13 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsChannelsOpen(!isChannelsOpen)}
+                onClick={() => handleDropdown('channels')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.channels')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isChannelsOpen && (
+              {openDropdown === 'channels' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   <Link to={`/${i18n.language}/channels-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
                     {t('header.allChannelsOverview')}
@@ -349,13 +350,13 @@ const Header = () => {
             
             <div className="relative">
               <button
-                onClick={() => setIsCompareOpen(!isCompareOpen)}
+                onClick={() => handleDropdown('compare')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 {t('header.compareUs')}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              {isCompareOpen && (
+              {openDropdown === 'compare' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   <Link to={`/${i18n.language}/compare-us-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
                     All Comparisons Overview
@@ -383,13 +384,13 @@ const Header = () => {
             {/* Language Selector */}
             <div className="relative">
               <button
-                onClick={() => setIsLanguageOpen(!isLanguageOpen)}
+                onClick={() => handleDropdown('language')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
                 <span className="mr-1">{getCurrentLanguageName()}</span>
                 <ChevronDown className="h-4 w-4" />
               </button>
-              {isLanguageOpen && (
+              {openDropdown === 'language' && (
                 <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
                   {languages.map((language) => (
                     <button
