@@ -53,6 +53,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import LanguageRouter from './components/LanguageRouter';
 import MarkdownPage from './components/MarkdownPage';
+import SeaHealth from './pages/SeaHealth';
 
 function HomePage() {
   const { t } = useTranslation();
@@ -108,13 +109,14 @@ function App() {
       <Routes>
         {/* Root path redirects to current language */}
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
-        
+        {/* Global SeaHealth route (not language-prefixed) */}
+        <Route path="/seahealth" element={<SeaHealth />} />
         {/* Language-specific routes */}
-        <Route path="/:lang" element={<LanguageRouter />}>
+        <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
           <Route path="pricing" element={<PricingPage />} />
           <Route path="channels-overview" element={<ChannelsOverview />} />
-          <Route path="compare-us-overview" element={<CompareUsOverview />} />
+          <Route path="compare-us_overview" element={<CompareUsOverview />} />
           <Route path="channels/whatsapp" element={<WhatsApp />} />
           <Route path="channels/phone-calls" element={<PhoneCalls />} />
           <Route path="channels/sms" element={<SMS />} />

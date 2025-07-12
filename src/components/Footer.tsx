@@ -199,7 +199,10 @@ const Footer = () => {
             
             {/* Social Proof */}
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
-              <span>🏥 {t('footer.compliance.hipaa')}</span>
+              <Link to="/seahealth" className="flex items-center hover:text-white transition-colors duration-200">
+                <img src="/hipaa-icon.svg" alt="HIPAA" className="h-5 w-5 mr-1 inline-block align-text-bottom" />
+                {t('footer.compliance.hipaa')}
+              </Link>
               <span>🌍 {t('footer.compliance.uptime')}</span>
             </div>
           </div>
