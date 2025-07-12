@@ -32,7 +32,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ pageType }) => {
     };
 
     fetchMarkdown();
-  }, [pageType, lang]);
+  }, [pageType]);
 
   return (
     <div className="min-h-screen bg-white flex flex-col">

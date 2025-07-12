@@ -77,7 +77,7 @@ When End User Data is sent to Seasalt.ai, Seasalt.ai may receive unique IDs to d
 
 When using the Service Components, you will provide attribution that is reasonably prominent for End Users as follows:
 
-*   Attribution to the Service Component(s) will be displayed on the splash screen at Application start-up on applications designed for screen sizes of smart phones and larger. For applications designed for smaller screens (e.g., watches) or no screens, you will display attribution on the about page of the Application. For web pages, you will display attribution in a reasonably accessible page footer or other similarly prominent location. Attribution should read “powered by Seasalt.ai” and provide a hyperlink to the Seasalt.ai website at [https://seasalt.ai/privacy]()
+*   Attribution to the Service Component(s) will be displayed on the splash screen at Application start-up on applications designed for screen sizes of smart phones and larger. For applications designed for smaller screens (e.g., watches) or no screens, you will display attribution on the about page of the Application. For web pages, you will display attribution in a reasonably accessible page footer or other similarly prominent location. Attribution should read “powered by Seasalt.ai” and provide a hyperlink to the Seasalt.ai website at https://seasalt.ai/privacy
 
 ## Section 7 - Data Provided to Seasalt.ai
 
@@ -87,5 +87,5 @@ If you give feedback about the Service Components to Seasalt.ai, you give to Sea
 
 ## Section 8 - Privacy
 
-You agree to the Privacy Policy found at [https://seasalt.ai/privacy]()
+You agree to the Privacy Policy found at https://seasalt.ai/privacy
 

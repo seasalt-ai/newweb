@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const PricingPage = () => {
   const { i18n } = useTranslation();
@@ -393,6 +394,7 @@ const PricingPage = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
