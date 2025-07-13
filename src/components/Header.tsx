@@ -160,15 +160,25 @@ const Header = () => {
                           )}
                         </div>
                       ) : (
-                        <a
-                          href={product.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block px-4 py-3 text-sm hover:bg-gray-50"
-                        >
-                          <div className="font-medium text-gray-700">{product.title}</div>
-                          <div className="text-xs text-gray-500">{product.description}</div>
-                        </a>
+                        product.href.startsWith('/') ? (
+                          <Link
+                            to={product.href}
+                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                          >
+                            <div className="font-medium text-gray-700">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </Link>
+                        ) : (
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                          >
+                            <div className="font-medium text-gray-700">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </a>
+                        )
                       )}
                     </div>
                   ))}
@@ -465,14 +475,23 @@ const Header = () => {
                           </div>
                         </div>
                       ) : (
-                        <a
-                          href={product.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                        >
-                          {product.title}
-                        </a>
+                        product.href.startsWith('/') ? (
+                          <Link
+                            to={product.href}
+                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
+                          >
+                            {product.title}
+                          </Link>
+                        ) : (
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
+                          >
+                            {product.title}
+                          </a>
+                        )
                       )}
                     </div>
                   ))}

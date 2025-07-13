@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import Header from './components/Header';
@@ -58,6 +58,13 @@ import SeaChatRouter from './components/SeaChatRouter';
 
 import SEOHelmet from './components/SEOHelmet';
 
+// Component to handle SeaChat redirects
+const SeaChatRedirect = () => {
+  const location = useLocation();
+  const subPath = location.pathname.replace('/seachat', '');
+  return <Navigate to={`/en/seachat${subPath}`} replace />;
+};
+
 function HomePage() {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
@@ -106,6 +113,23 @@ function App() {
         {/* /health redirects to /seahealth */}
         <Route path="/health" element={<Navigate to="/seahealth" replace />} />
         <Route path="/seahealth" element={<Navigate to="/en/seahealth" replace />} />
+        {/* SeaChat routes - handle all seachat paths first */}
+        <Route path="/seachat" element={<Navigate to="/en/seachat" replace />} />
+        <Route path="/seachat/*" element={<SeaChatRedirect />} />
+        <Route path="/en/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/es/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/fr/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/de/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/pl/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/pt/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/ru/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/ar/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/zh-TW/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/ja/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/ko/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/vi/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/th/seachat/*" element={<SeaChatRouter />} />
+        <Route path="/hi/seachat/*" element={<SeaChatRouter />} />
         {/* Language-specific routes */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
@@ -148,10 +172,8 @@ function App() {
           <Route path="solutions/ai-automation" element={<AIAutomation />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
-        <Route path="seahealth" element={<SeaHealth />} />
-      </Route>
-      {/* SeaChat routes - all under /seachat prefix */}
-      <Route path="/seachat/*" element={<SeaChatRouter />} />
+          <Route path="seahealth" element={<SeaHealth />} />
+        </Route>
       <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}

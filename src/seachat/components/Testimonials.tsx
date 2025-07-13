@@ -55,11 +55,11 @@ const Testimonials = () => {
   ];
 
   const nextTestimonial = () => {
-    setCurrentIndex((prev) => (prev + 1) % seachat.testimonials.length);
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
   };
 
   const prevTestimonial = () => {
-    setCurrentIndex((prev) => (prev - 1 + seachat.testimonials.length) % seachat.testimonials.length);
+    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
   };
 
   useEffect(() => {
@@ -142,7 +142,7 @@ const Testimonials = () => {
               </button>
               
               <div className="flex space-x-2">
-                {seachat.testimonials.map((_, index) => (
+                {testimonials.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentIndex(index)}

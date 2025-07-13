@@ -80,42 +80,42 @@ const SeaChatRouter = () => {
       <Header />
       <Routes>
         {/* Home */}
-        <Route path="/" element={<SeaChatHomePage />} />
+        <Route path="" element={<SeaChatHomePage />} />
         
         {/* Features */}
-        <Route path="/features/human-agents" element={<HumanAgentsPage />} />
-        <Route path="/features/ai-automation" element={<AIAutomationPage />} />
-        <Route path="/features/advanced-ai" element={<AdvancedAIPage />} />
-        <Route path="/features/knowledge-base" element={<KnowledgeBasePage />} />
-        <Route path="/features/voice-agents" element={<VoiceAgentsPage />} />
-        <Route path="/features/analytics" element={<AnalyticsPage />} />
-        <Route path="/features/omnichannel" element={<OmnichannelPage />} />
-        <Route path="/features/api" element={<APIPage />} />
+        <Route path="features/human-agents" element={<HumanAgentsPage />} />
+        <Route path="features/ai-automation" element={<AIAutomationPage />} />
+        <Route path="features/advanced-ai" element={<AdvancedAIPage />} />
+        <Route path="features/knowledge-base" element={<KnowledgeBasePage />} />
+        <Route path="features/voice-agents" element={<VoiceAgentsPage />} />
+        <Route path="features/analytics" element={<AnalyticsPage />} />
+        <Route path="features/omnichannel" element={<OmnichannelPage />} />
+        <Route path="features/api" element={<APIPage />} />
         
         {/* Integrations */}
-        <Route path="/integrations/websites" element={<WebsitesPage />} />
-        <Route path="/integrations/crm" element={<CRMPage />} />
-        <Route path="/integrations/ecommerce" element={<EcommercePage />} />
-        <Route path="/integrations/social-media" element={<SocialMediaPage />} />
-        <Route path="/integrations/communication" element={<CommunicationPage />} />
-        <Route path="/integrations/marketing" element={<MarketingPage />} />
-        <Route path="/integrations/calendar" element={<CalendarPage />} />
-        <Route path="/integrations/api" element={<IntegrationAPIPage />} />
+        <Route path="integrations/websites" element={<WebsitesPage />} />
+        <Route path="integrations/crm" element={<CRMPage />} />
+        <Route path="integrations/ecommerce" element={<EcommercePage />} />
+        <Route path="integrations/social-media" element={<SocialMediaPage />} />
+        <Route path="integrations/communication" element={<CommunicationPage />} />
+        <Route path="integrations/marketing" element={<MarketingPage />} />
+        <Route path="integrations/calendar" element={<CalendarPage />} />
+        <Route path="integrations/api" element={<IntegrationAPIPage />} />
         
         {/* Solutions */}
-        <Route path="/solutions/ecommerce" element={<EcommerceSolutionPage />} />
-        <Route path="/solutions/healthcare" element={<HealthcarePage />} />
-        <Route path="/solutions/fintech" element={<FintechPage />} />
-        <Route path="/solutions/education" element={<EducationPage />} />
-        <Route path="/solutions/real-estate" element={<RealEstatePage />} />
-        <Route path="/solutions/travel" element={<TravelPage />} />
-        <Route path="/solutions/saas" element={<SaaSPage />} />
-        <Route path="/solutions/small-business" element={<SmallBusinessPage />} />
+        <Route path="solutions/ecommerce" element={<EcommerceSolutionPage />} />
+        <Route path="solutions/healthcare" element={<HealthcarePage />} />
+        <Route path="solutions/fintech" element={<FintechPage />} />
+        <Route path="solutions/education" element={<EducationPage />} />
+        <Route path="solutions/real-estate" element={<RealEstatePage />} />
+        <Route path="solutions/travel" element={<TravelPage />} />
+        <Route path="solutions/saas" element={<SaaSPage />} />
+        <Route path="solutions/small-business" element={<SmallBusinessPage />} />
         
         {/* Other Pages */}
-        <Route path="/pricing" element={<PricingPage />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="pricing" element={<PricingPage />} />
+        <Route path="blog" element={<BlogPage />} />
+        <Route path="blog/:slug" element={<BlogPostPage />} />
       </Routes>
       <Footer />
     </div>

@@ -6,8 +6,8 @@ const Hero = () => {
   const { t } = useTranslation();
   
   const [chatMessages, setChatMessages] = useState([
-    { id: 1, type: 'user', text: t('hero.chat.userMessage'), time: '2:30 PM' },
-    { id: 2, type: 'bot', text: t('hero.chat.botMessage'), time: '2:30 PM' },
+    { id: 1, type: 'user', text: t('seachat.hero.chat.userMessage'), time: '2:30 PM' },
+    { id: 2, type: 'bot', text: t('seachat.hero.chat.botMessage'), time: '2:30 PM' },
   ]);
   
   const [currentMessage, setCurrentMessage] = useState('');
@@ -40,7 +40,7 @@ const Hero = () => {
       setChatMessages(prev => [...prev, {
         id: prev.length + 1,
         type: 'bot' as const,
-        text: t('hero.chat.userMessage2'),
+        text: t('seachat.hero.chat.userMessage2'),
         time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       }]);
     }, 2000);
@@ -49,8 +49,8 @@ const Hero = () => {
   // Update chat messages when language changes
   useEffect(() => {
     setChatMessages([
-      { id: 1, type: 'user', text: t('hero.chat.userMessage'), time: '2:30 PM' },
-      { id: 2, type: 'bot', text: t('hero.chat.botMessage'), time: '2:30 PM' },
+      { id: 1, type: 'user', text: t('seachat.hero.chat.userMessage'), time: '2:30 PM' },
+      { id: 2, type: 'bot', text: t('seachat.hero.chat.botMessage'), time: '2:30 PM' },
     ]);
   }, [t]);
 
@@ -79,24 +79,24 @@ const Hero = () => {
           <div className="text-white space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                {t('hero.title')}{' '}
-                <span className="text-teal-300">{t('hero.subtitle')}</span>
+                {t('seachat.hero.title')}{' '}
+                <span className="text-teal-300">{t('seachat.hero.subtitle')}</span>
               </h1>
             </div>
             
             <p className="text-xl text-blue-100 max-w-2xl leading-relaxed">
-              {t('hero.description')}
+              {t('seachat.hero.description')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://chat.seasalt.ai/gpt/signup" className="block">
                 <button className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg w-full">
-                  {t('hero.startFree')}
+                  {t('seachat.hero.startFree')}
                 </button>
               </a>
               <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
-                  {t('hero.exploreAI')}
+                  {t('seachat.hero.exploreAI')}
                 </button>
               </a>
             </div>
@@ -104,15 +104,15 @@ const Hero = () => {
             <div className="flex items-center space-x-8 text-blue-200">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span>{t('hero.alwaysFree')}</span>
+                <span>{t('seachat.hero.alwaysFree')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span>{t('hero.integrations')}</span>
+                <span>{t('seachat.hero.integrations')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span>{t('hero.setup')}</span>
+                <span>{t('seachat.hero.setup')}</span>
               </div>
             </div>
           </div>
@@ -127,10 +127,10 @@ const Hero = () => {
                     <MessageCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold">{t('hero.chat.supportTitle')}</h3>
+                    <h3 className="font-semibold">{t('seachat.hero.chat.supportTitle')}</h3>
                     <div className="flex items-center space-x-1 text-sm text-blue-100">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span>{t('hero.chat.online')}</span>
+                      <span>{t('seachat.hero.chat.online')}</span>
                     </div>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ const Hero = () => {
                     value={currentMessage}
                     onChange={(e) => setCurrentMessage(e.target.value)}
                     onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
-                    placeholder={t('hero.chat.typePlaceholder')}
+                    placeholder={t('seachat.hero.chat.typePlaceholder')}
                     className="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   />
                   <button

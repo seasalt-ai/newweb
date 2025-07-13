@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown, BookOpen } from 'lucide-react';
+import { Menu, X, ChevronDown, BookOpen } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../../components/LanguageSwitcher';
+import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,6 +11,7 @@ const Header = () => {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
   const { t, i18n } = useTranslation();
+  const { createLink } = useLanguageAwareLinks();
 
   const languages = [
     { code: 'en', name: 'English' },
@@ -24,36 +27,36 @@ const Header = () => {
   ];
 
   const featuresDropdown = [
-    { name: t('seachat.header.featuresDropdown.humanAgents'), href: '/seachat/features/human-agents' },
-    { name: t('seachat.header.featuresDropdown.aiAutomation'), href: '/seachat/features/ai-automation' },
-    { name: t('seachat.header.featuresDropdown.advancedAI'), href: '/seachat/features/advanced-ai' },
-    { name: t('seachat.header.featuresDropdown.knowledgeBase'), href: '/seachat/features/knowledge-base' },
-    { name: t('seachat.header.featuresDropdown.voiceAgents'), href: '/seachat/features/voice-agents' },
-    { name: t('seachat.header.featuresDropdown.analytics'), href: '/seachat/features/analytics' },
-    { name: t('seachat.header.featuresDropdown.omnichannel'), href: '/seachat/features/omnichannel' },
-    { name: t('seachat.header.featuresDropdown.api'), href: '/seachat/features/api' }
+    { name: t('seachat.header.featuresDropdown.humanAgents'), href: createLink('seachat/features/human-agents') },
+    { name: t('seachat.header.featuresDropdown.aiAutomation'), href: createLink('seachat/features/ai-automation') },
+    { name: t('seachat.header.featuresDropdown.advancedAI'), href: createLink('seachat/features/advanced-ai') },
+    { name: t('seachat.header.featuresDropdown.knowledgeBase'), href: createLink('seachat/features/knowledge-base') },
+    { name: t('seachat.header.featuresDropdown.voiceAgents'), href: createLink('seachat/features/voice-agents') },
+    { name: t('seachat.header.featuresDropdown.analytics'), href: createLink('seachat/features/analytics') },
+    { name: t('seachat.header.featuresDropdown.omnichannel'), href: createLink('seachat/features/omnichannel') },
+    { name: t('seachat.header.featuresDropdown.api'), href: createLink('seachat/features/api') }
   ];
 
   const integrationsDropdown = [
-    { name: t('seachat.header.integrationsDropdown.websites'), href: '/seachat/integrations/websites' },
-    { name: t('seachat.header.integrationsDropdown.crm'), href: '/seachat/integrations/crm' },
-    { name: t('seachat.header.integrationsDropdown.ecommerce'), href: '/seachat/integrations/ecommerce' },
-    { name: t('seachat.header.integrationsDropdown.socialMedia'), href: '/seachat/integrations/social-media' },
-    { name: t('seachat.header.integrationsDropdown.communication'), href: '/seachat/integrations/communication' },
-    { name: t('seachat.header.integrationsDropdown.marketing'), href: '/seachat/integrations/marketing' },
-    { name: t('seachat.header.integrationsDropdown.calendar'), href: '/seachat/integrations/calendar' },
-    { name: t('seachat.header.integrationsDropdown.api'), href: '/seachat/integrations/api' }
+    { name: t('seachat.header.integrationsDropdown.websites'), href: createLink('seachat/integrations/websites') },
+    { name: t('seachat.header.integrationsDropdown.crm'), href: createLink('seachat/integrations/crm') },
+    { name: t('seachat.header.integrationsDropdown.ecommerce'), href: createLink('seachat/integrations/ecommerce') },
+    { name: t('seachat.header.integrationsDropdown.socialMedia'), href: createLink('seachat/integrations/social-media') },
+    { name: t('seachat.header.integrationsDropdown.communication'), href: createLink('seachat/integrations/communication') },
+    { name: t('seachat.header.integrationsDropdown.marketing'), href: createLink('seachat/integrations/marketing') },
+    { name: t('seachat.header.integrationsDropdown.calendar'), href: createLink('seachat/integrations/calendar') },
+    { name: t('seachat.header.integrationsDropdown.api'), href: createLink('seachat/integrations/api') }
   ];
 
   const solutionsDropdown = [
-    { name: t('seachat.header.solutionsDropdown.ecommerce'), href: '/seachat/solutions/ecommerce' },
-    { name: t('seachat.header.solutionsDropdown.healthcare'), href: '/seachat/solutions/healthcare' },
-    { name: t('seachat.header.solutionsDropdown.fintech'), href: '/seachat/solutions/fintech' },
-    { name: t('seachat.header.solutionsDropdown.education'), href: '/seachat/solutions/education' },
-    { name: t('seachat.header.solutionsDropdown.realEstate'), href: '/seachat/solutions/real-estate' },
-    { name: t('seachat.header.solutionsDropdown.travel'), href: '/seachat/solutions/travel' },
-    { name: t('seachat.header.solutionsDropdown.saas'), href: '/seachat/solutions/saas' },
-    { name: t('seachat.header.solutionsDropdown.smallBusiness'), href: '/seachat/solutions/small-business' }
+    { name: t('seachat.header.solutionsDropdown.ecommerce'), href: createLink('seachat/solutions/ecommerce') },
+    { name: t('seachat.header.solutionsDropdown.healthcare'), href: createLink('seachat/solutions/healthcare') },
+    { name: t('seachat.header.solutionsDropdown.fintech'), href: createLink('seachat/solutions/fintech') },
+    { name: t('seachat.header.solutionsDropdown.education'), href: createLink('seachat/solutions/education') },
+    { name: t('seachat.header.solutionsDropdown.realEstate'), href: createLink('seachat/solutions/real-estate') },
+    { name: t('seachat.header.solutionsDropdown.travel'), href: createLink('seachat/solutions/travel') },
+    { name: t('seachat.header.solutionsDropdown.saas'), href: createLink('seachat/solutions/saas') },
+    { name: t('seachat.header.solutionsDropdown.smallBusiness'), href: createLink('seachat/solutions/small-business') }
   ];
 
   const handleDropdownToggle = (dropdown: string) => {
@@ -81,7 +84,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to={createLink('seachat')} className="flex items-center">
             <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-10 w-auto" />
           </Link>
 
@@ -182,7 +185,7 @@ const Header = () => {
 
             {/* Pricing */}
             <Link 
-              to="/pricing" 
+              to={createLink('seachat/pricing')} 
               className={`font-medium transition-colors ${
                 isActivePath('/pricing') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
@@ -192,7 +195,7 @@ const Header = () => {
 
             {/* Blog */}
             <Link 
-              to="/blog" 
+              to={createLink('seachat/blog')} 
               className={`font-medium transition-colors ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
@@ -215,7 +218,8 @@ const Header = () => {
 
           {/* Right side actions */}
           <div className="hidden lg:flex items-center space-x-4">
-            {/* Language selector removed - using main site's language switcher */}
+            {/* Language Switcher */}
+            <LanguageSwitcher className="" />
             {/* Sign In button */}
             <a
               href="https://chat.seasalt.ai/gpt/signin"
@@ -281,7 +285,7 @@ const Header = () => {
                     {item.name}
                   </Link>
                 ))}
-                <Link to="/integrations" className="block text-blue-600 font-medium">View All Integrations →</Link>
+                <Link to={createLink('seachat/integrations')} className="block text-blue-600 font-medium">View All Integrations →</Link>
               </div>
             </div>
 
@@ -303,12 +307,12 @@ const Header = () => {
                     {item.name}
                   </Link>
                 ))}
-                <Link to="/solutions" className="block text-blue-600 font-medium">View All Solutions →</Link>
+                <Link to={createLink('seachat/solutions')} className="block text-blue-600 font-medium">View All Solutions →</Link>
               </div>
             </div>
 
             <Link 
-              to="/pricing" 
+              to={createLink('seachat/pricing')} 
               className={`block font-medium transition-colors ${
                 isActivePath('/pricing') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
@@ -317,7 +321,7 @@ const Header = () => {
               {t('seachat.header.pricing')}
             </Link>
             <Link 
-              to="/blog" 
+              to={createLink('seachat/blog')} 
               className={`block font-medium transition-colors ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
