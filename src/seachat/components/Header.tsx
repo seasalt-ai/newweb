@@ -183,7 +183,7 @@ const Header = () => {
 
             {/* Blog */}
             <Link 
-              to={createLink('seachat/blog')} 
+              to={createLink('blog')} 
               className={`font-medium transition-colors ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
@@ -309,7 +309,7 @@ const Header = () => {
               {t('seachat.header.pricing')}
             </Link>
             <Link 
-              to={createLink('seachat/blog')} 
+              to={createLink('blog')} 
               className={`block font-medium transition-colors ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}

@@ -48,8 +48,6 @@ import SmallBusinessPage from '../seachat/pages/solutions/SmallBusinessPage';
 
 // Other pages
 import PricingPage from '../seachat/pages/PricingPage';
-import BlogPage from '../seachat/pages/BlogPage';
-import BlogPostPage from '../seachat/pages/BlogPostPage';
 
 function SeaChatHomePage() {
   return (
@@ -114,8 +112,6 @@ const SeaChatRouter = () => {
         
         {/* Other Pages */}
         <Route path="pricing" element={<PricingPage />} />
-        <Route path="blog" element={<BlogPage />} />
-        <Route path="blog/:slug" element={<BlogPostPage />} />
       </Routes>
       <Footer />
     </div>
