@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, MapPin, MessageSquare, Bot, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { industries } from '../data/industriesData';
 import { useTranslation } from 'react-i18next';

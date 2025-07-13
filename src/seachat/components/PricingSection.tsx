@@ -27,6 +27,7 @@ const PricingSection = () => {
       name: t('seachat.pricing.plans.free.name'),
       description: t('seachat.pricing.plans.free.description'),
       price: 0,
+      originalPrice: 0,
       features: t('seachat.pricing.plans.free.features', { returnObjects: true }),
       limitations: t('seachat.pricing.plans.free.limitations', { returnObjects: true }),
       buttonText: t('seachat.pricing.plans.free.button'),
@@ -173,7 +174,7 @@ const PricingSection = () => {
                     <span className="text-4xl font-bold text-gray-900">${plan.price}</span>
                     <span className="text-gray-600 ml-2">/{billingCycle === 'monthly' ? t('seachat.pricing.plans.free.period') : t('seachat.pricing.yearly').toLowerCase()}</span>
                   </div>
-                  {plan.originalPrice > 0 && billingCycle === 'yearly' && (
+                  {plan.originalPrice && plan.originalPrice > 0 && billingCycle === 'yearly' && (
                     <div className="flex items-center mt-2">
                       <span className="text-lg text-gray-500 line-through">${plan.originalPrice}/month</span>
                       <span className="ml-2 bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-semibold">

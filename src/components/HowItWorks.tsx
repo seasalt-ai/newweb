@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, Bot, Users } from 'lucide-react';
 
 const HowItWorks = () => {

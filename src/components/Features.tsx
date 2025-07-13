@@ -1,4 +1,3 @@
-import React from 'react';
 import { Inbox, Bot, Globe, Zap, Shield, BarChart3 } from 'lucide-react';
 
 const Features = () => {
