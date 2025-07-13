@@ -8,12 +8,12 @@ const KnowledgeBase = () => {
   const [uploadedFiles, setUploadedFiles] = useState<string[]>([]);
 
   const supportedFormats = [
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.pdf.name'), icon: FileText, color: 'text-red-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.pdf.count') },
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.excel.name'), icon: FileSpreadsheet, color: 'text-green-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.excel.count') },
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.word.name'), icon: FileText, color: 'text-blue-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.word.count') },
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.images.name'), icon: Image, color: 'text-purple-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.images.count') },
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.websites.name'), icon: Globe, color: 'text-teal-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.websites.count') },
-    { name: t('seachat.seachat.knowledgeBase.supportedFormats.formats.videos.name'), icon: Video, color: 'text-orange-500', count: t('seachat.seachat.knowledgeBase.supportedFormats.formats.videos.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.pdf.name'), icon: FileText, color: 'text-red-500', count: t('seachat.knowledgeBase.supportedFormats.formats.pdf.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.excel.name'), icon: FileSpreadsheet, color: 'text-green-500', count: t('seachat.knowledgeBase.supportedFormats.formats.excel.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.word.name'), icon: FileText, color: 'text-blue-500', count: t('seachat.knowledgeBase.supportedFormats.formats.word.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.images.name'), icon: Image, color: 'text-purple-500', count: t('seachat.knowledgeBase.supportedFormats.formats.images.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.websites.name'), icon: Globe, color: 'text-teal-500', count: t('seachat.knowledgeBase.supportedFormats.formats.websites.count') },
+    { name: t('seachat.knowledgeBase.supportedFormats.formats.videos.name'), icon: Video, color: 'text-orange-500', count: t('seachat.knowledgeBase.supportedFormats.formats.videos.count') },
   ];
 
   const handleFileUpload = (fileName: string) => {
@@ -25,7 +25,7 @@ const KnowledgeBase = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            {t('seachat.seachat.knowledgeBase.title')}
+            {t('seachat.knowledgeBase.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             {t('seachat.knowledgeBase.subtitle')}
