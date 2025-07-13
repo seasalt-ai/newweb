@@ -35,10 +35,721 @@
     }
   },
   "hero": {
-    "title": "停止在應用程序間切換 <br> 在一個簡單的收件箱中 <br> 統一每個客戶電話、WhatsApp <br> 和聊天。",
+    "title": "停止在應用程序間切換 \u003cbr\u003e 在一個簡單的收件箱中 \u003cbr\u003e 統一每個客戶電話、WhatsApp \u003cbr\u003e 和聊天。",
     "description": "Seasalt.ai是為小型企業打造的全方位聯絡中心。自動化支援、捕捉每個潛在客戶，並從單一畫面管理所有對話。",
-    "startForFree": "免費開始",
-    "seeDemo": "觀看2分鐘演示",
-    "trustedBy": "全球成長型企業信賴"
+    "signUp": "免費開始",
+    "seeDemo": "觀看演示",
+    "trustedBy": "受到全球成長企業的信任"
+  },
+  "seachat": {
+    "common": {
+      "getStarted": "免費開始",
+      "signIn": "登入",
+      "learnMore": "了解更多",
+      "readMore": "閱讀更多",
+      "viewAll": "查看所有文章",
+      "tryNow": "立即試用",
+      "contactUs": "聯繫我們",
+      "subscribe": "訂閱",
+      "search": "搜索",
+      "back": "返回"
+    },
+    "header": {
+      "features": "功能",
+      "integrations": "整合",
+      "solutions": "解決方案",
+      "pricing": "價格",
+      "blog": "部落格",
+      "language": "語言",
+      "featuresDropdown": {
+        "humanAgents": "人工代理聊天",
+        "aiAutomation": "AI 自動化",
+        "advancedAI": "高級 AI 功能",
+        "knowledgeBase": "知識庫",
+        "voiceAgents": "語音代理",
+        "analytics": "分析與見解",
+        "omnichannel": "全渠道支持",
+        "api": "API 及開發者工具"
+      },
+      "integrationsDropdown": {
+        "websites": "網站平台",
+        "crm": "CRM 系統",
+        "ecommerce": "電子商務",
+        "socialMedia": "社交媒體",
+        "communication": "通信工具",
+        "marketing": "行銷平台",
+        "calendar": "日曆與計劃",
+        "api": "自定義 API"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "電子商務與零售",
+        "healthcare": "醫療保健",
+        "fintech": "金融服務",
+        "education": "教育",
+        "realEstate": "房地產",
+        "travel": "旅遊與酒店",
+        "saas": "SaaS 及技術",
+        "smallBusiness": "小型企業"
+      }
+    },
+    "hero": {
+      "title": "以免費開始",
+      "subtitle": "現場代理",
+      "description": "透過我們的全渠道平台變革客戶支持。從人工代理開始，無需費用，然後隨著發展無縫整合 AI 自動化。",
+      "startFree": "立即免費開始",
+      "exploreAI": "預訂演示",
+      "alwaysFree": "永遠免費計劃",
+      "integrations": "30+ 整合",
+      "setup": "2 分鐘內設置",
+      "chat": {
+        "userMessage": "嗨！我需要幫助我的訂單",
+        "botMessage": "您好！我很樂意幫助您處理您的訂單。您可以提供您的訂單號碼嗎？",
+        "userMessage2": "我可以幫助您連接人工代理或提供即時 AI 協助。您更喜歡如何進行？",
+        "typePlaceholder": "輸入您的消息...",
+        "online": "在線",
+        "supportTitle": "SeaChat 支持"
+      }
+    },
+    "keyFeatures": {
+      "title": "為什麼選擇 SeaChat？",
+      "subtitle": "體驗人性與 AI 效率的完美結合。自由起步，智慧擴展，快速成功。",
+      "humanAgents": {
+        "title": "真正免費的人力代理 🍺 🎙️",
+        "description": "一開始就提供 1 個免費人力代理，終身免費——是的，終身免費！沒有上限，沒有限制，沒有附帶條件。",
+        "badge": "永遠免費",
+        "highlights": [
+          "無限制聊天對話",
+          "無限制的聊天歷史訪問",
+          "無限制的聯繫人和網絡建立",
+          "自由出口所有數據"
+        ]
+      },
+      "aiAutomation": {
+        "title": "無縫 AI 自動化",
+        "description": "透過學習您的對話和文件，智能 AI 可以輕鬆擴展。",
+        "highlights": [
+          "智能自動回復",
+          "從互動中學習",
+          "上下文感知的回應"
+        ]
+      },
+      "omnichannel": {
+        "title": "全渠道連接",
+        "description": "在一個統一的平台上連接所有渠道，以獲得一致的支持。",
+        "highlights": [
+          "30 多個整合",
+          "統一收件箱",
+          "跨平台同步"
+        ]
+      },
+      "trulyFree": {
+        "title": "真正免費的計劃🍺 歷久保持 🎙️",
+        "description": "介紹 SeaChat 的僅人力代理模式：無以倫比的通信自由的入場券！我們很高興地宣布提供 1 個人力代理 \u003cspan class=\"font-bold text-green-600\"\u003e終身免費\u003c/span\u003e——是的，您沒聽錯，終身免費！",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "無限制的聊天",
+            "description": "進行您需要的對話數量，無上限或限制。"
+          },
+          "unlimitedHistory": {
+            "title": "無限制的歷史",
+            "description": "永遠不會丟失對話——隨時訪問完整的聊天歷史。"
+          },
+          "unlimitedContacts": {
+            "title": "無限制的聯繫人",
+            "description": "構建您的網絡，沒有任何限制或聯繫人數限制。"
+          },
+          "freedomToExport": {
+            "title": "自由導出",
+            "description": "您的數據，您的規則——輕鬆導出所有聊天歷史。"
+          }
+        },
+        "whyChoose": "為什麼選擇 SeaChat？因為它真的是免費的！",
+        "whatYouGet": "✅ 您獲得的東西免費：",
+        "freeForeverFeatures": [
+          "1 個人力代理終身",
+          "無限制聊天對話",
+          "完整的聊天歷史訪問",
+          "無限制的聯繫人管理",
+          "完整的數據出口權"
+        ],
+        "scaleWhenReady": "🚀 準備擴展時：",
+        "scaleFeatures": [
+          "新增 AI 自動化",
+          "高級整合功能",
+          "語音代理功能",
+          "企業安全",
+          "自定義工作流程"
+        ],
+        "startButton": "立即開始您的免費代理 - 不需要信用卡！"
+      },
+      "statsBar": {
+        "unlimited": "永遠無限制的聊天",
+        "fileTypes": "支持 30 多種文件類型",
+        "setupTime": "平均設置時間 2 分鐘",
+        "availability": "24/7 AI 可用性"
+      }
+    },
+    "featureTabs": {
+      "title": "強大的功能，簡單的設置",
+      "subtitle": "探索我們的綜合功能集，致力於改造您的客戶支持體驗。",
+      "tabs": {
+        "agentChat": "代理聊天",
+        "aiAgent": "AI 代理",
+        "advancedAI": "高級 AI",
+        "knowledgeBase": "知識庫",
+        "integrations": "整合功能"
+      },
+      "content": {
+        "agentChat": {
+          "title": "卓越的人力代理",
+          "subtitle": "開始真正的人力支持，完全免費",
+          "features": [
+            "無限制的免費代理時間",
+            "實時對話管理",
+            "多代理合作",
+            "高級標籤和路由",
+            "性能分析",
+            "自定義工作流程"
+          ],
+          "tryFeature": "嘗試此功能",
+          "watchDemo": "觀看演示"
+        },
+        "aiAgent": {
+          "title": "智能 AI 自動化",
+          "subtitle": "通過學習無縫擴展",
+          "features": [
+            "上下文感知反應",
+            "從對話中學習",
+            "無縫的人力對接",
+            "多語言支持",
+            "自定義 AI 訓練",
+            "語音代理能力"
+          ],
+          "tryFeature": "嘗試此功能",
+          "watchDemo": "觀看演示"
+        },
+        "advancedAI": {
+          "title": "下一代 AI 智能",
+          "subtitle": "個性化體驗的高級 AI 功能",
+          "features": [
+            "檢索增強生成 (RAG)",
+            "長期用戶記憶系統",
+            "時間感知上下文反應",
+            "智能上下文提取",
+            "引用的聊天結果",
+            "知識庫精緻化"
+          ],
+          "tryDemo": "嘗試高級 AI 演示",
+          "watchAI": "觀看 AI 行動"
+        },
+        "knowledgeBase": {
+          "title": "綜合知識中心",
+          "subtitle": "上傳 30 多種文件格式，以便 AI 提供豐富有上下文的反應",
+          "features": [
+            "支持 PDF、Excel、CSV、Word",
+            "網站內容攝取",
+            "圖像和視頻處理",
+            "豐富的相應格式",
+            "自動更新的內容",
+            "版本控制"
+          ],
+          "tryFeature": "嘗試此功能",
+          "watchDemo": "觀看演示"
+        },
+        "integrations": {
+          "title": "強大的整合",
+          "subtitle": "與您喜愛的工具和平台連接",
+          "features": [
+            "CRM 整合 (Salesforce、HubSpot)",
+            "日曆預訂 (Google、Outlook)",
+            "電子商務平台",
+            "行銷工具",
+            "自定義 API 訪問",
+            "支持 Webhook"
+          ],
+          "tryFeature": "嘗試此功能",
+          "watchDemo": "觀看演示"
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "部署在每個客戶所在之地",
+      "subtitle": "無縫連接您的所有客戶接觸點，包括網站、社交媒體和通信平台。將鼠標懸停在每個頻道上以查看實時性能指標。",
+      "channels": {
+        "website": {
+          "name": "網站",
+          "description": "適用於任何 HTML 網站的通用小部件"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "通過世界上最受歡迎的消息應用與客戶連接"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "在一個統一的收件箱中管理 Instagram 私信和故事回覆"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "通過 Facebook 的消息應用提供客戶支持"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "通過知名的亞洲消息平台與客戶連接"
+        },
+        "phone": {
+          "name": "電話",
+          "description": "使用 AI 語音代理處理語音支持"
+        },
+        "email": {
+          "name": "電子郵件",
+          "description": "管理智能路由的電子郵件票據"
+        },
+        "ecommerce": {
+          "name": "電子商務",
+          "description": "與在線商店整合，進行訂單管理"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "網站整合",
+          "description": "透過我們的通用小部件在任何網站平台上部署"
+        },
+        "socialMedia": {
+          "title": "社交媒體",
+          "description": "在客戶最愛的社交平台上連接"
+        },
+        "traditional": {
+          "title": "傳統渠道",
+          "description": "通過經典通信方式保持支持"
+        }
+      },
+      "quickSetup": {
+        "title": "準備好隨時隨地部署？",
+        "subtitle": "透過我們簡單的整合過程，在幾分鐘內開始",
+        "steps": [
+          {
+            "title": "選擇您的頻道",
+            "description": "從 8+ 部署選項中選擇"
+          },
+          {
+            "title": "複製和粘貼代碼",
+            "description": "簡易的小部件安裝"
+          },
+          {
+            "title": "開始聊天",
+            "description": "立即開始支持客戶"
+          }
+        ],
+        "button": "開始免費部署"
+      }
+    },
+    "pricing": {
+      "title": "隨著您成長的定價",
+      "subtitle": "從人力代理完全免費開始，然後在您準備好擴展時新增 AI。",
+      "monthly": "按月",
+      "yearly": "每年",
+      "save": "節省 20%",
+      "customize": "自定義您的計劃",
+      "chatVolume": "每月聊天量",
+      "agents": "代理數",
+      "plans": {
+        "free": {
+          "name": "永遠免費",
+          "description": "非常適合剛開始使用人工代理",
+          "price": "0",
+          "period": "/月",
+          "features": [
+            "無限制的人力代理時間",
+            "基本聊天小部件",
+            "電子郵件支持",
+            "3 個渠道 (網路、電子郵件、電話)",
+            "基本分析",
+            "社群支持"
+          ],
+          "limitations": ["無 AI 自動化", "有限的整合"],
+          "button": "立即免費開始"
+        },
+        "starter": {
+          "name": "AI 初學者",
+          "description": "增加 AI 自動化以擴展您的支持",
+          "badge": "最受歡迎",
+          "features": [
+            "所有免費項目",
+            "AI 代理自動化",
+            "知識庫 (5GB)",
+            "進階分析",
+            "優先電子郵件支持",
+            "10 項整合",
+            "自定義品牌"
+          ],
+          "button": "開始 AI 試用"
+        },
+        "growth": {
+          "name": "增長",
+          "description": "適合增長團隊的進階功能",
+          "features": [
+            "所有初學者項目",
+            "高級 AI 訓練",
+            "無限制的知識庫",
+            "語音代理",
+            "API 訪問",
+            "自定義工作流程",
+            "電話支持"
+          ],
+          "button": "嘗試成長計劃"
+        },
+        "enterprise": {
+          "name": "企業",
+          "description": "為大型組織定制的解決方案",
+          "features": [
+            "所有成長項目",
+            "專屬成功經理",
+            "自定義整合",
+            "高級安全",
+            "SLA 保證",
+            "內部部署",
+            "24/7 電話支持"
+          ],
+          "button": "聯繫銷售"
+        }
+      },
+      "enterprise": {
+        "title": "需要自定義的東西嗎？",
+        "description": "我們提供自定義企業方案，包括內部部署、高級安全功能和專屬支持團隊。",
+        "button": "安排企業演示"
+      },
+      "faq": {
+        "title": "常見問題",
+        "questions": [
+          {
+            "question": "免費計劃真的是永遠免費嗎？",
+            "answer": "是的！我們的免費計劃包括 1 個人力代理，終身免費，無限制對話、聊天歷史和聯繫人。不需要信用卡，沒有隱藏費用。"
+          },
+          {
+            "question": "在任何時候可以升級或降級我的計劃嗎？",
+            "answer": "當然可以！您可以隨時更改計劃。升級立即生效，降級在您目前的計費週期結束時生效。"
+          },
+          {
+            "question": "如果我取消會對我的數據有什麼影響？",
+            "answer": "您擁有您的數據。即使在免費計劃下，您也可以隨時匯出所有聊天歷史、聯繫人和知識庫內容。"
+          },
+          {
+            "question": "您提供大型企業的自定義定價嗎？",
+            "answer": "是的！我們提供自定義企業解決方案，包括量身定制的報價、專屬支持和特色。請聯繫我們的銷售團隊進行個性化報價。"
+          }
+        ]
+      }
+    },
+    "knowledgeBase": {
+      "title": "強大的知識庫",
+      "subtitle": "上傳 30 多種文件格式，讓 AI 提供豐富有上下文的反應，包括卡片、按鈕、圖片和視頻。",
+      "supportedFormats": {
+        "title": "支持的文件類型",
+        "formats": {
+          "pdf": {
+            "name": "PDF 文件",
+            "count": "15 個"
+          },
+          "excel": {
+            "name": "Excel 表",
+            "count": "8 個"
+          },
+          "word": {
+            "name": "Word 文件",
+            "count": "12 個"
+          },
+          "images": {
+            "name": "圖像",
+            "count": "25 張"
+          },
+          "websites": {
+            "name": "網站",
+            "count": "5 個"
+          },
+          "videos": {
+            "name": "視頻",
+            "count": "3 個"
+          }
+        },
+        "richResponse": {
+          "title": "豐富的反應格式：",
+          "features": [
+            "互動卡片",
+            "操作按鈕",
+            "嵌入圖片",
+            "視頻反應"
+          ]
+        },
+        "addDocuments": "添加您的文件"
+      },
+      "uploadModal": {
+        "title": "上傳您的文件",
+        "dropzone": {
+          "title": "將您的文件拖動到此處",
+          "description": "支持 PDF、Word、Excel、圖片、視頻等",
+          "button": "選擇文件"
+        },
+        "demoFiles": [
+          "樣本手冊.pdf",
+          "產品數據.xlsx",
+          "品牌指南.jpg"
+        ],
+        "close": "關閉演示"
+      }
+    },
+    "useCases": {
+      "title": "跨行業的成功案例",
+      "subtitle": "查看企業如何通過 SeaChat 的人類 AI 混合方法改造其客戶支持。",
+      "cases": {
+        "ecommerce": {
+          "title": "電子商務支持革命",
+          "industry": "零售",
+          "challenge": "應對 500+ 每日客戶查詢，跨多個渠道，員工有限",
+          "solution": "部署 SeaChat，AI 代理處理 70% 的例行查詢，人工代理處理複雜問題",
+          "results": [
+            "響應時間減少 60%",
+            "客戶滿意度提高 40%",
+            "支持操作成本節省75％"
+          ],
+          "metrics": {
+            "responseTime": "< 30 秒",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "醫療患者支持",
+          "industry": "醫療保健",
+          "challenge": "提供全天候患者支持，同時保持 HIPAA 合規性",
+          "solution": "集成安全的 AI 代理，進行預約和症狀預篩",
+          "results": [
+            "24/7 患者幫助",
+            "無顯不登約減少了 50%",
+            "維持 100% 的 HIPAA 合規性"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "金融服務卓越支持",
+          "industry": "金融科技",
+          "challenge": "以速度和安全處理敏感的金融查詢",
+          "solution": "定制化 AI 訓練，以金融法規為基礎，無縫的人力升級",
+          "results": [
+            "90% 的首次解決比例",
+            "查詢處理速度加快 3 倍",
+            "提高安全協議"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "增強的"
+          }
+        }
+      },
+      "cta": {
+        "title": "準備好轉變您的支持？",
+        "description": "加入已經使用 SeaChat 提供卓越客戶體驗的數百家企業。",
+        "buttons": {
+          "viewCases": "查看所有案例研究",
+          "startStory": "開始您的成功故事"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "受到世界各地支持團隊的喜愛",
+      "subtitle": "不僅僅是相信我們。這是我們的客戶對通過 SeaChat 改善其支持所說的話。",
+      "navigation": {
+        "previous": "上一個",
+        "next": "下一個"
+      },
+      "trustedBy": "受到創新企業的信賴",
+      "stats": {
+        "customers": "10,000+ 滿意的客戶",
+        "uptime": "99.9% 的運行時間",
+        "messages": "處理超過 5000 萬條消息",
+        "rating": "4.9/5 點評"
+      }
+    },
+    "blog": {
+      "title": "最新的見解與資源",
+      "subtitle": "掌握有關客戶支持趨勢、AI 實施戰略和平台優化提示的專家見解。",
+      "categories": {
+        "all": "全部",
+        "ai": "AI 與自動化",
+        "strategy": "戰略",
+        "integration": "整合",
+        "knowledge": "知識管理",
+        "success": "客戶成功"
+      },
+      "featured": "特色",
+      "latest": "最新貼文",
+      "readTime": "分鐘閱讀",
+      "stayUpdated": "保持更新",
+      "newsletterSubtitle": "獲取有關 AI 客戶支持、平台更新和行業最佳實踐的最新見解，直接送到您的收件箱。",
+      "joinProfessionals": "加入5000+支持專業人士。隨時取消訂閱。",
+      "loading": "加載中",
+      "loadingPost": "加載文章中...",
+      "backToBlog": "返回頁面",
+      "share": "分享",
+      "tags": "標籤",
+      "followLinkedIn": "在 LinkedIn 上關注",
+      "moreArticles": "更多文章",
+      "relatedArticles": "相關文章",
+      "searchPlaceholder": "搜索文章、主題或標籤...",
+      "articleCount": "文章(s) 找到",
+      "noArticles": "未找到文章",
+      "adjustSearch": "嘗試調整搜索詞或類別過濾。"
+    },
+    "solutions": {
+      "healthcare": {
+        "title": "醫療保健解決方案",
+        "subtitle": "以符合 HIPAA 的客戶支持轉變患者護理，提高患者滿意度，優化運營並增強護理協調。",
+        "trialButton": "開始醫療保健試用",
+        "demoButton": "查看醫療保健演示",
+        "featuresTitle": "醫療專用功能",
+        "featuresSubtitle": "為提供卓越患者護理的醫療保健提供商量身打造的功能。",
+        "features": {
+          "hipaa": {
+            "title": "HIPAA 合規性",
+            "description": "支持 HIPAA 合規的客戶支持，提供加密通信和安全數據處理",
+            "benefits": {
+              "encryption": "端到端加密",
+              "audit": "審計跟踪",
+              "access": "訪問控制",
+              "anonymization": "數據匿名化"
+            }
+          },
+          "appointments": {
+            "title": "預約管理",
+            "description": "無縫的預約安排、重新安排和提醒系統",
+            "benefits": {
+              "availability": "實時可用性",
+              "reminders": "自動提醒",
+              "cancellation": "取消處理",
+              "waitlist": "等候名單管理"
+            }
+          },
+          "telehealth": {
+            "title": "遠程醫療支持",
+            "description": "集成遠程醫療功能進行遠程患者咨詢",
+            "benefits": {
+              "video": "視頻咨詢",
+              "messaging": "安全消息",
+              "documents": "文件共享",
+              "followup": "隨訪護理"
+            }
+          },
+          "engagement": {
+            "title": "患者參與",
+            "description": "通過全天候支持和個性化護理提高患者滿意度",
+            "benefits": {
+              "availability": "24/7 可用性",
+              "multilanguage": "多語言支持",
+              "coordination": "護理協調",
+              "education": "健康教育"
+            }
+          }
+        },
+        "metricsTitle": "醫療影響指標",
+        "metricsSubtitle": "使用 SeaChat 的醫療保健提供商獲得的實際結果。",
+        "metrics": {
+          "noshows": {
+            "label": "未遵約減少",
+            "description": "通過自動預約提醒"
+          },
+          "response": {
+            "label": "更快的響應時間",
+            "description": "患者詢問和關心的回應"
+          },
+          "satisfaction": {
+            "label": "患者滿意度",
+            "description": "通過全天候支持提高滿意度"
+          },
+          "efficiency": {
+            "label": "行政效率",
+            "description": "通過自動化工作流程提高效率"
+          }
+        },
+        "useCasesTitle": "常見醫療保健使用案例",
+        "useCasesSubtitle": "查看 SeaChat 如何處理典型的患者互動和行政任務。",
+        "useCases": {
+          "appointments": {
+            "title": "預約安排",
+            "description": "患者可以通過聊天預訂、重新安排或取消約會",
+            "example": "我要重新安排下週二的約會"
+          },
+          "prescriptions": {
+            "title": "藥物詢問",
+            "description": "處理處方續訂和藥物問題的安全支持",
+            "example": "我的處方何時可以取？"
+          },
+          "insurance": {
+            "title": "保險核驗",
+            "description": "核驗保險範圍並為患者解釋福利",
+            "example": "我的程序是否包括在我的保險計劃內？"
+          },
+          "symptoms": {
+            "title": "症狀篩查預測",
+            "description": "AI 驅動的症狀評估和分流建議",
+            "example": "我有發燒和咳嗽，我應該來醫院嗎？"
+          }
+        },
+        "patientRequest": "患者請求",
+        "seachatResponse": "SeaChat 回應",
+        "hipaaTitle": "HIPAA 合規與安全",
+        "hipaaSubtitle": "從根本上構建具有醫療保健安全性和合規性的系統。保護患者數據，同時提供卓越的護理體驗。",
+        "compliance": {
+          "complianceFeatures": [
+            "所有通信的端到端加密",
+            "全面的審計跟踪和日誌",
+            "基於角色的訪問控製",
+            "自動數據匿名化",
+            "安全的數據存儲和備份",
+            "定期安全評估",
+            "員工培訓和認證",
+            "事件響應程序"
+          ]
+        },
+        "certificationsTitle": "安全認證",
+        "certifications": {
+          "hipaa": "HIPAA 合規",
+          "soc2": "SOC 2 第二類",
+          "iso": "ISO 27001",
+          "gdpr": "符合 GDPR 條例"
+        },
+        "certified": "已認證",
+        "compliant": "合規",
+        "ctaTitle": "準備好改變患者護理了嗎？",
+        "ctaSubtitle": "加入已經使用 SeaChat 提供卓越患者體驗，同時保持最高安全和合規標準的醫療保健提供商。",
+        "ctaTrialButton": "開始醫療保健試用",
+        "ctaDemoButton": "安排醫療保健演示"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "內置端到端加密",
+          "多因素身份驗證", 
+          "定期安全審計",
+          "數據保護"
+        ]
+      }
+    },
+    "footer": {
+      "product": "產品",
+      "company": "公司",
+      "resources": "資源",
+      "legal": "法律與支持",
+      "getStarted": "準備好開始了嗎？",
+      "joinThousands": "加入由數千家企業已經使用 SeaChat 提供卓越客戶體驗。",
+      "enterEmail": "輸入您的電子郵件",
+      "noCredit": "不需要信用卡 • 2 分鐘內設置 • 可隨時取消",
+      "copyright": "© 2024 SeaChat。保留所有權利。",
+      "compliance": "🔒 符合 SOC 2",
+      "gdpr": "🛡️ 符合 GDPR",
+      "uptime": "⚡ 99.9% 可用性"
+    }
   }
 }
