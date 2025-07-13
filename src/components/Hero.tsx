@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Phone, MessageSquare, MessageCircle, Megaphone, BarChart3, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 
 const Hero = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('marketing');
   const [fade, setFade] = useState(true);
   const [scale, setScale] = useState(true);
@@ -27,16 +29,12 @@ const Hero = () => {
           {/* Left Column - Content */}
           <div className="lg:pr-8 w-full">
             <div className="text-center lg:text-left w-full">
-              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Stop Juggling Apps.{' '}
-                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Unify Every Customer
-                </span>{' '}
-                Call, WhatsApp, and Chat in One Simple Inbox.
-              </h1>
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6"
+                  dangerouslySetInnerHTML={{ __html: t('hero.title') }}
+              />
+              
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
-                Seasalt.ai is the all-in-one contact center built for businesses. Automate support, 
-                capture every lead, and manage all your conversations from a single screen.
+                {t('hero.description')}
               </p>
               
               {/* CTAs */}
@@ -45,23 +43,19 @@ const Hero = () => {
                   href="https://seax.seasalt.ai/signup"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
                 >
-                  Start for Free
+                  {t('hero.signUp')}
                 </a>
                 <a
                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                 >
-                  Book A Demo
+                  {t('hero.seeDemo')}
                 </a>
               </div>
 
               {/* Social Proof */}
               <div className="border-t border-gray-200 pt-6 sm:pt-8">
                 <p className="text-sm text-gray-500 mb-4">
-                  Seasalt.ai brings developers an agentic communication tool for the following{' '}
-                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    tool use
-                  </code>
-                  :
+                  {t('hero.trustedBy')}
                 </p>
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
