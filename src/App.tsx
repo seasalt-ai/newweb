@@ -54,6 +54,7 @@ import BlogPost from './pages/BlogPost';
 import LanguageRouter from './components/LanguageRouter';
 import MarkdownPage from './components/MarkdownPage';
 import SeaHealth from './pages/SeaHealth';
+import SeaChatRouter from './components/SeaChatRouter';
 
 import SEOHelmet from './components/SEOHelmet';
 
@@ -149,6 +150,8 @@ function App() {
           <Route path="blog/:slug" element={<BlogPost />} />
         <Route path="seahealth" element={<SeaHealth />} />
       </Route>
+      {/* SeaChat routes - all under /seachat prefix */}
+      <Route path="/seachat/*" element={<SeaChatRouter />} />
       <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
