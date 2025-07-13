@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../constants/languages';
 
 const LanguageRouter: React.FC = () => {
   const { lang } = useParams<{ lang: string }>();
@@ -8,19 +9,17 @@ const LanguageRouter: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   
-  // Supported languages
-  const supportedLanguages = ['en', 'es', 'fr', 'de', 'pl', 'pt', 'ru', 'ar', 'zh-TW', 'ja', 'ko', 'vi', 'th', 'hi'];
   
   useEffect(() => {
     // Only redirect if the language is missing or unsupported
     if (!lang) {
-      navigate('/en' + location.pathname, { replace: true });
+      navigate(`/${DEFAULT_LANGUAGE}` + location.pathname, { replace: true });
       return;
     }
 
-    if (!supportedLanguages.includes(lang)) {
+    if (!SUPPORTED_LANGUAGES.includes(lang as any)) {
       const pathWithoutLang = location.pathname.replace(/^\/[^\/]+/, '');
-      navigate('/en' + pathWithoutLang, { replace: true });
+      navigate(`/${DEFAULT_LANGUAGE}` + pathWithoutLang, { replace: true });
       return;
     }
 

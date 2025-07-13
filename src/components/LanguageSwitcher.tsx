@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
+import { LANGUAGE_DETAILS } from '../constants/languages';
 
 interface LanguageSwitcherProps {
   className?: string;
@@ -13,26 +14,10 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   
-  const languages = [
-    { code: 'en', name: 'English', shortCode: 'EN' },
-    { code: 'es', name: 'Español', shortCode: 'ES' },
-    { code: 'fr', name: 'Français', shortCode: 'FR' },
-    { code: 'de', name: 'Deutsch', shortCode: 'DE' },
-    { code: 'pl', name: 'Polski', shortCode: 'PL' },
-    { code: 'pt', name: 'Português', shortCode: 'PT' },
-    { code: 'ru', name: 'Русский', shortCode: 'RU' },
-    { code: 'ar', name: 'العربية', shortCode: 'AR' },
-    { code: 'zh-TW', name: '繁體中文', shortCode: 'TW' },
-    { code: 'ja', name: '日本語', shortCode: 'JA' },
-    { code: 'ko', name: '한국어', shortCode: 'KO' },
-    { code: 'vi', name: 'Tiếng Việt', shortCode: 'VI' },
-    { code: 'th', name: 'ไทย', shortCode: 'TH' },
-    { code: 'hi', name: 'हिन्दी', shortCode: 'HI' }
-  ];
   
   // Get current language name
   const getCurrentLanguageName = () => {
-    const currentLang = languages.find(lang => lang.code === i18n.language);
+    const currentLang = LANGUAGE_DETAILS.find(lang => lang.code === i18n.language);
     return currentLang ? currentLang.shortCode : 'EN';
   };
   
@@ -76,7 +61,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
       
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
-          {languages.map((language) => (
+          {LANGUAGE_DETAILS.map((language) => (
             <button
               key={language.code}
               onClick={() => changeLanguage(language.code)}

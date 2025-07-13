@@ -1,23 +1,12 @@
 import { useState } from 'react';
 import { Globe, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { LANGUAGE_DETAILS } from '../../constants/languages';
 
 const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { i18n } = useTranslation();
 
-  const languages = [
-    { code: 'en', name: 'English' },
-    { code: 'zh-TW', name: '繁體中文' },
-    { code: 'ja', name: '日本語' },
-    { code: 'ko', name: '한국어' },
-    { code: 'es', name: 'Español' },
-    { code: 'pt', name: 'Português' },
-    { code: 'fr', name: 'Français' },
-    { code: 'pl', name: 'Polski' },
-    { code: 'ru', name: 'Русский' },
-    { code: 'ar', name: 'العربية' },
-  ];
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -25,7 +14,7 @@ const LanguageSwitcher = () => {
   };
 
   // Get current language code and name
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  const currentLanguage = LANGUAGE_DETAILS.find(lang => lang.code === i18n.language) || LANGUAGE_DETAILS[0];
 
   return (
     <div className="relative">
@@ -45,7 +34,7 @@ const LanguageSwitcher = () => {
             onClick={() => setIsOpen(false)}
           />
           <div className="absolute top-full right-0 mt-1 w-48 bg-white rounded-lg shadow-xl border border-gray-100 py-2 max-h-64 overflow-y-auto z-50">
-            {languages.map((lang) => (
+            {LANGUAGE_DETAILS.map((lang) => (
               <button
                 key={lang.code}
                 className={`w-full text-left px-4 py-2 text-sm ${
