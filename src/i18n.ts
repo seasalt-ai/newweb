@@ -14,11 +14,15 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: process.env.NODE_ENV === 'development',
-    load: 'languageOnly', // Always load e.g. 'en' for 'en-US'
+    load: 'all', // Load both 'en' and 'en-US' if available
     // Backend configuration
     backend: {
       // Path to load language files from
-      loadPath: '/locales/{{lng}}.json',
+      loadPath: '/locales/{{lng}}.json?v=' + Date.now(),
+      // Allow cross-origin requests
+      crossDomain: false,
+      // Clear cache
+      cache: false,
     },
     // Detect language from browser
     detection: {
@@ -36,5 +40,6 @@ i18n
       useSuspense: true,
     },
   });
+
 
 export default i18n;
