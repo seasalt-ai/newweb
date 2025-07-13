@@ -12,11 +12,14 @@ Successfully refactored the language routing system from hardcoded routes to a d
   - Type-safe language definitions
   - Centralized language details (name, code, shortCode)
   - Default language configuration
+  - Now supports 18 languages (added Malay, Indonesian, Filipino, Tamil)
+  - Languages sorted alphabetically for better UX
 
 ### 2. Dynamic Route Generation
 - **Updated**: `src/App.tsx`
 - **Changes**:
   - Replaced 14 hardcoded SeaChat routes with dynamic generation
+  - Now automatically generates routes for all 18 supported languages
   - Uses `SUPPORTED_LANGUAGES.map()` to generate routes
   - More maintainable and scalable
 
@@ -33,6 +36,14 @@ Successfully refactored the language routing system from hardcoded routes to a d
   - Updated to use centralized constants
   - Maintains consistency across the application
 
+- **Main Header** (`src/components/Header.tsx`):
+  - Replaced hardcoded language array with centralized constants
+  - Updated both desktop and mobile language switchers
+
+- **SeaChat Header** (`src/seachat/components/Header.tsx`):
+  - Removed hardcoded language array
+  - Updated mobile language switcher to use centralized constants
+
 ## Before vs After
 
 ### Before (Hardcoded)
@@ -40,7 +51,7 @@ Successfully refactored the language routing system from hardcoded routes to a d
 <Route path="/en/seachat/*" element={<SeaChatRouter />} />
 <Route path="/es/seachat/*" element={<SeaChatRouter />} />
 <Route path="/fr/seachat/*" element={<SeaChatRouter />} />
-// ... 11 more hardcoded routes
+// ... 15 more hardcoded routes (18 total)
 ```
 
 ### After (Dynamic)
@@ -59,6 +70,27 @@ Successfully refactored the language routing system from hardcoded routes to a d
 5. **Error Prevention**: Reduces risk of missing routes when adding languages
 6. **Scalability**: Easy to add/remove languages without code changes
 
+## Current Supported Languages (18 total)
+
+- Arabic (العربية)
+- German (Deutsch)
+- English
+- Spanish (Español)
+- Filipino
+- French (Français)
+- Hindi (हिन्दी)
+- Indonesian (Bahasa Indonesia)
+- Japanese (日本語)
+- Korean (한국어)
+- Malay (Bahasa Melayu)
+- Polish (Polski)
+- Portuguese (Português)
+- Russian (Русский)
+- Tamil (தமிழ்)
+- Thai (ไทย)
+- Vietnamese (Tiếng Việt)
+- Traditional Chinese (繁體中文)
+
 ## Adding a New Language
 
 To add a new language (e.g., Italian):
@@ -68,7 +100,7 @@ To add a new language (e.g., Italian):
 export const SUPPORTED_LANGUAGES = [...existing, 'it'] as const;
 
 export const LANGUAGE_DETAILS = [
-  // ... existing languages
+  // ... existing languages (keep alphabetical order)
   { code: 'it', name: 'Italiano', shortCode: 'IT' }
 ] as const;
 ```
@@ -91,9 +123,30 @@ export const LANGUAGE_DETAILS = [
 - `src/components/LanguageRouter.tsx` - Updated to use constants
 - `src/components/LanguageSwitcher.tsx` - Updated to use constants  
 - `src/seachat/components/LanguageSwitcher.tsx` - Updated to use constants
+- `src/components/Header.tsx` - Updated to use constants
+- `src/seachat/components/Header.tsx` - Updated to use constants
+
+## Language Inheritance Fix
+
+Fixed an issue where the SeaChat link in the header navigation was not preserving the current language context. Previously, clicking on SeaChat from `/de` would navigate to `/en/seachat` instead of `/de/seachat`.
+
+### Changes Made:
+1. **Updated Header component** (`src/components/Header.tsx`):
+   - Added `useLanguageAwareLinks` hook import
+   - Modified SeaChat product link to use `createLink(product.href)` instead of `product.href`
+   - Applied fix to both desktop and mobile navigation
+
+2. **Used existing hook**: The `useLanguageAwareLinks` hook already had logic to handle SeaChat routes specifically, it just needed to be applied to the Header component.
+
+### Result:
+- ✅ Language context is now preserved when navigating to SeaChat
+- ✅ Users on `/de` will navigate to `/de/seachat` (not `/en/seachat`)
+- ✅ Works for all 18 supported languages
+- ✅ Applied to both desktop and mobile navigation
 
 ## Build Status
 ✅ All TypeScript errors resolved
 ✅ Build successful
 ✅ All existing functionality preserved
+✅ Language inheritance issue fixed
 ✅ Ready for deployment

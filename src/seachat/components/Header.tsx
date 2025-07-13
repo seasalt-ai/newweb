@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
+import { LANGUAGE_DETAILS } from '../../constants/languages';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,18 +14,6 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   const { createLink } = useLanguageAwareLinks();
 
-  const languages = [
-    { code: 'en', name: 'English' },
-    { code: 'zh-TW', name: '繁體中文' },
-    { code: 'ja', name: '日本語' },
-    { code: 'ko', name: '한국어' },
-    { code: 'es', name: 'Español' },
-    { code: 'pt', name: 'Português' },
-    { code: 'fr', name: 'Français' },
-    { code: 'pl', name: 'Polski' },
-    { code: 'ru', name: 'Русский' },
-    { code: 'ar', name: 'العربية' },
-  ];
 
   const featuresDropdown = [
     { name: t('seachat.header.featuresDropdown.humanAgents'), href: createLink('seachat/features/human-agents') },
@@ -333,7 +322,7 @@ const Header = () => {
             <div className="pt-4 border-t border-gray-100">
               <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.language')}</h3>
               <div className="grid grid-cols-2 gap-2">
-                {languages.map((lang) => (
+                {LANGUAGE_DETAILS.map((lang) => (
                   <button
                     key={lang.code}
                     className={`text-left px-3 py-2 rounded text-sm ${
