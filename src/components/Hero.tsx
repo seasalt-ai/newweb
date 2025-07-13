@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Phone, MessageSquare, MessageCircle, Megaphone, BarChart3, Users } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 
 const Hero = () => {
@@ -30,11 +30,12 @@ const Hero = () => {
           <div className="lg:pr-8 w-full">
             <div className="text-center lg:text-left w-full">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Stop Juggling Apps.{' '}
-                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Unify Every Customer
-                </span>{' '}
-                Call, WhatsApp, and Chat in One Simple Inbox.
+                <Trans
+                  i18nKey="hero.titleWithGradient"
+                  components={{
+                    1: <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent" />
+                  }}
+                />
               </h1>
               
               <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
@@ -59,11 +60,12 @@ const Hero = () => {
               {/* Social Proof */}
               <div className="border-t border-gray-200 pt-6 sm:pt-8">
                 <p className="text-sm text-gray-500 mb-4">
-                  Seasalt.ai brings developers an agentic communication tool for the following{' '}
-                  <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    tool use
-                  </code>
-                  :
+                  <Trans
+                    i18nKey="hero.developerMessage"
+                    components={{
+                      1: <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap" />
+                    }}
+                  />
                 </p>
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
