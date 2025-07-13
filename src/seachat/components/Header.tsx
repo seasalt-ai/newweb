@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown, BookOpen } from 'lucide-react';
+import { Menu, X, ChevronDown, BookOpen, ChevronRight, Home } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
+import { products } from '../../data/productsData';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,10 +72,88 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to={createLink('seachat')} className="flex items-center">
-            <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-10 w-auto" />
-          </Link>
+          {/* Logo with dropdown */}
+          <div className="relative">
+            <button 
+              onClick={() => handleDropdownToggle('logo')}
+              className="flex items-center hover:opacity-90 transition-opacity"
+            >
+              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-10 w-auto" />
+              <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
+            </button>
+            {openDropdown === 'logo' && (
+              <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                {/* Main Site Link */}
+                <Link
+                  to={createLink('')}
+                  className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 border-b border-gray-100"
+                  onClick={() => setOpenDropdown(null)}
+                >
+                  <Home className="w-5 h-5 mr-3 text-blue-600" />
+                  <div>
+                    <div className="font-medium text-gray-900">Seasalt.ai Main Site</div>
+                    <div className="text-xs text-gray-500">All products and solutions</div>
+                  </div>
+                </Link>
+                
+                {/* Products */}
+                <div className="py-2">
+                  <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
+                  {products.map((product, index) => (
+                    <div key={index}>
+                      {product.subProducts ? (
+                        <div>
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                          >
+                            <div className="font-medium">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </a>
+                          <div className="bg-gray-50 border-t border-gray-100">
+                            {product.subProducts.map((subProduct, subIndex) => (
+                              <a
+                                key={subIndex}
+                                href={subProduct.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                              >
+                                {subProduct.title}
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      ) : (
+                        product.href.startsWith('/') ? (
+                          <Link
+                            to={createLink(product.href.substring(1))}
+                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            onClick={() => setOpenDropdown(null)}
+                          >
+                            <div className="font-medium">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </Link>
+                        ) : (
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                          >
+                            <div className="font-medium">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </a>
+                        )
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
@@ -234,6 +313,18 @@ const Header = () => {
       {isMenuOpen && (
         <div className="lg:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-6 space-y-6">
+            {/* Back to Main Site */}
+            <div className="pb-4 border-b border-gray-100">
+              <Link 
+                to={createLink('')} 
+                className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
+                Back to Main Site
+              </Link>
+            </div>
+            
             {/* Features Section */}
             <div>
               <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.features')}</h3>
