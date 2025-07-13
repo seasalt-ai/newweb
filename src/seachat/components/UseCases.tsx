@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingUp, Clock, Users } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const UseCases = () => {

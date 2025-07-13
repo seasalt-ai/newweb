@@ -1,4 +1,4 @@
-import { Plane, MapPin, Calendar, Clock, Globe, Users, ArrowRight, CheckCircle } from 'lucide-react';
+import { Plane, MapPin, Calendar, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const TravelPage = () => {

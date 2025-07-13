@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Globe, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

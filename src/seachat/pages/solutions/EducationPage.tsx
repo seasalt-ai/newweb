@@ -1,4 +1,4 @@
-import { GraduationCap, BookOpen, Users, Calendar, Clock, MessageSquare, ArrowRight, CheckCircle } from 'lucide-react';
+import { GraduationCap, BookOpen, Users, Calendar, MessageSquare, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const EducationPage = () => {

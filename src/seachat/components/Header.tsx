@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Menu, X, ChevronDown, BookOpen } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -7,7 +7,7 @@ import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isLangOpen, setIsLangOpen] = useState(false);
+  // Unused language switcher state removed
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
   const { t, i18n } = useTranslation();
@@ -73,11 +73,10 @@ const Header = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    setIsLangOpen(false);
   };
 
   // Get current language code and name
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  // Unused currentLanguage removed
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>

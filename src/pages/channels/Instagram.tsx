@@ -1,4 +1,3 @@
-import React from 'react';
 import { Instagram, Camera, Users, Bot, BarChart3, Heart, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

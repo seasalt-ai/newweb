@@ -1,4 +1,4 @@
-import { Heart, Shield, Clock, Users, Phone, Calendar, ArrowRight, CheckCircle } from 'lucide-react';
+import { Heart, Shield, Users, Phone, Calendar, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const HealthcarePage = () => {

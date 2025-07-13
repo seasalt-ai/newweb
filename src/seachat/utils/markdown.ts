@@ -60,7 +60,7 @@ function markdownToHtml(markdown: string): string {
 }
 
 // Parse a markdown file into a BlogPost object
-export function parseMarkdownPost(slug: string, markdown: string, lang: string = 'en'): BlogPost {
+export function parseMarkdownPost(slug: string, markdown: string): BlogPost {
   const { frontmatter, content } = parseFrontmatter(markdown);
   
   // Calculate read time (rough estimate: 200 words per minute)

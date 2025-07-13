@@ -1,4 +1,3 @@
-import React from 'react';
 import { Monitor, Palette, Code, Users, Zap, BarChart3, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

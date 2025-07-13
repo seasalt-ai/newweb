@@ -1,4 +1,3 @@
-import React from 'react';
 import { Smartphone, Globe, Users, BarChart3, MapPin, Zap, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

@@ -1,4 +1,4 @@
-import { Users, MessageCircle, Clock, Shield, Star, CheckCircle, Infinity, Heart, Coffee } from 'lucide-react';
+import { Users, MessageCircle, Shield, Star, CheckCircle, Infinity, Heart, Coffee } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const HumanAgentsPage = () => {

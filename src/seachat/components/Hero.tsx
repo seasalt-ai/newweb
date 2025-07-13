@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MessageCircle, Send, User, Bot } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

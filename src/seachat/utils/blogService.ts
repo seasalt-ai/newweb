@@ -76,7 +76,7 @@ export async function fetchBlogPost(slug: string, language: string = 'en'): Prom
     }
     
     // Parse the markdown content into a BlogPost object
-    const post = parseMarkdownPost(slug, markdownContent, language);
+    const post = parseMarkdownPost(slug, markdownContent);
     
     // Cache the result
     singlePostCache[cacheKey] = post;

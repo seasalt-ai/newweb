@@ -12,7 +12,3 @@ export interface BlogPost {
   readTime?: string;
 }
 
-interface BlogCategory {
-  id: string;
-  name: string;
-}

@@ -1,4 +1,4 @@
-import { Cloud, Code, Users, TrendingUp, Zap, Shield, ArrowRight, CheckCircle } from 'lucide-react';
+import { Cloud, Code, Users, TrendingUp, Shield, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const SaaSPage = () => {

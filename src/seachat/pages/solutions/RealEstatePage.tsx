@@ -1,4 +1,4 @@
-import { Home, MapPin, Calendar, Users, Phone, Search, ArrowRight, CheckCircle } from 'lucide-react';
+import { Home, Calendar, Users, Phone, Search, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const RealEstatePage = () => {

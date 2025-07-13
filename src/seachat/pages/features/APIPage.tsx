@@ -1,4 +1,4 @@
-import { Code, Zap, Shield, Globe, Terminal, Book, ArrowRight, Copy } from 'lucide-react';
+import { Code, Zap, Shield, Globe, Terminal, Book, Copy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const APIPage = () => {

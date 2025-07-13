@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { Users, Bot, BookOpen, Zap, Play, Check, Brain, Clock, Search, Database, FileText, Target } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Users, Bot, BookOpen, Zap, Check, Brain, Clock, Search, Database, FileText, Target } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 // Define interfaces for type safety
@@ -10,13 +10,6 @@ interface AdvancedFeature {
   details: string[];
 }
 
-interface TabContent {
-  title: string;
-  subtitle: string;
-  features: string[];
-  image: string;
-  advancedFeatures?: AdvancedFeature[];
-}
 
 const FeatureTabs = () => {
   const { t } = useTranslation();

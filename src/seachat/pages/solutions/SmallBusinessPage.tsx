@@ -1,4 +1,4 @@
-import { Store, Users, DollarSign, Clock, Phone, MessageSquare, ArrowRight, CheckCircle } from 'lucide-react';
+import { Store, Users, DollarSign, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const SmallBusinessPage = () => {

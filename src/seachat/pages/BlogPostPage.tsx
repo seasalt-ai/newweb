@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Calendar, User, ArrowLeft, Share2, Clock, Tag } from 'lucide-react';
+import { Calendar, ArrowLeft, Share2, Clock, Tag } from 'lucide-react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BlogPost } from '../types/blog';

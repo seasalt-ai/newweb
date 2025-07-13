@@ -1,6 +1,6 @@
 
 import { SiMailchimp, SiHubspot } from 'react-icons/si';
-import { Mail, Target, TrendingUp, Users, Zap, ArrowRight, CheckCircle } from 'lucide-react';
+import { Mail, Target, Users, Zap, ArrowRight, CheckCircle } from 'lucide-react';
 
 import { useTranslation } from 'react-i18next';
 

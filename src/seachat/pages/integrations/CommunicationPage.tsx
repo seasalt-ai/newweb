@@ -1,4 +1,4 @@
-import { Phone, Mail, MessageSquare, Video, Slack, ArrowRight, CheckCircle } from 'lucide-react';
+import { Mail, MessageSquare, Video, Slack, CheckCircle } from 'lucide-react';
 import { SiWhatsapp, SiKakaotalk, SiGooglechat, SiZalo } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 

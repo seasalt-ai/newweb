@@ -1,4 +1,4 @@
-import { DollarSign, Shield, TrendingUp, CreditCard, Lock, Users, ArrowRight, CheckCircle } from 'lucide-react';
+import { DollarSign, Shield, TrendingUp, CreditCard, Lock, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const FintechPage = () => {

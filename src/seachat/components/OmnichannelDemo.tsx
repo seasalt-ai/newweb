@@ -1,16 +1,8 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { MessageCircle, Instagram, Facebook, Twitter, Mail, Phone, Globe, ShoppingBag, Palette, MessageSquare, Zap, ArrowRight, Check, Info, MessageSquareText } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { MessageCircle, Instagram, Facebook, Mail, Phone, Globe, ShoppingBag, Palette, MessageSquare, Zap, ArrowRight, Check, Info } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { SiLine, SiWordpress, SiWix, SiShopify, SiZendesk } from 'react-icons/si';
 
-// Inline SVG for LINE icon
-const LineIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" width={props.width || 16} height={props.height || 16} {...props}>
-    <rect width="40" height="40" rx="8" fill="#06C755"/>
-    <path d="M20 10C13.373 10 8 14.477 8 20c0 3.09 1.81 5.82 4.63 7.59-.15.52-.98 3.37-1.02 3.6 0 0-.02.17.09.24.11.07.25.05.25.05.33-.05 3.82-2.51 4.34-2.85.91.13 1.85.2 2.81.2 6.627 0 12-4.477 12-10S26.627 10 20 10z" fill="#fff"/>
-    <path d="M14.5 19.5v4m0-4 2.5 4m0-4v4m3-4v4m0-4 2.5 4m0-4v4m3-4v4" stroke="#06C755" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
 
 const OmnichannelDemo = () => {
   const { t } = useTranslation();
