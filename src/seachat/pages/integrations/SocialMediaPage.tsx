@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageSquare, Instagram, Facebook, ArrowRight, CheckCircle } from 'lucide-react';
 import { SiTiktok, SiLine, SiWhatsapp, SiX } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';

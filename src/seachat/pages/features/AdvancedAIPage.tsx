@@ -1,4 +1,3 @@
-import React from 'react';
 import { Brain, Search, Clock, Target, FileText, Database, Zap, Star, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

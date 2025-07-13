@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Check, Star, Zap, ArrowRight, Infinity } from 'lucide-react';
 
 const PricingPage = () => {

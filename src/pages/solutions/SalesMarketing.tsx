@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, Check, Star, TrendingUp, Target, Megaphone, BarChart3, Users, Zap, DollarSign } from 'lucide-react';
+import { ArrowLeft, Check, Star, TrendingUp, Target, Megaphone, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Zap, Shield, Globe, Terminal, Book, ArrowRight, Copy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

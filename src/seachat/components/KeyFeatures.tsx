@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Bot, Globe, ArrowRight, Infinity, Download, MessageCircle, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

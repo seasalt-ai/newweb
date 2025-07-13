@@ -1,4 +1,3 @@
-import React from 'react';
 import IndustryPageTemplate from './IndustryPageTemplate';
 import { industries } from '../../data/industriesData';
 

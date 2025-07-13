@@ -1,8 +1,6 @@
-import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
-import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaCheckCircle, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegHospital, FaRegAddressBook, FaRegComments, FaRegThumbsUp, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegEnvelopeOpen, FaRegStar, FaRegHeart, FaRegLightbulb, FaRegCalendarPlus, FaRegCalendarCheck, FaRegCalendarTimes, FaRegArrowAltCircleRight, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown, FaRegArrowAltCircleLeft } from 'react-icons/fa';
+import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegComments, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegStar, FaRegCalendarPlus, FaRegCalendarCheck, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown } from 'react-icons/fa';
 import SEOHelmet from '../components/SEOHelmet';
 
 const SeaHealth = () => (

@@ -37,7 +37,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
   };
   
   const changeLanguage = (languageCode: string) => {
-    const { pathname, hash } = location;
+    const { pathname } = location;
     const currentLang = i18n.language;
     let newPath;
 

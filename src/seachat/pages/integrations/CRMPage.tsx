@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Database, FolderSync as Sync, TrendingUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

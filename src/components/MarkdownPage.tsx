@@ -14,7 +14,7 @@ interface MarkdownPageProps {
 
 const MarkdownPage: React.FC<MarkdownPageProps> = ({ pageType }) => {
   const [markdown, setMarkdown] = useState('');
-  const { lang } = useParams<{ lang: string }>();
+  useParams<{ lang: string }>();
 
   useEffect(() => {
     const fetchMarkdown = async () => {

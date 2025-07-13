@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShoppingBag, TrendingUp, Clock, Users, Star, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

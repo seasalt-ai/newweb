@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowLeft, Book, Search, FileText, Users, Zap, Shield, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

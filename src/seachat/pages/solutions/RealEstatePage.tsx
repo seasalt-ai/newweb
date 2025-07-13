@@ -1,4 +1,3 @@
-import React from 'react';
 import { Home, MapPin, Calendar, Users, Phone, Search, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

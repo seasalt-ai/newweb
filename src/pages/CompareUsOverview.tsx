@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
@@ -106,20 +105,6 @@ const CompareUsOverview = () => {
     }
   ];
 
-  const categories = [
-    'Sales-Focused Phone Systems',
-    'UCaaS Giants', 
-    'Enterprise Contact Centers',
-    'Legacy Providers',
-    'Basic VoIP Services',
-    'Digital-First Platforms',
-    'Website Engagement Tools',
-    'Enterprise Customer Service',
-    'Self-Hosted Solutions',
-    'UCaaS with Contact Center Tiers',
-    'Enterprise Communications',
-    'Simple Business Phone'
-  ];
 
   return (
     <div className="min-h-screen bg-white">

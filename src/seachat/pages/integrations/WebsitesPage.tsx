@@ -1,4 +1,3 @@
-import React from 'react';
 import { Globe, Code, Zap, CheckCircle, ArrowRight, Copy, ExternalLink } from 'lucide-react';
 import { SiWordpress, SiShopify, SiWix, SiSquarespace, SiWebflow } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';

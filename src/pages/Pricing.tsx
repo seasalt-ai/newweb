@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Check, Star, ArrowLeft, ChevronDown } from 'lucide-react';
+import { useState } from 'react';
+import { Check, Star, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';

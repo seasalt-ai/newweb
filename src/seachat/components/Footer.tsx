@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle, Twitter, Linkedin, Facebook, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';

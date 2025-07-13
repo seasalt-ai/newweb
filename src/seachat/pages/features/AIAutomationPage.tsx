@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bot, Zap, Brain, MessageSquare, Clock, TrendingUp, ArrowRight, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

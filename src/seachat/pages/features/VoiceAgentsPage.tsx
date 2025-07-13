@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mic, Volume2, Clock, Globe, Brain, ArrowRight, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

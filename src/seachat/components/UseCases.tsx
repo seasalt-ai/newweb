@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, TrendingUp, Clock, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

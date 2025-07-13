@@ -1,5 +1,4 @@
-import React from 'react';
-import { FileText, Zap, Users, BarChart3, Mail, Globe, ArrowLeft } from 'lucide-react';
+import { FileText, Zap, Users, BarChart3, Globe, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 

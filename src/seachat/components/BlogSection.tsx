@@ -1,4 +1,3 @@
-import React from 'react';
 import { Calendar, User, ArrowRight, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';

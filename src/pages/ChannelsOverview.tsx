@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle, Phone, MessageSquare, Monitor, Instagram, Mail, FileText, Smartphone, Globe, ArrowLeft, Star, Zap, Shield } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';

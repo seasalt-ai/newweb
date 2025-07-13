@@ -1,7 +1,5 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
@@ -66,7 +64,6 @@ const SeaChatRedirect = () => {
 };
 
 function HomePage() {
-  const { t } = useTranslation();
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   

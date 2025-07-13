@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, Check, Star, Headphones, Clock, Users, Shield, BarChart3, Zap, Heart } from 'lucide-react';
+import { ArrowLeft, Check, Headphones, Clock, Users, Shield, BarChart3, Zap, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

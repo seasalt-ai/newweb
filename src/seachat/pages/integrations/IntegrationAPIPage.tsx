@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Zap, Puzzle, Settings, ArrowRight, CheckCircle, Copy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

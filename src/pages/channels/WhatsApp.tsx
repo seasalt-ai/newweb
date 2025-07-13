@@ -1,5 +1,4 @@
-import React from 'react';
-import { MessageCircle, Check, Shield, Globe, Bot, Users, ArrowLeft } from 'lucide-react';
+import { MessageCircle, Shield, Globe, Bot, Users, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';

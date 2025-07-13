@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, MessageCircle, Clock, Shield, Star, CheckCircle, Infinity, Heart, Coffee } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
