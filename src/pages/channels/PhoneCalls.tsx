@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Bot, Users, BarChart3, Globe, Shield, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

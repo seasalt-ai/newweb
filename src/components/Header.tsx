@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { industries } from '../data/industriesData';
 import { solutions } from '../data/solutionsData';
 import { products } from '../data/productsData';
+import { LANGUAGE_DETAILS } from '../constants/languages';
+import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const { createLink } = useLanguageAwareLinks();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Only one dropdown open at a time
   const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
@@ -46,22 +49,6 @@ const Header = () => {
     { name: 'OpenPhone', path: '/compare/openphone-alternative' }
   ];
 
-  const languages = [
-    { code: 'en', name: 'English', shortCode: 'EN' },
-    { code: 'es', name: 'Español', shortCode: 'ES' },
-    { code: 'fr', name: 'Français', shortCode: 'FR' },
-    { code: 'de', name: 'Deutsch', shortCode: 'DE' },
-    { code: 'pl', name: 'Polski', shortCode: 'PL' },
-    { code: 'pt', name: 'Português', shortCode: 'PT' },
-    { code: 'ru', name: 'Русский', shortCode: 'RU' },
-    { code: 'ar', name: 'العربية', shortCode: 'AR' },
-    { code: 'zh-TW', name: '繁體中文', shortCode: 'TW' },
-    { code: 'ja', name: '日本語', shortCode: 'JA' },
-    { code: 'ko', name: '한국어', shortCode: 'KO' },
-    { code: 'vi', name: 'Tiếng Việt', shortCode: 'VI' },
-    { code: 'th', name: 'ไทย', shortCode: 'TH' },
-    { code: 'hi', name: 'हिन्दी', shortCode: 'HI' }
-  ];
 
   const changeLanguage = (languageCode: string) => {
     // Get the current path without the language prefix
@@ -90,7 +77,7 @@ const Header = () => {
 
   // Get current language name
   const getCurrentLanguageName = () => {
-    const currentLang = languages.find(lang => lang.code === i18n.language);
+    const currentLang = LANGUAGE_DETAILS.find(lang => lang.code === i18n.language);
     return currentLang ? currentLang.shortCode : 'EN';
   };
 
@@ -160,15 +147,25 @@ const Header = () => {
                           )}
                         </div>
                       ) : (
-                        <a
-                          href={product.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block px-4 py-3 text-sm hover:bg-gray-50"
-                        >
-                          <div className="font-medium text-gray-700">{product.title}</div>
-                          <div className="text-xs text-gray-500">{product.description}</div>
-                        </a>
+                        product.href.startsWith('/') ? (
+                          <Link
+                            to={createLink(product.href)}
+                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                          >
+                            <div className="font-medium text-gray-700">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </Link>
+                        ) : (
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                          >
+                            <div className="font-medium text-gray-700">{product.title}</div>
+                            <div className="text-xs text-gray-500">{product.description}</div>
+                          </a>
+                        )
                       )}
                     </div>
                   ))}
@@ -392,7 +389,7 @@ const Header = () => {
               </button>
               {openDropdown === 'language' && (
                 <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
-                  {languages.map((language) => (
+                  {LANGUAGE_DETAILS.map((language) => (
                     <button
                       key={language.code}
                       onClick={() => changeLanguage(language.code)}
@@ -465,14 +462,23 @@ const Header = () => {
                           </div>
                         </div>
                       ) : (
-                        <a
-                          href={product.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                        >
-                          {product.title}
-                        </a>
+                        product.href.startsWith('/') ? (
+                          <Link
+                            to={createLink(product.href)}
+                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
+                          >
+                            {product.title}
+                          </Link>
+                        ) : (
+                          <a
+                            href={product.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
+                          >
+                            {product.title}
+                          </a>
+                        )
                       )}
                     </div>
                   ))}
@@ -533,7 +539,7 @@ const Header = () => {
               <div className="px-3 py-2">
                 <div className="text-sm font-medium text-gray-900 mb-2">Language / Idioma / 语言</div>
                 <div className="pl-4 space-y-1 max-h-40 overflow-y-auto">
-                  {languages.map((language) => (
+                  {LANGUAGE_DETAILS.map((language) => (
                     <button
                       key={language.code}
                       onClick={() => changeLanguage(language.code)}

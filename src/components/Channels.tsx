@@ -1,10 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { MessageSquare, Phone, MessageCircle, Instagram, Mail, Globe, Smartphone, FileText, Monitor } from 'lucide-react';
+import { MessageSquare, Phone, MessageCircle, Monitor } from 'lucide-react';
 
 const Channels = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const channels = [
     {

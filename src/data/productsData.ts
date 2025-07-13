@@ -13,7 +13,7 @@ export interface Product {
 export const products: Product[] = [
   {
     title: 'SeaChat',
-    href: 'http://chat.seasalt.ai/',
+    href: '/seachat',
     description: 'Respond to customers 24/7'
   },
   {

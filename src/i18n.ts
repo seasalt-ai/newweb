@@ -29,6 +29,8 @@ i18n
     interpolation: {
       escapeValue: false, // React already escapes values
     },
+    // Allow returning objects/arrays from translations
+    returnObjects: true,
     // Wait for translations to be loaded before rendering
     react: {
       useSuspense: true,

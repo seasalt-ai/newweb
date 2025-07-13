@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
+import { ArrowLeft, Check, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

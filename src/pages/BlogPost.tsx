@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag, Share2, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -37,7 +37,7 @@ const createArticleStructuredData = (post: BlogPost) => {
 
 const BlogPostPage = () => {
   const { slug, lang } = useParams<{ slug: string; lang: string }>();
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const navigate = useNavigate();
   const [post, setPost] = useState<BlogPost | null>(null);
   const [loading, setLoading] = useState(true);

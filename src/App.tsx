@@ -1,7 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
@@ -54,11 +52,19 @@ import BlogPost from './pages/BlogPost';
 import LanguageRouter from './components/LanguageRouter';
 import MarkdownPage from './components/MarkdownPage';
 import SeaHealth from './pages/SeaHealth';
+import SeaChatRouter from './components/SeaChatRouter';
 
 import SEOHelmet from './components/SEOHelmet';
+import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
+
+// Component to handle SeaChat redirects
+const SeaChatRedirect = () => {
+  const location = useLocation();
+  const subPath = location.pathname.replace('/seachat', '');
+  return <Navigate to={`/${DEFAULT_LANGUAGE}/seachat${subPath}`} replace />;
+};
 
 function HomePage() {
-  const { t } = useTranslation();
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
@@ -104,7 +110,14 @@ function App() {
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
         {/* /health redirects to /seahealth */}
         <Route path="/health" element={<Navigate to="/seahealth" replace />} />
-        <Route path="/seahealth" element={<Navigate to="/en/seahealth" replace />} />
+        <Route path="/seahealth" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seahealth`} replace />} />
+        {/* SeaChat routes - handle all seachat paths first */}
+        <Route path="/seachat" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seachat`} replace />} />
+        <Route path="/seachat/*" element={<SeaChatRedirect />} />
+        {/* Dynamic SeaChat routes for all supported languages */}
+        {SUPPORTED_LANGUAGES.map(lang => (
+          <Route key={lang} path={`/${lang}/seachat/*`} element={<SeaChatRouter />} />
+        ))}
         {/* Language-specific routes */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
@@ -147,8 +160,8 @@ function App() {
           <Route path="solutions/ai-automation" element={<AIAutomation />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
-        <Route path="seahealth" element={<SeaHealth />} />
-      </Route>
+          <Route path="seahealth" element={<SeaHealth />} />
+        </Route>
       <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}

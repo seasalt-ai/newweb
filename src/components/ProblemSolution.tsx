@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageSquareWarning, Clock, Activity, Megaphone, Bot, Users } from 'lucide-react';
 
 const ProblemSolution = () => {

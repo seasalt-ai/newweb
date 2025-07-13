@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, ShoppingBag, Users, BarChart3, Star, Zap, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

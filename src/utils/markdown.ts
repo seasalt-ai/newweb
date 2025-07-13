@@ -1,7 +1,6 @@
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
-import i18n from 'i18next';
 
 export interface BlogPost {
   slug: string;

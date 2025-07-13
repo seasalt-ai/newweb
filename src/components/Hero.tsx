@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Phone, MessageSquare, MessageCircle, Mail, Monitor, Smartphone, Megaphone, BarChart3, Users, Inbox } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Phone, MessageSquare, MessageCircle, Megaphone, BarChart3, Users } from 'lucide-react';
 
 
 const Hero = () => {

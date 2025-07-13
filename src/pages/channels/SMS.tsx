@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageSquare, Globe, Shield, BarChart3, Clock, Users, ArrowLeft } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

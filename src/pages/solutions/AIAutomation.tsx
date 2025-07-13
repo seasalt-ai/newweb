@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowLeft, Check, Star, Bot, Zap, Cog, Brain, Clock, BarChart3, Shield, Workflow } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';

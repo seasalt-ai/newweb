@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag, Search } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { loadAllBlogPosts, BlogPostMeta, getAllBlogSlugs } from '../utils/markdown';
+import { loadAllBlogPosts, BlogPostMeta } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 
 // Helper function to create a structured data for blog listing
@@ -33,7 +33,7 @@ const createBlogListingStructuredData = (posts: BlogPostMeta[]) => {
 };
 
 const Blog = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const { lang } = useParams<{ lang: string }>();
   const [posts, setPosts] = useState<BlogPostMeta[]>([]);
   const [filteredPosts, setFilteredPosts] = useState<BlogPostMeta[]>([]);

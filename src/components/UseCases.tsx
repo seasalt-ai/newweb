@@ -1,4 +1,3 @@
-import React from 'react';
 import { Headphones, Bot, MessageSquareText, Megaphone, MessageCircleMore, MessageSquare } from 'lucide-react';
 
 const UseCases = () => {
