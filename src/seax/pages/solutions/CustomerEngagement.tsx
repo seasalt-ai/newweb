@@ -2,12 +2,68 @@ import Header from '../../components/Header';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, TrendingUp } from 'lucide-react';
+import { ArrowRight, CheckCircle, TrendingUp, Users, MessageSquare, Heart, BarChart3, Target, Zap } from 'lucide-react';
 
-const CustomerEngagement = () => {
+const CustomerEngagement = () =e {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const getLocalizedPath = (path: string) =e `/${currentLanguage}/seax${path}`;
+
+  const features = [
+    {
+      icon: Users,
+      title: 'Advanced Customer Profiling',
+      description: 'Create enriched customer profiles for more personalized engagement.'
+    },
+    {
+      icon: MessageSquare,
+      title: 'Multichannel Messaging',
+      description: 'Engage customers across SMS, WhatsApp, and in-app messaging.'
+    },
+    {
+      icon: Heart,
+      title: 'Sentiment Analysis',
+      description: 'Understand customer sentiments and adjust communications accordingly.'
+    },
+    {
+      icon: BarChart3,
+      title: 'Behavioral Analytics',
+      description: 'Track and analyze customer behavior to improve engagement strategies.'
+    },
+    {
+      icon: Target,
+      title: 'Direct Marketing Tools',
+      description: 'Run targeted campaigns with precision, based on customer data.'
+    },
+    {
+      icon: Zap,
+      title: 'Real-time Interaction',
+      description: 'Engage customers when it matters most, with real-time triggers and communication.'
+    }
+  ];
+
+  const useCases = [
+    {
+      title: 'E-commerce Engagement',
+      description: 'Increase repeat business and customer retention through personalized promotions.',
+      stats: '20% increase in repeat purchases'
+    },
+    {
+      title: 'Financial Services Alerts',
+      description: 'Keep clients informed on account activities with automated alerts and updates.',
+      stats: '80% engagement rate on alerts'
+    },
+    {
+      title: 'Travel and Hospitality',
+      description: 'Enhance guest experience with pre-arrival updates and personalized itineraries.',
+      stats: '50% reduction in customer inquiries'
+    },
+    {
+      title: 'Retail Loyalty Programs',
+      description: 'Boost loyalty with personalized rewards and offers based on purchase history.',
+      stats: '25% increase in loyalty program members'
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-white">
