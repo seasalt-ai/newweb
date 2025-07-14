@@ -1,3 +1,5 @@
+import { MessageSquare, Users, Video, Mic } from 'lucide-react';
+
 export interface SubProduct {
   title: string;
   href: string;
@@ -8,28 +10,33 @@ export interface Product {
   href: string;
   description?: string;
   subProducts?: SubProduct[];
+  icon?: any;
 }
 
 export const products: Product[] = [
   {
     title: 'SeaChat',
     href: '/seachat',
-    description: 'Respond to customers 24/7'
+    description: 'Respond to customers 24/7',
+    icon: MessageSquare
   },
   {
     title: 'SeaX',
-    href: 'http://seax.seasalt.ai/',
-    description: 'Outreach to customers in bulk'
+    href: '/seax',
+    description: 'Outreach to customers in bulk',
+    icon: Users
   },
   {
     title: 'SeaMeet',
     href: 'http://meet.seasalt.ai/',
-    description: 'Copilot for meetings & calls'
+    description: 'Copilot for meetings & calls',
+    icon: Video
   },
   {
     title: 'SeaVoice',
     href: 'http://voice.seasalt.ai/',
     description: 'AI voice agents for calls',
+    icon: Mic,
     subProducts: [
       {
         title: 'Text To Speech',

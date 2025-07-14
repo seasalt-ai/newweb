@@ -53,6 +53,7 @@ import LanguageRouter from './components/LanguageRouter';
 import MarkdownPage from './components/MarkdownPage';
 import SeaHealth from './pages/SeaHealth';
 import SeaChatRouter from './components/SeaChatRouter';
+import SeaXRouter from './seax/utils/SeaXRouter';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
@@ -62,6 +63,13 @@ const SeaChatRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seachat', '');
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seachat${subPath}`} replace />;
+};
+
+// Component to handle SeaX redirects
+const SeaXRedirect = () => {
+  const location = useLocation();
+  const subPath = location.pathname.replace('/seax', '');
+  return <Navigate to={`/${DEFAULT_LANGUAGE}/seax${subPath}`} replace />;
 };
 
 function HomePage() {
@@ -117,6 +125,13 @@ function App() {
         {/* Dynamic SeaChat routes for all supported languages */}
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={lang} path={`/${lang}/seachat/*`} element={<SeaChatRouter />} />
+        ))}
+        {/* SeaX routes - handle all seax paths */}
+        <Route path="/seax" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seax`} replace />} />
+        <Route path="/seax/*" element={<SeaXRedirect />} />
+        {/* Dynamic SeaX routes for all supported languages */}
+        {SUPPORTED_LANGUAGES.map(lang => (
+          <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
         ))}
         {/* Language-specific routes */}
         <Route path=":lang" element={<LanguageRouter />}>

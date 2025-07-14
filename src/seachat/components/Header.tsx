@@ -1,5 +1,29 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown, BookOpen, Home } from 'lucide-react';
+import { 
+  Menu, 
+  X, 
+  ChevronDown, 
+  BookOpen, 
+  Home, 
+  Users, 
+  Bot, 
+  Brain, 
+  Database, 
+  Phone, 
+  BarChart3, 
+  MessageSquare, 
+  Code, 
+  Globe, 
+  Settings, 
+  ShoppingCart, 
+  Heart, 
+  DollarSign, 
+  GraduationCap, 
+  Building2, 
+  MapPin, 
+  Monitor, 
+  Briefcase 
+} from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
@@ -17,36 +41,132 @@ const Header = () => {
 
 
   const featuresDropdown = [
-    { name: t('seachat.header.featuresDropdown.humanAgents'), href: createLink('seachat/features/human-agents') },
-    { name: t('seachat.header.featuresDropdown.aiAutomation'), href: createLink('seachat/features/ai-automation') },
-    { name: t('seachat.header.featuresDropdown.advancedAI'), href: createLink('seachat/features/advanced-ai') },
-    { name: t('seachat.header.featuresDropdown.knowledgeBase'), href: createLink('seachat/features/knowledge-base') },
-    { name: t('seachat.header.featuresDropdown.voiceAgents'), href: createLink('seachat/features/voice-agents') },
-    { name: t('seachat.header.featuresDropdown.analytics'), href: createLink('seachat/features/analytics') },
-    { name: t('seachat.header.featuresDropdown.omnichannel'), href: createLink('seachat/features/omnichannel') },
-    { name: t('seachat.header.featuresDropdown.api'), href: createLink('seachat/features/api') }
+    { 
+      name: t('seachat.header.featuresDropdown.humanAgents'), 
+      href: createLink('seachat/features/human-agents'),
+      icon: Users
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.aiAutomation'), 
+      href: createLink('seachat/features/ai-automation'),
+      icon: Bot
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.advancedAI'), 
+      href: createLink('seachat/features/advanced-ai'),
+      icon: Brain
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.knowledgeBase'), 
+      href: createLink('seachat/features/knowledge-base'),
+      icon: Database
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.voiceAgents'), 
+      href: createLink('seachat/features/voice-agents'),
+      icon: Phone
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.analytics'), 
+      href: createLink('seachat/features/analytics'),
+      icon: BarChart3
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.omnichannel'), 
+      href: createLink('seachat/features/omnichannel'),
+      icon: MessageSquare
+    },
+    { 
+      name: t('seachat.header.featuresDropdown.api'), 
+      href: createLink('seachat/features/api'),
+      icon: Code
+    }
   ];
 
   const integrationsDropdown = [
-    { name: t('seachat.header.integrationsDropdown.websites'), href: createLink('seachat/integrations/websites') },
-    { name: t('seachat.header.integrationsDropdown.crm'), href: createLink('seachat/integrations/crm') },
-    { name: t('seachat.header.integrationsDropdown.ecommerce'), href: createLink('seachat/integrations/ecommerce') },
-    { name: t('seachat.header.integrationsDropdown.socialMedia'), href: createLink('seachat/integrations/social-media') },
-    { name: t('seachat.header.integrationsDropdown.communication'), href: createLink('seachat/integrations/communication') },
-    { name: t('seachat.header.integrationsDropdown.marketing'), href: createLink('seachat/integrations/marketing') },
-    { name: t('seachat.header.integrationsDropdown.calendar'), href: createLink('seachat/integrations/calendar') },
-    { name: t('seachat.header.integrationsDropdown.api'), href: createLink('seachat/integrations/api') }
+    { 
+      name: t('seachat.header.integrationsDropdown.websites'), 
+      href: createLink('seachat/integrations/websites'),
+      icon: Globe
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.crm'), 
+      href: createLink('seachat/integrations/crm'),
+      icon: Users
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.ecommerce'), 
+      href: createLink('seachat/integrations/ecommerce'),
+      icon: ShoppingCart
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.socialMedia'), 
+      href: createLink('seachat/integrations/social-media'),
+      icon: MessageSquare
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.communication'), 
+      href: createLink('seachat/integrations/communication'),
+      icon: Phone
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.marketing'), 
+      href: createLink('seachat/integrations/marketing'),
+      icon: BarChart3
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.calendar'), 
+      href: createLink('seachat/integrations/calendar'),
+      icon: Settings
+    },
+    { 
+      name: t('seachat.header.integrationsDropdown.api'), 
+      href: createLink('seachat/integrations/api'),
+      icon: Code
+    }
   ];
 
   const solutionsDropdown = [
-    { name: t('seachat.header.solutionsDropdown.ecommerce'), href: createLink('seachat/solutions/ecommerce') },
-    { name: t('seachat.header.solutionsDropdown.healthcare'), href: createLink('seachat/solutions/healthcare') },
-    { name: t('seachat.header.solutionsDropdown.fintech'), href: createLink('seachat/solutions/fintech') },
-    { name: t('seachat.header.solutionsDropdown.education'), href: createLink('seachat/solutions/education') },
-    { name: t('seachat.header.solutionsDropdown.realEstate'), href: createLink('seachat/solutions/real-estate') },
-    { name: t('seachat.header.solutionsDropdown.travel'), href: createLink('seachat/solutions/travel') },
-    { name: t('seachat.header.solutionsDropdown.saas'), href: createLink('seachat/solutions/saas') },
-    { name: t('seachat.header.solutionsDropdown.smallBusiness'), href: createLink('seachat/solutions/small-business') }
+    { 
+      name: t('seachat.header.solutionsDropdown.ecommerce'), 
+      href: createLink('seachat/solutions/ecommerce'),
+      icon: ShoppingCart
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.healthcare'), 
+      href: createLink('seachat/solutions/healthcare'),
+      icon: Heart
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.fintech'), 
+      href: createLink('seachat/solutions/fintech'),
+      icon: DollarSign
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.education'), 
+      href: createLink('seachat/solutions/education'),
+      icon: GraduationCap
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.realEstate'), 
+      href: createLink('seachat/solutions/real-estate'),
+      icon: Building2
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.travel'), 
+      href: createLink('seachat/solutions/travel'),
+      icon: MapPin
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.saas'), 
+      href: createLink('seachat/solutions/saas'),
+      icon: Monitor
+    },
+    { 
+      name: t('seachat.header.solutionsDropdown.smallBusiness'), 
+      href: createLink('seachat/solutions/small-business'),
+      icon: Briefcase
+    }
   ];
 
   const handleDropdownToggle = (dropdown: string) => {
@@ -174,13 +294,14 @@ const Header = () => {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className={`block px-4 py-3 text-sm transition-colors ${
+                      className={`flex items-center px-4 py-3 text-sm transition-colors ${
                         isActivePath(item.href) 
                           ? 'bg-blue-50 text-blue-600 font-medium' 
                           : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
                       }`}
                       onClick={() => setOpenDropdown(null)}
                     >
+                      <item.icon className="w-4 h-4 mr-3 text-blue-600" />
                       {item.name}
                     </Link>
                   ))}
@@ -205,13 +326,14 @@ const Header = () => {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className={`block px-4 py-3 text-sm transition-colors ${
+                      className={`flex items-center px-4 py-3 text-sm transition-colors ${
                         isActivePath(item.href) 
                           ? 'bg-blue-50 text-blue-600 font-medium' 
                           : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
                       }`}
                       onClick={() => setOpenDropdown(null)}
                     >
+                      <item.icon className="w-4 h-4 mr-3 text-blue-600" />
                       {item.name}
                     </Link>
                   ))}
@@ -236,13 +358,14 @@ const Header = () => {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className={`block px-4 py-3 text-sm transition-colors ${
+                      className={`flex items-center px-4 py-3 text-sm transition-colors ${
                         isActivePath(item.href) 
                           ? 'bg-blue-50 text-blue-600 font-medium' 
                           : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
                       }`}
                       onClick={() => setOpenDropdown(null)}
                     >
+                      <item.icon className="w-4 h-4 mr-3 text-blue-600" />
                       {item.name}
                     </Link>
                   ))}
