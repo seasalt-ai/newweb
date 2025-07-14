@@ -1,5 +1,29 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown, BookOpen, ChevronRight, Home, Users, Bot, Brain, Database, Phone, BarChart3, MessageSquare, Code, Globe, Settings, ShoppingCart, Heart, DollarSign, GraduationCap, Building2, MapPin, Monitor, Briefcase } from 'lucide-react';
+import { 
+  Menu, 
+  X, 
+  ChevronDown, 
+  BookOpen, 
+  Home, 
+  Users, 
+  Bot, 
+  Brain, 
+  Database, 
+  Phone, 
+  BarChart3, 
+  MessageSquare, 
+  Code, 
+  Globe, 
+  Settings, 
+  ShoppingCart, 
+  Heart, 
+  DollarSign, 
+  GraduationCap, 
+  Building2, 
+  MapPin, 
+  Monitor, 
+  Briefcase 
+} from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../components/LanguageSwitcher';

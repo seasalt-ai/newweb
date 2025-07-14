@@ -1,5 +1,20 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown, MessageSquare, Zap, Users, Calendar, Mic, Phone, MessageCircle, Globe, Instagram, Facebook, Mail, Minus, ShoppingCart, Heart, Home, Utensils, GraduationCap, Car, Briefcase, Building, Building2, TrendingUp, Headphones, Bot, Monitor, DollarSign, Target, BarChart3, Settings, MapPin, Sparkles, Code, Database, Brain, Laptop, Smartphone, Video, Cpu, Puzzle, Layers, Server, CloudLightning, Wifi, Bell, Hash, Ticket, FileText, CreditCard, ShieldCheck, Lock, Search, Eye, Truck, Package, Archive, Cog, Star, Workflow, Lightbulb, Megaphone, Filter, ArrowUp, ArrowDown, RotateCw, PieChart, LineChart, Activity, Gauge, Radar, Repeat, Zap as ZapIcon } from 'lucide-react';
+import { 
+  Menu, 
+  X, 
+  ChevronDown, 
+  MessageSquare, 
+  Users, 
+  Mic, 
+  Phone, 
+  MessageCircle, 
+  Instagram, 
+  Facebook, 
+  Mail, 
+  Bot, 
+  Monitor, 
+  Headphones
+} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { industries } from '../data/industriesData';
