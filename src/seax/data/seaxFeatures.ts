@@ -191,6 +191,126 @@ export const seaxChannelFeatures = {
       }
     }
   },
+  SMSShortCode: {
+    features: [
+      {
+        title: 'Premium Short Codes',
+        description: 'Dedicated 5-6 digit numbers for maximum brand recognition and deliverability.',
+        icon: '🔢'
+      },
+      {
+        title: 'Ultra-High Throughput',
+        description: 'Send 1000+ messages per second with guaranteed delivery speeds.',
+        icon: '⚡'
+      },
+      {
+        title: 'Premium Carrier Routes',
+        description: 'Direct carrier relationships ensure maximum deliverability and priority routing.',
+        icon: '🛡️'
+      },
+      {
+        title: 'Keyword Campaigns',
+        description: 'Advanced keyword-based campaigns with automated response handling.',
+        icon: '🔑'
+      },
+      {
+        title: 'MMS Support',
+        description: 'Rich media messaging with images, videos, and multimedia content.',
+        icon: '📸'
+      },
+      {
+        title: 'Real-Time Analytics',
+        description: 'Live campaign monitoring with detailed performance insights.',
+        icon: '📊'
+      }
+    ],
+    useCases: [
+      {
+        title: 'Mass Marketing Campaigns',
+        description: 'Launch large-scale marketing campaigns with millions of messages.',
+        icon: '📢'
+      },
+      {
+        title: 'TV/Radio Integration',
+        description: 'Perfect for "Text 12345 to 555" call-to-action campaigns.',
+        icon: '📺'
+      },
+      {
+        title: 'Voting & Polling',
+        description: 'Engage audiences with interactive voting and survey campaigns.',
+        icon: '🗳️'
+      },
+      {
+        title: 'Contest Campaigns',
+        description: 'Run viral contest campaigns with instant participation.',
+        icon: '🎉'
+      },
+      {
+        title: 'Event Notifications',
+        description: 'Reach massive audiences for event updates and announcements.',
+        icon: '📅'
+      },
+      {
+        title: 'Emergency Alerts',
+        description: 'Critical mass communication for urgent notifications.',
+        icon: '🚨'
+      }
+    ],
+    stats: [
+      {
+        value: '1000+',
+        label: 'Messages per second',
+        description: 'Industry-leading throughput rates'
+      },
+      {
+        value: '99.9%',
+        label: 'Delivery rate',
+        description: 'Premium carrier relationships'
+      },
+      {
+        value: '5-6',
+        label: 'Digit codes',
+        description: 'Memorable brand presence'
+      },
+      {
+        value: '24/7',
+        label: 'Campaign support',
+        description: 'Always-on monitoring'
+      }
+    ],
+    ctas: [
+      {
+        text: 'Get Started',
+        href: '/seax/signup',
+        primary: true
+      },
+      {
+        text: 'Book Demo',
+        href: '/seax/demo',
+        primary: false
+      }
+    ],
+    testimonials: [
+      {
+        quote: 'SMS Short Codes gave us the throughput we needed for our Super Bowl campaign. We sent 10 million messages in under 2 hours.',
+        author: 'Sarah Johnson',
+        role: 'Marketing Director',
+        company: 'Fortune 500 Retail'
+      }
+    ],
+    compliance: {
+      title: 'SMS Short Code Compliance',
+      description: 'Short codes require strict compliance with carrier guidelines and regulations.',
+      requirements: [
+        'Carrier approval process (8-12 weeks)',
+        'Content pre-approval required',
+        'Opt-in/opt-out management',
+        'Monthly compliance reporting',
+        'Keyword reservation',
+        'Content monitoring'
+      ]
+    }
+  },
   whatsapp: {
     title: 'WhatsApp Business Platform - Campaign Mode',
     description: 'Scale your WhatsApp marketing with Business Platform Campaign Mode for mass outreach and engagement.',

@@ -1,8 +1,9 @@
+import React from 'react';
 import Header from '../components/Header';
 import SEOHelmet from '../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle } from 'lucide-react';
+import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle, Smartphone, Phone, Send } from 'lucide-react';
 
 const HowItWorks = () => {
   const { i18n } = useTranslation();
@@ -26,12 +27,23 @@ const HowItWorks = () => {
     },
     {
       number: '02',
+      title: 'Choose Delivery Method',
+      description: 'Select how you want to reach your audience via SMS, WhatsApp, or Phone Calls.',
+      icon: Smartphone,
+      features: [
+        'SMS delivery',
+        'WhatsApp messaging',
+        'Phone call integration'
+      ],
+      time: '1 minute'
+    },
+    {
+      number: '03',
       title: 'Create Your Campaign',
-      description: 'Design your message, choose your channel (SMS, WhatsApp, Voice), and set your campaign parameters.',
+      description: 'Design your message and set your campaign parameters.',
       icon: MessageSquare,
       features: [
         'Message templates',
-        'Channel selection',
         'A/B testing',
         'Scheduling options',
         'Personalization'
@@ -39,7 +51,7 @@ const HowItWorks = () => {
       time: '5 minutes'
     },
     {
-      number: '03',
+      number: '04',
       title: 'Launch & Analyze',
       description: 'Deploy your campaign to millions instantly and track real-time performance with detailed analytics.',
       icon: BarChart3,
@@ -53,6 +65,117 @@ const HowItWorks = () => {
       time: '1 click'
     }
   ];
+
+  // JavaScript illustration components
+  const ContactIllustration = () => (
+    <div className="relative bg-gradient-to-r from-blue-50 to-indigo-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+      <div className="space-y-4 w-full max-w-sm">
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200">
+          <div className="flex items-center space-x-3">
+            <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-sm">✓</span>
+            </div>
+            <div>
+              <div className="font-semibold text-gray-900">contacts.csv</div>
+              <div className="text-sm text-gray-600">10,000 contacts</div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-dashed border-gray-300">
+          <div className="flex items-center space-x-3">
+            <Upload className="w-8 h-8 text-gray-400" />
+            <div>
+              <div className="font-semibold text-gray-700">Drop files here</div>
+              <div className="text-sm text-gray-500">or browse</div>
+            </div>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="text-2xl font-bold text-blue-600">100K+</div>
+          <div className="text-sm text-gray-600">contacts imported</div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const ChannelIllustration = () => (
+    <div className="relative bg-gradient-to-r from-green-50 to-teal-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+      <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-green-200 text-center">
+          <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-2" />
+          <div className="font-semibold text-gray-900">SMS</div>
+          <div className="text-sm text-gray-600">98% open rate</div>
+        </div>
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-teal-200 text-center">
+          <Send className="w-8 h-8 text-teal-600 mx-auto mb-2" />
+          <div className="font-semibold text-gray-900">WhatsApp</div>
+          <div className="text-sm text-gray-600">85% engagement</div>
+        </div>
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200 text-center">
+          <Phone className="w-8 h-8 text-blue-600 mx-auto mb-2" />
+          <div className="font-semibold text-gray-900">Voice</div>
+          <div className="text-sm text-gray-600">Real-time calls</div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const CampaignIllustration = () => (
+    <div className="relative bg-gradient-to-r from-purple-50 to-pink-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+      <div className="space-y-4 w-full max-w-sm">
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-purple-200">
+          <div className="flex items-center justify-between mb-3">
+            <span className="font-semibold text-gray-900">Campaign Draft</span>
+            <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">Draft</span>
+          </div>
+          <div className="bg-gray-50 rounded p-3 mb-3">
+            <div className="text-sm text-gray-700">"Hi {name}, Check out our new product launch..."</div>
+          </div>
+          <div className="flex space-x-2">
+            <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">Preview</button>
+            <button className="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">A/B Test</button>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-pink-200">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold text-gray-900">Schedule</span>
+            <span className="text-sm text-pink-600">Now</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const AnalyticsIllustration = () => (
+    <div className="relative bg-gradient-to-r from-orange-50 to-red-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+      <div className="space-y-4 w-full max-w-sm">
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-orange-200">
+          <div className="flex items-center justify-between mb-3">
+            <span className="font-semibold text-gray-900">Campaign Status</span>
+            <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">Live</span>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="text-center">
+              <div className="text-2xl font-bold text-orange-600">847K</div>
+              <div className="text-sm text-gray-600">Delivered</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-green-600">12.3%</div>
+              <div className="text-sm text-gray-600">Response</div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-red-200">
+          <div className="h-20 bg-gradient-to-r from-orange-200 to-red-200 rounded relative">
+            <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-orange-400 to-red-400 rounded-b"></div>
+            <div className="absolute top-2 left-2 text-xs font-medium text-gray-700">Real-time Analytics</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const illustrations = [ContactIllustration, ChannelIllustration, CampaignIllustration, AnalyticsIllustration];
 
   return (
     <div className="min-h-screen bg-white">
@@ -69,7 +192,7 @@ const HowItWorks = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Launch a Campaign to
-            <span className="text-blue-600 block">Millions in 3 Simple Steps</span>
+            <span className="text-blue-600 block">Millions in 4 Simple Steps</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Whether you need to reach 1,000 or 1,000,000 people, SeaX handles it seamlessly. 
@@ -141,19 +264,7 @@ const HowItWorks = () => {
                 
                 {/* Visual */}
                 <div className={`${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
-                  <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
-                    <div className="bg-white rounded-lg p-6 border-2 border-dashed border-gray-200">
-                      <div className="text-center space-y-4">
-                        <step.icon className="w-12 h-12 text-blue-600 mx-auto" />
-                        <h4 className="text-lg font-semibold text-gray-900">
-                          Step {step.number.replace('0', '')}: {step.title}
-                        </h4>
-                        <p className="text-gray-600">
-                          Visual demo placeholder
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  {React.createElement(illustrations[index])}
                 </div>
               </div>
             ))}
@@ -201,20 +312,24 @@ const HowItWorks = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Book a Demo</span>
+              <span>Sign Up</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
-            <Link
-              to={getLocalizedPath('/features')}
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
-              Explore Features
-            </Link>
+              Book a Demo
+            </a>
           </div>
         </div>
       </div>

@@ -26,11 +26,11 @@ const Header = () => {
       href: getLocalizedPath('/channels'),
       dropdown: [
         { name: 'SMS Overview', href: getLocalizedPath('/channels/sms') },
-        { name: 'SMS Local (10DLC)', href: getLocalizedPath('/channels/sms-local') },
-        { name: 'SMS Toll-Free', href: getLocalizedPath('/channels/sms-toll-free') },
-        { name: 'SMS Short-Code', href: getLocalizedPath('/channels/sms-short-code') },
-        { name: 'WhatsApp Business', href: getLocalizedPath('/channels/whatsapp') },
-        { name: 'Voice Calls', href: getLocalizedPath('/channels/voice') }
+        { name: '• SMS: Local Number (10DLC)', href: getLocalizedPath('/channels/sms-local') },
+        { name: '• SMS: Toll-Free Number', href: getLocalizedPath('/channels/sms-toll-free') },
+        { name: '• SMS: Short Code', href: getLocalizedPath('/channels/sms-short-code') },
+        { name: 'WhatsApp Business Platform', href: getLocalizedPath('/channels/whatsapp') },
+        { name: 'Phone Call Voice', href: getLocalizedPath('/channels/voice') }
       ]
     },
     {
