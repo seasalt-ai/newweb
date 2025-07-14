@@ -287,7 +287,7 @@ const SeaXHome = () => {
                           <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">Draft</span>
                         </div>
                         <div className="bg-gray-50 rounded p-3 mb-3">
-                          <div className="text-sm text-gray-700">"Hi {name}, Check out our new product launch..."</div>
+                          <div className="text-sm text-gray-700">"Hi John, Check out our new product launch..."</div>
                         </div>
                         <div className="flex space-x-2">
                           <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">Preview</button>
@@ -359,14 +359,6 @@ const SeaXHome = () => {
                   <p className="text-lg text-gray-600">
                     {step.description}
                   </p>
-                  <div className="space-y-3">
-                    {step.features?.map((feature, featureIndex) => (
-                      <div key={featureIndex} className="flex items-center space-x-3">
-                        <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                        <span className="text-gray-700">{feature}</span>
-                      </div>
-                    ))}
-                  </div>
                   <div className="bg-gray-50 rounded-lg p-4">
                     <div className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>

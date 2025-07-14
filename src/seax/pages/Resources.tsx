@@ -220,9 +220,9 @@ const Resources = () => {
                           <span className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${getColorClasses(category.color)} bg-opacity-20`}>
                             {resource.type}
                           </span>
-                          {resource.badge && (
+                          {(resource as any).badge && (
                             <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-700">
-                              {resource.badge}
+                              {(resource as any).badge}
                             </span>
                           )}
                         </div>
@@ -236,9 +236,9 @@ const Resources = () => {
                         
                         <div className="flex justify-between items-center">
                           <div className="text-sm text-gray-500">
-                            {resource.readTime && resource.readTime}
-                            {resource.duration && resource.duration}
-                            {resource.industry && resource.industry}
+                            {(resource as any).readTime && (resource as any).readTime}
+                            {(resource as any).duration && (resource as any).duration}
+                            {(resource as any).industry && (resource as any).industry}
                           </div>
                           <button className="text-indigo-600 hover:text-indigo-800 flex items-center space-x-1">
                             <span>Read More</span>

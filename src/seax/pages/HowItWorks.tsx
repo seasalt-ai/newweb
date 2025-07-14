@@ -130,7 +130,7 @@ const HowItWorks = () => {
             <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">Draft</span>
           </div>
           <div className="bg-gray-50 rounded p-3 mb-3">
-            <div className="text-sm text-gray-700">"Hi {name}, Check out our new product launch..."</div>
+            <div className="text-sm text-gray-700">"Hi John, Check out our new product launch..."</div>
           </div>
           <div className="flex space-x-2">
             <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">Preview</button>

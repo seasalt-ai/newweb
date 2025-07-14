@@ -166,7 +166,7 @@ const SMS = () => {
                     <div className="text-sm text-gray-700 mb-2">Message Preview:</div>
                     <div className="bg-white rounded-lg p-3 border-l-4 border-green-500">
                       <div className="text-sm text-gray-900">
-                        "Hi {name}, 🎉 Flash Sale! 50% off all items. Use code SAVE50. 
+                        "Hi John, 🎉 Flash Sale! 50% off all items. Use code SAVE50.
                         Shop now: link.co/shop. Reply STOP to opt out."
                       </div>
                     </div>
