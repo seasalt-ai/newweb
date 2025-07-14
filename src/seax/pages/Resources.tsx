@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -170,13 +171,13 @@ const Resources = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="bg-indigo-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Support</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <button className="border-2 border-indigo-600 text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-indigo-50 transition-colors">
               Browse API Docs
@@ -361,13 +362,13 @@ const Resources = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
               className="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Start Free Trial</span>
+              <span>Sign Up Now</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/pricing')}

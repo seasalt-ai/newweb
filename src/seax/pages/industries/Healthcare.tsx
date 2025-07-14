@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -82,13 +83,15 @@ const Healthcare = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Industry Solution</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/features')}
@@ -204,13 +207,15 @@ const Healthcare = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
             >
               <span>Get Started Today</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/pricing')}
@@ -221,6 +226,8 @@ const Healthcare = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

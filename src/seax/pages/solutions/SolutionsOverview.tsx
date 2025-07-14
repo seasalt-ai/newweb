@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -31,13 +32,15 @@ const SolutionsOverview = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Started</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/how-it-works')}
@@ -119,15 +122,19 @@ const SolutionsOverview = () => {
             Join thousands of businesses achieving better results with SeaX
           </p>
           
-          <Link
-            to={getLocalizedPath('/contact-sales')}
+          <a
+            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
           >
             <span>Get Started Today</span>
             <ArrowRight className="w-5 h-5" />
-          </Link>
+          </a>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

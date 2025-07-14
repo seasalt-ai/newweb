@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -219,7 +220,7 @@ const LeadGeneration = () => {
               to={getLocalizedPath('/signup')}
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
             >
-              <span>Start Free Trial</span>
+              <span>Sign Up Now</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
@@ -231,6 +232,8 @@ const LeadGeneration = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

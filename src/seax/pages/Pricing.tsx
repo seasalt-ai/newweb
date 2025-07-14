@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ROICalculator from '../components/ROICalculator';
 import { Link } from 'react-router-dom';
@@ -44,7 +45,7 @@ const Pricing = () => {
         'Custom integrations'
       ],
       recommended: false,
-      cta: 'Start Free Trial',
+      cta: 'Sign Up Now',
       icon: MessageSquare
     },
     {
@@ -248,16 +249,29 @@ const Pricing = () => {
                   ))}
                 </div>
                 
-                <Link
-                  to={getLocalizedPath('/contact-sales')}
-                  className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
-                    tier.recommended
-                      ? 'bg-blue-600 text-white hover:bg-blue-700'
-                      : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                  }`}
-                >
-                  {tier.cta}
-                </Link>
+                {tier.cta === 'Contact Sales' ? (
+                  <a
+                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
+                      tier.recommended
+                        ? 'bg-blue-600 text-white hover:bg-blue-700'
+                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+                    }`}
+                  >
+                    {tier.cta}
+                  </a>
+                ) : (
+                  <a
+                    href="https://seax.seasalt.ai/signup"
+                    className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
+                      tier.recommended
+                        ? 'bg-blue-600 text-white hover:bg-blue-700'
+                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+                    }`}
+                  >
+                    {tier.cta}
+                  </a>
+                )}
               </div>
             ))}
           </div>
@@ -389,23 +403,25 @@ const Pricing = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Start Free Trial</span>
+              <span>Sign Up Now</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Talk to Sales
-            </Link>
+            </a>
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

@@ -281,7 +281,7 @@ export const seaxChannelFeatures = {
     ctas: [
       {
         text: 'Get Started',
-        href: '/seax/signup',
+        href: 'https://seax.seasalt.ai/signup',
         primary: true
       },
       {

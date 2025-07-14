@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -139,12 +140,14 @@ const SMS = () => {
                   <span>Start SMS Campaign</span>
                   <ArrowRight className="w-5 h-5" />
                 </a>
-                <Link
-                  to={getLocalizedPath('/contact-sales')}
+                <a
+                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
                 >
                   View Pricing
-                </Link>
+                </a>
               </div>
             </div>
             
@@ -275,6 +278,8 @@ const SMS = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

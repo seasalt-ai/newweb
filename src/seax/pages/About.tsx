@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -234,13 +235,15 @@ const About = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Started</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/how-it-works')}

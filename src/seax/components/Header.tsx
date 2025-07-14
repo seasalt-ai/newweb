@@ -227,12 +227,12 @@ const Header = () => {
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <LanguageSwitcher />
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
             >
               Book Demo
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -299,13 +299,13 @@ const Header = () => {
                 </div>
               ))}
               <div className="pt-4 border-t">
-                <Link
-                  to={getLocalizedPath('/contact-sales')}
+                <a
+                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                   className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Book Demo
-                </Link>
+                </a>
               </div>
             </div>
           </div>

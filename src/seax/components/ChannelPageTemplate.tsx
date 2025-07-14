@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { CheckCircle, ArrowRight, Star, TrendingUp, Shield, Clock } from 'lucide-react';
 import Header from './Header';
+import Footer from './Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 
 interface ChannelPageTemplateProps {
@@ -84,13 +85,15 @@ const ChannelPageTemplate = ({
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  to={getLocalizedPath('/contact-sales')}
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
-                >
-                  <span>Get Started</span>
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
+              <a
+                href="https://seax.seasalt.ai/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+              >
+                <span>Get Started</span>
+                <ArrowRight className="w-5 h-5" />
+              </a>
                 
                 <Link
                   to={getLocalizedPath('/how-it-works')}
@@ -274,13 +277,15 @@ const ChannelPageTemplate = ({
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to={getLocalizedPath('/contact-sales')}
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Started Today</span>
               <ArrowRight className="w-5 h-5" />
-            </Link>
+            </a>
             
             <Link
               to={getLocalizedPath('/pricing')}
@@ -291,6 +296,8 @@ const ChannelPageTemplate = ({
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };
