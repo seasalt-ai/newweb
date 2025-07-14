@@ -1,8 +1,6 @@
-import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { 
   MessageSquare, 
@@ -11,18 +9,13 @@ import {
   Shield, 
   Zap, 
   BarChart3, 
-  Clock, 
   Users, 
   ArrowRight,
-  TrendingUp,
-  Target,
-  AlertCircle
+  Target
 } from 'lucide-react';
 
 const SMS = () => {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { i18n: _i18n } = useTranslation();
 
   const features = [
     {

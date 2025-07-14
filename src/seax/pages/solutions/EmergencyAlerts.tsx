@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, TrendingUp, AlertTriangle, Clock, Users, Shield, Bell, MessageSquare } from 'lucide-react';
+import { ArrowRight, AlertTriangle, Clock, Users, Shield, Bell, MessageSquare } from 'lucide-react';
 
 const EmergencyAlerts = () => {
   const { i18n } = useTranslation();

@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, TrendingUp, Users, Target, Zap, MessageSquare, BarChart3, Phone } from 'lucide-react';
+import { ArrowRight, Users, Target, Zap, MessageSquare, BarChart3, Phone } from 'lucide-react';
 
 const LeadGeneration = () => {
   const { i18n } = useTranslation();

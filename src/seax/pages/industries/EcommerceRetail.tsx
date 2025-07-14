@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, Building2, ShoppingCart, TrendingUp, Users, MessageSquare, Target, RefreshCw } from 'lucide-react';
+import { ArrowRight, CheckCircle, ShoppingCart, TrendingUp, Users, MessageSquare, Target, RefreshCw } from 'lucide-react';
 
 const EcommerceRetail = () => {
   const { i18n } = useTranslation();

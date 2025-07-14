@@ -3,12 +3,12 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, TrendingUp, Zap, Clock, Users, BarChart3, MessageSquare, Settings } from 'lucide-react';
+import { ArrowRight, Zap, Clock, Users, BarChart3, MessageSquare, Settings } from 'lucide-react';
 
 const MarketingAutomation = () => {
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const _currentLanguage = i18n.language;
+  const getLocalizedPath = (path: string) => `/${_currentLanguage}/seax${path}`;
 
   const features = [
     {
