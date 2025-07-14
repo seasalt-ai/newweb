@@ -1,7 +1,7 @@
 import { useState, useCallback, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, Home, MessageSquare, Phone, Hash, Building2, Globe } from 'lucide-react';
+import { Menu, X, ChevronDown, Home, MessageSquare, Phone, Hash, Building2, Globe, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, MapPin, Vote, Heart, DollarSign } from 'lucide-react';
 
 // Custom WhatsApp icon component
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -80,22 +80,62 @@ const Header = () => {
       name: 'Solutions',
       href: getLocalizedPath('/solutions'),
       dropdown: [
-        { name: 'Lead Generation', href: getLocalizedPath('/solutions/lead-generation') },
-        { name: 'Marketing Automation', href: getLocalizedPath('/solutions/marketing-automation') },
-        { name: 'Customer Engagement', href: getLocalizedPath('/solutions/customer-engagement') },
-        { name: 'Appointment Reminders', href: getLocalizedPath('/solutions/appointment-reminders') },
-        { name: 'Emergency Alerts', href: getLocalizedPath('/solutions/emergency-alerts') }
+        { 
+          name: 'Lead Generation', 
+          href: getLocalizedPath('/solutions/lead-generation'),
+          icon: Target
+        },
+        { 
+          name: 'Marketing Automation', 
+          href: getLocalizedPath('/solutions/marketing-automation'),
+          icon: Zap
+        },
+        { 
+          name: 'Customer Engagement', 
+          href: getLocalizedPath('/solutions/customer-engagement'),
+          icon: Users
+        },
+        { 
+          name: 'Appointment Reminders', 
+          href: getLocalizedPath('/solutions/appointment-reminders'),
+          icon: Calendar
+        },
+        { 
+          name: 'Emergency Alerts', 
+          href: getLocalizedPath('/solutions/emergency-alerts'),
+          icon: AlertTriangle
+        }
       ]
     },
     {
       name: 'Industries',
       href: getLocalizedPath('/industries'),
       dropdown: [
-        { name: 'E-commerce & Retail', href: getLocalizedPath('/industries/ecommerce-retail') },
-        { name: 'Real Estate', href: getLocalizedPath('/industries/real-estate') },
-        { name: 'Political Campaigns', href: getLocalizedPath('/industries/political-campaigns') },
-        { name: 'Healthcare', href: getLocalizedPath('/industries/healthcare') },
-        { name: 'Financial Services', href: getLocalizedPath('/industries/financial-services') }
+        { 
+          name: 'E-commerce & Retail', 
+          href: getLocalizedPath('/industries/ecommerce-retail'),
+          icon: ShoppingCart
+        },
+        { 
+          name: 'Real Estate', 
+          href: getLocalizedPath('/industries/real-estate'),
+          icon: Building2
+        },
+        { 
+          name: 'Political Campaigns', 
+          href: getLocalizedPath('/industries/political-campaigns'),
+          icon: Vote
+        },
+        { 
+          name: 'Healthcare', 
+          href: getLocalizedPath('/industries/healthcare'),
+          icon: Heart
+        },
+        { 
+          name: 'Financial Services', 
+          href: getLocalizedPath('/industries/financial-services'),
+          icon: DollarSign
+        }
       ]
     },
     { name: 'Pricing', href: getLocalizedPath('/pricing') }

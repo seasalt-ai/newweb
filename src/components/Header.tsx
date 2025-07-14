@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, MessageSquare, Zap, Users, Calendar, Mic, Phone, MessageCircle, Globe, Instagram, Facebook, Mail, Minus, ShoppingCart, Heart, Home, Utensils, GraduationCap, Car, Briefcase, Building, Building2, TrendingUp, Headphones, Bot, Monitor, DollarSign, Target, BarChart3, Settings, MapPin, Sparkles, Code, Database, Brain, Laptop, Smartphone, Video, Cpu, Puzzle, Layers, Server, CloudLightning, Wifi, Bell, Hash, Ticket, FileText, CreditCard, ShieldCheck, Lock, Search, Eye, Truck, Package, Archive, Cog, Star, Workflow, Lightbulb, Megaphone, Filter, ArrowUp, ArrowDown, RotateCw, PieChart, LineChart, Activity, Gauge, Radar, Repeat, Zap as ZapIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { industries } from '../data/industriesData';
@@ -22,31 +22,31 @@ const Header = () => {
   };
 
   const channels = [
-    { name: 'WhatsApp Business', path: '/channels/whatsapp' },
-    { name: 'Voice & Phone Calls', path: '/channels/phone-calls' },
-    { name: 'SMS Messaging', path: '/channels/sms' },
-    { name: 'Website Chat Widget', path: '/channels/website-chat' },
-    { name: 'Instagram DMs', path: '/channels/instagram' },
-    { name: 'Facebook Messenger', path: '/channels/facebook-messenger' },
-    { name: 'Contact Forms', path: '/channels/contact-forms' },
-    { name: 'LINE Business', path: '/channels/line' },
-    { name: 'Website Widget', path: '/channels/website-widget' }
+    { name: 'WhatsApp Business', path: '/channels/whatsapp', icon: MessageCircle },
+    { name: 'Voice & Phone Calls', path: '/channels/phone-calls', icon: Phone },
+    { name: 'SMS Messaging', path: '/channels/sms', icon: MessageSquare },
+    { name: 'Website Chat Widget', path: '/channels/website-chat', icon: Bot },
+    { name: 'Instagram DMs', path: '/channels/instagram', icon: Instagram },
+    { name: 'Facebook Messenger', path: '/channels/facebook-messenger', icon: Facebook },
+    { name: 'Contact Forms', path: '/channels/contact-forms', icon: Mail },
+    { name: 'LINE Business', path: '/channels/line', icon: MessageSquare },
+    { name: 'Website Widget', path: '/channels/website-widget', icon: Monitor }
   ];
 
   const competitors = [
-    { name: 'Aircall', path: '/compare/aircall-alternative' },
-    { name: 'RingCentral', path: '/compare/ringcentral-alternative' },
-    { name: 'Genesys', path: '/compare/genesys-alternative' },
-    { name: 'Five9', path: '/compare/five9-alternative' },
-    { name: 'Avaya', path: '/compare/avaya-alternative' },
-    { name: 'Google Voice', path: '/compare/google-voice-alternative' },
-    { name: 'respond.io', path: '/compare/respond-io-alternative' },
-    { name: 'Intercom', path: '/compare/intercom-alternative' },
-    { name: 'Kustomer', path: '/compare/kustomer-alternative' },
-    { name: '3CX', path: '/compare/threecx-alternative' },
-    { name: 'Dialpad', path: '/compare/dialpad-alternative' },
-    { name: '8x8', path: '/compare/eightxeight-alternative' },
-    { name: 'OpenPhone', path: '/compare/openphone-alternative' }
+    { name: 'Aircall', path: '/compare/aircall-alternative', icon: Phone },
+    { name: 'RingCentral', path: '/compare/ringcentral-alternative', icon: Phone },
+    { name: 'Genesys', path: '/compare/genesys-alternative', icon: Headphones },
+    { name: 'Five9', path: '/compare/five9-alternative', icon: Phone },
+    { name: 'Avaya', path: '/compare/avaya-alternative', icon: Phone },
+    { name: 'Google Voice', path: '/compare/google-voice-alternative', icon: Mic },
+    { name: 'respond.io', path: '/compare/respond-io-alternative', icon: MessageSquare },
+    { name: 'Intercom', path: '/compare/intercom-alternative', icon: MessageCircle },
+    { name: 'Kustomer', path: '/compare/kustomer-alternative', icon: Users },
+    { name: '3CX', path: '/compare/threecx-alternative', icon: Phone },
+    { name: 'Dialpad', path: '/compare/dialpad-alternative', icon: Phone },
+    { name: '8x8', path: '/compare/eightxeight-alternative', icon: Phone },
+    { name: 'OpenPhone', path: '/compare/openphone-alternative', icon: Phone }
   ];
 
 
@@ -116,9 +116,12 @@ const Header = () => {
                             onClick={() => setIsSeaVoiceSubMenuOpen(!isSeaVoiceSubMenuOpen)}
                             className="w-full flex items-center justify-between px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                           >
-                            <div className="text-left">
-                              <div className="font-medium">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
+                            <div className="flex items-center gap-3">
+                              {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
+                              <div className="text-left">
+                                <div className="font-medium">{product.title}</div>
+                                <div className="text-xs text-gray-500">{product.description}</div>
+                              </div>
                             </div>
                             <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isSeaVoiceSubMenuOpen ? 'rotate-180' : ''}`} />
                           </button>
@@ -150,20 +153,26 @@ const Header = () => {
                         product.href.startsWith('/') ? (
                           <Link
                             to={createLink(product.href)}
-                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-gray-50"
                           >
-                            <div className="font-medium text-gray-700">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
+                            {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
+                            <div>
+                              <div className="font-medium text-gray-700">{product.title}</div>
+                              <div className="text-xs text-gray-500">{product.description}</div>
+                            </div>
                           </Link>
                         ) : (
                           <a
                             href={product.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block px-4 py-3 text-sm hover:bg-gray-50"
+                            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-gray-50"
                           >
-                            <div className="font-medium text-gray-700">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
+                            {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
+                            <div>
+                              <div className="font-medium text-gray-700">{product.title}</div>
+                              <div className="text-xs text-gray-500">{product.description}</div>
+                            </div>
                           </a>
                         )
                       )}
@@ -184,25 +193,27 @@ const Header = () => {
               {openDropdown === 'solutions' && (
                 <div className="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                   {/* Existing Solutions */}
-                  {solutions.map((solution, index) => (
+                  {solutions.map((solution, index) =>
                     solution.path ? (
                       <Link 
                         key={index}
                         to={`/${i18n.language}${solution.path}`}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                        className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                       >
+                        {solution.icon && <solution.icon className="h-5 w-5 text-gray-400" />}
                         {solution.title}
                       </Link>
                     ) : (
                       <a 
                         key={index}
                         href={solution.path}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                        className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                       >
+                        {solution.icon && <solution.icon className="h-5 w-5 text-gray-400" />}
                         {solution.title}
                       </a>
                     )
-                  ))}
+                  )}
                   {/* Use Cases Section */}
                   <div className="border-t border-gray-100 mt-2 pt-2">
                     <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
@@ -279,10 +290,11 @@ const Header = () => {
                         <a
                           key={index}
                           href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
+                          <industry.icon className="h-5 w-5 text-gray-400" />
                           {industry.title}
                         </a>
                       );
@@ -293,10 +305,11 @@ const Header = () => {
                         <a
                           key={index}
                           href="https://seax.seasalt.ai/signup"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                          className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
+                          <industry.icon className="h-5 w-5 text-gray-400" />
                           {industry.title}
                         </a>
                       );
@@ -305,8 +318,9 @@ const Header = () => {
                       <Link 
                         key={index}
                         to={`/${i18n.language}/industries/${industry.slug}`.replace(/^(\/[^/]+)\1/, '$1')}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                        className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                       >
+                        <industry.icon className="h-5 w-5 text-gray-400" />
                         {industry.title}
                       </Link>
                     );
@@ -324,7 +338,7 @@ const Header = () => {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {openDropdown === 'channels' && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
                   <Link to={`/${i18n.language}/channels-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
                     {t('header.allChannelsOverview')}
                   </Link>
@@ -332,8 +346,9 @@ const Header = () => {
                     <Link 
                       key={index}
                       to={`/${i18n.language}${channel.path}`} 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                      className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                     >
+                      <channel.icon className="h-5 w-5 text-gray-400" />
                       {channel.name}
                     </Link>
                   ))}
@@ -362,8 +377,9 @@ const Header = () => {
                     <Link 
                       key={index}
                       to={`/${i18n.language}${competitor.path}`} 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                      className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                     >
+                      <competitor.icon className="h-5 w-5 text-gray-400" />
                       vs. {competitor.name}
                     </Link>
                   ))}
