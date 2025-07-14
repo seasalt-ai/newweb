@@ -2,14 +2,11 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle, Smartphone, Phone, Send } from 'lucide-react';
 
 const HowItWorks = () => {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { i18n: _i18n } = useTranslation();
 
   const steps = [
     {

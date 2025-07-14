@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Play, ArrowRight, MessageCircle, Phone, Mail } from 'lucide-react';
 
 const Hero = () => {
-  const { i18n } = useTranslation();
+  const { i18n: _i18n } = useTranslation();
   const [, setIsVideoPlaying] = useState(false);
 
 

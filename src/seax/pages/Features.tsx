@@ -1,28 +1,22 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { 
   MessageSquare, 
-  Phone, 
   BarChart3, 
   Shield, 
-  Users, 
-  Building2, 
   ArrowRight,
   CheckCircle,
   Zap,
   Globe,
   Bot,
-  Lock
+  Lock,
+  Building2
 } from 'lucide-react';
 import { seaxCoreFeatures } from '../data/seaxFeatures';
 
 const Features = () => {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { i18n: _i18n } = useTranslation();
 
   const featureCategories = [
     {
@@ -177,7 +171,7 @@ const Features = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {seaxCoreFeatures.map((feature, index) => (
+            {seaxCoreFeatures.map((feature, _index) => (
               <div key={feature.id} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -362,8 +356,6 @@ const Features = () => {
           </div>
         </div>
       </div>
-      
-      <Footer />
     </div>
   );
 };

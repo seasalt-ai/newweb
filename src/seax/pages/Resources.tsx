@@ -1,5 +1,4 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ROICalculator from '../components/ROICalculator';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { 
   Check, 
@@ -16,12 +15,9 @@ import {
   Building2,
   Star
 } from 'lucide-react';
-import { seaxChannelFeatures } from '../data/seaxFeatures';
 
 const Pricing = () => {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { i18n: _i18n } = useTranslation();
 
   const pricingTiers = [
     {

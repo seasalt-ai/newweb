@@ -1,14 +1,10 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Users, Globe, Shield, Target } from 'lucide-react';
+import { ArrowRight, Users, Globe, Target, Shield } from 'lucide-react';
+import SEOHelmet from '../../components/SEOHelmet';
 
 const About = () => {
-  const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { i18n: _i18n } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">
