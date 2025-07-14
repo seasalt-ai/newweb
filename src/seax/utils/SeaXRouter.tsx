@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 
 // Import SeaX pages
 import SeaXHome from '../pages/SeaXHome';
-import HowItWorks from '../pages/HowItWorks';
 import Features from '../pages/Features';
 import Pricing from '../pages/Pricing';
 import ContactSales from '../pages/ContactSales';
@@ -54,7 +53,6 @@ const SeaXRouter = () => {
       <Route index element={<SeaXHome />} />
       
       {/* Core pages */}
-      <Route path="how-it-works" element={<HowItWorks />} />
       <Route path="features" element={<Features />} />
       <Route path="pricing" element={<Pricing />} />
       <Route path="contact-sales" element={<ContactSales />} />

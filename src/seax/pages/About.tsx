@@ -244,13 +244,6 @@ const About = () => {
               <span>Get Started</span>
               <ArrowRight className="w-5 h-5" />
             </a>
-            
-            <Link
-              to={getLocalizedPath('/how-it-works')}
-              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </div>

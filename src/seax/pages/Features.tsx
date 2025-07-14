@@ -359,13 +359,6 @@ const Features = () => {
               <span>Book a Demo</span>
               <ArrowRight className="w-5 h-5" />
             </a>
-            
-            <Link
-              to={getLocalizedPath('/how-it-works')}
-              className="border-2 border-gray-600 text-gray-300 px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
-            >
-              See How It Works
-            </Link>
           </div>
         </div>
       </div>

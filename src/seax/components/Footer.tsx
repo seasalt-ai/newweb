@@ -35,7 +35,6 @@ const Footer = () => {
   const resourceLinks = [
     { name: 'Features', path: '/features' },
     { name: 'Pricing', path: '/pricing' },
-    { name: 'How It Works', path: '/how-it-works' },
     { name: 'About SeaX', path: '/about' },
     { name: 'Contact Sales', href: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting' },
     { name: 'Resources', path: '/resources' }

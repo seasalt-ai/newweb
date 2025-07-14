@@ -94,13 +94,6 @@ const ChannelPageTemplate = ({
                 <span>Get Started</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
-                
-                <Link
-                  to={getLocalizedPath('/how-it-works')}
-                  className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                >
-                  How It Works
-                </Link>
               </div>
             </div>
             
