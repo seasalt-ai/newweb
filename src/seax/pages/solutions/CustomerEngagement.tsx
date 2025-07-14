@@ -2,12 +2,12 @@ import Header from '../../components/Header';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, CheckCircle, TrendingUp, Users, MessageSquare, Heart, BarChart3, Target, Zap } from 'lucide-react';
+import { ArrowRight, Users, MessageSquare, Heart, BarChart3, Target, Zap } from 'lucide-react';
 
-const CustomerEngagement = () =e {
+const CustomerEngagement = () => {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  const getLocalizedPath = (path: string) =e `/${currentLanguage}/seax${path}`;
+  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const features = [
     {
@@ -68,8 +68,8 @@ const CustomerEngagement = () =e {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX CustomerEngagement - Scale Your Business"
-        description="SeaX CustomerEngagement solution helps businesses scale their communication and achieve better results."
+        title="Customer Engagement - SeaX Communication Platform"
+        description="Build stronger customer relationships with personalized multi-channel engagement across SMS, WhatsApp, and voice calls."
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -79,11 +79,11 @@ const CustomerEngagement = () =e {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            CustomerEngagement
-            <span className="text-blue-600 block">Solution</span>
+            Customer Engagement
+            <span className="text-blue-600 block">That Builds Loyalty</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Transform your business communication with our comprehensive CustomerEngagement solution.
+            Build stronger customer relationships with personalized multi-channel engagement across SMS, WhatsApp, and voice calls. Turn every interaction into an opportunity.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -91,15 +91,15 @@ const CustomerEngagement = () =e {
               to={getLocalizedPath('/contact-sales')}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Started</span>
+              <span>Engage Customers</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
             
             <Link
-              to={getLocalizedPath('/how-it-works')}
+              to={getLocalizedPath('/demo')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              Learn More
+              Book a Demo
             </Link>
           </div>
         </div>
@@ -110,23 +110,52 @@ const CustomerEngagement = () =e {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Powerful Features
+              Engagement Features
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need for successful CustomerEngagement
+              Everything you need to build meaningful customer relationships
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5', 'Feature 6'].map((feature, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center space-x-3 mb-4">
-                  <CheckCircle className="w-6 h-6 text-green-500" />
-                  <h3 className="text-lg font-semibold text-gray-900">{feature}</h3>
+            {features.map((feature, index) => {
+              const IconComponent = feature.icon;
+              return (
+                <div key={index} className="bg-gray-50 rounded-lg p-6">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <IconComponent className="w-6 h-6 text-blue-600" />
+                    <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>
+                  </div>
+                  <p className="text-gray-600">
+                    {feature.description}
+                  </p>
                 </div>
-                <p className="text-gray-600">
-                  Detailed description of {feature} and how it benefits your business.
-                </p>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* Use Cases Section */}
+      <div className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Engagement Use Cases
+            </h2>
+            <p className="text-lg text-gray-600">
+              Real-world customer engagement strategies across industries
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {useCases.map((useCase, index) => (
+              <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{useCase.title}</h3>
+                <p className="text-gray-600 mb-4">{useCase.description}</p>
+                <div className="bg-blue-50 rounded-lg p-3">
+                  <div className="text-sm font-medium text-blue-800">{useCase.stats}</div>
+                </div>
               </div>
             ))}
           </div>
@@ -134,31 +163,40 @@ const CustomerEngagement = () =e {
       </div>
 
       {/* Stats Section */}
-      <div className="py-20 bg-gray-50">
+      <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Proven Results
+              Engagement Results
             </h2>
+            <p className="text-lg text-gray-600">
+              See the impact of enhanced customer engagement
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-white rounded-lg p-8 shadow-sm">
-                <div className="text-4xl font-bold text-blue-600 mb-2">300%</div>
-                <div className="text-gray-600">Improvement</div>
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+                <div className="text-3xl font-bold text-blue-600 mb-2">40%</div>
+                <div className="text-gray-600">Higher Engagement</div>
               </div>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-8 shadow-sm">
-                <div className="text-4xl font-bold text-green-600 mb-2">85%</div>
-                <div className="text-gray-600">Success Rate</div>
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+                <div className="text-3xl font-bold text-green-600 mb-2">85%</div>
+                <div className="text-gray-600">Customer Satisfaction</div>
               </div>
             </div>
             <div className="text-center">
-              <div className="bg-white rounded-lg p-8 shadow-sm">
-                <div className="text-4xl font-bold text-purple-600 mb-2">50%</div>
-                <div className="text-gray-600">Time Savings</div>
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
+                <div className="text-3xl font-bold text-purple-600 mb-2">60%</div>
+                <div className="text-gray-600">Repeat Purchase Rate</div>
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
+                <div className="text-3xl font-bold text-orange-600 mb-2">3x</div>
+                <div className="text-gray-600">Customer Lifetime Value</div>
               </div>
             </div>
           </div>
@@ -169,10 +207,10 @@ const CustomerEngagement = () =e {
       <div className="py-20 bg-blue-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Transform Your CustomerEngagement?
+            Ready to Build Stronger Customer Relationships?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of businesses achieving better results with SeaX
+            Join thousands of businesses using SeaX to engage customers and build lasting loyalty
           </p>
           
           <Link

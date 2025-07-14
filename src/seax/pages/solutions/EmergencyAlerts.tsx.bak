@@ -67,40 +67,39 @@ const EmergencyAlerts = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title="Emergency Alerts - SeaX Notification System"
-        description="Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. Ensure message delivery in critical situations."
+      <SEOHelmet 
+        title="SeaX EmergencyAlerts - Scale Your Business"
+        description="SeaX EmergencyAlerts solution helps businesses scale their communication and achieve better results."
         favicon="/seasalt-ai-favicon.ico"
       />
-
+      
       <Header />
-
+      
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-red-50 to-yellow-100 py-20">
+      <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Emergency Alerts
-            <span className="text-red-600 block">That Save Lives</span>
+            EmergencyAlerts
+            <span className="text-blue-600 block">Solution</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. 
-            Ensure message delivery in critical situations when every second counts.
+            Transform your business communication with our comprehensive EmergencyAlerts solution.
           </p>
-
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to={getLocalizedPath('/contact-sales')}
-              className="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors flex items-center justify-center space-x-2"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Start Sending Alerts</span>
+              <span>Get Started</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
-
+            
             <Link
-              to={getLocalizedPath('/demo')}
-              className="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-red-50 transition-colors"
+              to={getLocalizedPath('/how-it-works')}
+              className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              Book a Safety Demo
+              Learn More
             </Link>
           </div>
         </div>
@@ -111,52 +110,23 @@ const EmergencyAlerts = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Critical Alert Features
+              Powerful Features
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need for effective and reliable emergency communications
+              Everything you need for successful EmergencyAlerts
             </p>
           </div>
-
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {features.map((feature, index) => {
-              const IconComponent = feature.icon;
-              return (
-                <div key={index} className="bg-gray-50 rounded-lg p-6">
-                  <div className="flex items-center space-x-3 mb-4">
-                    <IconComponent className="w-6 h-6 text-red-600" />
-                    <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>
-                  </div>
-                  <p className="text-gray-600">
-                    {feature.description}
-                  </p>
+            {['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5', 'Feature 6'].map((feature, index) => (
+              <div key={index} className="bg-gray-50 rounded-lg p-6">
+                <div className="flex items-center space-x-3 mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-500" />
+                  <h3 className="text-lg font-semibold text-gray-900">{feature}</h3>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Use Cases Section */}
-      <div className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Emergency Alert Use Cases
-            </h2>
-            <p className="text-lg text-gray-600">
-              Real-world applications to ensure safety and communication
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {useCases.map((useCase, index) => (
-              <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{useCase.title}</h3>
-                <p className="text-gray-600 mb-4">{useCase.description}</p>
-                <div className="bg-red-50 rounded-lg p-3">
-                  <div className="text-sm font-medium text-red-800">{useCase.stats}</div>
-                </div>
+                <p className="text-gray-600">
+                  Detailed description of {feature} and how it benefits your business.
+                </p>
               </div>
             ))}
           </div>
@@ -164,40 +134,31 @@ const EmergencyAlerts = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="py-20 bg-white">
+      <div className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Proven Emergency Response
+              Proven Results
             </h2>
-            <p className="text-lg text-gray-600">
-              Deliver messages reliably when every second counts
-            </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-red-600 mb-2">99.9%</div>
-                <div className="text-gray-600">Delivery Success Rate</div>
+              <div className="bg-white rounded-lg p-8 shadow-sm">
+                <div className="text-4xl font-bold text-blue-600 mb-2">300%</div>
+                <div className="text-gray-600">Improvement</div>
               </div>
             </div>
             <div className="text-center">
-              <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-yellow-600 mb-2">30 sec</div>
-                <div className="text-gray-600">Avg Delivery Time</div>
+              <div className="bg-white rounded-lg p-8 shadow-sm">
+                <div className="text-4xl font-bold text-green-600 mb-2">85%</div>
+                <div className="text-gray-600">Success Rate</div>
               </div>
             </div>
             <div className="text-center">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
-                <div className="text-gray-600">Response Within 5 min</div>
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-green-600 mb-2">10,000+</div>
-                <div className="text-gray-600">Messages per Minute</div>
+              <div className="bg-white rounded-lg p-8 shadow-sm">
+                <div className="text-4xl font-bold text-purple-600 mb-2">50%</div>
+                <div className="text-gray-600">Time Savings</div>
               </div>
             </div>
           </div>
@@ -205,18 +166,18 @@ const EmergencyAlerts = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="py-20 bg-gradient-to-r from-red-600 to-yellow-600">
+      <div className="py-20 bg-blue-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Ensure Safety and Communication?
+            Ready to Transform Your EmergencyAlerts?
           </h2>
-          <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-            Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.
+          <p className="text-xl text-blue-100 mb-8">
+            Join thousands of businesses achieving better results with SeaX
           </p>
-
+          
           <Link
             to={getLocalizedPath('/contact-sales')}
-            className="bg-white text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+            className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
           >
             <span>Get Started Today</span>
             <ArrowRight className="w-5 h-5" />
