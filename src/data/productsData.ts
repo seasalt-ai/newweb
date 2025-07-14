@@ -18,7 +18,7 @@ export const products: Product[] = [
   },
   {
     title: 'SeaX',
-    href: 'http://seax.seasalt.ai/',
+    href: '/seax',
     description: 'Outreach to customers in bulk'
   },
   {
