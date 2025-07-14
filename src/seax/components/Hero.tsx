@@ -1,14 +1,11 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Play, ArrowRight, MessageCircle, Phone, Mail } from 'lucide-react';
 
 const Hero = () => {
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [, setIsVideoPlaying] = useState(false);
 
-  const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const handleVideoPlay = () => {
     setIsVideoPlaying(true);

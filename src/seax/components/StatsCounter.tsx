@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { seaxStats } from '../data/seaxFeatures';
 
 interface StatItem {
   id: string;
@@ -60,7 +59,7 @@ const StatsCounter = () => {
       const steps = 60; // 60 steps for smooth animation
       const stepDuration = duration / steps;
 
-      stats.forEach((stat, index) => {
+      stats.forEach((stat) => {
         const targetValue = stat.id === 'messages' ? 10 : 
                           stat.id === 'calls' ? 500 : 
                           stat.id === 'uptime' ? 99.9 : 

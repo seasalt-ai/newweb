@@ -1,7 +1,7 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, Home, MessageSquare, Phone, Hash, Building2, Globe, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, MapPin, Vote, Heart, DollarSign } from 'lucide-react';
+import { Menu, X, ChevronDown, Home, MessageSquare, Phone, Hash, Building2, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, Vote, Heart, DollarSign } from 'lucide-react';
 
 // Custom WhatsApp icon component
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -16,7 +16,6 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 );
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import { products } from '../../data/productsData';
-import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +23,7 @@ const Header = () => {
   const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
   const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
   const [isSeaXDropdownOpen, setIsSeaXDropdownOpen] = useState(false);
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const location = useLocation();
   const currentLanguage = i18n.language;
 

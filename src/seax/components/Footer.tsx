@@ -178,14 +178,14 @@ const Footer = () => {
                     >
                       {link.name}
                     </a>
-                  ) : (
+                  ) : link.path ? (
                     <Link 
                       to={getLocalizedPath(link.path)}
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
                     >
                       {link.name}
                     </Link>
-                  )}
+                  ) : null}
                 </li>
               ))}
             </ul>
