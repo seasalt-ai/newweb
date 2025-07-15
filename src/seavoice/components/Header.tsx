@@ -155,7 +155,7 @@ const Header = () => {
               <ProductLogoDropdown
                 isOpen={isLogoDropdownOpen}
                 onClose={() => setIsLogoDropdownOpen(false)}
-                currentLanguage="en"
+                currentLanguage={i18n.language}
               />
             </div>
           </div>
