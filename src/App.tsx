@@ -77,6 +77,7 @@ const SeaXRedirect = () => {
 const SeaVoiceRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seavoice', '');
+  console.log('SeaVoiceRedirect called with:', location.pathname, 'redirecting to:', `/${DEFAULT_LANGUAGE}/seavoice${subPath}`);
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
 };
 

@@ -37,6 +37,7 @@ import CustomerSurveysPage from '../pages/solutions/outbound/CustomerSurveysPage
 import FraudAlertsPage from '../pages/solutions/outbound/FraudAlertsPage';
 
 const SeaVoiceRouter = () => {
+  console.log('SeaVoiceRouter is being rendered!', window.location.pathname);
 
   return (
     <div className="min-h-screen bg-white">
