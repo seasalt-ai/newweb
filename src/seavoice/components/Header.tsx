@@ -1,6 +1,39 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, PhoneIncoming, PhoneOutgoing, Home } from 'lucide-react';
+import { 
+  Menu, 
+  X, 
+  ChevronDown, 
+  PhoneIncoming, 
+  PhoneOutgoing, 
+  Home,
+  Monitor,
+  Phone,
+  Wifi,
+  MessageSquare,
+  Mic,
+  MicOff,
+  Brain,
+  Bot,
+  Users,
+  ArrowRightLeft,
+  Zap,
+  Heart,
+  Shield,
+  Headphones,
+  Package,
+  CreditCard,
+  Calendar,
+  Target,
+  DollarSign,
+  UserCheck,
+  Clock,
+  Megaphone,
+  Headset,
+  RefreshCw,
+  FileText,
+  AlertTriangle
+} from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
@@ -16,27 +49,27 @@ const Header = () => {
   const { i18n } = useTranslation();
 
   const inboundSolutions = [
-    { name: '24/7 Virtual Assistant', href: '/seavoice/solutions/inbound/virtual-assistant' },
-    { name: 'Smart Call Transfer', href: '/seavoice/solutions/inbound/call-transfer' },
-    { name: 'IVR Replacement', href: '/seavoice/solutions/inbound/ivr-replacement' },
-    { name: 'Mental Health Companion', href: '/seavoice/solutions/inbound/mental-health' },
-    { name: 'Scam Shield Protection', href: '/seavoice/solutions/inbound/scam-shield' },
-    { name: 'Technical Support', href: '/seavoice/solutions/inbound/technical-support' },
-    { name: 'Order Status & Tracking', href: '/seavoice/solutions/inbound/order-tracking' },
-    { name: 'Payment Processing', href: '/seavoice/solutions/inbound/payment-processing' },
-    { name: 'Appointment Booking', href: '/seavoice/solutions/inbound/appointment-booking' },
+    { name: '24/7 Virtual Assistant', href: '/seavoice/solutions/inbound/virtual-assistant', icon: Bot },
+    { name: 'Smart Call Transfer', href: '/seavoice/solutions/inbound/call-transfer', icon: ArrowRightLeft },
+    { name: 'IVR Replacement', href: '/seavoice/solutions/inbound/ivr-replacement', icon: Zap },
+    { name: 'Mental Health Companion', href: '/seavoice/solutions/inbound/mental-health', icon: Heart },
+    { name: 'Scam Shield Protection', href: '/seavoice/solutions/inbound/scam-shield', icon: Shield },
+    { name: 'Technical Support', href: '/seavoice/solutions/inbound/technical-support', icon: Headphones },
+    { name: 'Order Status & Tracking', href: '/seavoice/solutions/inbound/order-tracking', icon: Package },
+    { name: 'Payment Processing', href: '/seavoice/solutions/inbound/payment-processing', icon: CreditCard },
+    { name: 'Appointment Booking', href: '/seavoice/solutions/inbound/appointment-booking', icon: Calendar },
   ];
 
   const outboundSolutions = [
-    { name: 'Lead Generation & Qualification', href: '/seavoice/solutions/outbound/lead-generation' },
-    { name: 'Collections Service', href: '/seavoice/solutions/outbound/collections' },
-    { name: 'Customer Reactivation', href: '/seavoice/solutions/outbound/reactivation' },
-    { name: 'Senior Check Calls', href: '/seavoice/solutions/outbound/senior-checks' },
-    { name: 'Large Scale Campaigns', href: '/seavoice/solutions/outbound/campaigns' },
-    { name: 'Proactive Support', href: '/seavoice/solutions/outbound/proactive-support' },
-    { name: 'Subscription Renewals', href: '/seavoice/solutions/outbound/renewals' },
-    { name: 'Customer Surveys', href: '/seavoice/solutions/outbound/surveys' },
-    { name: 'Fraud Alerts', href: '/seavoice/solutions/outbound/fraud-alerts' },
+    { name: 'Lead Generation & Qualification', href: '/seavoice/solutions/outbound/lead-generation', icon: Target },
+    { name: 'Collections Service', href: '/seavoice/solutions/outbound/collections', icon: DollarSign },
+    { name: 'Customer Reactivation', href: '/seavoice/solutions/outbound/reactivation', icon: UserCheck },
+    { name: 'Senior Check Calls', href: '/seavoice/solutions/outbound/senior-checks', icon: Clock },
+    { name: 'Large Scale Campaigns', href: '/seavoice/solutions/outbound/campaigns', icon: Megaphone },
+    { name: 'Proactive Support', href: '/seavoice/solutions/outbound/proactive-support', icon: Headset },
+    { name: 'Subscription Renewals', href: '/seavoice/solutions/outbound/renewals', icon: RefreshCw },
+    { name: 'Customer Surveys', href: '/seavoice/solutions/outbound/surveys', icon: FileText },
+    { name: 'Fraud Alerts', href: '/seavoice/solutions/outbound/fraud-alerts', icon: AlertTriangle },
   ];
 
   const changeLanguage = (languageCode: string) => {
@@ -79,14 +112,14 @@ const Header = () => {
       href: '/seavoice/platform',
       hasDropdown: true,
       dropdownItems: [
-        { name: 'Platform Overview', href: '/seavoice/platform' },
-        { name: 'Landline & Mobile Voice', href: '/seavoice/platform/landline-mobile' },
-        { name: 'VoIP & SIP & BYOC Voice', href: '/seavoice/platform/voip-sip-byoc' },
-        { name: 'Line Call Plus for Businesses', href: '/seavoice/platform/line-call-plus' },
-        { name: 'WhatsApp Voice API for Businesses', href: '/seavoice/platform/whatsapp-voice' },
-        { name: 'Speech To Text', href: '/seavoice/platform/speech-to-text' },
-        { name: 'Text To Speech', href: '/seavoice/platform/text-to-speech' },
-        { name: 'End To End LLMs', href: '/seavoice/platform/end-to-end-llms' },
+        { name: 'Platform Overview', href: '/seavoice/platform', icon: Monitor },
+        { name: 'Landline & Mobile Voice', href: '/seavoice/platform/landline-mobile', icon: Phone },
+        { name: 'VoIP & SIP & BYOC Voice', href: '/seavoice/platform/voip-sip-byoc', icon: Wifi },
+        { name: 'Line Call Plus for Businesses', href: '/seavoice/platform/line-call-plus', icon: MessageSquare },
+        { name: 'WhatsApp Voice API for Businesses', href: '/seavoice/platform/whatsapp-voice', icon: MessageSquare },
+        { name: 'Speech To Text', href: '/seavoice/platform/speech-to-text', icon: MicOff },
+        { name: 'Text To Speech', href: '/seavoice/platform/text-to-speech', icon: Mic },
+        { name: 'End To End LLMs', href: '/seavoice/platform/end-to-end-llms', icon: Brain },
       ]
     },
     { 
@@ -146,10 +179,13 @@ const Header = () => {
                             href={product.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                           >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
+                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                            <div>
+                              <div className="font-medium">{product.title}</div>
+                              <div className="text-xs text-gray-500">{product.description}</div>
+                            </div>
                           </a>
                           <div className="bg-gray-50 border-t border-gray-100">
                             {product.subProducts.map((subProduct, subIndex) => (
@@ -169,21 +205,27 @@ const Header = () => {
                         product.href.startsWith('/') ? (
                           <Link
                             to={product.href}
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                             onClick={() => setIsLogoDropdownOpen(false)}
                           >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
+                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                            <div>
+                              <div className="font-medium">{product.title}</div>
+                              <div className="text-xs text-gray-500">{product.description}</div>
+                            </div>
                           </Link>
                         ) : (
                           <a
                             href={product.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                           >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
+                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                            <div>
+                              <div className="font-medium">{product.title}</div>
+                              <div className="text-xs text-gray-500">{product.description}</div>
+                            </div>
                           </a>
                         )
                       )}
@@ -235,8 +277,9 @@ const Header = () => {
                       <Link
                         key={dropdownItem.name}
                         to={dropdownItem.href}
-                        className="block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                        className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                       >
+                        <dropdownItem.icon className="w-4 h-4 mr-2" />
                         {dropdownItem.name}
                       </Link>
                     ))}
@@ -263,8 +306,9 @@ const Header = () => {
                             <Link
                               key={solution.name}
                               to={solution.href}
-                              className="block px-2 py-2 text-xs text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded"
+                              className="flex items-center block px-2 py-2 text-xs text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded"
                             >
+                              <solution.icon className="w-4 h-4 mr-2 text-blue-600" />
                               {solution.name}
                             </Link>
                           ))}
@@ -282,8 +326,9 @@ const Header = () => {
                             <Link
                               key={solution.name}
                               to={solution.href}
-                              className="block px-2 py-2 text-xs text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors rounded"
+                              className="flex items-center block px-2 py-2 text-xs text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors rounded"
                             >
+                              <solution.icon className="w-4 h-4 mr-2 text-teal-600" />
                               {solution.name}
                             </Link>
                           ))}
