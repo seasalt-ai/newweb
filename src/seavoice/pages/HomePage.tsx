@@ -22,9 +22,6 @@ const HomePage = () => {
     },
   ];
 
-  const customerLogos = [
-    'Microsoft', 'Google', 'Amazon', 'Salesforce', 'Shopify', 'Zendesk'
-  ];
 
   const testimonials = [
     {
