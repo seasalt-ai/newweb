@@ -80,6 +80,7 @@ const SeaVoiceRedirect = () => {
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
 };
 
+
 function HomePage() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
@@ -147,7 +148,7 @@ function App() {
         ))}
         {/* SeaVoice routes - handle all seavoice paths */}
         <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
-        {/* Language-specific routes */}
+        {/* Language-specific routes - exclude routes that start with seavoice, seachat, seax */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
           <Route path="pricing" element={<PricingPage />} />
