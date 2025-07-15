@@ -16,6 +16,20 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
     return currentLanguage === 'en' ? '/' : `/${currentLanguage}`;
   };
 
+  const getProductLink = (href: string) => {
+    // Ensure we have a clean product href
+    if (!href.startsWith('/')) {
+      return href; // External link, return as-is
+    }
+    
+    // For internal links, construct the proper language-prefixed path
+    if (currentLanguage === 'en') {
+      return href;
+    } else {
+      return `/${currentLanguage}${href}`;
+    }
+  };
+
   return (
     <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
       {/* Main Site Link */}
@@ -40,7 +54,7 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
               <div>
                 {product.href.startsWith('/') ? (
                   <Link
-                    to={currentLanguage === 'en' ? product.href : `/${currentLanguage}${product.href}`}
+                    to={getProductLink(product.href)}
                     className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                     onClick={onClose}
                   >
@@ -81,7 +95,7 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
             ) : (
               product.href.startsWith('/') ? (
                 <Link
-                  to={currentLanguage === 'en' ? product.href : `/${currentLanguage}${product.href}`}
+                  to={getProductLink(product.href)}
                   className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                   onClick={onClose}
                 >
