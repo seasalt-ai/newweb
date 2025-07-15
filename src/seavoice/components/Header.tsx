@@ -103,13 +103,14 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/seavoice" className="flex items-center">
             <img 
               src="/seavoice-logo.png" 
               alt="SeaVoice Logo" 
-              className="h-10" 
+              className="h-16" 
+              style={{ width: 'auto', maxWidth: 'none' }}
             />
           </Link>
 
