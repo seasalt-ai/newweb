@@ -147,9 +147,7 @@ function App() {
         ))}
         {/* SeaVoice routes - handle all seavoice paths */}
         <Route path="/seavoice" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seavoice`} replace />} />
-        <Route path="/seavoice/:path" element={<SeaVoiceRedirect />} />
-        <Route path="/seavoice/:path/:subpath" element={<SeaVoiceRedirect />} />
-        <Route path="/seavoice/:path/:subpath/:subpath2" element={<SeaVoiceRedirect />} />
+        <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
         {/* Dynamic SeaVoice routes for all supported languages - Must come before general :lang routes */}
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceRouter />} />
@@ -201,7 +199,6 @@ function App() {
         </Route>
         <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
-        <Route path="company" element={<CompanyPage />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
         </Routes>
