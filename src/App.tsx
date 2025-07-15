@@ -142,7 +142,6 @@ function App() {
           <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
         ))}
         {/* SeaVoice routes - handle all seavoice paths */}
-        <Route path="/seavoice" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seavoice`} replace />} />
         <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
         {/* Dynamic SeaVoice routes for all supported languages */}
         {SUPPORTED_LANGUAGES.map(lang => (

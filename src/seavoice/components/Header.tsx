@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { 
   Menu, 
   X, 
@@ -46,6 +46,7 @@ const Header = () => {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isLogoDropdownOpen, setIsLogoDropdownOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const { i18n } = useTranslation();
 
   const inboundSolutions = [
@@ -73,7 +74,7 @@ const Header = () => {
   ];
 
   const changeLanguage = (languageCode: string) => {
-    const { pathname } = window.location;
+    const { pathname } = location;
     const currentLang = i18n.language;
     let newPath;
 
@@ -97,7 +98,7 @@ const Header = () => {
       }
     }
 
-    window.location.href = newPath;
+    navigate(newPath);
     setIsLanguageOpen(false);
   };
 

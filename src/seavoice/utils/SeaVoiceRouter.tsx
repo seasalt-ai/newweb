@@ -64,19 +64,13 @@ const SeaVoiceRouter = () => {
           <Route path="/solutions/inbound/appointment-booking" element={<AppointmentBookingPage />} />
           <Route path="/solutions/outbound/lead-generation" element={<LeadGenerationPage />} />
           <Route path="/solutions/outbound/collections" element={<CollectionsPage />} />
-          <Route path="/solutions/outbound/customer-reactivation" element={<CustomerReactivationPage />} />
-          <Route path="/solutions/outbound/senior-check-calls" element={<SeniorCheckCallsPage />} />
-          <Route path="/solutions/outbound/large-scale-campaigns" element={<LargeScaleCampaignsPage />} />
-          <Route path="/solutions/outbound/proactive-support" element={<ProactiveSupportPage />} />
-          <Route path="/solutions/outbound/subscription-renewals" element={<SubscriptionRenewalsPage />} />
-          <Route path="/solutions/outbound/customer-surveys" element={<CustomerSurveysPage />} />
-          <Route path="/solutions/outbound/fraud-alerts" element={<FraudAlertsPage />} />
-          {/* Route aliases for shorter paths */}
           <Route path="/solutions/outbound/reactivation" element={<CustomerReactivationPage />} />
           <Route path="/solutions/outbound/senior-checks" element={<SeniorCheckCallsPage />} />
           <Route path="/solutions/outbound/campaigns" element={<LargeScaleCampaignsPage />} />
+          <Route path="/solutions/outbound/proactive-support" element={<ProactiveSupportPage />} />
           <Route path="/solutions/outbound/renewals" element={<SubscriptionRenewalsPage />} />
           <Route path="/solutions/outbound/surveys" element={<CustomerSurveysPage />} />
+          <Route path="/solutions/outbound/fraud-alerts" element={<FraudAlertsPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/developers" element={<DevelopersPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
