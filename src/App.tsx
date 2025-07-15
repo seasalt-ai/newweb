@@ -54,9 +54,12 @@ import MarkdownPage from './components/MarkdownPage';
 import SeaHealth from './pages/SeaHealth';
 import SeaChatRouter from './components/SeaChatRouter';
 import SeaXRouter from './seax/utils/SeaXRouter';
+import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
+import CompanyPage from './pages/CompanyPage';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
+import FaviconManager from './components/FaviconManager';
 
 // Component to handle SeaChat redirects
 const SeaChatRedirect = () => {
@@ -71,6 +74,14 @@ const SeaXRedirect = () => {
   const subPath = location.pathname.replace('/seax', '');
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seax${subPath}`} replace />;
 };
+
+// Component to handle SeaVoice redirects
+const SeaVoiceRedirect = () => {
+  const location = useLocation();
+  const subPath = location.pathname.replace('/seavoice', '');
+  return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
+};
+
 
 function HomePage() {
   const { i18n } = useTranslation();
@@ -113,7 +124,8 @@ function App() {
 
   return (
     <Router basename={basename}>
-      <Routes>
+      <FaviconManager>
+        <Routes>
         {/* Root path redirects to current language */}
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
         {/* /health redirects to /seahealth */}
@@ -133,7 +145,14 @@ function App() {
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
         ))}
-        {/* Language-specific routes */}
+        {/* SeaVoice routes - handle all seavoice paths */}
+        <Route path="/seavoice" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seavoice`} replace />} />
+        <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
+        {/* Dynamic SeaVoice routes for all supported languages - Must come before general :lang routes */}
+        {SUPPORTED_LANGUAGES.map(lang => (
+          <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceRouter />} />
+        ))}
+        {/* Language-specific routes - exclude routes that start with seavoice, seachat, seax */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
           <Route path="pricing" element={<PricingPage />} />
@@ -176,12 +195,14 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
           <Route path="seahealth" element={<SeaHealth />} />
+          <Route path="company" element={<CompanyPage />} />
         </Route>
-      <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
+        <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
-      </Routes>
+        </Routes>
+      </FaviconManager>
     </Router>
   );
 }

@@ -1,6 +1,7 @@
-import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem } from 'lucide-react';
+import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -45,7 +46,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-8" />
+              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-8 brightness-0 invert" />
             </div>
             
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -179,26 +180,49 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2020 - {new Date().getFullYear()} Seasalt.ai All rights reserved.
+        <div className="border-t border-gray-800 mt-12 pt-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
+              <p className="text-gray-300 text-sm">
+                © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
+              </p>
+              <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
+                <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  Privacy Policy
+                </Link>
+                <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
+                  Terms of Service
+                </Link>
+              </div>
+            </div>
+            
+            {/* Stats */}
+            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
+              <span className="flex items-center">
+                <MessageSquare className="w-4 h-4 mr-1" />
+                5M+ Messages Daily
+              </span>
+              <span className="flex items-center">
+                <Users className="w-4 h-4 mr-1" />
+                100K+ Active Users
+              </span>
+              <span className="flex items-center">
+                <Shield className="w-4 h-4 mr-1" />
+                99.9% Uptime
+              </span>
+            </div>
           </div>
           
-          <div className="flex items-center space-x-6 text-sm text-gray-400">
-            <span>{t('seachat.footer.compliance')}</span>
-            <span>{t('seachat.footer.gdpr')}</span>
-            <span>{t('seachat.footer.uptime')}</span>
+          {/* Fun Footer Tagline */}
+          <div className="text-center text-gray-400 text-sm mt-8">
+            <p>
+              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
+              <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
+              <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
+              <Plane className="inline w-4 h-4 text-gray-500" />{' '}
+              <Gem className="inline w-4 h-4 text-fuchsia-500" />
+            </p>
           </div>
-        </div>
-        <div className="text-center text-gray-400 text-sm mt-8">
-          <br />
-          <p>
-            Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
-            <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
-            <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
-            <Plane className="inline w-4 h-4 text-gray-500" />{' '}
-            <Gem className="inline w-4 h-4 text-fuchsia-500" />
-          </p>
         </div>
       </div>
     </footer>

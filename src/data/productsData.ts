@@ -34,7 +34,7 @@ export const products: Product[] = [
   },
   {
     title: 'SeaVoice',
-    href: 'http://voice.seasalt.ai/',
+    href: '/seavoice',
     description: 'AI voice agents for calls',
     icon: Mic,
     subProducts: [

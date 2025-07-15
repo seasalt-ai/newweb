@@ -11,19 +11,14 @@ const LanguageRouter: React.FC = () => {
   
   
   useEffect(() => {
-    console.log('LanguageRouter - lang from params:', lang);
-    console.log('LanguageRouter - current i18n language:', i18n.language);
-    console.log('LanguageRouter - location pathname:', location.pathname);
     
     // Only redirect if the language is missing or unsupported
     if (!lang) {
-      console.log('No lang param, redirecting to default');
       navigate(`/${DEFAULT_LANGUAGE}` + location.pathname, { replace: true });
       return;
     }
 
     if (!SUPPORTED_LANGUAGES.includes(lang as any)) {
-      console.log('Unsupported language, redirecting to default');
       const pathWithoutLang = location.pathname.replace(/^\/[^\/]+/, '');
       navigate(`/${DEFAULT_LANGUAGE}` + pathWithoutLang, { replace: true });
       return;
@@ -31,7 +26,6 @@ const LanguageRouter: React.FC = () => {
 
     // Only change language if different
     if (i18n.language !== lang) {
-      console.log('Changing language from', i18n.language, 'to', lang);
       i18n.changeLanguage(lang);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

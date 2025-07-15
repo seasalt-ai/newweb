@@ -1,4 +1,5 @@
-import { Phone, Mail, MapPin, MessageSquare, Zap, Users, Target } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, Zap, Users, Target, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter } from 'lucide-react';
+import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -56,9 +57,9 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
               <img 
-                src="/seax_logo.png" 
+                src="/seax-logo.png" 
                 alt="SeaX" 
-                className="h-8 w-auto"
+                className="h-8 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
@@ -81,16 +82,16 @@ const Footer = () => {
             </div>
             <div className="flex space-x-4 mt-6">
               <a href="https://www.linkedin.com/company/seasalt-ai/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-linkedin text-xl"></i>
+                <Linkedin className="w-5 h-5" />
               </a>
               <a href="https://www.youtube.com/@seasaltai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-youtube text-xl"></i>
+                <Youtube className="w-5 h-5" />
               </a>
               <a href="https://twitter.com/SeasaltAI" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-twitter text-xl"></i>
+                <Twitter className="w-5 h-5" />
               </a>
               <a href="https://discord.gg/VgAWg3c7rU" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-discord text-xl"></i>
+                <FaDiscord className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -213,7 +214,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                © {new Date().getFullYear()} Seasalt.ai. All rights reserved.
+                © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
                 <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
@@ -222,9 +223,6 @@ const Footer = () => {
                 <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
                   Terms of Service
                 </Link>
-                <a href="#security" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Security
-                </a>
               </div>
             </div>
             
@@ -246,11 +244,11 @@ const Footer = () => {
           </div>
           <div className="text-center mt-4">
             <p className="text-gray-300 text-sm">
-              Made with <i className="fa fa-heart text-red-500"></i> in the city of{' '}
-              <i className="fa fa-coffee text-brown-500"></i>{' '}
-              <i className="fa fa-umbrella text-blue-500"></i>{' '}
-              <i className="fa fa-plane text-gray-500"></i>{' '}
-              <i className="fa fa-diamond text-purple-500"></i>
+              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
+              <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
+              <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
+              <Plane className="inline w-4 h-4 text-gray-500" />{' '}
+              <Gem className="inline w-4 h-4 text-fuchsia-500" />
             </p>
           </div>
         </div>

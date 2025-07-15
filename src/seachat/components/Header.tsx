@@ -1,10 +1,9 @@
-import { useState } from 'react';
+import { useState, useRef, useCallback, useMemo } from 'react';
 import { 
   Menu, 
   X, 
   ChevronDown, 
   BookOpen, 
-  Home, 
   Users, 
   Bot, 
   Brain, 
@@ -29,18 +28,37 @@ import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
-import { products } from '../../data/productsData';
+import ProductLogoDropdown from '../../components/ProductLogoDropdown';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // Unused language switcher state removed
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
   const { t, i18n } = useTranslation();
   const { createLink } = useLanguageAwareLinks();
+  
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  const handleMouseEnter = useCallback((dropdown: string) => {
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+    }
+    setOpenDropdown(dropdown);
+  }, []);
+  
+  const handleMouseLeave = useCallback(() => {
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+    }
+    hoverTimeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 100);
+  }, []);
+  
 
 
-  const featuresDropdown = [
+  const featuresDropdown = useMemo(() => [
     { 
       name: t('seachat.header.featuresDropdown.humanAgents'), 
       href: createLink('seachat/features/human-agents'),
@@ -81,9 +99,9 @@ const Header = () => {
       href: createLink('seachat/features/api'),
       icon: Code
     }
-  ];
+  ], [t, createLink]);
 
-  const integrationsDropdown = [
+  const integrationsDropdown = useMemo(() => [
     { 
       name: t('seachat.header.integrationsDropdown.websites'), 
       href: createLink('seachat/integrations/websites'),
@@ -124,9 +142,9 @@ const Header = () => {
       href: createLink('seachat/integrations/api'),
       icon: Code
     }
-  ];
+  ], [t, createLink]);
 
-  const solutionsDropdown = [
+  const solutionsDropdown = useMemo(() => [
     { 
       name: t('seachat.header.solutionsDropdown.ecommerce'), 
       href: createLink('seachat/solutions/ecommerce'),
@@ -167,11 +185,8 @@ const Header = () => {
       href: createLink('seachat/solutions/small-business'),
       icon: Briefcase
     }
-  ];
+  ], [t, createLink]);
 
-  const handleDropdownToggle = (dropdown: string) => {
-    setOpenDropdown(openDropdown === dropdown ? null : dropdown);
-  };
 
   const isActivePath = (path: string) => {
     return location.pathname === path;
@@ -189,107 +204,57 @@ const Header = () => {
   // Unused currentLanguage removed
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <>
+      <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-100 z-50" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
-          <div className="relative">
+          <div 
+            className="relative"
+            onMouseEnter={() => setOpenDropdown('logo')}
+            onMouseLeave={() => setOpenDropdown(null)}
+          >
             <button 
-              onClick={() => handleDropdownToggle('logo')}
+              onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
               className="flex items-center hover:opacity-90 transition-opacity"
             >
-              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-10 w-auto" />
+              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-6 sm:h-8 w-auto flex-shrink-0" />
               <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
             </button>
-            {openDropdown === 'logo' && (
-              <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-                {/* Main Site Link */}
-                <Link
-                  to={createLink('')}
-                  className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 border-b border-gray-100"
-                  onClick={() => setOpenDropdown(null)}
-                >
-                  <Home className="w-5 h-5 mr-3 text-blue-600" />
-                  <div>
-                    <div className="font-medium text-gray-900">Seasalt.ai Main Site</div>
-                    <div className="text-xs text-gray-500">All products and solutions</div>
-                  </div>
-                </Link>
-                
-                {/* Products */}
-                <div className="py-2">
-                  <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
-                  {products.map((product, index) => (
-                    <div key={index}>
-                      {product.subProducts ? (
-                        <div>
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                          >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
-                          </a>
-                          <div className="bg-gray-50 border-t border-gray-100">
-                            {product.subProducts.map((subProduct, subIndex) => (
-                              <a
-                                key={subIndex}
-                                href={subProduct.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                              >
-                                {subProduct.title}
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        product.href.startsWith('/') ? (
-                          <Link
-                            to={createLink(product.href.substring(1))}
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                            onClick={() => setOpenDropdown(null)}
-                          >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
-                          </Link>
-                        ) : (
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                          >
-                            <div className="font-medium">{product.title}</div>
-                            <div className="text-xs text-gray-500">{product.description}</div>
-                          </a>
-                        )
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            <ProductLogoDropdown
+              isOpen={openDropdown === 'logo'}
+              onClose={() => setOpenDropdown(null)}
+              currentLanguage={i18n.language}
+            />
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {/* Features Dropdown */}
-            <div className="relative group">
+            <div 
+              className="relative"
+              onMouseEnter={() => handleMouseEnter('features')}
+              onMouseLeave={handleMouseLeave}
+            >
               <button 
                 className={`flex items-center font-medium transition-colors ${
                   isActiveSection('features') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                 }`}
-                onClick={() => handleDropdownToggle('features')}
+                onClick={() => setOpenDropdown(openDropdown === 'features' ? null : 'features')}
               >
                 {t('seachat.header.features')}
                 <ChevronDown className="w-4 h-4 ml-1" />
               </button>
-              {openDropdown === 'features' && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50">
+              <AnimatePresence>
+                {openDropdown === 'features' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 pt-2 w-64 z-[60]"
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
                   {featuresDropdown.map((item) => (
                     <Link
                       key={item.name}
@@ -305,23 +270,37 @@ const Header = () => {
                       {item.name}
                     </Link>
                   ))}
-                </div>
-              )}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             {/* Integrations Dropdown */}
-            <div className="relative group">
+            <div 
+              className="relative"
+              onMouseEnter={() => handleMouseEnter('integrations')}
+              onMouseLeave={handleMouseLeave}
+            >
               <button 
                 className={`flex items-center font-medium transition-colors ${
                   isActiveSection('integrations') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                 }`}
-                onClick={() => handleDropdownToggle('integrations')}
+                onClick={() => setOpenDropdown(openDropdown === 'integrations' ? null : 'integrations')}
               >
                 {t('seachat.header.integrations')}
                 <ChevronDown className="w-4 h-4 ml-1" />
               </button>
-              {openDropdown === 'integrations' && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50">
+              <AnimatePresence>
+                {openDropdown === 'integrations' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 pt-2 w-64 z-[60]"
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
                   {integrationsDropdown.map((item) => (
                     <Link
                       key={item.name}
@@ -337,23 +316,37 @@ const Header = () => {
                       {item.name}
                     </Link>
                   ))}
-                </div>
-              )}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             {/* Solutions Dropdown */}
-            <div className="relative group">
+            <div 
+              className="relative"
+              onMouseEnter={() => handleMouseEnter('solutions')}
+              onMouseLeave={handleMouseLeave}
+            >
               <button 
                 className={`flex items-center font-medium transition-colors ${
                   isActiveSection('solutions') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                 }`}
-                onClick={() => handleDropdownToggle('solutions')}
+                onClick={() => setOpenDropdown(openDropdown === 'solutions' ? null : 'solutions')}
               >
                 {t('seachat.header.solutions')}
                 <ChevronDown className="w-4 h-4 ml-1" />
               </button>
-              {openDropdown === 'solutions' && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50">
+              <AnimatePresence>
+                {openDropdown === 'solutions' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute top-full left-0 pt-2 w-64 z-[60]"
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
                   {solutionsDropdown.map((item) => (
                     <Link
                       key={item.name}
@@ -369,8 +362,10 @@ const Header = () => {
                       {item.name}
                     </Link>
                   ))}
-                </div>
-              )}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             {/* Pricing */}
@@ -580,14 +575,16 @@ const Header = () => {
         </div>
       )}
 
-      {/* Backdrop for dropdowns */}
+      </header>
+      
+      {/* Backdrop for dropdowns - outside header to prevent re-renders */}
       {openDropdown && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-10 z-40"
           onClick={() => setOpenDropdown(null)}
         />
       )}
-    </header>
+    </>
   );
 };
 
