@@ -58,6 +58,7 @@ import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
+import FaviconManager from './components/FaviconManager';
 
 // Component to handle SeaChat redirects
 const SeaChatRedirect = () => {
@@ -122,7 +123,8 @@ function App() {
 
   return (
     <Router basename={basename}>
-      <Routes>
+      <FaviconManager>
+        <Routes>
         {/* Root path redirects to current language */}
         <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
         {/* /health redirects to /seahealth */}
@@ -199,7 +201,8 @@ function App() {
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
-      </Routes>
+        </Routes>
+      </FaviconManager>
     </Router>
   );
 }

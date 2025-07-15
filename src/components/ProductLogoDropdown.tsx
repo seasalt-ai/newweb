@@ -38,18 +38,32 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
           <div key={index}>
             {product.subProducts ? (
               <div>
-                <a
-                  href={product.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                >
-                  {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
-                  <div>
-                    <div className="font-medium">{product.title}</div>
-                    <div className="text-xs text-gray-500">{product.description}</div>
-                  </div>
-                </a>
+                {product.href.startsWith('/') ? (
+                  <Link
+                    to={currentLanguage === 'en' ? product.href : `/${currentLanguage}${product.href}`}
+                    className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                    onClick={onClose}
+                  >
+                    {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                    <div>
+                      <div className="font-medium">{product.title}</div>
+                      <div className="text-xs text-gray-500">{product.description}</div>
+                    </div>
+                  </Link>
+                ) : (
+                  <a
+                    href={product.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                  >
+                    {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                    <div>
+                      <div className="font-medium">{product.title}</div>
+                      <div className="text-xs text-gray-500">{product.description}</div>
+                    </div>
+                  </a>
+                )}
                 <div className="bg-gray-50 border-t border-gray-100">
                   {product.subProducts.map((subProduct, subIndex) => (
                     <a

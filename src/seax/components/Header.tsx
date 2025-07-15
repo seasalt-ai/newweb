@@ -176,7 +176,7 @@ const Header = () => {
                   className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
                 >
                   <img 
-                    src="/seax_logo.png" 
+                    src="/seax-logo.png" 
                     alt="SeaX" 
                     className="h-6 sm:h-8 w-auto"
                   />

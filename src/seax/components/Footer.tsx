@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
               <img 
-                src="/seax_logo.png" 
+                src="/seax-logo.png" 
                 alt="SeaX" 
                 className="h-8 w-auto brightness-0 invert"
               />
