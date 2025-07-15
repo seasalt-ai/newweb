@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useRef, useCallback, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown, MessageSquare, Phone, Hash, Building2, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, Vote, Heart, DollarSign } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 // Custom WhatsApp icon component
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -19,17 +20,32 @@ import ProductLogoDropdown from '../../components/ProductLogoDropdown';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isChannelsOpen, setIsChannelsOpen] = useState(false);
-  const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
-  const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
-  const [isSeaXDropdownOpen, setIsSeaXDropdownOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const { i18n } = useTranslation();
   const location = useLocation();
   const currentLanguage = i18n.language;
+  
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  const handleMouseEnter = useCallback((dropdown: string) => {
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+    }
+    setOpenDropdown(dropdown);
+  }, []);
+  
+  const handleMouseLeave = useCallback(() => {
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+    }
+    hoverTimeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 100);
+  }, []);
 
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
-  const navigation = [
+  const navigation = useMemo(() => [
     { name: 'Features', href: getLocalizedPath('/features') },
     {
       name: 'Channels',
@@ -138,41 +154,28 @@ const Header = () => {
       ]
     },
     { name: 'Pricing', href: getLocalizedPath('/pricing') }
-  ];
+  ], [currentLanguage]);
 
   const isActivePath = (path: string) => {
     return location.pathname === path;
   };
 
-  const handleDropdownToggle = (dropdown: string) => {
-    if (dropdown === 'channels') {
-      setIsChannelsOpen(!isChannelsOpen);
-      setIsSolutionsOpen(false);
-      setIsIndustriesOpen(false);
-      setIsSeaXDropdownOpen(false);
-    } else if (dropdown === 'solutions') {
-      setIsSolutionsOpen(!isSolutionsOpen);
-      setIsChannelsOpen(false);
-      setIsIndustriesOpen(false);
-      setIsSeaXDropdownOpen(false);
-    } else if (dropdown === 'industries') {
-      setIsIndustriesOpen(!isIndustriesOpen);
-      setIsChannelsOpen(false);
-      setIsSolutionsOpen(false);
-      setIsSeaXDropdownOpen(false);
-    }
-  };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <>
+      <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center relative">
-              <div className="relative">
+              <div 
+                className="relative"
+                onMouseEnter={() => handleMouseEnter('logo')}
+                onMouseLeave={handleMouseLeave}
+              >
                 <button
-                  onClick={() => setIsSeaXDropdownOpen(!isSeaXDropdownOpen)}
+                  onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
                   className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
                 >
                   <img 
@@ -183,8 +186,8 @@ const Header = () => {
                   <ChevronDown className="w-4 h-4 text-gray-600" />
                 </button>
                 <ProductLogoDropdown
-                  isOpen={isSeaXDropdownOpen}
-                  onClose={() => setIsSeaXDropdownOpen(false)}
+                  isOpen={openDropdown === 'logo'}
+                  onClose={() => setOpenDropdown(null)}
                   currentLanguage={currentLanguage}
                 />
               </div>
@@ -196,9 +199,13 @@ const Header = () => {
             {navigation.map((item) => (
               <div key={item.name} className="relative">
                 {item.dropdown ? (
-                  <div className="relative">
+                  <div 
+                    className="relative"
+                    onMouseEnter={() => handleMouseEnter(item.name.toLowerCase())}
+                    onMouseLeave={handleMouseLeave}
+                  >
                     <button
-                      onClick={() => handleDropdownToggle(item.name.toLowerCase())}
+                      onClick={() => setOpenDropdown(openDropdown === item.name.toLowerCase() ? null : item.name.toLowerCase())}
                       className={`flex items-center space-x-1 text-gray-700 hover:text-blue-600 font-medium transition-colors ${
                         isActivePath(item.href) ? 'text-blue-600' : ''
                       }`}
@@ -206,43 +213,47 @@ const Header = () => {
                       <span>{item.name}</span>
                       <ChevronDown className="w-4 h-4" />
                     </button>
-                    {((item.name === 'Channels' && isChannelsOpen) ||
-                      (item.name === 'Solutions' && isSolutionsOpen) ||
-                      (item.name === 'Industries' && isIndustriesOpen)) && (
-                      <div className="absolute top-full left-0 mt-2 w-72 bg-white rounded-md shadow-lg py-2 z-50">
-                        {item.dropdown.map((subItem) => (
-                          <Link
-                            key={subItem.name}
-                            to={subItem.href}
-                            className={`flex items-center px-4 py-2 text-sm hover:bg-gray-50 hover:text-blue-600 transition-colors ${
-                              subItem.isParent 
-                                ? 'text-gray-900 font-medium border-b border-gray-100 bg-gray-50' 
-                                : subItem.isChild 
-                                  ? 'text-gray-600 pl-8' 
-                                  : 'text-gray-700'
-                            }`}
-                            onClick={() => {
-                              setIsChannelsOpen(false);
-                              setIsSolutionsOpen(false);
-                              setIsIndustriesOpen(false);
-                            }}
-                          >
-                            {subItem.icon && (
-                              <div className="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0">
-                                {subItem.iconText ? (
-                                  <span className="text-xs font-mono font-bold text-blue-600">
-                                    {subItem.iconText}
-                                  </span>
-                                ) : (
-                                  <subItem.icon className="w-4 h-4 text-blue-600" />
+                    <AnimatePresence>
+                      {openDropdown === item.name.toLowerCase() && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.2 }}
+                          className="absolute top-full left-0 pt-2 w-72 z-[60]"
+                        >
+                          <div className="bg-white rounded-md shadow-lg py-2">
+                            {item.dropdown.map((subItem) => (
+                              <Link
+                                key={subItem.name}
+                                to={subItem.href}
+                                className={`flex items-center px-4 py-2 text-sm hover:bg-gray-50 hover:text-blue-600 transition-colors ${
+                                  subItem.isParent 
+                                    ? 'text-gray-900 font-medium border-b border-gray-100 bg-gray-50' 
+                                    : subItem.isChild 
+                                      ? 'text-gray-600 pl-8' 
+                                      : 'text-gray-700'
+                                }`}
+                                onClick={() => setOpenDropdown(null)}
+                              >
+                                {subItem.icon && (
+                                  <div className="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0">
+                                    {subItem.iconText ? (
+                                      <span className="text-xs font-mono font-bold text-blue-600">
+                                        {subItem.iconText}
+                                      </span>
+                                    ) : (
+                                      <subItem.icon className="w-4 h-4 text-blue-600" />
+                                    )}
+                                  </div>
                                 )}
-                              </div>
-                            )}
-                            <span>{subItem.name}</span>
-                          </Link>
-                        ))}
-                      </div>
-                    )}
+                                <span>{subItem.name}</span>
+                              </Link>
+                            ))}
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </div>
                 ) : (
                   <Link
@@ -289,7 +300,7 @@ const Header = () => {
                   {item.dropdown ? (
                     <div>
                       <button
-                        onClick={() => handleDropdownToggle(item.name.toLowerCase())}
+                        onClick={() => setOpenDropdown(openDropdown === item.name.toLowerCase() ? null : item.name.toLowerCase())}
                         className="w-full text-left block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
                       >
                         <div className="flex items-center justify-between">
@@ -297,9 +308,7 @@ const Header = () => {
                           <ChevronDown className="w-4 h-4" />
                         </div>
                       </button>
-                      {((item.name === 'Channels' && isChannelsOpen) ||
-                        (item.name === 'Solutions' && isSolutionsOpen) ||
-                        (item.name === 'Industries' && isIndustriesOpen)) && (
+                      {openDropdown === item.name.toLowerCase() && (
                         <div className="pl-4">
                           {item.dropdown.map((subItem) => (
                             <Link
@@ -314,9 +323,7 @@ const Header = () => {
                               }`}
                               onClick={() => {
                                 setIsMenuOpen(false);
-                                setIsChannelsOpen(false);
-                                setIsSolutionsOpen(false);
-                                setIsIndustriesOpen(false);
+                                setOpenDropdown(null);
                               }}
                             >
                               {subItem.icon && (
@@ -362,15 +369,16 @@ const Header = () => {
           </div>
         )}
       </div>
+      </header>
       
-      {/* Backdrop for dropdown */}
-      {isSeaXDropdownOpen && (
+      {/* Backdrop for dropdowns - outside header to prevent re-renders */}
+      {openDropdown && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-10 z-40"
-          onClick={() => setIsSeaXDropdownOpen(false)}
+          onClick={() => setOpenDropdown(null)}
         />
       )}
-    </header>
+    </>
   );
 };
 

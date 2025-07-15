@@ -140,7 +140,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
           <div className="flex-shrink-0">
-            <div className="relative">
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsLogoDropdownOpen(true)}
+              onMouseLeave={() => setIsLogoDropdownOpen(false)}
+            >
               <button 
                 onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
                 className="flex items-center hover:opacity-90 transition-opacity"

@@ -31,7 +31,11 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
   };
 
   return (
-    <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+    <div className="absolute top-full left-0 w-80 z-50">
+      {/* Invisible bridge to prevent gap */}
+      <div className="h-2 w-full" />
+      {/* Actual dropdown content */}
+      <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
       {/* Main Site Link */}
       <Link
         to={getMainSiteLink()}
@@ -122,6 +126,7 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
             )}
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
