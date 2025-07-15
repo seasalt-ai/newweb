@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star } from 'lucide-react';
+import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones } from 'lucide-react';
 import VoiceDemo from '../components/VoiceDemo';
 
 const HomePage = () => {
@@ -122,7 +122,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
 
       {/* Problem/Solution Section */}
       <section className="py-20 bg-gray-50">
@@ -279,6 +278,90 @@ const HomePage = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* SeaChat Capabilities Section */}
+      <section className="py-16 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold mb-4">
+              Capabilities of SeaVoice is brought to you by{' '}
+              <span className="text-teal-400">SeaChat</span>
+            </h2>
+            <p className="text-xl text-gray-300">
+              An omni-channel and multi-modal no-code agent platform
+            </p>
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20"
+          >
+            <h3 className="text-2xl font-semibold text-center mb-8">
+              One Team, Working Together for You
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="text-center"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-teal-500/20 rounded-full flex items-center justify-center">
+                    <Bot className="w-10 h-10 text-teal-400" />
+                  </div>
+                </div>
+                <h4 className="text-lg font-semibold mb-2">Chat AI Agent</h4>
+                <p className="text-gray-300">Instant responses across web, mobile, and messaging platforms</p>
+              </motion.div>
+              
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="text-center"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center">
+                    <Users className="w-10 h-10 text-blue-400" />
+                  </div>
+                </div>
+                <h4 className="text-lg font-semibold mb-2">Human Agent</h4>
+                <p className="text-gray-300">Seamless handoff for complex queries that need a human touch</p>
+              </motion.div>
+              
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="text-center"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-purple-500/20 rounded-full flex items-center justify-center">
+                    <Headphones className="w-10 h-10 text-purple-400" />
+                  </div>
+                </div>
+                <h4 className="text-lg font-semibold mb-2">Voice AI Agent</h4>
+                <p className="text-gray-300">Natural phone conversations powered by advanced voice AI</p>
+              </motion.div>
+            </div>
+            
+            <div className="mt-8 text-center">
+              <a 
+                href="/seachat"
+                className="inline-flex items-center text-teal-400 hover:text-teal-300 font-semibold transition-colors"
+              >
+                Learn more about SeaChat
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </a>
+            </div>
+          </motion.div>
         </div>
       </section>
 

@@ -127,9 +127,6 @@ const Header = () => {
       hasDropdown: true
     },
     { name: 'Pricing', href: '/seavoice/pricing' },
-    { name: 'Developers', href: '/seavoice/developers' },
-    { name: 'Resources', href: '/seavoice/resources' },
-    { name: 'Company', href: '/seavoice/company' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -307,31 +304,16 @@ const Header = () => {
             </div>
         
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
+              href="https://chat.seasalt.ai/gpt/signin"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
-              Contact Sales
+              Sign In
             </a>
-            <Link
-              to="/seavoice/login"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              Login
-            </Link>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://chat.seasalt.ai/gpt/signup"
+              className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-medium transition-all transform hover:scale-105"
             >
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
-              >
-                Book a Demo
-              </motion.button>
+              Get Started
             </a>
           </div>
 
@@ -384,26 +366,16 @@ const Header = () => {
 
             <div className="mt-4 pt-4 border-t border-gray-200 space-y-2">
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://chat.seasalt.ai/gpt/signin"
                 className="block px-3 py-2 text-base font-medium text-gray-700"
               >
-                Contact Sales
+                Sign In
               </a>
-              <Link
-                to="/seavoice/login"
-                className="block px-3 py-2 text-base font-medium text-gray-700"
-              >
-                Login
-              </Link>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-blue-700 transition-colors text-center block"
+                href="https://chat.seasalt.ai/gpt/signup"
+                className="w-full bg-teal-500 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-teal-600 transition-colors text-center block"
               >
-                Book a Demo
+                Get Started
               </a>
             </div>
           </motion.div>

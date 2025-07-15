@@ -1,4 +1,5 @@
-import { Phone, Mail, MapPin, MessageSquare, BarChart3 } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, BarChart3, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter } from 'lucide-react';
+import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { products } from '../data/productsData';
@@ -6,7 +7,8 @@ import { solutions } from '../data/solutionsData';
 import { industries } from '../data/industriesData';
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -41,16 +43,16 @@ const Footer = () => {
             </div>
             <div className="flex space-x-4 mt-6">
               <a href="https://www.linkedin.com/company/seasalt-ai/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-linkedin text-xl"></i>
+                <Linkedin className="w-5 h-5" />
               </a>
               <a href="https://www.youtube.com/@seasaltai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-youtube text-xl"></i>
+                <Youtube className="w-5 h-5" />
               </a>
               <a href="https://twitter.com/SeasaltAI" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-twitter text-xl"></i>
+                <Twitter className="w-5 h-5" />
               </a>
               <a href="https://discord.gg/VgAWg3c7rU" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
-                <i className="fab fa-discord text-xl"></i>
+                <FaDiscord className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -189,6 +191,11 @@ const Footer = () => {
                   Help Center
                 </a>
               </li>
+              <li>
+                <Link to={`/${currentLanguage}/company`} className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.company.about')}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -220,7 +227,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center mt-4">
-            <p className="text-gray-300 text-sm">Made with <i className="fa fa-heart"></i> in the city of <i className="fa fa-coffee"></i> <i className="fa fa-umbrella"></i> <i className="fa fa-plane"></i> <i className="fa fa-diamond"></i></p>
+            <p className="text-gray-300 text-sm">
+              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
+              <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
+              <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
+              <Plane className="inline w-4 h-4 text-gray-500" />{' '}
+              <Gem className="inline w-4 h-4 text-fuchsia-500" />
+            </p>
           </div>
         </div>
       </div>

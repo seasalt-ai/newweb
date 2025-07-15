@@ -55,6 +55,7 @@ import SeaHealth from './pages/SeaHealth';
 import SeaChatRouter from './components/SeaChatRouter';
 import SeaXRouter from './seax/utils/SeaXRouter';
 import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
+import CompanyPage from './pages/CompanyPage';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
@@ -196,9 +197,11 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
           <Route path="seahealth" element={<SeaHealth />} />
+          <Route path="company" element={<CompanyPage />} />
         </Route>
-      <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
+        <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />
+        <Route path="company" element={<CompanyPage />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
         </Routes>

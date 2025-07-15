@@ -1,13 +1,10 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HomePage from '../pages/HomePage';
 import PlatformPage from '../pages/PlatformPage';
 import SolutionsPage from '../pages/SolutionsPage';
 import PricingPage from '../pages/PricingPage';
-import DevelopersPage from '../pages/DevelopersPage';
-import ResourcesPage from '../pages/ResourcesPage';
-import CompanyPage from '../pages/CompanyPage';
 import LandlineMobilePage from '../pages/platform/LandlineMobilePage';
 import VoipSipByocPage from '../pages/platform/VoipSipByocPage';
 import LineCallPlusPage from '../pages/platform/LineCallPlusPage';
@@ -72,9 +69,7 @@ const SeaVoiceRouter = () => {
           <Route path="/solutions/outbound/surveys" element={<CustomerSurveysPage />} />
           <Route path="/solutions/outbound/fraud-alerts" element={<FraudAlertsPage />} />
           <Route path="/pricing" element={<PricingPage />} />
-          <Route path="/developers" element={<DevelopersPage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
-          <Route path="/company" element={<CompanyPage />} />
+          <Route path="/company/*" element={<Navigate to="/company" replace />} />
         </Routes>
       </main>
       <Footer />
