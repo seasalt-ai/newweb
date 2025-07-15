@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Mic, ChevronDown, PhoneIncoming, PhoneOutgoing } from 'lucide-react';
+import { Menu, X, ChevronDown, PhoneIncoming, PhoneOutgoing } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
@@ -106,10 +106,16 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/seavoice" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-              <Mic className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">SeaVoice</span>
+            <img 
+              src="/seavoice-icon.png" 
+              alt="SeaVoice Icon" 
+              className="w-8 h-8" 
+            />
+            <img 
+              src="/seavoice-logo.png" 
+              alt="SeaVoice Logo" 
+              className="h-8" 
+            />
           </Link>
 
           {/* Desktop Navigation */}
