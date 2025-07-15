@@ -48,27 +48,27 @@ const Header = () => {
   const { i18n } = useTranslation();
 
   const inboundSolutions = [
-    { name: '24/7 Virtual Assistant', href: '/seavoice/solutions/inbound/virtual-assistant', icon: Bot },
-    { name: 'Smart Call Transfer', href: '/seavoice/solutions/inbound/call-transfer', icon: ArrowRightLeft },
-    { name: 'IVR Replacement', href: '/seavoice/solutions/inbound/ivr-replacement', icon: Zap },
-    { name: 'Mental Health Companion', href: '/seavoice/solutions/inbound/mental-health', icon: Heart },
-    { name: 'Scam Shield Protection', href: '/seavoice/solutions/inbound/scam-shield', icon: Shield },
-    { name: 'Technical Support', href: '/seavoice/solutions/inbound/technical-support', icon: Headphones },
-    { name: 'Order Status & Tracking', href: '/seavoice/solutions/inbound/order-tracking', icon: Package },
-    { name: 'Payment Processing', href: '/seavoice/solutions/inbound/payment-processing', icon: CreditCard },
-    { name: 'Appointment Booking', href: '/seavoice/solutions/inbound/appointment-booking', icon: Calendar },
+    { name: '24/7 Virtual Assistant', href: `/${i18n.language}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
+    { name: 'Smart Call Transfer', href: `/${i18n.language}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
+    { name: 'IVR Replacement', href: `/${i18n.language}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
+    { name: 'Mental Health Companion', href: `/${i18n.language}/seavoice/solutions/inbound/mental-health`, icon: Heart },
+    { name: 'Scam Shield Protection', href: `/${i18n.language}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
+    { name: 'Technical Support', href: `/${i18n.language}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
+    { name: 'Order Status & Tracking', href: `/${i18n.language}/seavoice/solutions/inbound/order-tracking`, icon: Package },
+    { name: 'Payment Processing', href: `/${i18n.language}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
+    { name: 'Appointment Booking', href: `/${i18n.language}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
   ];
 
   const outboundSolutions = [
-    { name: 'Lead Generation & Qualification', href: '/seavoice/solutions/outbound/lead-generation', icon: Target },
-    { name: 'Collections Service', href: '/seavoice/solutions/outbound/collections', icon: DollarSign },
-    { name: 'Customer Reactivation', href: '/seavoice/solutions/outbound/reactivation', icon: UserCheck },
-    { name: 'Senior Check Calls', href: '/seavoice/solutions/outbound/senior-checks', icon: Clock },
-    { name: 'Large Scale Campaigns', href: '/seavoice/solutions/outbound/campaigns', icon: Megaphone },
-    { name: 'Proactive Support', href: '/seavoice/solutions/outbound/proactive-support', icon: Headset },
-    { name: 'Subscription Renewals', href: '/seavoice/solutions/outbound/renewals', icon: RefreshCw },
-    { name: 'Customer Surveys', href: '/seavoice/solutions/outbound/surveys', icon: FileText },
-    { name: 'Fraud Alerts', href: '/seavoice/solutions/outbound/fraud-alerts', icon: AlertTriangle },
+    { name: 'Lead Generation & Qualification', href: `/${i18n.language}/seavoice/solutions/outbound/lead-generation`, icon: Target },
+    { name: 'Collections Service', href: `/${i18n.language}/seavoice/solutions/outbound/collections`, icon: DollarSign },
+    { name: 'Customer Reactivation', href: `/${i18n.language}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
+    { name: 'Senior Check Calls', href: `/${i18n.language}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
+    { name: 'Large Scale Campaigns', href: `/${i18n.language}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
+    { name: 'Proactive Support', href: `/${i18n.language}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
+    { name: 'Subscription Renewals', href: `/${i18n.language}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
+    { name: 'Customer Surveys', href: `/${i18n.language}/seavoice/solutions/outbound/surveys`, icon: FileText },
+    { name: 'Fraud Alerts', href: `/${i18n.language}/seavoice/solutions/outbound/fraud-alerts`, icon: AlertTriangle },
   ];
 
   const changeLanguage = (languageCode: string) => {
@@ -108,25 +108,25 @@ const Header = () => {
   const navigation = [
     { 
       name: 'Platform', 
-      href: '/seavoice/platform',
+      href: `/${i18n.language}/seavoice/platform`,
       hasDropdown: true,
       dropdownItems: [
-        { name: 'Platform Overview', href: '/seavoice/platform', icon: Monitor },
-        { name: 'Landline & Mobile Voice', href: '/seavoice/platform/landline-mobile', icon: Phone },
-        { name: 'VoIP & SIP & BYOC Voice', href: '/seavoice/platform/voip-sip-byoc', icon: Wifi },
-        { name: 'Line Call Plus for Businesses', href: '/seavoice/platform/line-call-plus', icon: MessageSquare },
-        { name: 'WhatsApp Voice API for Businesses', href: '/seavoice/platform/whatsapp-voice', icon: MessageSquare },
-        { name: 'Speech To Text', href: '/seavoice/platform/speech-to-text', icon: MicOff },
-        { name: 'Text To Speech', href: '/seavoice/platform/text-to-speech', icon: Mic },
-        { name: 'End To End LLMs', href: '/seavoice/platform/end-to-end-llms', icon: Brain },
+        { name: 'Platform Overview', href: `/${i18n.language}/seavoice/platform`, icon: Monitor },
+        { name: 'Landline & Mobile Voice', href: `/${i18n.language}/seavoice/platform/landline-mobile`, icon: Phone },
+        { name: 'VoIP & SIP & BYOC Voice', href: `/${i18n.language}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
+        { name: 'Line Call Plus for Businesses', href: `/${i18n.language}/seavoice/platform/line-call-plus`, icon: MessageSquare },
+        { name: 'WhatsApp Voice API for Businesses', href: `/${i18n.language}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
+        { name: 'Speech To Text', href: `/${i18n.language}/seavoice/platform/speech-to-text`, icon: MicOff },
+        { name: 'Text To Speech', href: `/${i18n.language}/seavoice/platform/text-to-speech`, icon: Mic },
+        { name: 'End To End LLMs', href: `/${i18n.language}/seavoice/platform/end-to-end-llms`, icon: Brain },
       ]
     },
     { 
       name: 'Solutions', 
-      href: '/seavoice/solutions',
+      href: `/${i18n.language}/seavoice/solutions`,
       hasDropdown: true
     },
-    { name: 'Pricing', href: '/seavoice/pricing' },
+    { name: 'Pricing', href: `/${i18n.language}/seavoice/pricing` },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -264,7 +264,7 @@ const Header = () => {
                     {/* View All Solutions Link */}
                     <div className="mt-4 pt-3 border-t border-gray-100 px-4">
                       <Link
-                        to="/seavoice/solutions"
+                        to={`/${i18n.language}/seavoice/solutions`}
                         className="block text-center py-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
                       >
                         View All Solutions →
