@@ -72,13 +72,19 @@ const LineCallPlusPage = () => {
               Transform your LINE Business account with AI-powered voice calling. 
               Connect with customers across Asia-Pacific markets through their preferred messaging platform.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Start LINE Integration
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
+              >
+                Start LINE Integration
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -375,13 +381,19 @@ const LineCallPlusPage = () => {
             <p className="text-xl mb-8 opacity-90">
               Connect with millions of LINE users and transform your customer engagement across key Asian markets
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Start LINE Integration
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                Start LINE Integration
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>

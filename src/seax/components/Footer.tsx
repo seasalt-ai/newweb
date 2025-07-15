@@ -58,7 +58,7 @@ const Footer = () => {
               <img 
                 src="/seax_logo.png" 
                 alt="SeaX" 
-                className="h-8 w-auto"
+                className="h-8 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">

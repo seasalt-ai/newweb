@@ -45,7 +45,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-8" />
+              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-8 brightness-0 invert" />
             </div>
             
             <p className="text-gray-400 mb-6 leading-relaxed">

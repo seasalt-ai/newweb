@@ -83,13 +83,19 @@ const SpeechToTextPage = () => {
               Industry-leading speech recognition with 99%+ accuracy. Convert any audio to text 
               in real-time with support for 50+ languages and specialized industry vocabularies.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Try Speech Recognition
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Try Speech Recognition
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -411,13 +417,19 @@ const SpeechToTextPage = () => {
               Experience the power of industry-leading speech recognition technology
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Try Free Demo
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+                >
+                  Try Free Demo
+                </motion.button>
+              </a>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

@@ -198,7 +198,7 @@ const Header = () => {
               onClick={() => handleDropdownToggle('logo')}
               className="flex items-center hover:opacity-90 transition-opacity"
             >
-              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-10 w-auto" />
+              <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-6 sm:h-8 w-auto flex-shrink-0" />
               <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
             </button>
             {openDropdown === 'logo' && (

@@ -60,13 +60,19 @@ const PlatformPage = () => {
               Discover the technology that powers human-like voice interactions, 
               seamless integrations, and actionable insights for your business.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Explore Platform Capabilities
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Explore Platform Capabilities
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>

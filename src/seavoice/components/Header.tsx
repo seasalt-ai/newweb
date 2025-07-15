@@ -141,100 +141,101 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
-          <div className="relative">
-            <button 
-              onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
-              className="flex items-center hover:opacity-90 transition-opacity"
-            >
-              <img 
-                src="/seavoice-logo.png" 
-                alt="SeaVoice Logo" 
-                className="h-11" 
-                style={{ width: 'auto', maxWidth: 'none' }}
-              />
-              <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
-            </button>
-            {isLogoDropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-                {/* Main Site Link */}
-                <Link
-                  to="/"
-                  className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 border-b border-gray-100"
-                  onClick={() => setIsLogoDropdownOpen(false)}
-                >
-                  <Home className="w-5 h-5 mr-3 text-blue-600" />
-                  <div>
-                    <div className="font-medium text-gray-900">Seasalt.ai Main Site</div>
-                    <div className="text-xs text-gray-500">All products and solutions</div>
-                  </div>
-                </Link>
-                
-                {/* Products */}
-                <div className="py-2">
-                  <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
-                  {products.map((product, index) => (
-                    <div key={index}>
-                      {product.subProducts ? (
-                        <div>
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                          >
-                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
-                            <div>
-                              <div className="font-medium">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
-                            </div>
-                          </a>
-                          <div className="bg-gray-50 border-t border-gray-100">
-                            {product.subProducts.map((subProduct, subIndex) => (
-                              <a
-                                key={subIndex}
-                                href={subProduct.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                              >
-                                {subProduct.title}
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        product.href.startsWith('/') ? (
-                          <Link
-                            to={product.href}
-                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                            onClick={() => setIsLogoDropdownOpen(false)}
-                          >
-                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
-                            <div>
-                              <div className="font-medium">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
-                            </div>
-                          </Link>
-                        ) : (
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                          >
-                            {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
-                            <div>
-                              <div className="font-medium">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
-                            </div>
-                          </a>
-                        )
-                      )}
+          <div className="flex-shrink-0">
+            <div className="relative">
+              <button 
+                onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
+                className="flex items-center hover:opacity-90 transition-opacity"
+              >
+                <img 
+                  src="/seavoice-logo.png" 
+                  alt="SeaVoice Logo" 
+                  className="h-6 sm:h-8 w-auto" 
+                />
+                <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
+              </button>
+              {isLogoDropdownOpen && (
+                <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                  {/* Main Site Link */}
+                  <Link
+                    to="/"
+                    className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 border-b border-gray-100"
+                    onClick={() => setIsLogoDropdownOpen(false)}
+                  >
+                    <Home className="w-5 h-5 mr-3 text-blue-600" />
+                    <div>
+                      <div className="font-medium text-gray-900">Seasalt.ai Main Site</div>
+                      <div className="text-xs text-gray-500">All products and solutions</div>
                     </div>
-                  ))}
+                  </Link>
+                  
+                  {/* Products */}
+                  <div className="py-2">
+                    <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
+                    {products.map((product, index) => (
+                      <div key={index}>
+                        {product.subProducts ? (
+                          <div>
+                            <a
+                              href={product.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            >
+                              {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                              <div>
+                                <div className="font-medium">{product.title}</div>
+                                <div className="text-xs text-gray-500">{product.description}</div>
+                              </div>
+                            </a>
+                            <div className="bg-gray-50 border-t border-gray-100">
+                              {product.subProducts.map((subProduct, subIndex) => (
+                                <a
+                                  key={subIndex}
+                                  href={subProduct.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                                >
+                                  {subProduct.title}
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        ) : (
+                          product.href.startsWith('/') ? (
+                            <Link
+                              to={product.href}
+                              className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                              onClick={() => setIsLogoDropdownOpen(false)}
+                            >
+                              {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                              <div>
+                                <div className="font-medium">{product.title}</div>
+                                <div className="text-xs text-gray-500">{product.description}</div>
+                              </div>
+                            </Link>
+                          ) : (
+                            <a
+                              href={product.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                            >
+                              {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
+                              <div>
+                                <div className="font-medium">{product.title}</div>
+                                <div className="text-xs text-gray-500">{product.description}</div>
+                              </div>
+                            </a>
+                          )
+                        )}
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -379,25 +380,33 @@ const Header = () => {
               )}
             </div>
         
-            <Link
-              to="/seavoice/contact"
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
               Contact Sales
-            </Link>
+            </a>
             <Link
               to="/seavoice/login"
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
               Login
             </Link>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Book a Demo
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+              >
+                Book a Demo
+              </motion.button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -448,21 +457,28 @@ const Header = () => {
             </div>
 
             <div className="mt-4 pt-4 border-t border-gray-200 space-y-2">
-              <Link
-                to="/seavoice/contact"
+              <a
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block px-3 py-2 text-base font-medium text-gray-700"
               >
                 Contact Sales
-              </Link>
+              </a>
               <Link
                 to="/seavoice/login"
                 className="block px-3 py-2 text-base font-medium text-gray-700"
               >
                 Login
               </Link>
-              <button className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-blue-700 transition-colors">
+              <a
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-blue-700 transition-colors text-center block"
+              >
                 Book a Demo
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

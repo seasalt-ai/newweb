@@ -384,20 +384,32 @@ const WhatsAppVoicePage = () => {
               Join thousands of businesses using WhatsApp Voice API to provide exceptional customer experiences
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Get Started Today
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+                >
+                  Get Started Today
+                </motion.button>
+              </a>
+              <a
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Schedule Demo
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
+                >
+                  Schedule Demo
+                </motion.button>
+              </a>
             </div>
           </motion.div>
         </div>

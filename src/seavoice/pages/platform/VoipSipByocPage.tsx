@@ -80,13 +80,19 @@ const VoipSipByocPage = () => {
               Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, 
               direct SIP trunking, or bring your own carrier for complete control.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Talk to Connectivity Specialist
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Talk to Connectivity Specialist
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -314,20 +320,32 @@ const VoipSipByocPage = () => {
               Speak with our connectivity specialists to design the perfect solution for your needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              <a
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Schedule Consultation
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+                >
+                  Schedule Consultation
+                </motion.button>
+              </a>
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                View Technical Docs
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+                >
+                  Sign Up For Free
+                </motion.button>
+              </a>
             </div>
           </motion.div>
         </div>

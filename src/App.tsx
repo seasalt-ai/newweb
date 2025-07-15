@@ -77,7 +77,6 @@ const SeaXRedirect = () => {
 const SeaVoiceRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seavoice', '');
-  console.log('SeaVoiceRedirect called with:', location.pathname, 'redirecting to:', `/${DEFAULT_LANGUAGE}/seavoice${subPath}`);
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
 };
 
@@ -143,12 +142,15 @@ function App() {
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
         ))}
+        {/* SeaVoice routes - handle all seavoice paths */}
+        <Route path="/seavoice" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seavoice`} replace />} />
+        <Route path="/seavoice/:path" element={<SeaVoiceRedirect />} />
+        <Route path="/seavoice/:path/:subpath" element={<SeaVoiceRedirect />} />
+        <Route path="/seavoice/:path/:subpath/:subpath2" element={<SeaVoiceRedirect />} />
         {/* Dynamic SeaVoice routes for all supported languages - Must come before general :lang routes */}
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceRouter />} />
         ))}
-        {/* SeaVoice routes - handle all seavoice paths */}
-        <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
         {/* Language-specific routes - exclude routes that start with seavoice, seachat, seax */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />

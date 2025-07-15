@@ -56,21 +56,33 @@ const HomePage = () => {
                 real-time analytics, and seamless integrations to transform your customer experience.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
+                <a
+                  href="https://chat.seasalt.ai/gpt/signup"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Book a Demo
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors"
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
+                  >
+                    Sign Up For Free
+                    <ArrowRight className="ml-2 w-5 h-5" />
+                  </motion.button>
+                </a>
+                <a
+                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  See The Platform
-                </motion.button>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors"
+                  >
+                    Book a Demo
+                  </motion.button>
+                </a>
               </div>
             </motion.div>
             
@@ -114,25 +126,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Social Proof Bar */}
-      <section className="py-12 bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-gray-600 mb-8">Trusted by industry leaders</p>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            {customerLogos.map((logo, index) => (
-              <motion.div
-                key={logo}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="text-2xl font-bold text-gray-400"
-              >
-                {logo}
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Problem/Solution Section */}
       <section className="py-20 bg-gray-50">
@@ -357,13 +350,19 @@ const HomePage = () => {
             <p className="text-xl mb-8 opacity-90">
               Get a personalized demo and discover how SeaVoice can transform your customer communications
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Book a Demo Today
-            </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                Book a Demo Today
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>
