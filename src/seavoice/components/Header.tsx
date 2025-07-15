@@ -105,16 +105,11 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/seavoice" className="flex items-center space-x-2">
-            <img 
-              src="/seavoice-icon.png" 
-              alt="SeaVoice Icon" 
-              className="w-8 h-8" 
-            />
+          <Link to="/seavoice" className="flex items-center">
             <img 
               src="/seavoice-logo.png" 
               alt="SeaVoice Logo" 
-              className="h-8" 
+              className="h-10" 
             />
           </Link>
 

@@ -1,39 +1,39 @@
 
 import { Link } from 'react-router-dom';
-import { Mic, Linkedin, Twitter, Youtube, Mail } from 'lucide-react';
+import { Linkedin, Twitter, Youtube, Mail } from 'lucide-react';
 
 const Footer = () => {
   const footerLinks = {
     Platform: [
-      { name: 'AI Voice Agents', href: '/platform/voice-agents' },
-      { name: 'Conversational AI', href: '/platform/conversational-ai' },
-      { name: 'Speech-to-Text', href: '/platform/speech-to-text' },
-      { name: 'Telephony & Connectivity', href: '/platform/telephony' },
-      { name: 'Integrations & Channels', href: '/platform/integrations' },
+      { name: 'AI Voice Agents', href: '/seavoice/platform/voice-agents' },
+      { name: 'Conversational AI', href: '/seavoice/platform/conversational-ai' },
+      { name: 'Speech-to-Text', href: '/seavoice/platform/speech-to-text' },
+      { name: 'Telephony & Connectivity', href: '/seavoice/platform/telephony' },
+      { name: 'Integrations & Channels', href: '/seavoice/platform/integrations' },
     ],
     Solutions: [
-      { name: 'Healthcare', href: '/solutions/healthcare' },
-      { name: 'E-commerce', href: '/solutions/ecommerce' },
-      { name: 'Hospitality', href: '/solutions/hospitality' },
-      { name: 'Financial Services', href: '/solutions/financial' },
+      { name: 'Healthcare', href: '/seavoice/solutions/healthcare' },
+      { name: 'E-commerce', href: '/seavoice/solutions/ecommerce' },
+      { name: 'Hospitality', href: '/seavoice/solutions/hospitality' },
+      { name: 'Financial Services', href: '/seavoice/solutions/financial' },
     ],
     Developers: [
-      { name: 'API Docs', href: '/developers/api' },
-      { name: 'Quickstarts', href: '/developers/quickstart' },
-      { name: 'SDKs', href: '/developers/sdks' },
-      { name: 'API Status', href: '/developers/status' },
+      { name: 'API Docs', href: '/seavoice/developers/api' },
+      { name: 'Quickstarts', href: '/seavoice/developers/quickstart' },
+      { name: 'SDKs', href: '/seavoice/developers/sdks' },
+      { name: 'API Status', href: '/seavoice/developers/status' },
     ],
     Resources: [
-      { name: 'Blog', href: '/resources/blog' },
-      { name: 'Case Studies', href: '/resources/case-studies' },
-      { name: 'Analyst Reports', href: '/resources/reports' },
-      { name: 'Webinars', href: '/resources/webinars' },
+      { name: 'Blog', href: '/seavoice/resources/blog' },
+      { name: 'Case Studies', href: '/seavoice/resources/case-studies' },
+      { name: 'Analyst Reports', href: '/seavoice/resources/reports' },
+      { name: 'Webinars', href: '/seavoice/resources/webinars' },
     ],
     Company: [
-      { name: 'About Us', href: '/company/about' },
-      { name: 'Careers', href: '/company/careers' },
-      { name: 'Press', href: '/company/press' },
-      { name: 'Contact Us', href: '/company/contact' },
+      { name: 'About Us', href: '/seavoice/company/about' },
+      { name: 'Careers', href: '/seavoice/company/careers' },
+      { name: 'Press', href: '/seavoice/company/press' },
+      { name: 'Contact Us', href: '/seavoice/company/contact' },
     ],
   };
 
@@ -43,11 +43,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-                <Mic className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-bold">SeaVoice</span>
+            <Link to="/seavoice" className="flex items-center mb-4">
+              <img 
+                src="/seavoice-logo.png" 
+                alt="SeaVoice Logo" 
+                className="h-8 brightness-0 invert" 
+              />
             </Link>
             <p className="text-gray-400 mb-4">
               Automate 80% of customer calls with AI voice agents that sound human and integrate seamlessly with your business.
@@ -114,13 +115,13 @@ const Footer = () => {
             <p>Seasalt.ai Headquarters: Redmond, WA</p>
           </div>
           <div className="flex space-x-6 text-sm text-gray-400">
-            <Link to="/legal/privacy" className="hover:text-white transition-colors">
+            <Link to="/seavoice/legal/privacy" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
-            <Link to="/legal/terms" className="hover:text-white transition-colors">
+            <Link to="/seavoice/legal/terms" className="hover:text-white transition-colors">
               Terms of Service
             </Link>
-            <Link to="/legal/security" className="hover:text-white transition-colors">
+            <Link to="/seavoice/legal/security" className="hover:text-white transition-colors">
               Security
             </Link>
           </div>
