@@ -141,12 +141,12 @@ function App() {
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
         ))}
-        {/* SeaVoice routes - handle all seavoice paths */}
-        <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
-        {/* Dynamic SeaVoice routes for all supported languages */}
+        {/* Dynamic SeaVoice routes for all supported languages - Must come before general :lang routes */}
         {SUPPORTED_LANGUAGES.map(lang => (
           <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceRouter />} />
         ))}
+        {/* SeaVoice routes - handle all seavoice paths */}
+        <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
         {/* Language-specific routes */}
         <Route path=":lang" element={<LanguageRouter />}>
           <Route index element={<HomePage />} />
