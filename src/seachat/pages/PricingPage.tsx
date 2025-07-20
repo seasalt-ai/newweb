@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, Star, Zap, ArrowRight } from 'lucide-react';
+import { Check, Zap, ArrowRight } from 'lucide-react';
 import SupportPlan from '../../components/SupportPlan';
 
 const PricingPage = () => {
@@ -66,12 +66,6 @@ const PricingPage = () => {
     return humanAgentCost + aiAgentCost + workspaceCost;
   };
 
-  const getTotalMonthlyCost = () => {
-    const licenseCost = billingCycle === 'yearly' ? 299 / 12 : 29.99;
-    const usageCost = calculateUsageCost();
-    const addonsCost = calculateAddonsCost();
-    return licenseCost + usageCost + addonsCost;
-  };
 
   const getCalculatorTotalCost = () => {
     const licenseCost = calculatorBilling === 'yearly' ? 299 : 29.99;

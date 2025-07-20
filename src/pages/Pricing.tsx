@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, Star, ChevronDown, Users, Building2, Sparkles, MessageSquare, Phone, Bot, Instagram, Facebook, Monitor, Gift } from 'lucide-react';
+import { Check, Star, ChevronDown, Users, Building2, Sparkles, MessageSquare, Phone, Instagram, Facebook, Monitor, Gift } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';
@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 
 const PricingPage = () => {
   const { i18n } = useTranslation();
-  const [isAnnualBilling, setIsAnnualBilling] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   
   // Generate canonical URL for SEO
@@ -16,66 +15,6 @@ const PricingPage = () => {
     ? `${window.location.origin}/${i18n.language}/pricing` 
     : `/${i18n.language}/pricing`;
 
-  const plans = [
-    {
-      name: 'Live Agent',
-      price: '$0',
-      period: 'forever',
-      tagline: 'Truly Free, Forever. Perfect for getting started.',
-      description: 'Perfect for getting started. Unify your inbox with 1 human agent.',
-      features: [
-        '1 Human Agent',
-        'Unlimited Human Agent Chats',
-        'WhatsApp/Messenger/LINE/Webchat',
-        'Basic Integrations (Shopify, etc.)',
-        'Email support'
-      ],
-      cta: 'Sign Up',
-      ctaStyle: 'bg-gray-600 hover:bg-gray-700 text-white',
-      popular: false
-    },
-    {
-      name: 'Professional',
-      price: isAnnualBilling ? '$40' : '$50',
-      period: 'per month',
-      additionalPrice: isAnnualBilling ? '+ $20/month for each additional agent' : '+ $25/month for each additional agent',
-      tagline: 'The complete, unified solution for growing businesses.',
-      description: 'Everything you need to automate and scale your customer communications.',
-      features: [
-        'Everything in Live Agent',
-        'AI Automation (Voicebot & Chatbot)',
-        'All Communication Channels (including Phone Calls)',
-        'Outbound Marketing Campaigns',
-        'CRM Integrations (HubSpot, Salesforce)',
-        'Advanced analytics & reporting',
-        'Priority support',
-        'HIPAA compliance available'
-      ],
-      cta: 'Get Started',
-      ctaStyle: 'bg-blue-600 hover:bg-blue-700 text-white',
-      popular: true
-    },
-    {
-      name: 'Enterprise',
-      price: 'Let\'s Talk',
-      period: '',
-      tagline: 'For teams with custom needs.',
-      description: 'For larger teams with specific needs like advanced compliance or custom integrations.',
-      features: [
-        'Everything in Professional',
-        'HIPAA Compliance',
-        'Custom Integrations',
-        'Dedicated Account Manager',
-        'Custom AI training',
-        'White-label options',
-        'SLA guarantees',
-        'On-premise deployment options'
-      ],
-      cta: 'Contact Sales',
-      ctaStyle: 'border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600',
-      popular: false
-    }
-  ];
 
   const competitors = [
     {
