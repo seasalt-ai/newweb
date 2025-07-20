@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import { Check, X, Star } from 'lucide-react';
 import SupportPlan from '../../components/SupportPlan';
+import PriceCalculator from '../components/PriceCalculator';
 
 const PricingPage = () => {
   const plans = [
@@ -174,9 +175,9 @@ const PricingPage = () => {
                   <div className="mb-4">
                     {plan.name === 'Custom Plan' ? (
                       <div className="py-4">
-                        <button className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all">
-                          Contact Us
-                        </button>
+                        <div className="text-2xl font-semibold">
+                          Let's build a project
+                        </div>
                       </div>
                     ) : (
                       <div>
@@ -197,7 +198,7 @@ const PricingPage = () => {
                 <div className="bg-white p-6">
                   <p className="text-gray-600 mb-6">{plan.description}</p>
                   
-                  <div className="max-h-96 overflow-y-auto">
+                  <div>
                     <ul className="space-y-2">
                       {plan.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="">
@@ -229,6 +230,9 @@ const PricingPage = () => {
                       >
                         {plan.cta}
                       </a>
+                      <p className="text-xs text-gray-500 text-center mt-2">
+                        {plan.name === 'Inbound Only' ? 'Powered by SeaChat' : 'Powered by SeaX + SeaChat'}
+                      </p>
                     </div>
                   )}
                   
@@ -250,6 +254,9 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Price Calculator */}
+      <PriceCalculator />
 
       {/* Product Relationship Section */}
       <section className="py-16 bg-blue-50">
