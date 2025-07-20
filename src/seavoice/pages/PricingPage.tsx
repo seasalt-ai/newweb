@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { Check, X, Star } from 'lucide-react';
+import SupportPlan from '../../components/SupportPlan';
 
 const PricingPage = () => {
   const plans = [
@@ -234,6 +235,9 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Support Plan */}
+      <SupportPlan />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">

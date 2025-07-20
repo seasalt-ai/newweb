@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ROICalculator from '../components/ROICalculator';
+import SupportPlan from '../../components/SupportPlan';
 import { useTranslation } from 'react-i18next';
 import { 
   Check, 
@@ -387,6 +388,9 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+
+      {/* Support Plan */}
+      <SupportPlan />
 
       {/* CTA Section */}
       <div className="py-20 bg-blue-600">

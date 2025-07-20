@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Check, Star, Zap, ArrowRight } from 'lucide-react';
+import SupportPlan from '../../components/SupportPlan';
 
 const PricingPage = () => {
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
@@ -721,6 +722,9 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Support Plan */}
+      <SupportPlan />
 
       {/* Enterprise CTA */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-indigo-600">
