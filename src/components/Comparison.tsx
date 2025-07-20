@@ -8,7 +8,7 @@ const Comparison = () => {
   const competitors = [
     {
       name: 'Seasalt.ai',
-      startingPrice: '$25/agent/mo',
+      startingPrice: '$20/agent/mo',
       pricingModel: 'Simple Per-User',
       unifiedVoiceDigital: '✅ Yes, Native',
       aiCapabilities: '✅ Yes, Native Voice & Chatbots',
