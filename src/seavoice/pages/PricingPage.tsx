@@ -6,72 +6,81 @@ import SupportPlan from '../../components/SupportPlan';
 const PricingPage = () => {
   const plans = [
     {
-      name: 'Starter',
-      price: 'Free',
-      period: 'trial',
-      description: 'Perfect for testing and small-scale implementations',
+      name: 'Inbound Only',
+      price: '$29.99',
+      period: '/month',
+      description: 'Ideal for businesses needing an inbound call solution with Voice AI (based on SeaChat Premium plan)',
       features: [
-        '250 included minutes',
-        '$0.12 per additional minute',
-        'Basic CRM integration',
-        'Standard voice profiles',
-        'Email support',
-        'Basic analytics',
+        'AI-based call handling (inbound calls only)',
+        'Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)',
+        'Phone number included ($2-$3/month with E911 address)',
+        'Call recording and summary',
+        'Transfer to human agent support',
+        'Multi-language voice support',
+        '10+ Speech-To-Text languages',
+        '10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI',
+        'CRM integrations (Salesforce, HubSpot)',
+        'Calendar integration (Google, Outlook)',
+        'Call analytics and reporting',
+        'Email notifications for calls'
       ],
       limitations: [
-        'Limited to 2 concurrent calls',
-        'No voice cloning',
-        'No white-label options',
+        'No outbound calling capabilities',
+        'No bulk campaign features'
       ],
-      cta: 'Sign Up For Free',
-      ctaUrl: 'https://chat.seasalt.ai/gpt/signup',
+      cta: 'Start with Inbound Only',
+      ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
       popular: false,
     },
     {
-      name: 'Pro',
-      price: '$299',
+      name: 'Inbound + Outbound',
+      price: '$99',
       period: '/month',
-      description: 'Ideal for growing businesses with higher call volumes',
+      description: 'Perfect for large-scale voice AI campaigns (equivalent to SeaX Omni-channel plan for first user)',
       features: [
-        '1,000+ included minutes',
-        '$0.10 per additional minute',
-        'Advanced CRM integration',
-        'Custom voice profiles',
-        'Voice cloning (2 voices)',
-        'Multi-language support',
-        'Priority support',
-        'Advanced analytics',
-        'API access',
+        'Everything in Inbound Only plan',
+        'Outbound calling and campaigns',
+        'Bulk voice AI campaigns',
+        'Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)',
+        'Additional users: $49/month each',
+        'Multiple phone numbers supported',
+        'Campaign scheduling and automation',
+        'Advanced call routing',
+        'Custom voice training',
+        'Voicemail drop capability ($0.05 per drop)',
+        'RESTful API access',
+        'SeaChat integration for multi-channel support',
+        'Advanced analytics dashboard',
+        'Priority support'
       ],
-      limitations: [
-        'Limited to 25 concurrent calls',
-        'No dedicated account manager',
-      ],
-      cta: 'Choose Pro',
-      ctaUrl: 'https://chat.seasalt.ai/gpt/signup',
+      limitations: [],
+      cta: 'Start with Inbound + Outbound',
+      ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
       popular: true,
     },
     {
-      name: 'Enterprise',
-      price: 'Custom',
-      period: 'pricing',
-      description: 'For large organizations requiring maximum flexibility',
+      name: 'Custom Plan',
+      price: 'Contact Us',
+      period: '',
+      description: 'Bespoke solutions tailored to specific business needs (similar to SeaChat/SeaX Enterprise plans)',
       features: [
-        'Unlimited minutes',
-        'Custom pricing per minute',
+        'Everything in Inbound + Outbound plan',
+        'Multiple workspaces (perfect for agencies)',
+        'Each workspace has multiple AI agents and phone numbers',
+        'Custom pricing per minute based on volume',
         'Dedicated account manager',
         '99.99% uptime SLA',
-        'HIPAA/PCI compliance',
+        'HIPAA/PCI compliance available',
         'White-label solutions',
-        'Unlimited voice cloning',
-        'All languages supported',
-        'Custom integrations',
+        'Custom API integrations',
         'Advanced security features',
+        'Custom voice cloning',
         'Priority phone support',
-        'Custom analytics dashboard',
+        'Professional design guidelines and technical support',
+        'On-premise deployment options'
       ],
       limitations: [],
-      cta: 'Contact Sales',
+      cta: 'Contact Us',
       ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
       popular: false,
     },
@@ -79,24 +88,32 @@ const PricingPage = () => {
 
   const faqs = [
     {
-      question: 'Can I change my business number?',
-      answer: 'Yes, you can keep your existing business numbers and forward calls to SeaVoice, or we can provide new numbers if needed.',
+      question: 'How does SeaVoice pricing relate to SeaChat and SeaX?',
+      answer: 'SeaVoice Inbound Only plan ($29.99/month) is based on SeaChat Premium plan, focusing on inbound voice AI. The Inbound + Outbound plan ($99/month) mirrors SeaX Omni-channel pricing for comprehensive voice campaigns. All voice AI calls start at $0.12 per minute using ChatGPT-4o mini model.',
     },
     {
-      question: 'What integrations are supported?',
-      answer: 'We support popular CRM systems (Salesforce, HubSpot), calendars (Google, Outlook), and many other business tools. Custom integrations are available for Enterprise customers.',
+      question: 'What\'s the difference between Inbound Only and Inbound + Outbound plans?',
+      answer: 'Inbound Only ($29.99/month) handles incoming calls with AI, perfect for customer service. Inbound + Outbound ($99/month for first user) adds bulk campaign capabilities and outbound calling, ideal for sales and marketing teams running large-scale voice campaigns.',
     },
     {
-      question: 'Is my data secure?',
-      answer: 'Absolutely. We use enterprise-grade security with end-to-end encryption, SOC 2 compliance, and can meet HIPAA and PCI requirements for Enterprise customers.',
+      question: 'Can I keep my existing business phone numbers?',
+      answer: 'Yes, you can keep your existing business numbers and forward calls to SeaVoice, or we can provide new numbers. Each phone number costs $2-$3/month with E911 address registration.',
     },
     {
-      question: 'How quickly can I get started?',
-      answer: 'You can start your free trial immediately. Most customers are fully operational within 24-48 hours.',
+      question: 'How much do voice AI calls actually cost?',
+      answer: 'All voice AI calls start at $0.12 per minute using the ChatGPT-4o mini model. This is the same rate across SeaChat Premium and SeaVoice plans. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on custom plans.',
     },
     {
-      question: 'Do you offer custom voice training?',
-      answer: 'Yes, Pro and Enterprise plans include custom voice training to match your brand voice and specific industry terminology.',
+      question: 'What happens when contacts call back after an outbound campaign?',
+      answer: 'With the Inbound + Outbound plan, when contacts call back after receiving campaign calls, our inbound Voice AI will automatically handle these calls, providing seamless continuity in your customer communications.',
+    },
+    {
+      question: 'Can I upgrade from Inbound Only to Inbound + Outbound?',
+      answer: 'Absolutely! You can upgrade your plan at any time. The upgrade takes effect immediately, and you\'ll gain access to outbound calling, campaign features, and additional user seats.',
+    },
+    {
+      question: 'Do you offer volume discounts for high-usage customers?',
+      answer: 'Yes, our Custom Plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team to discuss custom pricing that scales with your business needs.',
     },
   ];
 
@@ -115,7 +132,8 @@ const PricingPage = () => {
               Simple, Transparent Pricing
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Choose the plan that fits your business needs. Scale up or down anytime.
+              Voice AI solutions designed for inbound customer service and outbound campaigns. 
+              Built on SeaChat Premium ($29.99) and SeaX Omni-channel ($99) foundations.
             </p>
           </motion.div>
         </div>
@@ -193,6 +211,53 @@ const PricingPage = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Product Relationship Section */}
+      <section className="py-16 bg-blue-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              How SeaVoice Connects with SeaChat & SeaX
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 text-left">
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-semibold text-blue-600 mb-4">🔗 SeaChat Integration</h3>
+                <p className="text-gray-700 mb-4">
+                  SeaVoice Inbound Only ($29.99/month) is built on SeaChat Premium plan foundations, 
+                  providing voice AI capabilities for incoming calls at $0.12 per minute.
+                </p>
+                <p className="text-sm text-gray-600">
+                  Perfect for businesses wanting to add voice AI to their existing SeaChat setup.
+                </p>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-semibold text-blue-600 mb-4">📞 SeaX Integration</h3>
+                <p className="text-gray-700 mb-4">
+                  SeaVoice Inbound + Outbound ($99/month) mirrors SeaX Omni-channel pricing, 
+                  enabling large-scale voice campaigns with callback handling.
+                </p>
+                <p className="text-sm text-gray-600">
+                  Ideal for businesses running outbound campaigns who need comprehensive voice AI coverage.
+                </p>
+              </div>
+            </div>
+            <div className="mt-8 bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold text-green-600 mb-4">✨ The Complete Picture</h3>
+              <p className="text-gray-700">
+                All Voice AI calls across SeaChat, SeaX, and SeaVoice use the same $0.12 per minute rate 
+                with ChatGPT-4o mini model. When contacts call back after outbound campaigns, 
+                SeaVoice seamlessly handles these inbound calls with the same AI intelligence.
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
 
