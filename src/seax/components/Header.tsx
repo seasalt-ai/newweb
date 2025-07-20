@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useMemo } from 'react';
+import { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown, MessageSquare, Phone, Hash, Building2, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, Vote, Heart, DollarSign } from 'lucide-react';
@@ -19,9 +19,14 @@ import LanguageSwitcher from '../../components/LanguageSwitcher';
 import ProductLogoDropdown from '../../components/ProductLogoDropdown';
 
 const Header = () => {
+  const { i18n } = useTranslation();
+  useEffect(() => {
+    if (!i18n.language) {
+      i18n.changeLanguage('en'); // default to English or detect from settings
+    }
+  }, [i18n]);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const { i18n } = useTranslation();
   const location = useLocation();
   const currentLanguage = i18n.language;
   

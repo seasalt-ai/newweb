@@ -22,6 +22,7 @@ import { solutions } from '../data/solutionsData';
 import { products } from '../data/productsData';
 import { LANGUAGE_DETAILS } from '../constants/languages';
 import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
+import ProductLogoDropdown from './ProductLogoDropdown';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -29,11 +30,9 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Only one dropdown open at a time
   const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
-  const [isSeaVoiceSubMenuOpen, setIsSeaVoiceSubMenuOpen] = useState(false);
   // Helper to open only one dropdown at a time
   const handleDropdown = (dropdown: typeof openDropdown) => {
     setOpenDropdown(prev => (prev === dropdown ? null : dropdown));
-    if (dropdown !== 'products') setIsSeaVoiceSubMenuOpen(false);
   };
 
   const channels = [
@@ -100,17 +99,6 @@ const Header = () => {
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
-              <img 
-                src="/seasalt-ai-logo.png" 
-                alt="Seasalt.ai" 
-                className="h-6 sm:h-8 w-auto"
-              />
-            </Link>
-          </div>
-
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <div className="relative">
@@ -118,82 +106,20 @@ const Header = () => {
                 onClick={() => handleDropdown('products')}
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
               >
-                {t('header.products')}
-                <ChevronDown className="ml-1 h-4 w-4" />
+
+                <img 
+                  src='/seasalt-ai-logo.png' 
+                  alt='Seasalt.ai' 
+                  className='h-6 sm:h-8 w-auto'
+                />
+                <ChevronDown className='ml-1 h-4 w-4' />
               </button>
-              {openDropdown === 'products' && (
-                <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
-                  {products.map((product, index) => (
-                    <div key={index} className="relative">
-                      {product.subProducts ? (
-                        <div className="relative">
-                          <button
-                            onClick={() => setIsSeaVoiceSubMenuOpen(!isSeaVoiceSubMenuOpen)}
-                            className="w-full flex items-center justify-between px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                          >
-                            <div className="flex items-center gap-3">
-                              {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
-                              <div className="text-left">
-                                <div className="font-medium">{product.title}</div>
-                                <div className="text-xs text-gray-500">{product.description}</div>
-                              </div>
-                            </div>
-                            <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isSeaVoiceSubMenuOpen ? 'rotate-180' : ''}`} />
-                          </button>
-                          {isSeaVoiceSubMenuOpen && (
-                            <div className="bg-gray-50 border-t border-gray-100">
-                              <a
-                                href={product.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                              >
-                                Main {product.title}
-                              </a>
-                              {product.subProducts.map((subProduct, subIndex) => (
-                                <a
-                                  key={subIndex}
-                                  href={subProduct.href}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-                                >
-                                  {subProduct.title}
-                                </a>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      ) : (
-                        product.href.startsWith('/') ? (
-                          <Link
-                            to={createLink(product.href)}
-                            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-gray-50"
-                          >
-                            {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
-                            <div>
-                              <div className="font-medium text-gray-700">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
-                            </div>
-                          </Link>
-                        ) : (
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-gray-50"
-                          >
-                            {product.icon && <product.icon className="h-5 w-5 text-gray-400" />}
-                            <div>
-                              <div className="font-medium text-gray-700">{product.title}</div>
-                              <div className="text-xs text-gray-500">{product.description}</div>
-                            </div>
-                          </a>
-                        )
-                      )}
-                    </div>
-                  ))}
-                </div>
+{openDropdown === 'products' && (
+                <ProductLogoDropdown 
+                  isOpen={true} 
+                  onClose={() => setOpenDropdown(null)} 
+                  currentLanguage={i18n.language} 
+                />
               )}
             </div>
             
