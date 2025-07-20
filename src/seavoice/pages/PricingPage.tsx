@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { Check, X, Star } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 import SupportPlan from '../../components/SupportPlan';
 import PriceCalculator from '../components/PriceCalculator';
 

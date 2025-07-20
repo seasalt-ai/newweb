@@ -8,15 +8,13 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { 
   Check, 
-  X, 
   ArrowRight, 
   MessageSquare, 
   Phone, 
   Zap, 
   Shield,
   Users,
-  Building2,
-  Star
+  Building2
 } from 'lucide-react';
 
 const Pricing = () => {

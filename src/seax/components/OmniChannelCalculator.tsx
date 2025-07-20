@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Calculator, Users, Phone, MessageSquare, Clock, Send, Info } from 'lucide-react';
+import { useState } from 'react';
+import { Calculator, Users, Phone, MessageSquare, Info } from 'lucide-react';
 
 const OmniChannelCalculator = () => {
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
