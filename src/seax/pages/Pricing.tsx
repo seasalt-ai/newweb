@@ -3,7 +3,9 @@ import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ROICalculator from '../components/ROICalculator';
 import SupportPlan from '../../components/SupportPlan';
+import OmniChannelCalculator from '../components/OmniChannelCalculator';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import { 
   Check, 
   X, 
@@ -20,122 +22,129 @@ import {
 const Pricing = () => {
   const { i18n: _i18n } = useTranslation();
 
+  const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
+
   const pricingTiers = [
     {
-      name: 'Starter',
-      price: '$500',
-      period: '/month',
-      description: 'Perfect for small businesses getting started',
+      name: 'WhatsApp Only',
+      subheader: 'Best price on the market',
+      price: billingPeriod === 'monthly' ? '$19.99' : '$199',
+      period: billingPeriod === 'monthly' ? '/month' : '/year',
+      description: 'Per user',
       features: [
-        'Up to 50K messages/month',
-        'SMS Local (10DLC)',
-        'Basic analytics',
-        'Email support',
-        'API access',
-        'Campaign templates'
-      ],
-      limitations: [
-        'WhatsApp Business',
-        'Voice calls',
-        'Advanced analytics',
-        'Priority support',
-        'Custom integrations'
-      ],
-      recommended: false,
-      cta: 'Sign Up Now',
-      icon: MessageSquare
-    },
-    {
-      name: 'Growth',
-      price: '$2,500',
-      period: '/month',
-      description: 'For growing businesses with higher volume needs',
-      features: [
-        'Up to 200K messages/month',
-        'SMS Local + Toll-Free',
-        'WhatsApp Business Platform',
-        'Voice calls (basic)',
-        'Advanced analytics',
-        'Phone + email support',
-        'CRM integrations',
-        'A/B testing',
-        'Custom reporting'
-      ],
-      limitations: [
-        'SMS Short-code',
-        'Priority support',
-        'Dedicated account manager'
-      ],
-      recommended: true,
-      cta: 'Get Started',
-      icon: Zap
-    },
-    {
-      name: 'Enterprise',
-      price: 'Custom',
-      period: '',
-      description: 'For large organizations with mission-critical needs',
-      features: [
-        'Unlimited messages',
-        'All SMS types',
-        'Full WhatsApp Business',
-        'Advanced voice features',
-        'Real-time analytics',
-        'Priority support',
-        'Dedicated account manager',
-        'Custom integrations',
-        'SLA guarantees',
-        'White-label options'
+        'Send/Receive WhatsApp',
+        'WhatsApp Business App support',
+        'Unlimited contacts',
+        'Templates',
+        '1 Workspace'
       ],
       limitations: [],
       recommended: false,
-      cta: 'Contact Sales',
-      icon: Building2
+      cta: 'Sign Up Now',
+      icon: MessageSquare,
+      bgColor: 'from-purple-400 to-purple-500',
+      textColor: 'text-white'
+    },
+    {
+      name: 'Omni-channel',
+      subheader: 'Full-fledged contact center',
+      price: billingPeriod === 'monthly' ? '$99' : '$999',
+      additionalPrice: billingPeriod === 'monthly' ? '$49' : '$499',
+      period: billingPeriod === 'monthly' ? '/month' : '/year',
+      description: 'First user',
+      additionalDescription: 'Additional user',
+      features: [
+        'Send/Receive SMS',
+        'Inbound/Outbound Phone Calls',
+        'SMS Campaign',
+        'RESTful API Access',
+        'Phone Call Campaign',
+        'SeaChat Integration',
+        '1 Workspace',
+        '(Additional workspace costs $49/month or $499/year)',
+        'Communication:',
+        '$0.02/SMS, $0.04/MMS,',
+        '$0.05/voicemail drop',
+        'Voice AI agents over phone calls start at $0.12 per minute'
+      ],
+      limitations: [],
+      recommended: true,
+      cta: 'Start Omni-channel',
+      icon: Zap,
+      bgColor: 'from-blue-400 to-blue-500',
+      textColor: 'text-white'
+    },
+    {
+      name: 'Custom',
+      subheader: 'Negotiate your own price',
+      price: 'Contact Us',
+      period: '',
+      description: 'Custom build',
+      features: [
+        'Multiple workspaces — perfect for agencies',
+        'Each workspace has multiple AI agents and phone numbers',
+        'Professional design guidelines and technical support, sold together with the Launch support plan'
+      ],
+      limitations: [],
+      recommended: false,
+      cta: 'Contact Us',
+      icon: Building2,
+      bgColor: 'from-green-400 to-green-500',
+      textColor: 'text-white'
     }
   ];
 
   const channelPricing = [
     {
       name: 'SMS Local (10DLC)',
-      setup: '$50',
-      monthly: '$10/number',
-      usage: '$0.0075/message',
-      description: 'Brand registration required',
+      'campaign approval and setup (optional)': '$150',
+      monthly: '$2/number',
+      usage: '$0.02/message (USA/CA)',
+      description: 'Brand registration and A2P registration required',
       icon: MessageSquare,
       color: 'blue'
     },
     {
       name: 'SMS Toll-Free',
-      setup: 'Free',
-      monthly: '$50/number',
-      usage: '$0.015/message',
-      description: 'Higher trust, faster setup',
+      'campaign approval and setup (optional)': '$150',
+      monthly: '$3/number',
+      usage: '$0.02/message (USA/CA)',
+      description: 'Higher trust, higher throughput',
       icon: Shield,
       color: 'green'
     },
     {
       name: 'SMS Short-Code',
-      setup: '$1,000',
-      monthly: '$1,000/code',
-      usage: '$0.005/message',
+      setup: '$2,000',
+      quarterly: '$3,000/code',
+      usage: '$0.02/message (USA/CA)',
       description: 'Highest throughput',
       icon: Zap,
       color: 'purple'
     },
     {
-      name: 'WhatsApp Business',
-      setup: 'Free',
+      name: 'WhatsApp Business Platform',
+      'Meta Suite approval and setup (optional)': '$150',
       monthly: '$0',
-      usage: '$0.015+/message',
-      description: 'Varies by country',
+      usage: '$0.00/message (worldwide)',
+      description: 'You pay Meta directly. No markup from Seasalt.ai',
       icon: Users,
       color: 'emerald'
     },
     {
       name: 'Voice Calls',
       setup: 'Free',
-      monthly: '$0',
-      usage: '$0.015+/minute',
+      monthly: 'each number costs $2-$3/month with E911 address',
+      usage: '$0.015/minute (USA/CA)',
+      description: '100+ countries',
+      icon: Phone,
+      color: 'orange'
+    },
+    {
+      name: 'Voicemail Drop',
+      setup: 'Free',
+      monthly: 'each number costs $2-$3/month with E911 address',
+      usage: '$0.05 per drop (USA/CA)',
       description: '100+ countries',
       icon: Phone,
       color: 'orange'
@@ -175,20 +184,6 @@ const Pricing = () => {
             No hidden fees, no surprises, just predictable costs that deliver results.
           </p>
           
-          <div className="flex justify-center items-center space-x-8 text-sm text-gray-600">
-            <div className="flex items-center space-x-2">
-              <Check className="w-5 h-5 text-green-500" />
-              <span>No setup fees</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Check className="w-5 h-5 text-green-500" />
-              <span>14-day free trial</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Check className="w-5 h-5 text-green-500" />
-              <span>Cancel anytime</span>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -199,78 +194,105 @@ const Pricing = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Choose Your Plan
             </h2>
-            <p className="text-lg text-gray-600">
-              Select the perfect plan for your business size and needs
-            </p>
+            
+            {/* Billing Toggle */}
+            <div className="flex items-center justify-center mb-8">
+              <span className={`mr-3 ${billingPeriod === 'monthly' ? 'text-gray-900 font-medium' : 'text-gray-500'}`}>Monthly</span>
+              <button
+                onClick={() => setBillingPeriod(billingPeriod === 'monthly' ? 'yearly' : 'monthly')}
+                className="relative inline-flex h-6 w-11 items-center rounded-full bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                <span
+                  className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                    billingPeriod === 'yearly' ? 'translate-x-6' : 'translate-x-1'
+                  }`}
+                />
+              </button>
+              <span className={`ml-3 ${billingPeriod === 'yearly' ? 'text-gray-900 font-medium' : 'text-gray-500'}`}>
+                Yearly <span className="text-green-500 font-semibold">(Saves 2 Months)</span>
+              </span>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {pricingTiers.map((tier, index) => (
-              <div key={index} className={`relative bg-white rounded-2xl shadow-lg border-2 ${
-                tier.recommended ? 'border-blue-500' : 'border-gray-200'
-              } p-8`}>
-                {tier.recommended && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <div className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-1">
-                      <Star className="w-4 h-4" />
-                      <span>Most Popular</span>
-                    </div>
-                  </div>
-                )}
-                
-                <div className="text-center mb-8">
-                  <div className="bg-gray-50 p-4 rounded-lg w-fit mx-auto mb-4">
-                    <tier.icon className="w-8 h-8 text-gray-600" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{tier.name}</h3>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">
-                    {tier.price}
-                    <span className="text-lg font-normal text-gray-600">{tier.period}</span>
-                  </div>
-                  <p className="text-gray-600">{tier.description}</p>
+              <div key={index} className="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col h-full">
+                {/* Header with gradient background */}
+                <div className={`bg-gradient-to-r ${tier.bgColor} p-8 text-center`}>
+                  <div className="text-sm text-white/80 mb-2">{tier.subheader}</div>
+                  <h3 className={`text-2xl font-bold mb-4 ${tier.textColor}`}>{tier.name}</h3>
                 </div>
                 
-                <div className="space-y-4 mb-8">
-                  {tier.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-start space-x-3">
-                      <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700">{feature}</span>
+                {/* Pricing */}
+                <div className="px-8 py-6 text-center">
+                  {tier.name === 'Custom' ? (
+                    <div className="mb-4">
+                      <div className="text-xl font-medium text-gray-600 mb-2">{tier.description}</div>
                     </div>
-                  ))}
-                  
-                  {tier.limitations.map((limitation, limitationIndex) => (
-                    <div key={limitationIndex} className="flex items-start space-x-3">
-                      <X className="w-5 h-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-400">{limitation}</span>
+                  ) : tier.name === 'Omni-channel' ? (
+                    <div className="mb-4">
+                      <div className="flex justify-center items-center space-x-4">
+                        <div>
+                          <div className="text-4xl font-bold text-blue-600">{tier.price}</div>
+                          <div className="text-sm text-gray-600">{tier.description}</div>
+                        </div>
+                        <div>
+                          <div className="text-4xl font-bold text-blue-600">{tier.additionalPrice}</div>
+                          <div className="text-sm text-gray-600">{tier.additionalDescription}</div>
+                        </div>
+                      </div>
                     </div>
-                  ))}
+                  ) : (
+                    <div className="mb-4">
+                      <div className="text-4xl font-bold text-purple-600 mb-2">{tier.price}</div>
+                      <div className="text-sm text-gray-600">{tier.description}</div>
+                    </div>
+                  )}
                 </div>
                 
-                {tier.cta === 'Contact Sales' ? (
-                  <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
-                    className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
-                      tier.recommended
-                        ? 'bg-blue-600 text-white hover:bg-blue-700'
-                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                    }`}
-                  >
-                    {tier.cta}
-                  </a>
-                ) : (
-                  <a
-                    href="https://seax.seasalt.ai/signup"
-                    className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
-                      tier.recommended
-                        ? 'bg-blue-600 text-white hover:bg-blue-700'
-                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                    }`}
-                  >
-                    {tier.cta}
-                  </a>
-                )}
+                {/* Features - This will grow to fill available space */}
+                <div className="px-8 pb-6 flex-grow">
+                  <div className="space-y-3">
+                    {tier.features.map((feature, featureIndex) => (
+                      <div key={featureIndex} className="flex items-start space-x-3">
+                        <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                        <span className="text-sm text-gray-700">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                {/* CTA Button - This will stay at the bottom */}
+                <div className="px-8 pb-8 mt-auto">
+                  {tier.name === 'Custom' ? (
+                    <a
+                      href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                      className="w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block bg-green-500 hover:bg-green-600 text-white"
+                    >
+                      {tier.cta}
+                    </a>
+                  ) : (
+                    <a
+                      href="https://seax.seasalt.ai/signup"
+                      className={`w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block ${
+                        tier.name === 'WhatsApp Only'
+                          ? 'bg-purple-500 hover:bg-purple-600 text-white'
+                          : 'bg-blue-500 hover:bg-blue-600 text-white'
+                      }`}
+                    >
+                      {tier.cta}
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
+          </div>
+          
+          {/* Disclaimer */}
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-600">
+              * Prices vary by country. The prices listed are for the United States. For other countries, please contact us.
+            </p>
           </div>
         </div>
       </div>
@@ -301,14 +323,45 @@ const Pricing = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Setup:</span>
-                    <span className="font-semibold">{channel.setup}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600">Monthly:</span>
-                    <span className="font-semibold">{channel.monthly}</span>
-                  </div>
+                  {/* Campaign/Meta approval setup */}
+                  {channel['campaign approval and setup (optional)'] && (
+                    <div className="flex justify-between">
+                      <span className="text-gray-600 text-sm">Campaign setup:</span>
+                      <span className="font-semibold text-sm">{channel['campaign approval and setup (optional)']}</span>
+                    </div>
+                  )}
+                  {channel['Meta Suite approval and setup (optional)'] && (
+                    <div className="flex justify-between">
+                      <span className="text-gray-600 text-sm">Meta setup:</span>
+                      <span className="font-semibold text-sm">{channel['Meta Suite approval and setup (optional)']}</span>
+                    </div>
+                  )}
+                  
+                  {/* Setup */}
+                  {channel.setup && (
+                    <div className="flex justify-between">
+                      <span className="text-gray-600">Setup:</span>
+                      <span className="font-semibold">{channel.setup}</span>
+                    </div>
+                  )}
+                  
+                  {/* Monthly */}
+                  {channel.monthly && (
+                    <div className="flex justify-between">
+                      <span className="text-gray-600">Monthly:</span>
+                      <span className="font-semibold text-sm">{channel.monthly}</span>
+                    </div>
+                  )}
+                  
+                  {/* Quarterly */}
+                  {channel.quarterly && (
+                    <div className="flex justify-between">
+                      <span className="text-gray-600">Quarterly:</span>
+                      <span className="font-semibold">{channel.quarterly}</span>
+                    </div>
+                  )}
+                  
+                  {/* Usage */}
                   <div className="flex justify-between">
                     <span className="text-gray-600">Usage:</span>
                     <span className="font-semibold">{channel.usage}</span>
@@ -317,6 +370,13 @@ const Pricing = () => {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* Omni-channel Calculator */}
+      <div className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <OmniChannelCalculator />
         </div>
       </div>
 
