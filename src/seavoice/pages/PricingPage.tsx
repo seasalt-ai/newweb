@@ -7,6 +7,7 @@ const PricingPage = () => {
   const plans = [
     {
       name: 'Inbound Only',
+      tagline: 'Perfect for Customer Service',
       price: '$29.99',
       period: '/month',
       description: 'Ideal for businesses needing an inbound call solution with Voice AI (based on SeaChat Premium plan)',
@@ -29,11 +30,14 @@ const PricingPage = () => {
         'No bulk campaign features'
       ],
       cta: 'Start with Inbound Only',
-      ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
+      ctaUrl: 'https://chat.seasalt.ai/signup',
       popular: false,
+      cardStyle: 'bg-gradient-to-br from-teal-400 to-teal-600 text-white',
+      buttonStyle: 'bg-teal-600 hover:bg-teal-700 text-white',
     },
     {
       name: 'Inbound + Outbound',
+      tagline: 'Scale Your Voice Campaigns',
       price: '$99',
       period: '/month',
       description: 'Perfect for large-scale voice AI campaigns (equivalent to SeaX Omni-channel plan for first user)',
@@ -55,11 +59,15 @@ const PricingPage = () => {
       ],
       limitations: [],
       cta: 'Start with Inbound + Outbound',
-      ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
+      ctaUrl: 'https://seax.seasalt.ai/signup',
       popular: true,
+      badge: 'Most Popular',
+      cardStyle: 'bg-gradient-to-br from-blue-400 to-blue-600 text-white',
+      buttonStyle: 'bg-blue-600 hover:bg-blue-700 text-white',
     },
     {
       name: 'Custom Plan',
+      tagline: 'Enterprise-Grade Solutions',
       price: 'Contact Us',
       period: '',
       description: 'Bespoke solutions tailored to specific business needs (similar to SeaChat/SeaX Enterprise plans)',
@@ -83,6 +91,8 @@ const PricingPage = () => {
       cta: 'Contact Us',
       ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
       popular: false,
+      cardStyle: 'bg-gradient-to-br from-green-400 to-green-600 text-white',
+      buttonStyle: 'bg-green-600 hover:bg-green-700 text-white',
     },
   ];
 
@@ -150,64 +160,91 @@ const PricingPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className={`relative bg-white rounded-2xl shadow-xl border-2 p-8 ${
-                  plan.popular 
-                    ? 'border-blue-600 transform scale-105' 
-                    : 'border-gray-200'
+                className={`relative bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 ${
+                  plan.popular ? 'scale-105 ring-4 ring-blue-200' : ''
                 }`}
               >
-                {plan.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <div className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center">
-                      <Star className="w-4 h-4 mr-1 fill-current" />
-                      Most Popular
-                    </div>
-                  </div>
-                )}
-                
-                <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                  <div className="flex items-baseline justify-center mb-4">
-                    <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
-                    <span className="text-gray-600 ml-1">{plan.period}</span>
-                  </div>
-                  <p className="text-gray-600">{plan.description}</p>
-                </div>
-
-                <div className="space-y-4 mb-8">
-                  {plan.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center">
-                      <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">{feature}</span>
-                    </div>
-                  ))}
+                {/* Card Header with gradient background */}
+                <div className={`${plan.cardStyle || 'bg-white'} p-6 text-center`}>
+                  {plan.tagline && (
+                    <p className="text-sm font-medium mb-2 opacity-90">{plan.tagline}</p>
+                  )}
+                  <h3 className="text-3xl font-bold mb-4">{plan.name}</h3>
                   
-                  {plan.limitations.map((limitation, limitationIndex) => (
-                    <div key={limitationIndex} className="flex items-center opacity-60">
-                      <X className="w-5 h-5 text-gray-400 mr-3 flex-shrink-0" />
-                      <span className="text-gray-500 text-sm">{limitation}</span>
-                    </div>
-                  ))}
+                  <div className="mb-4">
+                    {plan.name === 'Custom Plan' ? (
+                      <div className="py-4">
+                        <button className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all">
+                          Contact Us
+                        </button>
+                      </div>
+                    ) : (
+                      <div>
+                        <div className="flex items-center justify-center">
+                          <span className="text-5xl font-bold">
+                            {plan.price}
+                          </span>
+                          <span className="text-xl ml-2">
+                            {plan.period}
+                          </span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </div>
 
-                <a
-                  href={plan.ctaUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${
-                      plan.popular
-                        ? 'bg-blue-600 text-white hover:bg-blue-700'
-                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                    }`}
-                  >
-                    {plan.cta}
-                  </motion.button>
-                </a>
+                {/* Card Body */}
+                <div className="bg-white p-6">
+                  <p className="text-gray-600 mb-6">{plan.description}</p>
+                  
+                  <div className="max-h-96 overflow-y-auto">
+                    <ul className="space-y-2">
+                      {plan.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="">
+                          <div className="flex items-start space-x-3">
+                            <Check className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                            <span className="text-sm text-gray-700">{feature}</span>
+                          </div>
+                        </li>
+                      ))}
+                      
+                      {plan.limitations.map((limitation, limitationIndex) => (
+                        <li key={limitationIndex} className="">
+                          <div className="flex items-start space-x-3 opacity-60">
+                            <X className="w-4 h-4 text-gray-400 flex-shrink-0 mt-0.5" />
+                            <span className="text-sm text-gray-500">{limitation}</span>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {plan.name !== 'Custom Plan' && (
+                    <div className="mt-6">
+                      <a 
+                        href={plan.ctaUrl} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block ${plan.buttonStyle}`}
+                      >
+                        {plan.cta}
+                      </a>
+                    </div>
+                  )}
+                  
+                  {plan.name === 'Custom Plan' && (
+                    <div className="mt-6">
+                      <a 
+                        href={plan.ctaUrl} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block ${plan.buttonStyle}`}
+                      >
+                        {plan.cta}
+                      </a>
+                    </div>
+                  )}
+                </div>
               </motion.div>
             ))}
           </div>
@@ -261,6 +298,9 @@ const PricingPage = () => {
         </div>
       </section>
 
+      {/* Support Plan */}
+      <SupportPlan />
+
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -300,9 +340,6 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
-
-      {/* Support Plan */}
-      <SupportPlan />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
