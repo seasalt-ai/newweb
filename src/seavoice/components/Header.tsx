@@ -153,6 +153,7 @@ const Header = () => {
               {/* Dropdown arrow - opens product dropdown */}
               <button 
                 onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
+                onMouseEnter={() => setIsLogoDropdownOpen(true)}
                 className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
               >
                 <ChevronDown className="w-4 h-4" />
