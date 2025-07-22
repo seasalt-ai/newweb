@@ -174,22 +174,27 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center relative">
-              <div 
-                className="relative"
-                onMouseEnter={() => handleMouseEnter('logo')}
-                onMouseLeave={handleMouseLeave}
-              >
-                <button
-                  onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
-                  className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+              <div className="relative flex items-center">
+                {/* Logo - navigates to SeaX home */}
+                <Link
+                  to={getLocalizedPath('')}
+                  className="hover:opacity-80 transition-opacity"
                 >
                   <img 
                     src="/seax-logo.png" 
                     alt="SeaX" 
                     className="h-6 sm:h-8 w-auto"
                   />
-                  <ChevronDown className="w-4 h-4 text-gray-600" />
+                </Link>
+                
+                {/* Dropdown arrow - opens product dropdown */}
+                <button
+                  onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
+                  className="ml-1 p-1 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                >
+                  <ChevronDown className="w-4 h-4" />
                 </button>
+                
                 <ProductLogoDropdown
                   isOpen={openDropdown === 'logo'}
                   onClose={() => setOpenDropdown(null)}

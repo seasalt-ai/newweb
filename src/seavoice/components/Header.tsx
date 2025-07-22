@@ -137,22 +137,27 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
           <div className="flex-shrink-0">
-            <div 
-              className="relative"
-              onMouseEnter={() => setIsLogoDropdownOpen(true)}
-              onMouseLeave={() => setIsLogoDropdownOpen(false)}
-            >
-              <button 
-                onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
-                className="flex items-center hover:opacity-90 transition-opacity"
+            <div className="relative flex items-center">
+              {/* Logo - navigates to SeaVoice home */}
+              <Link
+                to={`/${i18n.language}/seavoice`}
+                className="hover:opacity-80 transition-opacity"
               >
                 <img 
                   src="/seavoice-logo.png" 
                   alt="SeaVoice Logo" 
                   className="h-6 sm:h-8 w-auto" 
                 />
-                <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
+              </Link>
+              
+              {/* Dropdown arrow - opens product dropdown */}
+              <button 
+                onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
+                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+              >
+                <ChevronDown className="w-4 h-4" />
               </button>
+              
               <ProductLogoDropdown
                 isOpen={isLogoDropdownOpen}
                 onClose={() => setIsLogoDropdownOpen(false)}

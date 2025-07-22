@@ -101,18 +101,25 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <div className="relative">
-              <button
-                onClick={() => handleDropdown('products')}
-                className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
+            <div className="relative flex items-center">
+              {/* Logo - navigates to main site */}
+              <Link
+                to={`/${i18n.language}`}
+                className="hover:opacity-80 transition-opacity"
               >
-
                 <img 
                   src='/seasalt-ai-logo.png' 
                   alt='Seasalt.ai' 
                   className='h-6 sm:h-8 w-auto'
                 />
-                <ChevronDown className='ml-1 h-4 w-4' />
+              </Link>
+              
+              {/* Dropdown arrow - opens product dropdown */}
+              <button
+                onClick={() => handleDropdown('products')}
+                className="ml-1 p-1 text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              >
+                <ChevronDown className='h-4 w-4' />
               </button>
 {openDropdown === 'products' && (
                 <ProductLogoDropdown 
