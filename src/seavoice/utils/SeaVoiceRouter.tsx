@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import HomePage from '../pages/HomePage';
+import UnifiedHomePage from '../pages/UnifiedHomePage';
 import PlatformPage from '../pages/PlatformPage';
 import SolutionsPage from '../pages/SolutionsPage';
 import PricingPage from '../pages/PricingPage';
@@ -40,7 +40,7 @@ const SeaVoiceRouter = () => {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<UnifiedHomePage />} />
           <Route path="/platform" element={<PlatformPage />} />
           <Route path="/platform/landline-mobile" element={<LandlineMobilePage />} />
           <Route path="/platform/voip-sip-byoc" element={<VoipSipByocPage />} />
