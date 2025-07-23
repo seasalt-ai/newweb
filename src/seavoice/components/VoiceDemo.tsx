@@ -1,58 +1,154 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Play, Pause } from 'lucide-react';
 
 const VoiceDemo = () => {
   const [playingDemo, setPlayingDemo] = useState<string | null>(null);
+  const [audioDuration, setAudioDuration] = useState<{[key: string]: number}>({});
+  const [audioProgress, setAudioProgress] = useState<{[key: string]: number}>({});
+  const audioRefs = useRef<{[key: string]: HTMLAudioElement}>({});
 
   const demos = [
     {
       id: 'restaurant',
       title: 'Restaurant reservation booking',
-      image: '/demo-images/restaurant.png',
-      audioUrl: '/demo-audio/restaurant.mp3' // You'll need to add these audio files
+      description: 'AI handles table bookings, availability checks, and special requests',
+      audioUrl: '/seavoice-recordings/Restaurant-reservation-booking.m4a',
+      image: '/demo-images/restaurant.png'
     },
     {
       id: 'insurance',
       title: 'Insurance verification call',
-      image: '/demo-images/insurance.png',
-      audioUrl: '/demo-audio/insurance.mp3'
+      description: 'Automated insurance verification and claim processing',
+      audioUrl: '/seavoice-recordings/Insurance-verification-call.m4a',
+      image: '/demo-images/insurance.png'
     },
     {
-      id: 'ecommerce',
-      title: 'E-commerce cart recovery',
-      image: '/demo-images/ecommerce.png',
-      audioUrl: '/demo-audio/ecommerce.mp3'
+      id: 'tech-support',
+      title: 'Tech support',
+      description: 'Technical troubleshooting and customer support automation',
+      audioUrl: '/seavoice-recordings/Tech-support.m4a',
+      image: '/demo-images/technical.png'
     },
     {
-      id: 'technical',
-      title: 'Technical support troubleshooting',
-      image: '/demo-images/technical.png',
-      audioUrl: '/demo-audio/technical.mp3'
+      id: 'sales-lead',
+      title: 'Sales lead qualification',
+      description: 'Intelligent lead qualification and sales funnel management',
+      audioUrl: '/seavoice-recordings/Sales-lead-qualification.m4a',
+      image: '/demo-images/ecommerce.png'
     },
     {
       id: 'realestate',
       title: 'Real estate inquiry handling',
-      image: '/demo-images/realestate.png',
-      audioUrl: '/demo-audio/realestate.mp3'
+      description: 'Property inquiries, scheduling viewings, and client management',
+      audioUrl: '/seavoice-recordings/Real-estate-inquiry-handling.m4a',
+      image: '/demo-images/realestate.png'
     },
     {
       id: 'donation',
       title: 'Donation campaign outreach',
-      image: '/demo-images/donation.png',
-      audioUrl: '/demo-audio/donation.mp3'
+      description: 'Fundraising campaigns and donor engagement automation',
+      audioUrl: '/seavoice-recordings/Donation-campaign-outreach.m4a',
+      image: '/demo-images/donation.png'
     }
   ];
 
+  useEffect(() => {
+    // Initialize audio elements
+    demos.forEach(demo => {
+      if (!audioRefs.current[demo.id]) {
+        const audio = new Audio(demo.audioUrl);
+        audioRefs.current[demo.id] = audio;
+        
+        audio.addEventListener('loadedmetadata', () => {
+          setAudioDuration(prev => ({
+            ...prev,
+            [demo.id]: audio.duration
+          }));
+        });
+        
+        audio.addEventListener('timeupdate', () => {
+          setAudioProgress(prev => ({
+            ...prev,
+            [demo.id]: (audio.currentTime / audio.duration) * 100
+          }));
+        });
+        
+        audio.addEventListener('ended', () => {
+          setPlayingDemo(null);
+          setAudioProgress(prev => ({
+            ...prev,
+            [demo.id]: 0
+          }));
+        });
+      }
+    });
+    
+    return () => {
+      // Cleanup audio elements
+      Object.values(audioRefs.current).forEach(audio => {
+        audio.pause();
+      });
+    };
+  }, []);
+
   const handlePlay = (demoId: string) => {
+    const audio = audioRefs.current[demoId];
+    if (!audio) return;
+    
     if (playingDemo === demoId) {
+      // Pause current audio
+      audio.pause();
       setPlayingDemo(null);
     } else {
+      // Stop any currently playing audio
+      if (playingDemo) {
+        const currentAudio = audioRefs.current[playingDemo];
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+        }
+      }
+      
+      // Play new audio
+      audio.currentTime = 0;
+      audio.play();
       setPlayingDemo(demoId);
-      // Simulate audio playing for 3 seconds
-      setTimeout(() => {
-        setPlayingDemo(null);
-      }, 3000);
+    }
+  };
+
+  const handleProgressBarClick = (e: React.MouseEvent<HTMLDivElement>, demoId: string) => {
+    const audio = audioRefs.current[demoId];
+    if (!audio || !audioDuration[demoId]) return;
+    
+    const progressBar = e.currentTarget;
+    const rect = progressBar.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const progressBarWidth = rect.width;
+    const clickPercentage = clickX / progressBarWidth;
+    
+    // Calculate new time position
+    const newTime = clickPercentage * audioDuration[demoId];
+    audio.currentTime = Math.max(0, Math.min(newTime, audioDuration[demoId]));
+    
+    // Update progress immediately
+    setAudioProgress(prev => ({
+      ...prev,
+      [demoId]: (audio.currentTime / audioDuration[demoId]) * 100
+    }));
+    
+    // If audio wasn't playing, start playing from the new position
+    if (playingDemo !== demoId) {
+      // Stop any currently playing audio
+      if (playingDemo) {
+        const currentAudio = audioRefs.current[playingDemo];
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+        }
+      }
+      audio.play();
+      setPlayingDemo(demoId);
     }
   };
 
@@ -88,15 +184,19 @@ const VoiceDemo = () => {
                 </motion.button>
                 
                 {/* Progress Bar */}
-                <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
+                <div 
+                  className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden cursor-pointer hover:h-3 transition-all duration-200"
+                  onClick={(e) => handleProgressBarClick(e, demo.id)}
+                  title="Click to seek"
+                >
                   <motion.div
-                    className="h-full bg-purple-600 rounded-full"
+                    className="h-full bg-purple-600 rounded-full pointer-events-none"
                     initial={{ width: '0%' }}
                     animate={{ 
-                      width: playingDemo === demo.id ? '100%' : '0%' 
+                      width: `${audioProgress[demo.id] || 0}%`
                     }}
                     transition={{ 
-                      duration: playingDemo === demo.id ? 3 : 0.2,
+                      duration: 0.1,
                       ease: 'linear'
                     }}
                   />

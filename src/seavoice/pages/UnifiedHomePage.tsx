@@ -58,6 +58,24 @@ const UnifiedHomePage = () => {
     },
   ];
 
+  // Safe color mapping to prevent Tailwind class purging
+  const colorClasses = {
+    blue: {
+      bg100: 'bg-blue-100',
+      bg50: 'bg-blue-50',
+      text600: 'text-blue-600',
+      text800: 'text-blue-800',
+      border100: 'border-blue-100'
+    },
+    purple: {
+      bg100: 'bg-purple-100',
+      bg50: 'bg-purple-50',
+      text600: 'text-purple-600',
+      text800: 'text-purple-800',
+      border100: 'border-purple-100'
+    }
+  };
+
   const useCaseCategories = [
     {
       category: 'Inbound Solutions',
@@ -367,7 +385,7 @@ const UnifiedHomePage = () => {
               className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white/80 text-sm font-medium mb-8"
             >
               <Zap className="w-4 h-4 mr-2 text-yellow-400" />
-              Your Business <span className="text-yellow-300 font-bold">Never</span> Sleeps
+              Your Business Never Sleeps
             </motion.div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8 tracking-tight">
@@ -381,7 +399,7 @@ const UnifiedHomePage = () => {
             <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mx-auto mb-12 font-light">
               Transform customer interactions with human-like AI that never sleeps.
               <br className="hidden sm:block" />
-              <span className="text-blue-300">Automate support, bookings, and more with precision.</span>
+              <span className="text-blue-300">Automate support, bookings, and <span className="font-bold text-yellow-300">outbound call with scale</span>.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
@@ -471,8 +489,8 @@ const UnifiedHomePage = () => {
               className="mb-16"
             >
               <div className="flex items-center mb-8">
-                <div className={`w-12 h-12 bg-${category.color}-100 rounded-lg flex items-center justify-center mr-4`}>
-                  <category.icon className={`w-6 h-6 text-${category.color}-600`} />
+                <div className={`w-12 h-12 ${colorClasses[category.color].bg100} rounded-lg flex items-center justify-center mr-4`}>
+                  <category.icon className={`w-6 h-6 ${colorClasses[category.color].text600}`} />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">
                   {category.category}
@@ -483,14 +501,14 @@ const UnifiedHomePage = () => {
                 {category.cases.map((useCase, index) => (
                   <motion.div 
                     key={index} 
-                    className={`bg-${category.color}-50 rounded-xl p-6 hover:shadow-lg transition-all border border-${category.color}-100 cursor-pointer group`}
+                    className={`${colorClasses[category.color].bg50} rounded-xl p-6 hover:shadow-lg transition-all border ${colorClasses[category.color].border100} cursor-pointer group`}
                     onClick={() => handleNavigateToSolution(useCase.url)}
                   >
                     <div className="flex items-center justify-between mb-3">
-                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-${category.color}-100 text-${category.color}-800`}>
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${colorClasses[category.color].bg100} ${colorClasses[category.color].text800}`}>
                         {useCase.type}
                       </span>
-                      <ArrowRight className={`w-4 h-4 text-${category.color}-600 opacity-0 group-hover:opacity-100 transition-opacity`} />
+                      <ArrowRight className={`w-4 h-4 ${colorClasses[category.color].text600} opacity-0 group-hover:opacity-100 transition-opacity`} />
                     </div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">{useCase.title}</h4>
                     <p className="text-gray-600 text-sm">{useCase.description}</p>
