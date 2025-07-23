@@ -40,7 +40,8 @@ import ProductLogoDropdown from '../../components/ProductLogoDropdown';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isPlatformOpen, setIsPlatformOpen] = useState(false);
-  const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
+  const [isInboundSolutionsOpen, setIsInboundSolutionsOpen] = useState(false);
+  const [isOutboundSolutionsOpen, setIsOutboundSolutionsOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isLogoDropdownOpen, setIsLogoDropdownOpen] = useState(false);
   const location = useLocation();
@@ -122,9 +123,16 @@ const Header = () => {
       ]
     },
     { 
-      name: 'Solutions', 
+      name: 'Inbound Solutions', 
       href: `/${i18n.language}/seavoice/solutions`,
-      hasDropdown: true
+      hasDropdown: true,
+      dropdownItems: inboundSolutions
+    },
+    { 
+      name: 'Outbound Solutions', 
+      href: `/${i18n.language}/seavoice/solutions`,
+      hasDropdown: true,
+      dropdownItems: outboundSolutions
     },
     { name: 'Pricing', href: `/${i18n.language}/seavoice/pricing` },
   ];
@@ -137,22 +145,28 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
           <div className="flex-shrink-0">
-            <div 
-              className="relative"
-              onMouseEnter={() => setIsLogoDropdownOpen(true)}
-              onMouseLeave={() => setIsLogoDropdownOpen(false)}
-            >
-              <button 
-                onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
-                className="flex items-center hover:opacity-90 transition-opacity"
+            <div className="relative flex items-center">
+              {/* Logo - navigates to SeaVoice home */}
+              <Link
+                to={`/${i18n.language}/seavoice`}
+                className="hover:opacity-80 transition-opacity"
               >
                 <img 
                   src="/seavoice-logo.png" 
                   alt="SeaVoice Logo" 
                   className="h-6 sm:h-8 w-auto" 
                 />
-                <ChevronDown className="w-4 h-4 ml-2 text-gray-500" />
+              </Link>
+              
+              {/* Dropdown arrow - opens product dropdown */}
+              <button 
+                onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
+                onMouseEnter={() => setIsLogoDropdownOpen(true)}
+                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+              >
+                <ChevronDown className="w-4 h-4" />
               </button>
+              
               <ProductLogoDropdown
                 isOpen={isLogoDropdownOpen}
                 onClose={() => setIsLogoDropdownOpen(false)}
@@ -169,11 +183,13 @@ const Header = () => {
                 className="relative"
                 onMouseEnter={() => {
                   if (item.name === 'Platform') setIsPlatformOpen(true);
-                  if (item.name === 'Solutions') setIsSolutionsOpen(true);
+                  if (item.name === 'Inbound Solutions') setIsInboundSolutionsOpen(true);
+                  if (item.name === 'Outbound Solutions') setIsOutboundSolutionsOpen(true);
                 }}
                 onMouseLeave={() => {
                   if (item.name === 'Platform') setIsPlatformOpen(false);
-                  if (item.name === 'Solutions') setIsSolutionsOpen(false);
+                  if (item.name === 'Inbound Solutions') setIsInboundSolutionsOpen(false);
+                  if (item.name === 'Outbound Solutions') setIsOutboundSolutionsOpen(false);
                 }}
               >
                 <Link
@@ -196,79 +212,79 @@ const Header = () => {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 mt-1 w-80 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50"
+                    className="absolute top-full left-0 pt-1 w-80 z-50"
+                    onMouseEnter={() => setIsPlatformOpen(true)}
+                    onMouseLeave={() => setIsPlatformOpen(false)}
                   >
-                    {item.dropdownItems?.map((dropdownItem) => (
-                      <Link
-                        key={dropdownItem.name}
-                        to={dropdownItem.href}
-                        className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                      >
-                        <dropdownItem.icon className="w-4 h-4 mr-2" />
-                        {dropdownItem.name}
-                      </Link>
-                    ))}
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                      {item.dropdownItems?.map((dropdownItem) => (
+                        <Link
+                          key={dropdownItem.name}
+                          to={dropdownItem.href}
+                          className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                        >
+                          <dropdownItem.icon className="w-4 h-4 mr-2" />
+                          {dropdownItem.name}
+                        </Link>
+                      ))}
+                    </div>
                   </motion.div>
                 )}
 
-                {/* Solutions Dropdown */}
-                {item.name === 'Solutions' && item.hasDropdown && isSolutionsOpen && (
+                {/* Inbound Solutions Dropdown */}
+                {item.name === 'Inbound Solutions' && item.hasDropdown && isInboundSolutionsOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 mt-1 w-96 bg-white rounded-lg shadow-xl border border-gray-200 py-4 z-50"
+                    className="absolute top-full left-0 pt-1 w-80 z-50"
+                    onMouseEnter={() => setIsInboundSolutionsOpen(true)}
+                    onMouseLeave={() => setIsInboundSolutionsOpen(false)}
                   >
-                    <div className="grid grid-cols-2 gap-4 px-4">
-                      {/* Inbound Solutions */}
-                      <div>
-                        <div className="flex items-center mb-3 pb-2 border-b border-gray-100">
-                          <PhoneIncoming className="w-4 h-4 text-blue-600 mr-2" />
-                          <h3 className="text-sm font-semibold text-gray-900">Inbound Solutions</h3>
-                        </div>
-                        <div className="space-y-1">
-                          {inboundSolutions.map((solution) => (
-                            <Link
-                              key={solution.name}
-                              to={solution.href}
-                              className="flex items-center block px-2 py-2 text-xs text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors rounded"
-                            >
-                              <solution.icon className="w-4 h-4 mr-2 text-blue-600" />
-                              {solution.name}
-                            </Link>
-                          ))}
-                        </div>
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                      <div className="flex items-center mb-3 pb-2 border-b border-gray-100 px-4">
+                        <PhoneIncoming className="w-4 h-4 text-blue-600 mr-2" />
+                        <h3 className="text-sm font-semibold text-gray-900">Inbound Solutions</h3>
                       </div>
-
-                      {/* Outbound Solutions */}
-                      <div>
-                        <div className="flex items-center mb-3 pb-2 border-b border-gray-100">
-                          <PhoneOutgoing className="w-4 h-4 text-teal-600 mr-2" />
-                          <h3 className="text-sm font-semibold text-gray-900">Outbound Solutions</h3>
-                        </div>
-                        <div className="space-y-1">
-                          {outboundSolutions.map((solution) => (
-                            <Link
-                              key={solution.name}
-                              to={solution.href}
-                              className="flex items-center block px-2 py-2 text-xs text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors rounded"
-                            >
-                              <solution.icon className="w-4 h-4 mr-2 text-teal-600" />
-                              {solution.name}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
+                      {item.dropdownItems?.map((dropdownItem) => (
+                        <Link
+                          key={dropdownItem.name}
+                          to={dropdownItem.href}
+                          className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                        >
+                          <dropdownItem.icon className="w-4 h-4 mr-2 text-blue-600" />
+                          {dropdownItem.name}
+                        </Link>
+                      ))}
                     </div>
+                  </motion.div>
+                )}
 
-                    {/* View All Solutions Link */}
-                    <div className="mt-4 pt-3 border-t border-gray-100 px-4">
-                      <Link
-                        to={`/${i18n.language}/seavoice/solutions`}
-                        className="block text-center py-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
-                      >
-                        View All Solutions →
-                      </Link>
+                {/* Outbound Solutions Dropdown */}
+                {item.name === 'Outbound Solutions' && item.hasDropdown && isOutboundSolutionsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    className="absolute top-full left-0 pt-1 w-80 z-50"
+                    onMouseEnter={() => setIsOutboundSolutionsOpen(true)}
+                    onMouseLeave={() => setIsOutboundSolutionsOpen(false)}
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                      <div className="flex items-center mb-3 pb-2 border-b border-gray-100 px-4">
+                        <PhoneOutgoing className="w-4 h-4 text-teal-600 mr-2" />
+                        <h3 className="text-sm font-semibold text-gray-900">Outbound Solutions</h3>
+                      </div>
+                      {item.dropdownItems?.map((dropdownItem) => (
+                        <Link
+                          key={dropdownItem.name}
+                          to={dropdownItem.href}
+                          className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
+                        >
+                          <dropdownItem.icon className="w-4 h-4 mr-2 text-teal-600" />
+                          {dropdownItem.name}
+                        </Link>
+                      ))}
                     </div>
                   </motion.div>
                 )}
