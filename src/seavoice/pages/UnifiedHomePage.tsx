@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Shield, Globe, Clock, ChevronDown } from 'lucide-react';
+import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Clock, ChevronDown } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import VoiceDemo from '../components/VoiceDemo';
