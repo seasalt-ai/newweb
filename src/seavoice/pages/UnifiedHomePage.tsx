@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Heart, ShoppingCart, Car, DollarSign, Home, Briefcase, Zap, Shield, Globe, Clock, ChevronDown } from 'lucide-react';
+import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Shield, Globe, Clock, ChevronDown } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import VoiceDemo from '../components/VoiceDemo';
-import WaveformAnimation from '../components/WaveformAnimation';
-import AssistantIcon from '../components/AssistantIcon';
 
 const UnifiedHomePage = () => {
   const navigate = useNavigate();
@@ -198,93 +196,6 @@ const UnifiedHomePage = () => {
               url: '/solutions/outbound/renewals'
             }
           ]
-    }
-  ];
-
-  const keyFeatures = [
-    {
-      title: 'Human-like Voice',
-      description: 'Dynamic responses, pauses, and tone shifts.',
-      icon: Bot
-    },
-    {
-      title: 'Omni-Channel Integration',
-      description: 'Start with voice, add chat, SMS, or email later.',
-      icon: Globe
-    },
-    {
-      title: 'Real-Time Transcriptions & Analytics',
-      description: 'Call summaries, recordings, and insights.',
-      icon: BarChart3
-    },
-    {
-      title: 'Customizable Responses',
-      description: 'Adapt tone, language, and scripts to match your brand.',
-      icon: CheckCircle
-    },
-    {
-      title: 'Multilingual',
-      description: 'Answer calls in 10+ languages.',
-      icon: Globe
-    },
-    {
-      title: 'Spam Call Filtering',
-      description: 'Automatically detect and block spam calls.',
-      icon: Shield
-    },
-  ];
-
-  const benefits = [
-    {
-      metric: '50%',
-      description: 'Increase customer engagement by up to 50%',
-      icon: ArrowRight
-    },
-    {
-      metric: 'Zero',
-      description: 'Reduce missed call rates to zero',
-      icon: Phone
-    },
-    {
-      metric: 'Save Time',
-      description: 'Save time and lower costs compared to traditional answering services',
-      icon: Clock
-    },
-  ];
-
-  const pricingPlans = [
-    {
-      title: 'Premium',
-      price: '$59.99',
-      period: 'Per Month',
-      description: 'Perfect for businesses receiving 8-10 calls daily',
-      features: [
-        '250 included minutes',
-        '$0.12 per additional minute',
-        '24/7 voice AI availability',
-        'CRM & calendar integrations',
-        'Custom voice profiles',
-        'Call transcripts + analytics',
-        'Spam call filtering'
-      ],
-      buttonText: 'Get Started',
-      popular: false
-    },
-    {
-      title: 'Enterprise',
-      contact: true,
-      description: 'For high-volume businesses with custom needs',
-      features: [
-        '1,000+ minutes/month',
-        'Voice cloning + multilingual support',
-        'Dedicated account manager',
-        'SLA with 99.99% uptime',
-        'HIPAA/PCI compliance',
-        'White-label solutions',
-        'Professional technical support'
-      ],
-      buttonText: 'Contact Us',
-      popular: true
     }
   ];
 
@@ -489,8 +400,8 @@ const UnifiedHomePage = () => {
               className="mb-16"
             >
               <div className="flex items-center mb-8">
-                <div className={`w-12 h-12 ${colorClasses[category.color].bg100} rounded-lg flex items-center justify-center mr-4`}>
-                  <category.icon className={`w-6 h-6 ${colorClasses[category.color].text600}`} />
+                <div className={`w-12 h-12 ${colorClasses[category.color as keyof typeof colorClasses].bg100} rounded-lg flex items-center justify-center mr-4`}>
+                  <category.icon className={`w-6 h-6 ${colorClasses[category.color as keyof typeof colorClasses].text600}`} />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">
                   {category.category}
@@ -501,14 +412,14 @@ const UnifiedHomePage = () => {
                 {category.cases.map((useCase, index) => (
                   <motion.div 
                     key={index} 
-                    className={`${colorClasses[category.color].bg50} rounded-xl p-6 hover:shadow-lg transition-all border ${colorClasses[category.color].border100} cursor-pointer group`}
+                    className={`${colorClasses[category.color as keyof typeof colorClasses].bg50} rounded-xl p-6 hover:shadow-lg transition-all border ${colorClasses[category.color as keyof typeof colorClasses].border100} cursor-pointer group`}
                     onClick={() => handleNavigateToSolution(useCase.url)}
                   >
                     <div className="flex items-center justify-between mb-3">
-                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${colorClasses[category.color].bg100} ${colorClasses[category.color].text800}`}>
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${colorClasses[category.color as keyof typeof colorClasses].bg100} ${colorClasses[category.color as keyof typeof colorClasses].text800}`}>
                         {useCase.type}
                       </span>
-                      <ArrowRight className={`w-4 h-4 ${colorClasses[category.color].text600} opacity-0 group-hover:opacity-100 transition-opacity`} />
+                      <ArrowRight className={`w-4 h-4 ${colorClasses[category.color as keyof typeof colorClasses].text600} opacity-0 group-hover:opacity-100 transition-opacity`} />
                     </div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">{useCase.title}</h4>
                     <p className="text-gray-600 text-sm">{useCase.description}</p>
