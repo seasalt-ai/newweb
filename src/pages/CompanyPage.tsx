@@ -18,7 +18,9 @@ import {
   MessageCircle,
   Bot,
   BarChart3,
-  ExternalLink
+  ExternalLink,
+  Download,
+  Send
 } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -31,14 +33,14 @@ const CompanyPage = () => {
       role: 'CEO & Co-Founder',
       bio: 'Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu), two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University\'s CLSP.',
       homepage: 'https://xuchen.github.io/',
-      image: '/api/placeholder/300/300'
+      image: '/people-images/xuchen_yao.jpg'
     },
     {
       name: 'Guoguo Chen', 
       role: 'CTO & Co-Founder',
       bio: 'Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University\'s CLSP.',
       scholar: 'https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao',
-      image: '/api/placeholder/300/300'
+      image: '/people-images/guoguo_chen.jpg'
     }
   ];
 
@@ -120,7 +122,7 @@ const CompanyPage = () => {
     {
       company: 'LINE',
       description: 'Through our investor ZVC, we have unique access to LINE\'s business call APIs, critical for our strategy in key Asian markets where LINE is the dominant communication platform.',
-      type: 'API Partner'
+      type: 'Strategic Partner and Investment'
     }
   ];
 
@@ -138,11 +140,11 @@ const CompanyPage = () => {
   ];
 
   const milestones = [
-    { year: '2020', event: 'Seasalt.ai founded by industry veterans in AI and voice technologies' },
+    { year: '2020.1', event: 'Seasalt.ai founded by industry veterans in AI and voice technologies' },
+    { year: '2020~2023', event: 'Surviving Covid19. No one was let go.' },
     { year: '2022', event: 'Launch of SeaChat omnichannel customer service platform' },
     { year: '2023', event: 'Introduction of SeaX outreach AI and SeaMeet insights AI' },
-    { year: '2024', event: '$4.2M seed funding raised, strategic partnerships with Twilio and Meta' },
-    { year: '2024', event: 'Launch of SeaVoice advanced voice AI infrastructure' }
+    { year: '2025', event: 'Launch of SeaVoice advanced voice AI infrastructure' }
   ];
 
   return (
@@ -359,6 +361,25 @@ const CompanyPage = () => {
               </motion.div>
             ))}
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <motion.a
+              href="./press/Seasalt.ai_logo_press.zip"
+              download
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+            >
+              <Download className="w-5 h-5" />
+              <span>Download the Product Logo & Press Kit</span>
+            </motion.a>
+          </motion.div>
         </div>
       </section>
 
@@ -469,7 +490,7 @@ const CompanyPage = () => {
               viewport={{ once: true }}
             >
               <Briefcase className="w-16 h-16 mb-6 opacity-80" />
-              <h2 className="text-4xl font-bold mb-6">Join Us and Contact Us</h2>
+              <h2 className="text-4xl font-bold mb-6">Careers at Seasalt.ai</h2>
               <p className="text-xl mb-8 opacity-90">
                 Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, 
                 AI scientists, developers, and business builders. 
@@ -480,7 +501,7 @@ const CompanyPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                See open positions at /careers
+                See open positions
               </motion.a>
             </motion.div>
             
@@ -596,9 +617,90 @@ const CompanyPage = () => {
             viewport={{ once: true }}
             className="text-center mt-8"
           >
+            <motion.a
+              href="./press/Seasalt.ai_logo_press.zip"
+              download
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mb-6"
+            >
+              <Download className="w-5 h-5" />
+              <span>Download the Product Logo & Press Kit</span>
+            </motion.a>
             <p className="text-lg text-gray-600 italic">
               Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <div className="mb-8">
+              <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Send className="w-8 h-8 text-white" />
+              </div>
+              <h2 className="text-4xl font-bold mb-4">Sign Up to Our Newsletter</h2>
+              <p className="text-xl text-blue-100 mb-2">
+                One per week, written by the CEO
+              </p>
+              <p className="text-lg text-blue-200">
+                Get insights on AI, business communications, and the future of work directly from our leadership team.
+              </p>
+            </div>
+            
+            <motion.form
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="max-w-md mx-auto"
+              onSubmit={(e) => {
+                e.preventDefault();
+                // Handle newsletter signup here
+                const formData = new FormData(e.target);
+                const email = formData.get('email');
+                console.log('Newsletter signup:', email);
+                // Add your newsletter signup logic here
+              }}
+            >
+              <div className="flex flex-col sm:flex-row gap-4">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email address"
+                  required
+                  className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
+                />
+                <motion.button
+                  type="submit"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center justify-center space-x-2"
+                >
+                  <Send className="w-5 h-5" />
+                  <span>Subscribe</span>
+                </motion.button>
+              </div>
+            </motion.form>
+            
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="text-sm text-blue-200 mt-6"
+            >
+              No spam, unsubscribe at any time. We respect your privacy.
+            </motion.p>
           </motion.div>
         </div>
       </section>
