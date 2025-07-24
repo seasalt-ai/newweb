@@ -140,33 +140,33 @@ const ProblemSolution = () => {
                       <Phone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Sarah Johnson</p>
-                        <p className="text-xs text-gray-600 truncate">Phone call (Human Agent)</p>
+                        <p className="text-xs text-gray-600 truncate">Phone call about order status</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">2m</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">2m ago</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
                       <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Mike Chen</p>
-                        <p className="text-xs text-gray-600 truncate">WhatsApp (AI Chatbot)</p>
+                        <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">5m</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">5m ago</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
                       <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Lisa Park</p>
-                        <p className="text-xs text-gray-600 truncate">Website chat (AI & Human)</p>
+                        <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">8m</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">8m ago</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
                       <Phone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">David Kim</p>
-                        <p className="text-xs text-gray-600 truncate">Support call (AI Voicebot)</p>
+                        <p className="text-xs text-gray-600 truncate">Support call: Technical issue</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">12m</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">12m ago</span>
                     </div>
                   </div>
                 )}
@@ -178,7 +178,7 @@ const ProblemSolution = () => {
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Black Friday Campaign</p>
                         <p className="text-xs text-gray-600 truncate">SMS: 2,847 sent • 312 replies</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+47</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+47 leads</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
                       <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
@@ -186,7 +186,7 @@ const ProblemSolution = () => {
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">WhatsApp Product Launch</p>
                         <p className="text-xs text-gray-600 truncate">1,523 messages • 89 conversations</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+23</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+23 sales</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
                       <BarChart3 className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
@@ -202,7 +202,7 @@ const ProblemSolution = () => {
                         <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Follow-up Call Campaign</p>
                         <p className="text-xs text-gray-600 truncate">AI Voicebot: 89 calls • 34 appts</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+34</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+34 appts</span>
                     </div>
                   </div>
                 )}
