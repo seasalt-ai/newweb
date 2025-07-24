@@ -22,11 +22,14 @@ import {
   Download,
   Send
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
 
 const CompanyPage = () => {
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const leadership = [
     {
       name: 'Xuchen Yao',
@@ -496,7 +499,7 @@ const CompanyPage = () => {
                 AI scientists, developers, and business builders. 
               </p>
               <motion.a
-                href="/careers"
+                href={`/${currentLanguage}/careers`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"

@@ -9,13 +9,13 @@ export interface Solution {
 
 export const solutions: Solution[] = [
   {
-    title: 'For Sales & Marketing Teams',
+    title: 'For Sales & Marketing',
     path: '/solutions/sales-marketing',
     slug: 'sales-marketing',
     icon: TrendingUp
   },
   {
-    title: 'For Customer Support Teams',
+    title: 'For Customer Support',
     path: '/solutions/customer-support',
     slug: 'customer-support',
     icon: Headphones
