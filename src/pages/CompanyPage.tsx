@@ -1,18 +1,12 @@
 import { motion } from 'framer-motion';
 import { 
-  Users, 
-  Award, 
-  Globe, 
+  Users,
   Briefcase, 
   Mail, 
-  MapPin, 
   Target, 
   Eye, 
   Heart,
   Zap,
-  Shield,
-  Building2,
-  DollarSign,
   Handshake,
   Phone,
   MessageCircle,
@@ -20,9 +14,12 @@ import {
   BarChart3,
   ExternalLink,
   Download,
-  Send
+  Send,
+  DollarSign,
+  Building2
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
@@ -498,14 +495,17 @@ const CompanyPage = () => {
                 Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, 
                 AI scientists, developers, and business builders. 
               </p>
-              <motion.a
-                href={`/${currentLanguage}/careers`}
+              <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                See open positions
-              </motion.a>
+                <Link
+                  to={`/${currentLanguage}/careers`}
+                  className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+                >
+                  See open positions
+                </Link>
+              </motion.div>
             </motion.div>
             
             <motion.div
@@ -669,7 +669,7 @@ const CompanyPage = () => {
               onSubmit={(e) => {
                 e.preventDefault();
                 // Handle newsletter signup here
-                const formData = new FormData(e.target);
+                const formData = new FormData(e.target as HTMLFormElement);
                 const email = formData.get('email');
                 console.log('Newsletter signup:', email);
                 // Add your newsletter signup logic here

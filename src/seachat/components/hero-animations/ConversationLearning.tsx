@@ -103,7 +103,10 @@ const ConversationLearning = () => {
     } else if (phase === 'mastery') {
       interval = setInterval(() => {
         if (conversations.length < conversationExamples.length) {
-          const newConv = conversationExamples[conversations.length];
+          const newConv = {
+            id: conversations.length,
+            ...conversationExamples[conversations.length]
+          };
           setConversations(prev => [...prev, newConv]);
           setAiAccuracy(newConv.accuracy);
         }
@@ -289,7 +292,7 @@ const ConversationLearning = () => {
         <p className="text-sm text-gray-600">Watch AI get smarter from your content</p>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes fade-in {
           from { opacity: 0; transform: translateY(10px); }
           to { opacity: 1; transform: translateY(0); }

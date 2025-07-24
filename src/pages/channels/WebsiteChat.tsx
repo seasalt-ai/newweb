@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Monitor, Zap, Users, BarChart3, Globe, Shield, ArrowLeft } from 'lucide-react';
+import { Monitor, Zap, Users, BarChart3, ArrowLeft, Code, Palette } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

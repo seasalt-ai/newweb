@@ -1,10 +1,14 @@
 import { useEffect } from 'react';
-import { Globe, Palette, Code, BarChart3, Zap, Shield, ArrowLeft } from 'lucide-react';
+import { Globe, Palette, Code, BarChart3, ArrowLeft, Smartphone, Monitor } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const WebsiteWidget = () => {
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -98,7 +102,7 @@ const WebsiteWidget = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
-                <Link to="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
+                <Link to={`/${currentLanguage}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
                   Back to Channels
                 </Link>

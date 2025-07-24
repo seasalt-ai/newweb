@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, MessageSquare, BarChart3, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter, MessageCircle, Monitor, Instagram, FileText, Smartphone, Globe, ShoppingCart, Home, Utensils, GraduationCap, Car, Briefcase, Building, TrendingUp, Headphones, Bot, Building2, DollarSign, Book, Server, Newspaper, Video, Mic, Users } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, BarChart3, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter, MessageCircle, Monitor, Instagram, FileText, Smartphone, Globe, Briefcase, Building, DollarSign, Book, Server, Newspaper } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -62,10 +62,9 @@ const Footer = () => {
             <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.products')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               {products.map((product, index) => {
-                const updatedHref = product.href === '/seachat' ? `/${currentLanguage}/seachat` :
-                                  product.href === '/seax' ? `/${currentLanguage}/seax` :
-                                  product.href === '/seavoice' ? `/${currentLanguage}/seavoice` :
-                                  product.href;
+                const updatedHref = product.href.startsWith('/')
+                  ? `/${currentLanguage}${product.href}`
+                  : product.href;
                 const IconComponent = product.icon || MessageSquare;
                 return (
                   <li key={index}>

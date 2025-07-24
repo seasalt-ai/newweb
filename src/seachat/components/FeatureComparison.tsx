@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Check, ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { Check, Star, AlertTriangle, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const FeatureComparison = () => {
   const { t } = useTranslation();
-  const [showAllFeatures, setShowAllFeatures] = useState(true);
+  const [showAllFeatures] = useState(true);
 
   // Company logo mapping
   const companyLogos = {

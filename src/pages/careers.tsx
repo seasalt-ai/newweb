@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Users, Target, Heart, Briefcase } from 'lucide-react';
 import Header from '../components/Header';
