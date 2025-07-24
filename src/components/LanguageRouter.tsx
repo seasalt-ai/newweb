@@ -11,7 +11,6 @@ const LanguageRouter: React.FC = () => {
   
   
   useEffect(() => {
-    
     // Only redirect if the language is missing or unsupported
     if (!lang) {
       navigate(`/${DEFAULT_LANGUAGE}` + location.pathname, { replace: true });

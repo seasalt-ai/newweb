@@ -63,7 +63,7 @@ const Hero = () => {
                   <Trans
                     i18nKey="hero.developerMessage"
                     components={{
-                      1: <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap" />
+                      1: <code className="text-sm font-mono text-red-800 font-semibold whitespace-nowrap" />
                     }}
                   />
                 </p>

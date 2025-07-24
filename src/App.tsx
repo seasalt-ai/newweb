@@ -176,9 +176,9 @@ function App() {
           <Route path="compare/respond-io-alternative" element={<RespondIoAlternative />} />
           <Route path="compare/intercom-alternative" element={<IntercomAlternative />} />
           <Route path="compare/kustomer-alternative" element={<KustomerAlternative />} />
-          <Route path="compare/threecx-alternative" element={<ThreeCXAlternative />} />
+          <Route path="compare/3cx-alternative" element={<ThreeCXAlternative />} />
           <Route path="compare/dialpad-alternative" element={<DialpadAlternative />} />
-          <Route path="compare/eightxeight-alternative" element={<EightXEightAlternative />} />
+          <Route path="compare/8x8-alternative" element={<EightXEightAlternative />} />
           <Route path="compare/openphone-alternative" element={<OpenPhoneAlternative />} />
           <Route path="industries/e-commerce" element={<Ecommerce />} />
           <Route path="industries/healthcare" element={<Healthcare />} />

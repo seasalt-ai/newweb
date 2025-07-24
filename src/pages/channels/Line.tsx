@@ -1,8 +1,17 @@
+import { useEffect } from 'react';
 import { Smartphone, Globe, Users, BarChart3, MapPin, Zap, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const Line = () => {
+  const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const markets = [
     {
       country: 'Japan',
@@ -82,10 +91,10 @@ const Line = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
-                <a href="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+                <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
                   Back to Channels
-                </a>
+                </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                   Dominate Asian Markets with{' '}
                   <span className="bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent">

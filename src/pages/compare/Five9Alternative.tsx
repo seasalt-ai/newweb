@@ -1,9 +1,11 @@
 import { ArrowLeft, Check, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const Five9Alternative = () => {
+  const { i18n } = useTranslation();
   const comparisonFeatures = [
     {
       feature: 'Target Customer',
@@ -51,7 +53,7 @@ const Five9Alternative = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-orange-50 via-white to-orange-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link to="/compare-us-overview" className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
+            <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
               Back to Compare Us Overview
             </Link>

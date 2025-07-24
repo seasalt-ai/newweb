@@ -1,8 +1,17 @@
+import { useEffect } from 'react';
 import { Mail, ShoppingBag, Users, BarChart3, Star, Zap, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const FacebookMessenger = () => {
+  const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const features = [
     {
       icon: <ShoppingBag className="h-8 w-8" />,
@@ -55,10 +64,10 @@ const FacebookMessenger = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
-                <a href="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+                <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
                   Back to Channels
-                </a>
+                </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                   Turn Facebook Messenger into a{' '}
                   <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">

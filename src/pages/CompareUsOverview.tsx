@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
@@ -7,6 +8,12 @@ import { useTranslation } from 'react-i18next';
 
 const CompareUsOverview = () => {
   const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/compare-us-overview` 
     : `/${i18n.language}/compare-us-overview`;
@@ -16,91 +23,91 @@ const CompareUsOverview = () => {
       name: 'Aircall',
       category: 'Sales-Focused Phone Systems',
       description: 'User-friendly interface but expensive add-ons and 3-user minimum',
-      link: '/compare/aircall-alternative',
+      link: `/${i18n.language}/compare/aircall-alternative`,
       color: 'bg-blue-50 border-blue-200'
     },
     {
       name: 'RingCentral',
       category: 'UCaaS Giants',
       description: 'Fragmented platform with separate UCaaS and CCaaS products',
-      link: '/compare/ringcentral-alternative',
+      link: `/${i18n.language}/compare/ringcentral-alternative`,
       color: 'bg-purple-50 border-purple-200'
     },
     {
       name: 'Genesys Cloud CX',
       category: 'Enterprise Contact Centers',
       description: 'Powerful but expensive with high minimums and complex pricing',
-      link: '/compare/genesys-alternative',
+      link: `/${i18n.language}/compare/genesys-alternative`,
       color: 'bg-red-50 border-red-200'
     },
     {
       name: 'Five9',
       category: 'Enterprise Contact Centers',
       description: 'Outbound-heavy platform with enterprise pricing starting at $119/user',
-      link: '/compare/five9-alternative',
+      link: `/${i18n.language}/compare/five9-alternative`,
       color: 'bg-orange-50 border-orange-200'
     },
     {
       name: 'Avaya',
       category: 'Legacy Providers',
       description: 'Legacy architecture with complex enterprise focus and quote-based pricing',
-      link: '/compare/avaya-alternative',
+      link: `/${i18n.language}/compare/avaya-alternative`,
       color: 'bg-indigo-50 border-indigo-200'
     },
     {
       name: 'Google Voice',
       category: 'Basic VoIP Services',
       description: 'Great for solopreneurs but lacks team features and integrations',
-      link: '/compare/google-voice-alternative',
+      link: `/${i18n.language}/compare/google-voice-alternative`,
       color: 'bg-green-50 border-green-200'
     },
     {
       name: 'respond.io',
       category: 'Digital-First Platforms',
       description: 'Strong messaging platform but voice is beta and pricing is complex',
-      link: '/compare/respond-io-alternative',
+      link: `/${i18n.language}/compare/respond-io-alternative`,
       color: 'bg-teal-50 border-teal-200'
     },
     {
       name: 'Intercom',
       category: 'Website Engagement Tools',
       description: 'Excellent for website chat but expensive per-resolution pricing',
-      link: '/compare/intercom-alternative',
+      link: `/${i18n.language}/compare/intercom-alternative`,
       color: 'bg-pink-50 border-pink-200'
     },
     {
       name: 'Kustomer',
       category: 'Enterprise Customer Service',
       description: 'Powerful omnichannel but 8-seat minimum and expensive AI add-ons',
-      link: '/compare/kustomer-alternative',
+      link: `/${i18n.language}/compare/kustomer-alternative`,
       color: 'bg-yellow-50 border-yellow-200'
     },
     {
       name: '3CX',
       category: 'Self-Hosted Solutions',
       description: 'Open platform but requires technical expertise and hidden costs',
-      link: '/compare/threecx-alternative',
+      link: `/${i18n.language}/compare/3cx-alternative`,
       color: 'bg-gray-50 border-gray-200'
     },
     {
       name: 'Dialpad',
       category: 'UCaaS with Contact Center Tiers',
       description: 'Good voice AI but expensive upgrade required for contact center features',
-      link: '/compare/dialpad-alternative',
+      link: `/${i18n.language}/compare/dialpad-alternative`,
       color: 'bg-cyan-50 border-cyan-200'
     },
     {
       name: '8x8',
       category: 'Enterprise Communications',
       description: 'Comprehensive but quote-based pricing and enterprise complexity',
-      link: '/compare/eightxeight-alternative',
+      link: `/${i18n.language}/compare/8x8-alternative`,
       color: 'bg-slate-50 border-slate-200'
     },
     {
       name: 'OpenPhone',
       category: 'Simple Business Phone',
       description: 'Modern phone system but limited to voice/SMS with expensive AI add-ons',
-      link: '/compare/openphone-alternative',
+      link: `/${i18n.language}/compare/openphone-alternative`,
       color: 'bg-emerald-50 border-emerald-200'
     }
   ];
@@ -124,7 +131,7 @@ const CompareUsOverview = () => {
         <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <Link to="/" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+              <Link to={`/${i18n.language}/`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                 <ArrowLeft className="h-5 w-5 mr-2" />
                 Back to Home
               </Link>

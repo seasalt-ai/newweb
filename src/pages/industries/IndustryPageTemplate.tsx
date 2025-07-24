@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft, Check, Star, Users, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
@@ -26,6 +26,11 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
   icon: Icon
 }) => {
   const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}` 
     : `/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}`;

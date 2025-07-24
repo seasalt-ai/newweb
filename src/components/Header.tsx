@@ -57,9 +57,9 @@ const Header = () => {
     { name: 'respond.io', path: '/compare/respond-io-alternative', icon: MessageSquare },
     { name: 'Intercom', path: '/compare/intercom-alternative', icon: MessageCircle },
     { name: 'Kustomer', path: '/compare/kustomer-alternative', icon: Users },
-    { name: '3CX', path: '/compare/threecx-alternative', icon: Phone },
+    { name: '3CX', path: '/compare/3cx-alternative', icon: Phone },
     { name: 'Dialpad', path: '/compare/dialpad-alternative', icon: Phone },
-    { name: '8x8', path: '/compare/eightxeight-alternative', icon: Phone },
+    { name: '8x8', path: '/compare/8x8-alternative', icon: Phone },
     { name: 'OpenPhone', path: '/compare/openphone-alternative', icon: Phone }
   ];
 

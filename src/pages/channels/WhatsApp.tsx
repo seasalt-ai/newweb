@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { MessageCircle, Shield, Globe, Bot, Users, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
@@ -6,6 +8,12 @@ import { useTranslation } from 'react-i18next';
 
 const WhatsApp = () => {
   const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/channels/whatsapp` 
     : `/${i18n.language}/channels/whatsapp`;
@@ -61,10 +69,10 @@ const WhatsApp = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
-                <a href="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+                <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
                   Back to Channels
-                </a>
+                </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                   Transform WhatsApp into Your{' '}
                   <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">

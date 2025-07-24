@@ -1,9 +1,13 @@
 import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 
 const EightXEightAlternative = () => {
+  const { i18n } = useTranslation();
+  const currentLanguage = useNormalizedLanguage();
   const comparisonFeatures = [
     {
       feature: 'Target Customer',
@@ -57,7 +61,7 @@ const EightXEightAlternative = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link to="/compare-us-overview" className="inline-flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-8">
+            <Link to={`/${currentLanguage}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
               Back to Compare Us Overview
             </Link>

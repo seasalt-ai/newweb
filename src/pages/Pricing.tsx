@@ -35,7 +35,7 @@ const PricingPage = () => {
       aiCapabilities: '⚠️ AI is a paid add-on',
       bestFor: 'Sales teams that can afford multiple add-ons and meet the 3-user minimum.',
       highlight: false,
-      link: '/compare/aircall-alternative'
+      link: `/${i18n.language}/compare/aircall-alternative`
     },
     {
       name: 'RingCentral',
@@ -45,7 +45,7 @@ const PricingPage = () => {
       aiCapabilities: '✅ Yes (AI-powered CCaaS)',
       bestFor: 'Large companies needing a broad UCaaS platform with a separate CCaaS.',
       highlight: false,
-      link: '/compare/ringcentral-alternative'
+      link: `/${i18n.language}/compare/ringcentral-alternative`
     },
     {
       name: 'Genesys Cloud CX',
@@ -55,7 +55,7 @@ const PricingPage = () => {
       aiCapabilities: '✅ Yes (Complex token system)',
       bestFor: 'Large enterprises with dedicated contact center teams and budgets.',
       highlight: false,
-      link: '/compare/genesys-alternative'
+      link: `/${i18n.language}/compare/genesys-alternative`
     },
     {
       name: 'Five9',
@@ -65,7 +65,7 @@ const PricingPage = () => {
       aiCapabilities: '✅ Yes (Advanced AI)',
       bestFor: 'Large, outbound-heavy contact centers needing enterprise-grade tools.',
       highlight: false,
-      link: '/compare/five9-alternative'
+      link: `/${i18n.language}/compare/five9-alternative`
     },
     {
       name: 'Google Voice',
@@ -75,7 +75,7 @@ const PricingPage = () => {
       aiCapabilities: '❌ No (Voicemail transcription only)',
       bestFor: 'Solopreneurs (US-only) needing a basic, separate phone number.',
       highlight: false,
-      link: '/compare/google-voice-alternative'
+      link: `/${i18n.language}/compare/google-voice-alternative`
     },
     {
       name: 'respond.io',
@@ -85,7 +85,7 @@ const PricingPage = () => {
       aiCapabilities: '✅ Yes (AI Agent on higher tiers)',
       bestFor: 'Marketing/sales teams focused on messaging channels like WhatsApp.',
       highlight: false,
-      link: '/compare/respond-io-alternative'
+      link: `/${i18n.language}/compare/respond-io-alternative`
     },
     {
       name: 'Intercom',
@@ -95,7 +95,7 @@ const PricingPage = () => {
       aiCapabilities: '✅ Yes (Fin AI Agent is per-resolution)',
       bestFor: 'Businesses focused on proactive website engagement and support.',
       highlight: false,
-      link: '/compare/intercom-alternative'
+      link: `/${i18n.language}/compare/intercom-alternative`
     }
   ];
 
