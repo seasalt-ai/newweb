@@ -1,9 +1,59 @@
 import { useState, useEffect } from 'react';
-import { MessageCircle, Send, User, Bot } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+
+// Import all animation components
+import MultiChannelFlow from './hero-animations/MultiChannelFlow';
+import AgentToAI from './hero-animations/AgentToAI';
+import RealtimeDashboard from './hero-animations/RealtimeDashboard';
+import InteractiveChannels from './hero-animations/InteractiveChannels';
+import ConversationLearning from './hero-animations/ConversationLearning';
+import PhoneVoiceAI from './hero-animations/PhoneVoiceAI';
 
 const Hero = () => {
   const { t } = useTranslation();
+  
+  const [activeAnimation, setActiveAnimation] = useState<string>('phoneVoice');
+  const [autoRotate, setAutoRotate] = useState(true);
+
+  const animations = [
+    {
+      id: 'phoneVoice',
+      name: 'Phone Voice AI',
+      description: 'AI agents handling phone conversations',
+      component: PhoneVoiceAI,
+    },
+    {
+      id: 'interactive',
+      name: 'Interactive Channels',
+      description: 'Click to see different conversations',
+      component: InteractiveChannels,
+    },
+    {
+      id: 'multiChannel',
+      name: 'Multi-Channel Flow',
+      description: 'Messages flowing between different platforms',
+      component: MultiChannelFlow,
+    },
+    {
+      id: 'agentToAI',
+      name: 'Human-to-AI Handoff',
+      description: 'Start with humans, scale with AI',
+      component: AgentToAI,
+    },
+    {
+      id: 'learning',
+      name: 'AI Learning Journey',
+      description: 'Watch AI get smarter from content',
+      component: ConversationLearning,
+    },
+    {
+      id: 'dashboard',
+      name: 'Real-Time Analytics',
+      description: 'Live performance metrics',
+      component: RealtimeDashboard,
+    },
+  ];
   
   const [chatMessages, setChatMessages] = useState([
     { id: 1, type: 'user', text: t('seachat.hero.chat.userMessage'), time: '2:30 PM' },
@@ -45,6 +95,19 @@ const Hero = () => {
       }]);
     }, 2000);
   };
+
+  // Auto-rotate animations
+  useEffect(() => {
+    if (autoRotate) {
+      const interval = setInterval(() => {
+        const currentIndex = animations.findIndex(anim => anim.id === activeAnimation);
+        const nextIndex = (currentIndex + 1) % animations.length;
+        setActiveAnimation(animations[nextIndex].id);
+      }, 10000); // Change every 10 seconds
+
+      return () => clearInterval(interval);
+    }
+  }, [activeAnimation, autoRotate, animations]);
 
   // Update chat messages when language changes
   useEffect(() => {
@@ -117,88 +180,54 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - Interactive Chat Demo */}
+          {/* Right Content - Hero Animations */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden">
-              {/* Chat Header */}
-              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-4 text-white">
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
-                    <MessageCircle className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold">{t('seachat.hero.chat.supportTitle')}</h3>
-                    <div className="flex items-center space-x-1 text-sm text-blue-100">
-                      <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                      <span>{t('seachat.hero.chat.online')}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Chat Messages */}
-              <div className="h-80 p-4 space-y-4 overflow-y-auto bg-gray-50">
-                {chatMessages.map((message) => (
-                  <div
-                    key={message.id}
-                    className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
-                  >
-                    <div className={`flex items-end space-x-2 max-w-xs ${message.type === 'user' ? 'flex-row-reverse space-x-reverse' : ''}`}>
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                        message.type === 'user' ? 'bg-teal-500 text-white' : 'bg-blue-500 text-white'
-                      }`}>
-                        {message.type === 'user' ? <User className="w-4 h-4" /> : <Bot className="w-4 h-4" />}
-                      </div>
-                      <div className={`px-4 py-2 rounded-2xl ${
-                        message.type === 'user' 
-                          ? 'bg-teal-500 text-white rounded-br-md' 
-                          : 'bg-white text-gray-800 border rounded-bl-md'
-                      }`}>
-                        <p className="text-sm">{message.text}</p>
-                        <p className={`text-xs mt-1 ${message.type === 'user' ? 'text-teal-200' : 'text-gray-500'}`}>
-                          {message.time}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-                
-                {isTyping && (
-                  <div className="flex justify-start">
-                    <div className="flex items-end space-x-2 max-w-xs">
-                      <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white">
-                        <Bot className="w-4 h-4" />
-                      </div>
-                      <div className="bg-white border px-4 py-2 rounded-2xl rounded-bl-md">
-                        <div className="flex space-x-1">
-                          <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
-                          <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-                          <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* Chat Input */}
-              <div className="p-4 border-t bg-white">
-                <div className="flex space-x-2">
-                  <input
-                    type="text"
-                    value={currentMessage}
-                    onChange={(e) => setCurrentMessage(e.target.value)}
-                    onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
-                    placeholder={t('seachat.hero.chat.typePlaceholder')}
-                    className="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                  />
+            <div className="w-full max-w-2xl space-y-6">
+              {/* Animation Controls */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-white font-semibold">SeaChat in Action</h3>
                   <button
-                    onClick={handleSendMessage}
-                    className="bg-teal-500 hover:bg-teal-600 text-white p-2 rounded-full transition-colors"
+                    onClick={() => setAutoRotate(!autoRotate)}
+                    className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                      autoRotate 
+                        ? 'bg-teal-500 text-white' 
+                        : 'bg-white/20 text-white hover:bg-white/30'
+                    }`}
                   >
-                    <Send className="w-5 h-5" />
+                    <RefreshCw className={`w-4 h-4 ${autoRotate ? 'animate-spin' : ''}`} />
+                    <span>{autoRotate ? 'Auto' : 'Manual'}</span>
                   </button>
                 </div>
+                
+                {/* Animation Selector */}
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                  {animations.map((animation) => (
+                    <button
+                      key={animation.id}
+                      onClick={() => {
+                        setActiveAnimation(animation.id);
+                        setAutoRotate(false);
+                      }}
+                      className={`p-3 rounded-lg text-sm text-left transition-all duration-300 ${
+                        activeAnimation === animation.id
+                          ? 'bg-teal-500 text-white transform scale-105'
+                          : 'bg-white/20 text-white hover:bg-white/30'
+                      }`}
+                    >
+                      <div className="font-medium mb-1">{animation.name}</div>
+                      <div className="text-xs opacity-80">{animation.description}</div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Active Animation */}
+              <div className="transition-all duration-500">
+                {(() => {
+                  const ActiveComponent = animations.find(anim => anim.id === activeAnimation)?.component;
+                  return ActiveComponent ? <ActiveComponent /> : null;
+                })()}
               </div>
             </div>
           </div>

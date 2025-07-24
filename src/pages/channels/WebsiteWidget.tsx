@@ -1,8 +1,18 @@
-import { Globe, Palette, Code, BarChart3, Smartphone, Monitor, ArrowLeft } from 'lucide-react';
+import { useEffect } from 'react';
+import { Globe, Palette, Code, BarChart3, ArrowLeft, Smartphone, Monitor } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const WebsiteWidget = () => {
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const platforms = [
     {
       name: 'WordPress',
@@ -92,10 +102,10 @@ const WebsiteWidget = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
               <div>
-                <a href="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
+                <Link to={`/${currentLanguage}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
                   Back to Channels
-                </a>
+                </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                   One Widget,{' '}
                   <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">

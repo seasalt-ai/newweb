@@ -56,6 +56,7 @@ import SeaChatRouter from './components/SeaChatRouter';
 import SeaXRouter from './seax/utils/SeaXRouter';
 import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
 import CompanyPage from './pages/CompanyPage';
+import CareersPage from './pages/careers';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
@@ -176,9 +177,9 @@ function App() {
           <Route path="compare/respond-io-alternative" element={<RespondIoAlternative />} />
           <Route path="compare/intercom-alternative" element={<IntercomAlternative />} />
           <Route path="compare/kustomer-alternative" element={<KustomerAlternative />} />
-          <Route path="compare/threecx-alternative" element={<ThreeCXAlternative />} />
+          <Route path="compare/3cx-alternative" element={<ThreeCXAlternative />} />
           <Route path="compare/dialpad-alternative" element={<DialpadAlternative />} />
-          <Route path="compare/eightxeight-alternative" element={<EightXEightAlternative />} />
+          <Route path="compare/8x8-alternative" element={<EightXEightAlternative />} />
           <Route path="compare/openphone-alternative" element={<OpenPhoneAlternative />} />
           <Route path="industries/e-commerce" element={<Ecommerce />} />
           <Route path="industries/healthcare" element={<Healthcare />} />
@@ -196,6 +197,7 @@ function App() {
           <Route path="blog/:slug" element={<BlogPost />} />
           <Route path="seahealth" element={<SeaHealth />} />
           <Route path="company" element={<CompanyPage />} />
+          <Route path="careers" element={<CareersPage />} />
         </Route>
         <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
         <Route path="terms" element={<MarkdownPage pageType="terms" />} />

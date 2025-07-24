@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ArrowLeft, Check, Star, Users, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
@@ -14,6 +14,7 @@ interface IndustryPageTemplateProps {
   bgColor: string;
   borderColor: string;
   icon: React.ComponentType<{ className?: string }>;
+  showSeaHealthLink?: boolean;
 }
 
 const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
@@ -23,9 +24,15 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
   color,
   bgColor,
   borderColor,
-  icon: Icon
+  icon: Icon,
+  showSeaHealthLink = false
 }) => {
   const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}` 
     : `/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}`;
@@ -107,6 +114,21 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                     See Demo
                   </a>
                 </div>
+                {showSeaHealthLink && (
+                  <div className="mt-6">
+                    <Link
+                      to={`/${i18n.language}/seahealth`}
+                      className={`inline-flex items-center ${color} hover:opacity-80 transition-all duration-200 text-lg font-medium`}
+                    >
+                      <span className="mr-2">Check out our HIPAA-compliant offering</span>
+                      <img 
+                        src="/logo-seahealth.svg" 
+                        alt="SeaHealth" 
+                        className="h-6 inline-block"
+                      />
+                    </Link>
+                  </div>
+                )}
               </div>
               
               <div className="mt-12 lg:mt-0">
@@ -246,6 +268,16 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                 Schedule Demo
               </a>
             </div>
+            {showSeaHealthLink && (
+              <div className="mt-6 text-center">
+                <Link
+                  to={`/${i18n.language}/seahealth`}
+                  className="inline-block text-white underline hover:text-gray-200 transition-colors duration-200 text-lg"
+                >
+                  Check out our HIPAA-compliant offering SeaHealth
+                </Link>
+              </div>
+            )}
           </div>
         </section>
       </main>

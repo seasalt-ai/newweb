@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { MessageCircle, Phone, MessageSquare, Monitor, Instagram, Mail, FileText, Smartphone, Globe, ArrowLeft, Star, Zap, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
@@ -6,6 +8,13 @@ import { useTranslation } from 'react-i18next';
 
 const ChannelsOverview = () => {
   const { i18n } = useTranslation();
+  
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
+  
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/channels-overview` 
     : `/${i18n.language}/channels-overview`;
@@ -190,10 +199,10 @@ const ChannelsOverview = () => {
         <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <a href="/" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+              <Link to={`/${i18n.language}`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                 <ArrowLeft className="h-5 w-5 mr-2" />
                 Back to Home
-              </a>
+              </Link>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                 Every Customer Channel,{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
@@ -266,12 +275,12 @@ const ChannelsOverview = () => {
                     ))}
                   </ul>
                   
-                  <a
-                    href={channel.link}
+                  <Link
+                    to={`/${i18n.language}${channel.link}`}
                     className="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-medium transition-colors duration-200"
                   >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>

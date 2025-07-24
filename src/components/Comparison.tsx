@@ -24,7 +24,7 @@ const Comparison = () => {
       aiCapabilities: '⚠️ AI is a paid add-on',
       bestFor: 'Sales teams that can afford multiple add-ons and meet the 3-user minimum.',
       highlight: false,
-      link: '/compare/aircall-alternative'
+      link: `/${i18n.language}/compare/aircall-alternative`
     },
     {
       name: 'RingCentral',
@@ -34,7 +34,7 @@ const Comparison = () => {
       aiCapabilities: '✅ Yes (AI-powered CCaaS)',
       bestFor: 'Large companies needing a broad UCaaS platform with a separate CCaaS.',
       highlight: false,
-      link: '/compare/ringcentral-alternative'
+      link: `/${i18n.language}/compare/ringcentral-alternative`
     },
     {
       name: 'Genesys Cloud CX',
@@ -44,7 +44,7 @@ const Comparison = () => {
       aiCapabilities: '✅ Yes (Complex token system)',
       bestFor: 'Large enterprises with dedicated contact center teams and budgets.',
       highlight: false,
-      link: '/compare/genesys-alternative'
+      link: `/${i18n.language}/compare/genesys-alternative`
     },
     {
       name: 'Five9',
@@ -54,7 +54,7 @@ const Comparison = () => {
       aiCapabilities: '✅ Yes (Advanced AI)',
       bestFor: 'Large, outbound-heavy contact centers needing enterprise-grade tools.',
       highlight: false,
-      link: '/compare/five9-alternative'
+      link: `/${i18n.language}/compare/five9-alternative`
     },
     {
       name: 'Google Voice',
@@ -64,7 +64,7 @@ const Comparison = () => {
       aiCapabilities: '❌ No (Voicemail transcription only)',
       bestFor: 'Solopreneurs (US-only) needing a basic, separate phone number.',
       highlight: false,
-      link: '/compare/google-voice-alternative'
+      link: `/${i18n.language}/compare/google-voice-alternative`
     }
   ];
 
