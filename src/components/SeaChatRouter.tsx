@@ -12,6 +12,7 @@ import KeyFeatures from '../seachat/components/KeyFeatures';
 import OmnichannelDemo from '../seachat/components/OmnichannelDemo';
 import FeatureTabs from '../seachat/components/FeatureTabs';
 import PricingSection from '../seachat/components/PricingSection';
+import FeatureComparison from '../seachat/components/FeatureComparison';
 import KnowledgeBase from '../seachat/components/KnowledgeBase';
 import UseCases from '../seachat/components/UseCases';
 import Testimonials from '../seachat/components/Testimonials';
@@ -57,6 +58,7 @@ function SeaChatHomePage() {
       <OmnichannelDemo />
       <FeatureTabs />
       <PricingSection />
+      <FeatureComparison />
       <KnowledgeBase />
       <UseCases />
       <Testimonials />
