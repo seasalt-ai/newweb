@@ -1,26 +1,9 @@
-import { useEffect, useState } from 'react';
-import { Phone, MessageSquare, MessageCircle, Megaphone, BarChart3, Users } from 'lucide-react';
+import { MessageSquare } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 
 const Hero = () => {
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState('marketing');
-  const [fade, setFade] = useState(true);
-  const [scale, setScale] = useState(true);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false);
-      setScale(false);
-      setTimeout(() => {
-        setActiveTab((prevTab) => (prevTab === 'marketing' ? 'support' : 'marketing'));
-        setFade(true);
-        setScale(true);
-      }, 250); // fade/scale out, then switch
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <section className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16 pb-20">
@@ -85,150 +68,25 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Column - Visual */}
+          {/* Right Column - Visual Placeholder */}
           <div className="mt-8 lg:mt-0">
             <div className="relative">
-              {/* Main Inbox Interface */}
-              <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 relative z-10">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-base sm:text-lg font-semibold text-gray-900">Unified Omni-Channel Hub</h3>
-                  <div className="flex space-x-1 sm:space-x-2">
-                    <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+              {/* Placeholder for future animation */}
+              <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl shadow-2xl p-8 sm:p-12 text-center relative z-10 min-h-[400px] flex flex-col items-center justify-center">
+                <div className="mb-6">
+                  <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <MessageSquare className="h-10 w-10 text-white" />
                   </div>
                 </div>
-                
-                {/* Tab Navigation */}
-                <div className="flex space-x-1 mb-3 sm:mb-4 bg-gray-100 rounded-lg p-1">
-                  <button
-                    onClick={() => setActiveTab('support')}
-                    className={`flex-1 flex items-center justify-center px-2 sm:px-3 py-1 sm:py-2 rounded-md text-xs sm:text-sm font-medium transition-all duration-200 ${
-                      activeTab === 'support' 
-                        ? 'bg-white text-blue-600 shadow-sm'
-                        : 'text-gray-600 hover:text-gray-900'
-                    }`}
-                  >
-                    <Users className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                    Support
-                  </button>
-                  <button
-                    onClick={() => setActiveTab('marketing')}
-                    className={`flex-1 flex items-center justify-center px-2 sm:px-3 py-1 sm:py-2 rounded-md text-xs sm:text-sm font-medium transition-all duration-200 ${
-                      activeTab === 'marketing' 
-                        ? 'bg-white text-orange-600 shadow-sm'
-                        : 'text-gray-600 hover:text-gray-900'
-                    }`}
-                  >
-                    <Megaphone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                    Marketing
-                  </button>
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
+                  Hero Animation Placeholder
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base max-w-sm">
+                  This space will contain the new hero animation once provided.
+                </p>
+                <div className="absolute top-4 right-4 text-xs text-gray-500 bg-white px-2 py-1 rounded">
+                  Coming Soon
                 </div>
-
-                <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">AI & Human Agents, 24/7</p>
-                
-                {/* Animated Tab Content */}
-                <div
-                  className={`transition-all duration-300
-                    ${fade ? 'opacity-100' : 'opacity-0'}
-                    ${scale ? 'scale-100' : 'scale-95'}
-                    ${activeTab === 'support' ? 'shadow-[0_0_24px_4px_rgba(37,99,235,0.15)] bg-cyan-200' : 'shadow-[0_0_24px_4px_rgba(251,146,60,0.15)] bg-orange-50'}
-                    rounded-xl
-                  `}
-                  style={{
-                    boxShadow: activeTab === 'support'
-                      ? '0 0 32px 8px rgba(37,99,235,0.18), 0 2px 8px 0 rgba(0,0,0,0.04)'
-                      : '0 0 32px 8px rgba(251,146,60,0.18), 0 2px 8px 0 rgba(0,0,0,0.04)'
-                  }}
-                  key={activeTab}
-                >
-                  {activeTab === 'support' && (
-                    <div className="space-y-2 sm:space-y-3">
-                      <div className="flex items-center p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-                        <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="text-xs sm:text-sm font-medium text-gray-900">Sarah Johnson</p>
-                          <p className="text-xs text-gray-600 truncate">Phone call about order status (Human Agent)</p>
-                        </div>
-                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">2m ago</span>
-                      </div>
-                      <div className="flex items-center p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
-                        <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="text-xs sm:text-sm font-medium text-gray-900">Mike Chen</p>
-                          <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question (AI Chatbot)</p>
-                        </div>
-                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">5m ago</span>
-                      </div>
-                      <div className="flex items-center p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-                        <MessageSquare className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="text-xs sm:text-sm font-medium text-gray-900">Lisa Park</p>
-                          <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry (AI & Human)</p>
-                        </div>
-                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">8m ago</span>
-                      </div>
-                      <div className="flex items-center p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
-                        <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0" />
-                        <div className="flex-1">
-                          <p className="text-xs sm:text-sm font-medium text-gray-900">David Kim</p>
-                          <p className="text-xs text-gray-600 truncate">Support call: Technical issue (AI Voicebot)</p>
-                        </div>
-                        <span className="text-xs text-gray-500 ml-1 flex-shrink-0">12m ago</span>
-                      </div>
-                    </div>
-                  )}
-                  {activeTab === 'marketing' && (
-                    <div className="space-y-3">
-                      <div className="flex items-center p-3 bg-orange-50 rounded-lg border-l-4 border-orange-500">
-                        <Megaphone className="h-5 w-5 text-orange-600 mr-3" />
-                        <div className="flex-1">
-                          <p className="text-sm font-medium text-gray-900">Black Friday Campaign</p>
-                          <p className="text-xs text-gray-600">SMS: 2,847 sent • 312 replies (AI & Human)</p>
-                        </div>
-                        <span className="text-xs text-green-600 font-medium">+47 leads</span>
-                      </div>
-                      <div className="flex items-center p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
-                        <MessageCircle className="h-5 w-5 text-green-600 mr-3" />
-                        <div className="flex-1">
-                          <p className="text-sm font-medium text-gray-900">WhatsApp Product Launch</p>
-                          <p className="text-xs text-gray-600">1,523 messages • 89 conversations (AI Copilot)</p>
-                        </div>
-                        <span className="text-xs text-green-600 font-medium">+23 sales</span>
-                      </div>
-                      <div className="flex items-center p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-                        <BarChart3 className="h-5 w-5 text-blue-600 mr-3" />
-                        <div className="flex-1">
-                          <p className="text-sm font-medium text-gray-900">Abandoned Cart Recovery</p>
-                          <p className="text-xs text-gray-600">Email + SMS: 156 recovered (AI Automation)</p>
-                        </div>
-                        <span className="text-xs text-green-600 font-medium">+$12.4k</span>
-                      </div>
-                      <div className="flex items-center p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-                        <Phone className="h-5 w-5 text-purple-600 mr-3" />
-                        <div className="flex-1">
-                          <p className="text-sm font-medium text-gray-900">Follow-up Call Campaign</p>
-                          <p className="text-xs text-gray-600">AI Voicebot: 89 calls • 34 appointments booked</p>
-                        </div>
-                        <span className="text-xs text-green-600 font-medium">+34 appts</span>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Floating Channel Icons */}
-              <div className="absolute -top-6 -left-6 bg-blue-600 p-3 rounded-full shadow-lg animate-bounce">
-                <Phone className="h-6 w-6 text-white" />
-              </div>
-              <div className="absolute -top-4 -right-8 bg-green-500 p-3 rounded-full shadow-lg animate-bounce" style={{ animationDelay: '0.5s' }}>
-                <MessageCircle className="h-6 w-6 text-white" />
-              </div>
-              <div className="absolute -bottom-6 -left-4 bg-purple-600 p-3 rounded-full shadow-lg animate-bounce" style={{ animationDelay: '1s' }}>
-                <MessageSquare className="h-6 w-6 text-white" />
-              </div>
-              <div className="absolute -bottom-4 -right-6 bg-orange-600 p-3 rounded-full shadow-lg animate-bounce" style={{ animationDelay: '1.5s' }}>
-                <Megaphone className="h-6 w-6 text-white" />
               </div>
             </div>
           </div>

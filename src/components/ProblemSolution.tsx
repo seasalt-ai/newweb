@@ -1,4 +1,4 @@
-import { MessageSquareWarning, Clock, Activity, Megaphone, Bot, Users } from 'lucide-react';
+import { MessageSquareWarning, Clock, Activity, Megaphone, Bot, Users, Phone, MessageCircle, MessageSquare } from 'lucide-react';
 
 const ProblemSolution = () => {
   const problems = [
@@ -63,7 +63,53 @@ const ProblemSolution = () => {
             <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
               Seasalt.ai: Your Omni-Channel Copiloted Solution
             </h3>
-            
+            {/* Unified Omni-Channel Hub Animation */}
+            <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 relative z-10 mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900">Unified Omni-Channel Hub</h3>
+                <div className="flex space-x-1 sm:space-x-2">
+                  <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                </div>
+              </div>
+              <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">AI & Human Agents, 24/7</p>
+              <div className="transition-all duration-300 shadow-[0_0_24px_4px_rgba(37,99,235,0.15)] bg-cyan-200 rounded-xl p-3 space-y-2 sm:space-y-3">
+                <div className="flex items-center p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                  <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0" />
+                  <div className="flex-1">
+                    <p className="text-xs sm:text-sm font-medium text-gray-900">Sarah Johnson</p>
+                    <p className="text-xs text-gray-600 truncate">Phone call about order status (Human Agent)</p>
+                  </div>
+                  <span className="text-xs text-gray-500 ml-1 flex-shrink-0">2m ago</span>
+                </div>
+                <div className="flex items-center p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
+                  <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0" />
+                  <div className="flex-1">
+                    <p className="text-xs sm:text-sm font-medium text-gray-900">Mike Chen</p>
+                    <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question (AI Chatbot)</p>
+                  </div>
+                  <span className="text-xs text-gray-500 ml-1 flex-shrink-0">5m ago</span>
+                </div>
+                <div className="flex items-center p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+                  <MessageSquare className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0" />
+                  <div className="flex-1">
+                    <p className="text-xs sm:text-sm font-medium text-gray-900">Lisa Park</p>
+                    <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry (AI & Human)</p>
+                  </div>
+                  <span className="text-xs text-gray-500 ml-1 flex-shrink-0">8m ago</span>
+                </div>
+                <div className="flex items-center p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
+                  <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0" />
+                  <div className="flex-1">
+                    <p className="text-xs sm:text-sm font-medium text-gray-900">David Kim</p>
+                    <p className="text-xs text-gray-600 truncate">Support call: Technical issue (AI Voicebot)</p>
+                  </div>
+                  <span className="text-xs text-gray-500 ml-1 flex-shrink-0">12m ago</span>
+                </div>
+              </div>
+            </div>
+
             {/* Visual Marketing/Support/Human Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
               {/* Marketing Section */}
