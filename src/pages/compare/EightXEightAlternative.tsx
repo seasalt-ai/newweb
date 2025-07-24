@@ -6,7 +6,6 @@ import Footer from '../../components/Footer';
 import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 
 const EightXEightAlternative = () => {
-  const { i18n } = useTranslation();
   const currentLanguage = useNormalizedLanguage();
   const comparisonFeatures = [
     {

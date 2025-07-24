@@ -13,6 +13,7 @@ const Healthcare = () => {
       bgColor={industryData.bgColor}
       borderColor={industryData.borderColor}
       icon={industryData.icon}
+      showSeaHealthLink={true}
     />
   );
 };
