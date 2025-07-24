@@ -6,53 +6,78 @@ const FeatureComparison = () => {
   const { t } = useTranslation();
   const [showAllFeatures, setShowAllFeatures] = useState(true);
 
+  // Company logo mapping
+  const companyLogos = {
+    'chatbase': '/company_icons/chatbase.png',
+    'crisp.chat': '/company_icons/crisp_chat.png',
+    'tawk.to': '/company_icons/tawk_to.png',
+    'tidio': '/company_icons/tidio.png',
+    'botpress': '/company_icons/botpress.jpg',
+    'freshchat': '/company_icons/freshchat.png',
+    'ManyChat': '/company_icons/manychat.jpeg',
+    'Kustomer': '/company_icons/kustomer.webp',
+    'chatfuel': '/company_icons/chatfuel.png',
+    'jivochat': '/company_icons/jivochat.jpg',
+    'Calendly': '/company_icons/calendly.png',
+    'Cal.com': '/company_icons/cal_com.jpg',
+    'Retell': '/company_icons/retell.png',
+    'Bland AI': '/company_icons/bland_ai.jpg',
+    'Synthflow': '/company_icons/synthflow.jpg',
+    'textline': '/company_icons/textline.png',
+    'textrequest': '/company_icons/textrequest.jpg',
+    'salesmsg': '/company_icons/salesmsg.jpg',
+    'Sendgrid': '/company_icons/sendgrid.jpg',
+    'MailChimp': '/company_icons/mailchimp.png',
+    'Twilio': '/company_icons/twilio.png'
+  };
+
   // Features data based on the provided markdown table
   const features = [
     {
       feature: t('seachat.featureComparison.features.chatbotWebsite', 'Chatbot for website'),
-      replaces: 'chatbase, crisp.chat, tawk.to, tidio, botpress',
+      replaces: ['chatbase', 'crisp.chat', 'tawk.to', 'tidio', 'botpress'],
       otherTools: '$99 per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.chatWidget', 'Chat widget with live agent'),
-      replaces: 'tawk.to, freshchat',
+      replaces: ['tawk.to', 'freshchat'],
       otherTools: '$23 per agent per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.whatsappMessenger', 'WhatsApp/Messenger/Instagram'),
-      replaces: 'ManyChat, Kustomer, chatfuel, jivochat',
+      replaces: ['ManyChat', 'Kustomer', 'chatfuel', 'jivochat'],
       otherTools: '$89 per user per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.multiCalendar', 'Multi Calendar bookings'),
-      replaces: 'Calendly, Cal.com',
+      replaces: ['Calendly', 'Cal.com'],
       otherTools: '$10 per seat per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.phoneCallAI', 'Inbound phone call AI agents'),
-      replaces: 'Retell, Bland AI, Synthflow',
+      replaces: ['Retell', 'Bland AI', 'Synthflow'],
       otherTools: '$29 per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.smsActions', 'Built-in actions - SMS'),
-      replaces: 'textline, textrequest, salesmsg',
+      replaces: ['textline', 'textrequest', 'salesmsg'],
       otherTools: '$59 per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.emailActions', 'Built-in actions - Email'),
-      replaces: 'Sendgrid, MailChimp',
+      replaces: ['Sendgrid', 'MailChimp'],
       otherTools: '$20 per month',
       seachat: 'TRUE'
     },
     {
       feature: t('seachat.featureComparison.features.phoneNumber', 'Purchase phone number'),
-      replaces: 'Twilio',
+      replaces: ['Twilio'],
       otherTools: '$2 to $3 per month',
       seachat: 'TRUE'
     },
@@ -64,31 +89,73 @@ const FeatureComparison = () => {
     },
     {
       feature: t('seachat.featureComparison.features.bulkSMS', 'Bulk outbound SMS, Call, WhatsApp'),
-      replaces: '',
+      replaces: [],
       otherTools: '',
       seachat: 'Integrate with SeaX from Seasalt.ai'
     },
     {
       feature: t('seachat.featureComparison.features.unlimitedContacts', 'Unlimited Contacts'),
-      replaces: 'ManyChat',
+      replaces: ['ManyChat'],
       otherTools: '$65 per 10K contacts',
       seachat: 'Unlimited'
     },
     {
       feature: t('seachat.featureComparison.features.knowledgeBase', 'Extra knowledge base'),
-      replaces: 'Synthflow',
+      replaces: ['Synthflow'],
       otherTools: '$8 per extra knowledge base',
       seachat: '5,000 documents or 50M tokens'
     },
     {
       feature: t('seachat.featureComparison.features.extraChatbot', 'Extra chatbot'),
-      replaces: 'Chatbase',
+      replaces: ['chatbase'],
       otherTools: '$7 per extra chatbot',
       seachat: '10 bots × 5 channels = 50 channel-bots'
     }
   ];
 
   const displayedFeatures = showAllFeatures ? features : features.slice(0, 8);
+
+  const renderCompanyLogos = (companies: string[] | string) => {
+    if (typeof companies === 'string') {
+      if (companies === 'UNIQUE to SeaChat') {
+        return (
+          <div className="flex items-center justify-center">
+            <Star className="w-4 h-4 text-yellow-500 mr-2" />
+            <span className="text-xs text-yellow-700 font-medium">UNIQUE</span>
+          </div>
+        );
+      }
+      return <span className="text-xs text-gray-600">{companies}</span>;
+    }
+    
+    if (!companies || companies.length === 0) {
+      return <span className="text-xs text-gray-400">-</span>;
+    }
+
+    return (
+      <div className="flex flex-wrap items-center justify-center gap-2">
+        {companies.map((company, index) => {
+          const logoPath = companyLogos[company as keyof typeof companyLogos];
+          if (logoPath) {
+            return (
+              <img
+                key={index}
+                src={logoPath}
+                alt={company}
+                className="w-6 h-6 rounded object-contain"
+                title={company}
+              />
+            );
+          }
+          return (
+            <span key={index} className="text-xs text-gray-600 px-1">
+              {company}
+            </span>
+          );
+        })}
+      </div>
+    );
+  };
 
   const renderSeaChatValue = (value: string) => {
     if (value === 'TRUE') {
@@ -213,7 +280,7 @@ const FeatureComparison = () => {
                       {item.feature}
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-600 text-center border-r border-gray-200">
-                      {item.replaces || '-'}
+                      {renderCompanyLogos(item.replaces)}
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-600 text-center font-medium border-r border-gray-200">
                       {item.otherTools || '-'}
@@ -272,9 +339,9 @@ const FeatureComparison = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center py-2 border-b border-gray-100">
                     <span className="text-sm text-gray-600">Replaces:</span>
-                    <span className="text-sm text-gray-800 text-right max-w-48">
-                      {item.replaces || '-'}
-                    </span>
+                    <div className="text-right max-w-48">
+                      {renderCompanyLogos(item.replaces)}
+                    </div>
                   </div>
                   
                   <div className="flex justify-between items-center py-2 border-b border-gray-100">
