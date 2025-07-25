@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { loadBlogPost, BlogPost } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
+import { LANGUAGE_DETAILS } from '../constants/languages';
 
 // Helper function to create a structured data for blog post
 const createArticleStructuredData = (post: BlogPost) => {
@@ -165,6 +166,10 @@ const BlogPostPage = () => {
           availableLanguages={post.availableLanguages}
           image={post.image_thumbnail}
           type="article"
+          author={post.author}
+          publishedTime={new Date(post.date).toISOString()}
+          tags={post.tags}
+          slug={slug}
         />
       )}
       
@@ -225,9 +230,7 @@ const BlogPostPage = () => {
                             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                         }`}
                       >
-                        {langCode === 'en' ? 'English' : 
-                         langCode === 'es' ? 'Español' : 
-                         langCode === 'zh-TW' ? '繁體中文' : langCode}
+                        {LANGUAGE_DETAILS.find(l => l.code === langCode)?.name || langCode}
                       </button>
                     ))}
                   </div>
@@ -269,48 +272,39 @@ const BlogPostPage = () => {
 
         {/* Blog Content */}
         <section className="py-8 sm:py-12 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <article 
-              className="prose sm:prose-lg prose-blue max-w-none
-                prose-headings:text-gray-900 prose-headings:font-bold
-                prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8
-                prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-8
-                prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-6
-                prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
-                prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
-                prose-strong:text-gray-900 prose-strong:font-semibold
-                prose-ul:mb-6 prose-ol:mb-6
-                prose-li:text-gray-700 prose-li:mb-2
-                prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg
-                prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm
-                prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:rounded-lg prose-pre:p-4
-                prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto"
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            />
-          </div>
-        </section>
-
-        {/* Author Bio */}
-        <section className="py-8 sm:py-12 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
-              <div className="flex items-start space-x-3 sm:space-x-4">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-white font-bold text-base sm:text-xl">
-                    {post.author.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">{post.author}</h3>
-                  <p className="text-sm sm:text-base text-gray-600">
-                    Part of the Seasalt.ai team, passionate about helping businesses transform their 
-                    customer communications with AI-powered automation and intelligent insights.
-                  </p>
-                </div>
-              </div>
+          <div className="max-w-none mx-auto">
+            {/* Content Container with Medium-like width */}
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+              <article 
+                className="prose prose-lg prose-blue max-w-none
+                  prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
+                  prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-12 prose-h1:font-extrabold prose-h1:leading-tight
+                  prose-h2:text-3xl prose-h2:mb-6 prose-h2:mt-12 prose-h2:font-bold prose-h2:leading-tight
+                  prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-10 prose-h3:font-semibold prose-h3:leading-tight
+                  prose-h4:text-xl prose-h4:mb-3 prose-h4:mt-8 prose-h4:font-semibold
+                  prose-p:text-gray-800 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg prose-p:font-normal
+                  prose-a:text-blue-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-blue-700
+                  prose-strong:text-gray-900 prose-strong:font-semibold
+                  prose-em:text-gray-700 prose-em:font-medium
+                  prose-ul:mb-8 prose-ol:mb-8 prose-ul:text-lg prose-ol:text-lg
+                  prose-li:text-gray-800 prose-li:mb-3 prose-li:leading-relaxed
+                  prose-blockquote:border-l-4 prose-blockquote:border-green-500 prose-blockquote:bg-green-50 
+                  prose-blockquote:py-6 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:my-8
+                  prose-blockquote:text-lg prose-blockquote:font-medium prose-blockquote:italic
+                  prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-base prose-code:font-mono
+                  prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:rounded-xl prose-pre:p-6 prose-pre:my-8 prose-pre:text-sm
+                  prose-img:rounded-xl prose-img:shadow-xl prose-img:mx-auto prose-img:my-8
+                  prose-table:my-8 prose-table:text-base
+                  prose-th:bg-gray-50 prose-th:font-semibold prose-th:text-gray-900
+                  prose-td:text-gray-800
+                  prose-hr:my-12 prose-hr:border-gray-200
+                  first:prose-p:text-xl first:prose-p:font-medium first:prose-p:text-gray-700 first:prose-p:leading-8"
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />
             </div>
           </div>
         </section>
+
 
         {/* CTA Section */}
         <section className="py-16 sm:py-20 bg-gradient-to-r from-blue-600 to-blue-700">
