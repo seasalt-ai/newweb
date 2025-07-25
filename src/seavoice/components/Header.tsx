@@ -36,6 +36,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
 import ProductLogoDropdown from '../../components/ProductLogoDropdown';
+import LanguageSwitcher from '../../components/LanguageSwitcher';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -72,39 +73,6 @@ const Header = () => {
     { name: 'Fraud Alerts', href: `/${i18n.language}/seavoice/solutions/outbound/fraud-alerts`, icon: AlertTriangle },
   ];
 
-  const changeLanguage = (languageCode: string) => {
-    const { pathname } = location;
-    const currentLang = i18n.language;
-    let newPath;
-
-    // Handle SeaVoice paths - should preserve the /seavoice structure
-    if (pathname.includes('/seavoice')) {
-      if (pathname.startsWith(`/${currentLang}/seavoice`)) {
-        newPath = pathname.replace(`/${currentLang}/seavoice`, `/${languageCode}/seavoice`);
-      } else if (pathname.startsWith('/seavoice')) {
-        newPath = pathname.replace('/seavoice', `/${languageCode}/seavoice`);
-      } else {
-        newPath = `/${languageCode}/seavoice`;
-      }
-    } else {
-      // Default language handling
-      if (pathname.startsWith(`/${currentLang}/`)) {
-        newPath = pathname.replace(`/${currentLang}/`, `/${languageCode}/`);
-      } else if (pathname === `/${currentLang}`) {
-        newPath = `/${languageCode}`;
-      } else {
-        newPath = `/${languageCode}${pathname}`;
-      }
-    }
-
-    navigate(newPath);
-    setIsLanguageOpen(false);
-  };
-
-  const getCurrentLanguageName = () => {
-    const currentLang = LANGUAGE_DETAILS.find(lang => lang.code === i18n.language);
-    return currentLang ? currentLang.shortCode : 'EN';
-  };
 
   const navigation = [
     { 
@@ -294,30 +262,7 @@ const Header = () => {
 
         {/* Language Selector */}
           <div className="hidden md:flex items-center space-x-4">
-            <div className="relative">
-              <button
-                onClick={() => setIsLanguageOpen(!isLanguageOpen)}
-                className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
-              >
-                <span className="mr-1">{getCurrentLanguageName()}</span>
-                <ChevronDown className="h-4 w-4" />
-              </button>
-              {isLanguageOpen && (
-                <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-                  {LANGUAGE_DETAILS.map((language) => (
-                    <button
-                      key={language.code}
-                      onClick={() => changeLanguage(language.code)}
-                      className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
-                        i18n.language === language.code ? 'font-semibold text-blue-600 bg-blue-50' : 'text-gray-700'
-                      }`}
-                    >
-                      {language.name} 
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+            <LanguageSwitcher className="" />
         
             <a
               href="https://chat.seasalt.ai/gpt/signin"
@@ -364,20 +309,7 @@ const Header = () => {
             ))}
             {/* Mobile Language Selector */}
             <div className="px-3 py-2">
-              <div className="text-sm font-medium text-gray-900 mb-2">Language / Idioma / 语言</div>
-              <div className="pl-4 space-y-1 max-h-40 overflow-y-auto">
-                {LANGUAGE_DETAILS.map((language) => (
-                  <button
-                    key={language.code}
-                    onClick={() => changeLanguage(language.code)}
-                    className={`block w-full text-left py-1 text-sm ${
-                      i18n.language === language.code ? 'font-semibold text-blue-600' : 'text-gray-600 hover:text-gray-900'
-                    }`}
-                  >
-                    {language.name} 
-                  </button>
-                ))}
-              </div>
+              <LanguageSwitcher className="w-full" />
             </div>
 
             <div className="mt-4 pt-4 border-t border-gray-200 space-y-2">
