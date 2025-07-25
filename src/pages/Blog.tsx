@@ -120,7 +120,9 @@ const Blog = () => {
         description="Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl || `/${lang}/blog`}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={['en', 'es', 'zh-TW', 'fr', 'de', 'ja', 'ko', 'ar', 'hi', 'th', 'vi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'fil']}
+        type="website"
+        image="/seasalt-ai-blog-og.png"
       />
       
       {/* Add structured data for blog listing */}

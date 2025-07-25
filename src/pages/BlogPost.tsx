@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import { loadBlogPost, BlogPost } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 import { LANGUAGE_DETAILS } from '../constants/languages';
+import BlogTableOfContents from '../components/BlogTableOfContents';
 
 // Helper function to create a structured data for blog post
 const createArticleStructuredData = (post: BlogPost) => {
@@ -271,7 +272,10 @@ const BlogPostPage = () => {
         </section>
 
         {/* Blog Content */}
-        <section className="py-8 sm:py-12 bg-white">
+        <section className="py-8 sm:py-12 bg-white relative">
+          {/* Table of Contents */}
+          <BlogTableOfContents content={post.content} />
+          
           <div className="max-w-none mx-auto">
             {/* Content Container with Medium-like width */}
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
