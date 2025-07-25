@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import PhoneBanner from '../../components/PhoneBanner';
 import UnifiedHomePage from '../pages/UnifiedHomePage';
 import PlatformPage from '../pages/PlatformPage';
 import SolutionsPage from '../pages/SolutionsPage';
@@ -37,6 +38,7 @@ const SeaVoiceRouter = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <PhoneBanner />
       <Header />
       <main>
         <Routes>

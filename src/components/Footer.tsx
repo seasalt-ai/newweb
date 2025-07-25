@@ -227,12 +227,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to={`/${currentLanguage}/press`} className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
-                  <Newspaper className="h-4 w-4 mr-2" />
-                  Press
-                </Link>
-              </li>
-              <li>
                 <Link to={`/${currentLanguage}/company`} className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
                   <Building className="h-4 w-4 mr-2" />
                   {t('footer.company.about')}

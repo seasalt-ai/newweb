@@ -29,6 +29,7 @@ import LanguageSwitcher from '../../components/LanguageSwitcher';
 import { useLanguageAwareLinks } from '../../hooks/useLanguageAwareLinks';
 import { LANGUAGE_DETAILS } from '../../constants/languages';
 import ProductLogoDropdown from '../../components/ProductLogoDropdown';
+import PhoneBanner from '../../components/PhoneBanner';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Header = () => {
@@ -205,7 +206,9 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-100 z-50" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
+      <div className="fixed top-0 left-0 right-0 z-50">
+        <PhoneBanner />
+        <header className="bg-white border-b border-gray-100" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
           {/* Logo with dropdown */}
@@ -581,7 +584,8 @@ const Header = () => {
         </div>
       )}
 
-      </header>
+        </header>
+      </div>
       
       {/* Backdrop for dropdowns - outside header to prevent re-renders */}
       {openDropdown && (

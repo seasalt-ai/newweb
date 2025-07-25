@@ -1,50 +1,61 @@
-import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield } from 'lucide-react';
+import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield, Bot, Brain, Database, BarChart3, Code, Globe, Settings, ShoppingCart, DollarSign, GraduationCap, Building2, Monitor, Briefcase, Book, Server } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
-  const productLinks = [
-    { name: 'Features', href: '#features' },
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'Integrations', href: '#integrations' },
-    { name: 'API Documentation', href: '#api' },
-    { name: 'Mobile Apps', href: '#mobile' }
+  const featuresLinks = [
+    { name: t('seachat.header.featuresDropdown.humanAgents'), href: `/${currentLanguage}/seachat/features/human-agents`, icon: Users },
+    { name: t('seachat.header.featuresDropdown.aiAutomation'), href: `/${currentLanguage}/seachat/features/ai-automation`, icon: Bot },
+    { name: t('seachat.header.featuresDropdown.advancedAI'), href: `/${currentLanguage}/seachat/features/advanced-ai`, icon: Brain },
+    { name: t('seachat.header.featuresDropdown.knowledgeBase'), href: `/${currentLanguage}/seachat/features/knowledge-base`, icon: Database },
+    { name: t('seachat.header.featuresDropdown.voiceAgents'), href: `/${currentLanguage}/seachat/features/voice-agents`, icon: Phone },
+    { name: t('seachat.header.featuresDropdown.analytics'), href: `/${currentLanguage}/seachat/features/analytics`, icon: BarChart3 },
+    { name: t('seachat.header.featuresDropdown.omnichannel'), href: `/${currentLanguage}/seachat/features/omnichannel`, icon: MessageSquare },
+    { name: t('seachat.header.featuresDropdown.api'), href: `/${currentLanguage}/seachat/features/api`, icon: Code }
+  ];
+
+  const integrationsLinks = [
+    { name: t('seachat.header.integrationsDropdown.websites'), href: `/${currentLanguage}/seachat/integrations/websites`, icon: Globe },
+    { name: t('seachat.header.integrationsDropdown.crm'), href: `/${currentLanguage}/seachat/integrations/crm`, icon: Users },
+    { name: t('seachat.header.integrationsDropdown.ecommerce'), href: `/${currentLanguage}/seachat/integrations/ecommerce`, icon: ShoppingCart },
+    { name: t('seachat.header.integrationsDropdown.socialMedia'), href: `/${currentLanguage}/seachat/integrations/social-media`, icon: MessageSquare },
+    { name: t('seachat.header.integrationsDropdown.communication'), href: `/${currentLanguage}/seachat/integrations/communication`, icon: Phone },
+    { name: t('seachat.header.integrationsDropdown.marketing'), href: `/${currentLanguage}/seachat/integrations/marketing`, icon: BarChart3 },
+    { name: t('seachat.header.integrationsDropdown.calendar'), href: `/${currentLanguage}/seachat/integrations/calendar`, icon: Settings },
+    { name: t('seachat.header.integrationsDropdown.api'), href: `/${currentLanguage}/seachat/integrations/api`, icon: Code }
+  ];
+
+  const solutionsLinks = [
+    { name: t('seachat.header.solutionsDropdown.ecommerce'), href: `/${currentLanguage}/seachat/solutions/ecommerce`, icon: ShoppingCart },
+    { name: t('seachat.header.solutionsDropdown.healthcare'), href: `/${currentLanguage}/seachat/solutions/healthcare`, icon: Heart },
+    { name: t('seachat.header.solutionsDropdown.fintech'), href: `/${currentLanguage}/seachat/solutions/fintech`, icon: DollarSign },
+    { name: t('seachat.header.solutionsDropdown.education'), href: `/${currentLanguage}/seachat/solutions/education`, icon: GraduationCap },
+    { name: t('seachat.header.solutionsDropdown.realEstate'), href: `/${currentLanguage}/seachat/solutions/real-estate`, icon: Building2 },
+    { name: t('seachat.header.solutionsDropdown.travel'), href: `/${currentLanguage}/seachat/solutions/travel`, icon: MapPin },
+    { name: t('seachat.header.solutionsDropdown.saas'), href: `/${currentLanguage}/seachat/solutions/saas`, icon: Monitor },
+    { name: t('seachat.header.solutionsDropdown.smallBusiness'), href: `/${currentLanguage}/seachat/solutions/small-business`, icon: Briefcase }
   ];
 
   const companyLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Careers', href: '#careers' },
-    { name: 'Press Kit', href: '#press' },
-    { name: 'Contact', href: '#contact' },
-    { name: 'Partners', href: '#partners' }
-  ];
-
-  const resourceLinks = [
-    { name: 'Documentation', href: '#docs' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Community', href: '#community' },
-    { name: 'Help Center', href: '#help' },
-    { name: 'Status Page', href: '#status' },
-    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai/seachat' }
-  ];
-
-  const legalLinks = [
-    { name: 'Privacy Policy', href: '#privacy' },
-    { name: 'Terms of Service', href: '#terms' },
-    { name: 'Cookie Policy', href: '#cookies' },
-    { name: 'GDPR', href: '#gdpr' },
-    { name: 'Security', href: '#security' }
+    { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
+    { name: t('header.pricing'), href: `/${currentLanguage}/seachat/pricing`, icon: DollarSign },
+    { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
+    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai/seachat', icon: Book },
+    { name: 'API References', href: 'https://api.seasalt.ai', icon: Server },
+    { name: 'Careers', href: `/${currentLanguage}/careers`, icon: Briefcase },
+    { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
   ];
 
   return (
     <footer className="bg-gray-900 text-white" dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
               <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-8 brightness-0 invert" />
             </div>
@@ -61,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>+1 (877) 731-2882</span>
+                <span>+1 (SMB)-AI-AGENT</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-4 h-4" />
@@ -85,99 +96,91 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product Links */}
+          {/* Features */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.footer.product')}</h3>
+            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.features')}</h3>
             <ul className="space-y-3">
-              {productLinks.map((link) => (
+              {featuresLinks.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors flex items-center"
                   >
+                    <link.icon className="w-4 h-4 mr-2" />
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Company Links */}
+          {/* Integrations */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.footer.company')}</h3>
+            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.integrations')}</h3>
+            <ul className="space-y-3">
+              {integrationsLinks.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors flex items-center"
+                  >
+                    <link.icon className="w-4 h-4 mr-2" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Solutions */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.solutions')}</h3>
+            <ul className="space-y-3">
+              {solutionsLinks.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors flex items-center"
+                  >
+                    <link.icon className="w-4 h-4 mr-2" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">{t('footer.company.title')}</h3>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.footer.resources')}</h3>
-            <ul className="space-y-3">
-              {resourceLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Legal Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.footer.legal')}</h3>
-            <ul className="space-y-3">
-              {legalLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </a>
+                  {link.href.startsWith('http') ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors flex items-center"
+                    >
+                      <link.icon className="w-4 h-4 mr-2" />
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link
+                      to={link.href}
+                      className="text-gray-400 hover:text-white transition-colors flex items-center"
+                    >
+                      <link.icon className="w-4 h-4 mr-2" />
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        {/* Newsletter Section */}
-        <div className="border-t border-gray-800 mt-12 pt-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-4">{t('seachat.footer.getStarted')}</h3>
-            <p className="text-gray-400 mb-8">
-              {t('seachat.footer.joinThousands')}
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto mb-8">
-              <input
-                type="email"
-                placeholder={t('seachat.footer.enterEmail')}
-                className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-              />
-              <a href="https://chat.seasalt.ai/gpt/signup" className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-                {t('seachat.common.getStarted')}
-              </a>
-            </div>
-            
-            <p className="text-sm text-gray-500">
-              {t('seachat.footer.noCredit')}
-            </p>
-          </div>
-        </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8">
@@ -223,6 +226,35 @@ const Footer = () => {
               <Gem className="inline w-4 h-4 text-fuchsia-500" />
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* CTA Banner */}
+      <div className="bg-gradient-to-r from-teal-600 to-cyan-600 py-6 sm:py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+          <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+            Ready to Transform Your Customer Support?
+          </h3>
+          <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
+            Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              className="bg-white text-teal-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              Sign Up Free
+            </a>
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              Schedule Demo
+            </a>
+          </div>
+          <p className="text-sm text-white opacity-75 mt-4">
+            No credit card required • Setup in 2 minutes • Cancel anytime
+          </p>
         </div>
       </div>
     </footer>
