@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 // SeaChat components
 import Header from '../seachat/components/Header';
 import Footer from '../seachat/components/Footer';
+import PhoneBanner from './PhoneBanner';
 
 // Home page components
 import Hero from '../seachat/components/Hero';
@@ -75,6 +76,7 @@ const SeaChatRouter = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <PhoneBanner />
       <Header />
       <Routes>
         {/* Home */}

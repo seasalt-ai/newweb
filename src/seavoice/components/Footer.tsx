@@ -1,31 +1,57 @@
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity } from 'lucide-react';
+import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2 } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
-  const footerLinks = {
-    Platform: [
-      { name: 'Platform Overview', href: '/seavoice/platform' },
-      { name: 'Landline & Mobile Voice', href: '/seavoice/platform/landline-mobile' },
-      { name: 'VoIP & SIP & BYOC', href: '/seavoice/platform/voip-sip-byoc' },
-      { name: 'WhatsApp Voice API', href: '/seavoice/platform/whatsapp-voice' },
-      { name: 'Speech-to-Text', href: '/seavoice/platform/speech-to-text' },
-      { name: 'Text-to-Speech', href: '/seavoice/platform/text-to-speech' },
-    ],
-    Solutions: [
-      { name: 'Virtual Assistant', href: '/seavoice/solutions/inbound/virtual-assistant' },
-      { name: 'Lead Generation', href: '/seavoice/solutions/outbound/lead-generation' },
-      { name: 'Appointment Booking', href: '/seavoice/solutions/inbound/appointment-booking' },
-      { name: 'Customer Support', href: '/seavoice/solutions/inbound/technical-support' },
-      { name: 'View All Solutions', href: '/seavoice/solutions' },
-    ],
-    Company: [
-      { name: 'About Us', href: '/company' },
-      { name: 'Blog', href: '/blog' },
-      { name: 'Contact Us', href: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting' },
-      { name: 'Careers', href: '#careers' },
-    ],
-  };
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  
+  const platformLinks = [
+    { name: 'Platform Overview', href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
+    { name: 'Landline & Mobile Voice', href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
+    { name: 'VoIP & SIP & BYOC Voice', href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
+    { name: 'Line Call Plus for Businesses', href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: MessageSquare },
+    { name: 'WhatsApp Voice API for Businesses', href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
+    { name: 'Speech To Text', href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: MicOff },
+    { name: 'Text To Speech', href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Mic },
+    { name: 'End To End LLMs', href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain },
+  ];
+
+  const inboundSolutionsLinks = [
+    { name: '24/7 Virtual Assistant', href: `/${currentLanguage}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
+    { name: 'Smart Call Transfer', href: `/${currentLanguage}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
+    { name: 'IVR Replacement', href: `/${currentLanguage}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
+    { name: 'Mental Health Companion', href: `/${currentLanguage}/seavoice/solutions/inbound/mental-health`, icon: Heart },
+    { name: 'Scam Shield Protection', href: `/${currentLanguage}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
+    { name: 'Technical Support', href: `/${currentLanguage}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
+    { name: 'Order Status & Tracking', href: `/${currentLanguage}/seavoice/solutions/inbound/order-tracking`, icon: Package },
+    { name: 'Payment Processing', href: `/${currentLanguage}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
+    { name: 'Appointment Booking', href: `/${currentLanguage}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
+  ];
+
+  const outboundSolutionsLinks = [
+    { name: 'Lead Generation & Qualification', href: `/${currentLanguage}/seavoice/solutions/outbound/lead-generation`, icon: Target },
+    { name: 'Collections Service', href: `/${currentLanguage}/seavoice/solutions/outbound/collections`, icon: DollarSign },
+    { name: 'Customer Reactivation', href: `/${currentLanguage}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
+    { name: 'Senior Check Calls', href: `/${currentLanguage}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
+    { name: 'Large Scale Campaigns', href: `/${currentLanguage}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
+    { name: 'Proactive Support', href: `/${currentLanguage}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
+    { name: 'Subscription Renewals', href: `/${currentLanguage}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
+    { name: 'Customer Surveys', href: `/${currentLanguage}/seavoice/solutions/outbound/surveys`, icon: Mail },
+    { name: 'Fraud Alerts', href: `/${currentLanguage}/seavoice/solutions/outbound/fraud-alerts`, icon: Shield },
+  ];
+
+  const companyLinks = [
+    { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
+    { name: 'Pricing', href: `/${currentLanguage}/seavoice/pricing`, icon: DollarSign },
+    { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
+    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai', icon: Book },
+    { name: 'API References', href: 'https://api.seasalt.ai', icon: Server },
+    { name: 'Careers', href: `/${currentLanguage}/careers`, icon: Briefcase },
+    { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 },
+  ];
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -52,7 +78,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>+1 (877) 731-2882</span>
+                <span>+1 (SMB)-AI-AGENT</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-4 h-4" />
@@ -77,59 +103,99 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Footer Links */}
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
-                {category}
-              </h3>
-              <ul className="space-y-2">
-                {links.map((link) => (
-                  <li key={link.name}>
-            {link.href.startsWith('http') ? (
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-400 hover:text-white transition-colors text-sm"
-                      >
-                        {link.name}
-                      </a>
-                    ) : (
-                      <Link
-                        to={link.href}
-                        className="text-gray-400 hover:text-white transition-colors text-sm"
-                      >
-                        {link.name}
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+          {/* Platform Links */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+              Platform
+            </h3>
+            <ul className="space-y-2">
+              {platformLinks.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                  >
+                    <link.icon className="w-4 h-4 mr-2" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-        {/* Newsletter Signup */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <h3 className="text-lg font-semibold mb-2">Stay Updated</h3>
-              <p className="text-gray-400">Get the latest news and updates from SeaVoice.</p>
-            </div>
-            <div className="flex space-x-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-600"
-              />
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center">
-                <Mail className="w-4 h-4 mr-2" />
-                Subscribe
-              </button>
-            </div>
+          {/* Inbound Solutions Links */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+              Inbound Solutions
+            </h3>
+            <ul className="space-y-2">
+              {inboundSolutionsLinks.slice(0, 6).map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                  >
+                    <link.icon className="w-4 h-4 mr-2" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Outbound Solutions Links */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+              Outbound Solutions
+            </h3>
+            <ul className="space-y-2">
+              {outboundSolutionsLinks.slice(0, 6).map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                  >
+                    <link.icon className="w-4 h-4 mr-2" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Company Links */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+              Company
+            </h3>
+            <ul className="space-y-2">
+              {companyLinks.map((link) => (
+                <li key={link.name}>
+                  {link.href.startsWith('http') ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                    >
+                      <link.icon className="w-4 h-4 mr-2" />
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link
+                      to={link.href}
+                      className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                    >
+                      <link.icon className="w-4 h-4 mr-2" />
+                      {link.name}
+                    </Link>
+                  )}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
+
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-gray-800">
@@ -175,6 +241,32 @@ const Footer = () => {
             <Plane className="inline w-4 h-4 text-gray-500" />{' '}
             <Gem className="inline w-4 h-4 text-fuchsia-500" />
           </p>
+        </div>
+      </div>
+
+      {/* CTA Banner */}
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+          <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+            Ready to Automate 80% of Your Customer Calls?
+          </h3>
+          <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
+            Join hundreds of businesses using SeaVoice AI agents to handle customer calls 24/7, reduce costs, and improve customer satisfaction.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              Get Started Free
+            </a>
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+            >
+              Book a Demo
+            </a>
+          </div>
         </div>
       </div>
     </footer>
