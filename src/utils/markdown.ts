@@ -21,6 +21,8 @@ export interface BlogPost {
   excerpt?: string;
   language?: string;
   availableLanguages?: string[];
+  url?: string; // Hugo URL field for custom paths
+  draft?: boolean; // Hugo draft status
 }
 
 export interface BlogPostMeta {
@@ -34,6 +36,8 @@ export interface BlogPostMeta {
   excerpt?: string;
   language?: string;
   availableLanguages?: string[];
+  url?: string; // Hugo URL field for custom paths
+  draft?: boolean; // Hugo draft status
 }
 
 // Function to extract YouTube video ID from URL
@@ -129,9 +133,51 @@ export async function processMarkdown(content: string): Promise<string> {
   return result.toString();
 }
 
-// Function to parse a markdown file
+// Function to normalize image paths to ensure they start with /
+function normalizeImagePath(imagePath: string): string {
+  if (!imagePath || imagePath.startsWith('http') || imagePath === '/seasalt-ai-icon.png') {
+    return imagePath;
+  }
+  
+  // Ensure the path starts with a leading slash
+  if (!imagePath.startsWith('/')) {
+    return '/' + imagePath;
+  }
+  
+  return imagePath;
+}
+
+// Function to normalize date format (handles both string dates and Date objects)
+function normalizeDateFormat(date: any): string {
+  if (!date) return new Date().toISOString().split('T')[0];
+  
+  // If it's already a string in YYYY-MM-DD format, return it
+  if (typeof date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(date)) {
+    return date.split('T')[0]; // Take only the date part if it includes time
+  }
+  
+  // Try to parse as Date and convert to YYYY-MM-DD
+  try {
+    const parsedDate = new Date(date);
+    if (!isNaN(parsedDate.getTime())) {
+      return parsedDate.toISOString().split('T')[0];
+    }
+  } catch (error) {
+    console.warn('Could not parse date:', date);
+  }
+  
+  // Fallback to current date
+  return new Date().toISOString().split('T')[0];
+}
+
+// Function to parse a markdown file with Hugo YAML support
 export async function parseMarkdownFile(content: string, slug: string, language: string = 'en'): Promise<BlogPost> {
   const { data, content: markdownContent } = matter(content);
+  
+  // Skip draft posts in production
+  if (data.draft === true && process.env.NODE_ENV === 'production') {
+    throw new Error('Draft post should not be rendered in production');
+  }
   
   // Process the markdown content to HTML
   const htmlContent = await processMarkdown(markdownContent);
@@ -144,22 +190,34 @@ export async function parseMarkdownFile(content: string, slug: string, language:
   
   return {
     slug,
-    title: data.title || 'Untitled',
-    meta_description: data.meta_description || '',
+    title: data.title || data.metatitle || 'Untitled',
+    // Hugo compatibility: map 'description' to 'meta_description'
+    meta_description: data.meta_description || data.description || '',
     author: data.author || 'Seasalt.ai Team',
     tags: data.tags || [],
-    date: data.date || new Date().toISOString().split('T')[0],
-    image_thumbnail: data.image_thumbnail || '/seasalt-ai-icon.png',
+    // Normalize date format to handle Hugo's date format
+    date: normalizeDateFormat(data.date),
+    // Hugo compatibility: map 'image' to 'image_thumbnail'
+    // Normalize image paths to ensure they start with /
+    image_thumbnail: normalizeImagePath(data.image_thumbnail || data.image || '/seasalt-ai-icon.png'),
     content: htmlContent,
     excerpt,
     language,
-    availableLanguages
+    availableLanguages,
+    // Hugo fields
+    url: data.url || data.canonicalURL,
+    draft: data.draft || false
   };
 }
 
-// Function to get blog post metadata only
+// Function to get blog post metadata only with Hugo YAML support
 export async function parseMarkdownMeta(content: string, slug: string, language: string = 'en'): Promise<BlogPostMeta> {
   const { data, content: markdownContent } = matter(content);
+  
+  // Skip draft posts in production
+  if (data.draft === true && process.env.NODE_ENV === 'production') {
+    throw new Error('Draft post should not be rendered in production');
+  }
   
   // Create excerpt from content (first 150 characters)
   const excerpt = markdownContent.replace(/[#*`]/g, '').substring(0, 150) + '...';
@@ -169,15 +227,22 @@ export async function parseMarkdownMeta(content: string, slug: string, language:
   
   return {
     slug,
-    title: data.title || 'Untitled',
-    meta_description: data.meta_description || '',
+    title: data.title || data.metatitle || 'Untitled',
+    // Hugo compatibility: map 'description' to 'meta_description'
+    meta_description: data.meta_description || data.description || '',
     author: data.author || 'Seasalt.ai Team',
     tags: data.tags || [],
-    date: data.date || new Date().toISOString().split('T')[0],
-    image_thumbnail: data.image_thumbnail || '/seasalt-ai-icon.png',
+    // Normalize date format to handle Hugo's date format
+    date: normalizeDateFormat(data.date),
+    // Hugo compatibility: map 'image' to 'image_thumbnail'
+    // Normalize image paths to ensure they start with /
+    image_thumbnail: normalizeImagePath(data.image_thumbnail || data.image || '/seasalt-ai-icon.png'),
     excerpt,
     language,
-    availableLanguages
+    availableLanguages,
+    // Hugo fields
+    url: data.url || data.canonicalURL,
+    draft: data.draft || false
   };
 }
 
@@ -218,8 +283,15 @@ export async function loadAllBlogPosts(language: string = 'en'): Promise<BlogPos
     }
   }
   
-  // Sort posts by date (newest first)
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  // Filter out draft posts in production and sort by date (newest first)
+  const filteredPosts = posts.filter(post => {
+    if (process.env.NODE_ENV === 'production' && post.draft === true) {
+      return false;
+    }
+    return true;
+  });
+  
+  return filteredPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 // Function to get all blog slugs (useful for sitemap generation)
@@ -241,7 +313,7 @@ export async function getAllBlogSlugs(): Promise<{slug: string, language: string
   return slugs;
 }
 
-// Function to load a specific blog post
+// Function to load a specific blog post with Hugo YAML support
 export async function loadBlogPost(slug: string, language: string = 'en'): Promise<BlogPost | null> {
   try {
     const blogModules = import.meta.glob('/content/blog/**/*.md', { as: 'raw' });
@@ -258,7 +330,14 @@ export async function loadBlogPost(slug: string, language: string = 'en'): Promi
     }
     
     const content = await blogModules[path]();
-    return await parseMarkdownFile(content, slug, language);
+    const post = await parseMarkdownFile(content, slug, language);
+    
+    // Skip draft posts in production
+    if (process.env.NODE_ENV === 'production' && post.draft === true) {
+      return null;
+    }
+    
+    return post;
   } catch (error) {
     console.error('Error loading blog post:', error);
     return null;
