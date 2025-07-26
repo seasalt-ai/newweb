@@ -221,7 +221,14 @@ const Blog = () => {
                     <div className="p-4 sm:p-6">
                       <div className="flex flex-wrap items-center text-xs sm:text-sm text-gray-500 mb-2 sm:mb-3 gap-2 sm:gap-0">
                         <Calendar className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
-                        <span className="mr-2 sm:mr-4">{formatDate(post.date)}</span>
+                        <span className="mr-2 sm:mr-4">
+                          {formatDate(post.date)}
+                          {post.modified_date && post.modified_date !== post.date && (
+                            <span className="text-xs text-gray-400 ml-1">
+                              (Updated: {formatDate(post.modified_date)})
+                            </span>
+                          )}
+                        </span>
                         <User className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
                         <span>{post.author}</span>
                       </div>

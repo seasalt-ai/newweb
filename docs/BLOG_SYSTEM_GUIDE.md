@@ -187,6 +187,7 @@ meta_description: "SEO-optimized description"
 author: "Author Name"
 tags: ["Tag1", "Tag2", "Tag3"]
 date: "2024-12-07"
+modified_date: "2024-12-15"  # Optional: Last modified date for SEO
 image_thumbnail: "https://example.com/image.jpg"
 ---
 ```
@@ -288,6 +289,7 @@ Automatic generation of:
    author: "Author Name"
    tags: ["Category1", "Topic2", "Feature3"]
    date: "2024-12-07"
+   modified_date: "2024-12-15"  # Optional: Add when content is updated
    image_thumbnail: "/images/blog/featured-image.jpg"
    ---
    ```

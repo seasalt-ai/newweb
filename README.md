@@ -26,6 +26,7 @@ This repository contains the source code for the Seasalt.ai website, a React-bas
   - [Adding a New Language](#adding-a-new-language)
   - [Translation Files](#translation-files)
   - [Translating Blog Posts](#translating-blog-posts)
+- [Automated Multilingual Blog System](#automated-multilingual-blog-system)
 - [Contributing](#contributing)
 
 ## Development
@@ -298,6 +299,39 @@ To create a translated version of a blog post:
 ```bash
 npm run seo-update
 ```
+
+## Automated Multilingual Blog System
+
+This project includes a comprehensive automated multilingual blog system that supports AI-powered translation to all 20 supported languages with zero human intervention.
+
+### 📚 Documentation
+
+- **[Automated Multilingual Blog System Guide](docs/AUTOMATED_MULTILINGUAL_BLOG_SYSTEM.md)** - Overview and workflow for the AI translation system
+- **[Technical Implementation Guide](docs/MULTILINGUAL_BLOG_TECHNICAL_GUIDE.md)** - Detailed technical documentation with complete implementation details
+- **[Blog System Guide](docs/BLOG_SYSTEM_GUIDE.md)** - Comprehensive guide to the enhanced blog system features
+
+### Key Features
+
+- **Automated AI Translation**: Write in English, automatically translate to 19 other languages
+- **Zero Human Intervention**: Fully automated workflow from source to deployment
+- **SEO Optimized**: Proper hreflang tags, multilingual sitemaps, and structured data
+- **Cost Effective**: Estimated $1.52-$4.56 per article for all translations
+- **Quality Monitoring**: Built-in quality scoring and performance metrics
+- **Smart Fallbacks**: Graceful handling of missing translations
+
+### Quick Start
+
+1. Write your blog post in English under `content/blog/en/`
+2. Run the automated translation:
+   ```bash
+   npm run blog:translate-all your-post-slug
+   ```
+3. Deploy to all languages:
+   ```bash
+   npm run blog:deploy-multilingual your-post-slug
+   ```
+
+For detailed implementation instructions, see the [Technical Implementation Guide](docs/MULTILINGUAL_BLOG_TECHNICAL_GUIDE.md).
 
 ## Contributing
 

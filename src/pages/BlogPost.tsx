@@ -18,6 +18,7 @@ const createArticleStructuredData = (post: BlogPost) => {
     "description": post.meta_description,
     "image": post.image_thumbnail,
     "datePublished": post.date,
+    "dateModified": post.modified_date || post.date, // Use modified_date if available, otherwise fall back to date
     "author": {
       "@type": "Person",
       "name": post.author
@@ -177,6 +178,7 @@ const BlogPostPage = () => {
           type="article"
           author={post.author}
           publishedTime={new Date(post.date).toISOString()}
+          modifiedTime={post.modified_date ? new Date(post.modified_date).toISOString() : undefined}
           tags={post.tags}
           slug={slug}
         />
@@ -213,7 +215,14 @@ const BlogPostPage = () => {
             <div className="flex flex-wrap items-center text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6 gap-2 sm:gap-4">
               <div className="flex items-center flex-shrink-0">
                 <Calendar className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
-                <span>{formatDate(post.date)}</span>
+                <span>
+                  Published: {formatDate(post.date)}
+                  {post.modified_date && post.modified_date !== post.date && (
+                    <span className="block text-xs text-gray-400 mt-0.5">
+                      Updated: {formatDate(post.modified_date)}
+                    </span>
+                  )}
+                </span>
               </div>
               <div className="flex items-center flex-shrink-0">
                 <User className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />

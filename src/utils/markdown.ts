@@ -17,6 +17,7 @@ export interface BlogPost {
   author: string;
   tags: string[];
   date: string;
+  modified_date?: string; // Optional modified date for SEO and content updates
   image_thumbnail: string;
   content: string;
   excerpt?: string;
@@ -33,6 +34,7 @@ export interface BlogPostMeta {
   author: string;
   tags: string[];
   date: string;
+  modified_date?: string; // Optional modified date for SEO and content updates
   image_thumbnail: string;
   excerpt?: string;
   language?: string;
@@ -228,6 +230,8 @@ export async function parseMarkdownFile(content: string, slug: string, language:
     tags: data.tags || [],
     // Normalize date format to handle Hugo's date format
     date: normalizeDateFormat(data.date),
+    // Handle modified_date field for SEO and content updates
+    modified_date: data.modified_date ? normalizeDateFormat(data.modified_date) : undefined,
     // Hugo compatibility: map 'image' to 'image_thumbnail'
     // Normalize image paths to ensure they start with /
     image_thumbnail: normalizeImagePath(data.image_thumbnail || data.image || '/seasalt-ai-icon.png'),
@@ -265,6 +269,8 @@ export async function parseMarkdownMeta(content: string, slug: string, language:
     tags: data.tags || [],
     // Normalize date format to handle Hugo's date format
     date: normalizeDateFormat(data.date),
+    // Handle modified_date field for SEO and content updates
+    modified_date: data.modified_date ? normalizeDateFormat(data.modified_date) : undefined,
     // Hugo compatibility: map 'image' to 'image_thumbnail'
     // Normalize image paths to ensure they start with /
     image_thumbnail: normalizeImagePath(data.image_thumbnail || data.image || '/seasalt-ai-icon.png'),
