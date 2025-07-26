@@ -60,7 +60,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
       </button>
       
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
+        <div className="absolute top-full right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
           {LANGUAGE_DETAILS.map((language) => (
             <button
               key={language.code}
@@ -69,7 +69,10 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
                 i18n.language === language.code ? 'font-semibold text-blue-600 bg-blue-50' : 'text-gray-700'
               }`}
             >
-              {language.name}
+              <div className="flex justify-between items-center">
+                <span className="font-medium">{language.name}</span>
+                <span className="text-xs text-gray-500 ml-2">{language.englishName}</span>
+              </div>
             </button>
           ))}
         </div>
