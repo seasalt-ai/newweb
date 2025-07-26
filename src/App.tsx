@@ -61,6 +61,7 @@ import CareersPage from './pages/careers';
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
 import FaviconManager from './components/FaviconManager';
+import ScrollToTop from './components/ScrollToTop';
 
 // Component to handle SeaChat redirects
 const SeaChatRedirect = () => {
@@ -125,6 +126,7 @@ function App() {
 
   return (
     <Router basename={basename}>
+      <ScrollToTop />
       <FaviconManager>
         <Routes>
         {/* Root path redirects to current language */}

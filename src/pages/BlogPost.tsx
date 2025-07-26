@@ -71,6 +71,14 @@ const BlogPostPage = () => {
     loadPost();
   }, [slug, lang, i18n.language]);
 
+  // Additional scroll to top when blog post changes
+  useEffect(() => {
+    if (post && !loading) {
+      // Ensure we scroll to top when the blog post content is loaded
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  }, [post, loading]);
+
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('en-US', {
       year: 'numeric',
