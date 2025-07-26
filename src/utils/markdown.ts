@@ -11,7 +11,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 export interface BlogPost {
   slug: string;
-  title: string;
+  title: string; // Display title (for H1, content display)
+  seo_title: string; // SEO title (for <title> tag, search results)
   meta_description: string;
   author: string;
   tags: string[];
@@ -147,6 +148,33 @@ function normalizeImagePath(imagePath: string): string {
   return imagePath;
 }
 
+// Function to extract clean URL path from Hugo URL field
+function extractUrlPath(url: string | undefined): string | null {
+  if (!url) return null;
+  
+  // Remove leading/trailing slashes and normalize
+  let cleanUrl = url.trim();
+  if (cleanUrl.startsWith('/')) {
+    cleanUrl = cleanUrl.substring(1);
+  }
+  if (cleanUrl.endsWith('/')) {
+    cleanUrl = cleanUrl.substring(0, cleanUrl.length - 1);
+  }
+  
+  // Remove /blog/ prefix if present since we'll add it back in routing
+  if (cleanUrl.startsWith('blog/')) {
+    cleanUrl = cleanUrl.substring(5);
+  }
+  
+  return cleanUrl || null;
+}
+
+// Function to get the URL path for a blog post (custom URL or slug)
+export function getBlogPostUrlPath(post: { slug: string; url?: string }): string {
+  const customPath = extractUrlPath(post.url);
+  return customPath || post.slug;
+}
+
 // Function to normalize date format (handles both string dates and Date objects)
 function normalizeDateFormat(date: any): string {
   if (!date) return new Date().toISOString().split('T')[0];
@@ -190,7 +218,10 @@ export async function parseMarkdownFile(content: string, slug: string, language:
   
   return {
     slug,
+    // Display title (for H1, content display) - title takes precedence for display
     title: data.title || data.metatitle || 'Untitled',
+    // SEO title (for <title> tag, search results) - metatitle takes precedence for SEO
+    seo_title: data.metatitle || data.title || 'Untitled',
     // Hugo compatibility: map 'description' to 'meta_description'
     meta_description: data.meta_description || data.description || '',
     author: data.author || 'Seasalt.ai Team',
@@ -340,6 +371,47 @@ export async function loadBlogPost(slug: string, language: string = 'en'): Promi
     return post;
   } catch (error) {
     console.error('Error loading blog post:', error);
+    return null;
+  }
+}
+
+// Function to load a blog post by its URL path (custom URL or slug)
+export async function loadBlogPostByUrlPath(urlPath: string, language: string = 'en'): Promise<BlogPost | null> {
+  try {
+    // First, try to load it as a direct slug
+    let post = await loadBlogPost(urlPath, language);
+    if (post) {
+      return post;
+    }
+    
+    // If not found, search through all blog posts to find one with matching custom URL
+    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+    
+    for (const path in blogModules) {
+      // Only check posts for the specified language
+      if (path.startsWith(`/content/blog/${language}/`)) {
+        const content = blogModules[path];
+        const slug = path.replace(`/content/blog/${language}/`, '').replace('.md', '');
+        const postMeta = await parseMarkdownMeta(content, slug, language);
+        
+        // Check if this post's custom URL matches the requested path
+        const postUrlPath = getBlogPostUrlPath(postMeta);
+        if (postUrlPath === urlPath) {
+          // Load the full post
+          return await loadBlogPost(slug, language);
+        }
+      }
+    }
+    
+    // If still not found and not already trying English, try English fallback
+    if (language !== 'en') {
+      console.log(`Post with URL path ${urlPath} not found in ${language}, trying English fallback`);
+      return loadBlogPostByUrlPath(urlPath, 'en');
+    }
+    
+    return null;
+  } catch (error) {
+    console.error('Error loading blog post by URL path:', error);
     return null;
   }
 }

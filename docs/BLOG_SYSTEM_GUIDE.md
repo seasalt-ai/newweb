@@ -103,6 +103,55 @@ Native video element with controls for local video files:
 
 ### 4. Comprehensive SEO Optimization
 
+#### Meta Title vs Display Title
+
+- **Meta Title (`metatitle`)**: 
+  - Used for the HTML `\u003ctitle\u003e` tag
+  - Appears in browser tabs and search results
+  - Should be concise (50-60 characters)
+  - Keyword-focused and may include brand name
+  - Used in SEOHelmet for SEO purposes
+
+- **Display Title (`title`)**: 
+  - Used within the blog content as an H1 heading
+  - Can be more descriptive and longer
+  - Designed for user readability and engagement
+
+#### Meta Description
+
+- Used in the HTML `\u003cmeta name="description"\u003e` tag
+- Appears in search engine snippets
+- Should be 150-160 characters for optimal display
+- Should succinctly summarize the content
+
+#### Structured Data
+
+- Implement JSON-LD structured data using the `seo_title`
+- Use the `meta_description` for the `description` field
+- Enhances SEO by providing search engines with clear metadata
+
+#### URL Management
+
+- Ensure URLs are readable and include relevant keywords
+- Use the custom `url` field in frontmatter for specific deployments
+
+#### Image Optimization
+
+- Use descriptive filenames and alt text
+- Ensure thumbnails and featured images are properly defined in metadata
+
+#### Tagging and Categorization
+
+- Use tags for related topics and subtopics
+- Keep the number of tags reasonable to maintain focus
+
+#### Best Practices Summary
+
+- Always use `metatitle` for SEO purposes
+- Separate `title` for content display and readability
+- Optimize meta descriptions and titles for keywords and clarity
+- Use structured data to enhance visibility and SERP features
+
 #### Meta Tags
 - Dynamic title generation
 - Meta descriptions
@@ -149,7 +198,7 @@ image_thumbnail: "https://example.com/image.jpg"
 - `availableLanguages`: Dynamically detected
 - `content`: Processed HTML from markdown
 
-## Implementation Details
+---
 
 ### Core Files Structure
 

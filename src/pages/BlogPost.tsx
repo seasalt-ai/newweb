@@ -4,7 +4,7 @@ import { ArrowLeft, Calendar, User, Tag, Share2, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { loadBlogPost, BlogPost } from '../utils/markdown';
+import { loadBlogPostByUrlPath, BlogPost } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 import { LANGUAGE_DETAILS } from '../constants/languages';
 import BlogTableOfContents from '../components/BlogTableOfContents';
@@ -14,7 +14,7 @@ const createArticleStructuredData = (post: BlogPost) => {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": post.title,
+    "headline": post.seo_title, // Use SEO title for search engines
     "description": post.meta_description,
     "image": post.image_thumbnail,
     "datePublished": post.date,
@@ -54,7 +54,7 @@ const BlogPostPage = () => {
       }
 
       try {
-        const blogPost = await loadBlogPost(slug, lang || i18n.language);
+        const blogPost = await loadBlogPostByUrlPath(slug, lang || i18n.language);
         if (blogPost) {
           setPost(blogPost);
         } else {
@@ -168,7 +168,7 @@ const BlogPostPage = () => {
       {/* SEO Tags */}
       {post && (
         <SEOHelmet
-          title={post.title}
+          title={post.seo_title}
           description={post.meta_description || `${post.title} - Seasalt.ai Blog`}
           favicon="/seasalt-ai-favicon.ico"
           canonicalUrl={canonicalUrl}

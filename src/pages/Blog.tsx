@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { loadAllBlogPosts, BlogPostMeta } from '../utils/markdown';
+import { loadAllBlogPosts, BlogPostMeta, getBlogPostUrlPath } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 
 // Helper function to create a structured data for blog listing
@@ -227,7 +227,7 @@ const Blog = () => {
                       </div>
                       
                       <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors duration-200">
-                        <Link to={`/${i18n.language}/blog/${post.slug}`}>
+                        <Link to={`/${i18n.language}/blog/${getBlogPostUrlPath(post)}`}>
                           {post.title}
                         </Link>
                       </h2>
@@ -252,7 +252,7 @@ const Blog = () => {
                       )}
                       
                       <Link
-                        to={`/${i18n.language}/blog/${post.slug}`}
+                        to={`/${i18n.language}/blog/${getBlogPostUrlPath(post)}`}
                         className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                       >
                         Read More →
