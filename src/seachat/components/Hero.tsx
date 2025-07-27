@@ -140,10 +140,19 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
           <div className="text-white space-y-8">
+            {/* Badge */}
+            <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
+              <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+              <span className="text-sm font-medium text-white">
+                Start Free with Live Agents
+              </span>
+            </div>
+
+            {/* Main headline matching SeaX style */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                {t('seachat.hero.title')}{' '}
-                <span className="text-teal-300">{t('seachat.hero.subtitle')}</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
+                <span className="block">Respond To</span>
+                <span className="block"><span className="text-teal-300">Millions</span> 24/7</span>
               </h1>
             </div>
             

@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
@@ -83,6 +83,9 @@ const SeaXRouter = () => {
       <Route path="industries/political-campaigns" element={<PoliticalCampaigns />} />
       <Route path="industries/healthcare" element={<Healthcare />} />
       <Route path="industries/financial-services" element={<FinancialServices />} />
+      
+      {/* Catch-all route for non-matching paths - redirect to SeaX home */}
+      <Route path="*" element={<Navigate to="" replace />} />
     </Routes>
   );
 };

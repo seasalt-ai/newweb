@@ -120,7 +120,7 @@ const VoicePlatformArchitecture = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <AnimatePresence exitBeforeEnter>
+            <AnimatePresence mode="wait">
               {isDetailVisible && (
                 <motion.div
                   key={activeModule}

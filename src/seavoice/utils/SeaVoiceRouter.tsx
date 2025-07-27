@@ -72,6 +72,8 @@ const SeaVoiceRouter = () => {
           <Route path="/solutions/outbound/fraud-alerts" element={<FraudAlertsPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/company/*" element={<Navigate to="/company" replace />} />
+          {/* Catch-all route for non-matching paths - redirect to SeaVoice home */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
       <Footer />
