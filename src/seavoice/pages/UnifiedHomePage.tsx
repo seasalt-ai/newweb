@@ -1,9 +1,11 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Clock, ChevronDown } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Clock, ChevronDown, Brain, Mic, Speaker } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import VoiceDemo from '../components/VoiceDemo';
+import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
+import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
 
 const UnifiedHomePage = () => {
   const navigate = useNavigate();
@@ -12,6 +14,107 @@ const UnifiedHomePage = () => {
   
   const [openFaqIndex, setOpenFaqIndex] = useState<number | string | null>(null);
   
+  // Voice Conversation Flow state
+  const [currentStep, setCurrentStep] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [autoHighlight, setAutoHighlight] = useState(0);
+  const [currentConversation, setCurrentConversation] = useState(0);
+  const [showCustomerText, setShowCustomerText] = useState(false);
+  const [showAIText, setShowAIText] = useState(false);
+  
+  // Interactive Call Dashboard state
+  const [selectedCall, setSelectedCall] = useState(0);
+  const [dashboardFilter, setDashboardFilter] = useState('all');
+  
+  // Voice Conversation Flow data
+  const conversationSteps = [
+    {
+      step: 1,
+      title: "Customer Calls",
+      description: "Caller dials your business number",
+      icon: Phone,
+      color: "blue",
+      status: "calling"
+    },
+    {
+      step: 2,
+      title: "AI Agent Answers",
+      description: "SeaVoice AI picks up instantly",
+      icon: Bot,
+      color: "purple",
+      status: "answering"
+    },
+    {
+      step: 3,
+      title: "Natural Conversation",
+      description: "Human-like voice interaction",
+      icon: Mic,
+      color: "teal",
+      status: "talking"
+    },
+    {
+      step: 4,
+      title: "Task Completion",
+      description: "Booking, support, or transfer",
+      icon: CheckCircle,
+      color: "green",
+      status: "completed"
+    }
+  ];
+
+  const conversationExamples = [
+    {
+      customerMessage: "Hi, I'd like to book an appointment for next week.",
+      aiResponse: "I'd be happy to help you schedule an appointment! Let me check our availability for next week. What type of service are you looking for?",
+      scenario: "Appointment booking"
+    },
+    {
+      customerMessage: "I'm having trouble with my recent order. Can you help?",
+      aiResponse: "Of course! I'm here to help with your order. Can you please provide your order number so I can look up the details for you?",
+      scenario: "Customer support"
+    },
+    {
+      customerMessage: "What are your business hours?", 
+      aiResponse: "We're open Monday through Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM. We're closed on Sundays. Is there anything specific you'd like to know about our services?",
+      scenario: "General inquiry"
+    }
+  ];
+
+  // Animation effects
+  useEffect(() => {
+    if (isPlaying) {
+      const stepInterval = setInterval(() => {
+        setCurrentStep((prev) => (prev + 1) % conversationSteps.length);
+      }, 3000);
+      
+      const highlightInterval = setInterval(() => {
+        setAutoHighlight((prev) => (prev + 1) % 4);
+      }, 1500);
+      
+      const conversationInterval = setInterval(() => {
+        setCurrentConversation((prev) => (prev + 1) % conversationExamples.length);
+        setShowCustomerText(false);
+        setShowAIText(false);
+        
+        setTimeout(() => setShowCustomerText(true), 500);
+        setTimeout(() => setShowAIText(true), 1500);
+      }, 6000);
+      
+      // Initial text display
+      setTimeout(() => setShowCustomerText(true), 500);
+      setTimeout(() => setShowAIText(true), 1500);
+      
+      return () => {
+        clearInterval(stepInterval);
+        clearInterval(highlightInterval);
+        clearInterval(conversationInterval);
+      };
+    } else {
+      setShowCustomerText(false);
+      setShowAIText(false);
+    }
+  }, [isPlaying, conversationExamples.length]);
+
   const handleNavigateToSolution = (path: string) => {
     // Navigate within the SeaVoice context with proper language prefix
     const languagePrefix = lang || i18n.language || 'en';
@@ -255,6 +358,62 @@ const UnifiedHomePage = () => {
     },
   ];
 
+  // Interactive Call Dashboard data
+  const mockCalls = [
+    {
+      id: 1,
+      customer: "Sarah Johnson",
+      type: "Appointment Booking",
+      status: "completed",
+      duration: "3:42",
+      time: "2 minutes ago",
+      satisfaction: 5,
+      outcome: "Appointment scheduled for next Tuesday at 2 PM",
+      tags: ["booking", "satisfied"]
+    },
+    {
+      id: 2,
+      customer: "Mike Chen", 
+      type: "Technical Support",
+      status: "transferred",
+      duration: "1:28",
+      time: "5 minutes ago",
+      satisfaction: 4,
+      outcome: "Transferred to technical specialist - Issue: Login problems",
+      tags: ["support", "escalated"]
+    },
+    {
+      id: 3,
+      customer: "Emily Rodriguez",
+      type: "Order Inquiry",
+      status: "completed",
+      duration: "2:15",
+      time: "8 minutes ago",
+      satisfaction: 5,
+      outcome: "Order status provided - Package will arrive tomorrow",
+      tags: ["inquiry", "resolved"]
+    },
+    {
+      id: 4,
+      customer: "David Wilson",
+      type: "Billing Question",
+      status: "in-progress",
+      duration: "1:03",
+      time: "Just now",
+      satisfaction: null,
+      outcome: "Currently discussing billing discrepancy",
+      tags: ["billing", "active"]
+    }
+  ];
+
+  const dashboardStats = {
+    totalCalls: 247,
+    activeCalls: 3,
+    avgWaitTime: "0:12",
+    satisfaction: 4.8,
+    resolutionRate: 92
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section */}
@@ -283,64 +442,75 @@ const UnifiedHomePage = () => {
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="text-center mb-20"
-          >
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left column - Hero Content */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white/80 text-sm font-medium mb-8"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1.2, ease: "easeOut" }}
+              className="text-left"
             >
-              <Zap className="w-4 h-4 mr-2 text-yellow-400" />
-              Your Business Never Sleeps
-            </motion.div>
-            
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8 tracking-tight">
-              <span className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
-                AI Voice Agents
-              </span>
-              <br />
-              <span className="text-white/90">Answer Calls 24/7</span>
-            </h1>
-            
-            <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mx-auto mb-12 font-light">
-              Transform customer interactions with human-like AI that never sleeps.
-              <br className="hidden sm:block" />
-              <span className="text-blue-300">Automate support, bookings, and <span className="font-bold text-yellow-300">outbound call with scale</span>.</span>
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-              <motion.a 
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                className="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center justify-center overflow-hidden"
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white/80 text-sm font-medium mb-8"
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <span className="relative z-10">Book a Demo</span>
-                <ArrowRight className="relative z-10 ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </motion.a>
+                <Zap className="w-4 h-4 mr-2 text-yellow-400" />
+                Your Business Never Sleeps
+              </motion.div>
               
-              <motion.a 
-                href="https://chat.seasalt.ai/signup" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                className="group relative bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center"
-              >
-                <span>Sign Up Now</span>
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </motion.a>
-            </div>
-            
-          </motion.div>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8 tracking-tight">
+                <span className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
+                  AI Voice Agents
+                </span>
+                <br />
+                <span className="text-white/90">Handle Calls 24/7</span>
+              </h1>
+              
+              <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mb-12 font-light">
+                Transform customer interactions with human-like AI that never sleeps.
+                <br className="hidden sm:block" />
+                <span className="text-blue-300">Automate support, bookings, and <span className="font-bold text-yellow-300">outbound call with scale</span>.</span>
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-6 justify-start mb-16">
+                <motion.a 
+                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center justify-center overflow-hidden"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative z-10">Book a Demo</span>
+                  <ArrowRight className="relative z-10 ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </motion.a>
+                
+                <motion.a 
+                  href="https://chat.seasalt.ai/signup" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center"
+                >
+                  <span>Sign Up Now</span>
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </motion.a>
+              </div>
+            </motion.div>
+
+            {/* Right column - Conversation Flow Visualization */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
+            >
+              <VoiceConversationFlow />
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -1018,6 +1188,9 @@ const UnifiedHomePage = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Interactive Call Dashboard */}
+      <InteractiveCallDashboard />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">

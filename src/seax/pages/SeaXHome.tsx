@@ -445,13 +445,13 @@ const SeaXHome = () => {
               <span>Request a Personalized Demo</span>
               <ArrowRight className="w-5 h-5" />
             </a>
-            <Link
-              to={getLocalizedPath('/pricing')}
+            <a
+              href="https://seax.seasalt.ai/signup"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center space-x-2"
             >
               <BarChart3 className="w-5 h-5" />
-              <span>Calculate Your ROI</span>
-            </Link>
+              <span>Sign Up Now</span>
+            </a>
           </div>
           
           <p className="text-blue-100">

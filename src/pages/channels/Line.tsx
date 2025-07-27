@@ -295,12 +295,6 @@ const Line = () => {
               >
                 Start LINE Integration
               </a>
-              <a
-                href="#consultation"
-                className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
-              >
-                Get Market Consultation
-              </a>
             </div>
           </div>
         </section>

@@ -72,13 +72,13 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5" />
               </a>
               
-              <button
-                onClick={handleVideoPlay}
+              <a
+                href="https://seax.seasalt.ai/signup"
                 className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl border"
               >
                 <Play className="w-5 h-5" />
-                <span>Watch Demo</span>
-              </button>
+                <span>Sign Up</span>
+              </a>
             </div>
 
             {/* Trust indicators */}

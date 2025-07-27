@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones } from 'lucide-react';
 import VoiceDemo from '../components/VoiceDemo';
+import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
+import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
 
 const HomePage = () => {
 
@@ -34,94 +36,8 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Automate 80% of Customer Calls.{' '}
-                <span className="text-blue-600">Elevate Every Conversation.</span>
-              </h1>
-              <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-                The AI Voice Platform by Seasalt.ai that combines human-like voice agents, 
-                real-time analytics, and seamless integrations to transform your customer experience.
-              </p>
-              <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <a
-                  href="https://chat.seasalt.ai/gpt/signup"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
-                  >
-                    Sign Up For Free
-                    <ArrowRight className="ml-2 w-5 h-5" />
-                  </motion.button>
-                </a>
-                <a
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors"
-                  >
-                    Book a Demo
-                  </motion.button>
-                </a>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative"
-            >
-              <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-lg font-semibold text-gray-900">Live AI Call Dashboard</h3>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                    <span className="text-sm text-gray-600">Live</span>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600">Active Calls</span>
-                    <span className="font-semibold text-2xl text-blue-600">247</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600">Queue Time</span>
-                    <span className="font-semibold text-green-600">0.3s</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600">Resolution Rate</span>
-                    <span className="font-semibold text-blue-600">94%</span>
-                  </div>
-                </div>
-                <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg">
-                  <p className="text-sm text-gray-700 italic">
-                    "Thank you for calling TechCorp. I'm Sarah, your AI assistant. 
-                    How can I help you today?"
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section - Voice Conversation Flow */}
+      <VoiceConversationFlow />
 
       {/* Problem/Solution Section */}
       <section className="py-20 bg-gray-50">
@@ -416,6 +332,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Interactive Call Dashboard Section */}
+      <InteractiveCallDashboard />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">

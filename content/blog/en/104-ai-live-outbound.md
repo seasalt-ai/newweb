@@ -9,8 +9,8 @@ weight: 1
 tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
 toc: true
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/104-ai-live-outbound/"
-url: "/blog/104-ai-live-outbound/"
+canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
+url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
 ---
 
 ---

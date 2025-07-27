@@ -309,12 +309,6 @@ const ContactForms = () => {
               >
                 Connect Forms Now
               </a>
-              <a
-                href="#integration"
-                className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
-              >
-                View Integrations
-              </a>
             </div>
           </div>
         </section>

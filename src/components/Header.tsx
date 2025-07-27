@@ -13,7 +13,8 @@ import {
   Mail, 
   Bot, 
   Monitor, 
-  Headphones
+  Headphones,
+  Heart
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -137,6 +138,14 @@ const Header = () => {
                       </a>
                     )
                   )}
+                  {/* SeaHealth Entry */}
+                  <Link 
+                    to={`/${i18n.language}/seahealth`}
+                    className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                  >
+                    <Heart className="h-5 w-5 text-red-500" />
+                    SeaHealth - Optimized Healthcare
+                  </Link>
                   {/* Use Cases Section */}
                   <div className="border-t border-gray-100 mt-2 pt-2">
                     <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
@@ -422,6 +431,13 @@ const Header = () => {
                       </a>
                     )
                   ))}
+                  <Link 
+                    to={`/${i18n.language}/seahealth`}
+                    className="flex items-center py-1 text-sm text-gray-600 hover:text-gray-900"
+                  >
+                    <Heart className="h-4 w-4 mr-2 text-red-500" />
+                    SeaHealth - Optimized Healthcare
+                  </Link>
                 </div>
               </div>
               <div className="px-3 py-2">
