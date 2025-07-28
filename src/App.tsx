@@ -67,14 +67,18 @@ import ScrollToTop from './components/ScrollToTop';
 const SeaChatRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seachat', '');
-  return <Navigate to={`/${DEFAULT_LANGUAGE}/seachat${subPath}`} replace />;
+  const redirectTo = `/${DEFAULT_LANGUAGE}/seachat${subPath}`;
+  console.log('[SeaChatRedirect] Redirecting:', { from: location.pathname, to: redirectTo, subPath });
+  return <Navigate to={redirectTo} replace />;
 };
 
 // Component to handle SeaX redirects
 const SeaXRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seax', '');
-  return <Navigate to={`/${DEFAULT_LANGUAGE}/seax${subPath}`} replace />;
+  const redirectTo = `/${DEFAULT_LANGUAGE}/seax${subPath}`;
+  console.log('[SeaXRedirect] Redirecting:', { from: location.pathname, to: redirectTo, subPath });
+  return <Navigate to={redirectTo} replace />;
 };
 
 // Component to handle SeaVoice redirects
@@ -119,6 +123,8 @@ function HomePage() {
 function App() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  console.log('[App] Rendering with:', { currentLanguage, i18nLanguage: i18n.language });
 
   // Set basename for GitHub Pages if needed (e.g., '/new-seasalt-ai-website')
   // If deploying to root, set to '/'. Adjust as needed for your deployment.

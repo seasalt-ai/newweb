@@ -42,7 +42,14 @@ const SeaXRouter = () => {
 
   // Update i18n language when route changes
   useEffect(() => {
+    console.log('[SeaXRouter] useEffect triggered:', { 
+      lang, 
+      currentI18nLanguage: i18n.language,
+      needsLanguageChange: lang && i18n.language !== lang
+    });
+    
     if (lang && i18n.language !== lang) {
+      console.log('[SeaXRouter] Changing language:', { from: i18n.language, to: lang });
       i18n.changeLanguage(lang);
     }
   }, [lang, i18n]);

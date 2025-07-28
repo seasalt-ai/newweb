@@ -13,21 +13,24 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
 
   const getMainSiteLink = () => {
     // For SeaVoice, link to root, for others link to language-specific root
-    return currentLanguage === 'en' ? '/' : `/${currentLanguage}`;
+    const link = currentLanguage === 'en' ? '/' : `/${currentLanguage}`;
+    console.log('[ProductLogoDropdown] getMainSiteLink:', { currentLanguage, link });
+    return link;
   };
 
   const getProductLink = (href: string) => {
+    console.log('[ProductLogoDropdown] getProductLink called:', { href, currentLanguage });
+    
     // Ensure we have a clean product href
     if (!href.startsWith('/')) {
+      console.log('[ProductLogoDropdown] External link, returning as-is:', href);
       return href; // External link, return as-is
     }
     
     // For internal links, construct the proper language-prefixed path
-    if (currentLanguage === 'en') {
-      return href;
-    } else {
-      return `/${currentLanguage}${href}`;
-    }
+    const finalLink = currentLanguage === 'en' ? href : `/${currentLanguage}${href}`;
+    console.log('[ProductLogoDropdown] Internal link generated:', { originalHref: href, currentLanguage, finalLink });
+    return finalLink;
   };
 
   return (
@@ -40,7 +43,10 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
       <Link
         to={getMainSiteLink()}
         className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 border-b border-gray-100"
-        onClick={onClose}
+        onClick={() => {
+          console.log('[ProductLogoDropdown] Main site link clicked:', { to: getMainSiteLink(), currentLanguage });
+          onClose();
+        }}
       >
         <Home className="w-5 h-5 mr-3 text-blue-600" />
         <div>
@@ -60,7 +66,11 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
                   <Link
                     to={getProductLink(product.href)}
                     className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                    onClick={onClose}
+                    onClick={() => {
+                      const link = getProductLink(product.href);
+                      console.log('[ProductLogoDropdown] Product link clicked:', { product: product.title, originalHref: product.href, finalLink: link, currentLanguage });
+                      onClose();
+                    }}
                   >
                     {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
                     <div>
@@ -101,7 +111,11 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
                 <Link
                   to={getProductLink(product.href)}
                   className="flex items-center block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
-                  onClick={onClose}
+                  onClick={() => {
+                    const link = getProductLink(product.href);
+                    console.log('[ProductLogoDropdown] Product link (no subProducts) clicked:', { product: product.title, originalHref: product.href, finalLink: link, currentLanguage });
+                    onClose();
+                  }}
                 >
                   {product.icon && <product.icon className="w-5 h-5 mr-3 text-blue-600" />}
                   <div>

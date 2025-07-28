@@ -5,6 +5,8 @@ import Hero from '../components/Hero';
 import StatsCounter from '../components/StatsCounter';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
+import ScaleComparison from '../components/ScaleComparison';
+import RealTimeDashboard from '../components/RealTimeDashboard';
 import { MessageSquare, Phone, Zap, TrendingUp, Target, CheckCircle, Star, ArrowRight, BarChart3, Users, Upload, Smartphone, Send } from 'lucide-react';
 
 const SeaXHome = () => {
@@ -30,21 +32,6 @@ const SeaXHome = () => {
       <Hero />
       <StatsCounter />
       
-      {/* Social Proof Bar */}
-      <div className="bg-gray-50 py-8 border-y border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-gray-600 mb-6 font-medium">
-            Powering outreach for leading brands in...
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="text-2xl font-bold text-gray-400">TechCorp</div>
-            <div className="text-2xl font-bold text-gray-400">SalesForce</div>
-            <div className="text-2xl font-bold text-gray-400">MarketPro</div>
-            <div className="text-2xl font-bold text-gray-400">GrowthCo</div>
-            <div className="text-2xl font-bold text-gray-400">LeadGen</div>
-          </div>
-        </div>
-      </div>
       
       {/* The Scaling Problem Section */}
       <div className="py-20 bg-white">
@@ -104,6 +91,9 @@ const SeaXHome = () => {
           </div>
         </div>
       </div>
+      
+      {/* Scale Comparison Animation */}
+      <ScaleComparison />
       
       {/* Massive Scale Features */}
       <div className="py-20 bg-gray-50">
@@ -330,9 +320,20 @@ const SeaXHome = () => {
                         </div>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-red-200">
-                        <div className="h-20 bg-gradient-to-r from-orange-200 to-red-200 rounded relative">
-                          <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-orange-400 to-red-400 rounded-b"><p className="text-xs text-gray-700">Real-time Analytics</p></div>
+                        <div className="grid grid-cols-2 gap-4">
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-red-600">1M</div>
+                            <div className="text-sm text-gray-600">Total Messages</div>
+                          </div>
+                          <div className="text-center">
+                            <div className="text-2xl font-bold text-green-600">99%</div>
+                            <div className="text-sm text-gray-600">Delivery Rate</div>
+                          </div>
+                          <div className="col-span-2 mt-2 bg-gradient-to-r from-red-300 to-green-300 h-2 rounded-full relative">
+                            <div className="absolute top-0 left-0 right-0 h-full bg-purple-600" style={{width: '75%'}}></div>
+                          </div>
                         </div>
+                        <p className="mt-4 text-xs text-gray-700 text-center">Real-time Analytics</p>
                       </div>
                     </div>
                   </div>
@@ -377,6 +378,9 @@ const SeaXHome = () => {
           </div>
         </div>
       </div>
+      
+      {/* Real-Time Dashboard Animation */}
+      <RealTimeDashboard />
 
       {/* Customer Testimonials */}
       <div className="py-20 bg-white">
@@ -453,10 +457,6 @@ const SeaXHome = () => {
               <span>Sign Up Now</span>
             </a>
           </div>
-          
-          <p className="text-blue-100">
-            No credit card required • 14-day free trial • Cancel anytime
-          </p>
         </div>
       </div>
       
