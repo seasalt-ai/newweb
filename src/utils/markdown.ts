@@ -289,10 +289,12 @@ export async function getAvailableLanguages(slug: string): Promise<string[]> {
   const { SUPPORTED_LANGUAGES } = await import('../constants/languages');
   const availableLanguages: string[] = [];
   
+  // Use eager import for consistency with other functions
+  const modules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+  
   for (const lang of SUPPORTED_LANGUAGES) {
     try {
       const path = `/content/blog/${lang}/${slug}.md`;
-      const modules = import.meta.glob('/content/blog/**/*.md', { as: 'raw' });
       
       if (path in modules) {
         availableLanguages.push(lang);
@@ -353,7 +355,8 @@ export async function getAllBlogSlugs(): Promise<{slug: string, language: string
 // Function to load a specific blog post with Hugo YAML support
 export async function loadBlogPost(slug: string, language: string = 'en'): Promise<BlogPost | null> {
   try {
-    const blogModules = import.meta.glob('/content/blog/**/*.md', { as: 'raw' });
+    // Use eager import for consistency
+    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
     const path = `/content/blog/${language}/${slug}.md`;
     
     if (!(path in blogModules)) {
@@ -366,7 +369,7 @@ export async function loadBlogPost(slug: string, language: string = 'en'): Promi
       }
     }
     
-    const content = await blogModules[path]();
+    const content = blogModules[path];
     const post = await parseMarkdownFile(content, slug, language);
     
     // Skip draft posts in production
