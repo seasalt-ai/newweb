@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Home } from 'lucide-react';
 import { products } from '../data/productsData';
+import { normalizeLanguage } from '../constants/languages';
 
 interface ProductLogoDropdownProps {
   isOpen: boolean;
@@ -11,15 +12,19 @@ interface ProductLogoDropdownProps {
 const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: ProductLogoDropdownProps) => {
   if (!isOpen) return null;
 
+  // Normalize the language to prevent race conditions with unsupported variants like 'en-US'
+  const normalizedLanguage = normalizeLanguage(currentLanguage);
+  console.log('[ProductLogoDropdown] Language normalization:', { currentLanguage, normalizedLanguage });
+
   const getMainSiteLink = () => {
     // For SeaVoice, link to root, for others link to language-specific root
-    const link = currentLanguage === 'en' ? '/' : `/${currentLanguage}`;
-    console.log('[ProductLogoDropdown] getMainSiteLink:', { currentLanguage, link });
+    const link = normalizedLanguage === 'en' ? '/' : `/${normalizedLanguage}`;
+    console.log('[ProductLogoDropdown] getMainSiteLink:', { currentLanguage, normalizedLanguage, link });
     return link;
   };
 
   const getProductLink = (href: string) => {
-    console.log('[ProductLogoDropdown] getProductLink called:', { href, currentLanguage });
+    console.log('[ProductLogoDropdown] getProductLink called:', { href, currentLanguage, normalizedLanguage });
     
     // Ensure we have a clean product href
     if (!href.startsWith('/')) {
@@ -27,9 +32,9 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
       return href; // External link, return as-is
     }
     
-    // For internal links, construct the proper language-prefixed path
-    const finalLink = currentLanguage === 'en' ? href : `/${currentLanguage}${href}`;
-    console.log('[ProductLogoDropdown] Internal link generated:', { originalHref: href, currentLanguage, finalLink });
+    // For internal links, construct the proper language-prefixed path using normalized language
+    const finalLink = normalizedLanguage === 'en' ? href : `/${normalizedLanguage}${href}`;
+    console.log('[ProductLogoDropdown] Internal link generated:', { originalHref: href, currentLanguage, normalizedLanguage, finalLink });
     return finalLink;
   };
 

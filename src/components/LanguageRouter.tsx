@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../constants/languages';
+import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from '../constants/languages';
 
 const LanguageRouter: React.FC = () => {
   const { lang } = useParams<{ lang: string }>();
@@ -28,9 +28,16 @@ const LanguageRouter: React.FC = () => {
     }
 
     if (!SUPPORTED_LANGUAGES.includes(lang as any)) {
+      // Try to normalize the language first (e.g., 'en-US' -> 'en')
+      const normalizedLang = normalizeLanguage(lang);
       const pathWithoutLang = location.pathname.replace(/^\/[^\/]+/, '');
-      const redirectTo = `/${DEFAULT_LANGUAGE}` + pathWithoutLang;
-      console.log('[LanguageRouter] Unsupported language, redirecting:', { lang, redirectTo });
+      const redirectTo = `/${normalizedLang}` + pathWithoutLang;
+      console.log('[LanguageRouter] Unsupported language, redirecting with normalization:', { 
+        lang, 
+        normalizedLang, 
+        pathWithoutLang, 
+        redirectTo 
+      });
       navigate(redirectTo, { replace: true });
       return;
     }
