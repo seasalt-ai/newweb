@@ -14,10 +14,11 @@ import {
   Lock,
   Building2
 } from 'lucide-react';
-import { seaxCoreFeatures } from '../data/seaxFeatures';
+import { getSeaxCoreFeatures } from '../data/seaxFeatures';
 
 const Features = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { t } = useTranslation();
+  const seaxCoreFeatures = getSeaxCoreFeatures(t);
 
   const featureCategories = [
     {

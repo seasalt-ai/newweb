@@ -551,7 +551,7 @@ const Header = () => {
                       setIsMenuOpen(false);
                     }}
                   >
-                    {lang.name}
+                    {t(lang.nameKey)}
                   </button>
                 ))}
               </div>

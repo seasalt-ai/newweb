@@ -309,6 +309,7 @@ export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => 
   }
 ];
 
-export const getSolutionById = (id: string): SeaXSolution | undefined => {
-  return seaxSolutions.find(solution => solution.id === id);
+export const getSolutionById = (id: string, t: (key: string) => string): SeaXSolution | undefined => {
+  const solutions = getSeaxSolutions(t);
+  return solutions.find(solution => solution.id === id);
 };
