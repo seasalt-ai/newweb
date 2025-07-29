@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
@@ -42,7 +42,14 @@ const SeaXRouter = () => {
 
   // Update i18n language when route changes
   useEffect(() => {
+    console.log('[SeaXRouter] useEffect triggered:', { 
+      lang, 
+      currentI18nLanguage: i18n.language,
+      needsLanguageChange: lang && i18n.language !== lang
+    });
+    
     if (lang && i18n.language !== lang) {
+      console.log('[SeaXRouter] Changing language:', { from: i18n.language, to: lang });
       i18n.changeLanguage(lang);
     }
   }, [lang, i18n]);
@@ -83,6 +90,9 @@ const SeaXRouter = () => {
       <Route path="industries/political-campaigns" element={<PoliticalCampaigns />} />
       <Route path="industries/healthcare" element={<Healthcare />} />
       <Route path="industries/financial-services" element={<FinancialServices />} />
+      
+      {/* Catch-all route for non-matching paths - redirect to SeaX home */}
+      <Route path="*" element={<Navigate to="" replace />} />
     </Routes>
   );
 };

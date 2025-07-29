@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { loadAllBlogPosts, BlogPostMeta } from '../utils/markdown';
+import { loadAllBlogPosts, BlogPostMeta, getBlogPostUrlPath } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 
 // Helper function to create a structured data for blog listing
@@ -120,7 +120,9 @@ const Blog = () => {
         description="Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl || `/${lang}/blog`}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={['en', 'es', 'zh-TW', 'fr', 'de', 'ja', 'ko', 'ar', 'hi', 'th', 'vi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'fil']}
+        type="website"
+        image="/seasalt-ai-blog-og.png"
       />
       
       {/* Add structured data for blog listing */}
@@ -219,13 +221,20 @@ const Blog = () => {
                     <div className="p-4 sm:p-6">
                       <div className="flex flex-wrap items-center text-xs sm:text-sm text-gray-500 mb-2 sm:mb-3 gap-2 sm:gap-0">
                         <Calendar className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
-                        <span className="mr-2 sm:mr-4">{formatDate(post.date)}</span>
+                        <span className="mr-2 sm:mr-4">
+                          {formatDate(post.date)}
+                          {post.modified_date && post.modified_date !== post.date && (
+                            <span className="text-xs text-gray-400 ml-1">
+                              (Updated: {formatDate(post.modified_date)})
+                            </span>
+                          )}
+                        </span>
                         <User className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
                         <span>{post.author}</span>
                       </div>
                       
                       <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors duration-200">
-                        <Link to={`/${i18n.language}/blog/${post.slug}`}>
+                        <Link to={`/${i18n.language}/blog/${getBlogPostUrlPath(post)}`}>
                           {post.title}
                         </Link>
                       </h2>
@@ -250,7 +259,7 @@ const Blog = () => {
                       )}
                       
                       <Link
-                        to={`/${i18n.language}/blog/${post.slug}`}
+                        to={`/${i18n.language}/blog/${getBlogPostUrlPath(post)}`}
                         className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                       >
                         Read More →

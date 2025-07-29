@@ -13,7 +13,8 @@ import {
   Mail, 
   Bot, 
   Monitor, 
-  Headphones
+  Headphones,
+  Heart
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -24,6 +25,7 @@ import { LANGUAGE_DETAILS } from '../constants/languages';
 import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 import ProductLogoDropdown from './ProductLogoDropdown';
 import PhoneBanner from './PhoneBanner';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -33,7 +35,12 @@ const Header = () => {
   const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
   // Helper to open only one dropdown at a time
   const handleDropdown = (dropdown: typeof openDropdown) => {
-    setOpenDropdown(prev => (prev === dropdown ? null : dropdown));
+    console.log('[Header] handleDropdown called:', { dropdown, currentOpenDropdown: openDropdown });
+    setOpenDropdown(prev => {
+      const newValue = prev === dropdown ? null : dropdown;
+      console.log('[Header] Dropdown state changing:', { from: prev, to: newValue });
+      return newValue;
+    });
   };
 
   const channels = [
@@ -65,36 +72,6 @@ const Header = () => {
   ];
 
 
-  const changeLanguage = (languageCode: string) => {
-    // Get the current path without the language prefix
-    const { pathname } = window.location;
-    const currentLang = i18n.language;
-    let newPath;
-
-    // Check if the current path starts with the language code
-    if (pathname.startsWith(`/${currentLang}/`)) {
-      // Replace the current language code with the new one
-      newPath = pathname.replace(`/${currentLang}/`, `/${languageCode}/`);
-    } else if (pathname === `/${currentLang}`) {
-      // Handle root path for a language
-      newPath = `/${languageCode}`;
-    } else {
-      // If no language in path (shouldn't happen with our routing), add it
-      newPath = `/${languageCode}${pathname}`;
-    }
-    
-    // Navigate to the same path but with the new language
-    window.location.href = newPath;
-    
-    // Close the dropdown
-    setOpenDropdown(null);
-  };
-
-  // Get current language name
-  const getCurrentLanguageName = () => {
-    const currentLang = LANGUAGE_DETAILS.find(lang => lang.code === i18n.language);
-    return currentLang ? currentLang.shortCode : 'EN';
-  };
 
   return (
     <>
@@ -166,6 +143,14 @@ const Header = () => {
                       </a>
                     )
                   )}
+                  {/* SeaHealth Entry */}
+                  <Link 
+                    to={`/${i18n.language}/seahealth`}
+                    className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                  >
+                    <Heart className="h-5 w-5 text-red-500" />
+                    SeaHealth - Optimized Healthcare
+                  </Link>
                   {/* Use Cases Section */}
                   <div className="border-t border-gray-100 mt-2 pt-2">
                     <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
@@ -347,30 +332,7 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
             {/* Language Selector */}
-            <div className="relative">
-              <button
-                onClick={() => handleDropdown('language')}
-                className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200"
-              >
-                <span className="mr-1">{getCurrentLanguageName()}</span>
-                <ChevronDown className="h-4 w-4" />
-              </button>
-              {openDropdown === 'language' && (
-                <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-50">
-                  {LANGUAGE_DETAILS.map((language) => (
-                    <button
-                      key={language.code}
-                      onClick={() => changeLanguage(language.code)}
-                      className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
-                        i18n.language === language.code ? 'font-semibold text-blue-600 bg-blue-50' : 'text-gray-700'
-                      }`}
-                    >
-                      {language.name} 
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+            <LanguageSwitcher className="" />
             <a
               href="https://seax.seasalt.ai/signin"
               className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
@@ -474,6 +436,13 @@ const Header = () => {
                       </a>
                     )
                   ))}
+                  <Link 
+                    to={`/${i18n.language}/seahealth`}
+                    className="flex items-center py-1 text-sm text-gray-600 hover:text-gray-900"
+                  >
+                    <Heart className="h-4 w-4 mr-2 text-red-500" />
+                    SeaHealth - Optimized Healthcare
+                  </Link>
                 </div>
               </div>
               <div className="px-3 py-2">
@@ -505,20 +474,7 @@ const Header = () => {
               
               {/* Mobile Language Selector */}
               <div className="px-3 py-2">
-                <div className="text-sm font-medium text-gray-900 mb-2">Language / Idioma / 语言</div>
-                <div className="pl-4 space-y-1 max-h-40 overflow-y-auto">
-                  {LANGUAGE_DETAILS.map((language) => (
-                    <button
-                      key={language.code}
-                      onClick={() => changeLanguage(language.code)}
-                      className={`block w-full text-left py-1 text-sm ${
-                        i18n.language === language.code ? 'font-semibold text-blue-600' : 'text-gray-600 hover:text-gray-900'
-                      }`}
-                    >
-                      {language.name} 
-                    </button>
-                  ))}
-                </div>
+                <LanguageSwitcher className="w-full" />
               </div>
               
               <div className="pt-4 border-t border-gray-200">

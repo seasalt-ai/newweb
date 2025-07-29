@@ -128,6 +128,15 @@ const Footer = () => {
                 );
               })}
               <li>
+                <Link 
+                  to={`/${currentLanguage}/seahealth`}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+                >
+                  <Heart className="h-4 w-4 mr-2" />
+                  SeaHealth - Optimized Healthcare
+                </Link>
+              </li>
+              <li>
                 <Link to={`/${currentLanguage}/channels-overview`} className="text-gray-300 hover:text-white transition-colors duration-200">
                   {t('header.allChannelsOverview')}
                 </Link>

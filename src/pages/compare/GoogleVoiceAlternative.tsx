@@ -288,10 +288,10 @@ const GoogleVoiceAlternative = () => {
                  Sign Up
               </a>
               <a
-                href="#migration"
+                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Learn About Migration
+                Book a Demo
               </a>
             </div>
           </div>

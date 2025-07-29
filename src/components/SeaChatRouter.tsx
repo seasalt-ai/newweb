@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 // SeaChat components
@@ -114,6 +114,9 @@ const SeaChatRouter = () => {
         
         {/* Other Pages */}
         <Route path="pricing" element={<PricingPage />} />
+        
+        {/* Catch-all route for non-matching paths - redirect to SeaChat home */}
+        <Route path="*" element={<Navigate to="" replace />} />
       </Routes>
       <Footer />
     </div>

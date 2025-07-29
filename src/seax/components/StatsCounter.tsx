@@ -128,6 +128,65 @@ const StatsCounter = () => {
           ))}
         </div>
 
+        {/* Dashboard mockup */}
+        <div className="mt-16 flex justify-center">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 border max-w-5xl w-full">
+            {/* Header */}
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center space-x-2">
+                <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+              <span className="text-sm font-medium text-gray-600">SeaX Dashboard</span>
+            </div>
+
+            {/* Campaign stats */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="bg-blue-50 rounded-lg p-4">
+                <div className="text-2xl font-bold text-blue-600 mb-1">2.4M</div>
+                <div className="text-sm text-gray-600">Messages Sent</div>
+              </div>
+              <div className="bg-green-50 rounded-lg p-4">
+                <div className="text-2xl font-bold text-green-600 mb-1">85%</div>
+                <div className="text-sm text-gray-600">Delivery Rate</div>
+              </div>
+            </div>
+
+            {/* Recent activity */}
+            <div className="space-y-3">
+              <div className="text-sm font-medium text-gray-700 mb-2">Recent Activity</div>
+              <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <div className="flex-1 text-sm">
+                  <div className="font-medium">Flash Sale Campaign</div>
+                  <div className="text-gray-500">50,000 SMS sent • 2 min ago</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                <div className="flex-1 text-sm">
+                  <div className="font-medium">Lead Follow-up</div>
+                  <div className="text-gray-500">12,000 calls completed • 5 min ago</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <div className="flex-1 text-sm">
+                  <div className="font-medium">WhatsApp Campaign</div>
+                  <div className="text-gray-500">25,000 messages queued • 8 min ago</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Live indicator */}
+            <div className="mt-6 flex items-center justify-center space-x-2">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              <span className="text-sm text-gray-600">Live campaigns running</span>
+            </div>
+          </div>
+        </div>
+
         {/* Real-time activity indicator */}
         <div className="mt-12 text-center">
           <div className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full">
