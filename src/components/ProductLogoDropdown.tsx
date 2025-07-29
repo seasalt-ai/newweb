@@ -61,14 +61,14 @@ const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: Produc
       >
         <Home className="w-5 h-5 mr-3 text-blue-600" />
         <div>
-          <div className="font-medium text-gray-900">Seasalt.ai Main Site</div>
-          <div className="text-xs text-gray-500">All products and solutions</div>
+          <div className="font-medium text-gray-900">{t('common.productLogoDropdown.mainSite', 'Seasalt.ai Main Site')}</div>
+          <div className="text-xs text-gray-500">{t('common.productLogoDropdown.allProducts', 'All products and solutions')}</div>
         </div>
       </Link>
       
       {/* Products */}
       <div className="py-2">
-        <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Products</div>
+        <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">{t('common.productLogoDropdown.products', 'Products')}</div>
         {products.map((product, index) => (
           <div key={index}>
             {product.subProducts ? (

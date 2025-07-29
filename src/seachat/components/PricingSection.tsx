@@ -184,7 +184,7 @@ const PricingSection = () => {
                   )}
                   {plan.price > 0 && (
                     <p className="text-sm text-gray-500 mt-1">
-                      Based on {chatVolume.toLocaleString()} chats/{billingCycle === 'monthly' ? 'month' : 'year'}
+                      {t('seachat.pricing.basedOn')} {chatVolume.toLocaleString()} {t('seachat.pricing.chatsPerPeriod')}/{billingCycle === 'monthly' ? t('seachat.pricing.month') : t('seachat.pricing.year')}
                     </p>
                   )}
                 </div>
@@ -202,7 +202,7 @@ const PricingSection = () => {
                 {plan.limitations && (
                   <div className="mb-6">
                       // @ts-ignore
-                    <p className="text-sm font-medium text-gray-500 mb-2">Limitations:</p>
+                    <p className="text-sm font-medium text-gray-500 mb-2">{t('seachat.pricing.limitations')}:</p>
                     <ul className="space-y-1">
                       {(plan.limitations as string[]).map((limitation: string, index: number) => (
                         <li key={index} className="text-sm text-gray-500 flex items-center space-x-2">

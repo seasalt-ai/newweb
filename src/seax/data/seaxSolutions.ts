@@ -26,7 +26,7 @@ export interface SeaXSolution {
   };
 }
 
-export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => [
+export const getSeaxSolutions = (t: any): SeaXSolution[] => [
   {
     id: 'lead-generation',
     title: t('seax.solutions.leadGeneration.title'),
@@ -34,32 +34,9 @@ export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => 
     description: t('seax.solutions.leadGeneration.description'),
     icon: '🎯',
     color: 'blue',
-    features: [
-      t('seax.solutions.leadGeneration.features.0'),
-      t('seax.solutions.leadGeneration.features.1'),
-      t('seax.solutions.leadGeneration.features.2'),
-      t('seax.solutions.leadGeneration.features.3'),
-      t('seax.solutions.leadGeneration.features.4'),
-      t('seax.solutions.leadGeneration.features.5'),
-      t('seax.solutions.leadGeneration.features.6'),
-      t('seax.solutions.leadGeneration.features.7')
-    ],
-    benefits: [
-      t('seax.solutions.leadGeneration.benefits.0'),
-      t('seax.solutions.leadGeneration.benefits.1'),
-      t('seax.solutions.leadGeneration.benefits.2'),
-      t('seax.solutions.leadGeneration.benefits.3'),
-      t('seax.solutions.leadGeneration.benefits.4'),
-      t('seax.solutions.leadGeneration.benefits.5')
-    ],
-    useCases: [
-      t('seax.solutions.leadGeneration.useCases.0'),
-      t('seax.solutions.leadGeneration.useCases.1'),
-      t('seax.solutions.leadGeneration.useCases.2'),
-      t('seax.solutions.leadGeneration.useCases.3'),
-      t('seax.solutions.leadGeneration.useCases.4'),
-      t('seax.solutions.leadGeneration.useCases.5')
-    ],
+    features: t('seax.solutions.leadGeneration.features', { returnObjects: true }) as string[],
+    benefits: t('seax.solutions.leadGeneration.benefits', { returnObjects: true }) as string[],
+    useCases: t('seax.solutions.leadGeneration.useCases', { returnObjects: true }) as string[],
     stats: [
       { value: t('seax.solutions.leadGeneration.stats.0.value'), label: t('seax.solutions.leadGeneration.stats.0.label') },
       { value: t('seax.solutions.leadGeneration.stats.1.value'), label: t('seax.solutions.leadGeneration.stats.1.label') },
@@ -75,12 +52,7 @@ export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => 
       title: t('seax.solutions.leadGeneration.caseStudy.title'),
       challenge: t('seax.solutions.leadGeneration.caseStudy.challenge'),
       solution: t('seax.solutions.leadGeneration.caseStudy.solution'),
-      results: [
-        t('seax.solutions.leadGeneration.caseStudy.results.0'),
-        t('seax.solutions.leadGeneration.caseStudy.results.1'),
-        t('seax.solutions.leadGeneration.caseStudy.results.2'),
-        t('seax.solutions.leadGeneration.caseStudy.results.3')
-      ]
+      results: t('seax.solutions.leadGeneration.caseStudy.results', { returnObjects: true }) as string[]
     }
   },
   {
@@ -309,7 +281,7 @@ export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => 
   }
 ];
 
-export const getSolutionById = (id: string, t: (key: string) => string): SeaXSolution | undefined => {
+export const getSolutionById = (id: string, t: any): SeaXSolution | undefined => {
   const solutions = getSeaxSolutions(t);
   return solutions.find(solution => solution.id === id);
 };

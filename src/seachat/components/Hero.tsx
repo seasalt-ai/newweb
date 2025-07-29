@@ -19,38 +19,38 @@ const Hero = () => {
   const animations = [
     {
       id: 'phoneVoice',
-      name: 'Phone Voice AI',
-      description: 'AI agents handling phone conversations',
+      name: t('seachat.hero.animations.phoneVoice.name'),
+      description: t('seachat.hero.animations.phoneVoice.description'),
       component: PhoneVoiceAI,
     },
     {
       id: 'interactive',
-      name: 'Interactive Channels',
-      description: 'Click to see different conversations',
+      name: t('seachat.hero.animations.interactive.name'),
+      description: t('seachat.hero.animations.interactive.description'),
       component: InteractiveChannels,
     },
     {
       id: 'multiChannel',
-      name: 'Multi-Channel Flow',
-      description: 'Messages flowing between different platforms',
+      name: t('seachat.hero.animations.multiChannel.name'),
+      description: t('seachat.hero.animations.multiChannel.description'),
       component: MultiChannelFlow,
     },
     {
       id: 'agentToAI',
-      name: 'Human-to-AI Handoff',
-      description: 'Start with humans, scale with AI',
+      name: t('seachat.hero.animations.agentToAI.name'),
+      description: t('seachat.hero.animations.agentToAI.description'),
       component: AgentToAI,
     },
     {
       id: 'learning',
-      name: 'AI Learning Journey',
-      description: 'Watch AI get smarter from content',
+      name: t('seachat.hero.animations.learning.name'),
+      description: t('seachat.hero.animations.learning.description'),
       component: ConversationLearning,
     },
     {
       id: 'dashboard',
-      name: 'Real-Time Analytics',
-      description: 'Live performance metrics',
+      name: t('seachat.hero.animations.dashboard.name'),
+      description: t('seachat.hero.animations.dashboard.description'),
       component: RealtimeDashboard,
     },
   ];
@@ -144,15 +144,15 @@ const Hero = () => {
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
               <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
               <span className="text-sm font-medium text-white">
-                Start Free with Live Agents
+                {t('seachat.hero.badge')}
               </span>
             </div>
 
             {/* Main headline matching SeaX style */}
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
-                <span className="block">Respond To</span>
-                <span className="block"><span className="text-teal-300">Millions</span> 24/7</span>
+                <span className="block">{t('seachat.hero.headline1')}</span>
+                <span className="block"><span className="text-teal-300">{t('seachat.hero.headline2')}</span> {t('seachat.hero.headline3')}</span>
               </h1>
             </div>
             
@@ -195,7 +195,7 @@ const Hero = () => {
               {/* Animation Controls */}
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-white font-semibold">SeaChat in Action</h3>
+                  <h3 className="text-white font-semibold">{t('seachat.hero.animations.title')}</h3>
                   <button
                     onClick={() => setAutoRotate(!autoRotate)}
                     className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
@@ -205,7 +205,7 @@ const Hero = () => {
                     }`}
                   >
                     <RefreshCw className={`w-4 h-4 ${autoRotate ? 'animate-spin' : ''}`} />
-                    <span>{autoRotate ? 'Auto' : 'Manual'}</span>
+                    <span>{autoRotate ? t('seachat.hero.animations.autoMode') : t('seachat.hero.animations.manualMode')}</span>
                   </button>
                 </div>
                 

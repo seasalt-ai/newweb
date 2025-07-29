@@ -56,39 +56,39 @@ const FeatureTabs = () => {
       advancedFeatures: [
         {
           icon: Search,
-          title: 'Retrieval Augmented Generation',
-          description: 'Keyword, Vector, and Hybrid Search for precise information retrieval',
-          details: ['Semantic vector search', 'Keyword matching', 'Hybrid search algorithms', 'Real-time content indexing']
+          title: t('seachat.featureTabs.content.advancedFeatures.retrievalAugmentedGeneration.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.retrievalAugmentedGeneration.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.retrievalAugmentedGeneration.details', { returnObjects: true })
         },
         {
           icon: Brain,
-          title: 'Long Term Memory',
-          description: 'Personalized experiences through persistent user memory',
-          details: ['User preference tracking', 'Conversation history analysis', 'Behavioral pattern recognition', 'Cross-session continuity']
+          title: t('seachat.featureTabs.content.advancedFeatures.longTermMemory.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.longTermMemory.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.longTermMemory.details', { returnObjects: true })
         },
         {
           icon: Clock,
-          title: 'Time Awareness',
-          description: 'Context-aware responses based on current time and timezone',
-          details: ['Real-time timestamp integration', 'Timezone-aware scheduling', 'Time-sensitive recommendations', 'Business hours optimization']
+          title: t('seachat.featureTabs.content.advancedFeatures.timeAwareness.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.timeAwareness.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.timeAwareness.details', { returnObjects: true })
         },
         {
           icon: Target,
-          title: 'Context Extraction',
-          description: 'Intelligent field mapping for better user comprehension',
-          details: ['Custom field definitions', 'Automatic data extraction', 'User language preferences', 'Dynamic context building']
+          title: t('seachat.featureTabs.content.advancedFeatures.contextExtraction.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.contextExtraction.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.contextExtraction.details', { returnObjects: true })
         },
         {
           icon: FileText,
-          title: 'Referenced Results',
-          description: 'Transparent AI responses with source citations',
-          details: ['Source document linking', 'Citation tracking', 'Confidence scoring', 'Fact verification']
+          title: t('seachat.featureTabs.content.advancedFeatures.referencedResults.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.referencedResults.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.referencedResults.details', { returnObjects: true })
         },
         {
           icon: Database,
-          title: 'Knowledge Refinement',
-          description: 'Continuous improvement of knowledge base accuracy',
-          details: ['Auto-updating content', 'Quality scoring', 'Relevance optimization', 'Performance analytics']
+          title: t('seachat.featureTabs.content.advancedFeatures.knowledgeRefinement.title'),
+          description: t('seachat.featureTabs.content.advancedFeatures.knowledgeRefinement.description'),
+          details: t('seachat.featureTabs.content.advancedFeatures.knowledgeRefinement.details', { returnObjects: true })
         }
       ]
     },

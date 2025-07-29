@@ -13,7 +13,7 @@ export interface SeaXFeature {
 // Import useTranslation for components that use this data
 // Components should use: const { t } = useTranslation();
 
-export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] => [
+export const getSeaxCoreFeatures = (t: any): SeaXFeature[] => [
   {
     id: 'bulk-messaging',
     title: t('seax.features.coreFeatures.bulkMessaging.title'),
@@ -23,12 +23,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.bulkMessaging.metrics.value'),
       label: t('seax.features.coreFeatures.bulkMessaging.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.bulkMessaging.benefits.0'),
-      t('seax.features.coreFeatures.bulkMessaging.benefits.1'),
-      t('seax.features.coreFeatures.bulkMessaging.benefits.2'),
-      t('seax.features.coreFeatures.bulkMessaging.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.bulkMessaging.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'ai-powered-followup',
@@ -39,12 +34,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.aiPoweredFollowup.metrics.value'),
       label: t('seax.features.coreFeatures.aiPoweredFollowup.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.aiPoweredFollowup.benefits.0'),
-      t('seax.features.coreFeatures.aiPoweredFollowup.benefits.1'),
-      t('seax.features.coreFeatures.aiPoweredFollowup.benefits.2'),
-      t('seax.features.coreFeatures.aiPoweredFollowup.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.aiPoweredFollowup.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'real-time-analytics',
@@ -55,12 +45,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.realTimeAnalytics.metrics.value'),
       label: t('seax.features.coreFeatures.realTimeAnalytics.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.realTimeAnalytics.benefits.0'),
-      t('seax.features.coreFeatures.realTimeAnalytics.benefits.1'),
-      t('seax.features.coreFeatures.realTimeAnalytics.benefits.2'),
-      t('seax.features.coreFeatures.realTimeAnalytics.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.realTimeAnalytics.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'compliance-deliverability',
@@ -71,12 +56,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.complianceDeliverability.metrics.value'),
       label: t('seax.features.coreFeatures.complianceDeliverability.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.complianceDeliverability.benefits.0'),
-      t('seax.features.coreFeatures.complianceDeliverability.benefits.1'),
-      t('seax.features.coreFeatures.complianceDeliverability.benefits.2'),
-      t('seax.features.coreFeatures.complianceDeliverability.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.complianceDeliverability.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'team-collaboration',
@@ -87,12 +67,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.teamCollaboration.metrics.value'),
       label: t('seax.features.coreFeatures.teamCollaboration.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.teamCollaboration.benefits.0'),
-      t('seax.features.coreFeatures.teamCollaboration.benefits.1'),
-      t('seax.features.coreFeatures.teamCollaboration.benefits.2'),
-      t('seax.features.coreFeatures.teamCollaboration.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.teamCollaboration.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'enterprise-scale',
@@ -103,12 +78,7 @@ export const getSeaxCoreFeatures = (t: (key: string) => string): SeaXFeature[] =
       value: t('seax.features.coreFeatures.enterpriseScale.metrics.value'),
       label: t('seax.features.coreFeatures.enterpriseScale.metrics.label')
     },
-    benefits: [
-      t('seax.features.coreFeatures.enterpriseScale.benefits.0'),
-      t('seax.features.coreFeatures.enterpriseScale.benefits.1'),
-      t('seax.features.coreFeatures.enterpriseScale.benefits.2'),
-      t('seax.features.coreFeatures.enterpriseScale.benefits.3')
-    ]
+    benefits: t('seax.features.coreFeatures.enterpriseScale.benefits', { returnObjects: true }) as string[]
   }
 ];
 

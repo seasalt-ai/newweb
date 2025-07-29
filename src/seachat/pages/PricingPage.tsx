@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { Check, Zap, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
 
 const PricingPage = () => {
+  const { t } = useTranslation();
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
@@ -78,162 +80,53 @@ const PricingPage = () => {
   const plans = [
     {
       id: 'free',
-      name: 'Truly Free',
-      tagline: 'Experience a trial of powerful features',
-      description: 'Perfect for getting started with human agents',
+      name: t('seachat.pricingPage.plans.free.name'),
+      tagline: t('seachat.pricingPage.plans.free.tagline'),
+      description: t('seachat.pricingPage.plans.free.description'),
       price: 0,
       originalPrice: 0,
-      features: [
-        {
-          description: '1 human agent',
-          sub_features: []
-        },
-        {
-          description: 'Unlimited human agent chats',
-          sub_features: []
-        },
-        {
-          description: 'Unlimited contacts',
-          sub_features: []
-        },
-        {
-          description: 'Unlimited chat history',
-          sub_features: []
-        },
-        {
-          description: 'Freedom to export chat history',
-          sub_features: []
-        },
-        {
-          description: 'Channels: WhatsApp Messenger, chat widget',
-          sub_features: []
-        },
-        {
-          description: 'Integrations: Wix, WordPress, Shopify, Make.com, Squarespace',
-          sub_features: []
-        },
-        {
-          description: 'AI agent with 100 lifetime AI replies:',
-          sub_features: [
-            { description: 'ChatGPT-3.5-turbo', sub_features: [] }
-          ]
-        },
-        {
-          description: 'Knowledge base includes 20 documents (200KB max) and 250k tokens',
-          sub_features: []
-        },
-        {
-          description: '1 workspace',
-          sub_features: []
-        }
-      ],
-      buttonText: 'Get Started Free',
+      features: t('seachat.pricingPage.plans.free.features', { returnObjects: true }) as any[],
+      buttonText: t('seachat.pricingPage.plans.free.buttonText'),
       buttonStyle: 'bg-purple-600 hover:bg-purple-700 text-white',
       cardStyle: 'bg-gradient-to-br from-purple-400 to-purple-600 text-white',
       highlight: false
     },
     {
       id: 'premium',
-      name: 'Premium',
-      tagline: 'Add more AI Agents and Knowledge Files',
-      description: 'Scale your support with AI automation',
+      name: t('seachat.pricingPage.plans.premium.name'),
+      tagline: t('seachat.pricingPage.plans.premium.tagline'),
+      description: t('seachat.pricingPage.plans.premium.description'),
       price: getPremiumPrice(),
       originalPrice: billingCycle === 'yearly' ? 29.99 : 0,
-      features: [
-        {
-          description: '4 human users (additional human user costs $10/month)',
-          sub_features: [
-            { description: 'Support human agent permission', sub_features: [] },
-            { description: 'Assign human agent to individual conversation', sub_features: [] },
-            { description: 'Unread message counter for each human agent', sub_features: [] },
-            { description: 'Live transfer from AI agent to human agent', sub_features: [] },
-            { description: 'Live transfer from human agent to AI agent', sub_features: [] }
-          ]
-        },
-        { description: 'Unlimited human agent chats', sub_features: [] },
-        { description: 'Unlimited contacts', sub_features: [] },
-        { description: 'Unlimited chat history', sub_features: [] },
-        { description: 'Freedom to export chat history', sub_features: [] },
-        { description: 'Additional channels: Line, Call, Phone Call', sub_features: [] },
-        { description: 'Additional integrations: Google Calendar to auto book meetings', sub_features: [] },
-        {
-          description: '10 AI agents, with each agent having:',
-          sub_features: [
-            { description: 'ChatGPT-4o and Mistral models', sub_features: [] },
-            { description: 'Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens', sub_features: [] },
-            { description: 'Chat summary and notification via email', sub_features: [] },
-            { description: 'Agent privacy control', sub_features: [] },
-            { description: 'User contact capture via custom forms', sub_features: [] }
-          ]
-        },
-        { description: 'Chat AI agent starts at $0.006 per response', sub_features: [] },
-        { description: 'Voice AI agent over phone calls starts at $0.12 per minute', sub_features: [] },
-        { description: '2 workspaces (additional workspace costs $15/month)', sub_features: [] },
-        {
-          description: 'Knowledge Base:',
-          sub_features: [
-            { description: 'Advanced document search - keyword, vector, hybrid', sub_features: [] },
-            { description: '20+ file types supported, with optimization on spreadsheets', sub_features: [] }
-          ]
-        },
-        {
-          description: 'Automation:',
-          sub_features: [
-            { description: 'Automatically label conversations with user-defined labels', sub_features: [] },
-            { description: 'Built-in actions triggered by auto-labeling: SMS, Email', sub_features: [] },
-            { description: 'External API calls as both triggers and actions', sub_features: [] }
-          ]
-        },
-        {
-          description: 'Voice AI Agents:',
-          sub_features: [
-            { description: 'Support voice messages in Messenger, WhatsApp, Line', sub_features: [] },
-            { description: 'Support 2-way phone call conversations', sub_features: [] },
-            { description: 'Support both inbound and outbound call', sub_features: [] },
-            { description: 'Transfer to human agent', sub_features: [] },
-            { description: 'Call forwarding supported', sub_features: [] },
-            { description: '10+ Speech-To-Text languages', sub_features: [] },
-            { description: '10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI', sub_features: [] },
-            { description: 'Call recording and summary', sub_features: [] },
-            { description: 'Call notification via email', sub_features: [] },
-            { description: 'Set form trackers from conversations', sub_features: [] },
-            { description: 'Slot extractors from conversations', sub_features: [] }
-          ]
-        },
-        {
-          description: 'Local time awareness with timezone support, for:',
-          sub_features: [
-            { description: 'business hours', sub_features: [] },
-            { description: 'appointment booking', sub_features: [] }
-          ]
-        }
-      ],
-      buttonText: 'Start Premium',
+      features: t('seachat.pricingPage.plans.premium.features', { returnObjects: true }) as any[],
+      buttonText: t('seachat.pricingPage.plans.premium.buttonText'),
       buttonStyle: 'bg-orange-500 hover:bg-orange-600 text-white',
       cardStyle: 'bg-gradient-to-br from-orange-300 to-orange-500 text-white',
-      badge: 'Most Popular',
+      badge: t('seachat.pricingPage.plans.premium.badge'),
       highlight: true
     },
     {
       id: 'enterprise',
-      name: 'Enterprise',
-      tagline: 'Customize your exclusive AI agents',
-      description: 'Custom solutions for large organizations',
+      name: t('seachat.pricingPage.plans.enterprise.name'),
+      tagline: t('seachat.pricingPage.plans.enterprise.tagline'),
+      description: t('seachat.pricingPage.plans.enterprise.description'),
       price: null,
       originalPrice: 0,
-      features: [
-        { description: 'Everything in Premium plan', sub_features: [] },
-        { description: 'Custom build', sub_features: [] },
-        { description: 'Multiple workspaces - perfect for agencies', sub_features: [] },
-        { description: 'Each workspace has multiple AI agents and phone numbers', sub_features: [] },
-        { description: 'Custom API integration', sub_features: [] },
-        { description: 'Fine-tuning with your guidelines and technical support', sub_features: [] }
-      ],
-      buttonText: 'Contact Us',
+      features: t('seachat.pricingPage.plans.enterprise.features', { returnObjects: true }) as any[],
+      buttonText: t('seachat.pricingPage.plans.enterprise.buttonText'),
       buttonStyle: 'bg-green-500 hover:bg-green-600 text-white',
       cardStyle: 'bg-gradient-to-br from-green-400 to-green-600 text-white'
     }
   ];
+
+  // Convert features array to the expected structure
+  const processedPlans = plans.map(plan => ({
+    ...plan,
+    features: (plan.features as any[]).map(feature => ({
+      description: typeof feature === 'string' ? feature : feature.description,
+      sub_features: typeof feature === 'string' ? [] : (feature.sub_features || [])
+    }))
+  }));
 
   return (
     <div className="pt-16">
@@ -241,11 +134,10 @@ const PricingPage = () => {
       <section className="py-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Pricing That Grows With You
+            {t('seachat.pricingPage.hero.title')}
           </h1>
           <p className="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
-            Start completely free with human agents, then add AI when you're ready to scale. 
-            No surprises, no hidden fees, just transparent pricing.
+            {t('seachat.pricingPage.hero.subtitle')}
           </p>
           
           {/* Billing Toggle */}
@@ -331,7 +223,7 @@ const PricingPage = () => {
                           </div>
                           {feature.sub_features && feature.sub_features.length > 0 && (
                             <ul className="ml-7 mt-1 space-y-1">
-                              {feature.sub_features.map((subFeature, subIndex) => (
+                              {feature.sub_features.map((subFeature: any, subIndex: number) => (
                                 <li key={subIndex} className="flex items-start space-x-2">
                                   <span className="w-2 h-2 bg-gray-400 rounded-full flex-shrink-0 mt-2" />
                                   <span className="text-xs text-gray-600">{subFeature.description}</span>
@@ -373,15 +265,15 @@ const PricingPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Premium Plan Usage Calculator
+              {t('seachat.pricingPage.usageCalculator.title')}
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Estimate your costs based on your usage patterns
+              {t('seachat.pricingPage.usageCalculator.subtitle')}
             </p>
             
             {/* Calculator Billing Toggle */}
             <div className="flex items-center justify-center mb-6">
-              <span className={`mr-3 text-lg ${calculatorBilling === 'monthly' ? 'text-gray-900 font-semibold' : 'text-gray-500'}`}>Monthly</span>
+              <span className={`mr-3 text-lg ${calculatorBilling === 'monthly' ? 'text-gray-900 font-semibold' : 'text-gray-500'}`}>{t('seachat.pricingPage.billingToggle.monthly')}</span>
               <button
                 onClick={() => setCalculatorBilling(calculatorBilling === 'monthly' ? 'yearly' : 'monthly')}
                 className="relative inline-flex h-6 w-11 items-center rounded-full bg-orange-500 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
@@ -393,7 +285,7 @@ const PricingPage = () => {
                 />
               </button>
               <span className={`ml-3 text-lg ${calculatorBilling === 'yearly' ? 'text-gray-900 font-semibold' : 'text-gray-500'}`}>
-                Yearly
+                {t('seachat.pricingPage.billingToggle.yearly')}
               </span>
             </div>
           </div>
@@ -403,7 +295,7 @@ const PricingPage = () => {
               {/* Model Selection */}
               <div>
                 <label className="block text-lg font-semibold text-gray-900 mb-4">
-                  Select AI Model
+                  {t('seachat.pricingPage.usageCalculator.selectModel')}
                 </label>
                 <select 
                   value={selectedModel}
@@ -434,46 +326,46 @@ const PricingPage = () => {
 
               {/* Usage Summary */}
               <div className="bg-white rounded-xl p-6 border border-orange-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{calculatorBilling === 'yearly' ? 'Yearly' : 'Monthly'} Cost Breakdown</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">{t(`seachat.pricingPage.usageCalculator.costBreakdown.${calculatorBilling}`)}</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">{calculatorBilling === 'yearly' ? 'License fee (save 2 months):' : 'License fee:'}</span>
+                    <span className="text-gray-600">{t(`seachat.pricingPage.usageCalculator.licenseFee.${calculatorBilling}`)}</span>
                     <span className="font-semibold">
                       ${calculatorBilling === 'yearly' ? '299.00' : '29.99'}
                     </span>
                   </div>
                   {calculatorBilling === 'yearly' && (
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Usage cost (12 months):</span>
+                      <span className="text-gray-600">{t('seachat.pricingPage.usageCalculator.usageCost.yearly')}</span>
                       <span className="font-semibold">${(calculateUsageCost() * 12).toFixed(2)}</span>
                     </div>
                   )}
                   {calculatorBilling === 'monthly' && (
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Usage cost:</span>
+                      <span className="text-gray-600">{t('seachat.pricingPage.usageCalculator.usageCost.monthly')}</span>
                       <span className="font-semibold">${calculateUsageCost().toFixed(2)}</span>
                     </div>
                   )}
                   {calculatorBilling === 'yearly' && (
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Add-ons cost (12 months):</span>
+                      <span className="text-gray-600">{t('seachat.pricingPage.usageCalculator.addonsCost.yearly')}</span>
                       <span className="font-semibold">${(calculateAddonsCost() * 12).toFixed(2)}</span>
                     </div>
                   )}
                   {calculatorBilling === 'monthly' && (
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Add-ons cost:</span>
+                      <span className="text-gray-600">{t('seachat.pricingPage.usageCalculator.addonsCost.monthly')}</span>
                       <span className="font-semibold">${calculateAddonsCost().toFixed(2)}</span>
                     </div>
                   )}
                   <div className="border-t border-orange-200 pt-3">
                     <div className="flex justify-between items-center text-xl">
-                      <span className="font-bold text-gray-900">Total {calculatorBilling === 'yearly' ? 'per year' : 'per month'}:</span>
+                      <span className="font-bold text-gray-900">{t(`seachat.pricingPage.usageCalculator.total.${calculatorBilling}`)}</span>
                       <span className="font-bold text-orange-600">${getCalculatorTotalCost().toFixed(2)}</span>
                     </div>
                     {calculatorBilling === 'yearly' && (
                       <div className="flex justify-between items-center text-sm mt-2">
-                        <span className="text-gray-500">Average per month:</span>
+                        <span className="text-gray-500">{t('seachat.pricingPage.usageCalculator.averagePerMonth')}</span>
                         <span className="text-gray-700 font-medium">${(getCalculatorTotalCost() / 12).toFixed(2)}</span>
                       </div>
                     )}
@@ -486,11 +378,11 @@ const PricingPage = () => {
             <div className="space-y-8">
               {/* AI Usage Section */}
               <div>
-                <h4 className="text-xl font-bold text-gray-900 mb-6">AI Usage (Pay per use)</h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-6">{t('seachat.pricingPage.usageCalculator.aiUsage.title')}</h4>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <label className="block text-lg font-semibold text-gray-900 mb-4">
-                      Monthly Chat Responses: <span className="text-orange-600">{chatResponses.toLocaleString()}</span>
+                      {t('seachat.pricingPage.usageCalculator.aiUsage.chatResponses')}: <span className="text-orange-600">{chatResponses.toLocaleString()}</span>
                       <div className="text-sm text-gray-500 mt-1 opacity-0">Placeholder</div>
                     </label>
                     <input
@@ -508,7 +400,7 @@ const PricingPage = () => {
                     </div>
                     <div className="mt-3 text-center">
                       <div className="bg-white rounded-lg p-3 border border-orange-300">
-                        <div className="text-sm text-gray-600 mb-1">Chat Cost</div>
+                        <div className="text-sm text-gray-600 mb-1">{t('seachat.pricingPage.usageCalculator.aiUsage.chatCost')}</div>
                         <div className="text-xl font-bold text-orange-600">
                           ${(() => {
                             const model = pricingData.pricing.find(p => p.model_name === selectedModel);
@@ -521,8 +413,8 @@ const PricingPage = () => {
                   
                   <div>
                     <label className="block text-lg font-semibold text-gray-900 mb-4">
-                      Monthly Voice Minutes: <span className="text-orange-600">{voiceMinutes.toLocaleString()}</span>
-                      <div className="text-sm text-gray-500 mt-1">USA/Canada only</div>
+                      {t('seachat.pricingPage.usageCalculator.aiUsage.voiceMinutes')}: <span className="text-orange-600">{voiceMinutes.toLocaleString()}</span>
+                      <div className="text-sm text-gray-500 mt-1">{t('seachat.pricingPage.usageCalculator.aiUsage.voiceDisclaimer')}</div>
                     </label>
                     <input
                       type="range"
@@ -539,7 +431,7 @@ const PricingPage = () => {
                     </div>
                     <div className="mt-3 text-center">
                       <div className="bg-white rounded-lg p-3 border border-orange-300">
-                        <div className="text-sm text-gray-600 mb-1">Voice Cost</div>
+                        <div className="text-sm text-gray-600 mb-1">{t('seachat.pricingPage.usageCalculator.aiUsage.voiceCost')}</div>
                         <div className="text-xl font-bold text-orange-600">
                           ${(() => {
                             const model = pricingData.pricing.find(p => p.model_name === selectedModel);
@@ -672,10 +564,10 @@ const PricingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Compare All Features
+              {t('seachat.pricingPage.featureComparison.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See exactly what's included in each plan
+              {t('seachat.pricingPage.featureComparison.subtitle')}
             </p>
           </div>
 
@@ -684,10 +576,10 @@ const PricingPage = () => {
               <table className="w-full">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Features</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-purple-600">Truly Free</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-orange-600">Premium</th>
-                    <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">Enterprise</th>
+                    <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('seachat.pricingPage.featureComparison.headers.features')}</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-purple-600">{t('seachat.pricingPage.plans.free.name')}</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-orange-600">{t('seachat.pricingPage.plans.premium.name')}</th>
+                    <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">{t('seachat.pricingPage.plans.enterprise.name')}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
@@ -726,12 +618,11 @@ const PricingPage = () => {
           <div className="flex items-center justify-center mb-6">
             <Zap className="w-12 h-12 text-yellow-300 mr-4" />
             <h2 className="text-4xl md:text-5xl font-bold text-white">
-              Need Something Custom?
+              {t('seachat.pricingPage.enterpriseCta.title')}
             </h2>
           </div>
           <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
-            We offer custom enterprise solutions including on-premise deployment, 
-            advanced security features, and dedicated support teams.
+            {t('seachat.pricingPage.enterpriseCta.subtitle')}
           </p>
           <div className="flex justify-center">
             <a 
@@ -740,7 +631,7 @@ const PricingPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
             >
-              Contact Sales Team
+              {t('seachat.pricingPage.enterpriseCta.button')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </div>
@@ -752,7 +643,7 @@ const PricingPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Frequently Asked Questions
+              {t('seachat.pricingPage.faq.title')}
             </h2>
           </div>
 

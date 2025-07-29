@@ -165,6 +165,18 @@
       "zhTW": "Chinese (Traditional)"
     }
   },
+  "common": {
+    "phoneBanner": {
+      "callText": "Call",
+      "bookMeeting": "to book a meeting with the SeaVoice AI agent.",
+      "available247": "Available 24/7"
+    },
+    "productLogoDropdown": {
+      "mainSite": "Seasalt.ai Main Site",
+      "allProducts": "All products and solutions",
+      "products": "Products"
+    }
+  },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
     "titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
@@ -204,6 +216,48 @@
     "testimonial": {
       "quote": "\"I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!\"",
       "author": "— Solution Architect Review"
+    },
+    "problemSolution": {
+      "title": "Losing Leads in a Maze of Apps and Inboxes?",
+      "subtitle": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
+      "problems": {
+        "fragmented": {
+          "title": "Fragmented Conversations",
+          "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
+        },
+        "lostRevenue": {
+          "title": "Lost Revenue",
+          "description": "Missed messages after-hours and slow responses mean lost leads and frustrated customers."
+        },
+        "overload": {
+          "title": "Operational Overload",
+          "description": "Your team is stretched thin managing too many tools instead of focusing on customers."
+        }
+      },
+      "solution": {
+        "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
+        "hubTitle": "Unified Omni-Channel Hub",
+        "subtitle": "AI 6 Human Agents, 24/7",
+        "tabs": {
+          "support": "Support",
+          "marketing": "Marketing"
+        },
+        "features": {
+          "marketing": {
+            "title": "Copilot Your Marketing Campaigns",
+            "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+          },
+          "support": {
+            "title": "Autopilot Your Customer Support",
+            "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+          },
+          "human": {
+            "title": "Never Lose the Human Touch",
+            "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+          }
+        },
+        "cta": "Use Seasalt.ai to Solve This"
+      }
     }
   },
   "seachat": {
@@ -260,12 +314,45 @@
     "hero": {
       "title": "Start Free with",
       "subtitle": "Live Agents",
+      "badge": "Start Free with Live Agents",
+      "headline1": "Respond To",
+      "headline2": "Millions",
+      "headline3": "24/7",
       "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
       "startFree": "Start Free Now",
       "exploreAI": "Book A Demo",
       "alwaysFree": "Always Free Plan",
       "integrations": "30+ Integrations",
       "setup": "Setup in 2 Minutes",
+      "animations": {
+        "title": "SeaChat in Action",
+        "autoMode": "Auto",
+        "manualMode": "Manual",
+        "phoneVoice": {
+          "name": "Phone Voice AI",
+          "description": "AI agents handling phone conversations"
+        },
+        "interactive": {
+          "name": "Interactive Channels",
+          "description": "Click to see different conversations"
+        },
+        "multiChannel": {
+          "name": "Multi-Channel Flow",
+          "description": "Messages flowing between different platforms"
+        },
+        "agentToAI": {
+          "name": "Human-to-AI Handoff",
+          "description": "Start with humans, scale with AI"
+        },
+        "learning": {
+          "name": "AI Learning Journey",
+          "description": "Watch AI get smarter from content"
+        },
+        "dashboard": {
+          "name": "Real-Time Analytics",
+          "description": "Live performance metrics"
+        }
+      },
       "chat": {
         "userMessage": "Hi! I need help with my order",
         "botMessage": "Hello! I'd be happy to help you with your order. Could you please provide your order number?",
@@ -273,6 +360,65 @@
         "typePlaceholder": "Type your message...",
         "online": "Online",
         "supportTitle": "SeaChat Support"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Smart Knowledge Base",
+      "subtitle": "Upload your documents, websites, and files. SeaChat's AI instantly becomes an expert on your business, ready to answer any customer question with accuracy.",
+      "supportedFormats": {
+        "title": "Supported File Types",
+        "formats": {
+          "pdf": {
+            "name": "PDF Documents",
+            "count": "Unlimited files"
+          },
+          "excel": {
+            "name": "Excel Sheets",
+            "count": "CSV, XLSX formats"
+          },
+          "word": {
+            "name": "Word Documents",
+            "count": "DOC, DOCX formats"
+          },
+          "images": {
+            "name": "Images",
+            "count": "JPG, PNG, GIF"
+          },
+          "websites": {
+            "name": "Website URLs",
+            "count": "Auto-crawling"
+          },
+          "videos": {
+            "name": "Video Content",
+            "count": "MP4, MOV formats"
+          }
+        },
+        "richResponse": {
+          "title": "Rich Response Features",
+          "features": [
+            "Smart content extraction",
+            "Auto-categorization",
+            "Contextual answers",
+            "Source attribution",
+            "Multi-language support",
+            "Real-time updates"
+          ]
+        },
+        "addDocuments": "Add Your Documents"
+      },
+      "uploadModal": {
+        "title": "Upload Documents",
+        "dropzone": {
+          "title": "Drag and drop files here or click to browse",
+          "description": "Upload PDFs, Word docs, Excel files, images, or paste website URLs",
+          "button": "Choose Files"
+        },
+        "demoFiles": [
+          "sample-manual.pdf",
+          "product-catalog.xlsx",
+          "company-policy.docx"
+        ],
+        "close": "Close"
       }
     },
     "keyFeatures": {
@@ -422,6 +568,68 @@
           "tryFeature": "Try This Feature",
           "watchDemo": "Watch Demo"
         },
+        "advancedFeatures": {
+          "retrievalAugmentedGeneration": {
+            "title": "Retrieval Augmented Generation",
+            "description": "Keyword, Vector, and Hybrid Search for precise information retrieval",
+            "details": [
+              "Semantic vector search",
+              "Keyword matching",
+              "Hybrid search algorithms",
+              "Real-time content indexing"
+            ]
+          },
+          "longTermMemory": {
+            "title": "Long Term Memory",
+            "description": "Personalized experiences through persistent user memory",
+            "details": [
+              "User preference tracking",
+              "Conversation history analysis",
+              "Behavioral pattern recognition",
+              "Cross-session continuity"
+            ]
+          },
+          "timeAwareness": {
+            "title": "Time Awareness",
+            "description": "Context-aware responses based on current time and timezone",
+            "details": [
+              "Real-time timestamp integration",
+              "Timezone-aware scheduling",
+              "Time-sensitive recommendations",
+              "Business hours optimization"
+            ]
+          },
+          "contextExtraction": {
+            "title": "Context Extraction",
+            "description": "Intelligent field mapping for better user comprehension",
+            "details": [
+              "Custom field definitions",
+              "Automatic data extraction",
+              "User language preferences",
+              "Dynamic context building"
+            ]
+          },
+          "referencedResults": {
+            "title": "Referenced Results",
+            "description": "Transparent AI responses with source citations",
+            "details": [
+              "Source document linking",
+              "Citation tracking",
+              "Confidence scoring",
+              "Fact verification"
+            ]
+          },
+          "knowledgeRefinement": {
+            "title": "Knowledge Refinement",
+            "description": "Continuous improvement of knowledge base accuracy",
+            "details": [
+              "Auto-updating content",
+              "Quality scoring",
+              "Relevance optimization",
+              "Performance analytics"
+            ]
+          }
+        },
         "integrations": {
           "title": "Powerful Integrations",
           "subtitle": "Connect with your favorite tools and platforms",
@@ -448,35 +656,83 @@
       "channels": {
         "website": {
           "name": "Website",
-          "description": "Universal widget that works on any HTML website"
+          "description": "Universal widget that works on any HTML website",
+          "features": [
+            "Universal compatibility",
+            "Custom styling",
+            "Mobile responsive",
+            "Real-time sync"
+          ]
         },
         "whatsapp": {
           "name": "WhatsApp",
-          "description": "Connect with customers on the world's most popular messaging app"
+          "description": "Connect with customers on the world's most popular messaging app",
+          "features": [
+            "Business API integration",
+            "Rich media support",
+            "Template messages",
+            "Group messaging"
+          ]
         },
         "instagram": {
           "name": "Instagram",
-          "description": "Manage Instagram DMs and story replies in one unified inbox"
+          "description": "Manage Instagram DMs and story replies in one unified inbox",
+          "features": [
+            "Story reply management",
+            "Media sharing",
+            "Quick responses",
+            "Automated greetings"
+          ]
         },
         "facebook": {
           "name": "Facebook",
-          "description": "Provide customer support through Facebook's messaging platform"
+          "description": "Provide customer support through Facebook's messaging platform",
+          "features": [
+            "Page integration",
+            "Automated responses",
+            "Rich cards",
+            "Persistent menu"
+          ]
         },
         "line": {
           "name": "LINE",
-          "description": "Connect with customers on the popular Asian messaging platform"
+          "description": "Connect with customers on the popular Asian messaging platform",
+          "features": [
+            "Official Account integration",
+            "Rich media support",
+            "Stickers and emoji",
+            "Automated replies"
+          ]
         },
         "phone": {
           "name": "Phone Call",
-          "description": "Handle voice support with AI voice agents"
+          "description": "Handle voice support with AI voice agents",
+          "features": [
+            "Natural conversations",
+            "Call routing",
+            "Voicemail transcription",
+            "Conference calls"
+          ]
         },
         "email": {
           "name": "Email",
-          "description": "Manage email tickets with intelligent routing"
+          "description": "Manage email tickets with intelligent routing",
+          "features": [
+            "Smart categorization",
+            "Auto-responses",
+            "Email templates",
+            "Priority handling"
+          ]
         },
         "ecommerce": {
           "name": "E-commerce",
-          "description": "Integrate with online stores for order management"
+          "description": "Integrate with online stores for order management",
+          "features": [
+            "Order tracking",
+            "Product information",
+            "Inventory checks",
+            "Shopping cart recovery"
+          ]
         }
       },
       "platformCategories": {
@@ -522,6 +778,11 @@
       "customize": "Customize Your Plan",
       "chatVolume": "Monthly Chat Volume",
       "agents": "Number of Agents",
+      "limitations": "Limitations",
+      "basedOn": "Based on",
+      "chatsPerPeriod": "chats",
+      "month": "month",
+      "year": "year",
       "plans": {
         "free": {
           "name": "Free Forever",
@@ -720,12 +981,19 @@
           }
         }
       },
+      "labels": {
+        "challenge": "Challenge",
+        "solution": "Solution",
+        "results": "Results Achieved"
+      },
       "cta": {
         "title": "Ready to Transform Your Support?",
         "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
         "buttons": {
           "viewCases": "View All Case Studies",
-          "startStory": "Start Your Success Story"
+          "startStory": "Start Your Success Story",
+          "signUp": "Sign Up For Free",
+          "demo": "Book A Demo"
         }
       }
     },
