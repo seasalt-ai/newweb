@@ -14,7 +14,49 @@
     "features": "Features",
     "appointmentReminders": "Appointment Reminders",
     "politicalCampaigns": "Political Campaigns",
-    "bookDemo": "Book Demo"
+    "bookDemo": "Book Demo",
+    "navigation": {
+      "platform": "Platform",
+      "inboundSolutions": "Inbound Solutions",
+      "outboundSolutions": "Outbound Solutions",
+      "pricing": "Pricing"
+    },
+    "platform": {
+      "overview": "Platform Overview",
+      "landlineMobile": "Landline & Mobile Voice",
+      "voipSipByoc": "VoIP & SIP & BYOC Voice",
+      "lineCallPlus": "Line Call Plus for Businesses",
+      "whatsappVoice": "WhatsApp Voice API for Businesses",
+      "speechToText": "Speech To Text",
+      "textToSpeech": "Text To Speech",
+      "endToEndLlm": "End To End LLMs"
+    },
+    "inbound": {
+      "virtualAssistant": "24/7 Virtual Assistant",
+      "callTransfer": "Smart Call Transfer",
+      "ivrReplacement": "IVR Replacement",
+      "mentalHealth": "Mental Health Companion",
+      "scamShield": "Scam Shield Protection",
+      "technicalSupport": "Technical Support",
+      "orderStatus": "Order Status & Tracking",
+      "paymentProcessing": "Payment Processing",
+      "appointmentBooking": "Appointment Booking"
+    },
+    "outbound": {
+      "leadGeneration": "Lead Generation & Qualification",
+      "collections": "Collections Service",
+      "reactivation": "Customer Reactivation",
+      "seniorChecks": "Senior Check Calls",
+      "campaigns": "Large Scale Campaigns",
+      "proactiveSupport": "Proactive Support",
+      "renewals": "Subscription Renewals",
+      "surveys": "Customer Surveys",
+      "fraudAlerts": "Fraud Alerts"
+    },
+    "auth": {
+      "signIn": "Sign In",
+      "getStarted": "Get Started"
+    }
   },
   "footer": {
     "description": "Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business.",
