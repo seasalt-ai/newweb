@@ -20,7 +20,7 @@ import ProductLogoDropdown from '../../components/ProductLogoDropdown';
 import PhoneBanner from '../../components/PhoneBanner';
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     if (!i18n.language) {
       i18n.changeLanguage('en'); // default to English or detect from settings
@@ -52,114 +52,114 @@ const Header = () => {
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const navigation = useMemo(() => [
-    { name: 'Features', href: getLocalizedPath('/features') },
+    { name: t('header.features'), href: getLocalizedPath('/features') },
     {
-      name: 'Channels',
+      name: t('header.channels'),
       href: getLocalizedPath('/channels'),
       dropdown: [
         { 
-          name: 'SMS Overview', 
+          name: t('channels.sms'), 
           href: getLocalizedPath('/channels/sms'),
           icon: MessageSquare,
-          iconText: 'SMS',
+          iconText: t('channels.sms'),
           isParent: true
         },
         { 
-          name: 'Local Number (10DLC)', 
+          name: t('seax.features.channels.sms.types.local.title'), 
           href: getLocalizedPath('/channels/sms-local'),
           icon: Building2,
           iconText: '10DLC',
           isChild: true
         },
         { 
-          name: 'Toll-Free Number', 
+          name: t('seax.features.channels.sms.types.tollFree.title'), 
           href: getLocalizedPath('/channels/sms-toll-free'),
           icon: Phone,
           iconText: '8XX',
           isChild: true
         },
         { 
-          name: 'Short Code', 
+          name: t('seax.features.channels.sms.types.shortCode.title'), 
           href: getLocalizedPath('/channels/sms-short-code'),
           icon: Hash,
           iconText: 'xxxxx',
           isChild: true
         },
         { 
-          name: 'WhatsApp Business Platform', 
+          name: t('channels.whatsapp'), 
           href: getLocalizedPath('/channels/whatsapp'),
           icon: WhatsAppIcon
         },
         { 
-          name: 'Phone Call Voice', 
+          name: t('channels.voice'), 
           href: getLocalizedPath('/channels/voice'),
           icon: Phone
         }
       ]
     },
     {
-      name: 'Solutions',
+      name: t('header.solutions'),
       href: getLocalizedPath('/solutions'),
       dropdown: [
         { 
-          name: 'Lead Generation', 
+          name: t('seax.solutions.leadGeneration.title'), 
           href: getLocalizedPath('/solutions/lead-generation'),
           icon: Target
         },
-        { 
-          name: 'Marketing Automation', 
+        {
+          name: t('seax.solutions.marketingAutomation.title'), 
           href: getLocalizedPath('/solutions/marketing-automation'),
           icon: Zap
         },
         { 
-          name: 'Customer Engagement', 
+          name: t('seax.solutions.customerEngagement.title'), 
           href: getLocalizedPath('/solutions/customer-engagement'),
           icon: Users
         },
         { 
-          name: 'Appointment Reminders', 
+          name: t('header.appointmentReminders'), 
           href: getLocalizedPath('/solutions/appointment-reminders'),
           icon: Calendar
         },
         { 
-          name: 'Emergency Alerts', 
+          name: t('solutions.emergencyAlerts'), 
           href: getLocalizedPath('/solutions/emergency-alerts'),
           icon: AlertTriangle
         }
       ]
     },
     {
-      name: 'Industries',
+      name: t('header.industries'),
       href: getLocalizedPath('/industries'),
       dropdown: [
         { 
-          name: 'E-commerce & Retail', 
+          name: t('industries.ecommerce.title'), 
           href: getLocalizedPath('/industries/ecommerce-retail'),
           icon: ShoppingCart
         },
         { 
-          name: 'Real Estate', 
+          name: t('industries.realEstate.title'), 
           href: getLocalizedPath('/industries/real-estate'),
           icon: Building2
         },
         { 
-          name: 'Political Campaigns', 
+          name: t('header.politicalCampaigns'), 
           href: getLocalizedPath('/industries/political-campaigns'),
           icon: Vote
         },
         { 
-          name: 'Healthcare', 
+          name: t('industries.healthcare.title'), 
           href: getLocalizedPath('/industries/healthcare'),
           icon: Heart
         },
         { 
-          name: 'Financial Services', 
+          name: t('industries.financialServices.title'), 
           href: getLocalizedPath('/industries/financial-services'),
           icon: DollarSign
         }
       ]
     },
-    { name: 'Pricing', href: getLocalizedPath('/pricing') }
+    { name: t('header.pricing'), href: getLocalizedPath('/pricing') }
   ], [currentLanguage]);
 
   const isActivePath = (path: string) => {
@@ -289,7 +289,7 @@ const Header = () => {
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
             >
-              Book Demo
+              {t('header.bookDemo')}
             </a>
           </div>
 
@@ -375,7 +375,7 @@ const Header = () => {
                   className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Book Demo
+                  {t('header.bookDemo')}
                 </a>
               </div>
             </div>

@@ -26,60 +26,60 @@ export interface SeaXSolution {
   };
 }
 
-export const seaxSolutions: SeaXSolution[] = [
+export const getSeaxSolutions = (t: (key: string) => string): SeaXSolution[] => [
   {
     id: 'lead-generation',
-    title: 'Lead Generation',
-    subtitle: 'Fill Your Sales Funnel',
-    description: 'Automate high-volume outreach to generate qualified leads and fill your sales pipeline faster than ever.',
+    title: t('seax.solutions.leadGeneration.title'),
+    subtitle: t('seax.solutions.leadGeneration.subtitle'),
+    description: t('seax.solutions.leadGeneration.description'),
     icon: '🎯',
     color: 'blue',
     features: [
-      'Automated lead outreach campaigns',
-      'AI-powered lead scoring',
-      'Multi-channel lead nurturing',
-      'Smart follow-up sequences',
-      'CRM integration & sync',
-      'Lead qualification automation',
-      'A/B testing for campaigns',
-      'Real-time lead tracking'
+      t('seax.solutions.leadGeneration.features.0'),
+      t('seax.solutions.leadGeneration.features.1'),
+      t('seax.solutions.leadGeneration.features.2'),
+      t('seax.solutions.leadGeneration.features.3'),
+      t('seax.solutions.leadGeneration.features.4'),
+      t('seax.solutions.leadGeneration.features.5'),
+      t('seax.solutions.leadGeneration.features.6'),
+      t('seax.solutions.leadGeneration.features.7')
     ],
     benefits: [
-      'Increase lead volume by 300%',
-      'Reduce cost per lead by 60%',
-      'Improve lead quality with AI scoring',
-      'Automate 80% of lead follow-up',
-      'Scale outreach to millions',
-      'Track ROI in real-time'
+      t('seax.solutions.leadGeneration.benefits.0'),
+      t('seax.solutions.leadGeneration.benefits.1'),
+      t('seax.solutions.leadGeneration.benefits.2'),
+      t('seax.solutions.leadGeneration.benefits.3'),
+      t('seax.solutions.leadGeneration.benefits.4'),
+      t('seax.solutions.leadGeneration.benefits.5')
     ],
     useCases: [
-      'B2B lead generation campaigns',
-      'Real estate prospect outreach',
-      'Insurance lead qualification',
-      'Event registration drives',
-      'Product launch campaigns',
-      'Webinar sign-up campaigns'
+      t('seax.solutions.leadGeneration.useCases.0'),
+      t('seax.solutions.leadGeneration.useCases.1'),
+      t('seax.solutions.leadGeneration.useCases.2'),
+      t('seax.solutions.leadGeneration.useCases.3'),
+      t('seax.solutions.leadGeneration.useCases.4'),
+      t('seax.solutions.leadGeneration.useCases.5')
     ],
     stats: [
-      { value: '300%', label: 'Lead volume increase' },
-      { value: '60%', label: 'Cost reduction' },
-      { value: '85%', label: 'Qualification rate' }
+      { value: t('seax.solutions.leadGeneration.stats.0.value'), label: t('seax.solutions.leadGeneration.stats.0.label') },
+      { value: t('seax.solutions.leadGeneration.stats.1.value'), label: t('seax.solutions.leadGeneration.stats.1.label') },
+      { value: t('seax.solutions.leadGeneration.stats.2.value'), label: t('seax.solutions.leadGeneration.stats.2.label') }
     ],
     testimonial: {
-      quote: 'SeaX helped us generate 50,000 qualified leads in just 3 months. Our sales team has never been busier!',
-      author: 'Sarah Johnson',
-      company: 'TechStart Inc.',
-      results: '50K leads generated, 23% conversion rate'
+      quote: t('seax.solutions.leadGeneration.testimonial.quote'),
+      author: t('seax.solutions.leadGeneration.testimonial.author'),
+      company: t('seax.solutions.leadGeneration.testimonial.company'),
+      results: t('seax.solutions.leadGeneration.testimonial.results')
     },
     caseStudy: {
-      title: 'SaaS Company Triples Lead Generation',
-      challenge: 'A growing SaaS company needed to scale their lead generation from 1,000 to 10,000 qualified leads per month.',
-      solution: 'Implemented automated SMS and WhatsApp campaigns with AI-powered lead scoring across 5 target markets.',
+      title: t('seax.solutions.leadGeneration.caseStudy.title'),
+      challenge: t('seax.solutions.leadGeneration.caseStudy.challenge'),
+      solution: t('seax.solutions.leadGeneration.caseStudy.solution'),
       results: [
-        '12,000 qualified leads generated monthly',
-        '67% reduction in cost per lead',
-        '45% improvement in lead quality',
-        '300% increase in sales pipeline'
+        t('seax.solutions.leadGeneration.caseStudy.results.0'),
+        t('seax.solutions.leadGeneration.caseStudy.results.1'),
+        t('seax.solutions.leadGeneration.caseStudy.results.2'),
+        t('seax.solutions.leadGeneration.caseStudy.results.3')
       ]
     }
   },

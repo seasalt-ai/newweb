@@ -21,28 +21,28 @@ const Footer = () => {
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const channelLinks = [
-    { name: 'SMS Overview', path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
-    { name: 'Local Number (10DLC)', path: '/channels/sms-local', icon: Building2, iconText: '10DLC', isChild: true },
-    { name: 'Toll-Free Number', path: '/channels/sms-toll-free', icon: Phone, iconText: '8XX', isChild: true },
-    { name: 'Short Code', path: '/channels/sms-short-code', icon: Hash, iconText: 'xxxxx', isChild: true },
-    { name: 'WhatsApp Business Platform', path: '/channels/whatsapp', icon: WhatsAppIcon },
-    { name: 'Phone Call Voice', path: '/channels/voice', icon: Phone }
+    { name: t('footer.channels.sms'), path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
+    { name: t('footer.channels.smsLocal'), path: '/channels/sms-local', icon: Building2, iconText: '10DLC', isChild: true },
+    { name: t('footer.channels.smsTollFree'), path: '/channels/sms-toll-free', icon: Phone, iconText: '8XX', isChild: true },
+    { name: t('footer.channels.smsShortCode'), path: '/channels/sms-short-code', icon: Hash, iconText: 'xxxxx', isChild: true },
+    { name: t('footer.channels.whatsapp'), path: '/channels/whatsapp', icon: WhatsAppIcon },
+    { name: t('footer.channels.voice'), path: '/channels/voice', icon: Phone }
   ];
 
   const solutionLinks = [
-    { name: 'Lead Generation', path: '/solutions/lead-generation', icon: Target },
-    { name: 'Marketing Automation', path: '/solutions/marketing-automation', icon: Zap },
-    { name: 'Customer Engagement', path: '/solutions/customer-engagement', icon: Users },
-    { name: 'Appointment Reminders', path: '/solutions/appointment-reminders', icon: Calendar },
-    { name: 'Emergency Alerts', path: '/solutions/emergency-alerts', icon: AlertTriangle }
+    { name: t('footer.solutions.leadGeneration'), path: '/solutions/lead-generation', icon: Target },
+    { name: t('footer.solutions.marketingAutomation'), path: '/solutions/marketing-automation', icon: Zap },
+    { name: t('footer.solutions.customerEngagement'), path: '/solutions/customer-engagement', icon: Users },
+    { name: t('footer.solutions.appointmentReminders'), path: '/solutions/appointment-reminders', icon: Calendar },
+    { name: t('footer.solutions.emergencyAlerts'), path: '/solutions/emergency-alerts', icon: AlertTriangle }
   ];
 
   const industryLinks = [
-    { name: 'E-commerce & Retail', path: '/industries/ecommerce-retail', icon: ShoppingCart },
-    { name: 'Real Estate', path: '/industries/real-estate', icon: Building2 },
-    { name: 'Political Campaigns', path: '/industries/political-campaigns', icon: Vote },
-    { name: 'Healthcare', path: '/industries/healthcare', icon: Heart },
-    { name: 'Financial Services', path: '/industries/financial-services', icon: DollarSign }
+    { name: t('footer.industries.ecommerceRetail'), path: '/industries/ecommerce-retail', icon: ShoppingCart },
+    { name: t('footer.industries.realEstate'), path: '/industries/real-estate', icon: Building2 },
+    { name: t('footer.industries.politicalCampaigns'), path: '/industries/political-campaigns', icon: Vote },
+    { name: t('footer.industries.healthcare'), path: '/industries/healthcare', icon: Heart },
+    { name: t('footer.industries.financialServices'), path: '/industries/financial-services', icon: DollarSign }
   ];
 
   const companyLinks = [
@@ -69,8 +69,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, 
-              and automated phone calls. Fill your pipeline, drive revenue, and scale your business.
+              {t('footer.description')}
             </p>
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center text-gray-300">
@@ -104,7 +103,7 @@ const Footer = () => {
 
           {/* Channels */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Channels</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.title.channels')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               {channelLinks.map((link, index) => (
                 <li key={index}>
@@ -138,7 +137,7 @@ const Footer = () => {
 
           {/* Solutions */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Solutions</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.title.solutions')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               {solutionLinks.map((link, index) => (
                 <li key={index}>
@@ -156,7 +155,7 @@ const Footer = () => {
 
           {/* Industries */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Industries</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.title.industries')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               {industryLinks.map((link, index) => (
                 <li key={index}>
@@ -183,7 +182,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                 >
                   <Zap className="h-3 w-3 mr-2 text-blue-400" />
-                  Features
+                  {t('footer.company.features')}
                 </Link>
               </li>
               <li>
@@ -192,7 +191,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                 >
                   <DollarSign className="h-3 w-3 mr-2 text-blue-400" />
-                  Pricing
+                  {t('footer.company.pricing')}
                 </Link>
               </li>
               {/* Then company links */}
@@ -231,11 +230,11 @@ const Footer = () => {
                 © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
-                <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Privacy Policy
+                <Link to={getLocalizedPath('/privacy')} className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.legal.privacyPolicy')}
                 </Link>
-                <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Terms of Service
+                <Link to={getLocalizedPath('/terms')} className="text-gray-300 hover:text-white transition-colors duration-200">
+                  {t('footer.legal.termsOfService')}
                 </Link>
               </div>
             </div>
@@ -272,23 +271,23 @@ const Footer = () => {
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
-            Ready to Scale Your Outreach to Millions?
+            {t('footer.cta.readyToScale')}
           </h3>
           <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
-            Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.
+            {t('footer.cta.joinThousands')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
               href="https://seax.seasalt.ai/signup"
               className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Sign Up Now
+              {t('footer.cta.signUpNow')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Schedule Demo
+              {t('footer.cta.scheduleDemo')}
             </a>
           </div>
         </div>

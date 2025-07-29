@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
 import { 
@@ -356,6 +357,8 @@ const Features = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

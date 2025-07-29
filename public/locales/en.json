@@ -10,14 +10,62 @@
     "login": "Login",
     "startForFree": "Sign Up",
     "backToChannels": "Back to Channels",
-    "allChannelsOverview": "All Channels Overview"
+    "allChannelsOverview": "All Channels Overview",
+    "features": "Features",
+    "appointmentReminders": "Appointment Reminders",
+    "politicalCampaigns": "Political Campaigns",
+    "bookDemo": "Book Demo"
   },
   "footer": {
+    "description": "Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business.",
+    "title": {
+      "channels": "Channels",
+      "solutions": "Solutions",
+      "industries": "Industries"
+    },
+    "channels": {
+      "sms": "SMS Overview",
+      "smsLocal": "Local Number (10DLC)",
+      "smsTollFree": "Toll-Free Number",
+      "smsShortCode": "Short Code",
+      "whatsapp": "WhatsApp Business Platform",
+      "voice": "Phone Call Voice"
+    },
+    "solutions": {
+      "leadGeneration": "Lead Generation",
+      "marketingAutomation": "Marketing Automation",
+      "customerEngagement": "Customer Engagement",
+      "appointmentReminders": "Appointment Reminders",
+      "emergencyAlerts": "Emergency Alerts"
+    },
+    "industries": {
+      "ecommerceRetail": "E-commerce & Retail",
+      "realEstate": "Real Estate",
+      "politicalCampaigns": "Political Campaigns",
+      "healthcare": "Healthcare",
+      "financialServices": "Financial Services"
+    },
     "company": {
       "title": "Company",
       "contact": "Contact",
       "about": "About Us",
-      "careers": "Careers"
+      "careers": "Careers",
+      "productWiki": "Product Wiki",
+      "apiReferences": "API References",
+      "features": "Features",
+      "pricing": "Pricing"
+    },
+    "legal": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "cta": {
+      "readyToScale": "Ready to Scale Your Outreach to Millions?",
+      "joinThousands": "Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.",
+      "signUpNow": "Sign Up Now",
+      "scheduleDemo": "Schedule Demo",
+      "title": "Ready to Transform Your Customer Communications?",
+      "startFreeTrial": "Sign Up"
     },
     "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
@@ -27,11 +75,6 @@
       "soc2": "SOC 2 Compliant",
       "hipaa": "HIPAA Available",
       "uptime": "99.9% Uptime"
-    },
-    "cta": {
-      "title": "Ready to Transform Your Customer Communications?",
-      "startFreeTrial": "Sign Up",
-      "scheduleDemo": "Schedule Demo"
     }
   },
   "hero": {
@@ -748,7 +791,7 @@
       "product": "Product",
       "company": "Company",
       "resources": "Resources",
-      "legal": "Legal & Support",
+      "legal": "Legal \u0026 Support",
       "getStarted": "Ready to Get Started?",
       "joinThousands": "Join thousands of businesses already using SeaChat to deliver exceptional customer experiences.",
       "enterEmail": "Enter your email",
@@ -756,7 +799,518 @@
       "copyright": "© 2024 SeaChat. All rights reserved.",
       "compliance": "🔒 SOC 2 Compliant",
       "gdpr": "🛡️ GDPR Ready",
-      "uptime": "⚡ 99.9% Uptime"
+      "uptime": "⚡99.9% Uptime",
+      "description": "Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster.",
+      "stats": {
+        "messagesDaily": "5M+ Messages Daily",
+        "activeUsers": "100K+ Active Users",
+        "uptime": "99.9% Uptime"
+      },
+      "tagline": "Made with ❤️ in the city of ☕ ☂️ ✈️ 💎",
+      "cta": {
+        "title": "Ready to Transform Your Customer Support?",
+        "description": "Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.",
+        "signUpFree": "Sign Up Free",
+        "scheduleDemo": "Schedule Demo",
+        "noCreditCard": "No credit card required • Setup in 2 minutes • Cancel anytime"
+      }
     }
+    }
+  },
+  "seax": {
+    "features": {
+      "coreFeatures": {
+        "bulkMessaging": {
+          "title": "Bulk Messaging Engine",
+          "description": "Send millions of SMS, WhatsApp messages, and phone calls simultaneously with carrier-grade reliability.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Messages sent daily"
+          },
+          "benefits": [
+            "Carrier-grade deliverability",
+            "Global reach across 200+ countries",
+            "Real-time delivery tracking",
+            "Intelligent routing optimization"
+          ]
+        },
+        "aiPoweredFollowup": {
+          "title": "AI-Powered Follow-Up",
+          "description": "Automated responses and smart lead nurturing to qualify prospects 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Lead qualification rate"
+          },
+          "benefits": [
+            "Smart conversation handling",
+            "Automated lead scoring",
+            "Intelligent response timing",
+            "Multi-language support"
+          ]
+        },
+        "realTimeAnalytics": {
+          "title": "Real-Time Analytics",
+          "description": "Track opens, replies, and conversions at scale with a comprehensive live dashboard.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Uptime guarantee"
+          },
+          "benefits": [
+            "Live campaign monitoring",
+            "Conversion tracking",
+            "Performance insights",
+            "Custom reporting"
+          ]
+        },
+        "complianceDeliverability": {
+          "title": "Compliance & Deliverability",
+          "description": "Global reach with carrier compliance and pre-approved message templates.",
+          "metrics": {
+            "value": "200+",
+            "label": "Countries supported"
+          },
+          "benefits": [
+            "GDPR compliant",
+            "Carrier approval process",
+            "Spam protection",
+            "Regulatory compliance"
+          ]
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Multi-user access, campaign permissions, and shared resources for enterprise teams.",
+          "metrics": {
+            "value": "500K+",
+            "label": "Calls per hour"
+          },
+          "benefits": [
+            "Role-based permissions",
+            "Shared campaign templates",
+            "Team performance tracking",
+            "Collaborative workflows"
+          ]
+        },
+        "enterpriseScale": {
+          "title": "Enterprise Scale",
+          "description": "Built for the highest volume senders with dedicated infrastructure and support.",
+          "metrics": {
+            "value": "1M+",
+            "label": "Messages per minute"
+          },
+          "benefits": [
+            "Dedicated infrastructure",
+            "Priority support",
+            "Custom integrations",
+            "Enterprise SLAs"
+          ]
+        }
+      },
+      "channels": {
+        "sms": {
+          "title": "SMS at Scale",
+          "description": "High-throughput SMS delivery with guaranteed campaign completion across multiple number types.",
+          "types": {
+            "local": {
+              "title": "Local Number (10DLC A2P)",
+              "description": "Application-to-Person messaging using local 10-digit phone numbers for high-volume business messaging.",
+              "features": [
+                "10DLC A2P compliance",
+                "Local presence with area codes",
+                "Brand registration required",
+                "Campaign pre-approval",
+                "High throughput rates",
+                "Carrier-grade delivery"
+              ],
+              "useCases": [
+                "Marketing campaigns",
+                "Customer notifications",
+                "Appointment reminders",
+                "Order confirmations",
+                "Account alerts",
+                "Lead nurturing"
+              ],
+              "pricing": {
+                "setup": "$50 brand registration",
+                "monthly": "$10/month per number",
+                "perMessage": "$0.0075 per message"
+              }
+            },
+            "tollFree": {
+              "title": "Toll-Free Number",
+              "description": "Premium toll-free numbers for trusted business messaging with higher delivery rates.",
+              "features": [
+                "Toll-free numbers (800, 888, etc.)",
+                "No carrier fees for recipients",
+                "Higher trust and open rates",
+                "Faster deployment",
+                "No brand registration required",
+                "Two-way messaging support"
+              ],
+              "useCases": [
+                "Customer support",
+                "Premium notifications",
+                "Two-way conversations",
+                "Survey campaigns",
+                "Contest entries",
+                "VIP communications"
+              ],
+              "pricing": {
+                "setup": "Free setup",
+                "monthly": "$50/month per number",
+                "perMessage": "$0.015 per message"
+              }
+            },
+            "shortCode": {
+              "title": "Short-Code",
+              "description": "Premium 5-6 digit numbers for the highest volume campaigns with maximum deliverability.",
+              "features": [
+                "Dedicated 5-6 digit numbers",
+                "Highest throughput (1000+ msgs/sec)",
+                "Premium carrier relationships",
+                "Maximum deliverability",
+                "Keyword-based campaigns",
+                "MMS support"
+              ],
+              "useCases": [
+                "Mass marketing campaigns",
+                "TV/Radio call-to-actions",
+                "Voting and polling",
+                "Contest campaigns",
+                "Event notifications",
+                "Emergency alerts"
+              ],
+              "pricing": {
+                "setup": "$1,000 setup fee",
+                "monthly": "$1,000/month per code",
+                "perMessage": "$0.005 per message"
+              }
+            }
+          }
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "title": "Lead Generation",
+        "subtitle": "Fill Your Sales Funnel",
+        "description": "Automate high-volume outreach to generate qualified leads and fill your sales pipeline faster than ever.",
+        "features": [
+          "Automated lead outreach campaigns",
+          "AI-powered lead scoring",
+          "Multi-channel lead nurturing",
+          "Smart follow-up sequences",
+          "CRM integration & sync",
+          "Lead qualification automation",
+          "A/B testing for campaigns",
+          "Real-time lead tracking"
+        ],
+        "benefits": [
+          "Increase lead volume by 300%",
+          "Reduce cost per lead by 60%",
+          "Improve lead quality with AI scoring",
+          "Automate 80% of lead follow-up",
+          "Scale outreach to millions",
+          "Track ROI in real-time"
+        ],
+        "useCases": [
+          "B2B lead generation campaigns",
+          "Real estate prospect outreach",
+          "Insurance lead qualification",
+          "Event registration drives",
+          "Product launch campaigns",
+          "Webinar sign-up campaigns"
+        ],
+        "stats": [
+          { "value": "300%", "label": "Lead volume increase" },
+          { "value": "60%", "label": "Cost reduction" },
+          { "value": "85%", "label": "Qualification rate" }
+        ],
+        "testimonial": {
+          "quote": "SeaX helped us generate 50,000 qualified leads in just 3 months. Our sales team has never been busier!",
+          "author": "Sarah Johnson",
+          "company": "TechStart Inc.",
+          "results": "50K leads generated, 23% conversion rate"
+        },
+        "caseStudy": {
+          "title": "SaaS Company Triples Lead Generation",
+          "challenge": "A growing SaaS company needed to scale their lead generation from 1,000 to 10,000 qualified leads per month.",
+          "solution": "Implemented automated SMS and WhatsApp campaigns with AI-powered lead scoring across 5 target markets.",
+          "results": [
+            "12,000 qualified leads generated monthly",
+            "67% reduction in cost per lead",
+            "45% improvement in lead quality",
+            "300% increase in sales pipeline"
+          ]
+        }
+      },
+      "marketingAutomation": {
+        "title": "Marketing Automation",
+        "subtitle": "Scale Your Campaigns",
+        "description": "Automate complex marketing workflows across SMS, WhatsApp, and voice to engage customers at scale.",
+        "features": [
+          "Multi-channel campaign automation",
+          "Customer journey mapping",
+          "Behavioral trigger campaigns",
+          "Dynamic content personalization",
+          "Campaign performance analytics",
+          "Advanced segmentation",
+          "Drip campaign sequences",
+          "Cross-channel attribution"
+        ],
+        "benefits": [
+          "Automate 90% of marketing tasks",
+          "Increase campaign ROI by 400%",
+          "Reduce manual work by 75%",
+          "Reach millions simultaneously",
+          "Personalize at scale",
+          "Track every touchpoint"
+        ],
+        "useCases": [
+          "Product launch sequences",
+          "Customer onboarding flows",
+          "Re-engagement campaigns",
+          "Seasonal promotions",
+          "Abandoned cart recovery",
+          "Win-back campaigns"
+        ],
+        "stats": [
+          { "value": "400%", "label": "ROI increase" },
+          { "value": "90%", "label": "Task automation" },
+          { "value": "75%", "label": "Time savings" }
+        ],
+        "testimonial": {
+          "quote": "Our marketing automation with SeaX increased our campaign ROI by 400% while saving our team 30 hours per week.",
+          "author": "Michael Chen",
+          "company": "RetailMax",
+          "results": "400% ROI increase, 30 hours saved weekly"
+        },
+        "caseStudy": {
+          "title": "E-commerce Brand Automates Customer Journey",
+          "challenge": "An e-commerce brand needed to automate their customer journey from first touch to repeat purchase.",
+          "solution": "Built automated workflows spanning SMS, WhatsApp, and voice across 7 touchpoints in the customer journey.",
+          "results": [
+            "400% increase in marketing ROI",
+            "75% reduction in manual tasks",
+            "60% increase in customer lifetime value",
+            "5M+ automated messages sent monthly"
+          ]
+        }
+      },
+      "customerEngagement": {
+        "title": "Customer Engagement",
+        "subtitle": "Build Lasting Relationships",
+        "description": "Keep customers engaged with personalized, timely communication across their preferred channels.",
+        "features": [
+          "Multi-channel engagement",
+          "Personalized messaging",
+          "Customer preference tracking",
+          "Engagement analytics",
+          "Loyalty program integration",
+          "Feedback collection",
+          "Survey automation",
+          "Customer journey optimization"
+        ],
+        "benefits": [
+          "Increase customer retention by 40%",
+          "Boost engagement rates by 250%",
+          "Reduce churn by 30%",
+          "Improve customer satisfaction",
+          "Build stronger relationships",
+          "Increase lifetime value"
+        ],
+        "useCases": [
+          "Customer onboarding",
+          "Loyalty program communications",
+          "Product updates and announcements",
+          "Birthday and anniversary messages",
+          "Feedback and survey collection",
+          "Customer success check-ins"
+        ],
+        "stats": [
+          { "value": "40%", "label": "Retention increase" },
+          { "value": "250%", "label": "Engagement boost" },
+          { "value": "30%", "label": "Churn reduction" }
+        ],
+        "testimonial": {
+          "quote": "SeaX helped us increase customer retention by 40% through personalized engagement across all channels.",
+          "author": "Lisa Rodriguez",
+          "company": "ServicePro",
+          "results": "40% retention increase, 95% satisfaction score"
+        },
+        "caseStudy": {
+          "title": "Telecom Company Reduces Churn by 30%",
+          "challenge": "A telecom company was losing 15% of customers monthly and needed to improve engagement.",
+          "solution": "Implemented personalized engagement campaigns across SMS, WhatsApp, and voice with behavioral triggers.",
+          "results": [
+            "30% reduction in customer churn",
+            "40% increase in customer retention",
+            "250% boost in engagement rates",
+            "95% customer satisfaction score"
+          ]
+        }
+      }
+    }
+  },
+  "industries": {
+    "ecommerce": {
+      "title": "E-commerce",
+      "headline": "Recover Abandoned Carts & Answer Order Questions 24/7",
+      "benefits": [
+        "Automated order status updates via WhatsApp & SMS",
+        "AI handles \"Where's my package?\" queries instantly",
+        "Recover 15%+ of abandoned carts with smart follow-ups",
+        "Shopify & Squarespace integrations included"
+      ]
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "headline": "Book Patient Appointments & Send Reminders Automatically",
+      "benefits": [
+        "HIPAA-compliant messaging across all channels",
+        "Automated appointment confirmations & reminders",
+        "AI pre-screens patient inquiries before routing",
+        "Reduce no-shows by 25% with smart notifications"
+      ]
+    },
+    "realEstate": {
+      "title": "Real Estate",
+      "headline": "Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
+      "benefits": [
+        "Instant responses to property inquiries 24/7",
+        "Automated showing appointments via AI",
+        "Lead qualification before human handoff",
+        "WhatsApp virtual tours and property photos"
+      ]
+    },
+    "restaurantsHospitality": {
+      "title": "Restaurants & Hospitality",
+      "headline": "Take Reservations & Handle Orders Across All Channels",
+      "benefits": [
+        "Automated reservation booking via phone & chat",
+        "Menu questions answered instantly by AI",
+        "Order confirmations sent via SMS & WhatsApp",
+        "Handle delivery inquiries without staff interruption"
+      ]
+    },
+    "educationTraining": {
+      "title": "Education & Training",
+      "headline": "Streamline Student Communications & Course Inquiries",
+      "benefits": [
+        "Automated course enrollment and scheduling",
+        "AI handles common student questions 24/7",
+        "Parent-teacher communication via WhatsApp",
+        "Event notifications and reminders via SMS"
+      ]
+    },
+    "automotiveServices": {
+      "title": "Automotive & Services",
+      "headline": "Book Service Appointments & Handle Customer Inquiries",
+      "benefits": [
+        "Automated service appointment booking",
+        "Vehicle maintenance reminders via SMS",
+        "AI handles parts availability questions",
+        "Service completion notifications with photos"
+      ]
+    },
+    "professionalServices": {
+      "title": "Professional Services",
+      "headline": "Manage Client Communications & Consultation Bookings",
+      "benefits": [
+        "Automated consultation scheduling",
+        "Client intake forms via chat",
+        "Document sharing through secure channels",
+        "Follow-up reminders for appointments"
+      ]
+    },
+    "financialServices": {
+      "title": "Financial Services",
+      "headline": "Secure Client Communications & Appointment Management",
+      "benefits": [
+        "FINRA-compliant messaging and recording",
+        "Automated appointment confirmations",
+        "Secure document collection via chat",
+        "Client onboarding workflow automation"
+      ]
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "title": "For Sales \u0026 Marketing"
+    },
+    "customerSupport": {
+      "title": "For Customer Support"
+    },
+    "aiAutomation": {
+      "title": "AI \u0026 Automation"
+    },
+    "smeOwners": {
+      "title": "For SME Owners"
+    },
+    "emergencyAlerts": "Emergency Alerts"
+  },
+  "products": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Respond to customers 24/7"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "Outreach to customers in bulk"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilot for meetings & calls"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "AI voice agents for calls",
+      "subProducts": {
+        "textToSpeech": {
+          "title": "Text To Speech"
+        },
+        "speechToText": {
+          "title": "Speech To Text"
+        },
+        "discordBot": {
+          "title": "Discord STT Bot"
+        }
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": "WhatsApp Business",
+    "voice": "Voice & Phone Calls",
+    "sms": "SMS Messaging",
+    "websiteChat": "Website Chat Widget",
+    "instagram": "Instagram DMs",
+    "facebookMessenger": "Facebook Messenger",
+    "contactForms": "Contact Forms",
+    "line": "LINE Business",
+    "websiteWidget": "Website Widget"
+  },
+  "competitors": {
+    "aircall": "Aircall",
+    "ringCentral": "RingCentral",
+    "genesys": "Genesys",
+    "five9": "Five9",
+    "avaya": "Avaya",
+    "googleVoice": "Google Voice",
+    "respondIo": "respond.io",
+    "intercom": "Intercom",
+    "kustomer": "Kustomer",
+    "3cx": "3CX",
+    "dialpad": "Dialpad",
+    "8x8": "8x8",
+    "openPhone": "OpenPhone"
+  },
+  "platform": {
+    "overview": "Platform Overview",
+    "landlineMobile": "Landline & Mobile Voice",
+    "voipSIP": "VoIP & SIP & BYOC Voice",
+    "lineCallPlus": "Line Call Plus for Businesses",
+    "whatsappVoice": "WhatsApp Voice API for Businesses",
+    "speechToText": "Speech To Text",
+    "textToSpeech": "Text To Speech",
+    "endToEndLLMs": "End To End LLMs"
   }
 }

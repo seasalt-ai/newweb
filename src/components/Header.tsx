@@ -42,33 +42,32 @@ const Header = () => {
       return newValue;
     });
   };
-
-  const channels = [
-    { name: 'WhatsApp Business', path: '/channels/whatsapp', icon: MessageCircle },
-    { name: 'Voice & Phone Calls', path: '/channels/phone-calls', icon: Phone },
-    { name: 'SMS Messaging', path: '/channels/sms', icon: MessageSquare },
-    { name: 'Website Chat Widget', path: '/channels/website-chat', icon: Bot },
-    { name: 'Instagram DMs', path: '/channels/instagram', icon: Instagram },
-    { name: 'Facebook Messenger', path: '/channels/facebook-messenger', icon: Facebook },
-    { name: 'Contact Forms', path: '/channels/contact-forms', icon: Mail },
-    { name: 'LINE Business', path: '/channels/line', icon: MessageSquare },
-    { name: 'Website Widget', path: '/channels/website-widget', icon: Monitor }
+const channels = [
+    { name: t('channels.whatsapp'), path: '/channels/whatsapp', icon: MessageCircle },
+    { name: t('channels.voice'), path: '/channels/phone-calls', icon: Phone },
+    { name: t('channels.sms'), path: '/channels/sms', icon: MessageSquare },
+    { name: t('channels.websiteChat'), path: '/channels/website-chat', icon: Bot },
+    { name: t('channels.instagram'), path: '/channels/instagram', icon: Instagram },
+    { name: t('channels.facebookMessenger'), path: '/channels/facebook-messenger', icon: Facebook },
+    { name: t('channels.contactForms'), path: '/channels/contact-forms', icon: Mail },
+    { name: t('channels.line'), path: '/channels/line', icon: MessageSquare },
+    { name: t('channels.websiteWidget'), path: '/channels/website-widget', icon: Monitor }
   ];
 
-  const competitors = [
-    { name: 'Aircall', path: '/compare/aircall-alternative', icon: Phone },
-    { name: 'RingCentral', path: '/compare/ringcentral-alternative', icon: Phone },
-    { name: 'Genesys', path: '/compare/genesys-alternative', icon: Headphones },
-    { name: 'Five9', path: '/compare/five9-alternative', icon: Phone },
-    { name: 'Avaya', path: '/compare/avaya-alternative', icon: Phone },
-    { name: 'Google Voice', path: '/compare/google-voice-alternative', icon: Mic },
-    { name: 'respond.io', path: '/compare/respond-io-alternative', icon: MessageSquare },
-    { name: 'Intercom', path: '/compare/intercom-alternative', icon: MessageCircle },
-    { name: 'Kustomer', path: '/compare/kustomer-alternative', icon: Users },
-    { name: '3CX', path: '/compare/3cx-alternative', icon: Phone },
-    { name: 'Dialpad', path: '/compare/dialpad-alternative', icon: Phone },
-    { name: '8x8', path: '/compare/8x8-alternative', icon: Phone },
-    { name: 'OpenPhone', path: '/compare/openphone-alternative', icon: Phone }
+const competitors = [
+    { name: t('competitors.aircall'), path: '/compare/aircall-alternative', icon: Phone },
+    { name: t('competitors.ringCentral'), path: '/compare/ringcentral-alternative', icon: Phone },
+    { name: t('competitors.genesys'), path: '/compare/genesys-alternative', icon: Headphones },
+    { name: t('competitors.five9'), path: '/compare/five9-alternative', icon: Phone },
+    { name: t('competitors.avaya'), path: '/compare/avaya-alternative', icon: Phone },
+    { name: t('competitors.googleVoice'), path: '/compare/google-voice-alternative', icon: Mic },
+    { name: t('competitors.respondIo'), path: '/compare/respond-io-alternative', icon: MessageSquare },
+    { name: t('competitors.intercom'), path: '/compare/intercom-alternative', icon: MessageCircle },
+    { name: t('competitors.kustomer'), path: '/compare/kustomer-alternative', icon: Users },
+    { name: t('competitors.3cx'), path: '/compare/3cx-alternative', icon: Phone },
+    { name: t('competitors.dialpad'), path: '/compare/dialpad-alternative', icon: Phone },
+    { name: t('competitors.8x8'), path: '/compare/8x8-alternative', icon: Phone },
+    { name: t('competitors.openPhone'), path: '/compare/openphone-alternative', icon: Phone }
   ];
 
 

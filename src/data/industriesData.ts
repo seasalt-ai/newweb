@@ -12,17 +12,17 @@ export interface Industry {
   href?: string;
 }
 
-export const industries: Industry[] = [
+export const getIndustries = (t: (key: string) => string): Industry[] => [
   {
     icon: ShoppingCart,
-    title: 'E-commerce',
+    title: t('industries.ecommerce.title'),
     slug: 'e-commerce',
-    headline: 'Recover Abandoned Carts & Answer Order Questions 24/7',
+    headline: t('industries.ecommerce.headline'),
     benefits: [
-      'Automated order status updates via WhatsApp & SMS',
-      'AI handles "Where\'s my package?" queries instantly',
-      'Recover 15%+ of abandoned carts with smart follow-ups',
-      'Shopify & Squarespace integrations included'
+      t('industries.ecommerce.benefits.0'),
+      t('industries.ecommerce.benefits.1'),
+      t('industries.ecommerce.benefits.2'),
+      t('industries.ecommerce.benefits.3')
     ],
     color: 'text-blue-600',
     bgColor: 'bg-blue-50',
@@ -30,14 +30,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Heart,
-    title: 'Healthcare',
+    title: t('industries.healthcare.title'),
     slug: 'healthcare',
-    headline: 'Book Patient Appointments & Send Reminders Automatically',
+    headline: t('industries.healthcare.headline'),
     benefits: [
-      'HIPAA-compliant messaging across all channels',
-      'Automated appointment confirmations & reminders',
-      'AI pre-screens patient inquiries before routing',
-      'Reduce no-shows by 25% with smart notifications'
+      t('industries.healthcare.benefits.0'),
+      t('industries.healthcare.benefits.1'),
+      t('industries.healthcare.benefits.2'),
+      t('industries.healthcare.benefits.3')
     ],
     color: 'text-green-600',
     bgColor: 'bg-green-50',
@@ -45,14 +45,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Home,
-    title: 'Real Estate',
+    title: t('industries.realEstate.title'),
     slug: 'real-estate',
-    headline: 'Never Miss a Lead & Schedule Showings via Text, Chat, or Phone',
+    headline: t('industries.realEstate.headline'),
     benefits: [
-      'Instant responses to property inquiries 24/7',
-      'Automated showing appointments via AI',
-      'Lead qualification before human handoff',
-      'WhatsApp virtual tours and property photos'
+      t('industries.realEstate.benefits.0'),
+      t('industries.realEstate.benefits.1'),
+      t('industries.realEstate.benefits.2'),
+      t('industries.realEstate.benefits.3')
     ],
     color: 'text-purple-600',
     bgColor: 'bg-purple-50',
@@ -60,14 +60,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Utensils,
-    title: 'Restaurants & Hospitality',
+    title: t('industries.restaurantsHospitality.title'),
     slug: 'restaurants-hospitality',
-    headline: 'Take Reservations & Handle Orders Across All Channels',
+    headline: t('industries.restaurantsHospitality.headline'),
     benefits: [
-      'Automated reservation booking via phone & chat',
-      'Menu questions answered instantly by AI',
-      'Order confirmations sent via SMS & WhatsApp',
-      'Handle delivery inquiries without staff interruption'
+      t('industries.restaurantsHospitality.benefits.0'),
+      t('industries.restaurantsHospitality.benefits.1'),
+      t('industries.restaurantsHospitality.benefits.2'),
+      t('industries.restaurantsHospitality.benefits.3')
     ],
     color: 'text-orange-600',
     bgColor: 'bg-orange-50',
@@ -75,14 +75,14 @@ export const industries: Industry[] = [
   },
   {
     icon: GraduationCap,
-    title: 'Education & Training',
+    title: t('industries.educationTraining.title'),
     slug: 'education-training',
-    headline: 'Streamline Student Communications & Course Inquiries',
+    headline: t('industries.educationTraining.headline'),
     benefits: [
-      'Automated course enrollment and scheduling',
-      'AI handles common student questions 24/7',
-      'Parent-teacher communication via WhatsApp',
-      'Event notifications and reminders via SMS'
+      t('industries.educationTraining.benefits.0'),
+      t('industries.educationTraining.benefits.1'),
+      t('industries.educationTraining.benefits.2'),
+      t('industries.educationTraining.benefits.3')
     ],
     color: 'text-indigo-600',
     bgColor: 'bg-indigo-50',
@@ -90,14 +90,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Car,
-    title: 'Automotive & Services',
+    title: t('industries.automotiveServices.title'),
     slug: 'automotive-services',
-    headline: 'Book Service Appointments & Handle Customer Inquiries',
+    headline: t('industries.automotiveServices.headline'),
     benefits: [
-      'Automated service appointment booking',
-      'Vehicle maintenance reminders via SMS',
-      'AI handles parts availability questions',
-      'Service completion notifications with photos'
+      t('industries.automotiveServices.benefits.0'),
+      t('industries.automotiveServices.benefits.1'),
+      t('industries.automotiveServices.benefits.2'),
+      t('industries.automotiveServices.benefits.3')
     ],
     color: 'text-red-600',
     bgColor: 'bg-red-50',
@@ -105,14 +105,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Briefcase,
-    title: 'Professional Services',
+    title: t('industries.professionalServices.title'),
     slug: 'professional-services',
-    headline: 'Manage Client Communications & Consultation Bookings',
+    headline: t('industries.professionalServices.headline'),
     benefits: [
-      'Automated consultation scheduling',
-      'Client intake forms via chat',
-      'Document sharing through secure channels',
-      'Follow-up reminders for appointments'
+      t('industries.professionalServices.benefits.0'),
+      t('industries.professionalServices.benefits.1'),
+      t('industries.professionalServices.benefits.2'),
+      t('industries.professionalServices.benefits.3')
     ],
     color: 'text-gray-600',
     bgColor: 'bg-gray-50',
@@ -120,14 +120,14 @@ export const industries: Industry[] = [
   },
   {
     icon: Building,
-    title: 'Financial Services',
+    title: t('industries.financialServices.title'),
     slug: 'financial-services',
-    headline: 'Secure Client Communications & Appointment Management',
+    headline: t('industries.financialServices.headline'),
     benefits: [
-      'FINRA-compliant messaging and recording',
-      'Automated appointment confirmations',
-      'Secure document collection via chat',
-      'Client onboarding workflow automation'
+      t('industries.financialServices.benefits.0'),
+      t('industries.financialServices.benefits.1'),
+      t('industries.financialServices.benefits.2'),
+      t('industries.financialServices.benefits.3')
     ],
     color: 'text-emerald-600',
     bgColor: 'bg-emerald-50',
