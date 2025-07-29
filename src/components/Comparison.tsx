@@ -3,66 +3,66 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Comparison = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   const competitors = [
     {
-      name: 'Seasalt.ai',
-      startingPrice: '$20/agent/mo',
-      pricingModel: 'Simple Per-User',
-      unifiedVoiceDigital: '✅ Yes, Native',
-      aiCapabilities: '✅ Yes, Native Voice & Chatbots',
-      bestFor: 'SMEs needing an affordable, truly all-in-one platform.',
+      nameKey: 'comparison.competitors.seasalt.name',
+      startingPriceKey: 'comparison.competitors.seasalt.startingPrice',
+      pricingModelKey: 'comparison.competitors.seasalt.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.seasalt.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.seasalt.aiCapabilities',
+      bestForKey: 'comparison.competitors.seasalt.bestFor',
       highlight: true,
       link: null
     },
     {
-      name: 'Aircall',
-      startingPrice: '$30/user/mo',
-      pricingModel: 'Per-User + Add-ons',
-      unifiedVoiceDigital: '⚠️ Voice + WhatsApp (Add-on)',
-      aiCapabilities: '⚠️ AI is a paid add-on',
-      bestFor: 'Sales teams that can afford multiple add-ons and meet the 3-user minimum.',
+      nameKey: 'comparison.competitors.aircall.name',
+      startingPriceKey: 'comparison.competitors.aircall.startingPrice',
+      pricingModelKey: 'comparison.competitors.aircall.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.aircall.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.aircall.aiCapabilities',
+      bestForKey: 'comparison.competitors.aircall.bestFor',
       highlight: false,
       link: `/${i18n.language}/compare/aircall-alternative`
     },
     {
-      name: 'RingCentral',
-      startingPrice: '$65/agent/mo',
-      pricingModel: 'Complex Tiers',
-      unifiedVoiceDigital: '❌ Separate Products',
-      aiCapabilities: '✅ Yes (AI-powered CCaaS)',
-      bestFor: 'Large companies needing a broad UCaaS platform with a separate CCaaS.',
+      nameKey: 'comparison.competitors.ringcentral.name',
+      startingPriceKey: 'comparison.competitors.ringcentral.startingPrice',
+      pricingModelKey: 'comparison.competitors.ringcentral.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.ringcentral.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.ringcentral.aiCapabilities',
+      bestForKey: 'comparison.competitors.ringcentral.bestFor',
       highlight: false,
       link: `/${i18n.language}/compare/ringcentral-alternative`
     },
     {
-      name: 'Genesys Cloud CX',
-      startingPrice: '$75/user/mo',
-      pricingModel: 'Per-User + High Minimums',
-      unifiedVoiceDigital: '✅ Yes (in higher tiers)',
-      aiCapabilities: '✅ Yes (Complex token system)',
-      bestFor: 'Large enterprises with dedicated contact center teams and budgets.',
+      nameKey: 'comparison.competitors.genesys.name',
+      startingPriceKey: 'comparison.competitors.genesys.startingPrice',
+      pricingModelKey: 'comparison.competitors.genesys.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.genesys.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.genesys.aiCapabilities',
+      bestForKey: 'comparison.competitors.genesys.bestFor',
       highlight: false,
       link: `/${i18n.language}/compare/genesys-alternative`
     },
     {
-      name: 'Five9',
-      startingPrice: '$119/user/mo',
-      pricingModel: 'Per-User + Bundles',
-      unifiedVoiceDigital: '✅ Yes (in premium tiers)',
-      aiCapabilities: '✅ Yes (Advanced AI)',
-      bestFor: 'Large, outbound-heavy contact centers needing enterprise-grade tools.',
+      nameKey: 'comparison.competitors.five9.name',
+      startingPriceKey: 'comparison.competitors.five9.startingPrice',
+      pricingModelKey: 'comparison.competitors.five9.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.five9.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.five9.aiCapabilities',
+      bestForKey: 'comparison.competitors.five9.bestFor',
       highlight: false,
       link: `/${i18n.language}/compare/five9-alternative`
     },
     {
-      name: 'Google Voice',
-      startingPrice: '$10/user/mo',
-      pricingModel: 'Per-User + Workspace Fee',
-      unifiedVoiceDigital: '❌ No',
-      aiCapabilities: '❌ No (Voicemail transcription only)',
-      bestFor: 'Solopreneurs (US-only) needing a basic, separate phone number.',
+      nameKey: 'comparison.competitors.googleVoice.name',
+      startingPriceKey: 'comparison.competitors.googleVoice.startingPrice',
+      pricingModelKey: 'comparison.competitors.googleVoice.pricingModel',
+      unifiedVoiceDigitalKey: 'comparison.competitors.googleVoice.unifiedVoiceDigital',
+      aiCapabilitiesKey: 'comparison.competitors.googleVoice.aiCapabilities',
+      bestForKey: 'comparison.competitors.googleVoice.bestFor',
       highlight: false,
       link: `/${i18n.language}/compare/google-voice-alternative`
     }
@@ -84,11 +84,10 @@ const Comparison = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Why Growing Businesses Choose Seasalt.ai Over the Alternatives
+            {t('comparison.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            See how we compare to other solutions. We're the only platform 
-            that delivers enterprise features with small business simplicity.
+            {t('comparison.subtitle')}
           </p>
         </div>
 
@@ -98,12 +97,12 @@ const Comparison = () => {
             <table className="w-full min-w-[800px]">
               <thead className="bg-gray-50 text-left">
                 <tr>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">Platform</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Starting Price</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Pricing Model</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Unified Voice & Digital</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">AI Capabilities</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Best For</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.platform')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.startingPrice')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.pricingModel')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.unifiedVoiceDigital')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.aiCapabilities')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.headers.bestFor')}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
@@ -121,25 +120,25 @@ const Comparison = () => {
                               competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
                             }`}
                           >
-                            {competitor.name}
+                            {t(competitor.nameKey)}
                           </Link>
                         ) : (
                           <span className={`text-xs sm:text-sm font-semibold ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
-                            {competitor.name}
+                            {t(competitor.nameKey)}
                           </span>
                         )}
                         {competitor.highlight && (
                           <span className="ml-2 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full">
-                            Recommended
+                            {t('comparison.recommended')}
                           </span>
                         )}
                       </div>
                     </td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.startingPrice}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.pricingModel}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(competitor.unifiedVoiceDigital)}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(competitor.aiCapabilities)}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.bestFor}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{t(competitor.startingPriceKey)}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{t(competitor.pricingModelKey)}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(t(competitor.unifiedVoiceDigitalKey))}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(t(competitor.aiCapabilitiesKey))}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{t(competitor.bestForKey)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -153,7 +152,7 @@ const Comparison = () => {
             to={`/${i18n.language}/compare-us-overview`}
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
-            See All Detailed Comparisons
+            {t('comparison.cta.button')}
           </Link>
         </div>
       </div>

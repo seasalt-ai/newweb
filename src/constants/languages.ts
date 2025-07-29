@@ -4,32 +4,32 @@ export type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number];
 
 export interface LanguageDetail {
   code: SupportedLanguage;
-  name: string;
-  englishName: string;
+  nameKey: string; // Translation key for the native language name
+  englishNameKey: string; // Translation key for the English name  
   shortCode: string;
 }
 
 export const LANGUAGE_DETAILS: LanguageDetail[] = [
-  { code: 'ar', name: 'العربية', englishName: 'Arabic', shortCode: 'AR' },
-  { code: 'de', name: 'Deutsch', englishName: 'German', shortCode: 'DE' },
-  { code: 'en', name: 'English', englishName: 'English', shortCode: 'EN' },
-  { code: 'es', name: 'Español', englishName: 'Spanish', shortCode: 'ES' },
-  { code: 'fa', name: 'فارسی', englishName: 'Persian', shortCode: 'IR' },
-  { code: 'fil', name: 'Filipino', englishName: 'Filipino', shortCode: 'PH' },
-  { code: 'fr', name: 'Français', englishName: 'French', shortCode: 'FR' },
-  { code: 'hi', name: 'हिन्दी', englishName: 'Hindi', shortCode: 'HI' },
-  { code: 'id', name: 'Bahasa Indonesia', englishName: 'Indonesian', shortCode: 'ID' },
-  { code: 'ja', name: '日本語', englishName: 'Japanese', shortCode: 'JA' },
-  { code: 'ko', name: '한국어', englishName: 'Korean', shortCode: 'KO' },
-  { code: 'ms', name: 'Bahasa Melayu', englishName: 'Malay', shortCode: 'MY' },
-  { code: 'pl', name: 'Polski', englishName: 'Polish', shortCode: 'PL' },
-  { code: 'pt', name: 'Português', englishName: 'Portuguese', shortCode: 'PT' },
-  { code: 'ru', name: 'Русский', englishName: 'Russian', shortCode: 'RU' },
-  { code: 'ta', name: 'தமிழ்', englishName: 'Tamil', shortCode: 'IN' },
-  { code: 'th', name: 'ไทย', englishName: 'Thai', shortCode: 'TH' },
-  { code: 'vi', name: 'Tiếng Việt', englishName: 'Vietnamese', shortCode: 'VI' },
-  { code: 'zh-CN', name: '简体中文', englishName: 'Chinese (Simplified)', shortCode: 'CN' },
-  { code: 'zh-TW', name: '繁體中文', englishName: 'Chinese (Traditional)', shortCode: 'TW' }
+  { code: 'ar', nameKey: 'languages.native.ar', englishNameKey: 'languages.english.ar', shortCode: 'AR' },
+  { code: 'de', nameKey: 'languages.native.de', englishNameKey: 'languages.english.de', shortCode: 'DE' },
+  { code: 'en', nameKey: 'languages.native.en', englishNameKey: 'languages.english.en', shortCode: 'EN' },
+  { code: 'es', nameKey: 'languages.native.es', englishNameKey: 'languages.english.es', shortCode: 'ES' },
+  { code: 'fa', nameKey: 'languages.native.fa', englishNameKey: 'languages.english.fa', shortCode: 'IR' },
+  { code: 'fil', nameKey: 'languages.native.fil', englishNameKey: 'languages.english.fil', shortCode: 'PH' },
+  { code: 'fr', nameKey: 'languages.native.fr', englishNameKey: 'languages.english.fr', shortCode: 'FR' },
+  { code: 'hi', nameKey: 'languages.native.hi', englishNameKey: 'languages.english.hi', shortCode: 'HI' },
+  { code: 'id', nameKey: 'languages.native.id', englishNameKey: 'languages.english.id', shortCode: 'ID' },
+  { code: 'ja', nameKey: 'languages.native.ja', englishNameKey: 'languages.english.ja', shortCode: 'JA' },
+  { code: 'ko', nameKey: 'languages.native.ko', englishNameKey: 'languages.english.ko', shortCode: 'KO' },
+  { code: 'ms', nameKey: 'languages.native.ms', englishNameKey: 'languages.english.ms', shortCode: 'MY' },
+  { code: 'pl', nameKey: 'languages.native.pl', englishNameKey: 'languages.english.pl', shortCode: 'PL' },
+  { code: 'pt', nameKey: 'languages.native.pt', englishNameKey: 'languages.english.pt', shortCode: 'PT' },
+  { code: 'ru', nameKey: 'languages.native.ru', englishNameKey: 'languages.english.ru', shortCode: 'RU' },
+  { code: 'ta', nameKey: 'languages.native.ta', englishNameKey: 'languages.english.ta', shortCode: 'IN' },
+  { code: 'th', nameKey: 'languages.native.th', englishNameKey: 'languages.english.th', shortCode: 'TH' },
+  { code: 'vi', nameKey: 'languages.native.vi', englishNameKey: 'languages.english.vi', shortCode: 'VI' },
+  { code: 'zh-CN', nameKey: 'languages.native.zhCN', englishNameKey: 'languages.english.zhCN', shortCode: 'CN' },
+  { code: 'zh-TW', nameKey: 'languages.native.zhTW', englishNameKey: 'languages.english.zhTW', shortCode: 'TW' }
 ] as const;
 
 export const DEFAULT_LANGUAGE: SupportedLanguage = 'en';

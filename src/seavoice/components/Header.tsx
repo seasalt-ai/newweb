@@ -265,15 +265,15 @@ const navigation = [
             <LanguageSwitcher className="" />
         
             <a
-            href="https://chat.seasalt.ai/gpt/signin"
+              href="https://chat.seasalt.ai/gpt/signin"
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-            e
+            >
               {t('header.auth.signIn')}
-            c/ae
-            ca
+            </a>
+            <a
               href="https://chat.seasalt.ai/gpt/signup"
               className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-medium transition-all transform hover:scale-105"
-            e
+            >
               {t('header.auth.getStarted')}
             </a>
           </div>

@@ -119,6 +119,52 @@
       "uptime": "99.9% Uptime"
     }
   },
+  "languages": {
+    "native": {
+      "ar": "العربية",
+      "de": "Deutsch",
+      "en": "English",
+      "es": "Español",
+      "fa": "فارسی",
+      "fil": "Filipino",
+      "fr": "Français",
+      "hi": "हिन्दी",
+      "id": "Bahasa Indonesia",
+      "ja": "日本語",
+      "ko": "한국어",
+      "ms": "Bahasa Melayu",
+      "pl": "Polski",
+      "pt": "Português",
+      "ru": "Русский",
+      "ta": "தமிழ்",
+      "th": "ไทย",
+      "vi": "Tiếng Việt",
+      "zhCN": "简体中文",
+      "zhTW": "繁體中文"
+    },
+    "english": {
+      "ar": "Arabic",
+      "de": "German",
+      "en": "English",
+      "es": "Spanish",
+      "fa": "Persian",
+      "fil": "Filipino",
+      "fr": "French",
+      "hi": "Hindi",
+      "id": "Indonesian",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "ms": "Malay",
+      "pl": "Polish",
+      "pt": "Portuguese",
+      "ru": "Russian",
+      "ta": "Tamil",
+      "th": "Thai",
+      "vi": "Vietnamese",
+      "zhCN": "Chinese (Simplified)",
+      "zhTW": "Chinese (Traditional)"
+    }
+  },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
     "titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
@@ -127,6 +173,38 @@
     "seeDemo": "Book A Demo",
     "trustedBy": "Trusted by growing businesses worldwide",
     "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:"
+  },
+  "features": {
+    "title": "The Omni-Channel Copiloted Contact Center for SMEs",
+    "subtitle": "Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
+    "unifiedInbox": {
+      "title": "Unified Omni-Channel Inbox",
+      "description": "Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
+    },
+    "aiVoicebotChatbot": {
+      "title": "AI Voicebot & Chatbot",
+      "description": "Your first digital employee works 24/7. Automate up to 80% of routine queries, book 5+ appointments daily, and seamlessly handoff to human agents when needed."
+    },
+    "nativeIntegration": {
+      "title": "Native Voice & WhatsApp Integration",
+      "description": "Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp chat history when they call."
+    },
+    "outboundMarketing": {
+      "title": "Outbound Marketing Campaigns",
+      "description": "Create seamless, closed-loop customer journeys. Launch targeted campaigns and manage all replies on the same platform."
+    },
+    "enterpriseSecurity": {
+      "title": "Enterprise-Grade Security",
+      "description": "HIPAA-compliant solution with bank-level encryption. Trust your customer data is always protected."
+    },
+    "simplePricing": {
+      "title": "Simple, Predictable Pricing",
+      "description": "Budget with confidence. Transparent pricing means you know exactly what you'll pay each month."
+    },
+    "testimonial": {
+      "quote": "\"I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!\"",
+      "author": "— Solution Architect Review"
+    }
   },
   "seachat": {
     "common": {
