@@ -46,7 +46,7 @@ const Header = () => {
     }
     hoverTimeoutRef.current = setTimeout(() => {
       setOpenDropdown(null);
-    }, 100);
+    }, 300);
   }, []);
 
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
@@ -233,8 +233,10 @@ const Header = () => {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 pt-2 w-72 z-[60]"
+                          className="absolute top-full left-0 w-72 z-[60]"
                         >
+                          {/* Invisible bridge to prevent gap hover issues */}
+                          <div className="h-2 w-full" />
                           <div className="bg-white rounded-md shadow-lg py-2">
                             {item.dropdown.map((subItem) => (
                               <Link

@@ -140,7 +140,7 @@ const ROICalculator = () => {
       <div className="mt-8 p-4 bg-yellow-50 rounded-lg">
         <p className="text-sm text-yellow-800 text-center">
           <strong>Payback Period:</strong> {paybackPeriod} month{paybackPeriod !== 1 ? 's' : ''} • 
-          <strong> Break-even:</strong> {(seaxMonthlyCost / (conversionRate / 100 * averageOrderValue)).toLocaleString()} messages
+          <strong> Break-even:</strong> {Math.floor(seaxMonthlyCost / (conversionRate / 100 * averageOrderValue)).toLocaleString()} messages
         </p>
       </div>
     </div>

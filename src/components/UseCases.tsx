@@ -107,7 +107,7 @@ const UseCases = () => {
                     {t('useCases.keyFeatures')}
                   </h5>
                   <ul className="space-y-2 sm:space-y-3">
-                    {(t(useCase.featuresKey, { returnObjects: true }) as string[]).map((feature: string, featureIndex: number) => (
+                    {(t(useCase.featuresKey, { returnObjects: true }) as string[] || []).map((feature: string, featureIndex: number) => (
                       <li key={featureIndex} className="flex items-start">
                         <div className={`w-2 h-2 ${useCase.color.replace('text-', 'bg-')} rounded-full mt-1.5 sm:mt-2 mr-2 sm:mr-3 flex-shrink-0`}></div>
                         <span className="text-sm sm:text-base text-gray-700">{feature}</span>

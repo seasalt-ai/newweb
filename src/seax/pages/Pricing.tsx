@@ -18,74 +18,74 @@ import {
 } from 'lucide-react';
 
 const Pricing = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
 
   const pricingTiers = [
     {
-      name: 'WhatsApp Only',
-      subheader: 'Best price on the market',
-      price: billingPeriod === 'monthly' ? '$19.99' : '$199',
-      period: billingPeriod === 'monthly' ? '/month' : '/year',
-      description: 'Per user',
+      name: t('seax.pricing.whatsappOnly.name'),
+      subheader: t('seax.pricing.whatsappOnly.subheader'),
+      price: billingPeriod === 'monthly' ? t('seax.pricing.whatsappOnly.priceMonthly') : t('seax.pricing.whatsappOnly.priceYearly'),
+      period: billingPeriod === 'monthly' ? t('seax.pricing.period.monthly') : t('seax.pricing.period.yearly'),
+      description: t('seax.pricing.whatsappOnly.description'),
       features: [
-        'Send/Receive WhatsApp',
-        'WhatsApp Business App support',
-        'Unlimited contacts',
-        'Templates',
-        '1 Workspace'
+        t('seax.pricing.whatsappOnly.features.sendReceive'),
+        t('seax.pricing.whatsappOnly.features.support'),
+        t('seax.pricing.whatsappOnly.features.unlimitedContacts'),
+        t('seax.pricing.whatsappOnly.features.templates'),
+        t('seax.pricing.whatsappOnly.features.workspace')
       ],
       limitations: [],
       recommended: false,
-      cta: 'Sign Up Now',
+      cta: t('seax.pricing.whatsappOnly.cta'),
       icon: MessageSquare,
       bgColor: 'from-purple-400 to-purple-500',
       textColor: 'text-white'
     },
     {
-      name: 'Omni-channel',
-      subheader: 'Full-fledged contact center',
-      price: billingPeriod === 'monthly' ? '$99' : '$999',
-      additionalPrice: billingPeriod === 'monthly' ? '$49' : '$499',
-      period: billingPeriod === 'monthly' ? '/month' : '/year',
-      description: 'First user',
-      additionalDescription: 'Additional user',
+      name: t('seax.pricing.omniChannel.name'),
+      subheader: t('seax.pricing.omniChannel.subheader'),
+      price: billingPeriod === 'monthly' ? t('seax.pricing.omniChannel.priceMonthly') : t('seax.pricing.omniChannel.priceYearly'),
+      additionalPrice: billingPeriod === 'monthly' ? t('seax.pricing.omniChannel.additionalPriceMonthly') : t('seax.pricing.omniChannel.additionalPriceYearly'),
+      period: billingPeriod === 'monthly' ? t('seax.pricing.period.monthly') : t('seax.pricing.period.yearly'),
+      description: t('seax.pricing.omniChannel.description'),
+      additionalDescription: t('seax.pricing.omniChannel.additionalDescription'),
       features: [
-        'Send/Receive SMS',
-        'Inbound/Outbound Phone Calls',
-        'SMS Campaign',
-        'RESTful API Access',
-        'Phone Call Campaign',
-        'SeaChat Integration',
-        '1 Workspace',
-        '(Additional workspace costs $49/month or $499/year)',
-        'Communication:',
-        '$0.02/SMS, $0.04/MMS,',
-        '$0.05/voicemail drop',
-        'Voice AI agents over phone calls start at $0.12 per minute'
+        t('seax.pricing.omniChannel.features.sms'),
+        t('seax.pricing.omniChannel.features.phoneCalls'),
+        t('seax.pricing.omniChannel.features.smsCampaign'),
+        t('seax.pricing.omniChannel.features.apiAccess'),
+        t('seax.pricing.omniChannel.features.phoneCampaign'),
+        t('seax.pricing.omniChannel.features.seaChatIntegration'),
+        t('seax.pricing.omniChannel.features.workspace'),
+        t('seax.pricing.omniChannel.features.additionalWorkspace'),
+        t('seax.pricing.omniChannel.features.communication'),
+        t('seax.pricing.omniChannel.features.smsMmsCosts'),
+        t('seax.pricing.omniChannel.features.voicemailDropCost'),
+        t('seax.pricing.omniChannel.features.voiceAiAgentsCost')
       ],
       limitations: [],
       recommended: true,
-      cta: 'Start Omni-channel',
+      cta: t('seax.pricing.omniChannel.cta'),
       icon: Zap,
       bgColor: 'from-blue-400 to-blue-500',
       textColor: 'text-white'
     },
     {
-      name: 'Custom',
-      subheader: 'Negotiate your own price',
-      price: 'Contact Us',
+      name: t('seax.pricing.custom.name'),
+      subheader: t('seax.pricing.custom.subheader'),
+      price: t('seax.pricing.custom.price'),
       period: '',
-      description: 'Custom build',
+      description: t('seax.pricing.custom.description'),
       features: [
-        'Multiple workspaces — perfect for agencies',
-        'Each workspace has multiple AI agents and phone numbers',
-        'Professional design guidelines and technical support, sold together with the Launch support plan'
+        t('seax.pricing.custom.features.multipleWorkspaces'),
+        t('seax.pricing.custom.features.multipleAiAgents'),
+        t('seax.pricing.custom.features.designAndSupport')
       ],
       limitations: [],
       recommended: false,
-      cta: 'Contact Us',
+      cta: t('seax.pricing.custom.cta'),
       icon: Building2,
       bgColor: 'from-green-400 to-green-500',
       textColor: 'text-white'
