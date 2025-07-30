@@ -58,10 +58,10 @@ const Header = () => {
       href: getLocalizedPath('/channels'),
       dropdown: [
         { 
-          name: t('channels.sms'), 
+          name: t('channels.sms.title'), 
           href: getLocalizedPath('/channels/sms'),
           icon: MessageSquare,
-          iconText: t('channels.sms'),
+          iconText: t('channels.sms.title'),
           isParent: true
         },
         { 
@@ -86,12 +86,12 @@ const Header = () => {
           isChild: true
         },
         { 
-          name: t('channels.whatsapp'), 
+          name: t('channels.whatsapp.title'), 
           href: getLocalizedPath('/channels/whatsapp'),
           icon: WhatsAppIcon
         },
         { 
-          name: t('channels.voice'), 
+          name: t('channels.voice.title'), 
           href: getLocalizedPath('/channels/voice'),
           icon: Phone
         }
