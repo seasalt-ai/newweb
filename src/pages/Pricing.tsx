@@ -188,6 +188,7 @@ const PricingPage = () => {
       <SEOHelmet
         title="Pricing - Seasalt.ai"
         description="Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
+        favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={['en', 'es', 'zh-TW']}
       />
