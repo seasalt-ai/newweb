@@ -26,61 +26,33 @@ export interface SeaXSolution {
   };
 }
 
-export const seaxSolutions: SeaXSolution[] = [
+export const getSeaxSolutions = (t: any): SeaXSolution[] => [
   {
     id: 'lead-generation',
-    title: 'Lead Generation',
-    subtitle: 'Fill Your Sales Funnel',
-    description: 'Automate high-volume outreach to generate qualified leads and fill your sales pipeline faster than ever.',
+    title: t('seax.solutions.leadGeneration.title'),
+    subtitle: t('seax.solutions.leadGeneration.subtitle'),
+    description: t('seax.solutions.leadGeneration.description'),
     icon: '🎯',
     color: 'blue',
-    features: [
-      'Automated lead outreach campaigns',
-      'AI-powered lead scoring',
-      'Multi-channel lead nurturing',
-      'Smart follow-up sequences',
-      'CRM integration & sync',
-      'Lead qualification automation',
-      'A/B testing for campaigns',
-      'Real-time lead tracking'
-    ],
-    benefits: [
-      'Increase lead volume by 300%',
-      'Reduce cost per lead by 60%',
-      'Improve lead quality with AI scoring',
-      'Automate 80% of lead follow-up',
-      'Scale outreach to millions',
-      'Track ROI in real-time'
-    ],
-    useCases: [
-      'B2B lead generation campaigns',
-      'Real estate prospect outreach',
-      'Insurance lead qualification',
-      'Event registration drives',
-      'Product launch campaigns',
-      'Webinar sign-up campaigns'
-    ],
+    features: t('seax.solutions.leadGeneration.features', { returnObjects: true }) as string[],
+    benefits: t('seax.solutions.leadGeneration.benefits', { returnObjects: true }) as string[],
+    useCases: t('seax.solutions.leadGeneration.useCases', { returnObjects: true }) as string[],
     stats: [
-      { value: '300%', label: 'Lead volume increase' },
-      { value: '60%', label: 'Cost reduction' },
-      { value: '85%', label: 'Qualification rate' }
+      { value: t('seax.solutions.leadGeneration.stats.0.value'), label: t('seax.solutions.leadGeneration.stats.0.label') },
+      { value: t('seax.solutions.leadGeneration.stats.1.value'), label: t('seax.solutions.leadGeneration.stats.1.label') },
+      { value: t('seax.solutions.leadGeneration.stats.2.value'), label: t('seax.solutions.leadGeneration.stats.2.label') }
     ],
     testimonial: {
-      quote: 'SeaX helped us generate 50,000 qualified leads in just 3 months. Our sales team has never been busier!',
-      author: 'Sarah Johnson',
-      company: 'TechStart Inc.',
-      results: '50K leads generated, 23% conversion rate'
+      quote: t('seax.solutions.leadGeneration.testimonial.quote'),
+      author: t('seax.solutions.leadGeneration.testimonial.author'),
+      company: t('seax.solutions.leadGeneration.testimonial.company'),
+      results: t('seax.solutions.leadGeneration.testimonial.results')
     },
     caseStudy: {
-      title: 'SaaS Company Triples Lead Generation',
-      challenge: 'A growing SaaS company needed to scale their lead generation from 1,000 to 10,000 qualified leads per month.',
-      solution: 'Implemented automated SMS and WhatsApp campaigns with AI-powered lead scoring across 5 target markets.',
-      results: [
-        '12,000 qualified leads generated monthly',
-        '67% reduction in cost per lead',
-        '45% improvement in lead quality',
-        '300% increase in sales pipeline'
-      ]
+      title: t('seax.solutions.leadGeneration.caseStudy.title'),
+      challenge: t('seax.solutions.leadGeneration.caseStudy.challenge'),
+      solution: t('seax.solutions.leadGeneration.caseStudy.solution'),
+      results: t('seax.solutions.leadGeneration.caseStudy.results', { returnObjects: true }) as string[]
     }
   },
   {
@@ -309,6 +281,7 @@ export const seaxSolutions: SeaXSolution[] = [
   }
 ];
 
-export const getSolutionById = (id: string): SeaXSolution | undefined => {
-  return seaxSolutions.find(solution => solution.id === id);
+export const getSolutionById = (id: string, t: any): SeaXSolution | undefined => {
+  const solutions = getSeaxSolutions(t);
+  return solutions.find(solution => solution.id === id);
 };

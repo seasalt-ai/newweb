@@ -9,7 +9,7 @@ interface LanguageSwitcherProps {
 }
 
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const location = useLocation();
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
@@ -70,8 +70,8 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ className }) => {
               }`}
             >
               <div className="flex justify-between items-center">
-                <span className="font-medium">{language.name}</span>
-                <span className="text-xs text-gray-500 ml-2">{language.englishName}</span>
+                <span className="font-medium">{t(language.nameKey)}</span>
+                <span className="text-xs text-gray-500 ml-2">{t(language.englishNameKey)}</span>
               </div>
             </button>
           ))}

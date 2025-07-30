@@ -248,7 +248,7 @@ const BlogPostPage = () => {
                             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                         }`}
                       >
-                        {LANGUAGE_DETAILS.find(l => l.code === langCode)?.name || langCode}
+                        {LANGUAGE_DETAILS.find(l => l.code === langCode)?.shortCode || langCode}
                       </button>
                     ))}
                   </div>

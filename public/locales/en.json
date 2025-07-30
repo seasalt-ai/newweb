@@ -758,5 +758,206 @@
       "gdpr": "🛡️ GDPR Ready",
       "uptime": "⚡ 99.9% Uptime"
     }
+  },
+  "seax": {
+    "features": {
+      "seoTitle": "SeaX Features - Powerful Tools for Mass Communication",
+      "seoDescription": "Explore SeaX's powerful features: bulk messaging engine, AI-powered follow-up, real-time analytics, and enterprise-grade infrastructure.",
+      "hero": {
+        "title": {
+          "line1": "Powerful Features for",
+          "line2": "Mass Communication"
+        },
+        "description": "Everything you need to reach millions of customers across SMS, WhatsApp, and voice channels. Built for scale, designed for results.",
+        "stats": {
+          "messagesDaily": "10M+ messages daily",
+          "countries": "200+ countries",
+          "security": "Enterprise security"
+        }
+      },
+      "messagingChannels": {
+        "title": "Messaging Channels",
+        "sms": {
+          "name": "SMS (10DLC, Toll-Free, Short-Code)",
+          "description": "All SMS types for every business need"
+        },
+        "whatsapp": {
+          "name": "WhatsApp Business Platform",
+          "description": "Campaign mode for mass messaging"
+        },
+        "voice": {
+          "name": "Voice Calls (100+ Countries)",
+          "description": "AI-powered calls via Twilio"
+        }
+      },
+      "aiAutomation": {
+        "title": "AI & Automation",
+        "followUp": {
+          "name": "AI-Powered Follow-Up",
+          "description": "Smart lead nurturing 24/7"
+        },
+        "responses": {
+          "name": "Automated Responses",
+          "description": "Intelligent conversation handling"
+        },
+        "leadScoring": {
+          "name": "Lead Scoring",
+          "description": "AI-driven prospect qualification"
+        }
+      },
+      "analyticsInsights": {
+        "title": "Analytics & Insights",
+        "dashboard": {
+          "name": "Real-Time Dashboard",
+          "description": "Live campaign monitoring"
+        },
+        "tracking": {
+          "name": "Conversion Tracking",
+          "description": "ROI and performance metrics"
+        },
+        "reporting": {
+          "name": "Custom Reporting",
+          "description": "Detailed analytics and insights"
+        }
+      },
+      "enterpriseSecurity": {
+        "title": "Enterprise & Security",
+        "gdpr": {
+          "name": "GDPR Compliance",
+          "description": "Full regulatory compliance"
+        },
+        "collaboration": {
+          "name": "Team Collaboration",
+          "description": "Multi-user access and permissions"
+        },
+        "slas": {
+          "name": "Enterprise SLAs",
+          "description": "Dedicated support and uptime"
+        }
+      },
+      "integration": {
+        "title": "Seamless Integration & Developer APIs",
+        "description": "Connect SeaX with your existing tools and build custom workflows with our comprehensive API suite. Designed for enterprise scalability and developer productivity.",
+        "crm": {
+          "title": "CRM Integration",
+          "description": "Connect with Salesforce, HubSpot, and other CRM systems for seamless data flow.",
+          "features": {
+            "sync": "Bi-directional sync",
+            "mapping": "Custom field mapping"
+          }
+        },
+        "analytics": {
+          "title": "Analytics Tools",
+          "description": "Export data to Google Analytics, Mixpanel, and other analytics platforms.",
+          "features": {
+            "exports": "Real-time exports",
+            "dashboards": "Custom dashboards"
+          }
+        },
+        "api": {
+          "title": "Developer API",
+          "description": "Full REST API for custom integrations and automated workflows.",
+          "features": {
+            "endpoints": "RESTful endpoints",
+            "webhooks": "Webhook support"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to Experience These Features?",
+        "description": "See how SeaX can transform your communication strategy",
+        "button": "Book a Demo"
+      },
+      "coreFeatures": {
+        "bulkMessaging": {
+          "title": "Bulk Messaging Engine",
+          "description": "Send millions of messages across SMS, WhatsApp, and Voice with enterprise-grade delivery guarantees.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Messages per day"
+          },
+          "benefits": [
+            "99.9% delivery rate guarantee",
+            "Smart retry logic",
+            "Multi-channel failover",
+            "Real-time delivery tracking"
+          ]
+        },
+        "aiPoweredFollowup": {
+          "title": "AI-Powered Follow-Up",
+          "description": "Intelligent conversation management with automated follow-ups that feel natural and increase engagement.",
+          "metrics": {
+            "value": "85%",
+            "label": "Response rate improvement"
+          },
+          "benefits": [
+            "Smart conversation timing",
+            "Personalized message content",
+            "Automatic lead scoring",
+            "Multi-touch sequences"
+          ]
+        },
+        "realTimeAnalytics": {
+          "title": "Real-Time Analytics",
+          "description": "Comprehensive dashboards and reporting with actionable insights to optimize your communication strategy.",
+          "metrics": {
+            "value": "15+",
+            "label": "Key metrics tracked"
+          },
+          "benefits": [
+            "Live campaign monitoring",
+            "ROI tracking and optimization",
+            "A/B testing capabilities",
+            "Custom report generation"
+          ]
+        },
+        "complianceDeliverability": {
+          "title": "Compliance & Deliverability",
+          "description": "Built-in compliance management and carrier relationships that ensure maximum message deliverability.",
+          "metrics": {
+            "value": "99.5%",
+            "label": "Inbox delivery rate"
+          },
+          "benefits": [
+            "TCPA compliance built-in",
+            "Carrier-grade infrastructure",
+            "Automatic opt-out handling",
+            "Regulatory updates included"
+          ]
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Multi-user workspaces with role-based permissions and collaborative campaign management tools.",
+          "metrics": {
+            "value": "50+",
+            "label": "Team members supported"
+          },
+          "benefits": [
+            "Role-based access control",
+            "Campaign approval workflows",
+            "Shared template libraries",
+            "Team performance metrics"
+          ]
+        },
+        "enterpriseScale": {
+          "title": "Enterprise Scale",
+          "description": "Infrastructure designed to handle the largest communication volumes with guaranteed uptime and support.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Uptime SLA"
+          },
+          "benefits": [
+            "Auto-scaling infrastructure",
+            "24/7 dedicated support",
+            "Custom SLA agreements",
+            "Priority delivery queues"
+          ]
+        }
+      },
+      "featureCategories": {
+        "title": "Comprehensive Feature Set",
+        "description": "Everything you need to run successful mass communication campaigns, organized by category."
+      }
+    }
   }
 }

@@ -3,34 +3,34 @@ import { useTranslation } from 'react-i18next';
 import { MessageSquare, Phone, MessageCircle, Monitor } from 'lucide-react';
 
 const Channels = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const channels = [
     {
       icon: <MessageCircle className="h-8 w-8" />,
-      title: 'WhatsApp Business',
-      description: 'Connect with customers on the world\'s most popular messaging platform',
+      titleKey: 'channels.whatsapp.title',
+      descriptionKey: 'channels.whatsapp.description',
       color: 'text-green-600',
       bgColor: 'bg-green-100'
     },
     {
       icon: <Phone className="h-8 w-8" />,
-      title: 'Voice & Phone Calls',
-      description: 'Professional phone system with AI voicebot and human agent support',
+      titleKey: 'channels.voice.title',
+      descriptionKey: 'channels.voice.description',
       color: 'text-blue-600',
       bgColor: 'bg-blue-100'
     },
     {
       icon: <MessageSquare className="h-8 w-8" />,
-      title: 'SMS Messaging',
-      description: 'Reach customers instantly with personalized SMS campaigns',
+      titleKey: 'channels.sms.title',
+      descriptionKey: 'channels.sms.description',
       color: 'text-purple-600',
       bgColor: 'bg-purple-100'
     },
     {
       icon: <Monitor className="h-8 w-8" />,
-      title: 'Website Chat Widget',
-      description: 'Turn website visitors into conversations with AI-powered chat',
+      titleKey: 'channels.website.title',
+      descriptionKey: 'channels.website.description',
       color: 'text-indigo-600',
       bgColor: 'bg-indigo-100'
     }
@@ -41,11 +41,10 @@ const Channels = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Connect Every Customer Channel
+            {t('channels.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Unify all your customer communications in one platform. From WhatsApp to phone calls, 
-            SMS to social media - manage every conversation from a single dashboard.
+            {t('channels.subtitle')}
           </p>
         </div>
 
@@ -61,10 +60,10 @@ const Channels = () => {
                 </div>
               </div>
               <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">
-                {channel.title}
+                {t(channel.titleKey)}
               </h3>
               <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                {channel.description}
+                {t(channel.descriptionKey)}
               </p>
             </div>
           ))}
@@ -76,9 +75,9 @@ const Channels = () => {
             to={`/${i18n.language}/channels-overview`}
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
-            Explore All Channels
+            {t('channels.cta.button')}
           </Link>
-          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">See how all 9 channels work together seamlessly</p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">{t('channels.cta.description')}</p>
         </div>
       </div>
     </section>

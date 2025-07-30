@@ -2,13 +2,18 @@ import { Phone, Mail, MapPin, MessageSquare, BarChart3, Heart, Coffee, Umbrella,
 import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { products } from '../data/productsData';
-import { solutions } from '../data/solutionsData';
-import { industries } from '../data/industriesData';
+import { getProducts } from '../data/productsData';
+import { getSolutions } from '../data/solutionsData';
+import { getIndustries } from '../data/industriesData';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Initialize data using the translation functions
+  const industries = getIndustries(t);
+  const solutions = getSolutions(t);
+  const products = getProducts(t);
 
   return (
     <footer className="bg-gray-900 text-white">

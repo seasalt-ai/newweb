@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle, Smartphone, Phone, Send } from 'lucide-react';
 
 const HowItWorks = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const steps = [
     {

@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-import { industries } from '../data/industriesData';
+import { getIndustries } from '../data/industriesData';
 import { useTranslation } from 'react-i18next';
 
 const Industries = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const industries = getIndustries(t);
   
   return (
     <section className="py-20 bg-white">

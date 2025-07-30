@@ -13,41 +13,41 @@ export interface Product {
   icon?: any;
 }
 
-export const products: Product[] = [
+export const getProducts = (t: (key: string) => string): Product[] => [
   {
-    title: 'SeaChat',
+    title: t('products.seachat.title'),
     href: '/seachat',
-    description: 'Respond to customers 24/7',
+    description: t('products.seachat.description'),
     icon: MessageSquare
   },
   {
-    title: 'SeaX',
+    title: t('products.seax.title'),
     href: '/seax',
-    description: 'Outreach to customers in bulk',
+    description: t('products.seax.description'),
     icon: Users
   },
   {
-    title: 'SeaMeet',
+    title: t('products.seameet.title'),
     href: 'http://meet.seasalt.ai/',
-    description: 'Copilot for meetings & calls',
+    description: t('products.seameet.description'),
     icon: Video
   },
   {
-    title: 'SeaVoice',
+    title: t('products.seavoice.title'),
     href: '/seavoice',
-    description: 'AI voice agents for calls',
+    description: t('products.seavoice.description'),
     icon: Mic,
     subProducts: [
       {
-        title: 'Text To Speech',
+        title: t('products.seavoice.subProducts.textToSpeech.title'),
         href: 'https://suite.seasalt.ai/tts/'
       },
       {
-        title: 'Speech To Text',
+        title: t('products.seavoice.subProducts.speechToText.title'),
         href: 'https://suite.seasalt.ai/stt/'
       },
       {
-        title: 'Discord STT Bot',
+        title: t('products.seavoice.subProducts.discordBot.title'),
         href: 'https://voice.seasalt.ai/discord/'
       }
     ]

@@ -7,27 +7,27 @@ export interface Solution {
   icon?: any;
 }
 
-export const solutions: Solution[] = [
+export const getSolutions = (t: (key: string) => string): Solution[] => [
   {
-    title: 'For Sales & Marketing',
+    title: t('solutions.salesMarketing.title'),
     path: '/solutions/sales-marketing',
     slug: 'sales-marketing',
     icon: TrendingUp
   },
   {
-    title: 'For Customer Support',
+    title: t('solutions.customerSupport.title'),
     path: '/solutions/customer-support',
     slug: 'customer-support',
     icon: Headphones
   },
   {
-    title: 'AI & Automation',
+    title: t('solutions.aiAutomation.title'),
     path: '/solutions/ai-automation',
     slug: 'ai-automation',
     icon: Bot
   },
   {
-    title: 'For SME Owners',
+    title: t('solutions.smeOwners.title'),
     path: '/solutions/sme-owners',
     slug: 'sme-owners',
     icon: Building2

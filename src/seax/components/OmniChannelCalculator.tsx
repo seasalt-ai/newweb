@@ -134,14 +134,16 @@ const OmniChannelCalculator = () => {
             <div className="flex items-center space-x-4">
               <button
                 onClick={() => setUsers(Math.max(1, users - 1))}
-                className="w-10 h-10 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-lg font-semibold"
+                className="w-10 h-10 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-lg font-semibold leading-none select-none"
+                style={{ lineHeight: '1' }}
               >
-                -
+                −
               </button>
               <span className="text-xl font-semibold w-12 text-center">{users}</span>
               <button
                 onClick={() => setUsers(users + 1)}
-                className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center text-lg font-semibold"
+                className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center text-lg font-semibold leading-none select-none"
+                style={{ lineHeight: '1' }}
               >
                 +
               </button>
@@ -166,14 +168,16 @@ const OmniChannelCalculator = () => {
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}
-                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm"
+                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm leading-none select-none"
+                    style={{ lineHeight: '1' }}
                   >
-                    -
+                    −
                   </button>
                   <span className="w-8 text-center">{localNumbers}</span>
                   <button
                     onClick={() => setLocalNumbers(localNumbers + 1)}
-                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm"
+                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm leading-none select-none"
+                    style={{ lineHeight: '1' }}
                   >
                     +
                   </button>
@@ -188,14 +192,16 @@ const OmniChannelCalculator = () => {
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}
-                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm"
+                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm leading-none select-none"
+                    style={{ lineHeight: '1' }}
                   >
-                    -
+                    −
                   </button>
                   <span className="w-8 text-center">{tollFreeNumbers}</span>
                   <button
                     onClick={() => setTollFreeNumbers(tollFreeNumbers + 1)}
-                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm"
+                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm leading-none select-none"
+                    style={{ lineHeight: '1' }}
                   >
                     +
                   </button>
@@ -213,14 +219,16 @@ const OmniChannelCalculator = () => {
             <div className="flex items-center space-x-4">
               <button
                 onClick={() => setWhatsappNumbers(Math.max(0, whatsappNumbers - 1))}
-                className="w-10 h-10 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-lg font-semibold"
+                className="w-10 h-10 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-lg font-semibold leading-none select-none"
+                style={{ lineHeight: '1' }}
               >
-                -
+                −
               </button>
               <span className="text-xl font-semibold w-12 text-center">{whatsappNumbers}</span>
               <button
                 onClick={() => setWhatsappNumbers(whatsappNumbers + 1)}
-                className="w-10 h-10 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center text-lg font-semibold"
+                className="w-10 h-10 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center text-lg font-semibold leading-none select-none"
+                style={{ lineHeight: '1' }}
               >
                 +
               </button>
@@ -296,7 +304,7 @@ const OmniChannelCalculator = () => {
 
             {/* WhatsApp Messages */}
             <div className="space-y-2">
-              <label className="text-sm text-gray-600">WhatsApp Business-Initiated Messages (Free)</label>
+              <label className="text-sm text-gray-600">WhatsApp Business-Initiated Messages (no markup)</label>
               <input
                 type="range"
                 min="0"
@@ -385,7 +393,7 @@ const OmniChannelCalculator = () => {
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
                 <div>
                   <span className="text-gray-700">WhatsApp Messages ({whatsappMessages.toLocaleString()})</span>
-                  <p className="text-sm text-emerald-600">Business-initiated - Free</p>
+                  <p className="text-sm text-emerald-600">Business-initiated - paid to Meta, No markup</p>
                 </div>
                 <span className="text-lg font-semibold text-emerald-600">$0</span>
               </div>
