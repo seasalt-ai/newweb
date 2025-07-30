@@ -49,10 +49,10 @@ const Header = () => {
     });
   };
 const channels = [
-    { name: t('channels.whatsapp'), path: '/channels/whatsapp', icon: MessageCircle },
-    { name: t('channels.voice'), path: '/channels/phone-calls', icon: Phone },
-    { name: t('channels.sms'), path: '/channels/sms', icon: MessageSquare },
-    { name: t('channels.websiteChat'), path: '/channels/website-chat', icon: Bot },
+    { name: t('channels.whatsapp.title'), path: '/channels/whatsapp', icon: MessageCircle },
+    { name: t('channels.voice.title'), path: '/channels/phone-calls', icon: Phone },
+    { name: t('channels.sms.title'), path: '/channels/sms', icon: MessageSquare },
+    { name: t('channels.website.title'), path: '/channels/website-chat', icon: Bot },
     { name: t('channels.instagram'), path: '/channels/instagram', icon: Instagram },
     { name: t('channels.facebookMessenger'), path: '/channels/facebook-messenger', icon: Facebook },
     { name: t('channels.contactForms'), path: '/channels/contact-forms', icon: Mail },
