@@ -3,7 +3,7 @@ title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Services(LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Framework vs. Azure Services"
 date: 2024-03-21T00:22:19-07:00
 modified_date: 2025-07-28
- draft: false
+draft: false
 author: Xuchen Yao
 description: ¿Por qué Microsoft Bot Framework y Azure Bot Services (LUIS.ai) están desactualizados? Descubre SeaChat: abandona los chatbots repetitivos con tecnología LLM avanzada y logra conversaciones humanas y atractivas.
 weight: 1
