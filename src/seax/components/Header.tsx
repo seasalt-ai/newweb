@@ -234,8 +234,11 @@ const Header = () => {
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
                           className="absolute top-full left-0 pt-2 w-72 z-[60]"
+                          style={{ zIndex: 100 }}
+                          onMouseEnter={() => setOpenDropdown(item.name.toLowerCase())}
+                          onMouseLeave={handleMouseLeave}
                         >
-                          <div className="bg-white rounded-md shadow-lg py-2">
+                          <div className="bg-white rounded-md shadow-lg py-2 border border-gray-200">
                             {item.dropdown.map((subItem) => (
                               <Link
                                 key={subItem.name}
@@ -385,9 +388,9 @@ const Header = () => {
       </header>
       
       {/* Backdrop for dropdowns - outside header to prevent re-renders */}
-      {openDropdown && (
+      {openDropdown && openDropdown !== 'logo' && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-10 z-40"
+          className="fixed inset-0 bg-black bg-opacity-10 z-[30]"
           onClick={() => setOpenDropdown(null)}
         />
       )}
