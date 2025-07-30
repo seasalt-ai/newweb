@@ -7,9 +7,9 @@ author: Xuchen Yao
 description: 探索如何利用客製化的ChatGPT機器人為行銷活動注入新活力。從創新互動到提升品牌形象，本文為您揭示AI在行銷中的無限潛力。
 weight: 1
 tags: ["SeaChat", "AI Tools", "Customer Experience"]
-image: images/blog/48-how-to-utilize-custom-chatpot-in-marketing/48-how-to-utilize-custom-chatpot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatpot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatpot-in-marketing/"
+image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
+url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
 summary: "探索如何利用客製化的ChatGPT機器人為行銷活動注入新活力。從創新互動到提升品牌形象，本文為您揭示AI在行銷中的無限潛力。"
 ---
 
@@ -36,7 +36,7 @@ ChatGPT機器人能夠在多個層面強化行銷策略。從互動式廣告到�
 - 互動式內容創建: 創造引人入勝的故事和遊戲化的內容。
 
 <center>
-<img height="450px" src="/images/blog/48-how-to-utilize-custom-chatpot-in-marketing/1-use-custom-chatbot-for-marketing.jpeg" alt="聊天機器人可以透過有趣的互動方式來推廣產品或服務"/>
+<img height="450px" src="/images/blog/48-how-to-utilize-custom-chatbot-in-marketing/1-use-custom-chatbot-for-marketing.jpeg" alt="聊天機器人可以透過有趣的互動方式來推廣產品或服務"/>
 
 *聊天機器人可以透過有趣的互動方式來推廣產品或服務*
 </center>
@@ -71,7 +71,7 @@ ChatGPT機器人能夠在多個層面強化行銷策略。從互動式廣告到�
 透過「茉莉助手」的互動式行銷活動，「茉莉時尚」不僅增強了品牌與用戶之間的互動，還收集到寶貴的市場數據，幫助品牌更好地理解和服務於其目標市場。
 
 <center>
-<img height="450px" src="/images/blog/48-how-to-utilize-custom-chatpot-in-marketing/2-custom-chatbot-for-new-marketing-strategyy.jpeg" alt="客製化AI聊天機器人將成為企業提高工作效率和員工滿意度的重要工具"/>
+<img height="450px" src="/images/blog/48-how-to-utilize-custom-chatbot-in-marketing/2-custom-chatbot-for-new-marketing-strategyy.jpeg" alt="客製化AI聊天機器人將成為企業提高工作效率和員工滿意度的重要工具"/>
 
 *客製化AI聊天機器人將成為企業提高工作效率和員工滿意度的重要工具*
 </center>
