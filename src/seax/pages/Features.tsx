@@ -194,7 +194,7 @@ const Features = () => {
                 )}
                 
                 <div className="space-y-2">
-                  {feature.benefits.slice(0, 3).map((benefit, benefitIndex) => (
+                  {(feature.benefits && Array.isArray(feature.benefits) ? feature.benefits : []).slice(0, 3).map((benefit, benefitIndex) => (
                     <div key={benefitIndex} className="flex items-center space-x-2">
                       <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
                       <span className="text-sm text-gray-700">{benefit}</span>

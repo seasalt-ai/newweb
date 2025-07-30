@@ -10,104 +10,14 @@
     "login": "Login",
     "startForFree": "Sign Up",
     "backToChannels": "Back to Channels",
-    "allChannelsOverview": "All Channels Overview",
-    "features": "Features",
-    "appointmentReminders": "Appointment Reminders",
-    "politicalCampaigns": "Political Campaigns",
-    "bookDemo": "Book Demo",
-    "navigation": {
-      "platform": "Platform",
-      "inboundSolutions": "Inbound Solutions",
-      "outboundSolutions": "Outbound Solutions",
-      "pricing": "Pricing"
-    },
-    "platform": {
-      "overview": "Platform Overview",
-      "landlineMobile": "Landline & Mobile Voice",
-      "voipSipByoc": "VoIP & SIP & BYOC Voice",
-      "lineCallPlus": "Line Call Plus for Businesses",
-      "whatsappVoice": "WhatsApp Voice API for Businesses",
-      "speechToText": "Speech To Text",
-      "textToSpeech": "Text To Speech",
-      "endToEndLlm": "End To End LLMs"
-    },
-    "inbound": {
-      "virtualAssistant": "24/7 Virtual Assistant",
-      "callTransfer": "Smart Call Transfer",
-      "ivrReplacement": "IVR Replacement",
-      "mentalHealth": "Mental Health Companion",
-      "scamShield": "Scam Shield Protection",
-      "technicalSupport": "Technical Support",
-      "orderStatus": "Order Status & Tracking",
-      "paymentProcessing": "Payment Processing",
-      "appointmentBooking": "Appointment Booking"
-    },
-    "outbound": {
-      "leadGeneration": "Lead Generation & Qualification",
-      "collections": "Collections Service",
-      "reactivation": "Customer Reactivation",
-      "seniorChecks": "Senior Check Calls",
-      "campaigns": "Large Scale Campaigns",
-      "proactiveSupport": "Proactive Support",
-      "renewals": "Subscription Renewals",
-      "surveys": "Customer Surveys",
-      "fraudAlerts": "Fraud Alerts"
-    },
-    "auth": {
-      "signIn": "Sign In",
-      "getStarted": "Get Started"
-    }
+    "allChannelsOverview": "All Channels Overview"
   },
   "footer": {
-    "description": "Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business.",
-    "title": {
-      "channels": "Channels",
-      "solutions": "Solutions",
-      "industries": "Industries"
-    },
-    "channels": {
-      "sms": "SMS Overview",
-      "smsLocal": "Local Number (10DLC)",
-      "smsTollFree": "Toll-Free Number",
-      "smsShortCode": "Short Code",
-      "whatsapp": "WhatsApp Business Platform",
-      "voice": "Phone Call Voice"
-    },
-    "solutions": {
-      "leadGeneration": "Lead Generation",
-      "marketingAutomation": "Marketing Automation",
-      "customerEngagement": "Customer Engagement",
-      "appointmentReminders": "Appointment Reminders",
-      "emergencyAlerts": "Emergency Alerts"
-    },
-    "industries": {
-      "ecommerceRetail": "E-commerce & Retail",
-      "realEstate": "Real Estate",
-      "politicalCampaigns": "Political Campaigns",
-      "healthcare": "Healthcare",
-      "financialServices": "Financial Services"
-    },
     "company": {
       "title": "Company",
       "contact": "Contact",
       "about": "About Us",
-      "careers": "Careers",
-      "productWiki": "Product Wiki",
-      "apiReferences": "API References",
-      "features": "Features",
-      "pricing": "Pricing"
-    },
-    "legal": {
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
-    },
-    "cta": {
-      "readyToScale": "Ready to Scale Your Outreach to Millions?",
-      "joinThousands": "Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.",
-      "signUpNow": "Sign Up Now",
-      "scheduleDemo": "Schedule Demo",
-      "title": "Ready to Transform Your Customer Communications?",
-      "startFreeTrial": "Sign Up"
+      "careers": "Careers"
     },
     "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
@@ -117,106 +27,11 @@
       "soc2": "SOC 2 Compliant",
       "hipaa": "HIPAA Available",
       "uptime": "99.9% Uptime"
-    }
-  },
-  "languages": {
-    "native": {
-      "ar": "العربية",
-      "de": "Deutsch",
-      "en": "English",
-      "es": "Español",
-      "fa": "فارسی",
-      "fil": "Filipino",
-      "fr": "Français",
-      "hi": "हिन्दी",
-      "id": "Bahasa Indonesia",
-      "ja": "日本語",
-      "ko": "한국어",
-      "ms": "Bahasa Melayu",
-      "pl": "Polski",
-      "pt": "Português",
-      "ru": "Русский",
-      "ta": "தமிழ்",
-      "th": "ไทย",
-      "vi": "Tiếng Việt",
-      "zhCN": "简体中文",
-      "zhTW": "繁體中文"
     },
-    "english": {
-      "ar": "Arabic",
-      "de": "German",
-      "en": "English",
-      "es": "Spanish",
-      "fa": "Persian",
-      "fil": "Filipino",
-      "fr": "French",
-      "hi": "Hindi",
-      "id": "Indonesian",
-      "ja": "Japanese",
-      "ko": "Korean",
-      "ms": "Malay",
-      "pl": "Polish",
-      "pt": "Portuguese",
-      "ru": "Russian",
-      "ta": "Tamil",
-      "th": "Thai",
-      "vi": "Vietnamese",
-      "zhCN": "Chinese (Simplified)",
-      "zhTW": "Chinese (Traditional)"
-    }
-  },
-  "common": {
-    "phoneBanner": {
-      "callText": "Call",
-      "bookMeeting": "to book a meeting with the SeaVoice AI agent.",
-      "available247": "Available 24/7"
-    },
-    "productLogoDropdown": {
-      "mainSite": "Seasalt.ai Main Site",
-      "allProducts": "All products and solutions",
-      "products": "Products"
-    },
-    "problemSolution": {
-      "title": "Losing Leads in a Maze of Apps and Inboxes?",
-      "subtitle": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
-      "problems": {
-        "fragmented": {
-          "title": "Fragmented Conversations",
-          "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
-        },
-        "lostRevenue": {
-          "title": "Lost Revenue",
-          "description": "Missed messages after-hours and slow responses mean lost leads and frustrated customers."
-        },
-        "overload": {
-          "title": "Operational Overload",
-          "description": "Your team is stretched thin managing too many tools instead of focusing on customers."
-        }
-      },
-      "solution": {
-        "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
-        "hubTitle": "Unified Omni-Channel Hub",
-        "subtitle": "AI & Human Agents, 24/7",
-        "tabs": {
-          "support": "Support",
-          "marketing": "Marketing"
-        },
-        "features": {
-          "marketing": {
-            "title": "Copilot Your Marketing Campaigns",
-            "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
-          },
-          "support": {
-            "title": "Autopilot Your Customer Support",
-            "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
-          },
-          "human": {
-            "title": "Never Lose the Human Touch",
-            "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
-          }
-        },
-        "cta": "Use Seasalt.ai to Solve This"
-      }
+    "cta": {
+      "title": "Ready to Transform Your Customer Communications?",
+      "startFreeTrial": "Sign Up",
+      "scheduleDemo": "Schedule Demo"
     }
   },
   "hero": {
@@ -227,80 +42,6 @@
     "seeDemo": "Book A Demo",
     "trustedBy": "Trusted by growing businesses worldwide",
     "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:"
-  },
-  "features": {
-    "title": "The Omni-Channel Copiloted Contact Center for SMEs",
-    "subtitle": "Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
-    "unifiedInbox": {
-      "title": "Unified Omni-Channel Inbox",
-      "description": "Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
-    },
-    "aiVoicebotChatbot": {
-      "title": "AI Voicebot & Chatbot",
-      "description": "Your first digital employee works 24/7. Automate up to 80% of routine queries, book 5+ appointments daily, and seamlessly handoff to human agents when needed."
-    },
-    "nativeIntegration": {
-      "title": "Native Voice & WhatsApp Integration",
-      "description": "Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp chat history when they call."
-    },
-    "outboundMarketing": {
-      "title": "Outbound Marketing Campaigns",
-      "description": "Create seamless, closed-loop customer journeys. Launch targeted campaigns and manage all replies on the same platform."
-    },
-    "enterpriseSecurity": {
-      "title": "Enterprise-Grade Security",
-      "description": "HIPAA-compliant solution with bank-level encryption. Trust your customer data is always protected."
-    },
-    "simplePricing": {
-      "title": "Simple, Predictable Pricing",
-      "description": "Budget with confidence. Transparent pricing means you know exactly what you'll pay each month."
-    },
-    "testimonial": {
-      "quote": "\"I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!\"",
-      "author": "— Solution Architect Review"
-    },
-    "problemSolution": {
-      "title": "Losing Leads in a Maze of Apps and Inboxes?",
-      "subtitle": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
-      "problems": {
-        "fragmented": {
-          "title": "Fragmented Conversations",
-          "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
-        },
-        "lostRevenue": {
-          "title": "Lost Revenue",
-          "description": "Missed messages after-hours and slow responses mean lost leads and frustrated customers."
-        },
-        "overload": {
-          "title": "Operational Overload",
-          "description": "Your team is stretched thin managing too many tools instead of focusing on customers."
-        }
-      },
-      "solution": {
-        "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
-        "hubTitle": "Unified Omni-Channel Hub",
-        "subtitle": "AI & Human Agents, 24/7",
-        "tabs": {
-          "support": "Support",
-          "marketing": "Marketing"
-        },
-        "features": {
-          "marketing": {
-            "title": "Copilot Your Marketing Campaigns",
-            "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
-          },
-          "support": {
-            "title": "Autopilot Your Customer Support",
-            "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
-          },
-          "human": {
-            "title": "Never Lose the Human Touch",
-            "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
-          }
-        },
-        "cta": "Use Seasalt.ai to Solve This"
-      }
-    }
   },
   "seachat": {
     "common": {
@@ -356,45 +97,12 @@
     "hero": {
       "title": "Start Free with",
       "subtitle": "Live Agents",
-      "badge": "Start Free with Live Agents",
-      "headline1": "Respond To",
-      "headline2": "Millions",
-      "headline3": "24/7",
       "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
       "startFree": "Start Free Now",
       "exploreAI": "Book A Demo",
       "alwaysFree": "Always Free Plan",
       "integrations": "30+ Integrations",
       "setup": "Setup in 2 Minutes",
-      "animations": {
-        "title": "SeaChat in Action",
-        "autoMode": "Auto",
-        "manualMode": "Manual",
-        "phoneVoice": {
-          "name": "Phone Voice AI",
-          "description": "AI agents handling phone conversations"
-        },
-        "interactive": {
-          "name": "Interactive Channels",
-          "description": "Click to see different conversations"
-        },
-        "multiChannel": {
-          "name": "Multi-Channel Flow",
-          "description": "Messages flowing between different platforms"
-        },
-        "agentToAI": {
-          "name": "Human-to-AI Handoff",
-          "description": "Start with humans, scale with AI"
-        },
-        "learning": {
-          "name": "AI Learning Journey",
-          "description": "Watch AI get smarter from content"
-        },
-        "dashboard": {
-          "name": "Real-Time Analytics",
-          "description": "Live performance metrics"
-        }
-      },
       "chat": {
         "userMessage": "Hi! I need help with my order",
         "botMessage": "Hello! I'd be happy to help you with your order. Could you please provide your order number?",
@@ -402,65 +110,6 @@
         "typePlaceholder": "Type your message...",
         "online": "Online",
         "supportTitle": "SeaChat Support"
-      }
-    },
-    "knowledgeBase": {
-      "title": "Smart Knowledge Base",
-      "subtitle": "Upload your documents, websites, and files. SeaChat's AI instantly becomes an expert on your business, ready to answer any customer question with accuracy.",
-      "supportedFormats": {
-        "title": "Supported File Types",
-        "formats": {
-          "pdf": {
-            "name": "PDF Documents",
-            "count": "Unlimited files"
-          },
-          "excel": {
-            "name": "Excel Sheets",
-            "count": "CSV, XLSX formats"
-          },
-          "word": {
-            "name": "Word Documents",
-            "count": "DOC, DOCX formats"
-          },
-          "images": {
-            "name": "Images",
-            "count": "JPG, PNG, GIF"
-          },
-          "websites": {
-            "name": "Website URLs",
-            "count": "Auto-crawling"
-          },
-          "videos": {
-            "name": "Video Content",
-            "count": "MP4, MOV formats"
-          }
-        },
-        "richResponse": {
-          "title": "Rich Response Features",
-          "features": [
-            "Smart content extraction",
-            "Auto-categorization",
-            "Contextual answers",
-            "Source attribution",
-            "Multi-language support",
-            "Real-time updates"
-          ]
-        },
-        "addDocuments": "Add Your Documents"
-      },
-      "uploadModal": {
-        "title": "Upload Documents",
-        "dropzone": {
-          "title": "Drag and drop files here or click to browse",
-          "description": "Upload PDFs, Word docs, Excel files, images, or paste website URLs",
-          "button": "Choose Files"
-        },
-        "demoFiles": [
-          "sample-manual.pdf",
-          "product-catalog.xlsx",
-          "company-policy.docx"
-        ],
-        "close": "Close"
       }
     },
     "keyFeatures": {
@@ -610,68 +259,6 @@
           "tryFeature": "Try This Feature",
           "watchDemo": "Watch Demo"
         },
-        "advancedFeatures": {
-          "retrievalAugmentedGeneration": {
-            "title": "Retrieval Augmented Generation",
-            "description": "Keyword, Vector, and Hybrid Search for precise information retrieval",
-            "details": [
-              "Semantic vector search",
-              "Keyword matching",
-              "Hybrid search algorithms",
-              "Real-time content indexing"
-            ]
-          },
-          "longTermMemory": {
-            "title": "Long Term Memory",
-            "description": "Personalized experiences through persistent user memory",
-            "details": [
-              "User preference tracking",
-              "Conversation history analysis",
-              "Behavioral pattern recognition",
-              "Cross-session continuity"
-            ]
-          },
-          "timeAwareness": {
-            "title": "Time Awareness",
-            "description": "Context-aware responses based on current time and timezone",
-            "details": [
-              "Real-time timestamp integration",
-              "Timezone-aware scheduling",
-              "Time-sensitive recommendations",
-              "Business hours optimization"
-            ]
-          },
-          "contextExtraction": {
-            "title": "Context Extraction",
-            "description": "Intelligent field mapping for better user comprehension",
-            "details": [
-              "Custom field definitions",
-              "Automatic data extraction",
-              "User language preferences",
-              "Dynamic context building"
-            ]
-          },
-          "referencedResults": {
-            "title": "Referenced Results",
-            "description": "Transparent AI responses with source citations",
-            "details": [
-              "Source document linking",
-              "Citation tracking",
-              "Confidence scoring",
-              "Fact verification"
-            ]
-          },
-          "knowledgeRefinement": {
-            "title": "Knowledge Refinement",
-            "description": "Continuous improvement of knowledge base accuracy",
-            "details": [
-              "Auto-updating content",
-              "Quality scoring",
-              "Relevance optimization",
-              "Performance analytics"
-            ]
-          }
-        },
         "integrations": {
           "title": "Powerful Integrations",
           "subtitle": "Connect with your favorite tools and platforms",
@@ -698,83 +285,35 @@
       "channels": {
         "website": {
           "name": "Website",
-          "description": "Universal widget that works on any HTML website",
-          "features": [
-            "Universal compatibility",
-            "Custom styling",
-            "Mobile responsive",
-            "Real-time sync"
-          ]
+          "description": "Universal widget that works on any HTML website"
         },
         "whatsapp": {
           "name": "WhatsApp",
-          "description": "Connect with customers on the world's most popular messaging app",
-          "features": [
-            "Business API integration",
-            "Rich media support",
-            "Template messages",
-            "Group messaging"
-          ]
+          "description": "Connect with customers on the world's most popular messaging app"
         },
         "instagram": {
           "name": "Instagram",
-          "description": "Manage Instagram DMs and story replies in one unified inbox",
-          "features": [
-            "Story reply management",
-            "Media sharing",
-            "Quick responses",
-            "Automated greetings"
-          ]
+          "description": "Manage Instagram DMs and story replies in one unified inbox"
         },
         "facebook": {
           "name": "Facebook",
-          "description": "Provide customer support through Facebook's messaging platform",
-          "features": [
-            "Page integration",
-            "Automated responses",
-            "Rich cards",
-            "Persistent menu"
-          ]
+          "description": "Provide customer support through Facebook's messaging platform"
         },
         "line": {
           "name": "LINE",
-          "description": "Connect with customers on the popular Asian messaging platform",
-          "features": [
-            "Official Account integration",
-            "Rich media support",
-            "Stickers and emoji",
-            "Automated replies"
-          ]
+          "description": "Connect with customers on the popular Asian messaging platform"
         },
         "phone": {
           "name": "Phone Call",
-          "description": "Handle voice support with AI voice agents",
-          "features": [
-            "Natural conversations",
-            "Call routing",
-            "Voicemail transcription",
-            "Conference calls"
-          ]
+          "description": "Handle voice support with AI voice agents"
         },
         "email": {
           "name": "Email",
-          "description": "Manage email tickets with intelligent routing",
-          "features": [
-            "Smart categorization",
-            "Auto-responses",
-            "Email templates",
-            "Priority handling"
-          ]
+          "description": "Manage email tickets with intelligent routing"
         },
         "ecommerce": {
           "name": "E-commerce",
-          "description": "Integrate with online stores for order management",
-          "features": [
-            "Order tracking",
-            "Product information",
-            "Inventory checks",
-            "Shopping cart recovery"
-          ]
+          "description": "Integrate with online stores for order management"
         }
       },
       "platformCategories": {
@@ -820,11 +359,6 @@
       "customize": "Customize Your Plan",
       "chatVolume": "Monthly Chat Volume",
       "agents": "Number of Agents",
-      "limitations": "Limitations",
-      "basedOn": "Based on",
-      "chatsPerPeriod": "chats",
-      "month": "month",
-      "year": "year",
       "plans": {
         "free": {
           "name": "Free Forever",
@@ -1023,19 +557,12 @@
           }
         }
       },
-      "labels": {
-        "challenge": "Challenge",
-        "solution": "Solution",
-        "results": "Results Achieved"
-      },
       "cta": {
         "title": "Ready to Transform Your Support?",
         "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
         "buttons": {
           "viewCases": "View All Case Studies",
-          "startStory": "Start Your Success Story",
-          "signUp": "Sign Up For Free",
-          "demo": "Book A Demo"
+          "startStory": "Start Your Success Story"
         }
       }
     },
@@ -1221,7 +748,7 @@
       "product": "Product",
       "company": "Company",
       "resources": "Resources",
-      "legal": "Legal \u0026 Support",
+      "legal": "Legal & Support",
       "getStarted": "Ready to Get Started?",
       "joinThousands": "Join thousands of businesses already using SeaChat to deliver exceptional customer experiences.",
       "enterEmail": "Enter your email",
@@ -1229,169 +756,23 @@
       "copyright": "© 2024 SeaChat. All rights reserved.",
       "compliance": "🔒 SOC 2 Compliant",
       "gdpr": "🛡️ GDPR Ready",
-      "uptime": "⚡99.9% Uptime",
-      "description": "Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster.",
-      "stats": {
-        "messagesDaily": "5M+ Messages Daily",
-        "activeUsers": "100K+ Active Users",
-        "uptime": "99.9% Uptime"
-      },
-      "tagline": "Made with ❤️ in the city of ☕ ☂️ ✈️ 💎",
-      "cta": {
-        "title": "Ready to Transform Your Customer Support?",
-        "description": "Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.",
-        "signUpFree": "Sign Up Free",
-        "scheduleDemo": "Schedule Demo",
-        "noCreditCard": "No credit card required • Setup in 2 minutes • Cancel anytime"
-      }
+      "uptime": "⚡ 99.9% Uptime"
     }
   },
   "seax": {
-    "home": {
-      "seoTitle": "SeaX - Reach Millions Instantly | Mass SMS, WhatsApp & Voice Communication",
-      "seoDescription": "The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business with powerful outreach.",
-      "scalingProblem": {
-        "title": "Stop Cold Calling. Start Converting.",
-        "description": "Transform your outreach from tedious manual processes to powerful automated campaigns that reach millions instantly.",
-        "manualOutreach": {
-          "title": "Manual Outreach",
-          "description": "100 calls per day, 2% connection rate, exhausted sales team"
-        },
-        "seaXAutomation": {
-          "title": "SeaX Automation",
-          "description": "500,000 messages per hour, 15% engagement rate, scalable growth"
-        },
-        "seaxAutomation": {
-          "title": "SeaX Automation",
-          "description": "500,000 messages per hour, 15% engagement rate, scalable growth"
-        },
-        "stats": {
-          "messagesSentDaily": "Messages Sent Daily",
-          "callsPerHour": "Calls per Hour",
-          "deliveryRate": "Delivery Rate",
-          "roiAverage": "ROI Average"
-        }
-      },
-      "massiveScale": {
-        "title": "Built for Massive Scale",
-        "description": "The infrastructure and features you need to reach millions",
-        "features": {
-          "sms": {
-            "title": "Millions of Texts (SMS)",
-            "description": "Carrier-grade deliverability for your largest campaigns with real-time analytics."
-          },
-          "whatsapp": {
-            "title": "Unlimited WhatsApp",
-            "description": "Go beyond limits with our robust WhatsApp Business API integration."
-          },
-          "voice": {
-            "title": "High-Volume Voice",
-            "description": "Deploy thousands of AI-powered or pre-recorded calls in minutes."
-          },
-          "aiConversations": {
-            "title": "AI Conversations",
-            "description": "Let AI handle follow-ups and qualify your leads 24/7 at scale."
-          }
-        }
-      },
-      "leadGeneration": {
-        "title": "From First Touch to Closed Deal",
-        "description": "A complete lead generation and nurturing system that scales with your business",
-        "capture": {
-          "title": "Capture",
-          "desc": "Reach millions with targeted campaigns"
-        },
-        "qualify": {
-          "title": "Qualify",
-          "desc": "AI automatically scores and segments leads"
-        },
-        "nurture": {
-          "title": "Nurture",
-          "desc": "Automated follow-ups that convert"
-        },
-        "close": {
-          "title": "Close",
-          "desc": "Hand off hot leads to your sales team"
-        }
-      },
-      "howItWorks": {
-        "title": "How SeaX Works",
-        "description": "Launch a Campaign to Millions in 4 Simple Steps",
-        "step1": {
-          "title": "Upload Your Contacts",
-          "description": "Import your contact list from CSV, Excel, or connect your CRM. Our system handles millions of contacts with ease.",
-          "illustration": {
-            "csvFile": "contacts.csv",
-            "contactCount": "10,000 contacts",
-            "dropFiles": "Drop files here",
-            "orBrowse": "or browse",
-            "contactsImported": "contacts imported"
-          }
-        },
-        "step2": {
-          "title": "Choose Delivery Method",
-          "description": "Select how you want to reach your audience via SMS, WhatsApp, or Phone Calls."
-        },
-        "step3": {
-          "title": "Create Your Campaign",
-          "description": "Design your message and set your campaign parameters."
-        },
-        "step4": {
-          "title": "Launch & Analyze",
-          "description": "Deploy your campaign to millions instantly and track real-time performance with detailed analytics."
-        }
-      },
-      "testimonials": {
-        "title": "Trusted by Growth Leaders",
-        "description": "See how companies scale their outreach with SeaX",
-        "testimonial1": {
-          "quote": "We doubled our qualified leads in a month thanks to SeaX's ability to reach our entire database.",
-          "author": "Sarah Chen",
-          "role": "VP of Sales, TechScale"
-        },
-        "testimonial2": {
-          "quote": "The ROI is incredible. We're sending 2 million messages monthly and our pipeline has never been fuller.",
-          "author": "Michael Rodriguez",
-          "role": "Growth Manager, LeadForce"
-        },
-        "testimonial3": {
-          "quote": "SeaX replaced 5 different tools and 10x'd our outreach capacity. Game-changing for our sales team.",
-          "author": "Jennifer Park",
-          "role": "CEO, MarketBoost"
-        }
-      },
-      "finalCta": {
-        "title": "Ready to Grow?",
-        "description": "Join thousands of companies using SeaX to scale their outreach and fill their pipeline with qualified leads.",
-        "demoButton": "Request a Personalized Demo",
-        "signUpButton": "Sign Up Now",
-        "signupButton": "Sign Up Now"
-      }
-    },
     "features": {
-      "seoTitle": "SeaX Features - Mass Communication Platform",
-      "seoDescription": "Discover SeaX features for mass SMS, WhatsApp, and voice communication. Scale your outreach with advanced automation and analytics.",
+      "seoTitle": "SeaX Features - Powerful Tools for Mass Communication",
+      "seoDescription": "Explore SeaX's powerful features: bulk messaging engine, AI-powered follow-up, real-time analytics, and enterprise-grade infrastructure.",
       "hero": {
         "title": {
-          "line1": "Every Channel.",
-          "line2": "Every Feature.",
-          "line3": "Enterprise Scale."
+          "line1": "Powerful Features for",
+          "line2": "Mass Communication"
         },
-        "description": "From SMS to WhatsApp to voice calls - SeaX provides all the channels and features you need to reach millions of customers at scale."
-      },
-      "channels": {
-        "sms": {
-          "types": {
-            "local": {
-              "title": "Local 10DLC"
-            },
-            "tollFree": {
-              "title": "Toll-Free"
-            },
-            "shortCode": {
-              "title": "Short Code"
-            }
-          }
+        "description": "Everything you need to reach millions of customers across SMS, WhatsApp, and voice channels. Built for scale, designed for results.",
+        "stats": {
+          "messagesDaily": "10M+ messages daily",
+          "countries": "200+ countries",
+          "security": "Enterprise security"
         }
       },
       "messagingChannels": {
@@ -1453,468 +834,130 @@
           "name": "Enterprise SLAs",
           "description": "Dedicated support and uptime"
         }
-      }
-    },
-    "pricing": {
-      "period": {
-        "monthly": "per month",
-        "yearly": "per year"
       },
-      "whatsappOnly": {
-        "name": "WhatsApp Only",
-        "subheader": "Perfect for WhatsApp campaigns",
-        "priceMonthly": "$50",
-        "priceYearly": "$540",
-        "description": "First workspace included",
-        "features": {
-          "sendReceive": "Send and receive WhatsApp messages",
-          "support": "24/7 customer support included",
-          "unlimitedContacts": "Unlimited contacts and conversations",
-          "templates": "Message templates and automation",
-          "workspace": "1 workspace included"
+      "integration": {
+        "title": "Seamless Integration & Developer APIs",
+        "description": "Connect SeaX with your existing tools and build custom workflows with our comprehensive API suite. Designed for enterprise scalability and developer productivity.",
+        "crm": {
+          "title": "CRM Integration",
+          "description": "Connect with Salesforce, HubSpot, and other CRM systems for seamless data flow.",
+          "features": {
+            "sync": "Bi-directional sync",
+            "mapping": "Custom field mapping"
+          }
         },
-        "cta": "Get Started"
-      },
-      "omniChannel": {
-        "name": "Omni-channel",
-        "subheader": "Complete communication platform",
-        "priceMonthly": "$99",
-        "priceYearly": "$999",
-        "additionalPriceMonthly": "+$49",
-        "additionalPriceYearly": "+$499",
-        "description": "First user included",
-        "additionalDescription": "Each additional user",
-        "features": {
-          "sms": "SMS messaging (10DLC, Toll-Free, Short-Code)",
-          "phoneCalls": "Phone calls and voice messaging",
-          "smsCampaign": "Bulk SMS campaign management",
-          "apiAccess": "Full API access and integrations",
-          "phoneCampaign": "Phone campaign automation",
-          "seaChatIntegration": "SeaChat AI integration",
-          "workspace": "1 workspace included",
-          "additionalWorkspace": "Additional workspaces: $99/month each",
-          "communication": "All communication channels",
-          "smsMmsCosts": "SMS/MMS costs: $0.02 per message (USA/CA)",
-          "voicemailDropCost": "Voicemail drop: $0.05 per drop (USA/CA)",
-          "voiceAiAgentsCost": "Voice AI agents: $0.015 per minute (USA/CA)"
+        "analytics": {
+          "title": "Analytics Tools",
+          "description": "Export data to Google Analytics, Mixpanel, and other analytics platforms.",
+          "features": {
+            "exports": "Real-time exports",
+            "dashboards": "Custom dashboards"
+          }
         },
-        "cta": "Get Started"
-      },
-      "custom": {
-        "name": "Custom",
-        "subheader": "Enterprise solutions",
-        "price": "Custom Pricing",
-        "description": "Tailored for your specific needs",
-        "features": {
-          "multipleWorkspaces": "Multiple workspaces and teams",
-          "multipleAiAgents": "Multiple AI agents and automation",
-          "designAndSupport": "Custom design and dedicated support"
-        },
-        "cta": "Contact Sales"
-      },
-      "multiChannel": {
-        "name": "Multi Channel",
-        "priceMonthly": "$150/month",
-        "priceYearly": "$1620/year"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "contact": "Contact Sales",
-        "features": "Custom pricing with dedicated support"
-      }
-    },
-    "solutions": {
-      "leadGeneration": {
-        "title": "Lead Generation"
-      },
-      "marketingAutomation": {
-        "title": "Marketing Automation"
-      },
-      "customerEngagement": {
-        "title": "Customer Engagement"
-      }
-    },
-    "resources": {
-      "gettingStarted": {
-        "title": "Getting Started Guide",
-        "description": "Learn how to set up your account and start using SeaX."
-      },
-      "apiDocumentation": {
-        "title": "API Documentation",
-        "description": "Comprehensive guide to SeaX APIs for developers."
-      },
-      "videoTutorials": {
-        "title": "Video Tutorials",
-        "description": "Step-by-step tutorials to help you master SeaX."
-      }
-    }
-  },
-  "industries": {
-    "ecommerce": {
-      "title": "E-commerce",
-      "headline": "Recover Abandoned Carts & Answer Order Questions 24/7",
-      "benefits": [
-        "Automated order status updates via WhatsApp & SMS",
-        "AI handles \"Where's my package?\" queries instantly",
-        "Recover 15%+ of abandoned carts with smart follow-ups",
-        "Shopify & Squarespace integrations included"
-      ]
-    },
-    "healthcare": {
-      "title": "Healthcare",
-      "headline": "Book Patient Appointments & Send Reminders Automatically",
-      "benefits": [
-        "HIPAA-compliant messaging across all channels",
-        "Automated appointment confirmations & reminders",
-        "AI pre-screens patient inquiries before routing",
-        "Reduce no-shows by 25% with smart notifications"
-      ]
-    },
-    "realEstate": {
-      "title": "Real Estate",
-      "headline": "Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
-      "benefits": [
-        "Instant responses to property inquiries 24/7",
-        "Automated showing appointments via AI",
-        "Lead qualification before human handoff",
-        "WhatsApp virtual tours and property photos"
-      ]
-    },
-    "restaurantsHospitality": {
-      "title": "Restaurants & Hospitality",
-      "headline": "Take Reservations & Handle Orders Across All Channels",
-      "benefits": [
-        "Automated reservation booking via phone & chat",
-        "Menu questions answered instantly by AI",
-        "Order confirmations sent via SMS & WhatsApp",
-        "Handle delivery inquiries without staff interruption"
-      ]
-    },
-    "educationTraining": {
-      "title": "Education & Training",
-      "headline": "Streamline Student Communications & Course Inquiries",
-      "benefits": [
-        "Automated course enrollment and scheduling",
-        "AI handles common student questions 24/7",
-        "Parent-teacher communication via WhatsApp",
-        "Event notifications and reminders via SMS"
-      ]
-    },
-    "automotiveServices": {
-      "title": "Automotive & Services",
-      "headline": "Book Service Appointments & Handle Customer Inquiries",
-      "benefits": [
-        "Automated service appointment booking",
-        "Vehicle maintenance reminders via SMS",
-        "AI handles parts availability questions",
-        "Service completion notifications with photos"
-      ]
-    },
-    "professionalServices": {
-      "title": "Professional Services",
-      "headline": "Manage Client Communications & Consultation Bookings",
-      "benefits": [
-        "Automated consultation scheduling",
-        "Client intake forms via chat",
-        "Document sharing through secure channels",
-        "Follow-up reminders for appointments"
-      ]
-    },
-    "financialServices": {
-      "title": "Financial Services",
-      "headline": "Secure Client Communications & Appointment Management",
-      "benefits": [
-        "FINRA-compliant messaging and recording",
-        "Automated appointment confirmations",
-        "Secure document collection via chat",
-        "Client onboarding workflow automation"
-      ]
-    }
-  },
-  "solutions": {
-    "salesMarketing": {
-      "title": "For Sales \u0026 Marketing"
-    },
-    "customerSupport": {
-      "title": "For Customer Support"
-    },
-    "aiAutomation": {
-      "title": "AI \u0026 Automation"
-    },
-    "smeOwners": {
-      "title": "For SME Owners"
-    },
-    "emergencyAlerts": "Emergency Alerts"
-  },
-  "products": {
-    "seachat": {
-      "title": "SeaChat",
-      "description": "Respond to customers 24/7"
-    },
-    "seax": {
-      "title": "SeaX",
-      "description": "Outreach to customers in bulk"
-    },
-    "seameet": {
-      "title": "SeaMeet",
-      "description": "Copilot for meetings & calls"
-    },
-    "seavoice": {
-      "title": "SeaVoice",
-      "description": "AI voice agents for calls",
-      "subProducts": {
-        "textToSpeech": {
-          "title": "Text To Speech"
-        },
-        "speechToText": {
-          "title": "Speech To Text"
-        },
-        "discordBot": {
-          "title": "Discord STT Bot"
+        "api": {
+          "title": "Developer API",
+          "description": "Full REST API for custom integrations and automated workflows.",
+          "features": {
+            "endpoints": "RESTful endpoints",
+            "webhooks": "Webhook support"
+          }
         }
+      },
+      "cta": {
+        "title": "Ready to Experience These Features?",
+        "description": "See how SeaX can transform your communication strategy",
+        "button": "Book a Demo"
+      },
+      "coreFeatures": {
+        "bulkMessaging": {
+          "title": "Bulk Messaging Engine",
+          "description": "Send millions of messages across SMS, WhatsApp, and Voice with enterprise-grade delivery guarantees.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Messages per day"
+          },
+          "benefits": [
+            "99.9% delivery rate guarantee",
+            "Smart retry logic",
+            "Multi-channel failover",
+            "Real-time delivery tracking"
+          ]
+        },
+        "aiPoweredFollowup": {
+          "title": "AI-Powered Follow-Up",
+          "description": "Intelligent conversation management with automated follow-ups that feel natural and increase engagement.",
+          "metrics": {
+            "value": "85%",
+            "label": "Response rate improvement"
+          },
+          "benefits": [
+            "Smart conversation timing",
+            "Personalized message content",
+            "Automatic lead scoring",
+            "Multi-touch sequences"
+          ]
+        },
+        "realTimeAnalytics": {
+          "title": "Real-Time Analytics",
+          "description": "Comprehensive dashboards and reporting with actionable insights to optimize your communication strategy.",
+          "metrics": {
+            "value": "15+",
+            "label": "Key metrics tracked"
+          },
+          "benefits": [
+            "Live campaign monitoring",
+            "ROI tracking and optimization",
+            "A/B testing capabilities",
+            "Custom report generation"
+          ]
+        },
+        "complianceDeliverability": {
+          "title": "Compliance & Deliverability",
+          "description": "Built-in compliance management and carrier relationships that ensure maximum message deliverability.",
+          "metrics": {
+            "value": "99.5%",
+            "label": "Inbox delivery rate"
+          },
+          "benefits": [
+            "TCPA compliance built-in",
+            "Carrier-grade infrastructure",
+            "Automatic opt-out handling",
+            "Regulatory updates included"
+          ]
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Multi-user workspaces with role-based permissions and collaborative campaign management tools.",
+          "metrics": {
+            "value": "50+",
+            "label": "Team members supported"
+          },
+          "benefits": [
+            "Role-based access control",
+            "Campaign approval workflows",
+            "Shared template libraries",
+            "Team performance metrics"
+          ]
+        },
+        "enterpriseScale": {
+          "title": "Enterprise Scale",
+          "description": "Infrastructure designed to handle the largest communication volumes with guaranteed uptime and support.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Uptime SLA"
+          },
+          "benefits": [
+            "Auto-scaling infrastructure",
+            "24/7 dedicated support",
+            "Custom SLA agreements",
+            "Priority delivery queues"
+          ]
+        }
+      },
+      "featureCategories": {
+        "title": "Comprehensive Feature Set",
+        "description": "Everything you need to run successful mass communication campaigns, organized by category."
       }
-    }
-  },
-  "channels": {
-    "title": "Connect Every Channel",
-    "subtitle": "Unify all your customer communication channels in one powerful platform",
-    "whatsapp": {
-      "title": "WhatsApp Business",
-      "description": "Connect with customers on the world's most popular messaging platform with official WhatsApp Business API."
-    },
-    "voice": {
-      "title": "Voice & Phone Calls",
-      "description": "Handle voice calls with AI agents that sound natural and can transfer to human agents when needed."
-    },
-    "sms": {
-      "title": "SMS Messaging",
-      "description": "Send and receive SMS messages with support for 10DLC, toll-free, and short code numbers."
-    },
-    "website": {
-      "title": "Website Chat Widget",
-      "description": "Add a customizable chat widget to your website that works seamlessly with all other channels."
-    },
-    "instagram": {
-      "title": "Instagram DMs",
-      "description": "Manage Instagram direct messages and story replies in one unified inbox."
-    },
-    "facebookMessenger": {
-      "title": "Facebook Messenger",
-      "description": "Provide customer support through Facebook's messaging platform."
-    },
-    "contactForms": {
-      "title": "Contact Forms",
-      "description": "Convert website contact forms into interactive conversations."
-    },
-    "line": {
-      "title": "LINE Business",
-      "description": "Connect with customers on the popular Asian messaging platform."
-    },
-    "websiteWidget": {
-      "title": "Website Widget",
-      "description": "Add a customizable chat widget to your website."
-    },
-    "websiteChat": "Website Chat Widget",
-    "cta": {
-      "button": "Explore All Channels",
-      "description": "See how all 9 channels work together seamlessly"
-    }
-  },
-  "competitors": {
-    "aircall": "Aircall",
-    "ringCentral": "RingCentral",
-    "genesys": "Genesys",
-    "five9": "Five9",
-    "avaya": "Avaya",
-    "googleVoice": "Google Voice",
-    "respondIo": "respond.io",
-    "intercom": "Intercom",
-    "kustomer": "Kustomer",
-    "3cx": "3CX",
-    "dialpad": "Dialpad",
-    "8x8": "8x8",
-    "openPhone": "OpenPhone"
-  },
-  "platform": {
-    "overview": "Platform Overview",
-    "landlineMobile": "Landline & Mobile Voice",
-    "voipSIP": "VoIP & SIP & BYOC Voice",
-    "lineCallPlus": "Line Call Plus for Businesses",
-    "whatsappVoice": "WhatsApp Voice API for Businesses",
-    "speechToText": "Speech To Text",
-    "textToSpeech": "Text To Speech",
-    "endToEndLLMs": "End To End LLMs"
-  },
-  "useCases": {
-    "title": "Transform Your Business Communication",
-    "subtitle": "See how Seasalt.ai empowers businesses across industries to deliver exceptional customer experiences at scale.",
-    "keyFeatures": "Key Features",
-    "contactCenter": {
-      "title": "Contact Center",
-      "headline": "Unified Customer Service Hub",
-      "description": "Transform your customer service with an all-in-one contact center that combines AI efficiency with human expertise.",
-      "features": [
-        "Omni-channel support (voice, chat, email, SMS)",
-        "AI-powered call routing and queue management",
-        "Real-time agent performance analytics",
-        "Seamless CRM integration",
-        "24/7 automated responses with human escalation"
-      ]
-    },
-    "virtualReceptionist": {
-      "title": "Virtual Receptionist",
-      "headline": "AI-Powered Front Desk Assistant",
-      "description": "Never miss a call or appointment with our intelligent virtual receptionist that handles inquiries and schedules meetings 24/7.",
-      "features": [
-        "Intelligent call screening and routing",
-        "Automated appointment scheduling",
-        "Multi-language support",
-        "Integration with calendar systems",
-        "Professional voice and chat responses"
-      ]
-    },
-    "smsManagement": {
-      "title": "SMS Management",
-      "headline": "Enterprise SMS Communication",
-      "description": "Manage all your SMS communications from one platform with advanced automation, scheduling, and analytics.",
-      "features": [
-        "Bulk SMS campaigns with personalization",
-        "Two-way SMS conversations",
-        "Automated follow-up sequences",
-        "Delivery and engagement analytics",
-        "Compliance with SMS regulations"
-      ]
-    },
-    "smsMarketing": {
-      "title": "SMS Marketing",
-      "headline": "Targeted Mobile Marketing Campaigns",
-      "description": "Drive sales and engagement with personalized SMS marketing campaigns that reach customers where they are.",
-      "features": [
-        "Segmented customer targeting",
-        "A/B testing for message optimization",
-        "Automated drip campaigns",
-        "ROI tracking and conversion analytics",
-        "Integration with e-commerce platforms"
-      ]
-    },
-    "whatsappBusiness": {
-      "title": "WhatsApp Business",
-      "headline": "Professional WhatsApp Communication",
-      "description": "Leverage WhatsApp's popularity for business communication with official WhatsApp Business API integration.",
-      "features": [
-        "WhatsApp Business API integration",
-        "Rich media messaging (images, videos, documents)",
-        "Automated customer support chatbots",
-        "Broadcast messaging to customer lists",
-        "Message templates for quick responses"
-      ]
-    },
-    "aiSupport": {
-      "title": "AI Support",
-      "headline": "Intelligent Customer Support Automation",
-      "description": "Automate up to 80% of customer inquiries with AI that learns from your business and provides accurate, helpful responses.",
-      "features": [
-        "Natural language processing for accurate responses",
-        "Machine learning that improves over time",
-        "Seamless handoff to human agents",
-        "Multi-platform deployment",
-        "Custom training on your business data"
-      ]
-    },
-    "cta": {
-      "title": "Ready to Transform Your Communication?",
-      "description": "Join thousands of businesses already using Seasalt.ai to deliver exceptional customer experiences and drive growth.",
-      "signUp": "Get Started Free",
-      "bookDemo": "Book a Demo"
-    }
-  },
-  "howItWorks": {
-    "title": "Get Started in 3 Simple Steps",
-    "subtitle": "Transform your customer communications in minutes, not months. No complex setup or technical knowledge required.",
-    "steps": {
-      "connectChannels": {
-        "title": "Connect Your Channels",
-        "description": "Link your phone, WhatsApp, SMS, website chat, and social media in minutes. No technical expertise required."
-      },
-      "automateWork": {
-        "title": "Automate Routine Work",
-        "description": "Set up AI to handle common questions like \"Where's my order?\" and book appointments automatically."
-      },
-      "unifyTeam": {
-        "title": "Unify Your Team",
-        "description": "Your team sees the complete conversation history when customers switch from chat to phone calls."
-      }
-    },
-    "cta": {
-      "button": "Sign Up Now",
-      "description": "Setup in under 5 minutes"
-    }
-  },
-  "comparison": {
-    "title": "Why Choose Seasalt.ai?",
-    "subtitle": "See how we compare to other platforms in the market",
-    "recommended": "Recommended",
-    "headers": {
-      "platform": "Platform",
-      "startingPrice": "Starting Price",
-      "pricingModel": "Pricing Model",
-      "unifiedVoiceDigital": "Unified Voice & Digital",
-      "aiCapabilities": "AI Capabilities",
-      "bestFor": "Best For"
-    },
-    "competitors": {
-      "seasalt": {
-        "name": "Seasalt.ai",
-        "startingPrice": "$20/agent/mo",
-        "pricingModel": "Simple Per-User",
-        "unifiedVoiceDigital": "✓ Native Voice & Chatbots",
-        "aiCapabilities": "Native Voice & Chatbots",
-        "bestFor": "SMEs & Growing Businesses",
-        "recommended": true
-      },
-      "aircall": {
-        "name": "Aircall",
-        "startingPrice": "$30/user/month",
-        "pricingModel": "Per-user",
-        "unifiedVoiceDigital": "Voice only",
-        "aiCapabilities": "Basic",
-        "bestFor": "Call centers"
-      },
-      "ringcentral": {
-        "name": "RingCentral",
-        "startingPrice": "$30/user/month",
-        "pricingModel": "Per-user",
-        "unifiedVoiceDigital": "Limited",
-        "aiCapabilities": "Basic AI Features",
-        "bestFor": "Enterprise VoIP"
-      },
-      "genesys": {
-        "name": "Genesys Cloud CX",
-        "startingPrice": "$75/agent/month",
-        "pricingModel": "Per-agent",
-        "unifiedVoiceDigital": "✓ Advanced Routing",
-        "aiCapabilities": "Advanced Automation",
-        "bestFor": "Large enterprises"
-      },
-      "five9": {
-        "name": "Five9",
-        "startingPrice": "$149/agent/month",
-        "pricingModel": "Per-agent",
-        "unifiedVoiceDigital": "✓ Contact Center Focus",
-        "aiCapabilities": "Intelligent Virtual Agent",
-        "bestFor": "Call centers"
-      },
-      "googleVoice": {
-        "name": "Google Voice",
-        "startingPrice": "$10/user/month",
-        "pricingModel": "Per-user",
-        "unifiedVoiceDigital": "Voice + basic text",
-        "aiCapabilities": "None",
-        "bestFor": "Basic voice needs"
-      }
-    },
-    "cta": {
-      "button": "Get Started with Seasalt.ai"
     }
   }
 }

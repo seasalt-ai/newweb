@@ -28,14 +28,18 @@ const Header = () => {
   }, [i18n]);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  
   const location = useLocation();
-  const currentLanguage = i18n.language;
+  
+  // Normalize language code to match blog branch (en-US -> en)
+  const currentLanguage = i18n.language?.startsWith('en') ? 'en' : i18n.language;
   
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   
   const handleMouseEnter = useCallback((dropdown: string) => {
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
     }
     setOpenDropdown(dropdown);
   }, []);
@@ -46,7 +50,7 @@ const Header = () => {
     }
     hoverTimeoutRef.current = setTimeout(() => {
       setOpenDropdown(null);
-    }, 100);
+    }, 300);
   }, []);
 
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
@@ -61,7 +65,7 @@ const Header = () => {
           name: t('channels.sms.title'), 
           href: getLocalizedPath('/channels/sms'),
           icon: MessageSquare,
-          iconText: t('channels.sms.title'),
+          iconText: 'SMS',
           isParent: true
         },
         { 
@@ -234,6 +238,8 @@ const Header = () => {
                           exit={{ opacity: 0, y: -10 }}
                           transition={{ duration: 0.2 }}
                           className="absolute top-full left-0 pt-2 w-72 z-[60]"
+                          onMouseEnter={() => handleMouseEnter(item.name.toLowerCase())}
+                          onMouseLeave={handleMouseLeave}
                         >
                           <div className="bg-white rounded-md shadow-lg py-2">
                             {item.dropdown.map((subItem) => (
