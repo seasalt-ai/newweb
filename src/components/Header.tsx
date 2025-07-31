@@ -18,9 +18,9 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { industries } from '../data/industriesData';
-import { solutions } from '../data/solutionsData';
-import { products } from '../data/productsData';
+import { getIndustries } from '../data/industriesData';
+import { getSolutions } from '../data/solutionsData';
+import { getProducts } from '../data/productsData';
 import { LANGUAGE_DETAILS } from '../constants/languages';
 import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 import ProductLogoDropdown from './ProductLogoDropdown';
@@ -30,6 +30,9 @@ import LanguageSwitcher from './LanguageSwitcher';
 const Header = () => {
   const { t, i18n } = useTranslation();
   const { createLink } = useLanguageAwareLinks();
+  const industries = getIndustries(t);
+  const solutions = getSolutions(t);
+  const products = getProducts(t);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Only one dropdown open at a time
   const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);

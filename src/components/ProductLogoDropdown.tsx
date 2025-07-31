@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Home } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { products } from '../data/productsData';
+import { getProducts } from '../data/productsData';
 import { normalizeLanguage } from '../constants/languages';
 
 interface ProductLogoDropdownProps {
@@ -12,6 +12,7 @@ interface ProductLogoDropdownProps {
 
 const ProductLogoDropdown = ({ isOpen, onClose, currentLanguage = 'en' }: ProductLogoDropdownProps) => {
   const { t } = useTranslation();
+  const products = getProducts(t);
   if (!isOpen) return null;
 
   // Normalize the language to prevent race conditions with unsupported variants like 'en-US'
