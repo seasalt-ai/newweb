@@ -239,7 +239,7 @@
       "price": "$0",
       "features": {
         "diy": "DIY with product wiki",
-        "email": "Email (seachat@seasalt.ai)",
+        "email": "Email (info@seasalt.ai)",
         "chat": "or chat with customer<br />support (on this page)"
       }
     },
@@ -993,6 +993,30 @@
           "Regular security audits",
           "Data protection"
         ]
+      }
+    },
+    "channels": {
+      "title": "Connect Every Customer Channel",
+      "description": "Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Connect with customers on the world's most popular messaging platform"
+      },
+      "voice": {
+        "title": "Voice & Phone Calls",
+        "description": "Professional phone system with AI voicebot and human agent support"
+      },
+      "sms": {
+        "title": "SMS Messaging",
+        "description": "Reach customers instantly with personalized SMS campaigns"
+      },
+      "website": {
+        "title": "Website Chat Widget",
+        "description": "Turn website visitors into conversations with AI-powered chat"
+      },
+      "cta": {
+        "exploreAll": "Explore All Channels",
+        "subtitle": "See how all 9 channels work together seamlessly"
       }
     },
     "footer": {
