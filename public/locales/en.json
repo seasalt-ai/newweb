@@ -94,6 +94,95 @@
     "signUpNow": "Sign Up Now",
     "setupTime": "Setup in under 5 minutes"
   },
+  "useCases": {
+    "title": "Powerful Use Cases for Every Business Need",
+    "description": "From contact centers to marketing campaigns, see how Seasalt.ai adapts to your specific business requirements with enterprise-grade features in a simple, unified platform.",
+    "keyFeatures": "Key Features",
+    "contactCenter": {
+      "title": "Contact Center Operations",
+      "headline": "Professional Contact Center with Full Call Management",
+      "description": "Transform your business into a professional contact center with enterprise-grade features.",
+      "features": {
+        "ivr": "Advanced IVR system for call routing",
+        "recording": "Automatic call recording & transcription",
+        "voicemail": "Intelligent voicemail with notifications",
+        "analytics": "Real-time call analytics & reporting",
+        "dashboards": "Agent performance dashboards",
+        "queueManagement": "Call queue management"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "24/7 Virtual Receptionist",
+      "headline": "Never Miss a Call Again with AI-Powered Reception",
+      "description": "Deploy an intelligent voicebot that works around the clock to capture inbound calls and qualify leads.",
+      "features": {
+        "aiVoicebot": "AI voicebot answers calls 24/7",
+        "appointments": "Appointment booking & scheduling",
+        "leadQualification": "Lead qualification & routing",
+        "customGreeting": "Custom greeting & responses",
+        "handoff": "Seamless handoff to human agents",
+        "multiLanguage": "Multi-language support"
+      }
+    },
+    "smsManagement": {
+      "title": "Unified SMS Management",
+      "headline": "Manage Multiple Phone Lines & Two-Way SMS in One Platform",
+      "description": "Consolidate all your business phone lines and SMS communications into a single, powerful platform.",
+      "features": {
+        "multipleLines": "Multiple phone lines in one dashboard",
+        "twoWaySms": "Two-way SMS conversations",
+        "unifiedHistory": "SMS & call history unified",
+        "teamCollaboration": "Team collaboration on messages",
+        "automatedResponses": "Automated SMS responses",
+        "numberSupport": "Local & toll-free number support"
+      }
+    },
+    "smsMarketing": {
+      "title": "SMS Marketing Campaigns",
+      "headline": "Launch Powerful A2P SMS Campaigns with 10DLC & Toll-Free",
+      "description": "Execute professional SMS marketing campaigns with high deliverability and compliance.",
+      "features": {
+        "tenDlc": "10DLC registered campaigns",
+        "tollFree": "Toll-free & short code support",
+        "highVolume": "High-volume message delivery",
+        "analytics": "Campaign performance analytics",
+        "compliance": "Compliance & opt-out management",
+        "dripCampaigns": "Automated drip campaigns"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "WhatsApp Business Campaigns",
+      "headline": "Reach Global Customers with WhatsApp Business Platform",
+      "description": "Launch targeted WhatsApp campaigns using the official WhatsApp Business Platform.",
+      "features": {
+        "apiIntegration": "WhatsApp Business API integration",
+        "templateMessages": "Template message campaigns",
+        "automatedChatbot": "Automated chatbot responses",
+        "richMedia": "Rich media message support",
+        "globalReach": "Global customer reach",
+        "analytics": "Conversation analytics"
+      }
+    },
+    "aiSupport": {
+      "title": "Intelligent Chatbot and Voicebot AI Support",
+      "headline": "AI-Powered Customer Support That Never Sleeps",
+      "description": "Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.",
+      "features": {
+        "automated24x7": "24/7 automated customer support",
+        "multiChannel": "Multi-channel chatbot deployment",
+        "instantResponse": "Instant response to common queries",
+        "humanHandoff": "Seamless human agent handoff",
+        "continuousLearning": "Continuous learning & improvement",
+        "knowledgeBase": "Custom knowledge base integration"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business Communications?",
+      "description": "Choose the use cases that fit your business needs. Start with our free plan and scale as you grow.",
+      "signUp": "Sign Up",
+      "bookDemo": "Book A Demo"
+    }
+  },
   "seachat": {
     "common": {
       "getStarted": "Get Started Free",
