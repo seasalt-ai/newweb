@@ -231,6 +231,62 @@
       "cta": "Use Seasalt.ai to Solve This"
     }
   },
+  "supportPlan": {
+    "title": "Support Plan",
+    "priceNote": "*All prices are in US dollars",
+    "trial": {
+      "title": "Trial",
+      "price": "$0",
+      "features": {
+        "diy": "DIY with product wiki",
+        "email": "Email (seachat@seasalt.ai)",
+        "chat": "or chat with customer<br />support (on this page)"
+      }
+    },
+    "launch": {
+      "title": "Launch",
+      "startsAt": "Starts at",
+      "minPrice": "$500",
+      "upTo": "up to",
+      "maxPrice": "$10,000",
+      "duration": "per month for 3 months",
+      "description": "With the Launch Support Plan, our team is committed to providing professional guidance in the following areas:",
+      "features": {
+        "meetings": {
+          "title": "Unlimited 1-on-1 Meetings:",
+          "description": "Personalized sessions with the SeaChat team."
+        },
+        "promptTuning": {
+          "title": "Prompt Tuning:",
+          "description": "Customization for both chat and voice applications."
+        },
+        "guidance": {
+          "title": "Design and Technical Guidance:",
+          "description": "Expert advice on design and technical aspects."
+        },
+        "launchSupport": {
+          "title": "AI Agent Launch Support:",
+          "description": "Comprehensive assistance throughout the launch process."
+        },
+        "marketStrategy": {
+          "title": "Go-to-Market Strategy:",
+          "description": "Strategic planning for market entry."
+        },
+        "successfulLaunch": {
+          "title": "Successful AI Agent Launch:",
+          "description": "Achieve a successful launch within 4-6 weeks."
+        },
+        "postLaunch": {
+          "title": "Post-Launch Iteration and Improvement:",
+          "description": "Continuous enhancement based on usage and feedback."
+        },
+        "operational": {
+          "title": "Operational Stability:",
+          "description": "Establish standard operating procedures for the long-term operation of AI agents."
+        }
+      }
+    }
+  },
   "seachat": {
     "common": {
       "getStarted": "Get Started Free",
