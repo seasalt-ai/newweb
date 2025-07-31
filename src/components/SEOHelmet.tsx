@@ -1,6 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { LANGUAGE_DETAILS } from '../constants/languages';
+// Note: useTranslation not currently needed as this component handles SEO metadata
+// Most content is passed via props and brand constants should not be translated
 
 interface SEOHelmetProps {
   title: string;
