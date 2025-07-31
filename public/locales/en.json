@@ -390,6 +390,125 @@
       "seeAllComparisons": "See All Detailed Comparisons"
     }
   },
+  "industriesData": {
+    "ecommerce": {
+      "title": "E-commerce",
+      "headline": "Recover Abandoned Carts & Answer Order Questions 24/7",
+      "benefits": [
+        "Automated order status updates via WhatsApp & SMS",
+        "AI handles \"Where's my package?\" queries instantly",
+        "Recover 15%+ of abandoned carts with smart follow-ups",
+        "Shopify & Squarespace integrations included"
+      ]
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "headline": "Book Patient Appointments & Send Reminders Automatically",
+      "benefits": [
+        "HIPAA-compliant messaging across all channels",
+        "Automated appointment confirmations & reminders",
+        "AI pre-screens patient inquiries before routing",
+        "Reduce no-shows by 25% with smart notifications"
+      ]
+    },
+    "realEstate": {
+      "title": "Real Estate",
+      "headline": "Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
+      "benefits": [
+        "Instant responses to property inquiries 24/7",
+        "Automated showing appointments via AI",
+        "Lead qualification before human handoff",
+        "WhatsApp virtual tours and property photos"
+      ]
+    },
+    "restaurants": {
+      "title": "Restaurants & Hospitality",
+      "headline": "Take Reservations & Handle Orders Across All Channels",
+      "benefits": [
+        "Automated reservation booking via phone & chat",
+        "Menu questions answered instantly by AI",
+        "Order confirmations sent via SMS & WhatsApp",
+        "Handle delivery inquiries without staff interruption"
+      ]
+    },
+    "education": {
+      "title": "Education & Training",
+      "headline": "Streamline Student Communications & Course Inquiries",
+      "benefits": [
+        "Automated course enrollment and scheduling",
+        "AI handles common student questions 24/7",
+        "Parent-teacher communication via WhatsApp",
+        "Event notifications and reminders via SMS"
+      ]
+    },
+    "automotive": {
+      "title": "Automotive & Services",
+      "headline": "Book Service Appointments & Handle Customer Inquiries",
+      "benefits": [
+        "Automated service appointment booking",
+        "Vehicle maintenance reminders via SMS",
+        "AI handles parts availability questions",
+        "Service completion notifications with photos"
+      ]
+    },
+    "professional": {
+      "title": "Professional Services",
+      "headline": "Manage Client Communications & Consultation Bookings",
+      "benefits": [
+        "Automated consultation scheduling",
+        "Client intake forms via chat",
+        "Document sharing through secure channels",
+        "Follow-up reminders for appointments"
+      ]
+    },
+    "financial": {
+      "title": "Financial Services",
+      "headline": "Secure Client Communications & Appointment Management",
+      "benefits": [
+        "FINRA-compliant messaging and recording",
+        "Automated appointment confirmations",
+        "Secure document collection via chat",
+        "Client onboarding workflow automation"
+      ]
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Respond to customers 24/7"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "Outreach to customers in bulk"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilot for meetings & calls"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "AI voice agents for calls",
+      "subProducts": {
+        "tts": "Text To Speech",
+        "stt": "Speech To Text",
+        "discord": "Discord STT Bot"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "For Sales & Marketing"
+    },
+    "customerSupport": {
+      "title": "For Customer Support"
+    },
+    "aiAutomation": {
+      "title": "AI & Automation"
+    },
+    "smeOwners": {
+      "title": "For SME Owners"
+    }
+  },
   "seachat": {
     "common": {
       "getStarted": "Get Started Free",

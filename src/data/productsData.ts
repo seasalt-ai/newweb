@@ -1,4 +1,5 @@
 import { MessageSquare, Users, Video, Mic } from 'lucide-react';
+import i18n from '../i18n';
 
 export interface SubProduct {
   title: string;
@@ -13,43 +14,46 @@ export interface Product {
   icon?: any;
 }
 
-export const products: Product[] = [
+export const getProducts = (): Product[] => [
   {
-    title: 'SeaChat',
+    title: i18n.t('productsData.seachat.title'),
     href: '/seachat',
-    description: 'Respond to customers 24/7',
+    description: i18n.t('productsData.seachat.description'),
     icon: MessageSquare
   },
   {
-    title: 'SeaX',
+    title: i18n.t('productsData.seax.title'),
     href: '/seax',
-    description: 'Outreach to customers in bulk',
+    description: i18n.t('productsData.seax.description'),
     icon: Users
   },
   {
-    title: 'SeaMeet',
+    title: i18n.t('productsData.seameet.title'),
     href: 'http://meet.seasalt.ai/',
-    description: 'Copilot for meetings & calls',
+    description: i18n.t('productsData.seameet.description'),
     icon: Video
   },
   {
-    title: 'SeaVoice',
+    title: i18n.t('productsData.seavoice.title'),
     href: '/seavoice',
-    description: 'AI voice agents for calls',
+    description: i18n.t('productsData.seavoice.description'),
     icon: Mic,
     subProducts: [
       {
-        title: 'Text To Speech',
+        title: i18n.t('productsData.seavoice.subProducts.tts'),
         href: 'https://suite.seasalt.ai/tts/'
       },
       {
-        title: 'Speech To Text',
+        title: i18n.t('productsData.seavoice.subProducts.stt'),
         href: 'https://suite.seasalt.ai/stt/'
       },
       {
-        title: 'Discord STT Bot',
+        title: i18n.t('productsData.seavoice.subProducts.discord'),
         href: 'https://voice.seasalt.ai/discord/'
       }
     ]
   }
 ];
+
+// Backward compatibility export
+export const products = getProducts();
