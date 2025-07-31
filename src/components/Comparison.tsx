@@ -3,66 +3,66 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Comparison = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   
   const competitors = [
     {
       name: 'Seasalt.ai',
-      startingPrice: '$20/agent/mo',
-      pricingModel: 'Simple Per-User',
-      unifiedVoiceDigital: '✅ Yes, Native',
-      aiCapabilities: '✅ Yes, Native Voice & Chatbots',
-      bestFor: 'SMEs needing an affordable, truly all-in-one platform.',
+      startingPrice: t('comparison.competitors.seasalt.startingPrice'),
+      pricingModel: t('comparison.competitors.seasalt.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.seasalt.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.seasalt.aiCapabilities'),
+      bestFor: t('comparison.competitors.seasalt.bestFor'),
       highlight: true,
       link: null
     },
     {
       name: 'Aircall',
-      startingPrice: '$30/user/mo',
-      pricingModel: 'Per-User + Add-ons',
-      unifiedVoiceDigital: '⚠️ Voice + WhatsApp (Add-on)',
-      aiCapabilities: '⚠️ AI is a paid add-on',
-      bestFor: 'Sales teams that can afford multiple add-ons and meet the 3-user minimum.',
+      startingPrice: t('comparison.competitors.aircall.startingPrice'),
+      pricingModel: t('comparison.competitors.aircall.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.aircall.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.aircall.aiCapabilities'),
+      bestFor: t('comparison.competitors.aircall.bestFor'),
       highlight: false,
       link: `/${i18n.language}/compare/aircall-alternative`
     },
     {
       name: 'RingCentral',
-      startingPrice: '$65/agent/mo',
-      pricingModel: 'Complex Tiers',
-      unifiedVoiceDigital: '❌ Separate Products',
-      aiCapabilities: '✅ Yes (AI-powered CCaaS)',
-      bestFor: 'Large companies needing a broad UCaaS platform with a separate CCaaS.',
+      startingPrice: t('comparison.competitors.ringcentral.startingPrice'),
+      pricingModel: t('comparison.competitors.ringcentral.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.ringcentral.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.ringcentral.aiCapabilities'),
+      bestFor: t('comparison.competitors.ringcentral.bestFor'),
       highlight: false,
       link: `/${i18n.language}/compare/ringcentral-alternative`
     },
     {
       name: 'Genesys Cloud CX',
-      startingPrice: '$75/user/mo',
-      pricingModel: 'Per-User + High Minimums',
-      unifiedVoiceDigital: '✅ Yes (in higher tiers)',
-      aiCapabilities: '✅ Yes (Complex token system)',
-      bestFor: 'Large enterprises with dedicated contact center teams and budgets.',
+      startingPrice: t('comparison.competitors.genesys.startingPrice'),
+      pricingModel: t('comparison.competitors.genesys.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.genesys.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.genesys.aiCapabilities'),
+      bestFor: t('comparison.competitors.genesys.bestFor'),
       highlight: false,
       link: `/${i18n.language}/compare/genesys-alternative`
     },
     {
       name: 'Five9',
-      startingPrice: '$119/user/mo',
-      pricingModel: 'Per-User + Bundles',
-      unifiedVoiceDigital: '✅ Yes (in premium tiers)',
-      aiCapabilities: '✅ Yes (Advanced AI)',
-      bestFor: 'Large, outbound-heavy contact centers needing enterprise-grade tools.',
+      startingPrice: t('comparison.competitors.five9.startingPrice'),
+      pricingModel: t('comparison.competitors.five9.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.five9.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.five9.aiCapabilities'),
+      bestFor: t('comparison.competitors.five9.bestFor'),
       highlight: false,
       link: `/${i18n.language}/compare/five9-alternative`
     },
     {
       name: 'Google Voice',
-      startingPrice: '$10/user/mo',
-      pricingModel: 'Per-User + Workspace Fee',
-      unifiedVoiceDigital: '❌ No',
-      aiCapabilities: '❌ No (Voicemail transcription only)',
-      bestFor: 'Solopreneurs (US-only) needing a basic, separate phone number.',
+      startingPrice: t('comparison.competitors.googleVoice.startingPrice'),
+      pricingModel: t('comparison.competitors.googleVoice.pricingModel'),
+      unifiedVoiceDigital: t('comparison.competitors.googleVoice.unifiedVoiceDigital'),
+      aiCapabilities: t('comparison.competitors.googleVoice.aiCapabilities'),
+      bestFor: t('comparison.competitors.googleVoice.bestFor'),
       highlight: false,
       link: `/${i18n.language}/compare/google-voice-alternative`
     }
@@ -84,11 +84,10 @@ const Comparison = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Why Growing Businesses Choose Seasalt.ai Over the Alternatives
+            {t('comparison.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            See how we compare to other solutions. We're the only platform 
-            that delivers enterprise features with small business simplicity.
+            {t('comparison.description')}
           </p>
         </div>
 
@@ -98,12 +97,12 @@ const Comparison = () => {
             <table className="w-full min-w-[800px]">
               <thead className="bg-gray-50 text-left">
                 <tr>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">Platform</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Starting Price</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Pricing Model</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Unified Voice & Digital</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">AI Capabilities</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Best For</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.platform')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.startingPrice')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.pricingModel')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.unifiedVoiceDigital')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.aiCapabilities')}</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('comparison.table.headers.bestFor')}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
@@ -130,7 +129,7 @@ const Comparison = () => {
                         )}
                         {competitor.highlight && (
                           <span className="ml-2 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full">
-                            Recommended
+                            {t('comparison.recommended')}
                           </span>
                         )}
                       </div>
@@ -153,7 +152,7 @@ const Comparison = () => {
             to={`/${i18n.language}/compare-us-overview`}
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
-            See All Detailed Comparisons
+            {t('comparison.cta.seeAllComparisons')}
           </Link>
         </div>
       </div>

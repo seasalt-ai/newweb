@@ -1019,6 +1019,68 @@
         "subtitle": "See how all 9 channels work together seamlessly"
       }
     },
+    "comparison": {
+      "title": "Why Growing Businesses Choose Seasalt.ai Over the Alternatives",
+      "description": "See how we compare to other solutions. We're the only platform that delivers enterprise features with small business simplicity.",
+      "recommended": "Recommended",
+      "table": {
+        "headers": {
+          "platform": "Platform",
+          "startingPrice": "Starting Price",
+          "pricingModel": "Pricing Model",
+          "unifiedVoiceDigital": "Unified Voice & Digital",
+          "aiCapabilities": "AI Capabilities",
+          "bestFor": "Best For"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "$20/agent/mo",
+          "pricingModel": "Simple Per-User",
+          "unifiedVoiceDigital": "✅ Yes, Native",
+          "aiCapabilities": "✅ Yes, Native Voice & Chatbots",
+          "bestFor": "SMEs needing an affordable, truly all-in-one platform."
+        },
+        "aircall": {
+          "startingPrice": "$30/user/mo",
+          "pricingModel": "Per-User + Add-ons",
+          "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (Add-on)",
+          "aiCapabilities": "⚠️ AI is a paid add-on",
+          "bestFor": "Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+        },
+        "ringcentral": {
+          "startingPrice": "$65/agent/mo",
+          "pricingModel": "Complex Tiers",
+          "unifiedVoiceDigital": "❌ Separate Products",
+          "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
+          "bestFor": "Large companies needing a broad UCaaS platform with a separate CCaaS."
+        },
+        "genesys": {
+          "startingPrice": "$75/user/mo",
+          "pricingModel": "Per-User + High Minimums",
+          "unifiedVoiceDigital": "✅ Yes (in higher tiers)",
+          "aiCapabilities": "✅ Yes (Complex token system)",
+          "bestFor": "Large enterprises with dedicated contact center teams and budgets."
+        },
+        "five9": {
+          "startingPrice": "$119/user/mo",
+          "pricingModel": "Per-User + Bundles",
+          "unifiedVoiceDigital": "✅ Yes (in premium tiers)",
+          "aiCapabilities": "✅ Yes (Advanced AI)",
+          "bestFor": "Large, outbound-heavy contact centers needing enterprise-grade tools."
+        },
+        "googleVoice": {
+          "startingPrice": "$10/user/mo",
+          "pricingModel": "Per-User + Workspace Fee",
+          "unifiedVoiceDigital": "❌ No",
+          "aiCapabilities": "❌ No (Voicemail transcription only)",
+          "bestFor": "Solopreneurs (US-only) needing a basic, separate phone number."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "See All Detailed Comparisons"
+      }
+    },
     "footer": {
       "product": "Product",
       "company": "Company",
