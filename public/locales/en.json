@@ -189,6 +189,48 @@
     "bookingText": "to book a meeting with the SeaVoice AI agent.",
     "availability": "Available 24/7"
   },
+  "problemSolution": {
+    "title": "Losing Leads in a Maze of Apps and Inboxes?",
+    "description": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
+    "problems": {
+      "fragmented": {
+        "title": "Fragmented Conversations",
+        "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
+      },
+      "lostRevenue": {
+        "title": "Lost Revenue",
+        "description": "Missed messages after-hours and slow responses mean lost leads and frustrated customers."
+      },
+      "operational": {
+        "title": "Operational Overload",
+        "description": "Your team is stretched thin managing too many tools instead of focusing on customers."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
+      "hubTitle": "Unified Omni-Channel Hub",
+      "subtitle": "AI & Human Agents, 24/7",
+      "tabs": {
+        "support": "Support",
+        "marketing": "Marketing"
+      },
+      "features": {
+        "marketing": {
+          "title": "Copilot Your Marketing Campaigns",
+          "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+        },
+        "support": {
+          "title": "Autopilot Your Customer Support",
+          "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+        },
+        "human": {
+          "title": "Never Lose the Human Touch",
+          "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+        }
+      },
+      "cta": "Use Seasalt.ai to Solve This"
+    }
+  },
   "seachat": {
     "common": {
       "getStarted": "Get Started Free",
