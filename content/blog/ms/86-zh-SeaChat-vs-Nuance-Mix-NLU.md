@@ -1,64 +1,63 @@
 ---
-title: "Masa Depan AI Percakapan: Akankah SeaChat Menggantikan Nuance Mix NLU?"
-metatitle: "Masa Depan AI Percakapan: Akankah SeaChat Menggantikan Nuance Mix NLU?"
+title: "Masa Depan AI Perbualan: Adakah SeaChat Menggantikan Nuance Mix NLU?"
+metatitle: "Masa Depan AI Perbualan: Adakah SeaChat Menggantikan Nuance Mix NLU?"
 date: 2024-04-02T00:22:19-07:00
 lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
 draft: false
 author: Xuchen Yao
-description: Dalam bidang AI percakapan, Nuance Mix NLU populer, dan SeaChat, berdasarkan Large Language Models (LLMs), dapat menembus batasan dan menciptakan pengalaman percakapan yang lebih alami dan lancar.
+description: Dalam ruang AI perbualan, Nuance Mix NLU popular, tetapi SeaChat, berdasarkan Large Language Models (LLMs), dapat menghancurkan batasan dan menciptakan pengalaman perbualan yang lebih semula jadi dan lancar.
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags: ["SeaChat", "Alat AI", "Large Language Models", "Nuance Mix NLU", "NLU"]
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
 canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
 url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: 'Dunia AI percakapan bergema dengan inovasi. Sementara [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang ampuh untuk memahami niat pengguna, munculnya Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), sebuah platform yang dibangun di atas teknologi LLM, menampilkan potensi masa depan AI percakapan.'
+modified_date: "2025-01-30T10:00:00Z"
+summary: 'Dunia AI perbualan bergema dengan inovasi. Walaupun [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang kuat untuk memahami niat pengguna, kemunculan Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), platform berasaskan teknologi LLM, menunjukkan masa depan potensi AI perbualan.'
 ---
 
-Dunia AI percakapan bergema dengan inovasi. Sementara [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang ampuh untuk memahami niat pengguna, munculnya Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), sebuah platform yang dibangun di atas teknologi LLM, menampilkan potensi masa depan AI percakapan.
+Dunia AI perbualan bergema dengan inovasi. Walaupun [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang kuat untuk memahami niat pengguna, kemunculan Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), platform berasaskan teknologi LLM, menunjukkan masa depan potensi AI perbualan.
 
+## Nuance Mix NLU: Asas Aplikasi Perbualan
 
-## Nuance Mix NLU: Fondasi Aplikasi Percakapan
+Nuance Mix NLU adalah batu asas banyak projek AI perbualan. Keupayaannya untuk mentafsir ucapan pengguna merentasi pelbagai saluran (teks, suara) memberdayakan perniagaan untuk membangunkan chatbot dan pembantu maya yang berkesan.
 
-Nuance Mix NLU telah menjadi landasan bagi banyak proyek AI percakapan. Kemampuannya untuk menafsirkan ucapan pengguna di berbagai saluran (teks, suara) memberdayakan bisnis untuk mengembangkan chatbot dan asisten virtual yang efektif.
+- **Sokongan Omnichannel**: Nuance Mix NLU beroperasi merentasi saluran yang berbeza, memberikan fleksibiliti dalam interaksi pengguna.
+- **Pakar Industri**: Nuance mempunyai pengalaman bertahun-tahun dalam pengiktirafan pertuturan dan NLU, menawarkan penyelesaian yang teguh.
+- **Penyesuaian**: Platform membolehkan pembangun menyesuaikan enjin NLU berdasarkan keperluan dan terminologi industri tertentu. Tetapi mereka mungkin menghadapi masalah skalabiliti.
 
-- **Dukungan Omnichannel**: Nuance Mix NLU beroperasi di berbagai saluran, memberikan fleksibilitas dalam interaksi pengguna.
-- **Keahlian Industri**: Nuance memiliki pengalaman bertahun-tahun dalam pengenalan suara dan NLU, menawarkan solusi yang kuat. 
-- **Kustomisasi**: Platform ini memungkinkan pengembang untuk menyesuaikan mesin NLU berdasarkan kebutuhan dan terminologi industri tertentu. Tetapi mereka mungkin memiliki masalah skalabilitas.
+## Kelemahan Nuance Mix NLU:
 
-## Kekurangan Nuance Mix NLU:
+- **Pemahaman Bahasa Semula Jadi Terhad**: Nuance Mix NLU sering bergelut dengan memahami dan mentafsir input pengguna dengan tepat, membawa kepada kekecewaan pengalaman pengguna dan keberkesanan yang berkurangan.
+- **Proses Pembangunan Kompleks**: Membina dan menyebarkan AI perbualan dengan Nuance Mix NLU boleh menjadi membosankan dan memakan masa, memerlukan kemahiran dan kepakaran khusus.
+- **Kekurangan Skalabiliti**: Dengan pengembangan skala perniagaan dan peningkatan volum interaksi, Nuance Mix NLU mungkin bergelut untuk mengekalkan permintaan, membawa kepada masalah prestasi dan cabaran skalabiliti.
+- **Pilihan Penyesuaian Terhad**: Nuance Mix NLU menawarkan pilihan penyesuaian terhad, menjadikannya sukar untuk perniagaan menyesuaikan pengalaman perbualan dengan keperluan dan kehendak unik mereka.
 
-- **Pemahaman Bahasa Alami Terbatas**: Nuance Mix NLU sering kesulitan untuk memahami dan menafsirkan masukan pengguna secara akurat, yang menyebabkan frustrasi pengguna dan mengurangi efektivitas.
-- **Proses Pengembangan yang Kompleks**: Membangun dan menerapkan AI percakapan dengan Nuance Mix NLU bisa jadi rumit dan memakan waktu, membutuhkan keterampilan dan keahlian khusus.
-- **Kurangnya Skalabilitas**: Seiring dengan pertumbuhan bisnis dan peningkatan volume interaksi, Nuance Mix NLU mungkin kesulitan untuk memenuhi permintaan, yang menyebabkan masalah kinerja dan tantangan skalabilitas.
-- **Opsi Kustomisasi Terbatas**: Nuance Mix NLU menawarkan opsi kustomisasi terbatas, sehingga sulit bagi bisnis untuk menyesuaikan pengalaman percakapan dengan kebutuhan dan persyaratan unik mereka.
+## Kuasa LLMs: Kebangkitan SeaChat
 
-## Kekuatan LLM: Bangkitnya SeaChat
+SeaChat, didorong oleh teknologi LLM, menawarkan pendekatan unik untuk AI perbualan:
+- **Pemahaman Bahasa Semula Jadi Lanjutan (NLU)**: LLMs cemerlang dalam memahami nuansa bahasa manusia, membolehkan SeaChat menjalankan perbualan yang lebih semula jadi dan berkaitan konteks.
+- **Pembelajaran dan Penyesuaian**: SeaChat terus belajar dan menyesuaikan diri berdasarkan interaksi pengguna, meningkatkan keupayaannya untuk mengendalikan pertanyaan kompleks dari masa ke masa.
+- **Pembangunan Dipermudahkan**: Platform berasaskan LLM biasanya memerlukan kod yang kurang daripada enjin NLU tradisional, mempercepatkan penciptaan chatbot.
 
-SeaChat, didukung oleh teknologi LLM, menawarkan pendekatan unik untuk AI percakapan:
-- **Pemahaman Bahasa Alami (NLU) Tingkat Lanjut**: LLM unggul dalam memahami nuansa bahasa manusia, memungkinkan SeaChat untuk melakukan percakapan yang lebih alami dan relevan secara kontekstual.
-- **Pembelajaran dan Adaptasi**: SeaChat terus belajar dan beradaptasi berdasarkan interaksi pengguna, terus meningkatkan kemampuannya untuk menangani kueri yang kompleks.
-- **Pengembangan yang Disederhanakan**: Platform berbasis LLM biasanya membutuhkan lebih sedikit kode daripada mesin NLU tradisional, mempercepat pembuatan chatbot.
+## Gambaran Keseluruhan
 
-## Gambaran Besar
+Walaupun Nuance Mix NLU telah menjadi kuasa dominan, ada sebab untuk mempercayai bahawa pendekatan LLM SeaChat mungkin menjadi semakin menarik:
 
-Sementara Nuance Mix NLU telah menjadi kekuatan dominan, ada alasan untuk percaya bahwa pendekatan LLM SeaChat mungkin menjadi semakin menarik:
+- **Perbualan Semula Jadi**: Pengguna biasanya lebih suka chatbot yang berasa seperti perbualan semula jadi, yang merupakan kekuatan teknologi LLM.
+- **Kecekapan Pembangunan**: Kitaran pembangunan yang lebih pantas yang didorong oleh keperluan kod yang berkurangan boleh menjadi kelebihan yang ketara dalam persekitaran perniagaan yang pantas hari ini.
+- **Potensi Skalabiliti**: LLMs mungkin lebih mudah mengendalikan volum pertanyaan yang besar berbanding dengan enjin NLU tradisional.
 
-- **Percakapan Alami**: Pengguna umumnya lebih suka chatbot yang terasa seperti percakapan alami, di sinilah teknologi LLM unggul.
-- **Efisiensi Pengembangan**: Siklus pengembangan yang lebih cepat yang didorong oleh persyaratan kode yang berkurang dapat menjadi keuntungan yang signifikan dalam lingkungan bisnis yang serba cepat saat ini.
-- **Potensi Skalabilitas**: LLM dapat menangani volume kueri yang besar dengan lebih mudah daripada mesin NLU tradisional.
+## Memilih Antara Nuance Mix NLU dan SeaChat: Memilih Alat Yang Betul
 
-## Nuance Mix NLU vs. SeaChat: Memilih Alat yang Tepat
+Platform ideal untuk projek AI perbualan anda bergantung pada keperluan khusus anda:
 
-Platform ideal untuk proyek AI percakapan Anda tergantung pada kebutuhan spesifik Anda:
-
-- **Nuance Mix NLU** mungkin merupakan pilihan yang baik jika:
-  - Anda memiliki investasi yang ada di ekosistem Nuance, seperti di [Genesys Cloud](https://help.mypurecloud.com/articles/nuance-mix-integration-overview/).
-  - Anda membutuhkan keseimbangan antara pemahaman bahasa alami dan kontrol atas respons tertentu.
-- **SeaChat** bisa menjadi pesaing yang kuat jika:
-  - Alur percakapan alami dan kemudahan pengembangan adalah prioritas utama.
-  - Anda mencari solusi yang tahan masa depan dengan potensi skalabilitas tinggi.
-  - Anda bersedia untuk menjelajahi kemajuan terbaru dalam teknologi LLM.
+- **Nuance Mix NLU** mungkin menjadi pilihan yang baik jika:
+  - Anda mempunyai pelaburan sedia ada dalam ekosistem Nuance, seperti di [Genesys Cloud](https://help.mypurecloud.com/articles/nuance-mix-integration-overview/).
+  - Anda perlu mengimbangi pemahaman bahasa semula jadi dengan kawalan ke atas respons tertentu.
+- **SeaChat** mungkin menjadi pesaing yang kuat jika:
+  - Aliran perbualan semula jadi dan kemudahan pembangunan adalah keutamaan utama.
+  - Anda mencari penyelesaian yang tahan masa depan dengan potensi skalabiliti yang tinggi.
+  - Anda bersedia untuk meneroka kemajuan terkini dalam teknologi LLM.
 
 <center>
 <img height="100%" width="100%" src="/images/blog/86-zh-SeaChat-vs-Nuance-Mix-NLU/86-zh-SeaChat-vs-Nuance-Mix-NLU.png"  alt="SeaChat vs. Nuance-Mix-NLU">
@@ -66,7 +65,7 @@ Platform ideal untuk proyek AI percakapan Anda tergantung pada kebutuhan spesifi
 *SeaChat vs. Nuance Mix NLU*
 </center>
 
-Penelitian telah menunjukkan bahwa perbedaan dalam contoh pelatihan antara NLU berbasis niat/entitas dan NLU berbasis LLM adalah [dalam jutaan](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): 630.000 contoh versus hanya 32. Pengurangan drastis dalam persyaratan data pelatihan ini menghasilkan penghematan biaya yang signifikan ketika bisnis mengadopsi NLU berbasis GenAI/LLM.
+Penyelidikan telah menunjukkan bahawa perbezaan antara NLU berasaskan niat/entiti dan NLU berasaskan LLM dari segi contoh latihan adalah [dalam jutaan](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): dalam keperluan data latihan, 630,000 contoh berbanding hanya 32. Pengurangan dramatik dalam keperluan data latihan ini diterjemahkan kepada penjimatan kos yang ketara apabila perniagaan mengamalkan NLU berasaskan GenAI/LLM.
 
-## SeaChat Dapat Memberikan Pengalaman Percakapan yang Lebih Baik
-Lanskap AI percakapan terus berkembang. Sementara Nuance Mix NLU telah menjadi pemimpin, solusi berbasis LLM seperti [SeaChat](https://chat.seasalt.ai/?utm_source=blog) menampilkan masa depan di mana interaksi bahasa alami menjadi norma. Memahami perkembangan ini sangat penting untuk memilih alat yang tepat untuk perjalanan AI percakapan Anda.
+## SeaChat Boleh Memberikan Pengalaman Perbualan Yang Lebih Baik
+Landskap AI perbualan sentiasa berkembang. Walaupun Nuance Mix NLU telah menjadi pemimpin, penyelesaian berasaskan LLM seperti [SeaChat](https://chat.seasalt.ai/?utm_source=blog) menunjukkan masa depan di mana interaksi bahasa semula jadi menjadi norma. Memahami perkembangan ini adalah penting untuk memilih alat yang betul untuk perjalanan AI perbualan anda.
