@@ -3,7 +3,7 @@ title: "Paving New Paths: Why SeaChat Surpasses SAP Conversational AI in Buildin
 metatitle: "Paving New Paths: Why SeaChat Surpasses SAP Conversational AI in Building Interactive Chatbots"
 date: 2024-04-02T00:22:19-07:00
 lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+modified_date: 2025-01-27T00:00:00Z
 draft: false
 author: Xuchen Yao
 description: In the field of conversational AI, SAP Conversational AI was once popular. SeaChat, based on Large Language Models (LLMs), can break through limitations and create a more natural and fluid conversational experience.
