@@ -1,63 +1,63 @@
 ---
-title: "会話型AIの未来：SeaChatはNuance Mix NLUに取って代わるのか？"
-metatitle: "会話型AIの未来：SeaChatはNuance Mix NLUに取って代わるのか？"
+title: "会話型AIの未来：SeaChatがNuance Mix NLUに取って代わるのか？"
+metatitle: "会話型AIの未来：SeaChatがNuance Mix NLUに取って代わるのか？"
 date: 2024-04-02T00:22:19-07:00
 lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+modified_date: 2024-12-19T10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: 会話型AIの分野では、Nuance Mix NLUが人気でしたが、大規模言語モデル（LLM）に基づくSeaChatは、限界を打ち破り、より自然で流暢な会話体験を生み出すことができます。
+description: 会話型AIの分野では、Nuance Mix NLUが人気でしたが、大規模言語モデル（LLMs）ベースのSeaChatは制限を克服し、より自然で流暢な会話体験を作り出すことができます。
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags: ["SeaChat", "AIツール", "大規模言語モデル", "Nuance Mix NLU", "NLU"]
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
 canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
 url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: '会話型AIの世界はイノベーションの響きに満ちています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)はユーザーの意図を理解するための強力なツールとしてその有効性を証明してきましたが、大規模言語モデル（LLM）の登場は魅力的な代替手段を提供します。LLM技術に基づいて構築されたプラットフォームである[SeaChat](https://chat.seasalt.ai/)は、会話型AIの潜在的な未来を示しています。'
+summary: '会話型AIの世界は革新の響きで満ちています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)がユーザーの意図を理解する強力なツールとして証明されている一方で、大規模言語モデル（LLMs）の出現が魅力的な代替案を提供しています。[SeaChat](https://chat.seasalt.ai/)、LLM技術を基盤としたプラットフォームが、会話型AIの潜在的な未来を示しています。'
 ---
 
-会話型AIの世界はイノベーションの響きに満ちています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)はユーザーの意図を理解するための強力なツールとしてその有効性を証明してきましたが、大規模言語モデル（LLM）の登場は魅力的な代替手段を提供します。LLM技術に基づいて構築されたプラットフォームである[SeaChat](https://chat.seasalt.ai/)は、会話型AIの潜在的な未来を示しています。
-
+会話型AIの世界は革新の響きで満ちています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)がユーザーの意図を理解する強力なツールとして証明されている一方で、大規模言語モデル（LLMs）の出現が魅力的な代替案を提供しています。[SeaChat](https://chat.seasalt.ai/)、LLM技術を基盤としたプラットフォームが、会話型AIの潜在的な未来を示しています。
 
 ## Nuance Mix NLU：会話アプリケーションの基盤
 
-Nuance Mix NLUは、多くの会話型AIプロジェクトの基盤となってきました。さまざまなチャネル（テキスト、音声）でユーザーの発言を解釈する能力は、企業が効果的なチャットボットや仮想アシスタントを開発することを可能にします。
+Nuance Mix NLUは多くの会話型AIプロジェクトの礎石です。様々なチャネル（テキスト、音声）でのユーザー発話を解釈する能力により、企業は効果的なチャットボットと仮想アシスタントを開発できるようになります。
 
-- **オムニチャネルサポート**：Nuance Mix NLUはさまざまなチャネルで動作し、ユーザーインタラクションに柔軟性を提供します。
-- **業界の専門知識**：Nuanceは音声認識とNLUの分野で長年の経験を持ち、堅牢なソリューションを提供します。ただし、スケーラビリティの問題がある可能性があります。
+- **オムニチャネルサポート**：Nuance Mix NLUは様々なチャネルで動作し、ユーザーインタラクションに柔軟性を提供します。
+- **業界専門知識**：Nuanceは音声認識とNLUの分野で長年の経験を持ち、堅牢なソリューションを提供しています。
+- **カスタマイズ**：プラットフォームは開発者が特定の業界要件と用語に基づいてNLUエンジンをカスタマイズすることを可能にします。しかし、スケーラビリティの問題に直面する可能性があります。
 
 ## Nuance Mix NLUの欠点：
 
-- **限られた自然言語理解**：Nuance Mix NLUは、ユーザー入力を正確に理解および解釈するのに苦労することが多く、ユーザーの不満と効果の低下につながります。
-- **複雑な開発プロセス**：Nuance Mix NLUを使用して会話型AIを構築および展開することは、専門的なスキルと専門知識を必要とするため、面倒で時間がかかる場合があります。
-- **スケーラビリティの欠如**：ビジネスが拡大し、インタラクションの量が増加するにつれて、Nuance Mix NLUは需要に対応するのに苦労する可能性があり、パフォーマンスの問題とスケーラビリティの課題につながります。
-- **限られたカスタマイズオプション**：Nuance Mix NLUは限られたカスタマイズオプションを提供するため、企業が会話エクスペリエンスを独自のニーズと要件に合わせて調整することは困難です。
+- **限定的な自然言語理解**：Nuance Mix NLUはユーザー入力の正確な理解と解釈に苦労することが多く、ユーザー体験のフラストレーションと効果性の低下につながります。
+- **複雑な開発プロセス**：Nuance Mix NLUを使用した会話型AIの構築とデプロイは面倒で時間がかかり、専門的なスキルと専門知識が必要です。
+- **スケーラビリティの欠如**：ビジネススケールの拡大とインタラクション量の増加に伴い、Nuance Mix NLUは需要に追いつくのに苦労する可能性があり、パフォーマンスの問題とスケーラビリティの課題につながります。
+- **限定的なカスタマイズオプション**：Nuance Mix NLUは限定的なカスタマイズオプションを提供し、企業が会話体験を独自のニーズと要件に合わせて調整することを困難にします。
 
-## LLMの力：SeaChatの台頭
+## LLMsの力：SeaChatの台頭
 
-LLM技術を搭載したSeaChatは、会話型AIへのユニークなアプローチを提供します。
-- **高度な自然言語理解（NLU）**：LLMは人間の言語のニュアンスを理解することに優れており、SeaChatはより自然で文脈に関連した会話を行うことができます。
-- **学習と適応**：SeaChatはユーザーインタラクションに基づいて継続的に学習し、適応することで、複雑なクエリを処理する能力を常に向上させます。
-- **簡素化された開発**：LLMベースのプラットフォームは、通常、従来のNLUエンジンよりも少ないコードで済み、チャットボットの作成を加速します。
+SeaChat、LLM技術によって駆動され、会話型AIに対するユニークなアプローチを提供します：
+- **高度な自然言語理解（NLU）**：LLMsは人間の言語のニュアンスを理解することに優れており、SeaChatがより自然で文脈に関連した会話を行うことを可能にします。
+- **学習と適応**：SeaChatは継続的に学習し、ユーザーインタラクションに基づいて適応し、時間の経過とともに複雑なクエリを処理する能力を向上させます。
+- **簡素化された開発**：LLMベースのプラットフォームは通常、従来のNLUエンジンよりも少ないコードを必要とし、チャットボット作成を加速します。
 
-## 全体像
+## 全体像を見る
 
-Nuance Mix NLUは支配的な力でしたが、SeaChatのLLMアプローチがますます魅力的になる可能性があると考える理由があります。
+Nuance Mix NLUが支配的な力であった一方で、SeaChatのLLMアプローチがますます魅力的になる可能性があると信じる理由があります：
 
-- **自然な会話**：ユーザーは通常、自然な会話のように感じるチャットボットを好みます。これはLLM技術の強みです。
-- **開発効率**：コード要件の削減によって推進されるより速い開発サイクルは、今日のペースの速いビジネス環境において大きな利点となる可能性があります。
-- **スケーラビリティの可能性**：LLMは、従来のNLUエンジンよりも大量のクエリをより簡単に処理できます。
+- **自然な会話**：ユーザーは通常、自然な会話のように感じられるチャットボットを好みます。これはLLM技術の強みです。
+- **開発効率**：削減されたコード要件によって駆動されるより速い開発サイクルは、今日の高速なビジネス環境で重要な利点となる可能性があります。
+- **スケーラビリティの可能性**：LLMsは従来のNLUエンジンと比較して大量のクエリをより簡単に処理できる可能性があります。
 
-## Nuance Mix NLU vs. SeaChat：適切なツールの選択
+## Nuance Mix NLUとSeaChatの選択：適切なツールの選択
 
-会話型AIプロジェクトに最適なプラットフォームは、特定のニーズによって異なります。
+あなたの会話型AIプロジェクトの理想的なプラットフォームは、あなたの特定の要件に依存します：
 
-- **Nuance Mix NLU**は、次の場合に良い選択肢となる可能性があります。
-  - [Genesys Cloud](https://help.mypurecloud.com/articles/nuance-mix-integration-overview/)などのNuanceエコシステムに既存の投資がある場合。
-  - 自然言語理解と特定の応答の制御のバランスが必要な場合。
-- **SeaChat**は、次の場合に強力な候補となる可能性があります。
-  - 自然な会話フローと開発の容易さが最優先事項である場合。
-  - 高いスケーラビリティの可能性を秘めた将来性のあるソリューションを探している場合。
-  - LLM技術の最新の進歩を探求する意欲がある場合。
+- **Nuance Mix NLU**は以下の場合に良い選択肢かもしれません：
+  - [Genesys Cloud](https://help.mypurecloud.com/articles/nuance-mix-integration-overview/)など、Nuanceエコシステムに既存の投資がある場合。
+  - 自然言語理解と特定の応答に対する制御のバランスを取る必要がある場合。
+- **SeaChat**は以下の場合に強力な競合相手かもしれません：
+  - 自然な会話フローと開発の利便性が最優先事項である場合。
+  - 高いスケーラビリティの可能性を持つ将来性のあるソリューションを探している場合。
+  - LLM技術の最新の開発を探索する準備ができている場合。
 
 <center>
 <img height="100%" width="100%" src="/images/blog/86-zh-SeaChat-vs-Nuance-Mix-NLU/86-zh-SeaChat-vs-Nuance-Mix-NLU.png"  alt="SeaChat vs. Nuance-Mix-NLU">
@@ -65,7 +65,7 @@ Nuance Mix NLUは支配的な力でしたが、SeaChatのLLMアプローチが�
 *SeaChat vs. Nuance Mix NLU*
 </center>
 
-調査によると、意図/エンティティベースのNLUとLLMベースのNLUのトレーニング例の差は[数百万](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog)に及びます。630,000例に対し、わずか32例です。トレーニングデータ要件の大幅な削減は、企業がGenAI/LLMベースのNLUを採用する際に大幅なコスト削減につながります。
+研究によると、意図/エンティティベースのNLUとLLMベースのNLUの間のトレーニング例の違いは[数百万単位](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog)です：トレーニングデータ要件では、630,000例対わずか32例です。このトレーニングデータ要件の劇的な削減は、企業がGenAI/LLMベースのNLUを採用する際の重要なコスト削減に変換されます。
 
 ## SeaChatはより良い会話体験を提供できます
-会話型AIの状況は常に進化しています。Nuance Mix NLUはリーダーでしたが、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)のようなLLMベースのソリューションは、自然言語インタラクションが標準となる未来を示しています。これらの開発を理解することは、会話型AIの旅に適切なツールを選択するために不可欠です。
+会話型AIの風景は絶えず進化しています。Nuance Mix NLUがリーダーであった一方で、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)のようなLLMベースのソリューションは、自然言語インタラクションが標準となる未来を示しています。これらの開発を理解することは、あなたの会話型AIの旅に適したツールを選択するために重要です。
