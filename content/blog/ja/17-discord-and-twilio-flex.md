@@ -1,57 +1,55 @@
 ---
-title: "Discord (3/3): Discord & Twilio Flex: Flexコンタクトセンターを未開の領域に持ち込む"
-metatitle: "Discord (3/3): DiscordのTwilio Flexコンタクトセンター"
+title: "Discord (3/3): DiscordとTwilio Flex: Flexコンタクトセンターを未開拓の領域へ"
+metatitle: "Discord (3/3): DiscordでのTwilio Flexコンタクトセンター"
 date: 2022-06-07T12:32:24-07:00
 author: Kim Dodds
 draft: false
 image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
-description: "このブログでは、Seasalt.aiが本格的なコンタクトセンターをDiscordサーバーに統合した方法を実演します。"
-weight: 1
+description: "このブログ記事では、Seasalt.aiがDiscordサーバーに完全に機能するコンタクトセンターを統合する方法を実演します。"
 tags: ["SeaX", "Discord"]
 canonicalURL: "/blog/discord-and-twilio"
 url: "/blog/discord-and-twilio/"
 aliases:
   - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+modified_date: "2025-01-27T10:30:00Z"
 ---
 
-*これは、Discordでの顧客エンゲージメントに関する3部構成シリーズの最後の投稿です。最初のブログ[「顧客エンゲージメントの新たなフロンティア」](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)では、Discordの人気の上昇と、ブランドが独自のオンラインコミュニティを作成して参加するための新たな機会について説明しました。パート2の[「ブランド用のDiscordコミュニティとボットを作成する方法」](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)では、ブランド用のDiscordサーバーを作成する方法と、サーバーのモデレーション、お知らせ、ユーザーフィードバックなどを管理するためのボットを統合する方法について説明しました。最後に、このブログでは、Seasalt.aiが本格的なコンタクトセンターをDiscordサーバーに統合し、ブランドがプラットフォーム上の顧客ケアのあらゆる側面を処理できるようにした方法のデモンストレーションを紹介します。*
+*これは、Discordでの顧客エンゲージメントに関する3部構成シリーズの最終記事です。最初のブログ記事["顧客エンゲージメントの新フロンティア"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)では、Discordの人気の高まりと、ブランドが独自のオンラインコミュニティを作成し、それらと関わる新しい機会について議論しました。第2部["ブランドのためのDiscordコミュニティとボットの作成方法"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)では、ブランドのためのDiscordサーバーの作成方法と、サーバー管理、アナウンス、ユーザーフィードバックなどを管理するボットの統合方法を紹介しました。最後に、このブログ記事では、Seasalt.aiがDiscordサーバーに完全に機能するコンタクトセンターを統合し、ブランドがプラットフォーム上のカスタマーサービスのすべての側面を処理できるようにする方法を実演します。*
 
 ## 目次
-- [目次](#table-of-contents)
-- [Discordカスタマーサービスデモ](#discord-customer-service-demo)
+- [目次](#目次)
+- [Discordカスタマーサービスデモ](#discordカスタマーサービスデモ)
 - [Twilio Flex](#twilio-flex)
 - [SeaX](#seax)
-- [デモサーバー](#demo-server)
-  - [1対多のヘルプ：公式チャンネル](#1-to-many-help-official-channels)
-  - [1対1のヘルプ：カスタマーサービスエージェント](#1-to-1-help-customer-service-agent)
-    - [ナレッジベース](#knowledge-base)
-    - [ライブエージェント転送](#live-agent-transfer)
-  - [ケース管理](#case-management)
-- [技術的な詳細](#technical-deep-dive)
-  - [Flexフローの定義](#define-the-flex-flow)
-  - [カスタムチャネルの作成](#create-a-custom-channel)
-  - [より複雑なルーティングをサポートするためのHTTPサーバーの作成](#create-an-http-server-to-support-more-complex-routing)
-    - [アウトバウンドメッセージWebhook](#outbound-messages-webhook)
-    - [ボットの統合](#bot-integration)
-- [まとめ](#summary)
+- [デモサーバー](#デモサーバー)
+  - [1対多ヘルプ：公式チャンネル](#1対多ヘルプ公式チャンネル)
+  - [1対1ヘルプ：カスタマーサービスエージェント](#1対1ヘルプカスタマーサービスエージェント)
+    - [ナレッジベース](#ナレッジベース)
+    - [ライブエージェント転送](#ライブエージェント転送)
+  - [ケース管理](#ケース管理)
+- [技術的詳細](#技術的詳細)
+  - [Flexフローの定義](#flexフローの定義)
+  - [カスタムチャンネルの作成](#カスタムチャンネルの作成)
+  - [より複雑なルーティングをサポートするHTTPサーバーの作成](#より複雑なルーティングをサポートするhttpサーバーの作成)
+    - [送信メッセージWebhook](#送信メッセージwebhook)
+    - [ボット統合](#ボット統合)
+- [まとめ](#まとめ)
 
 # Discordカスタマーサービスデモ
-すぐに最終製品をご覧になりたい場合は、まず最終的なデモビデオをご覧ください。
+最終製品をすぐに見たい場合は、まず最終デモビデオをお見せします：
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/iUK4YkGYI6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-
-私たちの目標は、Discordを既存のカスタマーサービスソフトウェア（この場合は[Twilio Flex](https://flex.twilio.com/)）に統合して、ブランドの公式サーバーに付加価値を付ける方法を示すことです。実装の詳細については、引き続きお読みください。
+私たちの目標は、Discordを既存のカスタマーサービスソフトウェア（この場合は[Twilio Flex](https://flex.twilio.com/)）に統合して、ブランドの公式サーバーに追加価値を提供する方法を実演することです。実装の詳細な理解のために、読み続けてください。
 
 # Twilio Flex
-Twilioは、テキストメッセージ、電話、メール、チャットメッセージなどを管理するためのAPIを提供する、定評のある通信会社です。FlexはTwilioの主力製品の1つです。あらゆるソースからのメッセージや通話を仮想エージェントやライブエージェントにルーティングする、スケーラブルなクラウドベースのコンタクトセンターです。Facebook、SMS、WhatsAppなど、さまざまなチャネルをすでに優れたサポートしているため、コンタクトセンター統合の基盤としてFlexを選択しました。
+Twilioは、SMS、電話、メール、チャットメッセージなどを管理するためのAPIを提供する成熟した通信会社です。FlexはTwilioの主力製品の1つで、任意のソースからのメッセージとコールを仮想エージェントとライブエージェントにルーティングするスケーラブルなクラウドベースのコンタクトセンターです。Flexをコンタクトセンター統合の基盤として選択したのは、Facebook、SMS、WhatsAppなどの様々なチャンネルに対して既に優れたサポートを提供しているためです。
 
 # SeaX
-SeaXは、生産性と顧客満足度を向上させるのに役立つ高度なAI機能を深く統合したクラウドコンタクトセンターです。SeaXはSeasalt.aiの主力製品の1つであり、すでに150か国以上のクライアントに展開されています。SeaXコンタクトセンタープラットフォームはTwilio Flex上に構築されており、ライブエージェントが顧客をより良く支援できるようにするさまざまな追加機能が含まれています。最も便利な機能のいくつかは、社内のテキスト読み上げと音声認識、AI搭載のナレッジベース、統合されたケース管理システムです。SeaXプラットフォームのすべての機能の詳細については、[SeaXホームページ](https://seax.seasalt.ai/?utm_source=blog/)をご覧ください。
+SeaXは、生産性と顧客満足度の向上を支援する高度なAI機能と深く統合されたクラウドコンタクトセンターです。SeaXはSeasalt.aiの主力製品の1つで、150以上の国々の顧客に展開されています。SeaXコンタクトセンタープラットフォームはTwilio Flexの上に構築されており、ライブエージェントが顧客をより良く支援できるようにする様々な追加機能を含んでいます。最も有用な機能には、内蔵のテキスト読み上げと音声認識、AI駆動のナレッジベース、統合ケース管理システムがあります。SeaXプラットフォームのすべての機能の詳細については、[SeaXホームページ](https://seax.seasalt.ai/?utm_source=blog/)をご覧ください。
 
 # デモサーバー
-次に、Discordサーバーの設定方法について説明します。デモの目的で、サーバーがPokémon Go!のようなゲームのコミュニティとして使用されるシナリオを想像しました。次の表は、Discordサーバーでデモンストレーションされた機能の一部を概説しています。
+次に、Discordサーバーの設定方法を紹介します。デモの目的で、私たちのサーバーがPokémon Go!などのゲームのコミュニティとして使用されるシナリオを想定しました。以下の表は、Discordサーバーで実演された機能の一部を概説しています。
 
 <center>
 <img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-features-2.png" alt="デモカスタマーサービスDiscordサーバーの機能概要。"/>
@@ -59,112 +57,112 @@ SeaXは、生産性と顧客満足度を向上させるのに役立つ高度なA
 *デモDiscordサーバーの機能概要。*
 </center>
 
-## 1対多のヘルプ：公式チャンネル
-サーバー内のいくつかのチャネルは、公式の管理者/開発者とプレイヤーの間に直接的なストリームを提供するように設定されています。
-**お知らせチャンネル**は、管理者とモデレーターのみが投稿でき、Twitterアカウント、ウェブサイト、またはその他の公式ソースからの（手動または自動の）投稿を含めることができます。
+## 1対多ヘルプ：公式チャンネル
+サーバー内のいくつかのチャンネルは、公式管理者/開発者とプレイヤー間の直接ストリームを提供するように設定されています。
+**アナウンスチャンネル**は管理者とモデレーターのみが投稿でき、Twitterアカウント、ウェブサイト、その他の公式ソースからの（手動または自動）投稿を含むことができます。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-announcement-channel.jpg" alt="Discordサーバーのお知らせチャンネル。公式Twitterアカウントからの投稿が掲載されています。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-announcement-channel.jpg" alt="公式Twitterアカウントからの投稿を含むDiscordサーバーのアナウンスチャンネル。"/>
 
 *デモDiscordサーバーの#announcementsチャンネル。*
 </center>
 
-**バグ報告チャンネル**では、プレイヤーがバグやゲームを破壊する問題について話し合うことができます。管理者はこのチャンネルを監視して、ゲーム内で対処すべき問題を特定できます。さらに、ユーザーはチャンネル内から`/bug`スラッシュコマンドを使用して公式のバグ報告を送信できます。
+**バグ報告チャンネル**では、プレイヤーがバグやゲームを破綻させる問題について議論できます。管理者はこのチャンネルを密接に監視して、ゲーム内で対処すべき問題を特定できます。さらに、ユーザーはチャンネル内で`/bug`スラッシュコマンドを使用して公式バグ報告を送信できます。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-bug-report-channel.jpg" alt="Discordサーバーのバグ報告チャンネル。送信されたバグ報告が掲載されています。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-bug-report-channel.jpg" alt="送信されたバグ報告を含むDiscordサーバーのバグ報告チャンネル。"/>
 
-*デモDiscordサーバーの#bug-reportチャンネル。送信されたバグ報告が掲載されています。*
+*送信されたバグ報告を含むデモDiscordサーバーの#bug-reportチャンネル。*
 </center>
 
-**機能リクエストチャンネル**では、プレイヤーがゲームプレイの変更、生活の質の向上、コンテンツの追加など、ゲームに追加してほしいことについて話し合うことができます。バグリクエストチャンネルと同様に、彼らの意見はDiscordモデレーターに見てもらうことができ、`/new_feature`スラッシュコマンドを使用して公式のリクエストを送信できます。
+**機能リクエストチャンネル**では、プレイヤーがゲームプレイの変更、生活の質の向上、コンテンツの追加など、ゲームで見たい変更について議論できます。バグリクエストチャンネルと同様に、彼らの入力はDiscordモデレーターが見ることができ、`/new_feature`スラッシュコマンドを使用して公式リクエストを送信できます。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-feature-request-channel.jpg" alt="Discordサーバーの機能リクエストチャンネル。ユーザーがスラッシュコマンドを実行しています。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-feature-request-channel.jpg" alt="スラッシュコマンドを実行するユーザーを含むDiscordサーバーの機能リクエストチャンネル。"/>
 
-*デモDiscordサーバーの#feature-requestチャンネル。ユーザーがスラッシュコマンドを実行しています。*
+*スラッシュコマンドを実行するユーザーを含むデモDiscordサーバーの#feature-requestチャンネル。*
 </center>
 
-## 1対1のヘルプ：カスタマーサービスエージェント
+## 1対1ヘルプ：カスタマーサービスエージェント
 
-プレイヤーは`/helpme`スラッシュコマンドを使用して、エージェントとのダイレクトメッセージを開始できます。カスタマーサービスエージェントは、自動化（仮想エージェント）またはライブエージェントが対応できます。
+プレイヤーは`/helpme`スラッシュコマンドを使用してエージェントとのダイレクトメッセージをトリガーできます。カスタマーサービスエージェントは自動化（仮想エージェント）またはライブエージェントによって操作できます。
 
-デモでは、会社のナレッジベースを照会してユーザーに関連する記事の提案を提供する簡単なFAQボットを設定しました。ユーザーはライブエージェントをリクエストすることもでき、同じチャットでSeaXのライブエージェントに転送されます。
+デモでは、企業のナレッジベースを照会してユーザーに関連する記事の提案を提供するシンプルなFAQボットを設定しました。ユーザーはライブエージェントをリクエストすることもでき、同じチャットでSeaXのライブエージェントに転送されます。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-channel.jpg" alt="Discordサーバーのカスタマーサービスチャンネル。ユーザーがDMを開始しています。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-channel.jpg" alt="DMをトリガーするユーザーを含むDiscordサーバーのカスタマーサービスチャンネル。"/>
 
-*デモDiscordサーバーの#feature-requestチャンネル。ユーザーがDMを開始しています。*
+*DMをトリガーするユーザーを含むデモDiscordサーバーの#feature-requestチャンネル。*
 </center>
 
 ### ナレッジベース
-ユーザーが仮想サービスエージェントにクエリを送信すると、エージェントはユーザーをナレッジベースの関連記事に誘導できます。
+ユーザーが仮想サービスエージェントにクエリを送信すると、エージェントはユーザーをナレッジベースの関連記事に紹介できます。
 
 ### ライブエージェント転送
-ユーザーがボットとのダイレクトメッセージに入ると、ライブエージェントをリクエストできます。すぐにケースが作成されたこと、およびライブエージェントに転送されていることが通知されます。ライブエージェントがチャットに参加すると、通知も届きます。
+ユーザーがボットとのダイレクトメッセージに入ると、ライブエージェントをリクエストできます。彼らはすぐに、彼らのためにケースが作成され、ライブエージェントに転送されていることを通知されます。ライブエージェントがチャットに参加すると、彼らも通知を受け取ります。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-dm.jpg" alt="カスタマーサービスとのダイレクトメッセージ。KB記事の提案、ライブエージェント転送、ケース管理が特徴です。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-dm.jpg" alt="ナレッジベース記事の提案、ライブエージェント転送、ケース管理を含むカスタマーサービスとのダイレクトメッセージ。"/>
 
-*カスタマーサービスとのダイレクトメッセージ。KB記事の提案、ライブエージェント転送、ケース管理が特徴です。*
+*ナレッジベース記事の提案、ライブエージェント転送、ケース管理を含むカスタマーサービスとのダイレクトメッセージ。*
 </center>
 
-バックエンドでは、ライブエージェントはすべてのチャネル（SMS、Facebook、Discord、音声通話など）からの着信通話とチャットメッセージを単一のプラットフォームで処理できます。この場合、バックエンドプラットフォームはSeaXです。
+バックエンドでは、ライブエージェントはすべてのチャンネル（SMS、Facebook、Discord、音声通話など）からの着信コールとチャットメッセージを1つのプラットフォームで処理できます。この場合、バックエンドプラットフォームはSeaXです。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-channel.jpg" alt="Discord上のユーザーとの会話のライブエージェントのビューを表示するSeaXインターフェース。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-channel.jpg" alt="Discordユーザーと会話するライブエージェントのビューを示すSeaXインターフェース。"/>
 
-*Discord上のユーザーとの会話のライブエージェントのビューを表示するSeaXインターフェース。*
+*Discordユーザーと会話するライブエージェントのビューを示すSeaXインターフェース。*
 </center>
 
 ## ケース管理
-このデモで強調したかった機能の1つは、ケース管理です。Seasalt.aiのDiscordソリューションは、SeaXケース管理システムと統合して、ユーザーからのさまざまなケースを適切に追跡します。ユーザーがDiscordボットと対話する（ライブエージェントをリクエストしたり、バグを報告したりするなど）と、自動的に新しいケースを開き、ユーザーと彼らが経験している問題に関するすべての重要な情報を記録できます。これにより、ライブエージェントは報告されたすべての問題に簡単にアクセスでき、ケースが解決されるまでユーザーをフォローアップできます。
+このデモで強調したい機能の1つはケース管理です。Seasalt.aiのDiscordソリューションはSeaXケース管理システムと統合され、ユーザーの様々なケースを適切に追跡します。ユーザーがDiscordボットと対話するとき（ライブエージェントをリクエストしたりバグを報告したりするなど）、新しいケースを自動的に開き、ユーザーと彼らが経験している問題に関するすべての重要な情報を記録できます。これにより、ライブエージェントがすべての報告された問題に簡単にアクセスでき、ケースが解決されるまでユーザーを追跡することを確実にします。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-new-case.png" alt="SeaXケース管理システムで新しいケースを作成する。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-new-case.png" alt="SeaXケース管理システムで新しいケースを作成。"/>
 
-*SeaXケース管理システムで新しいケースを作成する。*
+*SeaXケース管理システムで新しいケースを作成。*
 
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-existing-case.png" alt="SeaXケース管理システムで既存のケースを表示する。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-existing-case.png" alt="SeaXケース管理システムで既存のケースを表示。"/>
 
-*SeaXケース管理システムで既存のケースを表示する。*
+*SeaXケース管理システムで既存のケースを表示。*
 
 </center>
 
-# 技術的な詳細
+# 技術的詳細
 
-これで、最終製品と、サーバーのメンバーと彼らを支援するライブエージェントが利用できるすべての機能を確認しました。しかし、全体は実際にどのように実装されたのでしょうか？前回のブログ投稿「[ブランド用のDiscordコミュニティとボットを作成する方法](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)」では、ブランド用のDiscordサーバーを作成する方法と、それを管理するためのDiscordボットを統合する方法について説明しました。このより高度なデモをサポートするために、[Seasalt.aiの会話型AIエンジンであるSeaChat](https://chat.seasalt.ai)も使用して、Discordボットがユーザーの自然言語クエリを処理できるようにする簡単なチャットボットを構築しました。
+今、最終製品とサーバーメンバーとそれらを支援するライブエージェントが利用できるすべての機能を見ました。しかし、全体が実際にどのように実装されているのでしょうか？前回のブログ記事["ブランドのためのDiscordコミュニティとボットの作成方法"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)では、ブランドのためのDiscordサーバーの作成方法とDiscordボットを統合して管理する方法を紹介しました。このより高度なデモをサポートするために、[SeaChat、Seasalt.aiの会話型AIエンジン](https://chat.seasalt.ai)も使用して、Discordボットがユーザーの自然言語クエリを処理できるシンプルなチャットボットを構築しました。
 
-SeaX側では、私たちのチームはTwilioと緊密に協力して、Twilio Flex上に構築された機能豊富なコンタクトセンターソリューションを作成しました。Twilio Flexとセットアッププロセスの詳細については、[Twilio Flexクイックスタートガイド](https://www.twilio.com/docs/flex/quickstart)をご覧ください。
+SeaX側では、私たちのチームはTwilioと密接に協力して、Twilio Flexベースの機能豊富なコンタクトセンターソリューションを作成しました。Twilio Flexとセットアッププロセスの動作についての詳細は、[Twilio Flexクイックスタートガイド](https://www.twilio.com/docs/flex/quickstart)をご覧ください。
 
-Discordサーバー、Discordボット、チャットボットを準備し、SeaXの動作インスタンスが稼働していることを確認した後、最大の課題は、ユーザー、ボット、SeaXのライブエージェントとの間でメッセージを適切にルーティングすることです。Twilioはメッセージルーティングの処理に優れているため、私たちの目標は、Discordボットサーバー内からすべてのスラッシュコマンドを処理し、その後、他のすべてのメッセージ（チャットボットやライブエージェントへのダイレクトメッセージなど）をTwilioに転送することです。
+Discordサーバー、Discordボット、チャットボットの準備ができ、適切に動作するSeaXインスタンスがあることを確認した後、最大の課題は、ユーザー、ボット、SeaXのライブエージェント間でメッセージを適切にルーティングする方法でした。Twilioはメッセージルーティングの処理に優れているため、私たちの目標はDiscordボットサーバー内のすべてのスラッシュコマンドを処理し、その後他のすべてのメッセージ（チャットボットやライブエージェントに送信されるダイレクトメッセージなど）をTwilioに転送することでした。
 
 ## Flexフローの定義
-最初のステップは、Twilioに送信するメッセージが正しい場所にルーティングされることを確認することです。ユーザーがライブエージェントをリクエストしたかどうかを最初に確認し、そうであれば次のメッセージをSeaXに転送する簡単なTwilioフローを設定しました。ユーザーがライブエージェントをリクエストしなかった場合は、メッセージをチャットボットに転送して応答を取得します。フローの設定方法の詳細については、[Twilio Studioフローのドキュメント](https://www.twilio.com/docs/studio)を参照してください。
+最初のステップは、Twilioに送信するすべてのメッセージが正しい場所にルーティングされることを確認することです。ライブエージェントをリクエストしたかどうかを最初にチェックし、そうであれば後続のメッセージをSeaXに転送するシンプルなTwilioフローを設定しました。ユーザーがライブエージェントをリクエストしなかった場合、メッセージをチャットボットに転送して応答を取得します。フローの設定方法の詳細については、[Twilio Studio Flowドキュメント](https://www.twilio.com/docs/studio)を参照してください。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-flow.png" alt="着信メッセージをチャットボットまたはSeaXにルーティングする簡単なFlex Studioフロー。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-flow.png" alt="着信メッセージをチャットボットまたはSeaXにルーティングするシンプルなFlex Studioフロー。"/>
 
-*着信メッセージをチャットボットまたはSeaXにルーティングする簡単なFlex Studioフロー。*
+*着信メッセージをチャットボットまたはSeaXにルーティングするシンプルなFlex Studioフロー。*
 </center>
 
-## カスタムチャネルの作成
-これで、着信メッセージがどのようにルーティングされるかについて、ある程度の見当がつきました。ただし、DiscordはTwilioでネイティブにサポートされているチャネルではありません。幸いなことに、Twilioには[Twilio Flexにカスタムチャットチャネルを追加する方法](https://www.twilio.com/blog/add-custom-chat-channel-twilio-flex)に関する詳細なチュートリアルがあります。Twilioで新しいカスタムチャネルを設定するためのガイドに従った後、実際にDiscordからTwilioにメッセージを転送する必要があります。
+## カスタムチャンネルの作成
+今、着信メッセージがどのようにルーティングされるかを理解しました。しかし、DiscordはTwilioによってネイティブにサポートされているチャンネルではありません。幸い、Twilioには[Twilio Flexにカスタムチャットチャンネルを追加する方法](https://www.twilio.com/blog/add-custom-chat-channel-twilio-flex)に関する詳細なチュートリアルがあります。Twilioで新しいカスタムチャンネルを設定するガイドに従った後、実際にDiscordからTwilioにメッセージを転送する必要があります。
 
-まず、Twilioクライアントを設定します。
+まずTwilioクライアントを設定します：
 
 ```python
 from twilio.rest import Client
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 ```
 
-これで、Discordから着信メッセージを受信すると、そのメッセージをTwilioクライアント経由でTwilioに転送できます。まず、ユーザーがTwilioシステムにすでに存在するかどうか、およびオープンなチャットチャネルがすでにあるかどうかを確認する必要があります。
+今、Discordから着信メッセージを受信すると、Twilioクライアントを介してそのメッセージをTwilioに転送できます。まず、ユーザーが既にTwilioシステムに存在し、既にオープンチャットチャンネルがあるかどうかをチェックする必要があります。
 
 ```python
-# get_userメソッドを呼び出してユーザーが存在するかどうかを確認し、存在しない場合は新しいユーザーを作成します
+# get_userメソッドを呼び出してユーザーが存在するかチェックし、存在しない場合は新しいユーザーを作成
 user = await get_user(user_id, twilio_client, TWILIO_SERVICE_SID)
 
-# ユーザーが参加しているチャネルを取得します
+# ユーザーがいるチャンネルを取得
 user_channels = twilio_client.chat \
         .services(TWILIO_SERVICE_SID) \
         .users(user_id) \
@@ -172,7 +170,7 @@ user_channels = twilio_client.chat \
         .list()
 ```
 
-ユーザーに既存のオープンなチャットチャネルがある場合は、チャット履歴にアクセスできるように、それを使用する必要があります。既存のチャットチャネルがない場合は、ユーザー用に新しいチャネルを作成します。
+ユーザーに既存のオープンチャットチャンネルがある場合、チャット履歴にアクセスできるようにそれを使用する必要があります。既存のチャットチャンネルがない場合、ユーザーのために新しいものを作成します：
 
 ```python
 if user_channels:
@@ -183,14 +181,14 @@ else:
             .create(
                 flex_flow_sid=FLEX_FLOW_ID,
                 chat_user_friendly_name=username,
-                chat_friendly_name=chat_name,  # -> チャットチャネルのフレンドリ名
-                target=conversation_id,  # -> チャットユーザーを一意に識別するID
-                identity=conversation_id,  # -> ユーザー、例/ Discord DM ID
+                chat_friendly_name=chat_name,  # -> チャットチャンネルのフレンドリ名
+                target=conversation_id,  # -> チャットユーザーアイデンティティを一意に識別するID
+                identity=conversation_id,  # -> ユーザー、例：/ Discord DM ID
         )
     channel_sid = channel.sid
 ```
 
-最後に、DiscordユーザーとTwilioの間にオープンなチャットチャネルができたら、着信メッセージをTwilio Studioフローに転送できます。
+最後に、DiscordユーザーとTwilioの間にオープンチャットチャンネルを確立すると、着信メッセージをTwilio Studioフローに転送できます。
 
 ```python
 message = twilio_client.chat \
@@ -201,19 +199,19 @@ message = twilio_client.chat \
             body=message_text,
             from_=user_id,
             x_twilio_webhook_enabled='true',
-            attributes=json.dumps(message_json)  # 後でアクセスできるようにヘッダーを属性として送信します
+            attributes=json.dumps(message_json)  # 後でアクセスできるようにヘッダーを属性として送信
         )
 ```
-これで、Discordユーザーからのすべての着信メッセージをTwilio Flexフローに直接転送できるようになりました。Discordボット側では、すべてのダイレクトメッセージがTwilioに転送されていることを確認してください。これで、Discordボットにダイレクトメッセージを送信してみると、Twilio Studioフローのログに表示されるはずです。ただし、まだ完了ではありません。
+今、Discordユーザーからの着信メッセージをTwilio Flexフローに直接転送できます。Discordボット側では、すべてのダイレクトメッセージがTwilioに転送されることを確認してください。今、Discordボットにダイレクトメッセージを送信してみることができ、Twilio Studioフローログに表示されるはずです - ただし、まだ完了していません！
 
-## より複雑なルーティングをサポートするためのHTTPサーバーの作成
+## より複雑なルーティングをサポートするHTTPサーバーの作成
 
-### アウトバウンドメッセージWebhook
-これで、着信メッセージがどのようにルーティングされるかについて、ある程度の見当がつきました。ただし、まだいくつかの部分が欠けています。まず、Twilioにメッセージを送信できることはわかりましたが、Discordのユーザーにどのように応答すればよいでしょうか？Discordボットは、Discordサーバーとユーザーにメッセージを送信することを許可されている唯一のものであり、TwilioはとにかくDiscordサーバーにメッセージを返す方法を知りません。解決策は、Twilioチャットチャネルに新しいメッセージがあるたびにトリガーされるアウトバウンドメッセージWebhookを設定する必要があるということです。そのWebhook内で、Discordボットを使用してメッセージをサーバーに転送できます。
+### 送信メッセージWebhook
+今、着信メッセージがどのようにルーティングされるかを理解しました。しかし、まだいくつかの部分が不足しています。まず、今Twilioにメッセージを送信できることを知っていますが、Discordのユーザーにどのように返信しますか？私たちのDiscordボットはDiscordサーバーとユーザーにメッセージを送信する唯一の認可されたものであり、TwilioはメッセージをDiscordサーバーに戻す方法を知りません。解決策は、Twilioチャットチャンネルに新しいメッセージがあるたびにトリガーされる送信メッセージWebhookを設定する必要があることです。そのWebhookで、Discordボットを使用してメッセージをサーバーに転送できます。
 
-これを行うには、Discordボットをより堅牢なHTTPサーバーに統合します。[FastAPI](https://fastapi.tiangolo.com/)を使用して、アウトバウンドメッセージWebhookとして機能する単純なPOSTエンドポイントを設定しました。サーバーを設定し、Discordボットをその横で実行したら、POSTエンドポイントを定義できます。
+このために、Discordボットをより強力なHTTPサーバーに統合します。[FastAPI](https://fastapi.tiangolo.com/)を使用してシンプルなPOSTエンドポイントを設定し、送信メッセージWebhookとして機能させます。サーバーを設定し、Discordボットがそれと一緒に実行されると、POSTエンドポイントを定義できます。
 
-このエンドポイントは、チャットチャネルに追加されたすべての単一のメッセージを受信するため、まずSeaXからのアウトバウンドメッセージを除くすべてをフィルタリングします。次に、メッセージをどこに転送するかを知るために、メッセージ本文から正しいチャネルIDを取得する必要があります。最後に、Discordクライアントを使用してメッセージをDiscordチャネルに転送できます。
+このエンドポイントはチャットチャンネルに追加されたすべてのメッセージを受信するため、まずSeaXからの送信メッセージ以外のすべてを除外する必要があります。次に、メッセージ本文から正しいチャンネルIDを取得して、メッセージを転送する場所を知る必要があります。最後に、Discordクライアントを使用してメッセージをDiscordチャンネルに転送できます。
 
 ```python
 @app.post("/forward-to-discord", status_code=200)
@@ -221,13 +219,13 @@ async def forward_discord_message(request: Request, response: Response) -> None:
     raw_body = await request.body()
     body = urllib.parse.parse_qs(raw_body.decode())
 
-    # SDKからのメッセージのみに注意してください（Flex、その他はすべてAPIからになります）
+    # SDKからのメッセージのみに焦点を当てる（Flex、他のすべてのメッセージはAPIから来る）
     if not body.get('Source') == ['SDK']:
         return
 
-    # Flexからのメッセージには、元のメッセージのconversationIdは含まれていません
-    # GBMの会話にメッセージを返すには、convIdが必要です
-    # 前のメッセージを取得してconversationIdを抽出します
+    # Flexからのメッセージには元のメッセージのconversationIdが含まれていない
+    # GBM上の会話にメッセージを戻すためにconvIdが必要
+    # 前のメッセージを取得してconversationIdを抽出
     message = twilio_client.chat \
             .services(TWILIO_SERVICE_SID) \
             .channels(body.get("ChannelSid")[0]) \
@@ -235,15 +233,15 @@ async def forward_discord_message(request: Request, response: Response) -> None:
 
     attributes = json.loads(message.attributes)
 
-    channel = discord_client.get_channel(attributes.get(“channel”, {}).get(“id”))
+    channel = discord_client.get_channel(attributes.get("channel", {}).get("id"))
     if channel:
-        await channel.send(body.get("Body", [""])[0].get(“text”))
+        await channel.send(body.get("Body", [""])[0].get("text"))
     else:
-        logger.error(f"IDを持つDiscordチャネルが見つかりませんでした：{get_channel_id(req)}！")
+        logger.error(f"ID {get_channel_id(req)}のDiscordチャンネルが見つかりません！")
         response.status_code = 400
 ```
 
-最後に、メッセージをエンドポイントに送信するには、Twilioに新しいWebhookが何であるかを知らせる必要があります。各チャットチャネルには、独自のWebhookが設定されている必要があります。したがって、最初にユーザー用に新しいチャットチャネルを作成した場所に戻ると、Webhookを設定するための追加のコードを追加できます。
+最後に、メッセージをエンドポイントに送信するために、Twilioに新しいWebhookが何であるかを知らせる必要があります。各チャットチャンネルは独自のWebhookを設定する必要があります。したがって、最初にユーザーのために新しいチャットチャンネルを作成した場所に戻ると、Webhookを設定するために追加のコードを追加できます：
 
 ```python
 webhook = twilio_client.chat \
@@ -258,28 +256,28 @@ configuration_url=f"{SERVER_HOST}/forward-to-discord",
         )
 ```
 
-### ボットの統合
+### ボット統合
 
-これで、SeaXからのアウトバウンドメッセージは、Discordサーバーに正しくルーティングされるはずです。しかし、チャットボットに送信されるメッセージにはまだ対処していません。Twilio Studioフローからトリガーされ、ユーザーメッセージを受信し、ボットにクエリを実行し、応答をDiscordに返す最後の エンドポイントを設定する必要があります。
+今、SeaXからの送信メッセージが正しくDiscordサーバーに戻ってルーティングされるはずです。しかし、まだチャットボットに送信されるメッセージを処理していません。Twilio Studioフローからトリガーされ、ユーザーメッセージを受信し、ボットにクエリを実行し、Discordに応答を返す最終エンドポイントを設定する必要があります。
 
 ```python
 @app.post("/chatbot-to-discord", status_code=200)
 async def receive_discord_message(request: Request, response: Response):
-    """TwilioからPOSTリクエストを受信し、ボットにクエリを実行し、応答をDiscordに返します。"""
+    """TwilioからのPOSTリクエストを受信し、ボットにクエリを実行し、Discordに応答を返す。"""
     req = await request.body()
-    # 元のメッセージ本文をtwilioコンテンツから分離します
+    # 元のメッセージ本文をtwilioコンテンツから分離
     twilio_body, original_message_body = separate_original_message_body(req.decode())
 
     bot_response = await query_bot(original_message_body, bot_info)
 
     if bot_response:
-        channel = discord_client.get_channel(original_message_body.get(“channel_id”))
+        channel = discord_client.get_channel(original_message_body.get("channel_id"))
         if channel:
             for item in bot_response:
-                await channel.send(item.get(“text”))
+                await channel.send(item.get("text"))
 ```
 
-Twilio Studioフローに、メッセージをボットにルーティングするための正しいWebhookがあることを確認してください。これで、メッセージルーティングが完了しました。この図ですべてのメッセージルーティングのトップレベルビューを確認できます。
+Twilio Studioフローがメッセージをボットにルーティングする正しいWebhookを持っていることを確認してください。今、メッセージルーティングが完了しました！この図でメッセージルーティングの全体像を見ることができます：
 
 <center>
 <img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-routing-diagram.jpg" alt="メッセージルーティング図。"/>
@@ -288,5 +286,5 @@ Twilio Studioフローに、メッセージをボットにルーティングす�
 </center>
 
 # まとめ
-まとめると、このブログシリーズでは、Discordの人気の上昇と、それがブランドにとって顧客と関わるための新しいプラットフォームとして提示する機会について説明しました。Discordの基本的な機能のいくつかについて説明し、ブランドが独自のオンラインコミュニティをどのように設定できるか、また、Discordボットを使用してサーバー上のモデレーションとカスタマーサポートを自動化できる高度な機能についても説明しました。最後に、DiscordをカスタマーサービスプラットフォームであるSeaXと統合して、ライブエージェント転送、ケース管理、AI搭載のナレッジベース検索などの高度な機能をDiscordコミュニティにもたらしたデモンストレーションを共有しました。
-個人的なデモ、またはSeasalt.aiが特定のビジネスニーズに対応する方法については、「[デモを予約する](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)」フォームにご記入ください。Flex/Discord統合の詳細またはお問い合わせについては、[Seasalt.aiのTwilioパートナーリスト](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)をご覧ください。
+まとめると、このブログシリーズでは、Discordの人気の高まりと、ブランドが顧客と対話する新しいプラットフォームとしてもたらす機会について議論しました。ブランドが独自のオンラインコミュニティを構築する方法を示すために、Discordの基本的な機能をいくつか紹介し、ブランドがDiscordボットを使用してサーバー上のモデレーションとカスタマーサービスを自動化できるより高度な機能も紹介しました。最後に、DiscordをカスタマーサービスプラットフォームSeaXと統合し、ライブエージェント転送、ケース管理、AI駆動のナレッジベース検索などの高度な機能をDiscordコミュニティにもたらす方法を共有しました。
+個人的なデモや、Seasalt.aiが特定のビジネスニーズを満たすのにどのように役立つかを学ぶために、["デモを予約"](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)フォームにご記入ください。Flex/Discord統合の詳細やお問い合わせについては、[Seasalt.aiのTwilioパートナーリスト](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)をご覧ください。
