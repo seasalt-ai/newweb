@@ -34,7 +34,7 @@ For elderly individuals living alone who need immediate support or dementia pati
 
 ### Diverse Services:
 
-With the increasing elderly population in Taiwan, providing diversified services has become an urgent need for the long-term care industry. SeaX + SeaChat supports multiple communication channels, including voice calls, text messages, and WhatsApp, and can be integrated into day care center services and emergency rescue systems, realizing personalized remote medical care, emotional companionship, and other diverse services. These functions can effectively reduce the human resource burden of long-term care institutions, ensuring that every senior receives personalized care.
+With the increasing elderly population in Taiwan, providing diversified services has become an an urgent need for the long-term care industry. SeaX + SeaChat supports multiple communication channels, including voice calls, text messages, and WhatsApp, and can be integrated into day care center services and emergency rescue systems, realizing personalized remote medical care, emotional companionship, and other diverse services. These functions can effectively reduce the human resource burden of long-term care institutions, ensuring that every senior receives personalized care.
 
 ### Human Resource Optimization:
 
