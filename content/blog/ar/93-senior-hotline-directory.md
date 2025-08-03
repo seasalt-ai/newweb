@@ -9,8 +9,8 @@ weight: 1
 tags: ["SeaChat", "SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
+canonicalURL: "/ar/blog/senior-hotline-directory/"
+url: "/ar/blog/senior-hotline-directory/"
 summary: 'مع تزايد شيخوخة المجتمع، أصبح الحصول على أرقام هواتف رعاية كبار السن وخدمات رعاية كبار السن التي يسهل الوصول إليها أمرًا بالغ الأهمية. مع تزايد عدد السكان المسنين، من الضروري وجود موارد موثوقة لتقديم المساعدة الفورية والدعم المستمر. يهدف هذا التنظيم إلى مساعدة كبار السن وعائلاتهم في العثور بسهولة على موارد الرعاية اللازمة في المدن والمقاطعات الرئيسية في تايوان.'
 ---
 

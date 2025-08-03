@@ -9,8 +9,8 @@ weight: 1
 tags: ["SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
+canonicalURL: "/ar/blog/annual-check-in-phone-use-case/"
+url: "/ar/blog/annual-check-in-phone-use-case/"
 summary: 'مع تزايد عدد السكان المسنين، تواجه مؤسسات رعاية كبار السن في جميع أنحاء العالم العديد من التحديات. خاصة في مجال الرعاية المنتظمة ومراقبة الصحة، لا يتطلب الأمر موارد بشرية كبيرة فحسب، بل غالبًا ما يؤدي الإهمال أو التأخير إلى عدم اكتشاف المشكلات المحتملة في الوقت المناسب. هذا هو التحدي الذي واجهته وكالة خدمات اجتماعية سنغافورية تتعاون مع Seasalt.ai. كانت الوكالة تجري مكالمة رعاية سنوية مع آلاف كبار السن، وهي عملية معقدة ويصعب إدارتها بكفاءة. لحل هذه المشكلة، قاموا بتقديم SeaX، الذي حسن بشكل كبير جودة وكفاءة خدمات الرعاية من خلال تقنية الذكاء الاصطناعي.'
 modified_date: "2024-08-01T12:00:00+08:00"
 ---
@@ -21,7 +21,7 @@ modified_date: "2024-08-01T12:00:00+08:00"
 
 <center>
 <a href="https://usecase.seasalt.ai/voice-for-senior-care">
-<img height="100%" width="80%" src="/images/blog/94-annual-check-in-phone-use-case/elderly-phone-call-thru-ai.jpeg"  alt="">
+<img height="100%" width="80%" src="/images/blog/94-annual-check-in-phone-use-case/elderly-phone-call-thru-ai.jpeg"  alt="رسم توضيحي لمساعد ذكاء اصطناعي يجري مكالمة هاتفية مع امرأة مسنة.">
 </a>
 </center>
 

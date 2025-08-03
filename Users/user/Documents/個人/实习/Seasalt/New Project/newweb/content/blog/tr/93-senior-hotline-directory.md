@@ -53,7 +53,7 @@ Taoyuan Sosyal İşler Departmanı hakkında daha fazla bilgi için lütfen [Tao
 
 Tainan, sağlık kontrolleri, günlük yaşam yardımı ve sosyal aktiviteler dahil olmak üzere kapsamlı yaşlı bakım hizmetleri sunmaktadır. Şehrin yaşlı yardım hattı: 06-2991111, yaşlılar için özel olarak tasarlanmış olup, 24 saat yardım ve destek sağlamaktadır.
 
-Taipei Sosyal İşler Departmanı hakkında daha fazla bilgi için lütfen [Tainan Sosyal İşler Departmanı](https://sab.tainan.gov.tw/) adresini ziyaret edin.
+Tainan Sosyal İşler Departmanı hakkında daha fazla bilgi için lütfen [Tainan Sosyal İşler Departmanı](https://sab.tainan.gov.tw/) adresini ziyaret edin.
 
 ### Kaohsiung
 Kaohsiung, yaşlı vatandaşlarının yaşam kalitesini artırmaya kararlıdır. Şehir, sağlık hizmetleri, sosyal destek ve acil yardım hattı: 07-3368333 dahil olmak üzere kapsamlı hizmetler sunmaktadır. Kaohsiung'daki yaşlılar, acil durum ihtiyaçları ve sürekli bakım için bu kaynaklara güvenebilir, uygun bakım ve desteği almalarını sağlayabilirler.

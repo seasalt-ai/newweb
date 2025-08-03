@@ -8,7 +8,7 @@ author: Xuchen Yao
 description: În domeniul AI conversaționale, Nuance Mix NLU a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă.
 weight: 1
 tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
-image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
+image: /images/blog/86-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
 canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
 url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
 summary: 'Lumea AI conversaționale este în plină inovație. Deși [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) s-a dovedit a fi un instrument puternic pentru înțelegerea intenției utilizatorului, apariția modelelor lingvistice mari (LLM-uri) oferă o alternativă convingătoare. [SeaChat](https://chat.seasalt.ai/), o platformă bazată pe tehnologia LLM, demonstrează viitorul potențial al AI conversaționale.'

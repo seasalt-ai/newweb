@@ -9,8 +9,8 @@ weight: 1
 tags: ["SeaChat", "SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
+canonicalURL: "/de/blog/senior-hotline-directory/"
+url: "/de/blog/senior-hotline-directory/"
 summary: 'Mit der Alterung der Gesellschaft wird der Zugang zu Senioren-Hotlines und zugänglichen Pflegediensten immer wichtiger. Angesichts der wachsenden Zahl älterer Menschen ist es von entscheidender Bedeutung, über zuverlässige Ressourcen für sofortige Hilfe und kontinuierliche Unterstützung zu verfügen. Diese Zusammenstellung soll es Senioren und ihren Familien erleichtern, die notwendigen Pflegeressourcen in den großen Städten und Landkreisen Taiwans zu finden.'
 modified_date: 2024-08-18T00:22:19-07:00
 ---
