@@ -1,22 +1,23 @@
 ---
-title: "SeaX + SeaChat: AI語音助理革新長者照護的智慧解決方案"
-metatitle: "SeaX + SeaChat: 透過AI語音助理革新長者照護 - 智慧關懷電話的成功應用"
+title: "SeaX + SeaChat: AI Voice Assistants Revolutionize Elderly Care"
+metatitle: "SeaX + SeaChat: Revolutionizing Elderly Care with AI Voice Assistants - Successful Application of Smart Care Calls"
 date: 2024-08-16T00:22:19-07:00
 draft: false
 author: Jun Mao
-description: "探索如何利用SeaX + SeaChat AI語音助理系統來解決台灣超高齡社會中的長者照護挑戰。了解智慧關懷電話如何提升長者的生活質量，提供即時關懷、情感陪伴及健康監測，並應對人力資源不足的問題。"
+description: "Explore how the SeaX + SeaChat AI voice assistant system can address the challenges of elderly care in Taiwan's super-aging society. Learn how smart care calls improve the quality of life for seniors, providing immediate care, emotional companionship, and health monitoring, while also addressing labor shortages."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai","ZH"]
+tags: ["SeaChat", "SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
 canonicalURL: "/blog/senior-hotline-using-voicebot/"
 url: "/blog/senior-hotline-using-voicebot/"
-summary: '隨著台灣邁向超高齡社會，長者照護 正面臨前所未有的挑戰。根據國發會 的數據顯示，2024年台灣的老年人口比例將接近20%，並預計在2025年正式邁入超高齡社會。在這樣的人口結構變化下，如何有效地提供即時關懷、多元服務，以及解決人力不足 的問題，已成為當前長照產業的三大挑戰。'
+summary: 'As Taiwan transitions into a super-aging society, elderly care faces unprecedented challenges. According to data from the National Development Council, the proportion of the elderly population in Taiwan will approach 20% by 2024, and it is expected to officially enter a super-aging society by 2025. Given this demographic shift, how to effectively provide immediate care, diverse services, and address the issue of labor shortages has become the three major challenges currently facing the long-term care industry.'
+modified_date: 2024-08-01T00:00:00Z
 ---
 
-隨著台灣邁向超高齡社會，長者照護 正面臨前所未有的挑戰。根據國發會 的數據顯示，2024年台灣的老年人口比例將接近20%，並預計在2025年正式邁入超高齡社會。在這樣的人口結構變化下，如何有效地提供即時關懷、多元服務，以及解決人力不足 的問題，已成為當前長照產業的三大挑戰。
+As Taiwan transitions into a super-aging society, elderly care faces unprecedented challenges. According to data from the National Development Council, the proportion of the elderly population in Taiwan will approach 20% by 2024, and it is expected to officially enter a super-aging society by 2025. Given this demographic shift, how to effectively provide immediate care, diverse services, and address the issue of labor shortages has become the three major challenges currently facing the long-term care industry.
 
-## AI語音助理如何提升長者照護品質
+## How AI Voice Assistants Improve the Quality of Elderly Care
 
 <br/>
 
@@ -25,42 +26,42 @@ summary: '隨著台灣邁向超高齡社會，長者照護 正面臨前所未有
 
 </center>
 
-SeaX + SeaChat 是 Seasalt.ai 推出的完整AI語音助理解決方案，專為解決長者照護 產業中的核心問題而設計。這套系統不僅可以自動外撥長者關懷電話，與長者 進行語音互動，還能夠實現定期關懷、問卷調查等多項功能，全方位提升長照服務 的質量和效率，讓我們深入了解這個創新解決方案如何應對長照產業的挑戰。
+SeaX + SeaChat is a comprehensive AI voice assistant solution launched by Seasalt.ai, specifically designed to address core issues in the elderly care industry. This system can not only automatically make care calls to seniors and interact with them verbally, but also perform regular care, surveys, and many other functions, comprehensively improving the quality and efficiency of long-term care services. Let's delve deeper into how this innovative solution addresses the challenges of the long-term care industry.
 
-### 即時關懷：
+### Immediate Care:
 
-針對需要即時支援 的獨居長者 或需特殊照護的失智症 患者，傳統的電話系統 往往無法及時回應。而SeaX + SeaChat 可以透過自動外撥長者關懷電話或訊息，例如使用老人呼叫器手機 或老人呼叫訊息，確保長者 隨時得到即時關懷 和支持。無論是日常的定期關懷，還是緊急情況下，都能迅速通知相關人員。
+For elderly individuals living alone who require immediate support or dementia patients needing special care, traditional telephone systems often cannot respond in a timely manner. SeaX + SeaChat can make automatic care calls or send messages to seniors, such as using elderly emergency phones or elderly emergency messages, ensuring that seniors receive immediate care and support at all times. Whether it's routine regular care or emergency situations, relevant personnel can be quickly notified.
 
-### 多元服務：
+### Diverse Services:
 
-隨著台灣長者 人口的增加，提供多元化的服務 已成為長照產業 的迫切需求。SeaX + SeaChat 支援多種溝通渠道，包括語音電話、簡訊和 WhatsApp，並且可以整合至日間照顧中心服務 及緊急救援系統，實現個性化的遠距醫療、情感陪伴等多樣化服務。這些功能能夠有效減輕長照機構 的人力負擔，確保每位長者 都能獲得個性化的關懷。
+With the increasing elderly population in Taiwan, providing diversified services has become an urgent need for the long-term care industry. SeaX + SeaChat supports multiple communication channels, including voice calls, text messages, and WhatsApp, and can be integrated into day care center services and emergency rescue systems to achieve personalized remote medical care, emotional companionship, and other diverse services. These functions can effectively reduce the workload of long-term care institutions and ensure that every senior receives personalized care.
 
-### 人力資源優化：
+### Human Resource Optimization:
 
-人力資源 的短缺是長照產業 面臨的另一大挑戰。透過SeaX + SeaChat，高重複性且耗時的關懷工作 得以自動化，極大地減輕志工 和醫護人員 的工作量。此外，系統內建的即時電話內容分析 功能，能有效提升溝通效率，幫助工作人員 更好地分配資源，專注於需要特別關注的個案。
+Shortage of human resources is another major challenge facing the long-term care industry. Through SeaX + SeaChat, highly repetitive and time-consuming care tasks can be automated, greatly reducing the workload of volunteers and medical staff. In addition, the system's built-in real-time call content analysis function can effectively improve communication efficiency, helping staff better allocate resources and focus on cases that require special attention.
 
-## 🇸🇬 成功案例：
+## 🇸🇬 Success Story:
 
-一個成功案例來自新加坡的某國立長照機構。該機構原本面臨著人力不足、關懷頻率低的問題。採用SeaX + SeaChat解決方案後,他們實現了以下在長照關懷品質上的改進:
+A successful case comes from a national long-term care institution in Singapore. The institution originally faced problems with insufficient manpower and low frequency of care. After adopting the SeaX + SeaChat solution, they achieved the following improvements in the quality of long-term care:
 
-- 關懷頻率從每年一次提高到每月一次
-- 24小時自動接線,確保長者隨時可以得到回應
-- 自動追蹤未接來電和未簽到的個案
-- 每年節省約一萬小時的志工電話時間
-- 志工從繁瑣的例行工作中解放,能夠專注於提供更精細的服務
+- Care frequency increased from once a year to once a month.
+- 24-hour automatic answering to ensure seniors receive a response at any time.
+- Automatic tracking of missed calls and unchecked-in cases.
+- Annual savings of approximately ten thousand hours of volunteer phone time.
+- Volunteers are freed from tedious routine tasks, allowing them to focus on providing more refined services.
 
-這個案例充分展示了AI語音助理在長者照護領域的巨大潛力。通過提供即時、個性化的關懷服務,SeaX + SeaChat不僅提高了長照服務的質量和效率,還為解決人力不足的問題提供了創新的解決方案。
+This case fully demonstrates the enormous potential of AI voice assistants in the field of elderly care. By providing immediate, personalized care services, SeaX + SeaChat has not only improved the quality and efficiency of long-term care services but also provided an innovative solution to the problem of manpower shortage.
 
-## 未來展望：
+## Future Outlook:
 
-隨著台灣老齡化問題的日益嚴重，SeaX + SeaChat 將在長者照護 中扮演越來越重要的角色。該系統不僅能夠提升服務的質量和效率，還能夠解決長照產業 面臨的人力資源 挑戰。透過科技創新，我們將在邁向超高齡社會 的道路上，為長者 提供更好、更全面的照顧。
+As Taiwan's aging problem becomes increasingly severe, SeaX + SeaChat will play an increasingly important role in elderly care. This system can not only improve the quality and efficiency of services but also address the human resource challenges faced by the long-term care industry. Through technological innovation, we will provide better and more comprehensive care for the elderly on the path to a super-aging society.
 
-## 探索更多關於 SeaX、SeaChat 和 Seasalt.ai 的資訊
+## Explore More About SeaX, SeaChat, and Seasalt.ai
 
-要了解這些 AI 驅動的解決方案如何改變老人照護，請參考以下連結：
+To learn how these AI-driven solutions are transforming elderly care, please refer to the following links:
 
-- [SeaX](https://seax.seasalt.ai/): 訂製語音機器人
-- [SeaChat](https://chat.seasalt.ai/zh-tw): 對話式 AI 助理
-- [用AI重塑長照服務](https://usecase.seasalt.ai/voice-for-senior-care): 了解更多關於長者關懷電話案例的詳細資訊
+- [SeaX](https://seax.seasalt.ai/): Custom Voice Bot
+- [SeaChat](https://chat.seasalt.ai/zh-tw): Conversational AI Assistant
+- [Reshaping Long-term Care Services with AI](https://usecase.seasalt.ai/voice-for-senior-care): Learn more about the details of the elderly care call use case.
 
-這些資源將為您提供更多有關 SeaX 和 SeaChat 如何利用AI語音助理以及全渠道智慧聯絡中心，打造更優化的自動對話系統。
+These resources will provide you with more information on how SeaX and SeaChat utilize AI voice assistants and omnichannel smart contact centers to create optimized automated dialogue systems.

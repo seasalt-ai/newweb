@@ -1,21 +1,20 @@
 ---
-title: "SeaX：年度電話檢查實例 - 為長者提供更優質的關懷服務"
-metatitle: "SeaX年度電話檢查實例：AI助理提升長者關懷服務質量"
+title: "SeaX: Annual Check-in Phone Use Case - Ensuring Better Elderly Care"
+metatitle: "SeaX Annual Check-in Phone Use Case: AI Assistant Improves Elderly Care Quality"
 date: 2024-08-20T00:22:19-07:00
 draft: false
 author: Jun Mao
-description: "探索SeaX如何通過AI技術革新長者關懷服務，解決年度電話檢查中的諸多挑戰，提升服務質量並減少志工負擔。了解SeaX的智能化解決方案如何為全球長者提供更優質的持續照護。"
+description: "Discover how SeaX revolutionizes elderly care services through AI technology, addressing numerous challenges in annual phone check-ins, improving service quality, and reducing volunteer burden. Learn how SeaX's intelligent solutions provide better and continuous care for seniors worldwide."
 weight: 1
-tags: ["SeaX", "Seasalt.ai","ZH"]
+tags: ["SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
 canonicalURL: "/blog/annual-check-in-phone-use-case/"
 url: "/blog/annual-check-in-phone-use-case/"
-summary: '面對日益增長的老齡人口，全球各地的長者照護機構正面臨諸多挑戰。尤其是在定期關懷和健康監測方面，不僅需要耗費大量的人力資源，還經常因疏忽或延誤而導致潛在問題無法及時發現。這正是與Seasalt.ai合作的某新加坡社會服務機構前所面臨的一項挑戰。該機構每年與數千名長者進行一次年度關懷電話，過程繁瑣且難以高效管理。為了解決這一問題，他們引入了SeaX，通過AI技術大幅提升了關懷服務的質量與效率。'
+summary: 'With the growing aging population, elderly care institutions worldwide face numerous challenges. Especially concerning regular care and health monitoring, which not only require significant human resources but often lead to the inability to detect potential problems in time due to neglect or delay. This is the challenge faced by a social service agency in Singapore, a partner of Seasalt.ai. The agency conducts annual phone check-ins with thousands of seniors, a process that is cumbersome and difficult to manage effectively. To address this issue, they introduced SeaX, which significantly improved the quality and efficiency of care services through AI technology.'
 ---
 
-
-面對日益增長的老齡人口，全球各地的長者照護機構正面臨諸多挑戰。尤其是在定期關懷和健康監測方面，不僅需要耗費大量的人力資源，還經常因疏忽或延誤而導致潛在問題無法及時發現。這正是與Seasalt.ai合作的某新加坡社會服務機構前所面臨的一項挑戰。該機構每年與數千名長者進行一次年度關懷電話，過程繁瑣且難以高效管理。為了解決這一問題，他們引入了SeaX，通過AI技術大幅提升了關懷服務的質量與效率。
+With the growing aging population, elderly care institutions worldwide face numerous challenges. Especially concerning regular care and health monitoring, which not only require significant human resources but often lead to the inability to detect potential problems in time due to neglect or delay. This is the challenge faced by a social service agency in Singapore, a partner of Seasalt.ai. The agency conducts annual phone check-ins with thousands of seniors, a process that is cumbersome and difficult to manage effectively. To address this issue, they introduced SeaX, which significantly improved the quality and efficiency of care services through AI technology.
 
 <br/>
 
@@ -25,35 +24,43 @@ summary: '面對日益增長的老齡人口，全球各地的長者照護機構�
 </a>
 </center>
 
-## 長照所面臨的挑戰
+## Challenges in Long-Term Care
 
-### 年度關懷頻率過低： 
-傳統上，該機構僅能夠每年與每位長者進行一次電話檢查。這樣的頻率不足以即時發現和處理潛在的健康問題或緊急情況。
-### 志工資源緊張： 
-每次年度檢查都需要大量志工投入，且往往需要志工幾乎全職進行這些工作。由於資源有限，導致服務質量難以保證。
-### 後續跟進不足： 
-在傳統的關懷模式中，如果長者錯過了電話，通常很難進行及時的後續跟進，這就可能使得一些潛在問題被忽略。
-### 服務個性化不足： 
-由於電話檢查的內容較為固定，無法根據每位長者的具體情況提供個性化的建議或關懷，導致部分需求無法得到充分滿足。
-### 緊急情況應對不及時： 
-如果長者在非檢查時間內遇到緊急情況，缺乏及時的溝通渠道，可能導致延誤處理，增加風險。
+### Too Low Frequency of Annual Check-ins:
+Traditionally, the agency could only conduct one phone check-in per year with each senior. This frequency is insufficient to quickly detect and address potential health issues or emergencies.
 
-## 解決方案：SeaX的應用
+### Pressure on Volunteer Resources:
+Each annual check-in requires a significant number of volunteers, with volunteers often having to dedicate nearly a full workday to these tasks. Due to limited resources, service quality is difficult to guarantee.
 
-### 提高關懷頻率： 
-引入SeaX後，該機構將關懷電話的頻率從每年一次提升至每月一次。這樣的高頻率檢查不僅提高了對長者的關懷度，還能夠更早發現和處理潛在問題，確保長者能夠得到更及時的照護。
-### 自動化關懷電話： 
-SeaX的AI語音助理能夠自動外撥關懷電話，這樣一來，志工不再需要耗費大量時間和精力進行重複性高的電話檢查工作。AI助理能夠以自動化的模式聯繫數千位長者，且可以根據需求進行問卷調查，進一步了解每位長者的具體需求。
-### 即時跟進與回撥： 
-如果某位長者錯過了來電，SeaX會自動進行回撥，確保每一位長者都能夠接收到關懷。同時，系統還能夠自動追蹤並排查未完成的調查，並及時通知相關人員進行跟進。
-### 個性化關懷方案： 
-通過AI技術，SeaX能夠根據每位長者的健康狀況和生活習慣，提供個性化的關懷方案，包括專屬的健康建議和提醒。
-### 緊急情況即時處理： 
-SeaX系統可以在長者遇到緊急情況時自動通知相關人員，並提供即時的支持與幫助，確保在關鍵時刻長者能夠得到必要的救助。
+### Insufficient Follow-up:
+In the traditional care model, if a senior misses a call, it is usually very difficult to conduct timely follow-up, which can lead to some potential problems being overlooked.
 
-## 成果與影響
+### Inadequate Personalization of Services:
+Since the content of phone check-ins is relatively fixed, it is not possible to provide personalized advice or care based on the specific situation of each senior, resulting in some needs not being fully met.
 
-透過SeaX，該機構不僅大幅提升了關懷服務的質量，還顯著減少了志工的工作量，使得整個系統運營更加高效。這一案例充分展示了AI技術在長者照護中的巨大潛力，通過自動化、智能化的關懷服務，讓更多的長者能夠獲得持續且個性化的照護。
+### Untimely Response to Emergencies:
+If a senior encounters an emergency outside of the check-in time, the lack of timely communication channels can lead to delayed processing and increased risks.
+
+## Solution: The SeaX Application
+
+### Increased Care Frequency:
+After the introduction of SeaX, the agency increased the frequency of care calls from once a year to once a month. This high frequency of check-ins not only improves the level of elderly care but also allows for earlier detection and addressing of potential problems, ensuring seniors receive more timely care.
+
+### Automated Care Calls:
+The SeaX AI voice assistant can automatically conduct care calls, meaning volunteers no longer need to spend a lot of time and effort on repetitive phone check-ins. The AI assistant can automatically connect with thousands of seniors and can conduct surveys as needed to better understand the specific needs of each senior.
+
+### Immediate Follow-up and Callbacks:
+If a senior misses a call, SeaX will automatically call back to ensure every senior receives care. At the same time, the system can automatically follow up and correct incomplete surveys and promptly notify relevant personnel for follow-up.
+
+### Personalized Care Plans:
+Through AI technology, SeaX can provide personalized care plans based on each senior's health status and living habits, including exclusive health advice and reminders.
+
+### Immediate Emergency Handling:
+The SeaX system can automatically notify relevant personnel when a senior encounters an emergency, providing immediate support and assistance, ensuring the senior receives the necessary help at critical moments.
+
+## Results and Impact
+
+Through SeaX, the agency not only significantly improved the quality of care services but also greatly reduced the burden on volunteers, making the entire system more efficient. This case fully demonstrates the immense potential of AI technology in elderly care, providing automated and intelligent care services, allowing more seniors to receive continuous and personalized care.
 
 <br/>
 
@@ -62,4 +69,4 @@ SeaX系統可以在長者遇到緊急情況時自動通知相關人員，並提�
 
 </center>
 
-欲了解更多關於SeaX如何變革長者照護服務的信息，請訪問[SeaX長者照護解決方案](https://usecase.seasalt.ai/voice-for-senior-care)。
+To learn more about how SeaX transforms elderly care services, visit [SeaX Elderly Care Solutions](https://usecase.seasalt.ai/voice-for-senior-care).
