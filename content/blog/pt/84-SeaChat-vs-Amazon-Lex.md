@@ -1,53 +1,53 @@
 ---
-title: "Abandone os scripts, adote o diálogo natural: Por que migrar do Amazon Lex para o SeaChat faz todo sentido"
-metatitle: "Abandone os scripts, adote o diálogo natural: Por que migrar do Amazon Lex para o SeaChat faz todo sentido"
+title: "Abandonando os Roteiros, Abraçando a Conversa Natural: Por que a Atualização do Amazon Lex para o SeaChat Faz Todo o Sentido"
+metatitle: "Abandonando os Roteiros, Abraçando a Conversa Natural: Por que a Atualização do Amazon Lex para o SeaChat Faz Todo o Sentido"
 date: 2024-04-02T00:22:19-07:00
 lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:00:00-07:00
+modified_date: 2025-08-01T00:00:00Z
 draft: false
 author: Xuchen Yao
-description: No campo da IA conversacional, o Amazon Lex já foi popular, mas o SeaChat baseado em Large Language Models (LLMs) pode superar limitações e criar uma experiência de conversa mais natural.
+description: No campo da IA conversacional, o Amazon Lex era popular, e o SeaChat, baseado em Grandes Modelos de Linguagem (LLMs), pode superar as limitações e criar uma experiência conversacional mais natural e fluida.
 weight: 1
 tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
 canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
 url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'O mundo dos chatbots está evoluindo rapidamente. Embora o Amazon Lex sempre tenha sido uma escolha popular para construir interfaces de voz e texto, uma nova onda tecnológica está se tornando protagonista: Large Language Models (LLMs). O SeaChat, uma plataforma movida por LLMs, oferece uma abordagem revolucionária para IA conversacional, deixando para trás motores baseados em regras como o Lex. Já está na hora de considerar atualizar seu chatbot?'
+summary: 'O mundo dos chatbots está evoluindo rapidamente. Embora o [Amazon Lex](https://aws.amazon.com/lex/) tenha sido uma escolha popular para construir interfaces de voz e texto, uma nova onda de tecnologia está se tornando o protagonista: os Grandes Modelos de Linguagem (LLMs). O [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma impulsionada por LLMs, oferece uma abordagem inovadora para a IA conversacional, deixando para trás os motores baseados em regras como o Lex. É hora de considerar uma atualização para o seu chatbot?'
 ---
 
-O mundo dos chatbots está evoluindo rapidamente. Embora [Amazon Lex](https://aws.amazon.com/lex/) sempre tenha sido uma escolha popular para construir interfaces de voz e texto, uma nova onda tecnológica está se tornando protagonista: Large Language Models (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma movida por LLMs, oferece uma abordagem revolucionária para IA conversacional, deixando para trás motores baseados em regras como o Lex. Já está na hora de considerar atualizar seu chatbot?
+O mundo dos chatbots está evoluindo rapidamente. Embora o [Amazon Lex](https://aws.amazon.com/lex/) tenha sido uma escolha popular para construir interfaces de voz e texto, uma nova onda de tecnologia está se tornando o protagonista: os Grandes Modelos de Linguagem (LLMs). O [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma impulsionada por LLMs, oferece uma abordagem inovadora para a IA conversacional, deixando para trás os motores baseados em regras como o Lex. É hora de considerar uma atualização para o seu chatbot?
 
-## Amazon Lex: Um sistema de chatbot preso ao passado
+## Amazon Lex: Um sistema de chatbot preso ao passado.
 
-O Amazon Lex consolidou sua posição como construtor de chatbots. Sua interface drag-and-drop e integração com outros serviços AWS o tornam uma escolha amigável. Aqui estão algumas vantagens do Lex:
+O Amazon Lex estabeleceu sua posição como uma plataforma para construir chatbots. Sua interface de arrastar e soltar e a integração com outros serviços da AWS o tornam uma opção fácil de usar. Aqui estão algumas vantagens do Lex:
 
-- **Fácil de usar**: A interface visual simplifica a criação de chatbots, minimizando a necessidade de conhecimento avançado em programação.
-- **Implantação rápida**: O Lex permite o desenvolvimento e implantação rápida de chatbots, ideal para projetos ágeis.
-- **Integração AWS**: A integração perfeita com outros serviços AWS facilita o desenvolvimento dentro do ecossistema AWS.
+- **Fácil de usar**: A interface visual simplifica a criação de chatbots, minimizando a necessidade de conhecimento de codificação.
+- **Implantação rápida**: O Lex permite o desenvolvimento e a implantação rápidos de chatbots, ideal para projetos ágeis.
+- **Integração com AWS**: A integração perfeita com outros serviços da AWS simplifica o desenvolvimento dentro do ecossistema da AWS.
 
-No entanto, o Lex também tem limitações que podem restringir as capacidades do seu chatbot:
+No entanto, o Lex também tem limitações que podem prejudicar as capacidades do seu chatbot:
 
-- **Conversas roteirizadas**: O Lex depende de intents e utterances predefinidos, resultando em fluxos de conversa rígidos e pouco naturais.
-- **NLU limitado**: Para o Lex, entender consultas complexas dos usuários e se adaptar ao contexto pode ser um desafio.
-- **Problemas de escalabilidade**: O desempenho pode cair ao processar grandes volumes de interações de usuários.
+- **Conversas roteirizadas**: O Lex depende de intenções e enunciados predefinidos, o que leva a um fluxo de conversação rígido e não natural.
+- **NLU limitado**: Para o Lex, entender consultas complexas do usuário e se adaptar ao contexto pode ser um desafio.
+- **Problemas de escalabilidade**: O desempenho pode degradar ao lidar com grandes volumes de interações do usuário.
 
-## SeaChat: Abrindo caminho para o futuro dos chatbots
+## SeaChat: Abrindo o caminho para o futuro dos chatbots
 
-O SeaChat, movido por tecnologia LLM, oferece uma mudança de paradigma na IA conversacional:
+O SeaChat, impulsionado pela tecnologia LLM, oferece uma mudança de paradigma na IA conversacional:
 
-- **Compreensão avançada de linguagem natural (NLU)**: O SeaChat se destaca em entender as nuances da linguagem humana, permitindo conversas naturais e baseadas em contexto.
-- **Aprendizado conversacional**: O SeaChat aprende e se adapta continuamente com base nas interações dos usuários, melhorando constantemente sua capacidade de lidar com consultas complexas.
-- **Experiência do usuário fluida**: Ao entender contexto e intenção, o SeaChat promove fluxos de conversa mais naturais, imitando a interação humana.
+- **Compreensão avançada da linguagem natural (NLU)**: O SeaChat se destaca na compreensão das nuances da linguagem humana, permitindo que ele conduza conversas naturais e baseadas em contexto com os usuários.
+- **Aprendizagem conversacional**: O SeaChat aprende e se adapta continuamente com base nas interações do usuário, melhorando constantemente sua capacidade de lidar com consultas complexas.
+- **Experiência do usuário perfeita**: Ao entender o contexto e a intenção, o SeaChat facilita um fluxo de conversação mais natural e humano.
 
-Por que o SeaChat é o futuro dos chatbots:
+É por isso que o SeaChat é o futuro dos chatbots:
 
-- **Conversas naturais**: Usuários querem chatbots que pareçam conversar com uma pessoa real, exatamente o que o SeaChat entrega com tecnologia LLM.
-- **Menor tempo de desenvolvimento**: Em comparação com motores baseados em regras, construir um chatbot com o SeaChat geralmente requer menos código, economizando tempo e recursos.
-- **Maior escalabilidade**: O SeaChat lida facilmente com grandes volumes de interações, garantindo operação suave mesmo em horários de pico.
+- **Conversa natural**: Os usuários anseiam por chatbots que pareçam estar conversando com uma pessoa real, e é isso que o SeaChat oferece por meio da tecnologia LLM.
+- **Tempo de desenvolvimento reduzido**: Em comparação com os motores baseados em regras, a construção de chatbots com o SeaChat requer menos código, economizando tempo e recursos.
+- **Escalabilidade crescente**: O SeaChat lida sem esforço com grandes volumes de interações do usuário, garantindo uma operação suave mesmo durante os horários de pico.
 
-## Comparação de recursos: SeaChat vs Amazon Lex
+## Comparação de recursos: SeaChat vs. Amazon Lex
 
-Vamos analisar mais a fundo a comparação entre Lex e SeaChat na tabela abaixo:
+Vamos nos aprofundar na comparação do Lex e do SeaChat por meio de uma tabela:
 
 <center>
 <img height="100%" width="100%" src="/images/blog/84-zh-SeaChat-vs-Amazon-Lex/84-zh-SeaChat-vs-Amazon-Lex.png"  alt="SeaChat vs. Amazon Lex">
@@ -55,8 +55,8 @@ Vamos analisar mais a fundo a comparação entre Lex e SeaChat na tabela abaixo:
 *SeaChat vs. Amazon Lex*
 </center>
 
-Pesquisas mostram que a diferença entre NLU baseada em intent/entidade e NLU baseada em LLM em exemplos de treinamento é de [milhões](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): em requisitos de dados de treinamento, 630.000 exemplos contra apenas 32. Essa redução drástica nos requisitos de dados de treinamento se traduz em grande economia de custos quando empresas adotam NLU baseada em GenAI/LLM.
+A pesquisa mostrou que a diferença nos exemplos de treinamento entre NLU baseado em intenção/entidade e NLU baseado em LLM é [milionária](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): 630.000 exemplos versus apenas 32. Essa redução drástica nos requisitos de dados de treinamento se traduz em economia significativa de custos quando as empresas adotam NLU baseado em GenAI/LLM.
 
-## O SeaChat pode proporcionar uma experiência conversacional melhor
+## O SeaChat pode fornecer uma melhor experiência conversacional
 
-O futuro da IA conversacional está em interações naturais e envolventes. Embora o Amazon Lex tenha cumprido seu papel, o SeaChat oferece uma abordagem revolucionária movida por LLMs. Na disputa entre plataformas de IA conversacional, o SeaChat se destaca como vencedor claro, oferecendo integração fluida, amplas opções de personalização e ferramentas analíticas integradas que superam o Amazon Lex. Pronto para liberar todo o potencial da IA conversacional? [Atualize para o SeaChat hoje](https://chat.seasalt.ai/?utm_source=blog) e revolucione o relacionamento com seus clientes. 
+O futuro da IA conversacional reside em interações naturais e envolventes. Embora o Amazon Lex tenha cumprido seu propósito, o SeaChat oferece uma abordagem revolucionária impulsionada por LLMs. Na batalha das plataformas de IA conversacional, o SeaChat surge como o claro vencedor, oferecendo integração perfeita, amplas opções de personalização e ferramentas de análise integradas, superando o Amazon Lex. Pronto para liberar todo o potencial da IA conversacional? [Atualize para o SeaChat hoje](https://chat.seasalt.ai/?utm_source=blog) para revolucionar suas interações com os clientes.

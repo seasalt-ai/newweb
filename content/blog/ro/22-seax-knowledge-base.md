@@ -2,118 +2,116 @@
 title: "SeaX KB: O bază de cunoștințe care răspunde înainte să întrebi"
 metatitle: "SeaX KB: O bază de cunoștințe care răspunde înainte să întrebi"
 date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:05:21.933Z
+modified_date: 2024-12-19T10:30:00Z
 draft: false
 author: Kim Dodds
-description: "În acest articol, vom continua subiectul integrărilor AI, prezentând baza de cunoștințe alimentată de AI a SeaX, care oferă răspunsuri sugerate în timp real."
+description: "În acest articol, vom continua să explorăm subiectul integrării AI, introducând baza de cunoștințe condusă de AI SeaX, care oferă sugestii de răspuns în timp real."
 weight: 1
 tags: ["SeaX"]
 canonicalURL: "/blog/seax-kb-a-knowledge-base/"
 url: "/blog/seax-kb-a-knowledge-base/"
 ---
 
-*În postarea noastră anterioară de pe blog, [Dă-i centrului tău de contact o voce proprie cu inteligența vocală SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/), am arătat cum motoarele interne de conversie text-vorbire și vorbire-text ale Seasalt.ai îmbunătățesc fiecare aspect al platformei SeaX. În acest articol, vom continua subiectul integrărilor AI, prezentând baza de cunoștințe alimentată de AI a SeaX, care ascultă conversațiile și oferă răspunsuri sugerate în timp real.*
+*În articolul nostru anterior de blog [Folosiți inteligența vocală SeaX pentru a da voce centrului vostru de contact](https://seasalt.ai/blog/21-seax-voice-intelligence/), am arătat cum motoarele interne de text-to-speech și speech-to-text ale Seasalt.ai îmbunătățesc diverse aspecte ale platformei SeaX. În acest articol, vom continua să explorăm subiectul integrării AI, introducând baza de cunoștințe condusă de AI SeaX, care ascultă conversațiile în timp real și oferă sugestii de răspuns.*
 
 # Cuprins
 - [Baza de cunoștințe tradițională](#the-traditional-knowledge-base)
 - [Baza de cunoștințe SeaX](#seax-knowledge-base)
-    - [Interfață de utilizator încorporată pentru agenții live](#embedded-user-interface-for-live-agents)
+    - [Interfață de utilizator integrată pentru agenții live](#embedded-user-interface-for-live-agents)
     - [Căutare rapidă și precisă](#fast-and-accurate-search)
     - [Sugestii automate în timp real](#real-time-automated-suggestions)
     - [Șabloane de răspuns](#response-templates)
-    - [Managementul bazei de cunoștințe](#kb-management)
+    - [Gestionarea bazei de cunoștințe](#kb-management)
     - [Webinar](#webinar)
 
 # Baza de cunoștințe tradițională
 
-În esență, o bază de cunoștințe (KB) este pur și simplu un depozit (în mod ideal) bine organizat și ușor de accesat de informații pentru autoservire online. Un sistem bun de KB va avea funcții precum organizarea ierarhică a conținutului, căutarea și etichetarea pentru a ajuta utilizatorii să găsească mai ușor informațiile potrivite.
+La nivel fundamental, o bază de cunoștințe (KB) este doar o (ideal) bibliotecă de informații bine organizată și ușor accesibilă pentru utilizarea self-service online. Un sistem bun de bază de cunoștințe va avea funcții precum organizarea conținutului ierarhic, căutarea și etichetarea pentru a ajuta utilizatorii să găsească mai ușor informațiile corecte.
 
-Menținerea unei baze de cunoștințe detaliate este o practică standard pentru majoritatea companiilor din zilele noastre. Fie că scopul este de a ajuta angajații să partajeze informații interne despre produsele lor, de a răspunde la întrebările potențialilor clienți, de a ajuta clienții să depaneze problemele sau toate cele de mai sus - a face informațiile cruciale accesibile atât angajaților, cât și clienților înseamnă o muncă mai eficientă și o satisfacție mai mare a clienților.
+Menținerea unei baze de cunoștințe detaliate este o practică standard pentru majoritatea companiilor de astăzi. Fie că scopul este să ajute angajații să împărtășească informații interne despre produsele lor, să răspundă la întrebările clienților potențiali, să ajute clienții să rezolve probleme, sau toate cele de mai sus - a face informațiile cheie accesibile angajaților și clienților înseamnă muncă mai eficientă și satisfacție mai mare a clienților.
 
-De obicei, o bază de cunoștințe este implementată și menținută printr-un sistem de management al conținutului sau un sistem de management al cunoștințelor. Aceste sisteme pot varia în scară, în funcție de nevoile organizației, de la un simplu manager de documente la un serviciu bogat în funcții, cu fluxuri de lucru de publicare, direcționare a publicului, instrumente de colaborare și multe altele. Deși aceste sisteme sunt versatile în diferite aspecte, ele sunt aproape întotdeauna concepute pentru a fi accesate prin interacțiunea cu o pagină web sau o aplicație. Pentru cazul specific de utilizare al unui agent de servicii pentru clienți (care folosește adesea baza de cunoștințe ca una dintre resursele lor principale pentru a ajuta clienții), este necesară o integrare strânsă cu software-ul centrului de contact pentru a permite agentului să gestioneze interogările utilizatorilor cât mai transparent posibil.
+De obicei, bazele de cunoștințe sunt implementate și menținute prin sisteme de gestionare a conținutului sau sisteme de gestionare a cunoștințelor. Aceste sisteme pot varia în funcție de nevoile organizației, de la manageri de documente simpli la servicii bogate în funcții, inclusiv fluxuri de lucru de publicare, direcționarea audienței, instrumente de colaborare și multe altele. Deși aceste sisteme sunt versatile în diferite privințe, aproape întotdeauna sunt concepute pentru a fi accesate prin interacțiunea cu pagini web sau aplicații. Pentru cazul de utilizare specific al agenților de serviciu clienți (care de obicei folosesc baza de cunoștințe ca una dintre resursele lor principale pentru a ajuta clienții), este necesară o integrare strânsă cu software-ul centrului de contact pentru a permite agenților să proceseze cât mai fără probleme interogările utilizatorilor.
 
 # Baza de cunoștințe SeaX
 
-Baza noastră de cunoștințe a fost proiectată încă din prima zi cu un caz de utilizare foarte specific în minte: serviciul pentru clienți prin voce. În timp ce majoritatea, dacă nu toate, sistemele de baze de cunoștințe existente se bazează pe navigarea prin pagini web ierarhice sau pe tastarea unei interogări de căutare, baza noastră de cunoștințe trebuia să fie mai rapidă și mai independentă, astfel încât reprezentanții serviciului pentru clienți să își poată dedica întreaga atenție clientului, răspunzând în același timp rapid la întrebări.
+Baza noastră de cunoștințe a fost concepută de la prima zi cu un caz de utilizare foarte specific în minte: serviciul clienți vocal. Deși majoritatea (dacă nu toate) sistemelor existente de bază de cunoștințe se bazează pe navigarea prin pagini web ierarhică sau introducerea de interogări de căutare, baza noastră de cunoștințe trebuie să fie mai rapidă și mai independentă pentru ca reprezentanții serviciului clienți să-și poată concentra toată atenția asupra clientului, în timp ce încă răspund rapid la întrebări.
 
-Dacă doriți să treceți direct la demonstrație, puteți viziona scurtul nostru videoclip demonstrativ SeaX KB:
+Dacă vrei să vezi direct demonstrația, poți urmări scurtul nostru videoclip de demonstrație SeaX KB:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-
-## Interfață de utilizator încorporată pentru agenții live
+## Interfață de utilizator integrată pentru agenții live
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="O primă privire asupra interfeței bazei de cunoștințe SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="Prima privire asupra interfeței bazei de cunoștințe SeaX."/>
 
-*O primă privire asupra interfeței bazei de cunoștințe SeaX.*
+*Prima privire asupra interfeței bazei de cunoștințe SeaX.*
 </center>
 
-În mod natural, deoarece motorul nostru de baze de cunoștințe a fost proiectat special pentru aplicațiile centrelor de contact, se integrează nativ cu platforma SeaX, astfel încât agenții să poată accesa baza de cunoștințe fără probleme în timp ce gestionează apeluri și mesaje. Fără comutare de ferestre, fără parcurgerea filelor, fără navigare pe pagini web imbricate.
+În mod natural, deoarece motorul nostru de bază de cunoștințe este conceput special pentru aplicațiile centrului de contact, este integrat nativ cu platforma SeaX pentru ca agenții să poată accesa baza de cunoștințe fără probleme în timp ce procesează apeluri și mesaje. Fără comutarea ferestrelor, fără răsfoirea tab-urilor, fără navigarea prin pagini web imbricate.
 
 ## Căutare rapidă și precisă
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-manual-search.png" alt="Rezultatele unei căutări manuale în baza de cunoștințe SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-manual-search.png" alt="Rezultatele căutării manuale în baza de cunoștințe SeaX."/>
 
-*Rezultatele unei căutări manuale în baza de cunoștințe SeaX.*
+*Rezultatele căutării manuale în baza de cunoștințe SeaX.*
 </center>
 
-La nivelul cel mai de bază, baza noastră de cunoștințe este alimentată de un motor de căutare extrem de rapid și precis. Folosim procesarea limbajului natural și tehnici de extragere a informațiilor de ultimă generație pentru a culege sensul din text simplu, interogări eșantion și adrese URL de asistență și pentru a potrivi declarațiile clientului cu cele mai relevante intrări din baza de cunoștințe. Motorul bazei de cunoștințe este extrem de scalabil și poate suporta miliarde de documente fără nicio modificare vizibilă a timpilor de răspuns.
+La cel mai fundamental nivel, baza noastră de cunoștințe este alimentată de un motor de căutare extrem de rapid și precis. Folosim cele mai avansate tehnici de procesare a limbajului natural și extragere a informațiilor pentru a colecta semnificație din text pur, interogări de exemplu și URL-uri de suport, și pentru a potrivi declarațiile clienților cu cele mai relevante intrări din baza de cunoștințe. Motorul bazei de cunoștințe este foarte scalabil și poate suporta miliarde de documente fără schimbări observabile în timpul de răspuns.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="Un articol din baza de cunoștințe într-o vizualizare extinsă după ce ați făcut clic pe un rezultat al căutării."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="Articolul bazei de cunoștințe în vedere extinsă după clic pe rezultatul căutării."/>
 
-*Un articol din baza de cunoștințe într-o vizualizare extinsă după ce ați făcut clic pe un rezultat al căutării.*
+*Articolul bazei de cunoștințe în vedere extinsă după clic pe rezultatul căutării.*
 </center>
 
-Pe lângă găsirea celor mai relevante documente, motorul nostru de căutare oferă și rezultate mai rafinate prin extragerea cuvintelor cheie proeminente din interogarea utilizatorului și evidențierea celor mai relevante cuvinte cheie și pasaje din fiecare intrare sugerată din baza de cunoștințe.
+Pe lângă găsirea documentelor cele mai relevante, motorul nostru de căutare oferă și rezultate mai rafinate prin extragerea cuvintelor cheie semnificative din interogările utilizatorilor și evidențierea cuvintelor cheie și paragrafelor cele mai relevante din fiecare articol sugerat din baza de cunoștințe.
 
 ## Sugestii automate în timp real
 
-Dar ceea ce am arătat până acum este încă o căutare manuală. Agenții live sunt ocupați să interacționeze cu clienții, iar tastarea manuală a unei căutări în baza de cunoștințe de fiecare dată când au nevoie de informații irosește timp prețios. Prin urmare, cea mai mare valoare adăugată pe care o aduce baza de cunoștințe SeaX este căutarea automată în timp real atât pentru interacțiunile text, cât și pentru cele vocale.
+Dar ceea ce am arătat până acum este încă căutare manuală. Agenții live sunt ocupați să interacționeze cu clienții, iar introducerea manuală a căutărilor în baza de cunoștințe de fiecare dată când au nevoie de informații irosește timp prețios. Prin urmare, cea mai mare valoare adăugată pe care o aduce baza de cunoștințe SeaX este căutarea automată în timp real pentru interacțiunile text și vocale.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="Baza de cunoștințe SeaX afișează sugestii automate de articole pentru un mesaj de utilizator primit."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="Baza de cunoștințe SeaX afișează sugestii automate de articole pentru mesajele de intrare ale utilizatorilor."/>
 
-*Baza de cunoștințe SeaX afișează sugestii automate de articole pentru un mesaj de utilizator primit.*
+*Baza de cunoștințe SeaX afișează sugestii automate de articole pentru mesajele de intrare ale utilizatorilor.*
 </center>
 
-De fiecare dată când sosește un mesaj nou de la utilizator, baza de cunoștințe este interogată automat folosind mesajul exact al clientului. În timp real, pe măsură ce clientul vorbește, agentului i se vor oferi sugestii actualizate de articole din baza de cunoștințe pentru referință.
+De fiecare dată când vine un mesaj nou de la utilizator, baza de cunoștințe interoghează automat folosind mesajul exact al clientului. În timp real, pe măsură ce clientul vorbește, agenții vor primi cele mai recente sugestii de articole din baza de cunoștințe pentru referință.
 
-Acest lucru funcționează și pentru apelurile vocale! Postarea noastră anterioară de pe blog, [Dă-i centrului tău de contact o voce proprie cu inteligența vocală SeaX](https.seasalt.ai/blog/21-seax-voice-intelligence/), a prezentat motorul de conversie vorbire-text de ultimă generație al Seasalt.ai. Platforma SeaX utilizează acest motor pentru a transcrie toate apelurile vocale în timp real. Ca rezultat, putem folosi aceste transcrieri pentru o varietate de aplicații din aval, inclusiv căutarea automată în baza de cunoștințe.
+Aceasta funcționează și pentru apelurile vocale! Articolul nostru anterior de blog [Folosiți inteligența vocală SeaX pentru a da voce centrului vostru de contact](https://seasalt.ai/blog/21-seax-voice-intelligence/) a arătat motorul cel mai avansat de speech-to-text al Seasalt.ai. Platforma SeaX folosește acel motor pentru a transcrie toate apelurile vocale în timp real. Prin urmare, putem folosi aceste transcrieri pentru diverse aplicații downstream, inclusiv căutarea automată în baza de cunoștințe.
 
 ## Șabloane de răspuns
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="Un agent răspunde unui client cu un singur clic folosind un șablon de răspuns generat de baza de cunoștințe SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="Agenții folosesc șabloane de răspuns generate de baza de cunoștințe SeaX pentru a răspunde clienților cu un clic."/>
 
-*Un agent răspunde unui client cu un singur clic folosind un șablon de răspuns generat de baza de cunoștințe SeaX.*
+*Agenții folosesc șabloane de răspuns generate de baza de cunoștințe SeaX pentru a răspunde clienților cu un clic.*
 </center>
 
-Rezultatele căutării din baza de cunoștințe vin cu o funcție suplimentară care ajută la accelerarea răspunsurilor agentului pentru interacțiunile bazate pe text. Când un agent găsește un articol relevant din baza de cunoștințe, poate pur și simplu să facă clic pe pictograma „+” din stânga titlului pentru a insera un șablon de răspuns în fereastra sa de chat. În culise, de fiecare dată când se caută în baza de cunoștințe, se generează un răspuns scris la întrebarea utilizatorului pe baza celor mai relevante informații din articolul sugerat din baza de cunoștințe și se includ orice linkuri de asistență. Acest lucru poate îmbunătăți dramatic timpul de răspuns al agentului, deoarece agentul nu mai pornește de la zero. În schimb, au deja informațiile importante din articolul bazei de cunoștințe afișate în fereastra lor de chat, așa că tot ce trebuie să facă este să editeze și să trimită.
+Rezultatele căutării din baza de cunoștințe au și o funcție suplimentară care ajută la accelerarea timpului de răspuns al agenților pentru interacțiunile bazate pe text. Când agenții găsesc un articol relevant din baza de cunoștințe, trebuie doar să dea clic pe iconița "+" din stânga titlului pentru a insera șablonul de răspuns în fereastra lor de chat. În backend, de fiecare dată când se caută în baza de cunoștințe, aceasta generează un răspuns scris la întrebarea utilizatorului bazat pe informațiile cele mai relevante din articolul sugerat din baza de cunoștințe, inclusiv orice link-uri de suport. Aceasta poate îmbunătăți semnificativ timpul de răspuns al agenților, deoarece agenții nu mai încep de la zero. În schimb, au deja informațiile importante din articolul bazei de cunoștințe afișate în fereastra lor de chat, deci trebuie doar să editeze și să trimită.
 
+## Gestionarea bazei de cunoștințe
 
-## Managementul bazei de cunoștințe
-
-Acum că am văzut de ce este capabil motorul bazei de cunoștințe, există o întrebare în suspensie despre back-end: cum sunt gestionate informațiile din baza de cunoștințe? Platforma SeaX oferă o interfață de utilizator de management al bazei de cunoștințe complet integrată, pe care administratorii o pot accesa din pagina de setări.
+Acum că am înțeles funcționalitățile motorului bazei de cunoștințe, mai rămâne o întrebare despre backend: cum se gestionează informațiile din baza de cunoștințe? Platforma SeaX oferă o interfață de utilizator complet integrată pentru gestionarea bazei de cunoștințe pe care administratorii o pot accesa din pagina de setări.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="Interfața de management a bazei de cunoștințe SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="Interfața de gestionare a bazei de cunoștințe SeaX."/>
 
-*Interfața de management a bazei de cunoștințe SeaX.*
+*Interfața de gestionare a bazei de cunoștințe SeaX.*
 </center>
 
-Pe această pagină, puteți adăuga noi intrări individuale în baza de cunoștințe sau puteți importa/exporta întreaga bază de cunoștințe folosind un fișier de calcul tabelar. Interfața acceptă, de asemenea, editarea și ștergerea intrărilor din baza de cunoștințe, astfel încât să vă puteți menține baza de cunoștințe actualizată continuu.
+Pe această pagină, puteți adăuga intrări noi individuale în baza de cunoștințe, sau puteți importa/exporta întreaga bază de cunoștințe folosind fișiere de tip spreadsheet. Interfața suportă și editarea și ștergerea intrărilor din baza de cunoștințe, astfel încât să puteți actualiza continuu baza voastră de cunoștințe.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Editarea unui singur articol din baza de cunoștințe prin interfața de management a bazei de cunoștințe SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Editarea unui articol individual din baza de cunoștințe prin interfața de gestionare SeaX."/>
 
-*Editarea unui singur articol din baza de cunoștințe prin interfața de management a bazei de cunoștințe SeaX.*
+*Editarea unui articol individual din baza de cunoștințe prin interfața de gestionare SeaX.*
 </center>
 
 ## Webinar
 
-If you want to take a deeper dive into the knowledge base system and how it integrates with the SeaX platform, watch our webinar on the topic:
+Dacă vrei să înțelegi mai în profunzime sistemul bazei de cunoștințe și cum se integrează cu platforma SeaX, urmărește webinar-ul nostru despre acest subiect:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Pentru o demonstrație individuală sau pentru a afla cum Seasalt.ai poate personaliza o soluție pentru nevoile afacerii dvs., completați [formularul nostru de programare a demonstrației](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Pentru o demonstrație personală, sau pentru a afla cum Seasalt.ai poate personaliza soluțiile în funcție de nevoile voastre de afacere, completați [formularul nostru de programare demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

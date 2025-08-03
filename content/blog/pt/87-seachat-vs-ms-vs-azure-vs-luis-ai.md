@@ -1,75 +1,75 @@
 ---
-title: "SeaChat vs. Microsoft Bot Framework e Azure Bot Service (LUIS.ai)"
-metatitle: "SeaChat vs. Microsoft Bot Framework e Azure Bot Service (LUIS.ai)"
+title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
+metatitle: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
 date: 2024-04-02T00:22:19-07:00
 lastmod: 2024-04-03T00:22:19-07:00
 draft: false
 author:  Xuchen Yao
-description: No espaço de IA conversacional, Microsoft Azure Bot Service (LUIS.ai) era popular, mas SeaChat, baseado em Large Language Models (LLMs), pode superar essas limitações e criar uma experiência de conversa mais natural e fluida.
+description: "No campo da IA conversacional, Microsoft Azure Bot Service (LUIS.ai) foi popular, mas SeaChat baseado em grandes modelos de linguagem (LLMs) pode quebrar limitações e criar uma experiência conversacional mais natural e fluida."
 weight: 1
 tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/pt/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/pt/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+modified_date: 2025-08-03T00:53:24Z
 aliases:
-  - "/pt/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'O mundo da IA conversacional está entusiasmado com as últimas notícias da parceria cada vez mais profunda entre Microsoft e OpenAI. Enquanto alguns celebram o potencial desta colaboração, também há vozes de descontentamento dentro da Microsoft. Segundo relatórios, os insiders preocupam-se que isto se desvie do desenvolvimento interno de IA para promover produtos OpenAI.
+  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+summary: 'O mundo da IA conversacional está animado com as últimas notícias sobre a parceria cada vez mais profunda da Microsoft com a OpenAI. Enquanto alguns celebram o potencial dessa colaboração, há também vozes de insatisfação dentro da Microsoft. De acordo com relatórios, pessoas internas temem que isso se desviará do desenvolvimento interno de IA para promover produtos da OpenAI.
 
-Uma área especificamente mencionada é o destino do Azure Bot Service da Microsoft.'
-modified_date: 2024-12-19T10:30:00Z
+Uma área especificamente mencionada é o destino do Microsoft Azure Bot Service.'
 ---
 
-O mundo da IA conversacional está entusiasmado com as últimas notícias da parceria cada vez mais profunda entre Microsoft e OpenAI. Enquanto alguns celebram o potencial desta colaboração, também há vozes de descontentamento dentro da Microsoft. Segundo relatórios, os insiders preocupam-se que isto se desvie do desenvolvimento interno de IA para promover produtos OpenAI.
+O mundo da IA conversacional está animado com as últimas notícias sobre a parceria cada vez mais profunda da Microsoft com a OpenAI. Enquanto alguns celebram o potencial dessa colaboração, há também vozes de insatisfação dentro da Microsoft. De acordo com relatórios, pessoas internas temem que isso se desviará do desenvolvimento interno de IA para promover produtos da OpenAI.
 
-Uma área especificamente mencionada é o destino do Azure Bot Service da Microsoft. Fontes internas sugerem que pode "[mais ou menos desaparecer](https://www.digitalinformationworld.com/2024/03/microsoft-insiders-fear-firm-has.html)", substituído por soluções OpenAI.
+Uma área especificamente mencionada é o destino do Microsoft Azure Bot Service. Fontes internas sugerem que pode "[mais ou menos desaparecer](https://www.digitalinformationworld.com/2024/03/microsoft-insiders-fear-firm-has.html)", substituído por soluções da OpenAI.
 
-[Microsoft Bot Framework](https://dev.botframework.com/) e [Azure AI Bot Service](https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service) (bem como [LUIS.ai](http://LUIS.ai)) são uma coleção de bibliotecas, ferramentas e serviços que permitem construir, testar, implementar e gerir bots inteligentes. No entanto, o [repositório GitHub do Bot Framework SDK](https://github.com/microsoft/botframework-sdk) não foi atualizado há mais de 2 anos (a partir de 2024) exceto para o README:
+[Microsoft Bot Framework](https://dev.botframework.com/) e [Azure AI Bot Service](https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service) (bem como [LUIS.ai](http://LUIS.ai)) são uma coleção de bibliotecas, ferramentas e serviços que permitem construir, testar, implantar e gerenciar bots inteligentes. No entanto, o [repositório GitHub do Bot Framework SDK](https://github.com/microsoft/botframework-sdk) não teve atualizações além do README por mais de 2 anos (status em 2024):
 
 <img height="60%" width="100%" src="/images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/1-Microsoft-bot-framework.png" alt="">
 
 
-## Qual é a Alternativa ao Microsoft Bot Framework para Desenvolvedores?
+## Qual é a alternativa ao Microsoft Bot Framework para desenvolvedores?
 
 SeaChat entra: **O Desafiador LLM**
 
-Enquanto a Microsoft contempla a sua estratégia de IA, Seasalt.ai está a chamar a atenção com a sua plataforma conversacional alimentada por LLM (Large Language Model) [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat aproveita os últimos avanços na compreensão da linguagem natural para fornecer uma experiência de utilizador mais natural e intuitiva do que chatbots tradicionais baseados em regras.
+Enquanto a Microsoft considera sua estratégia de IA, Seasalt.ai está chamando atenção com sua plataforma conversacional impulsionada por LLM (grandes modelos de linguagem) [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat aproveita os mais recentes avanços em compreensão de linguagem natural, oferecendo uma experiência de usuário mais natural e intuitiva do que chatbots tradicionais baseados em regras.
 
 **Aqui está por que SeaChat pode estar bem posicionado para liderar a revolução da IA conversacional**:
-- **O Poder do LLM**:
-  Aproveitar o poder do LLM para conversas mais matizadas.
-  Melhor compreensão do contexto e intenção.
-  Tornar as interações do utilizador mais naturais e fluidas.
+- **Poder do LLM**:
+  Aproveita o poder do LLM, facilitando conversas mais sutis.
+  Entende contexto e intenções com mais precisão.
+  Torna as interações dos usuários mais naturais e fluidas.
 - **Flexibilidade**:
-  Adaptar e aprender ao interagir com utilizadores.
-  Melhorar continuamente a capacidade de fornecer respostas relevantes e úteis.
-  Lidar com consultas e pedidos complexos ao longo do tempo.
-- **Integração Perfeita**:
-  Integração perfeita com várias plataformas e aplicações.
-  Implementação fácil de chatbots em diferentes canais.
-  Fornecer suporte omnicanal para uma experiência de cliente unificada.
-- **Tempo de Desenvolvimento Reduzido**: Construir chatbots complexos com requisitos de código mínimos.
-- **Eficiência de Custos**: Eliminar a necessidade de grandes quantidades de dados de treino e recursos.
-- **Escalabilidade**: Lidar facilmente com consultas de alto volume sem impacto no desempenho.
+  Adapta-se e aprende durante interações com usuários.
+  Continuamente melhora a capacidade de fornecer respostas relevantes e úteis.
+  Com o tempo, lida com consultas e solicitações complexas.
+- **Integração sem problemas**:
+  Integra-se perfeitamente com várias plataformas e aplicações.
+  Facilmente implanta chatbots em diferentes canais.
+  Fornece suporte omnichannel para experiência de cliente unificada.
+- **Tempo de desenvolvimento reduzido**: Constrói chatbots complexos com requisitos mínimos de código.
+- **Eficiência de custo**: Elimina a necessidade de grandes quantidades de dados de treinamento e recursos.
+- **Escalabilidade**: Facilmente lida com grandes volumes de consultas sem impacto no desempenho.
 
-## Desvantagens do Azure Bot Service e Microsoft Bot Framework
-Embora Azure Bot Services e Microsoft Bot Framework tenham os seus usos, vêm com algumas desvantagens:
-- **Limitações Baseadas em Regras**: Confiar em regras pré-definidas pode levar a conversas rígidas e dificuldade em lidar com entradas inesperadas do utilizador.
-- **Complexidade de Desenvolvimento**: Construir e manter chatbots complexos pode requerer experiência considerável em programação.
-- **Escalabilidade Limitada**: Gerir consultas de alto volume pode tornar-se desafiante, afetando o desempenho.
-- **Desafios de Integração**: Integrar com várias plataformas pode requerer trabalho de desenvolvimento adicional.
-- **Vendor Lock-in**: Dependência do ecossistema Microsoft pode limitar flexibilidade e escolhas futuras.
-- **Futuro Incerto com OpenAI**: A mudança da Microsoft para soluções OpenAI cria incerteza sobre o suporte a longo prazo do Bot Framework.
+## Desvantagens do Azure Bot Services e Microsoft Bot Framework
+Enquanto Azure Bot Services e Microsoft Bot Framework tiveram seus usos, eles trazem algumas desvantagens:
+- **Limitações baseadas em regras**: Depender de regras predefinidas pode levar a conversas rígidas, difíceis de lidar com entradas inesperadas dos usuários.
+- **Complexidade de desenvolvimento**: Construir e manter chatbots complexos pode requerer conhecimento considerável de código.
+- **Escalabilidade limitada**: Gerenciar grandes volumes de consultas pode se tornar um desafio, impactando o desempenho.
+- **Desafios de integração**: Integrar com várias plataformas pode requerer trabalho adicional de desenvolvimento.
+- **Bloqueio do fornecedor**: Depender do ecossistema Microsoft pode limitar flexibilidade e escolhas futuras.
+- **Futuro incerto com OpenAI**: A mudança da Microsoft para soluções OpenAI cria incerteza sobre o suporte de longo prazo ao Bot Framework.
 
-## Comparação de NLU Tradicional Baseado em Intenção/Entidade vs. NLU Baseado em LLM
+## Comparação de NLU tradicional baseado em intenções/entidades vs NLU baseado em LLM
 
-A investigação mostra que a diferença entre NLU baseado em intenção/entidade e NLU baseado em LLM é [em milhões](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog). Em termos de instâncias de treino, são 630.000 instâncias versus apenas 32. Esta redução dramática nos requisitos de dados de treino traduz-se em poupanças significativas de custos para empresas que adotam NLU baseado em GenAI/LLM.
+Pesquisas mostram que a diferença entre NLU baseado em intenções/entidades e NLU baseado em LLM é [contada em milhões](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog). Em termos de exemplos de treinamento, são 630.000 exemplos comparados a apenas 32. Essa redução drástica nos requisitos de dados de treinamento se traduz em economias significativas de custos ao adotar NLU baseado em GenAI/LLM pelas empresas.
 
-#### SeaChat vs. Microsoft Bot Framework ####
+#### SeaChat vs Microsoft Bot Framework ####
 <center>
 <img height="60%" width="100%" src="/images/blog/87-zh-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/87-zh-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai.png" alt="">
 
-*SeaChat vs. Microsoft Bot Framework*
+*SeaChat-vs-Microsoft Bot Framework*
 </center>
 
-## SeaChat Pode Fornecer uma Melhor Experiência de Conversa
-SeaChat representa um avanço significativo no espaço da IA conversacional, oferecendo às empresas uma plataforma poderosa e versátil para criar experiências de conversa envolventes e personalizadas. Com a sua tecnologia avançada, integração perfeita e conjunto abrangente de funcionalidades, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) serve como uma alternativa forte a frameworks tradicionais como Azure Bot Services e Microsoft Bot Framework, abrindo caminho para o futuro das interações alimentadas por IA. 
+## SeaChat pode fornecer melhor experiência conversacional
+SeaChat representa um progresso significativo no campo da IA conversacional, oferecendo às empresas uma plataforma poderosa e versátil para criar experiências conversacionais envolventes e personalizadas. Com sua tecnologia avançada, integração sem problemas e conjunto abrangente de recursos, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) serve como uma alternativa poderosa aos frameworks tradicionais como Azure Bot Services e Microsoft Bot Framework, pavimentando o caminho para o futuro das interações impulsionadas por IA. 
