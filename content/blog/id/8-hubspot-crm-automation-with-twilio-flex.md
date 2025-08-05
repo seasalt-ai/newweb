@@ -1,34 +1,78 @@
 ---
-title: HubSpot CRM Automation with Twilio Flex
+title: "Otomatisasi Pusat Kontak Berkemampuan AI: Kolaborasi Agen Virtual dengan CRM"
+metatitle: "Pusat Kontak SeaX: Otomatisasi Agen Virtual dengan CRM"
+date: 2022-01-26T18:21:40Z
+modified_date: 2025-08-05T17:02:54.123Z
+author: Sarah Reid
+image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+draft: false
+description: "Dalam blog ini, kita akan menjelajahi integrasi CRM seperti HubSpot ke dalam Pusat Kontak SeaX, yang memberi Anda akses langsung ke semua informasi dan alat Anda."
+tags: ["HubSpot", "SeaX"]
+weight: 1  
+canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
+url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
+aliases: 
+  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
 lang: id
-description: Panduan lengkap untuk pengguna Indonesia tentang otomatisasi HubSpot CRM dengan Twilio Flex, termasuk praktik SEO terbaik.
-author: SeaHealth Editorial Team
-published: 2024-07-01
-slug: 8-hubspot-crm-automation-with-twilio-flex
 ---
 
-# HubSpot CRM Automation dengan Twilio Flex
+## Mengintegrasikan HubSpot dengan SeaX
 
-Twilio Flex dan HubSpot CRM adalah kombinasi yang kuat untuk otomatisasi layanan pelanggan. Artikel ini membahas cara mengintegrasikan dan mengotomatiskan proses CRM menggunakan Twilio Flex untuk pengguna Indonesia.
+Akses yang mudah dan lancar ke antarmuka pusat kontak dan data pelanggan Anda di CRM sangat penting untuk dukungan pelanggan yang efisien. Di SeaX, produk pusat kontak kolaboratif Seasalt.ai, Anda dapat memfasilitasi ini dengan mengintegrasikan CRM seperti HubSpot langsung ke antarmuka pusat kontak Anda, memberi Anda akses langsung ke semua informasi dan alat Anda.
 
-## Langkah 1: Integrasi HubSpot dengan Twilio Flex
+Banyak bisnis tidak memanfaatkan otomatisasi canggih yang dimungkinkan dengan mengintegrasikan platform-platform ini. Alat seperti agen virtual berkemampuan AI menyederhanakan alur kerja Anda dan memanfaatkan data Anda di HubSpot.
 
-1. Daftar dan login ke HubSpot CRM.
-2. Buat akun Twilio dan akses Flex.
-3. Gunakan API untuk menghubungkan HubSpot dengan Twilio Flex.
+### Berdayakan Agen Virtual Anda
 
-## Langkah 2: Otomatisasi Proses CRM
+Dukungan omni-channel SeaX berarti Anda dapat berinteraksi dengan pelanggan Anda di banyak platform, semuanya dalam satu antarmuka. Agen virtual yang terhubung ke platform Twilio dapat menghubungi pelanggan Anda di seluruh saluran, memberikan dukungan dasar 24/7. Agen virtual ini menangani tugas dan pertanyaan rutin, membebaskan agen langsung Anda untuk fokus pada panggilan yang lebih kompleks dan tugas-tugas lainnya. Saat ini SeaX mendukung saluran berikut:
 
-- Otomatisasi penugasan tiket
-- Pengiriman notifikasi otomatis
-- Integrasi data pelanggan secara real-time
+- Discord
+- SMS
+- Webchat
+- WhatsApp
+- Facebook Messenger
+- Google Business Messages
+- Line
 
-## Langkah 3: Praktik SEO
+Mengintegrasikan HubSpot memberi agen virtual Anda akses ke informasi pelanggan yang sama dengan agen langsung Anda. Pengetahuan agen virtual Anda tentang pelanggan Anda tumbuh secara real time saat Anda merekam informasi pelanggan di HubSpot.
 
-- Gunakan kata kunci seperti "HubSpot CRM", "Twilio Flex", "otomatisasi layanan pelanggan"
-- Bagi artikel menjadi bagian-bagian yang jelas
-- Jawab pertanyaan umum pengguna Indonesia
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/hubspot.png" alt="Antarmuka HubSpot dapat diintegrasikan langsung ke Pusat Kontak Kolaboratif SeaX Seasalt.ai"/>
 
----
+*Antarmuka HubSpot dapat diintegrasikan langsung ke Pusat Kontak Kolaboratif SeaX.*
+</center>
 
-*Panduan ini dibuat untuk membantu pengguna Indonesia mengoptimalkan otomatisasi CRM dengan Twilio Flex.*
+### Rampingkan Alur Kerja dengan Otomatisasi
+
+Ada banyak tugas rutin dan interaksi pelanggan yang ditangani agen langsung Anda setiap hari. HubSpot memiliki alat untuk melacak semua tugas Anda, dan bahkan mengotomatiskan hal-hal tertentu seperti mengirim email pemasaran.
+
+Dukungan omni-channel SeaX menambahkan kemampuan untuk mengotomatiskan pesan ke SMS, panggilan suara, Facebook Messenger, WhatsApp, dan lainnya. Dikombinasikan dengan HubSpot Webhooks API, yang memungkinkan Anda melacak perubahan pada objek HubSpot Anda, Anda dapat mengirim pesan ke pelanggan di saluran mana pun dengan tindakan sederhana seperti mengklik tombol atau memindahkan tiket dukungan. Selain itu, agen virtual dapat menangani respons pelanggan, sehingga agen langsung hanya perlu memulai percakapan.
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/ticket-auto.gif" alt="Memindahkan tiket di pipeline HubSpot secara otomatis memicu panggilan telepon ke pelanggan"/>
+
+*Memindahkan tiket di pipeline HubSpot (ditampilkan di sebelah kiri) secara otomatis memicu panggilan telepon ke pelanggan (ditampilkan di sebelah kanan).*
+</center>
+
+### Manfaatkan Data Anda di Mana Saja
+
+Mengintegrasikan SeaX dan HubSpot memberi Anda akses langsung ke data pelanggan Anda langsung di antarmuka pusat kontak Anda. Ini juga memberi otomatisasi dan agen virtual Anda kemampuan untuk berinteraksi dengan dan menambah kumpulan data tersebut juga.
+
+Ketika Anda menyelesaikan percakapan dengan pelanggan di SeaX, otomatisasi dapat secara langsung menambahkan interaksi ke kontak pelanggan di HubSpot, sehingga agen langsung tidak perlu membuang waktu untuk menulis percakapan. Agen virtual juga dapat menambahkan interaksi mereka ke informasi pelanggan, serta memperbarui informasi kontak pelanggan atau waktu janji temu berdasarkan percakapan mereka dengan pelanggan.
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/talk-to-bot.gif" alt="Seorang pelanggan berbicara dengan agen virtual untuk menjadwalkan janji temu"/>
+
+*Seorang pelanggan berbicara dengan agen virtual untuk menjadwalkan janji temu.*
+</center>
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/new-appt.gif"/>
+
+*Seorang pelanggan menyelesaikan penjadwalan janji temu dengan agen virtual dan janji temu baru secara otomatis ditambahkan ke kontak pelanggan di HubSpot*
+</center>
+
+### Satu Platform yang Nyaman
+Singkatnya, integrasi antara SeaX dan HubSpot menyederhanakan antarmuka dukungan pelanggan Anda dan memberi agen langsung Anda akses yang lebih mudah ke informasi pelanggan Anda. Menerapkan agen virtual berkemampuan AI dan otomatisasi yang memanfaatkan integrasi ini membebaskan agen langsung Anda agar lebih efisien dan merampingkan alur kerja dan proses CRM Anda.
+
+Ingin melihat bagaimana SeaX yang didukung oleh Seasalt.ai dapat membantu bisnis Anda? [Pesan demo hari ini](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

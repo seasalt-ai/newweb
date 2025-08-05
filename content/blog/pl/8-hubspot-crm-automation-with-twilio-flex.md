@@ -1,34 +1,78 @@
 ---
-title: HubSpot CRM Automation with Twilio Flex
+title: "Automatyzacja contact center z AI: współpraca wirtualnych agentów z CRM"
+metatitle: "SeaX Contact Center: Automatyzacja wirtualnych agentów z CRM"
+date: 2022-01-26T18:21:40Z
+modified_date: 2025-08-05T17:01:26.483Z
+author: Sarah Reid
+image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+draft: false
+description: "Na tym blogu przyjrzymy się integracji CRM, takiego jak HubSpot, z SeaX Contact Center, co zapewni Ci bezpośredni dostęp do wszystkich informacji i narzędzi."
+tags: ["HubSpot", "SeaX"]
+weight: 1  
+canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
+url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
+aliases: 
+  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
 lang: pl
-description: Kompletny przewodnik dla polskich użytkowników dotyczący automatyzacji HubSpot CRM z Twilio Flex, z najlepszymi praktykami SEO.
-author: SeaHealth Editorial Team
-published: 2024-07-01
-slug: 8-hubspot-crm-automation-with-twilio-flex
 ---
 
-# Automatyzacja HubSpot CRM z Twilio Flex
+## Integracja HubSpot z SeaX
 
-Twilio Flex i HubSpot CRM to potężne narzędzia do automatyzacji obsługi klienta. W tym artykule opisujemy, jak zintegrować i zautomatyzować procesy CRM za pomocą Twilio Flex dla polskich użytkowników.
+Łatwy i bezproblemowy dostęp zarówno do interfejsu contact center, jak i danych klientów w CRM jest kluczowy dla efektywnej obsługi klienta. W SeaX, produkcie contact center do współpracy od Seasalt.ai, możesz to ułatwić, integrując CRM taki jak HubSpot bezpośrednio z interfejsem contact center, co daje bezpośredni dostęp do wszystkich informacji i narzędzi.
 
-## Krok 1: Integracja HubSpot z Twilio Flex
+Wiele firm nie wykorzystuje potężnej automatyzacji, jaką umożliwia integracja tych platform. Narzędzia takie jak wirtualni agenci wspierani przez AI upraszczają przepływ pracy i wykorzystują dane w HubSpot.
 
-1. Zarejestruj się i zaloguj do HubSpot CRM.
-2. Utwórz konto Twilio i uzyskaj dostęp do Flex.
-3. Połącz HubSpot z Twilio Flex za pomocą API.
+### Wzmocnij swoich wirtualnych agentów
 
-## Krok 2: Automatyzacja procesów CRM
+Wsparcie wielokanałowe SeaX oznacza, że możesz wchodzić w interakcje z klientami na wielu platformach, wszystko w jednym interfejsie. Wirtualni agenci połączeni z platformą Twilio mogą kontaktować się z klientami za pośrednictwem różnych kanałów, zapewniając podstawowe wsparcie 24/7. Ci wirtualni agenci obsługują rutynowe zadania i zapytania, uwalniając Twoich agentów na żywo, aby mogli skupić się na bardziej złożonych rozmowach i innych zadaniach. Obecnie SeaX obsługuje następujące kanały:
 
-- Automatyczne przypisywanie zgłoszeń
-- Wysyłanie powiadomień
-- Integracja danych klientów w czasie rzeczywistym
+- Discord
+- SMS
+- Czat internetowy
+- WhatsApp
+- Facebook Messenger
+- Wiadomości biznesowe Google
+- Line
 
-## Krok 3: Praktyki SEO
+Integracja z HubSpot daje Twoim wirtualnym agentom dostęp do tych samych informacji o klientach, co Twoim agentom na żywo. Wiedza Twojego wirtualnego agenta o klientach rośnie w czasie rzeczywistym, w miarę jak zapisujesz informacje o klientach w HubSpot.
 
-- Używaj słów kluczowych: "HubSpot CRM", "Twilio Flex", "automatyzacja obsługi klienta"
-- Dziel artykuł na czytelne sekcje
-- Odpowiadaj na najczęstsze pytania polskich użytkowników
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/hubspot.png" alt="Interfejs HubSpot można zintegrować bezpośrednio z SeaX Collaborative Contact Center firmy Seasalt.ai"/>
 
----
+*Interfejs HubSpot można zintegrować bezpośrednio z SeaX Collaborative Contact Center.*
+</center>
 
-*Ten przewodnik został przygotowany dla polskich użytkowników, aby pomóc w automatyzacji CRM z Twilio Flex.*
+### Usprawnij przepływ pracy dzięki automatyzacji
+
+Istnieje wiele rutynowych zadań i interakcji z klientami, które Twoi agenci na żywo obsługują na co dzień. HubSpot posiada narzędzia do śledzenia wszystkich zadań, a nawet automatyzacji niektórych czynności, takich jak wysyłanie e-maili marketingowych.
+
+Wsparcie wielokanałowe SeaX dodaje możliwość automatyzacji wiadomości SMS, połączeń głosowych, wiadomości na Facebook Messenger, WhatsApp i innych. W połączeniu z HubSpot Webhooks API, które pozwala śledzić zmiany w obiektach HubSpot, możesz wysyłać wiadomości do klientów na dowolnym kanale za pomocą prostej akcji, takiej jak kliknięcie przycisku lub przeniesienie zgłoszenia serwisowego. Ponadto wirtualny agent może obsłużyć odpowiedź klienta, więc agent na żywo musi tylko rozpocząć rozmowę.
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/ticket-auto.gif" alt="Przeniesienie zgłoszenia w potoku HubSpot automatycznie wywołuje połączenie telefoniczne z klientem"/>
+
+*Przeniesienie zgłoszenia w potoku HubSpot (pokazane po lewej) automatycznie wywołuje połączenie telefoniczne z klientem (pokazane po prawej).*
+</center>
+
+### Spraw, by Twoje dane pracowały dla Ciebie wszędzie
+
+Integracja SeaX i HubSpot zapewnia bezpośredni dostęp do danych klientów bezpośrednio w interfejsie contact center. Daje również automatyzacji i wirtualnym agentom możliwość interakcji z tą pulą danych i dodawania do niej.
+
+Po zakończeniu rozmowy z klientem w SeaX, automatyzacja może bezpośrednio dodać interakcję do kontaktu klienta w HubSpot, dzięki czemu agent na żywo nie musi tracić czasu na opisywanie rozmowy. Wirtualni agenci mogą również dodawać swoje interakcje do informacji o kliencie, a także aktualizować dane kontaktowe klienta lub termin spotkania na podstawie rozmowy z klientem.
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/talk-to-bot.gif" alt="Klient rozmawia z wirtualnym agentem w celu umówienia spotkania"/>
+
+*Klient rozmawia z wirtualnym agentem w celu umówienia spotkania.*
+</center>
+
+<center>
+<img src="/images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/new-appt.gif"/>
+
+*Klient finalizuje umówienie spotkania z wirtualnym agentem, a nowe spotkanie jest automatycznie dodawane do kontaktu klienta w HubSpot*
+</center>
+
+### Jedna wygodna platforma
+Krótko mówiąc, integracja między SeaX i HubSpot upraszcza interfejs obsługi klienta i daje Twoim agentom na żywo łatwiejszy dostęp do informacji o klientach. Zastosowanie wirtualnych agentów wspieranych przez AI i automatyzacji, które wykorzystują tę integrację, uwalnia Twoich agentów na żywo, aby byli bardziej wydajni i usprawnia przepływ pracy oraz procesy CRM.
+
+Chcesz zobaczyć, jak SeaX napędzany przez Seasalt.ai może pomóc Twojej firmie? [Zarezerwuj demo już dziś](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
