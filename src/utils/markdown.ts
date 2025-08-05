@@ -290,7 +290,7 @@ export async function getAvailableLanguages(slug: string): Promise<string[]> {
   const availableLanguages: string[] = [];
   
   // Use eager import for consistency with other functions
-  const modules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+  const modules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
   
   for (const lang of SUPPORTED_LANGUAGES) {
     try {
@@ -309,18 +309,29 @@ export async function getAvailableLanguages(slug: string): Promise<string[]> {
 
 // Function to dynamically load all blog posts
 export async function loadAllBlogPosts(language: string = 'en'): Promise<BlogPostMeta[]> {
-  const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+  const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
   const posts: BlogPostMeta[] = [];
+  
+  console.log('[loadAllBlogPosts] Loading posts for language:', language);
+  console.log('[loadAllBlogPosts] Available modules:', Object.keys(blogModules));
   
   for (const path in blogModules) {
     // Only include posts for the specified language
     if (path.startsWith(`/content/blog/${language}/`)) {
-      const content = blogModules[path];
+      console.log('[loadAllBlogPosts] Processing file:', path);
+      const content = blogModules[path] as string;
       const slug = path.replace(`/content/blog/${language}/`, '').replace('.md', '');
-      const post = await parseMarkdownMeta(content, slug, language);
-      posts.push(post);
+      try {
+        const post = await parseMarkdownMeta(content, slug, language);
+        posts.push(post);
+        console.log('[loadAllBlogPosts] Successfully loaded post:', slug);
+      } catch (error) {
+        console.error('[loadAllBlogPosts] Error parsing post:', slug, error);
+      }
     }
   }
+  
+  console.log('[loadAllBlogPosts] Total posts loaded:', posts.length);
   
   // Filter out draft posts in production and sort by date (newest first)
   const filteredPosts = posts.filter(post => {
@@ -335,7 +346,7 @@ export async function loadAllBlogPosts(language: string = 'en'): Promise<BlogPos
 
 // Function to get all blog slugs (useful for sitemap generation)
 export async function getAllBlogSlugs(): Promise<{slug: string, language: string}[]> {
-  const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+  const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
   const slugs: {slug: string, language: string}[] = [];
   
   for (const path in blogModules) {
@@ -356,7 +367,7 @@ export async function getAllBlogSlugs(): Promise<{slug: string, language: string
 export async function loadBlogPost(slug: string, language: string = 'en'): Promise<BlogPost | null> {
   try {
     // Use eager import for consistency
-    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
     const path = `/content/blog/${language}/${slug}.md`;
     
     if (!(path in blogModules)) {
@@ -369,7 +380,7 @@ export async function loadBlogPost(slug: string, language: string = 'en'): Promi
       }
     }
     
-    const content = blogModules[path];
+    const content = blogModules[path] as string;
     const post = await parseMarkdownFile(content, slug, language);
     
     // Skip draft posts in production
@@ -394,12 +405,12 @@ export async function loadBlogPostByUrlPath(urlPath: string, language: string = 
     }
     
     // If not found, search through all blog posts to find one with matching custom URL
-    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, as: 'raw' });
+    const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
     
     for (const path in blogModules) {
       // Only check posts for the specified language
       if (path.startsWith(`/content/blog/${language}/`)) {
-        const content = blogModules[path];
+        const content = blogModules[path] as string;
         const slug = path.replace(`/content/blog/${language}/`, '').replace('.md', '');
         const postMeta = await parseMarkdownMeta(content, slug, language);
         
