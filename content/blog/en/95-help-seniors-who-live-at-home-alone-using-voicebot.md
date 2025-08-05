@@ -1,18 +1,19 @@
 ---
-title: "How to Help Seniors Living Alone at Home Using Voicebot - SeaX's Smart Solution"
-metatitle: "Improving Quality of Life for Seniors Living Alone with AI Voicebot - SeaX Smart Care Solution"
-date: 2024-08-25T00:22:19-07:00
-draft: false
-author: Jun Mao
-description: "Explore how to use SeaX's AI smart care calls to provide regular care, health monitoring, and emergency support for seniors living alone in Taiwan's super-aged society, effectively improving their quality of life and sense of security."
-weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
-image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
+title: "How to Help Seniors Living Alone at Home Using ..."
+metatitle: "Improving Quality of Life for Seniors Living Al..."
+date: "2024-08-25T00:22:19-07:00"
+draft: "false"
+author: "Jun Mao"
+description: "Explore how to use SeaX's AI smart care calls to provide regular care, health monitoring, and eme..."
+weight: "1"
+tags:
+toc: "true"
+image: "/images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-se..."
 canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
 url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwan is gradually entering a super-aged society, with the number of seniors living alone continuously increasing. According to National Development Council data, Taiwan's elderly population ratio is expected to reach nearly 20% by 2024 and officially enter a super-aged society in 2025. This social structure change has brought the physical and mental health issues of seniors living alone into focus. Particularly, many seniors often feel lonely and worry about the possibility of dying alone at home. These psychological pressures not only affect their quality of life but also pose threats to their physical health.'
+summary: "Taiwan is gradually entering a super-aged society, with the number of seniors..."
 ---
+
 
 Taiwan is gradually entering a super-aged society, with the number of seniors living alone continuously increasing. According to National Development Council data, Taiwan's elderly population ratio is expected to reach nearly 20% by 2024 and officially enter a super-aged society in 2025. This social structure change has brought the physical and mental health issues of seniors living alone into focus. Particularly, many seniors often feel lonely and worry about the possibility of dying alone at home. These psychological pressures not only affect their quality of life but also pose threats to their physical health.
 

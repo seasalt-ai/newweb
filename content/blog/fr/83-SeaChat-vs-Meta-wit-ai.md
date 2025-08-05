@@ -1,19 +1,20 @@
 ---
-title: "Plus que des mots : Pourquoi la mise à niveau de wit.ai vers SeaChat peut améliorer votre expérience d'IA conversationnelle"
-metatitle: "Plus que des mots : Pourquoi la mise à niveau de wit.ai vers SeaChat peut améliorer votre expérience d'IA conversationnelle"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
-draft: false
-author: Xuchen Yao
-description: Dans le domaine de l'IA conversationnelle, wit.ai de Meta/Facebook était autrefois populaire, et SeaChat, basé sur les grands modèles de langage (LLM), peut dépasser les limitations et créer une expérience conversationnelle plus naturelle et fluide.
-weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
-image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
+title: "Plus que des mots : Pourquoi la mise à niveau d..."
+metatitle: "Plus que des mots : Pourquoi la mise à niveau d..."
+date: "2024-04-02T00:22:19-07:00"
+lastmod: "2024-04-03T00:22:19-07:00"
+modified_date: "2025-08-01T00:00:00Z"
+draft: "false"
+author: "Xuchen Yao"
+description: "Dans le domaine de l'IA conversationnelle, wit.ai de Meta/Facebook était autrefois populaire, et ..."
+weight: "1"
+tags:
+image: "/images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png"
 canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
 url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: 'Le monde des chatbots évolue à un rythme étonnant. Alors que [wit.ai](http://wit.ai) de Meta/Facebook a servi de tremplin pour la création d'applications vocales, une nouvelle vague technologique prend lentement le devant de la scène : les grands modèles de langage (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme basée sur la technologie LLM, offre une approche révolutionnaire de l'IA conversationnelle, laissant loin derrière les moteurs basés sur l'intention comme wit.ai. Est-il temps d'envisager une mise à niveau pour votre chatbot ?'
+summary: "Le monde des chatbots évolue à un rythme étonnant. Alors que [wit.ai](http://..."
 ---
+
 
 Le monde des chatbots évolue à un rythme étonnant. Alors que [wit.ai](http://wit.ai) de Meta/Facebook a servi de tremplin pour la création d'applications vocales, une nouvelle vague technologique prend lentement le devant de la scène : les grands modèles de langage (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme basée sur la technologie LLM, offre une approche révolutionnaire de l'IA conversationnelle, laissant loin derrière les moteurs basés sur l'intention comme wit.ai. Est-il temps d'envisager une mise à niveau pour votre chatbot ?
 

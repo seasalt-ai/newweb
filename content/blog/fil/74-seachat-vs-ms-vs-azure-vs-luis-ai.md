@@ -27,9 +27,9 @@ Ang Microsoft Bot Framework at Azure AI Bot Service (pati na rin ang LUIS.ai) ay
 
 Narito ang SeaChat: **Ang LLM Challenger**
 
-Habang nag-iisip ang Microsoft ng AI strategy, ang Seasalt.ai ay gumagawa ng ingay gamit ang LLM-powered conversational platform [SeaChat](https://chat.seasalt.ai/?utm_source=blog). Gumagamit ang SeaChat ng pinakabagong advancements sa natural language understanding, kaya mas natural at intuitive ang user experience kumpara sa tradisyonal na rule-based chatbots.
+Habang nag-iisip ang Microsoft ng AI strategy, ang Seasalt.ai ay gumagawa ng ingay gamit ang LLM-powered conversational platform [SeaChat](https: //chat.seasalt.ai/?utm_source=blog). Gumagamit ang SeaChat ng pinakabagong advancements sa natural language understanding, kaya mas natural at intuitive ang user experience kumpara sa tradisyonal na rule-based chatbots.
 
-**Bakit maaaring manguna ang SeaChat sa Conversational AI revolution:**
+**Bakit maaaring manguna ang SeaChat sa Conversational AI revolution: **
 - **LLM Power**:
 Ginagamit ang lakas ng LLMs para sa mas nuanced na usapan.
 Mas tumpak na nauunawaan ang context at intent.

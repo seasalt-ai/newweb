@@ -1,13 +1,16 @@
 ---
-title: Discord: 고객 참여의 새로운 프론티어
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: 고객 참여의 새로운 프론티어
+metatitle: 'Discord: 고객 참여의 새로운 프론티어'
 seoDescription: Discord가 어떻게 고객 참여를 혁신하고, 현대 기업에 역동적인 커뮤니티와 혁신적인 지원을 제공하는지 알아보세요.
+seoTitle: 'Discord: 고객 참여의 새로운 프론티어'
+slug: discord-a-new-frontier-for-customer-engagement
 tags:
-  - Discord
-  - 고객 서비스
-  - 참여
+- Discord
+- 고객 서비스
+- 참여
+title: 'Discord: 고객 참여의 새로운 프론티어'
 ---
+
+
 
 Discord는 고객과의 새로운 소통 방식을 모색하는 기업들에게 빠르게 필수적인 플랫폼이 되고 있습니다. 활발한 커뮤니티와 실시간 커뮤니케이션 도구를 통해 지원, 피드백, 장기적인 관계 구축을 위한 독특한 기회를 제공합니다.
 

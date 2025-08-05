@@ -1,12 +1,21 @@
 ---
-title: "Membuat Konten Multimedia Bertenaga AI untuk Keterlibatan Pelanggan"
-meta_description: "Pelajari cara memanfaatkan AI dan konten multimedia untuk menciptakan pengalaman pelanggan yang menarik di semua saluran. Termasuk contoh video, elemen interaktif, dan praktik terbaik."
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "Keterlibatan Pelanggan", "Pemasaran Digital", "Konten Video"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: 2025-07-29T20:45:17Z
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Pelajari cara memanfaatkan AI dan konten multimedia untuk menciptakan
+  pengalaman pelanggan yang menarik di semua saluran. Termasuk contoh video, elemen
+  interaktif, dan praktik terbaik.
+metatitle: Membuat Konten Multimedia Bertenaga AI untuk Keterlibatan Pe...
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- AI Content
+- Multimedia
+- Keterlibatan Pelanggan
+- Pemasaran Digital
+- Konten Video
+title: Membuat Konten Multimedia Bertenaga AI untuk Keterlibatan Pelanggan
 ---
+
 
 # Membuat Konten Multimedia Bertenaga AI untuk Keterlibatan Pelanggan
 

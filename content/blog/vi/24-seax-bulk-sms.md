@@ -1,15 +1,19 @@
 ---
-title: "SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơn"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: Trong blog này, chúng tôi sẽ trình bày cách tính năng Bulk SMS của SeaX
+  cho phép các đại lý chủ động gửi tin nhắn đi qua văn bản.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "Trong blog này, chúng tôi sẽ trình bày cách tính năng Bulk SMS của SeaX cho phép các đại lý chủ động gửi tin nhắn đi qua văn bản."
+metatitle: 'SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơ...'
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơn'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
 ---
+
 
 *Trong các bài đăng blog trước đây, chúng tôi đã giới thiệu một số tính năng chính của SeaX (bao gồm [Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Knowledge Base](https://seasalt.ai/blog/22-seax-knowledge-base/), và [Case Management](https://seasalt.ai/blog/23-seax-case-management/)) giúp các đại lý xử lý tốt hơn các cuộc gọi và tin nhắn đến. Trong blog này, chúng tôi sẽ trình bày cách tính năng Bulk SMS của SeaX cho phép các đại lý chủ động gửi tin nhắn đi qua văn bản, mà người nhận được chứng minh là mở sớm hơn và nhất quán hơn so với các phương thức liên lạc email truyền thống.*
 

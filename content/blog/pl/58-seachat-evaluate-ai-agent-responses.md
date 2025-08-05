@@ -1,13 +1,16 @@
 ---
-title: SeaChat AI 에이전트 응답 평가하기
-lang: pl
-description: Ten artykuł wyjaśnia, jak oceniać odpowiedzi AI agentów w SeaChat, z naciskiem na SEO i najlepsze praktyki dla polskich użytkowników.
 author: SeaHealth Editorial Team
+description: Ten artykuł wyjaśnia, jak oceniać odpowiedzi AI agentów w SeaChat, z
+  naciskiem na SEO i najlepsze praktyki dla polskich użytkowników.
+lang: pl
+metatitle: Jak oceniać odpowiedzi agentów AI SeaChat
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: Jak oceniać odpowiedzi agentów AI SeaChat
 ---
 
-# SeaChat AI 에이전트 응답 평가하기
+
+# Jak oceniać odpowiedzi agentów AI SeaChat
 
 SeaChat to nowoczesna platforma do obsługi klienta z wykorzystaniem AI. W tym artykule dowiesz się, jak skutecznie oceniać odpowiedzi agentów AI, aby poprawić jakość obsługi.
 

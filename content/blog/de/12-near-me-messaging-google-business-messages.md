@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging ergänzt Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging integriert Konversations-KI mit Google Business Messages und ermöglicht so 24/7-Support über die Chat-Schaltfläche in Ihrem Google Maps-Profil."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging integriert Konversations-KI mit Google Business Messages
+  und ermöglicht so 24/7-Support über die Chat-Schaltfläche in Ihrem Google Maps-Profil.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging ergänzt Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging ergänzt Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 In einem unserer früheren Blogs haben wir Ihnen [die Vorteile und Einschränkungen von Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/) erläutert. Es gibt zwei Haupteinschränkungen bei gängigen Implementierungen von Google Business Messages. Die erste Einschränkung besteht darin, dass es viel Geld und Zeit kostet, eine professionelle Beratungsagentur zu bezahlen, um einen maßgeschneiderten virtuellen Agenten für Ihr Unternehmen von Grund auf neu zu erstellen. Die zweite Einschränkung besteht darin, dass Geschäftsinhaber nicht direkt mit Kunden sprechen können, es sei denn, die Beratungsagentur bietet eine Live-Chat-Funktion als Teil ihrer Implementierung an.
 

@@ -1,16 +1,22 @@
 ---
-title: "ربات دیسکورد SeaVoice STT/TTS: بهبودهای بک‌اند و پایداری"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: با آخرین نسخه، ربات دیسکورد SeaVoice بهبودهای عظیمی در بک‌اند راه‌اندازی
+  می‌کند که پایداری ربات و توسعه آینده را بهبود می‌بخشد.
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: با آخرین نسخه، ربات دیسکورد SeaVoice بهبودهای عظیمی در بک‌اند راه‌اندازی می‌کند که پایداری ربات و توسعه آینده را بهبود می‌بخشد.
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'ربات دیسکورد SeaVoice STT/TTS: بهبودهای بک‌اند و پایداری'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'ربات دیسکورد SeaVoice STT/TTS: بهبودهای بک‌اند و پایداری'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *ربات دیسکورد SeaVoice به عنوان یکی از بهترین گزینه‌ها برای رونویسی گفتار در کانال‌های صوتی دیسکورد محبوبیت پیدا کرده است. با جدیدترین نسخه، ما بهبودهای عظیمی در بک‌اند راه‌اندازی می‌کنیم که پایداری ربات را بهبود می‌بخشد و به توسعه آینده کمک می‌کند.*
 

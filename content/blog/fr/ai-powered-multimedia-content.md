@@ -1,12 +1,21 @@
 ---
-title: "Création de contenu multimédia alimenté par l'IA pour l'engagement client"
-meta_description: "Apprenez à tirer parti de l'IA et du contenu multimédia pour créer des expériences client attrayantes sur tous les canaux. Comprend des exemples vidéo, des éléments interactifs et les meilleures pratiques."
-author: "Sarah Chen"
-tags: ["Contenu IA", "Multimédia", "Engagement client", "Marketing numérique", "Contenu vidéo"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Apprenez à tirer parti de l'IA et du contenu multimédia pour créer
+  des expériences client attrayantes sur tous les canaux. Comprend des exemples vidéo,
+  des éléments interactifs et les meilleures pratiques.
+metatitle: Création de contenu multimédia alimenté par l'IA pour l'enga...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- Contenu IA
+- Multimédia
+- Engagement client
+- Marketing numérique
+- Contenu vidéo
+title: Création de contenu multimédia alimenté par l'IA pour l'engagement client
 ---
+
 
 # Création de contenu multimédia alimenté par l'IA pour l'engagement client
 

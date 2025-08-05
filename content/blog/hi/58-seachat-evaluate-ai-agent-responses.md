@@ -1,11 +1,14 @@
 ---
-title: SeaChat AI Agent के उत्तरों का मूल्यांकन कैसे करें
-lang: hi
-description: हिंदी उपयोगकर्ताओं के लिए SeaChat AI Agent के उत्तरों का मूल्यांकन करने की प्रक्रिया और SEO टिप्स।
 author: SeaHealth Editorial Team
+description: हिंदी उपयोगकर्ताओं के लिए SeaChat AI Agent के उत्तरों का मूल्यांकन करने
+  की प्रक्रिया और SEO टिप्स।
+lang: hi
+metatitle: SeaChat AI Agent के उत्तरों का मूल्यांकन कैसे करें
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: SeaChat AI Agent के उत्तरों का मूल्यांकन कैसे करें
 ---
+
 
 # SeaChat AI Agent के उत्तरों का मूल्यांकन कैसे करें
 

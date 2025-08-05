@@ -1,13 +1,15 @@
 ---
-title: 如何创建 Discord 社区和机器人
-slug: how-to-create-a-discord-community-and-bot
-seoTitle: 如何创建 Discord 社区和机器人
+metatitle: 如何创建 Discord 社区和机器人
 seoDescription: 全面指南，教您如何在 Discord 上建立社区并创建机器人，助力企业和兴趣小组互动。
+seoTitle: 如何创建 Discord 社区和机器人
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - 社区
-  - 机器人
+- Discord
+- 社区
+- 机器人
+title: 如何创建 Discord 社区和机器人
 ---
+
 
 Discord 是构建在线社区的热门平台。通过机器人功能，您可以提升服务器的互动性和自动化。
 

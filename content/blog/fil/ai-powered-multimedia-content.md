@@ -1,12 +1,21 @@
 ---
-title: "Paglikha ng AI-Powered Multimedia Content para sa Pakikipag-ugnayan sa Customer"
-meta_description: "Alamin kung paano gamitin ang AI at multimedia content upang lumikha ng nakakaengganyong karanasan ng customer sa lahat ng channel. Kasama ang mga halimbawa ng video, interactive na elemento, at pinakamahusay na kasanayan."
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "Customer Engagement", "Digital Marketing", "Video Content"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Alamin kung paano gamitin ang AI at multimedia content upang lumikha
+  ng nakakaengganyong karanasan ng customer sa lahat ng channel. Kasama ang mga halimbawa
+  ng video, interactive na elemento, at pinakamahusay na kasanayan.
+metatitle: Paglikha ng AI-Powered Multimedia Content para sa Pakikipag-...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- AI Content
+- Multimedia
+- Customer Engagement
+- Digital Marketing
+- Video Content
+title: Paglikha ng AI-Powered Multimedia Content para sa Pakikipag-ugnayan sa Customer
 ---
+
 
 # Paglikha ng AI-Powered Multimedia Content para sa Pakikipag-ugnayan sa Customer
 

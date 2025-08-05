@@ -1,15 +1,21 @@
 ---
-title: "Zamiana tekstu na mowę na Discordzie: studium przypadku bota TTS na Discordzie"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: W tym blogu omówimy nasze odkrycia dotyczące tego, w jaki sposób prawdziwi użytkownicy Discorda korzystają z naszych usług po przejrzeniu kilkumiesięcznych autentycznych danych zamiany tekstu na mowę.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: W tym blogu omówimy nasze odkrycia dotyczące tego, w jaki sposób prawdziwi
+  użytkownicy Discorda korzystają z naszych usług po przejrzeniu kilkumiesięcznych
+  autentycznych danych zamiany tekstu na mowę.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Zamiana tekstu na mowę na Discordzie: studium przypadku bota...'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Zamiana tekstu na mowę na Discordzie: studium przypadku bota TTS na Discordzie'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Po uruchomieniu SeaVoice, jednego z najszybszych i najdokładniejszych botów zamiany tekstu na mowę i mowy na tekst na Discordzie, chcieliśmy zrozumieć, w jaki sposób użytkownicy faktycznie wchodzą w interakcję z usługami. W tym blogu omówimy nasze odkrycia po przejrzeniu kilkumiesięcznych danych użytkowników zamiany tekstu na mowę.*
 

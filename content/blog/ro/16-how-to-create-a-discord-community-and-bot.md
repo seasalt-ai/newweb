@@ -1,11 +1,15 @@
 ---
-title: Cum să creezi o comunitate Discord și un bot
-lang: ro
-description: Acest articol introduce cum să construiești o comunitate Discord de la zero și să implementezi boturi automatizate, potrivit pentru utilizatorii români, include sfaturi practice și sugestii de optimizare SEO.
 author: SeaHealth Editorial Team
+description: Acest articol introduce cum să construiești o comunitate Discord de la
+  zero și să implementezi boturi automatizate, potrivit pentru utilizatorii români,
+  include sfaturi practice și sugestii de optimizare SEO.
+lang: ro
+metatitle: Cum să creezi o comunitate Discord și un bot
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: Cum să creezi o comunitate Discord și un bot
 ---
+
 
 # Cum să creezi o comunitate Discord și un bot
 

@@ -1,12 +1,20 @@
 ---
-title: "Next.js உடன் தொடங்குதல்: ஒரு தொடக்க வழிகாட்டி"
-meta_description: "சர்வர்-சைட் ரெண்டரிங் மற்றும் ஸ்டேடிக் சைட் ஜெனரேஷன் மூலம் உற்பத்திக்குத் தயாரான வலை பயன்பாடுகளை உருவாக்குவதற்கான React கட்டமைப்பான Next.js இன் அடிப்படைகளைக் கற்றுக்கொள்ளுங்கள்."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: சர்வர்-சைட் ரெண்டரிங் மற்றும் ஸ்டேடிக் சைட் ஜெனரேஷன் மூலம் உற்பத்திக்குத்
+  தயாரான வலை பயன்பாடுகளை உருவாக்குவதற்கான React கட்டமைப்பான Next.js இன் அடிப்படைகளைக்
+  கற்றுக்கொள்ளுங்கள்.
+metatitle: 'Next.js உடன் தொடங்குதல்: ஒரு தொடக்க வழிகாட்டி'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Next.js உடன் தொடங்குதல்: ஒரு தொடக்க வழிகாட்டி'
 ---
+
 
 # Next.js உடன் தொடங்குதல்: ஒரு தொடக்க வழிகாட்டி
 

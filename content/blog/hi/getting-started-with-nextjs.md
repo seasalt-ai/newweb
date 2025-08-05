@@ -1,12 +1,19 @@
 ---
-title: "Next.js के साथ शुरुआत करना: एक शुरुआती मार्गदर्शिका"
-meta_description: "Next.js की मूल बातें जानें, सर्वर-साइड रेंडरिंग और स्टैटिक साइट जनरेशन के साथ उत्पादन-तैयार वेब एप्लिकेशन बनाने के लिए एक React फ्रेमवर्क।"
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Next.js की मूल बातें जानें, सर्वर-साइड रेंडरिंग और स्टैटिक साइट
+  जनरेशन के साथ उत्पादन-तैयार वेब एप्लिकेशन बनाने के लिए एक React फ्रेमवर्क।
+metatitle: 'Next.js के साथ शुरुआत करना: एक शुरुआती मार्गदर्शिका'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Next.js के साथ शुरुआत करना: एक शुरुआती मार्गदर्शिका'
 ---
+
 
 # Next.js के साथ शुरुआत करना: एक शुरुआती मार्गदर्शिका
 

@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging Melengkapi Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging mengintegrasikan AI Percakapan dengan Google Business Messages, memungkinkan dukungan 24/7 melalui tombol chat di profil Google Maps Anda."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging mengintegrasikan AI Percakapan dengan Google Business
+  Messages, memungkinkan dukungan 24/7 melalui tombol chat di profil Google Maps Anda.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging Melengkapi Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging Melengkapi Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Dalam salah satu blog kami sebelumnya, kami memandu Anda melalui [manfaat dan batasan Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Ada dua batasan utama dengan implementasi umum Google Business Messages. Batasan pertama adalah bahwa dibutuhkan banyak uang dan waktu untuk membayar agen konsultan profesional untuk membuat agen virtual yang disesuaikan untuk bisnis Anda dari awal. Batasan kedua adalah bahwa pemilik bisnis tidak dapat berbicara langsung dengan pelanggan kecuali agen konsultan menyediakan fitur obrolan langsung sebagai bagian dari implementasi mereka.
 

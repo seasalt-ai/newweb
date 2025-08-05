@@ -1,9 +1,11 @@
 ---
-title: วิธีสร้างชุมชนและบอท Discord
-slug: how-to-create-a-discord-community-and-bot
-seoTitle: วิธีสร้างชุมชนและบอท Discord
+metatitle: วิธีสร้างชุมชนและบอท Discord
 seoDescription: คู่มือฉบับสมบูรณ์สำหรับการสร้างชุมชน Discord และบอท โซลูชันเชิงโต้ตอบสำหรับธุรกิจและงานอดิเรก
+seoTitle: วิธีสร้างชุมชนและบอท Discord
+slug: how-to-create-a-discord-community-and-bot
+title: วิธีสร้างชุมชนและบอท Discord
 ---
+
 tags:
   - Discord
   - ชุมชน

@@ -1,13 +1,16 @@
 ---
-title: Comment envoyer des SMS en masse avec un tableur
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Comment envoyer des SMS en masse avec un tableur
+seoDescription: Guide complet pour envoyer des SMS en masse avec un tableur, une solution
+  efficace pour les entreprises modernes.
 seoTitle: Comment envoyer des SMS en masse avec un tableur
-seoDescription: Guide complet pour envoyer des SMS en masse avec un tableur, une solution efficace pour les entreprises modernes.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Tableur
-  - Automatisation
+- SMS
+- Tableur
+- Automatisation
+title: Comment envoyer des SMS en masse avec un tableur
 ---
+
 
 L'envoi de SMS en masse est désormais plus simple grâce aux tableurs. Les entreprises peuvent gérer efficacement leurs listes de contacts et envoyer des messages à de nombreux clients simultanément.
 

@@ -1,12 +1,19 @@
 ---
-title: "创建由 AI 驱动的多媒体内容以提高客户参与度"
-meta_description: "了解如何利用 AI 和多媒体内容在所有渠道创建引人入胜的客户体验。包括视频示例、交互式元素和最佳实践。"
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "客户参与", "数字营销", "视频内容"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: 2025-07-29T20:45:17Z
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: 了解如何利用 AI 和多媒体内容在所有渠道创建引人入胜的客户体验。包括视频示例、交互式元素和最佳实践。
+metatitle: 创建由 AI 驱动的多媒体内容以提高客户参与度
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- AI Content
+- Multimedia
+- 客户参与
+- 数字营销
+- 视频内容
+title: 创建由 AI 驱动的多媒体内容以提高客户参与度
 ---
+
 
 # 创建由 AI 驱动的多媒体内容以提高客户参与度
 

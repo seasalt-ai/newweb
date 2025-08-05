@@ -1,11 +1,14 @@
 ---
-title: HubSpot CRM Automation with Twilio Flex
-lang: pl
-description: Kompletny przewodnik dla polskich użytkowników dotyczący automatyzacji HubSpot CRM z Twilio Flex, z najlepszymi praktykami SEO.
 author: SeaHealth Editorial Team
+description: Kompletny przewodnik dla polskich użytkowników dotyczący automatyzacji
+  HubSpot CRM z Twilio Flex, z najlepszymi praktykami SEO.
+lang: pl
+metatitle: HubSpot CRM Automation with Twilio Flex
 published: 2024-07-01
 slug: 8-hubspot-crm-automation-with-twilio-flex
+title: HubSpot CRM Automation with Twilio Flex
 ---
+
 
 # Automatyzacja HubSpot CRM z Twilio Flex
 

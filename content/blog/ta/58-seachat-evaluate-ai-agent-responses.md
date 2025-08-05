@@ -1,11 +1,14 @@
 ---
-title: SeaChat AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி?
-lang: ta
-description: SeaChat AI Agent பதில்களின் தரத்தை தமிழ் பயனர்களுக்காக மதிப்பீடு செய்யும் முறைகள் மற்றும் SEO குறிப்புகள்.
 author: SeaHealth Editorial Team
+description: SeaChat AI Agent பதில்களின் தரத்தை தமிழ் பயனர்களுக்காக மதிப்பீடு செய்யும்
+  முறைகள் மற்றும் SEO குறிப்புகள்.
+lang: ta
+metatitle: SeaChat AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி?
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: SeaChat AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி?
 ---
+
 
 # SeaChat AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி?
 

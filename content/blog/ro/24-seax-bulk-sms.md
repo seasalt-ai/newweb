@@ -1,16 +1,20 @@
 ---
-title: "SMS-uri în lot SeaX: extinderea clienților mai rapidă și mai eficientă"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: În acest blog, vom arăta cum funcția de SMS-uri în lot SeaX permite agenților
+  să trimită mesaje de ieșire proactiv prin text.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "În acest blog, vom arăta cum funcția de SMS-uri în lot SeaX permite agenților să trimită mesaje de ieșire proactiv prin text."
+metatitle: 'SMS-uri în lot SeaX: extinderea clienților mai rapidă și mai...'
+modified_date: 2024-12-19 10:30:00+00:00
+tags:
+- SeaX
+title: 'SMS-uri în lot SeaX: extinderea clienților mai rapidă și mai eficientă'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: 2024-12-19T10:30:00Z
 ---
+
 
 *În articolele noastre anterioare de blog, am introdus câteva dintre funcțiile principale SeaX (inclusiv [inteligența vocală](https://seasalt.ai/blog/21-seax-voice-intelligence/), [baza de cunoștințe](https://seasalt.ai/blog/22-seax-knowledge-base/) și [gestionarea cazurilor](https://seasalt.ai/blog/23-seax-case-management/)) care ajută agenții să proceseze mai bine apelurile și mesajele de intrare. În acest blog, vom arăta cum funcția de SMS-uri în lot SeaX permite agenților să trimită mesaje de ieșire proactiv prin text, iar destinatarii acestor mesaje s-au dovedit a deschide mai rapid și mai consecvent decât comunicarea tradițională prin email.*
 

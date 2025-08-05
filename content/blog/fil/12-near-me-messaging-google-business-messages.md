@@ -1,18 +1,23 @@
 ---
-title: "Near Me Messaging ay Sumusuporta sa Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Ang Near Me Messaging ay nagsasama ng Conversational AI sa Google Business Messages, na nagpapahintulot ng 24/7 na suporta sa pamamagitan ng chat button sa iyong Google Maps profile."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Ang Near Me Messaging ay nagsasama ng Conversational AI sa Google Business
+  Messages, na nagpapahintulot ng 24/7 na suporta sa pamamagitan ng chat button sa
+  iyong Google Maps profile.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging ay Sumusuporta sa Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging ay Sumusuporta sa Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Sa isa sa aming mga nakaraang blog, ipinaliwanag namin sa iyo [ang mga benepisyo at limitasyon ng Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Mayroong dalawang pangunahing limitasyon sa mga karaniwang pagpapatupad ng Google Business Messages. Ang unang limitasyon ay nangangailangan ng maraming pera at oras upang magbayad ng isang propesyonal na ahensya ng pagkonsulta upang lumikha ng isang customized na virtual agent para sa iyong negosyo mula sa simula. Ang pangalawang limitasyon ay hindi direktang makakausap ng mga may-ari ng negosyo ang mga customer maliban kung ang ahensya ng pagkonsulta ay nagbibigay ng live-chat feature bilang bahagi ng kanilang pagpapatupad.
 

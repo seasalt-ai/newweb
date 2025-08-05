@@ -27,9 +27,9 @@ Microsoft Bot Framework와 Azure AI Bot Service(그리고 LUIS.ai)는 지능형 
 
 SeaChat 등장: **LLM 챌린저**
 
-Microsoft가 AI 전략을 고민하는 사이, Seasalt.ai는 LLM(대형 언어 모델) 기반 대화형 플랫폼 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)으로 새로운 물결을 일으키고 있습니다. SeaChat은 최신 자연어 이해 기술을 활용해 기존 규칙 기반 챗봇보다 더 자연스럽고 직관적인 사용자 경험을 제공합니다.
+Microsoft가 AI 전략을 고민하는 사이, Seasalt.ai는 LLM(대형 언어 모델) 기반 대화형 플랫폼 [SeaChat](https: //chat.seasalt.ai/?utm_source=blog)으로 새로운 물결을 일으키고 있습니다. SeaChat은 최신 자연어 이해 기술을 활용해 기존 규칙 기반 챗봇보다 더 자연스럽고 직관적인 사용자 경험을 제공합니다.
 
-**SeaChat이 대화형 AI 혁명을 이끌 수 있는 이유:**
+**SeaChat이 대화형 AI 혁명을 이끌 수 있는 이유: **
 - **LLM의 힘**:
 LLM의 강력함으로 더 섬세한 대화 구현
 맥락과 의도를 더 정확하게 이해

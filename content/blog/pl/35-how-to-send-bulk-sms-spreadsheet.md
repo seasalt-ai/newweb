@@ -1,13 +1,16 @@
 ---
-title: Jak wysyłać wiadomości SMS hurtowo za pomocą arkusza kalkulacyjnego
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Jak wysyłać wiadomości SMS hurtowo za pomocą arkusza kalkula...
+seoDescription: Kompletny przewodnik po wysyłaniu masowych SMS-ów z wykorzystaniem
+  arkusza kalkulacyjnego – efektywne rozwiązanie dla nowoczesnych firm.
 seoTitle: Jak wysyłać wiadomości SMS hurtowo za pomocą arkusza kalkulacyjnego
-seoDescription: Kompletny przewodnik po wysyłaniu masowych SMS-ów z wykorzystaniem arkusza kalkulacyjnego – efektywne rozwiązanie dla nowoczesnych firm.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Arkusz kalkulacyjny
-  - Automatyzacja
+- SMS
+- Arkusz kalkulacyjny
+- Automatyzacja
+title: Jak wysyłać wiadomości SMS hurtowo za pomocą arkusza kalkulacyjnego
 ---
+
 
 Wysyłanie masowych wiadomości SMS jest teraz łatwiejsze dzięki arkuszom kalkulacyjnym. Firmy mogą sprawnie zarządzać listą kontaktów i wysyłać wiadomości do wielu klientów jednocześnie.
 

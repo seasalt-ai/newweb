@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging bổ sung cho Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging tích hợp AI đàm thoại với Google Business Messages, cho phép hỗ trợ 24/7 thông qua nút trò chuyện trên hồ sơ Google Maps của bạn."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging tích hợp AI đàm thoại với Google Business Messages,
+  cho phép hỗ trợ 24/7 thông qua nút trò chuyện trên hồ sơ Google Maps của bạn.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging bổ sung cho Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging bổ sung cho Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Trong một trong những blog trước đây của chúng tôi, chúng tôi đã hướng dẫn bạn [những lợi ích và hạn chế của Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Có hai hạn chế chính với các triển khai phổ biến của Google Business Messages. Hạn chế đầu tiên là tốn rất nhiều tiền và thời gian để trả cho một công ty tư vấn chuyên nghiệp để tạo ra một đại lý ảo tùy chỉnh cho doanh nghiệp của bạn từ đầu. Hạn chế thứ hai là chủ doanh nghiệp không thể nói chuyện trực tiếp với khách hàng trừ khi công ty tư vấn cung cấp tính năng trò chuyện trực tiếp như một phần của việc triển khai.
 

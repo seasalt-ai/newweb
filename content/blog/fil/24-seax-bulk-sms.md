@@ -1,15 +1,20 @@
 ---
-title: "SeaX Bulk SMS: Para sa Mas Mabilis, Mas Epektibong Pakikipag-ugnayan sa Customer"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: Sa blog na ito, ipapakita namin kung paano pinapayagan ng feature na
+  Bulk SMS ng SeaX ang mga ahente na proaktibong magpadala ng mga outbound na mensahe
+  sa pamamagitan ng text.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "Sa blog na ito, ipapakita namin kung paano pinapayagan ng feature na Bulk SMS ng SeaX ang mga ahente na proaktibong magpadala ng mga outbound na mensahe sa pamamagitan ng text."
+metatitle: 'SeaX Bulk SMS: Para sa Mas Mabilis, Mas Epektibong Pakikipag...'
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: Para sa Mas Mabilis, Mas Epektibong Pakikipag-ugnayan sa Customer'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
 ---
+
 
 *Sa aming mga nakaraang blog post, tinalakay namin ang ilan sa mga pangunahing feature ng SeaX (kabilang ang [Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Knowledge Base](https://seasalt.ai/blog/22-seax-knowledge-base/), at [Case Management](https://seasalt.ai/blog/23-seax-case-management/)) na tumutulong sa mga ahente na mas mahusay na hawakan ang mga papasok na tawag at mensahe. Sa blog na ito, ipapakita namin kung paano pinapayagan ng feature na Bulk SMS ng SeaX ang mga ahente na proaktibong magpadala ng mga outbound na mensahe sa pamamagitan ng text, na ipinapakita na mas mabilis at mas pare-pareho ang pagbubukas ng mga tatanggap kaysa sa tradisyonal na komunikasyon sa email.*
 

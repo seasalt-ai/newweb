@@ -1,13 +1,15 @@
 ---
-title: كيف تنشئ مجتمع وبوت على Discord
-slug: how-to-create-a-discord-community-and-bot
-seoTitle: كيف تنشئ مجتمع وبوت على Discord
+metatitle: كيف تنشئ مجتمع وبوت على Discord
 seoDescription: دليل شامل لبناء مجتمع Discord وإنشاء بوت، حلول تفاعلية للأعمال والهوايات.
+seoTitle: كيف تنشئ مجتمع وبوت على Discord
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - مجتمع
-  - بوت
+- Discord
+- مجتمع
+- بوت
+title: كيف تنشئ مجتمع وبوت على Discord
 ---
+
 
 Discord هو منصة شهيرة لبناء المجتمعات عبر الإنترنت. باستخدام البوتات، يمكنك تعزيز التفاعل والأتمتة في خادم Discord الخاص بك.
 

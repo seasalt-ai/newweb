@@ -1,19 +1,20 @@
 ---
-title: "Élevez votre expérience de chat : Pourquoi SeaChat surpasse IBM Watson NLU"
-metatitle: "Élevez votre expérience de chat : Pourquoi SeaChat surpasse IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
-draft: false
-author: Xuchen Yao
-description: Dans le domaine de l'IA conversationnelle, IBM Watson NLU était populaire, mais SeaChat basé sur les grands modèles de langage (LLMs) peut surmonter les limitations et créer des expériences de conversation plus naturelles et fluides.
-weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
-image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
+title: "Élevez votre expérience de chat : Pourquoi SeaC..."
+metatitle: "Élevez votre expérience de chat : Pourquoi SeaC..."
+date: "2024-04-02T00:22:19-07:00"
+lastmod: "2024-04-03T00:22:19-07:00"
+modified_date: "2024-12-19T10:30:00-07:00"
+draft: "false"
+author: "Xuchen Yao"
+description: "Dans le domaine de l'IA conversationnelle, IBM Watson NLU était populaire, mais SeaChat basé sur ..."
+weight: "1"
+tags:
+image: "/images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png"
 canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
 url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'Votre chatbot se sent-il répétitif et peu naturel ? Voulez-vous offrir à vos clients une expérience de chat plus naturelle ? Alors il est temps de considérer SeaChat, un produit d'assistant IA puissant construit sur les grands modèles de langage (LLMs). Alors que [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) a été un outil fiable pour l'analyse de texte, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) offre une approche révolutionnaire pour l'IA conversationnelle, laissant loin derrière les moteurs NLU traditionnels.'
+summary: "Votre chatbot se sent-il répétitif et peu naturel ? Voulez-vous offrir à vos ..."
 ---
+
 
 Votre chatbot se sent-il répétitif et peu naturel ? Voulez-vous offrir à vos clients une expérience de chat plus naturelle ? Alors il est temps de considérer SeaChat, un produit d'assistant IA puissant construit sur les grands modèles de langage (LLMs). Alors que [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) a été un outil fiable pour l'analyse de texte, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) offre une approche révolutionnaire pour l'IA conversationnelle, laissant loin derrière les moteurs NLU traditionnels.
 

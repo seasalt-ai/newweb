@@ -1,12 +1,16 @@
 ---
-title: Cara Mengevaluasi Respons AI Customer Service SeaChat
-lang: id
-description: Artikel ini menjelaskan secara detail untuk pengguna Indonesia bagaimana mengevaluasi kualitas respons AI customer service SeaChat, serta memberikan saran SEO.
 author: SeaHealth Editorial Team
+description: Artikel ini menjelaskan secara detail untuk pengguna Indonesia bagaimana
+  mengevaluasi kualitas respons AI customer service SeaChat, serta memberikan saran
+  SEO.
+lang: id
+metatitle: Cara Mengevaluasi Respons AI Customer Service SeaChat
+modified_date: 2024-07-19 00:00:00+00:00
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
-modified_date: 2024-07-19T00:00:00Z
+title: Cara Mengevaluasi Respons AI Customer Service SeaChat
 ---
+
 
 # Cara Mengevaluasi Respons AI Customer Service SeaChat
 

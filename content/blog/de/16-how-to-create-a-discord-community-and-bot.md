@@ -1,13 +1,16 @@
 ---
-title: So erstellen Sie eine Discord-Community und einen Bot
-slug: how-to-create-a-discord-community-and-bot
+metatitle: So erstellen Sie eine Discord-Community und einen Bot
+seoDescription: Vollständige Anleitung zum Aufbau einer Discord-Community und zur
+  Erstellung eines Bots – interaktive Lösungen für Unternehmen und Hobbyprojekte.
 seoTitle: So erstellen Sie eine Discord-Community und einen Bot
-seoDescription: Vollständige Anleitung zum Aufbau einer Discord-Community und zur Erstellung eines Bots – interaktive Lösungen für Unternehmen und Hobbyprojekte.
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - Community
-  - Bot
+- Discord
+- Community
+- Bot
+title: So erstellen Sie eine Discord-Community und einen Bot
 ---
+
 
 Discord ist eine beliebte Plattform zum Aufbau von Online-Communities. Mit Bots können Sie die Interaktion und Automatisierung auf Ihrem Discord-Server verbessern.
 

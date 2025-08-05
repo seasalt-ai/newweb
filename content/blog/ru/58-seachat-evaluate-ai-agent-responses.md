@@ -1,11 +1,14 @@
 ---
-title: Как оценивать ответы SeaChat AI Agent
-lang: ru
-description: Руководство для русскоязычных пользователей по оценке качества ответов SeaChat AI Agent с советами по SEO.
 author: SeaHealth Editorial Team
+description: Руководство для русскоязычных пользователей по оценке качества ответов
+  SeaChat AI Agent с советами по SEO.
+lang: ru
+metatitle: Как оценивать ответы SeaChat AI Agent
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: Как оценивать ответы SeaChat AI Agent
 ---
+
 
 # Как оценивать ответы SeaChat AI Agent
 

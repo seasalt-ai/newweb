@@ -1,11 +1,18 @@
 ---
-title: "Getting Started with Next.js: A Beginner's Guide"
-meta_description: "Learn the basics of Next.js, a React framework for building production-ready web applications with server-side rendering and static site generation."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Learn the basics of Next.js, a React framework for building production-ready
+  web applications with server-side rendering and static site generation.
+metatitle: 'Getting Started with Next.js: A Beginner''s Guide'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Getting Started with Next.js: A Beginner''s Guide'
 ---
+
 
 # Getting Started with Next.js: A Beginner's Guide
 

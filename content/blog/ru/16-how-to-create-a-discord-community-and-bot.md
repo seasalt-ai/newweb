@@ -1,11 +1,14 @@
 ---
-title: Как создать сообщество и бота в Discord
-lang: ru
-description: Узнайте, как создать сообщество в Discord и автоматизировать управление с помощью собственного бота. Советы по SEO для русскоязычных пользователей.
 author: SeaHealth Editorial Team
+description: Узнайте, как создать сообщество в Discord и автоматизировать управление
+  с помощью собственного бота. Советы по SEO для русскоязычных пользователей.
+lang: ru
+metatitle: Как создать сообщество и бота в Discord
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: Как создать сообщество и бота в Discord
 ---
+
 
 # Как создать сообщество и бота в Discord
 

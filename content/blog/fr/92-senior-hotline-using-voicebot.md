@@ -1,19 +1,20 @@
 ---
-title: "SeaX + SeaChat : Les assistants vocaux IA révolutionnent les soins aux aînés avec des solutions intelligentes"
-metatitle: "SeaX + SeaChat : Révolutionner les soins aux aînés grâce aux assistants vocaux IA - Application réussie des lignes d'assistance intelligentes"
-date: 2024-08-16T00:22:19-07:00
-modified_date: 2024-12-19T10:00:00-07:00
-draft: false
-author: Jun Mao
-description: "Découvrez comment le système d'assistant vocal IA SeaX + SeaChat aborde les défis des soins aux aînés dans la société super-âgée de Taiwan. Apprenez comment les lignes d'assistance intelligentes améliorent la qualité de vie des aînés, fournissent des soins immédiats, une compagnie émotionnelle et une surveillance de la santé tout en abordant les pénuries de main-d'œuvre."
-weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
-image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
+title: "SeaX + SeaChat : Les assistants vocaux IA révol..."
+metatitle: "SeaX + SeaChat : Révolutionner les soins aux aî..."
+date: "2024-08-16T00:22:19-07:00"
+modified_date: "2024-12-19T10:00:00-07:00"
+draft: "false"
+author: "Jun Mao"
+description: "Découvrez comment le système d'assistant vocal IA SeaX + SeaChat aborde les défis des soins aux a..."
+weight: "1"
+tags:
+toc: "true"
+image: "/images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebo..."
 canonicalURL: "/blog/senior-hotline-using-voicebot/"
 url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Alors que Taiwan progresse vers une société super-âgée, les soins aux aînés font face à des défis sans précédent. Selon les données du Conseil national de développement, le ratio de population âgée de Taiwan atteindra près de 20% en 2024 et devrait entrer officiellement dans une société super-âgée en 2025. Au milieu de ces changements démographiques, comment fournir efficacement des soins immédiats, des services diversifiés et résoudre les problèmes de pénurie de main-d'œuvre est devenu les trois défis majeurs auxquels fait face l'industrie actuelle des soins de longue durée.'
+summary: "Alors que Taiwan progresse vers une société super-âgée, les soins aux aînés f..."
 ---
+
 
 Alors que Taiwan progresse vers une société super-âgée, les soins aux aînés font face à des défis sans précédent. Selon les données du Conseil national de développement, le ratio de population âgée de Taiwan atteindra près de 20% en 2024 et devrait entrer officiellement dans une société super-âgée en 2025. Au milieu de ces changements démographiques, comment fournir efficacement des soins immédiats, des services diversifiés et résoudre les problèmes de pénurie de main-d'œuvre est devenu les trois défis majeurs auxquels fait face l'industrie actuelle des soins de longue durée.
 

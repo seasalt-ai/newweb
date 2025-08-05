@@ -1,12 +1,19 @@
 ---
-title: "Next.js の始め方: 初心者向けガイド"
-meta_description: "サーバーサイドレンダリングと静的サイト生成を備えた本番環境対応のウェブアプリケーションを構築するための React フレームワークである Next.js の基本を学びましょう。"
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: サーバーサイドレンダリングと静的サイト生成を備えた本番環境対応のウェブアプリケーションを構築するための React フレームワークである
+  Next.js の基本を学びましょう。
+metatitle: 'Next.js の始め方: 初心者向けガイド'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Next.js の始め方: 初心者向けガイド'
 ---
+
 
 # Next.js の始め方: 初心者向けガイド
 

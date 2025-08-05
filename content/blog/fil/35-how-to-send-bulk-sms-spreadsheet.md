@@ -1,13 +1,16 @@
 ---
-title: Paano Magpadala ng Bulk SMS gamit ang Spreadsheet
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Paano Magpadala ng Bulk SMS gamit ang Spreadsheet
+seoDescription: Kumpletong gabay sa pagpapadala ng bulk SMS gamit ang spreadsheet—isang
+  epektibong solusyon para sa mga modernong negosyo.
 seoTitle: Paano Magpadala ng Bulk SMS gamit ang Spreadsheet
-seoDescription: Kumpletong gabay sa pagpapadala ng bulk SMS gamit ang spreadsheet—isang epektibong solusyon para sa mga modernong negosyo.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Spreadsheet
-  - Automation
+- SMS
+- Spreadsheet
+- Automation
+title: Paano Magpadala ng Bulk SMS gamit ang Spreadsheet
 ---
+
 
 Mas pinadali na ngayon ang pagpapadala ng bulk SMS gamit ang spreadsheet. Maaaring pamahalaan ng mga negosyo ang listahan ng mga kontak at magpadala ng mensahe sa maraming customer nang sabay-sabay.
 

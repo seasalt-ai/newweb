@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging은 Google Business Messages를 보완합니다"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging은 대화형 AI를 Google Business Messages와 통합하여 Google 지도 프로필의 채팅 버튼을 통해 24시간 연중무휴 지원을 제공합니다."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging은 대화형 AI를 Google Business Messages와 통합하여 Google 지도 프로필의
+  채팅 버튼을 통해 24시간 연중무휴 지원을 제공합니다.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging은 Google Business Messages를 보완합니다
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging은 Google Business Messages를 보완합니다
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 이전 블로그 게시물 중 하나에서 [Google Business Messages의 이점과 한계](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/)에 대해 설명했습니다. Google Business Messages의 일반적인 구현에는 두 가지 주요 한계가 있습니다. 첫 번째 한계는 전문 컨설팅 기관에 비용과 시간을 많이 들여 비즈니스에 맞는 맞춤형 가상 에이전트를 처음부터 만드는 것입니다. 두 번째 한계는 컨설팅 기관이 구현의 일부로 실시간 채팅 기능을 제공하지 않는 한 비즈니스 소유자가 고객과 직접 대화할 수 없다는 것입니다.
 

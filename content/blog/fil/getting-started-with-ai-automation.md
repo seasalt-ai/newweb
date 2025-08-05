@@ -1,12 +1,20 @@
 ---
-title: "Pagsisimula sa AI Automation para sa Maliliit na Negosyo"
-meta_description: "Alamin kung paano magagamit ng maliliit na negosyo ang AI automation upang mapabuti ang serbisyo sa customer, mapataas ang kahusayan, at mapalago ang negosyo nang hindi lumalampas sa badyet."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Alamin kung paano magagamit ng maliliit na negosyo ang AI automation
+  upang mapabuti ang serbisyo sa customer, mapataas ang kahusayan, at mapalago ang
+  negosyo nang hindi lumalampas sa badyet.
+metatitle: Pagsisimula sa AI Automation para sa Maliliit na Negosyo
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: Pagsisimula sa AI Automation para sa Maliliit na Negosyo
 ---
+
 
 # Pagsisimula sa AI Automation para sa Maliliit na Negosyo
 

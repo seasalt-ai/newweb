@@ -1,12 +1,22 @@
 ---
-title: "Creación de contenido multimedia impulsado por IA para la participación del cliente"
-meta_description: "Aprenda a aprovechar la IA y el contenido multimedia para crear experiencias de cliente atractivas en todos los canales. Incluye ejemplos de video, elementos interactivos y mejores prácticas."
-author: "Sarah Chen"
-tags: ["Contenido de IA", "Multimedia", "Participación del cliente", "Marketing digital", "Contenido de video"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Aprenda a aprovechar la IA y el contenido multimedia para crear
+  experiencias de cliente atractivas en todos los canales. Incluye ejemplos de video,
+  elementos interactivos y mejores prácticas.
+metatitle: Creación de contenido multimedia impulsado por IA para la pa...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- Contenido de IA
+- Multimedia
+- Participación del cliente
+- Marketing digital
+- Contenido de video
+title: Creación de contenido multimedia impulsado por IA para la participación del
+  cliente
 ---
+
 
 # Creación de contenido multimedia impulsado por IA para la participación del cliente
 

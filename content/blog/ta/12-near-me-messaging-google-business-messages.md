@@ -1,16 +1,20 @@
 ---
-title: "Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறது"
 author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging ஆனது உரையாடல் AI ஐ Google Business Messages உடன் ஒருங்கிணைக்கிறது,
+  இது உங்கள் Google Maps சுயவிவரத்தில் உள்ள அரட்டை பொத்தான் வழியாக 24/7 ஆதரவை அனுமதிக்கிறது.
 draft: false
-description: "Near Me Messaging ஆனது உரையாடல் AI ஐ Google Business Messages உடன் ஒருங்கிணைக்கிறது, இது உங்கள் Google Maps சுயவிவரத்தில் உள்ள அரட்டை பொத்தான் வழியாக 24/7 ஆதரவை அனுமதிக்கிறது."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
-modified_date: "2025-07-28T16:56:53Z"
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறத...
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறது
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 எங்கள் முந்தைய வலைப்பதிவுகளில் ஒன்றில், [Google Business Messages இன் நன்மைகள் மற்றும் வரம்புகள்](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/) பற்றி நாங்கள் உங்களுக்கு விளக்கினோம். Google Business Messages இன் பொதுவான செயலாக்கங்களில் இரண்டு முக்கிய வரம்புகள் உள்ளன. முதல் வரம்பு என்னவென்றால், உங்கள் வணிகத்திற்கான தனிப்பயனாக்கப்பட்ட மெய்நிகர் முகவரை புதிதாக உருவாக்க ஒரு தொழில்முறை ஆலோசனை நிறுவனத்திற்கு பணம் செலுத்த நிறைய பணமும் நேரமும் ஆகும். இரண்டாவது வரம்பு என்னவென்றால், ஆலோசனை நிறுவனம் தங்கள் செயலாக்கத்தின் ஒரு பகுதியாக நேரடி அரட்டை அம்சத்தை வழங்காத வரை வணிக உரிமையாளர்கள் வாடிக்கையாளர்களுடன் நேரடியாக பேச முடியாது.
 

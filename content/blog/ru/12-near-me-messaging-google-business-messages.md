@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging дополняет Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging интегрирует разговорный ИИ с Google Business Messages, обеспечивая круглосуточную поддержку через кнопку чата в вашем профиле Google Maps."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging интегрирует разговорный ИИ с Google Business Messages,
+  обеспечивая круглосуточную поддержку через кнопку чата в вашем профиле Google Maps.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging дополняет Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging дополняет Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 В одном из наших предыдущих блогов мы рассказали вам о [преимуществах и ограничениях Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Существует два основных ограничения в распространенных реализациях Google Business Messages. Первое ограничение заключается в том, что требуется много денег и времени, чтобы заплатить профессиональному консалтинговому агентству за создание индивидуального виртуального агента для вашего бизнеса с нуля. Второе ограничение заключается в том, что владельцы бизнеса не могут напрямую общаться с клиентами, если консалтинговое агентство не предоставляет функцию живого чата как часть своей реализации.
 

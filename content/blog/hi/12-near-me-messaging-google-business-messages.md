@@ -1,18 +1,23 @@
 ---
-title: "नियर मी मैसेजिंग Google Business Messages का पूरक है"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "नियर मी मैसेजिंग Google Business Messages के साथ संवादी AI को एकीकृत करता है, जिससे आपके Google Maps प्रोफ़ाइल पर चैट बटन के माध्यम से 24/7 सहायता मिलती है।"
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: नियर मी मैसेजिंग Google Business Messages के साथ संवादी AI को एकीकृत
+  करता है, जिससे आपके Google Maps प्रोफ़ाइल पर चैट बटन के माध्यम से 24/7 सहायता मिलती
+  है।
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: नियर मी मैसेजिंग Google Business Messages का पूरक है
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: नियर मी मैसेजिंग Google Business Messages का पूरक है
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 हमारे पिछले ब्लॉगों में से एक में, हमने आपको [Google Business Messages के लाभों और सीमाओं](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/) के बारे में बताया था। Google Business Messages के सामान्य कार्यान्वयन के साथ दो मुख्य सीमाएँ हैं। पहली सीमा यह है कि एक पेशेवर परामर्श एजेंसी को आपके व्यवसाय के लिए शुरू से ही एक अनुकूलित वर्चुअल एजेंट बनाने के लिए बहुत पैसा और समय लगता है। दूसरी सीमा यह है कि व्यवसाय के मालिक सीधे ग्राहकों से बात नहीं कर सकते जब तक कि परामर्श एजेंसी अपने कार्यान्वयन के हिस्से के रूप में लाइव-चैट सुविधा प्रदान न करे।
 

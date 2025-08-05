@@ -1,13 +1,20 @@
 ---
-title: "Ang Kinabukasan ng Serbisyo sa Customer: AI, Automation, at Koneksyon ng Tao"
-meta_description: "Galugarin kung paano binabago ng AI at automation ang serbisyo sa customer habang pinapanatili ang ugnayan ng tao na pinahahalagahan ng mga customer."
-author: "Dr. Emily Watson"
-tags: ["Kinabukasan ng Trabaho", "AI", "Karanasan ng Customer", "Mga Trend ng Teknolohiya"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Galugarin kung paano binabago ng AI at automation ang serbisyo sa
+  customer habang pinapanatili ang ugnayan ng tao na pinahahalagahan ng mga customer.
+metatitle: 'Ang Kinabukasan ng Serbisyo sa Customer: AI, Automation, at ...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- Kinabukasan ng Trabaho
+- AI
+- Karanasan ng Customer
+- Mga Trend ng Teknolohiya
+title: 'Ang Kinabukasan ng Serbisyo sa Customer: AI, Automation, at Koneksyon ng Tao'
 ---
+
 
 # Ang Kinabukasan ng Serbisyo sa Customer: AI, Automation, at Koneksyon ng Tao
 

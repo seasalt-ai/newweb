@@ -1,12 +1,18 @@
 ---
-title: "小型企业 AI 自动化入门"
-meta_description: "了解小型企业如何利用 AI 自动化来改善客户服务、提高效率并在不超出预算的情况下推动增长。"
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: 了解小型企业如何利用 AI 自动化来改善客户服务、提高效率并在不超出预算的情况下推动增长。
+metatitle: 小型企业 AI 自动化入门
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: 小型企业 AI 自动化入门
 ---
+
 
 # 小型企业 AI 自动化入门
 

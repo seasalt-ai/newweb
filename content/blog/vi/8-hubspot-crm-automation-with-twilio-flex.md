@@ -1,11 +1,14 @@
 ---
-title: HubSpot CRM Automation with Twilio Flex
-lang: vi
-description: Hướng dẫn chi tiết cho người dùng Việt về tự động hóa HubSpot CRM với Twilio Flex, kèm mẹo SEO.
 author: SeaHealth Editorial Team
+description: Hướng dẫn chi tiết cho người dùng Việt về tự động hóa HubSpot CRM với
+  Twilio Flex, kèm mẹo SEO.
+lang: vi
+metatitle: HubSpot CRM Automation with Twilio Flex
 published: 2024-07-01
 slug: 8-hubspot-crm-automation-with-twilio-flex
+title: HubSpot CRM Automation with Twilio Flex
 ---
+
 
 # HubSpot CRM Automation với Twilio Flex
 

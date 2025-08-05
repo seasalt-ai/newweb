@@ -1,12 +1,20 @@
 ---
-title: "고객 참여를 위한 AI 기반 멀티미디어 콘텐츠 제작"
-meta_description: "AI 및 멀티미디어 콘텐츠를 활용하여 모든 채널에서 매력적인 고객 경험을 만드는 방법을 알아보세요. 비디오 예시, 대화형 요소 및 모범 사례가 포함되어 있습니다."
-author: "Sarah Chen"
-tags: ["AI 콘텐츠", "멀티미디어", "고객 참여", "디지털 마케팅", "비디오 콘텐츠"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: AI 및 멀티미디어 콘텐츠를 활용하여 모든 채널에서 매력적인 고객 경험을 만드는 방법을 알아보세요. 비디오 예시,
+  대화형 요소 및 모범 사례가 포함되어 있습니다.
+metatitle: 고객 참여를 위한 AI 기반 멀티미디어 콘텐츠 제작
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- AI 콘텐츠
+- 멀티미디어
+- 고객 참여
+- 디지털 마케팅
+- 비디오 콘텐츠
+title: 고객 참여를 위한 AI 기반 멀티미디어 콘텐츠 제작
 ---
+
 
 # 고객 참여를 위한 AI 기반 멀티미디어 콘텐츠 제작
 

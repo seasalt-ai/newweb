@@ -1,11 +1,14 @@
 ---
-title: Cách đánh giá phản hồi của AI Agent trên SeaChat
-lang: vi
-description: Hướng dẫn chi tiết cho người dùng Việt về cách đánh giá phản hồi của AI Agent trên SeaChat, kèm mẹo SEO.
 author: SeaHealth Editorial Team
+description: Hướng dẫn chi tiết cho người dùng Việt về cách đánh giá phản hồi của
+  AI Agent trên SeaChat, kèm mẹo SEO.
+lang: vi
+metatitle: Cách đánh giá phản hồi của AI Agent trên SeaChat
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: Cách đánh giá phản hồi của AI Agent trên SeaChat
 ---
+
 
 # Cách đánh giá phản hồi của AI Agent trên SeaChat
 

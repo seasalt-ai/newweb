@@ -1,16 +1,23 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: Mga Pagpapabuti sa Backend at Katatagan"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: Sa pinakabagong release, ang SeaVoice Discord Bot ay naglulunsad ng malawakang
+  pagpapabuti sa backend na nagpapataas ng katatagan ng bot at tumutulong sa pagbuo
+  sa hinaharap.
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Sa pinakabagong release, ang SeaVoice Discord Bot ay naglulunsad ng malawakang pagpapabuti sa backend na nagpapataas ng katatagan ng bot at tumutulong sa pagbuo sa hinaharap.
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'SeaVoice STT/TTS Discord Bot: Mga Pagpapabuti sa Backend at ...'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: Mga Pagpapabuti sa Backend at Katatagan'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *Ang SeaVoice Discord Bot ay nagiging popular bilang isa sa mga pinakamahusay na opsyon para sa pag-transcribe ng pagsasalita sa mga voice channel ng Discord. Sa pinakabagong release, naglulunsad kami ng malawakang pagpapabuti sa backend na nagpapataas ng katatagan ng bot at tumutulong sa pagbuo sa hinaharap.*
 

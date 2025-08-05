@@ -1,13 +1,16 @@
 ---
-title: Cách gửi SMS hàng loạt bằng bảng tính
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Cách gửi SMS hàng loạt bằng bảng tính
+seoDescription: Hướng dẫn đầy đủ về cách gửi SMS hàng loạt bằng bảng tính, giải pháp
+  hiệu quả cho doanh nghiệp hiện đại.
 seoTitle: Cách gửi SMS hàng loạt bằng bảng tính
-seoDescription: Hướng dẫn đầy đủ về cách gửi SMS hàng loạt bằng bảng tính, giải pháp hiệu quả cho doanh nghiệp hiện đại.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Bảng tính
-  - Tự động hóa
+- SMS
+- Bảng tính
+- Tự động hóa
+title: Cách gửi SMS hàng loạt bằng bảng tính
 ---
+
 
 Gửi SMS hàng loạt trở nên dễ dàng hơn với sự hỗ trợ của bảng tính. Doanh nghiệp có thể quản lý danh sách liên hệ hiệu quả và gửi tin nhắn đến nhiều khách hàng cùng lúc.
 

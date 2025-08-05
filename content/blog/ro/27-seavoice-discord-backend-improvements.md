@@ -1,16 +1,23 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: Îmbunătățiri backend și stabilitate"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: Cu cea mai recentă versiune lansată, SeaVoice Discord Bot introduce îmbunătățiri
+  masive ale backend-ului care îmbunătățesc stabilitatea botului și ajută la dezvoltarea
+  viitoare.
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: "Cu cea mai recentă versiune lansată, SeaVoice Discord Bot introduce îmbunătățiri masive ale backend-ului care îmbunătățesc stabilitatea botului și ajută la dezvoltarea viitoare."
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: 2024-12-19T10:30:00Z
+metatitle: 'SeaVoice STT/TTS Discord Bot: Îmbunătățiri backend și stabil...'
+modified_date: 2024-12-19 10:30:00+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: Îmbunătățiri backend și stabilitate'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot devine din ce în ce mai popular ca una dintre cele mai bune opțiuni pentru transcrierea vocală în canalele vocale Discord. Cu cea mai recentă versiune lansată, introducem îmbunătățiri masive ale backend-ului care vor îmbunătăți stabilitatea botului și vor ajuta la dezvoltarea viitoare.*
 

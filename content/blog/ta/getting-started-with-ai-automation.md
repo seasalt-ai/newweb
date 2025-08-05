@@ -1,12 +1,20 @@
 ---
-title: "சிறு வணிகங்களுக்கான AI ஆட்டோமேஷனுடன் தொடங்குதல்"
-meta_description: "சிறு வணிகங்கள் AI ஆட்டோமேஷனைப் பயன்படுத்தி வாடிக்கையாளர் சேவையை மேம்படுத்துவது, செயல்திறனை அதிகரிப்பது மற்றும் பட்ஜெட்டை மீறாமல் வளர்ச்சியை எவ்வாறு இயக்குவது என்பதை அறிக."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: சிறு வணிகங்கள் AI ஆட்டோமேஷனைப் பயன்படுத்தி வாடிக்கையாளர் சேவையை
+  மேம்படுத்துவது, செயல்திறனை அதிகரிப்பது மற்றும் பட்ஜெட்டை மீறாமல் வளர்ச்சியை எவ்வாறு
+  இயக்குவது என்பதை அறிக.
+metatitle: சிறு வணிகங்களுக்கான AI ஆட்டோமேஷனுடன் தொடங்குதல்
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: சிறு வணிகங்களுக்கான AI ஆட்டோமேஷனுடன் தொடங்குதல்
 ---
+
 
 # சிறு வணிகங்களுக்கான AI ஆட்டோமேஷனுடன் தொடங்குதல்
 

@@ -1,11 +1,14 @@
 ---
-title: How to Evaluate SeaChat AI Agent Responses
-lang: fil
-description: Gabay para sa mga Pilipinong user kung paano epektibong suriin ang mga sagot ng SeaChat AI Agent, kasama ang SEO tips.
 author: SeaHealth Editorial Team
+description: Gabay para sa mga Pilipinong user kung paano epektibong suriin ang mga
+  sagot ng SeaChat AI Agent, kasama ang SEO tips.
+lang: fil
+metatitle: How to Evaluate SeaChat AI Agent Responses
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: How to Evaluate SeaChat AI Agent Responses
 ---
+
 
 # How to Evaluate SeaChat AI Agent Responses
 

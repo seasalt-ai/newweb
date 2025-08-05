@@ -1,16 +1,22 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: Cải thiện Backend & Độ ổn định"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: Với bản phát hành mới nhất, SeaVoice Discord Bot ra mắt các cải tiến
+  backend lớn giúp cải thiện độ ổn định của bot và hỗ trợ phát triển trong tương lai.
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Với bản phát hành mới nhất, SeaVoice Discord Bot ra mắt các cải tiến backend lớn giúp cải thiện độ ổn định của bot và hỗ trợ phát triển trong tương lai.
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'SeaVoice STT/TTS Discord Bot: Cải thiện Backend & Độ ổn định'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: Cải thiện Backend & Độ ổn định'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot đã trở nên phổ biến như một trong những lựa chọn tốt nhất để phiên âm giọng nói trong các kênh thoại Discord. Với bản phát hành mới nhất, chúng tôi đang triển khai các cải tiến backend lớn giúp cải thiện độ ổn định của bot và hỗ trợ phát triển trong tương lai.*
 

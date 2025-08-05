@@ -1,11 +1,13 @@
 ---
-title: SeaChat AIエージェントの回答を評価する方法
-lang: ja
-description: 日本語ユーザー向けにSeaChat AIエージェントの回答品質を評価する方法とSEOのポイントを解説します。
 author: SeaHealth Editorial Team
+description: 日本語ユーザー向けにSeaChat AIエージェントの回答品質を評価する方法とSEOのポイントを解説します。
+lang: ja
+metatitle: SeaChat AIエージェントの回答を評価する方法
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: SeaChat AIエージェントの回答を評価する方法
 ---
+
 
 # SeaChat AIエージェントの回答を評価する方法
 

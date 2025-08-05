@@ -1,13 +1,21 @@
 ---
-title: "Tương lai của dịch vụ khách hàng: AI, tự động hóa và kết nối con người"
-meta_description: "Khám phá cách AI và tự động hóa đang định hình lại dịch vụ khách hàng trong khi vẫn duy trì sự tiếp xúc của con người mà khách hàng đánh giá cao nhất."
-author: "Dr. Emily Watson"
-tags: ["Tương lai công việc", "AI", "Trải nghiệm khách hàng", "Xu hướng công nghệ"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Khám phá cách AI và tự động hóa đang định hình lại dịch vụ khách
+  hàng trong khi vẫn duy trì sự tiếp xúc của con người mà khách hàng đánh giá cao
+  nhất.
+metatitle: 'Tương lai của dịch vụ khách hàng: AI, tự động hóa và kết nối...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- Tương lai công việc
+- AI
+- Trải nghiệm khách hàng
+- Xu hướng công nghệ
+title: 'Tương lai của dịch vụ khách hàng: AI, tự động hóa và kết nối con người'
 ---
+
 
 # Tương lai của dịch vụ khách hàng: AI, tự động hóa và kết nối con người
 

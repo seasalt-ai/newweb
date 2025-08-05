@@ -1,12 +1,19 @@
 ---
-title: "เริ่มต้นใช้งาน AI Automation สำหรับธุรกิจขนาดเล็ก"
-meta_description: "เรียนรู้วิธีที่ธุรกิจขนาดเล็กสามารถใช้ประโยชน์จาก AI automation เพื่อปรับปรุงบริการลูกค้า เพิ่มประสิทธิภาพ และขับเคลื่อนการเติบโตโดยไม่เกินงบประมาณ"
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: เรียนรู้วิธีที่ธุรกิจขนาดเล็กสามารถใช้ประโยชน์จาก AI automation
+  เพื่อปรับปรุงบริการลูกค้า เพิ่มประสิทธิภาพ และขับเคลื่อนการเติบโตโดยไม่เกินงบประมาณ
+metatitle: เริ่มต้นใช้งาน AI Automation สำหรับธุรกิจขนาดเล็ก
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: เริ่มต้นใช้งาน AI Automation สำหรับธุรกิจขนาดเล็ก
 ---
+
 
 # เริ่มต้นใช้งาน AI Automation สำหรับธุรกิจขนาดเล็ก
 

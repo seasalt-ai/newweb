@@ -1,13 +1,20 @@
 ---
-title: "مستقبل خدمة العملاء: الذكاء الاصطناعي، الأتمتة، والتواصل البشري"
-meta_description: "اكتشف كيف يعيد الذكاء الاصطناعي والأتمتة تشكيل خدمة العملاء مع الحفاظ على اللمسة البشرية التي يقدرها العملاء أكثر من غيرها."
-author: "Dr. Emily Watson"
-tags: ["مستقبل العمل", "الذكاء الاصطناعي", "تجربة العملاء", "اتجاهات التكنولوجيا"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: اكتشف كيف يعيد الذكاء الاصطناعي والأتمتة تشكيل خدمة العملاء مع الحفاظ
+  على اللمسة البشرية التي يقدرها العملاء أكثر من غيرها.
+metatitle: 'مستقبل خدمة العملاء: الذكاء الاصطناعي، الأتمتة، والتواصل الب...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- مستقبل العمل
+- الذكاء الاصطناعي
+- تجربة العملاء
+- اتجاهات التكنولوجيا
+title: 'مستقبل خدمة العملاء: الذكاء الاصطناعي، الأتمتة، والتواصل البشري'
 ---
+
 
 # مستقبل خدمة العملاء: الذكاء الاصطناعي، الأتمتة، والتواصل البشري
 

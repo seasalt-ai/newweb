@@ -1,16 +1,21 @@
 ---
-title: "Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: இந்த வலைப்பதிவில், Discord-இன் வளர்ச்சி மற்றும் ஏன்/எப்படி நிறுவனங்கள்
+  Discord-ஐ வாடிக்கையாளர் ஈடுபாட்டை மேம்படுத்த பயன்படுத்த ஆரம்பித்துள்ளன என்பதை விவாதிக்கிறோம்.
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "இந்த வலைப்பதிவில், Discord-இன் வளர்ச்சி மற்றும் ஏன்/எப்படி நிறுவனங்கள் Discord-ஐ வாடிக்கையாளர் ஈடுபாட்டை மேம்படுத்த பயன்படுத்த ஆரம்பித்துள்ளன என்பதை விவாதிக்கிறோம்."
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *Discord-ன் பயனர் எண்ணிக்கை கடந்த சில ஆண்டுகளில் அதிகரித்துள்ளது மற்றும் இப்போது 'உங்கள் சமூகங்களுக்கும் நண்பர்களுக்கும் வீடு' என தன்னை மறுபரிசீலனை செய்துள்ளது. இந்த வலைப்பதிவில், Discord-இன் வளர்ச்சி மற்றும் ஏன்/எப்படி நிறுவனங்கள் Discord-ஐ வாடிக்கையாளர் ஈடுபாட்டை மேம்படுத்த பயன்படுத்த ஆரம்பித்துள்ளன என்பதை விவாதிக்கிறோம்.*
 

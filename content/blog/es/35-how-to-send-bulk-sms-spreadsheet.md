@@ -1,13 +1,16 @@
 ---
-title: Cómo enviar SMS masivos usando una hoja de cálculo
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Cómo enviar SMS masivos usando una hoja de cálculo
+seoDescription: Guía completa para enviar SMS masivos con hojas de cálculo, una solución
+  eficiente para empresas modernas.
 seoTitle: Cómo enviar SMS masivos usando una hoja de cálculo
-seoDescription: Guía completa para enviar SMS masivos con hojas de cálculo, una solución eficiente para empresas modernas.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Hoja de cálculo
-  - Automatización
+- SMS
+- Hoja de cálculo
+- Automatización
+title: Cómo enviar SMS masivos usando una hoja de cálculo
 ---
+
 
 Enviar SMS masivos es más sencillo con el apoyo de una hoja de cálculo. Las empresas pueden gestionar listas de contactos de manera eficiente y enviar mensajes a muchos clientes a la vez.
 

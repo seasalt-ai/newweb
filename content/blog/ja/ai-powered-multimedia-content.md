@@ -1,12 +1,19 @@
 ---
-title: "顧客エンゲージメントのためのAI搭載マルチメディアコンテンツの作成"
-meta_description: "AIとマルチメディアコンテンツを活用して、すべてのチャネルで魅力的な顧客体験を創造する方法を学びましょう。ビデオの例、インタラクティブな要素、ベストプラクティスが含まれています。"
-author: "Sarah Chen"
-tags: ["AIコンテンツ", "マルチメディア", "顧客エンゲージメント", "デジタルマーケティング", "ビデオコンテンツ"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: AIとマルチメディアコンテンツを活用して、すべてのチャネルで魅力的な顧客体験を創造する方法を学びましょう。ビデオの例、インタラクティブな要素、ベストプラクティスが含まれています。
+metatitle: 顧客エンゲージメントのためのAI搭載マルチメディアコンテンツの作成
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- AIコンテンツ
+- マルチメディア
+- 顧客エンゲージメント
+- デジタルマーケティング
+- ビデオコンテンツ
+title: 顧客エンゲージメントのためのAI搭載マルチメディアコンテンツの作成
 ---
+
 
 # 顧客エンゲージメントのためのAI搭載マルチメディアコンテンツの作成
 

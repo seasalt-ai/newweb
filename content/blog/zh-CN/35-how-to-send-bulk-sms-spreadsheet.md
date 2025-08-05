@@ -1,13 +1,15 @@
 ---
-title: 如何使用电子表格批量发送短信
-slug: how-to-send-bulk-sms-spreadsheet
-seoTitle: 如何使用电子表格批量发送短信
+metatitle: 如何使用电子表格批量发送短信
 seoDescription: 全面指南，教您如何通过电子表格高效批量发送短信，助力现代企业沟通。
+seoTitle: 如何使用电子表格批量发送短信
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - 短信
-  - 电子表格
-  - 自动化
+- 短信
+- 电子表格
+- 自动化
+title: 如何使用电子表格批量发送短信
 ---
+
 
 使用电子表格批量发送短信让企业能够高效管理联系人并一次性向大量客户发送消息。
 

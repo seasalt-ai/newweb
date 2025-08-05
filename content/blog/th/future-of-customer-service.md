@@ -1,13 +1,20 @@
 ---
-title: "อนาคตของการบริการลูกค้า: AI, ระบบอัตโนมัติ และการเชื่อมโยงกับมนุษย์"
-meta_description: "สำรวจว่า AI และระบบอัตโนมัติกำลังปรับเปลี่ยนการบริการลูกค้าอย่างไร ในขณะที่ยังคงรักษาความเป็นมนุษย์ที่ลูกค้าให้ความสำคัญมากที่สุด"
-author: "Dr. Emily Watson"
-tags: ["อนาคตของการทำงาน", "AI", "ประสบการณ์ของลูกค้า", "แนวโน้มเทคโนโลยี"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: สำรวจว่า AI และระบบอัตโนมัติกำลังปรับเปลี่ยนการบริการลูกค้าอย่างไร
+  ในขณะที่ยังคงรักษาความเป็นมนุษย์ที่ลูกค้าให้ความสำคัญมากที่สุด
+metatitle: 'อนาคตของการบริการลูกค้า: AI, ระบบอัตโนมัติ และการเชื่อมโยงกั...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- อนาคตของการทำงาน
+- AI
+- ประสบการณ์ของลูกค้า
+- แนวโน้มเทคโนโลยี
+title: 'อนาคตของการบริการลูกค้า: AI, ระบบอัตโนมัติ และการเชื่อมโยงกับมนุษย์'
 ---
+
 
 # อนาคตของการบริการลูกค้า: AI, ระบบอัตโนมัติ และการเชื่อมโยงกับมนุษย์
 

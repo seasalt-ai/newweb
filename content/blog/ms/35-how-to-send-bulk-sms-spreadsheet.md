@@ -1,13 +1,16 @@
 ---
-title: Cara Menghantar SMS Pukal Menggunakan Spreadsheet
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Cara Menghantar SMS Pukal Menggunakan Spreadsheet
+seoDescription: Panduan lengkap untuk menghantar SMS pukal dengan spreadsheet, penyelesaian
+  efisien untuk perniagaan moden.
 seoTitle: Cara Menghantar SMS Pukal Menggunakan Spreadsheet
-seoDescription: Panduan lengkap untuk menghantar SMS pukal dengan spreadsheet, penyelesaian efisien untuk perniagaan moden.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Spreadsheet
-  - Automasi
+- SMS
+- Spreadsheet
+- Automasi
+title: Cara Menghantar SMS Pukal Menggunakan Spreadsheet
 ---
+
 
 Menghantar SMS pukal kini lebih mudah dengan bantuan spreadsheet. Perniagaan boleh mengurus senarai kontak dengan cekap dan menghantar mesej kepada ramai pelanggan serentak.
 

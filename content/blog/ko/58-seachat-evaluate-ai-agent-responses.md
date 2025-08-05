@@ -1,11 +1,13 @@
 ---
-title: SeaChat AI 에이전트 응답 평가 방법
-lang: ko
-description: 한국어 사용자를 위한 SeaChat AI 에이전트 응답 평가 방법과 SEO 팁을 안내합니다.
 author: SeaHealth Editorial Team
+description: 한국어 사용자를 위한 SeaChat AI 에이전트 응답 평가 방법과 SEO 팁을 안내합니다.
+lang: ko
+metatitle: SeaChat AI 에이전트 응답 평가 방법
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: SeaChat AI 에이전트 응답 평가 방법
 ---
+
 
 # SeaChat AI 에이전트 응답 평가 방법
 

@@ -1,13 +1,21 @@
 ---
-title: "آینده خدمات مشتری: هوش مصنوعی، اتوماسیون و ارتباط انسانی"
-meta_description: "کشف کنید که چگونه هوش مصنوعی و اتوماسیون در حال تغییر شکل خدمات مشتری هستند، در حالی که لمس انسانی را که مشتریان بیش از همه ارزش قائل هستند، حفظ می‌کنند."
-author: "Dr. Emily Watson"
-tags: ["آینده کار", "هوش مصنوعی", "تجربه مشتری", "روندهای فناوری"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: کشف کنید که چگونه هوش مصنوعی و اتوماسیون در حال تغییر شکل خدمات
+  مشتری هستند، در حالی که لمس انسانی را که مشتریان بیش از همه ارزش قائل هستند، حفظ
+  می‌کنند.
+metatitle: 'آینده خدمات مشتری: هوش مصنوعی، اتوماسیون و ارتباط انسانی'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- آینده کار
+- هوش مصنوعی
+- تجربه مشتری
+- روندهای فناوری
+title: 'آینده خدمات مشتری: هوش مصنوعی، اتوماسیون و ارتباط انسانی'
 ---
+
 
 # آینده خدمات مشتری: هوش مصنوعی، اتوماسیون و ارتباط انسانی
 

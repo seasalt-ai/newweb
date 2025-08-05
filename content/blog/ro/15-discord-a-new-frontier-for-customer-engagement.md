@@ -1,16 +1,21 @@
 ---
-title: "Discord (1/3): O nouă frontieră pentru angajarea clienților"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: Acest blog va discuta ascensiunea Discord și de ce/cum companiile încep
+  să valorifice Discord pentru a îmbunătăți angajarea clienților.
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "Acest blog va discuta ascensiunea Discord și de ce/cum companiile încep să valorifice Discord pentru a îmbunătăți angajarea clienților."
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): O nouă frontieră pentru angajarea clienților'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): O nouă frontieră pentru angajarea clienților'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *Discord a văzut o explozie de utilizatori în ultimii ani și platforma s-a repoziționat acum ca "casa comunităților și prietenilor tăi". Acest blog va discuta ascensiunea Discord și de ce/cum companiile încep să valorifice Discord pentru a îmbunătăți angajarea clienților.*
 

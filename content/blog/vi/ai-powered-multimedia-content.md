@@ -1,12 +1,22 @@
 ---
-title: "Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường tương tác với khách hàng"
-meta_description: "Tìm hiểu cách tận dụng AI và nội dung đa phương tiện để tạo ra trải nghiệm khách hàng hấp dẫn trên tất cả các kênh. Bao gồm các ví dụ video, yếu tố tương tác và các phương pháp hay nhất."
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "Customer Engagement", "Digital Marketing", "Video Content"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: 2025-07-29T20:45:17Z
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Tìm hiểu cách tận dụng AI và nội dung đa phương tiện để tạo ra trải
+  nghiệm khách hàng hấp dẫn trên tất cả các kênh. Bao gồm các ví dụ video, yếu tố
+  tương tác và các phương pháp hay nhất.
+metatitle: Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường...
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- AI Content
+- Multimedia
+- Customer Engagement
+- Digital Marketing
+- Video Content
+title: Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường tương tác với
+  khách hàng
 ---
+
 
 # Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường tương tác với khách hàng
 

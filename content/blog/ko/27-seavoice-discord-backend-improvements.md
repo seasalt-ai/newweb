@@ -1,16 +1,21 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: 백엔드 및 안정성 개선"
-date: 2022-12-13T11:58:34-08:00
-draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
 description: 최신 릴리스를 통해 SeaVoice Discord Bot은 봇 안정성 및 향후 개발을 개선하는 대규모 백엔드 개선을 시작합니다.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+draft: false
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'SeaVoice STT/TTS Discord Bot: 백엔드 및 안정성 개선'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: 백엔드 및 안정성 개선'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot은 Discord 음성 채널에서 음성을 전사하는 데 가장 좋은 옵션 중 하나로 인기를 얻고 있습니다. 최신 릴리스를 통해 봇 안정성을 개선하고 향후 개발을 지원하는 대규모 백엔드 개선을 시작합니다.*
 

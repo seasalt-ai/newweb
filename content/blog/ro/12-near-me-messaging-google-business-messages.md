@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging completează Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging integrează IA conversațională cu Google Business Messages, oferind suport 24/7 prin butonul de chat de pe profilul tău Google Maps."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging integrează IA conversațională cu Google Business Messages,
+  oferind suport 24/7 prin butonul de chat de pe profilul tău Google Maps.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging completează Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging completează Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 În blogul nostru anterior, ți-am prezentat [avantajele și limitările Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Implementările comune ale Google Business Messages au două limitări principale. Prima limitare este că crearea unui agent virtual personalizat pentru afacerea ta de la zero necesită mult bani și timp pentru a plăti agenții de consultanță profesionale. A doua limitare este că proprietarii de afaceri nu pot vorbi direct cu clienții decât dacă agenția de consultanță oferă o funcționalitate de chat live ca parte a implementării lor.
 

@@ -1,18 +1,23 @@
 ---
-title: "Near Me Messaging complète Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging intègre l'IA conversationnelle avec Google Business Messages, fournissant un support 24/7 via le bouton de chat sur votre profil Google Maps."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging intègre l'IA conversationnelle avec Google Business
+  Messages, fournissant un support 24/7 via le bouton de chat sur votre profil Google
+  Maps.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging complète Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging complète Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Dans notre blog précédent, nous vous avons présenté les [avantages et limitations de Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Les implémentations courantes de Google Business Messages ont deux limitations principales. La première limitation est que créer un agent virtuel personnalisé pour votre entreprise à partir de zéro nécessite beaucoup d'argent et de temps pour payer des agences de conseil professionnelles. La deuxième limitation est que les propriétaires d'entreprise ne peuvent pas parler directement aux clients à moins que l'agence de conseil ne fournisse une fonctionnalité de chat en direct dans le cadre de leur implémentation.
 

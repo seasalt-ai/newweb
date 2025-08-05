@@ -1,13 +1,20 @@
 ---
-title: "L'avenir du service client: IA, automatisation et connexion humaine"
-meta_description: "Découvrez comment l'IA et l'automatisation transforment le service client tout en maintenant la touche humaine que les clients apprécient le plus."
-author: "Dr. Emily Watson"
-tags: ["Avenir du travail", "IA", "Expérience client", "Tendances technologiques"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:19:20Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Découvrez comment l'IA et l'automatisation transforment le service
+  client tout en maintenant la touche humaine que les clients apprécient le plus.
+metatitle: 'L''avenir du service client: IA, automatisation et connexion ...'
+modified_date: 2025-07-27 16:19:20+00:00
+tags:
+- Avenir du travail
+- IA
+- Expérience client
+- Tendances technologiques
+title: 'L''avenir du service client: IA, automatisation et connexion humaine'
 ---
+
 
 # L'avenir du service client: IA, automatisation et connexion humaine
 

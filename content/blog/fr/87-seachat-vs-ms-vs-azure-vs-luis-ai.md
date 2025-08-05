@@ -21,9 +21,9 @@ Un domaine spécifiquement mentionné est le destin du service Azure Bot de Micr
 
 Le monde de l'IA conversationnelle est en effervescence avec les dernières nouvelles du partenariat approfondi de Microsoft avec OpenAI. Alors que certains célèbrent le potentiel de cette collaboration, il y a des voix dissidentes au sein de Microsoft. Des initiés craignent un éloignement du développement interne de l'IA pour promouvoir les offres d'OpenAI.
 
-Un domaine spécifiquement mentionné est le destin du service Azure Bot de Microsoft. Des sources internes suggèrent qu'il pourrait "[plus ou moins disparaître](https://www.digitalinformationworld.com/2024/03/microsoft-insiders-fear-firm-has.html)" pour être remplacé par les solutions d'OpenAI.
+Un domaine spécifiquement mentionné est le destin du service Azure Bot de Microsoft. Des sources internes suggèrent qu'il pourrait "[plus ou moins disparaître](https: //www.digitalinformationworld.com/2024/03/microsoft-insiders-fear-firm-has.html)" pour être remplacé par les solutions d'OpenAI.
 
-Le [Microsoft Bot Framework](https://dev.botframework.com/) et le [Azure AI Bot Service](https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service) (ainsi que [LUIS.ai](http://LUIS.ai)) sont une collection de bibliothèques, d'outils et de services qui vous permettent de construire, tester, déployer et gérer des bots intelligents. Cependant, le [référentiel GitHub du SDK Bot Framework](https://github.com/microsoft/botframework-sdk) n'a pas été mis à jour depuis plus de 2 ans (à partir de 2024) au-delà du README :
+Le [Microsoft Bot Framework](https: //dev.botframework.com/) et le [Azure AI Bot Service](https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service) (ainsi que [LUIS.ai](http://LUIS.ai)) sont une collection de bibliothèques, d'outils et de services qui vous permettent de construire, tester, déployer et gérer des bots intelligents. Cependant, le [référentiel GitHub du SDK Bot Framework](https://github.com/microsoft/botframework-sdk) n'a pas été mis à jour depuis plus de 2 ans (à partir de 2024) au-delà du README :
 
 <img height="60%" width="100%" src="/images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/1-Microsoft-bot-framework.png" alt="">
 
@@ -32,7 +32,7 @@ Le [Microsoft Bot Framework](https://dev.botframework.com/) et le [Azure AI Bot 
 
 Entrée de SeaChat : **Le Challenger LLM**
 
-Alors que Microsoft réfléchit à sa stratégie d'IA, Seasalt.ai fait des vagues avec sa plateforme conversationnelle basée sur les LLM (grands modèles de langage), [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat exploite les dernières avancées en matière de compréhension du langage naturel pour offrir une expérience utilisateur plus naturelle et intuitive que les chatbots traditionnels basés sur des règles.
+Alors que Microsoft réfléchit à sa stratégie d'IA, Seasalt.ai fait des vagues avec sa plateforme conversationnelle basée sur les LLM (grands modèles de langage), [SeaChat](https: //chat.seasalt.ai/?utm_source=blog). SeaChat exploite les dernières avancées en matière de compréhension du langage naturel pour offrir une expérience utilisateur plus naturelle et intuitive que les chatbots traditionnels basés sur des règles.
 
 **Voici pourquoi SeaChat pourrait être bien positionné pour mener la révolution de l'IA conversationnelle** :
 - **La puissance des LLM** :
@@ -62,7 +62,7 @@ Bien que les services Azure Bot et Microsoft Bot Framework aient eu leur utilit�
 
 ## Comparaison du NLU traditionnel basé sur l'intention/l'entité vs. le NLU basé sur les LLM
 
-La recherche a montré que la différence en termes d'exemples d'entraînement entre le NLU basé sur l'intention/l'entité et le NLU basé sur les LLM est [de l'ordre du million](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog) : 630 000 exemples contre seulement 32. Cette réduction drastique des besoins en données d'entraînement se traduit par des économies de coûts significatives lorsque les entreprises adoptent le NLU basé sur GenAI/LLM.
+La recherche a montré que la différence en termes d'exemples d'entraînement entre le NLU basé sur l'intention/l'entité et le NLU basé sur les LLM est [de l'ordre du million](https: //seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog) : 630 000 exemples contre seulement 32. Cette réduction drastique des besoins en données d'entraînement se traduit par des économies de coûts significatives lorsque les entreprises adoptent le NLU basé sur GenAI/LLM.
 
 #### SeaChat vs. Microsoft Bot Framework ####
 <center>
@@ -72,4 +72,4 @@ La recherche a montré que la différence en termes d'exemples d'entraînement e
 </center>
 
 ## SeaChat peut offrir une meilleure expérience conversationnelle
-SeaChat représente une avancée significative dans l'IA conversationnelle, offrant aux entreprises une plateforme puissante et polyvalente pour créer des expériences conversationnelles attrayantes et personnalisées. Grâce à sa technologie avancée, son intégration transparente et son ensemble complet de fonctionnalités, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) constitue une alternative solide aux frameworks traditionnels tels que Azure Bot Services et Microsoft Bot Framework, ouvrant la voie à l'avenir des interactions basées sur l'IA.
+SeaChat représente une avancée significative dans l'IA conversationnelle, offrant aux entreprises une plateforme puissante et polyvalente pour créer des expériences conversationnelles attrayantes et personnalisées. Grâce à sa technologie avancée, son intégration transparente et son ensemble complet de fonctionnalités, [SeaChat](https: //chat.seasalt.ai/?utm_source=blog) constitue une alternative solide aux frameworks traditionnels tels que Azure Bot Services et Microsoft Bot Framework, ouvrant la voie à l'avenir des interactions basées sur l'IA.

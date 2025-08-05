@@ -1,15 +1,20 @@
 ---
-title: "تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: في هذه المدونة، سنناقش النتائج التي توصلنا إليها حول كيفية استخدام مستخدمي Discord الحقيقيين لخدماتنا بعد مراجعة عدة أشهر من بيانات تحويل النص إلى كلام الأصلية.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: في هذه المدونة، سنناقش النتائج التي توصلنا إليها حول كيفية استخدام مستخدمي
+  Discord الحقيقيين لخدماتنا بعد مراجعة عدة أشهر من بيانات تحويل النص إلى كلام الأصلية.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *بعد إطلاق SeaVoice، أحد أسرع وأدق روبوتات تحويل النص إلى كلام والكلام إلى نص على Discord، أردنا أن نفهم كيف يتفاعل المستخدمون بالفعل مع الخدمات. في هذه المدونة، سنناقش النتائج التي توصلنا إليها بعد مراجعة عدة أشهر من بيانات مستخدمي تحويل النص إلى كلام الحقيقية.*
 

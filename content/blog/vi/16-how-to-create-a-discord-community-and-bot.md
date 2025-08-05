@@ -1,13 +1,16 @@
 ---
-title: Cách tạo cộng đồng và bot Discord
-slug: how-to-create-a-discord-community-and-bot
+metatitle: Cách tạo cộng đồng và bot Discord
+seoDescription: Hướng dẫn đầy đủ về cách xây dựng cộng đồng Discord và tạo bot, giải
+  pháp tương tác cho doanh nghiệp và sở thích cá nhân.
 seoTitle: Cách tạo cộng đồng và bot Discord
-seoDescription: Hướng dẫn đầy đủ về cách xây dựng cộng đồng Discord và tạo bot, giải pháp tương tác cho doanh nghiệp và sở thích cá nhân.
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - Cộng đồng
-  - Bot
+- Discord
+- Cộng đồng
+- Bot
+title: Cách tạo cộng đồng và bot Discord
 ---
+
 
 Discord là nền tảng phổ biến để xây dựng cộng đồng trực tuyến. Với tính năng bot, bạn có thể tăng cường sự tương tác và tự động hóa trên máy chủ Discord của mình.
 

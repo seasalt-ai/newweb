@@ -1,15 +1,21 @@
 ---
-title: "Text-to-Speech sa Discord: Isang Case Study ng TTS Discord Bot"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: Sa blog na ito, tatalakayin namin ang aming mga natuklasan kung paano ginagamit ng mga tunay na gumagamit ng Discord ang aming mga serbisyo pagkatapos suriin ang ilang buwan ng tunay na data ng text-to-speech.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: Sa blog na ito, tatalakayin namin ang aming mga natuklasan kung paano
+  ginagamit ng mga tunay na gumagamit ng Discord ang aming mga serbisyo pagkatapos
+  suriin ang ilang buwan ng tunay na data ng text-to-speech.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Text-to-Speech sa Discord: Isang Case Study ng TTS Discord B...'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Text-to-Speech sa Discord: Isang Case Study ng TTS Discord Bot'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Pagkatapos ilunsad ang SeaVoice, isa sa pinakamabilis at pinakatumpak na text-to-speech at speech-to-text bot sa Discord, nais naming maunawaan kung paano aktwal na nakikipag-ugnayan ang mga user sa mga serbisyo. Sa blog na ito, tatalakayin namin ang aming mga natuklasan pagkatapos suriin ang ilang buwan ng tunay na data ng user ng text-to-speech.*
 

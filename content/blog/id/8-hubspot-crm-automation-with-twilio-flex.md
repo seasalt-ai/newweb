@@ -1,11 +1,14 @@
 ---
-title: HubSpot CRM Automation with Twilio Flex
-lang: id
-description: Panduan lengkap untuk pengguna Indonesia tentang otomatisasi HubSpot CRM dengan Twilio Flex, termasuk praktik SEO terbaik.
 author: SeaHealth Editorial Team
+description: Panduan lengkap untuk pengguna Indonesia tentang otomatisasi HubSpot
+  CRM dengan Twilio Flex, termasuk praktik SEO terbaik.
+lang: id
+metatitle: HubSpot CRM Automation with Twilio Flex
 published: 2024-07-01
 slug: 8-hubspot-crm-automation-with-twilio-flex
+title: HubSpot CRM Automation with Twilio Flex
 ---
+
 
 # HubSpot CRM Automation dengan Twilio Flex
 

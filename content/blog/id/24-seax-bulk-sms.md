@@ -1,16 +1,20 @@
 ---
-title: "SeaX Bulk SMS: Untuk Jangkauan Pelanggan yang Lebih Cepat dan Efektif"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: Dalam blog ini, kami akan menunjukkan bagaimana fitur Bulk SMS SeaX memungkinkan
+  agen untuk secara proaktif mengirim pesan keluar melalui teks.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "Dalam blog ini, kami akan menunjukkan bagaimana fitur Bulk SMS SeaX memungkinkan agen untuk secara proaktif mengirim pesan keluar melalui teks."
+metatitle: 'SeaX Bulk SMS: Untuk Jangkauan Pelanggan yang Lebih Cepat da...'
+modified_date: 2025-07-28 00:00:00+00:00
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: Untuk Jangkauan Pelanggan yang Lebih Cepat dan Efektif'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: 2025-07-28T00:00:00Z
 ---
+
 
 *Dalam postingan blog kami sebelumnya, kami telah membahas beberapa fitur utama SeaX (termasuk [Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Knowledge Base](https://seasalt.ai/blog/22-seax-knowledge-base/), dan [Case Management](https://seasalt.ai/blog/23-seax-case-management/)) yang membantu agen untuk menangani panggilan dan pesan masuk dengan lebih baik. Dalam blog ini, kami akan menunjukkan bagaimana fitur Bulk SMS SeaX memungkinkan agen untuk secara proaktif mengirim pesan keluar melalui teks, yang terbukti dibuka oleh penerima lebih cepat dan lebih konsisten daripada komunikasi email tradisional.*
 

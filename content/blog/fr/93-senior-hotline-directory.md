@@ -1,19 +1,20 @@
 ---
-title: "Répertoire des Ressources de Soins aux Personnes Âgées à Taiwan : Comment Appeler pour Obtenir de l'Aide dans Différentes Villes et Comtés"
-metatitle: "Guide des Ressources de Soins aux Personnes Âgées à Taiwan : Numéros de Téléphone d'Aide aux Personnes Âgées et Services de Soutien dans Différentes Villes et Comtés"
-date: 2024-08-18T00:22:19-07:00
-draft: false
-author: Jun Mao
-description: "Explorez les ressources de soins aux personnes âgées dans différentes villes et comtés de Taiwan, y compris les appels de soins, les lignes d'urgence et les services de soutien social. Découvrez comment les solutions innovantes de Seasalt.ai améliorent l'efficacité des services de soins aux personnes âgées."
-weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
-image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
+title: "Répertoire des Ressources de Soins aux Personne..."
+metatitle: "Guide des Ressources de Soins aux Personnes Âgé..."
+date: "2024-08-18T00:22:19-07:00"
+draft: "false"
+author: "Jun Mao"
+description: "Explorez les ressources de soins aux personnes âgées dans différentes villes et comtés de Taiwan,..."
+weight: "1"
+tags:
+toc: "true"
+image: "/images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg"
 canonicalURL: "/blog/senior-hotline-directory/"
 url: "/blog/senior-hotline-directory/"
-modified_date: 2024-12-19T10:00:00Z
-summary: 'Avec le vieillissement de la société, l'accès à des appels de soins aux personnes âgées et des services de soins aux personnes âgées pratiques devient de plus en plus important. Avec la population âgée croissante, avoir des ressources fiables pour fournir une assistance immédiate et un soutien continu est crucial. Cette compilation vise à aider les personnes âgées et leurs familles à trouver facilement les ressources de soins dont ils ont besoin dans différentes villes et comtés de Taiwan.'
+modified_date: "2024-12-19T10:00:00Z"
+summary: "Avec le vieillissement de la société, l'accès à des appels de soins aux perso..."
 ---
+
 
 Avec le vieillissement de la société, l'accès à des appels de soins aux personnes âgées et des services de soins aux personnes âgées pratiques devient de plus en plus important. Avec la population âgée croissante, avoir des ressources fiables pour fournir une assistance immédiate et un soutien continu est crucial. Cette compilation vise à aider les personnes âgées et leurs familles à trouver facilement les ressources de soins dont ils ont besoin dans différentes villes et comtés de Taiwan.
 

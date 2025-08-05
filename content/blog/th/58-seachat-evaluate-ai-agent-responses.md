@@ -1,11 +1,14 @@
 ---
-title: วิธีประเมินการตอบกลับของ SeaChat AI Agent
-lang: th
-description: คู่มือสำหรับผู้ใช้ไทยในการประเมินคุณภาพการตอบกลับของ SeaChat AI Agent พร้อมคำแนะนำ SEO
 author: SeaHealth Editorial Team
+description: คู่มือสำหรับผู้ใช้ไทยในการประเมินคุณภาพการตอบกลับของ SeaChat AI Agent
+  พร้อมคำแนะนำ SEO
+lang: th
+metatitle: วิธีประเมินการตอบกลับของ SeaChat AI Agent
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: วิธีประเมินการตอบกลับของ SeaChat AI Agent
 ---
+
 
 # วิธีประเมินการตอบกลับของ SeaChat AI Agent
 

@@ -1,18 +1,23 @@
 ---
-title: "Near Me Messaging Melengkapi Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging mengintegrasikan AI Perbualan dengan Google Business Messages, membolehkan sokongan 24/7 melalui butang sembang di profil Google Maps anda."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging mengintegrasikan AI Perbualan dengan Google Business
+  Messages, membolehkan sokongan 24/7 melalui butang sembang di profil Google Maps
+  anda.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging Melengkapi Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging Melengkapi Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Dalam salah satu blog kami sebelum ini, kami memandu anda melalui [faedah dan batasan Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Terdapat dua batasan utama dengan pelaksanaan umum Google Business Messages. Batasan pertama ialah ia memerlukan banyak wang dan masa untuk membayar agensi perunding profesional untuk mencipta ejen maya yang disesuaikan untuk perniagaan anda dari awal. Batasan kedua ialah pemilik perniagaan tidak dapat bercakap secara langsung dengan pelanggan melainkan agensi perunding menyediakan ciri sembang langsung sebagai sebahagian daripada pelaksanaan mereka.
 

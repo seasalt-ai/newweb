@@ -1,15 +1,18 @@
 ---
-title: "SeaX 大量簡訊：更快、更有效的客戶拓展"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: 在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息。
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息。"
+metatitle: SeaX 大量簡訊：更快、更有效的客戶拓展
+tags:
+- SeaX
+title: SeaX 大量簡訊：更快、更有效的客戶拓展
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
 ---
+
 
 *在我們之前的部落格文章中，我們介紹了 SeaX 的一些主要功能（包括 [語音智慧](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知識庫](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），這些功能有助於代理商更好地處理來電和訊息。在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息，而這些訊息的收件人被證明比傳統電子郵件通訊更快、更一致地打開。*
 

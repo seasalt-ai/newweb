@@ -1,15 +1,18 @@
 ---
-title: "SeaX Bulk SMS: เพื่อการเข้าถึงลูกค้าที่รวดเร็วและมีประสิทธิภาพยิ่งขึ้น"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: ในบล็อกนี้ เราจะแสดงให้เห็นว่าฟีเจอร์ Bulk SMS ของ SeaX ช่วยให้ตัวแทนสามารถส่งข้อความขาออกผ่านข้อความได้อย่างไร
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "ในบล็อกนี้ เราจะแสดงให้เห็นว่าฟีเจอร์ Bulk SMS ของ SeaX ช่วยให้ตัวแทนสามารถส่งข้อความขาออกผ่านข้อความได้อย่างไร"
+metatitle: 'SeaX Bulk SMS: เพื่อการเข้าถึงลูกค้าที่รวดเร็วและมีประสิทธิภ...'
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: เพื่อการเข้าถึงลูกค้าที่รวดเร็วและมีประสิทธิภาพยิ่งขึ้น'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
 ---
+
 
 *ในบล็อกโพสต์ก่อนหน้านี้ เราได้กล่าวถึงคุณสมบัติหลักบางประการของ SeaX (รวมถึง [Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Knowledge Base](https://seasalt.ai/blog/22-seax-knowledge-base/) และ [Case Management](https://seasalt.ai/blog/23-seax-case-management/)) ที่ช่วยให้ตัวแทนจัดการสายเรียกเข้าและข้อความได้ดีขึ้น ในบล็อกนี้ เราจะแสดงให้เห็นว่าฟีเจอร์ Bulk SMS ของ SeaX ช่วยให้ตัวแทนสามารถส่งข้อความขาออกผ่านข้อความได้อย่างไร ซึ่งผู้รับจะเปิดอ่านได้เร็วกว่าและสม่ำเสมอมากกว่าการสื่อสารทางอีเมลแบบดั้งเดิม*
 

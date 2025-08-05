@@ -1,11 +1,14 @@
 ---
-title: Cara Membuat Komunitas dan Bot di Discord
-lang: ms
-description: Panduan lengkap untuk membina komuniti Discord dan menetapkan bot automatik, dengan tip SEO untuk pengguna Malaysia.
 author: SeaHealth Editorial Team
+description: Panduan lengkap untuk membina komuniti Discord dan menetapkan bot automatik,
+  dengan tip SEO untuk pengguna Malaysia.
+lang: ms
+metatitle: Cara Membuat Komunitas dan Bot di Discord
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: Cara Membuat Komunitas dan Bot di Discord
 ---
+
 
 # Cara Membuat Komuniti dan Bot di Discord
 

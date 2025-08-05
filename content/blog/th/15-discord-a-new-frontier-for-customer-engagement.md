@@ -1,16 +1,21 @@
 ---
-title: "Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: ในบล็อกนี้ เราจะพูดถึงความนิยมที่เพิ่มขึ้นของ Discord และเหตุผล/วิธีที่บริษัทต่าง
+  ๆ เริ่มใช้ Discord เพื่อเพิ่มการมีส่วนร่วมกับลูกค้า
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "ในบล็อกนี้ เราจะพูดถึงความนิยมที่เพิ่มขึ้นของ Discord และเหตุผล/วิธีที่บริษัทต่าง ๆ เริ่มใช้ Discord เพื่อเพิ่มการมีส่วนร่วมกับลูกค้า"
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *จำนวนผู้ใช้ Discord เพิ่มขึ้นอย่างรวดเร็วในช่วงไม่กี่ปีที่ผ่านมา และแพลตฟอร์มนี้ได้รีแบรนด์ตัวเองเป็น 'บ้านสำหรับชุมชนและเพื่อน ๆ ของคุณ' ในบล็อกนี้ เราจะพูดถึงความนิยมที่เพิ่มขึ้นของ Discord และเหตุผล/วิธีที่บริษัทต่าง ๆ เริ่มใช้ Discord เพื่อเพิ่มการมีส่วนร่วมกับลูกค้า*
 

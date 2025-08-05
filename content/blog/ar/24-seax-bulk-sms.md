@@ -1,16 +1,20 @@
 ---
-title: "SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: في هذه المدونة، سنوضح كيف تتيح ميزة الرسائل النصية الجماعية في SeaX للوكلاء
+  إرسال رسائل صادرة بشكل استباقي عبر الرسائل النصية.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "في هذه المدونة، سنوضح كيف تتيح ميزة الرسائل النصية الجماعية في SeaX للوكلاء إرسال رسائل صادرة بشكل استباقي عبر الرسائل النصية."
+metatitle: 'SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء'
+modified_date: '2025-07-28T16:03:25.123456'
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-07-28T16:03:25.123456"
 ---
+
 
 *في منشورات مدونتنا السابقة، استعرضنا بعض الميزات الرئيسية لـ SeaX (بما في ذلك [الذكاء الصوتي](https://seasalt.ai/blog/21-seax-voice-intelligence/)، و[قاعدة المعرفة](https://seasalt.ai/blog/22-seax-knowledge-base/)، و[إدارة الحالات](https://seasalt.ai/blog/23-seax-case-management/)) التي تساعد الوكلاء على التعامل بشكل أفضل مع المكالمات والرسائل الواردة. في هذه المدونة، سنوضح كيف تتيح ميزة الرسائل النصية الجماعية في SeaX للوكلاء إرسال رسائل صادرة بشكل استباقي عبر الرسائل النصية، والتي يظهر أن المستلمين يفتحونها بشكل أسرع وأكثر اتساقًا من اتصالات البريد الإلكتروني التقليدية.*
 

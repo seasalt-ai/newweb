@@ -1,10 +1,11 @@
 ---
-title: วิธีส่ง SMS จำนวนมากด้วยสเปรดชีต
-slug: how-to-send-bulk-sms-spreadsheet
-seoTitle: วิธีส่ง SMS จำนวนมากด้วยสเปรดชีต
+metatitle: วิธีส่ง SMS จำนวนมากด้วยสเปรดชีต
 seoDescription: คู่มือฉบับสมบูรณ์สำหรับการส่ง SMS จำนวนมากด้วยสเปรดชีต ทางเลือกที่มีประสิทธิภาพสำหรับธุรกิจยุคใหม่
-
+seoTitle: วิธีส่ง SMS จำนวนมากด้วยสเปรดชีต
+slug: how-to-send-bulk-sms-spreadsheet
+title: วิธีส่ง SMS จำนวนมากด้วยสเปรดชีต
 ---
+
 tags:
   - SMS
   - สเปรดชีต

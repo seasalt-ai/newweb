@@ -1,19 +1,20 @@
 ---
-title: "SeaX + SeaChat: AI Voice Assistants Revolutionizing Senior Care with Smart Solutions"
-metatitle: "SeaX + SeaChat: Revolutionizing Senior Care Through AI Voice Assistants - Successful Application of Smart Care Hotlines"
-date: 2024-08-16T00:22:19-07:00
-modified_date: 2024-12-19T10:00:00-07:00
-draft: false
-author: Jun Mao
-description: "Discover how the SeaX + SeaChat AI voice assistant system addresses senior care challenges in Taiwan's super-aged society. Learn how smart care hotlines improve seniors' quality of life, provide immediate care, emotional companionship, and health monitoring while addressing manpower shortages."
-weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
-image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
+title: "SeaX + SeaChat: AI Voice Assistants Revolutioni..."
+metatitle: "SeaX + SeaChat: Revolutionizing Senior Care Thr..."
+date: "2024-08-16T00:22:19-07:00"
+modified_date: "2024-12-19T10:00:00-07:00"
+draft: "false"
+author: "Jun Mao"
+description: "Discover how the SeaX + SeaChat AI voice assistant system addresses senior care challenges in Tai..."
+weight: "1"
+tags:
+toc: "true"
+image: "/images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebo..."
 canonicalURL: "/blog/senior-hotline-using-voicebot/"
 url: "/blog/senior-hotline-using-voicebot/"
-summary: 'As Taiwan progresses toward a super-aged society, senior care faces unprecedented challenges. According to National Development Council data, Taiwan's elderly population ratio will reach nearly 20% in 2024 and is expected to officially enter a super-aged society in 2025. Amid these demographic changes, how to effectively provide immediate care, diverse services, and solve manpower shortage issues has become the three major challenges facing the current long-term care industry.'
+summary: "As Taiwan progresses toward a super-aged society, senior care faces unprecede..."
 ---
+
 
 As Taiwan progresses toward a super-aged society, senior care faces unprecedented challenges. According to National Development Council data, Taiwan's elderly population ratio will reach nearly 20% in 2024 and is expected to officially enter a super-aged society in 2025. Amid these demographic changes, how to effectively provide immediate care, diverse services, and solve manpower shortage issues has become the three major challenges facing the current long-term care industry.
 

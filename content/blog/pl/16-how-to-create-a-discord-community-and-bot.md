@@ -1,13 +1,16 @@
 ---
-title: Jak stworzyć społeczność i bota na Discordzie
-slug: how-to-create-a-discord-community-and-bot
+metatitle: Jak stworzyć społeczność i bota na Discordzie
+seoDescription: Kompletny przewodnik po budowaniu społeczności na Discordzie i tworzeniu
+  botów – interaktywne rozwiązania dla firm i hobbystów.
 seoTitle: Jak stworzyć społeczność i bota na Discordzie
-seoDescription: Kompletny przewodnik po budowaniu społeczności na Discordzie i tworzeniu botów – interaktywne rozwiązania dla firm i hobbystów.
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - Społeczność
-  - Bot
+- Discord
+- Społeczność
+- Bot
+title: Jak stworzyć społeczność i bota na Discordzie
 ---
+
 
 Discord to popularna platforma do budowania społeczności online. Dzięki botom możesz zwiększyć interakcje i automatyzację na swoim serwerze Discord.
 

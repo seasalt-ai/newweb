@@ -1,19 +1,20 @@
 ---
-title: "More Than Just Talk: Why Upgrading from wit.ai to SeaChat Can Elevate Your Conversational AI Experience"
-metatitle: "More Than Just Talk: Why Upgrading from wit.ai to SeaChat Can Elevate Your Conversational AI Experience"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
-draft: false
-author: Xuchen Yao
-description: In the field of conversational AI, Meta/Facebook's wit.ai was once popular, and SeaChat, based on Large Language Models (LLMs), can break through limitations and create a more natural and fluid conversational experience.
-weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
-image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
+title: "More Than Just Talk: Why Upgrading from wit.ai ..."
+metatitle: "More Than Just Talk: Why Upgrading from wit.ai ..."
+date: "2024-04-02T00:22:19-07:00"
+lastmod: "2024-04-03T00:22:19-07:00"
+modified_date: "2025-08-01T00:00:00Z"
+draft: "false"
+author: "Xuchen Yao"
+description: "In the field of conversational AI, Meta/Facebook's wit.ai was once popular, and SeaChat, based on..."
+weight: "1"
+tags:
+image: "/images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png"
 canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
 url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: 'The world of chatbots is evolving at an astonishing pace. While Meta/Facebook's [wit.ai](http://wit.ai) served as a stepping stone for building voice-driven applications, a new wave of technology is slowly taking center stage: Large Language Models (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform built on LLM technology, offers a groundbreaking approach to conversational AI, leaving intent-based engines like wit.ai far behind. Is it time to consider an upgrade for your chatbot?'
+summary: "The world of chatbots is evolving at an astonishing pace. While Meta/Facebook..."
 ---
+
 
 The world of chatbots is evolving at an astonishing pace. While Meta/Facebook's [wit.ai](http://wit.ai) served as a stepping stone for building voice-driven applications, a new wave of technology is slowly taking center stage: Large Language Models (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform built on LLM technology, offers a groundbreaking approach to conversational AI, leaving intent-based engines like wit.ai far behind. Is it time to consider an upgrade for your chatbot?
 

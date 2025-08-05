@@ -1,11 +1,14 @@
 ---
-title: Cara menilai respons SeaChat AI Agent
-lang: ms
-description: Panduan untuk pengguna Malaysia tentang cara menilai respons SeaChat AI Agent, beserta tip SEO.
 author: SeaHealth Editorial Team
+description: Panduan untuk pengguna Malaysia tentang cara menilai respons SeaChat
+  AI Agent, beserta tip SEO.
+lang: ms
+metatitle: Cara menilai respons SeaChat AI Agent
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: Cara menilai respons SeaChat AI Agent
 ---
+
 
 # Cara menilai respons SeaChat AI Agent
 

@@ -1,11 +1,14 @@
 ---
-title: كيفية تقييم ردود وكيل SeaChat AI
-lang: ar
-description: دليل للمستخدمين العرب حول كيفية تقييم جودة ردود وكيل SeaChat AI مع نصائح لتحسين SEO.
 author: SeaHealth Editorial Team
+description: دليل للمستخدمين العرب حول كيفية تقييم جودة ردود وكيل SeaChat AI مع نصائح
+  لتحسين SEO.
+lang: ar
+metatitle: كيفية تقييم ردود وكيل SeaChat AI
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: كيفية تقييم ردود وكيل SeaChat AI
 ---
+
 
 # كيفية تقييم ردود وكيل SeaChat AI
 

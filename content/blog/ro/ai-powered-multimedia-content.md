@@ -1,12 +1,21 @@
 ---
-title: "Crearea de conținut multimedia alimentat de AI pentru angajarea clienților"
-meta_description: "Află cum să folosești AI și conținutul multimedia pentru a crea experiențe captivante pentru clienți pe toate canalele. Include exemple video, elemente interactive și cele mai bune practici."
-author: "Sarah Chen"
-tags: ["Conținut AI", "Multimedia", "Angajarea clienților", "Marketing digital", "Conținut video"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Află cum să folosești AI și conținutul multimedia pentru a crea
+  experiențe captivante pentru clienți pe toate canalele. Include exemple video, elemente
+  interactive și cele mai bune practici.
+metatitle: Crearea de conținut multimedia alimentat de AI pentru angaja...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- Conținut AI
+- Multimedia
+- Angajarea clienților
+- Marketing digital
+- Conținut video
+title: Crearea de conținut multimedia alimentat de AI pentru angajarea clienților
 ---
+
 
 # Crearea de conținut multimedia alimentat de AI pentru angajarea clienților
 
