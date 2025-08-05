@@ -1,66 +1,67 @@
 ---
-title: "De la demonstrație la succes: dincolo de hardware (5/5)"
-metatitle: "De la demonstrație la succes (5/5): dincolo de hardware"
+title: "De la Demo la Succes: Dincolo de hardware (5/5)"
+metatitle: "De la Demo la Succes (5/5): Dincolo de hardware"
 date: 2021-09-15T17:24:32-07:00
 author: Cody Kim
 image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
-description: "În partea finală a acestei serii de blog-uri, urmați călătoria Seasalt.ai de a crea SeaMeet, soluția noastră colaborativă pentru întâlniri moderne."
+description: "În ultima parte a acestei serii de bloguri, urmăriți călătoria Seasalt.ai către crearea SeaMeet, soluțiile noastre colaborative pentru întâlniri moderne."
 tags: ["SeaMeet"]
 weight: 1 
 canonicalURL: "/blog/seameet-voice-hardware/"
 url: "/blog/seameet-voice-hardware/"
 aliases:
     - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-*În această serie de blog-uri, urmați călătoria Seasalt.ai de a crea o experiență completă de întâlniri moderne, de la începuturile sale modeste, până la optimizarea serviciilor noastre pe diferite hardware și modele, până la integrarea celor mai avansate sisteme de procesare a limbajului natural, în final realizând complet soluția noastră colaborativă pentru întâlniri moderne SeaMeet.*
+*De-a lungul acestei serii de bloguri, urmăriți călătoria Seasalt.ai către crearea unei experiențe complete de întâlniri moderne, începând cu începuturile sale umile, până la optimizarea serviciului nostru pe diferite hardware și modele, la integrarea sistemelor NLP de ultimă generație și, în final, la realizarea completă a SeaMeet, soluțiile noastre colaborative pentru întâlniri moderne.*
 
 ## Dincolo de întâlnirile moderne
 
-La Seasalt.ai, admirăm capacitatea existentă demonstrată de acest produs în demonstrația Build 2019, dar suntem mai interesați de ce poate deveni acest produs și cum putem ridica transcrierea conversațiilor dincolo de nivelul de imitație. Dar înainte de a învinge competiția, trebuie mai întâi să înțelegi profund jocul pe care îl joci. Așa s-a născut SeaMeet. În fazele timpurii, am privit Azure ca pe un model pentru a stăpâni fundamentele construirii unui serviciu de transcriere de încredere și am folosit serviciile vocale Azure ca backend pentru a exploata această tehnologie matură.
+Aici, la Seasalt.ai, am admirat abilitățile actuale demonstrate în demo-ul Build 2019 al acestui produs, dar suntem mai interesați să vedem ce ar putea deveni acest produs, cum să ducem transcrierea conversațiilor dincolo de imitație. Dar înainte de a putea învinge concurența, trebuie mai întâi să înțelegeți în detaliu jocul pe care îl jucați. Și exact așa s-a născut SeaMeet. La începuturile sale, am privit Azure ca un model pentru a înțelege fundamentele a ceea ce face un serviciu de transcriere solid și am folosit serviciile de vorbire Azure ca backend pentru a utiliza această tehnologie consacrată.
 
-Ca orice produs nou, provocările au apărut imediat. Pentru a lansa rapid produsul nostru, am ales să folosim array-ul de microfoane Microsoft Kinect DK, care era promovat ca fiind contrapartea hardware pentru serviciile vocale, fiind ajustat pentru a obține performanța optimă din modelele de recunoaștere automată a vocii Azure. Deși este un dispozitiv incontestabil bine construit și proiectat, este echipat cu o carcasă completă din aluminiu, obiectiv cu unghi larg, cameră de adâncime și array de 7 microfoane. Și costă aproape 400 de dolari. Din aprilie 2021, Kinect DK a avut probleme grave de stoc. Până la scrierea acestui articol în septembrie 2021, încă era în stoc insuficient. Aceasta a confirmat în continuare că Kinect nu era potrivit pentru noi.
+La fel ca în cazul oricărui produs tânăr, au apărut imediat provocări. Dornici să lansăm produsul nostru, am optat să folosim matricea de microfoane Kinect DK de la Microsoft, promovată ca fiind omologul hardware al serviciilor de vorbire și, presupus, reglată pentru a obține cea mai optimă performanță de la modelele de recunoaștere automată a vorbirii Azure. Deși un dispozitiv incontestabil bine construit și bine proiectat, vine cu o carcasă completă din aluminiu, o lentilă cu unghi larg, o cameră de adâncime și o matrice de 7 microfoane. De asemenea, are un preț piperat, de aproape 400 USD. Începând cu aprilie 2021, Kinect DK a avut o problemă serioasă de stoc. Este încă epuizat la data scrierii acestui articol, în septembrie 2021. Acest lucru a confirmat și mai mult că Kinect nu este dispozitivul potrivit pentru noi.
 
 <center>
 <img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/kinect_store_page.png"/>
 
-*Azure Kinect DK a fost în stoc insuficient din aprilie 2021 și încă nu a fost reabastecut până la publicarea acestui articol (septembrie 2021).*
+*Azure Kinect DK a fost epuizat din aprilie 2021 până la publicarea acestui articol (septembrie 2021)*
 </center>
 
-Array-ul de microfoane este primul component din pipeline-ul de transcriere a conversațiilor. Ca furnizor de servicii de transcriere, trebuie să fim capabili să achiziționăm hardware-ul nostru în mod sustenabil și de încredere.
+Matricea de microfoane este prima componentă din pipeline-ul de transcriere a conversațiilor. În calitate de furnizori de servicii de transcriere, trebuie să putem procura hardware în mod durabil și fiabil.
 
-Călătoria noastră pentru a găsi array-ul de microfoane perfect ne-a adus la două opțiuni: [Respeaker Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html) și [Respeaker Core v2-0](https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html). Ambele dispozitive sunt array-uri circulare cu patru și respectiv șase microfoane, o funcționalitate cheie capabilă să execute localizarea sursei de sunet pe 360 de grade și ne permite să integrăm ușor aceste dispozitive noi în sistemul nostru existent. Frumusețea reală a acestor dispozitive este că au algoritmi de procesare a semnalelor integrați, inclusiv reducerea zgomotului, eliminarea ecoului și beamforming, toți optimizați perfect pentru dimensiunea microfoanelor.
+Călătoria noastră de a găsi matricea de microfoane perfectă ne-a condus la două opțiuni: [Respeaker Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html) și [Respeaker Core v2.0](https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html). Ambele dispozitive sunt matrice circulare, cu patru și, respectiv, șase microfoane, ceea ce este o caracteristică crucială pentru a putea efectua localizarea sursei la 360 de grade și pentru a ne permite să integrăm cu ușurință aceste noi dispozitive în sistemul nostru existent. Adevărata frumusețe a acestor dispozitive este că vin cu algoritmi de procesare a semnalului la bord, inclusiv reducerea zgomotului, anularea ecoului și formarea fasciculului, care sunt perfect reglați la dimensiunile microfonului.
 
 <center>
-<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/respeaker_array.png" alt="Respeaker Array v2.0 demonstrând VAD și localizarea sursei de sunet"/>
+<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/respeaker_array.png" alt="Respeaker Array v2.0 demonstrând VAD și localizarea sursei"/>
 
-*Respeaker Array v2.0 demonstrând VAD și localizarea sursei de sunet*
+*Respeaker Array v2.0 demonstrând VAD și localizarea sursei*
 </center>
 
 <center>
-<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/array_demo.jpg" alt="Demonstrație de întâlnire live folosind Respeaker Array v2.0"/>
+<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/array_demo.jpg" alt="Demo de întâlnire live cu Respeaker Array v2.0"/>
 
-*Demonstrație de întâlnire live folosind Respeaker Array v2.0*
+*Demo de întâlnire live cu Respeaker Array v2.0*
 </center>
 
-Pentru array-ul cu patru microfoane Array v2.0 alimentat complet de portul USB, aceasta înseamnă că computerul utilizatorului trebuie doar să se concentreze pe streaming-ul audio către server. Aceasta descarcă procesarea semnalelor pe array-ul de microfoane.
+Pentru matricea Array v2.0 cu patru microfoane, care era alimentată complet printr-un port USB, acest lucru însemna că computerul utilizatorului trebuia să se concentreze doar pe transmiterea audio către server. Acest lucru descarcă procesarea semnalului către matricea de microfoane.
+
 
 <center>
-<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/core_demo.png" alt="Demonstrația Respeaker Core v2.0"/>
+<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/core_demo.png" alt="Respeaker Core v2.0 ilustrat cu demo"/>
 
-*Demonstrația Respeaker Core v2.0*
+*Respeaker Core v2.0 ilustrat cu demo*
 </center>
 
-Și mai impresionant este Core v2.0 echipat cu procesor ARM și 1GB RAM. Este capabil să ruleze o distribuție Linux completă și are suficientă putere de procesare pentru a rula scripturile noastre client, nu doar că descărcăm procesarea de pe computerul utilizatorului prin acest dispozitiv, dar eliminăm complet necesitatea de a conecta un computer la microfon. Deoarece array-ul de microfoane face acum procesarea grea, am redus cerințele de hardware necesare pentru a rula produsul, astfel încât am mărit efectiv audiența care poate beneficia de SeaMeet.
+Și mai convingător este Core v2.0 echipat cu un procesor ARM și 1GB RAM. Capabil să ruleze o distribuție completă Linux și cu suficientă putere de procesare pentru a rula scriptul nostru client, nu numai că am descărcat procesarea de pe computerul utilizatorului cu acest dispozitiv, am eliminat complet necesitatea de a avea un computer conectat la microfon. Deoarece matricele de microfoane fac acum procesarea grea, am diminuat cerințele hardware necesare pentru a rula produsul nostru și, prin urmare, am crescut efectiv publicul care poate beneficia de SeaMeet.
 
 <center>
-<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/respeaker_core.png" alt="Exemplu de plasare independentă a microfonului Core v2.0"/>
+<img src="/images/blog/7-seameet-voice-intelligence-meeting-transcription-hardware/respeaker_core.png" alt="Exemplu de plasare a microfonului independent Core v2.0"/>
 
-*Exemplu de plasare independentă a microfonului Core v2.0*
+*Exemplu de plasare a microfonului independent Core v2.0*
 </center>
 
-O altă caracteristică unică a acestor array-uri de microfoane este că nu au carcasă. Ambele sunt expediate ca PCB-uri goale, cu microfoanele, chipurile și porturile expuse. Deși mulți ar considera acest lucru incomod, noi îl vedem ca pe o oportunitate de a crea un dispozitiv cu adevărat unic, care este fără îndoială Seasalt.
+O altă caracteristică unică a acestor matrice de microfoane este lipsa carcasei. Ambele sunt livrate ca PCB-uri goale, cu microfoanele, cipurile și porturile expuse. Deși mulți vor vedea acest lucru ca un inconvenient, noi vedem o oportunitate de a crea un dispozitiv cu adevărat unic, care este inconfundabil al Seasalt.
 
-Cu aceste dispozitive, am finalizat prototipul SeaMeet, serviciul nostru complet nou și de ultimă generație pentru transcrierea întâlnirilor. Aici încheiem seria de cinci părți, începând cu SeaMeet ca doar o sămânță inspirată de demonstrația Microsoft, până la a deveni în final un produs complet independent. SeaMeet este încă în fazele timpurii și va avea o călătorie captivantă pe măsură ce continuăm să perfecționăm sistemul nostru de separare a vorbitorilor, înțelegerea întâlnirilor și modelele lingvistice. Echipa Seasalt.ai este nerăbdătoare să continue să revoluționeze modul în care lumea funcționează. 
+    Cu aceste dispozitive, punem punctul pe i prototipului nostru SeaMeet, noul nostru serviciu de transcriere a întâlnirilor de ultimă generație. Și cu aceasta încheiem seria noastră de cinci părți, începând de când SeaMeet nu era decât o sămânță inspirată de o demonstrație Microsoft și terminând cu un produs complet independent. Încă în stadiile sale incipiente, SeaMeet are o călătorie interesantă în față, pe măsură ce continuăm să ne perfecționăm sistemul de diarizare, sensul întâlnirilor și modelele lingvistice. Echipa de la Seasalt.ai este dornică să continue să revoluționeze modul în care lumea desfășoară afaceri.

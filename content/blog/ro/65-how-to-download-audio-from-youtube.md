@@ -1,128 +1,129 @@
 ---
-title: "Cum să descărcați date audio de pe YouTube, fișiere individuale și multiple | Seria Audio Toolbox"
-metatitle: "Descărcarea datelor audio de pe YouTube | Seria Audio Toolbox"
+title: "Cum să descărcați date audio de pe YouTube, un singur videoclip și multe videoclipuri | Seria Audio Toolbox"
+metatitle: "Descărcați date audio de pe YouTube | Seria Audio Toolbox"
 date: 2024-01-15T10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: "Aflați cum să descărcați legal și eficient audio de pe fișiere YouTube individuale sau multiple folosind instrumente gratuite. Explorați instrumente și tehnici pentru extragerea muzicii, podcast-urilor, efectelor sonore și multe altele pentru proiectele dvs. creative."
+description: Aflați cum să descărcați legal și eficient audio de pe videoclipuri YouTube individuale sau multiple folosind instrumente gratuite. Explorați instrumente și tehnici pentru a extrage muzică, podcasturi, efecte sonore și multe altele pentru proiectele dvs. creative.
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags: ["Audio Toolbox", "Instrumente AI"]
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
 canonicalURL: "/blog/how-to-download-audio-from-youtube/"
 url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-Astăzi, să explorăm în profunzime un subiect care rezonează cu mulți: cum să descărcați gratuit date audio de pe YouTube.
+Astăzi, să ne aprofundăm într-un subiect care rezonează cu mulți: cum să descărcați date audio de pe YouTube, GRATUIT.
 
-Declarația legală: Înainte de a continua, este esențial să recunoaștem că descărcarea datelor audio de pe YouTube poate implica complexități legale. Utilizatorii trebuie să se asigure că respectă termenii de serviciu YouTube și legile de copyright și să obțină autorizațiile adecvate pentru utilizarea intenționată a conținutului descărcat.
+Declinarea responsabilității legale: Înainte de a continua, este imperativ să recunoaștem că descărcarea datelor audio de pe YouTube poate implica complexități legale. Utilizatorii trebuie să asigure conformitatea cu termenii de serviciu și legile privind drepturile de autor ale YouTube, obținând autorizația corespunzătoare pentru utilizarea intenționată a conținutului descărcat.
 
-# Înțelegerea ecosistemului audio YouTube
-
-YouTube este o comoară care conține diverse conținuturi audio, oferind muzică, podcast-uri, prelegeri, efecte sonore și multe altele. Familiarizarea cu tipurile de conținut audio disponibile pe YouTube și considerațiile legale asociate este crucială pentru utilizarea responsabilă a acestei platforme.
+# Înțelegerea peisajului audio YouTube
+YouTube este o comoară de conținut audio divers, oferind o gamă largă de muzică, podcasturi, prelegeri, efecte sonore și multe altele. Familiarizarea cu tipurile de conținut audio disponibile pe YouTube și cu considerațiile legale asociate este crucială pentru utilizarea responsabilă a acestei platforme.
 
 ## Exemple de conținut audio pe YouTube:
 
 ### Muzică
-Explorați videoclipuri muzicale oficiale, cover-uri, remix-uri și mashup-uri care acoperă diverse genuri.
+Explorați videoclipuri muzicale oficiale, cover-uri, remixuri și mashup-uri care acoperă diverse genuri.
 
-### Podcast-uri
-Participați la o mulțime de podcast-uri care acoperă nenumărate subiecte, adesea însoțite de elemente vizuale pentru a îmbunătăți înțelegerea.
+### Podcasturi
+Interacționați cu o multitudine de podcasturi care acoperă o multitudine de subiecte, adesea însoțite de elemente vizuale pentru o înțelegere sporită.
 
 ### Resurse educaționale
-Accesați prelegeri și conținut educațional împărtășit de universități și experți, servind ca instrumente valoroase de învățare.
+Accesați prelegeri și conținut educațional partajat de universități și experți, servind ca ajutoare de învățare inestimabile.
 
-### Efecte sonore și loop-uri
-YouTube oferă o gamă largă de efecte sonore și loop-uri muzicale pentru proiecte creative.
+### Efecte sonore și bucle
+YouTube oferă o gamă largă de efecte sonore și bucle muzicale pentru proiecte creative.
 
-# Conversia unui singur videoclip YouTube în MP3 (fișier individual)
+# Convertiți videoclipuri YouTube individuale în MP3 (fișiere individuale)
 
-Dacă sunt doar câteva fișiere individuale, prefer să folosesc convertoare online gratuite. Există multe opțiuni disponibile. Iată câteva de considerat:
+Dacă sunt doar câteva fișiere individuale, prefer să folosesc convertoare online gratuite. Există multe opțiuni disponibile. Iată câteva de luat în considerare:
 
 ## [ToMP3.cc](https://tomp3.cc/)
 
-Site-ul: [https://tomp3.cc/](https://tomp3.cc/)
+Site web: [https://tomp3.cc/](https://tomp3.cc/)
 
 1. Este gratuit și nu necesită înregistrare.
-2. Lipiți link-ul videoclipului YouTube în bara de căutare și apăsați butonul "START".
-3. Puteți alege să descărcați audio-ul ca MP3, cu diverse opțiuni de bitrate.
+2. Inserați linkul videoclipului YouTube în bara de căutare și faceți clic pe butonul „START”.
+3. Veți avea opțiunea de a descărca audio ca MP3 cu diverse opțiuni de bitrate.
 
 <center>
-<img height="450px" src="/images/blog/65-how-to-download-audio-from-youtube/1-seasalt-ai-youtube-to-mp3.png" alt="Folosirea ToMP3.cc pentru a converti YouTube în mp3"/>
+<img height="450px" src="/images/blog/65-how-to-download-audio-from-youtube/1-seasalt-ai-youtube-to-mp3.png" alt="Convertiți YouTube în mp3 folosind ToMP3.cc"/>
 
-*Folosirea ToMP3.cc pentru a converti YouTube în mp3*
+*Convertiți YouTube în mp3 folosind ToMP3.cc*
 </center>
 
 ## [ClipConverter.app](https://www.clipconverter.app/)
 
-Site-ul: [https://www.clipconverter.app/](https://www.clipconverter.app/)
+Site web: [https://www.clipconverter.app/](https://www.clipconverter.app/)
 
 1. Este gratuit și nu necesită înregistrare.
-2. Lipiți link-ul videoclipului YouTube în bara de căutare și apăsați butonul "START".
-3. Puteți alege să descărcați audio-ul ca MP3, cu diverse opțiuni de bitrate.
+2. Inserați linkul videoclipului YouTube în bara de căutare și faceți clic pe butonul „START”.
+3. Veți avea opțiunea de a descărca audio ca MP3 cu diverse opțiuni de bitrate.
 
 <center>
-<img height="450px" src="/images/blog/65-how-to-download-audio-from-youtube/2-seasalt-ai-youtube-to-mp3-clipconverter.png" alt="Folosirea ClipConverter.app pentru a converti YouTube în mp3"/>
+<img height="450px" src="/images/blog/65-how-to-download-audio-from-youtube/2-seasalt-ai-youtube-to-mp3-clipconverter.png" alt="Convertiți YouTube în mp3 folosind ClipConverter.app"/>
 
-*Folosirea ClipConverter.app pentru a converti YouTube în mp3*
+*Convertiți YouTube în mp3 folosind ClipConverter.app*
 </center>
 
-# Conversia multor videoclipuri YouTube în MP3 (listă de fișiere)
 
-Acum, dacă trebuie să descărcați multe fișiere audio și sunteți dispuși să lucrați manual, ar trebui să folosim un instrument de linie de comandă numit `youtube-dl`. Mai precis, vom folosi versiunea sa fork `yt-dlp`. Puteți găsi [repository-ul GitHub](https://github.com/yt-dlp/yt-dlp) aici: [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp).
+# Convertiți multe videoclipuri YouTube în MP3 (o listă de fișiere)
 
-## Cum să folosiți `yt-dlp` pentru a descărca videoclipuri YouTube ca MP3
+Acum, dacă trebuie să descărcați o listă mare de fișiere audio și sunteți deschis să vă murdăriți pe mâini, ar trebui să folosim instrumentul de linie de comandă numit `youtube-dl`. Mai precis, vom folosi de fapt versiunea sa bifurcată numită `yt-dlp`. Puteți găsi [depozitul GitHub](https://github.com/yt-dlp/yt-dlp) aici: [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
-`yt-dlp` este un instrument gratuit pe care îl puteți rula din promptul de comandă al computerului. Este făcut în principal cu Python și funcționează pe Linux, Mac OS și Windows.
+## Cum să descărcați videoclipuri YouTube ca MP3 folosind `yt-dlp`
 
-### Pasul 1: Instalarea
-Instalarea `yt-dlp` este foarte simplă. Puteți descărca fișierul corect pentru sistemul dvs. de computer, cum ar fi Windows sau Mac, și să-l configurați pentru utilizare. După aceea, este gata de utilizare.
+`yt-dlp` este un instrument gratuit pe care îl rulați din promptul de comandă al computerului dvs. Este realizat în mare parte folosind Python și funcționează pe Linux, Mac OS și Windows.
 
-O altă metodă de instalare este folosirea unui program numit `pip`. Această metodă vă permite să obțineți ușor yt-dlp și orice actualizări. Iată o comandă simplă pe care o puteți folosi:
+### Pasul 1: Instalare
+Instalarea `yt-dlp` este simplă. Puteți descărca fișierele potrivite pentru sistemul computerului dvs., cum ar fi Windows sau Mac, și apoi să-l configurați pentru a funcționa. După aceea, este gata de utilizare.
+
+O altă modalitate de a-l instala este utilizarea unui program numit `pip`. Această metodă vă permite să obțineți yt-dlp și orice actualizări cu ușurință. Iată o comandă simplă pe care o puteți utiliza:
 
 ```
 python3 -m pip install --no-deps -U yt-dlp
 ```
 
-De asemenea, s-ar putea să trebuiască să vă actualizați certificatele și `yt-dlp` rulând următoarele comenzi:
+Ați putea dori, de asemenea, să vă actualizați certificatul și `yt-dlp` rulând următoarele:
 ```
 python3 -m pip install --upgrade certifi
 yt-dlp -U
 ```
 
 ### Pasul 2: Testarea instalării
-După instalare, asigurați-vă că adăugați locația programului la PATH-ul computerului dvs. pentru a-l găsi ușor când folosiți promptul de comandă.
+După instalare, asigurați-vă că ați adăugat locația programului în PATH-ul computerului dvs., astfel încât să fie ușor de găsit atunci când utilizați promptul de comandă.
 
-Pentru a testa instalarea dvs., tastați:
+Pentru a testa instalarea, tastați:
 
 ```
 yt-dlp --help
 ```
 
-Această comandă va afișa opțiunile generale când folosiți instrumentul de linie de comandă `yt-dlp`.
+Această comandă afișează opțiuni generale atunci când utilizați instrumentul de linie de comandă `yt-dlp`.
 
-### Pasul 3: Descărcarea unui videoclip YouTube ca MP3
 
-Acum, să presupunem că vrem să descărcăm fișierul YouTube https://youtu.be/Qmkd8ucEVbU, putem rula următoarea comandă:
+### Pasul 3: Descărcați un videoclip YouTube ca MP3
+
+Acum, să presupunem că vom descărca un fișier YouTube https://youtu.be/Qmkd8ucEVbU, putem rula următoarea comandă:
 
 ```
 yt-dlp -x --audio-format mp3 https://youtu.be/Qmkd8ucEVbU
-```
+``` 
 
-În comanda de mai sus, opțiunea `-x` înseamnă că extragem doar audio-ul (ignorând video-ul), opțiunea `--audio-format mp3` specifică formatul audio ca MP3, iar https://youtu.be/Qmkd8ucEVbU este fișierul YouTube de descărcat.
+În comanda de mai sus, opțiunea `-x` indică faptul că vom extrage doar audio (ignorăm video), opțiunea `--audio-format mp3` specifică formatul audio ca MP3, iar https://youtu.be/Qmkd8ucEVbU este fișierul YouTube care urmează să fie descărcat.
 
-Dacă doriți să salvați audio-ul descărcat cu un nume de fișier specific, în loc să folosiți numele generat de instrument, puteți rula:
+Dacă doriți să salvați audio descărcat într-un nume de fișier specific în loc să utilizați un nume generat de instrument, puteți rula:
 ```
 yt-dlp -x --audio-format mp3 -o Jeremy_Blake_Stardrive_Rock.mp3 https://youtu.be/Qmkd8ucEVbU
 ```
 
-Aici, `-o Jeremy_Blake_Stardrive_Rock.mp3` înseamnă că fișierul descărcat ar trebui salvat ca `Jeremy_Blake_Stardrive_Rock.mp3`.
+Aici, `-o Jeremy_Blake_Stardrive_Rock.mp3` indică faptul că fișierul descărcat ar trebui să fie salvat ca `Jeremy_Blake_Stardrive_Rock.mp3`.
 
-### Pasul 4: (Avansat) Descărcarea unei liste de videoclipuri YouTube ca MP3
+### Pasul 4: (Avansat) Descărcați o listă de videoclipuri YouTube ca MP3
 
-Acum suntem gata să descărcăm multe fișiere YouTube. Ideea este să scriem un script care să încapsuleze instrumentul de linie de comandă `yt-dlp` și apoi să descarce automat fișierele unul câte unul. Să folosim Python.
+Acum suntem gata să descărcăm o listă mare de fișiere YouTube. Ideea este să scriem un script pentru a încapsula instrumentul de linie de comandă `yt-dlp` și apoi să descărcăm fișierele unul câte unul automat. Să folosim Python.
 
-Copiați și lipiți următorul cod într-un fișier pe care îl putem numi `download_youtube_to_mp3.py`. De asemenea, creați un fișier numit `urls.txt` în același folder și adăugați URL-urile videoclipurilor YouTube pe care doriți să le descărcați, câte un URL pe linie.
+Copiați și lipiți următorul cod într-un fișier, poate îl putem numi `download_youtube_to_mp3.py`. De asemenea, creați un fișier numit `urls.txt` în același folder și adăugați URL-urile videoclipurilor YouTube pe care doriți să le descărcați, cu fiecare URL pe o linie separată.
 
 ```
 import subprocess
@@ -139,26 +140,28 @@ if __name__ == "__main__":
     download_youtube_audios(urls_file)
 ```
 
-Rulați `python3 download_youtube_to_mp3.py`, și veți obține toate fișierele MP3 din lista de videoclipuri YouTube. Voilà!
+Rulați `python3 download_youtube_to_mp3.py` și apoi veți obține toate fișierele MP3 din lista de videoclipuri YouTube. Voila!
 
-## Considerații legale
-YouTube are una dintre cele mai bune colecții audio, dar este important să înțelegeți termenii legali și să vă asigurați că datele pe care le descărcați pot fi utilizate legal pentru scopuri personale și comerciale. Lucrurile la care trebuie să fiți atenți includ:
 
-- Copyright: Majoritatea conținutului este protejat de copyright și utilizarea necesită permisiuni.
-- Creative Commons: Unele conținuturi au licențe Creative Commons care permit utilizări specifice fără permisiune.
-- Fair Use: Fair Use permite anumite utilizări ale materialelor protejate de copyright, dar înțelegerea aplicării sale poate fi complexă.
-- Termenii de serviciu YouTube: Respectarea regulilor YouTube este crucială pentru a evita sancțiuni precum suspendarea contului.
+## Considerații legale 
+YouTube are una dintre cele mai bune colecții audio, dar este important să înțelegeți termenii legali și să vă asigurați că datele pe care le descărcați pot fi utilizate legal în scopuri personale și comerciale. Lucruri la care va trebui să acordați atenție includ:
 
-În general, deși YouTube oferă resurse audio valoroase, este crucial să le utilizați responsabil și conform ghidurilor legale. Asigurați-vă întotdeauna că aveți permisiunile adecvate înainte de a descărca sau utiliza conținut audio de pe YouTube.
+- Drepturi de autor: Majoritatea conținutului este protejată de drepturi de autor, necesitând permisiunea de utilizare.
+- Creative Commons: Unele conținuturi au licențe Creative Commons, permițând utilizări specifice fără permisiune.
+- Utilizare echitabilă: Utilizarea echitabilă permite anumite utilizări ale materialelor protejate prin drepturi de autor, dar înțelegerea aplicării sale poate fi complexă.
+- Termenii de serviciu YouTube: Respectarea regulilor YouTube este esențială pentru a evita penalitățile, cum ar fi suspendarea contului.
 
-# De ce să faceți totul singuri?
+În general, deși YouTube oferă resurse audio valoroase, este vital să le utilizați în mod responsabil și în conformitate cu liniile directoare legale. Asigurați-vă întotdeauna că aveți permisiunile corespunzătoare înainte de a descărca sau utiliza conținut audio de pe YouTube.
 
-Deși descărcarea audio-ului de pe YouTube poate fi utilă, de ce să vă opriți aici? Folosiți [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) pentru a vă ridica procesarea audio la un nou nivel.
 
-**SeaMeet oferă transcrieri și rezumate precise, în timp real pentru toate nevoile dvs. audio.** Fie că țineți întâlniri, înregistrați podcast-uri sau doar doriți să obțineți transcrieri ale conversațiilor, SeaMeet oferă transcrieri de înaltă calitate în timp real și rezumate cu insight-uri. Acest instrument puternic vă poate economisi ore de muncă manuală și vă ajută să extrageți valoarea maximă din conținutul audio.
+# De ce să o faci singur?
 
-[Înregistrați-vă acum la SeaMeet](https://meet.seasalt.ai/?utm_source=blog) și experimentați plăcerea de a urmări conversațiile.
+Deși descărcarea audio de pe YouTube poate fi utilă, de ce să te oprești aici? Du-ți procesarea audio la nivelul următor cu [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+
+**SeaMeet oferă transcriere și rezumate precise, în timp real, pentru toate nevoile tale audio.** Indiferent dacă ai o întâlnire, înregistrezi un podcast sau pur și simplu vrei să ai o transcriere a conversației, SeaMeet oferă transcrieri instantanee, de înaltă calitate și rezumate perspicace. Acest instrument puternic îți poate economisi ore de muncă manuală și te poate ajuta să extragi valoarea maximă din conținutul tău audio.
+
+[Înscrie-te la SeaMeet astăzi](https://meet.seasalt.ai/?utm_source=blog) și experimentează bucuria de a-ți urmări conversația.
 
 # Mai multe din seria Audio Toolbox
 
-- [Ghidul dvs. comprehensiv de conversie audio: Conversia ușoară a fișierelor de sunet](https://seasalt.ai/blog/81-how-to-convert-audio-files-to-different-formats/?utm_source=blog) 
+- [Ghidul tău complet pentru conversia audio: Convertește fișierele audio cu ușurință](https://seasalt.ai/blog/81-how-to-convert-audio-files-to-different-formats/?utm_source=blog)

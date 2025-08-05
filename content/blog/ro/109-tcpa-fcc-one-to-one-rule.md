@@ -1,108 +1,108 @@
 ---
-title: "Tot ce trebuie să știți despre noua regulă FCC de consimțământ unu-la-unu din 2025"
-metatitle: "Seasalt.ai | Modificări reguli TCPA 2025 | Ghid comprehensiv"
+title: "Tot ce trebuie să știți pentru a vă pregăti pentru noua regulă de consimțământ unu-la-unu a FCC din 2025"
+metatitle: "Seasalt.ai | Modificări ale regulii TCPA din 2025 | Ghid cuprinzător"
 date: 2025-01-05T00:22:19-07:00
-modified_date: "2024-12-19T10:30:00Z"
 draft: false
 author: Amy Chen
-description: "Un ghid aprofundat despre modificările regulilor TCPA din 2025, oferind întreprinderilor informații esențiale pentru asigurarea conformității."
+description: "Un ghid aprofundat privind modificările regulii TCPA din 2025, care oferă informații esențiale pentru ca întreprinderile să asigure conformitatea."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
+tags: ["TCPA", "Conformitate", "Regula FCC 2025"]
 toc: true
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
 canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
 url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
 ---
 
-**Acest articol nu constituie sfat juridic. Vă rugăm să consultați consilierul juridic pentru mai multe informații.**
+**Acest articol nu este un sfat juridic. Vă rugăm să consultați consilierul juridic pentru mai multe informații.**
 
-Modificările regulilor TCPA (Telephone Consumer Protection Act) din 2025 vor intra în vigoare la 27 ianuarie 2025. Pentru orice întreprindere care cumpără lead-uri, deține un site web care colectează numere de telefon de la clienți sau trimite SMS-uri sau apeluri outbound, înțelegerea impactului noilor reguli este crucială. Vă rugăm să rețineți că, deși această regulă nouă este concepută pentru a reglementa companiile de generare de lead-uri, se aplică tuturor întreprinderilor, nu doar companiilor de generare de lead-uri.
+Modificările regulii TCPA (Legea privind protecția consumatorilor de telefonie) din 2025 vor intra în vigoare la 27 ianuarie 2025. Este esențial pentru orice afacere care cumpără clienți potențiali, are un site web care colectează numere de telefon ale clienților sau trimite SMS-uri sau apeluri outbound să înțeleagă implicațiile noii reguli. Rețineți că, deși această nouă regulă este menită să reglementeze companiile de generare de clienți potențiali, această regulă se aplică tuturor afacerilor, nu doar companiilor de generare de clienți potențiali.
 
-Dacă operați orice întreprindere care colectează numere de telefon de la clienți și comunică cu clienții, ar trebui să fiți atenți la această regulă nouă.
+Dacă conduceți orice afacere care colectează numere de telefon ale clienților și comunică cu clienții, ar trebui să vă pese de această nouă regulă.
 
 ## Ce este TCPA?
 
-TCPA este o lege federală care reglementează utilizarea apelurilor telefonice automate și SMS-urilor. A fost promulgată în 1991 pentru a proteja consumatorii de apeluri de telemarketing și SMS-uri nedorite. Legea se aplică tuturor întreprinderilor care fac apeluri automate sau trimit SMS-uri, indiferent de dimensiunea sau locația lor. Pe scurt, TCPA este o lege care reglementează utilizarea apelurilor telefonice automate și SMS-urilor.
+TCPA este o lege federală care reglementează utilizarea apelurilor telefonice și a mesajelor text automate. A fost adoptată în 1991 pentru a proteja consumatorii de apelurile și textele de telemarketing nedorite. Legea se aplică tuturor afacerilor care efectuează apeluri sau texte automate, indiferent de mărimea sau locația lor. Pentru a spune în termeni simpli, TCPA este o lege care reglementează utilizarea apelurilor telefonice și a mesajelor text automate.
 
-În practică, TCPA este motivul pentru care trebuie să vă optați pentru a primi apeluri și SMS-uri de la bănci, companii de carduri de credit și alte întreprinderi. Widget-ul [SeaX](https://seax.seasalt.ai/?utm_source=blog&utm_medium=blog&utm_campaign=109-tcpa) este un exemplu excelent. Puteți contacta lead-urile doar după ce acestea s-au optat pentru a primi apelurile și SMS-urile dvs.
+În practică, TCPA este motivul pentru care trebuie să vă înscrieți pentru a primi apeluri și texte de la banca dvs., compania de carduri de credit și alte afaceri. Widgetul [SeaX](https://seax.seasalt.ai/?utm_source=blog&utm_medium=blog&utm_campaign=109-tcpa) este un bun exemplu. Puteți contacta clienții potențiali numai dacă aceștia s-au înscris pentru a primi apelurile și textele dvs.
 
 <br/>
 
 <center>
-<img width="50%" src="/images/blog/109-tcpa-fcc-one-to-one-rule/seax-consent-screenshot.png"  alt="Captură de ecran care arată procesul de consimțământ SeaX">
+<img width="50%" src="/images/blog/109-tcpa-fcc-one-to-one-rule/seax-consent-screenshot.png"  alt="Captură de ecran care arată procesul de consimțământ Seax">
 
 </center>
 
-La 27 ianuarie 2025, TCPA va deveni și mai strictă. Fiecare întreprindere va trebui să-și reevalueze strategiile de generare de lead-uri și marketing pentru a asigura conformitatea.
+La 27 ianuarie 2025, TCPA va deveni mai strictă. Fiecare afacere trebuie să-și reevalueze strategiile de generare de clienți potențiali și de marketing pentru a asigura conformitatea.
 
 
-## De ce este importantă noua decizie FCC unu-la-unu?
+## De ce este importantă noua hotărâre unu-la-unu a FCC?
 
-Astăzi, generarea de lead-uri se bazează în mare parte pe capturarea prin formulare, formularele web online și site-urile de comparare a prețurilor sunt instrumente cheie pentru marketerii orientați spre consumatori, brokerii de asigurări și imobiliare, creatorii și zeci de mii de întreprinderi mici. Deoarece recomandările prin viu grai de obicei nu pot fi obținute de la început, întreprinderile care urmează să se extindă trebuie fie să dezvolde strategii comprehensive de marketing, fie să cumpere lead-uri de la companii de lead-uri. În fiecare lună, milioane de lead-uri sunt tranzacționate prin zeci de mii de site-uri de generare de lead-uri, rezultând în apeluri de marketing de sute de milioane către consumatori.
+Generarea de clienți potențiali se bazează astăzi în mare măsură pe captarea de formulare, formularele web online și site-urile de cumpărături comparative fiind instrumente cheie pentru marketerii direct-către-consumator, agenții de asigurări și imobiliari, creatorii și zeci de mii de întreprinderi mici. Deoarece recomandările din gură în gură nu sunt de obicei disponibile de la început, afacerile care doresc să se extindă trebuie fie să dezvolte strategii de marketing cuprinzătoare, fie să cumpere clienți potențiali de la companii de generare de clienți potențiali. În fiecare lună, milioane de clienți potențiali sunt tranzacționați prin zeci de mii de site-uri de generare de clienți potențiali, ceea ce duce la sute de milioane de apeluri de marketing către consumatori.
 
-Înainte de introducerea noii reguli unu-la-unu, operatorii de site-uri web puteau include pagini de parteneri care se conectau la mii de companii, permițând consumatorilor să consimtă fără să știe la apeluri de la aceste întreprinderi. De obicei, dezvăluirile cu litere mici permiteau apeluri de la companii care oferă produse fără legătură cu interogarea inițială a consumatorului. De exemplu, un site web care oferă informații despre asigurări de sănătate putea include litere mici care permiteau vânzarea datelor consumatorilor către brokeri de proprietăți și accidente sau asigurări de viață.
+Înainte de introducerea noii reguli unu-la-unu, operatorii de site-uri web puteau include pagini partenere care legau la mii de companii, permițând consumatorilor să consimtă fără să știe să primească apeluri de la aceste afaceri. Adesea, dezvăluirile cu litere mici permiteau apeluri de la companii care ofereau produse care nu aveau legătură cu solicitarea inițială a consumatorului. De exemplu, un site care oferă informații despre asigurările de sănătate ar putea include litere mici care permit vânzarea datelor consumatorului către un broker de asigurări P&C sau de viață.
 
-Noua regulă unu-la-unu elimină aceste practici prin cererea ca operatorii de site-uri web să identifice în mod clar fiecare furnizor care ar putea contacta consumatorii. Consumatorii trebuie acum să se opteze individual pentru fiecare furnizor pentru ca consimțământul lor să fie valid. Această modificare este concepută pentru a proteja consumatorii de apeluri și SMS-uri nedorite prin asigurarea că consumatorii consimt în mod clar să fie contactați de fiecare întreprindere specifică.
+Noua regulă unu-la-unu elimină aceste practici, solicitând operatorilor de site-uri web să identifice în mod clar fiecare furnizor care poate contacta consumatorul. Consumatorii trebuie acum să selecteze individual fiecare furnizor pentru ca consimțământul lor să fie valabil. Această modificare este concepută pentru a proteja consumatorii de apelurile și textele nesolicitate, asigurându-se că aceștia au fost de acord în mod explicit să fie contactați de fiecare afacere specifică.
 
-Legea TCPA își are originile în anii 1990, a suferit multiple revizii și a fost actualizată semnificativ la începutul anilor 2010. Modificările care vin în 2025 vor strânge și mai mult aceste reglementări. Începând cu 27 ianuarie 2025, noile reguli FCC vor cere generatorilor de lead-uri și site-urilor de comparare a prețurilor să obțină consimțământul consumatorilor pentru apeluri automate și SMS-uri automate pe o bază unu-la-unu. Este important să înțelegeți că încălcarea TCPA poate duce la amenzi uriașe și că identitatea companiei nu poate proteja persoanele de responsabilitatea personală.
+Legea TCPA, care datează din anii 1990, a suferit numeroase modificări, cu actualizări majore la începutul anilor 2010. Modificările viitoare din 2025 vor înăspri și mai mult aceste reglementări. Începând cu 27 ianuarie 2025, noile reguli ale FCC impun generatorilor de clienți potențiali și site-urilor web de cumpărături comparative să obțină consimțământul consumatorului pentru robocall-uri și robotexte pe o bază „un vânzător la un moment dat”. Este esențial să înțelegeți că încălcările TCPA pot duce la amenzi substanțiale, iar statutul corporativ nu protejează persoanele de răspunderea personală.
 
-**Fiecare apel sau SMS neautorizat poate duce la o amendă de 500 USD**, iar unii raportează încălcări TCPA pentru beneficiul financiar. Prin urmare, protejarea întreprinderii și a activelor personale de aceste riscuri este crucială.
+**Fiecare apel sau text neautorizat poate duce la o amendă de 500 USD**, iar unele persoane raportează încălcările TCPA pentru câștig financiar. Prin urmare, protejarea afacerii și a bunurilor personale împotriva acestor riscuri este esențială.
 
 
 ## Beneficiile noii reguli de consimțământ unu-la-unu
 
-Modelul actual se bazează pe consimțământul terților, unde editorii de lead-uri permit editorilor de lead-uri să-și vândă informațiile. Aceasta duce de obicei la un lead (generat de o companie de generare de lead-uri) fiind vândut mai multor întreprinderi. Din această perspectivă, dacă sunteți un broker de ipoteci, concurați cu alți brokeri de ipoteci pentru același lead. Acest model de afaceri nu doar reduce calitatea lead-urilor, ci duce și la o experiență proastă a clienților. Ați primit vreodată 30 de apeluri de la diferiți brokeri de ipoteci imediat după ce ați completat un formular de cotare a ratei de ipotecă pe un site de comparare a prețurilor? Aceasta este frustrantă atât pentru întreprinderile mici, cât și pentru consumatori. Întreprinderile mici trebuie să concureze pentru același lead, în timp ce consumatorii sunt copleșiți de numărul de apeluri/SMS-uri pe care le primesc.
+Modelul actual se bazează pe consimțământul terților, în care consumatorii permit editorilor de clienți potențiali să își vândă informațiile. Acest lucru duce adesea la un client potențial, generat de o companie de generare de clienți potențiali, fiind vândut mai multor afaceri. Pentru a pune acest lucru în perspectivă, dacă sunteți un broker ipotecar, concurați cu alți brokeri ipotecari pentru același client potențial. Acest model de afaceri nu numai că face calitatea clientului potențial proastă, dar duce și la o experiență proastă a clienților. Ați primit vreodată 30 de apeluri de la diferiți brokeri ipotecari imediat după ce ați completat un formular de ofertă de rată ipotecară pe un site de cumpărături comparative? Este frustrant atât pentru întreprinderea mică, cât și pentru consumator. Întreprinderile mici trebuie să lupte pentru același client potențial, iar consumatorii sunt copleșiți de numărul de apeluri/texte pe care le primesc
 
-Noua regulă de consimțământ unu-la-unu este concepută pentru a îmbunătăți acest sistem, făcându-l mai ușor pentru consumatori să accepte comunicările de la întreprinderile pe care le-au ales în mod clar să colaboreze. Definiția revizuită a "consimțământului scris expres anterior" necesită ca consimțământul să fie clar, proeminent și direcționat către un vânzător identificat.
+Noua regulă de consimțământ unu-la-unu își propune să îmbunătățească acest sistem, făcând consumatorii mai receptivi la comunicarea de la afacerile cu care au ales în mod specific să lucreze. Definiția modificată a „consimțământului expres scris prealabil” impune ca consimțământul să fie clar, vizibil și specific unui vânzător identificat.
 
-## Noua decizie FCC unu-la-unu mă va afecta? Nu riscați
+## Voi fi afectat de noua hotărâre unu-la-unu a FCC? Nu riscați
 
-Vă rugăm să folosiți următoarea listă pentru a determina dacă decizia FCC unu-la-unu vă va afecta. [Citat din lista expertului TCPA Eric J. Troutman de la Troutman Amin, LLP](https://natlawreview.com/article/confused-about-fccs-new-one-one-consent-rules-youre-not-alone-here-are-some-faqs?amp).
+Vă rugăm să utilizați următoarea listă de verificare pentru a determina dacă hotărârea unu-la-unu a FCC vă va afecta. [Citând lista de verificare](https://natlawreview.com/article/confused-about-fccs-new-one-one-consent-rules-youre-not-alone-here-are-some-faqs?amp) de la expertul TCPA, Eric J. Troutman de la Troutman Amin, LLP.
 
 
-- Dacă cumpărați sau vindeți lead-uri
-- Dacă sunteți un BPO sau centru de apeluri care se bazează pe lead-uri
-- Dacă sunteți un CPaaS sau platformă de comunicare
+- Dacă cumpărați sau vindeți clienți potențiali
+- Dacă sunteți un BPO sau un centru de apeluri care se bazează pe clienți potențiali
+- Dacă sunteți o platformă CPaaS sau de comunicare
 - Dacă sunteți un operator de telecomunicații
-- Dacă sunteți o platformă de generare de lead-uri sau furnizor de servicii
-- Dacă generați lead-uri proprii (obțineți clienți prin campanii SEO sau PPC?)
+- Dacă sunteți o platformă sau un furnizor de servicii de generare de clienți potențiali
+- Dacă generați clienți potențiali de primă parte (câștigați clienți prin campanii SEO sau PPC?)
 
-Da, veți fi afectat și ar trebui să consultați consilierul juridic pentru a revizui strategiile actuale de generare de lead-uri și marketing.
-
-
-## Ce ar trebui să fac înainte de 27 ianuarie 2025?
-
-1. Dacă obțineți propriile lead-uri, actualizați formularele de capturare a lead-urilor pentru a include limbajul de consimțământ unu-la-unu. Seasalt.ai este pregătit și are instrumente pentru a vă ajuta cu tranziția, inclusiv limbajul folosit în formularele de consimțământ, gestionarea campaniilor dvs. de SMS și outbound (inclusiv campaniile manuale și automate de SMS și telefon) și multe altele.
-
-2. Dacă obțineți lead-uri de la generatori externi de lead-uri, adică cumpărați lead-uri de la companii de generare de lead-uri, trebuie să verificați dacă sursele externe de lead-uri sunt conforme cu noile reguli de consimțământ unu-la-unu. Cel mai bine este să nu riscați și să căutați o sursă de lead-uri conformă. Dacă nu sunteți siguri, contactați consilierul juridic sau suspendați achiziția de lead-uri până când aveți o înțelegere clară a sursei de lead-uri.
+Da, sunteți afectat și ar trebui să consultați consilierul juridic pentru a vă revizui strategiile actuale de generare de clienți potențiali și de marketing.
 
 
-## Ce fac cu lead-urile existente?
+## Ce ar trebui să fac în continuare înainte de 27 ianuarie 2025?
 
-După 27 ianuarie 2025, puteți continua să contactați lead-urile existente folosind formarea manuală (da, necesită introducerea manuală a numărului de telefon) sau sistemele operate manual. Cu toate acestea, este important să rețineți că orice outreach care folosește tehnologii reglementate (cum ar fi mesajele pre-înregistrate, AI vocal, soundboards, mesaje vocale fără sunet (RVM), răspuns vocal interactiv (IVR) sau mesaje vocale (VMs)) va fi interzis pentru aceste lead-uri vechi.
+1. Dacă achiziționați proprii clienți potențiali, actualizați formularul de captare a clienților potențiali pentru a include limbajul de consimțământ unu-la-unu. Seasalt.ai este pregătit și are instrumente pentru a vă ajuta cu tranziția, inclusiv limbajul utilizat în formularele de consimțământ, gestionarea campaniilor dvs. de SMS și apeluri outbound (atât pentru campaniile de SMS și apeluri manuale, cât și automate) și multe altele.
+
+2. Dacă achiziționați clienți potențiali de la generatori de clienți potențiali externi, adică cumpărați clienți potențiali de la companii de generare de clienți potențiali, trebuie să verificați dacă sursele externe de clienți potențiali sunt conforme cu noua regulă de consimțământ unu-la-unu. Este mai bine să nu riscați și să găsiți o sursă de clienți potențiali conformă. Dacă nu sunteți sigur, vă rugăm să contactați consilierul juridic sau să întrerupeți achiziția de clienți potențiali până când aveți o înțelegere clară a surselor de clienți potențiali.
+
+
+## Ce se întâmplă cu clienții mei potențiali existenți?
+
+După 27 ianuarie 2025, puteți continua să contactați clienții potențiali existenți folosind apelarea manuală (Da, un om trebuie să tasteze numărul de telefon) sau sisteme operate de om. Cu toate acestea, este important de reținut că orice contactare care utilizează tehnologii reglementate, cum ar fi mesajele preînregistrate, vocile AI, panourile de sunet, mesajele vocale fără sunet (RVM), răspunsul vocal interactiv (IVR) sau mesajele vocale (VM) va fi interzisă pentru acești clienți potențiali vechi.
 
 
 
-## Acțiunea imediată
+## Acționați acum
 
-Dacă doriți să fiți în frunte, acționați acum. 27 ianuarie 2025 vine rapid, dar nu vedem suficiente întreprinderi care acționează pentru a se pregăti. Seasalt.ai va continua să ofere resurse și instrumente pentru a vă ajuta să vă pregătiți pentru noile reguli. Acoperim campaniile de SMS și outbound folosind tehnologii manuale și AI. Să lucrăm împreună pentru a vă asigura că sunteți conform cu noile reguli și pregătit.
+Dacă doriți să fiți înaintea curbei, vă rugăm să acționați acum. 27 ianuarie 2025 se apropie cu pași repezi, dar nu vedem suficiente afaceri care să ia măsuri pentru a se pregăti. Seasalt.ai va continua să ofere resurse și instrumente pentru a vă ajuta să vă pregătiți pentru noua regulă. Acoperim campaniile de SMS și apeluri outbound folosind atât tehnologie manuală, cât și AI. Să lucrăm împreună pentru a ne asigura că sunteți conform și pregătit pentru noua regulă.
 
-Modificările regulilor TCPA din 2025 vor afecta semnificativ modul în care întreprinderile desfășoară activități de outreach. Apelurile și SMS-urile care folosesc tehnologii reglementate vor necesita consimțământ de opt-in clar. Pentru cei fără opt-in, va fi necesară formarea manuală și trimiterea de SMS după curățare. Relațiile de afaceri existente pot oferi unele excepții, dar a fi informat și conform este crucial. Vă rugăm să consultați întotdeauna consilierul juridic înainte de a face orice modificări.
+Modificările regulii TCPA din 2025 vor avea un impact semnificativ asupra modului în care afacerile își desfășoară activitatea de contactare. Apelurile și textele care utilizează tehnologie reglementată vor necesita consimțământ explicit de înscriere. Pentru cei fără înscriere, va fi necesară apelarea și trimiterea de mesaje text manuală după curățare. Relațiile de afaceri existente pot oferi unele scutiri, dar este esențial să rămâneți informat și conform. Discutați întotdeauna cu consilierul juridic înainte de a face orice modificare.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Programați o consultație gratuită cu noi</a>
+<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Rezervați o consultație gratuită cu noi</a>
 </center>
 
 
 ## Referințe
 
-Dacă doriți să citiți direct de la FCC, vizitați următoarele linkuri:
-- [Întrebări frecvente despre regula de consimțământ unu-la-unu TCPA pentru consimțământul scris expres anterior](https://docs.fcc.gov/public/attachments/DOC-408396A1.pdf).
-- [Comanda FCC](https://docs.fcc.gov/public/attachments/FCC-23-107A1.pdf)
+Dacă preferați să citiți direct de la FCC, vă rugăm să vizitați următoarele linkuri:  
+- [Regula de consimțământ unu-la-unu pentru întrebările frecvente privind consimțământul expres scris prealabil TCPA](https://docs.fcc.gov/public/attachments/DOC-408396A1.pdf).
+- [Ordinul FCC](https://docs.fcc.gov/public/attachments/FCC-23-107A1.pdf)
 
-Dacă doriți să învățați de la alți experți, vizitați următoarele linkuri:
+Dacă doriți să învățați de la alți experți, vă rugăm să vizitați următoarele linkuri:
 
 - [TCPA World](https://tcpaworld.com/)
-- [Consumer Financial Services Law Monitor](https://www.consumerfinancialserviceslawmonitor.com/)
-- [Lead Gen Insider News](https://www.linkedin.com/posts/clelland-green-5600083_in-case-you-missed-our-4th-issue-we-activity-7271234432903135232-8kqh)
-- [Strategia Evocalize pentru generarea de lead-uri conforme pentru noile modificări TCPA](https://youtu.be/vFNtTGuNJPA) 
+- [Monitorul legii serviciilor financiare pentru consumatori](https://www.consumerfinancialserviceslawmonitor.com/)
+- [Știri din interiorul generației de clienți potențiali](https://www.linkedin.com/posts/clelland-green-5600083_in-case-you-missed-our-4th-issue-we-activity-7271234432903135232-8kqh)
+- [Strategii de generare de clienți potențiali conforme pentru noile modificări TCPA de la Evocalize](https://youtu.be/vFNtTGuNJPA)
+

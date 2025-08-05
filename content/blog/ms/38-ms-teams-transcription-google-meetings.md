@@ -1,88 +1,82 @@
 ---
-title: "Pertempuran Pembantu Mesyuarat AI: Microsoft Teams Copilot lwn Google Meet"
-metatitle: "Pertempuran Pembantu Mesyuarat AI: Microsoft Teams Copilot lwn Google Meet"
+title: "Pertandingan Pembantu Mesyuarat AI: Microsoft Teams vs Google Meet"
+metatitle: "Pertandingan Pembantu Mesyuarat AI: Microsoft Teams vs Google Meet"
 date: 2023-10-05T10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "Terokai ciri pembantu mesyuarat AI Microsoft Teams dan Google Meet, membandingkan sokongan setiap platform untuk Bahasa Cina Tradisional. SeaMeet menyokong Bahasa Cina Tradisional, menawarkan transkrip masa nyata, ringkasan dan banyak lagi."
+description: "Terokai pembantu mesyuarat AI Microsoft Teams dan Google Meet, bandingkan sokongan bahasa platform, dan ketahui bagaimana SeaMeet menyediakan transkripsi masa nyata, ringkasan, dan ciri-ciri lain."
 weight: 1
-tags: ["SeaMeet", "Alat AI"]
+tags: ["SeaMeet", "AI Tools"]
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
 canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
 url: "/blog/microsoft-teams-transcription-on-google-meetings/"
 aliases:
     - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Terokai ciri pembantu mesyuarat AI Microsoft Teams dan Google Meet, membandingkan sokongan setiap platform untuk Bahasa Cina Tradisional. SeaMeet menyokong Bahasa Cina Tradisional, menawarkan transkrip masa nyata, ringkasan dan banyak lagi."
-modified_date: 2025-08-01T17:00:00-08:00
+summary: "Terokai pembantu mesyuarat AI Microsoft Teams dan Google Meet, bandingkan sokongan bahasa platform, dan ketahui bagaimana SeaMeet menyediakan transkripsi masa nyata, ringkasan, dan ciri-ciri lain."
 ---
 
-Dengan perkembangan teknologi, pembantu mesyuarat AI telah menjadi alat utama untuk meningkatkan kecekapan mesyuarat. Alat ini boleh memberikan ringkasan mesyuarat secara automatik, menukar pertuturan kepada teks, dan juga mengenal pasti maklumat penting dalam mesyuarat secara automatik. Artikel ini akan meneroka tiga pembantu mesyuarat AI utama: Copilot Microsoft Teams, Duet AI Google Meet dan SeaMeet.
+Seiring dengan kemajuan teknologi, pembantu mesyuarat AI telah menjadi alat penting untuk meningkatkan kecekapan mesyuarat. Alat-alat ini boleh secara automatik menghasilkan ringkasan mesyuarat, menukar pertuturan kepada teks, dan bahkan mengenal pasti maklumat penting semasa mesyuarat. Dalam artikel ini, kita akan meneliti tiga pembantu mesyuarat AI utama: Copilot Microsoft Teams, Duet AI Google Meet, dan SeaMeet.
 
-> **Maklumat Penting**:
-> - **Teams Copilot**: Menyediakan fungsi ringkasan mesyuarat, tetapi tidak menyokong bahasa Cina dan mengutamakan bahasa Cina Ringkas.
-> - **Google Meet Duet AI**: Menyediakan fungsi penukaran sari kata automatik, tetapi pada masa ini tidak menyokong bahasa Cina.
-> - **SeaMeet**: Menyokong Bahasa Cina Tradisional dan menyediakan transkrip masa nyata, ringkasan dan fungsi lain.
+> **Perkara Penting**:
+> - **Teams Copilot**: Menyediakan fungsi ringkasan mesyuarat tetapi sokongan bahasa terhad.
+> - **Google Meet Duet AI**: Menyediakan terjemahan sari kata automatik tetapi kini mempunyai had bahasa.
+> - **SeaMeet**: Menyokong pelbagai bahasa dan menyediakan transkripsi masa nyata, ringkasan, dan ciri-ciri lain.
 
-# **Copilot Mesyuarat Microsoft Teams**
+# **Copilot untuk Mesyuarat Microsoft Teams**
 
-Microsoft Teams menyediakan pengguna dengan ciri yang dipanggil Copilot, yang direka untuk memberikan ringkasan mesyuarat untuk membantu peserta menjejaki dan mengambil bahagian dalam mesyuarat dengan lebih baik. Ciri ini boleh:
-- Menangkap keputusan penting dan item tindakan dalam mesyuarat.
-- Memberikan maklum balas masa nyata, membolehkan peserta menyesuaikan penyertaan mereka pada bila-bila masa.
-- Merakam dan menganalisis mesyuarat secara automatik, memberikan ringkasan dan cadangan seterusnya.
+Microsoft Teams menyediakan ciri yang dipanggil Copilot yang direka untuk memberikan ringkasan mesyuarat supaya peserta boleh menjejak dan mengambil bahagian dalam mesyuarat dengan lebih baik. Ciri ini boleh:
+- Menangkap keputusan penting dan item tindakan dari mesyuarat.
+- Memberikan maklum balas masa nyata untuk membolehkan peserta menyesuaikan penyertaan mereka.
+- Secara automatik merakam dan menganalisis mesyuarat untuk memberikan ringkasan dan cadangan susulan.
 
-[Lihat panduan permulaan untuk Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
-
+[Lihat panduan memulakan Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
 
 # **Duet AI Google Meet**
 
-Google Meet telah memperkenalkan ciri baharu untuk penggunanya yang dipanggil Duet AI, yang terutamanya menyediakan penukaran sari kata automatik, menjadikannya lebih mudah bagi penutur bukan asli untuk mengikuti kandungan mesyuarat. Walau bagaimanapun, ciri ini pada masa ini mempunyai beberapa batasan:
-1. Duet AI pada masa ini tidak menyokong bahasa Cina, terutamanya Bahasa Cina Tradisional.
-2. Fokus utama pembangunan dan sokongan masih pada bahasa Inggeris dan bahasa utama lain.
-3. Ramai pengguna telah mempersoalkan ketepatan sari katanya.
+Google Meet telah memperkenalkan ciri baru yang dipanggil Duet AI yang menyediakan terjemahan sari kata automatik terutamanya untuk membantu penutur bukan natif memahami kandungan mesyuarat dengan lebih baik. Walau bagaimanapun, ciri ini kini mempunyai beberapa batasan:
+1. Duet AI kini mempunyai sokongan bahasa yang terhad.
+2. Pembangunan dan sokongan terutamanya tertumpu pada bahasa Inggeris dan bahasa utama lain.
+3. Ramai pengguna mempersoalkan ketepatan sari kata.
 
 [Ketahui lebih lanjut tentang Duet AI](https://workspaceupdates.googleblog.com/2023/08/duet-ai-translated-captions.html)
 
-> **Maklumat Penting**:
-> - **Fungsi**: Duet AI menyediakan penukaran sari kata automatik.
-> - **Sokongan Bahasa**: Pada masa ini tidak menyokong bahasa Cina.
-> - **Ketepatan**: Sesetengah pengguna mempersoalkan ketepatan sari katanya.
+> **Perkara Penting**:
+> - **Fungsi**: Duet AI menyediakan terjemahan sari kata automatik.
+> - **Sokongan Bahasa**: Pilihan bahasa kini terhad.
+> - **Ketepatan**: Sesetengah pengguna mempersoalkan ketepatan sari kata.
 
-# **Ciri SeaMeet**
+# **Ciri-ciri SeaMeet**
 
-Berbanding dengan dua platform lain, SeaMeet menunjukkan prestasi yang sangat baik dalam sokongannya untuk Bahasa Cina Tradisional. Ia bukan sahaja menyokong sepenuhnya Bahasa Cina Tradisional, tetapi ia juga menyediakan ciri yang serupa atau lebih maju daripada Microsoft Copilot dan Google Meet copilot:
-- Menyediakan transkrip masa nyata dalam bahasa Cina dan Inggeris, membolehkan peserta mengikuti kandungan mesyuarat serta-merta.
-- Menjana ringkasan dan topik mesyuarat secara automatik untuk semakan mudah oleh peserta.
-- Menjana Dokumen Google secara automatik untuk setiap mesyuarat selepas mesyuarat untuk meningkatkan kerjasama pasukan.
-- Pengurusan kebenaran yang disulitkan untuk ruang kerja dan pengguna rakaman mesyuarat.
-- Tahap penyesuaian yang tinggi, membolehkan pengguna melaraskan fungsi dan tetapannya mengikut keperluan mereka.
-
+Berbanding dengan dua platform lain, SeaMeet mempunyai kelebihan dalam sokongan bahasa yang komprehensif. Bukan sahaja menyokong pelbagai bahasa, tetapi juga menyediakan ciri-ciri yang setara atau lebih maju daripada Microsoft Copilot atau Google Meet Copilot:
+- Menyediakan transkripsi masa nyata pelbagai bahasa untuk membolehkan peserta menjejak kandungan mesyuarat dengan serta-merta.
+- Secara automatik menghasilkan ringkasan mesyuarat dan topik untuk semakan mudah.
+- Secara automatik mencipta dokumen Google untuk setiap mesyuarat untuk kerjasama pasukan.
+- Pengurusan akses yang disulitkan untuk rekod mesyuarat ruang kerja dan pengguna.
+- Kebolehsuaian lanjutan membolehkan ciri-ciri dan tetapan disesuaikan mengikut keperluan pengguna.
 
 # **Perbandingan SeaMeet dengan Platform Lain**
 
-Apabila kita membandingkan SeaMeet dengan dua platform lain, kita dapat melihat bahawa setiap platform mempunyai kelebihan dan batasan uniknya sendiri. Walau bagaimanapun, bagi pengguna yang mahukan sokongan penuh untuk Bahasa Cina Tradisional, SeaMeet pada masa ini adalah pilihan terbaik. Microsoft dan Google mungkin tidak menyokong ciri terkini untuk pengguna Bahasa Cina Tradisional dengan segera, dan walaupun mereka melakukannya, masih perlu dilihat sama ada ia sesuai untuk tabiat pengguna Bahasa Cina Tradisional.
+Apabila membandingkan SeaMeet dengan dua platform lain, kita boleh melihat bahawa setiap platform mempunyai kekuatan dan batasan tersendiri. Walau bagaimanapun, untuk pengguna yang mencari sokongan bahasa yang komprehensif dan ciri-ciri lanjutan, SeaMeet kini menawarkan penyelesaian terbaik kerana Microsoft dan Google mungkin memerlukan masa untuk mengembangkan sokongan bahasa dan set ciri mereka.
 
-Berikut ialah perbandingan mudah bagi tiga pembantu mesyuarat Copilot:
+Perbandingan ringkas ketiga-tiga pembantu mesyuarat adalah seperti berikut:
 
-- **Fungsi Komprehensif**: Berbanding dengan Duet AI Google Meet dan Copilot Teams, SeaMeet menyediakan fungsi yang lebih komprehensif, termasuk transkrip masa nyata, ringkasan dan topik.
-- **Sokongan Bahasa**: SeaMeet menyokong sepenuhnya Bahasa Cina Tradisional, manakala dua yang lain masih mempunyai ruang untuk penambahbaikan dalam bidang ini.
+- **Kelengkapan Ciri**: Berbanding dengan Google Meet Duet AI dan Teams Copilot, SeaMeet menyediakan ciri-ciri yang lebih komprehensif termasuk transkripsi masa nyata, ringkasan, dan topik.
+- **Sokongan Bahasa**: SeaMeet menyediakan sokongan bahasa yang luas, manakala platform lain masih dalam pembangunan dalam bidang ini.
 
-> **Maklumat Penting**:
-> - **Fungsi**: SeaMeet menyediakan transkrip masa nyata, ringkasan dan topik.
-> - **Sokongan Bahasa**: Menyokong sepenuhnya Bahasa Cina Tradisional.
+> **Perkara Penting**:
+> - **Ciri-ciri**: SeaMeet menyediakan transkripsi masa nyata, ringkasan, dan topik.
+> - **Sokongan Bahasa**: Sokongan pelbagai bahasa yang komprehensif.
 
 # **Kesimpulan**
 
-| Platform | |Sokongan Bahasa Cina |
-|:-----------------------------------:|----------|:-----------------:|
-| Teams Copilot || Tidak menyokong bahasa Cina, akan mengutamakan pelancaran fungsi bahasa Cina Ringkas |
-| Google Meet | |Mesyuarat mempunyai transkrip Bahasa Cina Tradisional, tetapi pembantu mesyuarat tidak menyokong bahasa Cina |
-| SeaMeet || Menyokong Bahasa Cina Tradisional, menyediakan transkrip masa nyata, ringkasan, dsb. |
+| Platform | Sokongan Bahasa |
+|:-----------------------------------:|:-----------------:|
+| Teams Copilot | Sokongan bahasa terhad |
+| Google Meet | Transkripsi mesyuarat tersedia tetapi Copilot mempunyai had bahasa |
+| SeaMeet | Sokongan bahasa komprehensif dengan transkripsi masa nyata dan ringkasan |
 
+Dengan kemajuan pesat teknologi, pembantu mesyuarat AI telah menjadi alat penting untuk organisasi moden. Platform yang berbeza menyediakan pelbagai ciri untuk memenuhi keperluan pengguna yang berbeza. Walau bagaimanapun, untuk pengguna yang mencari sokongan bahasa yang komprehensif dan ciri-ciri lanjutan, SeaMeet jelas merupakan pilihan terbaik. Apabila memilih pembantu AI yang sesuai untuk mesyuarat, pengguna perlu membandingkan dengan teliti ciri-ciri, sokongan bahasa, dan maklum balas pelanggan pelbagai platform untuk memastikan mereka memilih alat yang paling sesuai dengan keperluan mereka.
 
-Dengan perkembangan teknologi yang pesat, pembantu mesyuarat AI telah menjadi alat yang sangat diperlukan untuk perusahaan moden. Platform yang berbeza menyediakan fungsi yang berbeza untuk memenuhi keperluan pengguna yang berbeza. Walau bagaimanapun, bagi pengguna yang mahukan sokongan penuh untuk Bahasa Cina Tradisional, SeaMeet sudah pasti pilihan terbaik. Apabila memilih pembantu mesyuarat AI yang sesuai, pengguna harus membandingkan dengan teliti fungsi, sokongan bahasa dan maklum balas pelanggan platform yang berbeza untuk memastikan mereka memilih alat yang paling sesuai untuk diri mereka sendiri.
+Ingin menjadikan mesyuarat pasukan anda lebih cekap?
 
-
-
-Adakah anda juga mahu menjadikan mesyuarat pasukan anda lebih cekap?
-
-### [>>Mulakan percubaan percuma SeaMeet anda](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mula menggunakan SeaMeet secara percuma](https://meet.seasalt.ai/?utm_source=blog)

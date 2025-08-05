@@ -1,24 +1,23 @@
 ---
-title: "SeaX + SeaChat: AI Voice Assistant Revolutioniz..."
-metatitle: "SeaX + SeaChat: Revolutionizing Elderly Care th..."
-date: "2024-08-16T00:22:19-07:00"
-draft: "false"
-author: "Jun Mao"
-description: "Explore how to use SeaX + SeaChat AI voice assistant system to address elderly care challenges in..."
-weight: "1"
-tags:
-toc: "true"
-image: "/images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebo..."
+title: "SeaX + SeaChat: ผู้ช่วยเสียง AI ปฏิวัติโซลูชันอัจฉริยะสำหรับการดูแลผู้สูงอายุ"
+metatitle: "SeaX + SeaChat: ปฏิวัติการดูแลผู้สูงอายุด้วยผู้ช่วยเสียง AI - การประยุกต์ใช้การโทรดูแลอัจฉริยะที่ประสบความสำเร็จ"
+date: 2024-08-16T00:22:19-07:00
+draft: false
+author: Jun Mao
+description: "สำรวจวิธีที่ระบบผู้ช่วยเสียง AI ของ SeaX + SeaChat สามารถแก้ไขปัญหาการดูแลผู้สูงอายุในสังคมสูงวัยพิเศษของไต้หวัน ทำความเข้าใจว่าการโทรดูแลอัจฉริยะช่วยยกระดับคุณภาพชีวิตของผู้สูงอายุได้อย่างไร โดยให้การดูแลแบบเรียลไทม์ การเป็นเพื่อนทางอารมณ์ และการติดตามสุขภาพ รวมถึงการแก้ไขปัญหาการขาดแคลนแรงงาน"
+weight: 1
+tags: ["SeaChat", "SeaX", "Seasalt.ai"]
+toc: true
+image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
 canonicalURL: "/blog/senior-hotline-using-voicebot/"
 url: "/blog/senior-hotline-using-voicebot/"
-summary: "As Taiwan moves towards a super-aged society, elderly care is facing unpreced..."
-modified_date: "2024-07-08T09:00:00Z"
+summary: 'ในขณะที่ไต้หวันกำลังก้าวเข้าสู่สังคมสูงวัยพิเศษ การดูแลผู้สูงอายุต้องเผชิญกับความท้าทายที่ไม่เคยมีมาก่อน จากข้อมูลของคณะกรรมการพัฒนาแห่งชาติ สัดส่วนประชากรสูงอายุของไต้หวันจะใกล้ถึง 20% ในปี 2024 และคาดว่าจะเข้าสู่สังคมสูงวัยพิเศษอย่างเป็นทางการในปี 2025 ภายใต้การเปลี่ยนแปลงโครงสร้างประชากรนี้ วิธีการให้การดูแลแบบเรียลไทม์ บริการที่หลากหลาย และการแก้ไขปัญหาการขาดแคลนแรงงานอย่างมีประสิทธิภาพ ได้กลายเป็นสามความท้าทายหลักในอุตสาหกรรมการดูแลระยะยาวในปัจจุบัน'
+modified_date: 2024-08-01T00:00:00Z
 ---
 
+ในขณะที่ไต้หวันกำลังก้าวเข้าสู่สังคมสูงวัยพิเศษ การดูแลผู้สูงอายุต้องเผชิญกับความท้าทายที่ไม่เคยมีมาก่อน จากข้อมูลของคณะกรรมการพัฒนาแห่งชาติ สัดส่วนประชากรสูงอายุของไต้หวันจะใกล้ถึง 20% ในปี 2024 และคาดว่าจะเข้าสู่สังคมสูงวัยพิเศษอย่างเป็นทางการในปี 2025 ภายใต้การเปลี่ยนแปลงโครงสร้างประชากรนี้ วิธีการให้การดูแลแบบเรียลไทม์ บริการที่หลากหลาย และการแก้ไขปัญหาการขาดแคลนแรงงานอย่างมีประสิทธิภาพ ได้กลายเป็นสามความท้าทายหลักในอุตสาหกรรมการดูแลระยะยาวในปัจจุบัน
 
-As Taiwan moves towards a super-aged society, elderly care is facing unprecedented challenges. According to National Development Council data, Taiwan's elderly population ratio will approach 20% in 2024 and is expected to officially enter a super-aged society in 2025. Under such demographic changes, how to effectively provide instant care, diverse services, and solve human resource shortages has become the three major challenges facing the current long-term care industry.
-
-## How AI Voice Assistant Improves Elderly Care Quality
+## ผู้ช่วยเสียง AI ยกระดับคุณภาพการดูแลผู้สูงอายุได้อย่างไร
 
 <br/>
 
@@ -27,42 +26,42 @@ As Taiwan moves towards a super-aged society, elderly care is facing unprecedent
 
 </center>
 
-SeaX + SeaChat is a complete AI voice assistant solution launched by Seasalt.ai, specifically designed to address core issues in the elderly care industry. This system can not only automatically make outbound care calls to the elderly and interact with them through voice, but also achieve regular care, surveys and other functions, comprehensively improving the quality and efficiency of long-term care services. Let's take a deep look at how this innovative solution addresses the challenges of the long-term care industry.
+SeaX + SeaChat เป็นโซลูชันผู้ช่วยเสียง AI ที่สมบูรณ์แบบที่เปิดตัวโดย Seasalt.ai ซึ่งออกแบบมาเพื่อแก้ไขปัญหาหลักในอุตสาหกรรมการดูแลผู้สูงอายุ ระบบนี้ไม่เพียงแต่สามารถโทรออกเพื่อดูแลผู้สูงอายุโดยอัตโนมัติและโต้ตอบกับผู้สูงอายุด้วยเสียงเท่านั้น แต่ยังสามารถดำเนินการต่างๆ เช่น การดูแลเป็นประจำ การสำรวจ และอื่นๆ อีกมากมาย เพื่อยกระดับคุณภาพและประสิทธิภาพของบริการดูแลระยะยาวอย่างครอบคลุม มาเจาะลึกว่าโซลูชันที่เป็นนวัตกรรมนี้จะรับมือกับความท้าทายของอุตสาหกรรมการดูแลระยะยาวได้อย่างไร
 
-### Instant Care:
+### การดูแลแบบเรียลไทม์:
 
-For elderly living alone who need immediate support or dementia patients requiring special care, traditional phone systems often cannot respond in time. SeaX + SeaChat can provide instant care and support to the elderly through automatic outbound care calls or messages, such as using elderly emergency phones or emergency messages, ensuring the elderly receive instant care and support anytime. Whether it's regular daily care or emergency situations, relevant personnel can be quickly notified.
+สำหรับผู้สูงอายุที่อาศัยอยู่คนเดียวและต้องการความช่วยเหลือทันที หรือผู้ป่วยโรคสมองเสื่อมที่ต้องการการดูแลเป็นพิเศษ ระบบโทรศัพท์แบบดั้งเดิมมักไม่สามารถตอบสนองได้ทันท่วงที SeaX + SeaChat สามารถโทรออกเพื่อดูแลผู้สูงอายุโดยอัตโนมัติหรือส่งข้อความ เช่น การใช้โทรศัพท์เรียกผู้สูงอายุหรือข้อความเรียกผู้สูงอายุ เพื่อให้มั่นใจว่าผู้สูงอายุจะได้รับการดูแลและสนับสนุนแบบเรียลไทม์เสมอ ไม่ว่าจะเป็นการดูแลเป็นประจำทุกวันหรือในกรณีฉุกเฉิน บุคลากรที่เกี่ยวข้องจะได้รับการแจ้งเตือนอย่างรวดเร็ว
 
-### Diverse Services:
+### บริการที่หลากหลาย:
 
-With the increase in Taiwan's elderly population, providing diverse services has become an urgent need for the long-term care industry. SeaX + SeaChat supports multiple communication channels including voice calls, SMS and WhatsApp, and can be integrated into day care center services and emergency rescue systems, achieving personalized telemedicine, emotional companionship and other diverse services. These functions can effectively reduce the human burden on long-term care institutions and ensure every elderly person receives personalized care.
+ด้วยจำนวนประชากรสูงอายุที่เพิ่มขึ้นในไต้หวัน การให้บริการที่หลากหลายได้กลายเป็นความต้องการเร่งด่วนสำหรับอุตสาหกรรมการดูแลระยะยาว SeaX + SeaChat รองรับช่องทางการสื่อสารที่หลากหลาย รวมถึงการโทรด้วยเสียง ข้อความ และ WhatsApp และสามารถรวมเข้ากับบริการศูนย์ดูแลกลางวันและระบบช่วยเหลือฉุกเฉิน เพื่อให้เกิดการแพทย์ทางไกลที่เป็นส่วนตัว การเป็นเพื่อนทางอารมณ์ และบริการที่หลากหลายอื่นๆ ฟังก์ชันเหล่านี้สามารถลดภาระงานของบุคลากรในสถานดูแลระยะยาวได้อย่างมีประสิทธิภาพ ทำให้มั่นใจได้ว่าผู้สูงอายุทุกคนจะได้รับการดูแลที่เป็นส่วนตัว
 
-### Human Resource Optimization:
+### การเพิ่มประสิทธิภาพทรัพยากรบุคคล:
 
-Human resource shortages are another major challenge facing the long-term care industry. Through SeaX + SeaChat, highly repetitive and time-consuming care work can be automated, greatly reducing the workload of volunteers and medical staff. Additionally, the system's built-in real-time call content analysis function can effectively improve communication efficiency, helping staff better allocate resources and focus on cases requiring special attention.
+การขาดแคลนทรัพยากรบุคคลเป็นอีกหนึ่งความท้าทายที่สำคัญที่อุตสาหกรรมการดูแลระยะยาวต้องเผชิญ ด้วย SeaX + SeaChat งานดูแลที่ซ้ำซากและใช้เวลานานสามารถทำได้โดยอัตโนมัติ ซึ่งช่วยลดภาระงานของอาสาสมัครและบุคลากรทางการแพทย์ได้อย่างมาก นอกจากนี้ ฟังก์ชันการวิเคราะห์เนื้อหาการโทรแบบเรียลไทม์ในตัวของระบบยังสามารถปรับปรุงประสิทธิภาพการสื่อสารได้อย่างมีประสิทธิภาพ ช่วยให้บุคลากรจัดสรรทรัพยากรได้ดีขึ้น และมุ่งเน้นไปที่กรณีที่ต้องการความสนใจเป็นพิเศษ
 
-## 🇸🇬 Success Case:
+## 🇸🇬 กรณีศึกษาที่ประสบความสำเร็จ:
 
-A successful case comes from a national long-term care institution in Singapore. The institution originally faced problems of insufficient manpower and low care frequency. After adopting the SeaX + SeaChat solution, they achieved the following improvements in long-term care quality:
+กรณีศึกษาที่ประสบความสำเร็จมาจากสถาบันดูแลระยะยาวแห่งชาติแห่งหนึ่งในสิงคโปร์ สถาบันนี้เดิมประสบปัญหาการขาดแคลนบุคลากรและความถี่ในการดูแลต่ำ หลังจากนำโซลูชัน SeaX + SeaChat มาใช้ พวกเขาได้บรรลุการปรับปรุงคุณภาพการดูแลระยะยาวดังต่อไปนี้:
 
-- Care frequency increased from once a year to once a month
-- 24-hour automatic answering, ensuring elderly can get responses anytime
-- Automatic tracking of missed calls and unsigned cases
-- Annual savings of approximately 10,000 hours of volunteer phone time
-- Volunteers freed from tedious routine work, able to focus on providing more refined services
+- ความถี่ในการดูแลเพิ่มขึ้นจากปีละครั้งเป็นเดือนละครั้ง
+- ระบบตอบรับอัตโนมัติ 24 ชั่วโมง ทำให้มั่นใจได้ว่าผู้สูงอายุสามารถได้รับการตอบกลับได้ตลอดเวลา
+- การติดตามการโทรที่ไม่ได้รับและกรณีที่ไม่ลงทะเบียนโดยอัตโนมัติ
+- ประหยัดเวลาโทรศัพท์ของอาสาสมัครได้ประมาณหนึ่งหมื่นชั่วโมงต่อปี
+- อาสาสมัครได้รับการปลดปล่อยจากงานประจำที่น่าเบื่อ และสามารถมุ่งเน้นไปที่การให้บริการที่ละเอียดอ่อนยิ่งขึ้น
 
-This case fully demonstrates the enormous potential of AI voice assistants in the elderly care field. By providing instant, personalized care services, SeaX + SeaChat not only improves the quality and efficiency of long-term care services, but also provides innovative solutions for addressing human resource shortages.
+กรณีศึกษานี้แสดงให้เห็นถึงศักยภาพอันยิ่งใหญ่ของผู้ช่วยเสียง AI ในด้านการดูแลผู้สูงอายุอย่างเต็มที่ ด้วยการให้บริการดูแลที่เป็นส่วนตัวแบบเรียลไทม์ SeaX + SeaChat ไม่เพียงแต่ปรับปรุงคุณภาพและประสิทธิภาพของบริการดูแลระยะยาวเท่านั้น แต่ยังนำเสนอโซลูชันที่เป็นนวัตกรรมเพื่อแก้ไขปัญหาการขาดแคลนแรงงานอีกด้วย
 
-## Future Outlook:
+## แนวโน้มในอนาคต:
 
-As Taiwan's aging problem becomes increasingly serious, SeaX + SeaChat will play an increasingly important role in elderly care. This system can not only improve service quality and efficiency, but also address human resource challenges facing the long-term care industry. Through technological innovation, we will provide better, more comprehensive care for the elderly on the path towards a super-aged society.
+ในขณะที่ปัญหาผู้สูงอายุในไต้หวันทวีความรุนแรงขึ้น SeaX + SeaChat จะมีบทบาทสำคัญมากขึ้นในการดูแลผู้สูงอายุ ระบบนี้ไม่เพียงแต่สามารถยกระดับคุณภาพและประสิทธิภาพของบริการเท่านั้น แต่ยังสามารถแก้ไขปัญหาทรัพยากรบุคคลที่อุตสาหกรรมการดูแลระยะยาวต้องเผชิญอีกด้วย ด้วยนวัตกรรมทางเทคโนโลยี เราจะมอบการดูแลที่ดีขึ้นและครอบคลุมมากขึ้นสำหรับผู้สูงอายุบนเส้นทางสู่สังคมสูงวัยพิเศษ
 
-## Explore More Information About SeaX, SeaChat and Seasalt.ai
+## สำรวจเพิ่มเติมเกี่ยวกับ SeaX, SeaChat และ Seasalt.ai
 
-To understand how these AI-driven solutions are changing elderly care, please refer to the following links:
+หากต้องการเรียนรู้ว่าโซลูชันที่ขับเคลื่อนด้วย AI เหล่านี้เปลี่ยนแปลงการดูแลผู้สูงอายุได้อย่างไร โปรดดูลิงก์ต่อไปนี้:
 
-- [SeaX](https://seax.seasalt.ai/): Custom voice robots
-- [SeaChat](https://chat.seasalt.ai/zh-tw): Conversational AI assistant
-- [Reshaping Long-term Care Services with AI](https://usecase.seasalt.ai/voice-for-senior-care): Learn more detailed information about elderly care call cases
+- [SeaX](https://seax.seasalt.ai/): บอทเสียงที่ปรับแต่งได้
+- [SeaChat](https://chat.seasalt.ai/zh-tw): ผู้ช่วย AI เชิงสนทนา
+- [พลิกโฉมบริการดูแลระยะยาวด้วย AI](https://usecase.seasalt.ai/voice-for-senior-care): เรียนรู้เพิ่มเติมเกี่ยวกับรายละเอียดของกรณีการโทรดูแลผู้สูงอายุ
 
-These resources will provide you with more information about how SeaX and SeaChat use AI voice assistants and omnichannel smart contact centers to create more optimized automated conversation systems. 
+แหล่งข้อมูลเหล่านี้จะให้ข้อมูลเพิ่มเติมเกี่ยวกับวิธีที่ SeaX และ SeaChat ใช้ผู้ช่วยเสียง AI และศูนย์ติดต่ออัจฉริยะแบบ Omni-channel เพื่อสร้างระบบการสนทนาอัตโนมัติที่ได้รับการปรับปรุง

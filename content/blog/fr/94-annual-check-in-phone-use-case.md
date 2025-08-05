@@ -1,20 +1,21 @@
 ---
-title: "SeaX : Cas d'usage des appels de vérification annuels - Améliorer les services de soins pour les personnes âgées"
-metatitle: "Cas d'usage SeaX des appels de vérification annuels : L'assistant IA améliore la qualité des services de soins pour les personnes âgées"
+title: "SeaX : Étude de cas sur l'appel de contrôle annuel - Offrir de meilleurs services de soins aux personnes âgées"
+metatitle: "Étude de cas SeaX sur l'appel de contrôle annuel : L'assistant IA améliore la qualité des services de soins aux personnes âgées"
 date: 2024-08-20T00:22:19-07:00
 draft: false
 author: Jun Mao
-description: "Découvrez comment SeaX révolutionne les services de soins pour les personnes âgées grâce à la technologie IA, résolvant de nombreux défis dans les appels de vérification annuels, améliorant la qualité des services et réduisant la charge des bénévoles. Apprenez comment les solutions intelligentes de SeaX peuvent fournir des soins continus de meilleure qualité aux personnes âgées du monde entier."
+description: "Découvrez comment SeaX révolutionne les services de soins aux personnes âgées grâce à la technologie de l'IA, en résolvant de nombreux défis liés aux contrôles téléphoniques annuels, en améliorant la qualité du service et en réduisant la charge des bénévoles. Découvrez comment les solutions intelligentes de SeaX offrent des soins continus de meilleure qualité aux personnes âgées du monde entier."
 weight: 1
 tags: ["SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
 canonicalURL: "/blog/annual-check-in-phone-use-case/"
 url: "/blog/annual-check-in-phone-use-case/"
-summary: "Face à une population vieillissante croissante, les institutions de soins pour les personnes âgées du monde entier font face à de nombreux défis. Surtout dans les soins réguliers et la surveillance de la santé, non seulement cela nécessite beaucoup de ressources humaines, mais souvent en raison de négligence ou de retard, les problèmes potentiels ne peuvent pas être détectés à temps. C'est exactement le défi qu'une institution de services sociaux de Singapour qui collabore avec Seasalt.ai a rencontré. Cette institution effectue des appels de soins annuels avec des milliers de personnes âgées, un processus fastidieux et difficile à gérer efficacement. Pour résoudre ce problème, ils ont introduit SeaX, améliorant considérablement la qualité et l'efficacité des services de soins grâce à la technologie IA."
+summary: 'Face à une population vieillissante croissante, les institutions de soins aux personnes âgées du monde entier sont confrontées à de nombreux défis. En particulier en ce qui concerne les soins réguliers et la surveillance de la santé, cela nécessite non seulement une main-d''œuvre importante, mais conduit également souvent à des problèmes potentiels non détectés à temps en raison de négligences ou de retards. C''est un défi auquel une agence de services sociaux de Singapour, qui a collaboré avec Seasalt.ai, a été confrontée. L''agence effectuait un appel de contrôle annuel avec des milliers de personnes âgées, un processus fastidieux et difficile à gérer efficacement. Pour résoudre ce problème, ils ont introduit SeaX, améliorant considérablement la qualité et l''efficacité des services de soins grâce à la technologie de l''IA.'
 ---
 
-Face à une population vieillissante croissante, les institutions de soins pour les personnes âgées du monde entier font face à de nombreux défis. Surtout dans les soins réguliers et la surveillance de la santé, non seulement cela nécessite beaucoup de ressources humaines, mais souvent en raison de négligence ou de retard, les problèmes potentiels ne peuvent pas être détectés à temps. C'est exactement le défi qu'une institution de services sociaux de Singapour qui collabore avec Seasalt.ai a rencontré. Cette institution effectue des appels de soins annuels avec des milliers de personnes âgées, un processus fastidieux et difficile à gérer efficacement. Pour résoudre ce problème, ils ont introduit SeaX, améliorant considérablement la qualité et l'efficacité des services de soins grâce à la technologie IA.
+
+Face à une population vieillissante croissante, les institutions de soins aux personnes âgées du monde entier sont confrontées à de nombreux défis. En particulier en ce qui concerne les soins réguliers et la surveillance de la santé, cela nécessite non seulement une main-d'œuvre importante, mais conduit également souvent à des problèmes potentiels non détectés à temps en raison de négligences ou de retards. C'est un défi auquel une agence de services sociaux de Singapour, qui a collaboré avec Seasalt.ai, a été confrontée. L'agence effectuait un appel de contrôle annuel avec des milliers de personnes âgées, un processus fastidieux et difficile à gérer efficacement. Pour résoudre ce problème, ils ont introduit SeaX, améliorant considérablement la qualité et l'efficacité des services de soins grâce à la technologie de l'IA.
 
 <br/>
 
@@ -24,43 +25,35 @@ Face à une population vieillissante croissante, les institutions de soins pour 
 </a>
 </center>
 
-## Les défis auxquels font face les soins de longue durée
+## Défis rencontrés dans les soins de longue durée
 
-### Fréquence de soins annuels trop faible :
-Traditionnellement, cette institution ne pouvait effectuer qu'un seul appel de vérification par an avec chaque personne âgée. Une telle fréquence est insuffisante pour détecter et traiter à temps les problèmes de santé potentiels ou les situations d'urgence.
-
-### Ressources de bénévoles tendues :
-Chaque vérification annuelle nécessite beaucoup de bénévoles, et souvent les bénévoles doivent travailler presque à plein temps pour ces tâches. En raison de ressources limitées, la qualité des services est difficile à garantir.
-
+### Fréquence des soins annuels trop faible :
+Traditionnellement, l'agence ne pouvait effectuer qu'un seul contrôle téléphonique par an avec chaque personne âgée. Une telle fréquence est insuffisante pour détecter et traiter rapidement les problèmes de santé potentiels ou les situations d'urgence.
+### Ressources bénévoles limitées :
+Chaque contrôle annuel nécessite un investissement important de la part des bénévoles, et souvent, les bénévoles doivent consacrer presque tout leur temps à ces tâches. En raison des ressources limitées, la qualité du service est difficile à garantir.
 ### Suivi insuffisant :
-Dans le modèle de soins traditionnel, si une personne âgée manque un appel, il est généralement difficile d'effectuer un suivi en temps opportun, ce qui peut faire que certains problèmes potentiels soient négligés.
+Dans le modèle de soins traditionnel, si une personne âgée manquait un appel, il était souvent difficile d'assurer un suivi rapide, ce qui pouvait entraîner l'ignorance de certains problèmes potentiels.
+### Manque de personnalisation du service :
+Le contenu des contrôles téléphoniques étant relativement fixe, il était impossible de fournir des conseils ou des soins personnalisés en fonction de la situation spécifique de chaque personne âgée, ce qui entraînait une satisfaction insuffisante de certains besoins.
+### Réponse tardive aux urgences :
+Si une personne âgée rencontrait une urgence en dehors des heures de contrôle, le manque de canaux de communication rapides pouvait entraîner des retards de traitement, augmentant les risques.
 
-### Personnalisation insuffisante des services :
-Comme le contenu des appels de vérification est relativement fixe, il ne peut pas fournir des conseils ou des soins personnalisés selon la situation spécifique de chaque personne âgée, conduisant à des besoins partiellement insatisfaits.
+## Solution : L'application de SeaX
 
-### Réponse intempestive aux situations d'urgence :
-Si une personne âgée rencontre une situation d'urgence en dehors des heures de vérification, il manque un canal de communication en temps opportun, ce qui peut conduire à un traitement retardé et augmenter les risques.
-
-## Solution : Application de SeaX
-
-### Améliorer la fréquence des soins :
-Après l'introduction de SeaX, cette institution a augmenté la fréquence des appels de soins d'une fois par an à une fois par mois. Une telle vérification à haute fréquence améliore non seulement les soins pour les personnes âgées, mais peut aussi détecter et traiter les problèmes potentiels plus tôt, assurant que les personnes âgées reçoivent des soins plus opportuns.
-
-### Automatisation des appels de soins :
-L'assistant IA vocal de SeaX peut automatiquement passer des appels de soins sortants, libérant ainsi les bénévoles de la tâche fastidieuse et répétitive des appels de vérification. L'assistant IA peut contacter des milliers de personnes âgées en mode automatisé et peut effectuer des enquêtes selon les besoins pour mieux comprendre les besoins spécifiques de chaque personne âgée.
-
-### Suivi et rappel en temps réel :
-Si une personne âgée manque un appel entrant, SeaX effectuera automatiquement un rappel, assurant que chaque personne âgée reçoit des soins. En même temps, le système peut automatiquement suivre et vérifier les enquêtes non terminées et notifier en temps opportun le personnel concerné pour le suivi.
-
+### Augmentation de la fréquence des soins :
+Après l'introduction de SeaX, l'agence a augmenté la fréquence des appels de soins d'une fois par an à une fois par mois. Cette fréquence élevée améliore non seulement le niveau de soins pour les personnes âgées, mais permet également de détecter et de traiter plus tôt les problèmes potentiels, garantissant ainsi des soins plus rapides pour les personnes âgées.
+### Appels de soins automatisés :
+L'assistant vocal IA de SeaX peut effectuer des appels de soins automatisés, ce qui signifie que les bénévoles n'ont plus besoin de consacrer beaucoup de temps et d'efforts à des tâches de contrôle téléphonique répétitives. L'assistant IA peut contacter des milliers de personnes âgées de manière automatisée et peut effectuer des enquêtes si nécessaire pour mieux comprendre les besoins spécifiques de chaque personne âgée.
+### Suivi et rappel immédiats :
+Si une personne âgée manque un appel, SeaX rappellera automatiquement pour s'assurer que chaque personne âgée reçoit des soins. En même temps, le système peut également suivre et identifier automatiquement les enquêtes inachevées et informer le personnel concerné pour un suivi rapide.
 ### Plan de soins personnalisé :
-Grâce à la technologie IA, SeaX peut fournir un plan de soins personnalisé selon l'état de santé et les habitudes de vie de chaque personne âgée, incluant des conseils de santé et des rappels exclusifs.
-
-### Traitement en temps réel des situations d'urgence :
-Le système SeaX peut automatiquement notifier le personnel concerné quand une personne âgée rencontre une situation d'urgence et fournir un support et une aide immédiats, assurant que les personnes âgées peuvent recevoir l'assistance nécessaire dans les moments critiques.
+Grâce à la technologie de l'IA, SeaX peut fournir des plans de soins personnalisés en fonction de l'état de santé et des habitudes de vie de chaque personne âgée, y compris des conseils et des rappels de santé exclusifs.
+### Traitement immédiat des urgences :
+Le système SeaX peut informer automatiquement le personnel concerné en cas d'urgence et fournir un soutien et une assistance immédiats, garantissant que les personnes âgées reçoivent l'aide nécessaire au moment critique.
 
 ## Résultats et impact
 
-Grâce à SeaX, cette institution a non seulement considérablement amélioré la qualité des services de soins, mais a aussi significativement réduit la charge de travail des bénévoles, rendant l'ensemble du système d'exploitation plus efficace. Ce cas démontre pleinement l'énorme potentiel de la technologie IA dans les soins pour les personnes âgées, fournissant des soins continus et personnalisés à plus de personnes âgées grâce à des services de soins automatisés et intelligents.
+Grâce à SeaX, l'agence a non seulement considérablement amélioré la qualité des services de soins, mais a également réduit de manière significative la charge de travail des bénévoles, rendant l'ensemble du système plus efficace. Cette étude de cas démontre le grand potentiel de la technologie de l'IA dans les soins aux personnes âgées, en fournissant des services de soins automatisés et intelligents, permettant à davantage de personnes âgées de recevoir des soins continus et personnalisés.
 
 <br/>
 
@@ -69,4 +62,4 @@ Grâce à SeaX, cette institution a non seulement considérablement amélioré l
 
 </center>
 
-Pour en savoir plus sur la façon dont SeaX transforme les services de soins pour les personnes âgées, visitez [Solutions de soins pour les personnes âgées SeaX](https://usecase.seasalt.ai/voice-for-senior-care). 
+Pour en savoir plus sur la façon dont SeaX transforme les services de soins aux personnes âgées, veuillez visiter [SeaX Solutions de soins aux personnes âgées](https://usecase.seasalt.ai/voice-for-senior-care).

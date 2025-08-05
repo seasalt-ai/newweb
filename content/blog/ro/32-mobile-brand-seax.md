@@ -1,42 +1,44 @@
 ---
-title: "Studiu de caz client: Cum SeaX ajută un brand de top de telefoane mobile să susțină clienții în 100 de țări"
-metatitle: "SeaX ajută brandul de top de telefoane mobile să susțină clienții global"
+title: "Povestea clientului: Cum a ajutat SeaX un brand de top de telefoane mobile să sprijine clienții din 100 de țări"
+metatitle: "SeaX a ajutat un brand de top de telefoane mobile să sprijine clienții la nivel global"
 date: 2023-06-25T11:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "Află cum implementarea transformatoare a centrului de contact omnichannel Seasalt.ai a ajutat unul dintre top 5 brandurile de telefoane mobile să revoluționeze operațiunile de suport clienți în 100 de țări/regiuni, de la haos la satisfacția clienților!"
+description: Descoperiți cum implementarea transformatoare a centrului de contact omnicanal Seasalt.ai a ajutat un brand de top 5 de telefoane mobile să revoluționeze operațiunile de asistență pentru clienți în 100 de țări, de la haos la încântarea clienților!
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags: ["SeaX", "Povestea clientului"]
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
 canonicalURL: "/blog/mobile-brand-seax/"
 url: "/blog/mobile-brand-seax/"
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-Studiul de caz de succes al implementării centrului de contact omnichannel pentru unul dintre top 5 brandurile globale de telefoane mobile demonstrează puterea transformatoare a tehnologiei în îmbunătățirea operațiunilor de suport clienți.
 
-Înainte de implementare, clientul se confrunta cu numeroase provocări în gestionarea operațiunilor de business process outsourcing (BPO) în 136 de țări/regiuni. Lipsa unei interfețe unificate și a unui dashboard KPI (Key Performance Indicators) făcea dificilă simplificarea proceselor și asigurarea livrării consistente a serviciilor. Recunoscând nevoia de o soluție comprehensivă, clientul a început o călătorie pentru a-și revoluționa capacitățile de serviciu clienți.
+Povestea de succes a implementării centrului de contact omnicanal pentru unul dintre primele 5 branduri internaționale de telefoane mobile este o dovadă a puterii transformatoare a tehnologiei în îmbunătățirea operațiunilor de asistență pentru clienți.
 
-Clientul a evaluat cu atenție diverse opțiuni și a ales în final [SeaX](https://seax.seasalt.ai/?utm_source=blog/), un furnizor de soluții de centru de contact omnichannel de top, pentru a conduce implementarea. Planul de implementare a fost executat în trei faze pentru a asigura o tranziție lină și a minimiza perturbarea operațiunilor în curs.
+Înainte de implementare, clientul s-a confruntat cu numeroase provocări în gestionarea operațiunilor sale de externalizare a proceselor de afaceri (BPO) în 136 de țări. Lipsa unei interfețe unificate și a unui tablou de bord cu indicatori cheie de performanță (KPI) a făcut dificilă eficientizarea proceselor și asigurarea unei livrări consistente a serviciilor. Recunoscând nevoia unei soluții complete, clientul a pornit într-o călătorie pentru a-și revoluționa capacitățile de servicii pentru clienți.
 
-## Faza 1
-În prima fază, implementarea inițială a acoperit 22 de țări, inclusiv sediul principal al clientului și cinci filiale, totalizând șase locații. Procesul de implementare a implicat implementarea sistemului de bază, realizând integrarea fără probleme pe diferite canale de comunicare. În plus, în fiecare țară a fost implementat un sistem IVR (Interactive Voice Response) pentru a îmbunătăți opțiunile de self-service ale clienților. Implementarea a inclus și integrarea liniilor telefonice în diferite locații, asigurând o experiență unificată pentru clienți indiferent de unde se află.
+Clientul a evaluat cu atenție diverse opțiuni și, în cele din urmă, a ales [SeaX](https://seax.seasalt.ai/?utm_source=blog/), un furnizor de top de soluții de centre de contact omnicanal, pentru a conduce implementarea. Planul de implementare a fost executat în trei etape pentru a asigura o tranziție lină și a minimiza perturbările operațiunilor în curs.
 
-După testarea comprehensivă și operațiunile pilot, clientul a văzut direct beneficiile tangibile aduse de implementarea centrului de contact omnichannel. Sistemul centralizat a realizat rutarea eficientă a apelurilor, asigurând că clienții sunt direcționați către agenții cei mai potriviți pentru nevoile lor specifice. Integrarea canalelor de comunicare precum apeluri vocale, email, chat web și social media a permis clienților să interacționeze prin canalele lor preferate, îmbunătățind satisfacția generală a clienților.
 
-## Faza 2
-Implementarea a continuat în a doua fază, extinderea centrului de contact omnichannel la încă 45 de țări. Această extindere a adus clientul mai aproape de obiectivul său de a avea prezență de afaceri global și de a oferi o experiență consistentă de serviciu clienți. În fiecare fază a implementării, clientul a observat îmbunătățiri în eficiența operațională, productivitatea agenților și angajarea clienților.
+## Etapa 1
+În Etapa 1, implementarea inițială a acoperit 22 de țări, inclusiv sediul central al clientului și cinci filiale, totalizând șase locații. Procesul de implementare a implicat implementarea sistemului de bază, permițând o integrare perfectă între diferite canale de comunicare. În plus, sistemele IVR (Interactive Voice Response) au fost implementate în fiecare țară pentru a îmbunătăți opțiunile de autoservire pentru clienți. Implementarea a cuprins, de asemenea, integrarea liniilor telefonice în diverse locații, asigurând o experiență unificată pentru clienți, indiferent de locația lor geografică.
 
-## Faza 3
-În final, în a treia fază, centrul de contact omnichannel a fost implementat în restul de 59 de țări, completând implementarea globală. Echipa de implementare a lucrat strâns cu echipele locale pentru a asigura integrarea fără probleme și a oferi instruirea necesară pentru a maximiza beneficiile noului sistem.
+După testări amănunțite și operațiuni pilot, clientul a observat beneficiile tangibile ale implementării centrului de contact omnicanal. Sistemul centralizat a permis o rutare eficientă a apelurilor, asigurându-se că clienții erau direcționați către cel mai potrivit agent pentru nevoile lor specifice. Integrarea canalelor de comunicare, cum ar fi apelurile vocale, e-mailul, webchat-ul și rețelele sociale, a permis clienților să interacționeze prin canalul lor preferat, îmbunătățind satisfacția generală a clienților.
 
-## Suportul post-implementare
-După implementare, operațiunile de serviciu clienți ale clientului au suferit o transformare semnificativă. Interfața unificată și dashboard-ul KPI (Key Performance Indicators) au oferit insight-uri în timp real despre performanța agenților, volumul de apeluri și metricile de satisfacție a clienților. Aceasta a permis clientului să ia decizii bazate pe date, să optimizeze alocarea resurselor și să îmbunătățească continuu calitatea serviciului său.
+## Etapa 2
+Implementarea a continuat cu Etapa 2, extinzând centrul de contact omnicanal la încă 45 de țări. Această extindere a adus clientul mai aproape de obiectivul său de a avea o prezență globală și o experiență consistentă de servicii pentru clienți în toate regiunile. Cu fiecare etapă a implementării, clientul a observat îmbunătățiri în eficiența operațională, productivitatea agenților și implicarea clienților.
 
-În plus, clientul a beneficiat de procese simplificate și costuri operaționale reduse. Prin sistemul centralizat, au putut să-și integreze operațiunile BPO, să simplifice managementul și să asigure livrarea consistentă a serviciilor în toate locațiile. Funcționalitatea omnichannel a permis agenților să ofere suport personalizat și contextual, îmbunătățind experiența clienților și creșterea loialității.
+## Etapa 3
+În cele din urmă, în Etapa 3, centrul de contact omnicanal a fost implementat în cele 59 de țări rămase, finalizând lansarea globală. Echipa de implementare a lucrat îndeaproape cu echipele locale pentru a asigura o integrare perfectă și a oferi instruirea necesară pentru a maximiza beneficiile noului sistem.
 
-În concluzie, implementarea cu succes a centrului de contact omnichannel pentru unul dintre top 5 brandurile globale de telefoane mobile a permis clientului să depășească provocările operaționale, să îmbunătățească satisfacția clienților și să-și optimizeze operațiunile globale de serviciu clienți. Implementarea în trei faze a realizat o interfață unificată, procese simplificate și productivitate îmbunătățită a agenților. Colaborarea clientului cu SeaX demonstrează puterea transformatoare a tehnologiei în revoluționarea suportului clienți și consolidarea poziției de lider în industria de telefoane mobile.
+## Suport post-implementare
+După implementare, clientul a experimentat o transformare semnificativă în operațiunile sale de servicii pentru clienți. Interfața unificată și tabloul de bord KPI au oferit informații în timp real despre performanța agenților, volumele de apeluri și valorile de satisfacție a clienților. Acest lucru a permis clientului să ia decizii bazate pe date, să optimizeze alocarea resurselor și să își îmbunătățească continuu calitatea serviciilor.
 
-## Contactează-ne
+În plus, clientul a beneficiat de procese simplificate și costuri operaționale reduse. Cu un sistem centralizat în vigoare, au reușit să își consolideze operațiunile BPO, simplificând gestionarea și asigurând o livrare consistentă a serviciilor în toate locațiile. Capacitățile omnicanal au împuternicit agenții să ofere asistență personalizată și contextualizată, ceea ce a dus la experiențe îmbunătățite pentru clienți și la o loialitate crescută.
 
-Dacă ești interesat să afli mai multe despre SeaX, te rugăm să completezi formularul nostru de "[Programare demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" pentru a experimenta personal platforma SeaX. Suntem întotdeauna bucuroși să discutăm cu tine! 
+În concluzie, implementarea cu succes a centrului de contact omnicanal pentru brandul de top 5 de telefoane mobile internaționale a permis clientului să depășească provocările operaționale, să îmbunătățească satisfacția clienților și să își optimizeze operațiunile globale de servicii pentru clienți. Implementarea, realizată în trei etape, a dus la o interfață unificată, procese simplificate și o productivitate sporită a agenților. Parteneriatul clientului cu SeaX a demonstrat puterea tehnologiei în revoluționarea asistenței pentru clienți și consolidarea poziției lor de lider în industria telefoanelor mobile.
+
+## Luați legătura
+
+Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!

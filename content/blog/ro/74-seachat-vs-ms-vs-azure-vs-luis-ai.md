@@ -2,10 +2,10 @@
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Services(LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Framework vs. Azure Services"
 date: 2024-03-21T00:22:19-07:00
-modified_date: "2025-01-28T16:56:53Z"
+modified_date: 2024-07-28T00:00:00Z
 draft: false
 author: Xuchen Yao
-description: "De ce Microsoft Bot Framework și Azure Bot Services (LUIS.ai) sunt învechite? Explorează SeaChat — folosind tehnologia LLM avansată, departe de chatbot-urile repetitive, pentru conversații mai umane."
+description: De ce Microsoft Bot Framework și Azure Bot Services (LUIS.ai) sunt depășite? Descoperiți SeaChat – utilizând tehnologia avansată LLM, depășiți chatbot-urile repetitive și creați conversații mai umane.
 weight: 1
 tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
@@ -15,44 +15,44 @@ aliases:
     - "/blog/74-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
 ---
 
-Lumea AI-ului conversațional fierbe cu știrile despre colaborarea profundă între Microsoft și OpenAI. Unii sunt optimiști despre potențialul acestei alianțe, dar există și îngrijorări în interiorul Microsoft că dezvoltarea AI internă ar putea fi înlocuită de produsele OpenAI.
+Lumea AI-ului conversațional este în fierbere din cauza știrilor despre colaborarea profundă dintre Microsoft și OpenAI. Unii sunt optimiști cu privire la potențialul acestei alianțe, dar există și îngrijorări în cadrul Microsoft că dezvoltarea internă a AI-ului ar putea fi înlocuită de produsele OpenAI.
 
-Deosebit de menționat este viitorul Microsoft Azure Bot Service. Mesajele interne indică faptul că serviciul ar putea "dispărea aproape complet", fiind înlocuit de soluțiile OpenAI.
+În special, este menționat viitorul Microsoft Azure Bot Service. Surse interne indică faptul că serviciul ar putea "aproape dispărea", fiind înlocuit de soluțiile OpenAI.
 
-Microsoft Bot Framework și Azure AI Bot Service (precum și LUIS.ai) sunt un set de biblioteci, instrumente și servicii pentru construirea, testarea, implementarea și gestionarea roboților inteligenți. Cu toate acestea, repository-ul GitHub pentru Bot Framework SDK nu a fost actualizat de peste doi ani, în afară de README, din 2024:
+Microsoft Bot Framework și Azure AI Bot Service (precum și LUIS.ai) sunt un set de biblioteci, instrumente și servicii utilizate pentru a construi, testa, implementa și gestiona roboți inteligenți. Cu toate acestea, depozitul GitHub al Bot Framework SDK nu a mai fost actualizat de peste doi ani din 2024, cu excepția fișierului README:
 
 <img height="60%" width="100%" src="/images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/1-Microsoft-bot-framework.png" alt="">
 
-## Alternativa pentru dezvoltatori la Microsoft Bot Framework?
+## Alternative pentru dezvoltatori la Microsoft Bot Framework?
 
-Introducerea SeaChat: **Provocatorul LLM**
+Intră în scenă SeaChat: **Provocatorul LLM**
 
-În timp ce Microsoft își analizează strategia AI, Seasalt.ai creează o nouă tendință cu platforma conversațională condusă de LLM (modele de limbaj mare) [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat folosește cea mai recentă tehnologie de înțelegere a limbajului natural, oferind o experiență de utilizator mai naturală și intuitivă decât chatbot-urile tradiționale bazate pe reguli.
+În timp ce Microsoft își gândește strategia AI, Seasalt.ai lansează o nouă tendință cu platforma conversațională bazată pe LLM (Large Language Model) [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat utilizează cea mai recentă tehnologie de înțelegere a limbajului natural pentru a oferi o experiență de utilizare mai naturală și intuitivă decât chatbot-urile tradiționale bazate pe reguli.
 
-**De ce SeaChat promite să conducă revoluția AI conversațional:**
-- **Capacități LLM puternice**:
-Folosește puterea LLM pentru conversații mai nuanțate.
-Înțelege mai exact contextul și intenția.
-Realizează interacțiuni mai naturale și fluide cu utilizatorii.
+**De ce SeaChat este de așteptat să conducă revoluția AI conversațională:**
+- **Puterea LLM**:
+  Utilizează puterea LLM pentru a facilita conversații mai nuanțate.
+  Înțelege mai precis contextul și intenția.
+  Realizează interacțiuni cu utilizatorii mai naturale și fluide.
 - **Flexibilitate**:
-Se adaptează și învață continuu în timpul interacțiunii cu utilizatorii.
-Îmbunătățește continuu capacitatea de a oferi răspunsuri relevante și utile.
-Poate gestiona interogări complexe.
+  Se adaptează și învață continuu în timpul interacțiunii cu utilizatorii.
+  Îmbunătățește constant capacitatea de a oferi răspunsuri relevante și utile.
+  Poate gestiona interogări complexe.
 - **Integrare fără probleme**:
-Se integrează ușor în diverse platforme și aplicații.
-Facilitează implementarea chatbot-urilor pe multiple canale.
-Oferă suport omnichannel pentru o experiență de client unificată.
-- **Timp de dezvoltare redus**: Construiește rapid chatbot-uri complexe cu cod minim.
-- **Eficiență de costuri**: Nu necesită volume mari de date de antrenament și resurse.
-- **Scalabilitate**: Gestionează ușor volume mari de interogări fără a afecta performanța.
+  Poate fi integrat cu ușurință în diverse platforme și aplicații.
+  Facilitează implementarea chatbot-urilor pe mai multe canale.
+  Oferă suport omnicanal pentru o experiență unificată a clienților.
+- **Timp de dezvoltare redus**: Construiește rapid chatbot-uri complexe cu un minim de cod.
+- **Eficiență din punct de vedere al costurilor**: Nu necesită cantități mari de date și resurse de antrenament.
+- **Scalabilitate**: Gestionează cu ușurință un volum mare de interogări fără a afecta performanța.
 
 ## Dezavantajele Azure Bot Services și Microsoft Bot Framework
-Deși Azure Bot Services și Microsoft Bot Framework au avut rolul lor, au și unele dezavantaje:
-- **Limitări bazate pe reguli**: Se bazează pe reguli predefinite, ducând la conversații rigide și dificultate în gestionarea inputurilor neașteptate ale utilizatorilor.
-- **Complexitate ridicată de dezvoltare**: Construirea și întreținerea chatbot-urilor complexe necesită abilități de programare avansate.
-- **Scalabilitate limitată**: Dificultate în gestionarea volumelor mari de interogări, afectând performanța.
+Deși Azure Bot Services și Microsoft Bot Framework au avut un rol, ele prezintă și unele dezavantaje:
+- **Limitări bazate pe reguli**: Se bazează pe reguli predefinite, ceea ce duce la conversații rigide și dificultăți în gestionarea intrărilor neașteptate ale utilizatorilor.
+- **Complexitate ridicată a dezvoltării**: Construirea și întreținerea chatbot-urilor complexe necesită abilități de programare avansate.
+- **Scalabilitate limitată**: Dificultăți în gestionarea unui volum mare de interogări, afectând performanța.
 - **Provocări de integrare**: Integrarea cu diverse platforme necesită dezvoltare suplimentară.
-- **Blocarea furnizorului**: Dependența de ecosistemul Microsoft limitează flexibilitatea și opțiunile viitoare.
-- **Incertitudinea OpenAI**: Trecerea Microsoft către soluțiile OpenAI ridică întrebări despre suportul pe termen lung pentru Bot Framework.
+- **Dependența de furnizor**: Dependența de ecosistemul Microsoft limitează flexibilitatea și opțiunile viitoare.
+- **Incertitudine viitoare OpenAI**: Trecerea Microsoft la soluțiile OpenAI pune sub semnul întrebării suportul pe termen lung pentru Bot Framework.
 
-## NLU tradițional bazat pe intenții/entități vs. NLU bazat pe LLM 
+## NLU tradițional bazat pe intenții/entități vs. NLU bazat pe LLM

@@ -1,89 +1,92 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: Primul bot care oferă înregistrări vocale descărcabile și transcrieri AI"
-metatitle: "SeaVoice STT/TTS Discord Bot: Descărcarea înregistrărilor"
+title: "Botul Discord SeaVoice STT/TTS: Primul care oferă înregistrări vocale descărcabile cu transcrieri AI"
+metatitle: "Botul Discord SeaVoice STT/TTS: Descărcări de înregistrări"
 date: 2022-12-13T11:51:16-08:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: "Cu cea mai recentă versiune lansată, SeaVoice Discord Bot este primul bot de pe platformă care oferă înregistrări vocale descărcabile din canalele vocale și transcrieri generate de AI."
+description: Cu cea mai recentă versiune, botul Discord SeaVoice este primul de pe platformă care oferă înregistrări descărcabile ale canalelor vocale cu transcrieri generate de AI.
 weight: 1
 tags: ["SeaVoice", "Discord"]
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
 canonicalUrl: "/blog/seavoice-discord-recording-download/"
 url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-*SeaVoice Discord Bot devine din ce în ce mai popular ca una dintre cele mai bune opțiuni pentru transcrierea vocală în canalele vocale Discord. Cu cea mai recentă versiune lansată, acest bot este primul de pe Discord care oferă înregistrări vocale descărcabile din canalele vocale și transcrieri generate de AI.*
+*Botul Discord SeaVoice a câștigat popularitate ca una dintre cele mai bune opțiuni pentru transcrierea vorbirii în canalele vocale Discord. Cu cea mai nouă versiune, botul este primul de pe Discord care oferă înregistrări descărcabile ale canalelor vocale cu transcrieri generate de AI.*
 
-# Fișiere audio și transcrieri descărcabile pe Discord: Funcții noi entuziasmante în cea mai recentă versiune SeaVoice Bot
+# Fișiere audio și de transcriere descărcabile pe Discord: Noi caracteristici interesante în cea mai recentă versiune a botului SeaVoice
 
-Salut tuturor, suntem încântați să anunțăm noile funcții ale SeaVoice Discord Bot!
+Salutare tuturor, suntem încântați să anunțăm o nouă funcție pentru botul Discord SeaVoice!
 
 <center>
-<img src="/images/blog/26-discord-download/1-seavoice-discord-speech-to-text.png" alt="SeaVoice Discord Bot transcrie în timp real vocea din canalele vocale."/>
+<img src="/images/blog/26-discord-download/1-seavoice-discord-speech-to-text.png" alt="Botul Discord SeaVoice transcriind vorbirea dintr-un canal vocal în timp real."/>
 
-*SeaVoice Discord Bot transcrie în timp real vocea din canalele vocale.*
+*Botul Discord SeaVoice transcriind vorbirea dintr-un canal vocal în timp real.*
 </center>
 
-De la lansare, SeaVoice Discord Bot a avut două funcții principale: transcrie conversațiile folosind tehnologia de conversie voce-text foarte precisă și poate sintetiza vocea pe baza inputului utilizatorului.
-A devenit rapid popular la scurt timp după lansare și acum rulează în peste 700 de servere din întreaga lume.
+De la lansare, botul Discord SeaVoice a avut două capabilități principale: transcrie conversațiile folosind tehnologii de recunoaștere a vorbirii în text extrem de precise și poate sintetiza vorbirea pe baza intrărilor utilizatorului.
+A crescut rapid în popularitate și se află acum în peste 700 de servere din întreaga lume, la scurt timp după lansare.
 
-Ca echipă, am discutat despre diferite metode de a face botul mai util și mai accesibil pentru utilizatori.
-Am decis că oferirea înregistrărilor și transcrierilor conversațiilor ar fi utilă pentru înregistrarea întâlnirilor, salvarea sesiunilor de joc și multe alte situații.
+Ca echipă, am discutat diferite modalități de a face botul mai util și mai accesibil pentru utilizatori.
+Am decis că furnizarea unei înregistrări și a unei transcrieri a sesiunilor ar fi utilă pentru înregistrarea întâlnirilor, salvarea sesiunilor de joc și o serie de alte situații.
 
-## Prezentarea generală a transcrierii și descărcării audio
+## Prezentare generală a descărcării transcrierii și a sunetului
 
 <center>
-<img src="/images/blog/26-discord-download/2-seavoice-audio-transcript-download-discord-direct-message.png" alt="SeaVoice Discord Bot trimite mesaje private cu transcrieri și descărcări audio după fiecare sesiune."/>
+<img src="/images/blog/26-discord-download/2-seavoice-audio-transcript-download-discord-direct-message.png" alt="Botul Discord SeaVoice trimite un mesaj direct cu transcrierea și descărcările audio după fiecare sesiune."/>
 
-*SeaVoice Discord Bot trimite mesaje private cu transcrieri și descărcări audio după fiecare sesiune.*
+*Botul Discord SeaVoice trimite un mesaj direct cu transcrierea și descărcările audio după fiecare sesiune.*
 </center>
 
-În ultimele luni, echipa noastră a lucrat din greu pentru a transforma această idee în realitate.
-Acum, când folosiți comanda `/recognize` pentru a aduce botul în apelul vostru pentru a transcrie conversația, el va înregistra și apelul și va păstra transcrierea în background.
-Când cereți botului să plece, toți participanții la apel vor primi un mesaj privat de la bot care conține transcrierea completă și înregistrarea apelului.
+În ultimele câteva luni, echipa noastră a lucrat din greu pentru a transforma această idee în realitate.
+Acum, când aduceți botul în apelul dvs. pentru a transcrie conversația cu comanda `/recognize`, acesta va înregistra și apelul și va păstra transcrierile în fundal.
+Când îi cereți botului să plece, toți cei care au participat la apel vor primi un mesaj direct de la bot care conține o transcriere completă și o înregistrare a apelului.
 
 <center>
-<img src="/images/blog/26-discord-download/3-seavoice-discord-audio-download.png" alt="Dând click pe link-ul din SeaVoice Discord Bot se deschide o pagină web pentru previzualizarea și descărcarea înregistrării audio."/>
+<img src="/images/blog/26-discord-download/3-seavoice-discord-audio-download.png" alt="Făcând clic pe linkul de la botul Discord SeaVoice se deschide o pagină web pentru a previzualiza și descărca înregistrarea audio."/>
 
-*Dând click pe link-ul din SeaVoice Discord Bot se deschide o pagină web pentru previzualizarea și descărcarea înregistrării audio.*
+*Făcând clic pe linkul de la botul Discord SeaVoice se deschide o pagină web pentru a previzualiza și descărca înregistrarea audio.*
 </center>
 
 Va exista un link pentru a descărca înregistrarea completă în format mp3.
-Aceasta este o înregistrare single-track, deci toate vocile utilizatorilor vor fi în același fișier.
-Această procesare audio poate dura puțin timp, așa că vă rugăm să așteptați câteva secunde pentru ca botul să trimită link-ul, iar pentru conversații mai lungi poate dura câteva minute.
+Aceasta este o înregistrare pe o singură pistă, astfel încât vorbirea tuturor utilizatorilor va fi în același fișier.
+Procesarea audio pentru aceasta poate dura puțin, așa că vă rugăm să acordați câteva secunde pentru ca botul să trimită linkul, poate până la câteva minute pentru conversații mai lungi.
 
 <center>
-<img src="/images/blog/26-discord-download/4-seavoice-discord-transcription-file.png" alt="Fișierul de transcriere descărcabil trimis de SeaVoice Discord Bot."/>
+<img src="/images/blog/26-discord-download/4-seavoice-discord-transcription-file.png" alt="Fișier de transcriere descărcabil trimis de botul Discord SeaVoice."/>
 
-*Fișierul de transcriere descărcabil trimis de SeaVoice Discord Bot.*
+*Fișier de transcriere descărcabil trimis de botul Discord SeaVoice.*
 </center>
 
-Transcrierea este în formă de fișier text care conține timestamp-urile de început și sfârșit pentru fiecare lucru spus, precum și numele de utilizator al persoanei care a spus acel lucru.
-Aceasta ar trebui să facă mai ușor pentru membrii serverului vostru să urmărească apelul și este utilă atât pentru înregistrarea întâlnirilor de proiect cât și pentru sesiunile de joc.
+Transcrierea este sub forma unui fișier text și include marcaje de timp pentru începutul și sfârșitul fiecărui lucru spus, precum și numele de utilizator al persoanei care l-a spus.
+Acest lucru ar trebui să faciliteze urmărirea apelurilor de către membrii serverului dvs. și va fi util pentru înregistrarea întâlnirilor de proiect, precum și a sesiunilor de joc.
 
 ## Provocări
 
-De asemenea, trebuie menționat că am întâlnit provocări destul de mari în procesarea audio, deoarece Discord trimite audio-ul fiecărui utilizator separat și nu include nicio tăcere.
-Prin urmare, vă rugăm să rețineți că pot exista încă câteva probleme de rezolvat și vom continua să îmbunătățim această funcție pentru a face înregistrarea finală cât mai precisă!
-Dacă întâlniți probleme cu înregistrarea sau transcrierea, vă rugăm să ne anunțați echipa pe [serverul oficial SeaVoice Discord](https://discord.gg/dfAYfwBQ).
+De asemenea, trebuie menționat că am avut o provocare destul de mare în gestionarea sunetului, deoarece Discord trimite sunetul fiecărui utilizator separat și fără a include nicio tăcere.
+Așadar, vă rugăm să rețineți că ar putea exista încă câteva probleme de rezolvat și vom continua să îmbunătățim această funcție pentru a face înregistrările finale cât mai precise posibil!
+Dacă întâmpinați probleme cu înregistrările sau transcrierile dvs., vă rugăm să anunțați echipa noastră pe [Serverul oficial Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 <center>
 <iframe src="https://discordapp.com/widget?id=919037515514654721&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 </center>
 
 ## Direcții viitoare
 
-Cu această funcție provocatoare în final pregătită pentru lansare, echipa noastră planifică deja următoarea adăugare la bot.
-Câteva lucruri pe care le studiem pentru viitor includ permiterea serverelor și/sau utilizatorilor să facă configurații personalizabile, cum ar fi: cum doresc să proceseze înregistrările, formatul fișierelor de transcriere, dacă/când să reda declarații de excludere a responsabilității pentru înregistrări, canalul implicit pentru transcrierile de output, etc.
-Ne-ar plăcea să auzim orice sugestii pentru funcții noi (sau cum să îmbunătățim funcțiile existente) pe [serverul nostru oficial SeaVoice Discord](https://discord.gg/dfAYfwBQ).
+Cu această funcție provocatoare, în sfârșit, gata de lansare, echipa noastră planifică deja următoarele adăugiri la bot.
+Unele lucruri pe care le analizăm pentru viitor sunt permiterea configurațiilor personalizabile pentru servere și/sau utilizatori pentru lucruri precum: cum doresc să fie gestionate înregistrările, formatul fișierului de transcriere, dacă/când să se redea o declinare a responsabilității de înregistrare, canalul implicit pentru a scoate transcrierile etc.
+Ne-ar plăcea să auzim orice sugestii aveți pentru noi funcții (sau cum să le îmbunătățiți pe cele existente) pe [Serverul nostru oficial Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 
-## Încercați!
+## Încercați-l!
 
-Între timp, puteți invita [SeaVoice Discord Bot](https://discord.com/oauth2/authorize?client_id=1001955060210749492&scope=bot) pe serverul vostru și să îl încercați personal.
-De asemenea, vă rugăm să citiți [documentația SeaVoice Bot](https://wiki.seasalt.ai/seavoice/discord/discord-bot/) pentru a afla cum să folosiți botul în cel mai potrivit mod pentru nevoile comunității voastre.
+Între timp, puteți invita [Botul Discord SeaVoice](https://discord.com/oauth2/authorize?client_id=1001955060210749492&scope=bot) pe serverul dvs. și să-l încercați singuri.
+Nu ezitați să citiți și [documentația botului SeaVoice](https://wiki.seasalt.ai/seavoice/discord/discord-bot/) pentru a vedea cum puteți utiliza botul pentru a se potrivi cel mai bine nevoilor comunității dvs.
 
-Sperăm că aceste funcții noi vă ajută să realizați orice sarcină cu botul și vă dorim utilizare plăcută!
 
-Cu stimă,
+Sperăm că aceste noi funcții vă vor ajuta cu orice folosiți botul și că vă veți distra folosindu-le!
 
-Echipa SeaVoice Bot 
+
+Salutări,
+
+
+Echipa botului SeaVoice

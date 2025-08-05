@@ -1,88 +1,82 @@
 ---
-title: "Pertarungan Asisten Rapat AI: Microsoft Teams Copilot vs. Google Meet"
-metatitle: "Pertarungan Asisten Rapat AI: Microsoft Teams Copilot vs. Google Meet"
+title: "Pertarungan Asisten Rapat AI: Microsoft Teams vs Google Meet"
+metatitle: "Pertarungan Asisten Rapat AI: Microsoft Teams vs Google Meet"
 date: 2023-10-05T10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "Jelajahi fitur asisten rapat AI dari Microsoft Teams dan Google Meet, bandingkan dukungan setiap platform untuk Bahasa Mandarin Tradisional. SeaMeet mendukung Bahasa Mandarin Tradisional, menawarkan transkrip real-time, ringkasan, dan banyak lagi."
+description: "Jelajahi asisten rapat AI Microsoft Teams dan Google Meet, bandingkan dukungan bahasa platform, dan pelajari bagaimana SeaMeet menyediakan transkripsi real-time, ringkasan, dan fitur lainnya."
 weight: 1
-tags: ["SeaMeet", "Alat AI"]
+tags: ["SeaMeet", "AI Tools"]
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
 canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
 url: "/blog/microsoft-teams-transcription-on-google-meetings/"
 aliases:
     - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Jelajahi fitur asisten rapat AI dari Microsoft Teams dan Google Meet, bandingkan dukungan setiap platform untuk Bahasa Mandarin Tradisional. SeaMeet mendukung Bahasa Mandarin Tradisional, menawarkan transkrip real-time, ringkasan, dan banyak lagi."
-modified_date: 2025-08-01T17:00:00-08:00
+summary: "Jelajahi asisten rapat AI Microsoft Teams dan Google Meet, bandingkan dukungan bahasa platform, dan pelajari bagaimana SeaMeet menyediakan transkripsi real-time, ringkasan, dan fitur lainnya."
 ---
 
-Dengan perkembangan teknologi, asisten rapat AI telah menjadi alat utama untuk meningkatkan efisiensi rapat. Alat-alat ini dapat secara otomatis memberikan ringkasan rapat, mengubah ucapan menjadi teks, dan bahkan secara otomatis mengidentifikasi informasi penting dalam rapat. Artikel ini akan membahas tiga asisten rapat AI utama: Copilot dari Microsoft Teams, Duet AI dari Google Meet, dan SeaMeet.
+Seiring dengan perkembangan teknologi, asisten rapat AI telah menjadi alat penting untuk meningkatkan efisiensi rapat. Alat-alat ini dapat secara otomatis membuat ringkasan rapat, mengubah ucapan menjadi teks, dan bahkan mengidentifikasi informasi penting dalam rapat. Artikel ini akan meninjau tiga asisten rapat AI utama: Copilot Microsoft Teams, Duet AI Google Meet, dan SeaMeet.
 
-> **Informasi Penting**:
-> - **Teams Copilot**: Menyediakan fungsi ringkasan rapat, tetapi tidak mendukung bahasa Mandarin dan memprioritaskan bahasa Mandarin Sederhana.
-> - **Google Meet Duet AI**: Menyediakan fungsi konversi subtitle otomatis, tetapi saat ini tidak mendukung bahasa Mandarin.
-> - **SeaMeet**: Mendukung Bahasa Mandarin Tradisional dan menyediakan transkrip real-time, ringkasan, dan fungsi lainnya.
+> **Poin Penting**:
+> - **Teams Copilot**: Menawarkan fitur ringkasan rapat tetapi dengan dukungan bahasa terbatas.
+> - **Google Meet Duet AI**: Menyediakan terjemahan subtitle otomatis tetapi saat ini memiliki keterbatasan bahasa.
+> - **SeaMeet**: Mendukung banyak bahasa dan menyediakan transkripsi real-time, ringkasan, dan fitur lainnya.
 
-# **Copilot Rapat Microsoft Teams**
+# **Copilot untuk Rapat di Microsoft Teams**
 
-Microsoft Teams menyediakan fitur yang disebut Copilot bagi pengguna, yang dirancang untuk memberikan ringkasan rapat untuk membantu peserta melacak dan berpartisipasi dalam rapat dengan lebih baik. Fitur ini dapat:
-- Menangkap keputusan penting dan item tindakan dalam rapat.
-- Memberikan umpan balik real-time, yang memungkinkan peserta untuk menyesuaikan partisipasi mereka kapan saja.
-- Merekam dan menganalisis rapat secara otomatis, memberikan ringkasan dan saran selanjutnya.
+Microsoft Teams menawarkan fitur yang disebut Copilot yang dirancang untuk memberikan ringkasan rapat untuk membantu peserta mengikuti dan berpartisipasi dalam rapat dengan lebih baik. Fitur ini dapat:
+- Menangkap keputusan penting dan item tindakan dari rapat.
+- Memberikan umpan balik real-time, memungkinkan peserta untuk menyesuaikan partisipasi mereka.
+- Secara otomatis merekam dan menganalisis rapat, memberikan ringkasan dan rekomendasi setelahnya.
 
-[Lihat panduan memulai untuk Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
+[Lihat panduan memulai Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
 
+# **Duet AI di Google Meet**
 
-# **Duet AI Google Meet**
-
-Google Meet telah memperkenalkan fitur baru untuk penggunanya yang disebut Duet AI, yang terutama menyediakan konversi subtitle otomatis, sehingga memudahkan penutur non-pribumi untuk mengikuti konten rapat. Namun, fitur ini saat ini memiliki beberapa keterbatasan:
-1. Duet AI saat ini tidak mendukung bahasa Mandarin, terutama Bahasa Mandarin Tradisional.
-2. Fokus utama pengembangan dan dukungan masih pada bahasa Inggris dan bahasa utama lainnya.
-3. Banyak pengguna yang mempertanyakan keakuratan subtitlenya.
+Google Meet telah memperkenalkan fitur baru yang disebut Duet AI, yang terutama menyediakan terjemahan subtitle otomatis untuk membantu penutur non-native mengikuti konten rapat dengan lebih baik. Namun, fitur ini saat ini memiliki beberapa keterbatasan:
+1. Duet AI saat ini memiliki dukungan bahasa yang terbatas.
+2. Pengembangan dan dukungan terutama berfokus pada bahasa Inggris dan bahasa utama lainnya.
+3. Banyak pengguna mempertanyakan akurasi subtitlenya.
 
 [Pelajari lebih lanjut tentang Duet AI](https://workspaceupdates.googleblog.com/2023/08/duet-ai-translated-captions.html)
 
-> **Informasi Penting**:
-> - **Fungsi**: Duet AI menyediakan konversi subtitle otomatis.
-> - **Dukungan Bahasa**: Saat ini tidak mendukung bahasa Mandarin.
-> - **Akurasi**: Beberapa pengguna mempertanyakan keakuratan subtitlenya.
+> **Poin Penting**:
+> - **Fitur**: Duet AI menyediakan terjemahan subtitle otomatis.
+> - **Dukungan Bahasa**: Saat ini terbatas dalam pilihan bahasa.
+> - **Akurasi**: Beberapa pengguna mempertanyakan akurasi subtitle.
 
 # **Fitur SeaMeet**
 
-Dibandingkan dengan dua platform lainnya, SeaMeet berkinerja sangat baik dalam dukungannya untuk Bahasa Mandarin Tradisional. Tidak hanya sepenuhnya mendukung Bahasa Mandarin Tradisional, tetapi juga menyediakan fitur serupa atau lebih canggih daripada Microsoft Copilot dan Google Meet copilot:
-- Menyediakan transkrip real-time dalam bahasa Mandarin dan Inggris, yang memungkinkan peserta untuk langsung mengikuti konten rapat.
-- Secara otomatis menghasilkan ringkasan dan topik rapat untuk memudahkan peninjauan oleh peserta.
-- Secara otomatis menghasilkan Google Docs untuk setiap rapat setelah rapat untuk meningkatkan kolaborasi tim.
-- Manajemen izin terenkripsi untuk ruang kerja dan pengguna rekaman rapat.
-- Tingkat penyesuaian yang tinggi, yang memungkinkan pengguna untuk menyesuaikan fungsi dan pengaturannya sesuai dengan kebutuhan mereka.
+Dibandingkan dengan dua platform lainnya, SeaMeet unggul dalam dukungan bahasa yang komprehensif. Tidak hanya mendukung banyak bahasa, tetapi juga menawarkan fitur yang serupa atau lebih canggih dibandingkan Microsoft Copilot dan Google Meet Copilot:
+- Menyediakan transkripsi real-time multibahasa, memungkinkan peserta untuk segera mengikuti konten rapat.
+- Secara otomatis menghasilkan ringkasan dan topik rapat untuk tinjauan yang mudah.
+- Secara otomatis membuat dokumen Google untuk setiap rapat setelah sesi untuk kolaborasi tim yang lebih baik.
+- Manajemen izin terenkripsi untuk workspace dan pengguna catatan rapat.
+- Kustomisasi tinggi, memungkinkan pengguna untuk menyesuaikan fitur dan pengaturan sesuai kebutuhan mereka.
 
+# **SeaMeet Dibandingkan dengan Platform Lain**
 
-# **Perbandingan SeaMeet dengan Platform Lain**
+Ketika membandingkan SeaMeet dengan dua platform lainnya, kita dapat melihat bahwa setiap platform memiliki kelebihan dan keterbatasan uniknya sendiri. Namun, untuk pengguna yang mencari dukungan bahasa yang komprehensif dan fitur canggih, SeaMeet saat ini menawarkan solusi terbaik, karena Microsoft dan Google mungkin membutuhkan waktu untuk memperluas dukungan bahasa dan set fitur mereka.
 
-Ketika kita membandingkan SeaMeet dengan dua platform lainnya, kita dapat melihat bahwa setiap platform memiliki kelebihan dan keterbatasan uniknya sendiri. Namun, bagi pengguna yang menginginkan dukungan penuh untuk Bahasa Mandarin Tradisional, SeaMeet saat ini adalah pilihan terbaik. Microsoft dan Google mungkin tidak segera mendukung fitur terbaru untuk pengguna Bahasa Mandarin Tradisional, dan bahkan jika mereka melakukannya, masih harus dilihat apakah fitur tersebut sesuai dengan kebiasaan pengguna Bahasa Mandarin Tradisional.
+Berikut adalah perbandingan sederhana dari tiga asisten rapat:
 
-Berikut adalah perbandingan sederhana dari tiga copilot asisten rapat:
+- **Kelengkapan Fitur**: Dibandingkan dengan Duet AI Google Meet dan Copilot Teams, SeaMeet menawarkan fitur yang lebih lengkap, termasuk transkripsi real-time, ringkasan, dan topik.
+- **Dukungan Bahasa**: SeaMeet menyediakan dukungan bahasa yang luas, sementara yang lain masih dalam pengembangan di bidang ini.
 
-- **Fungsi Komprehensif**: Dibandingkan dengan Duet AI Google Meet dan Copilot Teams, SeaMeet menyediakan fungsi yang lebih komprehensif, termasuk transkrip real-time, ringkasan, dan topik.
-- **Dukungan Bahasa**: SeaMeet sepenuhnya mendukung Bahasa Mandarin Tradisional, sementara dua lainnya masih memiliki ruang untuk perbaikan di area ini.
-
-> **Informasi Penting**:
-> - **Fungsi**: SeaMeet menyediakan transkrip real-time, ringkasan, dan topik.
-> - **Dukungan Bahasa**: Sepenuhnya mendukung Bahasa Mandarin Tradisional.
+> **Poin Penting**:
+> - **Fitur**: SeaMeet menawarkan transkripsi real-time, ringkasan, dan topik.
+> - **Dukungan Bahasa**: Dukungan multibahasa yang komprehensif.
 
 # **Kesimpulan**
 
-| Platform | |Dukungan Bahasa Mandarin |
-|:-----------------------------------:|----------|:-----------------:|
-| Teams Copilot || Tidak mendukung bahasa Mandarin, akan memprioritaskan peluncuran fungsi bahasa Mandarin Sederhana |
-| Google Meet | |Rapat memiliki transkrip Bahasa Mandarin Tradisional, tetapi copilot rapat tidak mendukung bahasa Mandarin |
-| SeaMeet || Mendukung Bahasa Mandarin Tradisional, menyediakan transkrip real-time, ringkasan, dll. |
+| Platform | Dukungan Bahasa |
+|:-----------------------------------:|:-----------------:|
+| Teams Copilot | Dukungan bahasa terbatas |
+| Google Meet | Transkripsi rapat tersedia, tetapi Copilot memiliki keterbatasan bahasa |
+| SeaMeet | Dukungan bahasa komprehensif dengan transkripsi real-time dan ringkasan |
 
+Dengan pesatnya perkembangan teknologi, asisten rapat AI telah menjadi alat yang tidak dapat dipisahkan untuk organisasi modern. Platform yang berbeda menawarkan berbagai fitur untuk memenuhi kebutuhan pengguna yang berbeda. Namun, untuk pengguna yang mencari dukungan bahasa yang komprehensif dan fitur canggih, SeaMeet tanpa diragukan lagi adalah pilihan terbaik. Dalam memilih asisten AI yang tepat untuk rapat, pengguna harus dengan cermat membandingkan fitur, dukungan bahasa, dan umpan balik pelanggan dari berbagai platform untuk memastikan mereka memilih alat yang paling sesuai dengan kebutuhan mereka.
 
-Dengan pesatnya perkembangan teknologi, asisten rapat AI telah menjadi alat yang sangat diperlukan bagi perusahaan modern. Platform yang berbeda menyediakan fungsi yang berbeda untuk memenuhi kebutuhan pengguna yang berbeda. Namun, bagi pengguna yang menginginkan dukungan penuh untuk Bahasa Mandarin Tradisional, SeaMeet tidak diragukan lagi adalah pilihan terbaik. Saat memilih asisten rapat AI yang sesuai, pengguna harus membandingkan dengan cermat fungsi, dukungan bahasa, dan umpan balik pelanggan dari berbagai platform untuk memastikan bahwa mereka memilih alat yang paling sesuai untuk diri mereka sendiri.
+Ingin membuat rapat tim Anda lebih efisien?
 
-
-
-Apakah Anda juga ingin membuat rapat tim Anda lebih efisien?
-
-### [>>Mulai uji coba gratis SeaMeet Anda](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulai menggunakan SeaMeet secara gratis](https://meet.seasalt.ai/?utm_source=blog)

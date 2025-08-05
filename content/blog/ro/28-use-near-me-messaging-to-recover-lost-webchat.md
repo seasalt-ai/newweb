@@ -1,26 +1,26 @@
 ---
-title: "Utilizatorul a părăsit chat-ul web: Folosiți 'Mesajele din apropiere' pentru a le trimite mesaje!"
-metatitle: "Utilizatorul a părăsit chat-ul web: Folosiți 'Mesajele din apropiere' pentru a vă reconecta!"
+title: "Utilizatorul a părăsit chatul web: utilizați Mesageria Near Me pentru a-i trimite un mesaj!"
+metatitle: "Utilizatorul a părăsit chatul web: luați legătura cu Mesageria Near Me!"
 date: 2022-12-25T12:48:52-08:00
 author: Xuchen Yao
-description: "'Mesajele din apropiere' rezolvă o problemă cu chat-ul web: vă puteți reconecta cu utilizatorii chiar și *după* ce au părăsit conversația."
+description: "Mesageria Near Me rezolvă o problemă a chatului web: reluați legătura cu utilizatorul chiar și *după* ce a părăsit conversația."
 tags: ["NearMe"]
 image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
-weight: 1
+weight: 1  # weight - used for ordering your content in lists. Lower weight gets higher precedence. So content with lower weight will come first.
 draft: false
 canonicalURL: "/blog/use-near-me-messaging-to-recover/"
 url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-În dimineața de Crăciun din 2022, m-am trezit cu câteva mesaje lăsate de un utilizator numit Henry. Când am văzut aceste mesaje, Henry plecase deja. Am primit doar mesajele pe care le-a trimis prin chat-ul web și numele său.
+În dimineața de Crăciun a anului 2022, m-am trezit cu câteva mesaje lăsate de un utilizator pe nume Henry. Până am ajuns la mesaje, Henry plecase deja. Tot ce am primit au fost mesajele pe care le-a trimis prin chatul web și numele său.
 
-(Mai târziu am aflat că Henry era în Nigeria, cu o zonă de timp complet diferită. Când am făcut chat video cu el, puteam vedea clar sudoarea pe fața sa, în contrast cu frigul din Seattle.)
+(Mai târziu s-a dovedit că Henry se află în Nigeria și într-un fus orar total diferit. Când am vorbit cu el prin video, am putut vedea literalmente transpirația de pe fața lui, în contrast cu vremea rece din Seattle.)
 
-Din fericire, chat-ul web de pe site-ul Seasalt.ai este implementat prin "Mesajele din apropiere" (actualizare: mai târziu am transformat acest produs într-un constructor de chatbot-uri omnichannel. Acum se numește [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!). Backend-ul este alimentat de Google Business Messages, care vă oferă o funcție grozavă de a trimite mesaje push pe telefonul utilizatorilor în 30 de zile după ce v-au contactat pentru prima dată. În comparație, Facebook vă oferă doar o [fereastră de 24 de ore](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview/) pentru a vă conecta cu utilizatorii după ce aceștia inițiază o conversație cu botul vostru Messenger.
+Din fericire, chatul web de pe site-ul Seasalt.ai este prin Mesageria Near Me (Actualizare: De atunci am pivotat produsul pentru a fi un constructor de chatbot omnicanal. Acum se numește [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!). Backend-ul este alimentat de Mesajele Google Business, care vă oferă funcția utilă de a trimite un mesaj pe telefonul utilizatorului în termen de 30 de zile după ce v-a contactat pentru prima dată. În contrast, Facebook vă oferă doar o [fereastră de 24 de ore](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview/) pentru a contacta un utilizator odată ce acesta inițiază o conversație cu botul dvs. Messenger.
 
-Pentru utilizatorii curioși din punct de vedere tehnic, aceasta se realizează prin framework-ul Google Play Services instalat pe telefonul utilizatorilor. Deci, atâta timp cât au Google pe telefon, îi puteți contacta întotdeauna.
+Pentru utilizatorii curioși din punct de vedere tehnic, acest lucru este activat de cadrul Google Play Services instalat pe telefoanele utilizatorilor. Astfel, atâta timp cât au Google pe telefon, îi puteți contacta oricând.
 
-Deci concluzia este: "Mesajele din apropiere" oferă o funcție grozavă pentru a captura lead-urile pierdute.
+Deci verdictul: Mesageria Near Me oferă o funcție excelentă pentru a recupera clienții potențiali pierduți.
 
-Pentru o companie, ce cadou de Crăciun mai bun decât un lead recuperat și o conversație interesantă cu ei pe alt continent? 
+Ce cadou de Crăciun mai bun pentru o afacere decât un client potențial recuperat și o discuție amuzantă cu el pe un alt continent?

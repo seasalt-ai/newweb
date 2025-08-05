@@ -1,88 +1,82 @@
 ---
-title: "Bătălia asistenților de întâlnire AI: Microsoft Teams Copilot vs. Google Meet"
-metatitle: "Bătălia asistenților de întâlnire AI: Microsoft Teams Copilot vs. Google Meet"
+title: "Bătălia Asistenților AI pentru Întâlniri: Microsoft Teams vs Google Meet"
+metatitle: "Bătălia Asistenților AI pentru Întâlniri: Microsoft Teams vs Google Meet"
 date: 2023-10-05T10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "Explorați funcțiile asistentului de întâlnire AI de la Microsoft Teams și Google Meet, comparând suportul fiecărei platforme pentru chineza tradițională. SeaMeet acceptă chineza tradițională, oferind transcrieri în timp real, rezumate și multe altele."
+description: "Explorați asistenții AI pentru întâlniri de la Microsoft Teams și Google Meet, comparați suportul lingvistic al platformelor și aflați cum SeaMeet oferă transcriere în timp real, rezumate și alte funcții."
 weight: 1
-tags: ["SeaMeet", "Instrumente AI"]
+tags: ["SeaMeet", "AI Tools"]
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
 canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
 url: "/blog/microsoft-teams-transcription-on-google-meetings/"
 aliases:
     - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Explorați funcțiile asistentului de întâlnire AI de la Microsoft Teams și Google Meet, comparând suportul fiecărei platforme pentru chineza tradițională. SeaMeet acceptă chineza tradițională, oferind transcrieri în timp real, rezumate și multe altele."
-modified_date: 2025-08-01T17:00:00-08:00
+summary: "Explorați asistenții AI pentru întâlniri de la Microsoft Teams și Google Meet, comparați suportul lingvistic al platformelor și aflați cum SeaMeet oferă transcriere în timp real, rezumate și alte funcții."
 ---
 
-Odată cu dezvoltarea tehnologiei, asistenții de întâlnire AI au devenit un instrument cheie pentru îmbunătățirea eficienței întâlnirilor. Aceste instrumente pot oferi automat rezumate ale întâlnirilor, pot converti vorbirea în text și chiar pot identifica automat informații importante în cadrul întâlnirilor. Acest articol va explora trei asistenți de întâlnire AI majori: Copilot de la Microsoft Teams, Duet AI de la Google Meet și SeaMeet.
+Odată cu avansarea tehnologiei, asistenții AI pentru întâlniri au devenit un instrument esențial pentru îmbunătățirea eficienței întâlnirilor. Aceste instrumente pot genera automat rezumate ale întâlnirilor, pot converti vorbirea în text și pot chiar identifica informații importante în timpul întâlnirilor. În acest articol, vom examina trei asistenți AI principali pentru întâlniri: Copilot de la Microsoft Teams, Duet AI de la Google Meet și SeaMeet.
 
-> **Informații cheie**:
-> - **Teams Copilot**: oferă o funcție de rezumat al întâlnirii, dar nu acceptă limba chineză și prioritizează chineza simplificată.
-> - **Google Meet Duet AI**: oferă o funcție de conversie automată a subtitrărilor, dar în prezent nu acceptă limba chineză.
-> - **SeaMeet**: acceptă chineza tradițională și oferă transcrieri în timp real, rezumate și alte funcții.
+> **Puncte cheie**:
+> - **Teams Copilot**: Oferă funcții de rezumare a întâlnirilor, dar are suport lingvistic limitat.
+> - **Google Meet Duet AI**: Oferă traducere automată a subtitrărilor, dar are în prezent limitări lingvistice.
+> - **SeaMeet**: Suportă mai multe limbi și oferă transcriere în timp real, rezumate și alte funcții.
 
-# **Copilotul de întâlnire Microsoft Teams**
+# **Copilot Microsoft Teams pentru Întâlniri**
 
-Microsoft Teams oferă utilizatorilor o funcție numită Copilot, concepută pentru a oferi rezumate ale întâlnirilor pentru a ajuta participanții să urmărească și să participe mai bine la întâlniri. Această funcție poate:
-- Captura decizii importante și elemente de acțiune în cadrul întâlnirii.
-- Oferi feedback în timp real, permițând participanților să își ajusteze participarea în orice moment.
-- Înregistra și analiza automat întâlnirile, oferind rezumate și sugestii ulterioare.
+Microsoft Teams oferă o funcție numită Copilot, concepută pentru a furniza rezumate ale întâlnirilor pentru ca participanții să poată urmări și participa mai bine la întâlniri. Această funcție poate:
+- Captura decizii cheie și puncte de acțiune din întâlniri.
+- Oferi feedback în timp real pentru a permite participanților să-și ajusteze participarea.
+- Înregistra și analiza automat întâlnirile pentru a furniza rezumate și recomandări de follow-up.
 
-[Consultați ghidul de pornire pentru Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
+[Vezi ghidul de început pentru Teams Copilot](https://support.microsoft.com/en-us/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
 
+# **Google Meet Duet AI**
 
-# **Duet AI de la Google Meet**
+Google Meet a introdus o nouă funcție numită Duet AI care oferă traducere automată a subtitrărilor, în principal pentru a ajuta vorbitorii non-nativi să înțeleagă mai bine conținutul întâlnirii. Cu toate acestea, această funcție are în prezent câteva limitări:
+1. Duet AI are în prezent suport lingvistic limitat.
+2. Dezvoltarea și suportul sunt concentrate în principal pe engleză și alte limbi principale.
+3. Mulți utilizatori pun la îndoială acuratețea subtitrărilor.
 
-Google Meet a introdus o nouă funcție pentru utilizatorii săi, numită Duet AI, care oferă în principal conversia automată a subtitrărilor, facilitând urmărirea conținutului întâlnirii de către vorbitorii non-nativi. Cu toate acestea, această funcție are în prezent unele limitări:
-1. Duet AI nu acceptă în prezent limba chineză, în special chineza tradițională.
-2. Principalul obiectiv de dezvoltare și asistență este încă limba engleză și alte limbi majore.
-3. Mulți utilizatori au pus la îndoială acuratețea subtitrărilor sale.
+[Află mai multe despre Duet AI](https://workspaceupdates.googleblog.com/2023/08/duet-ai-translated-captions.html)
 
-[Aflați mai multe despre Duet AI](https://workspaceupdates.googleblog.com/2023/08/duet-ai-translated-captions.html)
+> **Puncte cheie**:
+> - **Funcționalitate**: Duet AI oferă traducere automată a subtitrărilor.
+> - **Suport lingvistic**: Alegerea limbilor este în prezent limitată.
+> - **Acuratețe**: Unii utilizatori pun la îndoială acuratețea subtitrărilor.
 
-> **Informații cheie**:
-> - **Funcție**: Duet AI oferă conversie automată a subtitrărilor.
-> - **Asistență lingvistică**: în prezent nu acceptă limba chineză.
-> - **Acuratețe**: unii utilizatori pun la îndoială acuratețea subtitrărilor sale.
+# **Funcțiile SeaMeet**
 
-# **Caracteristici SeaMeet**
+În comparație cu celelalte două platforme, SeaMeet are un avantaj în suportul lingvistic cuprinzător. Nu doar că suportă mai multe limbi, dar oferă și funcții echivalente sau mai avansate decât Microsoft Copilot sau Google Meet Copilot:
+- Oferă transcriere multilingvă în timp real pentru a permite participanților să urmărească instantaneu conținutul întâlnirii.
+- Generează automat rezumate ale întâlnirilor și subiecte pentru revizuire ușoară.
+- Creează automat documente Google pentru fiecare întâlnire pentru colaborare în echipă.
+- Management criptat al accesului pentru înregistrările întâlnirilor spațiului de lucru și utilizatorului.
+- Personalizare avansată permițând ajustarea funcțiilor și setărilor la nevoile utilizatorului.
 
-În comparație cu celelalte două platforme, SeaMeet se descurcă deosebit de bine în ceea ce privește suportul pentru chineza tradițională. Nu numai că acceptă pe deplin chineza tradițională, dar oferă și funcții similare sau mai avansate decât Microsoft Copilot și Google Meet copilot:
-- Oferă transcrieri în timp real în chineză și engleză, permițând participanților să urmărească instantaneu conținutul întâlnirii.
-- Generează automat rezumate și subiecte ale întâlnirilor pentru o revizuire ușoară de către participanți.
-- Generează automat Google Docs pentru fiecare întâlnire după întâlnire pentru a spori colaborarea în echipă.
-- Gestionarea permisiunilor criptate pentru spațiile de lucru și utilizatorii care înregistrează întâlnirile.
-- Grad ridicat de personalizare, permițând utilizatorilor să își ajusteze funcțiile și setările în funcție de nevoile lor.
+# **Comparația SeaMeet cu Alte Platforme**
 
+Comparând SeaMeet cu celelalte două platforme, putem vedea că fiecare platformă are propriile puncte forte și limitări. Cu toate acestea, pentru utilizatorii care caută suport lingvistic cuprinzător și funcții avansate, SeaMeet oferă în prezent cea mai bună soluție, deoarece Microsoft și Google ar putea avea nevoie de timp pentru a-și extinde suportul lingvistic și setul de funcții.
 
-# **Comparația SeaMeet cu alte platforme**
+O comparație simplă a celor trei asistenți pentru întâlniri este următoarea:
 
-Când comparăm SeaMeet cu celelalte două platforme, putem vedea că fiecare platformă are propriile sale avantaje și limitări unice. Cu toate acestea, pentru utilizatorii care doresc suport complet pentru chineza tradițională, SeaMeet este în prezent cea mai bună alegere. Este posibil ca Microsoft și Google să nu accepte imediat cele mai recente funcții pentru utilizatorii de chineză tradițională și, chiar dacă o fac, rămâne de văzut dacă acestea sunt potrivite pentru obiceiurile utilizatorilor de chineză tradițională.
+- **Completitudinea funcțiilor**: În comparație cu Google Meet Duet AI și Teams Copilot, SeaMeet oferă funcții mai cuprinzătoare, inclusiv transcriere în timp real, rezumate și subiecte.
+- **Suport lingvistic**: SeaMeet oferă suport lingvistic extins, în timp ce alte platforme sunt încă în dezvoltare în acest domeniu.
 
-Iată o comparație simplă a celor trei copiloți asistenți de întâlnire:
-
-- **Funcții complete**: în comparație cu Duet AI de la Google Meet și Copilot de la Teams, SeaMeet oferă funcții mai complete, inclusiv transcrieri în timp real, rezumate și subiecte.
-- **Asistență lingvistică**: SeaMeet acceptă pe deplin chineza tradițională, în timp ce celelalte două mai au loc de îmbunătățiri în acest domeniu.
-
-> **Informații cheie**:
-> - **Funcții**: SeaMeet oferă transcrieri în timp real, rezumate și subiecte.
-> - **Asistență lingvistică**: acceptă pe deplin chineza tradițională.
+> **Puncte cheie**:
+> - **Funcții**: SeaMeet oferă transcriere în timp real, rezumate și subiecte.
+> - **Suport lingvistic**: Suport multilingv cuprinzător.
 
 # **Concluzie**
 
-| Platformă | |Asistență pentru limba chineză |
-|:-----------------------------------:|----------|:-----------------:|
-| Teams Copilot || Nu acceptă limba chineză, va acorda prioritate lansării funcțiilor în chineză simplificată |
-| Google Meet | |Întâlnirile au transcrieri în chineză tradițională, dar copilotul de întâlnire nu acceptă limba chineză |
-| SeaMeet || Acceptă chineza tradițională, oferă transcrieri în timp real, rezumate etc. |
+| Platformă | Suport lingvistic |
+|:-----------------------------------:|:-----------------:|
+| Teams Copilot | Suport lingvistic limitat |
+| Google Meet | Transcriere întâlnire disponibilă, dar Copilot are limitări lingvistice |
+| SeaMeet | Suport lingvistic cuprinzător cu transcriere în timp real și rezumate |
 
+Cu avansarea rapidă a tehnologiei, asistenții AI pentru întâlniri au devenit un instrument esențial pentru organizațiile moderne. Diferite platforme oferă funcții diferite pentru a satisface nevoile diferitelor utilizatori. Cu toate acestea, pentru utilizatorii care caută suport lingvistic cuprinzător și funcții avansate, SeaMeet este în mod clar cea mai bună alegere. Când aleg asistentul AI potrivit pentru întâlniri, utilizatorii ar trebui să compare cu atenție funcțiile, suportul lingvistic și feedback-ul clienților de la diferite platforme pentru a se asigura că aleg instrumentul care se potrivește cel mai bine nevoilor lor.
 
-Odată cu dezvoltarea rapidă a tehnologiei, asistenții de întâlnire AI au devenit un instrument indispensabil pentru întreprinderile moderne. Diferitele platforme oferă funcții diferite pentru a satisface nevoile diferiților utilizatori. Cu toate acestea, pentru utilizatorii care doresc suport complet pentru chineza tradițională, SeaMeet este, fără îndoială, cea mai bună alegere. Atunci când aleg un asistent de întâlnire AI potrivit, utilizatorii ar trebui să compare cu atenție funcțiile, asistența lingvistică și feedback-ul clienților de pe diferite platforme pentru a se asigura că aleg instrumentul cel mai potrivit pentru ei.
+Vrei să faci întâlnirile echipei tale mai eficiente?
 
-
-
-Doriți, de asemenea, să vă eficientizați întâlnirile de echipă?
-
-### [>>Începeți perioada de încercare gratuită a SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Începe gratuit cu SeaMeet](https://meet.seasalt.ai/?utm_source=blog)

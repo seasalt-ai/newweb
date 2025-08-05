@@ -1,9 +1,8 @@
 ---
-metatitle: 'Discord: A New Frontier for Customer Engagement'
-seoDescription: Descubra como o Discord está revolucionando o engajamento do cliente,
-  oferecendo comunidades dinâ...
-seoTitle: 'Discord: Uma Nova Fronteira para o Engajamento ...'
+title: "Discord: A New Frontier for Customer Engagement"
 slug: discord-a-new-frontier-for-customer-engagement
+seoTitle: "Discord: Uma Nova Fronteira para o Engajamento do Cliente"
+seoDescription: Descubra como o Discord está revolucionando o engajamento do cliente, oferecendo comunidades dinâmicas e suporte inovador para empresas modernas.
 tags:
 - Discord
 - Atendimento ao Cliente

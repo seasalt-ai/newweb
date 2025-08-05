@@ -1,5 +1,7 @@
 ---
-metatitle: 'Discord: 고객 참여의 새로운 프론티어'
+title: "Discord: 고객 참여의 새로운 프론티어"
+slug: discord-a-new-frontier-for-customer-engagement
+seoTitle: "Discord: 고객 참여의 새로운 프론티어"
 seoDescription: Discord가 어떻게 고객 참여를 혁신하고, 현대 기업에 역동적인 커뮤니티와 혁신적인 지원을 제공하는지 알아보세요.
 seoTitle: 'Discord: 고객 참여의 새로운 프론티어'
 slug: discord-a-new-frontier-for-customer-engagement

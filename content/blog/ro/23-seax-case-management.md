@@ -1,126 +1,126 @@
 ---
-title: "Gestionarea cazurilor SeaX: controlează urmărirea cazurilor din centrul tău de contact"
-metatitle: "Gestionarea cazurilor SeaX: urmează interacțiunile cu clienții"
+title: "SeaX Case Management: Preia controlul urmăririi cazurilor din centrul tău de contact"
+metatitle: "SeaX Case Management: Urmărește interacțiunile cu clienții tăi"
 date: 2022-08-17T22:28:15Z
 draft: false
 author: Sarah Reid
 image: images/blog/23-seax-case-management/0-main.png
-description: "În acest articol, explorăm integrarea AI cu gestionarea cazurilor, care oferă agenților tăi instrumente pentru a urmări și înregistra interacțiunile cu clienții în SeaX."
+description: "În această postare, explorăm integrările AI cu Case Management, care oferă agenților tăi instrumente pentru a urmări și înregistra interacțiunile cu clienții tăi în SeaX."
 weight: 1
 tags: ["SeaX"]
 canonicalURL: "/blog/seax-case-management/"
 url: "/blog/seax-case-management/"
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-*În articolul nostru anterior de blog [SeaX KB: O bază de cunoștințe care răspunde înainte să întrebi](https://seasalt.ai/blog/22-seax-knowledge-base/), am arătat cum baza de cunoștințe internă Seasalt.ai îți prezintă informațiile companiei direct la vârfurile degetelor agenților, îmbunătățind astfel eficiența și acuratețea centrului de contact. În acest articol, vom continua să explorăm integrarea AI cu sistemul de gestionare a cazurilor SeaX, care oferă agenților tăi instrumente puternice pentru a urmări și înregistra interacțiunile cu clienții direct în interfața SeaX.*
+*În postarea noastră anterioară de pe blog, [SeaX KB: O bază de cunoștințe care răspunde înainte de a fi întrebată](https://seasalt.ai/blog/22-seax-knowledge-base/), am arătat cum baza de cunoștințe internă a Seasalt.ai pune informațiile companiei dvs. direct la îndemâna agenților dvs., sporind eficiența și acuratețea în centrul dvs. de contact. În această postare, continuăm subiectul integrărilor AI cu sistemul de gestionare a cazurilor SeaX, care oferă agenților dvs. instrumente puternice pentru a urmări și înregistra interacțiunile cu clienții dvs. direct în interfața SeaX.*
 
 # Cuprins
-- [Tichete vs gestionarea cazurilor](#ticketing-vs-case-management)
+- [Ticketing vs. Gestionarea cazurilor](#ticketing-vs-gestionarea-cazurilor)
 - [Gestionarea cazurilor SeaX](#seax-case-management)
-    - [Interfață de utilizator integrată pentru agenții live](#embedded-user-interface-for-live-agents)
-    - [Căutare automată puternică](#powerful-automatic-search)
-    - [Gestionarea contactelor integrate](#integrated-contact-management)
-    - [Interacțiuni cu clienții conectate](#linked-customer-interactions)
-    - [Câmpuri personalizabile](#customizable-fields)
-    - [Urmărirea automată a cazurilor](#automated-case-follow-up)
-    - [Dashboard administrator](#administrator-dashboard)
+    - [Interfață de utilizator încorporată pentru agenții live](#interfață-de-utilizator-încorporată-pentru-agenții-live)
+    - [Căutare automată puternică](#căutare-automată-puternică)
+    - [Gestionarea integrată a contactelor](#gestionarea-integrată-a-contactelor)
+    - [Interacțiuni cu clienții legate](#interacțiuni-cu-clienții-legate)
+    - [Câmpuri personalizabile](#câmpuri-personalizabile)
+    - [Urmărire automată a cazurilor](#urmărire-automată-a-cazurilor)
+    - [Tabloul de bord al administratorului](#tabloul-de-bord-al-administratorului)
     - [Webinar](#webinar)
 
-# Tichete vs gestionarea cazurilor
+# Ticketing vs. Gestionarea cazurilor
 
-Termenii "tichete" și "gestionarea cazurilor" sunt adesea folosiți interschimbabil pentru a se referi la un tip de sistem în care informațiile detaliate despre o problemă sunt stocate într-un obiect de date, apoi acel obiect de date este folosit și referit în procesul de rezolvare a problemei. Cu toate acestea, distincția obișnuită între acești doi termeni este complexitatea sistemului.
+Termenii „ticketing” și „gestionarea cazurilor” sunt adesea folosiți oarecum interschimbabil pentru a se referi la un sistem în care detaliile unei probleme sunt stocate într-un obiect de date, care este apoi utilizat și la care se face referire pe parcursul rezolvării problemei. Cu toate acestea, acolo unde acești doi termeni diferă de obicei este în complexitatea sistemului.
 
-Sistemele de "tichete" sunt de obicei mai simple, unde tichetele sunt folosite pentru a stoca informații detaliate despre o problemă specifică și sunt eliminate sau arhivate după ce problema este rezolvată. Sistemele de "gestionare a cazurilor" sunt de obicei mai complexe și nu doar urmează ciclul de viață al problemei. Cazurile sunt de obicei conectate la alte lucruri, cum ar fi alte cazuri similare sau clientul care a deschis cazul, astfel încât tendințele pot fi folosite pentru a rezolva probleme mai generale. Informațiile despre multiple interacțiuni cu clientul în timpul procesului de rezolvare a problemei pot fi stocate în datele cazului, astfel încât fiecare agent ulterior care procesează cazul să știe exact ce s-a întâmplat. Cazurile pot fi închise apoi redeschise, dacă clientul revine cu o problemă recurentă. Gestionarea cazurilor este un instrument mai puternic și mai flexibil pentru urmărirea sarcinilor și interacțiunilor mai complexe din centrul de contact.
+Sistemele de „ticketing” sunt de obicei mai simple, unde tichetul este folosit pentru a stoca detaliile unei probleme specifice și este aruncat sau arhivat atunci când problema este rezolvată. Sistemele de „gestionare a cazurilor” sunt de obicei mai complexe și fac mai mult decât să urmărească durata de viață a unei probleme. Cazurile sunt adesea legate de alte lucruri, cum ar fi alte cazuri similare sau clientul care a deschis cazul, astfel încât tendințele să poată fi utilizate pentru a rezolva probleme mai răspândite. Informațiile despre interacțiunile multiple cu un client pe parcursul problemei pot fi stocate în datele cazului, astfel încât fiecare agent ulterior care gestionează cazul știe exact ce se întâmplă. Un caz poate fi închis și apoi redeschis dacă clientul revine cu o problemă recurentă. Gestionarea cazurilor este un instrument mai puternic și mai flexibil pentru a ține evidența sarcinilor și interacțiunilor mai complexe într-un centru de contact.
 
 # Gestionarea cazurilor SeaX
 
-Gestionarea noastră a cazurilor se bazează pe principiul că trebuie să fie ușor de folosit în timpul interacțiunii cu clienții. Ultimul lucru de care au nevoie agenții când ajută clienții este să-și amintească totul pentru a înregistra după apel, sau să fie forțați să comute între multiple programe diferite doar pentru a vorbi cu clientul, să caute informații existente și să înregistreze informații noi.
+Gestionarea cazurilor noastre se bazează pe principiul de a fi ușor de utilizat în timpul interacțiunii cu clienții. Ultimul lucru de care are nevoie un agent în timp ce asistă un client este să-și facă griji cu privire la reținerea tuturor informațiilor pentru a-și nota după apel, sau să fie forțat să schimbe mai multe programe diferite doar pentru a vorbi cu clientul, a găsi informații existente și a-și nota noile informații.
 
-Dacă vrei să vezi direct demonstrația, poți urmări scurtul nostru videoclip de demonstrație pentru gestionarea cazurilor SeaX:
+Dacă doriți să treceți direct la o demonstrație, puteți viziona scurtul nostru videoclip demonstrativ SeaX Case Management:
 
-<iframe width="85%" height="450px" src="https://www.youtube.com/embed/yf1REVZtRa8" title="YouTube 影片播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="85%" height="450px" src="https://www.youtube.com/embed/yf1REVZtRa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-## Interfață de utilizator integrată pentru agenții live
+## Interfață de utilizator încorporată pentru agenții live
 
 <center>
-<img src="/images/blog/23-seax-case-management/1-intro.png" alt="Prima privire asupra interfeței de gestionare a cazurilor SeaX."/>
+<img src="/images/blog/23-seax-case-management/1-intro.png" alt="Prima privire la interfața SeaX Case Management."/>
 
-*Prima privire asupra interfeței de gestionare a cazurilor SeaX.*
+*Prima privire la interfața SeaX Case Management.*
 </center>
 
-Deoarece focusul nostru este să facem gestionarea cazurilor accesibilă pentru agenți, sistemul de gestionare a cazurilor SeaX este integrat nativ în SeaX. Agenții pot adăuga cazuri, edita cazuri existente și înregistra toate notele necesare în aceeași interfață în care procesează apelurile și mesajele. Fără comutarea ferestrelor, fără navigarea prin tab-uri, fără navigarea prin pagini web imbricate.
+Deoarece ne-am concentrat pe a face gestionarea cazurilor accesibilă agenților, sistemul de gestionare a cazurilor SeaX este integrat nativ în SeaX. Agenții pot adăuga cazuri noi, edita cazuri existente și își pot lua toate notițele necesare în aceeași interfață în care gestionează apelurile și mesajele. Fără a schimba ferestrele, fără a răsfoi filele, fără a naviga prin pagini web imbricate.
 
 ## Căutare automată puternică
 
 <center>
-<img src="/images/blog/23-seax-case-management/2-search.png" alt="Interfața de căutare pentru gestionarea cazurilor SeaX."/>
+<img src="/images/blog/23-seax-case-management/2-search.png" alt="Interfața de căutare SeaX Case Management."/>
 
-*Interfața de căutare pentru gestionarea cazurilor SeaX.*
+*Interfața de căutare SeaX Case Management.*
 </center>
 
-Căutarea noastră rapidă și precisă a cazurilor îți permite să cauți și să sortezi după orice aspect al informațiilor cazului, inclusiv căutarea text complet în notele agenților și filtrarea după propriule câmpuri de date personalizate.
+Căutarea noastră rapidă și precisă a cazurilor vă permite să căutați și să sortați după orice aspect al informațiilor despre caz, inclusiv căutarea textului integral al notelor agenților și filtrarea după propriile câmpuri de date personalizate.
 
-## Gestionarea contactelor integrate
+## Gestionarea integrată a contactelor
 
 <center>
-<img src="/images/blog/23-seax-case-management/3-contacts.png" alt="Interfața contactelor clienți pentru gestionarea cazurilor SeaX."/>
+<img src="/images/blog/23-seax-case-management/3-contacts.png" alt="Interfața de contact a clienților SeaX Case Management."/>
 
-*Interfața contactelor clienți pentru gestionarea cazurilor SeaX.*
+*Interfața de contact a clienților SeaX Case Management.*
 </center>
 
-În plus față de gestionarea informațiilor cazurilor, oferim și funcții de gestionare a contactelor pentru a stoca informațiile clienților tăi și a conecta cazurile clienților. Ca și cu cazurile, poți stoca note despre clienți și să-i grupezi după etichete pentru a urmări cu precizie cine sună la centrul tău de contact.
+Pe lângă gestionarea informațiilor despre cazuri, oferim și gestionarea contactelor pentru a stoca informațiile despre clienți și a lega cazurile clienților între ele. La fel ca în cazul cazurilor, puteți stoca note despre clienți și îi puteți grupa după etichete pentru a ține evidența exact a cine sună la centrul dvs. de contact.
 
-## Interacțiuni cu clienții conectate
+## Interacțiuni cu clienții legate
 
 <center>
-<img src="/images/blog/23-seax-case-management/4-recording.png" alt="Încorporează-ți înregistrările de apel direct în cazurile relevante."/>
+<img src="/images/blog/23-seax-case-management/4-recording.png" alt="Încorporați înregistrările apelurilor direct în cazul asociat."/>
 
-*Încorporează-ți înregistrările de apel direct în cazurile relevante.*
+*Încorporați înregistrările apelurilor direct în cazul asociat.*
 </center>
 
-Fiecare caz este conectat la contactul relevant, dar putem și conecta apelurile individuale la cazurile relevante. Prin funcția "Încorporează înregistrarea sarcinii", poți atașa direct înregistrările de apel la cazuri, permițând astfel să vezi cu precizie în viitor ce s-a întâmplat în fiecare interacțiune relevantă cu clientul.
+Fiecare caz este legat de contactul asociat, dar putem, de asemenea, să legăm apelurile individuale de cazul asociat. Cu funcția „Încorporare înregistrare sarcină”, puteți atașa direct înregistrarea apelului la caz, permițând o revizuire ulterioară a exact ceea ce s-a întâmplat în fiecare interacțiune asociată cu clientul.
 
 ## Câmpuri personalizabile
 
 <center>
-<img src="/images/blog/23-seax-case-management/5-custom-fields.png" alt="Definește câmpuri de date personalizate pentru a stoca informațiile despre clienți și cazuri care sunt importante pentru tine."/>
+<img src="/images/blog/23-seax-case-management/5-custom-fields.png" alt="Definiți câmpuri de date personalizate pentru a stoca informațiile despre client și caz care sunt importante pentru dvs."/>
 
-*Definește câmpuri de date personalizate pentru a stoca informațiile despre clienți și cazuri care sunt importante pentru tine.*
+*Definiți câmpuri de date personalizate pentru a stoca informațiile despre client și caz care sunt importante pentru dvs.*
 </center>
 
-Înțelegem că fiecare companie este unică și că fiecare centru de contact trebuie să colecteze diferite tipuri de informații în cazurile sale. Prin urmare, sistemul de gestionare a cazurilor SeaX oferă un set de bază de câmpuri de date importante, în timp ce oferă funcționalitatea de câmpuri personalizate pentru a putea adăuga câmpuri de date suplimentare la cazuri și contacte clienți pentru a colecta orice informații de care ai nevoie în centrul de contact.
+Înțelegem că fiecare companie este unică și că fiecare centru de contact va trebui să colecteze diferite tipuri de informații în cazurile lor. Prin urmare, sistemul de gestionare a cazurilor SeaX oferă setul de bază de câmpuri de date importante, oferind în același timp o funcție de câmp personalizat, astfel încât să puteți adăuga câmpuri de date suplimentare atât la cazuri, cât și la contactele clienților pentru a colecta orice informații aveți nevoie în centrul dvs. de contact.
 
 <center>
-<img src="/images/blog/23-seax-case-management/6-custom-fields.png" alt="Accesează-ți câmpurile personalizate direct în cardurile de cazuri și contacte."/>
+<img src="/images/blog/23-seax-case-management/6-custom-fields.png" alt="Accesați câmpurile personalizate direct în cardurile de caz și de contact."/>
 
-*Accesează-ți câmpurile personalizate direct în cardurile de cazuri și contacte.*
+*Accesați câmpurile personalizate direct în cardurile de caz și de contact.*
 </center>
 
-## Urmărirea automată a cazurilor
+## Urmărire automată a cazurilor
 
 <center>
-<img src="/images/blog/23-seax-case-management/7-sms.png" alt="Mesaje automate pentru a colecta statusul cazului și scorul CSAT de la clienți."/>
+<img src="/images/blog/23-seax-case-management/7-sms.png" alt="Automatizați mesajele pentru a colecta starea cazului și scorurile CSAT de la clienți."/>
 
-*Mesaje automate pentru a colecta statusul cazului și scorul CSAT de la clienți.*
+*Automatizați mesajele pentru a colecta starea cazului și scorurile CSAT de la clienți.*
 </center>
 
-În centrul de contact trebuie să se facă multe interacțiuni mici și repetitive cu clienții pentru a se asigura că cazurile sunt gestionate corect. Sistemul de gestionare a cazurilor SeaX poate automatiza aceste conversații pentru tine, astfel încât agenții tăi să se poată concentra pe probleme mai complexe. Cu doar un clic, poți trimite mesaje clienților pentru a verifica statusul cazurilor care au fost deschise pentru o perioadă lungă de timp, sau să ceri răspunsuri la sondaje de satisfacție a clienților, iar sistemul va actualiza automat informațiile cazului lor pe baza răspunsurilor lor.
+Există o serie de interacțiuni mici și repetitive cu clienții care trebuie făcute într-un centru de contact pentru a se asigura că cazurile sunt gestionate corespunzător. Sistemul de gestionare a cazurilor SeaX poate automatiza aceste conversații pentru dvs., astfel încât agenții dvs. să se poată concentra pe problemele mai complexe. Cu un singur clic, puteți trimite un mesaj unui client pentru a verifica starea unui caz care a fost deschis de mult timp sau pentru a solicita un răspuns la un sondaj de satisfacție a clienților, iar sistemul va actualiza automat informațiile despre caz pe baza răspunsului lor.
 
-## Dashboard administrator
+## Tabloul de bord al administratorului
 
 <center>
-<img src="/images/blog/23-seax-case-management/8-admin.png" alt="Folosește dashboard-ul administrator pentru a controla informațiile din sistemul de gestionare a cazurilor."/>
+<img src="/images/blog/23-seax-case-management/8-admin.png" alt="Controlați informațiile din sistemul dvs. de gestionare a cazurilor cu tabloul de bord al administratorului."/>
 
-*Folosește dashboard-ul administrator pentru a controla informațiile din sistemul de gestionare a cazurilor.*
+*Controlați informațiile din sistemul dvs. de gestionare a cazurilor cu tabloul de bord al administratorului.*
 </center>
 
-Stocarea informațiilor cazurilor în centrul de contact este una, dar gestionarea cazurilor în centrul de contact este altceva. Sistemul de gestionare a cazurilor SeaX oferă un dashboard administrator pentru a poți face exact asta. De aici, poți monitoriza toate cazurile din sistem și să obții intuiții detaliate pentru a determina care necesită atenție. Poți sorta după interval de timp sau agent, trimite mesaje automate de verificare a statusului, sau căuta cazuri cu etichete specifice, orice necesită gestionarea cazurilor.
+Este una să stocați informații despre cazurile din centrul dvs. de contact și alta să gestionați cazurile din centrul dvs. de contact. Sistemul de gestionare a cazurilor SeaX oferă un tablou de bord al administratorului, astfel încât să puteți face exact asta. De aici puteți monitoriza toate cazurile din sistemul dvs. și puteți aprofunda detaliile pentru a determina care necesită atenție. Puteți sorta după interval de timp sau agent, puteți trimite mesaje automate de verificare a stării sau puteți căuta cazuri cu o anumită etichetă, orice este necesar pentru a vă gestiona cazurile.
 
 ## Webinar
 
-Dacă vrei să afli mai multe despre sistemul de gestionare a cazurilor și integrarea sa cu platforma SeaX, urmează webinar-ul nostru despre acest subiect:
+If you’d like to see a more in-depth walkthrough of the case management system and how it integrates with the SeaX platform, please watch our webinar on the subject:
 
-<iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube 影片播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+<iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Mulțumim că ți-ai dedicat timpul să citești despre cum sistemul de gestionare a cazurilor SeaX își susține agenții în interacțiunile cu clienții. Urmărește următorul nostru articol de blog care va explora în detaliu procesul de trimitere a SMS-urilor în lot folosind platforma SeaX. Dacă ești interesat să afli mai multe imediat, completează [formularul nostru de programare demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a experimenta personal platforma SeaX. 
+Vă mulțumim că v-ați acordat timp pentru a citi despre modul în care sistemul de gestionare a cazurilor SeaX sprijină agenții dvs. în interacțiunea cu clienții dvs. Vă rugăm să rămâneți pe fază pentru următoarea noastră postare pe blog, care va aprofunda procesul de trimitere a mesajelor SMS în masă folosind platforma SeaX. Dacă sunteți interesat să aflați mai multe imediat, completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a arunca o privire directă asupra platformei SeaX.

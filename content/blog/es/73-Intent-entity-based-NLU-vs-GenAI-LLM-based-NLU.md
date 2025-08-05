@@ -4,7 +4,7 @@ metatitle: "NLU basado en intenciones/entidades vs. NLU basado en Gen..."
 date: 2024-03-14T00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: "Descubra el futuro de la IA conversacional: por qué el cambio de NLU basado en intenciones/entidades a NLU basado en GenAI/LLM es crucial para la e..."
+description: "Descubra el futuro de la IA conversacional: por qué el cambio de NLU basado en intenciones/entidades a NLU basado en GenAI/LLM es crucial para la escalabilidad, la rentabilidad y la adaptabilidad."
 weight: 1
 tags:
   - "SeaChat"

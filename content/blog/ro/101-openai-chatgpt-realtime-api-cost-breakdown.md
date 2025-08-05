@@ -1,20 +1,21 @@
 ---
-title: "OpenAI vs oameni vs Voice AI: Comparația costurilor (5/5)"
-metatitle: "OpenAI Realtime API vs oameni și Voice AI: Defalcarea costurilor"
+title: "OpenAI vs. Om vs. Inteligență Artificială Vocală: O comparație a costurilor (5/5)"
+metatitle: "API-ul în timp real OpenAI vs. Om și Inteligență Artificială Vocală: Detalierea costurilor"
 date: 2024-10-12T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
 draft: false
 author: Xuchen Yao
-description: "Analiza detaliată a costurilor pentru OpenAI Realtime API vs recepționeri umani și agenți Voice AI."
+description: "O analiză detaliată a costurilor API-ului în timp real al OpenAI în comparație cu recepționerii umani și agenții de inteligență artificială vocală."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat", "Voice AI"]
+tags: ["Serviciu de răspuns automat", "Apeluri primite pentru întreprinderi mici", "SeaChat",  "Inteligență artificială vocală"]
 toc: true
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
 canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
 url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
+
 ---
 
-*Această serie de 5 articole explorează strategiile de comunicare cu clienții pentru întreprinderile mici, concentrându-se pe serviciile de răspuns telefonic:*
+
+*Aceasta este o serie de 5 articole care explorează strategiile de comunicare cu clienții pentru întreprinderile mici, cu accent pe serviciile de răspuns:*
 
 <br/>
 
@@ -23,161 +24,170 @@ url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
 
 </center>
 
-1. [De ce întreprinderile mici au nevoie de servicii de răspuns telefonic?](https://seasalt.ai/blog/96-why-small-businesses-need-answering-service/): Înțelegeți importanța și beneficiile serviciilor de răspuns telefonic.
+1. [De ce au nevoie întreprinderile mici de un serviciu de răspuns?](https://seasalt.ai/blog/96-why-small-businesses-need-answering-service/): Descoperiți importanța și beneficiile serviciilor de răspuns.
 
-2. [Recepționeri live externi vs interni](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): Ce sunt recepționerii live? Ar trebui să externalizați sau să angajați intern?
+2. [Externalizare vs. recepționeri live interni](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): Ce sunt recepționerii live? Ar trebui să externalizați sau să angajați intern?
 
-3. [Sisteme automate de răspuns telefonic (IVR interactiv vs agenți Voice AI)](https://seasalt.ai/blog/98-inbound-answering-automated-system/): Ce sunt serviciile de răspuns automate? Ar trebui să folosiți IVR interactiv sau agenți Voice AI?
+3. [Sisteme automate de răspuns telefonic (Răspuns vocal interactiv IVR vs. agenți de inteligență artificială vocală)](https://seasalt.ai/blog/98-inbound-answering-automated-system/): Ce este un serviciu de răspuns automat? Ar trebui să utilizați Răspuns vocal interactiv sau agenți de inteligență artificială vocală?
 
-4. [Decizia: Întreprinderea mea mică ar trebui să folosească recepționeri live sau servicii de răspuns automate?](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): Ați învățat totul despre serviciile de răspuns din seria noastră de articole. Acum este timpul să decideți ce tip de serviciu se potrivește cel mai bine afacerii dvs.
+4. [Decizie: Ar trebui ca întreprinderile mele mici să utilizeze recepționeri live sau servicii de răspuns automate?](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): Ați învățat totul despre serviciile de răspuns din seria noastră. Acum este timpul să decideți ce tip de serviciu este cel mai bun pentru afacerea dvs.
 
-5. (Acest articol) [OpenAI vs oameni vs Voice AI: Comparația costurilor](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/): Vreți să știți dacă ar trebui să treceți la cea mai recentă tehnologie Voice AI? Să vedem costurile reale.
+5. (Acest articol) [OpenAI vs. Om vs. Inteligență Artificială Vocală: O comparație a costurilor](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/): Vă întrebați dacă ar trebui să treceți la cea mai recentă tehnologie de inteligență artificială vocală? Să aruncăm o privire la costurile reale.
 
 ---
 
 ## TLDR:
 
-1. Atât OpenAI, cât și oamenii pot fi **costisitori**:
-   1. API-ul Realtime OpenAI poate oferi experiența de agent vocal (AI) la aproximativ **1$ pe minut**.
-   2. Recepționerii virtuali la cerere (oameni) costă și ei aproximativ **1$ pe minut**.
-2. Dar există și opțiuni **echilibrate**, cu avertismente:
-   1. Agenții umani cu engleză fluentă pot costa doar **5$ pe oră** (0,08$ pe minut) când sunt angajați pe termen lung.
-   2. Agenții Voice AI oferiți de startup-uri pot costa doar **7,2$ pe oră** (0,12$ pe minut).
+1. Atât OpenAI, cât și oamenii pot fi **scumpi**:  
+   1. API-ul în timp real al OpenAI poate permite o experiență de agent vocal (AI) la aproximativ **1 USD pe minut.**  
+   2. Recepționerii virtuali la cerere (umani) au, de asemenea, un preț de aproximativ **1 USD pe minut.**  
+2. Dar există alegeri **echilibrate** cu avertismente:  
+   1. Atunci când sunt angajați pe termen lung, agenții umani cu o engleză bună pot costa doar 5 USD pe **oră** (0,08 USD pe minut).  
+   2. Agenții de inteligență artificială vocală oferiți de startup-uri pot costa doar 7,2 USD pe **oră** (0,12 USD pe minut).
 
-*Dacă preferați să ascultați versiunea audio a acestui articol, urmăriți acest videoclip:*
+*Dacă preferați să ascultați o versiune audio a acestui articol, iată videoclipul:*
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=DgX6F711ceA&list=PL8K7_LTqly46agqJW2quG5Vsylt5os1Al" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-## Costul real al API-ului ChatGPT-4o Realtime
 
-OpenAI a lansat [API-ul Realtime](https://openai.com/index/introducing-the-realtime-api/) pentru ChatGPT-4o pe 1 octombrie 2024. Aceasta a fost la 5 luni după lansarea [GPT-4o](https://openai.com/index/hello-gpt-4o/) (primul model de limbaj mare multimodal). Performanța este uimitoare. Chatgpt-4o-realtime sună ca un om, răspunde ca un om și este robust la zgomot și întreruperi.
+## Costul real al API-ului în timp real al ChatGPT-4o
 
-Cu toate acestea, chatgpt-4o-realtime este accesibil ca preț?
+OpenAI a lansat [API-ul său în timp real](https://openai.com/index/introducing-the-realtime-api/) pentru ChatGPT-4o la 1 octombrie 2024. Aceasta este la 5 luni după lansarea [GPT-4o](https://openai.com/index/hello-gpt-4o/), primul model lingvistic mare omnicanal. Performanța este uimitoare. Chatgpt-4o-realtime sună ca un om, răspunde ca un om și este robust la zgomote și întreruperi.
 
-La prima vedere, API-ul Realtime OpenAI *pentru text* pare să fie de aproximativ 30 de ori mai scump decât GPT-4o-mini (**5$ vs. 0,15$** / 1M tokeni de intrare).
+Cu toate acestea, este ChatGPT-4o-realtime accesibil?
 
-<br/>
-
-<center>
-<div style="background-color: #ffffff;">
-<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/October 2024 pricing for chatgpt-4o-mini.png"  alt="Prețurile din octombrie 2024 pentru chatgpt-4o-mini">
-</div>
-
-*Prețurile din octombrie 2024 pentru chatgpt-4o-realtime*
-</center>
+La prima vedere, API-ul în timp real al OpenAI pare de aproximativ 30 de ori mai scump decât GPT-4o-mini *în text* (**5 USD vs. 0,15 USD** / 1 milion de jetoane de intrare).
 
 <br/>
 
 <center>
 <div style="background-color: #ffffff;">
-<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/October 2024 pricing for chatgpt-4o-realtime.png"  alt="Prețurile din octombrie 2024 pentru chatgpt-4o-realtime">
+<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/October 2024 pricing for chatgpt-4o-mini.png"  alt="Prețuri din octombrie 2024 pentru chatgpt-4o-mini">
 </div>
 
-*Prețurile din octombrie 2024 pentru chatgpt-4o-mini*
+*Prețuri din octombrie 2024 pentru chatgpt-4o-realtime*
 </center>
-
-OpenAI susține că intrarea audio costă aproximativ 0,06$ pe minut, iar ieșirea audio costă 0,24$ pe minut. Adăugând acestea, nu ar trebui să depășească 0,30$ pe minut, nu?
-
-Am testat efectiv API-ul 4o-realtime și am descoperit că costă aproximativ 1$ pe minut.
 
 <br/>
 
 <center>
 <div style="background-color: #ffffff;">
-<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/Screenshot of the cost for one test of the ChatGPT-4o Realtime API.png"  alt="Captură de ecran a costului pentru un test al API-ului ChatGPT-4o Realtime">
+<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/October 2024 pricing for chatgpt-4o-realtime.png"  alt="Prețuri din octombrie 2024 pentru chatgpt-4o-realtime">
 </div>
 
-*Captură de ecran a costului pentru un test al API-ului ChatGPT-4o Realtime*
+*Prețuri din octombrie 2024 pentru chatgpt-4o-mini*
 </center>
 
-Am avut o conversație vocală de 5 minute cu API-ul chatgpt-4o-realtime și am descoperit că a costat 5,38$. Conversația vocală de 5 minute a inclus aproximativ 142 de secunde de transcriere audio (pe care le puteți considera ca intrare audio), restul fiind în mare parte ieșire audio.
 
-Într-un alt test pe care l-am efectuat, o conversație simplă de 10 minute a costat aproximativ 10$.
+OpenAI susține că costă aproximativ 0,06 USD pe minut pentru intrarea audio și 0,24 USD pe minut pentru ieșirea audio. Adunarea acestora sugerează că nu ar trebui să depășească 0,30 USD pe minut, nu?
 
-Uau, este costisitor. Este de fapt de aproximativ 10 ori mai scump decât [propriul nostru agent vocal Seasalt.ai](https://chat.seasalt.ai/en-us#pricing?utm_source=blog/).
+Am efectuat un test în lumea reală al API-ului 4o-realtime și am constatat că costă aproximativ 1 USD pe minut.
 
-Dacă unii dezvoltatori doar testează API-ul și încearcă să investească eforturi semnificative pentru a antrena un agent vocal AI care poate face lucruri reale, pot cheltui cu ușurință sute de dolari într-o singură zi!
-
-## API-ul ChatGPT-4o Realtime vs agenții umani – Care este mai accesibil?
-
-Deci, dacă cineva folosește API-ul Realtime ChatGPT-4o pentru a construi un agent vocal AI, costă aproximativ 1$ pe minut, adică **60$ pe oră**.
-
-### Care este costul agenților umani?
-
-Dacă folosiți personal intern, cum ar fi recepționeri, salariile lor pot varia de la salariul minim (federal 7,25$ până la California 16$) la 20$ până la 30$ pe oră.
-
-Dacă folosiți agenții externalizate, prețurile pot varia: unele încep de la 349$ pentru 200 de minute lunar, plus taxa de configurare. Seasalt.ai a scris o anchetă detaliată despre aceasta: [Costul recepționerilor live: Intern vs extern](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/?utm_source=crossblog).
 
 <br/>
 
 <center>
-<img height="100%" width="100%" src="/images/blog/97-live-receptionist-inhouse-outsourced/vendor-summary.png"  alt="Rezumatul furnizorilor de recepționeri live">
+<div style="background-color: #ffffff;">
+<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/Screenshot of the cost for one test of the ChatGPT-4o Realtime API.png"  alt="Captură de ecran a costului pentru un test al API-ului în timp real ChatGPT-4o">
+</div>
 
-*Rezumatul furnizorilor de recepționeri live Seasalt.ai*
+*Captură de ecran a costului pentru un test al API-ului în timp real ChatGPT-4o*
 </center>
 
-## API-ul ChatGPT-4o Realtime vs alți agenți Voice AI – Care sunt diferențele?
 
-API-ul Realtime ChatGPT-4o reprezintă un progres semnificativ în tehnologia Voice AI și are câteva diferențe cheie față de alți agenți Voice AI:
+Am purtat o conversație vocală de 5 minute cu API-ul chatgpt-4o-realtime și am constatat că a costat 5,38 USD. Conversația vocală de 5 minute are aproximativ 142 de secunde de audio transcris (gândiți-vă la el ca la o intrare audio), restul fiind în mare parte ieșire audio.
 
-- **Viteza de răspuns**: Oferă interacțiuni aproape instantanee, cu timpul mediu de răspuns de 2-3 secunde
-- **Robustețea**: API-ul permite întreruperi și redirecționări în timpul conversației, permițând un flux de conversație mai natural
-- **End-to-end**: API-ul nu necesită să puneți împreună componente diferite (cum ar fi speech-to-text (Azure, Deepgram etc.) și text-to-speech (Azure, Eleven labs)).
+Într-un alt test pe care l-am făcut, o conversație simplă de 10 minute a costat aproximativ 10 USD.
 
-Dar avertismentul aici este costul: API-ul Realtime ChatGPT-4o costă aproximativ 1$ pe minut, în timp ce alți [agenți Voice AI costă doar 0,12$ pe minut](https://seasalt.ai/blog/98-inbound-answering-automated-system/?utm_source=crossblog).
+Vai, e scump. Este de fapt de aproximativ [de 10 ori mai scump decât agenții vocali proprii ai Seasalt.ai](https://chat.seasalt.ai/en-us#pricing?utm_source=blog).
+
+Dacă unii dezvoltatori testează doar API-ul și încearcă să depună un efort semnificativ pentru a antrena un agent de inteligență artificială vocală care chiar face ceva, pot cheltui cu ușurință sute de dolari într-o zi!
+
+## API-ul în timp real al ChatGPT-4o vs. agenți umani – care este mai accesibil?
+
+Deci, dacă cineva ar construi un agent de inteligență artificială vocală folosind API-ul în timp real al ChatGPT-4o, ar costa aproximativ 1 USD pe minut, sau **60 USD pe oră**.
+
+### Cât costă un agent uman?
+
+Dacă utilizați unul intern, cum ar fi un recepționer de la recepție, acesta ar putea fi oriunde între salariul minim (7,25 USD federal la 16 USD în California) până la poate 20 USD până la 30 USD pe oră.
+
+Dacă utilizați o agenție externalizată, prețul poate varia: unii încep de la 349 USD/lună pentru 200 de minute plus taxa de instalare. Seasalt.ai a scris un sondaj detaliat în acest sens: [Costul recepționerilor live: intern vs. externalizare](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/?utm_source=crossblog).
+
 
 <br/>
 
 <center>
-<img height="100%" width="100%" src="/images/blog/98-inbound-answering-automated-system/ai-product-comparison.png"  alt="Comparația produselor Voice AI Seasalt.ai vs Bland AI vs Smith.ai. Synthflow.ai vs Retell AI vs Slang AI vs Gridspace">
+<img height="100%" width="100%" src="/images/blog/97-live-receptionist-inhouse-outsourced/vendor-summary.png"  alt="Rezumatul furnizorului de recepționeri live">
 
-*Comparația produselor Voice AI Seasalt.ai*
+*Rezumatul furnizorului de recepționeri live de către Seasalt.ai*
 </center>
 
-Prețul diferă de 10 ori, dar performanța diferă și ea de 10 ori? Aceasta este pentru clienți să judece.
+## API-ul în timp real al ChatGPT-4o vs. alți agenți de inteligență artificială vocală – care este diferența?
 
-## Concluzie
+API-ul în timp real al ChatGPT-4o reprezintă un progres semnificativ în tehnologia de inteligență artificială vocală, oferind câteva diferențe cheie în comparație cu alți agenți de inteligență artificială vocală:
 
-Pentru proprietarii de întreprinderi, există în esență 4 opțiuni:
+- **Reactivitate**: oferă interacțiuni aproape în timp real, cu timpi de răspuns medii de 2 până la 3 secunde
+- **Robustețe**: API-ul permite întreruperi și redirecționări în timpul conversațiilor, permițând un flux de dialog mai natural
+- **De la un capăt la altul**: API-ul nu necesită lipirea diferitelor componente, cum ar fi vorbire în text (Azure, Deepgram etc.) și text în vorbire (Azure, Eleven labs).
+
+Dar avertismentul aici este costul: API-ul în timp real al ChatGPT-4o costă aproximativ 1 USD pe minut, în timp ce alți [agenți de inteligență artificială vocală pot costa doar 0,12 USD pe minut](https://seasalt.ai/blog/98-inbound-answering-automated-system/?utm_source=crossblog).
+
+<br/>
+
+<center>
+<img height="100%" width="100%" src="/images/blog/98-inbound-answering-automated-system/ai-product-comparison.png"  alt="Seasalt.ai vs. Bland AI vs. Smith.ai . Synthflow.ai vs. Retell AI vs. Slang AI vs. Gridspace pentru agenți de inteligență artificială vocală">
+
+*Comparația produselor agentului de inteligență artificială vocală de către Seasalt.ai*
+</center>
+
+
+Există o diferență de 10 ori în preț, dar există o diferență de 10 ori în performanță? Asta trebuie să judece clientul.
+
+## Verdict
+
+Pentru proprietarii de afaceri, există practic 4 opțiuni:
 
 1. **Agenți umani interni**
-2. **Externalizarea către alte companii**, fie în țară, fie în străinătate
-3. **Folosirea agenților Voice AI accesibili**
-4. **Construirea cu API-ul Realtime OpenAI cel mai avansat/costisitor**
+2. **Externalizare către o altă companie**, fie pe uscat, fie în larg
+3. **Utilizați un agent de inteligență artificială vocală accesibil**
+4. **Construiți cu cel mai avansat/scump API în timp real OpenAI**
 
-Am rezumat diversele avantaje și dezavantaje ale diferitelor opțiuni:
+Am rezumat mai jos diversele argumente pro și contra ale diferitelor opțiuni:
 
-* **API-ul Realtime OpenAI** oferă cea mai rapidă și naturală experiență, dar necesită expertiză tehnică și este costisitor.
-* **Agenții umani la cerere în țară** sunt buni la gestionarea sarcinilor de bază cu engleză fluentă, dar au integrare limitată.
-* **Agenții umani externi pe termen lung** sunt cei mai accesibili, dar pot fi nesiguri din cauza problemelor de infrastructură și ratei mari de rotație a personalului.
-* **Agenții Voice AI integrați** oferă un echilibru între cost, funcționalitate și ușurința de utilizare, dar pot avea răspunsuri puțin mai lente și câteva probleme de integrare.
+* **API-ul în timp real OpenAI** oferă cea mai rapidă și mai naturală experiență, dar necesită expertiză tehnică și este scump.   
+* **Agenții umani la cerere pe uscat** sunt buni pentru sarcini de bază în engleză perfectă, dar au o integrare limitată.   
+* **Agenții umani pe termen lung în larg** sunt cei mai accesibili, dar pot fi nesiguri din cauza problemelor de infrastructură și a fluctuației mari de personal.   
+* **Agenții de inteligență artificială vocală integrați** oferă un echilibru între cost, caracteristici și ușurință în utilizare, dar pot fi puțin mai puțin reactivi și pot avea ciudățenii de integrare.
 
 <br/>
 
 <center>
-<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/options-for-phone-answer-services.png"  alt="Diferite opțiuni pentru serviciile de răspuns telefonic: Oameni vs OpenAI vs startup-uri Voice AI">
+<img height="100%" width="100%" src="/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/options-for-phone-answer-services.png"  alt="Diferite opțiuni pentru serviciile de răspuns telefonic: om vs. OpenAI vs. startup-uri de inteligență artificială vocală">
 
-*Diferite opțiuni pentru serviciile de răspuns telefonic: Oameni vs OpenAI vs startup-uri Voice AI*
+*Diferite opțiuni pentru serviciile de răspuns telefonic: om vs. OpenAI vs. startup-uri de inteligență artificială vocală*
 </center>
 
-Ca practician în domeniul recunoașterii vocale și procesării limbajului natural, cele două centuri ale mele sunt:
+Ca practician în domeniul recunoașterii vorbirii și al procesării limbajului natural, părerea mea este:
 
-1. Folosiți agenții Voice AI integrați de pe piață, cum ar fi [agenții pe care îi construiesc cu mândrie cu SeaChat](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/?utm_source=blog/). Sunt maturi și accesibili.
-2. Dă-i API-ului Realtime OpenAI încă un an, lasă cobaii să-l testeze, sperând că prețul va scădea la 10$/oră mai accesibil, atunci **va deveni cu adevărat uimitor**. Atenție, agenții umani!
+1. Utilizați agenții de inteligență artificială vocală integrați de pe piață, cum ar fi [cel pe care l-am construit cu mândrie cu SeaChat](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/?utm_source=blog). Sunt maturi și accesibili.  
+2. Acordați încă un an API-ului în timp real OpenAI pentru ca cobaii să-l testeze și, sperăm, prețul va scădea la un preț mai accesibil de 10 USD/oră, apoi **va deveni cu adevărat uimitor**. Atenție, agenți umani!
+
 
 ## Aflați mai multe
-Dacă doriți să explorați mai întâi tehnologiile AI vocale pentru serviciul pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau [programați o demonstrație cu noi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Dacă doriți să explorați mai întâi tehnologia de inteligență artificială vocală pentru servicii pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau puteți [rezerva o demonstrație cu noi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+
 
 ## Despre această serie
 
-*Această serie de 5 articole explorează strategiile de comunicare cu clienții pentru întreprinderile mici, concentrându-se pe serviciile de răspuns telefonic:*
+*Aceasta este o serie de 5 articole care explorează strategiile de comunicare cu clienții pentru întreprinderile mici, cu accent pe serviciile de răspuns:*
 
-- [De ce întreprinderile mici au nevoie de servicii de răspuns telefonic?](https://seasalt.ai/blog/96-why-small-businesses-need-answering-service/): Înțelegeți importanța și beneficiile serviciilor de răspuns telefonic.
+- [De ce au nevoie întreprinderile mici de un serviciu de răspuns?](https://seasalt.ai/blog/96-why-small-businesses-need-answering-service/): Descoperiți importanța și beneficiile serviciilor de răspuns.
 
-- [Recepționeri live externi vs interni](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): Ce sunt recepționerii live? Ar trebui să externalizați sau să angajați intern?
+- [Externalizare vs. recepționeri live interni](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): Ce sunt recepționerii live? Ar trebui să externalizați sau să angajați intern?
 
-- [Sisteme automate de răspuns telefonic (IVR interactiv vs agenți Voice AI)](https://seasalt.ai/blog/98-inbound-answering-automated-system/): Ce sunt serviciile de răspuns automate? Ar trebui să folosiți IVR interactiv sau agenți Voice AI?
+- [Sisteme automate de răspuns telefonic (Răspuns vocal interactiv IVR vs. agenți de inteligență artificială vocală)](https://seasalt.ai/blog/98-inbound-answering-automated-system/): Ce este un serviciu de răspuns automat? Ar trebui să utilizați IVR robotic sau agenți de inteligență artificială vocală?
 
-- [Decizia: Întreprinderea mea mică ar trebui să folosească recepționeri live sau servicii de răspuns automate?](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): Ați învățat totul despre serviciile de răspuns din seria noastră de articole. Acum este timpul să decideți ce tip de serviciu se potrivește cel mai bine afacerii dvs.
+- [Decizie: Ar trebui ca întreprinderile mele mici să utilizeze recepționeri live sau servicii de răspuns automate?](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): Ați învățat totul despre serviciile de răspuns din seria noastră. Acum este timpul să decideți ce tip de serviciu este cel mai bun pentru afacerea dvs.
 
-- (Acest articol) [OpenAI vs oameni vs Voice AI: Comparația costurilor](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/): Cea mai recentă tehnologie Voice AI OpenAI este un agent Voice AI minunat. Care sunt costurile reale? 
+- (Acest articol) [OpenAI vs. Om vs. Inteligență Artificială Vocală: O comparație a costurilor](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/): Cea mai recentă tehnologie de inteligență artificială vocală de la OpenAI este un agent de inteligență artificială vocală excelent. Care este costul real?
+

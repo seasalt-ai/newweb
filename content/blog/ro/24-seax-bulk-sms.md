@@ -1,125 +1,121 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
-date: 2022-09-09 11:05:22-07:00
-description: În acest blog, vom arăta cum funcția de SMS-uri în lot SeaX permite agenților
-  să trimită mesaje de ieșire proactiv prin text.
+title: "SeaX Bulk SMS: Pentru o comunicare cu clienții mai rapidă și mai eficientă"
+date: 2022-09-09T11:05:22-07:00
 draft: false
+author: Amy Chen, Kim Dodds, Sarah Reid
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SMS-uri în lot SeaX: extinderea clienților mai rapidă și mai...'
-modified_date: 2024-12-19 10:30:00+00:00
-tags:
-- SeaX
-title: 'SMS-uri în lot SeaX: extinderea clienților mai rapidă și mai eficientă'
-url: /blog/seax-bulk-sms/
+description: "În acest blog, vom arăta cum funcția Bulk SMS a SeaX permite agenților să trimită proactiv mesaje outbound prin text."
 weight: 1
+tags: ["SeaX"]
+canonicalURL: "/blog/seax-bulk-sms/"
+url: "/blog/seax-bulk-sms/"
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-
-*În articolele noastre anterioare de blog, am introdus câteva dintre funcțiile principale SeaX (inclusiv [inteligența vocală](https://seasalt.ai/blog/21-seax-voice-intelligence/), [baza de cunoștințe](https://seasalt.ai/blog/22-seax-knowledge-base/) și [gestionarea cazurilor](https://seasalt.ai/blog/23-seax-case-management/)) care ajută agenții să proceseze mai bine apelurile și mesajele de intrare. În acest blog, vom arăta cum funcția de SMS-uri în lot SeaX permite agenților să trimită mesaje de ieșire proactiv prin text, iar destinatarii acestor mesaje s-au dovedit a deschide mai rapid și mai consecvent decât comunicarea tradițională prin email.*
+*În postările noastre anterioare de pe blog, am parcurs câteva dintre caracteristicile cheie ale SeaX (inclusiv [Inteligența vocală](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Baza de cunoștințe](https://seasalt.ai/blog/22-seax-knowledge-base/) și [Gestionarea cazurilor](https://seasalt.ai/blog/23-seax-case-management/)) care ajută agenții să gestioneze mai bine apelurile și mesajele primite. În acest blog, vom arăta cum funcția Bulk SMS a SeaX permite agenților să trimită proactiv mesaje outbound prin text, pe care destinatarii le deschid mai repede și mai constant decât comunicările tradiționale prin e-mail.*
 
 # Cuprins
-- [SMS vs email](#sms-vs-email)
-- [Standardele 10DLC](#10dlc-standards)
-- [SMS-uri în lot SeaX](#seax-bulk-sms)
-    - [Încărcarea contactelor](#contact-upload)
-    - [Compunerea mesajului](#message-composition)
-    - [Estimarea costului](#cost-estimate)
-    - [Previzualizarea mesajelor în lot](#bulk-message-preview)
-    - [Monitorizarea progresului campaniei](#campaign-progress-monitoring)
-    - [Chat pentru mesajele de intrare](#incoming-message-chat)
+- [SMS vs. E-mail](#sms-vs-e-mail)
+- [Standarde 10DLC](#10dlc-standards)
+- [SeaX Bulk SMS](#seax-bulk-sms)
+    - [Încărcare contacte](#contact-upload)
+    - [Compoziție mesaj](#message-composition)
+    - [Estimare cost](#cost-estimate)
+    - [Previzualizare mesaj în masă](#bulk-message-preview)
+    - [Monitorizare progres campanie](#campaign-progress-monitoring)
+    - [Chat mesaje primite](#incoming-message-chat)
 - [Încheiere](#closing)
 
-# SMS vs email
+# SMS vs. E-mail
 
-Email-ul tinde să fie modul implicit de comunicare pentru majoritatea operațiunilor de afaceri. Până de curând, SMS-urile, deși populare în comunicarea interpersonală de zi cu zi, nu erau utilizate pe scară largă pentru mesajele comerciale în lot. Cu toate acestea, în ultimii ani, furnizorii de comunicare cloud precum Twilio au făcut canalul SMS mai accesibil pentru companii prin gestionarea sarcinilor greoaie ale infrastructurii de telecomunicații și furnizorilor de servicii din backend și oferirea unui API SMS simplu ca serviciu pentru clienți. Deși email-ul poate rămâne cel mai popular canal pentru companii, SMS-urile pot oferi un complement unic comunicării tradiționale prin email.
-
-<center>
-<img src="/images/blog/24-seax-bulk-sms/1-pros-cons.png" alt="Câteva avantaje și dezavantaje ale SMS-urilor în comunicarea comercială."/>
-
-*Câteva avantaje și dezavantaje ale SMS-urilor în comunicarea comercială.*
-</center>
-
-Dar dacă email-ul s-a dovedit a fi de succes, de ce să folosești SMS-uri? Dacă luăm ca exemplu o campanie de marketing, răspunsul scurt este: în timp ce campaniile de email au doar o rată de deschidere de 20%, SMS-urile pot avea o rată medie de deschidere de până la *98%*—să nu mai menționăm că SMS-urile tind să primească mai multe răspunsuri. În plus, SMS-urile sunt de obicei deschise în 90 de secunde de la primire, în timp ce email-urile sunt de obicei deschise la aproximativ 90 de minute de la primire. În final, dar nu mai puțin important, SMS-urile au o rată medie de click de aproximativ 19%, mult mai mare decât 3,2% pentru email-uri ([sursă](https://manychat.com/blog/sms-vs-email-marketing-2021/)).
-
-În general, SMS-urile sunt deschise mai rapid și mai frecvent decât email-urile—probabil pentru că SMS-urile sunt întotdeauna livrate direct destinatarului, indiferent de unde se află și dacă au Wi-Fi. În plus, deoarece SMS-urile sunt de obicei folosite pentru mesaje personale și mai puțin pentru comunicarea comercială, destinatarii ar putea considera SMS-urile mai importante sau mai substanțiale decât email-urile.
-
-Deci de ce nu folosește toată lumea SMS-uri? Desigur, există avantaje și dezavantaje. În mod natural, SMS-urile sunt mult mai scumpe decât email-urile, deoarece se bazează pe infrastructura de telecomunicații și furnizorii de servicii (cum ar fi Verizon, AT&T etc.) pentru a livra mesajele. În plus, SMS-urile au o limită dură de aproximativ 900 de caractere și un singur atașament (care, desigur, costă suplimentar). Prin urmare, în general, deși SMS-urile pot fi o modalitate mai eficientă de comunicare, în echilibru, companiile trebuie să fie mai selective în ceea ce trimit pentru a-și asigura eficiența costurilor.
-
-Cu toate acestea, nu există niciun motiv pentru care SMS-urile și email-urile să nu poată fi folosite împreună! Fiecare canal are propriile avantaje și dezavantaje, astfel încât companiile pot asigura că trimit comunicarea cea mai eficientă prin exploatarea punctelor forte ale fiecărui canal.
-
-# Standardele 10DLC
-
-Pentru trimiterea SMS-urilor A2P (aplicație către persoană) în volum mare, operatorii de telecomunicații din SUA folosesc coduri lungi standardizate de 10 cifre, sau 10DLC. Înainte de a începe o campanie de SMS-uri în lot, îți recomandăm să citești mai multe despre 10DLC și aplicațiile sale [aici](https://support.twilio.com/hc/en-us/articles/1260800720410-What-is-A2P-10DLC-).
-
-# SMS-uri în lot SeaX
-
-Serviciul de SMS-uri în lot SeaX îți permite să încarci ușor contacte/lead-uri, să trimiți SMS-uri în lot (suportăm și MMS - mesaje multimedia) și să gestionezi răspunsurile primite. Continuă să citești pentru a afla câțiva pași simpli pentru a-ți începe prima campanie de SMS-uri în lot.
-
-## Încărcarea contactelor
+E-mailul tinde să fie modul de comunicare de facto pentru majoritatea operațiunilor de afaceri. Până de curând, mesageria text (SMS) nu era un canal de comunicare utilizat pe scară largă pentru mesageria de afaceri în masă, în ciuda popularității sale pentru comunicarea interpersonală zilnică. Cu toate acestea, în ultimii ani, furnizorii de comunicații cloud, cum ar fi Twilio, au făcut canalul SMS mult mai accesibil pentru afaceri, gestionând detaliile infrastructurii de telecomunicații și ale furnizorilor de servicii în backend și oferind un API SMS simplu ca serviciu clienților. Deși e-mailul poate rămâne cel mai popular canal pentru afaceri, SMS-ul poate oferi o completare unică comunicărilor tradiționale prin e-mail.
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/2-contact-upload.png" alt="Încărcarea listei de contacte în SMS-urile în lot SeaX."/>
+<img src="/images/blog/24-seax-bulk-sms/1-pros-cons.png" alt="Câteva dintre avantajele și dezavantajele SMS-ului pentru comunicațiile de afaceri."/>
 
-*Încărcarea listei de contacte în SMS-urile în lot SeaX.*
+*Câteva dintre avantajele și dezavantajele SMS-ului pentru comunicațiile de afaceri.*
 </center>
 
-Primul pas este să încarci contactele și lead-urile. Mai întâi, organizează-ți contactele pentru campania de SMS-uri într-un fișier CSV. În plus față de câmpurile obligatorii `phone_number` și `name`, poți adăuga și alte câmpuri și să le folosești în corpul mesajului. De exemplu, poți schimba dinamic corpul mesajului pentru a include numele destinatarului pe baza câmpului `name` al fiecărui contact.
+Dar de ce să folosiți SMS-ul dacă e-mailul s-a dovedit a fi de succes? Dacă luăm campaniile de marketing ca exemplu, răspunsul scurt este: în timp ce rata de deschidere pentru o campanie de e-mail este de doar 20%, rata medie de deschidere pentru SMS poate fi de până la *98%* - ca să nu mai vorbim că mesajele text tind să primească mai multe răspunsuri. În plus, mesajele text sunt de obicei deschise în 90 de secunde de la primire, în timp ce e-mailurile tind să fie deschise în jurul a 90 de minute. Nu în ultimul rând, SMS-ul are o rată medie de clic de aproximativ 19%, semnificativ mai mare decât 3,2% pentru e-mailuri ([sursă](https://manychat.com/blog/sms-vs-email-marketing-2021/)).
 
-Apoi, doar deschide serviciul de SMS-uri în lot în SeaX și apasă "Import" pentru a-ți încărca contactele. Vom păstra toate contactele tale anterioare în lista de destinatari pentru a-ți permite să lansezi ușor campanii ulterioare.
+În general, mesajele text sunt deschise mai repede și mai frecvent decât e-mailurile - probabil pentru că textele sunt întotdeauna livrate direct destinatarului oriunde s-ar afla, indiferent dacă au sau nu wifi. De asemenea, deoarece SMS-ul este utilizat de obicei pentru mesaje personale și mai puțin frecvent pentru comunicațiile de afaceri, destinatarii ar putea considera textele mai importante sau mai substanțiale decât e-mailurile.
 
-## Compunerea mesajului
+Deci, de ce nu folosește toată lumea SMS-ul atunci?? Ei bine, desigur că există avantaje și dezavantaje. Natural, SMS-ul este semnificativ mai scump decât e-mailul, deoarece se bazează pe infrastructura de telecomunicații și pe furnizorii de servicii (cum ar fi Verizon, AT&T etc.) pentru a livra mesajele. În plus, mesajele text au o limită strictă de aproximativ 900 de caractere și o singură atașare (care costă în plus, desigur). Deci, în general, deși SMS-ul poate fi o metodă de comunicare semnificativ mai eficientă, compromisul este că afacerile trebuie să fie mai selective în ceea ce privește conținutul pe care îl trimit pentru a se asigura că sunt rentabile.
+
+Acestea fiind spuse, nu există niciun motiv pentru care SMS-ul și e-mailul să nu fie utilizate împreună! Fiecare canal are propriile avantaje și dezavantaje, astfel încât o afacere se poate asigura că trimite cele mai eficiente comunicări profitând de punctele forte ale fiecărui canal.
+
+# Standarde 10DLC
+
+Pentru mesageria A2P (aplicație-persoană) cu volum mare, operatorii din SUA utilizează coduri lungi standardizate de 10 cifre, sau 10DLC. Înainte de a începe o campanie SMS în masă, vă recomandăm să citiți mai multe despre 10DLC și aplicațiile sale [aici](https://support.twilio.com/hc/en-us/articles/1260800720410-What-is-A2P-10DLC-).
+
+# SeaX Bulk SMS
+
+Serviciul Bulk SMS al SeaX vă permite să încărcați cu ușurință contactele/clienții potențiali, să trimiteți SMS-uri (suportăm și MMS - mesaje multimedia) în masă și să gestionați răspunsurile primite. Citiți mai departe pentru a vedea câțiva pași simpli pentru a începe prima dvs. campanie SMS în masă.
+
+## Încărcare contacte
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/3-message-draft.png" alt="Compunerea unui nou SMS folosind SMS-urile în lot SeaX."/>
+<img src="/images/blog/24-seax-bulk-sms/2-contact-upload.png" alt="Încărcarea unei liste de contacte în SeaX Bulk SMS."/>
 
-*Compunerea unui nou SMS.*
+*Încărcarea unei liste de contacte în SeaX Bulk SMS.*
 </center>
 
-Următorul pas este să-ți denumești campania și să compui mesajul. SMS-urile în lot îți permit să accesezi toate informațiile de contact stocate în fișierul CSV/Excel. De exemplu, dacă lista ta de contacte are un câmp numit `name`, poți introduce `{name}` în mesaj și mesajul va prezenta automat numele fiecărui contact în corpul mesajului.
+Primul pas este încărcarea contactelor și a clienților potențiali. Mai întâi, organizați contactele pentru campania dvs. SMS într-un fișier csv. Pe lângă câmpurile obligatorii, `phone_number` și `name`, puteți adăuga alte câmpuri și le puteți utiliza în corpul mesajului. De exemplu, puteți modifica dinamic corpul mesajului pentru a include numele destinatarului pe baza câmpului `name` pentru fiecare contact.
 
-## Estimarea costului
+În continuare, deschideți pur și simplu serviciul Bulk SMS sub SeaX și apăsați „Import” pentru a vă încărca contactele. Salvăm toate contactele dvs. anterioare în lista de destinatari, astfel încât să puteți lansa cu ușurință campanii de urmărire.
+
+## Compoziție mesaj
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/4-cost-estimate.png" alt="Alege numărul de telefon pentru trimitere și obține estimarea costului campaniei folosind SMS-urile în lot SeaX."/>
+<img src="/images/blog/24-seax-bulk-sms/3-message-draft.png" alt="Compunerea unui nou mesaj SMS cu SeaX Bulk SMS."/>
 
-*Alege numărul de telefon pentru trimitere și obține estimarea costului campaniei.*
+*Compunerea unui nou mesaj SMS.*
 </center>
 
-Apoi, alege numărul de telefon pe care vrei să-l folosești pentru a trimite mesajele de ieșire. Dacă nu ai încă un număr de telefon, poți da clic pe "Cotare număr nou" în colțul din dreapta sus pentru a trimite o cerere de cumpărare. Echipa noastră te poate ajuta să cumperi un număr nou 10DLC.
+Următorul pas este să dați un nume campaniei dvs. și să compuneți mesajul. Bulk SMS vă permite să accesați toate informațiile de contact stocate în fișierul dvs. csv/excel. De exemplu, dacă aveți un câmp numit `name` în lista de contacte, puteți tasta `{name}` în mesaj și mesajul va reda automat numele pentru fiecare contact în corpul mesajului.
 
-Poți și să previzualizezi prețul unitar estimat al campaniei. Amintește-ți că atât trimiterea cât și primirea SMS-urilor/MMS-urilor sunt plătite, așa că asigură-te că-ți bugetezi corespunzător.
-
-## Previzualizarea mesajelor în lot
+## Estimare cost
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/5-preview.png" alt="Previzualizează campania de SMS-uri în lot folosind SeaX înainte de trimitere."/>
+<img src="/images/blog/24-seax-bulk-sms/4-cost-estimate.png" alt="Selectarea numerelor de telefon de trimitere și obținerea unei estimări a costului campaniei cu SeaX Bulk SMS."/>
 
-*Previzualizează campania de SMS-uri în lot folosind SeaX înainte de trimitere.*
+*Selectarea numerelor de telefon de trimitere și obținerea unei estimări a costului campaniei.*
 </center>
 
-Poți previzualiza mesajele în lot înainte de trimitere. Este crucial să confirmi conținutul mesajului, numerele de telefon ale destinatarilor și numărul de telefon al expeditorului. Odată ce lansezi campania, nu vei putea retrage mesajele. Pe această pagină, poți previzualiza primele 3 mesaje din campanie, care corespund primelor 3 contacte din lista ta.
+În continuare, alegeți numărul de telefon pe care doriți să îl utilizați pentru a trimite mesajele outbound. Dacă nu aveți încă un număr de telefon, puteți face clic pe „Cotație pentru un număr nou” în colțul din dreapta sus pentru a trimite o cerere de achiziție. Echipa noastră vă poate ajuta să cumpărați noi numere 10DLC.
 
-## Monitorizarea progresului campaniei
+Puteți previzualiza, de asemenea, prețul unitar estimat pentru campanie. Rețineți că atât trimiterea, cât și primirea SMS/MMS costă bani, așa că asigurați-vă că bugetați în consecință.
+
+## Previzualizare mesaj în masă 
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/6-monitor.png" alt="Monitorizează progresul campaniei de SMS-uri în lot folosind SeaX."/>
+<img src="/images/blog/24-seax-bulk-sms/5-preview.png" alt="Previzualizarea unei campanii SMS în masă înainte de a trimite cu SeaX."/>
 
-*Monitorizează progresul campaniei de SMS-uri în lot folosind SeaX.*
+*Previzualizarea unei campanii SMS în masă înainte de a trimite.*
 </center>
 
-În final, poți să te așezi și să monitorizezi progresul campaniei pe dashboard-ul de SMS-uri în lot. Pagina se va actualiza automat și va actualiza statusul campaniei. Poți vedea pe această pagină statusul livrării mesajelor, rata de succes/livrare, costul estimat și rata de răspuns.
+Puteți previzualiza mesajele în masă înainte de a le trimite. Este vital să confirmați corpul mesajului, numărul de telefon al destinatarilor și numărul de telefon al expeditorului. Odată ce lansați campania, nu va fi posibil să retrageți mesajele. Pe această pagină, puteți previzualiza primele 3 mesaje din campania dvs., care corespund primelor 3 contacte din lista dvs.
 
-## Chat pentru mesajele de intrare
+## Monitorizare progres campanie
 
 <center>
-<img src="/images/blog/24-seax-bulk-sms/7-chat.png" alt="Gestionează răspunsurile la mesajele de intrare pentru campania de SMS-uri în lot folosind SeaX."/>
+<img src="/images/blog/24-seax-bulk-sms/6-monitor.png" alt="Monitorizarea progresului unei campanii SMS în masă cu SeaX."/>
 
-*Gestionează răspunsurile la mesajele de intrare pentru campania de SMS-uri în lot folosind SeaX.*
+*Monitorizarea progresului unei campanii SMS în masă.*
 </center>
 
-Ca și toate funcțiile SeaX, ne străduim să împuternicim agenții sau managerii de campanii să gestioneze cereri/probleme de intrare—SMS-urile în lot permit și SeaX să gestioneze munca de marketing de ieșire. După lansarea campaniei, poți gestiona toate răspunsurile de intrare în fereastra de chat arătată mai jos.
+În cele din urmă, vă puteți relaxa și monitoriza progresul campaniei pe tabloul de bord Bulk SMS. Pagina se reîmprospătează automat și actualizează starea campaniei. Puteți vizualiza stările de livrare a mesajelor, rata de succes/livrare, costurile estimate, precum și rata de răspuns pe această pagină.
+
+## Chat mesaje primite
+
+<center>
+<img src="/images/blog/24-seax-bulk-sms/7-chat.png" alt="Gestionarea răspunsurilor primite dintr-o campanie SMS în masă cu SeaX."/>
+
+*Gestionarea răspunsurilor primite dintr-o campanie SMS în masă.*
+</center>
+
+La fel ca toate funcțiile SeaX, ne străduim să împuternicim agenții sau managerii de campanie să gestioneze cererile/problemele primite - Bulk SMS permite SeaX să gestioneze și eforturile de marketing de ieșire. După ce lansați campania, puteți gestiona toate răspunsurile primite în fereastra de chat afișată mai jos.
 
 # Încheiere
 
-Mulțumim că ți-ai dedicat timpul să citești despre cum sistemul de SMS-uri în lot SeaX împuternicește agenții să trimită comunicare de ieșire și să gestioneze cereri de mesaje de intrare. Urmărește următoarea parte a seriei noastre de blog-uri care va acoperi unele dintre instrumentele de gestionare și analiză integrate în platforma SeaX. Dacă ești interesat să afli mai multe imediat, completează [formularul nostru de programare demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a experimenta personal platforma SeaX. 
+Vă mulțumim că v-ați acordat timp pentru a citi despre modul în care sistemul SeaX Bulk SMS împuternicește agenții să trimită comunicări outbound pe lângă gestionarea cererilor de mesaje primite. Rămâneți pe fază pentru următorul segment din seria noastră de bloguri, care va acoperi unele dintre instrumentele de gestionare și analiză încorporate în platforma SeaX. Dacă sunteți interesat să aflați mai multe imediat, completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a arunca o privire directă asupra platformei SeaX.

@@ -1,42 +1,43 @@
 ---
-title: "Studiu de caz client: Cum o bancă majoră din Asia oferă suport multilingv și orientat pe confidențialitate"
-metatitle: "Banca din Asia oferă suport multilingv și privat prin SeaX"
+title: "Povestea clientului: Împuternicirea unei bănci majore din Asia pentru a oferi suport multilingv și axat pe confidențialitate clienților"
+metatitle: "Banca Asia oferă suport multilingv și privat cu SeaX"
 date: 2023-06-28T11:25:00-08:00
-modified_date: 2024-12-19T10:30:00Z
 draft: false
 author: Xuchen Yao
-description: "Acest blog descrie cum implementarea centrului de contact omnichannel a revoluționat peisajul serviciului clienți al unei bănci private majore din Asia de Sud-Est, îmbunătățind performanța agenților prin transcriere vocală în timp real, insight-uri bazate pe date și măsuri robuste de confidențialitate a datelor."
+description: Blogul descrie modul în care implementarea unui centru de contact omnicanal a revoluționat peisajul serviciilor pentru clienți pentru o bancă privată majoră din Asia de Sud-Est, îmbunătățind performanța agenților prin transcrieri vocale în timp real, informații bazate pe date și măsuri robuste de confidențialitate a datelor.
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags: ["SeaX", "Povestea clientului"]
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
 canonicalURL: "/blog/bank-seax/"
 url: "/blog/bank-seax/"
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-Studiul de caz de succes al implementării centrului de contact omnichannel pentru o bancă privată mare din Asia de Sud-Est demonstrează cum tehnologia avansată și abordarea centrată pe client pot transforma peisajul serviciului clienți în timp ce asigură confidențialitatea datelor.
 
-Înainte de implementare, centrul de contact al băncii se confrunta cu provocări legate de asigurarea calității și lipsea instrumentele necesare pentru evaluarea și îmbunătățirea performanței agenților. În plus, nu erau disponibile înregistrări telefonice sau transcrieri vocale, făcând dificilă analiza interacțiunilor cu clienții și evaluarea satisfacției clienților.
+Povestea de succes a implementării centrului de contact omnicanal pentru una dintre cele mai mari bănci private din Asia de Sud-Est demonstrează cum tehnologia avansată și o abordare centrată pe client pot transforma peisajul serviciilor pentru clienți, asigurând în același timp confidențialitatea datelor.
 
-## Soluție omnichannel și internațională
+Înainte de implementare, centrul de contact al băncii se confrunta cu provocări legate de asigurarea calității și îi lipseau instrumentele necesare pentru a evalua și îmbunătăți performanța agenților. În plus, nu existau înregistrări ale apelurilor telefonice sau transcrieri vocale disponibile, ceea ce făcea dificilă analiza interacțiunilor cu clienții și evaluarea nivelurilor de satisfacție a clienților.
 
-Recunoscând nevoia de o soluție comprehensivă, banca a decis să implementeze un centru de contact omnichannel pentru a-și revoluționa operațiunile de serviciu clienți și a îmbunătăți experiența generală a clienților.
+## Soluție omnicanal și internațională
 
-Această implementare a fost lansată inițial în două piețe principale: Taiwan și Vietnam. Suportul pentru limbi localizate a permis clienților din aceste regiuni să comunice fără probleme cu centrul de contact în limba lor preferată.
+Recunoscând nevoia unei soluții complete, banca a decis să implementeze un centru de contact omnicanal care să revoluționeze operațiunile sale de servicii pentru clienți și să îmbunătățească experiența generală a clienților.
 
-## Transcriere în timp real și insight-uri despre clienți
-Una dintre cele mai semnificative îmbunătățiri aduse de implementare a fost transcrierea în timp real a tuturor înregistrărilor telefonice. Această tehnologie captează și transcrie conținutul vocal al interacțiunilor cu clienții, oferind o resursă valoroasă pentru analiză și evaluarea calității.
+Implementarea a fost inițial lansată pe două piețe cheie: Taiwan și Vietnam. Suportul lingvistic localizat a permis clienților din aceste regiuni să comunice cu centrul de contact fără probleme, în limba lor preferată.
 
-Banca utilizează aceste transcrieri pentru a evalua comprehensiv performanța agenților. Transcrierile vocale sunt analizate, luând în considerare diverși factori precum emoția, sentimentul și satisfacția clienților. Acest cadru de evaluare permite băncii să identifice zonele care necesită îmbunătățiri, să-și instruiască eficient agenții și să asigure interacțiuni consistente și de înaltă calitate cu clienții.
+## Transcriere în timp real și informații despre clienți
+Una dintre cele mai semnificative îmbunătățiri aduse de implementare a fost transcrierea în timp real a tuturor înregistrărilor apelurilor telefonice. Această tehnologie a capturat și transcris conținutul vorbirii din interacțiunile cu clienții, oferind o resursă valoroasă pentru analiză și evaluarea calității.
 
-## Confidențialitate: Revizuirea PII în datele clienților
-Confidențialitatea a fost o preocupare principală pe tot parcursul implementării. Soluția a implementat măsuri robuste de confidențialitate pentru a proteja informațiile clienților. Toate informațiile de identificare personală (PII) prezente în înregistrările telefonice au fost revizuite, asigurând conformitatea cu reglementările de confidențialitate și protejarea datelor clienților. Această angajare pentru confidențialitate este esențială pentru construirea și menținerea încrederii clienților.
+Banca a valorificat aceste transcrieri pentru a evalua performanța agenților în mod cuprinzător. Vorbirea transcrisă a fost analizată, luând în considerare diverși factori, cum ar fi emoția, sentimentul și satisfacția clienților. Acest cadru de evaluare a permis băncii să identifice zonele de îmbunătățire, să antreneze agenții în mod eficient și să asigure interacțiuni consistente și de înaltă calitate cu clienții.
 
-În plus, implementarea s-a concentrat pe facea datelor ușor accesibile și portabile pentru analize suplimentare. Înregistrările apelurilor sunt structurate într-un mod care facilitează analiza datelor de către echipele de data science ale băncii. Aceasta permite echipelor să obțină insight-uri semnificative, să genereze rapoarte și să ofere informații acționabile pentru stakeholderi pentru a lua decizii mai bune.
+## Confidențialitate: Redactarea PII pe datele clienților
+Confidențialitatea a fost o preocupare majoră pe parcursul procesului de implementare. Soluția a implementat măsuri robuste de confidențialitate pentru a proteja informațiile clienților. Toate informațiile de identificare personală (PII) prezente în transcrierile apelurilor au fost redactate, asigurând conformitatea cu reglementările privind confidențialitatea și protejarea datelor clienților. Acest angajament față de confidențialitate a fost crucial în construirea și menținerea încrederii cu clienții.
 
-Angajamentul băncii pentru confidențialitatea datelor și analiză le-a permis să exploateze pe deplin potențialul centrului de contact omnichannel implementat. Prin utilizarea transcrierilor vocale, banca a obținut insight-uri valoroase despre preferințele clienților, punctele de durere și nivelurile de satisfacție. Această abordare bazată pe date le permite să-și rafineze strategiile de serviciu clienți, să îmbunătățească călătoria clienților și să ofere suport personalizat și proactiv.
+În plus, implementarea s-a concentrat pe a face datele ușor accesibile și portabile pentru analize ulterioare. Transcrierile apelurilor au fost structurate într-un mod care a facilitat analiza datelor de către echipa de știință a datelor a băncii. Acest lucru a permis echipei să obțină informații semnificative, să genereze rapoarte și să ofere părților interesate informații acționabile pentru o mai bună luare a deciziilor.
 
-În concluzie, implementarea cu succes a centrului de contact omnichannel pentru o bancă privată mare din Asia de Sud-Est a transformat operațiunile sale de serviciu clienți. Această implementare a adus îmbunătățiri semnificative, inclusiv transcriere vocală în timp real, evaluare comprehensivă a performanței agenților și un accent puternic pe confidențialitatea datelor. Prin aceste progrese, banca a putut să analizeze eficient interacțiunile cu clienții, să îmbunătățească performanța agenților și să ofere o experiență excepțională a clienților. Această implementare evidențiază angajamentul băncii de a utiliza tehnologia și datele pentru îmbunătățirea continuă, în timp ce asigură cele mai înalte standarde de confidențialitate și protecție a datelor.
+Angajamentul băncii față de confidențialitatea datelor și analize le-a permis să valorifice întregul potențial al centrului de contact omnicanal implementat. Prin valorificarea transcrierilor vorbirii, banca a obținut informații valoroase despre preferințele clienților, punctele dureroase și nivelurile de satisfacție. Această abordare bazată pe date le-a permis să își rafineze strategiile de servicii pentru clienți, să îmbunătățească călătoria clienților și să ofere asistență personalizată și proactivă.
 
-## Contactează-ne
+În concluzie, implementarea cu succes a centrului de contact omnicanal pentru una dintre cele mai mari bănci private din Asia de Sud-Est a transformat operațiunile sale de servicii pentru clienți. Implementarea a adus îmbunătățiri semnificative, inclusiv transcrieri vocale în timp real, evaluarea cuprinzătoare a performanței agenților și un accent puternic pe confidențialitatea datelor. Cu aceste progrese, banca a putut analiza eficient interacțiunile cu clienții, a îmbunătăți performanța agenților și a oferi experiențe excepționale clienților. Implementarea a subliniat angajamentul băncii de a valorifica tehnologia și datele pentru îmbunătățirea continuă, asigurând în același timp cele mai înalte standarde de confidențialitate și protecție a datelor.
 
-Dacă ești interesat să afli mai multe despre SeaX, te rugăm să completezi [formularul nostru de programare demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a experimenta personal platforma SeaX. Suntem întotdeauna bucuroși să discutăm cu tine! 
+## Luați legătura
+
+Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!

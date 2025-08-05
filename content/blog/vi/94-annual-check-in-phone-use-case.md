@@ -1,84 +1,66 @@
 ---
-title: "Trường hợp sử dụng điện thoại kiểm tra hàng năm: Cải thiện chăm sóc người cao tuổi"
-metatitle: "Trường hợp sử dụng điện thoại kiểm tra hàng năm: Cải thiện chăm sóc người cao tuổi"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+title: "SeaX: Ví dụ về kiểm tra điện thoại hàng năm - Cung cấp dịch vụ chăm sóc người cao tuổi tốt hơn"
+metatitle: "Ví dụ về kiểm tra điện thoại hàng năm của SeaX: Trợ lý AI nâng cao chất lượng dịch vụ chăm sóc người cao tuổi"
+date: 2024-08-20T00:22:19-07:00
+modified_date: 2024-05-16T12:00:00Z
 draft: false
-author: Xuchen Yao
-description: Khám phá cách sử dụng cuộc gọi điện thoại kiểm tra hàng năm để cải thiện chăm sóc người cao tuổi, bao gồm theo dõi sức khỏe, hỗ trợ tinh thần và can thiệp sớm.
+author: Jun Mao
+description: "Khám phá cách SeaX cách mạng hóa dịch vụ chăm sóc người cao tuổi thông qua công nghệ AI, giải quyết nhiều thách thức trong kiểm tra điện thoại hàng năm, nâng cao chất lượng dịch vụ và giảm gánh nặng cho tình nguyện viên. Tìm hiểu cách các giải pháp thông minh của SeaX cung cấp dịch vụ chăm sóc liên tục chất lượng cao hơn cho người cao tuổi trên toàn cầu."
 weight: 1
-tags: ["Senior Care", "Healthcare", "Phone Calls", "Monitoring"]
-image: /images/blog/94-annual-check-in-phone-use-case/blog-banner.png
-canonicalURL: "/zh/blog/annual-check-in-phone-use-case/"
-url: "/zh/blog/annual-check-in-phone-use-case/"
-summary: 'Khám phá trường hợp sử dụng cuộc gọi điện thoại kiểm tra hàng năm để cải thiện chăm sóc người cao tuổi. Tìm hiểu cách các cuộc gọi định kỳ có thể giúp theo dõi sức khỏe, cung cấp hỗ trợ tinh thần và can thiệp sớm khi cần thiết.'
-modified_date: "2024-12-19T09:00:00Z"
+tags: ["SeaX", "Seasalt.ai"]
+toc: true
+image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
+canonicalURL: "/blog/annual-check-in-phone-use-case/"
+url: "/blog/annual-check-in-phone-use-case/"
+summary: 'Đối mặt với dân số già hóa ngày càng tăng, các tổ chức chăm sóc người cao tuổi trên toàn thế giới đang đối mặt với nhiều thách thức. Đặc biệt trong việc chăm sóc định kỳ và theo dõi sức khỏe, không chỉ tốn kém nhiều nguồn nhân lực mà còn thường xuyên bỏ lỡ hoặc chậm trễ trong việc phát hiện kịp thời các vấn đề tiềm ẩn. Đây chính là thách thức mà một tổ chức dịch vụ xã hội ở Singapore, đối tác của Seasalt.ai, đã phải đối mặt. Tổ chức này hàng năm thực hiện cuộc gọi chăm sóc hàng năm với hàng ngàn người cao tuổi, một quy trình phức tạp và khó quản lý hiệu quả. Để giải quyết vấn đề này, họ đã giới thiệu SeaX, thông qua công nghệ AI đã nâng cao đáng kể chất lượng và hiệu quả của dịch vụ chăm sóc.'
 ---
 
-Khám phá trường hợp sử dụng cuộc gọi điện thoại kiểm tra hàng năm để cải thiện chăm sóc người cao tuổi. Tìm hiểu cách các cuộc gọi định kỳ có thể giúp theo dõi sức khỏe, cung cấp hỗ trợ tinh thần và can thiệp sớm khi cần thiết.
 
-## Lợi ích của cuộc gọi kiểm tra hàng năm
+Đối mặt với dân số già hóa ngày càng tăng, các tổ chức chăm sóc người cao tuổi trên toàn thế giới đang đối mặt với nhiều thách thức. Đặc biệt trong việc chăm sóc định kỳ và theo dõi sức khỏe, không chỉ tốn kém nhiều nguồn nhân lực mà còn thường xuyên bỏ lỡ hoặc chậm trễ trong việc phát hiện kịp thời các vấn đề tiềm ẩn. Đây chính là thách thức mà một tổ chức dịch vụ xã hội ở Singapore, đối tác của Seasalt.ai, đã phải đối mặt. Tổ chức này hàng năm thực hiện cuộc gọi chăm sóc hàng năm với hàng ngàn người cao tuổi, một quy trình phức tạp và khó quản lý hiệu quả. Để giải quyết vấn đề này, họ đã giới thiệu SeaX, thông qua công nghệ AI đã nâng cao đáng kể chất lượng và hiệu quả của dịch vụ chăm sóc.
 
-Cuộc gọi kiểm tra hàng năm cung cấp nhiều lợi ích cho người cao tuổi:
+<br/>
 
-- **Theo dõi sức khỏe**: Đánh giá tình trạng sức khỏe tổng thể và phát hiện vấn đề sớm
-- **Hỗ trợ tinh thần**: Giảm cảm giác cô đơn và cô lập
-- **Can thiệp sớm**: Phát hiện và giải quyết vấn đề trước khi trở nên nghiêm trọng
-- **Kết nối xã hội**: Duy trì mối quan hệ với người chăm sóc và cộng đồng
+<center>
+<a href="https://usecase.seasalt.ai/voice-for-senior-care">
+<img height="100%" width="80%" src="/images/blog/94-annual-check-in-phone-use-case/elderly-phone-call-thru-ai.jpeg"  alt="">
+</a>
+</center>
 
-## Các loại cuộc gọi kiểm tra
+## Những thách thức trong chăm sóc dài hạn
 
-### Cuộc gọi sức khỏe
-- **Đánh giá sức khỏe tổng thể**: Kiểm tra các triệu chứng và thay đổi sức khỏe
-- **Theo dõi thuốc**: Đảm bảo tuân thủ thuốc và phát hiện tác dụng phụ
-- **Đánh giá dinh dưỡng**: Kiểm tra chế độ ăn uống và dinh dưỡng
+### Tần suất chăm sóc hàng năm quá thấp:
+Theo truyền thống, tổ chức này chỉ có thể thực hiện kiểm tra điện thoại với mỗi người cao tuổi mỗi năm một lần. Tần suất này không đủ để phát hiện và xử lý kịp thời các vấn đề sức khỏe tiềm ẩn hoặc các trường hợp khẩn cấp.
+### Nguồn lực tình nguyện viên căng thẳng:
+Mỗi cuộc kiểm tra hàng năm đòi hỏi sự tham gia của một lượng lớn tình nguyện viên, và thường yêu cầu tình nguyện viên làm việc gần như toàn thời gian cho những công việc này. Do nguồn lực hạn chế, chất lượng dịch vụ khó được đảm bảo.
+### Theo dõi không đầy đủ:
+Trong mô hình chăm sóc truyền thống, nếu người cao tuổi bỏ lỡ cuộc gọi, thường rất khó để theo dõi kịp thời, điều này có thể dẫn đến việc bỏ qua một số vấn đề tiềm ẩn.
+### Cá nhân hóa dịch vụ không đủ:
+Do nội dung kiểm tra điện thoại tương đối cố định, không thể cung cấp lời khuyên hoặc chăm sóc cá nhân hóa dựa trên tình hình cụ thể của từng người cao tuổi, dẫn đến một số nhu cầu không được đáp ứng đầy đủ.
+### Xử lý tình huống khẩn cấp không kịp thời:
+Nếu người cao tuổi gặp tình huống khẩn cấp ngoài thời gian kiểm tra, thiếu kênh liên lạc kịp thời có thể dẫn đến chậm trễ trong xử lý, tăng rủi ro.
 
-### Cuộc gọi hỗ trợ tinh thần
-- **Kiểm tra tâm trạng**: Đánh giá sức khỏe tâm thần và cảm xúc
-- **Hỗ trợ xã hội**: Kết nối với các dịch vụ hỗ trợ cộng đồng
-- **Tư vấn tâm lý**: Cung cấp hỗ trợ tâm lý khi cần thiết
+## Giải pháp: Ứng dụng SeaX
 
-### Cuộc gọi an toàn
-- **Kiểm tra an toàn tại nhà**: Đánh giá rủi ro và cải thiện an toàn
-- **Kiểm tra thiết bị**: Đảm bảo thiết bị y tế hoạt động tốt
-- **Kế hoạch khẩn cấp**: Xem xét kế hoạch trong trường hợp khẩn cấp
+### Nâng cao tần suất chăm sóc:
+Sau khi giới thiệu SeaX, tổ chức này đã nâng tần suất cuộc gọi chăm sóc từ một lần mỗi năm lên một lần mỗi tháng. Việc kiểm tra tần suất cao này không chỉ nâng cao mức độ quan tâm đến người cao tuổi mà còn có thể phát hiện và xử lý sớm hơn các vấn đề tiềm ẩn, đảm bảo người cao tuổi nhận được sự chăm sóc kịp thời hơn.
+### Tự động hóa cuộc gọi chăm sóc:
+Trợ lý giọng nói AI của SeaX có thể tự động thực hiện các cuộc gọi chăm sóc, giúp tình nguyện viên không còn phải tốn nhiều thời gian và công sức cho các công việc kiểm tra điện thoại lặp đi lặp lại. Trợ lý AI có thể tự động liên hệ với hàng ngàn người cao tuổi và thực hiện khảo sát theo nhu cầu, để hiểu rõ hơn về nhu cầu cụ thể của từng người cao tuổi.
+### Theo dõi và gọi lại tức thì:
+Nếu một người cao tuổi bỏ lỡ cuộc gọi, SeaX sẽ tự động gọi lại, đảm bảo rằng mỗi người cao tuổi đều nhận được sự chăm sóc. Đồng thời, hệ thống cũng có thể tự động theo dõi và kiểm tra các khảo sát chưa hoàn thành, và thông báo kịp thời cho nhân viên liên quan để theo dõi.
+### Kế hoạch chăm sóc cá nhân hóa:
+Thông qua công nghệ AI, SeaX có thể cung cấp các kế hoạch chăm sóc cá nhân hóa dựa trên tình trạng sức khỏe và thói quen sinh hoạt của từng người cao tuổi, bao gồm các lời khuyên và nhắc nhở sức khỏe độc quyền.
+### Xử lý tình huống khẩn cấp tức thì:
+Hệ thống SeaX có thể tự động thông báo cho nhân viên liên quan khi người cao tuổi gặp tình huống khẩn cấp, và cung cấp hỗ trợ và giúp đỡ tức thì, đảm bảo người cao tuổi nhận được sự giúp đỡ cần thiết vào những thời điểm quan trọng.
 
-## Triển khai chương trình kiểm tra
+## Kết quả và tác động
 
-### Lập kế hoạch
-1. **Xác định đối tượng**: Xác định người cao tuổi cần kiểm tra
-2. **Thiết lập lịch trình**: Tạo lịch gọi định kỳ
-3. **Chuẩn bị tài liệu**: Tạo bảng câu hỏi và hướng dẫn
+Thông qua SeaX, tổ chức này không chỉ nâng cao đáng kể chất lượng dịch vụ chăm sóc mà còn giảm đáng kể khối lượng công việc của tình nguyện viên, giúp toàn bộ hệ thống hoạt động hiệu quả hơn. Trường hợp này đã chứng minh đầy đủ tiềm năng to lớn của công nghệ AI trong chăm sóc người cao tuổi, thông qua các dịch vụ chăm sóc tự động và thông minh, giúp nhiều người cao tuổi nhận được sự chăm sóc liên tục và cá nhân hóa.
 
-### Thực hiện
-1. **Gọi điện thoại**: Thực hiện cuộc gọi theo lịch trình
-2. **Thu thập thông tin**: Ghi lại thông tin quan trọng
-3. **Đánh giá**: Phân tích thông tin và xác định nhu cầu
+<br/>
 
-### Theo dõi
-1. **Ghi chép**: Lưu trữ thông tin và kết quả
-2. **Phân tích**: Đánh giá xu hướng và thay đổi
-3. **Hành động**: Thực hiện can thiệp khi cần thiết
+<center>
+<img height="100%" width="80%" src="/images/blog/94-annual-check-in-phone-use-case/long-term-care-banner.jpg"  alt="">
 
-## Công nghệ hỗ trợ
+</center>
 
-### Hệ thống tự động
-- **Gọi tự động**: Hệ thống gọi tự động theo lịch trình
-- **Ghi âm**: Ghi lại cuộc trò chuyện để phân tích
-- **Báo cáo**: Tạo báo cáo tự động về kết quả
-
-### Phân tích dữ liệu
-- **Theo dõi xu hướng**: Phân tích thay đổi theo thời gian
-- **Phát hiện mẫu**: Xác định mẫu và rủi ro
-- **Dự đoán**: Dự đoán nhu cầu trong tương lai
-
-## Kết quả mong đợi
-
-Triển khai chương trình kiểm tra hàng năm có thể mang lại:
-
-- **Cải thiện sức khỏe**: Phát hiện và điều trị vấn đề sớm
-- **Giảm cô đơn**: Tăng kết nối xã hội
-- **Tăng an toàn**: Giảm rủi ro và tai nạn
-- **Tiết kiệm chi phí**: Giảm chi phí chăm sóc y tế khẩn cấp
-
-Cuộc gọi kiểm tra hàng năm đại diện cho một phương pháp hiệu quả để cải thiện chất lượng cuộc sống cho người cao tuổi thông qua theo dõi liên tục và hỗ trợ kịp thời. 
+Để tìm hiểu thêm về cách SeaX thay đổi dịch vụ chăm sóc người cao tuổi, vui lòng truy cập [Giải pháp chăm sóc người cao tuổi của SeaX](https://usecase.seasalt.ai/voice-for-senior-care).

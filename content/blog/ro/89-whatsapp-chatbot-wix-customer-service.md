@@ -1,114 +1,55 @@
 ---
-title: "Cum să implementați un chatbot AI pe site-ul vostru Wix folosind SeaChat"
-metatitle: "Cum să implementați un chatbot AI pe site-ul vostru Wix folosind SeaChat"
-date: 2024-04-09T00:22:19-07:00
+title: "Integrarea Chatbot-ului AI SeaChat cu WhatsApp și Wix pentru Serviciul Clienți"
+linkTitle: "Integrarea Chatbot-ului AI SeaChat cu WhatsApp și Wix pentru Serviciul Clienți"
+date: 2023-10-26T10:00:00+08:00
+lastmod: 2023-10-26T10:00:00+08:00
 draft: false
-author: Xuchen Yao
-description: "Îmbunătățiți site-ul vostru Wix cu SeaChat - integrare fără probleme pentru suportul clienților pe site-ul Wix și WhatsApp. Îmbunătățiți angajamentul cu ușurință!"
-weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "Integrare"]
-image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: "2025-01-28T16:56:53Z"
+author: "SeaChat"
+modified_date: "2024-07-29T12:00:00Z"
 ---
 
-Integrarea chatbot-ului AI WhatsApp SeaChat în site-ul vostru Wix nu doar că îmbunătățește serviciul vostru clienți, ci vă poate poziționa afacerea la vârful inovației tehnologice. Îmbrățișați viitorul angajamentului clienților cu SeaChat.
+În era digitală de astăzi, serviciul clienți eficient este esențial pentru succesul afacerilor. Pe măsură ce tot mai multe companii își stabilesc o prezență online, integrarea soluțiilor avansate de chatbot devine crucială. Acest articol detaliază cum să integrați chatbot-ul AI SeaChat cu site-urile Wix și WhatsApp pentru a îmbunătăți serviciul clienți.
 
-În mediul digital actual, serviciul eficient clienți și angajamentul utilizatorilor sunt cruciale pentru ca întreprinderile să prospere. [Wix](https://www.wix.com/) este un instrument popular de construire a site-urilor web care oferă diverse instrumente pentru a se conecta cu clienții, inclusiv Wix Chat. Cu toate acestea, pentru a realiza interacțiuni mai puternice și inteligente, luați în considerare integrarea SeaChat (un chatbot alimentat de AI) în site-ul vostru Wix. Să explorăm cum SeaChat poate îmbunătăți comunicarea voastră cu clienții.
+### De ce să integrați SeaChat cu Wix și WhatsApp?
 
-# Introducere: Wix Chat și WhatsApp
+SeaChat este un chatbot AI puternic, bazat pe modele lingvistice mari (LLM), care poate înțelege și răspunde la întrebări complexe ale utilizatorilor. Prin integrarea SeaChat cu site-ul dvs. Wix și cu WhatsApp, puteți:
 
-## Wix Chat: O opțiune convenabilă
+1.  **Oferiți suport 24/7**: Chatbot-ul poate răspunde la întrebări în orice moment, îmbunătățind satisfacția clienților.
+2.  **Reduceți volumul de muncă al personalului**: Automatizați răspunsurile la întrebările frecvente, permițând personalului să se concentreze pe probleme mai complexe.
+3.  **Îmbunătățiți experiența utilizatorului**: Oferiți răspunsuri rapide și precise, creând o experiență de utilizare fluidă.
+4.  **Extindeți acoperirea**: Ajungeți la clienți pe platformele pe care le folosesc cel mai mult, cum ar fi WhatsApp.
 
-Wix Chat vă permite să gestionați conversațiile direct pe site-ul vostru. Este un instrument util pentru a interacționa cu vizitatorii și a rezolva întrebările lor. Cu toate acestea, are o limitare: lipsește complexitatea agenților AI. Deși Wix Chat oferă comunicare în timp real, s-ar putea să aveți în continuare nevoie de o soluție alimentată de AI pentru a gestiona interogările clienților 24/7.
+### Integrarea SeaChat cu site-ul dvs. Wix
 
-# Introducerea SeaChat: Asistentul vostru AI
+Integrarea SeaChat ca widget de chat web pe site-ul dvs. Wix este un proces simplu. Urmați acești pași:
 
-[SeaChat](https://chat.seasalt.ai/?utm_source=blog) umple această lacună prin oferirea de agenți AI care pot gestiona conversațiile fără probleme. Fie că răspunde la întrebări frecvente, oferă informații despre produse sau asiste la rezolvarea problemelor, SeaChat este întotdeauna disponibil. Dar cel mai interesant este: nu doar că puteți integra SeaChat direct cu widget-ul vostru de chat pe web, ci și cu WhatsApp.
+1.  **Obțineți codul de încorporare SeaChat**: Conectați-vă la contul dvs. SeaChat și navigați la secțiunea de integrare. Acolo veți găsi un fragment de cod JavaScript.
 
-## Folosirea SeaChat ca widget de chat pe web pe Wix
+    {{< figure src="/images/blog/89-1.png" alt="Obțineți codul de încorporare SeaChat" caption="Obțineți codul de încorporare SeaChat" >}}
 
-Cu SeaChat, nu trebuie să alegeți între chat-ul pe web și WhatsApp. Puteți folosi SeaChat pentru ambele. Iată cum:
+2.  **Adăugați codul la site-ul dvs. Wix**: Accesați editorul site-ului dvs. Wix. Navigați la `Setări` > `Cod personalizat`.
 
-1. **Creați un cont SeaChat**: Dacă nu aveți deja unul, înregistrați-vă pentru un cont SeaChat pe site-ul [SeaChat](https://chat.seasalt.ai/?utm_source=blog). Construiți agentul vostru AI pentru a gestiona diverse sarcini.
+    {{< figure src="/images/blog/89-2.png" alt="Adăugați codul la site-ul dvs. Wix" caption="Adăugați codul la site-ul dvs. Wix" >}}
 
-<center>
-<img width="100%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/1-sign-up-seachat-account-for-free.jpeg" alt="Înregistrare SeaChat">
-</center>
+3.  **Încorporați codul**: Faceți clic pe `Adăugați cod personalizat` și lipiți fragmentul de cod SeaChat în secțiunea `Adăugați cod la corp - sfârșit`. Asigurați-vă că este setat să se încarce pe toate paginile.
 
-2. **Navigați la dashboard-ul Wix**: Conectați-vă la dashboard-ul vostru Wix pentru a accesa site-ul relevant. Faceți clic pe "Design Site" pentru a accesa editorul de site.
+    {{< figure src="/images/blog/89-3.png" alt="Încorporați codul" caption="Încorporați codul" >}}
 
-<center>
-<img width="100%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-seachat-integration-step1.png" alt="Mergeți la dashboard-ul vostru Wix și faceți clic pe meniul 'Design Site' din colțul din dreapta sus.">
-</center>
+4.  **Salvați și publicați**: Salvați modificările și publicați site-ul dvs. Wix. Chatbot-ul SeaChat ar trebui să apară acum ca un widget de chat pe site-ul dvs.
 
-3. **Adăugați elemente**: În meniul din bara laterală, selectați "Adaugă elemente".
+### Integrarea SeaChat cu WhatsApp
 
-<center>
-<img width="50%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-seachat-integration-step2.png" alt="Faceți clic pe 'Adaugă elemente' pe Wix">
-</center>
+Pe lângă integrarea web, SeaChat poate fi integrat și cu WhatsApp, permițându-vă să gestionați întrebările clienților direct pe platforma de mesagerie. Procesul implică utilizarea API-ului WhatsApp Business sau a unei platforme terțe care facilitează integrarea.
 
-4. **Încorporați codul SeaChat**: Selectați "Încorporează cod", apoi "Încorporează HTML". Recuperați fragmentul de cod SeaChat din workspace-ul vostru (Configurare agent -> Canale -> Canal Wix) și lipiți-l în caseta de cod. Nu uitați să faceți clic pe "Actualizează".
+1.  **Configurați un cont WhatsApp Business API**: Dacă nu aveți deja unul, va trebui să solicitați acces la WhatsApp Business API. Acest lucru implică de obicei lucrul cu un furnizor de soluții de afaceri (BSP).
+2.  **Conectați SeaChat la WhatsApp**: Odată ce contul dvs. WhatsApp Business API este configurat, veți putea conecta SeaChat la acesta. Acest lucru implică de obicei configurarea webhook-urilor în SeaChat pentru a primi mesaje WhatsApp și a trimite răspunsuri.
 
-<center>
-<img width="90%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-seachat-integration-step4.png" alt="Lipiți fragmentul de cod SeaChat în caseta de text HEADER. Nu uitați să faceți clic pe Salvează.">
-</center>
+    {{< figure src="/images/blog/89-4.png" alt="Conectați SeaChat la WhatsApp" caption="Conectați SeaChat la WhatsApp" >}}
 
-5. **Ajustați dimensiunea widget-ului de chat**: Folosiți instrumentele de redimensionare pentru a ajusta dimensiunea widget-ului de chat. Trageți widget-ul în poziția dorită (de obicei colțul din dreapta jos).
+3.  **Testați integrarea**: Trimiteți mesaje de test către numărul dvs. WhatsApp Business pentru a vă asigura că SeaChat răspunde corect.
 
-<center>
-<img width="80%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-seachat-integration-step5.png" alt="Ajustați dimensiunea widget-ului de chat">
-</center>
+### Beneficiile unei abordări multicanal
 
-6. **Fixați poziția widget-ului SeaChat**
+Folosind același agent AI SeaChat pentru site-ul dvs. Wix și WhatsApp, obțineți o abordare multicanal care asigură coerența în serviciul clienți. Indiferent de canalul pe care îl folosesc clienții dvs., aceștia vor primi răspunsuri consistente și precise de la chatbot-ul dvs. AI.
 
-Trebuie să fixați poziția widget-ului astfel încât să nu se miște când vizitatorii derulează în jos pe pagină. Selectați elementul > Click dreapta > Selectați "Fixează pe ecran". Apoi acest element va fi fixat în colț și va pluti.
-
-<center>
-<img width="60%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-pin-to-screen.png" alt="Ajustați poziția widget-ului de chat">
-</center>
-
-Puteți ajusta marginile/decalajul. Recomandăm setarea atât verticală cât și orizontală la 20.
-
-<center>
-<img width="60%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-offset-margin.png" alt="Ajustați poziția widget-ului de chat">
-</center>
-
-7. **Salvați și previzualizați**: Folosiți funcția "Previzualizare" pentru a testa agentul vostru AI. Porniți site-ul când sunteți gata.
-
-<center>
-<img width="60%" style="border-radius: 0.4rem" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/wix-seachat-integration-step6.png" alt="Previzualizați agentul SeaChat pe site">
-</center>
-
-Urmând pașii de mai sus, ați integrat SeaChat fără probleme în site-ul vostru Wix. Acum, vizitatorii voștri pot interacționa cu un agent AI care înțelege interogările lor și răspunde inteligent. Puteți vedea versiunea completă a tutorialului de integrare Wix SeaChat [aici](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/?utm_source=blog).
-
-## Folosirea SeaChat pe WhatsApp
-
-După conectarea la SeaChat, navigați la "Configurare agent" -> "Canale" -> "WhatsApp" pentru a adăuga integrarea. Cu SeaChat, puteți răspunde automat la mesajele utilizatorilor pe WhatsApp, îmbunătățind astfel suportul vostru clienți. Iată un tutorial detaliat despre cum să conectați SeaChat cu WhatsApp. Avem și un tutorial video:
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/?v=qpNlWtGP9jw&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
-
-După integrarea WhatsApp cu SeaChat, puteți conversa cu clienții pe WhatsApp ca în această captură de ecran.
-
-<center>
-<img height="60%" width="100%" src="/images/blog/89-whatsapp-chatbot-wix-customer-service/seachat-whatsapp-1.png" alt="Agent AI pe seachat-whatsapp">
-
-*Agent de chat pentru serviciul clienți WhatsApp*
-</center>
-
-# Făcând totul să funcționeze împreună: Integrarea SeaChat
-
-Același agent AI SeaChat poate acum servi simultan conversațiile widget-ului de site pe site-ul Wix și interogările WhatsApp.
-
-# Concluzie
-
-Wix Chat este un punct de plecare excelent, dar SeaChat îl ridică la un nivel nou. Combinând fără probleme chat-ul pe web și WhatsApp, permiteți agentului vostru AI să gestioneze conversațiile 24/7. Indiferent dacă clienții voștri vizitează site-ul vostru sau vă trimit mesaje prin WhatsApp, SeaChat asigură interacțiuni consistente și inteligente. Încercați acum și îmbunătățiți-vă angajamentul utilizatorilor! 🚀
-
-# Referințe
-
-- [Tutorial integrare SeaChat Wix](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/04-seachat-wix-integration/?utm_source=blog)
-- [Ghid integrare SeaChat WhatsApp](https://wiki.seasalt.ai/seachat/seachat-manual/04-channels/04-seachat-whatsapp-integration/)
-- [Tutorial integrare SeaChat WhatsApp - Integrarea agentului AI cu mesajele comerciale WhatsApp](https://www.youtube.com/watch?v=qpNlWtGP9jw&list=PL8K7_LTqly44LeOocjDOpXH0svonxa0T0)
-
-### >> Descoperiți [SeaChat](https://chat.seasalt.ai/?utm_source=blog) acum și porniți cu încredere călătoria voastră AI! 
+Această integrare nu numai că eficientizează operațiunile de serviciu clienți, dar și îmbunătățește semnificativ experiența generală a clienților, făcând afacerea dvs. mai accesibilă și mai receptivă.

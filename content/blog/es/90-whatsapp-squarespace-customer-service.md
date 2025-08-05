@@ -4,7 +4,7 @@ metatitle: "SeaChat AI | Agentes de IA en tu sitio web de Squarespace"
 date: 2024-04-20T00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: "Maximiza la participación del cliente en Squarespace con la IA de SeaChat: personaliza, entrena, monitoriza y actualiza tu chatbot para un soporte ..."
+description: "Maximiza la participación del cliente en Squarespace con la IA de SeaChat: personaliza, entrena, monitoriza y actualiza tu chatbot para un soporte proactivo al visitante."
 weight: 1
 tags:
   - "SeaChat"

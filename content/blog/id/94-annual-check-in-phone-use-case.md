@@ -1,21 +1,22 @@
 ---
-title: "SeaX: Studi Kasus Pemeriksaan Telepon Tahunan - Memberikan Layanan Peduli Lansia yang Lebih Baik"
-metatitle: "Studi Kasus Pemeriksaan Telepon Tahunan SeaX: AI Membantu Meningkatkan Kualitas Layanan Peduli Lansia"
+title: "SeaX: Studi Kasus Panggilan Telepon Pemeriksaan Tahunan - Memberikan Layanan Perawatan yang Lebih Baik untuk Lansia"
+metatitle: "Studi Kasus Panggilan Telepon Pemeriksaan Tahunan SeaX: Asisten AI Meningkatkan Kualitas Layanan Perawatan Lansia"
 date: 2024-08-20T00:22:19-07:00
+modified_date: 2024-05-16T12:00:00Z
 draft: false
 author: Jun Mao
-description: "Mengeksplorasi bagaimana SeaX merevolusi layanan peduli lansia dengan teknologi AI, mengatasi tantangan pemeriksaan telepon tahunan, meningkatkan kualitas layanan, dan mengurangi beban relawan. Pelajari solusi cerdas SeaX untuk memberikan perawatan berkelanjutan yang lebih baik bagi lansia di seluruh dunia."
+description: "Jelajahi bagaimana SeaX merevolusi layanan perawatan lansia melalui teknologi AI, mengatasi berbagai tantangan dalam pemeriksaan telepon tahunan, meningkatkan kualitas layanan, dan mengurangi beban sukarelawan. Pelajari bagaimana solusi cerdas SeaX memberikan perawatan berkelanjutan yang lebih baik untuk lansia di seluruh dunia."
 weight: 1
 tags: ["SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
 canonicalURL: "/blog/annual-check-in-phone-use-case/"
 url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di seluruh dunia menghadapi banyak tantangan. Khususnya dalam pemantauan kesehatan dan perhatian rutin, dibutuhkan banyak sumber daya manusia dan seringkali masalah terlewatkan atau terlambat terdeteksi. Inilah tantangan yang dihadapi sebuah lembaga sosial di Singapura sebelum bekerja sama dengan Seasalt.ai. Setiap tahun, mereka melakukan pemeriksaan telepon tahunan kepada ribuan lansia, prosesnya rumit dan sulit dikelola secara efisien. Untuk mengatasi masalah ini, mereka mengadopsi SeaX dan secara signifikan meningkatkan kualitas dan efisiensi layanan peduli lansia.'
-modified_date: 2024-07-19T00:00:00Z
+summary: 'Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di seluruh dunia menghadapi banyak tantangan. Terutama dalam hal perawatan rutin dan pemantauan kesehatan, tidak hanya membutuhkan banyak sumber daya manusia, tetapi juga seringkali karena kelalaian atau keterlambatan, masalah potensial tidak dapat ditemukan tepat waktu. Inilah tantangan yang dihadapi oleh lembaga layanan sosial Singapura yang bekerja sama dengan Seasalt.ai. Lembaga ini melakukan panggilan perawatan tahunan dengan ribuan lansia setiap tahun, sebuah proses yang rumit dan sulit dikelola secara efisien. Untuk mengatasi masalah ini, mereka memperkenalkan SeaX, yang secara signifikan meningkatkan kualitas dan efisiensi layanan perawatan melalui teknologi AI.'
 ---
 
-Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di seluruh dunia menghadapi banyak tantangan. Khususnya dalam pemantauan kesehatan dan perhatian rutin, dibutuhkan banyak sumber daya manusia dan seringkali masalah terlewatkan atau terlambat terdeteksi. Inilah tantangan yang dihadapi sebuah lembaga sosial di Singapura sebelum bekerja sama dengan Seasalt.ai. Setiap tahun, mereka melakukan pemeriksaan telepon tahunan kepada ribuan lansia, prosesnya rumit dan sulit dikelola secara efisien. Untuk mengatasi masalah ini, mereka mengadopsi SeaX dan secara signifikan meningkatkan kualitas dan efisiensi layanan peduli lansia.
+
+Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di seluruh dunia menghadapi banyak tantangan. Terutama dalam hal perawatan rutin dan pemantauan kesehatan, tidak hanya membutuhkan banyak sumber daya manusia, tetapi juga seringkali karena kelalaian atau keterlambatan, masalah potensial tidak dapat ditemukan tepat waktu. Inilah tantangan yang dihadapi oleh lembaga layanan sosial Singapura yang bekerja sama dengan Seasalt.ai. Lembaga ini melakukan panggilan perawatan tahunan dengan ribuan lansia setiap tahun, sebuah proses yang rumit dan sulit dikelola secara efisien. Untuk mengatasi masalah ini, mereka memperkenalkan SeaX, yang secara signifikan meningkatkan kualitas dan efisiensi layanan perawatan melalui teknologi AI.
 
 <br/>
 
@@ -25,48 +26,41 @@ Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di sel
 </a>
 </center>
 
-## Tantangan yang Dihadapi Lembaga Perawatan Lansia
+## Tantangan dalam Perawatan Jangka Panjang
 
-### Frekuensi Pemeriksaan Tahunan Terlalu Rendah:
-Secara tradisional, lembaga ini hanya dapat melakukan pemeriksaan telepon kepada setiap lansia setahun sekali. Frekuensi ini tidak cukup untuk mendeteksi dan menangani masalah kesehatan atau situasi darurat secara tepat waktu.
-
-### Sumber Daya Relawan Terbatas:
-Setiap pemeriksaan tahunan membutuhkan banyak relawan, bahkan hampir penuh waktu. Karena keterbatasan sumber daya, kualitas layanan sulit dijamin.
-
-### Tindak Lanjut Kurang:
-Dalam model perhatian tradisional, jika lansia melewatkan panggilan, biasanya sulit untuk melakukan tindak lanjut tepat waktu, sehingga beberapa masalah terlewatkan.
-
-### Kurangnya Personalisasi Layanan:
-Karena isi pemeriksaan telepon cenderung tetap, sulit memberikan saran atau perhatian yang dipersonalisasi sesuai kondisi masing-masing lansia, sehingga beberapa kebutuhan tidak terpenuhi.
-
-### Respons Darurat Tidak Tepat Waktu:
-Jika lansia mengalami situasi darurat di luar waktu pemeriksaan, kurangnya saluran komunikasi real-time dapat menyebabkan penanganan terlambat dan meningkatkan risiko.
+### Frekuensi Perawatan Tahunan Terlalu Rendah:
+Secara tradisional, lembaga ini hanya dapat melakukan pemeriksaan telepon setahun sekali untuk setiap lansia. Frekuensi seperti itu tidak cukup untuk mendeteksi dan menangani masalah kesehatan potensial atau situasi darurat secara tepat waktu.
+### Sumber Daya Sukarelawan yang Terbatas:
+Setiap pemeriksaan tahunan membutuhkan banyak sukarelawan, dan seringkali sukarelawan harus melakukan pekerjaan ini hampir penuh waktu. Karena sumber daya yang terbatas, sulit untuk menjamin kualitas layanan.
+### Tindak Lanjut yang Tidak Memadai:
+Dalam model perawatan tradisional, jika seorang lansia melewatkan panggilan telepon, seringkali sulit untuk melakukan tindak lanjut yang tepat waktu, yang dapat menyebabkan beberapa masalah potensial terabaikan.
+### Personalisasi Layanan yang Tidak Memadai:
+Karena isi pemeriksaan telepon relatif tetap, tidak mungkin untuk memberikan saran atau perawatan yang dipersonalisasi sesuai dengan situasi spesifik setiap lansia, yang mengakibatkan beberapa kebutuhan tidak terpenuhi sepenuhnya.
+### Kurangnya Respons Tepat Waktu terhadap Situasi Darurat:
+Jika lansia menghadapi situasi darurat di luar waktu pemeriksaan, kurangnya saluran komunikasi yang tepat waktu dapat menyebabkan penundaan penanganan dan peningkatan risiko.
 
 ## Solusi: Penerapan SeaX
 
-### Meningkatkan Frekuensi Pemeriksaan:
-Setelah mengadopsi SeaX, lembaga ini meningkatkan frekuensi pemeriksaan telepon dari setahun sekali menjadi sebulan sekali. Pemeriksaan yang lebih sering tidak hanya meningkatkan perhatian terhadap lansia, tetapi juga memungkinkan deteksi dan penanganan masalah lebih awal, memastikan lansia mendapat perawatan tepat waktu.
-
-### Pemeriksaan Telepon Otomatis:
-AI voice assistant SeaX dapat secara otomatis melakukan panggilan perhatian, sehingga relawan tidak perlu lagi menghabiskan banyak waktu dan tenaga untuk pemeriksaan telepon berulang. AI dapat menghubungi ribuan lansia secara otomatis dan melakukan survei sesuai kebutuhan, lebih memahami kebutuhan spesifik setiap lansia.
-
-### Tindak Lanjut dan Pelaporan Real-Time:
-Jika seorang lansia melewatkan panggilan, SeaX akan otomatis melakukan panggilan ulang, memastikan setiap lansia menerima perhatian. Sistem juga dapat otomatis melacak dan mengidentifikasi survei yang belum selesai, serta memberi tahu staf terkait untuk tindak lanjut tepat waktu.
-
-### Solusi Personalisasi:
-Dengan teknologi AI, SeaX dapat memberikan solusi perhatian yang dipersonalisasi sesuai kondisi kesehatan dan kebiasaan hidup setiap lansia, termasuk saran dan pengingat kesehatan khusus.
-
-### Respons Darurat Real-Time:
-Sistem SeaX dapat secara otomatis memberi tahu staf terkait jika lansia mengalami situasi darurat, serta memberikan dukungan dan bantuan real-time, memastikan lansia mendapat pertolongan yang dibutuhkan pada saat kritis.
+### Peningkatan Frekuensi Perawatan:
+Setelah memperkenalkan SeaX, lembaga ini meningkatkan frekuensi panggilan perawatan dari setahun sekali menjadi sebulan sekali. Pemeriksaan frekuensi tinggi ini tidak hanya meningkatkan tingkat perawatan untuk lansia, tetapi juga memungkinkan deteksi dan penanganan masalah potensial lebih awal, memastikan lansia menerima perawatan yang lebih tepat waktu.
+### Panggilan Perawatan Otomatis:
+Asisten suara AI SeaX dapat secara otomatis melakukan panggilan perawatan keluar, yang berarti sukarelawan tidak lagi perlu menghabiskan banyak waktu dan energi untuk pekerjaan pemeriksaan telepon yang berulang. Asisten AI dapat menghubungi ribuan lansia secara otomatis, dan dapat melakukan survei sesuai kebutuhan untuk lebih memahami kebutuhan spesifik setiap lansia.
+### Tindak Lanjut dan Panggilan Balik Instan:
+Jika seorang lansia melewatkan panggilan, SeaX akan secara otomatis melakukan panggilan balik, memastikan bahwa setiap lansia menerima perawatan. Pada saat yang sama, sistem juga dapat secara otomatis melacak dan memeriksa survei yang belum selesai, dan memberi tahu personel terkait untuk tindak lanjut secara tepat waktu.
+### Rencana Perawatan yang Dipersonalisasi:
+Melalui teknologi AI, SeaX dapat memberikan rencana perawatan yang dipersonalisasi sesuai dengan kondisi kesehatan dan kebiasaan hidup setiap lansia, termasuk saran dan pengingat kesehatan eksklusif.
+### Penanganan Situasi Darurat Secara Instan:
+Sistem SeaX dapat secara otomatis memberi tahu personel terkait ketika lansia menghadapi situasi darurat, dan memberikan dukungan dan bantuan instan, memastikan bahwa lansia menerima bantuan yang diperlukan pada saat-saat kritis.
 
 ## Hasil dan Dampak
 
-Dengan SeaX, lembaga ini tidak hanya secara signifikan meningkatkan kualitas layanan perhatian lansia, tetapi juga mengurangi beban kerja relawan, membuat sistem lebih efisien. Studi kasus ini menunjukkan potensi besar teknologi AI dalam perawatan lansia, memungkinkan lebih banyak lansia mendapatkan perhatian berkelanjutan dan personal.
+Melalui SeaX, lembaga ini tidak hanya secara signifikan meningkatkan kualitas layanan perawatan, tetapi juga secara signifikan mengurangi beban kerja sukarelawan, membuat seluruh operasi sistem lebih efisien. Kasus ini sepenuhnya menunjukkan potensi besar teknologi AI dalam perawatan lansia, melalui layanan perawatan otomatis dan cerdas, memungkinkan lebih banyak lansia menerima perawatan berkelanjutan dan personal.
 
 <br/>
 
 <center>
 <img height="100%" width="80%" src="/images/blog/94-annual-check-in-phone-use-case/long-term-care-banner.jpg"  alt="">
+
 </center>
 
-Untuk informasi lebih lanjut tentang bagaimana SeaX merevolusi layanan peduli lansia, kunjungi [Solusi Perawatan Lansia SeaX](https://usecase.seasalt.ai/voice-for-senior-care). 
+Untuk mempelajari lebih lanjut tentang bagaimana SeaX merevolusi layanan perawatan lansia, silakan kunjungi [Solusi Perawatan Lansia SeaX](https://usecase.seasalt.ai/voice-for-senior-care).

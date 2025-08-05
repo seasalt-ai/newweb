@@ -1,124 +1,120 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
+title: "Mesageria Near Me completează mesajele Google Business"
 author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
-date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging integrează IA conversațională cu Google Business Messages,
-  oferind suport 24/7 prin butonul de chat de pe profilul tău Google Maps.
+date: 2022-04-12T21:12:16-07:00
+image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging completează Google Business Messages
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging completează Google Business Messages
-url: /blog/near-me-messaging-complements-google-business-messages/
-weight: 1
+description: "Mesageria Near Me integrează inteligența artificială conversațională cu mesajele Google Business, permițând asistență 24/7 prin intermediul butonului de chat de pe profilul dvs. Google Maps."
+tags: ["NearMe"]
+weight: 1  
+canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
+url: "/blog/near-me-messaging-complements-google-business-messages/"
+aliases:
+  - /blog/12-near-me-messaging-complements-google-business-messages/
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
+Într-unul dintre blogurile noastre anterioare, v-am prezentat [beneficiile și limitările mesajelor Google Business](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Există două limitări principale ale implementărilor comune ale mesajelor Google Business. Prima limitare este că este nevoie de mulți bani și timp pentru a plăti o agenție de consultanță profesională pentru a crea un agent virtual personalizat pentru afacerea dvs. de la zero. A doua limitare este că proprietarii de afaceri nu pot vorbi direct cu clienții, cu excepția cazului în care agenția de consultanță oferă o funcție de chat live ca parte a implementării lor.
 
-În blogul nostru anterior, ți-am prezentat [avantajele și limitările Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Implementările comune ale Google Business Messages au două limitări principale. Prima limitare este că crearea unui agent virtual personalizat pentru afacerea ta de la zero necesită mult bani și timp pentru a plăti agenții de consultanță profesionale. A doua limitare este că proprietarii de afaceri nu pot vorbi direct cu clienții decât dacă agenția de consultanță oferă o funcționalitate de chat live ca parte a implementării lor.
+Acum s-ar putea să vă întrebați, există o soluție pentru a depăși aceste bariere, dar totuși să beneficiați de avantajele mesajelor Google Business? De aceea, dorim să vă prezentăm Mesageria Near Me (Actualizare: De atunci am pivotat produsul pentru a fi un constructor de chatbot omnicanal. Acum se numește [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Acum te întrebi poate dacă există o soluție care poate depăși aceste obstacole în timp ce încă beneficiezi de avantajele Google Business Messages? De aceea vrem să-ți prezentăm Near Me Messaging (actualizare: am pivotat produsul către un constructor de chatbot omnichannel. Acum numit [SeaChat](https://chat.seasalt.ai/?utm_source=blog) !).
+## Despre Mesageria Near Me
 
-## Despre Near Me Messaging
-
-Near Me Messaging integrează IA conversațională de ultimă generație cu Google Business Messages, permițând clienților să-ți contacteze afacerea în orice moment prin butonul de chat de pe profilul tău Google Maps. În acest fel, poți să te concentrezi pe gestionarea afacerii tale în timp ce Near Me Messaging se ocupă de întrebările clienților tăi. Near Me Messaging se distinge de serviciile similare prin timpul său de configurare de 5 minute, personalizarea self-service și suportul de chat live integrat.
-
-<center>
-<img height="550" src="/images/blog/12-near-me-messaging-complements-google-business-messages/1-GBM-chat-button.png" alt="Near Me Messaging integrează Google Business Messages cu butonul de chat de pe profilul tău Google Maps."/>
-
-*Near Me Messaging integrează Google Business Messages cu butonul de chat de pe profilul tău Google Maps.*
-</center>
-
-În primul rând, când companiile integrează Google Business Messages, trebuie să plătească agenții de consultanță profesionale pentru a crea o experiență complet personalizată de la zero. Acest lucru este de obicei costisitor și consumă timp. Înțelegem că investiția tipică în timp și resurse pentru a folosi Google Business Messages este o barieră de intrare pentru multe afaceri mici. Near Me Messaging rezolvă această limitare prin oferirea unei soluții accesibile pentru întreprinderile mici și mijlocii. Poți obține un agent virtual funcțional în mai puțin de 5 minute. În plus, poți continua să-ți actualizezi și personalizezi agentul virtual în orice moment de pe site-ul web Near Me Messaging. Modificările pe care le faci pe site-ul web Near Me Messaging intră în vigoare imediat pentru clienții care interacționează cu agentul tău.
-
-În plus de asta, când activezi butonul de chat pe profilul tău Google Business Profile, poți răspunde clienților când ești disponibil. Dar când integrezi Google Business Messages, mesajele tale de intrare sunt direcționate către agentul tău live și pierzi capacitatea de a chatta direct cu clienții în Google Business Profile. Near Me Messaging rezolvă această limitare prin oferirea unei funcționalități de agent live fără costuri suplimentare sau timp de configurare. Cu funcționalitatea de agent live, clienții pot cere să fie transferați către un om în orice moment. Când vezi o cerere de agent live, sau dacă vrei să preiei agentul virtual, poți să te alături conversației și să vorbești direct cu clientul.
-
-## Avantajele Near Me Messaging
-
-### 1. Economisește timp și forță de muncă oferind în același timp servicii excelente clienților
-
-Când folosești Near Me Messaging, răspunsurile la cele mai de bază întrebări sunt procesate automat în funcție de informațiile din profilul tău Google Business Profile. Cu cât ai mai multe informații în profilul tău Google Business Profile, cu atât mai bine poate agentul să răspundă la întrebările de bază. Dacă vrei să-ți actualizezi profilul Google Business Profile, poți sincroniza modificările tale cu Near Me pentru a actualiza automat răspunsurile botului. Agentul virtual va genera și răspunsuri din comentariile relevante ale utilizatorilor cu evaluări înalte ale profilului tău Google Maps. În plus față de răspunsurile generate automat, poți adăuga și mai mult conținut personalizat prin FAQ-uri și o bază de cunoștințe, pe care le vom discuta mai în detaliu în secțiunea următoare.
-
-În 5 minute după ce te-ai conectat la site-ul web Near Me, poți testa propriul tău agent virtual. Agentul tău virtual poate oferi răspunsuri instantanee 24/7 la întrebările repetitive ale clienților. În acest fel, poți stabili și menține relații cu clienții tăi.
+Mesageria Near Me integrează inteligența artificială conversațională de ultimă generație cu mesajele Google Business, permițând clienților să vă contacteze afacerea în orice moment al zilei prin intermediul butonului de chat de pe profilul dvs. Google Maps. În acest fel, vă puteți concentra pe îngrijirea afacerii dvs., în timp ce Mesageria Near Me se ocupă de întrebările clienților dvs. Ceea ce diferențiază Mesageria Near Me de serviciile similare este timpul de configurare de 5 minute, personalizarea self-service și suportul de chat live încorporat.
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/2-custom-FAQ.png" alt="Near Me Messaging oferă funcționalitate FAQ personalizată pentru a personaliza agentul virtual"/>
+<img height="550" src="/images/blog/12-near-me-messaging-complements-google-business-messages/1-GBM-chat-button.png" alt="Mesageria Near Me integrează mesajele Google Business cu butonul de chat de pe profilul dvs. Google Maps."/>
 
-*Near Me Messaging oferă funcționalitate FAQ personalizată pentru a personaliza agentul virtual.*
+*Mesageria Near Me integrează mesajele Google Business cu butonul de chat de pe profilul dvs. Google Maps.*
 </center>
 
-### 2. Funcționalități self-service și personalizabile.
+În primul rând, atunci când companiile integrează mesajele Google Business, trebuie să plătească o agenție de consultanță profesională pentru a crea o experiență complet personalizată pentru ele de la zero. Acestea sunt de obicei costisitoare și necesită timp. Înțelegem că investiția tipică de timp și resurse pentru a profita de mesajele Google Business este o barieră de intrare pentru multe întreprinderi mici. Mesageria Near Me rezolvă această limitare oferind o soluție accesibilă pentru IMM-uri. Puteți obține un agent virtual funcțional în mai puțin de 5 minute. Mai mult, puteți actualiza și personaliza continuu agentul dvs. virtual oricând de pe site-ul web Mesageria Near Me. Modificările pe care le faceți pe site-ul Mesageria Near Me intră în vigoare imediat pentru clienții care interacționează cu agentul dvs.
 
-În plus față de generarea răspunsurilor din profilul tău de afacere și comentariile clienților, Near Me Messaging este echipat cu funcționalități de personalizare self-service. Pentru a-ți personaliza agentul virtual, unele funcționalități de bază pe care le poți personaliza includ numele agentului virtual, mesajul de bun venit și logo-ul. Chiar mai important, poți crea răspunsuri personalizate pentru întrebările utilizatorilor specifice afacerii tale. Acest lucru poate fi făcut prin crearea de FAQ-uri (întrebări frecvente) și adăugarea mai multor informații despre afacerea ta (cum ar fi textul de pe site-ul tău web) la baza de cunoștințe.
+În plus, atunci când activați butonul de chat din Profilul Companiei pe Google, aveți posibilitatea de a răspunde clienților dvs. ori de câte ori sunteți disponibil. Dar când integrați mesajele Google Business, mesajele dvs. primite sunt direcționate către agentul dvs. live și vă pierdeți capacitatea de a discuta direct cu clienții în Profilul Companiei pe Google. Mesageria Near Me rezolvă această limitare oferind o funcție de agent live fără costuri suplimentare sau timp de configurare. Cu funcția de agent live, clienții pot solicita să fie transferați la o persoană reală în orice moment. Când vedeți o solicitare de agent live sau dacă doriți să preluați controlul de la agentul virtual, vă puteți alătura conversației și puteți vorbi direct cu clienții dvs.
 
-După ce ai personalizat agentul, poți să-l testezi în privat până când ești mulțumit de performanțele sale. Odată gata, îl poți publica public direct de pe site-ul web Near Me Messaging. Odată ce ai publicat public agentul tău virtual, poți continua să-ți îmbunătățești agentul virtual, cum ar fi adăugarea mai multor FAQ-uri și schimbarea mesajului de bun venit. De fiecare dată când îți îmbunătățești agentul virtual, ai ocazia să testezi modificările, apoi să repornești agentul. Când repornești agentul, modificările pe care le-ai făcut devin imediat vizibile pentru utilizatori. Ca proprietar de afacere, ai cu adevărat libertatea și puterea de a construi și îmbunătăți agentul virtual fără costuri suplimentare sau timp de comunicare cu echipa noastră.
+## Beneficiile Mesageriei Near Me
+
+### 1. Economisește timp și forță de muncă în furnizarea unui serviciu excelent pentru clienți
+
+Când utilizați Mesageria Near Me, răspunsurile la cele mai elementare întrebări sunt gestionate automat pe baza informațiilor din Profilul Companiei pe Google. Cu cât sunt mai multe informații în Profilul Companiei pe Google, cu atât agentul poate răspunde mai bine la întrebările de bază. Și dacă doriți vreodată să vă actualizați Profilul Companiei pe Google, puteți sincroniza modificările cu Near Me pentru a actualiza automat răspunsurile botului. Agentul virtual va genera, de asemenea, răspunsuri din recenziile relevante ale utilizatorilor de pe profilul dvs. Google Maps care au o evaluare ridicată. Dincolo de răspunsurile generate automat, puteți adăuga mai mult conținut personalizat prin întrebări frecvente și baza de cunoștințe, despre care vom discuta mai detaliat în secțiunea următoare.
+
+În 5 minute de la conectarea la site-ul web Near Me, vă puteți testa propriul agent virtual funcțional. Agentul dvs. virtual poate oferi răspunsuri instantanee la întrebările repetitive ale clienților 24/7. În acest fel, puteți construi și menține relațiile cu clienții dvs.
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/3-overview-page.png" alt="Interfața paginii de privire de ansamblu Near Me Messaging unde proprietarii de afaceri pot modifica mesajul de bun venit și își pot îmbunătăți agentul virtual"/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/2-custom-FAQ.png" alt="Mesageria Near Me oferă o funcție de întrebări frecvente personalizate pentru a personaliza agentul virtual"/>
 
-*Interfața paginii de privire de ansamblu Near Me Messaging unde proprietarii de afaceri pot modifica mesajul de bun venit și își pot îmbunătăți agentul virtual.*
+*Exemplu din funcția noastră de întrebări frecvente personalizate.*
 </center>
 
-### 3. Obține insights prin Near Me Analytics.
+### 2. Capabilități self-service și personalizabile.
 
-Near Me Messaging oferă și funcționalități de analiză pentru a te ajuta să înțelegi mai bine performanțele agentului tău virtual, orele cele mai aglomerate și mesajele clienților. Poți și să aprofundezi întrebările la care agentul virtual nu a putut găsi răspuns astfel încât să le poți adăuga la FAQ-urile tale personalizate. În final, poți și să afli mai multe despre subiectele cele mai menționate în comentariile Google.
+Pe lângă generarea de răspunsuri din Profilul Companiei și recenziile clienților, Mesageria Near Me este echipată cu capabilități de personalizare self-service. Pentru a vă personaliza agentul virtual, unele dintre caracteristicile de bază pe care le puteți personaliza sunt numele agentului virtual, mesajul de bun venit și sigla. Mai important, puteți crea răspunsuri personalizate la întrebările utilizatorilor care sunt specifice afacerii dvs. Acest lucru se face prin crearea de întrebări frecvente (FAQ) și adăugarea de mai multe informații despre afacerea dvs. (cum ar fi textul de pe site-ul dvs. web) la baza de cunoștințe.
+
+După personalizarea agentului dvs., aveți posibilitatea de a-l testa în mod privat până când sunteți mulțumit de performanță. Când sunteți gata, îl puteți lansa publicului direct de pe site-ul web Mesageria Near Me. Odată ce lansați public agentul dvs. virtual, aveți posibilitatea de a vă îmbunătăți continuu agentul virtual, cum ar fi adăugarea mai multor întrebări frecvente și schimbarea mesajului de bun venit. De fiecare dată când vă îmbunătățiți agentul virtual, aveți ocazia să testați modificările și apoi să relansați agentul. Când relansați agentul, modificările pe care le-ați făcut vor fi vizibile imediat pentru utilizatori. În calitate de proprietari de afaceri, aveți cu adevărat libertatea și puterea de a construi și îmbunătăți agentul dvs. virtual fără costuri suplimentare sau timp de comunicare cu echipa noastră.
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/4-analytics-1.png" alt="Near Me Analytics îți oferă insights despre mesajele clienților."/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/3-overview-page.png" alt="Interfața paginii de prezentare generală a Mesageriei Near Me, unde proprietarii de afaceri pot modifica mesajul de bun venit și își pot îmbunătăți agentul virtual"/>
 
-*Near Me Analytics îți oferă insights despre mesajele clienților.*
+*Interfața paginii de prezentare generală a Mesageriei Near Me, unde proprietarii de afaceri pot modifica mesajul de bun venit și își pot îmbunătăți agentul virtual.*
+</center>
+
+### 3. Obțineți informații prin Near Me Analytics.
+
+Mesageria Near Me oferă, de asemenea, o funcție de analiză pentru a vă ajuta să obțineți informații despre performanța agentului dvs. virtual, orele cele mai aglomerate și mesajele clienților. De asemenea, puteți obține informații despre întrebările la care agentul dvs. virtual nu a putut găsi un răspuns, astfel încât să le puteți adăuga la întrebările frecvente personalizate. În cele din urmă, puteți afla mai multe despre cele mai menționate subiecte din recenziile Google.
+
+<center>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/4-analytics-1.png" alt="Near Me Analytics vă oferă informații despre mesajele clienților dvs."/>
+
+*Near Me Analytics vă oferă informații despre mesajele clienților dvs.*
 </center>
 
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/5-analytics-2.png" alt="Near Me Analytics îți permite să vezi orele cele mai aglomerate ale agentului virtual și întrebările fără răspuns"/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/5-analytics-2.png" alt="Near Me Analytics vă permite să vedeți orele cele mai aglomerate ale agentului dvs. virtual și întrebările fără răspuns"/>
 
-*Near Me Analytics îți permite să vezi orele cele mai aglomerate ale agentului virtual și întrebările fără răspuns.*
+*Near Me Analytics vă permite să vedeți orele cele mai aglomerate ale agentului dvs. virtual și întrebările fără răspuns.*
 </center>
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/6-analytics-3.png" alt="Near Me Analytics îți permite să găsești subiectele cele mai menționate în comentariile Google."/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/6-analytics-3.png" alt="Near Me Analytics vă permite să găsiți cele mai menționate subiecte în recenziile Google."/>
 
-*Near Me Analytics îți permite să găsești subiectele cele mai menționate în comentariile Google.*
+*Near Me Analytics vă permite să găsiți cele mai menționate subiecte în recenziile Google.*
 </center>
 
-### 4. Înțelege nevoile clienților prin istoricul conversațiilor.
+### 4. Înțelegeți de ce are nevoie clientul dvs. prin istoricul conversațiilor.
 
-Near Me Messaging îți permite să vezi conversațiile între agentul virtual și clienți. Acest lucru te poate ajuta să înțelegi cine este interesat de afacerea ta și cum se comportă agentul tău virtual. În plus, poți și să creezi etichete, să le aplici conversațiilor, apoi să filtrezi după etichete.
+Mesageria Near Me vă permite să vedeți conversațiile dintre agentul dvs. virtual și clienții dvs. Acest lucru vă poate ajuta să știți cine este interesat de afacerea dvs. și cum se descurcă agentul dvs. virtual. În plus, aveți și posibilitatea de a crea etichete, de a le aplica conversațiilor și apoi de a filtra pe baza etichetei.
 
 <center>
 <img src="/images/blog/12-near-me-messaging-complements-google-business-messages/7-conversation-history.png"/>
 
-*Funcționalitatea de istoric al conversațiilor Near Me Messaging.*
+*Funcția de istoric al conversațiilor din Mesageria Near Me.*
 </center>
 
-### 5. Capacitatea de a chatta direct cu clienții prin funcționalitatea noastră de agent live
+### 5. Posibilitatea de a discuta direct cu clienții dvs. cu funcția noastră de agent live
 
-Near Me Messaging este și echipat cu o funcționalitate de agent live. Clienții pot da click pe "Cere agent live" prin GBM. Când un client cere un agent live, proprietarul va primi o notificare de pe site-ul web Near Me.
+Mesageria Near Me este, de asemenea, echipată cu o funcție de agent live. Clienții pot face clic pe „solicitați un agent live” prin GBM. Când un client solicită un agent live, proprietarul va primi o notificare de pe site-ul web Near Me.
 
 <center>
-<img height="500" src="/images/blog/12-near-me-messaging-complements-google-business-messages/8-live-agent-request.png" alt="Clienții pot cere un agent live prin butonul de chat de pe profilul Google Maps."/>
+<img height="500" src="/images/blog/12-near-me-messaging-complements-google-business-messages/8-live-agent-request.png" alt="Clienții pot solicita un agent live prin intermediul butonului de chat de pe profilul Google Maps."/>
 
-*Clienții pot cere un agent live prin butonul de chat de pe profilul Google Maps.*
+*Clienții pot solicita un agent live prin intermediul butonului de chat de pe profilul Google Maps.*
 </center>
 
-Atâta timp cât utilizatorul a trimis un mesaj în ultimele 30 de zile, proprietarul poate să se alăture oricărei conversații în orice moment. Când un agent live se alătură/părăsește conversația, clientul va primi o notificare. Odată ce agentul live părăsește conversația, toate mesajele vor fi din nou direcționate către agentul virtual. De pe site-ul web Near Me, poți vedea toate evenimentele de conversație - deci poți vedea când utilizatorul a cerut un agent și când agentul s-a alăturat/părăsit, precum și toate mesajele de la bot, utilizator și agent.
-
-
-<center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/9-live-agent-notif.png" alt="O notificare va apărea pe site-ul web Near Me când un client cere un agent live."/>
-
-*O notificare va apărea pe site-ul web Near Me când un client cere un agent live.*
-</center>
+Proprietarul se poate alătura oricărei conversații în orice moment, atâta timp cât utilizatorul a trimis un mesaj în ultimele 30 de zile. Clientul va primi o notificare când agentul live se alătură/părăsește conversația. De îndată ce agentul live părăsește conversația, toate mesajele vor fi direcționate din nou către agentul virtual. De pe site-ul Near Me, toate evenimentele conversației pot fi văzute - astfel încât să puteți vedea când utilizatorul solicită un agent și când agentul se alătură/părăsește, pe lângă toate mesajele de la bot, utilizator și agent.
 
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/10-live-agent-convo.png" alt="Interfața funcționalității de agent live Near Me."/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/9-live-agent-notif.png" alt="O notificare va apărea pe site-ul web Near Me când un client a solicitat un agent live."/>
 
-*Interfața funcționalității de agent live Near Me.*
+*O notificare va apărea pe site-ul web Near Me când un client a solicitat un agent live.*
 </center>
 
-Ești gata să începi cu Near Me Messaging? Rămâi pe fază pentru următorul nostru articol despre cum să-ți lansezi agentul virtual cu Near Me Messaging. [Rezervă o demonstrație cu noi acum](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) și fii printre primii care să obțină o încercare gratuită de Near Me Messaging ! 
+
+<center>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/10-live-agent-convo.png" alt="Interfața funcției de agent live Near Me."/>
+
+*Interfața funcției de agent live Near Me.*
+</center>
+
+Sunteți gata să începeți cu Mesageria Near Me? Rămâneți pe fază pentru următoarea noastră postare despre cum să lansați agentul dvs. virtual cu Mesageria Near Me. [Rezervați o demonstrație cu noi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) astăzi și fiți printre primii care obțin o perioadă de probă gratuită a Mesageriei Near Me!

@@ -3,13 +3,13 @@ title: "داخلی در مقابل برون سپاری برای تماس های 
 metatitle: "Seasalt.ai | تماس های خروجی زنده | داخلی در مقا..."
 date: "2024-10-23T00:22:19-07:00"
 modified_date: "2025-07-26T16:48:39Z"
-draft: "false"
-author: "Jun Mao"
-description: "تماس های خروجی داخلی در مقابل برون سپاری شده را مقایسه کنید - هزینه ها، ویژگی ها، و نکات عملی برا..."
-weight: "1"
-tags:
-toc: "true"
-image: "/images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhous..."
+draft: false
+author: Jun Mao
+description: "تماس های خروجی داخلی در مقابل برون سپاری شده را مقایسه کنید - هزینه ها، ویژگی ها، و نکات عملی برای بهینه سازی ارتباط با مشتری خود را دریافت کنید."
+weight: 1
+tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "SeaChat", "هوش مصنوعی صوتی"]
+toc: true
+image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
 canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
 url: "/blog/live-outbound-inhouse-outsourced/"
 ---

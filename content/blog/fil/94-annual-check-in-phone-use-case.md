@@ -1,20 +1,20 @@
 ---
-title: "SeaX: Halimbawa ng Taunang Phone Check-in - Pagbibigay ng Mas Magandang Care Services para sa mga Senior"
-metatitle: "SeaX Taunang Phone Check-in Halimbawa: AI Assistant Nag-improve ng Quality ng Senior Care Service"
+title: "SeaX: Halimbawa ng Taunang Tawag sa Pag-check - Nagbibigay ng Mas Mahusay na Serbisyo ng Pag-aalaga para sa mga Matatanda"
+metatitle: "Halimbawa ng Taunang Tawag sa Pag-check ng SeaX: Pinapahusay ng AI Assistant ang Kalidad ng Serbisyo ng Pag-aalaga sa Matatanda"
 date: 2024-08-20T00:22:19-07:00
 draft: false
 author: Jun Mao
-description: "Tuklasin kung paano binago ng SeaX ang senior care services sa pamamagitan ng AI technology, pag-solve sa iba't ibang challenges sa taunang phone check-ins, pag-improve ng service quality at pagbawas ng volunteer workload. Alamin kung paano ang intelligent solutions ng SeaX ay nagbibigay ng mas magandang continuous care para sa mga senior sa buong mundo."
+description: "Tuklasin kung paano binago ng SeaX ang serbisyo ng pag-aalaga sa matatanda sa pamamagitan ng teknolohiya ng AI, na naglutas ng maraming hamon sa taunang tawag sa pag-check, nagpapahusay sa kalidad ng serbisyo at nagbabawas ng pasanin ng mga boluntaryo. Alamin kung paano nagbibigay ang mga matalinong solusyon ng SeaX ng mas mahusay na patuloy na pangangalaga para sa mga matatanda sa buong mundo."
 weight: 1
 tags: ["SeaX", "Seasalt.ai"]
 toc: true
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
 canonicalURL: "/blog/annual-check-in-phone-use-case/"
 url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Sa harap ng lumalaking aging population, ang mga senior care institutions sa buong mundo ay nakakaranas ng maraming challenges. Lalo na sa regular care at health monitoring, hindi lang ito nangangailangan ng malaking human resources, kundi madalas ding nagdudulot ng potential issues na hindi napapansin dahil sa negligence o delays. Ito ang eksaktong challenge na kinaharap ng isang Singapore social service organization na nakipagtulungan sa Seasalt.ai. Ang organization ay nagsasagawa ng taunang care calls sa libu-libong senior bawat taon, isang proseso na mahirap at mahirap i-manage nang efficiently. Para ma-solve ang problem na ito, nag-introduce sila ng SeaX, na malaking improvement sa quality at efficiency ng care services sa pamamagitan ng AI technology.'
+summary: 'Sa harap ng lumalaking populasyon ng matatanda, ang mga institusyon ng pangangalaga sa matatanda sa buong mundo ay nahaharap sa maraming hamon. Lalo na sa regular na pag-aalaga at pagsubaybay sa kalusugan, hindi lamang nangangailangan ng malaking halaga ng mga mapagkukunan ng tao, kundi madalas ding hindi natutukoy ang mga potensyal na problema dahil sa pagkukulang o pagkaantala. Ito ang isang hamon na kinaharap ng isang institusyon ng serbisyong panlipunan sa Singapore na nakikipagtulungan sa Seasalt.ai. Ang institusyong ito ay taunang nakikipag-ugnayan sa libu-libong matatanda sa pamamagitan ng isang taunang tawag sa pag-aalaga, isang proseso na masalimuot at mahirap pamahalaan nang mahusay. Upang malutas ang problemang ito, ipinakilala nila ang SeaX, na makabuluhang pinahusay ang kalidad at kahusayan ng serbisyo ng pag-aalaga sa pamamagitan ng teknolohiya ng AI.'
 ---
 
-Sa harap ng lumalaking aging population, ang mga senior care institutions sa buong mundo ay nakakaranas ng maraming challenges. Lalo na sa regular care at health monitoring, hindi lang ito nangangailangan ng malaking human resources, kundi madalas ding nagdudulot ng potential issues na hindi napapansin dahil sa negligence o delays. Ito ang eksaktong challenge na kinaharap ng isang Singapore social service organization na nakipagtulungan sa Seasalt.ai. Ang organization ay nagsasagawa ng taunang care calls sa libu-libong senior bawat taon, isang proseso na mahirap at mahirap i-manage nang efficiently. Para ma-solve ang problem na ito, nag-introduce sila ng SeaX, na malaking improvement sa quality at efficiency ng care services sa pamamagitan ng AI technology.
+Sa harap ng lumalaking populasyon ng matatanda, ang mga institusyon ng pangangalaga sa matatanda sa buong mundo ay nahaharap sa maraming hamon. Lalo na sa regular na pag-aalaga at pagsubaybay sa kalusugan, hindi lamang nangangailangan ng malaking halaga ng mga mapagkukunan ng tao, kundi madalas ding hindi natutukoy ang mga potensyal na problema dahil sa pagkukulang o pagkaantala. Ito ang isang hamon na kinaharap ng isang institusyon ng serbisyong panlipunan sa Singapore na nakikipagtulungan sa Seasalt.ai. Ang institusyong ito ay taunang nakikipag-ugnayan sa libu-libong matatanda sa pamamagitan ng isang taunang tawag sa pag-aalaga, isang proseso na masalimuot at mahirap pamahalaan nang mahusay. Upang malutas ang problemang ito, ipinakilala nila ang SeaX, na makabuluhang pinahusay ang kalidad at kahusayan ng serbisyo ng pag-aalaga sa pamamagitan ng teknolohiya ng AI.
 
 <br/>
 
@@ -24,43 +24,35 @@ Sa harap ng lumalaking aging population, ang mga senior care institutions sa buo
 </a>
 </center>
 
-## Mga Challenge na Kinakaharap ng Long-term Care
+## Mga Hamon sa Pangmatagalang Pangangalaga
 
-### Hindi Sapat na Taunang Care Frequency:
-Sa tradisyonal na paraan, ang organization ay makakagawa lang ng isang phone check-in sa bawat senior bawat taon. Ang frequency na ito ay hindi sapat para ma-identify at ma-address agad ang potential health issues o emergencies.
+### Masyadong Mababa ang Dalas ng Taunang Pag-aalaga: 
+Tradisyonal, ang institusyon ay nakakapagkontak lamang sa bawat matanda isang beses bawat taon para sa tawag sa pag-check. Ang ganitong dalas ay hindi sapat upang matukoy at matugunan ang mga potensyal na problema sa kalusugan o emergency nang real-time.
+### Limitado ang Mga Mapagkukunan ng Boluntaryo: 
+Ang bawat taunang pag-check ay nangangailangan ng malaking kontribusyon ng mga boluntaryo, at kadalasan ay nangangailangan ang mga boluntaryo na halos full-time para sa mga gawaing ito. Dahil sa limitadong mapagkukunan, mahirap matiyak ang kalidad ng serbisyo.
+### Hindi Sapat ang Follow-up: 
+Sa tradisyonal na modelo ng pag-aalaga, kung ang isang matanda ay hindi nakasagot sa tawag, kadalasan ay mahirap magsagawa ng agarang follow-up, na maaaring magresulta sa pagpapabaya sa ilang potensyal na problema.
+### Hindi Sapat ang Personalisasyon ng Serbisyo: 
+Dahil ang nilalaman ng tawag sa pag-check ay medyo nakapirming, hindi ito makapagbibigay ng personalisadong payo o pag-aalaga batay sa partikular na sitwasyon ng bawat matanda, na nagreresulta sa hindi sapat na pagtugon sa ilang pangangailangan.
+### Hindi Agad Natutugunan ang Emergency: 
+Kung ang isang matanda ay nakaranas ng emergency sa labas ng oras ng pag-check, ang kakulangan ng agarang channel ng komunikasyon ay maaaring magresulta sa pagkaantala ng pagtugon, na nagdaragdag ng panganib.
 
-### Limited na Volunteer Resources:
-Bawat taunang check-in ay nangangailangan ng malaking volunteer input, madalas na nangangailangan ng volunteers na magtrabaho halos full-time sa mga task na ito. Dahil sa limited resources, mahirap matiyak ang service quality.
+## Solusyon: Ang Paggamit ng SeaX
 
-### Hindi Sapat na Follow-up:
-Sa tradisyonal na care models, kung hindi nasagot ng mga senior ang mga calls, madalas na mahirap magsagawa ng timely follow-ups, na maaaring magdulot ng potential issues na hindi napapansin.
+### Pagtaas ng Dalas ng Pag-aalaga: 
+Matapos ipakilala ang SeaX, itinaas ng institusyon ang dalas ng tawag sa pag-aalaga mula isang beses bawat taon patungong isang beses bawat buwan. Ang mataas na dalas na ito ng pag-check ay hindi lamang nagpapataas ng antas ng pag-aalaga sa mga matatanda, kundi nakakatukoy din ng mga potensyal na problema nang mas maaga at matugunan ang mga ito, na tinitiyak na ang mga matatanda ay makakatanggap ng mas napapanahong pangangalaga.
+### Mga Awomatikong Tawag sa Pag-aalaga: 
+Ang AI voice assistant ng SeaX ay maaaring awtomatikong tumawag para sa mga tawag sa pag-aalaga, kaya hindi na kailangan ng mga boluntaryo na gumugol ng maraming oras at lakas para sa mga paulit-ulit na tawag sa pag-check. Ang AI assistant ay maaaring makipag-ugnayan sa libu-libong matatanda sa awtomatikong mode, at maaaring magsagawa ng mga survey batay sa pangangailangan, upang mas maunawaan ang partikular na pangangailangan ng bawat matanda.
+### Real-time na Follow-up at Callback: 
+Kung ang isang matanda ay hindi nakasagot sa tawag, ang SeaX ay awtomatikong magbabalik ng tawag, na tinitiyak na ang bawat matanda ay makakatanggap ng pag-aalaga. Kasabay nito, ang sistema ay maaari ring awtomatikong subaybayan at suriin ang mga hindi natapos na survey, at agad na ipaalam sa mga kinauukulang tauhan para sa follow-up.
+### Personalisadong Mga Plano ng Pag-aalaga: 
+Sa pamamagitan ng teknolohiya ng AI, ang SeaX ay maaaring magbigay ng personalisadong mga plano ng pag-aalaga batay sa kalagayan sa kalusugan at mga gawi sa buhay ng bawat matanda, kabilang ang mga espesyal na payo sa kalusugan at paalala.
+### Agarang Pagtugon sa Emergency: 
+Ang sistema ng SeaX ay maaaring awtomatikong magpaalam sa mga kinauukulang tauhan kapag ang isang matanda ay nakaranas ng emergency, at magbigay ng agarang suporta at tulong, na tinitiyak na sa mga kritikal na sandali ang mga matatanda ay makakatanggap ng kinakailangang tulong.
 
-### Kakulangan sa Service Personalization:
-Dahil sa relatively fixed content ng phone check-ins, hindi posible na magbigay ng personalized advice o care base sa specific situation ng bawat senior, na nagdudulot ng ilang needs na hindi fully na-meet.
+## Mga Resulta at Epekto
 
-### Hindi Timely na Emergency Response:
-Kung ang mga senior ay nakakaranas ng emergencies sa labas ng check-in times, may kakulangan sa timely communication channels, na maaaring magdulot ng delayed handling at increased risks.
-
-## Solusyon: SeaX Implementation
-
-### Increased Care Frequency:
-Pagkatapos mag-introduce ng SeaX, ang organization ay nag-increase ng care call frequency mula sa once per year hanggang once per month. Ang high-frequency checking na ito ay hindi lang nag-improve ng care para sa mga senior kundi nag-enable din ng earlier identification at handling ng potential issues, na nagsisiguro na ang mga senior ay nakakatanggap ng mas timely care.
-
-### Automated Care Calls:
-Ang AI voice assistant ng SeaX ay maaaring automatically gumawa ng outbound care calls, kaya ang mga volunteer ay hindi na kailangang gumugol ng malaking oras at effort sa highly repetitive phone check-in work. Ang AI assistant ay maaaring makipag-communicate sa libu-libong senior sa automated mode at magsagawa ng surveys kung kinakailangan para mas maunawaan ang specific needs ng bawat senior.
-
-### Immediate Follow-up at Callbacks:
-Kung ang isang senior ay hindi nasagot ang call, ang SeaX ay automatically mag-call back para masiguro na bawat senior ay nakakatanggap ng care. Bukod pa rito, ang system ay maaaring automatically i-track at i-investigate ang incomplete surveys at agad na i-notify ang relevant personnel para sa follow-up.
-
-### Personalized Care Plans:
-Sa pamamagitan ng AI technology, ang SeaX ay maaaring magbigay ng personalized care plans base sa health status at lifestyle habits ng bawat senior, kasama ang exclusive health advice at reminders.
-
-### Immediate Emergency Response:
-Ang SeaX system ay maaaring automatically i-notify ang relevant personnel kapag ang mga senior ay nakakaranas ng emergencies at magbigay ng immediate support at assistance, na nagsisiguro na ang mga senior ay nakakatanggap ng necessary help sa critical moments.
-
-## Mga Resulta at Impact
-
-Sa pamamagitan ng SeaX, ang organization ay hindi lang malaking improvement sa quality ng care services kundi significant reduction din sa volunteer workload, na ginawang mas efficient ang buong system operation. Ang case na ito ay fully na-demonstrate ang malaking potential ng AI technology sa senior care, na nagbibigay ng continuous at personalized care para sa mas maraming senior sa pamamagitan ng automated, intelligent care services.
+Sa pamamagitan ng SeaX, hindi lamang makabuluhang pinahusay ng institusyon ang kalidad ng serbisyo ng pag-aalaga, ngunit makabuluhang nabawasan din ang workload ng mga boluntaryo, na ginawang mas mahusay ang operasyon ng buong sistema. Ang kasong ito ay nagpapakita nang malinaw ng malaking potensyal ng teknolohiya ng AI sa pangangalaga sa matatanda, sa pamamagitan ng mga awtomatiko at matalinong serbisyo ng pag-aalaga, na nagbibigay-daan sa mas maraming matatanda na makatanggap ng patuloy at personalisadong pangangalaga.
 
 <br/>
 
@@ -69,4 +61,4 @@ Sa pamamagitan ng SeaX, ang organization ay hindi lang malaking improvement sa q
 
 </center>
 
-Para sa karagdagang impormasyon tungkol sa kung paano binago ng SeaX ang senior care services, mangyaring bisitahin ang [SeaX Senior Care Solutions](https://usecase.seasalt.ai/voice-for-senior-care). 
+Para sa karagdagang impormasyon tungkol sa kung paano binabago ng SeaX ang mga serbisyo ng pangangalaga sa matatanda, bisitahin ang [Mga Solusyon sa Pangangalaga sa Matatanda ng SeaX](https://usecase.seasalt.ai/voice-for-senior-care).

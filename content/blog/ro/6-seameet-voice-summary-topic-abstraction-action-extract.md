@@ -1,194 +1,194 @@
 ---
-title: "De la demonstrație la succes: insight-uri din întâlniri (4/5)"
-metatitle: "De la demonstrație la succes (4/5): insight-uri din întâlniri"
+title: "De la Demo la Succes: Percepția întâlnirilor (4/5)"
+metatitle: "De la Demo la Succes (4/5): Percepția întâlnirilor"
 date: 2021-08-28T12:26:00-07:00
 author: Kim Dodds
 image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
-description: "În partea a patra a acestei serii de blog-uri, urmați călătoria Seasalt.ai de a crea SeaMeet, soluția noastră colaborativă pentru întâlniri moderne."
+description: "În a patra parte a acestei serii de bloguri, urmăriți călătoria Seasalt.ai către crearea SeaMeet, soluțiile noastre colaborative pentru întâlniri moderne."
 tags: ["SeaMeet"]
 weight: 1  
 canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
 url: "/blog/seameet-voice-summarization-topic-abstraction"
 aliases:
     - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: 2024-12-19T10:30:00Z
+modified_date: "2025-08-01T12:00:00Z"
 ---
 
-*În această serie de blog-uri, urmați călătoria Seasalt.ai de a crea o experiență completă de întâlniri moderne, de la începuturile sale modeste, până la optimizarea serviciilor noastre pe diferite hardware și modele, până la integrarea celor mai avansate sisteme de procesare a limbajului natural, în final realizând complet soluția noastră colaborativă pentru întâlniri moderne SeaMeet.*
+*De-a lungul acestei serii de bloguri, urmăriți călătoria Seasalt.ai către crearea unei experiențe complete de întâlniri moderne, începând cu începuturile sale umile, până la optimizarea serviciului nostru pe diferite hardware și modele, la integrarea sistemelor NLP de ultimă generație și, în final, la realizarea completă a SeaMeet, soluțiile noastre colaborative pentru întâlniri moderne.*
 
 ## Dincolo de transcriere
 
-Toate obstacolele pe care le-am întâlnit anterior ne-au dat o lecție importantă: putem face totul mai bine singuri.
-Astfel, echipa Seasalt.ai a început să antreneze propriile noastre modele acustice și lingvistice pentru a rivaliza cu transcriberul de conversații Azure.
-Microsoft a făcut o prezentare excelentă la MS Build 2019, demonstrând serviciile vocale Azure, care este atât un produs puternic cât și foarte ușor de folosit.
-În uimire, am trebuit să ne întrebăm: unde mergem de aici?
-Cum putem extinde acest produs deja util? Modern Meetings a demonstrat un potențial puternic de conversie vocală în text, dar atât.
-Știam că Azure ne poate auzi vorbind, dar ce-ar fi dacă am putea să-l facem să *gândească* pentru noi?
-Să ne bazăm doar pe transcriere, deși produsul era impresionant, aplicațiile sale erau oarecum limitate.
+Toate obstacolele anterioare cu care ne-am confruntat ne-au învățat o lecție importantă: că am putea face toate acestea mai bine singuri.
+Deci, echipa de la Seasalt.ai a început să-și antreneze propriile modele acustice și lingvistice pentru a rivaliza cu capabilitățile transcriptorului conversațional Azure.
+Microsoft a prezentat o prezentare uimitoare la MS Build 2019, prezentând Azure Speech Services ca un produs extrem de capabil, dar și foarte accesibil.
+După ce am fost impresionați, suntem forțați să ne punem întrebarea: de unde mergem mai departe?
+Cum putem extinde acest produs deja instrumental? Întâlnirile moderne au demonstrat un potențial robust de transformare a vorbirii în text, dar aici se oprește.
+Știm că Azure ne poate asculta, dar ce-ar fi dacă am putea să-l facem să *gândească* pentru noi?
+Cu doar transcrieri, deși produsul este impresionant, aplicațiile sunt oarecum limitate.
 
-Prin combinarea tehnologiei existente de conversie vocală în text cu sisteme capabile să genereze insight-uri din transcrieri, putem oferi produse care depășesc așteptările și anticipează nevoile utilizatorilor.
-Am decis să integrăm trei sisteme pentru a îmbunătăți valoarea generală a transcrierilor noastre SeaMeet: rezumarea, abstractizarea temelor și extragerea acțiunilor.
-Alegerea acestor sisteme a fost făcută pentru a atenua punctele specifice de durere ale utilizatorilor.
+Prin integrarea tehnologiei existente de transformare a vorbirii în text cu sisteme care pot produce informații din transcrieri, putem livra un produs care depășește așteptările și anticipează nevoile utilizatorilor.
+Am decis să încorporăm trei sisteme pentru a îmbunătăți valoarea generală a transcrierilor noastre SeaMeet: rezumarea, abstractizarea subiectelor și extragerea elementelor de acțiune.
+Fiecare dintre acestea a fost ales pentru a atenua punctele dureroase specifice ale utilizatorilor.
 
-Pentru demonstrație, vom arăta rezultatele rulării sistemelor de rezumare, teme și acțiuni pe următoarea transcriere scurtă:
+Pentru a demonstra, vom arăta rezultatul rulării sistemelor de rezumare, subiecte și acțiuni pe următoarea transcriere scurtă:
 
 ```
-Kim: "Mulțumesc, Xuchen, ești pe mute pentru că sunt mulți oameni pe acest apel. Apasă asterisc 6 pentru a te demuta."
+Kim: "Mulțumesc, Xuchen, ești pe mut pentru că sunt mulți oameni în acest apel. Apasă Star 6 pentru a activa sunetul.”
 
-Xuchen: "Bine, am crezut că era doar semnalul prost."
+Xuchen: "OK, am crezut că e doar o recepție proastă.",
 
-Kim: "Da."
+Kim: "Da.",
 
-Sam: "Tocmai am trimis un fișier separat care conține datele vocale de marți până la 30 de zile. Ar trebui să aveți niște versiuni actualizate."
+Sam: "Tocmai am trimis un fișier separat cu date vocale pentru marți până la 30 de zile. Ar trebui să aveți niște versiuni actualizate.",
 
-Kim: "Deci cu siguranță vor fi câteva cazuri limită unde această metodă nu va funcționa. Am găsit deja câteva în acest exemplu. Ia verbul de acolo și spune că vorbitorul este destinatarul, când de fapt Carol este destinatarul. Dar acesta este același model ca în al doilea exemplu, chiar speri să fiu destinatarul, pentru că nu l-au desemnat pe Jason, s-au desemnat pe ei înșiși să-l spună pe JASON."
+Kim: "Deci, vor exista cu siguranță cazuri limită în care acest lucru nu funcționează. Am găsit deja câteva, ca în acest exemplu. Scoate verbul de acolo și spune că vorbitorul este cel desemnat, când de fapt Carol este cel desemnat. Dar este același model ca ceva de genul al doilea, unde vrei cu adevărat ca eu să fiu cel desemnat, pentru că nu-l desemnează pe Jason, ci se desemnează pe ei înșiși să-i spună lui Jason.",
 
-Sam: "Înțeleg."
+Sam: "Am înțeles.",
 
-Xuchen: "Deci dezavantajul acestei metode este că trebuie să scrii reguli pentru ea. Da, avantajul este că este un model deja antrenat. Poți să-l antrenezi mai departe, dar nu trebuie să investim o mulțime de date pentru asta."
+Xuchen: "Deci, dezavantajul acestui lucru este că trebuie să scrii reguli pentru el. Da, avantajul este că este deja un model antrenat. Îl poți antrena mai departe, dar nu trebuie să arunci o tonă de date asupra acestuia.",
 
-Kim: "Deși nu face clasificarea, poate să ne spună dacă aceasta este o acțiune sau altceva?"
+Kim: "Deși nu face clasificarea care ne-ar aduce Este aceasta o acțiune sau este aceasta alta?",
 
-Xuchen: "Deci, trucul aici este că speră să existe verbe auxiliare, dar speră și să existe niște nume de persoane."
+Xuchen: "Deci, trucul aici este că vrem ca verbul auxiliar să fie prezent, dar am vrea și niște nume de persoane.",
 
-Kim: "Da, altfel ar putea fi pentru că."
+Sam: "Corect, altfel poate pentru că.",
 
-Xuchen: "Da, dacă într-o propoziție sunt multe instanțe cu cuvinte clare. Cu toate acestea, nu multe dintre ele ajută la acțiune."
+Xuchen: "Da, dacă există o propoziție cu, știi, există o mulțime de instanțe cu cuvinte evidente. Cu toate acestea, nu multe dintre ele ar ajuta acțiunile."
 ```
 
-## Rezumarea
+## Rezumare 
 
 <center>
-<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/summarization.png" alt="Interfața SeaMeet a Seasalt.ai cu declarațiile utilizatorilor și rezumatele lor scurte"/>
+<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/summarization.png" alt="Interfața SeaMeet a Seasalt.ai, cu enunțuri ale utilizatorilor cu rezumatele lor scurte"/>
 
-*Vederea de ansamblu a interfeței noastre SeaMeet, cu declarațiile utilizatorilor și rezumatele lor scurte în partea stângă*
+*O prezentare generală a interfeței noastre SeaMeet, cu enunțuri ale utilizatorilor cu rezumatele lor scurte în stânga*
 </center>
 
-Deși navigarea prin transcrieri text este cu siguranță mai ușoară decât să parcurgi ore de înregistrări, pentru întâlniri deosebit de lungi, găsirea unui conținut specific sau înțelegerea unei priviri de ansamblu asupra întregii conversații rămâne consumatoare de timp.
-Am ales să oferim două tipuri de rezumate în plus față de transcrierea completă.
+Deși navigarea unei transcrieri text este cu siguranță mai ușoară decât căutarea prin ore întregi de înregistrări audio, pentru întâlnirile deosebit de lungi poate fi încă consumator de timp să găsești conținut specific sau să obții o imagine de ansamblu a conversației în ansamblu.
+Am ales să oferim două tipuri de rezumate pe lângă transcrierea completă.
 
-Rezumatele la nivel de declarație individuală oferă fragmente mai concise și mai ușor de citit.
-În plus, rezumatele scurte ajută la normalizarea textului prin eliminarea fragmentelor semantic goale și prin efectuarea rezolvării anaferei și coreferenței.
-Apoi putem introduce fragmentele rezumate în aplicațiile downstream (cum ar fi abstractizarea temelor) pentru a îmbunătăți rezultatele finale.
+Rezumatele la nivel de enunț individual oferă segmente mai concise, ușor de citit.
+În plus, rezumatele scurte ajută la normalizarea textului prin eliminarea segmentelor semantic goale și efectuarea rezoluției anaforei și a co-referinței.
+Putem apoi alimenta segmentele rezumate în aplicații ulterioare (cum ar fi abstractizarea subiectelor) pentru a îmbunătăți rezultatele finale.
 
-În plus față de rezumatele scurte, am ales și să oferim un singur rezumat lung, destinat să creeze o privire de ansamblu foarte generală asupra întregii întâlniri.
-Acest rezumat funcționează similar cu un rezumat al întâlnirii, acoperind doar punctele principale de discuție și concluziile.
+Pe lângă rezumatele scurte, am ales să oferim și un singur rezumat lung care își propune să creeze o imagine de ansamblu foarte generală a întregii întâlniri.
+Acest rezumat funcționează ca un abstract pentru întâlnire, acoperind doar punctele principale de discuție și concluziile.
 
-Iată un exemplu de rezumate scurte, unde am procesat fiecare fragment din transcrierea originală prin rezumator:
+Următorul este un exemplu de rezumate scurte, unde am introdus fiecare segment din transcrierea originală prin rezumator:
 
 ```
-Kim: "Xuchen este pe mute pentru că sunt mulți oameni pe apel."
+Kim: "Xuchen este pe mut pentru că sunt mulți oameni în apel."
 
-Xuchen: "Doar semnalul prost."
+Xuchen: "E doar o recepție proastă."
 
-Sam: "Am trimis un fișier separat cu datele vocale de marți până la 30 de zile."
+Sam: "Am trimis un fișier separat cu date vocale pentru marți până la 30 de zile."
 
-Kim: "Vor fi câteva cazuri limită unde această metodă nu va funcționa."
+Kim: "Vor exista cazuri limită în care acest lucru nu funcționează."
 
 Xuchen: "Dezavantajul antrenării unui model deja antrenat este că trebuie să scrii reguli pentru el."
 
-Kim: "Clasificarea nu face acel tip de clasificare care să le dea o acțiune."
+Kim: "Clasificarea nu face clasificarea care le-ar aduce o acțiune."
 
-Xuchen: "Trucul aici este că speră să existe verbe auxiliare, dar speră și să existe niște nume de persoane."
+Xuchen: "Trucul aici este că vor ca verbul auxiliar să fie prezent, dar vor și niște nume de persoane."
 
-Xuchen: "Dacă într-o propoziție sunt multe cuvinte, nu multe dintre ele ajută la acțiune."
+Xuchen: "Dacă există o propoziție cu cuvinte, nu multe dintre ele ar ajuta acțiunile."
 ```
 
-Acest exemplu arată întreaga întâlnire rezumată într-un paragraf:
+Și acest exemplu arată întreaga întâlnire rezumată într-un singur paragraf:
 
 ```
-"Xuchen este pe mute pentru că sunt mulți oameni pe apel. Sam a trimis un fișier separat cu datele vocale de marți până la 30 de zile. Xuchen a găsit câteva cazuri limită unde vorbitorul este destinatarul."
+„Xuchen este pe mut pentru că sunt mulți oameni în apel. Sam a trimis un fișier separat cu date vocale pentru marți până la 30 de zile. Xuchen a găsit câteva cazuri limită în care vorbitorul este cel desemnat.”
 ```
 
-Nucleul componentelor de rezumat scurt și lung este un model de rezumare bazat pe Transformer.
-Am făcut fine-tuning modelului pe seturi de date de conversații pentru rezumarea abstractivă.
-Datele conțin extrase de text de diverse lungimi, fiecare însoțit de un rezumat scris manual.
-Pentru rezumarea multilingvă, folosim aceleași exemple, dar folosim un model de bază multilingv cu fine-tuning pe versiunile traduse ale setului de date.
-În interfața SeaMeet, utilizatorii pot alege și să valideze rezumatele generate de mașină, sau să furnizeze propriile rezumate.
-Apoi putem colecta aceste rezumate introduse de utilizatori și să le adăugăm înapoi în setul nostru de antrenament pentru a îmbunătăți continuu modelele noastre.
+La baza ambelor componente de rezumare scurtă și lungă se află un model de rezumare bazat pe transformator.
+Am ajustat modelul pe un set de date de dialog pentru rezumarea abstractivă.
+Datele conțin extrase textuale de diverse lungimi, fiecare asociată cu un rezumat scris de mână.
+Pentru rezumarea multilingvă, folosim aceeași paradigmă, dar utilizăm un model de bază multilingv ajustat pe o versiune tradusă a setului de date.
+Din interfața SeaMeet, utilizatorul are, de asemenea, opțiunea de a verifica un rezumat produs de mașină sau de a-și furniza propriul rezumat.
+Putem apoi colecta aceste rezumate introduse de utilizator și le putem adăuga înapoi la setul nostru de antrenament pentru a îmbunătăți continuu modelele noastre.
 
-## Abstractizarea temelor
+## Abstractizarea subiectelor
 
 <center>
-<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/topics.png" alt="Motorul de extragere a temelor SeaMeet extrage teme din întâlniri"/>
+<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/topics.png" alt="Motorul de extragere a subiectelor SeaMeet extrage subiecte dintr-o întâlnire"/>
 
-*Interfața SeaMeet, concentrându-se pe tab-ul "Teme" din partea dreaptă*
+*Interfața SeaMeet, axată pe fila „Subiecte” din partea dreaptă*
 </center>
 
-O altă problemă când procesezi multe transcrieri este organizarea, clasificarea și căutarea lor.
-Prin abstractizarea automată a cuvintelor cheie și temelor din transcrieri, putem oferi utilizatorilor o modalitate ușoară de a urmări anumite întâlniri, sau chiar părți specifice ale întâlnirilor care discută teme relevante.
-În plus, aceste teme pot servi și ca o altă metodă de a rezuma informațiile cele mai importante și memorabile din transcriere.
+O altă problemă atunci când se lucrează cu colecții mari de transcrieri este organizarea, clasificarea și căutarea acestora.
+Prin abstractizarea automată a cuvintelor cheie și a subiectelor din transcriere, putem oferi utilizatorilor o modalitate fără efort de a urmări anumite întâlniri sau chiar secțiuni specifice ale întâlnirilor în care un subiect relevant este în discuție.
+În plus, aceste subiecte servesc ca o altă metodă de rezumare a celor mai importante și memorabile informații dintr-o transcriere.
 
-Iată un exemplu de cuvinte cheie extrase din transcrierea exemplu:
+Iată un exemplu de cuvinte cheie care ar fi extrase din transcrierea eșantion:
 
 ```
-Verbe auxiliare
-Vorbitor
-Date vocale
-Fișier separat
-Versiuni actualizate
-Nume de persoane
-Model antrenat
-Scrierea regulilor
+verb auxiliar
+vorbitor
+date vocale
+fișier separat
+versiuni actualizate
+nume de persoane
+model antrenat
+scrie reguli
 ```
 
-Sarcina de extragere a temelor combină metode abstractive și extractive.
-Abstractivă se referă la o metodă de clasificare a textului unde fiecare intrare este clasificată într-un set de etichete văzute în timpul antrenamentului.
-Pentru această metodă, folosim o arhitectură neurală antrenată pe documente împerecheate cu liste de teme relevante.
-Extractivă se referă la o metodă de căutare a cuvintelor cheie unde cuvinte cheie relevante sunt extrase din textul furnizat și returnate ca teme.
-Pentru această metodă, combinăm măsuri de similaritate precum similaritatea cosinus și TF-IDF cu informații despre co-ocurența cuvintelor pentru a extrage cuvintele cheie și frazele cele mai relevante.
+Sarcina de extragere a subiectelor utilizează o combinație de abordări abstractive și extractive.
+Abstractiv se referă la o abordare de clasificare a textului, unde fiecare intrare este clasificată într-un set de etichete văzute în timpul antrenamentului.
+Pentru această metodă am folosit o arhitectură neurală antrenată pe documente asociate cu o listă de subiecte relevante.
+Extractiv se referă la o abordare de căutare a frazelor cheie, unde frazele cheie relevante sunt extrase din textul furnizat și returnate ca subiecte.
+Pentru această abordare, folosim o combinație de metrici de similaritate, cum ar fi similaritatea cosinus și TF-IDF, pe lângă informațiile de co-ocurență a cuvintelor pentru a extrage cele mai relevante cuvinte cheie și fraze.
 
-Tehnicile abstractive și extractive au fiecare avantaje și dezavantaje, dar prin folosirea lor împreună, putem exploata punctele forte ale fiecăreia.
-Modelele abstractive sunt foarte bune la colectarea detaliilor diferite dar conexe și găsirea unei teme puțin mai generale pentru a se potrivi cu toate aceste detalii.
-Cu toate acestea, nu poate niciodată să prezică teme pe care nu le-a văzut în timpul antrenamentului, și este imposibil să antrenezi pe fiecare temă imaginabilă care ar putea apărea într-o conversație!
-Pe de altă parte, modelele extractive pot extrage direct cuvinte cheie și teme din text, ceea ce înseamnă că este independent de domeniu și poate extrage teme pe care nu le-a văzut niciodată înainte.
-Dezavantajul acestei metode este că uneori temele sunt prea similare sau prea specifice.
-Prin folosirea ambelor metode simultan, găsim o zonă de confort între generalitate și specificitatea domeniului.
+Tehnicile abstractive și extractive au ambele avantaje și dezavantaje, dar prin utilizarea lor împreună putem profita de punctele forte ale fiecăreia.
+Modelul abstractiv este excelent la colectarea detaliilor distincte, dar conexe și la găsirea unui subiect puțin mai generic care să le potrivească pe toate.
+Cu toate acestea, nu poate prezice niciodată un subiect pe care nu l-a văzut în timpul antrenamentului și este imposibil să antrenezi pe fiecare subiect imaginabil care ar putea apărea într-o conversație!
+Modelele extractive, pe de altă parte, pot extrage cuvinte cheie și subiecte direct din text, ceea ce înseamnă că este independent de domeniu și poate extrage subiecte pe care nu le-a mai văzut niciodată.
+Dezavantajul acestei abordări este că, uneori, subiectele sunt prea similare sau prea specifice.
+Prin utilizarea ambelor, am găsit un echilibru fericit între generalizabil și specific domeniului.
 
-## Extragerea acțiunilor
+## Extragerea elementelor de acțiune
 
 <center>
-<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/actions.png" alt="Motorul de extragere a acțiunilor SeaMeet creează rezumate abstracte scurte din acțiunile extrase din transcrierea întâlnirii"/>
+<img src="/images/blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/actions.png" alt="Motorul de extragere a acțiunilor SeaMeet creează rezumate abstractive scurte ale elementelor de acțiune extrase din transcrierile întâlnirilor"/>
 
-*Interfața utilizatorului SeaMeet, concentrându-se pe tab-ul "Acțiuni" din partea dreaptă*
+*Interfața SeaMeet, axată pe fila „Acțiuni” din partea dreaptă*
 </center>
 
-Ultimul punct de durere pe care ne-am propus să-l atenuezi pentru utilizatori este sarcina de a înregistra acțiunile.
-Înregistrarea acțiunilor este o sarcină foarte comună atribuită angajaților în timpul întâlnirilor.
-Să scrii "cine i-a spus cui să facă ce când" poate fi foarte consumator de timp și poate cauza distragerea autorului de la participarea completă la întâlnire.
-Prin automatizarea acestui proces, sperăm să atenuezi o parte din responsabilitatea utilizatorilor astfel încât toată lumea să poată participa complet la întâlnire.
+Ultimul punct dureros pe care ne-am propus să-l atenuăm pentru utilizatori este sarcina de a înregistra elementele de acțiune.
+Înregistrarea elementelor de acțiune este o sarcină foarte comună care este atribuită unui angajat în timpul unei întâlniri.
+Notarea „cine i-a spus cui să facă ce când” poate fi extrem de consumatoare de timp și poate distrage scriitorul, făcându-l incapabil să participe pe deplin la întâlnire.
+Prin automatizarea acestui proces, sperăm să atenuăm o parte din această responsabilitate de la utilizator, astfel încât toată lumea să își poată dedica întreaga atenție participării la întâlnire.
 
-Iată un exemplu de acțiuni care ar putea fi extrase din transcrierea exemplu:
+Următorul este un exemplu de elemente de acțiune care ar putea fi extrase din transcrierea exemplu:
 
 ```
-Sugestie: "Sam spune că echipa ar trebui să aibă niște versiuni actualizate."
+sugestie: "Sam spune că echipa ar trebui să aibă niște versiuni actualizate."
 
-Declarație: "Kim spune că cu siguranță vor fi câteva cazuri limită unde această metodă nu va funcționa."
+declarație: "Kim spune că vor exista cu siguranță cazuri limită în care acest lucru nu funcționează."
 
-Comandă: "Xuchen spune că cineva trebuie să scrie reguli pentru ea."
+imperativ: "Xuchen spune că cineva trebuie să scrie reguli pentru el."
 
-Dorință: "Xuchen spune că echipa speră să existe verbe auxiliare, dar speră și să existe niște nume de persoane."
+dorință: "Xuchen spune că echipa vrea ca verbul auxiliar să fie prezent, dar vrea și niște nume de persoane."
 ```
 
-Scopul sistemului de extragere a acțiunilor este să creeze rezumate abstracte scurte din acțiunile extrase din transcrierea întâlnirii.
-Rezultatul rulării extractorului de acțiuni pe transcrierea întâlnirii este o listă de comenzi, sugestii, declarații de intenție și alte fragmente acționabile care pot fi prezentate ca liste de lucru sau acțiuni de urmărit pentru participanții la întâlnire.
-În viitor, extractorul va captura și numele destinatarilor și alocatorilor, precum și termenele limită asociate cu fiecare acțiune.
+Scopul sistemului de extragere a acțiunilor este de a crea rezumate abstractive scurte ale elementelor de acțiune extrase din transcrierile întâlnirilor.
+Rezultatul rulării extractorului de acțiuni peste o transcriere a unei întâlniri este o listă de comenzi, sugestii, declarații de intenție și alte segmente acționabile care pot fi prezentate ca sarcini sau urmăriri pentru participanții la întâlnire.
+În viitor, extractorul va capta, de asemenea, numele persoanelor desemnate și ale celor care desemnează, precum și termenele limită legate de fiecare element de acțiune.
 
 Pipeline-ul de extragere a acțiunilor are două componente principale: un clasificator și un rezumator.
-Mai întâi, fiecare fragment este trecut printr-un clasificator multi-clasă și primește una dintre următoarele etichete:
+În primul rând, fiecare segment este trecut printr-un clasificator multi-clasă și primește una dintre următoarele etichete:
 
 - Întrebare
-- Comandă
+- Imperativ
 - Sugestie
 - Dorință
 - Declarație
 - Neacționabil
 
-Dacă fragmentul primește orice etichetă în afară de "Neacționabil", este trimis împreună cu primele două fragmente din transcriere la componenta de rezumare, care oferă mai mult context pentru rezumare.
-Pasul de rezumare este în esență același cu componenta de rezumare independentă, cu toate acestea, modelul este antrenat pe un set de date personalizat construit special pentru rezumarea acțiunilor în formatul de ieșire dorit.
+Dacă segmentul primește orice etichetă, alta decât „neacționabil”, este trimis componentei de rezumare împreună cu cele două segmente anterioare din transcriere, care oferă mai mult context pentru rezumare.
+Pasul de rezumare este, în esență, același cu componenta de rezumare independentă, însă modelul este antrenat pe un set de date personalizat, construit special pentru rezumarea elementelor de acțiune cu un format de ieșire dorit.
 
-## SeaMeet are creier
+## SeaMeet capătă un creier 
 
-Acesta este un pas mare spre crearea propriului nostru produs unic: antrenarea modelelor de rezumare precum și a celor de extragere a temelor și acțiunilor pentru a-și propulsa mai departe produsul, și proiectarea unei interfețe frumoase care să integreze totul într-un pachet uimitor.
-Aceasta este povestea până acum, începutul călătoriei Seasalt.ai de a aduce cele mai bune soluții de afaceri pe o piață în dezvoltare rapidă și de a livra SeaMeet lumii: viitorul întâlnirilor moderne. 
+Acesta a fost un pas important către crearea propriului nostru produs unic: antrenarea modelelor de rezumare, plus extragerea subiectelor și a acțiunilor pentru a duce produsul nostru și mai departe, și proiectarea unei interfețe frumoase pentru a lega totul într-un pachet uimitor.
+Aceasta este povestea de până acum, începutul călătoriei Seasalt.ai de a aduce cele mai bune soluții de afaceri pe o piață în rapidă evoluție și de a le livra lumii, SeaMeet: Viitorul întâlnirilor moderne.
