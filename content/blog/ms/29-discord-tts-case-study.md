@@ -1,15 +1,21 @@
 ---
-title: "Teks-ke-Pertuturan di Discord: Kajian Kes Bot Discord TTS"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: Dalam blog ini kami akan membincangkan penemuan kami tentang bagaimana pengguna Discord sebenar menggunakan perkhidmatan kami selepas menyemak beberapa bulan data teks-ke-pertuturan yang sahih.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: Dalam blog ini kami akan membincangkan penemuan kami tentang bagaimana
+  pengguna Discord sebenar menggunakan perkhidmatan kami selepas menyemak beberapa
+  bulan data teks-ke-pertuturan yang sahih.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Teks-ke-Pertuturan di Discord: Kajian Kes Bot Discord TTS'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Teks-ke-Pertuturan di Discord: Kajian Kes Bot Discord TTS'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Selepas melancarkan SeaVoice, salah satu bot teks-ke-pertuturan dan pertuturan-ke-teks terpantas dan paling tepat di Discord, kami ingin memahami bagaimana pengguna sebenarnya berinteraksi dengan perkhidmatan tersebut. Dalam blog ini kami akan membincangkan penemuan kami selepas menyemak beberapa bulan data pengguna teks-ke-pertuturan sebenar.*
 

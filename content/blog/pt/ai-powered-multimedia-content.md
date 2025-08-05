@@ -1,12 +1,21 @@
 ---
-title: "Criação de conteúdo multimídia com IA para engajamento do cliente"
-meta_description: "Aprenda a alavancar a IA e o conteúdo multimídia para criar experiências de cliente envolventes em todos os canais. Inclui exemplos de vídeo, elementos interativos e melhores práticas."
-author: "Sarah Chen"
-tags: ["Conteúdo de IA", "Multimídia", "Engajamento do cliente", "Marketing digital", "Conteúdo de vídeo"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Aprenda a alavancar a IA e o conteúdo multimídia para criar experiências
+  de cliente envolventes em todos os canais. Inclui exemplos de vídeo, elementos interativos
+  e melhores práticas.
+metatitle: Criação de conteúdo multimídia com IA para engajamento do cl...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- Conteúdo de IA
+- Multimídia
+- Engajamento do cliente
+- Marketing digital
+- Conteúdo de vídeo
+title: Criação de conteúdo multimídia com IA para engajamento do cliente
 ---
+
 
 # Criação de conteúdo multimídia com IA para engajamento do cliente
 

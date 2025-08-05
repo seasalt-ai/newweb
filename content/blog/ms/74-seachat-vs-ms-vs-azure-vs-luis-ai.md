@@ -27,9 +27,9 @@ Microsoft Bot Framework dan Azure AI Bot Service (termasuk LUIS.ai) adalah kumpu
 
 SeaChat hadir: **Penantang LLM**
 
-Saat Microsoft memikirkan strategi AI, Seasalt.ai membuat gebrakan dengan platform percakapan berbasis LLM (Large Language Model) [SeaChat](https://chat.seasalt.ai/?utm_source=blog). SeaChat memanfaatkan kemajuan terbaru dalam pemahaman bahasa alami, menawarkan pengalaman pengguna yang lebih alami dan intuitif dibandingkan chatbot berbasis aturan tradisional.
+Saat Microsoft memikirkan strategi AI, Seasalt.ai membuat gebrakan dengan platform percakapan berbasis LLM (Large Language Model) [SeaChat](https: //chat.seasalt.ai/?utm_source=blog). SeaChat memanfaatkan kemajuan terbaru dalam pemahaman bahasa alami, menawarkan pengalaman pengguna yang lebih alami dan intuitif dibandingkan chatbot berbasis aturan tradisional.
 
-**Mengapa SeaChat bisa memimpin revolusi AI Percakapan:**
+**Mengapa SeaChat bisa memimpin revolusi AI Percakapan: **
 - **Kekuatan LLM**:
 Memanfaatkan kekuatan LLM untuk percakapan yang lebih bernuansa.
 Memahami konteks dan maksud dengan akurasi lebih tinggi.

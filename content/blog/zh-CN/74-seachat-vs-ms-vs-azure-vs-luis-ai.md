@@ -1,18 +1,21 @@
 ---
-title: "SeaChat vs MS vs Azure vs LUIS AI：哪一个对话式 AI 平台更适合企业？"
-author: "Seasalt.ai Team"
+author: Seasalt.ai Team
+canonical_url: https://seasalt.ai/blog/74-seachat-vs-ms-vs-azure-vs-luis-ai
 date: 2024-07-10
+description: 对比 SeaChat、Microsoft Bot Framework、Azure Bot Service 和 LUIS AI，哪一个对话式
+  AI 平台更适合企业？
+metatitle: SeaChat vs MS vs Azure vs LUIS AI：哪一个对话式 AI 平台更适合企业？
 modified_date: 2025-07-28
-canonical_url: "https://seasalt.ai/blog/74-seachat-vs-ms-vs-azure-vs-luis-ai"
-description: "对比 SeaChat、Microsoft Bot Framework、Azure Bot Service 和 LUIS AI，哪一个对话式 AI 平台更适合企业？"
 tags:
-  - AI 聊天机器人
-  - SeaChat
-  - Microsoft Bot Framework
-  - Azure Bot Service
-  - LUIS AI
-  - 对比
+- AI 聊天机器人
+- SeaChat
+- Microsoft Bot Framework
+- Azure Bot Service
+- LUIS AI
+- 对比
+title: SeaChat vs MS vs Azure vs LUIS AI：哪一个对话式 AI 平台更适合企业？
 ---
+
 
 # SeaChat vs MS vs Azure vs LUIS AI：哪一个对话式 AI 平台更适合企业？
 

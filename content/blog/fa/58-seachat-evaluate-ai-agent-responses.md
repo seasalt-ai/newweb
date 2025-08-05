@@ -1,11 +1,14 @@
 ---
-title: چگونه پاسخ‌های SeaChat AI Agent را ارزیابی کنیم
-lang: fa
-description: راهنمای فارسی برای ارزیابی کیفیت پاسخ‌های SeaChat AI Agent همراه با نکات SEO.
 author: SeaHealth Editorial Team
+description: راهنمای فارسی برای ارزیابی کیفیت پاسخ‌های SeaChat AI Agent همراه با نکات
+  SEO.
+lang: fa
+metatitle: چگونه پاسخ‌های SeaChat AI Agent را ارزیابی کنیم
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: چگونه پاسخ‌های SeaChat AI Agent را ارزیابی کنیم
 ---
+
 
 # چگونه پاسخ‌های SeaChat AI Agent را ارزیابی کنیم
 

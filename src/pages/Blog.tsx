@@ -44,7 +44,14 @@ const Blog = () => {
   useEffect(() => {
     const loadPosts = async () => {
       try {
-        const blogPosts = await loadAllBlogPosts(lang || i18n.language);
+        // 确保使用正确的语言参数，优先使用URL中的lang参数
+        const targetLanguage = lang || i18n.language;
+        console.log('[Blog] Loading posts with language:', { lang, i18nLanguage: i18n.language, targetLanguage });
+        
+        const blogPosts = await loadAllBlogPosts(targetLanguage);
+        console.log('[Blog] Loaded posts:', blogPosts.length, 'posts');
+        console.log('[Blog] First post:', blogPosts[0]);
+        
         setPosts(blogPosts);
         setFilteredPosts(blogPosts);
       } catch (error) {
@@ -54,11 +61,14 @@ const Blog = () => {
       }
     };
 
-    loadPosts();
+    // 添加一个小延迟，确保语言切换完成
+    const timer = setTimeout(loadPosts, 100);
+    return () => clearTimeout(timer);
   }, [lang, i18n.language]);
 
   useEffect(() => {
     let filtered = posts;
+    console.log('[Blog] Filtering posts:', { postsLength: posts.length, searchTerm, selectedTag });
 
     // Filter by search term
     if (searchTerm) {
@@ -67,13 +77,16 @@ const Blog = () => {
         post.meta_description.toLowerCase().includes(searchTerm.toLowerCase()) ||
         post.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
       );
+      console.log('[Blog] After search filter:', filtered.length, 'posts');
     }
 
     // Filter by selected tag
     if (selectedTag) {
       filtered = filtered.filter(post => post.tags.includes(selectedTag));
+      console.log('[Blog] After tag filter:', filtered.length, 'posts');
     }
 
+    console.log('[Blog] Final filtered posts:', filtered.length, 'posts');
     setFilteredPosts(filtered);
   }, [posts, searchTerm, selectedTag]);
 

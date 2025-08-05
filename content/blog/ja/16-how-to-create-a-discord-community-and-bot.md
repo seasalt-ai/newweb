@@ -1,11 +1,13 @@
 ---
-title: DiscordコミュニティとBotの作り方
-lang: ja
-description: 日本語ユーザー向けに、Discordでコミュニティを作成し、Botを自動化する方法とSEOのポイントを解説します。
 author: SeaHealth Editorial Team
+description: 日本語ユーザー向けに、Discordでコミュニティを作成し、Botを自動化する方法とSEOのポイントを解説します。
+lang: ja
+metatitle: DiscordコミュニティとBotの作り方
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: DiscordコミュニティとBotの作り方
 ---
+
 
 # DiscordコミュニティとBotの作り方
 

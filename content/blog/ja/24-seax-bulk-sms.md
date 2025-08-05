@@ -1,16 +1,19 @@
 ---
-title: "SeaX Bulk SMS：より速く、より効果的な顧客アウトリーチのために"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: このブログでは、SeaXのバルクSMS機能が、エージェントがテキストを介してプロアクティブにアウトバウンドメッセージを送信する方法を紹介します。
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "このブログでは、SeaXのバルクSMS機能が、エージェントがテキストを介してプロアクティブにアウトバウンドメッセージを送信する方法を紹介します。"
+metatitle: SeaX Bulk SMS：より速く、より効果的な顧客アウトリーチのために
+modified_date: '2025-07-28T16:03:25.123456'
+tags:
+- SeaX
+title: SeaX Bulk SMS：より速く、より効果的な顧客アウトリーチのために
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-07-28T16:03:25.123456"
 ---
+
 
 *以前のブログ投稿では、SeaXの主要な機能（[音声インテリジェンス](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[ナレッジベース](https://seasalt.ai/blog/22-seax-knowledge-base/)、[ケース管理](https://seasalt.ai/blog/23-seax-case-management/)など）について説明し、エージェントが着信通話やメッセージをより適切に処理できるように支援しました。このブログでは、SeaXのバルクSMS機能が、エージェントがテキストを介してプロアクティブにアウトバウンドメッセージを送信する方法を紹介します。受信者は、従来の電子メール通信よりも早く、一貫して開封することが示されています。*
 

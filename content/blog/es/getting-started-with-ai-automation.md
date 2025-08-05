@@ -1,12 +1,20 @@
 ---
-title: "Cómo empezar con la automatización de IA para pequeñas empresas"
-meta_description: "Aprenda cómo las pequeñas empresas pueden aprovechar la automatización de IA para mejorar el servicio al cliente, aumentar la eficiencia e impulsar el crecimiento sin salirse del presupuesto."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Aprenda cómo las pequeñas empresas pueden aprovechar la automatización
+  de IA para mejorar el servicio al cliente, aumentar la eficiencia e impulsar el
+  crecimiento sin salirse del presupuesto.
+metatitle: Cómo empezar con la automatización de IA para pequeñas empre...
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: Cómo empezar con la automatización de IA para pequeñas empresas
 ---
+
 
 # Cómo empezar con la automatización de IA para pequeñas empresas
 

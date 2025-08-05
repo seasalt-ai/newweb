@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging 補充 Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging 整合對話式 AI 與 Google Business Messages，透過您的 Google 地圖個人資料上的聊天按鈕提供 24/7 支援。"
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging 整合對話式 AI 與 Google Business Messages，透過您的 Google 地圖個人資料上的聊天按鈕提供
+  24/7 支援。
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging 補充 Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging 補充 Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 在我們之前的一篇部落格中，我們向您介紹了 [Google Business Messages 的優點和局限性](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/)。Google Business Messages 的常見實現有兩個主要局限性。第一個局限性是，從頭開始為您的企業創建定制的虛擬代理需要花費大量金錢和時間來支付專業的諮詢機構。第二個局限性是，除非諮詢機構提供實時聊天功能作為其實現的一部分，否則企業主無法直接與客戶交談。
 

@@ -1,12 +1,19 @@
 ---
-title: "중소기업을 위한 AI 자동화 시작하기"
-meta_description: "중소기업이 AI 자동화를 활용하여 고객 서비스를 개선하고 효율성을 높이며 예산을 초과하지 않고 성장을 이끄는 방법을 알아보세요."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: 중소기업이 AI 자동화를 활용하여 고객 서비스를 개선하고 효율성을 높이며 예산을 초과하지 않고 성장을 이끄는 방법을
+  알아보세요.
+metatitle: 중소기업을 위한 AI 자동화 시작하기
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: 중소기업을 위한 AI 자동화 시작하기
 ---
+
 
 # 중소기업을 위한 AI 자동화 시작하기
 

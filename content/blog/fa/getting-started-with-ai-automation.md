@@ -1,12 +1,19 @@
 ---
-title: "شروع کار با اتوماسیون هوش مصنوعی برای کسب و کارهای کوچک"
-meta_description: "بیاموزید که چگونه کسب و کارهای کوچک می توانند از اتوماسیون هوش مصنوعی برای بهبود خدمات مشتری، افزایش کارایی و رشد بدون شکستن بودجه استفاده کنند."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: بیاموزید که چگونه کسب و کارهای کوچک می توانند از اتوماسیون هوش مصنوعی
+  برای بهبود خدمات مشتری، افزایش کارایی و رشد بدون شکستن بودجه استفاده کنند.
+metatitle: شروع کار با اتوماسیون هوش مصنوعی برای کسب و کارهای کوچک
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: شروع کار با اتوماسیون هوش مصنوعی برای کسب و کارهای کوچک
 ---
+
 
 # شروع کار با اتوماسیون هوش مصنوعی برای کسب و کارهای کوچک
 

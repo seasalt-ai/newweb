@@ -1,12 +1,19 @@
 ---
-title: "Next.js 시작하기: 초보자를 위한 가이드"
-meta_description: "서버 사이드 렌더링 및 정적 사이트 생성을 통해 프로덕션 준비 웹 애플리케이션을 구축하기 위한 React 프레임워크인 Next.js의 기본 사항을 알아보세요."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: 서버 사이드 렌더링 및 정적 사이트 생성을 통해 프로덕션 준비 웹 애플리케이션을 구축하기 위한 React 프레임워크인
+  Next.js의 기본 사항을 알아보세요.
+metatitle: 'Next.js 시작하기: 초보자를 위한 가이드'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Next.js 시작하기: 초보자를 위한 가이드'
 ---
+
 
 # Next.js 시작하기: 초보자를 위한 가이드
 

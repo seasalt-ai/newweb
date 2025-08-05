@@ -1,11 +1,13 @@
 ---
-title: 如何评估 SeaChat AI 智能客服的回复
-lang: zh-CN
-description: 本文为中文用户详细介绍如何评估 SeaChat AI 智能客服的回复质量，包含 SEO 优化建议。
 author: SeaHealth Editorial Team
+description: 本文为中文用户详细介绍如何评估 SeaChat AI 智能客服的回复质量，包含 SEO 优化建议。
+lang: zh-CN
+metatitle: 如何评估 SeaChat AI 智能客服的回复
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: 如何评估 SeaChat AI 智能客服的回复
 ---
+
 
 # 如何评估 SeaChat AI 智能客服的回复
 

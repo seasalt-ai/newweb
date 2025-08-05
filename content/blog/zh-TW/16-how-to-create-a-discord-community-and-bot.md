@@ -1,11 +1,13 @@
 ---
-title: 如何建立 Discord 社群與機器人
-lang: zh-TW
-description: 本文介紹如何從零開始建立 Discord 社群並部署自動化機器人，適合台灣用戶，包含實用技巧與 SEO 最佳化建議。
 author: SeaHealth Editorial Team
+description: 本文介紹如何從零開始建立 Discord 社群並部署自動化機器人，適合台灣用戶，包含實用技巧與 SEO 最佳化建議。
+lang: zh-TW
+metatitle: 如何建立 Discord 社群與機器人
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: 如何建立 Discord 社群與機器人
 ---
+
 
 # 如何建立 Discord 社群與機器人
 

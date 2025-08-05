@@ -1,12 +1,18 @@
 ---
-title: "中小企業向けAI自動化の始め方"
-meta_description: "中小企業がAI自動化を活用して、予算をオーバーすることなく顧客サービスを改善し、効率を高め、成長を促進する方法を学びましょう。"
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: 中小企業がAI自動化を活用して、予算をオーバーすることなく顧客サービスを改善し、効率を高め、成長を促進する方法を学びましょう。
+metatitle: 中小企業向けAI自動化の始め方
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: 中小企業向けAI自動化の始め方
 ---
+
 
 # 中小企業向けAI自動化の始め方
 

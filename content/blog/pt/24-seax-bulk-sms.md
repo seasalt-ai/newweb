@@ -1,16 +1,20 @@
 ---
-title: "SeaX Bulk SMS: Para um alcance mais rápido e eficaz ao cliente"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: Neste blog, mostraremos como o recurso de SMS em massa do SeaX permite
+  que os agentes enviem mensagens de saída de forma proativa por texto.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "Neste blog, mostraremos como o recurso de SMS em massa do SeaX permite que os agentes enviem mensagens de saída de forma proativa por texto."
+metatitle: 'SeaX Bulk SMS: Para um alcance mais rápido e eficaz ao clien...'
+modified_date: '2025-07-28T16:03:25.123456'
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: Para um alcance mais rápido e eficaz ao cliente'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-07-28T16:03:25.123456"
 ---
+
 
 *Em nossas postagens de blog anteriores, percorremos alguns dos principais recursos do SeaX (incluindo [Inteligência de Voz](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Base de Conhecimento](https://seasalt.ai/blog/22-seax-knowledge-base/) e [Gerenciamento de Casos](https://seasalt.ai/blog/23-seax-case-management/)) que ajudam os agentes a lidar melhor com as chamadas e mensagens recebidas. Neste blog, mostraremos como o recurso de SMS em massa do SeaX permite que os agentes enviem mensagens de saída de forma proativa por texto, que os destinatários comprovadamente abrem mais cedo e de forma mais consistente do que as comunicações por e-mail tradicionais.*
 

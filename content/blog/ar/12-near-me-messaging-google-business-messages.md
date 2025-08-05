@@ -1,18 +1,23 @@
 ---
-title: "Near Me Messaging يكمل رسائل Google Business"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging يدمج الذكاء الاصطناعي للمحادثة مع رسائل Google Business، مما يتيح الدعم على مدار الساعة طوال أيام الأسبوع عبر زر الدردشة في ملفك الشخصي على خرائط Google."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging يدمج الذكاء الاصطناعي للمحادثة مع رسائل Google Business،
+  مما يتيح الدعم على مدار الساعة طوال أيام الأسبوع عبر زر الدردشة في ملفك الشخصي على
+  خرائط Google.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging يكمل رسائل Google Business
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging يكمل رسائل Google Business
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 في إحدى مدوناتنا السابقة، قمنا بتوضيح [فوائد وقيود رسائل Google Business](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). هناك قيودان رئيسيان على التطبيقات الشائعة لرسائل Google Business. القيد الأول هو أن الأمر يتطلب الكثير من المال والوقت لدفع وكالة استشارية محترفة لإنشاء وكيل افتراضي مخصص لعملك من الألف إلى الياء. القيد الثاني هو أن أصحاب الأعمال لا يستطيعون التحدث مباشرة إلى العملاء ما لم توفر الوكالة الاستشارية ميزة الدردشة المباشرة كجزء من تطبيقها.
 

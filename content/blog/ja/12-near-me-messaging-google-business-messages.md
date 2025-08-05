@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging は Google Business Messages を補完します"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging は、会話型 AI と Google Business Messages を統合し、Google マップ プロフィール上のチャット ボタンを介して 24 時間年中無休のサポートを可能にします。"
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging は、会話型 AI と Google Business Messages を統合し、Google マップ
+  プロフィール上のチャット ボタンを介して 24 時間年中無休のサポートを可能にします。
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging は Google Business Messages を補完します
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging は Google Business Messages を補完します
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 以前のブログの1つで、[Google Business Messagesの利点と制限](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/)について説明しました。Google Business Messagesの一般的な実装には2つの主な制限があります。最初の制限は、ビジネス向けに完全にカスタマイズされた仮想エージェントをゼロから作成するために、専門のコンサルティング会社に多額の費用と時間を支払う必要があることです。2番目の制限は、コンサルティング会社が実装の一部としてライブチャット機能を提供しない限り、ビジネスオーナーが顧客と直接話すことができないことです。
 

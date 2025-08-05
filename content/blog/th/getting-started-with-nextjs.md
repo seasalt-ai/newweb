@@ -1,12 +1,18 @@
 ---
-title: "เริ่มต้นใช้งาน Next.js: คู่มือสำหรับผู้เริ่มต้น"
-meta_description: "เรียนรู้พื้นฐานของ Next.js ซึ่งเป็นเฟรมเวิร์ก React สำหรับการสร้างเว็บแอปพลิเคชันที่พร้อมใช้งานจริงด้วยการเรนเดอร์ฝั่งเซิร์ฟเวอร์และการสร้างเว็บไซต์แบบคงที่"
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: เรียนรู้พื้นฐานของ Next.js ซึ่งเป็นเฟรมเวิร์ก React สำหรับการสร้างเว็บแอปพลิเคชันที่พร้อมใช้งานจริงด้วยการเรนเดอร์ฝั่งเซิร์ฟเวอร์และการสร้างเว็บไซต์แบบคงที่
+metatitle: 'เริ่มต้นใช้งาน Next.js: คู่มือสำหรับผู้เริ่มต้น'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'เริ่มต้นใช้งาน Next.js: คู่มือสำหรับผู้เริ่มต้น'
 ---
+
 
 # เริ่มต้นใช้งาน Next.js: คู่มือสำหรับผู้เริ่มต้น
 

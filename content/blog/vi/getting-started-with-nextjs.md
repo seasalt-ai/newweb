@@ -1,12 +1,20 @@
 ---
-title: "Bắt đầu với Next.js: Hướng dẫn cho người mới bắt đầu"
-meta_description: "Tìm hiểu những kiến thức cơ bản về Next.js, một framework React để xây dựng các ứng dụng web sẵn sàng cho sản xuất với kết xuất phía máy chủ và tạo trang web tĩnh."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Tìm hiểu những kiến thức cơ bản về Next.js, một framework React
+  để xây dựng các ứng dụng web sẵn sàng cho sản xuất với kết xuất phía máy chủ và
+  tạo trang web tĩnh.
+metatitle: 'Bắt đầu với Next.js: Hướng dẫn cho người mới bắt đầu'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Bắt đầu với Next.js: Hướng dẫn cho người mới bắt đầu'
 ---
+
 
 # Bắt đầu với Next.js: Hướng dẫn cho người mới bắt đầu
 

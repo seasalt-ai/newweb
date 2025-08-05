@@ -1,15 +1,19 @@
 ---
-title: "Discordでのテキスト読み上げ：TTS Discord Botの事例研究"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
 description: このブログでは、数ヶ月間の実際のテキスト読み上げデータをレビューした後、実際のDiscordユーザーが当社のサービスをどのように利用しているかについての調査結果を議論します。
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: Discordでのテキスト読み上げ：TTS Discord Botの事例研究
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: Discordでのテキスト読み上げ：TTS Discord Botの事例研究
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Discordで最速かつ最も正確なテキスト読み上げおよび音声認識ボットの1つであるSeaVoiceをリリースした後、ユーザーが実際にサービスとどのようにやり取りしているかを理解したいと考えました。このブログでは、数ヶ月間の実際のテキスト読み上げユーザーデータをレビューした後の調査結果を議論します。*
 

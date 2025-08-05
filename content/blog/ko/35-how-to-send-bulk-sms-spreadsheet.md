@@ -1,13 +1,15 @@
 ---
-title: 스프레드시트로 대량 SMS 보내는 방법
-slug: how-to-send-bulk-sms-spreadsheet
-seoTitle: 스프레드시트로 대량 SMS 보내는 방법
+metatitle: 스프레드시트로 대량 SMS 보내는 방법
 seoDescription: 스프레드시트를 활용한 효율적인 대량 SMS 발송 완벽 가이드. 현대 비즈니스에 적합한 솔루션.
+seoTitle: 스프레드시트로 대량 SMS 보내는 방법
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - 스프레드시트
-  - 자동화
+- SMS
+- 스프레드시트
+- 자동화
+title: 스프레드시트로 대량 SMS 보내는 방법
 ---
+
 
 스프레드시트를 사용하면 기업은 연락처 목록을 효율적으로 관리하고 여러 고객에게 동시에 메시지를 보낼 수 있습니다.
 

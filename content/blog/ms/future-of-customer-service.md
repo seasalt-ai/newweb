@@ -1,13 +1,20 @@
 ---
-title: "Masa Depan Perkhidmatan Pelanggan: AI, Automasi, dan Hubungan Manusia"
-meta_description: "Terokai bagaimana AI dan automasi membentuk semula perkhidmatan pelanggan sambil mengekalkan sentuhan manusia yang paling dihargai pelanggan."
-author: "Dr. Emily Watson"
-tags: ["Masa Depan Kerja", "AI", "Pengalaman Pelanggan", "Trend Teknologi"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Terokai bagaimana AI dan automasi membentuk semula perkhidmatan
+  pelanggan sambil mengekalkan sentuhan manusia yang paling dihargai pelanggan.
+metatitle: 'Masa Depan Perkhidmatan Pelanggan: AI, Automasi, dan Hubunga...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- Masa Depan Kerja
+- AI
+- Pengalaman Pelanggan
+- Trend Teknologi
+title: 'Masa Depan Perkhidmatan Pelanggan: AI, Automasi, dan Hubungan Manusia'
 ---
+
 
 # Masa Depan Perkhidmatan Pelanggan: AI, Automasi, dan Hubungan Manusia
 

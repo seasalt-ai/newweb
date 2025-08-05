@@ -1,16 +1,19 @@
 ---
-title: "SeaX Bulk SMS: 更快、更有效地接触客户"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: 在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息。
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息。"
+metatitle: 'SeaX Bulk SMS: 更快、更有效地接触客户'
+modified_date: 2025-07-28 00:00:00+00:00
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: 更快、更有效地接触客户'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: 2025-07-28T00:00:00Z
 ---
+
 
 *在我们之前的博客文章中，我们介绍了 SeaX 的一些关键功能（包括 [语音智能](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知识库](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），这些功能有助于代理更好地处理来电和消息。在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息，事实证明，收件人打开短信的速度和一致性都比传统的电子邮件通信更高。*
 

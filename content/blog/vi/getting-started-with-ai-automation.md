@@ -1,12 +1,20 @@
 ---
-title: "Bắt đầu với Tự động hóa AI cho Doanh nghiệp nhỏ"
-meta_description: "Tìm hiểu cách các doanh nghiệp nhỏ có thể tận dụng tự động hóa AI để cải thiện dịch vụ khách hàng, tăng hiệu quả và thúc đẩy tăng trưởng mà không vượt quá ngân sách."
-author: "Sarah Chen"
-tags: ["AI Automation", "Small Business", "Customer Service", "Efficiency"]
-date: "2024-12-15"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: Sarah Chen
+date: '2024-12-15'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Tìm hiểu cách các doanh nghiệp nhỏ có thể tận dụng tự động hóa AI
+  để cải thiện dịch vụ khách hàng, tăng hiệu quả và thúc đẩy tăng trưởng mà không
+  vượt quá ngân sách.
+metatitle: Bắt đầu với Tự động hóa AI cho Doanh nghiệp nhỏ
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- AI Automation
+- Small Business
+- Customer Service
+- Efficiency
+title: Bắt đầu với Tự động hóa AI cho Doanh nghiệp nhỏ
 ---
+
 
 # Bắt đầu với Tự động hóa AI cho Doanh nghiệp nhỏ
 

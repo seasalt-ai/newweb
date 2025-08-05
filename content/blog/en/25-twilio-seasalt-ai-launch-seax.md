@@ -1,15 +1,19 @@
 ---
-title: "Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan"
-date: 2022-11-23T10:28:33-08:00
-draft: false
 author: Xuchen Yao
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+date: 2022-11-23 10:28:33-08:00
+description: Twilio and Seasalt.ai Expand Partnership in Asia Pacific & Japan to Build
+  Multi-Country Cloud Contact Centers
+draft: false
 image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
-description: "Twilio and Seasalt.ai Expand Partnership in Asia Pacific & Japan to Build Multi-Country Cloud Contact Centers"
+metatitle: Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan
+tags:
+- SeaX
+title: Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan
+url: /blog/twilio-seasalt-ai-launch-seax/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
 ---
+
 
 As the contact center evolves – and more communication channels come online – businesses more than ever are meeting consumers’ preferences. Today’s customer wants to communicate on their preferred channels. The call center is well-known for customer support but increasingly the expectation is that channels can be used for both customer support and commerce conversations with a brand. 
 

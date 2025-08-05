@@ -1,120 +1,119 @@
 ---
-title: "SeaX KB: Eine Wissensdatenbank, die antwortet, bevor gefragt wird"
-metatitle: "SeaX KB: Eine Wissensdatenbank, die antwortet, bevor gefragt wird"
+title: "SeaX KB: Eine Wissensdatenbank, die Fragen beantwortet, bevor sie gestellt werden"
+metatitle: "SeaX KB: Eine Wissensdatenbank, die Fragen beantwortet, bevor sie gestellt werden"
 date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-27T00:00:00Z
+modified_date: 2025-07-30T17:01:04.431Z
 draft: false
 author: Kim Dodds
-image: /images/blog/22-seax-knowledge-base/thumbnail.png
-description: "In diesem Beitrag setzen wir das Thema KI-Integrationen mit der KI-gestützten Wissensdatenbank von SeaX fort, die vorgeschlagene Antworten in Echtzeit bietet."
+description: "In diesem Artikel setzen wir das Thema der KI-Integration fort, indem wir die KI-gestützte Wissensdatenbank von SeaX vorstellen, die in Echtzeit vorgeschlagene Antworten liefert."
 weight: 1
 tags: ["SeaX"]
 canonicalURL: "/blog/seax-kb-a-knowledge-base/"
 url: "/blog/seax-kb-a-knowledge-base/"
 ---
 
-*In unserem vorherigen Blogbeitrag, [Verleihen Sie Ihrem Contact Center eine eigene Stimme mit SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), haben wir gezeigt, wie die hauseigenen Text-to-Speech- und Speech-to-Text-Engines von Seasalt.ai verschiedene Aspekte der SeaX-Plattform verbessern. In diesem Beitrag setzen wir das Thema KI-Integrationen mit der KI-gestützten Wissensdatenbank von SeaX fort, die Gespräche mithört und vorgeschlagene Antworten in Echtzeit bietet.*
+*In unserem vorherigen Blogbeitrag [Geben Sie Ihrem Contact Center mit SeaX Voice Intelligence eine eigene Stimme](https://seasalt.ai/blog/21-seax-voice-intelligence/) haben wir gezeigt, wie die internen Text-to-Speech- und Speech-to-Text-Engines von Seasalt.ai verschiedene Aspekte der SeaX-Plattform verbessern. In diesem Artikel setzen wir das Thema der KI-Integration fort, indem wir die KI-gestützte Wissensdatenbank von SeaX vorstellen, die Gespräche in Echtzeit abhört, um vorgeschlagene Antworten zu liefern.*
 
 # Inhaltsverzeichnis
 - [Die traditionelle Wissensdatenbank](#the-traditional-knowledge-base)
-- [SeaX Wissensdatenbank](#seax-knowledge-base)
+- [Die SeaX-Wissensdatenbank](#seax-knowledge-base)
     - [Eingebettete Benutzeroberfläche für Live-Agenten](#embedded-user-interface-for-live-agents)
     - [Schnelle und genaue Suche](#fast-and-accurate-search)
-    - [Echtzeit-Automatisierte Vorschläge](#real-time-automated-suggestions)
+    - [Automatisierte Vorschläge in Echtzeit](#real-time-automated-suggestions)
     - [Antwortvorlagen](#response-templates)
-    - [KB-Verwaltung](#kb-management)
+    - [KB-Management](#kb-management)
     - [Webinar](#webinar)
 
 # Die traditionelle Wissensdatenbank
 
-Grundsätzlich ist eine Wissensdatenbank (KB) einfach eine Bibliothek mit (idealerweise) gut organisierten und leicht zugänglichen Informationen, die online im Selbstbedienungsmodus genutzt werden. Gute Wissensdatenbank-Systeme verfügen über Funktionen wie hierarchische Inhaltsorganisation, Suche und Kennzeichnung, um Benutzern das Auffinden der richtigen Informationen zu erleichtern.
+Im Grunde ist eine Wissensdatenbank (Knowledge Base, KB) nur eine (idealerweise) gut organisierte und leicht zugängliche Informationssammlung für den Online-Self-Service. Ein gutes KB-System verfügt über Funktionen wie eine hierarchische Inhaltsorganisation, Suche und Tagging, um den Benutzern das Auffinden der richtigen Informationen zu erleichtern.
 
-Die Pflege einer detaillierten Wissensdatenbank ist heutzutage für die meisten Unternehmen Standard. Ob es darum geht, Mitarbeitern beim Austausch interner Informationen über ihr Produkt zu helfen, Fragen potenzieller Kunden zu beantworten, Kunden bei der Fehlerbehebung zu unterstützen oder all das oben Genannte – der Zugang zu Schlüsselinformationen für Mitarbeiter und Kunden bedeutet effizientere Arbeit und höhere Kundenzufriedenheit.
+Die Pflege einer detaillierten Wissensdatenbank ist für die meisten Unternehmen heutzutage Standard. Ob der Zweck darin besteht, Mitarbeitern zu helfen, internes Wissen über ihre Produkte zu teilen, Fragen potenzieller Kunden zu beantworten, Kunden bei der Fehlerbehebung zu unterstützen oder all dies – die Bereitstellung wichtiger Informationen für Mitarbeiter und Kunden bedeutet effizientere Arbeit und höhere Kundenzufriedenheit.
 
-Typischerweise wird eine Wissensdatenbank über ein Content Management System oder ein Knowledge Management System implementiert und gepflegt. Diese Systeme können je nach den Bedürfnissen der Organisation in ihrem Umfang variieren, angefangen von einem einfachen Dokumentenmanager bis hin zu einem funktionsreichen Dienst, der Veröffentlichungs-Workflows, Zielgruppenansprache, Kollaborationstools und vieles mehr umfasst. Obwohl diese Systeme auf verschiedene Weise vielseitig sind, sind sie fast immer dazu gedacht, über die Interaktion mit einer Webseite oder Anwendung aufgerufen zu werden. Für den speziellen Anwendungsfall eines Kundendienstmitarbeiters (der typischerweise eine Wissensdatenbank als eine seiner Hauptressourcen bei der Unterstützung von Kunden nutzt) ist eine enge Integration mit der Contact Center Software notwendig, um den Agenten die nahtlose Bearbeitung von Benutzeranfragen zu ermöglichen.
+In der Regel werden Wissensdatenbanken über ein Content-Management-System oder ein Wissensmanagementsystem implementiert und gepflegt. Diese Systeme können je nach den Bedürfnissen einer Organisation in ihrer Größe variieren, von einfachen Dokumentenmanagern bis hin zu funktionsreichen Diensten, die Veröffentlichungsworkflows, Zielgruppenansprache, Kollaborationstools und mehr umfassen. Obwohl diese Systeme in verschiedener Hinsicht vielseitig sind, sind sie fast immer für den Zugriff durch Interaktion mit einer Webseite oder einer Anwendung konzipiert. Für den speziellen Anwendungsfall von Kundendienstmitarbeitern (die Wissensdatenbanken oft als eine ihrer Hauptressourcen zur Unterstützung von Kunden nutzen) ist eine enge Integration mit der Contact-Center-Software erforderlich, damit die Mitarbeiter Benutzeranfragen so nahtlos wie möglich bearbeiten können.
 
-# SeaX Wissensdatenbank
+# Die SeaX-Wissensdatenbank
 
-Unsere Wissensdatenbank wurde von Tag 1 an mit einem ganz bestimmten Anwendungsfall im Hinterkopf entwickelt: sprachbasierter Kundenservice. Während die meisten, wenn nicht alle, bestehenden Wissensdatenbank-Systeme auf der Navigation durch hierarchische Webseiten oder der Eingabe einer Suchanfrage basieren, musste unsere KB schneller und unabhängiger sein, um den Kundendienstmitarbeitern die volle Aufmerksamkeit für den Kunden zu ermöglichen und gleichzeitig Fragen schnell zu beantworten.
+Unsere Wissensdatenbank wurde vom ersten Tag an mit einem ganz bestimmten Anwendungsfall im Hinterkopf entwickelt: dem sprachbasierten Kundenservice. Während die meisten, wenn nicht alle, bestehenden Wissensdatenbanksysteme auf der Navigation durch hierarchische Webseiten oder der Eingabe von Suchanfragen beruhen, musste unsere Wissensdatenbank schneller und autonomer sein, damit sich die Kundendienstmitarbeiter voll und ganz auf den Kunden konzentrieren und dennoch Fragen schnell beantworten können.
 
-Wenn Sie direkt zu einer Demonstration gelangen möchten, können Sie unser kurzes SeaX KB Demo-Video ansehen:
+Wenn Sie direkt zur Demo springen möchten, können Sie sich unsere kurze SeaX KB-Demo ansehen:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="YouTube-Videoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
 ## Eingebettete Benutzeroberfläche für Live-Agenten
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="Erster Blick auf die SeaX Wissensdatenbank-Oberfläche."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="Ein erster Blick auf die SeaX Knowledge Base-Oberfläche."/>
 
-*Erster Blick auf die SeaX Wissensdatenbank-Oberfläche.*
+*Ein erster Blick auf die SeaX Knowledge Base-Oberfläche.*
 </center>
 
-Da unser KB-Engine speziell für Contact Center-Anwendungen entwickelt wurde, verfügt es natürlich über eine native Integration in die SeaX-Plattform, sodass Agenten nahtlos auf die KB zugreifen können, während sie Anrufe und Nachrichten bearbeiten. Kein Wechseln von Fenstern, kein Blättern durch Tabs, kein Navigieren durch verschachtelte Webseiten.
+Da unsere Wissensdatenbank-Engine speziell für Contact-Center-Anwendungen entwickelt wurde, ist sie natürlich nativ in die SeaX-Plattform integriert, sodass Agenten nahtlos auf die Wissensdatenbank zugreifen können, während sie Anrufe und Nachrichten bearbeiten. Kein Wechseln von Fenstern, kein Durchsuchen von Registerkarten, kein Navigieren durch verschachtelte Webseiten.
 
 ## Schnelle und genaue Suche
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-manual-search.png" alt="Ergebnisse einer manuellen Suche in der SeaX Wissensdatenbank."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-manual-search.png" alt="Ergebnisse einer manuellen Suche in der SeaX Knowledge Base."/>
 
-*Ergebnisse einer manuellen Suche in der SeaX Wissensdatenbank.*
+*Ergebnisse einer manuellen Suche in der SeaX Knowledge Base.*
 </center>
 
-Auf der grundlegendsten Ebene wird unsere Wissensdatenbank von einer unglaublich schnellen und genauen Suchmaschine angetrieben. Wir verwenden modernste Techniken zur Verarbeitung natürlicher Sprache und Informationsgewinnung, um aus einfachem Text, Beispielanfragen und unterstützenden URLs Bedeutungen zu extrahieren und die Äußerungen des Kunden den relevantesten KB-Einträgen zuzuordnen. Die Wissensdatenbank-Engine ist hochgradig erweiterbar und kann Milliarden von Dokumenten ohne wahrnehmbare Änderung der Antwortzeit unterstützen.
+Auf der grundlegendsten Ebene wird unsere Wissensdatenbank von einer extrem schnellen und genauen Suchmaschine angetrieben. Wir verwenden modernste Technologien zur Verarbeitung natürlicher Sprache und zur Informationsextraktion, um aus Rohtext, Beispielanfragen und unterstützenden URLs Bedeutung zu gewinnen und die Äußerungen der Kunden mit den relevantesten Wissensdatenbankeinträgen abzugleichen. Die Wissensdatenbank-Engine ist hoch skalierbar und kann Milliarden von Dokumenten unterstützen, ohne dass sich die Antwortzeit spürbar ändert.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="KB-Artikel in erweiterter Ansicht nach dem Klicken auf ein Suchergebnis."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="Ein Wissensdatenbankartikel in einer erweiterten Ansicht nach dem Klicken auf ein Suchergebnis."/>
 
-*KB-Artikel in erweiterter Ansicht nach dem Klicken auf ein Suchergebnis.*
+*Ein Wissensdatenbankartikel in einer erweiterten Ansicht nach dem Klicken auf ein Suchergebnis.*
 </center>
 
-Zusätzlich zur Suche nach dem relevantesten Dokument liefert unsere Suchmaschine feinere Ergebnisse, indem sie relevante Schlüsselwörter aus der Benutzeranfrage extrahiert und die relevantesten Schlüsselwörter und Passagen in jedem vorgeschlagenen KB-Eintrag hervorhebt.
+Neben dem Auffinden der relevantesten Dokumente liefert unsere Suchmaschine auch detailliertere Ergebnisse, indem sie wichtige Schlüsselwörter aus der Benutzeranfrage extrahiert und die relevantesten Schlüsselwörter und Passagen in jedem vorgeschlagenen Wissensdatenbankeintrag hervorhebt.
 
-## Echtzeit-Automatisierte Vorschläge
+## Automatisierte Vorschläge in Echtzeit
 
-Doch was wir bisher gezeigt haben, ist immer noch eine manuelle Suche. Live-Agenten sind voll damit beschäftigt, mit Kunden zu interagieren, und würden jedes Mal, wenn sie Informationen benötigen, wertvolle Zeit verlieren, wenn sie eine manuelle Suche in die KB eingeben müssten. Aus diesem Grund ist der größte Mehrwert, den die SeaX Wissensdatenbank bietet, die automatische Echtzeitsuche für text- und sprachbasierte Interaktionen.
+Aber was wir bisher gezeigt haben, ist immer noch eine manuelle Suche. Live-Agenten sind damit beschäftigt, mit Kunden zu interagieren, und die manuelle Eingabe von Suchen in die Wissensdatenbank bei jeder Informationsanforderung verschwendet wertvolle Zeit. Der größte Mehrwert der SeaX Knowledge Base ist daher die automatische Echtzeitsuche für text- und sprachbasierte Interaktionen.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="SeaX KB zeigt automatische Artikelvorschläge für eine eingehende Benutzernachricht an."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="Die SeaX Knowledge Base zeigt automatische Artikelvorschläge für eine eingehende Benutzernachricht an."/>
 
-*SeaX KB zeigt automatische Artikelvorschläge für eine eingehende Benutzernachricht an.*
+*Die SeaX Knowledge Base zeigt automatische Artikelvorschläge für eine eingehende Benutzernachricht an.*
 </center>
 
-Jedes Mal, wenn eine neue Benutzernachricht eingeht, wird die Wissensdatenbank automatisch mit der genauen Nachricht des Kunden abgefragt. In Echtzeit, während der Kunde spricht, erhält der Agent aktuelle KB-Artikelvorschläge als Referenz.
+Jedes Mal, wenn eine neue Benutzernachricht eingeht, fragt die Wissensdatenbank automatisch mit der genauen Nachricht des Kunden ab. In Echtzeit, während der Kunde spricht, werden dem Agenten aktuelle Vorschläge für Wissensdatenbankartikel als Referenz zur Verfügung gestellt.
 
-Und das funktioniert auch bei sprachbasierten Anrufen! Unser letzter Blogbeitrag, [Verleihen Sie Ihrem Contact Center eine eigene Stimme mit SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), zeigte die hochmoderne Speech-to-Text-Engine von Seasalt.ai. Die SeaX-Plattform nutzt diese Engine, um alle sprachbasierten Anrufe in Echtzeit zu transkribieren. Dadurch können wir diese Transkriptionen für verschiedene nachgelagerte Anwendungen nutzen, einschließlich der automatischen Wissensdatenbanksuche.
+Dies funktioniert auch für Sprachanrufe! Unser vorheriger Blogbeitrag [Geben Sie Ihrem Contact Center mit SeaX Voice Intelligence eine eigene Stimme](https://seasalt.ai/blog/21-seax-voice-intelligence/) stellte die hochmoderne Speech-to-Text-Engine von Seasalt.ai vor. Die SeaX-Plattform nutzt diese Engine, um alle Sprachanrufe in Echtzeit zu transkribieren. Folglich können wir diese Transkriptionen für eine Vielzahl von nachgelagerten Anwendungen verwenden, einschließlich der automatischen Suche in der Wissensdatenbank.
 
 ## Antwortvorlagen
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="Ein Agent antwortet einem Kunden mit einem Klick mithilfe der von SeaX KB generierten Antwortvorlage."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="Ein Agent antwortet einem Kunden mit einem Klick über eine von der SeaX Knowledge Base generierte Antwortvorlage."/>
 
-*Ein Agent antwortet einem Kunden mit einem Klick mithilfe der von SeaX KB generierten Antwortvorlage.*
+*Ein Agent antwortet einem Kunden mit einem Klick über eine von der SeaX Knowledge Base generierte Antwortvorlage.*
 </center>
 
-Die Suchergebnisse aus der Wissensdatenbank verfügen über eine zusätzliche Funktion, die die Antwortzeiten der Agenten bei textbasierten Interaktionen beschleunigt. Wenn der Agent einen relevanten KB-Artikel findet, kann er einfach auf das `+`-Symbol links neben dem Titel klicken, um eine Antwortvorlage in sein Chatfenster einzufügen. Im Backend generiert die KB bei jeder Suche eine schriftliche Antwort auf die Frage des Benutzers basierend auf den relevantesten Informationen im vorgeschlagenen KB-Artikel und enthält alle unterstützenden Links. Dies kann die Antwortzeit des Agenten erheblich verbessern, da der Agent nicht mehr mit einem leeren Blatt beginnt. Stattdessen hat er die wichtigen Informationen aus dem KB-Artikel bereits in seinem Chatfenster, sodass er sie einfach bearbeiten und senden kann.
+Die Suchergebnisse der Wissensdatenbank verfügen über eine zusätzliche Funktion, mit der die Reaktionsfähigkeit der Agenten auf textbasierte Interaktionen beschleunigt werden kann. Wenn ein Agent einen relevanten Wissensdatenbankartikel findet, kann er einfach auf das „+“-Symbol links neben dem Titel klicken, um eine Antwortvorlage in sein Chatfenster einzufügen. Im Backend generiert die Wissensdatenbank bei jeder Suche eine schriftliche Antwort auf die Frage des Benutzers, basierend auf den relevantesten Informationen aus den vorgeschlagenen Wissensdatenbankartikeln, und enthält alle unterstützenden Links. Dies kann die Reaktionszeiten der Agenten erheblich verbessern, da die Agenten nicht mehr bei Null anfangen. Stattdessen werden die wichtigen Informationen aus dem Wissensdatenbankartikel bereits in ihrem Chatfenster angezeigt, sodass sie sie nur noch bearbeiten und senden müssen.
 
 
-## KB-Verwaltung
+## KB-Management
 
-Nachdem wir nun gesehen haben, was die KB-Engine leisten kann, bleibt eine Frage zum Backend: Wie verwalten Sie die Informationen in der Wissensdatenbank? Die SeaX-Plattform verfügt über eine vollständig integrierte KB-Verwaltungs-UI, die Administratoren über die Einstellungsseite zur Verfügung steht.
+Nachdem wir nun gesehen haben, was die Wissensdatenbank-Engine leisten kann, bleibt eine Frage zum Backend offen: Wie werden die Informationen in der Wissensdatenbank verwaltet? Die SeaX-Plattform bietet eine vollständig integrierte Benutzeroberfläche für die Wissensdatenbankverwaltung, auf die Administratoren über die Einstellungsseite zugreifen können.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="SeaX KB-Verwaltungsoberfläche."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="Die SeaX Knowledge Base Management-Oberfläche."/>
 
-*SeaX KB-Verwaltungsoberfläche.*
+*Die SeaX Knowledge Base Management-Oberfläche.*
 </center>
 
-Auf dieser Seite können Sie einen einzelnen neuen KB-Eintrag hinzufügen oder die gesamte Wissensdatenbank mithilfe einer Tabellenkalkulationsdatei importieren/exportieren. Die Benutzeroberfläche unterstützt auch das Bearbeiten und Löschen von KB-Einträgen, sodass Sie Ihre KB kontinuierlich auf dem neuesten Stand halten können.
+Auf dieser Seite können Sie einzelne neue Wissensdatenbankeinträge hinzufügen oder die gesamte Wissensdatenbank mithilfe einer Tabellenkalkulationsdatei importieren/exportieren. Die Benutzeroberfläche unterstützt auch das Bearbeiten und Löschen von Wissensdatenbankeinträgen, sodass Sie Ihre Wissensdatenbank kontinuierlich auf dem neuesten Stand halten können.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Bearbeiten eines einzelnen KB-Artikels über die SeaX KB-Verwaltungsoberfläche."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Bearbeiten eines einzelnen Wissensdatenbankartikels über die SeaX Knowledge Base Management-Oberfläche."/>
 
-*Bearbeiten eines einzelnen KB-Artikels über die SeaX KB-Verwaltungsoberfläche.*
+*Bearbeiten eines einzelnen Wissensdatenbankartikels über die SeaX Knowledge Base Management-Oberfläche.*
 </center>
 
 ## Webinar
 
-Wenn Sie eine detailliertere Einführung in das Wissensdatenbank-System und dessen Integration in die SeaX-Plattform wünschen, sehen Sie sich bitte unser Webinar zu diesem Thema an:
+Wenn Sie einen genaueren Einblick in das Wissensdatenbanksystem und seine Integration in die SeaX-Plattform erhalten möchten, sehen Sie sich unser Webinar zu diesem Thema an:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube-Videoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Für eine persönliche Demo oder um mehr darüber zu erfahren, wie Seasalt.ai seine Lösungen an Ihre Geschäftsanforderungen anpassen kann, füllen Sie bitte unser [Demo-Buchungsformular](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) aus.
+Für eine persönliche Demo oder um zu erfahren, wie Seasalt.ai eine Lösung für Ihre Geschäftsanforderungen anpassen kann, füllen Sie bitte unser [Formular zur Demoanforderung](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) aus.

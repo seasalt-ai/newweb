@@ -1,11 +1,18 @@
 ---
-title: "The Future of Customer Service: AI, Automation, and Human Connection"
-meta_description: "Explore how AI and automation are reshaping customer service while maintaining the human touch that customers value most."
-author: "Dr. Emily Watson"
-tags: ["Future of Work", "AI", "Customer Experience", "Technology Trends"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
+author: Dr. Emily Watson
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Explore how AI and automation are reshaping customer service while
+  maintaining the human touch that customers value most.
+metatitle: 'The Future of Customer Service: AI, Automation, and Human Co...'
+tags:
+- Future of Work
+- AI
+- Customer Experience
+- Technology Trends
+title: 'The Future of Customer Service: AI, Automation, and Human Connection'
 ---
+
 
 # The Future of Customer Service: AI, Automation, and Human Connection
 

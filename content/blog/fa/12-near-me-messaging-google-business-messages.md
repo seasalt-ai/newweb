@@ -1,18 +1,23 @@
 ---
-title: "Near Me Messaging مکمل پیام‌های کسب‌وکار Google"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging هوش مصنوعی مکالمه‌ای را با پیام‌های کسب‌وکار Google ادغام می‌کند و از طریق دکمه چت در نمایه Google Maps شما، پشتیبانی 24/7 را فراهم می‌کند."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging هوش مصنوعی مکالمه‌ای را با پیام‌های کسب‌وکار Google
+  ادغام می‌کند و از طریق دکمه چت در نمایه Google Maps شما، پشتیبانی 24/7 را فراهم
+  می‌کند.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging مکمل پیام‌های کسب‌وکار Google
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging مکمل پیام‌های کسب‌وکار Google
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 در یکی از وبلاگ‌های قبلی ما، شما را با [مزایا و محدودیت‌های پیام‌های کسب‌وکار Google](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/) آشنا کردیم. دو محدودیت اصلی در پیاده‌سازی‌های رایج پیام‌های کسب‌وکار Google وجود دارد. اولین محدودیت این است که برای پرداخت به یک آژانس مشاوره حرفه‌ای برای ایجاد یک عامل مجازی سفارشی برای کسب‌وکار شما از ابتدا، پول و زمان زیادی لازم است. محدودیت دوم این است که صاحبان کسب‌وکار نمی‌توانند مستقیماً با مشتریان صحبت کنند مگر اینکه آژانس مشاوره یک ویژگی چت زنده را به عنوان بخشی از پیاده‌سازی خود ارائه دهد.
 

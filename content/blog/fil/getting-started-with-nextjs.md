@@ -1,12 +1,20 @@
 ---
-title: "Pagsisimula sa Next.js: Isang Gabay para sa mga Nagsisimula"
-meta_description: "Alamin ang mga pangunahing kaalaman ng Next.js, isang React framework para sa pagbuo ng mga web application na handa sa produksyon na may server-side rendering at static site generation."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Alamin ang mga pangunahing kaalaman ng Next.js, isang React framework
+  para sa pagbuo ng mga web application na handa sa produksyon na may server-side
+  rendering at static site generation.
+metatitle: 'Pagsisimula sa Next.js: Isang Gabay para sa mga Nagsisimula'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Pagsisimula sa Next.js: Isang Gabay para sa mga Nagsisimula'
 ---
+
 
 # Pagsisimula sa Next.js: Isang Gabay para sa mga Nagsisimula
 

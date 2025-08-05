@@ -1,12 +1,21 @@
 ---
-title: "Erstellung von KI-gestützten Multimedia-Inhalten für die Kundenbindung"
-meta_description: "Erfahren Sie, wie Sie KI und Multimedia-Inhalte nutzen können, um ansprechende Kundenerlebnisse über alle Kanäle hinweg zu schaffen. Enthält Video-Beispiele, interaktive Elemente und Best Practices."
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "Kundenbindung", "Digitales Marketing", "Videoinhalte"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: 2025-07-29T20:45:17Z
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Erfahren Sie, wie Sie KI und Multimedia-Inhalte nutzen können, um
+  ansprechende Kundenerlebnisse über alle Kanäle hinweg zu schaffen. Enthält Video-Beispiele,
+  interaktive Elemente und Best Practices.
+metatitle: Erstellung von KI-gestützten Multimedia-Inhalten für die Kun...
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- AI Content
+- Multimedia
+- Kundenbindung
+- Digitales Marketing
+- Videoinhalte
+title: Erstellung von KI-gestützten Multimedia-Inhalten für die Kundenbindung
 ---
+
 
 # Erstellung von KI-gestützten Multimedia-Inhalten für die Kundenbindung
 

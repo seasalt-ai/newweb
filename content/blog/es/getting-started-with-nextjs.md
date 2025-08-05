@@ -1,12 +1,20 @@
 ---
-title: "Primeros pasos con Next.js: Una guía para principiantes"
-meta_description: "Aprenda los conceptos básicos de Next.js, un framework de React para construir aplicaciones web listas para producción con renderizado del lado del servidor y generación de sitios estáticos."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Aprenda los conceptos básicos de Next.js, un framework de React
+  para construir aplicaciones web listas para producción con renderizado del lado
+  del servidor y generación de sitios estáticos.
+metatitle: 'Primeros pasos con Next.js: Una guía para principiantes'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Primeros pasos con Next.js: Una guía para principiantes'
 ---
+
 
 # Primeros pasos con Next.js: Una guía para principiantes
 

@@ -1,13 +1,20 @@
 ---
-title: "O Futuro do Atendimento ao Cliente: IA, Automação e Conexão Humana"
-meta_description: "Explore como a IA e a automação estão remodelando o atendimento ao cliente, mantendo o toque humano que os clientes mais valorizam."
-author: "Dr. Emily Watson"
-tags: ["Futuro do Trabalho", "IA", "Experiência do Cliente", "Tendências Tecnológicas"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Explore como a IA e a automação estão remodelando o atendimento
+  ao cliente, mantendo o toque humano que os clientes mais valorizam.
+metatitle: 'O Futuro do Atendimento ao Cliente: IA, Automação e Conexão ...'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- Futuro do Trabalho
+- IA
+- Experiência do Cliente
+- Tendências Tecnológicas
+title: 'O Futuro do Atendimento ao Cliente: IA, Automação e Conexão Humana'
 ---
+
 
 # O Futuro do Atendimento ao Cliente: IA, Automação e Conexão Humana
 

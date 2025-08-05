@@ -1,16 +1,23 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: Penambahbaikan Backend & Kestabilan"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: Dengan keluaran terbaru, SeaVoice Discord Bot melancarkan penambahbaikan
+  backend besar-besaran yang meningkatkan kestabilan bot dan membantu pembangunan
+  masa depan.
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Dengan keluaran terbaru, SeaVoice Discord Bot melancarkan penambahbaikan backend besar-besaran yang meningkatkan kestabilan bot dan membantu pembangunan masa depan.
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'SeaVoice STT/TTS Discord Bot: Penambahbaikan Backend & Kesta...'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: Penambahbaikan Backend & Kestabilan'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot telah mendapat populariti sebagai salah satu pilihan terbaik untuk menyalin pertuturan dalam saluran suara Discord. Dengan keluaran terbaru, kami melancarkan penambahbaikan backend besar-besaran yang meningkatkan kestabilan bot dan membantu pembangunan masa depan.*
 

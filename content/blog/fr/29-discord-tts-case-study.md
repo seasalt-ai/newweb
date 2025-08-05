@@ -1,15 +1,21 @@
 ---
-title: "Synthèse vocale sur Discord : Une étude de cas du bot TTS Discord"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: Dans ce blog, nous discuterons de nos découvertes sur la façon dont les utilisateurs réels de Discord utilisent nos services après avoir examiné plusieurs mois de données authentiques de synthèse vocale.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: Dans ce blog, nous discuterons de nos découvertes sur la façon dont les
+  utilisateurs réels de Discord utilisent nos services après avoir examiné plusieurs
+  mois de données authentiques de synthèse vocale.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Synthèse vocale sur Discord : Une étude de cas du bot TTS Di...'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Synthèse vocale sur Discord : Une étude de cas du bot TTS Discord'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Après le lancement de SeaVoice, l'un des bots de synthèse vocale et de reconnaissance vocale les plus rapides et les plus précis sur Discord, nous voulions comprendre comment les utilisateurs interagissaient réellement avec les services. Dans ce blog, nous discuterons de nos découvertes après avoir examiné plusieurs mois de données réelles d'utilisateurs de synthèse vocale.*
 

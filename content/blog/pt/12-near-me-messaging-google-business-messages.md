@@ -1,18 +1,22 @@
 ---
-title: "Near Me Messaging Complementa o Google Business Messages"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
-draft: false
-description: "Near Me Messaging integra a IA Conversacional com o Google Business Messages, permitindo suporte 24/7 através do botão de chat no seu perfil do Google Maps."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
 aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-07-28T16:56:53Z"
+- /blog/12-near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+date: 2022-04-12 21:12:16-07:00
+description: Near Me Messaging integra a IA Conversacional com o Google Business Messages,
+  permitindo suporte 24/7 através do botão de chat no seu perfil do Google Maps.
+draft: false
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+metatitle: Near Me Messaging Complementa o Google Business Messages
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- NearMe
+title: Near Me Messaging Complementa o Google Business Messages
+url: /blog/near-me-messaging-complements-google-business-messages/
+weight: 1
 ---
+
 
 Em um de nossos blogs anteriores, nós o guiamos pelos [benefícios e limitações do Google Business Messages](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Existem duas limitações principais nas implementações comuns do Google Business Messages. A primeira limitação é que custa muito dinheiro e tempo para pagar uma agência de consultoria profissional para criar um agente virtual personalizado para o seu negócio do zero. A segunda limitação é que os proprietários de empresas não conseguem conversar diretamente com os clientes, a menos que a agência de consultoria forneça um recurso de chat ao vivo como parte de sua implementação.
 

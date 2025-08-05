@@ -55,7 +55,11 @@ const BlogPostPage = () => {
       }
 
       try {
-        const blogPost = await loadBlogPostByUrlPath(slug, lang || i18n.language);
+        // 确保使用正确的语言参数，优先使用URL中的lang参数
+        const targetLanguage = lang || i18n.language;
+        console.log('[BlogPost] Loading post with language:', { lang, i18nLanguage: i18n.language, targetLanguage, slug });
+        
+        const blogPost = await loadBlogPostByUrlPath(slug, targetLanguage);
         if (blogPost) {
           setPost(blogPost);
         } else {
@@ -69,7 +73,9 @@ const BlogPostPage = () => {
       }
     };
 
-    loadPost();
+    // 添加一个小延迟，确保语言切换完成
+    const timer = setTimeout(loadPost, 100);
+    return () => clearTimeout(timer);
   }, [slug, lang, i18n.language]);
 
   // Additional scroll to top when blog post changes

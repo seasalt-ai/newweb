@@ -1,16 +1,19 @@
 ---
-title: "SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: 이 블로그에서는 SeaX의 대량 SMS 기능을 통해 상담원이 문자로 아웃바운드 메시지를 사전에 보내는 방법을 보여줍니다.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "이 블로그에서는 SeaX의 대량 SMS 기능을 통해 상담원이 문자로 아웃바운드 메시지를 사전에 보내는 방법을 보여줍니다."
+metatitle: 'SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해'
+modified_date: '2025-07-28T16:03:25.123456'
+tags:
+- SeaX
+title: 'SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-07-28T16:03:25.123456"
 ---
+
 
 *이전 블로그 게시물에서는 상담원이 수신 전화 및 메시지를 더 잘 처리하는 데 도움이 되는 SeaX의 주요 기능(음성 인텔리전스, 기술 자료 및 사례 관리 포함) 중 일부를 살펴보았습니다. 이 블로그에서는 SeaX의 대량 SMS 기능을 통해 상담원이 문자로 아웃바운드 메시지를 사전에 보내는 방법을 보여줍니다. 수신자는 기존 이메일 통신보다 더 빠르고 일관되게 문자를 여는 것으로 나타났습니다.*
 

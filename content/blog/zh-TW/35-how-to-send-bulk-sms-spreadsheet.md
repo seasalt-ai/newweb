@@ -1,13 +1,15 @@
 ---
-title: 如何使用試算表批量發送簡訊
-slug: how-to-send-bulk-sms-spreadsheet
-seoTitle: 如何使用試算表批量發送簡訊
+metatitle: 如何使用試算表批量發送簡訊
 seoDescription: 全面指南，教您如何透過試算表高效批量發送簡訊，助力現代企業溝通。
+seoTitle: 如何使用試算表批量發送簡訊
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - 簡訊
-  - 試算表
-  - 自動化
+- 簡訊
+- 試算表
+- 自動化
+title: 如何使用試算表批量發送簡訊
 ---
+
 
 使用試算表批量發送簡訊讓企業能夠高效管理聯絡人並一次性向大量客戶發送訊息。
 

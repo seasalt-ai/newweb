@@ -1,11 +1,13 @@
 ---
-title: 디스코드 커뮤니티와 봇 만드는 방법
-lang: ko
-description: 한국어 사용자를 위한 디스코드 커뮤니티 및 자동화 봇 구축 방법과 SEO 팁을 안내합니다.
 author: SeaHealth Editorial Team
+description: 한국어 사용자를 위한 디스코드 커뮤니티 및 자동화 봇 구축 방법과 SEO 팁을 안내합니다.
+lang: ko
+metatitle: 디스코드 커뮤니티와 봇 만드는 방법
 published: 2024-07-01
 slug: 16-how-to-create-a-discord-community-and-bot
+title: 디스코드 커뮤니티와 봇 만드는 방법
 ---
+
 
 # 디스코드 커뮤니티와 봇 만드는 방법
 

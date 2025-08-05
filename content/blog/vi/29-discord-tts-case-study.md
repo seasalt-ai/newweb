@@ -1,15 +1,22 @@
 ---
-title: "Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển hình về Bot Discord TTS"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: Trong blog này, chúng tôi sẽ thảo luận về những phát hiện của mình về cách người dùng Discord thực sự sử dụng dịch vụ của chúng tôi sau khi xem xét dữ liệu chuyển văn bản thành giọng nói xác thực trong vài tháng.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: Trong blog này, chúng tôi sẽ thảo luận về những phát hiện của mình về
+  cách người dùng Discord thực sự sử dụng dịch vụ của chúng tôi sau khi xem xét dữ
+  liệu chuyển văn bản thành giọng nói xác thực trong vài tháng.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển...'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển hình về Bot Discord
+  TTS'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Sau khi ra mắt SeaVoice, một trong những bot chuyển văn bản thành giọng nói và giọng nói thành văn bản nhanh nhất và chính xác nhất trên Discord, chúng tôi muốn hiểu cách người dùng thực sự tương tác với các dịch vụ. Trong blog này, chúng tôi sẽ thảo luận về những phát hiện của mình sau khi xem xét dữ liệu người dùng chuyển văn bản thành giọng nói thực tế trong vài tháng.*
 

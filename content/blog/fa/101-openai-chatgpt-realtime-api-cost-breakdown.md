@@ -1,19 +1,20 @@
 ---
-title: "OpenAI در مقابل انسان در مقابل هوش مصنوعی صوتی: مقایسه هزینه (5/5)"
-metatitle: "OpenAI Realtime API در مقابل انسان و هوش مصنوعی صوتی: تفکیک هزینه"
-date: 2024-10-12T00:22:19-07:00
+title: "OpenAI در مقابل انسان در مقابل هوش مصنوعی صوتی:..."
+metatitle: "OpenAI Realtime API در مقابل انسان و هوش مصنوعی..."
+date: "2024-10-12T00:22:19-07:00"
 modified_date: "2025-07-26T16:48:39Z"
-draft: false
-author: Xuchen Yao
+draft: "false"
+author: "Xuchen Yao"
 description: "تحلیل هزینه دقیق OpenAI Realtime API در مقایسه با منشی های انسانی و عوامل هوش مصنوعی صوتی."
-weight: 1
-tags: ["سرویس پاسخگویی خودکار"، "تماس ورودی برای مشاغل کوچک"، "SeaChat"، "هوش مصنوعی صوتی"]
-toc: true
-image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
+weight: "1"
+tags:
+toc: "true"
+image: "/images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgp..."
 canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
 url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
 
 ---
+
 
 
 *این مجموعه ای از 5 مقاله است که استراتژی های ارتباط با مشتری را برای مشاغل کوچک، با تمرکز بر خدمات پاسخگویی، بررسی می کند:*

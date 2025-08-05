@@ -1,12 +1,20 @@
 ---
-title: "Rozpoczęcie pracy z Next.js: Przewodnik dla początkujących"
-meta_description: "Poznaj podstawy Next.js, frameworka React do tworzenia gotowych do produkcji aplikacji internetowych z renderowaniem po stronie serwera i generowaniem stron statycznych."
-author: "John Doe"
-tags: ["Next.js", "React", "Web Development", "Frameworks"]
-date: "2025-01-10"
-image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-28T16:56:53Z"
+author: John Doe
+date: '2025-01-10'
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Poznaj podstawy Next.js, frameworka React do tworzenia gotowych
+  do produkcji aplikacji internetowych z renderowaniem po stronie serwera i generowaniem
+  stron statycznych.
+metatitle: 'Rozpoczęcie pracy z Next.js: Przewodnik dla początkujących'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- Next.js
+- React
+- Web Development
+- Frameworks
+title: 'Rozpoczęcie pracy z Next.js: Przewodnik dla początkujących'
 ---
+
 
 # Rozpoczęcie pracy z Next.js: Przewodnik dla początkujących
 

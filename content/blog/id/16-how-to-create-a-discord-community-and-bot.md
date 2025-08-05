@@ -1,13 +1,16 @@
 ---
-title: Cara Membuat Komunitas dan Bot Discord
-slug: how-to-create-a-discord-community-and-bot
+metatitle: Cara Membuat Komunitas dan Bot Discord
+seoDescription: Panduan lengkap untuk membangun komunitas Discord dan membuat bot,
+  solusi interaktif untuk bisnis dan hobi.
 seoTitle: Cara Membuat Komunitas dan Bot Discord
-seoDescription: Panduan lengkap untuk membangun komunitas Discord dan membuat bot, solusi interaktif untuk bisnis dan hobi.
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - Komunitas
-  - Bot
+- Discord
+- Komunitas
+- Bot
+title: Cara Membuat Komunitas dan Bot Discord
 ---
+
 
 Discord adalah platform populer untuk membangun komunitas online. Dengan fitur bot, Anda dapat meningkatkan interaksi dan otomatisasi dalam server Discord Anda.
 

@@ -1,54 +1,54 @@
 ---
-title: "SeaX KB: Una base de conocimientos que responde antes de que se le pregunte"
-metatitle: "SeaX KB: Una base de conocimientos que responde antes de que se le pregunte"
+title: "SeaX KB: una base de conocimientos que responde antes de que preguntes"
+metatitle: "SeaX KB: una base de conocimientos que responde antes de que preguntes"
 date: 2022-08-15T22:01:32-07:00
+modified_date: 2025-07-30T17:01:09.247Z
 draft: false
 author: Kim Dodds
-image: /images/blog/22-seax-knowledge-base/thumbnail.png
-description: "En esta publicación, continuamos con el tema de las integraciones de IA con la base de conocimientos impulsada por IA de SeaX, que ofrece respuestas sugeridas en tiempo real."
+description: "En este artículo, continuamos con el tema de la integración de la IA presentando la base de conocimientos impulsada por la IA de SeaX, que proporciona respuestas sugeridas en tiempo real."
 weight: 1
 tags: ["SeaX"]
 canonicalURL: "/blog/seax-kb-a-knowledge-base/"
 url: "/blog/seax-kb-a-knowledge-base/"
 ---
 
-*En nuestra publicación de blog anterior, [Dé a su centro de contacto su propia voz con SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), mostramos cómo los motores internos de texto a voz y de voz a texto de Seasalt.ai mejoran varios aspectos de la plataforma SeaX. En esta publicación, continuamos con el tema de las integraciones de IA con la base de conocimientos impulsada por IA de SeaX, que escucha las conversaciones y ofrece respuestas sugeridas en tiempo real.*
+*En nuestra publicación de blog anterior [Dale a tu centro de contacto su propia voz con SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), mostramos cómo los motores de texto a voz y de voz a texto internos de Seasalt.ai mejoran varios aspectos de la plataforma SeaX. En este artículo, continuaremos con el tema de la integración de la IA presentando la base de conocimientos impulsada por la IA de SeaX, que escucha las conversaciones en tiempo real para proporcionar respuestas sugeridas.*
 
-# Tabla de Contenidos
+# Tabla de contenido
 - [La base de conocimientos tradicional](#the-traditional-knowledge-base)
-- [Base de conocimientos SeaX](#seax-knowledge-base)
-    - [Interfaz de usuario incrustada para agentes en vivo](#embedded-user-interface-for-live-agents)
+- [La base de conocimientos de SeaX](#seax-knowledge-base)
+    - [Interfaz de usuario integrada para agentes en vivo](#embedded-user-interface-for-live-agents)
     - [Búsqueda rápida y precisa](#fast-and-accurate-search)
-    - [Sugerencias automatizadas en tiempo real](#real-time-automated-suggestions)
+    - [Sugerencias automáticas en tiempo real](#real-time-automated-suggestions)
     - [Plantillas de respuesta](#response-templates)
-    - [Gestión de KB](#kb-management)
-    - [Webinar](#webinar)
+    - [Gestión de la base de conocimientos](#kb-management)
+    - [Seminario web](#webinar)
 
 # La base de conocimientos tradicional
 
-Fundamentalmente, una base de conocimientos (KB) es simplemente una biblioteca de información (idealmente) bien organizada y de fácil acceso que se utiliza de forma autoservicio en línea. Los buenos sistemas de base de conocimientos tendrán características como la organización jerárquica del contenido, la búsqueda y el etiquetado para ayudar a los usuarios a encontrar la información correcta más fácilmente.
+En esencia, una base de conocimientos (KB) es solo una colección de información (idealmente) bien organizada y de fácil acceso para el autoservicio en línea. Un buen sistema de KB tendrá características como organización de contenido jerárquico, búsqueda y etiquetado para ayudar a los usuarios a encontrar la información correcta más fácilmente.
 
-Mantener una base de conocimientos detallada es una práctica estándar para la mayoría de las empresas hoy en día. Ya sea para ayudar a los empleados a compartir información interna sobre su producto, responder preguntas de un cliente potencial, ayudar a los clientes a solucionar problemas o todo lo anterior, hacer que la información clave sea accesible para los empleados y los clientes significa un trabajo más eficiente y una mayor satisfacción del cliente.
+Mantener una base de conocimientos detallada es una práctica estándar para la mayoría de las empresas en la actualidad. Ya sea que el propósito sea ayudar a los empleados a compartir información interna sobre sus productos, responder las preguntas de los clientes potenciales, ayudar a los clientes con la solución de problemas o todo lo anterior, hacer que la información clave sea accesible tanto para los empleados como para los clientes significa un trabajo más eficiente y una mayor satisfacción del cliente.
 
-Normalmente, una base de conocimientos se implementa y mantiene a través de un sistema de gestión de contenido o un sistema de gestión de conocimientos. Estos sistemas pueden variar en escala según las necesidades de la organización, desde un simple gestor de documentos hasta un servicio repleto de funciones que incluye flujos de trabajo de publicación, segmentación de audiencia, herramientas de colaboración y más. Si bien estos sistemas son versátiles de diferentes maneras, casi siempre están destinados a ser accedidos a través de la interacción con una página web o aplicación. Para el caso de uso particular de un agente de servicio al cliente (que normalmente utiliza una base de conocimientos como uno de sus principales recursos para ayudar a los clientes), es necesaria una estrecha integración con el software del centro de contacto para permitir que los agentes manejen las consultas de los usuarios de la manera más fluida posible.
+Por lo general, las bases de conocimientos se implementan y mantienen a través de un sistema de gestión de contenido o un sistema de gestión del conocimiento. Estos sistemas pueden variar en escala según las necesidades de una organización, desde simples administradores de documentos hasta servicios ricos en funciones que incluyen flujos de trabajo de publicación, segmentación de audiencia, herramientas de colaboración y más. Si bien estos sistemas son versátiles en varios aspectos, casi siempre están diseñados para ser accedidos a través de la interacción con una página web o una aplicación. Para el caso de uso específico de los agentes de servicio al cliente (que a menudo usan las bases de conocimientos como uno de sus principales recursos para ayudar a los clientes), se necesita una estrecha integración con el software del centro de contacto para permitir que los agentes manejen las consultas de los usuarios de la manera más fluida posible.
 
-# Base de conocimientos SeaX
+# La base de conocimientos de SeaX
 
-Nuestra base de conocimientos fue diseñada desde el primer día con un caso de uso muy particular en mente: el servicio al cliente basado en voz. Si bien la mayoría, si no todos, los sistemas de base de conocimientos existentes se basan en la navegación a través de páginas web jerárquicas o en la introducción de una consulta de búsqueda, nuestra KB necesitaba ser más rápida e independiente para permitir que los representantes de servicio al cliente prestaran toda su atención al cliente mientras seguían respondiendo preguntas rápidamente.
+Nuestra base de conocimientos fue diseñada desde el primer día con un caso de uso muy específico en mente: el servicio al cliente por voz. Mientras que la mayoría, si no todos, los sistemas de bases de conocimientos existentes se basan en la navegación a través de páginas web jerárquicas o en la escritura de consultas de búsqueda, nuestra base de conocimientos necesitaba ser más rápida y autónoma para que los representantes de servicio al cliente pudieran dedicar toda su atención al cliente y al mismo tiempo responder preguntas rápidamente.
 
-Si desea ir directamente a una demostración, puede ver nuestro breve video de demostración de SeaX KB:
+Si desea pasar directamente a la demostración, puede ver nuestra breve demostración de SeaX KB:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/C_e_gaZHSFA" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 
-## Interfaz de usuario incrustada para agentes en vivo
+## Interfaz de usuario integrada para agentes en vivo
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="Primera vista de la interfaz de la base de conocimientos de SeaX."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-intro.png" alt="Un primer vistazo a la interfaz de la base de conocimientos de SeaX."/>
 
-*Primera vista de la interfaz de la base de conocimientos de SeaX.*
+*Un primer vistazo a la interfaz de la base de conocimientos de SeaX.*
 </center>
 
-Naturalmente, dado que nuestro motor de KB fue diseñado específicamente para aplicaciones de centros de contacto, tiene una integración nativa con la plataforma SeaX para que los agentes puedan acceder a la KB sin problemas mientras manejan llamadas y mensajes. Sin cambiar de ventana, sin hojear pestañas, sin navegar por páginas web anidadas.
+Naturalmente, dado que nuestro motor de base de conocimientos fue diseñado específicamente para aplicaciones de centros de contacto, está integrado de forma nativa en la plataforma SeaX para que los agentes puedan acceder sin problemas a la base de conocimientos mientras manejan llamadas y mensajes. Sin cambiar de ventana, sin buscar en pestañas, sin navegar por páginas web anidadas.
 
 ## Búsqueda rápida y precisa
 
@@ -58,62 +58,62 @@ Naturalmente, dado que nuestro motor de KB fue diseñado específicamente para a
 *Resultados de una búsqueda manual en la base de conocimientos de SeaX.*
 </center>
 
-En el nivel más básico, nuestra base de conocimientos está impulsada por un motor de búsqueda increíblemente rápido y preciso. Utilizamos técnicas de procesamiento de lenguaje natural y extracción de información de última generación para recopilar el significado de texto sin formato, consultas de ejemplo y URL de soporte, y para hacer coincidir las expresiones del cliente con las entradas de KB más relevantes. El motor de la base de conocimientos es altamente extensible y puede admitir miles de millones de documentos sin un cambio perceptible en el tiempo de respuesta.
+En el nivel más básico, nuestra base de conocimientos está impulsada por un motor de búsqueda extremadamente rápido y preciso. Utilizamos técnicas de procesamiento del lenguaje natural y extracción de información de última generación para obtener significado de texto sin formato, consultas de ejemplo y URL de soporte y para hacer coincidir las expresiones de los clientes con las entradas más relevantes de la base de conocimientos. El motor de la base de conocimientos es altamente escalable y puede admitir miles de millones de documentos sin ningún cambio perceptible en el tiempo de respuesta.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="Artículo de KB en vista expandida después de hacer clic en un resultado de búsqueda."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-detail.png" alt="Un artículo de la base de conocimientos en una vista ampliada después de hacer clic en un resultado de búsqueda."/>
 
-*Artículo de KB en vista expandida después de hacer clic en un resultado de búsqueda.*
+*Un artículo de la base de conocimientos en una vista ampliada después de hacer clic en un resultado de búsqueda.*
 </center>
 
-Además de encontrar el documento más relevante, nuestro motor de búsqueda proporciona resultados más detallados al extraer palabras clave destacadas de la consulta del usuario y resaltar las palabras clave y pasajes más relevantes dentro de cada entrada de KB sugerida.
+Además de encontrar los documentos más relevantes, nuestro motor de búsqueda también proporciona resultados más detallados al extraer palabras clave destacadas de la consulta del usuario y resaltar las palabras clave y los pasajes más relevantes en cada entrada sugerida de la base de conocimientos.
 
-## Sugerencias automatizadas en tiempo real
+## Sugerencias automáticas en tiempo real
 
-Pero lo que hemos mostrado hasta ahora sigue siendo una búsqueda manual. Los agentes en vivo están ocupados interactuando con los clientes y perderían un tiempo valioso ingresando una búsqueda manual en la KB cada vez que quisieran alguna información. Por esa razón, el mayor valor agregado que la base de conocimientos de SeaX aporta es la búsqueda automatizada en tiempo real para interacciones basadas en texto y voz.
+Pero lo que hemos mostrado hasta ahora sigue siendo una búsqueda manual. Los agentes en vivo están ocupados interactuando with customers, and manually typing searches into the knowledge base every time they need information wastes precious time. So, the biggest value-add that comes with the SeaX Knowledge Base is real-time automated search for both text and voice-based interactions.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="SeaX KB mostrando sugerencias automáticas de artículos para un mensaje de usuario entrante."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-automatic-search.png" alt="The SeaX Knowledge Base showing automatic article suggestions for an incoming user message."/>
 
-*SeaX KB mostrando sugerencias automáticas de artículos para un mensaje de usuario entrante.*
+*The SeaX Knowledge Base showing automatic article suggestions for an incoming user message.*
 </center>
 
-Cada vez que llega un nuevo mensaje de usuario, la base de conocimientos se consultará automáticamente utilizando el mensaje exacto del cliente. En tiempo real, mientras el cliente está hablando, el agente recibirá sugerencias de artículos de KB actualizadas para su referencia.
+Every time a new user message comes in, the knowledge base automatically queries with the customer's exact message. In real-time, as the customer is speaking, agents will be provided with up-to-date knowledge base article suggestions for their reference.
 
-¡Y esto también funciona con llamadas de voz! Nuestra última publicación de blog, [Dé a su centro de contacto su propia voz con SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), mostró el motor de voz a texto de última generación de Seasalt.ai. La plataforma SeaX utiliza ese motor para transcribir todas las llamadas de voz en tiempo real. Como resultado, podemos usar esas transcripciones para varias aplicaciones posteriores, incluida la búsqueda automática de bases de conocimientos.
+This works for voice calls too! Our previous blog post [Give Your Contact Center Its Own Voice with SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/) showcased Seasalt.ai's state-of-the-art speech-to-text engine. The SeaX platform leverages this engine to transcribe all voice calls in real-time. Consequently, we can use these transcriptions for a variety of downstream applications, including automatic knowledge base search.
 
-## Plantillas de respuesta
+## Response Templates
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="Un agente responde a un cliente con un solo clic utilizando la plantilla de respuesta generada por SeaX KB."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-response-template.png" alt="An agent replying to a customer in one click with a response template generated by the SeaX Knowledge Base."/>
 
-*Un agente responde a un cliente con un solo clic utilizando la plantilla de respuesta generada por SeaX KB.*
+*An agent replying to a customer in one click with a response template generated by the SeaX Knowledge Base.*
 </center>
 
-Los resultados de búsqueda de la base de conocimientos tienen una característica adicional que ayuda a acelerar las respuestas de los agentes para interacciones basadas en texto. Cuando el agente encuentra un artículo de KB relevante, simplemente puede hacer clic en el icono `+` a la izquierda del título para insertar una plantilla de respuesta en su ventana de chat. En el backend, cada vez que se busca en la KB, se genera una respuesta escrita a la pregunta del usuario basada en la información más relevante del artículo de KB sugerido y se incluyen los enlaces de apoyo. Esto puede mejorar enormemente el tiempo de respuesta del agente, ya que el agente ya no comienza con una pizarra en blanco. En su lugar, tienen la información importante del artículo de KB ya en su ventana de chat, por lo que simplemente pueden editarla y enviarla.
+Knowledge base search results come with one additional feature to help speed up agents' responsiveness for text-based interactions. When an agent finds a relevant knowledge base article, they can simply click the "+" icon to the left of the title to insert a response template into their chat window. On the backend, every time the knowledge base is searched, it generates a written response to the user's question based on the most relevant information from the suggested knowledge base articles and includes any supporting links. This can dramatically improve agents' response times as agents are no longer starting from scratch. Instead, they already have the important information from the knowledge base article displayed in their chat window, so all they have to do is edit and send.
 
 
-## Gestión de KB
+## KB Management
 
-Ahora que hemos visto lo que puede hacer el motor de KB, queda una pregunta persistente sobre el backend: ¿cómo se gestiona la información en la base de conocimientos? La plataforma SeaX tiene una interfaz de usuario de gestión de KB totalmente integrada disponible para los administradores desde la página de configuración.
+Now that we've seen what the knowledge base engine can do, there's one lingering question about the backend: how is the information in the knowledge base managed? The SeaX platform provides a fully integrated knowledge base management UI that administrators can access from the settings page.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="Interfaz de gestión de SeaX KB."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-management.png" alt="The SeaX Knowledge Base Management interface."/>
 
-*Interfaz de gestión de SeaX KB.*
+*The SeaX Knowledge Base Management interface.*
 </center>
 
-Desde esta página puede agregar una nueva entrada de KB o puede importar/exportar toda la base de conocimientos usando un archivo de hoja de cálculo. La interfaz también admite la edición y eliminación de entradas de KB para que pueda mantener su KB continuamente actualizada.
+On this page, you can add individual new knowledge base entries, or you can import/export the entire knowledge base using a spreadsheet file. The interface also supports editing and deleting knowledge base entries so that you can continuously keep your knowledge base up-to-date.
 
 <center>
-<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Editando un solo artículo de KB a través de la interfaz de gestión de SeaX KB."/>
+<img src="/images/blog/22-seax-knowledge-base/kb-edit.png" alt="Editing a single knowledge base article through the SeaX Knowledge Base Management interface."/>
 
-*Editando un solo artículo de KB a través de la interfaz de gestión de SeaX KB.*
+*Editing a single knowledge base article through the SeaX Knowledge Base Management interface.*
 </center>
 
 ## Webinar
 
-Si desea ver un recorrido más detallado del sistema de base de conocimientos y cómo se integra con la plataforma SeaX, vea nuestro seminario web sobre el tema:
-<iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
+If you'd like a more in-depth look at the knowledge base system and how it integrates with the SeaX platform, watch our webinar on the topic:
+<iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Para una demostración individual, o para obtener más información sobre cómo Seasalt.ai puede adaptar sus soluciones a las necesidades de su negocio, complete nuestro [formulario de reserva de demostración](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+For a one-on-one demo, or to find out how Seasalt.ai can customize a solution for your business needs, please fill out our [schedule-a-demo form](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

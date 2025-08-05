@@ -1,13 +1,16 @@
 ---
-title: Paano Gumawa ng Discord Community at Bot
-slug: how-to-create-a-discord-community-and-bot
+metatitle: Paano Gumawa ng Discord Community at Bot
+seoDescription: Kumpletong gabay sa pagbuo ng Discord community at paggawa ng bot—interaktibong
+  solusyon para sa negosyo at libangan.
 seoTitle: Paano Gumawa ng Discord Community at Bot
-seoDescription: Kumpletong gabay sa pagbuo ng Discord community at paggawa ng bot—interaktibong solusyon para sa negosyo at libangan.
+slug: how-to-create-a-discord-community-and-bot
 tags:
-  - Discord
-  - Komunidad
-  - Bot
+- Discord
+- Komunidad
+- Bot
+title: Paano Gumawa ng Discord Community at Bot
 ---
+
 
 Ang Discord ay isang sikat na platform para sa pagbuo ng online na komunidad. Sa tulong ng mga bot, maaari mong mapahusay ang interaksyon at automation sa iyong Discord server.
 

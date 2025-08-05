@@ -1,13 +1,15 @@
 ---
-title: スプレッドシートで一括SMS送信する方法
-slug: how-to-send-bulk-sms-spreadsheet
-seoTitle: スプレッドシートで一括SMS送信する方法
+metatitle: スプレッドシートで一括SMS送信する方法
 seoDescription: スプレッドシートを使った効率的なSMS一括送信の完全ガイド。現代ビジネスに最適なソリューション。
+seoTitle: スプレッドシートで一括SMS送信する方法
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - スプレッドシート
-  - 自動化
+- SMS
+- スプレッドシート
+- 自動化
+title: スプレッドシートで一括SMS送信する方法
 ---
+
 
 スプレッドシートを使えば、企業は連絡先リストを効率的に管理し、多くの顧客に一度にメッセージを送信できます。
 

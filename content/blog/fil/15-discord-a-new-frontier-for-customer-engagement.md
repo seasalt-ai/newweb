@@ -1,16 +1,22 @@
 ---
-title: "Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugnayan sa Customer"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: Sa blog na ito, tatalakayin natin ang pag-usbong ng Discord at kung bakit/paano
+  nagsisimulang gamitin ng mga kumpanya ang Discord para mapabuti ang pakikipag-ugnayan
+  sa customer.
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "Sa blog na ito, tatalakayin natin ang pag-usbong ng Discord at kung bakit/paano nagsisimulang gamitin ng mga kumpanya ang Discord para mapabuti ang pakikipag-ugnayan sa customer."
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugna...'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugnayan sa Customer'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *Ang bilang ng mga user ng Discord ay tumaas nang husto nitong mga nakaraang taon at ang platform ay nag-rebrand bilang 'tahanan para sa iyong mga komunidad at kaibigan'. Sa blog na ito, tatalakayin natin ang pag-usbong ng Discord at kung bakit/paano nagsisimulang gamitin ng mga kumpanya ang Discord para mapabuti ang pakikipag-ugnayan sa customer.*
 

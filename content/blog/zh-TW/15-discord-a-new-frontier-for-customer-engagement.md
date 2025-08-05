@@ -1,16 +1,20 @@
 ---
-title: "Discord (1/3): 新世代客戶互動新前線"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: 本篇部落格將討論 Discord 的崛起，以及企業為何/如何開始利用 Discord 提升客戶互動。
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "本篇部落格將討論 Discord 的崛起，以及企業為何/如何開始利用 Discord 提升客戶互動。"
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): 新世代客戶互動新前線'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): 新世代客戶互動新前線'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *Discord 近年用戶數激增，平台現已重新定位為「你的社群與朋友之家」。本篇部落格將討論 Discord 的崛起，以及企業為何/如何開始利用 Discord 提升客戶互動。*
 

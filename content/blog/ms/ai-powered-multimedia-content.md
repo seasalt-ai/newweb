@@ -1,12 +1,21 @@
 ---
-title: "Mencipta Kandungan Multimedia Berkuasa AI untuk Penglibatan Pelanggan"
-meta_description: "Ketahui cara memanfaatkan AI dan kandungan multimedia untuk mencipta pengalaman pelanggan yang menarik di semua saluran. Termasuk contoh video, elemen interaktif dan amalan terbaik."
-author: "Sarah Chen"
-tags: ["Kandungan AI", "Multimedia", "Penglibatan Pelanggan", "Pemasaran Digital", "Kandungan Video"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: "2025-07-29T17:35:15Z"
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Ketahui cara memanfaatkan AI dan kandungan multimedia untuk mencipta
+  pengalaman pelanggan yang menarik di semua saluran. Termasuk contoh video, elemen
+  interaktif dan amalan terbaik.
+metatitle: Mencipta Kandungan Multimedia Berkuasa AI untuk Penglibatan ...
+modified_date: '2025-07-29T17:35:15Z'
+tags:
+- Kandungan AI
+- Multimedia
+- Penglibatan Pelanggan
+- Pemasaran Digital
+- Kandungan Video
+title: Mencipta Kandungan Multimedia Berkuasa AI untuk Penglibatan Pelanggan
 ---
+
 
 # Mencipta Kandungan Multimedia Berkuasa AI untuk Penglibatan Pelanggan
 

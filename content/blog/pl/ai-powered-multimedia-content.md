@@ -1,12 +1,22 @@
 ---
-title: "Tworzenie treści multimedialnych opartych na sztucznej inteligencji dla zaangażowania klientów"
-meta_description: "Dowiedz się, jak wykorzystać sztuczną inteligencję i treści multimedialne do tworzenia angażujących doświadczeń klientów we wszystkich kanałach. Zawiera przykłady wideo, elementy interaktywne i najlepsze praktyki."
-author: "Sarah Chen"
-tags: ["AI Content", "Multimedia", "Zaangażowanie klientów", "Marketing cyfrowy", "Treści wideo"]
-date: "2024-12-06"
-image_thumbnail: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800"
-modified_date: 2025-07-29T20:45:17Z
+author: Sarah Chen
+date: '2024-12-06'
+image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: Dowiedz się, jak wykorzystać sztuczną inteligencję i treści multimedialne
+  do tworzenia angażujących doświadczeń klientów we wszystkich kanałach. Zawiera przykłady
+  wideo, elementy interaktywne i najlepsze praktyki.
+metatitle: Tworzenie treści multimedialnych opartych na sztucznej intel...
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- AI Content
+- Multimedia
+- Zaangażowanie klientów
+- Marketing cyfrowy
+- Treści wideo
+title: Tworzenie treści multimedialnych opartych na sztucznej inteligencji dla zaangażowania
+  klientów
 ---
+
 
 # Tworzenie treści multimedialnych opartych na sztucznej inteligencji dla zaangażowania klientów
 

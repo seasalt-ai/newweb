@@ -1,17 +1,21 @@
 ---
-title: "Welcome to SeaX, a Collaborative Cloud Contact Center"
-date: 2022-06-22T18:21:32Z
+aliases:
+- /blog/18-seax-collaborative-cloud-contact-center-introduction/
 author: Sarah Reid
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+date: 2022-06-22 18:21:32+00:00
+description: In this blog we will introduce SeaX, our cloud communication contact
+  center solution. This is the first in a series of blogs that will introduce SeaX.
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
-description: "In this blog we will introduce SeaX, our cloud communication contact center solution. This is the first in a series of blogs that will introduce SeaX."
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+metatitle: Welcome to SeaX, a Collaborative Cloud Contact Center
+tags:
+- SeaX
+title: Welcome to SeaX, a Collaborative Cloud Contact Center
+url: /blog/seax-collab-cloud-contact-center-intro/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
 ---
+
 
 *In this blog we will introduce SeaX, our cloud communication contact center solution. This is the first in a series of blogs that will introduce and show in depth the features of SeaX.*
 

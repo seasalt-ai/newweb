@@ -1,13 +1,16 @@
 ---
-title: So versenden Sie Massen-SMS mit einer Tabellenkalkulation
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: So versenden Sie Massen-SMS mit einer Tabellenkalkulation
+seoDescription: Der vollständige Leitfaden zum Versenden von Massen-SMS mit einer
+  Tabellenkalkulation – eine effiziente Lösung für moderne Unternehmen.
 seoTitle: So versenden Sie Massen-SMS mit einer Tabellenkalkulation
-seoDescription: Der vollständige Leitfaden zum Versenden von Massen-SMS mit einer Tabellenkalkulation – eine effiziente Lösung für moderne Unternehmen.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Tabellenkalkulation
-  - Automatisierung
+- SMS
+- Tabellenkalkulation
+- Automatisierung
+title: So versenden Sie Massen-SMS mit einer Tabellenkalkulation
 ---
+
 
 Das Versenden von Massen-SMS ist mit Tabellenkalkulationen besonders einfach. Unternehmen können Kontaktlisten effizient verwalten und Nachrichten gleichzeitig an viele Kunden senden.
 

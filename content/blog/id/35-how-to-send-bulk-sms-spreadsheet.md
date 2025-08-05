@@ -1,13 +1,16 @@
 ---
-title: Cara Mengirim SMS Massal dengan Spreadsheet
-slug: how-to-send-bulk-sms-spreadsheet
+metatitle: Cara Mengirim SMS Massal dengan Spreadsheet
+seoDescription: Panduan lengkap untuk mengirim SMS massal menggunakan spreadsheet,
+  solusi efisien untuk bisnis modern.
 seoTitle: Cara Mengirim SMS Massal dengan Spreadsheet
-seoDescription: Panduan lengkap untuk mengirim SMS massal menggunakan spreadsheet, solusi efisien untuk bisnis modern.
+slug: how-to-send-bulk-sms-spreadsheet
 tags:
-  - SMS
-  - Spreadsheet
-  - Otomasi
+- SMS
+- Spreadsheet
+- Otomasi
+title: Cara Mengirim SMS Massal dengan Spreadsheet
 ---
+
 
 Mengirim SMS massal kini semakin mudah dengan bantuan spreadsheet. Bisnis dapat mengelola daftar kontak secara efisien dan mengirim pesan ke banyak pelanggan sekaligus tanpa repot.
 

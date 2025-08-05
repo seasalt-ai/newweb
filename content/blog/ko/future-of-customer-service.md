@@ -1,13 +1,20 @@
 ---
-title: "고객 서비스의 미래: AI, 자동화 및 인간적 연결"
-meta_description: "AI와 자동화가 고객 서비스를 어떻게 재편하고 있는지, 그리고 고객이 가장 중요하게 생각하는 인간적인 접촉을 유지하는 방법을 탐구합니다."
-author: "Dr. Emily Watson"
-tags: ["미래의 일", "AI", "고객 경험", "기술 트렌드"]
-date: "2024-12-05"
-image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-modified_date: 2025-07-27T16:06:24Z
+author: Dr. Emily Watson
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+date: '2024-12-05'
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
+meta_description: AI와 자동화가 고객 서비스를 어떻게 재편하고 있는지, 그리고 고객이 가장 중요하게 생각하는 인간적인 접촉을 유지하는
+  방법을 탐구합니다.
+metatitle: '고객 서비스의 미래: AI, 자동화 및 인간적 연결'
+modified_date: 2025-07-27 16:06:24+00:00
+tags:
+- 미래의 일
+- AI
+- 고객 경험
+- 기술 트렌드
+title: '고객 서비스의 미래: AI, 자동화 및 인간적 연결'
 ---
+
 
 # 고객 서비스의 미래: AI, 자동화 및 인간적 연결
 

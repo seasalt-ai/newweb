@@ -1,16 +1,22 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot: बैकएंड और स्थिरता में सुधार"
-date: 2022-12-13T11:58:34-08:00
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
+description: नवीनतम रिलीज़ के साथ, SeaVoice Discord Bot बड़े पैमाने पर बैकएंड सुधार
+  लॉन्च करता है जो बॉट की स्थिरता और भविष्य के विकास में सुधार करते हैं।
 draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: नवीनतम रिलीज़ के साथ, SeaVoice Discord Bot बड़े पैमाने पर बैकएंड सुधार लॉन्च करता है जो बॉट की स्थिरता और भविष्य के विकास में सुधार करते हैं।
-weight: 1
-tags: ["SeaVoice", "Discord"]
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: 'SeaVoice STT/TTS Discord Bot: बैकएंड और स्थिरता में सुधार'
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: 'SeaVoice STT/TTS Discord Bot: बैकएंड और स्थिरता में सुधार'
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot ने Discord वॉयस चैनलों में भाषण को प्रतिलेखित करने के लिए सबसे अच्छे विकल्पों में से एक के रूप में लोकप्रियता हासिल की है। नवीनतम रिलीज़ के साथ, हम बड़े पैमाने पर बैकएंड सुधार लॉन्च कर रहे हैं जो बॉट की स्थिरता में सुधार करते हैं और भविष्य के विकास में सहायता करते हैं।*
 

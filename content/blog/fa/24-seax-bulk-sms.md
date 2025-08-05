@@ -1,16 +1,20 @@
 ---
-title: "پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: در این وبلاگ، ما نشان خواهیم داد که چگونه ویژگی پیامک انبوه SeaX به نمایندگان
+  اجازه می دهد تا به طور فعال پیام های خروجی را از طریق متن ارسال کنند.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "در این وبلاگ، ما نشان خواهیم داد که چگونه ویژگی پیامک انبوه SeaX به نمایندگان اجازه می دهد تا به طور فعال پیام های خروجی را از طریق متن ارسال کنند."
+metatitle: 'پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری'
+modified_date: '2025-07-28T16:03:25.123456'
+tags:
+- SeaX
+title: 'پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-07-28T16:03:25.123456"
 ---
+
 
 *در پست های وبلاگ قبلی ما، برخی از ویژگی های کلیدی SeaX (از جمله [هوش صوتی](https://seasalt.ai/blog/21-seax-voice-intelligence/)، [پایگاه دانش](https://seasalt.ai/blog/22-seax-knowledge-base/) و [مدیریت پرونده](https://seasalt.ai/blog/23-seax-case-management/)) را بررسی کردیم که به نمایندگان کمک می کند تا تماس ها و پیام های ورودی را بهتر مدیریت کنند. در این وبلاگ، ما نشان خواهیم داد که چگونه ویژگی پیامک انبوه SeaX به نمایندگان اجازه می دهد تا به طور فعال پیام های خروجی را از طریق متن ارسال کنند، که گیرندگان نشان داده شده است که زودتر و به طور مداوم تری نسبت به ارتباطات ایمیل سنتی باز می کنند.*
 

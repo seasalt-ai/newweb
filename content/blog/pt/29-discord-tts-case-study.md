@@ -1,15 +1,21 @@
 ---
-title: "Texto para Fala no Discord: Um Estudo de Caso do Bot TTS do Discord"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: Neste blog, discutiremos nossas descobertas sobre como os usuários reais do Discord utilizam nossos serviços após revisar vários meses de dados autênticos de texto para fala.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: Neste blog, discutiremos nossas descobertas sobre como os usuários reais
+  do Discord utilizam nossos serviços após revisar vários meses de dados autênticos
+  de texto para fala.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: 'Texto para Fala no Discord: Um Estudo de Caso do Bot TTS do ...'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: 'Texto para Fala no Discord: Um Estudo de Caso do Bot TTS do Discord'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *Após o lançamento do SeaVoice, um dos bots de texto para fala e fala para texto mais rápidos e precisos no Discord, queríamos entender como os usuários estavam realmente interagindo com os serviços. Neste blog, discutiremos nossas descobertas após revisar vários meses de dados reais de usuários de texto para fala.*
 

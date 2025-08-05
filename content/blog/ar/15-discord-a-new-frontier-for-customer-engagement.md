@@ -1,16 +1,21 @@
 ---
-title: "Discord (1/3): آفاق جديدة لتفاعل العملاء"
-date: 2022-05-23T13:05:36-07:00
-modified_date: 2025-07-28
 author: Kim Dodds
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+date: 2022-05-23 13:05:36-07:00
+description: في هذه المدونة، سنناقش صعود Discord ولماذا/كيف بدأت الشركات في استخدام
+  Discord لتحسين تفاعل العملاء.
 draft: false
-weight: 1
-tags: ["SeaX", "Discord"]
 image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "في هذه المدونة، سنناقش صعود Discord ولماذا/كيف بدأت الشركات في استخدام Discord لتحسين تفاعل العملاء."
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
+metatitle: 'Discord (1/3): آفاق جديدة لتفاعل العملاء'
+modified_date: 2025-07-28
+tags:
+- SeaX
+- Discord
+title: 'Discord (1/3): آفاق جديدة لتفاعل العملاء'
+url: /blog/discord-a-new-frontier-for-customer-engagement/
+weight: 1
 ---
+
 
 *ارتفعت أعداد مستخدمي Discord بشكل كبير في السنوات الأخيرة وأعاد المنصة تعريف نفسها كـ 'منزل لمجتمعاتك وأصدقائك'. في هذه المدونة، سنناقش صعود Discord ولماذا/كيف بدأت الشركات في استخدام Discord لتحسين تفاعل العملاء.*
 

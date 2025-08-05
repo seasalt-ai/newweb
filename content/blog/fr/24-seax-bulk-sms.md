@@ -1,16 +1,20 @@
 ---
-title: "SeaX Bulk SMS: Pour un contact client plus rapide et plus efficace"
-date: 2022-09-09T11:05:22-07:00
-draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
+canonicalURL: /blog/seax-bulk-sms/
+date: 2022-09-09 11:05:22-07:00
+description: Dans ce blog, nous montrerons comment la fonction SeaX Bulk SMS permet
+  aux agents d'envoyer des messages sortants de manière proactive par SMS.
+draft: false
 image: images/blog/24-seax-bulk-sms/thumbnail.png
-description: "Dans ce blog, nous montrerons comment la fonction SeaX Bulk SMS permet aux agents d'envoyer des messages sortants de manière proactive par SMS."
+metatitle: 'SeaX Bulk SMS: Pour un contact client plus rapide et plus ef...'
+modified_date: 2025-07-28 00:00:00+00:00
+tags:
+- SeaX
+title: 'SeaX Bulk SMS: Pour un contact client plus rapide et plus efficace'
+url: /blog/seax-bulk-sms/
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: 2025-07-28T00:00:00Z
 ---
+
 
 *Dans nos précédents articles de blog, nous avons examiné certaines des fonctionnalités clés de SeaX (y compris [Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Knowledge Base](https://seasalt.ai/blog/22-seax-knowledge-base/) et [Case Management](https://seasalt.ai/blog/23-seax-case-management/)) qui aident les agents à mieux gérer les appels et les messages entrants. Dans ce blog, nous montrerons comment la fonction SeaX Bulk SMS permet aux agents d'envoyer des messages sortants de manière proactive par SMS, qui, comme il a été démontré, sont ouverts plus rapidement et plus régulièrement par les destinataires que les communications par e-mail traditionnelles.*
 

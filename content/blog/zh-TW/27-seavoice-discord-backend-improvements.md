@@ -1,16 +1,21 @@
 ---
-title: "SeaVoice STT/TTS Discord Bot：後端與穩定性改進"
-date: 2022-12-13T11:58:34-08:00
-draft: false
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
+  Vernon
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+date: 2022-12-13 11:58:34-08:00
 description: 隨著最新版本發布，SeaVoice Discord Bot 推出了大規模後端改進，提高了機器人穩定性並有助於未來的開發。
-weight: 1
-tags: ["SeaVoice", "Discord"]
+draft: false
 image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-canonicalURL: "/blog/seavoice-discord-backend-improvements/"
-url: "/blog/seavoice-discord-backend-improvements/"
-modified_date: "2025-07-28T16:56:53Z"
+metatitle: SeaVoice STT/TTS Discord Bot：後端與穩定性改進
+modified_date: '2025-07-28T16:56:53Z'
+tags:
+- SeaVoice
+- Discord
+title: SeaVoice STT/TTS Discord Bot：後端與穩定性改進
+url: /blog/seavoice-discord-backend-improvements/
+weight: 1
 ---
+
 
 *SeaVoice Discord Bot 作為 Discord 語音頻道中語音轉錄的最佳選擇之一，越來越受歡迎。隨著最新版本的發布，我們正在推出大規模的後端改進，這將提高機器人穩定性並有助於未來的開發。*
 

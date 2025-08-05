@@ -1,15 +1,20 @@
 ---
-title: "디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구"
-date: 2022-12-27T17:04:20-08:00
 author: Kim Dodds
-description: 이 블로그에서는 몇 달간의 실제 텍스트 음성 변환 데이터를 검토한 후 실제 디스코드 사용자가 당사 서비스를 어떻게 활용하는지에 대한 당사의 발견을 논의할 것입니다.
-weight: 1
-tags: ["SeaVoice", "Discord"]
+canonicalUrl: /blog/discord-tts-case-study/
+date: 2022-12-27 17:04:20-08:00
+description: 이 블로그에서는 몇 달간의 실제 텍스트 음성 변환 데이터를 검토한 후 실제 디스코드 사용자가 당사 서비스를 어떻게 활용하는지에
+  대한 당사의 발견을 논의할 것입니다.
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: 2025-07-29T20:45:17Z
+metatitle: '디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구'
+modified_date: 2025-07-29 20:45:17+00:00
+tags:
+- SeaVoice
+- Discord
+title: '디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구'
+url: /blog/discord-tts-case-study/
+weight: 1
 ---
+
 
 *디스코드에서 가장 빠르고 정확한 텍스트 음성 변환 및 음성 텍스트 변환 봇 중 하나인 SeaVoice를 출시한 후, 우리는 사용자들이 실제로 서비스와 어떻게 상호 작용하는지 이해하고 싶었습니다. 이 블로그에서는 몇 달간의 실제 텍스트 음성 변환 사용자 데이터를 검토한 후 우리의 발견을 논의할 것입니다.*
 

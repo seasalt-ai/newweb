@@ -1,11 +1,13 @@
 ---
-title: HubSpot CRM 自动化与 Twilio Flex
-lang: zh-CN
-description: 为中文用户详细介绍如何通过 Twilio Flex 实现 HubSpot CRM 自动化，包含 SEO 优化建议。
 author: SeaHealth Editorial Team
+description: 为中文用户详细介绍如何通过 Twilio Flex 实现 HubSpot CRM 自动化，包含 SEO 优化建议。
+lang: zh-CN
+metatitle: HubSpot CRM 自动化与 Twilio Flex
 published: 2024-07-01
 slug: 8-hubspot-crm-automation-with-twilio-flex
+title: HubSpot CRM 自动化与 Twilio Flex
 ---
+
 
 # HubSpot CRM 自动化与 Twilio Flex
 

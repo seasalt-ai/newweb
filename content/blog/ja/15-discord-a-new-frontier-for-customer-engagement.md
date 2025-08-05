@@ -1,13 +1,15 @@
 ---
-title: Discord：顧客エンゲージメントの新たなフロンティア
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord：顧客エンゲージメントの新たなフロンティア
+metatitle: Discord：顧客エンゲージメントの新たなフロンティア
 seoDescription: Discordがどのように顧客エンゲージメントを革新し、現代企業にダイナミックなコミュニティと革新的なサポートを提供しているかをご紹介します。
+seoTitle: Discord：顧客エンゲージメントの新たなフロンティア
+slug: discord-a-new-frontier-for-customer-engagement
 tags:
-  - Discord
-  - 顧客対応
-  - エンゲージメント
+- Discord
+- 顧客対応
+- エンゲージメント
+title: Discord：顧客エンゲージメントの新たなフロンティア
 ---
+
 
 Discordは、顧客との新しい関わり方を模索する企業にとって、急速に不可欠なプラットフォームとなっています。活発なコミュニティとリアルタイムのコミュニケーションツールにより、サポートやフィードバック、長期的な関係構築のための独自の機会を提供します。
 

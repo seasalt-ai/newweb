@@ -1,11 +1,14 @@
 ---
-title: Comment évaluer les réponses de l’agent SeaChat AI
-lang: fr
-description: Guide pour les utilisateurs francophones sur l’évaluation des réponses de l’agent SeaChat AI, avec conseils SEO.
 author: SeaHealth Editorial Team
+description: Guide pour les utilisateurs francophones sur l’évaluation des réponses
+  de l’agent SeaChat AI, avec conseils SEO.
+lang: fr
+metatitle: Comment évaluer les réponses de l’agent SeaChat AI
 published: 2024-07-01
 slug: 58-seachat-evaluate-ai-agent-responses
+title: Comment évaluer les réponses de l’agent SeaChat AI
 ---
+
 
 # Comment évaluer les réponses de l’agent SeaChat AI
 
