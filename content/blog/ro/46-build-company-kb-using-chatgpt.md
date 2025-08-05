@@ -12,7 +12,7 @@ canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
 url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
 aliases:
   - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Descoperiți cum chatbot-urile ChatGPT personalizate revoluționează gestionarea bazelor de cunoștințe interne ale companiilor. Acest articol analizează în profunzime aplicațiile sale în managementul proiectelor, resurse umane și inginerie, evidențiind ușurința de implementare fără cod și previzionând tendințele viitoare, anticipând rolul cheie al chatbot-urilor în transformarea digitală a companiilor.
+summary: "Descoperiți cum chatbot-urile ChatGPT personalizate revoluționează gestionarea bazelor de cunoștințe interne ale companiilor. Acest articol analizează în profunzime aplicațiile sale în managementul proiectelor, resurse umane și inginerie, evidențiind ușurința de implementare fără cod și previzionând tendințele viitoare, anticipând rolul cheie al chatbot-urilor în transformarea digitală a companiilor."
 ---
 
 În era actuală a transformării digitale, companiile realizează din ce în ce mai mult potențialul imens al chatbot-urilor AI în îmbunătățirea eficienței operaționale interne și a calității serviciilor pentru clienți. În special, tehnologiile avansate de chatbot, cum ar fi ChatGPT, vor deveni instrumente esențiale pentru gestionarea bazelor de cunoștințe interne ale companiilor și pentru interacțiunea cu clienții.

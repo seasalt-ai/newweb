@@ -10,7 +10,6 @@ description: "GoogleはGoogleマイビジネスアプリをGoogleマップに置
 weight: 1
 tags: []
 toc: true
-image: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
 canonicalURL: "/blog/google-maps-replaces-google-my-business/"
 url: "/blog/google-maps-replaces-google-my-business/"
 ---

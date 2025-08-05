@@ -11,7 +11,7 @@ toc: true
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
 canonicalURL: "/blog/senior-hotline-using-voicebot/"
 url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Alors que Taïwan se dirige vers une société super-vieillissante, les soins aux personnes âgées sont confrontés à des défis sans précédent. Selon les données du Conseil national du développement, la proportion de la population âgée à Taïwan approchera les 20 % d'ici 2024, et devrait officiellement entrer dans une société super-vieillissante d'ici 2025. Compte tenu de ce changement démographique, la manière de fournir efficacement des soins immédiats, des services diversifiés et de résoudre le problème de la pénurie de main-d'œuvre est devenue les trois principaux défis auxquels est actuellement confrontée l'industrie des soins de longue durée.'
+summary: "Alors que Taïwan se dirige vers une société super-vieillissante, les soins aux personnes âgées sont confrontés à des défis sans précédent. Selon les données du Conseil national du développement, la proportion de la population âgée à Taïwan approchera les 20 % d'ici 2024, et devrait officiellement entrer dans une société super-vieillissante d'ici 2025. Compte tenu de ce changement démographique, la manière de fournir efficacement des soins immédiats, des services diversifiés et de résoudre le problème de la pénurie de main-d'œuvre est devenue les trois principaux défis auxquels est actuellement confrontée l'industrie des soins de longue durée."
 modified_date: 2024-08-01T00:00:00Z
 ---
 

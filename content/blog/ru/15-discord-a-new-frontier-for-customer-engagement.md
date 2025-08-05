@@ -1,7 +1,7 @@
 ---
-title: Discord: Новая эра взаимодействия с клиентами
+title: "Discord: Новая эра взаимодействия с клиентами"
 slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: Новая эра взаимодействия с клиентами
+seoTitle: "Discord: Новая эра взаимодействия с клиентами"
 seoDescription: Узнайте, как Discord меняет подход к взаимодействию с клиентами, создавая динамичные сообщества и инновационную поддержку для современных компаний.
 tags:
   - Discord

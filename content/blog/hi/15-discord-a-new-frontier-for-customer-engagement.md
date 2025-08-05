@@ -1,7 +1,7 @@
 ---
-title: Discord: ग्राहक सहभागिता के लिए एक नया मंच
+title: "Discord: ग्राहक सहभागिता के लिए एक नया मंच"
 slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: ग्राहक सहभागिता के लिए एक नया मंच
+seoTitle: "Discord: ग्राहक सहभागिता के लिए एक नया मंच"
 seoDescription: जानिए कैसे Discord ग्राहक सहभागिता को बदल रहा है, आधुनिक कंपनियों के लिए गतिशील समुदाय और नवाचारपूर्ण समर्थन प्रदान कर रहा है।
 tags:
   - Discord

@@ -1,7 +1,7 @@
 ---
-title: Discord: A New Frontier for Customer Engagement
+title: "Discord: A New Frontier for Customer Engagement"
 slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: Uma Nova Fronteira para o Engajamento do Cliente
+seoTitle: "Discord: Uma Nova Fronteira para o Engajamento do Cliente"
 seoDescription: Descubra como o Discord está revolucionando o engajamento do cliente, oferecendo comunidades dinâmicas e suporte inovador para empresas modernas.
 tags:
   - Discord

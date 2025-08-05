@@ -11,6 +11,7 @@
  canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
  url: "/blog/seachat-vs-meta-wit-ai/"
  modified_date: "2025-07-29T00:00:00Z"
+---
 
 Le monde des chatbots évolue rapidement. Si [wit.ai](http://wit.ai) de Meta/Facebook a permis de créer des applications vocales, la nouvelle génération de technologie LLM comme [SeaChat](https://chat.seasalt.ai/?utm_source=blog) révolutionne l’IA conversationnelle et surpasse les limites de wit.ai. Est-il temps d’upgrader votre chatbot ?
 

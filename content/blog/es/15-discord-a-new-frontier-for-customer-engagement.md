@@ -1,12 +1,12 @@
 ---
-title: Discord: Una nueva frontera para la atención al cliente
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: Una nueva frontera para la atención al cliente
-seoDescription: Descubre cómo Discord está revolucionando la atención al cliente, creando comunidades dinámicas y soporte innovador para empresas modernas.
+title: "Discord: Una nueva frontera para la atención al cliente"
+slug: "discord-a-new-frontier-for-customer-engagement"
+seoTitle: "Discord: Una nueva frontera para la atención al cliente"
+seoDescription: "Descubre cómo Discord está revolucionando la atención al cliente, creando comunidades dinámicas y soporte innovador para empresas modernas."
 tags:
-  - Discord
-  - Atención al cliente
-  - Compromiso
+  - "Discord"
+  - "Atención al cliente"
+  - "Compromiso"
 ---
 
 Discord se está convirtiendo rápidamente en una plataforma esencial para empresas que buscan nuevas formas de interactuar con sus clientes. Con comunidades vibrantes y herramientas de comunicación en tiempo real, Discord ofrece oportunidades únicas para soporte, retroalimentación y construcción de relaciones duraderas.

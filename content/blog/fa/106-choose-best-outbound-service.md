@@ -7,7 +7,7 @@ draft: false
 author: Jun Mao
 description: "عوامل زنده، شماره گیرهای خودکار و هوش مصنوعی صوتی را برای انتخاب بهترین راه حل تماس خروجی برای نیازهای کسب و کار خود بررسی کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار"، "تماس خروجی برای مشاغل کوچک"، "شماره گیر خودکار"، "هوش مصنوعی صوتی"]
+tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "شماره گیر خودکار", "هوش مصنوعی صوتی"]
 toc: true
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
 canonicalURL: "/blog/choose-best-outbound-service/"

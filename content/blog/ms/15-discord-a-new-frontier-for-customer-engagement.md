@@ -1,7 +1,7 @@
 ---
-title: Discord: Satu Era Baru untuk Keterlibatan Pelanggan
+title: "Discord: Satu Era Baru untuk Keterlibatan Pelanggan"
 slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: Discord: Satu Era Baru untuk Keterlibatan Pelanggan
+seoTitle: "Discord: Satu Era Baru untuk Keterlibatan Pelanggan"
 seoDescription: Temukan bagaimana Discord merevolusi keterlibatan pelanggan dengan komunitas dinamis dan dukungan inovatif untuk bisnis modern.
 tags:
   - Discord

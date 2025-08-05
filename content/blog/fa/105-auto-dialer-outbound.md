@@ -7,7 +7,7 @@ draft: false
 author: Jun Mao
 description: "Power Dialer، Progressive Dialer و Predictive Dialer را برای تماس های خروجی موثر و مقیاس پذیر در بازاریابی تلفنی و فروش مقایسه کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار"، "تماس خروجی برای مشاغل کوچک"، "شماره گیر خودکار"، "هوش مصنوعی صوتی"]
+tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "شماره گیر خودکار", "هوش مصنوعی صوتی"]
 toc: true
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
 canonicalURL: "/blog/auto-dialer-outbound/"

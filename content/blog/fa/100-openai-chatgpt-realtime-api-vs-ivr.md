@@ -7,7 +7,7 @@ draft: false
 author: Amy Chen
 description: "بررسی کنید که آیا فناوری صوتی جدید OpenAI می تواند جایگزین سیستم پاسخ صوتی تعاملی فعلی شما شود."
 weight: 1
-tags: ["سرویس پاسخگویی خودکار"، "تماس ورودی برای مشاغل کوچک"، "SeaChat"، "هوش مصنوعی صوتی"]
+tags: ["سرویس پاسخگویی خودکار", "تماس ورودی برای مشاغل کوچک", "SeaChat", "هوش مصنوعی صوتی"]
 toc: true
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
 canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"

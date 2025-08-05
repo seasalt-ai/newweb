@@ -5,7 +5,7 @@ date: 2023-12-14T10:25:00-08:00
 modified_date: 2025-07-27T00:00:00Z
 draft: false
 author: Xuchen Yao
-description: Conecte el agente de voz de IA a un número de teléfono directamente. Explore cómo los agentes de voz de IA mejoran el servicio al cliente: soporte telefónico 24/7, multilingüe, rentable y funciones personalizables.
+description: "Conecte el agente de voz de IA a un número de teléfono directamente. Explore cómo los agentes de voz de IA mejoran el servicio al cliente: soporte telefónico 24/7, multilingüe, rentable y funciones personalizables."
 weight: 1
 tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
 image: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png

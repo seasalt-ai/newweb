@@ -7,7 +7,7 @@ draft: false
 author: Jun Mao
 description: "تماس های خروجی داخلی در مقابل برون سپاری شده را مقایسه کنید - هزینه ها، ویژگی ها، و نکات عملی برای بهینه سازی ارتباط با مشتری خود را دریافت کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار"، "تماس خروجی برای مشاغل کوچک"، "SeaChat"، "هوش مصنوعی صوتی"]
+tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "SeaChat", "هوش مصنوعی صوتی"]
 toc: true
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
 canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
