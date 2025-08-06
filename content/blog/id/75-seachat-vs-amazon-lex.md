@@ -1,53 +1,51 @@
 ---
-title: "Tinggalkan Skrip, Rangkul Percakapan: Mengapa Peningkatan dari Amazon Lex ke SeaChat Sangat Masuk Akal"
+title: "Ditch the Scripts, Embrace Conversation: Why Upgrading from Amazon Lex to SeaChat Matters"
 metatitle: "SeaChat vs. Amazon Lex"
 date: 2024-03-15T00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: Mengapa Amazon Lex sudah usang? Temukan SeaChat - Jauhi pantai chatbot yang berulang dengan teknologi LLM canggih, membina percakapan yang menarik, seperti manusia.
+description: Why is Amazon Lex outdated? Explore SeaChat - leveraging advanced LLM technology, break free from repetitive chatbot dilemmas and cultivate engaging, human-like conversations.
 weight: 1
-tags: ["SeaChat", "Alat AI", "Model Bahasa Besar", "NLU"]
+tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
 canonicalURL: "/blog/seachat-vs-amazon-lex/"
 url: "/blog/seachat-vs-amazon-lex/"
-modified_date: 2025-07-29T20:45:17Z
+modified_date: "2025-07-29T20:45:17Z"
 ---
 
-Dunia chatbot berkembang pesat. Sementara [Amazon Lex](https://aws.amazon.com/lex/) telah menjadi pilihan populer untuk membangun antarmuka suara dan teks, gelombang teknologi baru sedang menjadi pusat perhatian: Model Bahasa Besar (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), sebuah platform yang didukung oleh LLM, menawarkan pendekatan inovatif untuk AI Percakapan, meninggalkan mesin berbasis aturan seperti Lex. Apakah sudah waktunya untuk mempertimbangkan peningkatan untuk chatbot Anda?
+The world of chatbots is evolving rapidly. While [Amazon Lex](https://aws.amazon.com/lex/) has been a popular choice for building voice and text interfaces, a new wave of technology is taking center stage: Large Language Models (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog) is an LLM-powered platform that offers a revolutionary approach to conversational AI, leaving rule-based engines like Lex far behind. Is it time to consider upgrading your chatbot?
 
-## Amazon Lex: Pekerja Keras yang Andal, Tetapi Terjebak di Masa Lalu
+## Amazon Lex: The Reliable "Workhorse," But Stuck in Place
 
-Amazon Lex telah memantapkan dirinya sebagai pekerja keras untuk membangun chatbot. Antarmuka drag-and-drop dan integrasinya dengan layanan AWS lainnya menjadikannya pilihan yang ramah pengguna. Berikut adalah beberapa kekuatan Lex:
+Amazon Lex has established itself as the "workhorse" for building chatbots. Its drag-and-drop interface and integration with other AWS services make it a user-friendly choice. Here are some strengths of Lex:
 
-- **Kemudahan Penggunaan**: Antarmuka visual menyederhanakan pembuatan chatbot, meminimalkan kebutuhan akan keahlian pengkodean.
-- **Penyebaran Cepat**: Lex memungkinkan pengembangan dan penyebaran chatbot yang cepat, ideal untuk proyek-proyek cepat.
-- **Integrasi AWS**: Integrasi tanpa batas dengan layanan AWS lainnya menyederhanakan pengembangan dalam ekosistem AWS.
+- **Ease of Use**: Visual interface simplifies chatbot creation, minimizing the need for coding expertise.
+- **Rapid Deployment**: Lex allows quick development and deployment of chatbots, perfect for fast projects.
+- **AWS Integration**: Seamless integration with other AWS services simplifies development within the AWS ecosystem.
 
-Namun, Lex juga memiliki keterbatasan yang dapat menghambat kemampuan chatbot Anda:
+However, Lex also has limitations that might hinder your chatbot's capabilities:
 
-- **Percakapan Berskrip**: Lex mengandalkan niat dan ucapan yang telah ditentukan sebelumnya, yang mengarah pada alur percakapan yang kaku dan tidak alami.
-- **NLU Terbatas**: Memahami pertanyaan pengguna yang kompleks dan beradaptasi dengan konteks bisa menjadi tantangan bagi Lex.
-- **Masalah Skalabilitas**: Kinerja dapat menurun saat menangani volume interaksi pengguna yang tinggi.
+- **Scripted Conversations**: Lex relies on predefined intents and utterances, leading to rigid and unnatural conversation flow.
+- **Limited NLU**: Understanding complex queries and adapting to context can be challenging for Lex.
+- **Scalability Issues**: Performance may decline when handling large volumes of user interactions.
 
-## SeaChat: Menentukan Arah Masa Depan Chatbot
+## SeaChat: Charting the Course for Chatbot Future
 
-SeaChat, didukung oleh teknologi LLM, menawarkan perubahan paradigma dalam AI Percakapan:
+SeaChat, powered by LLM technology, brings a paradigm shift to conversational AI:
 
-- **Pemahaman Bahasa Alami Tingkat Lanjut (NLU)**: SeaChat unggul dalam memahami nuansa bahasa manusia, memungkinkan percakapan yang alami dan didorong oleh konteks.
-- **Pembelajaran Percakapan**: SeaChat terus belajar dan beradaptasi berdasarkan interaksi pengguna, terus meningkatkan kemampuannya untuk menangani pertanyaan kompleks seiring waktu.
-- **Pengalaman Pengguna yang Mulus**: Dengan memahami konteks dan niat, SeaChat mendorong alur percakapan yang lebih alami, meniru interaksi manusia.
+- **Advanced Natural Language Understanding (NLU)**: SeaChat excels at understanding human language nuances, enabling natural and context-driven conversations.
+- **Conversational Learning**: SeaChat continuously learns and adapts based on user interactions, constantly improving its ability to handle complex queries.
+- **Seamless User Experience**: By understanding context and intent, SeaChat promotes more natural conversation flow, mimicking human interactions.
 
-Inilah mengapa SeaChat adalah masa depan chatbot:
+Here's why SeaChat is the future of chatbots:
 
-- **Percakapan Alami**: Pengguna mendambakan chatbot yang terasa seperti berbicara dengan seseorang, persis seperti yang disampaikan SeaChat melalui teknologi LLM.
-- **Waktu Pengembangan Berkurang**: Membangun chatbot dengan SeaChat membutuhkan lebih sedikit pengkodean dibandingkan dengan mesin berbasis aturan, menghemat waktu dan sumber daya Anda.
-- **Skalabilitas untuk Pertumbuhan**: SeaChat dengan mudah menangani volume interaksi pengguna yang besar, memastikan kinerja yang mulus bahkan selama waktu puncak.
+- **Natural Conversations**: Users crave chatbots that feel like talking to a real person, which is exactly what SeaChat delivers through LLM technology.
+- **Reduced Development Time**: Building chatbots with SeaChat requires less coding compared to rule-based engines, saving time and resources.
+- **Growing Scalability**: SeaChat easily handles large volumes of user interactions, ensuring smooth performance even during peak times.
 
+## Feature Comparison: SeaChat vs. Amazon Lex
 
-## Perbandingan Fitur: SeaChat vs. Amazon Lex
-
-Mari kita selami lebih dalam dengan tabel untuk melihat bagaimana Lex dan SeaChat bersaing:
-
+Let's dive deeper into how Lex and SeaChat perform through a table:
 
 <center>
 <img height="100%" width="100%" src="/images/blog/75-SeaChat-vs-Amazon-Lex/75-SeaChat-vs-Amazon-Lex.png"  alt="SeaChat vs. Amazon Lex">
@@ -55,8 +53,8 @@ Mari kita selami lebih dalam dengan tabel untuk melihat bagaimana Lex dan SeaCha
 *SeaChat vs. Amazon Lex*
 </center>
 
-Studi telah menunjukkan perbedaan NLU berbasis niat/entitas vs. NLU berbasis LLM [dalam jutaan](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): dalam hal contoh pelatihan, itu adalah 630.000 contoh versus hanya 32. Pengurangan dramatis dalam persyaratan data pelatihan ini berarti penghematan biaya yang signifikan bagi bisnis yang mengadopsi NLU berbasis GenAI/LLM.
+Research shows that the difference between intent/entity-based NLU and LLM-based NLU is [millions](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): 630,000 examples versus just 32 for training. This dramatic reduction in training data requirements translates to significant cost savings for businesses adopting GenAI/LLM-based NLU.
 
-## Berlayar untuk Pengalaman Obrolan yang Lebih Menarik
+## Set Sail for More Engaging Chat Experience
 
-Masa depan AI Percakapan terletak pada interaksi yang alami dan menarik. Sementara Amazon Lex telah memenuhi tujuannya, SeaChat menawarkan pendekatan revolusioner yang didukung oleh LLM. Dalam pertempuran platform AI Percakapan, SeaChat muncul sebagai pemenang yang jelas, menawarkan integrasi tanpa batas, opsi kustomisasi yang luas, dan alat analitik bawaan yang melampaui Amazon Lex. Siap untuk membuka potensi penuh AI Percakapan? [Tingkatkan ke SeaChat hari ini](https://chat.seasalt.ai/?utm_source=blog) dan revolusikan interaksi pelanggan Anda.
+The future of conversational AI lies in natural, engaging interactions. While Amazon Lex has served its purpose, SeaChat offers a revolutionary approach powered by LLM. In the battle of conversational AI platforms, SeaChat stands out with seamless integration, extensive customization options, and built-in analytics tools, surpassing Amazon Lex. Ready to unleash the full potential of conversational AI? [Upgrade to SeaChat now](https://chat.seasalt.ai/?utm_source=blog) and revolutionize your customer interactions.
