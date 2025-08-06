@@ -10,7 +10,6 @@ tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
 cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
 url: "/blog/evaluate-ai-agent-responses/"
-modified_date: "2025-08-01T12:00:00Z"
 ---
 
 # Introducere
