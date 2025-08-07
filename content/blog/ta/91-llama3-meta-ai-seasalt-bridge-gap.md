@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 மற்றும் AI மாதிரிகள் மற்றும் வணிக பயன்பாடுகளுக்கு இடையிலான இடைவெளியைக் குறைப்பதன் முக்கியத்துவம்"
 metatitle: "Meta Llama 3 | AI மாதிரிகளை வணிக பயன்பாடுகளுடன் இணைத்தல்"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Meta AI இன் Llama 3 வெளியீடு சக்திவாய்ந்த AI மாதிரிகள் மற்றும் நடைமுறை வணிக பயன்பாடுகளுக்கு இடையிலான இடைவெளியைக் குறைக்கும் தீர்வுகளின் தேவையை எடுத்துக்காட்டுகிறது. இந்த இடைவெளியைக் குறைப்பதற்கும் நிஜ உலக சவால்களைத் தீர்ப்பதற்கும் Seasalt.ai தனிப்பயனாக்கப்பட்ட உரையாடல் AI தயாரிப்புகளை எவ்வாறு உருவாக்குகிறது என்பதை அறிக.
+description: "Meta AI இன் Llama 3 வெளியீடு சக்திவாய்ந்த AI மாதிரிகள் மற்றும் நடைமுறை வணிக பயன்பாடுகளுக்கு இடையிலான இடைவெளியைக் குறைக்கும் தீர்வுகளின் தேவையை எடுத்துக்காட்டுகிறது. இந்த இடைவெளியைக் குறைப்பதற்கும் நிஜ உலக சவால்களைத் தீர்ப்பதற்கும் Seasalt.ai தனிப்பயனாக்கப்பட்ட உரையாடல் AI தயாரிப்புகளை எவ்வாறு உருவாக்குகிறது என்பதை அறிக."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta Llama 3 மற்றும் AI மாதிரிகள் மற்றும் வணிக பயன்பாடுகளுக்கு இடையிலான இடைவெளியைக் குறைப்பதன் முக்கியத்துவம்

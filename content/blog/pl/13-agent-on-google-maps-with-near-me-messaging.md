@@ -1,18 +1,17 @@
 ---
 title: "Uruchom swojego wirtualnego agenta w Google Maps z wiadomościami Near Me"
 metatitle: "Uruchom swojego wirtualnego agenta Google Maps z wiadomościami Near Me"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Uruchom swojego wirtualnego agenta w Google Business Messages z wiadomościami Near Me."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Poprzednio przedstawiliśmy Ci [Wiadomości Near Me](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) i ich zalety. Wiadomości Near Me implementują wirtualnego agenta Google Business Messages, dostępnego bezpośrednio z przycisku czatu w profilu Google Maps firmy. Wirtualny agent Wiadomości Near Me jest zasilany przez najnowocześniejsze rozumienie języka naturalnego, które dostarcza odpowiedzi podobne do ludzkich. To, co wyróżnia Wiadomości Near Me spośród podobnych usług, to 5-minutowy czas konfiguracji, samoobsługowa personalizacja i wbudowane wsparcie czatu na żywo.

@@ -1,16 +1,19 @@
 ---
 title: "سیستم‌های پاسخگویی خودکار تلفن (پاسخ صوتی تعاملی در مقابل نمایندگان هوش مصنوعی صوتی): بهترین انتخاب‌ها برای کسب‌وکارهای کوچک (3/5)"
 metatitle: "سیستم‌های پاسخگویی خودکار (پاسخ صوتی تعاملی در مقابل هوش مصنوعی صوتی)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "گزینه‌های پاسخ صوتی تعاملی و نمایندگان هوش مصنوعی صوتی برای سیستم‌های تلفن خودکار در کسب‌وکارهای کوچک را کاوش کنید."
 weight: 1
-tags: ["خدمات پاسخگویی خودکار", "تماس‌های ورودی برای کسب‌وکارهای کوچک", "SeaChat",  "هوش مصنوعی صوتی"]
-toc: true
+tags:
+  - خدمات پاسخگویی خودکار
+  - تماس‌های ورودی برای کسب‌وکارهای کوچک
+  - SeaChat
+  - هوش مصنوعی صوتی
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

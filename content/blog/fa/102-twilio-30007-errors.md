@@ -1,17 +1,19 @@
 ---
 title: "نحوه برخورد با خطاهای Twilio 30007"
 metatitle: "Seasalt.ai | نحوه برخورد با خطاهای Twilio 30007"
-date: 2024-10-15T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-15 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Xuchen Yao
 description: "نحوه عیب یابی و جلوگیری از خطاهای Twilio 30007 را برای اطمینان از تحویل موفقیت آمیز پیام های SMS بیاموزید."
 weight: 1
-tags: ["Twilio", "SeaX", "SMS"]
-toc: true
+tags:
+  - Twilio
+  - SeaX
+  - SMS
 image: /images/blog/102-twilio-30007-errors/102-twilio-30007-errors.png
-canonicalURL: "/blog/twilio-30007-errors/"
-url: "/blog/twilio-30007-errors/"
+canonicalURL: /blog/twilio-30007-errors/
+url: /blog/twilio-30007-errors/
 ---
 
 ---

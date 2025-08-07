@@ -1,16 +1,20 @@
 ---
 title: "Những gì doanh nghiệp nên biết về Chatbot: Hành trình từ Chatbot truyền thống đến Đại lý LLM"
 metatitle: "Hành trình từ Chatbot truyền thống đến Đại lý LLM"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Các đại lý trò chuyện dựa trên LLM cung cấp cho doanh nghiệp một giải pháp dễ dàng, hiệu quả cho các tương tác với khách hàng, không yêu cầu kỹ năng kỹ thuật phức tạp và tích hợp liền mạch với các hệ thống hiện có.
+description: "Các đại lý trò chuyện dựa trên LLM cung cấp cho doanh nghiệp một giải pháp dễ dàng, hiệu quả cho các tương tác với khách hàng, không yêu cầu kỹ năng kỹ thuật phức tạp và tích hợp liền mạch với các hệ thống hiện có."
 weight: 1
-tags: ["SeaChat", "Đại lý giọng nói", "Công cụ AI", "Trải nghiệm khách hàng"]
+tags:
+  - SeaChat
+  - Đại lý giọng nói
+  - Công cụ AI
+  - Trải nghiệm khách hàng
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Đối với các chủ doanh nghiệp, việc hợp lý hóa tương tác với khách hàng là rất quan trọng. Các đại lý trò chuyện dựa trên LLM cung cấp một giải pháp sáng tạo, thân thiện với người dùng mà không yêu cầu kỹ năng kỹ thuật rộng lớn.

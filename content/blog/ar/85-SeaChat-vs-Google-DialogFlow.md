@@ -1,18 +1,20 @@
 ---
-title: "ترقية الذكاء الاصطناعي التخاطبي لديك: لماذا يعد الانتقال من Dialogflow إلى SeaChat ميزة استراتيجية"
-metatitle: "ترقية الذكاء الاصطناعي التخاطبي لديك: لماذا يعد الانتقال من Dialogflow إلى SeaChat ميزة استراتيجية"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+title: " ترقية الذكاء الاصطناعي التخاطبي لديك: لماذا يعد الانتقال من Dialogflow إلى SeaChat ميزة استراتيجية"
+metatitle: " ترقية الذكاء الاصطناعي التخاطبي لديك: لماذا يعد الانتقال من Dialogflow إلى SeaChat ميزة استراتيجية"
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: في مجال الذكاء الاصطناعي التخاطبي، كان Google Dialogflow شائعًا، ويمكن لـ SeaChat، المستند إلى نماذج اللغة الكبيرة (LLMs)، تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة.
+description: "في مجال الذكاء الاصطناعي التخاطبي، كان Google Dialogflow شائعًا، ويمكن لـ SeaChat، المستند إلى نماذج اللغة الكبيرة (LLMs)، تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'يشهد مجال الذكاء الاصطناعي التخاطبي طفرة في الابتكار. بينما كان [Google Dialogflow](https://cloud.google.com/dialogflow) حجر الزاوية في بناء واجهات الصوت والنص التفاعلية، فإن موجة جديدة من التكنولوجيا تكتسب اهتمامًا: نماذج اللغة الكبيرة (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهي منصة مبنية على تقنية LLM، تقدم منهجًا رائدًا للذكاء الاصطناعي التخاطبي، متجاوزة المحركات القائمة على القواعد مثل Dialogflow. بالنسبة للشركات التي تتطلع إلى تعزيز أداء روبوتات الدردشة وتجربة المستخدم، قد يكون الانتقال إلى SeaChat ميزة استراتيجية.'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 يشهد مجال الذكاء الاصطناعي التخاطبي طفرة في الابتكار. بينما كان [Google Dialogflow](https://cloud.google.com/dialogflow) حجر الزاوية في بناء واجهات الصوت والنص التفاعلية، فإن موجة جديدة من التكنولوجيا تكتسب اهتمامًا: نماذج اللغة الكبيرة (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهي منصة مبنية على تقنية LLM، تقدم منهجًا رائدًا للذكاء الاصطناعي التخاطبي، متجاوزة المحركات القائمة على القواعد مثل Dialogflow. بالنسبة للشركات التي تتطلع إلى تعزيز أداء روبوتات الدردشة وتجربة المستخدم، قد يكون الانتقال إلى SeaChat ميزة استراتيجية.

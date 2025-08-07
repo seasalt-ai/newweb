@@ -1,16 +1,17 @@
 ---
 title: "Twilio และ Seasalt.ai เปิดตัว SeaX ในเอเชียแปซิฟิกและญี่ปุ่น"
 metatitle: "ให้ศูนย์ติดต่อของคุณพูดด้วย SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio และ Seasalt.ai ขยายความร่วมมือในเอเชียแปซิฟิกและญี่ปุ่นเพื่อสร้างศูนย์ติดต่อคลาวด์หลายประเทศ"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 เมื่อศูนย์ติดต่อพัฒนาขึ้น – และช่องทางการสื่อสารออนไลน์เพิ่มขึ้น – ธุรกิจต่างๆ ตอบสนองความต้องการของผู้บริโภคได้มากกว่าที่เคย ลูกค้าในปัจจุบันต้องการสื่อสารผ่านช่องทางที่พวกเขาต้องการ ศูนย์บริการทางโทรศัพท์เป็นที่รู้จักกันดีสำหรับการสนับสนุนลูกค้า แต่ความคาดหวังที่เพิ่มขึ้นคือช่องทางต่างๆ สามารถใช้ได้ทั้งสำหรับการสนับสนุนลูกค้าและการสนทนาเชิงพาณิชย์กับแบรนด์

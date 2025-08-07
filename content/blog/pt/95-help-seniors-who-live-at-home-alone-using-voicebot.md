@@ -1,17 +1,17 @@
 ---
 title: "Como ajudar idosos que vivem sozinhos com Voicebot - A solução inteligente da SeaX"
 metatitle: "Melhore a qualidade de vida de idosos que vivem sozinhos com AI Voicebot - Solução de Cuidados Inteligentes SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore como as chamadas de cuidado inteligente de IA da SeaX podem fornecer cuidado regular, monitoramento de saúde e suporte de emergência para idosos que vivem sozinhos na sociedade superenvelhecida de Taiwan, melhorando efetivamente a qualidade de vida e a sensação de segurança dos idosos."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwan está gradualmente se tornando uma sociedade superenvelhecida, e o número de idosos que vivem sozinhos continua a aumentar. De acordo com dados do Conselho Nacional de Desenvolvimento, espera-se que a proporção de idosos em Taiwan se aproxime de 20% até 2024, e em 2025, entrará oficialmente em uma sociedade superenvelhecida. Essa mudança na estrutura social torna os problemas de saúde física e mental de idosos que vivem sozinhos um foco. Em particular, muitos idosos frequentemente se sentem solitários e preocupados com a possibilidade de morrerem sozinhos em casa. Essa pressão psicológica não apenas afeta a qualidade de vida deles, mas também representa uma ameaça à sua saúde física.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwan está gradualmente se tornando uma sociedade superenvelhecida, e o número de idosos que vivem sozinhos continua a aumentar. De acordo com dados do Conselho Nacional de Desenvolvimento, espera-se que a proporção de idosos em Taiwan se aproxime de 20% até 2024, e em 2025, entrará oficialmente em uma sociedade superenvelhecida. Essa mudança na estrutura social torna os problemas de saúde física e mental de idosos que vivem sozinhos um foco. Em particular, muitos idosos frequentemente se sentem solitários e preocupados com a possibilidade de morrerem sozinhos em casa. Essa pressão psicológica não apenas afeta a qualidade de vida deles, mas também representa uma ameaça à sua saúde física.

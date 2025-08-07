@@ -1,16 +1,18 @@
 ---
 title: "YouTubeからオーディオデータをダウンロードする方法、単一および複数の動画 | オーディオツールボックスシリーズ"
 metatitle: "YouTubeからオーディオデータをダウンロード | オーディオツールボックスシリーズ"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: 無料ツールを使用して、YouTubeの個々の動画または多数の動画から音声を合法かつ効率的にダウンロードする方法を学びます。クリエイティブなプロジェクトのために、音楽、ポッドキャスト、効果音などを抽出するためのツールとテクニックを探ります。
+description: "無料ツールを使用して、YouTubeの個々の動画または多数の動画から音声を合法かつ効率的にダウンロードする方法を学びます。クリエイティブなプロジェクトのために、音楽、ポッドキャスト、効果音などを抽出するためのツールとテクニックを探ります。"
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 今日は、多くの人が共感するトピック、つまりYouTubeからオーディオデータを無料でダウンロードする方法について掘り下げてみましょう。

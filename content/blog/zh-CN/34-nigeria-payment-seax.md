@@ -1,16 +1,18 @@
 ---
 title: "客户案例：尼日利亚数字支付行业联络中心的成功经验"
 metatitle: "尼日利亚数字支付行业联络中心的成功经验"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 尼日利亚领先的数字支付公司通过全渠道联络中心实现了革命性的客户支持，该中心集成了聊天机器人和个性化的尼日利亚皮钦语支持，惠及数百万用户和商家。
+description: "尼日利亚领先的数字支付公司通过全渠道联络中心实现了革命性的客户支持，该中心集成了聊天机器人和个性化的尼日利亚皮钦语支持，惠及数百万用户和商家。"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 尼日利亚一家领先的数字支付公司成功部署全渠道联络中心的故事，突显了采用先进技术如何彻底改变客户支持并提升整体用户体验。

@@ -1,18 +1,20 @@
 ---
 title: "Skripte ablegen, natürliche Konversationen annehmen: Warum ein Upgrade von Amazon Lex auf SeaChat sinnvoll ist"
 metatitle: "Skripte ablegen, natürliche Konversationen annehmen: Warum ein Upgrade von Amazon Lex auf SeaChat sinnvoll ist"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Im Bereich der konversationellen KI war Amazon Lex beliebt, und SeaChat, basierend auf großen Sprachmodellen (LLMs), kann Einschränkungen überwinden und ein natürlicheres und flüssigeres Gesprächserlebnis schaffen.
+description: "Im Bereich der konversationellen KI war Amazon Lex beliebt, und SeaChat, basierend auf großen Sprachmodellen (LLMs), kann Einschränkungen überwinden und ein natürlicheres und flüssigeres Gesprächserlebnis schaffen."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'Die Welt der Chatbots entwickelt sich rasant. Während [Amazon Lex](https://aws.amazon.com/lex/) eine beliebte Wahl für den Aufbau von Sprach- und Textschnittstellen war, rückt eine neue technologische Welle in den Mittelpunkt: große Sprachmodelle (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), eine von LLMs angetriebene Plattform, bietet einen bahnbrechenden Ansatz für konversationelle KI, der regelbasierte Engines wie Lex weit hinter sich lässt. Ist es an der Zeit, ein Upgrade für Ihren Chatbot in Betracht zu ziehen?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 Die Welt der Chatbots entwickelt sich rasant. Während [Amazon Lex](https://aws.amazon.com/lex/) eine beliebte Wahl für den Aufbau von Sprach- und Textschnittstellen war, rückt eine neue technologische Welle in den Mittelpunkt: große Sprachmodelle (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), eine von LLMs angetriebene Plattform, bietet einen bahnbrechenden Ansatz für konversationelle KI, der regelbasierte Engines wie Lex weit hinter sich lässt. Ist es an der Zeit, ein Upgrade für Ihren Chatbot in Betracht zu ziehen?

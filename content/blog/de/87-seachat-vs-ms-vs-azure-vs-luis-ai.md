@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs. Microsoft Bot Framework und Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Bot Framework und Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
-author:  Xuchen Yao
-description: Im Bereich der konversationellen KI war Microsoft Azure Bot Service (LUIS.ai) einst beliebt, und SeaChat, basierend auf großen Sprachmodellen (LLMs), kann Einschränkungen überwinden und ein natürlicheres und flüssigeres Gesprächserlebnis schaffen.
+author: Xuchen Yao
+description: "Im Bereich der konversationellen KI war Microsoft Azure Bot Service (LUIS.ai) einst beliebt, und SeaChat, basierend auf großen Sprachmodellen (LLMs), kann Einschränkungen überwinden und ein natürlicheres und flüssigeres Gesprächserlebnis schaffen."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Die Welt der konversationellen KI ist in Aufruhr über die neuesten Nachrichten von Microsofts vertiefter Partnerschaft mit OpenAI. Während einige das Potenzial dieser Zusammenarbeit feiern, gibt es innerhalb von Microsoft abweichende Stimmen. Insider befürchten Berichten zufolge eine Abkehr von der internen KI-Entwicklung, um OpenAIs Angebote zu fördern.
-
-Ein speziell erwähnter Bereich ist das Schicksal von Microsofts Azure Bot Service.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Die Welt der konversationellen KI ist in Aufruhr über die neuesten Nachrichten von Microsofts vertiefter Partnerschaft mit OpenAI. Während einige das Potenzial dieser Zusammenarbeit feiern, gibt es innerhalb von Microsoft abweichende Stimmen. Insider befürchten Berichten zufolge eine Abkehr von der internen KI-Entwicklung, um OpenAIs Angebote zu fördern.

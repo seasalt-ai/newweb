@@ -1,17 +1,17 @@
 ---
 title: "SeaX : Étude de cas sur l'appel de contrôle annuel - Offrir de meilleurs services de soins aux personnes âgées"
 metatitle: "Étude de cas SeaX sur l'appel de contrôle annuel : L'assistant IA améliore la qualité des services de soins aux personnes âgées"
-date: 2024-08-20T00:22:19-07:00
+date: 2024-08-20 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Découvrez comment SeaX révolutionne les services de soins aux personnes âgées grâce à la technologie de l'IA, en résolvant de nombreux défis liés aux contrôles téléphoniques annuels, en améliorant la qualité du service et en réduisant la charge des bénévoles. Découvrez comment les solutions intelligentes de SeaX offrent des soins continus de meilleure qualité aux personnes âgées du monde entier."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Face à une population vieillissante croissante, les institutions de soins aux personnes âgées du monde entier sont confrontées à de nombreux défis. En particulier en ce qui concerne les soins réguliers et la surveillance de la santé, cela nécessite non seulement une main-d''œuvre importante, mais conduit également souvent à des problèmes potentiels non détectés à temps en raison de négligences ou de retards. C''est un défi auquel une agence de services sociaux de Singapour, qui a collaboré avec Seasalt.ai, a été confrontée. L''agence effectuait un appel de contrôle annuel avec des milliers de personnes âgées, un processus fastidieux et difficile à gérer efficacement. Pour résoudre ce problème, ils ont introduit SeaX, améliorant considérablement la qualité et l''efficacité des services de soins grâce à la technologie de l''IA.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

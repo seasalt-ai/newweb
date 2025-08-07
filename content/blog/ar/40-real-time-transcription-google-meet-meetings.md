@@ -1,19 +1,18 @@
 ---
 title: "كيف تغير النسخ المباشر وتحليلات الاجتماعات اجتماعات Google Meet"
 metatitle: "كيف تغير النسخ المباشر وتحليلات الاجتماعات اجتماعات Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "غيرت ميزات النسخ المباشر وتحليلات الاجتماعات طريقة عمل الاجتماعات. فهي لا تزيد من كفاءة الاجتماعات وتوفر رؤى فورية وتسهل اتخاذ القرارات السريعة فحسب، بل تعزز أيضًا مشاركة الحضور وتضمن نجاح اجتماعات العمل الحديثة."
 weight: 1
-tags: ["SeaMeet", "أدوات الذكاء الاصطناعي"]
+tags:
+  - SeaMeet
+  - أدوات الذكاء الاصطناعي
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "غيرت ميزات النسخ المباشر وتحليلات الاجتماعات طريقة عمل الاجتماعات. فهي لا تزيد من كفاءة الاجتماعات وتوفر رؤى فورية وتسهل اتخاذ القرارات السريعة فحسب، بل تعزز أيضًا مشاركة الحضور وتضمن نجاح اجتماعات العمل الحديثة."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 في بيئة الأعمال الحديثة، تعد الاجتماعات منصة رئيسية لتعزيز التعاون الجماعي واتخاذ القرارات. ومع ذلك، نظرًا للاجتماعات المتوازية المتعددة والجداول الزمنية المزدحمة، أصبح من الصعب بشكل متزايد البقاء على اطلاع دائم بجميع الاجتماعات. في هذا السياق، تبرز الحاجة إلى النسخ المباشر وتحليلات الاجتماعات بشكل متزايد، حيث توفر حلاً للتغلب على قيود طرق تدوين محاضر الاجتماعات التقليدية وضمان إدارة فعالة للاجتماعات.

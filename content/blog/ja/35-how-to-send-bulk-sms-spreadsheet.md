@@ -1,19 +1,19 @@
 ---
 title: "Excel、Googleスプレッドシート、Apple Numbersで連絡先に一括SMSを送信する正しい方法"
 metatitle: "一括SMS送信 | Excel、Googleスプレッドシート、Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Kim Dodds
-description: 'Excel、Googleスプレッドシート、Apple Numbersから一括SMSを安全に送信し、10DLC規制に準拠する方法を解説します。'
+description: "Excel、Googleスプレッドシート、Apple Numbersから一括SMSを安全に送信し、10DLC規制に準拠する方法を解説します。"
 weight: 1
 tags:
   - 一括SMS
   - スプレッドシート
   - 10DLC
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 連絡先リストに一括でSMSを送信するのは、企業やイベント主催者、さまざまなプロフェッショナルに広く利用されている手法です。一度に多くの相手にメッセージを送ることで、時間を節約し、情報共有を効率化できます。Excel、Googleスプレッドシート、Apple Numbersは本来SMS送信機能を持ちませんが、拡張機能やサードパーティサービスを使えば実現可能です。ただし、注意すべき落とし穴や規制も存在します。
@@ -42,8 +42,8 @@ url: "/blog/how-to-send-bulk-sms-spreadsheet/"
 編集前に必ずファイルのコピーを作成しましょう：**ファイル > コピーを作成**。
 
 <center>
-  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートのバックアップ作成"/>
-  _一括SMS連絡先スプレッドシートのバックアップ作成_
+  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートのバックアップコピーを作成する"/>
+  _一括SMS連絡先スプレッドシートのバックアップコピーを作成する_
 </center>
 
 ## 2. 重複データの削除
@@ -54,8 +54,8 @@ c. チェックしたい列を選択し、「重複を削除」をクリック
 d. Googleスプレッドシートが削除数を通知
 
 <center>
-  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの重複削除"/>
-  _一括SMS連絡先スプレッドシートの重複削除_
+  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの重複を削除する"/>
+  _一括SMS連絡先スプレッドシートの重複を削除する_
 </center>
 
 ## 3. 電話番号フォーマットの統一
@@ -65,8 +65,8 @@ b. 「検索と置換」でフォーマットを統一（例：ピリオドを�
 c. 必要に応じて数式やスクリプトを活用
 
 <center>
-  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの電話番号フォーマット統一"/>
-  _一括SMS連絡先スプレッドシートの電話番号フォーマット統一_
+  <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの電話番号形式を標準化する"/>
+  _一括SMS連絡先スプレッドシートの電話番号形式を標準化する_
 </center>
 
 ### 4. データのバリデーション
@@ -75,8 +75,8 @@ a. 電話番号の桁数が正しいか確認し、フィルターや並べ替�
 b. 名前欄が空欄や不正データでないか確認
 
 <center>
-  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="一括SMS連絡先スプレッドシートのデータバリデーション"/>
-  _一括SMS連絡先スプレッドシートのデータバリデーション_
+  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="一括SMS連絡先スプレッドシートのデータを検証する"/>
+  _一括SMS連絡先スプレッドシートのデータを検証する_
 </center>
 
 ## 5. 空白セルのチェック
@@ -84,8 +84,8 @@ b. 名前欄が空欄や不正データでないか確認
 このステップは任意です。SeaX Messagingでは空白セルの行は自動的にスキップされますが、他のサービスではエラーになる場合もあるため、条件付き書式で空白セルをハイライトし、修正することを推奨します。
 
 <center>
-  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの空白セルチェック"/>
-  _一括SMS連絡先スプレッドシートの空白セルチェック_
+  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="一括SMS連絡先スプレッドシートの空白セルを確認する"/>
+  _一括SMS連絡先スプレッドシートの空白セルを確認する_
 </center>
 
 ## 追加のデータ準備アドバイス
@@ -106,7 +106,7 @@ ExcelやGoogleスプレッドシートは標準でSMS送信機能を持ちませ
 ## 成功するSMSマーケティング運用のコツ
 
 <center>
-  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="SMSマーケティング成功のコツ"/>
+  <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="成功したSMSマーケティング"/>
 </center>
 
 どんなに注意してもトラブルは起こり得ます。長期的な成功のために：

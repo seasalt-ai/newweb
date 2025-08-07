@@ -1,18 +1,20 @@
 ---
 title: "Itaas ang Iyong Conversational AI: Bakit ang Paglipat mula Dialogflow patungong SeaChat ay isang Strategic Advantage"
 metatitle: "Itaas ang Iyong Conversational AI: Bakit ang Paglipat mula Dialogflow patungong SeaChat ay isang Strategic Advantage"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Sa larangan ng conversational AI, naging popular ang Google Dialogflow, at ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at tuluy-tuloy na karanasan sa pag-uusap.
+description: "Sa larangan ng conversational AI, naging popular ang Google Dialogflow, at ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at tuluy-tuloy na karanasan sa pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'Ang landscape ng conversational AI ay nakakaranas ng pagdami ng inobasyon. Habang ang [Dialogflow](https://cloud.google.com/dialogflow) ng Google ay naging pundasyon para sa pagbuo ng interactive na voice at text interface, isang bagong alon ng teknolohiya ang nagkakaroon ng traksyon: ang Large Language Models (LLMs). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na binuo sa teknolohiya ng LLM, ay nag-aalok ng isang groundbreaking na diskarte sa conversational AI, na iniiwan ang mga rule-based engine tulad ng Dialogflow. Para sa mga negosyong naghahanap upang mapahusay ang performance ng kanilang chatbot at karanasan ng user, ang paglipat sa SeaChat ay maaaring maging isang strategic advantage.'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 Ang landscape ng conversational AI ay nakakaranas ng pagdami ng inobasyon. Habang ang [Dialogflow](https://cloud.google.com/dialogflow) ng Google ay naging pundasyon para sa pagbuo ng interactive na voice at text interface, isang bagong alon ng teknolohiya ang nagkakaroon ng traksyon: ang Large Language Models (LLMs). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na binuo sa teknolohiya ng LLM, ay nag-aalok ng isang groundbreaking na diskarte sa conversational AI, na iniiwan ang mga rule-based engine tulad ng Dialogflow. Para sa mga negosyong naghahanap upang mapahusay ang performance ng kanilang chatbot at karanasan ng user, ang paglipat sa SeaChat ay maaaring maging isang strategic advantage.

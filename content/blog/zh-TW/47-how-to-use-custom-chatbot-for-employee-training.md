@@ -1,16 +1,18 @@
 ---
 title: "企業如何用客製化AI聊天機器人讓員工培訓更簡單"
 metatitle: "企業如何用客製化AI聊天機器人讓員工培訓更簡單 | 用SeaChat做新一代聊天機器人系列"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 探索客製化AI聊天機器人在提升員工培訓效率和個性化學習體驗上的革命性作用，並解析其在企業文化傳遞和業務效率提升中的關鍵角色。
+description: "探索客製化AI聊天機器人在提升員工培訓效率和個性化學習體驗上的革命性作用，並解析其在企業文化傳遞和業務效率提升中的關鍵角色。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "探索客製化AI聊天機器人在提升員工培訓效率和個性化學習體驗上的革命性作用，並解析其在企業文化傳遞和業務效率提升中的關鍵角色。"
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 為了提高新員工的培訓效率和效果，越來越多的公司開始探索使用客製化AI聊天機器人的可能性。這些先進的聊天機器人不僅可以提供個性化的學習體驗，還能幫助員工更快地融入公司文化，從而提高整體的工作效率和員工滿意度。

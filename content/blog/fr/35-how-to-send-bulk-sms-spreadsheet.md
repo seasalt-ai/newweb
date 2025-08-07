@@ -1,16 +1,18 @@
 ---
 title: "La bonne méthode pour envoyer des SMS en masse à partir d’Excel, Google Sheets et Apple Numbers"
 metatitle: "Envoi SMS en masse | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Découvrez comment envoyer des SMS en masse depuis Excel, Google Sheets et Apple Numbers tout en restant conforme au 10DLC.'
+description: "Découvrez comment envoyer des SMS en masse depuis Excel, Google Sheets et Apple Numbers tout en restant conforme au 10DLC."
 weight: 1
-tags: ["SeaX", "Tutoriel"]
+tags:
+  - SeaX
+  - Tutoriel
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 L’envoi de SMS en masse à une liste de contacts est une technique largement utilisée par les entreprises, les organisateurs d’événements et de nombreux professionnels. Pouvoir envoyer un message à grande échelle permet de gagner du temps et d’informer efficacement ses contacts. Bien qu’Excel, Google Sheets et Apple Numbers ne soient pas conçus nativement pour l’envoi de SMS, des extensions et services tiers rendent cela possible. Attention toutefois aux pièges et à la réglementation.
@@ -39,8 +41,8 @@ Supposons que vous ayez une liste de contacts dans un tableur et que vous souhai
 Avant toute modification, faites une copie de votre fichier : **Fichier > Créer une copie**.
 
 <center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Faire une sauvegarde du fichier de contacts"/>
-_Faire une sauvegarde du fichier de contacts_
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Faire une copie de la feuille de calcul des contacts SMS en masse"/>
+_Faire une copie de la feuille de calcul des contacts SMS en masse_
 </center>
 
 ## 2. Supprimer les doublons
@@ -51,8 +53,8 @@ c. Choisissez les colonnes à vérifier puis cliquez sur Supprimer les doublons.
 d. Google Sheets vous indique le nombre de doublons supprimés.
 
 <center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Supprimer les doublons dans le fichier de contacts"/>
-_Supprimer les doublons_
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Supprimer les doublons dans la feuille de calcul des contacts SMS en masse"/>
+_Supprimer les doublons dans la feuille de calcul des contacts SMS en masse_
 </center>
 
 ## 3. Standardiser le format des numéros
@@ -62,8 +64,8 @@ b. Utilisez Rechercher et Remplacer pour harmoniser le format (ex : remplacer le
 c. Utilisez une formule ou un script si besoin.
 
 <center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Standardiser le format des numéros de téléphone"/>
-_Standardiser le format des numéros de téléphone_
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Standardiser le format des numéros de téléphone dans la feuille de calcul des contacts SMS en masse"/>
+_Standardiser le format des numéros de téléphone dans la feuille de calcul des contacts SMS en masse_
 </center>
 
 ### 4. Valider les données
@@ -72,8 +74,8 @@ a. Vérifiez que chaque numéro a le bon nombre de chiffres. Filtrez ou triez po
 b. Vérifiez que les noms ne sont pas vides ou erronés.
 
 <center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Valider les données du fichier de contacts"/>
-_Valider les données du fichier de contacts_
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Valider les données dans la feuille de calcul des contacts SMS en masse"/>
+_Valider les données dans la feuille de calcul des contacts SMS en masse_
 </center>
 
 ## 5. Vérifier les cellules vides
@@ -81,8 +83,8 @@ _Valider les données du fichier de contacts_
 Optionnel. Sur SeaX Messaging, les lignes vides sont ignorées automatiquement. Mais il est conseillé de les repérer et de les corriger avec le formatage conditionnel.
 
 <center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Vérifier les cellules vides du fichier de contacts"/>
-_Vérifier les cellules vides_
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Vérifier les cellules vides dans la feuille de calcul des contacts SMS en masse"/>
+_Vérifier les cellules vides dans la feuille de calcul des contacts SMS en masse_
 </center>
 
 ## Conseils supplémentaires sur la préparation des données
@@ -103,7 +105,7 @@ Quelques prestataires connus :
 # Réussir ses campagnes SMS
 
 <center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Réussir ses campagnes SMS"/>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Marketing SMS réussi"/>
 </center>
 
 Même avec les meilleures intentions, des problèmes peuvent survenir. Pour réussir sur le long terme :

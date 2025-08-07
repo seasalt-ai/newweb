@@ -1,18 +1,17 @@
 ---
 title: "من العرض إلى النجاح: ما وراء خوارزميات الصوت في الاجتماعات الحديثة (3/5)"
 metatitle: "من العرض إلى النجاح (3/5): ما وراء خوارزميات الصوت"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "في الجزء الثالث من سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء SeaMeet، حلول الاجتماعات الحديثة التعاونية."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 *على مدار هذه السلسلة، تابع رحلة Seasalt.ai لإنشاء تجربة الاجتماعات الحديثة المتكاملة، بدءًا من البدايات المتواضعة، إلى تحسين الخدمة على أجهزة ونماذج مختلفة، إلى دمج أنظمة معالجة اللغة الطبيعية المتقدمة، وأخيرًا تحقيق SeaMeet، حلول الاجتماعات الحديثة التعاونية.*

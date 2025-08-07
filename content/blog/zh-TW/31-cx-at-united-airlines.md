@@ -1,16 +1,17 @@
 ---
 title: "聯合航空客戶服務：好、壞、醜"
 metatitle: "聯合航空客戶服務分析"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 姚旭辰分享了他最近在航班延誤和取消期間與聯合航空客戶服務的經歷，並提出了解決方案，以應對在流量高峰期動態擴展客戶支援的挑戰。
+description: "姚旭辰分享了他最近在航班延誤和取消期間與聯合航空客戶服務的經歷，並提出了解決方案，以應對在流量高峰期動態擴展客戶支援的挑戰。"
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) 首席執行官姚旭辰分享了他最近在航班延誤和取消期間與聯合航空客戶服務的經歷。這讓他意識到航空公司客戶支援在動態擴展以應對此類情況下的流量高峰時所面臨的挑戰。姚旭辰談到了潛在的改進，例如將自助服務流量從人工座席分流，提高人工座席的效率，以及開發技術以主動識別和降低潛在問題的風險。*

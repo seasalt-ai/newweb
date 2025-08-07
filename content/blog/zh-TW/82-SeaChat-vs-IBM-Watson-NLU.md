@@ -1,17 +1,19 @@
 ---
 title: "提升您的聊天體驗：為什麼SeaChat超越IBM Watson NLU"
 metatitle: "提升您的聊天體驗：為什麼SeaChat超越IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: 在對話式AI領域，IBM Watson NLU曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。
+description: "在對話式AI領域，IBM Watson NLU曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: '您的聊天機器人是否老是重複回應、對話不自然？您是否想為您的客戶提供更自然的聊天體驗？那麼，現在是時候看看SeaChat了，一款建立在大型語言模型(LLMs)之上的強大AI助理產品。雖然[IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding)一直是文本分析的可靠工具，但[SeaChat](https://chat.seasalt.ai/?utm_source=blog)為對話式AI提供了革命性的方法，將傳統NLU引擎遠遠拋在後面。'
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 您的聊天機器人是否老是重複回應、對話不自然？您是否想為您的客戶提供更自然的聊天體驗？那麼，現在是時候看看SeaChat了，一款建立在大型語言模型(LLMs)之上的強大AI助理產品。雖然[IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding)一直是文本分析的可靠工具，但[SeaChat](https://chat.seasalt.ai/?utm_source=blog)為對話式AI提供了革命性的方法，將傳統NLU引擎遠遠拋在後面。

@@ -1,16 +1,20 @@
 ---
 title: "企业应了解的关于聊天机器人的知识：从传统聊天机器人到 LLM 代理的演变"
 metatitle: "从传统聊天机器人到 LLM 代理的演变"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: 基于 LLM 的聊天代理为企业提供了简单、高效的客户交互解决方案，无需复杂的技能，并可与现有系统无缝集成。
+description: "基于 LLM 的聊天代理为企业提供了简单、高效的客户交互解决方案，无需复杂的技能，并可与现有系统无缝集成。"
 weight: 1
-tags: ["SeaChat", "语音代理", "AI 工具", "客户体验"]
+tags:
+  - SeaChat
+  - 语音代理
+  - AI 工具
+  - 客户体验
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 对于企业主来说，简化客户交互至关重要。基于 LLM 的聊天代理提供了一种创新、用户友好的解决方案，无需广泛的技术技能。

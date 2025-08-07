@@ -1,19 +1,18 @@
 ---
 title: "リアルタイム文字起こしと会議分析がGoogle Meet会議をどのように変えるか"
 metatitle: "リアルタイム文字起こしと会議分析がGoogle Meet会議をどのように変えるか"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "リアルタイム文字起こしと会議分析機能は、会議の進め方を変えました。会議の効率を高め、即座に洞察を提供し、迅速な意思決定を促進するだけでなく、参加者のエンゲージメントを高め、現代のビジネス会議の成功を確実にします。"
 weight: 1
-tags: ["SeaMeet", "AIツール"]
+tags:
+  - SeaMeet
+  - AIツール
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "リアルタイム文字起こしと会議分析機能は、会議の進め方を変えました。会議の効率を高め、即座に洞察を提供し、迅速な意思決定を促進するだけでなく、参加者のエンゲージメントを高め、現代のビジネス会議の成功を確実にします。"
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 現代のビジネス環境において、会議はチームワークと意思決定を促進するための重要なプラットフォームです。しかし、複数の並行会議や多忙なスケジュールのため、すべての会議に同期し続けることはますます困難になっています。このような背景から、リアルタイム文字起こしと会議分析の必要性がますます高まっています。これらは、従来の会議記録方法の限界を克服し、効果的な会議管理を確実にするためのソリューションを提供するからです。

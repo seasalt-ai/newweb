@@ -1,16 +1,20 @@
 ---
 title: "Ano ang Dapat Malaman ng Negosyo tungkol sa Chatbots: Ang Paglalakbay mula sa Tradisyonal na Chatbots patungo sa LLM Agents"
 metatitle: "Ang Paglalakbay mula sa Tradisyonal na Chatbots patungo sa LLM Agents"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Ang mga LLM-based na chat agent ay nag-aalok sa mga negosyo ng madali, mahusay na solusyon para sa mga pakikipag-ugnayan sa customer, hindi nangangailangan ng kumplikadong teknikal na kasanayan at walang putol na isinasama sa mga umiiral na sistema.
+description: "Ang mga LLM-based na chat agent ay nag-aalok sa mga negosyo ng madali, mahusay na solusyon para sa mga pakikipag-ugnayan sa customer, hindi nangangailangan ng kumplikadong teknikal na kasanayan at walang putol na isinasama sa mga umiiral na sistema."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Para sa mga may-ari ng negosyo, ang pagpapabilis ng pakikipag-ugnayan sa customer ay mahalaga. Ang mga LLM-based na chat agent ay nag-aalok ng isang makabago, user-friendly na solusyon na hindi nangangailangan ng malawak na teknikal na kasanayan.

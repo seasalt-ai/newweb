@@ -1,15 +1,20 @@
 ---
 title: "Intent/entity based NLU vs. GenAI/LLM based NLU: the difference is in the millions (of examples and dollars)"
 metatitle: "Intent/entity based NLU vs. GenAI/LLM based NLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: Unlock the future of Conversational AI - Why shift from intent/entity-based NLU to GenAI/LLM is crucial for scalability, cost-efficiency, and adaptability."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 To all Directors of Customer Service or Marketing, if your boss ask you the following question, send them this article:

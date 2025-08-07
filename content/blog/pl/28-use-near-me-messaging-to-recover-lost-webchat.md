@@ -1,16 +1,17 @@
 ---
 title: "Użytkownik opuścił czat internetowy: użyj Near Me Messaging, aby wysłać mu wiadomość!"
 metatitle: "Użytkownik opuścił czat internetowy: skontaktuj się z nim za pomocą Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging rozwiązuje jeden problem czatu internetowego: skontaktuj się ponownie z użytkownikiem nawet *po* opuszczeniu przez niego rozmowy."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 W bożonarodzeniowy poranek 2022 roku obudziłem się i zobaczyłem kilka wiadomości od użytkownika o imieniu Henry. Zanim do nich dotarłem, Henry już wyszedł. Dostałem tylko wiadomości, które wysłał przez czat internetowy, i jego imię.

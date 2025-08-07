@@ -1,15 +1,19 @@
 ---
 title: "Cómo Evaluar las Respuestas de Agentes de IA: El Sistema de Revisión de SeaChat para la Mejora y el Control de Agentes de IA"
 metatitle: "Evaluar Respuestas de Agentes de IA | Sistema de Revisión de SeaChat"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat te permite marcar, revisar y mejorar las respuestas de los agentes de IA para optimizar el rendimiento y la experiencia del cliente."
 weight: 1
-tags: ["SeaChat", "Agente de Voz", "Herramientas de IA", "Experiencia del Cliente"]
+tags:
+  - SeaChat
+  - Agente de Voz
+  - Herramientas de IA
+  - Experiencia del Cliente
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Introducción

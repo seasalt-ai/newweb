@@ -1,19 +1,18 @@
 ---
-
 title: "用 Excel、Google 表格、Apple Numbers 正确批量发送短信的方法"
 metatitle: "批量短信发送 | Excel、Google 表格、Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: '学习如何通过 Excel、Google 表格和 Apple Numbers 安全合规地批量发送短信，满足 10DLC 规范。'
+description: "学习如何通过 Excel、Google 表格和 Apple Numbers 安全合规地批量发送短信，满足 10DLC 规范。"
 weight: 1
 tags:
   - SeaX
   - 教程
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 批量向联系人发送短信是企业、活动组织者和各类专业人士常用的高效沟通方式。一次性群发消息可以节省时间并确保信息及时传达。虽然 Excel、Google 表格和 Apple Numbers 本身不支持短信发送，但通过扩展插件和第三方服务可以实现。不过，务必注意相关合规要求和潜在风险。

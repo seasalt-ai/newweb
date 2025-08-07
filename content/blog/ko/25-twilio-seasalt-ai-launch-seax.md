@@ -1,16 +1,17 @@
 ---
 title: "Twilio와 Seasalt.ai, 아시아 태평양 및 일본에서 SeaX 출시"
 metatitle: "컨택 센터에 SeaX 음성 지능으로 고유한 음성을 부여하세요"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio와 Seasalt.ai, 다국적 클라우드 컨택 센터 구축을 위해 아시아 태평양 및 일본에서 파트너십 확장"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 컨택 센터가 진화하고 더 많은 통신 채널이 온라인화됨에 따라 기업은 그 어느 때보다 소비자의 선호도를 충족시키고 있습니다. 오늘날의 고객은 선호하는 채널에서 소통하기를 원합니다. 콜센터는 고객 지원으로 잘 알려져 있지만, 채널이 고객 지원과 브랜드와의 상거래 대화 모두에 사용될 수 있다는 기대가 점점 커지고 있습니다.

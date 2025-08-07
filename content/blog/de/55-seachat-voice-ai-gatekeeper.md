@@ -1,16 +1,20 @@
 ---
 title: "KI-Anrufbildschirme auf Android und iPhone: Ihr persönlicher Assistent und Gatekeeper"
 metatitle: "KI-Anrufbildschirme | Persönlicher Assistent auf Android und iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Entdecken Sie die Zukunft des Anrufmanagements mit einem KI-gestützten Anrufagenten! Vom Filtern von Spammern bis zum Buchen von Terminen ist er Ihr persönlicher Assistent und Gatekeeper rund um die Uhr.
+description: "Entdecken Sie die Zukunft des Anrufmanagements mit einem KI-gestützten Anrufagenten! Vom Filtern von Spammern bis zum Buchen von Terminen ist er Ihr persönlicher Assistent und Gatekeeper rund um die Uhr."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Haben Sie sich jemals gewünscht, Sie hätten einen persönlichen Assistenten, der Ihre Telefonanrufe bearbeiten, Spammer und Betrüger filtern und sogar Termine für Sie buchen könnte? Suchen Sie nicht weiter, denn ein KI-gestützter Anrufagent kann all das und noch mehr! Als Ihr kostenloser Empfang und Gatekeeper revolutioniert diese bemerkenswerte Technologie das Anrufmanagement, stellt sicher, dass Sie keinen wichtigen Anruf verpassen, und spart Ihnen wertvolle Zeit und Seelenfrieden.

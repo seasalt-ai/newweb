@@ -1,18 +1,20 @@
 ---
 title: "Petua Automasi LINE: Integrasi Lancar SeaChat dengan Automasi LINE"
 metatitle: "Petua Automasi LINE: Integrasi Lancar SeaChat dengan Automasi LINE"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: Penyelesaian automasi LINE! Fungsi respons automatik LINE akan menghentikan perkhidmatan. Gunakan SeaChat, pembantu AI pintar, untuk menjadikan perbualan pelanggan anda lebih lancar dan memberikan penyelesaian perkhidmatan pelanggan yang komprehensif.
+description: "Penyelesaian automasi LINE! Fungsi respons automatik LINE akan menghentikan perkhidmatan. Gunakan SeaChat, pembantu AI pintar, untuk menjadikan perbualan pelanggan anda lebih lancar dan memberikan penyelesaian perkhidmatan pelanggan yang komprehensif."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'Ingin menjadikan LINE sebagai pembantu super untuk jenama anda? Apabila pelanggan menjadi semakin ramai dan seorang tidak mencukupi, anda tidak boleh menjawab setiap mesej secara individu. ["Bot Respons Automatik"](https://line-tw-official.weblog.to/archives/85582088.html) LINE seolah-olah dapat menyelesaikan masalah menjengkelkan ini! Sama ada untuk menyambut rakan baru atau menjawab kata kunci - ia kelihatan lebih mudah, bukan?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # Apakah Automasi LINE?

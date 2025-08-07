@@ -1,16 +1,17 @@
 ---
 title: "Google Meet मीटिंग्स को रीयल-टाइम में कैसे ट्रांसक्राइब करें?"
 metatitle: "Google Meet मीटिंग्स को रीयल-टाइम में कैसे ट्रांसक्राइब करें?"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: जानें कि Google Meet मीटिंग्स को रीयल-टाइम में कैसे ट्रांसक्राइब करें, बिल्ट-इन फीचर्स से लेकर Seasalt.ai के SeaMeet तक, सटीकता, डेटा स्टोरेज, शेयरिंग और प्राइवेसी पर ध्यान केंद्रित करते हुए। दक्षता और सुरक्षा के लिए सर्वोत्तम टूल्स का चयन करें।
+description: "जानें कि Google Meet मीटिंग्स को रीयल-टाइम में कैसे ट्रांसक्राइब करें, बिल्ट-इन फीचर्स से लेकर Seasalt.ai के SeaMeet तक, सटीकता, डेटा स्टोरेज, शेयरिंग और प्राइवेसी पर ध्यान केंद्रित करते हुए। दक्षता और सुरक्षा के लिए सर्वोत्तम टूल्स का चयन करें।"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "जानें कि Google Meet मीटिंग्स को रीयल-टाइम में कैसे ट्रांसक्राइब करें, बिल्ट-इन फीचर्स से लेकर Seasalt.ai के SeaMeet तक, सटीकता, डेटा स्टोरेज, शेयरिंग और प्राइवेसी पर ध्यान केंद्रित करते हुए। दक्षता और सुरक्षा के लिए सर्वोत्तम टूल्स का चयन करें।"
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **विषय-सूची**

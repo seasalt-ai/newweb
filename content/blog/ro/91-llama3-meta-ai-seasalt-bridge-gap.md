@@ -1,16 +1,19 @@
 ---
 title: "Importanța Meta Llama 3 și a reducerii decalajului dintre modelele AI și aplicațiile comerciale"
 metatitle: "Meta Llama 3 | Reducerea decalajului dintre modelele AI și aplicațiile comerciale"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2024-07-29 12:00:00+00:00
 draft: false
 author: Amy Chen
-description: Lansarea Llama 3 de la Meta AI subliniază necesitatea unor soluții care să reducă decalajul dintre modelele AI puternice și aplicațiile comerciale practice. Aflați cum Seasalt.ai construiește produse AI conversaționale personalizate pentru a reduce acest decalaj și a rezolva provocările din lumea reală.
+description: "Lansarea Llama 3 de la Meta AI subliniază necesitatea unor soluții care să reducă decalajul dintre modelele AI puternice și aplicațiile comerciale practice. Aflați cum Seasalt.ai construiește produse AI conversaționale personalizate pentru a reduce acest decalaj și a rezolva provocările din lumea reală."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2024-07-29T12:00:00Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI și Llama 3

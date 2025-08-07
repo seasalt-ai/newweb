@@ -1,15 +1,16 @@
 ---
 title: "پایگاه دانش SeaX: پایگاه دانشی که قبل از پرسیدن پاسخ می دهد"
 metatitle: "پایگاه دانش SeaX: پایگاه دانشی که قبل از پرسیدن پاسخ می دهد"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:11.612Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:11.612000+00:00
 draft: false
 author: Kim Dodds
 description: "در این مقاله، موضوع یکپارچه سازی هوش مصنوعی را با معرفی پایگاه دانش مجهز به هوش مصنوعی SeaX که پاسخ های پیشنهادی را در زمان واقعی ارائه می دهد، ادامه می دهیم."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *در پست وبلاگ قبلی ما [به مرکز تماس خود با هوش صوتی SeaX صدایی بدهید](https://seasalt.ai/blog/21-seax-voice-intelligence/)، نشان دادیم که چگونه موتورهای تبدیل متن به گفتار و گفتار به متن داخلی Seasalt.ai جنبه های مختلف پلتفرم SeaX را بهبود می بخشند. در این مقاله، موضوع یکپارچه سازی هوش مصنوعی را با معرفی پایگاه دانش مجهز به هوش مصنوعی SeaX که به مکالمات در زمان واقعی گوش می دهد تا پاسخ های پیشنهادی را ارائه دهد، ادامه خواهیم داد.*

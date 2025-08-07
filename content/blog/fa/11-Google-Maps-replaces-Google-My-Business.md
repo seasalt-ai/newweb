@@ -1,16 +1,16 @@
 ---
 title: "خداحافظ Google My Business، اکنون Google Maps سیستم عامل جدیدی برای کسب و کارها است"
 metatitle: "خداحافظ GMB، Google Maps سیستم عامل جدیدی برای کسب و کارها است"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "گوگل در حال جایگزینی برنامه Google My Business با Google Maps است، جایی که کسب و کارها می توانند اطلاعات خود را مدیریت کرده و به پیام های مشتریان در Google Maps پاسخ دهند."
 weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *اتصال مستقیم کسب و کارها با مصرف کنندگان از طریق Google Maps تجربه ای یکپارچه را برای تجربه خرید مصرف کنندگان فراهم می کند. این یک حرکت استراتژیک عالی برای گوگل است تا Google Maps را به سیستم عامل جدیدی برای جستجوی محلی کسب و کارهای "نزدیک من" تبدیل کند.*

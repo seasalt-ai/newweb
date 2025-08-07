@@ -1,16 +1,20 @@
 ---
 title: "Cara Membina Chatbot Agen Suara AI Hebat untuk Perniagaan Anda dengan Sambungan Telefon 24/7"
 metatitle: "Bina Agen Suara AI | Sambungan Telefon Perniagaan 24/7"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Temui panduan utama membangunkan chatbot agen suara AI untuk perniagaan anda, dan sambungkan ke sistem telefon 24x7 untuk perkhidmatan pelanggan terbaik.
+description: "Temui panduan utama membangunkan chatbot agen suara AI untuk perniagaan anda, dan sambungkan ke sistem telefon 24x7 untuk perkhidmatan pelanggan terbaik."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2025-07-29T00:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 Dalam dunia yang serba pantas hari ini, mari bincang bagaimana anda boleh tingkatkan perkhidmatan pelanggan. Membina chatbot agen suara AI untuk perniagaan anda dan menyambungkannya ke sistem telefon 24x7 adalah gabungan hebat untuk perkhidmatan pelanggan, menjimatkan masa dan wang serta memukau pelanggan anda. Jom mulakan perjalanan ini!

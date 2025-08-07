@@ -1,16 +1,18 @@
 ---
 title: "Utilizarea roboților ChatGPT personalizați pentru marketing inovator"
 metatitle: "Utilizarea roboților ChatGPT personalizați pentru marketing inovator | Seria chatbot-urilor de nouă generație SeaChat"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Descoperiți cum să folosiți roboții ChatGPT personalizați pentru a injecta o nouă vitalitate în campaniile de marketing. De la interacțiuni inovatoare la îmbunătățirea imaginii mărcii, acest articol dezvăluie potențialul nelimitat al AI în marketing.
+description: "Descoperiți cum să folosiți roboții ChatGPT personalizați pentru a injecta o nouă vitalitate în campaniile de marketing. De la interacțiuni inovatoare la îmbunătățirea imaginii mărcii, acest articol dezvăluie potențialul nelimitat al AI în marketing."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Descoperiți cum să folosiți roboții ChatGPT personalizați pentru a injecta o nouă vitalitate în campaniile de marketing. De la interacțiuni inovatoare la îmbunătățirea imaginii mărcii, acest articol dezvăluie potențialul nelimitat al AI în marketing."
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 În ritmul rapid al schimbărilor din marketingul digital, agențiile de marketing caută continuu noi strategii pentru a atrage clienții și a crea experiențe unice de brand. Odată cu apariția inteligenței artificiale, roboții ChatGPT personalizați au apărut ca un instrument inovator pentru profesioniștii din marketing, pentru a atrage și interacționa cu clienții.

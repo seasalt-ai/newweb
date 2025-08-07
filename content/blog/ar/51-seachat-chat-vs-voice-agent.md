@@ -1,16 +1,20 @@
 ---
 title: "وكيل الذكاء الاصطناعي الصوتي مقابل وكيل الذكاء الاصطناعي للدردشة: التنقل في حلول الذكاء الاصطناعي من SeaChat لعملك"
 metatitle: "وكيل صوتي مقابل وكيل دردشة | التنقل في حلول الذكاء الاصطناعي من SeaChat"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: استكشف حلول الذكاء الاصطناعي من SeaChat للشركات، وكيل الذكاء الاصطناعي الصوتي لخدمة العملاء القائمة على الصوت ووكيل الذكاء الاصطناعي للدردشة للتفاعلات القائمة على النص، لكل منهما ميزات فريدة وحالات استخدام.
+description: "استكشف حلول الذكاء الاصطناعي من SeaChat للشركات، وكيل الذكاء الاصطناعي الصوتي لخدمة العملاء القائمة على الصوت ووكيل الذكاء الاصطناعي للدردشة للتفاعلات القائمة على النص، لكل منهما ميزات فريدة وحالات استخدام."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 في بيئة اليوم الرقمية سريعة الوتيرة، تسعى الشركات باستمرار إلى طرق مبتكرة لتعزيز تجربة العملاء وتبسيط العمليات. جزء كبير من هذا التحول هو اعتماد أدوات الاتصال المدعومة بالذكاء الاصطناعي. [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، منصة ذكاء اصطناعي متعددة الاستخدامات، تقدم حلين قويين في منتج واحد: وكيل الذكاء الاصطناعي الصوتي ووكيل الذكاء الاصطناعي للدردشة. في هذه المدونة، سنتعمق في وظائف وحالات استخدام كليهما، مما يساعدك على تحديد الأنسب لاحتياجات عملك.

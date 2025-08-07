@@ -1,19 +1,19 @@
 ---
 title: "打造专属企业的AI聊天机器人 - 定制化ChatGPT机器人企业内部知识库"
 metatitle: "定制化专属企业的AI聊天机器人与企业内部知识库"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 探索定制化ChatGPT聊天机器人如何革新企业内部知识库管理。本文深入分析其在项目管理、人力资源、工程设计等领域的应用，揭示了无需编程开发、快速部署的便利性，并预测未来趋势，展望聊天机器人在企业数字化转型中的关键角色。
+description: "探索定制化ChatGPT聊天机器人如何革新企业内部知识库管理。本文深入分析其在项目管理、人力资源、工程设计等领域的应用，揭示了无需编程开发、快速部署的便利性，并预测未来趋势，展望聊天机器人在企业数字化转型中的关键角色。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "探索定制化ChatGPT聊天机器人如何革新企业内部知识库管理。本文深入分析其在项目管理、人力资源、工程设计等领域的应用，揭示了无需编程开发、快速部署的便利性，并预测未来趋势，展望聊天机器人在企业数字化转型中的关键角色。"
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 在当今数字化转型的时代，企业逐渐意识到AI聊天机器人在提升内部运营效率及客户服务品质上的巨大潜力。特别是ChatGPT等先进的聊天机器人技术，将成为企业内部知识库管理和客户互动的重要工具。

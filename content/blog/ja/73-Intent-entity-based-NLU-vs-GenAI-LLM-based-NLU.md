@@ -1,16 +1,21 @@
 ---
 title: "意図/エンティティベースのNLU vs. GenAI/LLMベースのNLU：その差は数百万（の例とドル）"
 metatitle: "意図/エンティティベースのNLU vs. GenAI/LLMベースのNLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 会話型AIの未来を解き放つ - 意図/エンティティベースのNLUからGenAI/LLMへの移行が、スケーラビリティ、コスト効率、適応性にとってなぜ重要なのか。
+description: "会話型AIの未来を解き放つ - 意図/エンティティベースのNLUからGenAI/LLMへの移行が、スケーラビリティ、コスト効率、適応性にとってなぜ重要なのか。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 カスタマーサービスまたはマーケティングのディレクターの皆様へ、もし上司から以下の質問をされたら、この記事を送ってください。

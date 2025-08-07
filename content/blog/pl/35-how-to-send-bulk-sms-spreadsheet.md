@@ -1,16 +1,18 @@
 ---
 title: "Jak poprawnie wysyłać masowe SMS-y do kontaktów z Excela, Google Sheets i Apple Numbers"
 metatitle: "Masowa wysyłka SMS | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Dowiedz się, jak bezpiecznie wysyłać masowe SMS-y z Excela, Google Sheets i Apple Numbers, pozostając zgodnym z przepisami 10DLC.'
+description: "Dowiedz się, jak bezpiecznie wysyłać masowe SMS-y z Excela, Google Sheets i Apple Numbers, pozostając zgodnym z przepisami 10DLC."
 weight: 1
-tags: ["SeaX", "Poradnik"]
+tags:
+  - SeaX
+  - Poradnik
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Wysyłka masowych SMS-ów do listy kontaktów to popularna technika wykorzystywana przez firmy, organizatorów wydarzeń i profesjonalistów. Możliwość jednoczesnego wysłania wiadomości do wielu odbiorców oszczędza czas i pozwala skutecznie informować kontakty. Choć Excel, Google Sheets i Apple Numbers nie są domyślnie przystosowane do wysyłki SMS-ów, liczne rozszerzenia i usługi zewnętrzne umożliwiają to zadanie. Należy jednak pamiętać o ryzykach i przepisach.

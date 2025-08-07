@@ -1,17 +1,22 @@
 ---
 title: "SeaChat المميز: أفضل أداة أتمتة تأجير العطلات من Smooth Rentals"
 metatitle: "SeaChat من Seasalt.ai | أتمتة تأجير العطلات | ميزة Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "تم الاعتراف بـ SeaChat من Seasalt.ai كأداة أتمتة رائدة لتأجير العطلات في أحدث منشور مدونة لـ Smooth Rentals. اكتشف كيف يبسط SeaChat التواصل مع الضيوف ويعزز الكفاءة."
 weight: 1
-tags: ["SeaChat", "تأجير العطلات", "الأتمتة", "التواصل مع الضيوف", "Smooth Rentals", "روبوت الدردشة بالذكاء الاصطناعي"]
-toc: true
+tags:
+  - SeaChat
+  - تأجير العطلات
+  - الأتمتة
+  - التواصل مع الضيوف
+  - Smooth Rentals
+  - روبوت الدردشة بالذكاء الاصطناعي
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat مميز في دليل Smooth Rentals لأدوات أتمتة تأجير العطلات

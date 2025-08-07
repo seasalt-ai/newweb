@@ -1,18 +1,17 @@
 ---
 title: "Lancarkan Ejen Maya Anda di Google Maps Dengan Pemesejan Berdekatan"
 metatitle: "Lancarkan Ejen Maya Google Maps Anda Dengan Pemesejan Berdekatan"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Lancarkan ejen maya anda di Google Business Messages dengan Pemesejan Berdekatan."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Kami sebelum ini telah memperkenalkan anda kepada [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) dan faedahnya. Near Me Messaging melaksanakan ejen maya Google Business Messages, tersedia terus dari butang sembang pada profil Google Maps perniagaan. Ejen maya Near Me Messaging dikuasakan oleh pemahaman bahasa semula jadi yang canggih yang memberikan respons seperti manusia. Apa yang membezakan Near Me Messaging daripada perkhidmatan serupa ialah masa persediaan 5 minit, penyesuaian layan diri, dan sokongan sembang langsung terbina dalam.

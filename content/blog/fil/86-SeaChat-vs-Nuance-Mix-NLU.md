@@ -1,18 +1,21 @@
 ---
 title: "Ang Hinaharap ng Conversational AI: Pinapalitan ba ng SeaChat ang Nuance Mix NLU?"
 metatitle: "Ang Hinaharap ng Conversational AI: Pinapalitan ba ng SeaChat ang Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30T10:00:00Z
 draft: false
 author: Xuchen Yao
-description: Sa larangan ng conversational AI, popular ang Nuance Mix NLU, ngunit ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring sumira ng mga limitasyon at lumikha ng mas natural, mas maayos na mga karanasan sa pag-uusap.
+description: "Sa larangan ng conversational AI, popular ang Nuance Mix NLU, ngunit ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring sumira ng mga limitasyon at lumikha ng mas natural, mas maayos na mga karanasan sa pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'Ang mundo ng conversational AI ay umaalingawngaw ng inobasyon. Habang ang [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) ay napatunayan ang sarili bilang isang makapangyarihang tool para sa pag-unawa sa layunin ng user, ang paglitaw ng Large Language Models (LLMs) ay nag-aalok ng isang nakakahimok na alternatibo. Ang [SeaChat](https://chat.seasalt.ai/), isang platform na batay sa LLM technology, ay nagpapakita ng potensyal na hinaharap ng conversational AI.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Ang mundo ng conversational AI ay umaalingawngaw ng inobasyon. Habang ang [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) ay napatunayan ang sarili bilang isang makapangyarihang tool para sa pag-unawa sa layunin ng user, ang paglitaw ng Large Language Models (LLMs) ay nag-aalok ng isang nakakahimok na alternatibo. Ang [SeaChat](https://chat.seasalt.ai/), isang platform na batay sa LLM technology, ay nagpapakita ng potensyal na hinaharap ng conversational AI.

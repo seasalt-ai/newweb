@@ -1,18 +1,18 @@
 ---
 title: "打造專屬企業的AI聊天機器人 - 客製化ChatGPT機器人企業內部知識庫"
 metatitle: "客製化專屬企業的AI聊天機器人與企業內部知識庫"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 探索客製化ChatGPT聊天機器人如何革新企業內部知識庫管理。本文深入分析其在項目管理、人力資源、工程設計等領域的應用，揭示了無需編程開發、快速部署的便利性，並預測未來趨勢，展望聊天機器人在企業數位化轉型中的關鍵角色。
+description: "探索客製化ChatGPT聊天機器人如何革新企業內部知識庫管理。本文深入分析其在項目管理、人力資源、工程設計等領域的應用，揭示了無需編程開發、快速部署的便利性，並預測未來趨勢，展望聊天機器人在企業數位化轉型中的關鍵角色。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "探索客製化ChatGPT聊天機器人如何革新企業內部知識庫管理。本文深入分析其在項目管理、人力資源、工程設計等領域的應用，揭示了無需編程開發、快速部署的便利性，並預測未來趨勢，展望聊天機器人在企業數位化轉型中的關鍵角色。"
+canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 在當今數位化轉型的時代，企業逐漸意識到AI聊天機器人在提升內部運營效率及客戶服務品質上的巨大潛力。特別是ChatGPT等先進的聊天機器人技術，將成為企業內部知識庫管理和客戶互動的重要工具。

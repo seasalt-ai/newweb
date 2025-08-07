@@ -1,18 +1,20 @@
 ---
 title: "Tingkatkan Pengalaman Chat Anda: Mengapa SeaChat Mengatasi IBM Watson NLU"
 metatitle: "Tingkatkan Pengalaman Chat Anda: Mengapa SeaChat Mengatasi IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: Dalam bidang AI perbualan, IBM Watson NLU popular, tetapi SeaChat berasaskan model bahasa besar (LLMs) dapat mengatasi batasan dan mencipta pengalaman perbualan yang lebih semula jadi dan lancar.
+description: "Dalam bidang AI perbualan, IBM Watson NLU popular, tetapi SeaChat berasaskan model bahasa besar (LLMs) dapat mengatasi batasan dan mencipta pengalaman perbualan yang lebih semula jadi dan lancar."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'Adakah chatbot anda terasa berulang dan tidak semula jadi? Adakah anda ingin memberikan pengalaman chat yang lebih semula jadi kepada pelanggan anda? Maka sudah tiba masanya untuk melihat SeaChat, produk pembantu AI yang berkuasa yang dibina di atas model bahasa besar (LLMs). Walaupun [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) telah menjadi alat yang boleh dipercayai untuk analisis teks, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) menawarkan pendekatan revolusioner untuk AI perbualan, meninggalkan enjin NLU tradisional jauh di belakang.'
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 Adakah chatbot anda terasa berulang dan tidak semula jadi? Adakah anda ingin memberikan pengalaman chat yang lebih semula jadi kepada pelanggan anda? Maka sudah tiba masanya untuk melihat SeaChat, produk pembantu AI yang berkuasa yang dibina di atas model bahasa besar (LLMs). Walaupun [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) telah menjadi alat yang boleh dipercayai untuk analisis teks, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) menawarkan pendekatan revolusioner untuk AI perbualan, meninggalkan enjin NLU tradisional jauh di belakang.

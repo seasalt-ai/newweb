@@ -1,16 +1,20 @@
 ---
 title: "एआई वॉयस एजेंट के साथ आसान सर्वेक्षण संग्रह"
 metatitle: "एआई वॉयस एजेंट के साथ आसान सर्वेक्षण संग्रह"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: एक AI वॉयस एजेंट के साथ सर्वेक्षण निर्माण के भविष्य की खोज करें! आसानी से उच्च-गुणवत्ता वाले प्रश्न तैयार करें, उपयोगकर्ता अनुभव को बढ़ाएं, और प्रतिक्रिया दरों को बढ़ावा दें। मैन्युअल काम को अलविदा कहें!
+description: "एक AI वॉयस एजेंट के साथ सर्वेक्षण निर्माण के भविष्य की खोज करें! आसानी से उच्च-गुणवत्ता वाले प्रश्न तैयार करें, उपयोगकर्ता अनुभव को बढ़ाएं, और प्रतिक्रिया दरों को बढ़ावा दें। मैन्युअल काम को अलविदा कहें!"
 weight: 1
-tags: ["SeaChat", "वॉयस एजेंट", "एआई टूल्स", "ग्राहक अनुभव"]
+tags:
+  - SeaChat
+  - वॉयस एजेंट
+  - एआई टूल्स
+  - ग्राहक अनुभव
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # परिचय

@@ -1,16 +1,20 @@
 ---
 title: "Colectare ușoară de sondaje cu un agent AI vocal"
 metatitle: "Colectare ușoară de sondaje cu un agent AI vocal"
-date: 2023-12-19T10:25:00-08:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descoperiți viitorul creării de sondaje cu un agent AI vocal! Creați fără efort întrebări de înaltă calitate, îmbunătățiți experiența utilizatorului și creșteți ratele de răspuns. Spuneți adio muncii manuale!
+description: "Descoperiți viitorul creării de sondaje cu un agent AI vocal! Creați fără efort întrebări de înaltă calitate, îmbunătățiți experiența utilizatorului și creșteți ratele de răspuns. Spuneți adio muncii manuale!"
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-agent/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-agent/
 ---
 
 # Introducere

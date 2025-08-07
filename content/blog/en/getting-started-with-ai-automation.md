@@ -1,16 +1,14 @@
 ---
+title: "Getting Started with AI Automation for Small Businesses"
+metatitle: "Getting Started with AI Automation for Small Businesses"
+date: 2024-12-15
 author: Sarah Chen
-date: '2024-12-15'
-image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
-meta_description: Learn how small businesses can leverage AI automation to improve
-  customer service, increase efficiency, and drive growth without breaking the budget.
-metatitle: Getting Started with AI Automation for Small Businesses
+meta_description: "Learn how small businesses can leverage AI automation to improve customer service, increase efficiency, and drive growth without breaking the budget." 
 tags:
-- AI Automation
-- Small Business
-- Customer Service
-- Efficiency
-title: Getting Started with AI Automation for Small Businesses
+  - AI Automation
+  - Small Business
+  - Customer Service
+  - Efficiency
 ---
 
 

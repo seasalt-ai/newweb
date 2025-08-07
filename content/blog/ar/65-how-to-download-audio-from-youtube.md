@@ -1,16 +1,18 @@
 ---
 title: "كيفية تنزيل البيانات الصوتية من يوتيوب، فيديو واحد أو عدة فيديوهات | سلسلة صندوق أدوات الصوت"
 metatitle: "تنزيل البيانات الصوتية من يوتيوب | سلسلة صندوق أدوات الصوت"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: تعلم كيفية تنزيل الصوت من فيديوهات يوتيوب الفردية أو العديدة بشكل قانوني وفعال باستخدام أدوات مجانية. استكشف الأدوات والتقنيات لاستخراج الموسيقى والبودكاست والمؤثرات الصوتية والمزيد لمشاريعك الإبداعية.
+description: "تعلم كيفية تنزيل الصوت من فيديوهات يوتيوب الفردية أو العديدة بشكل قانوني وفعال باستخدام أدوات مجانية. استكشف الأدوات والتقنيات لاستخراج الموسيقى والبودكاست والمؤثرات الصوتية والمزيد لمشاريعك الإبداعية."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 اليوم، دعنا نتعمق في موضوع يتردد صداه لدى الكثيرين: كيفية تنزيل البيانات الصوتية من يوتيوب، مجانًا.

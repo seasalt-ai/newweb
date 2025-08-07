@@ -1,17 +1,19 @@
 ---
 title: "企業がカスタムAIチャットボットを使って従業員研修を簡素化する方法"
 metatitle: "企業がカスタムAIチャットボットを使って従業員研修を簡素化する方法 | SeaChat次世代シリーズ"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: カスタムAIチャットボットが従業員研修の効率とパーソナライズされた学習体験を向上させる革新的な役割を探り、企業文化の伝達とビジネス効率の向上におけるその重要な役割を分析します。
+description: "カスタムAIチャットボットが従業員研修の効率とパーソナライズされた学習体験を向上させる革新的な役割を探り、企業文化の伝達とビジネス効率の向上におけるその重要な役割を分析します。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "カスタムAIチャットボットが従業員研修の効率とパーソナライズされた学習体験を向上させる革新的な役割を探り、企業文化の伝達とビジネス効率の向上におけるその重要な役割を分析します。"
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 新入社員の研修効率と効果を高めるため、ますます多くの企業がカスタムAIチャットボットの活用を模索しています。これらの高度なチャットボットは、パーソナライズされた学習体験を提供するだけでなく、従業員が企業文化に迅速に溶け込むのを助け、それによって全体的な作業効率と従業員満足度を向上させることができます。

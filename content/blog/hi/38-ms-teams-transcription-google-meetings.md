@@ -1,18 +1,17 @@
 ---
 title: "एआई मीटिंग सहायकों की लड़ाई: माइक्रोसॉफ्ट टीम्स बनाम गूगल मीट"
 metatitle: "एआई मीटिंग सहायकों की लड़ाई: माइक्रोसॉफ्ट टीम्स बनाम गूगल मीट"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "माइक्रोसॉफ्ट टीम्स और गूगल मीट के एआई मीटिंग सहायकों का पता लगाएं, प्लेटफॉर्म की भाषा सहायता की तुलना करें, और जानें कि कैसे SeaMeet रीयल-टाइम ट्रांसक्रिप्शन, सारांश और अन्य सुविधाएं प्रदान करता है।"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "माइक्रोसॉफ्ट टीम्स और गूगल मीट के एआई मीटिंग सहायकों का पता लगाएं, प्लेटफॉर्म की भाषा सहायता की तुलना करें, और जानें कि कैसे SeaMeet रीयल-टाइम ट्रांसक्रिप्शन, सारांश और अन्य सुविधाएं प्रदान करता है।"
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 तकनीक के विकास के साथ, एआई मीटिंग सहायक मीटिंग की दक्षता बढ़ाने के लिए महत्वपूर्ण टूल बन गए हैं। ये टूल स्वचालित रूप से मीटिंग सारांश तैयार कर सकते हैं, भाषण को टेक्स्ट में बदल सकते हैं, और यहां तक कि मीटिंग के दौरान महत्वपूर्ण जानकारी की पहचान भी कर सकते हैं। यह लेख तीन प्रमुख एआई मीटिंग सहायकों की जांच करता है: माइक्रोसॉफ्ट टीम्स का कोपायलट, गूगल मीट का ड्यूएट एआई, और SeaMeet।

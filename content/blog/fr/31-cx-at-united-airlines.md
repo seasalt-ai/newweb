@@ -1,16 +1,17 @@
 ---
 title: "Service client United Airlines : le bon, le mauvais et le laid"
 metatitle: "Analyse du service client United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: "Xuchen Yao partage son expérience récente avec le service client United Airlines pendant les retards et annulations de vols, et propose des solutions pour relever les défis de l'extension dynamique du support client pendant les pics de trafic."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) PDG Xuchen Yao partage son expérience récente avec le service client United Airlines pendant les retards et annulations de vols. Cela l'a fait prendre conscience des défis auxquels font face les supports client des compagnies aériennes lors de l'extension dynamique pour faire face aux pics de trafic dans de telles situations. Yao parle d'améliorations potentielles, comme détourner le trafic d'auto-assistance des agents humains, améliorer l'efficacité des agents humains, et développer des technologies pour identifier et réduire proactivement les risques de problèmes potentiels.*

@@ -1,16 +1,20 @@
 ---
 title: "ウィットに富んだ会話を超えて：wit.aiからSeaChatへ乗り換える理由"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Meta/Facebookのwit.aiは時代遅れ？SeaChatを発見し、先進的なLLM技術で人間らしい会話を実現しましょう。
+description: "Meta/Facebookのwit.aiは時代遅れ？SeaChatを発見し、先進的なLLM技術で人間らしい会話を実現しましょう。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
-modified_date: "2025-07-29T00:00:00Z"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 チャットボットの世界は急速に進化しています。Meta/Facebookの[wit.ai](http://wit.ai)は音声アプリ開発の足掛かりとなりましたが、今やLarge Language Models（LLM）が主流です。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はLLM技術を活用し、従来の意図ベースエンジンを超える革新的な会話AIを提供します。あなたのチャットボットもアップグレードの時期かもしれません。

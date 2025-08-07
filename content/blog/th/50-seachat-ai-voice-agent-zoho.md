@@ -1,18 +1,20 @@
 ---
 title: "ปรับปรุงการสนับสนุนลูกค้าด้วย SeaChat และการผสานรวมฐานความรู้ Zoho Desk"
 metatitle: "ปรับปรุงการสนับสนุนลูกค้าด้วย SeaChat และ Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: ค้นพบว่า AI chat และ voice agent ของ SeaChat ผสานรวมกับฐานความรู้ที่ครอบคลุมของ Zoho Desk เพื่อการสนับสนุนลูกค้าที่ราบรื่นและมีประสิทธิภาพได้อย่างไร
+description: "ค้นพบว่า AI chat และ voice agent ของ SeaChat ผสานรวมกับฐานความรู้ที่ครอบคลุมของ Zoho Desk เพื่อการสนับสนุนลูกค้าที่ราบรื่นและมีประสิทธิภาพได้อย่างไร"
 weight: 1
-tags: ["SeaChat", "เครื่องมือ AI", "การผสานรวม", "ประสบการณ์ลูกค้า"]
+tags:
+  - SeaChat
+  - เครื่องมือ AI
+  - การผสานรวม
+  - ประสบการณ์ลูกค้า
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 ในภูมิทัศน์ดิจิทัลที่เปลี่ยนแปลงอย่างรวดเร็วในปัจจุบัน ธุรกิจต่างๆ กำลังมองหาโซลูชันที่เป็นนวัตกรรมใหม่ๆ อย่างต่อเนื่องเพื่อปรับปรุงการสนับสนุนลูกค้าและปรับปรุงการจัดการข้อมูล การผสานรวมของ SeaChat ซึ่งเป็น AI chat และ voice agent ขั้นสูง เข้ากับฐานความรู้ที่ครอบคลุมของ Zoho Desk นำเสนอโซลูชันที่ก้าวล้ำสำหรับความท้าทายเหล่านี้

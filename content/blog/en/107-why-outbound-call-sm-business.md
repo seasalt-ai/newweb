@@ -1,16 +1,18 @@
 ---
 title: "Why Do Small Businesses Need an Outbound Call/Telemarketing Service? (1/5)"
 metatitle: "Seasalt.ai | Outbound Call Series | Small Business"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore live agents, auto dialers, and Voice AI to choose the best outbound call solution for your business needs."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - Voice AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

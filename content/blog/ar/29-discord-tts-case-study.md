@@ -1,18 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS"
+metatitle: "تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS"
 date: 2022-12-27 17:04:20-08:00
-description: في هذه المدونة، سنناقش النتائج التي توصلنا إليها حول كيفية استخدام مستخدمي
-  Discord الحقيقيين لخدماتنا بعد مراجعة عدة أشهر من بيانات تحويل النص إلى كلام الأصلية.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'تحويل النص إلى كلام على Discord: دراسة حالة بوت Discord TTS'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "في هذه المدونة، سنناقش النتائج التي توصلنا إليها حول كيفية استخدام مستخدمي Discord الحقيقيين لخدماتنا بعد مراجعة عدة أشهر من بيانات تحويل النص إلى كلام الأصلية."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

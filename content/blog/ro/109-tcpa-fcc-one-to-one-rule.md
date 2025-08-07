@@ -1,16 +1,18 @@
 ---
 title: "Tot ce trebuie să știți pentru a vă pregăti pentru noua regulă de consimțământ unu-la-unu a FCC din 2025"
 metatitle: "Seasalt.ai | Modificări ale regulii TCPA din 2025 | Ghid cuprinzător"
-date: 2025-01-05T00:22:19-07:00
+date: 2025-01-05 00:22:19-07:00
 draft: false
 author: Amy Chen
 description: "Un ghid aprofundat privind modificările regulii TCPA din 2025, care oferă informații esențiale pentru ca întreprinderile să asigure conformitatea."
 weight: 1
-tags: ["TCPA", "Conformitate", "Regula FCC 2025"]
-toc: true
+tags:
+  - TCPA
+  - Conformitate
+  - Regula FCC 2025
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **Acest articol nu este un sfat juridic. Vă rugăm să consultați consilierul juridic pentru mai multe informații.**

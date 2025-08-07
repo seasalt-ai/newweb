@@ -1,16 +1,20 @@
 ---
 title: "Pantallas de llamadas de IA en Android y iPhone: su asistente personal y guardián"
 metatitle: "Pantallas de llamadas de IA | Asistente personal en Android y iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: ¡Descubra el futuro de la gestión de llamadas con un agente de llamadas con IA! Desde la detección de spammers hasta la reserva de citas, es su asistente personal y guardián 24/7.
+description: "¡Descubra el futuro de la gestión de llamadas con un agente de llamadas con IA! Desde la detección de spammers hasta la reserva de citas, es su asistente personal y guardián 24/7."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 ¿Alguna vez ha deseado tener un asistente personal que pudiera manejar sus llamadas telefónicas, filtrar spammers y estafadores, e incluso reservar citas para usted? ¡No busque más, porque un agente de llamadas con IA puede hacer todo eso y más! Actuando como su recepción y guardián gratuitos, esta notable tecnología está revolucionando la gestión de llamadas, asegurando que nunca pierda una llamada importante y ahorrándole un tiempo valioso y tranquilidad.

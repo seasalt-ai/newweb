@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs. Microsoft Bot Framework and Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Bot Framework and Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
-author:  Xuchen Yao
-description: In the field of conversational AI, Microsoft Azure Bot Service (LUIS.ai) was once popular, and SeaChat, based on Large Language Models (LLMs), can break through limitations and create a more natural and fluid conversational experience.
+author: Xuchen Yao
+description: "In the field of conversational AI, Microsoft Azure Bot Service (LUIS.ai) was once popular, and SeaChat, based on Large Language Models (LLMs), can break through limitations and create a more natural and fluid conversational experience."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'The world of conversational AI is abuzz with the latest news of Microsoft's deepening partnership with OpenAI. While some celebrate the potential of this collaboration, there are dissenting voices within Microsoft. Insiders reportedly fear a shift away from internal AI development to promote OpenAI's offerings.
-
-One area specifically mentioned is the fate of Microsoft's Azure Bot Service.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 The world of conversational AI is abuzz with the latest news of Microsoft's deepening partnership with OpenAI. While some celebrate the potential of this collaboration, there are dissenting voices within Microsoft. Insiders reportedly fear a shift away from internal AI development to promote OpenAI's offerings.

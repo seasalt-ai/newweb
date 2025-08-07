@@ -1,17 +1,20 @@
 ---
 title: "Nội bộ so với Thuê ngoài cho các cuộc gọi ra Telemarketing: Khuyến nghị thực tế cho doanh nghiệp (2/5)"
 metatitle: "Seasalt.ai | Cuộc gọi ra trực tiếp | Nội bộ so với Thuê ngoài"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "So sánh các cuộc gọi ra nội bộ so với thuê ngoài — chi phí, tính năng và nhận các mẹo thực tế để tối ưu hóa việc tiếp cận khách hàng của bạn."
 weight: 1
-tags: ["Dịch vụ Telemarketing tự động", "Cuộc gọi ra cho doanh nghiệp nhỏ", "SeaChat", "AI giọng nói"]
-toc: true
+tags:
+  - Dịch vụ Telemarketing tự động
+  - Cuộc gọi ra cho doanh nghiệp nhỏ
+  - SeaChat
+  - AI giọng nói
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

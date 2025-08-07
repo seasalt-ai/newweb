@@ -1,16 +1,17 @@
 ---
 title: "Dịch vụ khách hàng của United Airlines: Điều tốt, điều xấu và điều tồi tệ"
 metatitle: "Phân tích dịch vụ khách hàng của United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao chia sẻ trải nghiệm gần đây của mình với dịch vụ khách hàng của United Airlines trong thời gian chuyến bay bị hoãn và hủy, đồng thời đề xuất các giải pháp để giải quyết thách thức về việc mở rộng quy mô hỗ trợ khách hàng một cách linh hoạt trong thời gian lưu lượng truy cập tăng đột biến.
+description: "Xuchen Yao chia sẻ trải nghiệm gần đây của mình với dịch vụ khách hàng của United Airlines trong thời gian chuyến bay bị hoãn và hủy, đồng thời đề xuất các giải pháp để giải quyết thách thức về việc mở rộng quy mô hỗ trợ khách hàng một cách linh hoạt trong thời gian lưu lượng truy cập tăng đột biến."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *Xuchen Yao, CEO của [Seasalt.ai](https://seasalt.ai), chia sẻ trải nghiệm gần đây của mình với dịch vụ khách hàng của United Airlines sau khi đối mặt với các chuyến bay bị hoãn và hủy. Điều này khiến ông nhận ra những thách thức mà bộ phận hỗ trợ khách hàng của hãng hàng không phải đối mặt trong việc mở rộng quy mô một cách linh hoạt để xử lý lưu lượng truy cập tăng đột biến trong những tình huống như vậy. Xuchen nói về những cải tiến tiềm năng như chuyển hướng lưu lượng truy cập tự phục vụ khỏi các nhân viên con người, cải thiện hiệu quả của nhân viên con người và phát triển công nghệ để chủ động xác định và giảm thiểu rủi ro các vấn đề tiềm ẩn.*

@@ -1,14 +1,19 @@
 ---
-title: "Discord: ग्राहक सहभागिता के लिए एक नया मंच"
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: "Discord: ग्राहक सहभागिता के लिए एक नया मंच"
-seoDescription: जानिए कैसे Discord ग्राहक सहभागिता को बदल रहा है, आधुनिक कंपनियों के लिए गतिशील समुदाय और नवाचारपूर्ण समर्थन प्रदान कर रहा है।
+title: "Discord (1/3): ग्राहक सहभागिता के लिए एक नया क्षितिज"
+metatitle: "Discord (1/3): ग्राहक सहभागिता के लिए एक नया क्षितिज"
+date: 2022-05-23 13:05:36-07:00
+draft: false
+author: Kim Dodds
+description: "इस ब्लॉग में, हम Discord की लोकप्रियता में वृद्धि और यह क्यों/कैसे कंपनियाँ Discord का उपयोग करके अपने ग्राहक सहभागिता को बेहतर बना रही हैं, इस पर चर्चा करेंगे।"
+weight: 1
 tags:
-- Discord
-- ग्राहक सेवा
-- सहभागिता
-title: 'Discord: ग्राहक सहभागिता के लिए एक नया मंच'
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
+
 
 
 

@@ -2,16 +2,15 @@
 title: "Từ bản demo đến thành công: Triển khai các cuộc họp hiện đại của Microsoft và hơn thế nữa (1/5)"
 metatitle: "Từ bản demo đến thành công (1/5): Ngoài các cuộc họp hiện đại của Microsoft"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Trong phần đầu tiên của loạt bài blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra SeaMeet, các giải pháp cuộc họp hiện đại hợp tác của chúng tôi."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *Trong suốt loạt bài blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra một Trải nghiệm Họp Hiện đại toàn diện, bắt đầu từ những khởi đầu khiêm tốn, đến việc tối ưu hóa dịch vụ của chúng tôi trên các phần cứng và mô hình khác nhau, đến việc tích hợp các hệ thống NLP tiên tiến và cuối cùng kết thúc bằng việc hiện thực hóa hoàn toàn SeaMeet, các giải pháp họp hiện đại hợp tác của chúng tôi.*

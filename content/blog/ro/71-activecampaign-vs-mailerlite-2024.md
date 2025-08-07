@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: Care serviciu de marketing prin e-mail este potrivit pentru tine în 2025?"
 metatitle: "ActiveCampaign vs. MailerLite | Serviciu de marketing prin e-mail 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign, care serviciu de e-mail este potrivit pentru tine? Comparația noastră aprofundată analizează caracteristicile, prețurile și multe altele.
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign, care serviciu de e-mail este potrivit pentru tine? Comparația noastră aprofundată analizează caracteristicile, prețurile și multe altele."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 Marketingul prin e-mail vă stârnește curiozitatea? De la găsirea celui mai bun software de marketing prin e-mail la elaborarea unei strategii de marketing prin e-mail de succes, acest instrument versatil oferă posibilități nelimitate. Aflați cum să vă vizați clienții, să obțineți locuri de muncă în marketingul prin e-mail și să utilizați automatizarea marketingului prin e-mail pentru a genera rezultate de afaceri. Înainte de a aprofunda toate aceste detalii, haideți să vă ajutăm să alegeți instrumentul potrivit de marketing prin e-mail. Astăzi, vom compara două instrumente populare, [ActiveCampaign](https://www.activecampaign.com/) și [MailerLite](https://www.mailerlite.com/), pentru referința dumneavoastră.

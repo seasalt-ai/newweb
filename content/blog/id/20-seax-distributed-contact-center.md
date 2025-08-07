@@ -1,16 +1,17 @@
 ---
 title: "Perluas Jejak Pusat Kontak Anda dengan Pusat Kontak Terdistribusi"
 metatitle: "Perluas Jejak Anda dengan Pusat Kontak Terdistribusi"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "Dalam blog ini, kita akan melihat pusat kontak 'terdistribusi': apa itu, bagaimana mereka dapat menguntungkan Anda, dan bagaimana SeaX menggunakannya untuk melayani klien kami dengan lebih baik."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *Dalam postingan blog kami sebelumnya, [Bawa Pelanggan dari Saluran Mana Pun ke Satu Tempat dengan Komunikasi Omnichannel SeaX](https://seasalt.ai/blog/19-seax-omnichannel-communication/), kami menunjukkan kekuatan komunikasi omnichannel di platform SeaX, yang memungkinkan pesan pengguna dari hampir semua saluran untuk ditampilkan di platform SeaX. Dalam postingan ini, kita akan melihat pusat kontak "terdistribusi": apa itu, bagaimana mereka dapat menguntungkan Anda, dan bagaimana SeaX memanfaatkan platform terdistribusi untuk melayani klien kami dengan lebih baik.*

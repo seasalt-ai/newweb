@@ -1,16 +1,17 @@
 ---
 title: "Utilizatorul a părăsit chatul web: utilizați Mesageria Near Me pentru a-i trimite un mesaj!"
 metatitle: "Utilizatorul a părăsit chatul web: luați legătura cu Mesageria Near Me!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-08-01T12:00:00Z
+draft: false
 author: Xuchen Yao
 description: "Mesageria Near Me rezolvă o problemă a chatului web: reluați legătura cu utilizatorul chiar și *după* ce a părăsit conversația."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
-weight: 1  # weight - used for ordering your content in lists. Lower weight gets higher precedence. So content with lower weight will come first.
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-08-01T12:00:00Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 În dimineața de Crăciun a anului 2022, m-am trezit cu câteva mesaje lăsate de un utilizator pe nume Henry. Până am ajuns la mesaje, Henry plecase deja. Tot ce am primit au fost mesajele pe care le-a trimis prin chatul web și numele său.

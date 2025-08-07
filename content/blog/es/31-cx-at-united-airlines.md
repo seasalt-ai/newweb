@@ -1,16 +1,17 @@
 ---
 title: "Servicio al cliente en United Airlines: lo bueno, lo malo y lo feo"
 metatitle: "Análisis del servicio al cliente en United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao comparte su experiencia reciente con el servicio al cliente de United Airlines durante retrasos y cancelaciones de vuelos y propone soluciones para abordar el desafío de escalar dinámicamente el soporte al cliente durante el tráfico pico.
+description: "Xuchen Yao comparte su experiencia reciente con el servicio al cliente de United Airlines durante retrasos y cancelaciones de vuelos y propone soluciones para abordar el desafío de escalar dinámicamente el soporte al cliente durante el tráfico pico."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) CEO, Xuchen Yao, comparte su experiencia reciente con el servicio al cliente de United Airlines después de enfrentar retrasos y cancelaciones de vuelos. Esto lo llevó a darse cuenta de los desafíos que enfrenta el soporte al cliente de las aerolíneas para escalar dinámicamente y manejar el tráfico pico durante tales situaciones. Xuchen habla sobre posibles mejoras como desviar el tráfico de autoservicio de los agentes humanos, mejorar la eficiencia de los agentes humanos y desarrollar tecnología para identificar y reducir proactivamente los riesgos de posibles problemas.*

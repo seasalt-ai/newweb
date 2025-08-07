@@ -1,15 +1,17 @@
 ---
 title: "Mowa na tekst w Discordzie: studium przypadku bota Discord STT"
 metatitle: "Mowa na tekst w Discordzie: studium przypadku bota Discord STT"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: W tym blogu omówimy nasze ustalenia dotyczące tego, jak prawdziwi użytkownicy Discorda wykorzystują usługi SeaVoice po przeanalizowaniu kilku tygodni autentycznych danych mowy na tekst.
+description: "W tym blogu omówimy nasze ustalenia dotyczące tego, jak prawdziwi użytkownicy Discorda wykorzystują usługi SeaVoice po przeanalizowaniu kilku tygodni autentycznych danych mowy na tekst."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Po uruchomieniu SeaVoice, jednego z najszybszych i najdokładniejszych botów zamiany tekstu na mowę i mowy na tekst na Discordzie, chcieliśmy zrozumieć, w jaki sposób użytkownicy faktycznie wchodzą w interakcje z usługami. W tym blogu omówimy nasze ustalenia po przeanalizowaniu kilku tygodni rzeczywistych danych użytkownika mowy na tekst.*

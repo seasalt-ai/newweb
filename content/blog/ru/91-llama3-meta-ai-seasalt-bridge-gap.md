@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 и важность преодоления разрыва между моделями ИИ и бизнес-приложениями"
 metatitle: "Meta Llama 3 | Преодоление разрыва между моделями ИИ и бизнес-приложениями"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Выпуск Llama 3 от Meta AI подчеркивает необходимость решений, которые преодолевают разрыв между мощными моделями ИИ и практическими бизнес-приложениями. Узнайте, как Seasalt.ai создает индивидуальные продукты разговорного ИИ, чтобы преодолеть этот разрыв и решить реальные мировые проблемы.
+description: "Выпуск Llama 3 от Meta AI подчеркивает необходимость решений, которые преодолевают разрыв между мощными моделями ИИ и практическими бизнес-приложениями. Узнайте, как Seasalt.ai создает индивидуальные продукты разговорного ИИ, чтобы преодолеть этот разрыв и решить реальные мировые проблемы."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI и Llama3

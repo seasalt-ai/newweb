@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: Isang Knowledge Base na Sumasagot Bago Ka Magtanong"
 metatitle: "SeaX KB: Isang Knowledge Base na Sumasagot Bago Ka Magtanong"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:14.001Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:14.001000+00:00
 draft: false
 author: Kim Dodds
 description: "Sa artikulong ito, ipinagpapatuloy namin ang paksa ng pagsasama-sama ng AI sa pamamagitan ng pagpapakilala sa knowledge base na pinapagana ng AI ng SeaX, na nagbibigay ng mga iminungkahing tugon sa real-time."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *Sa aming nakaraang post sa blog na [Bigyan ang Iyong Contact Center ng Sarili Nitong Boses gamit ang SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), ipinakita namin kung paano pinapahusay ng mga in-house na text-to-speech at speech-to-text engine ng Seasalt.ai ang iba't ibang aspeto ng platform ng SeaX. Sa artikulong ito, ipagpapatuloy namin ang paksa ng pagsasama-sama ng AI sa pamamagitan ng pagpapakilala sa knowledge base na pinapagana ng AI ng SeaX, na nakikinig sa mga pag-uusap sa real-time upang magbigay ng mga iminungkahing tugon.*

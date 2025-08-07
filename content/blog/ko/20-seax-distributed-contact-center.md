@@ -1,16 +1,17 @@
 ---
 title: "분산형 컨택 센터로 컨택 센터 영역 확장"
 metatitle: "분산형 컨택 센터로 영역 확장"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "이 블로그에서는 '분산형' 컨택 센터에 대해 알아봅니다. 분산형 컨택 센터가 무엇인지, 어떤 이점을 제공하는지, 그리고 SeaX가 이를 활용하여 고객에게 더 나은 서비스를 제공하는 방법을 살펴봅니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *이전 블로그 게시물인 [SeaX 옴니채널 커뮤니케이션으로 모든 채널의 고객을 한 곳으로 모으기](https://seasalt.ai/blog/19-seax-omnichannel-communication/)에서 우리는 SeaX 플랫폼에서 옴니채널 커뮤니케이션의 강력한 기능을 보여주었습니다. 이를 통해 거의 모든 채널의 사용자 메시지를 SeaX 플랫폼에 표시할 수 있습니다. 이 게시물에서는 "분산형" 컨택 센터에 대해 알아봅니다. 분산형 컨택 센터가 무엇인지, 어떤 이점을 제공하는지, 그리고 SeaX가 분산형 플랫폼을 활용하여 고객에게 더 나은 서비스를 제공하는 방법을 살펴봅니다.*

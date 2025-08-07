@@ -1,17 +1,20 @@
 ---
 title: "自动电话应答系统（交互式语音应答与语音人工智能代理）：小企业的最佳选择（3/5）"
 metatitle: "自动应答系统（交互式语音应答与语音人工智能）"
-date: 2024-09-19T00:22:19-07:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "探讨小企业自动电话系统中交互式语音应答和语音人工智能的选项。"
 weight: 1
-tags: ["自动应答服务", "小企业呼入电话", "SeaChat",  "语音人工智能"]
-toc: true
+tags:
+  - 自动应答服务
+  - 小企业呼入电话
+  - SeaChat
+  - 语音人工智能
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

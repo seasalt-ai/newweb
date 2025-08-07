@@ -1,16 +1,20 @@
 ---
 title: "A Ascensão dos Agentes de Voz de IA na Saúde: Aprimorando o Cuidado e o Engajamento do Paciente"
 metatitle: "Agentes de Voz de IA na Saúde | Melhor Cuidado ao Paciente"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descubra como os agentes de voz de IA estão transformando a saúde com respostas instantâneas para agendamento de consultas e lembretes de medicamentos, beneficiando pacientes com necessidades especiais.
+description: "Descubra como os agentes de voz de IA estão transformando a saúde com respostas instantâneas para agendamento de consultas e lembretes de medicamentos, beneficiando pacientes com necessidades especiais."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # Introdução

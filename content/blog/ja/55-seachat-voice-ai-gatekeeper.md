@@ -1,16 +1,20 @@
 ---
 title: "Android および iPhone の AI 通話スクリーン：あなたのパーソナルアシスタントとゲートキーパー"
 metatitle: "AI 通話スクリーン | Android および iPhone のパーソナルアシスタント"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: AI 搭載の通話エージェントで通話管理の未来を発見しましょう！スパマーのスクリーニングからアポイントメントの予約まで、24 時間年中無休のパーソナルアシスタント兼ゲートキーパーです。
+description: "AI 搭載の通話エージェントで通話管理の未来を発見しましょう！スパマーのスクリーニングからアポイントメントの予約まで、24 時間年中無休のパーソナルアシスタント兼ゲートキーパーです。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 電話対応、スパマーや詐欺師のスクリーニング、さらにはアポイントメントの予約までこなせるパーソナルアシスタントがいたらいいのに、と思ったことはありませんか？もう探す必要はありません。AI 搭載の通話エージェントが、それらすべてを、そしてそれ以上をこなします！無料の受付係兼ゲートキーパーとして機能するこの優れたテクノロジーは、通話管理に革命をもたらし、重要な電話を逃すことなく、貴重な時間と心の安らぎを節約します。

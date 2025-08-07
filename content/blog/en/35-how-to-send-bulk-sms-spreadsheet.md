@@ -1,15 +1,17 @@
 ---
 title: "The Right Way to Batch Send SMS to Contacts in Excel, Google Sheets, and Apple Numbers"
 metatitle: "SMS Batch Send | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
+date: 2023-10-01 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 'Learn the safest ways to batch send SMS from Excel, Google Sheets, and Apple Numbers while staying 10DLC compliant.'
+description: "Learn the safest ways to batch send SMS from Excel, Google Sheets, and Apple Numbers while staying 10DLC compliant."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Sending out bulk SMS to a list of contacts has been a widely used technique for businesses, event organizers, and various professionals. The ability to send a message en masse can save time and help keep contacts informed. While Excel, Google Sheets, and Apple Numbers are not inherently built to send SMS, extensions and third-party services have come to the rescue to make this possible. However, there are pitfalls to be aware of.

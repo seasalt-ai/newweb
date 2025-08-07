@@ -1,18 +1,20 @@
 ---
 title: "Optimisation du support client avec l'intégration de SeaChat et de la base de connaissances Zoho Desk"
 metatitle: "Optimisez le support client avec SeaChat et Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Découvrez comment l'agent de chat et vocal IA de SeaChat s'intègre à la base de connaissances complète de Zoho Desk pour un support client fluide et efficace.
+description: "Découvrez comment l'agent de chat et vocal IA de SeaChat s'intègre à la base de connaissances complète de Zoho Desk pour un support client fluide et efficace."
 weight: 1
-tags: ["SeaChat", "Outils IA", "Intégration", "Expérience client"]
+tags:
+  - SeaChat
+  - Outils IA
+  - Intégration
+  - Expérience client
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 Dans le paysage numérique en évolution rapide d'aujourd'hui, les entreprises recherchent continuellement des solutions innovantes pour améliorer le support client et rationaliser la gestion de l'information. L'intégration de SeaChat, un agent de chat et vocal IA avancé, avec la base de connaissances complète de Zoho Desk, présente une solution révolutionnaire à ces défis.

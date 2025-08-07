@@ -1,17 +1,19 @@
 ---
 title: "中小企業がアウトバウンドコール/テレマーケティングサービスを必要とする理由 (1/5)"
 metatitle: "Seasalt.ai | アウトバウンドコールシリーズ | 中小企業"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "ライブエージェント、オートダイヤラー、ボイスAIを活用して、ビジネスニーズに最適なアウトバウンドコールソリューションを選択しましょう。"
 weight: 1
-tags: ["自動テレマーケティングサービス", "中小企業向けアウトバウンドコール", "ボイスAI"]
-toc: true
+tags:
+  - 自動テレマーケティングサービス
+  - 中小企業向けアウトバウンドコール
+  - ボイスAI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

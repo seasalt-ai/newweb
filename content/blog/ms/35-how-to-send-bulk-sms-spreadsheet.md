@@ -1,16 +1,18 @@
 ---
 title: "Cara Betul Menghantar SMS Pukal kepada Kontak dalam Excel, Google Sheets, dan Apple Numbers"
 metatitle: "SMS Pukal | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Ketahui cara paling selamat untuk menghantar SMS pukal dari Excel, Google Sheets, dan Apple Numbers sambil mematuhi peraturan 10DLC.'
+description: "Ketahui cara paling selamat untuk menghantar SMS pukal dari Excel, Google Sheets, dan Apple Numbers sambil mematuhi peraturan 10DLC."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Menghantar SMS pukal kepada senarai kontak adalah teknik yang banyak digunakan oleh perniagaan, penganjur acara, dan pelbagai profesional. Keupayaan untuk menghantar mesej secara serentak dapat menjimatkan masa dan memastikan semua kontak sentiasa dimaklumkan. Walaupun Excel, Google Sheets, dan Apple Numbers tidak direka khusus untuk menghantar SMS, pelbagai sambungan dan perkhidmatan pihak ketiga telah memudahkan proses ini. Namun, terdapat beberapa risiko dan peraturan yang perlu diambil kira.
@@ -41,7 +43,6 @@ Sentiasa buat salinan sebelum mengedit: **Fail > Buat salinan**.
 <center>
 <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Buat salinan sandaran spreadsheet kontak SMS pukal"/>
 _Buat salinan sandaran spreadsheet kontak SMS pukal_
-</center>
 
 ## 2. Buang Data Duplikat
 
@@ -53,7 +54,6 @@ d. Google Sheets akan memaklumkan berapa banyak duplikat yang dibuang
 <center>
 <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Buang duplikat dalam spreadsheet kontak SMS pukal"/>
 _Buang duplikat dalam spreadsheet kontak SMS pukal_
-</center>
 
 ## 3. Standardkan Format Nombor Telefon
 
@@ -64,7 +64,6 @@ c. Gunakan formula atau skrip jika perlu.
 <center>
 <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Standardkan format nombor telefon dalam spreadsheet kontak SMS pukal"/>
 _Standardkan format nombor telefon dalam spreadsheet kontak SMS pukal_
-</center>
 
 ### 4. Sahkan Data
 
@@ -74,7 +73,6 @@ b. Pastikan nama tidak kosong atau salah.
 <center>
 <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Sahkan data dalam spreadsheet kontak SMS pukal"/>
 _Sahkan data dalam spreadsheet kontak SMS pukal_
-</center>
 
 ## 5. Semak Sel Kosong
 
@@ -83,7 +81,6 @@ Langkah ini adalah pilihan. Dalam SeaX Messaging, baris dengan sel kosong akan d
 <center>
 <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Semak sel kosong dalam spreadsheet kontak SMS pukal"/>
 _Semak sel kosong dalam spreadsheet kontak SMS pukal_
-</center>
 
 ## Tip Tambahan untuk Penyediaan Data
 
@@ -104,7 +101,6 @@ Beberapa penyedia perkhidmatan popular:
 
 <center>
 <img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Kejayaan pemasaran SMS"/>
-</center>
 
 Walaupun anda berhati-hati, masalah boleh berlaku. Untuk kejayaan jangka panjang:
 - Sentiasa semak dan patuhi keperluan 10DLC

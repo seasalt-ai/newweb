@@ -1,18 +1,17 @@
 ---
 title: "Lancez votre agent virtuel sur Google Maps avec la messagerie de proximité"
 metatitle: "Lancez votre agent virtuel Google Maps avec la messagerie de proximité"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Lancez votre agent virtuel sur Google Business Messages avec la messagerie de proximité."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Nous vous avons déjà présenté [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) et ses avantages. Near Me Messaging implémente un agent virtuel Google Business Messages, disponible directement depuis le bouton de chat sur le profil Google Maps d'une entreprise. L'agent virtuel de Near Me Messaging est alimenté par une compréhension du langage naturel de pointe qui fournit des réponses semblables à celles d'un humain. Ce qui distingue Near Me Messaging des services similaires, c'est son temps de configuration de 5 minutes, sa personnalisation en libre-service et son support de chat en direct intégré.

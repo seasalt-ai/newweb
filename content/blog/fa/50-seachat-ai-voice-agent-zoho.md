@@ -1,18 +1,20 @@
 ---
 title: "بهینه‌سازی پشتیبانی مشتری با SeaChat و یکپارچه‌سازی پایگاه دانش Zoho Desk"
 metatitle: "بهینه‌سازی پشتیبانی مشتری با SeaChat و Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: کشف کنید که چگونه عامل چت و صوتی هوش مصنوعی SeaChat با پایگاه دانش جامع Zoho Desk برای پشتیبانی مشتری یکپارچه و کارآمد ادغام می‌شود.
+description: "کشف کنید که چگونه عامل چت و صوتی هوش مصنوعی SeaChat با پایگاه دانش جامع Zoho Desk برای پشتیبانی مشتری یکپارچه و کارآمد ادغام می‌شود."
 weight: 1
-tags: ["SeaChat", "ابزارهای هوش مصنوعی", "یکپارچه‌سازی", "تجربه مشتری"]
+tags:
+  - SeaChat
+  - ابزارهای هوش مصنوعی
+  - یکپارچه‌سازی
+  - تجربه مشتری
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 در چشم‌انداز دیجیتال در حال تحول سریع امروز، کسب‌وکارها به طور مداوم به دنبال راه‌حل‌های نوآورانه برای افزایش پشتیبانی مشتری و ساده‌سازی مدیریت اطلاعات هستند. یکپارچه‌سازی SeaChat، یک عامل چت و صوتی هوش مصنوعی پیشرفته، با پایگاه دانش جامع Zoho Desk، راه‌حلی پیشگامانه برای این چالش‌ها ارائه می‌دهد.

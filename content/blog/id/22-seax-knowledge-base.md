@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: Basis Pengetahuan yang Menjawab Sebelum Anda Bertanya"
 metatitle: "SeaX KB: Basis Pengetahuan yang Menjawab Sebelum Anda Bertanya"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:21.048Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:21.048000+00:00
 draft: false
 author: Kim Dodds
 description: "Dalam artikel ini, kami melanjutkan topik integrasi AI dengan memperkenalkan basis pengetahuan bertenaga AI SeaX, yang memberikan balasan yang disarankan secara real-time."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *Dalam postingan blog kami sebelumnya [Berikan Suara Sendiri pada Pusat Kontak Anda dengan Kecerdasan Suara SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/), kami menunjukkan bagaimana mesin text-to-speech dan speech-to-text internal Seasalt.ai menyempurnakan berbagai aspek platform SeaX. Dalam artikel ini, kita akan melanjutkan topik integrasi AI dengan memperkenalkan basis pengetahuan bertenaga AI SeaX, yang mendengarkan percakapan secara real-time untuk memberikan balasan yang disarankan.*

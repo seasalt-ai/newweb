@@ -1,16 +1,18 @@
 ---
 title: "Modul corect de a trimite SMS-uri în masă către contacte în Excel, Google Sheets și Apple Numbers"
 metatitle: "Trimitere SMS în masă | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Aflați cele mai sigure modalități de a trimite SMS-uri în masă din Excel, Google Sheets și Apple Numbers, respectând în același timp conformitatea 10DLC.'
+description: "Aflați cele mai sigure modalități de a trimite SMS-uri în masă din Excel, Google Sheets și Apple Numbers, respectând în același timp conformitatea 10DLC."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Trimiterea de SMS-uri în masă către o listă de contacte a fost o tehnică larg utilizată pentru afaceri, organizatori de evenimente și diverși profesioniști. Capacitatea de a trimite un mesaj în masă poate economisi timp și poate ajuta la menținerea contactelor informate. Deși Excel, Google Sheets și Apple Numbers nu sunt construite în mod inerent pentru a trimite SMS-uri, extensiile și serviciile terțe au venit în ajutor pentru a face acest lucru posibil. Cu toate acestea, există capcane de care trebuie să fiți conștienți.

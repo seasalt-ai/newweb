@@ -1,18 +1,21 @@
 ---
-title: "مستقبل الذكاء الاصطناعي المحادثي: هل يحل SeaChat محل Nuance Mix NLU؟"
-metatitle: "مستقبل الذكاء الاصطناعي المحادثي: هل يحل SeaChat محل Nuance Mix NLU؟"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+title: " مستقبل الذكاء الاصطناعي المحادثي: هل يحل SeaChat محل Nuance Mix NLU؟"
+metatitle: " مستقبل الذكاء الاصطناعي المحادثي: هل يحل SeaChat محل Nuance Mix NLU؟"
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: في مجال الذكاء الاصطناعي المحادثي، كان Nuance Mix NLU شائعاً، لكن SeaChat القائم على النماذج اللغوية الكبيرة (LLMs) يمكنه كسر القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة.
+description: "في مجال الذكاء الاصطناعي المحادثي، كان Nuance Mix NLU شائعاً، لكن SeaChat القائم على النماذج اللغوية الكبيرة (LLMs) يمكنه كسر القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة."
 weight: 1
-tags: ["SeaChat", "أدوات الذكاء الاصطناعي", "النماذج اللغوية الكبيرة", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - أدوات الذكاء الاصطناعي
+  - النماذج اللغوية الكبيرة
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'عالم الذكاء الاصطناعي المحادثي يتردد صدى الابتكار. بينما أثبت [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) أنه أداة قوية لفهم نوايا المستخدم، فإن ظهور النماذج اللغوية الكبيرة (LLMs) يوفر بديلاً مثيراً للاهتمام. [SeaChat](https://chat.seasalt.ai/)، وهو منصة قائمة على تقنية LLM، يوضح المستقبل المحتمل للذكاء الاصطناعي المحادثي.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 عالم الذكاء الاصطناعي المحادثي يتردد صدى الابتكار. بينما أثبت [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) أنه أداة قوية لفهم نوايا المستخدم، فإن ظهور النماذج اللغوية الكبيرة (LLMs) يوفر بديلاً مثيراً للاهتمام. [SeaChat](https://chat.seasalt.ai/)، وهو منصة قائمة على تقنية LLM، يوضح المستقبل المحتمل للذكاء الاصطناعي المحادثي.

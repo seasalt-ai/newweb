@@ -1,18 +1,20 @@
 ---
 title: "อัปเกรด AI สนทนาของคุณ: ทำไมการย้ายจาก Dialogflow ไป SeaChat จึงเป็นข้อได้เปรียบเชิงกลยุทธ์"
 metatitle: "อัปเกรด AI สนทนาของคุณ: ทำไมการย้ายจาก Dialogflow ไป SeaChat จึงเป็นข้อได้เปรียบเชิงกลยุทธ์"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: ในสาขา AI สนทนา Google Dialogflow เป็นที่นิยม แต่ SeaChat ที่ใช้โมเดลภาษาขนาดใหญ่ (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น
+description: "ในสาขา AI สนทนา Google Dialogflow เป็นที่นิยม แต่ SeaChat ที่ใช้โมเดลภาษาขนาดใหญ่ (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'สาขา AI สนทนากำลังประสบกับคลื่นแห่งนวัตกรรม แม้ว่า [Dialogflow](https://cloud.google.com/dialogflow) ของ Google จะเป็นรากฐานในการสร้างอินเทอร์เฟซเสียงและข้อความแบบโต้ตอบ แต่คลื่นเทคโนโลยีใหม่กำลังดึงดูดความสนใจ: โมเดลภาษาขนาดใหญ่ (LLMs) [SeaChat](https://chat.seasalt.ai/?utm_source=blog) แพลตฟอร์มที่ใช้เทคโนโลยี LLM เสนอวิธีการปฏิวัติสำหรับ AI สนทนาที่ก้าวข้ามเครื่องยนต์ที่ใช้กฎอย่าง Dialogflow สำหรับบริษัทที่ต้องการปรับปรุงประสิทธิภาพและประสบการณ์ผู้ใช้ของ chatbot การย้ายไป SeaChat อาจเป็นข้อได้เปรียบเชิงกลยุทธ์'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 สาขา AI สนทนากำลังประสบกับคลื่นแห่งนวัตกรรม แม้ว่า [Dialogflow](https://cloud.google.com/dialogflow) ของ Google จะเป็นรากฐานในการสร้างอินเทอร์เฟซเสียงและข้อความแบบโต้ตอบ แต่คลื่นเทคโนโลยีใหม่กำลังดึงดูดความสนใจ: โมเดลภาษาขนาดใหญ่ (LLMs) [SeaChat](https://chat.seasalt.ai/?utm_source=blog) แพลตฟอร์มที่ใช้เทคโนโลยี LLM เสนอวิธีการปฏิวัติสำหรับ AI สนทนาที่ก้าวข้ามเครื่องยนต์ที่ใช้กฎอย่าง Dialogflow สำหรับบริษัทที่ต้องการปรับปรุงประสิทธิภาพและประสบการณ์ผู้ใช้ของ chatbot การย้ายไป SeaChat อาจเป็นข้อได้เปรียบเชิงกลยุทธ์

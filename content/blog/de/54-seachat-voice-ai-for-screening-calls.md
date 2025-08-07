@@ -1,16 +1,20 @@
 ---
 title: "Wer ruft an? Verbessern Sie die Gesprächsqualität mit einem personalisierten Voice-AI-Agenten"
 metatitle: "Verbessern Sie die Gesprächsqualität mit einem personalisierten Voice-AI-Agenten"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Entdecken Sie die Zukunft der Terminvereinbarung mit dem Voice AI Agent, einer 24/7-Lösung, die KI und natürliche Sprachverarbeitung für effiziente und reibungslose Buchungen integriert.
+description: "Entdecken Sie die Zukunft der Terminvereinbarung mit dem Voice AI Agent, einer 24/7-Lösung, die KI und natürliche Sprachverarbeitung für effiziente und reibungslose Buchungen integriert."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Bei einem vollen Terminkalender zählt jeder Anruf. Von wichtigen Geschäftsabschlüssen bis zu Gesprächen mit Freunden und Familie – unser Alltag dreht sich um bedeutungsvolle Kommunikation. Viele eingehende Anrufe zu bewältigen, kann jedoch überwältigend und zeitaufwendig sein. Hier kommt ein personalisierter Voice-AI-Agent ins Spiel.

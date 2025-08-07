@@ -1,17 +1,20 @@
 ---
 title: "وكلاء المكالمات البشرية المباشرة مقابل وكلاء الذكاء الاصطناعي الصوتي للمكالمات الصادرة التلقائية: توصيات عملية للشركات (4/5)"
 metatitle: "Seasalt.ai | مكالمات الذكاء الاصطناعي الصادرة | وكلاء مباشرون | الذكاء الاصطناعي الصوتي"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Jun Mao
 description: "استكشف إيجابيات وسلبيات المكالمات الصادرة المباشرة مقابل المكالمات الصادرة المدعومة بالذكاء الاصطناعي للشركات - قارن التكاليف وقابلية التوسع والكفاءة."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

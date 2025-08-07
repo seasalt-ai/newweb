@@ -1,17 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX Bulk SMS: 更快、更有效地接触客户"
+metatitle: "SeaX Bulk SMS: 更快、更有效地接触客户"
 date: 2022-09-09 11:05:22-07:00
-description: 在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息。
-draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX Bulk SMS: 更快、更有效地接触客户'
 modified_date: 2025-07-28 00:00:00+00:00
-tags:
-- SeaX
-title: 'SeaX Bulk SMS: 更快、更有效地接触客户'
-url: /blog/seax-bulk-sms/
+draft: false
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息。"
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

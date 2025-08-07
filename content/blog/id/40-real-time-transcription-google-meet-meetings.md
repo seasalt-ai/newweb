@@ -1,19 +1,18 @@
 ---
 title: "Bagaimana Transkripsi Real-time dan Analisis Rapat Mengubah Rapat Google Meet"
 metatitle: "Bagaimana Transkripsi Real-time dan Analisis Rapat Mengubah Rapat Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Fitur transkripsi real-time dan analisis rapat telah mengubah cara rapat dilakukan. Fitur ini tidak hanya meningkatkan efisiensi rapat, memberikan wawasan instan, dan memfasilitasi pengambilan keputusan yang cepat, tetapi juga meningkatkan keterlibatan peserta dan memastikan keberhasilan rapat bisnis modern."
 weight: 1
-tags: ["SeaMeet", "Alat AI"]
+tags:
+  - SeaMeet
+  - Alat AI
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Fitur transkripsi real-time dan analisis rapat telah mengubah cara rapat dilakukan. Fitur ini tidak hanya meningkatkan efisiensi rapat, memberikan wawasan instan, dan memfasilitasi pengambilan keputusan yang cepat, tetapi juga meningkatkan keterlibatan peserta dan memastikan keberhasilan rapat bisnis modern."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 Dalam lingkungan bisnis modern, rapat adalah platform utama untuk mempromosikan kerja tim dan pengambilan keputusan. Namun, karena beberapa rapat paralel dan jadwal yang padat, semakin sulit untuk tetap sinkron dengan semua rapat. Dengan latar belakang ini, kebutuhan akan transkripsi real-time dan analisis rapat menjadi semakin menonjol, karena mereka memberikan solusi untuk mengatasi keterbatasan metode perekaman rapat tradisional dan memastikan manajemen rapat yang efektif.

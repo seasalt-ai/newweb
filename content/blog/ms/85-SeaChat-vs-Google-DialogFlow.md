@@ -1,18 +1,20 @@
 ---
 title: "Naik Taraf AI Perbualan Anda: Kenapa Berpindah dari Dialogflow ke SeaChat Adalah Keputusan Strategik"
 metatitle: "Naik Taraf AI Perbualan Anda: Kenapa Berpindah dari Dialogflow ke SeaChat Adalah Keputusan Strategik"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-19T00:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Dalam dunia AI perbualan, Google Dialogflow pernah popular, tetapi SeaChat berasaskan LLM membawa pengalaman perbualan yang lebih semula jadi dan lancar."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'Dunia AI perbualan sedang mengalami gelombang inovasi. Walaupun Google [Dialogflow](https://cloud.google.com/dialogflow) pernah menjadi asas untuk membina antara muka suara dan teks interaktif, kini model bahasa besar (LLM) menarik perhatian. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform berasaskan LLM, menawarkan pendekatan AI perbualan yang melangkaui enjin berasaskan peraturan seperti Dialogflow. Untuk perniagaan yang ingin meningkatkan prestasi chatbot dan pengalaman pengguna, berpindah ke SeaChat mungkin kelebihan strategik.'
-modified_date: "2024-07-19T00:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 Dunia AI perbualan sedang mengalami gelombang inovasi. Walaupun Google [Dialogflow](https://cloud.google.com/dialogflow) pernah menjadi asas untuk membina antara muka suara dan teks interaktif, kini model bahasa besar (LLM) menarik perhatian. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform berasaskan LLM, menawarkan pendekatan AI perbualan yang melangkaui enjin berasaskan peraturan seperti Dialogflow. Untuk perniagaan yang ingin meningkatkan prestasi chatbot dan pengalaman pengguna, berpindah ke SeaChat mungkin kelebihan strategik.

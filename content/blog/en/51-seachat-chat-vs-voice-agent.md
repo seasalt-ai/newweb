@@ -1,15 +1,19 @@
 ---
 title: "Voice AI Agent vs. Chat AI Agent: Navigating SeaChat’s AI Solutions for Your Business"
 metatitle: "Voice Agent vs. Chat Agent | Navigate SeaChat’s AI Solutions"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore SeaChat's AI solutions for businesses, Voice AI Agent for voice-based customer service and Chat AI Agent for text-based interactions, each with unique features and use cases.
+description: "Explore SeaChat's AI solutions for businesses, Voice AI Agent for voice-based customer service and Chat AI Agent for text-based interactions, each with unique features and use cases."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 In today's fast-paced digital environment, businesses are constantly seeking innovative ways to enhance customer experience and streamline operations. A significant part of this transformation is the adoption of AI-driven communication tools. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a versatile AI platform, offers two powerful solutions in one product: the Voice AI Agent and the Chat AI Agent. In this blog, we'll delve into the functionalities and use cases of both, helping you decide which fits best for your business needs.

@@ -1,16 +1,18 @@
 ---
 title: "Cara Benar Mengirim SMS Massal ke Kontak di Excel, Google Sheets, dan Apple Numbers"
 metatitle: "Kirim SMS Massal | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Pelajari cara paling aman mengirim SMS massal dari Excel, Google Sheets, dan Apple Numbers dengan tetap patuh pada 10DLC.'
+description: "Pelajari cara paling aman mengirim SMS massal dari Excel, Google Sheets, dan Apple Numbers dengan tetap patuh pada 10DLC."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Mengirim SMS massal ke daftar kontak adalah teknik yang banyak digunakan oleh bisnis, penyelenggara acara, dan profesional. Kemampuan mengirim pesan secara serentak menghemat waktu dan membantu menjaga komunikasi. Walaupun Excel, Google Sheets, dan Apple Numbers tidak dirancang khusus untuk SMS, banyak ekstensi dan layanan pihak ketiga yang dapat digunakan. Namun, ada beberapa hal penting yang harus diperhatikan.

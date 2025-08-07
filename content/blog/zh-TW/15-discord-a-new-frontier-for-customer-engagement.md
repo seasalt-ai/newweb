@@ -1,18 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): 新世代客戶互動新前線"
+metatitle: "Discord (1/3): 新世代客戶互動新前線"
 date: 2022-05-23 13:05:36-07:00
-description: 本篇部落格將討論 Discord 的崛起，以及企業為何/如何開始利用 Discord 提升客戶互動。
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): 新世代客戶互動新前線'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): 新世代客戶互動新前線'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "本篇部落格將討論 Discord 的崛起，以及企業為何/如何開始利用 Discord 提升客戶互動。"
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

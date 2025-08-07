@@ -1,17 +1,20 @@
 ---
 title: "OpenAIの新しい音声技術は、あなたの自動音声応答（IVR）を置き換えることができますか？"
 metatitle: "OpenAIの新しい音声技術は、あなたのIVRを置き換えることができますか？"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "OpenAIの新しい音声技術が、現在の自動音声応答システムを置き換えることができるかどうかを探ります。"
 weight: 1
-tags: ["自動応答サービス", "中小企業向けインバウンドコール", "SeaChat", "音声AI"]
-toc: true
+tags:
+  - 自動応答サービス
+  - 中小企業向けインバウンドコール
+  - SeaChat
+  - 音声AI
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 信じられないほど人間のような音を出すOpenAIのエキサイティングな新しい音声技術について聞いたことがあるかもしれません。デモは素晴らしく見えます。OpenAIの音声エージェントは賢く、自然で、割り込みを非常によく処理します。しかし、現在の自動音声応答システムを置き換える準備はできていますか？または、すでにボイスボットサービスを購入している場合、顧客にサービスを提供するためにOpenAIの音声アシスタントに置き換えることはできますか？簡単な言葉で説明しましょう。

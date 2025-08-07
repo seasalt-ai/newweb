@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Synthèse vocale sur Discord : Une étude de cas du bot TTS Discord"
+metatitle: "Synthèse vocale sur Discord : Une étude de cas du bot TTS Di..."
 date: 2022-12-27 17:04:20-08:00
-description: Dans ce blog, nous discuterons de nos découvertes sur la façon dont les
-  utilisateurs réels de Discord utilisent nos services après avoir examiné plusieurs
-  mois de données authentiques de synthèse vocale.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Synthèse vocale sur Discord : Une étude de cas du bot TTS Di...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Synthèse vocale sur Discord : Une étude de cas du bot TTS Discord'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "Dans ce blog, nous discuterons de nos découvertes sur la façon dont les utilisateurs réels de Discord utilisent nos services après avoir examiné plusieurs mois de données authentiques de synthèse vocale."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

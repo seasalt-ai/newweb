@@ -1,16 +1,21 @@
 ---
 title: "فهم اللغة الطبيعية القائم على النية/الكيان مقابل فهم اللغة الطبيعية القائم على GenAI/LLM: الفرق بالملايين (من الأمثلة والدولارات)"
 metatitle: "فهم اللغة الطبيعية القائم على النية/الكيان مقابل فهم اللغة الطبيعية القائم على GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: أطلق العنان لمستقبل الذكاء الاصطناعي المحادثة - لماذا يعد التحول من فهم اللغة الطبيعية القائم على النية/الكيان إلى فهم اللغة الطبيعية القائم على GenAI/LLM أمرًا بالغ الأهمية لقابلية التوسع وكفاءة التكلفة والقدرة على التكيف.
+description: "أطلق العنان لمستقبل الذكاء الاصطناعي المحادثة - لماذا يعد التحول من فهم اللغة الطبيعية القائم على النية/الكيان إلى فهم اللغة الطبيعية القائم على GenAI/LLM أمرًا بالغ الأهمية لقابلية التوسع وكفاءة التكلفة والقدرة على التكيف."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 إلى جميع مديري خدمة العملاء أو التسويق، إذا سألك رئيسك السؤال التالي، أرسل لهم هذه المقالة:

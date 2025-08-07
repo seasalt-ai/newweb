@@ -1,18 +1,20 @@
 ---
 title: "नए रास्ते खोलना: क्यों SeaChat इंटरैक्टिव चैटबॉट बनाने में SAP Conversational AI से आगे है"
 metatitle: "नए रास्ते खोलना: क्यों SeaChat इंटरैक्टिव चैटबॉट बनाने में SAP Conversational AI से आगे है"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-01-27T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: बातचीत AI के क्षेत्र में, SAP Conversational AI कभी लोकप्रिय था। SeaChat, Large Language Models (LLMs) पर आधारित, सीमाओं को तोड़ सकता है और अधिक प्राकृतिक और सहज बातचीत का अनुभव बना सकता है।
+description: "बातचीत AI के क्षेत्र में, SAP Conversational AI कभी लोकप्रिय था। SeaChat, Large Language Models (LLMs) पर आधारित, सीमाओं को तोड़ सकता है और अधिक प्राकृतिक और सहज बातचीत का अनुभव बना सकता है।"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: 'बातचीत AI के क्षेत्र में, परिवर्तन की हवा बह रही है। जबकि [SAP Conversational AI](https://cai.tools.sap/) एंटरप्राइज-ग्रेड चैटबॉट बनाने के लिए एक लोकप्रिय विकल्प रहा है, तकनीक की एक नई लहर धीरे-धीरे नया फोकस बन रही है: Large Language Models (LLMs)। [SeaChat](https://chat.seasalt.ai/?utm_source=blog) प्लेटफॉर्म, LLM तकनीक पर बना, एक नवीन दृष्टिकोण प्रदान करता है जो SAP Conversational AI जैसे नियम-आधारित इंजन की सीमाओं को पार करता है। अधिक आकर्षक चैटबॉट अनुभव के लिए तैयार हैं?'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 बातचीत AI के क्षेत्र में, परिवर्तन की हवा बह रही है। जबकि [SAP Conversational AI](https://cai.tools.sap/) एंटरप्राइज-ग्रेड चैटबॉट बनाने के लिए एक लोकप्रिय विकल्प रहा है, तकनीक की एक नई लहर धीरे-धीरे नया फोकस बन रही है: Large Language Models (LLMs)। [SeaChat](https://chat.seasalt.ai/?utm_source=blog) प्लेटफॉर्म, LLM तकनीक पर बना, एक नवीन दृष्टिकोण प्रदान करता है जो SAP Conversational AI जैसे नियम-आधारित इंजन की सीमाओं को पार करता है। अधिक आकर्षक चैटबॉट अनुभव के लिए तैयार हैं?

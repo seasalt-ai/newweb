@@ -1,19 +1,19 @@
 ---
 title: "AIボットとライブエージェントのシームレスな連携：人間と機械の協力による顧客体験の向上"
 metatitle: "AIボットとライブエージェントのシームレスな連携：人間と機械の協力による顧客体験の向上 | SeaChatで次世代チャットボットを構築するシリーズ"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 次世代のカスタマーサービスは業界を再構築しています。この記事では、AIボットとライブカスタマーサービスエージェントの相乗効果を探り、よりスマートで人間味のあるサポートを提供し、両者のバランスを取ることがなぜ時に必要であるかを説明します。技術の進歩が顧客体験とビジネス運営をどのように形作るかについて議論します。
+description: "次世代のカスタマーサービスは業界を再構築しています。この記事では、AIボットとライブカスタマーサービスエージェントの相乗効果を探り、よりスマートで人間味のあるサポートを提供し、両者のバランスを取ることがなぜ時に必要であるかを説明します。技術の進歩が顧客体験とビジネス運営をどのように形作るかについて議論します。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "次世代のカスタマーサービスは業界を再構築しています。この記事では、AIボットとライブカスタマーサービスエージェントの相乗効果を探り、よりスマートで人間味のあるサポートを提供し、両者のバランスを取ることがなぜ時に必要であるかを説明します。技術の進歩が顧客体験とビジネス運営をどのように形作るかについて議論します。"
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 ## AIボットをライブエージェントに転送する必要があるのはなぜですか？

@@ -1,16 +1,17 @@
 ---
 title: "如何利用實時逐字稿、AI會議筆記，提升團隊會議效率？"
 metatitle: "如何利用實時逐字稿、AI會議筆記，提升團隊會議效率？"
-date: 2023-10-02T10:25:00-08:00
+date: 2023-10-02 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？實時分析會議錄音已經成為了企業提高效率和溝通質量的必要工具。透過實時分析，公司可以確保每次的討論都能得到準確的記錄，從而使決策過程更加高效和精確。
+description: "隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？實時分析會議錄音已經成為了企業提高效率和溝通質量的必要工具。透過實時分析，公司可以確保每次的討論都能得到準確的記錄，從而使決策過程更加高效和精確。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/zh/blog/how-to-use-ai-meeting-copilot/"
-url: "/zh/blog/how-to-use-ai-meeting-copilot/"
-summary: "隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？"
+canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
+url: /zh/blog/how-to-use-ai-meeting-copilot/
 ---
 
 隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？

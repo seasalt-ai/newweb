@@ -1,18 +1,20 @@
 ---
 title: "단순한 말뿐만이 아닙니다: wit.ai에서 SeaChat으로 업그레이드하면 대화형 AI 경험이 향상되는 이유"
 metatitle: "단순한 말뿐만이 아닙니다: wit.ai에서 SeaChat으로 업그레이드하면 대화형 AI 경험이 향상되는 이유"
-date: 2024-04-02T00:22:19-07:00
-modified_date: 2025-08-03T00:35:01Z
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
 author: Xuchen Yao
-description: 대화형 AI 분야에서 Meta/Facebook의 wit.ai가 인기를 끌었지만, 대형 언어 모델(LLMs) 기반의 SeaChat은 한계를 뛰어넘어 더 자연스럽고 유연한 대화 경험을 만들 수 있습니다.
+description: "대화형 AI 분야에서 Meta/Facebook의 wit.ai가 인기를 끌었지만, 대형 언어 모델(LLMs) 기반의 SeaChat은 한계를 뛰어넘어 더 자연스럽고 유연한 대화 경험을 만들 수 있습니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: '챗봇의 세계는 놀라운 속도로 진화하고 있습니다. Meta/Facebook의 [wit.ai](http://wit.ai)가 음성 기반 애플리케이션 구축의 발판 역할을 할 때, 새로운 기술 물결이 무대의 중심으로 부상하고 있습니다: 대형 언어 모델(LLMs). LLM 기술 위에 구축된 플랫폼인 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대화형 AI에 혁신적인 접근 방식을 제공하여 의도 기반 엔진인 wit.ai를 훨씬 뒤처지게 합니다. 챗봇을 업그레이드할 때가 되었나요?'
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 챗봇의 세계는 놀라운 속도로 진화하고 있습니다. Meta/Facebook의 [wit.ai](http://wit.ai)가 음성 기반 애플리케이션 구축의 발판 역할을 할 때, 새로운 기술 물결이 무대의 중심으로 부상하고 있습니다: 대형 언어 모델(LLMs). LLM 기술 위에 구축된 플랫폼인 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대화형 AI에 혁신적인 접근 방식을 제공하여 의도 기반 엔진인 wit.ai를 훨씬 뒤처지게 합니다. 챗봇을 업그레이드할 때가 되었나요?

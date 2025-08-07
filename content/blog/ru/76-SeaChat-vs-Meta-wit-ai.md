@@ -1,15 +1,19 @@
 ---
 title: "SeaChat против Meta wit.ai: почему переход на SeaChat улучшит ваш чат-бот"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Почему wit.ai от Meta/Facebook устарел? Откройте для себя SeaChat — чат-бот нового поколения на базе LLM, обеспечивающий живое и естественное общение."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Большие языковые модели", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Большие языковые модели
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 Мир чат-ботов стремительно развивается. Хотя [wit.ai](http://wit.ai) от Meta/Facebook был хорошим стартом для голосовых приложений, новые технологии LLM, такие как [SeaChat](https://chat.seasalt.ai/?utm_source=blog), меняют подход к диалоговому ИИ, оставляя позади ограничения wit.ai. Пора обновить ваш чат-бот?

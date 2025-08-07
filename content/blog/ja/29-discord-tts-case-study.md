@@ -1,17 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Discordでのテキスト読み上げ：TTS Discord Botの事例研究"
+metatitle: "Discordでのテキスト読み上げ：TTS Discord Botの事例研究"
 date: 2022-12-27 17:04:20-08:00
-description: このブログでは、数ヶ月間の実際のテキスト読み上げデータをレビューした後、実際のDiscordユーザーが当社のサービスをどのように利用しているかについての調査結果を議論します。
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: Discordでのテキスト読み上げ：TTS Discord Botの事例研究
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: Discordでのテキスト読み上げ：TTS Discord Botの事例研究
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "このブログでは、数ヶ月間の実際のテキスト読み上げデータをレビューした後、実際のDiscordユーザーが当社のサービスをどのように利用しているかについての調査結果を議論します。"
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

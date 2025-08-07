@@ -1,16 +1,20 @@
 ---
 title: "Siapa yang Menelefon? Tingkatkan Kualiti Panggilan dengan Ejen AI Suara Peribadi"
 metatitle: "Tingkatkan Kualiti Panggilan dengan Ejen AI Suara Peribadi"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Terokai masa depan penjadualan janji temu dengan Voice AI Agent, penyelesaian 24/7 yang menggabungkan AI dan pemprosesan bahasa semula jadi untuk tempahan janji temu yang cekap dan lancar.
+description: "Terokai masa depan penjadualan janji temu dengan Voice AI Agent, penyelesaian 24/7 yang menggabungkan AI dan pemprosesan bahasa semula jadi untuk tempahan janji temu yang cekap dan lancar."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Apabila mengurus jadual yang sibuk, setiap panggilan telefon adalah penting. Dari urusan perniagaan penting hingga berhubung dengan orang tersayang, kehidupan harian kita berputar di sekitar perbualan yang bermakna. Namun, mengendalikan banyak panggilan masuk boleh menjadi meletihkan dan memakan masa. Di sinilah ejen AI suara peribadi memainkan peranan.

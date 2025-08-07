@@ -1,17 +1,19 @@
 ---
 title: "Abandonnez les scripts, embrassez la conversation naturelle : pourquoi passer d'Amazon Lex à SeaChat est très logique"
 metatitle: "Abandonnez les scripts, embrassez la conversation naturelle : pourquoi passer d'Amazon Lex à SeaChat est très logique"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Dans le domaine de l'IA conversationnelle, Amazon Lex était populaire, mais SeaChat basé sur les grands modèles de langage (LLMs) peut dépasser les limites et créer une expérience de conversation plus naturelle et fluide."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: "Le monde des chatbots évolue rapidement. Bien qu'[Amazon Lex](https://aws.amazon.com/lex/) ait été un choix populaire pour construire des interfaces vocales et textuelles, une nouvelle vague technologique prend le devant de la scène : les grands modèles de langage (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme alimentée par les LLMs, offre une approche révolutionnaire de l'IA conversationnelle, laissant les moteurs basés sur des règles comme Lex loin derrière. Est-il temps de considérer une mise à niveau pour votre chatbot ?"
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 Le monde des chatbots évolue rapidement. Bien qu'[Amazon Lex](https://aws.amazon.com/lex/) ait été un choix populaire pour construire des interfaces vocales et textuelles, une nouvelle vague technologique prend le devant de la scène : les grands modèles de langage (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme alimentée par les LLMs, offre une approche révolutionnaire de l'IA conversationnelle, laissant les moteurs basés sur des règles comme Lex loin derrière. Est-il temps de considérer une mise à niveau pour votre chatbot ?

@@ -1,17 +1,20 @@
 ---
 title: "Resepsionis Langsung vs. Layanan Penjawab Otomatis: Rekomendasi Praktis untuk Bisnis Kecil (4/5)"
 metatitle: "Resepsionis Langsung vs. Layanan Penjawab Otomatis"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Bandingkan resepsionis langsung dan layanan penjawab otomatis untuk meningkatkan layanan pelanggan dan efisiensi."
 weight: 1
-tags: ["Layanan Penjawab Otomatis", "Panggilan Masuk untuk Bisnis Kecil", "SeaChat", "AI Suara"]
-toc: true
+tags:
+  - Layanan Penjawab Otomatis
+  - Panggilan Masuk untuk Bisnis Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

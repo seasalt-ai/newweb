@@ -1,15 +1,17 @@
 ---
 title: "گفتار به متن در دیسکورد: مطالعه موردی ربات STT دیسکورد"
 metatitle: "گفتار به متن در دیسکورد: مطالعه موردی ربات STT دیسکورد"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: در این وبلاگ، یافته‌های خود را در مورد نحوه استفاده کاربران واقعی دیسکورد از خدمات SeaVoice پس از بررسی چندین هفته داده‌های معتبر گفتار به متن، مورد بحث قرار خواهیم داد.
+description: "در این وبلاگ، یافته‌های خود را در مورد نحوه استفاده کاربران واقعی دیسکورد از خدمات SeaVoice پس از بررسی چندین هفته داده‌های معتبر گفتار به متن، مورد بحث قرار خواهیم داد."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *پس از راه‌اندازی SeaVoice، یکی از سریع‌ترین و دقیق‌ترین ربات‌های تبدیل متن به گفتار و گفتار به متن در دیسکورد، می‌خواستیم بفهمیم که کاربران واقعاً چگونه با این خدمات تعامل دارند. در این وبلاگ، یافته‌های خود را پس از بررسی چندین هفته داده‌های واقعی گفتار به متن کاربران، مورد بحث قرار خواهیم داد.*

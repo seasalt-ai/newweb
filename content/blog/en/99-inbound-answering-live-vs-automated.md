@@ -1,16 +1,19 @@
 ---
 title: "Live Receptionists vs. Automated Answering Services: Practical Recommendations for Small Businesses (4/5)"
 metatitle: "Live Receptionists vs. Automated Answering Services"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Compare live receptionists and automated answering services to enhance customer service and efficiency."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

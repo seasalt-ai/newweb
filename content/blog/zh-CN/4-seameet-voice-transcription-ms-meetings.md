@@ -2,16 +2,15 @@
 title: "从演示到成功：现代会议的陷阱 (2/5)"
 metatitle: "从演示到成功 (2/5)：现代会议的陷阱"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "在本博客系列的第二部分中，跟随 Seasalt.ai 创造 SeaMeet 的旅程，这是我们协作式现代会议解决方案。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *在本博客系列中，跟随 Seasalt.ai 创造全面现代会议体验的旅程，从其 humble 的开端，到优化我们在不同硬件和模型上的服务，再到集成最先进的 NLP 系统，最终实现 SeaMeet，我们的协作式现代会议解决方案。*

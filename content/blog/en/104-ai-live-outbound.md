@@ -1,16 +1,19 @@
 ---
 title: "Live Human Call Agents vs. Voice AI Agents for Automatic Outbound Calls: Practical Recommendations for Businesses (4/5)"
 metatitle: "Seasalt.ai | AI Outbound Calls | Live Agents | Voice AI"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore the pros and cons of live vs. AI-driven outbound calls for businesses—compare costs, scalability, and efficiency."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

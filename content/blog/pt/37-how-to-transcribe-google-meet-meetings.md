@@ -1,12 +1,15 @@
 ---
-metatitle: "Como transcrever reuniões do Google Meet"
 title: "Como transcrever reuniões do Google Meet"
-date: "2024-01-09"
-modified_date: "2024-01-09"
-tags: ["Google Meet", "Transcrição", "SeaMeet", "Reuniões"]
-keywords: ["Google Meet", "transcrição", "reuniões", "SeaMeet", "transcrição em tempo real", "notas de reunião", "gravação de reunião", "fala para texto", "eficiência de reunião", "produtividade de reunião"]
+metatitle: "Como transcrever reuniões do Google Meet"
+date: 2024-01-09
+modified_date: 2024-01-09
+author: "" # 需要确认
 description: "Aprenda como transcrever reuniões do Google Meet usando recursos integrados e ferramentas externas como o SeaMeet. Descubra dicas para transcrição precisa, armazenamento e privacidade."
-authors: ["Xuchen Yao"]
+tags:
+  - Google Meet
+  - Transcrição
+  - SeaMeet
+  - Reuniões
 ---
 
 ## Pontos Principais

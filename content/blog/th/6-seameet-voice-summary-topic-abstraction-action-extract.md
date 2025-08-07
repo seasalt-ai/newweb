@@ -1,18 +1,17 @@
 ---
 title: "จากการสาธิตสู่ความสำเร็จ: การรับรู้การประชุม (4/5)"
 metatitle: "จากการสาธิตสู่ความสำเร็จ (4/5): การรับรู้การประชุม"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "ในส่วนที่สี่ของชุดบล็อกนี้ ติดตามการเดินทางของ Seasalt.ai ในการสร้าง SeaMeet โซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเรา"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *ตลอดทั้งชุดบล็อกนี้ ติดตามการเดินทางของ Seasalt.ai ในการสร้างประสบการณ์การประชุมสมัยใหม่ที่รอบด้าน ตั้งแต่จุดเริ่มต้นที่เรียบง่าย ไปจนถึงการเพิ่มประสิทธิภาพบริการของเราบนฮาร์ดแวร์และโมเดลต่างๆ ไปจนถึงการผสานรวมระบบ NLP ที่ล้ำสมัย และสิ้นสุดที่การตระหนักรู้อย่างเต็มรูปแบบของ SeaMeet โซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเรา*

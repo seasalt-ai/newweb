@@ -1,16 +1,17 @@
 ---
 title: "Bagaimana Cara Mentranskripsikan Rapat Google Meet secara Real-time?"
 metatitle: "Bagaimana Cara Mentranskripsikan Rapat Google Meet secara Real-time?"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Pelajari cara mentranskripsikan rapat Google Meet secara real-time, mulai dari fitur bawaan hingga SeaMeet dari Seasalt.ai, dengan fokus pada akurasi, penyimpanan data, berbagi, dan privasi. Pilih alat terbaik untuk efisiensi dan keamanan.
+description: "Pelajari cara mentranskripsikan rapat Google Meet secara real-time, mulai dari fitur bawaan hingga SeaMeet dari Seasalt.ai, dengan fokus pada akurasi, penyimpanan data, berbagi, dan privasi. Pilih alat terbaik untuk efisiensi dan keamanan."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Pelajari cara mentranskripsikan rapat Google Meet secara real-time, mulai dari fitur bawaan hingga SeaMeet dari Seasalt.ai, dengan fokus pada akurasi, penyimpanan data, berbagi, dan privasi. Pilih alat terbaik untuk efisiensi dan keamanan."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **Daftar Isi**

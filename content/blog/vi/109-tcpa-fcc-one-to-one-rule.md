@@ -1,17 +1,19 @@
 ---
 title: "Mọi điều bạn cần biết để chuẩn bị cho Quy tắc đồng ý một-đối-một mới của FCC năm 2025"
 metatitle: "Seasalt.ai | Thay đổi quy tắc TCPA 2025 | Hướng dẫn toàn diện"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "Hướng dẫn chuyên sâu về các thay đổi quy tắc TCPA năm 2025, cung cấp thông tin cần thiết cho các doanh nghiệp để đảm bảo tuân thủ."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **Bài viết này không phải là lời khuyên pháp lý. Vui lòng tham khảo ý kiến cố vấn pháp lý của bạn để biết thêm thông tin.**

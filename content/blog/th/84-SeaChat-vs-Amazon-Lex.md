@@ -1,18 +1,20 @@
 ---
 title: "ทิ้งสคริปต์ รับการสนทนาธรรมชาติ: ทำไมการอัปเกรดจาก Amazon Lex เป็น SeaChat จึงสมเหตุสมผลมาก"
 metatitle: "ทิ้งสคริปต์ รับการสนทนาธรรมชาติ: ทำไมการอัปเกรดจาก Amazon Lex เป็น SeaChat จึงสมเหตุสมผลมาก"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-08T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: ในด้าน Conversational AI Amazon Lex เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น
+description: "ในด้าน Conversational AI Amazon Lex เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'โลกของ Chatbot กำลังวิวัฒนาการอย่างรวดเร็ว แม้ว่า [Amazon Lex](https://aws.amazon.com/lex/) จะเป็นตัวเลือกยอดนิยมสำหรับการสร้างอินเทอร์เฟซเสียงและข้อความ แต่คลื่นเทคโนโลยีใหม่กำลังกลายเป็นตัวเอก: Large Language Models (LLMs) [SeaChat](https://chat.seasalt.ai/?utm_source=blog) แพลตฟอร์มที่ขับเคลื่อนด้วย LLMs ให้วิธีการที่ปฏิวัติวงการสำหรับ Conversational AI ทำให้ Engine ที่ใช้กฎอย่าง Lex ตามหลังอย่างมาก ถึงเวลาที่จะพิจารณาอัปเกรด Chatbot ของคุณหรือยัง?'
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 โลกของ Chatbot กำลังวิวัฒนาการอย่างรวดเร็ว แม้ว่า [Amazon Lex](https://aws.amazon.com/lex/) จะเป็นตัวเลือกยอดนิยมสำหรับการสร้างอินเทอร์เฟซเสียงและข้อความ แต่คลื่นเทคโนโลยีใหม่กำลังกลายเป็นตัวเอก: Large Language Models (LLMs) [SeaChat](https://chat.seasalt.ai/?utm_source=blog) แพลตฟอร์มที่ขับเคลื่อนด้วย LLMs ให้วิธีการที่ปฏิวัติวงการสำหรับ Conversational AI ทำให้ Engine ที่ใช้กฎอย่าง Lex ตามหลังอย่างมาก ถึงเวลาที่จะพิจารณาอัปเกรด Chatbot ของคุณหรือยัง?

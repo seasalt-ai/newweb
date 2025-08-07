@@ -1,18 +1,20 @@
 ---
 title: "I-elevate ang Iyong Chat Experience: Bakit Mas Magaling ang SeaChat sa IBM Watson NLU"
 metatitle: "I-elevate ang Iyong Chat Experience: Bakit Mas Magaling ang SeaChat sa IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: Sa larangan ng conversational AI, popular ang IBM Watson NLU, ngunit ang SeaChat na nakabase sa large language models (LLMs) ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at mas maayos na karanasan sa pag-uusap.
+description: "Sa larangan ng conversational AI, popular ang IBM Watson NLU, ngunit ang SeaChat na nakabase sa large language models (LLMs) ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at mas maayos na karanasan sa pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'Nakakaramdam ba ng paulit-ulit at hindi natural ang iyong chatbot? Gusto mo bang magbigay ng mas natural na chat experience sa iyong mga customer? Kung gayon, oras na para tingnan ang SeaChat, isang makapangyarihang AI assistant product na binuo sa large language models (LLMs). Habang ang [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) ay naging maaasahang tool para sa text analysis, ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ay nag-aalok ng rebolusyonaryong approach sa conversational AI, na iniwan ang mga tradisyonal na NLU engines sa malayo.'
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 Nakakaramdam ba ng paulit-ulit at hindi natural ang iyong chatbot? Gusto mo bang magbigay ng mas natural na chat experience sa iyong mga customer? Kung gayon, oras na para tingnan ang SeaChat, isang makapangyarihang AI assistant product na binuo sa large language models (LLMs). Habang ang [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) ay naging maaasahang tool para sa text analysis, ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ay nag-aalok ng rebolusyonaryong approach sa conversational AI, na iniwan ang mga tradisyonal na NLU engines sa malayo.

@@ -1,18 +1,17 @@
 ---
 title: "Właściciele firm: korzystajcie z Wiadomości Google Moja Firma, aby angażować klientów poza godzinami pracy!"
 metatitle: "Korzystajcie z Wiadomości Google Moja Firma, aby angażować klientów poza godzinami pracy!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Podczas gdy Profil Firmy w Google pozwala właścicielom firm na bezpośredni czat z klientami, Wiadomości Google Moja Firma umożliwiają integrację z wirtualnym agentem."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Dowiedz się więcej o zaletach i ograniczeniach Wiadomości Google Moja Firma oraz o tym, jak firmy wdrażają Wiadomości Google Moja Firma.*

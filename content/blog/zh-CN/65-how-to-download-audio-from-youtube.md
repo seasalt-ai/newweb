@@ -1,16 +1,18 @@
 ---
 title: "如何从 YouTube 下载音频数据，单个和多个视频 | 音频工具箱系列"
 metatitle: "从 YouTube 下载音频数据 | 音频工具箱系列"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: 了解如何使用免费工具合法高效地从单个或多个 YouTube 视频下载音频。探索工具和技术，为您的创意项目提取音乐、播客、音效等。
+description: "了解如何使用免费工具合法高效地从单个或多个 YouTube 视频下载音频。探索工具和技术，为您的创意项目提取音乐、播客、音效等。"
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 今天，让我们深入探讨一个与许多人产生共鸣的话题：如何免费从 YouTube 下载音频数据。

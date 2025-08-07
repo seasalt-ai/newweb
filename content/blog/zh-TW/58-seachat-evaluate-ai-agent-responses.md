@@ -1,15 +1,18 @@
 ---
 title: "如何評估AI智能體回覆：SeaChat的AI智能體改進與控制系統"
 metatitle: "如何評估AI智能體回覆 | SeaChat的審查系統"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat幫助您標記、審查和改進AI智能體回覆，提升性能和客戶體驗。"
 weight: 1
-tags: ["SeaChat", "語音智能體", "AI工具", "客戶體驗"]
+tags:
+  - SeaChat
+  - 語音智能體
+  - AI工具
+  - 客戶體驗
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # 引言

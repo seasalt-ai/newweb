@@ -1,18 +1,20 @@
 ---
 title: "کنار گذاشتن اسکریپت‌ها، پذیرش مکالمه طبیعی: چرا ارتقاء از Amazon Lex به SeaChat بسیار منطقی است"
 metatitle: "کنار گذاشتن اسکریپت‌ها، پذیرش مکالمه طبیعی: چرا ارتقاء از Amazon Lex به SeaChat بسیار منطقی است"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: در حوزه هوش مصنوعی مکالمه‌ای، Amazon Lex زمانی محبوب بود، و SeaChat، مبتنی بر مدل‌های زبان بزرگ (LLM)، می‌تواند محدودیت‌ها را بشکند و تجربه مکالمه‌ای طبیعی‌تر و روان‌تری ایجاد کند.
+description: "در حوزه هوش مصنوعی مکالمه‌ای، Amazon Lex زمانی محبوب بود، و SeaChat، مبتنی بر مدل‌های زبان بزرگ (LLM)، می‌تواند محدودیت‌ها را بشکند و تجربه مکالمه‌ای طبیعی‌تر و روان‌تری ایجاد کند."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'دنیای چت‌بات‌ها به سرعت در حال تکامل است. در حالی که [Amazon Lex](https://aws.amazon.com/lex/) یک انتخاب محبوب برای ساخت رابط‌های صوتی و متنی بوده است، موج جدیدی از فناوری در حال تبدیل شدن به بازیگر اصلی است: مدل‌های زبان بزرگ (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، پلتفرمی که توسط LLMها پشتیبانی می‌شود، رویکردی پیشگامانه به هوش مصنوعی مکالمه‌ای ارائه می‌دهد و موتورهای مبتنی بر قانون مانند Lex را بسیار عقب می‌اندازد. آیا زمان آن رسیده است که به ارتقاء چت‌بات خود فکر کنید؟'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 دنیای چت‌بات‌ها به سرعت در حال تکامل است. در حالی که [Amazon Lex](https://aws.amazon.com/lex/) یک انتخاب محبوب برای ساخت رابط‌های صوتی و متنی بوده است، موج جدیدی از فناوری در حال تبدیل شدن به بازیگر اصلی است: مدل‌های زبان بزرگ (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، پلتفرمی که توسط LLMها پشتیبانی می‌شود، رویکردی پیشگامانه به هوش مصنوعی مکالمه‌ای ارائه می‌دهد و موتورهای مبتنی بر قانون مانند Lex را بسیار عقب می‌اندازد. آیا زمان آن رسیده است که به ارتقاء چت‌بات خود فکر کنید؟

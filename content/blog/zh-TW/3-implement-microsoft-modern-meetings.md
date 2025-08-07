@@ -2,16 +2,15 @@
 title: "從示範到成功：實施微軟的現代會議及其他（1/5）"
 metatitle: "從示範到成功（1/5）：超越微軟的現代會議"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "在本部落格系列的第一部分，跟隨 Seasalt.ai 創建 SeaMeet 的旅程，這是我們協作的現代會議解決方案。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *在本部落格系列中，跟隨 Seasalt.ai 創建一個全面的現代會議體驗的旅程，從其卑微的開端，到在不同硬體和模型上優化我們的服務，再到整合最先進的自然語言處理系統，最後以 SeaMeet 的完全實現告終，這是我們協作的現代會議解決方案。*

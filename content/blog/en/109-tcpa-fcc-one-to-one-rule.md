@@ -1,16 +1,18 @@
 ---
 title: "Everything You Need to Know to Prepare for 2025 FCC’s New One-to-One Consent Rule"
 metatitle: "Seasalt.ai | 2025 TCPA Rule Changes | Comprehensive Guide"
-date: 2025-01-05T00:22:19-07:00
+date: 2025-01-05 00:22:19-07:00
 draft: false
 author: Amy Chen
 description: "An in-depth guide on the 2025 TCPA rule changes, providing essential information for businesses to ensure compliance."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **This article is not legal advice. Please consult with your legal counsel for more information.**

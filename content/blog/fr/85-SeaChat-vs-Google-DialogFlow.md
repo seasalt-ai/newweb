@@ -1,17 +1,19 @@
 ---
 title: "Mettez à niveau votre IA conversationnelle : pourquoi migrer de Dialogflow vers SeaChat serait un avantage stratégique"
 metatitle: "Mettez à niveau votre IA conversationnelle : pourquoi migrer de Dialogflow vers SeaChat serait un avantage stratégique"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Dans le domaine de l'IA conversationnelle, Google Dialogflow était populaire, mais SeaChat basé sur les grands modèles de langage (LLMs) peut dépasser les limites et créer une expérience de conversation plus naturelle et fluide."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: "Le domaine de l'IA conversationnelle connaît une vague d'innovation. Bien que le [Dialogflow](https://cloud.google.com/dialogflow) de Google ait été la pierre angulaire pour construire des interfaces vocales et textuelles interactives, une nouvelle vague technologique attire l'attention : les grands modèles de langage (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme basée sur la technologie LLM, propose une approche révolutionnaire de l'IA conversationnelle, dépassant les moteurs basés sur des règles comme Dialogflow. Pour les entreprises cherchant à améliorer les performances et l'expérience utilisateur de leurs chatbots, migrer vers SeaChat pourrait être un avantage stratégique."
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 Le domaine de l'IA conversationnelle connaît une vague d'innovation. Bien que le [Dialogflow](https://cloud.google.com/dialogflow) de Google ait été la pierre angulaire pour construire des interfaces vocales et textuelles interactives, une nouvelle vague technologique attire l'attention : les grands modèles de langage (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme basée sur la technologie LLM, propose une approche révolutionnaire de l'IA conversationnelle, dépassant les moteurs basés sur des règles comme Dialogflow. Pour les entreprises cherchant à améliorer les performances et l'expérience utilisateur de leurs chatbots, migrer vers SeaChat pourrait être un avantage stratégique.

@@ -1,22 +1,21 @@
 ---
 title: "SeaChat مقابل إطار عمل Microsoft Bot وخدمة Azure Bot (LUIS.ai)"
 metatitle: "SeaChat مقابل إطار عمل Microsoft Bot وخدمة Azure Bot (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
-author:  Xuchen Yao
-description: في مجال الذكاء الاصطناعي المحادثي، كانت خدمة Microsoft Azure Bot (LUIS.ai) شائعة، لكن SeaChat القائم على النماذج اللغوية الكبيرة (LLMs) يمكنه تجاوز هذه القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة.
+author: Xuchen Yao
+description: "في مجال الذكاء الاصطناعي المحادثي، كانت خدمة Microsoft Azure Bot (LUIS.ai) شائعة، لكن SeaChat القائم على النماذج اللغوية الكبيرة (LLMs) يمكنه تجاوز هذه القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/ar/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/ar/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/ar/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'عالم الذكاء الاصطناعي المحادثي متحمس للأخبار الأخيرة حول التعاون المتزايد بين Microsoft وOpenAI. بينما يحتفل البعض بإمكانيات هذا التعاون، هناك أصوات استياء داخل Microsoft. وفقاً للتقارير، يقلق الداخليون من أن هذا سينحرف عن تطوير الذكاء الاصطناعي الداخلي لترويج منتجات OpenAI.
-
-مجال واحد تم ذكره على وجه الخصوص هو مصير خدمة Azure Bot من Microsoft.'
-modified_date: 2024-12-19T10:30:00Z
+canonicalURL: /ar/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /ar/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 عالم الذكاء الاصطناعي المحادثي متحمس للأخبار الأخيرة حول التعاون المتزايد بين Microsoft وOpenAI. بينما يحتفل البعض بإمكانيات هذا التعاون، هناك أصوات استياء داخل Microsoft. وفقاً للتقارير، يقلق الداخليون من أن هذا سينحرف عن تطوير الذكاء الاصطناعي الداخلي لترويج منتجات OpenAI.

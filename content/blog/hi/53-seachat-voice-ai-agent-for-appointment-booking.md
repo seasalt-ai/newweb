@@ -1,16 +1,20 @@
 ---
 title: "वॉयस AI एजेंट: अपॉइंटमेंट बुकिंग में 24/7 क्रांति"
 metatitle: "वॉयस AI एजेंट: अपॉइंटमेंट बुकिंग में 24/7 क्रांति"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: वॉयस AI एजेंट के साथ अपॉइंटमेंट शेड्यूलिंग के भविष्य का अन्वेषण करें, एक 24/7 समाधान जो कुशल, सुचारू अपॉइंटमेंट बुकिंग के लिए AI और प्राकृतिक भाषा प्रसंस्करण को एकीकृत करता है।
+description: "वॉयस AI एजेंट के साथ अपॉइंटमेंट शेड्यूलिंग के भविष्य का अन्वेषण करें, एक 24/7 समाधान जो कुशल, सुचारू अपॉइंटमेंट बुकिंग के लिए AI और प्राकृतिक भाषा प्रसंस्करण को एकीकृत करता है।"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # परिचय

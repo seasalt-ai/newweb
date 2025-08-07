@@ -1,16 +1,17 @@
 ---
 title: "Twilio 和 Seasalt.ai 在亚太地区和日本推出 SeaX"
 metatitle: "让您的联络中心通过 SeaX 语音智能发声"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio 和 Seasalt.ai 扩大在亚太地区和日本的合作，以构建多国云联络中心"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 随着联络中心的发展——以及更多通信渠道的上线——企业比以往任何时候都更能满足消费者的偏好。今天的客户希望通过他们喜欢的渠道进行沟通。呼叫中心以客户支持而闻名，但人们越来越期望渠道可以用于客户支持和与品牌的商业对话。

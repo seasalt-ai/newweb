@@ -1,18 +1,18 @@
 ---
 title: "Discord (2/3): Paano Gumawa ng Discord Community at Bot para sa Iyong Brand"
 metatitle: "Discord (2/3): Gumawa ng Discord Community at Bot ng Iyong Brand"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "Sa blog na ito, tatalakayin natin ang paggawa ng server para sa iyong brand at pagkonekta ng bot, na maaaring mag-automate ng moderation, bug reporting, announcements, atbp."
+date: 2022-05-31 13:29:51-07:00
+modified_date: 2025-08-06 10:59:10+09:00
 draft: false
+author: Kim Dodds
+description: "Sa blog na ito, tatalakayin natin ang paggawa ng server para sa iyong brand at pagkonekta ng bot, na maaaring mag-automate ng moderation, bug reporting, announcements, atbp."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
-modified_date: 2025-08-06T10:59:10+09:00
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Ang aming blog post, [“Discord: Isang Bagong Henerasyon para sa Customer Engagement”](https.seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), ay tumalakay sa pag-usbong ng kasikatan ng Discord, at kung paano maaaring samantalahin ng mga brand ang bagong social platform na ito upang bumuo ng kanilang sariling mga online community at makipag-ugnayan sa mga customer. Sa blog na ito, tatalakayin natin kung paano gumawa ng bagong opisyal na server para sa iyong brand, kasama na ang kung paano ikonekta ang isang bot, na maaaring mag-automate ng mga gawain tulad ng moderation, pag-uulat ng bug, mga anunsyo, atbp.*

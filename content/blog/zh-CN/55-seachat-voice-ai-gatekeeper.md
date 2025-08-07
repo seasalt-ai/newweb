@@ -1,16 +1,20 @@
 ---
 title: "Android 和 iPhone 上的 AI 呼叫筛选：您的私人助理和守门员"
 metatitle: "AI 呼叫筛选 | Android 和 iPhone 上的私人助理"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: 探索由 AI 驱动的呼叫代理的未来呼叫管理！从筛选垃圾邮件发送者到预订约会，它是您 24/7 的私人助理和守门员。
+description: "探索由 AI 驱动的呼叫代理的未来呼叫管理！从筛选垃圾邮件发送者到预订约会，它是您 24/7 的私人助理和守门员。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 您是否曾希望拥有一个私人助理，可以处理您的电话、筛选垃圾邮件和诈骗电话，甚至为您预订约会？不用再找了，因为由 AI 驱动的呼叫代理可以做到这一切，甚至更多！作为您的免费前台和守门员，这项卓越的技术正在彻底改变呼叫管理，确保您不会错过任何重要电话，并为您节省宝贵的时间和安心。

@@ -1,17 +1,20 @@
 ---
 title: "Bộ quay số tự động cho cuộc gọi ra: Power Dialer so với Progressive Dialer so với Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Cuộc gọi ra trực tiếp | Bộ quay số tự động"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "So sánh Power, Progressive và Predictive Dialers để có các cuộc gọi ra hiệu quả, có thể mở rộng trong telemarketing và bán hàng."
 weight: 1
-tags: ["Dịch vụ Telemarketing tự động", "Cuộc gọi ra cho doanh nghiệp nhỏ", "Bộ quay số tự động", "AI giọng nói"]
-toc: true
+tags:
+  - Dịch vụ Telemarketing tự động
+  - Cuộc gọi ra cho doanh nghiệp nhỏ
+  - Bộ quay số tự động
+  - AI giọng nói
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

@@ -1,15 +1,19 @@
 ---
 title: "SeaChat vs Meta wit.ai: Tại sao nên nâng cấp từ wit.ai lên SeaChat cho AI đàm thoại"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Meta/Facebook wit.ai đã lỗi thời? Khám phá SeaChat - vượt qua giới hạn của chatbot truyền thống với công nghệ LLM, tạo ra các cuộc trò chuyện AI tự nhiên và sống động."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 Thế giới chatbot đang phát triển nhanh chóng. Mặc dù Meta/Facebook [wit.ai](http://wit.ai) là một điểm khởi đầu tốt để xây dựng các ứng dụng giọng nói, nhưng công nghệ LLM như [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đã thay đổi hoàn toàn AI đàm thoại, bỏ lại những hạn chế của wit.ai phía sau. Đã đến lúc nâng cấp chatbot của bạn chưa?

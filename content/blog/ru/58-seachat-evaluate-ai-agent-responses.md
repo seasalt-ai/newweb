@@ -1,15 +1,19 @@
 ---
 title: "Как оценивать ответы AI-агентов: Система обзора SeaChat для улучшения и контроля AI-агентов"
 metatitle: "Оценка ответов AI-агентов | Система обзора SeaChat"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat позволяет помечать, просматривать и улучшать ответы AI-агентов для повышения производительности и качества обслуживания клиентов."
 weight: 1
-tags: ["SeaChat", "Голосовой агент", "Инструменты AI", "Обслуживание клиентов"]
+tags:
+  - SeaChat
+  - Голосовой агент
+  - Инструменты AI
+  - Обслуживание клиентов
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Введение

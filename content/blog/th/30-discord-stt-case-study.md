@@ -1,15 +1,17 @@
 ---
 title: "การพูดเป็นข้อความบน Discord: กรณีศึกษาบอท Discord STT"
 metatitle: "การพูดเป็นข้อความบน Discord: กรณีศึกษาบอท Discord STT"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: ในบล็อกนี้ เราจะมาพูดคุยถึงสิ่งที่เราค้นพบว่าผู้ใช้ Discord ตัวจริงใช้บริการ SeaVoice อย่างไร หลังจากตรวจสอบข้อมูลการพูดเป็นข้อความจริงเป็นเวลาหลายสัปดาห์
+description: "ในบล็อกนี้ เราจะมาพูดคุยถึงสิ่งที่เราค้นพบว่าผู้ใช้ Discord ตัวจริงใช้บริการ SeaVoice อย่างไร หลังจากตรวจสอบข้อมูลการพูดเป็นข้อความจริงเป็นเวลาหลายสัปดาห์"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *หลังจากเปิดตัว SeaVoice ซึ่งเป็นหนึ่งในบอทแปลงข้อความเป็นคำพูดและแปลงคำพูดเป็นข้อความที่เร็วและแม่นยำที่สุดบน Discord เราต้องการทำความเข้าใจว่าผู้ใช้โต้ตอบกับบริการอย่างไร ในบล็อกนี้ เราจะมาพูดคุยถึงสิ่งที่เราค้นพบหลังจากตรวจสอบข้อมูลผู้ใช้แปลงคำพูดเป็นข้อความจริงเป็นเวลาหลายสัปดาห์*

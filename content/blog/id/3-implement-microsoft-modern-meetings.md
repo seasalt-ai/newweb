@@ -2,17 +2,16 @@
 title: "Dari Demo ke Sukses: Menerapkan Rapat Modern Microsoft dan Selanjutnya (1/5)"
 metatitle: "Demo ke Sukses (1/5): Melampaui Rapat Modern Microsoft"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Cody Kim
 description: "Di bagian pertama seri blog ini, ikuti perjalanan Seasalt.ai dalam menciptakan SeaMeet, solusi rapat modern kolaboratif kami."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *Sepanjang seri blog ini, ikuti perjalanan Seasalt.ai dalam menciptakan Pengalaman Rapat Modern yang menyeluruh, dimulai dari awal yang sederhana, hingga mengoptimalkan layanan kami pada berbagai perangkat keras dan model, hingga mengintegrasikan sistem NLP canggih dan akhirnya mencapai realisasi penuh SeaMeet, solusi rapat modern kolaboratif kami.*

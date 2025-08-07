@@ -1,17 +1,20 @@
 ---
 title: "OpenAI의 새로운 음성 기술이 대화형 음성 응답(IVR)을 대체할 수 있을까요?"
 metatitle: "OpenAI의 새로운 음성 기술이 IVR을 대체할 수 있을까요?"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "OpenAI의 새로운 음성 기술이 현재의 대화형 음성 응답 시스템을 대체할 수 있는지 알아보세요."
 weight: 1
-tags: ["자동 응답 서비스", "소규모 기업을 위한 인바운드 콜", "SeaChat", "음성 AI"]
-toc: true
+tags:
+  - 자동 응답 서비스
+  - 소규모 기업을 위한 인바운드 콜
+  - SeaChat
+  - 음성 AI
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 믿을 수 없을 정도로 사람과 비슷한 소리를 내는 OpenAI의 흥미로운 새로운 음성 기술에 대해 들어보셨을 것입니다. 데모는 놀랍습니다. OpenAI 음성 에이전트는 똑똑하고 자연스러우며 중단을 매우 잘 처리합니다. 하지만 현재의 대화형 음성 응답 시스템을 대체할 준비가 되었을까요? 또는 이미 음성봇 서비스를 구매했다면 고객에게 서비스를 제공하기 위해 OpenAI의 음성 비서로 교체할 수 있을까요? 간단한 용어로 분석해 보겠습니다.

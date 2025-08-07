@@ -1,16 +1,17 @@
 ---
 title: "El usuario ha abandonado el chat web: ¡use Near Me Messaging para enviarle un mensaje!"
 metatitle: "El usuario ha abandonado el chat web: ¡póngase en contacto con Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging resuelve un problema del chat web: vuelva a ponerse en contacto con su usuario incluso *después* de que haya abandonado la conversación."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 La mañana de Navidad de 2022, me desperté con algunos mensajes de un usuario llamado Henry. Cuando llegué a los mensajes, Henry ya se había ido. Todo lo que obtuve fueron los mensajes que envió a través del chat web y su nombre.

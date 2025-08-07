@@ -1,16 +1,20 @@
 ---
 title: "Écrans d'appel IA sur Android et iPhone : Votre assistant personnel et gardien"
 metatitle: "Écrans d'appel IA | Assistant personnel sur Android et iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Découvrez l'avenir de la gestion des appels avec un agent d'appel alimenté par l'IA ! Du filtrage des spammeurs à la prise de rendez-vous, c'est votre assistant personnel et gardien 24h/24 et 7j/7.
+description: "Découvrez l'avenir de la gestion des appels avec un agent d'appel alimenté par l'IA ! Du filtrage des spammeurs à la prise de rendez-vous, c'est votre assistant personnel et gardien 24h/24 et 7j/7."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Avez-vous déjà souhaité avoir un assistant personnel capable de gérer vos appels téléphoniques, de filtrer les spammeurs et les escrocs, et même de prendre des rendez-vous pour vous ? Ne cherchez plus, car un agent d'appel alimenté par l'IA peut faire tout cela et bien plus encore ! Agissant comme votre réception gratuite et votre gardien, cette technologie remarquable révolutionne la gestion des appels, vous assurant de ne jamais manquer un appel important et vous faisant gagner un temps précieux et une tranquillité d'esprit.

@@ -1,16 +1,18 @@
 ---
 title: "고객 사례: 아시아 주요 은행이 다국어 및 개인 정보 보호 중심 고객 지원을 제공하도록 지원"
 metatitle: "SeaX로 다국어 및 개인 지원을 제공하는 아시아 은행"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
-description: 이 블로그는 옴니채널 컨택 센터 배포가 동남아시아의 주요 사설 은행의 고객 서비스 환경을 어떻게 혁신했는지 설명하며, 실시간 음성 전사, 데이터 기반 통찰력 및 강력한 데이터 개인 정보 보호 조치를 통해 에이전트 성능을 향상시켰습니다.
+description: "이 블로그는 옴니채널 컨택 센터 배포가 동남아시아의 주요 사설 은행의 고객 서비스 환경을 어떻게 혁신했는지 설명하며, 실시간 음성 전사, 데이터 기반 통찰력 및 강력한 데이터 개인 정보 보호 조치를 통해 에이전트 성능을 향상시켰습니다."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 동남아시아 최대 사설 은행 중 한 곳의 옴니채널 컨택 센터 배포 성공 사례는 고급 기술과 고객 중심 접근 방식이 데이터 개인 정보 보호를 보장하면서 고객 서비스 환경을 어떻게 변화시킬 수 있는지 보여줍니다.

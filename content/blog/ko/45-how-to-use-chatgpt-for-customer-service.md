@@ -1,17 +1,19 @@
 ---
 title: "ChatGPT를 고객 서비스에 활용하는 방법"
 metatitle: "ChatGPT를 고객 서비스에 활용하는 방법 | SeaChat 차세대 시리즈"
-date: 2023-11-01T10:25:00-08:00
+date: 2023-11-01 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 맞춤형 ChatGPT 봇이 고객 서비스에서 혁신적인 역할을 합니다. 기술 구현부터 다중 도메인 응용 프로그램에 이르기까지 고객 서비스 효율성과 품질 향상에 대한 중요성을 분석하고 챗봇 기술의 미래 개발 동향과 과제를 전망합니다.
+description: "맞춤형 ChatGPT 봇이 고객 서비스에서 혁신적인 역할을 합니다. 기술 구현부터 다중 도메인 응용 프로그램에 이르기까지 고객 서비스 효율성과 품질 향상에 대한 중요성을 분석하고 챗봇 기술의 미래 개발 동향과 과제를 전망합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
-canonicalURL: "/blog/how-to-use-chatgpt-for-customer-service/"
-url: "/blog/how-to-use-chatgpt-for-customer-service/"
-summary: "맞춤형 ChatGPT 봇이 고객 서비스에서 혁신적인 역할을 합니다. 기술 구현부터 다중 도메인 응용 프로그램에 이르기까지 고객 서비스 효율성과 품질 향상에 대한 중요성을 분석하고 챗봇 기술의 미래 개발 동향과 과제를 전망합니다."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-chatgpt-for-customer-service/
+url: /blog/how-to-use-chatgpt-for-customer-service/
 ---
 
 오늘날 빠르게 변화하는 디지털 시대에 고객 서비스의 역할과 방식은 심오한 변화를 겪고 있습니다. 인공지능(AI) 기술, 특히 챗봇 분야의 발전으로 기업은 이제 전례 없는 방식으로 고객과 상호 작용할 기회를 얻었습니다. 맞춤형 ChatGPT 봇은 이러한 변화의 핵심이 되고 있으며, 24시간 고객 지원을 제공할 뿐만 아니라 개인화된 상호 작용을 통해 고객 경험을 향상시킬 수 있습니다.

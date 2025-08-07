@@ -1,16 +1,20 @@
 ---
 title: "Recopilación fácil de encuestas usando agentes de voz con IA"
 metatitle: "Recopilación fácil de encuestas usando agentes de voz con IA"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "¡Explora el futuro de la creación de encuestas usando agentes de voz con IA! Crea preguntas de alta calidad fácilmente, mejora la experiencia del usuario y aumenta las tasas de respuesta. ¡Adiós al trabajo manual!"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Introducción

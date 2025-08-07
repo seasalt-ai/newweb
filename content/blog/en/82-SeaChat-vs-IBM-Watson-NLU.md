@@ -1,18 +1,16 @@
 ---
 title: "Elevate Your Chat Experience: Why SeaChat Surpa..."
 metatitle: "Elevate Your Chat Experience: Why SeaChat Surpa..."
-date: "2024-04-02T00:22:19-07:00"
-lastmod: "2024-04-03T00:22:19-07:00"
-modified_date: "2024-12-19T10:30:00-07:00"
-draft: "false"
-author: "Xuchen Yao"
+date: 2024-04-02T00:22:19-07:00
+modified_date: 2024-12-19T10:30:00-07:00
+draft: false
+author: Xuchen Yao
 description: "In the conversational AI field, IBM Watson NLU was popular, but SeaChat based on large language m..."
-weight: "1"
-tags:
-image: "/images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png"
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: "Does your chatbot feel repetitive and unnatural? Do you want to provide your ..."
+weight: 1
+tags: []
+image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 
@@ -75,4 +73,4 @@ Let's dive deeper into the comparison between SeaChat and Watson NLU through a c
 Research has shown that the difference between intent/entity-based NLU and LLM-based NLU in terms of training examples is [in millions](https://seasalt.ai/blog/73-intent-entity-based-nlu-vs-genai-llm-based-nlu/?utm_source=blog): 630,000 examples versus only 32 in training data requirements. The significant reduction in required training data represents substantial cost savings in enterprise adoption of GenAI/LLM-based NLU.
 
 ## SeaChat Can Provide Better Conversation Experience
-The future of conversational AI lies in natural, engaging interactions. While IBM Watson NLU has served its purpose, SeaChat offers a revolutionary LLM-driven approach. Consider upgrading your chatbot to [SeaChat](https://chat.seasalt.ai/?utm_source=blog) for a more dynamic, human-like experience that will keep your users engaged and coming back repeatedly. Let your chatbot sail into the future with SeaChat! 
+The future of conversational AI lies in natural, engaging interactions. While IBM Watson NLU has served its purpose, SeaChat offers a revolutionary LLM-driven approach. Consider upgrading your chatbot to [SeaChat](https://chat.seasalt.ai/?utm_source=blog) for a more dynamic, human-like experience that will keep your users engaged and coming back repeatedly. Let your chatbot sail into the future with SeaChat!

@@ -1,17 +1,20 @@
 ---
 title: "स्वचालित फोन उत्तर प्रणाली (इंटरैक्टिव वॉइस रिस्पॉन्स बनाम वॉइस AI एजेंट): छोटे व्यवसायों के लिए सर्वश्रेष्ठ विकल्प (3/5)"
 metatitle: "स्वचालित उत्तर प्रणाली (इंटरैक्टिव वॉइस रिस्पॉन्स बनाम वॉइस AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
 author: Jun Mao
 description: "छोटे व्यवसायों के लिए स्वचालित फोन प्रणालियों के इंटरैक्टिव वॉइस रिस्पॉन्स और वॉइस AI एजेंट विकल्पों का अन्वेषण करें।"
 weight: 1
-tags: ["स्वचालित उत्तर सेवा", "छोटे व्यवसायों के लिए आने वाले कॉल", "SeaChat", "वॉइस AI"]
-toc: true
+tags:
+  - स्वचालित उत्तर सेवा
+  - छोटे व्यवसायों के लिए आने वाले कॉल
+  - SeaChat
+  - वॉइस AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-01-27T10:30:00Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 ---

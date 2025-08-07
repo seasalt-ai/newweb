@@ -1,18 +1,20 @@
 ---
 title: "تجربه چت خود را ارتقا دهید: چرا SeaChat از IBM Watson NLU پیشی می‌گیرد"
 metatitle: "تجربه چت خود را ارتقا دهید: چرا SeaChat از IBM Watson NLU پیشی می‌گیرد"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: در زمینه هوش مصنوعی گفتگو، IBM Watson NLU محبوب بود، اما SeaChat مبتنی بر مدل‌های زبانی بزرگ (LLMs) می‌تواند محدودیت‌ها را برطرف کند و تجربیات گفتگوی طبیعی‌تر و روان‌تری ایجاد کند.
+description: "در زمینه هوش مصنوعی گفتگو، IBM Watson NLU محبوب بود، اما SeaChat مبتنی بر مدل‌های زبانی بزرگ (LLMs) می‌تواند محدودیت‌ها را برطرف کند و تجربیات گفتگوی طبیعی‌تر و روان‌تری ایجاد کند."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'آیا چت‌بات شما تکراری و غیرطبیعی به نظر می‌رسد؟ آیا می‌خواهید تجربه چت طبیعی‌تری برای مشتریان خود فراهم کنید؟ پس زمان آن رسیده که SeaChat را در نظر بگیرید، محصول دستیار هوش مصنوعی قدرتمندی که بر اساس مدل‌های زبانی بزرگ (LLMs) ساخته شده است. در حالی که [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) ابزاری قابل اعتماد برای تحلیل متن بوده، [SeaChat](https://chat.seasalt.ai/?utm_source=blog) رویکردی انقلابی برای هوش مصنوعی گفتگو ارائه می‌دهد که موتورهای سنتی NLU را بسیار عقب می‌گذارد.'
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 آیا چت‌بات شما تکراری و غیرطبیعی به نظر می‌رسد؟ آیا می‌خواهید تجربه چت طبیعی‌تری برای مشتریان خود فراهم کنید؟ پس زمان آن رسیده که SeaChat را در نظر بگیرید، محصول دستیار هوش مصنوعی قدرتمندی که بر اساس مدل‌های زبانی بزرگ (LLMs) ساخته شده است. در حالی که [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) ابزاری قابل اعتماد برای تحلیل متن بوده، [SeaChat](https://chat.seasalt.ai/?utm_source=blog) رویکردی انقلابی برای هوش مصنوعی گفتگو ارائه می‌دهد که موتورهای سنتی NLU را بسیار عقب می‌گذارد.

@@ -1,17 +1,19 @@
 ---
 title: "Kolaborasi Tanpa Batas antara Bot AI dan Agen Langsung: Meningkatkan Pengalaman Pelanggan Melalui Kerja Sama Manusia-Mesin"
 metatitle: "Kolaborasi Tanpa Batas antara Bot AI dan Agen Langsung: Meningkatkan Pengalaman Pelanggan Melalui Kerja Sama Manusia-Mesin | Seri Membangun Chatbot Generasi Berikutnya dengan SeaChat"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Generasi berikutnya dari layanan pelanggan sedang membentuk kembali industri. Artikel ini mengeksplorasi sinergi antara bot AI dan agen layanan pelanggan langsung untuk memberikan dukungan yang lebih cerdas dan manusiawi, dan menjelaskan mengapa terkadang perlu menyeimbangkan keduanya. Kami akan membahas bagaimana kemajuan teknologi membentuk pengalaman pelanggan dan operasi bisnis.
+description: "Generasi berikutnya dari layanan pelanggan sedang membentuk kembali industri. Artikel ini mengeksplorasi sinergi antara bot AI dan agen layanan pelanggan langsung untuk memberikan dukungan yang lebih cerdas dan manusiawi, dan menjelaskan mengapa terkadang perlu menyeimbangkan keduanya. Kami akan membahas bagaimana kemajuan teknologi membentuk pengalaman pelanggan dan operasi bisnis."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Generasi berikutnya dari layanan pelanggan sedang membentuk kembali industri. Artikel ini mengeksplorasi sinergi antara bot AI dan agen layanan pelanggan langsung untuk memberikan dukungan yang lebih cerdas dan manusiawi, dan menjelaskan mengapa terkadang perlu menyeimbangkan keduanya. Kami akan membahas bagaimana kemajuan teknologi membentuk pengalaman pelanggan dan operasi bisnis."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Mengapa terkadang perlu mentransfer bot AI ke agen langsung?

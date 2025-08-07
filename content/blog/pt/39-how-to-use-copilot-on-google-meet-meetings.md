@@ -1,17 +1,18 @@
 ---
 title: "Google Meet lançará o AI Copilot para aumentar a eficiência de suas reuniões"
 metatitle: "Google Meet lançará o AI Copilot para aumentar a eficiência de suas reuniões"
-date: 2023-10-06T10:25:00-08:00
+date: 2023-10-06 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "O Google Meet lançará o AI Copilot para aumentar a eficiência de suas reuniões! Explore como o SeaMeet complementa as deficiências do Google Duet AI no suporte ao idioma chinês e na eficiência de reuniões, e oferece uma experiência de colaboração mais rica para usuários de chinês tradicional, impulsionando a colaboração entre idiomas."
 weight: 1
-tags: ["SeaMeet", "Ferramentas de IA"]
+tags:
+  - SeaMeet
+  - Ferramentas de IA
 image: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/copilot-on-google-meet-meetings/"
-url: "/blog/copilot-on-google-meet-meetings/"
-summary: "O Google Meet lançará o AI Copilot para aumentar a eficiência de suas reuniões! Explore como o SeaMeet complementa as deficiências do Google Duet AI no suporte ao idioma chinês e na eficiência de reuniões, e oferece uma experiência de colaboração mais rica para usuários de chinês tradicional, impulsionando a colaboração entre idiomas."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/copilot-on-google-meet-meetings/
+url: /blog/copilot-on-google-meet-meetings/
 ---
 
 

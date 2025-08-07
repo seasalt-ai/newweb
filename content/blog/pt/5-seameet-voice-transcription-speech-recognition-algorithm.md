@@ -1,18 +1,17 @@
 ---
 title: "Do Demo ao Sucesso: Além dos Algoritmos de Voz das Reuniões Modernas (3/5)"
 metatitle: "Demo ao Sucesso (3/5): Além dos Algoritmos de Voz"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "Na terceira parte desta série de blogs, acompanhe a jornada da Seasalt.ai na criação do SeaMeet, nossa solução colaborativa para reuniões modernas."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 *Ao longo desta série de blogs, acompanhe a jornada da Seasalt.ai para criar uma experiência completa de Reuniões Modernas, desde os humildes começos, passando pela otimização do serviço em diferentes hardwares e modelos, até a integração de sistemas NLP de última geração e, finalmente, a realização completa do SeaMeet, nossa solução colaborativa para reuniões modernas.*

@@ -1,18 +1,17 @@
 ---
 title: "Ilunsad ang Iyong Virtual Agent sa Google Maps Gamit ang Near Me Messaging"
 metatitle: "Ilunsad ang Iyong Google Maps Virtual Agent Gamit ang Near Me Messaging"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Ilunsad ang iyong virtual agent sa Google Business Messages gamit ang Near Me Messaging."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Nauna na naming ipinakilala sa iyo ang [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) at ang mga benepisyo nito. Ang Near Me Messaging ay nagpapatupad ng isang virtual agent ng Google Business Messages, na available direkta mula sa chat button sa profile ng Google Maps ng isang negosyo. Ang virtual agent ng Near Me Messaging ay pinapagana ng makabagong natural language understanding na nagbibigay ng mga tugon na parang tao. Ang nagtatakda ng Near Me Messaging bukod sa mga katulad na serbisyo ay ang 5 minutong oras ng pag-setup, self-serve customization, at built-in na live chat support.

@@ -1,18 +1,20 @@
 ---
 title: "ஸ்கிரிப்ட்களை கைவிட்டு, இயற்கையான உரையாடலைத் தழுவுதல்: Amazon Lex இலிருந்து SeaChat க்கு மேம்படுத்துவது ஏன் அர்த்தமுள்ளதாக இருக்கிறது"
 metatitle: "ஸ்கிரிப்ட்களை கைவிட்டு, இயற்கையான உரையாடலைத் தழுவுதல்: Amazon Lex இலிருந்து SeaChat க்கு மேம்படுத்துவது ஏன் அர்த்தமுள்ளதாக இருக்கிறது"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: உரையாடல் AI துறையில், Amazon Lex ஒரு காலத்தில் பிரபலமாக இருந்தது, மேலும் Large Language Models (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை உடைத்து, மிகவும் இயற்கையான மற்றும் சரளமான உரையாடல் அனுபவத்தை உருவாக்க முடியும்.
+description: "உரையாடல் AI துறையில், Amazon Lex ஒரு காலத்தில் பிரபலமாக இருந்தது, மேலும் Large Language Models (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை உடைத்து, மிகவும் இயற்கையான மற்றும் சரளமான உரையாடல் அனுபவத்தை உருவாக்க முடியும்."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'சாட்போட்களின் உலகம் வேகமாக வளர்ந்து வருகிறது. [Amazon Lex](https://aws.amazon.com/lex/) குரல் மற்றும் உரை இடைமுகங்களை உருவாக்குவதற்கான பிரபலமான தேர்வாக இருந்தபோதிலும், ஒரு புதிய தொழில்நுட்ப அலை முக்கியத்துவம் பெற்று வருகிறது: Large Language Models (LLMs). LLM களால் இயக்கப்படும் ஒரு தளமான [SeaChat](https://chat.seasalt.ai/?utm_source=blog), உரையாடல் AI க்கு ஒரு அற்புதமான அணுகுமுறையை வழங்குகிறது, இது Lex போன்ற விதி அடிப்படையிலான இயந்திரங்களை வெகுதூரம் பின்னுக்குத் தள்ளுகிறது. உங்கள் சாட்போட்டை மேம்படுத்துவது பற்றி சிந்திக்க வேண்டிய நேரம் இதுவா?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 சாட்போட்களின் உலகம் வேகமாக வளர்ந்து வருகிறது. [Amazon Lex](https://aws.amazon.com/lex/) குரல் மற்றும் உரை இடைமுகங்களை உருவாக்குவதற்கான பிரபலமான தேர்வாக இருந்தபோதிலும், ஒரு புதிய தொழில்நுட்ப அலை முக்கியத்துவம் பெற்று வருகிறது: Large Language Models (LLMs). LLM களால் இயக்கப்படும் ஒரு தளமான [SeaChat](https://chat.seasalt.ai/?utm_source=blog), உரையாடல் AI க்கு ஒரு அற்புதமான அணுகுமுறையை வழங்குகிறது, இது Lex போன்ற விதி அடிப்படையிலான இயந்திரங்களை வெகுதூரம் பின்னுக்குத் தள்ளுகிறது. உங்கள் சாட்போட்டை மேம்படுத்துவது பற்றி சிந்திக்க வேண்டிய நேரம் இதுவா?

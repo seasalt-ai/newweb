@@ -1,17 +1,20 @@
 ---
 title: "최고의 아웃바운드 콜 서비스 선택 방법: 라이브 에이전트 vs. 자동 다이얼러 vs. 음성 AI (5/5)"
 metatitle: "Seasalt.ai | 최고의 아웃바운드 콜 서비스 선택"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "비즈니스 요구에 가장 적합한 아웃바운드 콜 솔루션을 선택하기 위해 라이브 에이전트, 자동 다이얼러 및 음성 AI를 탐색하십시오."
 weight: 1
-tags: ["자동 텔레마케팅 서비스", "소규모 기업을 위한 아웃바운드 콜", "자동 다이얼러", "음성 AI"]
-toc: true
+tags:
+  - 자동 텔레마케팅 서비스
+  - 소규모 기업을 위한 아웃바운드 콜
+  - 자동 다이얼러
+  - 음성 AI
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

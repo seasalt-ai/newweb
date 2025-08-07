@@ -1,17 +1,18 @@
 ---
 title: "Singurele 2 widgeturi de chat web cu adevărat gratuite pe care le-am găsit pentru site-uri web"
 metatitle: "Seasalt.ai | Cele mai bune widgeturi de chat gratuite | Widgeturi de chatbot gratuite"
-date: 2024-11-17T00:22:19-07:00
+date: 2024-11-17 00:22:19-07:00
 draft: false
 author: Xuchen Yao | Jun Mao
-description: ""
+description: "\"\" # 需要确认"
 weight: 1
-tags: ["Widget chatbot", "Widget de chat gratuit", "SeaChat"]
-toc: true
+tags:
+  - Widget chatbot
+  - Widget de chat gratuit
+  - SeaChat
 image: /images/blog/108-free-chatbot-widget/108-free-chatbot-widget.jpg
-canonicalURL: "/blog/free-chat-widgets/"
-url: "/blog/free-chat-widgets/"
-
+canonicalURL: /blog/free-chat-widgets/
+url: /blog/free-chat-widgets/
 ---
 
 ---

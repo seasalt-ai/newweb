@@ -1,18 +1,21 @@
 ---
 title: "Будущее разговорного ИИ: SeaChat заменяет Nuance Mix NLU?"
 metatitle: "Будущее разговорного ИИ: SeaChat заменяет Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: В области разговорного ИИ Nuance Mix NLU был популярен, но SeaChat на основе Large Language Models (LLMs) может преодолеть ограничения и создать более естественные и плавные разговорные впечатления.
+description: "В области разговорного ИИ Nuance Mix NLU был популярен, но SeaChat на основе Large Language Models (LLMs) может преодолеть ограничения и создать более естественные и плавные разговорные впечатления."
 weight: 1
-tags: ["SeaChat", "Инструменты ИИ", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - Инструменты ИИ
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: 'Мир разговорного ИИ резонирует с инновациями. Хотя [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) доказал себя как мощный инструмент для понимания намерений пользователя, появление Large Language Models (LLMs) предлагает убедительную альтернативу. [SeaChat](https://chat.seasalt.ai/), платформа на основе технологии LLM, демонстрирует потенциальное будущее разговорного ИИ.'
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Мир разговорного ИИ резонирует с инновациями. Хотя [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) доказал себя как мощный инструмент для понимания намерений пользователя, появление Large Language Models (LLMs) предлагает убедительную альтернативу. [SeaChat](https://chat.seasalt.ai/), платформа на основе технологии LLM, демонстрирует потенциальное будущее разговорного ИИ.

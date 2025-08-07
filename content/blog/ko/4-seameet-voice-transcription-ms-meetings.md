@@ -2,16 +2,15 @@
 title: "데모에서 성공까지: 현대 회의의 함정 (2/5)"
 metatitle: "데모에서 성공까지 (2/5): 현대 회의의 함정"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "이 블로그 시리즈의 두 번째 부분에서는 Seasalt.ai가 협업 현대 회의 솔루션인 SeaMeet을 만드는 여정을 따라갑니다."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *이 블로그 시리즈 전체에서 Seasalt.ai가 겸손한 시작부터 다양한 하드웨어 및 모델에서 서비스를 최적화하고 최첨단 NLP 시스템을 통합하며 마침내 협업 현대 회의 솔루션인 SeaMeet을 완전히 구현하기까지의 여정을 따라갑니다.*

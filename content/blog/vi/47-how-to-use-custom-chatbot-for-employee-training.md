@@ -1,17 +1,19 @@
 ---
 title: "Các công ty có thể sử dụng chatbot AI tùy chỉnh để đơn giản hóa việc đào tạo nhân viên như thế nào"
 metatitle: "Các công ty có thể sử dụng chatbot AI tùy chỉnh để đơn giản hóa việc đào tạo nhân viên như thế nào | Dòng sản phẩm SeaChat thế hệ tiếp theo"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá vai trò cách mạng của chatbot AI tùy chỉnh trong việc nâng cao hiệu quả đào tạo nhân viên và trải nghiệm học tập cá nhân hóa, đồng thời phân tích vai trò quan trọng của chúng trong việc truyền tải văn hóa doanh nghiệp và cải thiện hiệu quả kinh doanh.
+description: "Khám phá vai trò cách mạng của chatbot AI tùy chỉnh trong việc nâng cao hiệu quả đào tạo nhân viên và trải nghiệm học tập cá nhân hóa, đồng thời phân tích vai trò quan trọng của chúng trong việc truyền tải văn hóa doanh nghiệp và cải thiện hiệu quả kinh doanh."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "Khám phá vai trò cách mạng của chatbot AI tùy chỉnh trong việc nâng cao hiệu quả đào tạo nhân viên và trải nghiệm học tập cá nhân hóa, đồng thời phân tích vai trò quan trọng của chúng trong việc truyền tải văn hóa doanh nghiệp và cải thiện hiệu quả kinh doanh."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 Để nâng cao hiệu quả và hiệu suất đào tạo nhân viên mới, ngày càng nhiều công ty đang khám phá khả năng sử dụng chatbot AI tùy chỉnh. Các chatbot tiên tiến này không chỉ có thể cung cấp trải nghiệm học tập cá nhân hóa mà còn có thể giúp nhân viên hòa nhập nhanh hơn vào văn hóa công ty, từ đó nâng cao hiệu quả công việc tổng thể và sự hài lòng của nhân viên.

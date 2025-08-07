@@ -1,18 +1,16 @@
 ---
 title: "Plus que des mots : Pourquoi la mise à niveau d..."
 metatitle: "Plus que des mots : Pourquoi la mise à niveau d..."
-date: "2024-04-02T00:22:19-07:00"
-lastmod: "2024-04-03T00:22:19-07:00"
-modified_date: "2025-08-01T00:00:00Z"
-draft: "false"
-author: "Xuchen Yao"
+date: 2024-04-02T00:22:19-07:00
+modified_date: 2025-08-01T00:00:00Z
+draft: false
+author: Xuchen Yao
 description: "Dans le domaine de l'IA conversationnelle, wit.ai de Meta/Facebook était autrefois populaire, et ..."
-weight: "1"
-tags:
-image: "/images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png"
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: "Le monde des chatbots évolue à un rythme étonnant. Alors que [wit.ai](http://..."
+weight: 1
+tags: []
+image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 

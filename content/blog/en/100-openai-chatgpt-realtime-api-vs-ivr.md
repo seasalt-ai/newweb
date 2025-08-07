@@ -1,16 +1,19 @@
 ---
 title: "Can OpenAI's New Voice Technology Replace Your Interactive Voice Response (IVR)?"
 metatitle: "Can OpenAI's New Voice Technology Replace Your IVR?"
-date: 2024-10-14T00:22:19-07:00
+date: 2024-10-14 00:22:19-07:00
 draft: false
 author: Amy Chen
 description: "Explore whether OpenAI's new voice technology can replace your current interactive voice response system."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 You may have heard about OpenAI's exciting new voice technology that sounds incredibly human-like. The demos look amazing. The OpenAI voice agent is smart, natural and handles interruptions very well. But is it ready to replace your current interactive voice response system? Or, if you already purchased a voicebot service, can you replace it with OpenAI’s voice assistant to serve your customers? Let's break it down in simple terms.

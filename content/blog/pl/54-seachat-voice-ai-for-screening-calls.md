@@ -1,16 +1,20 @@
 ---
 title: "Kto dzwoni? Zwiększ jakość rozmów dzięki spersonalizowanemu agentowi głosowemu AI"
 metatitle: "Zwiększ jakość rozmów dzięki spersonalizowanemu agentowi głosowemu AI"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Poznaj przyszłość umawiania wizyt z Voice AI Agent – całodobowym rozwiązaniem integrującym AI i przetwarzanie języka naturalnego dla sprawnej i płynnej rezerwacji.
+description: "Poznaj przyszłość umawiania wizyt z Voice AI Agent – całodobowym rozwiązaniem integrującym AI i przetwarzanie języka naturalnego dla sprawnej i płynnej rezerwacji."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Zarządzanie napiętym harmonogramem sprawia, że każda rozmowa telefoniczna ma znaczenie. Od ważnych transakcji biznesowych po kontakt z bliskimi – nasze życie codzienne opiera się na istotnych rozmowach. Jednak odbieranie wielu połączeń może być przytłaczające i czasochłonne. Tu z pomocą przychodzi spersonalizowany agent głosowy AI.

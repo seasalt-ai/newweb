@@ -1,17 +1,19 @@
 ---
 title: "ارتقای هوش مصنوعی گفتاری شما: چرا مهاجرت از Dialogflow به SeaChat یک مزیت استراتژیک است"
 metatitle: "ارتقای هوش مصنوعی گفتاری شما: چرا مهاجرت از Dialogflow به SeaChat یک مزیت استراتژیک است"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: در حوزه هوش مصنوعی گفتاری، Google Dialogflow محبوب بود، اما SeaChat مبتنی بر مدل‌های زبانی بزرگ (LLMs) محدودیت‌ها را شکسته و تجربیات گفتاری طبیعی‌تر و روان‌تری ایجاد می‌کند.
+description: "در حوزه هوش مصنوعی گفتاری، Google Dialogflow محبوب بود، اما SeaChat مبتنی بر مدل‌های زبانی بزرگ (LLMs) محدودیت‌ها را شکسته و تجربیات گفتاری طبیعی‌تر و روان‌تری ایجاد می‌کند."
 weight: 1
-tags: ["SeaChat", "ابزارهای هوش مصنوعی", "مدل‌های زبانی بزرگ", "NLU"]
+tags:
+  - SeaChat
+  - ابزارهای هوش مصنوعی
+  - مدل‌های زبانی بزرگ
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'حوزه هوش مصنوعی گفتاری در حال تجربه یک موج نوآوری است. در حالی که [Dialogflow](https://cloud.google.com/dialogflow) گوگل همیشه سنگ بنای ساخت رابط‌های صوتی و متنی تعاملی بوده، یک موج جدید تکنولوژی در حال جلب توجه است: مدل‌های زبانی بزرگ (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، یک پلتفرم مبتنی بر تکنولوژی LLM، یک روش انقلابی برای هوش مصنوعی گفتاری ارائه می‌دهد که موتورهای مبتنی بر قوانین مانند Dialogflow را پشت سر می‌گذارد. برای شرکت‌هایی که می‌خواهند عملکرد چت‌بات و تجربه کاربری خود را بهبود دهند، مهاجرت به SeaChat می‌تواند یک مزیت استراتژیک باشد.'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 حوزه هوش مصنوعی گفتاری در حال تجربه یک موج نوآوری است. در حالی که [Dialogflow](https://cloud.google.com/dialogflow) گوگل همیشه سنگ بنای ساخت رابط‌های صوتی و متنی تعاملی بوده، یک موج جدید تکنولوژی در حال جلب توجه است: مدل‌های زبانی بزرگ (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، یک پلتفرم مبتنی بر تکنولوژی LLM، یک روش انقلابی برای هوش مصنوعی گفتاری ارائه می‌دهد که موتورهای مبتنی بر قوانین مانند Dialogflow را پشت سر می‌گذارد. برای شرکت‌هایی که می‌خواهند عملکرد چت‌بات و تجربه کاربری خود را بهبود دهند، مهاجرت به SeaChat می‌تواند یک مزیت استراتژیک باشد.

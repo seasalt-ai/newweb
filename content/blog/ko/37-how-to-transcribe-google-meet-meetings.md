@@ -1,16 +1,17 @@
 ---
 title: "Google Meet 회의를 실시간으로 어떻게 기록할까요?"
 metatitle: "Google Meet 회의를 실시간으로 어떻게 기록할까요?"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Google Meet의 실시간 회의 기록 방법을 알아보세요. 내장 기능부터 Seasalt.ai의 SeaMeet까지, 정확도, 데이터 저장, 공유, 개인정보 보호에 중점을 두어 설명합니다. 효율성과 보안을 고려한 최적의 도구 선택 방법을 소개합니다.
+description: "Google Meet의 실시간 회의 기록 방법을 알아보세요. 내장 기능부터 Seasalt.ai의 SeaMeet까지, 정확도, 데이터 저장, 공유, 개인정보 보호에 중점을 두어 설명합니다. 효율성과 보안을 고려한 최적의 도구 선택 방법을 소개합니다."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Google Meet의 실시간 회의 기록 방법을 알아보세요. 내장 기능부터 Seasalt.ai의 SeaMeet까지, 정확도, 데이터 저장, 공유, 개인정보 보호에 중점을 두어 설명합니다. 효율성과 보안을 고려한 최적의 도구 선택 방법을 소개합니다."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **목차**

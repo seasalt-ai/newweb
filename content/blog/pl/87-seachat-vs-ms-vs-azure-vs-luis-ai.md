@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-03 00:53:24+00:00
 draft: false
-author:  Xuchen Yao
+author: Xuchen Yao
 description: "W dziedzinie konwersacyjnej AI, Microsoft Azure Bot Service (LUIS.ai) był popularny, ale SeaChat oparty na dużych modelach językowych (LLMs) może przełamać ograniczenia i stworzyć bardziej naturalne, płynne doświadczenie konwersacyjne."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-modified_date: 2025-08-03T00:53:24Z
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Świat konwersacyjnej AI jest podekscytowany najnowszymi wiadomościami o coraz głębszym partnerstwie Microsoft z OpenAI. Podczas gdy niektórzy świętują potencjał tej współpracy, w Microsoft są również głosy niezadowolenia. Zgodnie z doniesieniami, osoby wewnętrzne obawiają się, że będzie to odchodzić od wewnętrznego rozwoju AI, aby promować produkty OpenAI.
-
-Jednym z konkretnie wymienionych obszarów jest los Microsoft Azure Bot Service.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Świat konwersacyjnej AI jest podekscytowany najnowszymi wiadomościami o coraz głębszym partnerstwie Microsoft z OpenAI. Podczas gdy niektórzy świętują potencjał tej współpracy, w Microsoft są również głosy niezadowolenia. Zgodnie z doniesieniami, osoby wewnętrzne obawiają się, że będzie to odchodzić od wewnętrznego rozwoju AI, aby promować produkty OpenAI.

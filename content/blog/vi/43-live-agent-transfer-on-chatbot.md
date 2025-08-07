@@ -1,17 +1,19 @@
 ---
 title: "AI Chatbot và Chuyển Giao Trực Tiếp cho Đại Lý: Hợp Tác Liền Mạch, Nâng Cao Trải Nghiệm Khách Hàng"
 metatitle: "AI Chatbot và Chuyển Giao Trực Tiếp cho Đại Lý: Hợp Tác Liền Mạch, Nâng Cao Trải Nghiệm Khách Hàng | Dòng sản phẩm SeaChat thế hệ mới"
-date: 2023-10-28T10:25:00-08:00
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Dịch vụ khách hàng thế hệ mới đang định hình lại ngành dịch vụ khách hàng. Bài viết này đi sâu vào sự phối hợp giữa chatbot AI và dịch vụ khách hàng trực tiếp để cung cấp hỗ trợ thông minh hơn và nhân văn hơn, đồng thời giải thích lý do tại sao đôi khi cần cân bằng giữa hai yếu tố này. Chúng ta sẽ thảo luận về cách tiến bộ công nghệ định hình trải nghiệm khách hàng và hoạt động kinh doanh.
+description: "Dịch vụ khách hàng thế hệ mới đang định hình lại ngành dịch vụ khách hàng. Bài viết này đi sâu vào sự phối hợp giữa chatbot AI và dịch vụ khách hàng trực tiếp để cung cấp hỗ trợ thông minh hơn và nhân văn hơn, đồng thời giải thích lý do tại sao đôi khi cần cân bằng giữa hai yếu tố này. Chúng ta sẽ thảo luận về cách tiến bộ công nghệ định hình trải nghiệm khách hàng và hoạt động kinh doanh."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Dịch vụ khách hàng thế hệ mới đang định hình lại ngành dịch vụ khách hàng. Bài viết này đi sâu vào sự phối hợp giữa chatbot AI và dịch vụ khách hàng trực tiếp để cung cấp hỗ trợ thông minh hơn và nhân văn hơn, đồng thời giải thích lý do tại sao đôi khi cần cân bằng giữa hai yếu tố này. Chúng ta sẽ thảo luận về cách tiến bộ công nghệ định hình trải nghiệm khách hàng và hoạt động kinh doanh."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Tại sao đôi khi cần chuyển chatbot AI sang đại lý trực tiếp?

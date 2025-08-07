@@ -1,17 +1,20 @@
 ---
 title: "Pendail Auto untuk Panggilan Keluar: Pendail Kuasa vs. Pendail Progresif vs. Pendail Prediktif (3/5)"
 metatitle: "Seasalt.ai | Panggilan Keluar Langsung | Pendail Auto"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Bandingkan Pendail Kuasa, Progresif, dan Prediktif untuk panggilan keluar yang berkesan dan boleh skala dalam telemarketing dan jualan."
 weight: 1
-tags: ["Perkhidmatan Telemarketing Auto", "Panggilan Keluar untuk Perniagaan Kecil", "Pendail Auto", "AI Suara"]
-toc: true
+tags:
+  - Perkhidmatan Telemarketing Auto
+  - Panggilan Keluar untuk Perniagaan Kecil
+  - Pendail Auto
+  - AI Suara
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

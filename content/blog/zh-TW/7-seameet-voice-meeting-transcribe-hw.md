@@ -1,18 +1,17 @@
 ---
 title: "從演示到成功：超越硬體 (5/5)"
 metatitle: "從演示到成功 (5/5)：超越硬體"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Cody Kim
 description: "在本博客系列的最後一部分，跟隨 Seasalt.ai 創建 SeaMeet 的旅程，這是我們的協作式現代會議解決方案。"
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *在本系列博客中，跟隨 Seasalt.ai 打造全面的現代會議體驗的旅程，從其卑微的開端，到在不同硬體和模型上優化我們的服務，再到集成最先進的自然語言處理系統，最終完全實現我們的協作式現代會議解決方案 SeaMeet。*

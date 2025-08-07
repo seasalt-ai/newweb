@@ -1,18 +1,20 @@
 ---
 title: "स्क्रिप्ट को छोड़ें, प्राकृतिक बातचीत को अपनाएं: Amazon Lex से SeaChat में अपग्रेड करना क्यों बहुत समझदारी है"
 metatitle: "स्क्रिप्ट को छोड़ें, प्राकृतिक बातचीत को अपनाएं: Amazon Lex से SeaChat में अपग्रेड करना क्यों बहुत समझदारी है"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
 author: Xuchen Yao
-description: बातचीत AI के क्षेत्र में, Amazon Lex एक समय लोकप्रिय था, लेकिन बड़े भाषा मॉडल (LLMs) पर आधारित SeaChat, सीमाओं को तोड़ सकता है और अधिक प्राकृतिक और सहज बातचीत अनुभव बना सकता है।
+description: "बातचीत AI के क्षेत्र में, Amazon Lex एक समय लोकप्रिय था, लेकिन बड़े भाषा मॉडल (LLMs) पर आधारित SeaChat, सीमाओं को तोड़ सकता है और अधिक प्राकृतिक और सहज बातचीत अनुभव बना सकता है।"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'चैटबॉट की दुनिया तेजी से विकसित हो रही है। जबकि [Amazon Lex](https://aws.amazon.com/lex/) आवाज और टेक्स्ट इंटरफेस बनाने के लिए एक लोकप्रिय विकल्प रहा है, एक नई तकनीकी लहर मुख्य भूमिका निभा रही है: बड़े भाषा मॉडल (LLMs)। [SeaChat](https://chat.seasalt.ai/?utm_source=blog), एक LLM-संचालित प्लेटफॉर्म, बातचीत AI के लिए एक क्रांतिकारी दृष्टिकोण प्रदान करता है, जो Lex जैसे नियम-आधारित इंजन को पीछे छोड़ देता है। क्या आपके चैटबॉट को अपग्रेड करने का समय आ गया है?'
-modified_date: 2025-01-27T10:30:00Z
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 चैटबॉट की दुनिया तेजी से विकसित हो रही है। जबकि [Amazon Lex](https://aws.amazon.com/lex/) आवाज और टेक्स्ट इंटरफेस बनाने के लिए एक लोकप्रिय विकल्प रहा है, एक नई तकनीकी लहर मुख्य भूमिका निभा रही है: बड़े भाषा मॉडल (LLMs)। [SeaChat](https://chat.seasalt.ai/?utm_source=blog), एक LLM-संचालित प्लेटफॉर्म, बातचीत AI के लिए एक क्रांतिकारी दृष्टिकोण प्रदान करता है, जो Lex जैसे नियम-आधारित इंजन को पीछे छोड़ देता है। क्या आपके चैटबॉट को अपग्रेड करने का समय आ गया है?

@@ -1,18 +1,21 @@
 ---
 title: "会話型AIの未来：SeaChatはNuance Mix NLUを置き換えるか？"
 metatitle: "会話型AIの未来：SeaChatはNuance Mix NLUを置き換えるか？"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 会話型AIの分野では、Nuance Mix NLUが人気でしたが、Large Language Models（LLMs）をベースにしたSeaChatは、制限を打破し、より自然で流暢な会話体験を作り出すことができます。
+description: "会話型AIの分野では、Nuance Mix NLUが人気でしたが、Large Language Models（LLMs）をベースにしたSeaChatは、制限を打破し、より自然で流暢な会話体験を作り出すことができます。"
 weight: 1
-tags: ["SeaChat", "AIツール", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AIツール
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: '会話型AIの世界は革新で響いています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)がユーザーの意図を理解するための強力なツールとして証明されている一方で、Large Language Models（LLMs）の出現は魅力的な代替案を提供しています。[SeaChat](https://chat.seasalt.ai/)、LLM技術をベースにしたプラットフォームは、会話型AIの潜在的な未来を示しています。'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 会話型AIの世界は革新で響いています。[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)がユーザーの意図を理解するための強力なツールとして証明されている一方で、Large Language Models（LLMs）の出現は魅力的な代替案を提供しています。[SeaChat](https://chat.seasalt.ai/)、LLM技術をベースにしたプラットフォームは、会話型AIの潜在的な未来を示しています。

@@ -2,16 +2,15 @@
 title: "டெமோவிலிருந்து வெற்றிக்கு: நவீன சந்திப்புகளின் ஆபத்துகள் (2/5)"
 metatitle: "டெமோவிலிருந்து வெற்றிக்கு (2/5): நவீன சந்திப்புகளின் ஆபத்துகள்"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "இந்த வலைப்பதிவுத் தொடரின் இரண்டாம் பகுதியில், Seasalt.ai இன் SeaMeet ஐ உருவாக்கும் பயணத்தைப் பின்தொடரவும், இது எங்கள் கூட்டு நவீன சந்திப்பு தீர்வுகளாகும்."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *இந்த வலைப்பதிவுத் தொடர் முழுவதும், Seasalt.ai இன் பயணத்தைப் பின்தொடரவும், இது ஒரு முழுமையான நவீன சந்திப்பு அனுபவத்தை உருவாக்குகிறது, அதன் தாழ்மையான தொடக்கத்திலிருந்து, வெவ்வேறு வன்பொருள் மற்றும் மாதிரிகளில் எங்கள் சேவையை மேம்படுத்துவது வரை, அதிநவீன NLP அமைப்புகளை ஒருங்கிணைப்பது வரை, இறுதியாக SeaMeet, எங்கள் கூட்டு நவீன சந்திப்பு தீர்வுகளின் முழுமையான உணர்தலுடன் முடிவடைகிறது.*

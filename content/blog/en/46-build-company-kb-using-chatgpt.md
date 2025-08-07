@@ -1,19 +1,19 @@
 ---
 title: "Building a Dedicated Enterprise AI Chatbot - Customized ChatGPT Robot for Enterprise Internal Knowledge Base"
 metatitle: "Customized Enterprise AI Chatbot and Enterprise Internal Knowledge Base"
-date: 2023-11-02T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explore how customized ChatGPT chatbots can revolutionize enterprise internal knowledge base management. This article deeply analyzes their applications in project management, human resources, engineering design, and other fields, revealing the convenience of no-code development and rapid deployment, and predicting future trends, looking forward to the key role of chatbots in enterprise digital transformation.
+description: "Explore how customized ChatGPT chatbots can revolutionize enterprise internal knowledge base management. This article deeply analyzes their applications in project management, human resources, engineering design, and other fields, revealing the convenience of no-code development and rapid deployment, and predicting future trends, looking forward to the key role of chatbots in enterprise digital transformation."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Explore how customized ChatGPT chatbots can revolutionize enterprise internal knowledge base management. This article deeply analyzes their applications in project management, human resources, engineering design, and other fields, revealing the convenience of no-code development and rapid deployment, and predicting future trends, looking forward to the key role of chatbots in enterprise digital transformation."
+canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 In today's era of digital transformation, enterprises are gradually realizing the huge potential of AI chatbots in improving internal operational efficiency and customer service quality. In particular, advanced chatbot technologies such as ChatGPT will become important tools for enterprise internal knowledge base management and customer interaction.

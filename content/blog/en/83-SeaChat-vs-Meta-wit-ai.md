@@ -1,18 +1,16 @@
 ---
 title: "More Than Just Talk: Why Upgrading from wit.ai ..."
 metatitle: "More Than Just Talk: Why Upgrading from wit.ai ..."
-date: "2024-04-02T00:22:19-07:00"
-lastmod: "2024-04-03T00:22:19-07:00"
-modified_date: "2025-08-01T00:00:00Z"
-draft: "false"
-author: "Xuchen Yao"
+date: 2024-04-02T00:22:19-07:00
+modified_date: 2025-08-01T00:00:00Z
+draft: false
+author: Xuchen Yao
 description: "In the field of conversational AI, Meta/Facebook's wit.ai was once popular, and SeaChat, based on..."
-weight: "1"
-tags:
-image: "/images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png"
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: "The world of chatbots is evolving at an astonishing pace. While Meta/Facebook..."
+weight: 1
+tags: []
+image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 

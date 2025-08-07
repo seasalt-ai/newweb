@@ -1,18 +1,18 @@
 ---
 title: "ديسكورد (3/3): ديسكورد و تويليو فلكس: آوردن مركز تماس فلكس به قلمرو ناشناخته"
 metatitle: "ديسكورد (3/3): مركز تماس تويليو فلكس در ديسكورد"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "در اين وبلاگ، ما نحوه ادغام يك مركز تماس كامل توسط Seasalt.ai در يك سرور ديسكورد را نشان خواهيم داد."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *اين آخرين پست ما در يك سري سه قسمتي در مورد تعامل با مشتري در ديسكورد است. اولين وبلاگ ما، ["مرز جديدي براي تعامل با مشتري"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)، به افزايش محبوبيت ديسكورد و فرصت جديدي كه براي برندها براي ايجاد و مشاركت در جوامع آنلاين خود ارائه مي دهد، پرداخت. در قسمت دوم، ["چگونه يك انجمن ديسكورد و ربات براي برند خود ايجاد كنيم"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)، ما نحوه ايجاد يك سرور ديسكورد براي برند شما و نحوه ادغام يك ربات براي مديريت تعديل سرور، اطلاعيه ها، بازخورد كاربران و غيره را بررسي كرديم. سرانجام، در اين وبلاگ ما نمايشي از نحوه ادغام يك مركز تماس كامل توسط ما در Seasalt.ai در يك سرور ديسكورد ارائه خواهيم داد كه به برندها امكان مي دهد تمام جنبه هاي مراقبت از مشتري را در اين پلتفرم مديريت كنند.*

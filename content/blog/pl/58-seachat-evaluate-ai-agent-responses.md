@@ -1,15 +1,18 @@
 ---
 title: "Jak oceniać odpowiedzi agentów AI: System recenzji SeaChat dla ulepszania i kontroli agentów AI"
 metatitle: "Ocena odpowiedzi agentów AI | System recenzji SeaChat"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat umożliwia oznaczanie, recenzowanie i ulepszanie odpowiedzi agentów AI w celu zwiększenia wydajności i doświadczenia klienta."
 weight: 1
-tags: ["SeaChat", "Agent głosowy", "Narzędzia AI", "Doświadczenie klienta"]
+tags:
+  - SeaChat
+  - Agent głosowy
+  - Narzędzia AI
+  - Doświadczenie klienta
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Wprowadzenie

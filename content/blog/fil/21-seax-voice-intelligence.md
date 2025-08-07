@@ -1,16 +1,17 @@
 ---
 title: "Bigyan ang Iyong Contact Center ng Sariling Boses gamit ang SeaX Voice Intelligence"
 metatitle: "Hayaan ang Iyong Contact Center na Magsalita gamit ang SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "Sa blog na ito, ipapakita namin kung paano mapapahusay ng in-house text-to-speech at speech-to-text engine ng Seasalt.ai ang iba't ibang aspeto ng platform ng SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *Sa ngayon sa aming [serye ng blog ng SeaX](https://seasalt.ai/tags/seax/), binigyan ka namin ng malawak na pangkalahatang-ideya ng flagship product ng Seasalt.ai: SeaX. Tinalakay din namin ang dalawang pangunahing tampok na nagtatakda ng SeaX bukod sa isang tradisyonal na call center: una, na ang SeaX ay omnichannel, na nangangahulugang mas madali kang makikipag-ugnayan sa mga customer sa anumang channel, at pangalawa, na ang platform ay isang distributed contact center, na nagbibigay-daan sa iyo na walang putol na mag-ruta ng mga mensahe at tawag mula sa mga customer sa buong mundo sa iyong mga distributed agent sa iba't ibang lokalidad.*

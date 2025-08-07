@@ -1,16 +1,20 @@
 ---
 title: "جمع آوری آسان نظرسنجی با عامل صوتی هوش مصنوعی"
 metatitle: "جمع آوری آسان نظرسنجی با عامل صوتی هوش مصنوعی"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: آینده ایجاد نظرسنجی با عامل صوتی هوش مصنوعی را کشف کنید! به راحتی سوالات با کیفیت بالا را طراحی کنید، تجربه کاربری را افزایش دهید و نرخ پاسخ را بالا ببرید. با کار دستی خداحافظی کنید!
+description: "آینده ایجاد نظرسنجی با عامل صوتی هوش مصنوعی را کشف کنید! به راحتی سوالات با کیفیت بالا را طراحی کنید، تجربه کاربری را افزایش دهید و نرخ پاسخ را بالا ببرید. با کار دستی خداحافظی کنید!"
 weight: 1
-tags: ["SeaChat", "عامل صوتی", "ابزارهای هوش مصنوعی", "تجربه مشتری"]
+tags:
+  - SeaChat
+  - عامل صوتی
+  - ابزارهای هوش مصنوعی
+  - تجربه مشتری
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # مقدمه

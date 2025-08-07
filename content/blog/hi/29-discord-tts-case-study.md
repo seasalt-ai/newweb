@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "डिस्कॉर्ड पर टेक्स्ट-टू-स्पीच: एक टीटीएस डिस्कॉर्ड बॉट केस स्टडी"
+metatitle: "डिस्कॉर्ड पर टेक्स्ट-टू-स्पीच: एक टीटीएस डिस्कॉर्ड बॉट केस स..."
 date: 2022-12-27 17:04:20-08:00
-description: इस ब्लॉग में हम कई महीनों के प्रामाणिक टेक्स्ट-टू-स्पीच डेटा की समीक्षा
-  करने के बाद वास्तविक डिस्कॉर्ड उपयोगकर्ताओं द्वारा हमारी सेवाओं का उपयोग कैसे किया
-  जाता है, इस पर हमारे निष्कर्षों पर चर्चा करेंगे।
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'डिस्कॉर्ड पर टेक्स्ट-टू-स्पीच: एक टीटीएस डिस्कॉर्ड बॉट केस स...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'डिस्कॉर्ड पर टेक्स्ट-टू-स्पीच: एक टीटीएस डिस्कॉर्ड बॉट केस स्टडी'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "इस ब्लॉग में हम कई महीनों के प्रामाणिक टेक्स्ट-टू-स्पीच डेटा की समीक्षा करने के बाद वास्तविक डिस्कॉर्ड उपयोगकर्ताओं द्वारा हमारी सेवाओं का उपयोग कैसे किया जाता है, इस पर हमारे निष्कर्षों पर चर्चा करेंगे।"
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

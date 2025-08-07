@@ -1,16 +1,20 @@
 ---
 title: "音声AIエージェント vs. チャットAIエージェント：SeaChatのAIソリューションをビジネスに活用する"
 metatitle: "音声エージェント vs. チャットエージェント | SeaChatのAIソリューションを活用する"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChatのビジネス向けAIソリューション、音声ベースの顧客サービス向け音声AIエージェントとテキストベースのインタラクション向けチャットAIエージェントを探る。それぞれ独自の機能とユースケースを持つ。
+description: "SeaChatのビジネス向けAIソリューション、音声ベースの顧客サービス向け音声AIエージェントとテキストベースのインタラクション向けチャットAIエージェントを探る。それぞれ独自の機能とユースケースを持つ。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 今日のペースの速いデジタル環境では、企業は顧客体験を向上させ、業務を効率化するための革新的な方法を常に模索しています。この変革の重要な部分が、AI駆動型コミュニケーションツールの採用です。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)は、多機能なAIプラットフォームであり、音声AIエージェントとチャットAIエージェントという2つの強力なソリューションを1つの製品で提供しています。このブログでは、両方の機能とユースケースを詳しく掘り下げ、ビジネスニーズに最適なものを決定するのに役立ちます。

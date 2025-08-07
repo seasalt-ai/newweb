@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs Microsoft Bot Framework vs Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: உரையாடல் AI துறையில், Microsoft Azure Bot Service (LUIS.ai) பிரபலமாக இருந்தது, ஆனால் பெரிய மொழி மாதிரிகள் (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை மீறி மிகவும் இயற்கையான மற்றும் சிறந்த உரையாடல் அனுபவத்தை உருவாக்க முடியும்.
+description: "உரையாடல் AI துறையில், Microsoft Azure Bot Service (LUIS.ai) பிரபலமாக இருந்தது, ஆனால் பெரிய மொழி மாதிரிகள் (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை மீறி மிகவும் இயற்கையான மற்றும் சிறந்த உரையாடல் அனுபவத்தை உருவாக்க முடியும்."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Microsoft மற்றும் OpenAI இடையே ஆழமான ஒத்துழைப்பு பற்றிய சமீபத்திய செய்திகளால் உரையாடல் AI உலகம் உற்சாகமடைகிறது. சிலர் இந்த ஒத்துழைப்பின் திறனைக் கொண்டாடுகிறார்கள், ஆனால் Microsoft உள்ளேயும் அதிருப்தியின் குரல்கள் உள்ளன. உள்வட்ட வட்டாரங்கள் OpenAI தயாரிப்புகளை ஊக்குவிக்க உள் AI மேம்பாட்டிலிருந்து விலகுவதைப் பற்றி கவலைப்படுவதாக அறிக்கைகள் கூறுகின்றன.
-
-குறிப்பாக குறிப்பிடப்பட்ட பகுதி Microsoft Azure Bot Service இன் விதி. உள்வட்ட செய்தி ஆதாரங்கள், அது "[குறைவாகவோ அல்லது அதிகமாகவோ மறைந்துவிட்டது](https://www.digitalinformationworld.com/2024/03/microsoft-insiders-fear-firm-has.html)" என்று குறிப்பிடுகின்றன, OpenAI தீர்வுகளால் மாற்றப்பட்டுள்ளது.'
-modified_date: 2025-01-27T12:00:00Z
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Microsoft மற்றும் OpenAI இடையே ஆழமான ஒத்துழைப்பு பற்றிய சமீபத்திய செய்திகளால் உரையாடல் AI உலகம் உற்சாகமடைகிறது. சிலர் இந்த ஒத்துழைப்பின் திறனைக் கொண்டாடுகிறார்கள், ஆனால் Microsoft உள்ளேயும் அதிருப்தியின் குரல்கள் உள்ளன. உள்வட்ட வட்டாரங்கள் OpenAI தயாரிப்புகளை ஊக்குவிக்க உள் AI மேம்பாட்டிலிருந்து விலகுவதைப் பற்றி கவலைப்படுவதாக அறிக்கைகள் கூறுகின்றன.

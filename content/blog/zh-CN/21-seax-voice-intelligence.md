@@ -1,16 +1,17 @@
 ---
 title: "使用 SeaX 语音智能，让您的联络中心拥有自己的声音"
 metatitle: "让您的联络中心通过 SeaX 语音智能发声"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "在这篇博客中，我们将展示 Seasalt.ai 内部的文本转语音和语音转文本引擎如何增强 SeaX 平台的各个方面。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *到目前为止，在我们的 [SeaX 博客系列](https://seasalt.ai/tags/seax/) 中，我们已经为您提供了 Seasalt.ai 旗舰产品 SeaX 的广泛概述。我们还讨论了使 SeaX 与传统呼叫中心区别开来的两个关键功能：首先，SeaX 是全渠道的，这意味着您可以更轻松地在任何渠道与客户互动；其次，该平台是一个分布式联络中心，它允许您将来自世界各地的客户消息和呼叫无缝路由到您在不同地区的分布式代理。*

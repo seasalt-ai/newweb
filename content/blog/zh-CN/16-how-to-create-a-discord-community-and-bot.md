@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): 如何为您的品牌创建 Discord 社区和机器人"
 metatitle: "Discord (2/3): 创建您品牌的 Discord 社区和机器人"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "在本篇博客中，我们将逐步介绍如何为您的品牌创建一个服务器并连接一个机器人，该机器人可以自动化处理审核、错误报告、公告等任务。"
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "在本篇博客中，我们将逐步介绍如何为您的品牌创建一个服务器并连接一个机器人，该机器人可以自动化处理审核、错误报告、公告等任务。"
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *在我们的博客文章 [“Discord：客户互动的新前沿”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) 中，我们探讨了 Discord 的日益普及，以及品牌如何利用这个新的社交平台来组建自己的在线社区并与客户互动。在本篇博客中，我们将逐步介绍如何为您的品牌创建一个新的官方服务器，包括如何连接一个机器人，该机器人可以自动化处理审核、错误报告、公告等任务。*
@@ -179,21 +179,51 @@ Discord 提供一个免费的预制小部件，可以嵌入任何网站来宣传
     b. 否则，我们先只对以 `$bot` 开头的消息做出反应——如果消息以此开头，我们就在同一频道回复说 `我收到您的消息了！`。
 4. 最后，在脚本末尾，确保运行 `discord` 客户端，以便它开始监听频道中的事件。
 
-```python
-import discord
+### 关于 Python Discord 客户端的说明
+Discord.py 是最受欢迎的 Discord API Python 封装项目，但其作者和维护者决定停用该库。您可以找到许多替代的 Discord API Python 封装，其中许多是原始 Discord.py 的分支。我们选择使用 PyCord 是因为它似乎维护良好，已经支持斜杠命令，并且有一个Discord 服务器可以提问。
 
-discord_client = discord.Bot()
-discord_token = "xxxxxxxxxxxx"
- 
-@discord_client.event
-async def on_message(message):
-    """监听并对消息做出反应。"""
-    # 检查消息是否来自机器人本身
-    if message.author == discord_client.user:
-        return
+当您创建 Discord 机器人时，尽量不要安装其他的 Discord Python 包。不同的 Discord Python 包通常不能很好地协同工作，因为它们都在独立开发。例如，PyCord 与 discord-components 兼容性不佳，因此请确保不要同时安装这两个包。
 
-    msg = message.content
-    if msg.startswith("$bot") or isinstance(message.channel, discord.DMChannel):
-        await message.channel.send("我收到您的消息了！")
+## 邀请 Discord 机器人
+接下来，您可以邀请机器人到您的服务器。点击“OAuth2” -> “URL 生成器”。在右侧的 URL 生成器上，选择“bot”。
 
-discord_client.run(discord_token)
+<center>
+<img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-bot-invite-url-generator.png" alt="为 Discord 机器人生成邀请链接。"/>
+
+为机器人生成邀请链接。
+
+</center>
+
+接下来，向下滚动以添加机器人的权限。您可以让机器人成为管理员，或者只选择您需要的权限（这样更安全）。
+
+<center>
+<img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-bot-permissions.png" alt="Discord 机器人权限设置。"/>
+
+机器人权限设置。
+
+</center>
+
+最后，复制底部生成的 URL 并在新标签页中打开链接。该链接会将您重定向到将机器人添加到您管理的服务器的页面。
+
+<center>
+<img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/add-discord-bot-to-server.png" alt="将机器人添加到 Discord 服务器。" style="width:50%"/>
+
+将机器人添加到服务器。
+
+</center>
+
+机器人被邀请到服务器后，点击该机器人并点击“添加到服务器”。系统会要求您授予机器人“在服务器中创建命令”的权限。
+
+<center>
+<img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/confirm-discord-bot-permissions.png" alt="确认 Discord 机器人权限。" style="width:50%"/>
+
+在服务器中确认机器人的权限。
+
+</center>
+
+## 测试集成
+现在您的机器人应该已经连接好并正在监听您 Discord 服务器中的所有活动。上面代码中提供的示例机器人只会在有人输入以“$bot”开头的消息时回复“我收到您的消息了！”。像这样的字符串匹配是为您的机器人设置某些操作的最简单方法。但是，Discord 还支持具有更多功能支持的原生应用程序命令。您可以在官方 Discord API 文档中阅读更多相关内容。一旦您完成了初始的机器人集成设置，您的机器人可以为服务器提供的服务将有无限可能。
+
+请继续关注我们博客系列的最后一篇文章，届时我们将逐步介绍我们如何使用我们的产品 SeaX 将 Twilio Flex 的联络中心平台与一个社区 Discord 服务器连接起来。这种集成不仅允许品牌与其客户建立社区，还能保持直接的沟通渠道，并直接在在线社区内解决问题。
+
+欲了解我们任何解决方案的更多信息，请访问 Seasalt.ai 的产品维基 - 或填写“预约演示”表格以亲身体验。

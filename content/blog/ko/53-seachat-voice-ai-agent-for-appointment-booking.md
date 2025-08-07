@@ -1,16 +1,20 @@
 ---
 title: "음성 AI 에이전트: 24시간 연중무휴 예약 혁신"
 metatitle: "음성 AI 에이전트: 24시간 연중무휴 예약 혁신"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: AI와 자연어 처리를 통합하여 효율적이고 원활한 예약 시스템을 제공하는 24시간 연중무휴 솔루션인 음성 AI 에이전트를 통해 예약의 미래를 탐색하세요.
+description: "AI와 자연어 처리를 통합하여 효율적이고 원활한 예약 시스템을 제공하는 24시간 연중무휴 솔루션인 음성 AI 에이전트를 통해 예약의 미래를 탐색하세요."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # 소개

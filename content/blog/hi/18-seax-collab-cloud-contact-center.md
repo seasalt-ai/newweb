@@ -1,17 +1,16 @@
 ---
 title: "SeaX में आपका स्वागत है, एक सहयोगी क्लाउड संपर्क केंद्र"
-date: 2022-06-22T18:21:32Z
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "इस ब्लॉग में हम SeaX, हमारे क्लाउड संचार संपर्क केंद्र समाधान का परिचय देंगे। यह ब्लॉगों की एक श्रृंखला में पहला है जो SeaX का परिचय देगा।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *इस ब्लॉग में हम SeaX, हमारे क्लाउड संचार संपर्क केंद्र समाधान का परिचय देंगे। यह ब्लॉगों की एक श्रृंखला में पहला है जो SeaX की विशेषताओं का गहराई से परिचय और प्रदर्शन करेगा।*

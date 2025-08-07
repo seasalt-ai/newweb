@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs. Microsoft Bot Framework at Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Bot Framework at Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
-author:  Xuchen Yao
-description: Sa larangan ng conversational AI, naging popular ang Microsoft Azure Bot Service (LUIS.ai), at ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at tuluy-tuloy na karanasan sa pag-uusap.
+author: Xuchen Yao
+description: "Sa larangan ng conversational AI, naging popular ang Microsoft Azure Bot Service (LUIS.ai), at ang SeaChat, batay sa Large Language Models (LLMs), ay maaaring lampasan ang mga limitasyon at lumikha ng mas natural at tuluy-tuloy na karanasan sa pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Ang mundo ng conversational AI ay abuzz sa pinakabagong balita ng lumalalim na pakikipagtulungan ng Microsoft sa OpenAI. Habang ipinagdiriwang ng ilan ang potensyal ng kolaborasyong ito, may mga sumasalungat na boses sa loob ng Microsoft. Iniulat na kinatatakutan ng mga insider ang paglayo mula sa internal na pagbuo ng AI upang itaguyod ang mga alok ng OpenAI.
-
-Isang partikular na nabanggit na lugar ay ang kapalaran ng Microsoft Azure Bot Service.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Ang mundo ng conversational AI ay abuzz sa pinakabagong balita ng lumalalim na pakikipagtulungan ng Microsoft sa OpenAI. Habang ipinagdiriwang ng ilan ang potensyal ng kolaborasyong ito, may mga sumasalungat na boses sa loob ng Microsoft. Iniulat na kinatatakutan ng mga insider ang paglayo mula sa internal na pagbuo ng AI upang itaguyod ang mga alok ng OpenAI.

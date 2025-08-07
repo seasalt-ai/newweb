@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord 機器人：首個提供可下載語音錄音和 AI 轉錄的機器人"
 metatitle: "SeaVoice STT/TTS Discord 機器人：錄音下載"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: 隨著最新版本的發布，SeaVoice Discord 機器人是該平台上首個提供可下載語音頻道錄音和 AI 生成轉錄的機器人。
+description: "隨著最新版本的發布，SeaVoice Discord 機器人是該平台上首個提供可下載語音頻道錄音和 AI 生成轉錄的機器人。"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord 機器人作為 Discord 語音頻道中語音轉錄的最佳選擇之一，越來越受歡迎。隨著最新版本的發布，該機器人是 Discord 上首個提供可下載語音頻道錄音和 AI 生成轉錄的機器人。*

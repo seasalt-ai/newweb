@@ -1,16 +1,18 @@
 ---
 title: "Câu chuyện khách hàng: Thành công của Trung tâm liên lạc trong ngành thanh toán kỹ thuật số của Nigeria"
 metatitle: "Thành công của Trung tâm liên lạc trong ngành thanh toán kỹ thuật số của Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Công ty thanh toán kỹ thuật số hàng đầu Nigeria đã đạt được sự hỗ trợ khách hàng mang tính cách mạng với trung tâm liên lạc đa kênh, tích hợp chatbot và hỗ trợ tiếng Pidgin Anh được cá nhân hóa, mang lại lợi ích cho hàng triệu người dùng và người bán.
+description: "Công ty thanh toán kỹ thuật số hàng đầu Nigeria đã đạt được sự hỗ trợ khách hàng mang tính cách mạng với trung tâm liên lạc đa kênh, tích hợp chatbot và hỗ trợ tiếng Pidgin Anh được cá nhân hóa, mang lại lợi ích cho hàng triệu người dùng và người bán."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Câu chuyện thành công về việc triển khai trung tâm liên lạc đa kênh cho một công ty thanh toán kỹ thuật số hàng đầu ở Nigeria cho thấy việc áp dụng công nghệ tiên tiến có thể cách mạng hóa hỗ trợ khách hàng và nâng cao trải nghiệm người dùng tổng thể như thế nào.

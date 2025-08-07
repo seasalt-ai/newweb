@@ -1,17 +1,17 @@
 ---
 title: "如何通过Voicebot协助独居长者 - SeaX的智慧解决方案"
 metatitle: "用AI Voicebot改善独居长者的生活质量 - SeaX智慧照护方案"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "探索如何利用SeaX的AI智慧关怀电话，为中国超高龄社会中的独居长者提供定期关怀、健康监测与紧急支援，有效提升长者的生活质量与安全感。"
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: '中国逐渐进入超高龄社会，独居长者的数量不断增加。根据国家统计局的数据，预计到2024年，中国老年人口比例将接近20%，并在2025年正式跨入超高龄社会。这种社会结构的变化，让独居长者的身心健康问题成为焦点。特别是，许多长者经常感到孤独，并担忧独自在家中去世的可能性。这些心理压力不仅影响了他们的生活质量，也对他们的身体健康构成了威胁。'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 中国逐渐进入超高龄社会，独居长者的数量不断增加。根据国家统计局的数据，预计到2024年，中国老年人口比例将接近20%，并在2025年正式跨入超高龄社会。这种社会结构的变化，让独居长者的身心健康问题成为焦点。特别是，许多长者经常感到孤独，并担忧独自在家中去世的可能性。这些心理压力不仅影响了他们的生活质量，也对他们的身体健康构成了威胁。

@@ -1,15 +1,15 @@
 ---
 title: "Adio Google My Business, acum Google Maps este noul sistem de operare pentru afaceri"
 metatitle: "Adio GMB, Google Maps este noul sistem de operare pentru afaceri"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google înlocuiește aplicația Google My Business cu Google Maps, unde companiile își pot gestiona informațiile și pot răspunde la mesajele clienților pe Google Maps."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Conectarea directă a companiilor cu consumatorii prin intermediul Google Maps oferă o experiență perfectă pentru experiența de cumpărături a consumatorilor. Aceasta este o mișcare strategică excelentă pentru Google de a transforma Google Maps în noul sistem de operare pentru căutarea locală a afacerilor „lângă mine”.*

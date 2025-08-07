@@ -1,9 +1,8 @@
 ---
 title: "SeaChat vs Google DialogFlow: Care platformă de chatbot AI este mai bună?"
-author: "Seasalt.ai Team"
 date: 2024-07-15
-modified_date: 2024-07-28T00:00:00Z
-canonical_url: "https://seasalt.ai/blog/77-SeaChat-vs-Google-DialogFlow"
+modified_date: 2024-07-28 00:00:00+00:00
+author: Seasalt.ai Team
 description: "Comparație SeaChat vs Google DialogFlow: Care platformă de chatbot AI este mai potrivită pentru afaceri?"
 tags:
   - AI Chatbot

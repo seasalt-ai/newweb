@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: 2025 இல் உங்களுக்கு எந்த மின்னஞ்சல் சந்தைப்படுத்தல் சேவை சரியானது?"
 metatitle: "ActiveCampaign vs. MailerLite | மின்னஞ்சல் சந்தைப்படுத்தல் சேவை 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign, எந்த மின்னஞ்சல் சேவை உங்களுக்கு சரியானது? எங்கள் ஆழமான ஒப்பீடு அம்சங்கள், விலை நிர்ணயம் மற்றும் பலவற்றை உடைக்கிறது.
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign, எந்த மின்னஞ்சல் சேவை உங்களுக்கு சரியானது? எங்கள் ஆழமான ஒப்பீடு அம்சங்கள், விலை நிர்ணயம் மற்றும் பலவற்றை உடைக்கிறது."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 மின்னஞ்சல் சந்தைப்படுத்தல் பற்றி நீங்கள் ஆர்வமாக இருக்கிறீர்களா? சிறந்த மின்னஞ்சல் சந்தைப்படுத்தல் மென்பொருளைக் கண்டுபிடிப்பதில் இருந்து ஒரு வெற்றிகரமான மின்னஞ்சல் சந்தைப்படுத்தல் உத்தியை உருவாக்குவது வரை, இந்த பல்துறை கருவி முடிவற்ற சாத்தியக்கூறுகளை வழங்குகிறது. வாடிக்கையாளர்களை எவ்வாறு குறிவைப்பது, மின்னஞ்சல் சந்தைப்படுத்தல் வேலைகளை எவ்வாறு பெறுவது மற்றும் வணிக முடிவுகளை இயக்க மின்னஞ்சல் சந்தைப்படுத்தல் ஆட்டோமேஷனை எவ்வாறு பயன்படுத்துவது என்பதைக் கண்டறியவும். இந்த சுவாரஸ்யமான விவரங்களுக்குள் செல்வதற்கு முன், சரியான மின்னஞ்சல் சந்தைப்படுத்தல் கருவியை முதலில் தேர்வு செய்ய உங்களுக்கு உதவுவோம். இன்று, உங்கள் பரிசீலனைகளுக்காக இரண்டு பிரபலமான கருவிகளான [ActiveCampaign](https://www.activecampaign.com/) மற்றும் [MailerLite](https://www.mailerlite.com/) ஆகியவற்றை ஒப்பிடுவோம்.

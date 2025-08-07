@@ -1,22 +1,21 @@
 ---
 title: "SeaChat vs. Microsoft Bot Framework dan Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Bot Framework dan Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
-author:  Xuchen Yao
-description: Dalam bidang AI percakapan, Microsoft Azure Bot Service (LUIS.ai) pernah populer, dan SeaChat, berdasarkan Large Language Models (LLMs), dapat menembus batasan dan menciptakan pengalaman percakapan yang lebih alami dan fluid.
+author: Xuchen Yao
+description: "Dalam bidang AI percakapan, Microsoft Azure Bot Service (LUIS.ai) pernah populer, dan SeaChat, berdasarkan Large Language Models (LLMs), dapat menembus batasan dan menciptakan pengalaman percakapan yang lebih alami dan fluid."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Dunia AI percakapan sedang ramai dengan berita terbaru tentang kemitraan Microsoft yang semakin dalam dengan OpenAI. Sementara beberapa merayakan potensi kolaborasi ini, ada suara-suara yang berbeda di dalam Microsoft. Orang dalam dilaporkan khawatir akan pergeseran dari pengembangan AI internal untuk mempromosikan penawaran OpenAI.
-
-Salah satu area yang secara khusus disebutkan adalah nasib Microsoft Azure Bot Service.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Dunia AI percakapan sedang ramai dengan berita terbaru tentang kemitraan Microsoft yang semakin dalam dengan OpenAI. Sementara beberapa merayakan potensi kolaborasi ini, ada suara-suara yang berbeda di dalam Microsoft. Orang dalam dilaporkan khawatir akan pergeseran dari pengembangan AI internal untuk mempromosikan penawaran OpenAI.

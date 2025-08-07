@@ -1,18 +1,20 @@
 ---
 title: "Mais do que apenas eloquência: Por que migrar do wit.ai para SeaChat pode elevar sua experiência de IA conversacional"
 metatitle: "Mais do que apenas eloquência: Por que migrar do wit.ai para SeaChat pode elevar sua experiência de IA conversacional"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-03 00:53:24+00:00
 draft: false
 author: Xuchen Yao
 description: "No campo da IA conversacional, wit.ai da Meta/Facebook foi popular, mas SeaChat baseado em grandes modelos de linguagem (LLMs) pode quebrar limitações e criar uma experiência conversacional mais natural e fluida."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-modified_date: 2025-08-03T00:53:24Z
-summary: 'O mundo dos chatbots está evoluindo em um ritmo alucinante. Enquanto [wit.ai](http://wit.ai) da Meta/Facebook serviu como pedra fundamental para construir aplicações impulsionadas por voz, uma nova onda tecnológica está lentamente se tornando o centro das atenções: grandes modelos de linguagem (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma construída sobre tecnologia LLM, oferece uma abordagem revolucionária para IA conversacional, deixando motores baseados em intenções como wit.ai muito para trás. É hora de considerar melhorar seu chatbot?'
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 O mundo dos chatbots está evoluindo em um ritmo alucinante. Enquanto [wit.ai](http://wit.ai) da Meta/Facebook serviu como pedra fundamental para construir aplicações impulsionadas por voz, uma nova onda tecnológica está lentamente se tornando o centro das atenções: grandes modelos de linguagem (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma construída sobre tecnologia LLM, oferece uma abordagem revolucionária para IA conversacional, deixando motores baseados em intenções como wit.ai muito para trás. É hora de considerar melhorar seu chatbot?

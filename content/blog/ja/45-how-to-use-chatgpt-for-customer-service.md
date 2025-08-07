@@ -1,17 +1,19 @@
 ---
 title: "ChatGPTをオンラインカスタマーサービスに活用する方法"
 metatitle: "ChatGPTをオンラインカスタマーサービスに活用する方法 | SeaChat次世代シリーズ"
-date: 2023-11-01T10:25:00-08:00
+date: 2023-11-01 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: カスタムChatGPTボットがカスタマーサービスにおいて果たす革命的な役割。技術的な実装から多分野への応用まで、カスタマーサービスの効率と品質向上におけるその重要性を分析し、チャットボット技術の将来の発展トレンドと課題を展望します。
+description: "カスタムChatGPTボットがカスタマーサービスにおいて果たす革命的な役割。技術的な実装から多分野への応用まで、カスタマーサービスの効率と品質向上におけるその重要性を分析し、チャットボット技術の将来の発展トレンドと課題を展望します。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
-canonicalURL: "/blog/how-to-use-chatgpt-for-customer-service/"
-url: "/blog/how-to-use-chatgpt-for-customer-service/"
-summary: "カスタムChatGPTボットがカスタマーサービスにおいて果たす革命的な役割。技術的な実装から多分野への応用まで、カスタマーサービスの効率と品質向上におけるその重要性を分析し、チャットボット技術の将来の発展トレンドと課題を展望します。"
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-chatgpt-for-customer-service/
+url: /blog/how-to-use-chatgpt-for-customer-service/
 ---
 
 今日の急速に変化するデジタル時代において、カスタマーサービスの役割と方法は深い変革を遂げています。人工知能（AI）技術、特にチャットボット分野の進歩により、企業はかつてない方法で顧客と対話する機会を得ています。カスタムChatGPTボットは、この変革の中心となっており、24時間体制のカスタマーサポートを提供するだけでなく、パーソナライズされたインタラクションを通じて顧客体験を向上させることができます。

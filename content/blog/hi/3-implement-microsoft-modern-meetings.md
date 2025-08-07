@@ -2,16 +2,15 @@
 title: "डेमो से सफलता तक: माइक्रोसॉफ्ट की आधुनिक बैठकों और उससे आगे का कार्यान्वयन (1/5)"
 metatitle: "डेमो से सफलता तक (1/5): माइक्रोसॉफ्ट की आधुनिक बैठकों से परे"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "इस ब्लॉग श्रृंखला के पहले भाग में, सीमीट, हमारे सहयोगी आधुनिक बैठक समाधान बनाने के लिए सीसाल्ट.एआई की यात्रा का अनुसरण करें।"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *इस ब्लॉग श्रृंखला के दौरान, सीसाल्ट.एआई की एक अच्छी तरह से गोल आधुनिक बैठक अनुभव बनाने की यात्रा का अनुसरण करें, इसकी विनम्र शुरुआत से, विभिन्न हार्डवेयर और मॉडलों पर हमारी सेवा को अनुकूलित करने, अत्याधुनिक एनएलपी सिस्टम को एकीकृत करने और अंत में सीमीट, हमारे सहयोगी आधुनिक बैठक समाधानों की पूर्ण प्राप्ति पर समाप्त होने तक।*

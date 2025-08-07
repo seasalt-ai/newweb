@@ -1,17 +1,19 @@
 ---
 title: "ทุกสิ่งที่คุณต้องรู้เพื่อเตรียมพร้อมสำหรับกฎการยินยอมแบบตัวต่อตัวใหม่ของ FCC ปี 2025"
 metatitle: "Seasalt.ai | การเปลี่ยนแปลงกฎ TCPA ปี 2025 | คู่มือฉบับสมบูรณ์"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "คู่มือเชิงลึกเกี่ยวกับการเปลี่ยนแปลงกฎ TCPA ปี 2025 ซึ่งให้ข้อมูลที่จำเป็นสำหรับธุรกิจเพื่อให้มั่นใจว่าเป็นไปตามข้อกำหนด"
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **บทความนี้ไม่ใช่คำแนะนำทางกฎหมาย โปรดปรึกษาที่ปรึกษาทางกฎหมายของคุณสำหรับข้อมูลเพิ่มเติม**

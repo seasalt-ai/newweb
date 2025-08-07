@@ -1,19 +1,18 @@
 ---
 title: "Wie man mehrere parallele Meetings mit SeaMeet effektiv verwaltet"
 metatitle: "Wie man mehrere parallele Meetings mit SeaMeet effektiv verwaltet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Mit der Entstehung großer Sprachmodelle wie ChatGPT hat generative KI neue Erkundungsbereiche eröffnet. Wenn KI mit Spracherkennung kombiniert wird, bietet sie beispiellose Möglichkeiten für die Echtzeit-Meeting-Analyse. Aber was bedeutet das für den täglichen Geschäftsbetrieb? Die Echtzeit-Analyse von Meeting-Aufnahmen ist zu einem unverzichtbaren Instrument für Unternehmen geworden, um die Effizienz und Kommunikationsqualität zu verbessern. Durch Echtzeit-Analyse können Unternehmen sicherstellen, dass jede Diskussion genau dokumentiert wird, wodurch der Entscheidungsprozess effizienter und präziser wird.
+description: "Mit der Entstehung großer Sprachmodelle wie ChatGPT hat generative KI neue Erkundungsbereiche eröffnet. Wenn KI mit Spracherkennung kombiniert wird, bietet sie beispiellose Möglichkeiten für die Echtzeit-Meeting-Analyse. Aber was bedeutet das für den täglichen Geschäftsbetrieb? Die Echtzeit-Analyse von Meeting-Aufnahmen ist zu einem unverzichtbaren Instrument für Unternehmen geworden, um die Effizienz und Kommunikationsqualität zu verbessern. Durch Echtzeit-Analyse können Unternehmen sicherstellen, dass jede Diskussion genau dokumentiert wird, wodurch der Entscheidungsprozess effizienter und präziser wird."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "In der modernen, schnelllebigen Arbeitsumgebung kommt es häufig vor, dass mehrere Meetings gleichzeitig stattfinden. Dies stellt eine enorme Herausforderung für beschäftigte Führungskräfte und Manager dar. Wenn möglich, würden sie gerne an jedem Meeting teilnehmen, aber aufgrund von Zeit- und physischen Einschränkungen ist dies oft unmöglich."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Die Herausforderung mehrerer gleichzeitiger Meetings

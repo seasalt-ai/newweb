@@ -1,16 +1,20 @@
 ---
 title: "Что бизнесу следует знать о чат-ботах: путь от традиционных чат-ботов до агентов LLM"
 metatitle: "Путь от традиционных чат-ботов до агентов LLM"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Чат-агенты на основе LLM предлагают предприятиям простое и эффективное решение для взаимодействия с клиентами, не требующее сложных технических навыков и легко интегрирующееся с существующими системами."
 weight: 1
-tags: ["SeaChat", "Голосовой агент", "Инструменты ИИ", "Качество обслуживания клиентов"]
+tags:
+  - SeaChat
+  - Голосовой агент
+  - Инструменты ИИ
+  - Качество обслуживания клиентов
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Для владельцев бизнеса оптимизация взаимодействия с клиентами имеет решающее значение. Чат-агенты на основе LLM предлагают инновационное, удобное для пользователя решение, не требующее обширных технических навыков.

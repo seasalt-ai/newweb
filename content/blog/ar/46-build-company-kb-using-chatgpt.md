@@ -1,19 +1,19 @@
 ---
 title: "بناء قاعدة معارف الشركة باستخدام ChatGPT"
 metatitle: "بناء قاعدة معارف الشركة باستخدام ChatGPT | سلسلة SeaChat من الجيل التالي"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: استكشف كيف يمكن لروبوتات الدردشة ChatGPT المخصصة أن تحدث ثورة في إدارة قواعد المعارف الداخلية للشركات. يحلل هذا المقال بعمق تطبيقاتها في إدارة المشاريع والموارد البشرية والتصميم الهندسي، ويكشف عن سهولة النشر السريع بدون الحاجة إلى برمجة، ويتنبأ بالاتجاهات المستقبلية، ويتطلع إلى الدور الرئيسي لروبوتات الدردشة في التحول الرقمي للشركات.
+description: "استكشف كيف يمكن لروبوتات الدردشة ChatGPT المخصصة أن تحدث ثورة في إدارة قواعد المعارف الداخلية للشركات. يحلل هذا المقال بعمق تطبيقاتها في إدارة المشاريع والموارد البشرية والتصميم الهندسي، ويكشف عن سهولة النشر السريع بدون الحاجة إلى برمجة، ويتنبأ بالاتجاهات المستقبلية، ويتطلع إلى الدور الرئيسي لروبوتات الدردشة في التحول الرقمي للشركات."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "استكشف كيف يمكن لروبوتات الدردشة ChatGPT المخصصة أن تحدث ثورة في إدارة قواعد المعارف الداخلية للشركات. يحلل هذا المقال بعمق تطبيقاتها في إدارة المشاريع والموارد البشرية والتصميم الهندسي، ويكشف عن سهولة النشر السريع بدون الحاجة إلى برمجة، ويتنبأ بالاتجاهات المستقبلية، ويتطلع إلى الدور الرئيسي لروبوتات الدردشة في التحول الرقمي للشركات."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 في عصر التحول الرقمي الحالي، تدرك الشركات تدريجياً الإمكانات الهائلة لروبوتات الدردشة المدعومة بالذكاء الاصطناعي في تحسين كفاءة العمليات الداخلية وجودة خدمة العملاء. ستصبح تقنيات روبوتات الدردشة المتقدمة مثل ChatGPT أداة مهمة لإدارة قواعد المعارف الداخلية للشركات وتفاعلات العملاء.

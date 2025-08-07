@@ -1,16 +1,19 @@
 ---
 title: "मेटा लामा 3 और एआई मॉडल और व्यावसायिक अनुप्रयोगों के बीच की खाई को पाटने का महत्व"
 metatitle: "मेटा लामा 3 | एआई मॉडल को व्यावसायिक अनुप्रयोगों से जोड़ना"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: मेटा एआई का लामा 3 रिलीज़ शक्तिशाली एआई मॉडल और व्यावहारिक व्यावसायिक अनुप्रयोगों के बीच की खाई को पाटने वाले समाधानों की आवश्यकता पर प्रकाश डालता है। जानें कि Seasalt.ai इस खाई को पाटने और वास्तविक दुनिया की चुनौतियों को हल करने के लिए अनुकूलित संवादी एआई उत्पादों का निर्माण कैसे करता है।
+description: "मेटा एआई का लामा 3 रिलीज़ शक्तिशाली एआई मॉडल और व्यावहारिक व्यावसायिक अनुप्रयोगों के बीच की खाई को पाटने वाले समाधानों की आवश्यकता पर प्रकाश डालता है। जानें कि Seasalt.ai इस खाई को पाटने और वास्तविक दुनिया की चुनौतियों को हल करने के लिए अनुकूलित संवादी एआई उत्पादों का निर्माण कैसे करता है।"
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # मेटा एआई और लामा3

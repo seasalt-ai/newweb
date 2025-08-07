@@ -1,18 +1,17 @@
 ---
 title: "Bătălia Asistenților AI pentru Întâlniri: Microsoft Teams vs Google Meet"
 metatitle: "Bătălia Asistenților AI pentru Întâlniri: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Explorați asistenții AI pentru întâlniri de la Microsoft Teams și Google Meet, comparați suportul lingvistic al platformelor și aflați cum SeaMeet oferă transcriere în timp real, rezumate și alte funcții."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Explorați asistenții AI pentru întâlniri de la Microsoft Teams și Google Meet, comparați suportul lingvistic al platformelor și aflați cum SeaMeet oferă transcriere în timp real, rezumate și alte funcții."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Odată cu avansarea tehnologiei, asistenții AI pentru întâlniri au devenit un instrument esențial pentru îmbunătățirea eficienței întâlnirilor. Aceste instrumente pot genera automat rezumate ale întâlnirilor, pot converti vorbirea în text și pot chiar identifica informații importante în timpul întâlnirilor. În acest articol, vom examina trei asistenți AI principali pentru întâlniri: Copilot de la Microsoft Teams, Duet AI de la Google Meet și SeaMeet.

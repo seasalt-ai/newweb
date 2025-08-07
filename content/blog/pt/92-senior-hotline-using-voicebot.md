@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Assistente de Voz com IA Revoluciona Soluções Inteligentes para Cuidados com Idosos"
 metatitle: "SeaX + SeaChat: Inovação em Cuidados com Idosos Através de Assistente de Voz com IA - Aplicação Bem-Sucedida de Chamadas de Cuidado Inteligentes"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Explore como o sistema de assistente de voz com IA SeaX + SeaChat resolve os desafios dos cuidados com idosos na sociedade superenvelhecida de Taiwan. Entenda como as chamadas de cuidado inteligentes melhoram a qualidade de vida dos idosos, fornecendo cuidado em tempo real, companhia emocional e monitoramento de saúde, além de abordar a escassez de mão de obra."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'À medida que Taiwan avança para uma sociedade superenvelhecida, os cuidados com idosos enfrentam desafios sem precedentes. De acordo com dados do Conselho Nacional de Desenvolvimento, a porcentagem da população idosa em Taiwan se aproximará de 20% em 2024, e espera-se que entre oficialmente em uma sociedade superenvelhecida em 2025. Diante dessa mudança na estrutura demográfica, como fornecer efetivamente cuidados em tempo real, serviços diversificados e resolver o problema da escassez de mão de obra tornaram-se os três principais desafios na atual indústria de cuidados de longo prazo.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 À medida que Taiwan avança para uma sociedade superenvelhecida, os cuidados com idosos enfrentam desafios sem precedentes. De acordo com dados do Conselho Nacional de Desenvolvimento, a porcentagem da população idosa em Taiwan se aproximará de 20% em 2024, e espera-se que entre oficialmente em uma sociedade superenvelhecida em 2025. Diante dessa mudança na estrutura demográfica, como fornecer efetivamente cuidados em tempo real, serviços diversificados e resolver o problema da escassez de mão de obra tornaram-se os três principais desafios na atual indústria de cuidados de longo prazo.

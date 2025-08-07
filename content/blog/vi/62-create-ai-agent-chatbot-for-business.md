@@ -1,16 +1,20 @@
 ---
 title: "Cách tạo chatbot AI agent giọng nói kết nối điện thoại 24/7 cho doanh nghiệp của bạn"
 metatitle: "Tạo AI agent giọng nói | Kết nối điện thoại doanh nghiệp 24/7"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2024-12-19 09:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá hướng dẫn tối ưu để phát triển chatbot AI agent giọng nói và kết nối với hệ thống điện thoại 24/7, nâng cao chất lượng dịch vụ khách hàng.
+description: "Khám phá hướng dẫn tối ưu để phát triển chatbot AI agent giọng nói và kết nối với hệ thống điện thoại 24/7, nâng cao chất lượng dịch vụ khách hàng."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 Trong thế giới nhịp độ nhanh ngày nay, hãy nói về cách nâng cao dịch vụ khách hàng của bạn. Tạo một chatbot AI agent giọng nói và kết nối với hệ thống điện thoại 24x7, sự kết hợp này giống như siêu anh hùng dịch vụ khách hàng, tiết kiệm thời gian và tiền bạc, đồng thời làm khách hàng kinh ngạc. Hãy cùng bắt đầu cuộc hành trình thú vị này!

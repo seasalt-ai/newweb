@@ -1,21 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging يكمل رسائل Google Business"
+metatitle: "Near Me Messaging يكمل رسائل Google Business"
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging يدمج الذكاء الاصطناعي للمحادثة مع رسائل Google Business،
-  مما يتيح الدعم على مدار الساعة طوال أيام الأسبوع عبر زر الدردشة في ملفك الشخصي على
-  خرائط Google.
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging يكمل رسائل Google Business
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging يكمل رسائل Google Business
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging يدمج الذكاء الاصطناعي للمحادثة مع رسائل Google Business، مما يتيح الدعم على مدار الساعة طوال أيام الأسبوع عبر زر الدردشة في ملفك الشخصي على خرائط Google."
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

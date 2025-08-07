@@ -1,18 +1,17 @@
 ---
 title: "Mga May-ari ng Negosyo: Gamitin ang Google Business Messages para Makipag-ugnayan sa Oras na Sarado!"
 metatitle: "Gamitin ang Google Business Messages para Makipag-ugnayan sa Oras na Sarado!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Habang hinahayaan ng Google Business Profile ang mga may-ari ng negosyo na direktang makipag-chat sa mga customer, pinapagana ng Google Business Messages ang pagsasama sa isang virtual agent."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Matuto nang higit pa tungkol sa mga benepisyo at limitasyon ng Google Business Messages at kung paano ipinapatupad ng mga negosyo ang Google Business Messages.*

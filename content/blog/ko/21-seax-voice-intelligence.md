@@ -1,16 +1,17 @@
 ---
 title: "SeaX 음성 지능으로 컨택 센터에 고유한 음성을 부여하세요"
 metatitle: "SeaX 음성 지능으로 컨택 센터가 말하게 하세요"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "이 블로그에서는 Seasalt.ai의 자체 개발 텍스트 음성 변환 및 음성 텍스트 변환 엔진이 SeaX 플랫폼의 다양한 측면을 어떻게 향상시킬 수 있는지 보여줍니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *지금까지 [SeaX 블로그 시리즈](https://seasalt.ai/tags/seax/)에서 Seasalt.ai의 주력 제품인 SeaX에 대한 광범위한 개요를 제공했습니다. 또한 SeaX를 기존 콜센터와 차별화하는 두 가지 주요 기능에 대해 논의했습니다. 첫째, SeaX는 옴니채널이므로 어떤 채널에서든 고객과 더 쉽게 상호 작용할 수 있으며, 둘째, 이 플랫폼은 분산형 컨택 센터이므로 전 세계 고객의 메시지와 통화를 다양한 지역의 분산형 에이전트에게 원활하게 라우팅할 수 있습니다.*

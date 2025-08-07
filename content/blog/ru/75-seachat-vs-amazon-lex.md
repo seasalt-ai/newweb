@@ -1,16 +1,20 @@
 ---
 title: "Откажитесь от сценария, начните разговор: почему обновление с Amazon Lex до SeaChat имеет смысл"
 metatitle: "SeaChat против Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2025-07-29T17:35:15Z
 draft: false
 author: Xuchen Yao
 description: "Почему Amazon Lex устарел? Откройте для себя SeaChat - уходите от повторяющихся чат-ботов с помощью передовой технологии LLM, способствуя увлекательным, человекоподобным беседам."
 weight: 1
-tags: ["SeaChat", "Инструменты ИИ", "Большие языковые модели", "NLU"]
+tags:
+  - SeaChat
+  - Инструменты ИИ
+  - Большие языковые модели
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 Мир чат-ботов стремительно развивается. В то время как [Amazon Lex](https://aws.amazon.com/lex/) был популярным выбором для создания голосовых и текстовых интерфейсов, на передний план выходит новая волна технологий: большие языковые модели (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), платформа на базе LLM, предлагает новаторский подход к диалоговому искусственному интеллекту, оставляя позади движки на основе правил, такие как Lex. Пришло ли время подумать об обновлении вашего чат-бота?

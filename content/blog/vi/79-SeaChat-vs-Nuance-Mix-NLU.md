@@ -1,16 +1,21 @@
 ---
 title: "Tương lai của AI đàm thoại: SeaChat thay thế Nuance Mix NLU?"
 metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Tại sao Nuance Mix NLU đã lỗi thời? Khám phá SeaChat - Điều hướng khỏi những bờ biển chatbot lặp đi lặp lại với công nghệ LLM tiên tiến, thúc đẩy các cuộc trò chuyện hấp dẫn, giống con người.
+description: "Tại sao Nuance Mix NLU đã lỗi thời? Khám phá SeaChat - Điều hướng khỏi những bờ biển chatbot lặp đi lặp lại với công nghệ LLM tiên tiến, thúc đẩy các cuộc trò chuyện hấp dẫn, giống con người."
 weight: 1
-tags: ["SeaChat", "Công cụ AI", "Mô hình ngôn ngữ lớn", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - Công cụ AI
+  - Mô hình ngôn ngữ lớn
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Thế giới AI đàm thoại đang sôi động với những đổi mới. Trong khi [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) đã khẳng định mình là một công cụ mạnh mẽ để hiểu ý định của người dùng, sự xuất hiện của các Mô hình ngôn ngữ lớn (LLM) mang đến một lựa chọn thay thế hấp dẫn. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), một nền tảng được xây dựng trên công nghệ LLM, mang đến cái nhìn thoáng qua về tương lai tiềm năng của AI đàm thoại.

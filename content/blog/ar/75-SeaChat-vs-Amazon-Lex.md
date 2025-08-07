@@ -1,16 +1,20 @@
 ---
 title: "تخلص من النصوص البرمجية، احتضن المحادثة: لماذا الترقية من Amazon Lex إلى SeaChat مهمة"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: لماذا Amazon Lex قديم؟ اكتشف SeaChat - باستخدام تقنية LLM المتقدمة، تخلص من مأزق روبوتات الدردشة المتكررة وازرع محادثات جذابة تشبه البشر.
+description: "لماذا Amazon Lex قديم؟ اكتشف SeaChat - باستخدام تقنية LLM المتقدمة، تخلص من مأزق روبوتات الدردشة المتكررة وازرع محادثات جذابة تشبه البشر."
 weight: 1
-tags: ["SeaChat", "أدوات الذكاء الاصطناعي", "نماذج اللغة الكبيرة", "NLU"]
+tags:
+  - SeaChat
+  - أدوات الذكاء الاصطناعي
+  - نماذج اللغة الكبيرة
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: "2025-07-29T20:45:17Z"
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 عالم روبوتات الدردشة يتطور بسرعة. بينما كان [Amazon Lex](https://aws.amazon.com/lex/) خيارًا شائعًا لبناء واجهات صوتية ونصية، موجة جديدة من التكنولوجيا تحتل مركز الصدارة: نماذج اللغة الكبيرة (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog) هو منصة مدعومة بـ LLM تقدم نهجًا ثوريًا للذكاء الاصطناعي المحادثي، متجاوزة المحركات القائمة على القواعد مثل Lex. هل حان الوقت للنظر في ترقية روبوت الدردشة الخاص بك؟

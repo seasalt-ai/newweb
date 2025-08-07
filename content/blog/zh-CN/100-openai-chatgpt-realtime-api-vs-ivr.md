@@ -1,17 +1,20 @@
 ---
 title: "OpenAI 的新语音技术能否取代您的交互式语音应答 (IVR)？"
 metatitle: "OpenAI 的新语音技术能否取代您的 IVR？"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "探索 OpenAI 的新语音技术能否取代您当前的交互式语音应答系统。"
 weight: 1
-tags: ["自动应答服务", "小型企业入站呼叫", "SeaChat", "语音 AI"]
-toc: true
+tags:
+  - 自动应答服务
+  - 小型企业入站呼叫
+  - SeaChat
+  - 语音 AI
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 您可能听说过 OpenAI 令人兴奋的新语音技术，它听起来非常像人类。演示效果惊人。OpenAI 语音代理智能、自然，并且能很好地处理中断。但是，它是否已准备好取代您当前的交互式语音应答系统？或者，如果您已经购买了语音机器人服务，您能否用 OpenAI 的语音助手来取代它，为您的客户提供服务？让我们简单地分析一下。

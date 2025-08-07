@@ -1,20 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework & Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs Microsoft Bot Framework & Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-19 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "Dalam dunia AI perbualan, Microsoft Azure Bot Service (LUIS.ai) pernah popular, tetapi SeaChat berasaskan LLM membawa pengalaman perbualan yang lebih semula jadi dan lancar."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Dunia AI perbualan teruja dengan kerjasama mendalam antara Microsoft dan OpenAI. Walaupun ramai meraikan potensi ini, ada juga kebimbangan dalaman di Microsoft. Sumber dalaman menyatakan tumpuan mungkin beralih dari pembangunan AI dalaman ke promosi produk OpenAI. Salah satu bidang yang disebut ialah masa depan Azure Bot Service.'
-modified_date: "2024-07-19T00:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Dunia AI perbualan teruja dengan kerjasama mendalam antara Microsoft dan OpenAI. Walaupun ramai meraikan potensi ini, ada juga kebimbangan dalaman di Microsoft. Sumber dalaman menyatakan tumpuan mungkin beralih dari pembangunan AI dalaman ke promosi produk OpenAI.

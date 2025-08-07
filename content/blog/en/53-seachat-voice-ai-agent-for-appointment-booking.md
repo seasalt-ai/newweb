@@ -1,15 +1,19 @@
 ---
 title: "Voice AI Agent: Revolutionizing Appointment Booking 24/7"
 metatitle: "Voice AI Agent: Revolutionizing Appointment Booking 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore the future of appointment scheduling with Voice AI Agent, a 24/7 solution integrating AI and natural language processing for efficient, smooth appointment booking.
+description: "Explore the future of appointment scheduling with Voice AI Agent, a 24/7 solution integrating AI and natural language processing for efficient, smooth appointment booking."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Introduction

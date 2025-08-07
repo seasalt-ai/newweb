@@ -1,16 +1,19 @@
 ---
 title: "Hubspot vs. MailerLite: Perkhidmatan Pemasaran E-mel Mana yang Sesuai untuk Anda pada 2025?"
 metatitle: "Hubspot vs. MailerLite | Perkhidmatan Pemasaran E-mel pada 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Skalakan pemasaran anda dengan platform yang betul. Perbandingan HubSpot vs. MailerLite kami mendedahkan alat terbaik untuk meningkatkan penglibatan, menyelaraskan aliran kerja, dan menjimatkan wang anda.
+description: "Skalakan pemasaran anda dengan platform yang betul. Perbandingan HubSpot vs. MailerLite kami mendedahkan alat terbaik untuk meningkatkan penglibatan, menyelaraskan aliran kerja, dan menjimatkan wang anda."
 weight: 1
-tags: ["SeaChat", "E-dagang", "Pemasaran E-mel"]
+tags:
+  - SeaChat
+  - E-dagang
+  - Pemasaran E-mel
 image: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/hubspot-email-vs-mailerlite/"
-url: "/blog/hubspot-email-vs-mailerlite/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/hubspot-email-vs-mailerlite/
+url: /blog/hubspot-email-vs-mailerlite/
 ---
 
 Untuk cemerlang dalam pemasaran e-mel, anda memerlukan alat yang betul yang dapat menjimatkan masa dan usaha anda tanpa menguras dompet anda. Platform pemasaran e-mel popular dan pilihan perisian pemasaran e-mel berlimpah, termasuk pemimpin industri seperti HubSpot, MailerLite, Mailchimp, dan lain-lain. Setiap satu menawarkan gabungan unik ciri, harga, dan keupayaan automasi. Hari ini, kami akan membandingkan dua alat popular, [Hubspot (Marketing Hub)](https://www.hubspot.com/products/marketing/professional) dan [MailerLite](https://www.mailerlite.com/) untuk pertimbangan anda.

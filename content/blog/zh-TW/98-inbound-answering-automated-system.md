@@ -1,17 +1,20 @@
 ---
 title: "自動電話應答系統（互動式語音應答 vs. 語音 AI 代理）：小型企業的最佳選擇 (3/5)"
 metatitle: "自動應答系統（互動式語音應答 vs. 語音 AI）"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "探索小型企業自動電話系統的互動式語音應答和語音 AI 代理選項。"
 weight: 1
-tags: ["自動應答服務", "小型企業的來電", "SeaChat",  "語音 AI"]
-toc: true
+tags:
+  - 自動應答服務
+  - 小型企業的來電
+  - SeaChat
+  - 語音 AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

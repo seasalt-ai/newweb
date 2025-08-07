@@ -1,18 +1,21 @@
 ---
 title: "The Future of Conversational AI: Does SeaChat Replace Nuance Mix NLU?"
 metatitle: "The Future of Conversational AI: Does SeaChat Replace Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30T10:00:00Z
 draft: false
 author: Xuchen Yao
-description: In the conversational AI space, Nuance Mix NLU was popular, but SeaChat, based on Large Language Models (LLMs), can break through limitations and create more natural, fluid conversational experiences.
+description: "In the conversational AI space, Nuance Mix NLU was popular, but SeaChat, based on Large Language Models (LLMs), can break through limitations and create more natural, fluid conversational experiences."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'The world of conversational AI echoes with innovation. While [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) has proven itself as a powerful tool for understanding user intent, the emergence of Large Language Models (LLMs) offers a compelling alternative. [SeaChat](https://chat.seasalt.ai/), a platform based on LLM technology, showcases the potential future of conversational AI.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 The world of conversational AI echoes with innovation. While [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) has proven itself as a powerful tool for understanding user intent, the emergence of Large Language Models (LLMs) offers a compelling alternative. [SeaChat](https://chat.seasalt.ai/), a platform based on LLM technology, showcases the potential future of conversational AI.

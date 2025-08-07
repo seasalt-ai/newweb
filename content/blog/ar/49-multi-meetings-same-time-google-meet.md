@@ -1,19 +1,19 @@
 ---
 title: "كيفية إدارة اجتماعات متوازية متعددة بفعالية باستخدام SeaMeet"
 metatitle: "كيفية إدارة اجتماعات متوازية متعددة بفعالية باستخدام SeaMeet"
-date: 2023-11-08T10:25:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-07-30 15:10:00-07:00
 draft: false
 author: Xuchen Yao
 description: "مع ولادة نماذج اللغات الكبيرة مثل ChatGPT، فتح الذكاء الاصطناعي التوليدي مجالات جديدة للاستكشاف. عندما يتم دمج الذكاء الاصطناعي مع التعرف على الكلام، فإنه يوفر إمكانيات غير مسبوقة لتحليل الاجتماعات في الوقت الفعلي. ولكن ماذا يعني هذا للعمليات التجارية اليومية؟ أصبح تحليل تسجيلات الاجتماعات في الوقت الفعلي أداة ضرورية للشركات لتحسين الكفاءة وجودة الاتصال. من خلال التحليل في الوقت الفعلي، يمكن للشركات التأكد من تسجيل كل مناقشة بدقة، مما يجعل عملية اتخاذ القرار أكثر كفاءة ودقة."
 weight: 1
-tags: ["SeaMeet", "AI Tools", "AR"]
+tags:
+  - SeaMeet
+  - AI Tools
+  - AR
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/ar/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/ar/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "في بيئة العمل سريعة الخطى اليوم، غالبًا ما تحدث اجتماعات متعددة في نفس الوقت. هذا يمثل تحديًا كبيرًا للمديرين والمديرين التنفيذيين المشغولين. إذا أمكن، يرغبون جميعًا في المشاركة في كل اجتماع، ولكن بسبب قيود الوقت والقيود المادية، غالبًا ما يكون هذا مستحيلًا."
-lastmod: 2024-07-30T15:10:00-07:00
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /ar/blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # تحدي عقد اجتماعات متعددة في نفس الوقت

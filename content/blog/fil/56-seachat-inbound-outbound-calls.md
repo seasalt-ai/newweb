@@ -1,16 +1,20 @@
 ---
 title: "Mga Papasok at Palabas na Tawag, Maaaring Magtrabaho para sa Iyo ang Ahente ng Telepono ng AI sa Pareho"
 metatitle: "Ahente ng Telepono ng AI | Para sa Parehong Papasok at Palabas na Tawag"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Tuklasin ang potensyal na nagbabago ng laro ng mga ahente ng telepono ng AI sa serbisyo sa customer at pagbebenta, na nagbabago ng mga papasok at papalabas na tawag para sa pinahusay na kahusayan at paglago ng kita."
 weight: 1
-tags: ["SeaChat", "Ahente ng Boses", "Mga Kagamitan sa AI", "Karanasan ng Customer"]
+tags:
+  - SeaChat
+  - Ahente ng Boses
+  - Mga Kagamitan sa AI
+  - Karanasan ng Customer
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 Sa patuloy na nagbabagong tanawin ng serbisyo sa customer at pagbebenta, lumitaw ang mga ahente ng telepono ng AI bilang mga bago at mahusay na tool para sa mga negosyo. Ang mga matalinong ahente na ito ay idinisenyo upang hawakan ang parehong mga papasok at papalabas na tawag, na nagpapabago sa mga pakikipag-ugnayan sa customer at nagtutulak ng kita. Sinisiyasat ng artikulong ito ang iba't ibang mga kaso ng paggamit ng mga ahente ng telepono ng AI sa parehong mga papasok at papalabas na tawag, na nagha-highlight sa kanilang kagalingan at potensyal na baguhin ang mga komunikasyon sa negosyo.

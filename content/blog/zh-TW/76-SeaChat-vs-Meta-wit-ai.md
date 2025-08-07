@@ -1,15 +1,19 @@
 ---
 title: "SeaChat vs Meta wit.ai：升級 wit.ai 到 SeaChat，讓對話式 AI 更強大"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Meta/Facebook 的 wit.ai 已經過時了嗎？探索 SeaChat，利用先進 LLM 技術，打造更自然、更人性化的 AI 對話。"
 weight: 1
-tags: ["SeaChat", "AI 工具", "大型語言模型", "NLU"]
+tags:
+  - SeaChat
+  - AI 工具
+  - 大型語言模型
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 聊天機器人世界正以驚人速度演進。Meta/Facebook 的 [wit.ai](http://wit.ai) 曾是語音應用的入門平台，但新一代大型語言模型（LLM）技術如 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 正在改變對話式 AI 的格局，遠遠超越了 wit.ai 的限制。你的聊天機器人，是時候升級了嗎？

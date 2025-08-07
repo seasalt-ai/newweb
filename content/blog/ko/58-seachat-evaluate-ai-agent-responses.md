@@ -1,20 +1,19 @@
 ---
-title: "AI 에이전트 응답 평가 방법: SeaChat의 AI 개선 및 관리를 위한 리뷰 시스템"
-metatitle: "AI 에이전트 응답 평가 | SeaChat 리뷰 시스템"
-date: 2023-12-20T10:25:00-08:00
+title: "SeaChat AI 에이전트 응답 평가 방법"
+metatitle: "SeaChat AI 에이전트 응답 평가 방법"
+date: 2023-12-20 10:25:00-08:00
 draft: false
-author: Xuchen Yao # 建议选项：为了与文章语言保持一致，可使用 야오 쉬첸
+author: Xuchen Yao
 description: "SeaChat을 사용하면 AI 에이전트 응답을 플래그 지정, 검토 및 개선하여 성능과 고객 경험을 향상시킬 수 있습니다."
 weight: 1
-tags: ["SeaChat", "음성 에이전트", "AI 도구", "고객 경험"]
+tags:
+  - SeaChat
+  - 음성 에이전트
+  - AI 도구
+  - 고객 경험
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-canonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
-lang: ko
-metatitle: SeaChat AI 에이전트 응답 평가 방법
-published: 2024-07-01
-slug: 58-seachat-evaluate-ai-agent-responses
-title: SeaChat AI 에이전트 응답 평가 방법
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # 소개

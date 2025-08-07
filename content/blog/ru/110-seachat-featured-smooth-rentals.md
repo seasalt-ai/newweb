@@ -1,17 +1,22 @@
 ---
 title: "SeaChat в центре внимания: Лучший инструмент автоматизации аренды на время отпуска от Smooth Rentals"
 metatitle: "SeaChat от Seasalt.ai | Автоматизация аренды на время отпуска | Функция Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat от Seasalt.ai признан ведущим инструментом автоматизации для аренды на время отпуска в последнем сообщении блога Smooth Rentals. Узнайте, как SeaChat оптимизирует общение с гостями и повышает эффективность."
 weight: 1
-tags: ["SeaChat", "Аренда на время отпуска", "Автоматизация", "Общение с гостями", "Smooth Rentals", "Чат-бот с ИИ"]
-toc: true
+tags:
+  - SeaChat
+  - Аренда на время отпуска
+  - Автоматизация
+  - Общение с гостями
+  - Smooth Rentals
+  - Чат-бот с ИИ
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat представлен в руководстве Smooth Rentals по инструментам автоматизации аренды на время отпуска

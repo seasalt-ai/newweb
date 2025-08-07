@@ -1,18 +1,16 @@
 ---
 title: "LINE Automation Tips: How to Seamlessly Integra..."
 metatitle: "LINE Automation Tips: How to Seamlessly Integra..."
-date: "2024-04-04T00:22:19-07:00"
-lastmod: "2024-04-04T00:22:19-07:00"
-modified_date: "2025-08-01T00:00:00Z"
-draft: "false"
-author: "Yuga Chen"
+date: 2024-04-04T00:22:19-07:00
+modified_date: 2025-08-01T00:00:00Z
+draft: false
+author: Yuga Chen
 description: "LINE auto-reply solutions! LINE's auto-response message function will soon cease service. Use Sea..."
-weight: "1"
-tags:
-image: "/images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-respo..."
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: "Want to make LINE your brand's super assistant? When customers are increasing..."
+weight: 1
+tags: []
+image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-respo...
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 

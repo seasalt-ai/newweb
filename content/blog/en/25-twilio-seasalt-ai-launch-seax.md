@@ -1,17 +1,16 @@
 ---
-author: Xuchen Yao
-canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+title: "Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan"
+metatitle: "Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan"
 date: 2022-11-23 10:28:33-08:00
-description: Twilio and Seasalt.ai Expand Partnership in Asia Pacific & Japan to Build
-  Multi-Country Cloud Contact Centers
 draft: false
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
-metatitle: Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan
-tags:
-- SeaX
-title: Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan
-url: /blog/twilio-seasalt-ai-launch-seax/
+author: Xuchen Yao
+description: "Twilio and Seasalt.ai Expand Partnership in Asia Pacific & Japan to Build Multi-Country Cloud Contact Centers"
 weight: 1
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 

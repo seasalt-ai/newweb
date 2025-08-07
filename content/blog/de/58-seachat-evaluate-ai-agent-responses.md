@@ -1,12 +1,9 @@
 ---
+title: "Wie man die Antworten von SeaChat AI Agent bewertet"
+metatitle: "Wie man die Antworten von SeaChat AI Agent bewertet"
+date: 2025-08-07 10:11:06
 author: SeaHealth Editorial Team
-description: Dieser Artikel erklärt deutschen Nutzern, wie sie die Antworten von SeaChat
-  AI Agenten bewerten und gibt SEO-Tipps.
-lang: de
-metatitle: Wie man die Antworten von SeaChat AI Agent bewertet
-published: 2024-07-01
-slug: 58-seachat-evaluate-ai-agent-responses
-title: Wie man die Antworten von SeaChat AI Agent bewertet
+description: "Dieser Artikel erklärt deutschen Nutzern, wie sie die Antworten von SeaChat AI Agenten bewerten und gibt SEO-Tipps."
 ---
 
 

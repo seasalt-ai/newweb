@@ -1,18 +1,16 @@
 ---
 title: "Elevate Your Conversational AI: Why Migrating f..."
 metatitle: "Elevate Your Conversational AI: Why Migrating f..."
-date: "2024-04-02T00:22:19-07:00"
-lastmod: "2024-04-03T00:22:19-07:00"
-modified_date: "2025-08-01T00:00:00Z"
-draft: "false"
-author: "Xuchen Yao"
+date: 2024-04-02T00:22:19-07:00
+modified_date: 2025-08-01T00:00:00Z
+draft: false
+author: Xuchen Yao
 description: "In the field of conversational AI, Google Dialogflow was once popular, and SeaChat, based on Larg..."
-weight: "1"
-tags:
-image: "/images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png"
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: "The conversational AI landscape is experiencing a surge of innovation. While ..."
+weight: 1
+tags: []
+image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 

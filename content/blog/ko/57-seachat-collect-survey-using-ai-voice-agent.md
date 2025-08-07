@@ -1,16 +1,20 @@
 ---
 title: "AI 음성 에이전트를 이용한 손쉬운 설문조사 수집"
 metatitle: "AI 음성 에이전트를 이용한 손쉬운 설문조사 수집"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: AI 음성 에이전트를 이용한 설문조사 생성의 미래를 발견하세요! 고품질 질문을 손쉽게 작성하고, 사용자 경험을 향상시키며, 응답률을 높이세요. 수작업에 작별을 고하세요!
+description: "AI 음성 에이전트를 이용한 설문조사 생성의 미래를 발견하세요! 고품질 질문을 손쉽게 작성하고, 사용자 경험을 향상시키며, 응답률을 높이세요. 수작업에 작별을 고하세요!"
 weight: 1
-tags: ["SeaChat", "음성 에이전트", "AI 도구", "고객 경험"]
+tags:
+  - SeaChat
+  - 음성 에이전트
+  - AI 도구
+  - 고객 경험
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # 서론

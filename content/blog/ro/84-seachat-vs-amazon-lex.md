@@ -1,17 +1,19 @@
 ---
 title: "Renunțați la scripturi, îmbrățișați conversația naturală: De ce trecerea de la Amazon Lex la SeaChat este logică"
 metatitle: "Renunțați la scripturi, îmbrățișați conversația naturală: De ce trecerea de la Amazon Lex la SeaChat este logică"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-05-16T12:00:00Z
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: În domeniul AI conversaționale, Amazon Lex a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă.
+description: "În domeniul AI conversaționale, Amazon Lex a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'Lumea chatbot-urilor evoluează rapid. Deși [Amazon Lex](https://aws.amazon.com/lex/) a fost o alegere populară pentru construirea de interfețe vocale și text, un nou val de tehnologie devine protagonist: modelele lingvistice mari (LLM-uri). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), o platformă bazată pe LLM-uri, oferă o abordare revoluționară a AI conversaționale, lăsând în urmă motoarele bazate pe reguli precum Lex. Este timpul să vă gândiți la o actualizare pentru chatbot-ul dvs.?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 Lumea chatbot-urilor evoluează rapid. Deși [Amazon Lex](https://aws.amazon.com/lex/) a fost o alegere populară pentru construirea de interfețe vocale și text, un nou val de tehnologie devine protagonist: modelele lingvistice mari (LLM-uri). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), o platformă bazată pe LLM-uri, oferă o abordare revoluționară a AI conversaționale, lăsând în urmă motoarele bazate pe reguli precum Lex. Este timpul să vă gândiți la o actualizare pentru chatbot-ul dvs.?

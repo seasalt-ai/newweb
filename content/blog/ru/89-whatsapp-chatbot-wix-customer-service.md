@@ -1,16 +1,20 @@
 ---
 title: "Как развернуть чат-бота с ИИ на вашем сайте Wix с помощью SeaChat"
 metatitle: "Как развернуть чат-бота с ИИ на вашем сайте Wix с помощью SeaChat"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Расширьте возможности своего сайта Wix с помощью SeaChat - легко интегрируйте поддержку клиентов как на веб-странице Wix, так и в WhatsApp. Легко повышайте вовлеченность!
+description: "Расширьте возможности своего сайта Wix с помощью SeaChat - легко интегрируйте поддержку клиентов как на веб-странице Wix, так и в WhatsApp. Легко повышайте вовлеченность!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "Интеграции"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - Интеграции
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 Включение чат-бота WhatsApp AI от SeaChat в ваш сайт Wix не только повышает уровень обслуживания клиентов, но и выводит ваш бизнес на передний план технологических инноваций. Примите будущее взаимодействия с клиентами с помощью SeaChat.

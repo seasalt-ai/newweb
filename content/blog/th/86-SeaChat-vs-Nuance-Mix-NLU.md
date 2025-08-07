@@ -1,18 +1,21 @@
 ---
 title: "อนาคตของ Conversational AI: SeaChat แทนที่ Nuance Mix NLU?"
 metatitle: "อนาคตของ Conversational AI: SeaChat แทนที่ Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-08T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: ในด้าน Conversational AI Nuance Mix NLU เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น
+description: "ในด้าน Conversational AI Nuance Mix NLU เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: 'โลกของ Conversational AI กำลังสะท้อนนวัตกรรม แม้ว่า [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) จะได้พิสูจน์ตัวเองแล้วว่าเป็นเครื่องมือที่ทรงพลังสำหรับการเข้าใจเจตนาของผู้ใช้ แต่การปรากฏของ Large Language Models (LLMs) ให้ทางเลือกที่น่าสนใจ [SeaChat](https://chat.seasalt.ai/) แพลตฟอร์มที่ใช้เทคโนโลยี LLM แสดงให้เห็นอนาคตที่เป็นไปได้ของ Conversational AI'
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 โลกของ Conversational AI กำลังสะท้อนนวัตกรรม แม้ว่า [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) จะได้พิสูจน์ตัวเองแล้วว่าเป็นเครื่องมือที่ทรงพลังสำหรับการเข้าใจเจตนาของผู้ใช้ แต่การปรากฏของ Large Language Models (LLMs) ให้ทางเลือกที่น่าสนใจ [SeaChat](https://chat.seasalt.ai/) แพลตฟอร์มที่ใช้เทคโนโลยี LLM แสดงให้เห็นอนาคตที่เป็นไปได้ของ Conversational AI

@@ -1,18 +1,18 @@
 ---
 title: "SeaX: Estudo de Caso de Verificação Telefónica Anual - Proporcionando Melhor Cuidado aos Idosos"
 metatitle: "Estudo de Caso de Verificação Telefónica Anual SeaX: Assistente de IA Melhora a Qualidade dos Serviços de Cuidado a Idosos"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Explore como o SeaX revoluciona os serviços de cuidado a idosos através da tecnologia de IA, resolvendo vários desafios nas verificações telefónicas anuais, melhorando a qualidade do serviço e reduzindo a carga dos voluntários. Saiba como as soluções inteligentes do SeaX proporcionam um cuidado contínuo e de melhor qualidade aos idosos em todo o mundo."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Com o envelhecimento da população, as instituições de cuidado a idosos em todo o mundo enfrentam inúmeros desafios. Especialmente no que diz respeito ao cuidado regular e monitorização da saúde, não só exige uma grande quantidade de recursos humanos, mas muitas vezes leva a que potenciais problemas não sejam detetados a tempo devido a negligência ou atrasos. Este é um desafio que uma organização de serviços sociais de Singapura, parceira da Seasalt.ai, enfrentava anteriormente. Esta organização realiza anualmente uma chamada telefónica de cuidado com milhares de idosos, um processo complicado e difícil de gerir eficientemente. Para resolver este problema, introduziram o SeaX, que melhorou significativamente a qualidade e eficiência dos serviços de cuidado através da tecnologia de IA.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

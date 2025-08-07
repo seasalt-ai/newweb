@@ -1,16 +1,17 @@
 ---
 title: "ユーザーがウェブチャットを終了しました：Near Me Messaging を使用してメッセージをプッシュしましょう！"
 metatitle: "ユーザーがウェブチャットを終了しました：Near Me Messaging で連絡を取りましょう！"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28 16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging はウェブチャットの1つの問題を解決します：ユーザーが会話を終了した*後でも*、彼らと連絡を取り直すことができます。"
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 2022年のクリスマスの朝、私はヘンリーというユーザーからのメッセージで目を覚ましました。私がメッセージにたどり着いたときには、ヘンリーはすでに去っていました。私が得たのは、彼がウェブチャットで送ったメッセージと彼の名前だけでした。

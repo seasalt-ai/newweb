@@ -1,16 +1,18 @@
 ---
 title: "Excel, Google Sheets और Apple Numbers से बल्क SMS भेजने का सही तरीका"
 metatitle: "बल्क SMS भेजें | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Excel, Google Sheets और Apple Numbers से बल्क SMS भेजने के सबसे सुरक्षित तरीके जानें और 10DLC के अनुरूप रहें।'
+description: "Excel, Google Sheets और Apple Numbers से बल्क SMS भेजने के सबसे सुरक्षित तरीके जानें और 10DLC के अनुरूप रहें।"
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 कॉन्टैक्ट्स की सूची में बल्क SMS भेजना व्यवसायों, इवेंट आयोजकों और विभिन्न पेशेवरों के लिए एक लोकप्रिय तकनीक है। एक साथ कई लोगों को संदेश भेजना समय बचाता है और सभी को अपडेट रखता है। हालाँकि Excel, Google Sheets और Apple Numbers मूल रूप से SMS भेजने के लिए नहीं बने हैं, लेकिन एक्सटेंशन और थर्ड-पार्टी सेवाएँ यह संभव बनाती हैं। लेकिन कुछ नियमों और जोखिमों का ध्यान रखना जरूरी है।
@@ -38,10 +40,8 @@ url: "/blog/how-to-send-bulk-sms-spreadsheet/"
 
 संपादन से पहले हमेशा एक कॉपी बनाएं: **File > Make a copy**।
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="कॉन्टैक्ट्स स्प्रेडशीट का बैकअप बनाएं"/>
-_कॉन्टैक्ट्स स्प्रेडशीट का बैकअप_
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="बल्क एसएमएस संपर्क स्प्रेडशीट की बैकअप कॉपी बनाएं"/>
+_बल्क एसएमएस संपर्क स्प्रेडशीट की बैकअप कॉपी बनाएं_
 
 ## 2. डुप्लिकेट डेटा हटाएं
 
@@ -50,10 +50,8 @@ b. Data > Data cleanup > Remove duplicates पर क्लिक करें�
 c. कॉलम चुनें और Remove duplicates पर क्लिक करें।
 d. Google Sheets बताएगा कितने डुप्लिकेट हटे।
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="डुप्लिकेट रिकॉर्ड हटाएं"/>
-_डुप्लिकेट रिकॉर्ड हटाएं_
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="बल्क एसएमएस संपर्क स्प्रेडशीट से डुप्लिकेट हटाएं"/>
+_बल्क एसएमएस संपर्क स्प्रेडशीट से डुप्लिकेट हटाएं_
 
 ## 3. फोन नंबर का फॉर्मेट स्टैंडर्ड करें
 
@@ -61,29 +59,23 @@ a. एक समान फॉर्मेट चुनें। SeaX Messaging 5
 b. Find and Replace से फॉर्मेट एक जैसा करें (जैसे डॉट को डैश से बदलें)।
 c. जरूरत हो तो फॉर्मूला या स्क्रिप्ट का उपयोग करें।
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="फोन नंबर फॉर्मेट स्टैंडर्ड करें"/>
-_फोन नंबर फॉर्मेट स्टैंडर्ड करें_
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="बल्क एसएमएस संपर्क स्प्रेडशीट के लिए फोन नंबर प्रारूप को मानकीकृत करें"/>
+_बल्क एसएमएस संपर्क स्प्रेडशीट के लिए फोन नंबर प्रारूप को मानकीकृत करें_
 
 ### 4. डेटा वेलिडेट करें
 
 a. सभी नंबरों में सही अंकों की संख्या हो। डेटा को फिल्टर या सॉर्ट करें।
 b. नामों में कोई खाली या गलत एंट्री न हो।
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="डेटा वेलिडेशन"/>
-_डेटा वेलिडेशन_
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="बल्क एसएमएस संपर्क स्प्रेडशीट के लिए डेटा मान्य करें"/>
+_बल्क एसएमएस संपर्क स्प्रेडशीट के लिए डेटा मान्य करें_
 
 ## 5. खाली सेल्स चेक करें
 
 यह स्टेप वैकल्पिक है। SeaX Messaging में खाली सेल्स वाली पंक्तियाँ ऑटोमेटिकली स्किप हो जाती हैं। लेकिन Conditional formatting से इन्हें पहचानना और सुधारना बेहतर है।
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="खाली सेल्स चेck करें"/>
-_खाली सेल्स चेck करें_
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="बल्क एसएमएस संपर्क स्प्रेडशीट के लिए खाली सेल की जांच करें"/>
+_बल्क एसएमएस संपर्क स्प्रेडशीट के लिए खाली सेल की जांच करें_
 
 ## डेटा क्लीनिंग के अतिरिक्त टिप्स
 
@@ -102,9 +94,7 @@ Excel या Google Sheets में SMS भेजना डिफॉल्ट �
 
 # सफल SMS मार्केटिंग ऑपरेशन कैसे चलाएँ
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="सफल SMS मार्केटिंग"/>
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="सफल एसएमएस मार्केटिंग"/>
 
 भले ही आप पूरी सावधानी बरतें, समस्याएँ आ सकती हैं। दीर्घकालिक सफलता के लिए:
 - हमेशा 10DLC नियमों की जाँच और पालन करें।

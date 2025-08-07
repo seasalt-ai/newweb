@@ -1,18 +1,18 @@
 ---
 title: "Discord (2/3): So erstellen Sie eine Discord-Community und einen Bot für Ihre Marke"
 metatitle: "Discord (2/3): Erstellen Sie die Discord-Community und den Bot Ihrer Marke"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "In diesem Blogbeitrag führen wir Sie durch die Erstellung eines Servers für Ihre Marke und die Anbindung eines Bots, der Moderation, Fehlerberichte, Ankündigungen usw. automatisieren kann."
+date: 2022-05-31 13:29:51-07:00
+modified_date: 2025-08-06 10:45:58+09:00
 draft: false
+author: Kim Dodds
+description: "In diesem Blogbeitrag führen wir Sie durch die Erstellung eines Servers für Ihre Marke und die Anbindung eines Bots, der Moderation, Fehlerberichte, Ankündigungen usw. automatisieren kann."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
-modified_date: 2025-08-06T10:45:58+09:00
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Unser Blogbeitrag [„Discord: Eine neue Dimension der Kundenbindung“](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) befasste sich mit der wachsenden Beliebtheit von Discord und wie Marken diese neue soziale Plattform nutzen können, um eigene Online-Communitys aufzubauen und mit Kunden in Kontakt zu treten. In diesem Blogbeitrag führen wir Sie durch die Erstellung eines neuen offiziellen Servers für Ihre Marke, einschließlich der Anbindung eines Bots, der Aufgaben wie Moderation, Fehlerberichte, Ankündigungen usw. automatisieren kann.*

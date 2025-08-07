@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: एक नॉलेज बेस जो पूछने से पहले जवाब देता है"
 metatitle: "SeaX KB: एक नॉलेज बेस जो पूछने से पहले जवाब देता है"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:18.700Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:18.700000+00:00
 draft: false
 author: Kim Dodds
 description: "इस लेख में, हम SeaX के AI-संचालित नॉलेज बेस को पेश करके AI एकीकरण के विषय को जारी रखते हैं, जो वास्तविक समय में सुझाए गए उत्तर प्रदान करता है।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *हमारे पिछले ब्लॉग पोस्ट में [Give Your Contact Center Its Own Voice with SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), हमने दिखाया कि कैसे Seasalt.ai के इन-हाउस टेक्स्ट-टू-स्पीच और स्पीच-टू-टेक्स्ट इंजन SeaX प्लेटफॉर्म के विभिन्न पहलुओं को बढ़ाते हैं। इस लेख में, हम SeaX के AI-संचालित नॉलेज बेस को पेश करके AI एकीकरण के विषय को जारी रखेंगे, जो सुझाए गए उत्तर प्रदान करने के लिए वास्तविक समय में बातचीत सुनता है।*

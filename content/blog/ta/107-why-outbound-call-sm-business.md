@@ -1,17 +1,19 @@
 ---
 title: "சிறு வணிகங்களுக்கு வெளிச்செல்லும் அழைப்பு/டெலிமார்க்கெட்டிங் சேவை ஏன் தேவை? (1/5)"
 metatitle: "Seasalt.ai | வெளிச்செல்லும் அழைப்புத் தொடர் | சிறு வணிகம்"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "உங்கள் வணிகத் தேவைகளுக்கு சிறந்த வெளிச்செல்லும் அழைப்புத் தீர்வைத் தேர்வுசெய்ய நேரடி முகவர்கள், தானியங்கி டயலர்கள் மற்றும் குரல் AI ஐ ஆராயுங்கள்."
 weight: 1
-tags: ["தானியங்கி டெலிமார்க்கெட்டிங் சேவை", "சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு", "குரல் AI"]
-toc: true
+tags:
+  - தானியங்கி டெலிமார்க்கெட்டிங் சேவை
+  - சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு
+  - குரல் AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

@@ -1,16 +1,19 @@
 ---
 title: "Cum să alegeți cel mai bun serviciu de apeluri outbound: Agenți live vs. apelatoare automate vs. inteligență artificială vocală (5/5)"
 metatitle: "Seasalt.ai | Alegeți cel mai bun serviciu de apeluri outbound"
-date: 2024-11-06T00:22:19-07:00
+date: 2024-11-06 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explorați agenții live, apelatoarele automate și inteligența artificială vocală pentru a alege cea mai bună soluție de apeluri outbound pentru nevoile afacerii dvs."
 weight: 1
-tags: ["Serviciu de telemarketing automat", "Apeluri outbound pentru întreprinderi mici", "Apelator automat",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de telemarketing automat
+  - Apeluri outbound pentru întreprinderi mici
+  - Apelator automat
+  - Inteligență artificială vocală
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

@@ -1,15 +1,16 @@
 ---
 title: "Give Your Contact Center Its Own Voice with SeaX Voice Intelligence"
 metatitle: "Let Your Contact Center Speak with SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "In this blog, we’ll show how Seasalt.ai’s in-house text-to-speech and speech-to-text engines can enhance various aspects of the SeaX platform."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *So far in our [SeaX blog series](https://seasalt.ai/tags/seax/), we’ve given you a broad overview of Seasalt.ai’s flagship product: SeaX. We also discussed two key features that set SeaX apart from a traditional call center: first, that SeaX is omnichannel, which means you to more easily interact with customers on any channel, and second, that the platform is a distributed contact center, which allows you to seamlessly route messages and calls from customers around the world to your distributed agents in various locales.*

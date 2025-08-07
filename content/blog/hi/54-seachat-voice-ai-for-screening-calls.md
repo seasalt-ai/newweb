@@ -1,16 +1,20 @@
 ---
 title: "कौन कॉल कर रहा है? पर्सनलाइज़्ड वॉयस AI एजेंट से कॉल क्वालिटी बढ़ाएँ"
 metatitle: "पर्सनलाइज़्ड वॉयस AI एजेंट से कॉल क्वालिटी बढ़ाएँ"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Voice AI Agent के साथ अपॉइंटमेंट शेड्यूलिंग का भविष्य जानें, 24/7 समाधान जो AI और प्राकृतिक भाषा प्रसंस्करण को एकीकृत करता है, ताकि बुकिंग कुशल और सहज हो सके।
+description: "Voice AI Agent के साथ अपॉइंटमेंट शेड्यूलिंग का भविष्य जानें, 24/7 समाधान जो AI और प्राकृतिक भाषा प्रसंस्करण को एकीकृत करता है, ताकि बुकिंग कुशल और सहज हो सके।"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 व्यस्त शेड्यूल को संभालते समय हर कॉल मायने रखती है। महत्वपूर्ण बिज़नेस डील्स से लेकर अपनों से जुड़ने तक, हमारी रोज़मर्रा की ज़िंदगी अर्थपूर्ण बातचीत के इर्द-गिर्द घूमती है। लेकिन कई इनकमिंग कॉल्स को संभालना थकाऊ और समय लेने वाला हो सकता है। ऐसे में पर्सनलाइज़्ड वॉयस AI एजेंट मदद करता है।

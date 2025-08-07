@@ -1,17 +1,20 @@
 ---
 title: "Recepționist live externalizat vs. angajat intern: Sfaturi practice pentru afaceri (2/5)"
 metatitle: "Recepționist live externalizat vs. angajat intern"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2024-05-16T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2024-05-16 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Comparație între recepționistul live și angajatul intern: costuri, beneficii și informații cheie despre afaceri."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *Aceasta este o serie de 5 articole care explorează strategiile de comunicare cu clienții pentru întreprinderile mici, cu accent pe serviciile de răspuns:*

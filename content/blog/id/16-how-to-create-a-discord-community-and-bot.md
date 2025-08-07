@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): Cara Membuat Komunitas dan Bot Discord untuk Merek Anda"
 metatitle: "Discord (2/3): Buat Komunitas dan Bot Discord Merek Anda"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "Dalam blog ini, kami akan membahas cara membuat server untuk merek Anda dan menghubungkan bot, yang dapat mengotomatiskan moderasi, pelaporan bug, pengumuman, dll."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "Dalam blog ini, kami akan membahas cara membuat server untuk merek Anda dan menghubungkan bot, yang dapat mengotomatiskan moderasi, pelaporan bug, pengumuman, dll."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases:
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Posting blog kami, [“Discord: Batas Baru untuk Keterlibatan Pelanggan”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), membahas peningkatan popularitas Discord, dan bagaimana merek dapat memanfaatkan platform sosial baru ini untuk membentuk komunitas online mereka sendiri dan berinteraksi dengan pelanggan. Dalam blog ini, kami akan membahas cara membuat server resmi baru untuk merek Anda, termasuk cara menghubungkan bot, yang dapat mengotomatiskan tugas-tugas seperti moderasi, pelaporan bug, pengumuman, dll.*

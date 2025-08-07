@@ -1,16 +1,21 @@
 ---
 title: "Masa Depan AI Perbualan: Adakah SeaChat Menggantikan Nuance Mix NLU?"
 metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Mengapa Nuance Mix NLU sudah lapuk? Temui SeaChat - Jauhi pantai chatbot yang berulang dengan teknologi LLM canggih, memupuk perbualan yang menarik, seperti manusia.
+description: "Mengapa Nuance Mix NLU sudah lapuk? Temui SeaChat - Jauhi pantai chatbot yang berulang dengan teknologi LLM canggih, memupuk perbualan yang menarik, seperti manusia."
 weight: 1
-tags: ["SeaChat", "Alat AI", "Model Bahasa Besar", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - Alat AI
+  - Model Bahasa Besar
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Dunia AI Perbualan sedang rancak dengan inovasi. Walaupun [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah mengukuhkan kedudukannya sebagai alat yang berkuasa untuk memahami niat pengguna, kemunculan Model Bahasa Besar (LLM) membentangkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform yang dibina di atas teknologi LLM, menawarkan gambaran sekilas tentang potensi masa depan AI Perbualan.

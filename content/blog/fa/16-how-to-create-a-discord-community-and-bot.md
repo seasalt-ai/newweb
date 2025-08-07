@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): نحوه ایجاد یک انجمن و ربات دیسکورد برای برند شما"
 metatitle: "Discord (2/3): انجمن و ربات دیسکورد برند خود را ایجاد کنید"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "در این وبلاگ، ما به شما نحوه ایجاد یک سرور برای برند خود و اتصال یک ربات را آموزش می‌دهیم که می‌تواند وظایفی مانند مدیریت، گزارش اشکال، اطلاعیه‌ها و غیره را خودکار کند."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "در این وبلاگ، ما به شما نحوه ایجاد یک سرور برای برند خود و اتصال یک ربات را آموزش می‌دهیم که می‌تواند وظایفی مانند مدیریت، گزارش اشکال، اطلاعیه‌ها و غیره را خودکار کند."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases:
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *پست وبلاگ ما، ["دیسکورد: مرز جدیدی برای تعامل با مشتری"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)، به افزایش محبوبیت دیسکورد و چگونگی استفاده برندها از این پلتفرم اجتماعی جدید برای تشکیل جوامع آنلاین خود و تعامل با مشتریان پرداخت. در این وبلاگ، ما به شما نشان خواهیم داد که چگونه یک سرور رسمی جدید برای برند خود ایجاد کنید، از جمله نحوه اتصال یک ربات، که می‌تواند وظایفی مانند مدیریت، گزارش باگ، اطلاعیه‌ها و غیره را خودکار کند.*

@@ -1,16 +1,18 @@
 ---
 title: "História de Cliente: Capacitando um Grande Banco Asiático para Oferecer Suporte Multilíngue e Focado na Privacidade aos Clientes"
 metatitle: "Banco Asiático Oferece Suporte Multilíngue e Privado com SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: O blog descreve como a implantação de um contact center omnichannel revolucionou o cenário de atendimento ao cliente para um grande banco privado no Sudeste Asiático, aprimorando o desempenho do agente por meio de transcrições de fala em tempo real, insights baseados em dados e medidas robustas de privacidade de dados.
+description: "O blog descreve como a implantação de um contact center omnichannel revolucionou o cenário de atendimento ao cliente para um grande banco privado no Sudeste Asiático, aprimorando o desempenho do agente por meio de transcrições de fala em tempo real, insights baseados em dados e medidas robustas de privacidade de dados."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 A história de sucesso da implantação de um contact center omnichannel para um dos maiores bancos privados do Sudeste Asiático demonstra como a tecnologia avançada e uma abordagem centrada no cliente podem transformar o cenário de atendimento ao cliente, garantindo a privacidade dos dados.

@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: 묻기 전에 답하는 지식 기반"
 metatitle: "SeaX KB: 묻기 전에 답하는 지식 기반"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:25.784Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:25.784000+00:00
 draft: false
 author: Kim Dodds
 description: "이 기사에서는 실시간으로 제안된 답변을 제공하는 SeaX의 AI 기반 지식 기반을 소개하여 AI 통합 주제를 계속합니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *이전 블로그 게시물 [SeaX Voice Intelligence로 컨택 센터에 고유한 음성 제공](https://seasalt.ai/blog/21-seax-voice-intelligence/)에서 Seasalt.ai의 사내 텍스트 음성 변환 및 음성 텍스트 변환 엔진이 SeaX 플랫폼의 다양한 측면을 어떻게 향상시키는지 보여주었습니다. 이 기사에서는 실시간으로 대화를 수신하여 제안된 답변을 제공하는 SeaX의 AI 기반 지식 기반을 소개하여 AI 통합 주제를 계속할 것입니다.*

@@ -1,18 +1,20 @@
 ---
 title: "Abandonando los guiones, abrazando la conversación natural: Por qué actualizar de Amazon Lex a SeaChat tiene mucho sentido"
 metatitle: "Abandonando los guiones, abrazando la conversación natural: Por qué actualizar de Amazon Lex a SeaChat tiene mucho sentido"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: En el campo de la IA conversacional, Amazon Lex fue popular, y SeaChat, basado en Grandes Modelos de Lenguaje (LLMs), puede superar las limitaciones y crear una experiencia conversacional más natural y fluida.
+description: "En el campo de la IA conversacional, Amazon Lex fue popular, y SeaChat, basado en Grandes Modelos de Lenguaje (LLMs), puede superar las limitaciones y crear una experiencia conversacional más natural y fluida."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'El mundo de los chatbots está evolucionando rápidamente. Aunque [Amazon Lex](https://aws.amazon.com/lex/) ha sido una opción popular para construir interfaces de voz y texto, una nueva ola de tecnología está tomando el centro del escenario: los Grandes Modelos de Lenguaje (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), una plataforma impulsada por LLMs, ofrece un enfoque innovador para la IA conversacional, dejando muy atrás a los motores basados en reglas como Lex. ¿Es hora de considerar una actualización para su chatbot?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 El mundo de los chatbots está evolucionando rápidamente. Aunque [Amazon Lex](https://aws.amazon.com/lex/) ha sido una opción popular para construir interfaces de voz y texto, una nueva ola de tecnología está tomando el centro del escenario: los Grandes Modelos de Lenguaje (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), una plataforma impulsada por LLMs, ofrece un enfoque innovador para la IA conversacional, dejando muy atrás a los motores basados en reglas como Lex. ¿Es hora de considerar una actualización para su chatbot?

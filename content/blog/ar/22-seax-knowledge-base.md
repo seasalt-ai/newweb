@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: قاعدة معرفة تجيب على أسئلتك قبل أن تطرحها"
 metatitle: "SeaX KB: قاعدة معرفة تجيب على أسئلتك قبل أن تطرحها"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:01.555Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:01.555000+00:00
 draft: false
 author: Kim Dodds
 description: "في هذا المقال، سنواصل موضوع تكامل الذكاء الاصطناعي من خلال تقديم قاعدة المعرفة المدعومة بالذكاء الاصطناعي في SeaX، والتي تقدم ردودًا مقترحة في الوقت الفعلي."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *في منشور مدونتنا السابق [امنح مركز الاتصال الخاص بك صوته الخاص مع ذكاء الصوت SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/)، عرضنا كيف تعزز محركات تحويل النص إلى كلام والكلام إلى نص الداخلية في Seasalt.ai جوانب مختلفة من منصة SeaX. في هذا المقال، سنواصل موضوع تكامل الذكاء الاصطناعي من خلال تقديم قاعدة المعرفة المدعومة بالذكاء الاصطناعي في SeaX، والتي تستمع إلى المحادثات في الوقت الفعلي لتقديم ردود مقترحة.*

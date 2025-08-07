@@ -1,16 +1,17 @@
 ---
 title: "Perkhidmatan Pelanggan di United Airlines: yang Baik, yang Buruk dan yang Hodoh"
 metatitle: "Analisis Perkhidmatan Pelanggan di United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao berkongsi pengalaman terbarunya dengan perkhidmatan pelanggan United Airlines semasa kelewatan dan pembatalan penerbangan dan mencadangkan penyelesaian untuk menangani cabaran penskalaan dinamik sokongan pelanggan semasa trafik melonjak.
+description: "Xuchen Yao berkongsi pengalaman terbarunya dengan perkhidmatan pelanggan United Airlines semasa kelewatan dan pembatalan penerbangan dan mencadangkan penyelesaian untuk menangani cabaran penskalaan dinamik sokongan pelanggan semasa trafik melonjak."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *Ketua Pegawai Eksekutif [Seasalt.ai](https://seasalt.ai), Xuchen Yao, berkongsi pengalaman terbarunya dengan perkhidmatan pelanggan United Airlines selepas menghadapi kelewatan dan pembatalan penerbangan. Ini menyebabkan beliau menyedari cabaran yang dihadapi oleh sokongan pelanggan syarikat penerbangan dalam menskalakan dirinya secara dinamik untuk mengendalikan trafik yang melonjak semasa situasi sedemikian. Xuchen bercakap tentang penambahbaikan yang berpotensi seperti mengalihkan trafik layan diri daripada ejen manusia, meningkatkan kecekapan ejen manusia, dan membangunkan teknologi untuk mengenal pasti dan mengurangkan risiko masalah yang berpotensi secara proaktif.*

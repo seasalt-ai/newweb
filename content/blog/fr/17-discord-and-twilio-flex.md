@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord et Twilio Flex: Amener le Centre de Contact Flex en Territoire Inexploré"
 metatitle: "Discord (3/3): Centre de Contact Twilio Flex dans Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "Dans ce blog, nous démontrons comment Seasalt.ai intègre un centre de contact complet dans un serveur Discord."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Ceci est le dernier article de notre série en trois parties sur l'engagement client sur Discord. Notre premier article de blog ["Une Nouvelle Frontière pour l'Engagement Client"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) a discuté de la popularité croissante de Discord et des nouvelles opportunités qu'il offre aux marques pour créer et s'engager avec leurs propres communautés en ligne. Dans la deuxième partie ["Comment Créer une Communauté Discord et Bot pour Votre Marque"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), nous avons introduit comment créer un serveur Discord pour votre marque et comment intégrer des bots pour gérer la modération du serveur, les annonces, les commentaires utilisateur et plus encore. Enfin, dans ce blog, nous démontrons comment Seasalt.ai intègre un centre de contact complet dans un serveur Discord, permettant aux marques de gérer tous les aspects du service client sur la plateforme.*

@@ -1,15 +1,19 @@
 ---
 title: "AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி: SeaChat-ன் AI Agent மேம்பாடு மற்றும் கட்டுப்பாட்டு முறை"
 metatitle: "AI Agent பதில்களை மதிப்பீடு செய்வது | SeaChat-ன் மதிப்பாய்வு முறை"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat AI Agent பதில்களை குறிக்க, மதிப்பாய்வு செய்து மேம்படுத்த உதவுகிறது, இது செயல்திறன் மற்றும் வாடிக்கையாளர் அனுபவத்தை மேம்படுத்துகிறது."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # அறிமுகம்

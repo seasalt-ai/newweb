@@ -1,16 +1,18 @@
 ---
 title: "Historia de cliente: Cómo Seax ayudó a una marca líder de teléfonos móviles a dar soporte a clientes en 100 países"
 metatitle: "SeaX ayudó a una marca líder de teléfonos móviles a dar soporte a clientes a nivel mundial"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Descubra cómo la implementación transformadora del centro de contacto omnicanal de Seasalt.ai ayudó a una de las 5 principales marcas de teléfonos móviles a revolucionar las operaciones de soporte al cliente en 100 países, ¡del caos a la satisfacción del cliente!
+description: "Descubra cómo la implementación transformadora del centro de contacto omnicanal de Seasalt.ai ayudó a una de las 5 principales marcas de teléfonos móviles a revolucionar las operaciones de soporte al cliente en 100 países, ¡del caos a la satisfacción del cliente!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 La historia de éxito de la implementación del centro de contacto omnicanal para una de las 5 principales marcas internacionales de teléfonos móviles es un testimonio del poder transformador de la tecnología para mejorar las operaciones de soporte al cliente.

@@ -1,18 +1,20 @@
 ---
 title: "会話体験を向上させる：wit.aiからSeaChatへのアップグレードがなぜ効果的なのか"
 metatitle: "会話体験を向上させる：wit.aiからSeaChatへのアップグレードがなぜ効果的なのか"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 会話型AIの分野では、Meta/Facebookのwit.aiがかつて人気でしたが、大規模言語モデル（LLM）に基づくSeaChatは、限界を打ち破り、より自然で流暢な会話体験を生み出すことができます。
+description: "会話型AIの分野では、Meta/Facebookのwit.aiがかつて人気でしたが、大規模言語モデル（LLM）に基づくSeaChatは、限界を打ち破り、より自然で流暢な会話体験を生み出すことができます。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: 'チャットボットの世界は驚くべき速さで進化しています。Meta/Facebookの[wit.ai](http://wit.ai)が音声駆動型アプリケーション構築の足がかりとなった一方で、新しい技術の波がゆっくりと舞台の中心になりつつあります。それは大規模言語モデル（LLM）です。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)は、LLM技術に基づいて構築されたプラットフォームであり、会話型AIに画期的なアプローチを提供し、wit.aiのような意図ベースのエンジンをはるかに凌駕しています。チャットボットのアップグレードを検討する時期が来たのではないでしょうか？'
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 チャットボットの世界は驚くべき速さで進化しています。Meta/Facebookの[wit.ai](http://wit.ai)が音声駆動型アプリケーション構築の足がかりとなった一方で、新しい技術の波がゆっくりと舞台の中心になりつつあります。それは大規模言語モデル（LLM）です。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)は、LLM技術に基づいて構築されたプラットフォームであり、会話型AIに画期的なアプローチを提供し、wit.aiのような意図ベースのエンジンをはるかに凌駕しています。チャットボットのアップグレードを検討する時期が来たのではないでしょうか？

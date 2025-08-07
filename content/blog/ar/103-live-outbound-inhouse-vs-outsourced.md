@@ -1,17 +1,20 @@
 ---
 title: "داخليًا مقابل الاستعانة بمصادر خارجية للمكالمات الصادرة للتسويق عبر الهاتف: توصيات عملية للشركات (2/5)"
 metatitle: "Seasalt.ai | المكالمات الصادرة المباشرة | داخليًا مقابل الاستعانة بمصادر خارجية"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "قارن المكالمات الصادرة الداخلية مقابل المكالمات الصادرة الخارجية - التكاليف والميزات، واحصل على نصائح عملية لتحسين تواصلك مع العملاء."
 weight: 1
-tags: ["خدمة التسويق عبر الهاتف التلقائي", "المكالمات الصادرة للشركات الصغيرة", "SeaChat", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة التسويق عبر الهاتف التلقائي
+  - المكالمات الصادرة للشركات الصغيرة
+  - SeaChat
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

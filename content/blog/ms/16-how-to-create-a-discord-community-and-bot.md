@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): Cara Membuat Komuniti dan Bot Discord untuk Jenama Anda"
 metatitle: "Discord (2/3): Cipta Komuniti dan Bot Discord Jenama Anda"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "Dalam blog ini, kami akan membimbing anda melalui penciptaan pelayan untuk jenama anda dan menyambungkan bot, yang boleh mengautomasikan moderasi, pelaporan pepijat, pengumuman, dll."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "Dalam blog ini, kami akan membimbing anda melalui penciptaan pelayan untuk jenama anda dan menyambungkan bot, yang boleh mengautomasikan moderasi, pelaporan pepijat, pengumuman, dll."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases:
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Catatan blog kami, [“Discord: Sempadan Baharu untuk Penglibatan Pelanggan”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), meliputi peningkatan populariti Discord, dan bagaimana jenama boleh memanfaatkan platform sosial baharu ini untuk membentuk komuniti dalam talian mereka sendiri dan berinteraksi dengan pelanggan. Dalam blog ini, kami akan membimbing anda cara membuat pelayan rasmi baharu untuk jenama anda, termasuk cara menyambungkan bot, yang boleh mengautomasikan tugas seperti moderasi, pelaporan pepijat, pengumuman, dll.*

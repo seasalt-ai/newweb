@@ -1,15 +1,19 @@
 ---
 title: "Inbound and Outbound Calls, AI Phone Agent Can Work for You on Both"
 metatitle: "AI Phone Agent | For Both Inbound and Outbound Calls"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Discover the game-changing potential of AI phone agents in customer service and sales, transforming inbound and outbound calls for enhanced efficiency and revenue growth.
+description: "Discover the game-changing potential of AI phone agents in customer service and sales, transforming inbound and outbound calls for enhanced efficiency and revenue growth."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 In the ever-evolving landscape of customer service and sales, AI phone agents have emerged as new and efficient tools for businesses. These intelligent agents are designed to handle both inbound and outbound calls, revolutionizing customer interactions and driving revenue. This article delves into the various use cases of AI phone agents in both inbound and outbound calls, highlighting their versatility and potential to transform business communications.

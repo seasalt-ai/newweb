@@ -1,16 +1,17 @@
 ---
 title: "Привлекайте клиентов с любого канала в одно место с помощью омниканальной коммуникации SeaX"
 metatitle: "Объедините точки соприкосновения с клиентами с помощью омниканальной коммуникации SeaX"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "В этом блоге мы расскажем об одном из омниканальных средств связи SeaX, которое позволяет отображать сообщения пользователей с любого канала на платформе SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *В нашем предыдущем сообщении в блоге [Добро пожаловать в SeaX, совместный облачный контакт-центр](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/) мы представили SeaX, наше совместное решение для облачного контакт-центра. В то время как в нашем первом сообщении в блоге был представлен всесторонний обзор основных и более продвинутых функций SeaX, в наших последующих сообщениях мы углубимся в некоторые отдельные функции, которые выделяют SeaX. В этом посте мы подробнее рассмотрим поддержку омниканальности SeaX и посмотрим, как звонки и сообщения с разных каналов отображаются на платформе SeaX.*

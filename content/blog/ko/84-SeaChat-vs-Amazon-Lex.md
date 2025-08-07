@@ -1,18 +1,20 @@
 ---
 title: "스크립트를 버리고 자연스러운 대화를 포용하기: Amazon Lex에서 SeaChat으로 업그레이드하는 것이 합리적인 이유"
 metatitle: "스크립트를 버리고 자연스러운 대화를 포용하기: Amazon Lex에서 SeaChat으로 업그레이드하는 것이 합리적인 이유"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 대화형 AI 분야에서 Amazon Lex는 한때 인기가 있었으며, 대규모 언어 모델(LLM)을 기반으로 하는 SeaChat은 한계를 뛰어넘어 보다 자연스럽고 유연한 대화 경험을 만들 수 있습니다.
+description: "대화형 AI 분야에서 Amazon Lex는 한때 인기가 있었으며, 대규모 언어 모델(LLM)을 기반으로 하는 SeaChat은 한계를 뛰어넘어 보다 자연스럽고 유연한 대화 경험을 만들 수 있습니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: '챗봇의 세계는 빠르게 진화하고 있습니다. [Amazon Lex](https://aws.amazon.com/lex/)는 음성 및 텍스트 인터페이스를 구축하는 데 인기 있는 선택이었지만, 새로운 기술의 물결이 주역으로 떠오르고 있습니다. 바로 대규모 언어 모델(LLM)입니다. LLM 기반 기술로 구축된 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 플랫폼은 대화형 AI에 혁신적인 접근 방식을 제공하여 Lex와 같은 규칙 기반 엔진을 훨씬 뒤처지게 합니다. 챗봇 업그레이드를 고려할 때가 되었습니까?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 챗봇의 세계는 빠르게 진화하고 있습니다. [Amazon Lex](https://aws.amazon.com/lex/)는 음성 및 텍스트 인터페이스를 구축하는 데 인기 있는 선택이었지만, 새로운 기술의 물결이 주역으로 떠오르고 있습니다. 바로 대규모 언어 모델(LLM)입니다. LLM 기반 기술로 구축된 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 플랫폼은 대화형 AI에 혁신적인 접근 방식을 제공하여 Lex와 같은 규칙 기반 엔진을 훨씬 뒤처지게 합니다. 챗봇 업그레이드를 고려할 때가 되었습니까?

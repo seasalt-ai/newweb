@@ -1,16 +1,16 @@
 ---
 title: "Żegnaj Google Moja Firma, teraz Google Maps to nowy system operacyjny dla firm"
 metatitle: "Żegnaj GMB, Google Maps to nowy system operacyjny dla firm"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google zastępuje aplikację Google Moja Firma Mapami Google, gdzie firmy mogą zarządzać swoimi informacjami i odpowiadać na wiadomości klientów w Mapach Google."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: "2025-07-28T16:03:25.123456"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Bezpośrednie łączenie firm z konsumentami za pośrednictwem Map Google zapewnia płynne doświadczenie zakupowe dla konsumentów. Jest to świetny strategiczny ruch dla Google, aby przekształcić Mapy Google w nowy system operacyjny do lokalnego wyszukiwania firm „w pobliżu”.*

@@ -1,18 +1,17 @@
 ---
 title: "Od wersji demonstracyjnej do sukcesu: postrzeganie spotkań (4/5)"
 metatitle: "Od wersji demonstracyjnej do sukcesu (4/5): postrzeganie spotkań"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "W czwartej części tej serii blogów prześledź podróż Seasalt.ai w tworzeniu SeaMeet, naszych wspólnych, nowoczesnych rozwiązań do spotkań."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *W całej tej serii blogów śledź podróż Seasalt.ai w tworzeniu wszechstronnego doświadczenia w zakresie nowoczesnych spotkań, począwszy od skromnych początków, poprzez optymalizację naszych usług na różnym sprzęcie i modelach, aż po integrację najnowocześniejszych systemów NLP i wreszcie pełną realizację SeaMeet, naszych wspólnych, nowoczesnych rozwiązań do spotkań.*

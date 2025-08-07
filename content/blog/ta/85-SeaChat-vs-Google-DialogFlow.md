@@ -1,18 +1,20 @@
 ---
 title: "உங்கள் உரையாடல் AI-ஐ மேம்படுத்துங்கள்: Dialogflow-இலிருந்து SeaChat-க்கு மாற்றம் ஏன் ஒரு மூலோபாய நன்மையாக இருக்கலாம்"
 metatitle: "உங்கள் உரையாடல் AI-ஐ மேம்படுத்துங்கள்: Dialogflow-இலிருந்து SeaChat-க்கு மாற்றம் ஏன் ஒரு மூலோபாய நன்மையாக இருக்கலாம்"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: உரையாடல் AI துறையில், Google Dialogflow பிரபலமாக இருந்தது, ஆனால் பெரிய மொழி மாதிரிகள் (LLMs) அடிப்படையிலான SeaChat வரம்புகளை மீறி மேலும் இயற்கையான மற்றும் சீரான உரையாடல் அனுபவங்களை உருவாக்க முடியும்.
+description: "உரையாடல் AI துறையில், Google Dialogflow பிரபலமாக இருந்தது, ஆனால் பெரிய மொழி மாதிரிகள் (LLMs) அடிப்படையிலான SeaChat வரம்புகளை மீறி மேலும் இயற்கையான மற்றும் சீரான உரையாடல் அனுபவங்களை உருவாக்க முடியும்."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: 'உரையாடல் AI துறை புதுமையின் அலைவை அனுபவித்து வருகிறது. Google-ன் [Dialogflow](https://cloud.google.com/dialogflow) ஊடாடும் குரல் மற்றும் உரை இடைமுகங்களை உருவாக்குவதற்கான அடித்தளமாக இருந்தாலும், ஒரு புதிய தொழில்நுட்ப அலை கவனத்தை ஈர்க்கிறது: பெரிய மொழி மாதிரிகள் (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), LLM தொழில்நுட்பத்தை அடிப்படையாகக் கொண்ட ஒரு தளம், Dialogflow போன்ற விதி அடிப்படையிலான இயந்திரங்களைத் தாண்டி உரையாடல் AI-க்கான ஒரு புரட்சிகர அணுகுமுறையை முன்மொழிகிறது. தங்கள் chatbot-களின் செயல்திறன் மற்றும் பயனர் அனுபவத்தை மேம்படுத்த விரும்பும் நிறுவனங்களுக்கு, SeaChat-க்கு மாற்றம் ஒரு மூலோபாய நன்மையாக இருக்கலாம்.'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 உரையாடல் AI துறை புதுமையின் அலைவை அனுபவித்து வருகிறது. Google-ன் [Dialogflow](https://cloud.google.com/dialogflow) ஊடாடும் குரல் மற்றும் உரை இடைமுகங்களை உருவாக்குவதற்கான அடித்தளமாக இருந்தாலும், ஒரு புதிய தொழில்நுட்ப அலை கவனத்தை ஈர்க்கிறது: பெரிய மொழி மாதிரிகள் (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), LLM தொழில்நுட்பத்தை அடிப்படையாகக் கொண்ட ஒரு தளம், Dialogflow போன்ற விதி அடிப்படையிலான இயந்திரங்களைத் தாண்டி உரையாடல் AI-க்கான ஒரு புரட்சிகர அணுகுமுறையை முன்மொழிகிறது. தங்கள் chatbot-களின் செயல்திறன் மற்றும் பயனர் அனுபவத்தை மேம்படுத்த விரும்பும் நிறுவனங்களுக்கு, SeaChat-க்கு மாற்றம் ஒரு மூலோபாய நன்மையாக இருக்கலாம்.

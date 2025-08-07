@@ -1,19 +1,18 @@
 ---
 title: "Como a transcrição em tempo real e a análise de reuniões estão mudando as reuniões do Google Meet"
 metatitle: "Como a transcrição em tempo real e a análise de reuniões estão mudando as reuniões do Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: A transcrição em tempo real e a análise de reuniões estão mudando a forma como as reuniões funcionam. Elas não apenas melhoram a eficiência das reuniões, fornecem insights instantâneos e promovem a tomada de decisões rápidas, mas também aumentam o engajamento dos participantes, garantindo o sucesso das reuniões de negócios modernas.
+description: "A transcrição em tempo real e a análise de reuniões estão mudando a forma como as reuniões funcionam. Elas não apenas melhoram a eficiência das reuniões, fornecem insights instantâneos e promovem a tomada de decisões rápidas, mas também aumentam o engajamento dos participantes, garantindo o sucesso das reuniões de negócios modernas."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "A transcrição em tempo real e a análise de reuniões estão mudando a forma como as reuniões funcionam. Elas não apenas melhoram a eficiência das reuniões, fornecem insights instantâneos e promovem a tomada de decisões rápidas, mas também aumentam o engajamento dos participantes, garantindo o sucesso das reuniões de negócios modernas."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 No ambiente de negócios moderno, as reuniões são plataformas cruciais para promover a colaboração em equipe e a tomada de decisões. No entanto, devido a várias reuniões paralelas e agendas lotadas, manter-se atualizado com todas as reuniões tornou-se cada vez mais difícil. Nesse contexto, a necessidade de transcrição em tempo real e análise de reuniões tornou-se cada vez mais proeminente, pois elas fornecem uma solução para superar as limitações dos métodos tradicionais de registro de reuniões e garantir um gerenciamento eficaz das reuniões.

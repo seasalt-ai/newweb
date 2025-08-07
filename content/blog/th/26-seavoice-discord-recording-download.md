@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: บอทแรกที่ให้บริการบันทึกเสียงที่ดาวน์โหลดได้พร้อมการถอดเสียง AI"
 metatitle: "SeaVoice STT/TTS Discord Bot: ดาวน์โหลดบันทึก"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: ด้วยการเปิดตัวล่าสุด SeaVoice Discord Bot เป็นบอทแรกบนแพลตฟอร์มที่นำเสนอการบันทึกช่องเสียงที่ดาวน์โหลดได้พร้อมการถอดเสียงที่สร้างโดย AI
+description: "ด้วยการเปิดตัวล่าสุด SeaVoice Discord Bot เป็นบอทแรกบนแพลตฟอร์มที่นำเสนอการบันทึกช่องเสียงที่ดาวน์โหลดได้พร้อมการถอดเสียงที่สร้างโดย AI"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Bot ได้รับความนิยมเพิ่มขึ้นในฐานะหนึ่งในตัวเลือกที่ดีที่สุดสำหรับการถอดเสียงพูดในช่องเสียง Discord ด้วยการเปิดตัวล่าสุด บอทนี้เป็นบอทแรกบน Discord ที่นำเสนอการบันทึกช่องเสียงที่ดาวน์โหลดได้พร้อมการถอดเสียงที่สร้างโดย AI*

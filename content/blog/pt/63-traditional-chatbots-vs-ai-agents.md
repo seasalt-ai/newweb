@@ -1,16 +1,20 @@
 ---
 title: "O que as empresas devem saber sobre chatbots: a jornada dos chatbots tradicionais para os agentes LLM"
 metatitle: "A jornada dos chatbots tradicionais para os agentes LLM"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Os agentes de bate-papo baseados em LLM oferecem às empresas uma solução fácil e eficiente para interações com clientes, sem a necessidade de habilidades técnicas complexas e com integração perfeita aos sistemas existentes."
 weight: 1
-tags: ["SeaChat", "Agente de Voz", "Ferramentas de IA", "Experiência do Cliente"]
+tags:
+  - SeaChat
+  - Agente de Voz
+  - Ferramentas de IA
+  - Experiência do Cliente
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Para os proprietários de empresas, otimizar a interação com o cliente é crucial. Os agentes de bate-papo baseados em LLM oferecem uma solução inovadora e fácil de usar que não requer habilidades técnicas extensas.

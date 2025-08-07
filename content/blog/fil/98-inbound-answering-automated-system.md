@@ -1,16 +1,19 @@
 ---
 title: "Mga Automated Phone Answering System (Interactive Voice Response vs. Voice AI Agents): Pinakamahusay na Mga Pagpipilian para sa Maliit na Negosyo (3/5)"
 metatitle: "Mga Automated Answering System (Interactive Voice Response vs. Voice AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Tuklasin ang mga opsyon ng Interactive Voice Response at Voice AI agents para sa mga automated phone system sa maliit na negosyo."
 weight: 1
-tags: ["Automated Answering Service", "Inbound Call para sa Maliit na Negosyo", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Automated Answering Service
+  - Inbound Call para sa Maliit na Negosyo
+  - SeaChat
+  - Voice AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

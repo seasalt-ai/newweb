@@ -1,16 +1,20 @@
 ---
 title: "Trình tạo tác nhân AI không mã của SeaChat giúp việc áp dụng AI trở nên dễ dàng"
 metatitle: "Trình tạo tác nhân AI không mã của SeaChat giúp việc áp dụng AI trở nên dễ dàng"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Dễ dàng điều hướng việc áp dụng AI trong tổ chức của bạn với SeaChat! Trình tạo tác nhân AI không mã này đơn giản hóa quy trình, giúp nó dễ dàng và không gặp rắc rối. Bắt đầu từ các trường hợp sử dụng đơn giản và dần dần tăng cường việc áp dụng AI bằng cách thử nghiệm các cách khác nhau để tận dụng AI.
+description: "Dễ dàng điều hướng việc áp dụng AI trong tổ chức của bạn với SeaChat! Trình tạo tác nhân AI không mã này đơn giản hóa quy trình, giúp nó dễ dàng và không gặp rắc rối. Bắt đầu từ các trường hợp sử dụng đơn giản và dần dần tăng cường việc áp dụng AI bằng cách thử nghiệm các cách khác nhau để tận dụng AI."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Giới thiệu SeaChat: Trình tạo tác nhân AI không mã của bạn

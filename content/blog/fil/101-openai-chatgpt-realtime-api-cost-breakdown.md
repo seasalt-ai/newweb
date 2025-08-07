@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. Tao vs. Voice AI: Isang Paghahambing ng Gastos (5/5)"
 metatitle: "OpenAI Realtime API vs. Tao at Voice AI: Paghahati-hati ng Gastos"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "Isang detalyadong pagsusuri ng gastos ng OpenAI Realtime API kumpara sa mga human receptionist at voice AI agents."
 weight: 1
-tags: ["Serbisyo ng Auto Answering", "Papasok na Tawag para sa Maliit na Negosyo", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Serbisyo ng Auto Answering
+  - Papasok na Tawag para sa Maliit na Negosyo
+  - SeaChat
+  - Voice AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

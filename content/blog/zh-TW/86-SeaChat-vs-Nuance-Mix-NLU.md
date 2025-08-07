@@ -1,17 +1,20 @@
 ---
 title: "對話式AI的未來：SeaChat取代Nuance Mix NLU？"
 metatitle: "對話式AI的未來：SeaChat取代Nuance Mix NLU？"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: 在對話式AI領域，Nuance Mix NLU曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。
+description: "在對話式AI領域，Nuance Mix NLU曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。"
 weight: 1
-tags: ["SeaChat", "AI工具", "大型語言模型", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI工具
+  - 大型語言模型
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: ' 對話式AI的世界正響起創新的迴響。雖然[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)已經證明自己在用於理解用戶意圖上，是一個強大的工具，但大型語言模型(LLMs)的出現提供了一個引人注目的替代方案。[SeaChat](https://chat.seasalt.ai/)，一個基於LLM技術的平台，展示了對話式AI潛在的未來。'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
  對話式AI的世界正響起創新的迴響。雖然[Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)已經證明自己在用於理解用戶意圖上，是一個強大的工具，但大型語言模型(LLMs)的出現提供了一個引人注目的替代方案。[SeaChat](https://chat.seasalt.ai/)，一個基於LLM技術的平台，展示了對話式AI潛在的未來。 

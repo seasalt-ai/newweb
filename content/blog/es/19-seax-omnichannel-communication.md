@@ -1,16 +1,17 @@
 ---
 title: "Lleve a los clientes de cualquier canal a un solo lugar con la comunicación omnicanal de SeaX"
 metatitle: "Unifique los puntos de contacto con el cliente con la comunicación omnicanal de SeaX"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "En este blog, destacamos una de las comunicaciones omnicanal de SeaX, que permite que los mensajes de los usuarios de cualquier canal se muestren en la plataforma SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *En nuestra publicación de blog anterior, [Bienvenido a SeaX, un centro de contacto en la nube colaborativo](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), presentamos SeaX, nuestra solución de centro de contacto de comunicaciones en la nube colaborativa. Si bien nuestra primera publicación de blog brindó una descripción general completa de las características básicas y más avanzadas de SeaX, nuestras publicaciones posteriores profundizarán en algunas de las características individuales que hacen que SeaX se destaque. En esta publicación, analizaremos más de cerca el soporte omnicanal de SeaX y veremos cómo las llamadas y los mensajes de diferentes canales aparecen en la plataforma SeaX.*

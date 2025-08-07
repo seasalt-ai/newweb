@@ -1,17 +1,20 @@
 ---
 title: "Auto Dialer untuk Panggilan Keluar: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Panggilan Keluar Langsung | Auto Dialer"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Bandingkan Power, Progressive, dan Predictive Dialer untuk panggilan keluar yang efektif dan skalabel dalam telemarketing dan penjualan."
 weight: 1
-tags: ["Layanan Telemarketing Otomatis", "Panggilan Keluar untuk Usaha Kecil", "Auto Dialer", "AI Suara"]
-toc: true
+tags:
+  - Layanan Telemarketing Otomatis
+  - Panggilan Keluar untuk Usaha Kecil
+  - Auto Dialer
+  - AI Suara
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

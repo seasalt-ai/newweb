@@ -1,19 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): Eine neue Ära der Kundenbindung"
+metatitle: "Discord (1/3): Eine neue Ära der Kundenbindung"
 date: 2022-05-23 13:05:36-07:00
-description: In diesem Blog besprechen wir Discords Aufstieg und warum bzw. wie Unternehmen
-  Discord nutzen, um die Kundenbindung zu verbessern.
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): Eine neue Ära der Kundenbindung'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): Eine neue Ära der Kundenbindung'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "In diesem Blog besprechen wir Discords Aufstieg und warum bzw. wie Unternehmen Discord nutzen, um die Kundenbindung zu verbessern."
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

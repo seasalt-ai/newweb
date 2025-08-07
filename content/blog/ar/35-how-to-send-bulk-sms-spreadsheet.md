@@ -1,16 +1,18 @@
 ---
 title: "الطريقة الصحيحة لإرسال الرسائل النصية القصيرة دفعة واحدة إلى جهات الاتصال في Excel و Google Sheets و Apple Numbers"
 metatitle: "إرسال الرسائل النصية القصيرة دفعة واحدة | Excel، Google Sheets، Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-30 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'تعرف على الطرق الأكثر أمانًا لإرسال الرسائل النصية القصيرة دفعة واحدة من Excel و Google Sheets و Apple Numbers مع البقاء متوافقًا مع 10DLC.'
+description: "تعرف على الطرق الأكثر أمانًا لإرسال الرسائل النصية القصيرة دفعة واحدة من Excel و Google Sheets و Apple Numbers مع البقاء متوافقًا مع 10DLC."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
-modified_date: "2024-07-30T12:00:00Z"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 weight: 1
@@ -50,12 +52,8 @@ url: "/blog/how-to-send-bulk-sms-spreadsheet/"
 
 يضمن عمل نسخة من جهات الاتصال الخاصة بك عدم فقدان أي بيانات اتصال إذا أخطأت. إليك كيفية القيام بذلك: **انقر على `ملف` > `إنشاء نسخة`**.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="عمل نسخة احتياطية لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية"/>
-
-_عمل نسخة احتياطية لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="إنشاء نسخة احتياطية من جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة"/>
+_إنشاء نسخة احتياطية من جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة_
 
 ## 2. إزالة البيانات المكررة
 
@@ -67,12 +65,8 @@ c. حدد الأعمدة التي تريد التحقق منها بحثًا عن
 
 d. ستخطرك Google Sheets بعدد التكرارات التي تمت إزالتها.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="إزالة السجلات المكررة لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية"/>
-
-_إزالة السجلات المكررة لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="إزالة التكرارات من جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة"/>
+_إزالة التكرارات من جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة_
 
 ## 3. توحيد تنسيق رقم الهاتف
 
@@ -82,13 +76,8 @@ b. استخدم `بحث واستبدال` لجعل التنسيق متسقًا. 
 
 c. استخدم صيغًا أو نصوصًا برمجية مخصصة إذا لزم الأمر لضمان اتساق جميع الأرقام. قد يتطلب هذا مهارات متقدمة في جداول البيانات.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="توحيد تنسيق رقم الهاتف لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية"/>
-
-_توحيد تنسيق رقم الهاتف لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="توحيد تنسيق أرقام الهواتف في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة"/>
+_توحيد تنسيق أرقام الهواتف في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة_
 
 ### 4. التحقق من صحة إدخالات البيانات
 
@@ -96,13 +85,8 @@ a. بالنسبة لأرقام الهواتف، تأكد من أن جميعها 
 
 b. بالنسبة للأسماء، ابحث عن الإدخالات التي قد تكون فارغة أو مملوءة ببيانات غير ذات صلة.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="التحقق من صحة إدخالات البيانات لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية"/>
-
-_التحقق من صحة إدخالات البيانات لجدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="التحقق من صحة البيانات في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة"/>
+_التحقق من صحة البيانات في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة_
 
 ## 5. التحقق من الخلايا الفارغة
 
@@ -118,13 +102,8 @@ c. اضبط تنسيق الخلايا إذا كانت `الخلية فارغة` 
 
 d. سيسمح لك هذا بتحديد الخلايا الفارغة ومعالجتها بسهولة.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="التحقق من الخلايا الفارغة في جدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية"/>
-
-_التحقق من الخلايا الفارغة في جدول بيانات جهات اتصال الرسائل النصية القصيرة الجماعية_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="التحقق من الخلايا الفارغة في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة"/>
+_التحقق من الخلايا الفارغة في جدول بيانات جهات الاتصال للرسائل النصية القصيرة المجمعة_
 
 ## المزيد حول إعداد بيانات جهات الاتصال
 
@@ -147,11 +126,7 @@ _التحقق من الخلايا الفارغة في جدول بيانات جه
 
 # كيفية إدارة حملات تسويق الرسائل النصية الناجحة
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="النجاح في تسويق الرسائل النصية"/>
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="تسويق الرسائل النصية القصيرة الناجح"/>
 
 حتى مع أفضل النوايا، قد تنشأ مشاكل. إليك بعض الطرق لإدارة حملات تسويق الرسائل النصية الناجحة على المدى الطويل:
 

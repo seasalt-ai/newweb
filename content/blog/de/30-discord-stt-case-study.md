@@ -1,15 +1,17 @@
 ---
 title: "Sprache-zu-Text auf Discord: Eine STT Discord Bot Fallstudie"
 metatitle: "Sprache-zu-Text auf Discord: Eine STT Discord Bot Fallstudie"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: In diesem Blog werden wir unsere Erkenntnisse darüber diskutieren, wie echte Discord-Benutzer SeaVoice-Dienste nutzen, nachdem wir mehrere Wochen authentischer Sprache-zu-Text-Daten überprüft haben.
+description: "In diesem Blog werden wir unsere Erkenntnisse darüber diskutieren, wie echte Discord-Benutzer SeaVoice-Dienste nutzen, nachdem wir mehrere Wochen authentischer Sprache-zu-Text-Daten überprüft haben."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Nach dem Start von SeaVoice, einem der schnellsten und genauesten Text-zu-Sprache- und Sprache-zu-Text-Bots auf Discord, wollten wir verstehen, wie Benutzer tatsächlich mit den Diensten interagierten. In diesem Blog werden wir unsere Erkenntnisse nach der Überprüfung mehrerer Wochen realer Sprache-zu-Text-Benutzerdaten diskutieren.*

@@ -1,17 +1,22 @@
 ---
 title: "SeaChat 특집: Smooth Rentals의 최고 휴가 렌탈 자동화 도구"
 metatitle: "Seasalt.ai의 SeaChat | 휴가 렌탈 자동화 | Smooth Rentals 특집"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "Seasalt.ai의 SeaChat은 Smooth Rentals의 최신 블로그 게시물에서 휴가 렌탈을 위한 최고의 자동화 솔루션으로 인정받았습니다. SeaChat이 게스트 커뮤니케이션을 간소화하고 효율성을 높이는 방법을 알아보세요."
 weight: 1
-tags: ["SeaChat", "휴가 렌탈", "자동화", "게스트 커뮤니케이션", "Smooth Rentals", "AI 챗봇"]
-toc: true
+tags:
+  - SeaChat
+  - 휴가 렌탈
+  - 자동화
+  - 게스트 커뮤니케이션
+  - Smooth Rentals
+  - AI 챗봇
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # Smooth Rentals의 휴가 렌탈 자동화 도구 가이드에 SeaChat 특집

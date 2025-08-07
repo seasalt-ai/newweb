@@ -1,17 +1,19 @@
 ---
 title: "맞춤형 ChatGPT 챗봇으로 혁신적인 마케팅 실현하기"
 metatitle: "맞춤형 ChatGPT 챗봇으로 혁신적인 마케팅 실현하기 | SeaChat로 만드는 차세대 챗봇 시리즈"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 맞춤형 ChatGPT 챗봇을 활용해 마케팅 캠페인에 새로운 활력을 불어넣는 방법을 탐구합니다. 혁신적인 상호작용부터 브랜드 이미지 제고까지, 본문은 마케팅에서 AI의 무한한 잠재력을 보여줍니다.
+description: "맞춤형 ChatGPT 챗봇을 활용해 마케팅 캠페인에 새로운 활력을 불어넣는 방법을 탐구합니다. 혁신적인 상호작용부터 브랜드 이미지 제고까지, 본문은 마케팅에서 AI의 무한한 잠재력을 보여줍니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "맞춤형 ChatGPT 챗봇을 활용해 마케팅 캠페인에 새로운 활력을 불어넣는 방법을 탐구합니다. 혁신적인 상호작용부터 브랜드 이미지 제고까지, 본문은 마케팅에서 AI의 무한한 잠재력을 보여줍니다."
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 빠르게 변화하는 디지털 마케팅 환경에서 마케팅 에이전시는 고객을 끌어들이고 독특한 브랜드 경험을 창출할 수 있는 새로운 전략을 지속적으로 모색하고 있습니다. 인공지능의 부상과 함께 맞춤형 ChatGPT 챗봇이 등장하여 마케팅 전문가들에게 고객을 유치하고 상호작용할 수 있는 혁신적인 도구를 제공합니다.

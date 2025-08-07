@@ -1,18 +1,20 @@
 ---
 title: "SeaChatとZoho Deskナレッジベース統合による顧客サポートの合理化"
 metatitle: "SeaChatとZoho Deskで顧客サポートを合理化"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChatのAIチャットおよび音声エージェントがZoho Deskの包括的なナレッジベースと統合され、シームレスで効率的な顧客サポートを実現する方法をご覧ください。
+description: "SeaChatのAIチャットおよび音声エージェントがZoho Deskの包括的なナレッジベースと統合され、シームレスで効率的な顧客サポートを実現する方法をご覧ください。"
 weight: 1
-tags: ["SeaChat", "AIツール", "統合", "顧客体験"]
+tags:
+  - SeaChat
+  - AIツール
+  - 統合
+  - 顧客体験
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 今日の急速に進化するデジタル環境において、企業は顧客サポートを強化し、情報管理を合理化するための革新的なソリューションを継続的に模索しています。高度なAIチャットおよび音声エージェントであるSeaChatと、Zoho Deskの包括的なナレッジベースの統合は、これらの課題に対する画期的なソリューションを提供します。

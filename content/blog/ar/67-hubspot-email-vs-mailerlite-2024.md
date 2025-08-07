@@ -1,16 +1,19 @@
 ---
 title: "Hubspot مقابل MailerLite: أي خدمة تسويق عبر البريد الإلكتروني مناسبة لك في عام 2025؟"
 metatitle: "Hubspot مقابل MailerLite | خدمة التسويق عبر البريد الإلكتروني في عام 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: قم بتوسيع نطاق تسويقك باستخدام المنصة المناسبة. تكشف مقارنتنا بين HubSpot و MailerLite عن أفضل أداة لتعزيز التفاعل وتبسيط سير العمل وتوفير أموالك.
+description: "قم بتوسيع نطاق تسويقك باستخدام المنصة المناسبة. تكشف مقارنتنا بين HubSpot و MailerLite عن أفضل أداة لتعزيز التفاعل وتبسيط سير العمل وتوفير أموالك."
 weight: 1
-tags: ["SeaChat", "التجارة الإلكترونية", "التسويق عبر البريد الإلكتروني"]
+tags:
+  - SeaChat
+  - التجارة الإلكترونية
+  - التسويق عبر البريد الإلكتروني
 image: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/hubspot-email-vs-mailerlite/"
-url: "/blog/hubspot-email-vs-mailerlite/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/hubspot-email-vs-mailerlite/
+url: /blog/hubspot-email-vs-mailerlite/
 ---
 
 للتفوق في التسويق عبر البريد الإلكتروني، تحتاج إلى الأدوات المناسبة التي يمكن أن توفر لك الوقت والجهد دون استنزاف أموالك. تتوفر العديد من منصات التسويق عبر البريد الإلكتروني الشائعة وخيارات برامج التسويق عبر البريد الإلكتروني، بما في ذلك رواد الصناعة مثل HubSpot و MailerLite و Mailchimp وغيرها. يقدم كل منها مزيجًا فريدًا من الميزات والأسعار وقدرات الأتمتة. اليوم، سنقارن أداتين شائعتين، [Hubspot (Marketing Hub)](https://www.hubspot.com/products/marketing/professional) و [MailerLite](https://www.mailerlite.com/) لاعتباراتك.

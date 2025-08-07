@@ -1,15 +1,19 @@
 ---
 title: "Higit pa sa mga Witticism: Bakit ang Pag-upgrade mula sa wit.ai patungong SeaChat ay Makapagpapalakas ng Iyong Conversational AI"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Bakit luma na ang wit.ai ng Meta/Facebook? Tuklasin ang SeaChat - Lumayo sa paulit-ulit na chatbot na mga baybayin gamit ang advanced na teknolohiya ng LLM, na nagtataguyod ng nakakaengganyo, parang tao na mga pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 Ang mundo ng mga chatbot ay mabilis na nagbabago. Habang ang [wit.ai](http://wit.ai) ng Meta/Facebook ay nagsilbing stepping stone para sa pagbuo ng mga voice-powered na application, isang bagong alon ng teknolohiya ang nangunguna: Large Language Models (LLMs). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na binuo sa teknolohiya ng LLM, ay nag-aalok ng groundbreaking na diskarte sa Conversational AI, na iniiwan ang mga intent-based na engine tulad ng wit.ai. Panahon na ba upang isaalang-alang ang isang pag-upgrade para sa iyong chatbot?

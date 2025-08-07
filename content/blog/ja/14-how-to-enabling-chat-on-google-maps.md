@@ -1,18 +1,17 @@
 ---
 title: "Google マップでチャットを有効にして顧客とつながる究極のガイド"
 metatitle: "Google マップでチャットを有効にする究極のガイド"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "このブログでは、Google マップのチャットを有効にして顧客とより良くつながるための3つの異なる方法について説明します。"
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: 2025-07-28T00:00:00Z
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Google マップのチャットは、企業が顧客とつながるための優れた方法です。Google マップのチャットを有効にするには、Google Business Profile を使用する手動の方法、Google Business Messages を使用する自動の方法、そして Near Me Messaging を使用して両方の良いところを取り入れる方法があります。このブログでは、これら3つの異なる方法で Google マップのチャットを有効にする方法について説明します。*

@@ -1,18 +1,17 @@
 ---
 title: "使用鄰近訊息在 Google 地圖上啟動您的虛擬代理"
 metatitle: "使用鄰近訊息在 Google 地圖上啟動您的虛擬代理"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "使用鄰近訊息在 Google Business Messages 上啟動您的虛擬代理。"
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
 ---
 
 我們之前已經向您介紹了 [鄰近訊息](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) 及其優點。鄰近訊息實作了 Google Business Messages 虛擬代理，可直接從商家 Google 地圖個人資料上的聊天按鈕取得。鄰近訊息的虛擬代理由最先進的自然語言理解技術提供支援，可提供類似人類的回應。鄰近訊息與類似服務的不同之處在於 5 分鐘的設定時間、自助服務自訂和內建的即時聊天支援。

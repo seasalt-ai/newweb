@@ -1,16 +1,19 @@
 ---
 title: "SeaChat 与 Meta wit.ai：哪个 AI 聊天机器人平台更好？"
 metatitle: "SeaChat 与 Meta wit.ai 聊天机器人平台对比"
-date: 2023-09-15T10:00:00Z
-author: SeaSalt.ai 团队
-image: "images/blog/76-seachat-vs-meta-wit-ai/cover.png"
+date: 2023-09-15 10:00:00+00:00
 draft: false
+author: SeaSalt.ai 团队
 description: "比较 SeaChat 和 Meta wit.ai，选择最适合企业的 AI 聊天机器人解决方案。了解功能、优势及适用场景。"
-tags: ["SeaChat", "Meta wit.ai", "Chatbot", "AI"]
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
+image: images/blog/76-seachat-vs-meta-wit-ai/cover.png
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 聊天机器人世界正在迅速发展。尽管 Meta/Facebook [wit.ai](http://wit.ai) 是构建语音应用程序的良好起点，但像 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 这样的 LLM 技术已经彻底改变了对话式 AI，将 wit.ai 的局限性抛在身后。是时候升级您的聊天机器人了吗？

@@ -1,17 +1,20 @@
 ---
-title: "فتح مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في بناء روبوتات الدردشة التفاعلية"
-metatitle: "فتح مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في بناء روبوتات الدردشة التفاعلية"
-date: 2024-04-02T00:22:19-07:00
-modified_date: 2024-12-19T10:00:00-08:00
+title: " فتح مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في بناء روبوتات الدردشة التفاعلية"
+metatitle: " فتح مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في بناء روبوتات الدردشة التفاعلية"
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: في مجال الذكاء الاصطناعي المحادثي، كان SAP Conversational AI شائعًا، لكن SeaChat القائم على نماذج اللغة الكبيرة (LLMs) يمكنه تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة.
+description: "في مجال الذكاء الاصطناعي المحادثي، كان SAP Conversational AI شائعًا، لكن SeaChat القائم على نماذج اللغة الكبيرة (LLMs) يمكنه تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: 'في مجال الذكاء الاصطناعي المحادثي، تهب رياح التغيير. بينما كان [SAP Conversational AI](https://cai.tools.sap/) خيارًا شائعًا لبناء روبوتات الدردشة المؤسسية، موجة تقنية جديدة أصبحت محور التركيز تدريجيًا: نماذج اللغة الكبيرة (LLMs). المنصة المبنية على تقنية LLM [SeaChat](https://chat.seasalt.ai/?utm_source=blog) تقدم نهجًا مبتكرًا يتجاوز قيود المحركات القائمة على القواعد مثل SAP Conversational AI. هل أنت مستعد للإبحار نحو تجربة روبوت دردشة أكثر جاذبية؟'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 في مجال الذكاء الاصطناعي المحادثي، تهب رياح التغيير. بينما كان [SAP Conversational AI](https://cai.tools.sap/) خيارًا شائعًا لبناء روبوتات الدردشة المؤسسية، موجة تقنية جديدة أصبحت محور التركيز تدريجيًا: نماذج اللغة الكبيرة (LLMs). المنصة المبنية على تقنية LLM [SeaChat](https://chat.seasalt.ai/?utm_source=blog) تقدم نهجًا مبتكرًا يتجاوز قيود المحركات القائمة على القواعد مثل SAP Conversational AI. هل أنت مستعد للإبحار نحو تجربة روبوت دردشة أكثر جاذبية؟

@@ -1,17 +1,20 @@
 ---
 title: "So wählen Sie den besten Outbound-Call-Dienst: Live-Agenten vs. Auto-Dialer vs. Sprach-KI (5/5)"
 metatitle: "Seasalt.ai | Wählen Sie den besten Outbound-Call-Dienst"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Entdecken Sie Live-Agenten, Auto-Dialer und Sprach-KI, um die beste Outbound-Call-Lösung für Ihre Geschäftsanforderungen auszuwählen."
 weight: 1
-tags: ["Automatischer Telemarketing-Dienst", "Outbound-Anruf für kleine Unternehmen", "Auto-Dialer", "Sprach-KI"]
-toc: true
+tags:
+  - Automatischer Telemarketing-Dienst
+  - Outbound-Anruf für kleine Unternehmen
+  - Auto-Dialer
+  - Sprach-KI
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

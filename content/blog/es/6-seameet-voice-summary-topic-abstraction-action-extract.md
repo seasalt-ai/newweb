@@ -1,18 +1,17 @@
 ---
 title: "Del Demo al Éxito: Percepción de la Reunión (4/5)"
 metatitle: "Del Demo al Éxito (4/5): Percepción de la Reunión"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "En esta cuarta parte de esta serie de blogs, sigue el viaje de Seasalt.ai para crear SeaMeet, nuestras soluciones colaborativas de reuniones modernas."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *A lo largo de esta serie de blogs, sigue el viaje de Seasalt.ai para crear una experiencia de reuniones modernas completa, comenzando con sus humildes comienzos, hasta la optimización de nuestro servicio en diferentes hardware y modelos, hasta la integración de sistemas de PNL de última generación y finalmente terminando en la realización completa de SeaMeet, nuestras soluciones colaborativas de reuniones modernas.*

@@ -1,15 +1,19 @@
 ---
 title: "Cum să evaluați răspunsurile agentului AI: Sistemul de revizuire SeaChat pentru îmbunătățirea și controlul agentului AI"
 metatitle: "Evaluați răspunsurile agentului AI | Sistemul de revizuire SeaChat"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat vă permite să semnalați, să revizuiți și să îmbunătățiți răspunsurile agentului AI pentru a îmbunătăți performanța și experiența clienților."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Introducere

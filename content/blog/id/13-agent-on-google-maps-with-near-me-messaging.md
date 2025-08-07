@@ -1,18 +1,17 @@
 ---
 title: "Luncurkan Agen Virtual Anda di Google Maps dengan Pesan Dekat Saya"
 metatitle: "Luncurkan Agen Virtual Google Maps Anda dengan Pesan Dekat Saya"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Luncurkan agen virtual Anda di Google Business Messages dengan Pesan Dekat Saya."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Kami sebelumnya telah memperkenalkan Anda pada [Pesan Dekat Saya](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) dan manfaatnya. Pesan Dekat Saya mengimplementasikan agen virtual Google Business Messages, yang tersedia langsung dari tombol obrolan di profil Google Maps bisnis. Agen virtual Pesan Dekat Saya didukung oleh pemahaman bahasa alami canggih yang memberikan respons seperti manusia. Yang membedakan Pesan Dekat Saya dari layanan serupa adalah waktu penyiapan 5 menit, penyesuaian swalayan, dan dukungan obrolan langsung bawaan.

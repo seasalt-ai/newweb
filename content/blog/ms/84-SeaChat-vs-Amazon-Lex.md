@@ -1,18 +1,20 @@
 ---
 title: "Tinggalkan Skrip, Sambut Perbualan Semula Jadi: Kenapa Naik Taraf dari Amazon Lex ke SeaChat Sangat Masuk Akal"
 metatitle: "Tinggalkan Skrip, Sambut Perbualan Semula Jadi: Kenapa Naik Taraf dari Amazon Lex ke SeaChat Sangat Masuk Akal"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-19T00:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Dalam dunia AI perbualan, Amazon Lex pernah popular, tetapi SeaChat berasaskan LLM membawa pengalaman perbualan yang lebih semula jadi dan lancar."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'Dunia chatbot berkembang pesat. Walaupun [Amazon Lex](https://aws.amazon.com/lex/) pernah menjadi pilihan utama untuk membina antara muka suara dan teks, gelombang teknologi baharu kini mendominasi: model bahasa besar (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform berasaskan LLM, menawarkan pendekatan revolusioner untuk AI perbualan, meninggalkan enjin berasaskan peraturan seperti Lex jauh ke belakang. Sudah tiba masanya untuk naik taraf chatbot anda?'
-modified_date: "2024-07-19T00:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 Dunia chatbot berkembang pesat. Walaupun [Amazon Lex](https://aws.amazon.com/lex/) pernah menjadi pilihan utama untuk membina antara muka suara dan teks, gelombang teknologi baharu kini mendominasi: model bahasa besar (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform berasaskan LLM, menawarkan pendekatan revolusioner untuk AI perbualan, meninggalkan enjin berasaskan peraturan seperti Lex jauh ke belakang. Sudah tiba masanya untuk naik taraf chatbot anda?

@@ -1,11 +1,9 @@
 ---
+title: "Como criar uma comunidade e bot no Discord"
+metatitle: "Como criar uma comunidade e bot no Discord"
+date: 2025-08-07 10:11:03
 author: SeaHealth Editorial Team
-description: Aprenda como criar uma comunidade no Discord e configurar um bot automatizado para engajamento e gestão, com dicas de SEO para o público brasileiro.
-lang: pt
-metatitle: Como criar uma comunidade e bot no Discord
-published: 2024-07-01
-slug: 16-how-to-create-a-discord-community-and-bot
-title: Como criar uma comunidade e bot no Discord
+description: "Aprenda como criar uma comunidade no Discord e configurar um bot automatizado para engajamento e gestão, com dicas de SEO para o público brasileiro."
 ---
 
 # Como criar uma comunidade e bot no Discord

@@ -1,17 +1,19 @@
 ---
 title: "Nu doar elocvență: De ce trecerea de la wit.ai la SeaChat vă poate îmbunătăți experiența AI conversațională"
 metatitle: "Nu doar elocvență: De ce trecerea de la wit.ai la SeaChat vă poate îmbunătăți experiența AI conversațională"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-05-16T12:00:00Z
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: În domeniul AI conversaționale, wit.ai de la Meta/Facebook a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă.
+description: "În domeniul AI conversaționale, wit.ai de la Meta/Facebook a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: 'Lumea chatbot-urilor evoluează cu o viteză uimitoare. În timp ce [wit.ai](http://wit.ai) de la Meta/Facebook a servit drept piatră de temelie pentru construirea de drivere vocale, un nou val de tehnologie devine încet, dar sigur, punctul central: modelele lingvistice mari (LLM-uri). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), o platformă construită pe tehnologia LLM, oferă o abordare revoluționară a AI conversaționale, lăsând în urmă motoarele wit.ai bazate pe intenții. Este timpul să vă gândiți la o actualizare pentru chatbot-ul dvs.?'
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 Lumea chatbot-urilor evoluează cu o viteză uimitoare. În timp ce [wit.ai](http://wit.ai) de la Meta/Facebook a servit drept piatră de temelie pentru construirea de drivere vocale, un nou val de tehnologie devine încet, dar sigur, punctul central: modelele lingvistice mari (LLM-uri). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), o platformă construită pe tehnologia LLM, oferă o abordare revoluționară a AI conversaționale, lăsând în urmă motoarele wit.ai bazate pe intenții. Este timpul să vă gândiți la o actualizare pentru chatbot-ul dvs.?

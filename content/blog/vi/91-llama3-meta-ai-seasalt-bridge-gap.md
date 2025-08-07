@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 và Tầm quan trọng của việc Thu hẹp khoảng cách giữa các mô hình AI và Ứng dụng kinh doanh"
 metatitle: "Meta Llama 3 | Thu hẹp khoảng cách giữa các mô hình AI và Ứng dụng kinh doanh"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Việc Meta AI phát hành Llama 3 nhấn mạnh sự cần thiết của các giải pháp thu hẹp khoảng cách giữa các mô hình AI mạnh mẽ và các ứng dụng kinh doanh thực tế. Tìm hiểu cách Seasalt.ai xây dựng các sản phẩm AI đàm thoại tùy chỉnh để thu hẹp khoảng cách này và giải quyết các thách thức trong thế giới thực.
+description: "Việc Meta AI phát hành Llama 3 nhấn mạnh sự cần thiết của các giải pháp thu hẹp khoảng cách giữa các mô hình AI mạnh mẽ và các ứng dụng kinh doanh thực tế. Tìm hiểu cách Seasalt.ai xây dựng các sản phẩm AI đàm thoại tùy chỉnh để thu hẹp khoảng cách này và giải quyết các thách thức trong thế giới thực."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI và Llama3

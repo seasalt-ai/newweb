@@ -1,17 +1,19 @@
 ---
 title: "Uso de bots ChatGPT personalizados para marketing innovador"
 metatitle: "Uso de bots ChatGPT personalizados para marketing innovador | Serie SeaChat de próxima generación"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explore cómo los bots ChatGPT personalizados pueden inyectar nueva vitalidad en las campañas de marketing. Desde interacciones innovadoras hasta la mejora de la imagen de marca, este artículo revela el potencial ilimitado de la IA en el marketing.
+description: "Explore cómo los bots ChatGPT personalizados pueden inyectar nueva vitalidad en las campañas de marketing. Desde interacciones innovadoras hasta la mejora de la imagen de marca, este artículo revela el potencial ilimitado de la IA en el marketing."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Explore cómo los bots ChatGPT personalizados pueden inyectar nueva vitalidad en las campañas de marketing. Desde interacciones innovadoras hasta la mejora de la imagen de marca, este artículo revela el potencial ilimitado de la IA en el marketing."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 En el panorama cambiante del marketing digital, las agencias de marketing buscan constantemente nuevas estrategias para atraer clientes y crear experiencias de marca únicas. Con el auge de la inteligencia artificial, han surgido los bots ChatGPT personalizados, que brindan a los profesionales del marketing una herramienta innovadora para interactuar con los clientes.

@@ -1,17 +1,20 @@
 ---
 title: "真人接线员与自动化应答服务：小型企业的实用建议 (4/5)"
 metatitle: "真人接线员与自动化应答服务"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "比较真人接线员和自动化应答服务，以提高客户服务和效率。"
 weight: 1
-tags: ["自动应答服务", "小型企业入站呼叫", "SeaChat", "语音 AI"]
-toc: true
+tags:
+  - 自动应答服务
+  - 小型企业入站呼叫
+  - SeaChat
+  - 语音 AI
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

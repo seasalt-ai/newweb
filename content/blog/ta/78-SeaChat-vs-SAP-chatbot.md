@@ -1,16 +1,20 @@
 ---
 title: "ஒரு புதிய போக்கைக் கண்டறிதல்: ஈடுபாட்டுடன் கூடிய சாட்போட்களுக்கு SAP Conversational AI ஐ விட SeaChat ஏன் சிறந்தது?"
 metatitle: "SeaChat vs. SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: SAP Conversational AI ஏன் காலாவதியானது? SeaChat ஐக் கண்டறியுங்கள் - மேம்பட்ட LLM தொழில்நுட்பத்துடன் மீண்டும் மீண்டும் வரும் சாட்போட் கரைகளிலிருந்து விலகி, ஈடுபாட்டுடன் கூடிய, மனிதனைப் போன்ற உரையாடல்களை வளர்க்கிறது.
+description: "SAP Conversational AI ஏன் காலாவதியானது? SeaChat ஐக் கண்டறியுங்கள் - மேம்பட்ட LLM தொழில்நுட்பத்துடன் மீண்டும் மீண்டும் வரும் சாட்போட் கரைகளிலிருந்து விலகி, ஈடுபாட்டுடன் கூடிய, மனிதனைப் போன்ற உரையாடல்களை வளர்க்கிறது."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 உரையாடல் AI துறையில் மாற்றத்தின் காற்று வீசுகிறது. [SAP Conversational AI](https://cai.tools.sap/) நிறுவன சாட்போட்களை உருவாக்குவதற்கான பிரபலமான தேர்வாக இருந்தபோதிலும், ஒரு புதிய தொழில்நுட்ப அலை மைய நிலையை எடுத்துக்கொள்கிறது: பெரிய மொழி மாதிரிகள் (LLMகள்). LLM தொழில்நுட்பத்தில் கட்டப்பட்ட ஒரு தளமான [SeaChat](https://chat.seasalt.ai/?utm_source=blog), SAP Conversational AI போன்ற விதி அடிப்படையிலான இயந்திரங்களின் வரம்புகளை விட்டுவிட்டு, ஒரு அற்புதமான அணுகுமுறையை வழங்குகிறது. மேலும் ஈடுபாட்டுடன் கூடிய சாட்போட் அனுபவத்திற்காகப் பயணத்தைத் தொடங்கத் தயாரா?

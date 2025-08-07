@@ -1,16 +1,17 @@
 ---
 title: "Berikan Pusat Kontak Anda Suara Sendiri dengan SeaX Voice Intelligence"
 metatitle: "Biarkan Pusat Kontak Anda Berbicara dengan SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "Dalam blog ini, kami akan menunjukkan bagaimana mesin teks-ke-suara dan suara-ke-teks Seasalt.ai dapat meningkatkan berbagai aspek platform SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *Sejauh ini dalam [seri blog SeaX](https://seasalt.ai/tags/seax/), kami telah memberikan gambaran umum yang luas tentang produk unggulan Seasalt.ai: SeaX. Kami juga membahas dua fitur utama yang membedakan SeaX dari pusat panggilan tradisional: pertama, bahwa SeaX adalah omnichannel, yang berarti Anda dapat lebih mudah berinteraksi dengan pelanggan di saluran mana pun, dan kedua, bahwa platform ini adalah pusat kontak terdistribusi, yang memungkinkan Anda untuk dengan mulus mengarahkan pesan dan panggilan dari pelanggan di seluruh dunia ke agen terdistribusi Anda di berbagai lokasi.*

@@ -1,16 +1,20 @@
 ---
 title: "Layar Panggilan AI di Android dan iPhone: Asisten Pribadi dan Penjaga Gerbang Anda"
 metatitle: "Layar Panggilan AI | Asisten Pribadi di Android dan iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Temukan masa depan manajemen panggilan dengan agen panggilan bertenaga AI! Dari menyaring spammer hingga memesan janji temu, ini adalah asisten pribadi dan penjaga gerbang 24/7 Anda.
+description: "Temukan masa depan manajemen panggilan dengan agen panggilan bertenaga AI! Dari menyaring spammer hingga memesan janji temu, ini adalah asisten pribadi dan penjaga gerbang 24/7 Anda."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Pernahkah Anda berharap memiliki asisten pribadi yang dapat menangani panggilan telepon Anda, menyaring spammer dan penipu, dan bahkan memesan janji temu untuk Anda? Jangan mencari lagi, karena agen panggilan bertenaga AI dapat melakukan semua itu dan lebih banyak lagi! Bertindak sebagai meja depan dan penjaga gerbang gratis Anda, teknologi luar biasa ini merevolusi manajemen panggilan, memastikan Anda tidak pernah melewatkan panggilan penting dan menghemat waktu berharga serta ketenangan pikiran Anda.

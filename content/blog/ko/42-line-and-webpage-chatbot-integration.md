@@ -1,17 +1,19 @@
 ---
 title: "맞춤형 ChatGPT 챗봇으로 LINE과 웹페이지 봇 동시 지원"
 metatitle: "맞춤형 ChatGPT 챗봇으로 LINE과 웹페이지 봇 동시 지원 | SeaChat으로 만드는 차세대 챗봇 시리즈"
-date: 2023-10-26T10:25:00-08:00
-modified_date: 2025-08-03T00:35:01Z
+date: 2023-10-26 10:25:00-08:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
 author: Xuchen Yao
-description: 맞춤형 ChatGPT 봇이 어떻게 전통적인 고객 서비스 모델을 혁신하고 더욱 인간적이고 효율적인 고객 서비스 경험을 제공하는지 알아보세요. 심층 분석과 사례를 통해 이 새로운 기술을 활용하여 고객 만족도를 향상시키고 기업이 빠르게 변화하는 시장 환경에서 경쟁력을 유지할 수 있는 방법을 보여줍니다. 기업은 맞춤형 ChatGPT 봇의 빠른 배포와 효과적인 활용을 통해 지속적이고 시기적절한 고객 지원을 제공할 수 있으며, 이는 새로운 시대 고객 서비스의 핵심 요소임을 알 수 있습니다.
+description: "맞춤형 ChatGPT 봇이 어떻게 전통적인 고객 서비스 모델을 혁신하고 더욱 인간적이고 효율적인 고객 서비스 경험을 제공하는지 알아보세요. 심층 분석과 사례를 통해 이 새로운 기술을 활용하여 고객 만족도를 향상시키고 기업이 빠르게 변화하는 시장 환경에서 경쟁력을 유지할 수 있는 방법을 보여줍니다. 기업은 맞춤형 ChatGPT 봇의 빠른 배포와 효과적인 활용을 통해 지속적이고 시기적절한 고객 지원을 제공할 수 있으며, 이는 새로운 시대 고객 서비스의 핵심 요소임을 알 수 있습니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "맞춤형 ChatGPT 봇이 어떻게 전통적인 고객 서비스 모델을 혁신하고 더욱 인간적이고 효율적인 고객 서비스 경험을 제공하는지 알아보세요. 심층 분석과 사례를 통해 이 새로운 기술을 활용하여 고객 만족도를 향상시키고 기업이 빠르게 변화하는 시장 환경에서 경쟁력을 유지할 수 있는 방법을 보여줍니다. 기업은 맞춤형 ChatGPT 봇의 빠른 배포와 효과적인 활용을 통해 지속적이고 시기적절한 사용자 지원을 제공할 수 있으며, 이는 새로운 시대 고객 서비스의 핵심 요소임을 알 수 있습니다."
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 현재 빠른 디지털 시대에서 챗봇은 기업과 조직에 필수적인 도구가 되었습니다. 이러한 지능형 대화 봇은 자연스러운 대화를 모방하고 사용자에게 즉각적인 지원과 답변을 제공할 수 있습니다. 고객 서비스, 판매 또는 기타 분야에서 챗봇은 그 가치를 입증했습니다.

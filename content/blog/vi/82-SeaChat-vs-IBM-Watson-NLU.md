@@ -1,18 +1,20 @@
 ---
 title: "Nâng cao trải nghiệm chat của bạn: Tại sao SeaChat vượt trội IBM Watson NLU"
 metatitle: "Nâng cao trải nghiệm chat của bạn: Tại sao SeaChat vượt trội IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: Trong lĩnh vực AI đối thoại, IBM Watson NLU từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) có thể vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn.
+description: "Trong lĩnh vực AI đối thoại, IBM Watson NLU từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) có thể vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'Chatbot của bạn có thường xuyên lặp lại phản hồi, đối thoại không tự nhiên không? Bạn có muốn cung cấp trải nghiệm chat tự nhiên hơn cho khách hàng không? Vậy thì, đã đến lúc xem xét SeaChat, một sản phẩm AI assistant mạnh mẽ được xây dựng trên mô hình ngôn ngữ lớn (LLMs). Mặc dù [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) từng là công cụ đáng tin cậy cho phân tích văn bản, nhưng [SeaChat](https://chat.seasalt.ai/?utm_source=blog) cung cấp phương pháp cách mạng cho AI đối thoại, bỏ xa các động cơ NLU truyền thống.'
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 Chatbot của bạn có thường xuyên lặp lại phản hồi, đối thoại không tự nhiên không? Bạn có muốn cung cấp trải nghiệm chat tự nhiên hơn cho khách hàng không? Vậy thì, đã đến lúc xem xét SeaChat, một sản phẩm AI assistant mạnh mẽ được xây dựng trên mô hình ngôn ngữ lớn (LLMs). Mặc dù [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) từng là công cụ đáng tin cậy cho phân tích văn bản, nhưng [SeaChat](https://chat.seasalt.ai/?utm_source=blog) cung cấp phương pháp cách mạng cho AI đối thoại, bỏ xa các động cơ NLU truyền thống.

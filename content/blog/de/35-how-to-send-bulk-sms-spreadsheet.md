@@ -1,16 +1,18 @@
 ---
 title: "Der richtige Weg zum Stapelversand von SMS an Kontakte in Excel, Google Sheets und Apple Numbers"
 metatitle: "SMS-Stapelversand | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-30 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Erfahren Sie die sichersten Wege, SMS aus Excel, Google Sheets und Apple Numbers im Stapel zu versenden, während Sie 10DLC-konform bleiben.'
+description: "Erfahren Sie die sichersten Wege, SMS aus Excel, Google Sheets und Apple Numbers im Stapel zu versenden, während Sie 10DLC-konform bleiben."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
-modified_date: 2024-07-30T12:00:00Z
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Der Massenversand von SMS an eine Kontaktliste ist eine weit verbreitete Technik für Unternehmen, Veranstalter und verschiedene Fachleute. Die Möglichkeit, eine Nachricht massenhaft zu versenden, kann Zeit sparen und dazu beitragen, Kontakte auf dem Laufenden zu halten. Während Excel, Google Sheets und Apple Numbers nicht von Haus aus für den SMS-Versand konzipiert sind, haben Erweiterungen und Drittanbieterdienste Abhilfe geschaffen, um dies zu ermöglichen. Es gibt jedoch Fallstricke, die man beachten sollte.
@@ -41,12 +43,8 @@ Nehmen wir Google Sheet als Beispiel. Die Schritte für andere Tabellenkalkulati
 
 Eine Kopie Ihrer Kontakte stellt sicher, dass Sie keine Kontaktdaten verlieren, wenn Sie etwas falsch machen. So geht's: **Klicken Sie auf `Datei` > `Kopie erstellen`**.
 
-<center>
 <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Erstellen Sie eine Sicherungskopie für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
-
 *Erstellen Sie eine Sicherungskopie für Ihre Massen-SMS-Kontakt-Tabellenkalkulation*
-
-</center>
 
 ## 2. Entfernen doppelter Daten
 
@@ -58,12 +56,8 @@ c. Wählen Sie die Spalten aus, die Sie auf Duplikate überprüfen möchten, und
 
 d. Google Sheets benachrichtigt Sie, wie viele Duplikate entfernt wurden.
 
-<center>
 <img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Entfernen Sie doppelte Einträge für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
-
 *Entfernen Sie doppelte Einträge für Ihre Massen-SMS-Kontakt-Tabellenkalkulation*
-
-</center>
 
 ## 3. Standardisieren Sie das Telefonnummernformat
 
@@ -73,13 +67,8 @@ b. Verwenden Sie `Suchen und Ersetzen`, um die Formatierung konsistent zu machen
 
 c. Verwenden Sie bei Bedarf benutzerdefinierte Formeln oder Skripte, um sicherzustellen, dass alle Nummern konsistent sind. Dies erfordert möglicherweise fortgeschrittenere Tabellenkalkulationskenntnisse
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Standardisieren Sie das Telefonnummernformat für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
-
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Standardisieren Sie das Telefonnummernformat für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
 *Standardisieren Sie das Telefonnummernformat für Ihre Massen-SMS-Kontakt-Tabellenkalkulation*
-
-</center>
 
 ### 4. Datenüberprüfung
 
@@ -87,13 +76,8 @@ a. Stellen Sie bei Telefonnummern sicher, dass alle die richtige Anzahl von Ziff
 
 b. Achten Sie bei Namen auf Einträge, die leer sein oder irrelevante Daten enthalten könnten.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Datenüberprüfung für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
-
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Datenüberprüfung für Ihre Massen-SMS-Kontakt-Tabellenkalkulation"/>
 *Datenüberprüfung für Ihre Massen-SMS-Kontakt-Tabellenkalkulation*
-
-</center>
 
 ## 5. Überprüfen Sie auf leere Zellen
 
@@ -109,13 +93,8 @@ c. Stellen Sie die Formatierungszellen auf `Zelle ist leer` ein und wählen Sie 
 
 d. Dadurch können Sie leere Zellen leicht erkennen und beheben.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Überprüfen Sie leere Zellen in Ihrer Massen-SMS-Kontakt-Tabellenkalkulation"/>
-
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Überprüfen Sie leere Zellen in Ihrer Massen-SMS-Kontakt-Tabellenkalkulation"/>
 *Überprüfen Sie leere Zellen in Ihrer Massen-SMS-Kontakt-Tabellenkalkulation*
-
-</center>
 
 ## Mehr zur Vorbereitung von Kontaktdaten
 
@@ -138,11 +117,7 @@ Einige beliebte SMS-Messaging-Dienstleister sind:
 
 # Wie man erfolgreiche Textmarketing-Operationen durchführt
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Erfolg im Textmarketing"/>
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Erfolg im Textmarketing"}
 
 Auch mit den besten Absichten können Probleme auftreten. Hier sind einige Möglichkeiten, um langfristig erfolgreiche Textmarketing-Operationen durchzuführen:
 

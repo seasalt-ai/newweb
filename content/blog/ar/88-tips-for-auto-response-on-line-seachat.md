@@ -1,18 +1,20 @@
 ---
-title: "نصائح الرد التلقائي على LINE: كيفية دمج SeaChat مع الرد التلقائي على LINE بسلاسة"
-metatitle: "نصائح الرد التلقائي على LINE: كيفية دمج SeaChat مع الرد التلقائي على LINE بسلاسة"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
+title: " نصائح الرد التلقائي على LINE: كيفية دمج SeaChat مع الرد التلقائي على LINE بسلاسة"
+metatitle: " نصائح الرد التلقائي على LINE: كيفية دمج SeaChat مع الرد التلقائي على LINE بسلاسة"
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: حل الرد التلقائي على LINE! ستتوقف خدمة الرد التلقائي على LINE قريباً، استخدم SeaChat، المساعد الذكي الذي يجعل محادثات عملائك أكثر سلاسة ويوفر حلول خدمة عملاء شاملة.
+description: "حل الرد التلقائي على LINE! ستتوقف خدمة الرد التلقائي على LINE قريباً، استخدم SeaChat، المساعد الذكي الذي يجعل محادثات عملائك أكثر سلاسة ويوفر حلول خدمة عملاء شاملة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/ar/blog/tips-for-auto-response-on-line-seachat/"
-url: "/ar/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'هل تريد جعل LINE مساعدك الخارق للعلامة التجارية؟ عندما يصبح العملاء أكثر وأكثر، ولا يستطيع شخص واحد التعامل معهم، ولا يمكن الرد على كل رسالة، يبدو أن [روبوت الرد التلقائي](https://line-tw-official.weblog.to/archives/85582088.html) من LINE يمكن أن يحل هذه المشكلة المزعجة! سواء كان الترحيب بأصدقاء جدد أو الرد على الكلمات المفتاحية، يبدو الأمر أسهل، أليس كذلك؟'
-modified_date: 2024-12-19T10:30:00Z
+canonicalURL: /ar/blog/tips-for-auto-response-on-line-seachat/
+url: /ar/blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # ما هو الرد التلقائي على LINE؟

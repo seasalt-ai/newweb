@@ -1,19 +1,18 @@
 ---
 title: "Otomatisasi Pusat Kontak Berkemampuan AI: Kolaborasi Agen Virtual dengan CRM"
 metatitle: "Pusat Kontak SeaX: Otomatisasi Agen Virtual dengan CRM"
-date: 2022-01-26T18:21:40Z
-modified_date: 2025-08-05T17:02:54.123Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
+modified_date: 2025-08-05 17:02:54.123000+00:00
 draft: false
+author: Sarah Reid
 description: "Dalam blog ini, kita akan menjelajahi integrasi CRM seperti HubSpot ke dalam Pusat Kontak SeaX, yang memberi Anda akses langsung ke semua informasi dan alat Anda."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
-lang: id
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## Mengintegrasikan HubSpot dengan SeaX

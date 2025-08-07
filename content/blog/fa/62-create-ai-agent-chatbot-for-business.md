@@ -1,15 +1,19 @@
 ---
 title: "چگونه یک چت‌بات هوشمند AI برای کسب‌وکار خود بسازیم"
 metatitle: "راهنمای ساخت چت‌بات هوشمند AI برای کسب‌وکار"
-date: 2024-02-28T10:00:00-07:00
+date: 2024-02-28 10:00:00-07:00
 draft: false
 author: Xuchen Yao
 description: "مراحل ساخت چت‌بات هوشمند AI برای کسب‌وکار خود را از انتخاب پلتفرم تا یکپارچه‌سازی با سیستم‌های تجاری بیاموزید."
 weight: 1
-tags: ["چت‌بات AI", "کسب‌وکار", "اتوماسیون", "عامل هوشمند"]
+tags:
+  - چت‌بات AI
+  - کسب‌وکار
+  - اتوماسیون
+  - عامل هوشمند
 image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
-url: "/blog/create-ai-agent-chatbot-for-business/"
+canonicalURL: /blog/create-ai-agent-chatbot-for-business/
+url: /blog/create-ai-agent-chatbot-for-business/
 ---
 
 چت‌بات‌های هوشمند AI در کسب‌وکارها به دلیل افزایش بهره‌وری و بهبود تجربه مشتری محبوبیت یافته‌اند. این مقاله مراحل ساخت یک چت‌بات هوشمند AI مؤثر برای کسب‌وکار شما را شرح می‌دهد.

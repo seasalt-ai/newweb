@@ -1,16 +1,21 @@
 ---
 title: "NLU ที่อิงตามเจตนา/เอนทิตี vs. NLU ที่อิงตาม GenAI/LLM: ความแตกต่างนับล้าน (ของตัวอย่างและดอลลาร์)"
 metatitle: "NLU ที่อิงตามเจตนา/เอนทิตี vs. NLU ที่อิงตาม GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: ปลดล็อกอนาคตของ Conversational AI - เหตุใดการเปลี่ยนจาก NLU ที่อิงตามเจตนา/เอนทิตีไปเป็น GenAI/LLM จึงมีความสำคัญต่อความสามารถในการปรับขนาด ประสิทธิภาพด้านต้นทุน และความสามารถในการปรับตัว"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 ถึงผู้อำนวยการฝ่ายบริการลูกค้าหรือการตลาดทุกท่าน หากเจ้านายของคุณถามคำถามต่อไปนี้ ให้ส่งบทความนี้ให้พวกเขา:

@@ -1,16 +1,17 @@
 ---
 title: "Extindeți amprenta centrului dvs. de contact cu un centru de contact distribuit"
 metatitle: "Extindeți-vă amprenta cu un centru de contact distribuit"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "În acest blog, vom analiza centrele de contact „distribuite”: ce sunt, cum vă pot aduce beneficii și cum folosește SeaX acest lucru pentru a-și servi mai bine clienții."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *În postarea noastră anterioară de pe blog, [Aduceți clienții de pe orice canal într-un singur loc cu comunicarea omnicanal SeaX](https://seasalt.ai/blog/19-seax-omnichannel-communication/), am arătat puterea comunicării omnicanal pe SeaX, care permite ca mesajele utilizatorilor de pe practic orice canal să fie afișate pe platforma SeaX. În această postare, vom arunca o privire la centrele de contact „distribuite”: ce sunt, cum vă pot aduce beneficii și cum SeaX utilizează o platformă distribuită pentru a-și servi mai bine clienții.*

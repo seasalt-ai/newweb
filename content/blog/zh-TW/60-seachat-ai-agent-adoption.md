@@ -1,16 +1,20 @@
 ---
 title: "SeaChat 的無程式碼 AI 代理建構器讓 AI 採用變得輕而易舉"
 metatitle: "SeaChat 的無程式碼 AI 代理建構器讓 AI 採用變得輕而易舉"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 使用 SeaChat 輕鬆駕馭組織內的 AI 採用！這款無程式碼 AI 代理建構器簡化了流程，使其變得簡單無憂。從簡單的用例開始，通過嘗試不同的 AI 利用方式，逐步提高 AI 採用率。
+description: "使用 SeaChat 輕鬆駕馭組織內的 AI 採用！這款無程式碼 AI 代理建構器簡化了流程，使其變得簡單無憂。從簡單的用例開始，通過嘗試不同的 AI 利用方式，逐步提高 AI 採用率。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # 介紹 SeaChat：您的無程式碼 AI 代理建構器

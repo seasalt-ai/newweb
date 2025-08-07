@@ -1,16 +1,20 @@
 ---
 title: "ما يجب أن تعرفه الشركات عن روبوتات الدردشة: الرحلة من روبوتات الدردشة التقليدية إلى وكلاء LLM"
 metatitle: "الرحلة من روبوتات الدردشة التقليدية إلى وكلاء LLM"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: يقدم وكلاء الدردشة المستندة إلى LLM للشركات حلاً سهلاً وفعالاً لتفاعلات العملاء، ولا يتطلب مهارات تقنية معقدة ويتكامل بسلاسة مع الأنظمة الحالية.
+description: "يقدم وكلاء الدردشة المستندة إلى LLM للشركات حلاً سهلاً وفعالاً لتفاعلات العملاء، ولا يتطلب مهارات تقنية معقدة ويتكامل بسلاسة مع الأنظمة الحالية."
 weight: 1
-tags: ["SeaChat", "وكيل صوتي", "أدوات الذكاء الاصطناعي", "تجربة العملاء"]
+tags:
+  - SeaChat
+  - وكيل صوتي
+  - أدوات الذكاء الاصطناعي
+  - تجربة العملاء
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 بالنسبة لأصحاب الأعمال، يعد تبسيط تفاعل العملاء أمرًا بالغ الأهمية. يقدم وكلاء الدردشة المستندة إلى LLM حلاً مبتكرًا وسهل الاستخدام لا يتطلب مهارات تقنية واسعة.

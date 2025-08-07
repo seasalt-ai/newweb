@@ -1,17 +1,17 @@
 ---
 title: "디스코드 (2/3): 브랜드 Discord 커뮤니티 및 봇 생성 방법"
 metatitle: "디스코드 (2/3): 브랜드 Discord 커뮤니티 및 봇 생성 방법"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "이 블로그에서는 브랜드 서버를 만들고 봇을 연결하는 방법을 안내합니다. 봇은 중재, 버그 보고, 공지 등 작업을 자동화할 수 있습니다."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "이 블로그에서는 브랜드 서버를 만들고 봇을 연결하는 방법을 안내합니다. 봇은 중재, 버그 보고, 공지 등 작업을 자동화할 수 있습니다."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *저희 블로그 게시물인 [“디스코드: 고객 참여를 위한 새로운 개척지”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)에서는 디스코드의 인기 상승과 브랜드가 이 새로운 소셜 플랫폼을 활용하여 자체 온라인 커뮤니티를 형성하고 고객과 소통하는 방법을 다루었습니다. 이 블로그에서는 브랜드의 새로운 공식 서버를 만드는 방법과 중재, 버그 보고, 공지 등 작업을 자동화할 수 있는 봇을 연결하는 방법을 안내합니다.*

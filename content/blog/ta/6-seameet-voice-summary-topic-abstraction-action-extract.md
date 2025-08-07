@@ -1,18 +1,17 @@
 ---
 title: "டெமோவிலிருந்து வெற்றிக்கு: சந்திப்பு கருத்து (4/5)"
 metatitle: "டெமோவிலிருந்து வெற்றிக்கு (4/5): சந்திப்பு கருத்து"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "இந்த வலைப்பதிவுத் தொடரின் நான்காவது பகுதியில், எங்கள் கூட்டு நவீன சந்திப்பு தீர்வான SeaMeet-ஐ உருவாக்குவதற்கான Seasalt.ai-யின் பயணத்தைப் பின்பற்றுங்கள்."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *இந்த வலைப்பதிவுத் தொடர் முழுவதும், Seasalt.ai-யின் ஒரு முழுமையான நவீன சந்திப்பு அனுபவத்தை உருவாக்குவதற்கான பயணத்தைப் பின்பற்றுங்கள், அதன் தாழ்மையான தொடக்கங்களிலிருந்து, வெவ்வேறு வன்பொருள் மற்றும் மாடல்களில் எங்கள் சேவையை மேம்படுத்துவது, அதிநவீன NLP அமைப்புகளை ஒருங்கிணைப்பது மற்றும் இறுதியாக எங்கள் கூட்டு நவீன சந்திப்பு தீர்வான SeaMeet-ஐ முழுமையாக உணர்ந்து கொள்வது வரை.*

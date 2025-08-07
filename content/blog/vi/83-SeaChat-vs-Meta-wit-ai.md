@@ -1,18 +1,20 @@
 ---
 title: "Hơn cả từ ngữ: Tại sao chuyển từ wit.ai sang SeaChat sẽ cải thiện trải nghiệm AI đối thoại của bạn"
 metatitle: "Hơn cả từ ngữ: Tại sao chuyển từ wit.ai sang SeaChat sẽ cải thiện trải nghiệm AI đối thoại của bạn"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: Trong lĩnh vực AI đối thoại, Meta/Facebook wit.ai từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn.
+description: "Trong lĩnh vực AI đối thoại, Meta/Facebook wit.ai từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: 'Thế giới chatbot đang phát triển với tốc độ đáng kinh ngạc. Trong khi Meta/Facebook wit.ai phục vụ như một bước đệm để tạo ứng dụng giọng nói, một làn sóng công nghệ mới đang dần trở thành tiêu điểm: mô hình ngôn ngữ lớn (LLMs). SeaChat, một nền tảng được xây dựng trên công nghệ LLM, cung cấp phương pháp cách mạng cho AI đối thoại, bỏ xa các động cơ dựa trên ý định của wit.ai. Đã đến lúc nâng cấp chatbot của bạn chưa?'
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 Thế giới chatbot đang phát triển với tốc độ đáng kinh ngạc. Trong khi Meta/Facebook wit.ai phục vụ như một bước đệm để tạo ứng dụng giọng nói, một làn sóng công nghệ mới đang dần trở thành tiêu điểm: mô hình ngôn ngữ lớn (LLMs). SeaChat, một nền tảng được xây dựng trên công nghệ LLM, cung cấp phương pháp cách mạng cho AI đối thoại, bỏ xa các động cơ dựa trên ý định của wit.ai. Đã đến lúc nâng cấp chatbot của bạn chưa?

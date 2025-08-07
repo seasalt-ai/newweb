@@ -1,17 +1,20 @@
 ---
 title: "라이브 리셉셔니스트 아웃소싱 vs. 사내 고용: 기업을 위한 실용적인 권장 사항 (2/5)"
 metatitle: "라이브 리셉셔니스트 아웃소싱 vs. 사내 고용"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "라이브 리셉셔니스트와 사내 직원을 비교: 비용, 이점 및 주요 비즈니스 통찰력."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *이것은 중소기업을 위한 고객 커뮤니케이션 전략을 탐구하는 5개 기사 시리즈로, 응답 서비스에 중점을 둡니다:*

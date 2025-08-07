@@ -1,16 +1,20 @@
 ---
 title: "การเพิ่มขึ้นของ AI Voice Agents ในการดูแลสุขภาพ: การยกระดับการดูแลผู้ป่วยและการมีส่วนร่วม"
 metatitle: "AI Voice Agents ในการดูแลสุขภาพ | การดูแลผู้ป่วยที่ดีขึ้น"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: ค้นพบว่า AI voice agents กำลังเปลี่ยนแปลงการดูแลสุขภาพด้วยการตอบสนองทันทีสำหรับการจัดตารางนัดหมายและการแจ้งเตือนการใช้ยา ซึ่งเป็นประโยชน์ต่อผู้ป่วยที่มีความต้องการพิเศษ
+description: "ค้นพบว่า AI voice agents กำลังเปลี่ยนแปลงการดูแลสุขภาพด้วยการตอบสนองทันทีสำหรับการจัดตารางนัดหมายและการแจ้งเตือนการใช้ยา ซึ่งเป็นประโยชน์ต่อผู้ป่วยที่มีความต้องการพิเศษ"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # บทนำ

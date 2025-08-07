@@ -1,16 +1,20 @@
 ---
 title: "새로운 항로 개척: SeaChat이 매력적인 챗봇을 위해 SAP Conversational AI를 능가하는 이유"
 metatitle: "SeaChat vs. SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: SAP Conversational AI가 왜 구식인가요? SeaChat을 발견하세요. 고급 LLM 기술로 반복적인 챗봇의 한계를 벗어나 매력적이고 인간적인 대화를 촉진합니다.
+description: "SAP Conversational AI가 왜 구식인가요? SeaChat을 발견하세요. 고급 LLM 기술로 반복적인 챗봇의 한계를 벗어나 매력적이고 인간적인 대화를 촉진합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 대화형 AI 영역에 변화의 바람이 불고 있습니다. [SAP Conversational AI](https://cai.tools.sap/)가 엔터프라이즈 챗봇 구축에 인기 있는 선택이었지만, 새로운 기술의 물결이 중심 무대를 차지하고 있습니다. 바로 대규모 언어 모델(LLM)입니다. LLM 기술을 기반으로 구축된 플랫폼인 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 SAP Conversational AI와 같은 규칙 기반 엔진의 한계를 뛰어넘는 획기적인 접근 방식을 제공합니다. 더 매력적인 챗봇 경험을 위해 항해를 시작할 준비가 되셨나요?

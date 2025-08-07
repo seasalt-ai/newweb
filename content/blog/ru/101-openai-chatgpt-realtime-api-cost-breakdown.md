@@ -1,18 +1,20 @@
 ---
 title: "OpenAI против человека против голосового ИИ: сравнение затрат (5/5)"
 metatitle: "OpenAI Realtime API против человека и голосового ИИ: разбивка затрат"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "Подробный анализ затрат OpenAI Realtime API по сравнению с человеческими секретарями и голосовыми ИИ-агентами."
 weight: 1
-tags: ["Служба автоответчика", "Входящие звонки для малого бизнеса", "SeaChat", "Голосовой ИИ"]
-toc: true
+tags:
+  - Служба автоответчика
+  - Входящие звонки для малого бизнеса
+  - SeaChat
+  - Голосовой ИИ
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

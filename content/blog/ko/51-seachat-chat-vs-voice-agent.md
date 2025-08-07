@@ -1,16 +1,20 @@
 ---
 title: "음성 AI 에이전트 vs. 채팅 AI 에이전트: 비즈니스를 위한 SeaChat의 AI 솔루션 탐색"
 metatitle: "음성 에이전트 vs. 채팅 에이전트 | SeaChat의 AI 솔루션 탐색"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: 음성 기반 고객 서비스를 위한 음성 AI 에이전트와 텍스트 기반 상호 작용을 위한 채팅 AI 에이전트 등 SeaChat의 비즈니스용 AI 솔루션을 살펴보세요. 각각 고유한 기능과 사용 사례를 가지고 있습니다.
+description: "음성 기반 고객 서비스를 위한 음성 AI 에이전트와 텍스트 기반 상호 작용을 위한 채팅 AI 에이전트 등 SeaChat의 비즈니스용 AI 솔루션을 살펴보세요. 각각 고유한 기능과 사용 사례를 가지고 있습니다."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 오늘날 빠르게 변화하는 디지털 환경에서 기업은 고객 경험을 향상하고 운영을 간소화하기 위한 혁신적인 방법을 끊임없이 모색하고 있습니다. 이러한 변화의 중요한 부분은 AI 기반 통신 도구의 채택입니다. 다재다능한 AI 플랫폼인 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 음성 AI 에이전트와 채팅 AI 에이전트라는 두 가지 강력한 솔루션을 하나의 제품으로 제공합니다. 이 블로그에서는 두 가지의 기능과 사용 사례를 자세히 살펴보고 비즈니스 요구 사항에 가장 적합한 것을 결정하는 데 도움을 드릴 것입니다.

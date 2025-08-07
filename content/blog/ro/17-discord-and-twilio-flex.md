@@ -1,18 +1,18 @@
 ---
 title: "Discord (3/3): Discord & Twilio Flex: Aducerea centrului de contact Flex în teritoriu neexplorat"
 metatitle: "Discord (3/3): Centrul de contact Twilio Flex în Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "În acest blog, vom demonstra cum Seasalt.ai a integrat un centru de contact complet într-un server Discord."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Aceasta este ultima noastră postare dintr-o serie de trei părți despre implicarea clienților pe Discord. Primul nostru blog, [„O nouă frontieră pentru implicarea clienților”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), a discutat despre creșterea popularității Discord și despre noua oportunitate pe care o prezintă pentru mărci de a crea și de a participa la propriile comunități online. În partea a doua, [„Cum să creați o comunitate și un bot Discord pentru marca dvs.”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), am parcurs cum să creați un server Discord pentru marca dvs. și cum să integrați un bot pentru a gestiona moderarea serverului, anunțurile, feedback-ul utilizatorilor etc. În cele din urmă, în acest blog vom prezenta o demonstrație a modului în care noi, la Seasalt.ai, am integrat un centru de contact complet într-un server Discord, permițând mărcilor să gestioneze toate aspectele îngrijirii clienților pe platformă.*

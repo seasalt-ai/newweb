@@ -1,18 +1,17 @@
 ---
 title: "Cuộc Đua Trợ Lý AI cho Cuộc Họp: Microsoft Teams vs Google Meet"
 metatitle: "Cuộc Đua Trợ Lý AI cho Cuộc Họp: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Khám phá trợ lý AI cho cuộc họp của Microsoft Teams và Google Meet, so sánh hỗ trợ ngôn ngữ của các nền tảng, và tìm hiểu cách SeaMeet cung cấp phiên âm thời gian thực, tóm tắt và các tính năng khác."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Khám phá trợ lý AI cho cuộc họp của Microsoft Teams và Google Meet, so sánh hỗ trợ ngôn ngữ của các nền tảng, và tìm hiểu cách SeaMeet cung cấp phiên âm thời gian thực, tóm tắt và các tính năng khác."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Với sự tiến bộ của công nghệ, trợ lý AI cho cuộc họp đã trở thành một công cụ quan trọng để nâng cao hiệu quả cuộc họp. Những công cụ này có thể tự động tạo tóm tắt cuộc họp, chuyển đổi lời nói thành văn bản và xác định thông tin quan trọng trong cuộc họp. Trong bài viết này, chúng ta sẽ khám phá ba trợ lý AI cho cuộc họp quan trọng: Copilot của Microsoft Teams, Duet AI của Google Meet và SeaMeet.

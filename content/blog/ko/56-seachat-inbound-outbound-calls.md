@@ -1,16 +1,20 @@
 ---
 title: "인바운드 및 아웃바운드 통화, AI 전화 에이전트가 모두 처리 가능"
 metatitle: "AI 전화 에이전트 | 인바운드 및 아웃바운드 통화용"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "AI 전화 에이전트가 고객 서비스 및 영업에서 게임 체인저가 될 수 있는 잠재력을 발견하고, 인바운드 및 아웃바운드 통화를 혁신하여 효율성과 수익 성장을 향상시킵니다."
 weight: 1
-tags: ["SeaChat", "음성 에이전트", "AI 도구", "고객 경험"]
+tags:
+  - SeaChat
+  - 음성 에이전트
+  - AI 도구
+  - 고객 경험
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 끊임없이 진화하는 고객 서비스 및 영업 환경에서 AI 전화 에이전트는 기업을 위한 새롭고 효율적인 도구로 부상했습니다. 이 지능형 에이전트는 인바운드 및 아웃바운드 통화를 모두 처리하도록 설계되어 고객 상호 작용을 혁신하고 수익을 창출합니다. 이 기사에서는 인바운드 및 아웃바운드 통화에서 AI 전화 에이전트의 다양한 사용 사례를 자세히 살펴보고, 그 다재다능함과 비즈니스 커뮤니케이션을 변화시킬 잠재력을 강조합니다.

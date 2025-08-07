@@ -1,18 +1,20 @@
 ---
 title: "Vượt qua giới hạn: Tại sao SeaChat vượt trội Nuance Mix NLU trong AI đối thoại"
 metatitle: "Vượt qua giới hạn: Tại sao SeaChat vượt trội Nuance Mix NLU trong AI đối thoại"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: Trong lĩnh vực AI đối thoại, Nuance Mix NLU từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) có thể vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn.
+description: "Trong lĩnh vực AI đối thoại, Nuance Mix NLU từng phổ biến, nhưng SeaChat dựa trên mô hình ngôn ngữ lớn (LLMs) có thể vượt qua các hạn chế và tạo ra trải nghiệm đối thoại tự nhiên, mượt mà hơn."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: 'Trong lĩnh vực AI đối thoại, một cơn gió thay đổi đang thổi qua. Mặc dù Nuance Mix NLU từng là lựa chọn phổ biến để xây dựng chatbot doanh nghiệp, nhưng một làn sóng công nghệ mới đang dần trở thành tiêu điểm: mô hình ngôn ngữ lớn (LLMs). Nền tảng [SeaChat](https://chat.seasalt.ai/?utm_source=blog) được xây dựng trên công nghệ LLM cung cấp một phương pháp sáng tạo, vượt qua các hạn chế của các động cơ dựa trên quy tắc như Nuance Mix NLU.'
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Trong lĩnh vực AI đối thoại, một cơn gió thay đổi đang thổi qua. Mặc dù Nuance Mix NLU từng là lựa chọn phổ biến để xây dựng chatbot doanh nghiệp, nhưng một làn sóng công nghệ mới đang dần trở thành tiêu điểm: mô hình ngôn ngữ lớn (LLMs). Nền tảng [SeaChat](https://chat.seasalt.ai/?utm_source=blog) được xây dựng trên công nghệ LLM cung cấp một phương pháp sáng tạo, vượt qua các hạn chế của các động cơ dựa trên quy tắc như Nuance Mix NLU.

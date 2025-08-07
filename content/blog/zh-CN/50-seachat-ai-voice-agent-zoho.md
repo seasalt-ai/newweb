@@ -1,18 +1,20 @@
 ---
 title: "通过 SeaChat 和 Zoho Desk 知识库集成简化客户支持"
 metatitle: "通过 SeaChat 和 Zoho Desk 简化客户支持"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: 了解 SeaChat 的 AI 聊天和语音代理如何与 Zoho Desk 的综合知识库集成，以实现无缝、高效的客户支持。
+description: "了解 SeaChat 的 AI 聊天和语音代理如何与 Zoho Desk 的综合知识库集成，以实现无缝、高效的客户支持。"
 weight: 1
-tags: ["SeaChat", "AI 工具", "集成", "客户体验"]
+tags:
+  - SeaChat
+  - AI 工具
+  - 集成
+  - 客户体验
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 在当今快速发展的数字环境中，企业不断寻求创新解决方案，以增强客户支持并简化信息管理。SeaChat（一种先进的 AI 聊天和语音代理）与 Zoho Desk 综合知识库的集成，为这些挑战提供了突破性的解决方案。

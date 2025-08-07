@@ -1,19 +1,18 @@
 ---
 title: "Comment gérer efficacement plusieurs réunions parallèles avec SeaMeet"
 metatitle: "Comment gérer efficacement plusieurs réunions parallèles avec SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Avec l'émergence de grands modèles de langage comme ChatGPT, l'IA générative a ouvert de nouveaux domaines d'exploration. Lorsque l'IA se combine avec la reconnaissance vocale, elle offre des possibilités sans précédent pour l'analyse de réunions en temps réel. Mais qu'est-ce que cela signifie pour les opérations commerciales quotidiennes ? L'analyse en temps réel des enregistrements de réunions est devenue un outil essentiel pour les entreprises afin d'améliorer l'efficacité et la qualité de la communication. Grâce à l'analyse en temps réel, les entreprises peuvent s'assurer que chaque discussion est documentée avec précision, rendant le processus de prise de décision plus efficace et précis.
+description: "Avec l'émergence de grands modèles de langage comme ChatGPT, l'IA générative a ouvert de nouveaux domaines d'exploration. Lorsque l'IA se combine avec la reconnaissance vocale, elle offre des possibilités sans précédent pour l'analyse de réunions en temps réel. Mais qu'est-ce que cela signifie pour les opérations commerciales quotidiennes ? L'analyse en temps réel des enregistrements de réunions est devenue un outil essentiel pour les entreprises afin d'améliorer l'efficacité et la qualité de la communication. Grâce à l'analyse en temps réel, les entreprises peuvent s'assurer que chaque discussion est documentée avec précision, rendant le processus de prise de décision plus efficace et précis."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "Dans l'environnement de travail moderne au rythme rapide, il est courant que plusieurs réunions se déroulent simultanément. Cela représente un énorme défi pour les dirigeants et managers occupés. Si possible, ils aimeraient tous participer à chaque réunion, mais en raison des limitations de temps et physiques, cela est souvent impossible."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Le défi des réunions multiples simultanées

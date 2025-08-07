@@ -1,17 +1,16 @@
 ---
 title: "さようならGoogleマイビジネス、Googleマップがビジネスの新しいOSに"
 metatitle: "さようならGMB、Googleマップがビジネスの新しいOSに"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "GoogleはGoogleマイビジネスアプリをGoogleマップに置き換えています。これにより、企業はGoogleマップ上で情報を管理し、顧客のメッセージに返信できるようになります。"
 weight: 1
 tags: []
-toc: true
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Googleマップを通じて企業と消費者を直接つなぐことで、消費者のショッピング体験がシームレスになります。これは、GoogleがGoogleマップを「近くの」ビジネスのローカル検索のための新しいオペレーティングシステムに変えるための素晴らしい戦略的動きです。*

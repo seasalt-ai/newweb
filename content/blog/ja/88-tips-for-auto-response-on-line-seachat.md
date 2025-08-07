@@ -1,18 +1,20 @@
 ---
 title: "LINE自動化のヒント：SeaChatとLINE自動化のシームレスな統合"
 metatitle: "LINE自動化のヒント：SeaChatとLINE自動化のシームレスな統合"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: LINE自動化ソリューション！LINEの自動返信機能がサービスを終了します。SeaChat、スマートAIアシスタントを使用して、お客様との会話をよりスムーズにし、包括的なカスタマーサービスソリューションを提供します。
+description: "LINE自動化ソリューション！LINEの自動返信機能がサービスを終了します。SeaChat、スマートAIアシスタントを使用して、お客様との会話をよりスムーズにし、包括的なカスタマーサービスソリューションを提供します。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'LINEをブランドのスーパーアシスタントにしたいですか？お客様が増え続け、1人では対応しきれない時、メッセージを1つずつ返信することはできません。LINEの["自動返信ボット"](https://line-tw-official.weblog.to/archives/85582088.html)がこの厄介な問題を解決できそうです！新しい友達を歓迎したり、キーワードに返信したりするのに、ずっと簡単そうですね？'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # LINE自動化とは？

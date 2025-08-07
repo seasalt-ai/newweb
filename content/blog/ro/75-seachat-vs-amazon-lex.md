@@ -1,16 +1,20 @@
 ---
 title: "Renunțați la scripturi, îmbrățișați conversația: De ce trecerea de la Amazon Lex la SeaChat este semnificativă"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2024-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: De ce Amazon Lex este depășit? Descoperiți SeaChat - cu tehnologia avansată LLM, scăpați de dilema chatbot-urilor repetitive și cultivați conversații captivante, asemănătoare cu cele umane.
+description: "De ce Amazon Lex este depășit? Descoperiți SeaChat - cu tehnologia avansată LLM, scăpați de dilema chatbot-urilor repetitive și cultivați conversații captivante, asemănătoare cu cele umane."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Model", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Model
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: 2024-07-28T00:00:00Z
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 Lumea chatbot-urilor evoluează rapid. Deși [Amazon Lex](https://aws.amazon.com/lex/) a fost o alegere populară pentru construirea interfețelor vocale și text, un nou val de tehnologie ocupă acum centrul scenei: modelele lingvistice mari (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog) este o platformă bazată pe LLM care oferă o abordare revoluționară a AI-ului conversațional, lăsând în urmă motoarele bazate pe reguli precum Lex. Este timpul să vă gândiți să vă actualizați chatbot-ul?

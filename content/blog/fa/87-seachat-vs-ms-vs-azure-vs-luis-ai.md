@@ -1,22 +1,21 @@
 ---
 title: "SeaChat در مقابل Microsoft Bot Framework و Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat در مقابل Microsoft Bot Framework و Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
-author:  Xuchen Yao
-description: در حوزه هوش مصنوعی مکالمه‌ای، Microsoft Azure Bot Service (LUIS.ai) زمانی محبوب بود، و SeaChat، مبتنی بر مدل‌های زبان بزرگ (LLM)، می‌تواند محدودیت‌ها را بشکند و تجربه مکالمه‌ای طبیعی‌تر و روان‌تری ایجاد کند.
+author: Xuchen Yao
+description: "در حوزه هوش مصنوعی مکالمه‌ای، Microsoft Azure Bot Service (LUIS.ai) زمانی محبوب بود، و SeaChat، مبتنی بر مدل‌های زبان بزرگ (LLM)، می‌تواند محدودیت‌ها را بشکند و تجربه مکالمه‌ای طبیعی‌تر و روان‌تری ایجاد کند."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'دنیای هوش مصنوعی مکالمه‌ای با آخرین اخبار همکاری عمیق‌تر مایکروسافت با OpenAI در حال جوش و خروش است. در حالی که برخی پتانسیل این همکاری را جشن می‌گیرند، صداهای مخالفی نیز در مایکروسافت وجود دارد. گزارش شده است که افراد داخلی از انحراف از توسعه داخلی هوش مصنوعی برای ترویج پیشنهادات OpenAI می‌ترسند.
-
-یکی از حوزه‌هایی که به طور خاص ذکر شده است، سرنوشت سرویس Azure Bot مایکروسافت است.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 دنیای هوش مصنوعی مکالمه‌ای با آخرین اخبار همکاری عمیق‌تر مایکروسافت با OpenAI در حال جوش و خروش است. در حالی که برخی پتانسیل این همکاری را جشن می‌گیرند، صداهای مخالفی نیز در مایکروسافت وجود دارد. گزارش شده است که افراد داخلی از انحراف از توسعه داخلی هوش مصنوعی برای ترویج پیشنهادات OpenAI می‌ترسند.

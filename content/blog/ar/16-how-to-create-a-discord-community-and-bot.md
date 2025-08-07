@@ -1,18 +1,18 @@
 ---
-title: "ديسكورد (2/3): كيفية إنشاء مجتمع وروبوت ديسكورد لعلامتك التجارية"
-metatitle: "ديسكورد (2/3): أنشئ مجتمع وروبوت ديسكورد لعلامتك التجارية"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "في هذه المدونة، سنستعرض خطوات إنشاء خادم لعلامتك التجارية وربط روبوت يمكنه أتمتة الإشراف والإبلاغ عن الأخطاء والإعلانات وما إلى ذلك."
+title: " ديسكورد (2/3): كيفية إنشاء مجتمع وروبوت ديسكورد لعلامتك التجارية"
+metatitle: " ديسكورد (2/3): أنشئ مجتمع وروبوت ديسكورد لعلامتك التجارية"
+date: 2022-05-31 13:29:51-07:00
+modified_date: 2023-11-15 08:00:00-07:00
 draft: false
+author: Kim Dodds
+description: "في هذه المدونة، سنستعرض خطوات إنشاء خادم لعلامتك التجارية وربط روبوت يمكنه أتمتة الإشراف والإبلاغ عن الأخطاء والإعلانات وما إلى ذلك."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
-modified_date: 2023-11-15T08:00:00-07:00
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *تناولت تدوينتنا السابقة، ["ديسكورد: أفق جديد لتفاعل العملاء"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)، الشعبية المتزايدة لديسكورد وكيف يمكن للعلامات التجارية الاستفادة من هذه المنصة الاجتماعية الجديدة لتكوين مجتمعاتها الخاصة عبر الإنترنت والتفاعل مع العملاء. في هذه المدونة، سنستعرض كيفية إنشاء خادم رسمي جديد لعلامتك التجارية، بما في ذلك كيفية توصيل روبوت يمكنه أتمتة مهام مثل الإشراف، والإبلاغ عن الأخطاء، والإعلانات، وما إلى ذلك.*
@@ -34,19 +34,15 @@ modified_date: 2023-11-15T08:00:00-07:00
 ## إنشاء خادم ديسكورد جديد
 من داخل تطبيق ديسكورد، انقر فوق زر "إضافة خادم" في الجانب الأيسر السفلي.
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/create-new-discord-server.png" alt="إنشاء خادم ديسكورد جديد."/>
 
 *نافذة الحوار عند إنشاء خادم ديسكورد جديد.*
-</center>
 
 يمكنك الاختيار من قالب إذا كنت تريد البدء ببعض القنوات التي تم إنشاؤها لك، أو يمكنك البدء من الصفر. والخطوة الأولى سهلة للغاية، لقد تم إنشاء خادمك!
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/new-discord-server.png" alt="خادم ديسكورد تم إنشاؤه حديثًا."/>
 
 *خادم ديسكورد تم إنشاؤه حديثًا.*
-</center>
 
 ## تحويل الخادم إلى "خادم مجتمع"
 
@@ -59,23 +55,18 @@ modified_date: 2023-11-15T08:00:00-07:00
 
 بجوار اسم الخادم في الزاوية العلوية اليسرى، انقر فوق القائمة المنسدلة وحدد "إعدادات الخادم". انقر فوق علامة التبويب "تمكين المجتمع" على الجانب الأيسر وحدد "ابدأ".
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/convert-to-community-discord-server.png" alt="تحويل خادم ديسكورد عادي إلى خادم مجتمع."/>
 
 *تمكين إعدادات خادم المجتمع.*
-</center>
 
 تابع من خلال الإعداد المطلوب. يتطلب تمكين المجتمع أن يقوم خادمك بإجراء تحقق إضافي للمستخدمين، وتمكين مرشح الدردشة، وإعداد قناة للقواعد.
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-setup.png" alt="إعداد خادم مجتمع ديسكورد."/>
 
 *إعداد خادم المجتمع.*
-</center>
 
 بمجرد تمكين المجتمع، يمكنك الوصول إلى العديد من الميزات الجديدة. اثنتان من أكثر الميزات فائدة هما رسالة الترحيب وفحص العضوية:
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-welcome-page.png" alt="مثال على رسالة ترحيب الخادم."/>
 
 *مثال على رسالة ترحيب الخادم.*
@@ -83,12 +74,10 @@ modified_date: 2023-11-15T08:00:00-07:00
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-membership-screening.png" alt="إعدادات فحص العضوية."/>
 
 *إعدادات فحص العضوية.*
-</center>
 
 ## إعداد القنوات والفعاليات والميزات الأخرى
 بعد إعداد خادم المجتمع، يمكنك الوصول إلى ميزات جديدة من صفحة الخادم الرئيسية أيضًا.
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-channel-types.png" alt="إنشاء قناة جديدة في خادم ديسكورد." style="width:50%"/>
 
 *إنشاء قناة جديدة.*
@@ -96,23 +85,19 @@ modified_date: 2023-11-15T08:00:00-07:00
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-channels.png" alt="مثال على قنوات خادم مجتمع ديسكورد." style="width:50%"/>
 
 *قنوات خادم المجتمع.*
-</center>
 
 عندما تنشئ قناة جديدة، يمكنك الوصول إلى نوعين جديدين من القنوات: الإعلانات والمسرح. لا يمكن النشر في قناة الإعلانات إلا من قبل المشرفين، وهي مفيدة للمشاركات والإعلانات الرسمية - ستقوم العديد من الخوادم بوجود روبوتات تنشر تلقائيًا موجز تويتر الرسمي أو منشورات المنتدى في هذه القناة. قناة "المسرح" هي نوع خاص من القنوات الصوتية المفيدة لاستضافة الفعاليات مع جمهور مباشر. يتمتع المضيف بالقدرة على الإشراف على المتحدثين الآخرين (على عكس القناة الصوتية العادية، حيث تكون الأمور فوضوية).
 
 بمجرد إعداد خادمك بالكامل، قد يبدو شيئًا كهذا:
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/customized-discord-server.png" alt="خادم ديسكورد مخصص بالكامل."/>
 
 *خادم مجتمع مخصص بالكامل.*
-</center>
 
 ## انشر الخبر!
 بمجرد إعداد خادمك بالكامل، يمكنك البدء في دعوة الناس!
 يقدم ديسكورد أداة واجهة مجانية جاهزة، يمكن تضمينها في أي موقع ويب للإعلان عن خادمك.
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-widget.png" alt="إعدادات أداة واجهة خادم ديسكورد."/>
 
 *إعدادات أداة واجهة الخادم.*
@@ -121,53 +106,42 @@ modified_date: 2023-11-15T08:00:00-07:00
 
 *مثال على أداة واجهة عاملة لخادم ديسكورد Near Me Messaging الخاص بـ Seasalt.ai.*
 
-</center>
 
 لبناء الثقة مع المستخدمين المحتملين، يمكنك اختياريًا التواصل مع دعم ديسكورد للتحقق من خادمك. سيضع التحقق أيقونة "تم التحقق منه" بجوار اسم خادمك مما يشير إلى أن الخادم هو المجتمع الرسمي التابع لشركة أو علامة تجارية أو شخصية ذات اهتمام عام. يمكنك الاطلاع على متطلبات التحقق على [موقع ديسكورد الرسمي](https://support.discord.com/hc/en-us/articles/360001107231-Verified-Server-Requirements).
 
 بمجرد أن يبدأ خادمك في العمل ويحظى بعدد جيد من المستخدمين، يقدم ديسكورد المزيد من الفرص للإعلان عن خادمك داخليًا. عندما يبلغ عمر خادمك 8 أسابيع على الأقل ولديه 500+ مستخدم، يمكنك التقدم بطلب للحصول على شراكة ديسكورد، والتي تمنح خادمك امتيازات خاصة حصرية للشركاء. بمجرد أن تصل إلى 1000+ مستخدم، يمكنك الانضمام إلى اكتشاف الخادم، والذي سيسمح لأي شخص يستخدم ديسكورد باكتشاف خادمك والانضمام إليه.
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-server-discovery.png" alt="إعدادات ومتطلبات اكتشاف ديسكورد."/>
 
 *إعدادات ومتطلبات اكتشاف ديسكورد.*
-</center>
 
 # إعداد روبوت ديسكورد
 الآن بعد أن قمت بإعداد خادم، يمكنك تحسينه عن طريق إضافة روبوت لأتمتة بعض العمليات، مثل الإشراف، وتعليقات المستخدمين، والإعلانات. استمر في قراءة القسم التالي لمعرفة كيفية إعداد روبوت بسيط، ثم ترقب المدونة التالية في سلسلتنا لترى كيف يمكنك دمج تجربة خدمة عملاء كاملة داخل خادم ديسكورد الخاص بك.
 
 ## إنشاء روبوت جديد في بوابة مطوري ديسكورد
-أنشئ حسابًا على [بوابة مطوري ديسكورد](https://discord.com/developers/applications). أنشئ "تطبيقًا جديدًا" وقم بتسميته.
+أنشئ حسابًا على [بوابة مطوري ديسكورد](https://discord.com/developers/applications)。 أنشئ "تطبيقًا جديدًا" وقم بتسميته。
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/new-discord-application.png" alt="إنشاء تطبيق جديد على بوابة مطوري ديسكورد."/>
 
 *لوحة تحكم مطوري ديسكورد: التطبيقات.*
-</center>
 
-حدد تطبيقك الجديد وانقر فوق علامة التبويب "روبوت" على الجانب الأيسر.
+حدد تطبيقك الجديد وانقر فوق علامة التبويب "روبوت" على الجانب الأيسر。
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/new-discord-bot.png" alt="إعدادات روبوت التطبيق."/>
 
 *إعدادات تطبيق ديسكورد.*
-</center>
 
-انقر فوق "إضافة روبوت" لإنشاء روبوت ديسكورد الخاص بك.
+انقر فوق "إضافة روبوت" لإنشاء روبوت ديسكورد الخاص بك。
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-bot-settings.png" alt="إنشاء روبوت ديسكورد جديد."/>
 
 *إنشاء روبوت ديسكورد جديد.*
-</center>
 
-بمجرد إنشائه، قم بإنشاء ونسخ رمز الروبوت. أخيرًا، تأكد من تشغيل أذونات المراسلة.
+بمجرد إنشائه، قم بإنشاء ونسخ رمز الروبوت. أخيرًا، تأكد من تشغيل أذونات المراسلة。
 
-<center>
 <img src="/images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-bot-messaging-permissions.png" alt="أذونات مراسلة روبوت ديسكورد."/>
 
 *إنشاء روبوت ديسكورد جديد.*
-</center>
 
 ## إنشاء روبوت ديسكورد بسيط باستخدام PyCord
 

@@ -1,18 +1,20 @@
 ---
 title: "対話型AIをアップグレード：DialogflowからSeaChatへの移行が戦略的優位性となる理由"
 metatitle: "対話型AIをアップグレード：DialogflowからSeaChatへの移行が戦略的優位性となる理由"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Xuchen Yao
-description: 対話型AI分野では、Google Dialogflowが人気でしたが、大規模言語モデル（LLMs）ベースのSeaChatは制限を突破し、より自然で滑らかな対話体験を構築できます。
+description: "対話型AI分野では、Google Dialogflowが人気でしたが、大規模言語モデル（LLMs）ベースのSeaChatは制限を突破し、より自然で滑らかな対話体験を構築できます。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: '対話型AI分野は革新の波を経験しています。Googleの[Dialogflow](https://cloud.google.com/dialogflow)がインタラクティブな音声とテキストインターフェース構築の基盤となっている一方で、新しい技術の波が注目を集めています：大規模言語モデル（LLMs）。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)、LLM技術ベースのプラットフォームは、Dialogflowのようなルールベースエンジンを超える画期的な対話型AIアプローチを提案しています。チャットボットの効率性とユーザー体験を向上させたい企業にとって、SeaChatへの移行は戦略的優位性となる可能性があります。'
-modified_date: 2024-12-19T10:30:00Z
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 対話型AI分野は革新の波を経験しています。Googleの[Dialogflow](https://cloud.google.com/dialogflow)がインタラクティブな音声とテキストインターフェース構築の基盤となっている一方で、新しい技術の波が注目を集めています：大規模言語モデル（LLMs）。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)、LLM技術ベースのプラットフォームは、Dialogflowのようなルールベースエンジンを超える画期的な対話型AIアプローチを提案しています。チャットボットの効率性とユーザー体験を向上させたい企業にとって、SeaChatへの移行は戦略的優位性となる可能性があります。

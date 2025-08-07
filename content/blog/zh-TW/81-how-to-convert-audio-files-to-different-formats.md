@@ -1,15 +1,17 @@
 ---
 title: "您的音訊轉換綜合指南：輕鬆轉換聲音檔案 | 音訊工具箱系列"
 metatitle: "音訊/聲音檔案轉換 | 音訊工具箱系列"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: 了解音訊檔案轉換器、聲音格式轉換以及最佳免費音訊轉換器軟體。透過我們的逐步指南輕鬆轉換音訊檔案。
+description: "了解音訊檔案轉換器、聲音格式轉換以及最佳免費音訊轉換器軟體。透過我們的逐步指南輕鬆轉換音訊檔案。"
 weight: 1
-tags: ["音訊工具箱", "AI 工具"]
+tags:
+  - 音訊工具箱
+  - AI 工具
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # 音訊轉換簡介

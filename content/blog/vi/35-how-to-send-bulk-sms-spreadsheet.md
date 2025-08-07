@@ -1,16 +1,18 @@
 ---
 title: "Cách đúng để gửi SMS hàng loạt cho danh bạ trong Excel, Google Sheets và Apple Numbers"
 metatitle: "Gửi SMS hàng loạt | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Tìm hiểu cách gửi SMS hàng loạt an toàn từ Excel, Google Sheets và Apple Numbers, tuân thủ quy định 10DLC.'
+description: "Tìm hiểu cách gửi SMS hàng loạt an toàn từ Excel, Google Sheets và Apple Numbers, tuân thủ quy định 10DLC."
 weight: 1
-tags: ["SeaX", "Hướng dẫn"]
+tags:
+  - SeaX
+  - Hướng dẫn
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Gửi SMS hàng loạt cho danh sách liên hệ là kỹ thuật phổ biến được các doanh nghiệp, nhà tổ chức sự kiện và nhiều chuyên gia sử dụng. Việc gửi tin nhắn đồng loạt giúp tiết kiệm thời gian và đảm bảo thông tin đến với nhiều người cùng lúc. Dù Excel, Google Sheets và Apple Numbers không hỗ trợ gửi SMS mặc định, các tiện ích mở rộng và dịch vụ bên thứ ba đã giúp điều này trở nên khả thi. Tuy nhiên, cần lưu ý các quy định và rủi ro liên quan.

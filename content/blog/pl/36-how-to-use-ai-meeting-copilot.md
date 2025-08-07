@@ -1,17 +1,17 @@
 ---
 title: "Jak wykorzystać transkrypcję w czasie rzeczywistym i notatki ze spotkań AI, aby zwiększyć efektywność spotkań zespołu?"
 metatitle: "Jak wykorzystać transkrypcję w czasie rzeczywistym i notatki ze spotkań AI, aby zwiększyć efektywność spotkań zespołu?"
-date: 2023-10-02T10:25:00-08:00
-lastmod: 2024-06-20T00:00:00-08:00
+date: 2023-10-02 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Wraz z pojawieniem się dużych modeli językowych, takich jak ChatGPT, generatywna sztuczna inteligencja otworzyła nowe obszary eksploracji. Kiedy sztuczna inteligencja jest połączona z rozpoznawaniem mowy, oferuje niespotykane dotąd możliwości analizy spotkań w czasie rzeczywistym. Ale co to oznacza dla codziennych operacji biznesowych? Analiza nagrań spotkań w czasie rzeczywistym stała się niezbędnym narzędziem dla firm w celu poprawy wydajności i jakości komunikacji. Dzięki analizie w czasie rzeczywistym firmy mogą zapewnić, że każda dyskusja zostanie dokładnie zarejestrowana, dzięki czemu proces podejmowania decyzji będzie bardziej efektywny i precyzyjny."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/pl/blog/how-to-use-ai-meeting-copilot/"
-url: "/pl/blog/how-to-use-ai-meeting-copilot/"
-summary: "Wraz z pojawieniem się dużych modeli językowych, takich jak ChatGPT, generatywna sztuczna inteligencja otworzyła nowe obszary eksploracji. Kiedy sztuczna inteligencja jest połączona z rozpoznawaniem mowy, oferuje niespotykane dotąd możliwości analizy spotkań w czasie rzeczywistym. Ale co to oznacza dla codziennych operacji biznesowych?"
+canonicalURL: /pl/blog/how-to-use-ai-meeting-copilot/
+url: /pl/blog/how-to-use-ai-meeting-copilot/
 ---
 
 SeaMeet umożliwia:

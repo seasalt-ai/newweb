@@ -1,15 +1,17 @@
 ---
 title: "La forma correcta de enviar mensajes SMS a contactos en Excel, Google Sheets y Apple Numbers"
 metatitle: "Envío masivo de SMS | Excel, Google Sheets, Apple Numbers"
-date: 2024-05-16T00:00:00-08:00
+date: 2024-05-16 00:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: 'Aprenda las formas más seguras de enviar mensajes SMS a granel desde Excel, Google Sheets y Apple Numbers, mientras se mantiene compatible con 10DLC.'
+description: "Aprenda las formas más seguras de enviar mensajes SMS a granel desde Excel, Google Sheets y Apple Numbers, mientras se mantiene compatible con 10DLC."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 El envío masivo de SMS a una lista de contactos es una técnica ampliamente utilizada por empresas, organizadores de eventos y diversos profesionales. La capacidad de enviar un mensaje de forma masiva puede ahorrar tiempo y ayudar a mantener a los contactos informados. Si bien Excel, Google Sheets y Apple Numbers no están diseñados inherentemente para enviar SMS, las extensiones y los servicios de terceros han surgido para facilitar esto. Sin embargo, hay trampas que uno debe tener en cuenta.
@@ -57,12 +59,8 @@ c. Seleccione las columnas que desea verificar en busca de duplicados y luego ha
 
 d. Google Sheets le notificará cuántos duplicados se eliminaron.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Eliminar entradas duplicadas para su hoja de cálculo de contactos para SMS masivos"/>
-
-_Eliminar entradas duplicadas para su hoja de cálculo de contactos para SMS masivos_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Eliminar duplicados de la hoja de cálculo de contactos de SMS masivos"/>
+_Eliminar duplicados de la hoja de cálculo de contactos de SMS masivos_
 
 ## 3. Estandarizar el formato del número de teléfono
 
@@ -72,13 +70,8 @@ b. Use `Buscar y reemplazar` para que el formato sea consistente. Por ejemplo, r
 
 c. Si es necesario, use fórmulas o scripts personalizados para asegurarse de que todos los números sean consistentes. Esto puede requerir habilidades más avanzadas en hojas de cálculo.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Estandarice el formato del número de teléfono para su hoja de cálculo de contactos para SMS masivos"/>
-
-_Estandarice el formato del número de teléfono para su hoja de cálculo de contactos para SMS masivos_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="Estandarizar el formato de número de teléfono para la hoja de cálculo de contactos de SMS masivos"/>
+_Estandarizar el formato de número de teléfono para la hoja de cálculo de contactos de SMS masivos_
 
 ### 4. Validación de datos
 
@@ -86,13 +79,8 @@ a. Para los números de teléfono, asegúrese de que todos tengan el número cor
 
 b. Para los nombres, busque entradas que puedan estar en blanco o contener datos irrelevantes.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Validación de datos para su hoja de cálculo de contactos para SMS masivos"/>
-
-_Validación de datos para su hoja de cálculo de contactos para SMS masivos_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="Validar datos para la hoja de cálculo de contactos de SMS masivos"/>
+_Validar datos para la hoja de cálculo de contactos de SMS masivos_
 
 ## 5. Verifique las celdas en blanco
 
@@ -108,13 +96,8 @@ c. Establezca las celdas de formato en `La celda está vacía` y elija un color 
 
 d. Esto le permitirá identificar y abordar fácilmente las celdas en blanco.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Verifique las celdas en blanco en su hoja de cálculo de contactos para SMS masivos"/>
-
-_Verifique las celdas en blanco en su hoja de cálculo de contactos para SMS masivos_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Comprobar celdas en blanco para la hoja de cálculo de contactos de SMS masivos"/>
+_Comprobar celdas en blanco para la hoja de cálculo de contactos de SMS masivos_
 
 ## Más sobre la preparación de datos de contacto
 
@@ -137,11 +120,7 @@ Algunos proveedores populares de servicios de mensajería SMS incluyen:
 
 # Cómo ejecutar operaciones exitosas de marketing de texto
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Éxito en el marketing de texto"/>
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Marketing SMS exitoso"}
 
 Incluso con las mejores intenciones, pueden surgir problemas. Aquí hay algunas formas de ejecutar operaciones de marketing de texto exitosas a largo plazo:
 

@@ -1,21 +1,21 @@
 ---
 title: "NLU basado en intenciones/entidades vs. NLU basado en Gen..."
 metatitle: "NLU basado en intenciones/entidades vs. NLU basado en Gen..."
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: "Descubra el futuro de la IA conversacional: por qué el cambio de NLU basado en intenciones/entidades a NLU basado en GenAI/LLM es crucial para la escalabilidad, la rentabilidad y la adaptabilidad."
 weight: 1
 tags:
-  - "SeaChat"
-  - "AI Tools"
-  - "Customer Experience"
-  - "Customer Story"
-  - "NLU"
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 

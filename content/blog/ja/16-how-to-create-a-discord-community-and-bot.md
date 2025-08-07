@@ -1,16 +1,15 @@
 ---
-author: Kim Dodds
-description: このブログでは、ブランドのDiscordサーバーを作成し、モデレーション、バグ報告、アナウンスなどを自動化できるボットを接続する方法を説明します。
+title: "Discord (2/3): ブランドのDiscordコミュニティとボットを作成する方法"
+metatitle: "Discord (2/3): ブランドのDiscordコミュニティとボットを作成する"
+date: 2025-08-07T10:11:00 # 需要确认
 draft: false
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-metatitle: Discord (2/3): ブランドのDiscordコミュニティとボットを作成する
-published: 2022-05-31T13:29:51-07:00
-slug: 16-how-to-create-a-discord-community-and-bot
-tags:
-- SeaX
-- Discord
-title: Discord (2/3): ブランドのDiscordコミュニティとボットを作成する方法
+author: Kim Dodds
+description: "このブログでは、ブランドのDiscordサーバーを作成し、モデレーション、バグ報告、アナウンスなどを自動化できるボットを接続する方法を説明します。"
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
 ---
 
 *私たちのブログ記事「[Discord: 顧客エンゲージメントの新たなフロンティア](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)」では、Discordの人気上昇と、ブランドがこの新しいソーシャルプラットフォームを活用して独自のオンラインコミュニティを形成し、顧客とエンゲージする方法について説明しました。このブログでは、モデレーション、バグ報告、アナウンスなどのタスクを自動化できるボットの接続方法を含め、ブランドの新しい公式サーバーを作成する方法を説明します。*

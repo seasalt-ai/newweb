@@ -1,17 +1,19 @@
 ---
 title: "不只巧言：為什麼從wit.ai升級到SeaChat能提升您的對話式AI體驗"
 metatitle: "不只巧言：為什麼從wit.ai升級到SeaChat能提升您的對話式AI體驗"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: 在對話式AI領域，Meta/Facebook的wit.ai曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。
+description: "在對話式AI領域，Meta/Facebook的wit.ai曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-meta-wit-ai/"
-url: "/zh/blog/seachat-vs-meta-wit-ai/"
-summary: '聊天機器人的世界正以驚人的速度進化。當Meta/Facebook的[wit.ai](http://wit.ai)作為構建語音驅動程式的墊腳石時，一股新的技術浪潮正慢慢成為舞台中的焦點：大型語言模型(LLMs)。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)，一個建立在LLM技術之上的平台，為對話式AI提供了突破性的方法，將意圖式引擎的wit.ai遠遠拋在腦後。是時候考慮為您的聊天機器人進行升級了嗎？'
+canonicalURL: /zh/blog/seachat-vs-meta-wit-ai/
+url: /zh/blog/seachat-vs-meta-wit-ai/
 ---
 
 聊天機器人的世界正以驚人的速度進化。當Meta/Facebook的[wit.ai](http://wit.ai)作為構建語音驅動程式的墊腳石時，一股新的技術浪潮正慢慢成為舞台中的焦點：大型語言模型(LLMs)。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)，一個建立在LLM技術之上的平台，為對話式AI提供了突破性的方法，將意圖式引擎的wit.ai遠遠拋在腦後。是時候考慮為您的聊天機器人進行升級了嗎？

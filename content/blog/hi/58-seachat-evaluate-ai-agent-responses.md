@@ -1,15 +1,18 @@
 ---
 title: "एआई एजेंट प्रतिक्रियाओं का मूल्यांकन कैसे करें: एआई एजेंट सुधार और नियंत्रण के लिए सीचैट की समीक्षा प्रणाली"
 metatitle: "एआई एजेंट प्रतिक्रियाओं का मूल्यांकन करें | सीचैट की समीक्षा प्रणाली"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "सीचैट आपको प्रदर्शन और ग्राहक अनुभव को बढ़ाने के लिए एआई एजेंट प्रतिक्रियाओं को फ़्लैग करने, समीक्षा करने और सुधारने देता है।"
 weight: 1
-tags: ["सीचैट", "वॉयस एजेंट", "एआई उपकरण", "ग्राहक अनुभव"]
+tags:
+  - सीचैट
+  - वॉयस एजेंट
+  - एआई उपकरण
+  - ग्राहक अनुभव
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # परिचय

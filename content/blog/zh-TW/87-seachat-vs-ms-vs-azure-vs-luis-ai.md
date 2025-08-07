@@ -1,21 +1,20 @@
 ---
 title: "SeaChat對比Microsoft Bot 框架與Azure Bot 服務（LUIS.ai）"
 metatitle: "SeaChat對比Microsoft Bot 框架與Azure Bot 服務（LUIS.ai）"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
-author:  Xuchen Yao
-description: 在對話式AI領域，Microsoft Azure Bot 服務（LUIS.ai）曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。
+author: Xuchen Yao
+description: "在對話式AI領域，Microsoft Azure Bot 服務（LUIS.ai）曾熱門，基於大型語言模型(LLMs)的SeaChat，能突破限制，打造更自然流暢的對話體驗。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: '對話式AI的世界對於Microsoft與OpenAI日益深入的合作關係的最新消息感到激動。雖然有些人慶祝這一合作的潛力，但在Microsoft內部也有不滿的聲音。據報導，內部人士擔心，會偏離內部AI開發，以推廣OpenAI的產品。
-
-一個特別提到的領域是Microsoft的Azure Bot Service的命運。'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 對話式AI的世界對於Microsoft與OpenAI日益深入的合作關係的最新消息感到激動。雖然有些人慶祝這一合作的潛力，但在Microsoft內部也有不滿的聲音。據報導，內部人士擔心，會偏離內部AI開發，以推廣OpenAI的產品。

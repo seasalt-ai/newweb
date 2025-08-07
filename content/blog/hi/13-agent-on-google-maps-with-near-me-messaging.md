@@ -1,18 +1,17 @@
 ---
 title: "नियर मी मैसेजिंग के साथ Google मैप्स पर अपना वर्चुअल एजेंट लॉन्च करें"
 metatitle: "नियर मी मैसेजिंग के साथ अपना Google मैप्स वर्चुअल एजेंट लॉन्च करें"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "नियर मी मैसेजिंग के साथ Google Business Messages पर अपना वर्चुअल एजेंट लॉन्च करें।"
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 हमने पहले आपको [नियर मी मैसेजिंग](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) और इसके लाभों से परिचित कराया है। नियर मी मैसेजिंग एक Google Business Messages वर्चुअल एजेंट को लागू करता है, जो किसी व्यवसाय के Google मैप्स प्रोफ़ाइल पर चैट बटन से सीधे उपलब्ध होता है। नियर मी मैसेजिंग का वर्चुअल एजेंट अत्याधुनिक प्राकृतिक भाषा समझ द्वारा संचालित है जो मानव-जैसी प्रतिक्रियाएं प्रदान करता है। नियर मी मैसेजिंग को समान सेवाओं से अलग करने वाली बात 5 मिनट का सेटअप समय, स्व-सेवा अनुकूलन और अंतर्निहित लाइव चैट समर्थन है।

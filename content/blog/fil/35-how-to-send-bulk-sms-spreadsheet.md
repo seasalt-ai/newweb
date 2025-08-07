@@ -1,15 +1,17 @@
 ---
 title: "Ang Tamang Paraan upang Magpadala ng Maramihang SMS sa mga Contact sa Excel, Google Sheets, at Apple Numbers"
 metatitle: "Maramihang Pagpapadala ng SMS | Excel, Google Sheets, Apple Numbers"
-date: 2024-05-13T00:00:00-08:00
+date: 2024-05-13 00:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: 'Alamin ang pinakaligtas na paraan upang magpadala ng maramihang SMS mula sa Excel, Google Sheets, at Apple Numbers habang nananatiling 10DLC compliant.'
+description: "Alamin ang pinakaligtas na paraan upang magpadala ng maramihang SMS mula sa Excel, Google Sheets, at Apple Numbers habang nananatiling 10DLC compliant."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 Ang pagpapadala ng maramihang SMS sa isang listahan ng mga contact ay isang malawakang ginagamit na pamamaraan para sa mga negosyo, tagapag-ayos ng kaganapan, at iba't ibang propesyonal. Ang kakayahang magpadala ng mensahe nang maramihan ay makakatipid ng oras at makakatulong na panatilihing updated ang mga contact. Bagama't ang Excel, Google Sheets, at Apple Numbers ay hindi likas na binuo upang magpadala ng SMS, ang mga extension at third-party na serbisyo ay dumating upang gawing posible ito. Gayunpaman, may mga panganib na dapat malaman.
@@ -40,12 +42,8 @@ Gamitin natin ang Google Sheet bilang isang halimbawa. Ang mga hakbang para sa i
 
 Ang paggawa ng kopya ng iyong mga contact ay nagsisiguro na hindi ka mawawalan ng anumang data ng contact kung magkamali ka. Narito kung paano: **I-click ang `File` > `Make a copy`**.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Gumawa ng backup na kopya para sa iyong bulk SMS contact spreadsheet"/>
-
-_Gumawa ng backup na kopya para sa iyong bulk SMS contact spreadsheet_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="Gumawa ng backup na kopya ng spreadsheet ng contact ng bulk SMS"/>
+_Gumawa ng backup na kopya ng spreadsheet ng contact ng bulk SMS_
 
 ## 2. Pag-alis ng Duplicate Data
 
@@ -57,12 +55,8 @@ c. Piliin ang mga column na gusto mong suriin para sa mga duplicate, pagkatapos 
 
 d. Aabisahan ka ng Google Sheets kung gaano karaming duplicate ang inalis.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Alisin ang mga duplicate na record para sa iyong bulk SMS contact spreadsheet"/>
-
-_Alisin ang mga duplicate na record para sa iyong bulk SMS contact spreadsheet_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="Alisin ang mga duplicate sa spreadsheet ng contact ng bulk SMS"/>
+_Alisin ang mga duplicate sa spreadsheet ng contact ng bulk SMS_
 
 ## 3. I-standardize ang Format ng Numero ng Telepono
 
@@ -72,13 +66,8 @@ b. Gamitin ang `Find and Replace` upang gawing pare-pareho ang pag-format. Halim
 
 c. Gumamit ng mga custom na formula o script kung kinakailangan upang matiyak na ang lahat ng numero ay pare-pareho. Maaaring mangailangan ito ng mas advanced na kasanayan sa spreadsheet
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="I-standardize ang format ng numero ng telepono para sa iyong bulk SMS contact spreadsheet"/>
-
-_I-standardize ang format ng numero ng telepono para sa iyong bulk SMS contact spreadsheet_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="I-standardize ang format ng numero ng telepono sa spreadsheet ng contact ng bulk SMS"/>
+_I-standardize ang format ng numero ng telepono sa spreadsheet ng contact ng bulk SMS_
 
 ### 4. I-validate ang mga Entry ng Data
 
@@ -86,13 +75,8 @@ a. Para sa mga numero ng telepono, tiyakin na ang lahat ay may tamang bilang ng 
 
 b. Para sa mga pangalan, hanapin ang mga entry na maaaring blangko o puno ng hindi nauugnay na data.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="I-validate ang mga entry ng data para sa iyong bulk SMS contact spreadsheet"/>
-
-_I-validate ang mga entry ng data para sa iyong bulk SMS contact spreadsheet_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="I-validate ang data sa spreadsheet ng contact ng bulk SMS"/>
+_I-validate ang data sa spreadsheet ng contact ng bulk SMS_
 
 ## 5. Suriin ang mga Blangkong Cell
 
@@ -108,13 +92,8 @@ c. Itakda ang mga format cell kung sa `Cell is empty` at pumili ng kulay ng high
 
 d. Papayagan ka nitong madaling makita at matugunan ang mga blangkong cell.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Suriin ang mga blangkong cell sa iyong bulk SMS contact spreadsheet"/>
-
-_Suriin ang mga blangkong cell sa iyong bulk SMS contact spreadsheet_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="Suriin ang mga blangkong cell sa spreadsheet ng contact ng bulk SMS"/>
+_Suriin ang mga blangkong cell sa spreadsheet ng contact ng bulk SMS_
 
 ## Higit Pa sa Paghahanda ng Data ng Contact
 
@@ -137,11 +116,7 @@ Ilan sa mga popular na provider ng serbisyo ng pagmemensahe ng SMS ay:
 
 # Paano Magpatakbo ng Matagumpay na Operasyon sa Text Marketing
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Tagumpay sa text marketing"/>
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="Matagumpay na SMS marketing"/>
 
 Kahit na may pinakamahusay na intensyon, maaaring lumitaw ang mga isyu. Narito ang ilang paraan upang magpatakbo ng matagumpay na operasyon sa text marketing sa mahabang panahon.:
 

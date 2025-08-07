@@ -1,14 +1,13 @@
 ---
-metatitle: Como enviar SMS em massa usando uma planilha
-seoDescription: Guia completo para enviar SMS em massa com planilhas, solução eficiente
-  para empresas modernas.
-seoTitle: Como enviar SMS em massa usando uma planilha
-slug: how-to-send-bulk-sms-spreadsheet
+title: "Como enviar SMS em massa usando uma planilha"
+metatitle: "Como enviar SMS em massa usando uma planilha"
+date: 2025-08-07 10:11:03
+author: "" # 需要确认
+description: "\"\" # 需要确认"
 tags:
-- SMS
-- Planilha
-- Automação
-title: Como enviar SMS em massa usando uma planilha
+  - SMS
+  - Planilha
+  - Automação
 ---
 
 

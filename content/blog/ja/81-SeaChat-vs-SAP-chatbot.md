@@ -1,18 +1,20 @@
 ---
 title: "新しい道を開く：SeaChatがインタラクティブチャットボット構築でSAP Conversational AIを凌駕する理由"
 metatitle: "新しい道を開く：SeaChatがインタラクティブチャットボット構築でSAP Conversational AIを凌駕する理由"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-01-27T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 会話AIの分野では、SAP Conversational AIがかつて人気でした。Large Language Models（LLMs）をベースにしたSeaChatは、制限を突破し、より自然で流暢な会話体験を作り出すことができます。
+description: "会話AIの分野では、SAP Conversational AIがかつて人気でした。Large Language Models（LLMs）をベースにしたSeaChatは、制限を突破し、より自然で流暢な会話体験を作り出すことができます。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: '会話AIの領域では、変化の風が吹いています。[SAP Conversational AI](https://cai.tools.sap/)がエンタープライズグレードのチャットボット構築のための人気選択肢であった一方で、新しい技術の波が徐々に新しい焦点となっています：Large Language Models（LLMs）。LLM技術をベースに構築された[SeaChat](https://chat.seasalt.ai/?utm_source=blog)プラットフォームは、SAP Conversational AIのようなルールベースエンジンの制限を超越する革新的なアプローチを提供します。より魅力的なチャットボット体験のために出航する準備はできていますか？'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 会話AIの領域では、変化の風が吹いています。[SAP Conversational AI](https://cai.tools.sap/)がエンタープライズグレードのチャットボット構築のための人気選択肢であった一方で、新しい技術の波が徐々に新しい焦点となっています：Large Language Models（LLMs）。LLM技術をベースに構築された[SeaChat](https://chat.seasalt.ai/?utm_source=blog)プラットフォームは、SAP Conversational AIのようなルールベースエンジンの制限を超越する革新的なアプローチを提供します。より魅力的なチャットボット体験のために出航する準備はできていますか？

@@ -1,17 +1,20 @@
 ---
 title: "Cara Memilih Perkhidmatan Panggilan Keluar Terbaik: Ejen Langsung vs. Pendail Auto vs. AI Suara (5/5)"
 metatitle: "Seasalt.ai | Pilih Perkhidmatan Panggilan Keluar Terbaik"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Terokai ejen langsung, pendail auto, dan AI Suara untuk memilih penyelesaian panggilan keluar terbaik untuk keperluan perniagaan anda."
 weight: 1
-tags: ["Perkhidmatan Telemarketing Auto", "Panggilan Keluar untuk Perniagaan Kecil", "Pendail Auto", "AI Suara"]
-toc: true
+tags:
+  - Perkhidmatan Telemarketing Auto
+  - Panggilan Keluar untuk Perniagaan Kecil
+  - Pendail Auto
+  - AI Suara
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

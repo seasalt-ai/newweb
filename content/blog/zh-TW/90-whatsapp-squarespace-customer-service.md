@@ -1,17 +1,19 @@
 ---
 title: "如何使用 SeaChat 在您的 Squarespace 網站上添加 AI 聊天機器人"
 metatitle: "SeaChat AI | 您的 Squarespace 網站上的 AI 代理"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: 使用 SeaChat 的 AI 最大化 Squarespace 上的客戶參與度 - 自定義、訓練、監控和更新您的聊天機器人，以實現主動的訪客支持。
+description: "使用 SeaChat 的 AI 最大化 Squarespace 上的客戶參與度 - 自定義、訓練、監控和更新您的聊天機器人，以實現主動的訪客支持。"
 weight: 1
-tags: ["SeaChat", "WhatsApp", "整合"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - 整合
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 在當今快節奏的數位環境中，有效的客戶服務和用戶參與對企業至關重要。客戶期望即時互動、快速響應和個人化支持。將聊天解決方案整合到您的網站可以顯著增強這些方面。在這篇部落格中，我們將探討如何將 AI 聊天機器人添加到您的 Squarespace 網站並徹底改變您的客戶溝通。

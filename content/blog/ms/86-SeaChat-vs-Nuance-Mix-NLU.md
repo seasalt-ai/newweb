@@ -1,18 +1,21 @@
 ---
 title: "Masa Depan AI Perbualan: Adakah SeaChat Menggantikan Nuance Mix NLU?"
 metatitle: "Masa Depan AI Perbualan: Adakah SeaChat Menggantikan Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30T10:00:00Z
 draft: false
 author: Xuchen Yao
-description: Dalam ruang AI perbualan, Nuance Mix NLU popular, tetapi SeaChat, berdasarkan Large Language Models (LLMs), dapat menghancurkan batasan dan menciptakan pengalaman perbualan yang lebih semula jadi dan lancar.
+description: "Dalam ruang AI perbualan, Nuance Mix NLU popular, tetapi SeaChat, berdasarkan Large Language Models (LLMs), dapat menghancurkan batasan dan menciptakan pengalaman perbualan yang lebih semula jadi dan lancar."
 weight: 1
-tags: ["SeaChat", "Alat AI", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - Alat AI
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'Dunia AI perbualan bergema dengan inovasi. Walaupun [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang kuat untuk memahami niat pengguna, kemunculan Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), platform berasaskan teknologi LLM, menunjukkan masa depan potensi AI perbualan.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Dunia AI perbualan bergema dengan inovasi. Walaupun [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) telah membuktikan dirinya sebagai alat yang kuat untuk memahami niat pengguna, kemunculan Large Language Models (LLMs) menawarkan alternatif yang menarik. [SeaChat](https://chat.seasalt.ai/), platform berasaskan teknologi LLM, menunjukkan masa depan potensi AI perbualan.

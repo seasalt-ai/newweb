@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB：一个在提问前就能回答的知识库"
 metatitle: "SeaX KB：一个在提问前就能回答的知识库"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:05:21.933Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:05:21.933000+00:00
 draft: false
 author: Kim Dodds
 description: "在这篇文章中，我们将继续探讨AI整合的话题，介绍SeaX的AI驱动知识库，它能即时提供建议的回复。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *在我们之前的博客文章 [使用 SeaX 语音智能为您的联络中心赋予自己的声音](https://seasalt.ai/blog/21-seax-voice-intelligence/) 中，我们展示了 Seasalt.ai 内部文本转语音和语音转文本引擎如何增强 SeaX 平台的各个方面。在这篇文章中，我们将继续探讨 AI 整合的话题，介绍 SeaX 的 AI 驱动知识库，它能即时监听对话并提供建议的回复。*

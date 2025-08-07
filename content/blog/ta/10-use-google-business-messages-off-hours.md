@@ -1,18 +1,17 @@
 ---
 title: "வணிக உரிமையாளர்களே: வேலை நேரத்திற்குப் பிறகும் வாடிக்கையாளர்களுடன் ஈடுபட Google Business Messages-ஐப் பயன்படுத்துங்கள்!"
 metatitle: "வேலை நேரத்திற்குப் பிறகும் வாடிக்கையாளர்களுடன் ஈடுபட Google Business Messages-ஐப் பயன்படுத்துங்கள்!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Google Business Profile வணிக உரிமையாளர்களை வாடிக்கையாளர்களுடன் நேரடியாக அரட்டை அடிக்க அனுமதிக்கும் அதே வேளையில், Google Business Messages ஒரு மெய்நிகர் முகவருடன் ஒருங்கிணைக்க உதவுகிறது."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Google Business Messages-இன் நன்மைகள் மற்றும் வரம்புகள் மற்றும் வணிகங்கள் Google Business Messages-ஐ எவ்வாறு செயல்படுத்துகின்றன என்பதைப் பற்றி மேலும் அறிக.*

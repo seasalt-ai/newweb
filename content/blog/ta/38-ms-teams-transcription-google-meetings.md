@@ -1,18 +1,17 @@
 ---
 title: "கூட்டங்களுக்கான AI உதவியாளர்கள் போட்டி: Microsoft Teams vs Google Meet"
 metatitle: "கூட்டங்களுக்கான AI உதவியாளர்கள் போட்டி: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Microsoft Teams மற்றும் Google Meet இன் AI கூட்ட உதவியாளர்களை ஆராயுங்கள், தளங்களின் மொழி ஆதரவை ஒப்பிடுங்கள், மற்றும் SeaMeet எவ்வாறு நேரலை எழுத்துப்பெயர்ப்பு, சுருக்கங்கள் மற்றும் பிற அம்சங்களை வழங்குகிறது என்பதைக் கண்டறியுங்கள்."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Microsoft Teams மற்றும் Google Meet இன் AI கூட்ட உதவியாளர்களை ஆராயுங்கள், தளங்களின் மொழி ஆதரவை ஒப்பிடுங்கள், மற்றும் SeaMeet எவ்வாறு நேரலை எழுத்துப்பெயர்ப்பு, சுருக்கங்கள் மற்றும் பிற அம்சங்களை வழங்குகிறது என்பதைக் கண்டறியுங்கள்."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 தொழில்நுட்பம் முன்னேறுவதால், கூட்டங்களுக்கான AI உதவியாளர்கள் கூட்டங்களின் செயல்திறனை மேம்படுத்துவதற்கான முக்கியமான கருவியாக மாறியுள்ளன. இந்த கருவிகள் கூட்டங்களின் சுருக்கங்களை தானாகவே உருவாக்க, பேச்சை உரையாக மாற்ற, மற்றும் கூட்டங்களின் போது முக்கியமான தகவல்களை அடையாளம் காணவும் முடியும். இந்த கட்டுரையில், நாங்கள் மூன்று முக்கிய AI கூட்ட உதவியாளர்களை ஆராய்வோம்: Microsoft Teams இன் Copilot, Google Meet இன் Duet AI, மற்றும் SeaMeet.

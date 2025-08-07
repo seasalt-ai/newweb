@@ -1,18 +1,20 @@
 ---
 title: "AI gọi ra trực tiếp: Cách mạng hóa tiếp thị và bán hàng"
 metatitle: "AI gọi ra trực tiếp: Cách mạng hóa tiếp thị và bán hàng"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: Khám phá cách AI gọi ra trực tiếp có thể cách mạng hóa tiếp thị và bán hàng, tăng hiệu quả và cải thiện tỷ lệ chuyển đổi.
+description: "Khám phá cách AI gọi ra trực tiếp có thể cách mạng hóa tiếp thị và bán hàng, tăng hiệu quả và cải thiện tỷ lệ chuyển đổi."
 weight: 1
-tags: ["AI Outbound", "Sales", "Marketing", "Automation"]
+tags:
+  - AI Outbound
+  - Sales
+  - Marketing
+  - Automation
 image: /images/blog/104-ai-live-outbound/blog-banner.png
-canonicalURL: "/zh/blog/ai-live-outbound/"
-url: "/zh/blog/ai-live-outbound/"
-summary: 'AI gọi ra trực tiếp có thể cách mạng hóa tiếp thị và bán hàng bằng cách tự động hóa quy trình gọi điện, tăng hiệu quả và cải thiện tỷ lệ chuyển đổi. Khám phá cách công nghệ AI có thể thay đổi cách doanh nghiệp tiếp cận khách hàng.'
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /zh/blog/ai-live-outbound/
+url: /zh/blog/ai-live-outbound/
 ---
 
 AI gọi ra trực tiếp có thể cách mạng hóa tiếp thị và bán hàng bằng cách tự động hóa quy trình gọi điện, tăng hiệu quả và cải thiện tỷ lệ chuyển đổi. Khám phá cách công nghệ AI có thể thay đổi cách doanh nghiệp tiếp cận khách hàng.

@@ -1,16 +1,18 @@
 ---
 title: "داستان مشتری: چگونه SeaX به برند برتر تلفن همراه در پشتیبانی از مشتریان در 100 کشور کمک کرد"
 metatitle: "SeaX به برند برتر تلفن همراه در پشتیبانی از مشتریان در سطح جهانی کمک کرد"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: کشف کنید که چگونه استقرار مرکز تماس همه‌کاناله تحول‌آفرین Seasalt.ai به یکی از 5 برند برتر تلفن همراه کمک کرد تا عملیات پشتیبانی مشتری را در 100 کشور متحول کند، از هرج و مرج تا رضایت مشتری!
+description: "کشف کنید که چگونه استقرار مرکز تماس همه‌کاناله تحول‌آفرین Seasalt.ai به یکی از 5 برند برتر تلفن همراه کمک کرد تا عملیات پشتیبانی مشتری را در 100 کشور متحول کند، از هرج و مرج تا رضایت مشتری!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 داستان موفقیت استقرار مرکز تماس همه‌کاناله برای یکی از 5 برند برتر تلفن همراه بین‌المللی، گواهی بر قدرت تحول‌آفرین فناوری در بهبود عملیات پشتیبانی مشتری است.

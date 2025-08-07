@@ -1,16 +1,20 @@
 ---
 title: "抛弃脚本，拥抱对话：为什么从 Amazon Lex 升级到 SeaChat 是明智之举"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Xuchen Yao
 description: "为什么 Amazon Lex 过时了？了解 SeaChat - 借助先进的 LLM 技术，摆脱重复的聊天机器人，促进引人入胜的、类似真人的对话。"
 weight: 1
-tags: ["SeaChat", "AI 工具", "大型语言模型", "NLU"]
+tags:
+  - SeaChat
+  - AI 工具
+  - 大型语言模型
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 聊天机器人领域正在迅速发展。虽然 [Amazon Lex](https://aws.amazon.com/lex/) 一直是构建语音和文本界面的热门选择，但一股新技术浪潮正占据中心舞台：大型语言模型 (LLM)。 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 是一个由 LLM 驱动的平台，它提供了一种突破性的会话式人工智能方法，将 Lex 等基于规则的引擎甩在了身后。是时候考虑为您的聊天机器人升级了吗？

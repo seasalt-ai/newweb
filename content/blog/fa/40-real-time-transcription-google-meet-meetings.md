@@ -1,19 +1,18 @@
 ---
 title: "چگونه رونویسی بی‌درنگ و تجزیه و تحلیل جلسات، جلسات Google Meet را تغییر می‌دهد"
 metatitle: "چگونه رونویسی بی‌درنگ و تجزیه و تحلیل جلسات، جلسات Google Meet را تغییر می‌دهد"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "ویژگی‌های رونویسی بی‌درنگ و تجزیه و تحلیل جلسات، نحوه برگزاری جلسات را تغییر داده است. آنها نه تنها کارایی جلسات را افزایش می‌دهند، بینش‌های فوری را ارائه می‌دهند و تصمیم‌گیری سریع را تسهیل می‌کنند، بلکه مشارکت شرکت‌کنندگان را نیز افزایش می‌دهają و موفقیت جلسات کاری مدرن را تضمین می‌کنند."
 weight: 1
-tags: ["SeaMeet", "ابزارهای هوش مصنوعی"]
+tags:
+  - SeaMeet
+  - ابزارهای هوش مصنوعی
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "ویژگی‌های رونویسی بی‌درنگ و تجزیه و تحلیل جلسات، نحوه برگزاری جلسات را تغییر داده است. آنها نه تنها کارایی جلسات را افزایش می‌دهają، بینش‌های فوری را ارائه می‌دهند و تصمیم‌گیری سریع را تسهیل می‌کنند، بلکه مشارکت شرکت‌کنندگان را نیز افزایش می‌دهają و موفقیت جلسات کاری مدرن را تضمین می‌کنند."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 در محیط کسب و کار مدرن، جلسات یک پلت فرم کلیدی برای ترویج کار تیمی و تصمیم گیری است. با این حال، به دلیل جلسات موازی متعدد و برنامه های شلوغ، همگام ماندن با همه جلسات به طور فزاینده ای دشوار می شود. در این زمینه، نیاز به رونویسی بی درنگ و تجزیه و تحلیل جلسات به طور فزاینده ای برجسته می شود، زیرا آنها راه حلی برای غلبه بر محدودیت های روش های ضبط جلسات سنتی و اطمینان از مدیریت موثر جلسات ارائه می دهند.

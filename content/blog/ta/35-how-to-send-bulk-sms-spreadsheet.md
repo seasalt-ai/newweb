@@ -1,16 +1,18 @@
 ---
 title: "Excel, Google Sheets, Apple Numbers மூலம் Bulk SMS அனுப்பும் சரியான வழி"
 metatitle: "Bulk SMS அனுப்பு | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Excel, Google Sheets, Apple Numbers மூலம் 10DLC விதிமுறைகளை பின்பற்றி பாதுகாப்பாக Bulk SMS அனுப்பும் முறையை அறிக.'
+description: "Excel, Google Sheets, Apple Numbers மூலம் 10DLC விதிமுறைகளை பின்பற்றி பாதுகாப்பாக Bulk SMS அனுப்பும் முறையை அறிக."
 weight: 1
-tags: ["SeaX", "வழிகாட்டி"]
+tags:
+  - SeaX
+  - வழிகாட்டி
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 தொடர்பு பட்டியலுக்கு Bulk SMS அனுப்புவது நிறுவனங்கள், நிகழ்ச்சி ஏற்பாட்டாளர்கள், பல்வேறு தொழில்முனைவோர்கள் பயன்படுத்தும் ஒரு பொதுவான நடைமுறை. ஒரே நேரத்தில் பலருக்கு செய்தி அனுப்புவது நேரத்தை சேமித்து, தகவலை விரைவாக பகிர உதவும். Excel, Google Sheets, Apple Numbers இயல்பாக SMS அனுப்பும் வசதியில்லை; ஆனால், பல விரிவாக்கங்கள் மற்றும் மூன்றாம் தரப்பு சேவைகள் இதை சாத்தியமாக்குகின்றன. இருப்பினும், சில விதிமுறைகள் மற்றும் அபாயங்களை கவனிக்க வேண்டும்.

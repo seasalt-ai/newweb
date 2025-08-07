@@ -1,18 +1,17 @@
 ---
 title: "Proprietari de afaceri: Utilizați Google Business Messages pentru a interacționa în afara orelor de program!"
 metatitle: "Utilizați Google Business Messages pentru a interacționa în afara orelor de program!"
-date: 2022-03-29T17:58:58-07:00
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
+author: Ruli Setiawati
 description: "În timp ce Profilul Companiei pe Google permite proprietarilor de afaceri să discute direct cu clienții, Google Business Messages permite integrarea cu un agent virtual."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
-modified_date: "2025-08-01T12:00:00Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 

@@ -1,18 +1,17 @@
 ---
 title: "டெமோவிலிருந்து வெற்றிக்கு: நவீன கூட்டங்களின் பேச்சு الگொரிதம்களை கடந்தது (3/5)"
 metatitle: "டெமோவிலிருந்து வெற்றிக்கு (3/5): நவீன கூட்டங்களின் பேச்சு الگொரிதம்கள்"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "இந்த பிளாக் தொடரின் மூன்றாவது பகுதியில், Seasalt.ai உருவாக்கிய SeaMeet, நவீன கூட்டங்களுக்கான ஒத்துழைப்பு தீர்வை உருவாக்கும் பயணத்தை பின்தொடருங்கள்."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 *இந்த பிளாக் தொடரில், Seasalt.ai உருவாக்கிய முழுமையான நவீன கூட்ட அனுபவத்தை பின்தொடருங்கள், ஆரம்பத்தில் இருந்து, பல்வேறு ஹார்ட்வேர் மற்றும் மாதிரிகளில் சேவையை மேம்படுத்துதல், நவீன NLP அமைப்புகளை ஒருங்கிணைத்தல், மற்றும் SeaMeet, நவீன கூட்டங்களுக்கான ஒத்துழைப்பு தீர்வை முழுமையாக உருவாக்குதல் வரை.*

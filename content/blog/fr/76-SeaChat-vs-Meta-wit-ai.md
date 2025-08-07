@@ -1,15 +1,19 @@
 ---
 title: "Au-delà des plaisanteries : Pourquoi passer de wit.ai à SeaChat peut dynamiser votre IA conversationnelle"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Pourquoi wit.ai de Meta/Facebook est-il dépassé ? Découvrez SeaChat - Éloignez-vous des chatbots répétitifs grâce à une technologie LLM avancée, favorisant des conversations engageantes et humaines."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 Le monde des chatbots évolue rapidement. Alors que [wit.ai](http://wit.ai) de Meta/Facebook a servi de tremplin pour le développement d'applications vocales, une nouvelle vague technologique prend le devant de la scène : les grands modèles linguistiques (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme construite sur la technologie LLM, offre une approche révolutionnaire de l'IA conversationnelle, laissant derrière elle les moteurs basés sur l'intention comme wit.ai. Est-il temps d'envisager une mise à niveau pour votre chatbot ?

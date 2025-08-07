@@ -1,16 +1,20 @@
 ---
 title: "Wix ウェブサイトに SeaChat で AI チャットボットをデプロイする方法"
 metatitle: "Wix ウェブサイトに SeaChat で AI チャットボットをデプロイする方法"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat で Wix ウェブサイトを強化 - Wix ウェブページと WhatsApp の両方で顧客サポートをシームレスに統合。エンゲージメントを簡単に向上させましょう！
+description: "SeaChat で Wix ウェブサイトを強化 - Wix ウェブページと WhatsApp の両方で顧客サポートをシームレスに統合。エンゲージメントを簡単に向上させましょう！"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "統合"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - 統合
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 SeaChat の WhatsApp AI チャットボットを Wix ウェブサイトに組み込むことは、顧客サービスを向上させるだけでなく、テクノロジー革新の最前線にビジネスを位置づけます。SeaChat で顧客エンゲージメントの未来を受け入れましょう。

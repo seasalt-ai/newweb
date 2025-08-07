@@ -1,15 +1,16 @@
 ---
 title: "SeaX Bulk SMS: Pentru o comunicare cu clienții mai rapidă și mai eficientă"
-date: 2022-09-09T11:05:22-07:00
+date: 2022-09-09 11:05:22-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Amy Chen, Kim Dodds, Sarah Reid
-image: images/blog/24-seax-bulk-sms/thumbnail.png
 description: "În acest blog, vom arăta cum funcția Bulk SMS a SeaX permite agenților să trimită proactiv mesaje outbound prin text."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-bulk-sms/"
-url: "/blog/seax-bulk-sms/"
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 *În postările noastre anterioare de pe blog, am parcurs câteva dintre caracteristicile cheie ale SeaX (inclusiv [Inteligența vocală](https://seasalt.ai/blog/21-seax-voice-intelligence/), [Baza de cunoștințe](https://seasalt.ai/blog/22-seax-knowledge-base/) și [Gestionarea cazurilor](https://seasalt.ai/blog/23-seax-case-management/)) care ajută agenții să gestioneze mai bine apelurile și mesajele primite. În acest blog, vom arăta cum funcția Bulk SMS a SeaX permite agenților să trimită proactiv mesaje outbound prin text, pe care destinatarii le deschid mai repede și mai constant decât comunicările tradiționale prin e-mail.*

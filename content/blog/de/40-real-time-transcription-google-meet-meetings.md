@@ -1,19 +1,18 @@
 ---
 title: "Wie Echtzeit-Transkription und Meeting-Analyse Google Meet-Meetings verändern"
 metatitle: "Wie Echtzeit-Transkription und Meeting-Analyse Google Meet-Meetings verändern"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Echtzeit-Transkriptions- und Meeting-Analysefunktionen haben die Art und Weise, wie Meetings ablaufen, verändert. Sie steigern nicht nur die Effizienz von Meetings, liefern sofortige Einblicke und ermöglichen eine schnelle Entscheidungsfindung, sondern fördern auch das Engagement der Teilnehmer und sichern den Erfolg moderner Geschäftstreffen."
 weight: 1
-tags: ["SeaMeet", "KI-Tools"]
+tags:
+  - SeaMeet
+  - KI-Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Echtzeit-Transkriptions- und Meeting-Analysefunktionen haben die Art und Weise, wie Meetings ablaufen, verändert. Sie steigern nicht nur die Effizienz von Meetings, liefern sofortige Einblicke und ermöglichen eine schnelle Entscheidungsfindung, sondern fördern auch das Engagement der Teilnehmer und sichern den Erfolg moderner Geschäftstreffen."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 In der modernen Geschäftswelt sind Meetings eine wichtige Plattform zur Förderung der Teamzusammenarbeit und Entscheidungsfindung. Aufgrund mehrerer paralleler Meetings und voller Terminkalender wird es jedoch immer schwieriger, bei allen Meetings auf dem Laufenden zu bleiben. Vor diesem Hintergrund wird der Bedarf an Echtzeit-Transkription und Meeting-Analyse immer deutlicher, da sie eine Lösung bieten, um die Einschränkungen herkömmlicher Protokollierungsmethoden zu überwinden und ein effektives Meeting-Management zu gewährleisten.

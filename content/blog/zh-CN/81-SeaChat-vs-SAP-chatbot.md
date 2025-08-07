@@ -1,18 +1,20 @@
 ---
 title: "开辟新航道：为何SeaChat在打造互动聊天机器人上超越SAP对话式AI"
 metatitle: "开辟新航道：为何SeaChat在打造互动聊天机器人上超越SAP对话式AI"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 在对话式AI领域，SAP对话式AI曾热门，基于大型语言模型(LLMs)的SeaChat，能突破限制，打造更自然流畅的对话体验。
+description: "在对话式AI领域，SAP对话式AI曾热门，基于大型语言模型(LLMs)的SeaChat，能突破限制，打造更自然流畅的对话体验。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: '在对话式AI的领域中，一阵变革的风正在吹拂。虽然[SAP对话式AI](https://cai.tools.sap/)一直是构建企业型聊天机器人的热门选择，但一股新的技术浪潮正慢慢成为新焦点：大型语言模型(LLMs)。基于LLM技术构建的平台[SeaChat](https://chat.seasalt.ai/?utm_source=blog)提供了一种创新性的方法，超越了如SAP对话式AI等基于规则的引擎的种种限制。准备好为更吸引人的聊天机器人体验扬帆起航了吗？'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 在对话式AI的领域中，一阵变革的风正在吹拂。虽然[SAP对话式AI](https://cai.tools.sap/)一直是构建企业型聊天机器人的热门选择，但一股新的技术浪潮正慢慢成为新焦点：大型语言模型(LLMs)。基于LLM技术构建的平台[SeaChat](https://chat.seasalt.ai/?utm_source=blog)提供了一种创新性的方法，超越了如SAP对话式AI等基于规则的引擎的种种限制。准备好为更吸引人的聊天机器人体验扬帆起航了吗？

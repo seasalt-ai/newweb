@@ -1,17 +1,19 @@
 ---
 title: "Como adicionar um Chatbot de IA ao seu site Squarespace com SeaChat"
 metatitle: "SeaChat AI | Agentes de IA no seu site Squarespace"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Maximize o envolvimento do cliente no Squarespace com a IA do SeaChat - personalize, treine, monitore e atualize seu chatbot para suporte proativo ao visitante.
+description: "Maximize o envolvimento do cliente no Squarespace com a IA do SeaChat - personalize, treine, monitore e atualize seu chatbot para suporte proativo ao visitante."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "Integrações"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - Integrações
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 No cenário digital acelerado de hoje, o atendimento ao cliente eficaz e o envolvimento do usuário são cruciais para as empresas. Os clientes esperam interações em tempo real, respostas rápidas e suporte personalizado. A integração de soluções de chat em seu site pode aprimorar significativamente esses aspectos. Neste blog, exploraremos como adicionar um chatbot de IA ao seu site Squarespace e revolucionar sua comunicação com o cliente.

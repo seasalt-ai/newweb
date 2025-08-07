@@ -1,17 +1,19 @@
 ---
 title: "Bakit Kailangan ng Maliit na Negosyo ang Serbisyo ng Outbound Call/Telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Serye ng Outbound Call | Maliit na Negosyo"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Galugarin ang mga live na ahente, auto dialer, at Voice AI upang piliin ang pinakamahusay na solusyon sa outbound call para sa iyong mga pangangailangan sa negosyo."
 weight: 1
-tags: ["Serbisyo ng Auto Telemarketing", "Outbound Call para sa Maliit na Negosyo", "Voice AI"]
-toc: true
+tags:
+  - Serbisyo ng Auto Telemarketing
+  - Outbound Call para sa Maliit na Negosyo
+  - Voice AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

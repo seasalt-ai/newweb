@@ -1,16 +1,16 @@
 ---
 title: "Google My Business-க்கு விடைபெறுங்கள், இப்போது Google Maps வணிகங்களுக்கான புதிய OS ஆக உள்ளது"
 metatitle: "GMB-க்கு விடைபெறுங்கள், Google Maps வணிகங்களுக்கான புதிய OS ஆக உள்ளது"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google My Business பயன்பாட்டை Google Maps மூலம் Google மாற்றுகிறது, அங்கு வணிகங்கள் தங்கள் தகவல்களை நிர்வகிக்கலாம் மற்றும் Google Maps இல் வாடிக்கையாளர்களின் செய்திகளுக்கு பதிலளிக்கலாம்."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: 2025-07-28T00:00:00Z
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Google Maps மூலம் வணிகங்களை நுகர்வோருடன் நேரடியாக இணைப்பது, நுகர்வோரின் ஷாப்பிங் அனுபவத்திற்கு தடையற்ற அனுபவத்தை வழங்குகிறது. Google Maps ஐ "எனக்கு அருகிலுள்ள" வணிகங்களுக்கான உள்ளூர் தேடலுக்கான புதிய இயக்க முறைமையாக மாற்றுவதற்கு Google க்கு இது ஒரு சிறந்த மூலோபாய நகர்வு.*

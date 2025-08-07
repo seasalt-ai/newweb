@@ -1,22 +1,21 @@
 ---
 title: "SeaChat против Microsoft Bot Framework и Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat против Microsoft Bot Framework и Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-08 09:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: В области диалогового ИИ Microsoft Azure Bot Service (LUIS.ai) был популярен, но SeaChat на базе больших языковых моделей (LLMs) преодолевает ограничения и создает более естественный и плавный диалоговый опыт.
+description: "В области диалогового ИИ Microsoft Azure Bot Service (LUIS.ai) был популярен, но SeaChat на базе больших языковых моделей (LLMs) преодолевает ограничения и создает более естественный и плавный диалоговый опыт."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Мир диалогового ИИ взволнован последними новостями о растущем партнерстве Microsoft с OpenAI. Хотя некоторые празднуют потенциал этого сотрудничества, внутри Microsoft также есть недовольные голоса. По сообщениям, внутренние источники обеспокоены тем, что это отвлечет от внутренней разработки ИИ в пользу продвижения продуктов OpenAI.
-
-Особенно упоминается судьба Azure Bot Service Microsoft.'
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Мир диалогового ИИ взволнован последними новостями о растущем партнерстве Microsoft с OpenAI. Хотя некоторые празднуют потенциал этого сотрудничества, внутри Microsoft также есть недовольные голоса. По сообщениям, внутренние источники обеспокоены тем, что это отвлечет от внутренней разработки ИИ в пользу продвижения продуктов OpenAI.

@@ -1,16 +1,20 @@
 ---
 title: "開闢新航線：為什麼 SeaChat 在引人入勝的聊天機器人方面超越 SAP Conversational AI"
 metatitle: "SeaChat 與 SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 為什麼 SAP Conversational AI 過時了？探索 SeaChat - 借助先進的 LLM 技術，擺脫重複的聊天機器人困境，培養引人入勝、類似人類的對話。
+description: "為什麼 SAP Conversational AI 過時了？探索 SeaChat - 借助先進的 LLM 技術，擺脫重複的聊天機器人困境，培養引人入勝、類似人類的對話。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 對話式 AI 領域正在發生變化。儘管 [SAP Conversational AI](https://cai.tools.sap/) 一直是建構企業聊天機器人的熱門選擇，但一股新的技術浪潮正在佔據中心舞台：大型語言模型 (LLM)。[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 是一個基於 LLM 技術建構的平台，它提供了一種突破性的方法，擺脫了 SAP Conversational AI 等基於規則的引擎的局限性。準備好揚帆起航，體驗更具吸引力的聊天機器人了嗎？

@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Care serviciu de marketing prin e-mail este potrivit pentru tine în 2025?"
 metatitle: "Mailchimp vs. MailerLite | Serviciu de marketing prin e-mail 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, care serviciu de e-mail este potrivit pentru tine? Comparația noastră aprofundată analizează caracteristicile, prețurile și multe altele.
+description: "MailerLite vs. Mailchimp, care serviciu de e-mail este potrivit pentru tine? Comparația noastră aprofundată analizează caracteristicile, prețurile și multe altele."
 weight: 1
-tags: ["SeaChat", "e-commerce", "marketing prin e-mail"]
+tags:
+  - SeaChat
+  - e-commerce
+  - marketing prin e-mail
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 Marketingul prin e-mail rămâne un instrument puternic pentru afacerile de toate dimensiunile. Indiferent dacă sunteți în căutarea unui loc de muncă în marketing prin e-mail, căutați cel mai bun software de marketing prin e-mail sau căutați sfaturi practice de marketing prin e-mail, trebuie să înțelegeți cele mai bune instrumente de pe piață. Astăzi, vom compara două instrumente populare de marketing prin e-mail, [Mailchimp](https://mailchimp.com/) și [MailerLite](https://www.mailerlite.com/), pentru referința dumneavoastră.

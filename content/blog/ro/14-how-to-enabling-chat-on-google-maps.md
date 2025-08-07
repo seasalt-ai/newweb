@@ -1,18 +1,17 @@
 ---
 title: "Ghidul suprem pentru activarea chat-ului pe Google Maps pentru a vă conecta cu clienții"
 metatitle: "Ghidul suprem pentru activarea chat-ului pe Google Maps"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "În acest blog, vom analiza cele trei metode diferite de a activa chat-ul Google Maps cu aceste trei metode diferite pentru a vă conecta mai bine cu clienții."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Chatul Google Maps este o modalitate excelentă pentru companii de a se conecta cu clienții. Există diferite moduri de a activa chatul Google Maps, unul manual cu Profilul Companiei pe Google, unul automat cu Mesajele Google Business și unul care preia ce este mai bun din ambele lumi cu Mesageria Near Me. Acest blog vă va arăta cum să activați chatul Google Maps cu aceste trei metode diferite.*

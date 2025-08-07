@@ -1,16 +1,20 @@
 ---
 title: "Agent AI vocal: Revoluționarea programărilor 24/7"
 metatitle: "Agent AI vocal: Revoluționarea programărilor 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Explorați viitorul programărilor cu Agentul AI vocal, o soluție 24/7 care integrează AI și procesarea limbajului natural pentru o programare eficientă și fluidă.
+description: "Explorați viitorul programărilor cu Agentul AI vocal, o soluție 24/7 care integrează AI și procesarea limbajului natural pentru o programare eficientă și fluidă."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Introducere

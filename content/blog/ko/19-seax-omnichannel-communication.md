@@ -1,16 +1,17 @@
 ---
 title: "SeaX 옴니채널 커뮤니케이션으로 모든 채널의 고객을 한 곳으로 모으세요"
 metatitle: "SeaX 옴니채널 커뮤니케이션으로 고객 접점 통합"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "이 블로그에서는 SeaX의 옴니채널 커뮤니케이션 중 하나를 중점적으로 다루며, 이를 통해 모든 채널의 사용자 메시지를 SeaX 플랫폼에 표시할 수 있습니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *이전 블로그 게시물인 [SeaX에 오신 것을 환영합니다. 협업 클라우드 컨택 센터](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)에서 협업 클라우드 커뮤니케이션 컨택 센터 솔루션인 SeaX를 소개했습니다. 첫 번째 블로그 게시물에서는 SeaX의 기본 및 고급 기능에 대한 포괄적인 개요를 제공했지만, 후속 게시물에서는 SeaX를 돋보이게 하는 몇 가지 개별 기능을 더 자세히 살펴보겠습니다. 이 게시물에서는 SeaX의 옴니채널 지원을 자세히 살펴보고 다양한 채널의 통화 및 메시지가 SeaX 플랫폼에 어떻게 표시되는지 확인합니다.*

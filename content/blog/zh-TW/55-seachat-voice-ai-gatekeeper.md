@@ -1,16 +1,20 @@
 ---
 title: "Android 和 iPhone 上的 AI 通話篩選：您的個人助理和守門員"
 metatitle: "AI 通話篩選 | Android 和 iPhone 上的個人助理"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: 探索由 AI 驅動的通話代理的未來通話管理！從篩選垃圾郵件發送者到預訂約會，它是您 24/7 的個人助理和守門員。
+description: "探索由 AI 驅動的通話代理的未來通話管理！從篩選垃圾郵件發送者到預訂約會，它是您 24/7 的個人助理和守門員。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 您是否曾希望擁有一個個人助理，可以處理您的電話、篩選垃圾郵件和詐騙電話，甚至為您預訂約會？不用再找了，因為由 AI 驅動的通話代理可以做到這一切，甚至更多！作為您的免費前台和守門員，這項卓越的技術正在徹底改變通話管理，確保您不會錯過任何重要電話，並為您節省寶貴的時間和安心。

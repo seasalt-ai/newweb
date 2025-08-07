@@ -1,18 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "Массовая рассылка SMS от SeaX: для более быстрого и эффективного охвата клиентов"
+metatitle: "Массовая рассылка SMS от SeaX: для более быстрого и эффектив..."
 date: 2022-09-09 11:05:22-07:00
-description: В этом блоге мы покажем, как функция массовой рассылки SMS от SeaX позволяет
-  агентам проактивно отправлять исходящие сообщения с помощью текстовых сообщений.
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'Массовая рассылка SMS от SeaX: для более быстрого и эффектив...'
-modified_date: '2025-07-28T16:03:25.123456'
-tags:
-- SeaX
-title: 'Массовая рассылка SMS от SeaX: для более быстрого и эффективного охвата клиентов'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "В этом блоге мы покажем, как функция массовой рассылки SMS от SeaX позволяет агентам проактивно отправлять исходящие сообщения с помощью текстовых сообщений."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

@@ -1,13 +1,19 @@
 ---
 title: "Annuaire des lignes d'assistance pour personnes âgées : Ressources de soins aux personnes âgées à Taïwan"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Un guide complet des lignes d'assistance pour personnes âgées à Taïwan, fournissant des informations de contact essentielles pour les bureaux des affaires sociales dans les grandes villes. Découvrez comment SeaX et SeaChat AI peuvent améliorer les services de soins aux personnes âgées."
-tags: ["Soins aux personnes âgées", "Ligne d'assistance pour personnes âgées", "Taïwan", "SeaX", "SeaChat AI", "Ressources communautaires"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Soins aux personnes âgées
+  - Ligne d'assistance pour personnes âgées
+  - Taïwan
+  - SeaX
+  - SeaChat AI
+  - Ressources communautaires
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Annuaire des lignes d'assistance pour personnes âgées : Ressources de soins aux personnes âgées à Taïwan

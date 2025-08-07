@@ -1,17 +1,22 @@
 ---
 title: "SeaChat nổi bật: Công cụ tự động hóa cho thuê nhà nghỉ dưỡng hàng đầu của Smooth Rentals"
 metatitle: "SeaChat của Seasalt.ai | Tự động hóa cho thuê nhà nghỉ dưỡng | Tính năng Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat của Seasalt.ai được công nhận là công cụ tự động hóa hàng đầu cho thuê nhà nghỉ dưỡng trong bài đăng blog mới nhất của Smooth Rentals. Khám phá cách SeaChat hợp lý hóa giao tiếp với khách và tăng hiệu quả."
 weight: 1
-tags: ["SeaChat", "Cho thuê nhà nghỉ dưỡng", "Tự động hóa", "Giao tiếp với khách", "Smooth Rentals", "AI Chatbot"]
-toc: true
+tags:
+  - SeaChat
+  - Cho thuê nhà nghỉ dưỡng
+  - Tự động hóa
+  - Giao tiếp với khách
+  - Smooth Rentals
+  - AI Chatbot
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat nổi bật trong Hướng dẫn về Công cụ tự động hóa cho thuê nhà nghỉ dưỡng của Smooth Rentals

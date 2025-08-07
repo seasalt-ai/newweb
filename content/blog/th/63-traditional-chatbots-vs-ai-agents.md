@@ -1,16 +1,20 @@
 ---
 title: "สิ่งที่ธุรกิจควรรู้เกี่ยวกับ Chatbots: การเดินทางจาก Chatbots แบบดั้งเดิมสู่ LLM Agents"
 metatitle: "การเดินทางจาก Chatbots แบบดั้งเดิมสู่ LLM Agents"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: LLM-based chat agents นำเสนอโซลูชันที่ง่ายและมีประสิทธิภาพสำหรับธุรกิจในการโต้ตอบกับลูกค้า โดยไม่จำเป็นต้องมีทักษะทางเทคนิคที่ซับซ้อน และผสานรวมกับระบบที่มีอยู่ได้อย่างราบรื่น
+description: "LLM-based chat agents นำเสนอโซลูชันที่ง่ายและมีประสิทธิภาพสำหรับธุรกิจในการโต้ตอบกับลูกค้า โดยไม่จำเป็นต้องมีทักษะทางเทคนิคที่ซับซ้อน และผสานรวมกับระบบที่มีอยู่ได้อย่างราบรื่น"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 สำหรับเจ้าของธุรกิจ การปรับปรุงการโต้ตอบกับลูกค้าเป็นสิ่งสำคัญ LLM-based chat agents นำเสนอโซลูชันที่เป็นนวัตกรรมใหม่ ใช้งานง่าย ซึ่งไม่จำเป็นต้องมีทักษะทางเทคนิคที่กว้างขวาง

@@ -1,20 +1,17 @@
 ---
-author: Seasalt.ai Team
-canonical_url: https://seasalt.ai/blog/74-seachat-vs-ms-vs-azure-vs-luis-ai
+title: "SeaChat vs MS vs Azure vs LUIS AI: Która platforma AI do konwersacji jest najlepsza?"
+metatitle: "SeaChat vs MS vs Azure vs LUIS AI: Która platforma AI do kon..."
 date: 2024-07-10
-description: Porównanie SeaChat, Microsoft Bot Framework, Azure Bot Service i LUIS
-  AI dla biznesu. Która platforma AI do konwersacji jest najlepsza?
-metatitle: 'SeaChat vs MS vs Azure vs LUIS AI: Która platforma AI do kon...'
 modified_date: 2025-07-28
+author: Seasalt.ai Team
+description: "Porównanie SeaChat, Microsoft Bot Framework, Azure Bot Service i LUIS AI dla biznesu. Która platforma AI do konwersacji jest najlepsza?"
 tags:
-- Chatbot AI
-- SeaChat
-- Microsoft Bot Framework
-- Azure Bot Service
-- LUIS AI
-- Porównanie
-title: 'SeaChat vs MS vs Azure vs LUIS AI: Która platforma AI do konwersacji jest
-  najlepsza?'
+  - Chatbot AI
+  - SeaChat
+  - Microsoft Bot Framework
+  - Azure Bot Service
+  - LUIS AI
+  - Porównanie
 ---
 
 

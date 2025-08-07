@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Какой сервис email-маркетинга подходит вам в 2025 году?"
 metatitle: "Mailchimp vs. MailerLite | Сервис email-маркетинга 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, какой сервис электронной почты подходит именно вам? Наше подробное сравнение анализирует функции, цены и многое другое.
+description: "MailerLite vs. Mailchimp, какой сервис электронной почты подходит именно вам? Наше подробное сравнение анализирует функции, цены и многое другое."
 weight: 1
-tags: ["SeaChat", "Электронная коммерция", "Email-маркетинг"]
+tags:
+  - SeaChat
+  - Электронная коммерция
+  - Email-маркетинг
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 Email-маркетинг остается мощным инструментом для бизнеса любого размера. Независимо от того, ищете ли вы работу в сфере email-маркетинга, ищете лучшее программное обеспечение для email-маркетинга или ищете действенные советы по email-маркетингу, вам нужно знать о лучшем инструменте на рынке. Сегодня мы сравним два популярных инструмента email-маркетинга, [Mailchimp](https://mailchimp.com/) и [MailerLite](https://www.mailerlite.com/), для вашего рассмотрения.

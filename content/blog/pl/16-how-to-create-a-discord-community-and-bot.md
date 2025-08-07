@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): Jak stworzyć społeczność i bota na Discordzie dla Twojej marki"
 metatitle: "Discord (2/3): Stwórz społeczność i bota na Discordzie dla Twojej marki"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "W tym blogu przeprowadzimy Cię przez proces tworzenia serwera dla Twojej marki i podłączania bota, który może automatyzować moderację, zgłaszanie błędów, ogłoszenia itp."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "W tym blogu przeprowadzimy Cię przez proces tworzenia serwera dla Twojej marki i podłączania bota, który może automatyzować moderację, zgłaszanie błędów, ogłoszenia itp."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases:
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Nasz wpis na blogu, [„Discord: Nowa granica zaangażowania klienta”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), omówił wzrost popularności Discorda i to, jak marki mogą wykorzystać tę nową platformę społecznościową do tworzenia własnych społeczności online i angażowania się z klientami. W tym blogu przeprowadzimy Cię przez proces tworzenia nowego oficjalnego serwera dla Twojej marki, w tym jak podłączyć bota, który może automatyzować zadania takie jak moderacja, zgłaszanie błędów, ogłoszenia itp.*

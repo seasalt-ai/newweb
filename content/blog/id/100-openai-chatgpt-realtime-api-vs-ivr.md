@@ -1,17 +1,20 @@
 ---
 title: "Dapatkah Teknologi Suara Baru OpenAI Menggantikan Interactive Voice Response (IVR) Anda?"
 metatitle: "Dapatkah Teknologi Suara Baru OpenAI Menggantikan IVR Anda?"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "Jelajahi apakah teknologi suara baru OpenAI dapat menggantikan sistem respons suara interaktif Anda saat ini."
 weight: 1
-tags: ["Layanan Penjawab Otomatis", "Panggilan Masuk untuk Usaha Kecil", "SeaChat", "AI Suara"]
-toc: true
+tags:
+  - Layanan Penjawab Otomatis
+  - Panggilan Masuk untuk Usaha Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 Anda mungkin pernah mendengar tentang teknologi suara baru OpenAI yang menarik yang terdengar sangat mirip manusia. Demonya terlihat luar biasa. Agen suara OpenAI cerdas, alami, dan menangani interupsi dengan sangat baik. Tetapi apakah siap untuk menggantikan sistem respons suara interaktif Anda saat ini? Atau, jika Anda sudah membeli layanan voicebot, dapatkah Anda menggantinya dengan asisten suara OpenAI untuk melayani pelanggan Anda? Mari kita uraikan secara sederhana.

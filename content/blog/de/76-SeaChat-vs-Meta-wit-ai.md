@@ -1,15 +1,19 @@
 ---
 title: "SeaChat vs Meta wit.ai: Welche KI-Chatbot-Plattform ist besser?"
 metatitle: "Vergleich SeaChat und Meta wit.ai für KI-Chatbots"
-date: 2023-09-15T10:00:00Z
-author: SeaSalt.ai Team
-image: "images/blog/76-seachat-vs-meta-wit-ai/cover.png"
+date: 2023-09-15 10:00:00+00:00
 draft: false
+author: SeaSalt.ai Team
 description: "Vergleichen Sie SeaChat und Meta wit.ai als KI-Chatbot-Lösung für Ihr Unternehmen. Erfahren Sie mehr über Funktionen, Vorteile und die beste Wahl für Ihre Anforderungen."
-tags: ["SeaChat", "Meta wit.ai", "Chatbot", "KI"]
 weight: 1
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+tags:
+  - SeaChat
+  - Meta wit.ai
+  - Chatbot
+  - KI
+image: images/blog/76-seachat-vs-meta-wit-ai/cover.png
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 ## Einführung

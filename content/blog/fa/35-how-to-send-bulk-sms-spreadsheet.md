@@ -1,16 +1,18 @@
 ---
 title: "روش صحیح ارسال پیامک انبوه به مخاطبین در اکسل، Google Sheets و Apple Numbers"
 metatitle: "ارسال پیامک انبوه | اکسل، Google Sheets، Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'ایمن‌ترین روش‌های ارسال پیامک انبوه از اکسل، Google Sheets و Apple Numbers را بیاموزید و با قوانین 10DLC سازگار بمانید.'
+description: "ایمن‌ترین روش‌های ارسال پیامک انبوه از اکسل، Google Sheets و Apple Numbers را بیاموزید و با قوانین 10DLC سازگار بمانید."
 weight: 1
-tags: ["SeaX", "Tutorial"]
+tags:
+  - SeaX
+  - Tutorial
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 ارسال پیامک انبوه به لیست مخاطبین یکی از روش‌های محبوب برای کسب‌وکارها، برگزارکنندگان رویداد و حرفه‌ای‌هاست. ارسال پیام به صورت گروهی باعث صرفه‌جویی در زمان و اطلاع‌رسانی مؤثر می‌شود. هرچند اکسل، Google Sheets و Apple Numbers به طور ذاتی برای ارسال پیامک ساخته نشده‌اند، اما افزونه‌ها و سرویس‌های شخص ثالث این امکان را فراهم کرده‌اند. با این حال، باید مراقب چالش‌ها و قوانین باشید.
@@ -44,12 +46,8 @@ url: "/blog/how-to-send-bulk-sms-spreadsheet/"
 
 یک کپی از مخاطبین شما تضمین می کند که در صورت اشتباه، هیچ داده مخاطبی را از دست نخواهید داد. اینگونه انجام می شود: **روی `File` > `Make a copy` کلیک کنید**.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="از صفحه گسترده مخاطبین پیامک انبوه خود نسخه پشتیبان تهیه کنید"/>
-
-_از صفحه گسترده مخاطبین پیامک انبوه خود نسخه پشتیبان تهیه کنید_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/1-make-a-copy-for-bulk-sms-contact-spreadsheet.png" alt="یک کپی پشتیبان از صفحه گسترده مخاطبین پیامک انبوه ایجاد کنید"/>
+_یک کپی پشتیبان از صفحه گسترده مخاطبین پیامک انبوه ایجاد کنید_
 
 ## 2. حذف داده های تکراری
 
@@ -61,12 +59,8 @@ c. ستون هایی را که می خواهید برای تکراری ها بر
 
 d. گوگل شیت به شما اطلاع می دهد که چند تکراری حذف شده است.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="ورودی های تکراری را برای صفحه گسترده مخاطبین پیامک انبوه خود حذف کنید"/>
-
-_ورودی های تکراری را برای صفحه گسترده مخاطبین پیامک انبوه خود حذف کنید_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/2-remove-duplicates-for-bulk-sms-contact-spreadsheet.png" alt="حذف موارد تکراری در صفحه گسترده مخاطبین پیامک انبوه"/>
+_حذف موارد تکراری در صفحه گسترده مخاطبین پیامک انبوه_
 
 ## 3. فرمت شماره تلفن را استاندارد کنید
 
@@ -76,13 +70,8 @@ b. از `Find and replace` برای ثابت کردن فرمت استفاده ک
 
 c. در صورت لزوم، از فرمول ها یا اسکریپت های سفارشی برای اطمینان از ثابت بودن همه اعداد استفاده کنید. این ممکن است به مهارت های پیشرفته تری در صفحات گسترده نیاز داشته باشد.
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="فرمت شماره تلفن را برای صفحه گسترده مخاطبین پیامک انبوه خود استاندارد کنید"/>
-
-_فرمت شماره تلفن را برای صفحه گسترده مخاطبین پیامک انبوه خود استاندارد کنید_
-
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="استانداردسازی فرمت شماره تلفن در صفحه گسترده مخاطبین پیامک انبوه"/>
+_استانداردسازی فرمت شماره تلفن در صفحه گسترده مخاطبین پیامک انبوه_
 
 ### 4. اعتبارسنجی داده ها
 
@@ -90,13 +79,8 @@ a. برای شماره تلفن ها، اطمینان حاصل کنید که ه�
 
 b. برای نام ها، به دنبال ورودی هایی باشید که ممکن است خالی باشند یا حاوی داده های نامربوط باشند.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="اعتبارسنجی داده ها برای صفحه گسترده مخاطبین پیامک انبوه شما"/>
-
-_اعتبارسنجی داده ها برای صفحه گسترده مخاطبین پیامک انبوه شما_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="اعتبارسنجی داده‌ها در صفحه گسترده مخاطبین پیامک انبوه"/>
+_اعتبارسنجی داده‌ها در صفحه گسترده مخاطبین پیامک انبوه_
 
 ## 5. سلول های خالی را بررسی کنید
 
@@ -112,13 +96,8 @@ c. سلول های فرمت را روی `Cell is empty` تنظیم کنید و �
 
 d. این به شما امکان می دهد سلول های خالی را به راحتی شناسایی و رفع کنید.
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="سلول های خالی را در صفحه گسترده مخاطبین پیامک انبوه خود بررسی کنید"/>
-
-_سلول های خالی را در صفحه گسترده مخاطبین پیامک انبوه خود بررسی کنید_
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/5-clean-blank-cells-for-bulk-sms-contact-spreadsheet.png" alt="بررسی سلول‌های خالی در صفحه گسترده مخاطبین پیامک انبوه"/>
+_بررسی سلول‌های خالی در صفحه گسترده مخاطبین پیامک انبوه_
 
 ## اطلاعات بیشتر در مورد آماده سازی داده های تماس
 
@@ -141,11 +120,7 @@ _سلول های خالی را در صفحه گسترده مخاطبین پیا�
 
 # نحوه اجرای عملیات بازاریابی متنی موفق
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/
-6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="موفقیت در بازاریابی متنی"/>
-
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="بازاریابی پیامکی موفق"/>
 
 حتی با بهترین نیت ها، مشکلات می توانند پیش بیایند. در اینجا چند راه برای اجرای عملیات بازاریابی متنی موفق در بلندمدت آورده شده است:
 

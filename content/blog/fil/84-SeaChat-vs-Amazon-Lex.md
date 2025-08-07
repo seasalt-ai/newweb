@@ -1,17 +1,19 @@
 ---
 title: "Iwanan ang mga Script, Tanggapin ang Natural na Pag-uusap: Bakit ang Pag-upgrade mula sa Amazon Lex patungong SeaChat ay Ganap na Makatuwiran"
 metatitle: "Iwanan ang mga Script, Tanggapin ang Natural na Pag-uusap: Bakit ang Pag-upgrade mula sa Amazon Lex patungong SeaChat ay Ganap na Makatuwiran"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: Sa larangan ng conversational AI, ang Amazon Lex ay sikat, ngunit ang SeaChat na pinagana ng Large Language Models (LLMs) ay sumusuong sa mga limitasyon at lumilikha ng mas natural, mas maayos na karanasan sa pag-uusap.
+description: "Sa larangan ng conversational AI, ang Amazon Lex ay sikat, ngunit ang SeaChat na pinagana ng Large Language Models (LLMs) ay sumusuong sa mga limitasyon at lumilikha ng mas natural, mas maayos na karanasan sa pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'Ang mundo ng mga chatbot ay mabilis na umuunlad. Habang ang [Amazon Lex](https://aws.amazon.com/lex/) ay naging isang sikat na pagpipilian para sa pagbuo ng mga voice at text interface, isang bagong alon ng teknolohiya ang nasa sentro ng entablado: Large Language Models (LLMs). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na pinagana ng LLMs, ay nag-aalok ng isang groundbreaking na approach sa conversational AI, na iniiwan ang mga rule-based engine tulad ng Lex sa malayo. Panahon na ba para isaalang-alang ang pag-upgrade ng iyong chatbot?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 Ang mundo ng mga chatbot ay mabilis na umuunlad. Habang ang [Amazon Lex](https://aws.amazon.com/lex/) ay naging isang sikat na pagpipilian para sa pagbuo ng mga voice at text interface, isang bagong alon ng teknolohiya ang nasa sentro ng entablado: Large Language Models (LLMs). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na pinagana ng LLMs, ay nag-aalok ng isang groundbreaking na approach sa conversational AI, na iniiwan ang mga rule-based engine tulad ng Lex sa malayo. Panahon na ba para isaalang-alang ang pag-upgrade ng iyong chatbot?

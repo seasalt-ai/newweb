@@ -1,16 +1,17 @@
 ---
 title: "Perluas Jejak Pusat Hubungan Anda dengan Pusat Hubungan Teragih"
 metatitle: "Perluas Jejak Anda dengan Pusat Hubungan Teragih"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "Dalam blog ini, kita akan melihat pusat hubungan 'teragih': apa itu, bagaimana ia boleh memberi manfaat kepada anda, dan bagaimana SeaX menggunakannya untuk memberi perkhidmatan yang lebih baik kepada pelanggan kami."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *Dalam catatan blog kami sebelum ini, [Bawa Pelanggan dari Mana-mana Saluran ke Satu Tempat dengan Komunikasi Omnichannel SeaX](https://seasalt.ai/blog/19-seax-omnichannel-communication/), kami menunjukkan kuasa komunikasi omnichannel di platform SeaX, yang membolehkan mesej pengguna dari hampir mana-mana saluran dipaparkan di platform SeaX. Dalam catatan ini, kami akan melihat pusat hubungan "teragih": apa itu, bagaimana ia boleh memberi manfaat kepada anda, dan bagaimana SeaX memanfaatkan platform teragih untuk memberi perkhidmatan yang lebih baik kepada pelanggan kami.*

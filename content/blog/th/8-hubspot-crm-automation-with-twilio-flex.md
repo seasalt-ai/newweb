@@ -1,17 +1,17 @@
 ---
 title: "ศูนย์บริการลูกค้าอัตโนมัติด้วย AI: การทำงานร่วมกันของเอเจนต์เสมือนกับ CRM"
 metatitle: "SeaX Contact Center: ระบบอัตโนมัติของเอเจนต์เสมือนกับ CRM"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
-description: "ในบล็อกนี้ เราจะสำรวจการผสานรวม CRM เช่น HubSpot เข้ากับ Seax Contact Center เพื่อให้คุณเข้าถึงข้อมูลและเครื่องมือทั้งหมดได้โดยตรง"
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+author: Sarah Reid
+description: ในบล็อกนี้ เราจะสำรวจการผสานรวม CRM เช่น HubSpot เข้ากับ Seax Contact Center เพื่อให้คุณเข้าถึงข้อมูลและเครื่องมือทั้งหมดได้โดยตรง
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## การผสานรวม HubSpot กับ SeaX

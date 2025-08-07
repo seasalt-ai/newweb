@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Les Assistants Vocaux IA Révolutionnent les Soins aux Personnes Âgées"
 metatitle: "SeaX + SeaChat: Révolutionner les Soins aux Personnes Âgées grâce aux Assistants Vocaux IA - Application Réussie des Appels de Soins Intelligents"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Découvrez comment le système d'assistant vocal IA SeaX + SeaChat peut relever les défis des soins aux personnes âgées dans la société super-vieillissante de Taïwan. Apprenez comment les appels de soins intelligents améliorent la qualité de vie des personnes âgées, en offrant des soins immédiats, un accompagnement émotionnel et un suivi de la santé, tout en répondant à la pénurie de main-d'œuvre."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: "Alors que Taïwan se dirige vers une société super-vieillissante, les soins aux personnes âgées sont confrontés à des défis sans précédent. Selon les données du Conseil national du développement, la proportion de la population âgée à Taïwan approchera les 20 % d'ici 2024, et devrait officiellement entrer dans une société super-vieillissante d'ici 2025. Compte tenu de ce changement démographique, la manière de fournir efficacement des soins immédiats, des services diversifiés et de résoudre le problème de la pénurie de main-d'œuvre est devenue les trois principaux défis auxquels est actuellement confrontée l'industrie des soins de longue durée."
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Alors que Taïwan se dirige vers une société super-vieillissante, les soins aux personnes âgées sont confrontés à des défis sans précédent. Selon les données du Conseil national du développement, la proportion de la population âgée à Taïwan approchera les 20 % d'ici 2024, et devrait officiellement entrer dans une société super-vieillissante d'ici 2025. Compte tenu de ce changement démographique, la manière de fournir efficacement des soins immédiats, des services diversifiés et de résoudre le problème de la pénurie de main-d'œuvre est devenue les trois principaux défis auxquels est actuellement confrontée l'industrie des soins de longue durée.

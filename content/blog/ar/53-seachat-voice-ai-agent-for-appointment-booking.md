@@ -1,16 +1,20 @@
 ---
 title: "وكيل الذكاء الاصطناعي الصوتي: إحداث ثورة في حجز المواعيد على مدار الساعة طوال أيام الأسبوع"
 metatitle: "وكيل الذكاء الاصطناعي الصوتي: إحداث ثورة في حجز المواعيد على مدار الساعة طوال أيام الأسبوع"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: استكشف مستقبل جدولة المواعيد باستخدام وكيل الذكاء الاصطناعي الصوتي، وهو حل متاح على مدار الساعة طوال أيام الأسبوع يدمج الذكاء الاصطناعي ومعالجة اللغة الطبيعية لحجز المواعيد بكفاءة وسلاسة.
+description: "استكشف مستقبل جدولة المواعيد باستخدام وكيل الذكاء الاصطناعي الصوتي، وهو حل متاح على مدار الساعة طوال أيام الأسبوع يدمج الذكاء الاصطناعي ومعالجة اللغة الطبيعية لحجز المواعيد بكفاءة وسلاسة."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # مقدمة

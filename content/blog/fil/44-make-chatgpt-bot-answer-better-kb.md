@@ -1,19 +1,19 @@
 ---
 title: "Paano Gumawa ng Custom na ChatGPT Bot na Sumasagot nang Tumpak"
 metatitle: "Paano Gumawa ng Custom na ChatGPT Bot na Sumasagot nang Tumpak | Serye ng Pagbuo ng Susunod na Henerasyong Chatbot gamit ang SeaChat"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Paano gumawa ng custom na ChatGPT robot na sumasagot nang tumpak sa mga tanong. Mula sa pagbuo ng propesyonal na knowledge base hanggang sa aktwal na proseso ng pagbuo, sumasaklaw sa mga diskarte sa fine-tuning ng knowledge point, at nagpapakita ng matagumpay na pagpapatupad sa pamamagitan ng mga kaso ng SeaChat robot. Nagbibigay kami sa iyo ng komprehensibong gabay upang matulungan kang madaling makagawa ng mahusay at personalized na intelligent chatbot.
+description: "Paano gumawa ng custom na ChatGPT robot na sumasagot nang tumpak sa mga tanong. Mula sa pagbuo ng propesyonal na knowledge base hanggang sa aktwal na proseso ng pagbuo, sumasaklaw sa mga diskarte sa fine-tuning ng knowledge point, at nagpapakita ng matagumpay na pagpapatupad sa pamamagitan ng mga kaso ng SeaChat robot. Nagbibigay kami sa iyo ng komprehensibong gabay upang matulungan kang madaling makagawa ng mahusay at personalized na intelligent chatbot."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Paano gumawa ng custom na ChatGPT robot na sumasagot nang tumpak sa mga tanong. Mula sa pagbuo ng propesyonal na knowledge base hanggang sa aktwal na proseso ng pagbuo, sumasaklaw sa mga diskarte sa fine-tuning ng knowledge point, at nagpapakita ng matagumpay na pagpapatupad sa pamamagitan ng mga kaso ng SeaChat robot. Nagbibigay kami sa iyo ng komprehensibong gabay upang matulungan kang madaling makagawa ng mahusay at personalized na intelligent chatbot."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Sa mabilis na pag-unlad ng teknolohiya, ang mga chatbot ay naging isang kailangang-kailangan na tool sa iba't ibang industri. Nagagawa nilang magbigay ng agarang sagot, mapabuti ang karanasan sa serbisyo sa customer, at lubos na bawasan ang pasanin ng manu-manong serbisyo sa customer. Susuriin ng artikulong ito kung paano bumuo ng isang custom na ChatGPT robot na maaaring sumagot nang tumpak sa mga tanong, na may partikular na pagtuon sa pagbuo at fine-tuning ng knowledge base, pati na rin ang aktwal na operasyon ng paggawa ng robot.

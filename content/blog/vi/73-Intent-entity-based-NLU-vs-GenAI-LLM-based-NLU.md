@@ -1,16 +1,21 @@
 ---
 title: "NLU dựa trên ý định/thực thể so với NLU dựa trên GenAI/LLM: sự khác biệt nằm ở hàng triệu (ví dụ và đô la)"
 metatitle: "NLU dựa trên ý định/thực thể so với NLU dựa trên GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: Mở khóa tương lai của AI đàm thoại - Tại sao việc chuyển đổi từ NLU dựa trên ý định/thực thể sang GenAI/LLM lại rất quan trọng đối với khả năng mở rộng, hiệu quả chi phí và khả năng thích ứng."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Kính gửi tất cả các Giám đốc Dịch vụ khách hàng hoặc Tiếp thị, nếu sếp của bạn hỏi bạn câu hỏi sau, hãy gửi cho họ bài viết này:

@@ -1,18 +1,19 @@
 ---
 title: "வலைத்தளங்களுக்காக நாங்கள் கண்டறிந்த 2 உண்மையான இலவச வலை அரட்டை விட்ஜெட்டுகள்"
 metatitle: "Seasalt.ai | சிறந்த இலவச அரட்டை விட்ஜெட்டுகள் | இலவச சாட்பாட் விட்ஜெட்டுகள்"
-date: 2024-11-17T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-11-17 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Xuchen Yao | Jun Mao
-description: ""
+description: "\"\" # 需要确认"
 weight: 1
-tags: ["Chatbot Widget", "Free Chat Widget", "SeaChat"]
-toc: true
+tags:
+  - Chatbot Widget
+  - Free Chat Widget
+  - SeaChat
 image: /images/blog/108-free-chatbot-widget/108-free-chatbot-widget.jpg
-canonicalURL: "/blog/free-chat-widgets/"
-url: "/blog/free-chat-widgets/"
-
+canonicalURL: /blog/free-chat-widgets/
+url: /blog/free-chat-widgets/
 ---
 
 ---

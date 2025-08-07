@@ -1,18 +1,20 @@
 ---
 title: "ยกระดับประสบการณ์การแชทของคุณ: ทำไม SeaChat จึงเหนือกว่า IBM Watson NLU"
 metatitle: "ยกระดับประสบการณ์การแชทของคุณ: ทำไม SeaChat จึงเหนือกว่า IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-07-08T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: ในด้าน Conversational AI IBM Watson NLU เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น
+description: "ในด้าน Conversational AI IBM Watson NLU เคยเป็นที่นิยม แต่ SeaChat ที่ใช้ Large Language Models (LLMs) สามารถก้าวข้ามข้อจำกัดและสร้างประสบการณ์การสนทนาที่เป็นธรรมชาติและลื่นไหลมากขึ้น"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'Chatbot ของคุณตอบกลับซ้ำๆ และการสนทนาไม่เป็นธรรมชาติหรือไม่? คุณต้องการให้ลูกค้าของคุณมีประสบการณ์การแชทที่เป็นธรรมชาติมากขึ้นหรือไม่? ถ้าใช่ ตอนนี้เป็นเวลาที่จะดู SeaChat แล้ว AI Assistant ที่ทรงพลังที่สร้างขึ้นบน Large Language Models (LLMs) แม้ว่า [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) จะเป็นเครื่องมือที่เชื่อถือได้สำหรับการวิเคราะห์ข้อความ แต่ [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ให้วิธีการที่ปฏิวัติวงการสำหรับ Conversational AI ทิ้ง NLU Engine แบบดั้งเดิมไว้ข้างหลัง'
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 Chatbot ของคุณตอบกลับซ้ำๆ และการสนทนาไม่เป็นธรรมชาติหรือไม่? คุณต้องการให้ลูกค้าของคุณมีประสบการณ์การแชทที่เป็นธรรมชาติมากขึ้นหรือไม่? ถ้าใช่ ตอนนี้เป็นเวลาที่จะดู SeaChat แล้ว AI Assistant ที่ทรงพลังที่สร้างขึ้นบน Large Language Models (LLMs) แม้ว่า [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) จะเป็นเครื่องมือที่เชื่อถือได้สำหรับการวิเคราะห์ข้อความ แต่ [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ให้วิธีการที่ปฏิวัติวงการสำหรับ Conversational AI ทิ้ง NLU Engine แบบดั้งเดิมไว้ข้างหลัง

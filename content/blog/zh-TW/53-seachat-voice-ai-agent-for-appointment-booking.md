@@ -1,16 +1,20 @@
 ---
 title: "語音 AI 代理：革新 24/7 預約服務"
 metatitle: "語音 AI 代理：革新 24/7 預約服務"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 探索語音 AI 代理的預約未來，這是一種 24/7 解決方案，整合了 AI 和自然語言處理，可實現高效、順暢的預約。
+description: "探索語音 AI 代理的預約未來，這是一種 24/7 解決方案，整合了 AI 和自然語言處理，可實現高效、順暢的預約。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # 簡介

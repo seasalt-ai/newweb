@@ -1,16 +1,18 @@
 ---
 title: "Kisah Pelanggan: Bagaimana Seax Membantu Merek Ponsel Terkemuka Mendukung Pelanggan di 100 Negara"
 metatitle: "SeaX Membantu Merek Ponsel Terkemuka Mendukung Pelanggan Secara Global"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Temukan bagaimana penerapan pusat kontak omni-channel Seasalt.ai yang transformatif membantu merek ponsel Top 5 merevolusi operasi dukungan pelanggan di 100 negara, dari kekacauan hingga kepuasan pelanggan!
+description: "Temukan bagaimana penerapan pusat kontak omni-channel Seasalt.ai yang transformatif membantu merek ponsel Top 5 merevolusi operasi dukungan pelanggan di 100 negara, dari kekacauan hingga kepuasan pelanggan!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 Kisah sukses penerapan pusat kontak omni-channel untuk salah satu dari 5 merek ponsel internasional teratas adalah bukti kekuatan transformatif teknologi dalam meningkatkan operasi dukungan pelanggan.

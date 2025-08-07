@@ -1,18 +1,20 @@
 ---
 title: "Mẹo Tự Động Hóa LINE: Cách Tích Hợp SeaChat Liền Mạch với Tự Động Trả Lời của LINE"
 metatitle: "Mẹo Tự Động Hóa LINE: Cách Tích Hợp SeaChat Liền Mạch với Tự Động Trả Lời của LINE"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Yuga Chen
-description: Giải pháp tự động trả lời LINE! Chức năng tin nhắn tự động trả lời của LINE sẽ sớm ngừng hoạt động. Sử dụng SeaChat, trợ lý AI thông minh để giúp cuộc trò chuyện của khách hàng của bạn mượt mà hơn và cung cấp các giải pháp dịch vụ khách hàng toàn diện.
+description: "Giải pháp tự động trả lời LINE! Chức năng tin nhắn tự động trả lời của LINE sẽ sớm ngừng hoạt động. Sử dụng SeaChat, trợ lý AI thông minh để giúp cuộc trò chuyện của khách hàng của bạn mượt mà hơn và cung cấp các giải pháp dịch vụ khách hàng toàn diện."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'Bạn muốn biến LINE thành trợ lý siêu việt của thương hiệu mình? Khi khách hàng ngày càng nhiều, một người không thể xử lý hết, không thể trả lời từng khách hàng một. ["Bot tự động trả lời"](https://line-tw-official.weblog.to/archives/85582088.html) do LINE ra mắt dường như có thể giải quyết vấn đề khó chịu này! Dù là chào đón bạn bè mới hay trả lời từ khóa, có vẻ dễ dàng hơn nhiều, phải không?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # Tự động trả lời LINE là gì?

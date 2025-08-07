@@ -1,16 +1,20 @@
 ---
 title: "Chamadas de entrada e saída, o agente de telefone de IA pode trabalhar para você em ambos"
 metatitle: "Agente de telefone de IA | Para chamadas de entrada e saída"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Descubra o potencial revolucionário dos agentes de telefone de IA no atendimento ao cliente e nas vendas, transformando chamadas de entrada e saída para maior eficiência e crescimento da receita."
 weight: 1
-tags: ["SeaChat", "Agente de voz", "Ferramentas de IA", "Experiência do cliente"]
+tags:
+  - SeaChat
+  - Agente de voz
+  - Ferramentas de IA
+  - Experiência do cliente
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 No cenário em constante evolução do atendimento ao cliente e das vendas, os agentes de telefone de IA surgiram como ferramentas novas e eficientes para as empresas. Esses agentes inteligentes são projetados para lidar com chamadas de entrada e saída, revolucionando as interações com os clientes e impulsionando a receita. Este artigo aprofunda os vários casos de uso de agentes de telefone de IA em chamadas de entrada e saída, destacando sua versatilidade e potencial para transformar as comunicações empresariais.

@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Asystent głosowy AI rewolucjonizuje inteligentne rozwiązania w opiece nad osobami starszymi"
 metatitle: "SeaX + SeaChat: Innowacje w opiece nad osobami starszymi dzięki asystentowi głosowemu AI - Udane zastosowanie inteligentnych połączeń opiekuńczych"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Dowiedz się, jak system asystenta głosowego AI SeaX + SeaChat rozwiązuje wyzwania związane z opieką nad osobami starszymi w super-starzejącym się społeczeństwie Tajwanu. Zrozum, jak inteligentne połączenia opiekuńcze poprawiają jakość życia osób starszych, zapewniając opiekę w czasie rzeczywistym, towarzystwo emocjonalne i monitorowanie zdrowia, a także radząc sobie z problemem niedoboru siły roboczej."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'W miarę jak Tajwan zmierza w kierunku społeczeństwa super-starzejącego się, opieka nad osobami starszymi staje przed bezprecedensowymi wyzwaniami. Według danych Krajowej Rady Rozwoju, odsetek osób starszych na Tajwanie zbliży się do 20% w 2024 roku, a do 2025 roku oficjalnie wejdzie w fazę społeczeństwa super-starzejącego się. W obliczu tej zmiany struktury demograficznej, skuteczne zapewnienie opieki w czasie rzeczywistym, zróżnicowanych usług oraz rozwiązanie problemu niedoboru siły roboczej stały się trzema głównymi wyzwaniami w obecnej branży opieki długoterminowej.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 W miarę jak Tajwan zmierza w kierunku społeczeństwa super-starzejącego się, opieka nad osobami starszymi staje przed bezprecedensowymi wyzwaniami. Według danych Krajowej Rady Rozwoju, odsetek osób starszych na Tajwanie zbliży się do 20% w 2024 roku, a do 2025 roku oficjalnie wejdzie w fazę społeczeństwa super-starzejącego się. W obliczu tej zmiany struktury demograficznej, skuteczne zapewnienie opieki w czasie rzeczywistym, zróżnicowanych usług oraz rozwiązanie problemu niedoboru siły roboczej stały się trzema głównymi wyzwaniami w obecnej branży opieki długoterminowej.

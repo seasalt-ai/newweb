@@ -1,16 +1,18 @@
 ---
 title: "Povestea clientului: Cum a ajutat SeaX un brand de top de telefoane mobile să sprijine clienții din 100 de țări"
 metatitle: "SeaX a ajutat un brand de top de telefoane mobile să sprijine clienții la nivel global"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Descoperiți cum implementarea transformatoare a centrului de contact omnicanal Seasalt.ai a ajutat un brand de top 5 de telefoane mobile să revoluționeze operațiunile de asistență pentru clienți în 100 de țări, de la haos la încântarea clienților!
+description: "Descoperiți cum implementarea transformatoare a centrului de contact omnicanal Seasalt.ai a ajutat un brand de top 5 de telefoane mobile să revoluționeze operațiunile de asistență pentru clienți în 100 de țări, de la haos la încântarea clienților!"
 weight: 1
-tags: ["SeaX", "Povestea clientului"]
+tags:
+  - SeaX
+  - Povestea clientului
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 

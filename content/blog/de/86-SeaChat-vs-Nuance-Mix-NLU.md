@@ -1,18 +1,21 @@
 ---
 title: "Die Zukunft der konversationellen KI: Ersetzt SeaChat Nuance Mix NLU?"
 metatitle: "Die Zukunft der konversationellen KI: Ersetzt SeaChat Nuance Mix NLU?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30T10:00:00Z
 draft: false
 author: Xuchen Yao
-description: Im Bereich der konversationellen KI war Nuance Mix NLU beliebt, aber SeaChat, basierend auf Large Language Models (LLMs), kann Grenzen durchbrechen und natürlichere, flüssigere Gesprächserfahrungen schaffen.
+description: "Im Bereich der konversationellen KI war Nuance Mix NLU beliebt, aber SeaChat, basierend auf Large Language Models (LLMs), kann Grenzen durchbrechen und natürlichere, flüssigere Gesprächserfahrungen schaffen."
 weight: 1
-tags: ["SeaChat", "KI-Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - KI-Tools
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'Die Welt der konversationellen KI hallt von Innovation wider. Während [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) sich als mächtiges Werkzeug zum Verstehen von Benutzerabsichten bewährt hat, bietet das Aufkommen von Large Language Models (LLMs) eine faszinierende Alternative. [SeaChat](https://chat.seasalt.ai/), eine auf LLM-Technologie basierende Plattform, zeigt die potenzielle Zukunft der konversationellen KI.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Die Welt der konversationellen KI hallt von Innovation wider. Während [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) sich als mächtiges Werkzeug zum Verstehen von Benutzerabsichten bewährt hat, bietet das Aufkommen von Large Language Models (LLMs) eine faszinierende Alternative. [SeaChat](https://chat.seasalt.ai/), eine auf LLM-Technologie basierende Plattform, zeigt die potenzielle Zukunft der konversationellen KI.

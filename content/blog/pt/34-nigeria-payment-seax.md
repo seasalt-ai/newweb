@@ -1,16 +1,18 @@
 ---
 title: "História de Cliente: Sucesso do Contact Center na Indústria de Pagamentos Digitais da Nigéria"
 metatitle: "Sucesso do Contact Center na Indústria de Pagamentos Digitais da Nigéria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: A principal empresa de pagamentos digitais da Nigéria alcançou um suporte ao cliente revolucionário com um contact center omnicanal, integrando chatbots e suporte personalizado em Pidgin English, beneficiando milhões de usuários e comerciantes.
+description: "A principal empresa de pagamentos digitais da Nigéria alcançou um suporte ao cliente revolucionário com um contact center omnicanal, integrando chatbots e suporte personalizado em Pidgin English, beneficiando milhões de usuários e comerciantes."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 A história de sucesso da implementação do contact center omnicanal para uma empresa líder de pagamentos digitais na Nigéria destaca como a adoção de tecnologia avançada pode revolucionar o suporte ao cliente e aprimorar a experiência geral do usuário.

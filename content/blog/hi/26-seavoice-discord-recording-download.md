@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS डिस्कॉर्ड बॉट: AI ट्रांसक्रिप्शन के साथ डाउनलोड करने योग्य वॉयस रिकॉर्डिंग प्रदान करने वाला पहला"
 metatitle: "SeaVoice STT/TTS डिस्कॉर्ड बॉट: रिकॉर्डिंग डाउनलोड"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: नवीनतम रिलीज़ के साथ, SeaVoice डिस्कॉर्ड बॉट प्लेटफ़ॉर्म पर AI-जनित ट्रांसक्रिप्शन के साथ डाउनलोड करने योग्य वॉयस चैनल रिकॉर्डिंग प्रदान करने वाला पहला है।
+description: "नवीनतम रिलीज़ के साथ, SeaVoice डिस्कॉर्ड बॉट प्लेटफ़ॉर्म पर AI-जनित ट्रांसक्रिप्शन के साथ डाउनलोड करने योग्य वॉयस चैनल रिकॉर्डिंग प्रदान करने वाला पहला है।"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice डिस्कॉर्ड बॉट डिस्कॉर्ड वॉयस चैनलों में भाषण को ट्रांसक्राइब करने के लिए सबसे अच्छे विकल्पों में से एक के रूप में लोकप्रियता प्राप्त कर रहा है। नवीनतम रिलीज़ के साथ, बॉट AI-जनित ट्रांसक्रिप्शन के साथ डाउनलोड करने योग्य वॉयस चैनल रिकॉर्डिंग प्रदान करने वाला डिस्कॉर्ड पर पहला है।*

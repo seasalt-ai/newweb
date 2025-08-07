@@ -2,16 +2,15 @@
 title: "Vom Demo zum Erfolg: Implementierung von Microsofts Modern Meetings und darüber hinaus (1/5)"
 metatitle: "Vom Demo zum Erfolg (1/5): Jenseits von Microsofts Modern Meetings"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Verfolgen Sie im ersten Teil dieser Blog-Serie die Reise von Seasalt.ai zur Schaffung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *Verfolgen Sie in dieser Blog-Serie die Reise von Seasalt.ai zur Schaffung eines abgerundeten Modern Meetings-Erlebnisses, angefangen bei seinen bescheidenen Anfängen über die Optimierung unseres Dienstes auf verschiedenen Hardware- und Modelltypen bis hin zur Integration modernster NLP-Systeme und schließlich zur vollständigen Realisierung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen.*

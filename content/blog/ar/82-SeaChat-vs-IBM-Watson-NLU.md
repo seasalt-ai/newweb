@@ -1,18 +1,20 @@
 ---
-title: "ارفع تجربة الدردشة الخاصة بك: لماذا يتفوق SeaChat على IBM Watson NLU"
-metatitle: "ارفع تجربة الدردشة الخاصة بك: لماذا يتفوق SeaChat على IBM Watson NLU"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00-07:00
+title: " ارفع تجربة الدردشة الخاصة بك: لماذا يتفوق SeaChat على IBM Watson NLU"
+metatitle: " ارفع تجربة الدردشة الخاصة بك: لماذا يتفوق SeaChat على IBM Watson NLU"
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00-07:00
 draft: false
 author: Xuchen Yao
-description: في مجال الذكاء الاصطناعي المحادث، كان IBM Watson NLU شائعًا، لكن SeaChat القائم على نماذج اللغة الكبيرة (LLMs) يمكنه تجاوز القيود وإنشاء تجارب محادثة أكثر طبيعية وطلاقة.
+description: "في مجال الذكاء الاصطناعي المحادث، كان IBM Watson NLU شائعًا، لكن SeaChat القائم على نماذج اللغة الكبيرة (LLMs) يمكنه تجاوز القيود وإنشاء تجارب محادثة أكثر طبيعية وطلاقة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-url: "/zh/blog/seachat-vs-ibm-watson-nlu/"
-summary: 'هل يشعر روبوت الدردشة الخاص بك بالتكرار والردود غير الطبيعية؟ هل تريد توفير تجربة دردشة أكثر طبيعية لعملائك؟ إذن، حان الوقت للنظر في SeaChat، منتج مساعد ذكي قوي مبني على نماذج اللغة الكبيرة (LLMs). بينما كان [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) أداة موثوقة لتحليل النصوص، فإن [SeaChat](https://chat.seasalt.ai/?utm_source=blog) يوفر نهجًا ثوريًا للذكاء الاصطناعي المحادث، متجاوزًا محركات NLU التقليدية بمراحل.'
+canonicalURL: /zh/blog/seachat-vs-ibm-watson-nlu/
+url: /zh/blog/seachat-vs-ibm-watson-nlu/
 ---
 
 هل يشعر روبوت الدردشة الخاص بك بالتكرار والردود غير الطبيعية؟ هل تريد توفير تجربة دردشة أكثر طبيعية لعملائك؟ إذن، حان الوقت للنظر في SeaChat، منتج مساعد ذكي قوي مبني على نماذج اللغة الكبيرة (LLMs). بينما كان [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) أداة موثوقة لتحليل النصوص، فإن [SeaChat](https://chat.seasalt.ai/?utm_source=blog) يوفر نهجًا ثوريًا للذكاء الاصطناعي المحادث، متجاوزًا محركات NLU التقليدية بمراحل.

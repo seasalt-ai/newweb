@@ -1,15 +1,19 @@
 ---
 title: "Beyond Witticisms: Why Upgrading from wit.ai to SeaChat Can Boost Your Conversational AI"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: Why is Meta/Facebook's wit.ai outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations.
+description: "Why is Meta/Facebook's wit.ai outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 The world of chatbots is evolving at breakneck speed. While Meta/Facebook’s [wit.ai](http://wit.ai) has served as a stepping stone for building voice-powered applications, a new wave of technology is taking center stage: Large Language Models (LLMs).  [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform built on LLM technology, offers a groundbreaking approach to Conversational AI, leaving intent-based engines like wit.ai behind.  Is it time to consider an upgrade for your chatbot?

@@ -1,18 +1,21 @@
 ---
 title: "آینده هوش مصنوعی گفتگو: آیا SeaChat جایگزین Nuance Mix NLU می‌شود؟"
 metatitle: "آینده هوش مصنوعی گفتگو: آیا SeaChat جایگزین Nuance Mix NLU می‌شود؟"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-30T10:00:00Z
 draft: false
 author: Xuchen Yao
-description: در حوزه هوش مصنوعی گفتگو، Nuance Mix NLU محبوب بود، اما SeaChat، بر اساس مدل‌های زبانی بزرگ (LLMs)، می‌تواند محدودیت‌ها را بشکند و تجربیات گفتگوی طبیعی‌تر و روان‌تری ایجاد کند.
+description: "در حوزه هوش مصنوعی گفتگو، Nuance Mix NLU محبوب بود، اما SeaChat، بر اساس مدل‌های زبانی بزرگ (LLMs)، می‌تواند محدودیت‌ها را بشکند و تجربیات گفتگوی طبیعی‌تر و روان‌تری ایجاد کند."
 weight: 1
-tags: ["SeaChat", "ابزارهای هوش مصنوعی", "مدل‌های زبانی بزرگ", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - ابزارهای هوش مصنوعی
+  - مدل‌های زبانی بزرگ
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: "2025-01-30T10:00:00Z"
-summary: 'جهان هوش مصنوعی گفتگو با نوآوری طنین‌انداز است. در حالی که [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) خود را به عنوان ابزاری قدرتمند برای درک قصد کاربر ثابت کرده است، ظهور مدل‌های زبانی بزرگ (LLMs) جایگزین جذابی ارائه می‌دهد. [SeaChat](https://chat.seasalt.ai/)، پلتفرمی مبتنی بر فناوری LLM، آینده بالقوه هوش مصنوعی گفتگو را نشان می‌دهد.'
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 جهان هوش مصنوعی گفتگو با نوآوری طنین‌انداز است. در حالی که [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) خود را به عنوان ابزاری قدرتمند برای درک قصد کاربر ثابت کرده است، ظهور مدل‌های زبانی بزرگ (LLMs) جایگزین جذابی ارائه می‌دهد. [SeaChat](https://chat.seasalt.ai/)، پلتفرمی مبتنی بر فناوری LLM، آینده بالقوه هوش مصنوعی گفتگو را نشان می‌دهد.

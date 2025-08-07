@@ -1,16 +1,17 @@
 ---
 title: "وسع نطاق مركز الاتصال الخاص بك باستخدام مركز اتصال موزع"
 metatitle: "وسع نطاقك باستخدام مركز اتصال موزع"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "في هذه المدونة، سنلقي نظرة على مراكز الاتصال 'الموزعة': ما هي، وكيف يمكن أن تفيدك، وكيف يستخدم SeaX هذا لخدمة عملائنا بشكل أفضل."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *في منشور المدونة السابق، [اجلب العملاء من أي قناة إلى مكان واحد باستخدام SeaX Omnichannel Communication](https://seasalt.ai/blog/19-seax-omnichannel-communication/)، أظهرنا قوة الاتصال متعدد القنوات على منصة SeaX، والذي يسمح بظهور رسائل المستخدم من أي قناة تقريبًا على منصة SeaX. في هذا المنشور، سنلقي نظرة على مراكز الاتصال "الموزعة": ما هي، وكيف يمكن أن تفيدك، وكيف يستفيد SeaX من منصة موزعة لخدمة عملائنا بشكل أفضل.*

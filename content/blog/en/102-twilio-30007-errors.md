@@ -1,16 +1,18 @@
 ---
 title: "How to Deal with Twilio 30007 Errors"
 metatitle: "Seasalt.ai | How to Deal with Twilio 30007 Errors"
-date: 2024-10-15T00:22:19-07:00
+date: 2024-10-15 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Learn how to troubleshoot and prevent Twilio 30007 errors to ensure successful SMS message delivery."
 weight: 1
-tags: ["Twilio", "SeaX", "SMS"]
-toc: true
+tags:
+  - Twilio
+  - SeaX
+  - SMS
 image: /images/blog/102-twilio-30007-errors/102-twilio-30007-errors.png
-canonicalURL: "/blog/twilio-30007-errors/"
-url: "/blog/twilio-30007-errors/"
+canonicalURL: /blog/twilio-30007-errors/
+url: /blog/twilio-30007-errors/
 ---
 
 ---

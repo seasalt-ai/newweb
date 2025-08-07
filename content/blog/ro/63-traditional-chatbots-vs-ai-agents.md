@@ -1,16 +1,20 @@
 ---
 title: "Ce ar trebui să știe afacerile despre chatbot-uri: Călătoria de la chatbot-uri tradiționale la agenți LLM"
 metatitle: "Călătoria de la chatbot-uri tradiționale la agenți LLM"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Agenții de chat bazați pe LLM oferă afacerilor o soluție ușoară și eficientă pentru interacțiunile cu clienții, care nu necesită abilități tehnice complexe și se integrează perfect cu sistemele existente.
+description: "Agenții de chat bazați pe LLM oferă afacerilor o soluție ușoară și eficientă pentru interacțiunile cu clienții, care nu necesită abilități tehnice complexe și se integrează perfect cu sistemele existente."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Pentru proprietarii de afaceri, eficientizarea interacțiunii cu clienții este crucială. Agenții de chat bazați pe LLM oferă o soluție inovatoare, ușor de utilizat, care nu necesită abilități tehnice extinse.

@@ -1,17 +1,19 @@
 ---
 title: "Pourquoi les petites entreprises ont-elles besoin d'un service d'appels sortants/de télémarketing ? (1/5)"
 metatitle: "Seasalt.ai | Série d'appels sortants | Petites entreprises"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Explorez les agents en direct, les composeurs automatiques et l'IA vocale pour choisir la meilleure solution d'appels sortants pour les besoins de votre entreprise."
 weight: 1
-tags: ["Service de télémarketing automatique", "Appels sortants pour les petites entreprises", "IA vocale"]
-toc: true
+tags:
+  - Service de télémarketing automatique
+  - Appels sortants pour les petites entreprises
+  - IA vocale
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

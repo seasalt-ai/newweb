@@ -1,15 +1,19 @@
 ---
 title: "Cara Menilai Respons Agen AI: Sistem Semakan SeaChat untuk Penambahbaikan dan Kawalan Agen AI"
 metatitle: "Menilai Respons Agen AI | Sistem Semakan SeaChat"
-date: 2023-12-20T10:25:00-08:00
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat membolehkan anda menandakan, menyemak, dan menambah baik respons agen AI untuk meningkatkan prestasi dan pengalaman pelanggan."
 weight: 1
-tags: ["SeaChat", "Agen Suara", "Alat AI", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Agen Suara
+  - Alat AI
+  - Pengalaman Pelanggan
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Pengenalan

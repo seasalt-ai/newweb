@@ -1,16 +1,20 @@
 ---
 title: "Appels entrants et sortants, l'agent téléphonique IA peut travailler pour vous sur les deux"
 metatitle: "Agent téléphonique IA | Pour les appels entrants et sortants"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Découvrez le potentiel révolutionnaire des agents téléphoniques IA dans le service client et les ventes, transformant les appels entrants et sortants pour une efficacité accrue et une croissance des revenus."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Outils IA", "Expérience client"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Outils IA
+  - Expérience client
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 Dans le paysage en constante évolution du service client et des ventes, les agents téléphoniques IA sont apparus comme de nouveaux outils efficaces pour les entreprises. Ces agents intelligents sont conçus pour gérer les appels entrants et sortants, révolutionnant les interactions client et stimulant les revenus. Cet article explore les différentes utilisations des agents téléphoniques IA dans les appels entrants et sortants, soulignant leur polyvalence et leur potentiel à transformer les communications commerciales.

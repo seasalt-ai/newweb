@@ -1,18 +1,20 @@
 ---
 title: "Neue Wege ebnen: Warum SeaChat SAP Conversational AI beim Aufbau interaktiver Chatbots übertrifft"
 metatitle: "Neue Wege ebnen: Warum SeaChat SAP Conversational AI beim Aufbau interaktiver Chatbots übertrifft"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-01-27T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Im Bereich der konversationellen KI war SAP Conversational AI einst beliebt. SeaChat, basierend auf Large Language Models (LLMs), kann Grenzen durchbrechen und eine natürlichere und flüssigere Konversationserfahrung schaffen.
+description: "Im Bereich der konversationellen KI war SAP Conversational AI einst beliebt. SeaChat, basierend auf Large Language Models (LLMs), kann Grenzen durchbrechen und eine natürlichere und flüssigere Konversationserfahrung schaffen."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: 'Im Bereich der konversationellen KI weht ein Wind des Wandels. Während [SAP Conversational AI](https://cai.tools.sap/) eine beliebte Wahl für den Aufbau unternehmensgerechter Chatbots war, wird eine neue Technologiewelle langsam zum neuen Fokus: Large Language Models (LLMs). Die [SeaChat](https://chat.seasalt.ai/?utm_source=blog)-Plattform, auf LLM-Technologie aufgebaut, bietet einen innovativen Ansatz, der die Grenzen regelbasierter Engines wie SAP Conversational AI überwindet. Bereit, für eine fesselndere Chatbot-Erfahrung in See zu stechen?'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 Im Bereich der konversationellen KI weht ein Wind des Wandels. Während [SAP Conversational AI](https://cai.tools.sap/) eine beliebte Wahl für den Aufbau unternehmensgerechter Chatbots war, wird eine neue Technologiewelle langsam zum neuen Fokus: Large Language Models (LLMs). Die [SeaChat](https://chat.seasalt.ai/?utm_source=blog)-Plattform, auf LLM-Technologie aufgebaut, bietet einen innovativen Ansatz, der die Grenzen regelbasierter Engines wie SAP Conversational AI überwindet. Bereit, für eine fesselndere Chatbot-Erfahrung in See zu stechen?

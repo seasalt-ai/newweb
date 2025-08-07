@@ -1,16 +1,17 @@
 ---
 title: "SeaX वॉयस इंटेलिजेंस के साथ अपने संपर्क केंद्र को अपनी आवाज दें"
 metatitle: "SeaX वॉयस इंटेलिजेंस के साथ अपने संपर्क केंद्र को बोलने दें"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "इस ब्लॉग में, हम दिखाएंगे कि Seasalt.ai के इन-हाउस टेक्स्ट-टू-स्पीच और स्पीच-टू-टेक्स्ट इंजन SeaX प्लेटफॉर्म के विभिन्न पहलुओं को कैसे बढ़ा सकते हैं।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *अब तक हमारी [SeaX ब्लॉग श्रृंखला](https://seasalt.ai/tags/seax/) में, हमने आपको Seasalt.ai के प्रमुख उत्पाद: SeaX का एक व्यापक अवलोकन दिया है। हमने दो प्रमुख विशेषताओं पर भी चर्चा की जो SeaX को पारंपरिक कॉल सेंटर से अलग करती हैं: पहला, कि SeaX ओमनीचैनल है, जिसका अर्थ है कि आप किसी भी चैनल पर ग्राहकों के साथ अधिक आसानी से बातचीत कर सकते हैं, और दूसरा, कि प्लेटफॉर्म एक वितरित संपर्क केंद्र है, जो आपको दुनिया भर के ग्राहकों से संदेशों और कॉलों को विभिन्न स्थानों पर अपने वितरित एजेंटों तक सहजता से रूट करने की अनुमति देता है।*

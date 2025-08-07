@@ -1,18 +1,20 @@
 ---
 title: "OpenAI 与人类与语音 AI：成本比较 (5/5)"
 metatitle: "OpenAI Realtime API 与人类和语音 AI：成本细分"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Xuchen Yao
 description: "OpenAI Realtime API 与人类接待员和语音 AI 代理的详细成本分析。"
 weight: 1
-tags: ["自动应答服务", "小型企业入站呼叫", "SeaChat", "语音 AI"]
-toc: true
+tags:
+  - 自动应答服务
+  - 小型企业入站呼叫
+  - SeaChat
+  - 语音 AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

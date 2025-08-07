@@ -1,17 +1,19 @@
 ---
 title: "Bagaimana Syarikat Boleh Menggunakan Chatbot AI Tersuai untuk Memudahkan Latihan Pekerja"
 metatitle: "Bagaimana Syarikat Boleh Menggunakan Chatbot AI Tersuai untuk Memudahkan Latihan Pekerja | Siri SeaChat Generasi Seterusnya"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Terokai peranan revolusioner chatbot AI yang disesuaikan dalam meningkatkan kecekapan latihan pekerja dan pengalaman pembelajaran yang diperibadikan, dan analisis peranan utama mereka dalam transmisi budaya korporat dan peningkatan kecekapan perniagaan.
+description: "Terokai peranan revolusioner chatbot AI yang disesuaikan dalam meningkatkan kecekapan latihan pekerja dan pengalaman pembelajaran yang diperibadikan, dan analisis peranan utama mereka dalam transmisi budaya korporat dan peningkatan kecekapan perniagaan."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "Terokai peranan revolusioner chatbot AI yang disesuaikan dalam meningkatkan kecekapan latihan pekerja dan pengalaman pembelajaran yang diperibadikan, dan analisis peranan utama mereka dalam transmisi budaya korporat dan peningkatan kecekapan perniagaan."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 Untuk meningkatkan kecekapan dan keberkesanan latihan pekerja baharu, semakin banyak syarikat mula meneroka kemungkinan menggunakan chatbot AI yang disesuaikan. Chatbot canggih ini bukan sahaja dapat menyediakan pengalaman pembelajaran yang diperibadikan, tetapi juga dapat membantu pekerja berintegrasi ke dalam budaya syarikat dengan lebih cepat, dengan itu meningkatkan kecekapan kerja keseluruhan dan kepuasan pekerja.

@@ -1,17 +1,20 @@
 ---
 title: "Zautomatyzowane systemy odbierania połączeń telefonicznych (interaktywna odpowiedź głosowa a agenci głosowi AI): najlepsze wybory dla małych firm (3/5)"
 metatitle: "Zautomatyzowane systemy odbierania połączeń (interaktywna odpowiedź głosowa a głosowa sztuczna inteligencja)"
-date: 2024-09-19T00:22:19-07:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Jun Mao
 description: "Poznaj opcje interaktywnej odpowiedzi głosowej i głosowej sztucznej inteligencji dla zautomatyzowanych systemów telefonicznych w małych firmach."
 weight: 1
-tags: ["Automatyczna usługa odbierania połączeń", "Połączenia przychodzące dla małych firm", "SeaChat",  "Głosowa sztuczna inteligencja"]
-toc: true
+tags:
+  - Automatyczna usługa odbierania połączeń
+  - Połączenia przychodzące dla małych firm
+  - SeaChat
+  - Głosowa sztuczna inteligencja
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

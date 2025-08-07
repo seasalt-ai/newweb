@@ -1,17 +1,20 @@
 ---
 title: "เครื่องโทรออกอัตโนมัติสำหรับการโทรออก: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | การโทรออกสด | เครื่องโทรออกอัตโนมัติ"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "เปรียบเทียบ Power, Progressive และ Predictive Dialers สำหรับการโทรออกที่มีประสิทธิภาพและปรับขนาดได้ในการตลาดทางโทรศัพท์และการขาย"
 weight: 1
-tags: ["บริการ Telemarketing อัตโนมัติ", "การโทรออกสำหรับธุรกิจขนาดเล็ก", "เครื่องโทรออกอัตโนมัติ", "AI เสียง"]
-toc: true
+tags:
+  - บริการ Telemarketing อัตโนมัติ
+  - การโทรออกสำหรับธุรกิจขนาดเล็ก
+  - เครื่องโทรออกอัตโนมัติ
+  - AI เสียง
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

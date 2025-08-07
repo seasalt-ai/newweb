@@ -1,15 +1,19 @@
 ---
 title: "AI Call Screens on Android and iPhone: Your Personal Assistant and Gatekeeper"
 metatitle: "AI Call Screens | Personal Assistant on Android and iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Discover the future of call management with an AI-powered call agent! From screening spammers to booking appointments, it's your 24/7 personal assistant and gatekeeper.
+description: "Discover the future of call management with an AI-powered call agent! From screening spammers to booking appointments, it's your 24/7 personal assistant and gatekeeper."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Have you ever wished you had a personal assistant who could handle your phone calls, screen spammers and scammers, and even book appointments for you? Look no further, because an AI-powered call agent can do all that and more! Acting as your free front desk and gatekeeper, this remarkable technology is revolutionizing call management, ensuring you never miss an important call and saving you valuable time and peace of mind.

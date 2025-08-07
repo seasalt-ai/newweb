@@ -1,16 +1,20 @@
 ---
 title: "ما وراء الفكاهة: لماذا يمكن أن يؤدي الترقية من wit.ai إلى SeaChat إلى تعزيز الذكاء الاصطناعي للمحادثة لديك"
 metatitle: "SeaChat مقابل Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
-modified_date: 2024-07-30T12:00:00Z
+date: 2024-03-16 00:22:19-07:00
+modified_date: 2024-07-30 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: لماذا أصبحت wit.ai من Meta/Facebook قديمة؟ اكتشف SeaChat - ابتعد عن شواطئ روبوتات الدردشة المتكررة باستخدام تقنية LLM المتقدمة، مما يعزز المحادثات الجذابة الشبيهة بالبشر.
+description: "لماذا أصبحت wit.ai من Meta/Facebook قديمة؟ اكتشف SeaChat - ابتعد عن شواطئ روبوتات الدردشة المتكررة باستخدام تقنية LLM المتقدمة، مما يعزز المحادثات الجذابة الشبيهة بالبشر."
 weight: 1
-tags: ["SeaChat", "أدوات الذكاء الاصطناعي", "نماذج اللغة الكبيرة", "فهم اللغة الطبيعية"]
+tags:
+  - SeaChat
+  - أدوات الذكاء الاصطناعي
+  - نماذج اللغة الكبيرة
+  - فهم اللغة الطبيعية
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 يتطور عالم روبوتات الدردشة بسرعة فائقة. بينما كانت [wit.ai](http://wit.ai) من Meta/Facebook بمثابة نقطة انطلاق لبناء تطبيقات تعمل بالصوت، فإن موجة جديدة من التكنولوجيا تحتل مركز الصدارة: نماذج اللغة الكبيرة (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهي منصة مبنية على تقنية LLM، تقدم نهجًا رائدًا للذكاء الاصطناعي للمحادثة، تاركة وراءها المحركات القائمة على النوايا مثل wit.ai. هل حان الوقت للتفكير في ترقية روبوت الدردشة الخاص بك؟

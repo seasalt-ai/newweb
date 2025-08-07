@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Dịch vụ tiếp thị qua email nào phù hợp với bạn vào năm 2025?"
 metatitle: "Mailchimp vs. MailerLite | Dịch vụ tiếp thị qua email 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, Dịch vụ email nào phù hợp với bạn? So sánh chuyên sâu của chúng tôi phân tích các tính năng, giá cả và hơn thế nữa.
+description: "MailerLite vs. Mailchimp, Dịch vụ email nào phù hợp với bạn? So sánh chuyên sâu của chúng tôi phân tích các tính năng, giá cả và hơn thế nữa."
 weight: 1
-tags: ["SeaChat", "Thương mại điện tử", "Tiếp thị qua email"]
+tags:
+  - SeaChat
+  - Thương mại điện tử
+  - Tiếp thị qua email
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 Tiếp thị qua email vẫn là một công cụ mạnh mẽ cho các doanh nghiệp thuộc mọi quy mô. Cho dù bạn đang tìm kiếm việc làm về tiếp thị qua email, tìm kiếm phần mềm tiếp thị qua email tốt nhất hay tìm kiếm các mẹo tiếp thị qua email hữu ích, bạn sẽ cần biết về công cụ tốt nhất trên thị trường. Hôm nay, chúng tôi sẽ so sánh hai công cụ tiếp thị qua email phổ biến, [Mailchimp](https://mailchimp.com/) và [MailerLite](https://www.mailerlite.com/) để bạn cân nhắc.

@@ -1,13 +1,19 @@
 ---
 title: "Danh bạ Đường dây nóng dành cho người cao tuổi: Nguồn lực chăm sóc người cao tuổi tại Đài Loan"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Hướng dẫn toàn diện về các đường dây nóng dành cho người cao tuổi tại Đài Loan, cung cấp thông tin liên hệ thiết yếu cho các cục công tác xã hội tại các thành phố lớn. Khám phá cách SeaX và SeaChat AI có thể nâng cao dịch vụ chăm sóc người cao tuổi."
-tags: ["Chăm sóc người cao tuổi", "Đường dây nóng người cao tuổi", "Đài Loan", "SeaX", "SeaChat AI", "Tài nguyên cộng đồng"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Chăm sóc người cao tuổi
+  - Đường dây nóng người cao tuổi
+  - Đài Loan
+  - SeaX
+  - SeaChat AI
+  - Tài nguyên cộng đồng
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Danh bạ Đường dây nóng dành cho người cao tuổi: Nguồn lực chăm sóc người cao tuổi tại Đài Loan

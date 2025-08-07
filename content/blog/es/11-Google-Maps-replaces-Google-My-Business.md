@@ -1,16 +1,16 @@
 ---
 title: "Adiós Google My Business, ahora Google Maps es el nuevo sistema operativo para empresas"
 metatitle: "Adiós GMB, Google Maps es el nuevo sistema operativo para empresas"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google está reemplazando la aplicación Google My Business por Google Maps, donde las empresas pueden administrar su información y responder a los mensajes de los clientes en Google Maps."
 weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Conectar directamente a las empresas con los consumidores a través de Google Maps proporciona una experiencia fluida para la experiencia de compra de los consumidores. Este es un gran movimiento estratégico para Google para convertir Google Maps en el nuevo sistema operativo para la búsqueda local de negocios "cerca de mí".*

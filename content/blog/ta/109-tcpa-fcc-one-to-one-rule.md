@@ -1,17 +1,19 @@
 ---
 title: "2025 FCC-இன் புதிய ஒருவருக்கொருவர் ஒப்புதல் விதிக்குத் தயாராவதற்கு நீங்கள் தெரிந்து கொள்ள வேண்டிய அனைத்தும்"
 metatitle: "Seasalt.ai | 2025 TCPA விதி மாற்றங்கள் | விரிவான வழிகாட்டி"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "2025 TCPA விதி மாற்றங்கள் குறித்த ஆழமான வழிகாட்டி, வணிகங்கள் இணக்கத்தை உறுதிப்படுத்த அத்தியாவசிய தகவல்களை வழங்குகிறது."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **இந்தக் கட்டுரை சட்ட ஆலோசனை அல்ல. மேலும் தகவலுக்கு உங்கள் சட்ட ஆலோசகரை அணுகவும்.**

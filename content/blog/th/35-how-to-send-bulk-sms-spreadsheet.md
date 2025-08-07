@@ -1,16 +1,18 @@
 ---
 title: "วิธีที่ถูกต้องในการส่ง SMS จำนวนมากไปยังรายชื่อติดต่อใน Excel, Google Sheets และ Apple Numbers"
 metatitle: "ส่ง SMS จำนวนมาก | Excel, Google Sheets, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'เรียนรู้วิธีที่ปลอดภัยที่สุดในการส่ง SMS จำนวนมากจาก Excel, Google Sheets และ Apple Numbers พร้อมปฏิบัติตามข้อกำหนด 10DLC'
+description: "เรียนรู้วิธีที่ปลอดภัยที่สุดในการส่ง SMS จำนวนมากจาก Excel, Google Sheets และ Apple Numbers พร้อมปฏิบัติตามข้อกำหนด 10DLC"
 weight: 1
-tags: ["SeaX", "คู่มือ"]
+tags:
+  - SeaX
+  - คู่มือ
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 การส่ง SMS จำนวนมากไปยังรายชื่อติดต่อเป็นเทคนิคที่ธุรกิจ ผู้จัดงาน และมืออาชีพหลากหลายกลุ่มนิยมใช้ ความสามารถในการส่งข้อความถึงหลายคนพร้อมกันช่วยประหยัดเวลาและแจ้งข้อมูลได้อย่างมีประสิทธิภาพ แม้ Excel, Google Sheets และ Apple Numbers จะไม่ได้ออกแบบมาเพื่อส่ง SMS โดยตรง แต่ก็มีส่วนขยายและบริการของบุคคลที่สามที่ช่วยให้ทำได้ อย่างไรก็ตาม มีข้อควรระวังและข้อกำหนดที่ต้องปฏิบัติตาม

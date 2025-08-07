@@ -1,18 +1,16 @@
 ---
 title: "Полное руководство по включению чата в Google Картах для связи с клиентами"
 metatitle: "Полное руководство по включению чата в Google Картах"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "В этом блоге мы рассмотрим три различных метода включения чата Google Карт, чтобы лучше общаться с клиентами."
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Чат Google Карт — отличный способ для компаний общаться с клиентами. Существуют различные способы включения чата Google Карт: ручной с помощью Google Business Profile, автоматический с помощью Google Business Messages и тот, который сочетает в себе лучшее из обоих миров с Near Me Messaging. Этот блог проведет вас через включение чата Google Карт с помощью этих трех различных методов.*

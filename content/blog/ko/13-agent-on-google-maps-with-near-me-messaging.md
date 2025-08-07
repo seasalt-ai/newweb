@@ -1,18 +1,17 @@
 ---
 title: "Google 지도에서 내 주변 메시징으로 가상 에이전트 시작하기"
 metatitle: "Google 지도 가상 에이전트를 내 주변 메시징으로 시작하기"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "내 주변 메시징으로 Google 비즈니스 메시지에서 가상 에이전트를 시작하세요."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 이전에 [내 주변 메시징](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/)과 그 이점에 대해 소개해 드렸습니다. 내 주변 메시징은 Google 비즈니스 메시지 가상 에이전트를 구현하며, 비즈니스의 Google 지도 프로필에 있는 채팅 버튼에서 직접 사용할 수 있습니다. 내 주변 메시징의 가상 에이전트는 인간과 유사한 응답을 제공하는 최첨단 자연어 이해 기술로 구동됩니다. 내 주변 메시징이 유사한 서비스와 차별화되는 점은 5분 설정 시간, 셀프 서비스 사용자 지정 및 내장된 라이브 채팅 지원입니다.

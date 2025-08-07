@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord 和 Twilio Flex: 将 Flex 联络中心带入未知领域"
 metatitle: "Discord (3/3): Discord 中的 Twilio Flex 联络中心"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "在这篇博客中，我们将演示 Seasalt.ai 如何将一个功能齐全的联络中心集成到 Discord 服务器中。"
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *这是我们关于 Discord 上客户参与的三部分系列文章的最后一篇。我们的第一篇博客文章[“客户参与的新前沿”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)讨论了 Discord 的日益普及，以及它为品牌创建和参与自己的在线社区提供了新机会。在第二部分[“如何为您的品牌创建 Discord 社区和机器人”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)中，我们介绍了如何为您的品牌创建 Discord 服务器，以及如何集成机器人来管理服务器审核、公告、用户反馈等。最后，在这篇博客中，我们将演示 Seasalt.ai 如何将一个功能齐全的联络中心集成到 Discord 服务器中，从而使品牌能够处理平台上客户服务的所有方面。*

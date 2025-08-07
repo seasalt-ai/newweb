@@ -6,7 +6,7 @@ lastmod: 2024-04-03T00:22:19-07:00
 modified_date: 2025-08-01T00:00:00Z
 draft: false
 author:  Xuchen Yao
-description: Dans le domaine de l'IA conversationnelle, Microsoft Azure Bot Service (LUIS.ai) était autrefois populaire, et SeaChat, basé sur les grands modèles de langage (LLM), peut dépasser les limitations et créer une expérience conversationnelle plus naturelle et fluide.
+description: "Dans le domaine de l'IA conversationnelle, Microsoft Azure Bot Service (LUIS.ai) était autrefois populaire, et SeaChat, basé sur les grands modèles de langage (LLM), peut dépasser les limitations et créer une expérience conversationnelle plus naturelle et fluide."
 weight: 1
 tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png

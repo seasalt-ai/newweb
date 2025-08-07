@@ -1,16 +1,17 @@
 ---
 title: "SeaX குரல் நுண்ணறிவுடன் உங்கள் தொடர்பு மையத்திற்கு அதன் சொந்த குரலைக் கொடுங்கள்"
 metatitle: "SeaX குரல் நுண்ணறிவுடன் உங்கள் தொடர்பு மையம் பேசட்டும்"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "இந்த வலைப்பதிவில், Seasalt.ai இன் உள்-உரை-க்கு-பேச்சு மற்றும் பேச்சு-க்கு-உரை இயந்திரங்கள் SeaX தளத்தின் பல்வேறு அம்சங்களை எவ்வாறு மேம்படுத்த முடியும் என்பதை நாங்கள் காண்பிப்போம்."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *இதுவரை எங்கள் [SeaX வலைப்பதிவுத் தொடரில்](https://seasalt.ai/tags/seax/), Seasalt.ai இன் முதன்மை தயாரிப்பான SeaX இன் பரந்த கண்ணோட்டத்தை நாங்கள் உங்களுக்கு வழங்கியுள்ளோம். SeaX ஐ ஒரு பாரம்பரிய அழைப்பு மையத்திலிருந்து வேறுபடுத்தும் இரண்டு முக்கிய அம்சங்களையும் நாங்கள் விவாதித்தோம்: முதலாவதாக, SeaX பல சேனல்களைக் கொண்டது, அதாவது எந்தவொரு சேனலிலும் வாடிக்கையாளர்களுடன் எளிதாக தொடர்பு கொள்ள முடியும், இரண்டாவதாக, இந்த தளம் ஒரு விநியோகிக்கப்பட்ட தொடர்பு மையமாகும், இது உலகெங்கிலும் உள்ள வாடிக்கையாளர்களிடமிருந்து வரும் செய்திகள் மற்றும் அழைப்புகளை உங்கள் விநியோகிக்கப்பட்ட முகவர்களுக்கு பல்வேறு இடங்களில் தடையின்றி அனுப்ப அனுமதிக்கிறது.*

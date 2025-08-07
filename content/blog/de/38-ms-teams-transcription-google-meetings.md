@@ -1,18 +1,17 @@
 ---
 title: "KI-Meeting-Assistenten im Vergleich: Microsoft Teams vs. Google Meet"
 metatitle: "KI-Meeting-Assistenten im Vergleich: Microsoft Teams vs. Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Entdecken Sie die KI-Meeting-Assistenten von Microsoft Teams und Google Meet, vergleichen Sie die Sprachunterstützung der Plattformen und erfahren Sie, wie SeaMeet Echtzeit-Transkription, Zusammenfassungen und weitere Funktionen bietet.
+description: "Entdecken Sie die KI-Meeting-Assistenten von Microsoft Teams und Google Meet, vergleichen Sie die Sprachunterstützung der Plattformen und erfahren Sie, wie SeaMeet Echtzeit-Transkription, Zusammenfassungen und weitere Funktionen bietet."
 weight: 1
-tags: ["SeaMeet", "KI-Tools"]
+tags:
+  - SeaMeet
+  - KI-Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Entdecken Sie die KI-Meeting-Assistenten von Microsoft Teams und Google Meet, vergleichen Sie die Sprachunterstützung der Plattformen und erfahren Sie, wie SeaMeet Echtzeit-Transkription, Zusammenfassungen und weitere Funktionen bietet."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Mit der Entwicklung der Technologie sind KI-Meeting-Assistenten zu unverzichtbaren Werkzeugen für die Verbesserung der Meeting-Effizienz geworden. Diese Tools können automatisch Meeting-Zusammenfassungen erstellen, Sprache in Text umwandeln und sogar wichtige Informationen während der Meetings identifizieren. Dieser Artikel untersucht drei wichtige KI-Meeting-Assistenten: Microsoft Teams' Copilot, Google Meets Duet AI und SeaMeet.

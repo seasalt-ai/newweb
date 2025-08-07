@@ -1,16 +1,17 @@
 ---
 title: "Berikan Pusat Hubungan Anda Suara Sendiri dengan SeaX Voice Intelligence"
 metatitle: "Biarkan Pusat Hubungan Anda Berbicara dengan SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "Dalam blog ini, kami akan menunjukkan bagaimana enjin teks-ke-ucapan dan ucapan-ke-teks Seasalt.ai dapat meningkatkan pelbagai aspek platform SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *Setakat ini dalam [siri blog SeaX](https://seasalt.ai/tags/seax/) kami, kami telah memberikan gambaran keseluruhan yang luas tentang produk utama Seasalt.ai: SeaX. Kami juga membincangkan dua ciri utama yang membezakan SeaX daripada pusat panggilan tradisional: pertama, SeaX adalah omnisaluran, yang bermaksud anda lebih mudah berinteraksi dengan pelanggan di mana-mana saluran, dan kedua, platform ini adalah pusat hubungan teragih, yang membolehkan anda menghantar mesej dan panggilan dari pelanggan di seluruh dunia kepada ejen teragih anda di pelbagai lokasi dengan lancar.*

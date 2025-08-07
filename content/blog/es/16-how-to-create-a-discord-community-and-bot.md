@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): Cómo Crear una Comunidad y un Bot de Discord para tu Marca"
 metatitle: "Discord (2/3): Crea la Comunidad y el Bot de Discord de tu Marca"
-date: 2024-07-30T00:00:00Z
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "En este blog, te guiaremos a través de la creación de un servidor para tu marca y la conexión de un bot, que puede automatizar la moderación, el informe de errores, los anuncios, etc."
+date: 2024-07-30 00:00:00+00:00
 draft: false
+author: Kim Dodds
+description: "En este blog, te guiaremos a través de la creación de un servidor para tu marca y la conexión de un bot, que puede automatizar la moderación, el informe de errores, los anuncios, etc."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Nuestra publicación de blog, [“Discord: Una Nueva Frontera para la Interacción con el Cliente”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), cubrió el aumento de popularidad de Discord y cómo las marcas pueden capitalizar esta nueva plataforma social para formar sus propias comunidades en línea e interactuar con los clientes. En este blog, te guiaremos a través de cómo crear un nuevo servidor oficial para tu marca, incluyendo cómo conectar un bot, que puede automatizar tareas como la moderación, el informe de errores, los anuncios, etc.*

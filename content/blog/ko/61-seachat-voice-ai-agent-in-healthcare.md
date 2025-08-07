@@ -1,16 +1,20 @@
 ---
 title: "의료 분야 AI 음성 에이전트의 부상: 환자 치료 및 참여도 향상"
 metatitle: "의료 분야 AI 음성 에이전트 | 더 나은 환자 치료"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: AI 음성 에이전트가 예약 일정 및 약물 알림에 대한 즉각적인 응답으로 의료 서비스를 어떻게 변화시키고 있는지 알아보세요. 특히 특별한 도움이 필요한 환자에게 도움이 됩니다.
+description: "AI 음성 에이전트가 예약 일정 및 약물 알림에 대한 즉각적인 응답으로 의료 서비스를 어떻게 변화시키고 있는지 알아보세요. 특히 특별한 도움이 필요한 환자에게 도움이 됩니다."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # 서론

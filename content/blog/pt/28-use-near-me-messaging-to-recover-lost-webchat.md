@@ -1,16 +1,17 @@
 ---
 title: "Usuário saiu do webchat: use o Near Me Messaging para enviar uma mensagem a ele!"
 metatitle: "Usuário saiu do webchat: entre em contato com o Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "O Near Me Messaging resolve um problema do webchat: entre em contato com seu usuário mesmo *depois* que ele saiu da conversa."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Na manhã de Natal de 2022, acordei com algumas mensagens deixadas por um usuário chamado Henry. Quando cheguei às mensagens, Henry já havia saído. Tudo o que recebi foram as mensagens que ele enviou via webchat e seu nome.

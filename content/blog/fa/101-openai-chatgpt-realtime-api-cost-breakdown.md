@@ -1,18 +1,20 @@
 ---
 title: "OpenAI در مقابل انسان در مقابل هوش مصنوعی صوتی:..."
 metatitle: "OpenAI Realtime API در مقابل انسان و هوش مصنوعی..."
-date: "2024-10-12T00:22:19-07:00"
-modified_date: "2025-07-26T16:48:39Z"
-draft: "false"
-author: "Xuchen Yao"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
+draft: false
+author: Xuchen Yao
 description: "تحلیل هزینه دقیق OpenAI Realtime API در مقایسه با منشی های انسانی و عوامل هوش مصنوعی صوتی."
 weight: 1
-tags: ["سرویس پاسخگویی خودکار", "تماس ورودی برای مشاغل کوچک", "SeaChat", "هوش مصنوعی صوتی"]
-toc: true
+tags:
+  - سرویس پاسخگویی خودکار
+  - تماس ورودی برای مشاغل کوچک
+  - SeaChat
+  - هوش مصنوعی صوتی
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

@@ -1,16 +1,17 @@
 ---
 title: "گسترش ردپای مرکز تماس خود با یک مرکز تماس توزیع شده"
 metatitle: "گسترش ردپای خود با یک مرکز تماس توزیع شده"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "در این وبلاگ، به مراکز تماس 'توزیع شده' خواهیم پرداخت: آنها چه هستند، چگونه می توانند به شما سود برسانند، و چگونه SeaX از این برای ارائه خدمات بهتر به مشتریان خود استفاده می کند."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *در پست وبلاگ قبلی ما، [مشتریان را از هر کانالی به یک مکان با ارتباطات همه‌کاناله SeaX بیاورید](https://seasalt.ai/blog/19-seax-omnichannel-communication/)، ما قدرت ارتباطات همه‌کاناله در پلتفرم SeaX را نشان دادیم که به پیام‌های کاربر از تقریباً هر کانالی اجازه می‌دهد تا در پلتفرم SeaX نمایش داده شوند. در این پست، به مراکز تماس "توزیع شده" خواهیم پرداخت: آنها چه هستند، چگونه می‌توانند به شما سود برسانند، و چگونه SeaX از یک پلتفرم توزیع شده برای ارائه خدمات بهتر به مشتریان خود استفاده می‌کند.*

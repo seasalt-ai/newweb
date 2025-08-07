@@ -1,17 +1,22 @@
 ---
 title: "SeaChat im Fokus: Das beste Automatisierungstool für Ferienwohnungen von Smooth Rentals"
 metatitle: "SeaChat von Seasalt.ai | Automatisierung von Ferienwohnungen | Smooth Rentals Feature"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat von Seasalt.ai wird im neuesten Blogbeitrag von Smooth Rentals als führendes Automatisierungstool für Ferienwohnungen anerkannt. Entdecken Sie, wie SeaChat die Gästekommunikation optimiert und die Effizienz steigert."
 weight: 1
-tags: ["SeaChat", "Ferienwohnung", "Automatisierung", "Gästekommunikation", "Smooth Rentals", "AI Chatbot"]
-toc: true
+tags:
+  - SeaChat
+  - Ferienwohnung
+  - Automatisierung
+  - Gästekommunikation
+  - Smooth Rentals
+  - AI Chatbot
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat im Leitfaden von Smooth Rentals zu Automatisierungstools für Ferienwohnungen vorgestellt

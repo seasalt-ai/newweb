@@ -1,16 +1,17 @@
 ---
 title: "유나이티드 항공 고객 서비스: 좋은 점, 나쁜 점, 그리고 추한 점"
 metatitle: "유나이티드 항공 고객 서비스 분석"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao는 항공편 지연 및 취소 중 유나이티드 항공의 고객 서비스에 대한 최근 경험을 공유하고, 이러한 상황에서 급증하는 트래픽을 처리하기 위해 고객 지원을 동적으로 확장하는 과제를 해결하기 위한 솔루션을 제안합니다.
+description: "Xuchen Yao는 항공편 지연 및 취소 중 유나이티드 항공의 고객 서비스에 대한 최근 경험을 공유하고, 이러한 상황에서 급증하는 트래픽을 처리하기 위해 고객 지원을 동적으로 확장하는 과제를 해결하기 위한 솔루션을 제안합니다."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) CEO인 Xuchen Yao는 항공편 지연 및 취소를 겪은 후 유나이티드 항공의 고객 서비스에 대한 최근 경험을 공유합니다. 이를 통해 그는 이러한 상황에서 급증하는 트래픽을 처리하기 위해 항공사 고객 지원이 동적으로 확장하는 데 직면한 과제를 깨닫게 되었습니다. Xuchen은 인간 상담원으로부터 셀프 서비스 가능한 트래픽을 전환하고, 인간 상담원의 효율성을 개선하며, 잠재적인 문제를 사전에 식별하고 위험을 제거하는 기술을 개발하는 것과 같은 잠재적인 개선 사항에 대해 이야기합니다.*

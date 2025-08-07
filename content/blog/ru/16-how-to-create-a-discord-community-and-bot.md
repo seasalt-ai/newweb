@@ -1,18 +1,18 @@
 ---
 title: "Discord (2/3): Как создать сообщество Discord и бота для вашего бренда"
 metatitle: "Discord (2/3): Создайте сообщество Discord и бота для вашего бренда"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "В этом блоге мы рассмотрим создание сервера для вашего бренда и подключение бота, который может автоматизировать модерацию, отчеты об ошибках, объявления и т.д."
+date: 2022-05-31 13:29:51-07:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
+author: Kim Dodds
+description: "В этом блоге мы рассмотрим создание сервера для вашего бренда и подключение бота, который может автоматизировать модерацию, отчеты об ошибках, объявления и т.д."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
-modified_date: 2024-12-19T10:00:00Z
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Наш пост в блоге ["Discord: Новый рубеж для взаимодействия с клиентами"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) охватывал рост популярности Discord и то, как бренды могут использовать эту новую социальную платформу для формирования собственных онлайн-сообществ и взаимодействия с клиентами. В этом блоге мы рассмотрим, как создать новый официальный сервер для вашего бренда, включая подключение бота, который может автоматизировать такие задачи, как модерация, отчеты об ошибках, объявления и т.д.*

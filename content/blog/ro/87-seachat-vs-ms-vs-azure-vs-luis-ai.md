@@ -1,21 +1,20 @@
 ---
 title: "SeaChat vs. Microsoft Bot Framework și Azure Bot Service (LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Bot Framework și Azure Bot Service (LUIS.ai)"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-05-16T12:00:00Z
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: În domeniul AI conversaționale, Microsoft Azure Bot Service (LUIS.ai) a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă.
+description: "În domeniul AI conversaționale, Microsoft Azure Bot Service (LUIS.ai) a fost popular, dar SeaChat, bazat pe modele lingvistice mari (LLM-uri), poate depăși limitările și poate crea o experiență de conversație mai naturală și mai fluidă."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-url: "/zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-aliases:
-  - "/zh/blog/87-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
-summary: 'Lumea AI conversaționale este entuziasmată de cele mai recente știri despre parteneriatul tot mai profund dintre Microsoft și OpenAI. Deși unii celebrează potențialul acestei colaborări, există și nemulțumiri în cadrul Microsoft. Se pare că, din interior, există îngrijorări că se va devia de la dezvoltarea internă a AI pentru a promova produsele OpenAI.
-
-Un domeniu menționat în mod special este soarta serviciului Azure Bot Service de la Microsoft.'
+canonicalURL: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
+url: /zh/blog/seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/
 ---
 
 Lumea AI conversaționale este entuziasmată de cele mai recente știri despre parteneriatul tot mai profund dintre Microsoft și OpenAI. Deși unii celebrează potențialul acestei colaborări, există și nemulțumiri în cadrul Microsoft. Se pare că, din interior, există îngrijorări că se va devia de la dezvoltarea internă a AI pentru a promova produsele OpenAI.

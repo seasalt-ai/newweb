@@ -1,15 +1,17 @@
 ---
 title: "Seu Guia Completo para Conversão de Áudio: Converta Arquivos de Som Facilmente | Série Caixa de Ferramentas de Áudio"
 metatitle: "Conversão de Arquivos de Áudio/Som | Série Caixa de Ferramentas de Áudio"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: Aprenda sobre conversores de arquivos de áudio, conversão de formato de som e o melhor software conversor de áudio gratuito. Converta arquivos de áudio sem esforço com nosso guia passo a passo.
+description: "Aprenda sobre conversores de arquivos de áudio, conversão de formato de som e o melhor software conversor de áudio gratuito. Converta arquivos de áudio sem esforço com nosso guia passo a passo."
 weight: 1
-tags: ["Caixa de Ferramentas de Áudio", "Ferramentas de IA"]
+tags:
+  - Caixa de Ferramentas de Áudio
+  - Ferramentas de IA
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Introdução à Conversão de Áudio

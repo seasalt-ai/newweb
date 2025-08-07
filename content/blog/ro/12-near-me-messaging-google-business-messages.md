@@ -1,17 +1,16 @@
 ---
 title: "Mesageria Near Me completează mesajele Google Business"
-author: Ruli Setiawati
-date: 2022-04-12T21:12:16-07:00
-image: "images/blog/12-near-me-messaging-complements-google-business-messages/logo.png"
+date: 2022-04-12 21:12:16-07:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
+author: Ruli Setiawati
 description: "Mesageria Near Me integrează inteligența artificială conversațională cu mesajele Google Business, permițând asistență 24/7 prin intermediul butonului de chat de pe profilul dvs. Google Maps."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/near-me-messaging-complements-google-business-messages/"
-url: "/blog/near-me-messaging-complements-google-business-messages/"
-aliases:
-  - /blog/12-near-me-messaging-complements-google-business-messages/
-modified_date: "2025-08-01T12:00:00Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 Într-unul dintre blogurile noastre anterioare, v-am prezentat [beneficiile și limitările mesajelor Google Business](https://seasalt.ai/blog/10-use-google-business-messages-off-hours/). Există două limitări principale ale implementărilor comune ale mesajelor Google Business. Prima limitare este că este nevoie de mulți bani și timp pentru a plăti o agenție de consultanță profesională pentru a crea un agent virtual personalizat pentru afacerea dvs. de la zero. A doua limitare este că proprietarii de afaceri nu pot vorbi direct cu clienții, cu excepția cazului în care agenția de consultanță oferă o funcție de chat live ca parte a implementării lor.

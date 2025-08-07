@@ -1,16 +1,19 @@
 ---
 title: "Apelatoare automate pentru apeluri outbound: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Apeluri outbound live | Apelatoare automate"
-date: 2024-10-27T00:22:19-07:00
+date: 2024-10-27 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Comparați apelatoarele Power, Progressive și Predictive pentru apeluri outbound eficiente și scalabile în telemarketing și vânzări."
 weight: 1
-tags: ["Serviciu de telemarketing automat", "Apeluri outbound pentru întreprinderi mici", "Apelator automat",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de telemarketing automat
+  - Apeluri outbound pentru întreprinderi mici
+  - Apelator automat
+  - Inteligență artificială vocală
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

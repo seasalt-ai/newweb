@@ -1,16 +1,17 @@
 ---
 title: "Cum să îmbunătățiți eficiența ședințelor de echipă cu transcrieri în timp real și notițe AI pentru ședințe?"
 metatitle: "Cum să îmbunătățiți eficiența ședințelor de echipă cu transcrieri în timp real și notițe AI pentru ședințe?"
-date: 2024-07-30T00:00:00Z
+date: 2024-07-30 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Atunci când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza ședințelor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice? Analiza în timp real a înregistrărilor ședințelor a devenit un instrument necesar pentru ca întreprinderile să îmbunătățească eficiența și calitatea comunicării. Prin analiza în timp real, companiile se pot asigura că fiecare discuție este înregistrată cu precizie, făcând procesul decizional mai eficient și mai precis."
 weight: 1
-tags: ["SeaMeet", "Instrumente AI"]
+tags:
+  - SeaMeet
+  - Instrumente AI
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/zh/blog/how-to-use-ai-meeting-copilot/"
-url: "/zh/blog/how-to-use-ai-meeting-copilot/"
-summary: "Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Atunci când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza ședințelor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice?"
+canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
+url: /zh/blog/how-to-use-ai-meeting-copilot/
 ---
 
 Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Atunci când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza ședințelor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice?

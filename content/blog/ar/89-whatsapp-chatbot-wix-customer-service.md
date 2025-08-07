@@ -1,16 +1,20 @@
 ---
 title: "كيفية نشر روبوت محادثة يعمل بالذكاء الاصطناعي على موقع Wix الخاص بك باستخدام SeaChat"
 metatitle: "كيفية نشر روبوت محادثة يعمل بالذكاء الاصطناعي على موقع Wix الخاص بك باستخدام SeaChat"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: عزز موقع Wix الخاص بك باستخدام SeaChat - ادمج دعم العملاء بسلاسة على كل من صفحة Wix وواتساب. ارفع مستوى التفاعل بسهولة!
+description: "عزز موقع Wix الخاص بك باستخدام SeaChat - ادمج دعم العملاء بسلاسة على كل من صفحة Wix وواتساب. ارفع مستوى التفاعل بسهولة!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "تكاملات"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - تكاملات
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 إن دمج روبوت الدردشة WhatsApp AI من SeaChat في موقع Wix الخاص بك لا يرفع مستوى خدمة العملاء لديك فحسب، بل يضع عملك في طليعة الابتكار التكنولوجي. احتضن مستقبل تفاعل العملاء مع SeaChat.

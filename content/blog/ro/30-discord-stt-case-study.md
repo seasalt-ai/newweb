@@ -1,16 +1,18 @@
 ---
 title: "Speech-to-Text pe Discord: Un studiu de caz al botului STT Discord"
 metatitle: "Speech-to-Text pe Discord: Un studiu de caz al botului STT Discord"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Kim Dodds
-description: În acest blog vom discuta constatările noastre despre modul în care utilizatorii reali Discord utilizează serviciile SeaVoice după revizuirea mai multor săptămâni de date autentice speech-to-text.
+description: "În acest blog vom discuta constatările noastre despre modul în care utilizatorii reali Discord utilizează serviciile SeaVoice după revizuirea mai multor săptămâni de date autentice speech-to-text."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *După lansarea SeaVoice, unul dintre cei mai rapizi și mai precisi roboți text-to-speech și speech-to-text de pe Discord, am vrut să înțelegem cum interacționau de fapt utilizatorii cu serviciile. În acest blog vom discuta constatările noastre după revizuirea mai multor săptămâni de date reale ale utilizatorilor speech-to-text.*

@@ -1,16 +1,20 @@
 ---
 title: "யார் அழைக்கிறார்? தனிப்பயன் Voice AI Agent மூலம் அழைப்பு தரத்தை மேம்படுத்துங்கள்"
 metatitle: "தனிப்பயன் Voice AI Agent மூலம் அழைப்பு தரத்தை மேம்படுத்துங்கள்"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Voice AI Agent மூலம் சந்திப்புகளை திட்டமிடும் எதிர்காலத்தை ஆராயுங்கள், AI மற்றும் இயற்கை மொழி செயலாக்கம் ஒருங்கிணைந்த 24/7 தீர்வு, திறமையான மற்றும் மென்மையான சந்திப்பு முன்பதிவுக்கு.
+description: "Voice AI Agent மூலம் சந்திப்புகளை திட்டமிடும் எதிர்காலத்தை ஆராயுங்கள், AI மற்றும் இயற்கை மொழி செயலாக்கம் ஒருங்கிணைந்த 24/7 தீர்வு, திறமையான மற்றும் மென்மையான சந்திப்பு முன்பதிவுக்கு."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 பெருமளவு வேலை நிரல்களை நிர்வகிக்கும் போது, ஒவ்வொரு தொலைபேசி அழைப்பும் முக்கியமானது. முக்கியமான வணிக ஒப்பந்தங்கள் முதல் குடும்பத்தினருடன் தொடர்பு கொள்ளும் வரை, நம் தினசரி வாழ்க்கை அர்த்தமுள்ள உரையாடல்களைச் சுற்றி சுழல்கிறது. ஆனால் பல அழைப்புகளை கையாள்வது சிரமமாகவும் நேரம் பிடிப்பதாகவும் இருக்கலாம். இங்கு தனிப்பயன் Voice AI Agent உதவுகிறது.

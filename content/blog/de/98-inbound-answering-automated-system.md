@@ -1,17 +1,20 @@
 ---
 title: "Automatisierte Telefonanrufbeantwortungssysteme (IVR vs. Sprach-KI-Agenten): Die beste Wahl für kleine Unternehmen (3/5)"
 metatitle: "Automatisierte Anrufbeantwortungssysteme (IVR vs. Sprach-KI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Entdecken Sie die Optionen für automatisierte Telefonsysteme für kleine Unternehmen: Interaktive Sprachantwort und Sprach-KI-Agenten."
 weight: 1
-tags: ["Automatisierte Anrufbeantwortung", "Anrufe für kleine Unternehmen", "SeaChat", "Sprach-KI"]
-toc: true
+tags:
+  - Automatisierte Anrufbeantwortung
+  - Anrufe für kleine Unternehmen
+  - SeaChat
+  - Sprach-KI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 ---

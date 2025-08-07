@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Perkhidmatan Pemasaran E-mel Mana yang Sesuai untuk Anda pada 2025?"
 metatitle: "Mailchimp vs. MailerLite | Perkhidmatan Pemasaran E-mel 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, Perkhidmatan e-mel mana yang sesuai untuk anda? Perbandingan mendalam kami menghuraikan ciri, harga dan banyak lagi.
+description: "MailerLite vs. Mailchimp, Perkhidmatan e-mel mana yang sesuai untuk anda? Perbandingan mendalam kami menghuraikan ciri, harga dan banyak lagi."
 weight: 1
-tags: ["SeaChat", "E-dagang", "Pemasaran E-mel"]
+tags:
+  - SeaChat
+  - E-dagang
+  - Pemasaran E-mel
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 Pemasaran e-mel kekal sebagai alat yang berkuasa untuk perniagaan dari semua saiz. Sama ada anda meneroka pekerjaan pemasaran e-mel, mencari perisian pemasaran e-mel terbaik, atau mencari petua pemasaran e-mel yang boleh diambil tindakan, anda perlu mengetahui tentang alat terbaik di pasaran. Hari ini, kami akan membandingkan dua alat pemasaran e-mel yang popular, [Mailchimp](https://mailchimp.com/) dan [MailerLite](https://www.mailerlite.com/) untuk pertimbangan anda.

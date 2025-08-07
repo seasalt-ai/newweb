@@ -1,18 +1,17 @@
 ---
 title: "Запустите своего виртуального агента на Google Картах с помощью сообщений Near Me"
 metatitle: "Запустите своего виртуального агента Google Карт с помощью сообщений Near Me"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Запустите своего виртуального агента в Google Business Messages с помощью сообщений Near Me."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
 ---
 
 Ранее мы уже знакомили вас с [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) и его преимуществами. Near Me Messaging реализует виртуального агента Google Business Messages, доступного прямо из кнопки чата в профиле компании на Google Картах. Виртуальный агент Near Me Messaging работает на основе передовой технологии понимания естественного языка, которая обеспечивает человекоподобные ответы. Что отличает Near Me Messaging от аналогичных сервисов, так это 5-минутное время настройки, самообслуживание и встроенная поддержка живого чата.

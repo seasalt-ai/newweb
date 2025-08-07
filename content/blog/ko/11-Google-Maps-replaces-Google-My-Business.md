@@ -1,16 +1,16 @@
 ---
 title: "Google 마이 비즈니스여 안녕, 이제 Google 지도가 비즈니스를 위한 새로운 OS입니다"
 metatitle: "GMB여 안녕, Google 지도가 비즈니스를 위한 새로운 OS입니다"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google은 Google 마이 비즈니스 앱을 Google 지도로 대체하고 있으며, 기업은 Google 지도에서 정보를 관리하고 고객 메시지에 회신할 수 있습니다."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: 2025-07-28T00:00:00Z
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Google 지도를 통해 기업과 소비자를 직접 연결하면 소비자의 쇼핑 경험에 원활한 경험을 제공합니다. 이는 Google이 Google 지도를 "내 주변" 비즈니스에 대한 지역 검색을 위한 새로운 운영 체제로 전환하기 위한 훌륭한 전략적 움직임입니다.*

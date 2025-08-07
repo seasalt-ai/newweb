@@ -1,16 +1,17 @@
 ---
 title: "Придайте своему контакт-центру собственный голос с помощью SeaX Voice Intelligence"
 metatitle: "Пусть ваш контакт-центр говорит с помощью SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "В этом блоге мы покажем, как внутренние движки Seasalt.ai для преобразования текста в речь и речи в текст могут улучшить различные аспекты платформы SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *До сих пор в нашей [серии блогов SeaX](https://seasalt.ai/tags/seax/) мы давали вам широкий обзор флагманского продукта Seasalt.ai: SeaX. Мы также обсудили две ключевые особенности, которые отличают SeaX от традиционного колл-центра: во-первых, SeaX является омниканальным, что означает, что вы можете легче взаимодействовать с клиентами по любому каналу, и, во-вторых, платформа является распределенным контакт-центром, что позволяет беспрепятственно маршрутизировать сообщения и звонки от клиентов по всему миру к вашим распределенным агентам в различных местах.*

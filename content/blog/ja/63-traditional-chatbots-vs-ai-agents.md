@@ -1,16 +1,20 @@
 ---
 title: "ビジネスがチャットボットについて知っておくべきこと：従来のチャットボットからLLMエージェントへの道のり"
 metatitle: "従来のチャットボットからLLMエージェントへの道のり"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "LLMベースのチャットエージェントは、複雑な技術スキルを必要とせず、既存のシステムとシームレスに統合できる、顧客とのやり取りのための簡単で効率的なソリューションを企業に提供します。"
 weight: 1
-tags: ["SeaChat", "音声エージェント", "AIツール", "顧客体験"]
+tags:
+  - SeaChat
+  - 音声エージェント
+  - AIツール
+  - 顧客体験
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 ビジネスオーナーにとって、顧客とのやり取りを合理化することは非常に重要です。LLMベースのチャットエージェントは、広範な技術スキルを必要としない、革新的でユーザーフレンドリーなソリューションを提供します。

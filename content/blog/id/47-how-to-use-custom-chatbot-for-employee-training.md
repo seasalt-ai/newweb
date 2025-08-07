@@ -1,17 +1,19 @@
 ---
 title: "Bagaimana Perusahaan Menggunakan Chatbot AI Kustom untuk Membuat Pelatihan Karyawan Lebih Mudah"
 metatitle: "Bagaimana Perusahaan Menggunakan Chatbot AI Kustom untuk Membuat Pelatihan Karyawan Lebih Mudah | Seri SeaChat untuk Chatbot Generasi Baru"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Jelajahi peran revolusioner chatbot AI kustom dalam meningkatkan efisiensi pelatihan karyawan dan pengalaman belajar yang dipersonalisasi, serta analisis peran kuncinya dalam transmisi budaya perusahaan dan peningkatan efisiensi bisnis.
+description: "Jelajahi peran revolusioner chatbot AI kustom dalam meningkatkan efisiensi pelatihan karyawan dan pengalaman belajar yang dipersonalisasi, serta analisis peran kuncinya dalam transmisi budaya perusahaan dan peningkatan efisiensi bisnis."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/id/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/id/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "Jelajahi peran revolusioner chatbot AI kustom dalam meningkatkan efisiensi pelatihan karyawan dan pengalaman belajar yang dipersonalisasi, serta analisis peran kuncinya dalam transmisi budaya perusahaan dan peningkatan efisiensi bisnis."
-modified_date: 2024-12-19T10:00:00-08:00
+canonicalURL: /id/blog/how-to-use-custom-chatbot-for-employee-training/
+url: /id/blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 Untuk meningkatkan efisiensi dan efektivitas pelatihan karyawan baru, semakin banyak perusahaan yang mulai mengeksplorasi kemungkinan menggunakan chatbot AI kustom. Chatbot canggih ini tidak hanya menyediakan pengalaman belajar yang dipersonalisasi, tetapi juga membantu karyawan berintegrasi lebih cepat ke dalam budaya perusahaan, sehingga meningkatkan efisiensi kerja secara keseluruhan dan kepuasan karyawan.

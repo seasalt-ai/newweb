@@ -1,16 +1,18 @@
 ---
 title: "Excel, Google 스프레드시트, Apple Numbers에서 연락처에 대량 SMS를 올바르게 보내는 방법"
 metatitle: "대량 SMS 발송 | Excel, Google 스프레드시트, Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 'Excel, Google 스프레드시트, Apple Numbers에서 10DLC 규정을 준수하며 안전하게 대량 SMS를 보내는 방법을 안내합니다.'
+description: "Excel, Google 스프레드시트, Apple Numbers에서 10DLC 규정을 준수하며 안전하게 대량 SMS를 보내는 방법을 안내합니다."
 weight: 1
-tags: ["SeaX", "튜토리얼"]
+tags:
+  - SeaX
+  - 튜토리얼
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 연락처 목록에 대량 SMS를 보내는 것은 기업, 이벤트 주최자, 다양한 전문가들이 널리 사용하는 방법입니다. 한 번에 여러 명에게 메시지를 보내면 시간을 절약하고 정보를 효과적으로 전달할 수 있습니다. Excel, Google 스프레드시트, Apple Numbers는 기본적으로 SMS 발송 기능이 없지만, 확장 프로그램이나 서드파티 서비스를 활용하면 가능합니다. 단, 주의해야 할 규정과 리스크가 있습니다.
@@ -61,20 +63,16 @@ a. 서비스에서 요구하는 포맷을 확인하고 통일(예: SeaX Messagin
 b. 찾기 및 바꾸기로 포맷을 통일(예: 마침표를 하이픈으로 변경)
 c. 필요시 수식이나 스크립트 활용
 
-<center>
-<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="대량 SMS 연락처 스프레드시트 전화번호 포맷 통일"/>
-_대량 SMS 연락처 스프레드시트 전화번호 포맷 통일_
-</center>
+<img src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/3-clean-numbers-for-bulk-sms-contact-spreadsheet.png" alt="대량 SMS 연락처 스프레드시트에서 전화번호 형식 표준화"/>
+_대량 SMS 연락처 스프레드시트에서 전화번호 형식 표준화_
 
 ### 4. 데이터 검증
 
 a. 전화번호 자릿수가 올바른지 확인하고, 필터나 정렬로 이상값을 찾기
 b. 이름란이 비어있거나 잘못된 데이터가 없는지 확인
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="대량 SMS 연락처 스프레드시트 데이터 검증"/>
-_대량 SMS 연락처 스프레드시트 데이터 검증_
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/4-validate-format-for-bulk-sms-contact-spreadsheet.jpeg" alt="대량 SMS 연락처 스프레드시트에서 데이터 유효성 검사"/>
+_대량 SMS 연락처 스프레드시트에서 데이터 유효성 검사_
 
 ## 5. 빈 셀 확인
 
@@ -102,9 +100,7 @@ Excel이나 Google 스프레드시트는 기본적으로 SMS 발송 기능이 �
 
 # 성공적인 SMS 마케팅 운영 팁
 
-<center>
-<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="SMS 마케팅 성공 팁"/>
-</center>
+<img height="500" src="/images/blog/35-how-to-send-bulk-sms-spreadsheet/6-successful-camapign-bulk-sms-contact-spreadsheet.jpeg" alt="성공적인 SMS 마케팅"/>
 
 아무리 주의해도 문제가 발생할 수 있습니다. 장기적인 성공을 위해서는:
 - 10DLC 요건을 정기적으로 확인하고 항상 준수

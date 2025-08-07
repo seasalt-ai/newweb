@@ -1,18 +1,20 @@
 ---
 title: "升级您的对话式AI：为什么从Dialogflow迁移到SeaChat会是一个战略优势"
 metatitle: "升级您的对话式AI：为什么从Dialogflow迁移到SeaChat会是一个战略优势"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 在对话式AI领域，Google Dialogflow曾热门，基于大型语言模型(LLMs)的SeaChat，能突破限制，打造更自然流畅的对话体验。
+description: "在对话式AI领域，Google Dialogflow曾热门，基于大型语言模型(LLMs)的SeaChat，能突破限制，打造更自然流畅的对话体验。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/77-SeaChat-vs-Google-DialogFlow/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-google-dialogflow/"
-url: "/zh/blog/seachat-vs-google-dialogflow/"
-summary: '对话式AI领域正在经历一波创新高潮。虽然Google的[Dialogflow](https://cloud.google.com/dialogflow)一直是构建互动语音和文本界面的基石，一股新的技术浪潮正在引起关注：大型语言模型(LLMs)。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)，一个基于LLM技术构建的平台，提出了一种突破性的对话式AI方法，超越了像Dialogflow这样的基于规则的引擎。对于希望提高其聊天机器人效能和用户体验的企业来说，迁移到SeaChat可能是一个战略优势。'
+canonicalURL: /zh/blog/seachat-vs-google-dialogflow/
+url: /zh/blog/seachat-vs-google-dialogflow/
 ---
 
 对话式AI领域正在经历一波创新高潮。虽然Google的[Dialogflow](https://cloud.google.com/dialogflow)一直是构建互动语音和文本界面的基石，一股新的技术浪潮正在引起关注：大型语言模型(LLMs)。[SeaChat](https://chat.seasalt.ai/?utm_source=blog)，一个基于LLM技术构建的平台，提出了一种突破性的对话式AI方法，超越了像Dialogflow这样的基于规则的引擎。对于希望提高其聊天机器人效能和用户体验的企业来说，迁移到SeaChat可能是一个战略优势。

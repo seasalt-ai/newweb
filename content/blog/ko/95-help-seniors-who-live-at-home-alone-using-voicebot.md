@@ -1,17 +1,17 @@
 ---
 title: "Voicebot을 통해 독거노인을 돕는 방법 - SeaX의 스마트 솔루션"
 metatitle: "AI Voicebot으로 독거노인의 삶의 질 향상 - SeaX 스마트 케어 솔루션"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "SeaX의 AI 스마트 케어 콜을 활용하여 대만 초고령 사회의 독거노인에게 정기적인 보살핌, 건강 모니터링 및 긴급 지원을 제공하고, 노인의 삶의 질과 안전감을 효과적으로 향상시키는 방법을 탐구합니다."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: '대만은 점차 초고령 사회로 진입하고 있으며, 독거노인의 수가 계속 증가하고 있습니다. 국가발전위원회의 데이터에 따르면, 2024년에는 대만의 노인 인구 비율이 20%에 육박하고, 2025년에는 공식적으로 초고령 사회에 진입할 것으로 예상됩니다. 이러한 사회 구조의 변화는 독거노인의 신체적, 정신적 건강 문제를 주목하게 합니다. 특히, 많은 노인들은 종종 외로움을 느끼고, 집에서 혼자 사망할 가능성을 걱정합니다. 이러한 심리적 압박은 그들의 삶의 질에 영향을 미칠 뿐만 아니라, 그들의 신체 건강에도 위협이 됩니다.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 대만은 점차 초고령 사회로 진입하고 있으며, 독거노인의 수가 계속 증가하고 있습니다. 국가발전위원회의 데이터에 따르면, 2024년에는 대만의 노인 인구 비율이 20%에 육박하고, 2025년에는 공식적으로 초고령 사회에 진입할 것으로 예상됩니다. 이러한 사회 구조의 변화는 독거노인의 신체적, 정신적 건강 문제를 주목하게 합니다. 특히, 많은 노인들은 종종 외로움을 느끼고, 집에서 혼자 사망할 가능성을 걱정합니다. 이러한 심리적 압박은 그들의 삶의 질에 영향을 미칠 뿐만 아니라, 그들의 신체 건강에도 위협이 됩니다.

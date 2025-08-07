@@ -1,18 +1,17 @@
 ---
 title: "نبرد دستیاران هوش مصنوعی جلسات: مایکروسافت تیمز در مقابل گوگل میت"
 metatitle: "نبرد دستیاران هوش مصنوعی جلسات: مایکروسافت تیمز در مقابل گوگل میت"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "دستیاران هوش مصنوعی جلسات مایکروسافت تیمز و گوگل میت را کشف کنید، پشتیبانی زبانی پلتفرم‌ها را مقایسه کنید و ببینید چگونه SeaMeet رونویسی بلادرنگ، خلاصه‌ها و سایر ویژگی‌ها را ارائه می‌دهد."
 weight: 1
-tags: ["SeaMeet", "ابزارهای هوش مصنوعی"]
+tags:
+  - SeaMeet
+  - ابزارهای هوش مصنوعی
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "دستیاران هوش مصنوعی جلسات مایکروسافت تیمز و گوگل میت را کشف کنید، پشتیبانی زبانی پلتفرم‌ها را مقایسه کنید و ببینید چگونه SeaMeet رونویسی بلادرنگ، خلاصه‌ها و سایر ویژگی‌ها را ارائه می‌دهد."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 با پیشرفت فناوری، دستیاران هوش مصنوعی جلسات به ابزارهای حیاتی برای بهبود کارایی جلسات تبدیل شده‌اند. این ابزارها می‌توانند به طور خودکار خلاصه جلسات را تولید کنند، گفتار را به متن تبدیل کنند و حتی اطلاعات مهم را در طول جلسات شناسایی کنند. این مقاله به بررسی سه دستیار هوش مصنوعی اصلی جلسات می‌پردازد: Copilot مایکروسافت تیمز، Duet AI گوگل میت و SeaMeet.

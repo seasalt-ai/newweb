@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: أي خدمة تسويق عبر البريد الإلكتروني مناسبة لك في عام 2025؟"
 metatitle: "ActiveCampaign vs. MailerLite | خدمة التسويق عبر البريد الإلكتروني 2025؟"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign، أي خدمة بريد إلكتروني مناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد.
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign، أي خدمة بريد إلكتروني مناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 هل أنت مهتم بالتسويق عبر البريد الإلكتروني؟ من العثور على أفضل برامج التسويق عبر البريد الإلكتروني إلى صياغة استراتيجية تسويق عبر البريد الإلكتروني ناجحة، توفر هذه الأداة متعددة الاستخدامات إمكانيات لا حصر لها. اكتشف كيفية استهداف العملاء، والحصول على وظائف التسويق عبر البريد الإلكتروني، والاستفادة من أتمتة التسويق عبر البريد الإلكتروني لدفع نتائج الأعمال. قبل أن ندخل في كل هذه التفاصيل المثيرة، دعنا نساعدك في اختيار أداة التسويق عبر البريد الإلكتروني المناسبة أولاً. اليوم، سنقارن أداتين شائعتين، [ActiveCampaign](https://www.activecampaign.com/) و [MailerLite](https://www.mailerlite.com/) لاعتباراتك.

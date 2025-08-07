@@ -1,18 +1,18 @@
 ---
 title: "用 Excel、Google 試算表、Apple Numbers 正確批量發送簡訊的方法"
 metatitle: "批量簡訊發送 | Excel、Google 試算表、Apple Numbers"
-date: 2023-10-01T10:25:00-08:00
-modified_date: 2024-07-01T00:00:00Z
+date: 2023-10-01 10:25:00-08:00
+modified_date: 2024-07-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: '學習如何透過 Excel、Google 試算表和 Apple Numbers 安全合規地批量發送簡訊，符合 10DLC 規範。'
+description: "學習如何透過 Excel、Google 試算表和 Apple Numbers 安全合規地批量發送簡訊，符合 10DLC 規範。"
 weight: 1
 tags:
   - SeaX
   - 教學
 image: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
-canonicalURL: "/blog/how-to-send-bulk-sms-spreadsheet/"
-url: "/blog/how-to-send-bulk-sms-spreadsheet/"
+canonicalURL: /blog/how-to-send-bulk-sms-spreadsheet/
+url: /blog/how-to-send-bulk-sms-spreadsheet/
 ---
 
 批量向聯絡人發送簡訊是企業、活動主辦方及各類專業人士常用的高效溝通方式。一次性群發訊息可節省時間並確保資訊即時傳遞。雖然 Excel、Google 試算表和 Apple Numbers 本身不支援簡訊發送，但透過擴充功能和第三方服務可實現。不過，務必注意相關合規要求與潛在風險。

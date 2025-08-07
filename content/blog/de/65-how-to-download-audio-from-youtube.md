@@ -1,16 +1,18 @@
 ---
 title: "So laden Sie Audiodaten von YouTube herunter, einzelne und viele Videos | Audio Toolbox Series"
 metatitle: "Audiodaten von YouTube herunterladen | Audio Toolbox Series"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: Erfahren Sie, wie Sie Audiodaten von einzelnen oder vielen YouTube-Videos legal und effizient mit kostenlosen Tools herunterladen können. Entdecken Sie Tools und Techniken, um Musik, Podcasts, Soundeffekte und mehr für Ihre kreativen Projekte zu extrahieren.
+description: "Erfahren Sie, wie Sie Audiodaten von einzelnen oder vielen YouTube-Videos legal und effizient mit kostenlosen Tools herunterladen können. Entdecken Sie Tools und Techniken, um Musik, Podcasts, Soundeffekte und mehr für Ihre kreativen Projekte zu extrahieren."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Heute tauchen wir in ein Thema ein, das viele anspricht: wie man Audiodaten von YouTube herunterlädt, und zwar KOSTENLOS.

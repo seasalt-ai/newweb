@@ -1,16 +1,19 @@
 ---
 title: "كيفية إضافة روبوت محادثة يعمل بالذكاء الاصطناعي إلى موقع Squarespace الخاص بك باستخدام SeaChat"
 metatitle: "SeaChat AI | وكلاء الذكاء الاصطناعي على موقع Squarespace الخاص بك"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: عزز تفاعل العملاء على Squarespace باستخدام الذكاء الاصطناعي من SeaChat - خصص، درب، راقب، وحدّث روبوت الدردشة الخاص بك لدعم الزوار بشكل استباقي.
+description: "عزز تفاعل العملاء على Squarespace باستخدام الذكاء الاصطناعي من SeaChat - خصص، درب، راقب، وحدّث روبوت الدردشة الخاص بك لدعم الزوار بشكل استباقي."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "تكاملات"]
+tags:
+  - SeaChat
+  - WhatsApp
+  - تكاملات
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 في المشهد الرقمي سريع التطور اليوم، تعد خدمة العملاء الفعالة وتفاعل المستخدم أمرًا بالغ الأهمية للشركات. يتوقع العملاء تفاعلات في الوقت الفعلي، واستجابات سريعة، ودعمًا شخصيًا. يمكن أن يؤدي دمج حلول الدردشة في موقع الويب الخاص بك إلى تعزيز هذه الجوانب بشكل كبير. في هذه المدونة، سنستكشف كيفية إضافة روبوت محادثة يعمل بالذكاء الاصطناعي إلى موقع Squarespace الخاص بك وإحداث ثورة في تواصلك مع العملاء.

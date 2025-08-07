@@ -1,16 +1,19 @@
 ---
 title: "Constant Contact vs. MailerLite: Perkhidmatan Pemasaran E-mel Mana yang Sesuai untuk Anda pada 2025?"
 metatitle: "Constant Contact vs. MailerLite | Pemasaran E-mel pada 2025"
-date: 2024-04-06T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-04-06 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Constant Contact, Perkhidmatan e-mel mana yang sesuai untuk anda? Perbandingan mendalam kami memecahkan ciri-ciri, harga, dan banyak lagi.
+description: "MailerLite vs. Constant Contact, Perkhidmatan e-mel mana yang sesuai untuk anda? Perbandingan mendalam kami memecahkan ciri-ciri, harga, dan banyak lagi."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/constant-contact-vs-mailerlite-2025/"
-url: "/blog/constant-contact-vs-mailerlite-2025/"
+canonicalURL: /blog/constant-contact-vs-mailerlite-2025/
+url: /blog/constant-contact-vs-mailerlite-2025/
 ---
 
 Untuk cemerlang dalam pemasaran e-mel, anda memerlukan alat yang betul yang dapat menjimatkan masa dan usaha anda tanpa menguras dompet anda. Platform pemasaran e-mel popular dan pilihan perisian pemasaran e-mel berlimpah, termasuk pemimpin industri seperti HubSpot, Constant Contact, MailerLite, Mailchimp, dan lain-lain. Setiap satu menawarkan gabungan unik ciri-ciri, harga, dan keupayaan automasi. Hari ini, kami akan membandingkan dua alat popular, [Constant Contact](https://www.constantcontact.com/) dan [MailerLite](https://www.mailerlite.com/) untuk pertimbangan anda.

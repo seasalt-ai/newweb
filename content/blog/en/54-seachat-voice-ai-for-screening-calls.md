@@ -1,15 +1,19 @@
 ---
 title: "Who's Calling? Enhance Call Quality with a Personalized Voice AI Agent"
 metatitle: "Enhance Call Quality with a Personalized Voice AI Agent"
-date: 2023-12-16T10:25:00-08:00
+date: 2023-12-16 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore the future of appointment scheduling with Voice AI Agent, a 24/7 solution integrating AI and natural language processing for efficient, smooth appointment booking.
+description: "Explore the future of appointment scheduling with Voice AI Agent, a 24/7 solution integrating AI and natural language processing for efficient, smooth appointment booking."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 When it comes to managing a busy schedule, every phone call matters. From important business deals to connecting with loved ones, our daily lives revolve around meaningful conversations. However, juggling numerous incoming calls can be overwhelming and time-consuming. That's where a personalized voice AI agent comes into play.

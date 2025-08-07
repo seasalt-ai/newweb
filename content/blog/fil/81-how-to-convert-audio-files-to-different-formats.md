@@ -1,15 +1,17 @@
 ---
 title: "Ang Iyong Komprehensibong Gabay sa Pag-convert ng Audio: Madaling I-convert ang mga Sound File | Serye ng Audio Toolbox"
 metatitle: "Pag-convert ng Audio/Sound File | Serye ng Audio Toolbox"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: Alamin ang tungkol sa mga audio file converter, pag-convert ng sound format, at ang pinakamahusay na libreng audio converter software. Madaling i-convert ang mga audio file gamit ang aming step-by-step na gabay.
+description: "Alamin ang tungkol sa mga audio file converter, pag-convert ng sound format, at ang pinakamahusay na libreng audio converter software. Madaling i-convert ang mga audio file gamit ang aming step-by-step na gabay."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Panimula sa Pag-convert ng Audio

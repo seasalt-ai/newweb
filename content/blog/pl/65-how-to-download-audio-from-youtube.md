@@ -1,16 +1,18 @@
 ---
 title: "Jak pobrać dane audio z YouTube, pojedyncze i wiele filmów | Seria Narzędzi Audio"
 metatitle: "Pobierz dane audio z YouTube | Seria Narzędzi Audio"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: Dowiedz się, jak legalnie i efektywnie pobierać audio z pojedynczych lub wielu filmów z YouTube za pomocą darmowych narzędzi. Poznaj narzędzia i techniki do ekstrakcji muzyki, podcastów, efektów dźwiękowych i innych dla swoich projektów kreatywnych.
+description: "Dowiedz się, jak legalnie i efektywnie pobierać audio z pojedynczych lub wielu filmów z YouTube za pomocą darmowych narzędzi. Poznaj narzędzia i techniki do ekstrakcji muzyki, podcastów, efektów dźwiękowych i innych dla swoich projektów kreatywnych."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Dziś zagłębimy się w temat, który rezonuje z wieloma: jak pobrać dane audio z YouTube, ZA DARMO.

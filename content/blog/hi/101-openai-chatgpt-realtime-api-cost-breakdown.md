@@ -1,18 +1,20 @@
 ---
 title: "OpenAI बनाम मानव बनाम वॉयस AI: एक लागत तुलना (5/5)"
 metatitle: "OpenAI रियलटाइम API बनाम मानव और वॉयस AI: लागत का विवरण"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "मानव रिसेप्शनिस्टों और वॉयस AI एजेंटों की तुलना में OpenAI के रियलटाइम API का विस्तृत लागत विश्लेषण।"
 weight: 1
-tags: ["ऑटो आंसरिंग सर्विस", "छोटे व्यवसायों के लिए इनबाउंड कॉल", "SeaChat", "वॉयस AI"]
-toc: true
+tags:
+  - ऑटो आंसरिंग सर्विस
+  - छोटे व्यवसायों के लिए इनबाउंड कॉल
+  - SeaChat
+  - वॉयस AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

@@ -1,16 +1,17 @@
 ---
 title: "Propriétaires d'entreprise : Ne manquez pas les messages des clients sur Google Maps !"
 metatitle: "Ne manquez pas les messages des clients sur Google Maps !"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Ruli Setiawati
 description: "Dans cet article, nous vous guiderons à travers le profil d'entreprise Google, sa fonction de chat et un moyen d'éviter de manquer les messages des clients."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *Dans cet article, nous vous guiderons à travers le profil d'entreprise Google, sa fonction de chat et un moyen d'éviter de manquer les messages des clients.*

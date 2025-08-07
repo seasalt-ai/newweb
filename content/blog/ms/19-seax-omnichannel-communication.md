@@ -1,16 +1,17 @@
 ---
 title: "Bawa Pelanggan dari Mana-mana Saluran ke Satu Tempat dengan Komunikasi Omnichannel SeaX"
 metatitle: "Satukan Titik Sentuh Pelanggan dengan Komunikasi Omnichannel SeaX"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "Dalam blog ini, kami mengetengahkan salah satu komunikasi omnichannel SeaX, yang membolehkan mesej pengguna dari mana-mana saluran muncul di platform SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *Dalam catatan blog kami sebelum ini, [Selamat Datang ke SeaX, Pusat Hubungan Awan Kolaboratif](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), kami memperkenalkan SeaX, penyelesaian pusat hubungan komunikasi awan kolaboratif kami. Walaupun catatan blog pertama kami memberikan gambaran keseluruhan yang komprehensif tentang ciri-ciri asas dan lebih maju SeaX, catatan kami yang berikutnya akan menyelami lebih mendalam beberapa ciri individu yang menjadikan SeaX menonjol. Dalam catatan ini, kita akan melihat dengan lebih dekat sokongan omnichannel SeaX dan melihat bagaimana panggilan dan mesej dari saluran yang berbeza muncul di platform SeaX.*

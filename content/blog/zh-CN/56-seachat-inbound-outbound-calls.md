@@ -1,16 +1,20 @@
 ---
 title: "呼入和呼出电话，AI电话座席都能为您效劳"
 metatitle: "AI电话座席 | 适用于呼入和呼出电话"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "发掘AI电话座席在客户服务和销售领域的颠覆性潜力，转变呼入和呼出电话，提升效率和收入增长。"
 weight: 1
-tags: ["SeaChat", "语音座席", "AI工具", "客户体验"]
+tags:
+  - SeaChat
+  - 语音座席
+  - AI工具
+  - 客户体验
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 在不断发展的客户服务和销售领域，AI电话座席已成为企业的新型高效工具。这些智能座席旨在处理呼入和呼出电话，彻底改变客户互动并推动收入增长。本文深入探讨了AI电话座席在呼入和呼出电话中的各种用例，突出了其多功能性和改变商业通信的潜力。

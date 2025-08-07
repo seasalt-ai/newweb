@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Text-to-Speech sa Discord: Isang Case Study ng TTS Discord Bot"
+metatitle: "Text-to-Speech sa Discord: Isang Case Study ng TTS Discord B..."
 date: 2022-12-27 17:04:20-08:00
-description: Sa blog na ito, tatalakayin namin ang aming mga natuklasan kung paano
-  ginagamit ng mga tunay na gumagamit ng Discord ang aming mga serbisyo pagkatapos
-  suriin ang ilang buwan ng tunay na data ng text-to-speech.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Text-to-Speech sa Discord: Isang Case Study ng TTS Discord B...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Text-to-Speech sa Discord: Isang Case Study ng TTS Discord Bot'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "Sa blog na ito, tatalakayin namin ang aming mga natuklasan kung paano ginagamit ng mga tunay na gumagamit ng Discord ang aming mga serbisyo pagkatapos suriin ang ilang buwan ng tunay na data ng text-to-speech."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

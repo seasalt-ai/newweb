@@ -1,16 +1,20 @@
 ---
 title: "Iwanan ang Script, Yakapin ang Pag-uusap: Bakit Makatuwiran ang Pag-upgrade mula sa Amazon Lex patungo sa SeaChat"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2025-07-29T17:35:15Z
 draft: false
 author: Xuchen Yao
 description: "Bakit luma na ang Amazon Lex? Tuklasin ang SeaChat - Maglayag palayo sa paulit-ulit na mga dalampasigan ng chatbot na may advanced na teknolohiya ng LLM, na nagtataguyod ng mga nakakaengganyo, parang tao na pag-uusap."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 Ang mundo ng mga chatbot ay mabilis na umuunlad. Habang ang [Amazon Lex](https://aws.amazon.com/lex/) ay naging isang tanyag na pagpipilian para sa pagbuo ng mga interface ng boses at teksto, isang bagong alon ng teknolohiya ang nangunguna: Malalaking Modelo ng Wika (LLM). Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang platform na pinapagana ng mga LLM, ay nag-aalok ng isang groundbreaking na diskarte sa Conversational AI, na iniiwan ang mga rule-based na engine tulad ng Lex. Oras na ba para isaalang-alang ang isang pag-upgrade para sa iyong chatbot?

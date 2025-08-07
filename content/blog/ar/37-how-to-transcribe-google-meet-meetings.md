@@ -1,16 +1,17 @@
 ---
 title: "كيفية نسخ اجتماعات Google Meet في الوقت الفعلي؟"
 metatitle: "كيفية نسخ اجتماعات Google Meet في الوقت الفعلي؟"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "استكشاف طرق النسخ الفوري لاجتماعات Google Meet، من الميزات المدمجة إلى أدوات Seasalt.ai مثل SeaMeet، مع التركيز على الدقة وحفظ البيانات والمشاركة والسرية. اختيار الأدوات المثلى لضمان الكفاءة والأمان."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "استكشاف طرق النسخ الفوري لاجتماعات Google Meet، من الميزات المدمجة إلى أدوات Seasalt.ai مثل SeaMeet، مع التركيز على الدقة وحفظ البيانات والمشاركة والسرية. اختيار الأدوات المثلى لضمان الكفاءة والأمان."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **محتويات المقال**

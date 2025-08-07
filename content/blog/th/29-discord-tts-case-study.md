@@ -1,18 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Text-to-Speech บน Discord: กรณีศึกษาบอท TTS Discord"
+metatitle: "Text-to-Speech บน Discord: กรณีศึกษาบอท TTS Discord"
 date: 2022-12-27 17:04:20-08:00
-description: ในบล็อกนี้ เราจะมาพูดถึงสิ่งที่เราค้นพบว่าผู้ใช้ Discord ตัวจริงใช้บริการของเราอย่างไร
-  หลังจากตรวจสอบข้อมูล text-to-speech ที่แท้จริงเป็นเวลาหลายเดือน
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Text-to-Speech บน Discord: กรณีศึกษาบอท TTS Discord'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Text-to-Speech บน Discord: กรณีศึกษาบอท TTS Discord'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "ในบล็อกนี้ เราจะมาพูดถึงสิ่งที่เราค้นพบว่าผู้ใช้ Discord ตัวจริงใช้บริการของเราอย่างไร หลังจากตรวจสอบข้อมูล text-to-speech ที่แท้จริงเป็นเวลาหลายเดือน"
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

@@ -1,17 +1,19 @@
 ---
 title: "ChatGPT Chatbot Tersuai: Sokong LINE dan Chatbot Laman Web Serentak"
 metatitle: "ChatGPT Chatbot Tersuai: LINE & Web | Siri Chatbot Generasi Baru dengan SeaChat"
-date: 2023-10-26T10:25:00-08:00
+date: 2023-10-26 10:25:00-08:00
+modified_date: 2024-07-19T00:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Bagaimana chatbot ChatGPT tersuai merevolusikan perkhidmatan pelanggan tradisional, membawa pengalaman yang lebih manusiawi dan efisien. Dengan analisis mendalam dan contoh, kami tunjukkan bagaimana teknologi ini meningkatkan kepuasan pelanggan dan daya saing perniagaan."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "Bagaimana chatbot ChatGPT tersuai merevolusikan perkhidmatan pelanggan tradisional, membawa pengalaman yang lebih manusiawi dan efisien. Dengan analisis mendalam dan contoh, kami tunjukkan bagaimana teknologi ini meningkatkan kepuasan pelanggan dan daya saing perniagaan."
-modified_date: "2024-07-19T00:00:00Z"
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 Dalam era digital yang pantas hari ini, chatbot telah menjadi alat penting untuk perniagaan dan organisasi. Chatbot pintar ini mampu meniru perbualan semula jadi dan memberikan sokongan serta jawapan segera kepada pengguna. Sama ada dalam perkhidmatan pelanggan, jualan, atau bidang lain, chatbot telah membuktikan nilainya.

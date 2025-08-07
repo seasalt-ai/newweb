@@ -1,16 +1,20 @@
 ---
 title: "Prevenirea abuzului și gestionarea costurilor pentru agenții AI"
 metatitle: "Prevenirea abuzului și gestionarea costurilor pentru agenții AI"
-date: 2023-12-21T10:25:00-08:00
+date: 2023-12-21 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explorați cum SeaChat, un constructor fără cod de agenți AI, abordează preocupările clienților privind prevenirea abuzului și a întrebărilor irelevante, asigurându-vă în același timp că vă încadrați în buget. Aflați cum sistemul lor inovator de monitorizare a chatului și alertele de limită de cost vă pot ajuta să vă gestionați eficient agentul AI.
+description: "Explorați cum SeaChat, un constructor fără cod de agenți AI, abordează preocupările clienților privind prevenirea abuzului și a întrebărilor irelevante, asigurându-vă în același timp că vă încadrați în buget. Aflați cum sistemul lor inovator de monitorizare a chatului și alertele de limită de cost vă pot ajuta să vă gestionați eficient agentul AI."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
-canonicalURL: "/blog/seachat-cost-capping/"
-url: "/blog/seachat-cost-capping/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-cost-capping/
+url: /blog/seachat-cost-capping/
 ---
 
 În lumea rapidă a inteligenței artificiale, a avea un agent AI care să gestioneze interacțiunile de chat poate schimba jocul atât pentru afaceri, cât și pentru persoane fizice. Cu [SeaChat](https://chat.seasalt.ai/?utm_source=blog), un constructor puternic fără cod de agenți AI, vă puteți bucura de beneficiile conversațiilor automate. Cu toate acestea, o preocupare care apare adesea printre clienții SeaChat este cum să prevină abuzul sau să gestioneze întrebările irelevante fără a depăși bugetul. Din fericire, SeaChat a implementat măsuri proactive pentru a aborda eficient aceste preocupări. În acest articol, vom explora cum sistemul de monitorizare a chatului SeaChat și alertele de limită de cost vă pot ajuta să mențineți controlul asupra interacțiunilor agentului dvs. AI, rămânând în același timp în bugetul planificat.

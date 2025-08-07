@@ -1,19 +1,18 @@
 ---
 title: "Cara Mengelola Beberapa Rapat Paralel Secara Efektif dengan SeaMeet"
 metatitle: "Cara Mengelola Beberapa Rapat Paralel Secara Efektif dengan SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Dengan munculnya model bahasa besar seperti ChatGPT, AI generatif telah membuka domain eksplorasi baru. Ketika AI digabungkan dengan pengenalan suara, ini memberikan kemungkinan yang belum pernah ada sebelumnya untuk analisis rapat waktu nyata. Tapi apa artinya ini untuk operasi bisnis sehari-hari? Analisis waktu nyata dari rekaman rapat telah menjadi alat penting bagi perusahaan untuk meningkatkan efisiensi dan kualitas komunikasi. Melalui analisis waktu nyata, perusahaan dapat memastikan bahwa setiap diskusi didokumentasikan dengan akurat, membuat proses pengambilan keputusan lebih efisien dan tepat.
+description: "Dengan munculnya model bahasa besar seperti ChatGPT, AI generatif telah membuka domain eksplorasi baru. Ketika AI digabungkan dengan pengenalan suara, ini memberikan kemungkinan yang belum pernah ada sebelumnya untuk analisis rapat waktu nyata. Tapi apa artinya ini untuk operasi bisnis sehari-hari? Analisis waktu nyata dari rekaman rapat telah menjadi alat penting bagi perusahaan untuk meningkatkan efisiensi dan kualitas komunikasi. Melalui analisis waktu nyata, perusahaan dapat memastikan bahwa setiap diskusi didokumentasikan dengan akurat, membuat proses pengambilan keputusan lebih efisien dan tepat."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "Dalam lingkungan kerja modern yang serba cepat, adalah hal yang umum bagi beberapa rapat untuk berlangsung bersamaan. Ini menimbulkan tantangan besar bagi eksekutif dan manajer yang sibuk. Jika memungkinkan, mereka semua ingin berpartisipasi dalam setiap rapat, tetapi karena keterbatasan waktu dan fisik, ini sering kali tidak mungkin."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Tantangan Beberapa Rapat Bersamaan

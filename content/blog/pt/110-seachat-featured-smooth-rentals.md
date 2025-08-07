@@ -1,17 +1,22 @@
 ---
 title: "SeaChat em Destaque: A Melhor Ferramenta de Automação de Aluguel por Temporada da Smooth Rentals"
 metatitle: "SeaChat da Seasalt.ai | Automação de Aluguel por Temporada | Recurso Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "O SeaChat da Seasalt.ai é reconhecido como uma ferramenta de automação líder para aluguéis por temporada na última postagem do blog da Smooth Rentals. Descubra como o SeaChat otimiza a comunicação com os hóspedes e aumenta a eficiência."
 weight: 1
-tags: ["SeaChat", "Aluguel por Temporada", "Automação", "Comunicação com Hóspedes", "Smooth Rentals", "Chatbot de IA"]
-toc: true
+tags:
+  - SeaChat
+  - Aluguel por Temporada
+  - Automação
+  - Comunicação com Hóspedes
+  - Smooth Rentals
+  - Chatbot de IA
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat em Destaque no Guia da Smooth Rentals para Ferramentas de Automação de Aluguel por Temporada

@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. மனிதன் vs. குரல் AI: ஒரு செலவு ஒப்பீடு (5/5)"
 metatitle: "OpenAI Realtime API vs. மனிதன் மற்றும் குரல் AI: செலவு விவரம்"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "மனித வரவேற்பாளர்கள் மற்றும் குரல் AI முகவர்களுடன் ஒப்பிடும்போது OpenAI-இன் Realtime API-இன் விரிவான செலவு பகுப்பாய்வு."
 weight: 1
-tags: ["தானியங்கி பதிலளிப்பு சேவை", "சிறு வணிகங்களுக்கான உள்வரும் அழைப்பு", "SeaChat", "குரல் AI"]
-toc: true
+tags:
+  - தானியங்கி பதிலளிப்பு சேவை
+  - சிறு வணிகங்களுக்கான உள்வரும் அழைப்பு
+  - SeaChat
+  - குரல் AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

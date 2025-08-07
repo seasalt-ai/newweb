@@ -1,17 +1,19 @@
 ---
 title: "Ditch Scripts, Embrace Natural Conversation: Why Upgrading from Amazon Lex to SeaChat Makes Perfect Sense"
 metatitle: "Ditch Scripts, Embrace Natural Conversation: Why Upgrading from Amazon Lex to SeaChat Makes Perfect Sense"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: In the conversational AI space, Amazon Lex was popular, but SeaChat powered by Large Language Models (LLMs) breaks through limitations and creates more natural, fluid conversational experiences.
+description: "In the conversational AI space, Amazon Lex was popular, but SeaChat powered by Large Language Models (LLMs) breaks through limitations and creates more natural, fluid conversational experiences."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'The world of chatbots is evolving rapidly. While [Amazon Lex](https://aws.amazon.com/lex/) has been a popular choice for building voice and text interfaces, a new wave of technology is taking center stage: Large Language Models (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform powered by LLMs, offers a groundbreaking approach to conversational AI, leaving rule-based engines like Lex far behind. Is it time to consider upgrading your chatbot?'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 The world of chatbots is evolving rapidly. While [Amazon Lex](https://aws.amazon.com/lex/) has been a popular choice for building voice and text interfaces, a new wave of technology is taking center stage: Large Language Models (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform powered by LLMs, offers a groundbreaking approach to conversational AI, leaving rule-based engines like Lex far behind. Is it time to consider upgrading your chatbot?

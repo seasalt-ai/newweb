@@ -1,17 +1,18 @@
 ---
 title: "Làm thế nào để sử dụng bản ghi thời gian thực và ghi chú cuộc họp AI để nâng cao hiệu quả cuộc họp nhóm?"
 metatitle: "Làm thế nào để sử dụng bản ghi thời gian thực và ghi chú cuộc họp AI để nâng cao hiệu quả cuộc họp nhóm?"
-date: 2023-10-02T10:25:00-08:00
-modified_date: 2025-07-30T17:30:00-08:00
+date: 2023-10-02 10:25:00-08:00
+modified_date: 2025-07-30 17:30:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Với sự ra đời của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra những lĩnh vực khám phá mới. Khi AI được kết hợp với nhận dạng giọng nói, nó mang lại những khả năng chưa từng có để phân tích cuộc họp theo thời gian thực. Nhưng điều này có ý nghĩa gì đối với các hoạt động kinh doanh hàng ngày? Phân tích thời gian thực các bản ghi cuộc họp đã trở thành một công cụ thiết yếu để các công ty cải thiện hiệu quả và chất lượng giao tiếp. Thông qua phân tích thời gian thực, các công ty có thể đảm bảo rằng mọi cuộc thảo luận đều được ghi lại chính xác, giúp quá trình ra quyết định hiệu quả và chính xác hơn."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/zh/blog/how-to-use-ai-meeting-copilot/"
-url: "/zh/blog/how-to-use-ai-meeting-copilot/"
-summary: "Với sự ra đời của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra những lĩnh vực khám phá mới. Khi AI được kết hợp với nhận dạng giọng nói, nó mang lại những khả năng chưa từng có để phân tích cuộc họp theo thời gian thực. Nhưng điều này có ý nghĩa gì đối với các hoạt động kinh doanh hàng ngày?"
+canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
+url: /zh/blog/how-to-use-ai-meeting-copilot/
 ---
 
 Với sự ra đời của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra những lĩnh vực khám phá mới. Khi AI được kết hợp với nhận dạng giọng nói, nó mang lại những khả năng chưa từng có để phân tích cuộc họp theo thời gian thực. Nhưng điều này có ý nghĩa gì đối với các hoạt động kinh doanh hàng ngày?

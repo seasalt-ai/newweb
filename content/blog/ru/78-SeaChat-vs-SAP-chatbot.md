@@ -1,16 +1,20 @@
 ---
 title: "Прокладывая новый курс: Почему SeaChat превосходит SAP Conversational AI для создания привлекательных чат-ботов"
 metatitle: "SeaChat против SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Почему SAP Conversational AI устарел? Откройте для себя SeaChat - Откажитесь от повторяющихся чат-ботов с помощью передовой технологии LLM, способствующей увлекательным, человекоподобным беседам.
+description: "Почему SAP Conversational AI устарел? Откройте для себя SeaChat - Откажитесь от повторяющихся чат-ботов с помощью передовой технологии LLM, способствующей увлекательным, человекоподобным беседам."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 В сфере разговорного ИИ дуют ветры перемен. В то время как [SAP Conversational AI](https://cai.tools.sap/) был популярным выбором для создания корпоративных чат-ботов, новая волна технологий занимает центральное место: большие языковые модели (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), платформа, построенная на технологии LLM, предлагает новаторский подход, оставляя позади ограничения правил-ориентированных движков, таких как SAP Conversational AI. Готовы отправиться в плавание за более увлекательным опытом работы с чат-ботами?

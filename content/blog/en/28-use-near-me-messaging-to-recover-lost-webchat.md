@@ -1,15 +1,16 @@
 ---
 title: "User has left webchat: use Near Me Messaging to push a message to them!"
 metatitle: "User has left webchat: get in touch with Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging solves one problem of webchat: get back in touch with your user even *after* they’ve left the conversation."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
-weight: 1  # weight - used for ordering your content in lists. Lower weight gets higher precedence. So content with lower weight will come first.
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 On the Christmas morning of 2022, I woke up to a few messages left from a user named Henry. By the time I got to the messages, Henry had already left. All I got was the messages he sent through webchat, and his name.

@@ -1,16 +1,18 @@
 ---
 title: "نحوه دانلود داده‌های صوتی از یوتیوب، یک یا چند ویدئو | سری جعبه ابزار صوتی"
 metatitle: "دانلود داده‌های صوتی از یوتیوب | سری جعبه ابزار صوتی"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: نحوه دانلود قانونی و کارآمد صدا از ویدئوهای یوتیوب به صورت تکی یا چندتایی را با استفاده از ابزارهای رایگان بیاموزید. ابزارها و تکنیک‌ها را برای استخراج موسیقی، پادکست، جلوه‌های صوتی و موارد دیگر برای پروژه‌های خلاقانه خود کاوش کنید.
+description: "نحوه دانلود قانونی و کارآمد صدا از ویدئوهای یوتیوب به صورت تکی یا چندتایی را با استفاده از ابزارهای رایگان بیاموزید. ابزارها و تکنیک‌ها را برای استخراج موسیقی، پادکست، جلوه‌های صوتی و موارد دیگر برای پروژه‌های خلاقانه خود کاوش کنید."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 امروز، بیایید به موضوعی بپردازیم که برای بسیاری جذاب است: نحوه دانلود داده‌های صوتی از یوتیوب، به صورت رایگان.

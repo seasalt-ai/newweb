@@ -1,18 +1,17 @@
 ---
 title: "راهنمای نهایی برای فعال کردن چت در Google Maps برای ارتباط با مشتریان"
 metatitle: "راهنمای نهایی برای فعال کردن چت در Google Maps"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "در این وبلاگ، سه روش مختلف برای فعال کردن چت Google Maps را بررسی خواهیم کرد تا ارتباط بهتری با مشتریان برقرار شود."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: 2025-07-28T00:00:00Z
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *چت Google Maps راهی عالی برای کسب‌وکارها برای ارتباط با مشتریان است. روش‌های مختلفی برای فعال کردن چت Google Maps وجود دارد: یک روش دستی با Google Business Profile، یک روش خودکار با Google Business Messages، و روشی که بهترین‌های هر دو دنیا را با Near Me Messaging ترکیب می‌کند. این وبلاگ شما را در مورد نحوه فعال کردن چت Google Maps با این سه روش مختلف راهنمایی می‌کند.*

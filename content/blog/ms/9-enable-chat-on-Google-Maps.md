@@ -1,16 +1,17 @@
 ---
 title: "Pemilik Perniagaan: Jangan Terlepas Mesej Pelanggan di Google Maps!"
 metatitle: "Jangan Terlepas Mesej Pelanggan di Google Maps!"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Ruli Setiawati
 description: "Dalam artikel ini, kami akan membimbing anda melalui Profil Perniagaan Google, ciri sembangnya, dan cara untuk mengelakkan terlepas mesej pelanggan."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *Dalam artikel ini, kami akan membimbing anda melalui Profil Perniagaan Google, ciri sembangnya, dan cara untuk mengelakkan terlepas mesej pelanggan.*

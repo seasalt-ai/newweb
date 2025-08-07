@@ -1,16 +1,20 @@
 ---
 title: "عامل هوش مصنوعی صوتی در مقابل عامل هوش مصنوعی چت: پیمایش راه حل های هوش مصنوعی SeaChat برای کسب و کار شما"
 metatitle: "عامل صوتی در مقابل عامل چت | پیمایش راه حل های هوش مصنوعی SeaChat"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: راه حل های هوش مصنوعی SeaChat برای کسب و کارها را کاوش کنید، عامل هوش مصنوعی صوتی برای خدمات مشتری مبتنی بر صدا و عامل هوش مصنوعی چت برای تعاملات مبتنی بر متن، هر کدام با ویژگی ها و موارد استفاده منحصر به فرد.
+description: "راه حل های هوش مصنوعی SeaChat برای کسب و کارها را کاوش کنید، عامل هوش مصنوعی صوتی برای خدمات مشتری مبتنی بر صدا و عامل هوش مصنوعی چت برای تعاملات مبتنی بر متن، هر کدام با ویژگی ها و موارد استفاده منحصر به فرد."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 در محیط دیجیتال پر سرعت امروز، کسب و کارها دائماً به دنبال راه های نوآورانه برای بهبود تجربه مشتری و بهینه سازی عملیات هستند. بخش قابل توجهی از این تحول، پذیرش ابزارهای ارتباطی مبتنی بر هوش مصنوعی است. [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، یک پلتفرم هوش مصنوعی همه کاره، دو راه حل قدرتمند را در یک محصول ارائه می دهد: عامل هوش مصنوعی صوتی و عامل هوش مصنوعی چت. در این وبلاگ، ما به بررسی عملکردها و موارد استفاده هر دو می پردازیم و به شما کمک می کنیم تا تصمیم بگیرید کدام یک برای نیازهای کسب و کار شما مناسب تر است.

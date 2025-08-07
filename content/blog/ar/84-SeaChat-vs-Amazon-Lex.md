@@ -1,18 +1,20 @@
 ---
-title: "التخلي عن النصوص، واحتضان المحادثة الطبيعية: لماذا يعد الترقية من Amazon Lex إلى SeaChat أمرًا منطقيًا"
-metatitle: "التخلي عن النصوص، واحتضان المحادثة الطبيعية: لماذا يعد الترقية من Amazon Lex إلى SeaChat أمرًا منطقيًا"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-08-01T00:00:00Z
+title: " التخلي عن النصوص، واحتضان المحادثة الطبيعية: لماذا يعد الترقية من Amazon Lex إلى SeaChat أمرًا منطقيًا"
+metatitle: " التخلي عن النصوص، واحتضان المحادثة الطبيعية: لماذا يعد الترقية من Amazon Lex إلى SeaChat أمرًا منطقيًا"
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: في مجال الذكاء الاصطناعي التخاطبي، كان Amazon Lex شائعًا، ويمكن لـ SeaChat، المستند إلى نماذج اللغة الكبيرة (LLMs)، تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة.
+description: "في مجال الذكاء الاصطناعي التخاطبي، كان Amazon Lex شائعًا، ويمكن لـ SeaChat، المستند إلى نماذج اللغة الكبيرة (LLMs)، تجاوز القيود وإنشاء تجربة محادثة أكثر طبيعية وسلاسة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-amazon-lex/"
-url: "/zh/blog/seachat-vs-amazon-lex/"
-summary: 'يتطور عالم روبوتات الدردشة بسرعة. بينما كان [Amazon Lex](https://aws.amazon.com/lex/) خيارًا شائعًا لبناء واجهات صوتية ونصية، فإن موجة جديدة من التكنولوجيا أصبحت هي البطل: نماذج اللغة الكبيرة (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهي منصة مدعومة بنماذج اللغة الكبيرة، تقدم منهجًا رائدًا للذكاء الاصطناعي التخاطبي، مما يجعل المحركات القائمة على القواعد مثل Lex متخلفة كثيرًا. هل حان الوقت للتفكير في ترقية روبوت الدردشة الخاص بك؟'
+canonicalURL: /zh/blog/seachat-vs-amazon-lex/
+url: /zh/blog/seachat-vs-amazon-lex/
 ---
 
 يتطور عالم روبوتات الدردشة بسرعة. بينما كان [Amazon Lex](https://aws.amazon.com/lex/) خيارًا شائعًا لبناء واجهات صوتية ونصية، فإن موجة جديدة من التكنولوجيا أصبحت هي البطل: نماذج اللغة الكبيرة (LLMs). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهي منصة مدعومة بنماذج اللغة الكبيرة، تقدم منهجًا رائدًا للذكاء الاصطناعي التخاطبي، مما يجعل المحركات القائمة على القواعد مثل Lex متخلفة كثيرًا. هل حان الوقت للتفكير في ترقية روبوت الدردشة الخاص بك؟

@@ -1,18 +1,21 @@
 ---
 title: "உரையாடல் AI-ன் எதிர்காலம்: SeaChat Nuance Mix NLU-ஐ மாற்றியமைக்கிறதா?"
 metatitle: "உரையாடல் AI-ன் எதிர்காலம்: SeaChat Nuance Mix NLU-ஐ மாற்றியமைக்கிறதா?"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: உரையாடல் AI துறையில், Nuance Mix NLU பிரபலமாக இருந்தது, ஆனால் Large Language Models (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை மீறி மேலும் இயற்கையான மற்றும் சீரான உரையாடல் அனுபவங்களை உருவாக்க முடியும்.
+description: "உரையாடல் AI துறையில், Nuance Mix NLU பிரபலமாக இருந்தது, ஆனால் Large Language Models (LLMs) அடிப்படையிலான SeaChat, வரம்புகளை மீறி மேலும் இயற்கையான மற்றும் சீரான உரையாடல் அனுபவங்களை உருவாக்க முடியும்."
 weight: 1
-tags: ["SeaChat", "AI கருவிகள்", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI கருவிகள்
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-url: "/zh/blog/seachat-vs-nuance-mix-nlu/"
-summary: 'உரையாடல் AI உலகம் புதுமையுடன் ஒலிக்கிறது. [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) பயனர் நோக்கங்களை புரிந்துகொள்வதில் ஒரு சக்திவாய்ந்த கருவியாக நிரூபிக்கப்பட்டுள்ள போதிலும், Large Language Models (LLMs) தோன்றுவது ஒரு கவர்ச்சிகரமான மாற்று வழியை வழங்குகிறது. [SeaChat](https://chat.seasalt.ai/), LLM தொழில்நுட்பத்தை அடிப்படையாகக் கொண்ட ஒரு தளம், உரையாடல் AI-ன் எதிர்கால சாத்தியத்தை நிரூபிக்கிறது.'
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /zh/blog/seachat-vs-nuance-mix-nlu/
+url: /zh/blog/seachat-vs-nuance-mix-nlu/
 ---
 
 உரையாடல் AI உலகம் புதுமையுடன் ஒலிக்கிறது. [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) பயனர் நோக்கங்களை புரிந்துகொள்வதில் ஒரு சக்திவாய்ந்த கருவியாக நிரூபிக்கப்பட்டுள்ள போதிலும், Large Language Models (LLMs) தோன்றுவது ஒரு கவர்ச்சிகரமான மாற்று வழியை வழங்குகிறது. [SeaChat](https://chat.seasalt.ai/), LLM தொழில்நுட்பத்தை அடிப்படையாகக் கொண்ட ஒரு தளம், உரையாடல் AI-ன் எதிர்கால சாத்தியத்தை நிரூபிக்கிறது.
