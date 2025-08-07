@@ -10,102 +10,75 @@ export interface SeaXFeature {
   benefits: string[];
 }
 
-export const seaxCoreFeatures: SeaXFeature[] = [
+// Import useTranslation for components that use this data
+// Components should use: const { t } = useTranslation();
+
+export const getSeaxCoreFeatures = (t: any): SeaXFeature[] => [
   {
     id: 'bulk-messaging',
-    title: 'Bulk Messaging Engine',
-    description: 'Send millions of SMS, WhatsApp messages, and phone calls simultaneously with carrier-grade reliability.',
+    title: t('seax.features.coreFeatures.bulkMessaging.title'),
+    description: t('seax.features.coreFeatures.bulkMessaging.description'),
     icon: '📱',
     metrics: {
-      value: '10M+',
-      label: 'Messages sent daily'
+      value: t('seax.features.coreFeatures.bulkMessaging.metrics.value'),
+      label: t('seax.features.coreFeatures.bulkMessaging.metrics.label')
     },
-    benefits: [
-      'Carrier-grade deliverability',
-      'Global reach across 200+ countries',
-      'Real-time delivery tracking',
-      'Intelligent routing optimization'
-    ]
+    benefits: t('seax.features.coreFeatures.bulkMessaging.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'ai-powered-followup',
-    title: 'AI-Powered Follow-Up',
-    description: 'Automated responses and smart lead nurturing to qualify prospects 24/7.',
+    title: t('seax.features.coreFeatures.aiPoweredFollowup.title'),
+    description: t('seax.features.coreFeatures.aiPoweredFollowup.description'),
     icon: '🤖',
     metrics: {
-      value: '85%',
-      label: 'Lead qualification rate'
+      value: t('seax.features.coreFeatures.aiPoweredFollowup.metrics.value'),
+      label: t('seax.features.coreFeatures.aiPoweredFollowup.metrics.label')
     },
-    benefits: [
-      'Smart conversation handling',
-      'Automated lead scoring',
-      'Intelligent response timing',
-      'Multi-language support'
-    ]
+    benefits: t('seax.features.coreFeatures.aiPoweredFollowup.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'real-time-analytics',
-    title: 'Real-Time Analytics',
-    description: 'Track opens, replies, and conversions at scale with a comprehensive live dashboard.',
+    title: t('seax.features.coreFeatures.realTimeAnalytics.title'),
+    description: t('seax.features.coreFeatures.realTimeAnalytics.description'),
     icon: '📊',
     metrics: {
-      value: '99.9%',
-      label: 'Uptime guarantee'
+      value: t('seax.features.coreFeatures.realTimeAnalytics.metrics.value'),
+      label: t('seax.features.coreFeatures.realTimeAnalytics.metrics.label')
     },
-    benefits: [
-      'Live campaign monitoring',
-      'Conversion tracking',
-      'Performance insights',
-      'Custom reporting'
-    ]
+    benefits: t('seax.features.coreFeatures.realTimeAnalytics.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'compliance-deliverability',
-    title: 'Compliance & Deliverability',
-    description: 'Global reach with carrier compliance and pre-approved message templates.',
+    title: t('seax.features.coreFeatures.complianceDeliverability.title'),
+    description: t('seax.features.coreFeatures.complianceDeliverability.description'),
     icon: '🛡️',
     metrics: {
-      value: '200+',
-      label: 'Countries supported'
+      value: t('seax.features.coreFeatures.complianceDeliverability.metrics.value'),
+      label: t('seax.features.coreFeatures.complianceDeliverability.metrics.label')
     },
-    benefits: [
-      'GDPR compliant',
-      'Carrier approval process',
-      'Spam protection',
-      'Regulatory compliance'
-    ]
+    benefits: t('seax.features.coreFeatures.complianceDeliverability.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'team-collaboration',
-    title: 'Team Collaboration',
-    description: 'Multi-user access, campaign permissions, and shared resources for enterprise teams.',
+    title: t('seax.features.coreFeatures.teamCollaboration.title'),
+    description: t('seax.features.coreFeatures.teamCollaboration.description'),
     icon: '👥',
     metrics: {
-      value: '500K+',
-      label: 'Calls per hour'
+      value: t('seax.features.coreFeatures.teamCollaboration.metrics.value'),
+      label: t('seax.features.coreFeatures.teamCollaboration.metrics.label')
     },
-    benefits: [
-      'Role-based permissions',
-      'Shared campaign templates',
-      'Team performance tracking',
-      'Collaborative workflows'
-    ]
+    benefits: t('seax.features.coreFeatures.teamCollaboration.benefits', { returnObjects: true }) as string[]
   },
   {
     id: 'enterprise-scale',
-    title: 'Enterprise Scale',
-    description: 'Built for the highest volume senders with dedicated infrastructure and support.',
+    title: t('seax.features.coreFeatures.enterpriseScale.title'),
+    description: t('seax.features.coreFeatures.enterpriseScale.description'),
     icon: '🏢',
     metrics: {
-      value: '1M+',
-      label: 'Messages per minute'
+      value: t('seax.features.coreFeatures.enterpriseScale.metrics.value'),
+      label: t('seax.features.coreFeatures.enterpriseScale.metrics.label')
     },
-    benefits: [
-      'Dedicated infrastructure',
-      'Priority support',
-      'Custom integrations',
-      'Enterprise SLAs'
-    ]
+    benefits: t('seax.features.coreFeatures.enterpriseScale.benefits', { returnObjects: true }) as string[]
   }
 ];
 

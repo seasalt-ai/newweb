@@ -17,12 +17,7 @@ const OmnichannelDemo = () => {
       color: 'bg-blue-500',
       description: t('seachat.omnichannelDemo.channels.website.description', 'Universal widget that works on any HTML website'),
       stats: { messages: '3.2K', responseTime: '< 15s' },
-      features: [
-        'Universal compatibility',
-        'Custom styling',
-        'Mobile responsive',
-        'Real-time sync'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.website.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'whatsapp',
@@ -31,12 +26,7 @@ const OmnichannelDemo = () => {
       color: 'bg-green-500',
       description: t('seachat.omnichannelDemo.channels.whatsapp.description', 'Connect with customers on the world\'s most popular messaging app'),
       stats: { messages: '2.8K', responseTime: '< 30s' },
-      features: [
-        'Business API integration',
-        'Rich media support',
-        'Template messages',
-        'Group messaging'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.whatsapp.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'instagram',
@@ -45,12 +35,7 @@ const OmnichannelDemo = () => {
       color: 'bg-pink-500',
       description: t('seachat.omnichannelDemo.channels.instagram.description', 'Manage Instagram DMs and story replies in one unified inbox'),
       stats: { messages: '1.5K', responseTime: '< 45s' },
-      features: [
-        'Story reply management',
-        'Media sharing',
-        'Quick responses',
-        'Automated greetings'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.instagram.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'facebook',
@@ -59,12 +44,7 @@ const OmnichannelDemo = () => {
       color: 'bg-blue-600',
       description: t('seachat.omnichannelDemo.channels.facebook.description', 'Provide customer support through Facebook\'s messaging platform'),
       stats: { messages: '1.2K', responseTime: '< 1min' },
-      features: [
-        'Page integration',
-        'Automated responses',
-        'Rich cards',
-        'Persistent menu'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.facebook.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'line',
@@ -73,12 +53,7 @@ const OmnichannelDemo = () => {
       color: 'bg-green-700',
       description: t('seachat.omnichannelDemo.channels.line.description', 'The most popular chat app in Japan, Taiwan, and Thailand'),
       stats: { messages: '1.8K', responseTime: '< 40s' },
-      features: [
-        'Official Account integration',
-        'Rich media support',
-        'Stickers and emoji',
-        'Automated replies'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.line.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'email',
@@ -87,12 +62,7 @@ const OmnichannelDemo = () => {
       color: 'bg-red-500',
       description: t('seachat.omnichannelDemo.channels.email.description', 'Manage email tickets with intelligent routing'),
       stats: { messages: '1.4K', responseTime: '< 30min' },
-      features: [
-        'Smart categorization',
-        'Auto-responses',
-        'Email templates',
-        'Priority handling'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.email.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'phone',
@@ -101,12 +71,7 @@ const OmnichannelDemo = () => {
       color: 'bg-purple-500',
       description: t('seachat.omnichannelDemo.channels.phone.description', 'Handle voice support with AI voice agents'),
       stats: { messages: '650', responseTime: '< 2min' },
-      features: [
-        'Natural conversations',
-        'Call routing',
-        'Voicemail transcription',
-        'Conference calls'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.phone.features', { returnObjects: true }) as string[]) || []
     },
     {
       id: 'ecommerce',
@@ -115,12 +80,7 @@ const OmnichannelDemo = () => {
       color: 'bg-orange-500',
       description: t('seachat.omnichannelDemo.channels.ecommerce.description', 'Integrate with online stores for order management'),
       stats: { messages: '2.1K', responseTime: '< 20s' },
-      features: [
-        'Order tracking',
-        'Product information',
-        'Inventory checks',
-        'Shopping cart recovery'
-      ]
+      features: (t('seachat.omnichannelDemo.channels.ecommerce.features', { returnObjects: true }) as string[]) || []
     }
   ]), [t]);
 

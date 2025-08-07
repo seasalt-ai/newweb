@@ -1,25 +1,28 @@
 import { Link, Bot, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
       icon: <Link className="h-12 w-12" />,
-      title: 'Connect Your Channels',
-      description: 'Link your phone, WhatsApp, SMS, website chat, and social media in minutes. No technical expertise required.',
+      titleKey: 'howItWorks.steps.connectChannels.title',
+      descriptionKey: 'howItWorks.steps.connectChannels.description',
       color: 'text-blue-600',
       bgColor: 'bg-blue-100'
     },
     {
       icon: <Bot className="h-12 w-12" />,
-      title: 'Automate Routine Work',
-      description: 'Set up AI to handle common questions like "Where\'s my order?" and book appointments automatically.',
+      titleKey: 'howItWorks.steps.automateWork.title',
+      descriptionKey: 'howItWorks.steps.automateWork.description',
       color: 'text-green-600',
       bgColor: 'bg-green-100'
     },
     {
       icon: <Users className="h-12 w-12" />,
-      title: 'Unify Your Team',
-      description: 'Your team sees the complete conversation history when customers switch from chat to phone calls.',
+      titleKey: 'howItWorks.steps.unifyTeam.title',
+      descriptionKey: 'howItWorks.steps.unifyTeam.description',
       color: 'text-purple-600',
       bgColor: 'bg-purple-100'
     }
@@ -30,11 +33,10 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Get Started in 3 Simple Steps
+            {t('howItWorks.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-            Transform your customer communications in minutes, not months. 
-            No complex setup or technical knowledge required.
+            {t('howItWorks.subtitle')}
           </p>
         </div>
 
@@ -57,10 +59,10 @@ const HowItWorks = () => {
                   {step.icon}
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                  {step.title}
+                  {t(step.titleKey)}
                 </h3>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                  {step.description}
+                  {t(step.descriptionKey)}
                 </p>
               </div>
             </div>
@@ -72,9 +74,9 @@ const HowItWorks = () => {
           <a
              href="https://seax.seasalt.ai/signup" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
-            Sign Up Now
+            {t('howItWorks.cta.button')}
           </a>
-          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">Setup in under 5 minutes</p>
+          <p className="text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4">{t('howItWorks.cta.description')}</p>
         </div>
       </div>
     </section>

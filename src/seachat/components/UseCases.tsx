@@ -91,11 +91,11 @@ const UseCases = () => {
                   </h3>
                   <div className="space-y-4">
                     <div>
-                      <h4 className="font-semibold text-red-600 mb-2">Challenge:</h4>
+                      <h4 className="font-semibold text-red-600 mb-2">{t('seachat.useCases.labels.challenge')}:</h4>
                       <p className="text-gray-700">{useCase.challenge}</p>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-blue-600 mb-2">Solution:</h4>
+                      <h4 className="font-semibold text-blue-600 mb-2">{t('seachat.useCases.labels.solution')}:</h4>
                       <p className="text-gray-700">{useCase.solution}</p>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ const UseCases = () => {
                 <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
                   <h4 className="font-semibold text-green-600 mb-4 flex items-center">
                     <TrendingUp className="w-5 h-5 mr-2" />
-                    Results Achieved:
+                    {t('seachat.useCases.labels.results')}:
                   </h4>
                     // @ts-ignore
                   <ul className="space-y-2">
@@ -146,7 +146,7 @@ const UseCases = () => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-colors text-center"
               >
-                Sign Up For Free
+                {t('seachat.useCases.cta.buttons.signUp')}
               </a>
               <a
                 href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -154,7 +154,7 @@ const UseCases = () => {
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg font-semibold transition-all text-center"
               >
-                Book A Demo
+                {t('seachat.useCases.cta.buttons.demo')}
               </a>
             </div>
           </div>

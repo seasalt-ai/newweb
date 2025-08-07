@@ -9,14 +9,14 @@ const Footer = () => {
   const currentLanguage = i18n.language;
   
   const platformLinks = [
-    { name: 'Platform Overview', href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
-    { name: 'Landline & Mobile Voice', href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
-    { name: 'VoIP & SIP & BYOC Voice', href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
-    { name: 'Line Call Plus for Businesses', href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: MessageSquare },
-    { name: 'WhatsApp Voice API for Businesses', href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
-    { name: 'Speech To Text', href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: MicOff },
-    { name: 'Text To Speech', href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Mic },
-    { name: 'End To End LLMs', href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain },
+    { name: t('platform.overview'), href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
+    { name: t('platform.landlineMobile'), href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
+    { name: t('platform.voipSIP'), href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
+    { name: t('platform.lineCallPlus'), href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: MessageSquare },
+    { name: t('platform.whatsappVoice'), href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
+    { name: t('platform.speechToText'), href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: MicOff },
+    { name: t('platform.textToSpeech'), href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Mic },
+    { name: t('platform.endToEndLLMs'), href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain }
   ];
 
   const inboundSolutionsLinks = [

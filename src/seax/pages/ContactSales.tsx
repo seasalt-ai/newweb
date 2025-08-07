@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from '../components/Header';
 import SEOHelmet from '../../components/SEOHelmet';
+import { useTranslation } from 'react-i18next';
 import { 
   Mail, 
   Phone, 

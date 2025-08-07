@@ -4,7 +4,7 @@ import { ArrowRight, Users, Globe, Target, Shield } from 'lucide-react';
 import SEOHelmet from '../../components/SEOHelmet';
 
 const About = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">

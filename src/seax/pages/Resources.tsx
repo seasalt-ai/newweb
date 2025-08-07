@@ -5,46 +5,46 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, Book, FileText, Video, MessageSquare, Download, ExternalLink, Users } from 'lucide-react';
 
 const Resources = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const resourceCategories = [
     {
-      title: 'Getting Started',
-      description: 'Everything you need to launch your first campaign',
+title: t('seax.resources.gettingStarted.title'),
+description: t('seax.resources.gettingStarted.description'),
       icon: Book,
       color: 'blue',
       resources: [
         {
-          title: 'Quick Start Guide',
-          description: 'Get up and running with SeaX in under 10 minutes',
+title: t('seax.resources.gettingStarted.resources.quickStartGuide.title'),
+description: t('seax.resources.gettingStarted.resources.quickStartGuide.description'),
           type: 'Guide',
           readTime: '5 min read'
         },
         {
-          title: 'Best Practices for Mass SMS',
-          description: 'Learn how to craft effective messages that convert',
+title: t('seax.resources.gettingStarted.resources.bestPractices.title'),
+description: t('seax.resources.gettingStarted.resources.bestPractices.description'),
           type: 'Guide',
           readTime: '8 min read'
         },
         {
-          title: 'API Integration Tutorial',
-          description: 'Step-by-step guide to integrate SeaX with your app',
+title: t('seax.resources.gettingStarted.resources.apiIntegration.title'),
+description: t('seax.resources.gettingStarted.resources.apiIntegration.description'),
           type: 'Tutorial',
           readTime: '15 min read'
         }
       ]
     },
     {
-      title: 'Video Tutorials',
-      description: 'Watch and learn from our expert tutorials',
+title: t('seax.resources.videoTutorials.title'),
+description: t('seax.resources.videoTutorials.description'),
       icon: Video,
       color: 'green',
       resources: [
         {
-          title: 'Creating Your First Campaign',
-          description: 'Watch how to set up and launch your first SMS campaign',
+title: t('seax.resources.videoTutorials.resources.creatingFirstCampaign.title'),
+description: t('seax.resources.videoTutorials.resources.creatingFirstCampaign.description'),
           type: 'Video',
           duration: '12 min'
         },
