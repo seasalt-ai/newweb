@@ -13,7 +13,7 @@ tags:
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
 canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
----
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 
 ## The Challenge of Simultaneous Meetings
 In today's fast-paced work environment, it's common for multiple meetings to occur simultaneously. This presents a significant challenge for busy executives and managers. Ideally, they would want to participate in every meeting, but due to time and physical limitations, this is often impossible.
