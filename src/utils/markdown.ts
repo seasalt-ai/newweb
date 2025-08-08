@@ -312,26 +312,19 @@ export async function loadAllBlogPosts(language: string = 'en'): Promise<BlogPos
   const blogModules = import.meta.glob('/content/blog/**/*.md', { eager: true, query: '?raw', import: 'default' });
   const posts: BlogPostMeta[] = [];
   
-  console.log('[loadAllBlogPosts] Loading posts for language:', language);
-  console.log('[loadAllBlogPosts] Available modules:', Object.keys(blogModules));
-  
   for (const path in blogModules) {
     // Only include posts for the specified language
     if (path.startsWith(`/content/blog/${language}/`)) {
-      console.log('[loadAllBlogPosts] Processing file:', path);
       const content = blogModules[path] as string;
       const slug = path.replace(`/content/blog/${language}/`, '').replace('.md', '');
       try {
         const post = await parseMarkdownMeta(content, slug, language);
         posts.push(post);
-        console.log('[loadAllBlogPosts] Successfully loaded post:', slug);
       } catch (error) {
         console.error('[loadAllBlogPosts] Error parsing post:', slug, error);
       }
     }
   }
-  
-  console.log('[loadAllBlogPosts] Total posts loaded:', posts.length);
   
   // Filter out draft posts in production and sort by date (newest first)
   const filteredPosts = posts.filter(post => {
@@ -373,7 +366,6 @@ export async function loadBlogPost(slug: string, language: string = 'en'): Promi
     if (!(path in blogModules)) {
       // If the post doesn't exist in the requested language, try to fall back to English
       if (language !== 'en') {
-        console.log(`Post ${slug} not found in ${language}, trying English fallback`);
         return loadBlogPost(slug, 'en');
       } else {
         return null;

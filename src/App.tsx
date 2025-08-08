@@ -123,8 +123,6 @@ function HomePage() {
 function App() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  
-  console.log('[App] Rendering with:', { currentLanguage, i18nLanguage: i18n.language });
 
   // Set basename for GitHub Pages if needed (e.g., '/new-seasalt-ai-website')
   // If deploying to root, set to '/'. Adjust as needed for your deployment.

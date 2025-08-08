@@ -57,7 +57,6 @@ const BlogPostPage = () => {
       try {
         // 确保使用正确的语言参数，优先使用URL中的lang参数
         const targetLanguage = lang || i18n.language;
-        console.log('[BlogPost] Loading post with language:', { lang, i18nLanguage: i18n.language, targetLanguage, slug });
         
         const blogPost = await loadBlogPostByUrlPath(slug, targetLanguage);
         if (blogPost) {
