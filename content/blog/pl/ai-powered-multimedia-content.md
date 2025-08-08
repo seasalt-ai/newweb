@@ -13,8 +13,9 @@ tags:
 - Zaangażowanie klientów
 - Marketing cyfrowy
 - Treści wideo
-title: Tworzenie treści multimedialnych opartych na sztucznej inteligencji dla zaangażowania
-  klientów
+title: Tworzenie treści multimedialnych opartych na sztucznej inteligencji dla zaangażowania klientów
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

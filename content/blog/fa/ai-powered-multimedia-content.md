@@ -14,6 +14,8 @@ tags:
 - بازاریابی دیجیتال
 - محتوای ویدیویی
 title: ایجاد محتوای چندرسانه ای مبتنی بر هوش مصنوعی برای تعامل با مشتری
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 В сегодняшнюю эпоху цифровой трансформации компании постепенно осознают огромный потенциал чат-ботов с искусственным интеллектом в повышении эффективности внутренних операций и качества обслуживания клиентов. Передовые технологии чат-ботов, такие как ChatGPT, станут важным инструментом для управления внутренней базой знаний компании и взаимодействия с клиентами.

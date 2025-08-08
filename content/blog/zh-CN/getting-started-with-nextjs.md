@@ -6,6 +6,8 @@ tags: ["Next.js", "React", "Web 开发", "框架"]
 date: "2025-01-10"
 image_thumbnail: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
 modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 # Next.js 入门：初学者指南

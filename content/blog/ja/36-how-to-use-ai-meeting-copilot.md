@@ -10,8 +10,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /ja/blog/how-to-use-ai-meeting-copilot/
-url: /ja/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 SeaMeetを使用すると、次のことができます。

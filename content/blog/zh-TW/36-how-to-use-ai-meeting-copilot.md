@@ -10,8 +10,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
-url: /zh/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？

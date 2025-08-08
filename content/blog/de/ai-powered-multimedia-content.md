@@ -14,6 +14,8 @@ tags:
 - Digitales Marketing
 - Videoinhalte
 title: Erstellung von KI-gestützten Multimedia-Inhalten für die Kundenbindung
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

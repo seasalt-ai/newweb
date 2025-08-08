@@ -12,6 +12,8 @@ tags:
 - Customer Experience
 - Business Strategy
 title: Complete Guide to AI-Powered Customer Service in 2024
+canonicalURL: /blog/complete-guide-to-ai-customer-service/
+url: /blog/complete-guide-to-ai-customer-service/
 ---
 
 

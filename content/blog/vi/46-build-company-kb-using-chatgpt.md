@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 Trong kỷ nguyên chuyển đổi số hiện nay, các công ty đang dần nhận ra tiềm năng to lớn của chatbot AI trong việc nâng cao hiệu quả hoạt động nội bộ và chất lượng dịch vụ khách hàng. Đặc biệt, các công nghệ chatbot tiên tiến như ChatGPT sẽ trở thành một công cụ quan trọng để quản lý cơ sở tri thức nội bộ của công ty và tương tác với khách hàng.

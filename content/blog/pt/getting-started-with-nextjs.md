@@ -13,6 +13,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Começando com Next.js: Um Guia para Iniciantes'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

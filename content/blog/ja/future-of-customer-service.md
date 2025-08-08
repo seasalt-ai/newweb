@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: AIと自動化がカスタマーサービスをどのように再構築し、顧客が最も重視する人間的な触れ合いを維持しているかを探ります。
@@ -12,6 +11,8 @@ tags:
 - 顧客体験
 - テクノロジーのトレンド
 title: カスタマーサービスの未来：AI、自動化、そして人間とのつながり
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

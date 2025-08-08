@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Next.js के साथ शुरुआत करना: एक शुरुआती मार्गदर्शिका'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

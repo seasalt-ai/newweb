@@ -2,6 +2,7 @@
 title: "Getting Started with Next.js: A Beginner's Guide"
 metatitle: "Getting Started with Next.js: A Beginner's Guide"
 date: 2025-01-10
+image_thumbnail: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800
 author: John Doe
 meta_description: "Learn the basics of Next.js, a React framework for building production-ready web applications with server-side rendering and static site generation." 
 tags:
@@ -9,6 +10,8 @@ tags:
   - React
   - Web Development
   - Frameworks
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

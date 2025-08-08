@@ -11,8 +11,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 În era actuală a transformării digitale, companiile realizează din ce în ce mai mult potențialul imens al chatbot-urilor AI în îmbunătățirea eficienței operaționale interne și a calității serviciilor pentru clienți. În special, tehnologiile avansate de chatbot, cum ar fi ChatGPT, vor deveni instrumente esențiale pentru gestionarea bazelor de cunoștințe interne ale companiilor și pentru interacțiunea cu clienții.

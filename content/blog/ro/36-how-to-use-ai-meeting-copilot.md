@@ -11,8 +11,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /ro/blog/how-to-use-ai-meeting-copilot/
-url: /ro/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice?

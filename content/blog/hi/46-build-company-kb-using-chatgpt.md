@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 आज के डिजिटल परिवर्तन के युग में, उद्यम धीरे-धीरे आंतरिक परिचालन दक्षता और ग्राहक सेवा की गुणवत्ता में सुधार के लिए एआई चैटबॉट की विशाल क्षमता को महसूस कर रहे हैं। विशेष रूप से, ChatGPT जैसी उन्नत चैटबॉट प्रौद्योगिकियां उद्यम के आंतरिक ज्ञान आधार प्रबंधन और ग्राहक बातचीत के लिए महत्वपूर्ण उपकरण बन जाएंगी।

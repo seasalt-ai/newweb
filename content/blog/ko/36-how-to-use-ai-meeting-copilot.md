@@ -10,8 +10,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /ko/blog/how-to-use-ai-meeting-copilot/
-url: /ko/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: /blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 SeaMeet을 사용하면 다음을 수행할 수 있습니다.

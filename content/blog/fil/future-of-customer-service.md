@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: Galugarin kung paano binabago ng AI at automation ang serbisyo sa
@@ -13,6 +12,8 @@ tags:
 - Karanasan ng Customer
 - Mga Trend ng Teknolohiya
 title: 'Ang Kinabukasan ng Serbisyo sa Customer: AI, Automation, at Koneksyon ng Tao'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

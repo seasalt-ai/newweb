@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: สำรวจว่า AI และระบบอัตโนมัติกำลังปรับเปลี่ยนการบริการลูกค้าอย่างไร
@@ -13,6 +12,8 @@ tags:
 - ประสบการณ์ของลูกค้า
 - แนวโน้มเทคโนโลยี
 title: 'อนาคตของการบริการลูกค้า: AI, ระบบอัตโนมัติ และการเชื่อมโยงกับมนุษย์'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

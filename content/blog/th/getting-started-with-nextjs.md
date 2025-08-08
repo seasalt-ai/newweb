@@ -11,6 +11,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'เริ่มต้นใช้งาน Next.js: คู่มือสำหรับผู้เริ่มต้น'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

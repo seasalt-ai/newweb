@@ -11,8 +11,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
-url: /zh/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Com o nascimento de grandes modelos de linguagem como o ChatGPT, a IA generativa abriu novas áreas de exploração. Quando a IA é combinada com o reconhecimento de fala, ela oferece possibilidades sem precedentes para a análise de reuniões em tempo real. Mas o que isso significa para as operações comerciais diárias?

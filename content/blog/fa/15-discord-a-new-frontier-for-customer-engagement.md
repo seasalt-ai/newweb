@@ -2,7 +2,7 @@
 title: "Discord: عصر جدیدی برای تعامل با مشتریان"
 date: 2025-08-07T10:11:10 # 需要确认
 author: "" # 需要确认
-description:" "" # 需要确认"
+description: "" # 需要确认
 tags:
   - Discord
   - خدمات مشتری

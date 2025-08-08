@@ -11,8 +11,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 在當今數位化轉型的時代，企業逐漸意識到AI聊天機器人在提升內部運營效率及客戶服務品質上的巨大潛力。特別是ChatGPT等先進的聊天機器人技術，將成為企業內部知識庫管理和客戶互動的重要工具。

@@ -9,6 +9,8 @@ tags:
   - SeaChat
   - Google DialogFlow
   - Comparație
+canonicalURL: /blog/seachat-vs-google-dialogflow/
+url: /blog/seachat-vs-google-dialogflow/
 ---
 
 # SeaChat vs Google DialogFlow: Care platformă de chatbot AI este mai bună pentru afaceri?

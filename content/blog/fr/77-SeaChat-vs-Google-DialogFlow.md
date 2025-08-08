@@ -10,6 +10,8 @@ tags:
   - SeaChat
   - Google DialogFlow
   - Comparaison
+canonicalURL: /blog/seachat-vs-google-dialogflow/
+url: /blog/seachat-vs-google-dialogflow/
 ---
 
 

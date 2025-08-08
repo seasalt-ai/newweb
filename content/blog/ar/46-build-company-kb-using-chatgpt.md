@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 في عصر التحول الرقمي الحالي، تدرك الشركات تدريجياً الإمكانات الهائلة لروبوتات الدردشة المدعومة بالذكاء الاصطناعي في تحسين كفاءة العمليات الداخلية وجودة خدمة العملاء. ستصبح تقنيات روبوتات الدردشة المتقدمة مثل ChatGPT أداة مهمة لإدارة قواعد المعارف الداخلية للشركات وتفاعلات العملاء.

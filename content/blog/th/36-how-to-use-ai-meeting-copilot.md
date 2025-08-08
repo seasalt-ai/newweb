@@ -11,8 +11,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
-url: /zh/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 ด้วยการกำเนิดของโมเดลภาษาขนาดใหญ่ เช่น ChatGPT, AI เชิงสร้างสรรค์ได้เปิดพื้นที่ใหม่สำหรับการสำรวจ เมื่อ AI รวมกับการรู้จำเสียงพูด จะนำเสนอความเป็นไปได้ที่ไม่เคยมีมาก่อนสำหรับการวิเคราะห์การประชุมแบบเรียลไทม์ แต่สิ่งนี้มีความหมายอย่างไรต่อการดำเนินธุรกิจในแต่ละวัน?

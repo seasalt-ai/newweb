@@ -7,8 +7,8 @@ author: Kim Dodds
 description: "இந்த வலைப்பதிவில், உங்கள் பிராண்டிற்காக ஒரு சர்வரை உருவாக்குவது மற்றும் ஒரு பாட்-ஐ இணைப்பது எப்படி என்று பார்ப்போம். இது மிதவாக்கம், பிழை அறிக்கை, அறிவிப்புகள் போன்றவற்றை தானியக்கமாக்க முடியும்."
 weight: 1
 tags:
-  - SeaX
-  - Discord
+  - SeaX
+  - Discord
 image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
 canonicalURL: /blog/create-a-discord-community-and-bot/
 url: /blog/create-a-discord-community-and-bot/

@@ -11,8 +11,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
-url: /zh/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Với sự ra đời của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra những lĩnh vực khám phá mới. Khi AI được kết hợp với nhận dạng giọng nói, nó mang lại những khả năng chưa từng có để phân tích cuộc họp theo thời gian thực. Nhưng điều này có ý nghĩa gì đối với các hoạt động kinh doanh hàng ngày?

@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /fa/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /fa/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 در عصر تحول دیجیتال امروز، شرکت‌ها به تدریج پتانسیل عظیم ربات‌های چت هوشمند در بهبود کارایی عملیات داخلی و کیفیت خدمات مشتری را درک می‌کنند. به ویژه فناوری‌های پیشرفته ربات چت مانند ChatGPT، به ابزارهای مهمی برای مدیریت پایگاه دانش داخلی شرکت و تعامل با مشتری تبدیل خواهند شد.

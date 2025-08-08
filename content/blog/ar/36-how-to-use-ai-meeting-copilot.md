@@ -10,8 +10,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /ar/blog/how-to-use-ai-meeting-copilot/
-url: /ar/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 مع ظهور نماذج اللغة الكبيرة مثل ChatGPT، فتح الذكاء الاصطناعي التوليدي مجالات جديدة للاستكشاف. عندما يجتمع الذكاء الاصطناعي مع التعرف على الصوت، يوفر إمكانيات غير مسبوقة للتحليل الفوري للاجتماعات. ولكن ماذا يعني هذا للعمليات التجارية اليومية؟

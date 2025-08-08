@@ -13,8 +13,9 @@ tags:
 - Customer Engagement
 - Digital Marketing
 - Video Content
-title: Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường tương tác với
-  khách hàng
+title: Tạo nội dung đa phương tiện được hỗ trợ bởi AI để tăng cường tương tác với khách hàng
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

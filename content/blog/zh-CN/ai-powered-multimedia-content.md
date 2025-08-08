@@ -12,6 +12,8 @@ tags:
 - 数字营销
 - 视频内容
 title: 创建由 AI 驱动的多媒体内容以提高客户参与度
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

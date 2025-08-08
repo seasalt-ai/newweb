@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 今日のデジタル変革の時代において、企業はAIチャットボットが内部業務効率と顧客サービス品質を向上させる上で持つ巨大な可能性を徐々に認識しています。特にChatGPTのような高度なチャットボット技術は、企業の内部ナレッジベース管理と顧客インタラクションの重要なツールとなるでしょう。

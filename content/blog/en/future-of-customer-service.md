@@ -1,6 +1,7 @@
 ---
 title: "The Future of Customer Service: AI, Automation, and Human Connection"
 metatitle: "The Future of Customer Service: AI, Automation, and Human Co..."
+image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 date: 2024-12-05
 author: Dr. Emily Watson
 meta_description: "Explore how AI and automation are reshaping customer service while maintaining the human touch that customers value most."
@@ -9,6 +10,8 @@ tags:
   - AI
   - Customer Experience
   - Technology Trends
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

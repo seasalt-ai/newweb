@@ -11,8 +11,8 @@ tags:
   - SeaMeet
   - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: /zh/blog/how-to-use-ai-meeting-copilot/
-url: /zh/blog/how-to-use-ai-meeting-copilot/
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 ChatGPT போன்ற பெரிய மொழி மாதிரிகளின் வருகையுடன், ஜெனரேட்டிவ் AI புதிய ஆய்வுப் பகுதிகளைத் திறந்துள்ளது. AI பேச்சு அங்கீகாரத்துடன் இணைக்கப்படும்போது, நிகழ்நேர சந்திப்பு பகுப்பாய்விற்கு முன்னோடியில்லாத சாத்தியக்கூறுகளை வழங்குகிறது. ஆனால் இது அன்றாட வணிக நடவடிக்கைகளுக்கு என்ன அர்த்தம்?

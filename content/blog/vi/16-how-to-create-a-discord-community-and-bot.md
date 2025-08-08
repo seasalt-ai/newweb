@@ -7,8 +7,8 @@ author: Kim Dodds
 description: "Trong blog này, chúng tôi sẽ hướng dẫn bạn cách tạo một máy chủ cho thương hiệu của bạn và kết nối một bot, có thể tự động hóa việc kiểm duyệt, báo cáo lỗi, thông báo, v.v."
 weight: 1
 tags:
-  - SeaX
-  - Discord
+  - SeaX
+  - Discord
 image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
 canonicalURL: /blog/create-a-discord-community-and-bot/
 url: /blog/create-a-discord-community-and-bot/

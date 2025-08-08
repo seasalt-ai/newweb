@@ -12,6 +12,7 @@ tags:
   - एआई उपकरण
   - ग्राहक अनुभव
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+canonicalURL:: /blog/evaluate-ai-agent-responses/
 url: /blog/evaluate-ai-agent-responses/
 ---
 

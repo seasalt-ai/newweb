@@ -14,6 +14,8 @@ tags:
 - Digital Marketing
 - Video Content
 title: Paglikha ng AI-Powered Multimedia Content para sa Pakikipag-ugnayan sa Customer
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

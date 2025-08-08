@@ -2,7 +2,7 @@
 title: "Discord: Una nueva frontera para la atención al cliente"
 date: 2025-08-07T10:11:09 # 需要确认
 author: "" # 需要确认
-description:" "" # 需要确认"
+description: "" # 需要确认
 tags:
   - Discord
   - Atención al cliente

@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'شروع کار با Next.js: راهنمای مبتدیان'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

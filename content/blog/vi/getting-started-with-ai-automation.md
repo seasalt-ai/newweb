@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Bắt đầu với Tự động hóa AI cho Doanh nghiệp nhỏ
+canonicalURL: blog/getting-started-with-ai-automation/
+url: blog/getting-started-with-ai-automation/
 ---
 
 

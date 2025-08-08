@@ -12,8 +12,8 @@ tags:
   - AI Tools
   - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: /zh/blog/how-to-build-company-knowledge-base-using-chatgpt/
-url: /zh/blog/how-to-build-company-knowledge-base-using-chat-gpt/
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chat-gpt/
 ---
 
 Dalam era transformasi digital hari ini, syarikat-syarikat secara beransur-ansur menyedari potensi besar chatbot AI dalam meningkatkan kecekapan operasi dalaman dan kualiti perkhidmatan pelanggan. Teknologi chatbot canggih seperti ChatGPT akan menjadi alat penting untuk pengurusan pangkalan pengetahuan dalaman syarikat dan interaksi pelanggan.
