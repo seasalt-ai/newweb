@@ -228,7 +228,7 @@ const Header = () => {
             {/* Logo - navigates to SeaChat home */}
             <Link
               to={createLink('seachat')}
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity flex items-center"
             >
               <img src="/seachat-logo.png" alt="SeaChat Logo" className="h-6 sm:h-8 w-auto flex-shrink-0" />
             </Link>
@@ -237,7 +237,7 @@ const Header = () => {
             <button 
               onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
               onMouseEnter={() => setOpenDropdown('logo')}
-              className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+              className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200 flex items-center"
             >
               <ChevronDown className="w-4 h-4" />
             </button>
