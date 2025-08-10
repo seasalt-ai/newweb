@@ -1,16 +1,20 @@
 ---
 title: "Cuộc gọi đến và cuộc gọi đi, nhân viên điện thoại AI có thể làm việc cho bạn ở cả hai"
 metatitle: "Nhân viên điện thoại AI | Cho cả cuộc gọi đến và cuộc gọi đi"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Khám phá tiềm năng thay đổi cuộc chơi của các nhân viên điện thoại AI trong dịch vụ khách hàng và bán hàng, chuyển đổi các cuộc gọi đến và đi để nâng cao hiệu quả và tăng trưởng doanh thu."
 weight: 1
-tags: ["SeaChat", "Nhân viên giọng nói", "Công cụ AI", "Trải nghiệm khách hàng"]
+tags:
+  - SeaChat
+  - Nhân viên giọng nói
+  - Công cụ AI
+  - Trải nghiệm khách hàng
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 Trong bối cảnh dịch vụ khách hàng và bán hàng không ngừng phát triển, các nhân viên điện thoại AI đã nổi lên như những công cụ mới và hiệu quả cho các doanh nghiệp. Các nhân viên thông minh này được thiết kế để xử lý cả cuộc gọi đến và cuộc gọi đi, cách mạng hóa các tương tác của khách hàng và thúc đẩy doanh thu. Bài viết này đi sâu vào các trường hợp sử dụng khác nhau của các nhân viên điện thoại AI trong cả cuộc gọi đến và cuộc gọi đi, làm nổi bật tính linh hoạt và tiềm năng của chúng trong việc chuyển đổi giao tiếp kinh doanh.

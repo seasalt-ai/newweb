@@ -1,17 +1,19 @@
 ---
 title: "SeaChat으로 Squarespace 웹사이트에 AI 챗봇을 추가하는 방법"
 metatitle: "SeaChat AI | Squarespace 웹사이트의 AI 에이전트"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat의 AI로 Squarespace에서 고객 참여를 극대화하세요 - 능동적인 방문자 지원을 위해 챗봇을 사용자 정의하고, 훈련하고, 모니터링하고, 업데이트하세요.
+description: "SeaChat의 AI로 Squarespace에서 고객 참여를 극대화하세요 - 능동적인 방문자 지원을 위해 챗봇을 사용자 정의하고, 훈련하고, 모니터링하고, 업데이트하세요."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "통합"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - 통합
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 오늘날 빠르게 변화하는 디지털 환경에서 효과적인 고객 서비스와 사용자 참여는 비즈니스에 매우 중요합니다. 고객은 실시간 상호 작용, 빠른 응답 및 개인화된 지원을 기대합니다. 웹사이트에 채팅 솔루션을 통합하면 이러한 측면을 크게 향상시킬 수 있습니다. 이 블로그에서는 Squarespace 웹사이트에 AI 챗봇을 추가하고 고객 커뮤니케이션을 혁신하는 방법을 살펴보겠습니다.

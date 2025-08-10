@@ -14,6 +14,8 @@ tags:
 - டிஜிட்டல் மார்க்கெட்டிங்
 - வீடியோ உள்ளடக்கம்
 title: வாடிக்கையாளர் ஈடுபாட்டிற்கான AI-இயங்கும் மல்டிமீடியா உள்ளடக்கத்தை உருவாக்குதல்
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

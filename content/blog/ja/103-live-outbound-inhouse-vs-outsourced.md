@@ -1,17 +1,20 @@
 ---
 title: "テレマーケティングのアウトバウンドコールにおける社内対応と外部委託：ビジネス向けの実践的な推奨事項 (2/5)"
 metatitle: "Seasalt.ai | ライブアウトバウンドコール | 社内対応 vs. 外部委託"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "社内対応と外部委託のアウトバウンドコールを比較 — コスト、機能、そして顧客へのアプローチを最適化するための実践的なヒントを得ましょう。"
 weight: 1
-tags: ["自動テレマーケティングサービス", "中小企業向けアウトバウンドコール", "SeaChat", "音声AI"]
-toc: true
+tags:
+  - 自動テレマーケティングサービス
+  - 中小企業向けアウトバウンドコール
+  - SeaChat
+  - 音声AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

@@ -1,15 +1,17 @@
 ---
 title: "Suara ke Teks di Discord: Kajian Kes Bot Discord STT"
 metatitle: "Suara ke Teks di Discord: Kajian Kes Bot Discord STT"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: Dalam blog ini kami akan membincangkan penemuan kami tentang bagaimana pengguna Discord sebenar menggunakan perkhidmatan SeaVoice selepas mengkaji beberapa minggu data suara ke teks yang sahih.
+description: "Dalam blog ini kami akan membincangkan penemuan kami tentang bagaimana pengguna Discord sebenar menggunakan perkhidmatan SeaVoice selepas mengkaji beberapa minggu data suara ke teks yang sahih."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Selepas melancarkan SeaVoice, salah satu bot teks-ke-ucapan dan ucapan-ke-teks terpantas dan paling tepat di Discord, kami ingin memahami bagaimana pengguna sebenarnya berinteraksi dengan perkhidmatan tersebut. Dalam blog ini kami akan membincangkan penemuan kami selepas mengkaji beberapa minggu data pengguna suara ke teks sebenar.*

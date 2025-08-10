@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): DiscordとTwilio Flex: Flexコンタクトセンターを未開拓の領域へ"
 metatitle: "Discord (3/3): DiscordでのTwilio Flexコンタクトセンター"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "このブログでは、Seasalt.aiがDiscordサーバーに完全な機能を持つコンタクトセンターを統合する方法を実証します。"
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *これは、Discordでの顧客エンゲージメントに関する3部構成シリーズの最終記事です。最初のブログ記事["顧客エンゲージメントの新フロンティア"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)では、Discordの普及と、ブランドが独自のオンラインコミュニティを作成・参加するための新しい機会について議論しました。第2部["ブランドのためのDiscordコミュニティとボットの作成方法"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)では、ブランドのためのDiscordサーバーの作成方法と、サーバー管理、アナウンス、ユーザーフィードバックなどを管理するボットの統合方法を紹介しました。最後に、このブログでは、Seasalt.aiがDiscordサーバーに完全な機能を持つコンタクトセンターを統合し、ブランドがプラットフォームでのカスタマーサービスのすべての側面を処理できるようにする方法を実証します。*

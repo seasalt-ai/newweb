@@ -1,16 +1,20 @@
 ---
 title: "Jak wdrożyć chatbota AI na swojej stronie Wix za pomocą SeaChat"
 metatitle: "Jak wdrożyć chatbota AI na swojej stronie Wix za pomocą SeaChat"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Wzmocnij swoją stronę Wix za pomocą SeaChat - Bezproblemowo zintegruj obsługę klienta zarówno na stronie Wix, jak i w WhatsApp. Zwiększ zaangażowanie bez wysiłku!
+description: "Wzmocnij swoją stronę Wix za pomocą SeaChat - Bezproblemowo zintegruj obsługę klienta zarówno na stronie Wix, jak i w WhatsApp. Zwiększ zaangażowanie bez wysiłku!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "Integracje"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - Integracje
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 Włączenie chatbota AI WhatsApp SeaChat do Twojej strony Wix nie tylko podnosi poziom obsługi klienta, ale także stawia Twoją firmę na czele innowacji technologicznych. Obejmij przyszłość zaangażowania klienta dzięki SeaChat.

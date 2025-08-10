@@ -1,16 +1,20 @@
 ---
 title: "Pengumpulan Tinjauan Mudah dengan Ejen Suara AI"
 metatitle: "Pengumpulan Tinjauan Mudah dengan Ejen Suara AI"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: Temui masa depan penciptaan tinjauan dengan ejen suara AI! Buat soalan berkualiti tinggi dengan mudah, tingkatkan pengalaman pengguna, dan tingkatkan kadar respons. Ucapkan selamat tinggal kepada kerja manual!
+description: "Temui masa depan penciptaan tinjauan dengan ejen suara AI! Buat soalan berkualiti tinggi dengan mudah, tingkatkan pengalaman pengguna, dan tingkatkan kadar respons. Ucapkan selamat tinggal kepada kerja manual!"
 weight: 1
-tags: ["SeaChat", "Ejen Suara", "Alat AI", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Ejen Suara
+  - Alat AI
+  - Pengalaman Pelanggan
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Pengenalan

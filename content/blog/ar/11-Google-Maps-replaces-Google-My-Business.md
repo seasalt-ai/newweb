@@ -1,16 +1,16 @@
 ---
 title: "وداعًا Google My Business، الآن خرائط Google هي نظام التشغيل الجديد للشركات"
 metatitle: "وداعًا GMB، خرائط Google هي نظام التشغيل الجديد للشركات"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "تستبدل Google تطبيق Google My Business بخرائط Google، حيث يمكن للشركات إدارة معلوماتها والرد على رسائل العملاء على خرائط Google."
 weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *ربط الشركات مباشرة بالمستهلكين من خلال خرائط Google يوفر تجربة سلسة لتجربة تسوق المستهلكين. هذه خطوة استراتيجية رائعة لـ Google لتحويل خرائط Google إلى نظام التشغيل الجديد للبحث المحلي عن الشركات "القريبة مني".*

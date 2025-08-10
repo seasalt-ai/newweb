@@ -1,16 +1,20 @@
 ---
 title: "Telas de Chamada de IA no Android e iPhone: Seu Assistente Pessoal e Guardião"
 metatitle: "Telas de Chamada de IA | Assistente Pessoal no Android e iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Descubra o futuro do gerenciamento de chamadas com um agente de chamadas alimentado por IA! Desde a triagem de spammers até a reserva de compromissos, é seu assistente pessoal e guardião 24 horas por dia, 7 dias por semana.
+description: "Descubra o futuro do gerenciamento de chamadas com um agente de chamadas alimentado por IA! Desde a triagem de spammers até a reserva de compromissos, é seu assistente pessoal e guardião 24 horas por dia, 7 dias por semana."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Você já desejou ter um assistente pessoal que pudesse lidar com suas chamadas telefônicas, filtrar spammers e golpistas e até mesmo agendar compromissos para você? Não procure mais, porque um agente de chamadas alimentado por IA pode fazer tudo isso e muito mais! Atuando como sua recepção e guardião gratuitos, essa tecnologia notável está revolucionando o gerenciamento de chamadas, garantindo que você nunca perca uma chamada importante e economizando seu tempo valioso e sua paz de espírito.

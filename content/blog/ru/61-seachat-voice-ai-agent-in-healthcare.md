@@ -1,16 +1,20 @@
 ---
 title: "Рост голосовых ИИ-агентов в здравоохранении: Улучшение ухода за пациентами и их вовлеченности"
 metatitle: "Голосовые ИИ-агенты в здравоохранении | Лучший уход за пациентами"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Узнайте, как голосовые ИИ-агенты трансформируют здравоохранение с помощью мгновенных ответов для записи на прием и напоминаний о приеме лекарств, принося пользу пациентам с особыми потребностями.
+description: "Узнайте, как голосовые ИИ-агенты трансформируют здравоохранение с помощью мгновенных ответов для записи на прием и напоминаний о приеме лекарств, принося пользу пациентам с особыми потребностями."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # Введение

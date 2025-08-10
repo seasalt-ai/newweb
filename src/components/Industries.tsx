@@ -1,20 +1,20 @@
 import { Link } from 'react-router-dom';
-import { industries } from '../data/industriesData';
+import { getIndustries } from '../data/industriesData';
 import { useTranslation } from 'react-i18next';
 
 const Industries = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
+  const industries = getIndustries(t);
   
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Industries
+            {t('industries.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            See how businesses in your industry are using Seasalt.ai to automate communications, 
-            improve customer experience, and drive growth.
+            {t('industries.description')}
           </p>
         </div>
 
@@ -56,22 +56,22 @@ const Industries = () => {
         {/* CTA Section */}
         <div className="mt-16 text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 md:p-12 text-white">
           <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
-            Ready to See How It Works for Your Industry?
+            {t('industries.cta.title')}
           </h3>
           <p className="text-lg sm:text-xl opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Join thousands of growing businesses who have streamlined their customer communications with Seasalt.ai.
+            {t('industries.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
                href="https://seax.seasalt.ai/signup"
                className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
              >
-               Sign Up
+               {t('industries.cta.signUp')}
             </a>
             <a
                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
-              Book A Demo
+              {t('industries.cta.bookDemo')}
             </a>
           </div>
         </div>

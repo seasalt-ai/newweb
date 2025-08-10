@@ -1,13 +1,19 @@
 ---
 title: "Diretório de Linhas de Apoio para Idosos: Recursos de Cuidados para Idosos em Taiwan"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Um guia abrangente para linhas de apoio para idosos em Taiwan, fornecendo informações de contato essenciais para escritórios de assuntos sociais nas principais cidades. Descubra como SeaX e SeaChat AI podem aprimorar os serviços de cuidados para idosos."
-tags: ["Cuidados para Idosos", "Linha de Apoio para Idosos", "Taiwan", "SeaX", "SeaChat AI", "Recursos Comunitários"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Cuidados para Idosos
+  - Linha de Apoio para Idosos
+  - Taiwan
+  - SeaX
+  - SeaChat AI
+  - Recursos Comunitários
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Diretório de Linhas de Apoio para Idosos: Recursos de Cuidados para Idosos em Taiwan

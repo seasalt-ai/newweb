@@ -1,17 +1,20 @@
 ---
 title: "Externalisation des réceptionnistes en direct vs. interne : Recommandations pratiques pour les entreprises (2/5)"
 metatitle: "Externalisation des réceptionnistes en direct vs. interne"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Comparez les réceptionnistes en direct et le personnel interne : coûts, avantages et informations clés sur l'entreprise."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *Ceci est une série de 5 articles explorant les stratégies de communication client pour les petites entreprises, en se concentrant sur les services de réponse:*

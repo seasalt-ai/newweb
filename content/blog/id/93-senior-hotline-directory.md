@@ -1,13 +1,19 @@
 ---
 title: "Direktori Hotline Senior: Sumber Daya Perawatan Lansia di Taiwan"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Panduan komprehensif untuk hotline senior di Taiwan, menyediakan informasi kontak penting untuk biro kesejahteraan sosial di kota-kota besar. Pelajari bagaimana SeaX dan SeaChat AI dapat meningkatkan layanan perawatan lansia."
-tags: ["Perawatan Lansia", "Hotline Senior", "Taiwan", "SeaX", "SeaChat AI", "Sumber Daya Komunitas"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Perawatan Lansia
+  - Hotline Senior
+  - Taiwan
+  - SeaX
+  - SeaChat AI
+  - Sumber Daya Komunitas
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Direktori Hotline Senior: Sumber Daya Perawatan Lansia di Taiwan

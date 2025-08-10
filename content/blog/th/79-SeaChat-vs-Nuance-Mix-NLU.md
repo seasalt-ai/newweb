@@ -1,16 +1,21 @@
 ---
 title: "อนาคตของ Conversational AI: SeaChat แทนที่ Nuance Mix NLU หรือไม่?"
-metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+metatitle: SeaChat vs. Nuance Mix NLU
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: ทำไม Nuance Mix NLU ถึงล้าสมัย? ค้นพบ SeaChat - หลีกหนีจาก chatbot ที่ซ้ำซากจำเจด้วยเทคโนโลยี LLM ขั้นสูง ส่งเสริมการสนทนาที่น่าสนใจเหมือนมนุษย์
 weight: 1
-tags: ["SeaChat", "เครื่องมือ AI", "โมเดลภาษาขนาดใหญ่", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - เครื่องมือ AI
+  - โมเดลภาษาขนาดใหญ่
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 โลกของ Conversational AI กำลังคึกคักด้วยนวัตกรรม ในขณะที่ [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) ได้สร้างตัวเองให้เป็นเครื่องมืออันทรงพลังสำหรับการทำความเข้าใจเจตนาของผู้ใช้ การเกิดขึ้นของ Large Language Models (LLMs) นำเสนอทางเลือกที่น่าสนใจ [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ซึ่งเป็นแพลตฟอร์มที่สร้างขึ้นบนเทคโนโลยี LLM นำเสนอภาพรวมของอนาคตที่เป็นไปได้ของ Conversational AI

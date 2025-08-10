@@ -1,17 +1,20 @@
 ---
 title: "如何选择最佳外呼服务：实时座席 vs. 自动拨号器 vs. 语音 AI (5/5)"
 metatitle: "Seasalt.ai | 选择最佳外呼服务"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "探索实时座席、自动拨号器和语音 AI，为您的业务需求选择最佳外呼解决方案。"
 weight: 1
-tags: ["自动电话营销服务", "小型企业外呼", "自动拨号器", "语音 AI"]
-toc: true
+tags:
+  - 自动电话营销服务
+  - 小型企业外呼
+  - 自动拨号器
+  - 语音 AI
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

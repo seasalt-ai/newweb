@@ -1,16 +1,20 @@
 ---
-title: "رسم مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في إنشاء روبوتات الدردشة الجذابة"
+title: " رسم مسار جديد: لماذا يتفوق SeaChat على SAP Conversational AI في إنشاء روبوتات الدردشة الجذابة"
 metatitle: "SeaChat مقابل SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: لماذا أصبح SAP Conversational AI قديمًا؟ اكتشف SeaChat - ابتعد عن شواطئ روبوتات الدردشة المتكررة باستخدام تقنية LLM المتقدمة، مما يعزز المحادثات الجذابة الشبيهة بالبشر.
+description: "لماذا أصبح SAP Conversational AI قديمًا؟ اكتشف SeaChat - ابتعد عن شواطئ روبوتات الدردشة المتكررة باستخدام تقنية LLM المتقدمة، مما يعزز المحادثات الجذابة الشبيهة بالبشر."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 تهب رياح التغيير في عالم الذكاء الاصطناعي التخاطبي. بينما كان [SAP Conversational AI](https://cai.tools.sap/) خيارًا شائعًا لبناء روبوتات الدردشة المؤسسية، فإن موجة جديدة من التكنولوجيا تحتل مركز الصدارة: نماذج اللغة الكبيرة (LLMs). يقدم [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، وهو منصة مبنية على تقنية LLM، نهجًا رائدًا، متجاوزًا قيود المحركات القائمة على القواعد مثل SAP Conversational AI. هل أنت مستعد للإبحار نحو تجربة روبوت دردشة أكثر جاذبية؟

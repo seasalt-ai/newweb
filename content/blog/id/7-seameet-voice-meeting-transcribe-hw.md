@@ -1,18 +1,17 @@
 ---
 title: "Dari Demo ke Sukses: Melampaui Perangkat Keras (5/5)"
 metatitle: "Dari Demo ke Sukses (5/5): Melampaui Perangkat Keras"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "Di bagian terakhir dari seri blog ini, ikuti perjalanan Seasalt.ai dalam menciptakan SeaMeet, solusi rapat modern kolaboratif kami."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *Di seluruh seri blog ini, ikuti perjalanan Seasalt.ai dalam menciptakan Pengalaman Rapat Modern yang menyeluruh, mulai dari awal yang sederhana, hingga mengoptimalkan layanan kami pada perangkat keras dan model yang berbeda, hingga mengintegrasikan sistem NLP canggih dan akhirnya berakhir pada realisasi penuh SeaMeet, solusi rapat modern kolaboratif kami.*

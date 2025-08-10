@@ -1,15 +1,18 @@
 ---
 title: "Meta Llama 3 and the Importance of Bridging the Gap Between AI Models and Business Applications"
 metatitle: "Meta Llama 3 | Bridging AI Models with Business Applications"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
 draft: false
 author: Amy Chen
-description: Meta AI's Llama 3 release highlights the need for solutions that bridge the gap between powerful AI models and practical business applications. Learn about how Seasalt.ai build customized Conversational AI products to bridge this gap and solve real-world challenges.
+description: "Meta AI's Llama 3 release highlights the need for solutions that bridge the gap between powerful AI models and practical business applications. Learn about how Seasalt.ai build customized Conversational AI products to bridge this gap and solve real-world challenges."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI and Llama3

@@ -1,18 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구"
+metatitle: "디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구"
 date: 2022-12-27 17:04:20-08:00
-description: 이 블로그에서는 몇 달간의 실제 텍스트 음성 변환 데이터를 검토한 후 실제 디스코드 사용자가 당사 서비스를 어떻게 활용하는지에
-  대한 당사의 발견을 논의할 것입니다.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: '디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: '디스코드의 텍스트 음성 변환: TTS 디스코드 봇 사례 연구'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "이 블로그에서는 몇 달간의 실제 텍스트 음성 변환 데이터를 검토한 후 실제 디스코드 사용자가 당사 서비스를 어떻게 활용하는지에 대한 당사의 발견을 논의할 것입니다."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

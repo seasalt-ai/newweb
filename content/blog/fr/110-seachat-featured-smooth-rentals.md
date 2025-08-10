@@ -1,17 +1,22 @@
 ---
 title: "SeaChat en vedette : Le meilleur outil d'automatisation de la location de vacances par Smooth Rentals"
 metatitle: "SeaChat par Seasalt.ai | Automatisation de la location de vacances | Fonctionnalité Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat par Seasalt.ai est reconnu comme un outil d'automatisation de premier plan pour les locations de vacances dans le dernier article de blog de Smooth Rentals. Découvrez comment SeaChat rationalise la communication avec les clients et améliore l'efficacité."
 weight: 1
-tags: ["SeaChat", "Location de vacances", "Automatisation", "Communication avec les clients", "Smooth Rentals", "Chatbot IA"]
-toc: true
+tags:
+  - SeaChat
+  - Location de vacances
+  - Automatisation
+  - Communication avec les clients
+  - Smooth Rentals
+  - Chatbot IA
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat en vedette dans le guide de Smooth Rentals sur les outils d'automatisation de la location de vacances

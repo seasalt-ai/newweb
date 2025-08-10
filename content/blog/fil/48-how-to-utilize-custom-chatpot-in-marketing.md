@@ -1,17 +1,19 @@
 ---
 title: "Paggamit ng Custom ChatGPT Bots para sa Makabagong Marketing"
 metatitle: "Paggamit ng Custom ChatGPT Bots para sa Makabagong Marketing | SeaChat Next-Gen Series"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Tuklasin kung paano maaaring magbigay ng bagong sigla ang mga custom na ChatGPT bot sa mga kampanya sa marketing. Mula sa mga makabagong interaksyon hanggang sa pagpapahusay ng imahe ng brand, inilalantad ng artikulong ito ang walang limitasyong potensyal ng AI sa marketing.
+description: "Tuklasin kung paano maaaring magbigay ng bagong sigla ang mga custom na ChatGPT bot sa mga kampanya sa marketing. Mula sa mga makabagong interaksyon hanggang sa pagpapahusay ng imahe ng brand, inilalantad ng artikulong ito ang walang limitasyong potensyal ng AI sa marketing."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Tuklasin kung paano maaaring magbigay ng bagong sigla ang mga custom na ChatGPT bot sa mga kampanya sa marketing. Mula sa mga makabagong interaksyon hanggang sa pagpapahusay ng imahe ng brand, inilalantad ng artikulong ito ang walang limitasyong potensyal ng AI sa marketing."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 Sa mabilis na pagbabago ng digital marketing, patuloy na naghahanap ang mga ahensya ng marketing ng mga bagong estratehiya upang akitin ang mga customer at lumikha ng natatanging karanasan sa brand. Sa pagtaas ng artificial intelligence, lumitaw ang mga custom na ChatGPT bot, na nagbibigay sa mga propesyonal sa marketing ng isang makabagong tool upang makipag-ugnayan at makipag-ugnayan sa mga customer.

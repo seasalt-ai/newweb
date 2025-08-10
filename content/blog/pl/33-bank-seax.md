@@ -1,16 +1,18 @@
 ---
 title: "Historia Klienta: Wzmocnienie Pozycji Dużego Banku Azjatyckiego w Zapewnianiu Wielojęzycznego i Skoncentrowanego na Prywatności Wsparcia dla Klientów"
 metatitle: "Bank Azjatycki Zapewnia Wielojęzyczne i Prywatne Wsparcie dzięki SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Blog opisuje, w jaki sposób wdrożenie wielokanałowego centrum kontaktowego zrewolucjonizowało krajobraz obsługi klienta dla dużego banku prywatnego w Azji Południowo-Wschodniej, poprawiając wydajność agentów poprzez transkrypcje mowy w czasie rzeczywistym, dane oparte na spostrzeżeniach i solidne środki ochrony prywatności danych.
+description: "Blog opisuje, w jaki sposób wdrożenie wielokanałowego centrum kontaktowego zrewolucjonizowało krajobraz obsługi klienta dla dużego banku prywatnego w Azji Południowo-Wschodniej, poprawiając wydajność agentów poprzez transkrypcje mowy w czasie rzeczywistym, dane oparte na spostrzeżeniach i solidne środki ochrony prywatności danych."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 Historia sukcesu wdrożenia wielokanałowego centrum kontaktowego dla jednego z największych banków prywatnych w Azji Południowo-Wschodniej pokazuje, w jaki sposób zaawansowana technologia i podejście zorientowane na klienta mogą przekształcić krajobraz obsługi klienta, zapewniając jednocześnie prywatność danych.

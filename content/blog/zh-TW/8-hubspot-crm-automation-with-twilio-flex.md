@@ -1,17 +1,17 @@
 ---
 title: "AI 驅動的聯絡中心自動化：虛擬代理與 CRM 的協作"
 metatitle: "SeaX 聯絡中心：虛擬代理自動化與 CRM 整合"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "本篇部落格將探討如何將 HubSpot 等 CRM 整合進 Seax 聯絡中心，讓您能直接存取所有資訊與工具。"
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## 將 HubSpot 整合進 SeaX

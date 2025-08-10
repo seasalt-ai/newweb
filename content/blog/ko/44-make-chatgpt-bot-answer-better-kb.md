@@ -1,19 +1,19 @@
 ---
 title: "정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법 – 지식 기반"
 metatitle: "정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법 – 지식 기반 | SeaChat 차세대 시리즈"
-date: 2023-10-30T10:25:00-08:00
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법을 알아보세요. 지식 기반 구축부터 실제 개발 프로세스, 지식 포인트 미세 조정 기술까지 다루며, SeaChat 봇 사례를 통해 성공적인 구현을 보여줍니다. 효율적이고 개인화된 스마트 챗봇을 쉽게 만들 수 있도록 포괄적인 가이드를 제공합니다.
+description: "정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법을 알아보세요. 지식 기반 구축부터 실제 개발 프로세스, 지식 포인트 미세 조정 기술까지 다루며, SeaChat 봇 사례를 통해 성공적인 구현을 보여줍니다. 효율적이고 개인화된 스마트 챗봇을 쉽게 만들 수 있도록 포괄적인 가이드를 제공합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법을 알아보세요. 지식 기반 구축부터 실제 개발 프로세스, 지식 포인트 미세 조정 기술까지 다루며, SeaChat 봇 사례를 통해 성공적인 구현을 보여줍니다. 효율적이고 개인화된 스마트 챗봇을 쉽게 만들 수 있도록 포괄적인 가이드를 제공합니다."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 기술의 급속한 발전과 함께 챗봇은 다양한 산업에서 필수적인 도구가 되었습니다. 챗봇은 즉각적인 답변을 제공하고 고객 서비스 경험을 개선하며 수동 고객 서비스의 부담을 크게 줄일 수 있습니다. 이 글에서는 지식 기반 구축 및 미세 조정, 그리고 봇 제작의 실제 운영에 특별히 초점을 맞춰 정확한 답변을 제공하는 맞춤형 ChatGPT 봇을 만드는 방법을 살펴봅니다.

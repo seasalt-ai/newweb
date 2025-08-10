@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: AI 음성 비서가 노인 돌봄의 스마트 솔루션을 혁신하다"
 metatitle: "SeaX + SeaChat: AI 음성 비서를 통한 노인 돌봄 혁신 - 스마트 케어 콜의 성공적인 적용"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "SeaX + SeaChat AI 음성 비서 시스템이 대만 초고령 사회의 노인 돌봄 문제를 어떻게 해결하는지 알아보세요. 스마트 케어 콜이 노인의 삶의 질을 향상시키고, 실시간 돌봄, 정서적 동반자 관계 및 건강 모니터링을 제공하며, 인력 부족 문제에 대처하는 방법을 이해합니다."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: '대만이 초고령 사회로 진입함에 따라 노인 돌봄은 전례 없는 도전에 직면하고 있습니다. 국가발전위원회의 데이터에 따르면, 2024년 대만의 노인 인구 비율은 20%에 육박할 것이며, 2025년에는 공식적으로 초고령 사회에 진입할 것으로 예상됩니다. 이러한 인구 구조 변화 속에서 실시간 돌봄, 다양한 서비스 제공, 인력 부족 문제 해결은 현재 장기 요양 산업의 세 가지 주요 과제가 되었습니다.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 대만이 초고령 사회로 진입함에 따라 노인 돌봄은 전례 없는 도전에 직면하고 있습니다. 국가발전위원회의 데이터에 따르면, 2024년 대만의 노인 인구 비율은 20%에 육박할 것이며, 2025년에는 공식적으로 초고령 사회에 진입할 것으로 예상됩니다. 이러한 인구 구조 변화 속에서 실시간 돌봄, 다양한 서비스 제공, 인력 부족 문제 해결은 현재 장기 요양 산업의 세 가지 주요 과제가 되었습니다.

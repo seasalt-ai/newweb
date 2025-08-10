@@ -1,18 +1,17 @@
 ---
 title: "AIミーティングアシスタントの対決：Microsoft Teams vs Google Meet"
 metatitle: "AIミーティングアシスタントの対決：Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Microsoft TeamsとGoogle MeetのAIミーティングアシスタントを探索し、プラットフォームの言語サポートを比較し、SeaMeetがリアルタイム文字起こし、要約、その他の機能を提供する方法を学びます。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Microsoft TeamsとGoogle MeetのAIミーティングアシスタントを探索し、プラットフォームの言語サポートを比較し、SeaMeetがリアルタイム文字起こし、要約、その他の機能を提供する方法を学びます。"
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 技術の進歩に伴い、AIミーティングアシスタントは会議の効率を向上させるための重要なツールとなっています。これらのツールは、自動的に会議の要約を作成し、音声をテキストに変換し、さらには会議中の重要な情報を特定することもできます。この記事では、3つの主要なAIミーティングアシスタントを検討します：Microsoft TeamsのCopilot、Google MeetのDuet AI、そしてSeaMeetです。

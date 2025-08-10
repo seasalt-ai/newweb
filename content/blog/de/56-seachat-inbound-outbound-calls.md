@@ -1,16 +1,20 @@
 ---
 title: "Eingehende und ausgehende Anrufe, KI-Telefonagenten können für Sie bei beidem arbeiten"
 metatitle: "KI-Telefonagent | Für eingehende und ausgehende Anrufe"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Entdecken Sie das bahnbrechende Potenzial von KI-Telefonagenten im Kundenservice und Vertrieb, die eingehende und ausgehende Anrufe für mehr Effizienz und Umsatzwachstum transformieren."
 weight: 1
-tags: ["SeaChat", "Sprachagent", "KI-Tools", "Kundenerlebnis"]
+tags:
+  - SeaChat
+  - Sprachagent
+  - KI-Tools
+  - Kundenerlebnis
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 In der sich ständig weiterentwickelnden Landschaft des Kundenservice und Vertriebs haben sich KI-Telefonagenten als neue und effiziente Werkzeuge für Unternehmen herauskristallisiert. Diese intelligenten Agenten sind darauf ausgelegt, sowohl eingehende als auch ausgehende Anrufe zu bearbeiten, Kundeninteraktionen zu revolutionieren und den Umsatz zu steigern. Dieser Artikel befasst sich mit den verschiedenen Anwendungsfällen von KI-Telefonagenten bei eingehenden und ausgehenden Anrufen und hebt ihre Vielseitigkeit und ihr Potenzial zur Transformation der Unternehmenskommunikation hervor.

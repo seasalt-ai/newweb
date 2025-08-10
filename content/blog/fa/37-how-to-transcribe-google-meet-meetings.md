@@ -1,16 +1,17 @@
 ---
 title: "چگونه جلسات Google Meet را به صورت بلادرنگ رونویسی کنیم؟"
 metatitle: "چگونه جلسات Google Meet را به صورت بلادرنگ رونویسی کنیم؟"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: بررسی روش‌های رونویسی جلسات Google Meet به صورت بلادرنگ، از قابلیت‌های داخلی تا ابزار SeaMeet از Seasalt.ai، با تمرکز بر دقت، ذخیره‌سازی داده‌ها، اشتراک‌گذاری و حریم خصوصی. بهترین ابزارها را برای اطمینان از کارایی و امنیت انتخاب کنید.
+description: "بررسی روش‌های رونویسی جلسات Google Meet به صورت بلادرنگ، از قابلیت‌های داخلی تا ابزار SeaMeet از Seasalt.ai، با تمرکز بر دقت، ذخیره‌سازی داده‌ها، اشتراک‌گذاری و حریم خصوصی. بهترین ابزارها را برای اطمینان از کارایی و امنیت انتخاب کنید."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "بررسی روش‌های رونویسی جلسات Google Meet به صورت بلادرنگ، از قابلیت‌های داخلی تا ابزار SeaMeet از Seasalt.ai، با تمرکز بر دقت، ذخیره‌سازی داده‌ها، اشتراک‌گذاری و حریم خصوصی. بهترین ابزارها را برای اطمینان از کارایی و امنیت انتخاب کنید."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **فهرست مطالب**

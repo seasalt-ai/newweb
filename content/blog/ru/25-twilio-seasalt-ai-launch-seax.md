@@ -1,16 +1,17 @@
 ---
 title: "Twilio и Seasalt.ai запустили SeaX в Азиатско-Тихоокеанском регионе и Японии"
 metatitle: "Пусть ваш контакт-центр говорит с помощью SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio и Seasalt.ai расширяют партнерство в Азиатско-Тихоокеанском регионе и Японии для создания многонациональных облачных контакт-центров"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 По мере развития контакт-центра – и появления все большего числа каналов связи онлайн – компании как никогда ранее удовлетворяют предпочтения потребителей. Сегодняшний клиент хочет общаться по своим предпочтительным каналам. Колл-центр хорошо известен своей поддержкой клиентов, но все чаще ожидается, что каналы могут использоваться как для поддержки клиентов, так и для коммерческих бесед с брендом.

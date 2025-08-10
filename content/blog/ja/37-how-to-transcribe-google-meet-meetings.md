@@ -1,16 +1,17 @@
 ---
 title: "Google Meetのリアルタイム文字起こしの方法"
 metatitle: "Google Meetのリアルタイム文字起こしの方法"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Google Meetのリアルタイム文字起こし方法を学びましょう。組み込み機能からSeasalt.aiのSeaMeetまで、精度、データ保存、共有、プライバシーに焦点を当てて解説します。効率性とセキュリティを重視したベストツールの選び方をご紹介します。
+description: "Google Meetのリアルタイム文字起こし方法を学びましょう。組み込み機能からSeasalt.aiのSeaMeetまで、精度、データ保存、共有、プライバシーに焦点を当てて解説します。効率性とセキュリティを重視したベストツールの選び方をご紹介します。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Google Meetのリアルタイム文字起こし方法を学びましょう。組み込み機能からSeasalt.aiのSeaMeetまで、精度、データ保存、共有、プライバシーに焦点を当てて解説します。効率性とセキュリティを重視したベストツールの選び方をご紹介します。"
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **目次**

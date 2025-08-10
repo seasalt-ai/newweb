@@ -1,15 +1,17 @@
 ---
 title: "Customer Story: How Seax Helped Top Mobile Phone Brand Support Customers Across 100 Countries"
 metatitle: "SeaX Helped a Top Mobile Brand Support Customers Globally"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Discover how Seasalt.ai's transformative omni-channel contact center deployment helped a Top 5 mobile phone brand revolutionize customer support operations in 100 countries, from chaos to customer delight!
+description: "Discover how Seasalt.ai's transformative omni-channel contact center deployment helped a Top 5 mobile phone brand revolutionize customer support operations in 100 countries, from chaos to customer delight!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 

@@ -1,19 +1,18 @@
 ---
 title: "Kung Paano Binabago ng Real-time na Transkripsyon at Pagsusuri ng Pulong ang mga Pulong sa Google Meet"
 metatitle: "Kung Paano Binabago ng Real-time na Transkripsyon at Pagsusuri ng Pulong ang mga Pulong sa Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Binago ng mga feature ng real-time na transkripsyon at pagsusuri ng pulong ang paraan ng pagsasagawa ng mga pulong. Hindi lamang nila pinapataas ang kahusayan ng pulong, nagbibigay ng mga instant na insight, at pinapadali ang mabilis na paggawa ng desisyon, ngunit pinapahusay din nila ang pakikipag-ugnayan ng mga dumalo at tinitiyak ang tagumpay ng mga modernong pulong sa negosyo."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Binago ng mga feature ng real-time na transkripsyon at pagsusuri ng pulong ang paraan ng pagsasagawa ng mga pulong. Hindi lamang nila pinapataas ang kahusayan ng pulong, nagbibigay ng mga instant na insight, at pinapadali ang mabilis na paggawa ng desisyon, ngunit pinapahusay din nila ang pakikipag-ugnayan ng mga dumalo at tinitiyak ang tagumpay ng mga modernong pulong sa negosyo."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 Sa modernong kapaligiran ng negosyo, ang mga pagpupulong ay isang mahalagang plataporma para sa pagtataguyod ng pagtutulungan ng magkakasama at paggawa ng desisyon. Gayunpaman, dahil sa maraming magkakasabay na pagpupulong at abalang mga iskedyul, nagiging mas mahirap na manatiling naka-sync sa lahat ng mga pagpupulong. Laban sa background na ito, ang pangangailangan para sa real-time na transkripsyon at pagsusuri ng pulong ay nagiging mas kitang-kita, dahil nagbibigay sila ng solusyon upang malampasan ang mga limitasyon ng mga tradisyonal na pamamaraan ng pag-record ng pulong at matiyak ang epektibong pamamahala ng pulong.

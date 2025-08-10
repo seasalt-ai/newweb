@@ -1,19 +1,19 @@
 ---
 title: "ChatGPT를 사용하여 회사 지식 기반 구축"
 metatitle: "ChatGPT를 사용하여 회사 지식 기반 구축 | SeaChat 차세대 시리즈"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 맞춤형 ChatGPT 챗봇이 기업 내부 지식 기반 관리를 어떻게 혁신할 수 있는지 알아보세요. 이 글은 프로젝트 관리, 인적 자원, 엔지니어링 설계 등 다양한 분야에서의 적용을 심층적으로 분석하고, 코딩 없이 빠른 배포의 편리함을 보여주며, 미래 트렌드를 예측하고, 기업의 디지털 전환에서 챗봇의 핵심적인 역할을 기대합니다.
+description: "맞춤형 ChatGPT 챗봇이 기업 내부 지식 기반 관리를 어떻게 혁신할 수 있는지 알아보세요. 이 글은 프로젝트 관리, 인적 자원, 엔지니어링 설계 등 다양한 분야에서의 적용을 심층적으로 분석하고, 코딩 없이 빠른 배포의 편리함을 보여주며, 미래 트렌드를 예측하고, 기업의 디지털 전환에서 챗봇의 핵심적인 역할을 기대합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "맞춤형 ChatGPT 챗봇이 기업 내부 지식 기반 관리를 어떻게 혁신할 수 있는지 알아보세요. 이 글은 프로젝트 관리, 인적 자원, 엔지니어링 설계 등 다양한 분야에서의 적용을 심층적으로 분석하고, 코딩 없이 빠른 배포의 편리함을 보여주며, 미래 트렌드를 예측하고, 기업의 디지털 전환에서 챗봇의 핵심적인 역할을 기대합니다."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 오늘날 디지털 전환 시대에 기업들은 내부 운영 효율성과 고객 서비스 품질을 향상시키는 데 있어 AI 챗봇의 엄청난 잠재력을 점차 인식하고 있습니다. 특히 ChatGPT와 같은 고급 챗봇 기술은 기업 내부 지식 기반 관리 및 고객 상호 작용의 중요한 도구가 될 것입니다.

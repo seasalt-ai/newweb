@@ -1,17 +1,20 @@
 ---
 title: "Auto-Dialer für Outbound-Anrufe: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Live-Outbound-Anrufe | Auto-Dialer"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Vergleichen Sie Power-, Progressive- und Predictive-Dialer für effektive, skalierbare Outbound-Anrufe im Telemarketing und Vertrieb."
 weight: 1
-tags: ["Automatischer Telemarketing-Dienst", "Outbound-Anruf für kleine Unternehmen", "Auto-Dialer", "Sprach-KI"]
-toc: true
+tags:
+  - Automatischer Telemarketing-Dienst
+  - Outbound-Anruf für kleine Unternehmen
+  - Auto-Dialer
+  - Sprach-KI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

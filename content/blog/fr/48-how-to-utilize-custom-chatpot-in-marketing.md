@@ -1,17 +1,19 @@
 ---
 title: "Utiliser des robots ChatGPT personnalisés pour un marketing innovant"
 metatitle: "Utiliser des robots ChatGPT personnalisés pour un marketing innovant | Série SeaChat pour les chatbots de nouvelle génération"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explorez comment utiliser des robots ChatGPT personnalisés pour insuffler une nouvelle vie aux campagnes marketing. De l'interaction innovante à l'amélioration de l'image de marque, cet article révèle le potentiel illimité de l'IA dans le marketing.
+description: "Explorez comment utiliser des robots ChatGPT personnalisés pour insuffler une nouvelle vie aux campagnes marketing. De l'interaction innovante à l'amélioration de l'image de marque, cet article révèle le potentiel illimité de l'IA dans le marketing."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Explorez comment utiliser des robots ChatGPT personnalisés pour insuffler une nouvelle vie aux campagnes marketing. De l'interaction innovante à l'amélioration de l'image de marque, cet article révèle le potentiel illimité de l'IA dans le marketing."
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 Dans le paysage en évolution rapide du marketing numérique, les agences marketing recherchent continuellement de nouvelles stratégies pour attirer les clients et créer des expériences de marque uniques. Avec l'essor de l'intelligence artificielle, les robots ChatGPT personnalisés sont apparus, offrant aux professionnels du marketing un outil innovant pour attirer et interagir avec les clients.

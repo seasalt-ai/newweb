@@ -1,16 +1,20 @@
 ---
 title: "Połączenia przychodzące i wychodzące, agent telefoniczny AI może pracować dla Ciebie w obu przypadkach"
 metatitle: "Agent telefoniczny AI | Zarówno dla połączeń przychodzących, jak i wychodzących"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Odkryj przełomowy potencjał agentów telefonicznych AI w obsłudze klienta i sprzedaży, przekształcając połączenia przychodzące i wychodzące w celu zwiększenia wydajności i wzrostu przychodów."
 weight: 1
-tags: ["SeaChat", "Agent głosowy", "Narzędzia AI", "Doświadczenie klienta"]
+tags:
+  - SeaChat
+  - Agent głosowy
+  - Narzędzia AI
+  - Doświadczenie klienta
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 W stale zmieniającym się krajobrazie obsługi klienta i sprzedaży agenci telefoniczni AI pojawili się jako nowe i wydajne narzędzia dla firm. Ci inteligentni agenci są zaprojektowani do obsługi zarówno połączeń przychodzących, jak i wychodzących, rewolucjonizując interakcje z klientami i zwiększając przychody. W tym artykule omówiono różne przypadki użycia agentów telefonicznych AI w połączeniach przychodzących i wychodzących, podkreślając ich wszechstronność i potencjał do przekształcania komunikacji biznesowej.

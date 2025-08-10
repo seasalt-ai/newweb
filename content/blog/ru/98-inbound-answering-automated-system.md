@@ -1,17 +1,20 @@
 ---
 title: "Автоматизированные системы ответа на телефонные звонки (интерактивное голосовое меню против голосовых ИИ-агентов): Лучшие варианты для малого бизнеса (3/5)"
 metatitle: "Автоматизированные системы ответа (интерактивное голосовое меню против голосового ИИ)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Изучите варианты интерактивного голосового меню и голосовых ИИ-агентов для автоматизированных телефонных систем в малом бизнесе."
 weight: 1
-tags: ["Услуга автоответчика", "Входящие звонки для малого бизнеса", "SeaChat",  "Голосовой ИИ"]
-toc: true
+tags:
+  - Услуга автоответчика
+  - Входящие звонки для малого бизнеса
+  - SeaChat
+  - Голосовой ИИ
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

@@ -1,17 +1,20 @@
 ---
 title: "தானியங்கு தொலைபேசி பதிலளிப்பு அமைப்புகள் (ஊடாடும் குரல் பதில் vs. குரல் AI முகவர்கள்): சிறு வணிகங்களுக்கான சிறந்த தேர்வுகள் (3/5)"
 metatitle: "தானியங்கு பதிலளிப்பு அமைப்புகள் (ஊடாடும் குரல் பதில் vs. குரல் AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "சிறு வணிகங்களில் தானியங்கு தொலைபேசி அமைப்புகளுக்கான ஊடாடும் குரல் பதில் மற்றும் குரல் AI முகவர் விருப்பங்களை ஆராயுங்கள்."
 weight: 1
-tags: ["தானியங்கு பதிலளிப்பு சேவை", "சிறு வணிகங்களுக்கான உள்வரும் அழைப்பு", "SeaChat",  "குரல் AI"]
-toc: true
+tags:
+  - தானியங்கு பதிலளிப்பு சேவை
+  - சிறு வணிகங்களுக்கான உள்வரும் அழைப்பு
+  - SeaChat
+  - குரல் AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

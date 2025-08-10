@@ -1,16 +1,17 @@
 ---
 title: "Twilio và Seasalt.ai ra mắt SeaX tại Châu Á-Thái Bình Dương & Nhật Bản"
 metatitle: "Hãy để Trung tâm liên lạc của bạn nói chuyện với SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio và Seasalt.ai mở rộng quan hệ đối tác tại Châu Á-Thái Bình Dương & Nhật Bản để xây dựng các Trung tâm liên lạc đám mây đa quốc gia"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 Khi trung tâm liên lạc phát triển – và ngày càng nhiều kênh liên lạc trực tuyến – các doanh nghiệp hơn bao giờ hết đang đáp ứng sở thích của người tiêu dùng. Khách hàng ngày nay muốn giao tiếp trên các kênh ưa thích của họ. Trung tâm cuộc gọi nổi tiếng về hỗ trợ khách hàng nhưng ngày càng có kỳ vọng rằng các kênh có thể được sử dụng cho cả hỗ trợ khách hàng và các cuộc trò chuyện thương mại với một thương hiệu.

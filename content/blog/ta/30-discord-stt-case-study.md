@@ -1,15 +1,17 @@
 ---
 title: "Discord இல் பேச்சு-க்கு-உரை: ஒரு STT Discord Bot Case Study"
 metatitle: "Discord இல் பேச்சு-க்கு-உரை: ஒரு STT Discord Bot Case Study"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: இந்த வலைப்பதிவில், பல வாரங்களாக உண்மையான பேச்சு-க்கு-உரை தரவை மதிப்பாய்வு செய்த பிறகு, உண்மையான Discord பயனர்கள் SeaVoice சேவைகளை எவ்வாறு பயன்படுத்துகிறார்கள் என்பது குறித்த எங்கள் கண்டுபிடிப்புகளைப் பற்றி விவாதிப்போம்.
+description: "இந்த வலைப்பதிவில், பல வாரங்களாக உண்மையான பேச்சு-க்கு-உரை தரவை மதிப்பாய்வு செய்த பிறகு, உண்மையான Discord பயனர்கள் SeaVoice சேவைகளை எவ்வாறு பயன்படுத்துகிறார்கள் என்பது குறித்த எங்கள் கண்டுபிடிப்புகளைப் பற்றி விவாதிப்போம்."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Discord இல் வேகமான மற்றும் துல்லியமான உரை-க்கு-பேச்சு மற்றும் பேச்சு-க்கு-உரை போட்களில் ஒன்றான SeaVoice ஐ அறிமுகப்படுத்திய பிறகு, பயனர்கள் உண்மையில் சேவைகளுடன் எவ்வாறு தொடர்பு கொள்கிறார்கள் என்பதை நாங்கள் புரிந்துகொள்ள விரும்பினோம். இந்த வலைப்பதிவில், பல வாரங்களாக உண்மையான பேச்சு-க்கு-உரை பயனர் தரவை மதிப்பாய்வு செய்த பிறகு எங்கள் கண்டுபிடிப்புகளைப் பற்றி விவாதிப்போம்.*

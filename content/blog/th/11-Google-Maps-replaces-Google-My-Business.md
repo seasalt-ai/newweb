@@ -1,16 +1,16 @@
 ---
 title: "ลาก่อน Google My Business, ตอนนี้ Google Maps คือ OS ใหม่สำหรับธุรกิจ"
 metatitle: "ลาก่อน GMB, Google Maps คือ OS ใหม่สำหรับธุรกิจ"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google กำลังแทนที่แอป Google My Business ด้วย Google Maps ซึ่งธุรกิจสามารถจัดการข้อมูลและตอบกลับข้อความของลูกค้าบน Google Maps ได้"
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: "2025-07-28T16:03:25.123456"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *การเชื่อมต่อธุรกิจกับผู้บริโภคโดยตรงผ่าน Google Maps มอบประสบการณ์ที่ราบรื่นสำหรับการช้อปปิ้งของผู้บริโภค นี่คือการเคลื่อนไหวเชิงกลยุทธ์ที่ยอดเยี่ยมสำหรับ Google ในการเปลี่ยน Google Maps ให้เป็นระบบปฏิบัติการใหม่สำหรับการค้นหาธุรกิจ "ใกล้ฉัน" ในท้องถิ่น*

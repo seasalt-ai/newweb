@@ -1,17 +1,19 @@
 ---
 title: "OpenAI vs. มนุษย์ vs. AI เสียง: การเปรียบเทียบต้นทุน (5/5)"
 metatitle: "OpenAI Realtime API vs. มนุษย์และ AI เสียง: การวิเคราะห์ต้นทุน"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "การวิเคราะห์ต้นทุนโดยละเอียดของ OpenAI Realtime API เปรียบเทียบกับพนักงานต้อนรับที่เป็นมนุษย์และตัวแทน AI เสียง"
-tags: ["บริการตอบรับอัตโนมัติ", "สายเรียกเข้าสำหรับธุรกิจขนาดเล็ก", "SeaChat", "AI เสียง"]
-toc: true
+tags:
+  - บริการตอบรับอัตโนมัติ
+  - สายเรียกเข้าสำหรับธุรกิจขนาดเล็ก
+  - SeaChat
+  - AI เสียง
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

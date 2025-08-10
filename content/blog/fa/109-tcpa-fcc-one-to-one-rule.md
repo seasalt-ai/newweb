@@ -1,17 +1,19 @@
 ---
 title: "هر آنچه برای آماده شدن برای قانون جدید رضایت یک به یک FCC در سال 2025 باید بدانید"
 metatitle: "Seasalt.ai | تغییرات قانون TCPA 2025 | راهنمای جامع"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "راهنمای عمیق در مورد تغییرات قانون TCPA 2025، ارائه اطلاعات ضروری برای کسب و کارها برای اطمینان از انطباق."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **این مقاله مشاوره حقوقی نیست. برای اطلاعات بیشتر با مشاور حقوقی خود مشورت کنید.**

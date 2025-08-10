@@ -1,17 +1,17 @@
 ---
 title: "Discord (2/3): How to Create a Discord Community and Bot for Your Brand"
 metatitle: "Discord (2/3): Create Your Brand's Discord Community and Bot"
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "In this blog, we’ll walk through creating a server for your brand and connecting a bot, which can automate moderation, bug reporting, announcements, etc."
+date: 2022-05-31 13:29:51-07:00
 draft: false
+author: Kim Dodds
+description: "In this blog, we’ll walk through creating a server for your brand and connecting a bot, which can automate moderation, bug reporting, announcements, etc."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Our blog post, [“Discord: A New Frontier for Customer Engagement”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), covered Discord’s rise in popularity, and how brands can capitalize on this new social platform to form their own online communities and engage with customers. In this blog, we’ll walk through how to create a new official server for your brand, including how to connect a bot, which can automate tasks like moderation, bug reporting, announcements, etc.*

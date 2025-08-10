@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite：2025 年哪个电子邮件营销服务适合您？"
 metatitle: "Mailchimp vs. MailerLite | 2025 年电子邮件营销服务？"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite 与 Mailchimp，哪个电子邮件服务适合您？我们的深入比较分析了功能、定价等。
+description: "MailerLite 与 Mailchimp，哪个电子邮件服务适合您？我们的深入比较分析了功能、定价等。"
 weight: 1
-tags: ["SeaChat", "电子商务", "电子邮件营销"]
+tags:
+  - SeaChat
+  - 电子商务
+  - 电子邮件营销
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 电子邮件营销仍然是各种规模企业的强大工具。无论您是在寻找电子邮件营销工作、寻求最佳的电子邮件营销软件，还是在寻找可行的电子邮件营销技巧，您都需要了解市场上最好的工具。今天，我们将比较两种流行的电子邮件营销工具，[Mailchimp](https://mailchimp.com/) 和 [MailerLite](https://www.mailerlite.com/)，供您参考。

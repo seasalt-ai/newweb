@@ -1,16 +1,21 @@
 ---
 title: "NLU oparte na intencjach/encji vs. NLU oparte na GenAI/LLM: różnica w milionach (przykładów i dolarów)"
 metatitle: "NLU oparte na intencjach/encji vs. NLU oparte na GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: Odblokuj przyszłość konwersacyjnej AI - Dlaczego przejście z NLU opartego na intencjach/encji na NLU oparte na GenAI/LLM jest kluczowe dla skalowalności, efektywności kosztowej i adaptowalności."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Do wszystkich dyrektorów obsługi klienta lub marketingu: jeśli szef zada Ci następujące pytanie, wyślij im ten artykuł:

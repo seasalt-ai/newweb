@@ -1,20 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging ergänzt Google Business Messages"
+metatitle: "Near Me Messaging ergänzt Google Business Messages"
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging integriert Konversations-KI mit Google Business Messages
-  und ermöglicht so 24/7-Support über die Chat-Schaltfläche in Ihrem Google Maps-Profil.
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging ergänzt Google Business Messages
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging ergänzt Google Business Messages
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging integriert Konversations-KI mit Google Business Messages und ermöglicht so 24/7-Support über die Chat-Schaltfläche in Ihrem Google Maps-Profil."
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

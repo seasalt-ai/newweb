@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Kontrolin ang Pagsubaybay sa Kaso ng Iyong Contact Center"
 metatitle: "SeaX Case Management: Subaybayan ang Iyong Mga Pakikipag-ugnayan sa Customer"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Sa post na ito, susuriin namin ang mga integrasyon ng AI sa Case Management, na nagbibigay sa iyong mga ahente ng mga tool upang subaybayan at i-record ang mga pakikipag-ugnayan sa iyong mga customer sa SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Sa aming nakaraang blog post, [SeaX KB: Isang Knowledge Base na Sumasagot Bago Pa Man Tanungin](https://seasalt.ai/blog/22-seax-knowledge-base/), ipinakita namin kung paano inilalagay ng in-house Knowledge Base ng Seasalt.ai ang impormasyon ng iyong kumpanya nang direkta sa mga kamay ng iyong mga ahente, na nagpapataas ng kahusayan at katumpakan sa iyong contact center. Sa post na ito, ipagpapatuloy namin ang paksa ng mga integrasyon ng AI sa sistema ng Case Management ng SeaX, na nagbibigay sa iyong mga ahente ng makapangyarihang mga tool upang subaybayan at i-record ang mga pakikipag-ugnayan sa iyong mga customer nang direkta sa interface ng SeaX.*

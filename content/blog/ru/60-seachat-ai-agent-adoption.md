@@ -1,16 +1,20 @@
 ---
 title: "SeaChat: Конструктор AI-агентов без кода упрощает внедрение AI"
 metatitle: "SeaChat: Конструктор AI-агентов без кода упрощает внедрение AI"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Легко внедряйте AI в вашей организации с помощью SeaChat! Этот конструктор AI-агентов без кода упрощает процесс, делая его легким и беспроблемным. Начните с простых сценариев использования и постепенно увеличивайте внедрение AI, экспериментируя с различными способами использования AI.
+description: "Легко внедряйте AI в вашей организации с помощью SeaChat! Этот конструктор AI-агентов без кода упрощает процесс, делая его легким и беспроблемным. Начните с простых сценариев использования и постепенно увеличивайте внедрение AI, экспериментируя с различными способами использования AI."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Представляем SeaChat: ваш конструктор AI-агентов без кода

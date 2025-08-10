@@ -1,18 +1,17 @@
 ---
 title: "事業主：営業時間外にGoogle Business Messagesを使用して顧客とエンゲージメント！"
 metatitle: "営業時間外にGoogle Business Messagesを使用して顧客とエンゲージメント！"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-01-27T10:30:00Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
+author: Ruli Setiawati
 description: "Google Business Profileは事業主が顧客と直接チャットすることを可能にしますが、Google Business Messagesは仮想カスタマーサービスとの統合を可能にします。"
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Google Business Messagesの利点と制限、および企業がGoogle Business Messagesを実装する方法について詳しく学びましょう。*

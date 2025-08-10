@@ -1,13 +1,19 @@
 ---
 title: "高齢者ホットラインディレクトリ：台湾の高齢者ケアリソース"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "台湾の高齢者ホットラインの包括的なガイド。主要都市の社会福祉局の重要な連絡先情報を提供します。SeaXとSeaChat AIが高齢者ケアサービスをどのように強化できるかをご覧ください。"
-tags: ["高齢者ケア", "高齢者ホットライン", "台湾", "SeaX", "SeaChat AI", "地域リソース"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - 高齢者ケア
+  - 高齢者ホットライン
+  - 台湾
+  - SeaX
+  - SeaChat AI
+  - 地域リソース
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # 高齢者ホットラインディレクトリ：台湾の高齢者ケアリソース

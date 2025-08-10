@@ -1,16 +1,17 @@
 ---
 title: "用户已离开网络聊天：使用“附近消息”向他们推送消息！"
 metatitle: "用户已离开网络聊天：使用“附近消息”取得联系！"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28 16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "“附近消息”解决了网络聊天的一个问题：即使用户*在*离开对话后也能重新与他们取得联系。"
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 2022 年圣诞节的早上，我醒来时收到了一个名叫亨利的用户留下的几条消息。等我看到这些消息时，亨利已经离开了。我只收到了他通过网络聊天发送的消息和他的名字。

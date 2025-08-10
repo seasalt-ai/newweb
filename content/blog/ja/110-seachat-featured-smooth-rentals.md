@@ -1,17 +1,22 @@
 ---
 title: "SeaChat特集：Smooth Rentalsによる最高のバケーションレンタル自動化ツール"
 metatitle: "Seasalt.aiのSeaChat | バケーションレンタル自動化 | Smooth Rentals特集"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "Seasalt.aiのSeaChatは、Smooth Rentalsの最新ブログ記事でバケーションレンタル向けの主要な自動化ソリューションとして認められました。SeaChatがゲストとのコミュニケーションを合理化し、効率を高める方法をご覧ください。"
 weight: 1
-tags: ["SeaChat", "バケーションレンタル", "自動化", "ゲストコミュニケーション", "Smooth Rentals", "AIチャットボット"]
-toc: true
+tags:
+  - SeaChat
+  - バケーションレンタル
+  - 自動化
+  - ゲストコミュニケーション
+  - Smooth Rentals
+  - AIチャットボット
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChatがSmooth Rentalsのバケーションレンタル自動化ツールガイドで特集されました

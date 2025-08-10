@@ -1,16 +1,18 @@
 ---
 title: "Ghidul dumneavoastră cuprinzător pentru conversia audio: Convertiți fișierele audio cu ușurință | Seria Audio Toolbox"
 metatitle: "Conversia fișierelor audio/sunet | Seria Audio Toolbox"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2024-05-16T12:00:00Z
 draft: false
 author: Guoguo Chen
-description: Aflați despre convertoarele de fișiere audio, conversia formatelor audio și cel mai bun software gratuit de conversie audio. Convertiți fișierele audio cu ușurință cu ghidul nostru pas cu pas.
+description: "Aflați despre convertoarele de fișiere audio, conversia formatelor audio și cel mai bun software gratuit de conversie audio. Convertiți fișierele audio cu ușurință cu ghidul nostru pas cu pas."
 weight: 1
-tags: ["Audio Toolbox", "Instrumente AI"]
+tags:
+  - Audio Toolbox
+  - Instrumente AI
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
-modified_date: "2024-05-16T12:00:00Z"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Introducere în conversia audio

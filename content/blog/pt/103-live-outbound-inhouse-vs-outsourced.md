@@ -1,17 +1,20 @@
 ---
 title: "Interno vs. Terceirização para Chamadas de Saída de Telemarketing: Recomendações Práticas para Empresas (2/5)"
 metatitle: "Seasalt.ai | Chamadas de Saída ao Vivo | Interno vs. Terceirizado"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Compare chamadas de saída internas vs. terceirizadas — custos, recursos e obtenha dicas práticas para otimizar seu alcance ao cliente."
 weight: 1
-tags: ["Serviço de Telemarketing Automático", "Chamada de Saída para Pequenas Empresas", "SeaChat", "IA de Voz"]
-toc: true
+tags:
+  - Serviço de Telemarketing Automático
+  - Chamada de Saída para Pequenas Empresas
+  - SeaChat
+  - IA de Voz
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

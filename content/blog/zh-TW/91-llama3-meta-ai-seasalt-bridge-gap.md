@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 與 AI 模型和商業應用之間的差距彌合的重要性"
 metatitle: "Meta Llama 3 | 彌合 AI 模型與商業應用之間的差距"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Meta AI 的 Llama 3 發布強調了彌合強大 AI 模型與實際商業應用之間差距的解決方案的必要性。了解 Seasalt.ai 如何構建定制的對話式 AI 產品來彌合這一差距並解決現實世界的挑戰。
+description: "Meta AI 的 Llama 3 發布強調了彌合強大 AI 模型與實際商業應用之間差距的解決方案的必要性。了解 Seasalt.ai 如何構建定制的對話式 AI 產品來彌合這一差距並解決現實世界的挑戰。"
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI 與 Llama3

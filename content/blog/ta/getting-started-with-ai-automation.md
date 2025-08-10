@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: சிறு வணிகங்களுக்கான AI ஆட்டோமேஷனுடன் தொடங்குதல்
+canonicalURL: blog/getting-started-with-ai-automation/
+url: blog/getting-started-with-ai-automation/
 ---
 
 

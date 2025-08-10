@@ -1,18 +1,17 @@
 ---
 title: "Chủ doanh nghiệp: Sử dụng Google Business Messages để tương tác ngoài giờ làm việc!"
 metatitle: "Sử dụng Google Business Messages để tương tác ngoài giờ làm việc!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Trong khi Hồ sơ doanh nghiệp của Google cho phép chủ doanh nghiệp trò chuyện trực tiếp với khách hàng, Google Business Messages cho phép tích hợp với một đại lý ảo."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Tìm hiểu thêm về lợi ích và hạn chế của Google Business Messages và cách các doanh nghiệp triển khai Google Business Messages.*

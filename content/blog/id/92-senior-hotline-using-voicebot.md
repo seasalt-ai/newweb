@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Solusi Cerdas Asisten Suara AI Merevolusi Perawatan Lansia"
 metatitle: "SeaX + SeaChat: Merevolusi Perawatan Lansia melalui Asisten Suara AI - Aplikasi Sukses Panggilan Perawatan Cerdas"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Jelajahi bagaimana sistem asisten suara AI SeaX + SeaChat dapat mengatasi tantangan perawatan lansia di masyarakat super-tua Taiwan. Pelajari bagaimana panggilan perawatan cerdas meningkatkan kualitas hidup lansia, memberikan perawatan real-time, pendampingan emosional, dan pemantauan kesehatan, serta mengatasi masalah kekurangan tenaga kerja."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Seiring Taiwan bergerak menuju masyarakat super-tua, perawatan lansia menghadapi tantangan yang belum pernah terjadi sebelumnya. Menurut data dari Dewan Pembangunan Nasional, proporsi populasi lansia Taiwan akan mendekati 20% pada tahun 2024, dan diperkirakan akan secara resmi memasuki masyarakat super-tua pada tahun 2025. Di bawah perubahan struktur demografi seperti itu, bagaimana secara efektif memberikan perawatan real-time, layanan yang beragam, dan mengatasi masalah kekurangan tenaga kerja telah menjadi tiga tantangan utama industri perawatan jangka panjang saat ini.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Seiring Taiwan bergerak menuju masyarakat super-tua, perawatan lansia menghadapi tantangan yang belum pernah terjadi sebelumnya. Menurut data dari Dewan Pembangunan Nasional, proporsi populasi lansia Taiwan akan mendekati 20% pada tahun 2024, dan diperkirakan akan secara resmi memasuki masyarakat super-tua pada tahun 2025. Di bawah perubahan struktur demografi seperti itu, bagaimana secara efektif memberikan perawatan real-time, layanan yang beragam, dan mengatasi masalah kekurangan tenaga kerja telah menjadi tiga tantangan utama industri perawatan jangka panjang saat ini.

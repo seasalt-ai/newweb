@@ -1,17 +1,17 @@
 ---
 title: "Automação de Contact Center com IA: Colaboração de Agente Virtual com CRM"
 metatitle: "SeaX Contact Center: Automação de Agente Virtual com CRM"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "Neste blog, vamos explorar a integração de um CRM como o HubSpot ao Seax Contact Center, proporcionando acesso direto a todas as suas informações e ferramentas."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## Integrando o HubSpot ao SeaX

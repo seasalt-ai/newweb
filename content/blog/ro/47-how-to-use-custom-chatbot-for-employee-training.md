@@ -1,16 +1,18 @@
 ---
 title: "Cum pot companiile să folosească chatbot-uri AI personalizate pentru a simplifica instruirea angajaților"
 metatitle: "Cum pot companiile să folosească chatbot-uri AI personalizate pentru a simplifica instruirea angajaților | Seria chatbot-urilor de nouă generație SeaChat"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explorați rolul revoluționar al chatbot-urilor AI personalizate în îmbunătățirea eficienței instruirii angajaților și a experienței de învățare personalizată, precum și rolul lor cheie în transmiterea culturii corporative și îmbunătățirea eficienței afacerii.
+description: "Explorați rolul revoluționar al chatbot-urilor AI personalizate în îmbunătățirea eficienței instruirii angajaților și a experienței de învățare personalizată, precum și rolul lor cheie în transmiterea culturii corporative și îmbunătățirea eficienței afacerii."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "Explorați rolul revoluționar al chatbot-urilor AI personalizate în îmbunătățirea eficienței instruirii angajaților și a experienței de învățare personalizată, precum și rolul lor cheie în transmiterea culturii corporative și îmbunătățirea eficienței afacerii."
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 Pentru a îmbunătăți eficiența și efectul instruirii noilor angajați, din ce în ce mai multe companii încep să exploreze posibilitățile de a folosi chatbot-uri AI personalizate. Acești roboți de chat avansați nu numai că pot oferi experiențe de învățare personalizate, dar pot ajuta, de asemenea, angajații să se integreze mai rapid în cultura companiei, crescând astfel eficiența generală a muncii și satisfacția angajaților.

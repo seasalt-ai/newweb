@@ -1,16 +1,20 @@
 ---
 title: "誰が電話している？パーソナライズされた音声AIエージェントで通話品質を向上"
 metatitle: "パーソナライズされた音声AIエージェントで通話品質を向上"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Voice AI Agentによる予約の未来を探る。AIと自然言語処理を統合した24時間対応のソリューションで、効率的かつスムーズな予約を実現。
+description: "Voice AI Agentによる予約の未来を探る。AIと自然言語処理を統合した24時間対応のソリューションで、効率的かつスムーズな予約を実現。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 忙しいスケジュールを管理する際、すべての電話が重要です。大切なビジネスの取引から家族や友人との連絡まで、私たちの日常は意味のある会話で成り立っています。しかし、多くの着信を処理するのは大変で時間がかかります。ここでパーソナライズされた音声AIエージェントが活躍します。

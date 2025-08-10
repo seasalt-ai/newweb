@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Zamiana tekstu na mowę na Discordzie: studium przypadku bota TTS na Discordzie"
+metatitle: "Zamiana tekstu na mowę na Discordzie: studium przypadku bota..."
 date: 2022-12-27 17:04:20-08:00
-description: W tym blogu omówimy nasze odkrycia dotyczące tego, w jaki sposób prawdziwi
-  użytkownicy Discorda korzystają z naszych usług po przejrzeniu kilkumiesięcznych
-  autentycznych danych zamiany tekstu na mowę.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Zamiana tekstu na mowę na Discordzie: studium przypadku bota...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Zamiana tekstu na mowę na Discordzie: studium przypadku bota TTS na Discordzie'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "W tym blogu omówimy nasze odkrycia dotyczące tego, w jaki sposób prawdziwi użytkownicy Discorda korzystają z naszych usług po przejrzeniu kilkumiesięcznych autentycznych danych zamiany tekstu na mowę."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

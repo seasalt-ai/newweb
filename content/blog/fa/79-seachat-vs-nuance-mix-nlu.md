@@ -1,16 +1,21 @@
 ---
 title: "آینده هوش مصنوعی مکالمه: آیا SeaChat جایگزین Nuance Mix NLU می‌شود؟"
 metatitle: "SeaChat در مقابل Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: چرا Nuance Mix NLU منسوخ شده است؟ SeaChat را کشف کنید - با فناوری پیشرفته LLM از سواحل تکراری چت‌بات‌ها دور شوید و مکالمات جذاب و انسان‌مانندی را پرورش دهید.
+description: "چرا Nuance Mix NLU منسوخ شده است؟ SeaChat را کشف کنید - با فناوری پیشرفته LLM از سواحل تکراری چت‌بات‌ها دور شوید و مکالمات جذاب و انسان‌مانندی را پرورش دهید."
 weight: 1
-tags: ["SeaChat", "ابزارهای هوش مصنوعی", "مدل‌های زبان بزرگ", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - ابزارهای هوش مصنوعی
+  - مدل‌های زبان بزرگ
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 دنیای هوش مصنوعی مکالمه با نوآوری در حال جوش و خروش است. در حالی که [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) خود را به عنوان ابزاری قدرتمند برای درک نیت کاربر تثبیت کرده است، ظهور مدل‌های زبان بزرگ (LLM) جایگزینی قانع‌کننده را ارائه می‌دهد. [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، پلتفرمی که بر پایه فناوری LLM ساخته شده است، نگاهی اجمالی به آینده بالقوه هوش مصنوعی مکالمه ارائه می‌دهد.

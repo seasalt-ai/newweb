@@ -1,17 +1,19 @@
 ---
 title: "Streamlining Customer Support with SeaChat and Zoho Desk Knowledge Base Integration"
 metatitle: "Streamline Customer Support with SeaChat and Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Discover how SeaChat's AI chat and voice agent integrates with Zoho Desk's Knowledge Base for seamless, efficient customer support.
+description: "Discover how SeaChat's AI chat and voice agent integrates with Zoho Desk's Knowledge Base for seamless, efficient customer support."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Integration", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Integration
+  - Customer Experience
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 In today’s rapidly evolving digital landscape, businesses are continuously seeking innovative solutions to enhance customer support and streamline information management. The integration of SeaChat, an advanced AI chat and voice agent, with Zoho Desk’s comprehensive Knowledge Base, presents a groundbreaking solution to these challenges.

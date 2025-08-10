@@ -1,18 +1,17 @@
 ---
 title: "От демо к успеху: За пределами оборудования (5/5)"
 metatitle: "От демо к успеху (5/5): За пределами оборудования"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "В последней части этой серии блогов проследите за путешествием Seasalt.ai по созданию SeaMeet, наших совместных современных решений для встреч."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *На протяжении всей этой серии блогов следите за путешествием Seasalt.ai по созданию всестороннего опыта современных встреч, начиная с его скромных начинаний, до оптимизации нашего сервиса на различном оборудовании и моделях, до интеграции самых современных систем НЛП и, наконец, до полной реализации SeaMeet, наших совместных современных решений для встреч.*

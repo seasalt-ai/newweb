@@ -1,17 +1,19 @@
 ---
 title: "Seamless Collaboration Between AI Bots and Live Agents: Enhancing Customer Experience Through Human-Machine Cooperation"
 metatitle: "Seamless Collaboration Between AI Bots and Live Agents: Enhancing Customer Experience Through Human-Machine Cooperation | Building Next-Generation Chatbots with SeaChat Series"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: The next generation of customer service is reshaping the industry. This article explores the synergy between AI bots and live customer service agents to provide smarter and more humanized support, and explains why it is sometimes necessary to balance the two. We will discuss how technological advancements shape customer experience and business operations.
+description: "The next generation of customer service is reshaping the industry. This article explores the synergy between AI bots and live customer service agents to provide smarter and more humanized support, and explains why it is sometimes necessary to balance the two. We will discuss how technological advancements shape customer experience and business operations."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "The next generation of customer service is reshaping the industry. This article explores the synergy between AI bots and live customer service agents to provide smarter and more humanized support, and explains why it is sometimes necessary to balance the two. We will discuss how technological advancements shape customer experience and business operations."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Why is it sometimes necessary to transfer AI bots to live agents?

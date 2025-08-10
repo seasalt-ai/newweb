@@ -1,19 +1,18 @@
 ---
 title: "Paano Epektibong Pamahalaan ang Maraming Sabay-sabay na Pagpupulong gamit ang SeaMeet"
 metatitle: "Paano Epektibong Pamahalaan ang Maraming Sabay-sabay na Pagpupulong gamit ang SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Sa pagsilang ng malalaking modelo ng wika tulad ng ChatGPT, nagbukas ang generative AI ng mga bagong larangan ng paggalugad. Kapag pinagsama ang AI sa pagkilala ng boses, nagbibigay ito ng walang kapantay na posibilidad para sa real-time na pagsusuri ng pagpupulong. Ngunit ano ang ibig sabihin nito para sa pang-araw-araw na operasyon ng negosyo? Ang real-time na pagsusuri ng mga recording ng pagpupulong ay naging isang kinakailangang tool para sa mga negosyo upang mapabuti ang kahusayan at kalidad ng komunikasyon. Sa pamamagitan ng real-time na pagsusuri, masisiguro ng mga kumpanya na ang bawat talakayan ay tumpak na naitala, na ginagawang mas mahusay at tumpak ang proseso ng paggawa ng desisyon.
+description: "Sa pagsilang ng malalaking modelo ng wika tulad ng ChatGPT, nagbukas ang generative AI ng mga bagong larangan ng paggalugad. Kapag pinagsama ang AI sa pagkilala ng boses, nagbibigay ito ng walang kapantay na posibilidad para sa real-time na pagsusuri ng pagpupulong. Ngunit ano ang ibig sabihin nito para sa pang-araw-araw na operasyon ng negosyo? Ang real-time na pagsusuri ng mga recording ng pagpupulong ay naging isang kinakailangang tool para sa mga negosyo upang mapabuti ang kahusayan at kalidad ng komunikasyon. Sa pamamagitan ng real-time na pagsusuri, masisiguro ng mga kumpanya na ang bawat talakayan ay tumpak na naitala, na ginagawang mas mahusay at tumpak ang proseso ng paggawa ng desisyon."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "Sa modernong mabilis na kapaligiran sa trabaho, madalas na nangyayari ang maraming pagpupulong nang sabay-sabay. Ito ay isang malaking hamon para sa mga abalang executive at manager. Kung posible, nais nilang lumahok sa bawat pagpupulong, ngunit dahil sa mga limitasyon sa oras at pisikal, madalas itong imposible."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Mga Hamon ng Maraming Sabay-sabay na Pagpupulong

@@ -1,16 +1,20 @@
 ---
 title: "Cine sună? Îmbunătățiți calitatea apelurilor cu un agent AI vocal personalizat"
 metatitle: "Îmbunătățiți calitatea apelurilor cu un agent AI vocal personalizat"
-date: 2023-12-16T10:25:00-08:00
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explorați viitorul programărilor cu Agentul AI vocal, o soluție 24/7 care integrează AI și procesarea limbajului natural pentru o programare eficientă și fluidă.
+description: "Explorați viitorul programărilor cu Agentul AI vocal, o soluție 24/7 care integrează AI și procesarea limbajului natural pentru o programare eficientă și fluidă."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Când vine vorba de gestionarea unui program încărcat, fiecare apel telefonic contează. De la afaceri importante la conectarea cu cei dragi, viețile noastre de zi cu zi se învârt în jurul conversațiilor semnificative. Cu toate acestea, gestionarea numeroaselor apeluri primite poate fi copleșitoare și consumatoare de timp. Aici intervine un agent AI vocal personalizat.

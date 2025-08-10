@@ -1,17 +1,19 @@
 ---
 title: "2025年FCCの新しいワンツーワン同意規則に備えるために知っておくべきことすべて"
 metatitle: "Seasalt.ai | 2025年TCPA規則変更 | 包括的ガイド"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "2025年TCPA規則変更に関する詳細なガイド。企業がコンプライアンスを確保するために不可欠な情報を提供します。"
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **この記事は法的助言ではありません。詳細については、弁護士にご相談ください。**

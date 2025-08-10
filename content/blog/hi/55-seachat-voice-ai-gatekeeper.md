@@ -1,16 +1,20 @@
 ---
 title: "Android और iPhone पर AI कॉल स्क्रीनिंग: आपका व्यक्तिगत सहायक और गेटकीपर"
 metatitle: "AI कॉल स्क्रीनिंग | Android और iPhone पर व्यक्तिगत सहायक"
-date: 2023-12-17T10:25:00-08:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Xuchen Yao
-description: AI-संचालित कॉल एजेंट के साथ भविष्य के कॉल प्रबंधन का अन्वेषण करें! स्पैम कॉलर से लेकर अपॉइंटमेंट बुकिंग तक, यह आपका 24/7 व्यक्तिगत सहायक और गेटकीपर है।
+description: "AI-संचालित कॉल एजेंट के साथ भविष्य के कॉल प्रबंधन का अन्वेषण करें! स्पैम कॉलर से लेकर अपॉइंटमेंट बुकिंग तक, यह आपका 24/7 व्यक्तिगत सहायक और गेटकीपर है।"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 क्या आपने कभी एक व्यक्तिगत सहायक की इच्छा की है जो आपके कॉल को संभाल सके, स्पैम और स्कैम कॉल को फ़िल्टर कर सके, और यहां तक कि आपके लिए अपॉइंटमेंट बुक कर सके? अब और खोजने की आवश्यकता नहीं है, क्योंकि AI-संचालित कॉल एजेंट यह सब और भी बहुत कुछ कर सकता है! आपके मुफ्त फ्रंट डेस्क और गेटकीपर के रूप में, यह असाधारण तकनीक कॉल प्रबंधन को पूरी तरह से बदल रही है, यह सुनिश्चित करती है कि आप कोई महत्वपूर्ण कॉल न छोड़ें, और आपके लिए मूल्यवान समय और मन की शांति बचाए।

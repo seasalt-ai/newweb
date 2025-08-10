@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot：AI文字起こし付きダウンロード可能な音声録音を提供する初のボット"
 metatitle: "SeaVoice STT/TTS Discord Bot：録音ダウンロード"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: 最新リリースにより、SeaVoice Discord Botは、AI生成の文字起こし付きでダウンロード可能な音声チャンネル録音を提供するプラットフォーム初のボットとなりました。
+description: "最新リリースにより、SeaVoice Discord Botは、AI生成の文字起こし付きでダウンロード可能な音声チャンネル録音を提供するプラットフォーム初のボットとなりました。"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Botは、Discordの音声チャンネルでの音声文字起こしに最適なオプションの1つとして人気を集めています。最新リリースにより、このボットは、AI生成の文字起こし付きでダウンロード可能な音声チャンネル録音を提供するDiscord初のボットとなりました。*

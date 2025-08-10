@@ -1,17 +1,19 @@
 ---
 title: "2025 FCC के नए वन-टू-वन सहमति नियम के लिए तैयारी करने के लिए आपको जो कुछ भी जानने की आवश्यकता है"
 metatitle: "Seasalt.ai | 2025 TCPA नियम परिवर्तन | व्यापक मार्गदर्शिका"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "2025 TCPA नियम परिवर्तनों पर एक गहन मार्गदर्शिका, व्यवसायों को अनुपालन सुनिश्चित करने के लिए आवश्यक जानकारी प्रदान करती है।"
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **यह लेख कानूनी सलाह नहीं है। अधिक जानकारी के लिए कृपया अपने कानूनी सलाहकार से परामर्श करें।**

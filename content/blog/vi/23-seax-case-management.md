@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Kiểm soát việc theo dõi trường hợp của trung tâm liên lạc của bạn"
 metatitle: "SeaX Case Management: Theo dõi các tương tác của khách hàng của bạn"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Trong bài đăng này, chúng tôi khám phá các tích hợp AI với Quản lý trường hợp, cung cấp cho các đại lý của bạn các công cụ để theo dõi và ghi lại các tương tác với khách hàng của bạn trong SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Trong bài đăng blog trước của chúng tôi, [SeaX KB: Cơ sở tri thức trả lời trước khi được hỏi](https://seasalt.ai/blog/22-seax-knowledge-base/), chúng tôi đã chỉ ra cách Cơ sở tri thức nội bộ của Seasalt.ai đặt thông tin của công ty bạn trực tiếp vào tay các đại lý của bạn, tăng cường hiệu quả và độ chính xác trong trung tâm liên lạc của bạn. Trong bài đăng này, chúng tôi tiếp tục chủ đề tích hợp AI với hệ thống Quản lý trường hợp của SeaX, cung cấp cho các đại lý của bạn các công cụ mạnh mẽ để theo dõi và ghi lại các tương tác với khách hàng của bạn trực tiếp trong giao diện SeaX.*

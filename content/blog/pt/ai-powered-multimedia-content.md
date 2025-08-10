@@ -14,6 +14,8 @@ tags:
 - Marketing digital
 - Conteúdo de vídeo
 title: Criação de conteúdo multimídia com IA para engajamento do cliente
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

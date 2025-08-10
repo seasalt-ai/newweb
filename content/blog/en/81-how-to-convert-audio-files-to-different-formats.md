@@ -1,15 +1,17 @@
 ---
 title: "Your Comprehensive Guide to Audio Conversion: Convert Sound Files Easily | Audio Toolbox Series"
 metatitle: "Audio/Sound Files Conversion | Audio Toolbox Series"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: Learn about audio file converters, sound format conversion, and the best free audio converter software. Convert audio files effortlessly with our step-by-step guide.
+description: "Learn about audio file converters, sound format conversion, and the best free audio converter software. Convert audio files effortlessly with our step-by-step guide."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Introduction to Audio Conversion

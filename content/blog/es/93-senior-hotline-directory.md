@@ -1,13 +1,19 @@
 ---
 title: "Directorio de Líneas Directas para Personas Mayores: Recursos de Atención para Personas Mayores en Taiwán"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Una guía completa de líneas directas para personas mayores en Taiwán, que proporciona información de contacto esencial para las oficinas de asuntos sociales en las principales ciudades. Descubra cómo SeaX y SeaChat AI pueden mejorar los servicios de atención a personas mayores."
-tags: ["Cuidado de Personas Mayores", "Línea Directa para Personas Mayores", "Taiwán", "SeaX", "SeaChat AI", "Recursos Comunitarios"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Cuidado de Personas Mayores
+  - Línea Directa para Personas Mayores
+  - Taiwán
+  - SeaX
+  - SeaChat AI
+  - Recursos Comunitarios
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Directorio de Líneas Directas para Personas Mayores: Recursos de Atención para Personas Mayores en Taiwán

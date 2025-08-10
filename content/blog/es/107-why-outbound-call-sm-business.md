@@ -1,17 +1,19 @@
 ---
 title: "¿Por qué las pequeñas empresas necesitan un servicio de llamadas salientes/telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Serie de llamadas salientes | Pequeñas empresas"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Explore agentes en vivo, marcadores automáticos e IA de voz para elegir la mejor solución de llamadas salientes para las necesidades de su negocio."
 weight: 1
-tags: ["Servicio de telemarketing automático", "Llamadas salientes para pequeñas empresas", "IA de voz"]
-toc: true
+tags:
+  - Servicio de telemarketing automático
+  - Llamadas salientes para pequeñas empresas
+  - IA de voz
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

@@ -1,17 +1,19 @@
 ---
 title: "Collaboration transparente entre les bots IA et les agents en direct : Améliorer l'expérience client grâce à la coopération homme-machine"
 metatitle: "Collaboration transparente entre les bots IA et les agents en direct : Améliorer l'expérience client grâce à la coopération homme-machine | Série Construire des Chatbots de Nouvelle Génération avec SeaChat"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: La nouvelle génération de service client est en train de remodeler l'industrie. Cet article explore la synergie entre les bots IA et les agents de service client en direct pour fournir un support plus intelligent et plus humanisé, et explique pourquoi il est parfois nécessaire d'équilibrer les deux. Nous discuterons de la façon dont les avancées technologiques façonnent l'expérience client et les opérations commerciales.
+description: "La nouvelle génération de service client est en train de remodeler l'industrie. Cet article explore la synergie entre les bots IA et les agents de service client en direct pour fournir un support plus intelligent et plus humanisé, et explique pourquoi il est parfois nécessaire d'équilibrer les deux. Nous discuterons de la façon dont les avancées technologiques façonnent l'expérience client et les opérations commerciales."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "La nouvelle génération de service client est en train de remodeler l'industrie. Cet article explore la synergie entre les bots IA et les agents de service client en direct pour fournir un support plus intelligent et plus humanisé, et explique pourquoi il est parfois nécessaire d'équilibrer les deux. Nous discuterons de la façon dont les avancées technologiques façonnent l'expérience client et les opérations commerciales."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Pourquoi est-il parfois nécessaire de transférer les bots IA aux agents en direct ?

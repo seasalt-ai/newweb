@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 dan Pentingnya Menjembatani Kesenjangan antara Model AI dan Aplikasi Bisnis"
 metatitle: "Meta Llama 3 | Menjembatani Model AI dengan Aplikasi Bisnis"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Rilis Llama 3 dari Meta AI menyoroti kebutuhan akan solusi yang menjembatani kesenjangan antara model AI yang kuat dan aplikasi bisnis praktis. Pelajari bagaimana Seasalt.ai membangun produk AI Percakapan yang disesuaikan untuk menjembatani kesenjangan ini dan memecahkan tantangan dunia nyata.
+description: "Rilis Llama 3 dari Meta AI menyoroti kebutuhan akan solusi yang menjembatani kesenjangan antara model AI yang kuat dan aplikasi bisnis praktis. Pelajari bagaimana Seasalt.ai membangun produk AI Percakapan yang disesuaikan untuk menjembatani kesenjangan ini dan memecahkan tantangan dunia nyata."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI dan Llama3

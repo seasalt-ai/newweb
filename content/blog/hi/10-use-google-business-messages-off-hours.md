@@ -1,18 +1,17 @@
 ---
 title: "व्यापार मालिकों: ऑफ-घंटों के दौरान जुड़ने के लिए Google व्यवसाय संदेशों का उपयोग करें!"
 metatitle: "ऑफ-घंटों के दौरान जुड़ने के लिए Google व्यवसाय संदेशों का उपयोग करें!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "जबकि Google व्यवसाय प्रोफ़ाइल व्यवसाय मालिकों को सीधे ग्राहकों के साथ चैट करने देती है, Google व्यवसाय संदेश एक आभासी एजेंट के साथ एकीकरण को सक्षम बनाता है।"
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Google व्यवसाय संदेशों के लाभों और सीमाओं और व्यवसाय Google व्यवसाय संदेशों को कैसे लागू करते हैं, इसके बारे में और जानें।*

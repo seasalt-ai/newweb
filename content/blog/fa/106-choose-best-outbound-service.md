@@ -1,17 +1,20 @@
 ---
 title: "نحوه انتخاب بهترین خدمات تماس خروجی: عوامل زنده..."
 metatitle: "Seasalt.ai | بهترین خدمات تماس خروجی را انتخاب ..."
-date: "2024-11-06T00:22:19-07:00"
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06T00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "عوامل زنده، شماره گیرهای خودکار و هوش مصنوعی صوتی را برای انتخاب بهترین راه حل تماس خروجی برای نیازهای کسب و کار خود بررسی کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "شماره گیر خودکار", "هوش مصنوعی صوتی"]
-toc: true
+tags:
+  - خدمات بازاریابی تلفنی خودکار
+  - تماس خروجی برای مشاغل کوچک
+  - شماره گیر خودکار
+  - هوش مصنوعی صوتی
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 

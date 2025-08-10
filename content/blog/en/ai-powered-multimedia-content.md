@@ -1,18 +1,18 @@
 ---
-author: Sarah Chen
-date: '2024-12-06'
+title: "Creating AI-Powered Multimedia Content for Customer Engagement"
+metatitle: "Creating AI-Powered Multimedia Content for Customer Engageme..."
+date: 2024-12-06
 image_thumbnail: https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800
-meta_description: Learn how to leverage AI and multimedia content to create engaging
-  customer experiences across all channels. Includes video examples, interactive elements,
-  and best practices.
-metatitle: Creating AI-Powered Multimedia Content for Customer Engageme...
+author: Sarah Chen
+meta_description: "Learn how to leverage AI and multimedia content to create engaging customer experiences across all channels. Includes video examples, interactive elements, and best practices." 
 tags:
-- AI Content
-- Multimedia
-- Customer Engagement
-- Digital Marketing
-- Video Content
-title: Creating AI-Powered Multimedia Content for Customer Engagement
+  - AI Content
+  - Multimedia
+  - Customer Engagement
+  - Digital Marketing
+  - Video Content
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

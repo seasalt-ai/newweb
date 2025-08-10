@@ -1,18 +1,20 @@
 ---
 title: "Eficientizarea asistenței pentru clienți cu integrarea bazei de cunoștințe SeaChat și Zoho Desk"
 metatitle: "Eficientizați asistența pentru clienți cu SeaChat și Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descoperiți cum agentul de chat și voce AI al SeaChat se integrează cu baza de cunoștințe Zoho Desk pentru o asistență pentru clienți eficientă și fără probleme.
+description: "Descoperiți cum agentul de chat și voce AI al SeaChat se integrează cu baza de cunoștințe Zoho Desk pentru o asistență pentru clienți eficientă și fără probleme."
 weight: 1
-tags: ["SeaChat", "Instrumente AI", "Integrare", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Instrumente AI
+  - Integrare
+  - Experiența clientului
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 În peisajul digital în continuă evoluție de astăzi, companiile caută continuu soluții inovatoare pentru a îmbunătăți asistența pentru clienți și a eficientiza gestionarea informațiilor. Integrarea SeaChat, un agent avansat de chat și voce AI, cu baza de cunoștințe cuprinzătoare Zoho Desk, prezintă o soluție revoluționară pentru aceste provocări.

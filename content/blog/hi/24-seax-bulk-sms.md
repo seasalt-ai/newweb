@@ -1,18 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX बल्क एसएमएस: तेज़, अधिक प्रभावी ग्राहक विस्तार"
+metatitle: "SeaX बल्क एसएमएस: तेज़, अधिक प्रभावी ग्राहक विस्तार"
 date: 2022-09-09 11:05:22-07:00
-description: इस ब्लॉग में, हम दिखाएंगे कि SeaX का बल्क एसएमएस फीचर एजेंटों को टेक्स्ट
-  के माध्यम से आउटबाउंड संदेश भेजने में कैसे सक्षम बनाता है।
-draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX बल्क एसएमएस: तेज़, अधिक प्रभावी ग्राहक विस्तार'
 modified_date: 2024-12-19 10:30:00+00:00
-tags:
-- SeaX
-title: 'SeaX बल्क एसएमएस: तेज़, अधिक प्रभावी ग्राहक विस्तार'
-url: /blog/seax-bulk-sms/
+draft: false
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "इस ब्लॉग में, हम दिखाएंगे कि SeaX का बल्क एसएमएस फीचर एजेंटों को टेक्स्ट के माध्यम से आउटबाउंड संदेश भेजने में कैसे सक्षम बनाता है।"
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

@@ -1,16 +1,17 @@
 ---
 title: "مشتریان را از هر کانالی با ارتباطات چند کاناله SeaX به یک مکان بیاورید"
 metatitle: "نقاط تماس مشتری را با ارتباطات چند کاناله SeaX یکپارچه کنید"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "در این وبلاگ، ما یکی از ارتباطات چند کاناله SeaX را برجسته می کنیم که به پیام های کاربر از هر کانالی اجازه می دهد تا در پلتفرم SeaX ظاهر شوند."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *در پست وبلاگ قبلی ما، [به SeaX خوش آمدید، یک مرکز تماس ابری مشترک](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)، ما SeaX، راه حل مرکز تماس ارتباطات ابری مشترک خود را معرفی کردیم. در حالی که اولین پست وبلاگ ما یک نمای کلی از ویژگی های اساسی و پیشرفته تر SeaX ارائه می دهد، پست های بعدی ما به برخی از ویژگی های فردی که SeaX را متمایز می کند، عمیق تر می پردازند. در این پست، ما نگاهی دقیق تر به پشتیبانی چند کاناله SeaX خواهیم داشت و خواهیم دید که چگونه تماس ها و پیام ها از کانال های مختلف در پلتفرم SeaX ظاهر می شوند.*

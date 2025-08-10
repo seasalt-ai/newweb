@@ -1,17 +1,17 @@
 ---
 title: "Paano Tulungan ang mga Matatandang Nakatira Mag-isa Gamit ang Voicebot - Ang Matalinong Solusyon ng SeaX"
 metatitle: "Pagpapabuti ng Kalidad ng Buhay ng mga Matatandang Nakatira Mag-isa Gamit ang AI Voicebot - Solusyon sa Matalinong Pangangalaga ng SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Tuklasin kung paano gamitin ang AI smart care calls ng SeaX upang magbigay ng regular na pangangalaga, pagsubaybay sa kalusugan, at emergency support para sa mga matatandang nakatira mag-isa sa Taiwan, na epektibong nagpapabuti sa kalidad ng buhay at pakiramdam ng seguridad ng mga matatanda."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Ang Taiwan ay unti-unting pumapasok sa isang lipunan na may napakataas na bilang ng matatanda, at ang bilang ng mga matatandang nakatira mag-isa ay patuloy na dumarami. Ayon sa datos mula sa National Development Council, inaasahan na sa 2024, ang proporsyon ng populasyon ng matatanda sa Taiwan ay aabot sa halos 20%, at sa 2025 ay opisyal na itong papasok sa isang lipunan na may napakataas na bilang ng matatanda. Ang pagbabagong ito sa istruktura ng lipunan ay nagbigay-pansin sa mga isyu sa pisikal at mental na kalusugan ng mga matatandang nakatira mag-isa. Sa partikular, maraming matatanda ang madalas na nakakaramdam ng kalungkutan at nag-aalala sa posibilidad na mamatay nang mag-isa sa bahay. Ang mga sikolohikal na panggigipit na ito ay hindi lamang nakakaapekto sa kanilang kalidad ng buhay, kundi nagbabanta rin sa kanilang pisikal na kalusugan.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Ang Taiwan ay unti-unting pumapasok sa isang lipunan na may napakataas na bilang ng matatanda, at ang bilang ng mga matatandang nakatira mag-isa ay patuloy na dumarami. Ayon sa datos mula sa National Development Council, inaasahan na sa 2024, ang proporsyon ng populasyon ng matatanda sa Taiwan ay aabot sa halos 20%, at sa 2025 ay opisyal na itong papasok sa isang lipunan na may napakataas na bilang ng matatanda. Ang pagbabagong ito sa istruktura ng lipunan ay nagbigay-pansin sa mga isyu sa pisikal at mental na kalusugan ng mga matatandang nakatira mag-isa. Sa partikular, maraming matatanda ang madalas na nakakaramdam ng kalungkutan at nag-aalala sa posibilidad na mamatay nang mag-isa sa bahay. Ang mga sikolohikal na panggigipit na ito ay hindi lamang nakakaapekto sa kanilang kalidad ng buhay, kundi nagbabanta rin sa kanilang pisikal na kalusugan.

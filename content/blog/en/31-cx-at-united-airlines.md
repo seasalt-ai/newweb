@@ -1,15 +1,16 @@
 ---
 title: "Customer Service at United Airlines: the Good, the Bad and the Ugly"
 metatitle: "Analysis over Customer Service at United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao shares his recent experience with United Airlines' customer service during flight delays and cancellations and proposes solutions to address the challenge of dynamically scaling customer support during surge traffic.
+description: "Xuchen Yao shares his recent experience with United Airlines' customer service during flight delays and cancellations and proposes solutions to address the challenge of dynamically scaling customer support during surge traffic."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) CEO, Xuchen Yao, shares his recent experience with United Airlines' customer service after facing flight delays and cancellations. This led him to realize the challenges faced by airline customer support in dynamically scaling itself to handle surge traffic during such situations. Xuchen talks about potential improvements such as diverting self-servable traffic from human agents, improving the efficiency of human agents, and developing technology to proactively identify and de-risk potential issues.*

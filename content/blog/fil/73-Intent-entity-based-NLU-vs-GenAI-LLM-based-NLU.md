@@ -1,16 +1,21 @@
 ---
 title: "NLU na Batay sa Intensyon/Entity vs. NLU na Batay sa GenAI/LLM: Ang Pagkakaiba ay nasa Milyun-milyon (ng mga Halimbawa at Dolyar)"
 metatitle: "NLU na Batay sa Intensyon/Entity vs. NLU na Batay sa GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: I-unlock ang hinaharap ng Conversational AI - Bakit ang paglipat mula sa NLU na batay sa intensyon/entity patungo sa GenAI/LLM ay mahalaga para sa scalability, cost-efficiency, at adaptability."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Sa lahat ng Direktor ng Customer Service o Marketing, kung tatanungin kayo ng inyong boss ng sumusunod na tanong, ipadala sa kanila ang artikulong ito:

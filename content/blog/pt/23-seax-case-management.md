@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Assuma o controle do rastreamento de casos do seu Contact Center"
 metatitle: "SeaX Case Management: Rastreie suas interações com o cliente"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Nesta postagem, exploramos as integrações de IA com o Gerenciamento de Casos, que oferece aos seus agentes ferramentas para rastrear e registrar interações com seus clientes no SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Em nossa postagem anterior do blog, [SeaX KB: Uma Base de Conhecimento que Responde Antes de Ser Perguntado](https://seasalt.ai/blog/22-seax-knowledge-base/), mostramos como a Base de Conhecimento interna da Seasalt.ai coloca as informações da sua empresa diretamente ao alcance dos seus agentes, aumentando a eficiência e a precisão do seu contact center. Nesta postagem, continuamos o tópico das integrações de IA com o sistema de Gerenciamento de Casos do SeaX, que oferece aos seus agentes ferramentas poderosas para rastrear e registrar interações com seus clientes diretamente na interface do SeaX.*

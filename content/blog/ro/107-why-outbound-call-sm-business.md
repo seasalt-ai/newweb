@@ -1,16 +1,18 @@
 ---
 title: "De ce au nevoie întreprinderile mici de un serviciu de apeluri outbound/telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Seria de apeluri outbound | Întreprinderi mici"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explorați agenții live, apelatoarele automate și inteligența artificială vocală pentru a alege cea mai bună soluție de apeluri outbound pentru nevoile afacerii dvs."
 weight: 1
-tags: ["Serviciu de telemarketing automat", "Apeluri outbound pentru întreprinderi mici",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de telemarketing automat
+  - Apeluri outbound pentru întreprinderi mici
+  - Inteligență artificială vocală
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

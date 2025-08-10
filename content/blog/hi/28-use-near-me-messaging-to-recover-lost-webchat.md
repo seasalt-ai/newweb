@@ -1,16 +1,17 @@
 ---
 title: "उपयोगकर्ता ने वेबचैट छोड़ दिया है: उन्हें संदेश भेजने के लिए नियर मी मैसेजिंग का उपयोग करें!"
 metatitle: "उपयोगकर्ता ने वेबचैट छोड़ दिया है: नियर मी मैसेजिंग से संपर्क करें!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "नियर मी मैसेजिंग वेबचैट की एक समस्या को हल करता है: उपयोगकर्ता के बातचीत छोड़ने के *बाद भी* उनसे फिर से संपर्क करें।"
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 2022 की क्रिसमस की सुबह, मैं हेनरी नाम के एक उपयोगकर्ता द्वारा छोड़े गए कुछ संदेशों के साथ उठा। जब तक मैं संदेशों तक पहुंचा, हेनरी पहले ही जा चुका था। मुझे केवल उसके द्वारा वेबचैट के माध्यम से भेजे गए संदेश और उसका नाम मिला।

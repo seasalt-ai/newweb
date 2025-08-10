@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: Eine Wissensdatenbank, die Fragen beantwortet, bevor sie gestellt werden"
 metatitle: "SeaX KB: Eine Wissensdatenbank, die Fragen beantwortet, bevor sie gestellt werden"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:04.431Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:04.431000+00:00
 draft: false
 author: Kim Dodds
 description: "In diesem Artikel setzen wir das Thema der KI-Integration fort, indem wir die KI-gestützte Wissensdatenbank von SeaX vorstellen, die in Echtzeit vorgeschlagene Antworten liefert."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *In unserem vorherigen Blogbeitrag [Geben Sie Ihrem Contact Center mit SeaX Voice Intelligence eine eigene Stimme](https://seasalt.ai/blog/21-seax-voice-intelligence/) haben wir gezeigt, wie die internen Text-to-Speech- und Speech-to-Text-Engines von Seasalt.ai verschiedene Aspekte der SeaX-Plattform verbessern. In diesem Artikel setzen wir das Thema der KI-Integration fort, indem wir die KI-gestützte Wissensdatenbank von SeaX vorstellen, die Gespräche in Echtzeit abhört, um vorgeschlagene Antworten zu liefern.*

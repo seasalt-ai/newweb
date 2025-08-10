@@ -1,17 +1,19 @@
 ---
 title: "OpenAI vs. Human vs. Voice AI: A Cost Comparison (5/5)"
 metatitle: "OpenAI Realtime API vs. Human and Voice AI: Cost Breakdown"
-date: 2024-10-12T00:22:19-07:00
+date: 2024-10-12 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "A detailed cost analysis of OpenAI's Realtime API compared to human receptionists and voice AI agents."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

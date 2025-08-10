@@ -1,16 +1,20 @@
 ---
 title: "AI Call Screens sa Android at iPhone: Ang Iyong Personal na Katulong at Tagabantay"
 metatitle: "AI Call Screens | Personal na Katulong sa Android at iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Tuklasin ang hinaharap ng pamamahala ng tawag gamit ang isang AI-powered call agent! Mula sa pagsala ng mga spammers hanggang sa pag-book ng mga appointment, ito ang iyong 24/7 personal na katulong at tagabantay.
+description: "Tuklasin ang hinaharap ng pamamahala ng tawag gamit ang isang AI-powered call agent! Mula sa pagsala ng mga spammers hanggang sa pag-book ng mga appointment, ito ang iyong 24/7 personal na katulong at tagabantay."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Naisip mo na ba na magkaroon ng personal na katulong na kayang humawak ng iyong mga tawag sa telepono, magsala ng mga spammers at scammers, at mag-book pa ng mga appointment para sa iyo? Huwag nang maghanap pa, dahil ang isang AI-powered call agent ay kayang gawin ang lahat ng iyon at higit pa! Bilang iyong libreng front desk at tagabantay, binabago ng kahanga-hangang teknolohiyang ito ang pamamahala ng tawag, tinitiyak na hindi mo kailanman mapapalampas ang isang mahalagang tawag at nakakatipid sa iyo ng mahalagang oras at kapayapaan ng isip.

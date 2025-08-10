@@ -1,16 +1,17 @@
 ---
 title: "SeaX ओमनीचैनल कम्युनिकेशन के साथ किसी भी चैनल से ग्राहकों को एक ही स्थान पर लाएँ"
 metatitle: "SeaX ओमनीचैनल कम्युनिकेशन के साथ ग्राहक टचपॉइंट को एकीकृत करें"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "इस ब्लॉग में, हम SeaX के ओमनीचैनल संचारों में से एक पर प्रकाश डालते हैं, जो किसी भी चैनल से उपयोगकर्ता संदेशों को SeaX प्लेटफ़ॉर्म पर प्रदर्शित करने की अनुमति देता है।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *हमारे पिछले ब्लॉग पोस्ट में, [SeaX में आपका स्वागत है, एक सहयोगी क्लाउड संपर्क केंद्र](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), हमने SeaX, हमारे सहयोगी क्लाउड संचार संपर्क केंद्र समाधान का परिचय दिया। जबकि हमारे पहले ब्लॉग पोस्ट ने SeaX की बुनियादी और अधिक उन्नत सुविधाओं का एक व्यापक अवलोकन दिया, हमारे बाद के पोस्ट कुछ व्यक्तिगत विशेषताओं में गहराई से उतरेंगे जो SeaX को सबसे अलग बनाती हैं। इस पोस्ट में, हम SeaX के ओमनीचैनल समर्थन पर करीब से नज़र डालेंगे और देखेंगे कि विभिन्न चैनलों से कॉल और संदेश SeaX प्लेटफ़ॉर्म पर कैसे दिखाई देते हैं।*

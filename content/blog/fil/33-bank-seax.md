@@ -1,16 +1,18 @@
 ---
 title: "Kuwento ng Customer: Pagpapalakas ng Isang Pangunahing Bangko sa Asia upang Magbigay ng Multilingual at Privacy-focused na Suporta sa mga Customer"
 metatitle: "Nagbibigay ang Bangko sa Asia ng Multilingual at Pribadong Suporta gamit ang SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Inilalarawan ng blog kung paano binago ng pag-deploy ng isang omni-channel contact center ang landscape ng serbisyo sa customer para sa isang pangunahing pribadong bangko sa Timog Silangang Asya, na nagpapahusay sa pagganap ng ahente sa pamamagitan ng real-time na transkripsyon ng pagsasalita, mga insight na batay sa data, at matatag na mga hakbang sa privacy ng data.
+description: "Inilalarawan ng blog kung paano binago ng pag-deploy ng isang omni-channel contact center ang landscape ng serbisyo sa customer para sa isang pangunahing pribadong bangko sa Timog Silangang Asya, na nagpapahusay sa pagganap ng ahente sa pamamagitan ng real-time na transkripsyon ng pagsasalita, mga insight na batay sa data, at matatag na mga hakbang sa privacy ng data."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 Ang kuwento ng tagumpay ng pag-deploy ng omni-channel contact center para sa isa sa pinakamalaking pribadong bangko sa Timog Silangang Asya ay nagpapakita kung paano maaaring baguhin ng advanced na teknolohiya at isang customer-centric na diskarte ang landscape ng serbisyo sa customer habang tinitiyak ang privacy ng data.

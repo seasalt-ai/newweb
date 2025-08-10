@@ -1,16 +1,17 @@
 ---
 title: "வணிக உரிமையாளர்கள்: Google Maps இல் வாடிக்கையாளர் செய்திகளைத் தவறவிடாதீர்கள்!"
 metatitle: "Google Maps இல் வாடிக்கையாளர் செய்திகளைத் தவறவிடாதீர்கள்!"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Ruli Setiawati
 description: "இந்தக் கட்டுரையில், Google Business Profile, அதன் அரட்டை அம்சம் மற்றும் வாடிக்கையாளர் செய்திகளைத் தவறவிடுவதைத் தவிர்க்கும் வழியைப் பற்றி உங்களுக்கு விளக்குவோம்."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *இந்தக் கட்டுரையில், Google Business Profile, அதன் அரட்டை அம்சம் மற்றும் வாடிக்கையாளர் செய்திகளைத் தவறவிடுவதைத் தவிர்க்கும் வழியைப் பற்றி உங்களுக்கு விளக்குவோம்.*

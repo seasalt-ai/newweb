@@ -1,19 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): Một kỷ nguyên mới cho tương tác khách hàng"
+metatitle: "Discord (1/3): Một kỷ nguyên mới cho tương tác khách hàng"
 date: 2022-05-23 13:05:36-07:00
-description: Trong blog này, chúng ta sẽ thảo luận về sự phát triển của Discord và
-  lý do/cách các công ty bắt đầu sử dụng Discord để nâng cao tương tác khách hàng.
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): Một kỷ nguyên mới cho tương tác khách hàng'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): Một kỷ nguyên mới cho tương tác khách hàng'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "Trong blog này, chúng ta sẽ thảo luận về sự phát triển của Discord và lý do/cách các công ty bắt đầu sử dụng Discord để nâng cao tương tác khách hàng."
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

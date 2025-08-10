@@ -1,17 +1,20 @@
 ---
 title: "Как выбрать лучшую службу исходящих звонков: Живые агенты против автоматических дозвонщиков против голосового ИИ (5/5)"
 metatitle: "Seasalt.ai | Выберите лучшую службу исходящих звонков"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Изучите живых агентов, автоматические дозвонщики и голосовой ИИ, чтобы выбрать лучшее решение для исходящих звонков для нужд вашего бизнеса."
 weight: 1
-tags: ["Автоматическая телемаркетинговая служба", "Исходящие звонки для малого бизнеса", "Автоматический дозвонщик", "Голосовой ИИ"]
-toc: true
+tags:
+  - Автоматическая телемаркетинговая служба
+  - Исходящие звонки для малого бизнеса
+  - Автоматический дозвонщик
+  - Голосовой ИИ
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

@@ -1,17 +1,17 @@
 ---
-author: Seasalt.ai Team
-canonical_url: https://seasalt.ai/blog/77-SeaChat-vs-Google-DialogFlow
+title: "SeaChat vs Google DialogFlow: Which AI Chatbot Platform is Better?"
+metatitle: "SeaChat vs Google DialogFlow: Which AI Chatbot Platform is B..."
 date: 2024-07-15
-description: 'SeaChat vs Google DialogFlow: کدام پلتفرم چت‌بات هوش مصنوعی برای کسب‌وکارها
-  بهتر است؟'
-metatitle: 'SeaChat vs Google DialogFlow: Which AI Chatbot Platform is B...'
 modified_date: 2025-07-28
+author: Seasalt.ai Team
+description: "SeaChat vs Google DialogFlow: کدام پلتفرم چت‌بات هوش مصنوعی برای کسب‌وکارها بهتر است؟"
 tags:
-- چت‌بات هوش مصنوعی
-- SeaChat
-- Google DialogFlow
-- مقایسه
-title: 'SeaChat vs Google DialogFlow: Which AI Chatbot Platform is Better?'
+  - چت‌بات هوش مصنوعی
+  - SeaChat
+  - Google DialogFlow
+  - مقایسه
+canonicalURL: /blog/seachat-vs-google-dialogflow/
+url: /blog/seachat-vs-google-dialogflow/
 ---
 
 

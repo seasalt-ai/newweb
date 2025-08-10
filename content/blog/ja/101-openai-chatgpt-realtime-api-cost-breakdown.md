@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. 人間 vs. 音声AI：コスト比較 (5/5)"
 metatitle: "OpenAI Realtime API vs. 人間と音声AI：コストの内訳"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Xuchen Yao
 description: "OpenAIのRealtime APIと人間の受付担当者、音声AIエージェントのコストを詳細に比較分析します。"
 weight: 1
-tags: ["自動応答サービス", "中小企業向けインバウンドコール", "SeaChat", "音声AI"]
-toc: true
+tags:
+  - 自動応答サービス
+  - 中小企業向けインバウンドコール
+  - SeaChat
+  - 音声AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

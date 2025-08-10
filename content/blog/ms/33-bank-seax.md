@@ -1,16 +1,18 @@
 ---
 title: "Kisah Pelanggan: Memperkasakan Bank Utama Asia untuk Menyediakan Sokongan Berbilang Bahasa dan Berfokuskan Privasi kepada Pelanggan"
 metatitle: "Bank Asia Menyediakan Sokongan Berbilang Bahasa dan Peribadi dengan SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
-description: Blog ini menerangkan bagaimana penggunaan pusat hubungan omni-saluran merevolusikan landskap perkhidmatan pelanggan untuk bank swasta utama di Asia Tenggara, meningkatkan prestasi ejen melalui transkripsi pertuturan masa nyata, pandangan berasaskan data, dan langkah-langkah privasi data yang teguh.
+description: "Blog ini menerangkan bagaimana penggunaan pusat hubungan omni-saluran merevolusikan landskap perkhidmatan pelanggan untuk bank swasta utama di Asia Tenggara, meningkatkan prestasi ejen melalui transkripsi pertuturan masa nyata, pandangan berasaskan data, dan langkah-langkah privasi data yang teguh."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 Kisah kejayaan penggunaan pusat hubungan omni-saluran untuk salah satu bank swasta terbesar di Asia Tenggara menunjukkan bagaimana teknologi canggih dan pendekatan berpusatkan pelanggan dapat mengubah landskap perkhidmatan pelanggan sambil memastikan privasi data.

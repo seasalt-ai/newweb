@@ -12,6 +12,8 @@ tags:
 - 數字營銷
 - 視頻內容
 title: 為客戶參與創建 AI 驅動的多媒體內容
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

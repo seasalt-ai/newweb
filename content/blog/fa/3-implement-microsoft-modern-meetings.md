@@ -2,16 +2,15 @@
 title: "از دمو تا موفقیت: پیاده سازی جلسات مدرن مایکروسافت و فراتر از آن (1/5)"
 metatitle: "از دمو تا موفقیت (1/5): فراتر از جلسات مدرن مایکروسافت"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "در اولین قسمت از این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد SeaMeet، راه حل های جلسات مدرن مشترک ما، دنبال کنید."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *در طول این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد یک تجربه جلسات مدرن جامع دنبال کنید، از آغاز فروتنانه آن، تا بهینه سازی خدمات ما بر روی سخت افزارها و مدل های مختلف، تا ادغام سیستم های پیشرفته NLP و در نهایت پایان دادن به تحقق کامل SeaMeet، راه حل های جلسات مدرن مشترک ما.*

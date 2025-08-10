@@ -14,6 +14,8 @@ tags:
 - Marketing numérique
 - Contenu vidéo
 title: Création de contenu multimédia alimenté par l'IA pour l'engagement client
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

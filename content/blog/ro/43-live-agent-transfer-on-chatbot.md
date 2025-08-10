@@ -1,16 +1,18 @@
 ---
 title: "Colaborarea perfectă între roboții AI și transferul către agenți umani, cooperarea om-mașină îmbunătățește experiența clienților"
 metatitle: "Colaborarea perfectă între roboții AI și transferul către agenți umani, cooperarea om-mașină îmbunătățește experiența clienților | Seria de roboți de chat de nouă generație cu SeaChat"
-date: 2023-10-28T10:25:00-08:00
+date: 2023-10-28 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Noua generație de servicii pentru clienți remodelează industria serviciilor pentru clienți. Acest articol explorează în profunzime sinergia dintre roboții AI și serviciile pentru clienți cu transfer către agenți umani, pentru a oferi un suport mai inteligent și mai uman, și explică de ce este uneori necesar să se echilibreze relația dintre cele două. Vom discuta cum progresele tehnologice modelează experiența clienților și operațiunile de afaceri.
+description: "Noua generație de servicii pentru clienți remodelează industria serviciilor pentru clienți. Acest articol explorează în profunzime sinergia dintre roboții AI și serviciile pentru clienți cu transfer către agenți umani, pentru a oferi un suport mai inteligent și mai uman, și explică de ce este uneori necesar să se echilibreze relația dintre cele două. Vom discuta cum progresele tehnologice modelează experiența clienților și operațiunile de afaceri."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Noua generație de servicii pentru clienți remodelează industria serviciilor pentru clienți. Acest articol explorează în profunzime sinergia dintre roboții AI și serviciile pentru clienți cu transfer către agenți umani, pentru a oferi un suport mai inteligent și mai uman, și explică de ce este uneori necesar să se echilibreze relația dintre cele două. Vom discuta cum progresele tehnologice modelează experiența clienților și operațiunile de afaceri."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## De ce este uneori necesar să transferați roboții AI către agenți umani?

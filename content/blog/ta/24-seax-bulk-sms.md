@@ -1,18 +1,16 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX மொத்த SMS: விரைவான, பயனுள்ள வாடிக்கையாளர் அணுகலுக்கு"
+metatitle: "SeaX மொத்த SMS: விரைவான, பயனுள்ள வாடிக்கையாளர் அணுகலுக்கு"
 date: 2022-09-09 11:05:22-07:00
-description: இந்த வலைப்பதிவில், SeaX இன் மொத்த SMS அம்சம் முகவர்களுக்கு உரை வழியாக
-  வெளிச்செல்லும் செய்திகளை முன்கூட்டியே அனுப்ப எவ்வாறு அனுமதிக்கிறது என்பதை நாங்கள்
-  காண்பிப்போம்.
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX மொத்த SMS: விரைவான, பயனுள்ள வாடிக்கையாளர் அணுகலுக்கு'
-tags:
-- SeaX
-title: 'SeaX மொத்த SMS: விரைவான, பயனுள்ள வாடிக்கையாளர் அணுகலுக்கு'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "இந்த வலைப்பதிவில், SeaX இன் மொத்த SMS அம்சம் முகவர்களுக்கு உரை வழியாக வெளிச்செல்லும் செய்திகளை முன்கூட்டியே அனுப்ப எவ்வாறு அனுமதிக்கிறது என்பதை நாங்கள் காண்பிப்போம்."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

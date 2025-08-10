@@ -1,18 +1,19 @@
 ---
 title: "Panduan Sumber Penjagaan Warga Emas Taiwan: Cara Mendapatkan Bantuan Melalui Telefon di Bandar dan Daerah Utama"
 metatitle: "Panduan Sumber Penjagaan Warga Emas Taiwan: Talian Bantuan dan Perkhidmatan Sokongan untuk Warga Emas di Bandar dan Daerah Utama"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
+modified_date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Terokai sumber penjagaan warga emas di bandar dan daerah utama Taiwan, termasuk talian bantuan, talian kecemasan, dan perkhidmatan sokongan sosial. Ketahui juga bagaimana penyelesaian inovatif Seasalt.ai dapat meningkatkan kecekapan perkhidmatan penjagaan warga emas."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: 'Dengan peningkatan penuaan masyarakat, akses kepada talian bantuan warga emas dan perkhidmatan penjagaan warga emas yang mudah dijangkau menjadi semakin penting. Dengan peningkatan populasi warga emas, memiliki sumber yang boleh dipercayai untuk memberikan bantuan segera dan sokongan berterusan adalah penting. Panduan ini bertujuan untuk membantu warga emas dan keluarga mereka mencari sumber penjagaan yang diperlukan di bandar dan daerah utama Taiwan dengan mudah.'
-modified_date: 2024-08-18T00:22:19-07:00
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 Dengan peningkatan penuaan masyarakat, akses kepada talian bantuan warga emas dan perkhidmatan penjagaan warga emas yang mudah dijangkau menjadi semakin penting. Dengan peningkatan populasi warga emas, memiliki sumber yang boleh dipercayai untuk memberikan bantuan segera dan sokongan berterusan adalah penting. Panduan ini bertujuan untuk membantu warga emas dan keluarga mereka mencari sumber penjagaan yang diperlukan di bandar dan daerah utama Taiwan dengan mudah.

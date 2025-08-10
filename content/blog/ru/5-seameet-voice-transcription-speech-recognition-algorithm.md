@@ -1,18 +1,17 @@
 ---
 title: "От демо к успеху: За пределами алгоритмов распознавания речи современных встреч (3/5)"
 metatitle: "От демо к успеху (3/5): За пределами алгоритмов речи"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "В третьей части этой серии блогов следите за путешествием Seasalt.ai по созданию SeaMeet — нашего решения для современных совместных встреч."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 *В этой серии блогов следите за путешествием Seasalt.ai по созданию полноценного опыта современных встреч: от скромного начала, оптимизации сервиса на разном оборудовании и моделях, интеграции передовых NLP-систем и, наконец, полной реализации SeaMeet — нашего решения для совместных встреч.*

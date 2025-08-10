@@ -1,18 +1,18 @@
 ---
 title: "Discord (3/3): Discord at Twilio Flex: Pagdadala ng Flex Contact Center sa Hindi pa Nalakbay na Teritoryo"
 metatitle: "Discord (3/3): Twilio Flex Contact Center sa Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "Sa blog na ito, ipapakita namin kung paano isinama ng Seasalt.ai ang isang ganap na contact center sa isang Discord server."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Ito ang aming huling post sa isang serye ng tatlong bahagi tungkol sa pakikipag-ugnayan ng customer sa Discord. Ang aming unang blog, [“Isang Bagong Hangganan para sa Pakikipag-ugnayan ng Customer”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), ay tinalakay ang pagtaas ng katanyagan ng Discord, at ang bagong pagkakataon na ipinakita nito para sa mga tatak na lumikha at makilahok sa kanilang sariling mga online na komunidad. Sa ikalawang bahagi, [“Paano Gumawa ng isang Komunidad ng Discord at Bot para sa iyong Tatak”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), tinalakay namin kung paano lumikha ng isang discord server para sa iyong tatak, at kung paano isama ang isang bot upang pamahalaan ang pagmo-moderate ng server, mga anunsyo, feedback ng gumagamit, atbp. Sa wakas, sa blog na ito ay magpapakita kami ng isang demonstrasyon kung paano namin sa Seasalt.ai isinama ang isang ganap na contact center sa isang Discord server, na nagpapahintulot sa mga tatak na pangasiwaan ang lahat ng aspeto ng pangangalaga sa customer sa platform.*

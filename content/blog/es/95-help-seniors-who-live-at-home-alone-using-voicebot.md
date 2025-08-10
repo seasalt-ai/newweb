@@ -1,17 +1,17 @@
 ---
 title: "Cómo Voicebot ayuda a las personas mayores que viven solas - La solución inteligente de SeaX"
 metatitle: "Mejorando la calidad de vida de las personas mayores que viven solas con AI Voicebot - La solución de cuidado inteligente de SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Descubra cómo la llamada de cuidado inteligente de SeaX AI proporciona cuidado regular, monitoreo de salud y apoyo de emergencia a las personas mayores que viven solas en la población superenvejecida de Taiwán, mejorando efectivamente la calidad de vida y el sentido de seguridad de las personas mayores."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwán está entrando gradualmente en una sociedad superenvejecida, y el número de personas mayores que viven solas está aumentando constantemente. Según los datos del Consejo Nacional de Desarrollo, se espera que para 2024, la proporción de la población anciana en Taiwán se acerque al 20%, y para 2025, entrará oficialmente en una sociedad superenvejecida. Este cambio en la estructura social pone la salud mental y física de las personas mayores que viven solas en el centro de atención. En particular, muchas personas mayores a menudo se sienten solas y se preocupan por la posibilidad de morir solas en casa. Estas presiones psicológicas no solo afectan su calidad de vida, sino que también representan una amenaza para su salud física.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwán está entrando gradualmente en una sociedad superenvejecida, y el número de personas mayores que viven solas está aumentando constantemente. Según los datos del Consejo Nacional de Desarrollo, se espera que para 2024, la proporción de la población anciana en Taiwán se acerque al 20%, y para 2025, entrará oficialmente en una sociedad superenvejecida. Este cambio en la estructura social pone la salud mental y física de las personas mayores que viven solas en el centro de atención. En particular, muchas personas mayores a menudo se sienten solas y se preocupan por la posibilidad de morir solas en casa. Estas presiones psicológicas no solo afectan su calidad de vida, sino que también representan una amenaza para su salud física.

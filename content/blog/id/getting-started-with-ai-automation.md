@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Memulai Otomatisasi AI untuk Bisnis Kecil
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

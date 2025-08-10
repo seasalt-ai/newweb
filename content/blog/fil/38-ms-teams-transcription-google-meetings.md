@@ -1,18 +1,17 @@
 ---
 title: "Labanan ng AI Meeting Assistants: Microsoft Teams vs Google Meet"
 metatitle: "Labanan ng AI Meeting Assistants: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Tuklasin ang mga AI meeting assistant ng Microsoft Teams at Google Meet, ihambing ang suporta sa wika ng mga platform, at alamin kung paano nagbibigay ang SeaMeet ng real-time transcription, mga buod, at iba pang mga feature."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Tuklasin ang mga AI meeting assistant ng Microsoft Teams at Google Meet, ihambing ang suporta sa wika ng mga platform, at alamin kung paano nagbibigay ang SeaMeet ng real-time transcription, mga buod, at iba pang mga feature."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Sa pag-unlad ng teknolohiya, ang mga AI meeting assistant ay naging mahalagang mga tool para sa pagpapahusay ng kahusayan ng mga pagpupulong. Ang mga tool na ito ay awtomatikong makakagawa ng mga buod ng pagpupulong, makakapagsalin ng boses sa teksto, at kahit makakatukoy ng mahalagang impormasyon sa mga pagpupulong. Ang artikulong ito ay magsusuri sa tatlong pangunahing AI meeting assistant: Microsoft Teams' Copilot, Google Meet's Duet AI, at SeaMeet.

@@ -1,16 +1,17 @@
 ---
 title: "Twilio dan Seasalt.ai Meluncurkan SeaX di Asia-Pasifik & Jepang"
 metatitle: "Biarkan Pusat Kontak Anda Berbicara dengan SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio dan Seasalt.ai Memperluas Kemitraan di Asia Pasifik & Jepang untuk Membangun Pusat Kontak Cloud Multi-Negara"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 Seiring dengan berkembangnya pusat kontak – dan semakin banyaknya saluran komunikasi yang online – bisnis lebih dari sebelumnya memenuhi preferensi konsumen. Pelanggan saat ini ingin berkomunikasi di saluran pilihan mereka. Pusat panggilan terkenal untuk dukungan pelanggan, tetapi semakin banyak harapan bahwa saluran dapat digunakan untuk dukungan pelanggan dan percakapan perdagangan dengan merek.

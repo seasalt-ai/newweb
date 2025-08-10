@@ -1,16 +1,18 @@
 ---
 title: "Historia klienta: Jak Seax pomógł czołowej marce telefonów komórkowych wspierać klientów w 100 krajach"
 metatitle: "SeaX pomógł czołowej marce telefonów komórkowych wspierać klientów globalnie"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Odkryj, jak transformacyjne wdrożenie wielokanałowego centrum kontaktowego Seasalt.ai pomogło jednej z 5 największych marek telefonów komórkowych zrewolucjonizować operacje obsługi klienta w 100 krajach, od chaosu do zachwytu klienta!
+description: "Odkryj, jak transformacyjne wdrożenie wielokanałowego centrum kontaktowego Seasalt.ai pomogło jednej z 5 największych marek telefonów komórkowych zrewolucjonizować operacje obsługi klienta w 100 krajach, od chaosu do zachwytu klienta!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 Historia sukcesu wdrożenia wielokanałowego centrum kontaktowego dla jednej z 5 największych międzynarodowych marek telefonów komórkowych jest świadectwem transformacyjnej mocy technologii w usprawnianiu operacji obsługi klienta.

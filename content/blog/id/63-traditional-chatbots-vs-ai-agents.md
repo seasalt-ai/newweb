@@ -1,16 +1,20 @@
 ---
 title: "Apa yang Harus Diketahui Bisnis tentang Chatbot: Perjalanan dari Chatbot Tradisional ke Agen LLM"
 metatitle: "Perjalanan dari Chatbot Tradisional ke Agen LLM"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Agen obrolan berbasis LLM menawarkan solusi yang mudah dan efisien bagi bisnis untuk interaksi pelanggan, tidak memerlukan keterampilan teknis yang kompleks dan terintegrasi dengan mulus dengan sistem yang ada.
+description: "Agen obrolan berbasis LLM menawarkan solusi yang mudah dan efisien bagi bisnis untuk interaksi pelanggan, tidak memerlukan keterampilan teknis yang kompleks dan terintegrasi dengan mulus dengan sistem yang ada."
 weight: 1
-tags: ["SeaChat", "Agen Suara", "Alat AI", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Agen Suara
+  - Alat AI
+  - Pengalaman Pelanggan
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Bagi pemilik bisnis, menyederhanakan interaksi pelanggan sangat penting. Agen obrolan berbasis LLM menawarkan solusi inovatif dan ramah pengguna yang tidak memerlukan keterampilan teknis yang luas.

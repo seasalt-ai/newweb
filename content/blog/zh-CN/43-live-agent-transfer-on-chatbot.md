@@ -1,17 +1,19 @@
 ---
 title: "AI机器人与真人转接客服合作无间、人机合作提升客户体验"
 metatitle: "AI机器人与真人转接客服合作无间、人机合作提升客户体验 | 用SeaChat做新一代聊天机器人系列"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 新一代客服正在重新塑造客服行业。本文深入探讨了AI机器人和真人客服的协同作用，以提供更智能且人性化的支援，并解释了为什么有时需要平衡这两者之间的关系。我们将讨论技术的进步如何塑造客户体验和企业运营。
+description: "新一代客服正在重新塑造客服行业。本文深入探讨了AI机器人和真人客服的协同作用，以提供更智能且人性化的支援，并解释了为什么有时需要平衡这两者之间的关系。我们将讨论技术的进步如何塑造客户体验和企业运营。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "新一代客服正在重新塑造客服行业。本文深入探讨了AI机器人和真人客服的协同作用，以提供更智能且人性化的支援，并解释了为什么有时需要平衡这两者之间的关系。我们将讨论技术的进步如何塑造客户体验和企业运营。"
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## 为什么有时需要将AI机器人转接至真人客服？

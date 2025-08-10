@@ -1,18 +1,17 @@
 ---
 title: "Dari Demo ke Kejayaan: Terobosan Algoritma Suara Mesyuarat Moden (3/5)"
 metatitle: "Dari Demo ke Kejayaan (3/5): Terobosan Algoritma Suara Mesyuarat Moden"
-date: 2021-07-30T17:43:38-07:00
-modified_date: "2024-07-19T00:00:00Z"
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2024-07-19T00:00:00Z
 draft: false
+author: Cody Kim, Shayne Mei
 description: "Dalam bahagian ketiga siri blog ini, ikuti perjalanan Seasalt.ai membangunkan penyelesaian mesyuarat moden SeaMeet."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 Dalam siri blog ini, ikuti perjalanan Seasalt.ai membangunkan pengalaman mesyuarat moden yang lengkap, dari permulaan, pengoptimuman pada pelbagai perkakasan dan model, hingga integrasi sistem NLP tercanggih, akhirnya merealisasikan penyelesaian kolaborasi SeaMeet.

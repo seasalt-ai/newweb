@@ -1,17 +1,17 @@
 ---
 title: "Cara Membantu Warga Emas Hidup Sendirian Menggunakan Voicebot - Penyelesaian Pintar SeaX"
 metatitle: "Meningkatkan Kualiti Hidup Warga Emas Hidup Sendirian dengan AI Voicebot - Penyelesaian Penjagaan Pintar SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Meneroka cara menggunakan panggilan penjagaan pintar AI SeaX untuk menyediakan penjagaan berkala, pemantauan kesihatan, dan sokongan kecemasan kepada warga emas yang hidup sendirian dalam masyarakat super-tua Taiwan, dengan berkesan meningkatkan kualiti hidup dan rasa selamat warga emas."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwan secara beransur-ansur memasuki masyarakat super-tua, dengan bilangan warga emas yang hidup sendirian terus meningkat. Menurut data dari Majlis Pembangunan Nasional, dijangkakan menjelang 2024, nisbah penduduk warga emas Taiwan akan menghampiri 20%, dan pada tahun 2025, ia akan secara rasmi memasuki masyarakat super-tua. Perubahan dalam struktur sosial ini menjadikan masalah kesihatan fizikal dan mental warga emas yang hidup sendirian sebagai tumpuan. Terutamanya, ramai warga emas sering merasa kesepian dan bimbang tentang kemungkinan meninggal dunia sendirian di rumah. Tekanan psikologi ini bukan sahaja menjejaskan kualiti hidup mereka, tetapi juga mengancam kesihatan fizikal mereka.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwan secara beransur-ansur memasuki masyarakat super-tua, dengan bilangan warga emas yang hidup sendirian terus meningkat. Menurut data dari Majlis Pembangunan Nasional, dijangkakan menjelang 2024, nisbah penduduk warga emas Taiwan akan menghampiri 20%, dan pada tahun 2025, ia akan secara rasmi memasuki masyarakat super-tua. Perubahan dalam struktur sosial ini menjadikan masalah kesihatan fizikal dan mental warga emas yang hidup sendirian sebagai tumpuan. Terutamanya, ramai warga emas sering merasa kesepian dan bimbang tentang kemungkinan meninggal dunia sendirian di rumah. Tekanan psikologi ini bukan sahaja menjejaskan kualiti hidup mereka, tetapi juga mengancam kesihatan fizikal mereka.

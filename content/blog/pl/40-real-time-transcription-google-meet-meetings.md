@@ -1,19 +1,18 @@
 ---
 title: "Jak transkrypcja w czasie rzeczywistym i analiza spotkań zmieniają spotkania Google Meet"
 metatitle: "Jak transkrypcja w czasie rzeczywistym i analiza spotkań zmieniają spotkania Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Funkcje transkrypcji w czasie rzeczywistym i analizy spotkań zmieniły sposób prowadzenia spotkań. Nie tylko zwiększają efektywność spotkań, dostarczają natychmiastowych informacji i ułatwiają szybkie podejmowanie decyzji, ale także zwiększają zaangażowanie uczestników i zapewniają sukces nowoczesnych spotkań biznesowych."
 weight: 1
-tags: ["SeaMeet", "Narzędzia AI"]
+tags:
+  - SeaMeet
+  - Narzędzia AI
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Funkcje transkrypcji w czasie rzeczywistym i analizy spotkań zmieniły sposób prowadzenia spotkań. Nie tylko zwiększają efektywność spotkań, dostarczają natychmiastowych informacji i ułatwiają szybkie podejmowanie decyzji, ale także zwiększają zaangażowanie uczestników i zapewniają sukces nowoczesnych spotkań biznesowych."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 W nowoczesnym środowisku biznesowym spotkania są kluczową platformą do promowania pracy zespołowej i podejmowania decyzji. Jednak ze względu na wiele równoległych spotkań i napięte harmonogramy, coraz trudniej jest pozostać w synchronizacji ze wszystkimi spotkaniami. Na tym tle potrzeba transkrypcji w czasie rzeczywistym i analizy spotkań staje się coraz bardziej widoczna, ponieważ zapewniają one rozwiązanie do przezwyciężenia ograniczeń tradycyjnych metod rejestrowania spotkań i zapewnienia efektywnego zarządzania spotkaniami.

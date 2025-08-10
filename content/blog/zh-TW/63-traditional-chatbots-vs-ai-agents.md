@@ -1,16 +1,20 @@
 ---
 title: "企業應了解的聊天機器人：從傳統聊天機器人到大型語言模型代理的演變"
 metatitle: "從傳統聊天機器人到大型語言模型代理的演變"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "基於大型語言模型的聊天代理為企業提供了一種簡單、高效的客戶互動解決方案，無需複雜的技術技能，並能與現有系統無縫整合。"
 weight: 1
-tags: ["SeaChat", "語音代理", "人工智慧工具", "客戶體驗"]
+tags:
+  - SeaChat
+  - 語音代理
+  - 人工智慧工具
+  - 客戶體驗
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 對企業主而言，簡化客戶互動至關重要。基於大型語言模型（LLM）的聊天代理提供了一種創新、用戶友好的解決方案，不需要廣泛的技術技能。

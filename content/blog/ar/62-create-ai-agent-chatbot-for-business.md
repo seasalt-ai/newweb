@@ -1,16 +1,20 @@
 ---
 title: "كيفية إنشاء روبوت دردشة صوتي ذكي مذهل لعملك مع اتصال هاتفي على مدار الساعة"
 metatitle: "إنشاء وكيل صوتي ذكي | اتصال هاتفي للأعمال 24/7"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: اكتشف الدليل النهائي لتطوير روبوت دردشة وكيل صوتي ذكي لعملك وربطه بنظام هاتف يعمل 24 ساعة لخدمة عملاء رائعة.
+description: "اكتشف الدليل النهائي لتطوير روبوت دردشة وكيل صوتي ذكي لعملك وربطه بنظام هاتف يعمل 24 ساعة لخدمة عملاء رائعة."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2025-07-29T00:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 في عالم اليوم السريع، دعونا نتحدث عن كيفية رفع مستوى خدمة العملاء لديك. بناء روبوت دردشة وكيل صوتي ذكي وربطه بنظام هاتف يعمل 24 ساعة هو مزيج خارق لخدمة العملاء، يوفر الوقت والمال ويبهر العملاء. هيا نبدأ هذه الرحلة الملحمية!

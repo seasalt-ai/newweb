@@ -1,18 +1,19 @@
 ---
 title: "웹사이트를 위해 찾은 유일한 2가지 진정한 무료 웹 채팅 위젯"
 metatitle: "Seasalt.ai | 최고의 무료 채팅 위젯 | 무료 챗봇 위젯"
-date: 2024-11-17T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-11-17 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Xuchen Yao | Jun Mao
-description: ""
+description: "\"\" # 需要确认"
 weight: 1
-tags: ["Chatbot Widget", "Free Chat Widget", "SeaChat"]
-toc: true
+tags:
+  - Chatbot Widget
+  - Free Chat Widget
+  - SeaChat
 image: /images/blog/108-free-chatbot-widget/108-free-chatbot-widget.jpg
-canonicalURL: "/blog/free-chat-widgets/"
-url: "/blog/free-chat-widgets/"
-
+canonicalURL: /blog/free-chat-widgets/
+url: /blog/free-chat-widgets/
 ---
 
 ---

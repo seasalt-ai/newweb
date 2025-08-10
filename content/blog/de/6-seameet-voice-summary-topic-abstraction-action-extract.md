@@ -1,18 +1,17 @@
 ---
 title: "Vom Demo zum Erfolg: Meeting-Wahrnehmung (4/5)"
 metatitle: "Vom Demo zum Erfolg (4/5): Meeting-Wahrnehmung"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "In diesem vierten Teil dieser Blog-Serie folgen Sie der Reise von Seasalt.ai bei der Erstellung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *In dieser Blog-Serie folgen Sie der Reise von Seasalt.ai bei der Erstellung einer abgerundeten Modern Meetings Experience, angefangen bei den bescheidenen Anfängen über die Optimierung unseres Dienstes auf verschiedenen Hardware- und Modellen bis hin zur Integration modernster NLP-Systeme und schließlich zur vollständigen Realisierung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen.*

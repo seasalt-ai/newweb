@@ -1,17 +1,16 @@
 ---
 title: "歡迎來到 SeaX，一個協作式雲端聯絡中心"
-date: 2022-06-22T18:21:32Z
-modified_date: "2025-07-31T12:00:00Z"
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "在本部落格中，我們將介紹 SeaX，我們的雲端通訊聯絡中心解決方案。這是介紹和深入展示 SeaX 功能的系列部落格中的第一篇。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *在本部落格中，我們將介紹 SeaX，我們的雲端通訊聯絡中心解決方案。這是介紹和深入展示 SeaX 功能的系列部落格中的第一篇。*

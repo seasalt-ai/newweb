@@ -1,16 +1,20 @@
 ---
 title: "インバウンドおよびアウトバウンドコール、AI電話エージェントが両方で対応可能"
 metatitle: "AI電話エージェント | インバウンドおよびアウトバウンドコール向け"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "AI電話エージェントが顧客サービスと営業にもたらす画期的な可能性を発見し、インバウンドおよびアウトバウンドコールを変革して効率と収益成長を向上させます。"
 weight: 1
-tags: ["SeaChat", "音声エージェント", "AIツール", "顧客体験"]
+tags:
+  - SeaChat
+  - 音声エージェント
+  - AIツール
+  - 顧客体験
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 進化し続ける顧客サービスと営業の分野において、AI電話エージェントは企業にとって新しく効率的なツールとして登場しました。これらのインテリジェントなエージェントは、インバウンドとアウトバウンドの両方のコールを処理するように設計されており、顧客とのやり取りに革命をもたらし、収益を向上させます。この記事では、インバウンドとアウトバウンドの両方のコールにおけるAI電話エージェントのさまざまなユースケースを掘り下げ、その多用途性とビジネスコミュニケーションを変革する可能性を強調します。

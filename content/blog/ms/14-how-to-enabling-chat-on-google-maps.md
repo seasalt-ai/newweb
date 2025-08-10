@@ -1,18 +1,17 @@
 ---
 title: "Panduan Utama untuk Mengaktifkan Chat di Google Maps untuk Berhubung dengan Pelanggan"
 metatitle: "Panduan Utama untuk Mengaktifkan Chat di Google Maps"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "Dalam blog ini, kami akan melihat tiga kaedah berbeza untuk membolehkan Chat Google Maps dengan tiga kaedah berbeza ini untuk berhubung dengan pelanggan dengan lebih baik."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: 2025-07-28T00:00:00Z
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Chat Google Maps adalah cara terbaik untuk perniagaan berhubung dengan pelanggan. Terdapat pelbagai cara untuk membolehkan Chat Google Maps, satu cara manual dengan Google Business Profile, satu cara automatik dengan Google Business Messages, dan satu cara yang menggabungkan yang terbaik dari kedua-dua dunia dengan Near Me Messaging. Blog ini akan membimbing anda tentang cara membolehkan Chat Google Maps dengan tiga kaedah berbeza ini.*

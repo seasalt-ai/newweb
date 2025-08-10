@@ -1,17 +1,17 @@
 ---
 title: "Automasi Pusat Hubungan Berasaskan AI: Kolaborasi Ejen Maya dengan CRM"
 metatitle: "SeaX Contact Center: Automasi Ejen Maya dengan CRM"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "Dalam blog ini, kami akan meneroka integrasi CRM seperti HubSpot ke dalam Seax Contact Center, memberikan anda akses langsung kepada semua maklumat dan alat anda."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## Integrasi HubSpot dengan SeaX

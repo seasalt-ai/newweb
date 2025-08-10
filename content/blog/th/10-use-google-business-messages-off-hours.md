@@ -1,18 +1,17 @@
 ---
 title: "เจ้าของธุรกิจ: ใช้ Google Business Messages เพื่อมีส่วนร่วมในช่วงนอกเวลาทำการ!"
 metatitle: "ใช้ Google Business Messages เพื่อมีส่วนร่วมในช่วงนอกเวลาทำการ!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "ในขณะที่โปรไฟล์ธุรกิจของ Google ช่วยให้เจ้าของธุรกิจสามารถแชทกับลูกค้าได้โดยตรง แต่ Google Business Messages ช่วยให้สามารถผสานรวมกับตัวแทนเสมือนได้"
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *เรียนรู้เพิ่มเติมเกี่ยวกับประโยชน์และข้อจำกัดของ Google Business Messages และวิธีที่ธุรกิจต่างๆ นำ Google Business Messages ไปใช้*

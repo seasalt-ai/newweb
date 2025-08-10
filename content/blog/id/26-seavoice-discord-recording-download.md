@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: Yang Pertama Menyediakan Rekaman Suara yang Dapat Diunduh dengan Transkripsi AI"
 metatitle: "SeaVoice STT/TTS Discord Bot: Unduhan Rekaman"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Dengan rilis terbaru, SeaVoice Discord Bot adalah yang pertama di platform yang menawarkan rekaman saluran suara yang dapat diunduh dengan transkripsi yang dihasilkan AI.
+description: "Dengan rilis terbaru, SeaVoice Discord Bot adalah yang pertama di platform yang menawarkan rekaman saluran suara yang dapat diunduh dengan transkripsi yang dihasilkan AI."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Bot telah mendapatkan popularitas sebagai salah satu pilihan terbaik untuk mentranskripsi ucapan di saluran suara Discord. Dengan rilis terbaru, bot ini adalah yang pertama di Discord yang menawarkan rekaman saluran suara yang dapat diunduh dengan transkripsi yang dihasilkan AI.*

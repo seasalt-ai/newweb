@@ -1,19 +1,19 @@
 ---
 title: "Cara Membuat Bot ChatGPT Tersuai yang Menjawab dengan Tepat"
 metatitle: "Cara Membuat Bot ChatGPT Tersuai yang Menjawab dengan Tepat | Siri Membina Chatbot Generasi Seterusnya dengan SeaChat"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Cara membina robot ChatGPT tersuai yang menjawab soalan dengan tepat. Daripada membina pangkalan pengetahuan profesional kepada proses pembangunan sebenar, meliputi teknik penalaan halus titik pengetahuan, dan menunjukkan pelaksanaan yang berjaya melalui kes robot SeaChat. Kami menyediakan panduan komprehensif untuk membantu anda dengan mudah menghasilkan chatbot pintar yang cekap dan diperibadikan.
+description: "Cara membina robot ChatGPT tersuai yang menjawab soalan dengan tepat. Daripada membina pangkalan pengetahuan profesional kepada proses pembangunan sebenar, meliputi teknik penalaan halus titik pengetahuan, dan menunjukkan pelaksanaan yang berjaya melalui kes robot SeaChat. Kami menyediakan panduan komprehensif untuk membantu anda dengan mudah menghasilkan chatbot pintar yang cekap dan diperibadikan."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Cara membina robot ChatGPT tersuai yang menjawab soalan dengan tepat. Daripada membina pangkalan pengetahuan profesional kepada proses pembangunan sebenar, meliputi teknik penalaan halus titik pengetahuan, dan menunjukkan pelaksanaan yang berjaya melalui kes robot SeaChat. Kami menyediakan panduan komprehensif untuk membantu anda dengan mudah menghasilkan chatbot pintar yang cekap dan diperibadikan."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Dengan perkembangan teknologi yang pesat, chatbot telah menjadi alat yang sangat diperlukan dalam pelbagai industri. Mereka mampu memberikan jawapan segera, meningkatkan pengalaman perkhidmatan pelanggan, dan mengurangkan beban perkhidmatan pelanggan manual dengan ketara. Artikel ini akan meneroka cara membina robot ChatGPT tersuai yang boleh menjawab soalan dengan tepat, dengan tumpuan khusus pada pembinaan dan penalaan halus pangkalan pengetahuan, serta operasi sebenar pembuatan robot.

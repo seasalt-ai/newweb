@@ -12,6 +12,8 @@ tags:
 - Customer Service
 - Efficiency
 title: 중소기업을 위한 AI 자동화 시작하기
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord und Twilio Flex: Flex Contact Center in unbekanntes Terrain bringen"
 metatitle: "Discord (3/3): Twilio Flex Contact Center in Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "In diesem Blog zeigen wir, wie Seasalt.ai ein vollwertiges Contact Center in einen Discord-Server integriert."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Dies ist der letzte Artikel unserer dreiteiligen Serie über Kundenengagement auf Discord. Unser erster Blogbeitrag ["Eine neue Grenze für Kundenengagement"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) diskutierte die wachsende Popularität von Discord und die neuen Möglichkeiten, die es Marken bietet, ihre eigenen Online-Communities zu erstellen und sich daran zu beteiligen. Im zweiten Teil ["Wie man eine Discord-Community und Bot für Ihre Marke erstellt"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/) führten wir ein, wie man einen Discord-Server für Ihre Marke erstellt und wie man Bots integriert, um Server-Moderation, Ankündigungen, Benutzer-Feedback und mehr zu verwalten. Schließlich zeigen wir in diesem Blog, wie Seasalt.ai ein vollwertiges Contact Center in einen Discord-Server integriert, wodurch Marken alle Aspekte des Kundenservice auf der Plattform bewältigen können.*

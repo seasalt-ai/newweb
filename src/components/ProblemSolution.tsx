@@ -1,7 +1,9 @@
 import { MessageSquareWarning, Clock, Activity, Megaphone, Bot, Users, Phone, MessageCircle, MessageSquare, BarChart3 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ProblemSolution = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('marketing');
   const [fade, setFade] = useState(true);
   const [scale, setScale] = useState(true);
@@ -21,22 +23,22 @@ const ProblemSolution = () => {
   const problems = [
     {
       icon: <MessageSquareWarning className="h-12 w-12" />,
-      title: 'Fragmented Conversations',
-      description: 'Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time.',
+      title: t('problemSolution.problems.fragmented.title'),
+      description: t('problemSolution.problems.fragmented.description'),
       color: 'text-red-600',
       bgColor: 'bg-red-100'
     },
     {
       icon: <Clock className="h-12 w-12" />,
-      title: 'Lost Revenue',
-      description: 'Missed messages after-hours and slow responses mean lost leads and frustrated customers.',
+      title: t('problemSolution.problems.lostRevenue.title'),
+      description: t('problemSolution.problems.lostRevenue.description'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-100'
     },
     {
       icon: <Activity className="h-12 w-12" />,
-      title: 'Operational Overload',
-      description: 'Your team is stretched thin managing too many tools instead of focusing on customers.',
+      title: t('problemSolution.problems.operational.title'),
+      description: t('problemSolution.problems.operational.description'),
       color: 'text-purple-600',
       bgColor: 'bg-purple-100'
     }
@@ -47,11 +49,10 @@ const ProblemSolution = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Losing Leads in a Maze of Apps and Inboxes?
+            {t('problemSolution.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Your customers are trying to reach you everywhere. A missed message is a missed sale. 
-            Seasalt.ai brings all your communications into one place, so you never miss an opportunity.
+            {t('problemSolution.description')}
           </p>
         </div>
 
@@ -78,12 +79,12 @@ const ProblemSolution = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 text-white">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-              Seasalt.ai: Your Omni-Channel Copiloted Solution
+              {t('problemSolution.solution.title')}
             </h3>
             {/* Unified Omni-Channel Hub Animation */}
             <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 relative z-10 mb-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-base sm:text-lg font-semibold text-gray-900">Unified Omni-Channel Hub</h3>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900">{t('problemSolution.solution.hubTitle')}</h3>
                 <div className="flex space-x-1 sm:space-x-2">
                   <div className="w-3 h-3 bg-red-400 rounded-full"></div>
                   <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
@@ -102,7 +103,7 @@ const ProblemSolution = () => {
                   }`}
                 >
                   <Users className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                  Support
+                  {t('problemSolution.solution.tabs.support')}
                 </button>
                 <button
                   onClick={() => setActiveTab('marketing')}
@@ -113,11 +114,11 @@ const ProblemSolution = () => {
                   }`}
                 >
                   <Megaphone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                  Marketing
+                  {t('problemSolution.solution.tabs.marketing')}
                 </button>
               </div>
 
-              <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">AI & Human Agents, 24/7</p>
+              <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">{t('problemSolution.solution.subtitle')}</p>
               
               {/* Animated Tab Content */}
               <div
@@ -216,9 +217,9 @@ const ProblemSolution = () => {
                 <div className="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
                   <Megaphone className="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto" />
                 </div>
-                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">Copilot Your Marketing Campaigns</h4>
+                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">{t('problemSolution.solution.features.marketing.title')}</h4>
                 <p className="text-white opacity-90 text-xs sm:text-sm">
-                  Acquire more customers with AI-driven outbound campaigns and smart lead nurturing.
+                  {t('problemSolution.solution.features.marketing.description')}
                 </p>
               </div>
 
@@ -227,9 +228,9 @@ const ProblemSolution = () => {
                 <div className="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
                   <Bot className="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto" />
                 </div>
-                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">Autopilot Your Customer Support</h4>
+                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">{t('problemSolution.solution.features.support.title')}</h4>
                 <p className="text-white opacity-90 text-xs sm:text-sm">
-                  Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff.
+                  {t('problemSolution.solution.features.support.description')}
                 </p>
               </div>
 
@@ -238,9 +239,9 @@ const ProblemSolution = () => {
                 <div className="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
                   <Users className="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto" />
                 </div>
-                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">Never Lose the Human Touch</h4>
+                <h4 className="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">{t('problemSolution.solution.features.human.title')}</h4>
                 <p className="text-white opacity-90 text-xs sm:text-sm">
-                  Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs.
+                  {t('problemSolution.solution.features.human.description')}
                 </p>
               </div>
             </div>
@@ -249,7 +250,7 @@ const ProblemSolution = () => {
               href="https://seax.seasalt.ai/signup"
               className="inline-flex items-center bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Use Seasalt.ai to Solve This
+              {t('problemSolution.solution.cta')}
             </a>
           </div>
         </div>

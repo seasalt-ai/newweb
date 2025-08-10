@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Preia controlul urmăririi cazurilor din centrul tău de contact"
 metatitle: "SeaX Case Management: Urmărește interacțiunile cu clienții tăi"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "În această postare, explorăm integrările AI cu Case Management, care oferă agenților tăi instrumente pentru a urmări și înregistra interacțiunile cu clienții tăi în SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *În postarea noastră anterioară de pe blog, [SeaX KB: O bază de cunoștințe care răspunde înainte de a fi întrebată](https://seasalt.ai/blog/22-seax-knowledge-base/), am arătat cum baza de cunoștințe internă a Seasalt.ai pune informațiile companiei dvs. direct la îndemâna agenților dvs., sporind eficiența și acuratețea în centrul dvs. de contact. În această postare, continuăm subiectul integrărilor AI cu sistemul de gestionare a cazurilor SeaX, care oferă agenților dvs. instrumente puternice pentru a urmări și înregistra interacțiunile cu clienții dvs. direct în interfața SeaX.*

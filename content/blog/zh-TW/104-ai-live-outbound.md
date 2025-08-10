@@ -1,17 +1,20 @@
 ---
 title: "真人電話客服與語音 AI 代理用於自動外撥電話：給企業的實用建議 (4/5)"
 metatitle: "Seasalt.ai | AI 外撥電話 | 真人客服 | 語音 AI"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Jun Mao
 description: "探索真人與 AI 驅動的外撥電話對企業的優缺點——比較成本、可擴展性和效率。"
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

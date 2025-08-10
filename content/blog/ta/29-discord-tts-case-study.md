@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Discord இல் உரை-க்கு-பேச்சு: ஒரு TTS Discord Bot வழக்கு ஆய்வு"
+metatitle: "Discord இல் உரை-க்கு-பேச்சு: ஒரு TTS Discord Bot வழக்கு ஆய்வ..."
 date: 2022-12-27 17:04:20-08:00
-description: இந்த வலைப்பதிவில், பல மாத உண்மையான உரை-க்கு-பேச்சு தரவை மதிப்பாய்வு செய்த
-  பிறகு, உண்மையான Discord பயனர்கள் எங்கள் சேவைகளை எவ்வாறு பயன்படுத்துகிறார்கள் என்பது
-  குறித்த எங்கள் கண்டுபிடிப்புகளைப் பற்றி விவாதிப்போம்.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Discord இல் உரை-க்கு-பேச்சு: ஒரு TTS Discord Bot வழக்கு ஆய்வ...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Discord இல் உரை-க்கு-பேச்சு: ஒரு TTS Discord Bot வழக்கு ஆய்வு'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "இந்த வலைப்பதிவில், பல மாத உண்மையான உரை-க்கு-பேச்சு தரவை மதிப்பாய்வு செய்த பிறகு, உண்மையான Discord பயனர்கள் எங்கள் சேவைகளை எவ்வாறு பயன்படுத்துகிறார்கள் என்பது குறித்த எங்கள் கண்டுபிடிப்புகளைப் பற்றி விவாதிப்போம்."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

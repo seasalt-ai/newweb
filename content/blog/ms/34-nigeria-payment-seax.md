@@ -1,16 +1,18 @@
 ---
 title: "Kisah Pelanggan: Kejayaan Pusat Hubungan dalam Industri Pembayaran Digital Nigeria"
 metatitle: "Kejayaan Pusat Hubungan dalam Industri Pembayaran Digital Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Syarikat pembayaran digital terkemuka Nigeria mencapai sokongan pelanggan revolusioner dengan pusat hubungan omni-saluran, mengintegrasikan chatbot dan sokongan Pidgin English yang diperibadikan, memberi manfaat kepada berjuta-juta pengguna dan pedagang.
+description: "Syarikat pembayaran digital terkemuka Nigeria mencapai sokongan pelanggan revolusioner dengan pusat hubungan omni-saluran, mengintegrasikan chatbot dan sokongan Pidgin English yang diperibadikan, memberi manfaat kepada berjuta-juta pengguna dan pedagang."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Kisah kejayaan pelaksanaan pusat hubungan omni-saluran untuk syarikat pembayaran digital terkemuka di Nigeria menyerlahkan bagaimana penggunaan teknologi canggih dapat merevolusikan sokongan pelanggan dan meningkatkan pengalaman pengguna secara keseluruhan.

@@ -1,17 +1,16 @@
 ---
 title: "From Demo to Success: Meeting Perception (4/5)"
 metatitle: "Demo to Success (4/5): Meeting Perception"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
 draft: false
+author: Kim Dodds
 description: "In the fourth part of this blog series, follow Seasalt.ai’s journey to creating SeaMeet, our collaborative modern meeting solutions."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *Throughout this blog series, follow Seasalt.ai’s journey to creating a well rounded Modern Meetings Experience, starting with its humble beginnings, to optimizing our service on different hardware and models, to integrating state-of-the-art NLP systems and finally ending on the full realization of SeaMeet, our collaborative modern meeting solutions.*

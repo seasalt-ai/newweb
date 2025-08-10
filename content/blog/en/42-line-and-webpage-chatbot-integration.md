@@ -1,17 +1,19 @@
 ---
 title: "Custom ChatGPT Chatbot, Supports LINE and Web Bots Simultaneously"
 metatitle: "Custom ChatGPT Chatbot, Supports LINE and Web Bots Simultaneously | SeaChat: The New Generation of Chatbots Series"
-date: 2023-10-26T10:25:00-08:00
+date: 2023-10-26 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: How customized ChatGPT bots are revolutionizing traditional customer service models, bringing a more humanized and efficient customer service experience. Through in-depth analysis and case studies, we demonstrate how to leverage this new technology to improve customer satisfaction and help businesses maintain competitiveness in a constantly changing market environment. Businesses can learn that through rapid deployment and effective utilization of customized ChatGPT bots, they can provide continuous, timely user support, becoming a key element of new-era customer service.
+description: "How customized ChatGPT bots are revolutionizing traditional customer service models, bringing a more humanized and efficient customer service experience. Through in-depth analysis and case studies, we demonstrate how to leverage this new technology to improve customer satisfaction and help businesses maintain competitiveness in a constantly changing market environment. Businesses can learn that through rapid deployment and effective utilization of customized ChatGPT bots, they can provide continuous, timely user support, becoming a key element of new-era customer service."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "How customized ChatGPT bots are revolutionizing traditional customer service models, bringing a more humanized and efficient customer service experience. Through in-depth analysis and case studies, we demonstrate how to leverage this new technology to improve customer satisfaction and help businesses maintain competitiveness in a constantly changing market environment. Businesses can learn that through rapid deployment and effective utilization of customized ChatGPT bots, they can provide continuous, timely user support, becoming a key element of new-era customer service."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 In today's fast-paced digital age, chatbots have become an indispensable tool for businesses and organizations. These intelligent conversational robots can simulate natural conversations and provide instant support and answers to users. Whether in customer service, sales, or other fields, chatbots have proven their value.

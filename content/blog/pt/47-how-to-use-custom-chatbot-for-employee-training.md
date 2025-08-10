@@ -1,17 +1,19 @@
 ---
 title: "Como as empresas usam chatbots de IA personalizados para tornar o treinamento de funcionários mais fácil"
 metatitle: "Como as empresas usam chatbots de IA personalizados para tornar o treinamento de funcionários mais fácil | Série SeaChat para chatbots de nova geração"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore o papel revolucionário dos chatbots de IA personalizados na melhoria da eficiência do treinamento de funcionários e experiência de aprendizado personalizada, e analise seu papel fundamental na transmissão da cultura corporativa e melhoria da eficiência empresarial.
+description: "Explore o papel revolucionário dos chatbots de IA personalizados na melhoria da eficiência do treinamento de funcionários e experiência de aprendizado personalizada, e analise seu papel fundamental na transmissão da cultura corporativa e melhoria da eficiência empresarial."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/pt/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/pt/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "Explore o papel revolucionário dos chatbots de IA personalizados na melhoria da eficiência do treinamento de funcionários e experiência de aprendizado personalizada, e analise seu papel fundamental na transmissão da cultura corporativa e melhoria da eficiência empresarial."
-modified_date: 2024-12-19T10:00:00-08:00
+canonicalURL: /pt/blog/how-to-use-custom-chatbot-for-employee-training/
+url: /pt/blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 Para melhorar a eficiência e eficácia do treinamento de novos funcionários, cada vez mais empresas estão explorando a possibilidade de usar chatbots de IA personalizados. Esses chatbots avançados não apenas fornecem uma experiência de aprendizado personalizada, mas também ajudam os funcionários a se integrarem mais rapidamente à cultura da empresa, melhorando assim a eficiência geral do trabalho e a satisfação dos funcionários.

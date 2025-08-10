@@ -1,17 +1,20 @@
 ---
 title: "아웃바운드 콜을 위한 자동 다이얼러: 파워 다이얼러 vs. 프로그레시브 다이얼러 vs. 예측 다이얼러 (3/5)"
 metatitle: "Seasalt.ai | 라이브 아웃바운드 콜 | 자동 다이얼러"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "텔레마케팅 및 판매에서 효과적이고 확장 가능한 아웃바운드 콜을 위해 파워, 프로그레시브, 예측 다이얼러를 비교합니다."
 weight: 1
-tags: ["자동 텔레마케팅 서비스", "소규모 기업을 위한 아웃바운드 콜", "자동 다이얼러", "음성 AI"]
-toc: true
+tags:
+  - 자동 텔레마케팅 서비스
+  - 소규모 기업을 위한 아웃바운드 콜
+  - 자동 다이얼러
+  - 음성 AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

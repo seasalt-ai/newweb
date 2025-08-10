@@ -1,16 +1,20 @@
 ---
 title: "Ascensiunea agenților vocali AI în domeniul sănătății: Îmbunătățirea îngrijirii și implicării pacienților"
 metatitle: "Agenți vocali AI în domeniul sănătății | Îngrijire mai bună a pacienților"
-date: 2023-12-23T10:25:00-08:00
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Descoperiți cum agenții vocali AI transformă asistența medicală cu răspunsuri instantanee pentru programări și mementouri de medicamente, beneficiind pacienții cu nevoi speciale.
+description: "Descoperiți cum agenții vocali AI transformă asistența medicală cu răspunsuri instantanee pentru programări și mementouri de medicamente, beneficiind pacienții cu nevoi speciale."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # Introducere

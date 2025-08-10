@@ -1,17 +1,22 @@
 ---
 title: "SeaChat சிறப்பு: Smooth Rentals இன் சிறந்த விடுமுறை வாடகை தானியங்கு கருவி"
 metatitle: "Seasalt.ai இன் SeaChat | விடுமுறை வாடகை தானியங்கு | Smooth Rentals சிறப்பு"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "Seasalt.ai இன் SeaChat ஆனது Smooth Rentals இன் சமீபத்திய வலைப்பதிவு இடுகையில் விடுமுறை வாடகைகளுக்கான ஒரு முன்னணி தானியங்கு தீர்வாக அங்கீகரிக்கப்பட்டுள்ளது. SeaChat விருந்தினர் தொடர்புகளை எவ்வாறு நெறிப்படுத்துகிறது மற்றும் செயல்திறனை அதிகரிக்கிறது என்பதைக் கண்டறியவும்."
 weight: 1
-tags: ["SeaChat", "விடுமுறை வாடகை", "தானியங்கு", "விருந்தினர் தொடர்பு", "Smooth Rentals", "AI சாட்போட்"]
-toc: true
+tags:
+  - SeaChat
+  - விடுமுறை வாடகை
+  - தானியங்கு
+  - விருந்தினர் தொடர்பு
+  - Smooth Rentals
+  - AI சாட்போட்
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # Smooth Rentals இன் விடுமுறை வாடகை தானியங்கு கருவிகளுக்கான வழிகாட்டியில் SeaChat சிறப்பு

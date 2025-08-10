@@ -1,20 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging Melengkapi Google Business Messages"
+metatitle: "Near Me Messaging Melengkapi Google Business Messages"
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging mengintegrasikan AI Percakapan dengan Google Business
-  Messages, memungkinkan dukungan 24/7 melalui tombol chat di profil Google Maps Anda.
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging Melengkapi Google Business Messages
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging Melengkapi Google Business Messages
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging mengintegrasikan AI Percakapan dengan Google Business Messages, memungkinkan dukungan 24/7 melalui tombol chat di profil Google Maps Anda."
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

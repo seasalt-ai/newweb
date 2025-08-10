@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Преобразование текста в речь в Discord: Пример использования TTS Discord Bot"
+metatitle: "Преобразование текста в речь в Discord: Пример использования..."
 date: 2022-12-27 17:04:20-08:00
-description: В этом блоге мы обсудим наши выводы о том, как реальные пользователи
-  Discord используют наши сервисы после анализа нескольких месяцев аутентичных данных
-  преобразования текста в речь.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Преобразование текста в речь в Discord: Пример использования...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Преобразование текста в речь в Discord: Пример использования TTS Discord Bot'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "В этом блоге мы обсудим наши выводы о том, как реальные пользователи Discord используют наши сервисы после анализа нескольких месяцев аутентичных данных преобразования текста в речь."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

@@ -1,18 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX Bulk SMS: Dla szybszego i skuteczniejszego dotarcia do klienta"
+metatitle: "SeaX Bulk SMS: Dla szybszego i skuteczniejszego dotarcia do ..."
 date: 2022-09-09 11:05:22-07:00
-description: W tym blogu pokażemy, jak funkcja SeaX Bulk SMS pozwala agentom proaktywnie
-  wysyłać wiadomości wychodzące za pośrednictwem tekstu.
-draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX Bulk SMS: Dla szybszego i skuteczniejszego dotarcia do ...'
 modified_date: 2025-07-28 00:00:00+00:00
-tags:
-- SeaX
-title: 'SeaX Bulk SMS: Dla szybszego i skuteczniejszego dotarcia do klienta'
-url: /blog/seax-bulk-sms/
+draft: false
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "W tym blogu pokażemy, jak funkcja SeaX Bulk SMS pozwala agentom proaktywnie wysyłać wiadomości wychodzące za pośrednictwem tekstu."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

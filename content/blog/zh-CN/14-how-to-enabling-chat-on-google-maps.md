@@ -1,18 +1,16 @@
 ---
 title: "在 Google 地图中启用聊天以与客户联系的终极指南"
 metatitle: "在 Google 地图中启用聊天的终极指南"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "在这篇博客中，我们将探讨三种不同的方法来启用 Google 地图聊天，以便更好地与客户联系。"
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Google 地图聊天是企业与客户联系的好方法。有多种方法可以启用 Google 地图聊天：一种是使用 Google Business Profile 手动启用，一种是使用 Google Business Messages 自动启用，还有一种是结合两者优点的 Near Me Messaging。本博客将引导您了解如何使用这三种不同方法启用 Google 地图聊天。*

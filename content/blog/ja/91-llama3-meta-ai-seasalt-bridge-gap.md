@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 と AI モデルとビジネスアプリケーションの間のギャップを埋めることの重要性"
 metatitle: "Meta Llama 3 | AI モデルとビジネスアプリケーションの間のギャップを埋める"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Meta AIのLlama 3のリリースは、強力なAIモデルと実用的なビジネスアプリケーションの間のギャップを埋めるソリューションの必要性を強調しています。Seasalt.aiがこのギャップを埋め、現実世界の課題を解決するために、カスタマイズされた会話型AI製品をどのように構築しているかをご覧ください。
+description: "Meta AIのLlama 3のリリースは、強力なAIモデルと実用的なビジネスアプリケーションの間のギャップを埋めるソリューションの必要性を強調しています。Seasalt.aiがこのギャップを埋め、現実世界の課題を解決するために、カスタマイズされた会話型AI製品をどのように構築しているかをご覧ください。"
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI と Llama3

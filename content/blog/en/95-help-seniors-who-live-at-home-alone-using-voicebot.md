@@ -1,17 +1,17 @@
 ---
 title: "How Voicebot Can Help Seniors Who Live at Home Alone - SeaX's Smart Solution"
 metatitle: "Improving Quality of Life for Seniors Living Alone with AI Voicebot - SeaX's Smart Care Solution"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore how SeaX's AI smart care calls can provide regular check-ins, health monitoring and emergency support for seniors living alone in an aging society, effectively improving their quality of life and sense of security."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: "Taiwan is gradually entering a super-aged society, with the number of seniors living alone continuously increasing. According to NDC data, by 2024 Taiwan's elderly population will approach 20%, officially becoming a super-aged society in 2025. This demographic shift has brought the physical and mental health issues of seniors living alone into focus. Many seniors frequently experience loneliness and worry about the possibility of dying alone at home. These psychological pressures not only affect their quality of life but also pose threats to their physical health."
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwan is gradually entering a super-aged society, with the number of seniors living alone continuously increasing. According to NDC data, by 2024 Taiwan's elderly population will approach 20%, officially becoming a super-aged society in 2025. This demographic shift has brought the physical and mental health issues of seniors living alone into focus. Many seniors frequently experience loneliness and worry about the possibility of dying alone at home. These psychological pressures not only affect their quality of life but also pose threats to their physical health.

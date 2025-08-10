@@ -1,18 +1,18 @@
 ---
 title: "डिस्कॉर्ड (3/3): डिस्कॉर्ड और ट्विलियो फ्लेक्स: फ्लेक्स संपर्क केंद्र को अज्ञात क्षेत्र में लाना"
 metatitle: "डिस्कॉर्ड (3/3): डिस्कॉर्ड में ट्विलियो फ्लेक्स संपर्क केंद्र"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "इस ब्लॉग में, हम यह प्रदर्शित करेंगे कि कैसे Seasalt.ai ने एक पूर्ण संपर्क केंद्र को डिस्कॉर्ड सर्वर में एकीकृत किया।"
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *यह डिस्कॉर्ड पर ग्राहक जुड़ाव के बारे में तीन-भाग की श्रृंखला में हमारी आखिरी पोस्ट है। हमारे पहले ब्लॉग, [“ग्राहक जुड़ाव के लिए एक नई सीमा”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), ने डिस्कॉर्ड की लोकप्रियता में वृद्धि, और ब्रांडों के लिए अपने स्वयं के ऑनलाइन समुदायों को बनाने और उनमें भाग लेने के लिए प्रस्तुत नए अवसर पर चर्चा की। भाग दो में, [“अपने ब्रांड के लिए डिस्कॉर्ड समुदाय और बॉट कैसे बनाएं”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), हमने आपके ब्रांड के लिए डिस्कॉर्ड सर्वर कैसे बनाएं, और सर्वर मॉडरेशन, घोषणाओं, उपयोगकर्ता प्रतिक्रिया आदि को प्रबंधित करने के लिए बॉट को कैसे एकीकृत करें, इस पर विस्तार से बताया। अंत में, इस ब्लॉग में हम यह प्रदर्शित करेंगे कि कैसे हमने Seasalt.ai पर एक पूर्ण संपर्क केंद्र को डिस्कॉर्ड सर्वर में एकीकृत किया, जिससे ब्रांडों को प्लेटफ़ॉर्म पर ग्राहक सेवा के सभी पहलुओं को संभालने की अनुमति मिली।*

@@ -1,18 +1,20 @@
 ---
 title: "گشودن مسیرهای جدید: چرا SeaChat در ساخت چت‌بات‌های تعاملی از SAP Conversational AI پیشی می‌گیرد"
 metatitle: "گشودن مسیرهای جدید: چرا SeaChat در ساخت چت‌بات‌های تعاملی از SAP Conversational AI پیشی می‌گیرد"
-date: 2024-04-02T00:22:19-07:00
-lastmod: 2024-04-03T00:22:19-07:00
-modified_date: 2025-01-27T00:00:00Z
+date: 2024-04-02 00:22:19-07:00
+modified_date: 2025-01-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: در زمینه هوش مصنوعی گفتگو، SAP Conversational AI زمانی محبوب بود. SeaChat، بر اساس مدل‌های زبانی بزرگ (LLMs)، می‌تواند محدودیت‌ها را بشکند و تجربه گفتگوی طبیعی‌تر و روان‌تری ایجاد کند.
+description: "در زمینه هوش مصنوعی گفتگو، SAP Conversational AI زمانی محبوب بود. SeaChat، بر اساس مدل‌های زبانی بزرگ (LLMs)، می‌تواند محدودیت‌ها را بشکند و تجربه گفتگوی طبیعی‌تر و روان‌تری ایجاد کند."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/zh/blog/seachat-vs-sap-chatbot/"
-url: "/zh/blog/seachat-vs-sap-chatbot/"
-summary: 'در قلمرو هوش مصنوعی گفتگو، باد تغییر در حال وزیدن است. در حالی که [SAP Conversational AI](https://cai.tools.sap/) انتخاب محبوبی برای ساخت چت‌بات‌های سطح سازمانی بوده، موج جدیدی از فناوری به تدریج به کانون توجه تبدیل می‌شود: مدل‌های زبانی بزرگ (LLMs). پلتفرم [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، ساخته شده بر اساس فناوری LLM، رویکردی نوآورانه ارائه می‌دهد که محدودیت‌های موتورهای مبتنی بر قاعده مانند SAP Conversational AI را فراتر می‌رود. آماده سفر برای تجربه چت‌بات جذاب‌تر هستید؟'
+canonicalURL: /zh/blog/seachat-vs-sap-chatbot/
+url: /zh/blog/seachat-vs-sap-chatbot/
 ---
 
 در قلمرو هوش مصنوعی گفتگو، باد تغییر در حال وزیدن است. در حالی که [SAP Conversational AI](https://cai.tools.sap/) انتخاب محبوبی برای ساخت چت‌بات‌های سطح سازمانی بوده، موج جدیدی از فناوری به تدریج به کانون توجه تبدیل می‌شود: مدل‌های زبانی بزرگ (LLMs). پلتفرم [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، ساخته شده بر اساس فناوری LLM، رویکردی نوآورانه ارائه می‌دهد که محدودیت‌های موتورهای مبتنی بر قاعده مانند SAP Conversational AI را فراتر می‌رود. آماده سفر برای تجربه چت‌بات جذاب‌تر هستید؟

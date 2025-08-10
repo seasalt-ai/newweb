@@ -1,18 +1,20 @@
 ---
 title: "Pagpapabilis ng Suporta sa Customer gamit ang SeaChat at Zoho Desk Knowledge Base Integration"
 metatitle: "Pagpapabilis ng Suporta sa Customer gamit ang SeaChat at Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Tuklasin kung paano isinasama ang AI chat at voice agent ng SeaChat sa komprehensibong Knowledge Base ng Zoho Desk para sa tuluy-tuloy at mahusay na suporta sa customer.
+description: "Tuklasin kung paano isinasama ang AI chat at voice agent ng SeaChat sa komprehensibong Knowledge Base ng Zoho Desk para sa tuluy-tuloy at mahusay na suporta sa customer."
 weight: 1
-tags: ["SeaChat", "Mga Tool ng AI", "Integrasyon", "Karanasan ng Customer"]
+tags:
+  - SeaChat
+  - Mga Tool ng AI
+  - Integrasyon
+  - Karanasan ng Customer
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 Sa mabilis na pagbabago ng digital landscape ngayon, patuloy na naghahanap ang mga negosyo ng mga makabagong solusyon upang mapahusay ang suporta sa customer at mapabilis ang pamamahala ng impormasyon. Ang pagsasama ng SeaChat, isang advanced na AI chat at voice agent, sa komprehensibong Knowledge Base ng Zoho Desk, ay nagpapakita ng isang groundbreaking na solusyon sa mga hamong ito.

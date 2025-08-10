@@ -1,16 +1,17 @@
 ---
 title: "எந்த சேனலிலிருந்தும் SeaX முழு சேனல் தகவல் தொடர்பு மூலம் வாடிக்கையாளர்களை ஒரு இடத்திற்கு கொண்டு வருதல்"
 metatitle: "SeaX முழு சேனல் தகவல் தொடர்பு மூலம் வாடிக்கையாளர் தொடர்புகளை ஒருங்கிணைத்தல்"
-date: 2022-07-15T13:56:54-07:00
-author: Kim Dodds 
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "இந்த வலைப்பதிவில், SeaX இன் முழு சேனல் தகவல் தொடர்பு அம்சங்களில் ஒன்றை நாங்கள் மையமாக வைத்துள்ளோம், இது எந்த சேனலிலிருந்தும் வரும் பயனர் செய்திகளை SeaX தளத்தில் காட்ட அனுமதிக்கிறது."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
-modified_date: 2024-12-19T10:30:00Z
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *எங்கள் முந்தைய வலைப்பதிவு இடுகையில், [SeaX க்கு வரவேற்கிறோம், ஒரு கூட்டு கிளவுட் தொடர்பு மையம்](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), நாங்கள் எங்கள் கூட்டு கிளவுட் தகவல் தொடர்பு தொடர்பு மைய தீர்வான SeaX ஐ அறிமுகப்படுத்தினோம். எங்கள் முதல் வலைப்பதிவு இடுகை SeaX இன் அடிப்படை மற்றும் மேம்பட்ட அம்சங்களின் விரிவான கண்ணோட்டத்தை வழங்கியிருந்தாலும், எங்கள் அடுத்தடுத்த இடுகைகள் SeaX ஐ தனித்து நிற்கச் செய்யும் சில தனிப்பட்ட அம்சங்களை ஆழமாக ஆராயும். இந்த இடுகையில், SeaX இன் முழு சேனல் ஆதரவை நாங்கள் கூர்ந்து கவனித்து, வெவ்வேறு சேனல்களிலிருந்து அழைப்புகள் மற்றும் செய்திகள் SeaX தளத்தில் எவ்வாறு தோன்றும் என்பதைக் காண்போம்.*

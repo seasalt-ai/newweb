@@ -1,16 +1,20 @@
 ---
 title: "วิธีสร้าง AI Voice Agent Chatbot สำหรับธุรกิจของคุณ พร้อมการเชื่อมต่อโทรศัพท์ 24/7"
 metatitle: "สร้าง AI Voice Agent | การเชื่อมต่อโทรศัพท์ 24/7 สำหรับธุรกิจ"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2024-07-08 09:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: สำรวจคู่มือขั้นสูงสุดในการพัฒนา AI Voice Agent Chatbot และเชื่อมต่อกับระบบโทรศัพท์ตลอด 24 ชั่วโมง เพื่อยกระดับคุณภาพการบริการลูกค้า
+description: "สำรวจคู่มือขั้นสูงสุดในการพัฒนา AI Voice Agent Chatbot และเชื่อมต่อกับระบบโทรศัพท์ตลอด 24 ชั่วโมง เพื่อยกระดับคุณภาพการบริการลูกค้า"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 ในโลกที่รวดเร็วในปัจจุบัน มาเรียนรู้วิธียกระดับการบริการลูกค้าของคุณ การสร้าง AI Voice Agent Chatbot และเชื่อมต่อกับระบบโทรศัพท์ 24x7 เป็นการรวมกันที่เหมือนซูเปอร์ฮีโร่ของการบริการลูกค้า ประหยัดเวลาและเงิน และยังทำให้ลูกค้าประทับใจ มาเริ่มการเดินทางที่น่าตื่นเต้นนี้กัน!

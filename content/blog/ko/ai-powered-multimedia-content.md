@@ -13,6 +13,8 @@ tags:
 - 디지털 마케팅
 - 비디오 콘텐츠
 title: 고객 참여를 위한 AI 기반 멀티미디어 콘텐츠 제작
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

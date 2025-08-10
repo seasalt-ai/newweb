@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Возьмите под контроль отслеживание обращений в вашем контакт-центре"
 metatitle: "SeaX Case Management: Отслеживайте взаимодействия с клиентами"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "В этом посте мы рассмотрим интеграцию ИИ с управлением обращениями, которая предоставляет вашим агентам инструменты для отслеживания и записи взаимодействий с вашими клиентами в SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *В нашем предыдущем сообщении в блоге, [SeaX KB: База знаний, которая отвечает до того, как ее спросят](https://seasalt.ai/blog/22-seax-knowledge-base/), мы показали, как внутренняя база знаний Seasalt.ai предоставляет информацию о вашей компании прямо под рукой ваших агентов, повышая эффективность и точность в вашем контакт-центре. В этом сообщении мы продолжаем тему интеграции ИИ с системой управления обращениями SeaX, которая предоставляет вашим агентам мощные инструменты для отслеживания и записи взаимодействий с вашими клиентами непосредственно в интерфейсе SeaX.*

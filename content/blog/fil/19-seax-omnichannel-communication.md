@@ -1,16 +1,17 @@
 ---
 title: "Dalhin ang mga Customer mula sa Anumang Channel sa Isang Lugar gamit ang SeaX Omnichannel Communication"
 metatitle: "Pag-isahin ang mga Customer Touchpoint gamit ang SeaX Omnichannel Communication"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "Sa blog na ito, itinatampok namin ang isa sa mga omnichannel na komunikasyon ng SeaX, na nagbibigay-daan sa mga mensahe ng user mula sa anumang channel na lumabas sa platform ng SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *Sa aming nakaraang post sa blog, [Maligayang pagdating sa SeaX, isang Collaborative Cloud Contact Center](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), ipinakilala namin ang SeaX, ang aming collaborative cloud communications contact center solution. Habang ang aming unang post sa blog ay nagbigay ng isang komprehensibong pangkalahatang-ideya ng mga pangunahing at mas advanced na mga tampok ng SeaX, ang aming mga kasunod na post ay mas malalim na susuriin ang ilan sa mga indibidwal na tampok na nagpapatingkad sa SeaX. Sa post na ito, titingnan natin nang mas malapitan ang suporta sa omnichannel ng SeaX at makikita kung paano lumalabas ang mga tawag at mensahe mula sa iba't ibang mga channel sa platform ng SeaX.*

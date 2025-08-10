@@ -1,17 +1,16 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơn"
+metatitle: "SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơ..."
 date: 2022-09-09 11:05:22-07:00
-description: Trong blog này, chúng tôi sẽ trình bày cách tính năng Bulk SMS của SeaX
-  cho phép các đại lý chủ động gửi tin nhắn đi qua văn bản.
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơ...'
-tags:
-- SeaX
-title: 'SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơn'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "Trong blog này, chúng tôi sẽ trình bày cách tính năng Bulk SMS của SeaX cho phép các đại lý chủ động gửi tin nhắn đi qua văn bản."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

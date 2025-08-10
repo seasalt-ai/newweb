@@ -1,16 +1,17 @@
 ---
 title: "如何實時轉錄Google Meet會議？"
 metatitle: "如何實時轉錄Google Meet會議？"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 實時轉錄Google Meet會議方法探討，從內置功能到Seasalt.ai工具SeaMeet，強調準確性、數據保存、分享和保密性。選擇最佳工具確保效率和安全。
+description: "實時轉錄Google Meet會議方法探討，從內置功能到Seasalt.ai工具SeaMeet，強調準確性、數據保存、分享和保密性。選擇最佳工具確保效率和安全。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "實時轉錄Google Meet會議方法探討，從內置功能到Seasalt.ai工具SeaMeet，強調準確性、數據保存、分享和保密性。選擇最佳工具確保效率和安全。"
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **文章大綱**

@@ -1,16 +1,17 @@
 ---
 title: "Twilio و Seasalt.ai تطلقان SeaX في آسيا والمحيط الهادئ واليابان"
 metatitle: "دع مركز الاتصال الخاص بك يتحدث مع SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio و Seasalt.ai توسعان الشراكة في آسيا والمحيط الهادئ واليابان لبناء مراكز اتصال سحابية متعددة البلدان"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 مع تطور مركز الاتصال - وزيادة عدد قنوات الاتصال عبر الإنترنت - تلبي الشركات أكثر من أي وقت مضى تفضيلات المستهلكين. يرغب عميل اليوم في التواصل عبر قنواته المفضلة. يشتهر مركز الاتصال بدعم العملاء، ولكن التوقع المتزايد هو أنه يمكن استخدام القنوات لكل من دعم العملاء ومحادثات التجارة مع العلامة التجارية.

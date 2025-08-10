@@ -1,18 +1,17 @@
 ---
 title: "Google マップでバーチャルエージェントを起動し、ニアミーメッセージングを活用する"
 metatitle: "Google マップでバーチャルエージェントを起動し、ニアミーメッセージングを活用する"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "ニアミーメッセージングでGoogleビジネスメッセージにバーチャルエージェントを起動する。"
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 以前、[ニアミーメッセージング](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/)とその利点についてご紹介しました。ニアミーメッセージングは、Googleビジネスメッセージのバーチャルエージェントを実装しており、ビジネスのGoogleマッププロフィールのチャットボタンから直接利用できます。ニアミーメッセージングのバーチャルエージェントは、人間のような応答を提供する最先端の自然言語理解によって駆動されています。ニアミーメッセージングが類似のサービスと異なる点は、5分間のセットアップ時間、セルフサービスによるカスタマイズ、そして組み込みのライブチャットサポートです。

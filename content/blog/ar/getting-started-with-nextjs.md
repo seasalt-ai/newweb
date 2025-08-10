@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'البدء مع Next.js: دليل المبتدئين'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

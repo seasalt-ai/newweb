@@ -1,12 +1,15 @@
 ---
-metatitle: "Jak transkrybować spotkania w Google Meet"
 title: "Jak transkrybować spotkania w Google Meet"
-date: "2024-01-09"
-modified_date: "2024-01-09"
-tags: ["Google Meet", "Transkrypcja", "SeaMeet", "Spotkania"]
-keywords: ["Google Meet", "transkrypcja", "spotkania", "SeaMeet", "transkrypcja w czasie rzeczywistym", "notatki ze spotkań", "nagrywanie spotkań", "zamiana mowy na tekst", "efektywność spotkań", "produktywność spotkań"]
+metatitle: "Jak transkrybować spotkania w Google Meet"
+date: 2024-01-09
+modified_date: 2024-01-09
+author: "" # 需要确认
 description: "Dowiedz się, jak transkrybować spotkania w Google Meet za pomocą wbudowanych funkcji i zewnętrznych narzędzi, takich jak SeaMeet. Poznaj wskazówki dotyczące dokładnej transkrypcji, przechowywania i prywatności."
-authors: ["Xuchen Yao"]
+tags:
+  - Google Meet
+  - Transkrypcja
+  - SeaMeet
+  - Spotkania
 ---
 
 ## Kluczowe informacje

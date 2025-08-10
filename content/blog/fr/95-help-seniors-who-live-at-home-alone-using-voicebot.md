@@ -1,17 +1,17 @@
 ---
 title: "Comment Voicebot peut aider les personnes âgées vivant seules - La solution intelligente de SeaX"
 metatitle: "Améliorer la qualité de vie des personnes âgées vivant seules avec Voicebot IA - La solution de soins intelligents de SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Découvrez comment les appels de soins intelligents de SeaX AI peuvent fournir un suivi régulier, une surveillance de la santé et un soutien d'urgence aux personnes âgées vivant seules dans une société vieillissante, améliorant ainsi leur qualité de vie et leur sentiment de sécurité."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: "Taïwan entre progressivement dans une société super-âgée, avec un nombre croissant de personnes âgées vivant seules. Selon les données du NDC, d'ici 2024, la population âgée de Taïwan approchera les 20 %, devenant officiellement une société super-âgée en 2025. Ce changement démographique a mis en lumière les problèmes de santé physique et mentale des personnes âgées vivant seules. De nombreuses personnes âgées ressentent fréquemment de la solitude et s'inquiètent de la possibilité de mourir seules chez elles. Ces pressions psychologiques affectent non seulement leur qualité de vie, mais menacent également leur santé physique."
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taïwan entre progressivement dans une société super-âgée, avec un nombre croissant de personnes âgées vivant seules. Selon les données du NDC, d'ici 2024, la population âgée de Taïwan approchera les 20 %, devenant officiellement une société super-âgée en 2025. Ce changement démographique a mis en lumière les problèmes de santé physique et mentale des personnes âgées vivant seules. De nombreuses personnes âgées ressentent fréquemment de la solitude et s'inquiètent de la possibilité de mourir seules chez elles. Ces pressions psychologiques affectent non seulement leur qualité de vie, mais menacent également leur santé physique.

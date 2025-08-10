@@ -1,16 +1,20 @@
 ---
 title: "Lo que las empresas deben saber sobre los chatbots: el viaje de los chatbots tradicionales a los agentes LLM"
 metatitle: "El viaje de los chatbots tradicionales a los agentes LLM"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Los agentes de chat basados en LLM ofrecen a las empresas una solución fácil y eficiente para las interacciones con los clientes, que no requiere habilidades técnicas complejas y se integra a la perfección con los sistemas existentes."
 weight: 1
-tags: ["SeaChat", "Agente de voz", "Herramientas de IA", "Experiencia del cliente"]
+tags:
+  - SeaChat
+  - Agente de voz
+  - Herramientas de IA
+  - Experiencia del cliente
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Para los dueños de negocios, optimizar la interacción con el cliente es crucial. Los agentes de chat basados en LLM ofrecen una solución innovadora y fácil de usar que no requiere amplias habilidades técnicas.

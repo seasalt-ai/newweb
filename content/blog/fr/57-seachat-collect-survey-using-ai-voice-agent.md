@@ -1,16 +1,20 @@
 ---
 title: "Collecte facile de sondages avec un agent vocal IA"
 metatitle: "Collecte facile de sondages avec un agent vocal IA"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: Découvrez l'avenir de la création de sondages avec un agent vocal IA ! Créez sans effort des questions de haute qualité, améliorez l'expérience utilisateur et augmentez les taux de réponse. Dites adieu au travail manuel !
+description: "Découvrez l'avenir de la création de sondages avec un agent vocal IA ! Créez sans effort des questions de haute qualité, améliorez l'expérience utilisateur et augmentez les taux de réponse. Dites adieu au travail manuel !"
 weight: 1
-tags: ["SeaChat", "Agent Vocal", "Outils IA", "Expérience Client"]
+tags:
+  - SeaChat
+  - Agent Vocal
+  - Outils IA
+  - Expérience Client
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Introduction

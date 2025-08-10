@@ -1,18 +1,17 @@
 ---
 title: "Pemilik Bisnis: Gunakan Google Business Messages untuk Berinteraksi di Luar Jam Kerja!"
 metatitle: "Gunakan Google Business Messages untuk Berinteraksi di Luar Jam Kerja!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Meskipun Profil Bisnis Google memungkinkan pemilik bisnis untuk mengobrol langsung dengan pelanggan, Google Business Messages memungkinkan integrasi dengan agen virtual."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Pelajari lebih lanjut tentang manfaat dan batasan Google Business Messages dan bagaimana bisnis menerapkan Google Business Messages.*

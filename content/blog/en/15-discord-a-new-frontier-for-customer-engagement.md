@@ -1,18 +1,17 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): A New Frontier for Customer Engagement"
+metatitle: "Discord (1/3): A New Frontier for Customer Engagement"
 date: 2022-05-23 13:05:36-07:00
-description: In this blog, we'll discuss Discord's rise in popularity and why/how
-  companies are starting use Discord to improve their customer engagement.
 draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): A New Frontier for Customer Engagement'
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): A New Frontier for Customer Engagement'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+author: Kim Dodds
+description: "In this blog, we'll discuss Discord's rise in popularity and why/how companies are starting use Discord to improve their customer engagement."
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

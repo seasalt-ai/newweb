@@ -1,17 +1,20 @@
 ---
 title: "Discadores Automáticos para Chamadas de Saída: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Chamadas de Saída ao Vivo | Discadores Automáticos"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Compare Discadores de Potência, Progressivos e Preditivos para chamadas de saída eficazes e escaláveis em telemarketing e vendas."
 weight: 1
-tags: ["Serviço de Telemarketing Automático", "Chamada de Saída para Pequenas Empresas", "Discador Automático", "IA de Voz"]
-toc: true
+tags:
+  - Serviço de Telemarketing Automático
+  - Chamada de Saída para Pequenas Empresas
+  - Discador Automático
+  - IA de Voz
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

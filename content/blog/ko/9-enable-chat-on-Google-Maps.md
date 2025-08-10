@@ -1,16 +1,17 @@
 ---
 title: "사업주 여러분: Google 지도에서 고객 메시지를 놓치지 마세요!"
 metatitle: "Google 지도에서 고객 메시지를 놓치지 마세요!"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Ruli Setiawati
 description: "이 글에서는 Google 비즈니스 프로필, 채팅 기능, 그리고 고객 메시지를 놓치지 않는 방법을 안내합니다."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *이 글에서는 Google 비즈니스 프로필, 채팅 기능, 그리고 고객 메시지를 놓치지 않는 방법을 안내합니다.*

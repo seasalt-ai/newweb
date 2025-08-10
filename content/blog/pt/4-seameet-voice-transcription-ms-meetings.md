@@ -2,16 +2,15 @@
 title: "Do Demo ao Sucesso: Armadilhas das Reuniões Modernas (2/5)"
 metatitle: "Do Demo ao Sucesso (2/5): Armadilhas das Reuniões Modernas"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Na segunda parte desta série de blogs, acompanhe a jornada da Seasalt.ai para criar o SeaMeet, nossa solução colaborativa para reuniões modernas."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *Ao longo desta série de blogs, acompanhe a jornada da Seasalt.ai para criar uma experiência de Reuniões Modernas completa, começando com seus humildes inícios, otimizando nosso serviço em diferentes hardwares e modelos, integrando sistemas de PNL de última geração e, finalmente, culminando na realização completa do SeaMeet, nossa solução colaborativa para reuniões modernas.*

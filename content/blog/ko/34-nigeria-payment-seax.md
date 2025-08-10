@@ -1,16 +1,18 @@
 ---
 title: "고객 사례: 나이지리아 디지털 결제 산업의 컨택 센터 성공 사례"
 metatitle: "나이지리아 디지털 결제 산업의 컨택 센터 성공 사례"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: 나이지리아의 선도적인 디지털 결제 회사는 챗봇과 개인화된 피진 영어 지원을 통합한 옴니채널 컨택 센터를 통해 혁신적인 고객 지원을 달성하여 수백만 명의 사용자와 판매자에게 혜택을 주었습니다.
+description: "나이지리아의 선도적인 디지털 결제 회사는 챗봇과 개인화된 피진 영어 지원을 통합한 옴니채널 컨택 센터를 통해 혁신적인 고객 지원을 달성하여 수백만 명의 사용자와 판매자에게 혜택을 주었습니다."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 나이지리아의 선도적인 디지털 결제 회사를 위한 옴니채널 컨택 센터 구축 성공 사례는 고급 기술 채택이 고객 지원을 혁신하고 전반적인 사용자 경험을 향상시킬 수 있는 방법을 보여줍니다.

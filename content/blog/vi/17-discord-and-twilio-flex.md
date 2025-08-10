@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord & Twilio Flex: Đưa Trung tâm liên hệ Flex vào lãnh thổ chưa được khám phá"
 metatitle: "Discord (3/3): Trung tâm liên hệ Twilio Flex trong Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "Trong blog này, chúng tôi sẽ trình bày cách Seasalt.ai tích hợp một trung tâm liên hệ đầy đủ chức năng vào máy chủ Discord."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Đây là bài đăng cuối cùng của chúng tôi trong loạt bài gồm ba phần về tương tác với khách hàng trên Discord. Blog đầu tiên của chúng tôi, [“Một biên giới mới cho tương tác với khách hàng”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), đã thảo luận về sự gia tăng mức độ phổ biến của Discord và cơ hội mới mà nó mang lại cho các thương hiệu để tạo và tham gia vào các cộng đồng trực tuyến của riêng họ. Trong phần hai, [“Cách tạo cộng đồng Discord và bot cho thương hiệu của bạn”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), chúng tôi đã hướng dẫn cách tạo máy chủ Discord cho thương hiệu của bạn và cách tích hợp bot để quản lý kiểm duyệt máy chủ, thông báo, phản hồi của người dùng, v.v. Cuối cùng, trong blog này, chúng tôi sẽ trình bày một minh chứng về cách chúng tôi tại Seasalt.ai đã tích hợp một trung tâm liên hệ đầy đủ chức năng vào máy chủ Discord, cho phép các thương hiệu xử lý tất cả các khía cạnh của dịch vụ khách hàng trên nền tảng.*

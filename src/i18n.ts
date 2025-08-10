@@ -13,7 +13,7 @@ i18n
   // Initialize i18next
   .init({
     fallbackLng: 'en',
-    debug: process.env.NODE_ENV === 'development',
+    debug: false,
     load: 'all', // Load both 'en' and 'en-US' if available
     // Backend configuration
     backend: {
@@ -21,8 +21,10 @@ i18n
       loadPath: '/locales/{{lng}}.json?v=' + Date.now(),
       // Allow cross-origin requests
       crossDomain: false,
-      // Clear cache
+      // Clear cache completely
       cache: false,
+      allowMultiLoading: false,
+      reloadInterval: false,
     },
     // Detect language from browser
     detection: {

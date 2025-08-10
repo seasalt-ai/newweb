@@ -1,15 +1,19 @@
 ---
 title: "SeaChat's No-Code AI Agent Builder Makes AI Adoption a Breeze"
 metatitle: "SeaChat's No-Code AI Agent Builder Makes AI Adoption a Breeze"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Smoothly navigate AI adoption within your organization with SeaChat! This no-code AI agent builder simplifies the process, making it easy and hassle-free. Start from simple use cases and gradually increase AI adoption by experimenting different ways of leveraging AI.
+description: "Smoothly navigate AI adoption within your organization with SeaChat! This no-code AI agent builder simplifies the process, making it easy and hassle-free. Start from simple use cases and gradually increase AI adoption by experimenting different ways of leveraging AI."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Introducing SeaChat: Your No-Code AI Agent Builder

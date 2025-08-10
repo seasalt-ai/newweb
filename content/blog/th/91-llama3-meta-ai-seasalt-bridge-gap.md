@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 และความสำคัญของการเชื่อมช่องว่างระหว่างโมเดล AI และแอปพลิเคชันทางธุรกิจ"
 metatitle: "Meta Llama 3 | การเชื่อมโมเดล AI กับแอปพลิเคชันทางธุรกิจ"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: การเปิดตัว Llama 3 ของ Meta AI เน้นย้ำถึงความจำเป็นของโซลูชันที่เชื่อมช่องว่างระหว่างโมเดล AI ที่ทรงพลังและแอปพลิเคชันทางธุรกิจที่ใช้งานได้จริง เรียนรู้ว่า Seasalt.ai สร้างผลิตภัณฑ์ Conversational AI ที่ปรับแต่งได้อย่างไรเพื่อเชื่อมช่องว่างนี้และแก้ไขปัญหาในโลกแห่งความเป็นจริง
+description: "การเปิดตัว Llama 3 ของ Meta AI เน้นย้ำถึงความจำเป็นของโซลูชันที่เชื่อมช่องว่างระหว่างโมเดล AI ที่ทรงพลังและแอปพลิเคชันทางธุรกิจที่ใช้งานได้จริง เรียนรู้ว่า Seasalt.ai สร้างผลิตภัณฑ์ Conversational AI ที่ปรับแต่งได้อย่างไรเพื่อเชื่อมช่องว่างนี้และแก้ไขปัญหาในโลกแห่งความเป็นจริง"
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI และ Llama3

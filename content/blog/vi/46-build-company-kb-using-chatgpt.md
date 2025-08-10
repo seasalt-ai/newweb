@@ -1,19 +1,19 @@
 ---
 title: "Xây dựng cơ sở tri thức công ty bằng ChatGPT"
 metatitle: "Xây dựng cơ sở tri thức công ty bằng ChatGPT | Dòng sản phẩm SeaChat thế hệ tiếp theo"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá cách các chatbot ChatGPT tùy chỉnh có thể cách mạng hóa việc quản lý cơ sở tri thức nội bộ của các công ty. Bài viết này phân tích sâu sắc các ứng dụng của chúng trong quản lý dự án, nguồn nhân lực, thiết kế kỹ thuật, v.v., tiết lộ sự tiện lợi của việc phát triển không cần mã và triển khai nhanh chóng, đồng thời dự đoán các xu hướng tương lai, mong đợi vai trò quan trọng của chatbot trong chuyển đổi số của các công ty.
+description: "Khám phá cách các chatbot ChatGPT tùy chỉnh có thể cách mạng hóa việc quản lý cơ sở tri thức nội bộ của các công ty. Bài viết này phân tích sâu sắc các ứng dụng của chúng trong quản lý dự án, nguồn nhân lực, thiết kế kỹ thuật, v.v., tiết lộ sự tiện lợi của việc phát triển không cần mã và triển khai nhanh chóng, đồng thời dự đoán các xu hướng tương lai, mong đợi vai trò quan trọng của chatbot trong chuyển đổi số của các công ty."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Khám phá cách các chatbot ChatGPT tùy chỉnh có thể cách mạng hóa việc quản lý cơ sở tri thức nội bộ của các công ty. Bài viết này phân tích sâu sắc các ứng dụng của chúng trong quản lý dự án, nguồn nhân lực, thiết kế kỹ thuật, v.v., tiết lộ sự tiện lợi của việc phát triển không cần mã và triển khai nhanh chóng, đồng thời dự đoán các xu hướng tương lai, mong đợi vai trò quan trọng của chatbot trong chuyển đổi số của các công ty."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 Trong kỷ nguyên chuyển đổi số hiện nay, các công ty đang dần nhận ra tiềm năng to lớn của chatbot AI trong việc nâng cao hiệu quả hoạt động nội bộ và chất lượng dịch vụ khách hàng. Đặc biệt, các công nghệ chatbot tiên tiến như ChatGPT sẽ trở thành một công cụ quan trọng để quản lý cơ sở tri thức nội bộ của công ty và tương tác với khách hàng.

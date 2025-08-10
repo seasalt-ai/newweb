@@ -1,16 +1,20 @@
 ---
 title: "Кто звонит? Улучшите качество звонков с помощью персонального голосового AI-агента"
 metatitle: "Улучшите качество звонков с помощью персонального голосового AI-агента"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Откройте будущее записи на прием с Voice AI Agent — круглосуточным решением, объединяющим ИИ и обработку естественного языка для эффективного и плавного бронирования.
+description: "Откройте будущее записи на прием с Voice AI Agent — круглосуточным решением, объединяющим ИИ и обработку естественного языка для эффективного и плавного бронирования."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 При управлении плотным графиком важен каждый звонок. От важных деловых переговоров до общения с близкими — наша повседневная жизнь строится на значимых разговорах. Однако обработка множества входящих звонков может быть утомительной и отнимать много времени. Здесь на помощь приходит персональный голосовой AI-агент.

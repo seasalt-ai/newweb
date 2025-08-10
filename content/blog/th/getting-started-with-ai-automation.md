@@ -12,6 +12,8 @@ tags:
 - Customer Service
 - Efficiency
 title: เริ่มต้นใช้งาน AI Automation สำหรับธุรกิจขนาดเล็ก
+canonicalURL: blog/getting-started-with-ai-automation/
+url: blog/getting-started-with-ai-automation/
 ---
 
 

@@ -1,16 +1,20 @@
 ---
 title: "Co firmy powinny wiedzieć o chatbotach: Droga od tradycyjnych chatbotów do agentów LLM"
 metatitle: "Droga od tradycyjnych chatbotów do agentów LLM"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Agenci czatu opartego na LLM oferują firmom łatwe i wydajne rozwiązanie do interakcji z klientami, nie wymagające skomplikowanych umiejętności technicznych i płynnie integrujące się z istniejącymi systemami.
+description: "Agenci czatu opartego na LLM oferują firmom łatwe i wydajne rozwiązanie do interakcji z klientami, nie wymagające skomplikowanych umiejętności technicznych i płynnie integrujące się z istniejącymi systemami."
 weight: 1
-tags: ["SeaChat", "Agent głosowy", "Narzędzia AI", "Doświadczenie klienta"]
+tags:
+  - SeaChat
+  - Agent głosowy
+  - Narzędzia AI
+  - Doświadczenie klienta
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Dla właścicieli firm usprawnienie interakcji z klientami jest kluczowe. Agenci czatu opartego na LLM oferują innowacyjne, przyjazne dla użytkownika rozwiązanie, które nie wymaga rozległych umiejętności technicznych.

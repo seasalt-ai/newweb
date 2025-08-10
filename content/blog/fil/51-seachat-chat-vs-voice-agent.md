@@ -1,16 +1,20 @@
 ---
 title: "Voice AI Agent vs. Chat AI Agent: Pag-navigate sa mga Solusyon ng AI ng SeaChat para sa Iyong Negosyo"
 metatitle: "Voice Agent vs. Chat Agent | Mag-navigate sa mga Solusyon ng AI ng SeaChat"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Galugarin ang mga solusyon ng AI ng SeaChat para sa mga negosyo, Voice AI Agent para sa serbisyo sa customer na nakabatay sa boses at Chat AI Agent para sa mga interaksyon na nakabatay sa text, bawat isa ay may natatanging tampok at kaso ng paggamit.
+description: "Galugarin ang mga solusyon ng AI ng SeaChat para sa mga negosyo, Voice AI Agent para sa serbisyo sa customer na nakabatay sa boses at Chat AI Agent para sa mga interaksyon na nakabatay sa text, bawat isa ay may natatanging tampok at kaso ng paggamit."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 Sa mabilis na pagbabago ng digital na kapaligiran ngayon, patuloy na naghahanap ang mga negosyo ng mga makabagong paraan upang mapahusay ang karanasan ng customer at mapabilis ang mga operasyon. Isang mahalagang bahagi ng pagbabagong ito ay ang paggamit ng mga tool sa komunikasyon na pinapagana ng AI. Ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog), isang versatile na platform ng AI, ay nag-aalok ng dalawang makapangyarihang solusyon sa isang produkto: ang Voice AI Agent at ang Chat AI Agent. Sa blog na ito, susuriin natin ang mga functionality at kaso ng paggamit ng pareho, na tutulong sa iyo na magpasya kung alin ang pinakaangkop sa mga pangangailangan ng iyong negosyo.

@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: ฐานความรู้ที่ตอบคำถามก่อนที่คุณจะถาม"
 metatitle: "SeaX KB: ฐานความรู้ที่ตอบคำถามก่อนที่คุณจะถาม"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:05:21.933Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:05:21.933000+00:00
 draft: false
 author: Kim Dodds
 description: "ในบทความนี้ เราจะพูดถึงหัวข้อการผสานรวม AI ต่อ โดยแนะนำฐานความรู้ที่ขับเคลื่อนด้วย AI ของ SeaX ซึ่งให้คำตอบที่แนะนำแบบเรียลไทม์"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *ในบล็อกโพสต์ก่อนหน้านี้ของเรา [ให้ศูนย์บริการของคุณมีเสียงเป็นของตัวเองด้วย SeaX voice intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/) เราได้แสดงให้เห็นว่ากลไกแปลงข้อความเป็นคำพูดและคำพูดเป็นข้อความภายในของ Seasalt.ai ช่วยปรับปรุงทุกแง่มุมของแพลตฟอร์ม SeaX ได้อย่างไร ในบทความนี้ เราจะพูดถึงหัวข้อการผสานรวม AI ต่อ โดยแนะนำฐานความรู้ที่ขับเคลื่อนด้วย AI ของ SeaX ซึ่งจะฟังการสนทนาและให้คำตอบที่แนะนำแบบเรียลไทม์*

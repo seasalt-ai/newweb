@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: AI 텍스트 변환 기능이 있는 다운로드 가능한 음성 녹음을 제공하는 최초의 봇"
 metatitle: "SeaVoice STT/TTS Discord Bot: 녹음 다운로드"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: 최신 릴리스를 통해 SeaVoice Discord Bot은 AI 생성 텍스트 변환 기능이 있는 다운로드 가능한 음성 채널 녹음을 제공하는 플랫폼 최초의 봇입니다.
+description: "최신 릴리스를 통해 SeaVoice Discord Bot은 AI 생성 텍스트 변환 기능이 있는 다운로드 가능한 음성 채널 녹음을 제공하는 플랫폼 최초의 봇입니다."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Bot은 디스코드 음성 채널에서 음성을 텍스트로 변환하는 최고의 옵션 중 하나로 인기를 얻고 있습니다. 최신 릴리스를 통해 이 봇은 AI 생성 텍스트 변환 기능이 있는 다운로드 가능한 음성 채널 녹음을 제공하는 디스코드 최초의 봇입니다.*

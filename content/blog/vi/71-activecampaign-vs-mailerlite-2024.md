@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: Dịch vụ tiếp thị email nào phù hợp với bạn vào năm 2025?"
 metatitle: "ActiveCampaign vs. MailerLite | Dịch vụ tiếp thị email 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign, Dịch vụ email nào phù hợp với bạn? So sánh chuyên sâu của chúng tôi phân tích các tính năng, giá cả và hơn thế nữa.
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign, Dịch vụ email nào phù hợp với bạn? So sánh chuyên sâu của chúng tôi phân tích các tính năng, giá cả và hơn thế nữa."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 Bạn có tò mò về tiếp thị email không? Từ việc tìm kiếm phần mềm tiếp thị email tốt nhất đến việc xây dựng một chiến lược tiếp thị email thành công, công cụ đa năng này mang đến vô số khả năng. Khám phá cách nhắm mục tiêu khách hàng, tìm việc làm tiếp thị email và tận dụng tự động hóa tiếp thị email để thúc đẩy kết quả kinh doanh. Trước khi đi sâu vào tất cả những chi tiết hấp dẫn đó, hãy giúp bạn chọn công cụ tiếp thị email phù hợp trước. Hôm nay, chúng ta sẽ so sánh hai công cụ phổ biến, [ActiveCampaign](https://www.activecampaign.com/) và [MailerLite](https://www.mailerlite.com/) để bạn cân nhắc.

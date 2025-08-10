@@ -1,16 +1,20 @@
 ---
 title: "如何使用 SeaChat 在您的 Wix 網站上部署 AI 聊天機器人"
 metatitle: "如何使用 SeaChat 在您的 Wix 網站上部署 AI 聊天機器人"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: 使用 SeaChat 增強您的 Wix 網站 - 在 Wix 網頁和 WhatsApp 上無縫整合客戶支援。輕鬆提升參與度！
+description: "使用 SeaChat 增強您的 Wix 網站 - 在 Wix 網頁和 WhatsApp 上無縫整合客戶支援。輕鬆提升參與度！"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "整合"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - 整合
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 將 SeaChat 的 WhatsApp AI 聊天機器人整合到您的 Wix 網站中，不僅可以提升您的客戶服務，還可以使您的業務處於技術創新的前沿。使用 SeaChat 擁抱客戶參與的未來。

@@ -1,18 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء"
+metatitle: "SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء"
 date: 2022-09-09 11:05:22-07:00
-description: في هذه المدونة، سنوضح كيف تتيح ميزة الرسائل النصية الجماعية في SeaX للوكلاء
-  إرسال رسائل صادرة بشكل استباقي عبر الرسائل النصية.
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء'
-modified_date: '2025-07-28T16:03:25.123456'
-tags:
-- SeaX
-title: 'SeaX Bulk SMS: لتواصل أسرع وأكثر فعالية مع العملاء'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "في هذه المدونة، سنوضح كيف تتيح ميزة الرسائل النصية الجماعية في SeaX للوكلاء إرسال رسائل صادرة بشكل استباقي عبر الرسائل النصية."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

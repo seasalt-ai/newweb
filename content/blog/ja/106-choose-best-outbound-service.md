@@ -1,17 +1,20 @@
 ---
 title: "最高のアウトバウンドコールサービスを選ぶ方法：ライブエージェント vs. オートダイヤラー vs. 音声AI (5/5)"
 metatitle: "Seasalt.ai | 最高のアウトバウンドコールサービスを選ぶ"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "ライブエージェント、オートダイヤラー、音声AIを探索し、ビジネスニーズに最適なアウトバウンドコールソリューションを選択します。"
 weight: 1
-tags: ["自動テレマーケティングサービス", "中小企業向けアウトバウンドコール", "オートダイヤラー", "音声AI"]
-toc: true
+tags:
+  - 自動テレマーケティングサービス
+  - 中小企業向けアウトバウンドコール
+  - オートダイヤラー
+  - 音声AI
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

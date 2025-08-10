@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord와 Twilio Flex: Flex 콘택 센터를 미개척 영역으로"
 metatitle: "Discord (3/3): Discord의 Twilio Flex 콘택 센터"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "이 블로그 포스트에서 Seasalt.ai가 Discord 서버에 완전히 기능하는 콘택 센터를 통합하는 방법을 시연합니다."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *이는 Discord에서의 고객 참여에 대한 3부작 시리즈의 마지막 포스트입니다. 첫 번째 블로그 포스트 ["고객 참여의 새로운 프론티어"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/)에서는 Discord의 인기 상승과 브랜드가 자체 온라인 커뮤니티를 만들고 참여할 수 있는 새로운 기회에 대해 논의했습니다. 두 번째 부분 ["브랜드를 위한 Discord 커뮤니티와 봇 만들기"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)에서는 브랜드를 위한 Discord 서버를 만드는 방법과 서버 관리, 공지사항, 사용자 피드백 등을 관리하는 봇을 통합하는 방법을 소개했습니다. 마지막으로, 이 블로그 포스트에서는 Seasalt.ai가 Discord 서버에 완전히 기능하는 콘택 센터를 통합하여 브랜드가 플랫폼에서 고객 서비스의 모든 측면을 처리할 수 있게 하는 방법을 시연합니다.*

@@ -1,16 +1,19 @@
 ---
 title: "Hubspot در مقابل MailerLite: کدام سرویس بازاریابی ایمیلی برای شما در سال 2025 مناسب است؟"
 metatitle: "Hubspot در مقابل MailerLite | سرویس بازاریابی ایمیلی در سال 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: بازاریابی خود را با پلتفرم مناسب مقیاس‌بندی کنید. مقایسه HubSpot و MailerLite ما بهترین ابزار را برای افزایش تعامل، ساده‌سازی گردش کار و صرفه‌جویی در هزینه شما آشکار می‌کند.
+description: "بازاریابی خود را با پلتفرم مناسب مقیاس‌بندی کنید. مقایسه HubSpot و MailerLite ما بهترین ابزار را برای افزایش تعامل، ساده‌سازی گردش کار و صرفه‌جویی در هزینه شما آشکار می‌کند."
 weight: 1
-tags: ["SeaChat", "تجارت الکترونیک", "بازاریابی ایمیلی"]
+tags:
+  - SeaChat
+  - تجارت الکترونیک
+  - بازاریابی ایمیلی
 image: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/hubspot-email-vs-mailerlite/"
-url: "/blog/hubspot-email-vs-mailerlite/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/hubspot-email-vs-mailerlite/
+url: /blog/hubspot-email-vs-mailerlite/
 ---
 
 برای برتری در بازاریابی ایمیلی، به ابزارهای مناسبی نیاز دارید که بتوانند در زمان و تلاش شما صرفه‌جویی کنند بدون اینکه کیف پول شما را خالی کنند. پلتفرم‌های بازاریابی ایمیلی محبوب و گزینه‌های نرم‌افزار بازاریابی ایمیلی فراوان هستند، از جمله رهبران صنعت مانند HubSpot، MailerLite، Mailchimp و دیگران. هر یک ترکیبی منحصر به فرد از ویژگی‌ها، قیمت‌گذاری و قابلیت‌های اتوماسیون را ارائه می‌دهند. امروز، ما دو ابزار محبوب، [Hubspot (Marketing Hub)](https://www.hubspot.com/products/marketing/professional) و [MailerLite](https://www.mailerlite.com/) را برای بررسی شما مقایسه خواهیم کرد.

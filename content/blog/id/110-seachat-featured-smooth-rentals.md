@@ -1,17 +1,22 @@
 ---
 title: "SeaChat Unggulan: Alat Otomatisasi Penyewaan Liburan Terbaik oleh Smooth Rentals"
 metatitle: "SeaChat by Seasalt.ai | Otomatisasi Penyewaan Liburan | Fitur Smooth Rentals"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat by Seasalt.ai diakui sebagai alat otomatisasi terkemuka untuk penyewaan liburan dalam postingan blog terbaru Smooth Rentals. Temukan bagaimana SeaChat menyederhanakan komunikasi tamu dan meningkatkan efisiensi."
 weight: 1
-tags: ["SeaChat", "Penyewaan Liburan", "Otomatisasi", "Komunikasi Tamu", "Smooth Rentals", "AI Chatbot"]
-toc: true
+tags:
+  - SeaChat
+  - Penyewaan Liburan
+  - Otomatisasi
+  - Komunikasi Tamu
+  - Smooth Rentals
+  - AI Chatbot
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat Unggulan dalam Panduan Smooth Rentals untuk Alat Otomatisasi Penyewaan Liburan

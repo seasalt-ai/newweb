@@ -1,16 +1,17 @@
 ---
 title: "Paano I-transcribe ang mga Google Meet Meeting nang Real-time?"
 metatitle: "Paano I-transcribe ang mga Google Meet Meeting nang Real-time?"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Alamin kung paano i-transcribe ang mga Google Meet meeting nang real-time, mula sa built-in na mga feature hanggang sa SeaMeet ng Seasalt.ai, na nakatuon sa katumpakan, pag-iimbak ng data, pagbabahagi, at privacy. Piliin ang pinakamahusay na mga tool para sa kahusayan at seguridad.
+description: "Alamin kung paano i-transcribe ang mga Google Meet meeting nang real-time, mula sa built-in na mga feature hanggang sa SeaMeet ng Seasalt.ai, na nakatuon sa katumpakan, pag-iimbak ng data, pagbabahagi, at privacy. Piliin ang pinakamahusay na mga tool para sa kahusayan at seguridad."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Alamin kung paano i-transcribe ang mga Google Meet meeting nang real-time, mula sa built-in na mga feature hanggang sa SeaMeet ng Seasalt.ai, na nakatuon sa katumpakan, pag-iimbak ng data, pagbabahagi, at privacy. Piliin ang pinakamahusay na mga tool para sa kahusayan at seguridad."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **Talaan ng Nilalaman**

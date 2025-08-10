@@ -1,15 +1,16 @@
 ---
 title: "透過 SeaX 全通路通訊將客戶從任何管道帶到一個地方"
 metatitle: "透過 SeaX 全通路通訊統一客戶聯繫方式"
-date: 2022-07-15T13:56:54-07:00
-author: Kim Dodds 
+date: 2022-07-15 13:56:54-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "在本部落格中，我們重點介紹 SeaX 的全通路通訊之一，它允許來自任何管道的使用者訊息在 SeaX 平台上顯示。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *在我們之前的部落格文章中，[歡迎來到 SeaX，一個協作式雲端聯絡中心](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)，我們介紹了我們的協作式雲端通訊聯絡中心解決方案 SeaX。雖然我們的第一篇部落格文章全面概述了 SeaX 的基本功能和更高級的功能，但我們後續的文章將更深入地探討使 SeaX 脫穎而出的一些個別功能。在這篇文章中，我們將仔細研究 SeaX 的全通路支援，並了解來自不同管道的呼叫和訊息如何顯示在 SeaX 平台上。*

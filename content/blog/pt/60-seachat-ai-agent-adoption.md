@@ -1,16 +1,20 @@
 ---
 title: "O Construtor de Agentes de IA Sem Código da SeaChat Facilita a Adoção da IA"
 metatitle: "O Construtor de Agentes de IA Sem Código da SeaChat Facilita a Adoção da IA"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Navegue suavemente a adoção da IA em sua organização com o SeaChat! Este construtor de agentes de IA sem código simplifica o processo, tornando-o fácil e sem complicações. Comece com casos de uso simples e aumente gradualmente a adoção da IA experimentando diferentes formas de alavancar a IA.
+description: "Navegue suavemente a adoção da IA em sua organização com o SeaChat! Este construtor de agentes de IA sem código simplifica o processo, tornando-o fácil e sem complicações. Comece com casos de uso simples e aumente gradualmente a adoção da IA experimentando diferentes formas de alavancar a IA."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Apresentando o SeaChat: Seu Construtor de Agentes de IA Sem Código

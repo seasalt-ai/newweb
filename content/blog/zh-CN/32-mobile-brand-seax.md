@@ -1,16 +1,18 @@
 ---
 title: "客户案例：SeaX 如何帮助顶级手机品牌支持 100 个国家的客户"
 metatitle: "SeaX 帮助顶级手机品牌在全球范围内支持客户"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 了解 Seasalt.ai 变革性的全渠道联络中心部署如何帮助排名前 5 的手机品牌在 100 个国家/地区彻底改变客户支持运营，从混乱到客户满意！
+description: "了解 Seasalt.ai 变革性的全渠道联络中心部署如何帮助排名前 5 的手机品牌在 100 个国家/地区彻底改变客户支持运营，从混乱到客户满意！"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 全渠道联络中心部署对于全球前五大手机品牌之一的成功案例，证明了技术在提升客户支持运营方面的变革力量。

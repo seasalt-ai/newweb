@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: Der erste, der herunterladbare Sprachaufnahmen mit KI-Transkriptionen bereitstellt"
 metatitle: "SeaVoice STT/TTS Discord Bot: Aufnahmen herunterladen"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Mit der neuesten Version ist der SeaVoice Discord Bot der erste auf der Plattform, der herunterladbare Sprachkanalaufnahmen mit KI-generierten Transkriptionen anbietet.
+description: "Mit der neuesten Version ist der SeaVoice Discord Bot der erste auf der Plattform, der herunterladbare Sprachkanalaufnahmen mit KI-generierten Transkriptionen anbietet."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *Der SeaVoice Discord Bot hat als eine der besten Optionen zur Transkription von Sprache in Discord-Sprachkanälen an Popularität gewonnen. Mit der neuesten Version ist der Bot der erste auf Discord, der herunterladbare Sprachkanalaufnahmen mit KI-generierten Transkriptionen anbietet.*

@@ -1,16 +1,21 @@
 ---
 title: "நோக்கம்/நிறுவனம் சார்ந்த NLU vs. GenAI/LLM சார்ந்த NLU: மில்லியன் கணக்கான (எடுத்துக்காட்டுகள் மற்றும் டாலர்கள்) வேறுபாடு"
 metatitle: "நோக்கம்/நிறுவனம் சார்ந்த NLU vs. GenAI/LLM சார்ந்த NLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: உரையாடல் AI இன் எதிர்காலத்தைத் திறக்கவும் - நோக்கம்/நிறுவனம் சார்ந்த NLU இலிருந்து GenAI/LLM க்கு மாறுவது ஏன் அளவிடுதல், செலவு-திறன் மற்றும் தகவமைப்புக்கு முக்கியமானது."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 அனைத்து வாடிக்கையாளர் சேவை அல்லது சந்தைப்படுத்தல் இயக்குநர்களுக்கும், உங்கள் முதலாளி பின்வரும் கேள்வியைக் கேட்டால், இந்த கட்டுரையை அவர்களுக்கு அனுப்பவும்:

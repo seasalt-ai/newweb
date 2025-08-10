@@ -1,16 +1,20 @@
 ---
 title: "உங்கள் Wix இணையதளத்தில் SeaChat உடன் AI சாட்போட்டை எவ்வாறு பயன்படுத்துவது"
 metatitle: "உங்கள் Wix இணையதளத்தில் SeaChat உடன் AI சாட்போட்டை எவ்வாறு பயன்படுத்துவது"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat உடன் உங்கள் Wix இணையதளத்தை மேம்படுத்துங்கள் - Wix வலைப்பக்கம் மற்றும் WhatsApp இரண்டிலும் வாடிக்கையாளர் ஆதரவை தடையின்றி ஒருங்கிணைக்கவும். சிரமமின்றி ஈடுபாட்டை மேம்படுத்துங்கள்!
+description: "SeaChat உடன் உங்கள் Wix இணையதளத்தை மேம்படுத்துங்கள் - Wix வலைப்பக்கம் மற்றும் WhatsApp இரண்டிலும் வாடிக்கையாளர் ஆதரவை தடையின்றி ஒருங்கிணைக்கவும். சிரமமின்றி ஈடுபாட்டை மேம்படுத்துங்கள்!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "ஒருங்கிணைப்புகள்"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - ஒருங்கிணைப்புகள்
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 உங்கள் Wix இணையதளத்தில் SeaChat இன் WhatsApp AI சாட்போட்டை இணைப்பது உங்கள் வாடிக்கையாளர் சேவையை மேம்படுத்துவது மட்டுமல்லாமல், தொழில்நுட்ப கண்டுபிடிப்புகளின் முன்னணியில் உங்கள் வணிகத்தை நிலைநிறுத்துகிறது. SeaChat உடன் வாடிக்கையாளர் ஈடுபாட்டின் எதிர்காலத்தை தழுவுங்கள்.

@@ -13,6 +13,8 @@ tags:
 - வாடிக்கையாளர் அனுபவம்
 - தொழில்நுட்பப் போக்குகள்
 title: 'வாடிக்கையாளர் சேவையின் எதிர்காலம்: AI, ஆட்டோமேஷன் மற்றும் மனித தொடர்பு'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

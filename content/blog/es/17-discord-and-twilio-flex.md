@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord y Twilio Flex: Llevando el Centro de Contacto Flex a Territorio Inexplorado"
 metatitle: "Discord (3/3): Centro de Contacto Twilio Flex en Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "En este blog, demostramos cómo Seasalt.ai integra un centro de contacto completo en un servidor de Discord."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Este es el último artículo de nuestra serie de tres partes sobre el compromiso del cliente en Discord. Nuestro primer post del blog ["Una Nueva Frontera para el Compromiso del Cliente"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) discutió la creciente popularidad de Discord y las nuevas oportunidades que proporciona para que las marcas creen y se involucren con sus propias comunidades en línea. En la segunda parte ["Cómo Crear una Comunidad de Discord y Bot para Tu Marca"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), introdujimos cómo crear un servidor de Discord para tu marca y cómo integrar bots para gestionar la moderación del servidor, anuncios, comentarios de usuarios y más. Finalmente, en este blog, demostramos cómo Seasalt.ai integra un centro de contacto completo en un servidor de Discord, permitiendo a las marcas manejar todos los aspectos del servicio al cliente en la plataforma.*

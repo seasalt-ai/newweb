@@ -1,15 +1,16 @@
 ---
 title: "SeaX Case Management: Take Control of Your Contact Center Case Tracking"
 metatitle: "SeaX Case Management: Track Your Customer Interactions"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "In this post, we explore AI integrations with Case Management, which gives your agents tools to track and record interactions with your customers in SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *In our previous blog post, [SeaX KB: A Knowledge Base that Answers Before It’s Asked](https://seasalt.ai/blog/22-seax-knowledge-base/), we showed how Seasalt.ai’s in-house Knowledge Base puts your company’s information directly at your agents’ fingertips, boosting efficiency and accuracy in your contact center. In this post, we continue on the topic of AI integrations with SeaX’s Case Management system, which gives your agents powerful tools to track and record interactions with your customers directly in the SeaX interface.*

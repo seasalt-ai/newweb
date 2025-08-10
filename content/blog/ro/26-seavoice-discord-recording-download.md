@@ -1,16 +1,17 @@
 ---
 title: "Botul Discord SeaVoice STT/TTS: Primul care oferă înregistrări vocale descărcabile cu transcrieri AI"
 metatitle: "Botul Discord SeaVoice STT/TTS: Descărcări de înregistrări"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Cu cea mai recentă versiune, botul Discord SeaVoice este primul de pe platformă care oferă înregistrări descărcabile ale canalelor vocale cu transcrieri generate de AI.
+description: "Cu cea mai recentă versiune, botul Discord SeaVoice este primul de pe platformă care oferă înregistrări descărcabile ale canalelor vocale cu transcrieri generate de AI."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: "2025-08-01T12:00:00Z"
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *Botul Discord SeaVoice a câștigat popularitate ca una dintre cele mai bune opțiuni pentru transcrierea vorbirii în canalele vocale Discord. Cu cea mai nouă versiune, botul este primul de pe Discord care oferă înregistrări descărcabile ale canalelor vocale cu transcrieri generate de AI.*

@@ -13,6 +13,8 @@ tags:
 - การตลาดดิจิทัล
 - เนื้อหาวิดีโอ
 title: การสร้างเนื้อหามัลติมีเดียที่ขับเคลื่อนด้วย AI เพื่อการมีส่วนร่วมของลูกค้า
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

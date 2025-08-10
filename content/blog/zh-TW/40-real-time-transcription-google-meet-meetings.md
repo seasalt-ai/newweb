@@ -1,18 +1,17 @@
 ---
 title: "實時逐字稿與會議分析功能如何改變Google Meet會議"
 metatitle: "實時逐字稿與會議分析功能如何改變Google Meet會議"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 實時逐字稿與會議分析功能改變了會議的運作方式。不僅提高了會議效率，提供即時洞察，促進了快速決策，而且還增進了與會人員的參與感，確保了現代商務會議的成功。
+description: "實時逐字稿與會議分析功能改變了會議的運作方式。不僅提高了會議效率，提供即時洞察，促進了快速決策，而且還增進了與會人員的參與感，確保了現代商務會議的成功。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "實時逐字稿與會議分析功能改變了會議的運作方式。不僅提高了會議效率，提供即時洞察，促進了快速決策，而且還增進了與會人員的參與感，確保了現代商務會議的成功。"
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 在現代商業環境中，會議是促進團隊合作和決策的關鍵平台。然而，由於多個平行會議和繁忙的日程安排，保持對所有會議的同步變得越來越困難。在這種背景下，實時逐字稿和會議分析的需求日益凸顯，因為它們提供了一個解決方案，以克服傳統會議記錄方法的限制，並確保有效的會議管理。

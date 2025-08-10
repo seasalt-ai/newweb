@@ -1,20 +1,20 @@
 ---
 title: "Mejore su experiencia de chat: por qué SeaChat supera a I..."
 metatitle: "SeaChat vs. IBM Watson NLU"
-date: 2024-03-20T00:22:19-07:00
+date: 2024-03-20 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: "¿Por qué IBM Watson NLU está obsoleto? Descubra SeaChat: aléjese de las repetitivas costas de los chatbots con tecnología LLM avanzada, fomentando conversaciones atractivas y similares a las humanas."
 weight: 1
 tags:
-  - "SeaChat"
-  - "AI Tools"
-  - "Large Language Models"
-  - "NLU"
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-ibm-watson-nlu/"
-url: "/blog/seachat-vs-ibm-watson-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-vs-ibm-watson-nlu/
+url: /blog/seachat-vs-ibm-watson-nlu/
 ---
 
 

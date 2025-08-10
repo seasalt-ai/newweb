@@ -1,17 +1,19 @@
 ---
 title: "Walang putol na Pakikipagtulungan sa pagitan ng mga AI Bot at Live Agent: Pagpapahusay ng Karanasan ng Customer sa pamamagitan ng Kooperasyon ng Tao-Makina"
 metatitle: "Walang putol na Pakikipagtulungan sa pagitan ng mga AI Bot at Live Agent: Pagpapahusay ng Karanasan ng Customer sa pamamagitan ng Kooperasyon ng Tao-Makina | Serye ng Pagbuo ng Susunod na Henerasyong Chatbot gamit ang SeaChat"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Ang susunod na henerasyon ng serbisyo sa customer ay nagbabago sa industriya. Sinusuri ng artikulong ito ang synergy sa pagitan ng mga AI bot at live na ahente ng serbisyo sa customer upang magbigay ng mas matalino at mas makataong suporta, at ipinapaliwanag kung bakit minsan kinakailangan na balansehin ang dalawa. Tatalakayin natin kung paano hinuhubog ng mga pag-unlad ng teknolohiya ang karanasan ng customer at mga operasyon ng negosyo.
+description: "Ang susunod na henerasyon ng serbisyo sa customer ay nagbabago sa industriya. Sinusuri ng artikulong ito ang synergy sa pagitan ng mga AI bot at live na ahente ng serbisyo sa customer upang magbigay ng mas matalino at mas makataong suporta, at ipinapaliwanag kung bakit minsan kinakailangan na balansehin ang dalawa. Tatalakayin natin kung paano hinuhubog ng mga pag-unlad ng teknolohiya ang karanasan ng customer at mga operasyon ng negosyo."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Ang susunod na henerasyon ng serbisyo sa customer ay nagbabago sa industriya. Sinusuri ng artikulong ito ang synergy sa pagitan ng mga AI bot at live na ahente ng serbisyo sa customer upang magbigay ng mas matalino at mas makataong suporta, at ipinapaliwanag kung bakit minsan kinakailangan na balansehin ang dalawa. Tatalakayin natin kung paano hinuhubog ng mga pag-unlad ng teknolohiya ang karanasan ng customer at mga operasyon ng negosyo."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Bakit minsan kinakailangan na ilipat ang mga AI bot sa mga live agent?

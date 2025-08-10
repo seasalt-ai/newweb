@@ -1,18 +1,17 @@
 ---
 title: "Lansați-vă agentul virtual pe Google Maps cu Near Me Messaging"
 metatitle: "Lansați-vă agentul virtual Google Maps cu Near Me Messaging"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Lansați-vă agentul virtual pe Google Business Messages cu Near Me Messaging."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-08-01T12:00:00Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 V-am prezentat anterior [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-complements-google-business-messages/) și beneficiile sale. Near Me Messaging implementează un agent virtual Google Business Messages, disponibil direct de la butonul de chat de pe profilul Google Maps al unei afaceri. Agentul virtual al Near Me Messaging este alimentat de o înțelegere a limbajului natural de ultimă generație, care oferă răspunsuri asemănătoare omului. Ceea ce diferențiază Near Me Messaging de serviciile similare este timpul de configurare de 5 minute, personalizarea self-service și suportul de chat live încorporat.

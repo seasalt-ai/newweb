@@ -1,12 +1,12 @@
 ---
 title: "Discord: Una nueva frontera para la atención al cliente"
-slug: "discord-a-new-frontier-for-customer-engagement"
-seoTitle: "Discord: Una nueva frontera para la atención al cliente"
-seoDescription: "Descubre cómo Discord está revolucionando la atención al cliente, creando comunidades dinámicas y soporte innovador para empresas modernas."
+date: 2025-08-07T10:11:09 # 需要确认
+author: "" # 需要确认
+description: "" # 需要确认
 tags:
-  - "Discord"
-  - "Atención al cliente"
-  - "Compromiso"
+  - Discord
+  - Atención al cliente
+  - Compromiso
 ---
 
 

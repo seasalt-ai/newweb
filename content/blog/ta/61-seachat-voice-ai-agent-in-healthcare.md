@@ -1,16 +1,20 @@
 ---
 title: "சுகாதாரப் பராமரிப்பில் AI குரல் முகவர்களின் எழுச்சி: நோயாளி பராமரிப்பு மற்றும் ஈடுபாட்டை மேம்படுத்துதல்"
 metatitle: "சுகாதாரப் பராமரிப்பில் AI குரல் முகவர்கள் | சிறந்த நோயாளி பராமரிப்பு"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: AI குரல் முகவர்கள் சந்திப்பு திட்டமிடல் மற்றும் மருந்து நினைவூட்டல்களுக்கு உடனடி பதில்களுடன் சுகாதாரப் பராமரிப்பை எவ்வாறு மாற்றியமைக்கிறார்கள் என்பதைக் கண்டறியுங்கள், இது சிறப்புத் தேவைகள் உள்ள நோயாளிகளுக்கு பயனளிக்கிறது.
+description: "AI குரல் முகவர்கள் சந்திப்பு திட்டமிடல் மற்றும் மருந்து நினைவூட்டல்களுக்கு உடனடி பதில்களுடன் சுகாதாரப் பராமரிப்பை எவ்வாறு மாற்றியமைக்கிறார்கள் என்பதைக் கண்டறியுங்கள், இது சிறப்புத் தேவைகள் உள்ள நோயாளிகளுக்கு பயனளிக்கிறது."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # அறிமுகம்

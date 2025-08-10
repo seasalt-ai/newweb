@@ -1,16 +1,17 @@
 ---
 title: "Обслуживание клиентов United Airlines: хорошее, плохое и ужасное"
 metatitle: "Анализ обслуживания клиентов United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2024-07-08T09:00:00Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao делится своим недавним опытом взаимодействия с клиентской службой United Airlines во время задержек и отмены рейсов, а также предлагает решения для масштабирования поддержки клиентов в периоды пиковых нагрузок.
+description: "Xuchen Yao делится своим недавним опытом взаимодействия с клиентской службой United Airlines во время задержек и отмены рейсов, а также предлагает решения для масштабирования поддержки клиентов в периоды пиковых нагрузок."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *Генеральный директор Seasalt.ai Xuchen Yao делится своим недавним опытом взаимодействия с клиентской службой United Airlines во время задержек и отмены рейсов. Это заставило его задуматься о проблемах масштабирования поддержки клиентов авиакомпаний в периоды пиковых нагрузок. Xuchen Yao обсуждает возможные улучшения, такие как перенаправление части обращений на самообслуживание, повышение эффективности операторов и разработка технологий для проактивного выявления и снижения рисков.*

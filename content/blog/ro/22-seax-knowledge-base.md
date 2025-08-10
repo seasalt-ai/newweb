@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: O bază de cunoștințe care răspunde înainte de a fi întrebată"
-date: 2022-08-15T22:01:32-07:00
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Kim Dodds
-image: /images/blog/22-seax-knowledge-base/thumbnail.png
 description: "În această postare, continuăm subiectul integrărilor AI cu baza de cunoștințe SeaX, bazată pe AI, care oferă răspunsuri sugerate în timp real."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: /images/blog/22-seax-knowledge-base/thumbnail.png
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *În postarea noastră anterioară de pe blog, [Oferă-i centrului tău de contact propria voce cu SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), am arătat cum motoarele interne de text-to-speech și speech-to-text ale Seasalt.ai îmbunătățesc diverse aspecte ale platformei SeaX. În această postare, continuăm subiectul integrărilor AI cu baza de cunoștințe SeaX, bazată pe AI, care ascultă conversațiile și oferă răspunsuri sugerate în timp real.*

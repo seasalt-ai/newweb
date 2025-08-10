@@ -1,17 +1,18 @@
 ---
 title: "How to Transcribe Google Meet Meetings in Real-time?"
 metatitle: "How to Transcribe Google Meet Meetings in Real-time?"
-date: 2023-10-04T10:25:00-08:00
-modified_date: 2025-07-30T17:30:00-08:00
+date: 2023-10-04 10:25:00-08:00
+modified_date: 2025-07-30 17:30:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore methods for real-time transcription of Google Meet meetings, from built-in features to the Seasalt.ai tool SeaMeet, emphasizing accuracy, data storage, sharing, and confidentiality. Choose the best tool to ensure efficiency and security.
+description: "Explore methods for real-time transcription of Google Meet meetings, from built-in features to the Seasalt.ai tool SeaMeet, emphasizing accuracy, data storage, sharing, and confidentiality. Choose the best tool to ensure efficiency and security."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Explore methods for real-time transcription of Google Meet meetings, from built-in features to the Seasalt.ai tool SeaMeet, emphasizing accuracy, data storage, sharing, and confidentiality. Choose the best tool to ensure efficiency and security."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **Article Outline**

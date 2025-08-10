@@ -1,17 +1,19 @@
 ---
 title: "Nahtlose Zusammenarbeit zwischen KI-Bots und Live-Agenten: Verbesserung des Kundenerlebnisses durch Mensch-Maschine-Kooperation"
 metatitle: "Nahtlose Zusammenarbeit zwischen KI-Bots und Live-Agenten: Verbesserung des Kundenerlebnisses durch Mensch-Maschine-Kooperation | SeaChat: Die nächste Generation von Chatbots"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Die nächste Generation des Kundenservice gestaltet die Branche neu. Dieser Artikel untersucht die Synergie zwischen KI-Bots und Live-Agenten, um intelligentere und menschlichere Unterstützung zu bieten, und erklärt, warum es manchmal notwendig ist, ein Gleichgewicht zwischen beiden zu finden. Wir werden diskutieren, wie technologische Fortschritte das Kundenerlebnis und die Geschäftsabläufe prägen.
+description: "Die nächste Generation des Kundenservice gestaltet die Branche neu. Dieser Artikel untersucht die Synergie zwischen KI-Bots und Live-Agenten, um intelligentere und menschlichere Unterstützung zu bieten, und erklärt, warum es manchmal notwendig ist, ein Gleichgewicht zwischen beiden zu finden. Wir werden diskutieren, wie technologische Fortschritte das Kundenerlebnis und die Geschäftsabläufe prägen."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Die nächste Generation des Kundenservice gestaltet die Branche neu. Dieser Artikel untersucht die Synergie zwischen KI-Bots und Live-Agenten, um intelligentere und menschlichere Unterstützung zu bieten, und erklärt, warum es manchmal notwendig ist, ein Gleichgewicht zwischen beiden zu finden. Wir werden diskutieren, wie technologische Fortschritte das Kundenerlebnis und die Geschäftsabläufe prägen."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Warum ist es manchmal notwendig, KI-Bots an Live-Agenten zu übergeben?

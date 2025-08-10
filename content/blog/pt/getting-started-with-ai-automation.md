@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Começando com a Automação de IA para Pequenas Empresas
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

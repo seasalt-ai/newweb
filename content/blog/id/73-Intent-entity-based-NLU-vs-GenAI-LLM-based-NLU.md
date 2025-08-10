@@ -1,16 +1,21 @@
 ---
 title: "NLU Berbasis Intent/Entitas vs. NLU Berbasis GenAI/LLM: Perbedaannya Jutaan (Contoh dan Dolar)"
 metatitle: "NLU Berbasis Intent/Entitas vs. NLU Berbasis GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: Buka masa depan AI Percakapan - Mengapa pergeseran dari NLU berbasis intent/entitas ke GenAI/LLM sangat penting untuk skalabilitas, efisiensi biaya, dan adaptabilitas."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Kepada semua Direktur Layanan Pelanggan atau Pemasaran, jika atasan Anda menanyakan pertanyaan berikut, kirimkan artikel ini kepada mereka:

@@ -1,19 +1,19 @@
 ---
 title: "ChatGPTを使って会社のナレッジベースを構築する"
 metatitle: "ChatGPTを使って会社のナレッジベースを構築する | SeaChat次世代シリーズ"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: カスタムChatGPTチャットボットが企業の内部ナレッジベース管理をどのように革新できるかを探ります。この記事では、プロジェクト管理、人事、エンジニアリング設計などの分野でのその応用を深く分析し、ノーコード開発と迅速な展開の利便性を明らかにし、将来のトレンドを予測し、企業のデジタル変革におけるチャットボットの重要な役割を展望します。
+description: "カスタムChatGPTチャットボットが企業の内部ナレッジベース管理をどのように革新できるかを探ります。この記事では、プロジェクト管理、人事、エンジニアリング設計などの分野でのその応用を深く分析し、ノーコード開発と迅速な展開の利便性を明らかにし、将来のトレンドを予測し、企業のデジタル変革におけるチャットボットの重要な役割を展望します。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "カスタムChatGPTチャットボットが企業の内部ナレッジベース管理をどのように革新できるかを探ります。この記事では、プロジェクト管理、人事、エンジニアリング設計などの分野でのその応用を深く分析し、ノーコード開発と迅速な展開の利便性を明らかにし、将来のトレンドを予測し、企業のデジタル変革におけるチャットボットの重要な役割を展望します。"
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 今日のデジタル変革の時代において、企業はAIチャットボットが内部業務効率と顧客サービス品質を向上させる上で持つ巨大な可能性を徐々に認識しています。特にChatGPTのような高度なチャットボット技術は、企業の内部ナレッジベース管理と顧客インタラクションの重要なツールとなるでしょう。

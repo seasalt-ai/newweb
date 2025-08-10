@@ -1,16 +1,18 @@
 ---
 title: "고객 사례: SeaX가 100개국에서 최고 모바일 브랜드 고객을 지원한 방법"
 metatitle: "SeaX가 최고 모바일 브랜드 고객을 전 세계적으로 지원"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Seasalt.ai의 혁신적인 옴니채널 컨택 센터 구축이 상위 5개 모바일 폰 브랜드가 100개국에서 고객 지원 운영을 혼란에서 고객 만족으로 혁신하는 데 어떻게 도움이 되었는지 알아보세요!
+description: "Seasalt.ai의 혁신적인 옴니채널 컨택 센터 구축이 상위 5개 모바일 폰 브랜드가 100개국에서 고객 지원 운영을 혼란에서 고객 만족으로 혁신하는 데 어떻게 도움이 되었는지 알아보세요!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 상위 5개 국제 모바일 폰 브랜드 중 하나를 위한 옴니채널 컨택 센터 구축 성공 사례는 고객 지원 운영을 향상시키는 기술의 혁신적인 힘을 증명합니다.

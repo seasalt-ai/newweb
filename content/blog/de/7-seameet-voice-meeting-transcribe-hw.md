@@ -1,18 +1,17 @@
 ---
 title: "Vom Demo zum Erfolg: Jenseits der Hardware (5/5)"
 metatitle: "Vom Demo zum Erfolg (5/5): Jenseits der Hardware"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "Im letzten Teil dieser Blog-Serie verfolgen Sie die Reise von Seasalt.ai zur Entwicklung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *In dieser Blog-Serie verfolgen Sie die Reise von Seasalt.ai zur Entwicklung einer umfassenden Modern Meetings Experience, beginnend mit ihren bescheidenen Anfängen, über die Optimierung unseres Dienstes auf verschiedenen Hardware- und Modellen, bis hin zur Integration modernster NLP-Systeme und schließlich zur vollständigen Realisierung von SeaMeet, unseren kollaborativen modernen Meeting-Lösungen.*

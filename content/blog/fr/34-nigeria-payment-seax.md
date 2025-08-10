@@ -1,16 +1,18 @@
 ---
 title: "Témoignage client : Succès du centre de contact dans l'industrie du paiement numérique au Nigeria"
 metatitle: "Succès du centre de contact dans l'industrie du paiement numérique au Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: La principale entreprise de paiement numérique du Nigeria a révolutionné le support client grâce à un centre de contact omnicanal, intégrant des chatbots et un support personnalisé en pidgin anglais, bénéficiant à des millions d'utilisateurs et de commerçants.
+description: "La principale entreprise de paiement numérique du Nigeria a révolutionné le support client grâce à un centre de contact omnicanal, intégrant des chatbots et un support personnalisé en pidgin anglais, bénéficiant à des millions d'utilisateurs et de commerçants."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 L'histoire de succès du déploiement du centre de contact omnicanal pour une entreprise leader du paiement numérique au Nigeria met en évidence la manière dont l'adoption d'une technologie avancée peut révolutionner le support client et améliorer l'expérience utilisateur globale.

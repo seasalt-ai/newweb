@@ -1,16 +1,20 @@
 ---
 title: "منشئ وكيل الذكاء الاصطناعي بدون رمز من SeaChat يجعل اعتماد الذكاء الاصطناعي سهلاً"
 metatitle: "منشئ وكيل الذكاء الاصطناعي بدون رمز من SeaChat يجعل اعتماد الذكاء الاصطناعي سهلاً"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: انتقل بسلاسة إلى اعتماد الذكاء الاصطناعي داخل مؤسستك باستخدام SeaChat! يبسط منشئ وكيل الذكاء الاصطناعي بدون رمز هذا العملية، مما يجعلها سهلة وخالية من المتاعب. ابدأ من حالات الاستخدام البسيطة وزد تدريجياً اعتماد الذكاء الاصطناعي من خلال تجربة طرق مختلفة للاستفادة من الذكاء الاصطناعي.
+description: "انتقل بسلاسة إلى اعتماد الذكاء الاصطناعي داخل مؤسستك باستخدام SeaChat! يبسط منشئ وكيل الذكاء الاصطناعي بدون رمز هذا العملية، مما يجعلها سهلة وخالية من المتاعب. ابدأ من حالات الاستخدام البسيطة وزد تدريجياً اعتماد الذكاء الاصطناعي من خلال تجربة طرق مختلفة للاستفادة من الذكاء الاصطناعي."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # تقديم SeaChat: منشئ وكيل الذكاء الاصطناعي بدون رمز الخاص بك

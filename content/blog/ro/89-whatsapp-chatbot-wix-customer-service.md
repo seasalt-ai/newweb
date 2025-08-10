@@ -1,11 +1,10 @@
 ---
 title: "Integrarea Chatbot-ului AI SeaChat cu WhatsApp și Wix pentru Serviciul Clienți"
-linkTitle: "Integrarea Chatbot-ului AI SeaChat cu WhatsApp și Wix pentru Serviciul Clienți"
-date: 2023-10-26T10:00:00+08:00
-lastmod: 2023-10-26T10:00:00+08:00
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-29 12:00:00+00:00
 draft: false
-author: "SeaChat"
-modified_date: "2024-07-29T12:00:00Z"
+author: SeaChat
+description: "\"\" # 需要确认"
 ---
 
 În era digitală de astăzi, serviciul clienți eficient este esențial pentru succesul afacerilor. Pe măsură ce tot mai multe companii își stabilesc o prezență online, integrarea soluțiilor avansate de chatbot devine crucială. Acest articol detaliază cum să integrați chatbot-ul AI SeaChat cu site-urile Wix și WhatsApp pentru a îmbunătăți serviciul clienți.

@@ -1,17 +1,18 @@
 ---
 title: "The Only 2 Truly Free Web Chat Widgets We Found For Websites"
 metatitle: "Seasalt.ai | Top Free Chat Widgets | Free Chatbot Widgets"
-date: 2024-11-17T00:22:19-07:00
+date: 2024-11-17 00:22:19-07:00
 draft: false
 author: Xuchen Yao | Jun Mao
-description: ""
+description: "\"\" # 需要确认"
 weight: 1
-tags: ["Chatbot Widget", "Free Chat Widget", "SeaChat"]
-toc: true
+tags:
+  - Chatbot Widget
+  - Free Chat Widget
+  - SeaChat
 image: /images/blog/108-free-chatbot-widget/108-free-chatbot-widget.jpg
-canonicalURL: "/blog/free-chat-widgets/"
-url: "/blog/free-chat-widgets/"
-
+canonicalURL: /blog/free-chat-widgets/
+url: /blog/free-chat-widgets/
 ---
 
 ---

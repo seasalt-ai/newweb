@@ -1,19 +1,18 @@
 ---
 title: "如何利用SeaMeet有效管理多場平行會議"
 metatitle: "如何利用SeaMeet有效管理多場平行會議"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？實時分析會議錄音已經成為了企業提高效率和溝通質量的必要工具。透過實時分析，公司可以確保每次的討論都能得到準確的記錄，從而使決策過程更加高效和精確。
+description: "隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新的探索領域。當AI與語音識別結合時，為實時會議分析提供了前所未有的可能性。但是，這對日常業務運營又意味著什麼？實時分析會議錄音已經成為了企業提高效率和溝通質量的必要工具。透過實時分析，公司可以確保每次的討論都能得到準確的記錄，從而使決策過程更加高效和精確。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "在現代快節奏的工作環境中，常常會出現多場會議同時進行的情況。這對於忙碌的主管和經理人來說，是一個巨大的挑戰。如果可以，他們都希望能夠參與每一場會議，但由於時間和身體的限制，這往往是不可能的。"
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # 多場會議同時進行的挑戰

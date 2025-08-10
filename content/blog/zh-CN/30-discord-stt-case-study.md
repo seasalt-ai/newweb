@@ -1,15 +1,17 @@
 ---
 title: "Discord 上的语音转文本：STT Discord 机器人案例研究"
 metatitle: "Discord 上的语音转文本：STT Discord 机器人案例研究"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: 在这篇博客中，我们将讨论我们对真实 Discord 用户如何利用 SeaVoice 服务的发现，此前我们审查了几周的真实语音转文本数据。
+description: "在这篇博客中，我们将讨论我们对真实 Discord 用户如何利用 SeaVoice 服务的发现，此前我们审查了几周的真实语音转文本数据。"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *在 Discord 上推出 SeaVoice（最快、最准确的文本转语音和语音转文本机器人之一）后，我们想了解用户实际如何与服务交互。在这篇博客中，我们将讨论我们审查了几周真实语音转文本用户数据后的发现。*

@@ -1,17 +1,19 @@
 ---
 title: "Paano Magdagdag ng AI Chatbot sa Iyong Squarespace Website gamit ang SeaChat"
 metatitle: "SeaChat AI | Mga AI Agent sa Iyong Squarespace Website"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: I-maximize ang pakikipag-ugnayan ng customer sa Squarespace gamit ang AI ng SeaChat - i-customize, sanayin, subaybayan, at i-update ang iyong chatbot para sa proactive na suporta sa bisita.
+description: "I-maximize ang pakikipag-ugnayan ng customer sa Squarespace gamit ang AI ng SeaChat - i-customize, sanayin, subaybayan, at i-update ang iyong chatbot para sa proactive na suporta sa bisita."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "Mga Integrasyon"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - Mga Integrasyon
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 Sa mabilis na pagbabago ng digital landscape ngayon, ang epektibong serbisyo sa customer at pakikipag-ugnayan ng user ay kritikal para sa mga negosyo. Inaasahan ng mga customer ang real-time na interaksyon, mabilis na tugon, at personalized na suporta. Ang pagsasama ng mga solusyon sa chat sa iyong website ay maaaring makabuluhang mapahusay ang mga aspetong ito. Sa blog na ito, susuriin natin kung paano magdagdag ng AI chatbot sa iyong Squarespace website at baguhin ang iyong komunikasyon sa customer.

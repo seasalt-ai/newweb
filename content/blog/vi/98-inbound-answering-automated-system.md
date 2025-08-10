@@ -1,17 +1,20 @@
 ---
 title: "Hệ thống trả lời điện thoại tự động (Phản hồi giọng nói tương tác so với Đại lý AI bằng giọng nói): Lựa chọn tốt nhất cho doanh nghiệp nhỏ (3/5)"
 metatitle: "Hệ thống trả lời tự động (Phản hồi giọng nói tương tác so với AI bằng giọng nói)"
-date: 2024-09-19T00:22:19-07:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Jun Mao
 description: "Khám phá các tùy chọn Phản hồi giọng nói tương tác và AI bằng giọng nói cho hệ thống điện thoại tự động trong các doanh nghiệp nhỏ."
 weight: 1
-tags: ["Dịch vụ trả lời tự động", "Cuộc gọi đến cho doanh nghiệp nhỏ", "SeaChat",  "AI bằng giọng nói"]
-toc: true
+tags:
+  - Dịch vụ trả lời tự động
+  - Cuộc gọi đến cho doanh nghiệp nhỏ
+  - SeaChat
+  - AI bằng giọng nói
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

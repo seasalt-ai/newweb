@@ -1,16 +1,17 @@
 ---
 title: "Erweitern Sie Ihren Contact Center-Footprint mit einem Distributed Contact Center"
 metatitle: "Erweitern Sie Ihren Footprint mit einem Distributed Contact Center"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "In diesem Blog werden wir uns mit 'verteilten' Contact Centern befassen: Was sie sind, wie sie Ihnen nützen können und wie SeaX dies nutzt, um unsere Kunden besser zu bedienen."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *In unserem vorherigen Blogbeitrag, [Kunden von jedem Kanal an einem Ort zusammenführen mit SeaX Omnichannel Communication](https://seasalt.ai/blog/19-seax-omnichannel-communication/), haben wir die Leistungsfähigkeit der Omnichannel-Kommunikation auf der SeaX-Plattform gezeigt, die es ermöglicht, Benutzernachrichten von praktisch jedem Kanal auf der SeaX-Plattform anzuzeigen. In diesem Beitrag werden wir uns mit "verteilten" Contact Centern befassen: Was sie sind, wie sie Ihnen nützen können und wie SeaX eine verteilte Plattform nutzt, um unsere Kunden besser zu bedienen.*

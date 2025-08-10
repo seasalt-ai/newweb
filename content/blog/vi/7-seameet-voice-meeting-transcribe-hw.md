@@ -1,18 +1,17 @@
 ---
 title: "Từ Demo đến Thành công: Vượt xa phần cứng (5/5)"
 metatitle: "Từ Demo đến Thành công (5/5): Vượt xa phần cứng"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "Trong phần cuối cùng của loạt bài blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra SeaMeet, các giải pháp cuộc họp hiện đại hợp tác của chúng tôi."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *Trong suốt loạt bài đăng trên blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra Trải nghiệm Cuộc họp Hiện đại toàn diện, bắt đầu từ những khởi đầu khiêm tốn, đến việc tối ưu hóa dịch vụ của chúng tôi trên các phần cứng và mô hình khác nhau, đến việc tích hợp các hệ thống NLP tiên tiến và cuối cùng là kết thúc bằng việc hiện thực hóa đầy đủ SeaMeet, các giải pháp cuộc họp hiện đại hợp tác của chúng tôi.*

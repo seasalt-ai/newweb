@@ -1,15 +1,17 @@
 ---
 title: "Panduan Lengkap Anda untuk Konversi Audio: Konversi File Suara dengan Mudah | Seri Kotak Alat Audio"
 metatitle: "Konversi File Audio/Suara | Seri Kotak Alat Audio"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: Pelajari tentang konverter file audio, konversi format suara, dan perangkat lunak konverter audio gratis terbaik. Konversi file audio dengan mudah dengan panduan langkah demi langkah kami.
+description: "Pelajari tentang konverter file audio, konversi format suara, dan perangkat lunak konverter audio gratis terbaik. Konversi file audio dengan mudah dengan panduan langkah demi langkah kami."
 weight: 1
-tags: ["Kotak Alat Audio", "Alat AI"]
+tags:
+  - Kotak Alat Audio
+  - Alat AI
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Pengantar Konversi Audio

@@ -1,18 +1,20 @@
 ---
 title: "نکات اتوماسیون LINE: ادغام بی‌نقص SeaChat با اتوماسیون‌های LINE"
 metatitle: "نکات اتوماسیون LINE: ادغام بی‌نقص SeaChat با اتوماسیون‌های LINE"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: راه‌حل اتوماسیون LINE! عملکرد پاسخ خودکار LINE در حال توقف سرویس است. از SeaChat، دستیار هوشمند AI استفاده کنید تا گفتگوهای مشتریان شما روان‌تر شود و راه‌حل جامع خدمات مشتری ارائه دهد.
+description: "راه‌حل اتوماسیون LINE! عملکرد پاسخ خودکار LINE در حال توقف سرویس است. از SeaChat، دستیار هوشمند AI استفاده کنید تا گفتگوهای مشتریان شما روان‌تر شود و راه‌حل جامع خدمات مشتری ارائه دهد."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'می‌خواهید LINE را به دستیار فوق‌العاده برند خود تبدیل کنید؟ وقتی مشتریان بیشتر و بیشتر می‌شوند و یک نفر کافی نیست، نمی‌توانید به هر پیام به طور جداگانه پاسخ دهید. ["ربات پاسخ خودکار"](https://line-tw-official.weblog.to/archives/85582088.html) LINE به نظر می‌رسد این مشکل آزاردهنده را حل کند! چه برای خوشامدگویی به دوستان جدید یا پاسخ به کلمات کلیدی - به نظر خیلی آسان‌تر می‌رسد، درست است؟'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # اتوماسیون LINE چیست؟

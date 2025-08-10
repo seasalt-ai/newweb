@@ -2,16 +2,15 @@
 title: "डेमो से सफलता तक: आधुनिक बैठकों के नुकसान (2/5)"
 metatitle: "डेमो से सफलता तक (2/5): आधुनिक बैठकों के नुकसान"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "इस ब्लॉग श्रृंखला के दूसरे भाग में, Seasalt.ai की SeaMeet, हमारे सहयोगी आधुनिक बैठक समाधान बनाने की यात्रा का अनुसरण करें।"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *इस ब्लॉग श्रृंखला के दौरान, Seasalt.ai की एक अच्छी तरह से गोल आधुनिक बैठक अनुभव बनाने की यात्रा का अनुसरण करें, इसकी विनम्र शुरुआत से लेकर, विभिन्न हार्डवेयर और मॉडल पर हमारी सेवा को अनुकूलित करने तक, अत्याधुनिक एनएलपी सिस्टम को एकीकृत करने तक और अंत में SeaMeet, हमारे सहयोगी आधुनिक बैठक समाधान की पूर्ण प्राप्ति पर समाप्त होता है।*

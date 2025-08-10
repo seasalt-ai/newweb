@@ -1,18 +1,18 @@
 ---
 title: "Voicebotで一人暮らしの高齢者を支援する方法 - SeaXのスマートソリューション"
 metatitle: "AI Voicebotで一人暮らしの高齢者の生活の質を向上 - SeaXスマートケアソリューション"
-date: 2024-08-25T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-25 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "SeaXのAIスマートケアコールを活用し、台湾の超高齢社会における一人暮らしの高齢者に定期的なケア、健康モニタリング、緊急支援を提供し、高齢者の生活の質と安心感を効果的に向上させる方法を探ります。"
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: '台湾は超高齢社会に突入しつつあり、一人暮らしの高齢者の数が増加しています。国家発展委員会のデータによると、2024年には台湾の高齢者人口比率が20%に近づき、2025年には正式に超高齢社会に突入すると予測されています。このような社会構造の変化により、一人暮らしの高齢者の心身の健康問題が注目されています。特に、多くの高齢者は孤独を感じ、一人で自宅で亡くなる可能性を心配しています。これらの精神的ストレスは、彼らの生活の質に影響を与えるだけでなく、身体の健康にも脅威を与えています。'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 台湾は超高齢社会に突入しつつあり、一人暮らしの高齢者の数が増加しています。国家発展委員会のデータによると、2024年には台湾の高齢者人口比率が20%に近づき、2025年には正式に超高齢社会に突入すると予測されています。このような社会構造の変化により、一人暮らしの高齢者の心身の健康問題が注目されています。特に、多くの高齢者は孤独を感じ、一人で自宅で亡くなる可能性を心配しています。これらの精神的ストレスは、彼らの生活の質に影響を与えるだけでなく、身体の健康にも脅威を与えています。

@@ -1,18 +1,18 @@
 ---
 title: "SeaX: Studi Kasus Panggilan Telepon Pemeriksaan Tahunan - Memberikan Layanan Perawatan yang Lebih Baik untuk Lansia"
 metatitle: "Studi Kasus Panggilan Telepon Pemeriksaan Tahunan SeaX: Asisten AI Meningkatkan Kualitas Layanan Perawatan Lansia"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Jelajahi bagaimana SeaX merevolusi layanan perawatan lansia melalui teknologi AI, mengatasi berbagai tantangan dalam pemeriksaan telepon tahunan, meningkatkan kualitas layanan, dan mengurangi beban sukarelawan. Pelajari bagaimana solusi cerdas SeaX memberikan perawatan berkelanjutan yang lebih baik untuk lansia di seluruh dunia."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Menghadapi populasi lansia yang terus bertambah, lembaga perawatan lansia di seluruh dunia menghadapi banyak tantangan. Terutama dalam hal perawatan rutin dan pemantauan kesehatan, tidak hanya membutuhkan banyak sumber daya manusia, tetapi juga seringkali karena kelalaian atau keterlambatan, masalah potensial tidak dapat ditemukan tepat waktu. Inilah tantangan yang dihadapi oleh lembaga layanan sosial Singapura yang bekerja sama dengan Seasalt.ai. Lembaga ini melakukan panggilan perawatan tahunan dengan ribuan lansia setiap tahun, sebuah proses yang rumit dan sulit dikelola secara efisien. Untuk mengatasi masalah ini, mereka memperkenalkan SeaX, yang secara signifikan meningkatkan kualitas dan efisiensi layanan perawatan melalui teknologi AI.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

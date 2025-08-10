@@ -12,6 +12,8 @@ tags:
 - デジタルマーケティング
 - ビデオコンテンツ
 title: 顧客エンゲージメントのためのAI搭載マルチメディアコンテンツの作成
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

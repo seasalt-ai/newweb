@@ -1,17 +1,22 @@
 ---
 title: "SeaChat विशेष रुप से प्रदर्शित: Smooth Rentals द्वारा शीर्ष अवकाश किराया स्वचालन उपकरण"
 metatitle: "Seasalt.ai द्वारा SeaChat | अवकाश किराया स्वचालन | Smooth Rentals सुविधा"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "Seasalt.ai द्वारा SeaChat को Smooth Rentals के नवीनतम ब्लॉग पोस्ट में अवकाश किराए के लिए एक अग्रणी स्वचालन उपकरण के रूप में मान्यता दी गई है। जानें कि SeaChat अतिथि संचार को कैसे सुव्यवस्थित करता है और दक्षता को बढ़ाता है।"
 weight: 1
-tags: ["SeaChat", "अवकाश किराया", "स्वचालन", "अतिथि संचार", "Smooth Rentals", "AI चैटबॉट"]
-toc: true
+tags:
+  - SeaChat
+  - अवकाश किराया
+  - स्वचालन
+  - अतिथि संचार
+  - Smooth Rentals
+  - AI चैटबॉट
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # Smooth Rentals के अवकाश किराया स्वचालन उपकरण गाइड में SeaChat विशेष रुप से प्रदर्शित

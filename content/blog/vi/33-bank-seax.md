@@ -1,16 +1,18 @@
 ---
 title: "Câu chuyện khách hàng: Trao quyền cho một ngân hàng lớn ở châu Á để cung cấp hỗ trợ đa ngôn ngữ và tập trung vào quyền riêng tư cho khách hàng"
 metatitle: "Ngân hàng châu Á cung cấp hỗ trợ đa ngôn ngữ và riêng tư với SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Bài viết mô tả cách triển khai trung tâm liên lạc đa kênh đã cách mạng hóa bối cảnh dịch vụ khách hàng cho một ngân hàng tư nhân lớn ở Đông Nam Á, nâng cao hiệu suất của đại lý thông qua các bản ghi giọng nói thời gian thực, thông tin chi tiết dựa trên dữ liệu và các biện pháp bảo mật dữ liệu mạnh mẽ.
+description: "Bài viết mô tả cách triển khai trung tâm liên lạc đa kênh đã cách mạng hóa bối cảnh dịch vụ khách hàng cho một ngân hàng tư nhân lớn ở Đông Nam Á, nâng cao hiệu suất của đại lý thông qua các bản ghi giọng nói thời gian thực, thông tin chi tiết dựa trên dữ liệu và các biện pháp bảo mật dữ liệu mạnh mẽ."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 Câu chuyện thành công về việc triển khai trung tâm liên lạc đa kênh cho một trong những ngân hàng tư nhân lớn nhất Đông Nam Á cho thấy công nghệ tiên tiến và cách tiếp cận lấy khách hàng làm trung tâm có thể thay đổi bối cảnh dịch vụ khách hàng đồng thời đảm bảo quyền riêng tư dữ liệu.

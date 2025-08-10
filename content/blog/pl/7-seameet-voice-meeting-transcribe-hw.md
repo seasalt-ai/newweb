@@ -1,18 +1,17 @@
 ---
 title: "Od dema do sukcesu: Poza sprzętem (5/5)"
 metatitle: "Od dema do sukcesu (5/5): Poza sprzętem"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "W ostatniej części tej serii blogów, śledź podróż Seasalt.ai do stworzenia SeaMeet, naszych wspólnych, nowoczesnych rozwiązań do spotkań."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *W całej tej serii blogów, śledź podróż Seasalt.ai do stworzenia wszechstronnego doświadczenia w zakresie nowoczesnych spotkań, począwszy od skromnych początków, poprzez optymalizację naszych usług na różnym sprzęcie i modelach, aż po integrację najnowocześniejszych systemów NLP i wreszcie pełną realizację SeaMeet, naszych wspólnych, nowoczesnych rozwiązań do spotkań.*

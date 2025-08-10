@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Начало работы с автоматизацией ИИ для малого бизнеса
+canonicalURL: blog/getting-started-with-ai-automation/
+url: blog/getting-started-with-ai-automation/
 ---
 
 

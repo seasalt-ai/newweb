@@ -1,16 +1,17 @@
 ---
 title: "SeaXオムニチャネルコミュニケーションで、あらゆるチャネルの顧客を1か所に集約"
 metatitle: "SeaXオムニチャネルコミュニケーションで顧客接点を統合"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "このブログでは、SeaXのオムニチャネルコミュニケーションの1つである、あらゆるチャネルからのユーザーメッセージをSeaXプラットフォームに表示できる機能に焦点を当てます。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *前回のブログ記事「[SeaXへようこそ、コラボレーション型クラウドコンタクトセンター](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)」では、コラボレーション型クラウドコミュニケーションコンタクトセンターソリューションであるSeaXをご紹介しました。最初のブログ記事では、SeaXの基本的およびより高度な機能の包括的な概要を説明しましたが、その後の記事では、SeaXを際立たせる個々の機能のいくつかをさらに深く掘り下げていきます。この記事では、SeaXのオムニチャネルサポートを詳しく見て、さまざまなチャネルからの通話やメッセージがSeaXプラットフォームでどのように表示されるかを確認します。*

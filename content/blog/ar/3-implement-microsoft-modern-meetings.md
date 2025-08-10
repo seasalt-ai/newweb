@@ -2,16 +2,15 @@
 title: "من العرض التوضيحي إلى النجاح: تنفيذ اجتماعات مايكروسوفت الحديثة وما بعدها (1/5)"
 metatitle: "من العرض التوضيحي إلى النجاح (1/5): ما وراء اجتماعات مايكروسوفت الحديثة"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "في الجزء الأول من سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء SeaMeet، حلول الاجتماعات الحديثة التعاونية لدينا."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *خلال سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء تجربة اجتماعات حديثة شاملة، بدءًا من بداياتها المتواضعة، إلى تحسين خدمتنا على أجهزة ونماذج مختلفة، إلى دمج أحدث أنظمة البرمجة اللغوية العصبية وأخيراً الانتهاء من الإدراك الكامل لـ SeaMeet، حلول الاجتماعات الحديثة التعاونية لدينا.*

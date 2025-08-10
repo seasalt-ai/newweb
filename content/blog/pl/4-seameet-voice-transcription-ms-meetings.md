@@ -2,16 +2,15 @@
 title: "Od Demo do Sukcesu: Pułapki Nowoczesnych Spotkań (2/5)"
 metatitle: "Od Demo do Sukcesu (2/5): Pułapki Nowoczesnych Spotkań"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "W drugiej części tej serii blogów śledź podróż Seasalt.ai do stworzenia SeaMeet, naszego wspólnego rozwiązania do nowoczesnych spotkań."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *W całej tej serii blogów śledź podróż Seasalt.ai do stworzenia wszechstronnego doświadczenia nowoczesnych spotkań, zaczynając od skromnych początków, poprzez optymalizację naszych usług na różnych sprzętach i modelach, po integrację najnowocześniejszych systemów NLP i wreszcie kończąc na pełnej realizacji SeaMeet, naszego wspólnego rozwiązania do nowoczesnych spotkań.*

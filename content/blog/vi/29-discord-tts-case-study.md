@@ -1,20 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển hình về Bot Discord TTS"
+metatitle: "Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển..."
 date: 2022-12-27 17:04:20-08:00
-description: Trong blog này, chúng tôi sẽ thảo luận về những phát hiện của mình về
-  cách người dùng Discord thực sự sử dụng dịch vụ của chúng tôi sau khi xem xét dữ
-  liệu chuyển văn bản thành giọng nói xác thực trong vài tháng.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển...'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển hình về Bot Discord
-  TTS'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "Trong blog này, chúng tôi sẽ thảo luận về những phát hiện của mình về cách người dùng Discord thực sự sử dụng dịch vụ của chúng tôi sau khi xem xét dữ liệu chuyển văn bản thành giọng nói xác thực trong vài tháng."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

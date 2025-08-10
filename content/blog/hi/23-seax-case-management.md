@@ -1,16 +1,17 @@
 ---
 title: "SeaX केस मैनेजमेंट: अपने संपर्क केंद्र के केस ट्रैकिंग पर नियंत्रण रखें"
 metatitle: "SeaX केस मैनेजमेंट: अपने ग्राहक इंटरैक्शन को ट्रैक करें"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "इस पोस्ट में, हम केस मैनेजमेंट के साथ AI एकीकरण का पता लगाते हैं, जो आपके एजेंटों को SeaX में आपके ग्राहकों के साथ इंटरैक्शन को ट्रैक और रिकॉर्ड करने के लिए उपकरण देता है।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *हमारी पिछली ब्लॉग पोस्ट, [SeaX KB: एक ज्ञान आधार जो पूछे जाने से पहले जवाब देता है](https://seasalt.ai/blog/22-seax-knowledge-base/), में हमने दिखाया कि Seasalt.ai का इन-हाउस ज्ञान आधार आपकी कंपनी की जानकारी को सीधे आपके एजेंटों की उंगलियों पर कैसे रखता है, जिससे आपके संपर्क केंद्र में दक्षता और सटीकता बढ़ती है। इस पोस्ट में, हम SeaX के केस मैनेजमेंट सिस्टम के साथ AI एकीकरण के विषय पर जारी रखते हैं, जो आपके एजेंटों को SeaX इंटरफ़ेस में सीधे आपके ग्राहकों के साथ इंटरैक्शन को ट्रैक और रिकॉर्ड करने के लिए शक्तिशाली उपकरण देता है।*

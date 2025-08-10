@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Pembantu Suara AI Merevolusikan Penyelesaian Pintar Penjagaan Warga Emas"
 metatitle: "SeaX + SeaChat: Inovasi Penjagaan Warga Emas Melalui Pembantu Suara AI - Aplikasi Berjaya Panggilan Penjagaan Pintar"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Terokai bagaimana sistem pembantu suara AI SeaX + SeaChat menyelesaikan cabaran penjagaan warga emas dalam masyarakat super-tua Taiwan. Fahami bagaimana panggilan penjagaan pintar meningkatkan kualiti hidup warga emas, menyediakan penjagaan masa nyata, persahabatan emosi, dan pemantauan kesihatan, serta menangani masalah kekurangan tenaga kerja."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Apabila Taiwan bergerak ke arah masyarakat super-tua, penjagaan warga emas menghadapi cabaran yang belum pernah berlaku sebelum ini. Menurut data dari Majlis Pembangunan Nasional, peratusan penduduk warga emas di Taiwan akan menghampiri 20% pada tahun 2024, dan dijangka secara rasmi memasuki masyarakat super-tua pada tahun 2025. Dalam perubahan struktur demografi ini, bagaimana untuk menyediakan penjagaan masa nyata, perkhidmatan yang pelbagai, dan menyelesaikan masalah kekurangan tenaga kerja telah menjadi tiga cabaran utama dalam industri penjagaan jangka panjang semasa.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Apabila Taiwan bergerak ke arah masyarakat super-tua, penjagaan warga emas menghadapi cabaran yang belum pernah berlaku sebelum ini. Menurut data dari Majlis Pembangunan Nasional, peratusan penduduk warga emas di Taiwan akan menghampiri 20% pada tahun 2024, dan dijangka secara rasmi memasuki masyarakat super-tua pada tahun 2025. Dalam perubahan struktur demografi ini, bagaimana untuk menyediakan penjagaan masa nyata, perkhidmatan yang pelbagai, dan menyelesaikan masalah kekurangan tenaga kerja telah menjadi tiga cabaran utama dalam industri penjagaan jangka panjang semasa.

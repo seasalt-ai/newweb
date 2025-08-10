@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "تبدیل متن به گفتار در Discord: مطالعه موردی ربات TTS Discord"
+metatitle: "تبدیل متن به گفتار در Discord: مطالعه موردی ربات TTS Discord"
 date: 2022-12-27 17:04:20-08:00
-description: در این وبلاگ، ما یافته‌های خود را در مورد نحوه استفاده کاربران واقعی
-  Discord از خدمات ما پس از بررسی چندین ماه از داده‌های معتبر تبدیل متن به گفتار مورد
-  بحث قرار خواهیم داد.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'تبدیل متن به گفتار در Discord: مطالعه موردی ربات TTS Discord'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'تبدیل متن به گفتار در Discord: مطالعه موردی ربات TTS Discord'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "در این وبلاگ، ما یافته‌های خود را در مورد نحوه استفاده کاربران واقعی Discord از خدمات ما پس از بررسی چندین ماه از داده‌های معتبر تبدیل متن به گفتار مورد بحث قرار خواهیم داد."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

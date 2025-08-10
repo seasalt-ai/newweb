@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: Đầu tiên cung cấp bản ghi âm giọng nói có thể tải xuống với bản chép lời AI"
 metatitle: "SeaVoice STT/TTS Discord Bot: Tải xuống bản ghi"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: Với bản phát hành mới nhất, SeaVoice Discord Bot là bot đầu tiên trên nền tảng này cung cấp bản ghi âm kênh thoại có thể tải xuống với bản chép lời do AI tạo ra.
+description: "Với bản phát hành mới nhất, SeaVoice Discord Bot là bot đầu tiên trên nền tảng này cung cấp bản ghi âm kênh thoại có thể tải xuống với bản chép lời do AI tạo ra."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Bot đã trở nên phổ biến như một trong những lựa chọn tốt nhất để chép lời giọng nói trong các kênh thoại Discord. Với bản phát hành mới nhất, bot này là bot đầu tiên trên Discord cung cấp bản ghi âm kênh thoại có thể tải xuống với bản chép lời do AI tạo ra.*

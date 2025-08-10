@@ -1,16 +1,18 @@
 ---
 title: "客户案例：赋能亚洲主要银行提供多语言和注重隐私的客户支持"
 metatitle: "亚洲银行通过 SeaX 提供多语言和私人支持"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 本博客描述了全渠道联络中心的部署如何彻底改变了东南亚一家主要私人银行的客户服务格局，通过实时语音转录、数据驱动的洞察和强大的数据隐私措施，提高了座席绩效。
+description: "本博客描述了全渠道联络中心的部署如何彻底改变了东南亚一家主要私人银行的客户服务格局，通过实时语音转录、数据驱动的洞察和强大的数据隐私措施，提高了座席绩效。"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 东南亚一家大型私人银行全渠道联络中心部署的成功案例表明，先进技术和以客户为中心的方法如何在确保数据隐私的同时，改变客户服务格局。

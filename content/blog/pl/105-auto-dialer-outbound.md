@@ -1,17 +1,20 @@
 ---
 title: "Automatyczne dialery do połączeń wychodzących: Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | Połączenia wychodzące na żywo | Automatyczne dialery"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Porównaj dialery Power, Progressive i Predictive dla efektywnych, skalowalnych połączeń wychodzących w telemarketingu i sprzedaży."
 weight: 1
-tags: ["Automatyczna usługa telemarketingowa", "Połączenia wychodzące dla małych firm", "Automatyczny dialer", "Głosowa sztuczna inteligencja"]
-toc: true
+tags:
+  - Automatyczna usługa telemarketingowa
+  - Połączenia wychodzące dla małych firm
+  - Automatyczny dialer
+  - Głosowa sztuczna inteligencja
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

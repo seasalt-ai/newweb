@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: کنترل ردیابی پرونده مرکز تماس خود را در دست بگیرید"
 metatitle: "SeaX Case Management: تعاملات مشتری خود را ردیابی کنید"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "در این پست، ما ادغام‌های هوش مصنوعی با مدیریت پرونده را بررسی می‌کنیم که ابزارهایی را برای ردیابی و ثبت تعاملات با مشتریان شما در SeaX به عوامل شما می‌دهد."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *در پست وبلاگ قبلی ما، [SeaX KB: یک پایگاه دانش که قبل از پرسیدن پاسخ می‌دهد](https://seasalt.ai/blog/22-seax-knowledge-base/)، ما نشان دادیم که چگونه پایگاه دانش داخلی Seasalt.ai اطلاعات شرکت شما را مستقیماً در دسترس عوامل شما قرار می‌دهد و کارایی و دقت را در مرکز تماس شما افزایش می‌دهد. در این پست، ما به موضوع ادغام‌های هوش مصنوعی با سیستم مدیریت پرونده SeaX ادامه می‌دهیم که ابزارهای قدرتمندی را برای ردیابی و ثبت تعاملات با مشتریان شما مستقیماً در رابط SeaX به عوامل شما می‌دهد.*

@@ -1,16 +1,16 @@
 ---
 title: "Tạm biệt Google My Business, Giờ đây Google Maps là Hệ điều hành mới cho Doanh nghiệp"
 metatitle: "Tạm biệt GMB, Google Maps là Hệ điều hành mới cho Doanh nghiệp"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google đang thay thế ứng dụng Google My Business bằng Google Maps, nơi các doanh nghiệp có thể quản lý thông tin của mình và trả lời tin nhắn của khách hàng trên Google Maps."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: "2025-07-28T16:03:25.123456"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Việc kết nối trực tiếp các doanh nghiệp với người tiêu dùng thông qua Google Maps mang lại trải nghiệm liền mạch cho trải nghiệm mua sắm của người tiêu dùng. Đây là một động thái chiến lược tuyệt vời để Google biến Google Maps thành hệ điều hành mới cho việc tìm kiếm doanh nghiệp "gần tôi" tại địa phương.*

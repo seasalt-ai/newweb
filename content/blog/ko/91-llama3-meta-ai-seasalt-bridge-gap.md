@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 및 AI 모델과 비즈니스 애플리케이션 간의 격차 해소의 중요성"
 metatitle: "Meta Llama 3 | AI 모델과 비즈니스 애플리케이션 간의 격차 해소"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Meta AI의 Llama 3 출시는 강력한 AI 모델과 실용적인 비즈니스 애플리케이션 간의 격차를 해소하는 솔루션의 필요성을 강조합니다. Seasalt.ai가 이 격차를 해소하고 실제 문제를 해결하기 위해 맞춤형 대화형 AI 제품을 구축하는 방법을 알아보세요.
+description: "Meta AI의 Llama 3 출시는 강력한 AI 모델과 실용적인 비즈니스 애플리케이션 간의 격차를 해소하는 솔루션의 필요성을 강조합니다. Seasalt.ai가 이 격차를 해소하고 실제 문제를 해결하기 위해 맞춤형 대화형 AI 제품을 구축하는 방법을 알아보세요."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI 및 Llama3

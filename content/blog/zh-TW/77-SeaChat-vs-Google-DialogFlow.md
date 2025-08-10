@@ -1,16 +1,17 @@
 ---
-author: Seasalt.ai Team
-canonical_url: https://seasalt.ai/blog/77-SeaChat-vs-Google-DialogFlow
+title: "SeaChat vs Google DialogFlow: 哪個 AI 聊天機器人平台更適合企業？"
+metatitle: "SeaChat vs Google DialogFlow: 哪個 AI 聊天機器人平台更適合企業？"
 date: 2024-07-15
-description: SeaChat 與 Google DialogFlow 比較：哪個 AI 聊天機器人平台更適合企業？
-metatitle: 'SeaChat vs Google DialogFlow: Which AI Chatbot Platform is B...'
 modified_date: 2025-07-28
+author: Seasalt.ai Team
+description: "SeaChat 與 Google DialogFlow 比較：哪個 AI 聊天機器人平台更適合企業？"
 tags:
-- AI 聊天機器人
-- SeaChat
-- Google DialogFlow
-- 比較
-title: 'SeaChat vs Google DialogFlow: Which AI Chatbot Platform is Better?'
+  - AI 聊天機器人
+  - SeaChat
+  - Google DialogFlow
+  - 比較
+canonicalURL: /blog/seachat-vs-google-dialogflow/
+url: /blog/seachat-vs-google-dialogflow/
 ---
 
 

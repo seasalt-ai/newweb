@@ -1,17 +1,20 @@
 ---
 title: "Mga Live na Resepsyonista vs. Mga Automated na Serbisyo sa Pagsagot: Praktikal na Rekomendasyon para sa Maliliit na Negosyo (4/5)"
 metatitle: "Mga Live na Resepsyonista vs. Mga Automated na Serbisyo sa Pagsagot"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Ihambing ang mga live na resepsyonista at automated na serbisyo sa pagsagot upang mapahusay ang serbisyo sa customer at kahusayan."
 weight: 1
-tags: ["Automated Answering Service", "Inbound Call para sa Maliliit na Negosyo", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Automated Answering Service
+  - Inbound Call para sa Maliliit na Negosyo
+  - SeaChat
+  - Voice AI
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

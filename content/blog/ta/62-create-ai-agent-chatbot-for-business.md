@@ -1,16 +1,20 @@
 ---
 title: "உங்கள் வணிகத்திற்கு 24/7 தொலைபேசி இணைப்புடன் சிறந்த குரல் ஏஜென்ட் சாட்பாட் உருவாக்குவது எப்படி"
 metatitle: "AI குரல் ஏஜென்ட் உருவாக்கவும் | 24/7 வணிக தொலைபேசி இணைப்பு"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: உங்கள் வணிகத்திற்கு AI குரல் ஏஜென்ட் சாட்பாட் உருவாக்கும் முழுமையான வழிகாட்டி, 24x7 தொலைபேசி அமைப்புடன் இணைத்து சிறந்த வாடிக்கையாளர் சேவையை வழங்குங்கள்.
+description: "உங்கள் வணிகத்திற்கு AI குரல் ஏஜென்ட் சாட்பாட் உருவாக்கும் முழுமையான வழிகாட்டி, 24x7 தொலைபேசி அமைப்புடன் இணைத்து சிறந்த வாடிக்கையாளர் சேவையை வழங்குங்கள்."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2025-07-29T00:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 இன்றைய வேகமான உலகில், உங்கள் வாடிக்கையாளர் சேவையை மேம்படுத்த எப்படி முடியும் என்பதைப் பற்றி பேசலாம். உங்கள் வணிகத்திற்கு AI குரல் ஏஜென்ட் சாட்பாட் உருவாக்கி, அதை 24x7 தொலைபேசி அமைப்புடன் இணைப்பது வாடிக்கையாளர் சேவைக்கு சூப்பர் ஹீரோவாகும், நேரமும் பணமும் சேமித்து, வாடிக்கையாளர்களை மகிழ்விப்பது. இந்த பயணத்தை தொடங்கலாம்!

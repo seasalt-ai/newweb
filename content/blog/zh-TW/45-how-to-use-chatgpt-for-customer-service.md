@@ -1,16 +1,18 @@
 ---
 title: "如何用ChatGPT做線上客服"
 metatitle: "如何用ChatGPT做線上客服 | 用SeaChat做新一代聊天機器人系列"
-date: 2023-11-01T10:25:00-08:00
+date: 2023-11-01 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 客製化 ChatGPT 機器人作為客服的革命性角色。從技術實作到多領域應用，我們分析了其在提高客戶服務效率和質量上的重要性，並展望了聊天機器人技術的未來發展趨勢和挑戰。
+description: "客製化 ChatGPT 機器人作為客服的革命性角色。從技術實作到多領域應用，我們分析了其在提高客戶服務效率和質量上的重要性，並展望了聊天機器人技術的未來發展趨勢和挑戰。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
-canonicalURL: "/blog/how-to-use-chatgpt-for-customer-service/"
-url: "/blog/how-to-use-chatgpt-for-customer-service/"
-summary: "客製化 ChatGPT 機器人作為客服的革命性角色。從技術實作到多領域應用，我們分析了其在提高客戶服務效率和質量上的重要性，並展望了聊天機器人技術的未來發展趨勢和挑戰。"
+canonicalURL: /blog/how-to-use-chatgpt-for-customer-service/
+url: /blog/how-to-use-chatgpt-for-customer-service/
 ---
 
 在當今快速變化的數位化時代，客服的角色和方式正在經歷深刻的轉變。隨著人工智能（AI）技術的進步，特別是在聊天機器人領域，企業現在有機會以前所未有的方式與客戶互動。客製化的 ChatGPT 機器人正成為這一變革的核心，它們不僅能提供24小時的客服支持，還能透過個性化互動提升客戶體驗。

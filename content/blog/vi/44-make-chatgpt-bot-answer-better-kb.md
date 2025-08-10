@@ -1,19 +1,19 @@
 ---
 title: "Cách tạo bot ChatGPT tùy chỉnh trả lời chính xác hơn"
 metatitle: "Cách tạo bot ChatGPT tùy chỉnh trả lời chính xác hơn | Chuỗi xây dựng Chatbot thế hệ mới với SeaChat"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Cách xây dựng một robot ChatGPT tùy chỉnh có thể trả lời các câu hỏi một cách chính xác. Từ việc xây dựng cơ sở kiến thức chuyên nghiệp đến quá trình phát triển thực tế, bao gồm các kỹ thuật tinh chỉnh điểm kiến thức và trình bày việc triển khai thành công thông qua các trường hợp robot SeaChat. Chúng tôi cung cấp cho bạn một hướng dẫn toàn diện để giúp bạn dễ dàng tạo ra các chatbot thông minh, hiệu quả và cá nhân hóa.
+description: "Cách xây dựng một robot ChatGPT tùy chỉnh có thể trả lời các câu hỏi một cách chính xác. Từ việc xây dựng cơ sở kiến thức chuyên nghiệp đến quá trình phát triển thực tế, bao gồm các kỹ thuật tinh chỉnh điểm kiến thức và trình bày việc triển khai thành công thông qua các trường hợp robot SeaChat. Chúng tôi cung cấp cho bạn một hướng dẫn toàn diện để giúp bạn dễ dàng tạo ra các chatbot thông minh, hiệu quả và cá nhân hóa."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Cách xây dựng một robot ChatGPT tùy chỉnh có thể trả lời các câu hỏi một cách chính xác. Từ việc xây dựng cơ sở kiến thức chuyên nghiệp đến quá trình phát triển thực tế, bao gồm các kỹ thuật tinh chỉnh điểm kiến thức và trình bày việc triển khai thành công thông qua các trường hợp robot SeaChat. Chúng tôi cung cấp cho bạn một hướng dẫn toàn diện để giúp bạn dễ dàng tạo ra các chatbot thông minh, hiệu quả và cá nhân hóa."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Với sự phát triển nhanh chóng của công nghệ, chatbot đã trở thành một công cụ không thể thiếu trong nhiều ngành công nghiệp. Chúng có thể cung cấp câu trả lời tức thì, cải thiện trải nghiệm dịch vụ khách hàng và giảm đáng kể gánh nặng cho dịch vụ khách hàng thủ công. Bài viết này sẽ khám phá cách xây dựng một robot ChatGPT tùy chỉnh có thể trả lời các câu hỏi một cách chính xác, đặc biệt tập trung vào việc xây dựng và tinh chỉnh cơ sở kiến thức, cũng như các hoạt động thực tế của việc tạo robot.

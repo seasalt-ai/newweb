@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: コンタクトセンターのケース追跡を管理する"
 metatitle: "SeaX Case Management: 顧客とのやり取りを追跡する"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "この投稿では、AIとケース管理の統合について探ります。これにより、エージェントはSeaXで顧客とのやり取りを追跡および記録するためのツールを利用できます。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *以前のブログ投稿「[SeaX KB: 質問される前に答えるナレッジベース](https://seasalt.ai/blog/22-seax-knowledge-base/)」では、Seasalt.aiの社内ナレッジベースが、企業の情報をエージェントの指先で直接利用できるようにし、コンタクトセンターの効率と精度を向上させる方法を示しました。この投稿では、AIとSeaXのケース管理システムの統合について引き続き説明します。これにより、エージェントはSeaXインターフェースで顧客とのやり取りを直接追跡および記録するための強力なツールを利用できます。*

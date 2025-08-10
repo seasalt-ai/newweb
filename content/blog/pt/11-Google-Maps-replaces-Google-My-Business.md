@@ -1,16 +1,16 @@
 ---
 title: "Adeus Google Meu Negócio, Agora o Google Maps É o Novo SO para Empresas"
 metatitle: "Adeus GMB, Google Maps É o Novo SO para Empresas"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "O Google está substituindo o aplicativo Google Meu Negócio pelo Google Maps, onde as empresas podem gerenciar suas informações e responder às mensagens dos clientes no Google Maps."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: 2025-07-28T00:00:00Z
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Conectar empresas diretamente com consumidores através do Google Maps proporciona uma experiência perfeita para a jornada de compra dos consumidores. Este é um grande movimento estratégico para o Google transformar o Google Maps no novo sistema operacional para a busca local de empresas "perto de mim".*

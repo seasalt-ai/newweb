@@ -1,17 +1,16 @@
 ---
 title: "협업 클라우드 컨택 센터 SeaX에 오신 것을 환영합니다"
-date: 2022-06-22T18:21:32Z
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "이 블로그에서는 클라우드 커뮤니케이션 컨택 센터 솔루션인 SeaX를 소개합니다. 이 블로그는 SeaX를 소개하는 시리즈의 첫 번째입니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *이 블로그에서는 클라우드 커뮤니케이션 컨택 센터 솔루션인 SeaX를 소개합니다. 이 블로그는 SeaX의 기능을 심도 있게 소개하고 보여주는 시리즈의 첫 번째입니다.*

@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 i znaczenie wypełniania luki między modelami AI a zastosowaniami biznesowymi"
 metatitle: "Meta Llama 3 | Wypełnianie luki między modelami AI a zastosowaniami biznesowymi"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Wydanie Llama 3 przez Meta AI podkreśla potrzebę rozwiązań, które wypełniają lukę między potężnymi modelami AI a praktycznymi zastosowaniami biznesowymi. Dowiedz się, jak Seasalt.ai buduje spersonalizowane produkty AI konwersacyjnej, aby wypełnić tę lukę i rozwiązać rzeczywiste wyzwania.
+description: "Wydanie Llama 3 przez Meta AI podkreśla potrzebę rozwiązań, które wypełniają lukę między potężnymi modelami AI a praktycznymi zastosowaniami biznesowymi. Dowiedz się, jak Seasalt.ai buduje spersonalizowane produkty AI konwersacyjnej, aby wypełnić tę lukę i rozwiązać rzeczywiste wyzwania."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI i Llama3

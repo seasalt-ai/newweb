@@ -1,15 +1,19 @@
 ---
 title: "अपने व्यवसाय के लिए AI एजेंट चैटबॉट कैसे बनाएं"
 metatitle: "व्यवसाय के लिए AI एजेंट चैटबॉट बनाने की गाइड"
-date: 2024-02-28T10:00:00-07:00
+date: 2024-02-28 10:00:00-07:00
 draft: false
 author: Xuchen Yao
 description: "अपने व्यवसाय के लिए AI एजेंट चैटबॉट बनाने के चरण, प्लेटफॉर्म चयन से लेकर बिजनेस सिस्टम इंटीग्रेशन तक जानें।"
 weight: 1
-tags: ["AI चैटबॉट", "व्यवसाय", "स्वचालन", "एजेंट AI"]
+tags:
+  - AI चैटबॉट
+  - व्यवसाय
+  - स्वचालन
+  - एजेंट AI
 image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
-url: "/blog/create-ai-agent-chatbot-for-business/"
+canonicalURL: /blog/create-ai-agent-chatbot-for-business/
+url: /blog/create-ai-agent-chatbot-for-business/
 ---
 
 AI एजेंट चैटबॉट व्यवसायों में लोकप्रिय हो रहे हैं क्योंकि वे दक्षता और ग्राहक अनुभव को बेहतर बनाते हैं। इस लेख में, अपने व्यवसाय के लिए प्रभावी AI एजेंट चैटबॉट बनाने के तरीके बताए गए हैं।

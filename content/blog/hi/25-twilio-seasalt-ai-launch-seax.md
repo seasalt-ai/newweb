@@ -1,16 +1,17 @@
 ---
 title: "Twilio और Seasalt.ai ने एशिया-प्रशांत और जापान में SeaX लॉन्च किया"
 metatitle: "अपने संपर्क केंद्र को SeaX वॉयस इंटेलिजेंस के साथ अपनी आवाज दें"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio और Seasalt.ai ने बहु-देशीय क्लाउड संपर्क केंद्र बनाने के लिए एशिया प्रशांत और जापान में साझेदारी का विस्तार किया"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 जैसे-जैसे संपर्क केंद्र विकसित होता है - और अधिक संचार चैनल ऑनलाइन आते हैं - व्यवसाय पहले से कहीं अधिक उपभोक्ताओं की प्राथमिकताओं को पूरा कर रहे हैं। आज का ग्राहक अपने पसंदीदा चैनलों पर संवाद करना चाहता है। कॉल सेंटर ग्राहक सहायता के लिए अच्छी तरह से जाना जाता है, लेकिन तेजी से यह उम्मीद की जा रही है कि चैनलों का उपयोग ग्राहक सहायता और एक ब्रांड के साथ वाणिज्यिक बातचीत दोनों के लिए किया जा सकता है।

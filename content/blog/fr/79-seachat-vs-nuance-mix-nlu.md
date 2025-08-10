@@ -1,16 +1,21 @@
 ---
 title: "L'avenir de l'IA conversationnelle : SeaChat remplace-t-il Nuance Mix NLU ?"
 metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Pourquoi Nuance Mix NLU est-il obsolète ? Découvrez SeaChat - Éloignez-vous des rivages répétitifs des chatbots grâce à la technologie LLM avancée, favorisant des conversations engageantes et humaines.
+description: "Pourquoi Nuance Mix NLU est-il obsolète ? Découvrez SeaChat - Éloignez-vous des rivages répétitifs des chatbots grâce à la technologie LLM avancée, favorisant des conversations engageantes et humaines."
 weight: 1
-tags: ["SeaChat", "Outils IA", "Grands modèles linguistiques", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - Outils IA
+  - Grands modèles linguistiques
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 Le monde de l'IA conversationnelle est en pleine effervescence. Alors que [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) s'est imposé comme un outil puissant pour comprendre l'intention de l'utilisateur, l'émergence des grands modèles linguistiques (LLM) présente une alternative convaincante. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), une plateforme basée sur la technologie LLM, offre un aperçu de l'avenir potentiel de l'IA conversationnelle.

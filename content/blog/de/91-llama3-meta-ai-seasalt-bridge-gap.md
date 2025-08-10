@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 und die Bedeutung der Überbrückung der Lücke zwischen KI-Modellen und Geschäftsanwendungen"
 metatitle: "Meta Llama 3 | Überbrückung von KI-Modellen mit Geschäftsanwendungen"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Die Veröffentlichung von Meta AI's Llama 3 unterstreicht die Notwendigkeit von Lösungen, die die Lücke zwischen leistungsstarken KI-Modellen und praktischen Geschäftsanwendungen schließen. Erfahren Sie, wie Seasalt.ai maßgeschneiderte Konversations-KI-Produkte entwickelt, um diese Lücke zu schließen und reale Herausforderungen zu lösen.
+description: "Die Veröffentlichung von Meta AI's Llama 3 unterstreicht die Notwendigkeit von Lösungen, die die Lücke zwischen leistungsstarken KI-Modellen und praktischen Geschäftsanwendungen schließen. Erfahren Sie, wie Seasalt.ai maßgeschneiderte Konversations-KI-Produkte entwickelt, um diese Lücke zu schließen und reale Herausforderungen zu lösen."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI und Llama3

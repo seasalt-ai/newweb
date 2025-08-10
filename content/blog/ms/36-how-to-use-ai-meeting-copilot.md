@@ -1,17 +1,17 @@
 ---
 title: "Bagaimana Menggunakan Transkripsi Masa Nyata dan Nota Mesyuarat AI untuk Meningkatkan Kecekapan Mesyuarat Pasukan?"
 metatitle: "Bagaimana Menggunakan Transkripsi Masa Nyata dan Nota Mesyuarat AI untuk Meningkatkan Kecekapan Mesyuarat Pasukan?"
-date: 2023-10-02T10:25:00-08:00
-lastmod: 2024-06-20T00:00:00-08:00
+date: 2023-10-02 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Dengan kemunculan model bahasa besar seperti ChatGPT, AI generatif telah membuka bidang penerokaan baharu. Apabila AI digabungkan dengan pengecaman suara, ia menawarkan kemungkinan yang belum pernah terjadi sebelumnya untuk analisis mesyuarat masa nyata. Tetapi apakah maksudnya untuk operasi perniagaan harian? Analisis masa nyata rakaman mesyuarat telah menjadi alat penting bagi syarikat untuk meningkatkan kecekapan dan kualiti komunikasi. Melalui analisis masa nyata, syarikat dapat memastikan setiap perbincangan direkodkan dengan tepat, menjadikan proses membuat keputusan lebih cekap dan tepat."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/ms/blog/how-to-use-ai-meeting-copilot/"
-url: "/ms/blog/how-to-use-ai-meeting-copilot/"
-summary: "Dengan kemunculan model bahasa besar seperti ChatGPT, AI generatif telah membuka bidang penerokaan baharu. Apabila AI digabungkan dengan pengecaman suara, ia menawarkan kemungkinan yang belum pernah terjadi sebelumnya untuk analisis mesyuarat masa nyata. Tetapi apakah maksudnya untuk operasi perniagaan harian?"
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 SeaMeet membolehkan anda:

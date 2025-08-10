@@ -1,12 +1,15 @@
 ---
-metatitle: "Cách phiên âm cuộc họp Google Meet"
 title: "Cách phiên âm cuộc họp Google Meet"
-date: "2024-01-09"
-modified_date: "2024-01-09"
-tags: ["Google Meet", "phiên âm", "SeaMeet", "cuộc họp"]
-keywords: ["Google Meet", "phiên âm", "cuộc họp", "SeaMeet", "phiên âm thời gian thực", "ghi chú cuộc họp", "ghi âm cuộc họp", "chuyển đổi giọng nói thành văn bản", "hiệu quả cuộc họp", "năng suất cuộc họp"]
+metatitle: "Cách phiên âm cuộc họp Google Meet"
+date: 2024-01-09
+modified_date: 2024-01-09
+author: "" # 需要确认
 description: "Tìm hiểu cách phiên âm cuộc họp Google Meet bằng tính năng tích hợp và công cụ bên ngoài như SeaMeet. Khám phá các mẹo về độ chính xác phiên âm, lưu trữ và quyền riêng tư."
-authors: ["Xuchen Yao"]
+tags:
+  - Google Meet
+  - phiên âm
+  - SeaMeet
+  - cuộc họp
 ---
 
 ## Điểm chính

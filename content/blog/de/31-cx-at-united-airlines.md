@@ -1,16 +1,17 @@
 ---
 title: "Kundenservice bei United Airlines: das Gute, das Schlechte und das Hässliche"
 metatitle: "Analyse des Kundenservice bei United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao teilt seine jüngsten Erfahrungen mit dem Kundenservice von United Airlines während Flugverspätungen und -ausfällen und schlägt Lösungen vor, um die Herausforderung der dynamischen Skalierung des Kundensupports bei hohem Verkehrsaufkommen zu bewältigen.
+description: "Xuchen Yao teilt seine jüngsten Erfahrungen mit dem Kundenservice von United Airlines während Flugverspätungen und -ausfällen und schlägt Lösungen vor, um die Herausforderung der dynamischen Skalierung des Kundensupports bei hohem Verkehrsaufkommen zu bewältigen."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) CEO, Xuchen Yao, teilt seine jüngsten Erfahrungen mit dem Kundenservice von United Airlines nach Flugverspätungen und -ausfällen. Dies führte ihn zu der Erkenntnis, welche Herausforderungen der Kundenservice von Fluggesellschaften bei der dynamischen Skalierung zur Bewältigung von Verkehrsspitzen in solchen Situationen hat. Xuchen spricht über mögliche Verbesserungen wie die Umleitung von selbstbedienbaren Anfragen von menschlichen Agenten, die Verbesserung der Effizienz menschlicher Agenten und die Entwicklung von Technologien zur proaktiven Identifizierung und Risikominimierung potenzieller Probleme.*

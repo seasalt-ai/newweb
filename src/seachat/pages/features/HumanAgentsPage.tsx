@@ -7,55 +7,55 @@ const HumanAgentsPage = () => {
   const features = [
     {
       icon: Infinity,
-      title: t('features.humanAgents.unlimited.title', 'Unlimited Agent Hours'),
-      description: t('features.humanAgents.unlimited.description', 'No time limits, no hourly caps. Your human agent works as much as you need, completely free.')
+      title: t('seachat.features.humanAgents.unlimited.title', 'Unlimited Agent Hours'),
+      description: t('seachat.features.humanAgents.unlimited.description', 'No time limits, no hourly caps. Your human agent works as much as you need, completely free.')
     },
     {
       icon: MessageCircle,
-      title: t('features.humanAgents.realtime.title', 'Real-time Chat Management'),
-      description: t('features.humanAgents.realtime.description', 'Handle multiple conversations simultaneously with our intuitive chat interface.')
+      title: t('seachat.features.humanAgents.realtime.title', 'Real-time Chat Management'),
+      description: t('seachat.features.humanAgents.realtime.description', 'Handle multiple conversations simultaneously with our intuitive chat interface.')
     },
     {
       icon: Users,
-      title: t('features.humanAgents.collaboration.title', 'Multi-agent Collaboration'),
-      description: t('features.humanAgents.collaboration.description', 'Scale your team with seamless agent-to-agent handoffs and collaboration tools.')
+      title: t('seachat.features.humanAgents.collaboration.title', 'Multi-agent Collaboration'),
+      description: t('seachat.features.humanAgents.collaboration.description', 'Scale your team with seamless agent-to-agent handoffs and collaboration tools.')
     },
     {
       icon: Shield,
-      title: t('features.humanAgents.security.title', 'Advanced Security'),
-      description: t('features.humanAgents.security.description', 'Enterprise-grade security with end-to-end encryption and data protection.')
+      title: t('seachat.features.humanAgents.security.title', 'Advanced Security'),
+      description: t('seachat.features.humanAgents.security.description', 'Enterprise-grade security with end-to-end encryption and data protection.')
     },
     {
       icon: Star,
-      title: t('features.humanAgents.analytics.title', 'Performance Analytics'),
-      description: t('features.humanAgents.analytics.description', 'Track response times, customer satisfaction, and agent performance metrics.')
+      title: t('seachat.features.humanAgents.analytics.title', 'Performance Analytics'),
+      description: t('seachat.features.humanAgents.analytics.description', 'Track response times, customer satisfaction, and agent performance metrics.')
     },
     {
       icon: CheckCircle,
-      title: t('features.humanAgents.workflows.title', 'Custom Workflows'),
-      description: t('features.humanAgents.workflows.description', 'Create personalized workflows and automation rules for your support process.')
+      title: t('seachat.features.humanAgents.workflows.title', 'Custom Workflows'),
+      description: t('seachat.features.humanAgents.workflows.description', 'Create personalized workflows and automation rules for your support process.')
     }
   ];
 
   const benefits = [
     {
-      title: t('features.humanAgents.benefits.personal.title', 'Personal Touch'),
-      description: t('features.humanAgents.benefits.personal.description', 'Human empathy and understanding that AI cannot replicate'),
+      title: t('seachat.features.humanAgents.benefits.personal.title', 'Personal Touch'),
+      description: t('seachat.features.humanAgents.benefits.personal.description', 'Human empathy and understanding that AI cannot replicate'),
       icon: Heart
     },
     {
-      title: t('features.humanAgents.benefits.complex.title', 'Complex Problem Solving'),
-      description: t('features.humanAgents.benefits.complex.description', 'Handle nuanced situations that require human judgment'),
+      title: t('seachat.features.humanAgents.benefits.complex.title', 'Complex Problem Solving'),
+      description: t('seachat.features.humanAgents.benefits.complex.description', 'Handle nuanced situations that require human judgment'),
       icon: Users
     },
     {
-      title: t('features.humanAgents.benefits.brand.title', 'Brand Representation'),
-      description: t('features.humanAgents.benefits.brand.description', 'Agents who truly understand and represent your brand values'),
+      title: t('seachat.features.humanAgents.benefits.brand.title', 'Brand Representation'),
+      description: t('seachat.features.humanAgents.benefits.brand.description', 'Agents who truly understand and represent your brand values'),
       icon: Star
     },
     {
-      title: t('features.humanAgents.benefits.relationships.title', 'Customer Relationships'),
-      description: t('features.humanAgents.benefits.relationships.description', 'Build lasting relationships through genuine human connections'),
+      title: t('seachat.features.humanAgents.benefits.relationships.title', 'Customer Relationships'),
+      description: t('seachat.features.humanAgents.benefits.relationships.description', 'Build lasting relationships through genuine human connections'),
       icon: Coffee
     }
   ];
@@ -69,18 +69,18 @@ const HumanAgentsPage = () => {
             <div className="flex items-center justify-center mb-6">
               <Users className="w-16 h-16 text-teal-300 mr-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                {t('features.humanAgents.title', 'Human Agent Chat')}
+                {t('seachat.features.humanAgents.title', 'Human Agent Chat')}
               </h1>
             </div>
             <p className="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
-              {t('features.humanAgents.subtitle', 'Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.')}
+              {t('seachat.features.humanAgents.subtitle', 'Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105">
-                {t('features.humanAgents.startButton', 'Start Free Forever')}
+                {t('seachat.features.humanAgents.startButton', 'Start Free Forever')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all">
-                {t('features.humanAgents.demoButton', 'Watch Demo')}
+                {t('seachat.features.humanAgents.demoButton', 'Watch Demo')}
               </button>
             </div>
           </div>
@@ -92,10 +92,10 @@ const HumanAgentsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.humanAgents.freeForever.title', 'Truly Free as in Free 🍺 & 🎙️')}
+              {t('seachat.features.humanAgents.freeForever.title', 'Truly Free as in Free 🍺 & 🎙️')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.humanAgents.freeForever.subtitle', 'We mean it when we say free. One human agent for life, with unlimited everything.')}
+              {t('seachat.features.humanAgents.freeForever.subtitle', 'We mean it when we say free. One human agent for life, with unlimited everything.')}
             </p>
           </div>
 
@@ -103,44 +103,44 @@ const HumanAgentsPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  {t('features.humanAgents.freeForever.meaningTitle', 'What "Free Forever" Really Means')}
+                  {t('seachat.features.humanAgents.freeForever.meaningTitle', 'What "Free Forever" Really Means')}
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.agent', '1 Human Agent for Life')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.agent', '1 Human Agent for Life')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.conversations', 'Unlimited Chat Conversations')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.conversations', 'Unlimited Chat Conversations')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.history', 'Unlimited Chat History')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.history', 'Unlimited Chat History')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.contacts', 'Unlimited Contacts')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.contacts', 'Unlimited Contacts')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.export', 'Freedom to Export All Data')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.export', 'Freedom to Export All Data')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-6 h-6 text-green-500" />
-                    <span className="text-lg text-gray-700">{t('features.humanAgents.freeForever.noCredit', 'No Credit Card Required')}</span>
+                    <span className="text-lg text-gray-700">{t('seachat.features.humanAgents.freeForever.noCredit', 'No Credit Card Required')}</span>
                   </div>
                 </div>
               </div>
               <div className="bg-gradient-to-br from-green-100 to-teal-100 rounded-2xl p-8 text-center">
                 <div className="text-6xl font-bold text-green-600 mb-4">∞</div>
-                <h4 className="text-2xl font-bold text-gray-900 mb-4">{t('features.humanAgents.freeForever.unlimited', 'Unlimited Everything')}</h4>
+                <h4 className="text-2xl font-bold text-gray-900 mb-4">{t('seachat.features.humanAgents.freeForever.unlimited', 'Unlimited Everything')}</h4>
                 <p className="text-gray-700 mb-6">
-                  {t('features.humanAgents.freeForever.noCaps', 'No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.')}
+                  {t('seachat.features.humanAgents.freeForever.noCaps', 'No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.')}
                 </p>
                 <div className="bg-white rounded-lg p-4 shadow-md">
                   <div className="text-3xl font-bold text-gray-900">$0</div>
-                  <div className="text-gray-600">{t('features.humanAgents.freeForever.forever', 'Forever')}</div>
+                  <div className="text-gray-600">{t('seachat.features.humanAgents.freeForever.forever', 'Forever')}</div>
                 </div>
               </div>
             </div>
@@ -153,10 +153,10 @@ const HumanAgentsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.humanAgents.featuresTitle', 'Powerful Human Agent Features')}
+              {t('seachat.features.humanAgents.featuresTitle', 'Powerful Human Agent Features')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.humanAgents.featuresSubtitle', 'Everything you need to provide exceptional human-powered customer support.')}
+              {t('seachat.features.humanAgents.featuresSubtitle', 'Everything you need to provide exceptional human-powered customer support.')}
             </p>
           </div>
 
@@ -185,10 +185,10 @@ const HumanAgentsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.humanAgents.whyMatterTitle', 'Why Human Agents Still Matter')}
+              {t('seachat.features.humanAgents.whyMatterTitle', 'Why Human Agents Still Matter')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.humanAgents.whyMatterSubtitle', 'In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.')}
+              {t('seachat.features.humanAgents.whyMatterSubtitle', 'In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.')}
             </p>
           </div>
 
@@ -216,14 +216,14 @@ const HumanAgentsPage = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            {t('features.humanAgents.ctaTitle', 'Ready to Start with Human Agents?')}
+            {t('seachat.features.humanAgents.ctaTitle', 'Ready to Start with Human Agents?')}
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            {t('features.humanAgents.ctaSubtitle', 'Join thousands of businesses providing exceptional customer support with our free human agents.')}
+            {t('seachat.features.humanAgents.ctaSubtitle', 'Join thousands of businesses providing exceptional customer support with our free human agents.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://chat.seasalt.ai/gpt/signup" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                {t('features.humanAgents.ctaStartButton', 'Start Free Now')}
+                {t('seachat.features.humanAgents.ctaStartButton', 'Start Free Now')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -231,7 +231,7 @@ const HumanAgentsPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all"
             >
-              {t('features.humanAgents.ctaDemoButton', 'Schedule Demo')}
+              {t('seachat.features.humanAgents.ctaDemoButton', 'Schedule Demo')}
             </a>
           </div>
         </div>

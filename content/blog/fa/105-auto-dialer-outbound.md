@@ -1,17 +1,20 @@
 ---
 title: "شماره گیرهای خودکار برای تماس های خروجی: Power ..."
 metatitle: "Seasalt.ai | تماس های خروجی زنده | شماره گیرهای..."
-date: "2024-10-27T00:22:19-07:00"
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27T00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Power Dialer، Progressive Dialer و Predictive Dialer را برای تماس های خروجی موثر و مقیاس پذیر در بازاریابی تلفنی و فروش مقایسه کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای مشاغل کوچک", "شماره گیر خودکار", "هوش مصنوعی صوتی"]
-toc: true
+tags:
+  - خدمات بازاریابی تلفنی خودکار
+  - تماس خروجی برای مشاغل کوچک
+  - شماره گیر خودکار
+  - هوش مصنوعی صوتی
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 

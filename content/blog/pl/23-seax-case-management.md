@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Przejmij kontrolę nad śledzeniem spraw w swoim centrum kontaktowym"
 metatitle: "SeaX Case Management: Śledź interakcje z klientami"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "W tym poście badamy integracje AI z zarządzaniem sprawami, co daje Twoim agentom narzędzia do śledzenia i rejestrowania interakcji z klientami w SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *W naszym poprzednim poście na blogu, [SeaX KB: Baza wiedzy, która odpowiada, zanim zostanie zadane pytanie](https://seasalt.ai/blog/22-seax-knowledge-base/), pokazaliśmy, jak wewnętrzna baza wiedzy Seasalt.ai udostępnia informacje o Twojej firmie agentom, zwiększając wydajność i dokładność w Twoim centrum kontaktowym. W tym poście kontynuujemy temat integracji AI z systemem zarządzania sprawami SeaX, który daje Twoim agentom potężne narzędzia do śledzenia i rejestrowania interakcji z klientami bezpośrednio w interfejsie SeaX.*

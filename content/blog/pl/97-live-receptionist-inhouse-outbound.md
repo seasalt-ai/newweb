@@ -1,17 +1,20 @@
 ---
 title: "Outsourcing Recepcjonistów na Żywo vs. Wewnętrzni: Praktyczne Rekomendacje dla Firm (2/5)"
 metatitle: "Outsourcing Recepcjonistów na Żywo vs. Wewnętrzni"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Porównaj recepcjonistów na żywo z personelem wewnętrznym: koszty, korzyści i kluczowe spostrzeżenia biznesowe."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *To jest seria 5 artykułów badających strategie komunikacji z klientami dla małych firm, skupiająca się na usługach odbierania połączeń:*

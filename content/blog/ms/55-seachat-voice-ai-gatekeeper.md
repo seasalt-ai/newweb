@@ -1,16 +1,20 @@
 ---
 title: "Skrin Panggilan AI pada Android dan iPhone: Pembantu Peribadi dan Penjaga Anda"
 metatitle: "Skrin Panggilan AI | Pembantu Peribadi pada Android dan iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Temui masa depan pengurusan panggilan dengan ejen panggilan berkuasa AI! Daripada menyaring spammer hingga menempah janji temu, ia adalah pembantu peribadi dan penjaga anda 24/7.
+description: "Temui masa depan pengurusan panggilan dengan ejen panggilan berkuasa AI! Daripada menyaring spammer hingga menempah janji temu, ia adalah pembantu peribadi dan penjaga anda 24/7."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Pernahkah anda berharap anda mempunyai pembantu peribadi yang boleh mengendalikan panggilan telefon anda, menyaring spammer dan penipu, dan juga menempah janji temu untuk anda? Jangan cari lagi, kerana ejen panggilan berkuasa AI boleh melakukan semua itu dan banyak lagi! Bertindak sebagai meja depan dan penjaga percuma anda, teknologi luar biasa ini merevolusikan pengurusan panggilan, memastikan anda tidak pernah terlepas panggilan penting dan menjimatkan masa berharga serta ketenangan fikiran anda.

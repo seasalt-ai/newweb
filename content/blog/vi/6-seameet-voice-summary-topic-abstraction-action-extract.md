@@ -1,18 +1,17 @@
 ---
 title: "Từ Demo đến Thành công: Nhận thức về Cuộc họp (4/5)"
 metatitle: "Từ Demo đến Thành công (4/5): Nhận thức về Cuộc họp"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "Trong phần thứ tư của loạt bài blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra SeaMeet, các giải pháp cuộc họp hiện đại hợp tác của chúng tôi."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *Trong suốt loạt bài đăng trên blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra Trải nghiệm Cuộc họp Hiện đại toàn diện, bắt đầu từ những khởi đầu khiêm tốn, đến việc tối ưu hóa dịch vụ của chúng tôi trên các phần cứng và mô hình khác nhau, đến việc tích hợp các hệ thống NLP tiên tiến và cuối cùng là kết thúc bằng việc hiện thực hóa đầy đủ SeaMeet, các giải pháp cuộc họp hiện đại hợp tác của chúng tôi.*

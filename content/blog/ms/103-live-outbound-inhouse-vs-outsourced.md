@@ -1,17 +1,20 @@
 ---
 title: "Dalam Rumah vs. Penyumberan Luar untuk Panggilan Keluar Telemarketing: Cadangan Praktikal untuk Perniagaan (2/5)"
 metatitle: "Seasalt.ai | Panggilan Keluar Langsung | Dalam Rumah vs. Penyumberan Luar"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Bandingkan panggilan keluar dalam rumah vs. penyumberan luar—kos, ciri, dan dapatkan petua praktikal untuk mengoptimumkan jangkauan pelanggan anda."
 weight: 1
-tags: ["Perkhidmatan Telemarketing Auto", "Panggilan Keluar untuk Perniagaan Kecil", "SeaChat", "AI Suara"]
-toc: true
+tags:
+  - Perkhidmatan Telemarketing Auto
+  - Panggilan Keluar untuk Perniagaan Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

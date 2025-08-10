@@ -7,172 +7,172 @@ const CommunicationPage = () => {
   
   const platforms = [
     {
-      name: t('integrations.communication.platforms.discord.name', 'Discord'),
+      name: t('seachat.integrations.communication.platforms.discord.name', 'Discord'),
       icon: MessageSquare,
       color: 'from-indigo-500 to-purple-500',
-      description: t('integrations.communication.platforms.discord.description', 'Community support through Discord servers and channels'),
+      description: t('seachat.integrations.communication.platforms.discord.description', 'Community support through Discord servers and channels'),
       features: [
-        t('integrations.communication.platforms.discord.features.server', 'Server integration'),
-        t('integrations.communication.platforms.discord.features.voice', 'Voice channels'),
-        t('integrations.communication.platforms.discord.features.moderation', 'Community moderation'),
-        t('integrations.communication.platforms.discord.features.bot', 'Bot features')
+        t('seachat.integrations.communication.platforms.discord.features.server', 'Server integration'),
+        t('seachat.integrations.communication.platforms.discord.features.voice', 'Voice channels'),
+        t('seachat.integrations.communication.platforms.discord.features.moderation', 'Community moderation'),
+        t('seachat.integrations.communication.platforms.discord.features.bot', 'Bot features')
       ],
-      setupTime: t('integrations.communication.platforms.discord.setupTime', '10 minutes'),
-      category: t('integrations.communication.platforms.discord.category', 'Community')
+      setupTime: t('seachat.integrations.communication.platforms.discord.setupTime', '10 minutes'),
+      category: t('seachat.integrations.communication.platforms.discord.category', 'Community')
     },
     {
-      name: t('integrations.communication.platforms.email.name', 'Email Platforms'),
+      name: t('seachat.integrations.communication.platforms.email.name', 'Email Platforms'),
       icon: Mail,
       color: 'from-gray-500 to-gray-700',
-      description: t('integrations.communication.platforms.email.description', 'Connect with Gmail, Outlook, and other email providers'),
+      description: t('seachat.integrations.communication.platforms.email.description', 'Connect with Gmail, Outlook, and other email providers'),
       features: [
-        t('integrations.communication.platforms.email.features.routing', 'Email routing'),
-        t('integrations.communication.platforms.email.features.templates', 'Template responses'),
-        t('integrations.communication.platforms.email.features.attachments', 'Attachment handling'),
-        t('integrations.communication.platforms.email.features.threading', 'Threading')
+        t('seachat.integrations.communication.platforms.email.features.routing', 'Email routing'),
+        t('seachat.integrations.communication.platforms.email.features.templates', 'Template responses'),
+        t('seachat.integrations.communication.platforms.email.features.attachments', 'Attachment handling'),
+        t('seachat.integrations.communication.platforms.email.features.threading', 'Threading')
       ],
-      setupTime: t('integrations.communication.platforms.email.setupTime', '7 minutes'),
-      category: t('integrations.communication.platforms.email.category', 'Email')
+      setupTime: t('seachat.integrations.communication.platforms.email.setupTime', '7 minutes'),
+      category: t('seachat.integrations.communication.platforms.email.category', 'Email')
     },
     {
-      name: t('integrations.communication.platforms.googlechat.name', 'Google Chat'),
+      name: t('seachat.integrations.communication.platforms.googlechat.name', 'Google Chat'),
       icon: SiGooglechat,
       color: 'from-blue-600 to-blue-800',
-      description: t('integrations.communication.platforms.googlechat.description', 'Streamline team communication within the Google Workspace ecosystem.'),
+      description: t('seachat.integrations.communication.platforms.googlechat.description', 'Streamline team communication within the Google Workspace ecosystem.'),
       features: [
-        t('integrations.communication.platforms.googlechat.features.spaces', 'Spaces for collaboration'),
-        t('integrations.communication.platforms.googlechat.features.bots', 'Bot integrations'),
-        t('integrations.communication.platforms.googlechat.features.files', 'File sharing'),
-        t('integrations.communication.platforms.googlechat.features.meetings', 'Meet integration')
+        t('seachat.integrations.communication.platforms.googlechat.features.spaces', 'Spaces for collaboration'),
+        t('seachat.integrations.communication.platforms.googlechat.features.bots', 'Bot seachat.integrations'),
+        t('seachat.integrations.communication.platforms.googlechat.features.files', 'File sharing'),
+        t('seachat.integrations.communication.platforms.googlechat.features.meetings', 'Meet integration')
       ],
-      setupTime: t('integrations.communication.platforms.googlechat.setupTime', '8 minutes'),
-      category: t('integrations.communication.platforms.googlechat.category', 'Team Chat')
+      setupTime: t('seachat.integrations.communication.platforms.googlechat.setupTime', '8 minutes'),
+      category: t('seachat.integrations.communication.platforms.googlechat.category', 'Team Chat')
     },
     {
-      name: t('integrations.communication.platforms.kakaotalk.name', 'KakaoTalk'),
+      name: t('seachat.integrations.communication.platforms.kakaotalk.name', 'KakaoTalk'),
       icon: SiKakaotalk,
       color: 'from-yellow-400 to-yellow-600',
-      description: t('integrations.communication.platforms.kakaotalk.description', 'Connect with users in South Korea and beyond with KakaoTalk.'),
+      description: t('seachat.integrations.communication.platforms.kakaotalk.description', 'Connect with users in South Korea and beyond with KakaoTalk.'),
       features: [
-        t('integrations.communication.platforms.kakaotalk.features.channels', 'Plus Friend Channels'),
-        t('integrations.communication.platforms.kakaotalk.features.messages', 'Rich messages'),
-        t('integrations.communication.platforms.kakaotalk.features.commerce', 'Kakao Commerce integration'),
-        t('integrations.communication.platforms.kakaotalk.features.payments', 'Kakao Pay integration')
+        t('seachat.integrations.communication.platforms.kakaotalk.features.channels', 'Plus Friend Channels'),
+        t('seachat.integrations.communication.platforms.kakaotalk.features.messages', 'Rich messages'),
+        t('seachat.integrations.communication.platforms.kakaotalk.features.commerce', 'Kakao Commerce integration'),
+        t('seachat.integrations.communication.platforms.kakaotalk.features.payments', 'Kakao Pay integration')
       ],
-      setupTime: t('integrations.communication.platforms.kakaotalk.setupTime', '12 minutes'),
-      category: t('integrations.communication.platforms.kakaotalk.category', 'Messaging')
+      setupTime: t('seachat.integrations.communication.platforms.kakaotalk.setupTime', '12 minutes'),
+      category: t('seachat.integrations.communication.platforms.kakaotalk.category', 'Messaging')
     },
     {
-      name: t('integrations.communication.platforms.teams.name', 'Microsoft Teams'),
+      name: t('seachat.integrations.communication.platforms.teams.name', 'Microsoft Teams'),
       icon: Video,
       color: 'from-blue-500 to-purple-500',
-      description: t('integrations.communication.platforms.teams.description', 'Connect with Microsoft Teams for enterprise communication'),
+      description: t('seachat.integrations.communication.platforms.teams.description', 'Connect with Microsoft Teams for enterprise communication'),
       features: [
-        t('integrations.communication.platforms.teams.features.channels', 'Team channels'),
-        t('integrations.communication.platforms.teams.features.calls', 'Video calls'),
-        t('integrations.communication.platforms.teams.features.files', 'File collaboration'),
-        t('integrations.communication.platforms.teams.features.apps', 'App integration')
+        t('seachat.integrations.communication.platforms.teams.features.channels', 'Team channels'),
+        t('seachat.integrations.communication.platforms.teams.features.calls', 'Video calls'),
+        t('seachat.integrations.communication.platforms.teams.features.files', 'File collaboration'),
+        t('seachat.integrations.communication.platforms.teams.features.apps', 'App integration')
       ],
-      setupTime: t('integrations.communication.platforms.teams.setupTime', '8 minutes'),
-      category: t('integrations.communication.platforms.teams.category', 'Enterprise')
+      setupTime: t('seachat.integrations.communication.platforms.teams.setupTime', '8 minutes'),
+      category: t('seachat.integrations.communication.platforms.teams.category', 'Enterprise')
     },
     {
-      name: t('integrations.communication.platforms.slack.name', 'Slack'),
+      name: t('seachat.integrations.communication.platforms.slack.name', 'Slack'),
       icon: Slack,
       color: 'from-purple-500 to-indigo-500',
-      description: t('integrations.communication.platforms.slack.description', 'Integrate with Slack for team collaboration and internal notifications'),
+      description: t('seachat.integrations.communication.platforms.slack.description', 'Integrate with Slack for team collaboration and internal notifications'),
       features: [
-        t('integrations.communication.platforms.slack.features.channels', 'Channel notifications'),
-        t('integrations.communication.platforms.slack.features.messages', 'Direct messages'),
-        t('integrations.communication.platforms.slack.features.commands', 'Bot commands'),
-        t('integrations.communication.platforms.slack.features.files', 'File sharing')
+        t('seachat.integrations.communication.platforms.slack.features.channels', 'Channel notifications'),
+        t('seachat.integrations.communication.platforms.slack.features.messages', 'Direct messages'),
+        t('seachat.integrations.communication.platforms.slack.features.commands', 'Bot commands'),
+        t('seachat.integrations.communication.platforms.slack.features.files', 'File sharing')
       ],
-      setupTime: t('integrations.communication.platforms.slack.setupTime', '5 minutes'),
-      category: t('integrations.communication.platforms.slack.category', 'Team Chat')
+      setupTime: t('seachat.integrations.communication.platforms.slack.setupTime', '5 minutes'),
+      category: t('seachat.integrations.communication.platforms.slack.category', 'Team Chat')
     },
     {
-      name: t('integrations.communication.platforms.telegram.name', 'Telegram'),
+      name: t('seachat.integrations.communication.platforms.telegram.name', 'Telegram'),
       icon: MessageSquare,
       color: 'from-blue-500 to-teal-500',
-      description: t('integrations.communication.platforms.telegram.description', 'Telegram bot integration for instant messaging support'),
+      description: t('seachat.integrations.communication.platforms.telegram.description', 'Telegram bot integration for instant messaging support'),
       features: [
-        t('integrations.communication.platforms.telegram.features.api', 'Bot API'),
-        t('integrations.communication.platforms.telegram.features.groups', 'Group chats'),
-        t('integrations.communication.platforms.telegram.features.channels', 'Channel broadcasting'),
-        t('integrations.communication.platforms.telegram.features.files', 'File transfers')
+        t('seachat.integrations.communication.platforms.telegram.features.api', 'Bot API'),
+        t('seachat.integrations.communication.platforms.telegram.features.groups', 'Group chats'),
+        t('seachat.integrations.communication.platforms.telegram.features.channels', 'Channel broadcasting'),
+        t('seachat.integrations.communication.platforms.telegram.features.files', 'File transfers')
       ],
-      setupTime: t('integrations.communication.platforms.telegram.setupTime', '15 minutes'),
-      category: t('integrations.communication.platforms.telegram.category', 'Messaging')
+      setupTime: t('seachat.integrations.communication.platforms.telegram.setupTime', '15 minutes'),
+      category: t('seachat.integrations.communication.platforms.telegram.category', 'Messaging')
     },
     {
-      name: t('integrations.communication.platforms.whatsapp.name', 'WhatsApp'),
+      name: t('seachat.integrations.communication.platforms.whatsapp.name', 'WhatsApp'),
       icon: SiWhatsapp,
       color: 'from-green-500 to-green-700',
-      description: t('integrations.communication.platforms.whatsapp.description', 'Engage with customers directly on the world\'s most popular messaging app.'),
+      description: t('seachat.integrations.communication.platforms.whatsapp.description', 'Engage with customers directly on the world\'s most popular messaging app.'),
       features: [
-        t('integrations.communication.platforms.whatsapp.features.messaging', 'Rich messaging'),
-        t('integrations.communication.platforms.whatsapp.features.businessApi', 'Business API'),
-        t('integrations.communication.platforms.whatsapp.features.templates', 'Message templates'),
-        t('integrations.communication.platforms.whatsapp.features.automation', 'Automated responses')
+        t('seachat.integrations.communication.platforms.whatsapp.features.messaging', 'Rich messaging'),
+        t('seachat.integrations.communication.platforms.whatsapp.features.businessApi', 'Business API'),
+        t('seachat.integrations.communication.platforms.whatsapp.features.templates', 'Message templates'),
+        t('seachat.integrations.communication.platforms.whatsapp.features.automation', 'Automated responses')
       ],
-      setupTime: t('integrations.communication.platforms.whatsapp.setupTime', '10 minutes'),
-      category: t('integrations.communication.platforms.whatsapp.category', 'Messaging')
+      setupTime: t('seachat.integrations.communication.platforms.whatsapp.setupTime', '10 minutes'),
+      category: t('seachat.integrations.communication.platforms.whatsapp.category', 'Messaging')
     },
     {
-      name: t('integrations.communication.platforms.zalo.name', 'Zalo'),
+      name: t('seachat.integrations.communication.platforms.zalo.name', 'Zalo'),
       icon: SiZalo,
       color: 'from-blue-400 to-blue-600',
-      description: t('integrations.communication.platforms.zalo.description', 'Connect with customers in Vietnam and Southeast Asia via Zalo.'),
+      description: t('seachat.integrations.communication.platforms.zalo.description', 'Connect with customers in Vietnam and Southeast Asia via Zalo.'),
       features: [
-        t('integrations.communication.platforms.zalo.features.messaging', 'Rich messaging'),
-        t('integrations.communication.platforms.zalo.features.officialAccount', 'Official Accounts'),
-        t('integrations.communication.platforms.zalo.features.miniApp', 'Mini Apps'),
-        t('integrations.communication.platforms.zalo.features.payments', 'Zalo Pay integration')
+        t('seachat.integrations.communication.platforms.zalo.features.messaging', 'Rich messaging'),
+        t('seachat.integrations.communication.platforms.zalo.features.officialAccount', 'Official Accounts'),
+        t('seachat.integrations.communication.platforms.zalo.features.miniApp', 'Mini Apps'),
+        t('seachat.integrations.communication.platforms.zalo.features.payments', 'Zalo Pay integration')
       ],
-      setupTime: t('integrations.communication.platforms.zalo.setupTime', '10 minutes'),
-      category: t('integrations.communication.platforms.zalo.category', 'Messaging')
+      setupTime: t('seachat.integrations.communication.platforms.zalo.setupTime', '10 minutes'),
+      category: t('seachat.integrations.communication.platforms.zalo.category', 'Messaging')
     }
   ];
 
   const benefits = [
     {
-      title: t('integrations.communication.benefits.unified.title', 'Unified Communication'),
-      description: t('integrations.communication.benefits.unified.description', 'Manage all communication channels from one central hub'),
+      title: t('seachat.integrations.communication.benefits.unified.title', 'Unified Communication'),
+      description: t('seachat.integrations.communication.benefits.unified.description', 'Manage all communication channels from one central hub'),
       metric: '100%'
     },
     {
-      title: t('integrations.communication.benefits.collaboration.title', 'Team Collaboration'),
-      description: t('integrations.communication.benefits.collaboration.description', 'Improve internal team coordination and response times'),
+      title: t('seachat.integrations.communication.benefits.collaboration.title', 'Team Collaboration'),
+      description: t('seachat.integrations.communication.benefits.collaboration.description', 'Improve internal team coordination and response times'),
       metric: '60%'
     },
     {
-      title: t('integrations.communication.benefits.efficiency.title', 'Response Efficiency'),
-      description: t('integrations.communication.benefits.efficiency.description', 'Faster resolution with integrated communication tools'),
+      title: t('seachat.integrations.communication.benefits.efficiency.title', 'Response Efficiency'),
+      description: t('seachat.integrations.communication.benefits.efficiency.description', 'Faster resolution with integrated communication tools'),
       metric: '45%'
     },
     {
-      title: t('integrations.communication.benefits.satisfaction.title', 'Customer Satisfaction'),
-      description: t('integrations.communication.benefits.satisfaction.description', 'Better support experience across all channels'),
+      title: t('seachat.integrations.communication.benefits.satisfaction.title', 'Customer Satisfaction'),
+      description: t('seachat.integrations.communication.benefits.satisfaction.description', 'Better support experience across all channels'),
       metric: '92%'
     }
   ];
 
   const features = [
     {
-      title: t('integrations.communication.features.feature1.title', 'Real-time Messaging'),
-      description: t('integrations.communication.features.feature1.description', 'Engage with customers instantly across all integrated platforms, ensuring timely responses and improved satisfaction.')
+      title: t('seachat.integrations.communication.features.feature1.title', 'Real-time Messaging'),
+      description: t('seachat.integrations.communication.features.feature1.description', 'Engage with customers instantly across all integrated platforms, ensuring timely responses and improved satisfaction.')
     },
     {
-      title: t('integrations.communication.features.feature2.title', 'Automated Workflows'),
-      description: t('integrations.communication.features.feature2.description', 'Set up automated responses and routing rules to efficiently manage incoming messages and reduce manual effort.')
+      title: t('seachat.integrations.communication.features.feature2.title', 'Automated Workflows'),
+      description: t('seachat.integrations.communication.features.feature2.description', 'Set up automated responses and routing rules to efficiently manage incoming messages and reduce manual effort.')
     },
     {
-      title: t('integrations.communication.features.feature3.title', 'Unified Inbox'),
-      description: t('integrations.communication.features.feature3.description', 'Manage all conversations from a single, intuitive interface, eliminating the need to switch between different applications.')
+      title: t('seachat.integrations.communication.features.feature3.title', 'Unified Inbox'),
+      description: t('seachat.integrations.communication.features.feature3.description', 'Manage all conversations from a single, intuitive interface, eliminating the need to switch between different applications.')
     },
     {
-      title: t('integrations.communication.features.feature4.title', 'Performance Analytics'),
-      description: t('integrations.communication.features.feature4.description', 'Gain insights into communication volume, response times, and agent performance with comprehensive analytics and reporting.')
+      title: t('seachat.integrations.communication.features.feature4.title', 'Performance Analytics'),
+      description: t('seachat.integrations.communication.features.feature4.description', 'Gain insights into communication volume, response times, and agent performance with comprehensive analytics and reporting.')
     }
   ];
 
@@ -185,11 +185,11 @@ const CommunicationPage = () => {
             <div className="flex items-center justify-center mb-6">
               <MessageSquare className="w-16 h-16 text-indigo-300 mr-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                {t('integrations.communication.title', 'Communication Tools')}
+                {t('seachat.integrations.communication.title', 'Communication Tools')}
               </h1>
             </div>
             <p className="text-2xl text-indigo-200 mb-8 max-w-4xl mx-auto">
-              {t('integrations.communication.subtitle', 'Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.')}
+              {t('seachat.integrations.communication.subtitle', 'Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -198,7 +198,7 @@ const CommunicationPage = () => {
                 rel="noopener noreferrer"
                 className="bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block"
               >
-                {t('integrations.communication.connectButton', 'Connect Communication Tools')}
+                {t('seachat.integrations.communication.connectButton', 'Connect Communication Tools')}
               </a>
               <a
                 href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -206,7 +206,7 @@ const CommunicationPage = () => {
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block"
               >
-                {t('integrations.communication.demoButton', 'Schedule Integration Demo')}
+                {t('seachat.integrations.communication.demoButton', 'Schedule Integration Demo')}
               </a>
             </div>
           </div>
@@ -218,10 +218,10 @@ const CommunicationPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('integrations.communication.platformsTitle', 'Popular Communication Platforms')}
+              {t('seachat.integrations.communication.platformsTitle', 'Popular Communication Platforms')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('integrations.communication.platformsSubtitle', 'Connect with the communication tools your team already uses for seamless workflow integration.')}
+              {t('seachat.integrations.communication.platformsSubtitle', 'Connect with the communication tools your team already uses for seamless workflow integration.')}
             </p>
           </div>
 
@@ -256,7 +256,7 @@ const CommunicationPage = () => {
                   
                   <div className="flex items-center justify-between mb-6">
                     <div className="text-sm text-gray-600">
-                      {t('integrations.communication.setup')}: <span className="font-medium text-gray-900">{platform.setupTime}</span>
+                      {t('seachat.integrations.communication.setup')}: <span className="font-medium text-gray-900">{platform.setupTime}</span>
                     </div>
                   </div>
                   
@@ -266,7 +266,7 @@ const CommunicationPage = () => {
                   rel="noopener noreferrer"
                   className="mt-4 w-full bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-lg text-sm font-semibold transition-all duration-300 transform hover:scale-105 inline-block text-center"
                 >
-                  {t('integrations.communication.connectPlatform', 'Connect with {{platformName}}', { platformName: platform.name })}
+                  {t('seachat.integrations.communication.connectPlatform', 'Connect with {{platformName}}', { platformName: platform.name })}
                 </a>
                 </div>
               );
@@ -280,10 +280,10 @@ const CommunicationPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('integrations.communication.benefitsTitle', 'Benefits of Integrated Communication')}
+              {t('seachat.integrations.communication.benefitsTitle', 'Benefits of Integrated Communication')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('integrations.communication.benefitsSubtitle', 'Enhance your customer support and internal collaboration with seamless integrations.')}
+              {t('seachat.integrations.communication.benefitsSubtitle', 'Enhance your customer support and internal collaboration with seamless seachat.integrations.')}
             </p>
           </div>
 
@@ -304,10 +304,10 @@ const CommunicationPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('integrations.communication.featuresTitle', 'Key Features')}
+              {t('seachat.integrations.communication.featuresTitle', 'Key Features')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('integrations.communication.featuresSubtitle', 'Discover how our communication integrations can transform your workflow.')}
+              {t('seachat.integrations.communication.featuresSubtitle', 'Discover how our communication seachat.integrations can transform your workflow.')}
             </p>
           </div>
 
@@ -329,10 +329,10 @@ const CommunicationPage = () => {
       <section className="py-20 bg-gradient-to-br from-blue-700 to-indigo-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              {t('integrations.communication.cta.title', 'Ready to Streamline Your Communication?')}
+              {t('seachat.integrations.communication.cta.title', 'Ready to Streamline Your Communication?')}
             </h2>
           <p className="text-xl text-blue-200 mb-10">
-            {t('integrations.communication.cta.subtitle', 'Connect your favorite communication tools and enhance your team\'s productivity and customer engagement.')}
+            {t('seachat.integrations.communication.cta.subtitle', 'Connect your favorite communication tools and enhance your team\'s productivity and customer engagement.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -341,7 +341,7 @@ const CommunicationPage = () => {
               rel="noopener noreferrer"
               className="bg-white text-indigo-800 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block text-center"
             >
-              {t('integrations.communication.cta.connectButton', 'Get Started Now')}
+              {t('seachat.integrations.communication.cta.connectButton', 'Get Started Now')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -349,7 +349,7 @@ const CommunicationPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block text-center"
             >
-              {t('integrations.communication.cta.contactButton', 'Contact Sales')}
+              {t('seachat.integrations.communication.cta.contactButton', 'Contact Sales')}
             </a>
           </div>
         </div>

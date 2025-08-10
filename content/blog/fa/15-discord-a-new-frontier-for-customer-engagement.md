@@ -1,13 +1,12 @@
 ---
 title: "Discord: عصر جدیدی برای تعامل با مشتریان"
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: "Discord: عصر جدیدی برای تعامل با مشتریان"
-seoDescription: "ببینید چگونه Discord با ایجاد جوامع پویا و پشتیبانی نوآورانه، تعامل با مشتریان را برای شرکت‌های مدرن متحول می‌کند."
+date: 2025-08-07T10:11:10 # 需要确认
+author: "" # 需要确认
+description: "" # 需要确认
 tags:
-- Discord
-- خدمات مشتری
-- تعامل
-title: 'Discord: عصر جدیدی برای تعامل با مشتریان'
+  - Discord
+  - خدمات مشتری
+  - تعامل
 ---
 
 

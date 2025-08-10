@@ -1,16 +1,20 @@
 ---
 title: "來電和去電，AI電話客服都能為您服務"
 metatitle: "AI電話客服 | 適用於來電和去電"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "發掘AI電話客服在客戶服務和銷售領域的顛覆性潛力，轉變來電和去電，提升效率和收入增長。"
 weight: 1
-tags: ["SeaChat", "語音客服", "AI工具", "客戶體驗"]
+tags:
+  - SeaChat
+  - 語音客服
+  - AI工具
+  - 客戶體驗
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 在不斷發展的客戶服務和銷售領域，AI電話客服已成為企業的新型高效工具。這些智能客服旨在處理來電和去電，徹底改變客戶互動並推動收入增長。本文深入探討了AI電話客服在來電和去電中的各種用例，突出了其多功能性和改變商業通信的潛力。

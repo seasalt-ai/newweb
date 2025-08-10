@@ -1,18 +1,16 @@
 ---
 title: "Kompletny przewodnik po włączaniu czatu w Mapach Google w celu łączenia się z klientami"
 metatitle: "Kompletny przewodnik po włączaniu czatu w Mapach Google"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "W tym blogu przyjrzymy się trzem różnym metodom włączania czatu w Mapach Google, aby lepiej łączyć się z klientami."
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Czat w Mapach Google to świetny sposób dla firm na łączenie się z klientami. Istnieją różne sposoby włączania czatu w Mapach Google: ręczny z profilem firmy w Google, automatyczny z wiadomościami biznesowymi Google oraz taki, który łączy najlepsze cechy obu światów z Near Me Messaging. Ten blog przeprowadzi Cię przez włączanie czatu w Mapach Google za pomocą tych trzech różnych metod.*

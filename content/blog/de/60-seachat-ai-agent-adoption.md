@@ -1,16 +1,20 @@
 ---
 title: "SeaChats No-Code AI Agent Builder macht die KI-Einführung zum Kinderspiel"
 metatitle: "SeaChats No-Code AI Agent Builder macht die KI-Einführung zum Kinderspiel"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Navigieren Sie die KI-Einführung in Ihrem Unternehmen reibungslos mit SeaChat! Dieser No-Code AI Agent Builder vereinfacht den Prozess und macht ihn einfach und problemlos. Beginnen Sie mit einfachen Anwendungsfällen und erhöhen Sie schrittweise die KI-Einführung, indem Sie verschiedene Wege zur Nutzung von KI experimentieren.
+description: "Navigieren Sie die KI-Einführung in Ihrem Unternehmen reibungslos mit SeaChat! Dieser No-Code AI Agent Builder vereinfacht den Prozess und macht ihn einfach und problemlos. Beginnen Sie mit einfachen Anwendungsfällen und erhöhen Sie schrittweise die KI-Einführung, indem Sie verschiedene Wege zur Nutzung von KI experimentieren."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Einführung in SeaChat: Ihr No-Code AI Agent Builder

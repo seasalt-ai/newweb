@@ -1,13 +1,19 @@
 ---
 title: "Directorul Liniilor Telefonice pentru Vârstnici: Resurse de Îngrijire pentru Vârstnici în Taiwan"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Un ghid cuprinzător al liniilor telefonice pentru vârstnici din Taiwan, oferind informații esențiale de contact pentru birourile de afaceri sociale din orașele mari. Descoperiți cum SeaX și SeaChat AI pot îmbunătăți serviciile de îngrijire a vârstnicilor."
-tags: ["Îngrijirea Vârstnicilor", "Linie Telefonică pentru Vârstnici", "Taiwan", "SeaX", "SeaChat AI", "Resurse Comunitare"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Îngrijirea Vârstnicilor
+  - Linie Telefonică pentru Vârstnici
+  - Taiwan
+  - SeaX
+  - SeaChat AI
+  - Resurse Comunitare
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Directorul Liniilor Telefonice pentru Vârstnici: Resurse de Îngrijire pentru Vârstnici în Taiwan

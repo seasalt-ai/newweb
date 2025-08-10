@@ -1,16 +1,20 @@
 ---
 title: "سازنده عامل هوش مصنوعی بدون کد SeaChat، پذیرش هوش مصنوعی را آسان می‌کند"
 metatitle: "سازنده عامل هوش مصنوعی بدون کد SeaChat، پذیرش هوش مصنوعی را آسان می‌کند"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: با SeaChat، پذیرش هوش مصنوعی را در سازمان خود به راحتی انجام دهید! این سازنده عامل هوش مصنوعی بدون کد، فرآیند را ساده و بدون دردسر می‌کند. از موارد استفاده ساده شروع کنید و با آزمایش روش‌های مختلف بهره‌برداری از هوش مصنوعی، به تدریج پذیرش هوش مصنوعی را افزایش دهید.
+description: "با SeaChat، پذیرش هوش مصنوعی را در سازمان خود به راحتی انجام دهید! این سازنده عامل هوش مصنوعی بدون کد، فرآیند را ساده و بدون دردسر می‌کند. از موارد استفاده ساده شروع کنید و با آزمایش روش‌های مختلف بهره‌برداری از هوش مصنوعی، به تدریج پذیرش هوش مصنوعی را افزایش دهید."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # معرفی SeaChat: سازنده عامل هوش مصنوعی بدون کد شما

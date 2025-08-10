@@ -1,16 +1,20 @@
 ---
 title: "SeaChat vs Meta wit.ai: wit.ai ஐ SeaChat க்கு மேம்படுத்தி, உரையாடல் AI ஐ மேலும் சக்திவாய்ந்ததாக்குங்கள்"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
+modified_date: 2024-07-08T09:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Meta/Facebook இன் wit.ai காலாவதியானதா? மேம்பட்ட LLM தொழில்நுட்பத்தைப் பயன்படுத்தி, மேலும் இயற்கையான, மேலும் மனிதநேயமான AI உரையாடலை உருவாக்க SeaChat ஐ ஆராயுங்கள்."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
-modified_date: "2024-07-08T09:00:00Z"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 அரட்டை ரோபோ உலகம் வியக்கத்தக்க வேகத்தில் முன்னேறுகிறது. Meta/Facebook இன் [wit.ai](http://wit.ai) ஒரு காலத்தில் குரல் பயன்பாடுகளுக்கான நுழைவு தளமாக இருந்தது, ஆனால் [SeaChat](https://chat.seasalt.ai/?utm_source=blog) போன்ற புதிய தலைமுறை பெரிய மொழி மாதிரிகள் (LLM) தொழில்நுட்பம் wit.ai இன் வரம்புகளை மிகவும் மீறி உரையாடல் AI இன் நிலப்பரப்பை மாற்றிக் கொண்டிருக்கிறது. உங்கள் அரட்டை ரோபோவை மேம்படுத்த வேண்டிய நேரம் வந்துவிட்டதா?

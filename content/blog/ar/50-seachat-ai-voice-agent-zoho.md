@@ -1,18 +1,20 @@
 ---
 title: "تبسيط دعم العملاء من خلال تكامل SeaChat وقاعدة معارف Zoho Desk"
 metatitle: "تبسيط دعم العملاء من خلال SeaChat و Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: اكتشف كيف يتكامل وكيل الدردشة والصوت المدعوم بالذكاء الاصطناعي من SeaChat مع قاعدة معارف Zoho Desk الشاملة للحصول على دعم عملاء سلس وفعال.
+description: "اكتشف كيف يتكامل وكيل الدردشة والصوت المدعوم بالذكاء الاصطناعي من SeaChat مع قاعدة معارف Zoho Desk الشاملة للحصول على دعم عملاء سلس وفعال."
 weight: 1
-tags: ["SeaChat", "أدوات الذكاء الاصطناعي", "التكامل", "تجربة العملاء"]
+tags:
+  - SeaChat
+  - أدوات الذكاء الاصطناعي
+  - التكامل
+  - تجربة العملاء
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 في المشهد الرقمي سريع التطور اليوم، تسعى الشركات باستمرار إلى إيجاد حلول مبتكرة لتعزيز دعم العملاء وتبسيط إدارة المعلومات. يمثل تكامل SeaChat، وهو وكيل دردشة وصوت متقدم يعمل بالذكاء الاصطناعي، مع قاعدة معارف Zoho Desk الشاملة، حلاً رائداً لهذه التحديات.

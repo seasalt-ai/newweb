@@ -1,18 +1,17 @@
 ---
 title: "デモから成功へ：会議の認識（4/5）"
 metatitle: "デモから成功へ（4/5）：会議の認識"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Kim Dodds
 description: "このブログシリーズの第4部では、Seasalt.aiが共同の最新の会議ソリューションであるSeaMeetを作成するまでの道のりを追います。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *このブログシリーズを通して、Seasalt.aiが、その謙虚な始まりから、さまざまなハードウェアとモデルでサービスを最適化し、最先端のNLPシステムを統合し、最終的に共同の最新の会議ソリューションであるSeaMeetの完全な実現に至るまでの、バランスの取れた最新の会議体験を作成するまでの道のりを追ってください。*

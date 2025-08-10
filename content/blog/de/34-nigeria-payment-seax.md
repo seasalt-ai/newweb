@@ -1,16 +1,18 @@
 ---
 title: "Kundenstory: Contact Center-Erfolg in Nigerias digitaler Zahlungsbranche"
 metatitle: "Contact Center-Erfolg in Nigerias digitaler Zahlungsbranche"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Nigerias führendes digitales Zahlungsunternehmen erzielte revolutionären Kundensupport mit einem Omnichannel-Contact Center, das Chatbots und personalisierten Pidgin-Englisch-Support integriert und Millionen von Nutzern und Händlern zugutekommt.
+description: "Nigerias führendes digitales Zahlungsunternehmen erzielte revolutionären Kundensupport mit einem Omnichannel-Contact Center, das Chatbots und personalisierten Pidgin-Englisch-Support integriert und Millionen von Nutzern und Händlern zugutekommt."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Die Erfolgsgeschichte der Omnichannel-Contact Center-Implementierung für ein führendes digitales Zahlungsunternehmen in Nigeria zeigt, wie die Einführung fortschrittlicher Technologie den Kundensupport revolutionieren und das gesamte Benutzererlebnis verbessern kann.

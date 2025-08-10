@@ -1,16 +1,17 @@
 ---
 title: "SeaX 사례 관리: 컨택 센터 사례 추적 제어"
 metatitle: "SeaX 사례 관리: 고객 상호 작용 추적"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "이 게시물에서는 AI와 사례 관리의 통합을 살펴봅니다. 이는 에이전트에게 SeaX에서 고객과의 상호 작용을 추적하고 기록하는 도구를 제공합니다."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *이전 블로그 게시물인 [SeaX KB: 질문하기 전에 답변하는 지식 기반](https://seasalt.ai/blog/22-seax-knowledge-base/)에서 Seasalt.ai의 자체 지식 기반이 회사 정보를 에이전트의 손끝에 직접 제공하여 컨택 센터의 효율성과 정확성을 높이는 방법을 보여드렸습니다. 이 게시물에서는 AI와 SeaX의 사례 관리 시스템 통합에 대해 계속해서 다룰 것입니다. 이 시스템은 에이전트에게 SeaX 인터페이스에서 고객과의 상호 작용을 추적하고 기록하는 강력한 도구를 제공합니다.*

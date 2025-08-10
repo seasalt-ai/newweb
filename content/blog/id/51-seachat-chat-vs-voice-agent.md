@@ -1,16 +1,20 @@
 ---
 title: "Agen AI Suara vs. Agen AI Obrolan: Menavigasi Solusi AI SeaChat untuk Bisnis Anda"
 metatitle: "Agen Suara vs. Agen Obrolan | Navigasi Solusi AI SeaChat"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Jelajahi solusi AI SeaChat untuk bisnis, Agen AI Suara untuk layanan pelanggan berbasis suara dan Agen AI Obrolan untuk interaksi berbasis teks, masing-masing dengan fitur dan kasus penggunaan yang unik.
+description: "Jelajahi solusi AI SeaChat untuk bisnis, Agen AI Suara untuk layanan pelanggan berbasis suara dan Agen AI Obrolan untuk interaksi berbasis teks, masing-masing dengan fitur dan kasus penggunaan yang unik."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 Dalam lingkungan digital yang serba cepat saat ini, bisnis terus mencari cara inovatif untuk meningkatkan pengalaman pelanggan dan merampingkan operasi. Bagian penting dari transformasi ini adalah adopsi alat komunikasi berbasis AI. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), platform AI serbaguna, menawarkan dua solusi kuat dalam satu produk: Agen AI Suara dan Agen AI Obrolan. Dalam blog ini, kami akan menyelami fungsionalitas dan kasus penggunaan keduanya, membantu Anda memutuskan mana yang paling sesuai untuk kebutuhan bisnis Anda.

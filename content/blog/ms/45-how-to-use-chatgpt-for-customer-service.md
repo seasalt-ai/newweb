@@ -1,17 +1,19 @@
 ---
 title: "Bagaimana Menggunakan ChatGPT untuk Layanan Pelanggan"
 metatitle: "Bagaimana Menggunakan ChatGPT untuk Layanan Pelanggan | Siri SeaChat Generasi Seterusnya"
-date: 2023-11-01T10:25:00-08:00
+date: 2023-11-01 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Peranan revolusioner bot ChatGPT tersuai sebagai perkhidmatan pelanggan. Daripada pelaksanaan teknikal kepada aplikasi pelbagai domain, kami menganalisis kepentingannya dalam meningkatkan kecekapan dan kualiti perkhidmatan pelanggan, dan melihat ke hadapan kepada trend pembangunan masa depan dan cabaran teknologi chatbot.
+description: "Peranan revolusioner bot ChatGPT tersuai sebagai perkhidmatan pelanggan. Daripada pelaksanaan teknikal kepada aplikasi pelbagai domain, kami menganalisis kepentingannya dalam meningkatkan kecekapan dan kualiti perkhidmatan pelanggan, dan melihat ke hadapan kepada trend pembangunan masa depan dan cabaran teknologi chatbot."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
-canonicalURL: "/blog/how-to-use-chatgpt-for-customer-service/"
-url: "/blog/how-to-use-chatgpt-for-customer-service/"
-summary: "Peranan revolusioner bot ChatGPT tersuai sebagai perkhidmatan pelanggan. Daripada pelaksanaan teknikal kepada aplikasi pelbagai domain, kami menganalisis kepentingannya dalam meningkatkan kecekapan dan kualiti perkhidmatan pelanggan, dan melihat ke hadapan kepada trend pembangunan masa depan dan cabaran teknologi chatbot."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-chatgpt-for-customer-service/
+url: /blog/how-to-use-chatgpt-for-customer-service/
 ---
 
 Dalam era digital yang berubah pantas hari ini, peranan dan kaedah perkhidmatan pelanggan sedang mengalami transformasi yang mendalam. Dengan kemajuan teknologi kecerdasan buatan (AI), terutamanya dalam bidang chatbot, syarikat kini mempunyai peluang untuk berinteraksi dengan pelanggan dengan cara yang belum pernah terjadi sebelumnya. Bot ChatGPT tersuai menjadi teras transformasi ini, kerana ia bukan sahaja dapat menyediakan sokongan pelanggan 24 jam, tetapi juga meningkatkan pengalaman pelanggan melalui interaksi yang diperibadikan.

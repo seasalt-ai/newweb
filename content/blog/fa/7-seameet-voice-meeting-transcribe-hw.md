@@ -1,18 +1,17 @@
 ---
 title: "از دمو تا موفقیت: فراتر از سخت‌افزار (5/5)"
 metatitle: "از دمو تا موفقیت (5/5): فراتر از سخت‌افزار"
-date: 2021-09-15T17:24:32-07:00
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 description: "در آخرین بخش از این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد SeaMeet، راه حل های جلسات مدرن مشترک ما، دنبال کنید."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *در طول این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد یک تجربه جلسات مدرن کامل، از آغاز فروتنانه آن، تا بهینه سازی خدمات ما بر روی سخت افزارها و مدل های مختلف، تا ادغام سیستم های پیشرفته NLP و در نهایت پایان دادن به تحقق کامل SeaMeet، راه حل های جلسات مدرن مشترک ما، دنبال کنید.*

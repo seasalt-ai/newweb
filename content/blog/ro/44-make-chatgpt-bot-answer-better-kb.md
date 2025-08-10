@@ -1,18 +1,18 @@
 ---
 title: "Cum să creezi un bot ChatGPT personalizat care răspunde cu precizie"
 metatitle: "Cum să creezi un bot ChatGPT personalizat care răspunde cu precizie | Seria de roboți de chat de nouă generație cu SeaChat"
-date: 2023-10-30T10:25:00-08:00
+date: 2023-10-30 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Cum să construiești un bot ChatGPT personalizat care răspunde cu precizie la întrebări. De la crearea unei baze de cunoștințe profesionale la procesul de dezvoltare real, acoperind tehnici de ajustare fină a punctelor de cunoștințe și demonstrând implementarea cu succes prin cazuri de roboți SeaChat. Vă oferă un ghid complet pentru a vă ajuta să creați cu ușurință un robot de chat inteligent, eficient și personalizat.
+description: "Cum să construiești un bot ChatGPT personalizat care răspunde cu precizie la întrebări. De la crearea unei baze de cunoștințe profesionale la procesul de dezvoltare real, acoperind tehnici de ajustare fină a punctelor de cunoștințe și demonstrând implementarea cu succes prin cazuri de roboți SeaChat. Vă oferă un ghid complet pentru a vă ajuta să creați cu ușurință un robot de chat inteligent, eficient și personalizat."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Cum să construiești un bot ChatGPT personalizat care răspunde cu precizie la întrebări. De la crearea unei baze de cunoștințe profesionale la procesul de dezvoltare real, acoperind tehnici de ajustare fină a punctelor de cunoștințe și demonstrând implementarea cu succes prin cazuri de roboți SeaChat. Vă oferă un ghid complet pentru a vă ajuta să creați cu ușurință un robot de chat inteligent, eficient și personalizat."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Odată cu dezvoltarea rapidă a tehnologiei, roboții de chat au devenit un instrument indispensabil în diverse industrii. Aceștia pot oferi răspunsuri instantanee, pot îmbunătăți experiența serviciului clienți și pot reduce semnificativ povara asupra personalului de serviciu clienți. Acest articol va explora cum să construiești un bot ChatGPT personalizat care poate răspunde cu precizie la întrebări, cu un accent deosebit pe construirea și ajustarea fină a bazei de cunoștințe, precum și pe operațiunile practice de creare a roboților.

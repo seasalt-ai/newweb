@@ -1,16 +1,16 @@
 ---
 title: "अलविदा Google My Business, अब Google Maps व्यवसायों के लिए नया OS है"
 metatitle: "अलविदा GMB, Google Maps व्यवसायों के लिए नया OS है"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google Google My Business ऐप को Google Maps से बदल रहा है, जहाँ व्यवसाय अपनी जानकारी प्रबंधित कर सकते हैं और Google Maps पर ग्राहकों के संदेशों का जवाब दे सकते हैं।"
 weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Google Maps के माध्यम से व्यवसायों को सीधे उपभोक्ताओं से जोड़ना उपभोक्ताओं के खरीदारी अनुभव के लिए एक सहज अनुभव प्रदान करता है। Google के लिए Google Maps को व्यवसायों की स्थानीय खोज के लिए नया ऑपरेटिंग सिस्टम बनाने के लिए यह एक शानदार रणनीतिक कदम है "मेरे पास"।*

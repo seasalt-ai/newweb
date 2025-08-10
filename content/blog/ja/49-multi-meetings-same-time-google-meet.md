@@ -1,19 +1,18 @@
 ---
 title: "SeaMeetで複数の並行会議を効率的に管理する方法"
 metatitle: "SeaMeetで複数の並行会議を効率的に管理する方法"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: ChatGPTのような大規模言語モデルの誕生により、生成AIは新たな探求分野を開拓しました。AIと音声認識が結合すると、リアルタイムの会議分析に前例のない可能性がもたらされます。しかし、これは日常のビジネス運営にとって何を意味するのでしょうか？会議録音のリアルタイム分析は、企業が効率とコミュニケーションの質を向上させるために必要なツールとなっています。リアルタイム分析を通じて、企業はすべての議論が正確に記録されることを保証でき、意思決定プロセスをより効率的かつ正確にすることができます。
+description: "ChatGPTのような大規模言語モデルの誕生により、生成AIは新たな探求分野を開拓しました。AIと音声認識が結合すると、リアルタイムの会議分析に前例のない可能性がもたらされます。しかし、これは日常のビジネス運営にとって何を意味するのでしょうか？会議録音のリアルタイム分析は、企業が効率とコミュニケーションの質を向上させるために必要なツールとなっています。リアルタイム分析を通じて、企業はすべての議論が正確に記録されることを保証でき、意思決定プロセスをより効率的かつ正確にすることができます。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "現代のペースの速い職場環境では、複数の会議が同時に開催されることがよくあります。これは多忙な役員やマネージャーにとって大きな課題です。可能であれば、彼らはすべての会議に参加したいと考えていますが、時間的および身体的な制約により、これはしばしば不可能です。"
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # 複数の会議が同時に開催される課題

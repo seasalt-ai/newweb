@@ -1,17 +1,18 @@
 ---
 title: "Ilulunsad ng Google Meet ang AI Copilot para Palakasin ang Iyong Kahusayan sa Pagpupulong"
 metatitle: "Ilulunsad ng Google Meet ang AI Copilot para Palakasin ang Iyong Kahusayan sa Pagpupulong"
-date: 2023-10-06T10:25:00-08:00
-modified_date: 2025-07-30T17:30:00-08:00
+date: 2023-10-06 10:25:00-08:00
+modified_date: 2025-07-30 17:30:00-08:00
 draft: false
 author: Xuchen Yao
-description: Tuklasin kung paano kinukumpleto ng SeaMeet ang mga kakulangan ng Google Duet AI sa suporta ng wikang Tsino at kahusayan sa pagpupulong, na nagbibigay ng mas mayamang karanasan sa pakikipagtulungan para sa mga gumagamit ng Tradisyonal na Tsino at nagpapalakas ng pakikipagtulungan sa iba't ibang wika.
+description: "Tuklasin kung paano kinukumpleto ng SeaMeet ang mga kakulangan ng Google Duet AI sa suporta ng wikang Tsino at kahusayan sa pagpupulong, na nagbibigay ng mas mayamang karanasan sa pakikipagtulungan para sa mga gumagamit ng Tradisyonal na Tsino at nagpapalakas ng pakikipagtulungan sa iba't ibang wika."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/copilot-on-google-meet-meetings/"
-url: "/blog/copilot-on-google-meet-meetings/"
-summary: "Tuklasin kung paano kinukumpleto ng SeaMeet ang mga kakulangan ng Google Duet AI sa suporta ng wikang Tsino at kahusayan sa pagpupulong, na nagbibigay ng mas mayamang karanasan sa pakikipagtulungan para sa mga gumagamit ng Tradisyonal na Tsino at nagpapalakas ng pakikipagtulungan sa iba't ibang wika."
+canonicalURL: /blog/copilot-on-google-meet-meetings/
+url: /blog/copilot-on-google-meet-meetings/
 ---
 
 > **Mga Pangunahing Aral**

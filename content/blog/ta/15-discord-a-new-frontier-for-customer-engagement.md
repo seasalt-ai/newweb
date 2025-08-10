@@ -1,19 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை"
+metatitle: "Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை"
 date: 2022-05-23 13:05:36-07:00
-description: இந்த வலைப்பதிவில், Discord-இன் வளர்ச்சி மற்றும் ஏன்/எப்படி நிறுவனங்கள்
-  Discord-ஐ வாடிக்கையாளர் ஈடுபாட்டை மேம்படுத்த பயன்படுத்த ஆரம்பித்துள்ளன என்பதை விவாதிக்கிறோம்.
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): வாடிக்கையாளர் ஈடுபாட்டுக்கான புதிய எல்லை'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "இந்த வலைப்பதிவில், Discord-இன் வளர்ச்சி மற்றும் ஏன்/எப்படி நிறுவனங்கள் Discord-ஐ வாடிக்கையாளர் ஈடுபாட்டை மேம்படுத்த பயன்படுத்த ஆரம்பித்துள்ளன என்பதை விவாதிக்கிறோம்."
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

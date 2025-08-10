@@ -1,17 +1,19 @@
 ---
 title: "Dlaczego małe firmy potrzebują usługi połączeń wychodzących/telemarketingu? (1/5)"
 metatitle: "Seasalt.ai | Seria połączeń wychodzących | Mały biznes"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Poznaj agentów na żywo, automatyczne dialery i Voice AI, aby wybrać najlepsze rozwiązanie do połączeń wychodzących dla potrzeb Twojej firmy."
 weight: 1
-tags: ["Automatyczna usługa telemarketingu", "Połączenia wychodzące dla małych firm", "Voice AI"]
-toc: true
+tags:
+  - Automatyczna usługa telemarketingu
+  - Połączenia wychodzące dla małych firm
+  - Voice AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

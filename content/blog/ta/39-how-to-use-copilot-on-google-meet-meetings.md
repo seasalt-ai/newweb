@@ -1,17 +1,18 @@
 ---
 title: "Google Meet உங்கள் சந்திப்புத் திறனை அதிகரிக்க AI Copilot ஐ அறிமுகப்படுத்தும்"
 metatitle: "Google Meet உங்கள் சந்திப்புத் திறனை அதிகரிக்க AI Copilot ஐ அறிமுகப்படுத்தும்"
-date: 2023-10-06T10:25:00-08:00
+date: 2023-10-06 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Google Meet உங்கள் சந்திப்புத் திறனை அதிகரிக்க AI Copilot ஐ அறிமுகப்படுத்தும்! SeaMeet சீன மொழி ஆதரவு மற்றும் சந்திப்புத் திறன் ஆகியவற்றில் Google Duet AI இன் குறைபாடுகளை எவ்வாறு பூர்த்தி செய்கிறது என்பதை ஆராயுங்கள், மேலும் பாரம்பரிய சீன மொழி பயனர்களுக்கு ஒரு சிறந்த ஒத்துழைப்பு அனுபவத்தை வழங்குகிறது, மொழி கடந்த ஒத்துழைப்பை முன்னோக்கி செலுத்துகிறது."
 weight: 1
-tags: ["SeaMeet", "AI கருவிகள்"]
+tags:
+  - SeaMeet
+  - AI கருவிகள்
 image: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/copilot-on-google-meet-meetings/"
-url: "/blog/copilot-on-google-meet-meetings/"
-summary: "Google Meet உங்கள் சந்திப்புத் திறனை அதிகரிக்க AI Copilot ஐ அறிமுகப்படுத்தும்! SeaMeet சீன மொழி ஆதரவு மற்றும் சந்திப்புத் திறன் ஆகியவற்றில் Google Duet AI இன் குறைபாடுகளை எவ்வாறு பூர்த்தி செய்கிறது என்பதை ஆராயுங்கள், மேலும் பாரம்பரிய சீன மொழி பயனர்களுக்கு ஒரு சிறந்த ஒத்துழைப்பு அனுபவத்தை வழங்குகிறது, மொழி கடந்த ஒத்துழைப்பை முன்னோக்கி செலுத்துகிறது."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/copilot-on-google-meet-meetings/
+url: /blog/copilot-on-google-meet-meetings/
 ---
 
 

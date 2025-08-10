@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Memulai dengan Next.js: Panduan Pemula'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

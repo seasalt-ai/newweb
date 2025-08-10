@@ -1,18 +1,17 @@
 ---
 title: "От демонстрации к успеху: восприятие встреч (4/5)"
 metatitle: "От демонстрации к успеху (4/5): восприятие встреч"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "В этой четвертой части этой серии блогов проследите за путешествием Seasalt.ai по созданию SeaMeet, наших совместных современных решений для встреч."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *На протяжении всей этой серии блогов следите за путешествием Seasalt.ai по созданию всестороннего опыта современных встреч, начиная с его скромных начинаний, до оптимизации нашего сервиса на различном оборудовании и моделях, до интеграции самых современных систем НЛП и, наконец, до полной реализации SeaMeet, наших совместных современных решений для встреч.*

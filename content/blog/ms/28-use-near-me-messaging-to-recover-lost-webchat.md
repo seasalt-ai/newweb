@@ -1,16 +1,17 @@
 ---
 title: "Pengguna telah meninggalkan webchat: gunakan Near Me Messaging untuk menghantar mesej kepada mereka!"
 metatitle: "Pengguna telah meninggalkan webchat: hubungi semula dengan Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging menyelesaikan satu masalah webchat: hubungi semula pengguna anda walaupun *selepas* mereka meninggalkan perbualan."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Pada pagi Krismas 2022, saya terbangun dengan beberapa mesej yang ditinggalkan oleh pengguna bernama Henry. Pada masa saya membaca mesej-mesej itu, Henry sudah pergi. Apa yang saya dapat hanyalah mesej yang dihantarnya melalui webchat, dan namanya.

@@ -1,17 +1,22 @@
 ---
 title: "SeaChat în evidență: Smooth Rentals - cel mai bun instrument de automatizare pentru închirieri de vacanță"
 metatitle: "SeaChat de la Seasalt.ai | Automatizare închirieri vacanță | Smooth Rentals în evidență"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2024-12-19T10:30:00Z
 draft: false
 author: Xuchen Yao
 description: "SeaChat de la Seasalt.ai a fost evaluat ca fiind soluția de automatizare de top pentru închirierile de vacanță în cel mai recent articol de blog Smooth Rentals. Aflați cum SeaChat simplifică comunicarea cu clienții și îmbunătățește eficiența."
 weight: 1
-tags: ["SeaChat", "Închirieri vacanță", "Automatizare", "Comunicare clienți", "Smooth Rentals", "Chatbot AI"]
-toc: true
+tags:
+  - SeaChat
+  - Închirieri vacanță
+  - Automatizare
+  - Comunicare clienți
+  - Smooth Rentals
+  - Chatbot AI
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: "2024-12-19T10:30:00Z"
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat apare în ghidul Smooth Rentals pentru instrumentele de automatizare a închirierilor de vacanță

@@ -1,16 +1,20 @@
 ---
 title: "Agent vocal IA : Connectez l'agent vocal IA au téléphone et répondez à toutes les questions sur les services produits 24h/24 et 7j/7"
 metatitle: "Connectez l'agent vocal IA au téléphone pour un service de réponse 24h/24 et 7j/7"
-date: 2023-12-14T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-14 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Connectez l'agent vocal IA directement à un numéro de téléphone. Découvrez comment les agents vocaux IA améliorent le service client - support téléphonique 24h/24 et 7j/7, multilingue, rentable et fonctionnalités personnalisables.
+description: "Connectez l'agent vocal IA directement à un numéro de téléphone. Découvrez comment les agents vocaux IA améliorent le service client - support téléphonique 24h/24 et 7j/7, multilingue, rentable et fonctionnalités personnalisables."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
-canonicalURL: "/blog/connect-voice-ai-agent/"
-url: "/blog/connect-voice-ai-agent/"
+canonicalURL: /blog/connect-voice-ai-agent/
+url: /blog/connect-voice-ai-agent/
 ---
 
 À l'ère numérique actuelle, les entreprises recherchent constamment des moyens innovants d'améliorer le service client et l'engagement. L'agent vocal IA est l'une de ces avancées technologiques qui a révolutionné les interactions client. Un agent vocal IA est un assistant virtuel IA qui peut se connecter à votre téléphone et fournir des réponses immédiates aux questions liées aux produits et services, toute la journée, tous les jours. Dans cet article, nous plongerons dans le monde des agents vocaux IA, explorant leur fonctionnement, leurs avantages et la manière dont vous pouvez les intégrer de manière transparente à votre téléphone.

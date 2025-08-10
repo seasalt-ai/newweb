@@ -1,16 +1,20 @@
 ---
 title: "Màn hình cuộc gọi AI trên Android và iPhone: Trợ lý cá nhân và người gác cổng của bạn"
 metatitle: "Màn hình cuộc gọi AI | Trợ lý cá nhân trên Android và iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Khám phá tương lai của quản lý cuộc gọi với tác nhân cuộc gọi được hỗ trợ bởi AI! Từ việc sàng lọc người gửi thư rác đến đặt lịch hẹn, đó là trợ lý cá nhân và người gác cổng 24/7 của bạn.
+description: "Khám phá tương lai của quản lý cuộc gọi với tác nhân cuộc gọi được hỗ trợ bởi AI! Từ việc sàng lọc người gửi thư rác đến đặt lịch hẹn, đó là trợ lý cá nhân và người gác cổng 24/7 của bạn."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Bạn đã bao giờ ước mình có một trợ lý cá nhân có thể xử lý các cuộc gọi điện thoại của bạn, sàng lọc người gửi thư rác và lừa đảo, và thậm chí đặt lịch hẹn cho bạn chưa? Đừng tìm đâu xa, vì một tác nhân cuộc gọi được hỗ trợ bởi AI có thể làm tất cả những điều đó và hơn thế nữa! Hoạt động như một lễ tân và người gác cổng miễn phí của bạn, công nghệ đáng chú ý này đang cách mạng hóa việc quản lý cuộc gọi, đảm bảo bạn không bao giờ bỏ lỡ một cuộc gọi quan trọng và giúp bạn tiết kiệm thời gian quý báu cũng như sự an tâm.

@@ -1,17 +1,19 @@
 ---
 title: "ChatGPT Chatbot Kustom: Mendukung LINE dan Webchat Sekaligus"
 metatitle: "ChatGPT Chatbot Kustom: Mendukung LINE dan Webchat Sekaligus | Seri Chatbot Generasi Baru dengan SeaChat"
-date: 2023-10-26T10:25:00-08:00
+date: 2023-10-26 10:25:00-08:00
+modified_date: 2024-07-19 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Bagaimana chatbot ChatGPT kustom merevolusi layanan pelanggan tradisional, menghadirkan pengalaman yang lebih manusiawi dan efisien. Dengan analisis mendalam dan studi kasus, kami tunjukkan bagaimana teknologi ini dapat meningkatkan kepuasan pelanggan dan menjaga daya saing bisnis di era digital. Bisnis dapat memahami bahwa dengan penerapan cepat dan pemanfaatan chatbot ChatGPT kustom, mereka dapat memberikan dukungan pelanggan yang berkelanjutan dan tepat waktu, menjadi kunci layanan pelanggan era baru.
+description: "Bagaimana chatbot ChatGPT kustom merevolusi layanan pelanggan tradisional, menghadirkan pengalaman yang lebih manusiawi dan efisien. Dengan analisis mendalam dan studi kasus, kami tunjukkan bagaimana teknologi ini dapat meningkatkan kepuasan pelanggan dan menjaga daya saing bisnis di era digital. Bisnis dapat memahami bahwa dengan penerapan cepat dan pemanfaatan chatbot ChatGPT kustom, mereka dapat memberikan dukungan pelanggan yang berkelanjutan dan tepat waktu, menjadi kunci layanan pelanggan era baru."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "Bagaimana chatbot ChatGPT kustom merevolusi layanan pelanggan tradisional, menghadirkan pengalaman yang lebih manusiawi dan efisien. Dengan analisis mendalam dan studi kasus, kami tunjukkan bagaimana teknologi ini dapat meningkatkan kepuasan pelanggan dan menjaga daya saing bisnis di era digital. Bisnis dapat memahami bahwa dengan penerapan cepat dan pemanfaatan chatbot ChatGPT kustom, mereka dapat memberikan dukungan pelanggan yang berkelanjutan dan tepat waktu, menjadi kunci layanan pelanggan era baru."
-modified_date: 2024-07-19T00:00:00Z
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 Di era digital yang serba cepat saat ini, chatbot telah menjadi alat penting bagi bisnis dan organisasi. Chatbot cerdas ini mampu meniru percakapan alami dan memberikan dukungan serta jawaban instan kepada pengguna. Baik dalam layanan pelanggan, penjualan, maupun bidang lain, chatbot telah membuktikan nilainya.

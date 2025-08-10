@@ -1,17 +1,19 @@
 ---
 title: "Warum benötigen kleine Unternehmen einen ausgehenden Anruf-/Telemarketing-Service? (1/5)"
 metatitle: "Seasalt.ai | Serie für ausgehende Anrufe | Kleine Unternehmen"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Entdecken Sie Live-Agenten, Auto-Dialer und Voice-KI, um die beste Lösung für ausgehende Anrufe für Ihre Geschäftsanforderungen zu wählen."
 weight: 1
-tags: ["Automatischer Telemarketing-Service", "Ausgehende Anrufe für kleine Unternehmen", "Voice-KI"]
-toc: true
+tags:
+  - Automatischer Telemarketing-Service
+  - Ausgehende Anrufe für kleine Unternehmen
+  - Voice-KI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

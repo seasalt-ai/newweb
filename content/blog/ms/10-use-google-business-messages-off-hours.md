@@ -1,18 +1,17 @@
 ---
 title: "Pemilik Perniagaan: Gunakan Mesej Perniagaan Google untuk Berinteraksi Semasa Waktu Rehat!"
 metatitle: "Gunakan Mesej Perniagaan Google untuk Berinteraksi Semasa Waktu Rehat!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "Walaupun Profil Perniagaan Google membolehkan pemilik perniagaan bersembang secara langsung dengan pelanggan, Mesej Perniagaan Google membolehkan penyepaduan dengan ejen maya."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Ketahui lebih lanjut tentang faedah dan batasan Mesej Perniagaan Google dan cara perniagaan melaksanakan Mesej Perniagaan Google.*

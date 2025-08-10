@@ -1,17 +1,20 @@
 ---
 title: "Por que pequenas empresas precisam de um serviço de atendimento: Um guia completo (1/5)"
 metatitle: "Por que pequenas empresas precisam de um serviço de atendimento"
-date: 2024-09-10T00:22:19-07:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2024-09-10 00:22:19-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Descubra como os serviços de atendimento melhoram as pequenas empresas, aprimorando a satisfação do cliente, aumentando a captura de leads e otimizando as operações."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/96-why-small-businesses-need-answering-service/96-why-small-businesses-need-answering-service.svg
-canonicalURL: "/blog/why-small-businesses-need-answering-service/"
-url: "/blog/why-small-businesses-need-answering-service/"
+canonicalURL: /blog/why-small-businesses-need-answering-service/
+url: /blog/why-small-businesses-need-answering-service/
 ---
 
 *Esta é uma série de 5 artigos que exploram estratégias de comunicação com o cliente para pequenas empresas, com foco em serviços de atendimento:*

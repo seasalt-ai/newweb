@@ -1,16 +1,18 @@
 ---
 title: "Cara Mengunduh Data Audio dari YouTube, Satu dan Banyak Video | Seri Kotak Alat Audio"
 metatitle: "Unduh Data Audio dari YouTube | Seri Kotak Alat Audio"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: Pelajari cara mengunduh audio dari video YouTube individual atau banyak video secara legal dan efisien menggunakan alat gratis. Jelajahi alat dan teknik untuk mengekstrak musik, podcast, efek suara, dan lainnya untuk proyek kreatif Anda.
+description: "Pelajari cara mengunduh audio dari video YouTube individual atau banyak video secara legal dan efisien menggunakan alat gratis. Jelajahi alat dan teknik untuk mengekstrak musik, podcast, efek suara, dan lainnya untuk proyek kreatif Anda."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Hari ini, mari kita selami topik yang beresonansi dengan banyak orang: cara mengunduh data audio dari YouTube, secara GRATIS.

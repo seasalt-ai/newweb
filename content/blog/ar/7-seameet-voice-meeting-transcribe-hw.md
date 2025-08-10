@@ -1,18 +1,17 @@
 ---
 title: "من العرض التوضيحي إلى النجاح: ما وراء الأجهزة (5/5)"
 metatitle: "من العرض التوضيحي إلى النجاح (5/5): ما وراء الأجهزة"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Cody Kim
 description: "في الجزء الأخير من سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء SeaMeet، حلول الاجتماعات الحديثة التعاونية الخاصة بنا."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *خلال سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء تجربة اجتماعات حديثة شاملة، بدءًا من بداياتها المتواضعة، إلى تحسين خدمتنا على أجهزة ونماذج مختلفة، إلى دمج أنظمة البرمجة اللغوية العصبية المتطورة وأخيرًا الانتهاء من التحقيق الكامل لـ SeaMeet، حلول الاجتماعات الحديثة التعاونية الخاصة بنا.*

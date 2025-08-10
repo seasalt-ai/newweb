@@ -1,17 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Discord 上的文本转语音：TTS Discord 机器人案例研究"
+metatitle: "Discord 上的文本转语音：TTS Discord 机器人案例研究"
 date: 2022-12-27 17:04:20-08:00
-description: 在这篇博客中，我们将讨论在审查了几个月的真实文本转语音数据后，我们发现真实 Discord 用户如何利用我们的服务。
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: Discord 上的文本转语音：TTS Discord 机器人案例研究
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: Discord 上的文本转语音：TTS Discord 机器人案例研究
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "在这篇博客中，我们将讨论在审查了几个月的真实文本转语音数据后，我们发现真实 Discord 用户如何利用我们的服务。"
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

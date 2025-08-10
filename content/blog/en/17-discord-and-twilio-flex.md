@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord and Twilio Flex: Bringing Flex Contact Center into Uncharted Territory"
 metatitle: "Discord (3/3): Twilio Flex Contact Center in Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "In this blog, we demonstrate how Seasalt.ai integrates a full-featured contact center into a Discord server."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *This is the final article in our three-part series on customer engagement on Discord. Our first blog post ["A New Frontier for Customer Engagement"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) discussed Discord's growing popularity and the new opportunities it provides for brands to create and engage with their own online communities. In the second part ["How to Create a Discord Community and Bot for Your Brand"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), we introduced how to create a Discord server for your brand and how to integrate bots to manage server moderation, announcements, user feedback, and more. Finally, in this blog, we demonstrate how Seasalt.ai integrates a full-featured contact center into a Discord server, enabling brands to handle all aspects of customer service on the platform.*

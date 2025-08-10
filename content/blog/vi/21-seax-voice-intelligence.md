@@ -1,16 +1,17 @@
 ---
 title: "Trao cho Trung tâm liên lạc của bạn tiếng nói riêng với SeaX Voice Intelligence"
 metatitle: "Hãy để Trung tâm liên lạc của bạn nói chuyện với SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "Trong blog này, chúng tôi sẽ chỉ ra cách các công cụ chuyển văn bản thành giọng nói và chuyển giọng nói thành văn bản nội bộ của Seasalt.ai có thể nâng cao các khía cạnh khác nhau của nền tảng SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *Cho đến nay trong [loạt blog SeaX](https://seasalt.ai/tags/seax/) của chúng tôi, chúng tôi đã cung cấp cho bạn cái nhìn tổng quan rộng rãi về sản phẩm chủ lực của Seasalt.ai: SeaX. Chúng tôi cũng đã thảo luận về hai tính năng chính giúp SeaX khác biệt với trung tâm cuộc gọi truyền thống: thứ nhất, SeaX là đa kênh, có nghĩa là bạn có thể tương tác dễ dàng hơn với khách hàng trên bất kỳ kênh nào, và thứ hai, nền tảng này là một trung tâm liên lạc phân tán, cho phép bạn định tuyến liền mạch các tin nhắn và cuộc gọi từ khách hàng trên khắp thế giới đến các đại lý phân tán của bạn ở các địa điểm khác nhau.*

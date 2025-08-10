@@ -1,16 +1,17 @@
 ---
 title: "امنح مركز الاتصال الخاص بك صوته الخاص مع SeaX Voice Intelligence"
 metatitle: "دع مركز الاتصال الخاص بك يتحدث مع SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "في هذه المدونة، سنوضح كيف يمكن لمحركات Seasalt.ai الداخلية لتحويل النص إلى كلام والكلام إلى نص أن تعزز جوانب مختلفة من منصة SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *حتى الآن في [سلسلة مدونات SeaX](https://seasalt.ai/tags/seax/)، قدمنا لك نظرة عامة واسعة على المنتج الرائد لـ Seasalt.ai: SeaX. ناقشنا أيضًا ميزتين رئيسيتين تميزان SeaX عن مركز الاتصال التقليدي: أولاً، أن SeaX متعدد القنوات، مما يعني أنه يمكنك التفاعل بسهولة أكبر مع العملاء على أي قناة، وثانيًا، أن المنصة هي مركز اتصال موزع، مما يسمح لك بتوجيه الرسائل والمكالمات من العملاء حول العالم بسلاسة إلى وكلائك الموزعين في مواقع مختلفة.*

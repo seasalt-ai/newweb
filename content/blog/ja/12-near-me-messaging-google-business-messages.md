@@ -1,20 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging は Google Business Messages を補完します"
+metatitle: "Near Me Messaging は Google Business Messages を補完します"
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging は、会話型 AI と Google Business Messages を統合し、Google マップ
-  プロフィール上のチャット ボタンを介して 24 時間年中無休のサポートを可能にします。
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging は Google Business Messages を補完します
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging は Google Business Messages を補完します
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging は、会話型 AI と Google Business Messages を統合し、Google マップ プロフィール上のチャット ボタンを介して 24 時間年中無休のサポートを可能にします。"
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

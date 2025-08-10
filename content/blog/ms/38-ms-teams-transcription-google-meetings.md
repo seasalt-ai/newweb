@@ -1,18 +1,17 @@
 ---
 title: "Pertandingan Pembantu Mesyuarat AI: Microsoft Teams vs Google Meet"
 metatitle: "Pertandingan Pembantu Mesyuarat AI: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Terokai pembantu mesyuarat AI Microsoft Teams dan Google Meet, bandingkan sokongan bahasa platform, dan ketahui bagaimana SeaMeet menyediakan transkripsi masa nyata, ringkasan, dan ciri-ciri lain."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Terokai pembantu mesyuarat AI Microsoft Teams dan Google Meet, bandingkan sokongan bahasa platform, dan ketahui bagaimana SeaMeet menyediakan transkripsi masa nyata, ringkasan, dan ciri-ciri lain."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Seiring dengan kemajuan teknologi, pembantu mesyuarat AI telah menjadi alat penting untuk meningkatkan kecekapan mesyuarat. Alat-alat ini boleh secara automatik menghasilkan ringkasan mesyuarat, menukar pertuturan kepada teks, dan bahkan mengenal pasti maklumat penting semasa mesyuarat. Dalam artikel ini, kita akan meneliti tiga pembantu mesyuarat AI utama: Copilot Microsoft Teams, Duet AI Google Meet, dan SeaMeet.

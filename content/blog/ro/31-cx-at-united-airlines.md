@@ -1,16 +1,17 @@
 ---
 title: "Serviciul clienți la United Airlines: bunul, răul și urâtul"
 metatitle: "Analiză asupra serviciului clienți la United Airlines"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Xuchen Yao își împărtășește experiența recentă cu serviciul clienți al United Airlines în timpul întârzierilor și anulărilor de zboruri și propune soluții pentru a aborda provocarea scalării dinamice a asistenței pentru clienți în timpul traficului intens.
+description: "Xuchen Yao își împărtășește experiența recentă cu serviciul clienți al United Airlines în timpul întârzierilor și anulărilor de zboruri și propune soluții pentru a aborda provocarea scalării dinamice a asistenței pentru clienți în timpul traficului intens."
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) CEO, Xuchen Yao, își împărtășește experiența recentă cu serviciul clienți al United Airlines după ce s-a confruntat cu întârzieri și anulări de zboruri. Acest lucru l-a făcut să realizeze provocările cu care se confruntă asistența pentru clienți a companiilor aeriene în scalarea dinamică pentru a gestiona traficul intens în astfel de situații. Xuchen vorbește despre potențiale îmbunătățiri, cum ar fi devierea traficului self-service de la agenții umani, îmbunătățirea eficienței agenților umani și dezvoltarea tehnologiei pentru a identifica și a reduce proactiv riscurile potențiale.*

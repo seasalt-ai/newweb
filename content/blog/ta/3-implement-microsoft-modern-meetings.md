@@ -2,16 +2,15 @@
 title: "டெமோவிலிருந்து வெற்றிக்கு: மைக்ரோசாப்டின் நவீன கூட்டங்களை செயல்படுத்துதல் மற்றும் அதற்கு அப்பால் (1/5)"
 metatitle: "டெமோவிலிருந்து வெற்றிக்கு (1/5): மைக்ரோசாப்டின் நவீன கூட்டங்களுக்கு அப்பால்"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "இந்த வலைப்பதிவு தொடரின் முதல் பகுதியில், சீமீட், எங்கள் கூட்டு நவீன சந்திப்பு தீர்வுகளை உருவாக்குவதற்கான சீசால்ட்.ஏஐயின் பயணத்தைப் பின்பற்றுங்கள்."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *இந்த வலைப்பதிவுத் தொடர் முழுவதும், சீசால்ட்.ஏஐயின் ஒரு முழுமையான நவீன சந்திப்பு அனுபவத்தை உருவாக்கும் பயணத்தைப் பின்பற்றுங்கள், அதன் தாழ்மையான தொடக்கங்களிலிருந்து தொடங்கி, எங்கள் சேவையை வெவ்வேறு வன்பொருள் மற்றும் மாடல்களில் மேம்படுத்துவது, அதிநவீன என்எல்பி அமைப்புகளை ஒருங்கிணைப்பது மற்றும் இறுதியாக சீமீட், எங்கள் கூட்டு நவீன சந்திப்பு தீர்வுகளின் முழுமையான உணர்தலுடன் முடிவடைகிறது.*

@@ -1,16 +1,17 @@
 ---
 title: "کاربر وب‌چت را ترک کرده است: از پیام‌رسانی نزدیک من برای ارسال پیام به او استفاده کنید!"
 metatitle: "کاربر وب‌چت را ترک کرده است: با پیام‌رسانی نزدیک من با او در تماس باشید!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "پیام‌رسانی نزدیک من یک مشکل وب‌چت را حل می‌کند: حتی *پس از* ترک مکالمه توسط کاربر، دوباره با او در تماس باشید."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 صبح کریسمس سال 2022، با چند پیام از کاربری به نام هنری از خواب بیدار شدم. وقتی به پیام‌ها رسیدم، هنری قبلاً رفته بود. تنها چیزی که به دست آوردم، پیام‌هایی بود که او از طریق وب‌چت ارسال کرده بود و نام او.

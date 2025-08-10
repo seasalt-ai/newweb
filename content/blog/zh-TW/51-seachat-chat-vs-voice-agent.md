@@ -1,16 +1,20 @@
 ---
 title: "語音 AI 代理與聊天 AI 代理：為您的企業導航 SeaChat 的 AI 解決方案"
 metatitle: "語音代理與聊天代理 | 導航 SeaChat 的 AI 解決方案"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 探索 SeaChat 為企業提供的 AI 解決方案，包括用於語音客戶服務的語音 AI 代理和用於文本交互的聊天 AI 代理，每個代理都具有獨特的特性和用例。
+description: "探索 SeaChat 為企業提供的 AI 解決方案，包括用於語音客戶服務的語音 AI 代理和用於文本交互的聊天 AI 代理，每個代理都具有獨特的特性和用例。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 在當今快節奏的數位環境中，企業不斷尋求創新方法來提升客戶體驗和簡化運營。這一轉型的關鍵部分是採用 AI 驅動的通訊工具。[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 是一個多功能 AI 平台，在一個產品中提供兩種強大的解決方案：語音 AI 代理和聊天 AI 代理。在本博客中，我們將深入探討兩者的功能和用例，幫助您決定哪種最適合您的業務需求。

@@ -1,17 +1,16 @@
 ---
 title: "Добро пожаловать в SeaX, совместный облачный контакт-центр"
-date: 2022-06-22T18:21:32Z
-modified_date: "2025-07-31T12:00:00Z"
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "В этом блоге мы представим SeaX, наше облачное решение для контакт-центра. Это первая из серии блогов, которая подробно представит и покажет функции SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *В этом блоге мы представим SeaX, наше облачное решение для контакт-центра. Это первая из серии блогов, которая подробно представит и покажет функции SeaX.*

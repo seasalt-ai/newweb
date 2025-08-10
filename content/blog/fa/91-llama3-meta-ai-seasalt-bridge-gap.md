@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 و اهمیت پر کردن شکاف بین مدل‌های هوش مصنوعی و کاربردهای تجاری"
 metatitle: "Meta Llama 3 | پر کردن شکاف بین مدل‌های هوش مصنوعی و کاربردهای تجاری"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: انتشار Llama 3 توسط Meta AI بر نیاز به راه‌حل‌هایی تأکید می‌کند که شکاف بین مدل‌های قدرتمند هوش مصنوعی و کاربردهای تجاری عملی را پر کنند. بیاموزید که چگونه Seasalt.ai محصولات هوش مصنوعی مکالمه‌ای سفارشی را برای پر کردن این شکاف و حل چالش‌های دنیای واقعی می‌سازد.
+description: "انتشار Llama 3 توسط Meta AI بر نیاز به راه‌حل‌هایی تأکید می‌کند که شکاف بین مدل‌های قدرتمند هوش مصنوعی و کاربردهای تجاری عملی را پر کنند. بیاموزید که چگونه Seasalt.ai محصولات هوش مصنوعی مکالمه‌ای سفارشی را برای پر کردن این شکاف و حل چالش‌های دنیای واقعی می‌سازد."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI و Llama3

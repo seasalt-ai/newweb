@@ -1,16 +1,20 @@
 ---
 title: "Sự trỗi dậy của Đại lý giọng nói AI trong Chăm sóc sức khỏe: Nâng cao Chăm sóc và Tương tác với bệnh nhân"
 metatitle: "Đại lý giọng nói AI trong Chăm sóc sức khỏe | Chăm sóc bệnh nhân tốt hơn"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá cách các đại lý giọng nói AI đang thay đổi ngành chăm sóc sức khỏe với các phản hồi tức thì để lên lịch hẹn và nhắc nhở dùng thuốc, mang lại lợi ích cho bệnh nhân có nhu cầu đặc biệt.
+description: "Khám phá cách các đại lý giọng nói AI đang thay đổi ngành chăm sóc sức khỏe với các phản hồi tức thì để lên lịch hẹn và nhắc nhở dùng thuốc, mang lại lợi ích cho bệnh nhân có nhu cầu đặc biệt."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # Giới thiệu

@@ -1,16 +1,21 @@
 ---
 title: "NLU bazat pe intenție/entitate vs. NLU bazat pe GenAI/LLM: Diferența de milioane (de exemple și dolari)"
 metatitle: "NLU bazat pe intenție/entitate vs. NLU bazat pe GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2024-07-30T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Dezlănțuiți viitorul AI conversațional – de ce trecerea de la NLU bazat pe intenție/entitate la NLU bazat pe GenAI/LLM este crucială pentru scalabilitate, rentabilitate și adaptabilitate."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2024-07-30T12:00:00Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Pentru toți directorii de servicii pentru clienți sau de marketing, dacă șeful dumneavoastră vă pune următoarea întrebare, vă rugăm să le trimiteți acest articol:

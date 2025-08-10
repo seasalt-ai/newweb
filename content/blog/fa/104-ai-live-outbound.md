@@ -1,17 +1,20 @@
 ---
 title: "نمایندگان تماس انسانی زنده در مقابل نمایندگان هوش مصنوعی صوتی برای تماس‌های خروجی خودکار: توصیه‌های عملی برای کسب‌وکارها (4/5)"
 metatitle: "Seasalt.ai | تماس‌های خروجی هوش مصنوعی | نمایندگان زنده | هوش مصنوعی صوتی"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Jun Mao
 description: "مزایا و معایب تماس‌های خروجی زنده در مقابل تماس‌های خروجی مبتنی بر هوش مصنوعی را برای کسب‌وکارها بررسی کنید - هزینه‌ها، مقیاس‌پذیری و کارایی را مقایسه کنید."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

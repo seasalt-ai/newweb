@@ -1,16 +1,16 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX 大量簡訊：更快、更有效的客戶拓展"
+metatitle: "SeaX 大量簡訊：更快、更有效的客戶拓展"
 date: 2022-09-09 11:05:22-07:00
-description: 在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息。
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: SeaX 大量簡訊：更快、更有效的客戶拓展
-tags:
-- SeaX
-title: SeaX 大量簡訊：更快、更有效的客戶拓展
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息。"
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

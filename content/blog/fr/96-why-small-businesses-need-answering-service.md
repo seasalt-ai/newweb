@@ -1,17 +1,20 @@
 ---
 title: "Pourquoi les petites entreprises ont besoin d'un service de réponse: Un guide complet (1/5)"
 metatitle: "Pourquoi les petites entreprises ont besoin d'un service de réponse"
-date: 2024-09-10T00:22:19-07:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2024-09-10 00:22:19-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Découvrez comment les services de réponse améliorent les petites entreprises en améliorant la satisfaction client, en augmentant la capture de leads et en rationalisant les opérations."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/96-why-small-businesses-need-answering-service/96-why-small-businesses-need-answering-service.svg
-canonicalURL: "/blog/why-small-businesses-need-answering-service/"
-url: "/blog/why-small-businesses-need-answering-service/"
+canonicalURL: /blog/why-small-businesses-need-answering-service/
+url: /blog/why-small-businesses-need-answering-service/
 ---
 
 *Ceci est une série de 5 articles explorant les stratégies de communication client pour les petites entreprises, axée sur les services de réponse:*

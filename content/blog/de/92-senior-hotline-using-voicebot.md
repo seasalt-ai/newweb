@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: KI-Sprachassistenten revolutionieren die Altenpflege"
 metatitle: "SeaX + SeaChat: Revolutionierung der Altenpflege durch KI-Sprachassistenten - Erfolgreiche Anwendung intelligenter Pflegeanrufe"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Entdecken Sie, wie das SeaX + SeaChat KI-Sprachassistenzsystem die Herausforderungen der Altenpflege in Taiwans alternder Gesellschaft bewältigen kann. Erfahren Sie, wie intelligente Pflegeanrufe die Lebensqualität älterer Menschen verbessern, sofortige Betreuung, emotionale Begleitung und Gesundheitsüberwachung bieten und dem Personalmangel entgegenwirken."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Da Taiwan zu einer superalternden Gesellschaft wird, steht die Altenpflege vor beispiellosen Herausforderungen. Laut Daten des National Development Council wird der Anteil der älteren Bevölkerung in Taiwan bis 2024 fast 20% erreichen, und es wird erwartet, dass es bis 2025 offiziell eine superalternde Gesellschaft wird. Angesichts dieser demografischen Veränderung sind die effektive Bereitstellung sofortiger und vielfältiger Dienstleistungen sowie die Lösung des Personalmangels die drei größten Herausforderungen, denen sich die Langzeitpflegebranche derzeit gegenübersieht.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Da Taiwan zu einer superalternden Gesellschaft wird, steht die Altenpflege vor beispiellosen Herausforderungen. Laut Daten des National Development Council wird der Anteil der älteren Bevölkerung in Taiwan bis 2024 fast 20% erreichen, und es wird erwartet, dass es bis 2025 offiziell eine superalternde Gesellschaft wird. Angesichts dieser demografischen Veränderung sind die effektive Bereitstellung sofortiger und vielfältiger Dienstleistungen sowie die Lösung des Personalmangels die drei größten Herausforderungen, denen sich die Langzeitpflegebranche derzeit gegenübersieht.

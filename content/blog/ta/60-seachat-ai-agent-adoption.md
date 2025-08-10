@@ -1,16 +1,20 @@
 ---
 title: "SeaChat இன் நோ-கோட் AI முகவர் பில்டர் AI ஐ ஏற்றுக்கொள்வதை எளிதாக்குகிறது"
 metatitle: "SeaChat இன் நோ-கோட் AI முகவர் பில்டர் AI ஐ ஏற்றுக்கொள்வதை எளிதாக்குகிறது"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat உடன் உங்கள் நிறுவனத்திற்குள் AI ஐ ஏற்றுக்கொள்வதை சீராக வழிநடத்துங்கள்! இந்த நோ-கோட் AI முகவர் பில்டர் செயல்முறையை எளிதாக்குகிறது, இது எளிதானது மற்றும் தொந்தரவு இல்லாதது. எளிய பயன்பாட்டு வழக்குகளிலிருந்து தொடங்கி, AI ஐப் பயன்படுத்துவதற்கான பல்வேறு வழிகளை பரிசோதிப்பதன் மூலம் AI ஐ ஏற்றுக்கொள்வதை படிப்படியாக அதிகரிக்கவும்.
+description: "SeaChat உடன் உங்கள் நிறுவனத்திற்குள் AI ஐ ஏற்றுக்கொள்வதை சீராக வழிநடத்துங்கள்! இந்த நோ-கோட் AI முகவர் பில்டர் செயல்முறையை எளிதாக்குகிறது, இது எளிதானது மற்றும் தொந்தரவு இல்லாதது. எளிய பயன்பாட்டு வழக்குகளிலிருந்து தொடங்கி, AI ஐப் பயன்படுத்துவதற்கான பல்வேறு வழிகளை பரிசோதிப்பதன் மூலம் AI ஐ ஏற்றுக்கொள்வதை படிப்படியாக அதிகரிக்கவும்."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # SeaChat ஐ அறிமுகப்படுத்துகிறோம்: உங்கள் நோ-கோட் AI முகவர் பில்டர்

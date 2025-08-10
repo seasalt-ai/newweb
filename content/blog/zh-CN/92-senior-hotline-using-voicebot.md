@@ -1,17 +1,18 @@
 ---
 title: "SeaX + SeaChat: AI语音助理革新长者照护的智慧解决方案"
 metatitle: "SeaX + SeaChat: 通过AI语音助理革新长者照护 - 智慧关怀电话的成功应用"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "探索如何利用SeaX + SeaChat AI语音助理系统来解决台湾超高龄社会中的长者照护挑战。了解智慧关怀电话如何提升长者的生活质量，提供即时关怀、情感陪伴及健康监测，并应对人力资源不足的问题。"
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: '随着台湾迈向超高龄社会，长者照护 正面临前所未有的挑战。根据国发会 的数据显示，2024年台湾的老年人口比例将接近20%，并预计在2025年正式迈入超高龄社会。在这样的人口结构变化下，如何有效地提供即时关怀、多元服务，以及解决人力不足 的问题，已成为当前长照产业的三大挑战。'
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 随着台湾迈向超高龄社会，长者照护 正面临前所未有的挑战。根据国发会 的数据显示，2024年台湾的老年人口比例将接近20%，并预计在2025年正式迈入超高龄社会。在这样的人口结构变化下，如何有效地提供即时关怀、多元服务，以及解决人力不足 的问题，已成为当前长照产业的三大挑战。

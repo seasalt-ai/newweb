@@ -1,19 +1,18 @@
 ---
 title: "SeaMeet으로 여러 병렬 회의를 효과적으로 관리하는 방법"
 metatitle: "SeaMeet으로 여러 병렬 회의를 효과적으로 관리하는 방법"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: ChatGPT와 같은 대형 언어 모델의 출현으로 생성형 AI는 새로운 탐색 영역을 열었습니다. AI가 음성 인식과 결합될 때 실시간 회의 분석을 위한 전례 없는 가능성을 제공합니다. 하지만 이것이 일상적인 비즈니스 운영에 무엇을 의미할까요? 회의 녹화의 실시간 분석은 기업이 효율성과 커뮤니케이션 품질을 향상시키기 위한 필수 도구가 되었습니다. 실시간 분석을 통해 기업은 모든 논의가 정확하게 문서화되도록 보장하여 의사결정 과정을 더욱 효율적이고 정확하게 만들 수 있습니다.
+description: "ChatGPT와 같은 대형 언어 모델의 출현으로 생성형 AI는 새로운 탐색 영역을 열었습니다. AI가 음성 인식과 결합될 때 실시간 회의 분석을 위한 전례 없는 가능성을 제공합니다. 하지만 이것이 일상적인 비즈니스 운영에 무엇을 의미할까요? 회의 녹화의 실시간 분석은 기업이 효율성과 커뮤니케이션 품질을 향상시키기 위한 필수 도구가 되었습니다. 실시간 분석을 통해 기업은 모든 논의가 정확하게 문서화되도록 보장하여 의사결정 과정을 더욱 효율적이고 정확하게 만들 수 있습니다."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "현대의 빠른 속도의 업무 환경에서 여러 회의가 동시에 진행되는 것은 일반적인 일입니다. 이는 바쁜 임원과 관리자들에게 큰 도전입니다. 가능하다면 그들은 모든 회의에 참여하고 싶어하지만, 시간과 신체적 제약으로 인해 이것은 종종 불가능합니다."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # 여러 동시 회의의 도전

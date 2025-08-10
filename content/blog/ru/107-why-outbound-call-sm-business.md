@@ -1,17 +1,19 @@
 ---
 title: "Warum kleine Unternehmen einen Outbound-Call-/Telemarketing-Dienst benötigen? (1/5)"
 metatitle: "Seasalt.ai | Outbound-Call-Serie | Kleinunternehmen"
-date: 2024-10-20T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Jun Mao
 description: "Entdecken Sie Live-Agenten, Auto-Dialer und Sprach-KI, um die beste Outbound-Call-Lösung für Ihre Geschäftsanforderungen auszuwählen."
 weight: 1
-tags: ["Automatischer Telemarketing-Dienst", "Outbound-Anruf für kleine Unternehmen", "Sprach-KI"]
-toc: true
+tags:
+  - Automatischer Telemarketing-Dienst
+  - Outbound-Anruf für kleine Unternehmen
+  - Sprach-KI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

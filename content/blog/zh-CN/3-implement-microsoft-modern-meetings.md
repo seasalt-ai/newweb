@@ -2,17 +2,16 @@
 title: "从演示到成功：实现微软现代会议及未来展望 (1/5)"
 metatitle: "从演示到成功 (1/5): 超越微软现代会议"
 date: 2021-07-19
-modified_date: "2025-07-26T16:42:50Z"
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+modified_date: 2025-07-26T16:42:50Z
 draft: false
+author: Cody Kim
 description: "在本博客系列的第一部分，跟随 Seasalt.ai 创建我们的协作式现代会议解决方案 SeaMeet 的历程。"
-tags: ["SeaMeet"]
 weight: 1
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - /blog/3-implementing-microsoft-modern-meetings-and-beyond/
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *在本博客系列中，跟随 Seasalt.ai 创造一个全面的现代会议体验的旅程，从最初的简陋开始，到在不同硬件和模型上优化我们的服务，再到集成最先进的自然语言处理系统，最终完全实现我们协作式的现代会议解决方案 SeaMeet。*

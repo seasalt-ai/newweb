@@ -1,16 +1,17 @@
 ---
 title: "通过 SeaX 全渠道通信将客户从任何渠道带到一处"
 metatitle: "通过 SeaX 全渠道通信统一客户联系方式"
-date: 2022-07-15T13:56:54-07:00
-author: Kim Dodds 
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "在本博客中，我们重点介绍 SeaX 的全渠道通信之一，它允许来自任何渠道的用户消息在 SeaX 平台上显示。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
-modified_date: 2024-12-19T10:00:00Z
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *在我们之前的博客文章中，[欢迎来到 SeaX，一个协作式云端联络中心](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)，我们介绍了我们的协作式云端通信联络中心解决方案 SeaX。虽然我们的第一篇博客文章全面概述了 SeaX 的基本功能和更高级的功能，但我们后续的文章将更深入地探讨使 SeaX 脱颖而出的一些个别功能。在这篇文章中，我们将仔细研究 SeaX 的全渠道支持，并了解来自不同渠道的呼叫和消息如何显示在 SeaX 平台上。*

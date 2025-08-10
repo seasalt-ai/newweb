@@ -1,16 +1,17 @@
 ---
 title: "Người dùng đã rời khỏi webchat: sử dụng Near Me Messaging để gửi tin nhắn cho họ!"
 metatitle: "Người dùng đã rời khỏi webchat: liên lạc lại bằng Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging giải quyết một vấn đề của webchat: liên lạc lại với người dùng của bạn ngay cả *sau khi* họ đã rời khỏi cuộc trò chuyện."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Vào sáng Giáng sinh năm 2022, tôi thức dậy và thấy một vài tin nhắn từ một người dùng tên là Henry. Khi tôi đọc được tin nhắn, Henry đã đi rồi. Tất cả những gì tôi nhận được là những tin nhắn anh ấy gửi qua webchat và tên của anh ấy.

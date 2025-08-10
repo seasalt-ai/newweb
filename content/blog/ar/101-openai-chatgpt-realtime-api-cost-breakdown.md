@@ -1,18 +1,20 @@
 ---
 title: "OpenAI مقابل البشر مقابل الذكاء الاصطناعي الصوتي: مقارنة التكلفة (5/5)"
 metatitle: "OpenAI Realtime API مقابل البشر والذكاء الاصطناعي الصوتي: تفصيل التكلفة"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Xuchen Yao
 description: "تحليل تفصيلي لتكلفة OpenAI Realtime API مقارنةً بموظفي الاستقبال البشريين ووكلاء الذكاء الاصطناعي الصوتي."
 weight: 1
-tags: ["خدمة الرد الآلي", "المكالمات الواردة للشركات الصغيرة", "SeaChat", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة الرد الآلي
+  - المكالمات الواردة للشركات الصغيرة
+  - SeaChat
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

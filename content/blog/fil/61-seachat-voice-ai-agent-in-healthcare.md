@@ -1,16 +1,20 @@
 ---
 title: "Ang Pag-usbong ng AI Voice Agents sa Pangangalaga sa Kalusugan: Pagpapahusay ng Pangangalaga at Pakikipag-ugnayan ng Pasyente"
 metatitle: "AI Voice Agents sa Pangangalaga sa Kalusugan | Mas Mahusay na Pangangalaga sa Pasyente"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Tuklasin kung paano binabago ng AI voice agents ang pangangalaga sa kalusugan sa pamamagitan ng agarang tugon para sa pag-iskedyul ng appointment at mga paalala sa gamot, na nakikinabang sa mga pasyenteng may espesyal na pangangailangan.
+description: "Tuklasin kung paano binabago ng AI voice agents ang pangangalaga sa kalusugan sa pamamagitan ng agarang tugon para sa pag-iskedyul ng appointment at mga paalala sa gamot, na nakikinabang sa mga pasyenteng may espesyal na pangangailangan."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # Panimula

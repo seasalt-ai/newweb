@@ -1,16 +1,20 @@
 ---
 title: "Constructorul de agenți AI fără cod al SeaChat face adoptarea AI o briză"
 metatitle: "Constructorul de agenți AI fără cod al SeaChat face adoptarea AI o briză"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Navigați fără probleme adoptarea AI în cadrul organizației dvs. cu SeaChat! Acest constructor de agenți AI fără cod simplifică procesul, făcându-l ușor și fără probleme. Începeți de la cazuri de utilizare simple și creșteți treptat adoptarea AI experimentând diferite moduri de a valorifica AI.
+description: "Navigați fără probleme adoptarea AI în cadrul organizației dvs. cu SeaChat! Acest constructor de agenți AI fără cod simplifică procesul, făcându-l ușor și fără probleme. Începeți de la cazuri de utilizare simple și creșteți treptat adoptarea AI experimentând diferite moduri de a valorifica AI."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Prezentarea SeaChat: Constructorul dvs. de agenți AI fără cod

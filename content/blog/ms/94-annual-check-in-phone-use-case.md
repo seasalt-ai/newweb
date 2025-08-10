@@ -1,18 +1,18 @@
 ---
 title: "SeaX: Kajian Kes Pemeriksaan Telefon Tahunan - Menyediakan Perkhidmatan Penjagaan yang Lebih Baik untuk Warga Emas"
 metatitle: "Kajian Kes Pemeriksaan Telefon Tahunan SeaX: Pembantu AI Meningkatkan Kualiti Perkhidmatan Penjagaan Warga Emas"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Terokai bagaimana SeaX merevolusikan perkhidmatan penjagaan warga emas melalui teknologi AI, menangani pelbagai cabaran dalam pemeriksaan telefon tahunan, meningkatkan kualiti perkhidmatan, dan mengurangkan beban sukarelawan. Ketahui bagaimana penyelesaian pintar SeaX menyediakan penjagaan berterusan yang lebih baik untuk warga emas di seluruh dunia."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Menghadapi populasi warga emas yang semakin meningkat, institusi penjagaan warga emas di seluruh dunia menghadapi pelbagai cabaran. Terutama dalam aspek penjagaan berkala dan pemantauan kesihatan, ia bukan sahaja memerlukan banyak sumber manusia, tetapi juga sering kali gagal mengesan masalah yang berpotensi tepat pada masanya disebabkan oleh kecuaian atau kelewatan. Ini adalah cabaran yang dihadapi oleh sebuah agensi perkhidmatan sosial Singapura yang bekerjasama dengan Seasalt.ai. Agensi ini melakukan panggilan penjagaan tahunan dengan ribuan warga emas setiap tahun, proses yang rumit dan sukar diuruskan dengan cekap. Untuk menyelesaikan masalah ini, mereka memperkenalkan SeaX, yang telah meningkatkan kualiti dan kecekapan perkhidmatan penjagaan secara signifikan melalui teknologi AI.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

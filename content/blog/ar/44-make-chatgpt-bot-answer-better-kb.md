@@ -1,19 +1,19 @@
 ---
 title: "كيفية إنشاء روبوت ChatGPT مخصص يجيب بدقة"
 metatitle: "كيفية إنشاء روبوت ChatGPT مخصص يجيب بدقة | سلسلة بناء روبوتات الدردشة من الجيل الجديد باستخدام SeaChat"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: كيفية إنشاء روبوت ChatGPT مخصص يجيب بدقة على الأسئلة. من بناء قاعدة معرفية احترافية إلى عملية التطوير الفعلية، تغطي المقالة تقنيات الضبط الدقيق لنقاط المعرفة، وتوضح التنفيذ الناجح من خلال حالات استخدام روبوت SeaChat. توفر لك دليلاً شاملاً لمساعدتك في إنشاء روبوت دردشة ذكي وفعال ومخصص بسهولة.
+description: "كيفية إنشاء روبوت ChatGPT مخصص يجيب بدقة على الأسئلة. من بناء قاعدة معرفية احترافية إلى عملية التطوير الفعلية، تغطي المقالة تقنيات الضبط الدقيق لنقاط المعرفة، وتوضح التنفيذ الناجح من خلال حالات استخدام روبوت SeaChat. توفر لك دليلاً شاملاً لمساعدتك في إنشاء روبوت دردشة ذكي وفعال ومخصص بسهولة."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "كيفية إنشاء روبوت ChatGPT مخصص يجيب بدقة على الأسئلة. من بناء قاعدة معرفية احترافية إلى عملية التطوير الفعلية، تغطي المقالة تقنيات الضبط الدقيق لنقاط المعرفة، وتوضح التنفيذ الناجح من خلال حالات استخدام روبوت SeaChat. توفر لك دليلاً شاملاً لمساعدتك في إنشاء روبوت دردشة ذكي وفعال ومخصص بسهولة."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 مع التطور السريع للتكنولوجيا، أصبحت روبوتات الدردشة أداة لا غنى عنها في مختلف الصناعات. إنها قادرة على تقديم إجابات فورية، وتحسين تجربة خدمة العملاء، وتقليل عبء خدمة العملاء اليدوية بشكل كبير. ستستكشف هذه المقالة كيفية إنشاء روبوت ChatGPT مخصص يمكنه الإجابة على الأسئلة بدقة، مع التركيز بشكل خاص على بناء وضبط قاعدة المعرفة، بالإضافة إلى العمليات الفعلية لإنشاء الروبوت.

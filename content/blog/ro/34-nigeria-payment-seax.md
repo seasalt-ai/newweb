@@ -1,16 +1,18 @@
 ---
 title: "Povestea clientului: Succesul centrului de contact în industria plăților digitale din Nigeria"
 metatitle: "Succesul centrului de contact în industria plăților digitale din Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Compania de top de plăți digitale din Nigeria a obținut un suport revoluționar pentru clienți cu un centru de contact omnicanal, integrând chatbot-uri și suport personalizat în Pidgin English, beneficiind milioane de utilizatori și comercianți.
+description: "Compania de top de plăți digitale din Nigeria a obținut un suport revoluționar pentru clienți cu un centru de contact omnicanal, integrând chatbot-uri și suport personalizat în Pidgin English, beneficiind milioane de utilizatori și comercianți."
 weight: 1
-tags: ["SeaX", "Povestea clientului"]
+tags:
+  - SeaX
+  - Povestea clientului
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 

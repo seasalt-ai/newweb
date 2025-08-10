@@ -1,15 +1,19 @@
 ---
 title: "Preventing Abuse and Managing Costs for AI Agents"
 metatitle: "Preventing Abuse and Managing Costs for AI Agents"
-date: 2023-12-21T10:25:00-08:00
+date: 2023-12-21 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Explore how SeaChat, an AI agent no-code builder, tackles customer concerns about preventing abuse and irrelevant questions, while ensuring you stay within your budget. Find out how their innovative chat monitoring system and cost limit alerts can help you manage your AI agent effectively.
+description: "Explore how SeaChat, an AI agent no-code builder, tackles customer concerns about preventing abuse and irrelevant questions, while ensuring you stay within your budget. Find out how their innovative chat monitoring system and cost limit alerts can help you manage your AI agent effectively."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
-canonicalURL: "/blog/seachat-cost-capping/"
-url: "/blog/seachat-cost-capping/"
+canonicalURL: /blog/seachat-cost-capping/
+url: /blog/seachat-cost-capping/
 ---
 
 In the fast-paced world of artificial intelligence, having an AI agent to handle chat interactions can be a game-changer for businesses and individuals alike. With [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a powerful AI agent no-code builder, you can enjoy the benefits of automated conversations. However, one concern that often arises among SeaChat customers is how to prevent abuse or deal with irrelevant questions without breaking the bank. Fortunately, SeaChat has implemented proactive measures to address these concerns effectively. In this article, we will explore how SeaChat's chat monitoring system and cost limit alerts can help you maintain control over your AI agent interactions while staying within your planned budget.

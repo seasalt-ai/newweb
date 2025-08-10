@@ -1,19 +1,19 @@
 ---
 title: "Como Criar um Bot ChatGPT Personalizado que Responde com Precisão"
 metatitle: "Como Criar um Bot ChatGPT Personalizado que Responde com Precisão | Série Construindo Chatbots de Próxima Geração com SeaChat"
-date: 2023-10-30T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Como construir um robô ChatGPT personalizado que responde a perguntas com precisão. Desde a construção de uma base de conhecimento profissional até o processo de desenvolvimento real, cobrindo técnicas de ajuste fino de pontos de conhecimento e demonstrando a implementação bem-sucedida através de casos de robôs SeaChat. Fornecemos um guia abrangente para ajudá-lo a criar facilmente chatbots inteligentes, eficientes e personalizados.
+description: "Como construir um robô ChatGPT personalizado que responde a perguntas com precisão. Desde a construção de uma base de conhecimento profissional até o processo de desenvolvimento real, cobrindo técnicas de ajuste fino de pontos de conhecimento e demonstrando a implementação bem-sucedida através de casos de robôs SeaChat. Fornecemos um guia abrangente para ajudá-lo a criar facilmente chatbots inteligentes, eficientes e personalizados."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Como construir um robô ChatGPT personalizado que responde a perguntas com precisão. Desde a construção de uma base de conhecimento profissional até o processo de desenvolvimento real, cobrindo técnicas de ajuste fino de pontos de conhecimento e demonstrando a implementação bem-sucedida através de casos de robôs SeaChat. Fornecemos um guia abrangente para ajudá-lo a criar facilmente chatbots inteligentes, eficientes e personalizados."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Com o rápido desenvolvimento da tecnologia, os chatbots tornaram-se uma ferramenta indispensável em várias indústrias. Eles são capazes de fornecer respostas instantâneas, melhorar a experiência de atendimento ao cliente e reduzir significativamente a carga do atendimento ao cliente manual. Este artigo explorará como construir um robô ChatGPT personalizado que pode responder a perguntas com precisão, com foco especial na construção e ajuste fino da base de conhecimento, bem como nas operações reais de criação de robôs.

@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: Uma base de conhecimento que responde antes mesmo de você perguntar"
 metatitle: "SeaX KB: Uma base de conhecimento que responde antes mesmo de você perguntar"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:05:21.933Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:05:21.933000+00:00
 draft: false
 author: Kim Dodds
 description: "Neste artigo, continuaremos o tópico de integrações de IA, apresentando a base de conhecimento alimentada por IA do SeaX, que fornece respostas sugeridas em tempo real."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *Em nosso post anterior do blog, [Dê ao seu contact center uma voz própria com a inteligência de voz SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/), mostramos como os mecanismos internos de conversão de texto em fala e fala em texto da Seasalt.ai aprimoram todos os aspectos da plataforma SeaX. Neste artigo, continuaremos o tópico de integrações de IA, apresentando a base de conhecimento alimentada por IA do SeaX, que ouve as conversas e fornece respostas sugeridas em tempo real.*

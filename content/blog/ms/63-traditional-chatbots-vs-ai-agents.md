@@ -1,16 +1,20 @@
 ---
 title: "Perkara yang Perlu Diketahui oleh Perniagaan tentang Chatbot: Perjalanan daripada Chatbot Tradisional kepada Ejen LLM"
 metatitle: "Perjalanan daripada Chatbot Tradisional kepada Ejen LLM"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "Ejen sembang berasaskan LLM menawarkan perniagaan penyelesaian yang mudah dan cekap untuk interaksi pelanggan, tidak memerlukan kemahiran teknologi yang kompleks dan berintegrasi dengan lancar dengan sistem sedia ada."
 weight: 1
-tags: ["SeaChat", "Ejen Suara", "Alat AI", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Ejen Suara
+  - Alat AI
+  - Pengalaman Pelanggan
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Bagi pemilik perniagaan, memperkemas interaksi pelanggan adalah penting. Ejen sembang berasaskan LLM menawarkan penyelesaian yang inovatif dan mesra pengguna yang tidak memerlukan kemahiran teknikal yang luas.

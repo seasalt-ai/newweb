@@ -1,16 +1,18 @@
 ---
 title: "客戶案例：奈及利亞數位支付產業聯絡中心的成功經驗"
 metatitle: "奈及利亞數位支付產業聯絡中心的成功經驗"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 奈及利亞領先的數位支付公司透過全通路聯絡中心實現了革命性的客戶支援，該中心整合了聊天機器人與個人化的奈及利亞皮欽語支援，惠及數百萬使用者與商家。
+description: "奈及利亞領先的數位支付公司透過全通路聯絡中心實現了革命性的客戶支援，該中心整合了聊天機器人與個人化的奈及利亞皮欽語支援，惠及數百萬使用者與商家。"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 奈及利亞一家領先的數位支付公司成功部署全通路聯絡中心的故事，突顯了採用先進技術如何徹底改變客戶支援並提升整體使用者體驗。

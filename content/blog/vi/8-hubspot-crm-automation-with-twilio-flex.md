@@ -1,19 +1,18 @@
 ---
 title: "Tự động hóa Trung tâm Liên hệ được kích hoạt bởi AI: Cộng tác viên ảo với CRM"
 metatitle: "Trung tâm Liên hệ SeaX: Tự động hóa Cộng tác viên ảo với CRM"
-date: 2022-01-26T18:21:40Z
-modified_date: 2025-08-05T17:02:12.345Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
+modified_date: 2025-08-05 17:02:12.345000+00:00
 draft: false
+author: Sarah Reid
 description: "Trong blog này, chúng tôi sẽ khám phá việc tích hợp một CRM như HubSpot vào Trung tâm Liên hệ SeaX, cho phép bạn truy cập trực tiếp vào tất cả thông tin và công cụ của mình."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
-lang: vi
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## Tích hợp HubSpot với SeaX

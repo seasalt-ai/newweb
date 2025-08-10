@@ -1,16 +1,20 @@
 ---
 title: "AI音声エージェントによる簡単なアンケート収集"
 metatitle: "AI音声エージェントによる簡単なアンケート収集"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T12:00:00-07:00
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 12:00:00-07:00
 draft: false
 author: Xuchen Yao
-description: AI音声エージェントによるアンケート作成の未来を発見してください！高品質な質問を簡単に作成し、ユーザーエクスペリエンスを向上させ、回答率を高めます。手作業にさようなら！
+description: "AI音声エージェントによるアンケート作成の未来を発見してください！高品質な質問を簡単に作成し、ユーザーエクスペリエンスを向上させ、回答率を高めます。手作業にさようなら！"
 weight: 1
-tags: ["SeaChat", "音声エージェント", "AIツール", "顧客体験"]
+tags:
+  - SeaChat
+  - 音声エージェント
+  - AIツール
+  - 顧客体験
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # はじめに

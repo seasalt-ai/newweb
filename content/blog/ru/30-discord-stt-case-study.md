@@ -1,15 +1,17 @@
 ---
 title: "Речь в текст в Discord: тематическое исследование бота Discord STT"
 metatitle: "Речь в текст в Discord: тематическое исследование бота Discord STT"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: В этом блоге мы обсудим наши выводы о том, как реальные пользователи Discord используют сервисы SeaVoice после анализа нескольких недель аутентичных данных преобразования речи в текст.
+description: "В этом блоге мы обсудим наши выводы о том, как реальные пользователи Discord используют сервисы SeaVoice после анализа нескольких недель аутентичных данных преобразования речи в текст."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *После запуска SeaVoice, одного из самых быстрых и точных ботов для преобразования текста в речь и речи в текст в Discord, мы хотели понять, как пользователи на самом деле взаимодействуют с сервисами. В этом блоге мы обсудим наши выводы после анализа нескольких недель реальных пользовательских данных преобразования речи в текст.*

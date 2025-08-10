@@ -2,16 +2,15 @@
 title: "من العرض التوضيحي إلى النجاح: عيوب الاجتماعات الحديثة (2/5)"
 metatitle: "من العرض التوضيحي إلى النجاح (2/5): عيوب الاجتماعات الحديثة"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "في الجزء الثاني من سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء SeaMeet، حلول الاجتماعات الحديثة التعاونية لدينا."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *خلال سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء تجربة اجتماعات حديثة شاملة، بدءًا من بداياتها المتواضعة، إلى تحسين خدماتنا على أجهزة ونماذج مختلفة، إلى دمج أنظمة البرمجة اللغوية العصبية الحديثة، وانتهاءً بالتحقيق الكامل لـ SeaMeet، حلول الاجتماعات الحديثة التعاونية لدينا.*

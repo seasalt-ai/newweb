@@ -1,16 +1,18 @@
 ---
 title: "Câu chuyện khách hàng: Cách SeaX giúp thương hiệu điện thoại di động hàng đầu hỗ trợ khách hàng tại 100 quốc gia"
 metatitle: "SeaX giúp thương hiệu điện thoại di động hàng đầu hỗ trợ khách hàng trên toàn cầu"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Khám phá cách triển khai trung tâm liên lạc đa kênh mang tính chuyển đổi của Seasalt.ai đã giúp một trong 5 thương hiệu điện thoại di động hàng đầu cách mạng hóa hoạt động hỗ trợ khách hàng tại 100 quốc gia, từ hỗn loạn đến sự hài lòng của khách hàng!
+description: "Khám phá cách triển khai trung tâm liên lạc đa kênh mang tính chuyển đổi của Seasalt.ai đã giúp một trong 5 thương hiệu điện thoại di động hàng đầu cách mạng hóa hoạt động hỗ trợ khách hàng tại 100 quốc gia, từ hỗn loạn đến sự hài lòng của khách hàng!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 Câu chuyện thành công về việc triển khai trung tâm liên lạc đa kênh cho một trong 5 thương hiệu điện thoại di động quốc tế hàng đầu là minh chứng cho sức mạnh biến đổi của công nghệ trong việc nâng cao hoạt động hỗ trợ khách hàng.

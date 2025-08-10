@@ -1,16 +1,20 @@
 ---
 title: "Panggilan Masuk dan Keluar, Ejen Telefon AI Boleh Bekerja untuk Anda pada Kedua-duanya"
 metatitle: "Ejen Telefon AI | Untuk Panggilan Masuk dan Keluar"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Temui potensi pengubah permainan ejen telefon AI dalam perkhidmatan pelanggan dan jualan, mengubah panggilan masuk dan keluar untuk kecekapan yang dipertingkatkan dan pertumbuhan hasil."
 weight: 1
-tags: ["SeaChat", "Ejen Suara", "Alat AI", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Ejen Suara
+  - Alat AI
+  - Pengalaman Pelanggan
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 Dalam landskap perkhidmatan pelanggan dan jualan yang sentiasa berkembang, ejen telefon AI telah muncul sebagai alat baharu dan cekap untuk perniagaan. Ejen pintar ini direka untuk mengendalikan kedua-dua panggilan masuk dan keluar, merevolusikan interaksi pelanggan dan memacu hasil. Artikel ini menyelidiki pelbagai kes penggunaan ejen telefon AI dalam kedua-dua panggilan masuk dan keluar, menonjolkan kepelbagaian dan potensi mereka untuk mengubah komunikasi perniagaan.

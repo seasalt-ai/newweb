@@ -1,16 +1,18 @@
 ---
 title: "Historia klienta: Sukces centrum kontaktowego w nigeryjskiej branży płatności cyfrowych"
 metatitle: "Sukces centrum kontaktowego w nigeryjskiej branży płatności cyfrowych"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Wiodąca nigeryjska firma zajmująca się płatnościami cyfrowymi osiągnęła rewolucyjne wsparcie klienta dzięki wielokanałowemu centrum kontaktowemu, integrując chatboty i spersonalizowane wsparcie w języku pidgin angielskim, z korzyścią dla milionów użytkowników i sprzedawców.
+description: "Wiodąca nigeryjska firma zajmująca się płatnościami cyfrowymi osiągnęła rewolucyjne wsparcie klienta dzięki wielokanałowemu centrum kontaktowemu, integrując chatboty i spersonalizowane wsparcie w języku pidgin angielskim, z korzyścią dla milionów użytkowników i sprzedawców."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Historia sukcesu wdrożenia wielokanałowego centrum kontaktowego dla wiodącej firmy zajmującej się płatnościami cyfrowymi w Nigerii podkreśla, w jaki sposób przyjęcie zaawansowanej technologii może zrewolucjonizować obsługę klienta i poprawić ogólne doświadczenie użytkownika.

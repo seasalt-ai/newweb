@@ -1,16 +1,20 @@
 ---
 title: "Đại lý AI giọng nói so với Đại lý AI trò chuyện: Điều hướng các giải pháp AI của SeaChat cho doanh nghiệp của bạn"
 metatitle: "Đại lý giọng nói so với Đại lý trò chuyện | Điều hướng các giải pháp AI của SeaChat"
-date: 2023-12-12T10:25:00-08:00
+date: 2023-12-12 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Khám phá các giải pháp AI của SeaChat dành cho doanh nghiệp, Đại lý AI giọng nói cho dịch vụ khách hàng dựa trên giọng nói và Đại lý AI trò chuyện cho các tương tác dựa trên văn bản, mỗi giải pháp đều có các tính năng và trường hợp sử dụng độc đáo.
+description: "Khám phá các giải pháp AI của SeaChat dành cho doanh nghiệp, Đại lý AI giọng nói cho dịch vụ khách hàng dựa trên giọng nói và Đại lý AI trò chuyện cho các tương tác dựa trên văn bản, mỗi giải pháp đều có các tính năng và trường hợp sử dụng độc đáo."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
-canonicalURL: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-url: "/blog/voice-ai-agent-vs-chat-ai-agent/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/voice-ai-agent-vs-chat-ai-agent/
+url: /blog/voice-ai-agent-vs-chat-ai-agent/
 ---
 
 Trong môi trường kỹ thuật số phát triển nhanh chóng ngày nay, các doanh nghiệp không ngừng tìm kiếm những cách đổi mới để nâng cao trải nghiệm khách hàng và hợp lý hóa hoạt động. Một phần quan trọng của sự chuyển đổi này là việc áp dụng các công cụ giao tiếp dựa trên AI. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), một nền tảng AI đa năng, cung cấp hai giải pháp mạnh mẽ trong một sản phẩm: Đại lý AI giọng nói và Đại lý AI trò chuyện. Trong blog này, chúng tôi sẽ đi sâu vào các chức năng và trường hợp sử dụng của cả hai, giúp bạn quyết định giải pháp nào phù hợp nhất với nhu cầu kinh doanh của mình.

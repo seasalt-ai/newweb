@@ -1,16 +1,19 @@
 ---
 title: "Constant Contact مقابل MailerLite: ما هي خدمة التسويق عبر البريد الإلكتروني المناسبة لك في عام 2025؟"
 metatitle: "Constant Contact مقابل MailerLite | التسويق عبر البريد الإلكتروني في عام 2025"
-date: 2024-04-06T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-04-06 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite مقابل Constant Contact، ما هي خدمة البريد الإلكتروني المناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد.
+description: "MailerLite مقابل Constant Contact، ما هي خدمة البريد الإلكتروني المناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/constant-contact-vs-mailerlite-2025/"
-url: "/blog/constant-contact-vs-mailerlite-2025/"
+canonicalURL: /blog/constant-contact-vs-mailerlite-2025/
+url: /blog/constant-contact-vs-mailerlite-2025/
 ---
 
 للتفوق في التسويق عبر البريد الإلكتروني، تحتاج إلى الأدوات المناسبة التي يمكن أن توفر لك الوقت والجهد دون استنزاف أموالك. تتوفر العديد من منصات التسويق عبر البريد الإلكتروني الشائعة وخيارات برامج التسويق عبر البريد الإلكتروني، بما في ذلك رواد الصناعة مثل HubSpot و Constant Contact و MailerLite و Mailchimp وغيرها. يقدم كل منها مزيجًا فريدًا من الميزات والأسعار وإمكانيات الأتمتة. اليوم، سنقارن أداتين شائعتين، [Constant Contact](https://www.constantcontact.com/) و [MailerLite](https://www.mailerlite.com/) لاعتباراتك.

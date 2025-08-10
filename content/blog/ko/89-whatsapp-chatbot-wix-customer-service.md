@@ -1,16 +1,20 @@
 ---
 title: "SeaChat으로 Wix 웹사이트에 AI 챗봇을 배포하는 방법"
 metatitle: "SeaChat으로 Wix 웹사이트에 AI 챗봇을 배포하는 방법"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Xuchen Yao
 description: "SeaChat으로 Wix 웹사이트를 강화하세요 - Wix 웹페이지와 WhatsApp 모두에서 고객 지원을 원활하게 통합하세요. 손쉽게 참여도를 높이세요!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "통합"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - 통합
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 SeaChat의 WhatsApp AI 챗봇을 Wix 웹사이트에 통합하면 고객 서비스가 향상될 뿐만 아니라 비즈니스를 기술 혁신의 선두에 놓을 수 있습니다. SeaChat으로 고객 참여의 미래를 받아들이세요.

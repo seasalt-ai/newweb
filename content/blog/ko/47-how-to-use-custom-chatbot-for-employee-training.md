@@ -1,17 +1,19 @@
 ---
 title: "기업이 맞춤형 AI 챗봇을 사용하여 직원 교육을 단순화하는 방법"
 metatitle: "기업이 맞춤형 AI 챗봇을 사용하여 직원 교육을 단순화하는 방법 | SeaChat으로 차세대 챗봇 구축 시리즈"
-date: 2023-11-04T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 맞춤형 AI 챗봇이 직원 교육 효율성과 개인화된 학습 경험을 향상시키는 혁신적인 역할을 탐구하고, 기업 문화 전달 및 비즈니스 효율성 향상에 있어 핵심적인 역할을 분석합니다.
+description: "맞춤형 AI 챗봇이 직원 교육 효율성과 개인화된 학습 경험을 향상시키는 혁신적인 역할을 탐구하고, 기업 문화 전달 및 비즈니스 효율성 향상에 있어 핵심적인 역할을 분석합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "맞춤형 AI 챗봇이 직원 교육 효율성과 개인화된 학습 경험을 향상시키는 혁신적인 역할을 탐구하고, 기업 문화 전달 및 비즈니스 효율성 향상에 있어 핵심적인 역할을 분석합니다."
+canonicalURL: /blog/how-to-use-custom-chatbot-for-employee-training/
+url: /blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 신입 직원 교육의 효율성과 효과를 높이기 위해 점점 더 많은 기업이 맞춤형 AI 챗봇 사용 가능성을 탐색하기 시작했습니다. 이러한 고급 챗봇은 개인화된 학습 경험을 제공할 뿐만 아니라 직원이 회사 문화에 더 빨리 통합되도록 도와 전반적인 업무 효율성과 직원 만족도를 향상시킵니다.

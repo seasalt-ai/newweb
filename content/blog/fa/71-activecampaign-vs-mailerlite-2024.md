@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: کدام سرویس بازاریابی ایمیلی در سال ۲۰۲۵ برای شما مناسب است؟"
 metatitle: "ActiveCampaign vs. MailerLite | سرویس بازاریابی ایمیلی ۲۰۲۵؟"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
+author: Xuchen Yao
 description: "MailerLite vs. ActiveCampaign، کدام سرویس ایمیلی برای شما مناسب است؟ مقایسه عمیق ما ویژگی‌ها، قیمت‌گذاری و موارد دیگر را تحلیل می‌کند."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 آیا کنجکاو بازاریابی ایمیلی هستید؟ از یافتن بهترین نرم‌افزار بازاریابی ایمیلی تا ایجاد استراتژی موفق بازاریابی ایمیلی، این ابزار چندمنظوره امکانات بی‌نهایتی ارائه می‌دهد. بیاموزید چگونه مشتریان را هدف قرار دهید، شغل بازاریابی ایمیلی پیدا کنید و از اتوماسیون بازاریابی ایمیلی برای پیشبرد نتایج کسب‌وکار استفاده کنید. قبل از اینکه به تمام این جزئیات بپردازیم، بیایید ابتدا به شما کمک کنیم ابزار بازاریابی ایمیلی مناسب را انتخاب کنید. امروز، ما دو ابزار محبوب، [ActiveCampaign](https://www.activecampaign.com/) و [MailerLite](https://www.mailerlite.com/) را برای مرجع شما مقایسه خواهیم کرد.

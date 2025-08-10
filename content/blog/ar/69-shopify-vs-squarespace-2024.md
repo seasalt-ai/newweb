@@ -1,16 +1,19 @@
 ---
 title: "Shopify مقابل Squarespace: أي منشئ مواقع التجارة الإلكترونية هو الأنسب لعملك في عام 2025؟"
 metatitle: "Shopify مقابل Squarespace | منشئ مواقع التجارة الإلكترونية 2025؟"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Shopify مقابل Squarespace، أي حل لموقع التجارة الإلكترونية هو الأنسب لك في عام 2025؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والتخصص والتكاملات والمزيد.
+description: "Shopify مقابل Squarespace، أي حل لموقع التجارة الإلكترونية هو الأنسب لك في عام 2025؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والتخصص والتكاملات والمزيد."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Website Builder"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Website Builder
 image: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
-canonicalURL: "/blog/shopify-vs-squarespace-2025/"
-url: "/blog/shopify-vs-squarespace-2025/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/shopify-vs-squarespace-2025/
+url: /blog/shopify-vs-squarespace-2025/
 ---
 
 هل أنت مستعد لنقل عملك إلى المستوى التالي من خلال موقع متجر عبر الإنترنت؟ يتطلب بناء موقع تجارة إلكترونية ناجح أفضل منصة للتجارة الإلكترونية لتبسيط عمليات البيع الخاصة بك. في هذه المعركة بين العمالقة، سنضع [Shopify](https://www.shopify.com/) في مواجهة [Squarespace](https://www.squarespace.com/)، وهما من أشهر منشئي مواقع الويب للتجارة الإلكترونية.

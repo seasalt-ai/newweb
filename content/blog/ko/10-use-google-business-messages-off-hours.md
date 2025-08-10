@@ -1,18 +1,17 @@
 ---
 title: "사업주: 영업시간 외에 Google Business Messages를 사용하여 고객과 소통하세요!"
 metatitle: "영업시간 외에 Google Business Messages를 사용하여 고객과 소통하세요!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-01-27T10:30:00Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
+author: Ruli Setiawati
 description: "Google Business Profile은 사업주가 고객과 직접 채팅할 수 있게 하지만, Google Business Messages는 가상 고객 서비스와의 통합을 가능하게 합니다."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Google Business Messages의 장점과 한계, 그리고 기업이 Google Business Messages를 구현하는 방법에 대해 자세히 알아보세요.*

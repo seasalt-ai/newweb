@@ -1,17 +1,20 @@
 ---
 title: "வெளிச்செல்லும் அழைப்புகளுக்கான தானியங்கி டயலர்கள்: பவர் டயலர் vs. ப்ரோக்ரெசிவ் டயலர் vs. பிரிடிக்டிவ் டயலர் (3/5)"
 metatitle: "Seasalt.ai | நேரடி வெளிச்செல்லும் அழைப்புகள் | தானியங்கி டயலர்கள்"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "டெலிமார்க்கெட்டிங் மற்றும் விற்பனையில் பயனுள்ள, அளவிடக்கூடிய வெளிச்செல்லும் அழைப்புகளுக்கு பவர், ப்ரோக்ரெசிவ் மற்றும் பிரிடிக்டிவ் டயலர்களை ஒப்பிடுக."
 weight: 1
-tags: ["தானியங்கி டெலிமார்க்கெட்டிங் சேவை", "சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு", "தானியங்கி டயலர்", "குரல் AI"]
-toc: true
+tags:
+  - தானியங்கி டெலிமார்க்கெட்டிங் சேவை
+  - சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு
+  - தானியங்கி டயலர்
+  - குரல் AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

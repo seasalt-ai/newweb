@@ -1,14 +1,19 @@
 ---
-title: "Discord: A New Frontier for Customer Engagement"
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: "Discord: Uma Nova Fronteira para o Engajamento do Cliente"
-seoDescription: Descubra como o Discord está revolucionando o engajamento do cliente, oferecendo comunidades dinâmicas e suporte inovador para empresas modernas.
+title: "Discord (1/3): Uma Nova Fronteira para o Engajamento do Cliente"
+metatitle: "Discord (1/3): Uma Nova Fronteira para o Engajamento do Cliente"
+date: 2022-05-23 13:05:36-07:00
+draft: false
+author: Kim Dodds
+description: "Neste blog, discutiremos a ascensão do Discord em popularidade e por que/como as empresas estão começando a usá-lo para melhorar o engajamento com os clientes."
+weight: 1
 tags:
-- Discord
-- Atendimento ao Cliente
-- Engajamento
-title: 'Discord: A New Frontier for Customer Engagement'
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
+
 
 
 

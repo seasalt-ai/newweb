@@ -1,17 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해"
+metatitle: "SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해"
 date: 2022-09-09 11:05:22-07:00
-description: 이 블로그에서는 SeaX의 대량 SMS 기능을 통해 상담원이 문자로 아웃바운드 메시지를 사전에 보내는 방법을 보여줍니다.
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해'
-modified_date: '2025-07-28T16:03:25.123456'
-tags:
-- SeaX
-title: 'SeaX 대량 SMS: 더 빠르고 효과적인 고객 지원을 위해'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "이 블로그에서는 SeaX의 대량 SMS 기능을 통해 상담원이 문자로 아웃바운드 메시지를 사전에 보내는 방법을 보여줍니다."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

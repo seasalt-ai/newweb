@@ -1,17 +1,19 @@
 ---
 title: "Alles, was Sie wissen müssen, um sich auf die neue FCC-Regel zur Eins-zu-Eins-Zustimmung von 2025 vorzubereiten"
 metatitle: "Seasalt.ai | TCPA-Regeländerungen 2025 | Umfassender Leitfaden"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "Ein ausführlicher Leitfaden zu den TCPA-Regeländerungen 2025, der Unternehmen wichtige Informationen zur Sicherstellung der Compliance bietet."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **Dieser Artikel ist keine Rechtsberatung. Bitte konsultieren Sie Ihren Rechtsbeistand für weitere Informationen.**

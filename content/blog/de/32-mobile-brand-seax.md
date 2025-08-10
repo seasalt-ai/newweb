@@ -1,16 +1,18 @@
 ---
 title: "Kundenstory: Wie SeaX einer Top-Mobiltelefonmarke half, Kunden in 100 Ländern zu unterstützen"
 metatitle: "SeaX half einer Top-Mobiltelefonmarke, Kunden weltweit zu unterstützen"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Entdecken Sie, wie die transformative Omnichannel-Contact Center-Implementierung von Seasalt.ai einer Top-5-Mobiltelefonmarke half, den Kundensupport in 100 Ländern zu revolutionieren, vom Chaos zur Kundenbegeisterung!
+description: "Entdecken Sie, wie die transformative Omnichannel-Contact Center-Implementierung von Seasalt.ai einer Top-5-Mobiltelefonmarke half, den Kundensupport in 100 Ländern zu revolutionieren, vom Chaos zur Kundenbegeisterung!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 Die Erfolgsgeschichte der Omnichannel-Contact Center-Implementierung für eine der Top-5-Mobiltelefonmarken ist ein Beweis für die transformative Kraft der Technologie bei der Verbesserung des Kundensupports.

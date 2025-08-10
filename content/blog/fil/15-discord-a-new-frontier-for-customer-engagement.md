@@ -1,20 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugnayan sa Customer"
+metatitle: "Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugna..."
 date: 2022-05-23 13:05:36-07:00
-description: Sa blog na ito, tatalakayin natin ang pag-usbong ng Discord at kung bakit/paano
-  nagsisimulang gamitin ng mga kumpanya ang Discord para mapabuti ang pakikipag-ugnayan
-  sa customer.
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugna...'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): Isang Bagong Hangganan para sa Pakikipag-ugnayan sa Customer'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "Sa blog na ito, tatalakayin natin ang pag-usbong ng Discord at kung bakit/paano nagsisimulang gamitin ng mga kumpanya ang Discord para mapabuti ang pakikipag-ugnayan sa customer."
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

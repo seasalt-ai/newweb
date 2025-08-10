@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Kendalikan Pelacakan Kasus Pusat Kontak Anda"
 metatitle: "Manajemen Kasus SeaX: Lacak Interaksi Pelanggan Anda"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Dalam postingan ini, kami menjelajahi integrasi AI dengan Manajemen Kasus, yang memberikan alat kepada agen Anda untuk melacak dan merekam interaksi dengan pelanggan Anda di SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Dalam postingan blog kami sebelumnya, [SeaX KB: Basis Pengetahuan yang Menjawab Sebelum Ditanya](https://seasalt.ai/blog/22-seax-knowledge-base/), kami menunjukkan bagaimana Basis Pengetahuan internal Seasalt.ai menempatkan informasi perusahaan Anda langsung di ujung jari agen Anda, meningkatkan efisiensi dan akurasi di pusat kontak Anda. Dalam postingan ini, kami melanjutkan topik integrasi AI dengan sistem Manajemen Kasus SeaX, yang memberikan alat yang ampuh kepada agen Anda untuk melacak dan merekam interaksi dengan pelanggan Anda langsung di antarmuka SeaX.*

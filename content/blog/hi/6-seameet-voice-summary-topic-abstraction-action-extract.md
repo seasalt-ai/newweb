@@ -1,18 +1,17 @@
 ---
 title: "डेमो से सफलता तक: मीटिंग परसेप्शन (4/5)"
 metatitle: "डेमो से सफलता तक (4/5): मीटिंग परसेप्शन"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "इस ब्लॉग श्रृंखला के चौथे भाग में, SeaMeet बनाने के लिए Seasalt.ai की यात्रा का अनुसरण करें, जो हमारे सहयोगी आधुनिक मीटिंग समाधान हैं।"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *इस ब्लॉग श्रृंखला के दौरान, Seasalt.ai की एक अच्छी तरह से आधुनिक मीटिंग अनुभव बनाने की यात्रा का अनुसरण करें, इसकी विनम्र शुरुआत से लेकर, विभिन्न हार्डवेयर और मॉडलों पर हमारी सेवा का अनुकूलन करने, अत्याधुनिक एनएलपी सिस्टम को एकीकृत करने और अंत में SeaMeet, हमारे सहयोगी आधुनिक मीटिंग समाधानों की पूर्ण प्राप्ति पर समाप्त होने तक।*

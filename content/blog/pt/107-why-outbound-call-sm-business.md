@@ -1,17 +1,19 @@
 ---
 title: "Por que as pequenas empresas precisam de um serviço de chamadas/telemarketing de saída? (1/5)"
 metatitle: "Seasalt.ai | Série de chamadas de saída | Pequenas empresas"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Explore agentes ao vivo, discadores automáticos e IA de voz para escolher a melhor solução de chamada de saída para as necessidades do seu negócio."
 weight: 1
-tags: ["Serviço de telemarketing automático", "Chamada de saída para pequenas empresas", "IA de voz"]
-toc: true
+tags:
+  - Serviço de telemarketing automático
+  - Chamada de saída para pequenas empresas
+  - IA de voz
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

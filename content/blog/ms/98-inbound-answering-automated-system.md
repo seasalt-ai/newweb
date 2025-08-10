@@ -1,17 +1,20 @@
 ---
 title: "Sistem Jawapan Telefon Automatik (Respons Suara Interaktif vs. Ejen AI Suara): Pilihan Terbaik untuk Perniagaan Kecil (3/5)"
 metatitle: "Sistem Jawapan Automatik (Respons Suara Interaktif vs. AI Suara)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Terokai pilihan Respons Suara Interaktif dan Ejen AI Suara untuk sistem telefon automatik dalam perniagaan kecil."
 weight: 1
-tags: ["Perkhidmatan Jawapan Automatik", "Panggilan Masuk untuk Perniagaan Kecil", "SeaChat",  "AI Suara"]
-toc: true
+tags:
+  - Perkhidmatan Jawapan Automatik
+  - Panggilan Masuk untuk Perniagaan Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

@@ -1,16 +1,17 @@
 ---
 title: "اجمع العملاء من أي قناة في مكان واحد باستخدام اتصالات SeaX متعددة القنوات"
 metatitle: "توحيد جهات اتصال العملاء من خلال اتصالات SeaX متعددة القنوات"
-date: 2022-07-15T13:56:54-07:00
-modified_date: "2025-08-02T17:00:00-07:00"
-author: Kim Dodds
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2025-08-02 17:00:00-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "في هذه المدونة، نسلط الضوء على أحد اتصالات SeaX متعددة القنوات، والذي يسمح بعرض رسائل المستخدم من أي قناة على منصة SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *في منشور مدونتنا السابق، [مرحبًا بك في SeaX، مركز اتصال سحابي تعاوني](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/)، قدمنا SeaX، حل مركز الاتصال السحابي التعاوني الخاص بنا. بينما قدم منشور مدونتنا الأول نظرة عامة شاملة على الميزات الأساسية والأكثر تقدمًا في SeaX، فإن منشوراتنا اللاحقة ستتعمق في بعض الميزات الفردية التي تجعل SeaX متميزًا. في هذا المنشور، سنلقي نظرة فاحصة على دعم SeaX متعدد القنوات ونرى كيف تظهر المكالمات والرسائل من قنوات مختلفة على منصة SeaX.*

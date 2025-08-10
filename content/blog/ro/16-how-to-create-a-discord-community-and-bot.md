@@ -1,18 +1,18 @@
 ---
 title: "Discord (2/3): Cum să creați o comunitate și un bot Discord pentru marca dvs."
 metatitle: "Discord (2/3): Creați comunitatea și botul Discord al mărcii dvs."
-date: 2022-05-31T13:29:51-07:00
-author: Kim Dodds
-image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
-description: "În acest blog, vom parcurge crearea unui server pentru marca dvs. și conectarea unui bot, care poate automatiza moderarea, raportarea erorilor, anunțurile etc."
+date: 2022-05-31 13:29:51-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
+author: Kim Dodds
+description: "În acest blog, vom parcurge crearea unui server pentru marca dvs. și conectarea unui bot, care poate automatiza moderarea, raportarea erorilor, anunțurile etc."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/create-a-discord-community-and-bot/"
-url: "/blog/create-a-discord-community-and-bot/"
-aliases: 
-    - /blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/discord-community-and-bot-for-your-brand.jpg
+canonicalURL: /blog/create-a-discord-community-and-bot/
+url: /blog/create-a-discord-community-and-bot/
 ---
 
 *Postarea noastră de pe blog, [„Discord: O nouă frontieră pentru implicarea clienților”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), a acoperit creșterea popularității Discord și modul în care mărcile pot valorifica această nouă platformă socială pentru a-și forma propriile comunități online și a interacționa cu clienții. În acest blog, vom parcurge cum să creați un nou server oficial pentru marca dvs., inclusiv cum să conectați un bot, care poate automatiza sarcini precum moderarea, raportarea erorilor, anunțurile etc.*

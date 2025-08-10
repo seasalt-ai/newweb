@@ -14,6 +14,8 @@ tags:
 - Цифровой маркетинг
 - Видеоконтент
 title: Создание мультимедийного контента на основе ИИ для вовлечения клиентов
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

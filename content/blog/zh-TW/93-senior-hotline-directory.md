@@ -1,17 +1,18 @@
 ---
 title: "台灣老年人照護資源整理：如何在各大縣市打電話獲取幫助"
 metatitle: "台灣老年人照護資源指南：各大縣市老人求助電話及支援服務"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "探索台灣各縣市老年人照護資源，含關懷電話、緊急求助熱線及及社會支持服務。並了解Seasalt.ai的創新解決方案如何提升老人照護服務的效率。"
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: '隨著社會老齡化的加劇，獲取方便可及的 老人關懷電話和老人照護服務變得越來越重要。隨著老年人口的增加，擁有可靠的資源來提供即時協助和持續支持是至關重要的。本整理旨在幫助老年人及其家人輕鬆找到在台灣各大縣市所需的照護資源。'
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 隨著社會老齡化的加劇，獲取方便可及的 老人關懷電話和老人照護服務變得越來越重要。隨著老年人口的增加，擁有可靠的資源來提供即時協助和持續支持是至關重要的。本整理旨在幫助老年人及其家人輕鬆找到在台灣各大縣市所需的照護資源。

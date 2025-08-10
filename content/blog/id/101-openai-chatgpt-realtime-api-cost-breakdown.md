@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. Manusia vs. AI Suara: Perbandingan Biaya (5/5)"
 metatitle: "OpenAI Realtime API vs. Manusia dan AI Suara: Rincian Biaya"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "Analisis biaya terperinci OpenAI Realtime API dibandingkan dengan resepsionis manusia dan agen AI suara."
 weight: 1
-tags: ["Layanan Penjawab Otomatis", "Panggilan Masuk untuk Usaha Kecil", "SeaChat", "AI Suara"]
-toc: true
+tags:
+  - Layanan Penjawab Otomatis
+  - Panggilan Masuk untuk Usaha Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

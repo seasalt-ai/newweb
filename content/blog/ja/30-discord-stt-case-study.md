@@ -1,15 +1,17 @@
 ---
 title: "Discordでの音声テキスト変換：STT Discordボットのケーススタディ"
 metatitle: "Discordでの音声テキスト変換：STT Discordボットのケーススタディ"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: このブログでは、数週間にわたる実際の音声テキスト変換データをレビューした後、実際のDiscordユーザーがSeaVoiceサービスをどのように利用しているかについての調査結果を議論します。
+description: "このブログでは、数週間にわたる実際の音声テキスト変換データをレビューした後、実際のDiscordユーザーがSeaVoiceサービスをどのように利用しているかについての調査結果を議論します。"
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Discordで最速かつ最も正確なテキスト読み上げおよび音声テキスト変換ボットの1つであるSeaVoiceを立ち上げた後、ユーザーが実際にサービスとどのようにやり取りしているかを理解したいと考えました。このブログでは、数週間にわたる実際の音声テキスト変換ユーザーデータをレビューした後の調査結果を議論します。*

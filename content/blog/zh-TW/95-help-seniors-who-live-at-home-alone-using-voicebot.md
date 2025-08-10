@@ -1,17 +1,17 @@
 ---
 title: "如何透過Voicebot協助獨居長者 - SeaX的智慧解決方案"
 metatitle: "用AI Voicebot改善獨居長者的生活質量 - SeaX智慧照護方案"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "探索如何利用SeaX的AI智慧關懷電話，為台灣超高齡社會中的獨居長者提供定期關懷、健康監測與緊急支援，有效提升長者的生活質量與安全感。"
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: '台灣逐漸進入超高齡社會，獨居長者的數量不斷增加。根據國發會的數據，預計到2024年，台灣老年人口比例將接近20%，並在2025年正式跨入超高齡社會。這種社會結構的變遷，讓獨居長者的身心健康問題成為焦點。特別是，許多長者經常感到孤獨，並擔憂獨自在家中去世的可能性。這些心理壓力不僅影響了他們的生活質量，也對他們的身體健康構成了威脅。'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 台灣逐漸進入超高齡社會，獨居長者的數量不斷增加。根據國發會的數據，預計到2024年，台灣老年人口比例將接近20%，並在2025年正式跨入超高齡社會。這種社會結構的變遷，讓獨居長者的身心健康問題成為焦點。特別是，許多長者經常感到孤獨，並擔憂獨自在家中去世的可能性。這些心理壓力不僅影響了他們的生活質量，也對他們的身體健康構成了威脅。

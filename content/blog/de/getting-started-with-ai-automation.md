@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Einstieg in die KI-Automatisierung für kleine Unternehmen
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

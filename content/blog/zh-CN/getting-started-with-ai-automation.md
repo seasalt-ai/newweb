@@ -11,6 +11,8 @@ tags:
 - Customer Service
 - Efficiency
 title: 小型企业 AI 自动化入门
+canonicalURL: blog/getting-started-with-ai-automation/
+url: blog/getting-started-with-ai-automation/
 ---
 
 

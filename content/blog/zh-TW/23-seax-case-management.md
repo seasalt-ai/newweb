@@ -1,16 +1,17 @@
 ---
 title: "SeaX 案例管理：掌控您的聯絡中心案例追蹤"
 metatitle: "SeaX 案例管理：追蹤您的客戶互動"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "在這篇文章中，我們探討了 AI 與案例管理的整合，這為您的代理提供了在 SeaX 中追蹤和記錄與客戶互動的工具。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *在我們之前的部落格文章 [SeaX KB：一個在提問前就能回答的知識庫](https://seasalt.ai/blog/22-seax-knowledge-base/) 中，我們展示了 Seasalt.ai 內部的知識庫如何將您公司的資訊直接呈現在代理的指尖，從而提高聯絡中心的效率和準確性。在這篇文章中，我們將繼續探討 AI 與 SeaX 案例管理系統的整合，該系統為您的代理提供了強大的工具，可以直接在 SeaX 介面中追蹤和記錄與客戶的互動。*

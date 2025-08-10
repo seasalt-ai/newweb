@@ -1,17 +1,20 @@
 ---
 title: "電話行銷外撥的內部與外包：給企業的實用建議 (2/5)"
 metatitle: "Seasalt.ai | 即時外撥 | 內部與外包"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "比較內部與外包外撥 — 成本、功能，並獲取優化客戶拓展的實用技巧。"
 weight: 1
-tags: ["自動電話行銷服務", "小型企業外撥", "SeaChat", "語音 AI"]
-toc: true
+tags:
+  - 自動電話行銷服務
+  - 小型企業外撥
+  - SeaChat
+  - 語音 AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

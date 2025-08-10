@@ -1,17 +1,20 @@
 ---
 title: "Sistemas de Respuesta Telefónica Automatizada (Respuesta de Voz Interactiva vs. Agentes de Voz con IA): Las Mejores Opciones para Pequeñas Empresas (3/5)"
 metatitle: "Sistemas de Respuesta Automatizada (Respuesta de Voz Interactiva vs. Voz con IA)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Explore las opciones de Respuesta de Voz Interactiva y Agentes de Voz con IA para sistemas telefónicos automatizados en pequeñas empresas."
 weight: 1
-tags: ["Servicio de Respuesta Automática", "Llamada Entrante para Pequeñas Empresas", "SeaChat",  "Voz con IA"]
-toc: true
+tags:
+  - Servicio de Respuesta Automática
+  - Llamada Entrante para Pequeñas Empresas
+  - SeaChat
+  - Voz con IA
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

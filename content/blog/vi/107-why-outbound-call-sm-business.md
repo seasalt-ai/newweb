@@ -1,17 +1,19 @@
 ---
 title: "Tại sao các doanh nghiệp nhỏ cần dịch vụ cuộc gọi ra/Telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Chuỗi cuộc gọi ra | Doanh nghiệp nhỏ"
-date: 2024-10-20T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Jun Mao
 description: "Khám phá các đại lý trực tiếp, bộ quay số tự động và AI giọng nói để chọn giải pháp cuộc gọi ra tốt nhất cho nhu cầu kinh doanh của bạn."
 weight: 1
-tags: ["Dịch vụ Telemarketing tự động", "Cuộc gọi ra cho doanh nghiệp nhỏ", "AI giọng nói"]
-toc: true
+tags:
+  - Dịch vụ Telemarketing tự động
+  - Cuộc gọi ra cho doanh nghiệp nhỏ
+  - AI giọng nói
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

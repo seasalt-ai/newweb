@@ -1,18 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Services(LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Framework vs. Azure Services"
-date: 2024-03-21T00:22:19-07:00
+date: 2024-03-21 00:22:19-07:00
 modified_date: 2025-07-28
 draft: false
 author: Xuchen Yao
-description: Bakit lipas na ang Microsoft Bot Framework at Azure Bot Services (LUIS.ai)? Tuklasin ang SeaChat – Lumayo sa paulit-ulit na chatbot gamit ang advanced na LLM tech, para sa makatao at kapana-panabik na usapan.
+description: "Bakit lipas na ang Microsoft Bot Framework at Azure Bot Services (LUIS.ai)? Tuklasin ang SeaChat – Lumayo sa paulit-ulit na chatbot gamit ang advanced na LLM tech, para sa makatao at kapana-panabik na usapan."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-url: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-aliases:
-    - "/blog/74-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+canonicalURL: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
+url: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
 ---
 
 Ang mundo ng Conversational AI ay abala sa balita ng mas malalim na partnership ng Microsoft at OpenAI. Habang ang ilan ay tuwang-tuwa sa potensyal ng alyansang ito, may mga agam-agam sa loob ng Microsoft. May takot na mas bibigyang pansin ang OpenAI products kaysa sa sariling AI development.

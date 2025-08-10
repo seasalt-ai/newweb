@@ -1,16 +1,20 @@
 ---
 title: "Cómo crear un chatbot con agente de IA conectado 24/7 por teléfono para tu empresa"
 metatitle: "Crear agente de voz con IA | Conexión telefónica 24/7 para empresas"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "Explora la guía definitiva para desarrollar chatbots con agentes de voz con IA y conectarlos a sistemas telefónicos 24/7, mejorando la calidad del servicio al cliente."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2025-07-29T00:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 En el mundo acelerado de hoy, hablemos sobre cómo mejorar tu servicio al cliente. Crear un chatbot con agente de voz con IA y conectarlo a un sistema telefónico 24x7 es como tener un superhéroe del servicio al cliente: ahorra tiempo, dinero y deja a los clientes asombrados. ¡Empecemos este increíble viaje juntos!

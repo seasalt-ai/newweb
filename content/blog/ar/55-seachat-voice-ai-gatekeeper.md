@@ -1,16 +1,20 @@
 ---
 title: "شاشات مكالمات الذكاء الاصطناعي على Android و iPhone: مساعدك الشخصي وحارس البوابة"
 metatitle: "شاشات مكالمات الذكاء الاصطناعي | مساعد شخصي على Android و iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: اكتشف مستقبل إدارة المكالمات باستخدام وكيل مكالمات يعمل بالذكاء الاصطناعي! من فحص مرسلي البريد العشوائي إلى حجز المواعيد، إنه مساعدك الشخصي وحارس البوابة على مدار الساعة طوال أيام الأسبوع.
+description: "اكتشف مستقبل إدارة المكالمات باستخدام وكيل مكالمات يعمل بالذكاء الاصطناعي! من فحص مرسلي البريد العشوائي إلى حجز المواعيد، إنه مساعدك الشخصي وحارس البوابة على مدار الساعة طوال أيام الأسبوع."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 هل تمنيت يومًا أن يكون لديك مساعد شخصي يمكنه التعامل مع مكالماتك الهاتفية، وفحص مرسلي البريد العشوائي والمحتالين، وحتى حجز المواعيد لك؟ لا تبحث بعيدًا، لأن وكيل مكالمات يعمل بالذكاء الاصطناعي يمكنه فعل كل ذلك وأكثر! يعمل هذا التقنية الرائعة كاستقبال مجاني وحارس بوابة لك، وهي تحدث ثورة في إدارة المكالمات، مما يضمن عدم تفويت أي مكالمة مهمة ويوفر لك وقتًا ثمينًا وراحة البال.

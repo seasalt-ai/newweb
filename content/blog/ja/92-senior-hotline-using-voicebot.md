@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: AI音声アシスタントが高齢者ケアのスマートソリューションを革新"
 metatitle: "SeaX + SeaChat: AI音声アシスタントによる高齢者ケアの革新 - スマートケアコールの成功事例"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "SeaX + SeaChat AI音声アシスタントシステムが、台湾の超高齢社会における高齢者ケアの課題をどのように解決するかを探ります。スマートケアコールが高齢者の生活の質を向上させ、リアルタイムのケア、感情的なサポート、健康モニタリングを提供し、人手不足の問題に対処する方法を学びます。"
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: '台湾が超高齢社会へと移行するにつれて、高齢者ケアは前例のない課題に直面しています。国家発展委員会のデータによると、2024年には台湾の高齢者人口の割合が20%に近づき、2025年には正式に超高齢社会に突入すると予測されています。このような人口構造の変化の中で、リアルタイムのケア、多様なサービスを効果的に提供し、人手不足の問題を解決することが、現在の長期ケア産業における3つの主要な課題となっています。'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 台湾が超高齢社会へと移行するにつれて、高齢者ケアは前例のない課題に直面しています。国家発展委員会のデータによると、2024年には台湾の高齢者人口の割合が20%に近づき、2025年には正式に超高齢社会に突入すると予測されています。このような人口構造の変化の中で、リアルタイムのケア、多様なサービスを効果的に提供し、人手不足の問題を解決することが、現在の長期ケア産業における3つの主要な課題となっています。

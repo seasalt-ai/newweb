@@ -1,18 +1,19 @@
 ---
 title: "Pembuat Situs Web E-commerce Terbaik untuk 2025: Dukungan Chatbot dan Lainnya"
 metatitle: "Pembuat Situs Web E-commerce Terbaik untuk 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-27 15:58:18+00:00
 draft: false
 author: Xuchen Yao
 description: "Temukan platform e-commerce yang sempurna untuk toko Anda pada tahun 2025. Kami membandingkan Shopify, Squarespace, Wix, dan lainnya berdasarkan fitur, termasuk integrasi chatbot."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Alat AI"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Alat AI
 image: images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
-canonicalURL: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-url: "/blog/best-ecommerce-sites-with-chatbot-support-2025/"
-aliases:
-    - "/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/"
-modified_date: 2025-07-27T15:58:18Z
+canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
+url: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 ---
 
 Dunia e-commerce sedang berkembang pesat! Sangat penting untuk menonjol dengan situs web e-commerce yang fantastis. Memilih platform e-commerce terbaik sangat penting, dan dukungan chatbot adalah fitur utama pada tahun 2025. Jujur saja, ada BANYAK cara untuk membangun toko online – saya menonton banyak video YouTube (saya akan membagikan beberapa di antaranya di akhir postingan blog ini) dan membandingkan banyak pilihan untuk Anda! Daftar ini untuk Anda yang menjalankan bisnis kecil hingga menengah, terutama jika Anda baru memulai penjualan online atau sebagian besar berurusan dengan barang fisik. Jika Anda menjual barang yang sangat spesifik atau menghasilkan jutaan per bulan, Anda mungkin memerlukan sesuatu yang berbeda.
