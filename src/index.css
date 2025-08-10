@@ -5,29 +5,60 @@
 /* Mobile responsiveness improvements */
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden;
   width: 100%;
+  line-height: 1.6;
 }
 
-/* Responsive typography */
+/* Enhanced responsive typography */
 @media (max-width: 640px) {
   .prose h1 {
     font-size: 1.75rem;
+    line-height: 1.2;
   }
   
   .prose h2 {
     font-size: 1.5rem;
+    line-height: 1.3;
   }
   
   .prose h3 {
     font-size: 1.25rem;
+    line-height: 1.4;
   }
   
   .prose p, .prose li {
     font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+  
+  /* Hero text scaling */
+  h1 {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Reduce large text on mobile */
+  .text-4xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+  
+  .text-5xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  
+  .text-6xl {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
   }
 }
 
@@ -36,10 +67,24 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-/* Improve tap targets on mobile */
+/* Enhanced mobile touch targets */
 @media (max-width: 640px) {
-  button, a {
+  button, a, .clickable {
     min-height: 44px;
+    min-width: 44px;
+    touch-action: manipulation;
+  }
+  
+  /* Mobile-specific button adjustments */
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+  
+  /* Form inputs mobile optimization */
+  input, textarea, select {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 12px;
   }
 }
 
@@ -91,4 +136,121 @@ body {
 .card-hover:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile-specific utility classes */
+@media (max-width: 640px) {
+  /* Container adjustments */
+  .container, .max-w-7xl, .max-w-6xl, .max-w-5xl {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Section spacing optimization */
+  .py-20 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .py-16 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  /* Grid adjustments for mobile */
+  .grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  /* Gap adjustments */
+  .gap-8 {
+    gap: 1.5rem;
+  }
+  
+  .gap-6 {
+    gap: 1rem;
+  }
+  
+  /* Mobile navigation improvements */
+  .mobile-menu {
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Improve mobile modal behavior */
+  .modal-content {
+    margin: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+  }
+  
+  /* Mobile-friendly cards */
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  /* Mobile CTA buttons */
+  .cta-button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Mobile hero adjustments */
+  .hero-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Mobile image optimization */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet specific adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  
+  .text-6xl {
+    font-size: 3rem;
+  }
+}
+
+/* Prevent horizontal scroll on all devices */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Accessibility improvements for mobile */
+@media (max-width: 640px) {
+  /* Ensure focus indicators are visible */
+  button:focus, a:focus, input:focus, select:focus, textarea:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+  
+  /* Improve readability */
+  p, li, span {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
 }

@@ -1,12 +1,29 @@
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2 } from 'lucide-react';
+import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2, ChevronDown } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Mobile collapsible state
+  const [mobileCollapsed, setMobileCollapsed] = useState({
+    platform: true,
+    inboundSolutions: true,
+    outboundSolutions: true,
+    company: true
+  });
+  
+  const toggleMobileSection = (section: 'platform' | 'inboundSolutions' | 'outboundSolutions' | 'company') => {
+    setMobileCollapsed(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
   
   const platformLinks = [
     { name: 'Platform Overview', href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
@@ -105,10 +122,22 @@ const Footer = () => {
 
           {/* Platform Links */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
               Platform
             </h3>
-            <ul className="space-y-2">
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('platform')}
+              className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
+            >
+              Platform
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.platform ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2">
               {platformLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -121,14 +150,53 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.platform && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 overflow-hidden"
+                  >
+                    {platformLinks.map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Inbound Solutions Links */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
               Inbound Solutions
             </h3>
-            <ul className="space-y-2">
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('inboundSolutions')}
+              className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
+            >
+              Inbound Solutions
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.inboundSolutions ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2">
               {inboundSolutionsLinks.slice(0, 6).map((link) => (
                 <li key={link.name}>
                   <Link
@@ -141,14 +209,53 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.inboundSolutions && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 overflow-hidden"
+                  >
+                    {inboundSolutionsLinks.slice(0, 6).map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Outbound Solutions Links */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
               Outbound Solutions
             </h3>
-            <ul className="space-y-2">
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('outboundSolutions')}
+              className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
+            >
+              Outbound Solutions
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.outboundSolutions ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2">
               {outboundSolutionsLinks.slice(0, 6).map((link) => (
                 <li key={link.name}>
                   <Link
@@ -161,14 +268,53 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.outboundSolutions && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 overflow-hidden"
+                  >
+                    {outboundSolutionsLinks.slice(0, 6).map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Company Links */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
               Company
             </h3>
-            <ul className="space-y-2">
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('company')}
+              className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
+            >
+              Company
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.company ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
                   {link.href.startsWith('http') ? (
@@ -193,6 +339,45 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.company && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 overflow-hidden"
+                  >
+                    {companyLinks.map((link) => (
+                      <li key={link.name}>
+                        {link.href.startsWith('http') ? (
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                          >
+                            <link.icon className="w-4 h-4 mr-2" />
+                            {link.name}
+                          </a>
+                        ) : (
+                          <Link
+                            to={link.href}
+                            className="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                          >
+                            <link.icon className="w-4 h-4 mr-2" />
+                            {link.name}
+                          </Link>
+                        )}
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
 

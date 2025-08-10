@@ -1,7 +1,9 @@
-import { Phone, Mail, MapPin, MessageSquare, Zap, Users, Target, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter, Hash, Building2, Calendar, AlertTriangle, ShoppingCart, Vote, DollarSign, BarChart3, Book, Server, Briefcase } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, Zap, Users, Target, Heart, Coffee, Umbrella, Plane, Gem, Linkedin, Youtube, Twitter, Hash, Building2, Calendar, AlertTriangle, ShoppingCart, Vote, DollarSign, BarChart3, Book, Server, Briefcase, ChevronDown } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 // Custom WhatsApp icon component
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -19,6 +21,21 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  
+  // Mobile collapsible state
+  const [mobileCollapsed, setMobileCollapsed] = useState({
+    channels: true,
+    solutions: true,
+    industries: true,
+    company: true
+  });
+  
+  const toggleMobileSection = (section: 'channels' | 'solutions' | 'industries' | 'company') => {
+    setMobileCollapsed(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
 
   const channelLinks = [
     { name: 'SMS Overview', path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
@@ -104,8 +121,20 @@ const Footer = () => {
 
           {/* Channels */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Channels</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Channels</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('channels')}
+              className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
+            >
+              Channels
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.channels ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2 sm:space-y-3">
               {channelLinks.map((link, index) => (
                 <li key={index}>
                   <Link 
@@ -134,12 +163,67 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.channels && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 sm:space-y-3 overflow-hidden"
+                  >
+                    {channelLinks.map((link, index) => (
+                      <li key={index}>
+                        <Link 
+                          to={getLocalizedPath(link.path)}
+                          className={`text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center ${
+                            link.isParent 
+                              ? 'font-medium border-b border-gray-700 pb-1 mb-1' 
+                              : link.isChild 
+                                ? 'pl-4 text-gray-400' 
+                                : ''
+                          }`}
+                        >
+                          {link.icon && (
+                            <div className="flex items-center justify-center w-4 h-4 mr-2 flex-shrink-0">
+                              {link.iconText ? (
+                                <span className="text-xs font-mono font-bold text-blue-400">
+                                  {link.iconText}
+                                </span>
+                              ) : (
+                                <link.icon className="w-3 h-3 text-blue-400" />
+                              )}
+                            </div>
+                          )}
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Solutions */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Solutions</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Solutions</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('solutions')}
+              className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
+            >
+              Solutions
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.solutions ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2 sm:space-y-3">
               {solutionLinks.map((link, index) => (
                 <li key={index}>
                   <Link 
@@ -152,12 +236,51 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.solutions && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 sm:space-y-3 overflow-hidden"
+                  >
+                    {solutionLinks.map((link, index) => (
+                      <li key={index}>
+                        <Link 
+                          to={getLocalizedPath(link.path)}
+                          className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                        >
+                          <link.icon className="h-3 w-3 mr-2 text-blue-400" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Industries */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">Industries</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Industries</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('industries')}
+              className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
+            >
+              Industries
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.industries ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2 sm:space-y-3">
               {industryLinks.map((link, index) => (
                 <li key={index}>
                   <Link 
@@ -170,12 +293,51 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.industries && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 sm:space-y-3 overflow-hidden"
+                  >
+                    {industryLinks.map((link, index) => (
+                      <li key={index}>
+                        <Link 
+                          to={getLocalizedPath(link.path)}
+                          className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                        >
+                          <link.icon className="h-3 w-3 mr-2 text-blue-400" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Company */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.company.title')}</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.company.title')}</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('company')}
+              className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
+            >
+              {t('footer.company.title')}
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.company ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-2 sm:space-y-3">
               {/* Features and Pricing first */}
               <li>
                 <Link 
@@ -220,6 +382,65 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.company && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-2 sm:space-y-3 overflow-hidden"
+                  >
+                    {/* Features and Pricing first */}
+                    <li>
+                      <Link 
+                        to={getLocalizedPath('/features')}
+                        className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                      >
+                        <Zap className="h-3 w-3 mr-2 text-blue-400" />
+                        Features
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        to={getLocalizedPath('/pricing')}
+                        className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                      >
+                        <DollarSign className="h-3 w-3 mr-2 text-blue-400" />
+                        Pricing
+                      </Link>
+                    </li>
+                    {/* Then company links */}
+                    {companyLinks.map((link, index) => (
+                      <li key={index}>
+                        {link.href.startsWith('http') ? (
+                          <a 
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                          >
+                            <link.icon className="h-3 w-3 mr-2 text-blue-400" />
+                            {link.name}
+                          </a>
+                        ) : (
+                          <Link 
+                            to={link.href}
+                            className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
+                          >
+                            <link.icon className="h-3 w-3 mr-2 text-blue-400" />
+                            {link.name}
+                          </Link>
+                        )}
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
 

@@ -36,6 +36,29 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Only one dropdown open at a time
   const [openDropdown, setOpenDropdown] = useState<null | 'products' | 'solutions' | 'industries' | 'channels' | 'compare' | 'language'>(null);
+  
+  // Mobile collapsible sections state
+  const [mobileCollapsed, setMobileCollapsed] = useState<{
+    products: boolean;
+    solutions: boolean;
+    industries: boolean;
+    channels: boolean;
+    compare: boolean;
+  }>({
+    products: true,
+    solutions: true,
+    industries: true,
+    channels: true,
+    compare: true
+  });
+  
+  // Toggle mobile section collapse
+  const toggleMobileSection = (section: 'products' | 'solutions' | 'industries' | 'channels' | 'compare') => {
+    setMobileCollapsed(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
   // Helper to open only one dropdown at a time
   const handleDropdown = (dropdown: typeof openDropdown) => {
     console.log('[Header] handleDropdown called:', { dropdown, currentOpenDropdown: openDropdown });
@@ -364,129 +387,296 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden border-t border-gray-200">
-            <div className="px-2 pt-2 pb-3 space-y-1 max-h-[calc(100vh-4rem)] overflow-y-auto">
-              <div className="px-3 py-2">
-                <div className="text-sm font-medium text-gray-900 mb-2">{t('header.products')}</div>
-                <div className="pl-4 space-y-1">
-                  {products.map((product, index) => (
-                    <div key={index}>
-                      {product.subProducts ? (
-                        <div>
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                          >
-                            {product.title}
-                          </a>
-                          <div className="pl-4 space-y-1">
-                            {product.subProducts.map((subProduct, subIndex) => (
-                              <a
-                                key={subIndex}
-                                href={subProduct.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block py-1 text-xs text-gray-500 hover:text-gray-700"
-                              >
-                                {subProduct.title}
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      ) : (
-                        product.href.startsWith('/') ? (
-                          <Link
-                            to={createLink(product.href)}
-                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                          >
-                            {product.title}
-                          </Link>
-                        ) : (
-                          <a
-                            href={product.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                          >
-                            {product.title}
-                          </a>
-                        )
-                      )}
-                    </div>
-                  ))}
+            <div className="px-2 pt-2 pb-3 space-y-1 max-h-[calc(100vh-4rem)] overflow-y-auto mobile-menu">
+              {/* Login/Signup buttons at the top */}
+              <div className="px-3 py-2 border-b border-gray-200 mb-2">
+                <div className="flex flex-col space-y-2">
+                  <a 
+                    href="https://seax.seasalt.ai/signin" 
+                    className="block px-4 py-3 text-center text-gray-700 hover:bg-gray-50 rounded-lg font-medium min-h-touch"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t('header.login')}
+                  </a>
+                  <a 
+                    href="https://seax.seasalt.ai/signup" 
+                    className="block px-4 py-3 bg-blue-600 text-white rounded-lg text-center font-medium hover:bg-blue-700 transition-colors min-h-touch"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {t('header.startForFree')}
+                  </a>
                 </div>
               </div>
+              
+              {/* Collapsible Products Section */}
               <div className="px-3 py-2">
-                <div className="text-sm font-medium text-gray-900 mb-2">{t('header.solutions')}</div>
-                <div className="pl-4 space-y-1">
-                  {solutions.map((solution, index) => (
-                    solution.path ? (
+                <button
+                  onClick={() => toggleMobileSection('products')}
+                  className="flex items-center justify-between w-full text-left text-sm font-medium text-gray-900 py-2 min-h-touch"
+                >
+                  <span>{t('header.products')}</span>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${
+                    mobileCollapsed.products ? '' : 'transform rotate-180'
+                  }`} />
+                </button>
+                {!mobileCollapsed.products && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    {products.map((product, index) => (
+                      <div key={index}>
+                        {product.subProducts ? (
+                          <div>
+                            <a
+                              href={product.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {product.icon && <product.icon className="h-4 w-4 mr-3 text-gray-400" />}
+                              {product.title}
+                            </a>
+                            <div className="pl-4 space-y-1">
+                              {product.subProducts.map((subProduct, subIndex) => (
+                                <a
+                                  key={subIndex}
+                                  href={subProduct.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="block py-1 text-xs text-gray-500 hover:text-gray-700 min-h-touch"
+                                  onClick={() => setIsMenuOpen(false)}
+                                >
+                                  {subProduct.title}
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        ) : (
+                          product.href.startsWith('/') ? (
+                            <Link
+                              to={createLink(product.href)}
+                              className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {product.icon && <product.icon className="h-4 w-4 mr-3 text-gray-400" />}
+                              {product.title}
+                            </Link>
+                          ) : (
+                            <a
+                              href={product.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {product.icon && <product.icon className="h-4 w-4 mr-3 text-gray-400" />}
+                              {product.title}
+                            </a>
+                          )
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+              
+              {/* Collapsible Solutions Section */}
+              <div className="px-3 py-2">
+                <button
+                  onClick={() => toggleMobileSection('solutions')}
+                  className="flex items-center justify-between w-full text-left text-sm font-medium text-gray-900 py-2 min-h-touch"
+                >
+                  <span>{t('header.solutions')}</span>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${
+                    mobileCollapsed.solutions ? '' : 'transform rotate-180'
+                  }`} />
+                </button>
+                {!mobileCollapsed.solutions && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    {solutions.map((solution, index) => (
+                      solution.path ? (
+                        <Link 
+                          key={index}
+                          to={`/${i18n.language}${solution.path}`}
+                          className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          {solution.icon && <solution.icon className="h-4 w-4 mr-3 text-gray-400" />}
+                          {solution.title}
+                        </Link>
+                      ) : (
+                        <a 
+                          key={index}
+                          href={solution.path}
+                          className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          {solution.icon && <solution.icon className="h-4 w-4 mr-3 text-gray-400" />}
+                          {solution.title}
+                        </a>
+                      )
+                    ))}
+                    <Link 
+                      to={`/${i18n.language}/seahealth`}
+                      className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      <Heart className="h-4 w-4 mr-2 text-red-500" />
+                      SeaHealth - Optimized Healthcare
+                    </Link>
+                  </div>
+                )}
+              </div>
+              
+              {/* Collapsible Industries Section */}
+              <div className="px-3 py-2">
+                <button
+                  onClick={() => toggleMobileSection('industries')}
+                  className="flex items-center justify-between w-full text-left text-sm font-medium text-gray-900 py-2 min-h-touch"
+                >
+                  <span>{t('header.industries')}</span>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${
+                    mobileCollapsed.industries ? '' : 'transform rotate-180'
+                  }`} />
+                </button>
+                {!mobileCollapsed.industries && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    {industries.map((industry, index) => {
+                      // Handle demo and signup links
+                      if (industry.href && industry.href === '#demo') {
+                        return (
+                          <a
+                            key={index}
+                            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                            className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            <industry.icon className="h-4 w-4 mr-3 text-gray-400" />
+                            {industry.title}
+                          </a>
+                        );
+                      }
+                      if (industry.href && industry.href === '#signup') {
+                        return (
+                          <a
+                            key={index}
+                            href="https://seax.seasalt.ai/signup"
+                            className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            <industry.icon className="h-4 w-4 mr-3 text-gray-400" />
+                            {industry.title}
+                          </a>
+                        );
+                      }
+                      return (
+                        <Link 
+                          key={index}
+                          to={`/${i18n.language}/industries/${industry.slug}`}
+                          className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <industry.icon className="h-4 w-4 mr-3 text-gray-400" />
+                          {industry.title}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+              
+              {/* Collapsible Channels Section */}
+              <div className="px-3 py-2">
+                <button
+                  onClick={() => toggleMobileSection('channels')}
+                  className="flex items-center justify-between w-full text-left text-sm font-medium text-gray-900 py-2 min-h-touch"
+                >
+                  <span>{t('header.channels')}</span>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${
+                    mobileCollapsed.channels ? '' : 'transform rotate-180'
+                  }`} />
+                </button>
+                {!mobileCollapsed.channels && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    <Link
+                      to={`/${i18n.language}/channels-overview`}
+                      className="block py-2 text-sm text-gray-600 hover:text-gray-900 font-medium border-b border-gray-100 pb-2 mb-2 min-h-touch"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {t('header.allChannelsOverview')}
+                    </Link>
+                    {channels.map((channel, index) => (
                       <Link 
                         key={index}
-                        to={`/${i18n.language}${solution.path}`}
-                        className="block py-1 text-sm text-gray-600 hover:text-gray-900"
+                        to={`/${i18n.language}${channel.path}`}
+                        className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                        onClick={() => setIsMenuOpen(false)}
                       >
-                        {solution.title}
+                        <channel.icon className="h-4 w-4 mr-3 text-gray-400" />
+                        {channel.name}
                       </Link>
-                    ) : (
-                      <a 
-                        key={index}
-                        href={solution.path}
-                        className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                      >
-                        {solution.title}
-                      </a>
-                    )
-                  ))}
-                  <Link 
-                    to={`/${i18n.language}/seahealth`}
-                    className="flex items-center py-1 text-sm text-gray-600 hover:text-gray-900"
-                  >
-                    <Heart className="h-4 w-4 mr-2 text-red-500" />
-                    SeaHealth - Optimized Healthcare
-                  </Link>
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
-              <div className="px-3 py-2">
-                <div className="text-sm font-medium text-gray-900 mb-2">{t('header.industries')}</div>
-                <div className="pl-4 space-y-1">
-                  {industries.map((industry, index) => (
-                    <Link 
-                      key={index}
-                      to={`/${i18n.language}/industries/${industry.slug}`}
-                      className="block py-1 text-sm text-gray-600 hover:text-gray-900"
-                    >
-                      {industry.title}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-              <Link to={`/${i18n.language}/channels-overview`} className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
-                {t('header.channels')}
-              </Link>
-              <Link to={`/${i18n.language}/pricing`} className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
+              
+              {/* Static Pricing Link */}
+              <Link 
+                to={`/${i18n.language}/pricing`} 
+                className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md min-h-touch"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 {t('header.pricing')}
               </Link>
-              <Link to={`/${i18n.language}/compare-us-overview`} className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
-                {t('header.compareUs')}
-              </Link>
-              <Link to={`/${i18n.language}/blog`} className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
+              
+              {/* Collapsible Compare Us Section */}
+              <div className="px-3 py-2">
+                <button
+                  onClick={() => toggleMobileSection('compare')}
+                  className="flex items-center justify-between w-full text-left text-sm font-medium text-gray-900 py-2 min-h-touch"
+                >
+                  <span>{t('header.compareUs')}</span>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${
+                    mobileCollapsed.compare ? '' : 'transform rotate-180'
+                  }`} />
+                </button>
+                {!mobileCollapsed.compare && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    <Link
+                      to={`/${i18n.language}/compare-us-overview`}
+                      className="block py-2 text-sm text-gray-600 hover:text-gray-900 font-medium border-b border-gray-100 pb-2 mb-2 min-h-touch"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      All Comparisons Overview
+                    </Link>
+                    {competitors.map((competitor, index) => (
+                      <Link 
+                        key={index}
+                        to={`/${i18n.language}${competitor.path}`}
+                        className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        <competitor.icon className="h-4 w-4 mr-3 text-gray-400" />
+                        vs. {competitor.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <Link 
+                to={`/${i18n.language}/blog`} 
+                className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md min-h-touch"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 {t('header.blog')}
               </Link>
               
               {/* Mobile Language Selector */}
-              <div className="px-3 py-2">
+              <div className="px-3 py-2 border-t border-gray-200 mt-4 pt-4">
                 <LanguageSwitcher className="w-full" />
-              </div>
-              
-              <div className="pt-4 border-t border-gray-200">
-                <a href="#login" className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">
-                  {t('header.login')}
-                </a>
-                <a href="https://seax.seasalt.ai/signup" className="block px-3 py-2 bg-blue-600 text-white rounded-md text-center font-medium">
-                  {t('header.startForFree')}
-                </a>
               </div>
             </div>
           </div>

@@ -1309,6 +1309,164 @@
       "compliance": "🔒 SOC 2 Compliant",
       "gdpr": "🛡️ GDPR Ready",
       "uptime": "⚡ 99.9% Uptime"
+    },
+    "featureComparison": {
+      "title": "Why Choose SeaChat Over the Competition?",
+      "subtitle": "See how SeaChat replaces multiple tools with one comprehensive platform. Save money while getting more features.",
+      "valueTitle": "The Value You Get:",
+      "totalValue": "$331 or more/month",
+      "competitorTotal": "Total value from competitors",
+      "priceTitle": "The Price You Pay:",
+      "seachatPrice": "$29.99 /month",
+      "seachatAll": "All features included",
+      "seeDetailedPricing": "See Detailed Pricing",
+      "ctaTitle": "Ready to Experience the SeaChat Advantage?",
+      "ctaSubtitle": "Join thousands of businesses that chose the smarter, more affordable solution.",
+      "startFree": "Start Free Now",
+      "bookDemo": "Book a Demo",
+      "features": {
+        "chatbotWebsite": "Chatbot for website",
+        "chatWidget": "Chat widget with live agent",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Multi Calendar bookings",
+        "phoneCallAI": "Inbound phone call AI agents",
+        "smsActions": "Built-in actions - SMS",
+        "emailActions": "Built-in actions - Email",
+        "phoneNumber": "Purchase phone number",
+        "agencyMode": "Agency Mode",
+        "bulkSMS": "Bulk outbound SMS, Call, WhatsApp",
+        "unlimitedContacts": "Unlimited Contacts",
+        "knowledgeBase": "Extra knowledge base",
+        "extraChatbot": "Extra chatbot"
+      }
+    },
+    "integrations": {
+      "crm": {
+        "title": "CRM Integrations",
+        "subtitle": "Connect SeaChat with your CRM to create a unified customer experience. Sync contacts, track leads, and manage relationships seamlessly.",
+        "connectButton": "Connect Your CRM",
+        "guideButton": "View Integration Guide",
+        "platformsTitle": "Supported CRM Platforms",
+        "platformsSubtitle": "Choose from our extensive list of CRM integrations, each optimized for seamless data flow.",
+        "setupTime": "integrations.crm.setupTime",
+        "connectPlatform": "Connect",
+        "whyIntegrateTitle": "Why Integrate with Your CRM?",
+        "whyIntegrateSubtitle": "Transform your customer support into a powerful sales and relationship management tool.",
+        "featuresTitle": "Comprehensive CRM Integration Features",
+        "featuresSubtitle": "Our CRM integrations go beyond basic contact sync to provide a complete customer relationship management solution.",
+        "features": "integrations.crm.features",
+        "workflowTitle": "Integration Workflow",
+        "ctaTitle": "Ready to Connect Your CRM?",
+        "ctaSubtitle": "Start syncing your customer data and transform support conversations into business opportunities.",
+        "ctaChooseButton": "Sign Up For Free",
+        "ctaGuideButton": "View Setup Guide",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Complete integration with Salesforce CRM for enterprise teams",
+            "features": {
+              "contacts": "Contact sync",
+              "leads": "Lead management",
+              "opportunities": "Opportunity tracking",
+              "fields": "Custom fields"
+            },
+            "setupTime": "15 minutes",
+            "popularity": "Most Popular"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "Seamless HubSpot integration for marketing and sales alignment",
+            "features": {
+              "properties": "Contact properties",
+              "deals": "Deal pipeline",
+              "sequences": "Email sequences",
+              "reporting": "Reporting"
+            },
+            "setupTime": "10 minutes",
+            "popularity": "Recommended"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Simple yet powerful Pipedrive integration for sales teams",
+            "features": {
+              "pipeline": "Pipeline management",
+              "activity": "Activity tracking",
+              "history": "Contact history",
+              "automation": "Automation"
+            },
+            "setupTime": "8 minutes",
+            "popularity": "Easy Setup"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Comprehensive Zoho CRM integration with advanced workflows",
+            "features": {
+              "scoring": "Lead scoring",
+              "workflow": "Workflow automation",
+              "modules": "Custom modules",
+              "analytics": "Analytics"
+            },
+            "setupTime": "12 minutes",
+            "popularity": "Feature Rich"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Enterprise-grade integration with Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Entity mapping",
+              "processes": "Business processes",
+              "powerbi": "Power BI integration",
+              "security": "Security"
+            },
+            "setupTime": "20 minutes",
+            "popularity": "Enterprise"
+          },
+          "freshworks": {
+            "name": "Freshworks CRM",
+            "description": "Modern CRM integration with Freshworks suite",
+            "features": {
+              "management": "Contact management",
+              "sequences": "Sales sequences",
+              "phone": "Phone integration",
+              "insights": "AI insights"
+            },
+            "setupTime": "10 minutes",
+            "popularity": "Modern"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Unified Customer Data",
+            "description": "Sync customer information automatically between SeaChat and your CRM"
+          },
+          "leads": {
+            "title": "Improved Lead Quality",
+            "description": "Convert support conversations into qualified leads"
+          },
+          "sync": {
+            "title": "Real-time Synchronization",
+            "description": "Keep customer data updated across all platforms instantly"
+          },
+          "context": {
+            "title": "Better Customer Context",
+            "description": "Access complete customer history during support conversations"
+          }
+        },
+        "workflow": {
+          "connect": {
+            "title": "Connect Your CRM",
+            "description": "Authenticate and configure your CRM connection"
+          },
+          "map": {
+            "title": "Map Data Fields",
+            "description": "Configure how data flows between systems"
+          },
+          "sync": {
+            "title": "Start Syncing",
+            "description": "Enjoy automatic data synchronization"
+          }
+        }
+      }
     }
   }
 }

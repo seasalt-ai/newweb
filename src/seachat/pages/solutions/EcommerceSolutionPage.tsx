@@ -7,103 +7,103 @@ const EcommerceSolutionPage = () => {
   const features = [
     {
       icon: ShoppingBag,
-      title: t('solutions.ecommerce.features.orders.title', 'Order Management Integration'),
-      description: t('solutions.ecommerce.features.orders.description', 'Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.'),
+      title: t('seachat.solutions.ecommerce.features.orders.title', 'Order Management Integration'),
+      description: t('seachat.solutions.ecommerce.features.orders.description', 'Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.'),
       benefits: [
-        t('solutions.ecommerce.features.orders.benefits.status', 'Real-time order status'), 
-        t('solutions.ecommerce.features.orders.benefits.shipping', 'Automated shipping updates'), 
-        t('solutions.ecommerce.features.orders.benefits.returns', 'Return processing'), 
-        t('solutions.ecommerce.features.orders.benefits.inventory', 'Inventory inquiries')
+        t('seachat.solutions.ecommerce.features.orders.benefits.status', 'Real-time order status'), 
+        t('seachat.solutions.ecommerce.features.orders.benefits.shipping', 'Automated shipping updates'), 
+        t('seachat.solutions.ecommerce.features.orders.benefits.returns', 'Return processing'), 
+        t('seachat.solutions.ecommerce.features.orders.benefits.inventory', 'Inventory inquiries')
       ]
     },
     {
       icon: Users,
-      title: t('solutions.ecommerce.features.accounts.title', 'Customer Account Support'),
-      description: t('solutions.ecommerce.features.accounts.description', 'Help customers with account issues, password resets, and profile management.'),
+      title: t('seachat.solutions.ecommerce.features.accounts.title', 'Customer Account Support'),
+      description: t('seachat.solutions.ecommerce.features.accounts.description', 'Help customers with account issues, password resets, and profile management.'),
       benefits: [
-        t('solutions.ecommerce.features.accounts.benefits.recovery', 'Account recovery'), 
-        t('solutions.ecommerce.features.accounts.benefits.updates', 'Profile updates'), 
-        t('solutions.ecommerce.features.accounts.benefits.subscriptions', 'Subscription management'), 
-        t('solutions.ecommerce.features.accounts.benefits.billing', 'Billing support')
+        t('seachat.solutions.ecommerce.features.accounts.benefits.recovery', 'Account recovery'), 
+        t('seachat.solutions.ecommerce.features.accounts.benefits.updates', 'Profile updates'), 
+        t('seachat.solutions.ecommerce.features.accounts.benefits.subscriptions', 'Subscription management'), 
+        t('seachat.solutions.ecommerce.features.accounts.benefits.billing', 'Billing support')
       ]
     },
     {
       icon: Star,
-      title: t('solutions.ecommerce.features.recommendations.title', 'Product Recommendations'),
-      description: t('solutions.ecommerce.features.recommendations.description', 'AI-powered product suggestions based on customer preferences and browsing history.'),
+      title: t('seachat.solutions.ecommerce.features.recommendations.title', 'Product Recommendations'),
+      description: t('seachat.solutions.ecommerce.features.recommendations.description', 'AI-powered product suggestions based on customer preferences and browsing history.'),
       benefits: [
-        t('solutions.ecommerce.features.recommendations.benefits.personalized', 'Personalized suggestions'), 
-        t('solutions.ecommerce.features.recommendations.benefits.cross', 'Cross-selling opportunities'), 
-        t('solutions.ecommerce.features.recommendations.benefits.upselling', 'Upselling automation'), 
-        t('solutions.ecommerce.features.recommendations.benefits.inventory', 'Inventory optimization')
+        t('seachat.solutions.ecommerce.features.recommendations.benefits.personalized', 'Personalized suggestions'), 
+        t('seachat.solutions.ecommerce.features.recommendations.benefits.cross', 'Cross-selling opportunities'), 
+        t('seachat.solutions.ecommerce.features.recommendations.benefits.upselling', 'Upselling automation'), 
+        t('seachat.solutions.ecommerce.features.recommendations.benefits.inventory', 'Inventory optimization')
       ]
     },
     {
       icon: Clock,
-      title: t('solutions.ecommerce.features.assistance.title', '24/7 Shopping Assistance'),
-      description: t('solutions.ecommerce.features.assistance.description', 'Round-the-clock support for customers across different time zones and shopping patterns.'),
+      title: t('seachat.solutions.ecommerce.features.assistance.title', '24/7 Shopping Assistance'),
+      description: t('seachat.solutions.ecommerce.features.assistance.description', 'Round-the-clock support for customers across different time zones and shopping patterns.'),
       benefits: [
-        t('solutions.ecommerce.features.assistance.benefits.global', 'Global coverage'), 
-        t('solutions.ecommerce.features.assistance.benefits.peak', 'Peak hour support'), 
-        t('solutions.ecommerce.features.assistance.benefits.holiday', 'Holiday assistance'), 
-        t('solutions.ecommerce.features.assistance.benefits.mobile', 'Mobile shopping help')
+        t('seachat.solutions.ecommerce.features.assistance.benefits.global', 'Global coverage'), 
+        t('seachat.solutions.ecommerce.features.assistance.benefits.peak', 'Peak hour support'), 
+        t('seachat.solutions.ecommerce.features.assistance.benefits.holiday', 'Holiday assistance'), 
+        t('seachat.solutions.ecommerce.features.assistance.benefits.mobile', 'Mobile shopping help')
       ]
     }
   ];
 
   const integrations = [
     { 
-      name: t('solutions.ecommerce.integrations.shopify.name', 'Shopify'), 
+      name: t('seachat.solutions.ecommerce.integrations.shopify.name', 'Shopify'), 
       logo: '🛍️', 
-      description: t('solutions.ecommerce.integrations.shopify.description', 'Native Shopify app with full order integration') 
+      description: t('seachat.solutions.ecommerce.integrations.shopify.description', 'Native Shopify app with full order integration') 
     },
     { 
-      name: t('solutions.ecommerce.integrations.woocommerce.name', 'WooCommerce'), 
+      name: t('seachat.solutions.ecommerce.integrations.woocommerce.name', 'WooCommerce'), 
       logo: '🛒', 
-      description: t('solutions.ecommerce.integrations.woocommerce.description', 'WordPress plugin for WooCommerce stores') 
+      description: t('seachat.solutions.ecommerce.integrations.woocommerce.description', 'WordPress plugin for WooCommerce stores') 
     },
     { 
-      name: t('solutions.ecommerce.integrations.magento.name', 'Magento'), 
+      name: t('seachat.solutions.ecommerce.integrations.magento.name', 'Magento'), 
       logo: '🏪', 
-      description: t('solutions.ecommerce.integrations.magento.description', 'Enterprise-grade Magento integration') 
+      description: t('seachat.solutions.ecommerce.integrations.magento.description', 'Enterprise-grade Magento integration') 
     },
     { 
-      name: t('solutions.ecommerce.integrations.bigcommerce.name', 'BigCommerce'), 
+      name: t('seachat.solutions.ecommerce.integrations.bigcommerce.name', 'BigCommerce'), 
       logo: '🏬', 
-      description: t('solutions.ecommerce.integrations.bigcommerce.description', 'Complete BigCommerce API integration') 
+      description: t('seachat.solutions.ecommerce.integrations.bigcommerce.description', 'Complete BigCommerce API integration') 
     },
     { 
-      name: t('solutions.ecommerce.integrations.stripe.name', 'Stripe'), 
+      name: t('seachat.solutions.ecommerce.integrations.stripe.name', 'Stripe'), 
       logo: '💳', 
-      description: t('solutions.ecommerce.integrations.stripe.description', 'Payment processing and billing support') 
+      description: t('seachat.solutions.ecommerce.integrations.stripe.description', 'Payment processing and billing support') 
     },
     { 
-      name: t('solutions.ecommerce.integrations.paypal.name', 'PayPal'), 
+      name: t('seachat.solutions.ecommerce.integrations.paypal.name', 'PayPal'), 
       logo: '💰', 
-      description: t('solutions.ecommerce.integrations.paypal.description', 'PayPal transaction and dispute handling') 
+      description: t('seachat.solutions.ecommerce.integrations.paypal.description', 'PayPal transaction and dispute handling') 
     }
   ];
 
   const metrics = [
     { 
       value: '40%', 
-      label: t('solutions.ecommerce.metrics.conversion.label', 'Increase in Sales Conversion'), 
-      description: t('solutions.ecommerce.metrics.conversion.description', 'Through proactive customer support') 
+      label: t('seachat.solutions.ecommerce.metrics.conversion.label', 'Increase in Sales Conversion'), 
+      description: t('seachat.solutions.ecommerce.metrics.conversion.description', 'Through proactive customer support') 
     },
     { 
       value: '65%', 
-      label: t('solutions.ecommerce.metrics.abandonment.label', 'Reduction in Cart Abandonment'), 
-      description: t('solutions.ecommerce.metrics.abandonment.description', 'With real-time shopping assistance') 
+      label: t('seachat.solutions.ecommerce.metrics.abandonment.label', 'Reduction in Cart Abandonment'), 
+      description: t('seachat.solutions.ecommerce.metrics.abandonment.description', 'With real-time shopping assistance') 
     },
     { 
       value: '80%', 
-      label: t('solutions.ecommerce.metrics.resolution.label', 'Faster Order Resolution'), 
-      description: t('solutions.ecommerce.metrics.resolution.description', 'Automated order status updates') 
+      label: t('seachat.solutions.ecommerce.metrics.resolution.label', 'Faster Order Resolution'), 
+      description: t('seachat.solutions.ecommerce.metrics.resolution.description', 'Automated order status updates') 
     },
     { 
       value: '90%', 
-      label: t('solutions.ecommerce.metrics.satisfaction.label', 'Customer Satisfaction Rate'), 
-      description: t('solutions.ecommerce.metrics.satisfaction.description', 'For e-commerce support interactions') 
+      label: t('seachat.solutions.ecommerce.metrics.satisfaction.label', 'Customer Satisfaction Rate'), 
+      description: t('seachat.solutions.ecommerce.metrics.satisfaction.description', 'For e-commerce support interactions') 
     }
   ];
 
@@ -116,11 +116,11 @@ const EcommerceSolutionPage = () => {
             <div className="flex items-center justify-center mb-6">
               <ShoppingBag className="w-16 h-16 text-purple-300 mr-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                {t('solutions.ecommerce.title', 'E-commerce & Retail')}
+                {t('seachat.solutions.ecommerce.title', 'E-commerce & Retail')}
               </h1>
             </div>
             <p className="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
-              {t('solutions.ecommerce.subtitle', 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.')}
+              {t('seachat.solutions.ecommerce.subtitle', 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -129,7 +129,7 @@ const EcommerceSolutionPage = () => {
               rel="noopener noreferrer"
               className="bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
             >
-              {t('solutions.ecommerce.trialButton', 'Start E-commerce For Free')}
+              {t('seachat.solutions.ecommerce.trialButton', 'Start E-commerce For Free')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -137,7 +137,7 @@ const EcommerceSolutionPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
             >
-              {t('solutions.ecommerce.demoButton', 'Schedule E-commerce Demo')}
+              {t('seachat.solutions.ecommerce.demoButton', 'Schedule E-commerce Demo')}
             </a>
             </div>
           </div>
@@ -149,10 +149,10 @@ const EcommerceSolutionPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('solutions.ecommerce.featuresTitle', 'E-commerce Specialized Features')}
+              {t('seachat.solutions.ecommerce.featuresTitle', 'E-commerce Specialized Features')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('solutions.ecommerce.featuresSubtitle', 'Purpose-built features for online retailers to maximize sales and customer satisfaction.')}
+              {t('seachat.solutions.ecommerce.featuresSubtitle', 'Purpose-built features for online retailers to maximize sales and customer satisfaction.')}
             </p>
           </div>
 
@@ -191,10 +191,10 @@ const EcommerceSolutionPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('solutions.ecommerce.resultsTitle', 'Proven E-commerce Results')}
+              {t('seachat.solutions.ecommerce.resultsTitle', 'Proven E-commerce Results')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('solutions.ecommerce.resultsSubtitle', 'Real metrics from e-commerce businesses using SeaChat for customer support.')}
+              {t('seachat.solutions.ecommerce.resultsSubtitle', 'Real metrics from e-commerce businesses using SeaChat for customer support.')}
             </p>
           </div>
 
@@ -218,10 +218,10 @@ const EcommerceSolutionPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('solutions.ecommerce.integrationsTitle', 'E-commerce Platform Integrations')}
+              {t('seachat.solutions.ecommerce.integrationsTitle', 'E-commerce Platform Integrations')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('solutions.ecommerce.integrationsSubtitle', 'Seamlessly connect with your existing e-commerce stack for unified customer support.')}
+              {t('seachat.solutions.ecommerce.integrationsSubtitle', 'Seamlessly connect with your existing e-commerce stack for unified customer support.')}
             </p>
           </div>
 
@@ -246,37 +246,37 @@ const EcommerceSolutionPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                {t('solutions.ecommerce.successTitle', 'Success Story: Fashion Retailer')}
+                {t('seachat.solutions.ecommerce.successTitle', 'Success Story: Fashion Retailer')}
               </h2>
               <div className="space-y-6">
                 <div className="bg-white rounded-xl p-6 shadow-lg">
-                  <h3 className="font-bold text-red-600 mb-2">{t('solutions.ecommerce.challenge', 'Challenge')}:</h3>
+                  <h3 className="font-bold text-red-600 mb-2">{t('seachat.solutions.ecommerce.challenge', 'Challenge')}:</h3>
                   <p className="text-gray-700">
-                    {t('solutions.ecommerce.challengeDescription', 'High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.')}
+                    {t('seachat.solutions.ecommerce.challengeDescription', 'High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.')}
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-lg">
-                  <h3 className="font-bold text-blue-600 mb-2">{t('solutions.ecommerce.solution', 'Solution')}:</h3>
+                  <h3 className="font-bold text-blue-600 mb-2">{t('seachat.solutions.ecommerce.solution', 'Solution')}:</h3>
                   <p className="text-gray-700">
-                    {t('solutions.ecommerce.solutionDescription', 'Deployed SeaChat with product catalog integration, sizing guides, and proactive cart abandonment recovery.')}
+                    {t('seachat.solutions.ecommerce.solutionDescription', 'Deployed SeaChat with product catalog integration, sizing guides, and proactive cart abandonment recovery.')}
                   </p>
                 </div>
                 
                 <div className="bg-white rounded-xl p-6 shadow-lg">
-                  <h3 className="font-bold text-green-600 mb-2">{t('solutions.ecommerce.results', 'Results')}:</h3>
+                  <h3 className="font-bold text-green-600 mb-2">{t('seachat.solutions.ecommerce.results', 'Results')}:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center space-x-2">
                       <TrendingUp className="w-4 h-4 text-green-500" />
-                      <span>{t('solutions.ecommerce.result1', '45% increase in conversion rate')}</span>
+                      <span>{t('seachat.solutions.ecommerce.result1', '45% increase in conversion rate')}</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <TrendingUp className="w-4 h-4 text-green-500" />
-                      <span>{t('solutions.ecommerce.result2', '60% reduction in cart abandonment')}</span>
+                      <span>{t('seachat.solutions.ecommerce.result2', '60% reduction in cart abandonment')}</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <TrendingUp className="w-4 h-4 text-green-500" />
-                      <span>{t('solutions.ecommerce.result3', '$2.3M additional revenue in 6 months')}</span>
+                      <span>{t('seachat.solutions.ecommerce.result3', '$2.3M additional revenue in 6 months')}</span>
                     </li>
                   </ul>
                 </div>
@@ -284,23 +284,23 @@ const EcommerceSolutionPage = () => {
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-2xl">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">{t('solutions.ecommerce.chatPreview', 'Live Chat Preview')}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">{t('seachat.solutions.ecommerce.chatPreview', 'Live Chat Preview')}</h3>
               <div className="space-y-4">
                 <div className="bg-gray-100 rounded-lg p-4">
-                  <div className="text-sm text-gray-600 mb-2">{t('solutions.ecommerce.customer', 'Customer')}</div>
-                  <div className="text-gray-800">{t('solutions.ecommerce.customerQuestion', '"Is this dress available in size M?"')}</div>
+                  <div className="text-sm text-gray-600 mb-2">{t('seachat.solutions.ecommerce.customer', 'Customer')}</div>
+                  <div className="text-gray-800">{t('seachat.solutions.ecommerce.customerQuestion', '"Is this dress available in size M?"')}</div>
                 </div>
                 <div className="bg-blue-100 rounded-lg p-4">
-                  <div className="text-sm text-blue-600 mb-2">{t('solutions.ecommerce.seachatAI', 'SeaChat AI')}</div>
-                  <div className="text-gray-800">{t('solutions.ecommerce.aiResponse1', '"Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?"')}</div>
+                  <div className="text-sm text-blue-600 mb-2">{t('seachat.solutions.ecommerce.seachatAI', 'SeaChat AI')}</div>
+                  <div className="text-gray-800">{t('seachat.solutions.ecommerce.aiResponse1', '"Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?"')}</div>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-4">
-                  <div className="text-sm text-gray-600 mb-2">{t('solutions.ecommerce.customer', 'Customer')}</div>
-                  <div className="text-gray-800">{t('solutions.ecommerce.customerResponse', '"Perfect! Yes, please add it."')}</div>
+                  <div className="text-sm text-gray-600 mb-2">{t('seachat.solutions.ecommerce.customer', 'Customer')}</div>
+                  <div className="text-gray-800">{t('seachat.solutions.ecommerce.customerResponse', '"Perfect! Yes, please add it."')}</div>
                 </div>
                 <div className="bg-green-100 rounded-lg p-4">
-                  <div className="text-sm text-green-600 mb-2">{t('solutions.ecommerce.seachatAI', 'SeaChat AI')}</div>
-                  <div className="text-gray-800">{t('solutions.ecommerce.aiResponse2', '"Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?"')}</div>
+                  <div className="text-sm text-green-600 mb-2">{t('seachat.solutions.ecommerce.seachatAI', 'SeaChat AI')}</div>
+                  <div className="text-gray-800">{t('seachat.solutions.ecommerce.aiResponse2', '"Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?"')}</div>
                 </div>
               </div>
             </div>
@@ -312,10 +312,10 @@ const EcommerceSolutionPage = () => {
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            {t('solutions.ecommerce.ctaTitle', 'Ready to Boost Your E-commerce Sales?')}
+            {t('seachat.solutions.ecommerce.ctaTitle', 'Ready to Boost Your E-commerce Sales?')}
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
-            {t('solutions.ecommerce.ctaSubtitle', 'Join hundreds of online retailers using SeaChat to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.')}
+            {t('seachat.solutions.ecommerce.ctaSubtitle', 'Join hundreds of online retailers using SeaChat to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -324,7 +324,7 @@ const EcommerceSolutionPage = () => {
               rel="noopener noreferrer"
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
             >
-              {t('solutions.ecommerce.ctaTrialButton', 'Start E-commerce For Free')}
+              {t('seachat.solutions.ecommerce.ctaTrialButton', 'Start E-commerce For Free')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
@@ -332,7 +332,7 @@ const EcommerceSolutionPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
             >
-              {t('solutions.ecommerce.ctaDemoButton', 'Schedule E-commerce Demo')}
+              {t('seachat.solutions.ecommerce.ctaDemoButton', 'Schedule E-commerce Demo')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </div>
