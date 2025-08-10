@@ -668,30 +668,6 @@ const Header = () => {
                 )}
               </AnimatePresence>
             </div>
-            
-            <div className="pt-4 border-t border-gray-100">
-              <a
-                href="https://chat.seasalt.ai/gpt/signin"
-                className="block w-full text-left text-gray-700 font-medium mb-3"
-              >
-              {t('seachat.common.signIn')}
-              </a>
-              <a
-                href="https://chat.seasalt.ai/gpt/signup"
-                className="w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
-              >
-                {t('seachat.common.getStarted')}
-              </a>
-              <a
-                href="http://wiki.seasalt.ai/seachat"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full flex items-center justify-center mt-3 font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400"
-              >
-                <BookOpen className="w-5 h-5 mr-2" />
-                Wiki
-              </a>
-            </div>
           </div>
         </div>
       )}
