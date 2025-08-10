@@ -61,10 +61,8 @@ const Header = () => {
   };
   // Helper to open only one dropdown at a time
   const handleDropdown = (dropdown: typeof openDropdown) => {
-    console.log('[Header] handleDropdown called:', { dropdown, currentOpenDropdown: openDropdown });
     setOpenDropdown(prev => {
       const newValue = prev === dropdown ? null : dropdown;
-      console.log('[Header] Dropdown state changing:', { from: prev, to: newValue });
       return newValue;
     });
   };
