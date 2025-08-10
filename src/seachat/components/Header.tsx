@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useMemo } from 'react';
+import { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import { 
   Menu, 
   X, 
@@ -46,6 +46,20 @@ const Header = () => {
   const { createLink } = useLanguageAwareLinks();
   
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  // Handle body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
   
   const handleMouseEnter = useCallback((dropdown: string) => {
     if (hoverTimeoutRef.current) {
@@ -451,7 +465,7 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-gray-100 max-h-screen overflow-y-auto">
+        <div className="lg:hidden fixed top-[120px] left-0 right-0 bottom-0 bg-white border-b border-gray-100 overflow-y-auto z-40">
           <div className="px-4 py-6 space-y-6">
             {/* Action Buttons at Top */}
             <div className="space-y-3">
