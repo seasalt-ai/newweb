@@ -44,7 +44,7 @@
   {
     "file": "src/components/Footer.tsx",
     "text": "Product Wiki",
-    "context": "              <li>\n                <a href=\"https://wiki.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">\n                  <Book className=\"h-4 w-4 mr-2\" />\n                  Product Wiki\n                </a>\n              </li>\n              <li>\n                <a href=\"https://api.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">",
+    "context": "                <li>\n                  <a href=\"https://wiki.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">\n                    <Book className=\"h-4 w-4 mr-2\" />\n                    Product Wiki\n                  </a>\n                </li>\n                <li>\n                  <a href=\"https://api.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">",
     "type": "jsx-text"
   },
   {
@@ -192,6 +192,30 @@
     "file": "src/components/Header.tsx",
     "text": "vs.",
     "context": "                      className=\"flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50\"\n                    >\n                      <competitor.icon className=\"h-5 w-5 text-gray-400\" />\n                      vs. {competitor.name}\n                    </Link>\n                  ))}\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/components/Header.tsx",
+    "text": "Sign In",
+    "context": "              href=\"https://seax.seasalt.ai/signin\"\n              className=\"text-gray-700 hover:text-blue-600 font-medium transition-colors\"\n            >\n              Sign In\n            </a>\n            <a\n                href=\"https://seax.seasalt.ai/signup\"\n                className=\"bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium\"",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/components/Header.tsx",
+    "text": "Sign In",
+    "context": "                    className=\"block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors\"\n                    onClick={() => setIsMenuOpen(false)}\n                  >\n                    Sign In\n                  </a>\n                  <a \n                    href=\"https://seax.seasalt.ai/signup\" \n                    className=\"block px-4 py-3 bg-blue-600 text-white rounded-lg text-center font-medium hover:bg-blue-700 transition-colors min-h-touch\"",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/components/Header.tsx",
+    "text": "All Comparisons Overview",
+    "context": "                      className=\"block py-2 text-sm text-gray-600 hover:text-gray-900 font-medium border-b border-gray-100 pb-2 mb-2 min-h-touch\"\n                      onClick={() => setIsMenuOpen(false)}\n                    >\n                      All Comparisons Overview\n                    </Link>\n                    {competitors.map((competitor, index) => (\n                      <Link \n                        key={index}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/components/Header.tsx",
+    "text": "vs.",
+    "context": "                        onClick={() => setIsMenuOpen(false)}\n                      >\n                        <competitor.icon className=\"h-4 w-4 mr-3 text-gray-400\" />\n                        vs. {competitor.name}\n                      </Link>\n                    ))}\n                  </div>",
     "type": "jsx-text"
   },
   {
@@ -1410,49 +1434,577 @@
   {
     "file": "src/pages/Pricing.tsx",
     "text": "Simple, Transparent Pricing That Grows With You",
-    "context": "          {/* Hero Section */}\n          <div className=\"text-center mb-16\">\n            <h1 className=\"text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4\">\n              Simple, Transparent Pricing That Grows With You\n            </h1>\n            <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8\">\n              No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.\n            </p>",
+    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center\">\n              <h1 className=\"text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4\">\n                Simple, Transparent Pricing That Grows With You\n              </h1>\n              <p className=\"text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-6 sm:mb-8\">\n                No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.\n              </p>",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
     "text": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
-    "context": "              Simple, Transparent Pricing That Grows With You\n            </h1>\n            <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8\">\n              No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.\n            </p>\n            \n            {/* Billing Toggle */}\n            <div className=\"flex items-center justify-center space-x-3 sm:space-x-4 mb-8 sm:mb-12\">",
+    "context": "                Simple, Transparent Pricing That Grows With You\n              </h1>\n              <p className=\"text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-6 sm:mb-8\">\n                No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.\n              </p>\n            </div>\n          </div>\n        </section>",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Billed Monthly",
-    "context": "            {/* Billing Toggle */}\n            <div className=\"flex items-center justify-center space-x-3 sm:space-x-4 mb-8 sm:mb-12\">\n              <span className={`text-base sm:text-lg ${!isAnnualBilling ? 'text-gray-900 font-semibold' : 'text-gray-500'}`}>\n                Billed Monthly\n              </span>\n              <button\n                onClick={() => setIsAnnualBilling(!isAnnualBilling)}\n                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${",
+    "text": "Choose Your Growth Path",
+    "context": "            <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n              <div className=\"text-center mb-12\">\n                <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Growth Path</h2>\n                <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n                  From startups to enterprises, we have the right solution for every stage of your journey\n                </p>",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Billed Annually",
-    "context": "                />\n              </button>\n              <span className={`text-base sm:text-lg ${isAnnualBilling ? 'text-gray-900 font-semibold' : 'text-gray-500'}`}>\n                Billed Annually\n              </span>\n              {isAnnualBilling && (\n                <span className=\"bg-green-100 text-green-800 px-2 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-medium\">\n                  Save 20%",
+    "text": "From startups to enterprises, we have the right solution for every stage of your journey",
+    "context": "              <div className=\"text-center mb-12\">\n                <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Growth Path</h2>\n                <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n                  From startups to enterprises, we have the right solution for every stage of your journey\n                </p>\n              </div>\n              \n              <div className=\"grid md:grid-cols-2 gap-10 max-w-6xl mx-auto\">",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Save 20%",
-    "context": "              </span>\n              {isAnnualBilling && (\n                <span className=\"bg-green-100 text-green-800 px-2 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-medium\">\n                  Save 20%\n                </span>\n              )}\n            </div>\n          </div>",
+    "text": "For Startups & SMEs",
+    "context": "                      </div>\n                      <div>\n                        <h3 className=\"text-2xl font-bold text-gray-900\">For Startups & SMEs</h3>\n                        <p className=\"text-teal-600 font-medium\">Start Small, Scale Smart</p>\n                      </div>\n                    </div>",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Most Popular",
-    "context": "                  <div className=\"absolute -top-3 sm:-top-4 left-1/2 transform -translate-x-1/2\">\n                    <div className=\"bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold flex items-center\">\n                      <Star className=\"h-3 w-3 sm:h-4 sm:w-4 mr-1\" />\n                      Most Popular\n                    </div>\n                  </div>\n                )}\n",
+    "text": "Start Small, Scale Smart",
+    "context": "                      <div>\n                        <h3 className=\"text-2xl font-bold text-gray-900\">For Startups & SMEs</h3>\n                        <p className=\"text-teal-600 font-medium\">Start Small, Scale Smart</p>\n                      </div>\n                    </div>\n                    ",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "The SME Communications Landscape: How We Stack Up",
-    "context": "          <div className=\"mb-16 sm:mb-20\">\n            <div className=\"text-center mb-12\">\n              <h2 className=\"text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                The SME Communications Landscape: How We Stack Up\n              </h2>\n              <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto\">\n                See how Seasalt.ai compares to other solutions in the market. We're the only platform \n                that delivers enterprise features with small business simplicity.",
+    "text": "🚀 Start Free with SeaChat",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">🚀 Start Free with SeaChat</p>\n                            <p className=\"text-sm text-gray-700\">$0 forever - 1 human agent, unlimited chats</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$0 forever - 1 human agent, unlimited chats",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">🚀 Start Free with SeaChat</p>\n                            <p className=\"text-sm text-gray-700\">$0 forever - 1 human agent, unlimited chats</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📞 Scale with SeaVoice",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">📞 Scale with SeaVoice</p>\n                            <p className=\"text-sm text-gray-700\">$29.99/month - Add voice AI for inbound calls</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$29.99/month - Add voice AI for inbound calls",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">📞 Scale with SeaVoice</p>\n                            <p className=\"text-sm text-gray-700\">$29.99/month - Add voice AI for inbound calls</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🌟 Grow with SeaX",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">🌟 Grow with SeaX</p>\n                            <p className=\"text-sm text-gray-700\">$99/month - Complete omnichannel platform</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$99/month - Complete omnichannel platform",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">🌟 Grow with SeaX</p>\n                            <p className=\"text-sm text-gray-700\">$99/month - Complete omnichannel platform</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for businesses with 1-50 employees",
+    "context": "                    \n                    <div className=\"mt-6 pt-4 border-t border-teal-200\">\n                      <p className=\"text-center font-semibold text-teal-700\">Perfect for businesses with 1-50 employees</p>\n                    </div>\n                  </div>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "For Medium to Large Enterprises",
+    "context": "                      </div>\n                      <div>\n                        <h3 className=\"text-2xl font-bold text-gray-900\">For Medium to Large Enterprises</h3>\n                        <p className=\"text-blue-600 font-medium\">Enterprise-Grade Solutions</p>\n                      </div>\n                    </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Enterprise-Grade Solutions",
+    "context": "                      <div>\n                        <h3 className=\"text-2xl font-bold text-gray-900\">For Medium to Large Enterprises</h3>\n                        <p className=\"text-blue-600 font-medium\">Enterprise-Grade Solutions</p>\n                      </div>\n                    </div>\n                    ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🤖 SeaChat Premium",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">🤖 SeaChat Premium</p>\n                            <p className=\"text-sm text-gray-700\">$29.99/month + usage - Enterprise-grade text AI</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$29.99/month + usage - Enterprise-grade text AI",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">🤖 SeaChat Premium</p>\n                            <p className=\"text-sm text-gray-700\">$29.99/month + usage - Enterprise-grade text AI</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🏢 SeaX Professional",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">🏢 SeaX Professional</p>\n                            <p className=\"text-sm text-gray-700\">$99/month - Unified platform with AI and omnichannel</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$99/month - Unified platform with AI and omnichannel",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">🏢 SeaX Professional</p>\n                            <p className=\"text-sm text-gray-700\">$99/month - Unified platform with AI and omnichannel</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "⚡ Custom Enterprise",
+    "context": "                          </div>\n                          <div>\n                            <p className=\"font-bold text-gray-900\">⚡ Custom Enterprise</p>\n                            <p className=\"text-sm text-gray-700\">Contact us - White-label, HIPAA, custom integrations</p>\n                          </div>\n                        </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Contact us - White-label, HIPAA, custom integrations",
+    "context": "                          <div>\n                            <p className=\"font-bold text-gray-900\">⚡ Custom Enterprise</p>\n                            <p className=\"text-sm text-gray-700\">Contact us - White-label, HIPAA, custom integrations</p>\n                          </div>\n                        </div>\n                      </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for businesses with 50+ employees",
+    "context": "                    \n                    <div className=\"mt-6 pt-4 border-t border-blue-200\">\n                      <p className=\"text-center font-semibold text-blue-700\">Perfect for businesses with 50+ employees</p>\n                    </div>\n                  </div>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Choose Your Plan",
+    "context": "          <div className=\"mb-16 sm:mb-20\">\n            <div className=\"text-center mb-12\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Plan</h2>\n              <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n                Start free and scale as you grow with our flexible pricing options\n              </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Start free and scale as you grow with our flexible pricing options",
+    "context": "            <div className=\"text-center mb-12\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Plan</h2>\n              <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n                Start free and scale as you grow with our flexible pricing options\n              </p>\n            </div>\n            \n            {/* 4 Main Plans - ULTRA BOLD DISTINCTIONS */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "👤 HUMAN ONLY",
+    "context": "                {/* Bold Visual Indicator */}\n                <div className=\"absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-orange-400 to-orange-600\"></div>\n                <div className=\"absolute -top-3 -right-3 bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap\">\n                  👤 HUMAN ONLY\n                </div>\n                \n                <div className=\"text-center mb-4 mt-2\">\n                  <div className=\"w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Live Agent",
+    "context": "                    <MessageSquare className=\"w-8 h-8 text-orange-600\" />\n                  </div>\n                  <h3 className=\"text-xl font-bold text-gray-900 mb-2\">Live Agent</h3>\n                  <div className=\"text-4xl font-black text-orange-600 mb-1\">$0</div>\n                  <p className=\"text-sm font-bold text-orange-700 mb-3 uppercase tracking-wide\">FREE FOREVER</p>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🌟 ALL CHANNELS + HUMAN AGENTS ONLY",
+    "context": "                {/* MEGA HIGHLIGHT BOX */}\n                <div className=\"bg-orange-50 border-2 border-orange-200 rounded-lg p-3 mb-4\">\n                  <p className=\"text-center font-black text-orange-800 text-sm uppercase tracking-wide\">\n                    🌟 ALL CHANNELS + HUMAN AGENTS ONLY\n                  </p>\n                  <p className=\"text-center text-xs text-orange-700 mt-1\">\n                    WhatsApp • Messenger • Line • Instagram • Web Chat\n                  </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "1 human agent included",
+    "context": "                  <div className=\"bg-orange-50 rounded p-2 flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs font-semibold text-orange-800\">1 human agent included</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Unlimited human conversations",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Unlimited human conversations</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "100 AI replies to try features",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">100 AI replies to try features</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Basic Shopify integrations",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Basic Shopify integrations</span>\n                  </div>\n                </div>\n                <a ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🚀 START FREE NOW",
+    "context": "                  href=\"https://chat.seasalt.ai/signup\"\n                  className=\"block bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2\"\n                >\n                  🚀 START FREE NOW\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaChat</p>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaChat",
+    "context": "                  🚀 START FREE NOW\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaChat</p>\n              </div>\n              \n              {/* WhatsApp Only - SeaX */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "💬 MESSAGING ONLY",
+    "context": "                {/* Bold Visual Indicator */}\n                <div className=\"absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-emerald-400 to-green-500\"></div>\n                <div className=\"absolute -top-3 -right-3 bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap\">\n                  💬 MESSAGING ONLY\n                </div>\n                \n                <div className=\"text-center mb-4 mt-2\">\n                  <div className=\"w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-full flex items-center justify-center\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📲 WHATSAPP BUSINESS SPECIALIST",
+    "context": "                {/* MEGA HIGHLIGHT BOX */}\n                <div className=\"bg-emerald-50 border-2 border-emerald-200 rounded-lg p-3 mb-4\">\n                  <p className=\"text-center font-black text-emerald-800 text-sm uppercase tracking-wide\">\n                    📲 WHATSAPP BUSINESS SPECIALIST\n                  </p>\n                  <p className=\"text-center text-xs text-emerald-700 mt-1\">\n                    Campaigns • API • 2-Way Chat\n                  </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Campaigns • API • 2-Way Chat",
+    "context": "                    📲 WHATSAPP BUSINESS SPECIALIST\n                  </p>\n                  <p className=\"text-center text-xs text-emerald-700 mt-1\">\n                    Campaigns • API • 2-Way Chat\n                  </p>\n                </div>\n                \n                <div className=\"space-y-2 mb-6\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Campaign management tools",
+    "context": "                  <div className=\"bg-emerald-50 rounded p-2 flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs font-semibold text-emerald-800\">Campaign management tools</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Unlimited contacts & templates",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Unlimited contacts & templates</span>\n                  </div>\n                </div>\n                <a ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📱 START WHATSAPP",
+    "context": "                  href=\"https://seax.seasalt.ai/signup\"\n                  className=\"block bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2\"\n                >\n                  📱 START WHATSAPP\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaX",
+    "context": "                  📱 START WHATSAPP\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n              \n              {/* Omnichannel - SeaX */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🏆 MOST POPULAR",
+    "context": "                <div className=\"absolute -bottom-6 left-1/2 transform -translate-x-1/2 z-10\">\n                  <span className=\"bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-xs font-black flex items-center shadow-2xl\">\n                    <Star className=\"w-4 h-4 mr-1 animate-spin\" />\n                    🏆 MOST POPULAR\n                  </span>\n                </div>\n                <div className=\"absolute -top-4 -right-4 bg-blue-500 text-white px-4 py-3 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap z-20\">\n                  🌐 ONE UI, ALL CHANNELS",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🌐 ONE UI, ALL CHANNELS",
+    "context": "                  </span>\n                </div>\n                <div className=\"absolute -top-4 -right-4 bg-blue-500 text-white px-4 py-3 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap z-20\">\n                  🌐 ONE UI, ALL CHANNELS\n                </div>\n                \n                <div className=\"text-center mb-4 mt-4\">\n                  <div className=\"w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-purple-200 rounded-full flex items-center justify-center\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🎯 COMPLETE CONTACT CENTER",
+    "context": "                {/* MEGA HIGHLIGHT BOX */}\n                <div className=\"bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-300 rounded-lg p-3 mb-4\">\n                  <p className=\"text-center font-black text-blue-800 text-sm uppercase tracking-wide\">\n                    🎯 COMPLETE CONTACT CENTER\n                  </p>\n                  <p className=\"text-center text-xs text-blue-700 mt-1 font-semibold\">\n                    Make & Receive PHONE CALLS!\n                  </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Make & Receive PHONE CALLS!",
+    "context": "                    🎯 COMPLETE CONTACT CENTER\n                  </p>\n                  <p className=\"text-center text-xs text-blue-700 mt-1 font-semibold\">\n                    Make & Receive PHONE CALLS!\n                  </p>\n                </div>\n                \n                <div className=\"space-y-2 mb-6\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice & SMS campaigns",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Voice & SMS campaigns</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🚀 START FULL CENTER",
+    "context": "                  href=\"https://SeaX.seasalt.ai/signup\"\n                  className=\"block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 hover:from-blue-700 hover:via-purple-700 hover:to-blue-800 text-white px-4 py-3 rounded-lg font-black transition-all text-center text-sm shadow-2xl transform hover:scale-105 uppercase mb-2\"\n                >\n                  🚀 START FULL CENTER\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaX",
+    "context": "                  🚀 START FULL CENTER\n                </a>\n                <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n              \n              {/* Custom - Enterprise */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Let's build a project",
+    "context": "                  </div>\n                  <h3 className=\"text-xl font-bold text-gray-900 mb-2\">Custom</h3>\n                  <div className=\"text-lg font-semibold text-gray-600 mb-2\">Let's build a project</div>\n                  <p className=\"text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide\">Negotiate your own price</p>\n                </div>\n                <div className=\"space-y-2 mb-6\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Negotiate your own price",
+    "context": "                  <h3 className=\"text-xl font-bold text-gray-900 mb-2\">Custom</h3>\n                  <div className=\"text-lg font-semibold text-gray-600 mb-2\">Let's build a project</div>\n                  <p className=\"text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide\">Negotiate your own price</p>\n                </div>\n                <div className=\"space-y-2 mb-6\">\n                  <div className=\"flex items-start space-x-2\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Multiple workspaces",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Multiple workspaces</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for agencies",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Perfect for agencies</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Custom API integrations",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">Custom API integrations</span>\n                  </div>\n                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "White-label options",
+    "context": "                  <div className=\"flex items-start space-x-2\">\n                    <Check className=\"w-4 h-4 text-green-600 mt-0.5 flex-shrink-0\" />\n                    <span className=\"text-xs text-gray-700\">White-label options</span>\n                  </div>\n                </div>\n                <a ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Contact Us",
+    "context": "                  href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                  className=\"block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors text-center text-sm\"\n                >\n                  Contact Us\n                </a>\n              </div>\n            </div>\n            ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "⭐ AI Add-Ons",
+    "context": "            <div className=\"bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8\">\n              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">⭐ AI Add-Ons</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Enhance any plan with AI capabilities\n                </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Enhance any plan with AI capabilities",
+    "context": "              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">⭐ AI Add-Ons</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Enhance any plan with AI capabilities\n                </p>\n              </div>\n              \n              <div className=\"flex flex-col lg:flex-row items-center justify-center gap-8 max-w-4xl mx-auto\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Chat AI with SeaChat",
+    "context": "                <div className=\"bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs\">\n                  <MessageSquare className=\"w-8 h-8 text-green-600 mx-auto mb-3\" />\n                  <h4 className=\"text-lg font-semibold text-gray-800 mb-2\">Chat AI with SeaChat</h4>\n                  <div className=\"text-2xl font-bold text-green-600 mb-2\">$29.99</div>\n                  <p className=\"text-sm text-gray-600\">per month</p>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month",
+    "context": "                  <h4 className=\"text-lg font-semibold text-gray-800 mb-2\">Chat AI with SeaChat</h4>\n                  <div className=\"text-2xl font-bold text-green-600 mb-2\">$29.99</div>\n                  <p className=\"text-sm text-gray-600\">per month</p>\n                </div>\n                \n                {/* Plus Sign */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice AI with SeaVoice",
+    "context": "                <div className=\"bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs\">\n                  <Phone className=\"w-8 h-8 text-blue-600 mx-auto mb-3\" />\n                  <h4 className=\"text-lg font-semibold text-gray-800 mb-2\">Voice AI with SeaVoice</h4>\n                  <div className=\"text-2xl font-bold text-blue-600 mb-2\">$29.99</div>\n                  <p className=\"text-sm text-gray-600\">per month</p>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month",
+    "context": "                  <h4 className=\"text-lg font-semibold text-gray-800 mb-2\">Voice AI with SeaVoice</h4>\n                  <div className=\"text-2xl font-bold text-blue-600 mb-2\">$29.99</div>\n                  <p className=\"text-sm text-gray-600\">per month</p>\n                </div>\n                \n                {/* Equals Sign */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Both AI Features",
+    "context": "                <div className=\"bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-xl p-6 shadow-lg text-center flex-1 max-w-xs\">\n                  <Sparkles className=\"w-8 h-8 text-white mx-auto mb-3\" />\n                  <h4 className=\"text-lg font-semibold mb-2\">Both AI Features</h4>\n                  <div className=\"text-2xl font-bold mb-2\">$29.99</div>\n                  <p className=\"text-sm opacity-90\">per month total</p>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month total",
+    "context": "                  <h4 className=\"text-lg font-semibold mb-2\">Both AI Features</h4>\n                  <div className=\"text-2xl font-bold mb-2\">$29.99</div>\n                  <p className=\"text-sm opacity-90\">per month total</p>\n                </div>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🎉 Get both Chat AI and Voice AI for just $29.99/month combined!",
+    "context": "              \n              <div className=\"text-center mt-6\">\n                <p className=\"text-lg font-semibold text-gray-700\">\n                  🎉 Get both Chat AI and Voice AI for just $29.99/month combined!\n                </p>\n              </div>\n            </div>\n            ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Transparent AI Pricing",
+    "context": "            <div className=\"bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12\">\n              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent AI Pricing</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Pay only for what you use with our clear, usage-based AI pricing\n                </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Pay only for what you use with our clear, usage-based AI pricing",
+    "context": "              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent AI Pricing</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Pay only for what you use with our clear, usage-based AI pricing\n                </p>\n              </div>\n              \n              <div className=\"grid md:grid-cols-3 gap-8 max-w-5xl mx-auto\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Chat AI",
+    "context": "                <div className=\"bg-white rounded-xl shadow-md p-6 text-center\">\n                  <MessageSquare className=\"w-12 h-12 text-green-600 mx-auto mb-4\" />\n                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Chat AI</h4>\n                  <div className=\"text-3xl font-bold text-green-600 mb-2\">$0.006</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per response (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per response (ChatGPT-4o mini)",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Chat AI</h4>\n                  <div className=\"text-3xl font-bold text-green-600 mb-2\">$0.006</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per response (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• WhatsApp, Messenger, Web chat</li>\n                    <li>• 24/7 automated responses</li>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• WhatsApp, Messenger, Web chat",
+    "context": "                  <p className=\"text-sm text-gray-600 mb-4\">per response (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• WhatsApp, Messenger, Web chat</li>\n                    <li>• 24/7 automated responses</li>\n                    <li>• Knowledge base integration</li>\n                  </ul>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• 24/7 automated responses",
+    "context": "                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• WhatsApp, Messenger, Web chat</li>\n                    <li>• 24/7 automated responses</li>\n                    <li>• Knowledge base integration</li>\n                  </ul>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Knowledge base integration",
+    "context": "                    <li>• WhatsApp, Messenger, Web chat</li>\n                    <li>• 24/7 automated responses</li>\n                    <li>• Knowledge base integration</li>\n                  </ul>\n                </div>\n                ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice AI",
+    "context": "                <div className=\"bg-white rounded-xl shadow-md p-6 text-center\">\n                  <Phone className=\"w-12 h-12 text-blue-600 mx-auto mb-4\" />\n                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice AI</h4>\n                  <div className=\"text-3xl font-bold text-blue-600 mb-2\">$0.12</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (ChatGPT-4o mini)",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice AI</h4>\n                  <div className=\"text-3xl font-bold text-blue-600 mb-2\">$0.12</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Inbound & outbound calls</li>\n                    <li>• Natural voice conversations</li>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Inbound & outbound calls",
+    "context": "                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o mini)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Inbound & outbound calls</li>\n                    <li>• Natural voice conversations</li>\n                    <li>• Call recording & summaries</li>\n                  </ul>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Natural voice conversations",
+    "context": "                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Inbound & outbound calls</li>\n                    <li>• Natural voice conversations</li>\n                    <li>• Call recording & summaries</li>\n                  </ul>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Call recording & summaries",
+    "context": "                    <li>• Inbound & outbound calls</li>\n                    <li>• Natural voice conversations</li>\n                    <li>• Call recording & summaries</li>\n                  </ul>\n                </div>\n                ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Premium AI",
+    "context": "                <div className=\"bg-white rounded-xl shadow-md p-6 text-center\">\n                  <Sparkles className=\"w-12 h-12 text-purple-600 mx-auto mb-4\" />\n                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Premium AI</h4>\n                  <div className=\"text-3xl font-bold text-purple-600 mb-2\">$0.80</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (ChatGPT-4o)",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Premium AI</h4>\n                  <div className=\"text-3xl font-bold text-purple-600 mb-2\">$0.80</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Advanced reasoning</li>\n                    <li>• Complex conversations</li>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Advanced reasoning",
+    "context": "                  <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o)</p>\n                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Advanced reasoning</li>\n                    <li>• Complex conversations</li>\n                    <li>• Custom enterprise features</li>\n                  </ul>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Complex conversations",
+    "context": "                  <ul className=\"text-sm text-gray-700 space-y-1\">\n                    <li>• Advanced reasoning</li>\n                    <li>• Complex conversations</li>\n                    <li>• Custom enterprise features</li>\n                  </ul>\n                </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Custom enterprise features",
+    "context": "                    <li>• Advanced reasoning</li>\n                    <li>• Complex conversations</li>\n                    <li>• Custom enterprise features</li>\n                  </ul>\n                </div>\n              </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Transparent Communication Pricing",
+    "context": "            <div className=\"bg-white rounded-2xl p-8 shadow-lg mb-12\">\n              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent Communication Pricing</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Clear, upfront pricing for all your communication needs\n                </p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Clear, upfront pricing for all your communication needs",
+    "context": "              <div className=\"text-center mb-8\">\n                <h3 className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent Communication Pricing</h3>\n                <p className=\"text-lg text-gray-600\">\n                  Clear, upfront pricing for all your communication needs\n                </p>\n              </div>\n              \n              <div className=\"grid md:grid-cols-3 gap-8 max-w-5xl mx-auto\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per message (USA/CA)",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">SMS</h4>\n                  <div className=\"text-3xl font-bold text-blue-600 mb-2\">$0.02</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per message (USA/CA)</p>\n                  <p className=\"text-sm text-gray-600\">Reliable text messaging with transparent per-message rates</p>\n                </div>\n                ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Reliable text messaging with transparent per-message rates",
+    "context": "                  <div className=\"text-3xl font-bold text-blue-600 mb-2\">$0.02</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per message (USA/CA)</p>\n                  <p className=\"text-sm text-gray-600\">Reliable text messaging with transparent per-message rates</p>\n                </div>\n                \n                {/* Voice Calls */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice Calls",
+    "context": "                <div className=\"bg-green-50 rounded-xl p-6 text-center border border-green-200\">\n                  <Phone className=\"w-12 h-12 text-green-600 mx-auto mb-4\" />\n                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice Calls</h4>\n                  <div className=\"text-3xl font-bold text-green-600 mb-2\">$0.015</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (USA/CA)</p>\n                  <p className=\"text-sm text-gray-600\">Crystal-clear voice calls across 100+ countries</p>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (USA/CA)",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice Calls</h4>\n                  <div className=\"text-3xl font-bold text-green-600 mb-2\">$0.015</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (USA/CA)</p>\n                  <p className=\"text-sm text-gray-600\">Crystal-clear voice calls across 100+ countries</p>\n                </div>\n                ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Crystal-clear voice calls across 100+ countries",
+    "context": "                  <div className=\"text-3xl font-bold text-green-600 mb-2\">$0.015</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per minute (USA/CA)</p>\n                  <p className=\"text-sm text-gray-600\">Crystal-clear voice calls across 100+ countries</p>\n                </div>\n                \n                {/* WhatsApp Business */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per message worldwide",
+    "context": "                  <h4 className=\"text-xl font-bold text-gray-900 mb-2\">WhatsApp Business</h4>\n                  <div className=\"text-3xl font-bold text-emerald-600 mb-2\">$0.00</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per message worldwide</p>\n                  <p className=\"text-sm text-gray-600\">You pay Meta directly. No markup from Seasalt.ai</p>\n                </div>\n              </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "You pay Meta directly. No markup from Seasalt.ai",
+    "context": "                  <div className=\"text-3xl font-bold text-emerald-600 mb-2\">$0.00</div>\n                  <p className=\"text-sm text-gray-600 mb-4\">per message worldwide</p>\n                  <p className=\"text-sm text-gray-600\">You pay Meta directly. No markup from Seasalt.ai</p>\n                </div>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📱 Other channels like",
+    "context": "              \n              <div className=\"mt-8 text-center\">\n                <p className=\"text-lg text-gray-700 max-w-2xl mx-auto\">\n                  📱 Other channels like <Instagram className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift className=\"inline w-5 h-5 text-green-600 mx-1\" />free.\n                </p>\n              </div>\n            </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Instagram,",
+    "context": "              <div className=\"mt-8 text-center\">\n                <p className=\"text-lg text-gray-700 max-w-2xl mx-auto\">\n                  📱 Other channels like <Instagram className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift className=\"inline w-5 h-5 text-green-600 mx-1\" />free.\n                </p>\n              </div>\n            </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Facebook Messenger, and",
+    "context": "              <div className=\"mt-8 text-center\">\n                <p className=\"text-lg text-gray-700 max-w-2xl mx-auto\">\n                  📱 Other channels like <Instagram className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift className=\"inline w-5 h-5 text-green-600 mx-1\" />free.\n                </p>\n              </div>\n            </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Webchat have no markup or are completely",
+    "context": "              <div className=\"mt-8 text-center\">\n                <p className=\"text-lg text-gray-700 max-w-2xl mx-auto\">\n                  📱 Other channels like <Instagram className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift className=\"inline w-5 h-5 text-green-600 mx-1\" />free.\n                </p>\n              </div>\n            </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "free.",
+    "context": "              <div className=\"mt-8 text-center\">\n                <p className=\"text-lg text-gray-700 max-w-2xl mx-auto\">\n                  📱 Other channels like <Instagram className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift className=\"inline w-5 h-5 text-green-600 mx-1\" />free.\n                </p>\n              </div>\n            </div>\n          </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "The Global Communications Landscape: How We Stack Up",
+    "context": "          <div className=\"mb-16 sm:mb-20\">\n            <div className=\"text-center mb-12\">\n              <h2 className=\"text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                The Global Communications Landscape: How We Stack Up\n              </h2>\n              <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto\">\n                See how Seasalt.ai compares to other solutions in the market. We're the only platform \n                that delivers enterprise features with small business simplicity.",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
     "text": "See how Seasalt.ai compares to other solutions in the market. We're the only platform \n                that delivers enterprise features with small business simplicity.",
-    "context": "                The SME Communications Landscape: How We Stack Up\n              </h2>\n              <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto\">\n                See how Seasalt.ai compares to other solutions in the market. We're the only platform \n                that delivers enterprise features with small business simplicity.\n              </p>\n            </div>\n\n            <div className=\"bg-white rounded-2xl shadow-lg overflow-hidden mb-6\">",
+    "context": "                The Global Communications Landscape: How We Stack Up\n              </h2>\n              <p className=\"text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto\">\n                See how Seasalt.ai compares to other solutions in the market. We're the only platform \n                that delivers enterprise features with small business simplicity.\n              </p>\n            </div>\n\n            <div className=\"bg-white rounded-2xl shadow-lg overflow-hidden mb-6\">",
     "type": "jsx-text"
   },
   {
@@ -1487,15 +2039,448 @@
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Sign Up Now",
-    "context": "            <a\n               href=\"https://seax.seasalt.ai/signup\" className=\"inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg sm:text-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5\"\n            >\n              Sign Up Now\n            </a>\n            <p className=\"text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4\">Setup in under 5 minutes</p>\n          </div>\n        </div>",
+    "text": "Ready to Transform Your",
+    "context": "              {/* Main Heading */}\n              <div className=\"mb-8\">\n                <h2 className=\"text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight\">\n                  Ready to Transform Your\n                  <span className=\"block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent\">\n                    Customer Communications?\n                  </span>\n                </h2>",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Setup in under 5 minutes",
-    "context": "              Sign Up Now\n            </a>\n            <p className=\"text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4\">Setup in under 5 minutes</p>\n          </div>\n        </div>\n      </main>",
+    "text": "Customer Communications?",
+    "context": "                <h2 className=\"text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight\">\n                  Ready to Transform Your\n                  <span className=\"block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent\">\n                    Customer Communications?\n                  </span>\n                </h2>\n                <p className=\"text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed\">\n                  Join thousands of businesses using Seasalt.ai to deliver exceptional customer experiences",
     "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Join thousands of businesses using Seasalt.ai to deliver exceptional customer experiences",
+    "context": "                  </span>\n                </h2>\n                <p className=\"text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed\">\n                  Join thousands of businesses using Seasalt.ai to deliver exceptional customer experiences\n                </p>\n              </div>\n              \n              {/* Stats Row */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Happy Customers",
+    "context": "                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">10,000+</div>\n                  <div className=\"text-sm text-blue-200\">Happy Customers</div>\n                </div>\n                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">99.9%</div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "99.9%",
+    "context": "                </div>\n                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">99.9%</div>\n                  <div className=\"text-sm text-blue-200\">Uptime SLA</div>\n                </div>\n                <div className=\"text-center\">",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Uptime SLA",
+    "context": "                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">99.9%</div>\n                  <div className=\"text-sm text-blue-200\">Uptime SLA</div>\n                </div>\n                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">24/7</div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "24/7",
+    "context": "                </div>\n                <div className=\"text-center\">\n                  <div className=\"text-3xl sm:text-4xl font-black text-white mb-2\">24/7</div>\n                  <div className=\"text-sm text-blue-200\">Support</div>\n                </div>\n              </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🚀 SIGN UP NOW",
+    "context": "                  className=\"group relative inline-flex items-center justify-center px-8 py-4 text-xl font-black text-blue-900 bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-300 rounded-2xl shadow-2xl hover:shadow-yellow-300/50 transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none\"\n                >\n                  <span className=\"relative z-10 flex items-center\">\n                    🚀 SIGN UP NOW\n                    <Star className=\"w-6 h-6 ml-2 animate-spin\" />\n                  </span>\n                  <div className=\"absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300\"></div>\n                </a>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📞 Talk to Sales",
+    "context": "                  href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                  className=\"inline-flex items-center px-6 py-3 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105\"\n                >\n                  📞 Talk to Sales\n                </a>\n              </div>\n              \n              {/* Trust Badges */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "No Coding Required",
+    "context": "                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />\n                  <span>No Coding Required</span>\n                </div>\n                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Setup in Under 5 Minutes",
+    "context": "                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />\n                  <span>Setup in Under 5 Minutes</span>\n                </div>\n                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Cancel Anytime",
+    "context": "                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />\n                  <span>Cancel Anytime</span>\n                </div>\n                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "True Free Plan Available",
+    "context": "                <div className=\"flex items-center gap-2\">\n                  <Check className=\"w-5 h-5 text-green-400\" />\n                  <span>True Free Plan Available</span>\n                </div>\n              </div>\n              ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Limited Time:",
+    "context": "              <div className=\"mt-8 p-4 bg-white/10 backdrop-blur rounded-xl border border-white/20\">\n                <p className=\"text-white font-semibold\">\n                  ⚡ <span className=\"text-yellow-300\">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!\n                </p>\n              </div>\n            </div>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Get 2 months free on annual plans + priority onboarding support!",
+    "context": "              <div className=\"mt-8 p-4 bg-white/10 backdrop-blur rounded-xl border border-white/20\">\n                <p className=\"text-white font-semibold\">\n                  ⚡ <span className=\"text-yellow-300\">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!\n                </p>\n              </div>\n            </div>\n          </section>",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Choose Your Growth Path",
+    "context": " className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Growth Path</h2>\n                <p c"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "For Startups & SMEs",
+    "context": "  <h3 className=\"text-2xl font-bold text-gray-900\">For Startups & SMEs</h3>\n                        "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Start Small, Scale Smart",
+    "context": "          <p className=\"text-teal-600 font-medium\">Start Small, Scale Smart</p>\n                    "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🚀 Start Free with SeaChat",
+    "context": "            <p className=\"font-bold text-gray-900\">🚀 Start Free with SeaChat</p>\n                  "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$0 forever - 1 human agent, unlimited chats",
+    "context": "              <p className=\"text-sm text-gray-700\">$0 forever - 1 human agent, unlimited chats</p>\n "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "📞 Scale with SeaVoice",
+    "context": "            <p className=\"font-bold text-gray-900\">📞 Scale with SeaVoice</p>\n                      "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$29.99/month - Add voice AI for inbound calls",
+    "context": "              <p className=\"text-sm text-gray-700\">$29.99/month - Add voice AI for inbound calls</p>"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🌟 Grow with SeaX",
+    "context": "            <p className=\"font-bold text-gray-900\">🌟 Grow with SeaX</p>\n                           "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$99/month - Complete omnichannel platform",
+    "context": "              <p className=\"text-sm text-gray-700\">$99/month - Complete omnichannel platform</p>\n   "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for businesses with 1-50 employees",
+    "context": "lassName=\"text-center font-semibold text-teal-700\">Perfect for businesses with 1-50 employees</p>\n  "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "For Medium to Large Enterprises",
+    "context": "  <h3 className=\"text-2xl font-bold text-gray-900\">For Medium to Large Enterprises</h3>\n            "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Enterprise-Grade Solutions",
+    "context": "          <p className=\"text-blue-600 font-medium\">Enterprise-Grade Solutions</p>\n                  "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🤖 SeaChat Premium",
+    "context": "            <p className=\"font-bold text-gray-900\">🤖 SeaChat Premium</p>\n                          "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$29.99/month + usage - Enterprise-grade text AI",
+    "context": "              <p className=\"text-sm text-gray-700\">$29.99/month + usage - Enterprise-grade text AI</"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "🏢 SeaX Professional",
+    "context": "            <p className=\"font-bold text-gray-900\">🏢 SeaX Professional</p>\n                        "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "$99/month - Unified platform with AI and omnichannel",
+    "context": "              <p className=\"text-sm text-gray-700\">$99/month - Unified platform with AI and omnichan"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "⚡ Custom Enterprise",
+    "context": "            <p className=\"font-bold text-gray-900\">⚡ Custom Enterprise</p>\n                         "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Contact us - White-label, HIPAA, custom integrations",
+    "context": "              <p className=\"text-sm text-gray-700\">Contact us - White-label, HIPAA, custom integrati"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for businesses with 50+ employees",
+    "context": "lassName=\"text-center font-semibold text-blue-700\">Perfect for businesses with 50+ employees</p>\n   "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Choose Your Plan",
+    "context": " className=\"text-3xl font-bold text-gray-900 mb-4\">Choose Your Plan</h2>\n              <p className="
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Live Agent",
+    "context": "3 className=\"text-xl font-bold text-gray-900 mb-2\">Live Agent</h3>\n                  <div className="
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "1 human agent included",
+    "context": " className=\"text-xs font-semibold text-orange-800\">1 human agent included</span>\n                  <"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Unlimited human conversations",
+    "context": "           <span className=\"text-xs text-gray-700\">Unlimited human conversations</span>\n            "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "100 AI replies to try features",
+    "context": "           <span className=\"text-xs text-gray-700\">100 AI replies to try features</span>\n           "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Basic Shopify integrations",
+    "context": "           <span className=\"text-xs text-gray-700\">Basic Shopify integrations</span>\n               "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaChat",
+    "context": "  <p className=\"text-center text-xs text-gray-500\">Powered by SeaChat</p>\n              </div>\n     "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Campaign management tools",
+    "context": "className=\"text-xs font-semibold text-emerald-800\">Campaign management tools</span>\n                "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Unlimited contacts & templates",
+    "context": "           <span className=\"text-xs text-gray-700\">Unlimited contacts & templates</span>\n           "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaX",
+    "context": "  <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n        "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice & SMS campaigns",
+    "context": "           <span className=\"text-xs text-gray-700\">Voice & SMS campaigns</span>\n                  </"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Powered by SeaX",
+    "context": "  <p className=\"text-center text-xs text-gray-500\">Powered by SeaX</p>\n              </div>\n        "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Let's build a project",
+    "context": "assName=\"text-lg font-semibold text-gray-600 mb-2\">Let's build a project</div>\n                  <p "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Negotiate your own price",
+    "context": "mibold text-gray-500 mb-4 uppercase tracking-wide\">Negotiate your own price</p>\n                </di"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Multiple workspaces",
+    "context": "           <span className=\"text-xs text-gray-700\">Multiple workspaces</span>\n                  </di"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Perfect for agencies",
+    "context": "           <span className=\"text-xs text-gray-700\">Perfect for agencies</span>\n                  </d"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Custom API integrations",
+    "context": "           <span className=\"text-xs text-gray-700\">Custom API integrations</span>\n                  "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "White-label options",
+    "context": "           <span className=\"text-xs text-gray-700\">White-label options</span>\n                  </di"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "⭐ AI Add-Ons",
+    "context": " className=\"text-2xl font-bold text-gray-900 mb-4\">⭐ AI Add-Ons</h3>\n                <p className=\"t"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Chat AI with SeaChat",
+    "context": "assName=\"text-lg font-semibold text-gray-800 mb-2\">Chat AI with SeaChat</h4>\n                  <div "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month",
+    "context": "              <p className=\"text-sm text-gray-600\">per month</p>\n                </div>\n            "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice AI with SeaVoice",
+    "context": "assName=\"text-lg font-semibold text-gray-800 mb-2\">Voice AI with SeaVoice</h4>\n                  <di"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month",
+    "context": "              <p className=\"text-sm text-gray-600\">per month</p>\n                </div>\n            "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Both AI Features",
+    "context": "        <h4 className=\"text-lg font-semibold mb-2\">Both AI Features</h4>\n                  <div clas"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per month total",
+    "context": "                 <p className=\"text-sm opacity-90\">per month total</p>\n                </div>\n      "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Transparent AI Pricing",
+    "context": " className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent AI Pricing</h3>\n                <p cl"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Chat AI",
+    "context": "4 className=\"text-xl font-bold text-gray-900 mb-2\">Chat AI</h4>\n                  <div className=\"te"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per response (ChatGPT-4o mini)",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per response (ChatGPT-4o mini)</p>\n              "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• WhatsApp, Messenger, Web chat",
+    "context": " text-gray-700 space-y-1\">\n                    <li>• WhatsApp, Messenger, Web chat</li>\n            "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• 24/7 automated responses",
+    "context": ", Messenger, Web chat</li>\n                    <li>• 24/7 automated responses</li>\n                 "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Knowledge base integration",
+    "context": "7 automated responses</li>\n                    <li>• Knowledge base integration</li>\n               "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice AI",
+    "context": "4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice AI</h4>\n                  <div className=\"t"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (ChatGPT-4o mini)",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o mini)</p>\n                "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Inbound & outbound calls",
+    "context": " text-gray-700 space-y-1\">\n                    <li>• Inbound & outbound calls</li>\n                 "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Natural voice conversations",
+    "context": "ound & outbound calls</li>\n                    <li>• Natural voice conversations</li>\n              "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Call recording & summaries",
+    "context": "l voice conversations</li>\n                    <li>• Call recording & summaries</li>\n               "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Premium AI",
+    "context": "4 className=\"text-xl font-bold text-gray-900 mb-2\">Premium AI</h4>\n                  <div className="
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (ChatGPT-4o)",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per minute (ChatGPT-4o)</p>\n                  <ul"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Advanced reasoning",
+    "context": " text-gray-700 space-y-1\">\n                    <li>• Advanced reasoning</li>\n                    <li"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Complex conversations",
+    "context": ">• Advanced reasoning</li>\n                    <li>• Complex conversations</li>\n                    "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "• Custom enterprise features",
+    "context": "Complex conversations</li>\n                    <li>• Custom enterprise features</li>\n               "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Transparent Communication Pricing",
+    "context": " className=\"text-2xl font-bold text-gray-900 mb-4\">Transparent Communication Pricing</h3>\n          "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per message (USA/CA)",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per message (USA/CA)</p>\n                  <p cla"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Reliable text messaging with transparent per-message rates",
+    "context": "              <p className=\"text-sm text-gray-600\">Reliable text messaging with transparent per-mess"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Voice Calls",
+    "context": "4 className=\"text-xl font-bold text-gray-900 mb-2\">Voice Calls</h4>\n                  <div className"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per minute (USA/CA)",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per minute (USA/CA)</p>\n                  <p clas"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Crystal-clear voice calls across 100+ countries",
+    "context": "              <p className=\"text-sm text-gray-600\">Crystal-clear voice calls across 100+ countries</"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "per message worldwide",
+    "context": "         <p className=\"text-sm text-gray-600 mb-4\">per message worldwide</p>\n                  <p cl"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "You pay Meta directly. No markup from Seasalt.ai",
+    "context": "              <p className=\"text-sm text-gray-600\">You pay Meta directly. No markup from Seasalt.ai<"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Instagram,",
+    "context": "am className=\"inline w-5 h-5 text-pink-500 mx-1\" />Instagram, <Facebook className=\"inline w-5 h-5 te"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Facebook Messenger, and",
+    "context": "ok className=\"inline w-5 h-5 text-blue-600 mx-1\" />Facebook Messenger, and <Monitor className=\"inlin"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Webchat have no markup or are completely",
+    "context": "or className=\"inline w-5 h-5 text-gray-600 mx-1\" />Webchat have no markup or are completely <Gift cl"
   },
   {
     "file": "src/pages/Pricing.tsx",
@@ -1519,8 +2504,38 @@
   },
   {
     "file": "src/pages/Pricing.tsx",
-    "text": "Setup in under 5 minutes",
-    "context": "me=\"text-xs sm:text-sm text-gray-500 mt-3 sm:mt-4\">Setup in under 5 minutes</p>\n          </div>\n   "
+    "text": "Happy Customers",
+    "context": "            <div className=\"text-sm text-blue-200\">Happy Customers</div>\n                </div>\n    "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Uptime SLA",
+    "context": "            <div className=\"text-sm text-blue-200\">Uptime SLA</div>\n                </div>\n         "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "No Coding Required",
+    "context": "w-5 h-5 text-green-400\" />\n                  <span>No Coding Required</span>\n                </div>\n"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Setup in Under 5 Minutes",
+    "context": "w-5 h-5 text-green-400\" />\n                  <span>Setup in Under 5 Minutes</span>\n                <"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Cancel Anytime",
+    "context": "w-5 h-5 text-green-400\" />\n                  <span>Cancel Anytime</span>\n                </div>\n    "
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "True Free Plan Available",
+    "context": "w-5 h-5 text-green-400\" />\n                  <span>True Free Plan Available</span>\n                <"
+  },
+  {
+    "file": "src/pages/Pricing.tsx",
+    "text": "Limited Time:",
+    "context": "               ⚡ <span className=\"text-yellow-300\">Limited Time:</span> Get 2 months free on annual "
   },
   {
     "file": "src/pages/SeaHealth.tsx",
@@ -10725,24 +11740,24 @@
   {
     "file": "src/seachat/components/Header.tsx",
     "text": "View All Integrations →",
-    "context": "                  </Link>\n                ))}\n                <Link to={createLink('seachat/integrations')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n              </div>\n            </div>\n",
+    "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/integrations')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                    </div>\n                  </motion.div>\n                )}",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/components/Header.tsx",
     "text": "View All Solutions →",
-    "context": "                  </Link>\n                ))}\n                <Link to={createLink('seachat/solutions')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n              </div>\n            </div>\n",
+    "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/solutions')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    </div>\n                  </motion.div>\n                )}",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/components/Header.tsx",
     "text": "View All Integrations →",
-    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n              </di"
+    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                  "
   },
   {
     "file": "src/seachat/components/Header.tsx",
     "text": "View All Solutions →",
-    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n              </div>\n"
+    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    <"
   },
   {
     "file": "src/seachat/components/Hero.tsx",
@@ -11530,13 +12545,13 @@
   {
     "file": "src/seachat/pages/features/AIAutomationPage.tsx",
     "text": "// @ts-ignore",
-    "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
+    "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/features/AIAutomationPage.tsx",
     "text": "// @ts-ignore",
-    "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
+    "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
     "type": "jsx-text"
   },
   {
@@ -11584,13 +12599,13 @@
   {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "98.2%",
-    "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">98.2%</div>\n                    <div className=\"text-blue-200\">{t('features.analytics.dashboard.systemUptime', 'System Uptime')}</div>\n                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">",
+    "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">98.2%</div>\n                    <div className=\"text-blue-200\">{t('seachat.features.analytics.dashboard.systemUptime', 'System Uptime')}</div>\n                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "4.8/5",
-    "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">4.8/5</div>\n                    <div className=\"text-blue-200\">{t('features.analytics.dashboard.customerRating', 'Customer Rating')}</div>\n                  </div>\n                </div>",
+    "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">4.8/5</div>\n                    <div className=\"text-blue-200\">{t('seachat.features.analytics.dashboard.customerRating', 'Customer Rating')}</div>\n                  </div>\n                </div>",
     "type": "jsx-text"
   },
   {
@@ -11620,19 +12635,19 @@
   {
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Sarah Chen",
-    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-blue-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Sarah Chen</span>\n                      <Globe className=\"w-4 h-4 text-blue-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('features.omnichannel.websiteChat', 'Website chat about product features...')}</p>",
+    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-blue-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Sarah Chen</span>\n                      <Globe className=\"w-4 h-4 text-blue-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('seachat.features.omnichannel.websiteChat', 'Website chat about product seachat.features...')}</p>",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Mike Johnson",
-    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-green-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Mike Johnson</span>\n                      <MessageSquare className=\"w-4 h-4 text-green-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('features.omnichannel.whatsappInquiry', 'WhatsApp inquiry about order status...')}</p>",
+    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-green-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Mike Johnson</span>\n                      <MessageSquare className=\"w-4 h-4 text-green-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('seachat.features.omnichannel.whatsappInquiry', 'WhatsApp inquiry about order status...')}</p>",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Emma Wilson",
-    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-pink-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Emma Wilson</span>\n                      <Instagram className=\"w-4 h-4 text-pink-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('features.omnichannel.instagramDM', 'Instagram DM about return policy...')}</p>",
+    "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-pink-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Emma Wilson</span>\n                      <Instagram className=\"w-4 h-4 text-pink-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('seachat.features.omnichannel.instagramDM', 'Instagram DM about return policy...')}</p>",
     "type": "jsx-text"
   },
   {
@@ -11689,19 +12704,19 @@
   {
     "file": "src/seachat/pages/integrations/CalendarPage.tsx",
     "text": "📅",
-    "context": "                  <p className=\"text-gray-800\">{t('integrations.calendar.aiResponse1', '\"I\\'d be happy to help you schedule a demo! I have these available slots next week:')}</p>\n                  <div className=\"mt-3 space-y-2\">\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>",
+    "context": "                  <p className=\"text-gray-800\">{t('seachat.integrations.calendar.aiResponse1', '\"I\\'d be happy to help you schedule a demo! I have these available slots next week:')}</p>\n                  <div className=\"mt-3 space-y-2\">\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/integrations/CalendarPage.tsx",
     "text": "📅",
-    "context": "                  <div className=\"mt-3 space-y-2\">\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>\n                </div>",
+    "context": "                  <div className=\"mt-3 space-y-2\">\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>\n                </div>",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/integrations/CalendarPage.tsx",
     "text": "📅",
-    "context": "                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>\n                </div>\n                ",
+    "context": "                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot1', 'Tuesday, Jan 16 - 2:00 PM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot2', 'Wednesday, Jan 17 - 10:00 AM PST')}</div>\n                    <div className=\"bg-white rounded p-2 text-sm\">📅 {t('seachat.integrations.calendar.slot3', 'Thursday, Jan 18 - 3:00 PM PST')}</div>\n                  </div>\n                </div>\n                ",
     "type": "jsx-text"
   },
   {
@@ -11731,13 +12746,25 @@
   {
     "file": "src/seavoice/components/Footer.tsx",
     "text": "Inbound Solutions",
-    "context": "          {/* Inbound Solutions Links */}\n          <div>\n            <h3 className=\"text-sm font-semibold uppercase tracking-wider mb-4\">\n              Inbound Solutions\n            </h3>\n            <ul className=\"space-y-2\">\n              {inboundSolutionsLinks.slice(0, 6).map((link) => (\n                <li key={link.name}>",
+    "context": "          <div>\n            {/* Desktop: Regular heading */}\n            <h3 className=\"hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4\">\n              Inbound Solutions\n            </h3>\n            \n            {/* Mobile: Collapsible heading */}\n            <button ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seavoice/components/Footer.tsx",
+    "text": "Inbound Solutions",
+    "context": "              onClick={() => toggleMobileSection('inboundSolutions')}\n              className=\"lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left\"\n            >\n              Inbound Solutions\n              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.inboundSolutions ? '' : 'rotate-180'}`} />\n            </button>\n            \n            {/* Desktop: Always visible */}",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/components/Footer.tsx",
     "text": "Outbound Solutions",
-    "context": "          {/* Outbound Solutions Links */}\n          <div>\n            <h3 className=\"text-sm font-semibold uppercase tracking-wider mb-4\">\n              Outbound Solutions\n            </h3>\n            <ul className=\"space-y-2\">\n              {outboundSolutionsLinks.slice(0, 6).map((link) => (\n                <li key={link.name}>",
+    "context": "          <div>\n            {/* Desktop: Regular heading */}\n            <h3 className=\"hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4\">\n              Outbound Solutions\n            </h3>\n            \n            {/* Mobile: Collapsible heading */}\n            <button ",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seavoice/components/Footer.tsx",
+    "text": "Outbound Solutions",
+    "context": "              onClick={() => toggleMobileSection('outboundSolutions')}\n              className=\"lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left\"\n            >\n              Outbound Solutions\n              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.outboundSolutions ? '' : 'rotate-180'}`} />\n            </button>\n            \n            {/* Desktop: Always visible */}",
     "type": "jsx-text"
   },
   {
@@ -11860,13 +12887,19 @@
   {
     "file": "src/seavoice/components/Header.tsx",
     "text": "Sign In",
-    "context": "                href=\"https://chat.seasalt.ai/gpt/signin\"\n                className=\"block px-3 py-2 text-base font-medium text-gray-700\"\n              >\n                Sign In\n              </a>\n              <a\n                href=\"https://chat.seasalt.ai/gpt/signup\"\n                className=\"w-full bg-teal-500 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-teal-600 transition-colors text-center block\"",
+    "context": "                  href=\"https://chat.seasalt.ai/gpt/signin\"\n                  className=\"block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors\"\n                >\n                  Sign In\n                </a>\n                <a\n                  href=\"https://chat.seasalt.ai/gpt/signup\"\n                  className=\"w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/components/Header.tsx",
     "text": "Get Started",
-    "context": "                href=\"https://chat.seasalt.ai/gpt/signup\"\n                className=\"w-full bg-teal-500 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-teal-600 transition-colors text-center block\"\n              >\n                Get Started\n              </a>\n            </div>\n          </motion.div>\n        )}",
+    "context": "                  href=\"https://chat.seasalt.ai/gpt/signup\"\n                  className=\"w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors\"\n                >\n                  Get Started\n                </a>\n              </div>\n\n              {/* Back to Main Site */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seavoice/components/Header.tsx",
+    "text": "Back to Main Site",
+    "context": "                  onClick={() => setIsMenuOpen(false)}\n                >\n                  <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                  Back to Main Site\n                </Link>\n              </div>\n\n            {navigation.map((item) => {",
     "type": "jsx-text"
   },
   {
@@ -12737,19 +13770,19 @@
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "Stop Losing Customers to Busy Signals and Long Wait Times",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">\n              Stop Losing Customers to Busy Signals and Long Wait Times\n            </h2>\n          </motion.div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8\">",
+    "context": "            className=\"text-center mb-8 sm:mb-12 lg:mb-16\"\n          >\n            <h2 className=\"text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight\">\n              Stop Losing Customers to Busy Signals and Long Wait Times\n            </h2>\n          </motion.div>\n          \n          <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8\">",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "How SeaVoice Works",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">How SeaVoice Works</h2>\n            <p className=\"text-xl text-gray-600\">Three simple steps to transform your customer communications</p>\n          </motion.div>\n",
+    "context": "            className=\"text-center mb-8 sm:mb-12 lg:mb-16\"\n          >\n            <h2 className=\"text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight\">How SeaVoice Works</h2>\n            <p className=\"text-base sm:text-lg lg:text-xl text-gray-600\">Three simple steps to transform your customer communications</p>\n          </motion.div>\n",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "Three simple steps to transform your customer communications",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">How SeaVoice Works</h2>\n            <p className=\"text-xl text-gray-600\">Three simple steps to transform your customer communications</p>\n          </motion.div>\n\n          <div className=\"grid grid-cols-1 lg:grid-cols-3 gap-8\">",
+    "context": "          >\n            <h2 className=\"text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight\">How SeaVoice Works</h2>\n            <p className=\"text-base sm:text-lg lg:text-xl text-gray-600\">Three simple steps to transform your customer communications</p>\n          </motion.div>\n\n          <div className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8\">",
     "type": "jsx-text"
   },
   {
@@ -12899,12 +13932,12 @@
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "How SeaVoice Works",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">How SeaVoice Works</h2>\n            <p className="
+    "context": "ont-bold text-gray-900 mb-4 sm:mb-6 leading-tight\">How SeaVoice Works</h2>\n            <p className="
   },
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "Three simple steps to transform your customer communications",
-    "context": ">\n            <p className=\"text-xl text-gray-600\">Three simple steps to transform your customer com"
+    "context": "me=\"text-base sm:text-lg lg:text-xl text-gray-600\">Three simple steps to transform your customer com"
   },
   {
     "file": "src/seavoice/pages/HomePage.tsx",
@@ -18998,14 +20031,32 @@
   },
   {
     "file": "src/seax/components/Header.tsx",
-    "text": "Book Demo",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium\"\n            >\n              Book Demo\n            </a>\n          </div>\n\n          {/* Mobile menu button */}",
+    "text": "Sign In",
+    "context": "              href=\"https://seax.seasalt.ai/signin\"\n              className=\"text-gray-700 hover:text-blue-600 font-medium transition-colors\"\n            >\n              Sign In\n            </a>\n            <a\n              href=\"https://seax.seasalt.ai/signup\"\n              className=\"bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/components/Header.tsx",
-    "text": "Book Demo",
-    "context": "                  className=\"block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium\"\n                  onClick={() => setIsMenuOpen(false)}\n                >\n                  Book Demo\n                </a>\n              </div>\n            </div>\n          </div>",
+    "text": "Sign Up",
+    "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium\"\n            >\n              Sign Up\n            </a>\n          </div>\n\n          {/* Mobile menu button */}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seax/components/Header.tsx",
+    "text": "Sign In",
+    "context": "                  href=\"https://seax.seasalt.ai/signin\"\n                  className=\"block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors\"\n                >\n                  Sign In\n                </a>\n                <a\n                  href=\"https://seax.seasalt.ai/signup\"\n                  className=\"w-full block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors\"",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seax/components/Header.tsx",
+    "text": "Sign Up",
+    "context": "                  href=\"https://seax.seasalt.ai/signup\"\n                  className=\"w-full block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors\"\n                >\n                  Sign Up\n                </a>\n                <a\n                  href=\"https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/\"\n                  target=\"_blank\"",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seax/components/Header.tsx",
+    "text": "Back to Main Site",
+    "context": "                  onClick={() => setIsMenuOpen(false)}\n                >\n                  <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                  Back to Main Site\n                </Link>\n              </div>\n\n              {navigation.map((item) => (",
     "type": "jsx-text"
   },
   {
@@ -21160,19 +22211,19 @@
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Simple, Transparent",
-    "context": "      <div className=\"bg-gradient-to-br from-blue-50 to-indigo-100 py-20\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h1 className=\"text-4xl sm:text-5xl font-bold text-gray-900 mb-6\">\n            Simple, Transparent\n            <span className=\"text-blue-600 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-gray-600 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. ",
+    "context": "      <div className=\"bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 py-16 sm:py-24\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h1 className=\"text-4xl sm:text-5xl font-bold text-white mb-6\">\n            Simple, Transparent\n            <span className=\"text-blue-200 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-blue-100 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. ",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Pricing That Scales",
-    "context": "          <h1 className=\"text-4xl sm:text-5xl font-bold text-gray-900 mb-6\">\n            Simple, Transparent\n            <span className=\"text-blue-600 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-gray-600 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. ",
+    "context": "          <h1 className=\"text-4xl sm:text-5xl font-bold text-white mb-6\">\n            Simple, Transparent\n            <span className=\"text-blue-200 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-blue-100 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. ",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Start small or go big - our pricing grows with your business. \n            No hidden fees, no surprises, just predictable costs that deliver results.",
-    "context": "            <span className=\"text-blue-600 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-gray-600 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. \n            No hidden fees, no surprises, just predictable costs that deliver results.\n          </p>\n          \n        </div>\n      </div>",
+    "context": "            <span className=\"text-blue-200 block\">Pricing That Scales</span>\n          </h1>\n          <p className=\"text-xl text-blue-100 mb-8 max-w-3xl mx-auto\">\n            Start small or go big - our pricing grows with your business. \n            No hidden fees, no surprises, just predictable costs that deliver results.\n          </p>\n          \n        </div>\n      </div>",
     "type": "jsx-text"
   },
   {
@@ -21262,43 +22313,43 @@
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "How does volume pricing work?",
-    "context": "          <div className=\"space-y-8\">\n            <div className=\"bg-white rounded-lg p-6\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                How does volume pricing work?\n              </h3>\n              <p className=\"text-gray-600\">\n                Our pricing automatically scales with your usage. Higher volumes get better per-message rates. \n                We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume.",
+    "context": "          <div className=\"space-y-8\">\n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                How does volume pricing work?\n              </h3>\n              <p className=\"text-gray-600\">\n                Our pricing automatically scales with your usage. Higher volumes get better per-message rates. \n                We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume.",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Our pricing automatically scales with your usage. Higher volumes get better per-message rates. \n                We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume.",
-    "context": "                How does volume pricing work?\n              </h3>\n              <p className=\"text-gray-600\">\n                Our pricing automatically scales with your usage. Higher volumes get better per-message rates. \n                We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-lg p-6\">",
+    "context": "                How does volume pricing work?\n              </h3>\n              <p className=\"text-gray-600\">\n                Our pricing automatically scales with your usage. Higher volumes get better per-message rates. \n                We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Are there any hidden fees?",
-    "context": "            \n            <div className=\"bg-white rounded-lg p-6\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                Are there any hidden fees?\n              </h3>\n              <p className=\"text-gray-600\">\n                No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, \n                and there are no long-term contracts or cancellation fees.",
+    "context": "            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                Are there any hidden fees?\n              </h3>\n              <p className=\"text-gray-600\">\n                No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, \n                and there are no long-term contracts or cancellation fees.",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, \n                and there are no long-term contracts or cancellation fees.",
-    "context": "                Are there any hidden fees?\n              </h3>\n              <p className=\"text-gray-600\">\n                No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, \n                and there are no long-term contracts or cancellation fees.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-lg p-6\">",
+    "context": "                Are there any hidden fees?\n              </h3>\n              <p className=\"text-gray-600\">\n                No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, \n                and there are no long-term contracts or cancellation fees.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Can I change plans anytime?",
-    "context": "            \n            <div className=\"bg-white rounded-lg p-6\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                Can I change plans anytime?\n              </h3>\n              <p className=\"text-gray-600\">\n                Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, \n                and you'll be charged prorated amounts.",
+    "context": "            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                Can I change plans anytime?\n              </h3>\n              <p className=\"text-gray-600\">\n                Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, \n                and you'll be charged prorated amounts.",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, \n                and you'll be charged prorated amounts.",
-    "context": "                Can I change plans anytime?\n              </h3>\n              <p className=\"text-gray-600\">\n                Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, \n                and you'll be charged prorated amounts.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-lg p-6\">",
+    "context": "                Can I change plans anytime?\n              </h3>\n              <p className=\"text-gray-600\">\n                Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, \n                and you'll be charged prorated amounts.\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "What about international messaging?",
-    "context": "            \n            <div className=\"bg-white rounded-lg p-6\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                What about international messaging?\n              </h3>\n              <p className=\"text-gray-600\">\n                We support messaging to 200+ countries. Rates vary by destination, but we provide \n                transparent pricing for all regions. Voice calls are available in 100+ countries.",
+    "context": "            \n            <div className=\"bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1\">\n              <h3 className=\"text-lg font-semibold text-gray-900 mb-2\">\n                What about international messaging?\n              </h3>\n              <p className=\"text-gray-600\">\n                We support messaging to 200+ countries. Rates vary by destination, but we provide \n                transparent pricing for all regions. Voice calls are available in 100+ countries.",
     "type": "jsx-text"
   },
   {
@@ -21334,7 +22385,7 @@
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Pricing That Scales",
-    "context": "\n            <span className=\"text-blue-600 block\">Pricing That Scales</span>\n          </h1>\n      "
+    "context": "\n            <span className=\"text-blue-200 block\">Pricing That Scales</span>\n          </h1>\n      "
   },
   {
     "file": "src/seax/pages/Pricing.tsx",

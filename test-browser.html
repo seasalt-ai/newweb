@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>zh-TW Translation Test</title>
+    <script>
+        async function testZhTwTranslations() {
+            console.log('🧪 Testing zh-TW translations...');
+            
+            try {
+                // Test direct JSON access
+                const response = await fetch('/locales/zh-TW.json');
+                const translations = await response.json();
+                
+                console.log('✅ zh-TW.json loaded successfully');
+                console.log('📋 Sample translations:');
+                console.log('  header.products:', translations.header?.products);
+                console.log('  features.mainTitle:', translations.features?.mainTitle);
+                console.log('  hero.title:', translations.hero?.title);
+                
+                // Update the page
+                document.getElementById('status').innerHTML = `
+                    <h2>✅ zh-TW Translations Working!</h2>
+                    <ul>
+                        <li><strong>header.products:</strong> ${translations.header?.products || 'NOT_FOUND'}</li>
+                        <li><strong>features.mainTitle:</strong> ${translations.features?.mainTitle || 'NOT_FOUND'}</li>
+                        <li><strong>hero.title:</strong> ${translations.hero?.title || 'NOT_FOUND'}</li>
+                    </ul>
+                    <p><strong>File size:</strong> ${JSON.stringify(translations).length} characters</p>
+                `;
+                
+            } catch (error) {
+                console.error('❌ Error loading zh-TW translations:', error);
+                document.getElementById('status').innerHTML = `
+                    <h2>❌ Error Loading zh-TW Translations</h2>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+        
+        // Run test when page loads
+        window.addEventListener('DOMContentLoaded', testZhTwTranslations);
+    </script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 2rem; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #1e40af; }
+        ul { background: #f8fafc; padding: 1rem; border-radius: 8px; }
+        li { margin: 0.5rem 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 zh-TW Translation Test</h1>
+        <div id="status">
+            <p>Loading translations...</p>
+        </div>
+        
+        <div style="margin-top: 2rem;">
+            <h3>Next Steps:</h3>
+            <ol>
+                <li>Open browser console to see detailed logs</li>
+                <li>Navigate to <a href="http://localhost:5173/zh-TW" target="_blank">http://localhost:5173/zh-TW</a></li>
+                <li>Verify that the site displays Traditional Chinese text</li>
+                <li>Check browser console for i18n debug messages</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

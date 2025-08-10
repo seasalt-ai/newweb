@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
+import { SUPPORTED_LANGUAGES } from './constants/languages';
 
 i18n
   // Load translations from backend
@@ -13,7 +14,8 @@ i18n
   // Initialize i18next
   .init({
     fallbackLng: 'en',
-    debug: false,
+    supportedLngs: [...SUPPORTED_LANGUAGES],
+    debug: process.env.NODE_ENV === 'development',
     load: 'all', // Load both 'en' and 'en-US' if available
     // Backend configuration
     backend: {
@@ -28,9 +30,11 @@ i18n
     },
     // Detect language from browser
     detection: {
-      order: ['navigator', 'htmlTag', 'path', 'cookie'],
+      order: ['path', 'localStorage', 'cookie', 'navigator', 'htmlTag'],
       caches: ['localStorage', 'cookie'],
+      lookupFromPathIndex: 0,
       lookupLocalStorage: 'i18nextLng',
+      checkWhitelist: true,
     },
     interpolation: {
       escapeValue: false, // React already escapes values
@@ -43,5 +47,24 @@ i18n
     },
   });
 
+// Add logging for debugging (only in development)
+if (process.env.NODE_ENV === 'development') {
+  i18n.on('initialized', () => {
+    console.log('i18n: Initialized with language:', i18n.language);
+    console.log('i18n: Supported languages:', i18n.options.supportedLngs);
+  });
+  
+  i18n.on('languageChanged', (lng) => {
+    console.log('i18n: Language changed to:', lng);
+  });
+  
+  i18n.on('loaded', (loaded) => {
+    console.log('i18n: Resources loaded:', Object.keys(loaded));
+  });
+  
+  i18n.on('failedLoading', (lng, ns, msg) => {
+    console.error('i18n: Failed loading:', lng, ns, msg);
+  });
+}
 
 export default i18n;
