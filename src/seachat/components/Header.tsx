@@ -47,19 +47,6 @@ const Header = () => {
   
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   
-  // Handle body scroll when mobile menu is open
-  useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-    
-    // Cleanup on unmount
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [isMenuOpen]);
   
   const handleMouseEnter = useCallback((dropdown: string) => {
     if (hoverTimeoutRef.current) {
