@@ -103,37 +103,39 @@ const Header = () => {
       <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
+          {/* Logo with dropdown - visible on all screen sizes */}
+          <div className="relative flex items-center">
+            {/* Logo - navigates to main site */}
+            <Link
+              to={`/${i18n.language}`}
+              className="hover:opacity-80 transition-opacity flex items-center"
+            >
+              <img 
+                src='/seasalt-ai-logo.png' 
+                alt='Seasalt.ai' 
+                className='h-6 sm:h-8 w-auto flex-shrink-0'
+              />
+            </Link>
+            
+            {/* Dropdown arrow - opens product dropdown */}
+            <button
+              onClick={() => handleDropdown('products')}
+              onMouseEnter={() => handleDropdown('products')}
+              className="ml-1 p-1 text-gray-700 hover:text-blue-600 transition-colors duration-200"
+            >
+              <ChevronDown className='h-4 w-4' />
+            </button>
+            {openDropdown === 'products' && (
+              <ProductLogoDropdown 
+                isOpen={true} 
+                onClose={() => setOpenDropdown(null)} 
+                currentLanguage={i18n.language} 
+              />
+            )}
+          </div>
+
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <div className="relative flex items-center">
-              {/* Logo - navigates to main site */}
-              <Link
-                to={`/${i18n.language}`}
-                className="hover:opacity-80 transition-opacity"
-              >
-                <img 
-                  src='/seasalt-ai-logo.png' 
-                  alt='Seasalt.ai' 
-                  className='h-6 sm:h-8 w-auto'
-                />
-              </Link>
-              
-              {/* Dropdown arrow - opens product dropdown */}
-              <button
-                onClick={() => handleDropdown('products')}
-                onMouseEnter={() => handleDropdown('products')}
-                className="ml-1 p-1 text-gray-700 hover:text-blue-600 transition-colors duration-200"
-              >
-                <ChevronDown className='h-4 w-4' />
-              </button>
-{openDropdown === 'products' && (
-                <ProductLogoDropdown 
-                  isOpen={true} 
-                  onClose={() => setOpenDropdown(null)} 
-                  currentLanguage={i18n.language} 
-                />
-              )}
-            </div>
             
             <div className="relative">
               <button
@@ -359,9 +361,9 @@ const Header = () => {
             <LanguageSwitcher className="" />
             <a
               href="https://seax.seasalt.ai/signin"
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
-              {t('header.login')}
+              Sign In
             </a>
             <a
                 href="https://seax.seasalt.ai/signup"
@@ -372,14 +374,12 @@ const Header = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden">
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-1.5 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100"
-            >
-              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="lg:hidden p-2"
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
 
         {/* Mobile Navigation */}
@@ -391,10 +391,10 @@ const Header = () => {
                 <div className="flex flex-col space-y-2">
                   <a 
                     href="https://seax.seasalt.ai/signin" 
-                    className="block px-4 py-3 text-center text-gray-700 hover:bg-gray-50 rounded-lg font-medium min-h-touch"
+                    className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    {t('header.login')}
+                    Sign In
                   </a>
                   <a 
                     href="https://seax.seasalt.ai/signup" 

@@ -414,8 +414,7 @@ const Header = () => {
               href="http://wiki.seasalt.ai/seachat"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400"
-              style={{ marginLeft: '0.5rem' }}
+              className="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400 ml-4"
             >
               <BookOpen className="w-5 h-5 mr-2" />
               Wiki
@@ -613,7 +612,7 @@ const Header = () => {
 
             <Link 
               to={createLink('seachat/pricing')} 
-              className={`block font-medium transition-colors px-3 py-2 ${
+              className={`block transition-colors px-3 py-2 ${
                 isActivePath('/pricing') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
               onClick={() => setIsMenuOpen(false)}
@@ -622,7 +621,7 @@ const Header = () => {
             </Link>
             <Link 
               to={createLink('blog')} 
-              className={`block font-medium transition-colors px-3 py-2 ${
+              className={`block transition-colors px-3 py-2 ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
               onClick={() => setIsMenuOpen(false)}
