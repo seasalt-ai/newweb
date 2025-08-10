@@ -493,7 +493,7 @@ const Header = () => {
             <div>
               <button 
                 onClick={() => toggleMobileSection('features')}
-                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
               >
                 {t('seachat.header.features')}
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.features ? '' : 'rotate-180'}`} />
@@ -533,7 +533,7 @@ const Header = () => {
             <div>
               <button 
                 onClick={() => toggleMobileSection('integrations')}
-                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
               >
                 {t('seachat.header.integrations')}
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.integrations ? '' : 'rotate-180'}`} />
@@ -574,7 +574,7 @@ const Header = () => {
             <div>
               <button 
                 onClick={() => toggleMobileSection('solutions')}
-                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
               >
                 {t('seachat.header.solutions')}
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.solutions ? '' : 'rotate-180'}`} />
@@ -613,7 +613,7 @@ const Header = () => {
 
             <Link 
               to={createLink('seachat/pricing')} 
-              className={`block font-medium transition-colors ${
+              className={`block font-medium transition-colors px-3 py-2 ${
                 isActivePath('/pricing') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
               onClick={() => setIsMenuOpen(false)}
@@ -622,7 +622,7 @@ const Header = () => {
             </Link>
             <Link 
               to={createLink('blog')} 
-              className={`block font-medium transition-colors ${
+              className={`block font-medium transition-colors px-3 py-2 ${
                 isActivePath('/blog') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
               }`}
               onClick={() => setIsMenuOpen(false)}
@@ -634,7 +634,7 @@ const Header = () => {
             <div className="pt-4 border-t border-gray-100">
               <button 
                 onClick={() => toggleMobileSection('language')}
-                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
               >
                 {t('seachat.header.language')}
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.language ? '' : 'rotate-180'}`} />
