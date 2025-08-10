@@ -451,7 +451,7 @@ const Header = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="lg:hidden bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto">
-          <div className="px-4 py-6 space-y-6">
+          <div className="px-4 py-6 space-y-3">
             {/* Action Buttons at Top */}
             <div className="space-y-3">
               <a
@@ -507,7 +507,7 @@ const Header = () => {
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <div className="space-y-2 pl-4 pb-2">
+                    <div className="space-y-1 pl-4 pb-2">
                       {featuresDropdown.map((item) => (
                         <Link 
                           key={item.name} 
@@ -547,7 +547,7 @@ const Header = () => {
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <div className="space-y-2 pl-4 pb-2">
+                    <div className="space-y-1 pl-4 pb-2">
                       {integrationsDropdown.slice(0, 4).map((item) => (
                         <Link 
                           key={item.name} 
@@ -588,7 +588,7 @@ const Header = () => {
                     transition={{ duration: 0.2 }}
                     className="overflow-hidden"
                   >
-                    <div className="space-y-2 pl-4 pb-2">
+                    <div className="space-y-1 pl-4 pb-2">
                       {solutionsDropdown.slice(0, 4).map((item) => (
                         <Link 
                           key={item.name} 
