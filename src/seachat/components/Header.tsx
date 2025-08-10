@@ -465,7 +465,7 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden fixed top-[120px] left-0 right-0 bottom-0 bg-white border-b border-gray-100 overflow-y-auto z-40">
+        <div className="lg:hidden bg-white border-b border-gray-100">
           <div className="px-4 py-6 space-y-6">
             {/* Action Buttons at Top */}
             <div className="space-y-3">
