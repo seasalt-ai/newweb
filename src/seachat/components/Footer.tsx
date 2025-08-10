@@ -1,11 +1,28 @@
-import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield, Bot, Brain, Database, BarChart3, Code, Globe, Settings, ShoppingCart, DollarSign, GraduationCap, Building2, Monitor, Briefcase, Book, Server } from 'lucide-react';
+import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield, Bot, Brain, Database, BarChart3, Code, Globe, Settings, ShoppingCart, DollarSign, GraduationCap, Building2, Monitor, Briefcase, Book, Server, ChevronDown } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Mobile collapsible state
+  const [mobileCollapsed, setMobileCollapsed] = useState({
+    features: true,
+    integrations: true,
+    solutions: true,
+    company: true
+  });
+  
+  const toggleMobileSection = (section: 'features' | 'integrations' | 'solutions' | 'company') => {
+    setMobileCollapsed(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
   
   const featuresLinks = [
     { name: t('seachat.header.featuresDropdown.humanAgents'), href: `/${currentLanguage}/seachat/features/human-agents`, icon: Users },
@@ -98,8 +115,20 @@ const Footer = () => {
 
           {/* Features */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.features')}</h3>
-            <ul className="space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.features')}</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('features')}
+              className="lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+            >
+              {t('seachat.header.features')}
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.features ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-3">
               {featuresLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -112,12 +141,51 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.features && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-3 overflow-hidden"
+                  >
+                    {featuresLinks.map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Integrations */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.integrations')}</h3>
-            <ul className="space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.integrations')}</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('integrations')}
+              className="lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+            >
+              {t('seachat.header.integrations')}
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.integrations ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-3">
               {integrationsLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -130,12 +198,51 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.integrations && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-3 overflow-hidden"
+                  >
+                    {integrationsLinks.map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Solutions */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('seachat.header.solutions')}</h3>
-            <ul className="space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.solutions')}</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('solutions')}
+              className="lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+            >
+              {t('seachat.header.solutions')}
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.solutions ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-3">
               {solutionsLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -148,12 +255,51 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.solutions && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-3 overflow-hidden"
+                  >
+                    {solutionsLinks.map((link) => (
+                      <li key={link.name}>
+                        <Link
+                          to={link.href}
+                          className="text-gray-400 hover:text-white transition-colors flex items-center"
+                        >
+                          <link.icon className="w-4 h-4 mr-2" />
+                          {link.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Company */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">{t('footer.company.title')}</h3>
-            <ul className="space-y-3">
+            {/* Desktop: Regular heading */}
+            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('footer.company.title')}</h3>
+            
+            {/* Mobile: Collapsible heading */}
+            <button 
+              onClick={() => toggleMobileSection('company')}
+              className="lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+            >
+              {t('footer.company.title')}
+              <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.company ? '' : 'rotate-180'}`} />
+            </button>
+            
+            {/* Desktop: Always visible */}
+            <ul className="hidden lg:block space-y-3">
               {companyLinks.map((link) => (
                 <li key={link.name}>
                   {link.href.startsWith('http') ? (
@@ -178,6 +324,45 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            {/* Mobile: Collapsible content */}
+            <div className="lg:hidden">
+              <AnimatePresence>
+                {!mobileCollapsed.company && (
+                  <motion.ul 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="space-y-3 overflow-hidden"
+                  >
+                    {companyLinks.map((link) => (
+                      <li key={link.name}>
+                        {link.href.startsWith('http') ? (
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-white transition-colors flex items-center"
+                          >
+                            <link.icon className="w-4 h-4 mr-2" />
+                            {link.name}
+                          </a>
+                        ) : (
+                          <Link
+                            to={link.href}
+                            className="text-gray-400 hover:text-white transition-colors flex items-center"
+                          >
+                            <link.icon className="w-4 h-4 mr-2" />
+                            {link.name}
+                          </Link>
+                        )}
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
 

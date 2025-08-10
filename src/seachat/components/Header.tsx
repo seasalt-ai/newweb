@@ -35,6 +35,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [mobileCollapsed, setMobileCollapsed] = useState({
+    features: true,
+    integrations: true,
+    solutions: true,
+    language: true
+  });
   const location = useLocation();
   const { t, i18n } = useTranslation();
   const { createLink } = useLanguageAwareLinks();
@@ -199,6 +205,13 @@ const Header = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+  };
+
+  const toggleMobileSection = (section: 'features' | 'integrations' | 'solutions' | 'language') => {
+    setMobileCollapsed(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
   };
 
   // Get current language code and name
@@ -438,10 +451,35 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-gray-100">
+        <div className="lg:hidden bg-white border-b border-gray-100 max-h-screen overflow-y-auto">
           <div className="px-4 py-6 space-y-6">
+            {/* Action Buttons at Top */}
+            <div className="space-y-3">
+              <a
+                href="https://chat.seasalt.ai/gpt/signin"
+                className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
+              >
+                {t('seachat.common.signIn')}
+              </a>
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                className="w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+              >
+                {t('seachat.common.getStarted')}
+              </a>
+              <a
+                href="http://wiki.seasalt.ai/seachat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400"
+              >
+                <BookOpen className="w-5 h-5 mr-2" />
+                Wiki
+              </a>
+            </div>
+
             {/* Back to Main Site */}
-            <div className="pb-4 border-b border-gray-100">
+            <div className="pt-4 pb-4 border-t border-gray-100">
               <Link 
                 to={createLink('')} 
                 className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors"
@@ -454,67 +492,124 @@ const Header = () => {
             
             {/* Features Section */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.features')}</h3>
-              <div className="space-y-2 pl-4">
-                {featuresDropdown.map((item) => (
-                  <Link 
-                    key={item.name} 
-                    to={item.href} 
-                    className={`block transition-colors ${
-                      isActivePath(item.href) 
-                        ? 'text-blue-600 font-medium' 
-                        : 'text-gray-600 hover:text-blue-600'
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
+              <button 
+                onClick={() => toggleMobileSection('features')}
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+              >
+                {t('seachat.header.features')}
+                <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.features ? '' : 'rotate-180'}`} />
+              </button>
+              <AnimatePresence>
+                {!mobileCollapsed.features && (
+                  <motion.div 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
                   >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
+                    <div className="space-y-2 pl-4 pb-2">
+                      {featuresDropdown.map((item) => (
+                        <Link 
+                          key={item.name} 
+                          to={item.href} 
+                          className={`flex items-center transition-colors ${
+                            isActivePath(item.href) 
+                              ? 'text-blue-600 font-medium' 
+                              : 'text-gray-600 hover:text-blue-600'
+                          }`}
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <item.icon className="w-4 h-4 mr-3 text-blue-600" />
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             {/* Integrations Section */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.integrations')}</h3>
-              <div className="space-y-2 pl-4">
-                {integrationsDropdown.slice(0, 4).map((item) => (
-                  <Link 
-                    key={item.name} 
-                    to={item.href} 
-                    className={`block transition-colors ${
-                      isActivePath(item.href) 
-                        ? 'text-blue-600 font-medium' 
-                        : 'text-gray-600 hover:text-blue-600'
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
+              <button 
+                onClick={() => toggleMobileSection('integrations')}
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+              >
+                {t('seachat.header.integrations')}
+                <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.integrations ? '' : 'rotate-180'}`} />
+              </button>
+              <AnimatePresence>
+                {!mobileCollapsed.integrations && (
+                  <motion.div 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
                   >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link to={createLink('seachat/integrations')} className="block text-blue-600 font-medium">View All Integrations →</Link>
-              </div>
+                    <div className="space-y-2 pl-4 pb-2">
+                      {integrationsDropdown.slice(0, 4).map((item) => (
+                        <Link 
+                          key={item.name} 
+                          to={item.href} 
+                          className={`flex items-center transition-colors ${
+                            isActivePath(item.href) 
+                              ? 'text-blue-600 font-medium' 
+                              : 'text-gray-600 hover:text-blue-600'
+                          }`}
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <item.icon className="w-4 h-4 mr-3 text-blue-600" />
+                          {item.name}
+                        </Link>
+                      ))}
+                      <Link to={createLink('seachat/integrations')} className="block text-blue-600 font-medium">View All Integrations →</Link>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             {/* Solutions Section */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.solutions')}</h3>
-              <div className="space-y-2 pl-4">
-                {solutionsDropdown.slice(0, 4).map((item) => (
-                  <Link 
-                    key={item.name} 
-                    to={item.href} 
-                    className={`block transition-colors ${
-                      isActivePath(item.href) 
-                        ? 'text-blue-600 font-medium' 
-                        : 'text-gray-600 hover:text-blue-600'
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
+              <button 
+                onClick={() => toggleMobileSection('solutions')}
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+              >
+                {t('seachat.header.solutions')}
+                <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.solutions ? '' : 'rotate-180'}`} />
+              </button>
+              <AnimatePresence>
+                {!mobileCollapsed.solutions && (
+                  <motion.div 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
                   >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link to={createLink('seachat/solutions')} className="block text-blue-600 font-medium">View All Solutions →</Link>
-              </div>
+                    <div className="space-y-2 pl-4 pb-2">
+                      {solutionsDropdown.slice(0, 4).map((item) => (
+                        <Link 
+                          key={item.name} 
+                          to={item.href} 
+                          className={`flex items-center transition-colors ${
+                            isActivePath(item.href) 
+                              ? 'text-blue-600 font-medium' 
+                              : 'text-gray-600 hover:text-blue-600'
+                          }`}
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <item.icon className="w-4 h-4 mr-3 text-blue-600" />
+                          {item.name}
+                        </Link>
+                      ))}
+                      <Link to={createLink('seachat/solutions')} className="block text-blue-600 font-medium">View All Solutions →</Link>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
             <Link 
@@ -538,23 +633,41 @@ const Header = () => {
             
             {/* Language Selector */}
             <div className="pt-4 border-t border-gray-100">
-              <h3 className="font-semibold text-gray-900 mb-3">{t('seachat.header.language')}</h3>
-              <div className="grid grid-cols-2 gap-2">
-                {LANGUAGE_DETAILS.map((lang) => (
-                  <button
-                    key={lang.code}
-                    className={`text-left px-3 py-2 rounded text-sm ${
-                      i18n.language === lang.code ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-700 hover:bg-gray-50'
-                    }`}
-                    onClick={() => {
-                      changeLanguage(lang.code);
-                      setIsMenuOpen(false);
-                    }}
+              <button 
+                onClick={() => toggleMobileSection('language')}
+                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3"
+              >
+                {t('seachat.header.language')}
+                <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.language ? '' : 'rotate-180'}`} />
+              </button>
+              <AnimatePresence>
+                {!mobileCollapsed.language && (
+                  <motion.div 
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                    className="overflow-hidden"
                   >
-                    {lang.name}
-                  </button>
-                ))}
-              </div>
+                    <div className="grid grid-cols-2 gap-2 pl-4">
+                      {LANGUAGE_DETAILS.map((lang) => (
+                        <button
+                          key={lang.code}
+                          className={`text-left px-3 py-2 rounded text-sm ${
+                            i18n.language === lang.code ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-700 hover:bg-gray-50'
+                          }`}
+                          onClick={() => {
+                            changeLanguage(lang.code);
+                            setIsMenuOpen(false);
+                          }}
+                        >
+                          {lang.name}
+                        </button>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
             
             <div className="pt-4 border-t border-gray-100">

@@ -1,19 +1,22 @@
 import { Headphones, Bot, MessageSquareText, Megaphone, MessageCircleMore, MessageSquare } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const UseCases = () => {
+  const { t } = useTranslation();
+  
   const useCases = [
     {
       icon: <Headphones className="h-10 w-10" />,
-      title: 'Contact Center Operations',
-      headline: 'Professional Contact Center with Full Call Management',
-      description: 'Transform your business into a professional contact center with enterprise-grade features.',
+title: t('useCases.contactCenter.title'),
+      headline: t('useCases.contactCenter.headline'),
+      description: t('useCases.contactCenter.description'),
       features: [
-        'Advanced IVR system for call routing',
-        'Automatic call recording & transcription',
-        'Intelligent voicemail with notifications',
-        'Real-time call analytics & reporting',
-        'Agent performance dashboards',
-        'Call queue management'
+        t('useCases.contactCenter.features.ivr'),
+        t('useCases.contactCenter.features.recording'),
+        t('useCases.contactCenter.features.voicemail'),
+        t('useCases.contactCenter.features.analytics'),
+        t('useCases.contactCenter.features.dashboards'),
+        t('useCases.contactCenter.features.queueManagement')
       ],
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
@@ -21,16 +24,16 @@ const UseCases = () => {
     },
     {
       icon: <Bot className="h-10 w-10" />,
-      title: '24/7 Virtual Receptionist',
-      headline: 'Never Miss a Call Again with AI-Powered Reception',
-      description: 'Deploy an intelligent voicebot that works around the clock to capture inbound calls and qualify leads.',
+title: t('useCases.virtualReceptionist.title'),
+      headline: t('useCases.virtualReceptionist.headline'),
+      description: t('useCases.virtualReceptionist.description'),
       features: [
-        'AI voicebot answers calls 24/7',
-        'Appointment booking & scheduling',
-        'Lead qualification & routing',
-        'Custom greeting & responses',
-        'Seamless handoff to human agents',
-        'Multi-language support'
+        t('useCases.virtualReceptionist.features.aiVoicebot'),
+        t('useCases.virtualReceptionist.features.appointments'),
+        t('useCases.virtualReceptionist.features.leadQualification'),
+        t('useCases.virtualReceptionist.features.customGreeting'),
+        t('useCases.virtualReceptionist.features.handoff'),
+        t('useCases.virtualReceptionist.features.multiLanguage')
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -38,16 +41,16 @@ const UseCases = () => {
     },
     {
       icon: <MessageSquareText className="h-10 w-10" />,
-      title: 'Unified SMS Management',
-      headline: 'Manage Multiple Phone Lines & Two-Way SMS in One Platform',
-      description: 'Consolidate all your business phone lines and SMS communications into a single, powerful platform.',
+title: t('useCases.smsManagement.title'),
+      headline: t('useCases.smsManagement.headline'),
+      description: t('useCases.smsManagement.description'),
       features: [
-        'Multiple phone lines in one dashboard',
-        'Two-way SMS conversations',
-        'SMS & call history unified',
-        'Team collaboration on messages',
-        'Automated SMS responses',
-        'Local & toll-free number support'
+        t('useCases.smsManagement.features.multipleLines'),
+        t('useCases.smsManagement.features.twoWaySms'),
+        t('useCases.smsManagement.features.unifiedHistory'),
+        t('useCases.smsManagement.features.teamCollaboration'),
+        t('useCases.smsManagement.features.automatedResponses'),
+        t('useCases.smsManagement.features.numberSupport')
       ],
       color: 'text-purple-600',
       bgColor: 'bg-purple-50',
@@ -55,16 +58,16 @@ const UseCases = () => {
     },
     {
       icon: <Megaphone className="h-10 w-10" />,
-      title: 'SMS Marketing Campaigns',
-      headline: 'Launch Powerful A2P SMS Campaigns with 10DLC & Toll-Free',
-      description: 'Execute professional SMS marketing campaigns with high deliverability and compliance.',
+title: t('useCases.smsMarketing.title'),
+      headline: t('useCases.smsMarketing.headline'),
+      description: t('useCases.smsMarketing.description'),
       features: [
-        '10DLC registered campaigns',
-        'Toll-free & short code support',
-        'High-volume message delivery',
-        'Campaign performance analytics',
-        'Compliance & opt-out management',
-        'Automated drip campaigns'
+        t('useCases.smsMarketing.features.tenDlc'),
+        t('useCases.smsMarketing.features.tollFree'),
+        t('useCases.smsMarketing.features.highVolume'),
+        t('useCases.smsMarketing.features.analytics'),
+        t('useCases.smsMarketing.features.compliance'),
+        t('useCases.smsMarketing.features.dripCampaigns')
       ],
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
@@ -72,16 +75,16 @@ const UseCases = () => {
     },
     {
       icon: <MessageCircleMore className="h-10 w-10" />,
-      title: 'WhatsApp Business Campaigns',
-      headline: 'Reach Global Customers with WhatsApp Business Platform',
-      description: 'Launch targeted WhatsApp campaigns using the official WhatsApp Business Platform.',
+title: t('useCases.whatsappBusiness.title'),
+      headline: t('useCases.whatsappBusiness.headline'),
+      description: t('useCases.whatsappBusiness.description'),
       features: [
-        'WhatsApp Business API integration',
-        'Template message campaigns',
-        'Automated chatbot responses',
-        'Rich media message support',
-        'Global customer reach',
-        'Conversation analytics'
+        t('useCases.whatsappBusiness.features.apiIntegration'),
+        t('useCases.whatsappBusiness.features.templateMessages'),
+        t('useCases.whatsappBusiness.features.automatedChatbot'),
+        t('useCases.whatsappBusiness.features.richMedia'),
+        t('useCases.whatsappBusiness.features.globalReach'),
+        t('useCases.whatsappBusiness.features.analytics')
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -89,16 +92,16 @@ const UseCases = () => {
     },
     {
       icon: <MessageSquare className="h-10 w-10" />,
-      title: 'Intelligent Chatbot and Voicebot AI Support',
-      headline: 'AI-Powered Customer Support That Never Sleeps',
-      description: 'Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.',
+title: t('useCases.aiSupport.title'),
+      headline: t('useCases.aiSupport.headline'),
+      description: t('useCases.aiSupport.description'),
       features: [
-        '24/7 automated customer support',
-        'Multi-channel chatbot deployment',
-        'Instant response to common queries',
-        'Seamless human agent handoff',
-        'Continuous learning & improvement',
-        'Custom knowledge base integration'
+        t('useCases.aiSupport.features.automated24x7'),
+        t('useCases.aiSupport.features.multiChannel'),
+        t('useCases.aiSupport.features.instantResponse'),
+        t('useCases.aiSupport.features.humanHandoff'),
+        t('useCases.aiSupport.features.continuousLearning'),
+        t('useCases.aiSupport.features.knowledgeBase')
       ],
       color: 'text-indigo-600',
       bgColor: 'bg-indigo-50',
@@ -111,11 +114,10 @@ const UseCases = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Powerful Use Cases for Every Business Need
+            {t('useCases.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            From contact centers to marketing campaigns, see how Seasalt.ai adapts to your specific business requirements 
-            with enterprise-grade features in a simple, unified platform.
+            {t('useCases.description')}
           </p>
         </div>
 
@@ -145,7 +147,7 @@ const UseCases = () => {
                 {/* Right Column - Features */}
                 <div>
                   <h5 className="text-xs sm:text-sm font-semibold text-gray-900 mb-3 sm:mb-4 uppercase tracking-wide">
-                    Key Features
+                    {t('useCases.keyFeatures')}
                   </h5>
                   <ul className="space-y-2 sm:space-y-3">
                     {useCase.features.map((feature, featureIndex) => (
@@ -164,22 +166,22 @@ const UseCases = () => {
         {/* CTA Section */}
         <div className="mt-16 text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 md:p-12 text-white">
           <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
-            Ready to Transform Your Business Communications?
+            {t('useCases.cta.title')}
           </h3>
           <p className="text-lg sm:text-xl opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Choose the use cases that fit your business needs. Start with our free plan and scale as you grow.
+            {t('useCases.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
                href="https://seax.seasalt.ai/signup"
                className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
              >
-               Sign Up
+               {t('useCases.cta.signUp')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
-              Book A Demo
+              {t('useCases.cta.bookDemo')}
             </a>
           </div>
         </div>

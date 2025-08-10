@@ -1,4 +1,5 @@
 import { MessageSquare, Users, Video, Mic } from 'lucide-react';
+import { TFunction } from 'i18next';
 
 export interface SubProduct {
   title: string;
@@ -13,43 +14,49 @@ export interface Product {
   icon?: any;
 }
 
-export const products: Product[] = [
+export const getProducts = (t: TFunction): Product[] => [
   {
-    title: 'SeaChat',
+    title: t('productsData.seachat.title'),
     href: '/seachat',
-    description: 'Respond to customers 24/7',
+    description: t('productsData.seachat.description'),
     icon: MessageSquare
   },
   {
-    title: 'SeaX',
+    title: t('productsData.seax.title'),
     href: '/seax',
-    description: 'Outreach to customers in bulk',
+    description: t('productsData.seax.description'),
     icon: Users
   },
   {
-    title: 'SeaMeet',
+    title: t('productsData.seameet.title'),
     href: 'http://meet.seasalt.ai/',
-    description: 'Copilot for meetings & calls',
+    description: t('productsData.seameet.description'),
     icon: Video
   },
   {
-    title: 'SeaVoice',
+    title: t('productsData.seavoice.title'),
     href: '/seavoice',
-    description: 'AI voice agents for calls',
+    description: t('productsData.seavoice.description'),
     icon: Mic,
     subProducts: [
       {
-        title: 'Text To Speech',
+        title: t('productsData.seavoice.subProducts.tts'),
         href: 'https://suite.seasalt.ai/tts/'
       },
       {
-        title: 'Speech To Text',
+        title: t('productsData.seavoice.subProducts.stt'),
         href: 'https://suite.seasalt.ai/stt/'
       },
       {
-        title: 'Discord STT Bot',
+        title: t('productsData.seavoice.subProducts.discord'),
         href: 'https://voice.seasalt.ai/discord/'
       }
     ]
   }
 ];
+
+// Create a fallback t function for backward compatibility
+const fallbackT = (key: string) => key;
+
+// Backward compatibility export (will show keys as fallback)
+export const products = getProducts(fallbackT);

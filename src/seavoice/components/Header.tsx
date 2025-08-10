@@ -45,6 +45,11 @@ const Header = () => {
   const [isOutboundSolutionsOpen, setIsOutboundSolutionsOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isLogoDropdownOpen, setIsLogoDropdownOpen] = useState(false);
+  
+  // Mobile collapsible states
+  const [mobilePlatformCollapsed, setMobilePlatformCollapsed] = useState(true);
+  const [mobileInboundCollapsed, setMobileInboundCollapsed] = useState(true);
+  const [mobileOutboundCollapsed, setMobileOutboundCollapsed] = useState(true);
   const location = useLocation();
   const navigate = useNavigate();
   const { i18n } = useTranslation();
@@ -297,16 +302,81 @@ const Header = () => {
             exit={{ opacity: 0, y: -10 }}
             className="md:hidden py-4 border-t border-gray-200"
           >
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              if (item.hasDropdown) {
+                return (
+                  <div key={item.name} className="space-y-1">
+                    {/* Collapsible header for mobile */}
+                    <button
+                      onClick={() => {
+                        if (item.name === 'Platform') setMobilePlatformCollapsed(!mobilePlatformCollapsed);
+                        if (item.name === 'Inbound Solutions') setMobileInboundCollapsed(!mobileInboundCollapsed);
+                        if (item.name === 'Outbound Solutions') setMobileOutboundCollapsed(!mobileOutboundCollapsed);
+                      }}
+                      className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
+                    >
+                      <span>{item.name}</span>
+                      <ChevronDown 
+                        className={`w-4 h-4 transition-transform duration-200 ${
+                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
+                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
+                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                            ? 'transform rotate-180' 
+                            : ''
+                        }`} 
+                      />
+                    </button>
+                    
+                    {/* Collapsible content */}
+                    <motion.div
+                      initial={false}
+                      animate={{ 
+                        height: 
+                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
+                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
+                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                            ? 'auto' 
+                            : 0,
+                        opacity: 
+                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
+                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
+                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                            ? 1 
+                            : 0
+                      }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      className="overflow-hidden"
+                    >
+                      <div className="pl-4 space-y-1">
+                        {item.dropdownItems?.map((dropdownItem) => (
+                          <Link
+                            key={dropdownItem.name}
+                            to={dropdownItem.href}
+                            className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-md"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            <dropdownItem.icon className="w-4 h-4 mr-2" />
+                            {dropdownItem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </motion.div>
+                  </div>
+                );
+              } else {
+                return (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                );
+              }
+            })}
+            
             {/* Mobile Language Selector */}
             <div className="px-3 py-2">
               <LanguageSwitcher className="w-full" />

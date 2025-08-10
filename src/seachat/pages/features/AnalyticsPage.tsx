@@ -7,28 +7,28 @@ const AnalyticsPage = () => {
   const metrics = [
     {
       icon: Users,
-      title: t('features.analytics.metrics.satisfaction.title', 'Customer Satisfaction'),
+      title: t('seachat.features.analytics.metrics.satisfaction.title', 'Customer Satisfaction'),
       value: '94.5%',
       change: '+2.3%',
       color: 'from-green-500 to-emerald-500'
     },
     {
       icon: Clock,
-      title: t('features.analytics.metrics.responseTime.title', 'Average Response Time'),
+      title: t('seachat.features.analytics.metrics.responseTime.title', 'Average Response Time'),
       value: '1.2 min',
       change: '-15%',
       color: 'from-blue-500 to-indigo-500'
     },
     {
       icon: Target,
-      title: t('features.analytics.metrics.resolution.title', 'Resolution Rate'),
+      title: t('seachat.features.analytics.metrics.resolution.title', 'Resolution Rate'),
       value: '87.3%',
       change: '+5.1%',
       color: 'from-purple-500 to-pink-500'
     },
     {
       icon: TrendingUp,
-      title: t('features.analytics.metrics.growth.title', 'Monthly Growth'),
+      title: t('seachat.features.analytics.metrics.growth.title', 'Monthly Growth'),
       value: '23.4%',
       change: '+8.2%',
       color: 'from-orange-500 to-red-500'
@@ -38,46 +38,46 @@ const AnalyticsPage = () => {
   const features = [
     {
       icon: BarChart3,
-      title: t('features.analytics.features.dashboards.title', 'Real-time Dashboards'),
-      description: t('features.analytics.features.dashboards.description', 'Monitor your support performance with live, customizable dashboards.'),
+      title: t('seachat.features.analytics.seachat.features.dashboards.title', 'Real-time Dashboards'),
+      description: t('seachat.features.analytics.seachat.features.dashboards.description', 'Monitor your support performance with live, customizable dashboards.'),
       benefits: [
-        t('features.analytics.features.dashboards.benefits.metrics', 'Live performance metrics'), 
-        t('features.analytics.features.dashboards.benefits.kpi', 'Custom KPI tracking'), 
-        t('features.analytics.features.dashboards.benefits.team', 'Team performance views'), 
-        t('features.analytics.features.dashboards.benefits.alerts', 'Alert notifications')
+        t('seachat.features.analytics.seachat.features.dashboards.benefits.metrics', 'Live performance metrics'), 
+        t('seachat.features.analytics.seachat.features.dashboards.benefits.kpi', 'Custom KPI tracking'), 
+        t('seachat.features.analytics.seachat.features.dashboards.benefits.team', 'Team performance views'), 
+        t('seachat.features.analytics.seachat.features.dashboards.benefits.alerts', 'Alert notifications')
       ]
     },
     {
       icon: TrendingUp,
-      title: t('features.analytics.features.reporting.title', 'Advanced Reporting'),
-      description: t('features.analytics.features.reporting.description', 'Generate detailed reports with actionable insights and trends.'),
+      title: t('seachat.features.analytics.seachat.features.reporting.title', 'Advanced Reporting'),
+      description: t('seachat.features.analytics.seachat.features.reporting.description', 'Generate detailed reports with actionable insights and trends.'),
       benefits: [
-        t('features.analytics.features.reporting.benefits.automated', 'Automated report generation'), 
-        t('features.analytics.features.reporting.benefits.dates', 'Custom date ranges'), 
-        t('features.analytics.features.reporting.benefits.export', 'Export capabilities'), 
-        t('features.analytics.features.reporting.benefits.scheduled', 'Scheduled delivery')
+        t('seachat.features.analytics.seachat.features.reporting.benefits.automated', 'Automated report generation'), 
+        t('seachat.features.analytics.seachat.features.reporting.benefits.dates', 'Custom date ranges'), 
+        t('seachat.features.analytics.seachat.features.reporting.benefits.export', 'Export capabilities'), 
+        t('seachat.features.analytics.seachat.features.reporting.benefits.scheduled', 'Scheduled delivery')
       ]
     },
     {
       icon: Eye,
-      title: t('features.analytics.features.journey.title', 'Customer Journey Analytics'),
-      description: t('features.analytics.features.journey.description', 'Track customer interactions across all touchpoints and channels.'),
+      title: t('seachat.features.analytics.seachat.features.journey.title', 'Customer Journey Analytics'),
+      description: t('seachat.features.analytics.seachat.features.journey.description', 'Track customer interactions across all touchpoints and channels.'),
       benefits: [
-        t('features.analytics.features.journey.benefits.tracking', 'Multi-channel tracking'), 
-        t('features.analytics.features.journey.benefits.visualization', 'Journey visualization'), 
-        t('features.analytics.features.journey.benefits.conversion', 'Conversion analysis'), 
-        t('features.analytics.features.journey.benefits.dropoff', 'Drop-off identification')
+        t('seachat.features.analytics.seachat.features.journey.benefits.tracking', 'Multi-channel tracking'), 
+        t('seachat.features.analytics.seachat.features.journey.benefits.visualization', 'Journey visualization'), 
+        t('seachat.features.analytics.seachat.features.journey.benefits.conversion', 'Conversion analysis'), 
+        t('seachat.features.analytics.seachat.features.journey.benefits.dropoff', 'Drop-off identification')
       ]
     },
     {
       icon: Target,
-      title: t('features.analytics.features.optimization.title', 'Performance Optimization'),
-      description: t('features.analytics.features.optimization.description', 'Identify bottlenecks and optimize your support operations.'),
+      title: t('seachat.features.analytics.seachat.features.optimization.title', 'Performance Optimization'),
+      description: t('seachat.features.analytics.seachat.features.optimization.description', 'Identify bottlenecks and optimize your support operations.'),
       benefits: [
-        t('features.analytics.features.optimization.benefits.bottlenecks', 'Bottleneck detection'), 
-        t('features.analytics.features.optimization.benefits.resources', 'Resource allocation'), 
-        t('features.analytics.features.optimization.benefits.efficiency', 'Efficiency recommendations'), 
-        t('features.analytics.features.optimization.benefits.roi', 'ROI analysis')
+        t('seachat.features.analytics.seachat.features.optimization.benefits.bottlenecks', 'Bottleneck detection'), 
+        t('seachat.features.analytics.seachat.features.optimization.benefits.resources', 'Resource allocation'), 
+        t('seachat.features.analytics.seachat.features.optimization.benefits.efficiency', 'Efficiency recommendations'), 
+        t('seachat.features.analytics.seachat.features.optimization.benefits.roi', 'ROI analysis')
       ]
     }
   ];
@@ -91,11 +91,11 @@ const AnalyticsPage = () => {
             <div className="flex items-center justify-center mb-6">
               <BarChart3 className="w-16 h-16 text-blue-300 mr-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                {t('features.analytics.title', 'Analytics & Insights')}
+                {t('seachat.features.analytics.title', 'Analytics & Insights')}
               </h1>
             </div>
             <p className="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
-              {t('features.analytics.subtitle', 'Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.')}
+              {t('seachat.features.analytics.subtitle', 'Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -124,10 +124,10 @@ const AnalyticsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.analytics.metricsTitle', 'Key Performance Metrics')}
+              {t('seachat.features.analytics.metricsTitle', 'Key Performance Metrics')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.analytics.metricsSubtitle', 'Track the metrics that matter most to your customer support success.')}
+              {t('seachat.features.analytics.metricsSubtitle', 'Track the metrics that matter most to your customer support success.')}
             </p>
           </div>
 
@@ -146,7 +146,7 @@ const AnalyticsPage = () => {
                   <p className="text-gray-600 mb-2">{metric.title}</p>
                   <div className="flex items-center text-green-600 text-sm font-medium">
                     <TrendingUp className="w-4 h-4 mr-1" />
-                    {metric.change} {t('features.analytics.metrics.period', 'this month')}
+                    {metric.change} {t('seachat.features.analytics.metrics.period', 'this month')}
                   </div>
                 </div>
               );
@@ -160,10 +160,10 @@ const AnalyticsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.analytics.featuresTitle', 'Comprehensive Analytics Suite')}
+              {t('seachat.features.analytics.featuresTitle', 'Comprehensive Analytics Suite')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.analytics.featuresSubtitle', 'Everything you need to understand, measure, and improve your customer support operations.')}
+              {t('seachat.features.analytics.featuresSubtitle', 'Everything you need to understand, measure, and improve your customer support operations.')}
             </p>
           </div>
 
@@ -202,17 +202,17 @@ const AnalyticsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('features.analytics.dashboardTitle', 'Interactive Dashboard Preview')}
+              {t('seachat.features.analytics.dashboardTitle', 'Interactive Dashboard Preview')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('features.analytics.dashboardSubtitle', 'See how our analytics dashboard provides actionable insights at a glance.')}
+              {t('seachat.features.analytics.dashboardSubtitle', 'See how our analytics dashboard provides actionable insights at a glance.')}
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-gray-900 to-blue-900 rounded-2xl p-8 text-white">
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="lg:col-span-2">
-                <h3 className="text-xl font-bold mb-6">{t('features.analytics.dashboard.overview', 'Performance Overview')}</h3>
+                <h3 className="text-xl font-bold mb-6">{t('seachat.features.analytics.dashboard.overview', 'Performance Overview')}</h3>
                 <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
                   <div className="h-64 flex items-end justify-between space-x-2">
                     {[65, 78, 82, 71, 89, 94, 87, 92, 85, 96, 88, 91].map((height, index) => (
@@ -224,26 +224,26 @@ const AnalyticsPage = () => {
                     ))}
                   </div>
                   <div className="flex justify-between mt-4 text-sm text-blue-200">
-                    <span>{t('features.analytics.dashboard.months.jan', 'Jan')}</span>
-                    <span>{t('features.analytics.dashboard.months.dec', 'Dec')}</span>
+                    <span>{t('seachat.features.analytics.dashboard.months.jan', 'Jan')}</span>
+                    <span>{t('seachat.features.analytics.dashboard.months.dec', 'Dec')}</span>
                   </div>
                 </div>
               </div>
               
               <div>
-                <h3 className="text-xl font-bold mb-6">{t('features.analytics.dashboard.quickStats', 'Quick Stats')}</h3>
+                <h3 className="text-xl font-bold mb-6">{t('seachat.features.analytics.dashboard.quickStats', 'Quick Stats')}</h3>
                 <div className="space-y-4">
                   <div className="bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                     <div className="text-2xl font-bold">1,247</div>
-                    <div className="text-blue-200">{t('features.analytics.dashboard.activeConversations', 'Active Conversations')}</div>
+                    <div className="text-blue-200">{t('seachat.features.analytics.dashboard.activeConversations', 'Active Conversations')}</div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                     <div className="text-2xl font-bold">98.2%</div>
-                    <div className="text-blue-200">{t('features.analytics.dashboard.systemUptime', 'System Uptime')}</div>
+                    <div className="text-blue-200">{t('seachat.features.analytics.dashboard.systemUptime', 'System Uptime')}</div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4 backdrop-blur-sm">
                     <div className="text-2xl font-bold">4.8/5</div>
-                    <div className="text-blue-200">{t('features.analytics.dashboard.customerRating', 'Customer Rating')}</div>
+                    <div className="text-blue-200">{t('seachat.features.analytics.dashboard.customerRating', 'Customer Rating')}</div>
                   </div>
                 </div>
               </div>
@@ -256,10 +256,10 @@ const AnalyticsPage = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            {t('features.analytics.ctaTitle', 'Start Making Data-Driven Decisions')}
+            {t('seachat.features.analytics.ctaTitle', 'Start Making Data-Driven Decisions')}
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            {t('features.analytics.ctaSubtitle', 'Unlock the power of analytics to optimize your customer support and drive business growth.')}
+            {t('seachat.features.analytics.ctaSubtitle', 'Unlock the power of analytics to optimize your customer support and drive business growth.')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
