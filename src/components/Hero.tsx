@@ -34,7 +34,7 @@ const Hero = () => {
                 <Trans
                   i18nKey="hero.titleWithGradient"
                   components={{
-                    1: <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent" />
+                    1: <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent text-3xl sm:text-4xl lg:text-6xl font-bold" />
                   }}
                 />
               </h1>
