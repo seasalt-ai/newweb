@@ -68,7 +68,6 @@ const SeaChatRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seachat', '');
   const redirectTo = `/${DEFAULT_LANGUAGE}/seachat${subPath}`;
-  console.log('[SeaChatRedirect] Redirecting:', { from: location.pathname, to: redirectTo, subPath });
   return <Navigate to={redirectTo} replace />;
 };
 
@@ -77,7 +76,6 @@ const SeaXRedirect = () => {
   const location = useLocation();
   const subPath = location.pathname.replace('/seax', '');
   const redirectTo = `/${DEFAULT_LANGUAGE}/seax${subPath}`;
-  console.log('[SeaXRedirect] Redirecting:', { from: location.pathname, to: redirectTo, subPath });
   return <Navigate to={redirectTo} replace />;
 };
 
@@ -124,7 +122,6 @@ function App() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
-  console.log('[App] Rendering with:', { currentLanguage, i18nLanguage: i18n.language });
 
   // Set basename for GitHub Pages if needed (e.g., '/new-seasalt-ai-website')
   // If deploying to root, set to '/'. Adjust as needed for your deployment.
