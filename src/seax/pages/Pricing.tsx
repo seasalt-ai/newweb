@@ -171,13 +171,13 @@ const Pricing = () => {
       <Header />
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+      <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
             Simple, Transparent
-            <span className="text-blue-600 block">Pricing That Scales</span>
+            <span className="text-blue-200 block">Pricing That Scales</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
             Start small or go big - our pricing grows with your business. 
             No hidden fees, no surprises, just predictable costs that deliver results.
           </p>
@@ -186,7 +186,7 @@ const Pricing = () => {
       </div>
 
       {/* Pricing Tiers */}
-      <div className="py-20 bg-white">
+      <div className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -214,7 +214,7 @@ const Pricing = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {pricingTiers.map((tier, index) => (
-              <div key={index} className="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col h-full">
+              <div key={index} className="relative bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col h-full hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 {/* Header with gradient background */}
                 <div className={`bg-gradient-to-r ${tier.bgColor} p-8 text-center`}>
                   <div className="text-sm text-white/80 mb-2">{tier.subheader}</div>
@@ -296,7 +296,7 @@ const Pricing = () => {
       </div>
 
       {/* Channel-Specific Pricing */}
-      <div className="py-20 bg-gray-50">
+      <div className="py-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -309,7 +309,7 @@ const Pricing = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {channelPricing.map((channel, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm">
+              <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className={`p-3 rounded-lg ${getColorClasses(channel.color)}`}>
                     <channel.icon className="w-6 h-6" />
@@ -372,14 +372,14 @@ const Pricing = () => {
       </div>
 
       {/* Omni-channel Calculator */}
-      <div className="py-20 bg-white">
+      <div className="py-20 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <OmniChannelCalculator />
         </div>
       </div>
 
       {/* ROI Calculator */}
-      <div className="py-20 bg-white">
+      <div className="py-20 bg-gradient-to-br from-rose-50 via-pink-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -395,7 +395,7 @@ const Pricing = () => {
       </div>
 
       {/* FAQ Section */}
-      <div className="py-20 bg-gray-50">
+      <div className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -404,7 +404,7 @@ const Pricing = () => {
           </div>
           
           <div className="space-y-8">
-            <div className="bg-white rounded-lg p-6">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 How does volume pricing work?
               </h3>
@@ -414,7 +414,7 @@ const Pricing = () => {
               </p>
             </div>
             
-            <div className="bg-white rounded-lg p-6">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Are there any hidden fees?
               </h3>
@@ -424,7 +424,7 @@ const Pricing = () => {
               </p>
             </div>
             
-            <div className="bg-white rounded-lg p-6">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Can I change plans anytime?
               </h3>
@@ -434,7 +434,7 @@ const Pricing = () => {
               </p>
             </div>
             
-            <div className="bg-white rounded-lg p-6">
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 What about international messaging?
               </h3>

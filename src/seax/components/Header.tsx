@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, MessageSquare, Phone, Hash, Building2, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, Vote, Heart, DollarSign } from 'lucide-react';
+import { Menu, X, ChevronDown, MessageSquare, Phone, Hash, Building2, Target, Zap, Users, Calendar, AlertTriangle, ShoppingCart, Vote, Heart, DollarSign, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Custom WhatsApp icon component
@@ -180,7 +180,7 @@ const Header = () => {
                 {/* Logo - navigates to SeaX home */}
                 <Link
                   to={getLocalizedPath('')}
-                  className="hover:opacity-80 transition-opacity"
+                  className="hover:opacity-80 transition-opacity flex items-center"
                 >
                   <img 
                     src="/seax-logo.png" 
@@ -193,7 +193,7 @@ const Header = () => {
                 <button
                   onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
                   onMouseEnter={() => setOpenDropdown('logo')}
-                  className="ml-1 p-1 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                  className="ml-1 p-1 text-gray-600 hover:text-blue-600 transition-colors duration-200 flex items-center"
                 >
                   <ChevronDown className="w-4 h-4" />
                 </button>
@@ -280,16 +280,33 @@ const Header = () => {
                 )}
               </div>
             ))}
+
+            {/* Wiki (standout) */}
+            <a
+              href="https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400 ml-4"
+            >
+              <BookOpen className="w-5 h-5 mr-2" />
+              Wiki
+            </a>
           </nav>
 
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <LanguageSwitcher />
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href="https://seax.seasalt.ai/signin"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              Sign In
+            </a>
+            <a
+              href="https://seax.seasalt.ai/signup"
               className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
             >
-              Book Demo
+              Sign Up
             </a>
           </div>
 
@@ -306,15 +323,52 @@ const Header = () => {
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+          <div className="md:hidden bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto">
+            <div className="px-4 py-6 space-y-3">
+              {/* Action Buttons at Top */}
+              <div className="space-y-3">
+                <a
+                  href="https://seax.seasalt.ai/signin"
+                  className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
+                >
+                  Sign In
+                </a>
+                <a
+                  href="https://seax.seasalt.ai/signup"
+                  className="w-full block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  Sign Up
+                </a>
+                <a
+                  href="https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400"
+                >
+                  <BookOpen className="w-5 h-5 mr-2" />
+                  Wiki
+                </a>
+              </div>
+
+              {/* Back to Main Site */}
+              <div className="pt-4 pb-4 border-t border-gray-100">
+                <Link 
+                  to="/" 
+                  className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
+                  Back to Main Site
+                </Link>
+              </div>
+
               {navigation.map((item) => (
                 <div key={item.name}>
                   {item.dropdown ? (
                     <div>
                       <button
                         onClick={() => setOpenDropdown(openDropdown === item.name.toLowerCase() ? null : item.name.toLowerCase())}
-                        className="w-full text-left block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                        className="w-full text-left block px-3 py-2 text-base font-semibold text-gray-900 hover:text-blue-600 hover:bg-gray-50"
                       >
                         <div className="flex items-center justify-between">
                           <span>{item.name}</span>
@@ -359,7 +413,7 @@ const Header = () => {
                   ) : (
                     <Link
                       to={item.href}
-                      className={`block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 ${
+                      className={`block px-3 py-2 text-base text-gray-700 hover:text-blue-600 hover:bg-gray-50 ${
                         isActivePath(item.href) ? 'text-blue-600 bg-gray-50' : ''
                       }`}
                       onClick={() => setIsMenuOpen(false)}
@@ -369,14 +423,10 @@ const Header = () => {
                   )}
                 </div>
               ))}
-              <div className="pt-4 border-t">
-                <a
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
-                  className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Book Demo
-                </a>
+              
+              {/* Mobile Language Selector */}
+              <div className="px-3 py-2 border-t border-gray-200 mt-4 pt-4">
+                <LanguageSwitcher className="w-full" />
               </div>
             </div>
           </div>

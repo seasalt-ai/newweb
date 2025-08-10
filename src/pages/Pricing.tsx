@@ -208,17 +208,22 @@ const PricingPage = () => {
       {/* Global Header */}
       <Header />
       {/* Main Content */}
-      <main className="py-12 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Hero Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Simple, Transparent Pricing That Grows With You
-            </h1>
-            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8">
-              No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.
-            </p>
+      <main>
+        {/* Hero Section with Gradient Background */}
+        <section className="bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 py-16 sm:py-24">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+                Simple, Transparent Pricing That Grows With You
+              </h1>
+              <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-6 sm:mb-8">
+                No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.
+              </p>
+            </div>
           </div>
+        </section>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden py-12 sm:py-20">
 
           {/* Strategy 3: Audience-Focused Section */}
           <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50 mb-16">
@@ -889,7 +894,7 @@ const PricingPage = () => {
               <div className="flex flex-wrap justify-center items-center gap-6 text-blue-200 text-sm">
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>One-Click Setup</span>
+                  <span>No Coding Required</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />

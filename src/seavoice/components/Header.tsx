@@ -122,7 +122,7 @@ const Header = () => {
               {/* Logo - navigates to SeaVoice home */}
               <Link
                 to={`/${i18n.language}/seavoice`}
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-opacity flex items-center"
               >
                 <img 
                   src="/seavoice-logo.png" 
@@ -135,7 +135,7 @@ const Header = () => {
               <button 
                 onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
                 onMouseEnter={() => setIsLogoDropdownOpen(true)}
-                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200 flex items-center"
               >
                 <ChevronDown className="w-4 h-4" />
               </button>
@@ -300,8 +300,37 @@ const Header = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="md:hidden py-4 border-t border-gray-200"
+            className="md:hidden bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto"
           >
+            <div className="px-4 py-6 space-y-3">
+              {/* Action Buttons at Top */}
+              <div className="space-y-3">
+                <a
+                  href="https://chat.seasalt.ai/gpt/signin"
+                  className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
+                >
+                  Sign In
+                </a>
+                <a
+                  href="https://chat.seasalt.ai/gpt/signup"
+                  className="w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  Get Started
+                </a>
+              </div>
+
+              {/* Back to Main Site */}
+              <div className="pt-4 pb-4 border-t border-gray-100">
+                <Link 
+                  to="/" 
+                  className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
+                  Back to Main Site
+                </Link>
+              </div>
+
             {navigation.map((item) => {
               if (item.hasDropdown) {
                 return (
@@ -313,7 +342,7 @@ const Header = () => {
                         if (item.name === 'Inbound Solutions') setMobileInboundCollapsed(!mobileInboundCollapsed);
                         if (item.name === 'Outbound Solutions') setMobileOutboundCollapsed(!mobileOutboundCollapsed);
                       }}
-                      className="w-full flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
+                      className="w-full flex items-center justify-between px-3 py-2 text-base font-semibold text-gray-900 hover:text-blue-600"
                     >
                       <span>{item.name}</span>
                       <ChevronDown 
@@ -368,7 +397,7 @@ const Header = () => {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
+                    className="block px-3 py-2 text-base text-gray-700 hover:text-blue-600"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
@@ -378,23 +407,9 @@ const Header = () => {
             })}
             
             {/* Mobile Language Selector */}
-            <div className="px-3 py-2">
+            <div className="px-3 py-2 border-t border-gray-200 mt-4 pt-4">
               <LanguageSwitcher className="w-full" />
             </div>
-
-            <div className="mt-4 pt-4 border-t border-gray-200 space-y-2">
-              <a
-                href="https://chat.seasalt.ai/gpt/signin"
-                className="block px-3 py-2 text-base font-medium text-gray-700"
-              >
-                Sign In
-              </a>
-              <a
-                href="https://chat.seasalt.ai/gpt/signup"
-                className="w-full bg-teal-500 text-white px-4 py-2 rounded-lg text-base font-medium hover:bg-teal-600 transition-colors text-center block"
-              >
-                Get Started
-              </a>
             </div>
           </motion.div>
         )}
