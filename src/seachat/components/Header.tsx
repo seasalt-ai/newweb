@@ -632,41 +632,9 @@ const Header = () => {
             
             {/* Language Selector */}
             <div className="pt-4 border-t border-gray-100">
-              <button 
-                onClick={() => toggleMobileSection('language')}
-                className="flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
-              >
-                {t('seachat.header.language')}
-                <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.language ? '' : 'rotate-180'}`} />
-              </button>
-              <AnimatePresence>
-                {!mobileCollapsed.language && (
-                  <motion.div 
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="overflow-hidden"
-                  >
-                    <div className="grid grid-cols-2 gap-2 pl-4">
-                      {LANGUAGE_DETAILS.map((lang) => (
-                        <button
-                          key={lang.code}
-                          className={`text-left px-3 py-2 rounded text-sm ${
-                            i18n.language === lang.code ? 'bg-blue-50 text-blue-600 font-medium' : 'text-gray-700 hover:bg-gray-50'
-                          }`}
-                          onClick={() => {
-                            changeLanguage(lang.code);
-                            setIsMenuOpen(false);
-                          }}
-                        >
-                          {lang.name}
-                        </button>
-                      ))}
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+              <div className="px-3 py-2">
+                <LanguageSwitcher className="w-full" />
+              </div>
             </div>
           </div>
         </div>
