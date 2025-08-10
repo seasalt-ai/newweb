@@ -24,7 +24,7 @@ const Comparison = () => {
       aiCapabilities: t('comparison.competitors.aircall.aiCapabilities'),
       bestFor: t('comparison.competitors.aircall.bestFor'),
       highlight: false,
-      link: '/compare/aircall-alternative'
+      link: `/${i18n.language}/compare/aircall-alternative`
     },
     {
       name: 'RingCentral',
@@ -34,7 +34,7 @@ const Comparison = () => {
       aiCapabilities: t('comparison.competitors.ringcentral.aiCapabilities'),
       bestFor: t('comparison.competitors.ringcentral.bestFor'),
       highlight: false,
-      link: '/compare/ringcentral-alternative'
+      link: `/${i18n.language}/compare/ringcentral-alternative`
     },
     {
       name: 'Genesys Cloud CX',
@@ -44,7 +44,7 @@ const Comparison = () => {
       aiCapabilities: t('comparison.competitors.genesys.aiCapabilities'),
       bestFor: t('comparison.competitors.genesys.bestFor'),
       highlight: false,
-      link: '/compare/genesys-alternative'
+      link: `/${i18n.language}/compare/genesys-alternative`
     },
     {
       name: 'Five9',
@@ -54,7 +54,7 @@ const Comparison = () => {
       aiCapabilities: t('comparison.competitors.five9.aiCapabilities'),
       bestFor: t('comparison.competitors.five9.bestFor'),
       highlight: false,
-      link: '/compare/five9-alternative'
+      link: `/${i18n.language}/compare/five9-alternative`
     },
     {
       name: 'Google Voice',
@@ -64,7 +64,7 @@ const Comparison = () => {
       aiCapabilities: t('comparison.competitors.googleVoice.aiCapabilities'),
       bestFor: t('comparison.competitors.googleVoice.bestFor'),
       highlight: false,
-      link: '/compare/google-voice-alternative'
+      link: `/${i18n.language}/compare/google-voice-alternative`
     }
   ];
 
