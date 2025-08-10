@@ -161,7 +161,7 @@ const OmnichannelPage = () => {
                   <p className="text-gray-600 mb-6">{channel.description}</p>
                   
                   <div className="space-y-2">
-                    {channel.seachat.features.map((feature, idx) => (
+                    {channel.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                         <span className="text-gray-700 text-sm">{feature}</span>

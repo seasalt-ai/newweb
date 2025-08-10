@@ -168,7 +168,7 @@ const AnalyticsPage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
-            {seachat.features.map((feature, index) => {
+            {features.map((feature, index) => {
               const IconComponent = feature.icon;
               return (
                 <div

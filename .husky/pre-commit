@@ -13,7 +13,7 @@ if [ -z "$STAGED_JSON_FILES" ]; then
 fi
 
 # Validate each JSON file - use while loop to safely handle filenames with spaces
-echo "$STAGED_JSON_FILES" | while IFS= read -r file; do
+echo "$STAGED_JSON_FILES" | (while IFS= read -r file; do
   # Skip empty lines
   [ -z "$file" ] && continue
   
@@ -32,6 +32,6 @@ echo "$STAGED_JSON_FILES" | while IFS= read -r file; do
       exit 1
     fi
   fi
-done
+done) || exit 1
 
 echo "✅ All JSON files are valid"

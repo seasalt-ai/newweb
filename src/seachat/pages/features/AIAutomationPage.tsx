@@ -120,7 +120,7 @@ const AIAutomationPage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {seachat.features.map((feature, index) => {
+            {features.map((feature, index) => {
               const IconComponent = feature.icon;
               return (
                 <div

@@ -152,7 +152,7 @@ const AdvancedAIPage = () => {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {advancedseachat.features.map((feature, index) => {
+            {advancedFeatures.map((feature, index) => {
               const IconComponent = feature.icon;
               return (
                 <div
