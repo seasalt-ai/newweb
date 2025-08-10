@@ -180,7 +180,7 @@ const Header = () => {
                 {/* Logo - navigates to SeaX home */}
                 <Link
                   to={getLocalizedPath('')}
-                  className="hover:opacity-80 transition-opacity"
+                  className="hover:opacity-80 transition-opacity flex items-center"
                 >
                   <img 
                     src="/seax-logo.png" 
@@ -193,7 +193,7 @@ const Header = () => {
                 <button
                   onClick={() => setOpenDropdown(openDropdown === 'logo' ? null : 'logo')}
                   onMouseEnter={() => setOpenDropdown('logo')}
-                  className="ml-1 p-1 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                  className="ml-1 p-1 text-gray-600 hover:text-blue-600 transition-colors duration-200 flex items-center"
                 >
                   <ChevronDown className="w-4 h-4" />
                 </button>

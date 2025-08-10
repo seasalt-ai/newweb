@@ -122,7 +122,7 @@ const Header = () => {
               {/* Logo - navigates to SeaVoice home */}
               <Link
                 to={`/${i18n.language}/seavoice`}
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-opacity flex items-center"
               >
                 <img 
                   src="/seavoice-logo.png" 
@@ -135,7 +135,7 @@ const Header = () => {
               <button 
                 onClick={() => setIsLogoDropdownOpen(!isLogoDropdownOpen)}
                 onMouseEnter={() => setIsLogoDropdownOpen(true)}
-                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200"
+                className="ml-1 p-1 text-gray-500 hover:text-blue-600 transition-colors duration-200 flex items-center"
               >
                 <ChevronDown className="w-4 h-4" />
               </button>
