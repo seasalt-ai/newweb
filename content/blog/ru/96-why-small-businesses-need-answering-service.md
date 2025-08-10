@@ -1,17 +1,20 @@
 ---
 title: "Почему малому бизнесу нужна служба ответов: Полное руководство (1/5)"
 metatitle: "Почему малому бизнесу нужна служба ответов"
-date: 2024-09-10T00:22:19-07:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2024-09-10 00:22:19-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Узнайте, как службы ответов улучшают малый бизнес, повышая удовлетворенность клиентов, увеличивая привлечение потенциальных клиентов и оптимизируя операции."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/96-why-small-businesses-need-answering-service/96-why-small-businesses-need-answering-service.svg
-canonicalURL: "/blog/why-small-businesses-need-answering-service/"
-url: "/blog/why-small-businesses-need-answering-service/"
+canonicalURL: /blog/why-small-businesses-need-answering-service/
+url: /blog/why-small-businesses-need-answering-service/
 ---
 
 *Это серия из 5 статей, посвященных стратегиям общения с клиентами для малого бизнеса, с акцентом на службы ответов:*

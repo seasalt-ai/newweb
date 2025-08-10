@@ -1,17 +1,20 @@
 ---
 title: "आउटबाउंड कॉल्स के लिए ऑटो डायलर: पावर डायलर बनाम प्रोग्रेसिव डायलर बनाम प्रेडिक्टिव डायलर (3/5)"
 metatitle: "Seasalt.ai | लाइव आउटबाउंड कॉल्स | ऑटो डायलर"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "टेलीमार्केटिंग और बिक्री में प्रभावी, स्केलेबल आउटबाउंड कॉल्स के लिए पावर, प्रोग्रेसिव और प्रेडिक्टिव डायलर की तुलना करें।"
 weight: 1
-tags: ["ऑटो टेलीमार्केटिंग सर्विस", "छोटे व्यवसायों के लिए आउटबाउंड कॉल", "ऑटो डायलर", "वॉयस AI"]
-toc: true
+tags:
+  - ऑटो टेलीमार्केटिंग सर्विस
+  - छोटे व्यवसायों के लिए आउटबाउंड कॉल
+  - ऑटो डायलर
+  - वॉयस AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

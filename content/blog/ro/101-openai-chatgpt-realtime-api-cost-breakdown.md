@@ -1,17 +1,19 @@
 ---
 title: "OpenAI vs. Om vs. Inteligență Artificială Vocală: O comparație a costurilor (5/5)"
 metatitle: "API-ul în timp real OpenAI vs. Om și Inteligență Artificială Vocală: Detalierea costurilor"
-date: 2024-10-12T00:22:19-07:00
+date: 2024-10-12 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "O analiză detaliată a costurilor API-ului în timp real al OpenAI în comparație cu recepționerii umani și agenții de inteligență artificială vocală."
 weight: 1
-tags: ["Serviciu de răspuns automat", "Apeluri primite pentru întreprinderi mici", "SeaChat",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de răspuns automat
+  - Apeluri primite pentru întreprinderi mici
+  - SeaChat
+  - Inteligență artificială vocală
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

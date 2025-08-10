@@ -1,21 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "नियर मी मैसेजिंग Google Business Messages का पूरक है"
+metatitle: "नियर मी मैसेजिंग Google Business Messages का पूरक है"
 date: 2022-04-12 21:12:16-07:00
-description: नियर मी मैसेजिंग Google Business Messages के साथ संवादी AI को एकीकृत
-  करता है, जिससे आपके Google Maps प्रोफ़ाइल पर चैट बटन के माध्यम से 24/7 सहायता मिलती
-  है।
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: नियर मी मैसेजिंग Google Business Messages का पूरक है
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: नियर मी मैसेजिंग Google Business Messages का पूरक है
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "नियर मी मैसेजिंग Google Business Messages के साथ संवादी AI को एकीकृत करता है, जिससे आपके Google Maps प्रोफ़ाइल पर चैट बटन के माध्यम से 24/7 सहायता मिलती है।"
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

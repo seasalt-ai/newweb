@@ -1,16 +1,19 @@
 ---
 title: "Intern vs. externalizare pentru apeluri de telemarketing outbound: Recomandări practice pentru afaceri (2/5)"
 metatitle: "Seasalt.ai | Apeluri outbound live | Intern vs. externalizat"
-date: 2024-10-23T00:22:19-07:00
+date: 2024-10-23 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Comparați apelurile outbound interne vs. externalizate - costuri, caracteristici și obțineți sfaturi practice pentru a vă optimiza contactul cu clienții."
 weight: 1
-tags: ["Serviciu de telemarketing automat", "Apeluri outbound pentru întreprinderi mici", "SeaChat",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de telemarketing automat
+  - Apeluri outbound pentru întreprinderi mici
+  - SeaChat
+  - Inteligență artificială vocală
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

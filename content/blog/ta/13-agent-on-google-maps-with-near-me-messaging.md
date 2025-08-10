@@ -1,18 +1,17 @@
 ---
 title: "அருகிலுள்ள செய்தியிடலுடன் Google Maps இல் உங்கள் மெய்நிகர் முகவரைத் தொடங்கவும்"
 metatitle: "அருகிலுள்ள செய்தியிடலுடன் உங்கள் Google Maps மெய்நிகர் முகவரைத் தொடங்கவும்"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "அருகிலுள்ள செய்தியிடலுடன் Google Business Messages இல் உங்கள் மெய்நிகர் முகவரைத் தொடங்கவும்."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
 ---
 
 நாங்கள் முன்பு உங்களுக்கு [அருகிலுள்ள செய்தியிடல்](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) மற்றும் அதன் நன்மைகளை அறிமுகப்படுத்தியுள்ளோம். அருகிலுள்ள செய்தியிடல் Google Business Messages மெய்நிகர் முகவரை செயல்படுத்துகிறது, இது ஒரு வணிகத்தின் Google Maps சுயவிவரத்தில் உள்ள அரட்டை பொத்தானிலிருந்து நேரடியாகக் கிடைக்கும். அருகிலுள்ள செய்தியிடலின் மெய்நிகர் முகவர் அதிநவீன இயற்கை மொழி புரிதலால் இயக்கப்படுகிறது, இது மனிதனைப் போன்ற பதில்களை வழங்குகிறது. அருகிலுள்ள செய்தியிடலை ஒத்த சேவைகளிலிருந்து வேறுபடுத்துவது 5 நிமிட அமைவு நேரம், சுய சேவை தனிப்பயனாக்கம் மற்றும் உள்ளமைக்கப்பட்ட நேரடி அரட்டை ஆதரவு.

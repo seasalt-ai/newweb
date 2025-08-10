@@ -1,17 +1,17 @@
 ---
 title: "Discord (3/3): Discord و Twilio Flex: جلب مركز الاتصال Flex إلى أراضٍ مجهولة"
 metatitle: "Discord (3/3): مركز الاتصال Twilio Flex في Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "في هذه المدونة، سنوضح كيف يمكن لـ Seasalt.ai دمج مركز اتصال كامل الوظائف في خادم Discord."
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-01-27T10:30:00Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *هذه هي المقالة الأخيرة في سلسلتنا المكونة من ثلاثة أجزاء حول مشاركة العملاء على Discord. ناقشت مقالتنا الأولى ["حدود جديدة لمشاركة العملاء"](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) الانتشار المتزايد لـ Discord والفرص الجديدة التي يوفرها للعلامات التجارية لإنشاء والمشاركة في مجتمعاتها الإلكترونية الخاصة. في الجزء الثاني ["كيفية إنشاء مجتمع Discord وروبوت لعلامتك التجارية"](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)، قدمنا كيفية إنشاء خادم Discord لعلامتك التجارية وكيفية دمج الروبوتات لإدارة مراجعة الخادم والإعلانات وملاحظات المستخدمين وغير ذلك. أخيراً، في هذه المدونة، سنوضح كيف يمكن لـ Seasalt.ai دمج مركز اتصال كامل الوظائف في خادم Discord، مما يتيح للعلامات التجارية التعامل مع جميع جوانب خدمة العملاء على المنصة.*

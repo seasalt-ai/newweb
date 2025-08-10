@@ -1,16 +1,21 @@
 ---
 title: "इंटेंट/एंटिटी-आधारित NLU बनाम GenAI/LLM-आधारित NLU: लाखों (उदाहरणों और डॉलर) में अंतर"
 metatitle: "इंटेंट/एंटिटी-आधारित NLU बनाम GenAI/LLM-आधारित NLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: संवादी एआई के भविष्य को अनलॉक करें - स्केलेबिलिटी, लागत-दक्षता और अनुकूलनशीलता के लिए इंटेंट/एंटिटी-आधारित NLU से GenAI/LLM में बदलाव क्यों महत्वपूर्ण है।"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 सभी ग्राहक सेवा या विपणन निदेशकों को, यदि आपका बॉस आपसे निम्नलिखित प्रश्न पूछता है, तो उन्हें यह लेख भेजें:

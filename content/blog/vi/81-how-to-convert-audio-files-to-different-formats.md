@@ -1,15 +1,17 @@
 ---
 title: "คู่มือฉบับสมบูรณ์สำหรับการแปลงไฟล์เสียง: แปลงไฟล์เสียงได้อย่างง่ายดาย | ชุดเครื่องมือเสียง"
 metatitle: "การแปลงไฟล์เสียง/เสียง | ชุดเครื่องมือเสียง"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: เรียนรู้เกี่ยวกับตัวแปลงไฟล์เสียง การแปลงรูปแบบเสียง และซอฟต์แวร์แปลงไฟล์เสียงฟรีที่ดีที่สุด แปลงไฟล์เสียงได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนของเรา
+description: "เรียนรู้เกี่ยวกับตัวแปลงไฟล์เสียง การแปลงรูปแบบเสียง และซอฟต์แวร์แปลงไฟล์เสียงฟรีที่ดีที่สุด แปลงไฟล์เสียงได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนของเรา"
 weight: 1
-tags: ["ชุดเครื่องมือเสียง", "เครื่องมือ AI"]
+tags:
+  - ชุดเครื่องมือเสียง
+  - เครื่องมือ AI
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # บทนำสู่การแปลงไฟล์เสียง

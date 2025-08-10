@@ -1,19 +1,19 @@
 ---
 title: "Construindo uma Base de Conhecimento da Empresa Usando ChatGPT"
 metatitle: "Construindo uma Base de Conhecimento da Empresa Usando ChatGPT | Série SeaChat de Próxima Geração"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explore como os chatbots ChatGPT personalizados podem revolucionar o gerenciamento da base de conhecimento interna das empresas. Este artigo analisa em profundidade suas aplicações em gerenciamento de projetos, recursos humanos, design de engenharia, etc., revelando a conveniência do desenvolvimento sem código e da implantação rápida, e prevê tendências futuras, aguardando o papel fundamental dos chatbots na transformação digital das empresas.
+description: "Explore como os chatbots ChatGPT personalizados podem revolucionar o gerenciamento da base de conhecimento interna das empresas. Este artigo analisa em profundidade suas aplicações em gerenciamento de projetos, recursos humanos, design de engenharia, etc., revelando a conveniência do desenvolvimento sem código e da implantação rápida, e prevê tendências futuras, aguardando o papel fundamental dos chatbots na transformação digital das empresas."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Explore como os chatbots ChatGPT personalizados podem revolucionar o gerenciamento da base de conhecimento interna das empresas. Este artigo analisa em profundidade suas aplicações em gerenciamento de projetos, recursos humanos, design de engenharia, etc., revelando a conveniência do desenvolvimento sem código e da implantação rápida, e prevê tendências futuras, aguardando o papel fundamental dos chatbots na transformação digital das empresas."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 Na era atual de transformação digital, as empresas estão gradualmente percebendo o enorme potencial dos chatbots de IA para melhorar a eficiência operacional interna e a qualidade do atendimento ao cliente. As tecnologias avançadas de chatbot, como o ChatGPT, se tornarão uma ferramenta importante para o gerenciamento da base de conhecimento interna da empresa e a interação com o cliente.

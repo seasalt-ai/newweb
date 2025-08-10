@@ -1,17 +1,16 @@
 ---
 title: "SeaX க்கு வரவேற்கிறோம், ஒரு கூட்டு கிளவுட் தொடர்பு மையம்"
-date: 2022-06-22T18:21:32Z
-modified_date: "2025-07-31T12:00:00Z"
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "இந்த வலைப்பதிவில் நாங்கள் SeaX ஐ அறிமுகப்படுத்துவோம், எங்கள் கிளவுட் தொடர்பு தொடர்பு மைய தீர்வு. இது SeaX இன் அம்சங்களை ஆழமாக அறிமுகப்படுத்தும் மற்றும் காண்பிக்கும் வலைப்பதிவுகளின் தொடரில் முதல் ஒன்றாகும்."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *இந்த வலைப்பதிவில் நாங்கள் SeaX ஐ அறிமுகப்படுத்துவோம், எங்கள் கிளவுட் தொடர்பு தொடர்பு மைய தீர்வு. இது SeaX இன் அம்சங்களை ஆழமாக அறிமுகப்படுத்தும் மற்றும் காண்பிக்கும் வலைப்பதிவுகளின் தொடரில் முதல் ஒன்றாகும்.*

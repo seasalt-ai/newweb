@@ -1,18 +1,17 @@
 ---
 title: "Ra mắt Đại lý ảo của bạn trên Google Maps với Tin nhắn gần tôi"
 metatitle: "Ra mắt Đại lý ảo của Google Maps của bạn với Tin nhắn gần tôi"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "Ra mắt đại lý ảo của bạn trên Google Business Messages với Tin nhắn gần tôi."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 Chúng tôi đã giới thiệu cho bạn [Tin nhắn gần tôi](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) và những lợi ích của nó. Tin nhắn gần tôi triển khai một đại lý ảo Google Business Messages, có sẵn trực tiếp từ nút trò chuyện trên hồ sơ Google Maps của doanh nghiệp. Đại lý ảo của Tin nhắn gần tôi được hỗ trợ bởi công nghệ hiểu ngôn ngữ tự nhiên tiên tiến mang lại phản hồi giống con người. Điều làm cho Tin nhắn gần tôi khác biệt so với các dịch vụ tương tự là thời gian thiết lập 5 phút, tùy chỉnh tự phục vụ và hỗ trợ trò chuyện trực tiếp tích hợp.

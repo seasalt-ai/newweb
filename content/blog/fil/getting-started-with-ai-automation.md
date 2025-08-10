@@ -13,6 +13,8 @@ tags:
 - Customer Service
 - Efficiency
 title: Pagsisimula sa AI Automation para sa Maliliit na Negosyo
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

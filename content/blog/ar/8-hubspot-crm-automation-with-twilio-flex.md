@@ -1,17 +1,17 @@
 ---
 title: "أتمتة مركز الاتصال المدعومة بالذكاء الاصطناعي: تعاون الوكيل الافتراضي مع نظام إدارة علاقات العملاء"
 metatitle: "مركز اتصال SeaX: أتمتة الوكيل الافتراضي مع نظام إدارة علاقات العملاء"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "في هذه المدونة، سنستكشف دمج نظام إدارة علاقات العملاء مثل HubSpot في مركز الاتصال Seax، مما يمنحك وصولاً مباشراً إلى جميع معلوماتك وأدواتك."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## دمج HubSpot مع SeaX

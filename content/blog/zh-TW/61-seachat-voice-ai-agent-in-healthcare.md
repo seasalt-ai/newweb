@@ -1,16 +1,20 @@
 ---
 title: "AI語音代理在醫療保健領域的崛起：提升患者護理和參與度"
 metatitle: "醫療保健領域的AI語音代理 | 更好的患者護理"
-date: 2023-12-23T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-23 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 探索AI語音代理如何透過即時回應預約安排和用藥提醒來改變醫療保健，造福有特殊需求的患者。
+description: "探索AI語音代理如何透過即時回應預約安排和用藥提醒來改變醫療保健，造福有特殊需求的患者。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
-canonicalURL: "/blog/seachat-voice-ai-agent-in-healthcare/"
-url: "/blog/seachat-voice-ai-agent-in-healthcare/"
+canonicalURL: /blog/seachat-voice-ai-agent-in-healthcare/
+url: /blog/seachat-voice-ai-agent-in-healthcare/
 ---
 
 # 引言

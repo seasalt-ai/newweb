@@ -1,19 +1,19 @@
 ---
 title: "Pagbuo ng Knowledge Base ng Kumpanya Gamit ang ChatGPT"
 metatitle: "Pagbuo ng Knowledge Base ng Kumpanya Gamit ang ChatGPT | SeaChat Next-Gen Series"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Tuklasin kung paano maaaring baguhin ng mga custom na ChatGPT chatbot ang pamamahala ng internal knowledge base ng mga kumpanya. Sinusuri ng artikulong ito ang mga aplikasyon nito sa pamamahala ng proyekto, human resources, disenyo ng engineering, atbp., na nagpapakita ng kaginhawaan ng no-code development at mabilis na pag-deploy, at hinuhulaan ang mga trend sa hinaharap, na umaasa sa mahalagang papel ng mga chatbot sa digital transformation ng mga kumpanya.
+description: "Tuklasin kung paano maaaring baguhin ng mga custom na ChatGPT chatbot ang pamamahala ng internal knowledge base ng mga kumpanya. Sinusuri ng artikulong ito ang mga aplikasyon nito sa pamamahala ng proyekto, human resources, disenyo ng engineering, atbp., na nagpapakita ng kaginhawaan ng no-code development at mabilis na pag-deploy, at hinuhulaan ang mga trend sa hinaharap, na umaasa sa mahalagang papel ng mga chatbot sa digital transformation ng mga kumpanya."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Tuklasin kung paano maaaring baguhin ng mga custom na ChatGPT chatbot ang pamamahala ng internal knowledge base ng mga kumpanya. Sinusuri ng artikulong ito ang mga aplikasyon nito sa pamamahala ng proyekto, human resources, disenyo ng engineering, atbp., na nagpapakita ng kaginhawaan ng no-code development at mabilis na pag-deploy, at hinuhulaan ang mga trend sa hinaharap, na umaasa sa mahalagang papel ng mga chatbot sa digital transformation ng mga kumpanya."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 Sa kasalukuyang panahon ng digital transformation, unti-unting napagtatanto ng mga kumpanya ang malaking potensyal ng mga AI chatbot sa pagpapabuti ng kahusayan ng internal na operasyon at kalidad ng serbisyo sa customer. Ang mga advanced na teknolohiya ng chatbot tulad ng ChatGPT ay magiging mahalagang tool para sa pamamahala ng internal knowledge base ng kumpanya at pakikipag-ugnayan sa customer.

@@ -1,16 +1,17 @@
 ---
 title: "Expanda la huella de su centro de contacto con un centro de contacto distribuido"
 metatitle: "Expanda su huella con un centro de contacto distribuido"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "En este blog, analizaremos los centros de contacto 'distribuidos': qué son, cómo pueden beneficiarle y cómo SeaX los utiliza para servir mejor a nuestros clientes."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *En nuestra publicación de blog anterior, [Lleve a los clientes de cualquier canal a un solo lugar con la comunicación omnicanal de SeaX](https://seasalt.ai/blog/19-seax-omnichannel-communication/), mostramos el poder de la comunicación omnicanal en la plataforma SeaX, que permite que los mensajes de los usuarios de prácticamente cualquier canal se muestren en la plataforma SeaX. En esta publicación, analizaremos los centros de contacto "distribuidos": qué son, cómo pueden beneficiarle y cómo SeaX aprovecha una plataforma distribuida para servir mejor a nuestros clientes.*

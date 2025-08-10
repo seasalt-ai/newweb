@@ -1,18 +1,18 @@
 ---
 title: "Discord (3/3): Discord и Twilio Flex: Перенос контакт-центра Flex на неизведанную территорию"
 metatitle: "Discord (3/3): Контакт-центр Twilio Flex в Discord"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "В этом блоге мы продемонстрируем, как Seasalt.ai интегрировала полнофункциональный контакт-центр в сервер Discord."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *Это наша последняя публикация в серии из трех частей о взаимодействии с клиентами в Discord. В нашем первом блоге [«Новый рубеж для взаимодействия с клиентами»](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/) обсуждался рост популярности Discord и новые возможности, которые он предоставляет брендам для создания и участия в собственных онлайн-сообществах. Во второй части [«Как создать сообщество Discord и бота для вашего бренда»](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/) мы рассказали, как создать сервер Discord для вашего бренда и как интегрировать бота для управления модерацией сервера, объявлениями, отзывами пользователей и т. д. Наконец, в этом блоге мы продемонстрируем, как мы в Seasalt.ai интегрировали полнофункциональный контакт-центр в сервер Discord, что позволяет брендам обрабатывать все аспекты обслуживания клиентов на платформе.*

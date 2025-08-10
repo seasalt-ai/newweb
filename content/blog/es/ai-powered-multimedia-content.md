@@ -13,8 +13,9 @@ tags:
 - Participación del cliente
 - Marketing digital
 - Contenido de video
-title: Creación de contenido multimedia impulsado por IA para la participación del
-  cliente
+title: Creación de contenido multimedia impulsado por IA para la participación del cliente
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

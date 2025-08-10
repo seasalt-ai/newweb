@@ -2,16 +2,15 @@
 title: "Dari Demo kepada Kejayaan: Melaksanakan Mesyuarat Moden Microsoft dan Seterusnya (1/5)"
 metatitle: "Dari Demo kepada Kejayaan (1/5): Melangkaui Mesyuarat Moden Microsoft"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Dalam bahagian pertama siri blog ini, ikuti perjalanan Seasalt.ai untuk mencipta SeaMeet, penyelesaian mesyuarat moden kolaboratif kami."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *Sepanjang siri blog ini, ikuti perjalanan Seasalt.ai untuk mencipta Pengalaman Mesyuarat Moden yang menyeluruh, bermula dari permulaannya yang sederhana, kepada mengoptimumkan perkhidmatan kami pada perkakasan dan model yang berbeza, kepada mengintegrasikan sistem NLP yang canggih dan akhirnya berakhir dengan realisasi penuh SeaMeet, penyelesaian mesyuarat moden kolaboratif kami.*

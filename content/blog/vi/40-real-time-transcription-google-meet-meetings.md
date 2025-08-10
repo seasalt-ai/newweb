@@ -1,19 +1,18 @@
 ---
 title: "Cách phiên âm thời gian thực và phân tích cuộc họp thay đổi các cuộc họp Google Meet"
 metatitle: "Cách phiên âm thời gian thực và phân tích cuộc họp thay đổi các cuộc họp Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Phiên âm thời gian thực và phân tích cuộc họp đang thay đổi cách thức hoạt động của các cuộc họp. Chúng không chỉ cải thiện hiệu quả cuộc họp, cung cấp thông tin chi tiết tức thì, thúc đẩy ra quyết định nhanh chóng mà còn tăng cường sự tham gia của người tham dự, đảm bảo sự thành công của các cuộc họp kinh doanh hiện đại.
+description: "Phiên âm thời gian thực và phân tích cuộc họp đang thay đổi cách thức hoạt động của các cuộc họp. Chúng không chỉ cải thiện hiệu quả cuộc họp, cung cấp thông tin chi tiết tức thì, thúc đẩy ra quyết định nhanh chóng mà còn tăng cường sự tham gia của người tham dự, đảm bảo sự thành công của các cuộc họp kinh doanh hiện đại."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Phiên âm thời gian thực và phân tích cuộc họp đang thay đổi cách thức hoạt động của các cuộc họp. Chúng không chỉ cải thiện hiệu quả cuộc họp, cung cấp thông tin chi tiết tức thì, thúc đẩy ra quyết định nhanh chóng mà còn tăng cường sự tham gia của người tham dự, đảm bảo sự thành công của các cuộc họp kinh doanh hiện đại."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 Trong môi trường kinh doanh hiện đại, các cuộc họp là nền tảng quan trọng để thúc đẩy sự hợp tác nhóm và ra quyết định. Tuy nhiên, do nhiều cuộc họp song song và lịch trình bận rộn, việc theo kịp tất cả các cuộc họp ngày càng trở nên khó khăn. Trong bối cảnh này, nhu cầu về phiên âm thời gian thực và phân tích cuộc họp ngày càng trở nên nổi bật, vì chúng cung cấp một giải pháp để khắc phục những hạn chế của các phương pháp ghi chép cuộc họp truyền thống và đảm bảo quản lý cuộc họp hiệu quả.

@@ -1,15 +1,16 @@
 ---
 title: "Pangkalan Data Pengetahuan SeaX: Pangkalan Data Pengetahuan yang Menjawab Sebelum Anda Bertanya"
 metatitle: "Pangkalan Data Pengetahuan SeaX: Pangkalan Data Pengetahuan yang Menjawab Sebelum Anda Bertanya"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:28.144Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:28.144000+00:00
 draft: false
 author: Kim Dodds
 description: "Dalam artikel ini, kami meneruskan topik penyepaduan AI dengan memperkenalkan pangkalan data pengetahuan berkuasa AI SeaX, yang memberikan balasan yang dicadangkan dalam masa nyata."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *Dalam catatan blog kami sebelum ini [Berikan Pusat Hubungan Anda Suara Sendiri dengan Kepintaran Suara SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/), kami menunjukkan bagaimana enjin teks-ke-ucapan dan ucapan-ke-teks dalaman Seasalt.ai meningkatkan pelbagai aspek platform SeaX. Dalam artikel ini, kami akan meneruskan topik penyepaduan AI dengan memperkenalkan pangkalan data pengetahuan berkuasa AI SeaX, yang mendengar perbualan dalam masa nyata untuk memberikan balasan yang dicadangkan.*

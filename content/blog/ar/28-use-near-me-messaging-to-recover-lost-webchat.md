@@ -1,16 +1,17 @@
 ---
 title: "المستخدم غادر الدردشة عبر الويب: استخدم Near Me Messaging لدفع رسالة إليهم!"
 metatitle: "المستخدم غادر الدردشة عبر الويب: تواصل معهم باستخدام Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28 16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging يحل مشكلة واحدة في الدردشة عبر الويب: استعادة الاتصال بالمستخدم حتى *بعد* مغادرته المحادثة."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 في صباح عيد الميلاد عام 2022، استيقظت على بضع رسائل تركها مستخدم يدعى هنري. بحلول الوقت الذي وصلت فيه إلى الرسائل، كان هنري قد غادر بالفعل. كل ما حصلت عليه هو الرسائل التي أرسلها عبر الدردشة عبر الويب، واسمه.

@@ -1,16 +1,20 @@
 ---
 title: "Cara menggunakan Chatbot AI di Laman Web Wix anda dengan SeaChat"
 metatitle: "Cara menggunakan Chatbot AI di Laman Web Wix anda dengan SeaChat"
-date: 2024-04-09T00:22:19-07:00
+date: 2024-04-09 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Xuchen Yao
 description: "Perkasakan laman web Wix anda dengan SeaChat - Sepadukan sokongan pelanggan dengan lancar pada kedua-dua laman web Wix dan WhatsApp. Tingkatkan penglibatan dengan mudah!"
 weight: 1
-tags: ["SeaChat", "Wix", "WhatsApp", "Integrasi"]
+tags:
+  - SeaChat
+  - Wix
+  - WhatsApp
+  - Integrasi
 image: /images/blog/89-whatsapp-chatbot-wix-customer-service/89-whatsapp-chatbot-wix-customer-service.png
-canonicalURL: "/blog/whatsapp-chatbot-wix-customer-service/"
-url: "/blog/whatsapp-chatbot-wix-customer-service/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/whatsapp-chatbot-wix-customer-service/
+url: /blog/whatsapp-chatbot-wix-customer-service/
 ---
 
 Memasukkan chatbot AI WhatsApp SeaChat ke dalam laman web Wix anda bukan sahaja meningkatkan perkhidmatan pelanggan anda tetapi juga meletakkan perniagaan anda di barisan hadapan inovasi teknologi. Hayati masa depan penglibatan pelanggan dengan SeaChat.

@@ -1,16 +1,20 @@
 ---
 title: "Prevenindo Abusos e Gerenciando Custos para Agentes de IA"
 metatitle: "Prevenindo Abusos e Gerenciando Custos para Agentes de IA"
-date: 2023-12-21T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-21 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Explore como o SeaChat, um construtor de agentes de IA sem código, aborda as preocupações dos clientes sobre a prevenção de abusos e perguntas irrelevantes, garantindo que você permaneça dentro do seu orçamento. Descubra como seu inovador sistema de monitoramento de chat e alertas de limite de custo podem ajudá-lo a gerenciar seu agente de IA de forma eficaz.
+description: "Explore como o SeaChat, um construtor de agentes de IA sem código, aborda as preocupações dos clientes sobre a prevenção de abusos e perguntas irrelevantes, garantindo que você permaneça dentro do seu orçamento. Descubra como seu inovador sistema de monitoramento de chat e alertas de limite de custo podem ajudá-lo a gerenciar seu agente de IA de forma eficaz."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
-canonicalURL: "/blog/seachat-cost-capping/"
-url: "/blog/seachat-cost-capping/"
+canonicalURL: /blog/seachat-cost-capping/
+url: /blog/seachat-cost-capping/
 ---
 
 No mundo acelerado da inteligência artificial, ter um agente de IA para lidar com interações de chat pode ser um divisor de águas para empresas e indivíduos. Com [SeaChat](https://chat.seasalt.ai/?utm_source=blog), um poderoso construtor de agentes de IA sem código, você pode desfrutar dos benefícios das conversas automatizadas. No entanto, uma preocupação que frequentemente surge entre os clientes do SeaChat é como prevenir abusos ou lidar com perguntas irrelevantes sem estourar o orçamento. Felizmente, o SeaChat implementou medidas proativas para abordar essas preocupações de forma eficaz. Neste artigo, exploraremos como o sistema de monitoramento de chat do SeaChat e os alertas de limite de custo podem ajudá-lo a manter o controle sobre as interações do seu agente de IA, mantendo-se dentro do seu orçamento planejado.

@@ -1,19 +1,18 @@
 ---
 title: "How Real-time Transcription and Meeting Analysis are Changing Google Meet Meetings"
 metatitle: "How Real-time Transcription and Meeting Analysis are Changing Google Meet Meetings"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Real-time transcription and meeting analysis features have changed the way meetings are conducted. They not only increase meeting efficiency, provide instant insights, and facilitate rapid decision-making, but also enhance attendee engagement and ensure the success of modern business meetings."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Real-time transcription and meeting analysis features have changed the way meetings are conducted. They not only increase meeting efficiency, provide instant insights, and facilitate rapid decision-making, but also enhance attendee engagement and ensure the success of modern business meetings."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 In the modern business environment, meetings are a key platform for promoting teamwork and decision-making. However, due to multiple parallel meetings and busy schedules, it is becoming increasingly difficult to stay in sync with all meetings. Against this background, the need for real-time transcription and meeting analysis is becoming increasingly prominent, as they provide a solution to overcome the limitations of traditional meeting recording methods and ensure effective meeting management.

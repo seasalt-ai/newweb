@@ -1,16 +1,18 @@
 ---
 title: "Povestea clientului: Împuternicirea unei bănci majore din Asia pentru a oferi suport multilingv și axat pe confidențialitate clienților"
 metatitle: "Banca Asia oferă suport multilingv și privat cu SeaX"
-date: 2023-06-28T11:25:00-08:00
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Blogul descrie modul în care implementarea unui centru de contact omnicanal a revoluționat peisajul serviciilor pentru clienți pentru o bancă privată majoră din Asia de Sud-Est, îmbunătățind performanța agenților prin transcrieri vocale în timp real, informații bazate pe date și măsuri robuste de confidențialitate a datelor.
+description: "Blogul descrie modul în care implementarea unui centru de contact omnicanal a revoluționat peisajul serviciilor pentru clienți pentru o bancă privată majoră din Asia de Sud-Est, îmbunătățind performanța agenților prin transcrieri vocale în timp real, informații bazate pe date și măsuri robuste de confidențialitate a datelor."
 weight: 1
-tags: ["SeaX", "Povestea clientului"]
+tags:
+  - SeaX
+  - Povestea clientului
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 

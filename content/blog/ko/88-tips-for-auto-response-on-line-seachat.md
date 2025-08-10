@@ -1,18 +1,20 @@
 ---
 title: "LINE 자동화 팁: SeaChat과 LINE 자동화의 원활한 통합"
 metatitle: "LINE 자동화 팁: SeaChat과 LINE 자동화의 원활한 통합"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: LINE 자동화 솔루션! LINE의 자동 응답 기능이 서비스를 중단할 예정입니다. SeaChat, 스마트 AI 어시스턴트를 사용하여 고객과의 대화를 더욱 원활하게 만들고 포괄적인 고객 서비스 솔루션을 제공하세요.
+description: "LINE 자동화 솔루션! LINE의 자동 응답 기능이 서비스를 중단할 예정입니다. SeaChat, 스마트 AI 어시스턴트를 사용하여 고객과의 대화를 더욱 원활하게 만들고 포괄적인 고객 서비스 솔루션을 제공하세요."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'LINE을 브랜드의 슈퍼 어시스턴트로 만들고 싶으신가요? 고객이 점점 더 많아지고 한 사람으로는 부족할 때, 각 메시지를 개별적으로 답변할 수 없습니다. LINE의 ["자동 응답 봇"](https://line-tw-official.weblog.to/archives/85582088.html)이 이 성가신 문제를 해결할 수 있을 것 같습니다! 새로운 친구를 환영하거나 키워드에 답변하는 것 - 훨씬 쉬워 보이네요, 그렇죠?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # LINE 자동화란?

@@ -1,18 +1,18 @@
 ---
 title: "SeaX：年次電話チェックの事例 - 高齢者により質の高いケアサービスを提供"
 metatitle: "SeaX年次電話チェックの事例：AIアシスタントが高齢者ケアサービスの質を向上"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "SeaXがAI技術を通じて高齢者ケアサービスを革新し、年次電話チェックにおける多くの課題を解決し、サービス品質を向上させ、ボランティアの負担を軽減する方法を探ります。SeaXのインテリジェントなソリューションが、世界中の高齢者により質の高い継続的なケアをどのように提供するかを学びましょう。"
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: '高齢者人口の増加に直面し、世界中の高齢者ケア機関は多くの課題に直面しています。特に定期的なケアと健康モニタリングに関しては、大量の人材を消費するだけでなく、怠慢や遅延により潜在的な問題がタイムリーに発見されないことがよくあります。これは、Seasalt.aiと協力しているシンガポールの社会福祉機関が以前直面していた課題です。この機関は毎年数千人の高齢者と年次ケア電話を行っており、そのプロセスは煩雑で効率的に管理することが困難でした。この問題を解決するために、彼らはSeaXを導入し、AI技術を通じてケアサービスの品質と効率を大幅に向上させました。'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

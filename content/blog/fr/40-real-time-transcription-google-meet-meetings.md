@@ -1,19 +1,18 @@
 ---
 title: "Comment la transcription en temps réel et l'analyse des réunions transforment les réunions Google Meet"
 metatitle: "Comment la transcription en temps réel et l'analyse des réunions transforment les réunions Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Les fonctionnalités de transcription en temps réel et d'analyse des réunions ont changé la façon dont les réunions se déroulent. Non seulement elles augmentent l'efficacité des réunions, fournissent des informations instantanées et facilitent la prise de décision rapide, mais elles améliorent également l'engagement des participants et garantissent le succès des réunions d'affaires modernes."
 weight: 1
-tags: ["SeaMeet", "Outils d'IA"]
+tags:
+  - SeaMeet
+  - Outils d'IA
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Les fonctionnalités de transcription en temps réel et d'analyse des réunions ont changé la façon dont les réunions se déroulent. Non seulement elles augmentent l'efficacité des réunions, fournissent des informations instantanées et facilitent la prise de décision rapide, mais elles améliorent également l'engagement des participants et garantissent le succès des réunions d'affaires modernes."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 Dans l'environnement commercial moderne, les réunions sont une plate-forme clé pour promouvoir le travail d'équipe et la prise de décision. Cependant, en raison de multiples réunions parallèles et d'horaires chargés, il devient de plus en plus difficile de rester synchronisé avec toutes les réunions. Dans ce contexte, le besoin de transcription en temps réel et d'analyse des réunions devient de plus en plus important, car ils fournissent une solution pour surmonter les limites des méthodes d'enregistrement de réunion traditionnelles et garantir une gestion efficace des réunions.

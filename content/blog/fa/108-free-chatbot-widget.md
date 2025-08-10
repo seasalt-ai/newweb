@@ -1,18 +1,19 @@
 ---
 title: "تنها 2 ویجت چت وب واقعاً رایگان که برای وب سایت ها پیدا کردیم"
 metatitle: "Seasalt.ai | بهترین ویجت های چت رایگان | ویجت های چت بات رایگان"
-date: 2024-11-17T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-11-17 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Xuchen Yao | Jun Mao
-description: ""
+description: "\"\" # 需要确认"
 weight: 1
-tags: ["Chatbot Widget", "Free Chat Widget", "SeaChat"]
-toc: true
+tags:
+  - Chatbot Widget
+  - Free Chat Widget
+  - SeaChat
 image: /images/blog/108-free-chatbot-widget/108-free-chatbot-widget.jpg
-canonicalURL: "/blog/free-chat-widgets/"
-url: "/blog/free-chat-widgets/"
-
+canonicalURL: /blog/free-chat-widgets/
+url: /blog/free-chat-widgets/
 ---
 
 ---

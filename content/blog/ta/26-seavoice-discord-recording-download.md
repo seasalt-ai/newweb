@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: AI டிரான்ஸ்கிரிப்ஷன்களுடன் பதிவிறக்கக்கூடிய குரல் பதிவை வழங்கும் முதல் போட்"
 metatitle: "SeaVoice STT/TTS Discord Bot: பதிவிறக்கங்கள்"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: சமீபத்திய வெளியீட்டில், SeaVoice Discord Bot ஆனது AI-உருவாக்கப்பட்ட டிரான்ஸ்கிரிப்ஷன்களுடன் பதிவிறக்கக்கூடிய குரல் சேனல் பதிவுகளை வழங்கும் தளத்தில் முதல் போட் ஆகும்.
+description: "சமீபத்திய வெளியீட்டில், SeaVoice Discord Bot ஆனது AI-உருவாக்கப்பட்ட டிரான்ஸ்கிரிப்ஷன்களுடன் பதிவிறக்கக்கூடிய குரல் சேனல் பதிவுகளை வழங்கும் தளத்தில் முதல் போட் ஆகும்."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *SeaVoice Discord Bot ஆனது Discord குரல் சேனல்களில் பேச்சை டிரான்ஸ்கிரைப் செய்வதற்கான சிறந்த விருப்பங்களில் ஒன்றாக பிரபலமடைந்து வருகிறது. சமீபத்திய வெளியீட்டில், AI-உருவாக்கப்பட்ட டிரான்ஸ்கிரிப்ஷன்களுடன் பதிவிறக்கக்கூடிய குரல் சேனல் பதிவுகளை வழங்கும் தளத்தில் முதல் போட் இதுவாகும்.*

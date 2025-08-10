@@ -1,16 +1,16 @@
 ---
 title: "Paalam Google My Business, Ngayon ang Google Maps ang Bagong OS para sa mga Negosyo"
 metatitle: "Paalam GMB, Google Maps ang Bagong OS para sa mga Negosyo"
-date: 2022-04-06T11:11:16-07:00
-modified_date: "2025-07-27T05:06:58Z"
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Pinapalitan ng Google ang Google My Business app ng Google Maps, kung saan maaaring pamahalaan ng mga negosyo ang kanilang impormasyon at tumugon sa mga mensahe ng customer sa Google Maps."
 weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Ang direktang pagkonekta ng mga negosyo sa mga consumer sa pamamagitan ng Google Maps ay nagbibigay ng seamless na karanasan para sa karanasan sa pamimili ng mga consumer. Ito ay isang mahusay na strategic move para sa Google upang gawing bagong operating system ang Google Maps para sa lokal na paghahanap ng mga negosyo "malapit sa akin".*

@@ -1,16 +1,20 @@
 ---
 title: "使用AI语音代理轻松收集调查问卷"
 metatitle: "使用AI语音代理轻松收集调查问卷"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 探索使用AI语音代理创建调查问卷的未来！轻松制作高质量问题，提升用户体验，并提高回复率。告别手动工作！
+description: "探索使用AI语音代理创建调查问卷的未来！轻松制作高质量问题，提升用户体验，并提高回复率。告别手动工作！"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # 介绍

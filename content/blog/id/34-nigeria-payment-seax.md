@@ -1,16 +1,18 @@
 ---
 title: "Kisah Pelanggan: Keberhasilan Pusat Kontak di Industri Pembayaran Digital Nigeria"
 metatitle: "Keberhasilan Pusat Kontak di Industri Pembayaran Digital Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Perusahaan pembayaran digital terkemuka di Nigeria mencapai dukungan pelanggan revolusioner dengan pusat kontak omni-channel, mengintegrasikan chatbot dan dukungan Pidgin English yang dipersonalisasi, menguntungkan jutaan pengguna dan pedagang.
+description: "Perusahaan pembayaran digital terkemuka di Nigeria mencapai dukungan pelanggan revolusioner dengan pusat kontak omni-channel, mengintegrasikan chatbot dan dukungan Pidgin English yang dipersonalisasi, menguntungkan jutaan pengguna dan pedagang."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Kisah sukses penerapan pusat kontak omni-channel untuk perusahaan pembayaran digital terkemuka di Nigeria menyoroti bagaimana adopsi teknologi canggih dapat merevolusi dukungan pelanggan dan meningkatkan pengalaman pengguna secara keseluruhan.

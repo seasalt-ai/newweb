@@ -1,15 +1,16 @@
 ---
 title: "Expand Your Contact Center Footprint with a Distributed Contact Center"
 metatitle: "Expand Your Footprint with a Distributed Contact Center"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "In this blog, we will look at 'distributed' contact centers: what they are, how they can benefit you, and how SeaX uses this to better serve our clients."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *In our previous blog post, [Bring Customers from Any Channel to One Place with SeaX Omnichannel Communication](https://seasalt.ai/blog/19-seax-omnichannel-communication/), we showed the power of omnichannel communication on SeaX, which allows user messages from virtually any channel to be surfaced on the SeaX platform. In this post, we will take a look at "distributed" contact centers: what they are, how they can benefit you, and how SeaX leverages a distributed platform to better serve our clients.*

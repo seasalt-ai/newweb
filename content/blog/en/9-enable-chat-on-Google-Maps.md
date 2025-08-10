@@ -1,15 +1,16 @@
 ---
 title: "Business Owners: Don’t Miss Out Customers Messages on Google Maps!"
 metatitle: "Don’t Miss Out Customers Messages on Google Maps!"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
 draft: false
+author: Ruli Setiawati
 description: "In this article, we will walk you through Google Business Profile, its chat feature, and a way to avoid missing out on customers' messages."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *In this article, we will walk you through Google Business Profile, its chat feature, and a way to avoid missing out on customers' messages.*

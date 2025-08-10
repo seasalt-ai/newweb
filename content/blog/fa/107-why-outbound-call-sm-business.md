@@ -1,17 +1,19 @@
 ---
 title: "چرا کسب و کارهای کوچک به خدمات تماس خروجی/بازاریابی تلفنی نیاز دارند؟ (1/5)"
 metatitle: "Seasalt.ai | سری تماس خروجی | کسب و کارهای کوچک"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "برای انتخاب بهترین راه حل تماس خروجی برای نیازهای کسب و کار خود، عوامل زنده، شماره گیرهای خودکار و هوش مصنوعی صوتی را بررسی کنید."
 weight: 1
-tags: ["خدمات بازاریابی تلفنی خودکار", "تماس خروجی برای کسب و کارهای کوچک", "هوش مصنوعی صوتی"]
-toc: true
+tags:
+  - خدمات بازاریابی تلفنی خودکار
+  - تماس خروجی برای کسب و کارهای کوچک
+  - هوش مصنوعی صوتی
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

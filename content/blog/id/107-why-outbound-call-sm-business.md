@@ -1,17 +1,19 @@
 ---
 title: "Mengapa Usaha Kecil Membutuhkan Layanan Panggilan Keluar/Telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Seri Panggilan Keluar | Usaha Kecil"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Jelajahi agen langsung, dialer otomatis, dan Voice AI untuk memilih solusi panggilan keluar terbaik untuk kebutuhan bisnis Anda."
 weight: 1
-tags: ["Layanan Telemarketing Otomatis", "Panggilan Keluar untuk Usaha Kecil", "Voice AI"]
-toc: true
+tags:
+  - Layanan Telemarketing Otomatis
+  - Panggilan Keluar untuk Usaha Kecil
+  - Voice AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

@@ -1,17 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Discord 上的文字轉語音：TTS Discord 機器人案例研究"
+metatitle: "Discord 上的文字轉語音：TTS Discord 機器人案例研究"
 date: 2022-12-27 17:04:20-08:00
-description: 在這篇部落格中，我們將討論在審查了幾個月的真實文字轉語音數據後，我們發現真實 Discord 用戶如何利用我們的服務。
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: Discord 上的文字轉語音：TTS Discord 機器人案例研究
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: Discord 上的文字轉語音：TTS Discord 機器人案例研究
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "在這篇部落格中，我們將討論在審查了幾個月的真實文字轉語音數據後，我們發現真實 Discord 用戶如何利用我們的服務。"
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

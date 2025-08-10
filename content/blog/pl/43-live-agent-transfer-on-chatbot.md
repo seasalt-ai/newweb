@@ -1,17 +1,19 @@
 ---
 title: "Bezproblemowa współpraca między botami AI a agentami na żywo: Poprawa doświadczenia klienta poprzez współpracę człowiek-maszyna"
 metatitle: "Bezproblemowa współpraca między botami AI a agentami na żywo: Poprawa doświadczenia klienta poprzez współpracę człowiek-maszyna | Seria Budowanie Chatbotów Nowej Generacji z SeaChat"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Nowa generacja obsługi klienta zmienia branżę. Ten artykuł bada synergię między botami AI a agentami obsługi klienta na żywo, aby zapewnić inteligentniejsze i bardziej humanitarne wsparcie, a także wyjaśnia, dlaczego czasami konieczne jest zrównoważenie tych dwóch. Omówimy, w jaki sposób postęp technologiczny kształtuje doświadczenie klienta i operacje biznesowe.
+description: "Nowa generacja obsługi klienta zmienia branżę. Ten artykuł bada synergię między botami AI a agentami obsługi klienta na żywo, aby zapewnić inteligentniejsze i bardziej humanitarne wsparcie, a także wyjaśnia, dlaczego czasami konieczne jest zrównoważenie tych dwóch. Omówimy, w jaki sposób postęp technologiczny kształtuje doświadczenie klienta i operacje biznesowe."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "Nowa generacja obsługi klienta zmienia branżę. Ten artykuł bada synergię między botami AI a agentami obsługi klienta na żywo, aby zapewnić inteligentniejsze i bardziej humanitarne wsparcie, a także wyjaśnia, dlaczego czasami konieczne jest zrównoważenie tych dwóch. Omówimy, w jaki sposób postęp technologiczny kształtuje doświadczenie klienta i operacje biznesowe."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## Dlaczego czasami konieczne jest przekazanie botów AI agentom na żywo?

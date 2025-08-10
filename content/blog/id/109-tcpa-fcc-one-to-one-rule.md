@@ -1,17 +1,19 @@
 ---
 title: "Semua yang Perlu Anda Ketahui untuk Mempersiapkan Aturan Persetujuan One-to-One FCC 2025 yang Baru"
 metatitle: "Seasalt.ai | Perubahan Aturan TCPA 2025 | Panduan Komprehensif"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "Panduan mendalam tentang perubahan aturan TCPA 2025, memberikan informasi penting bagi bisnis untuk memastikan kepatuhan."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **Artikel ini bukan nasihat hukum. Silakan berkonsultasi dengan penasihat hukum Anda untuk informasi lebih lanjut.**

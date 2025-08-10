@@ -1,16 +1,20 @@
 ---
 title: "Ditch the Scripts, Embrace Conversation: Why Upgrading from Amazon Lex to SeaChat Matters"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15T00:22:19-07:00
+date: 2024-03-15 00:22:19-07:00
+modified_date: 2025-07-29T20:45:17Z
 draft: false
 author: Xuchen Yao
-description: Why is Amazon Lex outdated? Explore SeaChat - leveraging advanced LLM technology, break free from repetitive chatbot dilemmas and cultivate engaging, human-like conversations.
+description: "Why is Amazon Lex outdated? Explore SeaChat - leveraging advanced LLM technology, break free from repetitive chatbot dilemmas and cultivate engaging, human-like conversations."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: "/blog/seachat-vs-amazon-lex/"
-url: "/blog/seachat-vs-amazon-lex/"
-modified_date: "2025-07-29T20:45:17Z"
+canonicalURL: /blog/seachat-vs-amazon-lex/
+url: /blog/seachat-vs-amazon-lex/
 ---
 
 The world of chatbots is evolving rapidly. While [Amazon Lex](https://aws.amazon.com/lex/) has been a popular choice for building voice and text interfaces, a new wave of technology is taking center stage: Large Language Models (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog) is an LLM-powered platform that offers a revolutionary approach to conversational AI, leaving rule-based engines like Lex far behind. Is it time to consider upgrading your chatbot?

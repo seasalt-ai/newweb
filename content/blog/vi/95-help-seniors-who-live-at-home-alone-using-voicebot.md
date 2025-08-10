@@ -1,17 +1,17 @@
 ---
 title: "Làm thế nào Voicebot có thể hỗ trợ người cao tuổi sống một mình - Giải pháp thông minh từ SeaX"
 metatitle: "Cải thiện chất lượng cuộc sống cho người cao tuổi sống một mình bằng AI Voicebot - Giải pháp chăm sóc thông minh SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Khám phá cách SeaX sử dụng cuộc gọi chăm sóc bằng AI để cung cấp hỗ trợ thường xuyên, theo dõi sức khỏe và hỗ trợ khẩn cấp cho người cao tuổi sống một mình, nâng cao chất lượng cuộc sống và cảm giác an toàn."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Xã hội đang dần trở nên già hóa, số lượng người cao tuổi sống một mình ngày càng tăng. Theo dữ liệu từ các cơ quan chức năng, tỷ lệ dân số cao tuổi dự kiến sẽ đạt gần 20% vào năm 2024 và chính thức bước vào xã hội siêu già vào năm 2025. Sự thay đổi cấu trúc xã hội này khiến vấn đề sức khỏe tinh thần và thể chất của người cao tuổi sống một mình trở thành trọng tâm. Đặc biệt, nhiều người cao tuổi thường xuyên cảm thấy cô đơn và lo lắng về khả năng qua đời một mình tại nhà. Những áp lực tâm lý này không chỉ ảnh hưởng đến chất lượng cuộc sống mà còn đe dọa sức khỏe thể chất của họ.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Xã hội đang dần trở nên già hóa, số lượng người cao tuổi sống một mình ngày càng tăng. Theo dữ liệu từ các cơ quan chức năng, tỷ lệ dân số cao tuổi dự kiến sẽ đạt gần 20% vào năm 2024 và chính thức bước vào xã hội siêu già vào năm 2025. Sự thay đổi cấu trúc xã hội này khiến vấn đề sức khỏe tinh thần và thể chất của người cao tuổi sống một mình trở thành trọng tâm. Đặc biệt, nhiều người cao tuổi thường xuyên cảm thấy cô đơn và lo lắng về khả năng qua đời một mình tại nhà. Những áp lực tâm lý này không chỉ ảnh hưởng đến chất lượng cuộc sống mà còn đe dọa sức khỏe thể chất của họ.

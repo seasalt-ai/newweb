@@ -1,18 +1,18 @@
 ---
 title: "SeaX：年度电话检查实例 - 为长者提供更优质的关怀服务"
 metatitle: "SeaX年度电话检查实例：AI助理提升长者关怀服务质量"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "探索SeaX如何通过AI技术革新长者关怀服务，解决年度电话检查中的诸多挑战，提升服务质量并减少志工负担。了解SeaX的智能化解决方案如何为全球长者提供更优质的持续照护。"
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: '面对日益增长的老龄人口，全球各地的长者照护机构正面临诸多挑战。尤其是在定期关怀和健康监测方面，不仅需要耗费大量的人力资源，还经常因疏忽或延误而导致潜在问题无法及时发现。这正是与Seasalt.ai合作的某新加坡社会服务机构前所面临的一项挑战。该机构每年与数千名长者进行一次年度关怀电话，过程繁琐且难以高效管理。为解决这一问题，他们引入了SeaX，通过AI技术大幅提升了关怀服务的质量与效率。'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

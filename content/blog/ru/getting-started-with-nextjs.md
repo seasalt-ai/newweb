@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Начало работы с Next.js: Руководство для начинающих'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

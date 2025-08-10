@@ -1,17 +1,20 @@
 ---
 title: "هل يمكن لتقنية الصوت الجديدة من OpenAI أن تحل محل نظام الاستجابة الصوتية التفاعلية (IVR) الخاص بك؟"
 metatitle: "هل يمكن لتقنية الصوت الجديدة من OpenAI أن تحل محل نظام IVR الخاص بك؟"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "استكشف ما إذا كانت تقنية الصوت الجديدة من OpenAI يمكن أن تحل محل نظام الاستجابة الصوتية التفاعلية الحالي لديك."
 weight: 1
-tags: ["خدمة الرد الآلي", "المكالمات الواردة للشركات الصغيرة", "SeaChat", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة الرد الآلي
+  - المكالمات الواردة للشركات الصغيرة
+  - SeaChat
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 ربما تكون قد سمعت عن تقنية الصوت الجديدة والمثيرة من OpenAI والتي تبدو شبيهة بالإنسان بشكل لا يصدق. تبدو العروض التوضيحية مذهلة. وكيل الصوت في OpenAI ذكي وطبيعي ويتعامل مع المقاطعات بشكل جيد للغاية. ولكن هل هو جاهز ليحل محل نظام الاستجابة الصوتية التفاعلية الحالي لديك؟ أو، إذا كنت قد اشتريت بالفعل خدمة روبوت صوتي، فهل يمكنك استبدالها بمساعد OpenAI الصوتي لخدمة عملائك؟ دعنا نحلل الأمر بعبارات بسيطة.

@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. Con người vs. AI giọng nói: So sánh chi phí (5/5)"
 metatitle: "OpenAI Realtime API vs. Con người và AI giọng nói: Phân tích chi phí"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "Phân tích chi phí chi tiết của OpenAI Realtime API so với nhân viên lễ tân và các đại lý AI giọng nói."
 weight: 1
-tags: ["Dịch vụ trả lời tự động", "Cuộc gọi đến cho doanh nghiệp nhỏ", "SeaChat", "AI giọng nói"]
-toc: true
+tags:
+  - Dịch vụ trả lời tự động
+  - Cuộc gọi đến cho doanh nghiệp nhỏ
+  - SeaChat
+  - AI giọng nói
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

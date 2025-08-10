@@ -1,18 +1,20 @@
 ---
 title: "Memperkemas Sokongan Pelanggan dengan Integrasi SeaChat dan Pangkalan Pengetahuan Zoho Desk"
 metatitle: "Memperkemas Sokongan Pelanggan dengan SeaChat dan Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Ketahui bagaimana ejen sembang dan suara AI SeaChat berintegrasi dengan Pangkalan Pengetahuan Zoho Desk yang komprehensif untuk sokongan pelanggan yang lancar dan cekap.
+description: "Ketahui bagaimana ejen sembang dan suara AI SeaChat berintegrasi dengan Pangkalan Pengetahuan Zoho Desk yang komprehensif untuk sokongan pelanggan yang lancar dan cekap."
 weight: 1
-tags: ["SeaChat", "Alat AI", "Integrasi", "Pengalaman Pelanggan"]
+tags:
+  - SeaChat
+  - Alat AI
+  - Integrasi
+  - Pengalaman Pelanggan
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 Dalam landskap digital yang berkembang pesat hari ini, perniagaan sentiasa mencari penyelesaian inovatif untuk meningkatkan sokongan pelanggan dan memperkemas pengurusan maklumat. Integrasi SeaChat, ejen sembang dan suara AI yang canggih, dengan Pangkalan Pengetahuan Zoho Desk yang komprehensif, membentangkan penyelesaian terobosan kepada cabaran-cabaran ini.

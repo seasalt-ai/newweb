@@ -1,17 +1,19 @@
 ---
 title: "Como usar o ChatGPT para atendimento ao cliente"
 metatitle: "Como usar o ChatGPT para atendimento ao cliente | Série SeaChat de Próxima Geração"
-date: 2023-11-01T10:25:00-08:00
+date: 2023-11-01 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: O papel revolucionário dos bots ChatGPT personalizados como atendimento ao cliente. Da implementação técnica às aplicações em vários domínios, analisamos sua importância na melhoria da eficiência e qualidade do atendimento ao cliente e olhamos para as tendências de desenvolvimento futuras e os desafios da tecnologia de chatbot.
+description: "O papel revolucionário dos bots ChatGPT personalizados como atendimento ao cliente. Da implementação técnica às aplicações em vários domínios, analisamos sua importância na melhoria da eficiência e qualidade do atendimento ao cliente e olhamos para as tendências de desenvolvimento futuras e os desafios da tecnologia de chatbot."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
-canonicalURL: "/blog/how-to-use-chatgpt-for-customer-service/"
-url: "/blog/how-to-use-chatgpt-for-customer-service/"
-summary: "O papel revolucionário dos bots ChatGPT personalizados como atendimento ao cliente. Da implementação técnica às aplicações em vários domínios, analisamos sua importância na melhoria da eficiência e qualidade do atendimento ao cliente e olhamos para as tendências de desenvolvimento futuras e os desafios da tecnologia de chatbot."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/how-to-use-chatgpt-for-customer-service/
+url: /blog/how-to-use-chatgpt-for-customer-service/
 ---
 
 Na era digital em rápida mudança de hoje, o papel e os métodos de atendimento ao cliente estão passando por uma profunda transformação. Com o avanço da tecnologia de inteligência artificial (IA), especialmente no campo dos chatbots, as empresas agora têm a oportunidade de interagir com os clientes de maneiras sem precedentes. Os bots ChatGPT personalizados estão se tornando o cerne dessa transformação, pois podem não apenas fornecer suporte ao cliente 24 horas por dia, mas também aprimorar a experiência do cliente por meio de interações personalizadas.

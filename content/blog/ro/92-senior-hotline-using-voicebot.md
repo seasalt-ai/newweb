@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Asistentul Vocal AI Revoluționează Soluțiile Inteligente pentru Îngrijirea Vârstnicilor"
 metatitle: "SeaX + SeaChat: Inovație în Îngrijirea Vârstnicilor prin Asistentul Vocal AI - Aplicație de Succes a Apelurilor de Îngrijire Inteligentă"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Explorați cum sistemul de asistent vocal AI SeaX + SeaChat rezolvă provocările îngrijirii vârstnicilor în societatea super-îmbătrânită din Taiwan. Înțelegeți cum apelurile de îngrijire inteligentă îmbunătățesc calitatea vieții vârstnicilor, oferind îngrijire în timp real, companie emoțională și monitorizare a sănătății, abordând în același timp deficitul de forță de muncă."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Pe măsură ce Taiwan se îndreaptă spre o societate super-îmbătrânită, îngrijirea vârstnicilor se confruntă cu provocări fără precedent. Conform datelor Consiliului Național de Dezvoltare, procentul populației vârstnice din Taiwan se va apropia de 20% în 2024 și este de așteptat să intre oficial într-o societate super-îmbătrânită în 2025. În fața acestei schimbări în structura demografică, modul de a oferi în mod eficient îngrijire în timp real, servicii diversificate și de a rezolva problema deficitului de forță de muncă au devenit cele trei provocări majore în industria actuală de îngrijire pe termen lung.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Pe măsură ce Taiwan se îndreaptă spre o societate super-îmbătrânită, îngrijirea vârstnicilor se confruntă cu provocări fără precedent. Conform datelor Consiliului Național de Dezvoltare, procentul populației vârstnice din Taiwan se va apropia de 20% în 2024 și este de așteptat să intre oficial într-o societate super-îmbătrânită în 2025. În fața acestei schimbări în structura demografică, modul de a oferi în mod eficient îngrijire în timp real, servicii diversificate și de a rezolva problema deficitului de forță de muncă au devenit cele trei provocări majore în industria actuală de îngrijire pe termen lung.

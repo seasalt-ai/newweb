@@ -1,17 +1,19 @@
 ---
 title: "為什麼小型企業需要外撥電話/電話行銷服務？ (1/5)"
 metatitle: "Seasalt.ai | 外撥電話系列 | 小型企業"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "探索真人代理、自動撥號器和語音 AI，為您的業務需求選擇最佳的外撥電話解決方案。"
 weight: 1
-tags: ["自動電話行銷服務", "小型企業外撥電話", "語音 AI"]
-toc: true
+tags:
+  - 自動電話行銷服務
+  - 小型企業外撥電話
+  - 語音 AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

@@ -1,17 +1,20 @@
 ---
 title: "Sisteme de răspuns telefonic automatizat (Răspuns vocal interactiv vs. Agenți vocali AI): Cele mai bune opțiuni pentru întreprinderile mici (3/5)"
 metatitle: "Sisteme de răspuns automatizat (Răspuns vocal interactiv vs. Voce AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Explorați opțiunile de răspuns vocal interactiv și agenți vocali AI pentru sistemele telefonice automatizate în întreprinderile mici."
 weight: 1
-tags: ["Serviciu de Răspuns Automat", "Apel Intrare pentru Întreprinderi Mici", "SeaChat",  "Voce AI"]
-toc: true
+tags:
+  - Serviciu de Răspuns Automat
+  - Apel Intrare pentru Întreprinderi Mici
+  - SeaChat
+  - Voce AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

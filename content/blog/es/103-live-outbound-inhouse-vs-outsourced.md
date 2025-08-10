@@ -1,17 +1,20 @@
 ---
 title: "Interno vs. Subcontratación para llamadas salientes de telemarketing: Recomendaciones prácticas para empresas (2/5)"
 metatitle: "Seasalt.ai | Llamadas salientes en vivo | Interno vs. Subcontratado"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Compare las llamadas salientes internas vs. subcontratadas: costos, características y obtenga consejos prácticos para optimizar su alcance al cliente."
 weight: 1
-tags: ["Servicio de telemarketing automático", "Llamada saliente para pequeñas empresas", "SeaChat", "IA de voz"]
-toc: true
+tags:
+  - Servicio de telemarketing automático
+  - Llamada saliente para pequeñas empresas
+  - SeaChat
+  - IA de voz
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

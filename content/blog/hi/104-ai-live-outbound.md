@@ -1,17 +1,20 @@
 ---
 title: "स्वचालित आउटबाउंड कॉल के लिए लाइव मानव एजेंट बनाम वॉइस AI एजेंट: व्यवसायों के लिए व्यावहारिक सलाह (4/5)"
 metatitle: "Seasalt.ai | AI आउटबाउंड कॉल | लाइव मानव एजेंट | वॉइस AI"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
 author: Jun Mao
 description: "व्यवसायों के लिए लाइव मानव एजेंट और AI-संचालित आउटबाउंड कॉल के लाभ और नुकसान का अन्वेषण करें - लागत, स्केलेबिलिटी और दक्षता की तुलना।"
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: 2025-01-27T10:30:00Z
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

@@ -1,16 +1,21 @@
 ---
 title: "NLU на основе намерений/сущностей против NLU на основе GenAI/LLM: разница в миллионах (примеров и долларов)"
 metatitle: "NLU на основе намерений/сущностей против NLU на основе GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: Откройте будущее разговорного ИИ — Почему переход от NLU на основе намерений/сущностей к GenAI/LLM имеет решающее значение для масштабируемости, экономической эффективности и адаптивности."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 Всем директорам по обслуживанию клиентов или маркетингу: если ваш начальник задаст вам следующий вопрос, отправьте им эту статью:

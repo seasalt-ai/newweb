@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. 인간 vs. 음성 AI: 비용 비교 (5/5)"
 metatitle: "OpenAI 실시간 API vs. 인간 및 음성 AI: 비용 분석"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "인간 접수원 및 음성 AI 에이전트와 비교한 OpenAI의 실시간 API에 대한 자세한 비용 분석."
 weight: 1
-tags: ["자동 응답 서비스", "소규모 기업을 위한 인바운드 콜", "SeaChat", "음성 AI"]
-toc: true
+tags:
+  - 자동 응답 서비스
+  - 소규모 기업을 위한 인바운드 콜
+  - SeaChat
+  - 음성 AI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

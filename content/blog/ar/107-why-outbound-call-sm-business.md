@@ -1,17 +1,19 @@
 ---
 title: "لماذا تحتاج الشركات الصغيرة إلى خدمة الاتصال الصادر/التسويق عبر الهاتف؟ (1/5)"
 metatitle: "Seasalt.ai | سلسلة المكالمات الصادرة | الشركات الصغيرة"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "استكشف الوكلاء المباشرين، وأجهزة الاتصال التلقائي، والذكاء الاصطناعي الصوتي لاختيار أفضل حل للمكالمات الصادرة لاحتياجات عملك."
 weight: 1
-tags: ["خدمة التسويق عبر الهاتف التلقائي", "المكالمات الصادرة للشركات الصغيرة", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة التسويق عبر الهاتف التلقائي
+  - المكالمات الصادرة للشركات الصغيرة
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

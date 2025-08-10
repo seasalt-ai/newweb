@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: Dowiedz się, jak AI i automatyzacja zmieniają obsługę klienta, zachowując
@@ -13,6 +12,8 @@ tags:
 - Doświadczenie klienta
 - Trendy technologiczne
 title: 'Przyszłość obsługi klienta: AI, automatyzacja i ludzkie połączenie'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

@@ -1,18 +1,17 @@
 ---
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறது"
+metatitle: "Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறத..."
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging ஆனது உரையாடல் AI ஐ Google Business Messages உடன் ஒருங்கிணைக்கிறது,
-  இது உங்கள் Google Maps சுயவிவரத்தில் உள்ள அரட்டை பொத்தான் வழியாக 24/7 ஆதரவை அனுமதிக்கிறது.
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறத...
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging Google Business Messages ஐ நிறைவு செய்கிறது
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging ஆனது உரையாடல் AI ஐ Google Business Messages உடன் ஒருங்கிணைக்கிறது, இது உங்கள் Google Maps சுயவிவரத்தில் உள்ள அரட்டை பொத்தான் வழியாக 24/7 ஆதரவை அனுமதிக்கிறது."
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

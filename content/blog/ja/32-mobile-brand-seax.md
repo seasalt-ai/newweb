@@ -1,16 +1,18 @@
 ---
 title: "顧客事例：SeaX がトップ携帯電話ブランドの100カ国での顧客サポートを支援した方法"
 metatitle: "SeaX がトップ携帯電話ブランドの顧客をグローバルにサポート"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Seasalt.ai の革新的なオムニチャネルコンタクトセンター導入が、トップ5の携帯電話ブランドが100カ国で顧客サポート業務を混乱から顧客満足へと変革するのにどのように役立ったかをご覧ください！
+description: "Seasalt.ai の革新的なオムニチャネルコンタクトセンター導入が、トップ5の携帯電話ブランドが100カ国で顧客サポート業務を混乱から顧客満足へと変革するのにどのように役立ったかをご覧ください！"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 トップ5の国際的な携帯電話ブランドの1つに対するオムニチャネルコンタクトセンター導入の成功事例は、顧客サポート業務を強化するテクノロジーの変革力を証明するものです。

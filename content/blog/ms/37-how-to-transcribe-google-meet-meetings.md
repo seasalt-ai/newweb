@@ -1,16 +1,17 @@
 ---
 title: "Cara Mentranskrip Mesyuarat Google Meet"
 metatitle: "Cara Mentranskrip Mesyuarat Google Meet"
-date: 2023-10-04T10:25:00-08:00
+date: 2023-10-04 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Pelajari cara mentranskrip mesyuarat Google Meet secara masa nyata. Dari ciri terbina dalam hingga SeaMeet oleh Seasalt.ai, kami membincangkan ketepatan, penyimpanan data, perkongsian, dan privasi. Temui cara memilih alat terbaik yang mengutamakan kecekapan dan keselamatan.
+description: "Pelajari cara mentranskrip mesyuarat Google Meet secara masa nyata. Dari ciri terbina dalam hingga SeaMeet oleh Seasalt.ai, kami membincangkan ketepatan, penyimpanan data, perkongsian, dan privasi. Temui cara memilih alat terbaik yang mengutamakan kecekapan dan keselamatan."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
-canonicalURL: "/blog/how-to-transcribe-google-meet-meetings/"
-url: "/blog/how-to-transcribe-google-meet-meetings/"
-summary: "Pelajari cara mentranskrip mesyuarat Google Meet secara masa nyata. Dari ciri terbina dalam hingga SeaMeet oleh Seasalt.ai, kami membincangkan ketepatan, penyimpanan data, perkongsian, dan privasi. Temui cara memilih alat terbaik yang mengutamakan kecekapan dan keselamatan."
+canonicalURL: /blog/how-to-transcribe-google-meet-meetings/
+url: /blog/how-to-transcribe-google-meet-meetings/
 ---
 
 # **Kandungan**

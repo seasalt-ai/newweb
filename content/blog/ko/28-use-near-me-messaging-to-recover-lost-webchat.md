@@ -1,16 +1,17 @@
 ---
 title: "사용자가 웹챗을 떠났습니다: Near Me Messaging을 사용하여 메시지를 푸시하세요!"
 metatitle: "사용자가 웹챗을 떠났습니다: Near Me Messaging으로 연락하세요!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging은 웹챗의 한 가지 문제를 해결합니다: 사용자가 대화를 떠난 *후에도* 다시 연락할 수 있습니다."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 2022년 크리스마스 아침, 저는 헨리라는 사용자로부터 남겨진 몇 개의 메시지를 받고 잠에서 깼습니다. 제가 메시지를 확인했을 때, 헨리는 이미 떠나고 없었습니다. 제가 받은 것은 그가 웹챗을 통해 보낸 메시지와 그의 이름뿐이었습니다.

@@ -1,16 +1,17 @@
 ---
 title: "Пользователь покинул веб-чат: используйте Near Me Messaging, чтобы отправить ему сообщение!"
 metatitle: "Пользователь покинул веб-чат: свяжитесь с ним с помощью Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging решает одну проблему веб-чата: свяжитесь с пользователем даже *после* того, как он покинул разговор."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Рождественским утром 2022 года я проснулся от нескольких сообщений, оставленных пользователем по имени Генри. К тому времени, как я добрался до сообщений, Генри уже ушел. Все, что я получил, это сообщения, которые он отправил через веб-чат, и его имя.

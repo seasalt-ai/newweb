@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: ควบคุมการติดตามเคสของ Contact Center ของคุณ"
 metatitle: "SeaX Case Management: ติดตามการโต้ตอบกับลูกค้าของคุณ"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "ในโพสต์นี้ เราจะสำรวจการผสานรวม AI กับ Case Management ซึ่งช่วยให้ตัวแทนของคุณมีเครื่องมือในการติดตามและบันทึกการโต้ตอบกับลูกค้าของคุณใน SeaX"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *ในบล็อกโพสต์ก่อนหน้าของเรา [SeaX KB: ฐานความรู้ที่ตอบได้ก่อนที่จะถูกถาม](https://seasalt.ai/blog/22-seax-knowledge-base/) เราได้แสดงให้เห็นว่าฐานความรู้ภายในของ Seasalt.ai ช่วยให้ตัวแทนของคุณเข้าถึงข้อมูลของบริษัทได้อย่างง่ายดาย เพิ่มประสิทธิภาพและความแม่นยำในศูนย์ติดต่อของคุณ ในโพสต์นี้ เราจะยังคงพูดถึงการผสานรวม AI กับระบบ Case Management ของ SeaX ซึ่งช่วยให้ตัวแทนของคุณมีเครื่องมือที่มีประสิทธิภาพในการติดตามและบันทึกการโต้ตอบกับลูกค้าของคุณโดยตรงในอินเทอร์เฟซ SeaX*

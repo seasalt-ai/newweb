@@ -1,16 +1,20 @@
 ---
 title: "¿Quién llama? Mejora la calidad de las llamadas con un agente de voz AI personalizado"
 metatitle: "Mejora la calidad de las llamadas con un agente de voz AI personalizado"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descubre el futuro de la programación de citas con Voice AI Agent, una solución 24/7 que integra IA y procesamiento de lenguaje natural para reservas eficientes y fluidas.
+description: "Descubre el futuro de la programación de citas con Voice AI Agent, una solución 24/7 que integra IA y procesamiento de lenguaje natural para reservas eficientes y fluidas."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Al gestionar una agenda ocupada, cada llamada cuenta. Desde negocios importantes hasta conectar con seres queridos, nuestra vida diaria gira en torno a conversaciones significativas. Sin embargo, atender muchas llamadas puede ser abrumador y consumir tiempo. Aquí es donde entra en juego el agente de voz AI personalizado.

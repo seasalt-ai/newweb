@@ -6,6 +6,8 @@ tags: ["AI 自動化", "小型企業", "客戶服務", "效率"]
 date: "2024-12-15"
 image_thumbnail: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
 modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: blog/incepe-cu-automatizarea-ai/
+url: blog/incepe-cu-automatizarea-ai/
 ---
 
 # 小型企業 AI 自動化入門

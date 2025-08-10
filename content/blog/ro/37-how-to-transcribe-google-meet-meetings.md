@@ -1,12 +1,15 @@
 ---
-metatitle: "Cum să transcrieți întâlnirile Google Meet"
 title: "Cum să transcrieți întâlnirile Google Meet"
-date: "2024-01-09"
-modified_date: "2024-01-09"
-tags: ["Google Meet", "Transcriere", "SeaMeet", "Întâlniri"]
-keywords: ["Google Meet", "transcriere", "întâlniri", "SeaMeet", "transcriere în timp real", "notițe întâlnire", "înregistrare întâlnire", "conversie voce în text", "eficiența întâlnirilor", "productivitatea întâlnirilor"]
+metatitle: "Cum să transcrieți întâlnirile Google Meet"
+date: 2024-01-09
+modified_date: 2024-01-09
+author: "" # 需要确认
 description: "Aflați cum să transcrieți întâlnirile Google Meet folosind funcții integrate și instrumente externe precum SeaMeet. Descoperiți sfaturi pentru transcriere precisă, stocare și confidențialitate."
-authors: ["Xuchen Yao"]
+tags:
+  - Google Meet
+  - Transcriere
+  - SeaMeet
+  - Întâlniri
 ---
 
 ## Puncte Cheie

@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Binabago ng AI Voice Assistants ang Pangangalaga sa Matatanda"
 metatitle: "SeaX + SeaChat: Binabago ang Pangangalaga sa Matatanda gamit ang AI Voice Assistants - Matagumpay na Aplikasyon ng Smart Care Calls"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01T00:00:00Z
 draft: false
 author: Jun Mao
 description: "Alamin kung paano matutugunan ng sistema ng AI voice assistant ng SeaX + SeaChat ang mga hamon ng pangangalaga sa matatanda sa super-aging na lipunan ng Taiwan. Tuklasin kung paano pinapabuti ng mga smart care call ang kalidad ng buhay ng mga senior, nagbibigay ng agarang pangangalaga, emosyonal na suporta, at pagsubaybay sa kalusugan, habang tinutugunan din ang kakulangan sa paggawa."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Habang papalapit ang Taiwan sa isang super-aging na lipunan, ang pangangalaga sa matatanda ay nahaharap sa walang uliran na mga hamon. Ayon sa datos mula sa National Development Council, sa 2024, ang populasyon ng matatanda sa Taiwan ay aabot sa halos 20%, at inaasahang opisyal na papasok sa isang super-aging na lipunan sa 2025. Sa harap ng demograpikong pagbabagong ito, kung paano epektibong magbigay ng agarang pangangalaga, magkakaibang serbisyo, at matugunan ang kakulangan sa paggawa ay naging tatlong pangunahing hamon para sa industriya ng pangmatagalang pangangalaga.'
-modified_date: "2024-08-01T00:00:00Z"
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Habang papalapit ang Taiwan sa isang super-aging na lipunan, ang pangangalaga sa matatanda ay nahaharap sa walang uliran na mga hamon. Ayon sa datos mula sa National Development Council, sa 2024, ang populasyon ng matatanda sa Taiwan ay aabot sa halos 20%, at inaasahang opisyal na papasok sa isang super-aging na lipunan sa 2025. Sa harap ng demograpikong pagbabagong ito, kung paano epektibong magbigay ng agarang pangangalaga, magkakaibang serbisyo, at matugunan ang kakulangan sa paggawa ay naging tatlong pangunahing hamon para sa industriya ng pangmatagalang pangangalaga.

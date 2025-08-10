@@ -14,6 +14,8 @@ tags:
 - Marketing digital
 - Conținut video
 title: Crearea de conținut multimedia alimentat de AI pentru angajarea clienților
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

@@ -1,15 +1,16 @@
 ---
 title: "SeaX Voice Intelligence: Transcriere live, rezumate și analize de sentimente"
 metatitle: "SeaX Voice Intelligence: Transcriere live, rezumate și analize de sentimente"
-date: 2022-08-03T15:00:00Z
-author: Sarah Reid
+date: 2022-08-03 15:00:00+00:00
 draft: false
-image: images/blog/21-seax-voice-intelligence/0-main.png
+author: Sarah Reid
 description: "În acest blog, vom explora caracteristicile de inteligență vocală ale SeaX, inclusiv transcrierea live, rezumatele și analiza sentimentelor."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
+tags:
+  - SeaX
+image: images/blog/21-seax-voice-intelligence/0-main.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *În postarea noastră anterioară de pe blog, [Extindeți amprenta centrului dvs. de contact cu un centru de contact distribuit](https://seasalt.ai/blog/20-seax-distributed-contact-center/), am arătat cum SeaX sprijină centrele de contact distribuite, permițând companiilor să își extindă acoperirea și să își servească clienții la nivel global. În această postare, vom explora caracteristicile de inteligență vocală ale SeaX, inclusiv transcrierea live, rezumatele și analiza sentimentelor.*

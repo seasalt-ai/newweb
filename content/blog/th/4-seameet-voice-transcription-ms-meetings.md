@@ -2,16 +2,15 @@
 title: "จาก Demo สู่ความสำเร็จ: ข้อผิดพลาดของการประชุมสมัยใหม่ (2/5)"
 metatitle: "Demo สู่ความสำเร็จ (2/5): ข้อผิดพลาดของการประชุมสมัยใหม่"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "ในส่วนที่สองของบล็อกซีรีส์นี้ ติดตามการเดินทางของ Seasalt.ai ในการสร้าง SeaMeet ซึ่งเป็นโซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเรา"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *ตลอดบล็อกซีรีส์นี้ ติดตามการเดินทางของ Seasalt.ai ในการสร้างประสบการณ์การประชุมสมัยใหม่ที่สมบูรณ์แบบ เริ่มต้นจากจุดเริ่มต้นเล็กๆ ไปจนถึงการเพิ่มประสิทธิภาพบริการของเราบนฮาร์ดแวร์และโมเดลต่างๆ ไปจนถึงการรวมระบบ NLP ที่ล้ำสมัย และสุดท้ายก็จบลงด้วยการตระหนักถึง SeaMeet อย่างเต็มรูปแบบ ซึ่งเป็นโซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเรา*

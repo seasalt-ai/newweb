@@ -1,18 +1,17 @@
 ---
 title: "معركة المساعد الذكي للاجتماعات: مايكروسوفت تيمز ضد جوجل ميت"
 metatitle: "معركة المساعد الذكي للاجتماعات: مايكروسوفت تيمز ضد جوجل ميت"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "استكشف ميزات المساعد الذكي للاجتماعات في مايكروسوفت تيمز وجوجل ميت، وقارن دعم المنصات للغات المختلفة، وتعرف على كيفية توفير SeaMeet للنسخ الفوري والملخصات والميزات الأخرى."
+description: استكشف ميزات المساعد الذكي للاجتماعات في مايكروسوفت تيمز وجوجل ميت، وقارن دعم المنصات للغات المختلفة، وتعرف على كيفية توفير SeaMeet للنسخ الفوري والملخصات والميزات الأخرى.
 weight: 1
-tags: ["SeaMeet", "أدوات الذكاء الاصطناعي"]
+tags:
+  - SeaMeet
+  - أدوات الذكاء الاصطناعي
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "استكشف ميزات المساعد الذكي للاجتماعات في مايكروسوفت تيمز وجوجل ميت، وقارن دعم المنصات للغات المختلفة، وتعرف على كيفية توفير SeaMeet للنسخ الفوري والملخصات والميزات الأخرى."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 مع تطور التكنولوجيا، أصبحت المساعدات الذكية للاجتماعات أدوات حاسمة لتحسين كفاءة الاجتماعات. يمكن لهذه الأدوات تقديم ملخصات الاجتماعات تلقائياً، وتحويل الكلام إلى نص، وحتى تحديد المعلومات المهمة خلال الاجتماعات. سيستكشف هذا المقال ثلاثة مساعدين ذكيين رئيسيين للاجتماعات: Copilot من مايكروسوفت تيمز، وDuet AI من جوجل ميت، وSeaMeet.

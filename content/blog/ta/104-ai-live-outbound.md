@@ -1,17 +1,20 @@
 ---
 title: "தானியங்கி வெளிச்செல் அழைப்புகளுக்கான நேரடி மனித பணியாளர்கள் மற்றும் குரல் AI முகவர்கள்: வணிகங்களுக்கான நடைமுறை ஆலோசனைகள் (4/5)"
 metatitle: "Seasalt.ai | AI வெளிச்செல் அழைப்புகள் | நேரடி மனித பணியாளர்கள் | குரல் AI"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2024-12-19T09:00:00Z
 draft: false
 author: Jun Mao
 description: "வணிகங்களுக்கான நேரடி மற்றும் AI-ஆல் இயக்கப்படும் வெளிச்செல் அழைப்புகளின் நன்மைகள் மற்றும் குறைகளை ஆராயுங்கள் — செலவு, அளவிடக்கூடிய தன்மை மற்றும் திறனை ஒப்பிடுங்கள்."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: "2024-12-19T09:00:00Z"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

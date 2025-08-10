@@ -2,16 +2,15 @@
 title: "จากการสาธิตสู่ความสำเร็จ: การนำการประชุมสมัยใหม่ของ Microsoft ไปใช้และอื่นๆ (1/5)"
 metatitle: "จากการสาธิตสู่ความสำเร็จ (1/5): นอกเหนือจากการประชุมสมัยใหม่ของ Microsoft"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "ในส่วนแรกของซีรีส์บล็อกนี้ ติดตามการเดินทางของ Seasalt.ai เพื่อสร้าง SeaMeet โซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเรา"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *ตลอดซีรีส์บล็อกนี้ ติดตามการเดินทางของ Seasalt.ai เพื่อสร้างประสบการณ์การประชุมสมัยใหม่ที่รอบด้าน เริ่มต้นจากจุดเริ่มต้นที่เรียบง่าย ไปจนถึงการปรับปรุงบริการของเราบนฮาร์ดแวร์และโมเดลต่างๆ ไปจนถึงการผสานรวมระบบ NLP ที่ล้ำสมัย และสุดท้ายจบลงด้วยการตระหนักถึง SeaMeet โซลูชันการประชุมสมัยใหม่ที่ทำงานร่วมกันของเราอย่างเต็มรูปแบบ*

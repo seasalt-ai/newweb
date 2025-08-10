@@ -1,18 +1,20 @@
 ---
 title: "SeaChat மற்றும் Zoho Desk அறிவுத் தள ஒருங்கிணைப்புடன் வாடிக்கையாளர் ஆதரவை நெறிப்படுத்துதல்"
 metatitle: "SeaChat மற்றும் Zoho Desk உடன் வாடிக்கையாளர் ஆதரவை நெறிப்படுத்துதல்"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: தடையற்ற, திறமையான வாடிக்கையாளர் ஆதரவுக்காக SeaChat இன் AI அரட்டை மற்றும் குரல் முகவர் Zoho Desk இன் விரிவான அறிவுத் தளத்துடன் எவ்வாறு ஒருங்கிணைக்கிறது என்பதைக் கண்டறியவும்.
+description: "தடையற்ற, திறமையான வாடிக்கையாளர் ஆதரவுக்காக SeaChat இன் AI அரட்டை மற்றும் குரல் முகவர் Zoho Desk இன் விரிவான அறிவுத் தளத்துடன் எவ்வாறு ஒருங்கிணைக்கிறது என்பதைக் கண்டறியவும்."
 weight: 1
-tags: ["SeaChat", "AI கருவிகள்", "ஒருங்கிணைப்பு", "வாடிக்கையாளர் அனுபவம்"]
+tags:
+  - SeaChat
+  - AI கருவிகள்
+  - ஒருங்கிணைப்பு
+  - வாடிக்கையாளர் அனுபவம்
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 இன்றைய வேகமாக வளர்ந்து வரும் டிஜிட்டல் உலகில், வாடிக்கையாளர் ஆதரவை மேம்படுத்தவும் தகவல் நிர்வாகத்தை நெறிப்படுத்தவும் வணிகங்கள் தொடர்ந்து புதுமையான தீர்வுகளைத் தேடுகின்றன. SeaChat, ஒரு மேம்பட்ட AI அரட்டை மற்றும் குரல் முகவர், Zoho Desk இன் விரிவான அறிவுத் தளத்துடன் ஒருங்கிணைப்பது, இந்த சவால்களுக்கு ஒரு அற்புதமான தீர்வை வழங்குகிறது.

@@ -1,21 +1,18 @@
 ---
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
-  Vernon
-canonicalURL: /blog/seavoice-discord-backend-improvements/
+title: "SeaVoice STT/TTS Discord Bot : Améliorations Backend et Stabilité"
+metatitle: "SeaVoice STT/TTS Discord Bot : Améliorations Backend et Stab..."
 date: 2022-12-13 11:58:34-08:00
-description: Avec la dernière version, le SeaVoice Discord Bot lance des améliorations
-  backend massives qui améliorent la stabilité du bot et facilitent le développement
-  futur.
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-metatitle: 'SeaVoice STT/TTS Discord Bot : Améliorations Backend et Stab...'
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- SeaVoice
-- Discord
-title: 'SeaVoice STT/TTS Discord Bot : Améliorations Backend et Stabilité'
-url: /blog/seavoice-discord-backend-improvements/
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
+description: "Avec la dernière version, le SeaVoice Discord Bot lance des améliorations backend massives qui améliorent la stabilité du bot et facilitent le développement futur."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+url: /blog/seavoice-discord-backend-improvements/
 ---
 
 

@@ -1,18 +1,18 @@
 ---
 title: "Discord (3/3): Discord மற்றும் Twilio Flex: Flex தொடர்பு மையத்தை அறியப்படாத பகுதிக்கு கொண்டு வருதல்"
 metatitle: "Discord (3/3): Discord இல் Twilio Flex தொடர்பு மையம்"
-date: 2022-06-07T12:32:24-07:00
-author: Kim Dodds
+date: 2022-06-07 12:32:24-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+author: Kim Dodds
 description: "இந்த வலைப்பதிவில், Seasalt.ai ஒரு முழுமையான தொடர்பு மையத்தை Discord சேவையகத்தில் எவ்வாறு ஒருங்கிணைத்தது என்பதை நாங்கள் நிரூபிப்போம்."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-and-twilio"
-url: "/blog/discord-and-twilio/"
-aliases:
-  - /blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+  - Discord
+image: /images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-thumbnail.png
+canonicalURL: /blog/discord-and-twilio
+url: /blog/discord-and-twilio/
 ---
 
 *இது Discord இல் வாடிக்கையாளர் ஈடுபாடு பற்றிய மூன்று பகுதித் தொடரில் எங்கள் கடைசி இடுகை. எங்கள் முதல் வலைப்பதிவு, [“வாடிக்கையாளர் ஈடுபாட்டிற்கான ஒரு புதிய எல்லை”](https://seasalt.ai/blog/15-discord-a-new-frontier-for-customer-engagement/), Discord இன் புகழ் அதிகரிப்பு மற்றும் பிராண்டுகள் தங்கள் சொந்த ஆன்லைன் சமூகங்களை உருவாக்க மற்றும் பங்கேற்க இது வழங்கும் புதிய வாய்ப்பைப் பற்றி விவாதித்தது. இரண்டாம் பகுதியில், [“உங்கள் பிராண்டிற்கான Discord சமூகத்தையும் போட்களையும் உருவாக்குவது எப்படி”](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/), உங்கள் பிராண்டிற்கான Discord சேவையகத்தை எவ்வாறு உருவாக்குவது மற்றும் சேவையக மிதப்படுத்தல், அறிவிப்புகள், பயனர் கருத்துகள் போன்றவற்றை நிர்வகிக்க ஒரு போட்டை எவ்வாறு ஒருங்கிணைப்பது என்பதை நாங்கள் விளக்கினோம். இறுதியாக, இந்த வலைப்பதிவில், Seasalt.ai இல் நாங்கள் ஒரு முழுமையான தொடர்பு மையத்தை Discord சேவையகத்தில் எவ்வாறு ஒருங்கிணைத்தோம் என்பதற்கான ஒரு விளக்கத்தை நாங்கள் வழங்குவோம், இது பிராண்டுகள் தளத்தில் வாடிக்கையாளர் கவனிப்பின் அனைத்து அம்சங்களையும் கையாள அனுமதிக்கிறது.*

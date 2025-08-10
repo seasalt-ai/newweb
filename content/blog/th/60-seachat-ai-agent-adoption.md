@@ -1,16 +1,20 @@
 ---
 title: "SeaChat's No-Code AI Agent Builder ทำให้การนำ AI มาใช้เป็นเรื่องง่าย"
 metatitle: "SeaChat's No-Code AI Agent Builder ทำให้การนำ AI มาใช้เป็นเรื่องง่าย"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: นำทาง AI มาใช้ในองค์กรของคุณได้อย่างราบรื่นด้วย SeaChat! ตัวสร้างตัวแทน AI แบบไม่ต้องเขียนโค้ดนี้ช่วยให้กระบวนการง่ายขึ้น ทำให้ง่ายและไม่ยุ่งยาก เริ่มต้นจากกรณีการใช้งานง่ายๆ และค่อยๆ เพิ่มการนำ AI มาใช้โดยการทดลองใช้วิธีต่างๆ ในการใช้ประโยชน์จาก AI
+description: "นำทาง AI มาใช้ในองค์กรของคุณได้อย่างราบรื่นด้วย SeaChat! ตัวสร้างตัวแทน AI แบบไม่ต้องเขียนโค้ดนี้ช่วยให้กระบวนการง่ายขึ้น ทำให้ง่ายและไม่ยุ่งยาก เริ่มต้นจากกรณีการใช้งานง่ายๆ และค่อยๆ เพิ่มการนำ AI มาใช้โดยการทดลองใช้วิธีต่างๆ ในการใช้ประโยชน์จาก AI"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # ขอแนะนำ SeaChat: ตัวสร้างตัวแทน AI แบบไม่ต้องเขียนโค้ดของคุณ

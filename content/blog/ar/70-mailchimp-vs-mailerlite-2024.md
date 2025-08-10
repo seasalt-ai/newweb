@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: ما هي خدمة التسويق عبر البريد الإلكتروني المناسبة لك في عام 2025؟"
 metatitle: "Mailchimp vs. MailerLite | خدمة التسويق عبر البريد الإلكتروني 2025؟"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite مقابل Mailchimp ، ما هي خدمة البريد الإلكتروني المناسبة لك؟ مقارنتنا المتعمقة تحلل الميزات والأسعار والمزيد.
+description: "MailerLite مقابل Mailchimp ، ما هي خدمة البريد الإلكتروني المناسبة لك؟ مقارنتنا المتعمقة تحلل الميزات والأسعار والمزيد."
 weight: 1
-tags: ["SeaChat", "التجارة الإلكترونية", "التسويق عبر البريد الإلكتروني"]
+tags:
+  - SeaChat
+  - التجارة الإلكترونية
+  - التسويق عبر البريد الإلكتروني
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 لا يزال التسويق عبر البريد الإلكتروني أداة قوية للشركات من جميع الأحجام. سواء كنت تستكشف وظائف التسويق عبر البريد الإلكتروني ، أو تبحث عن أفضل برامج التسويق عبر البريد الإلكتروني ، أو تبحث عن نصائح قابلة للتنفيذ في مجال التسويق عبر البريد الإلكتروني ، فستحتاج إلى معرفة أفضل أداة في السوق. اليوم ، سنقارن بين أداتين شائعتين للتسويق عبر البريد الإلكتروني ، [Mailchimp](https://mailchimp.com/) و [MailerLite](https://www.mailerlite.com/) لاعتباراتك.

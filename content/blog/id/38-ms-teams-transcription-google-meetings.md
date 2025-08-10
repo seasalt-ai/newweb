@@ -1,18 +1,17 @@
 ---
 title: "Pertarungan Asisten Rapat AI: Microsoft Teams vs Google Meet"
 metatitle: "Pertarungan Asisten Rapat AI: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Jelajahi asisten rapat AI Microsoft Teams dan Google Meet, bandingkan dukungan bahasa platform, dan pelajari bagaimana SeaMeet menyediakan transkripsi real-time, ringkasan, dan fitur lainnya."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Jelajahi asisten rapat AI Microsoft Teams dan Google Meet, bandingkan dukungan bahasa platform, dan pelajari bagaimana SeaMeet menyediakan transkripsi real-time, ringkasan, dan fitur lainnya."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Seiring dengan perkembangan teknologi, asisten rapat AI telah menjadi alat penting untuk meningkatkan efisiensi rapat. Alat-alat ini dapat secara otomatis membuat ringkasan rapat, mengubah ucapan menjadi teks, dan bahkan mengidentifikasi informasi penting dalam rapat. Artikel ini akan meninjau tiga asisten rapat AI utama: Copilot Microsoft Teams, Duet AI Google Meet, dan SeaMeet.

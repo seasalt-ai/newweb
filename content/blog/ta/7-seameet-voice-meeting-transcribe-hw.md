@@ -1,18 +1,17 @@
 ---
 title: "டெமோவிலிருந்து வெற்றிக்கு: வன்பொருளுக்கு அப்பால் (5/5)"
 metatitle: "டெமோவிலிருந்து வெற்றிக்கு (5/5): வன்பொருளுக்கு அப்பால்"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Cody Kim
 description: "இந்த வலைப்பதிவுத் தொடரின் கடைசிப் பகுதியில், எங்கள் கூட்டு நவீன சந்திப்பு தீர்வான SeaMeet-ஐ உருவாக்குவதற்கான Seasalt.ai-யின் பயணத்தைப் பின்பற்றுங்கள்."
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *இந்த வலைப்பதிவுத் தொடர் முழுவதும், Seasalt.ai-யின் ஒரு முழுமையான நவீன சந்திப்பு அனுபவத்தை உருவாக்குவதற்கான பயணத்தைப் பின்பற்றுங்கள், அதன் தாழ்மையான தொடக்கங்களிலிருந்து, வெவ்வேறு வன்பொருள் மற்றும் மாடல்களில் எங்கள் சேவையை மேம்படுத்துவது, அதிநவீன NLP அமைப்புகளை ஒருங்கிணைப்பது மற்றும் இறுதியாக எங்கள் கூட்டு நவீன சந்திப்பு தீர்வான SeaMeet-ஐ முழுமையாக உணர்ந்து கொள்வது வரை.*

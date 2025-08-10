@@ -1,16 +1,20 @@
 ---
 title: "Głosowy agent AI: Rewolucjonizowanie rezerwacji spotkań 24/7"
 metatitle: "Głosowy agent AI: Rewolucjonizowanie rezerwacji spotkań 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Poznaj przyszłość planowania spotkań z głosowym agentem AI, rozwiązaniem dostępnym 24/7, integrującym AI i przetwarzanie języka naturalnego dla efektywnej i płynnej rezerwacji spotkań.
+description: "Poznaj przyszłość planowania spotkań z głosowym agentem AI, rozwiązaniem dostępnym 24/7, integrującym AI i przetwarzanie języka naturalnego dla efektywnej i płynnej rezerwacji spotkań."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Wprowadzenie

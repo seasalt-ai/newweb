@@ -1,17 +1,17 @@
 ---
 title: "Wie Voicebot älteren Menschen, die alleine leben, helfen kann - Die intelligente Lösung von SeaX"
 metatitle: "Verbesserung der Lebensqualität von allein lebenden Senioren mit AI Voicebot - SeaX Smart Care Lösung"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Entdecken Sie, wie die intelligenten KI-Pflegeanrufe von SeaX regelmäßige Betreuung, Gesundheitsüberwachung und Notfallunterstützung für allein lebende ältere Menschen in einer alternden Gesellschaft bieten können, um deren Lebensqualität und Sicherheitsgefühl effektiv zu verbessern."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwan entwickelt sich allmählich zu einer super-alternden Gesellschaft, mit einer ständig wachsenden Zahl älterer Menschen, die alleine leben. Laut Daten des NDC wird der Anteil der älteren Bevölkerung in Taiwan bis 2024 voraussichtlich fast 20 % erreichen und 2025 offiziell in eine super-alternde Gesellschaft eintreten. Dieser Wandel in der Sozialstruktur hat die körperlichen und geistigen Gesundheitsprobleme älterer Menschen, die alleine leben, in den Fokus gerückt. Insbesondere fühlen sich viele ältere Menschen oft einsam und befürchten die Möglichkeit, alleine zu Hause zu sterben. Dieser psychische Druck beeinträchtigt nicht nur ihre Lebensqualität, sondern bedroht auch ihre körperliche Gesundheit.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwan entwickelt sich allmählich zu einer super-alternden Gesellschaft, mit einer ständig wachsenden Zahl älterer Menschen, die alleine leben. Laut Daten des NDC wird der Anteil der älteren Bevölkerung in Taiwan bis 2024 voraussichtlich fast 20 % erreichen und 2025 offiziell in eine super-alternde Gesellschaft eintreten. Dieser Wandel in der Sozialstruktur hat die körperlichen und geistigen Gesundheitsprobleme älterer Menschen, die alleine leben, in den Fokus gerückt. Insbesondere fühlen sich viele ältere Menschen oft einsam und befürchten die Möglichkeit, alleine zu Hause zu sterben. Dieser psychische Druck beeinträchtigt nicht nur ihre Lebensqualität, sondern bedroht auch ihre körperliche Gesundheit.

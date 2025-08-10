@@ -1,18 +1,17 @@
 ---
 title: "会议AI助手的竞争：Microsoft Teams vs Google Meet"
 metatitle: "会议AI助手的竞争：Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "探索Microsoft Teams和Google Meet的AI会议助手，比较平台的语言支持，了解SeaMeet如何提供实时转录、摘要和其他功能。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "探索Microsoft Teams和Google Meet的AI会议助手，比较平台的语言支持，了解SeaMeet如何提供实时转录、摘要和其他功能。"
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 随着技术的进步，会议AI助手已成为提高会议效率的重要工具。这些工具可以自动生成会议摘要、将语音转换为文本，并在会议期间识别重要信息。在本文中，我们将探讨三个重要的AI会议助手：Microsoft Teams的Copilot、Google Meet的Duet AI和SeaMeet。

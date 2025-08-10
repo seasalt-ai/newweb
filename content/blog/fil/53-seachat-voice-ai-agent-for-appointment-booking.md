@@ -1,16 +1,20 @@
 ---
 title: "Voice AI Agent: Binabago ang Pag-book ng Appointment 24/7"
 metatitle: "Voice AI Agent: Binabago ang Pag-book ng Appointment 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Galugarin ang hinaharap ng pag-iskedyul ng appointment gamit ang Voice AI Agent, isang 24/7 na solusyon na nagsasama ng AI at natural na pagproseso ng wika para sa mahusay, maayos na pag-book ng appointment.
+description: "Galugarin ang hinaharap ng pag-iskedyul ng appointment gamit ang Voice AI Agent, isang 24/7 na solusyon na nagsasama ng AI at natural na pagproseso ng wika para sa mahusay, maayos na pag-book ng appointment."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Panimula

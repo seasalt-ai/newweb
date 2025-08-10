@@ -1,17 +1,20 @@
 ---
 title: "자동 전화 응답 시스템(IVR vs 음성 AI 에이전트): 소규모 비즈니스를 위한 최고의 선택 (3/5)"
 metatitle: "자동 응답 시스템(IVR vs 음성 AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
 author: Jun Mao
 description: "소규모 비즈니스를 위한 자동 전화 시스템의 IVR과 음성 AI 에이전트 옵션을 탐색해보세요."
 weight: 1
-tags: ["자동 응답 서비스", "소규모 비즈니스 수신 전화", "SeaChat", "음성 AI"]
-toc: true
+tags:
+  - 자동 응답 서비스
+  - 소규모 비즈니스 수신 전화
+  - SeaChat
+  - 음성 AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-08-03T00:35:01Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 ---

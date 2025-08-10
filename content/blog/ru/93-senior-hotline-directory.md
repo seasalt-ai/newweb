@@ -1,13 +1,19 @@
 ---
 title: "Справочник горячих линий для пожилых людей: Ресурсы по уходу за пожилыми людьми на Тайване"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "Подробное руководство по горячим линиям для пожилых людей на Тайване, содержащее важную контактную информацию для отделов по социальным вопросам в крупных городах. Узнайте, как SeaX и SeaChat AI могут улучшить услуги по уходу за пожилыми людьми."
-tags: ["Уход за пожилыми людьми", "Горячая линия для пожилых людей", "Тайвань", "SeaX", "SeaChat AI", "Общественные ресурсы"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - Уход за пожилыми людьми
+  - Горячая линия для пожилых людей
+  - Тайвань
+  - SeaX
+  - SeaChat AI
+  - Общественные ресурсы
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # Справочник горячих линий для пожилых людей: Ресурсы по уходу за пожилыми людьми на Тайване

@@ -1,18 +1,17 @@
 ---
 title: "デモから成功へ：ハードウェアを超えて (5/5)"
 metatitle: "デモから成功へ (5/5)：ハードウェアを超えて"
-date: 2021-09-15T17:24:32-07:00
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-09-15 17:24:32-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Cody Kim
 description: "このブログシリーズの最終回では、Seasalt.aiが共同の最新の会議ソリューションであるSeaMeetを作成するまでの道のりを追います。"
-tags: ["SeaMeet"]
-weight: 1 
-canonicalURL: "/blog/seameet-voice-hardware/"
-url: "/blog/seameet-voice-hardware/"
-aliases:
-    - /blog/7-seameet-voice-intelligence-meeting-transcription-hardware/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-hardware/
+url: /blog/seameet-voice-hardware/
 ---
 
 *このブログシリーズを通して、Seasalt.aiが、その謙虚な始まりから、さまざまなハードウェアとモデルでサービスを最適化し、最先端のNLPシステムを統合し、最終的に共同の最新の会議ソリューションであるSeaMeetの完全な実現に至るまでの、バランスの取れた最新の会議体験を作成するまでの道のりを追ってください。*

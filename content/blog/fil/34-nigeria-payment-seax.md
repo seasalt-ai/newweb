@@ -1,16 +1,18 @@
 ---
 title: "Customer Story: Tagumpay ng Contact Center sa Industriya ng Digital Payment ng Nigeria"
 metatitle: "Tagumpay ng Contact Center sa Industriya ng Digital Payment ng Nigeria"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Ang nangungunang kumpanya ng digital payment sa Nigeria ay nakamit ang rebolusyonaryong suporta sa customer gamit ang isang omni-channel contact center, na nagsasama ng mga chatbot at personalized na suporta sa Pidgin English, na nakikinabang sa milyun-milyong user at merchant.
+description: "Ang nangungunang kumpanya ng digital payment sa Nigeria ay nakamit ang rebolusyonaryong suporta sa customer gamit ang isang omni-channel contact center, na nagsasama ng mga chatbot at personalized na suporta sa Pidgin English, na nakikinabang sa milyun-milyong user at merchant."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 Ang kwento ng tagumpay ng pagpapatupad ng omni-channel contact center para sa isang nangungunang kumpanya ng digital payment sa Nigeria ay nagpapakita kung paano maaaring baguhin ng paggamit ng advanced na teknolohiya ang suporta sa customer at mapahusay ang pangkalahatang karanasan ng user.

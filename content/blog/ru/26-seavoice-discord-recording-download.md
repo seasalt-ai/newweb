@@ -1,16 +1,17 @@
 ---
 title: "SeaVoice STT/TTS Discord Bot: Первый, кто предоставляет загружаемые голосовые записи с AI-транскрипциями"
 metatitle: "SeaVoice STT/TTS Discord Bot: Загрузки записей"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: С последним выпуском, SeaVoice Discord Bot является первым на платформе, который предлагает загружаемые записи голосовых каналов с транскрипциями, сгенерированными ИИ.
+description: "С последним выпуском, SeaVoice Discord Bot является первым на платформе, который предлагает загружаемые записи голосовых каналов с транскрипциями, сгенерированными ИИ."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *Бот SeaVoice Discord набирает популярность как один из лучших вариантов для транскрибирования речи в голосовых каналах Discord. С последним выпуском, бот является первым на Discord, который предлагает загружаемые записи голосовых каналов с транскрипциями, сгенерированными ИИ.*

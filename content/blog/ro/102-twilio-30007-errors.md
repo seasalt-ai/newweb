@@ -1,16 +1,18 @@
 ---
 title: "Cum să gestionați erorile Twilio 30007"
 metatitle: "Seasalt.ai | Cum să gestionați erorile Twilio 30007"
-date: 2024-10-15T00:22:19-07:00
+date: 2024-10-15 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Aflați cum să depanați și să preveniți erorile Twilio 30007 pentru a asigura livrarea cu succes a mesajelor SMS."
 weight: 1
-tags: ["Twilio", "SeaX", "SMS"]
-toc: true
+tags:
+  - Twilio
+  - SeaX
+  - SMS
 image: /images/blog/102-twilio-30007-errors/102-twilio-30007-errors.png
-canonicalURL: "/blog/twilio-30007-errors/"
-url: "/blog/twilio-30007-errors/"
+canonicalURL: /blog/twilio-30007-errors/
+url: /blog/twilio-30007-errors/
 ---
 
 ---

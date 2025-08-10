@@ -1,17 +1,17 @@
 ---
 title: "SeaX: Halimbawa ng Taunang Tawag sa Pag-check - Nagbibigay ng Mas Mahusay na Serbisyo ng Pag-aalaga para sa mga Matatanda"
 metatitle: "Halimbawa ng Taunang Tawag sa Pag-check ng SeaX: Pinapahusay ng AI Assistant ang Kalidad ng Serbisyo ng Pag-aalaga sa Matatanda"
-date: 2024-08-20T00:22:19-07:00
+date: 2024-08-20 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Tuklasin kung paano binago ng SeaX ang serbisyo ng pag-aalaga sa matatanda sa pamamagitan ng teknolohiya ng AI, na naglutas ng maraming hamon sa taunang tawag sa pag-check, nagpapahusay sa kalidad ng serbisyo at nagbabawas ng pasanin ng mga boluntaryo. Alamin kung paano nagbibigay ang mga matalinong solusyon ng SeaX ng mas mahusay na patuloy na pangangalaga para sa mga matatanda sa buong mundo."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Sa harap ng lumalaking populasyon ng matatanda, ang mga institusyon ng pangangalaga sa matatanda sa buong mundo ay nahaharap sa maraming hamon. Lalo na sa regular na pag-aalaga at pagsubaybay sa kalusugan, hindi lamang nangangailangan ng malaking halaga ng mga mapagkukunan ng tao, kundi madalas ding hindi natutukoy ang mga potensyal na problema dahil sa pagkukulang o pagkaantala. Ito ang isang hamon na kinaharap ng isang institusyon ng serbisyong panlipunan sa Singapore na nakikipagtulungan sa Seasalt.ai. Ang institusyong ito ay taunang nakikipag-ugnayan sa libu-libong matatanda sa pamamagitan ng isang taunang tawag sa pag-aalaga, isang proseso na masalimuot at mahirap pamahalaan nang mahusay. Upang malutas ang problemang ito, ipinakilala nila ang SeaX, na makabuluhang pinahusay ang kalidad at kahusayan ng serbisyo ng pag-aalaga sa pamamagitan ng teknolohiya ng AI.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 Sa harap ng lumalaking populasyon ng matatanda, ang mga institusyon ng pangangalaga sa matatanda sa buong mundo ay nahaharap sa maraming hamon. Lalo na sa regular na pag-aalaga at pagsubaybay sa kalusugan, hindi lamang nangangailangan ng malaking halaga ng mga mapagkukunan ng tao, kundi madalas ding hindi natutukoy ang mga potensyal na problema dahil sa pagkukulang o pagkaantala. Ito ang isang hamon na kinaharap ng isang institusyon ng serbisyong panlipunan sa Singapore na nakikipagtulungan sa Seasalt.ai. Ang institusyong ito ay taunang nakikipag-ugnayan sa libu-libong matatanda sa pamamagitan ng isang taunang tawag sa pag-aalaga, isang proseso na masalimuot at mahirap pamahalaan nang mahusay. Upang malutas ang problemang ito, ipinakilala nila ang SeaX, na makabuluhang pinahusay ang kalidad at kahusayan ng serbisyo ng pag-aalaga sa pamamagitan ng teknolohiya ng AI.

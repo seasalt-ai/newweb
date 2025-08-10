@@ -1,16 +1,21 @@
 ---
 title: "대화형 AI의 미래: SeaChat이 Nuance Mix NLU를 대체할까?"
 metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Nuance Mix NLU가 왜 구식일까요? SeaChat을 만나보세요 - 고급 LLM 기술로 반복적인 챗봇의 한계를 벗어나 매력적이고 인간적인 대화를 촉진합니다.
+description: "Nuance Mix NLU가 왜 구식일까요? SeaChat을 만나보세요 - 고급 LLM 기술로 반복적인 챗봇의 한계를 벗어나 매력적이고 인간적인 대화를 촉진합니다."
 weight: 1
-tags: ["SeaChat", "AI 도구", "대규모 언어 모델", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI 도구
+  - 대규모 언어 모델
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 대화형 AI의 세계는 혁신으로 들썩이고 있습니다. [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html)가 사용자 의도를 이해하는 강력한 도구로 자리매김했지만, 대규모 언어 모델(LLM)의 등장은 매력적인 대안을 제시합니다. LLM 기술을 기반으로 구축된 플랫폼인 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대화형 AI의 잠재적인 미래를 엿볼 수 있게 해줍니다.

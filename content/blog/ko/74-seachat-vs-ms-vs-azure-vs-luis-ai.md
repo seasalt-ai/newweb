@@ -1,18 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Services(LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Framework vs. Azure Services"
-date: 2024-03-21T00:22:19-07:00
+date: 2024-03-21 00:22:19-07:00
 modified_date: 2024-06-09
 draft: false
 author: Xuchen Yao
-description: 왜 Microsoft Bot Framework와 Azure Bot Services(LUIS.ai)가 시대에 뒤떨어졌는가? SeaChat을 만나보세요 - 첨단 LLM 기술로 반복적인 챗봇을 넘어, 인간다운 대화를 실현합니다.
+description: "왜 Microsoft Bot Framework와 Azure Bot Services(LUIS.ai)가 시대에 뒤떨어졌는가? SeaChat을 만나보세요 - 첨단 LLM 기술로 반복적인 챗봇을 넘어, 인간다운 대화를 실현합니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-url: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-aliases:
-    - "/blog/74-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+canonicalURL: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
+url: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
 ---
 
 대화형 AI 분야는 Microsoft와 OpenAI의 협력 강화 소식으로 들썩이고 있습니다. 일부는 이 동맹의 잠재력을 환영하지만, Microsoft 내부에서는 자체 AI 개발이 약화되고 OpenAI 제품이 우선시될 것이라는 우려가 나오고 있습니다.

@@ -1,16 +1,18 @@
 ---
 title: "Kisah Pelanggan: Bagaimana SeaX Membantu Jenama Telefon Bimbit Terkemuka Menyokong Pelanggan di 100 Negara"
 metatitle: "SeaX Membantu Jenama Telefon Bimbit Terkemuka Menyokong Pelanggan Secara Global"
-date: 2023-06-25T11:25:00-08:00
+date: 2023-06-25 11:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Temui bagaimana pelaksanaan pusat hubungan omni-saluran Seasalt.ai yang transformatif membantu jenama telefon bimbit Top 5 merevolusikan operasi sokongan pelanggan di 100 negara, dari kekacauan hingga kepuasan pelanggan!
+description: "Temui bagaimana pelaksanaan pusat hubungan omni-saluran Seasalt.ai yang transformatif membantu jenama telefon bimbit Top 5 merevolusikan operasi sokongan pelanggan di 100 negara, dari kekacauan hingga kepuasan pelanggan!"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
-canonicalURL: "/blog/mobile-brand-seax/"
-url: "/blog/mobile-brand-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/mobile-brand-seax/
+url: /blog/mobile-brand-seax/
 ---
 
 Kisah kejayaan pelaksanaan pusat hubungan omni-saluran untuk salah satu daripada 5 jenama telefon bimbit antarabangsa teratas adalah bukti kuasa transformatif teknologi dalam meningkatkan operasi sokongan pelanggan.

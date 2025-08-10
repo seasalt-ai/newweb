@@ -1,19 +1,18 @@
 ---
 title: "Cum transcrierea în timp real și analiza întâlnirilor transformă Google Meet"
 metatitle: "Cum transcrierea în timp real și analiza întâlnirilor transformă Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2024-07-30 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Transcrierea în timp real și analiza întâlnirilor au schimbat modul în care funcționează întâlnirile. Nu numai că au îmbunătățit eficiența întâlnirilor, au oferit informații instantanee, au facilitat luarea rapidă a deciziilor, dar au și sporit implicarea participanților, asigurând succesul întâlnirilor de afaceri moderne.
+description: "Transcrierea în timp real și analiza întâlnirilor au schimbat modul în care funcționează întâlnirile. Nu numai că au îmbunătățit eficiența întâlnirilor, au oferit informații instantanee, au facilitat luarea rapidă a deciziilor, dar au și sporit implicarea participanților, asigurând succesul întâlnirilor de afaceri moderne."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Transcrierea în timp real și analiza întâlnirilor au schimbat modul în care funcționează întâlnirile. Nu numai că au îmbunătățit eficiența întâlnirilor, au oferit informații instantanee, au facilitat luarea rapidă a deciziilor, dar au și sporit implicarea participanților, asigurând succesul întâlnirilor de afaceri moderne."
-modified_date: 2024-07-30T00:00:00Z
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 În mediul de afaceri modern, întâlnirile sunt o platformă cheie pentru promovarea colaborării în echipă și a luării deciziilor. Cu toate acestea, din cauza multiplelor întâlniri paralele și a programelor încărcate, devine din ce în ce mai dificil să rămâi sincronizat cu toate întâlnirile. În acest context, nevoia de transcriere în timp real și analiză a întâlnirilor a devenit din ce în ce mai evidentă, deoarece acestea oferă o soluție pentru a depăși limitările metodelor tradiționale de înregistrare a întâlnirilor și pentru a asigura o gestionare eficientă a întâlnirilor.

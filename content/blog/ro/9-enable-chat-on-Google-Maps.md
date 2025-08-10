@@ -1,16 +1,17 @@
 ---
 title: "Proprietari de afaceri: Nu ratați mesajele clienților pe Google Maps!"
 metatitle: "Nu ratați mesajele clienților pe Google Maps!"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
+author: Ruli Setiawati
 description: "În acest articol, vă vom ghida prin profilul Google Business, funcțiile sale de chat și metodele de a evita să ratați mesajele clienților."
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2024-12-19T10:30:00Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *În acest articol, vă vom ghida prin profilul Google Business, funcțiile sale de chat și metodele de a evita să ratați mesajele clienților.*

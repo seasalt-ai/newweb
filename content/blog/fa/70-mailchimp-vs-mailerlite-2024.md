@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp در مقابل MailerLite: کدام سرویس بازاریابی ایمیلی برای شما در سال 2025 مناسب است؟"
 metatitle: "Mailchimp در مقابل MailerLite | سرویس بازاریابی ایمیلی 2025؟"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite در مقابل Mailchimp، کدام سرویس ایمیل برای شما مناسب است؟ مقایسه عمیق ما ویژگی ها، قیمت گذاری و موارد دیگر را تجزیه می کند.
+description: "MailerLite در مقابل Mailchimp، کدام سرویس ایمیل برای شما مناسب است؟ مقایسه عمیق ما ویژگی ها، قیمت گذاری و موارد دیگر را تجزیه می کند."
 weight: 1
-tags: ["SeaChat", "تجارت الکترونیک", "بازاریابی ایمیلی"]
+tags:
+  - SeaChat
+  - تجارت الکترونیک
+  - بازاریابی ایمیلی
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 بازاریابی ایمیلی همچنان یک ابزار قدرتمند برای مشاغل در هر اندازه ای است. چه در حال بررسی مشاغل بازاریابی ایمیلی باشید، چه به دنبال بهترین نرم افزار بازاریابی ایمیلی باشید، یا به دنبال نکات عملی بازاریابی ایمیلی باشید، باید در مورد بهترین ابزار موجود در بازار بدانید. امروز، ما دو ابزار محبوب بازاریابی ایمیلی، [Mailchimp](https://mailchimp.com/) و [MailerLite](https://www.mailerlite.com/) را برای ملاحظات شما مقایسه خواهیم کرد.

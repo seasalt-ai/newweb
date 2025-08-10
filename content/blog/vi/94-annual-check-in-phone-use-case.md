@@ -1,18 +1,18 @@
 ---
 title: "SeaX: Ví dụ về kiểm tra điện thoại hàng năm - Cung cấp dịch vụ chăm sóc người cao tuổi tốt hơn"
 metatitle: "Ví dụ về kiểm tra điện thoại hàng năm của SeaX: Trợ lý AI nâng cao chất lượng dịch vụ chăm sóc người cao tuổi"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Khám phá cách SeaX cách mạng hóa dịch vụ chăm sóc người cao tuổi thông qua công nghệ AI, giải quyết nhiều thách thức trong kiểm tra điện thoại hàng năm, nâng cao chất lượng dịch vụ và giảm gánh nặng cho tình nguyện viên. Tìm hiểu cách các giải pháp thông minh của SeaX cung cấp dịch vụ chăm sóc liên tục chất lượng cao hơn cho người cao tuổi trên toàn cầu."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'Đối mặt với dân số già hóa ngày càng tăng, các tổ chức chăm sóc người cao tuổi trên toàn thế giới đang đối mặt với nhiều thách thức. Đặc biệt trong việc chăm sóc định kỳ và theo dõi sức khỏe, không chỉ tốn kém nhiều nguồn nhân lực mà còn thường xuyên bỏ lỡ hoặc chậm trễ trong việc phát hiện kịp thời các vấn đề tiềm ẩn. Đây chính là thách thức mà một tổ chức dịch vụ xã hội ở Singapore, đối tác của Seasalt.ai, đã phải đối mặt. Tổ chức này hàng năm thực hiện cuộc gọi chăm sóc hàng năm với hàng ngàn người cao tuổi, một quy trình phức tạp và khó quản lý hiệu quả. Để giải quyết vấn đề này, họ đã giới thiệu SeaX, thông qua công nghệ AI đã nâng cao đáng kể chất lượng và hiệu quả của dịch vụ chăm sóc.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

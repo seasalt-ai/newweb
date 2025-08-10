@@ -1,16 +1,17 @@
 ---
 title: "Donnez à votre centre de contact sa propre voix avec SeaX Voice Intelligence"
 metatitle: "Laissez votre centre de contact parler avec SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "Dans ce blog, nous montrerons comment les moteurs internes de synthèse vocale et de reconnaissance vocale de Seasalt.ai peuvent améliorer divers aspects de la plateforme SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *Jusqu'à présent, dans notre [série de blogs SeaX](https://seasalt.ai/tags/seax/), nous vous avons donné un aperçu général du produit phare de Seasalt.ai : SeaX. Nous avons également discuté de deux fonctionnalités clés qui distinguent SeaX d'un centre d'appels traditionnel : premièrement, SeaX est omnicanal, ce qui signifie que vous pouvez interagir plus facilement avec les clients sur n'importe quel canal, et deuxièmement, la plateforme est un centre de contact distribué, ce qui vous permet d'acheminer de manière transparente les messages et les appels des clients du monde entier vers vos agents distribués dans divers lieux.*

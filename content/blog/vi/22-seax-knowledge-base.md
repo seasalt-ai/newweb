@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: Cơ sở kiến thức trả lời trước cả khi bạn hỏi"
 metatitle: "SeaX KB: Cơ sở kiến thức trả lời trước cả khi bạn hỏi"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:05:21.933Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:05:21.933000+00:00
 draft: false
 author: Kim Dodds
 description: "Trong bài viết này, chúng tôi sẽ tiếp tục chủ đề tích hợp AI, giới thiệu cơ sở kiến thức do AI cung cấp của SeaX, cung cấp các câu trả lời đề xuất trong thời gian thực."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *Trong bài đăng trên blog trước của chúng tôi, [Hãy để trung tâm liên lạc của bạn có tiếng nói riêng với trí tuệ giọng nói SeaX](https://seasalt.ai/blog/21-seax-voice-intelligence/), chúng tôi đã cho thấy các công cụ chuyển văn bản thành giọng nói và giọng nói thành văn bản sẵn có của Seasalt.ai đã nâng cao mọi khía cạnh của nền tảng SeaX như thế nào. Trong bài viết này, chúng tôi sẽ tiếp tục chủ đề tích hợp AI, giới thiệu cơ sở kiến thức do AI cung cấp của SeaX, giúp lắng nghe các cuộc trò chuyện và đưa ra các câu trả lời đề xuất trong thời gian thực.*

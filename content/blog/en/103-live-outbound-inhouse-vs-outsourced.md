@@ -1,16 +1,19 @@
 ---
 title: "In-House vs. Outsourcing for Telemarketing Outbound Calls: Practical Recommendations for Businesses (2/5)"
 metatitle: "Seasalt.ai | Live Outbound Calls | In-house vs. Outsourced"
-date: 2024-10-23T00:22:19-07:00
+date: 2024-10-23 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Compare in-house vs outsourced outbound calls—costs, features, and get practical tips to optimize your customer outreach."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

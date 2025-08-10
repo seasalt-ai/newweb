@@ -2,16 +2,15 @@
 title: "Mula sa Demo hanggang Tagumpay: Mga Bitag ng Modernong Pagpupulong (2/5)"
 metatitle: "Demo hanggang Tagumpay (2/5): Mga Bitag ng Modernong Pagpupulong"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Sa ikalawang bahagi ng serye ng blog na ito, sundan ang paglalakbay ng Seasalt.ai sa paglikha ng SeaMeet, ang aming collaborative na modernong solusyon sa pagpupulong."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *Sa buong serye ng blog na ito, sundan ang paglalakbay ng Seasalt.ai sa paglikha ng isang mahusay na Modern Meetings Experience, simula sa mga mapagpakumbabang simula nito, sa pag-optimize ng aming serbisyo sa iba't ibang hardware at modelo, sa pagsasama ng mga state-of-the-art na sistema ng NLP at sa wakas ay nagtatapos sa ganap na pagsasakatuparan ng SeaMeet, ang aming collaborative na modernong solusyon sa pagpupulong.*

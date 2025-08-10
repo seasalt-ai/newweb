@@ -14,6 +14,8 @@ tags:
 - Pemasaran Digital
 - Kandungan Video
 title: Mencipta Kandungan Multimedia Berkuasa AI untuk Penglibatan Pelanggan
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

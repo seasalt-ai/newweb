@@ -1,16 +1,17 @@
 ---
 title: "มอบเสียงของศูนย์ติดต่อของคุณเองด้วย SeaX Voice Intelligence"
 metatitle: "ให้ศูนย์ติดต่อของคุณพูดด้วย SeaX Voice Intelligence"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "ในบล็อกนี้ เราจะแสดงให้เห็นว่าเอนจินแปลงข้อความเป็นคำพูดและคำพูดเป็นข้อความภายในของ Seasalt.ai สามารถปรับปรุงแง่มุมต่างๆ ของแพลตฟอร์ม SeaX ได้อย่างไร"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *จนถึงตอนนี้ใน [ชุดบล็อก SeaX](https://seasalt.ai/tags/seax/) ของเรา เราได้ให้ภาพรวมกว้างๆ ของผลิตภัณฑ์เรือธงของ Seasalt.ai: SeaX เรายังได้พูดคุยถึงสองคุณสมบัติหลักที่ทำให้ SeaX แตกต่างจากศูนย์บริการทางโทรศัพท์แบบดั้งเดิม: ประการแรก SeaX เป็นแบบ Omnichannel ซึ่งหมายความว่าคุณสามารถโต้ตอบกับลูกค้าบนช่องทางใดก็ได้ง่ายขึ้น และประการที่สอง แพลตฟอร์มนี้เป็นศูนย์ติดต่อแบบกระจาย ซึ่งช่วยให้คุณสามารถกำหนดเส้นทางข้อความและการโทรจากลูกค้าทั่วโลกไปยังตัวแทนที่กระจายอยู่ของคุณในสถานที่ต่างๆ ได้อย่างราบรื่น*

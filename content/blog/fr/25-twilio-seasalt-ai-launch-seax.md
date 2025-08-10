@@ -1,16 +1,17 @@
 ---
 title: "Twilio et Seasalt.ai lancent SeaX en Asie-Pacifique et au Japon"
 metatitle: "Laissez votre centre de contact parler avec SeaX Voice Intelligence"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio et Seasalt.ai étendent leur partenariat en Asie-Pacifique et au Japon pour construire des centres de contact cloud multi-pays"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 À mesure que le centre de contact évolue – et que de plus en plus de canaux de communication deviennent disponibles en ligne – les entreprises répondent plus que jamais aux préférences des consommateurs. Le client d'aujourd'hui souhaite communiquer sur ses canaux préférés. Le centre d'appels est bien connu pour le support client, mais l'attente croissante est que les canaux puissent être utilisés à la fois pour le support client et pour les conversations commerciales avec une marque.

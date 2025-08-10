@@ -1,17 +1,20 @@
 ---
 title: "Thuê ngoài Lễ tân Trực tiếp so với Nội bộ: Khuyến nghị Thực tế cho Doanh nghiệp (2/5)"
 metatitle: "Thuê ngoài Lễ tân Trực tiếp so với Nội bộ"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "So sánh lễ tân trực tiếp với nhân viên nội bộ: chi phí, lợi ích và những hiểu biết kinh doanh chính."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *Đây là chuỗi 5 bài viết khám phá các chiến lược giao tiếp với khách hàng cho các doanh nghiệp nhỏ, tập trung vào các dịch vụ trả lời:*

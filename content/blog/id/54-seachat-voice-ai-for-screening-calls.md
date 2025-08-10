@@ -1,16 +1,20 @@
 ---
 title: "Siapa yang Menelepon? Tingkatkan Kualitas Panggilan dengan Agen AI Suara Pribadi"
 metatitle: "Tingkatkan Kualitas Panggilan dengan Agen AI Suara Pribadi"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Jelajahi masa depan penjadwalan janji temu dengan Voice AI Agent, solusi 24/7 yang mengintegrasikan AI dan pemrosesan bahasa alami untuk pemesanan janji temu yang efisien dan lancar.
+description: "Jelajahi masa depan penjadwalan janji temu dengan Voice AI Agent, solusi 24/7 yang mengintegrasikan AI dan pemrosesan bahasa alami untuk pemesanan janji temu yang efisien dan lancar."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 Ketika mengelola jadwal yang padat, setiap panggilan telepon sangat berarti. Dari kesepakatan bisnis penting hingga terhubung dengan orang tercinta, kehidupan sehari-hari kita berputar di sekitar percakapan yang bermakna. Namun, menangani banyak panggilan masuk bisa menjadi melelahkan dan memakan waktu. Di sinilah agen AI suara pribadi berperan.

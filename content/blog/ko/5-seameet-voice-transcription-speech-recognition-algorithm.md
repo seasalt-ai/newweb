@@ -1,18 +1,17 @@
 ---
 title: "데모에서 성공까지: 현대 회의 음성 알고리즘의 돌파구 (3/5)"
 metatitle: "데모에서 성공까지 (3/5): 현대 회의 음성 알고리즘의 돌파구"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-08-03T00:35:01Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "이 시리즈 블로그의 세 번째 부분에서 Seasalt.ai가 SeaMeet 협업 현대 회의 솔루션을 만든 여정을 따라가보세요."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 이 블로그 시리즈에서 Seasalt.ai가 완전한 현대 회의 경험을 만든 여정을 따라가보세요. 초기 시작부터 다양한 하드웨어와 모델에서의 최적화, 최첨단 NLP 시스템 통합, 그리고 궁극적으로 SeaMeet 협업 현대 회의 솔루션 구현까지.

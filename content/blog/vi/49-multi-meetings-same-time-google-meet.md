@@ -1,19 +1,18 @@
 ---
 title: "Cách quản lý hiệu quả nhiều cuộc họp song song với SeaMeet"
 metatitle: "Cách quản lý hiệu quả nhiều cuộc họp song song với SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Với sự xuất hiện của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra các lĩnh vực khám phá mới. Khi AI kết hợp với nhận dạng giọng nói, nó cung cấp những khả năng chưa từng có cho phân tích cuộc họp thời gian thực. Nhưng điều này có nghĩa gì đối với hoạt động kinh doanh hàng ngày? Phân tích thời gian thực của bản ghi cuộc họp đã trở thành công cụ thiết yếu cho các công ty để cải thiện hiệu quả và chất lượng giao tiếp. Thông qua phân tích thời gian thực, các công ty có thể đảm bảo rằng mọi cuộc thảo luận đều được ghi lại chính xác, làm cho quá trình ra quyết định hiệu quả và chính xác hơn.
+description: "Với sự xuất hiện của các mô hình ngôn ngữ lớn như ChatGPT, AI tạo sinh đã mở ra các lĩnh vực khám phá mới. Khi AI kết hợp với nhận dạng giọng nói, nó cung cấp những khả năng chưa từng có cho phân tích cuộc họp thời gian thực. Nhưng điều này có nghĩa gì đối với hoạt động kinh doanh hàng ngày? Phân tích thời gian thực của bản ghi cuộc họp đã trở thành công cụ thiết yếu cho các công ty để cải thiện hiệu quả và chất lượng giao tiếp. Thông qua phân tích thời gian thực, các công ty có thể đảm bảo rằng mọi cuộc thảo luận đều được ghi lại chính xác, làm cho quá trình ra quyết định hiệu quả và chính xác hơn."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "Trong môi trường làm việc hiện đại nhịp độ nhanh, việc nhiều cuộc họp diễn ra đồng thời là điều bình thường. Điều này tạo ra thách thức lớn cho các giám đốc điều hành và quản lý bận rộn. Nếu có thể, tất cả đều muốn tham gia mọi cuộc họp, nhưng do những hạn chế về thời gian và thể chất, điều này thường là không thể."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Thách thức của nhiều cuộc họp đồng thời

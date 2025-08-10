@@ -1,18 +1,17 @@
 ---
 title: "Business Owners: Use Google Business Messages to Engage with Customers Off-Hours!"
 metatitle: "Use Google Business Messages to Engage with Customers Off-Hours!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-01-27T10:30:00Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
+author: Ruli Setiawati
 description: "While Google Business Profile allows business owners to chat directly with customers, Google Business Messages allows integration with virtual customer service."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Learn more about the benefits and limitations of Google Business Messages and how businesses implement Google Business Messages.*

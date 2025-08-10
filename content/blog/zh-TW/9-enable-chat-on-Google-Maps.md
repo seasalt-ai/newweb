@@ -1,16 +1,17 @@
 ---
 title: "企業主：不要錯過 Google 地圖上的客戶訊息！"
 metatitle: "不要錯過 Google 地圖上的客戶訊息！"
-date: 2022-03-23T11:25:33-07:00
-author: Ruli Setiawati
-image: "images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png"
+date: 2022-03-23 11:25:33-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
+author: Ruli Setiawati
 description: "在本文中，我們將引導您了解 Google 商家檔案、其聊天功能以及避免錯過客戶訊息的方法。"
-tags: ["NearMe"]
-weight: 1  
-canonicalURL: "/blog/enable-chat-on-google-maps/"
-url: "/blog/enable-chat-on-google-maps/"
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps/
+url: /blog/enable-chat-on-google-maps/
 ---
 
 *在本文中，我們將引導您了解 Google 商家檔案、其聊天功能以及避免錯過客戶訊息的方法。*

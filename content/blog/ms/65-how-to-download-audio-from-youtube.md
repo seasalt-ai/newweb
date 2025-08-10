@@ -1,16 +1,18 @@
 ---
 title: "Cara Memuat Turun Data Audio dari YouTube, Satu dan Banyak Video | Siri Kotak Alat Audio"
 metatitle: "Muat Turun Data Audio dari YouTube | Siri Kotak Alat Audio"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: Ketahui cara memuat turun audio dari video YouTube secara sah dan cekap menggunakan alat percuma. Terokai alat dan teknik untuk mengekstrak muzik, podcast, kesan bunyi, dan banyak lagi untuk projek kreatif anda.
+description: "Ketahui cara memuat turun audio dari video YouTube secara sah dan cekap menggunakan alat percuma. Terokai alat dan teknik untuk mengekstrak muzik, podcast, kesan bunyi, dan banyak lagi untuk projek kreatif anda."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Hari ini, mari kita selami topik yang bergema dengan ramai: cara memuat turun data audio dari YouTube, secara PERCUMA.

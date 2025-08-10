@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 e a Importância de Preencher a Lacuna entre Modelos de IA e Aplicações de Negócios"
 metatitle: "Meta Llama 3 | Preenchendo a Lacuna entre Modelos de IA e Aplicações de Negócios"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: O lançamento do Llama 3 da Meta AI destaca a necessidade de soluções que preencham a lacuna entre modelos de IA poderosos e aplicações de negócios práticas. Saiba como a Seasalt.ai constrói produtos de IA Conversacional personalizados para preencher essa lacuna e resolver desafios do mundo real.
+description: "O lançamento do Llama 3 da Meta AI destaca a necessidade de soluções que preencham a lacuna entre modelos de IA poderosos e aplicações de negócios práticas. Saiba como a Seasalt.ai constrói produtos de IA Conversacional personalizados para preencher essa lacuna e resolver desafios do mundo real."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI e Llama3

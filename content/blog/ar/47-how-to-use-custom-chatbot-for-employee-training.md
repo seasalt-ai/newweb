@@ -1,17 +1,19 @@
 ---
 title: "كيف تستخدم الشركات روبوتات الدردشة الذكية المخصصة لجعل تدريب الموظفين أسهل"
 metatitle: "كيف تستخدم الشركات روبوتات الدردشة الذكية المخصصة لجعل تدريب الموظفين أسهل | سلسلة SeaChat لروبوتات الدردشة الجديدة"
-date: 2023-11-04T10:25:00-08:00
+date: 2023-11-04 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: استكشف الدور الثوري لروبوتات الدردشة الذكية المخصصة في تحسين كفاءة تدريب الموظفين وتجربة التعلم الشخصية، وتحليل دورها المحوري في نقل ثقافة الشركة وتعزيز كفاءة الأعمال.
+description: "استكشف الدور الثوري لروبوتات الدردشة الذكية المخصصة في تحسين كفاءة تدريب الموظفين وتجربة التعلم الشخصية، وتحليل دورها المحوري في نقل ثقافة الشركة وتعزيز كفاءة الأعمال."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
-canonicalURL: "/ar/blog/how-to-use-custom-chatbot-for-employee-training/"
-url: "/ar/blog/how-to-use-custom-chatbot-for-employee-training/"
-summary: "استكشف الدور الثوري لروبوتات الدردشة الذكية المخصصة في تحسين كفاءة تدريب الموظفين وتجربة التعلم الشخصية، وتحليل دورها المحوري في نقل ثقافة الشركة وتعزيز كفاءة الأعمال."
-modified_date: 2024-12-19T10:00:00-08:00
+canonicalURL: /ar/blog/how-to-use-custom-chatbot-for-employee-training/
+url: /ar/blog/how-to-use-custom-chatbot-for-employee-training/
 ---
 
 لتحسين كفاءة وفعالية تدريب الموظفين الجدد، بدأت المزيد من الشركات في استكشاف إمكانية استخدام روبوتات الدردشة الذكية المخصصة. هذه الروبوتات المتقدمة لا توفر فقط تجربة تعلم شخصية، بل تساعد الموظفين على الاندماج بسرعة أكبر في ثقافة الشركة، مما يؤدي إلى تحسين الكفاءة الإجمالية للعمل ورضا الموظفين.

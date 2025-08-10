@@ -1,16 +1,18 @@
 ---
 title: "顧客事例：ナイジェリアのデジタル決済業界におけるコンタクトセンターの成功"
 metatitle: "ナイジェリアのデジタル決済業界におけるコンタクトセンターの成功"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: ナイジェリアの大手デジタル決済企業は、チャットボットとパーソナライズされたピジン英語サポートを統合したオムニチャネルコンタクトセンターにより、革新的な顧客サポートを実現し、数百万人のユーザーと加盟店に利益をもたらしました。
+description: "ナイジェリアの大手デジタル決済企業は、チャットボットとパーソナライズされたピジン英語サポートを統合したオムニチャネルコンタクトセンターにより、革新的な顧客サポートを実現し、数百万人のユーザーと加盟店に利益をもたらしました。"
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 ナイジェリアの大手デジタル決済企業におけるオムニチャネルコンタクトセンター導入の成功事例は、高度なテクノロジーの採用が顧客サポートをどのように革新し、全体的なユーザーエクスペリエンスを向上させるかを示しています。

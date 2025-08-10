@@ -1,16 +1,17 @@
 ---
 title: "Umalis na ang user sa webchat: gamitin ang Near Me Messaging para magpadala ng mensahe sa kanila!"
 metatitle: "Umalis na ang user sa webchat: makipag-ugnayan gamit ang Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Niresolba ng Near Me Messaging ang isang problema ng webchat: makipag-ugnayan muli sa iyong user kahit *pagkatapos* nilang umalis sa pag-uusap."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Noong umaga ng Pasko ng 2022, nagising ako sa ilang mensaheng iniwan ng isang user na nagngangalang Henry. Pagdating ko sa mga mensahe, nakaalis na si Henry. Ang nakuha ko lang ay ang mga mensaheng ipinadala niya sa pamamagitan ng webchat, at ang kanyang pangalan.

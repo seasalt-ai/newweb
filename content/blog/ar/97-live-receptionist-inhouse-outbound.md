@@ -1,17 +1,20 @@
 ---
 title: "الاستعانة بمصادر خارجية لموظفي الاستقبال المباشرين مقابل التوظيف الداخلي: توصيات عملية للشركات (2/5)"
 metatitle: "الاستعانة بمصادر خارجية لموظفي الاستقبال المباشرين مقابل التوظيف الداخلي"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "قارن بين موظفي الاستقبال المباشرين والموظفين الداخليين: التكاليف والفوائد والرؤى التجارية الرئيسية."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *هذه سلسلة من 5 مقالات تستكشف استراتيجيات التواصل مع العملاء للشركات الصغيرة، مع التركيز على خدمات الرد:*

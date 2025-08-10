@@ -2,16 +2,15 @@
 title: "Từ Demo đến Thành công: Cạm bẫy của các cuộc họp hiện đại (2/5)"
 metatitle: "Từ Demo đến Thành công (2/5): Cạm bẫy của các cuộc họp hiện đại"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Trong phần thứ hai của loạt blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra SeaMeet, giải pháp cuộc họp hiện đại hợp tác của chúng tôi."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *Trong suốt loạt blog này, hãy theo dõi hành trình của Seasalt.ai để tạo ra Trải nghiệm cuộc họp hiện đại toàn diện, bắt đầu từ những khởi đầu khiêm tốn, đến việc tối ưu hóa dịch vụ của chúng tôi trên các phần cứng và mô hình khác nhau, đến việc tích hợp các hệ thống NLP tiên tiến và cuối cùng là hiện thực hóa hoàn toàn SeaMeet, giải pháp cuộc họp hiện đại hợp tác của chúng tôi.*

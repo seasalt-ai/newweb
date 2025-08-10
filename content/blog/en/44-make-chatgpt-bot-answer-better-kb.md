@@ -1,18 +1,18 @@
 ---
 title: "How to Create a Custom ChatGPT Bot with Accurate Answers"
 metatitle: "How to Create a Custom ChatGPT Bot with Accurate Answers | SeaChat Next-Generation Chatbot Series"
-date: 2023-10-30T10:25:00-08:00
+date: 2023-10-30 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Learn how to build a custom ChatGPT bot with accurate answers. From establishing professional knowledge bases to practical development processes, covering knowledge point fine-tuning techniques, and demonstrating successful implementation through SeaChat bot case studies. Provides a comprehensive guide to help you easily create efficient, personalized intelligent chatbots."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Learn how to build a custom ChatGPT bot with accurate answers. From establishing professional knowledge bases to practical development processes, covering knowledge point fine-tuning techniques, and demonstrating successful implementation through SeaChat bot case studies. Provides a comprehensive guide to help you easily create efficient, personalized intelligent chatbots."
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 With the rapid development of technology, chatbots have become an indispensable tool across various industries. They can provide instant responses, improve customer service experiences, and significantly reduce the burden on human customer service representatives. This article will explore how to build a custom ChatGPT bot with accurate answers, with particular emphasis on establishing and fine-tuning knowledge bases, as well as practical chatbot development operations.

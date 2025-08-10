@@ -1,18 +1,19 @@
 ---
 title: "Przewodnik po zasobach opieki nad osobami starszymi na Tajwanie: Jak uzyskać pomoc telefoniczną w głównych miastach i hrabstwach"
 metatitle: "Przewodnik po zasobach opieki nad osobami starszymi na Tajwanie: Telefony alarmowe i usługi wsparcia dla osób starszych w głównych miastach i hrabstwach"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
+modified_date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Poznaj zasoby opieki nad osobami starszymi w głównych miastach i hrabstwach Tajwanu, w tym infolinie, numery alarmowe i usługi wsparcia społecznego. Dowiedz się również, jak innowacyjne rozwiązania Seasalt.ai mogą poprawić efektywność usług opieki nad osobami starszymi."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: 'Wraz z narastającym starzeniem się społeczeństwa, dostęp do łatwo dostępnych telefonów opieki nad osobami starszymi i usług opieki nad osobami starszymi staje się coraz ważniejszy. Wraz ze wzrostem populacji osób starszych, posiadanie niezawodnych zasobów do zapewnienia natychmiastowej pomocy i ciągłego wsparcia jest kluczowe. Niniejsze zestawienie ma na celu pomóc osobom starszym i ich rodzinom w łatwym znalezieniu potrzebnych zasobów opieki w głównych miastach i hrabstwach Tajwanu.'
-modified_date: 2024-08-18T00:22:19-07:00
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 Wraz z narastającym starzeniem się społeczeństwa, dostęp do łatwo dostępnych telefonów opieki nad osobami starszymi i usług opieki nad osobami starszymi staje się coraz ważniejszy. Wraz ze wzrostem populacji osób starszych, posiadanie niezawodnych zasobów do zapewnienia natychmiastowej pomocy i ciągłego wsparcia jest kluczowe. Niniejsze zestawienie ma na celu pomóc osobom starszym i ich rodzinom w łatwym znalezieniu potrzebnych zasobów opieki w głównych miastach i hrabstwach Tajwanu.

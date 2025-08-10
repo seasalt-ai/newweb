@@ -1,17 +1,20 @@
 ---
 title: "外撥自動撥號器：Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | 即時外撥 | 自動撥號器"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "比較 Power Dialer、Progressive Dialer 和 Predictive Dialer，以實現電話行銷和銷售中高效、可擴展的外撥。"
 weight: 1
-tags: ["自動電話行銷服務", "小型企業外撥", "自動撥號器", "語音 AI"]
-toc: true
+tags:
+  - 自動電話行銷服務
+  - 小型企業外撥
+  - 自動撥號器
+  - 語音 AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

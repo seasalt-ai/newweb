@@ -1,16 +1,20 @@
 ---
 title: "チャット体験をアップグレード：SeaChatがIBM Watson NLUを凌駕する理由"
 metatitle: "SeaChat vs. IBM Watson NLU"
-date: 2024-03-20T00:22:19-07:00
+date: 2024-03-20 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: IBM Watson NLUはなぜ時代遅れなのか？SeaChatを発見 — 高度なLLM技術で反復的なチャットボットの岸辺から離れ、魅力的で人間らしい会話を育みます。
+description: "IBM Watson NLUはなぜ時代遅れなのか？SeaChatを発見 — 高度なLLM技術で反復的なチャットボットの岸辺から離れ、魅力的で人間らしい会話を育みます。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-ibm-watson-nlu/"
-url: "/blog/seachat-vs-ibm-watson-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-vs-ibm-watson-nlu/
+url: /blog/seachat-vs-ibm-watson-nlu/
 ---
 
 あなたのチャットボットは、繰り返しの応答と不自然な対話の無人島に閉じ込められていませんか？顧客のために、より魅力的で人間らしいチャット体験を求めていませんか？それなら、大規模言語モデル（LLM）を基盤とする強力なプラットフォームであるSeaChatで未来へ向かう時です。[IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding)はテキスト分析の信頼できるツールでしたが、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)は会話型AIに革命的なアプローチを提供し、従来のNLUエンジンを置き去りにします。

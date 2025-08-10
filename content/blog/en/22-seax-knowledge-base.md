@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB: A Knowledge Base That Answers Before You Ask"
 metatitle: "SeaX KB: A Knowledge Base That Answers Before You Ask"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:06.842Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:06.842000+00:00
 draft: false
 author: Kim Dodds
 description: "In this article, we continue the topic of AI integration by introducing SeaX's AI-powered knowledge base, which provides suggested replies in real-time."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *In our previous blog post [Give Your Contact Center Its Own Voice with SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/), we showed how Seasalt.ai's in-house text-to-speech and speech-to-text engines enhance various aspects of the SeaX platform. In this article, we'll continue the topic of AI integration by introducing SeaX's AI-powered knowledge base, which listens to conversations in real-time to provide suggested replies.*

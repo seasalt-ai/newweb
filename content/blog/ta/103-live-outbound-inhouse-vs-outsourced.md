@@ -1,17 +1,20 @@
 ---
 title: "டெலிமார்க்கெட்டிங் வெளிச்செல்லும் அழைப்புகளுக்கான உள்நாட்டு vs. அவுட்சோர்சிங்: வணிகங்களுக்கான நடைமுறை பரிந்துரைகள் (2/5)"
 metatitle: "Seasalt.ai | நேரடி வெளிச்செல்லும் அழைப்புகள் | உள்நாட்டு vs. அவுட்சோர்ஸ்"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "உள்நாட்டு vs. அவுட்சோர்ஸ் வெளிச்செல்லும் அழைப்புகள் - செலவுகள், அம்சங்கள் மற்றும் உங்கள் வாடிக்கையாளர் அணுகலை மேம்படுத்த நடைமுறை உதவிக்குறிப்புகளைப் பெறுங்கள்."
 weight: 1
-tags: ["தானியங்கி டெலிமார்க்கெட்டிங் சேவை", "சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு", "SeaChat", "குரல் AI"]
-toc: true
+tags:
+  - தானியங்கி டெலிமார்க்கெட்டிங் சேவை
+  - சிறு வணிகங்களுக்கான வெளிச்செல்லும் அழைப்பு
+  - SeaChat
+  - குரல் AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

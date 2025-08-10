@@ -1,16 +1,20 @@
 ---
 title: "SeaChat का नो-कोड एआई एजेंट बिल्डर एआई अपनाने को आसान बनाता है"
 metatitle: "SeaChat का नो-कोड एआई एजेंट बिल्डर एआई अपनाने को आसान बनाता है"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat के साथ अपने संगठन के भीतर एआई अपनाने को आसानी से नेविगेट करें! यह नो-कोड एआई एजेंट बिल्डर प्रक्रिया को सरल बनाता है, जिससे यह आसान और परेशानी मुक्त हो जाता है। सरल उपयोग के मामलों से शुरू करें और एआई का लाभ उठाने के विभिन्न तरीकों का प्रयोग करके धीरे-धीरे एआई अपनाने को बढ़ाएं।
+description: "SeaChat के साथ अपने संगठन के भीतर एआई अपनाने को आसानी से नेविगेट करें! यह नो-कोड एआई एजेंट बिल्डर प्रक्रिया को सरल बनाता है, जिससे यह आसान और परेशानी मुक्त हो जाता है। सरल उपयोग के मामलों से शुरू करें और एआई का लाभ उठाने के विभिन्न तरीकों का प्रयोग करके धीरे-धीरे एआई अपनाने को बढ़ाएं।"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # SeaChat का परिचय: आपका नो-कोड एआई एजेंट बिल्डर

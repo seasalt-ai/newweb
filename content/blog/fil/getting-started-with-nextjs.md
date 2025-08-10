@@ -13,6 +13,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Pagsisimula sa Next.js: Isang Gabay para sa mga Nagsisimula'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

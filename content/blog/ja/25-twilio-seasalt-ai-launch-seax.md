@@ -1,16 +1,17 @@
 ---
 title: "Twilio と Seasalt.ai がアジア太平洋地域と日本で SeaX をローンチ"
 metatitle: "コンタクトセンターに SeaX 音声インテリジェンスで独自の音声を与える"
-date: 2022-11-23T10:28:33-08:00
+date: 2022-11-23 10:28:33-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
 description: "Twilio と Seasalt.ai がアジア太平洋地域と日本で提携を拡大し、多国籍クラウドコンタクトセンターを構築"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/twilio-seasalt-ai-launch-seax/"
-url: "/blog/twilio-seasalt-ai-launch-seax/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+canonicalURL: /blog/twilio-seasalt-ai-launch-seax/
+url: /blog/twilio-seasalt-ai-launch-seax/
 ---
 
 コンタクトセンターが進化し、より多くのコミュニケーションチャネルがオンラインになるにつれて、企業はこれまで以上に消費者の好みに応えています。今日の顧客は、好みのチャネルでコミュニケーションを取りたいと考えています。コールセンターは顧客サポートでよく知られていますが、チャネルが顧客サポートとブランドとの商取引の両方の会話に使用できるという期待が高まっています。

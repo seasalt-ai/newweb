@@ -2,16 +2,15 @@
 title: "데모에서 성공까지: Microsoft의 최신 회의 및 그 이상 구현(1/5)"
 metatitle: "데모에서 성공까지(1/5): Microsoft의 최신 회의를 넘어서"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "이 블로그 시리즈의 첫 번째 부분에서는 공동 작업 최신 회의 솔루션인 SeaMeet을 만드는 Seasalt.ai의 여정을 따라갑니다."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *이 블로그 시리즈를 통해 미천한 시작부터 다양한 하드웨어 및 모델에서 서비스를 최적화하고 최첨단 NLP 시스템을 통합하여 마침내 공동 작업 최신 회의 솔루션인 SeaMeet을 완전히 실현하기까지 Seasalt.ai의 여정을 따라가 보세요.*

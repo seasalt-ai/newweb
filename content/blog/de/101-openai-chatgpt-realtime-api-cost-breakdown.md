@@ -1,18 +1,20 @@
 ---
 title: "OpenAI vs. Mensch vs. Sprach-KI: Ein Kostenvergleich (5/5)"
 metatitle: "OpenAI Realtime API vs. Mensch und Sprach-KI: Kostenaufschlüsselung"
-date: 2024-10-12T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-12 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Xuchen Yao
 description: "Eine detaillierte Kostenanalyse der OpenAI Realtime API im Vergleich zu menschlichen Rezeptionisten und Sprach-KI-Agenten."
 weight: 1
-tags: ["Automatischer Anrufbeantworter", "Eingehende Anrufe für kleine Unternehmen", "SeaChat", "Sprach-KI"]
-toc: true
+tags:
+  - Automatischer Anrufbeantworter
+  - Eingehende Anrufe für kleine Unternehmen
+  - SeaChat
+  - Sprach-KI
 image: /images/blog/101-openai-chatgpt-realtime-api-cost-breakdown/101-openai-chatgpt-realtime-api-cost-breakdown.svg
-canonicalURL: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-url: "/blog/openai-chatgpt-realtime-api-cost-breakdown/"
-
+canonicalURL: /blog/openai-chatgpt-realtime-api-cost-breakdown/
+url: /blog/openai-chatgpt-realtime-api-cost-breakdown/
 ---
 
 

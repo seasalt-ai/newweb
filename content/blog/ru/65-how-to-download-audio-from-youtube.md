@@ -1,16 +1,18 @@
 ---
 title: "Как скачать аудиоданные с YouTube, одно и много видео | Серия Audio Toolbox"
 metatitle: "Скачать аудиоданные с YouTube | Серия Audio Toolbox"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: Узнайте, как легально и эффективно скачивать аудио с отдельных или множества видео YouTube с помощью бесплатных инструментов. Изучите инструменты и методы для извлечения музыки, подкастов, звуковых эффектов и многого другого для ваших творческих проектов.
+description: "Узнайте, как легально и эффективно скачивать аудио с отдельных или множества видео YouTube с помощью бесплатных инструментов. Изучите инструменты и методы для извлечения музыки, подкастов, звуковых эффектов и многого другого для ваших творческих проектов."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Сегодня давайте углубимся в тему, которая находит отклик у многих: как скачать аудиоданные с YouTube, БЕСПЛАТНО.

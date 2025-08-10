@@ -1,15 +1,17 @@
 ---
 title: "Customer Story: Contact Center Success in Nigeria's Digital Payment Industry"
 metatitle: "Contact Center Success in Nigeria's Digital Payment Industry"
-date: 2023-06-30T10:25:00-08:00
+date: 2023-06-30 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Nigeria's top digital payment company achieved revolutionary customer support with an omni-channel contact center, integrating chatbots and personalized Pidgin English support, benefiting millions of users and merchants.
+description: "Nigeria's top digital payment company achieved revolutionary customer support with an omni-channel contact center, integrating chatbots and personalized Pidgin English support, benefiting millions of users and merchants."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
-canonicalURL: "/blog/nigeria-payment-seax/"
-url: "/blog/nigeria-payment-seax/"
+canonicalURL: /blog/nigeria-payment-seax/
+url: /blog/nigeria-payment-seax/
 ---
 
 

@@ -1,16 +1,19 @@
 ---
 title: "Why Small Businesses Need an Answering Service: A Comprehensive Guide (1/5)"
 metatitle: "Why Small Businesses Need an Answering Service"
-date: 2024-09-10T00:22:19-07:00
+date: 2024-09-10 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Discover how answering services improve small businesses by enhancing customer satisfaction, increasing lead capture, and streamlining operations."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/96-why-small-businesses-need-answering-service/96-why-small-businesses-need-answering-service.svg
-canonicalURL: "/blog/why-small-businesses-need-answering-service/"
-url: "/blog/why-small-businesses-need-answering-service/"
+canonicalURL: /blog/why-small-businesses-need-answering-service/
+url: /blog/why-small-businesses-need-answering-service/
 ---
 
 *This is a series of 5 articles exploring customer communication strategies for small businesses, focusing on answering services:*

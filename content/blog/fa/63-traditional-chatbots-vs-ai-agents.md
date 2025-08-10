@@ -1,16 +1,20 @@
 ---
 title: "آنچه کسب و کارها باید در مورد چت بات ها بدانند: سفر از چت بات های سنتی به نمایندگان LLM"
 metatitle: "سفر از چت بات های سنتی به نمایندگان LLM"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "نمایندگان چت مبتنی بر LLM راه حلی آسان و کارآمد برای تعاملات مشتری به کسب و کارها ارائه می دهند که به مهارت های فنی پیچیده ای نیاز ندارد و به طور یکپارچه با سیستم های موجود ادغام می شود."
 weight: 1
-tags: ["SeaChat", "عامل صوتی", "ابزارهای هوش مصنوعی", "تجربه مشتری"]
+tags:
+  - SeaChat
+  - عامل صوتی
+  - ابزارهای هوش مصنوعی
+  - تجربه مشتری
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 برای صاحبان مشاغل، ساده سازی تعامل با مشتری بسیار مهم است. نمایندگان چت مبتنی بر LLM یک راه حل نوآورانه و کاربرپسند ارائه می دهند که به مهارت های فنی گسترده ای نیاز ندارد.

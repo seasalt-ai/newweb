@@ -1,17 +1,17 @@
 ---
 title: "AI-ஐ பயன்படுத்தி தொடர்பு மைய தானியக்கம்: CRM உடன் виртуல் ஏஜென்ட் ஒத்துழைப்பு"
 metatitle: "SeaX Contact Center: CRM உடன் виртуல் ஏஜென்ட் தானியக்கம்"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "இந்த வலைப்பதிவில், HubSpot போன்ற CRM-ஐ Seax Contact Center-இல் ஒருங்கிணைப்பது குறித்து ஆராய்வோம், இது உங்கள் அனைத்து தகவல்களையும் கருவிகளையும் நேரடியாக அணுக அனுமதிக்கிறது."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## HubSpot-ஐ SeaX-இல் ஒருங்கிணைத்தல்

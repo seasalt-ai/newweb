@@ -1,16 +1,20 @@
 ---
 title: "Голосовой ИИ-агент: Революция в записи на прием 24/7"
 metatitle: "Голосовой ИИ-агент: Революция в записи на прием 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Исследуйте будущее планирования встреч с голосовым ИИ-агентом, круглосуточным решением, интегрирующим ИИ и обработку естественного языка для эффективной и бесперебойной записи на прием.
+description: "Исследуйте будущее планирования встреч с голосовым ИИ-агентом, круглосуточным решением, интегрирующим ИИ и обработку естественного языка для эффективной и бесперебойной записи на прием."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Введение

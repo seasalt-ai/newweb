@@ -1,17 +1,17 @@
 ---
 title: "एआई-सक्षम संपर्क केंद्र स्वचालन: वर्चुअल एजेंट और सीआरएम का सहयोग"
 metatitle: "SeaX Contact Center: वर्चुअल एजेंट स्वचालन और सीआरएम"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
 draft: false
+author: Sarah Reid
 description: "इस ब्लॉग में, हम HubSpot जैसे CRM को Seax Contact Center में एकीकृत करने की प्रक्रिया को देखेंगे, जिससे आपको अपनी सभी जानकारी और टूल्स तक सीधा पहुंच मिलेगी।"
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## SeaX में HubSpot का एकीकरण

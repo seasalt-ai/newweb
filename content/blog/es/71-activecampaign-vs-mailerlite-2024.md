@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: ¿Qué servicio de marketing por correo electrónico es el adecuado para usted en 2025?"
 metatitle: "ActiveCampaign vs. MailerLite | Servicio de marketing por correo electrónico 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign, ¿Qué servicio de correo electrónico es el adecuado para usted? Nuestra comparación en profundidad desglosa las características, los precios y más.
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign, ¿Qué servicio de correo electrónico es el adecuado para usted? Nuestra comparación en profundidad desglosa las características, los precios y más."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 ¿Tiene curiosidad sobre el marketing por correo electrónico? Desde encontrar el mejor software de marketing por correo electrónico hasta elaborar una estrategia de marketing por correo electrónico ganadora, esta herramienta versátil ofrece infinitas posibilidades. Descubra cómo dirigirse a los clientes, conseguir trabajos de marketing por correo electrónico y aprovechar la automatización del marketing por correo electrónico para impulsar los resultados comerciales. Antes de entrar en todos esos jugosos detalles, permítanos ayudarle a elegir la herramienta de marketing por correo electrónico adecuada. Hoy, compararemos dos herramientas populares, [ActiveCampaign](https://www.activecampaign.com/) y [MailerLite](https://www.mailerlite.com/) para sus consideraciones.

@@ -1,18 +1,17 @@
 ---
 title: "Panduan Utama untuk Mengaktifkan Obrolan di Google Maps untuk Terhubung dengan Pelanggan"
 metatitle: "Panduan Utama untuk Mengaktifkan Obrolan di Google Maps"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "Dalam blog ini, kita akan melihat tiga metode berbeda untuk mengaktifkan Obrolan Google Maps dengan tiga metode berbeda ini untuk terhubung lebih baik dengan pelanggan."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: 2025-07-28T00:00:00Z
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Obrolan Google Maps adalah cara yang bagus bagi bisnis untuk terhubung dengan pelanggan. Ada berbagai cara untuk mengaktifkan Obrolan Google Maps, yang manual dengan Google Business Profile, yang otomatis dengan Google Business Messages, dan yang menggabungkan yang terbaik dari kedua dunia dengan Near Me Messaging. Blog ini akan memandu Anda tentang cara mengaktifkan Obrolan Google Maps dengan tiga metode berbeda ini.*

@@ -1,17 +1,20 @@
 ---
 title: "In-House vs. Outsourcing para Telemarketing Outbound Calls: Praktikal na Rekomendasyon para sa mga Negosyo (2/5)"
 metatitle: "Seasalt.ai | Live Outbound Calls | In-house vs. Outsourced"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Paghambingin ang in-house vs. outsourced outbound calls—gastos, feature, at makakuha ng praktikal na tip para i-optimize ang iyong customer outreach."
 weight: 1
-tags: ["Serbisyo ng Auto Telemarketing", "Outbound Call para sa Maliit na Negosyo", "SeaChat", "Voice AI"]
-toc: true
+tags:
+  - Serbisyo ng Auto Telemarketing
+  - Outbound Call para sa Maliit na Negosyo
+  - SeaChat
+  - Voice AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

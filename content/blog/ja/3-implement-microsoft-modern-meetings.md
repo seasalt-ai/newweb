@@ -2,16 +2,15 @@
 title: "デモから成功へ：マイクロソフトのモダンミーティングとその先の実装（1/5）"
 metatitle: "デモから成功へ（1/5）：マイクロソフトのモダンミーティングを超えて"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "このブログシリーズの最初の部分では、SeaMeet、私たちの共同モダンミーティングソリューションを作成するためのSeasalt.aiの旅を追ってください。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *このブログシリーズを通して、Seasalt.aiが包括的なモダンミーティング体験を創造する旅を追ってください。その謙虚な始まりから、さまざまなハードウェアやモデルでサービスを最適化し、最先端のNLPシステムを統合し、最終的に私たちの共同モダンミーティングソリューションであるSeaMeetの完全な実現に至るまで。*

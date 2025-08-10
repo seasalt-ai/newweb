@@ -1,17 +1,20 @@
 ---
 title: "أنظمة الرد الآلي على الهاتف (الاستجابة الصوتية التفاعلية مقابل وكلاء الذكاء الاصطناعي الصوتي): أفضل الخيارات للشركات الصغيرة (3/5)"
 metatitle: "أنظمة الرد الآلي (الاستجابة الصوتية التفاعلية مقابل الذكاء الاصطناعي الصوتي)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "استكشف خيارات الاستجابة الصوتية التفاعلية ووكلاء الذكاء الاصطناعي الصوتي لأنظمة الهاتف الآلية في الشركات الصغيرة."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

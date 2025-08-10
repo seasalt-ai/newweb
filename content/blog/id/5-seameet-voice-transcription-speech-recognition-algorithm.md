@@ -1,18 +1,17 @@
 ---
 title: "Dari Demo ke Sukses: Terobosan Algoritma Suara Rapat Modern (3/5)"
 metatitle: "Dari Demo ke Sukses (3/5): Terobosan Algoritma Suara Rapat Modern"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2024-07-19T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2024-07-19 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "Bagian ketiga dari seri blog ini mengikuti perjalanan Seasalt.ai dalam menciptakan solusi rapat kolaboratif modern SeaMeet."
-tags: ["SeaMeet"]
 weight: 1
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 Dalam seri blog ini, ikuti perjalanan Seasalt.ai dalam menciptakan pengalaman rapat modern yang lengkap, mulai dari tahap awal, optimasi di berbagai perangkat keras dan model, hingga integrasi sistem NLP tercanggih, akhirnya mewujudkan solusi rapat kolaboratif modern SeaMeet.

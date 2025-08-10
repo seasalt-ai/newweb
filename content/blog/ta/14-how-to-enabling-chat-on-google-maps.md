@@ -1,18 +1,16 @@
 ---
 title: "வாடிக்கையாளர்களுடன் இணைக்க Google Maps இல் அரட்டையை இயக்குவதற்கான இறுதி வழிகாட்டி"
 metatitle: "Google Maps இல் அரட்டையை இயக்குவதற்கான இறுதி வழிகாட்டி"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "இந்த வலைப்பதிவில், வாடிக்கையாளர்களுடன் சிறப்பாக இணைக்க Google Maps அரட்டையை இயக்க இந்த மூன்று வெவ்வேறு முறைகளைப் பார்ப்போம்."
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Google Maps அரட்டை என்பது வணிகங்கள் வாடிக்கையாளர்களுடன் இணைவதற்கான ஒரு சிறந்த வழியாகும். Google Maps அரட்டையை இயக்க பல்வேறு வழிகள் உள்ளன: Google Business Profile உடன் ஒரு கையேடு முறை, Google Business Messages உடன் ஒரு தானியங்கி முறை, மற்றும் Near Me Messaging உடன் இரண்டு உலகங்களின் சிறந்தவற்றை எடுக்கும் ஒரு முறை. இந்த வலைப்பதிவு இந்த மூன்று வெவ்வேறு முறைகளுடன் Google Maps அரட்டையை எவ்வாறு இயக்குவது என்பதை உங்களுக்கு வழிகாட்டும்.*

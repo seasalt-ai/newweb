@@ -1,17 +1,17 @@
 ---
 title: "How to Use Real-time Transcripts and AI Meeting Notes to Improve Team Meeting Efficiency?"
 metatitle: "How to Use Real-time Transcripts and AI Meeting Notes to Improve Team Meeting Efficiency?"
-date: 2023-10-02T10:25:00-08:00
-lastmod: 2024-06-20T00:00:00-08:00
+date: 2023-10-02 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "With the advent of large language models like ChatGPT, generative AI has opened up new areas of exploration. When AI is combined with speech recognition, it provides unprecedented possibilities for real-time meeting analysis. But what does this mean for daily business operations? Real-time analysis of meeting recordings has become an essential tool for businesses to improve efficiency and communication quality. Through real-time analysis, companies can ensure that every discussion is accurately recorded, making the decision-making process more efficient and precise."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/en/blog/how-to-use-ai-meeting-copilot/"
-url: "/en/blog/how-to-use-ai-meeting-copilot/"
-summary: "With the advent of large language models like ChatGPT, generative AI has opened up new areas of exploration. When AI is combined with speech recognition, it provides unprecedented possibilities for real-time meeting analysis. But what does this mean for daily business operations?"
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 With SeaMeet, you can:

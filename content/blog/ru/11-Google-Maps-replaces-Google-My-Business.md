@@ -1,16 +1,16 @@
 ---
 title: "Прощай, Google Мой Бизнес, теперь Google Карты — новая ОС для бизнеса"
 metatitle: "Прощай, GMB, Google Карты — новая ОС для бизнеса"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google заменяет приложение Google Мой Бизнес на Google Карты, где компании могут управлять своей информацией и отвечать на сообщения клиентов в Google Картах."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: 2025-07-28T00:00:00Z
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Прямое соединение бизнеса с потребителями через Google Карты обеспечивает бесшовный опыт для покупателей. Это отличный стратегический шаг для Google, чтобы превратить Google Карты в новую операционную систему для локального поиска предприятий "рядом со мной".*

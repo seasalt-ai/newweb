@@ -1,17 +1,18 @@
 ---
 title: "Google Meet AI Copilot را برای افزایش کارایی جلسات شما راه‌اندازی می‌کند"
 metatitle: "Google Meet AI Copilot را برای افزایش کارایی جلسات شما راه‌اندازی می‌کند"
-date: 2023-10-06T10:25:00-08:00
-modified_date: 2025-07-30T17:30:00-08:00
+date: 2023-10-06 10:25:00-08:00
+modified_date: 2025-07-30 17:30:00-08:00
 draft: false
 author: Xuchen Yao
-description: بررسی کنید که چگونه SeaMeet کاستی‌های Google Duet AI را در پشتیبانی زبان چینی و کارایی جلسات تکمیل می‌کند و تجربه همکاری غنی‌تری را برای کاربران چینی سنتی فراهم می‌کند و همکاری چندزبانه را پیش می‌برد.
+description: "بررسی کنید که چگونه SeaMeet کاستی‌های Google Duet AI را در پشتیبانی زبان چینی و کارایی جلسات تکمیل می‌کند و تجربه همکاری غنی‌تری را برای کاربران چینی سنتی فراهم می‌کند و همکاری چندزبانه را پیش می‌برد."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/copilot-on-google-meet-meetings/"
-url: "/blog/copilot-on-google-meet-meetings/"
-summary: "بررسی کنید که چگونه SeaMeet کاستی‌های Google Duet AI را در پشتیبانی زبان چینی و کارایی جلسات تکمیل می‌کند و تجربه همکاری غنی‌تری را برای کاربران چینی سنتی فراهم می‌کند و همکاری چندزبانه را پیش می‌برد."
+canonicalURL: /blog/copilot-on-google-meet-meetings/
+url: /blog/copilot-on-google-meet-meetings/
 ---
 
 > **نکات کلیدی**

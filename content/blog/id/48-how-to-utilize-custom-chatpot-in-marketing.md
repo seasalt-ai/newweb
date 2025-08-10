@@ -1,17 +1,19 @@
 ---
 title: "Menggunakan Bot ChatGPT Kustom untuk Pemasaran Inovatif"
 metatitle: "Menggunakan Bot ChatGPT Kustom untuk Pemasaran Inovatif | Seri SeaChat untuk Chatbot Generasi Baru"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Jelajahi bagaimana menggunakan bot ChatGPT kustom untuk menghidupkan kampanye pemasaran. Dari interaksi inovatif hingga meningkatkan citra merek, artikel ini mengungkapkan potensi tak terbatas AI dalam pemasaran.
+description: "Jelajahi bagaimana menggunakan bot ChatGPT kustom untuk menghidupkan kampanye pemasaran. Dari interaksi inovatif hingga meningkatkan citra merek, artikel ini mengungkapkan potensi tak terbatas AI dalam pemasaran."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Jelajahi bagaimana menggunakan bot ChatGPT kustom untuk menghidupkan kampanye pemasaran. Dari interaksi inovatif hingga meningkatkan citra merek, artikel ini mengungkapkan potensi tak terbatas AI dalam pemasaran."
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 Dalam lanskap pemasaran digital yang berkembang pesat, agensi pemasaran terus mencari strategi baru untuk menarik pelanggan dan menciptakan pengalaman merek yang unik. Dengan munculnya kecerdasan buatan, bot ChatGPT kustom telah muncul, memberikan para profesional pemasaran alat inovatif untuk menarik dan berinteraksi dengan pelanggan.

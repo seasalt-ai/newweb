@@ -1,17 +1,19 @@
 ---
 title: "Lahat ng Kailangan Mong Malaman upang Maghanda para sa Bagong One-to-One Consent Rule ng FCC ng 2025"
 metatitle: "Seasalt.ai | Mga Pagbabago sa Panuntunan ng TCPA 2025 | Komprehensibong Gabay"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "Isang malalim na gabay sa mga pagbabago sa panuntunan ng TCPA 2025, na nagbibigay ng mahalagang impormasyon para sa mga negosyo upang matiyak ang pagsunod."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **Ang artikulong ito ay hindi legal na payo. Mangyaring kumonsulta sa iyong legal na tagapayo para sa karagdagang impormasyon.**

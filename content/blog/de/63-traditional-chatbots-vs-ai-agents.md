@@ -1,16 +1,20 @@
 ---
 title: "Was Unternehmen über Chatbots wissen sollten: Der Weg von traditionellen Chatbots zu LLM-Agenten"
 metatitle: "Der Weg von traditionellen Chatbots zu LLM-Agenten"
-date: 2023-12-26T10:25:00-08:00
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: LLM-basierte Chat-Agenten bieten Unternehmen eine einfache, effiziente Lösung für Kundeninteraktionen, die keine komplexen technischen Fähigkeiten erfordert und sich nahtlos in bestehende Systeme integriert.
+description: "LLM-basierte Chat-Agenten bieten Unternehmen eine einfache, effiziente Lösung für Kundeninteraktionen, die keine komplexen technischen Fähigkeiten erfordert und sich nahtlos in bestehende Systeme integriert."
 weight: 1
-tags: ["SeaChat", "Sprachagent", "KI-Tools", "Kundenerfahrung"]
+tags:
+  - SeaChat
+  - Sprachagent
+  - KI-Tools
+  - Kundenerfahrung
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 Für Geschäftsinhaber ist die Optimierung der Kundeninteraktion entscheidend. LLM-basierte Chat-Agenten bieten eine innovative, benutzerfreundliche Lösung, die keine umfassenden technischen Fähigkeiten erfordert.

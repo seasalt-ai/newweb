@@ -1,18 +1,20 @@
 ---
 title: "LINE தானியங்கி பதிலுக்கான குறிப்புகள்: SeaChat-ஐ LINE தானியங்கி பதில்களுடன் எவ்வாறு சரியாக ஒருங்கிணைப்பது"
 metatitle: "LINE தானியங்கி பதிலுக்கான குறிப்புகள்: SeaChat-ஐ LINE தானியங்கி பதில்களுடன் எவ்வாறு சரியாக ஒருங்கிணைப்பது"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:00:00-07:00
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:00:00-07:00
 draft: false
 author: Yuga Chen
-description: LINE தானியங்கி பதில் தீர்வு! LINE-ன் தானியங்கி பதில் செய்தி அம்சம் நிறுத்தப்படும். SeaChat-ஐப் பயன்படுத்துங்கள், புத்திசாலி AI உதவியாளர் உங்கள் வாடிக்கையாளர்களுடனான உரையாடல்களை மேலும் சிறப்பாக்கவும், முழுமையான வாடிக்கையாளர் சேவை தீர்வை வழங்கவும்.
+description: "LINE தானியங்கி பதில் தீர்வு! LINE-ன் தானியங்கி பதில் செய்தி அம்சம் நிறுத்தப்படும். SeaChat-ஐப் பயன்படுத்துங்கள், புத்திசாலி AI உதவியாளர் உங்கள் வாடிக்கையாளர்களுடனான உரையாடல்களை மேலும் சிறப்பாக்கவும், முழுமையான வாடிக்கையாளர் சேவை தீர்வை வழங்கவும்."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'LINE-ஐ உங்கள் பிராண்டின் சூப்பர் உதவியாளராக்க விரும்புகிறீர்களா? வாடிக்கையாளர்கள் அதிகமாகும்போது ஒரு நபர் கையாள முடியாதபோது, ஒவ்வொரு செய்திக்கும் தனித்தனியாக பதிலளிக்க முடியாது, LINE வெளியிட்ட [தானியங்கி பதில் போட்](https://line-tw-official.weblog.to/archives/85582088.html) இந்த எரிச்சலூட்டும் பிரச்சினையை தீர்க்கிறது போல் தோன்றுகிறது! புதிய நண்பர்களை வரவேற்பதாக இருந்தாலும் முக்கிய வார்த்தைகளுக்கு பதிலளிப்பதாக இருந்தாலும், மிகவும் எளிதாகத் தோன்றுகிறது, இல்லையா?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # LINE தானியங்கி பதில் என்றால் என்ன?

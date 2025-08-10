@@ -1,16 +1,20 @@
 ---
 title: "SeaChat의 노코드 AI 에이전트 빌더로 AI 도입이 쉬워집니다"
 metatitle: "SeaChat의 노코드 AI 에이전트 빌더로 AI 도입이 쉬워집니다"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat으로 조직 내 AI 도입을 원활하게 진행하세요! 이 노코드 AI 에이전트 빌더는 프로세스를 단순화하여 쉽고 번거롭지 않게 만듭니다. 간단한 사용 사례부터 시작하여 AI를 활용하는 다양한 방법을 실험하여 AI 도입을 점진적으로 늘려나가세요.
+description: "SeaChat으로 조직 내 AI 도입을 원활하게 진행하세요! 이 노코드 AI 에이전트 빌더는 프로세스를 단순화하여 쉽고 번거롭지 않게 만듭니다. 간단한 사용 사례부터 시작하여 AI를 활용하는 다양한 방법을 실험하여 AI 도입을 점진적으로 늘려나가세요."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # SeaChat 소개: 노코드 AI 에이전트 빌더

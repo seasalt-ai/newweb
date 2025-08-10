@@ -1,13 +1,17 @@
 ---
-title: "Discord: Новая эра взаимодействия с клиентами"
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: "Discord: Новая эра взаимодействия с клиентами"
-seoDescription: Узнайте, как Discord меняет подход к взаимодействию с клиентами, создавая динамичные сообщества и инновационную поддержку для современных компаний.
+title: "Discord (1/3): Новый Рубеж во Взаимодействии с Клиентами"
+metatitle: "Discord (1/3): Новый Рубеж во Взаимодействии с Клиентами"
+date: 2022-05-23 13:05:36-07:00
+draft: false
+author: Kim Dodds
+description: "В этом блоге мы обсудим рост популярности Discord и почему/как компании начинают использовать его для улучшения взаимодействия с клиентами."
+weight: 1
 tags:
-- Discord
-- Обслуживание клиентов
-- Взаимодействие
-title: 'Discord: Новая эра взаимодействия с клиентами'
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

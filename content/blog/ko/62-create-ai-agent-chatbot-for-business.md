@@ -1,15 +1,19 @@
 ---
 title: "비즈니스를 위한 AI 에이전트 챗봇 만들기"
 metatitle: "비즈니스용 AI 에이전트 챗봇 제작 가이드"
-date: 2024-02-28T10:00:00-07:00
+date: 2024-02-28 10:00:00-07:00
 draft: false
 author: Xuchen Yao
 description: "비즈니스를 위한 AI 에이전트 챗봇을 만드는 단계별 방법을 플랫폼 선택부터 비즈니스 시스템 연동까지 안내합니다."
 weight: 1
-tags: ["AI 챗봇", "비즈니스", "자동화", "에이전트 AI"]
+tags:
+  - AI 챗봇
+  - 비즈니스
+  - 자동화
+  - 에이전트 AI
 image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
-url: "/blog/create-ai-agent-chatbot-for-business/"
+canonicalURL: /blog/create-ai-agent-chatbot-for-business/
+url: /blog/create-ai-agent-chatbot-for-business/
 ---
 
 AI 에이전트 챗봇은 비즈니스에서 효율성과 고객 경험을 높이는 데 점점 더 많이 활용되고 있습니다. 이 글에서는 효과적인 AI 에이전트 챗봇을 만드는 방법을 소개합니다.

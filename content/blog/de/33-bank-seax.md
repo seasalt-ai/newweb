@@ -1,16 +1,18 @@
 ---
 title: "Kundenreferenz: Eine große asiatische Bank befähigen, mehrsprachigen und datenschutzorientierten Support für Kunden bereitzustellen"
 metatitle: "Asiatische Bank bietet mehrsprachigen und privaten Support mit SeaX"
-date: 2023-06-28T11:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-06-28 11:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Der Blog beschreibt, wie die Implementierung eines Omnichannel-Kontaktzentrums die Kundenservicelandschaft für eine große Privatbank in Südostasien revolutionierte und die Agentenleistung durch Echtzeit-Sprachtranskriptionen, datengesteuerte Erkenntnisse und robuste Datenschutzmaßnahmen verbesserte.
+description: "Der Blog beschreibt, wie die Implementierung eines Omnichannel-Kontaktzentrums die Kundenservicelandschaft für eine große Privatbank in Südostasien revolutionierte und die Agentenleistung durch Echtzeit-Sprachtranskriptionen, datengesteuerte Erkenntnisse und robuste Datenschutzmaßnahmen verbesserte."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 Die Erfolgsgeschichte der Implementierung eines Omnichannel-Kontaktzentrums für eine der größten Privatbanken in Südostasien zeigt, wie fortschrittliche Technologie und ein kundenorientierter Ansatz die Kundenservicelandschaft verändern und gleichzeitig den Datenschutz gewährleisten können.

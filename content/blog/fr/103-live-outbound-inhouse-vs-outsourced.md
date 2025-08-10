@@ -1,17 +1,20 @@
 ---
 title: "Interne vs. Externalisation pour les appels sortants de télémarketing : Recommandations pratiques pour les entreprises (2/5)"
 metatitle: "Seasalt.ai | Appels sortants en direct | Interne vs. Externalisé"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Comparez les appels sortants internes et externalisés – coûts, fonctionnalités, et obtenez des conseils pratiques pour optimiser votre prospection client."
 weight: 1
-tags: ["Service de télémarketing automatique", "Appel sortant pour les petites entreprises", "SeaChat", "IA vocale"]
-toc: true
+tags:
+  - Service de télémarketing automatique
+  - Appel sortant pour les petites entreprises
+  - SeaChat
+  - IA vocale
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

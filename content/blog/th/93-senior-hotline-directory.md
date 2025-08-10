@@ -1,13 +1,19 @@
 ---
 title: "สมุดโทรศัพท์สายด่วนผู้สูงอายุ: แหล่งข้อมูลการดูแลผู้สูงอายุในไต้หวัน"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "คู่มือฉบับสมบูรณ์เกี่ยวกับสายด่วนผู้สูงอายุในไต้หวัน ให้ข้อมูลติดต่อที่จำเป็นสำหรับสำนักงานกิจการสังคมในเมืองใหญ่ๆ ค้นพบว่า SeaX และ SeaChat AI สามารถยกระดับบริการดูแลผู้สูงอายุได้อย่างไร"
-tags: ["การดูแลผู้สูงอายุ", "สายด่วนผู้สูงอายุ", "ไต้หวัน", "SeaX", "SeaChat AI", "แหล่งข้อมูลชุมชน"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - การดูแลผู้สูงอายุ
+  - สายด่วนผู้สูงอายุ
+  - ไต้หวัน
+  - SeaX
+  - SeaChat AI
+  - แหล่งข้อมูลชุมชน
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # สมุดโทรศัพท์สายด่วนผู้สูงอายุ: แหล่งข้อมูลการดูแลผู้สูงอายุในไต้หวัน

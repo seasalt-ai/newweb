@@ -1,16 +1,21 @@
 ---
 title: "의도/개체 기반 NLU vs. GenAI/LLM 기반 NLU: 수백만 (예시 및 달러)의 차이"
 metatitle: "의도/개체 기반 NLU vs. GenAI/LLM 기반 NLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: 대화형 AI의 미래를 열어보세요. 의도/개체 기반 NLU에서 GenAI/LLM 기반 NLU로의 전환이 확장성, 비용 효율성 및 적응성에 왜 중요한가요?"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 모든 고객 서비스 또는 마케팅 이사님들께, 상사께서 다음 질문을 하시면 이 글을 보내주세요:

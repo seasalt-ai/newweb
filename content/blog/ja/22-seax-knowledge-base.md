@@ -1,15 +1,16 @@
 ---
 title: "SeaX KB：質問する前に答えるナレッジベース"
 metatitle: "SeaX KB：質問する前に答えるナレッジベース"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:23.412Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:23.412000+00:00
 draft: false
 author: Kim Dodds
 description: "この記事では、AI統合のトピックを継続し、リアルタイムで推奨応答を提供するSeaXのAI搭載ナレッジベースを紹介します。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *前回のブログ記事[SeaX Voice Intelligenceでコンタクトセンターに独自の音声を与える](https://seasalt.ai/blog/21-seax-voice-intelligence/)では、Seasalt.aiの社内テキスト読み上げおよび音声テキスト変換エンジンがSeaXプラットフォームのさまざまな側面をどのように強化するかを示しました。この記事では、AI統合のトピックを継続し、リアルタイムで会話を聞いて推奨応答を提供するSeaXのAI搭載ナレッジベースを紹介します。*

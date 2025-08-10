@@ -1,16 +1,21 @@
 ---
 title: "NLU basé sur l'intention/entité vs. NLU basé sur GenAI/LLM : la différence se compte en millions (d'exemples et de dollars)"
 metatitle: "NLU basé sur l'intention/entité vs. NLU basé sur GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: Découvrez l'avenir de l'IA conversationnelle – Pourquoi le passage du NLU basé sur l'intention/entité au NLU basé sur GenAI/LLM est crucial pour l'évolutivité, la rentabilité et l'adaptabilité."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 À tous les directeurs du service client ou du marketing, si votre patron vous pose la question suivante, envoyez-leur cet article :

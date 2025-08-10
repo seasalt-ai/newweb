@@ -1,18 +1,20 @@
 ---
 title: "Consejos de Automatización de LINE: Integración Perfecta de SeaChat con Automatizaciones de LINE"
 metatitle: "Consejos de Automatización de LINE: Integración Perfecta de SeaChat con Automatizaciones de LINE"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: ¡Solución de automatización de LINE! La función de respuesta automática de LINE dejará de prestar servicio. Use SeaChat, el asistente de IA inteligente, para hacer sus conversaciones con clientes más fluidas y proporcionar una solución integral de servicio al cliente.
+description: "¡Solución de automatización de LINE! La función de respuesta automática de LINE dejará de prestar servicio. Use SeaChat, el asistente de IA inteligente, para hacer sus conversaciones con clientes más fluidas y proporcionar una solución integral de servicio al cliente."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: '¿Quiere hacer de LINE su súper asistente para su marca? Cuando los clientes se vuelven cada vez más numerosos y una persona no es suficiente, no puede responder a cada mensaje individualmente. El ["Bot de Respuesta Automática"](https://line-tw-official.weblog.to/archives/85582088.html) de LINE parece resolver este molesto problema! Ya sea para dar la bienvenida a nuevos amigos o responder palabras clave, ¡parece mucho más fácil, verdad?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # ¿Qué es la Automatización de LINE?

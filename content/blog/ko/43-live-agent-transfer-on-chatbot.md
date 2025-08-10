@@ -1,17 +1,19 @@
 ---
 title: "AI 봇과 라이브 에이전트 간의 원활한 협업: 인간-기계 협력을 통한 고객 경험 향상"
 metatitle: "AI 봇과 라이브 에이전트 간의 원활한 협업: 인간-기계 협력을 통한 고객 경험 향상 | SeaChat으로 차세대 챗봇 구축 시리즈"
-date: 2023-10-28T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-10-28 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 차세대 고객 서비스는 산업을 재편하고 있습니다. 이 기사는 AI 봇과 라이브 고객 서비스 에이전트 간의 시너지를 탐구하여 더 스마트하고 인간적인 지원을 제공하고, 때로는 둘 사이의 균형이 왜 필요한지 설명합니다. 우리는 기술 발전이 고객 경험과 비즈니스 운영을 어떻게 형성하는지 논의할 것입니다.
+description: "차세대 고객 서비스는 산업을 재편하고 있습니다. 이 기사는 AI 봇과 라이브 고객 서비스 에이전트 간의 시너지를 탐구하여 더 스마트하고 인간적인 지원을 제공하고, 때로는 둘 사이의 균형이 왜 필요한지 설명합니다. 우리는 기술 발전이 고객 경험과 비즈니스 운영을 어떻게 형성하는지 논의할 것입니다."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
-canonicalURL: "/blog/live-agent-transfer-on-chatbot/"
-url: "/blog/live-agent-transfer-on-chatbot/"
-summary: "차세대 고객 서비스는 산업을 재편하고 있습니다. 이 기사는 AI 봇과 라이브 고객 서비스 에이전트 간의 시너지를 탐구하여 더 스마트하고 인간적인 지원을 제공하고, 때로는 둘 사이의 균형이 왜 필요한지 설명합니다. 우리는 기술 발전이 고객 경험과 비즈니스 운영을 어떻게 형성하는지 논의할 것입니다."
+canonicalURL: /blog/live-agent-transfer-on-chatbot/
+url: /blog/live-agent-transfer-on-chatbot/
 ---
 
 ## AI 봇을 라이브 에이전트로 전환해야 하는 이유는 무엇입니까?

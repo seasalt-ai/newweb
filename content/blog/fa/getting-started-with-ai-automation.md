@@ -12,6 +12,8 @@ tags:
 - Customer Service
 - Efficiency
 title: شروع کار با اتوماسیون هوش مصنوعی برای کسب و کارهای کوچک
+canonicalURL: /blog/getting-started-with-ai-automation/
+url: /blog/getting-started-with-ai-automation/
 ---
 
 

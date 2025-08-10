@@ -1,16 +1,20 @@
 ---
 title: "Einfache Umfrageerfassung mit einem KI-Sprachagenten"
 metatitle: "Einfache Umfrageerfassung mit einem KI-Sprachagenten"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Entdecken Sie die Zukunft der Umfrageerstellung mit einem KI-Sprachagenten! Erstellen Sie mühelos hochwertige Fragen, verbessern Sie die Benutzererfahrung und steigern Sie die Rücklaufquoten. Verabschieden Sie sich von manueller Arbeit!
+description: "Entdecken Sie die Zukunft der Umfrageerstellung mit einem KI-Sprachagenten! Erstellen Sie mühelos hochwertige Fragen, verbessern Sie die Benutzererfahrung und steigern Sie die Rücklaufquoten. Verabschieden Sie sich von manueller Arbeit!"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Einführung

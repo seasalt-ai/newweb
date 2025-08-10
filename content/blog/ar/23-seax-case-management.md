@@ -1,16 +1,17 @@
 ---
 title: "إدارة الحالات في SeaX: تحكم في تتبع حالات مركز الاتصال الخاص بك"
 metatitle: "إدارة الحالات في SeaX: تتبع تفاعلات عملائك"
-date: 2022-08-17T22:28:15Z
-modified_date: "2025-07-31T12:00:00Z"
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-31 12:00:00+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "في هذا المقال، نستكشف تكاملات الذكاء الاصطناعي مع إدارة الحالات، والتي تمنح وكلائك أدوات لتتبع وتسجيل التفاعلات مع عملائك في SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *في تدوينتنا السابقة، [SeaX KB: قاعدة معرفية تجيب قبل أن تُسأل](https://seasalt.ai/blog/22-seax-knowledge-base/)، عرضنا كيف تضع قاعدة المعرفة الداخلية لشركة Seasalt.ai معلومات شركتك مباشرة في متناول وكلائك، مما يعزز الكفاءة والدقة في مركز الاتصال الخاص بك. في هذا المقال، نواصل موضوع تكاملات الذكاء الاصطناعي مع نظام إدارة الحالات في SeaX، والذي يمنح وكلائك أدوات قوية لتتبع وتسجيل التفاعلات مع عملائك مباشرة في واجهة SeaX.*

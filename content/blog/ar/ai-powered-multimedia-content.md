@@ -14,6 +14,8 @@ tags:
 - التسويق الرقمي
 - محتوى الفيديو
 title: إنشاء محتوى وسائط متعددة مدعوم بالذكاء الاصطناعي لمشاركة العملاء
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

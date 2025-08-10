@@ -1,18 +1,16 @@
 ---
 title: "Guia definitivo: como ativar o chat no Google Maps para conectar com clientes"
 metatitle: "Guia definitivo: como ativar o chat no Google Maps"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "Neste blog, exploraremos três métodos diferentes para ativar o chat no Google Maps para conectar melhor com clientes."
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *O chat no Google Maps é uma ótima maneira para empresas se conectarem com clientes. Existem diferentes métodos para ativar o chat no Google Maps: um é ativá-lo manualmente usando Google Business Profile, outro é ativá-lo automaticamente usando Google Business Messages, e outro ainda é Near Me Messaging que combina os benefícios de ambos. Este blog irá guiá-lo através de como ativar o chat no Google Maps usando estes três métodos diferentes.*

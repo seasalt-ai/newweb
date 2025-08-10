@@ -1,19 +1,19 @@
 ---
 title: "Cara Membuat Bot ChatGPT Kustom yang Menjawab Lebih Baik – Basis Pengetahuan"
 metatitle: "Cara Membuat Bot ChatGPT Kustom yang Menjawab Lebih Baik – Basis Pengetahuan | Seri SeaChat Generasi Berikutnya"
-date: 2023-10-30T10:25:00-08:00
+date: 2023-10-30 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Pelajari cara membuat bot ChatGPT kustom yang menjawab dengan tepat. Dari membangun basis pengetahuan hingga proses pengembangan aktual, termasuk teknik penyempurnaan titik pengetahuan, dan mendemonstrasikan implementasi yang berhasil menggunakan contoh bot SeaChat. Memberi Anda panduan lengkap untuk membantu Anda dengan mudah membuat chatbot cerdas yang efisien dan personal.
+description: "Pelajari cara membuat bot ChatGPT kustom yang menjawab dengan tepat. Dari membangun basis pengetahuan hingga proses pengembangan aktual, termasuk teknik penyempurnaan titik pengetahuan, dan mendemonstrasikan implementasi yang berhasil menggunakan contoh bot SeaChat. Memberi Anda panduan lengkap untuk membantu Anda dengan mudah membuat chatbot cerdas yang efisien dan personal."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "Pelajari cara membuat bot ChatGPT kustom yang menjawab dengan tepat. Dari membangun basis pengetahuan hingga proses pengembangan aktual, termasuk teknik penyempurnaan titik pengetahuan, dan mendemonstrasikan implementasi yang berhasil menggunakan contoh bot SeaChat. Memberi Anda panduan lengkap untuk membantu Anda dengan mudah membuat chatbot cerdas yang efisien dan personal."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 Dengan pesatnya perkembangan teknologi, chatbot telah menjadi alat yang sangat diperlukan di berbagai industri. Mereka dapat memberikan jawaban instan, meningkatkan pengalaman layanan pelanggan, dan secara signifikan mengurangi beban layanan pelanggan manual. Artikel ini akan membahas cara membuat bot ChatGPT kustom yang menjawab dengan tepat, dengan fokus khusus pada pembangunan dan penyempurnaan basis pengetahuan, serta operasi praktis pembuatan bot.

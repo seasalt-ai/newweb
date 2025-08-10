@@ -1,19 +1,18 @@
 ---
 title: "实时转录和会议分析如何改变Google Meet会议"
 metatitle: "实时转录和会议分析如何改变Google Meet会议"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: 实时转录和会议分析正在改变会议的运作方式。它们不仅提高了会议效率，提供了即时洞察，促进了快速决策，而且还增强了与会人员的参与感，确保了现代商务会议的成功。
+description: "实时转录和会议分析正在改变会议的运作方式。它们不仅提高了会议效率，提供了即时洞察，促进了快速决策，而且还增强了与会人员的参与感，确保了现代商务会议的成功。"
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "实时转录和会议分析正在改变会议的运作方式。它们不仅提高了会议效率，提供了即时洞察，促进了快速决策，而且还增强了与会人员的参与感，确保了现代商务会议的成功。"
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 在现代商业环境中，会议是促进团队合作和决策的关键平台。然而，由于多个平行会议和繁忙的日程安排，保持对所有会议的同步变得越来越困难。在这种背景下，实时转录和会议分析的需求日益凸显，因为它们提供了一个解决方案，以克服传统会议记录方法的限制，并确保有效的会议管理。

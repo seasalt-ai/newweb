@@ -1,17 +1,18 @@
 ---
 title: "Google Meet va lansa AI Copilot pentru a-ți îmbunătăți eficiența întâlnirilor"
 metatitle: "Google Meet va lansa AI Copilot pentru a-ți îmbunătăți eficiența întâlnirilor"
-date: 2023-10-06T10:25:00-08:00
+date: 2023-10-06 10:25:00-08:00
+modified_date: 2024-07-30 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Google Meet va lansa AI Copilot pentru a-ți îmbunătăți eficiența întâlnirilor! Descoperă cum SeaMeet completează deficiențele Google Duet AI în ceea ce privește suportul pentru limba chineză și eficiența întâlnirilor, oferind o experiență de colaborare mai bogată pentru utilizatorii de chineză tradițională și propulsând colaborarea interlingvistică înainte.
+description: "Google Meet va lansa AI Copilot pentru a-ți îmbunătăți eficiența întâlnirilor! Descoperă cum SeaMeet completează deficiențele Google Duet AI în ceea ce privește suportul pentru limba chineză și eficiența întâlnirilor, oferind o experiență de colaborare mai bogată pentru utilizatorii de chineză tradițională și propulsând colaborarea interlingvistică înainte."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/copilot-on-google-meet-meetings/"
-url: "/blog/copilot-on-google-meet-meetings/"
-summary: "Google Meet va lansa AI Copilot pentru a-ți îmbunătăți eficiența întâlnirilor! Descoperă cum SeaMeet completează deficiențele Google Duet AI în ceea ce privește suportul pentru limba chineză și eficiența întâlnirilor, oferind o experiență de colaborare mai bogată pentru utilizatorii de chineză tradițională și propulsând colaborarea interlingvistică înainte."
-modified_date: 2024-07-30T00:00:00Z
+canonicalURL: /blog/copilot-on-google-meet-meetings/
+url: /blog/copilot-on-google-meet-meetings/
 ---
 
 

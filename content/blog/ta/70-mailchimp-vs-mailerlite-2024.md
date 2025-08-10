@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: 2025 இல் எந்த மின்னஞ்சல் சந்தைப்படுத்தல் சேவை உங்களுக்கு சரியானது?"
 metatitle: "Mailchimp vs. MailerLite | மின்னஞ்சல் சந்தைப்படுத்தல் சேவை 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, எந்த மின்னஞ்சல் சேவை உங்களுக்கு சரியானது? எங்களின் ஆழமான ஒப்பீடு அம்சங்கள், விலை மற்றும் பலவற்றைப் பிரிக்கிறது.
+description: "MailerLite vs. Mailchimp, எந்த மின்னஞ்சல் சேவை உங்களுக்கு சரியானது? எங்களின் ஆழமான ஒப்பீடு அம்சங்கள், விலை மற்றும் பலவற்றைப் பிரிக்கிறது."
 weight: 1
-tags: ["SeaChat", "வணிகம்", "மின்னஞ்சல் சந்தைப்படுத்தல்"]
+tags:
+  - SeaChat
+  - வணிகம்
+  - மின்னஞ்சல் சந்தைப்படுத்தல்
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 மின்னஞ்சல் சந்தைப்படுத்தல் அனைத்து அளவிலான வணிகங்களுக்கும் ஒரு சக்திவாய்ந்த கருவியாக உள்ளது. நீங்கள் மின்னஞ்சல் சந்தைப்படுத்தல் வேலைகளை ஆராய்ந்தாலும், சிறந்த மின்னஞ்சல் சந்தைப்படுத்தல் மென்பொருளைத் தேடினாலும், அல்லது செயல்படக்கூடிய மின்னஞ்சல் சந்தைப்படுத்தல் உதவிக்குறிப்புகளைத் தேடினாலும், சந்தையில் உள்ள சிறந்த கருவியைப் பற்றி நீங்கள் தெரிந்து கொள்ள வேண்டும். இன்று, நாங்கள் இரண்டு பிரபலமான மின்னஞ்சல் சந்தைப்படுத்தல் கருவிகளை ஒப்பிடுவோம், [Mailchimp](https://mailchimp.com/) மற்றும் [MailerLite](https://www.mailerlite.com/) உங்கள் பரிசீலனைகளுக்கு.

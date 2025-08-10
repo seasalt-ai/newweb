@@ -1,20 +1,18 @@
 ---
-author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
-  Vernon
-canonicalURL: /blog/seavoice-discord-backend-improvements/
+title: "روبوت SeaVoice STT/TTS Discord: تحسينات الواجهة الخلفية والاستقرار"
+metatitle: "روبوت SeaVoice STT/TTS Discord: تحسينات الواجهة الخلفية والا..."
 date: 2022-12-13 11:58:34-08:00
-description: مع أحدث إصدار، يطلق روبوت SeaVoice Discord تحسينات هائلة في الواجهة الخلفية
-  تعمل على تحسين استقرار الروبوت والتطوير المستقبلي.
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
-metatitle: 'روبوت SeaVoice STT/TTS Discord: تحسينات الواجهة الخلفية والا...'
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- SeaVoice
-- Discord
-title: 'روبوت SeaVoice STT/TTS Discord: تحسينات الواجهة الخلفية والاستقرار'
-url: /blog/seavoice-discord-backend-improvements/
+author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
+description: "مع أحدث إصدار، يطلق روبوت SeaVoice Discord تحسينات هائلة في الواجهة الخلفية تعمل على تحسين استقرار الروبوت والتطوير المستقبلي."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
+canonicalURL: /blog/seavoice-discord-backend-improvements/
+url: /blog/seavoice-discord-backend-improvements/
 ---
 
 

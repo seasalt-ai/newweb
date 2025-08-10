@@ -1,17 +1,20 @@
 ---
 title: "电话营销外呼的内部与外包：给企业的实用建议 (2/5)"
 metatitle: "Seasalt.ai | 实时外呼 | 内部与外包"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "比较内部与外包外呼——成本、功能，并获取优化客户拓展的实用技巧。"
 weight: 1
-tags: ["自动电话营销服务", "小型企业外呼", "SeaChat", "语音 AI"]
-toc: true
+tags:
+  - 自动电话营销服务
+  - 小型企业外呼
+  - SeaChat
+  - 语音 AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

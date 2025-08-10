@@ -1,20 +1,20 @@
 ---
 title: "Trazando un nuevo rumbo: Por qué SeaChat supera a SAP Con..."
 metatitle: "SeaChat vs. SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "¿Por qué SAP Conversational AI está desactualizado? Descubra SeaChat: navegue lejos de las orillas repetitivas de los chatbots con tecnología LLM avanzada, fomentando conversaciones atractivas y similares a las humanas."
 weight: 1
 tags:
-  - "SeaChat"
-  - "AI Tools"
-  - "Large Language Models"
-  - "NLU"
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 

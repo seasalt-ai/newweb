@@ -1,17 +1,19 @@
 ---
 title: "چگونه یک چت‌بات هوش مصنوعی را با SeaChat به وب‌سایت Squarespace خود اضافه کنیم"
 metatitle: "SeaChat AI | عوامل هوش مصنوعی در وب‌سایت Squarespace شما"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: با هوش مصنوعی SeaChat، تعامل مشتری را در Squarespace به حداکثر برسانید - چت‌بات خود را برای پشتیبانی فعال بازدیدکنندگان سفارشی‌سازی، آموزش، نظارت و به‌روزرسانی کنید.
+description: "با هوش مصنوعی SeaChat، تعامل مشتری را در Squarespace به حداکثر برسانید - چت‌بات خود را برای پشتیبانی فعال بازدیدکنندگان سفارشی‌سازی، آموزش، نظارت و به‌روزرسانی کنید."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "یکپارچه‌سازی‌ها"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - یکپارچه‌سازی‌ها
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 در چشم‌انداز دیجیتال پرسرعت امروز، خدمات مشتری مؤثر و تعامل کاربر برای کسب‌وکارها حیاتی است. مشتریان انتظار تعاملات بلادرنگ، پاسخ‌های سریع و پشتیبانی شخصی‌سازی شده را دارند. ادغام راه‌حل‌های چت در وب‌سایت شما می‌تواند این جنبه‌ها را به طور قابل توجهی افزایش دهد. در این وبلاگ، ما نحوه افزودن یک چت‌بات هوش مصنوعی به وب‌سایت Squarespace شما و متحول کردن ارتباطات مشتری شما را بررسی خواهیم کرد.

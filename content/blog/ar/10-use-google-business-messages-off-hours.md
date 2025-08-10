@@ -1,18 +1,17 @@
 ---
 title: "أصحاب الأعمال: استخدم Google Business Messages للتفاعل مع العملاء خارج ساعات العمل!"
 metatitle: "استخدم Google Business Messages للتفاعل مع العملاء خارج ساعات العمل!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-01-27T10:30:00Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
+author: Ruli Setiawati
 description: "بينما يسمح Google Business Profile لأصحاب الأعمال بالدردشة مباشرة مع العملاء، يتيح Google Business Messages التكامل مع خدمة العملاء الافتراضية."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *تعرف على المزيد حول مزايا وقيود Google Business Messages وكيفية تنفيذ الشركات لـ Google Business Messages.*

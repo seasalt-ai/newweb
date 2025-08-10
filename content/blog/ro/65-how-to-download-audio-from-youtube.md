@@ -1,16 +1,18 @@
 ---
 title: "Cum să descărcați date audio de pe YouTube, un singur videoclip și multe videoclipuri | Seria Audio Toolbox"
 metatitle: "Descărcați date audio de pe YouTube | Seria Audio Toolbox"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Guoguo Chen
-description: Aflați cum să descărcați legal și eficient audio de pe videoclipuri YouTube individuale sau multiple folosind instrumente gratuite. Explorați instrumente și tehnici pentru a extrage muzică, podcasturi, efecte sonore și multe altele pentru proiectele dvs. creative.
+description: "Aflați cum să descărcați legal și eficient audio de pe videoclipuri YouTube individuale sau multiple folosind instrumente gratuite. Explorați instrumente și tehnici pentru a extrage muzică, podcasturi, efecte sonore și multe altele pentru proiectele dvs. creative."
 weight: 1
-tags: ["Audio Toolbox", "Instrumente AI"]
+tags:
+  - Audio Toolbox
+  - Instrumente AI
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 Astăzi, să ne aprofundăm într-un subiect care rezonează cu mulți: cum să descărcați date audio de pe YouTube, GRATUIT.

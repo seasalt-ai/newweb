@@ -1,17 +1,16 @@
 ---
 title: "Ultimate Guide to Enabling Chat on Google Maps to Connect With Customers"
 metatitle: "Ultimate Guide to Enabling Chat on Google Maps"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "In this blog, we will look at the three different methods to enable Google Maps Chat with these three different methods to better connect with customers."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Google Maps Chat is a great way for businesses to connect with customers. There are different ways to enable Google Maps Chat, a manual one with Google Business Profile, an automatic one with Google Business Messages, and one that takes the best of both worlds with Near Me Messaging. This blog will walk you through how to enable Google Maps Chat with these three different methods.*

@@ -1,16 +1,19 @@
 ---
-title: "Kit مقابل MailerLite: أي خدمة تسويق عبر البريد الإلكتروني مناسبة لك في عام 2025؟"
-metatitle: "Kit (كان يسمى سابقًا ConvertKit) مقابل MailerLite | خدمة التسويق عبر البريد الإلكتروني 2025"
-date: 2024-04-01T10:25:00-08:00
+title: "ConvertKit مقابل MailerLite: أي خدمة تسويق عبر البريد الإلكتروني مناسبة لك في عام 2025؟"
+metatitle: "ConvertKit مقابل MailerLite | خدمة التسويق عبر البريد الإلكتروني 2025"
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite مقابل ConverKit، أي خدمة بريد إلكتروني مناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد.
+description: "MailerLite مقابل ConverKit، أي خدمة بريد إلكتروني مناسبة لك؟ يقدم مقارنتنا المتعمقة تفاصيل الميزات والأسعار والمزيد."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/convertkit-vs-mailerlite-2025/"
-url: "/blog/convertkit-vs-mailerlite-2025/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/convertkit-vs-mailerlite-2025/
+url: /blog/convertkit-vs-mailerlite-2025/
 ---
 
 للتفوق في التسويق عبر البريد الإلكتروني، تحتاج إلى الأدوات المناسبة التي يمكن أن توفر لك الوقت والجهد دون استنزاف أموالك. تتوفر العديد من منصات وبرامج التسويق عبر البريد الإلكتروني الشهيرة، بما في ذلك رواد الصناعة مثل HubSpot و ConverKit و MailerLite و Mailchimp وغيرها. يقدم كل منها مزيجًا فريدًا من الميزات والأسعار وقدرات الأتمتة. اليوم، سنقارن بين أداتين شائعتين، [Kit (كان يسمى سابقًا ConvertKit)](https://www.constantcontact.com/) و [MailerLite](https://www.mailerlite.com/) لاعتباراتك.

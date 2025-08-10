@@ -1,16 +1,19 @@
 ---
 title: "Agenți de apeluri umani live vs. agenți de inteligență artificială vocală pentru apeluri outbound automate: Recomandări practice pentru afaceri (4/5)"
 metatitle: "Seasalt.ai | Apeluri outbound AI | Agenți live | Inteligență artificială vocală"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explorați avantajele și dezavantajele apelurilor outbound live vs. cele bazate pe inteligență artificială pentru afaceri - comparați costurile, scalabilitatea și eficiența."
 weight: 1
-tags: ["Serviciu de telemarketing automat", "Apeluri outbound pentru întreprinderi mici", "SeaChat",  "Inteligență artificială vocală"]
-toc: true
+tags:
+  - Serviciu de telemarketing automat
+  - Apeluri outbound pentru întreprinderi mici
+  - SeaChat
+  - Inteligență artificială vocală
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

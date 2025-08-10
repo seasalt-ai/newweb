@@ -1,19 +1,19 @@
 ---
 title: "Membangun Basis Pengetahuan Perusahaan Menggunakan ChatGPT"
 metatitle: "Membangun Basis Pengetahuan Perusahaan Menggunakan ChatGPT | Seri SeaChat Generasi Berikutnya"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Jelajahi bagaimana chatbot ChatGPT kustom dapat merevolusi manajemen basis pengetahuan internal perusahaan. Artikel ini menganalisis secara mendalam aplikasinya dalam manajemen proyek, sumber daya manusia, desain teknik, dll., mengungkapkan kenyamanan pengembangan tanpa kode dan penyebaran cepat, dan memprediksi tren masa depan, menantikan peran kunci chatbot dalam transformasi digital perusahaan.
+description: "Jelajahi bagaimana chatbot ChatGPT kustom dapat merevolusi manajemen basis pengetahuan internal perusahaan. Artikel ini menganalisis secara mendalam aplikasinya dalam manajemen proyek, sumber daya manusia, desain teknik, dll., mengungkapkan kenyamanan pengembangan tanpa kode dan penyebaran cepat, dan memprediksi tren masa depan, menantikan peran kunci chatbot dalam transformasi digital perusahaan."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Jelajahi bagaimana chatbot ChatGPT kustom dapat merevolusi manajemen basis pengetahuan internal perusahaan. Artikel ini menganalisis secara mendalam aplikasinya dalam manajemen proyek, sumber daya manusia, desain teknik, dll., mengungkapkan kenyamanan pengembangan tanpa kode dan penyebaran cepat, dan memprediksi tren masa depan, menantikan peran kunci chatbot dalam transformasi digital perusahaan."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chatgpt/
 ---
 
 Di era transformasi digital saat ini, perusahaan secara bertahap menyadari potensi besar chatbot AI dalam meningkatkan efisiensi operasional internal dan kualitas layanan pelanggan. Teknologi chatbot canggih seperti ChatGPT akan menjadi alat penting untuk manajemen basis pengetahuan internal perusahaan dan interaksi pelanggan.

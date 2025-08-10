@@ -1,19 +1,18 @@
 ---
 title: "Bagaimana Transkripsi Masa Nyata dan Analisis Mesyuarat Mengubah Mesyuarat Google Meet"
 metatitle: "Bagaimana Transkripsi Masa Nyata dan Analisis Mesyuarat Mengubah Mesyuarat Google Meet"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Ciri transkripsi masa nyata dan analisis mesyuarat telah mengubah cara mesyuarat dijalankan. Ia bukan sahaja meningkatkan kecekapan mesyuarat, memberikan pandangan segera, dan memudahkan membuat keputusan yang pantas, tetapi juga meningkatkan penglibatan peserta dan memastikan kejayaan mesyuarat perniagaan moden."
 weight: 1
-tags: ["SeaMeet", "Alat AI"]
+tags:
+  - SeaMeet
+  - Alat AI
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "Ciri transkripsi masa nyata dan analisis mesyuarat telah mengubah cara mesyuarat dijalankan. Ia bukan sahaja meningkatkan kecekapan mesyuarat, memberikan pandangan segera, dan memudahkan membuat keputusan yang pantas, tetapi juga meningkatkan penglibatan peserta dan memastikan kejayaan mesyuarat perniagaan moden."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 Dalam persekitaran perniagaan moden, mesyuarat adalah platform utama untuk mempromosikan kerja berpasukan dan membuat keputusan. Walau bagaimanapun, disebabkan oleh beberapa mesyuarat selari dan jadual yang sibuk, semakin sukar untuk kekal selaras dengan semua mesyuarat. Dengan latar belakang ini, keperluan untuk transkripsi masa nyata dan analisis mesyuarat semakin menonjol, kerana ia menyediakan penyelesaian untuk mengatasi batasan kaedah rakaman mesyuarat tradisional dan memastikan pengurusan mesyuarat yang berkesan.

@@ -1,18 +1,17 @@
 ---
 title: "صاحبان کسب و کار: از پیام های تجاری گوگل برای تعامل در ساعات غیر کاری استفاده کنید!"
 metatitle: "از پیام های تجاری گوگل برای تعامل در ساعات غیر کاری استفاده کنید!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
+author: Ruli Setiawati
 description: "در حالی که نمایه کسب و کار گوگل به صاحبان کسب و کار اجازه می دهد مستقیماً با مشتریان چت کنند، پیام های تجاری گوگل امکان ادغام با یک نماینده مجازی را فراهم می کند."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *درباره مزایا و محدودیت های پیام های تجاری گوگل و نحوه پیاده سازی پیام های تجاری گوگل توسط کسب و کارها بیشتر بدانید.*

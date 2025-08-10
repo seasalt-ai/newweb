@@ -1,17 +1,20 @@
 ---
 title: "アウトバウンドコール用オートダイヤラー：パワーダイヤラー vs. プログレッシブダイヤラー vs. プレディクティブダイヤラー (3/5)"
 metatitle: "Seasalt.ai | ライブアウトバウンドコール | オートダイヤラー"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "テレマーケティングと営業における効果的でスケーラブルなアウトバウンドコールのために、パワー、プログレッシブ、プレディクティブダイヤラーを比較します。"
 weight: 1
-tags: ["自動テレマーケティングサービス", "中小企業向けアウトバウンドコール", "オートダイヤラー", "音声AI"]
-toc: true
+tags:
+  - 自動テレマーケティングサービス
+  - 中小企業向けアウトバウンドコール
+  - オートダイヤラー
+  - 音声AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

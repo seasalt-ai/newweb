@@ -1,17 +1,20 @@
 ---
 title: "المتصلون التلقائيون للمكالمات الصادرة: المتصل القوي مقابل المتصل التدريجي مقابل المتصل التنبئي (3/5)"
 metatitle: "Seasalt.ai | مكالمات صادرة مباشرة | المتصلون التلقائيون"
-date: 2024-10-27T00:22:19-07:00
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-27 15:37:30+00:00
 draft: false
 author: Jun Mao
 description: "قارن بين المتصلين القوي والتدريجي والتنبئي لإجراء مكالمات صادرة فعالة وقابلة للتطوير في التسويق عبر الهاتف والمبيعات."
 weight: 1
-tags: ["خدمة التسويق عبر الهاتف التلقائي", "مكالمات صادرة للشركات الصغيرة", "المتصل التلقائي", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة التسويق عبر الهاتف التلقائي
+  - مكالمات صادرة للشركات الصغيرة
+  - المتصل التلقائي
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
-modified_date: 2025-07-27T15:37:30Z
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

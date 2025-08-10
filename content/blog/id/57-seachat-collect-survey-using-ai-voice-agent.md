@@ -1,16 +1,20 @@
 ---
 title: "Pengumpulan Survei Mudah dengan Agen Suara AI"
 metatitle: "Pengumpulan Survei Mudah dengan Agen Suara AI"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Temukan masa depan pembuatan survei dengan agen suara AI! Buat pertanyaan berkualitas tinggi dengan mudah, tingkatkan pengalaman pengguna, dan tingkatkan tingkat respons. Ucapkan selamat tinggal pada pekerjaan manual!
+description: "Temukan masa depan pembuatan survei dengan agen suara AI! Buat pertanyaan berkualitas tinggi dengan mudah, tingkatkan pengalaman pengguna, dan tingkatkan tingkat respons. Ucapkan selamat tinggal pada pekerjaan manual!"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Pendahuluan

@@ -1,19 +1,18 @@
 ---
-author: Kim Dodds
-canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+title: "Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า"
+metatitle: "Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า"
 date: 2022-05-23 13:05:36-07:00
-description: ในบล็อกนี้ เราจะพูดถึงความนิยมที่เพิ่มขึ้นของ Discord และเหตุผล/วิธีที่บริษัทต่าง
-  ๆ เริ่มใช้ Discord เพื่อเพิ่มการมีส่วนร่วมกับลูกค้า
-draft: false
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-metatitle: 'Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า'
 modified_date: 2025-07-28
-tags:
-- SeaX
-- Discord
-title: 'Discord (1/3): พรมแดนใหม่สำหรับการมีส่วนร่วมของลูกค้า'
-url: /blog/discord-a-new-frontier-for-customer-engagement/
+draft: false
+author: Kim Dodds
+description: "ในบล็อกนี้ เราจะพูดถึงความนิยมที่เพิ่มขึ้นของ Discord และเหตุผล/วิธีที่บริษัทต่าง ๆ เริ่มใช้ Discord เพื่อเพิ่มการมีส่วนร่วมกับลูกค้า"
 weight: 1
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 

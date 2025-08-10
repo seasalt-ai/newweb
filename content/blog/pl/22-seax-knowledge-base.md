@@ -1,15 +1,16 @@
 ---
 title: "Baza wiedzy SeaX: Baza wiedzy, która odpowiada, zanim zapytasz"
 metatitle: "Baza wiedzy SeaX: Baza wiedzy, która odpowiada, zanim zapytasz"
-date: 2022-08-15T22:01:32-07:00
-modified_date: 2025-07-30T17:01:30.490Z
+date: 2022-08-15 22:01:32-07:00
+modified_date: 2025-07-30 17:01:30.490000+00:00
 draft: false
 author: Kim Dodds
 description: "W tym artykule kontynuujemy temat integracji sztucznej inteligencji, przedstawiając opartą na sztucznej inteligencji bazę wiedzy SeaX, która dostarcza sugerowane odpowiedzi w czasie rzeczywistym."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-kb-a-knowledge-base/"
-url: "/blog/seax-kb-a-knowledge-base/"
+tags:
+  - SeaX
+canonicalURL: /blog/seax-kb-a-knowledge-base/
+url: /blog/seax-kb-a-knowledge-base/
 ---
 
 *W naszym poprzednim wpisie na blogu [Nadaj swojemu centrum kontaktowemu własny głos dzięki SeaX Voice Intelligence](https://seasalt.ai/blog/21-seax-voice-intelligence/) pokazaliśmy, jak wewnętrzne silniki zamiany tekstu na mowę i mowy na tekst firmy Seasalt.ai usprawniają różne aspekty platformy SeaX. W tym artykule będziemy kontynuować temat integracji sztucznej inteligencji, przedstawiając opartą na sztucznej inteligencji bazę wiedzy SeaX, która nasłuchuje rozmów w czasie rzeczywistym, aby dostarczać sugerowane odpowiedzi.*

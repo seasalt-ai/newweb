@@ -1,17 +1,20 @@
 ---
 title: "In-House vs. Outsourcing untuk Panggilan Keluar Telemarketing: Rekomendasi Praktis untuk Bisnis (2/5)"
 metatitle: "Seasalt.ai | Panggilan Keluar Langsung | In-house vs. Outsourced"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Bandingkan panggilan keluar in-house vs. outsourcing—biaya, fitur, dan dapatkan tips praktis untuk mengoptimalkan jangkauan pelanggan Anda."
 weight: 1
-tags: ["Layanan Telemarketing Otomatis", "Panggilan Keluar untuk Usaha Kecil", "SeaChat", "AI Suara"]
-toc: true
+tags:
+  - Layanan Telemarketing Otomatis
+  - Panggilan Keluar untuk Usaha Kecil
+  - SeaChat
+  - AI Suara
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

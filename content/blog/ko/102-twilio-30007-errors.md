@@ -1,17 +1,19 @@
 ---
 title: "Twilio 30007 오류 처리 방법"
 metatitle: "Seasalt.ai | Twilio 30007 오류 처리 방법"
-date: 2024-10-15T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-15 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Xuchen Yao
 description: "SMS 메시지 전송 성공을 보장하기 위해 Twilio 30007 오류를 해결하고 방지하는 방법을 알아보세요."
 weight: 1
-tags: ["Twilio", "SeaX", "SMS"]
-toc: true
+tags:
+  - Twilio
+  - SeaX
+  - SMS
 image: /images/blog/102-twilio-30007-errors/102-twilio-30007-errors.png
-canonicalURL: "/blog/twilio-30007-errors/"
-url: "/blog/twilio-30007-errors/"
+canonicalURL: /blog/twilio-30007-errors/
+url: /blog/twilio-30007-errors/
 ---
 
 ---

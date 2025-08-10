@@ -1,16 +1,18 @@
 ---
 title: "YouTube இலிருந்து ஆடியோ தரவை எவ்வாறு பதிவிறக்குவது, ஒன்று மற்றும் பல வீடியோக்கள் | ஆடியோ கருவிப்பெட்டித் தொடர்"
 metatitle: "YouTube இலிருந்து ஆடியோ தரவைப் பதிவிறக்குங்கள் | ஆடியோ கருவிப்பெட்டித் தொடர்"
-date: 2024-01-15T10:25:00-08:00
+date: 2024-01-15 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Guoguo Chen
-description: இலவச கருவிகளைப் பயன்படுத்தி தனிப்பட்ட அல்லது பல YouTube வீடியோக்களிலிருந்து ஆடியோவை சட்டப்பூர்வமாகவும் திறமையாகவும் பதிவிறக்குவது எப்படி என்பதை அறிக. உங்கள் படைப்புத் திட்டங்களுக்கான இசை, பாட்காஸ்ட்கள், ஒலி விளைவுகள் மற்றும் பலவற்றை பிரித்தெடுக்க கருவிகள் மற்றும் நுட்பங்களை ஆராயுங்கள்.
+description: "இலவச கருவிகளைப் பயன்படுத்தி தனிப்பட்ட அல்லது பல YouTube வீடியோக்களிலிருந்து ஆடியோவை சட்டப்பூர்வமாகவும் திறமையாகவும் பதிவிறக்குவது எப்படி என்பதை அறிக. உங்கள் படைப்புத் திட்டங்களுக்கான இசை, பாட்காஸ்ட்கள், ஒலி விளைவுகள் மற்றும் பலவற்றை பிரித்தெடுக்க கருவிகள் மற்றும் நுட்பங்களை ஆராயுங்கள்."
 weight: 1
-tags: ["Audio Toolbox", "AI Tools"]
+tags:
+  - Audio Toolbox
+  - AI Tools
 image: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
-canonicalURL: "/blog/how-to-download-audio-from-youtube/"
-url: "/blog/how-to-download-audio-from-youtube/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/how-to-download-audio-from-youtube/
+url: /blog/how-to-download-audio-from-youtube/
 ---
 
 இன்று, பலருடன் எதிரொலிக்கும் ஒரு தலைப்பில் ஆழமாக மூழ்குவோம்: YouTube இலிருந்து ஆடியோ தரவை எவ்வாறு பதிவிறக்குவது, இலவசமாக.

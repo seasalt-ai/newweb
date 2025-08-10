@@ -1,17 +1,17 @@
 ---
 title: "Bagaimana Voicebot Membantu Lansia yang Tinggal Sendiri - Solusi Cerdas SeaX"
 metatitle: "Meningkatkan Kualitas Hidup Lansia yang Tinggal Sendiri dengan AI Voicebot - Solusi Perawatan Cerdas SeaX"
-date: 2024-08-25T00:22:19-07:00
+date: 2024-08-25 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Jelajahi bagaimana SeaX memanfaatkan panggilan perawatan cerdas AI untuk memberikan perawatan rutin, pemantauan kesehatan, dan dukungan darurat bagi lansia yang tinggal sendiri di masyarakat super-tua Taiwan, secara efektif meningkatkan kualitas hidup dan rasa aman lansia."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/95-help-seniors-who-live-at-home-alone-using-voicebot/95-help-seniors-who-live-at-home-alone-using-voicebot.jpg
-canonicalURL: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-url: "/blog/help-seniors-who-live-at-home-alone-using-voicebot/"
-summary: 'Taiwan secara bertahap memasuki masyarakat super-tua, dengan jumlah lansia yang tinggal sendiri terus meningkat. Menurut data dari Dewan Pembangunan Nasional, diperkirakan pada tahun 2024, proporsi penduduk lansia di Taiwan akan mendekati 20%, dan secara resmi akan memasuki masyarakat super-tua pada tahun 2025. Perubahan struktur sosial ini telah membuat masalah kesehatan fisik dan mental lansia yang tinggal sendiri menjadi fokus perhatian. Secara khusus, banyak lansia sering merasa kesepian dan khawatir akan kemungkinan meninggal sendirian di rumah. Tekanan psikologis ini tidak hanya memengaruhi kualitas hidup mereka, tetapi juga mengancam kesehatan fisik mereka.'
+canonicalURL: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
+url: /blog/help-seniors-who-live-at-home-alone-using-voicebot/
 ---
 
 Taiwan secara bertahap memasuki masyarakat super-tua, dengan jumlah lansia yang tinggal sendiri terus meningkat. Menurut data dari Dewan Pembangunan Nasional, diperkirakan pada tahun 2024, proporsi penduduk lansia di Taiwan akan mendekati 20%, dan secara resmi akan memasuki masyarakat super-tua pada tahun 2025. Perubahan struktur sosial ini telah membuat masalah kesehatan fisik dan mental lansia yang tinggal sendiri menjadi fokus perhatian. Secara khusus, banyak lansia sering merasa kesepian dan khawatir akan kemungkinan meninggal sendirian di rumah. Tekanan psikologis ini tidak hanya memengaruhi kualitas hidup mereka, tetapi juga mengancam kesehatan fisik mereka.

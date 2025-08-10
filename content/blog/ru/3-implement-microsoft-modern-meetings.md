@@ -2,16 +2,15 @@
 title: "От демонстрации к успеху: внедрение современных совещаний Microsoft и не только (1/5)"
 metatitle: "От демонстрации к успеху (1/5): за рамками современных совещаний Microsoft"
 date: 2021-07-19
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "В первой части этой серии блогов проследите за путем Seasalt.ai к созданию SeaMeet, наших совместных решений для современных совещаний."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/microsoft-modern-meetings/"
-url: "/blog/microsoft-modern-meetings/"
-aliases:
-  - blog/3-implementing-microsoft-modern-meetings-and-beyond/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/microsoft-modern-meetings/
+url: /blog/microsoft-modern-meetings/
 ---
 
 *На протяжении всей этой серии блогов следите за путем Seasalt.ai к созданию всестороннего опыта современных совещаний, начиная с его скромных начинаний, до оптимизации нашего сервиса на различном оборудовании и моделях, до интеграции самых современных систем НЛП и, наконец, до полной реализации SeaMeet, наших совместных решений для современных совещаний.*

@@ -1,17 +1,20 @@
 ---
 title: "Live-Rezeptionisten vs. automatisierte Anrufbeantworterdienste: Praktische Empfehlungen für kleine Unternehmen (4/5)"
 metatitle: "Live-Rezeptionisten vs. automatisierte Anrufbeantworterdienste"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "Vergleichen Sie Live-Rezeptionisten und automatisierte Anrufbeantworterdienste, um den Kundenservice und die Effizienz zu verbessern."
 weight: 1
-tags: ["Automatischer Anrufbeantworterdienst", "Eingehende Anrufe für kleine Unternehmen", "SeaChat", "Sprach-KI"]
-toc: true
+tags:
+  - Automatischer Anrufbeantworterdienst
+  - Eingehende Anrufe für kleine Unternehmen
+  - SeaChat
+  - Sprach-KI
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

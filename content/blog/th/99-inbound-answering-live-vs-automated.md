@@ -1,17 +1,20 @@
 ---
 title: "พนักงานต้อนรับสดเทียบกับบริการตอบรับอัตโนมัติ: คำแนะนำเชิงปฏิบัติสำหรับธุรกิจขนาดเล็ก (4/5)"
 metatitle: "พนักงานต้อนรับสดเทียบกับบริการตอบรับอัตโนมัติ"
-date: 2024-09-25T00:22:19-07:00
+date: 2024-09-25 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "เปรียบเทียบพนักงานต้อนรับสดและบริการตอบรับอัตโนมัติเพื่อเพิ่มประสิทธิภาพการบริการลูกค้าและประสิทธิภาพ"
 weight: 1
-tags: ["บริการตอบรับอัตโนมัติ", "สายเรียกเข้าสำหรับธุรกิจขนาดเล็ก", "SeaChat", "AI เสียง"]
-toc: true
+tags:
+  - บริการตอบรับอัตโนมัติ
+  - สายเรียกเข้าสำหรับธุรกิจขนาดเล็ก
+  - SeaChat
+  - AI เสียง
 image: /images/blog/99-inbound-answering-live-vs-automated/99-inbound-answering-live-vs-automated.svg
-canonicalURL: "/blog/inbound-answering-live-vs-automated/"
-url: "/blog/inbound-answering-live-vs-automated/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-live-vs-automated/
+url: /blog/inbound-answering-live-vs-automated/
 ---
 
 ---

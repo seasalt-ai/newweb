@@ -1,16 +1,20 @@
 ---
 title: "Apeluri inbound și outbound, agentul telefonic AI poate lucra pentru dvs. în ambele cazuri"
 metatitle: "Agent telefonic AI | Atât pentru apeluri inbound, cât și outbound"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descoperiți potențialul revoluționar al agenților telefonici AI în serviciul clienți și vânzări, transformând apelurile inbound și outbound pentru o eficiență sporită și o creștere a veniturilor.
+description: "Descoperiți potențialul revoluționar al agenților telefonici AI în serviciul clienți și vânzări, transformând apelurile inbound și outbound pentru o eficiență sporită și o creștere a veniturilor."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 În peisajul în continuă evoluție al serviciilor pentru clienți și al vânzărilor, agenții telefonici AI au apărut ca instrumente noi și eficiente pentru afaceri. Acești agenți inteligenți sunt proiectați să gestioneze atât apelurile inbound, cât și cele outbound, revoluționând interacțiunile cu clienții și generând venituri. Acest articol analizează diversele cazuri de utilizare ale agenților telefonici AI atât în apelurile inbound, cât și în cele outbound, evidențiind versatilitatea și potențialul lor de a transforma comunicațiile de afaceri.

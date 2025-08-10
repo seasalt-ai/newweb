@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 at ang Kahalagahan ng Pagtulay sa Agwat sa pagitan ng mga Modelo ng AI at Aplikasyon sa Negosyo"
 metatitle: "Meta Llama 3 | Pagtulay sa mga Modelo ng AI sa mga Aplikasyon sa Negosyo"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: Ang paglabas ng Llama 3 ng Meta AI ay nagbibigay-diin sa pangangailangan para sa mga solusyon na nagtutulay sa agwat sa pagitan ng makapangyarihang mga modelo ng AI at praktikal na mga aplikasyon sa negosyo. Alamin kung paano bumuo ang Seasalt.ai ng mga customized na produkto ng Conversational AI upang tulay ang agwat na ito at lutasin ang mga hamon sa totoong mundo.
+description: "Ang paglabas ng Llama 3 ng Meta AI ay nagbibigay-diin sa pangangailangan para sa mga solusyon na nagtutulay sa agwat sa pagitan ng makapangyarihang mga modelo ng AI at praktikal na mga aplikasyon sa negosyo. Alamin kung paano bumuo ang Seasalt.ai ng mga customized na produkto ng Conversational AI upang tulay ang agwat na ito at lutasin ang mga hamon sa totoong mundo."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI at Llama3

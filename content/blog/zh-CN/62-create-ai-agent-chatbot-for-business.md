@@ -1,17 +1,20 @@
 ---
 title: "如何为您的企业打造 24/7 电话连线的 AI 语音代理聊天机器人"
 metatitle: "打造 AI 语音代理 | 24/7 企业电话连线"
-date: 2023-12-24T10:25:00-08:00
-lastmod: 2024-12-19T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2024-12-19 10:25:00+00:00
 draft: false
 author: Xuchen Yao
-description: 探索开发 AI 语音代理聊天机器人的终极指南，并将其连接到全天候电话系统，提升客户服务品质。
+description: "探索开发 AI 语音代理聊天机器人的终极指南，并将其连接到全天候电话系统，提升客户服务品质。"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: "2024-12-19T10:25:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 在现今快节奏的世界，让我们来谈谈如何提升您的客户服务。打造一个 AI 语音代理聊天机器人并连接到 24x7 电话系统，这组合就像客户服务超级英雄，省时又省钱，还能让客户惊艳。一起展开这场精彩旅程吧！

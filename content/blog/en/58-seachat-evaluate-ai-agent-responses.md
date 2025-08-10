@@ -1,15 +1,19 @@
 ---
-title: "How to Evaluate AI Agent Responses: SeaChat's Review System for AI Agent Improvement and Control"
-metatitle: "Evaluate AI Agent Responses | SeaChat's Review System"
-date: 2023-12-20T10:25:00-08:00
+title: "How to Evaluate AI Agent Responses: SeaChat's AI Agent Improvement and Control System"
+metatitle: "How to Evaluate AI Agent Responses | SeaChat's Review System"
+date: 2023-12-20 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: "SeaChat lets you flag, review, and improve AI agent responses to enhance performance and customer experience."
+description: "SeaChat helps you mark, review, and improve AI Agent responses, enhancing performance and customer experience."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
-cacnonicalURL: "/blog/evaluate-ai-agent-responses/"
-url: "/blog/evaluate-ai-agent-responses/"
+canonicalURL: /blog/evaluate-ai-agent-responses/
+url: /blog/evaluate-ai-agent-responses/
 ---
 
 # Introduction
@@ -75,5 +79,4 @@ No, all flagged responses are not automatically removed from the system. Instead
 If the agent owner does not review flagged content, users may experience continued issues with problematic responses. However, SeaChat is designed to highlight unreviewed flagged content in the dashboard, prompting the agent owner to address them promptly. Regular review and improvement are encouraged for optimal performance and a seamless user experience.
 
 ### >> Use [SeaChat](https://chat.seasalt.ai/?utm_source=blog) today to leverage SeaChat AI agents for text and calls, 24x7, inbound and outbound. Free to start!
-
 

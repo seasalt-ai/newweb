@@ -1,18 +1,18 @@
 ---
 title: "如何製作精準回答的客製ChatGPT聊天機器人"
 metatitle: "如何製作精準回答的客製ChatGPT聊天機器人 | 用SeaChat做新一代聊天機器人系列"
-date: 2023-10-30T10:25:00-08:00
+date: 2023-10-30 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 如何打造精準回答問題的客製化ChatGPT機器人。從建立專業知識庫到實際開發過程，涵蓋知識點微調技巧，並透過SeaChat機器人案例展示成功實踐。為您提供一站式指南，助您輕鬆製作出高效、個性化的智能聊天機器人。
+description: "如何打造精準回答問題的客製化ChatGPT機器人。從建立專業知識庫到實際開發過程，涵蓋知識點微調技巧，並透過SeaChat機器人案例展示成功實踐。為您提供一站式指南，助您輕鬆製作出高效、個性化的智能聊天機器人。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
-canonicalURL: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-url: "/blog/make-chatgpt-bot-answer-better-by-knowledge/"
-aliases:
-    - "/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/"
-summary: "如何打造精準回答問題的客製化ChatGPT機器人。從建立專業知識庫到實際開發過程，涵蓋知識點微調技巧，並透過SeaChat機器人案例展示成功實踐。為您提供一站式指南，助您輕鬆製作出高效、個性化的智能聊天機器人。"
+canonicalURL: /blog/make-chatgpt-bot-answer-better-by-knowledge/
+url: /blog/make-chatgpt-bot-answer-better-by-knowledge/
 ---
 
 隨著科技的迅速發展，聊天機器人已成為各行各業不可或缺的工具。它們能夠提供即時回答，改善客戶服務體驗，並大幅減輕人工客服的負擔。本文將探討如何打造一個能夠精準回答問題的客製化ChatGPT機器人，特別著重於建立和微調知識庫，以及機器人製作的實際操作。

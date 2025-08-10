@@ -1,16 +1,19 @@
 ---
 title: "Cara Menambahkan Chatbot AI di Situs Web Squarespace Anda dengan SeaChat"
 metatitle: "SeaChat AI | Agen AI di Situs Web Squarespace Anda"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Maksimalkan keterlibatan pelanggan di Squarespace dengan AI SeaChat - sesuaikan, latih, pantau, dan perbarui chatbot Anda untuk dukungan pengunjung proaktif.
+description: "Maksimalkan keterlibatan pelanggan di Squarespace dengan AI SeaChat - sesuaikan, latih, pantau, dan perbarui chatbot Anda untuk dukungan pengunjung proaktif."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "Integrasi"]
+tags:
+  - SeaChat
+  - WhatsApp
+  - Integrasi
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 Dalam lanskap digital yang serba cepat saat ini, layanan pelanggan yang efektif dan keterlibatan pengguna sangat penting bagi bisnis. Pelanggan mengharapkan interaksi real-time, respons cepat, dan dukungan yang dipersonalisasi. Mengintegrasikan solusi obrolan ke situs web Anda dapat secara signifikan meningkatkan aspek-aspek ini. Dalam blog ini, kita akan menjelajahi cara menambahkan chatbot AI ke situs web Squarespace Anda dan merevolusi komunikasi pelanggan Anda.

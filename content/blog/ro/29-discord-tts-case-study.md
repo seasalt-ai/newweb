@@ -1,14 +1,15 @@
 ---
 title: "Text-to-Speech pe Discord: Un studiu de caz al botului TTS Discord"
-date: 2022-12-27T17:04:20-08:00
+date: 2022-12-27 17:04:20-08:00
+modified_date: 2025-08-01T12:00:00Z
 author: Kim Dodds
-description: În acest blog vom discuta constatările noastre despre modul în care utilizatorii reali Discord utilizează serviciile noastre după revizuirea mai multor luni de date autentice text-to-speech.
+description: "În acest blog vom discuta constatările noastre despre modul în care utilizatorii reali Discord utilizează serviciile noastre după revizuirea mai multor luni de date autentice text-to-speech."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-canonicalUrl: "/blog/discord-tts-case-study/"
-url: "/blog/discord-tts-case-study/"
-modified_date: "2025-08-01T12:00:00Z"
+url: /blog/discord-tts-case-study/
 ---
 
 *După lansarea SeaVoice, unul dintre cei mai rapizi și mai precisi roboți text-to-speech și speech-to-text de pe Discord, am vrut să înțelegem cum interacționau de fapt utilizatorii cu serviciile. În acest blog vom discuta constatările noastre după revizuirea mai multor luni de date reale ale utilizatorilor text-to-speech.*

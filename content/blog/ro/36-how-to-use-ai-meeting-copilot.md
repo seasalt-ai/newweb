@@ -1,17 +1,18 @@
 ---
 title: "Cum să îmbunătățiți eficiența întâlnirilor de echipă cu transcrieri în timp real și notițe AI?"
 metatitle: "Cum să îmbunătățiți eficiența întâlnirilor de echipă cu transcrieri în timp real și notițe AI?"
-date: 2023-10-02T10:25:00-08:00
+date: 2023-10-02 10:25:00-08:00
+modified_date: 2024-07-30 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice? Analiza în timp real a înregistrărilor întâlnirilor a devenit un instrument necesar pentru ca întreprinderile să îmbunătățească eficiența și calitatea comunicării. Prin analiza în timp real, companiile se pot asigura că fiecare discuție este înregistrată cu precizie, făcând procesul de luare a deciziilor mai eficient și mai precis.
+description: "Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice? Analiza în timp real a înregistrărilor întâlnirilor a devenit un instrument necesar pentru ca întreprinderile să îmbunătățească eficiența și calitatea comunicării. Prin analiza în timp real, companiile se pot asigura că fiecare discuție este înregistrată cu precizie, făcând procesul de luare a deciziilor mai eficient și mai precis."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/ro/blog/how-to-use-ai-meeting-copilot/"
-url: "/ro/blog/how-to-use-ai-meeting-copilot/"
-summary: "Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice?"
-modified_date: 2024-07-30T00:00:00Z
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice?

@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: 2025年哪種電子郵件行銷服務適合您？"
 metatitle: "ActiveCampaign vs. MailerLite | 電子郵件行銷服務 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign，哪種電子郵件服務適合您？我們的深入比較分析了功能、定價等。
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign，哪種電子郵件服務適合您？我們的深入比較分析了功能、定價等。"
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-07-28T00:00:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 您對電子郵件行銷感到好奇嗎？從尋找最佳電子郵件行銷軟體到制定成功的電子郵件行銷策略，這個多功能工具提供了無限的可能性。了解如何定位客戶、獲得電子郵件行銷工作以及利用電子郵件行銷自動化來推動業務成果。在我們深入探討所有這些細節之前，讓我們先幫助您選擇正確的電子郵件行銷工具。今天，我們將比較兩個流行的工具，[ActiveCampaign](https://www.activecampaign.com/) 和 [MailerLite](https://www.mailerlite.com/) 供您參考。

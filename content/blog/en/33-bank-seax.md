@@ -1,15 +1,17 @@
 ---
 title: "Customer Story: Empowering a Major Asia Bank to Deliver Multilingual and Privacy-focused Support to Customers"
 metatitle: "Asia Bank Provide Multilingual and Private Support with SeaX"
-date: 2023-06-28T11:25:00-08:00
+date: 2023-06-28 11:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: The blog describes how the deployment of an omni-channel contact center revolutionized the customer service landscape for a major private bank in Southeast Asia, enhancing agent performance through real-time speech transcriptions, data-driven insights, and robust data privacy measures.
+description: "The blog describes how the deployment of an omni-channel contact center revolutionized the customer service landscape for a major private bank in Southeast Asia, enhancing agent performance through real-time speech transcriptions, data-driven insights, and robust data privacy measures."
 weight: 1
-tags: ["SeaX", "Customer Story"]
+tags:
+  - SeaX
+  - Customer Story
 image: images/blog/33-bank-seax/33-bank-seax.jpeg
-canonicalURL: "/blog/bank-seax/"
-url: "/blog/bank-seax/"
+canonicalURL: /blog/bank-seax/
+url: /blog/bank-seax/
 ---
 
 

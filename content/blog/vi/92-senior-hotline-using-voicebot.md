@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Giải pháp thông minh đổi mới chăm sóc người cao tuổi bằng trợ lý giọng nói AI"
 metatitle: "SeaX + SeaChat: Đổi mới chăm sóc người cao tuổi thông qua trợ lý giọng nói AI - Ứng dụng thành công cuộc gọi chăm sóc thông minh"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Khám phá cách hệ thống trợ lý giọng nói AI SeaX + SeaChat được sử dụng để giải quyết các thách thức chăm sóc người cao tuổi trong xã hội siêu già hóa của Đài Loan. Tìm hiểu cách các cuộc gọi chăm sóc thông minh cải thiện chất lượng cuộc sống của người cao tuổi, cung cấp sự quan tâm kịp thời, đồng hành cảm xúc và theo dõi sức khỏe, đồng thời giải quyết vấn đề thiếu hụt lao động."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'Khi Đài Loan tiến tới một xã hội siêu già hóa, việc chăm sóc người cao tuổi đang đối mặt với những thách thức chưa từng có. Theo dữ liệu của Hội đồng Phát triển Quốc gia, tỷ lệ dân số cao tuổi của Đài Loan sẽ đạt gần 20% vào năm 2024 và dự kiến sẽ chính thức bước vào xã hội siêu già hóa vào năm 2025. Với những thay đổi trong cấu trúc dân số như vậy, làm thế nào để cung cấp hiệu quả sự quan tâm kịp thời, các dịch vụ đa dạng và giải quyết vấn đề thiếu hụt lao động đã trở thành ba thách thức lớn đối với ngành chăm sóc dài hạn hiện nay.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 Khi Đài Loan tiến tới một xã hội siêu già hóa, việc chăm sóc người cao tuổi đang đối mặt với những thách thức chưa từng có. Theo dữ liệu của Hội đồng Phát triển Quốc gia, tỷ lệ dân số cao tuổi của Đài Loan sẽ đạt gần 20% vào năm 2024 và dự kiến sẽ chính thức bước vào xã hội siêu già hóa vào năm 2025. Với những thay đổi trong cấu trúc dân số như vậy, làm thế nào để cung cấp hiệu quả sự quan tâm kịp thời, các dịch vụ đa dạng và giải quyết vấn đề thiếu hụt lao động đã trở thành ba thách thức lớn đối với ngành chăm sóc dài hạn hiện nay.

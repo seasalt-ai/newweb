@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: AI Voice Assistants Revolutionize Elderly Care"
 metatitle: "SeaX + SeaChat: Revolutionizing Elderly Care with AI Voice Assistants - Successful Application of Smart Care Calls"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Explore how the SeaX + SeaChat AI voice assistant system can address the challenges of elderly care in Taiwan's super-aging society. Learn how smart care calls improve the quality of life for seniors, providing immediate care, emotional companionship, and health monitoring, while also addressing labor shortages."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'As Taiwan transitions into a super-aging society, elderly care faces unprecedented challenges. According to data from the National Development Council, the proportion of the elderly population in Taiwan will approach 20% by 2024, and it is expected to officially enter a super-aging society by 2025. Given this demographic shift, how to effectively provide immediate care, diverse services, and address the issue of labor shortages has become the three major challenges currently facing the long-term care industry.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 As Taiwan transitions into a super-aging society, elderly care faces unprecedented challenges. According to data from the National Development Council, the proportion of the elderly population in Taiwan will approach 20% by 2024, and it is expected to officially enter a super-aging society by 2025. Given this demographic shift, how to effectively provide immediate care, diverse services, and address the issue of labor shortages has become the three major challenges currently facing the long-term care industry.

@@ -1,15 +1,17 @@
 ---
 title: "Ihr umfassender Leitfaden zur Audiokonvertierung: Sounddateien einfach konvertieren | Audio-Toolbox-Serie"
 metatitle: "Audiokonvertierung | Audio-Toolbox-Serie"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: Erfahren Sie mehr über Audiokonverter, die Konvertierung von Soundformaten und die beste kostenlose Audiokonverter-Software. Konvertieren Sie Audiodateien mühelos mit unserer Schritt-für-Schritt-Anleitung.
+description: "Erfahren Sie mehr über Audiokonverter, die Konvertierung von Soundformaten und die beste kostenlose Audiokonverter-Software. Konvertieren Sie Audiodateien mühelos mit unserer Schritt-für-Schritt-Anleitung."
 weight: 1
-tags: ["Audio-Toolbox", "AI-Tools"]
+tags:
+  - Audio-Toolbox
+  - AI-Tools
 image: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
-canonicalURL: "/blog/how-to-convert-audio-files-to-different-formats/"
-url: "/blog/how-to-convert-audio-files-to-different-formats/"
+canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
+url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
 # Einführung in die Audiokonvertierung

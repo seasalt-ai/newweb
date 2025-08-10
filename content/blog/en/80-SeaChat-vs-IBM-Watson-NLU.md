@@ -1,15 +1,19 @@
 ---
 title: "Upgrade Your Chat Experience: Why SeaChat Surpasses IBM Watson NLU"
 metatitle: "SeaChat vs. IBM Watson NLU"
-date: 2024-03-20T00:22:19-07:00
+date: 2024-03-20 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: Why is IBM Watson NLU outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations.
+description: "Why is IBM Watson NLU outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/80-SeaChat-vs-IBM-Watson-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-ibm-watson-nlu/"
-url: "/blog/seachat-vs-ibm-watson-nlu/"
+canonicalURL: /blog/seachat-vs-ibm-watson-nlu/
+url: /blog/seachat-vs-ibm-watson-nlu/
 ---
 
 Is your chatbot stuck on a deserted island of repetitive responses and unnatural dialogue? Are you yearning for a more engaging and human-like chat experience for your customers? Then it's time to set sail for the future with SeaChat, a powerful platform built on Large Language Models (LLMs). While [IBM Watson NLU](https://www.ibm.com/products/natural-language-understanding) has been a reliable tool for text analysis, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) offers a revolutionary approach to Conversational AI, leaving traditional NLU engines in its wake.

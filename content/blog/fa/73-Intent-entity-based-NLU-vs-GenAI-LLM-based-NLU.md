@@ -1,16 +1,21 @@
 ---
 title: "فهم زبان طبیعی مبتنی بر قصد/موجودیت در مقابل فهم زبان طبیعی مبتنی بر GenAI/LLM: تفاوت در میلیون‌ها (مثال و دلار)"
 metatitle: "فهم زبان طبیعی مبتنی بر قصد/موجودیت در مقابل فهم زبان طبیعی مبتنی بر GenAI/LLM"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
 description: آینده هوش مصنوعی مکالمه‌ای را باز کنید - چرا تغییر از NLU مبتنی بر قصد/موجودیت به GenAI/LLM برای مقیاس‌پذیری، کارایی هزینه و سازگاری بسیار مهم است."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 به همه مدیران خدمات مشتری یا بازاریابی، اگر رئیس شما سوال زیر را از شما پرسید، این مقاله را برای آنها ارسال کنید:

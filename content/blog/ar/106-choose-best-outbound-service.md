@@ -1,17 +1,20 @@
 ---
 title: "كيفية اختيار أفضل خدمة مكالمات صادرة: وكلاء مباشرون مقابل المتصلين التلقائيين مقابل الذكاء الاصطناعي الصوتي (5/5)"
 metatitle: "Seasalt.ai | اختر أفضل خدمة مكالمات صادرة"
-date: 2024-11-06T00:22:19-07:00
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-27 15:38:26+00:00
 draft: false
 author: Jun Mao
 description: "استكشف الوكلاء المباشرين والمتصلين التلقائيين والذكاء الاصطناعي الصوتي لاختيار أفضل حل للمكالمات الصادرة لاحتياجات عملك."
 weight: 1
-tags: ["خدمة التسويق عبر الهاتف التلقائي", "مكالمات صادرة للشركات الصغيرة", "المتصل التلقائي", "الذكاء الاصطناعي الصوتي"]
-toc: true
+tags:
+  - خدمة التسويق عبر الهاتف التلقائي
+  - مكالمات صادرة للشركات الصغيرة
+  - المتصل التلقائي
+  - الذكاء الاصطناعي الصوتي
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
-modified_date: 2025-07-27T15:38:26Z
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

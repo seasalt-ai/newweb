@@ -1,18 +1,17 @@
 ---
-author: Amy Chen, Kim Dodds, Sarah Reid
-canonicalURL: /blog/seax-bulk-sms/
+title: "پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری"
+metatitle: "پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری"
 date: 2022-09-09 11:05:22-07:00
-description: در این وبلاگ، ما نشان خواهیم داد که چگونه ویژگی پیامک انبوه SeaX به نمایندگان
-  اجازه می دهد تا به طور فعال پیام های خروجی را از طریق متن ارسال کنند.
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
-image: images/blog/24-seax-bulk-sms/thumbnail.png
-metatitle: 'پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری'
-modified_date: '2025-07-28T16:03:25.123456'
-tags:
-- SeaX
-title: 'پیامک انبوه SeaX: برای ارتباط سریعتر و موثرتر با مشتری'
-url: /blog/seax-bulk-sms/
+author: Amy Chen, Kim Dodds, Sarah Reid
+description: "در این وبلاگ، ما نشان خواهیم داد که چگونه ویژگی پیامک انبوه SeaX به نمایندگان اجازه می دهد تا به طور فعال پیام های خروجی را از طریق متن ارسال کنند."
 weight: 1
+tags:
+  - SeaX
+image: images/blog/24-seax-bulk-sms/thumbnail.png
+canonicalURL: /blog/seax-bulk-sms/
+url: /blog/seax-bulk-sms/
 ---
 
 

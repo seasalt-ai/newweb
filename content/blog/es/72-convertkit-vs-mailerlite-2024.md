@@ -1,16 +1,19 @@
 ---
 title: "Kit vs. MailerLite: ¿Qué servicio de email marketing es el adecuado para usted en 2025?"
 metatitle: "Kit (anteriormente llamado ConvertKit) vs. MailerLite | Servicio de Email Marketing 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. ConverKit, ¿qué servicio de correo electrónico es el adecuado para usted? Nuestra comparación en profundidad desglosa características, precios y más.
+description: "MailerLite vs. ConverKit, ¿qué servicio de correo electrónico es el adecuado para usted? Nuestra comparación en profundidad desglosa características, precios y más."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/convertkit-vs-mailerlite-2025/"
-url: "/blog/convertkit-vs-mailerlite-2025/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/convertkit-vs-mailerlite-2025/
+url: /blog/convertkit-vs-mailerlite-2025/
 ---
 
 Para sobresalir en el email marketing, necesita las herramientas adecuadas que puedan ahorrarle tiempo y esfuerzo sin agotar sus finanzas. Abundan las plataformas populares de email marketing y las opciones de software de email marketing, incluidos líderes de la industria como HubSpot, ConverKit, MailerLite, Mailchimp y otros. Cada uno ofrece una combinación única de características, precios y capacidades de automatización. Hoy, compararemos dos herramientas populares, [Kit (anteriormente llamado ConvertKit)](https://www.constantcontact.com/) y [MailerLite](https://www.mailerlite.com/) para sus consideraciones.

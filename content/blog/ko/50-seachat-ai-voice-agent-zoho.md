@@ -1,18 +1,20 @@
 ---
 title: "SeaChat과 Zoho Desk 지식 기반 통합으로 고객 지원 간소화"
 metatitle: "SeaChat과 Zoho Desk로 고객 지원 간소화"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChat의 AI 채팅 및 음성 에이전트가 Zoho Desk의 포괄적인 지식 기반과 통합되어 원활하고 효율적인 고객 지원을 제공하는 방법을 알아보십시오.
+description: "SeaChat의 AI 채팅 및 음성 에이전트가 Zoho Desk의 포괄적인 지식 기반과 통합되어 원활하고 효율적인 고객 지원을 제공하는 방법을 알아보십시오."
 weight: 1
-tags: ["SeaChat", "AI 도구", "통합", "고객 경험"]
+tags:
+  - SeaChat
+  - AI 도구
+  - 통합
+  - 고객 경험
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 오늘날 빠르게 진화하는 디지털 환경에서 기업은 고객 지원을 강화하고 정보 관리를 간소화하기 위한 혁신적인 솔루션을 지속적으로 모색하고 있습니다. SeaChat(고급 AI 채팅 및 음성 에이전트)과 Zoho Desk의 포괄적인 지식 기반의 통합은 이러한 과제에 대한 획기적인 솔루션을 제시합니다.

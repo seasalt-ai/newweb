@@ -1,16 +1,20 @@
 ---
 title: "چه کسی تماس می‌گیرد؟ کیفیت تماس را با عامل صوتی هوش مصنوعی شخصی‌سازی‌شده ارتقا دهید"
 metatitle: "کیفیت تماس را با عامل صوتی هوش مصنوعی شخصی‌سازی‌شده ارتقا دهید"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: آینده زمان‌بندی قرار ملاقات را با Voice AI Agent، راه‌حل ۲۴/۷ که هوش مصنوعی و پردازش زبان طبیعی را برای رزرو مؤثر و روان ادغام می‌کند، کشف کنید.
+description: "آینده زمان‌بندی قرار ملاقات را با Voice AI Agent، راه‌حل ۲۴/۷ که هوش مصنوعی و پردازش زبان طبیعی را برای رزرو مؤثر و روان ادغام می‌کند، کشف کنید."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 هنگام مدیریت برنامه شلوغ، هر تماس تلفنی اهمیت دارد. از معاملات مهم تجاری تا ارتباط با عزیزان، زندگی روزمره ما حول گفتگوهای معنادار می‌چرخد. با این حال، رسیدگی به تماس‌های ورودی متعدد می‌تواند طاقت‌فرسا و زمان‌بر باشد. اینجاست که عامل صوتی هوش مصنوعی شخصی‌سازی‌شده وارد عمل می‌شود.

@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: 2025 में कौन सा ईमेल मार्केटिंग सेवा आपके लिए सही है?"
 metatitle: "ActiveCampaign vs. MailerLite | ईमेल मार्केटिंग सेवा 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-01-27 10:30:00+00:00
 draft: false
-description: MailerLite vs. ActiveCampaign, कौन सा ईमेल सेवा आपके लिए सही है? हमारा गहन तुलना विश्लेषण सुविधाओं, मूल्य निर्धारण और अधिक को देखता है।
+author: Xuchen Yao
+description: "MailerLite vs. ActiveCampaign, कौन सा ईमेल सेवा आपके लिए सही है? हमारा गहन तुलना विश्लेषण सुविधाओं, मूल्य निर्धारण और अधिक को देखता है।"
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: 2025-01-27T10:30:00Z
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 क्या आप ईमेल मार्केटिंग के बारे में जिज्ञासु हैं? सर्वश्रेष्ठ ईमेल मार्केटिंग सॉफ्टवेयर खोजने से लेकर सफल ईमेल मार्केटिंग रणनीति बनाने तक, यह बहुमुखी उपकरण असीमित संभावनाएं प्रदान करता है। जानें कि ग्राहकों को कैसे लक्षित करें, ईमेल मार्केटिंग नौकरियां प्राप्त करें और व्यावसायिक परिणामों को बढ़ावा देने के लिए ईमेल मार्केटिंग ऑटोमेशन का लाभ उठाएं। हम इन सभी विवरणों में गहराई से जाने से पहले, आइए पहले आपको सही ईमेल मार्केटिंग उपकरण चुनने में मदद करें। आज, हम आपके संदर्भ के लिए दो लोकप्रिय उपकरणों, [ActiveCampaign](https://www.activecampaign.com/) और [MailerLite](https://www.mailerlite.com/) की तुलना करेंगे।

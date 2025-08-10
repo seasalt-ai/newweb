@@ -1,18 +1,17 @@
 ---
 title: "از نسخه آزمایشی تا موفقیت: درک جلسه (4/5)"
 metatitle: "از نسخه آزمایشی تا موفقیت (4/5): درک جلسه"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
+author: Kim Dodds
 description: "در این قسمت چهارم از این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد SeaMeet، راه حل های جلسات مدرن مشترک ما، دنبال کنید."
-tags: ["SeaMeet"]
 weight: 1
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *در طول این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد یک تجربه جلسات مدرن کامل، از آغاز فروتنانه آن، تا بهینه سازی خدمات ما بر روی سخت افزارها و مدل های مختلف، تا ادغام سیستم های پیشرفته NLP و در نهایت پایان دادن به تحقق کامل SeaMeet، راه حل های جلسات مدرن مشترک ما، دنبال کنید.*

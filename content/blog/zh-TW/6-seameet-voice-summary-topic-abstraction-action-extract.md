@@ -1,18 +1,17 @@
 ---
 title: "從演示到成功：會議洞察 (4/5)"
 metatitle: "從演示到成功 (4/5)：會議洞察"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Kim Dodds
 description: "在本博客系列的第四部分中，跟隨 Seasalt.ai 創建 SeaMeet 的旅程，這是我們的協作式現代會議解決方案。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *在本系列博客中，跟隨 Seasalt.ai 打造全面的現代會議體驗的旅程，從其卑微的開端，到在不同硬件和模型上優化我們的服務，再到集成最先進的自然語言處理系統，最終完全實現我們的協作式現代會議解決方案 SeaMeet。*

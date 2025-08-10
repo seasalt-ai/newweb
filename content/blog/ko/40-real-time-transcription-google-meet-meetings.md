@@ -1,19 +1,18 @@
 ---
 title: "실시간 전사 및 회의 분석이 Google Meet 회의를 어떻게 변화시키는가"
 metatitle: "실시간 전사 및 회의 분석이 Google Meet 회의를 어떻게 변화시키는가"
-date: 2023-10-09T10:25:00-08:00
+date: 2023-10-09 10:25:00-08:00
+modified_date: 2025-08-01 17:00:00-08:00
 draft: false
 author: Xuchen Yao
 description: "실시간 전사 및 회의 분석 기능은 회의 진행 방식을 변화시켰습니다. 회의 효율성을 높이고 즉각적인 통찰력을 제공하며 신속한 의사 결정을 촉진할 뿐만 아니라 참석자 참여를 강화하고 현대 비즈니스 회의의 성공을 보장합니다."
 weight: 1
-tags: ["SeaMeet", "AI 도구"]
+tags:
+  - SeaMeet
+  - AI 도구
 image: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
-canonicalURL: "/blog/real-time-transcription-google-meet-meetings/"
-url: "/blog/real-time-transcription-google-meet-meetings/"
-aliases:
-    - "/blog/40-why-is-real-time-transcription-important-google-meet-meetings/"
-summary: "실시간 전사 및 회의 분석 기능은 회의 진행 방식을 변화시켰습니다. 회의 효율성을 높이고 즉각적인 통찰력을 제공하며 신속한 의사 결정을 촉진할 뿐만 아니라 참석자 참여를 강화하고 현대 비즈니스 회의의 성공을 보장합니다."
-modified_date: 2025-08-01T17:00:00-08:00
+canonicalURL: /blog/real-time-transcription-google-meet-meetings/
+url: /blog/real-time-transcription-google-meet-meetings/
 ---
 
 현대 비즈니스 환경에서 회의는 팀워크와 의사 결정을 촉진하는 핵심 플랫폼입니다. 그러나 여러 병렬 회의와 바쁜 일정으로 인해 모든 회의와 동기화 상태를 유지하는 것이 점점 더 어려워지고 있습니다. 이러한 배경에서 실시간 전사 및 회의 분석의 필요성이 점점 더 두드러지고 있습니다. 이는 기존 회의 기록 방법의 한계를 극복하고 효과적인 회의 관리를 보장하는 솔루션을 제공하기 때문입니다.

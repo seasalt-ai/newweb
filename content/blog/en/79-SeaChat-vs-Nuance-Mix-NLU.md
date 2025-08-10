@@ -1,15 +1,20 @@
 ---
 title: "The Future of Conversational AI: SeaChat Replaces Nuance Mix NLU?"
 metatitle: "SeaChat vs. Nuance Mix NLU"
-date: 2024-03-19T00:22:19-07:00
+date: 2024-03-19 00:22:19-07:00
 draft: false
 author: Xuchen Yao
-description: Why is Nuance Mix NLU outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations.
+description: "Why is Nuance Mix NLU outdated? Discover SeaChat - Navigate away from repetitive chatbot shores with advanced LLM tech, fostering engaging, human-like conversations."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "Nuance Mix NLU", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - Nuance Mix NLU
+  - NLU
 image: /images/blog/79-SeaChat-vs-Nuance-Mix-NLU/blog-banner.png
-canonicalURL: "/blog/seachat-vs-nuance-mix-nlu/"
-url: "/blog/seachat-vs-nuance-mix-nlu/"
+canonicalURL: /blog/seachat-vs-nuance-mix-nlu/
+url: /blog/seachat-vs-nuance-mix-nlu/
 ---
 
 The world of Conversational AI is abuzz with innovation. While [Nuance Mix NLU](https://www.nuance.com/omni-channel-customer-engagement/ai-for-developers/nuance-mix.html) has established itself as a powerful tool for understanding user intent, the emergence of Large Language Models (LLMs) presents a compelling alternative. [SeaChat](https://chat.seasalt.ai/?utm_source=blog), a platform built on LLM technology, offers a glimpse into the potential future of Conversational AI.
@@ -67,5 +72,7 @@ Study has shown the difference of intent/entity based NLU vs. LLM-based NLU is [
 
 ## The Evolving Future of Conversational AI
 The landscape of Conversational AI is constantly evolving. While Nuance Mix NLU has been a leader, LLM-based solutions like [SeaChat](https://chat.seasalt.ai/?utm_source=blog) offer a glimpse into a future where natural language interactions are the norm. Staying informed about these developments is key to choosing the right tools for your Conversational AI journey.
+
+
 
 

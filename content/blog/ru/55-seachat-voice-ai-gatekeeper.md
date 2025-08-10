@@ -1,16 +1,20 @@
 ---
 title: "Экраны вызовов ИИ на Android и iPhone: Ваш личный помощник и привратник"
 metatitle: "Экраны вызовов ИИ | Личный помощник на Android и iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-07-28T16:03:25.123456
 draft: false
 author: Xuchen Yao
-description: Откройте для себя будущее управления вызовами с помощью ИИ-агента! От фильтрации спамеров до записи на прием — это ваш круглосуточный личный помощник и привратник.
+description: "Откройте для себя будущее управления вызовами с помощью ИИ-агента! От фильтрации спамеров до записи на прием — это ваш круглосуточный личный помощник и привратник."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-07-28T16:03:25.123456"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Вы когда-нибудь мечтали о личном помощнике, который мог бы обрабатывать ваши телефонные звонки, отсеивать спамеров и мошенников и даже записывать вас на прием? Не ищите дальше, потому что ИИ-агент для звонков может сделать все это и многое другое! Действуя как ваш бесплатный ресепшн и привратник, эта замечательная технология революционизирует управление звонками, гарантируя, что вы никогда не пропустите важный звонок и экономя ваше драгоценное время и душевное спокойствие.

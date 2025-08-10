@@ -1,16 +1,17 @@
 ---
 title: "Pengguna telah meninggalkan obrolan web: gunakan Pesan di Sekitar untuk mengirim pesan kepada mereka!"
 metatitle: "Pengguna telah meninggalkan obrolan web: hubungi kembali dengan Pesan di Sekitar!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Pesan di Sekitar memecahkan satu masalah obrolan web: hubungi kembali pengguna Anda bahkan *setelah* mereka meninggalkan percakapan."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 Pada pagi Natal tahun 2022, saya terbangun dan menemukan beberapa pesan yang ditinggalkan oleh pengguna bernama Henry. Saat saya membaca pesan-pesan itu, Henry sudah pergi. Yang saya dapatkan hanyalah pesan yang dia kirim melalui obrolan web, dan namanya.

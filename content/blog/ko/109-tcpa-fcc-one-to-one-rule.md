@@ -1,17 +1,19 @@
 ---
 title: "2025년 FCC의 새로운 일대일 동의 규칙에 대비하기 위해 알아야 할 모든 것"
 metatitle: "Seasalt.ai | 2025년 TCPA 규칙 변경 | 종합 가이드"
-date: 2025-01-05T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2025-01-05 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Amy Chen
 description: "2025년 TCPA 규칙 변경에 대한 심층 가이드로, 기업이 규정 준수를 보장하는 데 필요한 필수 정보를 제공합니다."
 weight: 1
-tags: ["TCPA", "Compliance", "2025 FCC Rule"]
-toc: true
+tags:
+  - TCPA
+  - Compliance
+  - 2025 FCC Rule
 image: /images/blog/109-tcpa-fcc-one-to-one-rule/109-tcpa-fcc-one-to-one-rule.png
-canonicalURL: "/blog/tcpa-fcc-one-to-one-rule-2025/"
-url: "/blog/tcpa-fcc-one-to-one-rule-2025/"
+canonicalURL: /blog/tcpa-fcc-one-to-one-rule-2025/
+url: /blog/tcpa-fcc-one-to-one-rule-2025/
 ---
 
 **이 기사는 법률 자문이 아닙니다. 자세한 내용은 법률 고문과 상담하십시오.**

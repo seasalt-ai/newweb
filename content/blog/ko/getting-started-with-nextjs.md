@@ -12,6 +12,8 @@ tags:
 - Web Development
 - Frameworks
 title: 'Next.js 시작하기: 초보자를 위한 가이드'
+canonicalURL: blog/getting-started-with-nextjs/
+url: blog/getting-started-with-nextjs/
 ---
 
 

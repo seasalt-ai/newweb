@@ -1,16 +1,18 @@
 ---
 title: "客製ChatGPT聊天機器人，同時支援LINE和網頁機器人"
 metatitle: "客製ChatGPT聊天機器人，同時支援LINE和網頁機器人 | 用SeaChat做新一代聊天機器人系列"
-date: 2023-10-26T10:25:00-08:00
+date: 2023-10-26 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 客製化ChatGPT機器人如何顛覆傳統的客服模式，並帶來了更人性化、更高效的客戶服務體驗。透過深入分析和實例展示，我們展示了如何利用這項新技術來提升客戶滿意度，並為企業在 瞬息萬變的市場環境中保持競爭力。企業可以了解到，通過快速部署和有效利用客製化ChatGPT機器人，能提供持續、及時客戶支持，成為新時代客服的關鍵要素。
+description: "客製化ChatGPT機器人如何顛覆傳統的客服模式，並帶來了更人性化、更高效的客戶服務體驗。透過深入分析和實例展示，我們展示了如何利用這項新技術來提升客戶滿意度，並為企業在 瞬息萬變的市場環境中保持競爭力。企業可以了解到，通過快速部署和有效利用客製化ChatGPT機器人，能提供持續、及時客戶支持，成為新時代客服的關鍵要素。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "客製化ChatGPT機器人如何顛覆傳統的客服模式，並帶來了更人性化、更高效的客戶服務體驗。透過深入分析和實例展示，我們展示了如何利用這項新技術來提升客戶滿意度，並為企業在 瞬息萬變的市場環境中保持競爭力。企業可以了解到，通過快速部署和有效利用客製化ChatGPT機器人，能提供持續、及時用戶支持，成為新時代客服的關鍵要素。"
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 在當今快節奏的數位時代，聊天機器人已經成為企業和組織的不可或缺的工具。這些智能對話機器人能夠模擬自然對話，並為用戶提供即時的支援和解答。無論是在客戶服務、銷售、還是其他領域，聊天機器人已經證明了它們的價值。

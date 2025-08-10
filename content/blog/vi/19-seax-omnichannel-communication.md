@@ -1,15 +1,16 @@
 ---
 title: "Đưa khách hàng từ mọi kênh về một nơi với giao tiếp đa kênh SeaX"
 metatitle: "Hợp nhất liên hệ khách hàng với giao tiếp đa kênh SeaX"
-date: 2022-07-15T13:56:54-07:00
-author: Kim Dodds 
+date: 2022-07-15 13:56:54-07:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "Trong blog này, chúng tôi tập trung vào một trong những giao tiếp đa kênh của SeaX, cho phép các tin nhắn của người dùng từ bất kỳ kênh nào được hiển thị trên nền tảng SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *Trong bài đăng blog trước của chúng tôi, [Chào mừng đến với SeaX, một Trung tâm liên lạc đám mây hợp tác](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/), chúng tôi đã giới thiệu giải pháp trung tâm liên lạc đám mây hợp tác của mình, SeaX. Trong khi bài đăng blog đầu tiên của chúng tôi đã cung cấp một cái nhìn tổng quan toàn diện về chức năng cơ bản và các tính năng nâng cao hơn của SeaX, các bài đăng tiếp theo của chúng tôi sẽ đi sâu hơn vào một số tính năng riêng lẻ làm cho SeaX nổi bật. Trong bài đăng này, chúng tôi sẽ xem xét kỹ hơn về hỗ trợ đa kênh của SeaX và xem cách các cuộc gọi và tin nhắn từ các kênh khác nhau được hiển thị trên nền tảng SeaX.*

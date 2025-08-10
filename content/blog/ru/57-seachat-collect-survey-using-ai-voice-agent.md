@@ -1,16 +1,20 @@
 ---
 title: "Легкий сбор опросов с помощью голосового ИИ-агента"
 metatitle: "Легкий сбор опросов с помощью голосового ИИ-агента"
-date: 2023-12-19T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2023-12-19 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Откройте для себя будущее создания опросов с помощью голосового ИИ-агента! Легко создавайте высококачественные вопросы, улучшайте пользовательский опыт и повышайте процент ответов. Попрощайтесь с ручной работой!
+description: "Откройте для себя будущее создания опросов с помощью голосового ИИ-агента! Легко создавайте высококачественные вопросы, улучшайте пользовательский опыт и повышайте процент ответов. Попрощайтесь с ручной работой!"
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
-canonicalURL: "blog/seachat-collect-survey-using-ai-voice-agent/"
-url: "blog/seachat-collect-survey-using-ai-voice-agent/"
+canonicalURL: blog/seachat-collect-survey-using-ai-voice-agent/
+url: blog/seachat-collect-survey-using-ai-voice-agent/
 ---
 
 # Введение

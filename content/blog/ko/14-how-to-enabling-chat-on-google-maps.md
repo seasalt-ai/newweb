@@ -1,18 +1,17 @@
 ---
 title: "Google 지도에서 고객과 연결하기 위한 채팅 활성화의 궁극적인 가이드"
 metatitle: "Google 지도에서 채팅 활성화의 궁극적인 가이드"
-date: 2022-04-29T20:39:13-07:00
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "이 블로그에서는 고객과 더 잘 연결하기 위해 Google Maps 채팅을 활성화하는 세 가지 다른 방법을 살펴보겠습니다."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
-modified_date: 2025-07-28T00:00:00Z
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *Google Maps 채팅은 기업이 고객과 연결하기 위한 좋은 방법입니다. Google Maps 채팅을 활성화하는 방법에는 Google Business Profile을 사용하는 수동적인 방법, Google Business Messages를 사용하는 자동적인 방법, 그리고 Near Me Messaging을 통해 두 가지 장점을 모두 취하는 방법이 있습니다. 이 블로그에서는 이 세 가지 다른 방법으로 Google Maps 채팅을 활성화하는 방법을 안내합니다.*

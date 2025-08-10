@@ -1,16 +1,17 @@
 ---
 title: "SeaX 音声インテリジェンスでコンタクトセンターに独自の音声を与える"
 metatitle: "SeaX 音声インテリジェンスでコンタクトセンターを話させる"
-date: 2022-08-02T17:24:00-07:00
+date: 2022-08-02 17:24:00-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Kim Dodds, Cody Kim, Xuchen Yao, Guoguo Chen
-image: /images/blog/21-seax-voice-intelligence/thumbnail.png
 description: "このブログでは、Seasalt.aiの社内テキスト読み上げおよび音声認識エンジンがSeaXプラットフォームのさまざまな側面をどのように強化できるかを示します。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-voice-intelligence/"
-url: "/blog/seax-voice-intelligence/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: /images/blog/21-seax-voice-intelligence/thumbnail.png
+canonicalURL: /blog/seax-voice-intelligence/
+url: /blog/seax-voice-intelligence/
 ---
 
 *これまでの[SeaXブログシリーズ](https://seasalt.ai/tags/seax/)では、Seasalt.aiの主力製品であるSeaXの概要を広く説明してきました。また、SeaXを従来のコールセンターと区別する2つの主要な機能についても議論しました。1つ目は、SeaXがオムニチャネルであること、つまり、どのチャネルでも顧客とより簡単にやり取りできること、2つ目は、このプラットフォームが分散型コンタクトセンターであること、これにより、世界中の顧客からのメッセージや通話を、さまざまな場所にある分散型エージェントにシームレスにルーティングできることです。*

@@ -1,17 +1,16 @@
 ---
 title: "Bun venit la SeaX, un centru de contact cloud colaborativ"
-date: 2022-06-22T18:21:32Z
-author: Sarah Reid
+date: 2022-06-22 18:21:32+00:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
-image: "images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png"
+author: Sarah Reid
 description: "În acest blog vom prezenta SeaX, soluția noastră de centru de contact pentru comunicații în cloud. Acesta este primul dintr-o serie de bloguri care vor prezenta SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-collab-cloud-contact-center-intro/"
-url: "/blog/seax-collab-cloud-contact-center-intro/"
-aliases: 
-  - /blog/18-seax-collaborative-cloud-contact-center-introduction/
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+image: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+canonicalURL: /blog/seax-collab-cloud-contact-center-intro/
+url: /blog/seax-collab-cloud-contact-center-intro/
 ---
 
 *În acest blog vom prezenta SeaX, soluția noastră de centru de contact pentru comunicații în cloud. Acesta este primul dintr-o serie de bloguri care vor prezenta și vor arăta în profunzime caracteristicile SeaX.*

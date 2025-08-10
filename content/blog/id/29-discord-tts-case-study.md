@@ -1,19 +1,16 @@
 ---
-author: Kim Dodds
-canonicalUrl: /blog/discord-tts-case-study/
+title: "Teks-ke-Suara di Discord: Studi Kasus Bot Discord TTS"
+metatitle: "Teks-ke-Suara di Discord: Studi Kasus Bot Discord TTS"
 date: 2022-12-27 17:04:20-08:00
-description: Dalam blog ini kita akan membahas temuan kami tentang bagaimana pengguna
-  Discord nyata memanfaatkan layanan kami setelah meninjau data teks-ke-suara otentik
-  selama beberapa bulan.
-image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
-metatitle: 'Teks-ke-Suara di Discord: Studi Kasus Bot Discord TTS'
 modified_date: 2025-07-29 20:45:17+00:00
-tags:
-- SeaVoice
-- Discord
-title: 'Teks-ke-Suara di Discord: Studi Kasus Bot Discord TTS'
-url: /blog/discord-tts-case-study/
+author: Kim Dodds
+description: "Dalam blog ini kita akan membahas temuan kami tentang bagaimana pengguna Discord nyata memanfaatkan layanan kami setelah meninjau data teks-ke-suara otentik selama beberapa bulan."
 weight: 1
+tags:
+  - SeaVoice
+  - Discord
+image: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+url: /blog/discord-tts-case-study/
 ---
 
 

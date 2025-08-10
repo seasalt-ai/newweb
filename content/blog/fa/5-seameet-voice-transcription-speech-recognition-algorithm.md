@@ -1,18 +1,17 @@
 ---
 title: "از دمو تا موفقیت: پیشرفت‌های الگوریتم‌های صوتی جلسات مدرن (۳/۵)"
 metatitle: "از دمو تا موفقیت (۳/۵): پیشرفت‌های الگوریتم‌های صوتی جلسات مدرن"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "در بخش سوم این سری وبلاگ، سفر Seasalt.ai در ایجاد راه‌حل جلسات مدرن SeaMeet را دنبال کنید."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 در این سری وبلاگ، سفر Seasalt.ai در ایجاد تجربه کامل جلسات مدرن را دنبال کنید، از شروع اولیه، تا بهینه‌سازی روی سخت‌افزارها و مدل‌های مختلف، تا ادغام پیشرفته‌ترین سیستم‌های NLP، و در نهایت تحقق راه‌حل جلسات مدرن SeaMeet.

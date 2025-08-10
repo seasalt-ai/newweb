@@ -1,18 +1,17 @@
 ---
 title: "Владельцы бизнеса: Используйте Google Business Messages для взаимодействия с клиентами в нерабочее время!"
 metatitle: "Используйте Google Business Messages для взаимодействия с клиентами в нерабочее время!"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-01-27T10:30:00Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-01-27T10:30:00Z
 draft: false
+author: Ruli Setiawati
 description: "Хотя Google Business Profile позволяет владельцам бизнеса общаться напрямую с клиентами, Google Business Messages позволяет интегрировать виртуальное обслуживание клиентов."
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *Узнайте больше о преимуществах и ограничениях Google Business Messages и о том, как компании внедряют Google Business Messages.*

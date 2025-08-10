@@ -1,18 +1,18 @@
 ---
 title: "Automatizarea centrului de contact condusă de AI: colaborarea între agenții virtuali și CRM"
 metatitle: "Centrul de contact SeaX: automatizarea agenților virtuali cu integrarea CRM"
-date: 2022-01-26T18:21:40Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
+author: Sarah Reid
 description: "Acest blog explorează cum să integrezi CRM-uri precum HubSpot în centrul de contact SeaX, permițându-ți acces direct la toate informațiile și instrumentele."
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
-modified_date: 2024-12-19T10:30:00Z
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## Integrarea HubSpot în SeaX

@@ -1,16 +1,20 @@
 ---
 title: "Deschizând noi orizonturi: De ce SeaChat depășește SAP Conversational AI în crearea de chatboți captivanți"
 metatitle: "SeaChat vs SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2024-07-28T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2024-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
 description: "De ce SAP Conversational AI este depășit? Descoperiți SeaChat - depășiți dilema chatbot-ului repetitiv cu tehnologia avansată LLM, cultivând conversații captivante, asemănătoare cu cele umane."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 Peisajul AI conversaționale este în schimbare. Deși [SAP Conversational AI](https://cai.tools.sap/) a fost o alegere populară pentru construirea de chatboți de întreprindere, un nou val de tehnologie ocupă centrul scenei: Modelele Lingvistice Mari (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog) este o platformă construită pe tehnologia LLM, oferind o abordare revoluționară care depășește limitările motoarelor bazate pe reguli, cum ar fi SAP Conversational AI. Sunteți gata să navigați spre o experiență de chatbot mai captivantă?

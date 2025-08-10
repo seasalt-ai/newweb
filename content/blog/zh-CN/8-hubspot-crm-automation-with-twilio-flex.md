@@ -1,19 +1,18 @@
 ---
 title: "人工智能联络中心自动化：虚拟座席与CRM的协作"
 metatitle: "SeaX 联络中心：虚拟座席与CRM的自动化"
-date: 2022-01-26T18:21:40Z
-modified_date: 2025-08-05T17:03:34.567Z
-author: Sarah Reid
-image: "images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png"
+date: 2022-01-26 18:21:40+00:00
+modified_date: 2025-08-05 17:03:34.567000+00:00
 draft: false
+author: Sarah Reid
 description: "在本博客中，我们将探讨如何将 HubSpot 等 CRM 集成到 SeaX 联络中心，让您可以直接访问所有信息和工具。"
-tags: ["HubSpot", "SeaX"]
-weight: 1  
-canonicalURL: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-url: "/blog/hubspot-crm-integration-automation-with-twilio-flex/"
-aliases: 
-  - /blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/
-lang: zh-CN
+weight: 1
+tags:
+  - HubSpot
+  - SeaX
+image: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+canonicalURL: /blog/hubspot-crm-integration-automation-with-twilio-flex/
+url: /blog/hubspot-crm-integration-automation-with-twilio-flex/
 ---
 
 ## 将 HubSpot 与 SeaX 集成

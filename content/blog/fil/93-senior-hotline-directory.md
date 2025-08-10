@@ -1,17 +1,18 @@
 ---
 title: "Pagsasaayos ng Mga Mapagkukunan ng Pangangalaga sa Matatanda sa Taiwan: Paano Makakuha ng Tulong sa Pamamagitan ng Telepono sa Iba't Ibang Lungsod at County"
 metatitle: "Gabay sa Mga Mapagkukunan ng Pangangalaga sa Matatanda sa Taiwan: Mga Hotline at Serbisyo ng Suporta para sa Matatanda sa Iba't Ibang Lungsod at County"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Galugarin ang mga mapagkukunan ng pangangalaga sa matatanda sa iba't ibang lungsod at county sa Taiwan, kabilang ang mga hotline ng pangangalaga, emergency hotline, at serbisyo ng suporta sa lipunan. At alamin kung paano pinapabuti ng mga makabagong solusyon ng Seasalt.ai ang kahusayan ng mga serbisyo ng pangangalaga sa matatanda."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: "Sa paglala ng pagtanda ng lipunan, nagiging mas mahalaga ang pagkuha ng madaling ma-access na mga hotline ng pangangalaga sa matatanda at serbisyo ng pangangalaga sa matatanda. Sa pagtaas ng populasyon ng matatanda, mahalaga na magkaroon ng maaasahang mapagkukunan upang magbigay ng agarang tulong at patuloy na suporta. Ang pagsasaayos na ito ay naglalayong tulungan ang mga matatanda at kanilang mga pamilya na madaling mahanap ang mga mapagkukunan ng pangangalaga na kailangan nila sa iba't ibang lungsod at county sa Taiwan."
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 Sa paglala ng pagtanda ng lipunan, nagiging mas mahalaga ang pagkuha ng madaling ma-access na mga hotline ng pangangalaga sa matatanda at serbisyo ng pangangalaga sa matatanda. Sa pagtaas ng populasyon ng matatanda, mahalaga na magkaroon ng maaasahang mapagkukunan upang magbigay ng agarang tulong at patuloy na suporta. Ang pagsasaayos na ito ay naglalayong tulungan ang mga matatanda at kanilang mga pamilya na madaling mahanap ang mga mapagkukunan ng pangangalaga na kailangan nila sa iba't ibang lungsod at county sa Taiwan.

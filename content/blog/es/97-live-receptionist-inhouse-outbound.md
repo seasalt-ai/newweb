@@ -1,17 +1,20 @@
 ---
 title: "Subcontratación de recepcionistas en vivo vs. internos: Recomendaciones prácticas para empresas (2/5)"
 metatitle: "Subcontratación de recepcionistas en vivo vs. internos"
-date: 2024-09-12T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-09-12 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Compare recepcionistas en vivo con personal interno: costos, beneficios y conocimientos clave del negocio."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *Esta es una serie de 5 artículos que exploran estrategias de comunicación con el cliente para pequeñas empresas, centrándose en los servicios de contestación:*

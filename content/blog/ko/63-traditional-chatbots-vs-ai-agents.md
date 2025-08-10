@@ -1,16 +1,20 @@
 ---
 title: "비즈니스가 챗봇에 대해 알아야 할 사항: 기존 챗봇에서 LLM 에이전트로의 여정"
 metatitle: "기존 챗봇에서 LLM 에이전트로의 여정"
-date: 2023-12-26T10:25:00-08:00
-modified_date: "2025-07-31T12:00:00Z"
+date: 2023-12-26 10:25:00-08:00
+modified_date: 2025-07-31T12:00:00Z
 draft: false
 author: Xuchen Yao
 description: "LLM 기반 채팅 에이전트는 복잡한 기술 기술이 필요 없고 기존 시스템과 원활하게 통합되는 고객 상호 작용을 위한 쉽고 효율적인 솔루션을 기업에 제공합니다."
 weight: 1
-tags: ["SeaChat", "음성 에이전트", "AI 도구", "고객 경험"]
+tags:
+  - SeaChat
+  - 음성 에이전트
+  - AI 도구
+  - 고객 경험
 image: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
-canonicalURL: "/blog/traditional-chatbots-vs-ai-agents/"
-url: "/blog/traditional-chatbots-vs-ai-agents/"
+canonicalURL: /blog/traditional-chatbots-vs-ai-agents/
+url: /blog/traditional-chatbots-vs-ai-agents/
 ---
 
 비즈니스 소유자에게 고객 상호 작용을 간소화하는 것은 매우 중요합니다. LLM 기반 채팅 에이전트는 광범위한 기술 기술이 필요 없는 혁신적이고 사용자 친화적인 솔루션을 제공합니다.

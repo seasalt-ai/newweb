@@ -1,18 +1,21 @@
 ---
 title: "SeaChat vs Microsoft Bot Framework vs Azure Bot Services(LUIS.ai)"
 metatitle: "SeaChat vs. Microsoft Framework vs. Azure Services"
-date: 2024-03-21T00:22:19-07:00
+date: 2024-03-21 00:22:19-07:00
 modified_date: 2024-06-09
 draft: false
 author: Xuchen Yao
-description: Warum sind Microsoft Bot Framework und Azure Bot Services (LUIS.ai) veraltet? Entdecken Sie SeaChat – Verlassen Sie die Welt der repetitiven Chatbots mit fortschrittlicher LLM-Technologie und erleben Sie menschliche, ansprechende Gespräche.
+description: "Warum sind Microsoft Bot Framework und Azure Bot Services (LUIS.ai) veraltet? Entdecken Sie SeaChat – Verlassen Sie die Welt der repetitiven Chatbots mit fortschrittlicher LLM-Technologie und erleben Sie menschliche, ansprechende Gespräche."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LLM", "Conversational AI", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LLM
+  - Conversational AI
+  - NLU
 image: /images/blog/74-SeaChat-vs-Microsoft-Bot-Framework-vs-Azure-Bot-Service-vs-luis-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-url: "/blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/"
-aliases:
-    - "/blog/74-seachat-vs-microsoft-bot-framework-vs-azure-bot-service-vs-luis-ai/"
+canonicalURL: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
+url: /blog/seachat-vs-microsoft-framework-vs-azure-service-vs-luis-ai/
 ---
 
 Die Welt der Conversational AI ist in Aufruhr angesichts der jüngsten Nachrichten über die vertiefte Partnerschaft zwischen Microsoft und OpenAI. Während einige das Potenzial dieser Allianz feiern, gibt es innerhalb von Microsoft selbst Bedenken. Interne Quellen berichten von der Sorge, dass die interne KI-Entwicklung zugunsten der OpenAI-Produkte vernachlässigt wird.

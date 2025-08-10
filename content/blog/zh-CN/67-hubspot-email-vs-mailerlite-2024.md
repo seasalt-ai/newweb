@@ -1,16 +1,19 @@
 ---
 title: "Hubspot vs. MailerLite：2025 年哪种电子邮件营销服务适合您？"
 metatitle: "Hubspot vs. MailerLite | 2025 年电子邮件营销服务"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: 使用正确的平台扩展您的营销。我们的 HubSpot 与 MailerLite 比较揭示了提升参与度、简化工作流程并为您省钱的最佳工具。
+description: "使用正确的平台扩展您的营销。我们的 HubSpot 与 MailerLite 比较揭示了提升参与度、简化工作流程并为您省钱的最佳工具。"
 weight: 1
-tags: ["SeaChat", "电子商务", "电子邮件营销"]
+tags:
+  - SeaChat
+  - 电子商务
+  - 电子邮件营销
 image: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/hubspot-email-vs-mailerlite/"
-url: "/blog/hubspot-email-vs-mailerlite/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/hubspot-email-vs-mailerlite/
+url: /blog/hubspot-email-vs-mailerlite/
 ---
 
 要在电子邮件营销方面表现出色，您需要正确的工具，这些工具可以在不耗尽您钱包的情况下节省您的时间和精力。流行的电子邮件营销平台和电子邮件营销软件选项比比皆是，包括 HubSpot、MailerLite、Mailchimp 等行业领导者。每个都提供功能、定价和自动化功能的独特组合。今天，我们将比较两种流行的工具，[Hubspot (Marketing Hub)](https://www.hubspot.com/products/marketing/professional) 和 [MailerLite](https://www.mailerlite.com/) 供您参考。

@@ -1,16 +1,21 @@
 ---
 title: "基于意图/实体 NLU 与基于 GenAI/LLM NLU：数百万（示例和美元）的差异"
 metatitle: "基于意图/实体 NLU 与基于 GenAI/LLM NLU"
-date: 2024-03-14T00:22:19-07:00
+date: 2024-03-14 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 开启对话式 AI 的未来——为什么从基于意图/实体的 NLU 转向基于 GenAI/LLM 的 NLU 对于可扩展性、成本效益和适应性至关重要。"
+description: "开启对话式 AI 的未来——为什么从基于意图/实体的 NLU 转向基于 GenAI/LLM 的 NLU 对于可扩展性、成本效益和适应性至关重要。\""
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience", "Customer Story", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
+  - Customer Story
+  - NLU
 image: /images/blog/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU/73-Intent-entity-based-NLU-vs-GenAI-LLM-based-NLU.png
-canonicalURL: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-url: "/blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
+url: /blog/intent-entity-based-nlu-vs-genai-llm-based-nlu/
 ---
 
 致所有客户服务或营销总监，如果您的老板问您以下问题，请将此文章发送给他们：

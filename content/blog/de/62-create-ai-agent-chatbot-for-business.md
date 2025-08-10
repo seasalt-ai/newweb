@@ -1,16 +1,20 @@
 ---
 title: "Wie Sie einen AI-Sprachassistenten-Chatbot für Ihr Unternehmen erstellen"
 metatitle: "Erstellen Sie einen AI-Sprachassistenten-Chatbot für Ihr Unternehmen"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Xuchen Yao
 description: "Entdecken Sie den ultimativen Leitfaden zur Entwicklung von AI-Sprachassistenten-Chatbots und deren Verbindung mit 24/7-Telefonsystemen zur Verbesserung der Kundenbetreuung."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-modified_date: 2024-12-19T10:30:00Z
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 In der heutigen schnelllebigen Welt sprechen wir darüber, wie Sie Ihren Kundenservice verbessern können. Einen AI-Sprachassistenten-Chatbot zu erstellen und mit einem 24x7-Telefonsystem zu verbinden, ist wie ein Kundenservice-Superheld - spart Zeit und Geld und begeistert Ihre Kunden. Lassen Sie uns auf diese aufregende Reise gehen!

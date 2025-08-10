@@ -1,16 +1,20 @@
 ---
 title: "Agente de IA de Voz: Revolucionando la reserva de citas 24/7"
 metatitle: "Agente de IA de Voz: Revolucionando la reserva de citas 24/7"
-date: 2023-12-15T10:25:00-08:00
+date: 2023-12-15 10:25:00-08:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Xuchen Yao
-description: Explore el futuro de la programación de citas con el Agente de IA de Voz, una solución 24/7 que integra la IA y el procesamiento del lenguaje natural para una reserva de citas eficiente y fluida.
+description: "Explore el futuro de la programación de citas con el Agente de IA de Voz, una solución 24/7 que integra la IA y el procesamiento del lenguaje natural para una reserva de citas eficiente y fluida."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
-canonicalURL: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-url: "/blog/seachat-voice-ai-agent-for-appointment-booking/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-voice-ai-agent-for-appointment-booking/
+url: /blog/seachat-voice-ai-agent-for-appointment-booking/
 ---
 
 # Introducción

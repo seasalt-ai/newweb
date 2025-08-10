@@ -1,17 +1,20 @@
 ---
 title: "La nouvelle technologie vocale d'OpenAI peut-elle remplacer votre réponse vocale interactive (RVI) ?"
 metatitle: "La nouvelle technologie vocale d'OpenAI peut-elle remplacer votre RVI ?"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "Découvrez si la nouvelle technologie vocale d'OpenAI peut remplacer votre système de réponse vocale interactive actuel."
 weight: 1
-tags: ["Service de réponse automatique", "Appels entrants pour les petites entreprises", "SeaChat", "IA vocale"]
-toc: true
+tags:
+  - Service de réponse automatique
+  - Appels entrants pour les petites entreprises
+  - SeaChat
+  - IA vocale
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 Vous avez peut-être entendu parler de la nouvelle technologie vocale passionnante d'OpenAI qui semble incroyablement humaine. Les démos sont incroyables. L'agent vocal d'OpenAI est intelligent, naturel et gère très bien les interruptions. Mais est-il prêt à remplacer votre système de réponse vocale interactive actuel ? Ou, si vous avez déjà acheté un service de robot vocal, pouvez-vous le remplacer par l'assistant vocal d'OpenAI pour servir vos clients ? Analysons cela en termes simples.

@@ -1,17 +1,19 @@
 ---
 title: "LINE自動化回應秘訣：如何將SeaChat與LINE自動回應無縫整合"
 metatitle: "LINE自動化回應秘訣：如何將SeaChat與LINE自動回應無縫整合"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
+date: 2024-04-04 00:22:19-07:00
 draft: false
 author: Yuga Chen
-description: LINE自動回覆解決方案！LINE的自動回應訊息功能即將停止服務，使用SeaChat，智能AI助理讓您的客戶對話更順暢，並提供全面的客戶服務解決方案。
+description: "LINE自動回覆解決方案！LINE的自動回應訊息功能即將停止服務，使用SeaChat，智能AI助理讓您的客戶對話更順暢，並提供全面的客戶服務解決方案。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: '想讓LINE成為你品牌的超級助手？當客戶越來越多，一個人忙不過來時，無法一則一則回應客人，而LINE推出的[「自動回覆機器人」](https://line-tw-official.weblog.to/archives/85582088.html)好像可以滿足這個惱人的問題! 無論是歡迎新朋友，還是關鍵字回答，好像輕鬆多了，對吧？ '
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # 甚麼是LINE自動回覆?

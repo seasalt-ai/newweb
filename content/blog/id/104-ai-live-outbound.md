@@ -1,17 +1,20 @@
 ---
 title: "Agen Panggilan Manusia Langsung vs. Agen AI Suara untuk Panggilan Keluar Otomatis: Rekomendasi Praktis untuk Bisnis (4/5)"
 metatitle: "Seasalt.ai | Panggilan Keluar AI | Agen Langsung | AI Suara"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
 author: Jun Mao
 description: "Jelajahi pro dan kontra panggilan keluar langsung vs. berbasis AI untuk bisnis—bandingkan biaya, skalabilitas, dan efisiensi."
 weight: 1
-tags: ["Auto Telemarketing Service", "Outbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Telemarketing Service
+  - Outbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

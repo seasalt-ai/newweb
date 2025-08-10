@@ -1,16 +1,20 @@
 ---
 title: "Llamadas entrantes y salientes, el agente telefónico de IA puede trabajar para usted en ambas"
 metatitle: "Agente telefónico de IA | Para llamadas entrantes y salientes"
-date: 2023-12-18T10:25:00-08:00
+date: 2023-12-18 10:25:00-08:00
+modified_date: 2025-07-27 15:40:33+00:00
 draft: false
 author: Xuchen Yao
 description: "Descubra el potencial revolucionario de los agentes telefónicos de IA en el servicio al cliente y las ventas, transformando las llamadas entrantes y salientes para una mayor eficiencia y crecimiento de los ingresos."
 weight: 1
-tags: ["SeaChat", "Agente de voz", "Herramientas de IA", "Experiencia del cliente"]
+tags:
+  - SeaChat
+  - Agente de voz
+  - Herramientas de IA
+  - Experiencia del cliente
 image: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
-canonicalURL: "/blog/seachat-inbound-and-outbound-calls/"
-url: "/blog/seachat-inbound-and-outbound-calls/"
-modified_date: 2025-07-27T15:40:33Z
+canonicalURL: /blog/seachat-inbound-and-outbound-calls/
+url: /blog/seachat-inbound-and-outbound-calls/
 ---
 
 En el panorama en constante evolución del servicio al cliente y las ventas, los agentes telefónicos de IA han surgido como herramientas nuevas y eficientes para las empresas. Estos agentes inteligentes están diseñados para manejar tanto las llamadas entrantes como las salientes, revolucionando las interacciones con los clientes e impulsando los ingresos. Este artículo profundiza en los diversos casos de uso de los agentes telefónicos de IA en las llamadas entrantes y salientes, destacando su versatilidad y potencial para transformar las comunicaciones empresariales.

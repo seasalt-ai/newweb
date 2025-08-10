@@ -1,12 +1,15 @@
 ---
-metatitle: "如何转录 Google Meet 会议"
 title: "如何转录 Google Meet 会议"
-date: "2024-01-09"
-modified_date: "2024-01-09"
-tags: ["Google Meet", "转录", "SeaMeet", "会议"]
-keywords: ["Google Meet", "转录", "会议", "SeaMeet", "实时转录", "会议记录", "会议录音", "语音转文字", "会议效率", "会议生产力"]
+metatitle: "如何转录 Google Meet 会议"
+date: 2024-01-09
+modified_date: 2024-01-09
+author: "" # 需要确认
 description: "了解如何使用内置功能和外部工具（如 SeaMeet）转录 Google Meet 会议。探索有关转录准确性、存储和隐私的技巧。"
-authors: ["Xuchen Yao"]
+tags:
+  - Google Meet
+  - 转录
+  - SeaMeet
+  - 会议
 ---
 
 ## 要点

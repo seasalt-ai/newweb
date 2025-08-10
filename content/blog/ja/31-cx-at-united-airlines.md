@@ -1,16 +1,17 @@
 ---
 title: "ユナイテッド航空のカスタマーサービス：良い点、悪い点、そして醜い点"
 metatitle: "ユナイテッド航空のカスタマーサービス分析"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Xuchen Yaoは、フライトの遅延とキャンセル中にユナイテッド航空のカスタマーサービスで経験したことを共有し、トラフィックの急増時に顧客サポートを動的に拡張するという課題に対処するための解決策を提案します。
+description: "Xuchen Yaoは、フライトの遅延とキャンセル中にユナイテッド航空のカスタマーサービスで経験したことを共有し、トラフィックの急増時に顧客サポートを動的に拡張するという課題に対処するための解決策を提案します。"
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) のCEOであるXuchen Yaoは、フライトの遅延とキャンセルに直面した際のユナイテッド航空のカスタマーサービスでの最近の経験を共有します。これにより、彼は航空会社のカスタマーサポートが、このような状況でのトラフィックの急増に対応するために、動的に自身を拡張するという課題に直面していることを認識しました。Xuchenは、人間エージェントからのセルフサービス可能なトラフィックの転用、人間エージェントの効率の向上、潜在的な問題を積極的に特定しリスクを軽減するための技術開発などの潜在的な改善点について語ります。*

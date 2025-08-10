@@ -1,18 +1,17 @@
 ---
 title: "من العرض التوضيحي إلى النجاح: إدراك الاجتماع (4/5)"
 metatitle: "من العرض التوضيحي إلى النجاح (4/5): إدراك الاجتماع"
-date: 2021-08-28T12:26:00-07:00
-author: Kim Dodds
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-08-28 12:26:00-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
+author: Kim Dodds
 description: "في الجزء الرابع من سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء SeaMeet، حلول الاجتماعات الحديثة التعاونية الخاصة بنا."
-tags: ["SeaMeet"]
 weight: 1
-canonicalURL: "/blog/seameet-voice-summarization-topic-abstraction"
-url: "/blog/seameet-voice-summarization-topic-abstraction"
-aliases:
-    - /blog/6-seameet-voice-intelligence-meeting-transcription-summarization-topic-abstraction-action-extraction/
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-summarization-topic-abstraction
+url: /blog/seameet-voice-summarization-topic-abstraction
 ---
 
 *خلال سلسلة المدونات هذه، تابع رحلة Seasalt.ai لإنشاء تجربة اجتماعات حديثة شاملة، بدءًا من بداياتها المتواضعة، إلى تحسين خدمتنا على أجهزة ونماذج مختلفة، إلى دمج أحدث أنظمة البرمجة اللغوية العصبية وأخيراً الانتهاء من التحقيق الكامل لـ SeaMeet، حلول الاجتماعات الحديثة التعاونية الخاصة بنا.*

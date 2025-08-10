@@ -1,18 +1,17 @@
 ---
 title: "डेमो से सफलता तक: आधुनिक मीटिंग वॉइस एल्गोरिथम में सफलता (3/5)"
 metatitle: "डेमो से सफलता तक (3/5): आधुनिक मीटिंग वॉइस एल्गोरिथम में सफलता"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2024-12-19T10:30:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "इस ब्लॉग श्रृंखला के तीसरे भाग में, Seasalt.ai द्वारा SeaMeet सहयोगी आधुनिक मीटिंग समाधान बनाने की यात्रा का अनुसरण करें।"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 इस ब्लॉग श्रृंखला में, Seasalt.ai द्वारा पूर्ण आधुनिक मीटिंग अनुभव बनाने की यात्रा का अनुसरण करें, प्रारंभिक शुरुआत से लेकर विभिन्न हार्डवेयर और मॉडल पर अनुकूलन, और अंततः सबसे उन्नत NLP सिस्टम के एकीकरण तक, अंततः SeaMeet सहयोगी आधुनिक मीटिंग समाधान प्राप्त करें।

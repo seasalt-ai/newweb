@@ -1,18 +1,20 @@
 ---
 title: "Hợp lý hóa hỗ trợ khách hàng với tích hợp SeaChat và Cơ sở tri thức Zoho Desk"
 metatitle: "Hợp lý hóa hỗ trợ khách hàng với SeaChat và Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá cách tác nhân trò chuyện và giọng nói AI của SeaChat tích hợp với Cơ sở tri thức toàn diện của Zoho Desk để hỗ trợ khách hàng liền mạch, hiệu quả.
+description: "Khám phá cách tác nhân trò chuyện và giọng nói AI của SeaChat tích hợp với Cơ sở tri thức toàn diện của Zoho Desk để hỗ trợ khách hàng liền mạch, hiệu quả."
 weight: 1
-tags: ["SeaChat", "Công cụ AI", "Tích hợp", "Trải nghiệm khách hàng"]
+tags:
+  - SeaChat
+  - Công cụ AI
+  - Tích hợp
+  - Trải nghiệm khách hàng
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 Trong bối cảnh kỹ thuật số phát triển nhanh chóng ngày nay, các doanh nghiệp không ngừng tìm kiếm các giải pháp đổi mới để nâng cao hỗ trợ khách hàng và hợp lý hóa quản lý thông tin. Sự tích hợp của SeaChat, một tác nhân trò chuyện và giọng nói AI tiên tiến, với Cơ sở tri thức toàn diện của Zoho Desk, mang đến một giải pháp đột phá cho những thách thức này.

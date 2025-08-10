@@ -1,19 +1,19 @@
 ---
 title: "Membina Pangkalan Pengetahuan Syarikat Menggunakan ChatGPT"
 metatitle: "Membina Pangkalan Pengetahuan Syarikat Menggunakan ChatGPT | Siri SeaChat Generasi Seterusnya"
-date: 2023-11-02T10:25:00-08:00
+date: 2023-11-02 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Terokai bagaimana chatbot ChatGPT tersuai boleh merevolusikan pengurusan pangkalan pengetahuan dalaman syarikat. Artikel ini menganalisis secara mendalam aplikasinya dalam pengurusan projek, sumber manusia, reka bentuk kejuruteraan, dsb., mendedahkan kemudahan pembangunan tanpa kod dan penggunaan pantas, dan meramalkan trend masa depan, menantikan peranan utama chatbot dalam transformasi digital syarikat.
+description: "Terokai bagaimana chatbot ChatGPT tersuai boleh merevolusikan pengurusan pangkalan pengetahuan dalaman syarikat. Artikel ini menganalisis secara mendalam aplikasinya dalam pengurusan projek, sumber manusia, reka bentuk kejuruteraan, dsb., mendedahkan kemudahan pembangunan tanpa kod dan penggunaan pantas, dan meramalkan trend masa depan, menantikan peranan utama chatbot dalam transformasi digital syarikat."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
-canonicalURL: "/zh/blog/how-to-build-company-knowledge-base-using-chatgpt/"
-url: "/zh/blog/how-to-build-company-knowledge-base-using-chat-gpt/"
-aliases:
-  - /blog/46-how-to-build-company-knowledge-base-using-chatgpt/
-summary: "Terokai bagaimana chatbot ChatGPT tersuai boleh merevolusikan pengurusan pangkalan pengetahuan dalaman syarikat. Artikel ini menganalisis secara mendalam aplikasinya dalam pengurusan projek, sumber manusia, reka bentuk kejuruteraan, dsb., mendedahkan kemudahan pembangunan tanpa kod dan penggunaan pantas, dan meramalkan trend masa depan, menantikan peranan utama chatbot dalam transformasi digital syarikat."
-modified_date: 2025-08-01T00:00:00Z
+canonicalURL: blog/how-to-build-company-knowledge-base-using-chatgpt/
+url: blog/how-to-build-company-knowledge-base-using-chat-gpt/
 ---
 
 Dalam era transformasi digital hari ini, syarikat-syarikat secara beransur-ansur menyedari potensi besar chatbot AI dalam meningkatkan kecekapan operasi dalaman dan kualiti perkhidmatan pelanggan. Teknologi chatbot canggih seperti ChatGPT akan menjadi alat penting untuk pengurusan pangkalan pengetahuan dalaman syarikat dan interaksi pelanggan.

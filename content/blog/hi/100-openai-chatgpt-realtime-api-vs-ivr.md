@@ -1,17 +1,20 @@
 ---
 title: "क्या OpenAI की नई वॉयस टेक्नोलॉजी आपके इंटरैक्टिव वॉयस रिस्पांस (IVR) को बदल सकती है?"
 metatitle: "क्या OpenAI की नई वॉयस टेक्नोलॉजी आपके IVR को बदल सकती है?"
-date: 2024-10-14T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-14 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Amy Chen
 description: "पता लगाएं कि क्या OpenAI की नई वॉयस टेक्नोलॉजी आपके मौजूदा इंटरैक्टिव वॉयस रिस्पांस सिस्टम को बदल सकती है।"
 weight: 1
-tags: ["ऑटो आंसरिंग सर्विस", "छोटे व्यवसायों के लिए इनबाउंड कॉल", "SeaChat", "वॉयस एआई"]
-toc: true
+tags:
+  - ऑटो आंसरिंग सर्विस
+  - छोटे व्यवसायों के लिए इनबाउंड कॉल
+  - SeaChat
+  - वॉयस एआई
 image: /images/blog/100-openai-chatgpt-realtime-api-vs-ivr/100-openai-chatgpt-realtime-api-vs-ivr.png
-canonicalURL: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
-url: "/blog/openai-chatgpt-realtime-api-vs-ivr/"
+canonicalURL: /blog/openai-chatgpt-realtime-api-vs-ivr/
+url: /blog/openai-chatgpt-realtime-api-vs-ivr/
 ---
 
 आपने OpenAI की रोमांचक नई वॉयस टेक्नोलॉजी के बारे में सुना होगा जो अविश्वसनीय रूप से इंसानों जैसी लगती है। डेमो अद्भुत दिखते हैं। OpenAI वॉयस एजेंट स्मार्ट, स्वाभाविक है और रुकावटों को बहुत अच्छी तरह से संभालता है। लेकिन क्या यह आपके मौजूदा इंटरैक्टिव वॉयस रिस्पांस सिस्टम को बदलने के लिए तैयार है? या, यदि आपने पहले ही एक वॉयसबॉट सेवा खरीद ली है, तो क्या आप इसे अपने ग्राहकों की सेवा के लिए OpenAI के वॉयस असिस्टेंट से बदल सकते हैं? आइए इसे सरल शब्दों में तोड़ते हैं।

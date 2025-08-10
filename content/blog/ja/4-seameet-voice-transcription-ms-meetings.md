@@ -2,16 +2,15 @@
 title: "デモから成功へ：現代の会議の落とし穴 (2/5)"
 metatitle: "デモから成功へ (2/5)：現代の会議の落とし穴"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "このブログシリーズの第2部では、Seasalt.aiが共同の現代会議ソリューションであるSeaMeetをどのように作成したかを紹介します。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *このブログシリーズ全体を通して、Seasalt.aiが包括的なモダンミーティング体験を創造するまでの道のりを追います。その謙虚な始まりから、さまざまなハードウェアやモデルでのサービスの最適化、最先端のNLPシステムの統合、そして最終的には共同モダンミーティングソリューションであるSeaMeetの完全な実現まで。*

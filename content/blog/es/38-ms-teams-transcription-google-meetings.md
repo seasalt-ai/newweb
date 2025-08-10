@@ -1,18 +1,17 @@
 ---
 title: "Batalla de Asistentes de IA para Reuniones: Microsoft Teams vs Google Meet"
 metatitle: "Batalla de Asistentes de IA para Reuniones: Microsoft Teams vs Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Explora los asistentes de IA para reuniones de Microsoft Teams y Google Meet, compara el soporte de idiomas de las plataformas y descubre cómo SeaMeet proporciona transcripción en tiempo real, resúmenes y otras funciones."
 weight: 1
-tags: ["SeaMeet", "Herramientas de IA"]
+tags:
+  - SeaMeet
+  - Herramientas de IA
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Explora los asistentes de IA para reuniones de Microsoft Teams y Google Meet, compara el soporte de idiomas de las plataformas y descubre cómo SeaMeet proporciona transcripción en tiempo real, resúmenes y otras funciones."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 Con el avance de la tecnología, los asistentes de IA para reuniones se han convertido en herramientas cruciales para mejorar la eficiencia de las reuniones. Estas herramientas pueden generar automáticamente resúmenes de reuniones, convertir voz a texto e incluso identificar información importante durante las reuniones. Este artículo explorará tres asistentes principales de IA para reuniones: Copilot de Microsoft Teams, Duet AI de Google Meet y SeaMeet.

@@ -1,16 +1,19 @@
 ---
 title: "自動電話応答システム（インタラクティブ音声応答 vs. 音声AIエージェント）：中小企業にとっての最良の選択肢（3/5）"
 metatitle: "自動応答システム（インタラクティブ音声応答 vs. 音声AI）"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Jun Mao
 description: "中小企業向けの自動電話システムにおけるインタラクティブ音声応答と音声AIエージェントのオプションを探ります。"
-tags: ["自動応答サービス", "中小企業向けインバウンドコール", "SeaChat",  "音声AI"]
-toc: true
+tags:
+  - 自動応答サービス
+  - 中小企業向けインバウンドコール
+  - SeaChat
+  - 音声AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

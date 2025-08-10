@@ -1,16 +1,20 @@
 ---
 title: "Pembuat Agen AI Tanpa Kode SeaChat Membuat Adopsi AI Menjadi Mudah"
 metatitle: "Pembuat Agen AI Tanpa Kode SeaChat Membuat Adopsi AI Menjadi Mudah"
-date: 2023-12-22T10:25:00-08:00
+date: 2023-12-22 10:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: Navigasi adopsi AI dengan lancar di dalam organisasi Anda dengan SeaChat! Pembuat agen AI tanpa kode ini menyederhanakan proses, membuatnya mudah dan tanpa kerumitan. Mulai dari kasus penggunaan sederhana dan secara bertahap tingkatkan adopsi AI dengan bereksperimen dengan berbagai cara memanfaatkan AI.
+description: "Navigasi adopsi AI dengan lancar di dalam organisasi Anda dengan SeaChat! Pembuat agen AI tanpa kode ini menyederhanakan proses, membuatnya mudah dan tanpa kerumitan. Mulai dari kasus penggunaan sederhana dan secara bertahap tingkatkan adopsi AI dengan bereksperimen dengan berbagai cara memanfaatkan AI."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
-canonicalURL: "/blog/seachat-ai-agent-adoption/"
-url: "/blog/seachat-ai-agent-adoption/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/seachat-ai-agent-adoption/
+url: /blog/seachat-ai-agent-adoption/
 ---
 
 # Memperkenalkan SeaChat: Pembuat Agen AI Tanpa Kode Anda

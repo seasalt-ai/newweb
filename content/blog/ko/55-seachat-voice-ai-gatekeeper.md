@@ -1,16 +1,20 @@
 ---
 title: "Android 및 iPhone에서의 AI 통화 스크리닝: 당신의 개인 어시스턴트와 게이트키퍼"
 metatitle: "AI 통화 스크리닝 | Android 및 iPhone에서의 개인 어시스턴트"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
 author: Xuchen Yao
-description: AI 기반 통화 에이전트의 미래 통화 관리를 탐색해보세요! 스팸 발신자 스크리닝부터 약속 예약까지, 이것은 당신의 24/7 개인 어시스턴트이자 게이트키퍼입니다.
+description: "AI 기반 통화 에이전트의 미래 통화 관리를 탐색해보세요! 스팸 발신자 스크리닝부터 약속 예약까지, 이것은 당신의 24/7 개인 어시스턴트이자 게이트키퍼입니다."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: 2025-08-03T00:35:01Z
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 당신은 전화를 처리하고, 스팸과 사기 전화를 스크리닝하며, 심지어 약속을 예약해주는 개인 어시스턴트를 원한 적이 있나요? 더 이상 찾을 필요가 없습니다. AI 기반 통화 에이전트가 이 모든 것과 그 이상을 할 수 있기 때문입니다! 무료 프론트 데스크이자 게이트키퍼로서, 이 뛰어난 기술은 통화 관리를 혁신하고 있으며, 중요한 전화를 놓치지 않도록 보장하고 소중한 시간과 마음의 평화를 절약해줍니다.

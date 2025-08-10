@@ -1,16 +1,16 @@
 ---
 title: "告别 Google 我的商家，现在 Google 地图是企业的新操作系统"
 metatitle: "告别 GMB，Google 地图是企业的新操作系统"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google 正在用 Google 地图取代 Google 我的商家应用，企业可以在 Google 地图上管理其信息并回复客户消息。"
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: "2025-07-28T16:03:25.123456"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *通过 Google 地图直接将企业与消费者连接起来，为消费者的购物体验提供了无缝体验。这是 Google 将 Google 地图转变为本地企业“附近”搜索新操作系统的绝佳战略举措。*

@@ -2,16 +2,15 @@
 title: "از دمو تا موفقیت: مشکلات جلسات مدرن (2/5)"
 metatitle: "از دمو تا موفقیت (2/5): مشکلات جلسات مدرن"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "در بخش دوم این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد SeaMeet، راه حل جلسات مدرن مشارکتی ما دنبال کنید."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *در طول این مجموعه وبلاگ، سفر Seasalt.ai را برای ایجاد یک تجربه جامع جلسات مدرن دنبال کنید، از آغاز فروتنانه آن، تا بهینه سازی خدمات ما در سخت افزارها و مدل های مختلف، تا ادغام سیستم های NLP پیشرفته و در نهایت تحقق کامل SeaMeet، راه حل جلسات مدرن مشارکتی ما.*

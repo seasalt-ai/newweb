@@ -2,16 +2,15 @@
 title: "От демо к успеху: Подводные камни современных встреч (2/5)"
 metatitle: "От демо к успеху (2/5): Подводные камни современных встреч"
 date: 2021-07-30
-author: Cody Kim
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
 draft: false
+author: Cody Kim
 description: "Во второй части этой серии блогов проследите путь Seasalt.ai к созданию SeaMeet, нашего совместного решения для современных встреч."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-url: "/blog/seameet-voice-and-microsoft-modern-meetings/"
-aliases:
-    - /blog/4-seameet-voice-intelligence-meeting-transcription-pitfalls-of-microsoft-modern-meetings/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-and-microsoft-modern-meetings/
+url: /blog/seameet-voice-and-microsoft-modern-meetings/
 ---
 
 *На протяжении всей этой серии блогов проследите путь Seasalt.ai к созданию полноценного опыта современных встреч, начиная с его скромных начал, до оптимизации нашего сервиса на различных аппаратных средствах и моделях, до интеграции передовых систем НЛП и, наконец, до полной реализации SeaMeet, нашего совместного решения для современных встреч.*

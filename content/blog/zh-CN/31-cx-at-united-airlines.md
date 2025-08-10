@@ -1,16 +1,17 @@
 ---
 title: "美联航客户服务：好、坏、丑"
 metatitle: "美联航客户服务分析"
-date: 2023-03-21T11:25:00-08:00
+date: 2023-03-21 11:25:00-08:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Xuchen Yao
-description: 姚旭辰分享了他最近在航班延误和取消期间与美联航客户服务的经历，并提出了解决方案，以应对在流量高峰期动态扩展客户支持的挑战。
+description: "姚旭辰分享了他最近在航班延误和取消期间与美联航客户服务的经历，并提出了解决方案，以应对在流量高峰期动态扩展客户支持的挑战。"
 weight: 1
-tags: ["SeaX"]
+tags:
+  - SeaX
 image: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
-canonicalURL: "/blog/customer-service-at-united-airlines/"
-url: "/blog/customer-service-at-united-airlines/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/customer-service-at-united-airlines/
+url: /blog/customer-service-at-united-airlines/
 ---
 
 *[Seasalt.ai](https://seasalt.ai) 首席执行官姚旭辰分享了他最近在航班延误和取消期间与美联航客户服务的经历。这让他意识到航空公司客户支持在动态扩展以应对此类情况下的流量高峰时所面临的挑战。姚旭辰谈到了潜在的改进，例如将自助服务流量从人工座席分流，提高人工座席的效率，以及开发技术以主动识别和降低潜在问题的风险。*

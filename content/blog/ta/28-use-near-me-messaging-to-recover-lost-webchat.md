@@ -1,16 +1,17 @@
 ---
 title: "பயனர் வெப்-சாட்டை விட்டு வெளியேறிவிட்டார்: அவர்களுக்கு ஒரு செய்தியை அனுப்ப Near Me Messaging ஐப் பயன்படுத்தவும்!"
 metatitle: "பயனர் வெப்-சாட்டை விட்டு வெளியேறிவிட்டார்: Near Me Messaging மூலம் தொடர்பு கொள்ளுங்கள்!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging வெப்-சாட்டின் ஒரு சிக்கலைத் தீர்க்கிறது: பயனர் உரையாடலை விட்டு வெளியேறிய *பிறகும்* அவர்களுடன் மீண்டும் தொடர்பு கொள்ளுங்கள்."
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 2022 ஆம் ஆண்டு கிறிஸ்துமஸ் காலையில், ஹென்றி என்ற பயனர் விட்டுச்சென்ற சில செய்திகளுடன் நான் எழுந்தேன். நான் செய்திகளைப் பார்த்தபோது, ஹென்றி ஏற்கனவே வெளியேறிவிட்டார். வெப்-சாட் மூலம் அவர் அனுப்பிய செய்திகளும், அவரது பெயரும் மட்டுமே எனக்குக் கிடைத்தன.

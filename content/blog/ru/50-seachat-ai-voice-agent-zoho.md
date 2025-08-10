@@ -1,18 +1,20 @@
 ---
 title: "Оптимизация поддержки клиентов с помощью интеграции SeaChat и базы знаний Zoho Desk"
 metatitle: "Оптимизация поддержки клиентов с помощью SeaChat и Zoho Desk"
-date: 2023-12-10T10:25:00-08:00
+date: 2023-12-10 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Узнайте, как чат-бот и голосовой агент SeaChat с искусственным интеллектом интегрируются с комплексной базой знаний Zoho Desk для бесперебойной и эффективной поддержки клиентов.
+description: "Узнайте, как чат-бот и голосовой агент SeaChat с искусственным интеллектом интегрируются с комплексной базой знаний Zoho Desk для бесперебойной и эффективной поддержки клиентов."
 weight: 1
-tags: ["SeaChat", "Инструменты ИИ", "Интеграция", "Опыт клиента"]
+tags:
+  - SeaChat
+  - Инструменты ИИ
+  - Интеграция
+  - Опыт клиента
 image: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
-canonicalURL: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-url: "/blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-aliases:
-    - "/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
+url: /blog/seachat-ai-chat-and-voice-agent-with-zoho-integration/
 ---
 
 В современном быстро развивающемся цифровом ландшафте компании постоянно ищут инновационные решения для улучшения поддержки клиентов и оптимизации управления информацией. Интеграция SeaChat, передового чат-бота и голосового агента с искусственным интеллектом, с комплексной базой знаний Zoho Desk, представляет собой новаторское решение этих проблем.

@@ -1,16 +1,20 @@
 ---
 title: "누가 전화하나요? 맞춤형 음성 AI 에이전트로 통화 품질 향상"
 metatitle: "맞춤형 음성 AI 에이전트로 통화 품질 향상"
-date: 2023-12-16T10:25:00-08:00
-modified_date: 2025-07-28T00:00:00Z
+date: 2023-12-16 10:25:00-08:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Voice AI Agent와 함께하는 예약의 미래를 탐구하세요. AI와 자연어 처리를 통합한 24/7 솔루션으로 효율적이고 원활한 예약을 실현합니다.
+description: "Voice AI Agent와 함께하는 예약의 미래를 탐구하세요. AI와 자연어 처리를 통합한 24/7 솔루션으로 효율적이고 원활한 예약을 실현합니다."
 weight: 1
-tags: ["SeaChat", "Voice Agent", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - Voice Agent
+  - AI Tools
+  - Customer Experience
 image: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
-canonicalURL: "/blog/seachat-voice-ai-for-screening-calls/"
-url: "/blog/seachat-voice-ai-for-screening-calls/"
+canonicalURL: /blog/seachat-voice-ai-for-screening-calls/
+url: /blog/seachat-voice-ai-for-screening-calls/
 ---
 
 바쁜 일정을 관리할 때, 모든 전화가 중요합니다. 중요한 비즈니스 거래부터 소중한 사람들과의 연락까지, 우리의 일상은 의미 있는 대화로 이루어져 있습니다. 하지만 많은 전화를 처리하는 것은 부담스럽고 시간이 많이 소요될 수 있습니다. 이럴 때 맞춤형 음성 AI 에이전트가 도움이 됩니다.

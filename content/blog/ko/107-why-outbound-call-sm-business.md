@@ -1,17 +1,19 @@
 ---
 title: "소규모 기업이 아웃바운드 콜/텔레마케팅 서비스를 필요로 하는 이유 (1/5)"
 metatitle: "Seasalt.ai | 아웃바운드 콜 시리즈 | 소규모 기업"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "라이브 에이전트, 자동 다이얼러, 음성 AI를 탐색하여 비즈니스 요구에 가장 적합한 아웃바운드 콜 솔루션을 선택하세요."
 weight: 1
-tags: ["자동 텔레마케팅 서비스", "소규모 기업을 위한 아웃바운드 콜", "음성 AI"]
-toc: true
+tags:
+  - 자동 텔레마케팅 서비스
+  - 소규모 기업을 위한 아웃바운드 콜
+  - 음성 AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

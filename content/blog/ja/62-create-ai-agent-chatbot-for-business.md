@@ -1,15 +1,19 @@
 ---
 title: "ビジネス向けAIエージェントチャットボットの作り方"
 metatitle: "ビジネス向けAIエージェントチャットボット作成ガイド"
-date: 2024-02-28T10:00:00-07:00
+date: 2024-02-28 10:00:00-07:00
 draft: false
 author: Xuchen Yao
 description: "ビジネス向けAIエージェントチャットボットの作り方を、プラットフォーム選びから業務システム連携まで解説します。"
 weight: 1
-tags: ["AIチャットボット", "ビジネス", "自動化", "エージェントAI"]
+tags:
+  - AIチャットボット
+  - ビジネス
+  - 自動化
+  - エージェントAI
 image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
-url: "/blog/create-ai-agent-chatbot-for-business/"
+canonicalURL: /blog/create-ai-agent-chatbot-for-business/
+url: /blog/create-ai-agent-chatbot-for-business/
 ---
 
 AIエージェントチャットボットは、業務効率や顧客体験の向上に役立つため、ビジネスでますます注目されています。この記事では、効果的なAIエージェントチャットボットの作り方を解説します。

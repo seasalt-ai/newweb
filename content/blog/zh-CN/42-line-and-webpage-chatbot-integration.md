@@ -1,18 +1,19 @@
 ---
 title: "定制ChatGPT聊天机器人，同时支持LINE和网页机器人"
 metatitle: "定制ChatGPT聊天机器人，同时支持LINE和网页机器人 | 用SeaChat做新一代聊天机器人系列"
-date: 2023-10-26T10:25:00-08:00
-lastmod: 2024-12-19T10:25:00-08:00
+date: 2023-10-26 10:25:00-08:00
+modified_date: 2024-12-19 10:25:00+00:00
 draft: false
 author: Xuchen Yao
-description: 定制化ChatGPT机器人如何颠覆传统的客服模式，并带来了更人性化、更高效的客户服务体验。通过深入分析和实例展示，我们展示了如何利用这项新技术来提升客户满意度，并为企业在瞬息万变的市场环境中保持竞争力。企业可以了解到，通过快速部署和有效利用定制化ChatGPT机器人，能提供持续、及时客户支持，成为新时代客服的关键要素。
+description: "定制化ChatGPT机器人如何颠覆传统的客服模式，并带来了更人性化、更高效的客户服务体验。通过深入分析和实例展示，我们展示了如何利用这项新技术来提升客户满意度，并为企业在瞬息万变的市场环境中保持竞争力。企业可以了解到，通过快速部署和有效利用定制化ChatGPT机器人，能提供持续、及时客户支持，成为新时代客服的关键要素。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
-canonicalURL: "/blog/line-and-webpage-chatbot-integration/"
-url: "/blog/line-and-webpage-chatbot-integration/"
-summary: "定制化ChatGPT机器人如何颠覆传统的客服模式，并带来了更人性化、更高效的客户服务体验。通过深入分析和实例展示，我们展示了如何利用这项新技术来提升客户满意度，并为企业在瞬息万变的市场环境中保持竞争力。企业可以了解到，通过快速部署和有效利用定制化ChatGPT机器人，能提供持续、及时用户支持，成为新时代客服的关键要素。"
-modified_date: "2024-12-19T10:25:00Z"
+canonicalURL: /blog/line-and-webpage-chatbot-integration/
+url: /blog/line-and-webpage-chatbot-integration/
 ---
 
 在当今快节奏的数字时代，聊天机器人已经成为企业和组织不可或缺的工具。这些智能对话机器人能够模拟自然对话，并为用户提供即时的支持和解答。无论是在客户服务、销售、还是其他领域，聊天机器人已经证明了它们的价值。

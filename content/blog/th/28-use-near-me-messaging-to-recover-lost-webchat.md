@@ -1,16 +1,17 @@
 ---
 title: "ผู้ใช้ได้ออกจากเว็บแชท: ใช้ Near Me Messaging เพื่อส่งข้อความถึงพวกเขา!"
 metatitle: "ผู้ใช้ได้ออกจากเว็บแชท: ติดต่อกลับด้วย Near Me Messaging!"
-date: 2022-12-25T12:48:52-08:00
+date: 2022-12-25 12:48:52-08:00
+modified_date: 2025-07-28T16:03:25.123456
+draft: false
 author: Xuchen Yao
 description: "Near Me Messaging แก้ปัญหาหนึ่งของเว็บแชท: ติดต่อกลับผู้ใช้ของคุณได้แม้ *หลังจาก* ที่พวกเขาออกจากบทสนทนาไปแล้ว"
-tags: ["NearMe"]
-image: "images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png"
 weight: 1
-draft: false
-canonicalURL: "/blog/use-near-me-messaging-to-recover/"
-url: "/blog/use-near-me-messaging-to-recover/"
-modified_date: "2025-07-28T16:03:25.123456"
+tags:
+  - NearMe
+image: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+canonicalURL: /blog/use-near-me-messaging-to-recover/
+url: /blog/use-near-me-messaging-to-recover/
 ---
 
 ในเช้าวันคริสต์มาสปี 2022 ผมตื่นขึ้นมาพบข้อความสองสามข้อความที่เฮนรี่ผู้ใช้คนหนึ่งทิ้งไว้ เมื่อผมอ่านข้อความ เฮนรี่ก็จากไปแล้ว สิ่งที่ผมได้รับคือข้อความที่เขาส่งผ่านเว็บแชทและชื่อของเขาเท่านั้น

@@ -1,16 +1,17 @@
 ---
 title: "एक वितरित संपर्क केंद्र के साथ अपने संपर्क केंद्र के पदचिह्न का विस्तार करें"
 metatitle: "एक वितरित संपर्क केंद्र के साथ अपने पदचिह्न का विस्तार करें"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28T16:56:53Z
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "इस ब्लॉग में, हम 'वितरित' संपर्क केंद्रों पर एक नज़र डालेंगे: वे क्या हैं, वे आपको कैसे लाभ पहुंचा सकते हैं, और SeaX इसका उपयोग हमारे ग्राहकों को बेहतर सेवा देने के लिए कैसे करता है।"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *हमारे पिछले ब्लॉग पोस्ट में, [SeaX ओमनीचैनल संचार के साथ ग्राहकों को किसी भी चैनल से एक स्थान पर लाएं](https://seasalt.ai/blog/19-seax-omnichannel-communication/), हमने SeaX प्लेटफॉर्म पर ओमनीचैनल संचार की शक्ति को दिखाया, जो वस्तुतः किसी भी चैनल से उपयोगकर्ता संदेशों को SeaX प्लेटफॉर्म पर प्रदर्शित करने की अनुमति देता है। इस पोस्ट में, हम "वितरित" संपर्क केंद्रों पर एक नज़र डालेंगे: वे क्या हैं, वे आपको कैसे लाभ पहुंचा सकते हैं, और SeaX हमारे ग्राहकों को बेहतर सेवा देने के लिए एक वितरित प्लेटफॉर्म का लाभ कैसे उठाता है।*

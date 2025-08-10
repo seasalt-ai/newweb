@@ -1,17 +1,19 @@
 ---
 title: "چگونه از ربات‌های ChatGPT سفارشی در بازاریابی استفاده کنیم"
 metatitle: "چگونه از ربات‌های ChatGPT سفارشی در بازاریابی استفاده کنیم | سری ساخت چت‌بات‌های نسل بعدی با SeaChat"
-date: 2023-11-06T10:25:00-08:00
-modified_date: 2025-08-01T00:00:00Z
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2025-08-01 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: کشف کنید که چگونه ربات‌های ChatGPT سفارشی می‌توانند حیات تازه‌ای به کمپین‌های بازاریابی ببخشند. از تعاملات نوآورانه تا بهبود تصویر برند، این مقاله پتانسیل نامحدود هوش مصنوعی در بازاریابی را آشکار می‌سازد.
+description: "کشف کنید که چگونه ربات‌های ChatGPT سفارشی می‌توانند حیات تازه‌ای به کمپین‌های بازاریابی ببخشند. از تعاملات نوآورانه تا بهبود تصویر برند، این مقاله پتانسیل نامحدود هوش مصنوعی در بازاریابی را آشکار می‌سازد."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "کشف کنید که چگونه ربات‌های ChatGPT سفارشی می‌توانند حیات تازه‌ای به کمپین‌های بازاریابی ببخشند. از تعاملات نوآورانه تا بهبود تصویر برند، این مقاله پتانسیل نامحدود هوش مصنوعی در بازاریابی را آشکار می‌سازد."
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 در تغییرات سریع بازاریابی دیجیتال، آژانس‌های بازاریابی به طور مداوم به دنبال استراتژی‌های جدیدی هستند که بتوانند مشتریان را جذب کرده و تجربه‌های برند منحصر به فردی ایجاد کنند. با ظهور هوش مصنوعی، ربات‌های ChatGPT سفارشی پدیدار شده‌اند و ابزاری نوآورانه را برای متخصصان بازاریابی فراهم می‌کنند تا مشتریان را جذب کرده و با آنها تعامل داشته باشند.

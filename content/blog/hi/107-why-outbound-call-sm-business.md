@@ -1,17 +1,19 @@
 ---
 title: "छोटे व्यवसायों को आउटबाउंड कॉल/टेलीमार्केटिंग सेवा की आवश्यकता क्यों है? (1/5)"
 metatitle: "सीसॉल्ट.एआई | आउटबाउंड कॉल सीरीज़ | छोटा व्यवसाय"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "अपने व्यवसाय की ज़रूरतों के लिए सबसे अच्छा आउटबाउंड कॉल समाधान चुनने के लिए लाइव एजेंट, ऑटो डायलर और वॉयस एआई का अन्वेषण करें।"
 weight: 1
-tags: ["ऑटो टेलीमार्केटिंग सेवा", "छोटे व्यवसायों के लिए आउटबाउंड कॉल", "वॉयस एआई"]
-toc: true
+tags:
+  - ऑटो टेलीमार्केटिंग सेवा
+  - छोटे व्यवसायों के लिए आउटबाउंड कॉल
+  - वॉयस एआई
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

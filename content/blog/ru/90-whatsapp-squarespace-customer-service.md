@@ -1,17 +1,19 @@
 ---
 title: "Как добавить чат-бота с ИИ на ваш сайт Squarespace с помощью SeaChat"
 metatitle: "SeaChat AI | Агенты ИИ на вашем сайте Squarespace"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Максимизируйте вовлеченность клиентов на Squarespace с помощью ИИ SeaChat - настраивайте, обучайте, отслеживайте и обновляйте своего чат-бота для проактивной поддержки посетителей.
+description: "Максимизируйте вовлеченность клиентов на Squarespace с помощью ИИ SeaChat - настраивайте, обучайте, отслеживайте и обновляйте своего чат-бота для проактивной поддержки посетителей."
 weight: 1
-tags: ["SeaChat", "WhatsApp", "Интеграции"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - Интеграции
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 В современном быстро меняющемся цифровом ландшафте эффективное обслуживание клиентов и вовлеченность пользователей имеют решающее значение для бизнеса. Клиенты ожидают взаимодействия в реальном времени, быстрых ответов и персонализированной поддержки. Интеграция чат-решений в ваш веб-сайт может значительно улучшить эти аспекты. В этом блоге мы рассмотрим, как добавить чат-бота с ИИ на ваш сайт Squarespace и революционизировать ваше общение с клиентами.

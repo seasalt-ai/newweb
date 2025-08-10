@@ -1,17 +1,20 @@
 ---
 title: "Внутренний vs. Аутсорсинг для исходящих телемаркетинговых звонков: Практические рекомендации для бизнеса (2/5)"
 metatitle: "Seasalt.ai | Исходящие звонки в реальном времени | Внутренний vs. Аутсорсинг"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Сравните внутренние и аутсорсинговые исходящие звонки — затраты, функции и получите практические советы по оптимизации взаимодействия с клиентами."
 weight: 1
-tags: ["Автоматическая телемаркетинговая служба", "Исходящие звонки для малого бизнеса", "SeaChat", "Голосовой ИИ"]
-toc: true
+tags:
+  - Автоматическая телемаркетинговая служба
+  - Исходящие звонки для малого бизнеса
+  - SeaChat
+  - Голосовой ИИ
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

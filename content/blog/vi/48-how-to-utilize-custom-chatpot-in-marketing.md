@@ -1,17 +1,19 @@
 ---
 title: "Sử dụng chatbot ChatGPT tùy chỉnh cho marketing sáng tạo"
 metatitle: "Sử dụng chatbot ChatGPT tùy chỉnh cho marketing sáng tạo | Chuỗi SeaChat cho chatbot thế hệ mới"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Khám phá cách sử dụng chatbot ChatGPT tùy chỉnh để thổi hơi thở mới vào các chiến dịch marketing. Từ tương tác sáng tạo đến nâng cao hình ảnh thương hiệu, bài viết này tiết lộ tiềm năng vô hạn của AI trong marketing.
+description: "Khám phá cách sử dụng chatbot ChatGPT tùy chỉnh để thổi hơi thở mới vào các chiến dịch marketing. Từ tương tác sáng tạo đến nâng cao hình ảnh thương hiệu, bài viết này tiết lộ tiềm năng vô hạn của AI trong marketing."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "Khám phá cách sử dụng chatbot ChatGPT tùy chỉnh để thổi hơi thở mới vào các chiến dịch marketing. Từ tương tác sáng tạo đến nâng cao hình ảnh thương hiệu, bài viết này tiết lộ tiềm năng vô hạn của AI trong marketing."
-modified_date: 2024-12-19T10:00:00Z
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 Trong bối cảnh marketing kỹ thuật số thay đổi nhanh chóng, các công ty marketing liên tục tìm kiếm chiến lược mới để thu hút khách hàng và tạo ra trải nghiệm thương hiệu độc đáo. Với sự xuất hiện của trí tuệ nhân tạo, chatbot ChatGPT tùy chỉnh đã xuất hiện, cung cấp cho các chuyên gia marketing một công cụ sáng tạo để thu hút và tương tác với khách hàng.

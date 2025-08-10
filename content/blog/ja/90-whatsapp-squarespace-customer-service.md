@@ -1,17 +1,19 @@
 ---
 title: "SeaChatでSquarespaceウェブサイトにAIチャットボットを追加する方法"
 metatitle: "SeaChat AI | Squarespaceウェブサイト上のAIエージェント"
-date: 2024-04-20T00:22:19-07:00
+date: 2024-04-20 00:22:19-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: SeaChatのAIでSquarespaceでの顧客エンゲージメントを最大化 - プロアクティブな訪問者サポートのためにチャットボットをカスタマイズ、トレーニング、監視、更新します。
+description: "SeaChatのAIでSquarespaceでの顧客エンゲージメントを最大化 - プロアクティブな訪問者サポートのためにチャットボットをカスタマイズ、トレーニング、監視、更新します。"
 weight: 1
-tags: ["SeaChat", "WhatsApp", "統合"]
-toc: true
+tags:
+  - SeaChat
+  - WhatsApp
+  - 統合
 image: /images/blog/90-whatsapp-squarespace-customer-service/90-whatsapp-squarespace-customer-service.png
-canonicalURL: "/blog/whatsapp-squarespace-customer-service/"
-url: "/blog/whatsapp-squarespace-customer-service/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/whatsapp-squarespace-customer-service/
+url: /blog/whatsapp-squarespace-customer-service/
 ---
 
 今日のペースの速いデジタル環境では、効果的な顧客サービスとユーザーエンゲージメントはビジネスにとって不可欠です。顧客はリアルタイムのインタラクション、迅速な応答、パーソナライズされたサポートを期待しています。チャットソリューションをウェブサイトに統合することで、これらの側面を大幅に強化できます。このブログでは、SquarespaceウェブサイトにAIチャットボットを追加し、顧客コミュニケーションを革新する方法を探ります。

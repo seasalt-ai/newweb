@@ -1,16 +1,19 @@
 ---
 title: "Hubspot vs. MailerLite: Dịch vụ tiếp thị email nào phù hợp với bạn vào năm 2025?"
 metatitle: "Hubspot vs. MailerLite | Dịch vụ tiếp thị email vào năm 2025"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: Mở rộng quy mô tiếp thị của bạn với nền tảng phù hợp. So sánh HubSpot vs. MailerLite của chúng tôi khám phá công cụ tốt nhất để tăng cường tương tác, hợp lý hóa quy trình làm việc và tiết kiệm tiền cho bạn.
+description: "Mở rộng quy mô tiếp thị của bạn với nền tảng phù hợp. So sánh HubSpot vs. MailerLite của chúng tôi khám phá công cụ tốt nhất để tăng cường tương tác, hợp lý hóa quy trình làm việc và tiết kiệm tiền cho bạn."
 weight: 1
-tags: ["SeaChat", "Thương mại điện tử", "Tiếp thị email"]
+tags:
+  - SeaChat
+  - Thương mại điện tử
+  - Tiếp thị email
 image: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/hubspot-email-vs-mailerlite/"
-url: "/blog/hubspot-email-vs-mailerlite/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/hubspot-email-vs-mailerlite/
+url: /blog/hubspot-email-vs-mailerlite/
 ---
 
 Để xuất sắc trong tiếp thị email, bạn cần các công cụ phù hợp có thể giúp bạn tiết kiệm thời gian và công sức mà không làm cạn kiệt ví tiền của bạn. Các nền tảng tiếp thị email phổ biến và các tùy chọn phần mềm tiếp thị email rất phong phú, bao gồm các nhà lãnh đạo ngành như HubSpot, MailerLite, Mailchimp và các hãng khác. Mỗi nền tảng đều cung cấp sự kết hợp độc đáo giữa các tính năng, giá cả và khả năng tự động hóa. Hôm nay, chúng tôi sẽ so sánh hai công cụ phổ biến, [Hubspot (Marketing Hub)](https://www.hubspot.com/products/marketing/professional) và [MailerLite](https://www.mailerlite.com/) để bạn cân nhắc.

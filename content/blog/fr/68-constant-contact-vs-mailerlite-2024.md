@@ -1,16 +1,19 @@
 ---
 title: "Constant Contact vs. MailerLite : Quel service de marketing par e-mail vous convient le mieux en 2025 ?"
 metatitle: "Constant Contact vs. MailerLite | Marketing par e-mail en 2025"
-date: 2024-04-06T10:25:00-08:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-04-06 10:25:00-08:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Constant Contact, Quel service de messagerie électronique vous convient le mieux ? Notre comparaison approfondie détaille les fonctionnalités, les prix et plus encore.
+description: "MailerLite vs. Constant Contact, Quel service de messagerie électronique vous convient le mieux ? Notre comparaison approfondie détaille les fonctionnalités, les prix et plus encore."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/constant-contact-vs-mailerlite-2025/"
-url: "/blog/constant-contact-vs-mailerlite-2025/"
+canonicalURL: /blog/constant-contact-vs-mailerlite-2025/
+url: /blog/constant-contact-vs-mailerlite-2025/
 ---
 
 Pour exceller dans le marketing par e-mail, vous avez besoin des bons outils qui peuvent vous faire gagner du temps et des efforts sans vider votre portefeuille. Les plateformes de marketing par e-mail populaires et les options de logiciels de marketing par e-mail abondent, y compris les leaders de l'industrie comme HubSpot, Constant Contact, MailerLite, Mailchimp et d'autres. Chacun offre un mélange unique de fonctionnalités, de prix et de capacités d'automatisation. Aujourd'hui, nous allons comparer deux outils populaires, [Constant Contact](https://www.constantcontact.com/) et [MailerLite](https://www.mailerlite.com/) pour vos considérations.

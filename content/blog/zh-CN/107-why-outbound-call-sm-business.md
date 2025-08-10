@@ -1,17 +1,19 @@
 ---
 title: "为什么小型企业需要外呼/电话营销服务？(1/5)"
 metatitle: "Seasalt.ai | 外呼系列 | 小型企业"
-date: 2024-10-20T00:22:19-07:00
-modified_date: "2025-07-27T05:06:58Z"
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-27 05:06:58+00:00
 draft: false
 author: Jun Mao
 description: "探索实时座席、自动拨号器和语音 AI，为您的业务需求选择最佳外呼解决方案。"
 weight: 1
-tags: ["自动电话营销服务", "小型企业外呼", "语音 AI"]
-toc: true
+tags:
+  - 自动电话营销服务
+  - 小型企业外呼
+  - 语音 AI
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

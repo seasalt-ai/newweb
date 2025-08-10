@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Layanan Pemasaran Email Mana yang Tepat untuk Anda di Tahun 2025?"
 metatitle: "Mailchimp vs. MailerLite | Layanan Pemasaran Email 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, Layanan email mana yang tepat untuk Anda? Perbandingan mendalam kami menguraikan fitur, harga, dan lainnya.
+description: "MailerLite vs. Mailchimp, Layanan email mana yang tepat untuk Anda? Perbandingan mendalam kami menguraikan fitur, harga, dan lainnya."
 weight: 1
-tags: ["SeaChat", "E-niaga", "Pemasaran Email"]
+tags:
+  - SeaChat
+  - E-niaga
+  - Pemasaran Email
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 Pemasaran email tetap menjadi alat yang ampuh untuk bisnis dari semua ukuran. Baik Anda sedang menjajaki pekerjaan pemasaran email, mencari perangkat lunak pemasaran email terbaik, atau mencari kiat pemasaran email yang dapat ditindaklanjuti, Anda perlu tahu tentang alat terbaik di pasar. Hari ini, kami akan membandingkan dua alat pemasaran email populer, [Mailchimp](https://mailchimp.com/) dan [MailerLite](https://www.mailerlite.com/) untuk pertimbangan Anda.

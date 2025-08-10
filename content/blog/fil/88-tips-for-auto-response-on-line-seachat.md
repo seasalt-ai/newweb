@@ -1,18 +1,20 @@
 ---
 title: "Mga Tip sa Automation ng LINE: Walang Hanggan na Pagsasama ng SeaChat sa mga Automation ng LINE"
 metatitle: "Mga Tip sa Automation ng LINE: Walang Hanggan na Pagsasama ng SeaChat sa mga Automation ng LINE"
-date: 2024-04-04T00:22:19-07:00
-lastmod: 2024-04-04T00:22:19-07:00
-modified_date: 2024-12-19T10:30:00Z
+date: 2024-04-04 00:22:19-07:00
+modified_date: 2024-12-19 10:30:00+00:00
 draft: false
 author: Yuga Chen
-description: Solusyon sa automation ng LINE! Ang automatic response function ng LINE ay magtatapos ng serbisyo. Gamitin ang SeaChat, ang matalinong AI assistant, upang gawing mas maayos ang mga pag-uusap sa customer at magbigay ng komprehensibong solusyon sa customer service.
+description: "Solusyon sa automation ng LINE! Ang automatic response function ng LINE ay magtatapos ng serbisyo. Gamitin ang SeaChat, ang matalinong AI assistant, upang gawing mas maayos ang mga pag-uusap sa customer at magbigay ng komprehensibong solusyon sa customer service."
 weight: 1
-tags: ["SeaChat", "AI Tools", "LINE", "Conversational AI"]
+tags:
+  - SeaChat
+  - AI Tools
+  - LINE
+  - Conversational AI
 image: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
-canonicalURL: "/blog/tips-for-auto-response-on-line-seachat/"
-url: "/blog/tips-for-auto-response-on-line-seachat/"
-summary: 'Gusto mo bang gawing super assistant ng iyong brand ang LINE? Kapag ang mga customer ay nagiging mas marami at isang tao ay hindi na sapat, hindi mo maaaring sagutin ang bawat mensahe nang isa-isa. Ang ["Automatic Response Bot"](https://line-tw-official.weblog.to/archives/85582088.html) ng LINE ay mukhang malulutas ang nakakainis na problemang ito! Maging para sa pagbati sa mga bagong kaibigan o pagsagot sa mga keyword - mukhang mas madali, tama ba?'
+canonicalURL: /blog/tips-for-auto-response-on-line-seachat/
+url: /blog/tips-for-auto-response-on-line-seachat/
 ---
 
 # Ano ang Automation ng LINE?

@@ -1,17 +1,20 @@
 ---
 title: "Wewnętrzne vs. Zewnętrzne połączenia wychodzące telemarketingowe: Praktyczne rekomendacje dla firm (2/5)"
 metatitle: "Seasalt.ai | Połączenia wychodzące na żywo | Wewnętrzne vs. Zewnętrzne"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Porównaj wewnętrzne i zewnętrzne połączenia wychodzące – koszty, funkcje i uzyskaj praktyczne wskazówki, jak zoptymalizować kontakt z klientem."
 weight: 1
-tags: ["Automatyczna usługa telemarketingowa", "Połączenia wychodzące dla małych firm", "SeaChat", "Głosowa sztuczna inteligencja"]
-toc: true
+tags:
+  - Automatyczna usługa telemarketingowa
+  - Połączenia wychodzące dla małych firm
+  - SeaChat
+  - Głosowa sztuczna inteligencja
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

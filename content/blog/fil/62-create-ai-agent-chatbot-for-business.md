@@ -1,15 +1,19 @@
 ---
 title: "Paano Gumawa ng AI Agent Chatbot para sa Iyong Negosyo"
 metatitle: "Gabay sa Paggawa ng AI Agent Chatbot para sa Negosyo"
-date: 2024-02-28T10:00:00-07:00
+date: 2024-02-28 10:00:00-07:00
 draft: false
 author: Xuchen Yao
 description: "Alamin kung paano gumawa ng AI agent chatbot para sa iyong negosyo, mula sa pagpili ng platform hanggang sa pagsasama sa business systems."
 weight: 1
-tags: ["AI Chatbot", "Negosyo", "Automation", "Smart Agent"]
+tags:
+  - AI Chatbot
+  - Negosyo
+  - Automation
+  - Smart Agent
 image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
-url: "/blog/create-ai-agent-chatbot-for-business/"
+canonicalURL: /blog/create-ai-agent-chatbot-for-business/
+url: /blog/create-ai-agent-chatbot-for-business/
 ---
 
 Ang AI agent chatbot ay nagiging mas popular sa business world dahil sa kakayahang mag-improve ng efficiency at customer experience. Ang artikulong ito ay magtuturo kung paano gumawa ng effective AI agent chatbot para sa iyong negosyo.

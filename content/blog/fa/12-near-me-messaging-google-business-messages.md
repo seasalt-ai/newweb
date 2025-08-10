@@ -1,21 +1,17 @@
 ---
-aliases:
-- /blog/12-near-me-messaging-complements-google-business-messages/
-author: Ruli Setiawati
-canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+title: "Near Me Messaging مکمل پیام‌های کسب‌وکار Google"
+metatitle: "Near Me Messaging مکمل پیام‌های کسب‌وکار Google"
 date: 2022-04-12 21:12:16-07:00
-description: Near Me Messaging هوش مصنوعی مکالمه‌ای را با پیام‌های کسب‌وکار Google
-  ادغام می‌کند و از طریق دکمه چت در نمایه Google Maps شما، پشتیبانی 24/7 را فراهم
-  می‌کند.
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
-metatitle: Near Me Messaging مکمل پیام‌های کسب‌وکار Google
-modified_date: '2025-07-28T16:56:53Z'
-tags:
-- NearMe
-title: Near Me Messaging مکمل پیام‌های کسب‌وکار Google
-url: /blog/near-me-messaging-complements-google-business-messages/
+author: Ruli Setiawati
+description: "Near Me Messaging هوش مصنوعی مکالمه‌ای را با پیام‌های کسب‌وکار Google ادغام می‌کند و از طریق دکمه چت در نمایه Google Maps شما، پشتیبانی 24/7 را فراهم می‌کند."
 weight: 1
+tags:
+  - NearMe
+image: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+canonicalURL: /blog/near-me-messaging-complements-google-business-messages/
+url: /blog/near-me-messaging-complements-google-business-messages/
 ---
 
 

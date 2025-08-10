@@ -1,16 +1,17 @@
 ---
 title: "分散型コンタクトセンターでコンタクトセンターのフットプリントを拡大する"
 metatitle: "分散型コンタクトセンターでフットプリントを拡大する"
-date: 2022-07-27T21:46:45Z
-author: Sarah Reid
+date: 2022-07-27 21:46:45+00:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
-image: images/blog/20-seax-distributed-contact-center/0-main.png
+author: Sarah Reid
 description: "このブログでは、「分散型」コンタクトセンターについて、その内容、メリット、そしてSeaXがどのようにこれを利用して顧客にサービスを提供しているかを見ていきます。"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-distributed-contact-center/"
-url: "/blog/seax-distributed-contact-center/"
-modified_date: "2025-07-28T16:56:53Z"
+tags:
+  - SeaX
+image: images/blog/20-seax-distributed-contact-center/0-main.png
+canonicalURL: /blog/seax-distributed-contact-center/
+url: /blog/seax-distributed-contact-center/
 ---
 
 *以前のブログ記事「[SeaXオムニチャネルコミュニケーションで顧客をあらゆるチャネルから一箇所に集める](https://seasalt.ai/blog/19-seax-omnichannel-communication/)」では、SeaXプラットフォームにおけるオムニチャネルコミュニケーションの力を示しました。これにより、事実上あらゆるチャネルからのユーザーメッセージをSeaXプラットフォームに表示できます。この記事では、「分散型」コンタクトセンターについて見ていきます。その内容、メリット、そしてSeaXが分散型プラットフォームをどのように活用して顧客にサービスを提供しているかを見ていきます。*

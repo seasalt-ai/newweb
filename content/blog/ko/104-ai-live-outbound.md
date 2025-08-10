@@ -1,17 +1,20 @@
 ---
 title: "실시간 전화 고객 서비스와 음성 AI 에이전트를 통한 자동 아웃바운드 전화: 기업을 위한 실용적인 조언 (4/5)"
 metatitle: "Seasalt.ai | AI 아웃바운드 전화 | 실시간 고객 서비스 | 음성 AI"
-date: 2024-10-30T00:22:19-07:00
+date: 2024-10-30 00:22:19-07:00
+modified_date: 2025-08-03 00:35:01+00:00
 draft: false
 author: Jun Mao
 description: "실시간과 AI 기반 아웃바운드 전화의 기업에 대한 장단점을 탐색해보세요—비용, 확장성 및 효율성을 비교합니다."
 weight: 1
-tags: ["자동 텔레마케팅 서비스", "소규모 비즈니스를 위한 아웃바운드 전화", "SeaChat", "음성 AI"]
-toc: true
+tags:
+  - 자동 텔레마케팅 서비스
+  - 소규모 비즈니스를 위한 아웃바운드 전화
+  - SeaChat
+  - 음성 AI
 image: /images/blog/104-ai-live-outbound/104-ai-live-outbound.svg
-canonicalURL: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-url: "/blog/live-human-agents-vs-voice-ai-live-outbound-calls/"
-modified_date: 2025-08-03T00:35:01Z
+canonicalURL: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
+url: /blog/live-human-agents-vs-voice-ai-live-outbound-calls/
 ---
 
 ---

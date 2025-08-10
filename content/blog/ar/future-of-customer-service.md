@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: اكتشف كيف يعيد الذكاء الاصطناعي والأتمتة تشكيل خدمة العملاء مع الحفاظ
@@ -13,6 +12,8 @@ tags:
 - تجربة العملاء
 - اتجاهات التكنولوجيا
 title: 'مستقبل خدمة العملاء: الذكاء الاصطناعي، الأتمتة، والتواصل البشري'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

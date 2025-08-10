@@ -1,18 +1,17 @@
 ---
 title: "Cum să gestionați eficient mai multe întâlniri paralele cu SeaMeet"
 metatitle: "Cum să gestionați eficient mai multe întâlniri paralele cu SeaMeet"
-date: 2023-11-08T10:25:00-08:00
+date: 2023-11-08 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Atunci când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice? Analiza în timp real a înregistrărilor întâlnirilor a devenit un instrument esențial pentru companii pentru a îmbunătăți eficiența și calitatea comunicării. Prin analiza în timp real, companiile se pot asigura că fiecare discuție este înregistrată cu precizie, făcând procesul decizional mai eficient și mai precis.
+description: "Odată cu apariția modelelor lingvistice mari precum ChatGPT, AI-ul generativ a deschis noi domenii de explorare. Atunci când AI-ul este combinat cu recunoașterea vocală, oferă posibilități fără precedent pentru analiza întâlnirilor în timp real. Dar ce înseamnă acest lucru pentru operațiunile de afaceri zilnice? Analiza în timp real a înregistrărilor întâlnirilor a devenit un instrument esențial pentru companii pentru a îmbunătăți eficiența și calitatea comunicării. Prin analiza în timp real, companiile se pot asigura că fiecare discuție este înregistrată cu precizie, făcând procesul decizional mai eficient și mai precis."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "În mediul de lucru modern, cu ritm rapid, este obișnuit ca mai multe întâlniri să aibă loc simultan. Aceasta reprezintă o provocare uriașă pentru directorii și managerii ocupați. Dacă ar putea, ar dori să participe la fiecare întâlnire, dar din cauza constrângerilor de timp și fizice, acest lucru este adesea imposibil."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Provocarea întâlnirilor multiple simultane

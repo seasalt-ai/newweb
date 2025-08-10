@@ -1,18 +1,16 @@
 ---
 title: "الدليل النهائي لتمكين الدردشة على خرائط Google للتواصل مع العملاء"
 metatitle: "الدليل النهائي لتمكين الدردشة على خرائط Google"
-date: 2022-04-29T20:39:13-07:00
-modified_date: 2025-07-28T00:00:00Z
-author: Ruli Setiawati
+date: 2022-04-29 20:39:13-07:00
+modified_date: 2025-07-28 00:00:00+00:00
 draft: false
-image: "images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png"
+author: Ruli Setiawati
 description: "في هذه المدونة، سنلقي نظرة على الطرق الثلاث المختلفة لتمكين دردشة خرائط Google بهذه الطرق الثلاث المختلفة للتواصل بشكل أفضل مع العملاء."
-tags: ["NearMe"]
-toc: true
-canonicalURL: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-url: "/blog/enable-chat-on-google-maps-to-connect-with-customers/"
-aliases: 
-  -  /blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers
+tags:
+  - NearMe
+image: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+canonicalURL: /blog/enable-chat-on-google-maps-to-connect-with-customers/
+url: /blog/enable-chat-on-google-maps-to-connect-with-customers/
 ---
 
 *تعد دردشة خرائط Google طريقة رائعة للشركات للتواصل مع العملاء. هناك طرق مختلفة لتمكين دردشة خرائط Google: طريقة يدوية باستخدام ملف تعريف نشاطي التجاري على Google، وطريقة تلقائية باستخدام رسائل Google للأعمال، وطريقة تجمع أفضل ما في العالمين باستخدام Near Me Messaging. ستوضح لك هذه المدونة كيفية تمكين دردشة خرائط Google باستخدام هذه الطرق الثلاث المختلفة.*

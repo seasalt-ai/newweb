@@ -1,16 +1,20 @@
 ---
 title: "Ecranul de apel AI pe Android și iPhone: Asistentul și portarul tău personal"
 metatitle: "Ecrane de apel AI | Asistent personal pe Android și iPhone"
-date: 2023-12-17T10:25:00-08:00
+date: 2023-12-17 10:25:00-08:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
 author: Xuchen Yao
-description: Descoperiți viitorul gestionării apelurilor cu un agent de apel AI! De la filtrarea spammerilor la programarea întâlnirilor, este asistentul și portarul dvs. personal 24/7.
+description: "Descoperiți viitorul gestionării apelurilor cu un agent de apel AI! De la filtrarea spammerilor la programarea întâlnirilor, este asistentul și portarul dvs. personal 24/7."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
-canonicalURL: "/blog/seachat-voice-ai-gatekeeper/"
-url: "/blog/seachat-voice-ai-gatekeeper/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/seachat-voice-ai-gatekeeper/
+url: /blog/seachat-voice-ai-gatekeeper/
 ---
 
 Ați dorit vreodată să aveți un asistent personal care să vă gestioneze apelurile telefonice, să filtreze spammerii și escrocii și chiar să vă programeze întâlniri? Nu mai căutați, pentru că un agent de apel AI poate face toate acestea și multe altele! Acționând ca recepția și portarul dvs. gratuit, această tehnologie remarcabilă revoluționează gestionarea apelurilor, asigurându-vă că nu veți pierde niciodată un apel important și economisind timp prețios și liniște sufletească.

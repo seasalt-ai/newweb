@@ -1,16 +1,16 @@
 ---
 title: "Selamat Tinggal Google My Business, Kini Google Maps Adalah OS Baru untuk Bisnis"
 metatitle: "Selamat Tinggal GMB, Google Maps Adalah OS Baru untuk Bisnis"
-date: 2022-04-06T11:11:16-07:00
-author: Xuchen Yao, Ruli Setiawati
-image: "images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png"
+date: 2022-04-06 11:11:16-07:00
+modified_date: 2025-07-28 16:03:25.123456
 draft: false
+author: Xuchen Yao, Ruli Setiawati
 description: "Google mengganti aplikasi Google My Business dengan Google Maps, di mana bisnis dapat mengelola informasi mereka dan membalas pesan pelanggan di Google Maps."
-weight: 1  
+weight: 1
 tags: []
-canonicalURL: "/blog/google-maps-replaces-google-my-business/"
-url: "/blog/google-maps-replaces-google-my-business/"
-modified_date: "2025-07-28T16:03:25.123456"
+image: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+canonicalURL: /blog/google-maps-replaces-google-my-business/
+url: /blog/google-maps-replaces-google-my-business/
 ---
 
 *Menghubungkan bisnis secara langsung dengan konsumen melalui Google Maps memberikan pengalaman yang mulus bagi pengalaman berbelanja konsumen. Ini adalah langkah strategis yang hebat bagi Google untuk mengubah Google Maps menjadi sistem operasi baru untuk pencarian lokal bisnis "di dekat saya".*

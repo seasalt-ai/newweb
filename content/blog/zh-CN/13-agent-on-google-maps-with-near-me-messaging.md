@@ -1,18 +1,17 @@
 ---
 title: "通过附近消息在 Google 地图上启动您的虚拟代理"
 metatitle: "通过附近消息在 Google 地图上启动您的虚拟代理"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "通过附近消息在 Google 商家消息上启动您的虚拟代理。"
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-Google-Maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: "2025-07-29T17:35:15Z"
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-Google-Maps-with-near-me-messaging/
 ---
 
 我们之前已经向您介绍了 [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) 及其优势。Near Me Messaging 实现了 Google 商家消息虚拟代理，可直接从商家 Google 地图资料上的聊天按钮访问。Near Me Messaging 的虚拟代理由最先进的自然语言理解技术提供支持，可提供类似人类的响应。Near Me Messaging 与同类服务的不同之处在于其 5 分钟的设置时间、自助式定制和内置的实时聊天支持。

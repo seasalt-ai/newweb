@@ -1,17 +1,20 @@
 ---
 title: "外呼自动拨号器：Power Dialer vs. Progressive Dialer vs. Predictive Dialer (3/5)"
 metatitle: "Seasalt.ai | 实时外呼 | 自动拨号器"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
 author: Jun Mao
 description: "比较 Power Dialer、Progressive Dialer 和 Predictive Dialer，以实现电话营销和销售中高效、可扩展的外呼。"
 weight: 1
-tags: ["自动电话营销服务", "小型企业外呼", "自动拨号器", "语音 AI"]
-toc: true
+tags:
+  - 自动电话营销服务
+  - 小型企业外呼
+  - 自动拨号器
+  - 语音 AI
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

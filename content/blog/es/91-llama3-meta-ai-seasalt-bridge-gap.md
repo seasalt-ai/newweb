@@ -1,16 +1,19 @@
 ---
 title: "Meta Llama 3 y la importancia de cerrar la brecha entre los modelos de IA y las aplicaciones empresariales"
 metatitle: "Meta Llama 3 | Cerrando la brecha entre los modelos de IA y las aplicaciones empresariales"
-date: 2024-05-01T00:22:19-07:00
+date: 2024-05-01 00:22:19-07:00
+modified_date: 2025-07-28 16:56:53+00:00
 draft: false
 author: Amy Chen
-description: El lanzamiento de Llama 3 de Meta AI destaca la necesidad de soluciones que cierren la brecha entre los potentes modelos de IA y las aplicaciones empresariales prácticas. Aprenda cómo Seasalt.ai construye productos de IA conversacional personalizados para cerrar esta brecha y resolver desafíos del mundo real.
+description: "El lanzamiento de Llama 3 de Meta AI destaca la necesidad de soluciones que cierren la brecha entre los potentes modelos de IA y las aplicaciones empresariales prácticas. Aprenda cómo Seasalt.ai construye productos de IA conversacional personalizados para cerrar esta brecha y resolver desafíos del mundo real."
 weight: 1
-tags: ["SeaChat", "SeaMeet", "Conversational AI"]
+tags:
+  - SeaChat
+  - SeaMeet
+  - Conversational AI
 image: /images/blog/91-llama3-meta-ai-seasalt-bridge-gap/91-llama3-meta-ai-seasalt-bridge-gap.png
-canonicalURL: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-url: "/blog/llama3-meta-ai-seasalt-bridge-gap/"
-modified_date: "2025-07-28T16:56:53Z"
+canonicalURL: /blog/llama3-meta-ai-seasalt-bridge-gap/
+url: /blog/llama3-meta-ai-seasalt-bridge-gap/
 ---
 
 # Meta AI y Llama3

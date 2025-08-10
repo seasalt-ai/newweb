@@ -1,15 +1,17 @@
 ---
 title: "Discord (1/3): O nouă frontieră pentru implicarea clienților"
-date: 2022-05-23T13:05:36-07:00
-author: Kim Dodds
-image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
-description: "În acest blog, vom discuta despre creșterea popularității Discord și de ce/cum companiile încep să folosească Discord pentru a-și îmbunătăți implicarea clienților."
+date: 2022-05-23 13:05:36-07:00
+modified_date: 2025-08-01T12:00:00Z
 draft: false
+author: Kim Dodds
+description: "În acest blog, vom discuta despre creșterea popularității Discord și de ce/cum companiile încep să folosească Discord pentru a-și îmbunătăți implicarea clienților."
 weight: 1
-tags: ["SeaX", "Discord"]
-canonicalURL: "/blog/discord-a-new-frontier-for-customer-engagement/"
-url: "/blog/discord-a-new-frontier-for-customer-engagement/"
-modified_date: "2025-08-01T12:00:00Z"
+tags:
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
 
 *Numărul de utilizatori ai Discord a crescut vertiginos în ultimii ani, iar platforma s-a rebranduit acum ca „casa pentru comunitățile și prietenii tăi”. În acest blog, vom discuta despre creșterea popularității Discord și de ce/cum companiile încep să folosească Discord pentru a-și îmbunătăți implicarea clienților.*

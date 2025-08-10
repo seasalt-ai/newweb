@@ -1,16 +1,19 @@
 ---
 title: "ActiveCampaign vs. MailerLite: Perkhidmatan Pemasaran E-mel Mana yang Sesuai untuk Anda pada 2025?"
 metatitle: "ActiveCampaign vs. MailerLite | Perkhidmatan Pemasaran E-mel 2025?"
-date: 2024-04-01T10:25:00-08:00
-author: Xuchen Yao
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2024-07-19T00:00:00Z
 draft: false
+author: Xuchen Yao
 description: "MailerLite vs. ActiveCampaign, perkhidmatan e-mel mana yang sesuai untuk anda? Analisis mendalam kami membandingkan ciri, harga dan banyak lagi."
 weight: 1
-tags: ["SeaChat", "Ecommerce", "Email Marketing"]
+tags:
+  - SeaChat
+  - Ecommerce
+  - Email Marketing
 image: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/activecampaign-vs-mailerlite-2025/"
-url: "/blog/activecampaign-vs-mailerlite-2025/"
-modified_date: "2024-07-19T00:00:00Z"
+canonicalURL: /blog/activecampaign-vs-mailerlite-2025/
+url: /blog/activecampaign-vs-mailerlite-2025/
 ---
 
 Adakah anda ingin tahu tentang pemasaran e-mel? Dari mencari perisian pemasaran e-mel terbaik hingga membina strategi pemasaran e-mel yang berjaya, alat serba boleh ini menawarkan pelbagai kemungkinan. Ketahui cara menargetkan pelanggan, mendapatkan kerja pemasaran e-mel, dan menggunakan automasi e-mel untuk memacu hasil perniagaan. Sebelum kita mendalami semua butiran ini, mari bantu anda memilih alat pemasaran e-mel yang betul. Hari ini, kami akan membandingkan dua alat popular, [ActiveCampaign](https://www.activecampaign.com/) dan [MailerLite](https://www.mailerlite.com/) untuk rujukan anda.

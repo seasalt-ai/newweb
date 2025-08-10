@@ -1,17 +1,20 @@
 ---
 title: "Cara Memilih Layanan Panggilan Keluar Terbaik: Agen Langsung vs. Auto Dialer vs. AI Suara (5/5)"
 metatitle: "Seasalt.ai | Pilih Layanan Panggilan Keluar Terbaik"
-date: 2024-11-06T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-11-06 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Jelajahi agen langsung, auto dialer, dan AI Suara untuk memilih solusi panggilan keluar terbaik untuk kebutuhan bisnis Anda."
 weight: 1
-tags: ["Layanan Telemarketing Otomatis", "Panggilan Keluar untuk Usaha Kecil", "Auto Dialer", "AI Suara"]
-toc: true
+tags:
+  - Layanan Telemarketing Otomatis
+  - Panggilan Keluar untuk Usaha Kecil
+  - Auto Dialer
+  - AI Suara
 image: /images/blog/106-choose-best-outbound-service/106-choose-best-outbound-service.svg
-canonicalURL: "/blog/choose-best-outbound-service/"
-url: "/blog/choose-best-outbound-service/"
+canonicalURL: /blog/choose-best-outbound-service/
+url: /blog/choose-best-outbound-service/
 ---
 
 ---

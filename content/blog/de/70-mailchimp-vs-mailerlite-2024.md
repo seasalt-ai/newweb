@@ -1,16 +1,19 @@
 ---
 title: "Mailchimp vs. MailerLite: Welcher E-Mail-Marketing-Service ist 2025 der richtige für Sie?"
 metatitle: "Mailchimp vs. MailerLite | E-Mail-Marketing-Service 2025?"
-date: 2024-04-01T10:25:00-08:00
+date: 2024-04-01 10:25:00-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
-description: MailerLite vs. Mailchimp, Welcher E-Mail-Service ist der richtige für Sie? Unser ausführlicher Vergleich schlüsselt Funktionen, Preise und mehr auf.
+description: "MailerLite vs. Mailchimp, Welcher E-Mail-Service ist der richtige für Sie? Unser ausführlicher Vergleich schlüsselt Funktionen, Preise und mehr auf."
 weight: 1
-tags: ["SeaChat", "E-Commerce", "E-Mail-Marketing"]
+tags:
+  - SeaChat
+  - E-Commerce
+  - E-Mail-Marketing
 image: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
-canonicalURL: "/blog/mailchimp-vs-mailerlite-2025/"
-url: "/blog/mailchimp-vs-mailerlite-2025/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/mailchimp-vs-mailerlite-2025/
+url: /blog/mailchimp-vs-mailerlite-2025/
 ---
 
 E-Mail-Marketing ist nach wie vor ein leistungsstarkes Instrument für Unternehmen jeder Größe. Egal, ob Sie nach Jobs im E-Mail-Marketing suchen, die beste E-Mail-Marketing-Software suchen oder nach umsetzbaren E-Mail-Marketing-Tipps suchen, Sie müssen über das beste Tool auf dem Markt Bescheid wissen. Heute vergleichen wir zwei beliebte E-Mail-Marketing-Tools, [Mailchimp](https://mailchimp.com/) und [MailerLite](https://www.mailerlite.com/), für Ihre Überlegungen.

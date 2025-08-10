@@ -1,18 +1,19 @@
 ---
 title: "SeaX + SeaChat: Asistentes de Voz con IA Revolucionan el Cuidado de Ancianos"
 metatitle: "SeaX + SeaChat: Revolucionando el Cuidado de Ancianos con Asistentes de Voz con IA - Aplicación Exitosa de Llamadas de Cuidado Inteligentes"
-date: 2024-08-16T00:22:19-07:00
+date: 2024-08-16 00:22:19-07:00
+modified_date: 2024-08-01 00:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Explore cómo el sistema de asistente de voz con IA SeaX + SeaChat puede abordar los desafíos del cuidado de ancianos en la sociedad superenvejecida de Taiwán. Aprenda cómo las llamadas de cuidado inteligentes mejoran la calidad de vida de los ancianos, brindando atención inmediata, compañía emocional y monitoreo de la salud, al tiempo que abordan la escasez de mano de obra."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/92-senior-hotline-using-voicebot/92-senior-hotline-using-voicebot.jpg
-canonicalURL: "/blog/senior-hotline-using-voicebot/"
-url: "/blog/senior-hotline-using-voicebot/"
-summary: 'A medida que Taiwán transita hacia una sociedad superenvejecida, el cuidado de ancianos enfrenta desafíos sin precedentes. Según datos del Consejo Nacional de Desarrollo, la proporción de la población anciana en Taiwán se acercará al 20% para 2024, y se espera que entre oficialmente en una sociedad superenvejecida para 2025. Dado este cambio demográfico, cómo proporcionar eficazmente atención inmediata, servicios diversos y abordar el problema de la escasez de mano de obra se ha convertido en los tres desafíos principales que enfrenta actualmente la industria de cuidados a largo plazo.'
-modified_date: 2024-08-01T00:00:00Z
+canonicalURL: /blog/senior-hotline-using-voicebot/
+url: /blog/senior-hotline-using-voicebot/
 ---
 
 A medida que Taiwán transita hacia una sociedad superenvejecida, el cuidado de ancianos enfrenta desafíos sin precedentes. Según datos del Consejo Nacional de Desarrollo, la proporción de la población anciana en Taiwán se acercará al 20% para 2024, y se espera que entre oficialmente en una sociedad superenvejecida para 2025. Dado este cambio demográfico, cómo proporcionar eficazmente atención inmediata, servicios diversos y abordar el problema de la escasez de mano de obra se ha convertido en los tres desafíos principales que enfrenta actualmente la industria de cuidados a largo plazo.

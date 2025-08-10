@@ -1,16 +1,18 @@
 ---
 title: "用客製化ChatGPT機器人做創新行銷"
 metatitle: "用客製化ChatGPT機器人做創新行銷 | 用SeaChat做新一代聊天機器人系列"
-date: 2023-11-06T10:25:00-08:00
+date: 2023-11-06 10:25:00-08:00
 draft: false
 author: Xuchen Yao
-description: 探索如何利用客製化的ChatGPT機器人為行銷活動注入新活力。從創新互動到提升品牌形象，本文為您揭示AI在行銷中的無限潛力。
+description: "探索如何利用客製化的ChatGPT機器人為行銷活動注入新活力。從創新互動到提升品牌形象，本文為您揭示AI在行銷中的無限潛力。"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Customer Experience"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Customer Experience
 image: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
-canonicalURL: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-url: "/blog/how-to-utilize-custom-chatbot-in-marketing/"
-summary: "探索如何利用客製化的ChatGPT機器人為行銷活動注入新活力。從創新互動到提升品牌形象，本文為您揭示AI在行銷中的無限潛力。"
+canonicalURL: /blog/how-to-utilize-custom-chatbot-in-marketing/
+url: /blog/how-to-utilize-custom-chatbot-in-marketing/
 ---
 
 在數位行銷的快速變化中，行銷機構持續尋找能夠吸引客戶並創造獨特品牌體驗的新策略。隨著人工智能的興起，客製化的ChatGPT機器人出現了，為行銷專業人士提供了一個創新的工具來吸引和互動客戶。

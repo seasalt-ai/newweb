@@ -1,16 +1,19 @@
 ---
 title: "Automated Phone Answering Systems (Interactive Voice Response vs. Voice AI Agents): The Best Choices for Small Businesses (3/5)"
 metatitle: "Automated Answering Systems (Interactive Voice Response vs. Voice AI)"
-date: 2024-09-19T00:22:19-07:00
+date: 2024-09-19 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore Interactive Voice Response and Voice AI options for automated phone systems in small businesses."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/98-inbound-answering-automated-system/98-inbound-answering-automated-system.svg
-canonicalURL: "/blog/inbound-answering-automated-system/"
-url: "/blog/inbound-answering-automated-system/"
+canonicalURL: /blog/inbound-answering-automated-system/
+url: /blog/inbound-answering-automated-system/
 ---
 
 

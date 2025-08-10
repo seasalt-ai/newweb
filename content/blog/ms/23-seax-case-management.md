@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Kawal Penjejakan Kes Pusat Hubungan Anda"
 metatitle: "SeaX Case Management: Jejaki Interaksi Pelanggan Anda"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Dalam catatan ini, kami meneroka integrasi AI dengan Pengurusan Kes, yang memberikan ejen anda alat untuk menjejak dan merekod interaksi dengan pelanggan anda dalam SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Dalam catatan blog kami yang sebelumnya, [SeaX KB: Pangkalan Pengetahuan yang Menjawab Sebelum Ditanya](https://seasalt.ai/blog/22-seax-knowledge-base/), kami menunjukkan bagaimana Pangkalan Pengetahuan Seasalt.ai yang dibangunkan sendiri meletakkan maklumat syarikat anda terus di hujung jari ejen anda, meningkatkan kecekapan dan ketepatan di pusat hubungan anda. Dalam catatan ini, kami meneruskan topik integrasi AI dengan sistem Pengurusan Kes SeaX, yang memberikan ejen anda alat yang berkuasa untuk menjejak dan merekod interaksi dengan pelanggan anda secara langsung dalam antara muka SeaX.*

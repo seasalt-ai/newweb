@@ -1,18 +1,20 @@
 ---
 title: "Cum să creați un chatbot agent vocal AI minunat pentru afacerea dvs. cu o conexiune telefonică 24/7"
 metatitle: "Creați un agent vocal AI | Conexiune telefonică 24/7 pentru afaceri"
-date: 2023-12-24T10:25:00-08:00
+date: 2023-12-24 10:25:00-08:00
+modified_date: 2025-08-01 12:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Descoperiți ghidul suprem pentru dezvoltarea unui chatbot agent vocal AI pentru afacerea dvs. și conectați-l la un sistem telefonic 24x7 pentru un serviciu clienți excelent.
+description: "Descoperiți ghidul suprem pentru dezvoltarea unui chatbot agent vocal AI pentru afacerea dvs. și conectați-l la un sistem telefonic 24x7 pentru un serviciu clienți excelent."
 weight: 1
-tags: ["SeaChat", "Agent vocal", "Instrumente AI", "Experiența clientului"]
+tags:
+  - SeaChat
+  - Agent vocal
+  - Instrumente AI
+  - Experiența clientului
 image: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
-canonicalURL: "/blog/create-ai-agent-chatbot-for-your-business/"
-url: "/blog/create-ai-agent-chatbot-for-your-business/"
-aliases:
-    - "/blog/62-how-to-create-ai-agent-chatbot-for-your-business/"
-modified_date: "2025-08-01T12:00:00Z"
+canonicalURL: /blog/create-ai-agent-chatbot-for-your-business/
+url: /blog/create-ai-agent-chatbot-for-your-business/
 ---
 
 În lumea rapidă de astăzi, să vorbim despre cum vă puteți îmbunătăți serviciul clienți. Știți ce este cool? Construirea unui chatbot agent vocal AI pentru afacerea dvs. și conectarea acestuia la un sistem telefonic 24x7! Această combinație este ca un supererou al serviciului clienți, economisind timp și bani, în timp ce vă uimește clienții. Așadar, haideți să ne scufundăm împreună în această călătorie epică!

@@ -1,17 +1,19 @@
 ---
 title: "Mengapa Perniagaan Kecil Memerlukan Perkhidmatan Panggilan Keluar/Telemarketing? (1/5)"
 metatitle: "Seasalt.ai | Siri Panggilan Keluar | Perniagaan Kecil"
-date: 2024-10-20T00:22:19-07:00
+date: 2024-10-20 00:22:19-07:00
+modified_date: 2025-07-29 17:35:15+00:00
 draft: false
 author: Jun Mao
 description: "Terokai ejen langsung, pendail automatik dan AI Suara untuk memilih penyelesaian panggilan keluar terbaik untuk keperluan perniagaan anda."
 weight: 1
-tags: ["Perkhidmatan Telemarketing Auto", "Panggilan Keluar untuk Perniagaan Kecil", "AI Suara"]
-toc: true
+tags:
+  - Perkhidmatan Telemarketing Auto
+  - Panggilan Keluar untuk Perniagaan Kecil
+  - AI Suara
 image: /images/blog/107-why-outbound-call-sm-business/107-why-outbound-call-sm-business.svg
-canonicalURL: "/blog/why-outbound-call-sm-business/"
-url: "/blog/why-outbound-call-sm-business/"
-modified_date: "2025-07-29T17:35:15Z"
+canonicalURL: /blog/why-outbound-call-sm-business/
+url: /blog/why-outbound-call-sm-business/
 ---
 ---
 

@@ -1,17 +1,20 @@
 ---
 title: "텔레마케팅 아웃바운드 콜을 위한 사내 vs. 아웃소싱: 기업을 위한 실용적인 권장 사항 (2/5)"
 metatitle: "Seasalt.ai | 라이브 아웃바운드 콜 | 사내 vs. 아웃소싱"
-date: 2024-10-23T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-23 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "사내 아웃바운드 콜과 아웃소싱 아웃바운드 콜을 비교하고, 비용, 기능, 그리고 고객 아웃리치를 최적화하기 위한 실용적인 팁을 얻으세요."
 weight: 1
-tags: ["자동 텔레마케팅 서비스", "소규모 기업을 위한 아웃바운드 콜", "SeaChat", "음성 AI"]
-toc: true
+tags:
+  - 자동 텔레마케팅 서비스
+  - 소규모 기업을 위한 아웃바운드 콜
+  - SeaChat
+  - 음성 AI
 image: /images/blog/103-live-outbound-inhouse-vs-outsourced/103-live-outbound-inhouse-vs-outsourced.svg
-canonicalURL: "/blog/live-outbound-inhouse-outsourced/"
-url: "/blog/live-outbound-inhouse-outsourced/"
+canonicalURL: /blog/live-outbound-inhouse-outsourced/
+url: /blog/live-outbound-inhouse-outsourced/
 ---
 
 ---

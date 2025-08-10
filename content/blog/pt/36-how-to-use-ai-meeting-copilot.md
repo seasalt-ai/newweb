@@ -1,17 +1,18 @@
 ---
 title: "Como usar a transcrição em tempo real e as notas de reunião de IA para melhorar a eficiência das reuniões da equipe?"
 metatitle: "Como usar a transcrição em tempo real e as notas de reunião de IA para melhorar a eficiência das reuniões da equipe?"
-date: 2023-10-02T10:25:00-08:00
-modified_date: 2025-07-30T17:30:00-08:00
+date: 2023-10-02 10:25:00-08:00
+modified_date: 2025-07-30 17:30:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Com o nascimento de grandes modelos de linguagem como o ChatGPT, a IA generativa abriu novas áreas de exploração. Quando a IA é combinada com o reconhecimento de fala, ela oferece possibilidades sem precedentes para a análise de reuniões em tempo real. Mas o que isso significa para as operações comerciais diárias? A análise em tempo real de gravações de reuniões tornou-se uma ferramenta essencial para as empresas melhorarem a eficiência e a qualidade da comunicação. Através da análise em tempo real, as empresas podem garantir que cada discussão seja registrada com precisão, tornando o processo de tomada de decisão mais eficiente e preciso."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/zh/blog/how-to-use-ai-meeting-copilot/"
-url: "/zh/blog/how-to-use-ai-meeting-copilot/"
-summary: "Com o nascimento de grandes modelos de linguagem como o ChatGPT, a IA generativa abriu novas áreas de exploração. Quando a IA é combinada com o reconhecimento de fala, ela oferece possibilidades sem precedentes para a análise de reuniões em tempo real. Mas o que isso significa para as operações comerciais diárias?"
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Com o nascimento de grandes modelos de linguagem como o ChatGPT, a IA generativa abriu novas áreas de exploração. Quando a IA é combinada com o reconhecimento de fala, ela oferece possibilidades sem precedentes para a análise de reuniões em tempo real. Mas o que isso significa para as operações comerciais diárias?

@@ -1,17 +1,18 @@
 ---
 title: "¿Cómo utilizar la transcripción en tiempo real y las notas de reuniones de IA para mejorar la eficiencia de las reuniones del equipo?"
 metatitle: "¿Cómo utilizar la transcripción en tiempo real y las notas de reuniones de IA para mejorar la eficiencia de las reuniones del equipo?"
-date: 2023-10-02T10:25:00-08:00
+date: 2023-10-02 10:25:00-08:00
+modified_date: 2025-08-02 11:19:35+00:00
 draft: false
 author: Xuchen Yao
-description: Con el nacimiento de modelos de lenguaje grandes como ChatGPT, la IA generativa ha abierto nuevos campos de exploración. Cuando la IA se combina con el reconocimiento de voz, proporciona posibilidades sin precedentes para el análisis de reuniones en tiempo real. Pero, ¿qué significa esto para las operaciones comerciales diarias? El análisis en tiempo real de las grabaciones de reuniones se ha convertido en una herramienta necesaria para que las empresas mejoren la eficiencia y la calidad de la comunicación.
+description: "Con el nacimiento de modelos de lenguaje grandes como ChatGPT, la IA generativa ha abierto nuevos campos de exploración. Cuando la IA se combina con el reconocimiento de voz, proporciona posibilidades sin precedentes para el análisis de reuniones en tiempo real. Pero, ¿qué significa esto para las operaciones comerciales diarias? El análisis en tiempo real de las grabaciones de reuniones se ha convertido en una herramienta necesaria para que las empresas mejoren la eficiencia y la calidad de la comunicación."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
-canonicalURL: "/es/blog/how-to-use-ai-meeting-copilot/"
-url: "/es/blog/how-to-use-ai-meeting-copilot/"
-summary: "Con el nacimiento de modelos de lenguaje grandes como ChatGPT, la IA generativa ha abierto nuevos campos de exploración. Cuando la IA se combina con el reconocimiento de voz, proporciona posibilidades sin precedentes para el análisis de reuniones en tiempo real."
-modified_date: "2025-08-02T11:19:35Z"
+canonicalURL: blog/how-to-use-ai-meeting-copilot/
+url: blog/how-to-use-ai-meeting-copilot/
 ---
 
 Con el nacimiento de modelos de lenguaje grandes como ChatGPT, la IA generativa ha abierto nuevos campos de exploración. Cuando la IA se combina con el reconocimiento de voz, proporciona posibilidades sin precedentes para el análisis de reuniones en tiempo real. Pero, ¿qué significa esto para las operaciones comerciales diarias?

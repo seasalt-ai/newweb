@@ -1,17 +1,20 @@
 ---
 title: "Composeurs automatiques pour les appels sortants : Composeur de puissance vs. Composeur progressif vs. Composeur prédictif (3/5)"
 metatitle: "Seasalt.ai | Appels sortants en direct | Composeurs automatiques"
-date: 2024-10-27T00:22:19-07:00
-modified_date: "2025-07-26T16:48:39Z"
+date: 2024-10-27 00:22:19-07:00
+modified_date: 2025-07-26T16:48:39Z
 draft: false
 author: Jun Mao
 description: "Comparez les composeurs de puissance, progressifs et prédictifs pour des appels sortants efficaces et évolutifs en télémarketing et ventes."
 weight: 1
-tags: ["Service de télémarketing automatique", "Appel sortant pour les petites entreprises", "Composeur automatique", "IA vocale"]
-toc: true
+tags:
+  - Service de télémarketing automatique
+  - Appel sortant pour les petites entreprises
+  - Composeur automatique
+  - IA vocale
 image: /images/blog/105-auto-dialer-outbound/105-auto-dialer-outbound.svg
-canonicalURL: "/blog/auto-dialer-outbound/"
-url: "/blog/auto-dialer-outbound/"
+canonicalURL: /blog/auto-dialer-outbound/
+url: /blog/auto-dialer-outbound/
 ---
 
 ---

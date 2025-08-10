@@ -1,16 +1,17 @@
 ---
 title: "นำลูกค้าจากทุกช่องทางมาสู่ที่เดียวด้วย SeaX การสื่อสารแบบ Omnichannel"
 metatitle: "รวมวิธีการติดต่อลูกค้าด้วย SeaX การสื่อสารแบบ Omnichannel"
-date: 2022-07-15T13:56:54-07:00
-author: Kim Dodds 
+date: 2022-07-15 13:56:54-07:00
+modified_date: 2024-12-19 10:00:00+00:00
 draft: false
-image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+author: Kim Dodds
 description: "ในบล็อกนี้ เราเน้นการสื่อสารแบบ Omnichannel หนึ่งของ SeaX ที่ช่วยให้ข้อความของผู้ใช้จากทุกช่องทางแสดงบนแพลตฟอร์ม SeaX"
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-omnichannel-communication/"
-url: "/blog/seax-omnichannel-communication/"
-modified_date: 2024-12-19T10:00:00Z
+tags:
+  - SeaX
+image: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+canonicalURL: /blog/seax-omnichannel-communication/
+url: /blog/seax-omnichannel-communication/
 ---
 
 *ในบล็อกก่อนหน้าของเรา [ยินดีต้อนรับสู่ SeaX ศูนย์ติดต่อแบบร่วมมือบนคลาวด์](https://seasalt.ai/blog/18-seax-collaborative-cloud-contact-center-introduction/) เราได้แนะนำโซลูชันศูนย์ติดต่อการสื่อสารแบบร่วมมือบนคลาวด์ SeaX ของเรา แม้ว่าบล็อกแรกของเราจะให้ภาพรวมที่ครอบคลุมของฟีเจอร์พื้นฐานและความสามารถขั้นสูงของ SeaX แต่บล็อกต่อๆ ไปของเราจะเจาะลึกไปยังฟีเจอร์เฉพาะบางอย่างที่ทำให้ SeaX โดดเด่น ในบทความนี้ เราจะดูการสนับสนุน Omnichannel ของ SeaX อย่างใกล้ชิดและเข้าใจว่าการโทรและข้อความจากช่องทางต่างๆ แสดงบนแพลตฟอร์ม SeaX อย่างไร*

@@ -1,6 +1,5 @@
 ---
 author: Dr. Emily Watson
-canonicalURL: /blog/best-ecommerce-sites-with-chatbot-support-2025/
 date: '2024-12-05'
 image_thumbnail: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800
 meta_description: کشف کنید که چگونه هوش مصنوعی و اتوماسیون در حال تغییر شکل خدمات
@@ -14,6 +13,8 @@ tags:
 - تجربه مشتری
 - روندهای فناوری
 title: 'آینده خدمات مشتری: هوش مصنوعی، اتوماسیون و ارتباط انسانی'
+canonicalURL: /blog/future-of-customer-service/
+url: /blog/future-of-customer-service/
 ---
 
 

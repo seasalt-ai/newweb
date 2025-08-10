@@ -1,18 +1,17 @@
 ---
 title: "從演示到成功：現代會議語音算法的突破 (3/5)"
 metatitle: "從演示到成功 (3/5)：現代會議語音算法的突破"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "在本系列部落格的第三部分，跟隨 Seasalt.ai 創建 SeaMeet 協作現代會議解決方案的旅程。"
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 在本系列部落格中，跟隨 Seasalt.ai 創建完整現代會議體驗的旅程，從最初的起步，到在不同硬體和模型上的優化，再到整合最先進的 NLP 系統，最終實現 SeaMeet 協作現代會議解決方案。

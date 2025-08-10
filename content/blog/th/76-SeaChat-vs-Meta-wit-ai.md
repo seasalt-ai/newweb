@@ -1,15 +1,19 @@
 ---
 title: "SeaChat vs Meta wit.ai: ทำไมควรอัปเกรดจาก wit.ai สู่ SeaChat เพื่อ AI สนทนา"
 metatitle: "SeaChat vs. Meta (Facebook) wit.ai"
-date: 2024-03-16T00:22:19-07:00
+date: 2024-03-16 00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Meta/Facebook wit.ai ล้าสมัยแล้วหรือยัง? ค้นพบ SeaChat - ก้าวข้ามข้อจำกัดของ chatbot แบบเดิมด้วยเทคโนโลยี LLM สร้างบทสนทนา AI ที่เป็นธรรมชาติและมีชีวิตชีวา"
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/76-SeaChat-vs-Meta-wit-ai/blog-banner.png
-canonicalURL: "/blog/seachat-vs-meta-wit-ai/"
-url: "/blog/seachat-vs-meta-wit-ai/"
+canonicalURL: /blog/seachat-vs-meta-wit-ai/
+url: /blog/seachat-vs-meta-wit-ai/
 ---
 
 โลกของแชทบอทกำลังพัฒนาอย่างรวดเร็ว แม้ Meta/Facebook [wit.ai](http://wit.ai) จะเป็นจุดเริ่มต้นสำหรับการสร้างแอปพลิเคชันเสียง แต่เทคโนโลยี LLM อย่าง [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ได้เปลี่ยนโฉมหน้าของ AI สนทนาอย่างสิ้นเชิง ทิ้งข้อจำกัดของ wit.ai ไว้เบื้องหลัง ถึงเวลายกระดับแชทบอทของคุณหรือยัง?

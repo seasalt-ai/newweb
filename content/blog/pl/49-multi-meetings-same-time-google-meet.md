@@ -1,19 +1,18 @@
 ---
 title: "Jak skutecznie zarządzać wieloma równoległymi spotkaniami z SeaMeet"
 metatitle: "Jak skutecznie zarządzać wieloma równoległymi spotkaniami z SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Z pojawieniem się dużych modeli językowych jak ChatGPT, generatywna AI otworzyła nowe domeny eksploracji. Gdy AI łączy się z rozpoznawaniem mowy, zapewnia bezprecedensowe możliwości analizy spotkań w czasie rzeczywistym. Ale co to oznacza dla codziennych operacji biznesowych? Analiza w czasie rzeczywistym nagrań spotkań stała się niezbędnym narzędziem dla firm do poprawy efektywności i jakości komunikacji. Poprzez analizę w czasie rzeczywistym firmy mogą zapewnić, że każda dyskusja jest dokładnie udokumentowana, co czyni proces podejmowania decyzji bardziej efektywnym i precyzyjnym.
+description: "Z pojawieniem się dużych modeli językowych jak ChatGPT, generatywna AI otworzyła nowe domeny eksploracji. Gdy AI łączy się z rozpoznawaniem mowy, zapewnia bezprecedensowe możliwości analizy spotkań w czasie rzeczywistym. Ale co to oznacza dla codziennych operacji biznesowych? Analiza w czasie rzeczywistym nagrań spotkań stała się niezbędnym narzędziem dla firm do poprawy efektywności i jakości komunikacji. Poprzez analizę w czasie rzeczywistym firmy mogą zapewnić, że każda dyskusja jest dokładnie udokumentowana, co czyni proces podejmowania decyzji bardziej efektywnym i precyzyjnym."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "W nowoczesnym szybkim środowisku pracy powszechne jest, że kilka spotkań odbywa się jednocześnie. To stanowi ogromne wyzwanie dla zapracowanych dyrektorów i menedżerów. Jeśli to możliwe, wszyscy chcieliby uczestniczyć w każdym spotkaniu, ale ze względu na ograniczenia czasowe i fizyczne, często jest to niemożliwe."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Wyzwanie wielu równoczesnych spotkań

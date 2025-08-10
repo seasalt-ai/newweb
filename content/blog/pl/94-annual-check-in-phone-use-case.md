@@ -1,18 +1,18 @@
 ---
 title: "SeaX: Roczna kontrola telefoniczna - Zapewnienie lepszej opieki dla osób starszych"
 metatitle: "SeaX Roczna kontrola telefoniczna: Asystent AI poprawia jakość usług opieki nad osobami starszymi"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "Dowiedz się, jak SeaX rewolucjonizuje usługi opieki nad osobami starszymi dzięki technologii AI, rozwiązując liczne wyzwania związane z rocznymi kontrolami telefonicznymi, poprawiając jakość usług i zmniejszając obciążenie wolontariuszy. Poznaj inteligentne rozwiązania SeaX, które zapewniają lepszą, ciągłą opiekę dla osób starszych na całym świecie."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'W obliczu rosnącej populacji osób starszych, instytucje opieki na całym świecie stoją przed licznymi wyzwaniami. Szczególnie w zakresie regularnej opieki i monitorowania zdrowia, wymaga to nie tylko znacznych zasobów ludzkich, ale często prowadzi do niezauważenia potencjalnych problemów na czas z powodu zaniedbania lub opóźnień. Jest to wyzwanie, z którym borykała się singapurska organizacja usług społecznych współpracująca z Seasalt.ai. Organizacja ta co roku przeprowadza roczną rozmowę telefoniczną z tysiącami osób starszych, co jest procesem uciążliwym i trudnym do efektywnego zarządzania. Aby rozwiązać ten problem, wprowadzili SeaX, który dzięki technologii AI znacznie poprawił jakość i efektywność usług opieki.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

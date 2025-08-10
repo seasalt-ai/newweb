@@ -1,18 +1,17 @@
 ---
 title: "Битва AI-ассистентов для совещаний: Microsoft Teams против Google Meet"
 metatitle: "Битва AI-ассистентов для совещаний: Microsoft Teams против Google Meet"
-date: 2023-10-05T10:25:00-08:00
+date: 2023-10-05 10:25:00-08:00
 draft: false
 author: Xuchen Yao
 description: "Изучите AI-ассистентов для совещаний Microsoft Teams и Google Meet, сравните языковую поддержку платформ и узнайте, как SeaMeet обеспечивает транскрипцию в реальном времени, резюме и другие функции."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
-canonicalURL: "/blog/microsoft-teams-transcription-on-google-meetings/"
-url: "/blog/microsoft-teams-transcription-on-google-meetings/"
-aliases:
-    - "/blog/38-microsoft-teams-transcription-on-google-meetings/"
-summary: "Изучите AI-ассистентов для совещаний Microsoft Teams и Google Meet, сравните языковую поддержку платформ и узнайте, как SeaMeet обеспечивает транскрипцию в реальном времени, резюме и другие функции."
+canonicalURL: /blog/microsoft-teams-transcription-on-google-meetings/
+url: /blog/microsoft-teams-transcription-on-google-meetings/
 ---
 
 С развитием технологий AI-ассистенты для совещаний стали важнейшим инструментом для повышения эффективности встреч. Эти инструменты могут автоматически генерировать резюме встреч, преобразовывать речь в текст и даже идентифицировать важную информацию во время совещаний. В этой статье мы рассмотрим трех основных AI-ассистентов для совещаний: Microsoft Teams Copilot, Google Meet Duet AI и SeaMeet.

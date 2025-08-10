@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management : Prenez le contrôle du suivi des cas de votre centre de contact"
 metatitle: "SeaX Case Management : Suivez vos interactions client"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "Dans cet article, nous explorons les intégrations de l'IA avec la gestion des cas, qui offre à vos agents des outils pour suivre et enregistrer les interactions avec vos clients dans SeaX."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *Dans notre précédent article de blog, [SeaX KB : Une base de connaissances qui répond avant d'être interrogée](https://seasalt.ai/blog/22-seax-knowledge-base/), nous avons montré comment la base de connaissances interne de Seasalt.ai met les informations de votre entreprise directement à la disposition de vos agents, augmentant ainsi l'efficacité et la précision de votre centre de contact. Dans cet article, nous poursuivons le sujet des intégrations de l'IA avec le système de gestion des cas de SeaX, qui offre à vos agents des outils puissants pour suivre et enregistrer les interactions avec vos clients directement dans l'interface SeaX.*

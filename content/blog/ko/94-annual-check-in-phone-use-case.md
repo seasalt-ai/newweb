@@ -1,18 +1,18 @@
 ---
 title: "SeaX: 연간 전화 확인 사례 - 노인에게 더 나은 돌봄 서비스 제공"
 metatitle: "SeaX 연간 전화 확인 사례: AI 비서가 노인 돌봄 서비스 품질 향상"
-date: 2024-08-20T00:22:19-07:00
-modified_date: 2024-05-16T12:00:00Z
+date: 2024-08-20 00:22:19-07:00
+modified_date: 2024-05-16 12:00:00+00:00
 draft: false
 author: Jun Mao
 description: "SeaX가 AI 기술을 통해 노인 돌봄 서비스를 혁신하고, 연간 전화 확인의 여러 과제를 해결하며, 서비스 품질을 향상시키고 자원봉사자의 부담을 줄이는 방법을 탐구합니다. SeaX의 지능형 솔루션이 전 세계 노인에게 더 나은 지속적인 돌봄을 제공하는 방법을 알아보세요."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: '점점 늘어나는 노인 인구에 직면하여 전 세계의 노인 돌봄 기관은 많은 도전에 직면하고 있습니다. 특히 정기적인 돌봄과 건강 모니터링 측면에서는 많은 인적 자원이 소모될 뿐만 아니라, 부주의나 지연으로 인해 잠재적인 문제가 제때 발견되지 않는 경우가 많습니다. 이는 Seasalt.ai와 협력하는 싱가포르의 한 사회 서비스 기관이 이전에 직면했던 과제입니다. 이 기관은 매년 수천 명의 노인과 연간 돌봄 전화를 진행하며, 이 과정은 번거롭고 효율적으로 관리하기 어려웠습니다. 이 문제를 해결하기 위해 그들은 SeaX를 도입하여 AI 기술을 통해 돌봄 서비스의 품질과 효율성을 크게 향상시켰습니다.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 

@@ -1,17 +1,17 @@
 ---
 title: "SeaX: Annual Check-in Phone Use Case - Ensuring Better Elderly Care"
 metatitle: "SeaX Annual Check-in Phone Use Case: AI Assistant Improves Elderly Care Quality"
-date: 2024-08-20T00:22:19-07:00
+date: 2024-08-20 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Discover how SeaX revolutionizes elderly care services through AI technology, addressing numerous challenges in annual phone check-ins, improving service quality, and reducing volunteer burden. Learn how SeaX's intelligent solutions provide better and continuous care for seniors worldwide."
 weight: 1
-tags: ["SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/94-annual-check-in-phone-use-case/94-annual-check-in-phone-use-case.jpg
-canonicalURL: "/blog/annual-check-in-phone-use-case/"
-url: "/blog/annual-check-in-phone-use-case/"
-summary: 'With the growing aging population, elderly care institutions worldwide face numerous challenges. Especially concerning regular care and health monitoring, which not only require significant human resources but often lead to the inability to detect potential problems in time due to neglect or delay. This is the challenge faced by a social service agency in Singapore, a partner of Seasalt.ai. The agency conducts annual phone check-ins with thousands of seniors, a process that is cumbersome and difficult to manage effectively. To address this issue, they introduced SeaX, which significantly improved the quality and efficiency of care services through AI technology.'
+canonicalURL: /blog/annual-check-in-phone-use-case/
+url: /blog/annual-check-in-phone-use-case/
 ---
 
 With the growing aging population, elderly care institutions worldwide face numerous challenges. Especially concerning regular care and health monitoring, which not only require significant human resources but often lead to the inability to detect potential problems in time due to neglect or delay. This is the challenge faced by a social service agency in Singapore, a partner of Seasalt.ai. The agency conducts annual phone check-ins with thousands of seniors, a process that is cumbersome and difficult to manage effectively. To address this issue, they introduced SeaX, which significantly improved the quality and efficiency of care services through AI technology.

@@ -1,18 +1,17 @@
 ---
 title: "Từ Demo đến Thành Công: Vượt Qua Thuật Toán Giọng Nói của Cuộc Họp Hiện Đại (3/5)"
 metatitle: "Demo đến Thành Công (3/5): Vượt Qua Thuật Toán Giọng Nói"
-date: 2021-07-30T17:43:38-07:00
-modified_date: 2025-07-29T00:00:00Z
-author: Cody Kim, Shayne Mei
-image: "images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif"
+date: 2021-07-30 17:43:38-07:00
+modified_date: 2025-07-29 00:00:00+00:00
 draft: false
+author: Cody Kim, Shayne Mei
 description: "Trong phần ba của loạt blog này, hãy theo dõi hành trình của Seasalt.ai tạo ra SeaMeet, giải pháp họp hiện đại hợp tác."
-tags: ["SeaMeet"]
-weight: 1  
-canonicalURL: "/blog/seameet-voice-speech-recognition/"
-url: "/blog/seameet-voice-speech-recognition/"
-aliases:
-    - /blog/5-seameet-voice-intelligence-meeting-transcription-speech-recognition-algorithm-of-modern-meeting/
+weight: 1
+tags:
+  - SeaMeet
+image: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+canonicalURL: /blog/seameet-voice-speech-recognition/
+url: /blog/seameet-voice-speech-recognition/
 ---
 
 *Trong suốt loạt blog này, hãy theo dõi hành trình của Seasalt.ai tạo ra trải nghiệm Cuộc Họp Hiện Đại toàn diện, bắt đầu từ những khởi đầu khiêm tốn, tối ưu hóa dịch vụ trên các phần cứng và mô hình khác nhau, tích hợp hệ thống NLP tiên tiến và cuối cùng là hiện thực hóa SeaMeet, giải pháp họp hợp tác hiện đại.*

@@ -1,17 +1,18 @@
 ---
 title: "Taiwan Senior Care Resources: How to Get Help by Phone in Major Cities"
 metatitle: "Taiwan Senior Care Resources Guide: Senior Hotline Numbers and Support Services in Major Cities"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Explore senior care resources in various Taiwanese cities, including care hotlines, emergency helplines, and social support services. Learn how Seasalt.ai's innovative solutions enhance the efficiency of senior care services."
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: 'As society ages, access to convenient senior care hotlines and services becomes increasingly important. With the growing elderly population, having reliable resources for immediate assistance and ongoing support is crucial. This compilation aims to help seniors and their families easily find the care resources they need in major cities across Taiwan.'
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 As society ages, access to convenient senior care hotlines and services becomes increasingly important. With the growing elderly population, having reliable resources for immediate assistance and ongoing support is crucial. This compilation aims to help seniors and their families easily find the care resources they need in major cities across Taiwan.

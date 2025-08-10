@@ -14,6 +14,8 @@ tags:
 - Pemasaran Digital
 - Konten Video
 title: Membuat Konten Multimedia Bertenaga AI untuk Keterlibatan Pelanggan
+canonicalURL: /blog/ai-powered-multimedia-content/
+url: /blog/ai-powered-multimedia-content/
 ---
 
 

@@ -1,16 +1,19 @@
 ---
-title: "Discord: 고객 참여의 새로운 프론티어"
-slug: discord-a-new-frontier-for-customer-engagement
-seoTitle: "Discord: 고객 참여의 새로운 프론티어"
-seoDescription: Discord가 어떻게 고객 참여를 혁신하고, 현대 기업에 역동적인 커뮤니티와 혁신적인 지원을 제공하는지 알아보세요.
-seoTitle: 'Discord: 고객 참여의 새로운 프론티어'
-slug: discord-a-new-frontier-for-customer-engagement
+title: "디스코드 (1/3): 고객 참여의 새로운 프론티어"
+metatitle: "디스코드 (1/3): 고객 참여의 새로운 프론티어"
+date: 2022-05-23 13:05:36-07:00
+draft: false
+author: Kim Dodds
+description: "이 블로그에서는 디스코드의 인기 상승과 기업들이 고객 참여를 향상시키기 위해 디스코드를 어떻게 활용하기 시작했는지를 다룹니다."
+weight: 1
 tags:
-- Discord
-- 고객 서비스
-- 참여
-title: 'Discord: 고객 참여의 새로운 프론티어'
+  - SeaX
+  - Discord
+image: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+canonicalURL: /blog/discord-a-new-frontier-for-customer-engagement/
+url: /blog/discord-a-new-frontier-for-customer-engagement/
 ---
+
 
 
 

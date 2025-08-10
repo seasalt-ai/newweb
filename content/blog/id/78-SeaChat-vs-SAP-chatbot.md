@@ -1,16 +1,20 @@
 ---
 title: "Mengukir Jalur Baru: Mengapa SeaChat Mengungguli SAP Conversational AI untuk Chatbot yang Menarik"
 metatitle: "SeaChat vs. SAP Conversational AI"
-date: 2024-03-18T00:22:19-07:00
-modified_date: 2025-07-27T00:00:00Z
+date: 2024-03-18 00:22:19-07:00
+modified_date: 2025-07-27 00:00:00+00:00
 draft: false
 author: Xuchen Yao
-description: Mengapa SAP Conversational AI sudah usang? Temukan SeaChat - Jauhi pantai chatbot yang berulang dengan teknologi LLM canggih, membina percakapan yang menarik, mirip manusia.
+description: "Mengapa SAP Conversational AI sudah usang? Temukan SeaChat - Jauhi pantai chatbot yang berulang dengan teknologi LLM canggih, membina percakapan yang menarik, mirip manusia."
 weight: 1
-tags: ["SeaChat", "AI Tools", "Large Language Models", "NLU"]
+tags:
+  - SeaChat
+  - AI Tools
+  - Large Language Models
+  - NLU
 image: /images/blog/78-SeaChat-vs-SAP-chatbot/blog-banner.png
-canonicalURL: "/blog/seachat-vs-sap-chatbot/"
-url: "/blog/seachat-vs-sap-chatbot/"
+canonicalURL: /blog/seachat-vs-sap-chatbot/
+url: /blog/seachat-vs-sap-chatbot/
 ---
 
 Angin perubahan bertiup di ranah AI Percakapan. Sementara [SAP Conversational AI](https://cai.tools.sap/) telah menjadi pilihan populer untuk membangun chatbot perusahaan, gelombang teknologi baru sedang menjadi pusat perhatian: Large Language Models (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog), sebuah platform yang dibangun di atas teknologi LLM, menawarkan pendekatan terobosan, meninggalkan batasan mesin berbasis aturan seperti SAP Conversational AI. Siap berlayar untuk pengalaman chatbot yang lebih menarik?

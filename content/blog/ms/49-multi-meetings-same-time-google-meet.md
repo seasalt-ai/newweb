@@ -1,19 +1,18 @@
 ---
 title: "Cara Menguruskan Beberapa Mesyuarat Selari Secara Berkesan dengan SeaMeet"
 metatitle: "Cara Menguruskan Beberapa Mesyuarat Selari Secara Berkesan dengan SeaMeet"
-date: 2023-11-08T10:25:00-08:00
-modified_date: 2024-12-19T10:00:00-08:00
+date: 2023-11-08 10:25:00-08:00
+modified_date: 2024-12-19 10:00:00-08:00
 draft: false
 author: Xuchen Yao
-description: Dengan kemunculan model bahasa besar seperti ChatGPT, AI generatif telah membuka domain eksplorasi baharu. Apabila AI digabungkan dengan pengenalan pertuturan, ia memberikan kemungkinan yang belum pernah ada untuk analisis mesyuarat masa nyata. Tetapi apakah maksudnya untuk operasi perniagaan harian? Analisis masa nyata rakaman mesyuarat telah menjadi alat penting untuk syarikat meningkatkan kecekapan dan kualiti komunikasi. Melalui analisis masa nyata, syarikat boleh memastikan setiap perbincangan didokumenkan dengan tepat, menjadikan proses membuat keputusan lebih cekap dan tepat.
+description: "Dengan kemunculan model bahasa besar seperti ChatGPT, AI generatif telah membuka domain eksplorasi baharu. Apabila AI digabungkan dengan pengenalan pertuturan, ia memberikan kemungkinan yang belum pernah ada untuk analisis mesyuarat masa nyata. Tetapi apakah maksudnya untuk operasi perniagaan harian? Analisis masa nyata rakaman mesyuarat telah menjadi alat penting untuk syarikat meningkatkan kecekapan dan kualiti komunikasi. Melalui analisis masa nyata, syarikat boleh memastikan setiap perbincangan didokumenkan dengan tepat, menjadikan proses membuat keputusan lebih cekap dan tepat."
 weight: 1
-tags: ["SeaMeet", "AI Tools"]
+tags:
+  - SeaMeet
+  - AI Tools
 image: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
-canonicalURL: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-url: "/blog/multiple-meetings-at-the-same-time-google-meet-meetings/"
-aliases:
-    - "/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/"
-summary: "Dalam persekitaran kerja moden yang pantas, adalah perkara biasa untuk beberapa mesyuarat berlangsung serentak. Ini menimbulkan cabaran besar untuk eksekutif dan pengurus yang sibuk. Jika boleh, mereka semua ingin mengambil bahagian dalam setiap mesyuarat, tetapi disebabkan kekangan masa dan fizikal, ini selalunya mustahil."
+canonicalURL: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
+url: /blog/multiple-meetings-at-the-same-time-google-meet-meetings/
 ---
 
 # Cabaran Beberapa Mesyuarat Serentak

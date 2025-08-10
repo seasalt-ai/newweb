@@ -1,16 +1,17 @@
 ---
 title: "SeaX Case Management: Übernehmen Sie die Kontrolle über die Fallverfolgung Ihres Contact Centers"
 metatitle: "SeaX Case Management: Verfolgen Sie Ihre Kundeninteraktionen"
-date: 2022-08-17T22:28:15Z
+date: 2022-08-17 22:28:15+00:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sarah Reid
-image: images/blog/23-seax-case-management/0-main.png
 description: "In diesem Beitrag untersuchen wir KI-Integrationen mit dem Case Management, das Ihren Agenten Tools zur Verfolgung und Aufzeichnung von Interaktionen mit Ihren Kunden in SeaX bietet."
 weight: 1
-tags: ["SeaX"]
-canonicalURL: "/blog/seax-case-management/"
-url: "/blog/seax-case-management/"
-modified_date: 2025-07-29T20:45:17Z
+tags:
+  - SeaX
+image: images/blog/23-seax-case-management/0-main.png
+canonicalURL: /blog/seax-case-management/
+url: /blog/seax-case-management/
 ---
 
 *In unserem vorherigen Blogbeitrag, [SeaX KB: Eine Wissensdatenbank, die antwortet, bevor sie gefragt wird](https://seasalt.ai/blog/22-seax-knowledge-base/), haben wir gezeigt, wie die hauseigene Wissensdatenbank von Seasalt.ai die Informationen Ihres Unternehmens direkt an die Fingerspitzen Ihrer Agenten bringt und so die Effizienz und Genauigkeit in Ihrem Contact Center steigert. In diesem Beitrag setzen wir das Thema der KI-Integrationen mit dem SeaX Case Management System fort, das Ihren Agenten leistungsstarke Tools zur Verfolgung und Aufzeichnung von Interaktionen mit Ihren Kunden direkt in der SeaX-Oberfläche bietet.*

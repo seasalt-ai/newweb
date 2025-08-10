@@ -1,17 +1,18 @@
 ---
 title: "台湾老年人热线目录：如何在主要城市寻求帮助"
 metatitle: "台湾老年人护理资源指南：主要城市的老年人热线和支持服务"
-date: 2024-08-18T00:22:19-07:00
+date: 2024-08-18 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "探索台湾各城市和县的老年人护理资源，包括护理热线、紧急求助热线和社会支持服务。了解Seasalt.ai的创新解决方案如何提高老年人护理服务的效率。"
 weight: 1
-tags: ["SeaChat", "SeaX", "Seasalt.ai"]
-toc: true
+tags:
+  - SeaChat
+  - SeaX
+  - Seasalt.ai
 image: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
-canonicalURL: "/blog/senior-hotline-directory/"
-url: "/blog/senior-hotline-directory/"
-summary: '随着老龄化社会的到来，获得易于访问的老年人热线和老年人护理服务变得越来越重要。随着老年人口的增加，拥有可靠的资源来提供即时帮助和持续支持至关重要。本组织旨在帮助老年人及其家人轻松找到台湾主要城市和县所需的护理资源。'
+canonicalURL: /blog/senior-hotline-directory/
+url: /blog/senior-hotline-directory/
 ---
 
 随着老龄化社会的到来，获得易于访问的老年人热线和老年人护理服务变得越来越重要。随着老年人口的增加，拥有可靠的资源来提供即时帮助和持续支持至关重要。本组织旨在帮助老年人及其家人轻松找到台湾主要城市和县所需的护理资源。

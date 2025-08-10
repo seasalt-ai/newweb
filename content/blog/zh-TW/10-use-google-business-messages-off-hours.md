@@ -1,18 +1,17 @@
 ---
 title: "企業主：使用 Google 商家訊息在非營業時間與客戶互動！"
 metatitle: "使用 Google 商家訊息在非營業時間與客戶互動！"
-date: 2022-03-29T17:58:58-07:00
-modified_date: "2025-07-26T16:48:39Z"
-author: Ruli Setiawati
-image: "images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png"
+date: 2022-03-29 17:58:58-07:00
+modified_date: 2025-07-26 16:48:39+00:00
 draft: false
+author: Ruli Setiawati
 description: "雖然 Google 商家檔案允許企業主直接與客戶聊天，但 Google 商家訊息允許與虛擬客服整合。"
-tags: ["NearMe"]
 weight: 1
-canonicalURL: "/blog/use-google-business-messages-off-hours/"
-url: "/blog/use-google-business-messages-off-hours/"
-aliases:
-  - /blog/10-use-google-business-messages-to-engage-with-customers-off-hours/
+tags:
+  - NearMe
+image: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+canonicalURL: /blog/use-google-business-messages-off-hours/
+url: /blog/use-google-business-messages-off-hours/
 ---
 
 *了解有關 Google 商家訊息的優點和限制以及企業如何實施 Google 商家訊息的更多資訊。*

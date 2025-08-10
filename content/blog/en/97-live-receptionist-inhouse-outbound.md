@@ -1,16 +1,19 @@
 ---
 title: "Outsourcing Live Receptionists vs. In-house: Practical Recommendations for Businesses (2/5)"
 metatitle: "Outsourcing Live Receptionists vs. In-house"
-date: 2024-09-12T00:22:19-07:00
+date: 2024-09-12 00:22:19-07:00
 draft: false
 author: Jun Mao
 description: "Compare live receptionists vs. in-house staff: costs, benefits, and key business insights."
 weight: 1
-tags: ["Auto Answering Service", "Inbound Call for Small Businesses", "SeaChat",  "Voice AI"]
-toc: true
+tags:
+  - Auto Answering Service
+  - Inbound Call for Small Businesses
+  - SeaChat
+  - Voice AI
 image: /images/blog/97-live-receptionist-inhouse-outsourced/97-live-receptionist-inhouse-outsourced.svg
-canonicalURL: "/blog/live-receptionist-inhouse-outsourced/"
-url: "/blog/live-receptionist-inhouse-outsourced/"
+canonicalURL: /blog/live-receptionist-inhouse-outsourced/
+url: /blog/live-receptionist-inhouse-outsourced/
 ---
 
 *This is a series of 5 articles exploring customer communication strategies for small businesses, focusing on answering services:*

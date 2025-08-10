@@ -1,16 +1,17 @@
 ---
 title: "بوت SeaVoice STT/TTS Discord: الأول الذي يوفر تسجيلات صوتية قابلة للتنزيل مع نصوص AI"
 metatitle: "بوت SeaVoice STT/TTS Discord: تنزيلات التسجيلات"
-date: 2022-12-13T11:51:16-08:00
+date: 2022-12-13 11:51:16-08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody Vernon
-description: مع أحدث إصدار، يعد بوت SeaVoice Discord الأول على المنصة الذي يقدم تسجيلات قنوات صوتية قابلة للتنزيل مع نصوص تم إنشاؤها بواسطة الذكاء الاصطناعي.
+description: "مع أحدث إصدار، يعد بوت SeaVoice Discord الأول على المنصة الذي يقدم تسجيلات قنوات صوتية قابلة للتنزيل مع نصوص تم إنشاؤها بواسطة الذكاء الاصطناعي."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
-canonicalUrl: "/blog/seavoice-discord-recording-download/"
-url: "/blog/seavoice-discord-recording-download/"
-modified_date: 2025-07-29T20:45:17Z
+url: /blog/seavoice-discord-recording-download/
 ---
 
 *اكتسب بوت SeaVoice Discord شعبية كأحد أفضل الخيارات لنسخ الكلام في قنوات Discord الصوتية. مع أحدث إصدار، يعد البوت الأول على Discord الذي يقدم تسجيلات قنوات صوتية قابلة للتنزيل مع نصوص تم إنشاؤها بواسطة الذكاء الاصطناعي.*

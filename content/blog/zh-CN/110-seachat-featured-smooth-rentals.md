@@ -1,17 +1,22 @@
 ---
 title: "SeaChat 特色：Smooth Rentals 最佳度假租赁自动化工具"
 metatitle: "Seasalt.ai 的 SeaChat | 度假租赁自动化 | Smooth Rentals 特色"
-date: 2025-07-04T08:04:00+08:00
+date: 2025-07-04 08:04:00+08:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
 author: Xuchen Yao
 description: "Seasalt.ai 的 SeaChat 在 Smooth Rentals 的最新博客文章中被评为度假租赁的顶级自动化解决方案。了解 SeaChat 如何简化客户沟通并提高效率。"
 weight: 1
-tags: ["SeaChat", "度假租赁", "自动化", "客户沟通", "Smooth Rentals", "AI 聊天机器人"]
-toc: true
+tags:
+  - SeaChat
+  - 度假租赁
+  - 自动化
+  - 客户沟通
+  - Smooth Rentals
+  - AI 聊天机器人
 image: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
-canonicalURL: "/blog/seachat-featured-smooth-rentals/"
-url: "/blog/seachat-featured-smooth-rentals/"
-modified_date: 2025-07-29T20:45:17Z
+canonicalURL: /blog/seachat-featured-smooth-rentals/
+url: /blog/seachat-featured-smooth-rentals/
 ---
 
 # SeaChat 在 Smooth Rentals 的度假租赁自动化工具指南中亮相

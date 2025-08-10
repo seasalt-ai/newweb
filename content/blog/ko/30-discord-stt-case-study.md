@@ -1,15 +1,17 @@
 ---
 title: "Discord에서의 음성-텍스트 변환: STT Discord 봇 사례 연구"
 metatitle: "Discord에서의 음성-텍스트 변환: STT Discord 봇 사례 연구"
-date: 2023-01-23T11:25:00-08:00
+date: 2023-01-23 11:25:00-08:00
 draft: false
 author: Kim Dodds
-description: 이 블로그에서는 몇 주간의 실제 음성-텍스트 데이터를 검토한 후 실제 Discord 사용자가 SeaVoice 서비스를 어떻게 활용하는지에 대한 우리의 발견을 논의할 것입니다.
+description: "이 블로그에서는 몇 주간의 실제 음성-텍스트 데이터를 검토한 후 실제 Discord 사용자가 SeaVoice 서비스를 어떻게 활용하는지에 대한 우리의 발견을 논의할 것입니다."
 weight: 1
-tags: ["SeaVoice", "Discord"]
+tags:
+  - SeaVoice
+  - Discord
 image: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
-canonicalURL: "/blog/speech-to-text-discord-case-study/"
-url: "/blog/speech-to-text-discord-case-study/"
+canonicalURL: /blog/speech-to-text-discord-case-study/
+url: /blog/speech-to-text-discord-case-study/
 ---
 
 *Discord에서 가장 빠르고 정확한 텍스트-음성 및 음성-텍스트 봇 중 하나인 SeaVoice를 출시한 후, 우리는 사용자들이 실제로 서비스와 어떻게 상호 작용하는지 이해하고 싶었습니다. 이 블로그에서는 몇 주간의 실제 음성-텍스트 사용자 데이터를 검토한 후 우리의 발견을 논의할 것입니다.*

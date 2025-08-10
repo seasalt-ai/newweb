@@ -1,13 +1,19 @@
 ---
 title: "노인 핫라인 디렉토리: 대만의 노인 돌봄 자원"
-date: 2023-10-26T10:00:00+08:00
-author: "Seasalt.ai"
+date: 2023-10-26 10:00:00+08:00
+modified_date: 2024-07-30 00:00:00+00:00
+author: Seasalt.ai
 description: "대만 노인 핫라인에 대한 포괄적인 가이드로, 주요 도시의 사회복지국 연락처 정보를 제공합니다. SeaX 및 SeaChat AI가 노인 돌봄 서비스를 어떻게 향상시킬 수 있는지 알아보세요."
-tags: ["노인 돌봄", "노인 핫라인", "대만", "SeaX", "SeaChat AI", "지역 사회 자원"]
-image: "/images/blog/senior-hotline-directory.jpg"
-url: "/blog/93-senior-hotline-directory"
-canonicalURL: "/blog/93-senior-hotline-directory"
-modified_date: 2024-07-30T00:00:00Z
+tags:
+  - 노인 돌봄
+  - 노인 핫라인
+  - 대만
+  - SeaX
+  - SeaChat AI
+  - 지역 사회 자원
+image: /images/blog/senior-hotline-directory.jpg
+canonicalURL: /blog/93-senior-hotline-directory
+url: /blog/93-senior-hotline-directory
 ---
 
 # 노인 핫라인 디렉토리: 대만의 노인 돌봄 자원

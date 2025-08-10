@@ -1,18 +1,17 @@
 ---
 title: "เปิดตัวตัวแทนเสมือนของคุณบน Google Maps ด้วย Near Me Messaging"
 metatitle: "เปิดตัวตัวแทนเสมือน Google Maps ของคุณด้วย Near Me Messaging"
-date: 2022-04-19T15:27:21-07:00
-author: Ruli Setiawati
+date: 2022-04-19 15:27:21-07:00
+modified_date: 2025-07-29 20:45:17+00:00
 draft: false
-image: "images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png"
+author: Ruli Setiawati
 description: "เปิดตัวตัวแทนเสมือนของคุณบน Google Business Messages ด้วย Near Me Messaging."
-tags: ["NearMe"]
-weight: 1 
-canonicalURL: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-url: "/blog/virtual-agent-on-google-maps-with-near-me-messaging/"
-aliases:
-  - /blog/13-launch-your-virtual-agent-on-google-maps-with-near-me-messaging/
-modified_date: 2025-07-29T20:45:17Z
+weight: 1
+tags:
+  - NearMe
+image: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+canonicalURL: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
+url: /blog/virtual-agent-on-google-maps-with-near-me-messaging/
 ---
 
 เราได้แนะนำให้คุณรู้จักกับ [Near Me Messaging](https://seasalt.ai/blog/12-near-me-messaging-google-business-messages/) และประโยชน์ของมันไปแล้ว Near Me Messaging ใช้ตัวแทนเสมือนของ Google Business Messages ซึ่งสามารถเข้าถึงได้โดยตรงจากปุ่มแชทบนโปรไฟล์ Google Maps ของธุรกิจ ตัวแทนเสมือนของ Near Me Messaging ขับเคลื่อนโดยเทคโนโลยีการทำความเข้าใจภาษาธรรมชาติที่ล้ำสมัย ซึ่งให้การตอบสนองที่เหมือนมนุษย์ สิ่งที่ทำให้ Near Me Messaging แตกต่างจากบริการที่คล้ายกันคือเวลาตั้งค่าเพียง 5 นาที การปรับแต่งด้วยตนเอง และการสนับสนุนแชทสดในตัว
