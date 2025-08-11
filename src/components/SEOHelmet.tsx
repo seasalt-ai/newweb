@@ -9,7 +9,7 @@ interface SEOHelmetProps {
   description: string;
   favicon: string;
   canonicalUrl?: string;
-  availableLanguages?: string[];
+  availableLanguages?: readonly string[];
   image?: string;
   type?: 'website' | 'article';
   author?: string;

@@ -36,7 +36,7 @@ export const getSolutions = (t: TFunction): Solution[] => [
 ];
 
 // Create a fallback t function for backward compatibility
-const fallbackT = (key: string) => key;
+const fallbackT = ((key: string) => key) as any;
 
 // Backward compatibility export (will show keys as fallback)
 export const solutions = getSolutions(fallbackT);

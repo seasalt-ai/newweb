@@ -140,34 +140,34 @@ const ProblemSolution = () => {
                     <div className="flex items-start p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
                       <Phone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Sarah Johnson</p>
-                        <p className="text-xs text-gray-600 truncate">Phone call about order status</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.supportTickets.sarah.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.supportTickets.sarah.description')}</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">2m ago</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.supportTickets.sarah.timeAgo')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
                       <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Mike Chen</p>
-                        <p className="text-xs text-gray-600 truncate">WhatsApp: Shipping question</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.supportTickets.mike.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.supportTickets.mike.description')}</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">5m ago</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.supportTickets.mike.timeAgo')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
                       <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Lisa Park</p>
-                        <p className="text-xs text-gray-600 truncate">Website chat: Product inquiry</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.supportTickets.lisa.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.supportTickets.lisa.description')}</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">8m ago</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.supportTickets.lisa.timeAgo')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
                       <Phone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">David Kim</p>
-                        <p className="text-xs text-gray-600 truncate">Support call: Technical issue</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.supportTickets.david.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.supportTickets.david.description')}</p>
                       </div>
-                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">12m ago</span>
+                      <span className="text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.supportTickets.david.timeAgo')}</span>
                     </div>
                   </div>
                 )}
@@ -176,34 +176,34 @@ const ProblemSolution = () => {
                     <div className="flex items-start p-2 sm:p-3 bg-orange-50 rounded-lg border-l-4 border-orange-500">
                       <Megaphone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-orange-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Black Friday Campaign</p>
-                        <p className="text-xs text-gray-600 truncate">SMS: 2,847 sent • 312 replies</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.campaigns.blackFriday.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.campaigns.blackFriday.description')}</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+47 leads</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.campaigns.blackFriday.result')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
                       <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">WhatsApp Product Launch</p>
-                        <p className="text-xs text-gray-600 truncate">1,523 messages • 89 conversations</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.campaigns.whatsappLaunch.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.campaigns.whatsappLaunch.description')}</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+23 sales</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.campaigns.whatsappLaunch.result')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
                       <BarChart3 className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Abandoned Cart Recovery</p>
-                        <p className="text-xs text-gray-600 truncate">Email + SMS: 156 recovered</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.campaigns.cartRecovery.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.campaigns.cartRecovery.description')}</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+$12k</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.campaigns.cartRecovery.result')}</span>
                     </div>
                     <div className="flex items-start p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
                       <Phone className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5" />
                       <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">Follow-up Call Campaign</p>
-                        <p className="text-xs text-gray-600 truncate">AI Voicebot: 89 calls • 34 appts</p>
+                        <p className="text-xs sm:text-sm font-medium text-gray-900 truncate">{t('problemSolution.mockData.campaigns.followUp.name')}</p>
+                        <p className="text-xs text-gray-600 truncate">{t('problemSolution.mockData.campaigns.followUp.description')}</p>
                       </div>
-                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">+34 appts</span>
+                      <span className="text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap">{t('problemSolution.mockData.campaigns.followUp.result')}</span>
                     </div>
                   </div>
                 )}

@@ -19,12 +19,6 @@
   },
   {
     "file": "src/components/Footer.tsx",
-    "text": "The all-in-one contact center built for small businesses. \n              Automate support, capture every lead, and unify all your customer conversations.",
-    "context": "              />\n            </div>\n            <p className=\"text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base\">\n              The all-in-one contact center built for small businesses. \n              Automate support, capture every lead, and unify all your customer conversations.\n            </p>\n            <div className=\"space-y-2 sm:space-y-3\">\n              <div className=\"flex items-center text-gray-300\">\n                <Phone className=\"h-4 w-4 mr-2\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Footer.tsx",
     "text": "+1 (SMB)-AI-AGENT",
     "context": "              <div className=\"flex items-center text-gray-300\">\n                <Phone className=\"h-4 w-4 mr-2\" />\n                <span className=\"text-sm\">+1 (SMB)-AI-AGENT</span>\n              </div>\n              <div className=\"flex items-center text-gray-300\">\n                <Mail className=\"h-4 w-4 mr-2\" />",
     "type": "jsx-text"
@@ -39,12 +33,6 @@
     "file": "src/components/Footer.tsx",
     "text": "Seattle, WA",
     "context": "              <div className=\"flex items-center text-gray-300\">\n                <MapPin className=\"h-4 w-4 mr-2\" />\n                <span className=\"text-sm\">Seattle, WA</span>\n              </div>\n            </div>\n            <div className=\"flex space-x-4 mt-6\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Footer.tsx",
-    "text": "Product Wiki",
-    "context": "                <li>\n                  <a href=\"https://wiki.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">\n                    <Book className=\"h-4 w-4 mr-2\" />\n                    Product Wiki\n                  </a>\n                </li>\n                <li>\n                  <a href=\"https://api.seasalt.ai\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-gray-300 hover:text-white transition-colors duration-200 flex items-center\">",
     "type": "jsx-text"
   },
   {
@@ -79,12 +67,6 @@
     "file": "src/components/Footer.tsx",
     "text": "Seattle, WA",
     "context": "mr-2\" />\n                <span className=\"text-sm\">Seattle, WA</span>\n              </div>\n         "
-  },
-  {
-    "file": "src/components/Header.tsx",
-    "text": "Use Cases",
-    "context": "                  {/* Use Cases Section */}\n                  <div className=\"border-t border-gray-100 mt-2 pt-2\">\n                    <div className=\"text-xs font-semibold text-gray-500 px-4 mb-1\">Use Cases</div>\n                    {/* Small & Medium Businesses */}\n                    <div className=\"px-4 mb-2\">\n                      <div className=\"flex items-center gap-2 text-sm font-medium text-gray-700 mb-1\">",
-    "type": "jsx-text"
   },
   {
     "file": "src/components/Header.tsx",
@@ -184,32 +166,8 @@
   },
   {
     "file": "src/components/Header.tsx",
-    "text": "All Comparisons Overview",
-    "context": "              {openDropdown === 'compare' && (\n                <div className=\"absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50\">\n                  <Link to={`/${i18n.language}/compare-us-overview`} className=\"block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100\">\n                    All Comparisons Overview\n                  </Link>\n                  {competitors.map((competitor, index) => (\n                    <Link \n                      key={index}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Header.tsx",
     "text": "vs.",
     "context": "                      className=\"flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50\"\n                    >\n                      <competitor.icon className=\"h-5 w-5 text-gray-400\" />\n                      vs. {competitor.name}\n                    </Link>\n                  ))}\n                </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Header.tsx",
-    "text": "Sign In",
-    "context": "              href=\"https://seax.seasalt.ai/signin\"\n              className=\"text-gray-700 hover:text-blue-600 font-medium transition-colors\"\n            >\n              Sign In\n            </a>\n            <a\n                href=\"https://seax.seasalt.ai/signup\"\n                className=\"bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Header.tsx",
-    "text": "Sign In",
-    "context": "                    className=\"block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors\"\n                    onClick={() => setIsMenuOpen(false)}\n                  >\n                    Sign In\n                  </a>\n                  <a \n                    href=\"https://seax.seasalt.ai/signup\" \n                    className=\"block px-4 py-3 bg-blue-600 text-white rounded-lg text-center font-medium hover:bg-blue-700 transition-colors min-h-touch\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Header.tsx",
-    "text": "All Comparisons Overview",
-    "context": "                      className=\"block py-2 text-sm text-gray-600 hover:text-gray-900 font-medium border-b border-gray-100 pb-2 mb-2 min-h-touch\"\n                      onClick={() => setIsMenuOpen(false)}\n                    >\n                      All Comparisons Overview\n                    </Link>\n                    {competitors.map((competitor, index) => (\n                      <Link \n                        key={index}",
     "type": "jsx-text"
   },
   {
@@ -217,11 +175,6 @@
     "text": "vs.",
     "context": "                        onClick={() => setIsMenuOpen(false)}\n                      >\n                        <competitor.icon className=\"h-4 w-4 mr-3 text-gray-400\" />\n                        vs. {competitor.name}\n                      </Link>\n                    ))}\n                  </div>",
     "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Header.tsx",
-    "text": "Use Cases",
-    "context": "me=\"text-xs font-semibold text-gray-500 px-4 mb-1\">Use Cases</div>\n                    {/* Small & M"
   },
   {
     "file": "src/components/Header.tsx",
@@ -274,41 +227,6 @@
     "context": "derline\" target=\"_blank\" rel=\"noopener noreferrer\">Meeting analytics for remote teams</a></li>\n     "
   },
   {
-    "file": "src/components/Hero.tsx",
-    "text": "phone use",
-    "context": "                </p>\n                <div className=\"flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4\">\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    phone use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    message use\n                  </code>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Hero.tsx",
-    "text": "message use",
-    "context": "                    phone use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    message use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    email use\n                  </code>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Hero.tsx",
-    "text": "email use",
-    "context": "                    message use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    email use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    meeting use\n                  </code>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Hero.tsx",
-    "text": "meeting use",
-    "context": "                    email use\n                  </code>\n                  <code className=\"text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap\">\n                    meeting use\n                  </code>\n                </div>\n              </div>\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Hero.tsx",
-    "text": "Unified Inbox",
-    "context": "                </div>\n                <div className=\"text-center mt-4\">\n                  <span className=\"text-lg font-semibold text-gray-800\">Unified Inbox</span>\n                </div>\n              </div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/Hero.tsx",
-    "text": "Unified Inbox",
-    "context": "an className=\"text-lg font-semibold text-gray-800\">Unified Inbox</span>\n                </div>\n     "
-  },
-  {
     "file": "src/components/I18nDebug.tsx",
     "text": "i18n Debug Info:",
     "context": "      fontFamily: 'monospace'\n    }}>\n      <h4>i18n Debug Info:</h4>\n      <pre>{JSON.stringify(debugInfo, null, 2)}</pre>\n      <button \n        onClick={() => {",
@@ -326,235 +244,15 @@
     "context": "',\n      fontFamily: 'monospace'\n    }}>\n      <h4>i18n Debug Info:</h4>\n      <pre>{JSON.stringify("
   },
   {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Sarah Johnson",
-    "context": "                      <Phone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Sarah Johnson</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Phone call about order status</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">2m ago</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Phone call about order status",
-    "context": "                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Sarah Johnson</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Phone call about order status</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">2m ago</span>\n                    </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "2m ago",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">Phone call about order status</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">2m ago</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500\">\n                      <MessageCircle className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Mike Chen",
-    "context": "                      <MessageCircle className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Mike Chen</p>\n                        <p className=\"text-xs text-gray-600 truncate\">WhatsApp: Shipping question</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">5m ago</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "5m ago",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">WhatsApp: Shipping question</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">5m ago</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500\">\n                      <MessageSquare className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Lisa Park",
-    "context": "                      <MessageSquare className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Lisa Park</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Website chat: Product inquiry</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">8m ago</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Website chat: Product inquiry",
-    "context": "                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Lisa Park</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Website chat: Product inquiry</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">8m ago</span>\n                    </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "8m ago",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">Website chat: Product inquiry</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">8m ago</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-indigo-50 rounded-lg border-l-4 border-indigo-500\">\n                      <Phone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "David Kim",
-    "context": "                      <Phone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-indigo-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">David Kim</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Support call: Technical issue</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">12m ago</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Support call: Technical issue",
-    "context": "                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">David Kim</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Support call: Technical issue</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">12m ago</span>\n                    </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "12m ago",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">Support call: Technical issue</p>\n                      </div>\n                      <span className=\"text-xs text-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">12m ago</span>\n                    </div>\n                  </div>\n                )}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Black Friday Campaign",
-    "context": "                      <Megaphone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-orange-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Black Friday Campaign</p>\n                        <p className=\"text-xs text-gray-600 truncate\">SMS: 2,847 sent • 312 replies</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+47 leads</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+47 leads",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">SMS: 2,847 sent • 312 replies</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+47 leads</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-green-50 rounded-lg border-l-4 border-green-500\">\n                      <MessageCircle className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-green-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "1,523 messages • 89 conversations",
-    "context": "                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">WhatsApp Product Launch</p>\n                        <p className=\"text-xs text-gray-600 truncate\">1,523 messages • 89 conversations</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+23 sales</span>\n                    </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+23 sales",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">1,523 messages • 89 conversations</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+23 sales</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500\">\n                      <BarChart3 className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Abandoned Cart Recovery",
-    "context": "                      <BarChart3 className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-blue-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Abandoned Cart Recovery</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Email + SMS: 156 recovered</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+$12k</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Email + SMS: 156 recovered",
-    "context": "                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Abandoned Cart Recovery</p>\n                        <p className=\"text-xs text-gray-600 truncate\">Email + SMS: 156 recovered</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+$12k</span>\n                    </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+$12k",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">Email + SMS: 156 recovered</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+$12k</span>\n                    </div>\n                    <div className=\"flex items-start p-2 sm:p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500\">\n                      <Phone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Follow-up Call Campaign",
-    "context": "                      <Phone className=\"h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 text-purple-600 mr-2 sm:mr-3 flex-shrink-0 mt-0.5\" />\n                      <div className=\"flex-1 min-w-0\">\n                        <p className=\"text-xs sm:text-sm font-medium text-gray-900 truncate\">Follow-up Call Campaign</p>\n                        <p className=\"text-xs text-gray-600 truncate\">AI Voicebot: 89 calls • 34 appts</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+34 appts</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+34 appts",
-    "context": "                        <p className=\"text-xs text-gray-600 truncate\">AI Voicebot: 89 calls • 34 appts</p>\n                      </div>\n                      <span className=\"text-xs text-green-600 font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+34 appts</span>\n                    </div>\n                  </div>\n                )}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Sarah Johnson",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Sarah Johnson</p>\n                        <p clas"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Phone call about order status",
-    "context": "     <p className=\"text-xs text-gray-600 truncate\">Phone call about order status</p>\n               "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "2m ago",
-    "context": "ext-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">2m ago</span>\n                    </div>\n        "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Mike Chen",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Mike Chen</p>\n                        <p classNam"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "5m ago",
-    "context": "ext-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">5m ago</span>\n                    </div>\n        "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Lisa Park",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Lisa Park</p>\n                        <p classNam"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Website chat: Product inquiry",
-    "context": "     <p className=\"text-xs text-gray-600 truncate\">Website chat: Product inquiry</p>\n               "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "8m ago",
-    "context": "ext-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">8m ago</span>\n                    </div>\n        "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "David Kim",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">David Kim</p>\n                        <p classNam"
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Support call: Technical issue",
-    "context": "     <p className=\"text-xs text-gray-600 truncate\">Support call: Technical issue</p>\n               "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "12m ago",
-    "context": "ext-gray-500 ml-2 flex-shrink-0 whitespace-nowrap\">12m ago</span>\n                    </div>\n       "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Black Friday Campaign",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Black Friday Campaign</p>\n                       "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+47 leads",
-    "context": " font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+47 leads</span>\n                    </div>\n     "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "1,523 messages • 89 conversations",
-    "context": "     <p className=\"text-xs text-gray-600 truncate\">1,523 messages • 89 conversations</p>\n           "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+23 sales",
-    "context": " font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+23 sales</span>\n                    </div>\n     "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Abandoned Cart Recovery",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Abandoned Cart Recovery</p>\n                     "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Email + SMS: 156 recovered",
-    "context": "     <p className=\"text-xs text-gray-600 truncate\">Email + SMS: 156 recovered</p>\n                  "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+$12k",
-    "context": " font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+$12k</span>\n                    </div>\n         "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "Follow-up Call Campaign",
-    "context": "-xs sm:text-sm font-medium text-gray-900 truncate\">Follow-up Call Campaign</p>\n                     "
-  },
-  {
-    "file": "src/components/ProblemSolution.tsx",
-    "text": "+34 appts",
-    "context": " font-medium ml-2 flex-shrink-0 whitespace-nowrap\">+34 appts</span>\n                    </div>\n     "
-  },
-  {
     "file": "src/main.tsx",
-    "text": "Loading...",
-    "context": "  <StrictMode>\n    <HelmetProvider>\n      <Suspense fallback={<div className=\"flex items-center justify-center h-screen\">Loading...</div>}>\n        <App />\n      </Suspense>\n    </HelmetProvider>",
+    "text": "Loading translations...",
+    "context": "  <StrictMode>\n    <HelmetProvider>\n      <Suspense fallback={<div className=\"flex items-center justify-center h-screen\">Loading translations...</div>}>\n        <App />\n      </Suspense>\n    </HelmetProvider>",
     "type": "jsx-text"
   },
   {
     "file": "src/main.tsx",
-    "text": "Loading...",
-    "context": "ssName=\"flex items-center justify-center h-screen\">Loading...</div>}>\n        <App />\n      </Suspen"
+    "text": "Loading translations...",
+    "context": "ssName=\"flex items-center justify-center h-screen\">Loading translations...</div>}>\n        <App />\n "
   },
   {
     "file": "src/pages/Blog.tsx",
@@ -831,7 +529,7 @@
   {
     "file": "src/pages/CompanyPage.tsx",
     "text": "About Seasalt.ai - Company Information & Leadership",
-    "context": "    <div className=\"min-h-screen bg-white\">\n      <SEOHelmet \n        title=\"About Seasalt.ai - Company Information & Leadership\"\n        description=\"Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n      />",
+    "context": "    <div className=\"min-h-screen bg-white\">\n      <SEOHelmet \n        title=\"About Seasalt.ai - Company Information & Leadership\"\n        description=\"Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n        availableLanguages={SUPPORTED_LANGUAGES}",
     "type": "jsx-attribute",
     "attribute": "title"
   },
