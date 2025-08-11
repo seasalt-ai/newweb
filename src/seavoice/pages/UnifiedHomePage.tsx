@@ -465,12 +465,11 @@ const UnifiedHomePage = () => {
               >
                 <span 
                   className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent"
-                  style={{ fontSize: 'inherit !important' }}
                 >
                   AI Voice Agents
                 </span>
                 <br />
-                <span className="text-white/90" style={{ fontSize: 'inherit !important' }}>Handle Calls 24/7</span>
+                <span className="text-white/90">Handle Calls 24/7</span>
               </h1>
               
               <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mb-12 font-light">

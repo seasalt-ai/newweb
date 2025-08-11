@@ -47,9 +47,9 @@ const Hero = () => {
             <h1 
               className="font-bold text-white mb-6 !text-[4rem] !leading-[1.1] sm:!text-7xl md:!text-8xl lg:!text-9xl"
             >
-              <span className="block" style={{ fontSize: 'inherit !important' }}>Reach</span>
-              <span className="block text-blue-400" style={{ fontSize: 'inherit !important' }}>Millions.</span>
-              <span className="block" style={{ fontSize: 'inherit !important' }}>Instantly.</span>
+              <span className="block">Reach</span>
+              <span className="block text-blue-400">Millions.</span>
+              <span className="block">Instantly.</span>
             </h1>
 
             {/* Sub-headline */}
