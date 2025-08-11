@@ -103,6 +103,7 @@ function HomePage() {
         description="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       <Header />
       <Hero />

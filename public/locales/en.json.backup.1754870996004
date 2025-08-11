@@ -10,36 +10,7 @@
     "login": "Login",
     "startForFree": "Sign Up",
     "backToChannels": "Back to Channels",
-    "allChannelsOverview": "All Channels Overview",
-    "solutionsDropdown": {
-      "seahealth": "SeaHealth - Optimized Healthcare",
-      "useCases": "Use Cases"
-    },
-    "useCasesDropdown": {
-      "salesMarketing": "For Sales & Marketing",
-      "customerSupport": "For Customer Support",
-      "aiAutomation": "AI & Automation",
-      "smeOwners": "For SME Owners"
-    },
-    "channelsDropdown": {
-      "whatsapp": "WhatsApp",
-      "phoneCalls": "Phone Calls",
-      "sms": "SMS",
-      "websiteChat": "Website Chat",
-      "instagram": "Instagram",
-      "facebookMessenger": "Facebook Messenger",
-      "contactForms": "Contact Forms",
-      "line": "Line",
-      "websiteWidget": "Website Widget"
-    },
-    "comparisonsDropdown": {
-      "title": "Comparisons",
-      "allComparisonsOverview": "All Comparisons Overview"
-    },
-    "compareDropdown": {
-      "allComparisonsOverview": "All Comparisons Overview"
-    },
-    "signIn": "Sign In"
+    "allChannelsOverview": "All Channels Overview"
   },
   "footer": {
     "company": {
@@ -61,11 +32,7 @@
       "title": "Ready to Transform Your Customer Communications?",
       "startFreeTrial": "Sign Up",
       "scheduleDemo": "Schedule Demo"
-    },
-    "tagline": "The all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
-    "seahealth": "SeaHealth - Optimized Healthcare",
-    "productWiki": "Product Wiki",
-    "apiReferences": "API References"
+    }
   },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
@@ -872,10 +839,7 @@
             "Basic analytics",
             "Community support"
           ],
-          "limitations": [
-            "No AI automation",
-            "Limited integrations"
-          ],
+          "limitations": ["No AI automation", "Limited integrations"],
           "button": "Start Free"
         },
         "starter": {
@@ -1240,7 +1204,7 @@
       "fintech": {
         "securityFeatures": [
           "Built-in end-to-end encryption",
-          "Multi-factor authentication",
+          "Multi-factor authentication", 
           "Regular security audits",
           "Data protection"
         ]

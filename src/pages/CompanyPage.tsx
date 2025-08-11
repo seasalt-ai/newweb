@@ -23,6 +23,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 const CompanyPage = () => {
   const { i18n } = useTranslation();
@@ -153,6 +154,7 @@ const CompanyPage = () => {
         title="About Seasalt.ai - Company Information & Leadership"
         description="Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms."
         favicon="/seasalt-ai-favicon.ico"
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <Header />

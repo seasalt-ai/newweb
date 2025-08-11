@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const AIAutomation = () => {
   const { i18n } = useTranslation();
@@ -136,7 +137,7 @@ const AIAutomation = () => {
         description="Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">
