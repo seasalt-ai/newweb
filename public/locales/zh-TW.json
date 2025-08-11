@@ -1681,5 +1681,313 @@
         "disclaimer": "無需信用卡 • 24小時內見效果 • 隨時取消"
       }
     }
+  },
+  "pricing": {
+    "seo": {
+      "title": "價格方案 - Seasalt.ai",
+      "description": "簡單透明的價格方案，隨您的需求成長。無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
+    },
+    "hero": {
+      "title": "簡單透明的價格方案隨您成長",
+      "description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
+    },
+    "audienceSection": {
+      "title": "選擇您的成長路徑",
+      "description": "從新創企業到大型企業，我們為您成長的每個階段提供正確的解決方案",
+      "startups": {
+        "title": "適合新創企業和中小企業",
+        "subtitle": "小規模開始，智能擴展",
+        "seachatFree": {
+          "title": "🚀 免費開始使用 SeaChat",
+          "description": "$0 永久免費 - 1個人工客服，無限對話"
+        },
+        "seavoice": {
+          "title": "📞 使用 SeaVoice 擴展",
+          "description": "$29.99/月 - 為入站電話添加語音 AI"
+        },
+        "seax": {
+          "title": "🌟 使用 SeaX 成長",
+          "description": "$99/月 - 完整全通道平台"
+        },
+        "footer": "適合 1-50 名員工的企業"
+      },
+      "enterprise": {
+        "title": "適合中大型企業",
+        "subtitle": "企業級解決方案",
+        "seachatPremium": {
+          "title": "🤖 SeaChat 高級版",
+          "description": "$29.99/月 + 使用費 - 企業級文本 AI"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX 專業版",
+          "description": "$99/月 - 整合 AI 和全通道的統一平台"
+        },
+        "customEnterprise": {
+          "title": "⚡ 客製化企業版",
+          "description": "聯絡我們 - 白標、HIPAA 合規、客製化整合"
+        },
+        "footer": "適合 50 名以上員工的企業"
+      }
+    },
+    "plans": {
+      "title": "選擇您的方案",
+      "description": "免費開始，並隨著您的成長靈活調整定價選項",
+      "liveAgent": {
+        "name": "真人客服",
+        "price": "$0",
+        "period": "永久免費",
+        "tagline": "👤 僅真人客服",
+        "highlight": "🌟 所有通道 + 僅真人客服",
+        "channels": "WhatsApp • Messenger • Line • Instagram • 網頁聊天",
+        "feature1": "包含 1 位真人客服",
+        "feature2": "無限真人對話",
+        "feature3": "100 次 AI 回覆試用功能",
+        "feature4": "基本 Shopify 整合",
+        "cta": "🚀 立即免費開始",
+        "poweredBy": "由 SeaChat 提供"
+      },
+      "whatsappOnly": {
+        "name": "僅 WhatsApp",
+        "price": "$19.99",
+        "period": "每用戶/月",
+        "tagline": "💬 僅訊息功能",
+        "highlight": "📲 WHATSAPP 商業專家",
+        "channels": "活動 • API • 雙向聊天",
+        "feature1": "WhatsApp Business 平台",
+        "feature2": "活動管理工具",
+        "feature3": "WhatsApp API 存取",
+        "feature4": "無限聯絡人和範本",
+        "cta": "📱 開始使用 WHATSAPP",
+        "poweredBy": "由 SeaX 提供"
+      },
+      "omnichannel": {
+        "name": "全通道",
+        "firstUserPrice": "$99",
+        "firstUserLabel": "第一位用戶",
+        "additionalUserPrice": "$49",
+        "additionalUserLabel": "每位額外用戶",
+        "period": "每月",
+        "tagline": "🌐 一個介面，所有通道",
+        "popular": "🏆 最受歡迎",
+        "highlight": "🎯 完整聯絡中心",
+        "subHighlight": "撥打和接聽電話！",
+        "feature1": "客服可撥打和接聽電話",
+        "feature2": "SMS + 語音 + WHATSAPP",
+        "feature3": "語音和 SMS 活動",
+        "feature4": "RESTful API + SeaChat 整合",
+        "cta": "🚀 開始完整中心",
+        "poweredBy": "由 SeaX 提供"
+      },
+      "custom": {
+        "name": "客製化",
+        "price": "讓我們建立專案",
+        "period": "協商您自己的價格",
+        "feature1": "多個工作空間",
+        "feature2": "適合代理商",
+        "feature3": "客製化 API 整合",
+        "feature4": "HIPAA 合規",
+        "feature5": "白標選項",
+        "cta": "聯絡我們"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ AI 附加功能",
+      "description": "透過 AI 功能增強任何方案",
+      "chatAI": {
+        "title": "使用 SeaChat 的聊天 AI",
+        "price": "$29.99",
+        "period": "每月"
+      },
+      "voiceAI": {
+        "title": "使用 SeaVoice 的語音 AI",
+        "price": "$29.99",
+        "period": "每月"
+      },
+      "combo": {
+        "title": "兩種 AI 功能",
+        "price": "$29.99",
+        "period": "每月總計",
+        "benefit": "🎉 只需 $29.99/月，即可同時獲得聊天 AI 和語音 AI！"
+      }
+    },
+    "transparentAI": {
+      "title": "透明的 AI 定價",
+      "description": "透明清晰的使用量計價，您只需為使用的部分付費",
+      "chatAI": {
+        "title": "聊天 AI",
+        "price": "$0.006",
+        "period": "每回應 (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp、Messenger、網頁聊天",
+        "feature2": "• 24/7 自動化回應",
+        "feature3": "• 知識庫整合"
+      },
+      "voiceAI": {
+        "title": "語音 AI",
+        "price": "$0.12",
+        "period": "每分鐘 (ChatGPT-4o mini)",
+        "feature1": "• 入站和出站電話",
+        "feature2": "• 自然語音對話",
+        "feature3": "• 通話錄音和摘要"
+      },
+      "premiumAI": {
+        "title": "高級 AI",
+        "price": "$0.80",
+        "period": "每分鐘 (ChatGPT-4o)",
+        "feature1": "• 進階推理",
+        "feature2": "• 複雜對話",
+        "feature3": "• 客製化企業功能"
+      }
+    },
+    "transparentCommunication": {
+      "title": "透明的通訊定價",
+      "description": "清晰明確的通訊需求定價",
+      "sms": {
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "每則訊息 (美國/加拿大)",
+        "description": "可靠的文字訊息，透明的每則訊息費率"
+      },
+      "voiceCalls": {
+        "title": "語音通話",
+        "price": "$0.015",
+        "period": "每分鐘 (美國/加拿大)",
+        "description": "跨越 100+ 國家的清晰語音通話"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "$0.00",
+        "period": "全球每則訊息",
+        "description": "您直接向 Meta 付款，Seasalt.ai 無任何加價"
+      },
+      "otherChannels": "📱 其他通道如 Instagram、Facebook Messenger 和網頁聊天無加價或完全免費。"
+    },
+    "comparison": {
+      "title": "全球通訊格局：我們的競爭優勢",
+      "description": "了解 Seasalt.ai 與市場其他解決方案的比較。我們是唯一提供企業功能和小企業簡單性的平台。",
+      "table": {
+        "competitor": "競爭對手",
+        "startingPrice": "起始價格",
+        "pricingModel": "定價模式",
+        "unifiedVoiceDigital": "統一語音和數位",
+        "aiCapabilities": "AI 功能",
+        "bestFor": "最適合"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/客服/月",
+        "pricingModel": "簡單的每用戶定價",
+        "unifiedVoiceDigital": "✅ 是，原生支援",
+        "aiCapabilities": "✅ 是，原生語音和聊天機器人",
+        "bestFor": "需要負擔得起的真正一體化平台的中小企業",
+        "recommended": "推薦"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "$30/用戶/月",
+        "pricingModel": "每用戶 + 附加功能",
+        "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+        "aiCapabilities": "⚠️ AI 是付費附加功能",
+        "bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊"
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "$65/客服/月",
+        "pricingModel": "複雜分層",
+        "unifiedVoiceDigital": "❌ 分離產品",
+        "aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
+        "bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司"
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/用戶/月",
+        "pricingModel": "每用戶 + 高最低要求",
+        "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
+        "aiCapabilities": "✅ 是 (複雜代幣系統)",
+        "bestFor": "擁有專門聯絡中心團隊和預算的大型企業"
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "$119/用戶/月",
+        "pricingModel": "每用戶 + 套件",
+        "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
+        "aiCapabilities": "✅ 是 (進階 AI)",
+        "bestFor": "需要企業級工具的大型出站重點聯絡中心"
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "$10/用戶/月",
+        "pricingModel": "每用戶 + 工作區費用",
+        "unifiedVoiceDigital": "❌ 否",
+        "aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
+        "bestFor": "需要基本獨立電話號碼的個體創業者 (僅美國)"
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "$79/月",
+        "pricingModel": "每月活躍聯絡人",
+        "unifiedVoiceDigital": "⚠️ 數位優先 (語音為測試版)",
+        "aiCapabilities": "✅ 是 (高級方案的 AI 代理)",
+        "bestFor": "專注於 WhatsApp 等訊息通道的行銷/銷售團隊"
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "$39/席位/月",
+        "pricingModel": "每席位 + 附加功能 + 使用量",
+        "unifiedVoiceDigital": "⚠️ 數位優先 (語音按使用付費)",
+        "aiCapabilities": "✅ 是 (Fin AI 代理按解決方案計費)",
+        "bestFor": "專注於主動網站互動和支援的企業"
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "免費方案真的永久免費嗎？",
+        "answer": "是的！我們的真人客服方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。另外，您還可獲得 100 次終身 AI 回覆試用我們的 AI 功能。無需信用卡，無隱藏費用。"
+      },
+      "2": {
+        "question": "在 SeaChat、SeaX 和 SeaVoice 中 AI 定價如何運作？",
+        "answer": "所有跨 SeaChat、SeaX 和 SeaVoice 的語音 AI 通話都使用相同的 $0.12 每分鐘費率與 ChatGPT-4o mini 模型。聊天 AI 回應從每次 $0.006 開始。更高級的模型如 ChatGPT-4o 每分鐘收費 $0.80，在高級方案中提供。"
+      },
+      "3": {
+        "question": "我可以隨時升級或降級我的方案嗎？",
+        "answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。我們會按比例調整任何計費。"
+      },
+      "4": {
+        "question": "WhatsApp Only 和 Omnichannel 方案有什麼區別？",
+        "answer": "WhatsApp Only ($19.99/月) 專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel (第一位用戶 $99/月，額外用戶 $49) 包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。"
+      },
+      "5": {
+        "question": "有任何隱藏費用或設置成本嗎？",
+        "answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015 (美國/加拿大)。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。"
+      },
+      "6": {
+        "question": "如果我取消，我的數據會怎樣？",
+        "answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。我們相信數據自由和透明。"
+      },
+      "7": {
+        "question": "您為大型企業提供批量折扣嗎？",
+        "answer": "是的！我們的客製化企業方案根據您的具體使用量和使用模式提供協商定價。聯絡我們的銷售團隊了解客製化定價、多個工作空間、HIPAA 合規和白標解決方案。"
+      },
+      "title": "常見問題"
+    },
+    "cta": {
+      "title": "準備轉型您的",
+      "titleGradient": "客戶溝通？",
+      "description": "加入數千家使用 Seasalt.ai 提供卓越客戶體驗的企業",
+      "stats": {
+        "customers": "10,000+",
+        "customersLabel": "滿意客戶",
+        "uptime": "99.9%",
+        "uptimeLabel": "正常運行時間 SLA",
+        "support": "24/7",
+        "supportLabel": "支援"
+      },
+      "primary": "🚀 立即註冊",
+      "secondary": "📞 與銷售人員洽談",
+      "trustBadge1": "無需編程",
+      "trustBadge2": "5分鐘內完成設置",
+      "trustBadge3": "隨時取消",
+      "trustBadge4": "真正的免費方案",
+      "urgency": "⚡ 限時優惠：年度方案免費 2 個月 + 優先入門支援！"
+    }
   }
 }

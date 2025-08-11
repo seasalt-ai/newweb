@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 const PricingPage = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isAnnualBilling, setIsAnnualBilling] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   
@@ -164,7 +164,7 @@ const PricingPage = () => {
   const faqs = [
     {
       question: 'Is the free plan really free forever?',
-      answer: 'Yes! Our Live Agent plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.'
+      answer: 'Yes! Our Live Agent plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 100 lifetime AI replies to try our AI  No credit card required, no hidden fees.'
     },
     {
       question: 'How does AI pricing work across SeaChat, SeaX, and SeaVoice?',
@@ -200,8 +200,8 @@ const PricingPage = () => {
     <div className="min-h-screen bg-white">
       {/* SEO Tags */}
       <SEOHelmet
-        title="Pricing - Seasalt.ai"
-        description="Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
+        title={t('pricing.seo.title')}
+        description={t('pricing.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -215,10 +215,10 @@ const PricingPage = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-                Simple, Transparent Pricing That Grows With You
+                {t('pricing.hero.title')}
               </h1>
               <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-6 sm:mb-8">
-                No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.
+                {t('pricing.hero.description')}
               </p>
             </div>
           </div>
@@ -230,9 +230,9 @@ const PricingPage = () => {
           <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50 mb-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Choose Your Growth Path</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('pricing.audienceSection.title')}</h2>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                  From startups to enterprises, we have the right solution for every stage of your journey
+                  {t('pricing.audienceSection.description')}
                 </p>
               </div>
               
@@ -248,8 +248,8 @@ const PricingPage = () => {
                         <Users className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900">For Startups & SMEs</h3>
-                        <p className="text-teal-600 font-medium">Start Small, Scale Smart</p>
+                        <h3 className="text-2xl font-bold text-gray-900">{t('pricing.audienceSection.startups.title')}</h3>
+                        <p className="text-teal-600 font-medium">{t('pricing.audienceSection.startups.subtitle')}</p>
                       </div>
                     </div>
                     
@@ -260,8 +260,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">🚀 Start Free with SeaChat</p>
-                            <p className="text-sm text-gray-700">$0 forever - 1 human agent, unlimited chats</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaChat.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaChat.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -272,8 +272,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">📞 Scale with SeaVoice</p>
-                            <p className="text-sm text-gray-700">$29.99/month - Add voice AI for inbound calls</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaVoice.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaVoice.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -284,15 +284,15 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">🌟 Grow with SeaX</p>
-                            <p className="text-sm text-gray-700">$99/month - Complete omnichannel platform</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaX.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaX.description')}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="mt-6 pt-4 border-t border-teal-200">
-                      <p className="text-center font-semibold text-teal-700">Perfect for businesses with 1-50 employees</p>
+                      <p className="text-center font-semibold text-teal-700">{t('pricing.audienceSection.startups.employeeRange')}</p>
                     </div>
                   </div>
                 </div>
@@ -308,8 +308,8 @@ const PricingPage = () => {
                         <Building2 className="w-8 h-8 text-white" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900">For Medium to Large Enterprises</h3>
-                        <p className="text-blue-600 font-medium">Enterprise-Grade Solutions</p>
+                        <h3 className="text-2xl font-bold text-gray-900">{t('pricing.audienceSection.enterprise.title')}</h3>
+                        <p className="text-blue-600 font-medium">{t('pricing.audienceSection.enterprise.subtitle')}</p>
                       </div>
                     </div>
                     
@@ -320,8 +320,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">🤖 SeaChat Premium</p>
-                            <p className="text-sm text-gray-700">$29.99/month + usage - Enterprise-grade text AI</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.seachatPremium.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.seachatPremium.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -332,8 +332,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">🏢 SeaX Professional</p>
-                            <p className="text-sm text-gray-700">$99/month - Unified platform with AI and omnichannel</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.seaxProfessional.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.seaxProfessional.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -344,15 +344,15 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">⚡ Custom Enterprise</p>
-                            <p className="text-sm text-gray-700">Contact us - White-label, HIPAA, custom integrations</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.customEnterprise.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.customEnterprise.description')}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="mt-6 pt-4 border-t border-blue-200">
-                      <p className="text-center font-semibold text-blue-700">Perfect for businesses with 50+ employees</p>
+                      <p className="text-center font-semibold text-blue-700">{t('pricing.audienceSection.enterprise.footer')}</p>
                     </div>
                   </div>
                 </div>
@@ -363,9 +363,9 @@ const PricingPage = () => {
           {/* New Plan Structure */}
           <div className="mb-16 sm:mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Choose Your Plan</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('pricing.plans.title')}</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Start free and scale as you grow with our flexible pricing options
+                {t('pricing.plans.description')}
               </p>
             </div>
             
@@ -376,53 +376,53 @@ const PricingPage = () => {
                 {/* Bold Visual Indicator */}
                 <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-orange-400 to-orange-600"></div>
                 <div className="absolute -top-3 -right-3 bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
-                  👤 HUMAN ONLY
+                  {t('pricing.plans.liveAgent.badge')}
                 </div>
                 
                 <div className="text-center mb-4 mt-2">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center">
                     <MessageSquare className="w-8 h-8 text-orange-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Live Agent</h3>
-                  <div className="text-4xl font-black text-orange-600 mb-1">$0</div>
-                  <p className="text-sm font-bold text-orange-700 mb-3 uppercase tracking-wide">FREE FOREVER</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.liveAgent.name')}</h3>
+                  <div className="text-4xl font-black text-orange-600 mb-1">{t('pricing.plans.liveAgent.price')}</div>
+                  <p className="text-sm font-bold text-orange-700 mb-3 uppercase tracking-wide">{t('pricing.plans.liveAgent.period')}</p>
                 </div>
                 
                 {/* MEGA HIGHLIGHT BOX */}
                 <div className="bg-orange-50 border-2 border-orange-200 rounded-lg p-3 mb-4">
                   <p className="text-center font-black text-orange-800 text-sm uppercase tracking-wide">
-                    🌟 ALL CHANNELS + HUMAN AGENTS ONLY
+                    {t('pricing.plans.liveAgent.highlight')}
                   </p>
                   <p className="text-center text-xs text-orange-700 mt-1">
-                    WhatsApp • Messenger • Line • Instagram • Web Chat
+                    {t('pricing.plans.liveAgent.channels')}
                   </p>
                 </div>
                 
                 <div className="space-y-2 mb-6">
                   <div className="bg-orange-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-orange-800">1 human agent included</span>
+                    <span className="text-xs font-semibold text-orange-800">{t('pricing.plans.liveAgent.humanAgent')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Unlimited human conversations</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.unlimitedConversations')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">100 AI replies to try features</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.aiTrialReplies')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Basic Shopify integrations</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.shopifyIntegration')}</span>
                   </div>
                 </div>
                 <a 
                   href="https://chat.seasalt.ai/signup"
                   className="block bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2"
                 >
-                  🚀 START FREE NOW
+                  {t('pricing.plans.liveAgent.cta')}
                 </a>
-                <p className="text-center text-xs text-gray-500">Powered by SeaChat</p>
+                <p className="text-center text-xs text-gray-500">{t('pricing.plans.liveAgent.poweredBy')}</p>
               </div>
               
               {/* WhatsApp Only - SeaX */}
@@ -430,53 +430,53 @@ const PricingPage = () => {
                 {/* Bold Visual Indicator */}
                 <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-emerald-400 to-green-500"></div>
                 <div className="absolute -top-3 -right-3 bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
-                  💬 MESSAGING ONLY
+                  {t('pricing.plans.whatsappOnly.badge')}
                 </div>
                 
                 <div className="text-center mb-4 mt-2">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-full flex items-center justify-center">
                     <Phone className="w-8 h-8 text-emerald-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">WhatsApp Only</h3>
-                  <div className="text-4xl font-black text-emerald-600 mb-1">$19.99</div>
-                  <p className="text-sm font-bold text-emerald-700 mb-3 uppercase tracking-wide">PER USER/MONTH</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.whatsappOnly.name')}</h3>
+                  <div className="text-4xl font-black text-emerald-600 mb-1">{t('pricing.plans.whatsappOnly.price')}</div>
+                  <p className="text-sm font-bold text-emerald-700 mb-3 uppercase tracking-wide">{t('pricing.plans.whatsappOnly.period')}</p>
                 </div>
                 
                 {/* MEGA HIGHLIGHT BOX */}
                 <div className="bg-emerald-50 border-2 border-emerald-200 rounded-lg p-3 mb-4">
                   <p className="text-center font-black text-emerald-800 text-sm uppercase tracking-wide">
-                    📲 WHATSAPP BUSINESS SPECIALIST
+                    {t('pricing.plans.whatsappOnly.highlight')}
                   </p>
                   <p className="text-center text-xs text-emerald-700 mt-1">
-                    Campaigns • API • 2-Way Chat
+                    {t('pricing.plans.whatsappOnly.overview')}
                   </p>
                 </div>
                 
                 <div className="space-y-2 mb-6">
                   <div className="bg-emerald-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-emerald-800">WhatsApp Business Platform</span>
+                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.platform')}</span>
                   </div>
                   <div className="bg-emerald-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-emerald-800">Campaign management tools</span>
+                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.campaignTools')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">WhatsApp API access</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.apiAccess')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Unlimited contacts & templates</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.unlimitedContacts')}</span>
                   </div>
                 </div>
                 <a 
                   href="https://seax.seasalt.ai/signup"
                   className="block bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2"
                 >
-                  📱 START WHATSAPP
+                  {t('pricing.plans.whatsappOnly.cta')}
                 </a>
-                <p className="text-center text-xs text-gray-500">Powered by SeaX</p>
+                <p className="text-center text-xs text-gray-500">{t('pricing.plans.whatsappOnly.poweredBy')}</p>
               </div>
               
               {/* Omnichannel - SeaX */}
@@ -486,67 +486,67 @@ const PricingPage = () => {
                 <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 z-10">
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-xs font-black flex items-center shadow-2xl">
                     <Star className="w-4 h-4 mr-1 animate-spin" />
-                    🏆 MOST POPULAR
+                    {t('pricing.plans.omnichannel.popularBadge')}
                   </span>
                 </div>
                 <div className="absolute -top-4 -right-4 bg-blue-500 text-white px-4 py-3 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap z-20">
-                  🌐 ONE UI, ALL CHANNELS
+                  {t('pricing.plans.omnichannel.badge')}
                 </div>
                 
                 <div className="text-center mb-4 mt-4">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-purple-200 rounded-full flex items-center justify-center">
                     <Building2 className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Omnichannel</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.omnichannel.name')}</h3>
                   <div className="flex justify-center items-center space-x-2 mb-1">
                     <div>
                       <div className="text-3xl font-black text-blue-600">$99</div>
-                      <div className="text-xs font-bold text-blue-700">FIRST USER</div>
+                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.firstUser')}</div>
                     </div>
                     <div className="text-blue-400 font-black text-2xl">+</div>
                     <div>
                       <div className="text-3xl font-black text-blue-600">$49</div>
-                      <div className="text-xs font-bold text-blue-700">EACH EXTRA</div>
+                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.eachExtra')}</div>
                     </div>
                   </div>
-                  <p className="text-sm font-bold text-blue-700 mb-3 uppercase tracking-wide">PER MONTH</p>
+                  <p className="text-sm font-bold text-blue-700 mb-3 uppercase tracking-wide">{t('pricing.plans.omnichannel.period')}</p>
                 </div>
                 
                 {/* MEGA HIGHLIGHT BOX */}
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-300 rounded-lg p-3 mb-4">
                   <p className="text-center font-black text-blue-800 text-sm uppercase tracking-wide">
-                    🎯 COMPLETE CONTACT CENTER
+                    {t('pricing.plans.omnichannel.highlight')}
                   </p>
                   <p className="text-center text-xs text-blue-700 mt-1 font-semibold">
-                    Make & Receive PHONE CALLS!
+                    {t('pricing.plans.omnichannel.phoneCalls')}
                   </p>
                 </div>
                 
                 <div className="space-y-2 mb-6">
                   <div className="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
                     <Phone className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-black text-blue-800">AGENTS MAKE & RECEIVE CALLS</span>
+                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.agentCalls')}</span>
                   </div>
                   <div className="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
                     <Users className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-black text-blue-800">SMS + VOICE + WHATSAPP</span>
+                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.allChannels')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Voice & SMS campaigns</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.voiceSMSCampaigns')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">RESTful API + SeaChat integration</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.apiIntegration')}</span>
                   </div>
                 </div>
                 <a 
                   href="https://SeaX.seasalt.ai/signup"
                   className="block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 hover:from-blue-700 hover:via-purple-700 hover:to-blue-800 text-white px-4 py-3 rounded-lg font-black transition-all text-center text-sm shadow-2xl transform hover:scale-105 uppercase mb-2"
                 >
-                  🚀 START FULL CENTER
+                  {t('pricing.plans.omnichannel.cta')}
                 </a>
-                <p className="text-center text-xs text-gray-500">Powered by SeaX</p>
+                <p className="text-center text-xs text-gray-500">{t('pricing.plans.omnichannel.poweredBy')}</p>
               </div>
               
               {/* Custom - Enterprise */}
@@ -555,37 +555,37 @@ const PricingPage = () => {
                   <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-full flex items-center justify-center">
                     <Building2 className="w-8 h-8 text-gray-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Custom</h3>
-                  <div className="text-lg font-semibold text-gray-600 mb-2">Let's build a project</div>
-                  <p className="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide">Negotiate your own price</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.custom.name')}</h3>
+                  <div className="text-lg font-semibold text-gray-600 mb-2">{t('pricing.plans.custom.subtitle')}</div>
+                  <p className="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide">{t('pricing.plans.custom.period')}</p>
                 </div>
                 <div className="space-y-2 mb-6">
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Multiple workspaces</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.multipleWorkspaces')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Perfect for agencies</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.agencies')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">Custom API integrations</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.customIntegrations')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">HIPAA compliance</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.hipaaCompliance')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">White-label options</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.whiteLabelOptions')}</span>
                   </div>
                 </div>
                 <a 
                   href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                   className="block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors text-center text-sm"
                 >
-                  Contact Us
+                  {t('pricing.plans.custom.cta')}
                 </a>
               </div>
             </div>
@@ -593,9 +593,9 @@ const PricingPage = () => {
             {/* AI Add-ons with Combo Pricing */}
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">⭐ AI Add-Ons</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.aiAddOns.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  Enhance any plan with AI capabilities
+                  {t('pricing.aiAddOns.description')}
                 </p>
               </div>
               
@@ -603,9 +603,9 @@ const PricingPage = () => {
                 {/* Chat AI with SeaChat */}
                 <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
                   <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Chat AI with SeaChat</h4>
-                  <div className="text-2xl font-bold text-green-600 mb-2">$29.99</div>
-                  <p className="text-sm text-gray-600">per month</p>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddOns.chatAI.title')}</h4>
+                  <div className="text-2xl font-bold text-green-600 mb-2">{t('pricing.aiAddOns.chatAI.price')}</div>
+                  <p className="text-sm text-gray-600">{t('pricing.aiAddOns.chatAI.period')}</p>
                 </div>
                 
                 {/* Plus Sign */}
@@ -614,9 +614,9 @@ const PricingPage = () => {
                 {/* Voice AI with SeaVoice */}
                 <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
                   <Phone className="w-8 h-8 text-blue-600 mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Voice AI with SeaVoice</h4>
-                  <div className="text-2xl font-bold text-blue-600 mb-2">$29.99</div>
-                  <p className="text-sm text-gray-600">per month</p>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddOns.voiceAI.title')}</h4>
+                  <div className="text-2xl font-bold text-blue-600 mb-2">{t('pricing.aiAddOns.voiceAI.price')}</div>
+                  <p className="text-sm text-gray-600">{t('pricing.aiAddOns.voiceAI.period')}</p>
                 </div>
                 
                 {/* Equals Sign */}
@@ -625,15 +625,15 @@ const PricingPage = () => {
                 {/* Combo Price */}
                 <div className="bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-xl p-6 shadow-lg text-center flex-1 max-w-xs">
                   <Sparkles className="w-8 h-8 text-white mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold mb-2">Both AI Features</h4>
-                  <div className="text-2xl font-bold mb-2">$29.99</div>
-                  <p className="text-sm opacity-90">per month total</p>
+                  <h4 className="text-lg font-semibold mb-2">{t('pricing.aiAddOns.combo.title')}</h4>
+                  <div className="text-2xl font-bold mb-2">{t('pricing.aiAddOns.combo.price')}</div>
+                  <p className="text-sm opacity-90">{t('pricing.aiAddOns.combo.period')}</p>
                 </div>
               </div>
               
               <div className="text-center mt-6">
                 <p className="text-lg font-semibold text-gray-700">
-                  🎉 Get both Chat AI and Voice AI for just $29.99/month combined!
+                  {t('pricing.aiAddOns.comboDescription')}
                 </p>
               </div>
             </div>
@@ -641,9 +641,9 @@ const PricingPage = () => {
             {/* Transparent AI Pricing */}
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Transparent AI Pricing</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentAiPricing.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  Pay only for what you use with our clear, usage-based AI pricing
+                  {t('pricing.transparentAiPricing.description')}
                 </p>
               </div>
               
@@ -651,39 +651,39 @@ const PricingPage = () => {
                 {/* Chat AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <MessageSquare className="w-12 h-12 text-green-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Chat AI</h4>
-                  <div className="text-3xl font-bold text-green-600 mb-2">$0.006</div>
-                  <p className="text-sm text-gray-600 mb-4">per response (ChatGPT-4o mini)</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.chatAI.name')}</h4>
+                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentAiPricing.chatAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.chatAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• WhatsApp, Messenger, Web chat</li>
-                    <li>• 24/7 automated responses</li>
-                    <li>• Knowledge base integration</li>
+                    <li>• {t('pricing.transparentAiPricing.chatAI.channels')}</li>
+                    <li>• {t('pricing.transparentAiPricing.chatAI.automated')}</li>
+                    <li>• {t('pricing.transparentAiPricing.chatAI.knowledgeBase')}</li>
                   </ul>
                 </div>
                 
                 {/* Voice AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <Phone className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Voice AI</h4>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$0.12</div>
-                  <p className="text-sm text-gray-600 mb-4">per minute (ChatGPT-4o mini)</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.voiceAI.name')}</h4>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentAiPricing.voiceAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.voiceAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Inbound & outbound calls</li>
-                    <li>• Natural voice conversations</li>
-                    <li>• Call recording & summaries</li>
+                    <li>• {t('pricing.transparentAiPricing.voiceAI.calls')}</li>
+                    <li>• {t('pricing.transparentAiPricing.voiceAI.conversations')}</li>
+                    <li>• {t('pricing.transparentAiPricing.voiceAI.recording')}</li>
                   </ul>
                 </div>
                 
                 {/* Premium AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <Sparkles className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Premium AI</h4>
-                  <div className="text-3xl font-bold text-purple-600 mb-2">$0.80</div>
-                  <p className="text-sm text-gray-600 mb-4">per minute (ChatGPT-4o)</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.premiumAI.name')}</h4>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">{t('pricing.transparentAiPricing.premiumAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.premiumAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Advanced reasoning</li>
-                    <li>• Complex conversations</li>
-                    <li>• Custom enterprise features</li>
+                    <li>• {t('pricing.transparentAiPricing.premiumAI.reasoning')}</li>
+                    <li>• {t('pricing.transparentAiPricing.premiumAI.conversations')}</li>
+                    <li>• {t('pricing.transparentAiPricing.premiumAI.enterprise')}</li>
                   </ul>
                 </div>
               </div>
@@ -692,9 +692,9 @@ const PricingPage = () => {
             {/* Transparent Communication Pricing */}
             <div className="bg-white rounded-2xl p-8 shadow-lg mb-12">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Transparent Communication Pricing</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentCommunicationPricing.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  Clear, upfront pricing for all your communication needs
+                  {t('pricing.transparentCommunicationPricing.description')}
                 </p>
               </div>
               
@@ -702,34 +702,34 @@ const PricingPage = () => {
                 {/* SMS */}
                 <div className="bg-blue-50 rounded-xl p-6 text-center border border-blue-200">
                   <MessageSquare className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">SMS</h4>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$0.02</div>
-                  <p className="text-sm text-gray-600 mb-4">per message (USA/CA)</p>
-                  <p className="text-sm text-gray-600">Reliable text messaging with transparent per-message rates</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.sms.name')}</h4>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentCommunicationPricing.sms.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.sms.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.sms.description')}</p>
                 </div>
                 
                 {/* Voice Calls */}
                 <div className="bg-green-50 rounded-xl p-6 text-center border border-green-200">
                   <Phone className="w-12 h-12 text-green-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Voice Calls</h4>
-                  <div className="text-3xl font-bold text-green-600 mb-2">$0.015</div>
-                  <p className="text-sm text-gray-600 mb-4">per minute (USA/CA)</p>
-                  <p className="text-sm text-gray-600">Crystal-clear voice calls across 100+ countries</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.voiceCalls.name')}</h4>
+                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentCommunicationPricing.voiceCalls.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.voiceCalls.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.voiceCalls.description')}</p>
                 </div>
                 
                 {/* WhatsApp Business */}
                 <div className="bg-emerald-50 rounded-xl p-6 text-center border border-emerald-200">
                   <Users className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">WhatsApp Business</h4>
-                  <div className="text-3xl font-bold text-emerald-600 mb-2">$0.00</div>
-                  <p className="text-sm text-gray-600 mb-4">per message worldwide</p>
-                  <p className="text-sm text-gray-600">You pay Meta directly. No markup from Seasalt.ai</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.whatsappBusiness.name')}</h4>
+                  <div className="text-3xl font-bold text-emerald-600 mb-2">{t('pricing.transparentCommunicationPricing.whatsappBusiness.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.whatsappBusiness.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.whatsappBusiness.description')}</p>
                 </div>
               </div>
               
               <div className="mt-8 text-center">
                 <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-                  📱 Other channels like <Instagram className="inline w-5 h-5 text-pink-500 mx-1" />Instagram, <Facebook className="inline w-5 h-5 text-blue-600 mx-1" />Facebook Messenger, and <Monitor className="inline w-5 h-5 text-gray-600 mx-1" />Webchat have no markup or are completely <Gift className="inline w-5 h-5 text-green-600 mx-1" />free.
+                  {t('pricing.transparentCommunicationPricing.otherChannels')}
                 </p>
               </div>
             </div>
@@ -739,11 +739,10 @@ const PricingPage = () => {
           <div className="mb-16 sm:mb-20">
             <div className="text-center mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                The Global Communications Landscape: How We Stack Up
+                {t('pricing.competitorComparison.title')}
               </h2>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                See how Seasalt.ai compares to other solutions in the market. We're the only platform 
-                that delivers enterprise features with small business simplicity.
+                {t('pricing.competitorComparison.description')}
               </p>
             </div>
 
@@ -752,12 +751,12 @@ const PricingPage = () => {
                 <table className="w-full min-w-[800px]">
                   <thead className="bg-gray-50 text-left">
                     <tr>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">Competitor</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Starting Price</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Pricing Model</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Unified Voice & Digital</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">AI Capabilities</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">Best For</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.competitor')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.startingPrice')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.pricingModel')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.unifiedVoiceDigital')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.aiCapabilities')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.bestFor')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -784,7 +783,7 @@ const PricingPage = () => {
                             )}
                             {competitor.highlight && (
                               <span className="ml-2 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full">
-                                Recommended
+                                {t('pricing.competitorComparison.table.recommended')}
                               </span>
                             )}
                           </div>
@@ -805,7 +804,7 @@ const PricingPage = () => {
           {/* FAQ Section */}
           <div className="mb-16 sm:mb-20">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 text-center mb-8 sm:mb-12">
-              Frequently Asked Questions
+              {t('pricing.faq.title')}
             </h3>
             <div className="max-w-3xl mx-auto space-y-3 sm:space-y-4">
               {faqs.map((faq, index) => (
@@ -844,13 +843,13 @@ const PricingPage = () => {
               {/* Main Heading */}
               <div className="mb-8">
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight">
-                  Ready to Transform Your
+                  {t('pricing.cta.title')}
                   <span className="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
-                    Customer Communications?
+                    {t('pricing.cta.titleGradient')}
                   </span>
                 </h2>
                 <p className="text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-                  Join thousands of businesses using Seasalt.ai to deliver exceptional customer experiences
+                  {t('pricing.cta.description')}
                 </p>
               </div>
               
@@ -858,15 +857,15 @@ const PricingPage = () => {
               <div className="grid grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto">
                 <div className="text-center">
                   <div className="text-3xl sm:text-4xl font-black text-white mb-2">10,000+</div>
-                  <div className="text-sm text-blue-200">Happy Customers</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.customers')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">99.9%</div>
-                  <div className="text-sm text-blue-200">Uptime SLA</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.uptimeValue')}</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.uptime')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">24/7</div>
-                  <div className="text-sm text-blue-200">Support</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.supportValue')}</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.support')}</div>
                 </div>
               </div>
               
@@ -877,7 +876,7 @@ const PricingPage = () => {
                   className="group relative inline-flex items-center justify-center px-8 py-4 text-xl font-black text-blue-900 bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-300 rounded-2xl shadow-2xl hover:shadow-yellow-300/50 transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none"
                 >
                   <span className="relative z-10 flex items-center">
-                    🚀 SIGN UP NOW
+                    {t('pricing.cta.buttons.signUp')}
                     <Star className="w-6 h-6 ml-2 animate-spin" />
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -887,7 +886,7 @@ const PricingPage = () => {
                   href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                   className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105"
                 >
-                  📞 Talk to Sales
+                  {t('pricing.cta.buttons.talkToSales')}
                 </a>
               </div>
               
@@ -895,26 +894,26 @@ const PricingPage = () => {
               <div className="flex flex-wrap justify-center items-center gap-6 text-blue-200 text-sm">
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>No Coding Required</span>
+                  <span>{t('pricing.cta.trustBadges.noCoding')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Setup in Under 5 Minutes</span>
+                  <span>{t('pricing.cta.trustBadges.quickSetup')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>Cancel Anytime</span>
+                  <span>{t('pricing.cta.trustBadges.cancelAnytime')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>True Free Plan Available</span>
+                  <span>{t('pricing.cta.trustBadges.freePlan')}</span>
                 </div>
               </div>
               
               {/* Urgency Message */}
               <div className="mt-8 p-4 bg-white/10 backdrop-blur rounded-xl border border-white/20">
                 <p className="text-white font-semibold">
-                  ⚡ <span className="text-yellow-300">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!
+                  {t('pricing.cta.urgencyMessage')}
                 </p>
               </div>
             </div>
