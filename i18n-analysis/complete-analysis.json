@@ -49967,7 +49967,11 @@
     },
     "zh-TW": {
       "missing_from_base": [],
-      "missing_from_lang": [],
+      "missing_from_lang": [
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description"
+      ],
       "coverage_percentage": "100.00"
     }
   },
