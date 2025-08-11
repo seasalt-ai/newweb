@@ -65,7 +65,14 @@
     "tagline": "The all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
     "seahealth": "SeaHealth - Optimized Healthcare",
     "productWiki": "Product Wiki",
-    "apiReferences": "API References"
+    "apiReferences": "API References",
+    "form": {
+      "partner": "Become a Partner",
+      "subscribe": {
+        "title": "Subscribe",
+        "description": "Sign up for our newsletter to stay up to date on everything about Conversational AI"
+      }
+    }
   },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
@@ -931,10 +938,7 @@
             "Basic analytics",
             "Community support"
           ],
-          "limitations": [
-            "No AI automation",
-            "Limited integrations"
-          ],
+          "limitations": ["No AI automation", "Limited integrations"],
           "button": "Start Free"
         },
         "starter": {

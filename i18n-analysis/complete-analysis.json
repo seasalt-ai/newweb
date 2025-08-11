@@ -212,6 +212,9 @@
         "footer.seahealth": "SeaHealth - Optimized Healthcare",
         "footer.productWiki": "Product Wiki",
         "footer.apiReferences": "API References",
+        "footer.form.partner": "Become a Partner",
+        "footer.form.subscribe.title": "Subscribe",
+        "footer.form.subscribe.description": "Sign up for our newsletter to stay up to date on everything about Conversational AI",
         "hero.title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
         "hero.titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
         "hero.description": "Seasalt.ai is the all-in-one contact center built for small businesses. Automate support, capture every lead, and manage all your conversations from a single screen.",
@@ -2142,10 +2145,7 @@
                   "Basic analytics",
                   "Community support"
                 ],
-                "limitations": [
-                  "No AI automation",
-                  "Limited integrations"
-                ],
+                "limitations": ["No AI automation", "Limited integrations"],
                 "button": "Start Free"
               },
               "starter": {
@@ -4096,6 +4096,9 @@
         "footer.seahealth": "SeaHealth - 優化醫療保健",
         "footer.productWiki": "產品 Wiki",
         "footer.apiReferences": "API 參考",
+        "footer.form.partner": "Become a Partner",
+        "footer.form.subscribe.title": "Subscribe",
+        "footer.form.subscribe.description": "Sign up for our newsletter to stay up to date on everything about Conversational AI",
         "hero.title": "停止應付多個應用程式 <br> 將每個客戶的 <br> 通話、WhatsApp 和聊天 <br> 統一在一個簡單的收件匣中。",
         "hero.titleWithGradient": "停止應付多個應用程式。 <1>統一每個客戶的</1> 通話、簡訊、WhatsApp 和聊天於一個簡單的收件匣中。",
         "hero.description": "Seasalt.ai 是為小型企業打造的多合一聯絡中心。自動化支援，捕捉每個潛在客戶，並從單一螢幕管理所有對話。",
@@ -5791,11 +5794,7 @@
             "omnichannel": {
               "title": "全渠道連接",
               "description": "在一個統一的平台中連接您所有的通訊渠道，以提供一致的支援。",
-              "highlights": [
-                "30+ 整合",
-                "統一收件匣",
-                "跨平台同步"
-              ]
+              "highlights": ["30+ 整合", "統一收件匣", "跨平台同步"]
             },
             "trulyFree": {
               "title": "真正免費的方案，就像免費的 🍺 和 🎙️",
@@ -6026,10 +6025,7 @@
                   "基本分析",
                   "社群支援"
                 ],
-                "limitations": [
-                  "無 AI 自動化",
-                  "有限的整合"
-                ],
+                "limitations": ["無 AI 自動化", "有限的整合"],
                 "button": "免費開始"
               },
               "starter": {
@@ -6136,12 +6132,7 @@
               },
               "richResponse": {
                 "title": "豐富的回應格式：",
-                "features": [
-                  "互動式卡片",
-                  "動作按鈕",
-                  "嵌入式圖像",
-                  "影片回應"
-                ]
+                "features": ["互動式卡片", "動作按鈕", "嵌入式圖像", "影片回應"]
               },
               "addDocuments": "新增您的文件"
             },
@@ -6844,7 +6835,10 @@
         "footer.compliance.uptime",
         "footer.cta.title",
         "footer.cta.startFreeTrial",
-        "footer.cta.scheduleDemo"
+        "footer.cta.scheduleDemo",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description"
       ],
       "trans_components": [],
       "hardcoded_strings": [
@@ -7087,10 +7081,7 @@
         "hero.developerTools.meetingUse",
         "hero.unifiedInbox"
       ],
-      "trans_components": [
-        "hero.titleWithGradient",
-        "hero.developerMessage"
-      ],
+      "trans_components": ["hero.titleWithGradient", "hero.developerMessage"],
       "hardcoded_strings": [],
       "imports": {
         "useTranslation": true,
@@ -35162,6 +35153,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -35957,9 +35951,7 @@
       "coverage_percentage": "3.55"
     },
     "de": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -35984,6 +35976,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -36780,9 +36775,7 @@
       "coverage_percentage": "3.44"
     },
     "es": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -36807,6 +36800,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -37628,6 +37624,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -38407,9 +38406,7 @@
       "coverage_percentage": "5.45"
     },
     "fil": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -38434,6 +38431,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -39230,9 +39230,7 @@
       "coverage_percentage": "3.44"
     },
     "fr": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -39257,6 +39255,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -40053,9 +40054,7 @@
       "coverage_percentage": "3.44"
     },
     "hi": {
-      "missing_from_base": [
-        "header.signUp"
-      ],
+      "missing_from_base": ["header.signUp"],
       "missing_from_lang": [
         "header.startForFree",
         "header.solutionsDropdown.seahealth",
@@ -40081,6 +40080,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -40876,9 +40878,7 @@
       "coverage_percentage": "3.44"
     },
     "id": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -40903,6 +40903,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -41724,6 +41727,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -42519,9 +42525,7 @@
       "coverage_percentage": "3.55"
     },
     "ko": {
-      "missing_from_base": [
-        "header.signUp"
-      ],
+      "missing_from_base": ["header.signUp"],
       "missing_from_lang": [
         "header.startForFree",
         "header.solutionsDropdown.seahealth",
@@ -42547,6 +42551,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -43342,9 +43349,7 @@
       "coverage_percentage": "3.44"
     },
     "ms": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -43369,6 +43374,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -44165,9 +44173,7 @@
       "coverage_percentage": "3.44"
     },
     "pl": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -44206,6 +44212,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -45002,9 +45011,7 @@
       "coverage_percentage": "1.78"
     },
     "pt": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -45043,6 +45050,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -45839,9 +45849,7 @@
       "coverage_percentage": "1.78"
     },
     "ru": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -45880,6 +45888,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -46676,9 +46687,7 @@
       "coverage_percentage": "1.78"
     },
     "ta": {
-      "missing_from_base": [
-        "hero.startForFree"
-      ],
+      "missing_from_base": ["hero.startForFree"],
       "missing_from_lang": [
         "header.solutionsDropdown.seahealth",
         "header.solutionsDropdown.useCases",
@@ -46703,6 +46712,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.signUp",
         "hero.developerMessage",
@@ -47499,9 +47511,7 @@
       "coverage_percentage": "3.44"
     },
     "th": {
-      "missing_from_base": [
-        "header.signUp"
-      ],
+      "missing_from_base": ["header.signUp"],
       "missing_from_lang": [
         "header.startForFree",
         "header.solutionsDropdown.seahealth",
@@ -47527,6 +47537,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -48322,9 +48335,7 @@
       "coverage_percentage": "3.44"
     },
     "vi": {
-      "missing_from_base": [
-        "header.signUp"
-      ],
+      "missing_from_base": ["header.signUp"],
       "missing_from_lang": [
         "header.startForFree",
         "header.solutionsDropdown.seahealth",
@@ -48350,6 +48361,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -49170,6 +49184,9 @@
         "footer.seahealth",
         "footer.productWiki",
         "footer.apiReferences",
+        "footer.form.partner",
+        "footer.form.subscribe.title",
+        "footer.form.subscribe.description",
         "hero.titleWithGradient",
         "hero.developerMessage",
         "hero.developerTools.phoneUse",
@@ -77613,9 +77630,7 @@
         [
           "pl",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -77654,6 +77669,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -78453,9 +78471,7 @@
         [
           "pt",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -78494,6 +78510,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -79293,9 +79312,7 @@
         [
           "ru",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -79334,6 +79351,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -80133,9 +80153,7 @@
         [
           "de",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -80160,6 +80178,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -80959,9 +80980,7 @@
         [
           "es",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -80986,6 +81005,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -81785,9 +81807,7 @@
         [
           "fil",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -81812,6 +81832,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -82611,9 +82634,7 @@
         [
           "fr",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -82638,6 +82659,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -83437,9 +83461,7 @@
         [
           "hi",
           {
-            "missing_from_base": [
-              "header.signUp"
-            ],
+            "missing_from_base": ["header.signUp"],
             "missing_from_lang": [
               "header.startForFree",
               "header.solutionsDropdown.seahealth",
@@ -83465,6 +83487,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -84263,9 +84288,7 @@
         [
           "id",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -84290,6 +84313,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -85089,9 +85115,7 @@
         [
           "ko",
           {
-            "missing_from_base": [
-              "header.signUp"
-            ],
+            "missing_from_base": ["header.signUp"],
             "missing_from_lang": [
               "header.startForFree",
               "header.solutionsDropdown.seahealth",
@@ -85117,6 +85141,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -85915,9 +85942,7 @@
         [
           "ms",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -85942,6 +85967,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -86741,9 +86769,7 @@
         [
           "ta",
           {
-            "missing_from_base": [
-              "hero.startForFree"
-            ],
+            "missing_from_base": ["hero.startForFree"],
             "missing_from_lang": [
               "header.solutionsDropdown.seahealth",
               "header.solutionsDropdown.useCases",
@@ -86768,6 +86794,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.signUp",
               "hero.developerMessage",
@@ -87567,9 +87596,7 @@
         [
           "th",
           {
-            "missing_from_base": [
-              "header.signUp"
-            ],
+            "missing_from_base": ["header.signUp"],
             "missing_from_lang": [
               "header.startForFree",
               "header.solutionsDropdown.seahealth",
@@ -87595,6 +87622,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -88393,9 +88423,7 @@
         [
           "vi",
           {
-            "missing_from_base": [
-              "header.signUp"
-            ],
+            "missing_from_base": ["header.signUp"],
             "missing_from_lang": [
               "header.startForFree",
               "header.solutionsDropdown.seahealth",
@@ -88421,6 +88449,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -89244,6 +89275,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -90067,6 +90101,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -90890,6 +90927,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
@@ -91697,6 +91737,9 @@
               "footer.seahealth",
               "footer.productWiki",
               "footer.apiReferences",
+              "footer.form.partner",
+              "footer.form.subscribe.title",
+              "footer.form.subscribe.description",
               "hero.titleWithGradient",
               "hero.developerMessage",
               "hero.developerTools.phoneUse",
