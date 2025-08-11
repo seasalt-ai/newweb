@@ -137,7 +137,7 @@ export const getIndustries = (t: TFunction): Industry[] => [
 ];
 
 // Create a fallback t function for backward compatibility
-const fallbackT = ((key: string) => key) as any;
+const fallbackT = ((key: string) => key) as TFunction;
 
 // Backward compatibility export (will show keys as fallback)
 export const industries = getIndustries(fallbackT);

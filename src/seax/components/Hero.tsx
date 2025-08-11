@@ -44,10 +44,18 @@ const Hero = () => {
             </div>
 
             {/* Main headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              <span className="block">Reach</span>
-              <span className="block text-blue-400">Millions.</span>
-              <span className="block">Instantly.</span>
+            <h1 
+              className="font-bold text-white mb-6 !text-6xl sm:!text-7xl md:!text-8xl lg:!text-9xl"
+              style={{ 
+                fontSize: '4rem !important',
+                lineHeight: '1.1 !important',
+                fontWeight: 'bold !important',
+                color: 'white !important'
+              }}
+            >
+              <span className="block" style={{ fontSize: 'inherit !important' }}>Reach</span>
+              <span className="block text-blue-400" style={{ fontSize: 'inherit !important' }}>Millions.</span>
+              <span className="block" style={{ fontSize: 'inherit !important' }}>Instantly.</span>
             </h1>
 
             {/* Sub-headline */}
