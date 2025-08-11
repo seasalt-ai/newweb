@@ -2,6 +2,10 @@
 
 This repository contains the source code for the Seasalt.ai website, a React-based application built with Vite and TypeScript. The website showcases Seasalt.ai's omni-channel contact center solutions for small businesses.
 
+Prompt to do i18n:
+
+on the home page, src/components/Hero.tsx and src/components/ProblemSolution.tsx still has hard coded strings. you should use the bulk translation method in scripts/how-to-update-json.md to update both zh-TW.json and en.json
+
 ## Table of Contents
 
 - [Development](#development)
