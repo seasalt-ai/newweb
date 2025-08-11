@@ -21,7 +21,7 @@ if (redirectPath) {
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <HelmetProvider>
-      <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading...</div>}>
+      <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading translations...</div>}>
         <App />
       </Suspense>
     </HelmetProvider>

@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const SalesMarketing = () => {
   const { i18n } = useTranslation();
@@ -136,7 +137,7 @@ const SalesMarketing = () => {
         description="Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

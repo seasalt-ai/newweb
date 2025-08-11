@@ -41,8 +41,17 @@ export const normalizeLanguage = (language: string): SupportedLanguage => {
     return language as SupportedLanguage;
   }
   
+  // Handle specific Chinese variants first
+  const lowerLang = language.toLowerCase();
+  if (lowerLang === 'zh-tw' || lowerLang === 'zh_tw' || lowerLang === 'zh-hant') {
+    return 'zh-TW';
+  }
+  if (lowerLang === 'zh-cn' || lowerLang === 'zh_cn' || lowerLang === 'zh-hans') {
+    return 'zh-CN';
+  }
+  
   // Handle common language code variations
-  const langBase = language.toLowerCase().split('-')[0];
+  const langBase = lowerLang.split('-')[0].split('_')[0];
   
   // Map common variations to supported languages
   const languageMap: Record<string, SupportedLanguage> = {

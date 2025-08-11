@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const WhatsApp = () => {
   const { i18n } = useTranslation();
@@ -60,7 +61,7 @@ const WhatsApp = () => {
         description="Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

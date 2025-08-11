@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { loadAllBlogPosts, BlogPostMeta, getBlogPostUrlPath } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 // Helper function to create a structured data for blog listing
 const createBlogListingStructuredData = (posts: BlogPostMeta[]) => {
@@ -126,7 +127,7 @@ const Blog = () => {
         description="Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl || `/${lang}/blog`}
-        availableLanguages={['en', 'es', 'zh-TW', 'fr', 'de', 'ja', 'ko', 'ar', 'hi', 'th', 'vi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'fil']}
+        availableLanguages={SUPPORTED_LANGUAGES}
         type="website"
         image="/seasalt-ai-blog-og.png"
       />

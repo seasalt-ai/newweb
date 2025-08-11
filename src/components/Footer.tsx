@@ -44,8 +44,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              The all-in-one contact center built for small businesses. 
-              Automate support, capture every lead, and unify all your customer conversations.
+              {t('footer.tagline')}
             </p>
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center text-gray-300">
@@ -182,7 +181,7 @@ const Footer = () => {
                     className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
                   >
                     <Heart className="h-4 w-4 mr-2" />
-                    SeaHealth - Optimized Healthcare
+                    {t('footer.seahealth')}
                   </Link>
                 </li>
                 <li>
@@ -299,19 +298,19 @@ const Footer = () => {
                 <li>
                   <a href="https://wiki.seasalt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
                     <Book className="h-4 w-4 mr-2" />
-                    Product Wiki
+                    {t('footer.productWiki')}
                   </a>
                 </li>
                 <li>
                   <a href="https://api.seasalt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
                     <Server className="h-4 w-4 mr-2" />
-                    API References
+                    {t('footer.apiReferences')}
                   </a>
                 </li>
                 <li>
                   <Link to={`/${currentLanguage}/careers`} className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
                     <Briefcase className="h-4 w-4 mr-2" />
-                    Careers
+                    {t('footer.company.careers')}
                   </Link>
                 </li>
                 <li>

@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 const ChannelsOverview = () => {
   const { i18n } = useTranslation();
@@ -191,7 +192,7 @@ const ChannelsOverview = () => {
         description="Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

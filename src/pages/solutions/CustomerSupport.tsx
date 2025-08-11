@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const CustomerSupport = () => {
   const { i18n } = useTranslation();
@@ -136,7 +137,7 @@ const CustomerSupport = () => {
         description="Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

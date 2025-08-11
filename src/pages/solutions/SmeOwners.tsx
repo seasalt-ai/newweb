@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const SmeOwners = () => {
   const { i18n } = useTranslation();
@@ -136,7 +137,7 @@ const SmeOwners = () => {
         description="You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

@@ -68,15 +68,15 @@ const Header = () => {
   };
 
   const channels = [
-    { name: 'WhatsApp Business', path: '/channels/whatsapp', icon: MessageCircle },
-    { name: 'Voice & Phone Calls', path: '/channels/phone-calls', icon: Phone },
-    { name: 'SMS Messaging', path: '/channels/sms', icon: MessageSquare },
-    { name: 'Website Chat Widget', path: '/channels/website-chat', icon: Bot },
-    { name: 'Instagram DMs', path: '/channels/instagram', icon: Instagram },
-    { name: 'Facebook Messenger', path: '/channels/facebook-messenger', icon: Facebook },
-    { name: 'Contact Forms', path: '/channels/contact-forms', icon: Mail },
-    { name: 'LINE Business', path: '/channels/line', icon: MessageSquare },
-    { name: 'Website Widget', path: '/channels/website-widget', icon: Monitor }
+    { name: t('header.channelsDropdown.whatsapp'), path: '/channels/whatsapp', icon: MessageCircle },
+    { name: t('header.channelsDropdown.phoneCalls'), path: '/channels/phone-calls', icon: Phone },
+    { name: t('header.channelsDropdown.sms'), path: '/channels/sms', icon: MessageSquare },
+    { name: t('header.channelsDropdown.websiteChat'), path: '/channels/website-chat', icon: Bot },
+    { name: t('header.channelsDropdown.instagram'), path: '/channels/instagram', icon: Instagram },
+    { name: t('header.channelsDropdown.facebookMessenger'), path: '/channels/facebook-messenger', icon: Facebook },
+    { name: t('header.channelsDropdown.contactForms'), path: '/channels/contact-forms', icon: Mail },
+    { name: t('header.channelsDropdown.line'), path: '/channels/line', icon: MessageSquare },
+    { name: t('header.channelsDropdown.websiteWidget'), path: '/channels/website-widget', icon: Monitor }
   ];
 
   const competitors = [
@@ -175,11 +175,11 @@ const Header = () => {
                     className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                   >
                     <Heart className="h-5 w-5 text-red-500" />
-                    SeaHealth - Optimized Healthcare
+                    {t('header.solutionsDropdown.seahealth')}
                   </Link>
                   {/* Use Cases Section */}
                   <div className="border-t border-gray-100 mt-2 pt-2">
-                    <div className="text-xs font-semibold text-gray-500 px-4 mb-1">Use Cases</div>
+                    <div className="text-xs font-semibold text-gray-500 px-4 mb-1">{t('header.solutionsDropdown.useCases')}</div>
                     {/* Small & Medium Businesses */}
                     <div className="px-4 mb-2">
                       <div className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
@@ -334,7 +334,7 @@ const Header = () => {
               {openDropdown === 'compare' && (
                 <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-80 overflow-y-auto z-50">
                   <Link to={`/${i18n.language}/compare-us-overview`} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100">
-                    All Comparisons Overview
+                    {t('header.compareDropdown.allComparisonsOverview')}
                   </Link>
                   {competitors.map((competitor, index) => (
                     <Link 
@@ -363,7 +363,7 @@ const Header = () => {
               href="https://seax.seasalt.ai/signin"
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
-              Sign In
+              {t('header.signIn')}
             </a>
             <a
                 href="https://seax.seasalt.ai/signup"
@@ -394,7 +394,7 @@ const Header = () => {
                     className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Sign In
+                    {t('header.signIn')}
                   </a>
                   <a 
                     href="https://seax.seasalt.ai/signup" 
@@ -519,7 +519,7 @@ const Header = () => {
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <Heart className="h-4 w-4 mr-2 text-red-500" />
-                      SeaHealth - Optimized Healthcare
+                      {t('header.solutionsDropdown.seahealth')}
                     </Link>
                   </div>
                 )}
@@ -648,7 +648,7 @@ const Header = () => {
                       className="block py-2 text-sm text-gray-600 hover:text-gray-900 font-medium border-b border-gray-100 pb-2 mb-2 min-h-touch"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      All Comparisons Overview
+                      {t('header.compareDropdown.allComparisonsOverview')}
                     </Link>
                     {competitors.map((competitor, index) => (
                       <Link 

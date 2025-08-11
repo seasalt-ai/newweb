@@ -10,7 +10,36 @@
     "login": "Login",
     "startForFree": "Sign Up",
     "backToChannels": "Back to Channels",
-    "allChannelsOverview": "All Channels Overview"
+    "allChannelsOverview": "All Channels Overview",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Optimized Healthcare",
+      "useCases": "Use Cases"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "For Sales & Marketing",
+      "customerSupport": "For Customer Support",
+      "aiAutomation": "AI & Automation",
+      "smeOwners": "For SME Owners"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "Phone Calls",
+      "sms": "SMS",
+      "websiteChat": "Website Chat",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Contact Forms",
+      "line": "Line",
+      "websiteWidget": "Website Widget"
+    },
+    "comparisonsDropdown": {
+      "title": "Comparisons",
+      "allComparisonsOverview": "All Comparisons Overview"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "All Comparisons Overview"
+    },
+    "signIn": "Sign In"
   },
   "footer": {
     "company": {
@@ -32,7 +61,11 @@
       "title": "Ready to Transform Your Customer Communications?",
       "startFreeTrial": "Sign Up",
       "scheduleDemo": "Schedule Demo"
-    }
+    },
+    "tagline": "The all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
+    "seahealth": "SeaHealth - Optimized Healthcare",
+    "productWiki": "Product Wiki",
+    "apiReferences": "API References"
   },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
@@ -41,7 +74,20 @@
     "signUp": "Sign Up",
     "seeDemo": "Book A Demo",
     "trustedBy": "Trusted by growing businesses worldwide",
-    "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:"
+    "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:",
+    "developerTools": {
+      "phoneUse": "phone use",
+      "messageUse": "message use",
+      "emailUse": "email use",
+      "meetingUse": "meeting use"
+    },
+    "unifiedInbox": "Unified Inbox",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "Phone",
+      "chat": "Chat"
+    }
   },
   "features": {
     "mainTitle": "The Omni-Channel Copiloted Contact Center for SMEs",
@@ -229,6 +275,52 @@
         }
       },
       "cta": "Use Seasalt.ai to Solve This"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "description": "Phone call about order status",
+          "timeAgo": "2m ago"
+        },
+        "mike": {
+          "name": "Mike Chen",
+          "description": "WhatsApp: Shipping question",
+          "timeAgo": "5m ago"
+        },
+        "lisa": {
+          "name": "Lisa Park",
+          "description": "Website chat: Product inquiry",
+          "timeAgo": "8m ago"
+        },
+        "david": {
+          "name": "David Kim",
+          "description": "Support call: Technical issue",
+          "timeAgo": "12m ago"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Black Friday Campaign",
+          "description": "SMS: 2,847 sent • 312 replies",
+          "result": "+47 leads"
+        },
+        "whatsappLaunch": {
+          "name": "WhatsApp Product Launch",
+          "description": "1,523 messages • 89 conversations",
+          "result": "+23 sales"
+        },
+        "cartRecovery": {
+          "name": "Abandoned Cart Recovery",
+          "description": "Email + SMS: 156 recovered",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Follow-up Call Campaign",
+          "description": "AI Voicebot: 89 calls • 34 appts",
+          "result": "+34 appts"
+        }
+      }
     }
   },
   "supportPlan": {
@@ -839,7 +931,10 @@
             "Basic analytics",
             "Community support"
           ],
-          "limitations": ["No AI automation", "Limited integrations"],
+          "limitations": [
+            "No AI automation",
+            "Limited integrations"
+          ],
           "button": "Start Free"
         },
         "starter": {
@@ -1204,7 +1299,7 @@
       "fintech": {
         "securityFeatures": [
           "Built-in end-to-end encryption",
-          "Multi-factor authentication", 
+          "Multi-factor authentication",
           "Regular security audits",
           "Data protection"
         ]

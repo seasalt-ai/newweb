@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import SEOHelmet from '../components/SEOHelmet';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 const PricingPage = () => {
   const { i18n } = useTranslation();
@@ -203,7 +204,7 @@ const PricingPage = () => {
         description="Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       {/* Global Header */}
       <Header />

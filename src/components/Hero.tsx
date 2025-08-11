@@ -17,10 +17,10 @@ const Hero = () => {
   }, [isHovered]);
 
   const appIcons = [
-    { icon: MessageCircle, color: 'text-green-500', name: 'WhatsApp' },
-    { icon: MessageSquare, color: 'text-blue-500', name: 'SMS' },
-    { icon: Phone, color: 'text-purple-500', name: 'Phone' },
-    { icon: MessageSquare, color: 'text-orange-500', name: 'Chat' }
+    { icon: MessageCircle, color: 'text-green-500', name: t('hero.appNames.whatsapp') },
+    { icon: MessageSquare, color: 'text-blue-500', name: t('hero.appNames.sms') },
+    { icon: Phone, color: 'text-purple-500', name: t('hero.appNames.phone') },
+    { icon: MessageSquare, color: 'text-orange-500', name: t('hero.appNames.chat') }
   ];
 
   return (
@@ -70,16 +70,16 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    phone use
+                    {t('hero.developerTools.phoneUse')}
                   </code>
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    message use
+                    {t('hero.developerTools.messageUse')}
                   </code>
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    email use
+                    {t('hero.developerTools.emailUse')}
                   </code>
                   <code className="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
-                    meeting use
+                    {t('hero.developerTools.meetingUse')}
                   </code>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Hero = () => {
                   <Megaphone className="h-12 w-12 text-white" />
                 </div>
                 <div className="text-center mt-4">
-                  <span className="text-lg font-semibold text-gray-800">Unified Inbox</span>
+                  <span className="text-lg font-semibold text-gray-800">{t('hero.unifiedInbox')}</span>
                 </div>
               </div>
 
