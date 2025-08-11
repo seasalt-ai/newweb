@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ScaleComparison from '../components/ScaleComparison';
 import RealTimeDashboard from '../components/RealTimeDashboard';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MessageSquare, Phone, Zap, TrendingUp, Target, CheckCircle, Star, ArrowRight, BarChart3, Users, Upload, Smartphone, Send } from 'lucide-react';
 
 const SeaXHome = () => {
@@ -26,6 +27,7 @@ const SeaXHome = () => {
         description="The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business with powerful outreach."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <Header />

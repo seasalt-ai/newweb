@@ -10,36 +10,7 @@
     "login": "登入",
     "startForFree": "註冊",
     "backToChannels": "返回所有渠道",
-    "allChannelsOverview": "所有渠道總覽",
-    "solutionsDropdown": {
-      "seahealth": "SeaHealth - 優化醫療保健",
-      "useCases": "使用案例"
-    },
-    "useCasesDropdown": {
-      "salesMarketing": "適用於銷售和行銷",
-      "customerSupport": "適用於客戶支援",
-      "aiAutomation": "AI 和自動化",
-      "smeOwners": "適用於中小企業主"
-    },
-    "channelsDropdown": {
-      "whatsapp": "WhatsApp",
-      "phoneCalls": "電話通話",
-      "sms": "簡訊",
-      "websiteChat": "網站聊天",
-      "instagram": "Instagram",
-      "facebookMessenger": "Facebook Messenger",
-      "contactForms": "聯絡表單",
-      "line": "Line",
-      "websiteWidget": "網站小工具"
-    },
-    "comparisonsDropdown": {
-      "title": "比較",
-      "allComparisonsOverview": "所有比較總覽"
-    },
-    "compareDropdown": {
-      "allComparisonsOverview": "所有比較總覽"
-    },
-    "signIn": "登入"
+    "allChannelsOverview": "所有渠道總覽"
   },
   "footer": {
     "company": {
@@ -61,11 +32,7 @@
       "title": "準備好轉變您的客戶溝通了嗎？",
       "startFreeTrial": "註冊",
       "scheduleDemo": "安排演示"
-    },
-    "tagline": "為小型企業打造的多合一聯絡中心。自動化支援，捕捉每個潛在客戶，並統一您所有的客戶對話。",
-    "seahealth": "SeaHealth - 優化醫療保健",
-    "productWiki": "產品 Wiki",
-    "apiReferences": "API 參考"
+    }
   },
   "hero": {
     "title": "停止應付多個應用程式 <br> 將每個客戶的 <br> 通話、WhatsApp 和聊天 <br> 統一在一個簡單的收件匣中。",
@@ -74,20 +41,7 @@
     "signUp": "註冊",
     "seeDemo": "預約演示",
     "trustedBy": "受到全球成長中企業的信賴",
-    "developerMessage": "Seasalt.ai 為開發者帶來一個智能體通訊工具，用於以下<1>工具使用</1>：",
-    "developerTools": {
-      "phoneUse": "電話使用",
-      "messageUse": "訊息使用",
-      "emailUse": "電子郵件使用",
-      "meetingUse": "會議使用"
-    },
-    "unifiedInbox": "統一收件匣",
-    "appNames": {
-      "whatsapp": "WhatsApp",
-      "sms": "簡訊",
-      "phone": "電話",
-      "chat": "聊天"
-    }
+    "developerMessage": "Seasalt.ai 為開發者帶來一個智能體通訊工具，用於以下<1>工具使用</1>："
   },
   "features": {
     "mainTitle": "為中小企業設計的全渠道智能客服中心",
@@ -275,52 +229,6 @@
         }
       },
       "cta": "使用 Seasalt.ai 解決這個問題"
-    },
-    "mockData": {
-      "supportTickets": {
-        "sarah": {
-          "name": "莎拉·強森",
-          "description": "關於訂單狀態的電話",
-          "timeAgo": "2分鐘前"
-        },
-        "mike": {
-          "name": "麥克·陳",
-          "description": "WhatsApp：運送問題",
-          "timeAgo": "5分鐘前"
-        },
-        "lisa": {
-          "name": "麗莎·朴",
-          "description": "網站聊天：產品查詢",
-          "timeAgo": "8分鐘前"
-        },
-        "david": {
-          "name": "大衛·金",
-          "description": "支援電話：技術問題",
-          "timeAgo": "12分鐘前"
-        }
-      },
-      "campaigns": {
-        "blackFriday": {
-          "name": "黑色星期五活動",
-          "description": "簡訊：已發送 2,847 則 • 312 則回覆",
-          "result": "+47 個潛在客戶"
-        },
-        "whatsappLaunch": {
-          "name": "WhatsApp 產品發布",
-          "description": "1,523 則訊息 • 89 個對話",
-          "result": "+23 筆銷售"
-        },
-        "cartRecovery": {
-          "name": "廢棄購物車恢復",
-          "description": "電子郵件 + 簡訊：已恢復 156 個",
-          "result": "+1萬2千"
-        },
-        "followUp": {
-          "name": "後續通話活動",
-          "description": "AI 語音機器人：89 通電話 • 34 個預約",
-          "result": "+34 個預約"
-        }
-      }
     }
   },
   "supportPlan": {

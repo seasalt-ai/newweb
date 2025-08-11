@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 interface IndustryPageTemplateProps {
   title: string;
@@ -78,7 +79,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
         description={`${headline} See how Seasalt.ai helps ${title} businesses improve customer communications and drive growth.`}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">

@@ -13,7 +13,7 @@ i18n
   // Initialize i18next
   .init({
     fallbackLng: 'en',
-    debug: false,
+    debug: process.env.NODE_ENV === 'development',
     load: 'all', // Load both 'en' and 'en-US' if available
     // Backend configuration
     backend: {
