@@ -153,9 +153,9 @@ const Hero = () => {
               <h1 
                 className="font-bold text-white w-full !text-[4rem] !leading-[1.1] sm:!text-7xl md:!text-8xl lg:!text-9xl"
               >
-                <span className="block">Respond To</span>
-                <span className="block">
-                  <span className="text-teal-300">Millions</span> 24/7
+                <span className="block" style={{ fontSize: 'inherit !important' }}>Respond To</span>
+                <span className="block" style={{ fontSize: 'inherit !important' }}>
+                  <span className="text-teal-300" style={{ fontSize: 'inherit !important' }}>Millions</span> 24/7
                 </span>
               </h1>
             </div>
