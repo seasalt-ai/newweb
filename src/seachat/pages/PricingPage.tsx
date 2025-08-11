@@ -890,7 +890,7 @@ const PricingPage = () => {
             >
               <span className="relative z-10 flex items-center">
                 <Zap className="w-8 h-8 mr-3 animate-bounce" />
-                START TRUELY FREE FIRST
+                START TRULY FREE FIRST
                 <ArrowRight className="w-8 h-8 ml-3 group-hover:translate-x-2 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
