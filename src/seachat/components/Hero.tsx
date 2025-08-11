@@ -137,7 +137,7 @@ const Hero = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center space-y-12 lg:space-y-0 min-h-[80vh]">
           {/* Left Content */}
           <div className="text-white space-y-8">
             {/* Badge */}
@@ -149,14 +149,24 @@ const Hero = () => {
             </div>
 
             {/* Main headline matching SeaX style */}
-            <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
-                <span className="block">Respond To</span>
-                <span className="block"><span className="text-teal-300">Millions</span> 24/7</span>
+            <div className="space-y-4 w-full">
+              <h1 
+                className="font-bold text-white w-full !text-6xl sm:!text-7xl md:!text-8xl lg:!text-9xl"
+                style={{ 
+                  fontSize: '4rem !important',
+                  lineHeight: '1.1 !important',
+                  fontWeight: 'bold !important',
+                  color: 'white !important'
+                }}
+              >
+                <span className="block" style={{ fontSize: 'inherit !important' }}>Respond To</span>
+                <span className="block" style={{ fontSize: 'inherit !important' }}>
+                  <span className="text-teal-300" style={{ fontSize: 'inherit !important' }}>Millions</span> 24/7
+                </span>
               </h1>
             </div>
             
-            <p className="text-xl text-blue-100 max-w-2xl leading-relaxed">
+            <p className="text-xl text-blue-100 leading-relaxed">
               {t('seachat.hero.description')}
             </p>
 

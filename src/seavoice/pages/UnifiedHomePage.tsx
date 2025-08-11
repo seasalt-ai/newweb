@@ -460,12 +460,23 @@ const UnifiedHomePage = () => {
                 Your Business Never Sleeps
               </motion.div>
               
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8 tracking-tight">
-                <span className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
+              <h1 
+                className="font-bold text-white leading-tight mb-8 tracking-tight !text-6xl sm:!text-7xl md:!text-8xl lg:!text-9xl"
+                style={{ 
+                  fontSize: '4rem !important',
+                  lineHeight: '1.1 !important',
+                  fontWeight: 'bold !important',
+                  color: 'white !important'
+                }}
+              >
+                <span 
+                  className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent"
+                  style={{ fontSize: 'inherit !important' }}
+                >
                   AI Voice Agents
                 </span>
                 <br />
-                <span className="text-white/90">Handle Calls 24/7</span>
+                <span className="text-white/90" style={{ fontSize: 'inherit !important' }}>Handle Calls 24/7</span>
               </h1>
               
               <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mb-12 font-light">

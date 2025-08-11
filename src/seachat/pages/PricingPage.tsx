@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Check, Zap, ArrowRight } from 'lucide-react';
+import { Check, Zap, ArrowRight, MessageSquare, Bot, Users, Clock, Globe, Shield } from 'lucide-react';
+import { motion } from 'framer-motion';
 import SupportPlan from '../../components/SupportPlan';
 
 const PricingPage = () => {
@@ -236,9 +237,9 @@ const PricingPage = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-4">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
+      <section className="pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Pricing That Grows With You
@@ -793,6 +794,157 @@ const PricingPage = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* SPECTACULAR FINAL CTA SECTION */}
+      <section className="relative py-24 bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-32 h-32 bg-white/10 rounded-full animate-bounce delay-1000"></div>
+          <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-white/10 rounded-full animate-pulse delay-500"></div>
+          <div className="absolute top-20 right-1/4 w-16 h-16 bg-white/10 rounded-full animate-bounce delay-700"></div>
+          
+          {/* Floating Chat Icons */}
+          <div className="absolute top-1/3 left-1/6 animate-pulse">
+            <MessageSquare className="w-8 h-8 text-white/20" />
+          </div>
+          <div className="absolute bottom-1/3 right-1/6 animate-pulse delay-1000">
+            <Bot className="w-10 h-10 text-white/20" />
+          </div>
+          <div className="absolute top-2/3 left-3/4 animate-pulse delay-500">
+            <Users className="w-6 h-6 text-white/20" />
+          </div>
+        </div>
+        
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* Main Heading with Animation */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="mb-12"
+          >
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
+              Your AI Chat Revolution
+              <span className="block bg-gradient-to-r from-yellow-300 via-orange-400 to-pink-400 bg-clip-text text-transparent">
+                Starts Right Now!
+              </span>
+            </h2>
+            <p className="text-xl sm:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+              Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels
+            </p>
+          </motion.div>
+          
+          {/* Impressive Stats Row */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 max-w-4xl mx-auto"
+          >
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
+                <MessageSquare className="w-8 h-8 mr-2 text-green-400" />
+                100K+
+              </div>
+              <div className="text-sm text-blue-200">Messages Daily</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
+                <Clock className="w-8 h-8 mr-2 text-yellow-400" />
+                99.9%
+              </div>
+              <div className="text-sm text-blue-200">Uptime Guarantee</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
+                <Globe className="w-8 h-8 mr-2 text-blue-400" />
+                15+
+              </div>
+              <div className="text-sm text-blue-200">Channels Supported</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
+                <Shield className="w-8 h-8 mr-2 text-purple-400" />
+                HIPAA
+              </div>
+              <div className="text-sm text-blue-200">Compliant & Secure</div>
+            </div>
+          </motion.div>
+          
+          {/* Mega CTA Buttons */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12"
+          >
+            <a
+              href="https://chat.seasalt.ai/signup"
+              className="group relative inline-flex items-center justify-center px-12 py-6 text-2xl font-black text-indigo-900 bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-300 rounded-3xl shadow-2xl hover:shadow-yellow-300/50 transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none"
+            >
+              <span className="relative z-10 flex items-center">
+                <Zap className="w-8 h-8 mr-3 animate-bounce" />
+                START TRUELY FREE FIRST
+                <ArrowRight className="w-8 h-8 ml-3 group-hover:translate-x-2 transition-transform" />
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
+            
+            <a
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              className="inline-flex items-center px-8 py-4 text-xl font-semibold text-white border-2 border-white rounded-2xl hover:bg-white hover:text-indigo-900 transition-all duration-300 transform hover:scale-105"
+            >
+              <MessageSquare className="w-6 h-6 mr-3" />
+              Book Live Demo
+            </a>
+          </motion.div>
+          
+          {/* Trust Badges with Icons */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            viewport={{ once: true }}
+            className="flex flex-wrap justify-center items-center gap-8 text-blue-200 text-sm mb-12"
+          >
+            <div className="flex items-center gap-2">
+              <Check className="w-6 h-6 text-green-400" />
+              <span className="font-semibold">No Coding Required</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Check className="w-6 h-6 text-green-400" />
+              <span className="font-semibold">Free Forever Plan</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Check className="w-6 h-6 text-green-400" />
+              <span className="font-semibold">Cancel Anytime</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Check className="w-6 h-6 text-green-400" />
+              <span className="font-semibold">24/7 Support</span>
+            </div>
+          </motion.div>
+          
+          {/* Urgency Message with Pulsing Effect */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            viewport={{ once: true }}
+            className="relative"
+          >
+            <div className="p-6 bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur rounded-2xl border border-white/30 animate-pulse">
+              <p className="text-white font-bold text-lg">
+                <span className="text-yellow-300">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
     </div>
