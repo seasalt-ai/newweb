@@ -33,7 +33,6 @@ import { useTranslation } from 'react-i18next';
 import { getProducts } from '../data/productsData';
 import { getSolutions } from '../data/solutionsData';
 import { getIndustries } from '../data/industriesData';
-import MailerliteForm from '../components/MailerliteForm';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -455,8 +454,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
-          {/* {MailerliteForm()} */}
-          <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center">
+          <div className="flex flex-col gap-4 items-center lg:flex-row lg:justify-between lg:items-center">
             <div>
               <div>
                 <img
@@ -475,7 +473,7 @@ const Footer = () => {
             </div>
             <div className="mx-auto">
               <a
-                className="py-[1.17vw] bg-[#19b9c3] text-[#000] text-[1.61vw] rounded-[2.25rem] px-[1.875rem] py-[1rem] font-bold tracking-[0.35px]  no-underline hover:brightness-110"
+                className="px-[1.875rem] py-[1rem] bg-[#50fec5] text-[#000] text-[1rem] rounded-[2.25rem]font-bold tracking-[0.35px]  no-underline hover:brightness-110"
                 href="https://dashboard.mailerlite.com/forms/672229/133679048916207296/share"
                 target="_blank"
                 rel="noopener noreferrer"
