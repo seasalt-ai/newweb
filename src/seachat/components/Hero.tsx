@@ -151,13 +151,7 @@ const Hero = () => {
             {/* Main headline matching SeaX style */}
             <div className="space-y-4 w-full">
               <h1 
-                className="font-bold text-white w-full !text-6xl sm:!text-7xl md:!text-8xl lg:!text-9xl"
-                style={{ 
-                  fontSize: '4rem !important',
-                  lineHeight: '1.1 !important',
-                  fontWeight: 'bold !important',
-                  color: 'white !important'
-                }}
+                className="font-bold text-white w-full !text-[4rem] !leading-[1.1] sm:!text-7xl md:!text-8xl lg:!text-9xl"
               >
                 <span className="block" style={{ fontSize: 'inherit !important' }}>Respond To</span>
                 <span className="block" style={{ fontSize: 'inherit !important' }}>
