@@ -113,8 +113,8 @@
       "description": "符合 HIPAA 標準的解決方案，具有銀行級加密。相信您的客戶數據始終受到保護。"
     },
     "predictablePricing": {
-      "title": "簡單、可預測的定價",
-      "description": "自信地進行預算。透明的定價意味著您確切知道每個月要支付多少費用。"
+      "title": "簡單可預測的定價",
+      "description": "有信心地規劃預算。透明的定價意味著您確切知道每月要支付多少費用。"
     },
     "testimonial": {
       "quote": "我推薦 Seasalt.ai，因為它強大的知識庫系統和全渠道支援！",
@@ -324,57 +324,57 @@
     }
   },
   "supportPlan": {
-    "title": "支援計畫",
-    "priceNote": "*所有價格均以美元計",
+    "title": "支援方案",
+    "priceNote": "*所有價格均以美元計價",
     "trial": {
       "title": "試用",
       "price": "$0",
       "features": {
-        "diy": "使用產品 wiki 自行操作",
+        "diy": "透過產品說明文件自助服務",
         "email": "電子郵件 (info@seasalt.ai)",
-        "chat": "或與客戶<br />支援（在此頁面上）聊天"
+        "chat": "或與客戶支援聊天<br />（在此頁面上）"
       }
     },
     "launch": {
       "title": "啟動",
-      "startsAt": "起始價",
+      "startsAt": "起價",
       "minPrice": "$500",
-      "upTo": "高達",
+      "upTo": "最高至",
       "maxPrice": "$10,000",
-      "duration": "每月，為期 3 個月",
-      "description": "透過啟動支援計畫，我們的團隊致力於在以下領域提供專業指導：",
+      "duration": "每月 3 個月",
+      "description": "透過啟動支援方案，我們的團隊致力於在以下領域提供專業指導：",
       "features": {
         "meetings": {
-          "title": "無限次一對一會議：",
+          "title": "無限 1 對 1 會議：",
           "description": "與 SeaChat 團隊的個人化會議。"
         },
         "promptTuning": {
-          "title": "提示詞調整：",
-          "description": "為聊天和語音應用程式進行客製化。"
+          "title": "提示調優：",
+          "description": "針對聊天和語音應用程式的客製化。"
         },
         "guidance": {
           "title": "設計和技術指導：",
-          "description": "關於設計和技術方面的專家建議。"
+          "description": "設計和技術方面的專家建議。"
         },
         "launchSupport": {
-          "title": "AI 智能體啟動支援：",
+          "title": "AI 代理啟動支援：",
           "description": "在整個啟動過程中提供全面協助。"
         },
         "marketStrategy": {
-          "title": "進入市場策略：",
-          "description": "市場進入的策略規劃。"
+          "title": "上市策略：",
+          "description": "市場進入的戰略規劃。"
         },
         "successfulLaunch": {
-          "title": "成功的 AI 智能體啟動：",
+          "title": "成功的 AI 代理啟動：",
           "description": "在 4-6 週內實現成功啟動。"
         },
         "postLaunch": {
           "title": "啟動後迭代和改進：",
-          "description": "根據使用情況和回饋持續增強。"
+          "description": "基於使用情況和反饋的持續改進。"
         },
         "operational": {
-          "title": "運營穩定性：",
-          "description": "為 AI 智能體的長期運營建立標準操作程序。"
+          "title": "營運穩定性：",
+          "description": "建立 AI 代理長期營運的標準作業程序。"
         }
       }
     }
@@ -430,52 +430,52 @@
         "startingPrice": "起始價格",
         "pricingModel": "定價模式",
         "unifiedVoiceDigital": "統一語音和數位",
-        "aiCapabilities": "AI 能力",
+        "aiCapabilities": "AI 功能",
         "bestFor": "最適合"
       }
     },
     "competitors": {
       "seasalt": {
-        "startingPrice": "每個專員每月 $20",
-        "pricingModel": "簡單的每位使用者計費",
-        "unifiedVoiceDigital": "✅ 是，原生",
-        "aiCapabilities": "✅ 是，原生語音和對話機器人",
-        "bestFor": "需要價格實惠、真正多合一平台的中小企業。"
+        "startingPrice": "$20/客服/月",
+        "pricingModel": "簡單的每用戶定價",
+        "unifiedVoiceDigital": "✅ 是，原生支援",
+        "aiCapabilities": "✅ 是，原生語音和聊天機器人",
+        "bestFor": "需要負擔得起的真正一體化平台的中小企業。"
       },
       "aircall": {
-        "startingPrice": "每位使用者每月 $30",
-        "pricingModel": "每位使用者 + 附加功能",
-        "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+        "startingPrice": "$30/用戶/月",
+        "pricingModel": "每用戶 + 附加功能",
+        "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
         "aiCapabilities": "⚠️ AI 是付費附加功能",
-        "bestFor": "能夠負擔多個附加功能並滿足 3 位使用者最低要求的銷售團隊。"
+        "bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊。"
       },
       "ringcentral": {
-        "startingPrice": "每個專員每月 $65",
-        "pricingModel": "複雜的層級",
-        "unifiedVoiceDigital": "❌ 獨立的產品",
-        "aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
-        "bestFor": "需要具有獨立 CCaaS 的廣泛 UCaaS 平台的大公司。"
+        "startingPrice": "$65/客服/月",
+        "pricingModel": "複雜分層",
+        "unifiedVoiceDigital": "❌ 分離產品",
+        "aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
+        "bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司。"
       },
       "genesys": {
-        "startingPrice": "每位使用者每月 $75",
-        "pricingModel": "每位使用者 + 高最低消費",
-        "unifiedVoiceDigital": "✅ 是 (在較高等級中)",
-        "aiCapabilities": "✅ 是 (複雜的代幣系統)",
+        "startingPrice": "$75/用戶/月",
+        "pricingModel": "每用戶 + 高最低要求",
+        "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "aiCapabilities": "✅ 是（複雜代幣系統）",
         "bestFor": "擁有專門聯絡中心團隊和預算的大型企業。"
       },
       "five9": {
-        "startingPrice": "每位使用者每月 $119",
-        "pricingModel": "每位使用者 + 套餐",
-        "unifiedVoiceDigital": "✅ 是 (在高級層級中)",
-        "aiCapabilities": "✅ 是 (進階 AI)",
-        "bestFor": "需要企業級工具的大型、重外撥的聯絡中心。"
+        "startingPrice": "$119/用戶/月",
+        "pricingModel": "每用戶 + 套件",
+        "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "aiCapabilities": "✅ 是（進階 AI）",
+        "bestFor": "需要企業級工具的大型出站重點聯絡中心。"
       },
       "googleVoice": {
-        "startingPrice": "每位使用者每月 $10",
-        "pricingModel": "每位使用者 + Workspace 費用",
+        "startingPrice": "$10/用戶/月",
+        "pricingModel": "每用戶 + 工作區費用",
         "unifiedVoiceDigital": "❌ 否",
-        "aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-        "bestFor": "需要基本、獨立電話號碼的個人創業者 (僅限美國)。"
+        "aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+        "bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）。"
       }
     },
     "cta": {
@@ -909,101 +909,67 @@
       }
     },
     "pricing": {
-      "title": "與您一同成長的定價",
-      "subtitle": "從完全免費的人工專員開始，然後在您準備好擴展時新增 AI。",
-      "monthly": "月繳",
-      "yearly": "年繳",
+      "title": "隨您成長的定價",
+      "subtitle": "完全免費地從真人客服開始，然後在您準備好時加入 AI 功能進行擴展。",
+      "monthly": "每月",
+      "yearly": "每年",
       "save": "節省 20%",
-      "customize": "自訂您的方案",
+      "customize": "客製化您的方案",
       "chatVolume": "每月聊天量",
-      "agents": "專員人數",
+      "agents": "客服數量",
       "plans": {
         "free": {
           "name": "永久免費",
-          "description": "非常適合剛開始使用人工專員",
+          "description": "適合從真人客服開始的完美選擇",
           "price": "0",
           "period": "/月",
-          "features": [
-            "無限人工專員時數",
-            "基本聊天小工具",
-            "電子郵件支援",
-            "3 個渠道 (網站、電子郵件、電話)",
-            "基本分析",
-            "社群支援"
-          ],
-          "limitations": [
-            "無 AI 自動化",
-            "有限的整合"
-          ],
+          "features": "無限真人客服時數,基本聊天小工具,電子郵件支援,3 個通道（網頁、電子郵件、電話）,基本分析,社群支援",
+          "limitations": "無 AI 自動化,有限整合",
           "button": "免費開始"
         },
         "starter": {
           "name": "AI 入門版",
-          "description": "新增 AI 自動化以擴展您的支援",
+          "description": "添加 AI 自動化以擴展您的支援",
           "badge": "最受歡迎",
-          "features": [
-            "包含免費版所有功能",
-            "AI 專員自動化",
-            "知識庫 (5GB)",
-            "進階分析",
-            "優先電子郵件支援",
-            "10 個整合",
-            "自訂品牌"
-          ],
+          "features": "包含免費版所有功能,AI 代理自動化,知識庫（5GB）,進階分析,優先電子郵件支援,10 個整合,客製化品牌",
           "button": "開始 AI 試用"
         },
         "growth": {
           "name": "成長版",
-          "description": "為成長中的團隊提供進階功能",
-          "features": [
-            "包含入門版所有功能",
-            "進階 AI 訓練",
-            "無限知識庫",
-            "語音智能體",
-            "API 存取",
-            "自訂工作流程",
-            "電話支援"
-          ],
+          "description": "為成長團隊提供的進階功能",
+          "features": "包含入門版所有功能,進階 AI 訓練,無限知識庫,語音代理,API 存取,客製化工作流程,電話支援",
           "button": "試用成長版"
         },
         "enterprise": {
           "name": "企業版",
-          "description": "為大型組織提供自訂解決方案",
-          "features": [
-            "包含成長版所有功能",
-            "專屬成功經理",
-            "自訂整合",
-            "進階安全性",
-            "SLA 保證",
-            "本地部署",
-            "24/7 電話支援"
-          ],
+          "description": "為大型組織提供的客製化解決方案",
+          "features": "包含成長版所有功能,專屬成功經理,客製化整合,進階安全,SLA 保證,本地部署,24/7 電話支援",
           "button": "聯絡銷售"
         }
       },
       "enterprise": {
-        "title": "需要客製化方案嗎？",
-        "description": "我們提供客製化的企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
-        "button": "安排企業演示"
+        "title": "需要客製化方案？",
+        "description": "我們提供客製化企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
+        "button": "安排企業版示範"
       },
       "faq": {
         "title": "常見問題",
         "questions": [
           {
             "question": "免費方案真的永久免費嗎？",
-            "answer": "是的！我們的免費方案包含 1 位終身人工專員，提供無限對話、聊天歷史記錄和聯絡人。無需信用卡，沒有隱藏費用。"
+            "answer": "是的！我們的免費方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。無需信用卡，無隱藏費用。"
           },
           {
             "question": "我可以隨時升級或降級我的方案嗎？",
-            "answer": "當然可以！您可以隨時更改您的方案。升級會立即生效，降級則在您當前計費週期結束時生效。"
+            "answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。"
           },
           {
-            "question": "如果我取消，我的數據會怎麼樣？",
-            "answer": "您擁有您的數據。您可以隨時匯出您所有的聊天歷史記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
+            "question": "如果我取消，我的數據會怎樣？",
+            "answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
           },
           {
-            "question": "你們為大型企業提供客製化定價嗎？",
-            "answer": "是的！我們提供客製化的企業解決方案，提供批量折扣、專屬支援和專業功能。請聯絡我們的銷售團隊以獲取個人化報價。"
+            "question": "您為大型企業提供客製化定價嗎？",
+            "answer": "是的！我們提供客製化企業解決方案，包括批量折扣、專屬支援和專業功能。聯絡我們的銷售團隊獲得個人化報價。"
           }
         ]
       }
@@ -1788,6 +1754,10 @@
         "feature4": "HIPAA 合規",
         "feature5": "白標選項",
         "cta": "聯絡我們"
+      },
+      "popularBadge": "最受歡迎",
+      "ctaStyles": {
+        "primary": "立即註冊"
       }
     },
     "aiAddons": {
@@ -1816,7 +1786,7 @@
       "chatAI": {
         "title": "聊天 AI",
         "price": "$0.006",
-        "period": "每回應 (ChatGPT-4o mini)",
+        "period": "每回應（ChatGPT-4o mini）",
         "feature1": "• WhatsApp、Messenger、網頁聊天",
         "feature2": "• 24/7 自動化回應",
         "feature3": "• 知識庫整合"
@@ -1824,7 +1794,7 @@
       "voiceAI": {
         "title": "語音 AI",
         "price": "$0.12",
-        "period": "每分鐘 (ChatGPT-4o mini)",
+        "period": "每分鐘（ChatGPT-4o mini）",
         "feature1": "• 入站和出站電話",
         "feature2": "• 自然語音對話",
         "feature3": "• 通話錄音和摘要"
@@ -1832,7 +1802,7 @@
       "premiumAI": {
         "title": "高級 AI",
         "price": "$0.80",
-        "period": "每分鐘 (ChatGPT-4o)",
+        "period": "每分鐘（ChatGPT-4o）",
         "feature1": "• 進階推理",
         "feature2": "• 複雜對話",
         "feature3": "• 客製化企業功能"
@@ -1844,13 +1814,13 @@
       "sms": {
         "title": "SMS",
         "price": "$0.02",
-        "period": "每則訊息 (美國/加拿大)",
+        "period": "每則訊息（美國/加拿大）",
         "description": "可靠的文字訊息，透明的每則訊息費率"
       },
       "voiceCalls": {
         "title": "語音通話",
         "price": "$0.015",
-        "period": "每分鐘 (美國/加拿大)",
+        "period": "每分鐘（美國/加拿大）",
         "description": "跨越 100+ 國家的清晰語音通話"
       },
       "whatsapp": {
@@ -1885,7 +1855,7 @@
         "name": "Aircall",
         "startingPrice": "$30/用戶/月",
         "pricingModel": "每用戶 + 附加功能",
-        "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+        "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
         "aiCapabilities": "⚠️ AI 是付費附加功能",
         "bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊"
       },
@@ -1894,23 +1864,23 @@
         "startingPrice": "$65/客服/月",
         "pricingModel": "複雜分層",
         "unifiedVoiceDigital": "❌ 分離產品",
-        "aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
+        "aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
         "bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司"
       },
       "genesys": {
         "name": "Genesys Cloud CX",
         "startingPrice": "$75/用戶/月",
         "pricingModel": "每用戶 + 高最低要求",
-        "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-        "aiCapabilities": "✅ 是 (複雜代幣系統)",
+        "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "aiCapabilities": "✅ 是（複雜代幣系統）",
         "bestFor": "擁有專門聯絡中心團隊和預算的大型企業"
       },
       "five9": {
         "name": "Five9",
         "startingPrice": "$119/用戶/月",
         "pricingModel": "每用戶 + 套件",
-        "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-        "aiCapabilities": "✅ 是 (進階 AI)",
+        "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "aiCapabilities": "✅ 是（進階 AI）",
         "bestFor": "需要企業級工具的大型出站重點聯絡中心"
       },
       "googleVoice": {
@@ -1918,23 +1888,23 @@
         "startingPrice": "$10/用戶/月",
         "pricingModel": "每用戶 + 工作區費用",
         "unifiedVoiceDigital": "❌ 否",
-        "aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-        "bestFor": "需要基本獨立電話號碼的個體創業者 (僅美國)"
+        "aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+        "bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）"
       },
       "respondIo": {
         "name": "respond.io",
         "startingPrice": "$79/月",
         "pricingModel": "每月活躍聯絡人",
-        "unifiedVoiceDigital": "⚠️ 數位優先 (語音為測試版)",
-        "aiCapabilities": "✅ 是 (高級方案的 AI 代理)",
+        "unifiedVoiceDigital": "⚠️ 數位優先（語音為測試版）",
+        "aiCapabilities": "✅ 是（高級方案的 AI 代理）",
         "bestFor": "專注於 WhatsApp 等訊息通道的行銷/銷售團隊"
       },
       "intercom": {
         "name": "Intercom",
         "startingPrice": "$39/席位/月",
         "pricingModel": "每席位 + 附加功能 + 使用量",
-        "unifiedVoiceDigital": "⚠️ 數位優先 (語音按使用付費)",
-        "aiCapabilities": "✅ 是 (Fin AI 代理按解決方案計費)",
+        "unifiedVoiceDigital": "⚠️ 數位優先（語音按使用付費）",
+        "aiCapabilities": "✅ 是（Fin AI 代理按解決方案計費）",
         "bestFor": "專注於主動網站互動和支援的企業"
       }
     },
@@ -1953,11 +1923,11 @@
       },
       "4": {
         "question": "WhatsApp Only 和 Omnichannel 方案有什麼區別？",
-        "answer": "WhatsApp Only ($19.99/月) 專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel (第一位用戶 $99/月，額外用戶 $49) 包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。"
+        "answer": "WhatsApp Only（$19.99/月）專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel（第一位用戶 $99/月，額外用戶 $49）包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。"
       },
       "5": {
         "question": "有任何隱藏費用或設置成本嗎？",
-        "answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015 (美國/加拿大)。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。"
+        "answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015（美國/加拿大）。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。"
       },
       "6": {
         "question": "如果我取消，我的數據會怎樣？",
@@ -1988,6 +1958,11 @@
       "trustBadge3": "隨時取消",
       "trustBadge4": "真正的免費方案",
       "urgency": "⚡ 限時優惠：年度方案免費 2 個月 + 優先入門支援！"
+    },
+    "billingToggle": {
+      "monthly": "按月計費",
+      "annually": "按年計費",
+      "save20": "節省 20%"
     }
   }
 }

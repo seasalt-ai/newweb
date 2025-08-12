@@ -923,61 +923,27 @@
           "description": "Perfect for getting started with human agents",
           "price": "0",
           "period": "/month",
-          "features": [
-            "Unlimited human agent hours",
-            "Basic chat widget",
-            "Email support",
-            "3 channels (Web, Email, Phone)",
-            "Basic analytics",
-            "Community support"
-          ],
-          "limitations": [
-            "No AI automation",
-            "Limited integrations"
-          ],
+          "features": "Unlimited human agent hours,Basic chat widget,Email support,3 channels (Web, Email, Phone),Basic analytics,Community support",
+          "limitations": "No AI automation,Limited integrations",
           "button": "Start Free"
         },
         "starter": {
           "name": "AI Starter",
           "description": "Add AI automation to scale your support",
           "badge": "Most Popular",
-          "features": [
-            "Everything in Free",
-            "AI agent automation",
-            "Knowledge base (5GB)",
-            "Advanced analytics",
-            "Priority email support",
-            "10 integrations",
-            "Custom branding"
-          ],
+          "features": "Everything in Free,AI agent automation,Knowledge base (5GB),Advanced analytics,Priority email support,10 integrations,Custom branding",
           "button": "Start AI Trial"
         },
         "growth": {
           "name": "Growth",
           "description": "Advanced features for growing teams",
-          "features": [
-            "Everything in Starter",
-            "Advanced AI training",
-            "Unlimited knowledge base",
-            "Voice agents",
-            "API access",
-            "Custom workflows",
-            "Phone support"
-          ],
+          "features": "Everything in Starter,Advanced AI training,Unlimited knowledge base,Voice agents,API access,Custom workflows,Phone support",
           "button": "Try Growth"
         },
         "enterprise": {
           "name": "Enterprise",
           "description": "Custom solutions for large organizations",
-          "features": [
-            "Everything in Growth",
-            "Dedicated success manager",
-            "Custom integrations",
-            "Advanced security",
-            "SLA guarantees",
-            "On-premise deployment",
-            "24/7 phone support"
-          ],
+          "features": "Everything in Growth,Dedicated success manager,Custom integrations,Advanced security,SLA guarantees,On-premise deployment,24/7 phone support",
           "button": "Contact Sales"
         }
       },
@@ -1788,6 +1754,10 @@
         "feature4": "HIPAA compliance",
         "feature5": "White-label options",
         "cta": "Contact Us"
+      },
+      "popularBadge": "Most Popular",
+      "ctaStyles": {
+        "primary": "Sign Up Now"
       }
     },
     "aiAddons": {
@@ -1988,6 +1958,11 @@
       "trustBadge3": "Cancel Anytime",
       "trustBadge4": "True Free Plan Available",
       "urgency": "⚡ Limited Time: Get 2 months free on annual plans + priority onboarding support!"
+    },
+    "billingToggle": {
+      "monthly": "Billed Monthly",
+      "annually": "Billed Annually",
+      "save20": "Save 20%"
     }
   }
 }
