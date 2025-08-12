@@ -1646,6 +1646,550 @@
         "secondary": "Book Sales Demo",
         "disclaimer": "No credit card required • See results in 24 hours • Cancel anytime"
       }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Customer Support Solutions - Seasalt.ai",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
+      },
+      "navigation": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Deliver",
+          "exceptionalSupport": "Exceptional Support",
+          "atScale": "at Scale"
+        },
+        "subtitle": "AI-Powered Customer Support That Never Sleeps",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions.",
+        "cta": {
+          "primary": "Improve Support Now",
+          "secondary": "See Demo"
+        },
+        "dashboard": {
+          "title": "Support Dashboard",
+          "aiResolved": "🤖 AI resolved 156 tickets today",
+          "resolutionTime": "Average resolution time: 23 seconds",
+          "escalated": "👥 12 tickets escalated to humans",
+          "complexIssues": "Complex issues requiring expertise",
+          "satisfaction": "😊 Customer satisfaction: 96%",
+          "satisfactionUp": "Up 15% from last month",
+          "responseTime": "⏱️ Average response time: 8 seconds",
+          "fasterThanAverage": "98% faster than industry average"
+        }
+      },
+      "challenges": {
+        "title": "Customer Support Challenges",
+        "description": "Modern customers expect instant, personalized support. Traditional support models struggle to meet these expectations while controlling costs.",
+        "responseTimePressure": {
+          "title": "Response Time Pressure",
+          "description": "Customers expect instant responses, but your team can't be available 24/7"
+        },
+        "scalingTeam": {
+          "title": "Scaling Support Team",
+          "description": "Growing customer base requires more agents, but hiring is expensive and slow"
+        },
+        "repetitiveInquiries": {
+          "title": "Repetitive Inquiries",
+          "description": "Agents spend too much time on routine questions instead of complex issues"
+        }
+      },
+      "solutions": {
+        "title": "Your AI-Powered Support Solution",
+        "description": "Combine the efficiency of AI automation with the empathy of human agents to deliver exceptional customer experiences at any scale.",
+        "instantResponse": {
+          "title": "24/7 Instant Response System",
+          "description": "AI handles customer inquiries immediately, any time of day or night",
+          "benefit1": "Instant responses to common questions",
+          "benefit2": "AI resolves 80% of routine inquiries",
+          "benefit3": "Seamless escalation to human agents",
+          "benefit4": "Consistent service quality around the clock"
+        },
+        "agentProductivity": {
+          "title": "Smart Agent Productivity",
+          "description": "Empower your human agents with AI assistance and unified customer context",
+          "benefit1": "Complete customer history in one view",
+          "benefit2": "AI suggests responses and solutions",
+          "benefit3": "Automatic ticket routing and prioritization",
+          "benefit4": "Real-time sentiment analysis and alerts"
+        },
+        "satisfactionOptimization": {
+          "title": "Customer Satisfaction Optimization",
+          "description": "Deliver exceptional experiences that turn customers into advocates",
+          "benefit1": "Proactive issue resolution and follow-up",
+          "benefit2": "Personalized support based on customer history",
+          "benefit3": "Multi-channel consistency across all touchpoints",
+          "benefit4": "Continuous improvement through AI learning"
+        },
+        "keyBenefitsTitle": "Key Benefits:"
+      },
+      "useCases": {
+        "title": "Support Team Success Stories",
+        "description": "See how customer support teams are using Seasalt.ai to improve efficiency and satisfaction",
+        "ecommerce": {
+          "title": "E-commerce Support",
+          "scenario": "Handling order status, returns, and product questions at scale",
+          "solution": "AI instantly provides order updates and processes returns, escalating complex issues to humans"
+        },
+        "saas": {
+          "title": "SaaS Customer Success",
+          "scenario": "Supporting users with technical questions and feature guidance",
+          "solution": "AI provides instant help articles and tutorials, books technical support calls when needed"
+        },
+        "healthcare": {
+          "title": "Healthcare Patient Support",
+          "scenario": "Managing appointment scheduling and basic health inquiries",
+          "solution": "HIPAA-compliant AI handles scheduling and basic questions, routes urgent matters to staff"
+        },
+        "financial": {
+          "title": "Financial Services",
+          "scenario": "Answering account questions while maintaining security compliance",
+          "solution": "Secure AI verifies identity and provides account info, escalates sensitive matters appropriately"
+        },
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:"
+      },
+      "metrics": {
+        "title": "Support Performance Impact",
+        "description": "Measurable improvements in efficiency, satisfaction, and cost management",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Reduction in response time",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Customer satisfaction score",
+        "costDecrease": "60%",
+        "costDescription": "Decrease in support costs",
+        "availability": "24/7",
+        "availabilityDescription": "Availability without overtime"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Customer Support?",
+        "description": "Join hundreds of support teams using Seasalt.ai to deliver faster, more efficient, and more satisfying customer experiences.",
+        "primary": "Sign Up",
+        "secondary": "Book Support Demo",
+        "disclaimer": "No credit card required • Improve satisfaction in 24 hours • Cancel anytime"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "AI Automation Solutions - Seasalt.ai",
+        "description": "Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results."
+      },
+      "nav": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Unleash the Power of",
+          "highlight": "AI Automation"
+        },
+        "subtitle": "Intelligent Automation That Thinks, Learns, and Scales",
+        "description": "Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results.",
+        "cta": {
+          "primary": "Start Automating",
+          "secondary": "See AI in Action"
+        },
+        "dashboard": {
+          "title": "AI Automation Center",
+          "stats": {
+            "tasks": "🧠 AI processed 342 tasks today",
+            "tasksSaved": "Saved 8.5 hours of manual work",
+            "workflows": "⚡ 23 workflows automated",
+            "workflowsDescription": "From lead capture to customer onboarding",
+            "accuracy": "📈 97% accuracy rate",
+            "accuracyDescription": "Continuously improving through ML",
+            "savings": "🎯 $12,400 cost savings this month",
+            "savingsDescription": "Through intelligent automation"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Automation Challenges",
+        "description": "Traditional automation is rigid and limited. Modern businesses need intelligent automation that adapts, learns, and scales with their growth.",
+        "manualTasks": {
+          "title": "Manual Repetitive Tasks",
+          "description": "Your team spends too much time on routine tasks that could be automated"
+        },
+        "scaling": {
+          "title": "Scaling Limitations",
+          "description": "Growth is limited by human capacity rather than market opportunity"
+        },
+        "inconsistent": {
+          "title": "Inconsistent Experiences",
+          "description": "Customer experience varies based on which team member handles the interaction"
+        }
+      },
+      "solutions": {
+        "title": "Intelligent AI Automation",
+        "description": "Go beyond simple rule-based automation with AI that understands context, makes intelligent decisions, and continuously improves performance.",
+        "voiceChat": {
+          "title": "Intelligent Voice & Chat Automation",
+          "description": "AI agents that understand context and provide human-like interactions",
+          "benefits": {
+            "nlp": "Natural language processing for complex queries",
+            "channels": "Voice and text conversations across all channels",
+            "contextAware": "Context-aware responses based on customer history",
+            "handoff": "Seamless handoff to humans when needed"
+          }
+        },
+        "workflow": {
+          "title": "Smart Workflow Automation",
+          "description": "Automate complex business processes with intelligent decision-making",
+          "benefits": {
+            "leadQualification": "Automated lead qualification and routing",
+            "scheduling": "Intelligent appointment scheduling and management",
+            "pricing": "Dynamic pricing and proposal generation",
+            "followUp": "Automated follow-up sequences and nurturing"
+          }
+        },
+        "learning": {
+          "title": "Continuous Learning & Optimization",
+          "description": "AI that gets smarter over time, improving performance automatically",
+          "benefits": {
+            "machineLearning": "Machine learning from every customer interaction",
+            "optimization": "Automatic optimization of response accuracy",
+            "predictive": "Predictive analytics for proactive customer service",
+            "monitoring": "Real-time performance monitoring and adjustment"
+          }
+        },
+        "capabilities": "Key Capabilities:"
+      },
+      "automationTypes": {
+        "title": "Automation Across Your Business",
+        "description": "From customer service to sales, marketing to operations—AI automation transforms every aspect of your business.",
+        "customerService": {
+          "title": "Customer Service Automation",
+          "description": "AI handles routine inquiries, escalates complex issues",
+          "examples": {
+            "orderStatus": "Order status updates",
+            "faq": "FAQ responses",
+            "troubleshooting": "Basic troubleshooting",
+            "account": "Account information"
+          }
+        },
+        "sales": {
+          "title": "Sales Process Automation",
+          "description": "Automate lead qualification, follow-ups, and scheduling",
+          "examples": {
+            "leadScoring": "Lead scoring",
+            "demoBooking": "Demo booking",
+            "proposals": "Proposal generation",
+            "followUp": "Follow-up sequences"
+          }
+        },
+        "marketing": {
+          "title": "Marketing Campaign Automation",
+          "description": "Intelligent campaigns that adapt based on customer behavior",
+          "examples": {
+            "personalized": "Personalized messaging",
+            "timing": "Optimal send times",
+            "testing": "A/B testing",
+            "optimization": "Performance optimization"
+          }
+        },
+        "operational": {
+          "title": "Operational Automation",
+          "description": "Streamline internal processes and workflows",
+          "examples": {
+            "dataEntry": "Data entry",
+            "reports": "Report generation",
+            "taskAssignment": "Task assignment",
+            "qualityMonitoring": "Quality monitoring"
+          }
+        },
+        "examples": "EXAMPLES:"
+      },
+      "metrics": {
+        "title": "Automation Performance Impact",
+        "description": "Measurable improvements in efficiency, accuracy, and operational capacity",
+        "reduction": {
+          "value": "80%",
+          "label": "Reduction in manual tasks"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Automated operations"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Accuracy rate"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Faster processing"
+        }
+      },
+      "security": {
+        "title": "Secure & Compliant AI",
+        "description": "Enterprise-grade security and compliance built into every AI automation",
+        "dataProtection": {
+          "title": "Data Protection",
+          "description": "End-to-end encryption and secure data handling"
+        },
+        "compliance": {
+          "title": "Compliance Ready",
+          "description": "HIPAA, GDPR, and industry-specific compliance"
+        },
+        "auditTrail": {
+          "title": "Audit Trail",
+          "description": "Complete logging and monitoring of all AI actions"
+        }
+      },
+      "cta": {
+        "title": "Ready to Automate Your Business with AI?",
+        "description": "Join hundreds of businesses using Seasalt.ai to automate operations, reduce costs, and scale efficiently with intelligent AI.",
+        "primary": "Sign Up",
+        "secondary": "Book AI Demo",
+        "disclaimer": "No credit card required • See automation in 24 hours • Cancel anytime"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "SME Owner Solutions - Seasalt.ai",
+        "description": "You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business."
+      },
+      "navigation": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "part1": "Stop Juggling.",
+          "part2": "Start Scaling."
+        },
+        "subtitle": "The AI-Powered Communication Hub for SME Owners Who Wear Multiple Hats",
+        "description": "You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business.",
+        "cta": {
+          "getAssistant": "Get Your AI Assistant",
+          "bookDemo": "Book A Demo"
+        },
+        "dashboard": {
+          "title": "SME Owner Dashboard",
+          "aiHandledInquiries": "🤖 AI handled 23 inquiries today",
+          "timeSaved": "Saved you 3.5 hours",
+          "appointmentsBooked": "📅 5 appointments booked automatically",
+          "whileInMeetings": "While you were in meetings",
+          "leadsQualified": "💬 12 leads qualified and prioritized",
+          "readyForFollowup": "Ready for your personal follow-up",
+          "smsCampaign": "📱 SMS campaign: 89% open rate",
+          "newCustomers": "3 new customers acquired"
+        }
+      },
+      "challenges": {
+        "title": "The SME Owner's Dilemma",
+        "description": "Running a small business means wearing multiple hats. But that shouldn't mean drowning in routine communications.",
+        "wearingMultipleHats": {
+          "title": "Wearing Multiple Hats",
+          "description": "Managing sales, marketing, and support simultaneously while trying to grow your business"
+        },
+        "limitedTimeResources": {
+          "title": "Limited Time & Resources",
+          "description": "Every minute counts when you're running a small business with a lean team"
+        },
+        "scalingChallenges": {
+          "title": "Scaling Challenges",
+          "description": "Growing customer demands without proportional increase in team size or budget"
+        }
+      },
+      "solutions": {
+        "title": "Your AI-Powered Solution",
+        "description": "Seasalt.ai acts as your virtual team member, handling routine tasks so you can focus on what only you can do - growing your business.",
+        "keyBenefits": "Key Benefits:",
+        "aiAutomation": {
+          "title": "AI-Powered Automation",
+          "description": "Let AI handle routine inquiries, appointment booking, and lead qualification 24/7",
+          "benefits": {
+            "routineQuestions": "Automate 80% of routine customer questions",
+            "bookAppointments": "Book appointments while you sleep",
+            "qualifyLeads": "Qualify leads before they reach you",
+            "instantResponses": "Provide instant responses across all channels"
+          }
+        },
+        "unifiedView": {
+          "title": "Unified Customer View",
+          "description": "See every customer interaction in one place, whether they call, text, or chat",
+          "benefits": {
+            "singleInbox": "Single inbox for all customer communications",
+            "conversationHistory": "Complete conversation history across channels",
+            "neverLoseTrack": "Never lose track of customer context",
+            "seamlessHandoffs": "Seamless handoffs between AI and human"
+          }
+        },
+        "smartMarketing": {
+          "title": "Smart Marketing Campaigns",
+          "description": "Run targeted campaigns across SMS, WhatsApp, and email with AI assistance",
+          "benefits": {
+            "automatedFollowup": "Automated follow-up sequences",
+            "personalizedMessaging": "Personalized messaging at scale",
+            "trackPerformance": "Track campaign performance in real-time",
+            "recoverCarts": "Recover abandoned carts automatically"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Real SME Owner Scenarios",
+        "description": "See how other business owners like you are using Seasalt.ai to scale their operations",
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:",
+        "soloEntrepreneur": {
+          "title": "The Solo Entrepreneur",
+          "scenario": "Running a consulting business while managing all client communications",
+          "solution": "AI handles initial inquiries and books consultations, freeing you to focus on delivery"
+        },
+        "smallRetailer": {
+          "title": "The Small Retailer",
+          "scenario": "Managing online orders, customer support, and marketing campaigns",
+          "solution": "Automated order updates, instant support responses, and targeted marketing campaigns"
+        },
+        "serviceProvider": {
+          "title": "The Service Provider",
+          "scenario": "Juggling appointment scheduling, customer questions, and follow-ups",
+          "solution": "AI books appointments, answers FAQs, and sends automated reminders"
+        },
+        "growingStartup": {
+          "title": "The Growing Startup",
+          "scenario": "Scaling customer communications without hiring a full support team",
+          "solution": "AI handles volume growth while maintaining personal touch with smart handoffs"
+        }
+      },
+      "roi": {
+        "title": "The SME Owner's ROI",
+        "description": "See the immediate impact on your business operations and growth",
+        "timeSaved": {
+          "metric": "5+ Hours",
+          "description": "Saved per week on routine communications"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Increase in lead response rate"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Customer service without hiring night staff"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "More conversations handled with same team"
+        }
+      },
+      "cta": {
+        "title": "Ready to Stop Juggling and Start Scaling?",
+        "description": "Join thousands of SME owners who've reclaimed their time and scaled their customer communications with AI automation.",
+        "startTrial": "Start Your Free Trial",
+        "scheduleDemo": "Schedule Personal Demo",
+        "disclaimer": "No credit card required • Setup in under 10 minutes • Cancel anytime"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - AI-Powered Communication for Healthcare",
+        "description": "Elevate patient communication and streamline operations with SeaHealth's AI-powered, HIPAA-compliant platform. Unify calls, texts, and messaging in one secure inbox."
+      },
+      "hero": {
+        "title": "SeaHealth lets healthcare professionals –",
+        "subtitle": "Transform Patients Interactions, with:",
+        "features": {
+          "newPatients": "New Patients Acquisition",
+          "aiReceptionists": "After-hour Voice AI Receptionists",
+          "callAnalytics": "Front Office Call Analytics"
+        },
+        "cta": "Book a Demo Today!",
+        "description": "AI-powered front office for healthcare. Never miss a call, complaint, or appointment again."
+      },
+      "top4Reasons": {
+        "title": "Top 4 reasons hospitals and clinics choose SeaHealth:",
+        "neverMissCall": "Never Miss a Call",
+        "neverMissComplaint": "Never Miss a Customer Complaint",
+        "bookAppointments": "Book New Patient Appointments After Business Hours",
+        "provide247Hotline": "Provide 24/7 Hotline to Prospective and Existing Patients"
+      },
+      "frontOfficeChallenges": {
+        "title": "Addressing Front Office Challenges",
+        "unmonitoredCalls": {
+          "title": "Unmonitored Front Desk Phone Call",
+          "complaint": "Address customer complaints before they escalate.",
+          "risks": "Mitigate risks from initial medical triage errors.",
+          "professionalism": "Enhance professionalism with improved speaking tone and receptionist conduct."
+        },
+        "missedCalls": {
+          "title": "Missed Inbound Calls from Patients",
+          "voicemails": "Eliminate after-hour voicemails with active follow-ups.",
+          "scheduling": "Simplify appointment scheduling and rescheduling.",
+          "retention": "Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors."
+        },
+        "outboundCalls": {
+          "title": "Outbound Calls Nobody Wants to Make",
+          "followUp": "Ensure thoroughness in procedure follow-up calls.",
+          "insurance": "Simplify lengthy conversations with insurance companies.",
+          "reactivation": "Reactivate lapsed patients with effective promotions to fill empty slots."
+        }
+      },
+      "solutions": {
+        "title": "Solutions for Every Healthcare Setting",
+        "hospitals": "Hospitals & Clinics",
+        "dental": "Dental Clinics",
+        "hospice": "Hospice Homes",
+        "emergency": "Emergency Care",
+        "adult": "Adult Family Homes",
+        "veterinary": "Veterinary Hospitals",
+        "cosmetic": "Cosmetic Surgery"
+      },
+      "mainSolution": {
+        "title": "The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.",
+        "description": "Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care."
+      },
+      "forProviders": {
+        "title": "For Healthcare Providers",
+        "reduceAdministrative": "Reduce administrative burden",
+        "improveSatisfaction": "Improve patient satisfaction",
+        "increaseEfficiency": "Increase operational efficiency"
+      },
+      "forPatients": {
+        "title": "For Patients",
+        "access247": "24/7 access to support",
+        "quickScheduling": "Quick appointment scheduling",
+        "seamlessCommunication": "Seamless communication"
+      },
+      "whyChoose": {
+        "title": "Why Choose SeaHealth?",
+        "hipaa": {
+          "title": "HIPAA Compliance",
+          "description": "We prioritize patient data privacy and security."
+        },
+        "speech": {
+          "title": "Natural & Contextual Speech Technologies",
+          "description": "Engage patients with human-like communication."
+        },
+        "automation": {
+          "title": "Automation Done Right",
+          "description": "Always caring for patients and your own employees."
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "analytics": {
+          "question": "How does your front desk call analytics work?",
+          "answer": "We record your incoming and outgoing phone calls, then transcribe them for further analysis. Summary and alert emails are sent out on a daily basis."
+        },
+        "recording": {
+          "question": "Does it require recording the phone calls, and how?",
+          "answer": "We connect your VoIP provider to get the call recordings and do speech analysis on the recordings. If you use analog phones, we use a phone recording device that connects your call with phone jacks to get the recordings."
+        },
+        "coverage": {
+          "question": "How does 24/7 phone call coverage work?",
+          "answer": "AI-powered receptionists handle calls round-the-clock, ensuring no missed opportunities. You can either pick up the call when they ring, or transfer the call to the AI receptionists during or after business hours."
+        },
+        "whyUse": {
+          "question": "Why should I use your service?",
+          "answer": "SeaHealth improves efficiency, enhances patient satisfaction, and increases revenue through automation and AI-powered solutions. It's cheaper, more reliable, and more empathetic than outsourcing your front desk receptionist work."
+        }
+      },
+      "partners": {
+        "title": "Partners & Integrations"
+      },
+      "cta": {
+        "title": "Ready to transform patient interactions?",
+        "button": "Book a Demo Today!"
+      }
     }
   },
   "pricing": {

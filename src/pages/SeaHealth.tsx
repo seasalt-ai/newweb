@@ -2,39 +2,43 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegComments, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegStar, FaRegCalendarPlus, FaRegCalendarCheck, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown } from 'react-icons/fa';
 import SEOHelmet from '../components/SEOHelmet';
+import { useTranslation } from 'react-i18next';
 
-const SeaHealth = () => (
-  <div className="min-h-screen bg-white flex flex-col">
-    <SEOHelmet 
-      title="SeaHealth - AI-Powered Communication for Healthcare"
-      description="Elevate patient communication and streamline operations with SeaHealth's AI-powered, HIPAA-compliant platform. Unify calls, texts, and messaging in one secure inbox."
-      favicon="/health-images/main/favicon-seahealth.ico"
-      canonicalUrl={typeof window !== 'undefined' ? `${window.location.origin}/seahealth` : `/seahealth`}
-    />
+const SeaHealth = () => {
+  const { t } = useTranslation();
+  
+  return (
+    <div className="min-h-screen bg-white flex flex-col">
+      <SEOHelmet 
+        title={t('solutions.seahealth.seo.title')}
+        description={t('solutions.seahealth.seo.description')}
+        favicon="/health-images/main/favicon-seahealth.ico"
+        canonicalUrl={typeof window !== 'undefined' ? `${window.location.origin}/seahealth` : `/seahealth`}
+      />
     <Header />
     <main className="flex-1 w-full bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 py-16 px-4 text-center overflow-hidden">
         <img src="/health-images/main/background-hero.svg" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none animate-pulse" />
         <div className="relative z-10 max-w-3xl mx-auto">
-          <h1 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-2 drop-shadow-lg">SeaHealth lets healthcare professionals –</h1>
-          <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">Transform Patients Interactions, with:</h2>
+          <h1 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-2 drop-shadow-lg">{t('solutions.seahealth.hero.title')}</h1>
+          <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">{t('solutions.seahealth.hero.subtitle')}</h2>
           <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-10">
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up">
               <FaUserPlus className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
-              <span className="text-2xl md:text-2xl text-center leading-snug break-words">New Patients Acquisition</span>
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">{t('solutions.seahealth.hero.features.newPatients')}</span>
             </li>
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-100">
               <FaRobot className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
-              <span className="text-2xl md:text-2xl text-center leading-snug break-words">After-hour Voice AI Receptionists</span>
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">{t('solutions.seahealth.hero.features.aiReceptionists')}</span>
             </li>
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-14 py-10 text-blue-800 font-bold shadow-xl min-w-[320px] min-h-[180px] max-w-[340px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-200">
               <FaChartBar className="w-14 h-14 mb-4 text-blue-500 animate-bounce" />
-              <span className="text-2xl md:text-2xl text-center leading-snug break-words">Front Office Call Analytics</span>
+              <span className="text-2xl md:text-2xl text-center leading-snug break-words">{t('solutions.seahealth.hero.features.callAnalytics')}</span>
             </li>
           </ul>
-          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
-          <p className="text-lg md:text-xl text-blue-800 drop-shadow-lg animate-fade-in-up delay-300">AI-powered front office for healthcare. Never miss a call, complaint, or appointment again.</p>
+          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">{t('solutions.seahealth.hero.cta')}</a>
+          <p className="text-lg md:text-xl text-blue-800 drop-shadow-lg animate-fade-in-up delay-300">{t('solutions.seahealth.hero.description')}</p>
         </div>
         <style>{`
           @keyframes gradient-x {
@@ -68,23 +72,23 @@ const SeaHealth = () => (
       {/* Top 4 Reasons */}
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x">Top 4 reasons hospitals and clinics choose SeaHealth:</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x">{t('solutions.seahealth.top4Reasons.title')}</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-6 text-blue-800 font-bold shadow-xl min-h-[120px] hover:scale-105 transition-transform duration-300 animate-fade-in-up">
               <FaPhoneAlt className="w-10 h-10 mb-2 text-blue-500" aria-label="Call" />
-              <span className="text-xl md:text-2xl text-center">Never Miss a Call</span>
+              <span className="text-xl md:text-2xl text-center">{t('solutions.seahealth.top4Reasons.neverMissCall')}</span>
             </li>
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-6 text-blue-800 font-bold shadow-xl min-h-[120px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-100">
               <FaCommentDots className="w-10 h-10 mb-2 text-blue-500" aria-label="Complaint" />
-              <span className="text-xl md:text-2xl text-center">Never Miss a Customer Complaint</span>
+              <span className="text-xl md:text-2xl text-center">{t('solutions.seahealth.top4Reasons.neverMissComplaint')}</span>
             </li>
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-6 text-blue-800 font-bold shadow-xl min-h-[120px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-200">
               <FaCalendarCheck className="w-10 h-10 mb-2 text-blue-500" aria-label="Appointment" />
-              <span className="text-xl md:text-2xl text-center">Book New Patient Appointments After Business Hours</span>
+              <span className="text-xl md:text-2xl text-center">{t('solutions.seahealth.top4Reasons.bookAppointments')}</span>
             </li>
             <li className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl px-6 py-6 text-blue-800 font-bold shadow-xl min-h-[120px] hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-300">
               <FaHeadset className="w-10 h-10 mb-2 text-blue-500" aria-label="Hotline" />
-              <span className="text-xl md:text-2xl text-center">Provide 24/7 Hotline to Prospective and Existing Patients</span>
+              <span className="text-xl md:text-2xl text-center">{t('solutions.seahealth.top4Reasons.provide247Hotline')}</span>
             </li>
           </ul>
         </div>
@@ -94,19 +98,19 @@ const SeaHealth = () => (
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">
-            Addressing Front Office Challenges
+            {t('solutions.seahealth.frontOfficeChallenges.title')}
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Unmonitored Front Desk Phone Call */}
             <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up">
               <div className="mb-2 flex items-center justify-center">
                 <FaPhoneSlash className="w-16 h-16 text-blue-500 mr-4" aria-label="Unmonitored Call" />
-                <h3 className="text-xl font-bold text-blue-900 text-center">Unmonitored Front Desk Phone Call</h3>
+                <h3 className="text-xl font-bold text-blue-900 text-center">{t('solutions.seahealth.frontOfficeChallenges.unmonitoredCalls.title')}</h3>
               </div>
               <ul className="space-y-2 text-blue-800 text-base">
-                <li className="flex items-center"><FaExclamationTriangle className="w-10 h-10 mr-3 text-yellow-500" aria-label="Warning" />Address customer complaints before they escalate.</li>
-                <li className="flex items-center"><FaUserMd className="w-10 h-10 mr-3 text-blue-400" aria-label="Doctor" />Mitigate risks from initial medical triage errors.</li>
-                <li className="flex items-center"><FaRegComments className="w-16 h-16 mr-4 text-green-500" aria-label="Comments" />Enhance professionalism with improved speaking tone and receptionist conduct.</li>
+                <li className="flex items-center"><FaExclamationTriangle className="w-10 h-10 mr-3 text-yellow-500" aria-label="Warning" />{t('solutions.seahealth.frontOfficeChallenges.unmonitoredCalls.complaint')}</li>
+                <li className="flex items-center"><FaUserMd className="w-10 h-10 mr-3 text-blue-400" aria-label="Doctor" />{t('solutions.seahealth.frontOfficeChallenges.unmonitoredCalls.risks')}</li>
+                <li className="flex items-center"><FaRegComments className="w-16 h-16 mr-4 text-green-500" aria-label="Comments" />{t('solutions.seahealth.frontOfficeChallenges.unmonitoredCalls.professionalism')}</li>
               </ul>
             </div>
             {/* Missed Inbound Calls from Patients */}
@@ -322,6 +326,7 @@ const SeaHealth = () => (
     </main>
     <Footer />
   </div>
-);
+  );
+};
 
 export default SeaHealth;

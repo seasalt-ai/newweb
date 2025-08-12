@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const CustomerSupport = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/solutions/customer-support` 
     : `/${i18n.language}/solutions/customer-support`;
@@ -15,22 +15,22 @@ const CustomerSupport = () => {
   const challenges = [
     {
       icon: <Clock className="h-8 w-8" />,
-      title: 'Response Time Pressure',
-      description: 'Customers expect instant responses, but your team can\'t be available 24/7',
+      title: t('solutions.customerSupport.challenges.responseTimePressure.title'),
+      description: t('solutions.customerSupport.challenges.responseTimePressure.description'),
       color: 'text-red-600',
       bgColor: 'bg-red-50'
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Scaling Support Team',
-      description: 'Growing customer base requires more agents, but hiring is expensive and slow',
+      title: t('solutions.customerSupport.challenges.scalingTeam.title'),
+      description: t('solutions.customerSupport.challenges.scalingTeam.description'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-50'
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: 'Repetitive Inquiries',
-      description: 'Agents spend too much time on routine questions instead of complex issues',
+      title: t('solutions.customerSupport.challenges.repetitiveInquiries.title'),
+      description: t('solutions.customerSupport.challenges.repetitiveInquiries.description'),
       color: 'text-yellow-600',
       bgColor: 'bg-yellow-50'
     }
@@ -39,13 +39,13 @@ const CustomerSupport = () => {
   const solutions = [
     {
       icon: <Zap className="h-8 w-8" />,
-      title: '24/7 Instant Response System',
-      description: 'AI handles customer inquiries immediately, any time of day or night',
+      title: t('solutions.customerSupport.solutions.instantResponse.title'),
+      description: t('solutions.customerSupport.solutions.instantResponse.description'),
       benefits: [
-        'Instant responses to common questions',
-        'AI resolves 80% of routine inquiries',
-        'Seamless escalation to human agents',
-        'Consistent service quality around the clock'
+        t('solutions.customerSupport.solutions.instantResponse.benefit1'),
+        t('solutions.customerSupport.solutions.instantResponse.benefit2'),
+        t('solutions.customerSupport.solutions.instantResponse.benefit3'),
+        t('solutions.customerSupport.solutions.instantResponse.benefit4')
       ],
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
@@ -53,13 +53,13 @@ const CustomerSupport = () => {
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Smart Agent Productivity',
-      description: 'Empower your human agents with AI assistance and unified customer context',
+      title: t('solutions.customerSupport.solutions.agentProductivity.title'),
+      description: t('solutions.customerSupport.solutions.agentProductivity.description'),
       benefits: [
-        'Complete customer history in one view',
-        'AI suggests responses and solutions',
-        'Automatic ticket routing and prioritization',
-        'Real-time sentiment analysis and alerts'
+        t('solutions.customerSupport.solutions.agentProductivity.benefit1'),
+        t('solutions.customerSupport.solutions.agentProductivity.benefit2'),
+        t('solutions.customerSupport.solutions.agentProductivity.benefit3'),
+        t('solutions.customerSupport.solutions.agentProductivity.benefit4')
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -67,13 +67,13 @@ const CustomerSupport = () => {
     },
     {
       icon: <Heart className="h-8 w-8" />,
-      title: 'Customer Satisfaction Optimization',
-      description: 'Deliver exceptional experiences that turn customers into advocates',
+      title: t('solutions.customerSupport.solutions.satisfactionOptimization.title'),
+      description: t('solutions.customerSupport.solutions.satisfactionOptimization.description'),
       benefits: [
-        'Proactive issue resolution and follow-up',
-        'Personalized support based on customer history',
-        'Multi-channel consistency across all touchpoints',
-        'Continuous improvement through AI learning'
+        t('solutions.customerSupport.solutions.satisfactionOptimization.benefit1'),
+        t('solutions.customerSupport.solutions.satisfactionOptimization.benefit2'),
+        t('solutions.customerSupport.solutions.satisfactionOptimization.benefit3'),
+        t('solutions.customerSupport.solutions.satisfactionOptimization.benefit4')
       ],
       color: 'text-purple-600',
       bgColor: 'bg-purple-50',
@@ -83,46 +83,46 @@ const CustomerSupport = () => {
 
   const useCases = [
     {
-      title: 'E-commerce Support',
-      scenario: 'Handling order status, returns, and product questions at scale',
-      solution: 'AI instantly provides order updates and processes returns, escalating complex issues to humans'
+      title: t('solutions.customerSupport.useCases.ecommerce.title'),
+      scenario: t('solutions.customerSupport.useCases.ecommerce.scenario'),
+      solution: t('solutions.customerSupport.useCases.ecommerce.solution')
     },
     {
-      title: 'SaaS Customer Success',
-      scenario: 'Supporting users with technical questions and feature guidance',
-      solution: 'AI provides instant help articles and tutorials, books technical support calls when needed'
+      title: t('solutions.customerSupport.useCases.saas.title'),
+      scenario: t('solutions.customerSupport.useCases.saas.scenario'),
+      solution: t('solutions.customerSupport.useCases.saas.solution')
     },
     {
-      title: 'Healthcare Patient Support',
-      scenario: 'Managing appointment scheduling and basic health inquiries',
-      solution: 'HIPAA-compliant AI handles scheduling and basic questions, routes urgent matters to staff'
+      title: t('solutions.customerSupport.useCases.healthcare.title'),
+      scenario: t('solutions.customerSupport.useCases.healthcare.scenario'),
+      solution: t('solutions.customerSupport.useCases.healthcare.solution')
     },
     {
-      title: 'Financial Services',
-      scenario: 'Answering account questions while maintaining security compliance',
-      solution: 'Secure AI verifies identity and provides account info, escalates sensitive matters appropriately'
+      title: t('solutions.customerSupport.useCases.financial.title'),
+      scenario: t('solutions.customerSupport.useCases.financial.scenario'),
+      solution: t('solutions.customerSupport.useCases.financial.solution')
     }
   ];
 
   const metrics = [
     {
-      metric: '80%',
-      description: 'Reduction in response time',
+      metric: t('solutions.customerSupport.metrics.responseTimeReduction'),
+      description: t('solutions.customerSupport.metrics.responseTimeDescription'),
       icon: <Clock className="h-6 w-6" />
     },
     {
-      metric: '95%',
-      description: 'Customer satisfaction score',
+      metric: t('solutions.customerSupport.metrics.satisfactionScore'),
+      description: t('solutions.customerSupport.metrics.satisfactionDescription'),
       icon: <Heart className="h-6 w-6" />
     },
     {
-      metric: '60%',
-      description: 'Decrease in support costs',
+      metric: t('solutions.customerSupport.metrics.costDecrease'),
+      description: t('solutions.customerSupport.metrics.costDescription'),
       icon: <BarChart3 className="h-6 w-6" />
     },
     {
-      metric: '24/7',
-      description: 'Availability without overtime',
+      metric: t('solutions.customerSupport.metrics.availability'),
+      description: t('solutions.customerSupport.metrics.availabilityDescription'),
       icon: <Shield className="h-6 w-6" />
     }
   ];
@@ -133,8 +133,8 @@ const CustomerSupport = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title="Customer Support Solutions - Seasalt.ai"
-        description="Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
+        title={t('solutions.customerSupport.seo.title')}
+        description={t('solutions.customerSupport.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -148,35 +148,33 @@ const CustomerSupport = () => {
               <div>
                 <Link to="/" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  Back to Home
+                  {t('solutions.customerSupport.navigation.backToHome')}
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  Deliver{' '}
+                  {t('solutions.customerSupport.hero.title.deliver')}{' '}
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    Exceptional Support
+                    {t('solutions.customerSupport.hero.title.exceptionalSupport')}
                   </span>{' '}
-                  at Scale
+                  {t('solutions.customerSupport.hero.title.atScale')}
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 mb-8">
-                  AI-Powered Customer Support That Never Sleeps
+                  {t('solutions.customerSupport.hero.subtitle')}
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
-                  Transform your customer support with intelligent automation that handles routine 
-                  inquiries instantly while empowering your human agents to focus on complex, 
-                  high-value interactions.
+                  {t('solutions.customerSupport.hero.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Improve Support Now
+                    {t('solutions.customerSupport.hero.cta.primary')}
                   </a>
                   <a
                     href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    See Demo
+                    {t('solutions.customerSupport.hero.cta.secondary')}
                   </a>
                 </div>
               </div>
@@ -186,24 +184,24 @@ const CustomerSupport = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Headphones className="h-8 w-8 text-blue-600 mr-3" />
-                      <h3 className="text-lg font-semibold">Support Dashboard</h3>
+                      <h3 className="text-lg font-semibold">{t('solutions.customerSupport.hero.dashboard.title')}</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-500">
-                        <p className="text-sm font-medium text-green-800">🤖 AI resolved 156 tickets today</p>
-                        <p className="text-xs text-green-600">Average resolution time: 23 seconds</p>
+                        <p className="text-sm font-medium text-green-800">{t('solutions.customerSupport.hero.dashboard.aiResolved')}</p>
+                        <p className="text-xs text-green-600">{t('solutions.customerSupport.hero.dashboard.resolutionTime')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                        <p className="text-sm font-medium text-blue-800">👥 12 tickets escalated to humans</p>
-                        <p className="text-xs text-blue-600">Complex issues requiring expertise</p>
+                        <p className="text-sm font-medium text-blue-800">{t('solutions.customerSupport.hero.dashboard.escalated')}</p>
+                        <p className="text-xs text-blue-600">{t('solutions.customerSupport.hero.dashboard.complexIssues')}</p>
                       </div>
                       <div className="bg-purple-50 p-3 rounded-lg border-l-4 border-purple-500">
-                        <p className="text-sm font-medium text-purple-800">😊 Customer satisfaction: 96%</p>
-                        <p className="text-xs text-purple-600">Up 15% from last month</p>
+                        <p className="text-sm font-medium text-purple-800">{t('solutions.customerSupport.hero.dashboard.satisfaction')}</p>
+                        <p className="text-xs text-purple-600">{t('solutions.customerSupport.hero.dashboard.satisfactionUp')}</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
-                        <p className="text-sm font-medium text-orange-800">⏱️ Average response time: 8 seconds</p>
-                        <p className="text-xs text-orange-600">98% faster than industry average</p>
+                        <p className="text-sm font-medium text-orange-800">{t('solutions.customerSupport.hero.dashboard.responseTime')}</p>
+                        <p className="text-xs text-orange-600">{t('solutions.customerSupport.hero.dashboard.fasterThanAverage')}</p>
                       </div>
                     </div>
                   </div>
@@ -218,11 +216,10 @@ const CustomerSupport = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Customer Support Challenges
+                {t('solutions.customerSupport.challenges.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Modern customers expect instant, personalized support. Traditional support models 
-                struggle to meet these expectations while controlling costs.
+                {t('solutions.customerSupport.challenges.description')}
               </p>
             </div>
 
@@ -252,11 +249,10 @@ const CustomerSupport = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Your AI-Powered Support Solution
+                {t('solutions.customerSupport.solutions.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Combine the efficiency of AI automation with the empathy of human agents 
-                to deliver exceptional customer experiences at any scale.
+                {t('solutions.customerSupport.solutions.description')}
               </p>
             </div>
 
@@ -279,7 +275,7 @@ const CustomerSupport = () => {
                       </p>
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Benefits:</h4>
+                      <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('solutions.customerSupport.solutions.keyBenefitsTitle')}</h4>
                       <ul className="space-y-3">
                         {solution.benefits.map((benefit, benefitIndex) => (
                           <li key={benefitIndex} className="flex items-start">
@@ -301,10 +297,10 @@ const CustomerSupport = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Support Team Success Stories
+                {t('solutions.customerSupport.useCases.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how customer support teams are using Seasalt.ai to improve efficiency and satisfaction
+                {t('solutions.customerSupport.useCases.description')}
               </p>
             </div>
 
@@ -315,11 +311,11 @@ const CustomerSupport = () => {
                     {useCase.title}
                   </h3>
                   <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-600 mb-2">CHALLENGE:</h4>
+                    <h4 className="text-sm font-semibold text-gray-600 mb-2">{t('solutions.customerSupport.useCases.challengeLabel')}</h4>
                     <p className="text-gray-700 mb-4">{useCase.scenario}</p>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-blue-600 mb-2">SEASALT.AI SOLUTION:</h4>
+                    <h4 className="text-sm font-semibold text-blue-600 mb-2">{t('solutions.customerSupport.useCases.solutionLabel')}</h4>
                     <p className="text-gray-700">{useCase.solution}</p>
                   </div>
                 </div>
@@ -333,10 +329,10 @@ const CustomerSupport = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Support Performance Impact
+                {t('solutions.customerSupport.metrics.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Measurable improvements in efficiency, satisfaction, and cost management
+                {t('solutions.customerSupport.metrics.description')}
               </p>
             </div>
 
@@ -362,28 +358,27 @@ const CustomerSupport = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Transform Your Customer Support?
+              {t('solutions.customerSupport.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Join hundreds of support teams using Seasalt.ai to deliver faster, 
-              more efficient, and more satisfying customer experiences.
+              {t('solutions.customerSupport.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 Sign Up
+                 {t('solutions.customerSupport.cta.primary')}
               </a>
               <a
                 href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Book Support Demo
+                {t('solutions.customerSupport.cta.secondary')}
               </a>
             </div>
             <p className="text-white opacity-75 mt-6 text-sm">
-              No credit card required • Improve satisfaction in 24 hours • Cancel anytime
+              {t('solutions.customerSupport.cta.disclaimer')}
             </p>
           </div>
         </section>

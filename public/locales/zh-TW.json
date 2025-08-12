@@ -1646,6 +1646,550 @@
         "secondary": "預約銷售示範",
         "disclaimer": "無需信用卡 • 24小時內見效果 • 隨時取消"
       }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "客戶支援解決方案 - Seasalt.ai",
+        "description": "透過智慧自動化轉變您的客戶支援，即時處理日常查詢，同時讓您的人工專員專注於複雜、高價值的互動。"
+      },
+      "navigation": {
+        "backToHome": "返回首頁"
+      },
+      "hero": {
+        "title": {
+          "deliver": "提供",
+          "exceptionalSupport": "卓越支援",
+          "atScale": "大規模"
+        },
+        "subtitle": "永不停歇的 AI 驅動客戶支援",
+        "description": "透過智慧自動化轉變您的客戶支援，即時處理日常查詢，同時讓您的人工專員專注於複雜、高價值的互動。",
+        "cta": {
+          "primary": "立即改善支援",
+          "secondary": "觀看演示"
+        },
+        "dashboard": {
+          "title": "支援儀表板",
+          "aiResolved": "🤖 AI 今日處理了 156 張服務單",
+          "resolutionTime": "平均解決時間：23 秒",
+          "escalated": "👥 12 張服務單升級給人工處理",
+          "complexIssues": "需要專業知識的複雜問題",
+          "satisfaction": "😊 客戶滿意度：96%",
+          "satisfactionUp": "比上月提升 15%",
+          "responseTime": "⏱️ 平均回應時間：8 秒",
+          "fasterThanAverage": "比行業平均快 98%"
+        }
+      },
+      "challenges": {
+        "title": "客戶支援挑戰",
+        "description": "現代客戶期望即時、個人化的支援。傳統支援模式難以在控制成本的同時滿足這些期望。",
+        "responseTimePressure": {
+          "title": "回應時間壓力",
+          "description": "客戶期望即時回應，但您的團隊無法 24/7 全天候待命"
+        },
+        "scalingTeam": {
+          "title": "支援團隊擴展",
+          "description": "不斷增長的客戶群需要更多專員，但招聘成本高且緩慢"
+        },
+        "repetitiveInquiries": {
+          "title": "重複查詢",
+          "description": "專員花太多時間處理例行問題，而不是複雜議題"
+        }
+      },
+      "solutions": {
+        "title": "您的 AI 驅動支援解決方案",
+        "description": "結合 AI 自動化的效率與人工專員的同理心，在任何規模下提供卓越的客戶體驗。",
+        "instantResponse": {
+          "title": "24/7 即時回應系統",
+          "description": "AI 立即處理客戶查詢，無論日夜",
+          "benefit1": "對常見問題的即時回應",
+          "benefit2": "AI 解決 80% 的日常查詢",
+          "benefit3": "無縫升級至人工專員",
+          "benefit4": "全天候一致的服務品質"
+        },
+        "agentProductivity": {
+          "title": "智慧專員生產力",
+          "description": "透過 AI 協助和統一客戶背景為您的人工專員賦能",
+          "benefit1": "在一個視圖中查看完整客戶歷史",
+          "benefit2": "AI 建議回應和解決方案",
+          "benefit3": "自動服務單路由和優先級排序",
+          "benefit4": "即時情感分析和警報"
+        },
+        "satisfactionOptimization": {
+          "title": "客戶滿意度優化",
+          "description": "提供將客戶轉變為倡導者的卓越體驗",
+          "benefit1": "主動問題解決和後續追蹤",
+          "benefit2": "基於客戶歷史的個人化支援",
+          "benefit3": "所有接觸點的多渠道一致性",
+          "benefit4": "透過 AI 學習持續改進"
+        },
+        "keyBenefitsTitle": "主要優勢："
+      },
+      "useCases": {
+        "title": "支援團隊成功案例",
+        "description": "了解客戶支援團隊如何使用 Seasalt.ai 來提高效率和滿意度",
+        "ecommerce": {
+          "title": "電子商務支援",
+          "scenario": "大規模處理訂單狀態、退貨和產品問題",
+          "solution": "AI 即時提供訂單更新並處理退貨，將複雜問題升級給人工處理"
+        },
+        "saas": {
+          "title": "SaaS 客戶成功",
+          "scenario": "為用戶提供技術問題和功能指導支援",
+          "solution": "AI 提供即時幫助文章和教程，在需要時預約技術支援通話"
+        },
+        "healthcare": {
+          "title": "醫療患者支援",
+          "scenario": "管理預約排程和基本健康查詢",
+          "solution": "符合 HIPAA 標準的 AI 處理排程和基本問題，將緊急事項路由給工作人員"
+        },
+        "financial": {
+          "title": "金融服務",
+          "scenario": "在維護安全合規性的同時回答帳戶問題",
+          "solution": "安全 AI 驗證身份並提供帳戶資訊，適當地升級敏感事項"
+        },
+        "challengeLabel": "挑戰：",
+        "solutionLabel": "SEASALT.AI 解決方案："
+      },
+      "metrics": {
+        "title": "支援績效影響",
+        "description": "在效率、滿意度和成本管理方面的可衡量改善",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "回應時間縮短",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "客戶滿意度分數",
+        "costDecrease": "60%",
+        "costDescription": "支援成本降低",
+        "availability": "24/7",
+        "availabilityDescription": "無需加班的可用性"
+      },
+      "cta": {
+        "title": "準備好轉變您的客戶支援了嗎？",
+        "description": "加入數百個使用 Seasalt.ai 提供更快速、更高效、更令人滿意客戶體驗的支援團隊。",
+        "primary": "註冊",
+        "secondary": "預約支援演示",
+        "disclaimer": "無需信用卡 • 24 小時內改善滿意度 • 隨時取消"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "AI 自動化解決方案 - Seasalt.ai",
+        "description": "運用不僅遵循規則，更能理解上下文、做出智慧決策並持續改進以提供卓越成果的 AI 來轉變您的業務營運。"
+      },
+      "nav": {
+        "backToHome": "返回首頁"
+      },
+      "hero": {
+        "title": {
+          "prefix": "釋放",
+          "highlight": "AI 自動化"
+        },
+        "subtitle": "智能自動化：思考、學習、擴展",
+        "description": "運用不僅遵循規則，更能理解上下文、做出智慧決策並持續改進以提供卓越成果的 AI 來轉變您的業務營運。",
+        "cta": {
+          "primary": "開始自動化",
+          "secondary": "查看 AI 實際運作"
+        },
+        "dashboard": {
+          "title": "AI 自動化中心",
+          "stats": {
+            "tasks": "🧠 AI 今日處理了 342 項任務",
+            "tasksSaved": "節省了 8.5 小時的手動工作",
+            "workflows": "⚡ 23 個工作流程已自動化",
+            "workflowsDescription": "從潛在客戶擷取到客戶導入",
+            "accuracy": "📈 97% 準確率",
+            "accuracyDescription": "透過機器學習持續改進",
+            "savings": "🎯 本月節省 $12,400 成本",
+            "savingsDescription": "透過智能自動化"
+          }
+        }
+      },
+      "challenges": {
+        "title": "自動化挑戰",
+        "description": "傳統自動化僵化且有限。現代企業需要能適應、學習並隨著成長而擴展的智能自動化。",
+        "manualTasks": {
+          "title": "手動重複性任務",
+          "description": "您的團隊在可以自動化的例行任務上花費太多時間"
+        },
+        "scaling": {
+          "title": "擴展限制",
+          "description": "成長受到人力容量而非市場機會的限制"
+        },
+        "inconsistent": {
+          "title": "不一致的體驗",
+          "description": "客戶體驗會因處理互動的團隊成員而有所不同"
+        }
+      },
+      "solutions": {
+        "title": "智能 AI 自動化",
+        "description": "超越簡單的基於規則的自動化，採用能理解上下文、做出智慧決策並持續改進效能的 AI。",
+        "voiceChat": {
+          "title": "智能語音和聊天自動化",
+          "description": "理解上下文並提供類人互動的 AI 代理",
+          "benefits": {
+            "nlp": "複雜查詢的自然語言處理",
+            "channels": "跨所有通道的語音和文字對話",
+            "contextAware": "基於客戶歷史的上下文感知回應",
+            "handoff": "需要時無縫轉接給人工"
+          }
+        },
+        "workflow": {
+          "title": "智慧工作流程自動化",
+          "description": "透過智慧決策自動化複雜的業務流程",
+          "benefits": {
+            "leadQualification": "自動化潛在客戶審核和路由",
+            "scheduling": "智慧預約排程和管理",
+            "pricing": "動態定價和提案生成",
+            "followUp": "自動化後續追蹤和培養"
+          }
+        },
+        "learning": {
+          "title": "持續學習和優化",
+          "description": "隨時間變得更智慧，自動改進效能的 AI",
+          "benefits": {
+            "machineLearning": "從每次客戶互動中機器學習",
+            "optimization": "自動優化回應準確性",
+            "predictive": "主動客戶服務的預測分析",
+            "monitoring": "即時效能監控和調整"
+          }
+        },
+        "capabilities": "主要功能："
+      },
+      "automationTypes": {
+        "title": "自動化您的業務各個方面",
+        "description": "從客戶服務到銷售、行銷到營運—AI 自動化轉變您業務的每個層面。",
+        "customerService": {
+          "title": "客戶服務自動化",
+          "description": "AI 處理例行詢問，升級複雜問題",
+          "examples": {
+            "orderStatus": "訂單狀態更新",
+            "faq": "常見問題回應",
+            "troubleshooting": "基本故障排除",
+            "account": "帳戶資訊"
+          }
+        },
+        "sales": {
+          "title": "銷售流程自動化",
+          "description": "自動化潛在客戶審核、後續追蹤和排程",
+          "examples": {
+            "leadScoring": "潛在客戶評分",
+            "demoBooking": "示範預約",
+            "proposals": "提案生成",
+            "followUp": "後續追蹤序列"
+          }
+        },
+        "marketing": {
+          "title": "行銷活動自動化",
+          "description": "基於客戶行為適應的智能活動",
+          "examples": {
+            "personalized": "個人化訊息",
+            "timing": "最佳發送時間",
+            "testing": "A/B 測試",
+            "optimization": "效能優化"
+          }
+        },
+        "operational": {
+          "title": "營運自動化",
+          "description": "簡化內部流程和工作流程",
+          "examples": {
+            "dataEntry": "資料輸入",
+            "reports": "報告生成",
+            "taskAssignment": "任務分配",
+            "qualityMonitoring": "品質監控"
+          }
+        },
+        "examples": "範例："
+      },
+      "metrics": {
+        "title": "自動化效能影響",
+        "description": "在效率、準確性和營運能力方面的可衡量改進",
+        "reduction": {
+          "value": "80%",
+          "label": "手動任務減少"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "自動化營運"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "準確率"
+        },
+        "speed": {
+          "value": "3倍",
+          "label": "更快的處理速度"
+        }
+      },
+      "security": {
+        "title": "安全且合規的 AI",
+        "description": "每個 AI 自動化都內建企業級安全性和合規性",
+        "dataProtection": {
+          "title": "資料保護",
+          "description": "端到端加密和安全資料處理"
+        },
+        "compliance": {
+          "title": "合規準備",
+          "description": "HIPAA、GDPR 和行業特定合規性"
+        },
+        "auditTrail": {
+          "title": "稽核軌跡",
+          "description": "所有 AI 動作的完整記錄和監控"
+        }
+      },
+      "cta": {
+        "title": "準備好用 AI 自動化您的業務嗎？",
+        "description": "加入數百家使用 Seasalt.ai 自動化營運、降低成本並透過智能 AI 高效擴展的企業。",
+        "primary": "立即註冊",
+        "secondary": "預約 AI 示範",
+        "disclaimer": "無需信用卡 • 24 小時內看到自動化 • 隨時取消"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "中小企業主解決方案 - Seasalt.ai",
+        "description": "您身兼執行長、業務團隊、行銷部門和客服於一身。Seasalt.ai 為您提供 AI 助手，處理日常溝通，讓您專注於業務成長。"
+      },
+      "navigation": {
+        "backToHome": "返回首頁"
+      },
+      "hero": {
+        "title": {
+          "part1": "停止忙亂。",
+          "part2": "開始擴展。"
+        },
+        "subtitle": "為身兼多職的中小企業主打造的AI驅動溝通中心",
+        "description": "您身兼執行長、業務團隊、行銷部門和客服於一身。Seasalt.ai 為您提供 AI 助手，處理日常溝通，讓您專注於業務成長。",
+        "cta": {
+          "getAssistant": "獲取您的AI助手",
+          "bookDemo": "預約示範"
+        },
+        "dashboard": {
+          "title": "中小企業主儀表板",
+          "aiHandledInquiries": "🤖 AI今天處理了23個查詢",
+          "timeSaved": "為您節省了3.5小時",
+          "appointmentsBooked": "📅 自動預約了5個會議",
+          "whileInMeetings": "當您在開會時",
+          "leadsQualified": "💬 12個潛在客戶已篩選並排序",
+          "readyForFollowup": "準備好您的個人跟進",
+          "smsCampaign": "📱 簡訊行銷：89% 開啟率",
+          "newCustomers": "獲得3個新客戶"
+        }
+      },
+      "challenges": {
+        "title": "中小企業主的困境",
+        "description": "經營小企業意味著身兼多職。但這不應該意味著被日常溝通淹沒。",
+        "wearingMultipleHats": {
+          "title": "身兼多職",
+          "description": "同時管理業務、行銷和支援，還要努力發展業務"
+        },
+        "limitedTimeResources": {
+          "title": "時間和資源有限",
+          "description": "當您經營一個精簡團隊的小企業時，每一分鐘都很重要"
+        },
+        "scalingChallenges": {
+          "title": "擴展挑戰",
+          "description": "客戶需求增長但團隊規模或預算沒有相應增加"
+        }
+      },
+      "solutions": {
+        "title": "您的AI驅動解決方案",
+        "description": "Seasalt.ai作為您的虛擬團隊成員，處理日常任務，讓您專注於只有您能做的事情——發展業務。",
+        "keyBenefits": "主要優勢：",
+        "aiAutomation": {
+          "title": "AI驅動自動化",
+          "description": "讓AI全天候處理例行查詢、預約安排和潛在客戶篩選",
+          "benefits": {
+            "routineQuestions": "自動化80%的例行客戶問題",
+            "bookAppointments": "在您睡覺時預約會議",
+            "qualifyLeads": "在潛在客戶聯繫您之前進行篩選",
+            "instantResponses": "在所有渠道提供即時回應"
+          }
+        },
+        "unifiedView": {
+          "title": "統一客戶視圖",
+          "description": "在一個地方查看每個客戶互動，無論他們是打電話、發短信還是聊天",
+          "benefits": {
+            "singleInbox": "所有客戶溝通的單一收件匣",
+            "conversationHistory": "跨渠道完整對話歷史",
+            "neverLoseTrack": "永不遺失客戶上下文",
+            "seamlessHandoffs": "AI和人工之間的無縫交接"
+          }
+        },
+        "smartMarketing": {
+          "title": "智能行銷活動",
+          "description": "在AI協助下透過簡訊、WhatsApp和電子郵件進行有針對性的活動",
+          "benefits": {
+            "automatedFollowup": "自動化跟進序列",
+            "personalizedMessaging": "大規模個人化消息",
+            "trackPerformance": "即時追蹤活動表現",
+            "recoverCarts": "自動恢復放棄的購物車"
+          }
+        }
+      },
+      "useCases": {
+        "title": "真實中小企業主場景",
+        "description": "看看像您一樣的其他企業主如何使用Seasalt.ai擴展他們的運營",
+        "challengeLabel": "挑戰：",
+        "solutionLabel": "SEASALT.AI解決方案：",
+        "soloEntrepreneur": {
+          "title": "單人創業者",
+          "scenario": "經營諮詢業務同時管理所有客戶溝通",
+          "solution": "AI處理初步查詢並預約諮詢，讓您專注於服務交付"
+        },
+        "smallRetailer": {
+          "title": "小型零售商",
+          "scenario": "管理線上訂單、客戶支援和行銷活動",
+          "solution": "自動化訂單更新、即時支援回應和有針對性的行銷活動"
+        },
+        "serviceProvider": {
+          "title": "服務提供商",
+          "scenario": "兼顧預約排程、客戶問題和跟進",
+          "solution": "AI預約會議、回答常見問題並發送自動提醒"
+        },
+        "growingStartup": {
+          "title": "成長中的新創公司",
+          "scenario": "在不聘僱完整支援團隊的情況下擴展客戶溝通",
+          "solution": "AI處理業務量增長，同時通過智能交接保持個人化服務"
+        }
+      },
+      "roi": {
+        "title": "中小企業主的投資報酬率",
+        "description": "查看對您的業務運營和成長的立即影響",
+        "timeSaved": {
+          "metric": "5+ 小時",
+          "description": "每週在例行溝通上節省的時間"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "潛在客戶回應率提升"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "無需聘僱夜班員工的客戶服務"
+        },
+        "conversationsHandled": {
+          "metric": "3倍",
+          "description": "同樣團隊處理更多對話"
+        }
+      },
+      "cta": {
+        "title": "準備停止忙亂開始擴展？",
+        "description": "加入數千位已經重新獲得時間並透過AI自動化擴展客戶溝通的中小企業主。",
+        "startTrial": "開始您的免費試用",
+        "scheduleDemo": "安排個人示範",
+        "disclaimer": "無需信用卡 • 10分鐘內完成設置 • 隨時取消"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - 醫療照護AI通訊平台",
+        "description": "透過 SeaHealth 的 AI 驅動、HIPAA 合規平台，提升患者溝通並簡化營運流程。整合通話、短信和訊息於一個安全的收件匣。"
+      },
+      "hero": {
+        "title": "SeaHealth 讓醫療照護專業人士 –",
+        "subtitle": "轉變患者互動體驗，透過：",
+        "features": {
+          "newPatients": "新患者獲取",
+          "aiReceptionists": "下班時間 AI 語音接待員",
+          "callAnalytics": "前台通話分析"
+        },
+        "cta": "立即預約示範！",
+        "description": "AI 驅動的醫療前台。再也不會錯過通話、投訴或預約。"
+      },
+      "top4Reasons": {
+        "title": "醫院和診所選擇 SeaHealth 的 4 大理由：",
+        "neverMissCall": "永不錯過來電",
+        "neverMissComplaint": "永不錯過客戶投訴",
+        "bookAppointments": "下班時間預約新患者",
+        "provide247Hotline": "為潛在和現有患者提供全天候熱線"
+      },
+      "frontOfficeChallenges": {
+        "title": "解決前台辦公挑戰",
+        "unmonitoredCalls": {
+          "title": "未監控的前台電話通話",
+          "complaint": "在客戶投訴升級前處理問題。",
+          "risks": "降低初期醫療分診錯誤的風險。",
+          "professionalism": "透過改善說話語調和接待員行為提升專業度。"
+        },
+        "missedCalls": {
+          "title": "錯過患者來電",
+          "voicemails": "主動跟進，消除下班時間語音留言。",
+          "scheduling": "簡化預約排程和重新安排。",
+          "retention": "確保電話全天候有人接聽，留住患者，防止他們尋求競爭對手。"
+        },
+        "outboundCalls": {
+          "title": "無人願意撥打的外撥電話",
+          "followUp": "確保手術追蹤電話的徹底性。",
+          "insurance": "簡化與保險公司的冗長對話。",
+          "reactivation": "透過有效的促銷活動重新激活流失患者，填補空檔時段。"
+        }
+      },
+      "solutions": {
+        "title": "適合各種醫療照護環境的解決方案",
+        "hospitals": "醫院與診所",
+        "dental": "牙科診所",
+        "hospice": "安寧療護院",
+        "emergency": "急診醫療",
+        "adult": "成人家庭照護",
+        "veterinary": "獸醫院",
+        "cosmetic": "整容手術"
+      },
+      "mainSolution": {
+        "title": "SeaHealth 前台解決方案 – 自動填滿您的預約時段。",
+        "description": "我們的 AI 驅動解決方案簡化您的前台營運，讓員工專注於最重要的事情 - 患者照護。"
+      },
+      "forProviders": {
+        "title": "適合醫療照護提供者",
+        "reduceAdministrative": "減少行政負擔",
+        "improveSatisfaction": "提升患者滿意度",
+        "increaseEfficiency": "提高營運效率"
+      },
+      "forPatients": {
+        "title": "適合患者",
+        "access247": "全天候支援服務",
+        "quickScheduling": "快速預約排程",
+        "seamlessCommunication": "無縫通訊"
+      },
+      "whyChoose": {
+        "title": "為什麼選擇 SeaHealth？",
+        "hipaa": {
+          "title": "HIPAA 合規",
+          "description": "我們優先考慮患者資料隱私和安全性。"
+        },
+        "speech": {
+          "title": "自然且情境式語音技術",
+          "description": "透過人性化溝通與患者互動。"
+        },
+        "automation": {
+          "title": "正確的自動化",
+          "description": "始終關心患者和您的員工。"
+        }
+      },
+      "faq": {
+        "title": "常見問題",
+        "analytics": {
+          "question": "您的前台通話分析如何運作？",
+          "answer": "我們記錄您的來電和去電，然後進行轉錄以便進一步分析。每天會發送摘要和警報電子郵件。"
+        },
+        "recording": {
+          "question": "是否需要錄製電話通話？如何錄製？",
+          "answer": "我們連接您的 VoIP 提供商來獲取通話錄音並對錄音進行語音分析。如果您使用類比電話，我們使用電話錄音設備，通過電話插孔連接您的通話來獲取錄音。"
+        },
+        "coverage": {
+          "question": "全天候電話覆蓋如何運作？",
+          "answer": "AI 驅動的接待員全天候處理通話，確保不錯過任何機會。您可以在電話響起時接聽，或在營業時間內或之後將通話轉接給 AI 接待員。"
+        },
+        "whyUse": {
+          "question": "為什麼我要使用您的服務？",
+          "answer": "SeaHealth 透過自動化和 AI 驅動的解決方案提高效率、增強患者滿意度並增加收入。比外包前台接待員工作更便宜、更可靠、更有同理心。"
+        }
+      },
+      "partners": {
+        "title": "合作夥伴與整合"
+      },
+      "cta": {
+        "title": "準備好轉變患者互動了嗎？",
+        "button": "立即預約示範！"
+      }
     }
   },
   "pricing": {
