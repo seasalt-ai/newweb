@@ -80,82 +80,82 @@ const PricingPage = () => {
 
   const competitors = [
     {
-      name: t('pricing.seasalt.name'),
-      startingPrice: t('pricing.seasalt.startingPrice'),
-      pricingModel: t('pricing.seasalt.pricingModel'),
-      unifiedVoiceDigital: t('pricing.seasalt.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.seasalt.aiCapabilities'),
-      bestFor: t('pricing.seasalt.bestFor'),
+      name: t('pricing.comparisonseasalt.name'),
+      startingPrice: t('pricing.comparison.seasalt.startingPrice'),
+      pricingModel: t('pricing.comparison.seasalt.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.seasalt.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.seasalt.aiCapabilities'),
+      bestFor: t('pricing.comparison.seasalt.bestFor'),
       highlight: true,
       link: null
     },
     {
-      name: t('pricing.aircall.name'),
-      startingPrice: t('pricing.aircall.startingPrice'),
-      pricingModel: t('pricing.aircall.pricingModel'),
-      unifiedVoiceDigital: t('pricing.aircall.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.aircall.aiCapabilities'),
-      bestFor: t('pricing.aircall.bestFor'),
+      name: t('pricing.comparison.aircall.name'),
+      startingPrice: t('pricing.comparison.aircall.startingPrice'),
+      pricingModel: t('pricing.comparison.aircall.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.aircall.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.aircall.aiCapabilities'),
+      bestFor: t('pricing.comparison.aircall.bestFor'),
       highlight: false,
       link: '/compare/aircall-alternative'
     },
     {
-      name: t('pricing.ringcentral.name'),
-      startingPrice: t('pricing.ringcentral.startingPrice'),
-      pricingModel: t('pricing.ringcentral.pricingModel'),
-      unifiedVoiceDigital: t('pricing.ringcentral.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.ringcentral.aiCapabilities'),
-      bestFor: t('pricing.ringcentral.bestFor'),
+      name: t('pricing.comparison.ringcentral.name'),
+      startingPrice: t('pricing.comparison.ringcentral.startingPrice'),
+      pricingModel: t('pricing.comparison.ringcentral.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.ringcentral.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.ringcentral.aiCapabilities'),
+      bestFor: t('pricing.comparison.ringcentral.bestFor'),
       highlight: false,
       link: '/compare/ringcentral-alternative'
     },
     {
-      name: t('pricing.genesys.name'),
-      startingPrice: t('pricing.genesys.startingPrice'),
-      pricingModel: t('pricing.genesys.pricingModel'),
-      unifiedVoiceDigital: t('pricing.genesys.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.genesys.aiCapabilities'),
-      bestFor: t('pricing.genesys.bestFor'),
+      name: t('pricing.comparison.genesys.name'),
+      startingPrice: t('pricing.comparison.genesys.startingPrice'),
+      pricingModel: t('pricing.comparison.genesys.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.genesys.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.genesys.aiCapabilities'),
+      bestFor: t('pricing.comparison.genesys.bestFor'),
       highlight: false,
       link: '/compare/genesys-alternative'
     },
     {
-      name: t('pricing.five9.name'),
-      startingPrice: t('pricing.five9.startingPrice'),
-      pricingModel: t('pricing.five9.pricingModel'),
-      unifiedVoiceDigital: t('pricing.five9.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.five9.aiCapabilities'),
-      bestFor: t('pricing.five9.bestFor'),
+      name: t('pricing.comparison.five9.name'),
+      startingPrice: t('pricing.comparison.five9.startingPrice'),
+      pricingModel: t('pricing.comparison.five9.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.five9.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.five9.aiCapabilities'),
+      bestFor: t('pricing.comparison.five9.bestFor'),
       highlight: false,
       link: '/compare/five9-alternative'
     },
     {
-      name: t('pricing.googleVoice.name'),
-      startingPrice: t('pricing.googleVoice.startingPrice'),
-      pricingModel: t('pricing.googleVoice.pricingModel'),
-      unifiedVoiceDigital: t('pricing.googleVoice.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.googleVoice.aiCapabilities'),
-      bestFor: t('pricing.googleVoice.bestFor'),
+      name: t('pricing.comparison.googleVoice.name'),
+      startingPrice: t('pricing.comparison.googleVoice.startingPrice'),
+      pricingModel: t('pricing.comparison.googleVoice.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.googleVoice.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.googleVoice.aiCapabilities'),
+      bestFor: t('pricing.comparison.googleVoice.bestFor'),
       highlight: false,
       link: '/compare/google-voice-alternative'
     },
     {
-      name: t('pricing.respondIo.name'),
-      startingPrice: t('pricing.respondIo.startingPrice'),
-      pricingModel: t('pricing.respondIo.pricingModel'),
-      unifiedVoiceDigital: t('pricing.respondIo.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.respondIo.aiCapabilities'),
-      bestFor: t('pricing.respondIo.bestFor'),
+      name: t('pricing.comparison.respondIo.name'),
+      startingPrice: t('pricing.comparison.respondIo.startingPrice'),
+      pricingModel: t('pricing.comparison.respondIo.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.respondIo.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.respondIo.aiCapabilities'),
+      bestFor: t('pricing.comparison.respondIo.bestFor'),
       highlight: false,
       link: '/compare/respond-io-alternative'
     },
     {
-      name: t('pricing.intercom.name'),
-      startingPrice: t('pricing.intercom.startingPrice'),
-      pricingModel: t('pricing.intercom.pricingModel'),
-      unifiedVoiceDigital: t('pricing.intercom.unifiedVoiceDigital'),
-      aiCapabilities: t('pricing.intercom.aiCapabilities'),
-      bestFor: t('pricing.intercom.bestFor'),
+      name: t('pricing.comparison.intercom.name'),
+      startingPrice: t('pricing.comparison.intercom.startingPrice'),
+      pricingModel: t('pricing.comparison.intercom.pricingModel'),
+      unifiedVoiceDigital: t('pricing.comparison.intercom.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.comparison.intercom.aiCapabilities'),
+      bestFor: t('pricing.comparison.intercom.bestFor'),
       highlight: false,
       link: '/compare/intercom-alternative'
     }
@@ -260,8 +260,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaChat.title')}</p>
-                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaChat.description')}</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seachatFree.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seachatFree.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -272,8 +272,8 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaVoice.title')}</p>
-                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaVoice.description')}</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seavoice.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seavoice.description')}</p>
                           </div>
                         </div>
                       </div>
@@ -284,15 +284,15 @@ const PricingPage = () => {
                             <Check className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seaX.title')}</p>
-                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seaX.description')}</p>
+                            <p className="font-bold text-gray-900">{t('pricing.audienceSection.startups.seax.title')}</p>
+                            <p className="text-sm text-gray-700">{t('pricing.audienceSection.startups.seax.description')}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="mt-6 pt-4 border-t border-teal-200">
-                      <p className="text-center font-semibold text-teal-700">{t('pricing.audienceSection.startups.employeeRange')}</p>
+                      <p className="text-center font-semibold text-teal-700">{t('pricing.audienceSection.startups.footer')}</p>
                     </div>
                   </div>
                 </div>
@@ -376,7 +376,7 @@ const PricingPage = () => {
                 {/* Bold Visual Indicator */}
                 <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-orange-400 to-orange-600"></div>
                 <div className="absolute -top-3 -right-3 bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
-                  {t('pricing.plans.liveAgent.badge')}
+                  {t('pricing.plans.liveAgent.tagline')}
                 </div>
                 
                 <div className="text-center mb-4 mt-2">
@@ -401,19 +401,19 @@ const PricingPage = () => {
                 <div className="space-y-2 mb-6">
                   <div className="bg-orange-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-orange-800">{t('pricing.plans.liveAgent.humanAgent')}</span>
+                    <span className="text-xs font-semibold text-orange-800">{t('pricing.plans.liveAgent.feature1')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.unlimitedConversations')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature2')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.aiTrialReplies')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature3')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.shopifyIntegration')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature4')}</span>
                   </div>
                 </div>
                 <a 
@@ -430,7 +430,7 @@ const PricingPage = () => {
                 {/* Bold Visual Indicator */}
                 <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-emerald-400 to-green-500"></div>
                 <div className="absolute -top-3 -right-3 bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
-                  {t('pricing.plans.whatsappOnly.badge')}
+                  {t('pricing.plans.whatsappOnly.tagline')}
                 </div>
                 
                 <div className="text-center mb-4 mt-2">
@@ -448,26 +448,26 @@ const PricingPage = () => {
                     {t('pricing.plans.whatsappOnly.highlight')}
                   </p>
                   <p className="text-center text-xs text-emerald-700 mt-1">
-                    {t('pricing.plans.whatsappOnly.overview')}
+                    {t('pricing.plans.whatsappOnly.channels')}
                   </p>
                 </div>
                 
                 <div className="space-y-2 mb-6">
                   <div className="bg-emerald-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.platform')}</span>
+                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.feature1')}</span>
                   </div>
                   <div className="bg-emerald-50 rounded p-2 flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.campaignTools')}</span>
+                    <span className="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.feature2')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.apiAccess')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.feature3')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.unlimitedContacts')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.feature4')}</span>
                   </div>
                 </div>
                 <a 
@@ -486,11 +486,11 @@ const PricingPage = () => {
                 <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 z-10">
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-xs font-black flex items-center shadow-2xl">
                     <Star className="w-4 h-4 mr-1 animate-spin" />
-                    {t('pricing.plans.omnichannel.popularBadge')}
+                    {t('pricing.plans.omnichannel.popular')}
                   </span>
                 </div>
                 <div className="absolute -top-4 -right-4 bg-blue-500 text-white px-4 py-3 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap z-20">
-                  {t('pricing.plans.omnichannel.badge')}
+                  {t('pricing.plans.omnichannel.tagline')}
                 </div>
                 
                 <div className="text-center mb-4 mt-4">
@@ -500,13 +500,13 @@ const PricingPage = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.omnichannel.name')}</h3>
                   <div className="flex justify-center items-center space-x-2 mb-1">
                     <div>
-                      <div className="text-3xl font-black text-blue-600">$99</div>
-                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.firstUser')}</div>
+                      <div className="text-3xl font-black text-blue-600">{t('pricing.plans.omnichannel.firstUserPrice')}</div>
+                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.firstUserLabel')}</div>
                     </div>
                     <div className="text-blue-400 font-black text-2xl">+</div>
                     <div>
-                      <div className="text-3xl font-black text-blue-600">$49</div>
-                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.eachExtra')}</div>
+                      <div className="text-3xl font-black text-blue-600">{t('pricing.plans.omnichannel.additionalUserPrice')}</div>
+                      <div className="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.additionalUserLabel')}</div>
                     </div>
                   </div>
                   <p className="text-sm font-bold text-blue-700 mb-3 uppercase tracking-wide">{t('pricing.plans.omnichannel.period')}</p>
@@ -518,26 +518,26 @@ const PricingPage = () => {
                     {t('pricing.plans.omnichannel.highlight')}
                   </p>
                   <p className="text-center text-xs text-blue-700 mt-1 font-semibold">
-                    {t('pricing.plans.omnichannel.phoneCalls')}
+                    {t('pricing.plans.omnichannel.subHighlight')}
                   </p>
                 </div>
                 
                 <div className="space-y-2 mb-6">
                   <div className="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
                     <Phone className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.agentCalls')}</span>
+                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.feature1')}</span>
                   </div>
                   <div className="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
                     <Users className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.allChannels')}</span>
+                    <span className="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.feature2')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.voiceSMSCampaigns')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.feature3')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.apiIntegration')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.omnichannel.feature4')}</span>
                   </div>
                 </div>
                 <a 
@@ -562,23 +562,23 @@ const PricingPage = () => {
                 <div className="space-y-2 mb-6">
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.multipleWorkspaces')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.feature1')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.agencies')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.feature2')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.customIntegrations')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.feature3')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.hipaaCompliance')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.feature4')}</span>
                   </div>
                   <div className="flex items-start space-x-2">
                     <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.whiteLabelOptions')}</span>
+                    <span className="text-xs text-gray-700">{t('pricing.plans.custom.feature5')}</span>
                   </div>
                 </div>
                 <a 
@@ -593,9 +593,9 @@ const PricingPage = () => {
             {/* AI Add-ons with Combo Pricing */}
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.aiAddOns.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.aiAddons.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  {t('pricing.aiAddOns.description')}
+                  {t('pricing.aiAddons.description')}
                 </p>
               </div>
               
@@ -603,9 +603,9 @@ const PricingPage = () => {
                 {/* Chat AI with SeaChat */}
                 <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
                   <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddOns.chatAI.title')}</h4>
-                  <div className="text-2xl font-bold text-green-600 mb-2">{t('pricing.aiAddOns.chatAI.price')}</div>
-                  <p className="text-sm text-gray-600">{t('pricing.aiAddOns.chatAI.period')}</p>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddons.chatAI.title')}</h4>
+                  <div className="text-2xl font-bold text-green-600 mb-2">{t('pricing.aiAddons.chatAI.price')}</div>
+                  <p className="text-sm text-gray-600">{t('pricing.aiAddons.chatAI.period')}</p>
                 </div>
                 
                 {/* Plus Sign */}
@@ -614,9 +614,9 @@ const PricingPage = () => {
                 {/* Voice AI with SeaVoice */}
                 <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
                   <Phone className="w-8 h-8 text-blue-600 mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddOns.voiceAI.title')}</h4>
-                  <div className="text-2xl font-bold text-blue-600 mb-2">{t('pricing.aiAddOns.voiceAI.price')}</div>
-                  <p className="text-sm text-gray-600">{t('pricing.aiAddOns.voiceAI.period')}</p>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddons.voiceAI.title')}</h4>
+                  <div className="text-2xl font-bold text-blue-600 mb-2">{t('pricing.aiAddons.voiceAI.price')}</div>
+                  <p className="text-sm text-gray-600">{t('pricing.aiAddons.voiceAI.period')}</p>
                 </div>
                 
                 {/* Equals Sign */}
@@ -625,15 +625,15 @@ const PricingPage = () => {
                 {/* Combo Price */}
                 <div className="bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-xl p-6 shadow-lg text-center flex-1 max-w-xs">
                   <Sparkles className="w-8 h-8 text-white mx-auto mb-3" />
-                  <h4 className="text-lg font-semibold mb-2">{t('pricing.aiAddOns.combo.title')}</h4>
-                  <div className="text-2xl font-bold mb-2">{t('pricing.aiAddOns.combo.price')}</div>
-                  <p className="text-sm opacity-90">{t('pricing.aiAddOns.combo.period')}</p>
+                  <h4 className="text-lg font-semibold mb-2">{t('pricing.aiAddons.combo.title')}</h4>
+                  <div className="text-2xl font-bold mb-2">{t('pricing.aiAddons.combo.price')}</div>
+                  <p className="text-sm opacity-90">{t('pricing.aiAddons.combo.period')}</p>
                 </div>
               </div>
               
               <div className="text-center mt-6">
                 <p className="text-lg font-semibold text-gray-700">
-                  {t('pricing.aiAddOns.comboDescription')}
+                  {t('pricing.aiAddons.combo.benefit')}
                 </p>
               </div>
             </div>
@@ -641,9 +641,9 @@ const PricingPage = () => {
             {/* Transparent AI Pricing */}
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentAiPricing.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentAI.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  {t('pricing.transparentAiPricing.description')}
+                  {t('pricing.transparentAI.description')}
                 </p>
               </div>
               
@@ -651,39 +651,39 @@ const PricingPage = () => {
                 {/* Chat AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <MessageSquare className="w-12 h-12 text-green-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.chatAI.name')}</h4>
-                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentAiPricing.chatAI.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.chatAI.period')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.chatAI.title')}</h4>
+                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentAI.chatAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.chatAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• {t('pricing.transparentAiPricing.chatAI.channels')}</li>
-                    <li>• {t('pricing.transparentAiPricing.chatAI.automated')}</li>
-                    <li>• {t('pricing.transparentAiPricing.chatAI.knowledgeBase')}</li>
+                    <li>• {t('pricing.transparentAI.chatAI.feature1')}</li>
+                    <li>• {t('pricing.transparentAI.chatAI.feature2')}</li>
+                    <li>• {t('pricing.transparentAI.chatAI.feature3')}</li>
                   </ul>
                 </div>
                 
                 {/* Voice AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <Phone className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.voiceAI.name')}</h4>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentAiPricing.voiceAI.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.voiceAI.period')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('tpricing.ransparentAI.voiceAI.title')}</h4>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentAI.voiceAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.voiceAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• {t('pricing.transparentAiPricing.voiceAI.calls')}</li>
-                    <li>• {t('pricing.transparentAiPricing.voiceAI.conversations')}</li>
-                    <li>• {t('pricing.transparentAiPricing.voiceAI.recording')}</li>
+                    <li>• {t('pricing.transparentAI.voiceAI.feature1')}</li>
+                    <li>• {t('pricing.transparentAI.voiceAI.feature2')}</li>
+                    <li>• {t('pricing.transparentAI.voiceAI.feature3')}</li>
                   </ul>
                 </div>
                 
                 {/* Premium AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <Sparkles className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAiPricing.premiumAI.name')}</h4>
-                  <div className="text-3xl font-bold text-purple-600 mb-2">{t('pricing.transparentAiPricing.premiumAI.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAiPricing.premiumAI.period')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.premiumAI.title')}</h4>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">{t('pricing.transparentAI.premiumAI.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.premiumAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• {t('pricing.transparentAiPricing.premiumAI.reasoning')}</li>
-                    <li>• {t('pricing.transparentAiPricing.premiumAI.conversations')}</li>
-                    <li>• {t('pricing.transparentAiPricing.premiumAI.enterprise')}</li>
+                    <li>• {t('pricing.transparentAI.premiumAI.feature1')}</li>
+                    <li>• {t('pricing.transparentAI.premiumAI.feature2')}</li>
+                    <li>• {t('pricing.transparentAI.premiumAI.feature3')}</li>
                   </ul>
                 </div>
               </div>
@@ -692,9 +692,9 @@ const PricingPage = () => {
             {/* Transparent Communication Pricing */}
             <div className="bg-white rounded-2xl p-8 shadow-lg mb-12">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentCommunicationPricing.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentCommunication.title')}</h3>
                 <p className="text-lg text-gray-600">
-                  {t('pricing.transparentCommunicationPricing.description')}
+                  {t('pricing.transparentCommunication.title')}
                 </p>
               </div>
               
@@ -702,34 +702,34 @@ const PricingPage = () => {
                 {/* SMS */}
                 <div className="bg-blue-50 rounded-xl p-6 text-center border border-blue-200">
                   <MessageSquare className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.sms.name')}</h4>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentCommunicationPricing.sms.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.sms.period')}</p>
-                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.sms.description')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.sms.title')}</h4>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentCommunication.sms.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.sms.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunication.sms.description')}</p>
                 </div>
                 
                 {/* Voice Calls */}
                 <div className="bg-green-50 rounded-xl p-6 text-center border border-green-200">
                   <Phone className="w-12 h-12 text-green-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.voiceCalls.name')}</h4>
-                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentCommunicationPricing.voiceCalls.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.voiceCalls.period')}</p>
-                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.voiceCalls.description')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.voiceCalls.title')}</h4>
+                  <div className="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentCommunication.voiceCalls.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.voiceCalls.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunication.voiceCalls.description')}</p>
                 </div>
                 
                 {/* WhatsApp Business */}
                 <div className="bg-emerald-50 rounded-xl p-6 text-center border border-emerald-200">
                   <Users className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunicationPricing.whatsappBusiness.name')}</h4>
-                  <div className="text-3xl font-bold text-emerald-600 mb-2">{t('pricing.transparentCommunicationPricing.whatsappBusiness.price')}</div>
-                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunicationPricing.whatsappBusiness.period')}</p>
-                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunicationPricing.whatsappBusiness.description')}</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.whatsapp.title')}</h4>
+                  <div className="text-3xl font-bold text-emerald-600 mb-2">{t('pricing.transparentCommunication.whatsapp.price')}</div>
+                  <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.whatsapp.period')}</p>
+                  <p className="text-sm text-gray-600">{t('pricing.transparentCommunication.whatsapp.description')}</p>
                 </div>
               </div>
               
               <div className="mt-8 text-center">
                 <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-                  {t('pricing.transparentCommunicationPricing.otherChannels')}
+                  {t('pricing.transparentCommunication.otherChannels')}
                 </p>
               </div>
             </div>
@@ -739,10 +739,10 @@ const PricingPage = () => {
           <div className="mb-16 sm:mb-20">
             <div className="text-center mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('pricing.competitorComparison.title')}
+                {t('pricing.comparison.title')}
               </h2>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('pricing.competitorComparison.description')}
+                {t('pricing.comparison.description')}
               </p>
             </div>
 
@@ -785,7 +785,7 @@ const PricingPage = () => {
                             </div>
                             {competitor.highlight && (
                               <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full whitespace-nowrap flex-shrink-0">
-                                {t('pricing.seasalt.recommended')}
+                                {t('pricing.comparison.seasalt.recommended')}
                               </span>
                             )}
                           </div>
@@ -868,16 +868,16 @@ const PricingPage = () => {
               {/* Stats Row */}
               <div className="grid grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto">
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">10,000+</div>
-                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.customers')}</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.customers')}</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.customersLabel')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.uptimeValue')}</div>
-                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.uptime')}</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.uptime')}</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.uptimeLabel')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.supportValue')}</div>
-                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.support')}</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.support')}</div>
+                  <div className="text-sm text-blue-200">{t('pricing.cta.stats.supportLabel')}</div>
                 </div>
               </div>
               
@@ -888,7 +888,7 @@ const PricingPage = () => {
                   className="group relative inline-flex items-center justify-center px-8 py-4 text-xl font-black text-blue-900 bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-300 rounded-2xl shadow-2xl hover:shadow-yellow-300/50 transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none"
                 >
                   <span className="relative z-10 flex items-center">
-                    {t('pricing.cta.buttons.signUp')}
+                    {t('pricing.cta.primary')}
                     <Star className="w-6 h-6 ml-2 animate-spin" />
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -898,7 +898,7 @@ const PricingPage = () => {
                   href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                   className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105"
                 >
-                  {t('pricing.cta.buttons.talkToSales')}
+                  {t('pricing.cta.secondary')}
                 </a>
               </div>
               
@@ -906,26 +906,26 @@ const PricingPage = () => {
               <div className="flex flex-wrap justify-center items-center gap-6 text-blue-200 text-sm">
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>{t('pricing.cta.trustBadges.noCoding')}</span>
+                  <span>{t('pricing.cta.trustBadge1')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>{t('pricing.cta.trustBadges.quickSetup')}</span>
+                  <span>{t('pricing.cta.trustBadge2')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>{t('pricing.cta.trustBadges.cancelAnytime')}</span>
+                  <span>{t('pricing.cta.trustBadge3')}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-green-400" />
-                  <span>{t('pricing.cta.trustBadges.freePlan')}</span>
+                  <span>{t('pricing.cta.trustBadge4')}</span>
                 </div>
               </div>
               
               {/* Urgency Message */}
               <div className="mt-8 p-4 bg-white/10 backdrop-blur rounded-xl border border-white/20">
                 <p className="text-white font-semibold">
-                  {t('pricing.cta.urgencyMessage')}
+                  {t('pricing.cta.urgency')}
                 </p>
               </div>
             </div>
