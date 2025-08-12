@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { MEETING_URL } from '../../constants/urls';
 
 const SMS = () => {
   const { i18n } = useTranslation();
@@ -90,7 +91,7 @@ const SMS = () => {
                     Start SMS Campaigns
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    href={MEETING_URL}
                     className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo

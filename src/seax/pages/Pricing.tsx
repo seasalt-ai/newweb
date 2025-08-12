@@ -1,11 +1,19 @@
 import Header from '../components/Header';
+import { MEETING_URL } from '../../constants/urls';
 import Footer from '../components/Footer';
+import { MEETING_URL } from '../../constants/urls';
 import SEOHelmet from '../../components/SEOHelmet';
+import { MEETING_URL } from '../../constants/urls';
 import ROICalculator from '../components/ROICalculator';
+import { MEETING_URL } from '../../constants/urls';
 import SupportPlan from '../../components/SupportPlan';
+import { MEETING_URL } from '../../constants/urls';
 import OmniChannelCalculator from '../components/OmniChannelCalculator';
+import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../constants/urls';
 import { useState } from 'react';
+import { MEETING_URL } from '../../constants/urls';
 import { 
   Check, 
   ArrowRight, 
@@ -264,7 +272,7 @@ const Pricing = () => {
                 <div className="px-8 pb-8 mt-auto">
                   {tier.name === 'Custom' ? (
                     <a
-                      href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                      href={MEETING_URL}
                       className="w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block bg-green-500 hover:bg-green-600 text-white"
                     >
                       {tier.cta}
@@ -470,7 +478,7 @@ const Pricing = () => {
             </a>
             
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={MEETING_URL}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Talk to Sales

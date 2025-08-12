@@ -1,5 +1,7 @@
 import { Phone, Mic, Volume2, Clock, Globe, Brain, ArrowRight, Play } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../../constants/urls';
 
 const VoiceAgentsPage = () => {
   const { t } = useTranslation();
@@ -108,7 +110,7 @@ const VoiceAgentsPage = () => {
                 Sign Up For Free
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href="{MEETING_URL}"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
@@ -278,7 +280,7 @@ const VoiceAgentsPage = () => {
               Sign Up For Free
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href="{MEETING_URL}"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

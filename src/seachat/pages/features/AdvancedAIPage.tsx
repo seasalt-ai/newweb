@@ -1,5 +1,7 @@
 import { Brain, Search, Clock, Target, FileText, Database, Zap, Star, ArrowRight } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../../constants/urls';
 
 const AdvancedAIPage = () => {
   const { t } = useTranslation();
@@ -127,7 +129,7 @@ const AdvancedAIPage = () => {
                 {t('seachat.features.advancedAI.exploreButton', 'Explore Advanced AI')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href="{MEETING_URL}"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -308,7 +310,7 @@ const AdvancedAIPage = () => {
               Sign Up For Free
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href="{MEETING_URL}"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"

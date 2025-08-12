@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { MEETING_URL } from '../../constants/urls';
 import { Calculator, Users, Phone, MessageSquare, Info } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 
 const OmniChannelCalculator = () => {
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
@@ -426,7 +428,7 @@ const OmniChannelCalculator = () => {
               Get Started with Omni-channel
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={MEETING_URL}
               className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block"
             >
               Talk to Sales

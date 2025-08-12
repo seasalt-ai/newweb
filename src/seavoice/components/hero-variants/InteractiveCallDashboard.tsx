@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
+import { MEETING_URL } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
+import { MEETING_URL } from '../../../constants/urls';
 import { Phone, Users, Clock, BarChart3, Globe, ArrowRight, Activity } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 
 const InteractiveCallDashboard = () => {
   const [activeCalls, setActiveCalls] = useState(247);
@@ -99,7 +102,7 @@ const InteractiveCallDashboard = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={MEETING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}

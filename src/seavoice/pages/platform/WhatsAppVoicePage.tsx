@@ -1,6 +1,8 @@
 
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../../constants/urls';
 import { MessageSquare, Globe, Users, Shield, CheckCircle, Smartphone } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 
 const WhatsAppVoicePage = () => {
   const features = [
@@ -398,7 +400,7 @@ const WhatsAppVoicePage = () => {
                 </motion.button>
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={MEETING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
               >

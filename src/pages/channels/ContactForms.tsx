@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { MEETING_URL } from '../../constants/urls';
 
 const ContactForms = () => {
   const { i18n } = useTranslation();
@@ -129,7 +130,7 @@ const ContactForms = () => {
                     Connect Your Forms
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    href={MEETING_URL}
                     className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo

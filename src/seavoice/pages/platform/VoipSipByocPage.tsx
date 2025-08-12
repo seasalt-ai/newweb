@@ -1,6 +1,8 @@
 
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../../constants/urls';
 import { Network, Server, Shield, Zap, Globe, Settings } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 
 const VoipSipByocPage = () => {
   const connectionTypes = [
@@ -81,7 +83,7 @@ const VoipSipByocPage = () => {
               direct SIP trunking, or bring your own carrier for complete control.
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={MEETING_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -321,7 +323,7 @@ const VoipSipByocPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={MEETING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
               >

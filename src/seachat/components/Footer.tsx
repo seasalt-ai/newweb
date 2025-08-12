@@ -1,9 +1,15 @@
 import { Twitter, Linkedin, Mail, Phone, MapPin, Youtube, Heart, Coffee, Umbrella, Plane, Gem, MessageSquare, Users, Shield, Bot, Brain, Database, BarChart3, Code, Globe, Settings, ShoppingCart, DollarSign, GraduationCap, Building2, Monitor, Briefcase, Book, Server, ChevronDown } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 import { FaDiscord } from 'react-icons/fa';
+import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../constants/urls';
 import { Link } from 'react-router-dom';
+import { MEETING_URL } from '../../constants/urls';
 import { useState } from 'react';
+import { MEETING_URL } from '../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
+import { MEETING_URL } from '../../constants/urls';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -431,7 +437,7 @@ const Footer = () => {
               Sign Up Free
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href="{MEETING_URL}"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               Schedule Demo

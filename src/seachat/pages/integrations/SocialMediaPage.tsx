@@ -1,6 +1,9 @@
 import { MessageSquare, Instagram, Facebook, ArrowRight, CheckCircle } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 import { SiTiktok, SiLine, SiWhatsapp, SiX } from 'react-icons/si';
+import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../../constants/urls';
 
 const SocialMediaPage = () => {
   const { t } = useTranslation();
@@ -137,7 +140,7 @@ const SocialMediaPage = () => {
               <a href="https://chat.seasalt.ai/gpt/signup" className="bg-pink-500 hover:bg-pink-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center">
                 {t('seachat.integrations.social.connectButton', 'Connect Social Platforms')}
               </a>
-              <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-pink-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center">
+              <a href="{MEETING_URL}" className="border-2 border-white text-white hover:bg-white hover:text-pink-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center">
                 {t('seachat.integrations.social.demoButton', 'Schedule Social Demo')}
               </a>
             </div>
@@ -302,7 +305,7 @@ const SocialMediaPage = () => {
             <a href="https://chat.seasalt.ai/gpt/signup" className="bg-white text-pink-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center">
               {t('seachat.integrations.social.ctaConnectButton', 'Connect Social Platforms')}
             </a>
-            <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-pink-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center">
+            <a href="{MEETING_URL}" className="border-2 border-white text-white hover:bg-white hover:text-pink-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center">
               {t('seachat.integrations.social.ctaGuideButton', 'Schedule E-commerce Demo')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>

@@ -1,8 +1,12 @@
 
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../constants/urls';
 import { Check, X } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 import SupportPlan from '../../components/SupportPlan';
+import { MEETING_URL } from '../../constants/urls';
 import PriceCalculator from '../components/PriceCalculator';
+import { MEETING_URL } from '../../constants/urls';
 
 const PricingPage = () => {
   const plans = [
@@ -90,7 +94,7 @@ const PricingPage = () => {
       ],
       limitations: [],
       cta: 'Contact Us',
-      ctaUrl: 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting',
+      ctaUrl: '{MEETING_URL}',
       popular: false,
       cardStyle: 'bg-gradient-to-br from-green-400 to-green-600 text-white',
       buttonStyle: 'bg-green-600 hover:bg-green-700 text-white',
@@ -376,7 +380,7 @@ const PricingPage = () => {
                 </motion.button>
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={MEETING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
               >

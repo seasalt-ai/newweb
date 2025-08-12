@@ -1,9 +1,15 @@
 import Header from '../../components/Header';
+import { MEETING_URL } from '../../../constants/urls';
 import Footer from '../../components/Footer';
+import { MEETING_URL } from '../../../constants/urls';
 import SEOHelmet from '../../../components/SEOHelmet';
+import { MEETING_URL } from '../../../constants/urls';
 import { Link } from 'react-router-dom';
+import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../../constants/urls';
 import { ArrowRight, Users, MessageSquare, Heart, BarChart3, Target, Zap } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 
 const CustomerEngagement = () => {
   const { i18n } = useTranslation();
@@ -89,7 +95,7 @@ const CustomerEngagement = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={MEETING_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
@@ -217,7 +223,7 @@ const CustomerEngagement = () => {
           </p>
           
           <a
-            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+            href={MEETING_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"

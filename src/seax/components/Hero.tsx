@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Play, ArrowRight, MessageCircle, Phone, Mail } from 'lucide-react';
 import MassCommunicationFlow from './MassCommunicationFlow';
+import { MEETING_URL } from '../../constants/urls';
 
 const Hero = () => {
   const { i18n: _i18n } = useTranslation();
@@ -83,7 +84,7 @@ const Hero = () => {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={MEETING_URL}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
               >
                 <span>Book a Demo</span>

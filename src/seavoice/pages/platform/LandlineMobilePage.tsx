@@ -1,6 +1,8 @@
 
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../../constants/urls';
 import { Phone, Smartphone, Globe, Shield, Clock, CheckCircle } from 'lucide-react';
+import { MEETING_URL } from '../../../constants/urls';
 
 const LandlineMobilePage = () => {
   const features = [
@@ -267,7 +269,7 @@ const LandlineMobilePage = () => {
               Connect your landline and mobile infrastructure with AI voice agents in minutes
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={MEETING_URL}
               target="_blank"
               rel="noopener noreferrer"
             >

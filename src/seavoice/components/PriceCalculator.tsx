@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import { MEETING_URL } from '../../constants/urls';
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../constants/urls';
 import { Calculator, Phone, Clock, Users } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 
 const PriceCalculator = () => {
   const [planType, setPlanType] = useState<'inbound' | 'inbound-outbound'>('inbound');
@@ -257,7 +260,7 @@ const PriceCalculator = () => {
                   Get Started with {planType === 'inbound' ? 'Inbound Only' : 'Inbound + Outbound'}
                 </a>
                 <a
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                  href={MEETING_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-4 px-6 rounded-lg font-semibold text-gray-700 bg-white border-2 border-gray-300 text-center inline-block transition-all hover:border-gray-400"

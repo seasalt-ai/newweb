@@ -1,14 +1,23 @@
 import { useState, useEffect } from 'react';
+import { MEETING_URL } from '../../constants/urls';
 import { RefreshCw } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL } from '../../constants/urls';
 
 // Import all animation components
 import MultiChannelFlow from './hero-animations/MultiChannelFlow';
+import { MEETING_URL } from '../../constants/urls';
 import AgentToAI from './hero-animations/AgentToAI';
+import { MEETING_URL } from '../../constants/urls';
 import RealtimeDashboard from './hero-animations/RealtimeDashboard';
+import { MEETING_URL } from '../../constants/urls';
 import InteractiveChannels from './hero-animations/InteractiveChannels';
+import { MEETING_URL } from '../../constants/urls';
 import ConversationLearning from './hero-animations/ConversationLearning';
+import { MEETING_URL } from '../../constants/urls';
 import PhoneVoiceAI from './hero-animations/PhoneVoiceAI';
+import { MEETING_URL } from '../../constants/urls';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -176,7 +185,7 @@ const Hero = () => {
                   {t('seachat.hero.startFree')}
                 </button>
               </a>
-              <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="block">
+              <a href="{MEETING_URL}" className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
                   {t('seachat.hero.exploreAI')}
                 </button>

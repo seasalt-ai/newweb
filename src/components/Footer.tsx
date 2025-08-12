@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { getProducts } from '../data/productsData';
 import { getSolutions } from '../data/solutionsData';
 import { getIndustries } from '../data/industriesData';
+import { MEETING_URL } from '../constants/urls';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -376,7 +377,7 @@ const Footer = () => {
               {t('footer.cta.startFreeTrial')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={MEETING_URL}
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               {t('footer.cta.scheduleDemo')}

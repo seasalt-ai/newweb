@@ -1,8 +1,13 @@
 import { motion } from 'framer-motion';
+import { MEETING_URL } from '../../constants/urls';
 import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones } from 'lucide-react';
+import { MEETING_URL } from '../../constants/urls';
 import VoiceDemo from '../components/VoiceDemo';
+import { MEETING_URL } from '../../constants/urls';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
+import { MEETING_URL } from '../../constants/urls';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
+import { MEETING_URL } from '../../constants/urls';
 
 const HomePage = () => {
 
@@ -350,7 +355,7 @@ const HomePage = () => {
               Get a personalized demo and discover how SeaVoice can transform your customer communications
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={MEETING_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
