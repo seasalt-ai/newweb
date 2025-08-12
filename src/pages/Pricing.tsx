@@ -19,60 +19,60 @@ const PricingPage = () => {
 
   const plans = [
     {
-      name: 'Live Agent',
-      price: '$0',
-      period: 'forever',
-      tagline: 'Truly Free, Forever. Perfect for getting started.',
-      description: 'Perfect for getting started. Unify your inbox with 1 human agent.',
+      name: t('pricing.legacy.liveAgent.name'),
+      price: t('pricing.legacy.liveAgent.price'),
+      period: t('pricing.legacy.liveAgent.period'),
+      tagline: t('pricing.legacy.liveAgent.tagline'),
+      description: t('pricing.legacy.liveAgent.description'),
       features: [
-        '1 Human Agent',
-        'Unlimited Human Agent Chats',
-        'WhatsApp/Messenger/LINE/Webchat',
-        'Basic Integrations (Shopify, etc.)',
-        'Email support'
+        t('pricing.legacy.liveAgent.features.0'),
+        t('pricing.legacy.liveAgent.features.1'),
+        t('pricing.legacy.liveAgent.features.2'),
+        t('pricing.legacy.liveAgent.features.3'),
+        t('pricing.legacy.liveAgent.features.4')
       ],
-      cta: 'Sign Up',
+      cta: t('pricing.legacy.liveAgent.cta'),
       ctaStyle: 'bg-gray-600 hover:bg-gray-700 text-white',
       popular: false
     },
     {
-      name: 'Professional',
-      price: isAnnualBilling ? '$40' : '$50',
-      period: 'per month',
-      additionalPrice: isAnnualBilling ? '+ $20/month for each additional agent' : '+ $25/month for each additional agent',
-      tagline: 'The complete, unified solution for growing businesses.',
-      description: 'Everything you need to automate and scale your customer communications.',
+      name: t('pricing.legacy.professional.name'),
+      price: isAnnualBilling ? t('pricing.legacy.professional.priceAnnual') : t('pricing.legacy.professional.priceMonthly'),
+      period: t('pricing.legacy.professional.period'),
+      additionalPrice: isAnnualBilling ? t('pricing.legacy.professional.additionalPriceAnnual') : t('pricing.legacy.professional.additionalPriceMonthly'),
+      tagline: t('pricing.legacy.professional.tagline'),
+      description: t('pricing.legacy.professional.description'),
       features: [
-        'Everything in Live Agent',
-        'AI Automation (Voicebot & Chatbot)',
-        'All Communication Channels (including Phone Calls)',
-        'Outbound Marketing Campaigns',
-        'CRM Integrations (HubSpot, Salesforce)',
-        'Advanced analytics & reporting',
-        'Priority support',
-        'HIPAA compliance available'
+        t('pricing.legacy.professional.features.0'),
+        t('pricing.legacy.professional.features.1'),
+        t('pricing.legacy.professional.features.2'),
+        t('pricing.legacy.professional.features.3'),
+        t('pricing.legacy.professional.features.4'),
+        t('pricing.legacy.professional.features.5'),
+        t('pricing.legacy.professional.features.6'),
+        t('pricing.legacy.professional.features.7')
       ],
-      cta: 'Get Started',
+      cta: t('pricing.legacy.professional.cta'),
       ctaStyle: 'bg-blue-600 hover:bg-blue-700 text-white',
       popular: true
     },
     {
-      name: 'Enterprise',
-      price: 'Let\'s Talk',
-      period: '',
-      tagline: 'For teams with custom needs.',
-      description: 'For larger teams with specific needs like advanced compliance or custom integrations.',
+      name: t('pricing.legacy.enterprise.name'),
+      price: t('pricing.legacy.enterprise.price'),
+      period: t('pricing.legacy.enterprise.period'),
+      tagline: t('pricing.legacy.enterprise.tagline'),
+      description: t('pricing.legacy.enterprise.description'),
       features: [
-        'Everything in Professional',
-        'HIPAA Compliance',
-        'Custom Integrations',
-        'Dedicated Account Manager',
-        'Custom AI training',
-        'White-label options',
-        'SLA guarantees',
-        'On-premise deployment options'
+        t('pricing.legacy.enterprise.features.0'),
+        t('pricing.legacy.enterprise.features.1'),
+        t('pricing.legacy.enterprise.features.2'),
+        t('pricing.legacy.enterprise.features.3'),
+        t('pricing.legacy.enterprise.features.4'),
+        t('pricing.legacy.enterprise.features.5'),
+        t('pricing.legacy.enterprise.features.6'),
+        t('pricing.legacy.enterprise.features.7')
       ],
-      cta: 'Contact Sales',
+      cta: t('pricing.legacy.enterprise.cta'),
       ctaStyle: 'border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600',
       popular: false
     }
@@ -80,82 +80,82 @@ const PricingPage = () => {
 
   const competitors = [
     {
-      name: 'Seasalt.ai',
-      startingPrice: '$20/agent/mo',
-      pricingModel: 'Simple Per-User',
-      unifiedVoiceDigital: '✅ Yes, Native',
-      aiCapabilities: '✅ Yes, Native Voice \u0026 Chatbots',
-      bestFor: 'SMEs needing an affordable, truly all-in-one platform.',
+      name: t('pricing.seasalt.name'),
+      startingPrice: t('pricing.seasalt.startingPrice'),
+      pricingModel: t('pricing.seasalt.pricingModel'),
+      unifiedVoiceDigital: t('pricing.seasalt.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.seasalt.aiCapabilities'),
+      bestFor: t('pricing.seasalt.bestFor'),
       highlight: true,
       link: null
     },
     {
-      name: 'Aircall',
-      startingPrice: '$30/user/mo',
-      pricingModel: 'Per-User + Add-ons',
-      unifiedVoiceDigital: '⚠️ Voice + WhatsApp (Add-on)',
-      aiCapabilities: '⚠️ AI is a paid add-on',
-      bestFor: 'Sales teams that can afford multiple add-ons and meet the 3-user minimum.',
+      name: t('pricing.aircall.name'),
+      startingPrice: t('pricing.aircall.startingPrice'),
+      pricingModel: t('pricing.aircall.pricingModel'),
+      unifiedVoiceDigital: t('pricing.aircall.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.aircall.aiCapabilities'),
+      bestFor: t('pricing.aircall.bestFor'),
       highlight: false,
       link: '/compare/aircall-alternative'
     },
     {
-      name: 'RingCentral',
-      startingPrice: '$65/agent/mo',
-      pricingModel: 'Complex Tiers',
-      unifiedVoiceDigital: '❌ Separate Products',
-      aiCapabilities: '✅ Yes (AI-powered CCaaS)',
-      bestFor: 'Large companies needing a broad UCaaS platform with a separate CCaaS.',
+      name: t('pricing.ringcentral.name'),
+      startingPrice: t('pricing.ringcentral.startingPrice'),
+      pricingModel: t('pricing.ringcentral.pricingModel'),
+      unifiedVoiceDigital: t('pricing.ringcentral.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.ringcentral.aiCapabilities'),
+      bestFor: t('pricing.ringcentral.bestFor'),
       highlight: false,
       link: '/compare/ringcentral-alternative'
     },
     {
-      name: 'Genesys Cloud CX',
-      startingPrice: '$75/user/mo',
-      pricingModel: 'Per-User + High Minimums',
-      unifiedVoiceDigital: '✅ Yes (in higher tiers)',
-      aiCapabilities: '✅ Yes (Complex token system)',
-      bestFor: 'Large enterprises with dedicated contact center teams and budgets.',
+      name: t('pricing.genesys.name'),
+      startingPrice: t('pricing.genesys.startingPrice'),
+      pricingModel: t('pricing.genesys.pricingModel'),
+      unifiedVoiceDigital: t('pricing.genesys.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.genesys.aiCapabilities'),
+      bestFor: t('pricing.genesys.bestFor'),
       highlight: false,
       link: '/compare/genesys-alternative'
     },
     {
-      name: 'Five9',
-      startingPrice: '$119/user/mo',
-      pricingModel: 'Per-User + Bundles',
-      unifiedVoiceDigital: '✅ Yes (in premium tiers)',
-      aiCapabilities: '✅ Yes (Advanced AI)',
-      bestFor: 'Large, outbound-heavy contact centers needing enterprise-grade tools.',
+      name: t('pricing.five9.name'),
+      startingPrice: t('pricing.five9.startingPrice'),
+      pricingModel: t('pricing.five9.pricingModel'),
+      unifiedVoiceDigital: t('pricing.five9.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.five9.aiCapabilities'),
+      bestFor: t('pricing.five9.bestFor'),
       highlight: false,
       link: '/compare/five9-alternative'
     },
     {
-      name: 'Google Voice',
-      startingPrice: '$10/user/mo',
-      pricingModel: 'Per-User + Workspace Fee',
-      unifiedVoiceDigital: '❌ No',
-      aiCapabilities: '❌ No (Voicemail transcription only)',
-      bestFor: 'Solopreneurs (US-only) needing a basic, separate phone number.',
+      name: t('pricing.googleVoice.name'),
+      startingPrice: t('pricing.googleVoice.startingPrice'),
+      pricingModel: t('pricing.googleVoice.pricingModel'),
+      unifiedVoiceDigital: t('pricing.googleVoice.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.googleVoice.aiCapabilities'),
+      bestFor: t('pricing.googleVoice.bestFor'),
       highlight: false,
       link: '/compare/google-voice-alternative'
     },
     {
-      name: 'respond.io',
-      startingPrice: '$79/mo',
-      pricingModel: 'Monthly Active Contacts',
-      unifiedVoiceDigital: '⚠️ Digital-first (Voice is Beta)',
-      aiCapabilities: '✅ Yes (AI Agent on higher tiers)',
-      bestFor: 'Marketing/sales teams focused on messaging channels like WhatsApp.',
+      name: t('pricing.respondIo.name'),
+      startingPrice: t('pricing.respondIo.startingPrice'),
+      pricingModel: t('pricing.respondIo.pricingModel'),
+      unifiedVoiceDigital: t('pricing.respondIo.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.respondIo.aiCapabilities'),
+      bestFor: t('pricing.respondIo.bestFor'),
       highlight: false,
       link: '/compare/respond-io-alternative'
     },
     {
-      name: 'Intercom',
-      startingPrice: '$39/seat/mo',
-      pricingModel: 'Per-Seat + Add-ons + Usage',
-      unifiedVoiceDigital: '⚠️ Digital-first (Voice is pay-as-you-go)',
-      aiCapabilities: '✅ Yes (Fin AI Agent is per-resolution)',
-      bestFor: 'Businesses focused on proactive website engagement and support.',
+      name: t('pricing.intercom.name'),
+      startingPrice: t('pricing.intercom.startingPrice'),
+      pricingModel: t('pricing.intercom.pricingModel'),
+      unifiedVoiceDigital: t('pricing.intercom.unifiedVoiceDigital'),
+      aiCapabilities: t('pricing.intercom.aiCapabilities'),
+      bestFor: t('pricing.intercom.bestFor'),
       highlight: false,
       link: '/compare/intercom-alternative'
     }
@@ -163,32 +163,32 @@ const PricingPage = () => {
 
   const faqs = [
     {
-      question: 'Is the free plan really free forever?',
-      answer: 'Yes! Our Live Agent plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 100 lifetime AI replies to try our AI  No credit card required, no hidden fees.'
+      question: t('pricing.faq.1.question'),
+      answer: t('pricing.faq.1.answer')
     },
     {
-      question: 'How does AI pricing work across SeaChat, SeaX, and SeaVoice?',
-      answer: 'All Voice AI calls across SeaChat, SeaX, and SeaVoice use the same $0.12 per minute rate with ChatGPT-4o mini model. Chat AI responses start at $0.006 each. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on premium plans.'
+      question: t('pricing.faq.2.question'),
+      answer: t('pricing.faq.2.answer')
     },
     {
-      question: 'Can I upgrade or downgrade my plan anytime?',
-      answer: 'Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle. We\'ll prorate any billing adjustments.'
+      question: t('pricing.faq.3.question'),
+      answer: t('pricing.faq.3.answer')
     },
     {
-      question: 'What\'s the difference between WhatsApp Only and Omnichannel plans?',
-      answer: 'WhatsApp Only ($19.99/month) focuses on WhatsApp messaging with unlimited contacts and templates. Omnichannel ($99/month for first user, $49 for additional) includes SMS, voice calls, campaigns, API access, and SeaChat integration for a complete contact center experience.'
+      question: t('pricing.faq.4.question'),
+      answer: t('pricing.faq.4.answer')
     },
     {
-      question: 'Are there any hidden fees or setup costs?',
-      answer: 'No hidden fees ever! Phone numbers cost $2-$3/month with E911 address. SMS costs $0.02/message, voice calls $0.015/minute (USA/CA). WhatsApp messages are free worldwide - you pay Meta directly with no markup from us.'
+      question: t('pricing.faq.5.question'),
+      answer: t('pricing.faq.5.answer')
     },
     {
-      question: 'What happens to my data if I cancel?',
-      answer: 'You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.'
+      question: t('pricing.faq.6.question'),
+      answer: t('pricing.faq.6.answer')
     },
     {
-      question: 'Do you offer volume discounts for large enterprises?',
-      answer: 'Yes! Our Custom Enterprise plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team for custom pricing, multiple workspaces, HIPAA compliance, and white-label solutions.'
+      question: t('pricing.faq.7.question'),
+      answer: t('pricing.faq.7.answer')
     }
   ];
 
@@ -751,12 +751,12 @@ const PricingPage = () => {
                 <table className="w-full min-w-[800px]">
                   <thead className="bg-gray-50 text-left">
                     <tr>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.competitor')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.startingPrice')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.pricingModel')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.unifiedVoiceDigital')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.aiCapabilities')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.competitorComparison.table.headers.bestFor')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.competitor')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.startingPrice')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.pricingModel')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.unifiedVoiceDigital')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.aiCapabilities')}</th>
+                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.bestFor')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -766,33 +766,45 @@ const PricingPage = () => {
                         className={competitor.highlight ? 'bg-blue-50 border-2 border-blue-200' : 'hover:bg-gray-50'}
                       >
                         <td className="px-4 sm:px-6 py-3 sm:py-4">
-                          <div className="flex items-center">
-                            {competitor.link ? (
-                              <Link 
-                                to={competitor.link}
-                                className={`text-xs sm:text-sm font-semibold hover:underline ${
-                                  competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
-                                }`}
-                              >
-                                {competitor.name}
-                              </Link>
-                            ) : (
-                              <span className={`text-xs sm:text-sm font-semibold ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
-                                {competitor.name}
-                              </span>
-                            )}
+                          <div className="flex items-center flex-wrap gap-2">
+                            <div className="flex-shrink-0">
+                              {competitor.link ? (
+                                <Link 
+                                  to={competitor.link}
+                                  className={`text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto ${
+                                    competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
+                                  }`}
+                                >
+                                  {competitor.name}
+                                </Link>
+                              ) : (
+                                <span className={`text-xs sm:text-sm font-semibold break-words hyphens-auto ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
+                                  {competitor.name}
+                                </span>
+                              )}
+                            </div>
                             {competitor.highlight && (
-                              <span className="ml-2 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full">
-                                {t('pricing.competitorComparison.table.recommended')}
+                              <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full whitespace-nowrap flex-shrink-0">
+                                {t('pricing.seasalt.recommended')}
                               </span>
                             )}
                           </div>
                         </td>
-                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.startingPrice}</td>
-                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.pricingModel}</td>
-                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.unifiedVoiceDigital}</td>
-                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.aiCapabilities}</td>
-                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.bestFor}</td>
+                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                          <div className="break-words hyphens-auto">{competitor.startingPrice}</div>
+                        </td>
+                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                          <div className="break-words hyphens-auto">{competitor.pricingModel}</div>
+                        </td>
+                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                          <div className="break-words hyphens-auto">{competitor.unifiedVoiceDigital}</div>
+                        </td>
+                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                          <div className="break-words hyphens-auto">{competitor.aiCapabilities}</div>
+                        </td>
+                        <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                          <div className="break-words hyphens-auto leading-tight">{competitor.bestFor}</div>
+                        </td>
                       </tr>
                     ))}
                   </tbody>

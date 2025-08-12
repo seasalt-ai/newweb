@@ -1962,7 +1962,63 @@
     "billingToggle": {
       "monthly": "按月計費",
       "annually": "按年計費",
-      "save20": "節省 20%"
+      "save20": "省下 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "真人客服",
+        "price": "$0",
+        "period": "永遠",
+        "tagline": "真正的免費，永遠。完美的入門選擇。",
+        "description": "入門的完美選擇。使用1個人工客服統一您的收件匣。",
+        "features": {
+          "0": "1個人工客服",
+          "1": "無限制人工客服對話",
+          "2": "WhatsApp/Messenger/LINE/網頁聊天",
+          "3": "基礎整合 (Shopify 等)",
+          "4": "電子郵件支援"
+        },
+        "cta": "註冊"
+      },
+      "professional": {
+        "name": "專業版",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "每月",
+        "additionalPriceAnnual": "每增加一個客服員 + $20/月",
+        "additionalPriceMonthly": "每增加一個客服員 + $25/月",
+        "tagline": "成長型企業的完整統一解決方案。",
+        "description": "您自動化和擴展客戶溝通所需的一切。",
+        "features": {
+          "0": "真人客服的所有功能",
+          "1": "AI 自動化（語音機器人和聊天機器人）",
+          "2": "所有溝通管道（包括電話）",
+          "3": "對外行銷活動",
+          "4": "CRM 整合（HubSpot、Salesforce）",
+          "5": "進階分析和報告",
+          "6": "優先支援",
+          "7": "HIPAA 合規性（可選）"
+        },
+        "cta": "開始使用"
+      },
+      "enterprise": {
+        "name": "企業版",
+        "price": "讓我們談談",
+        "period": "",
+        "tagline": "適合有自訂需求的團隊。",
+        "description": "適合具有進階合規性或自訂整合等特定需求的大型團隊。",
+        "features": {
+          "0": "專業版的所有功能",
+          "1": "HIPAA 合規性",
+          "2": "自訂整合",
+          "3": "專屬客戶經理",
+          "4": "自訂 AI 訓練",
+          "5": "白標選項",
+          "6": "SLA 保證",
+          "7": "本地部署選項"
+        },
+        "cta": "聯絡銷售"
+      }
     }
   }
 }

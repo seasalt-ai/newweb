@@ -112,33 +112,45 @@ const Comparison = () => {
                     className={competitor.highlight ? 'bg-blue-50 border-2 border-blue-200' : 'hover:bg-gray-50'}
                   >
                     <td className="px-4 sm:px-6 py-3 sm:py-4">
-                      <div className="flex items-center">
-                        {competitor.link ? (
-                          <Link 
-                            to={competitor.link}
-                            className={`text-xs sm:text-sm font-semibold hover:underline ${
-                              competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
-                            }`}
-                          >
-                            {competitor.name}
-                          </Link>
-                        ) : (
-                          <span className={`text-xs sm:text-sm font-semibold ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
-                            {competitor.name}
-                          </span>
-                        )}
+                      <div className="flex items-center flex-wrap gap-2">
+                        <div className="flex-shrink-0">
+                          {competitor.link ? (
+                            <Link 
+                              to={competitor.link}
+                              className={`text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto ${
+                                competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
+                              }`}
+                            >
+                              {competitor.name}
+                            </Link>
+                          ) : (
+                            <span className={`text-xs sm:text-sm font-semibold break-words hyphens-auto ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
+                              {competitor.name}
+                            </span>
+                          )}
+                        </div>
                         {competitor.highlight && (
-                          <span className="ml-2 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full">
+                          <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full whitespace-nowrap flex-shrink-0">
                             {t('comparison.recommended')}
                           </span>
                         )}
                       </div>
                     </td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.startingPrice}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.pricingModel}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(competitor.unifiedVoiceDigital)}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">{renderCapability(competitor.aiCapabilities)}</td>
-                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">{competitor.bestFor}</td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                      <div className="break-words hyphens-auto">{competitor.startingPrice}</div>
+                    </td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                      <div className="break-words hyphens-auto">{competitor.pricingModel}</div>
+                    </td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">
+                      <div className="flex justify-center">{renderCapability(competitor.unifiedVoiceDigital)}</div>
+                    </td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">
+                      <div className="flex justify-center">{renderCapability(competitor.aiCapabilities)}</div>
+                    </td>
+                    <td className="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                      <div className="break-words hyphens-auto leading-tight">{competitor.bestFor}</div>
+                    </td>
                   </tr>
                 ))}
               </tbody>

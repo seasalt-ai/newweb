@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-11T04:46:39.878Z",
+  "timestamp": "2025-08-12T08:00:23.135Z",
   "translation_files": {
     "ar": {
       "file_path": "public/locales/ar.json",
@@ -770,55 +770,21 @@
         "seachat.pricing.plans.free.description": "Perfect for getting started with human agents",
         "seachat.pricing.plans.free.price": "0",
         "seachat.pricing.plans.free.period": "/month",
-        "seachat.pricing.plans.free.features": [
-          "Unlimited human agent hours",
-          "Basic chat widget",
-          "Email support",
-          "3 channels (Web, Email, Phone)",
-          "Basic analytics",
-          "Community support"
-        ],
-        "seachat.pricing.plans.free.limitations": [
-          "No AI automation",
-          "Limited integrations"
-        ],
+        "seachat.pricing.plans.free.features": "Unlimited human agent hours,Basic chat widget,Email support,3 channels (Web, Email, Phone),Basic analytics,Community support",
+        "seachat.pricing.plans.free.limitations": "No AI automation,Limited integrations",
         "seachat.pricing.plans.free.button": "Start Free",
         "seachat.pricing.plans.starter.name": "AI Starter",
         "seachat.pricing.plans.starter.description": "Add AI automation to scale your support",
         "seachat.pricing.plans.starter.badge": "Most Popular",
-        "seachat.pricing.plans.starter.features": [
-          "Everything in Free",
-          "AI agent automation",
-          "Knowledge base (5GB)",
-          "Advanced analytics",
-          "Priority email support",
-          "10 integrations",
-          "Custom branding"
-        ],
+        "seachat.pricing.plans.starter.features": "Everything in Free,AI agent automation,Knowledge base (5GB),Advanced analytics,Priority email support,10 integrations,Custom branding",
         "seachat.pricing.plans.starter.button": "Start AI Trial",
         "seachat.pricing.plans.growth.name": "Growth",
         "seachat.pricing.plans.growth.description": "Advanced features for growing teams",
-        "seachat.pricing.plans.growth.features": [
-          "Everything in Starter",
-          "Advanced AI training",
-          "Unlimited knowledge base",
-          "Voice agents",
-          "API access",
-          "Custom workflows",
-          "Phone support"
-        ],
+        "seachat.pricing.plans.growth.features": "Everything in Starter,Advanced AI training,Unlimited knowledge base,Voice agents,API access,Custom workflows,Phone support",
         "seachat.pricing.plans.growth.button": "Try Growth",
         "seachat.pricing.plans.enterprise.name": "Enterprise",
         "seachat.pricing.plans.enterprise.description": "Custom solutions for large organizations",
-        "seachat.pricing.plans.enterprise.features": [
-          "Everything in Growth",
-          "Dedicated success manager",
-          "Custom integrations",
-          "Advanced security",
-          "SLA guarantees",
-          "On-premise deployment",
-          "24/7 phone support"
-        ],
+        "seachat.pricing.plans.enterprise.features": "Everything in Growth,Dedicated success manager,Custom integrations,Advanced security,SLA guarantees,On-premise deployment,24/7 phone support",
         "seachat.pricing.plans.enterprise.button": "Contact Sales",
         "seachat.pricing.enterprise.title": "Need Something Custom?",
         "seachat.pricing.enterprise.description": "We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
@@ -1356,6 +1322,8 @@
         "pricing.plans.custom.feature4": "HIPAA compliance",
         "pricing.plans.custom.feature5": "White-label options",
         "pricing.plans.custom.cta": "Contact Us",
+        "pricing.plans.popularBadge": "Most Popular",
+        "pricing.plans.ctaStyles.primary": "Sign Up Now",
         "pricing.aiAddons.title": "⭐ AI Add-Ons",
         "pricing.aiAddons.description": "Enhance any plan with AI capabilities",
         "pricing.aiAddons.chatAI.title": "Chat AI with SeaChat",
@@ -1490,9 +1458,12 @@
         "pricing.cta.trustBadge2": "Setup in Under 5 Minutes",
         "pricing.cta.trustBadge3": "Cancel Anytime",
         "pricing.cta.trustBadge4": "True Free Plan Available",
-        "pricing.cta.urgency": "⚡ Limited Time: Get 2 months free on annual plans + priority onboarding support!"
+        "pricing.cta.urgency": "⚡ Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+        "pricing.billingToggle.monthly": "Billed Monthly",
+        "pricing.billingToggle.annually": "Billed Annually",
+        "pricing.billingToggle.save20": "Save 20%"
       },
-      "total_keys": 1128,
+      "total_keys": 1133,
       "structure": {
         "header": {
           "products": "Products",
@@ -2418,61 +2389,27 @@
                 "description": "Perfect for getting started with human agents",
                 "price": "0",
                 "period": "/month",
-                "features": [
-                  "Unlimited human agent hours",
-                  "Basic chat widget",
-                  "Email support",
-                  "3 channels (Web, Email, Phone)",
-                  "Basic analytics",
-                  "Community support"
-                ],
-                "limitations": [
-                  "No AI automation",
-                  "Limited integrations"
-                ],
+                "features": "Unlimited human agent hours,Basic chat widget,Email support,3 channels (Web, Email, Phone),Basic analytics,Community support",
+                "limitations": "No AI automation,Limited integrations",
                 "button": "Start Free"
               },
               "starter": {
                 "name": "AI Starter",
                 "description": "Add AI automation to scale your support",
                 "badge": "Most Popular",
-                "features": [
-                  "Everything in Free",
-                  "AI agent automation",
-                  "Knowledge base (5GB)",
-                  "Advanced analytics",
-                  "Priority email support",
-                  "10 integrations",
-                  "Custom branding"
-                ],
+                "features": "Everything in Free,AI agent automation,Knowledge base (5GB),Advanced analytics,Priority email support,10 integrations,Custom branding",
                 "button": "Start AI Trial"
               },
               "growth": {
                 "name": "Growth",
                 "description": "Advanced features for growing teams",
-                "features": [
-                  "Everything in Starter",
-                  "Advanced AI training",
-                  "Unlimited knowledge base",
-                  "Voice agents",
-                  "API access",
-                  "Custom workflows",
-                  "Phone support"
-                ],
+                "features": "Everything in Starter,Advanced AI training,Unlimited knowledge base,Voice agents,API access,Custom workflows,Phone support",
                 "button": "Try Growth"
               },
               "enterprise": {
                 "name": "Enterprise",
                 "description": "Custom solutions for large organizations",
-                "features": [
-                  "Everything in Growth",
-                  "Dedicated success manager",
-                  "Custom integrations",
-                  "Advanced security",
-                  "SLA guarantees",
-                  "On-premise deployment",
-                  "24/7 phone support"
-                ],
+                "features": "Everything in Growth,Dedicated success manager,Custom integrations,Advanced security,SLA guarantees,On-premise deployment,24/7 phone support",
                 "button": "Contact Sales"
               }
             },
@@ -3283,6 +3220,10 @@
               "feature4": "HIPAA compliance",
               "feature5": "White-label options",
               "cta": "Contact Us"
+            },
+            "popularBadge": "Most Popular",
+            "ctaStyles": {
+              "primary": "Sign Up Now"
             }
           },
           "aiAddons": {
@@ -3483,6 +3424,11 @@
             "trustBadge3": "Cancel Anytime",
             "trustBadge4": "True Free Plan Available",
             "urgency": "⚡ Limited Time: Get 2 months free on annual plans + priority onboarding support!"
+          },
+          "billingToggle": {
+            "monthly": "Billed Monthly",
+            "annually": "Billed Annually",
+            "save20": "Save 20%"
           }
         }
       }
@@ -4834,8 +4780,8 @@
         "features.outboundMarketing.description": "創建無縫、閉環的客戶旅程。在同一平台上發起有針對性的活動並管理所有回覆。",
         "features.enterpriseSecurity.title": "企業級安全",
         "features.enterpriseSecurity.description": "符合 HIPAA 標準的解決方案，具有銀行級加密。相信您的客戶數據始終受到保護。",
-        "features.predictablePricing.title": "簡單、可預測的定價",
-        "features.predictablePricing.description": "自信地進行預算。透明的定價意味著您確切知道每個月要支付多少費用。",
+        "features.predictablePricing.title": "簡單可預測的定價",
+        "features.predictablePricing.description": "有信心地規劃預算。透明的定價意味著您確切知道每月要支付多少費用。",
         "features.testimonial.quote": "我推薦 Seasalt.ai，因為它強大的知識庫系統和全渠道支援！",
         "features.testimonial.author": "— 解決方案架構師評論",
         "howItWorks.title": "三步驟輕鬆開始",
@@ -4958,36 +4904,36 @@
         "problemSolution.mockData.campaigns.followUp.name": "後續通話活動",
         "problemSolution.mockData.campaigns.followUp.description": "AI 語音機器人：89 通電話 • 34 個預約",
         "problemSolution.mockData.campaigns.followUp.result": "+34 個預約",
-        "supportPlan.title": "支援計畫",
-        "supportPlan.priceNote": "*所有價格均以美元計",
+        "supportPlan.title": "支援方案",
+        "supportPlan.priceNote": "*所有價格均以美元計價",
         "supportPlan.trial.title": "試用",
         "supportPlan.trial.price": "$0",
-        "supportPlan.trial.features.diy": "使用產品 wiki 自行操作",
+        "supportPlan.trial.features.diy": "透過產品說明文件自助服務",
         "supportPlan.trial.features.email": "電子郵件 (info@seasalt.ai)",
-        "supportPlan.trial.features.chat": "或與客戶<br />支援（在此頁面上）聊天",
+        "supportPlan.trial.features.chat": "或與客戶支援聊天<br />（在此頁面上）",
         "supportPlan.launch.title": "啟動",
-        "supportPlan.launch.startsAt": "起始價",
+        "supportPlan.launch.startsAt": "起價",
         "supportPlan.launch.minPrice": "$500",
-        "supportPlan.launch.upTo": "高達",
+        "supportPlan.launch.upTo": "最高至",
         "supportPlan.launch.maxPrice": "$10,000",
-        "supportPlan.launch.duration": "每月，為期 3 個月",
-        "supportPlan.launch.description": "透過啟動支援計畫，我們的團隊致力於在以下領域提供專業指導：",
-        "supportPlan.launch.features.meetings.title": "無限次一對一會議：",
+        "supportPlan.launch.duration": "每月 3 個月",
+        "supportPlan.launch.description": "透過啟動支援方案，我們的團隊致力於在以下領域提供專業指導：",
+        "supportPlan.launch.features.meetings.title": "無限 1 對 1 會議：",
         "supportPlan.launch.features.meetings.description": "與 SeaChat 團隊的個人化會議。",
-        "supportPlan.launch.features.promptTuning.title": "提示詞調整：",
-        "supportPlan.launch.features.promptTuning.description": "為聊天和語音應用程式進行客製化。",
+        "supportPlan.launch.features.promptTuning.title": "提示調優：",
+        "supportPlan.launch.features.promptTuning.description": "針對聊天和語音應用程式的客製化。",
         "supportPlan.launch.features.guidance.title": "設計和技術指導：",
-        "supportPlan.launch.features.guidance.description": "關於設計和技術方面的專家建議。",
-        "supportPlan.launch.features.launchSupport.title": "AI 智能體啟動支援：",
+        "supportPlan.launch.features.guidance.description": "設計和技術方面的專家建議。",
+        "supportPlan.launch.features.launchSupport.title": "AI 代理啟動支援：",
         "supportPlan.launch.features.launchSupport.description": "在整個啟動過程中提供全面協助。",
-        "supportPlan.launch.features.marketStrategy.title": "進入市場策略：",
-        "supportPlan.launch.features.marketStrategy.description": "市場進入的策略規劃。",
-        "supportPlan.launch.features.successfulLaunch.title": "成功的 AI 智能體啟動：",
+        "supportPlan.launch.features.marketStrategy.title": "上市策略：",
+        "supportPlan.launch.features.marketStrategy.description": "市場進入的戰略規劃。",
+        "supportPlan.launch.features.successfulLaunch.title": "成功的 AI 代理啟動：",
         "supportPlan.launch.features.successfulLaunch.description": "在 4-6 週內實現成功啟動。",
         "supportPlan.launch.features.postLaunch.title": "啟動後迭代和改進：",
-        "supportPlan.launch.features.postLaunch.description": "根據使用情況和回饋持續增強。",
-        "supportPlan.launch.features.operational.title": "運營穩定性：",
-        "supportPlan.launch.features.operational.description": "為 AI 智能體的長期運營建立標準操作程序。",
+        "supportPlan.launch.features.postLaunch.description": "基於使用情況和反饋的持續改進。",
+        "supportPlan.launch.features.operational.title": "營運穩定性：",
+        "supportPlan.launch.features.operational.description": "建立 AI 代理長期營運的標準作業程序。",
         "productDropdown.mainSite.title": "Seasalt.ai 主站",
         "productDropdown.mainSite.description": "所有產品和解決方案",
         "productDropdown.productsLabel": "產品",
@@ -5016,38 +4962,38 @@
         "comparison.table.headers.startingPrice": "起始價格",
         "comparison.table.headers.pricingModel": "定價模式",
         "comparison.table.headers.unifiedVoiceDigital": "統一語音和數位",
-        "comparison.table.headers.aiCapabilities": "AI 能力",
+        "comparison.table.headers.aiCapabilities": "AI 功能",
         "comparison.table.headers.bestFor": "最適合",
-        "comparison.competitors.seasalt.startingPrice": "每個專員每月 $20",
-        "comparison.competitors.seasalt.pricingModel": "簡單的每位使用者計費",
-        "comparison.competitors.seasalt.unifiedVoiceDigital": "✅ 是，原生",
-        "comparison.competitors.seasalt.aiCapabilities": "✅ 是，原生語音和對話機器人",
-        "comparison.competitors.seasalt.bestFor": "需要價格實惠、真正多合一平台的中小企業。",
-        "comparison.competitors.aircall.startingPrice": "每位使用者每月 $30",
-        "comparison.competitors.aircall.pricingModel": "每位使用者 + 附加功能",
-        "comparison.competitors.aircall.unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+        "comparison.competitors.seasalt.startingPrice": "$20/客服/月",
+        "comparison.competitors.seasalt.pricingModel": "簡單的每用戶定價",
+        "comparison.competitors.seasalt.unifiedVoiceDigital": "✅ 是，原生支援",
+        "comparison.competitors.seasalt.aiCapabilities": "✅ 是，原生語音和聊天機器人",
+        "comparison.competitors.seasalt.bestFor": "需要負擔得起的真正一體化平台的中小企業。",
+        "comparison.competitors.aircall.startingPrice": "$30/用戶/月",
+        "comparison.competitors.aircall.pricingModel": "每用戶 + 附加功能",
+        "comparison.competitors.aircall.unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
         "comparison.competitors.aircall.aiCapabilities": "⚠️ AI 是付費附加功能",
-        "comparison.competitors.aircall.bestFor": "能夠負擔多個附加功能並滿足 3 位使用者最低要求的銷售團隊。",
-        "comparison.competitors.ringcentral.startingPrice": "每個專員每月 $65",
-        "comparison.competitors.ringcentral.pricingModel": "複雜的層級",
-        "comparison.competitors.ringcentral.unifiedVoiceDigital": "❌ 獨立的產品",
-        "comparison.competitors.ringcentral.aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
-        "comparison.competitors.ringcentral.bestFor": "需要具有獨立 CCaaS 的廣泛 UCaaS 平台的大公司。",
-        "comparison.competitors.genesys.startingPrice": "每位使用者每月 $75",
-        "comparison.competitors.genesys.pricingModel": "每位使用者 + 高最低消費",
-        "comparison.competitors.genesys.unifiedVoiceDigital": "✅ 是 (在較高等級中)",
-        "comparison.competitors.genesys.aiCapabilities": "✅ 是 (複雜的代幣系統)",
+        "comparison.competitors.aircall.bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊。",
+        "comparison.competitors.ringcentral.startingPrice": "$65/客服/月",
+        "comparison.competitors.ringcentral.pricingModel": "複雜分層",
+        "comparison.competitors.ringcentral.unifiedVoiceDigital": "❌ 分離產品",
+        "comparison.competitors.ringcentral.aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
+        "comparison.competitors.ringcentral.bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司。",
+        "comparison.competitors.genesys.startingPrice": "$75/用戶/月",
+        "comparison.competitors.genesys.pricingModel": "每用戶 + 高最低要求",
+        "comparison.competitors.genesys.unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "comparison.competitors.genesys.aiCapabilities": "✅ 是（複雜代幣系統）",
         "comparison.competitors.genesys.bestFor": "擁有專門聯絡中心團隊和預算的大型企業。",
-        "comparison.competitors.five9.startingPrice": "每位使用者每月 $119",
-        "comparison.competitors.five9.pricingModel": "每位使用者 + 套餐",
-        "comparison.competitors.five9.unifiedVoiceDigital": "✅ 是 (在高級層級中)",
-        "comparison.competitors.five9.aiCapabilities": "✅ 是 (進階 AI)",
-        "comparison.competitors.five9.bestFor": "需要企業級工具的大型、重外撥的聯絡中心。",
-        "comparison.competitors.googleVoice.startingPrice": "每位使用者每月 $10",
-        "comparison.competitors.googleVoice.pricingModel": "每位使用者 + Workspace 費用",
+        "comparison.competitors.five9.startingPrice": "$119/用戶/月",
+        "comparison.competitors.five9.pricingModel": "每用戶 + 套件",
+        "comparison.competitors.five9.unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "comparison.competitors.five9.aiCapabilities": "✅ 是（進階 AI）",
+        "comparison.competitors.five9.bestFor": "需要企業級工具的大型出站重點聯絡中心。",
+        "comparison.competitors.googleVoice.startingPrice": "$10/用戶/月",
+        "comparison.competitors.googleVoice.pricingModel": "每用戶 + 工作區費用",
         "comparison.competitors.googleVoice.unifiedVoiceDigital": "❌ 否",
-        "comparison.competitors.googleVoice.aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-        "comparison.competitors.googleVoice.bestFor": "需要基本、獨立電話號碼的個人創業者 (僅限美國)。",
+        "comparison.competitors.googleVoice.aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+        "comparison.competitors.googleVoice.bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）。",
         "comparison.cta.seeAllComparisons": "查看所有詳細比較",
         "industriesData.ecommerce.title": "電子商務",
         "industriesData.ecommerce.headline": "24/7 恢復廢棄購物車並回答訂單問題",
@@ -5352,88 +5298,54 @@
           }
         ],
         "seachat.omnichannelDemo.quickSetup.button": "開始免費部署",
-        "seachat.pricing.title": "與您一同成長的定價",
-        "seachat.pricing.subtitle": "從完全免費的人工專員開始，然後在您準備好擴展時新增 AI。",
-        "seachat.pricing.monthly": "月繳",
-        "seachat.pricing.yearly": "年繳",
+        "seachat.pricing.title": "隨您成長的定價",
+        "seachat.pricing.subtitle": "完全免費地從真人客服開始，然後在您準備好時加入 AI 功能進行擴展。",
+        "seachat.pricing.monthly": "每月",
+        "seachat.pricing.yearly": "每年",
         "seachat.pricing.save": "節省 20%",
-        "seachat.pricing.customize": "自訂您的方案",
+        "seachat.pricing.customize": "客製化您的方案",
         "seachat.pricing.chatVolume": "每月聊天量",
-        "seachat.pricing.agents": "專員人數",
+        "seachat.pricing.agents": "客服數量",
         "seachat.pricing.plans.free.name": "永久免費",
-        "seachat.pricing.plans.free.description": "非常適合剛開始使用人工專員",
+        "seachat.pricing.plans.free.description": "適合從真人客服開始的完美選擇",
         "seachat.pricing.plans.free.price": "0",
         "seachat.pricing.plans.free.period": "/月",
-        "seachat.pricing.plans.free.features": [
-          "無限人工專員時數",
-          "基本聊天小工具",
-          "電子郵件支援",
-          "3 個渠道 (網站、電子郵件、電話)",
-          "基本分析",
-          "社群支援"
-        ],
-        "seachat.pricing.plans.free.limitations": [
-          "無 AI 自動化",
-          "有限的整合"
-        ],
+        "seachat.pricing.plans.free.features": "無限真人客服時數,基本聊天小工具,電子郵件支援,3 個通道（網頁、電子郵件、電話）,基本分析,社群支援",
+        "seachat.pricing.plans.free.limitations": "無 AI 自動化,有限整合",
         "seachat.pricing.plans.free.button": "免費開始",
         "seachat.pricing.plans.starter.name": "AI 入門版",
-        "seachat.pricing.plans.starter.description": "新增 AI 自動化以擴展您的支援",
+        "seachat.pricing.plans.starter.description": "添加 AI 自動化以擴展您的支援",
         "seachat.pricing.plans.starter.badge": "最受歡迎",
-        "seachat.pricing.plans.starter.features": [
-          "包含免費版所有功能",
-          "AI 專員自動化",
-          "知識庫 (5GB)",
-          "進階分析",
-          "優先電子郵件支援",
-          "10 個整合",
-          "自訂品牌"
-        ],
+        "seachat.pricing.plans.starter.features": "包含免費版所有功能,AI 代理自動化,知識庫（5GB）,進階分析,優先電子郵件支援,10 個整合,客製化品牌",
         "seachat.pricing.plans.starter.button": "開始 AI 試用",
         "seachat.pricing.plans.growth.name": "成長版",
-        "seachat.pricing.plans.growth.description": "為成長中的團隊提供進階功能",
-        "seachat.pricing.plans.growth.features": [
-          "包含入門版所有功能",
-          "進階 AI 訓練",
-          "無限知識庫",
-          "語音智能體",
-          "API 存取",
-          "自訂工作流程",
-          "電話支援"
-        ],
+        "seachat.pricing.plans.growth.description": "為成長團隊提供的進階功能",
+        "seachat.pricing.plans.growth.features": "包含入門版所有功能,進階 AI 訓練,無限知識庫,語音代理,API 存取,客製化工作流程,電話支援",
         "seachat.pricing.plans.growth.button": "試用成長版",
         "seachat.pricing.plans.enterprise.name": "企業版",
-        "seachat.pricing.plans.enterprise.description": "為大型組織提供自訂解決方案",
-        "seachat.pricing.plans.enterprise.features": [
-          "包含成長版所有功能",
-          "專屬成功經理",
-          "自訂整合",
-          "進階安全性",
-          "SLA 保證",
-          "本地部署",
-          "24/7 電話支援"
-        ],
+        "seachat.pricing.plans.enterprise.description": "為大型組織提供的客製化解決方案",
+        "seachat.pricing.plans.enterprise.features": "包含成長版所有功能,專屬成功經理,客製化整合,進階安全,SLA 保證,本地部署,24/7 電話支援",
         "seachat.pricing.plans.enterprise.button": "聯絡銷售",
-        "seachat.pricing.enterprise.title": "需要客製化方案嗎？",
-        "seachat.pricing.enterprise.description": "我們提供客製化的企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
-        "seachat.pricing.enterprise.button": "安排企業演示",
+        "seachat.pricing.enterprise.title": "需要客製化方案？",
+        "seachat.pricing.enterprise.description": "我們提供客製化企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
+        "seachat.pricing.enterprise.button": "安排企業版示範",
         "seachat.pricing.faq.title": "常見問題",
         "seachat.pricing.faq.questions": [
           {
             "question": "免費方案真的永久免費嗎？",
-            "answer": "是的！我們的免費方案包含 1 位終身人工專員，提供無限對話、聊天歷史記錄和聯絡人。無需信用卡，沒有隱藏費用。"
+            "answer": "是的！我們的免費方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。無需信用卡，無隱藏費用。"
           },
           {
             "question": "我可以隨時升級或降級我的方案嗎？",
-            "answer": "當然可以！您可以隨時更改您的方案。升級會立即生效，降級則在您當前計費週期結束時生效。"
+            "answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。"
           },
           {
-            "question": "如果我取消，我的數據會怎麼樣？",
-            "answer": "您擁有您的數據。您可以隨時匯出您所有的聊天歷史記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
+            "question": "如果我取消，我的數據會怎樣？",
+            "answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
           },
           {
-            "question": "你們為大型企業提供客製化定價嗎？",
-            "answer": "是的！我們提供客製化的企業解決方案，提供批量折扣、專屬支援和專業功能。請聯絡我們的銷售團隊以獲取個人化報價。"
+            "question": "您為大型企業提供客製化定價嗎？",
+            "answer": "是的！我們提供客製化企業解決方案，包括批量折扣、專屬支援和專業功能。聯絡我們的銷售團隊獲得個人化報價。"
           }
         ],
         "seachat.knowledgeBase.title": "強大的知識庫",
@@ -5950,6 +5862,8 @@
         "pricing.plans.custom.feature4": "HIPAA 合規",
         "pricing.plans.custom.feature5": "白標選項",
         "pricing.plans.custom.cta": "聯絡我們",
+        "pricing.plans.popularBadge": "最受歡迎",
+        "pricing.plans.ctaStyles.primary": "立即註冊",
         "pricing.aiAddons.title": "⭐ AI 附加功能",
         "pricing.aiAddons.description": "透過 AI 功能增強任何方案",
         "pricing.aiAddons.chatAI.title": "使用 SeaChat 的聊天 AI",
@@ -5966,19 +5880,19 @@
         "pricing.transparentAI.description": "透明清晰的使用量計價，您只需為使用的部分付費",
         "pricing.transparentAI.chatAI.title": "聊天 AI",
         "pricing.transparentAI.chatAI.price": "$0.006",
-        "pricing.transparentAI.chatAI.period": "每回應 (ChatGPT-4o mini)",
+        "pricing.transparentAI.chatAI.period": "每回應（ChatGPT-4o mini）",
         "pricing.transparentAI.chatAI.feature1": "• WhatsApp、Messenger、網頁聊天",
         "pricing.transparentAI.chatAI.feature2": "• 24/7 自動化回應",
         "pricing.transparentAI.chatAI.feature3": "• 知識庫整合",
         "pricing.transparentAI.voiceAI.title": "語音 AI",
         "pricing.transparentAI.voiceAI.price": "$0.12",
-        "pricing.transparentAI.voiceAI.period": "每分鐘 (ChatGPT-4o mini)",
+        "pricing.transparentAI.voiceAI.period": "每分鐘（ChatGPT-4o mini）",
         "pricing.transparentAI.voiceAI.feature1": "• 入站和出站電話",
         "pricing.transparentAI.voiceAI.feature2": "• 自然語音對話",
         "pricing.transparentAI.voiceAI.feature3": "• 通話錄音和摘要",
         "pricing.transparentAI.premiumAI.title": "高級 AI",
         "pricing.transparentAI.premiumAI.price": "$0.80",
-        "pricing.transparentAI.premiumAI.period": "每分鐘 (ChatGPT-4o)",
+        "pricing.transparentAI.premiumAI.period": "每分鐘（ChatGPT-4o）",
         "pricing.transparentAI.premiumAI.feature1": "• 進階推理",
         "pricing.transparentAI.premiumAI.feature2": "• 複雜對話",
         "pricing.transparentAI.premiumAI.feature3": "• 客製化企業功能",
@@ -5986,11 +5900,11 @@
         "pricing.transparentCommunication.description": "清晰明確的通訊需求定價",
         "pricing.transparentCommunication.sms.title": "SMS",
         "pricing.transparentCommunication.sms.price": "$0.02",
-        "pricing.transparentCommunication.sms.period": "每則訊息 (美國/加拿大)",
+        "pricing.transparentCommunication.sms.period": "每則訊息（美國/加拿大）",
         "pricing.transparentCommunication.sms.description": "可靠的文字訊息，透明的每則訊息費率",
         "pricing.transparentCommunication.voiceCalls.title": "語音通話",
         "pricing.transparentCommunication.voiceCalls.price": "$0.015",
-        "pricing.transparentCommunication.voiceCalls.period": "每分鐘 (美國/加拿大)",
+        "pricing.transparentCommunication.voiceCalls.period": "每分鐘（美國/加拿大）",
         "pricing.transparentCommunication.voiceCalls.description": "跨越 100+ 國家的清晰語音通話",
         "pricing.transparentCommunication.whatsapp.title": "WhatsApp Business",
         "pricing.transparentCommunication.whatsapp.price": "$0.00",
@@ -6015,44 +5929,44 @@
         "pricing.comparison.aircall.name": "Aircall",
         "pricing.comparison.aircall.startingPrice": "$30/用戶/月",
         "pricing.comparison.aircall.pricingModel": "每用戶 + 附加功能",
-        "pricing.comparison.aircall.unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+        "pricing.comparison.aircall.unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
         "pricing.comparison.aircall.aiCapabilities": "⚠️ AI 是付費附加功能",
         "pricing.comparison.aircall.bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊",
         "pricing.comparison.ringcentral.name": "RingCentral",
         "pricing.comparison.ringcentral.startingPrice": "$65/客服/月",
         "pricing.comparison.ringcentral.pricingModel": "複雜分層",
         "pricing.comparison.ringcentral.unifiedVoiceDigital": "❌ 分離產品",
-        "pricing.comparison.ringcentral.aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
+        "pricing.comparison.ringcentral.aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
         "pricing.comparison.ringcentral.bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司",
         "pricing.comparison.genesys.name": "Genesys Cloud CX",
         "pricing.comparison.genesys.startingPrice": "$75/用戶/月",
         "pricing.comparison.genesys.pricingModel": "每用戶 + 高最低要求",
-        "pricing.comparison.genesys.unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-        "pricing.comparison.genesys.aiCapabilities": "✅ 是 (複雜代幣系統)",
+        "pricing.comparison.genesys.unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "pricing.comparison.genesys.aiCapabilities": "✅ 是（複雜代幣系統）",
         "pricing.comparison.genesys.bestFor": "擁有專門聯絡中心團隊和預算的大型企業",
         "pricing.comparison.five9.name": "Five9",
         "pricing.comparison.five9.startingPrice": "$119/用戶/月",
         "pricing.comparison.five9.pricingModel": "每用戶 + 套件",
-        "pricing.comparison.five9.unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-        "pricing.comparison.five9.aiCapabilities": "✅ 是 (進階 AI)",
+        "pricing.comparison.five9.unifiedVoiceDigital": "✅ 是（在高級方案中）",
+        "pricing.comparison.five9.aiCapabilities": "✅ 是（進階 AI）",
         "pricing.comparison.five9.bestFor": "需要企業級工具的大型出站重點聯絡中心",
         "pricing.comparison.googleVoice.name": "Google Voice",
         "pricing.comparison.googleVoice.startingPrice": "$10/用戶/月",
         "pricing.comparison.googleVoice.pricingModel": "每用戶 + 工作區費用",
         "pricing.comparison.googleVoice.unifiedVoiceDigital": "❌ 否",
-        "pricing.comparison.googleVoice.aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-        "pricing.comparison.googleVoice.bestFor": "需要基本獨立電話號碼的個體創業者 (僅美國)",
+        "pricing.comparison.googleVoice.aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+        "pricing.comparison.googleVoice.bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）",
         "pricing.comparison.respondIo.name": "respond.io",
         "pricing.comparison.respondIo.startingPrice": "$79/月",
         "pricing.comparison.respondIo.pricingModel": "每月活躍聯絡人",
-        "pricing.comparison.respondIo.unifiedVoiceDigital": "⚠️ 數位優先 (語音為測試版)",
-        "pricing.comparison.respondIo.aiCapabilities": "✅ 是 (高級方案的 AI 代理)",
+        "pricing.comparison.respondIo.unifiedVoiceDigital": "⚠️ 數位優先（語音為測試版）",
+        "pricing.comparison.respondIo.aiCapabilities": "✅ 是（高級方案的 AI 代理）",
         "pricing.comparison.respondIo.bestFor": "專注於 WhatsApp 等訊息通道的行銷/銷售團隊",
         "pricing.comparison.intercom.name": "Intercom",
         "pricing.comparison.intercom.startingPrice": "$39/席位/月",
         "pricing.comparison.intercom.pricingModel": "每席位 + 附加功能 + 使用量",
-        "pricing.comparison.intercom.unifiedVoiceDigital": "⚠️ 數位優先 (語音按使用付費)",
-        "pricing.comparison.intercom.aiCapabilities": "✅ 是 (Fin AI 代理按解決方案計費)",
+        "pricing.comparison.intercom.unifiedVoiceDigital": "⚠️ 數位優先（語音按使用付費）",
+        "pricing.comparison.intercom.aiCapabilities": "✅ 是（Fin AI 代理按解決方案計費）",
         "pricing.comparison.intercom.bestFor": "專注於主動網站互動和支援的企業",
         "pricing.faq.1.question": "免費方案真的永久免費嗎？",
         "pricing.faq.1.answer": "是的！我們的真人客服方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。另外，您還可獲得 100 次終身 AI 回覆試用我們的 AI 功能。無需信用卡，無隱藏費用。",
@@ -6061,9 +5975,9 @@
         "pricing.faq.3.question": "我可以隨時升級或降級我的方案嗎？",
         "pricing.faq.3.answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。我們會按比例調整任何計費。",
         "pricing.faq.4.question": "WhatsApp Only 和 Omnichannel 方案有什麼區別？",
-        "pricing.faq.4.answer": "WhatsApp Only ($19.99/月) 專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel (第一位用戶 $99/月，額外用戶 $49) 包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。",
+        "pricing.faq.4.answer": "WhatsApp Only（$19.99/月）專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel（第一位用戶 $99/月，額外用戶 $49）包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。",
         "pricing.faq.5.question": "有任何隱藏費用或設置成本嗎？",
-        "pricing.faq.5.answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015 (美國/加拿大)。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。",
+        "pricing.faq.5.answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015（美國/加拿大）。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。",
         "pricing.faq.6.question": "如果我取消，我的數據會怎樣？",
         "pricing.faq.6.answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。我們相信數據自由和透明。",
         "pricing.faq.7.question": "您為大型企業提供批量折扣嗎？",
@@ -6084,9 +5998,12 @@
         "pricing.cta.trustBadge2": "5分鐘內完成設置",
         "pricing.cta.trustBadge3": "隨時取消",
         "pricing.cta.trustBadge4": "真正的免費方案",
-        "pricing.cta.urgency": "⚡ 限時優惠：年度方案免費 2 個月 + 優先入門支援！"
+        "pricing.cta.urgency": "⚡ 限時優惠：年度方案免費 2 個月 + 優先入門支援！",
+        "pricing.billingToggle.monthly": "按月計費",
+        "pricing.billingToggle.annually": "按年計費",
+        "pricing.billingToggle.save20": "節省 20%"
       },
-      "total_keys": 1128,
+      "total_keys": 1133,
       "structure": {
         "header": {
           "products": "產品",
@@ -6202,8 +6119,8 @@
             "description": "符合 HIPAA 標準的解決方案，具有銀行級加密。相信您的客戶數據始終受到保護。"
           },
           "predictablePricing": {
-            "title": "簡單、可預測的定價",
-            "description": "自信地進行預算。透明的定價意味著您確切知道每個月要支付多少費用。"
+            "title": "簡單可預測的定價",
+            "description": "有信心地規劃預算。透明的定價意味著您確切知道每月要支付多少費用。"
           },
           "testimonial": {
             "quote": "我推薦 Seasalt.ai，因為它強大的知識庫系統和全渠道支援！",
@@ -6413,57 +6330,57 @@
           }
         },
         "supportPlan": {
-          "title": "支援計畫",
-          "priceNote": "*所有價格均以美元計",
+          "title": "支援方案",
+          "priceNote": "*所有價格均以美元計價",
           "trial": {
             "title": "試用",
             "price": "$0",
             "features": {
-              "diy": "使用產品 wiki 自行操作",
+              "diy": "透過產品說明文件自助服務",
               "email": "電子郵件 (info@seasalt.ai)",
-              "chat": "或與客戶<br />支援（在此頁面上）聊天"
+              "chat": "或與客戶支援聊天<br />（在此頁面上）"
             }
           },
           "launch": {
             "title": "啟動",
-            "startsAt": "起始價",
+            "startsAt": "起價",
             "minPrice": "$500",
-            "upTo": "高達",
+            "upTo": "最高至",
             "maxPrice": "$10,000",
-            "duration": "每月，為期 3 個月",
-            "description": "透過啟動支援計畫，我們的團隊致力於在以下領域提供專業指導：",
+            "duration": "每月 3 個月",
+            "description": "透過啟動支援方案，我們的團隊致力於在以下領域提供專業指導：",
             "features": {
               "meetings": {
-                "title": "無限次一對一會議：",
+                "title": "無限 1 對 1 會議：",
                 "description": "與 SeaChat 團隊的個人化會議。"
               },
               "promptTuning": {
-                "title": "提示詞調整：",
-                "description": "為聊天和語音應用程式進行客製化。"
+                "title": "提示調優：",
+                "description": "針對聊天和語音應用程式的客製化。"
               },
               "guidance": {
                 "title": "設計和技術指導：",
-                "description": "關於設計和技術方面的專家建議。"
+                "description": "設計和技術方面的專家建議。"
               },
               "launchSupport": {
-                "title": "AI 智能體啟動支援：",
+                "title": "AI 代理啟動支援：",
                 "description": "在整個啟動過程中提供全面協助。"
               },
               "marketStrategy": {
-                "title": "進入市場策略：",
-                "description": "市場進入的策略規劃。"
+                "title": "上市策略：",
+                "description": "市場進入的戰略規劃。"
               },
               "successfulLaunch": {
-                "title": "成功的 AI 智能體啟動：",
+                "title": "成功的 AI 代理啟動：",
                 "description": "在 4-6 週內實現成功啟動。"
               },
               "postLaunch": {
                 "title": "啟動後迭代和改進：",
-                "description": "根據使用情況和回饋持續增強。"
+                "description": "基於使用情況和反饋的持續改進。"
               },
               "operational": {
-                "title": "運營穩定性：",
-                "description": "為 AI 智能體的長期運營建立標準操作程序。"
+                "title": "營運穩定性：",
+                "description": "建立 AI 代理長期營運的標準作業程序。"
               }
             }
           }
@@ -6519,52 +6436,52 @@
               "startingPrice": "起始價格",
               "pricingModel": "定價模式",
               "unifiedVoiceDigital": "統一語音和數位",
-              "aiCapabilities": "AI 能力",
+              "aiCapabilities": "AI 功能",
               "bestFor": "最適合"
             }
           },
           "competitors": {
             "seasalt": {
-              "startingPrice": "每個專員每月 $20",
-              "pricingModel": "簡單的每位使用者計費",
-              "unifiedVoiceDigital": "✅ 是，原生",
-              "aiCapabilities": "✅ 是，原生語音和對話機器人",
-              "bestFor": "需要價格實惠、真正多合一平台的中小企業。"
+              "startingPrice": "$20/客服/月",
+              "pricingModel": "簡單的每用戶定價",
+              "unifiedVoiceDigital": "✅ 是，原生支援",
+              "aiCapabilities": "✅ 是，原生語音和聊天機器人",
+              "bestFor": "需要負擔得起的真正一體化平台的中小企業。"
             },
             "aircall": {
-              "startingPrice": "每位使用者每月 $30",
-              "pricingModel": "每位使用者 + 附加功能",
-              "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+              "startingPrice": "$30/用戶/月",
+              "pricingModel": "每用戶 + 附加功能",
+              "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
               "aiCapabilities": "⚠️ AI 是付費附加功能",
-              "bestFor": "能夠負擔多個附加功能並滿足 3 位使用者最低要求的銷售團隊。"
+              "bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊。"
             },
             "ringcentral": {
-              "startingPrice": "每個專員每月 $65",
-              "pricingModel": "複雜的層級",
-              "unifiedVoiceDigital": "❌ 獨立的產品",
-              "aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
-              "bestFor": "需要具有獨立 CCaaS 的廣泛 UCaaS 平台的大公司。"
+              "startingPrice": "$65/客服/月",
+              "pricingModel": "複雜分層",
+              "unifiedVoiceDigital": "❌ 分離產品",
+              "aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
+              "bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司。"
             },
             "genesys": {
-              "startingPrice": "每位使用者每月 $75",
-              "pricingModel": "每位使用者 + 高最低消費",
-              "unifiedVoiceDigital": "✅ 是 (在較高等級中)",
-              "aiCapabilities": "✅ 是 (複雜的代幣系統)",
+              "startingPrice": "$75/用戶/月",
+              "pricingModel": "每用戶 + 高最低要求",
+              "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+              "aiCapabilities": "✅ 是（複雜代幣系統）",
               "bestFor": "擁有專門聯絡中心團隊和預算的大型企業。"
             },
             "five9": {
-              "startingPrice": "每位使用者每月 $119",
-              "pricingModel": "每位使用者 + 套餐",
-              "unifiedVoiceDigital": "✅ 是 (在高級層級中)",
-              "aiCapabilities": "✅ 是 (進階 AI)",
-              "bestFor": "需要企業級工具的大型、重外撥的聯絡中心。"
+              "startingPrice": "$119/用戶/月",
+              "pricingModel": "每用戶 + 套件",
+              "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+              "aiCapabilities": "✅ 是（進階 AI）",
+              "bestFor": "需要企業級工具的大型出站重點聯絡中心。"
             },
             "googleVoice": {
-              "startingPrice": "每位使用者每月 $10",
-              "pricingModel": "每位使用者 + Workspace 費用",
+              "startingPrice": "$10/用戶/月",
+              "pricingModel": "每用戶 + 工作區費用",
               "unifiedVoiceDigital": "❌ 否",
-              "aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-              "bestFor": "需要基本、獨立電話號碼的個人創業者 (僅限美國)。"
+              "aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+              "bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）。"
             }
           },
           "cta": {
@@ -6998,101 +6915,67 @@
             }
           },
           "pricing": {
-            "title": "與您一同成長的定價",
-            "subtitle": "從完全免費的人工專員開始，然後在您準備好擴展時新增 AI。",
-            "monthly": "月繳",
-            "yearly": "年繳",
+            "title": "隨您成長的定價",
+            "subtitle": "完全免費地從真人客服開始，然後在您準備好時加入 AI 功能進行擴展。",
+            "monthly": "每月",
+            "yearly": "每年",
             "save": "節省 20%",
-            "customize": "自訂您的方案",
+            "customize": "客製化您的方案",
             "chatVolume": "每月聊天量",
-            "agents": "專員人數",
+            "agents": "客服數量",
             "plans": {
               "free": {
                 "name": "永久免費",
-                "description": "非常適合剛開始使用人工專員",
+                "description": "適合從真人客服開始的完美選擇",
                 "price": "0",
                 "period": "/月",
-                "features": [
-                  "無限人工專員時數",
-                  "基本聊天小工具",
-                  "電子郵件支援",
-                  "3 個渠道 (網站、電子郵件、電話)",
-                  "基本分析",
-                  "社群支援"
-                ],
-                "limitations": [
-                  "無 AI 自動化",
-                  "有限的整合"
-                ],
+                "features": "無限真人客服時數,基本聊天小工具,電子郵件支援,3 個通道（網頁、電子郵件、電話）,基本分析,社群支援",
+                "limitations": "無 AI 自動化,有限整合",
                 "button": "免費開始"
               },
               "starter": {
                 "name": "AI 入門版",
-                "description": "新增 AI 自動化以擴展您的支援",
+                "description": "添加 AI 自動化以擴展您的支援",
                 "badge": "最受歡迎",
-                "features": [
-                  "包含免費版所有功能",
-                  "AI 專員自動化",
-                  "知識庫 (5GB)",
-                  "進階分析",
-                  "優先電子郵件支援",
-                  "10 個整合",
-                  "自訂品牌"
-                ],
+                "features": "包含免費版所有功能,AI 代理自動化,知識庫（5GB）,進階分析,優先電子郵件支援,10 個整合,客製化品牌",
                 "button": "開始 AI 試用"
               },
               "growth": {
                 "name": "成長版",
-                "description": "為成長中的團隊提供進階功能",
-                "features": [
-                  "包含入門版所有功能",
-                  "進階 AI 訓練",
-                  "無限知識庫",
-                  "語音智能體",
-                  "API 存取",
-                  "自訂工作流程",
-                  "電話支援"
-                ],
+                "description": "為成長團隊提供的進階功能",
+                "features": "包含入門版所有功能,進階 AI 訓練,無限知識庫,語音代理,API 存取,客製化工作流程,電話支援",
                 "button": "試用成長版"
               },
               "enterprise": {
                 "name": "企業版",
-                "description": "為大型組織提供自訂解決方案",
-                "features": [
-                  "包含成長版所有功能",
-                  "專屬成功經理",
-                  "自訂整合",
-                  "進階安全性",
-                  "SLA 保證",
-                  "本地部署",
-                  "24/7 電話支援"
-                ],
+                "description": "為大型組織提供的客製化解決方案",
+                "features": "包含成長版所有功能,專屬成功經理,客製化整合,進階安全,SLA 保證,本地部署,24/7 電話支援",
                 "button": "聯絡銷售"
               }
             },
             "enterprise": {
-              "title": "需要客製化方案嗎？",
-              "description": "我們提供客製化的企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
-              "button": "安排企業演示"
+              "title": "需要客製化方案？",
+              "description": "我們提供客製化企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
+              "button": "安排企業版示範"
             },
             "faq": {
               "title": "常見問題",
               "questions": [
                 {
                   "question": "免費方案真的永久免費嗎？",
-                  "answer": "是的！我們的免費方案包含 1 位終身人工專員，提供無限對話、聊天歷史記錄和聯絡人。無需信用卡，沒有隱藏費用。"
+                  "answer": "是的！我們的免費方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。無需信用卡，無隱藏費用。"
                 },
                 {
                   "question": "我可以隨時升級或降級我的方案嗎？",
-                  "answer": "當然可以！您可以隨時更改您的方案。升級會立即生效，降級則在您當前計費週期結束時生效。"
+                  "answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。"
                 },
                 {
-                  "question": "如果我取消，我的數據會怎麼樣？",
-                  "answer": "您擁有您的數據。您可以隨時匯出您所有的聊天歷史記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
+                  "question": "如果我取消，我的數據會怎樣？",
+                  "answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
                 },
                 {
-                  "question": "你們為大型企業提供客製化定價嗎？",
-                  "answer": "是的！我們提供客製化的企業解決方案，提供批量折扣、專屬支援和專業功能。請聯絡我們的銷售團隊以獲取個人化報價。"
+                  "question": "您為大型企業提供客製化定價嗎？",
+                  "answer": "是的！我們提供客製化企業解決方案，包括批量折扣、專屬支援和專業功能。聯絡我們的銷售團隊獲得個人化報價。"
                 }
               ]
             }
@@ -7877,6 +7760,10 @@
               "feature4": "HIPAA 合規",
               "feature5": "白標選項",
               "cta": "聯絡我們"
+            },
+            "popularBadge": "最受歡迎",
+            "ctaStyles": {
+              "primary": "立即註冊"
             }
           },
           "aiAddons": {
@@ -7905,7 +7792,7 @@
             "chatAI": {
               "title": "聊天 AI",
               "price": "$0.006",
-              "period": "每回應 (ChatGPT-4o mini)",
+              "period": "每回應（ChatGPT-4o mini）",
               "feature1": "• WhatsApp、Messenger、網頁聊天",
               "feature2": "• 24/7 自動化回應",
               "feature3": "• 知識庫整合"
@@ -7913,7 +7800,7 @@
             "voiceAI": {
               "title": "語音 AI",
               "price": "$0.12",
-              "period": "每分鐘 (ChatGPT-4o mini)",
+              "period": "每分鐘（ChatGPT-4o mini）",
               "feature1": "• 入站和出站電話",
               "feature2": "• 自然語音對話",
               "feature3": "• 通話錄音和摘要"
@@ -7921,7 +7808,7 @@
             "premiumAI": {
               "title": "高級 AI",
               "price": "$0.80",
-              "period": "每分鐘 (ChatGPT-4o)",
+              "period": "每分鐘（ChatGPT-4o）",
               "feature1": "• 進階推理",
               "feature2": "• 複雜對話",
               "feature3": "• 客製化企業功能"
@@ -7933,13 +7820,13 @@
             "sms": {
               "title": "SMS",
               "price": "$0.02",
-              "period": "每則訊息 (美國/加拿大)",
+              "period": "每則訊息（美國/加拿大）",
               "description": "可靠的文字訊息，透明的每則訊息費率"
             },
             "voiceCalls": {
               "title": "語音通話",
               "price": "$0.015",
-              "period": "每分鐘 (美國/加拿大)",
+              "period": "每分鐘（美國/加拿大）",
               "description": "跨越 100+ 國家的清晰語音通話"
             },
             "whatsapp": {
@@ -7974,7 +7861,7 @@
               "name": "Aircall",
               "startingPrice": "$30/用戶/月",
               "pricingModel": "每用戶 + 附加功能",
-              "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp (附加功能)",
+              "unifiedVoiceDigital": "⚠️ 語音 + WhatsApp（附加功能）",
               "aiCapabilities": "⚠️ AI 是付費附加功能",
               "bestFor": "能負擔多個附加功能且滿足 3 用戶最低要求的銷售團隊"
             },
@@ -7983,23 +7870,23 @@
               "startingPrice": "$65/客服/月",
               "pricingModel": "複雜分層",
               "unifiedVoiceDigital": "❌ 分離產品",
-              "aiCapabilities": "✅ 是 (AI 驅動的 CCaaS)",
+              "aiCapabilities": "✅ 是（AI 驅動的 CCaaS）",
               "bestFor": "需要廣泛 UCaaS 平台和分離 CCaaS 的大公司"
             },
             "genesys": {
               "name": "Genesys Cloud CX",
               "startingPrice": "$75/用戶/月",
               "pricingModel": "每用戶 + 高最低要求",
-              "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-              "aiCapabilities": "✅ 是 (複雜代幣系統)",
+              "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+              "aiCapabilities": "✅ 是（複雜代幣系統）",
               "bestFor": "擁有專門聯絡中心團隊和預算的大型企業"
             },
             "five9": {
               "name": "Five9",
               "startingPrice": "$119/用戶/月",
               "pricingModel": "每用戶 + 套件",
-              "unifiedVoiceDigital": "✅ 是 (在高級方案中)",
-              "aiCapabilities": "✅ 是 (進階 AI)",
+              "unifiedVoiceDigital": "✅ 是（在高級方案中）",
+              "aiCapabilities": "✅ 是（進階 AI）",
               "bestFor": "需要企業級工具的大型出站重點聯絡中心"
             },
             "googleVoice": {
@@ -8007,23 +7894,23 @@
               "startingPrice": "$10/用戶/月",
               "pricingModel": "每用戶 + 工作區費用",
               "unifiedVoiceDigital": "❌ 否",
-              "aiCapabilities": "❌ 否 (僅語音信箱轉錄)",
-              "bestFor": "需要基本獨立電話號碼的個體創業者 (僅美國)"
+              "aiCapabilities": "❌ 否（僅語音信箱轉錄）",
+              "bestFor": "需要基本獨立電話號碼的個體創業者（僅美國）"
             },
             "respondIo": {
               "name": "respond.io",
               "startingPrice": "$79/月",
               "pricingModel": "每月活躍聯絡人",
-              "unifiedVoiceDigital": "⚠️ 數位優先 (語音為測試版)",
-              "aiCapabilities": "✅ 是 (高級方案的 AI 代理)",
+              "unifiedVoiceDigital": "⚠️ 數位優先（語音為測試版）",
+              "aiCapabilities": "✅ 是（高級方案的 AI 代理）",
               "bestFor": "專注於 WhatsApp 等訊息通道的行銷/銷售團隊"
             },
             "intercom": {
               "name": "Intercom",
               "startingPrice": "$39/席位/月",
               "pricingModel": "每席位 + 附加功能 + 使用量",
-              "unifiedVoiceDigital": "⚠️ 數位優先 (語音按使用付費)",
-              "aiCapabilities": "✅ 是 (Fin AI 代理按解決方案計費)",
+              "unifiedVoiceDigital": "⚠️ 數位優先（語音按使用付費）",
+              "aiCapabilities": "✅ 是（Fin AI 代理按解決方案計費）",
               "bestFor": "專注於主動網站互動和支援的企業"
             }
           },
@@ -8042,11 +7929,11 @@
             },
             "4": {
               "question": "WhatsApp Only 和 Omnichannel 方案有什麼區別？",
-              "answer": "WhatsApp Only ($19.99/月) 專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel (第一位用戶 $99/月，額外用戶 $49) 包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。"
+              "answer": "WhatsApp Only（$19.99/月）專注於 WhatsApp 訊息，提供無限聯絡人和範本。Omnichannel（第一位用戶 $99/月，額外用戶 $49）包含 SMS、語音通話、活動、API 存取和 SeaChat 整合，提供完整的聯絡中心體驗。"
             },
             "5": {
               "question": "有任何隱藏費用或設置成本嗎？",
-              "answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015 (美國/加拿大)。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。"
+              "answer": "永遠沒有隱藏費用！電話號碼每月 $2-$3，包含 E911 地址。SMS 每則訊息 $0.02，語音通話每分鐘 $0.015（美國/加拿大）。WhatsApp 訊息全球免費 - 您直接向 Meta 付款，我們無任何加價。"
             },
             "6": {
               "question": "如果我取消，我的數據會怎樣？",
@@ -8077,6 +7964,11 @@
             "trustBadge3": "隨時取消",
             "trustBadge4": "真正的免費方案",
             "urgency": "⚡ 限時優惠：年度方案免費 2 個月 + 優先入門支援！"
+          },
+          "billingToggle": {
+            "monthly": "按月計費",
+            "annually": "按年計費",
+            "save20": "節省 20%"
           }
         }
       }
@@ -9852,22 +9744,22 @@
         "pricing.audienceSection.description",
         "pricing.audienceSection.startups.title",
         "pricing.audienceSection.startups.subtitle",
-        "pricing.audienceSection.startups.features.seaChat.title",
-        "pricing.audienceSection.startups.features.seaChat.description",
-        "pricing.audienceSection.startups.features.seaVoice.title",
-        "pricing.audienceSection.startups.features.seaVoice.description",
-        "pricing.audienceSection.startups.features.seaX.title",
-        "pricing.audienceSection.startups.features.seaX.description",
+        "pricing.audienceSection.startups.seaChat.title",
+        "pricing.audienceSection.startups.seaChat.description",
+        "pricing.audienceSection.startups.seaVoice.title",
+        "pricing.audienceSection.startups.seaVoice.description",
+        "pricing.audienceSection.startups.seaX.title",
+        "pricing.audienceSection.startups.seaX.description",
         "pricing.audienceSection.startups.employeeRange",
-        "pricing.audienceSection.enterprises.title",
-        "pricing.audienceSection.enterprises.subtitle",
-        "pricing.audienceSection.enterprises.features.seaChatPremium.title",
-        "pricing.audienceSection.enterprises.features.seaChatPremium.description",
-        "pricing.audienceSection.enterprises.features.seaXProfessional.title",
-        "pricing.audienceSection.enterprises.features.seaXProfessional.description",
-        "pricing.audienceSection.enterprises.features.customEnterprise.title",
-        "pricing.audienceSection.enterprises.features.customEnterprise.description",
-        "pricing.audienceSection.enterprises.employeeRange",
+        "pricing.audienceSection.enterprise.title",
+        "pricing.audienceSection.enterprise.subtitle",
+        "pricing.audienceSection.enterprise.seachatPremium.title",
+        "pricing.audienceSection.enterprise.seachatPremium.description",
+        "pricing.audienceSection.enterprise.seaxProfessional.title",
+        "pricing.audienceSection.enterprise.seaxProfessional.description",
+        "pricing.audienceSection.enterprise.customEnterprise.title",
+        "pricing.audienceSection.enterprise.customEnterprise.description",
+        "pricing.audienceSection.enterprise.footer",
         "pricing.plans.title",
         "pricing.plans.description",
         "pricing.plans.liveAgent.badge",
@@ -9876,10 +9768,10 @@
         "pricing.plans.liveAgent.period",
         "pricing.plans.liveAgent.highlight",
         "pricing.plans.liveAgent.channels",
-        "pricing.plans.liveAgent.features.humanAgent",
-        "pricing.plans.liveAgent.features.unlimitedConversations",
-        "pricing.plans.liveAgent.features.aiTrialReplies",
-        "pricing.plans.liveAgent.features.shopifyIntegration",
+        "pricing.plans.liveAgent.humanAgent",
+        "pricing.plans.liveAgent.unlimitedConversations",
+        "pricing.plans.liveAgent.aiTrialReplies",
+        "pricing.plans.liveAgent.shopifyIntegration",
         "pricing.plans.liveAgent.cta",
         "pricing.plans.liveAgent.poweredBy",
         "pricing.plans.whatsappOnly.badge",
@@ -9887,11 +9779,11 @@
         "pricing.plans.whatsappOnly.price",
         "pricing.plans.whatsappOnly.period",
         "pricing.plans.whatsappOnly.highlight",
-        "pricing.plans.whatsappOnly.features.overview",
-        "pricing.plans.whatsappOnly.features.platform",
-        "pricing.plans.whatsappOnly.features.campaignTools",
-        "pricing.plans.whatsappOnly.features.apiAccess",
-        "pricing.plans.whatsappOnly.features.unlimitedContacts",
+        "pricing.plans.whatsappOnly.overview",
+        "pricing.plans.whatsappOnly.platform",
+        "pricing.plans.whatsappOnly.campaignTools",
+        "pricing.plans.whatsappOnly.apiAccess",
+        "pricing.plans.whatsappOnly.unlimitedContacts",
         "pricing.plans.whatsappOnly.cta",
         "pricing.plans.whatsappOnly.poweredBy",
         "pricing.plans.omnichannel.popularBadge",
@@ -9901,21 +9793,21 @@
         "pricing.plans.omnichannel.eachExtra",
         "pricing.plans.omnichannel.period",
         "pricing.plans.omnichannel.highlight",
-        "pricing.plans.omnichannel.features.phoneCalls",
-        "pricing.plans.omnichannel.features.agentCalls",
-        "pricing.plans.omnichannel.features.allChannels",
-        "pricing.plans.omnichannel.features.voiceSMSCampaigns",
-        "pricing.plans.omnichannel.features.apiIntegration",
+        "pricing.plans.omnichannel.phoneCalls",
+        "pricing.plans.omnichannel.agentCalls",
+        "pricing.plans.omnichannel.allChannels",
+        "pricing.plans.omnichannel.voiceSMSCampaigns",
+        "pricing.plans.omnichannel.apiIntegration",
         "pricing.plans.omnichannel.cta",
         "pricing.plans.omnichannel.poweredBy",
         "pricing.plans.custom.name",
         "pricing.plans.custom.subtitle",
         "pricing.plans.custom.period",
-        "pricing.plans.custom.features.multipleWorkspaces",
-        "pricing.plans.custom.features.agencies",
-        "pricing.plans.custom.features.customIntegrations",
-        "pricing.plans.custom.features.hipaaCompliance",
-        "pricing.plans.custom.features.whiteLabelOptions",
+        "pricing.plans.custom.multipleWorkspaces",
+        "pricing.plans.custom.agencies",
+        "pricing.plans.custom.customIntegrations",
+        "pricing.plans.custom.hipaaCompliance",
+        "pricing.plans.custom.whiteLabelOptions",
         "pricing.plans.custom.cta",
         "pricing.aiAddOns.title",
         "pricing.aiAddOns.description",
@@ -9934,21 +9826,21 @@
         "pricing.transparentAiPricing.chatAI.name",
         "pricing.transparentAiPricing.chatAI.price",
         "pricing.transparentAiPricing.chatAI.period",
-        "pricing.transparentAiPricing.chatAI.features.channels",
-        "pricing.transparentAiPricing.chatAI.features.automated",
-        "pricing.transparentAiPricing.chatAI.features.knowledgeBase",
+        "pricing.transparentAiPricing.chatAI.channels",
+        "pricing.transparentAiPricing.chatAI.automated",
+        "pricing.transparentAiPricing.chatAI.knowledgeBase",
         "pricing.transparentAiPricing.voiceAI.name",
         "pricing.transparentAiPricing.voiceAI.price",
         "pricing.transparentAiPricing.voiceAI.period",
-        "pricing.transparentAiPricing.voiceAI.features.calls",
-        "pricing.transparentAiPricing.voiceAI.features.conversations",
-        "pricing.transparentAiPricing.voiceAI.features.recording",
+        "pricing.transparentAiPricing.voiceAI.calls",
+        "pricing.transparentAiPricing.voiceAI.conversations",
+        "pricing.transparentAiPricing.voiceAI.recording",
         "pricing.transparentAiPricing.premiumAI.name",
         "pricing.transparentAiPricing.premiumAI.price",
         "pricing.transparentAiPricing.premiumAI.period",
-        "pricing.transparentAiPricing.premiumAI.features.reasoning",
-        "pricing.transparentAiPricing.premiumAI.features.conversations",
-        "pricing.transparentAiPricing.premiumAI.features.enterprise",
+        "pricing.transparentAiPricing.premiumAI.reasoning",
+        "pricing.transparentAiPricing.premiumAI.conversations",
+        "pricing.transparentAiPricing.premiumAI.enterprise",
         "pricing.transparentCommunicationPricing.title",
         "pricing.transparentCommunicationPricing.description",
         "pricing.transparentCommunicationPricing.sms.name",
@@ -9974,8 +9866,8 @@
         "pricing.competitorComparison.table.headers.bestFor",
         "pricing.competitorComparison.table.recommended",
         "pricing.faq.title",
-        "pricing.cta.title.part1",
-        "pricing.cta.title.part2",
+        "pricing.cta.title",
+        "pricing.cta.titleGradient",
         "pricing.cta.description",
         "pricing.cta.stats.customers",
         "pricing.cta.stats.uptimeValue",
@@ -18829,25 +18721,31 @@
       }
     },
     "src/seachat/pages/PricingPage.tsx": {
-      "has_use_translation": false,
-      "translation_keys": [],
+      "has_use_translation": true,
+      "translation_keys": [
+        "pricing.plans.free.name",
+        "pricing.plans.free.tagline",
+        "pricing.plans.free.description",
+        "pricing.plans.free.features.humanAgent",
+        "pricing.plans.free.features.unlimitedHumanChats",
+        "pricing.plans.free.features.unlimitedContacts",
+        "pricing.plans.free.features.unlimitedHistory",
+        "pricing.plans.free.features.exportHistory",
+        "pricing.plans.free.features.channels",
+        "pricing.plans.free.features.integrations",
+        "pricing.plans.free.features.aiAgent",
+        "pricing.plans.free.features.aiAgentModel",
+        "pricing.plans.free.features.knowledgeBase",
+        "pricing.plans.free.features.workspace",
+        "pricing.plans.free.buttonText",
+        "pricing.hero.title",
+        "pricing.hero.subtitle",
+        "pricing.billing.monthly",
+        "pricing.billing.yearly",
+        "pricing.billing.save"
+      ],
       "trans_components": [],
       "hardcoded_strings": [
-        {
-          "text": "Pricing That Grows With You",
-          "context": "      <section className=\"pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h1 className=\"text-5xl md:text-6xl font-bold mb-6\">\n            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-          "context": "            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.\n          </p>\n          \n          {/* Billing Toggle */}\n          <div className=\"flex items-center justify-center mb-8\">",
-          "type": "jsx-text"
-        },
-        {
-          "text": "(Save 2 Months)",
-          "context": "            </button>\n            <span className={`ml-3 ${billingCycle === 'yearly' ? 'text-white' : 'text-blue-300'}`}>\n              Yearly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n          </div>\n        </div>",
-          "type": "jsx-text"
-        },
         {
           "text": "Contact Us",
           "context": "                    ) : plan.id === 'enterprise' ? (\n                      <div className=\"py-4\">\n                        <button className=\"bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all\">\n                          Contact Us\n                        </button>\n                      </div>\n                    ) : (\n                      <div>",
@@ -19149,10 +19047,6 @@
           "type": "jsx-text"
         },
         {
-          "text": "(Save 2 Months)",
-          "context": "rly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n      "
-        },
-        {
           "text": "Save 2 months vs monthly billing",
           "context": "              <span className=\"text-sm opacity-75\">Save 2 months vs monthly billing</span>\n         "
         },
@@ -19258,8 +19152,8 @@
         }
       ],
       "imports": {
-        "useTranslation": false,
-        "Trans": false
+        "useTranslation": true,
+        "Trans": true
       }
     },
     "src/seachat/pages/features/AIAutomationPage.tsx": {
@@ -28498,12 +28392,12 @@
         },
         {
           "text": "Local Numbers ($2/month each)",
-          "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
+          "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
           "type": "jsx-text"
         },
         {
           "text": "Toll-Free Numbers ($3/month each)",
-          "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
+          "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
           "type": "jsx-text"
         },
         {
@@ -28603,12 +28497,12 @@
         },
         {
           "text": "Get Started with Omni-channel",
-          "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"",
+          "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"",
           "type": "jsx-text"
         },
         {
           "text": "Talk to Sales",
-          "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
+          "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
           "type": "jsx-text"
         },
         {
@@ -28633,11 +28527,11 @@
         },
         {
           "text": "Local Numbers ($2/month each)",
-          "context": "           <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n            "
+          "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n            "
         },
         {
           "text": "Toll-Free Numbers ($3/month each)",
-          "context": "           <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n        "
+          "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n        "
         },
         {
           "text": "Monthly Usage",
@@ -33759,6 +33653,16 @@
         "Trans": false
       }
     },
+    "src/utils/textOverflow.ts": {
+      "has_use_translation": false,
+      "translation_keys": [],
+      "trans_components": [],
+      "hardcoded_strings": [],
+      "imports": {
+        "useTranslation": false,
+        "Trans": false
+      }
+    },
     "src/vite-env.d.ts": {
       "has_use_translation": false,
       "translation_keys": [],
@@ -33771,8 +33675,8 @@
     }
   },
   "coverage_report": {
-    "base_language_keys": 1128,
-    "used_keys_in_components": 2802,
+    "base_language_keys": 1133,
+    "used_keys_in_components": 2821,
     "unused_keys": [
       "header.login",
       "header.backToChannels",
@@ -33914,15 +33818,6 @@
       "pricing.audienceSection.startups.seax.title",
       "pricing.audienceSection.startups.seax.description",
       "pricing.audienceSection.startups.footer",
-      "pricing.audienceSection.enterprise.title",
-      "pricing.audienceSection.enterprise.subtitle",
-      "pricing.audienceSection.enterprise.seachatPremium.title",
-      "pricing.audienceSection.enterprise.seachatPremium.description",
-      "pricing.audienceSection.enterprise.seaxProfessional.title",
-      "pricing.audienceSection.enterprise.seaxProfessional.description",
-      "pricing.audienceSection.enterprise.customEnterprise.title",
-      "pricing.audienceSection.enterprise.customEnterprise.description",
-      "pricing.audienceSection.enterprise.footer",
       "pricing.plans.liveAgent.tagline",
       "pricing.plans.liveAgent.feature1",
       "pricing.plans.liveAgent.feature2",
@@ -33951,6 +33846,8 @@
       "pricing.plans.custom.feature3",
       "pricing.plans.custom.feature4",
       "pricing.plans.custom.feature5",
+      "pricing.plans.popularBadge",
+      "pricing.plans.ctaStyles.primary",
       "pricing.aiAddons.title",
       "pricing.aiAddons.description",
       "pricing.aiAddons.chatAI.title",
@@ -34069,8 +33966,6 @@
       "pricing.faq.6.answer",
       "pricing.faq.7.question",
       "pricing.faq.7.answer",
-      "pricing.cta.title",
-      "pricing.cta.titleGradient",
       "pricing.cta.stats.customersLabel",
       "pricing.cta.stats.uptimeLabel",
       "pricing.cta.stats.supportLabel",
@@ -34080,7 +33975,10 @@
       "pricing.cta.trustBadge2",
       "pricing.cta.trustBadge3",
       "pricing.cta.trustBadge4",
-      "pricing.cta.urgency"
+      "pricing.cta.urgency",
+      "pricing.billingToggle.monthly",
+      "pricing.billingToggle.annually",
+      "pricing.billingToggle.save20"
     ],
     "missing_keys": [
       "industriesData.ecommerce.benefits.0",
@@ -34115,48 +34013,39 @@
       "industriesData.financial.benefits.1",
       "industriesData.financial.benefits.2",
       "industriesData.financial.benefits.3",
-      "pricing.audienceSection.startups.features.seaChat.title",
-      "pricing.audienceSection.startups.features.seaChat.description",
-      "pricing.audienceSection.startups.features.seaVoice.title",
-      "pricing.audienceSection.startups.features.seaVoice.description",
-      "pricing.audienceSection.startups.features.seaX.title",
-      "pricing.audienceSection.startups.features.seaX.description",
+      "pricing.audienceSection.startups.seaChat.title",
+      "pricing.audienceSection.startups.seaChat.description",
+      "pricing.audienceSection.startups.seaVoice.title",
+      "pricing.audienceSection.startups.seaVoice.description",
+      "pricing.audienceSection.startups.seaX.title",
+      "pricing.audienceSection.startups.seaX.description",
       "pricing.audienceSection.startups.employeeRange",
-      "pricing.audienceSection.enterprises.title",
-      "pricing.audienceSection.enterprises.subtitle",
-      "pricing.audienceSection.enterprises.features.seaChatPremium.title",
-      "pricing.audienceSection.enterprises.features.seaChatPremium.description",
-      "pricing.audienceSection.enterprises.features.seaXProfessional.title",
-      "pricing.audienceSection.enterprises.features.seaXProfessional.description",
-      "pricing.audienceSection.enterprises.features.customEnterprise.title",
-      "pricing.audienceSection.enterprises.features.customEnterprise.description",
-      "pricing.audienceSection.enterprises.employeeRange",
       "pricing.plans.liveAgent.badge",
-      "pricing.plans.liveAgent.features.humanAgent",
-      "pricing.plans.liveAgent.features.unlimitedConversations",
-      "pricing.plans.liveAgent.features.aiTrialReplies",
-      "pricing.plans.liveAgent.features.shopifyIntegration",
+      "pricing.plans.liveAgent.humanAgent",
+      "pricing.plans.liveAgent.unlimitedConversations",
+      "pricing.plans.liveAgent.aiTrialReplies",
+      "pricing.plans.liveAgent.shopifyIntegration",
       "pricing.plans.whatsappOnly.badge",
-      "pricing.plans.whatsappOnly.features.overview",
-      "pricing.plans.whatsappOnly.features.platform",
-      "pricing.plans.whatsappOnly.features.campaignTools",
-      "pricing.plans.whatsappOnly.features.apiAccess",
-      "pricing.plans.whatsappOnly.features.unlimitedContacts",
+      "pricing.plans.whatsappOnly.overview",
+      "pricing.plans.whatsappOnly.platform",
+      "pricing.plans.whatsappOnly.campaignTools",
+      "pricing.plans.whatsappOnly.apiAccess",
+      "pricing.plans.whatsappOnly.unlimitedContacts",
       "pricing.plans.omnichannel.popularBadge",
       "pricing.plans.omnichannel.badge",
       "pricing.plans.omnichannel.firstUser",
       "pricing.plans.omnichannel.eachExtra",
-      "pricing.plans.omnichannel.features.phoneCalls",
-      "pricing.plans.omnichannel.features.agentCalls",
-      "pricing.plans.omnichannel.features.allChannels",
-      "pricing.plans.omnichannel.features.voiceSMSCampaigns",
-      "pricing.plans.omnichannel.features.apiIntegration",
+      "pricing.plans.omnichannel.phoneCalls",
+      "pricing.plans.omnichannel.agentCalls",
+      "pricing.plans.omnichannel.allChannels",
+      "pricing.plans.omnichannel.voiceSMSCampaigns",
+      "pricing.plans.omnichannel.apiIntegration",
       "pricing.plans.custom.subtitle",
-      "pricing.plans.custom.features.multipleWorkspaces",
-      "pricing.plans.custom.features.agencies",
-      "pricing.plans.custom.features.customIntegrations",
-      "pricing.plans.custom.features.hipaaCompliance",
-      "pricing.plans.custom.features.whiteLabelOptions",
+      "pricing.plans.custom.multipleWorkspaces",
+      "pricing.plans.custom.agencies",
+      "pricing.plans.custom.customIntegrations",
+      "pricing.plans.custom.hipaaCompliance",
+      "pricing.plans.custom.whiteLabelOptions",
       "pricing.aiAddOns.title",
       "pricing.aiAddOns.description",
       "pricing.aiAddOns.chatAI.title",
@@ -34174,21 +34063,21 @@
       "pricing.transparentAiPricing.chatAI.name",
       "pricing.transparentAiPricing.chatAI.price",
       "pricing.transparentAiPricing.chatAI.period",
-      "pricing.transparentAiPricing.chatAI.features.channels",
-      "pricing.transparentAiPricing.chatAI.features.automated",
-      "pricing.transparentAiPricing.chatAI.features.knowledgeBase",
+      "pricing.transparentAiPricing.chatAI.channels",
+      "pricing.transparentAiPricing.chatAI.automated",
+      "pricing.transparentAiPricing.chatAI.knowledgeBase",
       "pricing.transparentAiPricing.voiceAI.name",
       "pricing.transparentAiPricing.voiceAI.price",
       "pricing.transparentAiPricing.voiceAI.period",
-      "pricing.transparentAiPricing.voiceAI.features.calls",
-      "pricing.transparentAiPricing.voiceAI.features.conversations",
-      "pricing.transparentAiPricing.voiceAI.features.recording",
+      "pricing.transparentAiPricing.voiceAI.calls",
+      "pricing.transparentAiPricing.voiceAI.conversations",
+      "pricing.transparentAiPricing.voiceAI.recording",
       "pricing.transparentAiPricing.premiumAI.name",
       "pricing.transparentAiPricing.premiumAI.price",
       "pricing.transparentAiPricing.premiumAI.period",
-      "pricing.transparentAiPricing.premiumAI.features.reasoning",
-      "pricing.transparentAiPricing.premiumAI.features.conversations",
-      "pricing.transparentAiPricing.premiumAI.features.enterprise",
+      "pricing.transparentAiPricing.premiumAI.reasoning",
+      "pricing.transparentAiPricing.premiumAI.conversations",
+      "pricing.transparentAiPricing.premiumAI.enterprise",
       "pricing.transparentCommunicationPricing.title",
       "pricing.transparentCommunicationPricing.description",
       "pricing.transparentCommunicationPricing.sms.name",
@@ -34213,8 +34102,6 @@
       "pricing.competitorComparison.table.headers.aiCapabilities",
       "pricing.competitorComparison.table.headers.bestFor",
       "pricing.competitorComparison.table.recommended",
-      "pricing.cta.title.part1",
-      "pricing.cta.title.part2",
       "pricing.cta.stats.uptimeValue",
       "pricing.cta.stats.supportValue",
       "pricing.cta.buttons.signUp",
@@ -34224,6 +34111,25 @@
       "pricing.cta.trustBadges.cancelAnytime",
       "pricing.cta.trustBadges.freePlan",
       "pricing.cta.urgencyMessage",
+      "pricing.plans.free.name",
+      "pricing.plans.free.tagline",
+      "pricing.plans.free.description",
+      "pricing.plans.free.features.humanAgent",
+      "pricing.plans.free.features.unlimitedHumanChats",
+      "pricing.plans.free.features.unlimitedContacts",
+      "pricing.plans.free.features.unlimitedHistory",
+      "pricing.plans.free.features.exportHistory",
+      "pricing.plans.free.features.channels",
+      "pricing.plans.free.features.integrations",
+      "pricing.plans.free.features.aiAgent",
+      "pricing.plans.free.features.aiAgentModel",
+      "pricing.plans.free.features.knowledgeBase",
+      "pricing.plans.free.features.workspace",
+      "pricing.plans.free.buttonText",
+      "pricing.hero.subtitle",
+      "pricing.billing.monthly",
+      "pricing.billing.yearly",
+      "pricing.billing.save",
       "seachat.features.aiAutomation.contextAware.title",
       "seachat.features.aiAutomation.contextAware.description",
       "seachat.features.aiAutomation.learning.title",
@@ -36065,7 +35971,7 @@
       "seachat.solutions.travel.ctaTrialButton",
       "seachat.solutions.travel.ctaDemoButton"
     ],
-    "coverage_percentage": "29.30"
+    "coverage_percentage": "29.49"
   },
   "missing_translations": {
     "ar": {
@@ -37034,6 +36940,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -37168,9 +37076,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.66"
+      "coverage_percentage": "2.65"
     },
     "de": {
       "missing_from_base": [
@@ -38141,6 +38052,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -38275,9 +38188,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "es": {
       "missing_from_base": [
@@ -39248,6 +39164,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -39382,9 +39300,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "fa": {
       "missing_from_base": [],
@@ -40336,6 +40257,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -40470,9 +40393,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "4.08"
+      "coverage_percentage": "4.06"
     },
     "fil": {
       "missing_from_base": [
@@ -41443,6 +41369,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -41577,9 +41505,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "fr": {
       "missing_from_base": [
@@ -42550,6 +42481,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -42684,9 +42617,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "hi": {
       "missing_from_base": [
@@ -43657,6 +43593,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -43791,9 +43729,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "id": {
       "missing_from_base": [
@@ -44764,6 +44705,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -44898,9 +44841,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "ja": {
       "missing_from_base": [],
@@ -45868,6 +45814,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -46002,9 +45950,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.66"
+      "coverage_percentage": "2.65"
     },
     "ko": {
       "missing_from_base": [
@@ -46975,6 +46926,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -47109,9 +47062,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "ms": {
       "missing_from_base": [
@@ -48082,6 +48038,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -48216,9 +48174,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "pl": {
       "missing_from_base": [
@@ -49203,6 +49164,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -49337,9 +49300,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "1.33"
+      "coverage_percentage": "1.32"
     },
     "pt": {
       "missing_from_base": [
@@ -50324,6 +50290,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -50458,9 +50426,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "1.33"
+      "coverage_percentage": "1.32"
     },
     "ru": {
       "missing_from_base": [
@@ -51445,6 +51416,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -51579,9 +51552,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "1.33"
+      "coverage_percentage": "1.32"
     },
     "ta": {
       "missing_from_base": [
@@ -52552,6 +52528,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -52686,9 +52664,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "th": {
       "missing_from_base": [
@@ -53659,6 +53640,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -53793,9 +53776,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "vi": {
       "missing_from_base": [
@@ -54766,6 +54752,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -54900,9 +54888,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "2.57"
+      "coverage_percentage": "2.56"
     },
     "zh-CN": {
       "missing_from_base": [],
@@ -55854,6 +55845,8 @@
         "pricing.plans.custom.feature4",
         "pricing.plans.custom.feature5",
         "pricing.plans.custom.cta",
+        "pricing.plans.popularBadge",
+        "pricing.plans.ctaStyles.primary",
         "pricing.aiAddons.title",
         "pricing.aiAddons.description",
         "pricing.aiAddons.chatAI.title",
@@ -55988,9 +55981,12 @@
         "pricing.cta.trustBadge2",
         "pricing.cta.trustBadge3",
         "pricing.cta.trustBadge4",
-        "pricing.cta.urgency"
+        "pricing.cta.urgency",
+        "pricing.billingToggle.monthly",
+        "pricing.billingToggle.annually",
+        "pricing.billingToggle.save20"
       ],
-      "coverage_percentage": "4.08"
+      "coverage_percentage": "4.06"
     },
     "zh-TW": {
       "missing_from_base": [],
@@ -66531,24 +66527,6 @@
     },
     {
       "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "Pricing That Grows With You",
-      "context": "      <section className=\"pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h1 className=\"text-5xl md:text-6xl font-bold mb-6\">\n            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-      "context": "            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.\n          </p>\n          \n          {/* Billing Toggle */}\n          <div className=\"flex items-center justify-center mb-8\">",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "(Save 2 Months)",
-      "context": "            </button>\n            <span className={`ml-3 ${billingCycle === 'yearly' ? 'text-white' : 'text-blue-300'}`}>\n              Yearly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n          </div>\n        </div>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
       "text": "Contact Us",
       "context": "                    ) : plan.id === 'enterprise' ? (\n                      <div className=\"py-4\">\n                        <button className=\"bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all\">\n                          Contact Us\n                        </button>\n                      </div>\n                    ) : (\n                      <div>",
       "type": "jsx-text"
@@ -66906,11 +66884,6 @@
       "text": "Get 2 months free on annual plans + priority onboarding support!",
       "context": "            <div className=\"p-6 bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur rounded-2xl border border-white/30 animate-pulse\">\n              <p className=\"text-white font-bold text-lg\">\n                <span className=\"text-yellow-300\">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!\n              </p>\n            </div>\n          </motion.div>\n        </div>",
       "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "(Save 2 Months)",
-      "context": "rly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n      "
     },
     {
       "file": "src/seachat/pages/PricingPage.tsx",
@@ -74756,13 +74729,13 @@
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Local Numbers ($2/month each)",
-      "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
+      "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
       "type": "jsx-text"
     },
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Toll-Free Numbers ($3/month each)",
-      "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
+      "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
       "type": "jsx-text"
     },
     {
@@ -74882,13 +74855,13 @@
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Get Started with Omni-channel",
-      "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"",
+      "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"",
       "type": "jsx-text"
     },
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Talk to Sales",
-      "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
+      "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
       "type": "jsx-text"
     },
     {
@@ -74919,12 +74892,12 @@
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Local Numbers ($2/month each)",
-      "context": "           <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n            "
+      "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n            "
     },
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
       "text": "Toll-Free Numbers ($3/month each)",
-      "context": "           <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n        "
+      "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n        "
     },
     {
       "file": "src/seax/components/OmniChannelCalculator.tsx",
@@ -80570,7 +80543,7 @@
       "priority": "HIGH",
       "category": "Translation Structure",
       "title": "Add missing translation keys to base language",
-      "description": "1981 keys used in components but missing from en.json",
+      "description": "1989 keys used in components but missing from en.json",
       "action": "Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...",
       "keys": [
         "industriesData.ecommerce.benefits.0",
@@ -80605,48 +80578,39 @@
         "industriesData.financial.benefits.1",
         "industriesData.financial.benefits.2",
         "industriesData.financial.benefits.3",
-        "pricing.audienceSection.startups.features.seaChat.title",
-        "pricing.audienceSection.startups.features.seaChat.description",
-        "pricing.audienceSection.startups.features.seaVoice.title",
-        "pricing.audienceSection.startups.features.seaVoice.description",
-        "pricing.audienceSection.startups.features.seaX.title",
-        "pricing.audienceSection.startups.features.seaX.description",
+        "pricing.audienceSection.startups.seaChat.title",
+        "pricing.audienceSection.startups.seaChat.description",
+        "pricing.audienceSection.startups.seaVoice.title",
+        "pricing.audienceSection.startups.seaVoice.description",
+        "pricing.audienceSection.startups.seaX.title",
+        "pricing.audienceSection.startups.seaX.description",
         "pricing.audienceSection.startups.employeeRange",
-        "pricing.audienceSection.enterprises.title",
-        "pricing.audienceSection.enterprises.subtitle",
-        "pricing.audienceSection.enterprises.features.seaChatPremium.title",
-        "pricing.audienceSection.enterprises.features.seaChatPremium.description",
-        "pricing.audienceSection.enterprises.features.seaXProfessional.title",
-        "pricing.audienceSection.enterprises.features.seaXProfessional.description",
-        "pricing.audienceSection.enterprises.features.customEnterprise.title",
-        "pricing.audienceSection.enterprises.features.customEnterprise.description",
-        "pricing.audienceSection.enterprises.employeeRange",
         "pricing.plans.liveAgent.badge",
-        "pricing.plans.liveAgent.features.humanAgent",
-        "pricing.plans.liveAgent.features.unlimitedConversations",
-        "pricing.plans.liveAgent.features.aiTrialReplies",
-        "pricing.plans.liveAgent.features.shopifyIntegration",
+        "pricing.plans.liveAgent.humanAgent",
+        "pricing.plans.liveAgent.unlimitedConversations",
+        "pricing.plans.liveAgent.aiTrialReplies",
+        "pricing.plans.liveAgent.shopifyIntegration",
         "pricing.plans.whatsappOnly.badge",
-        "pricing.plans.whatsappOnly.features.overview",
-        "pricing.plans.whatsappOnly.features.platform",
-        "pricing.plans.whatsappOnly.features.campaignTools",
-        "pricing.plans.whatsappOnly.features.apiAccess",
-        "pricing.plans.whatsappOnly.features.unlimitedContacts",
+        "pricing.plans.whatsappOnly.overview",
+        "pricing.plans.whatsappOnly.platform",
+        "pricing.plans.whatsappOnly.campaignTools",
+        "pricing.plans.whatsappOnly.apiAccess",
+        "pricing.plans.whatsappOnly.unlimitedContacts",
         "pricing.plans.omnichannel.popularBadge",
         "pricing.plans.omnichannel.badge",
         "pricing.plans.omnichannel.firstUser",
         "pricing.plans.omnichannel.eachExtra",
-        "pricing.plans.omnichannel.features.phoneCalls",
-        "pricing.plans.omnichannel.features.agentCalls",
-        "pricing.plans.omnichannel.features.allChannels",
-        "pricing.plans.omnichannel.features.voiceSMSCampaigns",
-        "pricing.plans.omnichannel.features.apiIntegration",
+        "pricing.plans.omnichannel.phoneCalls",
+        "pricing.plans.omnichannel.agentCalls",
+        "pricing.plans.omnichannel.allChannels",
+        "pricing.plans.omnichannel.voiceSMSCampaigns",
+        "pricing.plans.omnichannel.apiIntegration",
         "pricing.plans.custom.subtitle",
-        "pricing.plans.custom.features.multipleWorkspaces",
-        "pricing.plans.custom.features.agencies",
-        "pricing.plans.custom.features.customIntegrations",
-        "pricing.plans.custom.features.hipaaCompliance",
-        "pricing.plans.custom.features.whiteLabelOptions",
+        "pricing.plans.custom.multipleWorkspaces",
+        "pricing.plans.custom.agencies",
+        "pricing.plans.custom.customIntegrations",
+        "pricing.plans.custom.hipaaCompliance",
+        "pricing.plans.custom.whiteLabelOptions",
         "pricing.aiAddOns.title",
         "pricing.aiAddOns.description",
         "pricing.aiAddOns.chatAI.title",
@@ -80664,21 +80628,21 @@
         "pricing.transparentAiPricing.chatAI.name",
         "pricing.transparentAiPricing.chatAI.price",
         "pricing.transparentAiPricing.chatAI.period",
-        "pricing.transparentAiPricing.chatAI.features.channels",
-        "pricing.transparentAiPricing.chatAI.features.automated",
-        "pricing.transparentAiPricing.chatAI.features.knowledgeBase",
+        "pricing.transparentAiPricing.chatAI.channels",
+        "pricing.transparentAiPricing.chatAI.automated",
+        "pricing.transparentAiPricing.chatAI.knowledgeBase",
         "pricing.transparentAiPricing.voiceAI.name",
         "pricing.transparentAiPricing.voiceAI.price",
         "pricing.transparentAiPricing.voiceAI.period",
-        "pricing.transparentAiPricing.voiceAI.features.calls",
-        "pricing.transparentAiPricing.voiceAI.features.conversations",
-        "pricing.transparentAiPricing.voiceAI.features.recording",
+        "pricing.transparentAiPricing.voiceAI.calls",
+        "pricing.transparentAiPricing.voiceAI.conversations",
+        "pricing.transparentAiPricing.voiceAI.recording",
         "pricing.transparentAiPricing.premiumAI.name",
         "pricing.transparentAiPricing.premiumAI.price",
         "pricing.transparentAiPricing.premiumAI.period",
-        "pricing.transparentAiPricing.premiumAI.features.reasoning",
-        "pricing.transparentAiPricing.premiumAI.features.conversations",
-        "pricing.transparentAiPricing.premiumAI.features.enterprise",
+        "pricing.transparentAiPricing.premiumAI.reasoning",
+        "pricing.transparentAiPricing.premiumAI.conversations",
+        "pricing.transparentAiPricing.premiumAI.enterprise",
         "pricing.transparentCommunicationPricing.title",
         "pricing.transparentCommunicationPricing.description",
         "pricing.transparentCommunicationPricing.sms.name",
@@ -80703,8 +80667,6 @@
         "pricing.competitorComparison.table.headers.aiCapabilities",
         "pricing.competitorComparison.table.headers.bestFor",
         "pricing.competitorComparison.table.recommended",
-        "pricing.cta.title.part1",
-        "pricing.cta.title.part2",
         "pricing.cta.stats.uptimeValue",
         "pricing.cta.stats.supportValue",
         "pricing.cta.buttons.signUp",
@@ -80714,6 +80676,25 @@
         "pricing.cta.trustBadges.cancelAnytime",
         "pricing.cta.trustBadges.freePlan",
         "pricing.cta.urgencyMessage",
+        "pricing.plans.free.name",
+        "pricing.plans.free.tagline",
+        "pricing.plans.free.description",
+        "pricing.plans.free.features.humanAgent",
+        "pricing.plans.free.features.unlimitedHumanChats",
+        "pricing.plans.free.features.unlimitedContacts",
+        "pricing.plans.free.features.unlimitedHistory",
+        "pricing.plans.free.features.exportHistory",
+        "pricing.plans.free.features.channels",
+        "pricing.plans.free.features.integrations",
+        "pricing.plans.free.features.aiAgent",
+        "pricing.plans.free.features.aiAgentModel",
+        "pricing.plans.free.features.knowledgeBase",
+        "pricing.plans.free.features.workspace",
+        "pricing.plans.free.buttonText",
+        "pricing.hero.subtitle",
+        "pricing.billing.monthly",
+        "pricing.billing.yearly",
+        "pricing.billing.save",
         "seachat.features.aiAutomation.contextAware.title",
         "seachat.features.aiAutomation.contextAware.description",
         "seachat.features.aiAutomation.learning.title",
@@ -82560,9 +82541,9 @@
       "priority": "HIGH",
       "category": "Hardcoded Strings",
       "title": "Replace hardcoded strings with translation keys",
-      "description": "Found 4315 hardcoded strings that should be internationalized",
+      "description": "Found 4311 hardcoded strings that should be internationalized",
       "action": "Review and replace hardcoded strings with t() function calls",
-      "count": 4315
+      "count": 4311
     },
     {
       "priority": "MEDIUM",
@@ -83556,6 +83537,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -83690,9 +83673,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "1.33"
+            "coverage_percentage": "1.32"
           }
         ],
         [
@@ -84680,6 +84666,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -84814,9 +84802,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "1.33"
+            "coverage_percentage": "1.32"
           }
         ],
         [
@@ -85804,6 +85795,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -85938,9 +85931,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "1.33"
+            "coverage_percentage": "1.32"
           }
         ],
         [
@@ -86914,6 +86910,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -87048,9 +87046,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -88024,6 +88025,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -88158,9 +88161,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -89134,6 +89140,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -89268,9 +89276,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -90244,6 +90255,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -90378,9 +90391,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -91354,6 +91370,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -91488,9 +91506,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -92464,6 +92485,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -92598,9 +92621,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -93574,6 +93600,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -93708,9 +93736,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -94684,6 +94715,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -94818,9 +94851,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -95794,6 +95830,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -95928,9 +95966,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -96904,6 +96945,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -97038,9 +97081,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -98014,6 +98060,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -98148,9 +98196,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.57"
+            "coverage_percentage": "2.56"
           }
         ],
         [
@@ -99121,6 +99172,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -99255,9 +99308,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.66"
+            "coverage_percentage": "2.65"
           }
         ],
         [
@@ -100228,6 +100284,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -100362,9 +100420,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "2.66"
+            "coverage_percentage": "2.65"
           }
         ],
         [
@@ -101319,6 +101380,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -101453,9 +101516,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "4.08"
+            "coverage_percentage": "4.06"
           }
         ],
         [
@@ -102410,6 +102476,8 @@
               "pricing.plans.custom.feature4",
               "pricing.plans.custom.feature5",
               "pricing.plans.custom.cta",
+              "pricing.plans.popularBadge",
+              "pricing.plans.ctaStyles.primary",
               "pricing.aiAddons.title",
               "pricing.aiAddons.description",
               "pricing.aiAddons.chatAI.title",
@@ -102544,9 +102612,12 @@
               "pricing.cta.trustBadge2",
               "pricing.cta.trustBadge3",
               "pricing.cta.trustBadge4",
-              "pricing.cta.urgency"
+              "pricing.cta.urgency",
+              "pricing.billingToggle.monthly",
+              "pricing.billingToggle.annually",
+              "pricing.billingToggle.save20"
             ],
-            "coverage_percentage": "4.08"
+            "coverage_percentage": "4.06"
           }
         ]
       ]

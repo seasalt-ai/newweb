@@ -1963,6 +1963,62 @@
       "monthly": "Billed Monthly",
       "annually": "Billed Annually",
       "save20": "Save 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Live Agent",
+        "price": "$0",
+        "period": "forever",
+        "tagline": "Truly Free, Forever. Perfect for getting started.",
+        "description": "Perfect for getting started. Unify your inbox with 1 human agent.",
+        "features": {
+          "0": "1 Human Agent",
+          "1": "Unlimited Human Agent Chats",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Basic Integrations (Shopify, etc.)",
+          "4": "Email support"
+        },
+        "cta": "Sign Up"
+      },
+      "professional": {
+        "name": "Professional",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "per month",
+        "additionalPriceAnnual": "+ $20/month for each additional agent",
+        "additionalPriceMonthly": "+ $25/month for each additional agent",
+        "tagline": "The complete, unified solution for growing businesses.",
+        "description": "Everything you need to automate and scale your customer communications.",
+        "features": {
+          "0": "Everything in Live Agent",
+          "1": "AI Automation (Voicebot & Chatbot)",
+          "2": "All Communication Channels (including Phone Calls)",
+          "3": "Outbound Marketing Campaigns",
+          "4": "CRM Integrations (HubSpot, Salesforce)",
+          "5": "Advanced analytics & reporting",
+          "6": "Priority support",
+          "7": "HIPAA compliance available"
+        },
+        "cta": "Get Started"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Let's Talk",
+        "period": "",
+        "tagline": "For teams with custom needs.",
+        "description": "For larger teams with specific needs like advanced compliance or custom integrations.",
+        "features": {
+          "0": "Everything in Professional",
+          "1": "HIPAA Compliance",
+          "2": "Custom Integrations",
+          "3": "Dedicated Account Manager",
+          "4": "Custom AI training",
+          "5": "White-label options",
+          "6": "SLA guarantees",
+          "7": "On-premise deployment options"
+        },
+        "cta": "Contact Sales"
+      }
     }
   }
 }

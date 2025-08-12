@@ -10531,24 +10531,6 @@
   },
   {
     "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "Pricing That Grows With You",
-    "context": "      <section className=\"pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h1 className=\"text-5xl md:text-6xl font-bold mb-6\">\n            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.",
-    "context": "            Pricing That Grows With You\n          </h1>\n          <p className=\"text-2xl text-blue-200 mb-8 max-w-4xl mx-auto\">\n            Start completely free with human agents, then add AI when you're ready to scale. \n            No surprises, no hidden fees, just transparent pricing.\n          </p>\n          \n          {/* Billing Toggle */}\n          <div className=\"flex items-center justify-center mb-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "(Save 2 Months)",
-    "context": "            </button>\n            <span className={`ml-3 ${billingCycle === 'yearly' ? 'text-white' : 'text-blue-300'}`}>\n              Yearly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
     "text": "Contact Us",
     "context": "                    ) : plan.id === 'enterprise' ? (\n                      <div className=\"py-4\">\n                        <button className=\"bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all\">\n                          Contact Us\n                        </button>\n                      </div>\n                    ) : (\n                      <div>",
     "type": "jsx-text"
@@ -10906,11 +10888,6 @@
     "text": "Get 2 months free on annual plans + priority onboarding support!",
     "context": "            <div className=\"p-6 bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur rounded-2xl border border-white/30 animate-pulse\">\n              <p className=\"text-white font-bold text-lg\">\n                <span className=\"text-yellow-300\">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!\n              </p>\n            </div>\n          </motion.div>\n        </div>",
     "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "(Save 2 Months)",
-    "context": "rly <span className=\"text-green-300 font-semibold\">(Save 2 Months)</span>\n            </span>\n      "
   },
   {
     "file": "src/seachat/pages/PricingPage.tsx",
@@ -18756,13 +18733,13 @@
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Local Numbers ($2/month each)",
-    "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
+    "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Toll-Free Numbers ($3/month each)",
-    "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2\">\n                  <button\n                    onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
+    "context": "            <div className=\"ml-7\">\n              <div className=\"flex items-center justify-between mb-2\">\n                <span className=\"text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n                <div className=\"flex items-center space-x-2 flex-shrink-0\">\n                    <button\n                      onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}",
     "type": "jsx-text"
   },
   {
@@ -18882,13 +18859,13 @@
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Get Started with Omni-channel",
-    "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"",
+    "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Get Started with Omni-channel\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Talk to Sales",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
+    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
     "type": "jsx-text"
   },
   {
@@ -18919,12 +18896,12 @@
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Local Numbers ($2/month each)",
-    "context": "           <span className=\"text-sm text-gray-600\">Local Numbers ($2/month each)</span>\n            "
+    "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Local Numbers ($2/month each)</span>\n            "
   },
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",
     "text": "Toll-Free Numbers ($3/month each)",
-    "context": "           <span className=\"text-sm text-gray-600\">Toll-Free Numbers ($3/month each)</span>\n        "
+    "context": "ext-gray-600 break-words hyphens-auto flex-1 mr-2\">Toll-Free Numbers ($3/month each)</span>\n        "
   },
   {
     "file": "src/seax/components/OmniChannelCalculator.tsx",

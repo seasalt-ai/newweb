@@ -162,21 +162,21 @@ const OmniChannelCalculator = () => {
             {/* Local Numbers */}
             <div className="ml-7">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm text-gray-600">Local Numbers ($2/month each)</span>
-                <div className="flex items-center space-x-2">
-                  <button
-                    onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}
-                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm"
-                  >
-                    -
-                  </button>
-                  <span className="w-8 text-center">{localNumbers}</span>
-                  <button
-                    onClick={() => setLocalNumbers(localNumbers + 1)}
-                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm"
-                  >
-                    +
-                  </button>
+                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">Local Numbers ($2/month each)</span>
+                <div className="flex items-center space-x-2 flex-shrink-0">
+                    <button
+                      onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}
+                      className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm flex-shrink-0"
+                    >
+                      -
+                    </button>
+                    <span className="w-8 text-center flex-shrink-0">{localNumbers}</span>
+                    <button
+                      onClick={() => setLocalNumbers(localNumbers + 1)}
+                      className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm flex-shrink-0"
+                    >
+                      +
+                    </button>
                 </div>
               </div>
             </div>
@@ -184,21 +184,21 @@ const OmniChannelCalculator = () => {
             {/* Toll-Free Numbers */}
             <div className="ml-7">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm text-gray-600">Toll-Free Numbers ($3/month each)</span>
-                <div className="flex items-center space-x-2">
-                  <button
-                    onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}
-                    className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm"
-                  >
-                    -
-                  </button>
-                  <span className="w-8 text-center">{tollFreeNumbers}</span>
-                  <button
-                    onClick={() => setTollFreeNumbers(tollFreeNumbers + 1)}
-                    className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm"
-                  >
-                    +
-                  </button>
+                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">Toll-Free Numbers ($3/month each)</span>
+                <div className="flex items-center space-x-2 flex-shrink-0">
+                    <button
+                      onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}
+                      className="w-8 h-8 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center text-sm flex-shrink-0"
+                    >
+                      -
+                    </button>
+                    <span className="w-8 text-center flex-shrink-0">{tollFreeNumbers}</span>
+                    <button
+                      onClick={() => setTollFreeNumbers(tollFreeNumbers + 1)}
+                      className="w-8 h-8 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center text-sm flex-shrink-0"
+                    >
+                      +
+                    </button>
                 </div>
               </div>
             </div>
@@ -421,13 +421,13 @@ const OmniChannelCalculator = () => {
           <div className="mt-8 space-y-3">
             <a
               href="https://seax.seasalt.ai/signup"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
               Get Started with Omni-channel
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
-              className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block"
+              className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
               Talk to Sales
             </a>

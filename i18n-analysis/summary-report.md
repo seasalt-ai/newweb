@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-11T04:46:39.878Z
+Generated: 2025-08-12T08:00:23.135Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 1128
-- **Components Analyzed**: 208
-- **Translation Coverage**: 29.30%
-- **Missing Keys**: 1981
-- **Hardcoded Strings Found**: 4315
+- **Base Language (en) Keys**: 1133
+- **Components Analyzed**: 209
+- **Translation Coverage**: 29.49%
+- **Missing Keys**: 1989
+- **Hardcoded Strings Found**: 4311
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 30 | 2.66% | ❌ Incomplete |
-| de | 30 | 2.57% | ❌ Incomplete |
-| en | 1128 | 100.00% | ✅ Good |
-| es | 30 | 2.57% | ❌ Incomplete |
-| fa | 46 | 4.08% | ❌ Incomplete |
-| fil | 30 | 2.57% | ❌ Incomplete |
-| fr | 30 | 2.57% | ❌ Incomplete |
-| hi | 30 | 2.57% | ❌ Incomplete |
-| id | 30 | 2.57% | ❌ Incomplete |
-| ja | 30 | 2.66% | ❌ Incomplete |
-| ko | 30 | 2.57% | ❌ Incomplete |
-| ms | 30 | 2.57% | ❌ Incomplete |
-| pl | 16 | 1.33% | ❌ Incomplete |
-| pt | 16 | 1.33% | ❌ Incomplete |
-| ru | 16 | 1.33% | ❌ Incomplete |
-| ta | 30 | 2.57% | ❌ Incomplete |
-| th | 30 | 2.57% | ❌ Incomplete |
-| vi | 30 | 2.57% | ❌ Incomplete |
-| zh-CN | 46 | 4.08% | ❌ Incomplete |
-| zh-TW | 1128 | 100.00% | ✅ Good |
+| ar | 30 | 2.65% | ❌ Incomplete |
+| de | 30 | 2.56% | ❌ Incomplete |
+| en | 1133 | 100.00% | ✅ Good |
+| es | 30 | 2.56% | ❌ Incomplete |
+| fa | 46 | 4.06% | ❌ Incomplete |
+| fil | 30 | 2.56% | ❌ Incomplete |
+| fr | 30 | 2.56% | ❌ Incomplete |
+| hi | 30 | 2.56% | ❌ Incomplete |
+| id | 30 | 2.56% | ❌ Incomplete |
+| ja | 30 | 2.65% | ❌ Incomplete |
+| ko | 30 | 2.56% | ❌ Incomplete |
+| ms | 30 | 2.56% | ❌ Incomplete |
+| pl | 16 | 1.32% | ❌ Incomplete |
+| pt | 16 | 1.32% | ❌ Incomplete |
+| ru | 16 | 1.32% | ❌ Incomplete |
+| ta | 30 | 2.56% | ❌ Incomplete |
+| th | 30 | 2.56% | ❌ Incomplete |
+| vi | 30 | 2.56% | ❌ Incomplete |
+| zh-CN | 46 | 4.06% | ❌ Incomplete |
+| zh-TW | 1133 | 100.00% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1981 keys used in components but missing from en.json
+**Description**: 1989 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 4315 hardcoded strings that should be internationalized
+**Description**: Found 4311 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -87,48 +87,39 @@ industriesData.financial.benefits.0
 industriesData.financial.benefits.1
 industriesData.financial.benefits.2
 industriesData.financial.benefits.3
-pricing.audienceSection.startups.features.seaChat.title
-pricing.audienceSection.startups.features.seaChat.description
-pricing.audienceSection.startups.features.seaVoice.title
-pricing.audienceSection.startups.features.seaVoice.description
-pricing.audienceSection.startups.features.seaX.title
-pricing.audienceSection.startups.features.seaX.description
+pricing.audienceSection.startups.seaChat.title
+pricing.audienceSection.startups.seaChat.description
+pricing.audienceSection.startups.seaVoice.title
+pricing.audienceSection.startups.seaVoice.description
+pricing.audienceSection.startups.seaX.title
+pricing.audienceSection.startups.seaX.description
 pricing.audienceSection.startups.employeeRange
-pricing.audienceSection.enterprises.title
-pricing.audienceSection.enterprises.subtitle
-pricing.audienceSection.enterprises.features.seaChatPremium.title
-pricing.audienceSection.enterprises.features.seaChatPremium.description
-pricing.audienceSection.enterprises.features.seaXProfessional.title
-pricing.audienceSection.enterprises.features.seaXProfessional.description
-pricing.audienceSection.enterprises.features.customEnterprise.title
-pricing.audienceSection.enterprises.features.customEnterprise.description
-pricing.audienceSection.enterprises.employeeRange
 pricing.plans.liveAgent.badge
-pricing.plans.liveAgent.features.humanAgent
-pricing.plans.liveAgent.features.unlimitedConversations
-pricing.plans.liveAgent.features.aiTrialReplies
-pricing.plans.liveAgent.features.shopifyIntegration
+pricing.plans.liveAgent.humanAgent
+pricing.plans.liveAgent.unlimitedConversations
+pricing.plans.liveAgent.aiTrialReplies
+pricing.plans.liveAgent.shopifyIntegration
 pricing.plans.whatsappOnly.badge
-pricing.plans.whatsappOnly.features.overview
-pricing.plans.whatsappOnly.features.platform
-pricing.plans.whatsappOnly.features.campaignTools
-pricing.plans.whatsappOnly.features.apiAccess
-pricing.plans.whatsappOnly.features.unlimitedContacts
+pricing.plans.whatsappOnly.overview
+pricing.plans.whatsappOnly.platform
+pricing.plans.whatsappOnly.campaignTools
+pricing.plans.whatsappOnly.apiAccess
+pricing.plans.whatsappOnly.unlimitedContacts
 pricing.plans.omnichannel.popularBadge
 pricing.plans.omnichannel.badge
 pricing.plans.omnichannel.firstUser
 pricing.plans.omnichannel.eachExtra
-pricing.plans.omnichannel.features.phoneCalls
-pricing.plans.omnichannel.features.agentCalls
-pricing.plans.omnichannel.features.allChannels
-pricing.plans.omnichannel.features.voiceSMSCampaigns
-pricing.plans.omnichannel.features.apiIntegration
+pricing.plans.omnichannel.phoneCalls
+pricing.plans.omnichannel.agentCalls
+pricing.plans.omnichannel.allChannels
+pricing.plans.omnichannel.voiceSMSCampaigns
+pricing.plans.omnichannel.apiIntegration
 pricing.plans.custom.subtitle
-pricing.plans.custom.features.multipleWorkspaces
-pricing.plans.custom.features.agencies
-pricing.plans.custom.features.customIntegrations
-pricing.plans.custom.features.hipaaCompliance
-pricing.plans.custom.features.whiteLabelOptions
+pricing.plans.custom.multipleWorkspaces
+pricing.plans.custom.agencies
+pricing.plans.custom.customIntegrations
+pricing.plans.custom.hipaaCompliance
+pricing.plans.custom.whiteLabelOptions
 pricing.aiAddOns.title
 pricing.aiAddOns.description
 pricing.aiAddOns.chatAI.title
@@ -146,21 +137,21 @@ pricing.transparentAiPricing.description
 pricing.transparentAiPricing.chatAI.name
 pricing.transparentAiPricing.chatAI.price
 pricing.transparentAiPricing.chatAI.period
-pricing.transparentAiPricing.chatAI.features.channels
-pricing.transparentAiPricing.chatAI.features.automated
-pricing.transparentAiPricing.chatAI.features.knowledgeBase
+pricing.transparentAiPricing.chatAI.channels
+pricing.transparentAiPricing.chatAI.automated
+pricing.transparentAiPricing.chatAI.knowledgeBase
 pricing.transparentAiPricing.voiceAI.name
 pricing.transparentAiPricing.voiceAI.price
 pricing.transparentAiPricing.voiceAI.period
-pricing.transparentAiPricing.voiceAI.features.calls
-pricing.transparentAiPricing.voiceAI.features.conversations
-pricing.transparentAiPricing.voiceAI.features.recording
+pricing.transparentAiPricing.voiceAI.calls
+pricing.transparentAiPricing.voiceAI.conversations
+pricing.transparentAiPricing.voiceAI.recording
 pricing.transparentAiPricing.premiumAI.name
 pricing.transparentAiPricing.premiumAI.price
 pricing.transparentAiPricing.premiumAI.period
-pricing.transparentAiPricing.premiumAI.features.reasoning
-pricing.transparentAiPricing.premiumAI.features.conversations
-pricing.transparentAiPricing.premiumAI.features.enterprise
+pricing.transparentAiPricing.premiumAI.reasoning
+pricing.transparentAiPricing.premiumAI.conversations
+pricing.transparentAiPricing.premiumAI.enterprise
 pricing.transparentCommunicationPricing.title
 pricing.transparentCommunicationPricing.description
 pricing.transparentCommunicationPricing.sms.name
@@ -185,8 +176,6 @@ pricing.competitorComparison.table.headers.unifiedVoiceDigital
 pricing.competitorComparison.table.headers.aiCapabilities
 pricing.competitorComparison.table.headers.bestFor
 pricing.competitorComparison.table.recommended
-pricing.cta.title.part1
-pricing.cta.title.part2
 pricing.cta.stats.uptimeValue
 pricing.cta.stats.supportValue
 pricing.cta.buttons.signUp
@@ -196,6 +185,25 @@ pricing.cta.trustBadges.quickSetup
 pricing.cta.trustBadges.cancelAnytime
 pricing.cta.trustBadges.freePlan
 pricing.cta.urgencyMessage
+pricing.plans.free.name
+pricing.plans.free.tagline
+pricing.plans.free.description
+pricing.plans.free.features.humanAgent
+pricing.plans.free.features.unlimitedHumanChats
+pricing.plans.free.features.unlimitedContacts
+pricing.plans.free.features.unlimitedHistory
+pricing.plans.free.features.exportHistory
+pricing.plans.free.features.channels
+pricing.plans.free.features.integrations
+pricing.plans.free.features.aiAgent
+pricing.plans.free.features.aiAgentModel
+pricing.plans.free.features.knowledgeBase
+pricing.plans.free.features.workspace
+pricing.plans.free.buttonText
+pricing.hero.subtitle
+pricing.billing.monthly
+pricing.billing.yearly
+pricing.billing.save
 seachat.features.aiAutomation.contextAware.title
 seachat.features.aiAutomation.contextAware.description
 seachat.features.aiAutomation.learning.title
@@ -2042,7 +2050,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 4315 potential hardcoded strings across components:
+Found 4311 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2085,7 +2093,7 @@ Found 4315 potential hardcoded strings across components:
   **Context**: `mr-2" />\n                <span className="text-sm">+1 (SMB)-AI-AGENT</span>\n              </div>\n...`
 
 
-... and 4305 more. See hardcoded-strings.json for complete list.
+... and 4301 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2093,13 +2101,13 @@ Found 4315 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1981 keys used in components but missing from en.json
+**Description**: 1989 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 4315 hardcoded strings that should be internationalized
+**Description**: Found 4311 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
