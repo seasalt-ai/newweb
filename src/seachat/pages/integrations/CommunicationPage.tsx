@@ -1,5 +1,5 @@
 import { Mail, MessageSquare, Video, Slack, CheckCircle } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { SiWhatsapp, SiKakaotalk, SiGooglechat, SiZalo } from 'react-icons/si';
 import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
@@ -204,7 +204,7 @@ const CommunicationPage = () => {
                 {t('seachat.integrations.communication.connectButton', 'Connect Communication Tools')}
               </a>
               <a
-                href="{MEETING_URL}"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block"
@@ -347,7 +347,7 @@ const CommunicationPage = () => {
               {t('seachat.integrations.communication.cta.connectButton', 'Get Started Now')}
             </a>
             <a
-              href="{MEETING_URL}"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block text-center"

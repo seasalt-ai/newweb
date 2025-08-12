@@ -1,5 +1,5 @@
 import { GraduationCap, BookOpen, Users, Calendar, MessageSquare, ArrowRight, CheckCircle } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL } from '../../../constants/urls';
 
@@ -206,7 +206,7 @@ const EducationPage = () => {
                 {t('seachat.solutions.education.trialButton', 'Start Education For Free')}
               </a>
               <a
-                href="{MEETING_URL}"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -405,7 +405,7 @@ const EducationPage = () => {
               {t('seachat.solutions.education.ctaTrialButton', 'Start Education For Free')}
             </a>
             <a
-              href="{MEETING_URL}"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

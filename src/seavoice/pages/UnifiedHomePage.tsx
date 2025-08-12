@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MEETING_URL } from '../../constants/urls';
 import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Clock, ChevronDown, Brain, Mic, Speaker } from 'lucide-react';
@@ -495,7 +495,7 @@ const UnifiedHomePage = () => {
 
               <div className="flex flex-col sm:flex-row gap-6 justify-start mb-16">
                 <motion.a 
-                  href={MEETING_URL} 
+                  href={getMeetingUrl(i18n.language)} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   whileHover={{ scale: 1.05, y: -2 }}
@@ -940,7 +940,7 @@ const UnifiedHomePage = () => {
                 Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href={MEETING_URL} target="_blank" rel="noopener noreferrer" className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
+                <a href={getMeetingUrl(i18n.language)} target="_blank" rel="noopener noreferrer" className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
                   Book a Demo
                 </a>
                 <a href="https://chat.seasalt.ai/signup" target="_blank" rel="noopener noreferrer" className="bg-purple-500 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-400 transition-colors">
@@ -1189,7 +1189,7 @@ const UnifiedHomePage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href={MEETING_URL} 
+                  href={getMeetingUrl(i18n.language)} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
@@ -1226,7 +1226,7 @@ const UnifiedHomePage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={MEETING_URL}
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

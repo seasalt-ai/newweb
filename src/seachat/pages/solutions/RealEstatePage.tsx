@@ -1,5 +1,5 @@
 import { Home, Calendar, Users, Phone, Search, ArrowRight, CheckCircle } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL } from '../../../constants/urls';
 
@@ -158,7 +158,7 @@ const RealEstatePage = () => {
                 {t('seachat.solutions.realEstate.trialButton', 'Start Real Estate For Free')}
               </a>
               <a
-                href="{MEETING_URL}"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -372,7 +372,7 @@ const RealEstatePage = () => {
               {t('seachat.solutions.realEstate.ctaTrialButton', 'Start Real Estate For Free')}
             </a>
             <a
-              href="{MEETING_URL}"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

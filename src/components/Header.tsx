@@ -26,7 +26,7 @@ import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 import ProductLogoDropdown from './ProductLogoDropdown';
 import PhoneBanner from './PhoneBanner';
 import LanguageSwitcher from './LanguageSwitcher';
-import { MEETING_URL } from '../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -253,7 +253,7 @@ const Header = () => {
                       return (
                         <a
                           key={index}
-                          href={MEETING_URL}
+                          href={getMeetingUrl(i18n.language)}
                           className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -545,7 +545,7 @@ const Header = () => {
                         return (
                           <a
                             key={index}
-                            href={MEETING_URL}
+                            href={getMeetingUrl(i18n.language)}
                             className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
                             target="_blank"
                             rel="noopener noreferrer"

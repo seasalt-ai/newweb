@@ -3,7 +3,7 @@ import { FaDiscord } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Custom WhatsApp icon component
@@ -507,7 +507,7 @@ const Footer = () => {
               Sign Up Now
             </a>
             <a
-              href={MEETING_URL}
+              href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               Schedule Demo

@@ -1,6 +1,6 @@
 import { Headphones, Bot, MessageSquareText, Megaphone, MessageCircleMore, MessageSquare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const UseCases = () => {
   const { t } = useTranslation();
@@ -180,7 +180,7 @@ title: t('useCases.aiSupport.title'),
                {t('useCases.cta.signUp')}
             </a>
             <a
-              href={MEETING_URL} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+              href={getMeetingUrl(currentLanguage)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
               {t('useCases.cta.bookDemo')}
             </a>

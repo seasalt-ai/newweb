@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import Footer from '../../components/Footer';
 import { MEETING_URL } from '../../../constants/urls';
 import SEOHelmet from '../../../components/SEOHelmet';
@@ -96,7 +96,7 @@ const AppointmentReminders = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={MEETING_URL}
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
@@ -224,7 +224,7 @@ const AppointmentReminders = () => {
           </p>
           
           <a
-            href={MEETING_URL}
+            href={getMeetingUrl(currentLanguage)}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"

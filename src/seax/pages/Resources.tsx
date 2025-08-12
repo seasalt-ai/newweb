@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL } from '../../constants/urls';
 import { Link } from 'react-router-dom';
@@ -176,7 +176,7 @@ const Resources = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={MEETING_URL}
+              href={getMeetingUrl(currentLanguage)}
               className="bg-indigo-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2"
             >
               <span>Get Support</span>

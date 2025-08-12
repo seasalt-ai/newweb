@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2, ChevronDown } from 'lucide-react';
 import { MEETING_URL } from '../../constants/urls';
 import { FaDiscord } from 'react-icons/fa';
@@ -452,7 +452,7 @@ const Footer = () => {
               Get Started Free
             </a>
             <a
-              href={MEETING_URL}
+              href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               Book a Demo

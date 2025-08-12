@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const SmeOwners = () => {
   const { i18n } = useTranslation();
@@ -173,7 +173,7 @@ const SmeOwners = () => {
                     Get Your AI Assistant
                   </a>
                   <a
-                     href={MEETING_URL} className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                     href={getMeetingUrl(i18n.language)} className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Book A Demo
                   </a>
@@ -375,7 +375,7 @@ const SmeOwners = () => {
                 Start Your Free Trial
               </a>
               <a
-                href={MEETING_URL}
+                href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 Schedule Personal Demo

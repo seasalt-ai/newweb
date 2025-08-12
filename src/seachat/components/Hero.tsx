@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { RefreshCw } from 'lucide-react';
 import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
@@ -185,7 +185,7 @@ const Hero = () => {
                   {t('seachat.hero.startFree')}
                 </button>
               </a>
-              <a href="{MEETING_URL}" className="block">
+              <a href={getMeetingUrl(currentLanguage)} className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
                   {t('seachat.hero.exploreAI')}
                 </button>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, Star, AlertTriangle, X } from 'lucide-react';
 import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
@@ -413,7 +413,7 @@ const FeatureComparison = () => {
                 {t('seachat.featureComparison.startFree', 'Start Free Now')}
               </a>
               <a
-                href="{MEETING_URL}"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all"

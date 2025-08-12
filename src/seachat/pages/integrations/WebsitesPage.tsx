@@ -1,5 +1,5 @@
 import { Globe, Zap, CheckCircle, ArrowRight, Copy, ExternalLink } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { SiWordpress, SiShopify, SiWix, SiSquarespace, SiWebflow } from 'react-icons/si';
 import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
@@ -153,7 +153,7 @@ const WebsitesPage = () => {
               <a href="https://chat.seasalt.ai/gpt/signup" className="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
                 {t('seachat.integrations.websites.codeButton', 'Get Widget Code')}
               </a>
-              <a href="{MEETING_URL}" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+              <a href={getMeetingUrl(currentLanguage)} className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
                 {t('seachat.integrations.websites.demoButton', 'Schedule Demo')}
               </a>
             </div>
