@@ -3,7 +3,7 @@ import { Monitor, Zap, Users, BarChart3, ArrowLeft, Code, Palette } from 'lucide
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteChat = () => {
   // Scroll to top when component mounts
@@ -93,7 +93,7 @@ const WebsiteChat = () => {
                     Get Your Free Widget
                   </a>
                   <a
-                    href={MEETING_URL} className="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                    href={getMeetingUrl(i18n.language)} className="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Book A Demo
                   </a>

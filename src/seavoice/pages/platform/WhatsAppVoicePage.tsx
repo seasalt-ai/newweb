@@ -1,8 +1,8 @@
 
 import { motion } from 'framer-motion';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { MessageSquare, Globe, Users, Shield, CheckCircle, Smartphone } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 
 const WhatsAppVoicePage = () => {
   const features = [
@@ -400,7 +400,7 @@ const WhatsAppVoicePage = () => {
                 </motion.button>
               </a>
               <a
-                href={MEETING_URL}
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

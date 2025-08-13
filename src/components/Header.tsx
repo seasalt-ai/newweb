@@ -26,7 +26,7 @@ import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 import ProductLogoDropdown from './ProductLogoDropdown';
 import PhoneBanner from './PhoneBanner';
 import LanguageSwitcher from './LanguageSwitcher';
-import { MEETING_URL, getMeetingUrl } from '../constants/urls';
+import { getMeetingUrl } from '../constants/urls';
 
 const Header = () => {
   const { t, i18n } = useTranslation();

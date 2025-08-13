@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, Zap, ArrowRight, MessageSquare, Bot, Users, Clock, Globe, Shield } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import SupportPlan from '../../components/SupportPlan';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
@@ -740,7 +740,7 @@ const PricingPage = () => {
           </p>
           <div className="flex justify-center">
             <a 
-              href="{MEETING_URL}" 
+              href={getMeetingUrl(i18n.language)} 
               target="_blank" 
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
@@ -901,7 +901,7 @@ const PricingPage = () => {
             </a>
             
             <a
-              href="{MEETING_URL}"
+              href={getMeetingUrl(i18n.language)}
               className="inline-flex items-center px-8 py-4 text-xl font-semibold text-white border-2 border-white rounded-2xl hover:bg-white hover:text-indigo-900 transition-all duration-300 transform hover:scale-105"
             >
               <MessageSquare className="w-6 h-6 mr-3" />

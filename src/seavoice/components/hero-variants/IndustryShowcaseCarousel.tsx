@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Utensils, Building, Heart, ChevronLeft, ChevronRight, ArrowRight, Star, TrendingUp } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 
 const IndustryShowcaseCarousel = () => {
   const showcases = [
@@ -166,7 +166,7 @@ const IndustryShowcaseCarousel = () => {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
-                    href={MEETING_URL}
+                    href={getMeetingUrl(i18n.language)}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}

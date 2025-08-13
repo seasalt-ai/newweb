@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { getProducts } from '../data/productsData';
 import { getSolutions } from '../data/solutionsData';
 import { getIndustries } from '../data/industriesData';
-import { MEETING_URL, getMeetingUrl } from '../constants/urls';
+import { getMeetingUrl } from '../constants/urls';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();

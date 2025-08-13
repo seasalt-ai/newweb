@@ -1,12 +1,12 @@
 
 import { motion } from 'framer-motion';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, X } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import SupportPlan from '../../components/SupportPlan';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import PriceCalculator from '../components/PriceCalculator';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
   const plans = [
@@ -380,7 +380,7 @@ const PricingPage = () => {
                 </motion.button>
               </a>
               <a
-                href={MEETING_URL}
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

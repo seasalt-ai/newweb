@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Phone, Users, Clock, BarChart3, Globe, ArrowRight, Activity } from 'lucide-react';
-import { MEETING_URL } from '../../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 
 const InteractiveCallDashboard = () => {
   const [activeCalls, setActiveCalls] = useState(247);
@@ -102,7 +102,7 @@ const InteractiveCallDashboard = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href={MEETING_URL}
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
