@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteWidget = () => {
   const { i18n } = useTranslation();
@@ -124,7 +125,7 @@ const WebsiteWidget = () => {
                     Deploy Widget Now
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                    href={getMeetingUrl(currentLanguage)} className="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     Book A Demo
                   </a>

@@ -1,9 +1,11 @@
 import { MessageSquare, Phone, MessageCircle, Megaphone } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import { useState, useEffect } from 'react';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const [animationPhase, setAnimationPhase] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -52,7 +54,7 @@ const Hero = () => {
                   {t('hero.signUp')}
                 </a>
                 <a
-                   href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                   href={getMeetingUrl(currentLanguage)} className="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                 >
                   {t('hero.seeDemo')}
                 </a>

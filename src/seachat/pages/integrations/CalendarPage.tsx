@@ -1,8 +1,9 @@
 import { Calendar, Clock, Users, Video, CheckCircle, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const CalendarPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const platforms = [
     {
@@ -211,7 +212,7 @@ const CalendarPage = () => {
                 {t('seachat.integrations.calendar.connectButton', 'Connect Calendar')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"

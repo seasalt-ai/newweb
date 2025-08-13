@@ -1,8 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { Phone, Smartphone, Globe, Shield, Clock, CheckCircle } from 'lucide-react';
-
 const LandlineMobilePage = () => {
+  const { i18n } = useTranslation();
   const features = [
     {
       icon: Phone,
@@ -267,7 +268,7 @@ const LandlineMobilePage = () => {
               Connect your landline and mobile infrastructure with AI voice agents in minutes
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={getMeetingUrl(i18n.language)}
               target="_blank"
               rel="noopener noreferrer"
             >

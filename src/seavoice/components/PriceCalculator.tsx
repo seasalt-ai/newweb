@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
 import { Calculator, Phone, Clock, Users } from 'lucide-react';
-
 const PriceCalculator = () => {
+  const { i18n } = useTranslation();
   const [planType, setPlanType] = useState<'inbound' | 'inbound-outbound'>('inbound');
   const [localNumbers, setLocalNumbers] = useState(1);
   const [tollFreeNumbers, setTollFreeNumbers] = useState(0);
@@ -257,7 +259,7 @@ const PriceCalculator = () => {
                   Get Started with {planType === 'inbound' ? 'Inbound Only' : 'Inbound + Outbound'}
                 </a>
                 <a
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                  href={getMeetingUrl(i18n.language)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-4 px-6 rounded-lg font-semibold text-gray-700 bg-white border-2 border-gray-300 text-center inline-block transition-all hover:border-gray-400"

@@ -1,8 +1,9 @@
 import { Home, Calendar, Users, Phone, Search, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const RealEstatePage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const features = [
     {
@@ -156,7 +157,7 @@ const RealEstatePage = () => {
                 {t('seachat.solutions.realEstate.trialButton', 'Start Real Estate For Free')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -370,7 +371,7 @@ const RealEstatePage = () => {
               {t('seachat.solutions.realEstate.ctaTrialButton', 'Start Real Estate For Free')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

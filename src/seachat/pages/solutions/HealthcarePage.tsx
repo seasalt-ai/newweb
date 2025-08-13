@@ -1,8 +1,9 @@
 import { Heart, Shield, Users, Phone, Calendar, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const HealthcarePage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const features = [
     {
@@ -128,7 +129,7 @@ const HealthcarePage = () => {
                 {t('seachat.solutions.healthcare.trialButton', 'Start Healthcare For Free')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-teal-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -320,7 +321,7 @@ const HealthcarePage = () => {
               {t('seachat.solutions.healthcare.ctaTrialButton', 'Start Healthcare For Free')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

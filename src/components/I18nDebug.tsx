@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const I18nDebug: React.FC = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   // Only show in development
   if (process.env.NODE_ENV !== 'development') {

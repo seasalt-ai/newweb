@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Utensils, Building, Heart, ChevronLeft, ChevronRight, ArrowRight, Star, TrendingUp } from 'lucide-react';
-
 const IndustryShowcaseCarousel = () => {
+  const { i18n } = useTranslation();
   const showcases = [
     {
       id: 'restaurant',
@@ -163,7 +165,7 @@ const IndustryShowcaseCarousel = () => {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                    href={getMeetingUrl(i18n.language)}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}

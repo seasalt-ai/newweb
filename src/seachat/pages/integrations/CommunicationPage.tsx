@@ -1,9 +1,10 @@
 import { Mail, MessageSquare, Video, Slack, CheckCircle } from 'lucide-react';
 import { SiWhatsapp, SiKakaotalk, SiGooglechat, SiZalo } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const CommunicationPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const platforms = [
     {
@@ -201,7 +202,7 @@ const CommunicationPage = () => {
                 {t('seachat.integrations.communication.connectButton', 'Connect Communication Tools')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(currentLanguage)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block"
@@ -344,7 +345,7 @@ const CommunicationPage = () => {
               {t('seachat.integrations.communication.cta.connectButton', 'Get Started Now')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all inline-block text-center"

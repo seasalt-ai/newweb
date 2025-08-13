@@ -1,8 +1,9 @@
 import { ShoppingBag, TrendingUp, Clock, Users, Star, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const EcommerceSolutionPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const features = [
     {
@@ -132,7 +133,7 @@ const EcommerceSolutionPage = () => {
               {t('seachat.solutions.ecommerce.trialButton', 'Start E-commerce For Free')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
@@ -327,7 +328,7 @@ const EcommerceSolutionPage = () => {
               {t('seachat.solutions.ecommerce.ctaTrialButton', 'Start E-commerce For Free')}
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"

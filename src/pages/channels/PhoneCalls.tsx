@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PhoneCalls = () => {
   const { i18n } = useTranslation();
@@ -93,7 +94,7 @@ const PhoneCalls = () => {
                     Start Making Calls Today
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    href={getMeetingUrl(i18n.language)}
                     className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     See Demo

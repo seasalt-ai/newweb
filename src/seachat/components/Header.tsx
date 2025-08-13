@@ -43,6 +43,7 @@ const Header = () => {
   });
   const location = useLocation();
   const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const { createLink } = useLanguageAwareLinks();
   
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);

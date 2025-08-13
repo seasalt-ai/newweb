@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -9,7 +10,6 @@ import ScaleComparison from '../components/ScaleComparison';
 import RealTimeDashboard from '../components/RealTimeDashboard';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MessageSquare, Phone, Zap, TrendingUp, Target, CheckCircle, Star, ArrowRight, BarChart3, Users, Upload, Smartphone, Send } from 'lucide-react';
-
 const SeaXHome = () => {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
@@ -445,7 +445,7 @@ const SeaXHome = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={getMeetingUrl(currentLanguage)}
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center space-x-2"
             >
               <span>Request a Personalized Demo</span>

@@ -3,10 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle, Smartphone, Phone, Send } from 'lucide-react';
-
 const HowItWorks = () => {
   const { i18n: _i18n } = useTranslation();
+  const currentLanguage = _i18n.language;
 
   const steps = [
     {
@@ -321,7 +322,7 @@ const HowItWorks = () => {
             </a>
             
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"

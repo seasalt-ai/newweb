@@ -26,9 +26,11 @@ import { useLanguageAwareLinks } from '../hooks/useLanguageAwareLinks';
 import ProductLogoDropdown from './ProductLogoDropdown';
 import PhoneBanner from './PhoneBanner';
 import LanguageSwitcher from './LanguageSwitcher';
+import { getMeetingUrl } from '../constants/urls';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const { createLink } = useLanguageAwareLinks();
   const industries = getIndustries(t);
   const solutions = getSolutions(t);
@@ -252,7 +254,7 @@ const Header = () => {
                       return (
                         <a
                           key={index}
-                          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                          href={getMeetingUrl(i18n.language)}
                           className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -544,7 +546,7 @@ const Header = () => {
                         return (
                           <a
                             key={index}
-                            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                            href={getMeetingUrl(i18n.language)}
                             className="flex items-center py-2 text-sm text-gray-600 hover:text-gray-900 min-h-touch"
                             target="_blank"
                             rel="noopener noreferrer"

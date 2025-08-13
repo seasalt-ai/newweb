@@ -1,10 +1,12 @@
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
 import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones } from 'lucide-react';
 import VoiceDemo from '../components/VoiceDemo';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
-
 const HomePage = () => {
+  const { i18n } = useTranslation();
 
   const platformSteps = [
     {
@@ -350,7 +352,7 @@ const HomePage = () => {
               Get a personalized demo and discover how SeaVoice can transform your customer communications
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={getMeetingUrl(i18n.language)}
               target="_blank"
               rel="noopener noreferrer"
             >

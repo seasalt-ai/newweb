@@ -1,9 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegComments, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegStar, FaRegCalendarPlus, FaRegCalendarCheck, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown } from 'react-icons/fa';
 import SEOHelmet from '../components/SEOHelmet';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
-const SeaHealth = () => (
+const SeaHealth = () => {
+  const { i18n } = useTranslation();
+  
+  return (
   <div className="min-h-screen bg-white flex flex-col">
     <SEOHelmet 
       title="SeaHealth - AI-Powered Communication for Healthcare"
@@ -33,7 +38,7 @@ const SeaHealth = () => (
               <span className="text-2xl md:text-2xl text-center leading-snug break-words">Front Office Call Analytics</span>
             </li>
           </ul>
-          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
+          <a href={getMeetingUrl(i18n.language)} target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
           <p className="text-lg md:text-xl text-blue-800 drop-shadow-lg animate-fade-in-up delay-300">AI-powered front office for healthcare. Never miss a call, complaint, or appointment again.</p>
         </div>
         <style>{`
@@ -317,11 +322,12 @@ const SeaHealth = () => (
       {/* Final CTA */}
       <section className="py-16 bg-white text-center">
         <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">Ready to transform patient interactions?</h2>
-        <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
+        <a href={getMeetingUrl(i18n.language)} target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
       </section>
     </main>
     <Footer />
   </div>
-);
+  );
+};
 
 export default SeaHealth;

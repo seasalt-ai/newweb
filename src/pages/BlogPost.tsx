@@ -8,6 +8,7 @@ import { loadBlogPostByUrlPath, BlogPost } from '../utils/markdown';
 import SEOHelmet from '../components/SEOHelmet';
 import { LANGUAGE_DETAILS } from '../constants/languages';
 import BlogTableOfContents from '../components/BlogTableOfContents';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 // Helper function to create a structured data for blog post
 const createArticleStructuredData = (post: BlogPost) => {
@@ -350,7 +351,7 @@ const BlogPostPage = () => {
                  Sign Up
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
               >
                 Schedule Demo
