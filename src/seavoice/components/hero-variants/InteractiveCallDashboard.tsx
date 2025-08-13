@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Phone, Users, Clock, BarChart3, Globe, ArrowRight, Activity } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
-
 const InteractiveCallDashboard = () => {
+  const { i18n } = useTranslation();
   const [activeCalls, setActiveCalls] = useState(247);
   const [queueTime, setQueueTime] = useState(0.3);
   const [resolutionRate, setResolutionRate] = useState(94);

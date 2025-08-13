@@ -1,13 +1,12 @@
 import Header from '../../components/Header';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import Footer from '../../components/Footer';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import SEOHelmet from '../../../components/SEOHelmet';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 
 const SolutionsOverview = () => {
+  const { i18n } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">

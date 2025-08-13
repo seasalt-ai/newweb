@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const [animationPhase, setAnimationPhase] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 

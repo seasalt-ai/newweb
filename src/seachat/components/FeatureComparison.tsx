@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, Star, AlertTriangle, X } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../constants/urls';
 
 const FeatureComparison = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const [showAllFeatures] = useState(true);
 
   // Company logo mapping

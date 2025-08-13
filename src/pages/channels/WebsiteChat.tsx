@@ -1,11 +1,14 @@
 import { useEffect } from 'react';
 import { Monitor, Zap, Users, BarChart3, ArrowLeft, Code, Palette } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteChat = () => {
+  const { i18n } = useTranslation();
+  
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);

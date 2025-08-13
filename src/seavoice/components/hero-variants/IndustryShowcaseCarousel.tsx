@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Utensils, Building, Heart, ChevronLeft, ChevronRight, ArrowRight, Star, TrendingUp } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
-
 const IndustryShowcaseCarousel = () => {
+  const { i18n } = useTranslation();
   const showcases = [
     {
       id: 'restaurant',

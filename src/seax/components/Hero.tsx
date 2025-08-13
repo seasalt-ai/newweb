@@ -6,7 +6,7 @@ import MassCommunicationFlow from './MassCommunicationFlow';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const Hero = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [, setIsVideoPlaying] = useState(false);
   const [messagesSent, setMessagesSent] = useState(2456789);
   const [delivered, setDelivered] = useState(2389654);
@@ -84,7 +84,7 @@ const Hero = () => {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href={getMeetingUrl(currentLanguage)}
+                href={getMeetingUrl(i18n.language)}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
               >
                 <span>Book a Demo</span>

@@ -1,14 +1,13 @@
 
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, X } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import PriceCalculator from '../components/PriceCalculator';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
+  const { i18n } = useTranslation();
   const plans = [
     {
       name: 'Inbound Only',
@@ -94,7 +93,7 @@ const PricingPage = () => {
       ],
       limitations: [],
       cta: 'Contact Us',
-      ctaUrl: '{MEETING_URL}',
+      ctaUrl: getMeetingUrl(i18n.language),
       popular: false,
       cardStyle: 'bg-gradient-to-br from-green-400 to-green-600 text-white',
       buttonStyle: 'bg-green-600 hover:bg-green-700 text-white',

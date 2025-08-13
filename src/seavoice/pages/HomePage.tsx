@@ -1,15 +1,12 @@
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Phone, Brain, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import VoiceDemo from '../components/VoiceDemo';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
-
 const HomePage = () => {
+  const { i18n } = useTranslation();
 
   const platformSteps = [
     {

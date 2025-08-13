@@ -1,11 +1,10 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Calculator, Phone, Clock, Users } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
-
 const PriceCalculator = () => {
+  const { i18n } = useTranslation();
   const [planType, setPlanType] = useState<'inbound' | 'inbound-outbound'>('inbound');
   const [localNumbers, setLocalNumbers] = useState(1);
   const [tollFreeNumbers, setTollFreeNumbers] = useState(0);

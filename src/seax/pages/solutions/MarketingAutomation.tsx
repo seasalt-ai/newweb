@@ -7,6 +7,7 @@ import { ArrowRight, Zap, Clock, Users, BarChart3, MessageSquare, Settings } fro
 
 const MarketingAutomation = () => {
   const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const _currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${_currentLanguage}/seax${path}`;
 

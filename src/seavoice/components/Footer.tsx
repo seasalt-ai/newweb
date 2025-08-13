@@ -1,17 +1,10 @@
 import { Link } from 'react-router-dom';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2, ChevronDown } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
 import { FaDiscord } from 'react-icons/fa';
-import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { useState } from 'react';
-import { MEETING_URL } from '../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL } from '../../constants/urls';
-
-
 const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;

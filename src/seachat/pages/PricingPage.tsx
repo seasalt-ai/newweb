@@ -1,13 +1,12 @@
 import { useState } from 'react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Check, Zap, ArrowRight, MessageSquare, Bot, Users, Clock, Globe, Shield } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
+  const { i18n } = useTranslation();
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);

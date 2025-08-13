@@ -30,6 +30,7 @@ import { getMeetingUrl } from '../constants/urls';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const { createLink } = useLanguageAwareLinks();
   const industries = getIndustries(t);
   const solutions = getSolutions(t);

@@ -1,14 +1,9 @@
 import Header from '../components/Header';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import SEOHelmet from '../../components/SEOHelmet';
-import { MEETING_URL } from '../../constants/urls';
 import { Link } from 'react-router-dom';
-import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { ArrowRight, Book, FileText, Video, MessageSquare, Download, ExternalLink, Users } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
-
 const Resources = () => {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;

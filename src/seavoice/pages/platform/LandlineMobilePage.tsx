@@ -1,10 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Phone, Smartphone, Globe, Shield, Clock, CheckCircle } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
-
 const LandlineMobilePage = () => {
+  const { i18n } = useTranslation();
   const features = [
     {
       icon: Phone,

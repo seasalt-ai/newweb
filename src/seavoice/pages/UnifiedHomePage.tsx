@@ -1,20 +1,12 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MEETING_URL } from '../../constants/urls';
 import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones, Building2, Zap, Clock, ChevronDown, Brain, Mic, Speaker } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
 import { useNavigate, useParams } from 'react-router-dom';
-import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import VoiceDemo from '../components/VoiceDemo';
-import { MEETING_URL } from '../../constants/urls';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
-import { MEETING_URL } from '../../constants/urls';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
-import { MEETING_URL } from '../../constants/urls';
-
 const UnifiedHomePage = () => {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();

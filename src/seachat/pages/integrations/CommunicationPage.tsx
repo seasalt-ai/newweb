@@ -1,12 +1,10 @@
 import { Mail, MessageSquare, Video, Slack, CheckCircle } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { SiWhatsapp, SiKakaotalk, SiGooglechat, SiZalo } from 'react-icons/si';
-import { MEETING_URL } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../../constants/urls';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const CommunicationPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const platforms = [
     {

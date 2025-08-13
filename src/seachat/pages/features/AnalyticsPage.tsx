@@ -1,10 +1,9 @@
 import { BarChart3, TrendingUp, Users, Clock, Target, Eye } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../../constants/urls';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const AnalyticsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const metrics = [
     {

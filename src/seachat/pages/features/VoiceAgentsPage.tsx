@@ -1,10 +1,9 @@
 import { Phone, Mic, Volume2, Clock, Globe, Brain, ArrowRight, Play } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../../constants/urls';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const VoiceAgentsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   // Get features list with safety check
   const getFeaturesList = () => {

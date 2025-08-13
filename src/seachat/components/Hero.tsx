@@ -1,26 +1,19 @@
 import { useState, useEffect } from 'react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { RefreshCw } from 'lucide-react';
-import { MEETING_URL } from '../../constants/urls';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL } from '../../constants/urls';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 // Import all animation components
 import MultiChannelFlow from './hero-animations/MultiChannelFlow';
-import { MEETING_URL } from '../../constants/urls';
 import AgentToAI from './hero-animations/AgentToAI';
-import { MEETING_URL } from '../../constants/urls';
 import RealtimeDashboard from './hero-animations/RealtimeDashboard';
-import { MEETING_URL } from '../../constants/urls';
 import InteractiveChannels from './hero-animations/InteractiveChannels';
-import { MEETING_URL } from '../../constants/urls';
 import ConversationLearning from './hero-animations/ConversationLearning';
-import { MEETING_URL } from '../../constants/urls';
 import PhoneVoiceAI from './hero-animations/PhoneVoiceAI';
-import { MEETING_URL } from '../../constants/urls';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const [activeAnimation, setActiveAnimation] = useState<string>('phoneVoice');
   const [autoRotate, setAutoRotate] = useState(true);

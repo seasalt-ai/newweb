@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Calculator, Users, Phone, MessageSquare, Info } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const OmniChannelCalculator = () => {
+  const { i18n } = useTranslation();
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
   const [users, setUsers] = useState(1);
   const [localNumbers, setLocalNumbers] = useState(1);

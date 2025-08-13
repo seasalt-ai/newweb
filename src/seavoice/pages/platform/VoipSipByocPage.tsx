@@ -1,10 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { Network, Server, Shield, Zap, Globe, Settings } from 'lucide-react';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
-
 const VoipSipByocPage = () => {
+  const { i18n } = useTranslation();
   const connectionTypes = [
     {
       icon: Network,
