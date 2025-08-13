@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-12T16:42:13.376Z
+Generated: 2025-08-13T03:03:41.265Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 1493
+- **Base Language (en) Keys**: 1533
 - **Components Analyzed**: 209
-- **Translation Coverage**: 40.43%
-- **Missing Keys**: 1895
-- **Hardcoded Strings Found**: 4109
+- **Translation Coverage**: 39.68%
+- **Missing Keys**: 1950
+- **Hardcoded Strings Found**: 4136
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 30 | 2.01% | ❌ Incomplete |
-| de | 30 | 1.94% | ❌ Incomplete |
-| en | 1493 | 100.00% | ✅ Good |
-| es | 30 | 1.94% | ❌ Incomplete |
-| fa | 46 | 3.08% | ❌ Incomplete |
-| fil | 30 | 1.94% | ❌ Incomplete |
-| fr | 30 | 1.94% | ❌ Incomplete |
-| hi | 30 | 1.94% | ❌ Incomplete |
-| id | 30 | 1.94% | ❌ Incomplete |
-| ja | 30 | 2.01% | ❌ Incomplete |
-| ko | 30 | 1.94% | ❌ Incomplete |
-| ms | 30 | 1.94% | ❌ Incomplete |
-| pl | 16 | 1.00% | ❌ Incomplete |
-| pt | 16 | 1.00% | ❌ Incomplete |
-| ru | 16 | 1.00% | ❌ Incomplete |
-| ta | 30 | 1.94% | ❌ Incomplete |
-| th | 30 | 1.94% | ❌ Incomplete |
-| vi | 30 | 1.94% | ❌ Incomplete |
-| zh-CN | 46 | 3.08% | ❌ Incomplete |
-| zh-TW | 1493 | 99.93% | ✅ Good |
+| ar | 30 | 1.04% | ❌ Incomplete |
+| de | 30 | 0.98% | ❌ Incomplete |
+| en | 1533 | 100.00% | ✅ Good |
+| es | 30 | 0.98% | ❌ Incomplete |
+| fa | 46 | 2.09% | ❌ Incomplete |
+| fil | 30 | 0.98% | ❌ Incomplete |
+| fr | 30 | 0.98% | ❌ Incomplete |
+| hi | 30 | 0.98% | ❌ Incomplete |
+| id | 30 | 0.98% | ❌ Incomplete |
+| ja | 30 | 1.04% | ❌ Incomplete |
+| ko | 30 | 0.98% | ❌ Incomplete |
+| ms | 30 | 0.98% | ❌ Incomplete |
+| pl | 16 | 0.98% | ❌ Incomplete |
+| pt | 16 | 0.98% | ❌ Incomplete |
+| ru | 16 | 0.98% | ❌ Incomplete |
+| ta | 30 | 0.98% | ❌ Incomplete |
+| th | 30 | 0.98% | ❌ Incomplete |
+| vi | 30 | 0.98% | ❌ Incomplete |
+| zh-CN | 46 | 2.09% | ❌ Incomplete |
+| zh-TW | 1573 | 98.76% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1895 keys used in components but missing from en.json
-**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
+**Description**: 1950 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 4109 hardcoded strings that should be internationalized
+**Description**: Found 4136 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -55,6 +55,61 @@ Generated: 2025-08-12T16:42:13.376Z
 The following keys are used in components but missing from the base language file:
 
 ```
+comparison.competitors.seasalt.startingPrice
+comparison.competitors.seasalt.pricingModel
+comparison.competitors.seasalt.unifiedVoiceDigital
+comparison.competitors.seasalt.aiCapabilities
+comparison.competitors.seasalt.bestFor
+comparison.competitors.aircall.startingPrice
+comparison.competitors.aircall.pricingModel
+comparison.competitors.aircall.unifiedVoiceDigital
+comparison.competitors.aircall.aiCapabilities
+comparison.competitors.aircall.bestFor
+comparison.competitors.ringcentral.startingPrice
+comparison.competitors.ringcentral.pricingModel
+comparison.competitors.ringcentral.unifiedVoiceDigital
+comparison.competitors.ringcentral.aiCapabilities
+comparison.competitors.ringcentral.bestFor
+comparison.competitors.genesys.startingPrice
+comparison.competitors.genesys.pricingModel
+comparison.competitors.genesys.unifiedVoiceDigital
+comparison.competitors.genesys.aiCapabilities
+comparison.competitors.genesys.bestFor
+comparison.competitors.five9.startingPrice
+comparison.competitors.five9.pricingModel
+comparison.competitors.five9.unifiedVoiceDigital
+comparison.competitors.five9.aiCapabilities
+comparison.competitors.five9.bestFor
+comparison.competitors.googleVoice.startingPrice
+comparison.competitors.googleVoice.pricingModel
+comparison.competitors.googleVoice.unifiedVoiceDigital
+comparison.competitors.googleVoice.aiCapabilities
+comparison.competitors.googleVoice.bestFor
+comparison.title
+comparison.description
+comparison.table.headers.platform
+comparison.table.headers.startingPrice
+comparison.table.headers.pricingModel
+comparison.table.headers.unifiedVoiceDigital
+comparison.table.headers.aiCapabilities
+comparison.table.headers.bestFor
+comparison.recommended
+comparison.cta.seeAllComparisons
+footer.tagline
+footer.seahealth
+footer.company.title
+footer.productWiki
+footer.apiReferences
+footer.company.careers
+footer.company.about
+footer.copyright
+footer.privacyPolicy
+footer.termsOfService
+footer.compliance.hipaa
+footer.compliance.uptime
+footer.cta.title
+footer.cta.startFreeTrial
+footer.cta.scheduleDemo
 industriesData.ecommerce.benefits.0
 industriesData.ecommerce.benefits.1
 industriesData.ecommerce.benefits.2
@@ -1956,7 +2011,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 4109 potential hardcoded strings across components:
+Found 4136 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -1999,7 +2054,7 @@ Found 4109 potential hardcoded strings across components:
   **Context**: `mr-2" />\n                <span className="text-sm">+1 (SMB)-AI-AGENT</span>\n              </div>\n...`
 
 
-... and 4099 more. See hardcoded-strings.json for complete list.
+... and 4126 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2007,20 +2062,20 @@ Found 4109 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1895 keys used in components but missing from en.json
-**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
+**Description**: 1950 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 4109 hardcoded strings that should be internationalized
+**Description**: Found 4136 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
 ### 3. Complete translations for under-covered languages (MEDIUM Priority)
 **Category**: Translation Completeness
 **Description**: 18 languages have less than 80% translation coverage
-**Action**: Priority languages to complete: pl, pt, ru
+**Action**: Priority languages to complete: de, es, fil
 
 
 ### 4. Organize translations by page/component sections (MEDIUM Priority)

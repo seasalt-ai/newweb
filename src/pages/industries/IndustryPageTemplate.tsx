@@ -8,28 +8,27 @@ import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 interface IndustryPageTemplateProps {
+  title: string;
+  headline: string;
+  benefits: string[];
   color: string;
   bgColor: string;
   borderColor: string;
   icon: React.ComponentType<{ className?: string }>;
-  industryKey: string;
   showSeaHealthLink?: boolean;
 }
 
 const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
+  title,
+  headline,
+  benefits,
   color,
   bgColor,
   borderColor,
   icon: Icon,
-  industryKey,
   showSeaHealthLink = false
 }) => {
   const { t, i18n } = useTranslation();
-  
-  // Get industry-specific data from i18n
-  const title = t(`industriesData.${industryKey}.title`);
-  const headline = t(`industriesData.${industryKey}.headline`);
-  const benefits = t(`industriesData.${industryKey}.benefits`, { returnObjects: true }) as string[];
   
   // Scroll to top when component mounts
   useEffect(() => {
