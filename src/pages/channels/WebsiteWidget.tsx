@@ -8,6 +8,7 @@ import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteWidget = () => {
   const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   // Scroll to top when component mounts
   useEffect(() => {
