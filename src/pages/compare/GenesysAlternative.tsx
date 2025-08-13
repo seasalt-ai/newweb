@@ -3,50 +3,59 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SEOHelmet from '../../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const GenesysAlternative = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: 'Target Customer',
-      seasalt: 'Small to Medium Businesses (SMEs)',
-      competitor: 'Large Enterprises',
+      feature: t('compare.genesysAlternative.features.targetCustomer.name'),
+      seasalt: t('compare.genesysAlternative.features.targetCustomer.seasalt'),
+      competitor: t('compare.genesysAlternative.features.targetCustomer.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Starting Price',
-      seasalt: '$25/agent/month',
-      competitor: '$75/user/month',
+      feature: t('compare.genesysAlternative.features.startingPrice.name'),
+      seasalt: t('compare.genesysAlternative.features.startingPrice.seasalt'),
+      competitor: t('compare.genesysAlternative.features.startingPrice.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Minimum Commitment',
-      seasalt: 'None',
-      competitor: 'High (~$2,000/month minimum)',
+      feature: t('compare.genesysAlternative.features.minimumCommitment.name'),
+      seasalt: t('compare.genesysAlternative.features.minimumCommitment.seasalt'),
+      competitor: t('compare.genesysAlternative.features.minimumCommitment.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Pricing Complexity',
-      seasalt: 'Simple & Transparent',
-      competitor: 'Extremely Complex. Tiered plans, usage tokens, add-ons, quote-based',
+      feature: t('compare.genesysAlternative.features.pricingComplexity.name'),
+      seasalt: t('compare.genesysAlternative.features.pricingComplexity.seasalt'),
+      competitor: t('compare.genesysAlternative.features.pricingComplexity.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Ease of Setup',
-      seasalt: 'Minutes to go live',
-      competitor: 'Requires significant implementation resources',
+      feature: t('compare.genesysAlternative.features.easeOfSetup.name'),
+      seasalt: t('compare.genesysAlternative.features.easeOfSetup.seasalt'),
+      competitor: t('compare.genesysAlternative.features.easeOfSetup.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Best For',
-      seasalt: 'SMEs needing powerful features with simplicity and affordability',
-      competitor: 'Global corporations with 100s of agents and dedicated management teams',
+      feature: t('compare.genesysAlternative.features.bestFor.name'),
+      seasalt: t('compare.genesysAlternative.features.bestFor.seasalt'),
+      competitor: t('compare.genesysAlternative.features.bestFor.competitor'),
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title={t('compare.genesysAlternative.seo.title')}
+        description={t('compare.genesysAlternative.seo.description')}
+        availableLanguages={SUPPORTED_LANGUAGES}
+        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/genesys-alternative`}
+        favicon="/favicon.ico"
+      />
       <Header />
       
       <main className="pt-16">
@@ -55,20 +64,18 @@ const GenesysAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Compare Us Overview
+              {t('compare.genesysAlternative.nav.backToOverview')}
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Enterprise Power,{' '}
+                {t('compare.genesysAlternative.hero.title1')}{' '}
                 <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
-                  Without the Enterprise Price & Complexity
+                  {t('compare.genesysAlternative.hero.title2')}
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                Genesys is a powerful, enterprise-grade platform designed for massive corporations with dedicated IT teams and deep pockets. 
-                Their pricing models reflect this, with high per-user costs, significant minimum monthly commitments (~$2,000/mo minimum), 
-                and complex, token-based billing for AI features. For an SME, this is not just unaffordable—it's unmanageable.
+                {t('compare.genesysAlternative.hero.subtitle')}
               </p>
             </div>
           </div>
@@ -79,10 +86,10 @@ const GenesysAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                SME-Focused vs. Enterprise-Only
+                {t('compare.genesysAlternative.comparison.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See why Seasalt.ai delivers the power you need without the complexity you don't
+                {t('compare.genesysAlternative.comparison.subtitle')}
               </p>
             </div>
 
@@ -91,9 +98,9 @@ const GenesysAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Genesys Cloud CX</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.genesysAlternative.table.headers.feature')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.genesysAlternative.table.headers.seasalt')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.genesysAlternative.table.headers.genesys')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -126,54 +133,54 @@ const GenesysAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                The Real Cost of Enterprise Solutions
+                {t('compare.genesysAlternative.costReality.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Why enterprise pricing doesn't make sense for growing businesses
+                {t('compare.genesysAlternative.costReality.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Built for SMEs</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.genesysAlternative.seasaltBenefits.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-green-800">No Minimum Commitment</h4>
-                    <p className="text-green-700 text-sm">Start with 1 user, scale as you grow</p>
+                    <h4 className="font-semibold text-green-800">{t('compare.genesysAlternative.seasaltBenefits.noMinimum.title')}</h4>
+                    <p className="text-green-700 text-sm">{t('compare.genesysAlternative.seasaltBenefits.noMinimum.description')}</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">Simple Pricing</h4>
-                    <p className="text-blue-700 text-sm">$25/agent/month, all features included</p>
+                    <h4 className="font-semibold text-blue-800">{t('compare.genesysAlternative.seasaltBenefits.simplePricing.title')}</h4>
+                    <p className="text-blue-700 text-sm">{t('compare.genesysAlternative.seasaltBenefits.simplePricing.description')}</p>
                   </div>
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-purple-800">Quick Setup</h4>
-                    <p className="text-purple-700 text-sm">Go live in minutes, not months</p>
+                    <h4 className="font-semibold text-purple-800">{t('compare.genesysAlternative.seasaltBenefits.quickSetup.title')}</h4>
+                    <p className="text-purple-700 text-sm">{t('compare.genesysAlternative.seasaltBenefits.quickSetup.description')}</p>
                   </div>
                   <div className="bg-orange-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-orange-800">Self-Service</h4>
-                    <p className="text-orange-700 text-sm">No implementation team required</p>
+                    <h4 className="font-semibold text-orange-800">{t('compare.genesysAlternative.seasaltBenefits.selfService.title')}</h4>
+                    <p className="text-orange-700 text-sm">{t('compare.genesysAlternative.seasaltBenefits.selfService.description')}</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">Genesys: Enterprise Focus</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.genesysAlternative.genesysLimitations.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">High Minimums</h4>
-                    <p className="text-red-700 text-sm">~$2,000/month minimum commitment</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.genesysAlternative.genesysLimitations.highMinimums.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.genesysAlternative.genesysLimitations.highMinimums.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">Complex Pricing</h4>
-                    <p className="text-red-700 text-sm">Tiered plans, usage tokens, quote-based</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.genesysAlternative.genesysLimitations.complexPricing.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.genesysAlternative.genesysLimitations.complexPricing.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">Long Implementation</h4>
-                    <p className="text-red-700 text-sm">Requires dedicated implementation resources</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.genesysAlternative.genesysLimitations.longImplementation.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.genesysAlternative.genesysLimitations.longImplementation.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">Enterprise Sales</h4>
-                    <p className="text-red-700 text-sm">Must contact sales for pricing</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.genesysAlternative.genesysLimitations.enterpriseSales.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.genesysAlternative.genesysLimitations.enterpriseSales.description')}</p>
                   </div>
                 </div>
               </div>
@@ -185,23 +192,22 @@ const GenesysAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-purple-600 to-purple-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Get Enterprise Features at SME Prices
+              {t('compare.genesysAlternative.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Why pay enterprise prices when you can get the features you need 
-              at a fraction of the cost?
+              {t('compare.genesysAlternative.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 Sign Up
+                 {t('compare.genesysAlternative.cta.signUp')}
               </a>
               <a
                 href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Book A Demo
+                {t('compare.genesysAlternative.cta.bookDemo')}
               </a>
             </div>
           </div>

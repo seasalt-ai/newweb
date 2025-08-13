@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const WhatsApp = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -22,33 +22,33 @@ const WhatsApp = () => {
   const features = [
     {
       icon: <Bot className="h-8 w-8" />,
-      title: 'AI-Powered Responses',
-      description: 'Automated customer service with natural language processing that understands context and intent'
+      title: t('channels.whatsapp.features.aiResponses.title'),
+      description: t('channels.whatsapp.features.aiResponses.description')
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      title: 'Bulk Campaign Management',
-      description: 'Send template messages to thousands of contacts with advanced targeting and scheduling'
+      title: t('channels.whatsapp.features.bulkCampaigns.title'),
+      description: t('channels.whatsapp.features.bulkCampaigns.description')
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Human Agent Handoff',
-      description: 'Seamless transition from bot to live agent with /live_agent command and full conversation history'
+      title: t('channels.whatsapp.features.humanHandoff.title'),
+      description: t('channels.whatsapp.features.humanHandoff.description')
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: 'Meta Business Integration',
-      description: 'Full access to WhatsApp Business Platform features with enterprise-grade security'
+      title: t('channels.whatsapp.features.metaIntegration.title'),
+      description: t('channels.whatsapp.features.metaIntegration.description')
     }
   ];
 
   const setupSteps = [
-    'Create Meta Developer Account',
-    'Configure WhatsApp Business API',
-    'Set up webhook endpoints',
-    'Generate access tokens',
-    'Test message delivery',
-    'Launch your first campaign'
+    t('channels.whatsapp.setup.steps.0'),
+    t('channels.whatsapp.setup.steps.1'),
+    t('channels.whatsapp.setup.steps.2'),
+    t('channels.whatsapp.setup.steps.3'),
+    t('channels.whatsapp.setup.steps.4'),
+    t('channels.whatsapp.setup.steps.5')
   ];
 
   return (
@@ -57,8 +57,8 @@ const WhatsApp = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title="WhatsApp Business Integration - Seasalt.ai"
-        description="Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+        title={t('channels.whatsapp.seo.title')}
+        description={t('channels.whatsapp.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -72,30 +72,29 @@ const WhatsApp = () => {
               <div>
                 <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  Back to Channels
+                  {t('channels.whatsapp.nav.backToChannels')}
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  Transform WhatsApp into Your{' '}
+                  {t('channels.whatsapp.hero.title.prefix')}{' '}
                   <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
-                    Business Command Center
+                    {t('channels.whatsapp.hero.title.highlight')}
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, 
-                  bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide.
+                  {t('channels.whatsapp.hero.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Connect WhatsApp in 10 Minutes
+                    {t('channels.whatsapp.hero.primaryCta')}
                   </a>
                   <a
                     href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    See Demo
+                    {t('channels.whatsapp.hero.secondaryCta')}
                   </a>
                 </div>
               </div>
@@ -105,20 +104,20 @@ const WhatsApp = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <MessageCircle className="h-8 w-8 text-green-600 mr-3" />
-                      <h3 className="text-lg font-semibold">WhatsApp Business</h3>
+                      <h3 className="text-lg font-semibold">{t('channels.whatsapp.hero.demoTitle')}</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">Customer: "Where's my order #12345?"</p>
+                        <p className="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.customer1')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">AI Bot: "Your order is out for delivery and will arrive today by 6 PM. Track it here: [link]"</p>
+                        <p className="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.bot1')}</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">Customer: "Can I change the delivery address?"</p>
+                        <p className="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.customer2')}</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">AI Bot: "Let me connect you with a human agent for address changes..."</p>
+                        <p className="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.bot2')}</p>
                       </div>
                     </div>
                   </div>
@@ -133,10 +132,10 @@ const WhatsApp = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Key Features
+                {t('channels.whatsapp.features.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Everything you need to turn WhatsApp into a powerful business communication platform
+                {t('channels.whatsapp.features.description')}
               </p>
             </div>
 
@@ -163,10 +162,10 @@ const WhatsApp = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Setup Process Visualization
+                {t('channels.whatsapp.setup.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Step-by-step guide to connect your WhatsApp Business account with enterprise-grade security
+                {t('channels.whatsapp.setup.description')}
               </p>
             </div>
 
@@ -191,11 +190,10 @@ const WhatsApp = () => {
                 <Shield className="h-8 w-8 text-green-600 mr-4 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-green-800 mb-2">
-                    Enterprise-Grade Security
+                    {t('channels.whatsapp.setup.security.title')}
                   </h3>
                   <p className="text-green-700">
-                    Your WhatsApp integration includes end-to-end encryption, secure token management, 
-                    and compliance with Meta's business policies. All data is protected with bank-level security.
+                    {t('channels.whatsapp.setup.security.description')}
                   </p>
                 </div>
               </div>
@@ -207,18 +205,17 @@ const WhatsApp = () => {
         <section className="py-20 bg-gradient-to-r from-green-600 to-green-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Connect WhatsApp?
+              {t('channels.whatsapp.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Join thousands of businesses using WhatsApp to provide better customer service 
-              and drive more sales.
+              {t('channels.whatsapp.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Start Integration
+                {t('channels.whatsapp.cta.button')}
               </a>
             </div>
           </div>

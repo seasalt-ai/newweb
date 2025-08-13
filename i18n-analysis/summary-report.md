@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-13T03:03:41.265Z
+Generated: 2025-08-13T09:15:54.962Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 1533
+- **Base Language (en) Keys**: 2990
 - **Components Analyzed**: 209
-- **Translation Coverage**: 39.68%
-- **Missing Keys**: 1950
-- **Hardcoded Strings Found**: 4136
+- **Translation Coverage**: 58.02%
+- **Missing Keys**: 1969
+- **Hardcoded Strings Found**: 2854
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 30 | 1.04% | ❌ Incomplete |
-| de | 30 | 0.98% | ❌ Incomplete |
-| en | 1533 | 100.00% | ✅ Good |
-| es | 30 | 0.98% | ❌ Incomplete |
-| fa | 46 | 2.09% | ❌ Incomplete |
-| fil | 30 | 0.98% | ❌ Incomplete |
-| fr | 30 | 0.98% | ❌ Incomplete |
-| hi | 30 | 0.98% | ❌ Incomplete |
-| id | 30 | 0.98% | ❌ Incomplete |
-| ja | 30 | 1.04% | ❌ Incomplete |
-| ko | 30 | 0.98% | ❌ Incomplete |
-| ms | 30 | 0.98% | ❌ Incomplete |
-| pl | 16 | 0.98% | ❌ Incomplete |
-| pt | 16 | 0.98% | ❌ Incomplete |
-| ru | 16 | 0.98% | ❌ Incomplete |
-| ta | 30 | 0.98% | ❌ Incomplete |
-| th | 30 | 0.98% | ❌ Incomplete |
-| vi | 30 | 0.98% | ❌ Incomplete |
-| zh-CN | 46 | 2.09% | ❌ Incomplete |
-| zh-TW | 1573 | 98.76% | ✅ Good |
+| ar | 30 | 0.54% | ❌ Incomplete |
+| de | 30 | 0.50% | ❌ Incomplete |
+| en | 2990 | 100.00% | ✅ Good |
+| es | 30 | 0.50% | ❌ Incomplete |
+| fa | 46 | 1.07% | ❌ Incomplete |
+| fil | 30 | 0.50% | ❌ Incomplete |
+| fr | 30 | 0.50% | ❌ Incomplete |
+| hi | 30 | 0.50% | ❌ Incomplete |
+| id | 30 | 0.50% | ❌ Incomplete |
+| ja | 30 | 0.54% | ❌ Incomplete |
+| ko | 30 | 0.50% | ❌ Incomplete |
+| ms | 30 | 0.50% | ❌ Incomplete |
+| pl | 16 | 0.50% | ❌ Incomplete |
+| pt | 16 | 0.50% | ❌ Incomplete |
+| ru | 16 | 0.50% | ❌ Incomplete |
+| ta | 30 | 0.50% | ❌ Incomplete |
+| th | 30 | 0.50% | ❌ Incomplete |
+| vi | 30 | 0.50% | ❌ Incomplete |
+| zh-CN | 46 | 1.07% | ❌ Incomplete |
+| zh-TW | 3030 | 99.36% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1950 keys used in components but missing from en.json
+**Description**: 1969 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 4136 hardcoded strings that should be internationalized
+**Description**: Found 2854 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -146,6 +146,25 @@ pricing.legacy.enterprise.period
 pricing.comparisonseasalt.name
 pricing.plans.custom.subtitle
 tpricing.ransparentAI.voiceAI.title
+compare.threeCXAlternative.technicalComplexity.youManage.title
+compare.threeCXAlternative.technicalComplexity.youManage.items.serverProvisioning
+compare.threeCXAlternative.technicalComplexity.youManage.items.osUpdates
+compare.threeCXAlternative.technicalComplexity.youManage.items.sslInstallation
+compare.threeCXAlternative.technicalComplexity.youManage.items.firewallConfig
+compare.threeCXAlternative.technicalComplexity.youManage.items.backupRecovery
+compare.threeCXAlternative.technicalComplexity.youManage.items.troubleshooting
+compare.threeCXAlternative.technicalComplexity.youManage.items.capacityPlanning
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.title
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.infrastructureManagement
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticUpdates
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.sslManagement
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.enterpriseSecurity
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automatedBackups
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.monitoringSupport
+compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticScaling
+compare.threeCXAlternative.cta.description
+compare.threeCXAlternative.cta.buttons.signUp
+compare.threeCXAlternative.cta.buttons.bookDemo
 pricing.plans.free.name
 pricing.plans.free.tagline
 pricing.plans.free.description
@@ -2011,7 +2030,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 4136 potential hardcoded strings across components:
+Found 2854 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2054,7 +2073,7 @@ Found 4136 potential hardcoded strings across components:
   **Context**: `mr-2" />\n                <span className="text-sm">+1 (SMB)-AI-AGENT</span>\n              </div>\n...`
 
 
-... and 4126 more. See hardcoded-strings.json for complete list.
+... and 2844 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2062,13 +2081,13 @@ Found 4136 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1950 keys used in components but missing from en.json
+**Description**: 1969 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 4136 hardcoded strings that should be internationalized
+**Description**: Found 2854 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

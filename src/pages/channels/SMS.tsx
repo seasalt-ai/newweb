@@ -4,63 +4,79 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SEOHelmet from '../../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 
 const SMS = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  const canonicalUrl = typeof window !== 'undefined' 
+    ? `${window.location.origin}/${i18n.language}/channels/sms` 
+    : `/${i18n.language}/channels/sms`;
+
   const features = [
     {
       icon: <Globe className="h-8 w-8" />,
-      title: 'Global Reach',
-      description: 'SMS delivery to 200+ countries with local number support and carrier optimization'
+      title: t('channels.sms.features.globalReach.title'),
+      description: t('channels.sms.features.globalReach.description')
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: 'Compliance Tools',
-      description: 'TCPA and GDPR compliance features with automatic opt-out management'
+      title: t('channels.sms.features.compliance.title'),
+      description: t('channels.sms.features.compliance.description')
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: 'Delivery Analytics',
-      description: 'Real-time delivery tracking, response rates, and campaign performance metrics'
+      title: t('channels.sms.features.analytics.title'),
+      description: t('channels.sms.features.analytics.description')
     },
     {
       icon: <Clock className="h-8 w-8" />,
-      title: 'Smart Scheduling',
-      description: 'Timezone-aware sending with optimal timing based on recipient behavior'
+      title: t('channels.sms.features.scheduling.title'),
+      description: t('channels.sms.features.scheduling.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Marketing Campaigns',
-      description: 'Promotional messages with high open rates',
-      stats: '98% open rate'
+      title: t('channels.sms.useCases.marketing.title'),
+      description: t('channels.sms.useCases.marketing.description'),
+      stats: t('channels.sms.useCases.marketing.stats')
     },
     {
-      title: 'Appointment Reminders',
-      description: 'Reduce no-shows with automated reminders',
-      stats: '25% fewer no-shows'
+      title: t('channels.sms.useCases.appointments.title'),
+      description: t('channels.sms.useCases.appointments.description'),
+      stats: t('channels.sms.useCases.appointments.stats')
     },
     {
-      title: 'Order Updates',
-      description: 'Keep customers informed about their orders',
-      stats: '90% satisfaction'
+      title: t('channels.sms.useCases.orders.title'),
+      description: t('channels.sms.useCases.orders.description'),
+      stats: t('channels.sms.useCases.orders.stats')
     },
     {
-      title: 'Customer Support',
-      description: 'Two-way conversations for quick support',
-      stats: '5x faster resolution'
+      title: t('channels.sms.useCases.support.title'),
+      description: t('channels.sms.useCases.support.description'),
+      stats: t('channels.sms.useCases.support.stats')
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <Header />
+
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={t('channels.sms.seo.title')}
+        description={t('channels.sms.seo.description')}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
+      />
       
       <main className="pt-16">
         {/* Hero Section */}
@@ -70,30 +86,29 @@ const SMS = () => {
               <div>
                 <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  Back to Channels
+                  {t('channels.sms.nav.backToChannels')}
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  SMS Marketing That{' '}
+                  {t('channels.sms.hero.title.prefix')}{' '}
                   <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
-                    Actually Converts
+                    {t('channels.sms.hero.title.highlight')}
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Reach customers instantly with personalized SMS campaigns and automated responses. 
-                  98% open rates and global delivery to 200+ countries.
+                  {t('channels.sms.hero.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Start SMS Campaigns
+                    {t('channels.sms.hero.primaryCta')}
                   </a>
                   <a
                     href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
                     className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    See Demo
+                    {t('channels.sms.hero.secondaryCta')}
                   </a>
                 </div>
               </div>
@@ -103,24 +118,24 @@ const SMS = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <MessageSquare className="h-8 w-8 text-purple-600 mr-3" />
-                      <h3 className="text-lg font-semibold">SMS Campaign</h3>
+                      <h3 className="text-lg font-semibold">{t('channels.sms.hero.campaign.title')}</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-purple-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-purple-800">📱 Campaign: Flash Sale</p>
-                        <p className="text-xs text-purple-600">2,847 messages sent</p>
+                        <p className="text-sm font-medium text-purple-800">{t('channels.sms.hero.campaign.flashSale.title')}</p>
+                        <p className="text-xs text-purple-600">{t('channels.sms.hero.campaign.flashSale.sent')}</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-green-800">✅ Delivered: 2,834</p>
-                        <p className="text-xs text-green-600">99.5% delivery rate</p>
+                        <p className="text-sm font-medium text-green-800">{t('channels.sms.hero.campaign.delivered.title')}</p>
+                        <p className="text-xs text-green-600">{t('channels.sms.hero.campaign.delivered.rate')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-blue-800">💬 Replies: 312</p>
-                        <p className="text-xs text-blue-600">11% response rate</p>
+                        <p className="text-sm font-medium text-blue-800">{t('channels.sms.hero.campaign.replies.title')}</p>
+                        <p className="text-xs text-blue-600">{t('channels.sms.hero.campaign.replies.rate')}</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-orange-800">🛒 Conversions: 47</p>
-                        <p className="text-xs text-orange-600">$12,400 revenue</p>
+                        <p className="text-sm font-medium text-orange-800">{t('channels.sms.hero.campaign.conversions.title')}</p>
+                        <p className="text-xs text-orange-600">{t('channels.sms.hero.campaign.conversions.revenue')}</p>
                       </div>
                     </div>
                   </div>
@@ -135,10 +150,10 @@ const SMS = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Compliance & Delivery
+                {t('channels.sms.features.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Enterprise-grade SMS platform with global reach and automatic compliance management
+                {t('channels.sms.features.description')}
               </p>
             </div>
 
@@ -165,10 +180,10 @@ const SMS = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Proven Use Cases
+                {t('channels.sms.useCases.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how businesses use SMS to drive engagement and revenue
+                {t('channels.sms.useCases.description')}
               </p>
             </div>
 
@@ -196,28 +211,28 @@ const SMS = () => {
             <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-12 text-white">
               <div className="text-center mb-12">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                  Advanced Campaign Builder
+                  {t('channels.sms.builder.title')}
                 </h2>
                 <p className="text-xl opacity-90 max-w-2xl mx-auto">
-                  Create sophisticated SMS campaigns with drag-and-drop automation and smart targeting
+                  {t('channels.sms.builder.description')}
                 </p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <Users className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">Smart Segmentation</h3>
-                  <p className="text-sm opacity-90">Target customers based on behavior, location, and preferences</p>
+                  <h3 className="text-lg font-semibold mb-2">{t('channels.sms.builder.segmentation.title')}</h3>
+                  <p className="text-sm opacity-90">{t('channels.sms.builder.segmentation.description')}</p>
                 </div>
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <Clock className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">Perfect Timing</h3>
-                  <p className="text-sm opacity-90">AI-powered send time optimization for maximum engagement</p>
+                  <h3 className="text-lg font-semibold mb-2">{t('channels.sms.builder.timing.title')}</h3>
+                  <p className="text-sm opacity-90">{t('channels.sms.builder.timing.description')}</p>
                 </div>
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <BarChart3 className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">Real-time Analytics</h3>
-                  <p className="text-sm opacity-90">Track delivery, opens, clicks, and conversions in real-time</p>
+                  <h3 className="text-lg font-semibold mb-2">{t('channels.sms.builder.analytics.title')}</h3>
+                  <p className="text-sm opacity-90">{t('channels.sms.builder.analytics.description')}</p>
                 </div>
               </div>
             </div>
@@ -228,18 +243,17 @@ const SMS = () => {
         <section className="py-20 bg-gradient-to-r from-purple-600 to-purple-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Launch Your SMS Campaigns?
+              {t('channels.sms.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Join thousands of businesses using SMS to drive higher engagement and revenue. 
-              Start with our free trial.
+              {t('channels.sms.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 Sign Up
+                 {t('channels.sms.cta.button')}
               </a>
             </div>
           </div>

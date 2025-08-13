@@ -34,7 +34,7 @@ const createBlogListingStructuredData = (posts: BlogPostMeta[]) => {
 };
 
 const Blog = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { lang } = useParams<{ lang: string }>();
   const [posts, setPosts] = useState<BlogPostMeta[]>([]);
   const [filteredPosts, setFilteredPosts] = useState<BlogPostMeta[]>([]);
@@ -108,7 +108,7 @@ const Blog = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <div className="text-center">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-              <p className="mt-4 text-gray-600">Loading blog posts...</p>
+              <p className="mt-4 text-gray-600">{t('blog.loading.text')}</p>
             </div>
           </div>
         </main>
@@ -123,8 +123,8 @@ const Blog = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={`Blog - Seasalt.ai`}
-        description="Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
+        title={t('blog.seo.title')}
+        description={t('blog.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl || `/${lang}/blog`}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -146,17 +146,16 @@ const Blog = () => {
             <div className="text-center mb-16">
               <Link to={`/${i18n.language}`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-6 sm:mb-8">
                 <ArrowLeft className="h-5 w-5 mr-2" />
-                Back to Home
+                {t('blog.nav.backToHome')}
               </Link>
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
-                Seasalt.ai{' '}
+                {t('blog.hero.title')}{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Blog
+                  {t('blog.hero.highlight')}
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-                Insights, tips, and updates on AI-powered customer communications, 
-                business automation, and the future of customer experience.
+                {t('blog.hero.description')}
               </p>
             </div>
 
@@ -167,7 +166,7 @@ const Blog = () => {
                   <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                   <input
                     type="text"
-                    placeholder="Search blog posts..."
+                    placeholder={t('blog.search.placeholder')}
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full pl-10 pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base"
@@ -179,7 +178,7 @@ const Blog = () => {
                     onChange={(e) => setSelectedTag(e.target.value)}
                     className="w-full px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base"
                   >
-                    <option value="">All Categories</option>
+                    <option value="">{t('blog.filter.allCategories')}</option>
                     {allTags.map(tag => (
                       <option key={tag} value={tag}>{tag}</option>
                     ))}
@@ -196,7 +195,7 @@ const Blog = () => {
             {filteredPosts.length === 0 ? (
               <div className="text-center py-8 sm:py-12">
                 <p className="text-lg sm:text-xl text-gray-600">
-                  {posts.length === 0 ? 'No blog posts found.' : 'No posts match your search criteria.'}
+                  {posts.length === 0 ? t('blog.empty.noPosts') : t('blog.empty.noResults')}
                 </p>
                 {searchTerm || selectedTag ? (
                   <button
@@ -206,7 +205,7 @@ const Blog = () => {
                     }}
                     className="mt-4 text-blue-600 hover:text-blue-700 font-medium"
                   >
-                    Clear filters
+                    {t('blog.empty.clearFilters')}
                   </button>
                 ) : null}
               </div>
@@ -232,7 +231,7 @@ const Blog = () => {
                           {formatDate(post.date)}
                           {post.modified_date && post.modified_date !== post.date && (
                             <span className="text-xs text-gray-400 ml-1">
-                              (Updated: {formatDate(post.modified_date)})
+                              ({t('blog.post.updated')}: {formatDate(post.modified_date)})
                             </span>
                           )}
                         </span>
@@ -269,7 +268,7 @@ const Blog = () => {
                         to={`/${i18n.language}/blog/${getBlogPostUrlPath(post)}`}
                         className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                       >
-                        Read More →
+                        {t('blog.post.readMore')}
                       </Link>
                     </div>
                   </article>
@@ -283,20 +282,19 @@ const Blog = () => {
         <section className="py-16 sm:py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6">
-              Stay Updated with Our Latest Insights
+              {t('blog.newsletter.title')}
             </h2>
             <p className="text-lg sm:text-xl text-white opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-              Get the latest articles on AI automation, customer experience, and business growth 
-              delivered straight to your inbox.
+              {t('blog.newsletter.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-md mx-auto">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder={t('blog.newsletter.emailPlaceholder')}
                 className="flex-1 px-4 py-2.5 sm:py-3 rounded-lg border-0 focus:ring-2 focus:ring-white focus:ring-opacity-50 text-sm sm:text-base"
               />
               <button className="bg-white text-blue-600 hover:bg-gray-50 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base">
-                Subscribe
+                {t('blog.newsletter.subscribeButton')}
               </button>
             </div>
           </div>

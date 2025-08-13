@@ -499,7 +499,71 @@
     "description": "在一個平台中統一您所有的客戶通訊。從 WhatsApp 到電話、簡訊到社交媒體 - 從單一儀表板管理每個對話。",
     "whatsapp": {
       "title": "WhatsApp Business",
-      "description": "在全球最受歡迎的訊息平台上與客戶聯繫"
+      "description": "在全球最受歡迎的訊息平台上與客戶聯繫",
+      "seo": {
+        "title": "WhatsApp Business 整合 - Seasalt.ai",
+        "description": "將您的 WhatsApp Business 帳戶連接到 Seasalt.ai，享受 AI 驅動的對話、批量活動和無縫人工專員支援。觸及全球 20 億以上用戶。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": {
+          "prefix": "將 WhatsApp 轉變為您的",
+          "highlight": "商業指揮中心"
+        },
+        "description": "將您的 WhatsApp Business 帳戶連接到 Seasalt.ai，享受 AI 驅動的對話、批量活動和無縫人工專員支援。觸及全球 20 億以上用戶。",
+        "primaryCta": "10 分鐘內連接 WhatsApp",
+        "secondaryCta": "查看演示",
+        "demoTitle": "WhatsApp Business",
+        "demoMessages": {
+          "customer1": "客戶：「我的訂單 #12345 在哪裡？」",
+          "bot1": "AI 機器人：「您的訂單正在配送中，將於今天下午 6 點前到達。在此追蹤：[連結]」",
+          "customer2": "客戶：「我可以更改配送地址嗎？」",
+          "bot2": "AI 機器人：「讓我為您連接人工專員以更改地址...」"
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "description": "將 WhatsApp 轉變為強大商業溝通平台的所有必需工具",
+        "aiResponses": {
+          "title": "AI 驅動回應",
+          "description": "具備自然語言處理功能的自動化客戶服務，能理解上下文和意圖"
+        },
+        "bulkCampaigns": {
+          "title": "批量活動管理",
+          "description": "透過進階定位和排程功能，向數千個聯絡人發送模板訊息"
+        },
+        "humanHandoff": {
+          "title": "人工專員轉接",
+          "description": "透過 /live_agent 指令和完整對話記錄，實現從機器人到真人專員的無縫轉接"
+        },
+        "metaIntegration": {
+          "title": "Meta Business 整合",
+          "description": "完整存取 WhatsApp Business Platform 功能，具備企業級安全性"
+        }
+      },
+      "setup": {
+        "title": "設定流程視覺化",
+        "description": "連接 WhatsApp Business 帳戶的逐步指南，具備企業級安全性",
+        "steps": {
+          "0": "建立 Meta 開發者帳戶",
+          "1": "設定 WhatsApp Business API",
+          "2": "設定 webhook 端點",
+          "3": "生成存取權杖",
+          "4": "測試訊息傳送",
+          "5": "啟動您的第一個活動"
+        },
+        "security": {
+          "title": "企業級安全性",
+          "description": "您的 WhatsApp 整合包含端到端加密、安全權杖管理，並符合 Meta 商業政策。所有資料均受到銀行級安全性保護。"
+        }
+      },
+      "cta": {
+        "title": "準備好連接 WhatsApp 了嗎？",
+        "description": "加入數千家使用 WhatsApp 提供更佳客戶服務並推動更多銷售的企業。",
+        "button": "開始整合"
+      }
     },
     "voice": {
       "title": "語音和電話",
@@ -507,7 +571,107 @@
     },
     "sms": {
       "title": "簡訊",
-      "description": "透過個人化簡訊活動即時觸及客戶"
+      "description": "透過個人化簡訊活動即時觸及客戶",
+      "seo": {
+        "title": "簡訊行銷平台 - Seasalt.ai",
+        "description": "透過個人化簡訊活動和自動化回應即時觸及客戶。98% 開信率和 200+ 國家的全球傳送。立即開始您的簡訊行銷。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": {
+          "prefix": "簡訊行銷",
+          "highlight": "真正能轉換的"
+        },
+        "description": "透過個人化簡訊活動和自動化回應即時觸及客戶。98% 開信率和 200+ 國家的全球傳送。",
+        "primaryCta": "開始簡訊活動",
+        "secondaryCta": "查看演示",
+        "campaign": {
+          "title": "簡訊活動",
+          "flashSale": {
+            "title": "📱 活動：限時特價",
+            "sent": "已發送 2,847 條訊息"
+          },
+          "delivered": {
+            "title": "✅ 已送達：2,834",
+            "rate": "99.5% 送達率"
+          },
+          "replies": {
+            "title": "💬 回覆：312",
+            "rate": "11% 回應率"
+          },
+          "conversions": {
+            "title": "🛒 轉換：47",
+            "revenue": "$12,400 營收"
+          }
+        }
+      },
+      "features": {
+        "title": "合規與傳送",
+        "description": "具備全球覆蓋和自動合規管理的企業級簡訊平台",
+        "globalReach": {
+          "title": "全球覆蓋",
+          "description": "簡訊傳送到 200+ 個國家，支援本地號碼和電信業者優化"
+        },
+        "compliance": {
+          "title": "合規工具",
+          "description": "TCPA 和 GDPR 合規功能，具備自動退訂管理"
+        },
+        "analytics": {
+          "title": "傳送分析",
+          "description": "即時傳送追蹤、回應率和活動績效指標"
+        },
+        "scheduling": {
+          "title": "智能排程",
+          "description": "基於時區的智能發送，根據接收者行為優化時機"
+        }
+      },
+      "useCases": {
+        "title": "經過驗證的使用案例",
+        "description": "了解企業如何使用簡訊來推動參與度和營收",
+        "marketing": {
+          "title": "行銷活動",
+          "description": "高開信率的促銷訊息",
+          "stats": "98% 開信率"
+        },
+        "appointments": {
+          "title": "預約提醒",
+          "description": "透過自動提醒減少爽約",
+          "stats": "爽約減少 25%"
+        },
+        "orders": {
+          "title": "訂單更新",
+          "description": "讓客戶了解訂單狀態",
+          "stats": "90% 滿意度"
+        },
+        "support": {
+          "title": "客戶支援",
+          "description": "雙向對話提供快速支援",
+          "stats": "解決速度快 5 倍"
+        }
+      },
+      "builder": {
+        "title": "進階活動建立器",
+        "description": "透過拖放自動化和智能定位創建複雜的簡訊活動",
+        "segmentation": {
+          "title": "智能細分",
+          "description": "基於行為、位置和偏好定向客戶"
+        },
+        "timing": {
+          "title": "完美時機",
+          "description": "AI 驅動的發送時間優化，實現最大參與度"
+        },
+        "analytics": {
+          "title": "即時分析",
+          "description": "即時追蹤傳送、開信、點擊和轉換"
+        }
+      },
+      "cta": {
+        "title": "準備好啟動您的簡訊活動了嗎？",
+        "description": "加入數千家使用簡訊推動更高參與度和營收的企業。從免費試用開始。",
+        "button": "立即註冊"
+      }
     },
     "website": {
       "title": "網站聊天小工具",
@@ -516,6 +680,735 @@
     "cta": {
       "exploreAll": "探索所有渠道",
       "subtitle": "了解所有 9 個渠道如何無縫協同工作"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "專業電話系統 - Seasalt.ai",
+        "description": "透過我們的 Twilio 黃金合作夥伴關係和 AI 語音自動化，為您的專員提供雲端撥號平台進行來電和去電通話。擴展您的商業溝通。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": {
+          "prefix": "專業電話系統",
+          "highlight": "與您的業務共同成長"
+        },
+        "description": "透過我們的 Twilio 黃金合作夥伴關係和 AI 語音自動化，為您的專員提供雲端撥號平台進行來電和去電通話。",
+        "primaryCta": "今天就開始撥打電話",
+        "secondaryCta": "查看演示",
+        "dialpad": {
+          "title": "專員撥號盤",
+          "callButton": "撥號",
+          "endCallButton": "結束通話"
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "description": "您的團隊專業電話通訊所需的一切",
+        "humanDialpad": {
+          "title": "人工專員撥號盤",
+          "description": "功能齊全的雲端撥號盤，用於撥打和接聽電話，並具有聯絡人管理功能"
+        },
+        "aiVoiceBot": {
+          "title": "AI 語音機器人整合",
+          "description": "自動通話處理，在需要時自然轉接至人工專員"
+        },
+        "multiAgent": {
+          "title": "多專員支援",
+          "description": "輪流分配系統自動將通話分配給可用的專員"
+        },
+        "analytics": {
+          "title": "通話分析",
+          "description": "通話績效、成果和專員生產力的綜合報告"
+        }
+      },
+      "partnership": {
+        "title": "Twilio 合作夥伴優勢",
+        "description": "建立在世界上最值得信賴的通訊平台之上",
+        "goldPartner": {
+          "title": "黃金合作夥伴地位",
+          "benefit1": "黃金合作夥伴地位，直接存取 Twilio Flex",
+          "benefit2": "建立在成熟基礎設施上的企業級可靠性",
+          "benefit3": "全球覆蓋 - 可在 200+ 個國家撥打電話",
+          "benefit4": "快速部署 - 專員可在 10 天內開始通話"
+        },
+        "global": {
+          "title": "全球能力",
+          "countries": {
+            "title": "200+ 個國家",
+            "description": "在全球範圍內撥打和接聽電話"
+          },
+          "uptime": {
+            "title": "99.95% 正常運行時間",
+            "description": "企業級可靠性"
+          },
+          "setup": {
+            "title": "10 天設定",
+            "description": "為您的團隊快速部署"
+          }
+        }
+      },
+      "useCases": {
+        "title": "使用案例",
+        "description": "了解不同團隊如何使用我們的電話系統來取得成果",
+        "sales": {
+          "title": "銷售團隊",
+          "description": "透過自動撥號器效率進行外撥開發"
+        },
+        "support": {
+          "title": "客戶支援",
+          "description": "透過 AI 篩選處理來電"
+        },
+        "appointments": {
+          "title": "預約設定",
+          "description": "自動撥號並由人工確認"
+        },
+        "followup": {
+          "title": "後續活動",
+          "description": "大量撥號並進行個性化專員對話"
+        }
+      },
+      "cta": {
+        "title": "準備升級您的電話系統了嗎？",
+        "description": "在 10 天內讓您的團隊開始通話，具備企業級可靠性和 AI 驅動的自動化。",
+        "button": "開始設定"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "返回頻道總覽"
+      },
+      "hero": {
+        "title": {
+          "prefix": "將網站訪客轉化為",
+          "highlight": "對話機會"
+        },
+        "description": "在 5 分鐘內為您的網站添加強大的 AI 聊天小工具。獲取潛在客戶、提供即時支援，永不錯過任何機會。",
+        "cta": {
+          "primary": "獲取免費小工具",
+          "secondary": "預約產品展示"
+        },
+        "widget": {
+          "title": "網站聊天小工具",
+          "welcome": {
+            "greeting": "👋 歡迎！",
+            "question": "今天我們能如何幫助您？"
+          },
+          "visitor": {
+            "message": "訪客：「你們提供免費運送嗎？」"
+          },
+          "ai": {
+            "response": "AI：「是的！滿 $50 即享免費運送。您想了解我們目前的優惠活動嗎？」"
+          },
+          "button": {
+            "yes": "好的，告訴我",
+            "no": "不用，謝謝"
+          }
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "subtitle": "獲取訪客參與並將其轉化為客戶所需的一切功能",
+        "noCodeSetup": {
+          "title": "無需編碼設定",
+          "description": "在 5 分鐘內添加到任何網站，無需技術知識"
+        },
+        "customBranding": {
+          "title": "自訂品牌",
+          "description": "透過自訂顏色、字體和訊息風格來匹配您的品牌"
+        },
+        "leadCapture": {
+          "title": "潛在客戶獲取",
+          "description": "自動收集訪客資訊並即時篩選潛在客戶"
+        },
+        "instantResponses": {
+          "title": "即時回應",
+          "description": "AI 驅動的回應為網站訪客提供 24/7 即時幫助"
+        }
+      },
+      "platforms": {
+        "title": "適用於所有平台",
+        "subtitle": "輕鬆整合所有主流網站建構工具和平台"
+      },
+      "customization": {
+        "title": "自訂功能展示",
+        "subtitle": "透過廣泛的自訂選項，讓小工具真正屬於您",
+        "positionSize": {
+          "title": "位置和大小",
+          "description": "選擇角落位置、大小和可見性設定"
+        },
+        "colorsFonts": {
+          "title": "顏色和字體",
+          "description": "完美匹配您的品牌顏色和版面設計"
+        },
+        "welcomeMessages": {
+          "title": "歡迎訊息",
+          "description": "自訂歡迎訊息和對話開場白"
+        },
+        "triggerRules": {
+          "title": "觸發規則",
+          "description": "設定小工具向訪客顯示的時間和位置"
+        },
+        "realTimePreview": {
+          "title": "即時預覽",
+          "description": "透過我們的即時預覽功能，立即查看您的變更。自訂顏色、位置和訊息，同時準確看到在您網站上的顯示效果。"
+        }
+      },
+      "analytics": {
+        "title": "強大分析功能",
+        "subtitle": "透過詳細分析追蹤訪客參與度、轉換率和聊天表現",
+        "conversations": "對話數",
+        "conversionRate": "轉換率",
+        "responseTime": "回應時間",
+        "satisfaction": "滿意度"
+      },
+      "cta": {
+        "title": "準備好為您的網站添加聊天功能了嗎？",
+        "description": "幾分鐘內獲取您的自訂聊天小工具。無需編碼，提供完整自訂功能。",
+        "button": "獲取小工具代碼"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "返回頻道總覽"
+      },
+      "hero": {
+        "title": {
+          "prefix": "擴展您的",
+          "highlight": "Instagram 客戶服務"
+        },
+        "subtitle": "使用 AI 自動化處理數千條 Instagram 私訊，同時保持個人化風格。完美適合品牌、網紅和社群建設企業。",
+        "cta": {
+          "primary": "自動化 Instagram 私訊",
+          "secondary": "查看示範"
+        },
+        "demo": {
+          "title": "Instagram 私訊",
+          "user1": {
+            "handle": "@sarah_style",
+            "message": "我喜歡這件洋裝！你們有哪些尺寸？"
+          },
+          "ai1": {
+            "response": "AI: \"嗨 Sarah！😍 這件洋裝有 XS-XL 尺寸。您需要我檢查您的尺寸庫存嗎？"
+          },
+          "user2": {
+            "handle": "@mike_fitness",
+            "message": "您能幫我處理訂單嗎？"
+          },
+          "ai2": {
+            "response": "AI: \"當然可以！讓我為您連接客服團隊..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "視覺優先方法",
+        "subtitle": "Instagram 主要是視覺平台。我們的 AI 理解圖片並提供情境化回應"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "圖像識別",
+          "description": "AI 理解私訊中的產品圖片，提供智能回應和推薦"
+        },
+        "storyIntegration": {
+          "title": "限時動態整合",
+          "description": "自動回應限時動態互動、投票和觀眾問題"
+        },
+        "influencerSupport": {
+          "title": "網紅支援",
+          "description": "管理大量私訊對話和品牌合作的工具"
+        },
+        "smartAutomation": {
+          "title": "智能自動化",
+          "description": "維持品牌聲音和個性的 AI 驅動回應"
+        }
+      },
+      "useCases": {
+        "title": "適合每個 Instagram 企業",
+        "subtitle": "從小企業到主要網紅，看看 Instagram 自動化如何推動成果",
+        "ecommerce": {
+          "title": "電商品牌",
+          "description": "產品查詢和訂單支援",
+          "metric": "回應速度提升 40%"
+        },
+        "influencers": {
+          "title": "網紅",
+          "description": "粉絲互動和合作請求",
+          "metric": "對話量增加 10 倍"
+        },
+        "localBusiness": {
+          "title": "本地企業",
+          "description": "預約預訂和客戶服務",
+          "metric": "預訂量增加 60%"
+        },
+        "contentCreators": {
+          "title": "內容創作者",
+          "description": "社群管理和意見回饋",
+          "metric": "95% 滿意度"
+        }
+      },
+      "businessIntegration": {
+        "title": "Instagram 商業整合",
+        "subtitle": "與 Instagram 商業帳戶完全整合，提供專業客戶服務",
+        "analyticsIntegration": {
+          "title": "分析整合",
+          "description": "連接 Instagram 洞察，實現完整的效果追蹤"
+        },
+        "audienceInsights": {
+          "title": "受眾洞察",
+          "description": "透過整合的人口統計數據更好地了解您的受眾"
+        },
+        "engagementTracking": {
+          "title": "互動追蹤",
+          "description": "監控限時動態互動、貼文參與度和私訊效果"
+        }
+      },
+      "cta": {
+        "title": "準備好擴展您的 Instagram 影響力了嗎？",
+        "subtitle": "加入數千個品牌和網紅，使用 AI 提供更好的客戶服務並在 Instagram 上建立更強大的社群。",
+        "primary": "開始自動化",
+        "secondary": "查看示範"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "返回頻道總覽"
+      },
+      "hero": {
+        "title": "將 Facebook Messenger 轉變為",
+        "titleHighlight": "銷售利器",
+        "subtitle": "透過 AI 驅動的對話吸引您的 Facebook 受眾，將追蹤者轉化為客戶。整合 Facebook Shop 實現無縫社群商務。",
+        "cta": {
+          "primary": "立即連接 Messenger",
+          "secondary": "觀看展示"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "客戶：「你們有M號嗎？」",
+          "aiResponse1": "AI：「有的！M號現貨供應。這是產品連結和目前價格 👇」",
+          "productName": "夏日洋裝 - M號",
+          "productPrice": "$49.99 • 免運費",
+          "customerQuery2": "客戶：「太好了！可以打8折嗎？」",
+          "aiResponse2": "AI：「我可以提供85折優惠，使用代碼 MESSENGER15！您要完成訂購嗎？」"
+        }
+      },
+      "features": {
+        "title": "社群商務功能",
+        "subtitle": "將您的 Facebook 存在轉變為強大的銷售渠道，配備整合商務功能",
+        "shopIntegration": {
+          "title": "Facebook Shop 整合",
+          "description": "在聊天中直接推薦產品，提供無縫購物體驗"
+        },
+        "leadGeneration": {
+          "title": "潛在客戶開發",
+          "description": "從 Messenger 對話中自動捕獲潛在客戶，並同步至 CRM"
+        },
+        "socialProof": {
+          "title": "社會認證",
+          "description": "整合客戶推薦和評價來建立信任"
+        },
+        "instantResponses": {
+          "title": "即時回應",
+          "description": "AI 驅動的回應，24/7 全天候吸引您的 Facebook 受眾"
+        }
+      },
+      "socialCommerce": {
+        "title": "完整社群商務解決方案",
+        "subtitle": "直接透過 Facebook Messenger 銷售所需的一切",
+        "productCatalog": {
+          "title": "產品目錄同步",
+          "description": "自動同步您的 Facebook Shop 產品以進行即時推薦"
+        },
+        "cartRecovery": {
+          "title": "購物車挽回",
+          "description": "透過個人化訊息重新吸引放棄購物車的客戶"
+        },
+        "orderTracking": {
+          "title": "訂單追蹤",
+          "description": "透過 Messenger 提供即時訂單更新和物流資訊"
+        },
+        "customerReviews": {
+          "title": "客戶評價",
+          "description": "收集和展示客戶評價以建立信任和社會認證"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Facebook 商業生態系統整合",
+        "subtitle": "無縫連接您的整個 Facebook 商業存在",
+        "shop": {
+          "title": "Facebook Shop",
+          "description": "直接整合您的 Facebook Shop 以進行即時產品推薦"
+        },
+        "ads": {
+          "title": "Facebook 廣告",
+          "description": "將廣告活動與 Messenger 連接，實現無縫客戶旅程"
+        },
+        "pages": {
+          "title": "Facebook 粉絲專頁",
+          "description": "統一管理粉絲專頁訊息和客戶互動"
+        }
+      },
+      "results": {
+        "title": "實證成果",
+        "subtitle": "看看企業如何透過 Facebook Messenger 自動化實現真實成果",
+        "engagement": {
+          "value": "85%",
+          "description": "比電子郵件更高的參與度"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "更佳的轉換率"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "支援成本的降低"
+        },
+        "availability": {
+          "value": "24/7",
+          "description": "自動化客戶服務"
+        }
+      },
+      "cta": {
+        "title": "準備好轉變您的 Facebook 存在了嗎？",
+        "subtitle": "將 Facebook Messenger 連接至 Seasalt.ai，開始將您的社群媒體追蹤者轉化為付費客戶。",
+        "primary": "連接 Messenger",
+        "secondary": "預約展示"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "聯絡表單整合 - Seasalt.ai",
+        "description": "透過 AI 將聯絡表單轉化為對話。與 MailerLite、HubSpot、Mailchimp 等平台無縫整合，實現即時潛在客戶互動。"
+      },
+      "nav": {
+        "backToChannels": "返回通道"
+      },
+      "hero": {
+        "title": {
+          "part1": "將聯絡表單轉化為",
+          "part2": "對話"
+        },
+        "subtitle": "自動捕獲來自電子郵件行銷表單的潛在客戶，並透過 AI 驅動的對話即時互動。適用於 MailerLite、HubSpot、Mailchimp 等平台。",
+        "ctaPrimary": "連接您的表單",
+        "ctaSecondary": "查看演示",
+        "demo": {
+          "title": "表單整合",
+          "submission": "📝 新表單提交",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "AI：「嗨 Sarah！感謝您的關注。我可以立即幫助您開始。您的主要目標是什麼？」",
+          "userResponse": "Sarah：「我想改善我的電子郵件行銷」",
+          "aiSchedule": "AI：「太棒了！我可以立即為您安排 15 分鐘的策略通話。您明天下午 2 點有空嗎？」",
+          "meetingConfirmed": "✅ 會議已自動安排"
+        }
+      },
+      "platforms": {
+        "title": "支援平台",
+        "subtitle": "與所有主要電子郵件行銷平台和表單建構工具無縫整合",
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "與 MailerLite 聯絡表單無縫同步潛在客戶"
+        },
+        "mailchimp": {
+          "name": "Mailchimp",
+          "description": "與 Mailchimp 註冊表單直接整合"
+        },
+        "constantContact": {
+          "name": "Constant Contact",
+          "description": "從 Constant Contact 表單捕獲潛在客戶"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "與 HubSpot 行銷進階表單整合"
+        },
+        "customForms": {
+          "name": "自定義表單",
+          "description": "透過 API 支援任何網站聯絡表單"
+        },
+        "wordpress": {
+          "name": "WordPress",
+          "description": "與 WordPress 聯絡表單原生整合"
+        }
+      },
+      "features": {
+        "title": "潛在客戶管理功能",
+        "subtitle": "透過智慧自動化將表單提交轉化為合格潛在客戶",
+        "instantEngagement": {
+          "title": "即時互動",
+          "description": "AI 代理立即回應表單提交，趁潛在客戶熱度最高時互動"
+        },
+        "leadQualification": {
+          "title": "潛在客戶資格評估",
+          "description": "自動跟進問題以在轉交給人員前評估潛在客戶資格"
+        },
+        "multiChannel": {
+          "title": "多通道跟進",
+          "description": "透過 WhatsApp、簡訊或電話無縫繼續對話"
+        },
+        "conversionTracking": {
+          "title": "轉換追蹤",
+          "description": "監控表單到客戶的轉換率並優化效能"
+        }
+      },
+      "useCases": {
+        "title": "使用案例",
+        "subtitle": "了解不同類型的表單如何透過 AI 對話得到增強",
+        "newsletter": {
+          "title": "電子報註冊",
+          "description": "透過歡迎對話吸引新訂閱者",
+          "example": "「感謝您的訂閱！您最感興趣的主題是什麼？」"
+        },
+        "demoRequests": {
+          "title": "演示請求",
+          "description": "即時評估並安排產品演示",
+          "example": "「我可以立即為您安排演示。您偏好的時間是什麼？」"
+        },
+        "contactInquiries": {
+          "title": "聯絡查詢",
+          "description": "對一般查詢提供即時回應",
+          "example": "「我在這裡幫助您！您需要什麼具體資訊？」"
+        },
+        "leadMagnets": {
+          "title": "潛在客戶磁鐵",
+          "description": "透過個性化接觸跟進內容下載",
+          "example": "「您覺得這份指南有用嗎？我可以回答任何問題！」"
+        }
+      },
+      "benefits": {
+        "title": "整合優勢",
+        "subtitle": "了解將表單連接到對話式 AI 的即時影響",
+        "responseRates": "更高的回應率",
+        "qualification": "更快的潛在客戶資格評估",
+        "meetings": "更多合格會議",
+        "engagement": "潛在客戶互動"
+      },
+      "cta": {
+        "title": "準備好為您的表單充電了嗎？",
+        "subtitle": "將您的聯絡表單連接到 Seasalt.ai，開始透過即時 AI 驅動對話轉換更多潛在客戶。",
+        "action": "立即連接表單"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "LINE 整合解決方案 - Seasalt.ai",
+        "description": "了解 Seasalt.ai 如何透過 LINE 整合幫助企業改善客戶溝通，並在亞洲市場推動業務成長。"
+      },
+      "navigation": {
+        "backToChannels": "返回頻道總覽"
+      },
+      "hero": {
+        "title": "透過 LINE 整合稱霸亞洲市場",
+        "subtitle": "透過 AI 對話和商務訊息，與亞洲地區超過 2 億 LINE 用戶連接。非常適合針對日本、台灣、泰國和韓國市場的企業。",
+        "cta": {
+          "startIntegration": "開始 LINE 整合",
+          "seeDemo": "查看示範"
+        },
+        "demo": {
+          "title": "LINE 商務",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(我有產品問題)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(您好！我很樂意幫助您。哪一項產品？)",
+          "stickerMessage": "貼圖：謝謝！",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(不客氣！還有其他問題嗎？)"
+        }
+      },
+      "marketFocus": {
+        "title": "市場重點",
+        "subtitle": "LINE 在關鍵亞洲市場的主導地位使其成為針對這些地區的企業必不可少的工具",
+        "activeUsers": "活躍用戶",
+        "marketPenetration": "市場滲透率"
+      },
+      "features": {
+        "title": "LINE 商務功能",
+        "subtitle": "利用 LINE 的獨特功能進行商務溝通和客戶參與",
+        "regionalDominance": {
+          "title": "區域主導地位",
+          "description": "接觸亞洲主要市場超過 2 億 LINE 用戶"
+        },
+        "officialAccount": {
+          "title": "LINE 官方帳號",
+          "description": "與 LINE 官方帳號完整整合，提供商務訊息服務"
+        },
+        "richMessaging": {
+          "title": "豐富訊息",
+          "description": "支援貼圖、豐富選單和互動式訊息格式"
+        },
+        "culturalAdaptation": {
+          "title": "文化適應",
+          "description": "針對不同亞洲市場優化的本地化訊息功能"
+        }
+      },
+      "businessMessaging": {
+        "title": "進階商務訊息",
+        "subtitle": "利用 LINE 的豐富訊息功能提升客戶體驗"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "LINE Pay 整合",
+          "description": "直接透過 LINE 接受付款，提供無縫交易體驗"
+        },
+        "richMenu": {
+          "title": "豐富選單設計",
+          "description": "建立互動式選單，方便客戶導覽"
+        },
+        "broadcast": {
+          "title": "廣播訊息",
+          "description": "向您的 LINE 粉絲發送目標訊息"
+        },
+        "chatbot": {
+          "title": "聊天機器人建構器",
+          "description": "專為 LINE 互動優化的視覺化聊天機器人建構器"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "文化適應",
+        "subtitle": "我們的 AI 了解不同亞洲市場的文化細節和溝通風格"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "本地化回應",
+          "description": "針對當地溝通風格和文化偏好調整的 AI 回應"
+        },
+        "multiLanguage": {
+          "title": "多語言支援",
+          "description": "原生支援日語、中文、泰語、韓語和英語"
+        },
+        "sticker": {
+          "title": "貼圖整合",
+          "description": "智慧使用 LINE 貼圖和表情符號進行自然對話"
+        }
+      },
+      "cta": {
+        "title": "準備進入亞洲市場了嗎？",
+        "subtitle": "透過 LINE 主導的訊息平台與亞洲數百萬潛在客戶建立連結。",
+        "startIntegration": "開始 LINE 整合"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "回到通訊渠道"
+      },
+      "seo": {
+        "title": "網站小工具 - 全通路解決方案",
+        "description": "在WordPress、Shopify、Squarespace、Wix、MailerLite和任何網站上部署我們的全通路小工具。提供客戶統一的聊天、語音和訊息選擇。"
+      },
+      "hero": {
+        "title": "一個小工具，",
+        "titleHighlight": "所有平台",
+        "subtitle": "在WordPress、Shopify、Squarespace、Wix、MailerLite和任何網站上部署我們的全通路小工具。提供客戶統一的聊天、語音和訊息選擇。",
+        "cta": {
+          "deploy": "立即部署小工具",
+          "demo": "預約演示"
+        },
+        "widget": {
+          "title": "通用小工具",
+          "chat": {
+            "label": "💬 聊天",
+            "description": "即時訊息支援"
+          },
+          "voice": {
+            "label": "📞 語音",
+            "description": "一鍵語音通話"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "直接WhatsApp連接"
+          },
+          "email": {
+            "label": "📧 電子郵件",
+            "description": "聯絡表單整合"
+          }
+        }
+      },
+      "platforms": {
+        "title": "適用於所有平台",
+        "subtitle": "無論您使用什麼平台，我們的小工具都能與您現有的網站無縫整合",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "WordPress網站的簡易插件安裝"
+        },
+        "shopify": {
+          "name": "Shopify",
+          "description": "與Shopify商店的原生整合"
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Squarespace網站的簡單嵌入代碼"
+        },
+        "wix": {
+          "name": "Wix",
+          "description": "Wix網站的拖放小工具"
+        },
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "與MailerLite著陸頁的直接整合"
+        },
+        "custom": {
+          "name": "自定義HTML",
+          "description": "任何網站的通用嵌入代碼"
+        }
+      },
+      "features": {
+        "title": "進階功能",
+        "subtitle": "不只是聊天小工具 - 完整的客戶互動平台",
+        "design": {
+          "title": "可自訂設計",
+          "description": "使用自訂顏色、字體和位置選項來匹配您的品牌"
+        },
+        "mobile": {
+          "title": "行動響應式",
+          "description": "在所有裝置和螢幕尺寸上提供完美體驗"
+        },
+        "nocode": {
+          "title": "免程式設定",
+          "description": "無需技術知識，5分鐘內添加到任何網站"
+        },
+        "analytics": {
+          "title": "進階分析",
+          "description": "追蹤訪客參與度、轉換率和聊天表現"
+        }
+      },
+      "styles": {
+        "title": "選擇您的樣式",
+        "subtitle": "多種小工具樣式，匹配您的網站設計和用戶體驗目標",
+        "chatBubble": {
+          "name": "聊天氣泡",
+          "description": "經典的底部角落浮動聊天氣泡"
+        },
+        "slidePanel": {
+          "name": "滑入面板",
+          "description": "優雅的側邊滑入面板"
+        },
+        "embeddedForm": {
+          "name": "嵌入式表單",
+          "description": "頁面內容中的內聯聯絡表單"
+        },
+        "fullModal": {
+          "name": "全螢幕模態",
+          "description": "引人注目的全螢幕覆蓋層"
+        }
+      },
+      "benefits": {
+        "title": "為什麼選擇我們的小工具？",
+        "switching": {
+          "title": "通道切換",
+          "description": "在聊天、語音和訊息之間無縫切換，不失去背景"
+        },
+        "queue": {
+          "title": "佇列管理",
+          "description": "基於代理可用性和客戶優先級的智能路由"
+        },
+        "global": {
+          "title": "全球支援",
+          "description": "多語言支援和時區感知路由，為國際客戶服務"
+        }
+      },
+      "cta": {
+        "title": "準備部署您的小工具了嗎？",
+        "subtitle": "在5分鐘內為您的網站添加強大的全通路溝通功能。無需編程。",
+        "getWidget": "獲取小工具代碼"
+      }
     }
   },
   "comparison": {
@@ -731,7 +1624,43 @@
   "blog": {
     "searchPlaceholder": "搜尋部落格文章...",
     "allCategories": "所有分類",
-    "clearFilters": "清除篩選器"
+    "clearFilters": "清除篩選器",
+    "seo": {
+      "title": "部落格 - Seasalt.ai",
+      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
+    },
+    "loading": {
+      "text": "正在載入部落格文章..."
+    },
+    "nav": {
+      "backToHome": "回到首頁"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "部落格",
+      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
+    },
+    "search": {
+      "placeholder": "搜尋部落格文章..."
+    },
+    "filter": {
+      "allCategories": "所有分類"
+    },
+    "empty": {
+      "noPosts": "找不到部落格文章。",
+      "noResults": "沒有符合搜尋條件的文章。",
+      "clearFilters": "清除篩選條件"
+    },
+    "post": {
+      "readMore": "閱讀更多 →",
+      "updated": "已更新"
+    },
+    "newsletter": {
+      "title": "掌握我們的最新洞察",
+      "description": "獲取 AI 自動化、客戶體驗和業務成長的最新文章，直接送到您的收件匣。",
+      "emailPlaceholder": "輸入您的電子郵件",
+      "subscribeButton": "訂閱"
+    }
   },
   "contact": {
     "phone": "+1 (SMB)-AI-AGENT",
@@ -2705,6 +3634,1810 @@
           "7": "本地部署選項"
         },
         "cta": "聯絡銷售"
+      }
+    }
+  },
+  "compare": {
+    "aircallAlternative": {
+      "seo": {
+        "title": "Aircall 替代方案 - Seasalt.ai 統一通訊平台",
+        "description": "擺脫 Aircall 的附加費用和用戶最低要求。了解為什麼成長中的團隊選擇 Seasalt.ai 透明定價的一體化通訊平台。"
+      },
+      "nav": {
+        "backToOverview": "返回比較概覽"
+      },
+      "hero": {
+        "title": {
+          "part1": "厭倦了附加費用和用戶最低要求？",
+          "part2": "了解為什麼成長中的團隊選擇 Seasalt.ai 而非 Aircall"
+        },
+        "subtitle": "Aircall 以其友善的使用者介面著稱，但卻以強制性的 3 用戶最低要求將小團隊逼入困境，其定價模式將 AI、進階分析，甚至 WhatsApp 整合等關鍵功能隱藏在昂貴的月費附加服務之後。Seasalt.ai 提供真正的一體化平台，價格透明。"
+      },
+      "comparison": {
+        "title": "功能逐項比較",
+        "subtitle": "了解 Seasalt.ai 如何提供您所需的所有功能，無需附加費用和複雜性",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "aircall": "Aircall"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單的按用戶收費",
+            "competitor": "按授權收費 + 多項必需附加服務"
+          },
+          "userMinimum": {
+            "name": "用戶最低要求",
+            "seasalt": "1",
+            "competitor": "3"
+          },
+          "unifiedComm": {
+            "name": "統一語音和 WhatsApp",
+            "seasalt": "是，原生包含",
+            "competitor": "否，需要 $10/月 附加服務"
+          },
+          "aiVoiceAgent": {
+            "name": "AI 語音代理",
+            "seasalt": "是，已包含（按用量計費）",
+            "competitor": "否，需要 $0.99/分鐘 附加服務"
+          },
+          "aiCallSummaries": {
+            "name": "AI 通話摘要",
+            "seasalt": "是，已包含",
+            "competitor": "否，需要 $9/月 附加服務"
+          },
+          "advancedAnalytics": {
+            "name": "進階分析",
+            "seasalt": "是，已包含",
+            "competitor": "否，需要 $15/月 附加服務"
+          },
+          "callQuality": {
+            "name": "通話品質反饋",
+            "seasalt": "高品質語音",
+            "competitor": "用戶反映品質不穩定且經常斷線"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要負擔得起的真正一體化解決方案的中小企業",
+            "competitor": "能滿足用戶最低要求且負擔得起多項附加服務的銷售/支援團隊"
+          }
+        }
+      },
+      "costComparison": {
+        "title": "真實成本比較",
+        "subtitle": "了解 Aircall 的附加費用如何快速累積，相較於 Seasalt.ai 的透明定價",
+        "aircall": {
+          "title": "Aircall 現實檢查",
+          "basePlan": "基本方案（每用戶）",
+          "basePlanCost": "$30/月",
+          "aiVoiceAddon": "AI 語音附加服務",
+          "aiVoiceAddonCost": "+$9/月",
+          "whatsappIntegration": "WhatsApp 整合",
+          "whatsappIntegrationCost": "+$10/月",
+          "advancedAnalytics": "進階分析",
+          "advancedAnalyticsCost": "+$15/月",
+          "totalPerUser": "每用戶總計",
+          "totalPerUserCost": "$64/月",
+          "minimumNote": "加上 3 用戶最低要求 = 每月最低 $192"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "admin": "管理員（首位用戶）",
+          "adminCost": "$50/月",
+          "additionalAgents": "額外代理人",
+          "additionalAgentsCost": "每位 $25/月",
+          "aiVoiceIncluded": "AI 語音 + 聊天已包含",
+          "aiVoiceIncludedCost": "$0",
+          "allChannelsIncluded": "所有通道已包含",
+          "allChannelsIncludedCost": "$0",
+          "analyticsIncluded": "分析功能已包含",
+          "analyticsIncludedCost": "$0",
+          "total": "總計（3 位用戶）",
+          "totalCost": "$100/月",
+          "savings": "相較於 Aircall 每月節省 $92"
+        }
+      },
+      "cta": {
+        "title": "準備擺脫附加費用？",
+        "subtitle": "加入數千家從 Aircall 轉換的成長企業，獲得所需的所有功能，無需複雜性和隱藏成本。",
+        "signUp": "註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "ringcentral": {
+      "seo": {
+        "title": "RingCentral 替代方案 - 統一聯絡中心 vs 分散式解決方案 | Seasalt.ai",
+        "description": "探索為什麼 Seasalt.ai 真正統一的聯絡中心優於 RingCentral 分散的 UCaaS 和 CCaaS 方法。比較價格、功能和架構。",
+        "canonicalPath": "/compare/ringcentral-alternative"
+      },
+      "navigation": {
+        "backToOverview": "返回比較總覽"
+      },
+      "hero": {
+        "title": {
+          "part1": "尋找真正的一體化聯絡中心？",
+          "part2": "看看 RingCentral 的「統一」平台為何不足"
+        },
+        "subtitle": "RingCentral 是通信領域的巨頭，但其解決方案是分散的。他們的主要產品是商務電話系統 (UCaaS)，而他們的聯絡中心 (RingCX) 是一個獨立的高級產品，起價為每位座席每月 65 美元。這造成了複雜性和資訊孤島。Seasalt.ai 從零開始構建為單一的統一聯絡中心。"
+      },
+      "comparison": {
+        "title": "統一 vs 分散架構",
+        "subtitle": "了解為什麼真正統一的平台勝過拼湊的獨立產品",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "ringcentral": "RingCentral"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "平台架構",
+            "seasalt": "真正統一的聯絡中心",
+            "ringcentral": "獨立的 UCaaS 和 CCaaS 產品"
+          },
+          "startingPrice": {
+            "name": "起價（聯絡中心）",
+            "seasalt": "$25/座席/月",
+            "ringcentral": "$65/座席/月 (RingCX)"
+          },
+          "unifiedVoiceDigital": {
+            "name": "統一語音與數位",
+            "seasalt": "是，原生包含",
+            "ringcentral": "否，未在一個收件箱中原生統一"
+          },
+          "integrationQuality": {
+            "name": "整合品質",
+            "seasalt": "可靠的現代化整合",
+            "ringcentral": "用戶反映整合有問題和記錄問題"
+          },
+          "easeOfUse": {
+            "name": "易用性",
+            "seasalt": "對小型團隊直觀",
+            "ringcentral": "用戶反映設置可能「令人困惑」"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "希望擁有簡單、強大且真正統一聯絡中心的中小企業",
+            "ringcentral": "需要廣泛 UCaaS 平台且願意為獨立聯絡中心解決方案支付額外費用的大公司"
+          }
+        }
+      },
+      "architecture": {
+        "title": "架構很重要",
+        "subtitle": "為什麼統一在客戶溝通方面勝過分散",
+        "seasalt": {
+          "title": "Seasalt.ai：統一平台",
+          "features": {
+            "singleLogin": "所有通道單一登入",
+            "unifiedHistory": "統一對話記錄",
+            "seamlessSwitching": "無縫通道切換",
+            "oneBilling": "一個帳單，一個支援聯繫人",
+            "builtInIntegrations": "內建可用整合"
+          }
+        },
+        "ringcentral": {
+          "title": "RingCentral：獨立產品",
+          "issues": {
+            "multipleLogins": "多重登入和介面",
+            "fragmentedData": "分散的對話資料",
+            "complexIntegration": "複雜的整合要求",
+            "separateBilling": "UCaaS 和 CCaaS 分別計費",
+            "buggyIntegrations": "用戶反映整合有問題"
+          }
+        }
+      },
+      "cta": {
+        "title": "準備好真正的統一了嗎？",
+        "subtitle": "停止操作獨立系統。獲得從第一天起就無縫運作的真正統一聯絡中心。",
+        "signUp": "註冊",
+        "bookDemo": "預約示範"
+      }
+    },
+    "genesysAlternative": {
+      "seo": {
+        "title": "Genesys 替代方案 - 專為中小企業設計的聯絡中心解決方案",
+        "description": "企業級功能，無需企業級複雜性。為中小企業比較 Seasalt.ai 與 Genesys Cloud CX。"
+      },
+      "nav": {
+        "backToOverview": "返回比較總覽"
+      },
+      "hero": {
+        "title1": "企業級功能，",
+        "title2": "無需企業級價格與複雜性",
+        "subtitle": "Genesys 是一個為擁有專業 IT 團隊和雄厚資金的大型企業設計的強大企業級平台。其定價模式反映了這一點，具有高昂的每用戶成本、顯著的最低月度承諾（約 2,000 美元/月最低承諾）以及複雜的基於代幣的 AI 功能計費。對中小企業而言，這不僅負擔不起，而且難以管理。"
+      },
+      "comparison": {
+        "title": "專注中小企業 vs. 僅限企業",
+        "subtitle": "了解為什麼 Seasalt.ai 能提供您所需的功能，卻沒有不必要的複雜性"
+      },
+      "table": {
+        "headers": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "genesys": "Genesys Cloud CX"
+        }
+      },
+      "features": {
+        "targetCustomer": {
+          "name": "目標客戶",
+          "seasalt": "中小企業",
+          "competitor": "大型企業"
+        },
+        "startingPrice": {
+          "name": "起始價格",
+          "seasalt": "$25/代理/月",
+          "competitor": "$75/用戶/月"
+        },
+        "minimumCommitment": {
+          "name": "最低承諾",
+          "seasalt": "無",
+          "competitor": "高額（約 $2,000/月最低承諾）"
+        },
+        "pricingComplexity": {
+          "name": "定價複雜性",
+          "seasalt": "簡單透明",
+          "competitor": "極其複雜。分層計劃、使用代幣、附加功能、基於報價"
+        },
+        "easeOfSetup": {
+          "name": "設置難易程度",
+          "seasalt": "幾分鐘內上線",
+          "competitor": "需要大量實施資源"
+        },
+        "bestFor": {
+          "name": "最適合",
+          "seasalt": "需要強大功能且簡單實惠的中小企業",
+          "competitor": "擁有數百名代理和專業管理團隊的全球企業"
+        }
+      },
+      "costReality": {
+        "title": "企業解決方案的真實成本",
+        "subtitle": "為什麼企業定價對成長中的企業來說不合理"
+      },
+      "seasaltBenefits": {
+        "title": "Seasalt.ai：專為中小企業打造",
+        "noMinimum": {
+          "title": "無最低承諾",
+          "description": "從 1 個用戶開始，隨著成長擴展"
+        },
+        "simplePricing": {
+          "title": "簡單定價",
+          "description": "$25/代理/月，包含所有功能"
+        },
+        "quickSetup": {
+          "title": "快速設置",
+          "description": "幾分鐘內上線，而非數月"
+        },
+        "selfService": {
+          "title": "自助服務",
+          "description": "無需實施團隊"
+        }
+      },
+      "genesysLimitations": {
+        "title": "Genesys：企業焦點",
+        "highMinimums": {
+          "title": "高額最低承諾",
+          "description": "約 $2,000/月最低承諾"
+        },
+        "complexPricing": {
+          "title": "複雜定價",
+          "description": "分層計劃、使用代幣、基於報價"
+        },
+        "longImplementation": {
+          "title": "漫長實施",
+          "description": "需要專門的實施資源"
+        },
+        "enterpriseSales": {
+          "title": "企業銷售",
+          "description": "必須聯繫銷售獲取定價"
+        }
+      },
+      "cta": {
+        "title": "以中小企業價格獲得企業功能",
+        "subtitle": "為什麼要支付企業價格，當您可以以一小部分成本獲得所需功能？",
+        "signUp": "註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "five9Alternative": {
+      "seo": {
+        "title": "Five9 替代方案 - 平價聯絡中心解決方案 | Seasalt.ai",
+        "description": "尋找 Five9 替代方案？Seasalt.ai 提供強大的全通路聯絡中心功能，每名專員每月僅需 $25，而 Five9 需 $119/用戶/月。最適合中小企業。"
+      },
+      "navigation": {
+        "backLink": "回到比較概覽"
+      },
+      "hero": {
+        "title": {
+          "part1": "強大外撥功能無需",
+          "part2": "企業級價格標籤"
+        },
+        "subtitle": "Five9 是為大型、以外撥為主的聯絡中心設計的強大平台，企業預算起價為每用戶每月 $119。雖然對大型呼叫中心來說很出色，但對大多數成長中的企業而言過於複雜且昂貴。Seasalt.ai 以極具競爭力的價格提供中小企業所需的全通路和 AI 功能，具備平衡的來電/外撥功能。"
+      },
+      "comparison": {
+        "title": "企業級 vs. 中小企業導向解決方案",
+        "subtitle": "了解為什麼您不需要企業級複雜性也能獲得強大效果",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "five9": "Five9"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "目標客戶",
+            "seasalt": "中小型企業 (SME)",
+            "competitor": "大型企業"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/專員/月",
+            "competitor": "$119/用戶/月"
+          },
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單且透明",
+            "competitor": "按用戶 + 套件 + 複雜等級"
+          },
+          "setupComplexity": {
+            "name": "設置複雜度",
+            "seasalt": "自助服務，幾分鐘內部署",
+            "competitor": "需要專業服務和實施團隊"
+          },
+          "outboundFocus": {
+            "name": "外撥焦點",
+            "seasalt": "平衡來電/外撥與 AI 自動化",
+            "competitor": "重點外撥與高級撥號功能"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要平價全通路與 AI 自動化的中小企業",
+            "competitor": "大型、以外撥為主的聯絡中心與專屬團隊"
+          }
+        }
+      },
+      "cost": {
+        "title": "成本現實",
+        "subtitle": "了解 Five9 的企業定價與 Seasalt.ai 的中小企業導向方式比較",
+        "agents5": {
+          "title": "5 名專員",
+          "seasalt": {
+            "price": "$175/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$595/月",
+            "label": "Five9"
+          },
+          "savings": "節省 $420/月"
+        },
+        "agents10": {
+          "title": "10 名專員",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$1,190/月",
+            "label": "Five9"
+          },
+          "savings": "節省 $915/月"
+        },
+        "agents20": {
+          "title": "20 名專員",
+          "seasalt": {
+            "price": "$525/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$2,380/月",
+            "label": "Five9"
+          },
+          "savings": "節省 $1,855/月"
+        }
+      },
+      "features": {
+        "title": "平衡方式 vs. 重點外撥",
+        "subtitle": "大多數企業需要來電和外撥功能，而不僅僅是重點外撥",
+        "seasalt": {
+          "title": "Seasalt.ai：平衡全通路",
+          "feature1": "跨所有通道的來電客戶支援",
+          "feature2": "外撥行銷活動（SMS、WhatsApp、語音）",
+          "feature3": "來電和外撥的 AI 自動化",
+          "feature4": "所有客戶互動的統一收件匣",
+          "feature5": "適合成長中的企業"
+        },
+        "five9": {
+          "title": "Five9：重點外撥",
+          "feature1": "高級預測撥號功能",
+          "feature2": "複雜的活動管理工具",
+          "feature3": "企業級合規功能",
+          "feature4": "為高容量呼叫中心設計",
+          "feature5": "需要專屬管理團隊"
+        }
+      },
+      "cta": {
+        "title": "獲得強大功能無需企業級複雜性",
+        "subtitle": "為什麼為不需要的功能多付 5 倍？獲得與您業務共同成長的平衡全通路解決方案。",
+        "signUp": "註冊",
+        "bookDemo": "預約示範"
+      }
+    },
+    "avayaAlternative": {
+      "seo": {
+        "title": "現代雲原生 vs. 傳統基礎架構 - Avaya 替代方案 | Seasalt.ai",
+        "description": "比較 Seasalt.ai 現代雲原生架構與 Avaya 傳統基礎架構。了解為何雲優先解決方案勝過適應傳統系統的成長型企業。"
+      },
+      "navigation": {
+        "backToCompare": "返回產品比較概覽"
+      },
+      "hero": {
+        "title": {
+          "main": "現代雲原生 vs.",
+          "highlight": "傳統基礎架構"
+        },
+        "description": "Avaya 數十年來一直是電信巨頭，但其傳統架構和複雜的企業導向使其不適合現代成長型企業。雖然他們正在轉向雲端解決方案，但其定價仍以企業為導向，需要複雜的授權和專業服務要求。Seasalt.ai 從第一天就為現代企業構建雲原生架構。"
+      },
+      "comparison": {
+        "title": "雲原生 vs. 傳統遷移",
+        "subtitle": "了解為何從現代架構開始勝過適應傳統系統",
+        "tableHeaders": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "avaya": "Avaya"
+        },
+        "features": {
+          "platformType": {
+            "name": "平台類型",
+            "seasalt": "雲原生統一通信",
+            "competitor": "傳統本地部署與雲端遷移"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/座席/月",
+            "competitor": "報價制（通常 $50-100+/用戶/月）"
+          },
+          "setupComplexity": {
+            "name": "設置複雜度",
+            "seasalt": "自助服務，幾分鐘即可部署",
+            "competitor": "需要專業服務和實施"
+          },
+          "modernArchitecture": {
+            "name": "現代架構",
+            "seasalt": "為雲優先、API 驅動而構建",
+            "competitor": "傳統架構與雲端適配"
+          },
+          "aiIntegration": {
+            "name": "AI 整合",
+            "seasalt": "內建原生 AI 語音和聊天機器人",
+            "competitor": "通過合作夥伴和附加元件提供 AI 功能"
+          },
+          "targetMarket": {
+            "name": "目標市場",
+            "seasalt": "中小企業和成長型企業",
+            "competitor": "擁有現有 Avaya 基礎架構的大型企業"
+          }
+        }
+      },
+      "architecture": {
+        "title": "現代 vs. 傳統架構",
+        "subtitle": "為何雲原生架構對成長型企業很重要",
+        "seasalt": {
+          "title": "Seasalt.ai：雲原生",
+          "feature1": "從第一天就為雲端而構建",
+          "feature2": "API 優先架構",
+          "feature3": "自動更新和擴展",
+          "feature4": "現代整合",
+          "feature5": "自助部署"
+        },
+        "avaya": {
+          "title": "Avaya：傳統遷移",
+          "feature1": "傳統本地部署根源",
+          "feature2": "複雜授權模式",
+          "feature3": "需要專業服務",
+          "feature4": "整合複雜度",
+          "feature5": "企業銷售流程"
+        }
+      },
+      "businessImpact": {
+        "title": "商業影響",
+        "subtitle": "架構選擇如何影響您的商業營運",
+        "timeToValue": {
+          "title": "價值實現時間",
+          "seasalt": {
+            "value": "分鐘",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "月",
+            "label": "Avaya"
+          }
+        },
+        "setupComplexity": {
+          "title": "設置複雜度",
+          "seasalt": {
+            "value": "自助服務",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "專業服務",
+            "label": "Avaya"
+          }
+        },
+        "ongoingMaintenance": {
+          "title": "持續維護",
+          "seasalt": {
+            "value": "自動",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "手動",
+            "label": "Avaya"
+          }
+        }
+      },
+      "cta": {
+        "title": "選擇現代而非傳統",
+        "subtitle": "為何要與傳統架構抗爭，當您可以擁有專為當今企業構建的現代雲原生解決方案？",
+        "signUp": "註冊",
+        "bookDemo": "預約示範"
+      }
+    },
+    "googleVoiceAlternative": {
+      "seo": {
+        "title": "從 Google Voice 畢業？這裡是您需要的專業解決方案 - Seasalt.ai",
+        "description": "了解為什麼成長中的企業需要的不只是 Google Voice 的基本 VoIP 服務。比較功能並發現 Seasalt.ai 的專業通訊平台。"
+      },
+      "nav": {
+        "backToOverview": "返回比較概覽"
+      },
+      "hero": {
+        "title": {
+          "line1": "從 Google Voice 畢業？",
+          "line2": "這裡是您需要的專業解決方案"
+        },
+        "subtitle": "Google Voice 是個人使用或個體經營者的絕佳工具，但它並不是真正的企業電話系統。一旦您僱用團隊，您就會遇到瓶頸。它缺乏關鍵的企業功能，如共享團隊收件匣、通話排隊、免費電話號碼和分析功能。最重要的是，它沒有公開 API，這意味著它無法與您的 CRM 或其他重要的企業軟體整合。"
+      },
+      "comparison": {
+        "title": "專業企業系統 vs. 個人 VoIP",
+        "subtitle": "了解為什麼成長中的企業需要的不只是基本電話服務",
+        "table": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Google Voice"
+        },
+        "features": {
+          "systemType": {
+            "feature": "系統類型",
+            "seasalt": "專業全通路客服中心",
+            "competitor": "基本 VoIP 服務（不是真正的電話系統）"
+          },
+          "teamCollaboration": {
+            "feature": "團隊協作",
+            "seasalt": "共享收件匣、團隊管理",
+            "competitor": "沒有共享收件匣。專為個人而非團隊設計"
+          },
+          "crmIntegrations": {
+            "feature": "CRM 和第三方整合",
+            "seasalt": "是的，廣泛的整合功能",
+            "competitor": "否。僅與 Google Workspace 應用程式整合"
+          },
+          "supportedChannels": {
+            "feature": "支援的通路",
+            "seasalt": "語音、簡訊、WhatsApp、Messenger、Instagram、LINE、網路聊天",
+            "competitor": "語音、簡訊（僅限美國）"
+          },
+          "automation": {
+            "feature": "自動化（機器人/IVR）",
+            "seasalt": "AI 語音機器人、聊天機器人、進階 IVR",
+            "competitor": "僅有基本自動總機。沒有其他自動化功能"
+          },
+          "tollFree": {
+            "feature": "免費電話號碼",
+            "seasalt": "是",
+            "competitor": "否"
+          },
+          "callAnalytics": {
+            "feature": "通話分析",
+            "seasalt": "是的，詳細報告",
+            "competitor": "否。僅有基本使用記錄"
+          },
+          "bestFor": {
+            "feature": "最適合",
+            "seasalt": "需要專業、可擴展通訊平台的成長中企業",
+            "competitor": "需要簡單、獨立電話號碼的美國個體經營者或自由工作者"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "當您超越 Google Voice 時",
+        "subtitle": "該升級到專業企業通訊平台的跡象",
+        "firstEmployee": {
+          "title": "您僱用了第一個員工",
+          "description": "Google Voice 不支援共享收件匣或團隊協作。每個人都需要自己的號碼。"
+        },
+        "crmIntegration": {
+          "title": "您需要 CRM 整合",
+          "description": "沒有 API 意味著無法與 Salesforce、HubSpot 或任何其他企業工具整合。"
+        },
+        "professionalFeatures": {
+          "title": "您想要專業功能",
+          "description": "沒有通話排隊、進階 IVR、通話分析或免費電話號碼。"
+        },
+        "multipleChannels": {
+          "title": "您需要多通路",
+          "description": "僅支援語音和簡訊。沒有 WhatsApp、網路聊天或社群媒體整合。"
+        },
+        "automation": {
+          "title": "您想要自動化",
+          "description": "沒有 AI 聊天機器人、語音機器人或進階自動化功能。"
+        },
+        "internationalSupport": {
+          "title": "您需要國際支援",
+          "description": "與企業平台相比，國際通話和簡訊支援有限。"
+        }
+      },
+      "benefits": {
+        "title": "使用 Seasalt.ai 獲得的優勢",
+        "subtitle": "您成長中企業所需的專業功能",
+        "teamCollaboration": {
+          "title": "團隊協作",
+          "feature1": "所有通訊的共享團隊收件匣",
+          "feature2": "輪循通話分配",
+          "feature3": "團隊表現分析",
+          "feature4": "客服人員間的對話交接"
+        },
+        "professionalFeatures": {
+          "title": "專業功能",
+          "feature1": "進階 IVR 和通話路由",
+          "feature2": "提供免費電話號碼",
+          "feature3": "詳細的通話分析和報告",
+          "feature4": "CRM 和企業工具整合"
+        }
+      },
+      "cta": {
+        "title": "準備升級到專業通訊？",
+        "subtitle": "從 Google Voice 切換到為成長中企業打造的平台。保留您現有的號碼並獲得強大的新功能。",
+        "signUp": "註冊",
+        "bookDemo": "預約示範"
+      }
+    },
+    "respondIoAlternative": {
+      "seo": {
+        "title": "Respond.io 替代方案 - Seasalt.ai",
+        "description": "比較 Seasalt.ai 與 Respond.io。獲得真正的全通道平台，內建語音通話而非測試功能。可預測的代理人定價模式，取代複雜的活躍聯絡人計費。"
+      },
+      "navigation": {
+        "backLink": "返回比較概覽"
+      },
+      "hero": {
+        "title": {
+          "main": "不要滿足於僅有數位化。",
+          "highlight": "獲得真正的全通道平台，整合原生語音與訊息功能"
+        },
+        "description": "Respond.io 是一個專注於 WhatsApp 等訊息通道的強大平台。然而，其定價基於月活躍聯絡人 (MACs)，可能變得不可預測，而關鍵的語音通道仍處於測試階段。此外，WhatsApp 使用費用需要單獨計費，增加了成本複雜性。Seasalt.ai 提供真正統一的平台，將語音作為核心原生功能。"
+      },
+      "comparison": {
+        "title": "統一全通道 vs. 數位優先",
+        "subtitle": "了解為什麼原生語音整合對於完整的客戶溝通至關重要",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "competitor": "respond.io"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單且可預測的代理人費用",
+            "competitor": "月活躍聯絡人 (MACs) + 使用者"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/代理人/月",
+            "competitor": "$79/月（包含 5 位使用者）"
+          },
+          "voiceCalling": {
+            "name": "語音通話",
+            "seasalt": "是，原生且完全支援",
+            "competitor": "測試功能"
+          },
+          "whatsappFees": {
+            "name": "WhatsApp 費用",
+            "seasalt": "包含在使用量中",
+            "competitor": "由 Meta 單獨計費"
+          },
+          "aiAgent": {
+            "name": "AI 代理人",
+            "seasalt": "是，所有方案都包含",
+            "competitor": "需要成長方案（$159/月+）"
+          },
+          "coreFocus": {
+            "name": "核心重點",
+            "seasalt": "真正的全通道（語音 + 數位）",
+            "competitor": "數位優先訊息"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要統一平台處理所有客戶對話（包括電話）的中小企業",
+            "competitor": "主要透過聊天專注於潛在客戶開發的行銷和銷售團隊"
+          }
+        }
+      },
+      "pricing": {
+        "title": "可預測 vs. 變動定價",
+        "subtitle": "為什麼簡單的代理人定價勝過複雜的聯絡人計費模式",
+        "seasalt": {
+          "title": "Seasalt.ai：簡單且可預測",
+          "perAgent": {
+            "title": "代理人定價",
+            "description": "$25/代理人/月 - 易於預算和擴展"
+          },
+          "allChannels": {
+            "title": "包含所有通道",
+            "description": "語音、SMS、WhatsApp、聊天 - 無額外費用"
+          },
+          "usageIncluded": {
+            "title": "包含使用量",
+            "description": "WhatsApp 和 SMS 使用量包含在方案中"
+          },
+          "noSurprises": {
+            "title": "無意外費用",
+            "description": "可預測的月度成本，易於預測"
+          }
+        },
+        "competitor": {
+          "title": "respond.io：複雜變數",
+          "monthlyContacts": {
+            "title": "月活躍聯絡人",
+            "description": "定價根據聯絡人活動而變化"
+          },
+          "separateFees": {
+            "title": "單獨 WhatsApp 費用",
+            "description": "Meta 費用單獨計費"
+          },
+          "voiceBeta": {
+            "title": "語音測試版",
+            "description": "核心功能仍在開發中"
+          },
+          "unpredictableCosts": {
+            "title": "不可預測成本",
+            "description": "月度帳單可能大幅變動"
+          }
+        }
+      },
+      "voice": {
+        "title": "原生語音 vs. 測試功能",
+        "subtitle": "為什麼語音應該是核心功能，而非後加功能",
+        "seasalt": {
+          "title": "Seasalt.ai：語音優先設計",
+          "nativeVoice": "平台內建原生語音通話",
+          "aiVoicebot": "AI 語音機器人與人工轉接",
+          "unifiedHistory": "語音與數位通道的統一對話歷史",
+          "phoneFeatures": "專業電話系統功能",
+          "productionReady": "生產就緒且完全支援"
+        },
+        "competitor": {
+          "title": "respond.io：語音作為測試版",
+          "betaTesting": "語音通話仍在測試中",
+          "limitedFeatures": "有限的語音功能和可靠性",
+          "potentialBugs": "可能出現錯誤和不穩定",
+          "uncertainRoadmap": "不確定的路線圖和時程",
+          "notRecommended": "不建議用於生產環境"
+        }
+      },
+      "cta": {
+        "title": "準備好體驗真正的全通道了嗎？",
+        "description": "停止等待測試功能。獲得一個語音與數位通道從第一天就完美協作的平台。",
+        "signUp": "立即註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "intercomAlternative": {
+      "seo": {
+        "title": "Intercom 替代方案 - 完整客戶溝通平台 - Seasalt.ai",
+        "description": "比較 Seasalt.ai vs Intercom：超越網站小工具的統一聯絡中心。透明定價 vs 按解決次數收費。包含語音、簡訊、WhatsApp。"
+      },
+      "navigation": {
+        "backText": "返回比較我們概覽"
+      },
+      "hero": {
+        "title": {
+          "prefix": "超越網站小工具。",
+          "highlight": "獲得完整的客戶溝通平台"
+        },
+        "subtitle": "Intercom 在主動網站互動方面表現出色，擁有一流的即時聊天和 AI 聊天機器人 Fin。然而，其定價模式複雜且昂貴，按座位、按 AI 解決次數（每次 $0.99）和附加功能分別收費。語音和簡訊只是按使用付費的附加功能。Seasalt.ai 是作為真正的聯絡中心而建，語音是主要渠道。"
+      },
+      "comparison": {
+        "title": "完整平台 vs. 專注網站的工具",
+        "subtitle": "了解為什麼統一聯絡中心勝過專業的網站互動工具",
+        "table": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Intercom"
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單且可預測的按代理人收費",
+            "competitor": "按座位 + 按解決次數 + 附加功能"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/代理人/月",
+            "competitor": "$29-$39/座位/月"
+          },
+          "aiAgentCost": {
+            "name": "AI 代理成本",
+            "seasalt": "包含在內（基於使用量）",
+            "competitor": "$0.99 每次解決"
+          },
+          "voiceCalling": {
+            "name": "語音通話",
+            "seasalt": "是，原生且完全支援",
+            "competitor": "按使用付費的附加功能"
+          },
+          "coreFocus": {
+            "name": "核心專注",
+            "seasalt": "統一聯絡中心",
+            "competitor": "網站互動與支援"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要完整溝通中心的中小企業",
+            "competitor": "專注於在網站上轉換和支援用戶的 SaaS 和網路企業"
+          }
+        }
+      },
+      "pricing": {
+        "title": "簡單 vs. 複雜定價",
+        "subtitle": "為什麼透明定價勝過按解決次數收費和使用費",
+        "seasalt": {
+          "title": "Seasalt.ai：透明定價",
+          "perAgent": {
+            "title": "$25/代理人/月",
+            "description": "包含一切，沒有意外"
+          },
+          "aiIncluded": {
+            "title": "包含 AI",
+            "description": "計劃中包含語音和聊天機器人"
+          },
+          "allChannels": {
+            "title": "所有渠道",
+            "description": "語音、簡訊、WhatsApp、聊天 - 無額外費用"
+          },
+          "predictable": {
+            "title": "可預測成本",
+            "description": "容易預算和預測"
+          }
+        },
+        "intercom": {
+          "title": "Intercom：複雜計費",
+          "basePrice": {
+            "title": "$39/座位/月",
+            "description": "附加功能前的基礎價格"
+          },
+          "aiResolution": {
+            "title": "$0.99 每次 AI 解決",
+            "description": "每次 AI 互動收費"
+          },
+          "payPerUse": {
+            "title": "按使用付費語音",
+            "description": "語音通話單獨收費"
+          },
+          "unpredictable": {
+            "title": "不可預測帳單",
+            "description": "成本基於使用量變化"
+          }
+        }
+      },
+      "scenarios": {
+        "title": "真實世界成本情境",
+        "subtitle": "了解 Intercom 的按解決次數定價如何快速累積",
+        "light": {
+          "title": "輕度使用",
+          "description": "3 個代理人，100 次 AI 解決/月",
+          "seasalt": {
+            "price": "$75/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$216/月",
+            "label": "Intercom",
+            "breakdown": "（$117 基礎 + $99 AI）"
+          }
+        },
+        "medium": {
+          "title": "中度使用",
+          "description": "5 個代理人，300 次 AI 解決/月",
+          "seasalt": {
+            "price": "$150/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$492/月",
+            "label": "Intercom",
+            "breakdown": "（$195 基礎 + $297 AI）"
+          }
+        },
+        "heavy": {
+          "title": "重度使用",
+          "description": "10 個代理人，1000 次 AI 解決/月",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$1,380/月",
+            "label": "Intercom",
+            "breakdown": "（$390 基礎 + $990 AI）"
+          }
+        }
+      },
+      "channels": {
+        "title": "完整渠道覆蓋 vs. 專注網站",
+        "subtitle": "為什麼企業需要的不僅僅是網站互動",
+        "seasalt": {
+          "title": "Seasalt.ai：完整覆蓋",
+          "voice": "原生語音通話和電話系統",
+          "whatsapp": "WhatsApp Business 整合",
+          "sms": "簡訊行銷和支援",
+          "social": "社群媒體訊息（Instagram、Facebook）",
+          "website": "網站聊天和聯絡表單",
+          "unified": "所有渠道的統一收件匣"
+        },
+        "intercom": {
+          "title": "Intercom：專注網站",
+          "websiteChat": "優秀的網站聊天和互動",
+          "proactive": "主動訊息和目標定位",
+          "voiceAddon": "語音通話作為按使用付費附加功能",
+          "smsLimited": "有限的簡訊功能",
+          "noWhatsapp": "無原生 WhatsApp Business 整合",
+          "noSocial": "無社群媒體訊息支援"
+        }
+      },
+      "cta": {
+        "title": "準備好進行完整的客戶溝通了嗎？",
+        "subtitle": "停止按解決次數付費，獲得一個以可預測價格涵蓋所有客戶溝通需求的完整平台。",
+        "signUp": "註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "kustomerAlternative": {
+      "seo": {
+        "title": "Kustomer 替代方案 | Seasalt.ai 與 Kustomer 比較",
+        "description": "比較 Seasalt.ai 與 Kustomer 客戶支援平台。了解為什麼中小企業選擇我們經濟實惠的全通道解決方案，而非企業級昂貴平台。"
+      },
+      "nav": {
+        "backLink": "返回比較總覽"
+      },
+      "hero": {
+        "title": "企業級功能，中小企業價格。",
+        "highlight": "為什麼您只需要 2 個席位卻要付 8 個席位的錢？",
+        "description": "Kustomer 是一個強大的真正全通道平台，提供客戶歷程的統一視圖。然而，其強大功能伴隨著企業級價格。按席位計費方案起價為每月 89 美元，且強制要求最少 8 個席位，使大多數中小企業無法負擔。關鍵的 AI 功能也是昂貴的附加服務。Seasalt.ai 提供中小企業所需的核心全通道功能和 AI 自動化。"
+      },
+      "comparison": {
+        "title": "中小企業可負擔 vs. 僅限企業",
+        "subtitle": "了解為什麼強大功能不應該需要企業級最低要求",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "kustomer": "Kustomer"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單且可預測的按代理收費",
+            "kustomer": "按席位或按對話收費"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/代理/月",
+            "kustomer": "$89/席位/月"
+          },
+          "minimumCommitment": {
+            "name": "最低承諾",
+            "seasalt": "1 個用戶",
+            "kustomer": "8 個席位（按席位計費方案）"
+          },
+          "aiCapabilities": {
+            "name": "AI 功能",
+            "seasalt": "包含在內（基於使用量）",
+            "kustomer": "付費附加服務（$40/用戶/月或$0.60/對話）"
+          },
+          "omnichannelTimeline": {
+            "name": "全通道時間軸",
+            "seasalt": "是",
+            "kustomer": "是，非常強大"
+          },
+          "coreFocus": {
+            "name": "核心重點",
+            "seasalt": "為中小企業提供經濟實惠的統一通信",
+            "kustomer": "企業級、資料驅動的客戶服務"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要強大但經濟實惠的全通道解決方案的成長型企業",
+            "kustomer": "能滿足席位最低要求且需要深度資料整合的大型支援團隊"
+          }
+        }
+      },
+      "costBarrier": {
+        "title": "8 席位最低限制障礙",
+        "subtitle": "了解 Kustomer 的最低承諾如何讓成長型企業望而卻步",
+        "scenarios": {
+          "twoAgents": {
+            "title": "2 個代理",
+            "seasaltPrice": "$75/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer（8 席位最低）",
+            "savings": "節省 $637/月"
+          },
+          "fiveAgents": {
+            "title": "5 個代理",
+            "seasaltPrice": "$175/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer（8 席位最低）",
+            "savings": "節省 $537/月"
+          },
+          "eightAgents": {
+            "title": "8 個代理",
+            "seasaltPrice": "$225/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer",
+            "savings": "節省 $487/月"
+          }
+        },
+        "problem": {
+          "title": "中小企業可及性問題",
+          "description": "Kustomer 的 8 席位最低要求意味著即使是 2 人團隊也要為 6 個未使用的席位付費。這造成了人為障礙，阻止成長型企業在達到企業規模之前獲得強大的全通道功能。"
+        }
+      },
+      "aiCosts": {
+        "title": "內含 AI vs. 昂貴附加服務",
+        "subtitle": "了解當 AI 被視為高級功能時成本如何累積",
+        "seasalt": {
+          "title": "Seasalt.ai：內含 AI",
+          "voiceAi": {
+            "title": "語音 AI",
+            "description": "包含在基本方案中"
+          },
+          "chatAi": {
+            "title": "聊天 AI",
+            "description": "包含在基本方案中"
+          },
+          "smartRouting": {
+            "title": "智能路由",
+            "description": "包含在基本方案中"
+          },
+          "totalCost": {
+            "title": "AI 總成本",
+            "amount": "$0 額外費用"
+          }
+        },
+        "kustomer": {
+          "title": "Kustomer：AI 作為附加服務",
+          "perUser": {
+            "title": "KIQ AI（按用戶）",
+            "description": "每用戶每月額外 $40"
+          },
+          "perConversation": {
+            "title": "KIQ AI（按對話）",
+            "description": "每對話 $0.60"
+          },
+          "example": {
+            "title": "範例：8 個用戶",
+            "calculation": "8 × $40 = 每月額外 $320"
+          },
+          "totalCost": {
+            "title": "AI 總成本",
+            "amount": "$320+ 額外費用"
+          }
+        }
+      },
+      "features": {
+        "title": "您獲得的 vs. 您付出的",
+        "subtitle": "兩個平台都提供強大的全通道功能，但價格截然不同",
+        "shared": {
+          "title": "兩者都提供的功能",
+          "unifiedInbox": "統一全通道收件箱",
+          "conversationHistory": "客戶對話記錄",
+          "teamCollaboration": "團隊協作工具",
+          "analytics": "分析和報告",
+          "crmIntegrations": "CRM 整合"
+        },
+        "advantages": {
+          "title": "Seasalt.ai 優勢",
+          "noMinimum": "無最低席位要求",
+          "aiIncluded": "基本價格包含 AI",
+          "nativeVoice": "原生語音通話平台",
+          "selfService": "自助設置和管理",
+          "smeFocused": "專注中小企業的定價和功能"
+        }
+      },
+      "cta": {
+        "title": "獲得企業功能，無需企業最低要求",
+        "subtitle": "為什麼您只需要 2 個席位卻要付 8 個席位的錢？獲得強大的全通道功能，根據您的實際團隊規模擴展。",
+        "signUp": "註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "threeCXAlternative": {
+      "seo": {
+        "title": "Seasalt.ai 與 3CX 替代方案比較 - 雲端託管 vs 自行架設",
+        "description": "比較 Seasalt.ai 完全託管的雲端解決方案與 3CX 的自行架設 PBX。了解 3CX「平價」定價背後的真實成本與複雜性。"
+      },
+      "nav": {
+        "backLink": "返回比較概覽"
+      },
+      "hero": {
+        "title": "選擇簡單和雲端力量。",
+        "highlight": "停止管理伺服器，開始與客戶對話",
+        "description": "3CX 提供基於同時通話數而非用戶數的獨特定價模式的開放平台 PBX，對某些企業來說可能具有成本效益。然而，這伴隨著顯著的隱藏複雜性和成本。您需要負責主機、SSL 憑證和技術支援（每張工單從 75 美元起）。它本質上是電話系統，而非原生的全通路平台。Seasalt.ai 是完全託管的雲原生解決方案。"
+      },
+      "comparison": {
+        "title": "託管雲端 vs. 自行架設複雜性",
+        "subtitle": "了解為什麼對於成長中的企業，完全託管優於自己動手",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "threeCX": "3CX"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "平台類型",
+            "seasalt": "雲原生統一通信",
+            "threeCX": "自行架設或託管 IP PBX"
+          },
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單的每座席費用",
+            "threeCX": "按同時通話數 + 主機 + 支援"
+          },
+          "managementOverhead": {
+            "name": "管理負擔",
+            "seasalt": "無（由 Seasalt.ai 完全託管）",
+            "threeCX": "高（需要技術專業知識進行設置和維護）"
+          },
+          "omnichannelInbox": {
+            "name": "全通路收件匣",
+            "seasalt": "是，原生支援",
+            "threeCX": "否，主要是電話系統"
+          },
+          "aiCapabilities": {
+            "name": "AI 功能",
+            "seasalt": "是，原生語音和聊天機器人",
+            "threeCX": "「即將推出」附加元件"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "希望擁有強大、易用、一體化解決方案的企業",
+            "threeCX": "希望完全控制其 PBX 的技術型組織"
+          }
+        }
+      },
+      "hiddenCosts": {
+        "title": "「平價」3CX 的隱藏成本",
+        "subtitle": "看看 3CX 廣告定價中未包含的項目",
+        "seasalt": {
+          "title": "Seasalt.ai：全包式",
+          "pricing": "$25/座席/月",
+          "pricingDescription": "包含所有功能",
+          "cloudHosting": {
+            "title": "雲端主機",
+            "description": "包含 - 無需伺服器管理"
+          },
+          "support": {
+            "title": "支援",
+            "description": "包含 - 無限制支援"
+          },
+          "updates": {
+            "title": "更新和維護",
+            "description": "包含 - 自動更新"
+          },
+          "ssl": {
+            "title": "SSL 憑證",
+            "description": "包含 - 自動管理"
+          }
+        },
+        "threeCX": {
+          "title": "3CX：隱藏成本",
+          "baseLicense": {
+            "price": "~$25/月（4 通通話）",
+            "description": "僅基礎授權"
+          },
+          "hostingCosts": {
+            "title": "主機成本",
+            "description": "VPS/雲端主機每月 $20-100+"
+          },
+          "supportTickets": {
+            "title": "支援工單",
+            "description": "每張支援工單 $75+"
+          },
+          "itManagement": {
+            "title": "IT 管理",
+            "description": "您的時間或顧問費用"
+          },
+          "sslCerts": {
+            "title": "SSL 憑證",
+            "description": "憑證每年 $50-200+"
+          }
+        },
+        "realCost": {
+          "title": "真實的總擁有成本",
+          "description": "3CX 的廣告定價不包括主機、支援、維護，或您花費在管理上的時間。對大多數企業來說，總成本很快就超過完全託管解決方案。",
+          "calculation": "3CX「真實」成本：$25 授權 + $50 主機 + $75 支援工單 + 您的時間 = 每月 $150+"
+        }
+      },
+      "technicalComplexity": {
+        "title": "專注於業務，而非 IT 管理",
+        "subtitle": "了解您使用 3CX 需要管理什麼 vs. Seasalt.ai 為您處理什麼",
+        "threeCX": {
+          "title": "使用 3CX 您需要管理的項目",
+          "serverProvisioning": "伺服器配置和設定",
+          "osUpdates": "作業系統更新和安全修補",
+          "sslInstallation": "SSL 憑證安裝和更新",
+          "firewallConfig": "防火牆設定和安全",
+          "backupRecovery": "備份和災難恢復",
+          "troubleshooting": "故障排除和支援工單",
+          "capacityPlanning": "容量規劃和擴展"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai 處理的項目",
+          "infrastructure": "完整的基礎設施管理",
+          "securityUpdates": "自動安全更新",
+          "sslManagement": "SSL 憑證自動管理",
+          "enterpriseSecurity": "內建企業級安全",
+          "backups": "自動備份和冗餘",
+          "monitoring": "24/7 監控和支援",
+          "scaling": "自動擴展和最佳化"
+        }
+      },
+      "cta": {
+        "title": "專注於業務成長，而非管理伺服器",
+        "subtitle": "為什麼要把時間花在 IT 管理上，而不是與客戶對話？獲得一個真正有效的完全託管解決方案。",
+        "signUp": "註冊",
+        "bookDemo": "預約演示"
+      }
+    },
+    "dialpadAlternative": {
+      "seo": {
+        "title": "Dialpad 替代方案：統一聯絡中心 vs 昂貴升級 | Seasalt.ai",
+        "description": "別被 Dialpad 的升級費用困住！從一開始就獲得統一的聯絡中心解決方案，Seasalt.ai 完整功能每位客服 $25/月，而非 Dialpad 聯絡中心層級的 $80+/月。"
+      },
+      "nav": {
+        "backLink": "回到比較總覽"
+      },
+      "hero": {
+        "title": "不要為「聯絡中心」功能額外付費",
+        "highlight": "從一開始就獲得統一平台",
+        "description": "Dialpad 以每位使用者 $15/月 的有吸引力價格提供強大的 UCaaS 平台，具備出色的語音智能（AI 轉錄和摘要）。然而，這並非他們的聯絡中心解決方案。真正的聯絡中心功能，包括全通道路由和進階分析，需要升級到更昂貴的方案，如 Dialpad Support，起價為 $80/使用者/月。Seasalt.ai 從根本上就是統一的聯絡中心。"
+      },
+      "comparison": {
+        "title": "統一聯絡中心 vs. 分離產品",
+        "subtitle": "了解為什麼從統一平台開始勝過升級到昂貴的聯絡中心層級",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "dialpad": "Dialpad"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "平台架構",
+            "seasalt": "真正的統一聯絡中心",
+            "dialpad": "分離的 UCaaS 和 CCaaS 產品"
+          },
+          "startingPrice": {
+            "name": "起始價格 (UCaaS)",
+            "seasalt": "$25/客服/月",
+            "dialpad": "$15/使用者/月"
+          },
+          "contactCenterPrice": {
+            "name": "聯絡中心價格",
+            "seasalt": "$25/客服/月",
+            "dialpad": "$80+/使用者/月"
+          },
+          "unifiedVoiceDigital": {
+            "name": "統一語音與數位通道",
+            "seasalt": "是，原生包含",
+            "dialpad": "否，需要昂貴的 CCaaS 方案"
+          },
+          "voiceAI": {
+            "name": "語音 AI",
+            "seasalt": "是，語音機器人與轉錄",
+            "dialpad": "是，強大的轉錄與摘要"
+          },
+          "globalSMS": {
+            "name": "全球簡訊",
+            "seasalt": "是",
+            "dialpad": "需要 Pro 方案（$25/月+）"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "想要簡單、強大且真正統一聯絡中心的中小企業",
+            "dialpad": "優先考慮語音通話 AI 但不需要統一數位收件匣的企業"
+          }
+        }
+      },
+      "pricingTiers": {
+        "title": "聯絡中心升級陷阱",
+        "subtitle": "了解 Dialpad 有吸引力的入門價格如何導致聯絡中心功能的昂貴升級",
+        "dialpadStandard": {
+          "title": "Dialpad Standard",
+          "price": "$15",
+          "period": "/使用者/月",
+          "features": {
+            "basicCalling": "基本通話",
+            "voiceIntelligence": "語音智能",
+            "noOmnichannel": "無全通道",
+            "noContactCenter": "無聯絡中心功能"
+          },
+          "goodFor": "適合：基本商務電話"
+        },
+        "dialpadSupport": {
+          "title": "Dialpad Support",
+          "price": "$80+",
+          "period": "/使用者/月",
+          "features": {
+            "contactCenterFeatures": "聯絡中心功能",
+            "omnichannelRouting": "全通道路由",
+            "advancedAnalytics": "進階分析",
+            "digitalChannels": "數位通道"
+          },
+          "requiredFor": "必需用於：聯絡中心需求"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "$25",
+          "period": "/客服/月",
+          "features": {
+            "fullContactCenter": "完整聯絡中心",
+            "allChannelsIncluded": "包含所有通道",
+            "aiVoiceChat": "AI 語音與聊天",
+            "noUpgradeRequired": "無需升級"
+          },
+          "perfectFor": "完美適用：完整解決方案"
+        }
+      },
+      "costAnalysis": {
+        "title": "聯絡中心功能的真實成本",
+        "subtitle": "了解 Dialpad 的升級成本如何與 Seasalt.ai 的統一定價比較",
+        "agents5": {
+          "title": "5 位客服",
+          "seasalt": {
+            "price": "$125/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$75/月",
+            "label": "Dialpad（僅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$400/月",
+            "label": "Dialpad（聯絡中心）"
+          }
+        },
+        "agents10": {
+          "title": "10 位客服",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$150/月",
+            "label": "Dialpad（僅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$800/月",
+            "label": "Dialpad（聯絡中心）"
+          }
+        },
+        "agents20": {
+          "title": "20 位客服",
+          "seasalt": {
+            "price": "$525/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$300/月",
+            "label": "Dialpad（僅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$1,600/月",
+            "label": "Dialpad（聯絡中心）"
+          }
+        }
+      },
+      "voiceAI": {
+        "title": "語音 AI：兩個平台都表現出色",
+        "subtitle": "兩個平台都提供強大的語音 AI 功能，但在不同的應用環境下",
+        "seasalt": {
+          "title": "Seasalt.ai：完整 AI 套件",
+          "features": {
+            "voicebotHandling": "自動通話處理的 AI 語音機器人",
+            "realtimeTranscription": "即時轉錄和摘要",
+            "aiChatbots": "數位通道的 AI 聊天機器人",
+            "unifiedAI": "跨所有通道的統一 AI",
+            "includedPricing": "包含在基本定價中"
+          }
+        },
+        "dialpad": {
+          "title": "Dialpad：專注語音的 AI",
+          "features": {
+            "excellentTranscription": "出色的即時轉錄",
+            "aiSummaries": "AI 驅動的通話摘要",
+            "sentimentAnalysis": "情感分析",
+            "limitedVoiceOnly": "僅限於語音通道",
+            "noAutomatedHandling": "無自動通話處理"
+          }
+        }
+      },
+      "cta": {
+        "title": "跳過昂貴的升級路徑",
+        "description": "為什麼要從基本功能開始，然後為聯絡中心功能支付 3 倍的費用？從第一天開始就以一小部分成本獲得所需的一切功能。",
+        "buttons": {
+          "signUp": "註冊",
+          "bookDemo": "預約演示"
+        }
+      }
+    },
+    "eightXEightAlternative": {
+      "seo": {
+        "title": "8x8 替代方案：企業功能無需企業定價 | Seasalt.ai",
+        "description": "以中小企業友善的定價獲得所需的企業級全通道功能。透明、簡單且經濟實惠的複雜 8x8 企業解決方案替代方案。"
+      },
+      "nav": {
+        "backLink": "回到比較總覽"
+      },
+      "hero": {
+        "title": "獲得您需要的企業功能，",
+        "highlight": "無需您不需要的企業定價",
+        "description": "8x8 是一個全面的企業級解決方案，提供完整的 UCaaS 和 CCaaS 功能套件，包括真正的全通道路由和進階分析。雖然功能強大，但其定價不透明（基於報價）且歷史上昂貴，針對大型組織。對於中小企業而言，複雜性和成本往往令人望而卻步。Seasalt.ai 提供為成長中企業帶來價值的關鍵全通道和 AI 功能。"
+      },
+      "comparison": {
+        "title": "中小企業導向 vs. 企業複雜",
+        "subtitle": "了解為什麼簡單透明勝過複雜不透明的成長中企業",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "eightXEight": "8x8"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "目標客戶",
+            "seasalt": "中小型企業 (SMEs)",
+            "eightXEight": "中型市場到企業"
+          },
+          "pricingModel": {
+            "name": "定價模式",
+            "seasalt": "簡單且可預測的每位客服費用",
+            "eightXEight": "基於報價（歷史上昂貴的層級）"
+          },
+          "startingPrice": {
+            "name": "起始價格",
+            "seasalt": "$25/客服/月",
+            "eightXEight": "未公開列出（之前基本 UCaaS 從 $24/月 開始）"
+          },
+          "omnichannelRouting": {
+            "name": "全通道路由",
+            "seasalt": "是",
+            "eightXEight": "是，進階版"
+          },
+          "workforceManagement": {
+            "name": "員工管理",
+            "seasalt": "基本版",
+            "eightXEight": "是，進階版"
+          },
+          "easeOfSetup": {
+            "name": "設置簡易度",
+            "seasalt": "簡單，自助服務",
+            "eightXEight": "複雜，必須聯繫銷售"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要強大但經濟實惠且易於使用平台的中小企業",
+            "eightXEight": "需要完整進階通訊和管理工具套件的大型企業"
+          }
+        }
+      },
+      "pricingTransparency": {
+        "title": "透明 vs. 隱藏定價",
+        "subtitle": "為什麼基於報價的定價會為成長中的企業創造障礙",
+        "seasalt": {
+          "title": "Seasalt.ai：透明定價",
+          "pricing": {
+            "title": "$25/客服/月",
+            "description": "清晰、公開的定價"
+          },
+          "selfService": {
+            "title": "自助註冊",
+            "description": "立即開始，無需銷售通話"
+          },
+          "noMinimums": {
+            "title": "無最低限制",
+            "description": "從 1 位使用者開始，根據需要擴展"
+          },
+          "predictableCosts": {
+            "title": "可預測成本",
+            "description": "輕鬆預算和預測"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8：基於報價的複雜性",
+          "hiddenPricing": {
+            "title": "隱藏定價",
+            "description": "必須聯繫銷售獲取定價"
+          },
+          "salesProcess": {
+            "title": "銷售流程",
+            "description": "冗長的銷售週期和談判"
+          },
+          "enterpriseFocus": {
+            "title": "企業導向",
+            "description": "為大型組織優化的定價"
+          },
+          "complexContracts": {
+            "title": "複雜合約",
+            "description": "多年承諾和複雜條款"
+          }
+        },
+        "quoteBasedProblem": {
+          "title": "基於報價定價的問題",
+          "description": "當定價不透明時，通常意味著它很昂貴。基於報價的定價為需要預算和快速決策的中小企業創造障礙。它是為擁有專門採購團隊和大型預算的企業買家而設計的。"
+        }
+      },
+      "featureComparison": {
+        "title": "精要 vs. 過度工程",
+        "subtitle": "了解 Seasalt.ai 如何專注於中小企業實際需要的功能 vs. 企業複雜性",
+        "seasalt": {
+          "title": "Seasalt.ai：中小企業導向",
+          "features": {
+            "essentialOmnichannel": "精要全通道功能",
+            "aiAutomation": "包含 AI 自動化",
+            "simpleSetup": "簡單設置和管理",
+            "intuitiveUI": "直觀的使用者介面",
+            "affordableScaling": "經濟實惠的擴展",
+            "fastTimeToValue": "快速實現價值"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8：企業複雜",
+          "features": {
+            "advancedWorkforce": "進階員工管理",
+            "comprehensiveAnalytics": "全面分析套件",
+            "complexImplementation": "需要複雜實施",
+            "steepLearning": "陡峭的學習曲線",
+            "highTotalCost": "高總體擁有成本",
+            "longDeployment": "冗長的部署時間"
+          }
+        }
+      },
+      "businessImpact": {
+        "title": "商業影響比較",
+        "subtitle": "平台選擇如何影響您的業務營運和成長",
+        "timeToDeploy": {
+          "title": "部署時間",
+          "seasalt": {
+            "value": "分鐘",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "月份",
+            "label": "8x8"
+          }
+        },
+        "learningCurve": {
+          "title": "學習曲線",
+          "seasalt": {
+            "value": "低",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "高",
+            "label": "8x8"
+          }
+        },
+        "totalCost": {
+          "title": "總成本",
+          "seasalt": {
+            "value": "可預測",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "可變",
+            "label": "8x8"
+          }
+        }
+      },
+      "cta": {
+        "title": "獲得企業級功能與中小企業簡易性",
+        "description": "為什麼要應對企業複雜性，當您可以在專為成長中企業設計的簡單、經濟實惠套件中獲得所需功能？",
+        "buttons": {
+          "signUp": "註冊",
+          "bookDemo": "預約演示"
+        }
+      }
+    },
+    "openPhoneAlternative": {
+      "seo": {
+        "title": "OpenPhone 替代方案：超越電話與簡訊的全通道解決方案 | Seasalt.ai",
+        "description": "從 OpenPhone 的語音/簡訊限制升級到完整的全通道平台。以 $25/客服獲得 WhatsApp、網站聊天、AI 自動化和進階路由功能。"
+      },
+      "nav": {
+        "backLink": "回到比較總覽"
+      },
+      "hero": {
+        "title": "您的業務需要的不只是一個電話號碼。",
+        "highlight": "升級到真正的通訊平台",
+        "description": "OpenPhone 是一個出色、現代且經濟實惠的商務電話系統，非常適合需要共享號碼進行通話和簡訊的團隊。然而，它並非全通道客服中心。它缺乏網站聊天和社群媒體等關鍵通道，其自動化和 AI 功能僅限於附加元件或基本整合。Seasalt.ai 是已經超越簡單電話解決方案的企業的合理下一步。"
+      },
+      "comparison": {
+        "title": "電話系統 vs. 完整通訊平台",
+        "subtitle": "了解為什麼成長中的企業需要的不僅僅是語音和簡訊",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "openPhone": "OpenPhone"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "平台類型",
+            "seasalt": "全通道客服中心",
+            "openPhone": "商務電話系統 (VoIP)"
+          },
+          "supportedChannels": {
+            "name": "支援通道",
+            "seasalt": "語音、簡訊、WhatsApp、網站聊天、社群媒體",
+            "openPhone": "僅語音與簡訊/MMS"
+          },
+          "unifiedInbox": {
+            "name": "統一收件匣",
+            "seasalt": "是，適用所有通道",
+            "openPhone": "是，但僅限通話與簡訊"
+          },
+          "aiFeatures": {
+            "name": "AI 語音/聊天機器人",
+            "seasalt": "是，原生且包含",
+            "openPhone": "AI 是付費附加元件 ($49/月)"
+          },
+          "advancedRouting": {
+            "name": "進階路由",
+            "seasalt": "是，技能型與 IVR",
+            "openPhone": "商務方案基本 IVR ($23/月+)"
+          },
+          "crmIntegrations": {
+            "name": "CRM 整合",
+            "seasalt": "是",
+            "openPhone": "僅商務方案提供 HubSpot/Salesforce"
+          },
+          "bestFor": {
+            "name": "最適合",
+            "seasalt": "需要在一處管理所有客戶溝通通道的企業",
+            "openPhone": "需要簡單、經濟實惠共享電話號碼的小型團隊和新創公司"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "當您超越簡單電話系統",
+        "subtitle": "是時候從 OpenPhone 升級到完整通訊平台的跡象",
+        "customerChat": {
+          "title": "客戶想要聊天",
+          "description": "您的客戶要求網站聊天、WhatsApp 支援或 OpenPhone 無法提供的社群媒體訊息功能。"
+        },
+        "automation": {
+          "title": "您需要自動化",
+          "description": "您希望 AI 處理例行問題、預約會議，或提供超越基本自動回覆的 24/7 支援。"
+        },
+        "complexRouting": {
+          "title": "複雜通話路由",
+          "description": "您需要超越 OpenPhone 基本功能的進階 IVR、技能型路由或佇列管理。"
+        },
+        "marketingCampaigns": {
+          "title": "行銷活動",
+          "description": "您想要執行外撥簡訊活動、WhatsApp 行銷或多通道客戶推廣。"
+        },
+        "unifiedCustomerView": {
+          "title": "統一客戶檢視",
+          "description": "您需要查看所有通道的客戶互動，不僅僅是電話通話和簡訊。"
+        },
+        "advancedAnalytics": {
+          "title": "進階分析",
+          "description": "您希望獲得客戶互動、客服表現和業務指標的詳細報告。"
+        }
+      },
+      "featureExpansion": {
+        "title": "使用 Seasalt.ai 您將獲得什麼",
+        "subtitle": "保留您喜愛的 OpenPhone 所有功能並增加強大的全通道能力",
+        "keepWorks": {
+          "title": "保留有用功能",
+          "sharedNumber": "共享商務電話號碼",
+          "teamSMS": "團隊簡訊和 MMS 訊息",
+          "simpleInterface": "簡單直觀的介面",
+          "mobileApp": "隨身移動應用程式",
+          "affordablePricing": "經濟實惠的定價"
+        },
+        "addCapabilities": {
+          "title": "新增新功能",
+          "whatsapp": "WhatsApp Business 整合",
+          "webchat": "網站聊天小工具",
+          "socialMedia": "社群媒體訊息",
+          "aiVoicebots": "AI 語音機器人和聊天機器人",
+          "analytics": "進階分析和報告"
+        }
+      },
+      "pricingComparison": {
+        "title": "定價比較",
+        "subtitle": "了解 Seasalt.ai 的完整平台與 OpenPhone 加附加元件的比較",
+        "openPhoneStarter": {
+          "title": "OpenPhone 入門版",
+          "price": "$15",
+          "period": "/使用者/月",
+          "voiceOnly": "僅語音與簡訊",
+          "noAI": "無 AI 功能",
+          "noChannels": "無其他通道"
+        },
+        "openPhoneAddons": {
+          "title": "OpenPhone + 附加元件",
+          "price": "$72",
+          "period": "/使用者/月",
+          "businessPlan": "商務方案 ($23)",
+          "aiFeatures": "AI 功能 ($49)",
+          "stillLimited": "仍僅限語音與簡訊"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "$25",
+          "period": "/客服/月",
+          "allChannels": "包含所有通道",
+          "aiIncluded": "包含 AI",
+          "completePlatform": "完整平台"
+        }
+      },
+      "migrationPath": {
+        "title": "簡單遷移路徑",
+        "subtitle": "無縫從 OpenPhone 轉換到 Seasalt.ai，不會丟失您的號碼或中斷服務",
+        "keepNumber": {
+          "title": "保留您的號碼",
+          "description": "將您現有的商務號碼轉移到 Seasalt.ai"
+        },
+        "addChannels": {
+          "title": "新增新通道",
+          "description": "連接 WhatsApp、網站聊天和社群媒體"
+        },
+        "enableAI": {
+          "title": "啟用 AI",
+          "description": "設定自動回應和語音機器人"
+        },
+        "trainTeam": {
+          "title": "培訓您的團隊",
+          "description": "快速上手新功能和能力"
+        }
+      },
+      "cta": {
+        "title": "準備升級您的通訊平台嗎？",
+        "description": "保留您喜愛的 OpenPhone 所有功能，並新增強大的全通道能力來幫助您的業務成長。",
+        "buttons": {
+          "signUp": "註冊",
+          "bookDemo": "預約演示"
+        }
       }
     }
   }
