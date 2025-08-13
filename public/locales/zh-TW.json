@@ -5,10 +5,10 @@
     "industries": "產業",
     "channels": "渠道",
     "pricing": "定價",
-    "compareUs": "比較我們",
+    "compareUs": "產品比較",
     "blog": "部落格",
     "login": "登入",
-    "startForFree": "註冊",
+    "startForFree": "免費開始",
     "backToChannels": "返回所有渠道",
     "allChannelsOverview": "所有渠道總覽",
     "solutionsDropdown": {
@@ -59,19 +59,21 @@
     },
     "cta": {
       "title": "準備好轉變您的客戶溝通了嗎？",
-      "startFreeTrial": "註冊",
+      "startFreeTrial": "免費註冊",
       "scheduleDemo": "安排演示"
     },
     "tagline": "為小型企業打造的多合一聯絡中心。自動化支援，捕捉每個潛在客戶，並統一您所有的客戶對話。",
     "seahealth": "SeaHealth - 優化醫療保健",
     "productWiki": "產品 Wiki",
-    "apiReferences": "API 參考"
+    "apiReferences": "API 參考",
+    "madeWith": "由",
+    "inCityOf": "在"
   },
   "hero": {
     "title": "停止應付多個應用程式 <br> 將每個客戶的 <br> 通話、WhatsApp 和聊天 <br> 統一在一個簡單的收件匣中。",
     "titleWithGradient": "停止應付多個應用程式。 <1>統一每個客戶的</1> 通話、簡訊、WhatsApp 和聊天於一個簡單的收件匣中。",
     "description": "Seasalt.ai 是為小型企業打造的多合一聯絡中心。自動化支援，捕捉每個潛在客戶，並從單一螢幕管理所有對話。",
-    "signUp": "註冊",
+    "signUp": "免費註冊",
     "seeDemo": "預約演示",
     "trustedBy": "受到全球成長中企業的信賴",
     "developerMessage": "Seasalt.ai 為開發者帶來一個智能體通訊工具，用於以下<1>工具使用</1>：",
@@ -394,6 +396,102 @@
       "description": "加入信任 Seasalt.ai 的行業領導者，提供卓越的客戶體驗，同時滿足特定的法規和運營要求。",
       "signUp": "註冊",
       "bookDemo": "預約演示"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "返回首頁"
+      },
+      "hero": {
+        "title": "改變您的教育機構",
+        "signUp": "開始使用",
+        "seeDemo": "查看演示",
+        "hipaaOffering": "FERPA 合規解決方案"
+      },
+      "seo": {
+        "titleSuffix": "解決方案 - Seasalt.ai",
+        "descriptionPrefix": "了解 Seasalt.ai 如何幫助",
+        "descriptionSuffix": "企業改善客戶溝通並推動成長。"
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "什麼"
+      },
+      "benefits": {
+        "title": "為什麼選擇我們的教育平台？",
+        "description": "我們的全面解決方案解決了教育機構面臨的獨特挑戰，從K-12學校到高等教育和培訓中心。"
+      },
+      "useCases": {
+        "title": "為教育卓越而建",
+        "description": {
+          "start": "探索企業在",
+          "end": "行業中如何利用我們的 AI 平台"
+        },
+        "customerSupport": {
+          "title": "客戶支援",
+          "description": "全天候 AI 驅動的全渠道支援"
+        },
+        "leadGeneration": {
+          "title": "潛在客戶開發",
+          "description": "自動捕捉和篩選潛在客戶"
+        },
+        "analytics": {
+          "title": "業務分析",
+          "description": "追蹤績效並優化營運"
+        },
+        "subtitle": "探索我們的平台如何支持教育管理的各個方面",
+        "case1": {
+          "title": "學生信息系統",
+          "description": "集中學生記錄、成績和學術進度追蹤"
+        },
+        "case2": {
+          "title": "學習管理",
+          "description": "提供課程、追蹤進度和管理教育內容"
+        },
+        "case3": {
+          "title": "行政工具",
+          "description": "簡化註冊、排程和機構運營"
+        }
+      },
+      "testimonials": {
+        "title": "受教育領導者信賴",
+        "quote1": "這個 AI 平台徹底改變了我們處理客戶互動的方式。回應時間改善了 80%，客戶滿意度達到歷史新高。",
+        "author1": "陈雅雯",
+        "company1": "企業主",
+        "quote2": "自動化功能令人驚嘆。我們現在可以用相同的團隊規模處理 5 倍的查詢，讓我們能專注於策略性成長。",
+        "author2": "羅德里格茲",
+        "company2": "營運經理",
+        "subtitle": "看看機構如何改變其運營",
+        "testimonial1": {
+          "quote": "這個平台徹底改變了我們管理學校運營的方式。學生數據現在已經集中化且易於訪問。",
+          "author": "莎拉·約翰遜博士",
+          "position": "林肯小學校長"
+        },
+        "testimonial2": {
+          "quote": "學習管理功能讓我們的學生和教職工能夠無縫進行遠程和混合式學習。",
+          "author": "陳邁克教授",
+          "position": "州立大學技術學院院長"
+        },
+        "testimonial3": {
+          "quote": "我們的行政效率大幅提升。從註冊到報告的所有工作現在都變得簡化。",
+          "author": "瑪利亞·羅德里格斯",
+          "position": "社區學院區管理員"
+        }
+      },
+      "cta": {
+        "title": "準備好改變您的機構了嗎？",
+        "description": "加入數千家信賴我們平台高效安全管理其運營的教育機構。",
+        "signUp": "開始免費試用",
+        "scheduleDemo": "安排演示",
+        "seahealthLink": "探索符合 HIPAA 標準的醫療保健解決方案",
+        "buttons": {
+          "primary": "開始免費試用",
+          "secondary": "安排演示",
+          "contact": "聯繫銷售"
+        }
+      },
+      "solutions": {
+        "title": "解決方案"
+      }
     }
   },
   "channels": {
@@ -488,7 +586,7 @@
       "headline": "24/7 恢復廢棄購物車並回答訂單問題",
       "benefits": [
         "透過 WhatsApp 和簡訊自動更新訂單狀態",
-        "AI 即時處理「我的包裹在哪裡？」的查詢",
+        "AI 即時處理「我的包裹在哪裡？」查詢",
         "透過智慧跟進恢復 15% 以上的廢棄購物車",
         "包含 Shopify 和 Squarespace 整合"
       ]
@@ -557,11 +655,25 @@
       "title": "金融服務",
       "headline": "安全的客戶溝通和預約管理",
       "benefits": [
-        "符合 FINRA 的訊息傳遞和錄音",
+        "符合 FINRA 的訊息傳遞和記錄",
         "自動預約確認",
-        "透過聊天安全收集文件",
+        "透過聊天進行安全文件收集",
         "客戶入職工作流程自動化"
       ]
+    },
+    "educationTraining": {
+      "title": "教育與培訓",
+      "headline": "透過全面管理解決方案簡化您的教育機構",
+      "benefits": [
+        "自動化課程註冊和排程",
+        "AI 24/7 處理常見學生問題",
+        "透過 WhatsApp 進行家長與教師溝通",
+        "透過簡訊發送活動通知和提醒"
+      ],
+      "benefits[0]": "簡化學生註冊和記錄管理",
+      "benefits[1]": "自動化排程和課程管理",
+      "benefits[2]": "增強的家長教師溝通工具",
+      "benefits[3]": "全面的報告和分析"
     }
   },
   "productsData": {
@@ -600,6 +712,37 @@
     "smeOwners": {
       "title": "適用於中小企業主"
     }
+  },
+  "common": {
+    "tableOfContents": "目錄",
+    "loading": {
+      "translations": "載入翻譯中...",
+      "blogPosts": "載入部落格文章中..."
+    },
+    "actions": {
+      "signUp": "註冊",
+      "bookDemo": "預約演示"
+    }
+  },
+  "navigation": {
+    "backToHome": "回到首頁",
+    "backToBlog": "回到部落格"
+  },
+  "blog": {
+    "searchPlaceholder": "搜尋部落格文章...",
+    "allCategories": "所有分類",
+    "clearFilters": "清除篩選器"
+  },
+  "contact": {
+    "phone": "+1 (SMB)-AI-AGENT",
+    "email": "info@seasalt.ai",
+    "location": "Seattle, WA"
+  },
+  "seo": {
+    "mainTitle": "Seasalt.ai - 中小企業全渠道聯絡中心",
+    "channelsTitle": "溝通渠道 - Seasalt.ai",
+    "compareTitle": "比較 Seasalt.ai 與替代方案",
+    "companyTitle": "關於 Seasalt.ai - 公司資訊與領導團隊"
   },
   "seachat": {
     "common": {

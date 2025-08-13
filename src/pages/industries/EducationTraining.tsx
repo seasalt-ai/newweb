@@ -6,9 +6,7 @@ const EducationTraining = () => {
   
   return (
     <IndustryPageTemplate
-      title={industryData.title}
-      headline={industryData.headline}
-      benefits={industryData.benefits}
+      industryKey="educationTraining"
       color={industryData.color}
       bgColor={industryData.bgColor}
       borderColor={industryData.borderColor}
