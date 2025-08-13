@@ -4,7 +4,7 @@ export const HUBSPOT_DEMO_ZH_TW = 'https://meetings.hubspot.com/seasalt-ai/seasa
 
 // Helper function to get the appropriate meeting URL based on language
 export const getMeetingUrl = (language: string): string => {
-  if (language === 'zh-CN' || language === 'zh-TW') {
+  if (language.toLowerCase() === 'zh-cn' || language.toLowerCase() === 'zh-tw') {
     return HUBSPOT_DEMO_ZH_TW;
   }
   return MEETING_URL;
