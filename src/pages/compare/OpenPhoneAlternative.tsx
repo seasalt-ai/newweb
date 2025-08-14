@@ -60,7 +60,7 @@ const OpenPhoneAlternative = () => {
       <SEOHelmet 
         title={t('compare.openPhoneAlternative.seo.title')}
         description={t('compare.openPhoneAlternative.seo.description')}
-        canonical={`https://seasalt.ai/${currentLanguage}/compare/openphone-alternative`}
+        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/openphone-alternative`}
         hreflang={[
           { lang: 'en', url: 'https://seasalt.ai/en/compare/openphone-alternative' },
           { lang: 'zh-TW', url: 'https://seasalt.ai/zh-TW/compare/openphone-alternative' }

@@ -60,7 +60,7 @@ const EightXEightAlternative = () => {
       <SEOHelmet 
         title={t('compare.eightXEightAlternative.seo.title')}
         description={t('compare.eightXEightAlternative.seo.description')}
-        canonical={`https://seasalt.ai/${currentLanguage}/compare/8x8-alternative`}
+        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/8x8-alternative`}
         hreflang={[
           { lang: 'en', url: 'https://seasalt.ai/en/compare/8x8-alternative' },
           { lang: 'zh-TW', url: 'https://seasalt.ai/zh-TW/compare/8x8-alternative' }

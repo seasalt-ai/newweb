@@ -1,6 +1,6 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-13T09:15:54.962Z
+Generated: 2025-08-14T06:55:07.945Z
 
 ## Executive Summary
 
@@ -15,25 +15,25 @@ Generated: 2025-08-13T09:15:54.962Z
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 30 | 0.54% | ❌ Incomplete |
-| de | 30 | 0.50% | ❌ Incomplete |
+| ar | 425 | 13.71% | ❌ Incomplete |
+| de | 422 | 13.61% | ❌ Incomplete |
 | en | 2990 | 100.00% | ✅ Good |
-| es | 30 | 0.50% | ❌ Incomplete |
-| fa | 46 | 1.07% | ❌ Incomplete |
-| fil | 30 | 0.50% | ❌ Incomplete |
-| fr | 30 | 0.50% | ❌ Incomplete |
-| hi | 30 | 0.50% | ❌ Incomplete |
-| id | 30 | 0.50% | ❌ Incomplete |
-| ja | 30 | 0.54% | ❌ Incomplete |
-| ko | 30 | 0.50% | ❌ Incomplete |
-| ms | 30 | 0.50% | ❌ Incomplete |
-| pl | 16 | 0.50% | ❌ Incomplete |
-| pt | 16 | 0.50% | ❌ Incomplete |
-| ru | 16 | 0.50% | ❌ Incomplete |
-| ta | 30 | 0.50% | ❌ Incomplete |
-| th | 30 | 0.50% | ❌ Incomplete |
-| vi | 30 | 0.50% | ❌ Incomplete |
-| zh-CN | 46 | 1.07% | ❌ Incomplete |
+| es | 422 | 13.61% | ❌ Incomplete |
+| fa | 438 | 14.18% | ❌ Incomplete |
+| fil | 422 | 13.61% | ❌ Incomplete |
+| fr | 422 | 13.61% | ❌ Incomplete |
+| hi | 422 | 13.61% | ❌ Incomplete |
+| id | 422 | 13.61% | ❌ Incomplete |
+| ja | 422 | 13.65% | ❌ Incomplete |
+| ko | 422 | 13.61% | ❌ Incomplete |
+| ms | 422 | 13.61% | ❌ Incomplete |
+| pl | 408 | 13.61% | ❌ Incomplete |
+| pt | 408 | 13.61% | ❌ Incomplete |
+| ru | 408 | 13.61% | ❌ Incomplete |
+| ta | 422 | 13.61% | ❌ Incomplete |
+| th | 422 | 13.61% | ❌ Incomplete |
+| vi | 422 | 13.61% | ❌ Incomplete |
+| zh-CN | 485 | 15.62% | ❌ Incomplete |
 | zh-TW | 3030 | 99.36% | ✅ Good |
 
 ## Priority Actions Required

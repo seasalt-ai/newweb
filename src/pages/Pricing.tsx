@@ -664,7 +664,7 @@ const PricingPage = () => {
                 {/* Voice AI */}
                 <div className="bg-white rounded-xl shadow-md p-6 text-center">
                   <Phone className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('tpricing.ransparentAI.voiceAI.title')}</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.voiceAI.title')}</h4>
                   <div className="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentAI.voiceAI.price')}</div>
                   <p className="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.voiceAI.period')}</p>
                   <ul className="text-sm text-gray-700 space-y-1">

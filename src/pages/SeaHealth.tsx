@@ -117,24 +117,24 @@ const SeaHealth = () => {
             <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-100">
               <div className="mb-2 flex items-center justify-center">
                 <FaRegArrowAltCircleDown className="w-16 h-16 text-blue-500 mr-4" aria-label="Missed Call" />
-                <h3 className="text-xl font-bold text-blue-900 text-center">Missed Inbound Calls from Patients</h3>
+                <h3 className="text-xl font-bold text-blue-900 text-center">{t('solutions.seahealth.frontOfficeChallenges.missedCalls.title')}</h3>
               </div>
               <ul className="space-y-2 text-blue-800 text-base">
-                <li className="flex items-center"><FaRegBell className="w-10 h-10 mr-3 text-cyan-500" aria-label="Bell" />Eliminate after-hour voicemails with active follow-ups.</li>
-                <li className="flex items-center"><FaRegCalendarCheck className="w-10 h-10 mr-3 text-green-500" aria-label="Calendar" />Simplify appointment scheduling and rescheduling.</li>
-                <li className="flex items-center"><FaRegLifeRing className="w-16 h-16 mr-4 text-blue-400" aria-label="Life Ring" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>
+                <li className="flex items-center"><FaRegBell className="w-10 h-10 mr-3 text-cyan-500" aria-label="Bell" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.voicemails')}</li>
+                <li className="flex items-center"><FaRegCalendarCheck className="w-10 h-10 mr-3 text-green-500" aria-label="Calendar" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.scheduling')}</li>
+                <li className="flex items-center"><FaRegLifeRing className="w-16 h-16 mr-4 text-blue-400" aria-label="Life Ring" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.retention')}</li>
               </ul>
             </div>
             {/* Outbound Calls Nobody Wants to Make */}
             <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-200">
               <div className="mb-2 flex items-center justify-center">
                 <FaRegArrowAltCircleUp className="w-16 h-16 text-blue-500 mr-4" aria-label="Outbound Call" />
-                <h3 className="text-xl font-bold text-blue-900 text-center">Outbound Calls Nobody Wants to Make</h3>
+                <h3 className="text-xl font-bold text-blue-900 text-center">{t('solutions.seahealth.frontOfficeChallenges.outboundCalls.title')}</h3>
               </div>
               <ul className="space-y-2 text-blue-800 text-base">
-                <li className="flex items-center"><FaRegListAlt className="w-10 h-10 mr-3 text-blue-400" aria-label="List" />Ensure thoroughness in procedure follow-up calls.</li>
-                <li className="flex items-center"><FaRegHandshake className="w-10 h-10 mr-3 text-green-500" aria-label="Handshake" />Simplify lengthy conversations with insurance companies.</li>
-                <li className="flex items-center"><FaRegStar className="w-16 h-16 mr-4 text-yellow-500" aria-label="Star" />Reactivate lapsed patients with effective promotions to fill empty slots.</li>
+                <li className="flex items-center"><FaRegListAlt className="w-10 h-10 mr-3 text-blue-400" aria-label="List" />{t('solutions.seahealth.frontOfficeChallenges.outboundCalls.followUp')}</li>
+                <li className="flex items-center"><FaRegHandshake className="w-10 h-10 mr-3 text-green-500" aria-label="Handshake" />{t('solutions.seahealth.frontOfficeChallenges.outboundCalls.insurance')}</li>
+                <li className="flex items-center"><FaRegStar className="w-16 h-16 mr-4 text-yellow-500" aria-label="Star" />{t('solutions.seahealth.frontOfficeChallenges.outboundCalls.reactivation')}</li>
               </ul>
             </div>
           </div>
@@ -144,48 +144,48 @@ const SeaHealth = () => {
       {/* Solutions for Every Healthcare Setting */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-10 animate-gradient-x text-center">Solutions for Every Healthcare Setting</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-10 animate-gradient-x text-center">{t('solutions.seahealth.solutions.title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* Hospitals & Clinics */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/hospital.svg" alt="Hospitals & Clinics Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Hospitals & Clinics</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.hospitals')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Dental Clinics */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/dental.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/dental.svg" alt="Dental Clinics Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Dental Clinics</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.dental')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Hospice Homes */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/hospice.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/hospice.svg" alt="Hospice Homes Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Hospice Homes</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.hospice')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Emergency Care */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/emergency.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/emergency.svg" alt="Emergency Care Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Emergency Care</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.emergency')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Adult Family Homes */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/adult.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/adult.svg" alt="Adult Family Homes Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Adult Family Homes</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.adult')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Veterinary Hospitals */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/vet.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/vet.svg" alt="Veterinary Hospitals Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Veterinary Hospitals</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.veterinary')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
             {/* Cosmetic Surgery */}
             <div className="relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6" style={{backgroundImage: 'url(/health-images/settings/cosmetic.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <img src="/health-images/settings/cosmetic.svg" alt="Cosmetic Surgery Icon" className="w-16 h-16 mb-2 z-10" />
-              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">Cosmetic Surgery</h3>
+              <h3 className="text-lg font-semibold text-white text-center z-10 drop-shadow-lg">{t('solutions.seahealth.solutions.cosmetic')}</h3>
               <div className="absolute inset-0 bg-black/30 z-0" aria-hidden="true"></div>
             </div>
           </div>
@@ -198,41 +198,41 @@ const SeaHealth = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-12">
             <div className="flex flex-col items-center justify-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 w-full md:w-1/2 animate-fade-in-up">
               <img src="/logo-seahealth.svg" alt="SeaHealth Logo" className="w-40 h-40 mb-4" />
-              <h3 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>
-              <p className="text-blue-900 mb-2 text-center text-xl">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>
+              <h3 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x">{t('solutions.seahealth.seahealthSolution.title')}</h3>
+              <p className="text-blue-900 mb-2 text-center text-xl">{t('solutions.seahealth.seahealthSolution.description')}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2">
               <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-100">
-                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">For Healthcare Providers</h3>
+                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.seahealthSolution.forProviders.title')}</h3>
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <FaRegListAlt className="w-8 h-8 mr-3 text-blue-500" aria-label="Reduce administrative burden" />
-                    <span className="text-blue-900 text-lg font-bold">Reduce administrative burden</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit1')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegSmile className="w-8 h-8 mr-3 text-green-500" aria-label="Improve patient satisfaction" />
-                    <span className="text-blue-900 text-lg font-bold">Improve patient satisfaction</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit2')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaChartBar className="w-8 h-8 mr-3 text-blue-400" aria-label="Increase operational efficiency" />
-                    <span className="text-blue-900 text-lg font-bold">Increase operational efficiency</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit3')}</span>
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-200">
-                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">For Patients</h3>
+                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.seahealthSolution.forPatients.title')}</h3>
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <FaRegClock className="w-8 h-8 mr-3 text-blue-500" aria-label="24/7 access to support" />
-                    <span className="text-blue-900 text-lg font-bold">24/7 access to support</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit1')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegCalendarPlus className="w-8 h-8 mr-3 text-green-500" aria-label="Quick appointment scheduling" />
-                    <span className="text-blue-900 text-lg font-bold">Quick appointment scheduling</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit2')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegComments className="w-8 h-8 mr-3 text-blue-400" aria-label="Seamless communication" />
-                    <span className="text-blue-900 text-lg font-bold">Seamless communication</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit3')}</span>
                   </li>
                 </ul>
               </div>
@@ -244,12 +244,12 @@ const SeaHealth = () => {
       {/* Why Choose SeaHealth */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">Why Choose SeaHealth?</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">{t('solutions.seahealth.whyChoose.title')}</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: 'HIPAA Compliance', desc: 'We prioritize patient data privacy and security.', img: 'image-why-1.png' },
-              { title: 'Natural & Contextual Speech Technologies', desc: 'Engage patients with human-like communication.', img: 'image-why-2.png' },
-              { title: 'Automation Done Right', desc: 'Always caring for patients and your own employees.', img: 'image-why-3.png' },
+              { title: t('solutions.seahealth.whyChoose.reason1.title'), desc: t('solutions.seahealth.whyChoose.reason1.description'), img: 'image-why-1.png' },
+              { title: t('solutions.seahealth.whyChoose.reason2.title'), desc: t('solutions.seahealth.whyChoose.reason2.description'), img: 'image-why-2.png' },
+              { title: t('solutions.seahealth.whyChoose.reason3.title'), desc: t('solutions.seahealth.whyChoose.reason3.description'), img: 'image-why-3.png' },
             ].map((item, idx) => (
               <div key={idx} className="flex flex-col items-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 animate-fade-in-up delay-100">
               <img src={`/health-images/main/${item.img}`} alt={item.title} className="w-20 h-20 mb-4" />
@@ -264,24 +264,24 @@ const SeaHealth = () => {
       {/* FAQ */}
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">Frequently Asked Questions</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">{t('solutions.seahealth.faqs.title')}</h2>
           <div className="space-y-8">
             {[
               {
-                q: 'How does your front desk call analytics work?',
-                a: 'We record your incoming and outgoing phone calls, then transcribe them for further analysis. Summary and alert emails are sent out on a daily basis.'
+                q: t('solutions.seahealth.faqs.faq1.question'),
+                a: t('solutions.seahealth.faqs.faq1.answer')
               },
               {
-                q: 'Does it require recording the phone calls, and how?',
-                a: 'We connect your VoIP provider to get the call recordings and do speech analysis on the recordings. If you use analog phones, we use a phone recording device that connects your call with phone jacks to get the recordings.'
+                q: t('solutions.seahealth.faqs.faq2.question'),
+                a: t('solutions.seahealth.faqs.faq2.answer')
               },
               {
-                q: 'How does 24/7 phone call coverage work?',
-                a: 'AI-powered receptionists handle calls round-the-clock, ensuring no missed opportunities. You can either pick up the call when they ring, or transfer the call to the AI receptionists during or after business hours.'
+                q: t('solutions.seahealth.faqs.faq3.question'),
+                a: t('solutions.seahealth.faqs.faq3.answer')
               },
               {
-                q: 'Why should I use your service?',
-                a: 'SeaHealth improves efficiency, enhances patient satisfaction, and increases revenue through automation and AI-powered solutions. It’s cheaper, more reliable, and more empathetic than outsourcing your front desk receptionist work.'
+                q: t('solutions.seahealth.faqs.faq4.question'),
+                a: t('solutions.seahealth.faqs.faq4.answer')
               },
             ].map((faq, idx) => (
               <div key={idx} className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 animate-fade-in-up delay-100">
@@ -296,7 +296,7 @@ const SeaHealth = () => {
       {/* Partners & Integrations */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">Partners & Integrations</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center">{t('solutions.seahealth.partners.title')}</h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex flex-row flex-wrap justify-center items-center gap-8 w-full mb-8">
               <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-4 animate-fade-in-up">
@@ -320,8 +320,8 @@ const SeaHealth = () => {
 
       {/* Final CTA */}
       <section className="py-16 bg-white text-center">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">Ready to transform patient interactions?</h2>
-        <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">Book a Demo Today!</a>
+        <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">{t('solutions.seahealth.finalCTA.title')}</h2>
+        <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">{t('solutions.seahealth.finalCTA.button')}</a>
       </section>
     </main>
     <Footer />
