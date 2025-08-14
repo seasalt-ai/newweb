@@ -1010,5 +1010,111 @@
         "cta": "営業に問い合わせ"
       }
     }
+  },
+  "industries": {
+    "title": "あらゆる業界に自信を持ってサービスを提供",
+    "description": "ヘルスケアからフィンテックまで、当社のプラットフォームは業界固有の要件に応じて、専門的な機能とコンプライアンス基準を備えています。",
+    "cta": {
+      "title": "業界を革新する準備はできていますか？",
+      "description": "Seasalt.aiを信頼し、特定の規制および運用要件を満たしながら、卓越した顧客体験を提供する業界リーダーに参加しましょう。",
+      "signUp": "サインアップ",
+      "bookDemo": "デモを予約"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← ホームに戻る"
+      },
+      "hero": {
+        "title": "AIソリューション",
+        "signUp": "無料で始める",
+        "seeDemo": "デモを見る",
+        "hipaaOffering": "HIPAA準拠も利用可能"
+      },
+      "seo": {
+        "titleSuffix": "ソリューション - Seasalt.ai",
+        "descriptionPrefix": "Seasalt.aiがどのように支援するかをご覧ください",
+        "descriptionSuffix": "ビジネスの顧客コミュニケーションを改善し、成長を促進します。"
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "お客様の声"
+      },
+      "benefits": {
+        "title": "なぜSeasalt.aiを選ぶのか",
+        "description": "AI搭載プラットフォームにより、コミュニケーションを効率化し、業務フローを自動化します。"
+      },
+      "useCases": {
+        "title": "一般的なユースケース",
+        "description": {
+          "start": "当社のプラットフォームがどのように変革するかをご覧ください",
+          "end": "インテリジェントな自動化による業務"
+        },
+        "customerSupport": {
+          "title": "24時間365日のカスタマーサポート",
+          "description": "すべてのチャネルで顧客の問い合わせに即時対応"
+        },
+        "leadGeneration": {
+          "title": "リード生成",
+          "description": "AIによる会話でリードを自動的に獲得・評価"
+        },
+        "analytics": {
+          "title": "分析とインサイト",
+          "description": "パフォーマンスを追跡し、顧客とのやり取りから洞察を得る"
+        },
+        "subtitle": "プラットフォームが教育管理のあらゆる側面をどのようにサポートするかをご覧ください",
+        "case1": {
+          "title": "学生情報システム",
+          "description": "学生の記録、成績、学業進捗の追跡を一元化"
+        },
+        "case2": {
+          "title": "学習管理",
+          "description": "コースの提供、進捗管理、教育コンテンツの管理"
+        },
+        "case3": {
+          "title": "管理ツール",
+          "description": "入学手続き、スケジューリング、機関運営を効率化"
+        }
+      },
+      "testimonials": {
+        "title": "企業の声",
+        "quote1": "Seasalt.aiは当社のカスタマーサービス業務を変革しました。応答時間は80％短縮され、満足度は過去最高です。",
+        "author1": "Sarah Chen",
+        "company1": "カスタマーサクセスマネージャー",
+        "quote2": "AIによる自動化で無数の時間を節約できました。反復作業の管理ではなく、ビジネスの成長に集中できます。",
+        "author2": "Michael Rodriguez",
+        "company2": "オペレーションディレクター",
+        "subtitle": "教育機関が業務をどのように変革しているかをご覧ください",
+        "testimonial1": {
+          "quote": "このプラットフォームにより、学校運営の管理方法が革新されました。学生データは中央集約され、アクセス可能です。",
+          "author": "Dr. Sarah Johnson",
+          "position": "校長, リンカーン小学校"
+        },
+        "testimonial2": {
+          "quote": "学習管理機能により、学生と教員のリモート・ハイブリッド学習がスムーズになりました。",
+          "author": "Prof. Michael Chen",
+          "position": "テクノロジー学部長, 州立大学"
+        },
+        "testimonial3": {
+          "quote": "管理効率が大幅に向上しました。入学手続きから報告まで、すべてが効率化されています。",
+          "author": "Maria Rodriguez",
+          "position": "管理者, コミュニティカレッジ地区"
+        }
+      },
+      "cta": {
+        "title": "ビジネスを変革する準備はできていますか？",
+        "description": "Seasalt.aiを信頼して、顧客コミュニケーションを効率的かつ安全に管理している何千もの企業に参加しましょう。",
+        "signUp": "無料トライアルを開始",
+        "scheduleDemo": "デモを予約",
+        "seahealthLink": "HIPAA準拠の医療ソリューションを探る",
+        "buttons": {
+          "primary": "無料トライアルを開始",
+          "secondary": "デモを予約",
+          "contact": "営業に問い合わせ"
+        }
+      },
+      "solutions": {
+        "title": "ソリューション"
+      }
+    }
   }
 }

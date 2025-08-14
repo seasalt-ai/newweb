@@ -988,5 +988,111 @@
         "cta": "Contate Vendas"
       }
     }
+  },
+  "industries": {
+    "title": "Atenda Todas as Indústrias com Confiança",
+    "description": "De saúde a fintech, nossa plataforma se adapta aos requisitos exclusivos da sua indústria com recursos especializados e padrões de conformidade.",
+    "cta": {
+      "title": "Pronto para Revolucionar Sua Indústria?",
+      "description": "Junte-se aos líderes do setor que confiam na Seasalt.ai para oferecer experiências excepcionais aos clientes enquanto atendem a requisitos regulatórios e operacionais específicos.",
+      "signUp": "Inscreva-se",
+      "bookDemo": "Agendar uma Demonstração"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Voltar para a Página Inicial"
+      },
+      "hero": {
+        "title": "Soluções de IA para",
+        "signUp": "Comece Gratuitamente",
+        "seeDemo": "Ver Demonstração",
+        "hipaaOffering": "Também disponível: compatível com HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Soluções - Seasalt.ai",
+        "descriptionPrefix": "Veja como a Seasalt.ai ajuda",
+        "descriptionSuffix": "empresas a melhorar a comunicação com clientes e impulsionar o crescimento."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "O que"
+      },
+      "benefits": {
+        "title": "Por Que Escolher a Seasalt.ai para",
+        "description": "Nossa plataforma alimentada por IA agiliza a comunicação e automatiza fluxos de trabalho para"
+      },
+      "useCases": {
+        "title": "Casos de Uso Comuns",
+        "description": {
+          "start": "Descubra como nossa plataforma transforma",
+          "end": "operações com automação inteligente"
+        },
+        "customerSupport": {
+          "title": "Suporte ao Cliente 24/7",
+          "description": "Forneça respostas instantâneas às consultas dos clientes em todos os canais"
+        },
+        "leadGeneration": {
+          "title": "Geração de Leads",
+          "description": "Capture e qualifique leads automaticamente com conversas alimentadas por IA"
+        },
+        "analytics": {
+          "title": "Análises e Insights",
+          "description": "Acompanhe o desempenho e obtenha insights sobre as interações com clientes"
+        },
+        "subtitle": "Descubra como nossa plataforma apoia todos os aspectos da gestão educacional",
+        "case1": {
+          "title": "Sistemas de Informação de Estudantes",
+          "description": "Centralize registros de estudantes, notas e acompanhamento do progresso acadêmico"
+        },
+        "case2": {
+          "title": "Gestão de Aprendizagem",
+          "description": "Ofereça cursos, acompanhe o progresso e gerencie conteúdos educacionais"
+        },
+        "case3": {
+          "title": "Ferramentas Administrativas",
+          "description": "Agilize matrículas, agendamento e operações institucionais"
+        }
+      },
+      "testimonials": {
+        "title": "O Que as Empresas Estão Dizendo",
+        "quote1": "A Seasalt.ai transformou nossas operações de atendimento ao cliente. O tempo de resposta caiu 80% e a satisfação está no nível mais alto.",
+        "author1": "Sarah Chen",
+        "company1": "Gerente de Sucesso do Cliente",
+        "quote2": "A automação de IA nos economizou inúmeras horas. Podemos focar em crescer nosso negócio em vez de gerenciar tarefas repetitivas.",
+        "author2": "Michael Rodriguez",
+        "company2": "Diretor de Operações",
+        "subtitle": "Veja como as instituições estão transformando suas operações",
+        "testimonial1": {
+          "quote": "Esta plataforma revolucionou a forma como gerenciamos as operações da nossa escola. Os dados dos estudantes agora estão centralizados e acessíveis.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Diretor, Lincoln Elementary School"
+        },
+        "testimonial2": {
+          "quote": "Os recursos de gestão de aprendizagem tornaram o aprendizado remoto e híbrido fluido para nossos alunos e corpo docente.",
+          "author": "Prof. Michael Chen",
+          "position": "Reitor de Tecnologia, State University"
+        },
+        "testimonial3": {
+          "quote": "Nossa eficiência administrativa melhorou drasticamente. Tudo, desde matrículas até relatórios, agora está simplificado.",
+          "author": "Maria Rodriguez",
+          "position": "Administradora, Community College District"
+        }
+      },
+      "cta": {
+        "title": "Pronto para Transformar Seu Negócio?",
+        "description": "Junte-se a milhares de empresas que confiam na Seasalt.ai para gerenciar a comunicação com clientes de forma eficiente e segura.",
+        "signUp": "Iniciar Teste Gratuito",
+        "scheduleDemo": "Agendar Demonstração",
+        "seahealthLink": "Explore Soluções de Saúde Compatíveis com HIPAA",
+        "buttons": {
+          "primary": "Iniciar Teste Gratuito",
+          "secondary": "Agendar Demonstração",
+          "contact": "Contato de Vendas"
+        }
+      },
+      "solutions": {
+        "title": "Soluções"
+      }
+    }
   }
 }

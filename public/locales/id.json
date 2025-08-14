@@ -1010,5 +1010,111 @@
         "cta": "Hubungi Penjualan"
       }
     }
+  },
+  "industries": {
+    "title": "Layani Setiap Industri dengan Percaya Diri",
+    "description": "Dari layanan kesehatan hingga fintech, platform kami menyesuaikan dengan kebutuhan unik industri Anda dengan fitur khusus dan standar kepatuhan.",
+    "cta": {
+      "title": "Siap Merevolusi Industri Anda?",
+      "description": "Bergabunglah dengan pemimpin industri yang mempercayai Seasalt.ai untuk memberikan pengalaman pelanggan yang luar biasa sambil memenuhi persyaratan regulasi dan operasional tertentu.",
+      "signUp": "Daftar",
+      "bookDemo": "Pesan Demo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Kembali ke Beranda"
+      },
+      "hero": {
+        "title": "Solusi AI untuk",
+        "signUp": "Mulai Gratis",
+        "seeDemo": "Lihat Demo",
+        "hipaaOffering": "Juga tersedia: Sesuai HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Solusi - Seasalt.ai",
+        "descriptionPrefix": "Lihat bagaimana Seasalt.ai membantu",
+        "descriptionSuffix": "bisnis meningkatkan komunikasi dengan pelanggan dan mendorong pertumbuhan."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Apa"
+      },
+      "benefits": {
+        "title": "Mengapa Memilih Seasalt.ai untuk",
+        "description": "Platform berbasis AI kami menyederhanakan komunikasi dan mengotomatisasi alur kerja untuk"
+      },
+      "useCases": {
+        "title": "Kasus Penggunaan Umum",
+        "description": {
+          "start": "Temukan bagaimana platform kami mengubah",
+          "end": "operasi dengan otomatisasi cerdas"
+        },
+        "customerSupport": {
+          "title": "Dukungan Pelanggan 24/7",
+          "description": "Memberikan respons instan terhadap pertanyaan pelanggan di semua saluran"
+        },
+        "leadGeneration": {
+          "title": "Generasi Prospek",
+          "description": "Tangkap dan kualifikasi prospek secara otomatis dengan percakapan berbasis AI"
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "description": "Lacak kinerja dan dapatkan wawasan tentang interaksi pelanggan"
+        },
+        "subtitle": "Temukan bagaimana platform kami mendukung setiap aspek manajemen pendidikan",
+        "case1": {
+          "title": "Sistem Informasi Mahasiswa",
+          "description": "Sentralisasi catatan mahasiswa, nilai, dan pelacakan kemajuan akademik"
+        },
+        "case2": {
+          "title": "Manajemen Pembelajaran",
+          "description": "Memberikan kursus, melacak kemajuan, dan mengelola konten pendidikan"
+        },
+        "case3": {
+          "title": "Alat Administratif",
+          "description": "Menyederhanakan pendaftaran, penjadwalan, dan operasi institusi"
+        }
+      },
+      "testimonials": {
+        "title": "Apa Kata Perusahaan",
+        "quote1": "Seasalt.ai telah mengubah operasi layanan pelanggan kami. Waktu respons turun 80% dan kepuasan berada pada level tertinggi.",
+        "author1": "Sarah Chen",
+        "company1": "Manajer Keberhasilan Pelanggan",
+        "quote2": "Otomatisasi AI telah menghemat waktu kami yang tak terhitung jumlahnya. Kami dapat fokus mengembangkan bisnis daripada mengelola tugas yang berulang.",
+        "author2": "Michael Rodriguez",
+        "company2": "Direktur Operasi",
+        "subtitle": "Lihat bagaimana institusi mengubah operasi mereka",
+        "testimonial1": {
+          "quote": "Platform ini telah merevolusi cara kami mengelola operasi sekolah kami. Data mahasiswa kini tersentralisasi dan dapat diakses.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Kepala Sekolah, Lincoln Elementary School"
+        },
+        "testimonial2": {
+          "quote": "Fitur manajemen pembelajaran membuat pembelajaran jarak jauh dan hibrida lancar bagi siswa dan fakultas kami.",
+          "author": "Prof. Michael Chen",
+          "position": "Dekan Teknologi, State University"
+        },
+        "testimonial3": {
+          "quote": "Efisiensi administrasi kami meningkat secara drastis. Segala hal mulai dari pendaftaran hingga pelaporan kini lebih sederhana.",
+          "author": "Maria Rodriguez",
+          "position": "Administrator, Community College District"
+        }
+      },
+      "cta": {
+        "title": "Siap Mengubah Bisnis Anda?",
+        "description": "Bergabunglah dengan ribuan perusahaan yang mempercayai Seasalt.ai untuk mengelola komunikasi pelanggan mereka secara efisien dan aman.",
+        "signUp": "Mulai Uji Coba Gratis",
+        "scheduleDemo": "Jadwalkan Demo",
+        "seahealthLink": "Jelajahi Solusi Kesehatan Sesuai HIPAA",
+        "buttons": {
+          "primary": "Mulai Uji Coba Gratis",
+          "secondary": "Jadwalkan Demo",
+          "contact": "Hubungi Penjualan"
+        }
+      },
+      "solutions": {
+        "title": "Solusi"
+      }
+    }
   }
 }
