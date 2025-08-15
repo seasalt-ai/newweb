@@ -3,9 +3,14 @@ import { Check, Zap, ArrowRight, MessageSquare, Bot, Users, Clock, Globe, Shield
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
+<<<<<<< HEAD
   const { t } = useTranslation();
+=======
+  const { i18n } = useTranslation();
+>>>>>>> 3a365dac0482f3e64a043915656ef968b25e8126
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
@@ -737,7 +742,7 @@ const PricingPage = () => {
           </p>
           <div className="flex justify-center">
             <a 
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" 
+              href={getMeetingUrl(i18n.language)} 
               target="_blank" 
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
@@ -898,7 +903,7 @@ const PricingPage = () => {
             </a>
             
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(i18n.language)}
               className="inline-flex items-center px-8 py-4 text-xl font-semibold text-white border-2 border-white rounded-2xl hover:bg-white hover:text-indigo-900 transition-all duration-300 transform hover:scale-105"
             >
               <MessageSquare className="w-6 h-6 mr-3" />

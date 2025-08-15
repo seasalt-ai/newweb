@@ -6,6 +6,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteWidget = () => {
   const { t, i18n } = useTranslation();
@@ -131,7 +132,7 @@ const WebsiteWidget = () => {
                     {t('channels.websiteWidget.hero.cta.deploy')}
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                    href={getMeetingUrl(currentLanguage)} className="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     {t('channels.websiteWidget.hero.cta.demo')}
                   </a>

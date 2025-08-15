@@ -1,8 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { Network, Server, Shield, Zap, Globe, Settings } from 'lucide-react';
-
 const VoipSipByocPage = () => {
+  const { i18n } = useTranslation();
   const connectionTypes = [
     {
       icon: Network,
@@ -81,7 +82,7 @@ const VoipSipByocPage = () => {
               direct SIP trunking, or bring your own carrier for complete control.
             </p>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+              href={getMeetingUrl(i18n.language)}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -321,7 +322,7 @@ const VoipSipByocPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

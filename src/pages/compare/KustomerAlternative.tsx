@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const KustomerAlternative = () => {
   const { t, i18n } = useTranslation();
@@ -351,7 +352,7 @@ const KustomerAlternative = () => {
                  {t('compare.kustomerAlternative.cta.signUp')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 {t('compare.kustomerAlternative.cta.bookDemo')}
               </a>

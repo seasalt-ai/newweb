@@ -2,8 +2,11 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 
 const SolutionsOverview = () => {
+  const { i18n } = useTranslation();
 
   return (
     <div className="min-h-screen bg-white">
@@ -28,7 +31,7 @@ const SolutionsOverview = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(i18n.language)}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
@@ -111,7 +114,7 @@ const SolutionsOverview = () => {
           </p>
           
           <a
-            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+            href={getMeetingUrl(i18n.language)}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"

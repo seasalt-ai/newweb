@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const SalesMarketing = () => {
   const { i18n, t } = useTranslation();
@@ -170,7 +171,7 @@ const SalesMarketing = () => {
                     {t('solutions.salesMarketing.hero.cta.primary')}
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                    href={getMeetingUrl(i18n.language)} className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     {t('solutions.salesMarketing.hero.cta.secondary')}
                   </a>
@@ -369,7 +370,7 @@ const SalesMarketing = () => {
                  {t('solutions.salesMarketing.cta.primary')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 {t('solutions.salesMarketing.cta.secondary')}

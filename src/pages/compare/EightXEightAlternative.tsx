@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const EightXEightAlternative = () => {
   const { t, i18n } = useTranslation();
@@ -57,14 +58,13 @@ const EightXEightAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
+      <SEOHelmet
         title={t('compare.eightXEightAlternative.seo.title')}
         description={t('compare.eightXEightAlternative.seo.description')}
         canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/8x8-alternative`}
-        hreflang={[
-          { lang: 'en', url: 'https://seasalt.ai/en/compare/8x8-alternative' },
-          { lang: 'zh-TW', url: 'https://seasalt.ai/zh-TW/compare/8x8-alternative' }
-        ]}
+        availableLanguages={['en', 'zh-TW']}
+        slug="8x8-alternative"
+        favicon="/favicon.ico"
       />
       <Header />
       
@@ -361,7 +361,7 @@ const EightXEightAlternative = () => {
                  {t('compare.eightXEightAlternative.cta.buttons.signUp')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 {t('compare.eightXEightAlternative.cta.buttons.bookDemo')}
               </a>

@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const GoogleVoiceAlternative = () => {
   const { t, i18n } = useTranslation();
@@ -294,7 +295,7 @@ const GoogleVoiceAlternative = () => {
                  {t('compare.googleVoiceAlternative.cta.signUp')}
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
                 {t('compare.googleVoiceAlternative.cta.bookDemo')}

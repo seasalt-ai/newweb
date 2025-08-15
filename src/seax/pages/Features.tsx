@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { 
   MessageSquare, 
   BarChart3, 
@@ -14,9 +15,9 @@ import {
   Building2
 } from 'lucide-react';
 import { seaxCoreFeatures } from '../data/seaxFeatures';
-
 const Features = () => {
   const { i18n: _i18n } = useTranslation();
+  const currentLanguage = _i18n.language;
 
   const featureCategories = [
     {
@@ -345,7 +346,7 @@ const Features = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"

@@ -7,6 +7,7 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 
 const SUPPORTED_LANGUAGES = ['en', 'zh-TW'];
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const Line = () => {
   const { t, i18n } = useTranslation();
@@ -118,7 +119,7 @@ const Line = () => {
                     {t('channels.line.hero.cta.startIntegration')}
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    href={getMeetingUrl(i18n.language)}
                     className="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     {t('channels.line.hero.cta.seeDemo')}

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { getIndustries } from '../data/industriesData';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const Industries = () => {
   const { i18n, t } = useTranslation();
@@ -69,7 +70,7 @@ const Industries = () => {
                {t('industries.cta.signUp')}
             </a>
             <a
-               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+               href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
               {t('industries.cta.bookDemo')}
             </a>

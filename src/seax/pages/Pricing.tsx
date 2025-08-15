@@ -5,6 +5,7 @@ import ROICalculator from '../components/ROICalculator';
 import SupportPlan from '../../components/SupportPlan';
 import OmniChannelCalculator from '../components/OmniChannelCalculator';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { useState } from 'react';
 import { 
   Check, 
@@ -19,6 +20,7 @@ import {
 
 const Pricing = () => {
   const { i18n: _i18n } = useTranslation();
+  const currentLanguage = _i18n.language;
 
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
 
@@ -264,7 +266,7 @@ const Pricing = () => {
                 <div className="px-8 pb-8 mt-auto">
                   {tier.name === 'Custom' ? (
                     <a
-                      href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                      href={getMeetingUrl(currentLanguage)}
                       className="w-full py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center inline-block bg-green-500 hover:bg-green-600 text-white"
                     >
                       {tier.cta}
@@ -470,7 +472,7 @@ const Pricing = () => {
             </a>
             
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
               Talk to Sales

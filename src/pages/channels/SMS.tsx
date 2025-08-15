@@ -6,6 +6,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const SMS = () => {
   const { t, i18n } = useTranslation();
@@ -105,7 +106,7 @@ const SMS = () => {
                     {t('channels.sms.hero.primaryCta')}
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                    href={getMeetingUrl(i18n.language)}
                     className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     {t('channels.sms.hero.secondaryCta')}

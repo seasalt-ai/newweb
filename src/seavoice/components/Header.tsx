@@ -53,6 +53,7 @@ const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
   const inboundSolutions = [
     { name: '24/7 Virtual Assistant', href: `/${i18n.language}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { RefreshCw } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 // Import all animation components
 import MultiChannelFlow from './hero-animations/MultiChannelFlow';
@@ -11,7 +12,8 @@ import ConversationLearning from './hero-animations/ConversationLearning';
 import PhoneVoiceAI from './hero-animations/PhoneVoiceAI';
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const [activeAnimation, setActiveAnimation] = useState<string>('phoneVoice');
   const [autoRotate, setAutoRotate] = useState(true);
@@ -176,7 +178,7 @@ const Hero = () => {
                   {t('seachat.hero.startFree')}
                 </button>
               </a>
-              <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="block">
+              <a href={getMeetingUrl(currentLanguage)} className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
                   {t('seachat.hero.exploreAI')}
                 </button>

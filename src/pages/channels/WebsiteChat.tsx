@@ -5,9 +5,11 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteChat = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -102,7 +104,7 @@ const WebsiteChat = () => {
                     {t('channels.websiteChat.hero.cta.primary')}
                   </a>
                   <a
-                    href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+                    href={getMeetingUrl(i18n.language)} className="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
                     {t('channels.websiteChat.hero.cta.secondary')}
                   </a>

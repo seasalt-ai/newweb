@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -431,7 +432,7 @@ const Footer = () => {
               Sign Up Free
             </a>
             <a
-              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
               Schedule Demo

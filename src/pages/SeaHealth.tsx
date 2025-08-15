@@ -1,11 +1,12 @@
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaUserPlus, FaRobot, FaChartBar, FaPhoneAlt, FaCommentDots, FaCalendarCheck, FaHeadset, FaExclamationTriangle, FaUserMd, FaPhoneSlash, FaRegSmile, FaRegClock, FaRegHandshake, FaRegComments, FaRegLifeRing, FaRegBell, FaRegListAlt, FaRegStar, FaRegCalendarPlus, FaRegCalendarCheck, FaRegArrowAltCircleUp, FaRegArrowAltCircleDown } from 'react-icons/fa';
 import SEOHelmet from '../components/SEOHelmet';
-import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const SeaHealth = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   return (
     <div className="min-h-screen bg-white flex flex-col">

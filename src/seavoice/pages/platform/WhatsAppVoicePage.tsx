@@ -1,8 +1,9 @@
-
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { MessageSquare, Globe, Users, Shield, CheckCircle, Smartphone } from 'lucide-react';
-
 const WhatsAppVoicePage = () => {
+  const { i18n } = useTranslation();
   const features = [
     {
       icon: MessageSquare,
@@ -398,7 +399,7 @@ const WhatsAppVoicePage = () => {
                 </motion.button>
               </a>
               <a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
               >

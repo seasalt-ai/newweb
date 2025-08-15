@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Phone, Users, Clock, BarChart3, Globe, ArrowRight, Activity } from 'lucide-react';
-
 const InteractiveCallDashboard = () => {
+  const { i18n } = useTranslation();
   const [activeCalls, setActiveCalls] = useState(247);
   const [queueTime, setQueueTime] = useState(0.3);
   const [resolutionRate, setResolutionRate] = useState(94);
@@ -99,7 +101,7 @@ const InteractiveCallDashboard = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting"
+                href={getMeetingUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}

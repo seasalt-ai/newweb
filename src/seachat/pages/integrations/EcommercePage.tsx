@@ -1,8 +1,9 @@
 import { ShoppingBag, TrendingUp, Package, CreditCard, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-
+import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 const EcommercePage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   const platforms = [
     {
@@ -251,7 +252,7 @@ const EcommercePage = () => {
               <a href="https://chat.seasalt.ai/gpt/signup" className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
                 {t('seachat.integrations.ecommerce.hero.button1', 'Connect Your Store')}
               </a>
-              <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
+              <a href={getMeetingUrl(currentLanguage)} className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
                 {t('seachat.integrations.ecommerce.hero.button2', 'Schedule E-commerce Demo')}
               </a>
             </div>
@@ -407,7 +408,7 @@ const EcommercePage = () => {
           <a href="https://chat.seasalt.ai/gpt/signup" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
             {t('seachat.integrations.ecommerce.cta.button1', 'Connect Your Store Now')}
           </a>
-          <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
+          <a href={getMeetingUrl(currentLanguage)} className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
             {t('seachat.integrations.ecommerce.cta.button2', 'Schedule E-commerce Demo')}
           </a>
           </div>

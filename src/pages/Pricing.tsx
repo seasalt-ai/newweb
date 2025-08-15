@@ -6,6 +6,7 @@ import SEOHelmet from '../components/SEOHelmet';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { SUPPORTED_LANGUAGES } from '../constants/languages';
+import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const PricingPage = () => {
   const { t, i18n } = useTranslation();
@@ -582,7 +583,7 @@ const PricingPage = () => {
                   </div>
                 </div>
                 <a 
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                  href={getMeetingUrl(i18n.language)}
                   className="block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors text-center text-sm"
                 >
                   {t('pricing.plans.custom.cta')}
@@ -895,7 +896,7 @@ const PricingPage = () => {
                 </a>
                 
                 <a
-                  href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+                  href={getMeetingUrl(i18n.language)}
                   className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105"
                 >
                   {t('pricing.cta.secondary')}
