@@ -42,8 +42,32 @@
     "signIn": "Sign In"
   },
   "footer": {
+    "company": {
+      "title": "Company",
+      "contact": "Contact Us",
+      "about": "About Us",
+      "careers": "Careers"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "security": "Security",
+    "compliance": {
+      "soc2": "SOC 2 Compliant",
+      "hipaa": "HIPAA Available",
+      "uptime": "99.9% Uptime"
+    },
+    "cta": {
+      "title": "Ready to transform your customer communications?",
+      "startFreeTrial": "Sign Up for Free",
+      "scheduleDemo": "Schedule a Demo"
+    },
+    "tagline": "An all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
+    "seahealth": "SeaHealth - Optimized Healthcare",
+    "productWiki": "Product Wiki",
+    "apiReferences": "API References",
     "madeWith": "Made with",
-    "inCityOf": "in the city of"
+    "inCityOf": "in"
   },
   "hero": {
     "title": "Stop Juggling Apps <br> Unify Every Customer <br> Call, WhatsApp, and Chat <br> in One Simple Inbox.",
@@ -1388,7 +1412,66 @@
     }
   },
   "comparison": {
-    "vs": "vs."
+    "title": "Why Growing Businesses Choose Seasalt.ai Over Other Alternatives",
+    "description": "See how we compare with other solutions. We are the only platform that delivers enterprise-grade features with the simplicity small businesses need.",
+    "recommended": "Recommended",
+    "table": {
+      "headers": {
+        "platform": "Platform",
+        "startingPrice": "Starting Price",
+        "pricingModel": "Pricing Model",
+        "unifiedVoiceDigital": "Unified Voice and Digital",
+        "aiCapabilities": "AI Capabilities",
+        "bestFor": "Best For"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "$20/agent/month",
+        "pricingModel": "Simple per-user pricing",
+        "unifiedVoiceDigital": "✅ Yes, native support",
+        "aiCapabilities": "✅ Yes, native voice and chatbot",
+        "bestFor": "SMBs that need an affordable truly all-in-one platform."
+      },
+      "aircall": {
+        "startingPrice": "$30/user/month",
+        "pricingModel": "Per-user + add-ons",
+        "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (add-on)",
+        "aiCapabilities": "⚠️ AI is a paid add-on",
+        "bestFor": "Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+      },
+      "ringcentral": {
+        "startingPrice": "$65/agent/month",
+        "pricingModel": "Complex tiering",
+        "unifiedVoiceDigital": "❌ Separate products",
+        "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
+        "bestFor": "Large companies needing an extensive UCaaS platform with separate CCaaS."
+      },
+      "genesys": {
+        "startingPrice": "$75/user/month",
+        "pricingModel": "Per-user + high minimums",
+        "unifiedVoiceDigital": "✅ Yes (in premium plans)",
+        "aiCapabilities": "✅ Yes (complex token system)",
+        "bestFor": "Enterprises with dedicated contact center teams and budgets."
+      },
+      "five9": {
+        "startingPrice": "$119/user/month",
+        "pricingModel": "Per-user + packages",
+        "unifiedVoiceDigital": "✅ Yes (in premium plans)",
+        "aiCapabilities": "✅ Yes (advanced AI)",
+        "bestFor": "Large outbound-focused contact centers needing enterprise-level tools."
+      },
+      "googleVoice": {
+        "startingPrice": "$10/user/month",
+        "pricingModel": "Per-user + Workspace fee",
+        "unifiedVoiceDigital": "❌ No",
+        "aiCapabilities": "❌ No (voicemail transcription only)",
+        "bestFor": "Solo entrepreneurs who need a basic standalone phone number (US only)."
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "See all detailed comparisons"
+    }
   },
   "industriesData": {
     "ecommerce": {
@@ -3149,46 +3232,46 @@
       },
       "forProviders": {
         "title": "For Healthcare Providers",
-        "reduceAdministrative": "Reduce administrative burden",
-        "improveSatisfaction": "Improve patient satisfaction",
-        "increaseEfficiency": "Increase operational efficiency"
+        "benefit1": "Reduce administrative burden",
+        "benefit2": "Improve patient satisfaction",
+        "benefit3": "Increase operational efficiency"
       },
       "forPatients": {
         "title": "For Patients",
-        "access247": "24/7 access to support",
-        "quickScheduling": "Quick appointment scheduling",
-        "seamlessCommunication": "Seamless communication"
+        "benefit1": "24/7 access to support",
+        "benefit2": "Quick appointment scheduling",
+        "benefit3": "Seamless communication"
       },
       "whyChoose": {
         "title": "Why Choose SeaHealth?",
-        "hipaa": {
+        "reason1": {
           "title": "HIPAA Compliance",
           "description": "We prioritize patient data privacy and security."
         },
-        "speech": {
+        "reason2": {
           "title": "Natural & Contextual Speech Technologies",
           "description": "Engage patients with human-like communication."
         },
-        "automation": {
+        "reason3": {
           "title": "Automation Done Right",
           "description": "Always caring for patients and your own employees."
         }
       },
-      "faq": {
+      "faqs": {
         "title": "Frequently Asked Questions",
-        "analytics": {
+        "faq1": {
           "question": "How does your front desk call analytics work?",
           "answer": "We record your incoming and outgoing phone calls, then transcribe them for further analysis. Summary and alert emails are sent out on a daily basis."
         },
-        "recording": {
+        "faq2": {
           "question": "Does it require recording the phone calls, and how?",
           "answer": "We connect your VoIP provider to get the call recordings and do speech analysis on the recordings. If you use analog phones, we use a phone recording device that connects your call with phone jacks to get the recordings."
         },
-        "coverage": {
+        "faq3": {
           "question": "How does 24/7 phone call coverage work?",
           "answer": "AI-powered receptionists handle calls round-the-clock, ensuring no missed opportunities. You can either pick up the call when they ring, or transfer the call to the AI receptionists during or after business hours."
         },
-        "whyUse": {
+        "faq4": {
           "question": "Why should I use your service?",
           "answer": "SeaHealth improves efficiency, enhances patient satisfaction, and increases revenue through automation and AI-powered solutions. It's cheaper, more reliable, and more empathetic than outsourcing your front desk receptionist work."
         }
@@ -5377,6 +5460,238 @@
           "bookDemo": "Book a Demo"
         }
       }
+    }
+  },
+  "channelsOverview": {
+    "seo": {
+      "title": "Communication Channels - Seasalt.ai",
+      "description": "Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
+    },
+    "hero": {
+      "backToHome": "Back to Home",
+      "title": "Every Customer Channel,",
+      "titleHighlight": "One Unified Platform",
+      "subtitle": "Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform.",
+      "hubTitle": "Seasalt.ai Hub",
+      "hubSubtitle": "All channels unified"
+    },
+    "channelsSection": {
+      "title": "Choose Your Channels",
+      "subtitle": "Start with the channels your customers use most, then expand as you grow. Each integration takes minutes, not months."
+    },
+    "channels": {
+      "whatsappBusiness": {
+        "name": "WhatsApp Business",
+        "capabilities": {
+          "0": "AI-powered chatbot responses",
+          "1": "Bulk messaging campaigns",
+          "2": "Voice message support",
+          "3": "Meta Cloud API integration"
+        }
+      },
+      "voicePhoneCalls": {
+        "name": "Voice & Phone Calls",
+        "capabilities": {
+          "0": "AI voicebot with human handoff",
+          "1": "Auto dialer campaigns",
+          "2": "Multi-agent round robin",
+          "3": "Twilio Flex integration"
+        }
+      },
+      "smsMessaging": {
+        "name": "SMS Messaging",
+        "capabilities": {
+          "0": "Bulk SMS campaigns",
+          "1": "Two-way conversations",
+          "2": "Global delivery (200+ countries)",
+          "3": "TCPA compliance tools"
+        }
+      },
+      "websiteChatWidget": {
+        "name": "Website Chat Widget",
+        "capabilities": {
+          "0": "Embeddable chat widget",
+          "1": "Customizable design",
+          "2": "Lead capture forms",
+          "3": "WordPress, Shopify integration"
+        }
+      },
+      "instagramDMs": {
+        "name": "Instagram DMs",
+        "capabilities": {
+          "0": "Automated DM responses",
+          "1": "Story interaction handling",
+          "2": "Image recognition AI",
+          "3": "Business account integration"
+        }
+      },
+      "facebookMessenger": {
+        "name": "Facebook Messenger",
+        "capabilities": {
+          "0": "Facebook business integration",
+          "1": "Shop integration",
+          "2": "Lead generation tools",
+          "3": "Social proof features"
+        }
+      },
+      "contactForms": {
+        "name": "Contact Forms",
+        "capabilities": {
+          "0": "MailerLite integration",
+          "1": "HubSpot form sync",
+          "2": "Instant lead engagement",
+          "3": "CRM synchronization"
+        }
+      },
+      "lineBusiness": {
+        "name": "LINE Business",
+        "capabilities": {
+          "0": "LINE Official Account",
+          "1": "Asian market focus",
+          "2": "Business messaging",
+          "3": "Cultural localization"
+        }
+      },
+      "websiteWidget": {
+        "name": "Website Widget",
+        "capabilities": {
+          "0": "Omnichannel widget",
+          "1": "WordPress, Shopify, Wix support",
+          "2": "MailerLite integration",
+          "3": "Advanced analytics"
+        }
+      }
+    },
+    "labels": {
+      "difficulty": {
+        "easy": "Easy",
+        "medium": "Medium"
+      },
+      "learnMore": "Learn More"
+    },
+    "benefitsSection": {
+      "title": "Integration Benefits",
+      "subtitle": "When all your channels work together, magic happens. See why unified communication is the future of customer engagement."
+    },
+    "benefits": {
+      "unifiedCustomerView": {
+        "title": "Unified Customer View",
+        "description": "Single conversation history across all channels with complete context"
+      },
+      "consistentAITraining": {
+        "title": "Consistent AI Training",
+        "description": "One knowledge base powers responses across all communication platforms"
+      },
+      "seamlessHandoffs": {
+        "title": "Seamless Handoffs",
+        "description": "Transfer conversations between channels without losing context or history"
+      }
+    },
+    "cta": {
+      "title": "Ready to Unify Your Customer Channels?",
+      "subtitle": "Start with our free plan and connect your first channel in minutes. Scale up as your business grows.",
+      "signUp": "Sign Up",
+      "bookDemo": "Book A Demo"
+    }
+  },
+  "compareUsOverview": {
+    "seo": {
+      "title": "Compare Seasalt.ai to Alternatives",
+      "description": "See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+    },
+    "hero": {
+      "backToHome": "Back to Home",
+      "title": "How Seasalt.ai Compares to",
+      "titleHighlight": "Every Alternative",
+      "subtitle": "See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+    },
+    "stats": {
+      "competitorsAnalyzed": "Competitors Analyzed",
+      "startingPrice": "Starting Price/Agent",
+      "channelsIncluded": "Channels Included",
+      "unifiedPlatform": "Unified Platform"
+    },
+    "competitorsSection": {
+      "title": "Choose Your Comparison",
+      "subtitle": "Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai"
+    },
+    "competitors": {
+      "aircall": {
+        "category": "Sales-Focused Phone Systems",
+        "description": "User-friendly interface but expensive add-ons and 3-user minimum"
+      },
+      "ringcentral": {
+        "category": "UCaaS Giants",
+        "description": "Fragmented platform with separate UCaaS and CCaaS products"
+      },
+      "genesys": {
+        "category": "Enterprise Contact Centers",
+        "description": "Powerful but expensive with high minimums and complex pricing"
+      },
+      "five9": {
+        "category": "Enterprise Contact Centers",
+        "description": "Outbound-heavy platform with enterprise pricing starting at $119/user"
+      },
+      "avaya": {
+        "category": "Legacy Providers",
+        "description": "Legacy architecture with complex enterprise focus and quote-based pricing"
+      },
+      "googleVoice": {
+        "category": "Basic VoIP Services",
+        "description": "Great for solopreneurs but lacks team features and integrations"
+      },
+      "respondIo": {
+        "category": "Digital-First Platforms",
+        "description": "Strong messaging platform but voice is beta and pricing is complex"
+      },
+      "intercom": {
+        "category": "Website Engagement Tools",
+        "description": "Excellent for website chat but expensive per-resolution pricing"
+      },
+      "kustomer": {
+        "category": "Enterprise Customer Service",
+        "description": "Powerful omnichannel but 8-seat minimum and expensive AI add-ons"
+      },
+      "threeCx": {
+        "category": "Self-Hosted Solutions",
+        "description": "Open platform but requires technical expertise and hidden costs"
+      },
+      "dialpad": {
+        "category": "UCaaS with Contact Center Tiers",
+        "description": "Good voice AI but expensive upgrade required for contact center features"
+      },
+      "eightByEight": {
+        "category": "Enterprise Communications",
+        "description": "Comprehensive but quote-based pricing and enterprise complexity"
+      },
+      "openphone": {
+        "category": "Simple Business Phone",
+        "description": "Modern phone system but limited to voice/SMS with expensive AI add-ons"
+      }
+    },
+    "whyCompareSection": {
+      "title": "Why We Compare Ourselves to Everyone",
+      "subtitle": "We believe in transparency. See exactly how we stack up against every alternative in the market."
+    },
+    "benefits": {
+      "transparency": {
+        "title": "Complete Transparency",
+        "description": "We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff."
+      },
+      "decisions": {
+        "title": "Informed Decisions",
+        "description": "Make the right choice for your business with detailed, honest comparisons of every option."
+      },
+      "fit": {
+        "title": "Find Your Fit",
+        "description": "Every business is different. See which solution truly matches your needs and budget."
+      }
+    },
+    "cta": {
+      "title": "Ready to See Why We're Different?",
+      "subtitle": "After comparing all the alternatives, we think you'll agree: Seasalt.ai is the smart choice for growing businesses.",
+      "signUp": "Sign Up",
+      "bookDemo": "Book A Demo"
     }
   }
 }

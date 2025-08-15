@@ -198,41 +198,41 @@ const SeaHealth = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-12">
             <div className="flex flex-col items-center justify-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 w-full md:w-1/2 animate-fade-in-up">
               <img src="/logo-seahealth.svg" alt="SeaHealth Logo" className="w-40 h-40 mb-4" />
-              <h3 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x">{t('solutions.seahealth.seahealthSolution.title')}</h3>
-              <p className="text-blue-900 mb-2 text-center text-xl">{t('solutions.seahealth.seahealthSolution.description')}</p>
+              <h3 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x">{t('solutions.seahealth.mainSolution.title')}</h3>
+              <p className="text-blue-900 mb-2 text-center text-xl">{t('solutions.seahealth.mainSolution.description')}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2">
               <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-100">
-                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.seahealthSolution.forProviders.title')}</h3>
+                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.forProviders.title')}</h3>
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <FaRegListAlt className="w-8 h-8 mr-3 text-blue-500" aria-label="Reduce administrative burden" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit1')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forProviders.benefit1')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegSmile className="w-8 h-8 mr-3 text-green-500" aria-label="Improve patient satisfaction" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit2')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forProviders.benefit2')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaChartBar className="w-8 h-8 mr-3 text-blue-400" aria-label="Increase operational efficiency" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forProviders.benefit3')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forProviders.benefit3')}</span>
                   </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-200">
-                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.seahealthSolution.forPatients.title')}</h3>
+                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x">{t('solutions.seahealth.forPatients.title')}</h3>
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <FaRegClock className="w-8 h-8 mr-3 text-blue-500" aria-label="24/7 access to support" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit1')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forPatients.benefit1')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegCalendarPlus className="w-8 h-8 mr-3 text-green-500" aria-label="Quick appointment scheduling" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit2')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forPatients.benefit2')}</span>
                   </li>
                   <li className="flex items-center">
                     <FaRegComments className="w-8 h-8 mr-3 text-blue-400" aria-label="Seamless communication" />
-                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.seahealthSolution.forPatients.benefit3')}</span>
+                    <span className="text-blue-900 text-lg font-bold">{t('solutions.seahealth.forPatients.benefit3')}</span>
                   </li>
                 </ul>
               </div>
@@ -320,8 +320,8 @@ const SeaHealth = () => {
 
       {/* Final CTA */}
       <section className="py-16 bg-white text-center">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">{t('solutions.seahealth.finalCTA.title')}</h2>
-        <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">{t('solutions.seahealth.finalCTA.button')}</a>
+        <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x">{t('solutions.seahealth.cta.title')}</h2>
+        <a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in">{t('solutions.seahealth.cta.button')}</a>
       </section>
     </main>
     <Footer />

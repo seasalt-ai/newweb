@@ -1606,73 +1606,6 @@
       "title": "適用於中小企業主"
     }
   },
-  "common": {
-    "tableOfContents": "目錄",
-    "loading": {
-      "translations": "載入翻譯中...",
-      "blogPosts": "載入部落格文章中..."
-    },
-    "actions": {
-      "signUp": "註冊",
-      "bookDemo": "預約演示"
-    }
-  },
-  "navigation": {
-    "backToHome": "回到首頁",
-    "backToBlog": "回到部落格"
-  },
-  "blog": {
-    "searchPlaceholder": "搜尋部落格文章...",
-    "allCategories": "所有分類",
-    "clearFilters": "清除篩選器",
-    "seo": {
-      "title": "部落格 - Seasalt.ai",
-      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
-    },
-    "loading": {
-      "text": "正在載入部落格文章..."
-    },
-    "nav": {
-      "backToHome": "回到首頁"
-    },
-    "hero": {
-      "title": "Seasalt.ai",
-      "highlight": "部落格",
-      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
-    },
-    "search": {
-      "placeholder": "搜尋部落格文章..."
-    },
-    "filter": {
-      "allCategories": "所有分類"
-    },
-    "empty": {
-      "noPosts": "找不到部落格文章。",
-      "noResults": "沒有符合搜尋條件的文章。",
-      "clearFilters": "清除篩選條件"
-    },
-    "post": {
-      "readMore": "閱讀更多 →",
-      "updated": "已更新"
-    },
-    "newsletter": {
-      "title": "掌握我們的最新洞察",
-      "description": "獲取 AI 自動化、客戶體驗和業務成長的最新文章，直接送到您的收件匣。",
-      "emailPlaceholder": "輸入您的電子郵件",
-      "subscribeButton": "訂閱"
-    }
-  },
-  "contact": {
-    "phone": "+1 (SMB)-AI-AGENT",
-    "email": "info@seasalt.ai",
-    "location": "Seattle, WA"
-  },
-  "seo": {
-    "mainTitle": "Seasalt.ai - 中小企業全渠道聯絡中心",
-    "channelsTitle": "溝通渠道 - Seasalt.ai",
-    "compareTitle": "比較 Seasalt.ai 與替代方案",
-    "companyTitle": "關於 Seasalt.ai - 公司資訊與領導團隊"
-  },
   "seachat": {
     "common": {
       "getStarted": "免費開始",
@@ -2602,6 +2535,94 @@
       }
     }
   },
+  "common": {
+    "tableOfContents": "目錄",
+    "loading": {
+      "translations": "正在載入翻譯...",
+      "blogPosts": "正在載入部落格文章..."
+    },
+    "actions": {
+      "signUp": "註冊",
+      "bookDemo": "預約示範",
+      "clearFilters": "清除篩選條件"
+    }
+  },
+  "navigation": {
+    "backToHome": "回到首頁",
+    "backToBlog": "回到部落格"
+  },
+  "blog": {
+    "searchPlaceholder": "搜尋部落格文章...",
+    "allCategories": "所有分類",
+    "clearFilters": "清除篩選器",
+    "seo": {
+      "title": "部落格 - Seasalt.ai",
+      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
+    },
+    "loading": {
+      "text": "正在載入部落格文章..."
+    },
+    "nav": {
+      "backToHome": "回到首頁"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "部落格",
+      "description": "關於 AI 驅動的客戶溝通、業務自動化和客戶體驗未來的見解、技巧和更新資訊。"
+    },
+    "search": {
+      "placeholder": "搜尋部落格文章..."
+    },
+    "filter": {
+      "allCategories": "所有分類"
+    },
+    "empty": {
+      "noPosts": "找不到部落格文章。",
+      "noResults": "沒有符合搜尋條件的文章。",
+      "clearFilters": "清除篩選條件"
+    },
+    "post": {
+      "readMore": "閱讀更多 →",
+      "updated": "已更新"
+    },
+    "newsletter": {
+      "title": "掌握我們的最新洞察",
+      "description": "獲取 AI 自動化、客戶體驗和業務成長的最新文章，直接送到您的收件匣。",
+      "emailPlaceholder": "輸入您的電子郵件",
+      "subscribeButton": "訂閱"
+    }
+  },
+  "contact": {
+    "phone": "+1 (SMB)-AI-AGENT",
+    "email": "info@seasalt.ai",
+    "location": "Seattle, WA"
+  },
+  "seo": {
+    "mainTitle": "Seasalt.ai - 中小企業全渠道聯絡中心",
+    "channelsTitle": "溝通渠道 - Seasalt.ai",
+    "compareTitle": "比較 Seasalt.ai 與替代方案",
+    "companyTitle": "關於 Seasalt.ai - 公司資訊與領導團隊"
+  },
+  "useCaseCategories": {
+    "smallMediumBusinesses": "中小型企業",
+    "healthcare": "醫療保健",
+    "education": "教育",
+    "campaignMessaging": "行銷活動訊息",
+    "speechAnalysis": "語音分析"
+  },
+  "useCaseLinks": {
+    "getTwilioApproval": "獲得 Twilio 簡訊活動核准",
+    "bulkSendSms": "批量傳送簡訊",
+    "whatsappCustomers": "透過 WhatsApp 聯絡客戶",
+    "callCustomersBatch": "批量撥打客戶電話",
+    "autoAnswerCalls": "全天候自動接聽來電",
+    "voiceAiSeniors": "語音 AI 致電關懷長者",
+    "hospitalAnalytics": "醫院電話通話分析儀表板",
+    "conversationalGenAi": "教室會話式生成式 AI",
+    "winCampaigns": "透過自動化簡訊與電話贏得行銷活動",
+    "transcribeAudio": "轉錄音訊與通話以發掘洞察",
+    "meetingAnalytics": "遠端團隊會議分析"
+  },
   "solutions": {
     "salesMarketing": {
       "seo": {
@@ -3211,46 +3232,46 @@
       },
       "forProviders": {
         "title": "適合醫療照護提供者",
-        "reduceAdministrative": "減少行政負擔",
-        "improveSatisfaction": "提升患者滿意度",
-        "increaseEfficiency": "提高營運效率"
+        "benefit1": "減少行政負擔",
+        "benefit2": "提升患者滿意度",
+        "benefit3": "提高營運效率"
       },
       "forPatients": {
         "title": "適合患者",
-        "access247": "全天候支援服務",
-        "quickScheduling": "快速預約排程",
-        "seamlessCommunication": "無縫通訊"
+        "benefit1": "全天候支援服務",
+        "benefit2": "快速預約排程",
+        "benefit3": "無縫通訊"
       },
       "whyChoose": {
         "title": "為什麼選擇 SeaHealth？",
-        "hipaa": {
+        "reason1": {
           "title": "HIPAA 合規",
           "description": "我們優先考慮患者資料隱私和安全性。"
         },
-        "speech": {
+        "reason2": {
           "title": "自然且情境式語音技術",
           "description": "透過人性化溝通與患者互動。"
         },
-        "automation": {
+        "reason3": {
           "title": "正確的自動化",
           "description": "始終關心患者和您的員工。"
         }
       },
-      "faq": {
+      "faqs": {
         "title": "常見問題",
-        "analytics": {
+        "faq1": {
           "question": "您的前台通話分析如何運作？",
           "answer": "我們記錄您的來電和去電，然後進行轉錄以便進一步分析。每天會發送摘要和警報電子郵件。"
         },
-        "recording": {
+        "faq2": {
           "question": "是否需要錄製電話通話？如何錄製？",
           "answer": "我們連接您的 VoIP 提供商來獲取通話錄音並對錄音進行語音分析。如果您使用類比電話，我們使用電話錄音設備，通過電話插孔連接您的通話來獲取錄音。"
         },
-        "coverage": {
+        "faq3": {
           "question": "全天候電話覆蓋如何運作？",
           "answer": "AI 驅動的接待員全天候處理通話，確保不錯過任何機會。您可以在電話響起時接聽，或在營業時間內或之後將通話轉接給 AI 接待員。"
         },
-        "whyUse": {
+        "faq4": {
           "question": "為什麼我要使用您的服務？",
           "answer": "SeaHealth 透過自動化和 AI 驅動的解決方案提高效率、增強患者滿意度並增加收入。比外包前台接待員工作更便宜、更可靠、更有同理心。"
         }
@@ -5439,6 +5460,238 @@
           "bookDemo": "預約演示"
         }
       }
+    }
+  },
+  "channelsOverview": {
+    "seo": {
+      "title": "通訊渠道 - Seasalt.ai",
+      "description": "在單一儀表板中連接 WhatsApp、電話通話、簡訊、聯絡表單和社交媒體。從一個強大的平台管理每個客戶對話。"
+    },
+    "hero": {
+      "backToHome": "返回首頁",
+      "title": "每個客戶渠道，",
+      "titleHighlight": "一個統一平台",
+      "subtitle": "在單一儀表板中連接 WhatsApp、電話通話、簡訊、聯絡表單和社交媒體。從一個強大的平台管理每個客戶對話。",
+      "hubTitle": "Seasalt.ai 中心",
+      "hubSubtitle": "所有渠道統一"
+    },
+    "channelsSection": {
+      "title": "選擇您的渠道",
+      "subtitle": "從客戶最常使用的渠道開始，隨著成長而擴展。每個整合只需幾分鐘，而不是幾個月。"
+    },
+    "channels": {
+      "whatsappBusiness": {
+        "name": "WhatsApp Business",
+        "capabilities": {
+          "0": "AI 驅動的對話機器人回應",
+          "1": "大量訊息活動",
+          "2": "語音訊息支援",
+          "3": "Meta Cloud API 整合"
+        }
+      },
+      "voicePhoneCalls": {
+        "name": "語音與電話通話",
+        "capabilities": {
+          "0": "AI 語音機器人與人工轉接",
+          "1": "自動撥號活動",
+          "2": "多專員輪循",
+          "3": "Twilio Flex 整合"
+        }
+      },
+      "smsMessaging": {
+        "name": "簡訊通訊",
+        "capabilities": {
+          "0": "大量簡訊活動",
+          "1": "雙向對話",
+          "2": "全球傳送（200+ 個國家）",
+          "3": "TCPA 合規工具"
+        }
+      },
+      "websiteChatWidget": {
+        "name": "網站聊天小工具",
+        "capabilities": {
+          "0": "可嵌入的聊天小工具",
+          "1": "可自訂設計",
+          "2": "潛在客戶擷取表單",
+          "3": "WordPress、Shopify 整合"
+        }
+      },
+      "instagramDMs": {
+        "name": "Instagram 直接訊息",
+        "capabilities": {
+          "0": "自動化直接訊息回應",
+          "1": "限時動態互動處理",
+          "2": "圖像識別 AI",
+          "3": "商業帳戶整合"
+        }
+      },
+      "facebookMessenger": {
+        "name": "Facebook Messenger",
+        "capabilities": {
+          "0": "Facebook 商業整合",
+          "1": "商店整合",
+          "2": "潛在客戶生成工具",
+          "3": "社會證明功能"
+        }
+      },
+      "contactForms": {
+        "name": "聯絡表單",
+        "capabilities": {
+          "0": "MailerLite 整合",
+          "1": "HubSpot 表單同步",
+          "2": "即時潛在客戶參與",
+          "3": "CRM 同步化"
+        }
+      },
+      "lineBusiness": {
+        "name": "LINE Business",
+        "capabilities": {
+          "0": "LINE 官方帳號",
+          "1": "亞洲市場專注",
+          "2": "商業訊息",
+          "3": "文化在地化"
+        }
+      },
+      "websiteWidget": {
+        "name": "網站小工具",
+        "capabilities": {
+          "0": "全渠道小工具",
+          "1": "WordPress、Shopify、Wix 支援",
+          "2": "MailerLite 整合",
+          "3": "進階分析"
+        }
+      }
+    },
+    "labels": {
+      "difficulty": {
+        "easy": "簡單",
+        "medium": "中等"
+      },
+      "learnMore": "了解更多"
+    },
+    "benefitsSection": {
+      "title": "整合效益",
+      "subtitle": "當所有渠道共同運作時，魔法就會發生。了解為什麼統一通訊是客戶參與的未來。"
+    },
+    "benefits": {
+      "unifiedCustomerView": {
+        "title": "統一客戶視圖",
+        "description": "跨所有渠道的單一對話歷史記錄，具完整語境"
+      },
+      "consistentAITraining": {
+        "title": "一致的 AI 訓練",
+        "description": "一個知識庫為所有通訊平台的回應提供支援"
+      },
+      "seamlessHandoffs": {
+        "title": "無縫轉接",
+        "description": "在渠道之間轉移對話而不失去語境或歷史記錄"
+      }
+    },
+    "cta": {
+      "title": "準備好統一您的客戶渠道了嗎？",
+      "subtitle": "從我們的免費方案開始，在幾分鐘內連接您的第一個渠道。隨著業務成長而擴展。",
+      "signUp": "註冊",
+      "bookDemo": "預約演示"
+    }
+  },
+  "compareUsOverview": {
+    "seo": {
+      "title": "比較 Seasalt.ai 與其他替代方案",
+      "description": "查看與每個主要競爭對手的詳細比較。我們是唯一提供企業功能、同時保持中小企業簡單操作和透明定價的平台。"
+    },
+    "hero": {
+      "backToHome": "返回首頁",
+      "title": "Seasalt.ai 與",
+      "titleHighlight": "所有替代方案的比較",
+      "subtitle": "查看與每個主要競爭對手的詳細比較。我們是唯一提供企業功能、同時保持中小企業簡單操作和透明定價的平台。"
+    },
+    "stats": {
+      "competitorsAnalyzed": "分析的競爭對手",
+      "startingPrice": "起始價格/每位代理",
+      "channelsIncluded": "包含的通道",
+      "unifiedPlatform": "統一平台"
+    },
+    "competitorsSection": {
+      "title": "選擇您的比較對象",
+      "subtitle": "點擊任一競爭對手，查看與 Seasalt.ai 的詳細功能對比"
+    },
+    "competitors": {
+      "aircall": {
+        "category": "以銷售為中心的電話系統",
+        "description": "介面友好，但附加功能昂貴，且最低三位用戶限制"
+      },
+      "ringcentral": {
+        "category": "UCaaS 巨頭",
+        "description": "平台分散，UCaaS 與 CCaaS 產品分開"
+      },
+      "genesys": {
+        "category": "企業聯絡中心",
+        "description": "功能強大但價格昂貴，最低使用限制高且定價複雜"
+      },
+      "five9": {
+        "category": "企業聯絡中心",
+        "description": "偏重外呼的平台，企業定價起價 $119/用戶"
+      },
+      "avaya": {
+        "category": "傳統供應商",
+        "description": "傳統架構，專注於大型企業，採報價定價"
+      },
+      "googleVoice": {
+        "category": "基本 VoIP 服務",
+        "description": "適合個人創業者，但缺乏團隊功能和整合"
+      },
+      "respondIo": {
+        "category": "數位優先平台",
+        "description": "訊息平台強大，但語音仍為測試版且定價複雜"
+      },
+      "intercom": {
+        "category": "網站互動工具",
+        "description": "網站聊天非常優秀，但每次解決方案收費昂貴"
+      },
+      "kustomer": {
+        "category": "企業客服",
+        "description": "全渠道功能強大，但最低 8 席限制且 AI 附加功能昂貴"
+      },
+      "threeCx": {
+        "category": "自架平台解決方案",
+        "description": "開放平台，但需要技術專長，且存在隱藏成本"
+      },
+      "dialpad": {
+        "category": "UCaaS 與聯絡中心方案",
+        "description": "語音 AI 功能不錯，但聯絡中心功能需昂貴升級"
+      },
+      "eightByEight": {
+        "category": "企業通訊",
+        "description": "功能完整，但採報價定價，企業使用較複雜"
+      },
+      "openphone": {
+        "category": "簡單商務電話",
+        "description": "現代電話系統，但僅限語音/簡訊，AI 附加功能昂貴"
+      }
+    },
+    "whyCompareSection": {
+      "title": "為何我們要與所有對手比較",
+      "subtitle": "我們相信透明化。清楚了解我們與市場上每個替代方案的差異。"
+    },
+    "benefits": {
+      "transparency": {
+        "title": "完全透明",
+        "description": "我們清楚展示在功能、定價和能力上的比較，無行銷噱頭。"
+      },
+      "decisions": {
+        "title": "明智決策",
+        "description": "通過詳細且誠實的比較，為您的業務做出正確選擇。"
+      },
+      "fit": {
+        "title": "找到最適合您的方案",
+        "description": "每個企業都不同。查看哪個解決方案真正符合您的需求與預算。"
+      }
+    },
+    "cta": {
+      "title": "準備好了解我們的不同之處了嗎？",
+      "subtitle": "在比較了所有替代方案後，我們相信您會同意：Seasalt.ai 是成長型企業的明智選擇。",
+      "signUp": "立即註冊",
+      "bookDemo": "預約示範"
     }
   }
 }

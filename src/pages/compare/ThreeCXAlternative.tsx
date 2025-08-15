@@ -226,69 +226,69 @@ const ThreeCXAlternative = () => {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-red-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-red-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.youManage.title')}</h3>
+                <h3 className="text-2xl font-bold text-red-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.threeCX.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.serverProvisioning')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.serverProvisioning')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.osUpdates')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.osUpdates')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.sslInstallation')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.sslInstallation')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.firewallConfig')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.firewallConfig')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.backupRecovery')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.backupRecovery')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.troubleshooting')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.troubleshooting')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.youManage.items.capacityPlanning')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.capacityPlanning')}</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-green-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-green-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.title')}</h3>
+                <h3 className="text-2xl font-bold text-green-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.seasalt.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.infrastructureManagement')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.infrastructure')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticUpdates')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.securityUpdates')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.sslManagement')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.sslManagement')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.enterpriseSecurity')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.enterpriseSecurity')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automatedBackups')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.backups')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.monitoringSupport')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.monitoring')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticScaling')}</span>
+                    <span className="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.scaling')}</span>
                   </li>
                 </ul>
               </div>
@@ -303,19 +303,19 @@ const ThreeCXAlternative = () => {
               {t('compare.threeCXAlternative.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.threeCXAlternative.cta.description')}
+              {t('compare.threeCXAlternative.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-indigo-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.threeCXAlternative.cta.buttons.signUp')}
+                 {t('compare.threeCXAlternative.cta.signUp')}
               </a>
               <a
                 href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/" className="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.threeCXAlternative.cta.buttons.bookDemo')}
+                {t('compare.threeCXAlternative.cta.bookDemo')}
               </a>
             </div>
           </div>
