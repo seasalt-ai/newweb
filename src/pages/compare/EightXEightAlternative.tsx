@@ -3,69 +3,59 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
 import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const EightXEightAlternative = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const currentLanguage = useNormalizedLanguage();
-  
   const comparisonFeatures = [
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.targetCustomer.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.targetCustomer.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.targetCustomer.eightXEight'),
+      feature: 'Target Customer',
+      seasalt: 'Small to Medium Businesses (SMEs)',
+      competitor: 'Mid-Market to Enterprise',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.pricingModel.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.pricingModel.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.pricingModel.eightXEight'),
+      feature: 'Pricing Model',
+      seasalt: 'Simple & predictable per-agent fee',
+      competitor: 'Quote-Based (Historically expensive tiers)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.startingPrice.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.startingPrice.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.startingPrice.eightXEight'),
+      feature: 'Starting Price',
+      seasalt: '$25/agent/month',
+      competitor: 'Not Publicly Listed (Previously started at $24/mo for basic UCaaS)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.eightXEight'),
+      feature: 'Omnichannel Routing',
+      seasalt: 'Yes',
+      competitor: 'Yes, advanced',
       seasaltAdvantage: false
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.workforceManagement.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.workforceManagement.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.workforceManagement.eightXEight'),
+      feature: 'Workforce Management',
+      seasalt: 'Basic',
+      competitor: 'Yes, advanced',
       seasaltAdvantage: false
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.eightXEight'),
+      feature: 'Ease of Setup',
+      seasalt: 'Simple, self-service',
+      competitor: 'Complex, must contact sales',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.eightXEightAlternative.comparison.features.bestFor.name'),
-      seasalt: t('compare.eightXEightAlternative.comparison.features.bestFor.seasalt'),
-      competitor: t('compare.eightXEightAlternative.comparison.features.bestFor.eightXEight'),
+      feature: 'Best For',
+      seasalt: 'SMEs needing a powerful but affordable and easy-to-use platform',
+      competitor: 'Large enterprises requiring a full suite of advanced communication and management tools',
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.eightXEightAlternative.seo.title')}
-        description={t('compare.eightXEightAlternative.seo.description')}
-        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/8x8-alternative`}
-        availableLanguages={['en', 'zh-TW']}
-        slug="8x8-alternative"
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -74,18 +64,21 @@ const EightXEightAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${currentLanguage}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              {t('compare.eightXEightAlternative.nav.backLink')}
+              Back to Compare Us Overview
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('compare.eightXEightAlternative.hero.title')}{' '}
+                Get the Enterprise Features You Need,{' '}
                 <span className="bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
-                  {t('compare.eightXEightAlternative.hero.highlight')}
+                  Without the Enterprise Price You Don't
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                {t('compare.eightXEightAlternative.hero.description')}
+                8x8 is a comprehensive, enterprise-grade solution offering a full suite of UCaaS and CCaaS features, including true omnichannel 
+                routing and advanced analytics. While powerful, its pricing is opaque (quote-based) and historically expensive, targeting larger 
+                organizations. For SMEs, the complexity and cost are often prohibitive. Seasalt.ai provides the key omnichannel and AI features 
+                that drive value for a growing business.
               </p>
             </div>
           </div>
@@ -96,10 +89,10 @@ const EightXEightAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.eightXEightAlternative.comparison.title')}
+                SME-Focused vs. Enterprise-Complex
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.eightXEightAlternative.comparison.subtitle')}
+                See why simple and transparent beats complex and opaque for growing businesses
               </p>
             </div>
 
@@ -108,9 +101,9 @@ const EightXEightAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.eightXEightAlternative.comparison.table.headers.feature')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.eightXEightAlternative.comparison.table.headers.seasalt')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.eightXEightAlternative.comparison.table.headers.eightXEight')}</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">8x8</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -143,54 +136,54 @@ const EightXEightAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.eightXEightAlternative.pricingTransparency.title')}
+                Transparent vs. Hidden Pricing
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.eightXEightAlternative.pricingTransparency.subtitle')}
+                Why quote-based pricing creates barriers for growing businesses
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Transparent Pricing</h3>
                 <div className="space-y-4">
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-green-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.pricing.title')}</h4>
-                    <p className="text-green-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.pricing.description')}</p>
+                    <h4 className="font-semibold text-green-800">$25/agent/month</h4>
+                    <p className="text-green-700 text-sm">Clear, published pricing</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.selfService.title')}</h4>
-                    <p className="text-blue-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.selfService.description')}</p>
+                    <h4 className="font-semibold text-blue-800">Self-Service Signup</h4>
+                    <p className="text-blue-700 text-sm">Start immediately, no sales calls required</p>
                   </div>
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-purple-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.noMinimums.title')}</h4>
-                    <p className="text-purple-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.noMinimums.description')}</p>
+                    <h4 className="font-semibold text-purple-800">No Minimums</h4>
+                    <p className="text-purple-700 text-sm">Start with 1 user, scale as needed</p>
                   </div>
                   <div className="bg-orange-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-orange-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.predictableCosts.title')}</h4>
-                    <p className="text-orange-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.predictableCosts.description')}</p>
+                    <h4 className="font-semibold text-orange-800">Predictable Costs</h4>
+                    <p className="text-orange-700 text-sm">Easy budgeting and forecasting</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">8x8: Quote-Based Complexity</h3>
                 <div className="space-y-4">
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.hiddenPricing.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.hiddenPricing.description')}</p>
+                    <h4 className="font-semibold text-red-800">Hidden Pricing</h4>
+                    <p className="text-red-700 text-sm">Must contact sales for pricing</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.salesProcess.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.salesProcess.description')}</p>
+                    <h4 className="font-semibold text-red-800">Sales Process</h4>
+                    <p className="text-red-700 text-sm">Lengthy sales cycles and negotiations</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.enterpriseFocus.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.enterpriseFocus.description')}</p>
+                    <h4 className="font-semibold text-red-800">Enterprise Focus</h4>
+                    <p className="text-red-700 text-sm">Pricing optimized for large organizations</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.complexContracts.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.complexContracts.description')}</p>
+                    <h4 className="font-semibold text-red-800">Complex Contracts</h4>
+                    <p className="text-red-700 text-sm">Multi-year commitments and complex terms</p>
                   </div>
                 </div>
               </div>
@@ -200,10 +193,12 @@ const EightXEightAlternative = () => {
               <div className="text-center">
                 <AlertCircle className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-yellow-800 mb-4">
-                  {t('compare.eightXEightAlternative.pricingTransparency.quoteBasedProblem.title')}
+                  The Quote-Based Pricing Problem
                 </h3>
                 <p className="text-yellow-700 max-w-2xl mx-auto">
-                  {t('compare.eightXEightAlternative.pricingTransparency.quoteBasedProblem.description')}
+                  When pricing isn't transparent, it usually means it's expensive. Quote-based pricing creates barriers 
+                  for SMEs who need to budget and make quick decisions. It's designed for enterprise buyers with 
+                  dedicated procurement teams and large budgets.
                 </p>
               </div>
             </div>
@@ -215,70 +210,70 @@ const EightXEightAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.eightXEightAlternative.featureComparison.title')}
+                Essential vs. Over-Engineered
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.eightXEightAlternative.featureComparison.subtitle')}
+                See how Seasalt.ai focuses on what SMEs actually need vs. enterprise complexity
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.eightXEightAlternative.featureComparison.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: SME-Focused</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.essentialOmnichannel')}</span>
+                    <span className="text-gray-700">Essential omnichannel features</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.aiAutomation')}</span>
+                    <span className="text-gray-700">AI automation included</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.simpleSetup')}</span>
+                    <span className="text-gray-700">Simple setup and management</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.intuitiveUI')}</span>
+                    <span className="text-gray-700">Intuitive user interface</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.affordableScaling')}</span>
+                    <span className="text-gray-700">Affordable scaling</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.fastTimeToValue')}</span>
+                    <span className="text-gray-700">Fast time to value</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.eightXEightAlternative.featureComparison.eightXEight.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">8x8: Enterprise-Complex</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.advancedWorkforce')}</span>
+                    <span className="text-gray-700">Advanced workforce management</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.comprehensiveAnalytics')}</span>
+                    <span className="text-gray-700">Comprehensive analytics suite</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.complexImplementation')}</span>
+                    <span className="text-gray-700">Complex implementation required</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.steepLearning')}</span>
+                    <span className="text-gray-700">Steep learning curve</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.highTotalCost')}</span>
+                    <span className="text-gray-700">High total cost of ownership</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.longDeployment')}</span>
+                    <span className="text-gray-700">Long deployment timelines</span>
                   </li>
                 </ul>
               </div>
@@ -291,52 +286,52 @@ const EightXEightAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.eightXEightAlternative.businessImpact.title')}
+                Business Impact Comparison
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.eightXEightAlternative.businessImpact.subtitle')}
+                How platform choice affects your business operations and growth
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Time to Deploy</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.seasalt.value')}</div>
-                    <div className="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.seasalt.label')}</div>
+                    <div className="text-2xl font-bold text-green-600">Minutes</div>
+                    <div className="text-sm text-green-700">Seasalt.ai</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.eightXEight.value')}</div>
-                    <div className="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.eightXEight.label')}</div>
+                    <div className="text-2xl font-bold text-red-600">Months</div>
+                    <div className="text-sm text-red-700">8x8</div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.learningCurve.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Learning Curve</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.learningCurve.seasalt.value')}</div>
-                    <div className="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.learningCurve.seasalt.label')}</div>
+                    <div className="text-2xl font-bold text-green-600">Low</div>
+                    <div className="text-sm text-green-700">Seasalt.ai</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.learningCurve.eightXEight.value')}</div>
-                    <div className="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.learningCurve.eightXEight.label')}</div>
+                    <div className="text-2xl font-bold text-red-600">High</div>
+                    <div className="text-sm text-red-700">8x8</div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.totalCost.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Total Cost</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.totalCost.seasalt.value')}</div>
-                    <div className="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.totalCost.seasalt.label')}</div>
+                    <div className="text-2xl font-bold text-green-600">Predictable</div>
+                    <div className="text-sm text-green-700">Seasalt.ai</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.totalCost.eightXEight.value')}</div>
-                    <div className="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.totalCost.eightXEight.label')}</div>
+                    <div className="text-2xl font-bold text-red-600">Variable</div>
+                    <div className="text-sm text-red-700">8x8</div>
                   </div>
                 </div>
               </div>
@@ -348,22 +343,23 @@ const EightXEightAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-gray-700 to-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('compare.eightXEightAlternative.cta.title')}
+              Get Enterprise Power with SME Simplicity
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.eightXEightAlternative.cta.description')}
+              Why deal with enterprise complexity when you can get the features you need 
+              in a simple, affordable package designed for growing businesses?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.eightXEightAlternative.cta.buttons.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.eightXEightAlternative.cta.buttons.bookDemo')}
+                Book A Demo
               </a>
             </div>
           </div>

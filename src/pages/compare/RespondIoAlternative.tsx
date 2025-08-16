@@ -3,66 +3,57 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const RespondIoAlternative = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: t('compare.respondIoAlternative.comparison.features.pricingModel.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.pricingModel.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.pricingModel.competitor'),
+      feature: 'Pricing Model',
+      seasalt: 'Simple & predictable per-agent fee',
+      competitor: 'Monthly Active Contacts (MACs) + Users',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.startingPrice.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.startingPrice.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.startingPrice.competitor'),
+      feature: 'Starting Price',
+      seasalt: '$25/agent/month',
+      competitor: '$79/month (includes 5 users)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.voiceCalling.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.voiceCalling.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.voiceCalling.competitor'),
+      feature: 'Voice Calling',
+      seasalt: 'Yes, native and fully supported',
+      competitor: 'Beta feature',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.whatsappFees.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.whatsappFees.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.whatsappFees.competitor'),
+      feature: 'WhatsApp Fees',
+      seasalt: 'Included in usage',
+      competitor: 'Billed separately by Meta',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.aiAgent.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.aiAgent.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.aiAgent.competitor'),
+      feature: 'AI Agent',
+      seasalt: 'Yes, included in all plans',
+      competitor: 'Requires Growth plan ($159/mo+)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.coreFocus.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.coreFocus.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.coreFocus.competitor'),
+      feature: 'Core Focus',
+      seasalt: 'True Omnichannel (Voice + Digital)',
+      competitor: 'Digital-First Messaging',
       seasaltAdvantage: false
     },
     {
-      feature: t('compare.respondIoAlternative.comparison.features.bestFor.name'),
-      seasalt: t('compare.respondIoAlternative.comparison.features.bestFor.seasalt'),
-      competitor: t('compare.respondIoAlternative.comparison.features.bestFor.competitor'),
+      feature: 'Best For',
+      seasalt: 'SMEs needing a unified hub for all customer conversations, including phone calls',
+      competitor: 'Marketing and sales teams focused primarily on lead generation through chat',
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.respondIoAlternative.seo.title')}
-        description={t('compare.respondIoAlternative.seo.description')}
-        canonicalUrl={`/${i18n.language}/compare/respond-io-alternative`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -71,18 +62,21 @@ const RespondIoAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              {t('compare.respondIoAlternative.navigation.backLink')}
+              Back to Compare Us Overview
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('compare.respondIoAlternative.hero.title.main')}{' '}
+                Don't Settle for Digital-Only.{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
-                  {t('compare.respondIoAlternative.hero.title.highlight')}
+                  Get True Omnichannel with Native Voice and Messaging
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                {t('compare.respondIoAlternative.hero.description')}
+                Respond.io is a strong platform for businesses focused on messaging channels like WhatsApp. However, its pricing is based on 
+                Monthly Active Contacts (MACs), which can become unpredictable, and crucial channels like Voice are still in beta. 
+                Furthermore, WhatsApp usage fees are billed separately, adding another layer of cost complexity. Seasalt.ai offers a 
+                truly unified platform where voice is a core, native feature.
               </p>
             </div>
           </div>
@@ -93,10 +87,10 @@ const RespondIoAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.respondIoAlternative.comparison.title')}
+                Unified Omnichannel vs. Digital-First
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.respondIoAlternative.comparison.subtitle')}
+                See why native voice integration matters for complete customer communication
               </p>
             </div>
 
@@ -105,9 +99,9 @@ const RespondIoAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.respondIoAlternative.comparison.table.headers.feature')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.respondIoAlternative.comparison.table.headers.seasalt')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.respondIoAlternative.comparison.table.headers.competitor')}</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">respond.io</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -140,54 +134,54 @@ const RespondIoAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.respondIoAlternative.pricing.title')}
+                Predictable vs. Variable Pricing
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.respondIoAlternative.pricing.subtitle')}
+                Why simple per-agent pricing beats complex contact-based models
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.respondIoAlternative.pricing.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Simple & Predictable</h3>
                 <div className="space-y-4">
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-green-800">{t('compare.respondIoAlternative.pricing.seasalt.perAgent.title')}</h4>
-                    <p className="text-green-700 text-sm">{t('compare.respondIoAlternative.pricing.seasalt.perAgent.description')}</p>
+                    <h4 className="font-semibold text-green-800">Per-Agent Pricing</h4>
+                    <p className="text-green-700 text-sm">$25/agent/month - easy to budget and scale</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">{t('compare.respondIoAlternative.pricing.seasalt.allChannels.title')}</h4>
-                    <p className="text-blue-700 text-sm">{t('compare.respondIoAlternative.pricing.seasalt.allChannels.description')}</p>
+                    <h4 className="font-semibold text-blue-800">All Channels Included</h4>
+                    <p className="text-blue-700 text-sm">Voice, SMS, WhatsApp, chat - no extra fees</p>
                   </div>
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-purple-800">{t('compare.respondIoAlternative.pricing.seasalt.usageIncluded.title')}</h4>
-                    <p className="text-purple-700 text-sm">{t('compare.respondIoAlternative.pricing.seasalt.usageIncluded.description')}</p>
+                    <h4 className="font-semibold text-purple-800">Usage Included</h4>
+                    <p className="text-purple-700 text-sm">WhatsApp and SMS usage included in plan</p>
                   </div>
                   <div className="bg-orange-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-orange-800">{t('compare.respondIoAlternative.pricing.seasalt.noSurprises.title')}</h4>
-                    <p className="text-orange-700 text-sm">{t('compare.respondIoAlternative.pricing.seasalt.noSurprises.description')}</p>
+                    <h4 className="font-semibold text-orange-800">No Surprises</h4>
+                    <p className="text-orange-700 text-sm">Predictable monthly costs, easy to forecast</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.respondIoAlternative.pricing.competitor.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">respond.io: Complex Variables</h3>
                 <div className="space-y-4">
                   <div className="bg-yellow-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-yellow-800">{t('compare.respondIoAlternative.pricing.competitor.monthlyContacts.title')}</h4>
-                    <p className="text-yellow-700 text-sm">{t('compare.respondIoAlternative.pricing.competitor.monthlyContacts.description')}</p>
+                    <h4 className="font-semibold text-yellow-800">Monthly Active Contacts</h4>
+                    <p className="text-yellow-700 text-sm">Pricing varies based on contact activity</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.respondIoAlternative.pricing.competitor.separateFees.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.respondIoAlternative.pricing.competitor.separateFees.description')}</p>
+                    <h4 className="font-semibold text-red-800">Separate WhatsApp Fees</h4>
+                    <p className="text-red-700 text-sm">Meta charges billed separately</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.respondIoAlternative.pricing.competitor.voiceBeta.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.respondIoAlternative.pricing.competitor.voiceBeta.description')}</p>
+                    <h4 className="font-semibold text-red-800">Voice in Beta</h4>
+                    <p className="text-red-700 text-sm">Core feature still being developed</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">{t('compare.respondIoAlternative.pricing.competitor.unpredictableCosts.title')}</h4>
-                    <p className="text-red-700 text-sm">{t('compare.respondIoAlternative.pricing.competitor.unpredictableCosts.description')}</p>
+                    <h4 className="font-semibold text-red-800">Unpredictable Costs</h4>
+                    <p className="text-red-700 text-sm">Monthly bills can vary significantly</p>
                   </div>
                 </div>
               </div>
@@ -200,62 +194,62 @@ const RespondIoAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.respondIoAlternative.voice.title')}
+                Native Voice vs. Beta Feature
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.respondIoAlternative.voice.subtitle')}
+                Why voice should be a core feature, not an afterthought
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.respondIoAlternative.voice.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Voice-First Design</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.seasalt.nativeVoice')}</span>
+                    <span className="text-gray-700">Native voice calling built into platform</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.seasalt.aiVoicebot')}</span>
+                    <span className="text-gray-700">AI voicebot with human handoff</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.seasalt.unifiedHistory')}</span>
+                    <span className="text-gray-700">Unified conversation history across voice and digital</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.seasalt.phoneFeatures')}</span>
+                    <span className="text-gray-700">Professional phone system features</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.seasalt.productionReady')}</span>
+                    <span className="text-gray-700">Production-ready and fully supported</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-yellow-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-yellow-600 mb-6">{t('compare.respondIoAlternative.voice.competitor.title')}</h3>
+                <h3 className="text-2xl font-bold text-yellow-600 mb-6">respond.io: Voice as Beta</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.competitor.betaTesting')}</span>
+                    <span className="text-gray-700">Voice calling still in beta testing</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.competitor.limitedFeatures')}</span>
+                    <span className="text-gray-700">Limited voice features and reliability</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.competitor.potentialBugs')}</span>
+                    <span className="text-gray-700">Potential for bugs and instability</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.competitor.uncertainRoadmap')}</span>
+                    <span className="text-gray-700">Uncertain roadmap and timeline</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.respondIoAlternative.voice.competitor.notRecommended')}</span>
+                    <span className="text-gray-700">Not recommended for production use</span>
                   </li>
                 </ul>
               </div>
@@ -267,22 +261,23 @@ const RespondIoAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('compare.respondIoAlternative.cta.title')}
+              Ready for True Omnichannel?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.respondIoAlternative.cta.description')}
+              Stop waiting for beta features. Get a platform where voice and digital 
+              channels work together seamlessly from day one.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.respondIoAlternative.cta.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.respondIoAlternative.cta.bookDemo')}
+                Book A Demo
               </a>
             </div>
           </div>

@@ -6,7 +6,7 @@ import SupportPlan from '../../components/SupportPlan';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
@@ -82,56 +82,56 @@ const PricingPage = () => {
   const plans = [
     {
       id: 'free',
-      name: t('pricing.plans.free.name'),
-      tagline: t('pricing.plans.free.tagline'),
-      description: t('pricing.plans.free.description'),
+      name: 'Truly Free',
+      tagline: 'Experience a trial of powerful features',
+      description: 'Perfect for getting started with human agents',
       price: 0,
       originalPrice: 0,
       features: [
         {
-          description: t('pricing.plans.free.features.humanAgent'),
+          description: '1 human agent',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedHumanChats'),
+          description: 'Unlimited human agent chats',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedContacts'),
+          description: 'Unlimited contacts',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedHistory'),
+          description: 'Unlimited chat history',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.exportHistory'),
+          description: 'Freedom to export chat history',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.channels'),
+          description: 'Channels: WhatsApp Messenger, chat widget',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.integrations'),
+          description: 'Integrations: Wix, WordPress, Shopify, Make.com, Squarespace',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.aiAgent'),
+          description: 'AI agent with 100 lifetime AI replies:',
           sub_features: [
-            { description: t('pricing.plans.free.features.aiAgentModel'), sub_features: [] }
+            { description: 'ChatGPT-3.5-turbo', sub_features: [] }
           ]
         },
         {
-          description: t('pricing.plans.free.features.knowledgeBase'),
+          description: 'Knowledge base includes 20 documents (200KB max) and 250k tokens',
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.workspace'),
+          description: '1 workspace',
           sub_features: []
         }
       ],
-      buttonText: t('pricing.plans.free.buttonText'),
+      buttonText: 'Get Started Free',
       buttonStyle: 'bg-purple-600 hover:bg-purple-700 text-white',
       cardStyle: 'bg-gradient-to-br from-purple-400 to-purple-600 text-white',
       highlight: false
@@ -245,15 +245,16 @@ const PricingPage = () => {
       <section className="pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            {t('pricing.hero.title')}
+            Pricing That Grows With You
           </h1>
           <p className="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
-            {t('pricing.hero.subtitle')}
+            Start completely free with human agents, then add AI when you're ready to scale. 
+            No surprises, no hidden fees, just transparent pricing.
           </p>
           
           {/* Billing Toggle */}
           <div className="flex items-center justify-center mb-8">
-            <span className={`mr-3 ${billingCycle === 'monthly' ? 'text-white' : 'text-blue-300'}`}>{t('pricing.billing.monthly')}</span>
+            <span className={`mr-3 ${billingCycle === 'monthly' ? 'text-white' : 'text-blue-300'}`}>Monthly</span>
             <button
               onClick={() => setBillingCycle(billingCycle === 'monthly' ? 'yearly' : 'monthly')}
               className="relative inline-flex h-6 w-11 items-center rounded-full bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
@@ -265,7 +266,7 @@ const PricingPage = () => {
               />
             </button>
             <span className={`ml-3 ${billingCycle === 'yearly' ? 'text-white' : 'text-blue-300'}`}>
-              {t('pricing.billing.yearly')} <span className="text-green-300 font-semibold">({t('pricing.billing.save')})</span>
+              Yearly <span className="text-green-300 font-semibold">(Save 2 Months)</span>
             </span>
           </div>
         </div>

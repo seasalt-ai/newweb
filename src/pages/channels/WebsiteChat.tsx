@@ -4,38 +4,35 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteChat = () => {
-  const { t, i18n } = useTranslation();
-
+  const { i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
   const features = [
     {
       icon: <Code className="h-8 w-8" />,
-      title: t('channels.websiteChat.features.noCodeSetup.title'),
-      description: t('channels.websiteChat.features.noCodeSetup.description')
+      title: 'No-Code Setup',
+      description: 'Add to any website in under 5 minutes without technical knowledge required'
     },
     {
       icon: <Palette className="h-8 w-8" />,
-      title: t('channels.websiteChat.features.customBranding.title'),
-      description: t('channels.websiteChat.features.customBranding.description')
+      title: 'Custom Branding',
+      description: 'Match your brand with custom colors, fonts, and messaging styles'
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: t('channels.websiteChat.features.leadCapture.title'),
-      description: t('channels.websiteChat.features.leadCapture.description')
+      title: 'Lead Capture',
+      description: 'Automatically collect visitor information and qualify leads in real-time'
     },
     {
       icon: <Zap className="h-8 w-8" />,
-      title: t('channels.websiteChat.features.instantResponses.title'),
-      description: t('channels.websiteChat.features.instantResponses.description')
+      title: 'Instant Responses',
+      description: 'AI-powered responses provide immediate help to website visitors 24/7'
     }
   ];
 
@@ -50,31 +47,25 @@ const WebsiteChat = () => {
 
   const customizationOptions = [
     {
-      title: t('channels.websiteChat.customization.positionSize.title'),
-      description: t('channels.websiteChat.customization.positionSize.description')
+      title: 'Position & Size',
+      description: 'Choose corner placement, size, and visibility settings'
     },
     {
-      title: t('channels.websiteChat.customization.colorsFonts.title'),
-      description: t('channels.websiteChat.customization.colorsFonts.description')
+      title: 'Colors & Fonts',
+      description: 'Match your brand colors and typography perfectly'
     },
     {
-      title: t('channels.websiteChat.customization.welcomeMessages.title'),
-      description: t('channels.websiteChat.customization.welcomeMessages.description')
+      title: 'Welcome Messages',
+      description: 'Customize greeting messages and conversation starters'
     },
     {
-      title: t('channels.websiteChat.customization.triggerRules.title'),
-      description: t('channels.websiteChat.customization.triggerRules.description')
+      title: 'Trigger Rules',
+      description: 'Set when and where the widget appears to visitors'
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('channels.websiteChat.hero.title.prefix') + ' ' + t('channels.websiteChat.hero.title.highlight')}
-        description={t('channels.websiteChat.hero.description')}
-        favicon="/favicon.ico"
-        canonicalUrl={`${window.location.origin}/channels/website-chat`}
-      />
       <Header />
       
       <main className="pt-16">
@@ -85,28 +76,29 @@ const WebsiteChat = () => {
               <div>
                 <Link to="/channels-overview" className="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('channels.websiteChat.navigation.backToChannels')}
+                  Back to Channels
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('channels.websiteChat.hero.title.prefix')}{' '}
+                  Turn Website Visitors into{' '}
                   <span className="bg-gradient-to-r from-indigo-600 to-indigo-700 bg-clip-text text-transparent">
-                    {t('channels.websiteChat.hero.title.highlight')}
+                    Conversations
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  {t('channels.websiteChat.hero.description')}
+                  Add a powerful AI chat widget to your website in under 5 minutes. 
+                  Capture leads, provide instant support, and never miss an opportunity.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://chat.seasalt.ai/gpt/signup"
                     className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.websiteChat.hero.cta.primary')}
+                    Get Your Free Widget
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)} className="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.websiteChat.hero.cta.secondary')}
+                    Book A Demo
                   </a>
                 </div>
               </div>
@@ -116,22 +108,22 @@ const WebsiteChat = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Monitor className="h-8 w-8 text-indigo-600 mr-3" />
-                      <h3 className="text-lg font-semibold">{t('channels.websiteChat.hero.widget.title')}</h3>
+                      <h3 className="text-lg font-semibold">Website Chat Widget</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-indigo-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-indigo-800">{t('channels.websiteChat.hero.widget.welcome.greeting')}</p>
-                        <p className="text-xs text-indigo-600">{t('channels.websiteChat.hero.widget.welcome.question')}</p>
+                        <p className="text-sm font-medium text-indigo-800">👋 Welcome!</p>
+                        <p className="text-xs text-indigo-600">How can we help you today?</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">{t('channels.websiteChat.hero.widget.visitor.message')}</p>
+                        <p className="text-sm text-gray-700">Visitor: "Do you offer free shipping?"</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm text-blue-700">{t('channels.websiteChat.hero.widget.ai.response')}</p>
+                        <p className="text-sm text-blue-700">AI: "Yes! Free shipping on orders over $50. Would you like to see our current promotions?"</p>
                       </div>
                       <div className="flex space-x-2">
-                        <button className="bg-indigo-600 text-white px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.yes')}</button>
-                        <button className="bg-gray-200 text-gray-700 px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.no')}</button>
+                        <button className="bg-indigo-600 text-white px-3 py-1 rounded text-xs">Yes, show me</button>
+                        <button className="bg-gray-200 text-gray-700 px-3 py-1 rounded text-xs">No thanks</button>
                       </div>
                     </div>
                   </div>
@@ -146,10 +138,10 @@ const WebsiteChat = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteChat.features.title')}
+                Key Features
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteChat.features.subtitle')}
+                Everything you need to engage website visitors and convert them into customers
               </p>
             </div>
 
@@ -176,10 +168,10 @@ const WebsiteChat = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteChat.platforms.title')}
+                Works with Every Platform
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteChat.platforms.subtitle')}
+                Easy integration with all major website builders and platforms
               </p>
             </div>
 
@@ -201,10 +193,10 @@ const WebsiteChat = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteChat.customization.title')}
+                Customization Showcase
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteChat.customization.subtitle')}
+                Make the widget truly yours with extensive customization options
               </p>
             </div>
 
@@ -225,10 +217,11 @@ const WebsiteChat = () => {
               <div className="text-center">
                 <Palette className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-indigo-900 mb-4">
-                  {t('channels.websiteChat.customization.realTimePreview.title')}
+                  Real-time Preview
                 </h3>
                 <p className="text-indigo-700 max-w-2xl mx-auto">
-                  {t('channels.websiteChat.customization.realTimePreview.description')}
+                  See your changes instantly with our live preview feature. Customize colors, 
+                  positioning, and messages while seeing exactly how it will look on your website.
                 </p>
               </div>
             </div>
@@ -242,29 +235,29 @@ const WebsiteChat = () => {
               <div className="text-center mb-12">
                 <BarChart3 className="h-16 w-16 text-indigo-600 mx-auto mb-6" />
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  {t('channels.websiteChat.analytics.title')}
+                  Powerful Analytics
                 </h2>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  {t('channels.websiteChat.analytics.subtitle')}
+                  Track visitor engagement, conversion rates, and chat performance with detailed analytics
                 </p>
               </div>
 
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center p-4 bg-indigo-50 rounded-lg">
                   <div className="text-2xl font-bold text-indigo-600">2,847</div>
-                  <div className="text-sm text-indigo-700">{t('channels.websiteChat.analytics.conversations')}</div>
+                  <div className="text-sm text-indigo-700">Conversations</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-2xl font-bold text-green-600">23%</div>
-                  <div className="text-sm text-green-700">{t('channels.websiteChat.analytics.conversionRate')}</div>
+                  <div className="text-sm text-green-700">Conversion Rate</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <div className="text-2xl font-bold text-orange-600">1.2m</div>
-                  <div className="text-sm text-orange-700">{t('channels.websiteChat.analytics.responseTime')}</div>
+                  <div className="text-sm text-orange-700">Response Time</div>
                 </div>
                 <div className="text-center p-4 bg-purple-50 rounded-lg">
                   <div className="text-2xl font-bold text-purple-600">94%</div>
-                  <div className="text-sm text-purple-700">{t('channels.websiteChat.analytics.satisfaction')}</div>
+                  <div className="text-sm text-purple-700">Satisfaction</div>
                 </div>
               </div>
             </div>
@@ -275,17 +268,18 @@ const WebsiteChat = () => {
         <section className="py-20 bg-gradient-to-r from-indigo-600 to-indigo-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('channels.websiteChat.cta.title')}
+              Ready to Add Chat to Your Website?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('channels.websiteChat.cta.description')}
+              Get your custom chat widget in minutes. No coding required, 
+              full customization available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-indigo-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('channels.websiteChat.cta.button')}
+                Get Widget Code
               </a>
             </div>
           </div>

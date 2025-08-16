@@ -4,13 +4,10 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-
-const SUPPORTED_LANGUAGES = ['en', 'zh-TW'];
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const Line = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -18,82 +15,75 @@ const Line = () => {
   }, []);
   const markets = [
     {
-      country: t('channels.line.markets.JP.country'),
-      users: t('channels.line.markets.JP.users'),
-      penetration: t('channels.line.markets.JP.penetration'),
+      country: 'Japan',
+      users: '95M',
+      penetration: '75%',
       flag: '🇯🇵'
     },
     {
-      country: t('channels.line.markets.TW.country'),
-      users: t('channels.line.markets.TW.users'),
-      penetration: t('channels.line.markets.TW.penetration'),
+      country: 'Taiwan',
+      users: '21M',
+      penetration: '90%',
       flag: '🇹🇼'
     },
     {
-      country: t('channels.line.markets.TH.country'),
-      users: t('channels.line.markets.TH.users'),
-      penetration: t('channels.line.markets.TH.penetration'),
+      country: 'Thailand',
+      users: '53M',
+      penetration: '76%',
       flag: '🇹🇭'
     },
     {
-      country: t('channels.line.markets.KR.country'),
-      users: t('channels.line.markets.KR.users'),
-      penetration: t('channels.line.markets.KR.penetration'),
+      country: 'South Korea',
+      users: '35M',
+      penetration: '68%',
       flag: '🇰🇷'
     }
   ];
 
-
   const features = [
     {
       icon: <Globe className="h-8 w-8" />,
-      title: t('channels.line.features.regionalDominance.title'),
-      description: t('channels.line.features.regionalDominance.description')
+      title: 'Regional Dominance',
+      description: 'Access to over 200 million LINE users across key Asian markets'
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: t('channels.line.features.officialAccount.title'),
-      description: t('channels.line.features.officialAccount.description')
+      title: 'LINE Official Account',
+      description: 'Full integration with LINE Official Account for business messaging'
     },
     {
       icon: <Zap className="h-8 w-8" />,
-      title: t('channels.line.features.richMessaging.title'),
-      description: t('channels.line.features.richMessaging.description')
+      title: 'Rich Messaging',
+      description: 'Support for stickers, rich menus, and interactive message formats'
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: t('channels.line.features.culturalAdaptation.title'),
-      description: t('channels.line.features.culturalAdaptation.description')
+      title: 'Cultural Adaptation',
+      description: 'Localized messaging features optimized for different Asian markets'
     }
   ];
 
   const businessFeatures = [
     {
-      title: t('channels.line.businessFeatures.payIntegration.title'),
-      description: t('channels.line.businessFeatures.payIntegration.description')
+      title: 'LINE Pay Integration',
+      description: 'Accept payments directly through LINE for seamless transactions'
     },
     {
-      title: t('channels.line.businessFeatures.richMenu.title'),
-      description: t('channels.line.businessFeatures.richMenu.description')
+      title: 'Rich Menu Design',
+      description: 'Create interactive menus for easy customer navigation'
     },
     {
-      title: t('channels.line.businessFeatures.broadcast.title'),
-      description: t('channels.line.businessFeatures.broadcast.description')
+      title: 'Broadcast Messaging',
+      description: 'Send targeted messages to your LINE followers'
     },
     {
-      title: t('channels.line.businessFeatures.chatbot.title'),
-      description: t('channels.line.businessFeatures.chatbot.description')
+      title: 'Chatbot Builder',
+      description: 'Visual chatbot builder optimized for LINE interactions'
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('channels.line.seo.title')}
-        description={t('channels.line.seo.description')}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -104,26 +94,30 @@ const Line = () => {
               <div>
                 <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('channels.line.navigation.backToChannels')}
+                  Back to Channels
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('channels.line.hero.title')}
+                  Dominate Asian Markets with{' '}
+                  <span className="bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent">
+                    LINE Integration
+                  </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  {t('channels.line.hero.subtitle')}
+                  Connect with over 200 million LINE users across Asia with AI-powered conversations 
+                  and business messaging. Perfect for businesses targeting Japanese, Taiwanese, Thai, and Korean markets.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://chat.seasalt.ai/gpt/signup"
                     className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.line.hero.cta.startIntegration')}
+                    Start LINE Integration
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)}
                     className="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.line.hero.cta.seeDemo')}
+                    See Demo
                   </a>
                 </div>
               </div>
@@ -133,23 +127,23 @@ const Line = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Smartphone className="h-8 w-8 text-green-500 mr-3" />
-                      <h3 className="text-lg font-semibold">{t('channels.line.hero.demo.title')}</h3>
+                      <h3 className="text-lg font-semibold">LINE Business</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm font-medium text-green-800">🇯🇵 Customer: "{t('channels.line.hero.demo.customer')}"</p>
-                        <p className="text-xs text-green-600">{t('channels.line.hero.demo.customerTranslation')}</p>
+                        <p className="text-sm font-medium text-green-800">🇯🇵 Customer: "商品について質問があります"</p>
+                        <p className="text-xs text-green-600">(I have a question about the product)</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm text-blue-700">AI: "{t('channels.line.hero.demo.ai1')}"</p>
-                        <p className="text-xs text-blue-600">{t('channels.line.hero.demo.ai1Translation')}</p>
+                        <p className="text-sm text-blue-700">AI: "こんにちは！喜んでお手伝いします。どの商品についてですか？"</p>
+                        <p className="text-xs text-blue-600">(Hello! I'm happy to help. Which product?)</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-700">🎌 {t('channels.line.hero.demo.stickerMessage')}</p>
+                        <p className="text-sm text-gray-700">🎌 Sticker: Thank you!</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm text-green-700">AI: "{t('channels.line.hero.demo.ai2')}"</p>
-                        <p className="text-xs text-green-600">{t('channels.line.hero.demo.ai2Translation')}</p>
+                        <p className="text-sm text-green-700">AI: "どういたしまして！他にご質問はありますか？"</p>
+                        <p className="text-xs text-green-600">(You're welcome! Any other questions?)</p>
                       </div>
                     </div>
                   </div>
@@ -164,10 +158,10 @@ const Line = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.line.marketFocus.title')}
+                Market Focus
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.line.marketFocus.subtitle')}
+                LINE's dominance in key Asian markets makes it essential for businesses targeting these regions
               </p>
             </div>
 
@@ -181,11 +175,11 @@ const Line = () => {
                   <div className="space-y-2">
                     <div className="bg-white p-2 rounded-lg">
                       <div className="text-lg font-bold text-green-600">{market.users}</div>
-                      <div className="text-xs text-green-700">{t('channels.line.marketFocus.activeUsers')}</div>
+                      <div className="text-xs text-green-700">Active Users</div>
                     </div>
                     <div className="bg-white p-2 rounded-lg">
                       <div className="text-lg font-bold text-green-600">{market.penetration}</div>
-                      <div className="text-xs text-green-700">{t('channels.line.marketFocus.marketPenetration')}</div>
+                      <div className="text-xs text-green-700">Market Penetration</div>
                     </div>
                   </div>
                 </div>
@@ -199,10 +193,10 @@ const Line = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.line.features.title')}
+                LINE Business Features
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.line.features.subtitle')}
+                Leverage LINE's unique features for business communication and customer engagement
               </p>
             </div>
 
@@ -229,10 +223,10 @@ const Line = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.line.businessMessaging.title')}
+                Advanced Business Messaging
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.line.businessMessaging.subtitle')}
+                Take advantage of LINE's rich messaging features for enhanced customer experiences
               </p>
             </div>
 
@@ -257,28 +251,28 @@ const Line = () => {
             <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-2xl p-12 text-white">
               <div className="text-center mb-12">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                  {t('channels.line.culturalAdaptationSection.title')}
+                  Cultural Adaptation
                 </h2>
                 <p className="text-xl opacity-90 max-w-2xl mx-auto">
-                  {t('channels.line.culturalAdaptationSection.subtitle')}
+                  Our AI understands cultural nuances and communication styles across different Asian markets
                 </p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <MapPin className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">{t('channels.line.culturalFeatures.localized.title')}</h3>
-                  <p className="text-sm opacity-90">{t('channels.line.culturalFeatures.localized.description')}</p>
+                  <h3 className="text-lg font-semibold mb-2">Localized Responses</h3>
+                  <p className="text-sm opacity-90">AI responses adapted for local communication styles and cultural preferences</p>
                 </div>
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <Users className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">{t('channels.line.culturalFeatures.multiLanguage.title')}</h3>
-                  <p className="text-sm opacity-90">{t('channels.line.culturalFeatures.multiLanguage.description')}</p>
+                  <h3 className="text-lg font-semibold mb-2">Multi-Language Support</h3>
+                  <p className="text-sm opacity-90">Native support for Japanese, Chinese, Thai, Korean, and English</p>
                 </div>
                 <div className="bg-white bg-opacity-20 p-6 rounded-xl">
                   <Smartphone className="h-8 w-8 mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">{t('channels.line.culturalFeatures.sticker.title')}</h3>
-                  <p className="text-sm opacity-90">{t('channels.line.culturalFeatures.sticker.description')}</p>
+                  <h3 className="text-lg font-semibold mb-2">Sticker Integration</h3>
+                  <p className="text-sm opacity-90">Smart use of LINE stickers and emojis for natural conversations</p>
                 </div>
               </div>
             </div>
@@ -289,17 +283,18 @@ const Line = () => {
         <section className="py-20 bg-gradient-to-r from-green-500 to-green-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('channels.line.cta.title')}
+              Ready to Enter Asian Markets?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('channels.line.cta.subtitle')}
+              Connect with millions of potential customers across Asia through LINE's 
+              dominant messaging platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('channels.line.cta.startIntegration')}
+                Start LINE Integration
               </a>
             </div>
           </div>

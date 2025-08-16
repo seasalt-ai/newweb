@@ -8,7 +8,7 @@ import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const SalesMarketing = () => {
-  const { i18n, t } = useTranslation();
+  const { i18n } = useTranslation();
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/solutions/sales-marketing` 
     : `/${i18n.language}/solutions/sales-marketing`;
@@ -16,22 +16,22 @@ const SalesMarketing = () => {
   const challenges = [
     {
       icon: <Target className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.challenges.leadGeneration.title'),
-      description: t('solutions.salesMarketing.challenges.leadGeneration.description'),
+      title: 'Lead Generation & Qualification',
+      description: 'Struggling to capture leads across multiple channels and qualify them efficiently',
       color: 'text-green-600',
       bgColor: 'bg-green-50'
     },
     {
       icon: <TrendingUp className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.challenges.conversion.title'),
-      description: t('solutions.salesMarketing.challenges.conversion.description'),
+      title: 'Conversion Optimization',
+      description: 'Missing opportunities to convert prospects due to slow response times',
       color: 'text-blue-600',
       bgColor: 'bg-blue-50'
     },
     {
       icon: <Megaphone className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.challenges.campaignManagement.title'),
-      description: t('solutions.salesMarketing.challenges.campaignManagement.description'),
+      title: 'Campaign Management',
+      description: 'Difficulty managing multi-channel campaigns and tracking their effectiveness',
       color: 'text-purple-600',
       bgColor: 'bg-purple-50'
     }
@@ -40,13 +40,13 @@ const SalesMarketing = () => {
   const solutions = [
     {
       icon: <Target className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.solutions.leadCapture.title'),
-      description: t('solutions.salesMarketing.solutions.leadCapture.description'),
+      title: 'Intelligent Lead Capture & Qualification',
+      description: 'Capture leads from every channel and let AI qualify them instantly',
       benefits: [
-        t('solutions.salesMarketing.solutions.leadCapture.benefit1'),
-        t('solutions.salesMarketing.solutions.leadCapture.benefit2'),
-        t('solutions.salesMarketing.solutions.leadCapture.benefit3'),
-        t('solutions.salesMarketing.solutions.leadCapture.benefit4')
+        'Capture leads from website, social media, and ads',
+        'AI qualifies leads with smart questioning',
+        'Automatic lead scoring and prioritization',
+        'Instant notifications for hot prospects'
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -54,13 +54,13 @@ const SalesMarketing = () => {
     },
     {
       icon: <Zap className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.solutions.responseTime.title'),
-      description: t('solutions.salesMarketing.solutions.responseTime.description'),
+      title: 'Lightning-Fast Response Times',
+      description: 'Respond to prospects within seconds, not hours, with AI automation',
       benefits: [
-        t('solutions.salesMarketing.solutions.responseTime.benefit1'),
-        t('solutions.salesMarketing.solutions.responseTime.benefit2'),
-        t('solutions.salesMarketing.solutions.responseTime.benefit3'),
-        t('solutions.salesMarketing.solutions.responseTime.benefit4')
+        'Instant responses to all inquiries 24/7',
+        'AI books demos and consultations automatically',
+        'Smart follow-up sequences that nurture leads',
+        'Seamless handoff to sales reps when ready'
       ],
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
@@ -68,13 +68,13 @@ const SalesMarketing = () => {
     },
     {
       icon: <Megaphone className="h-8 w-8" />,
-      title: t('solutions.salesMarketing.solutions.omnichannel.title'),
-      description: t('solutions.salesMarketing.solutions.omnichannel.description'),
+      title: 'Omnichannel Campaign Management',
+      description: 'Launch and manage campaigns across SMS, WhatsApp, email, and voice',
       benefits: [
-        t('solutions.salesMarketing.solutions.omnichannel.benefit1'),
-        t('solutions.salesMarketing.solutions.omnichannel.benefit2'),
-        t('solutions.salesMarketing.solutions.omnichannel.benefit3'),
-        t('solutions.salesMarketing.solutions.omnichannel.benefit4')
+        'Unified campaign management across all channels',
+        'Personalized messaging at scale',
+        'Real-time campaign performance tracking',
+        'Automated A/B testing and optimization'
       ],
       color: 'text-purple-600',
       bgColor: 'bg-purple-50',
@@ -84,46 +84,46 @@ const SalesMarketing = () => {
 
   const useCases = [
     {
-      title: t('solutions.salesMarketing.useCases.saas.title'),
-      scenario: t('solutions.salesMarketing.useCases.saas.challenge'),
-      solution: t('solutions.salesMarketing.useCases.saas.solution')
+      title: 'SaaS Sales Team',
+      scenario: 'Generating and qualifying leads for software demos',
+      solution: 'AI captures leads from website, qualifies interest level, and books demos automatically'
     },
     {
-      title: t('solutions.salesMarketing.useCases.ecommerce.title'),
-      scenario: t('solutions.salesMarketing.useCases.ecommerce.challenge'),
-      solution: t('solutions.salesMarketing.useCases.ecommerce.solution')
+      title: 'E-commerce Marketing',
+      scenario: 'Running promotional campaigns and recovering abandoned carts',
+      solution: 'Automated SMS and WhatsApp campaigns with personalized offers and cart recovery'
     },
     {
-      title: t('solutions.salesMarketing.useCases.realEstate.title'),
-      scenario: t('solutions.salesMarketing.useCases.realEstate.challenge'),
-      solution: t('solutions.salesMarketing.useCases.realEstate.solution')
+      title: 'Real Estate Agents',
+      scenario: 'Following up on property inquiries and scheduling showings',
+      solution: 'AI responds to property questions instantly and books showing appointments'
     },
     {
-      title: t('solutions.salesMarketing.useCases.professionalServices.title'),
-      scenario: t('solutions.salesMarketing.useCases.professionalServices.challenge'),
-      solution: t('solutions.salesMarketing.useCases.professionalServices.solution')
+      title: 'Professional Services',
+      scenario: 'Converting consultation requests into booked appointments',
+      solution: 'Smart qualification process that books consultations with the right team member'
     }
   ];
 
   const metrics = [
     {
       metric: '300%',
-      description: t('solutions.salesMarketing.metrics.responseRate'),
+      description: 'Increase in lead response rate',
       icon: <TrendingUp className="h-6 w-6" />
     },
     {
       metric: '45%',
-      description: t('solutions.salesMarketing.metrics.conversionRate'),
+      description: 'Higher conversion rates',
       icon: <Target className="h-6 w-6" />
     },
     {
       metric: '24/7',
-      description: t('solutions.salesMarketing.metrics.availability'),
+      description: 'Lead capture and qualification',
       icon: <Zap className="h-6 w-6" />
     },
     {
       metric: '5x',
-      description: t('solutions.salesMarketing.metrics.qualifiedLeads'),
+      description: 'More qualified leads per month',
       icon: <Star className="h-6 w-6" />
     }
   ];
@@ -134,8 +134,8 @@ const SalesMarketing = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={t('solutions.salesMarketing.seo.title')}
-        description={t('solutions.salesMarketing.seo.description')}
+        title="Sales & Marketing Solutions - Seasalt.ai"
+        description="Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -149,31 +149,33 @@ const SalesMarketing = () => {
               <div>
                 <Link to="/" className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('solutions.salesMarketing.navigation.backToHome')}
+                  Back to Home
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('solutions.salesMarketing.hero.title1')}{' '}
+                  Turn Every Lead into{' '}
                   <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-                    {t('solutions.salesMarketing.hero.titleGradient')}
+                    Revenue Opportunity
                   </span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 mb-8">
-                  {t('solutions.salesMarketing.hero.subtitle')}
+                  AI-Powered Sales & Marketing Automation That Never Sleeps
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
-                  {t('solutions.salesMarketing.hero.description')}
+                  Capture more leads, respond faster, and convert better with intelligent automation 
+                  that works across every channel. Your prospects get instant responses while you 
+                  focus on closing deals.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('solutions.salesMarketing.hero.cta.primary')}
+                    Boost Your Conversions
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)} className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('solutions.salesMarketing.hero.cta.secondary')}
+                    Book A Demo
                   </a>
                 </div>
               </div>
@@ -183,24 +185,24 @@ const SalesMarketing = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <TrendingUp className="h-8 w-8 text-green-600 mr-3" />
-                      <h3 className="text-lg font-semibold">{t('solutions.salesMarketing.hero.dashboard.title')}</h3>
+                      <h3 className="text-lg font-semibold">Sales Performance</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-500">
-                        <p className="text-sm font-medium text-green-800">{t('solutions.salesMarketing.hero.dashboard.leads')}</p>
-                        <p className="text-xs text-green-600">{t('solutions.salesMarketing.hero.dashboard.leadsQualified')}</p>
+                        <p className="text-sm font-medium text-green-800">🎯 47 new leads captured today</p>
+                        <p className="text-xs text-green-600">AI qualified 23 as high-priority</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                        <p className="text-sm font-medium text-blue-800">{t('solutions.salesMarketing.hero.dashboard.responseTime')}</p>
-                        <p className="text-xs text-blue-600">{t('solutions.salesMarketing.hero.dashboard.responseTimeBenefit')}</p>
+                        <p className="text-sm font-medium text-blue-800">⚡ Average response time: 12 seconds</p>
+                        <p className="text-xs text-blue-600">300% faster than industry average</p>
                       </div>
                       <div className="bg-purple-50 p-3 rounded-lg border-l-4 border-purple-500">
-                        <p className="text-sm font-medium text-purple-800">{t('solutions.salesMarketing.hero.dashboard.demos')}</p>
-                        <p className="text-xs text-purple-600">{t('solutions.salesMarketing.hero.dashboard.demosNote')}</p>
+                        <p className="text-sm font-medium text-purple-800">📅 15 demos booked automatically</p>
+                        <p className="text-xs text-purple-600">While your team was in meetings</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
-                        <p className="text-sm font-medium text-orange-800">{t('solutions.salesMarketing.hero.dashboard.pipeline')}</p>
-                        <p className="text-xs text-orange-600">{t('solutions.salesMarketing.hero.dashboard.conversion')}</p>
+                        <p className="text-sm font-medium text-orange-800">💰 $24,500 pipeline added this week</p>
+                        <p className="text-xs text-orange-600">45% conversion rate improvement</p>
                       </div>
                     </div>
                   </div>
@@ -215,10 +217,11 @@ const SalesMarketing = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.salesMarketing.challenges.title')}
+                Sales & Marketing Challenges
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.salesMarketing.challenges.description')}
+                Every minute you're not responding to a lead is a minute your competitor might be. 
+                Don't let manual processes cost you revenue.
               </p>
             </div>
 
@@ -248,10 +251,11 @@ const SalesMarketing = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.salesMarketing.solutions.title')}
+                Your AI-Powered Sales Engine
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.salesMarketing.solutions.description')}
+                Transform your sales and marketing operations with intelligent automation 
+                that captures, qualifies, and converts leads around the clock.
               </p>
             </div>
 
@@ -274,7 +278,7 @@ const SalesMarketing = () => {
                       </p>
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('solutions.salesMarketing.solutions.keyBenefits')}</h4>
+                      <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Benefits:</h4>
                       <ul className="space-y-3">
                         {solution.benefits.map((benefit, benefitIndex) => (
                           <li key={benefitIndex} className="flex items-start">
@@ -296,10 +300,10 @@ const SalesMarketing = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.salesMarketing.useCases.title')}
+                Real Sales Team Success Stories
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.salesMarketing.useCases.description')}
+                See how sales and marketing teams are using Seasalt.ai to accelerate their growth
               </p>
             </div>
 
@@ -310,11 +314,11 @@ const SalesMarketing = () => {
                     {useCase.title}
                   </h3>
                   <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-600 mb-2">{t('solutions.salesMarketing.useCases.challengeLabel')}</h4>
+                    <h4 className="text-sm font-semibold text-gray-600 mb-2">CHALLENGE:</h4>
                     <p className="text-gray-700 mb-4">{useCase.scenario}</p>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-green-600 mb-2">{t('solutions.salesMarketing.useCases.solutionLabel')}</h4>
+                    <h4 className="text-sm font-semibold text-green-600 mb-2">SEASALT.AI SOLUTION:</h4>
                     <p className="text-gray-700">{useCase.solution}</p>
                   </div>
                 </div>
@@ -328,10 +332,10 @@ const SalesMarketing = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.salesMarketing.metrics.title')}
+                Sales Performance Impact
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.salesMarketing.metrics.description')}
+                See the measurable impact on your sales and marketing metrics
               </p>
             </div>
 
@@ -357,27 +361,28 @@ const SalesMarketing = () => {
         <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('solutions.salesMarketing.cta.title')}
+              Ready to Supercharge Your Sales Performance?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('solutions.salesMarketing.cta.description')}
+              Join hundreds of sales teams using Seasalt.ai to capture more leads, 
+              respond faster, and close more deals with AI automation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('solutions.salesMarketing.cta.primary')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('solutions.salesMarketing.cta.secondary')}
+                Book Sales Demo
               </a>
             </div>
             <p className="text-white opacity-75 mt-6 text-sm">
-              {t('solutions.salesMarketing.cta.disclaimer')}
+              No credit card required • See results in 24 hours • Cancel anytime
             </p>
           </div>
         </section>

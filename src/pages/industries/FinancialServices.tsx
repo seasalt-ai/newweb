@@ -1,10 +1,8 @@
 import IndustryPageTemplate from './IndustryPageTemplate';
-import { getIndustries } from '../../data/industriesData';
-import { useTranslation } from 'react-i18next';
+import { industries } from '../../data/industriesData';
 
 const FinancialServices = () => {
-  const { t } = useTranslation();
-  const industryData = getIndustries(t).find(industry => industry.slug === 'financial-services')!;
+  const industryData = industries.find(industry => industry.slug === 'financial-services')!;
   
   return (
     <IndustryPageTemplate
@@ -15,7 +13,6 @@ const FinancialServices = () => {
       bgColor={industryData.bgColor}
       borderColor={industryData.borderColor}
       icon={industryData.icon}
-      showSeaHealthLink={false}
     />
   );
 };

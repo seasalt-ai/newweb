@@ -4,12 +4,10 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const WebsiteWidget = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
   // Scroll to top when component mounts
@@ -18,33 +16,33 @@ const WebsiteWidget = () => {
   }, []);
   const platforms = [
     {
-      name: t('channels.websiteWidget.platforms.wordpress.name'),
-      description: t('channels.websiteWidget.platforms.wordpress.description'),
+      name: 'WordPress',
+      description: 'Easy plugin installation for WordPress sites',
       icon: '🔌'
     },
     {
-      name: t('channels.websiteWidget.platforms.shopify.name'),
-      description: t('channels.websiteWidget.platforms.shopify.description'),
+      name: 'Shopify',
+      description: 'Native integration with Shopify stores',
       icon: '🛍️'
     },
     {
-      name: t('channels.websiteWidget.platforms.squarespace.name'),
-      description: t('channels.websiteWidget.platforms.squarespace.description'),
+      name: 'Squarespace',
+      description: 'Simple embed code for Squarespace sites',
       icon: '📐'
     },
     {
-      name: t('channels.websiteWidget.platforms.wix.name'),
-      description: t('channels.websiteWidget.platforms.wix.description'),
+      name: 'Wix',
+      description: 'Drag-and-drop widget for Wix websites',
       icon: '🎨'
     },
     {
-      name: t('channels.websiteWidget.platforms.mailerlite.name'),
-      description: t('channels.websiteWidget.platforms.mailerlite.description'),
+      name: 'MailerLite',
+      description: 'Direct integration with MailerLite landing pages',
       icon: '📧'
     },
     {
-      name: t('channels.websiteWidget.platforms.custom.name'),
-      description: t('channels.websiteWidget.platforms.custom.description'),
+      name: 'Custom HTML',
+      description: 'Universal embed code for any website',
       icon: '💻'
     }
   ];
@@ -52,57 +50,51 @@ const WebsiteWidget = () => {
   const features = [
     {
       icon: <Palette className="h-8 w-8" />,
-      title: t('channels.websiteWidget.features.design.title'),
-      description: t('channels.websiteWidget.features.design.description')
+      title: 'Customizable Design',
+      description: 'Match your brand with custom colors, fonts, and positioning options'
     },
     {
       icon: <Smartphone className="h-8 w-8" />,
-      title: t('channels.websiteWidget.features.mobile.title'),
-      description: t('channels.websiteWidget.features.mobile.description')
+      title: 'Mobile Responsive',
+      description: 'Perfect experience across all devices and screen sizes'
     },
     {
       icon: <Code className="h-8 w-8" />,
-      title: t('channels.websiteWidget.features.nocode.title'),
-      description: t('channels.websiteWidget.features.nocode.description')
+      title: 'No-Code Setup',
+      description: 'Add to any website in under 5 minutes without technical knowledge'
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: t('channels.websiteWidget.features.analytics.title'),
-      description: t('channels.websiteWidget.features.analytics.description')
+      title: 'Advanced Analytics',
+      description: 'Track visitor engagement, conversion rates, and chat performance'
     }
   ];
 
   const widgetStyles = [
     {
-      name: t('channels.websiteWidget.styles.chatBubble.name'),
-      description: t('channels.websiteWidget.styles.chatBubble.description'),
+      name: 'Chat Bubble',
+      description: 'Classic floating chat bubble in bottom corner',
       color: 'bg-blue-500'
     },
     {
-      name: t('channels.websiteWidget.styles.slidePanel.name'),
-      description: t('channels.websiteWidget.styles.slidePanel.description'),
+      name: 'Slide-in Panel',
+      description: 'Elegant slide-in panel from the side',
       color: 'bg-green-500'
     },
     {
-      name: t('channels.websiteWidget.styles.embeddedForm.name'),
-      description: t('channels.websiteWidget.styles.embeddedForm.description'),
+      name: 'Embedded Form',
+      description: 'Inline contact form within page content',
       color: 'bg-purple-500'
     },
     {
-      name: t('channels.websiteWidget.styles.fullModal.name'),
-      description: t('channels.websiteWidget.styles.fullModal.description'),
+      name: 'Full-Screen Modal',
+      description: 'Attention-grabbing full-screen overlay',
       color: 'bg-orange-500'
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('channels.websiteWidget.seo.title')}
-        description={t('channels.websiteWidget.seo.description')}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -113,28 +105,29 @@ const WebsiteWidget = () => {
               <div>
                 <Link to={`/${currentLanguage}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('channels.websiteWidget.navigation.backToChannels')}
+                  Back to Channels
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('channels.websiteWidget.hero.title')}{' '}
+                  One Widget,{' '}
                   <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
-                    {t('channels.websiteWidget.hero.titleHighlight')}
+                    Every Platform
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  {t('channels.websiteWidget.hero.subtitle')}
+                  Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, 
+                  and any website. Give customers choice with unified chat, voice, and messaging.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.websiteWidget.hero.cta.deploy')}
+                    Deploy Widget Now
                   </a>
                   <a
                     href={getMeetingUrl(currentLanguage)} className="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('channels.websiteWidget.hero.cta.demo')}
+                    Book A Demo
                   </a>
                 </div>
               </div>
@@ -144,24 +137,24 @@ const WebsiteWidget = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Globe className="h-8 w-8 text-orange-600 mr-3" />
-                      <h3 className="text-lg font-semibold">{t('channels.websiteWidget.hero.widget.title')}</h3>
+                      <h3 className="text-lg font-semibold">Universal Widget</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
-                        <p className="text-sm font-medium text-orange-800">{t('channels.websiteWidget.hero.widget.chat.label')}</p>
-                        <p className="text-xs text-orange-600">{t('channels.websiteWidget.hero.widget.chat.description')}</p>
+                        <p className="text-sm font-medium text-orange-800">💬 Chat</p>
+                        <p className="text-xs text-orange-600">Instant messaging support</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                        <p className="text-sm font-medium text-blue-800">{t('channels.websiteWidget.hero.widget.voice.label')}</p>
-                        <p className="text-xs text-blue-600">{t('channels.websiteWidget.hero.widget.voice.description')}</p>
+                        <p className="text-sm font-medium text-blue-800">📞 Voice</p>
+                        <p className="text-xs text-blue-600">One-click voice calls</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-500">
-                        <p className="text-sm font-medium text-green-800">{t('channels.websiteWidget.hero.widget.whatsapp.label')}</p>
-                        <p className="text-xs text-green-600">{t('channels.websiteWidget.hero.widget.whatsapp.description')}</p>
+                        <p className="text-sm font-medium text-green-800">📱 WhatsApp</p>
+                        <p className="text-xs text-green-600">Direct WhatsApp connection</p>
                       </div>
                       <div className="bg-purple-50 p-3 rounded-lg border-l-4 border-purple-500">
-                        <p className="text-sm font-medium text-purple-800">{t('channels.websiteWidget.hero.widget.email.label')}</p>
-                        <p className="text-xs text-purple-600">{t('channels.websiteWidget.hero.widget.email.description')}</p>
+                        <p className="text-sm font-medium text-purple-800">📧 Email</p>
+                        <p className="text-xs text-purple-600">Contact form integration</p>
                       </div>
                     </div>
                   </div>
@@ -176,10 +169,10 @@ const WebsiteWidget = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteWidget.platforms.title')}
+                Works with Every Platform
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteWidget.platforms.subtitle')}
+                No matter what platform you use, our widget integrates seamlessly with your existing website
               </p>
             </div>
 
@@ -206,10 +199,10 @@ const WebsiteWidget = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteWidget.features.title')}
+                Advanced Features
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteWidget.features.subtitle')}
+                More than just a chat widget - a complete customer engagement platform
               </p>
             </div>
 
@@ -236,10 +229,10 @@ const WebsiteWidget = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channels.websiteWidget.styles.title')}
+                Choose Your Style
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channels.websiteWidget.styles.subtitle')}
+                Multiple widget styles to match your website design and user experience goals
               </p>
             </div>
 
@@ -265,7 +258,7 @@ const WebsiteWidget = () => {
             <div className="bg-white rounded-2xl p-12 shadow-xl">
               <div className="text-center mb-12">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  {t('channels.websiteWidget.benefits.title')}
+                  Why Choose Our Widget?
                 </h2>
               </div>
 
@@ -273,28 +266,28 @@ const WebsiteWidget = () => {
                 <div className="text-center">
                   <Monitor className="h-12 w-12 text-orange-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    {t('channels.websiteWidget.benefits.switching.title')}
+                    Channel Switching
                   </h3>
                   <p className="text-gray-600">
-                    {t('channels.websiteWidget.benefits.switching.description')}
+                    Seamless transition between chat, voice, and messaging without losing context
                   </p>
                 </div>
                 <div className="text-center">
                   <BarChart3 className="h-12 w-12 text-orange-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    {t('channels.websiteWidget.benefits.queue.title')}
+                    Queue Management
                   </h3>
                   <p className="text-gray-600">
-                    {t('channels.websiteWidget.benefits.queue.description')}
+                    Intelligent routing based on agent availability and customer priority
                   </p>
                 </div>
                 <div className="text-center">
                   <Globe className="h-12 w-12 text-orange-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    {t('channels.websiteWidget.benefits.global.title')}
+                    Global Support
                   </h3>
                   <p className="text-gray-600">
-                    {t('channels.websiteWidget.benefits.global.description')}
+                    Multi-language support and timezone-aware routing for international customers
                   </p>
                 </div>
               </div>
@@ -306,17 +299,18 @@ const WebsiteWidget = () => {
         <section className="py-20 bg-gradient-to-r from-orange-600 to-orange-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('channels.websiteWidget.cta.title')}
+              Ready to Deploy Your Widget?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('channels.websiteWidget.cta.subtitle')}
+              Add powerful omnichannel communication to your website in under 5 minutes. 
+              No coding required.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-orange-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('channels.websiteWidget.cta.getWidget')}
+                Get Widget Code
               </a>
             </div>
           </div>

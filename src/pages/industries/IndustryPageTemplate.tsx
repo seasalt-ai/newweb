@@ -29,7 +29,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
   icon: Icon,
   showSeaHealthLink = false
 }) => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -41,32 +41,32 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
 
   const useCases = [
     {
-      title: t('industries.template.useCases.customerSupport.title'),
-      description: t('industries.template.useCases.customerSupport.description'),
+      title: 'Customer Support',
+      description: 'AI-powered 24/7 support with seamless human handoff',
       icon: <Users className="h-8 w-8" />
     },
     {
-      title: t('industries.template.useCases.leadGeneration.title'),
-      description: t('industries.template.useCases.leadGeneration.description'),
+      title: 'Lead Generation',
+      description: 'Capture and qualify leads across all communication channels',
       icon: <Star className="h-8 w-8" />
     },
     {
-      title: t('industries.template.useCases.analytics.title'),
-      description: t('industries.template.useCases.analytics.description'),
+      title: 'Analytics & Insights',
+      description: 'Track performance and optimize customer interactions',
       icon: <BarChart3 className="h-8 w-8" />
     }
   ];
 
   const testimonials = [
     {
-      quote: t('industries.template.testimonials.quote1'),
-      author: t('industries.template.testimonials.author1'),
-      company: `${title} ${t('industries.template.testimonials.company1')}`
+      quote: "Seasalt.ai transformed how we handle customer inquiries. Our response time improved by 80%.",
+      author: "Sarah Johnson",
+      company: `${title} Business Owner`
     },
     {
-      quote: t('industries.template.testimonials.quote2'),
-      author: t('industries.template.testimonials.author2'),
-      company: `${title} ${t('industries.template.testimonials.company2')}`
+      quote: "The AI automation handles routine questions perfectly, letting our team focus on complex issues.",
+      author: "Mike Chen",
+      company: `${title} Manager`
     }
   ];
 
@@ -76,8 +76,8 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={`${title} ${t('industries.template.seo.titleSuffix')}`}
-        description={`${headline} ${t('industries.template.seo.descriptionPrefix')} ${title} ${t('industries.template.seo.descriptionSuffix')}`}
+        title={`${title} Solutions - Seasalt.ai`}
+        description={`${headline} See how Seasalt.ai helps ${title} businesses improve customer communications and drive growth.`}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -91,10 +91,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
               <div className="text-gray-900">
                 <Link to="/" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('industries.template.nav.backToHome')}
+                  Back to Home
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('industries.template.hero.title')}{' '}
+                  Seasalt.ai for{' '}
                   <span className={`bg-gradient-to-r ${color.replace('text-', 'from-')} to-gray-700 bg-clip-text text-transparent`}>
                     {title}
                   </span>
@@ -107,13 +107,13 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                      href="https://seax.seasalt.ai/signup"
                      className={`${color.replace('text-', 'bg-')} hover:opacity-90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
                    >
-                     {t('industries.template.hero.signUp')}
+                     Sign Up
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)}
                     className={`border-2 ${borderColor} ${color} hover:${color.replace('text-', 'bg-')} hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
                   >
-                    {t('industries.template.hero.seeDemo')}
+                    See Demo
                   </a>
                 </div>
                 {showSeaHealthLink && (
@@ -122,7 +122,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                       to={`/${i18n.language}/seahealth`}
                       className={`inline-flex items-center ${color} hover:opacity-80 transition-all duration-200 text-lg font-medium`}
                     >
-                      <span className="mr-2">{t('industries.template.hero.hipaaOffering')}</span>
+                      <span className="mr-2">Check out our HIPAA-compliant offering</span>
                       <img 
                         src="/logo-seahealth.svg" 
                         alt="SeaHealth" 
@@ -140,7 +140,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                       <div className={`${color.replace('text-', 'bg-')} p-3 rounded-xl mr-4`}>
                         <Icon className="h-8 w-8 text-white" />
                       </div>
-                      <h3 className="text-xl font-semibold text-gray-900">{title} {t('industries.template.solutions.title')}</h3>
+                      <h3 className="text-xl font-semibold text-gray-900">{title} Solutions</h3>
                     </div>
                     <div className="space-y-3">
                       {benefits.slice(0, 3).map((benefit, index) => (
@@ -162,10 +162,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('industries.template.benefits.title')} {title}
+                Key Benefits for {title}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('industries.template.benefits.description')} {title.toLowerCase()}.
+                See how Seasalt.ai specifically addresses the unique challenges and opportunities in {title.toLowerCase()}.
               </p>
             </div>
 
@@ -187,10 +187,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('industries.template.useCases.title')}
+                Common Use Cases
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('industries.template.useCases.description.start')} {title.toLowerCase()} {t('industries.template.useCases.description.end')}
+                Discover how businesses in {title.toLowerCase()} are using Seasalt.ai to improve customer experience and drive growth.
               </p>
             </div>
 
@@ -219,7 +219,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('industries.template.ui.testimonialsPrefix')} {title} {t('industries.template.testimonials.title')}
+                What {title} Professionals Say
               </h2>
             </div>
 
@@ -250,23 +250,24 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
         <section className={`py-20 bg-gradient-to-r ${color.replace('text-', 'from-')} to-gray-700 text-white`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('industries.template.cta.title')}
+              Ready to Transform Your {title} Business?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('industries.template.cta.description')}
+              Join hundreds of {title.toLowerCase()} businesses using Seasalt.ai to provide better customer service 
+              and drive growth through unified communications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('industries.template.cta.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('industries.template.cta.scheduleDemo')}
+                Schedule Demo
               </a>
             </div>
             {showSeaHealthLink && (
@@ -275,7 +276,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
                   to={`/${i18n.language}/seahealth`}
                   className="inline-block text-white underline hover:text-gray-200 transition-colors duration-200 text-lg"
                 >
-                  {t('industries.template.cta.seahealthLink')}
+                  Check out our HIPAA-compliant offering SeaHealth
                 </Link>
               </div>
             )}

@@ -9,7 +9,7 @@ import { SUPPORTED_LANGUAGES } from '../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../constants/urls';
 
 const ChannelsOverview = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -24,14 +24,14 @@ const ChannelsOverview = () => {
   const channels = [
     {
       icon: <MessageCircle className="h-8 w-8" />,
-      name: t('channelsOverview.channels.whatsappBusiness.name'),
+      name: 'WhatsApp Business',
       capabilities: [
-        t('channelsOverview.channels.whatsappBusiness.capabilities.0'),
-        t('channelsOverview.channels.whatsappBusiness.capabilities.1'),
-        t('channelsOverview.channels.whatsappBusiness.capabilities.2'),
-        t('channelsOverview.channels.whatsappBusiness.capabilities.3')
+        'AI-powered chatbot responses',
+        'Bulk messaging campaigns',
+        'Voice message support',
+        'Meta Cloud API integration'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.easy'),
+      difficulty: 'Easy',
       difficultyColor: 'bg-green-100 text-green-800',
       link: '/channels/whatsapp',
       color: 'text-green-600',
@@ -39,14 +39,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Phone className="h-8 w-8" />,
-      name: t('channelsOverview.channels.voicePhoneCalls.name'),
+      name: 'Voice & Phone Calls',
       capabilities: [
-        t('channelsOverview.channels.voicePhoneCalls.capabilities.0'),
-        t('channelsOverview.channels.voicePhoneCalls.capabilities.1'),
-        t('channelsOverview.channels.voicePhoneCalls.capabilities.2'),
-        t('channelsOverview.channels.voicePhoneCalls.capabilities.3')
+        'AI voicebot with human handoff',
+        'Auto dialer campaigns',
+        'Multi-agent round robin',
+        'Twilio Flex integration'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.medium'),
+      difficulty: 'Medium',
       difficultyColor: 'bg-yellow-100 text-yellow-800',
       link: '/channels/phone-calls',
       color: 'text-blue-600',
@@ -54,14 +54,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <MessageSquare className="h-8 w-8" />,
-      name: t('channelsOverview.channels.smsMessaging.name'),
+      name: 'SMS Messaging',
       capabilities: [
-        t('channelsOverview.channels.smsMessaging.capabilities.0'),
-        t('channelsOverview.channels.smsMessaging.capabilities.1'),
-        t('channelsOverview.channels.smsMessaging.capabilities.2'),
-        t('channelsOverview.channels.smsMessaging.capabilities.3')
+        'Bulk SMS campaigns',
+        'Two-way conversations',
+        'Global delivery (200+ countries)',
+        'TCPA compliance tools'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.easy'),
+      difficulty: 'Easy',
       difficultyColor: 'bg-green-100 text-green-800',
       link: '/channels/sms',
       color: 'text-purple-600',
@@ -69,14 +69,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Monitor className="h-8 w-8" />,
-      name: t('channelsOverview.channels.websiteChatWidget.name'),
+      name: 'Website Chat Widget',
       capabilities: [
-        t('channelsOverview.channels.websiteChatWidget.capabilities.0'),
-        t('channelsOverview.channels.websiteChatWidget.capabilities.1'),
-        t('channelsOverview.channels.websiteChatWidget.capabilities.2'),
-        t('channelsOverview.channels.websiteChatWidget.capabilities.3')
+        'Embeddable chat widget',
+        'Customizable design',
+        'Lead capture forms',
+        'WordPress, Shopify integration'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.easy'),
+      difficulty: 'Easy',
       difficultyColor: 'bg-green-100 text-green-800',
       link: '/channels/website-chat',
       color: 'text-indigo-600',
@@ -84,14 +84,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Instagram className="h-8 w-8" />,
-      name: t('channelsOverview.channels.instagramDMs.name'),
+      name: 'Instagram DMs',
       capabilities: [
-        t('channelsOverview.channels.instagramDMs.capabilities.0'),
-        t('channelsOverview.channels.instagramDMs.capabilities.1'),
-        t('channelsOverview.channels.instagramDMs.capabilities.2'),
-        t('channelsOverview.channels.instagramDMs.capabilities.3')
+        'Automated DM responses',
+        'Story interaction handling',
+        'Image recognition AI',
+        'Business account integration'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.medium'),
+      difficulty: 'Medium',
       difficultyColor: 'bg-yellow-100 text-yellow-800',
       link: '/channels/instagram',
       color: 'text-pink-600',
@@ -99,14 +99,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Mail className="h-8 w-8" />,
-      name: t('channelsOverview.channels.facebookMessenger.name'),
+      name: 'Facebook Messenger',
       capabilities: [
-        t('channelsOverview.channels.facebookMessenger.capabilities.0'),
-        t('channelsOverview.channels.facebookMessenger.capabilities.1'),
-        t('channelsOverview.channels.facebookMessenger.capabilities.2'),
-        t('channelsOverview.channels.facebookMessenger.capabilities.3')
+        'Facebook business integration',
+        'Shop integration',
+        'Lead generation tools',
+        'Social proof features'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.medium'),
+      difficulty: 'Medium',
       difficultyColor: 'bg-yellow-100 text-yellow-800',
       link: '/channels/facebook-messenger',
       color: 'text-blue-700',
@@ -114,14 +114,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <FileText className="h-8 w-8" />,
-      name: t('channelsOverview.channels.contactForms.name'),
+      name: 'Contact Forms',
       capabilities: [
-        t('channelsOverview.channels.contactForms.capabilities.0'),
-        t('channelsOverview.channels.contactForms.capabilities.1'),
-        t('channelsOverview.channels.contactForms.capabilities.2'),
-        t('channelsOverview.channels.contactForms.capabilities.3')
+        'MailerLite integration',
+        'HubSpot form sync',
+        'Instant lead engagement',
+        'CRM synchronization'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.easy'),
+      difficulty: 'Easy',
       difficultyColor: 'bg-green-100 text-green-800',
       link: '/channels/contact-forms',
       color: 'text-gray-600',
@@ -129,14 +129,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Smartphone className="h-8 w-8" />,
-      name: t('channelsOverview.channels.lineBusiness.name'),
+      name: 'LINE Business',
       capabilities: [
-        t('channelsOverview.channels.lineBusiness.capabilities.0'),
-        t('channelsOverview.channels.lineBusiness.capabilities.1'),
-        t('channelsOverview.channels.lineBusiness.capabilities.2'),
-        t('channelsOverview.channels.lineBusiness.capabilities.3')
+        'LINE Official Account',
+        'Asian market focus',
+        'Business messaging',
+        'Cultural localization'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.medium'),
+      difficulty: 'Medium',
       difficultyColor: 'bg-yellow-100 text-yellow-800',
       link: '/channels/line',
       color: 'text-green-500',
@@ -144,14 +144,14 @@ const ChannelsOverview = () => {
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      name: t('channelsOverview.channels.websiteWidget.name'),
+      name: 'Website Widget',
       capabilities: [
-        t('channelsOverview.channels.websiteWidget.capabilities.0'),
-        t('channelsOverview.channels.websiteWidget.capabilities.1'),
-        t('channelsOverview.channels.websiteWidget.capabilities.2'),
-        t('channelsOverview.channels.websiteWidget.capabilities.3')
+        'Omnichannel widget',
+        'WordPress, Shopify, Wix support',
+        'MailerLite integration',
+        'Advanced analytics'
       ],
-      difficulty: t('channelsOverview.labels.difficulty.easy'),
+      difficulty: 'Easy',
       difficultyColor: 'bg-green-100 text-green-800',
       link: '/channels/website-widget',
       color: 'text-orange-600',
@@ -162,22 +162,22 @@ const ChannelsOverview = () => {
   const benefits = [
     {
       icon: <Star className="h-8 w-8" />,
-      title: t('channelsOverview.benefits.unifiedCustomerView.title'),
-      description: t('channelsOverview.benefits.unifiedCustomerView.description'),
+      title: 'Unified Customer View',
+      description: 'Single conversation history across all channels with complete context',
       color: 'text-blue-600',
       bgColor: 'bg-blue-100'
     },
     {
       icon: <Zap className="h-8 w-8" />,
-      title: t('channelsOverview.benefits.consistentAITraining.title'),
-      description: t('channelsOverview.benefits.consistentAITraining.description'),
+      title: 'Consistent AI Training',
+      description: 'One knowledge base powers responses across all communication platforms',
       color: 'text-green-600',
       bgColor: 'bg-green-100'
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: t('channelsOverview.benefits.seamlessHandoffs.title'),
-      description: t('channelsOverview.benefits.seamlessHandoffs.description'),
+      title: 'Seamless Handoffs',
+      description: 'Transfer conversations between channels without losing context or history',
       color: 'text-purple-600',
       bgColor: 'bg-purple-100'
     }
@@ -189,11 +189,11 @@ const ChannelsOverview = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={t('channelsOverview.seo.title')}
-        description={t('channelsOverview.seo.description')}
+        title="Communication Channels - Seasalt.ai"
+        description="Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
-        availableLanguages={['en', 'es', 'zh-TW']}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <main className="pt-16">
@@ -203,16 +203,17 @@ const ChannelsOverview = () => {
             <div className="text-center mb-16">
               <Link to={`/${i18n.language}`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                 <ArrowLeft className="h-5 w-5 mr-2" />
-                {t('channelsOverview.hero.backToHome')}
+                Back to Home
               </Link>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('channelsOverview.hero.title')}{' '}
+                Every Customer Channel,{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  {t('channelsOverview.hero.titleHighlight')}
+                  One Unified Platform
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channelsOverview.hero.subtitle')}
+                Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. 
+                Manage every customer conversation from one powerful platform.
               </p>
             </div>
 
@@ -220,8 +221,8 @@ const ChannelsOverview = () => {
             <div className="relative max-w-4xl mx-auto">
               <div className="bg-white rounded-2xl shadow-2xl p-8 text-center">
                 <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 rounded-xl mb-6">
-                  <h3 className="text-2xl font-bold">{t('channelsOverview.hero.hubTitle')}</h3>
-                  <p className="opacity-90">{t('channelsOverview.hero.hubSubtitle')}</p>
+                  <h3 className="text-2xl font-bold">Seasalt.ai Hub</h3>
+                  <p className="opacity-90">All channels unified</p>
                 </div>
                 <div className="grid grid-cols-3 md:grid-cols-5 gap-4">
                   {channels.slice(0, 5).map((channel, index) => (
@@ -240,10 +241,11 @@ const ChannelsOverview = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channelsOverview.channelsSection.title')}
+                Choose Your Channels
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channelsOverview.channelsSection.subtitle')}
+                Start with the channels your customers use most, then expand as you grow. 
+                Each integration takes minutes, not months.
               </p>
             </div>
 
@@ -279,7 +281,7 @@ const ChannelsOverview = () => {
                     to={`/${i18n.language}${channel.link}`}
                     className="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-medium transition-colors duration-200"
                   >
-                    {t('channelsOverview.labels.learnMore')}
+                    Learn More
                   </Link>
                 </div>
               ))}
@@ -292,10 +294,11 @@ const ChannelsOverview = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('channelsOverview.benefitsSection.title')}
+                Integration Benefits
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('channelsOverview.benefitsSection.subtitle')}
+                When all your channels work together, magic happens. See why unified communication 
+                is the future of customer engagement.
               </p>
             </div>
 
@@ -324,22 +327,23 @@ const ChannelsOverview = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('channelsOverview.cta.title')}
+              Ready to Unify Your Customer Channels?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('channelsOverview.cta.subtitle')}
+              Start with our free plan and connect your first channel in minutes. 
+              Scale up as your business grows.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('channelsOverview.cta.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('channelsOverview.cta.bookDemo')}
+                Book A Demo
               </a>
             </div>
           </div>

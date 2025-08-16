@@ -3,75 +3,63 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const AircallAlternative = () => {
-  const { t, i18n } = useTranslation();
-  
+  const { i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: t('compare.aircallAlternative.comparison.features.pricingModel.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.pricingModel.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.pricingModel.competitor'),
+      feature: 'Pricing Model',
+      seasalt: 'Simple per-user fee',
+      competitor: 'Per-license + multiple required add-ons',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.userMinimum.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.userMinimum.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.userMinimum.competitor'),
+      feature: 'User Minimum',
+      seasalt: '1',
+      competitor: '3',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.unifiedComm.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.unifiedComm.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.unifiedComm.competitor'),
+      feature: 'Unified Voice & WhatsApp',
+      seasalt: 'Yes, natively included',
+      competitor: 'No, requires $10/mo add-on',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.competitor'),
+      feature: 'AI Voice Agent',
+      seasalt: 'Yes, included (usage-based)',
+      competitor: 'No, requires $0.99/min add-on',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.aiCallSummaries.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.aiCallSummaries.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.aiCallSummaries.competitor'),
+      feature: 'AI Call Summaries',
+      seasalt: 'Yes, included',
+      competitor: 'No, requires $9/mo add-on',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.advancedAnalytics.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.advancedAnalytics.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.advancedAnalytics.competitor'),
+      feature: 'Advanced Analytics',
+      seasalt: 'Yes, included',
+      competitor: 'No, requires $15/mo add-on',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.callQuality.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.callQuality.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.callQuality.competitor'),
+      feature: 'Reported Call Quality',
+      seasalt: 'High-quality voice',
+      competitor: 'Users report inconsistent quality and dropped calls',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.aircallAlternative.comparison.features.bestFor.name'),
-      seasalt: t('compare.aircallAlternative.comparison.features.bestFor.seasalt'),
-      competitor: t('compare.aircallAlternative.comparison.features.bestFor.competitor'),
+      feature: 'Best For',
+      seasalt: 'SMEs needing an affordable, truly all-in-one solution',
+      competitor: 'Sales/support teams that can meet the user minimum and afford multiple add-ons',
       seasaltAdvantage: false
     }
   ];
-  
-  const currentUrl = `https://www.seasalt.ai/${i18n.language}/compare/aircall-alternative`;
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.aircallAlternative.seo.title')}
-        description={t('compare.aircallAlternative.seo.description')}
-        canonicalUrl={currentUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -80,18 +68,20 @@ const AircallAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              {t('compare.aircallAlternative.nav.backToOverview')}
+              Back to Compare Us Overview
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('compare.aircallAlternative.hero.title.part1')}{' '}
+                Tired of Add-on Fees and User Minimums?{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
-                  {t('compare.aircallAlternative.hero.title.part2')}
+                  See Why Growing Teams Choose Seasalt.ai Over Aircall
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                {t('compare.aircallAlternative.hero.subtitle')}
+                Aircall is known for its user-friendly interface but forces small teams into a corner with a mandatory 3-user minimum 
+                and a pricing model that walls off critical features like AI, advanced analytics, and even WhatsApp integration behind 
+                expensive monthly add-ons. Seasalt.ai provides a truly all-in-one platform with transparent pricing.
               </p>
             </div>
           </div>
@@ -102,10 +92,10 @@ const AircallAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.aircallAlternative.comparison.title')}
+                Feature-by-Feature Comparison
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.aircallAlternative.comparison.subtitle')}
+                See how Seasalt.ai delivers all the features you need without the add-on fees and complexity
               </p>
             </div>
 
@@ -114,9 +104,9 @@ const AircallAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.aircallAlternative.comparison.table.headers.feature')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.aircallAlternative.comparison.table.headers.seasalt')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.aircallAlternative.comparison.table.headers.aircall')}</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Aircall</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -149,72 +139,72 @@ const AircallAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.aircallAlternative.costComparison.title')}
+                The Real Cost Comparison
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.aircallAlternative.costComparison.subtitle')}
+                See how Aircall's add-on fees quickly add up compared to Seasalt.ai's transparent pricing
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-red-50 p-8 rounded-xl border-2 border-red-200">
-                <h3 className="text-2xl font-bold text-red-800 mb-6 text-center">{t('compare.aircallAlternative.costComparison.aircall.title')}</h3>
+                <h3 className="text-2xl font-bold text-red-800 mb-6 text-center">Aircall Reality Check</h3>
                 <div className="space-y-3 text-red-700">
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.aircall.basePlan')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.basePlanCost')}</span>
+                    <span>Base plan (per user)</span>
+                    <span className="font-semibold">$30/month</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.aircall.aiVoiceAddon')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.aiVoiceAddonCost')}</span>
+                    <span>AI Voice add-on</span>
+                    <span className="font-semibold">+$9/month</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.aircall.whatsappIntegration')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.whatsappIntegrationCost')}</span>
+                    <span>WhatsApp integration</span>
+                    <span className="font-semibold">+$10/month</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.aircall.advancedAnalytics')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.advancedAnalyticsCost')}</span>
+                    <span>Advanced analytics</span>
+                    <span className="font-semibold">+$15/month</span>
                   </div>
                   <div className="border-t border-red-300 pt-3 mt-3">
                     <div className="flex justify-between text-xl font-bold text-red-800">
-                      <span>{t('compare.aircallAlternative.costComparison.aircall.totalPerUser')}</span>
-                      <span>{t('compare.aircallAlternative.costComparison.aircall.totalPerUserCost')}</span>
+                      <span>Total per user</span>
+                      <span>$64/month</span>
                     </div>
-                    <p className="text-sm text-red-600 mt-2">{t('compare.aircallAlternative.costComparison.aircall.minimumNote')}</p>
+                    <p className="text-sm text-red-600 mt-2">Plus 3-user minimum = $192/month minimum</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-green-50 p-8 rounded-xl border-2 border-green-200">
-                <h3 className="text-2xl font-bold text-green-800 mb-6 text-center">{t('compare.aircallAlternative.costComparison.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-green-800 mb-6 text-center">Seasalt.ai</h3>
                 <div className="space-y-3 text-green-700">
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.seasalt.admin')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.adminCost')}</span>
+                    <span>Admin (first user)</span>
+                    <span className="font-semibold">$50/month</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.seasalt.additionalAgents')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.additionalAgentsCost')}</span>
+                    <span>Additional agents</span>
+                    <span className="font-semibold">$25/month each</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.seasalt.aiVoiceIncluded')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.aiVoiceIncludedCost')}</span>
+                    <span>AI Voice + Chat included</span>
+                    <span className="font-semibold">$0</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.seasalt.allChannelsIncluded')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.allChannelsIncludedCost')}</span>
+                    <span>All channels included</span>
+                    <span className="font-semibold">$0</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>{t('compare.aircallAlternative.costComparison.seasalt.analyticsIncluded')}</span>
-                    <span className="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.analyticsIncludedCost')}</span>
+                    <span>Analytics included</span>
+                    <span className="font-semibold">$0</span>
                   </div>
                   <div className="border-t border-green-300 pt-3 mt-3">
                     <div className="flex justify-between text-xl font-bold text-green-800">
-                      <span>{t('compare.aircallAlternative.costComparison.seasalt.total')}</span>
-                      <span>{t('compare.aircallAlternative.costComparison.seasalt.totalCost')}</span>
+                      <span>Total (3 users)</span>
+                      <span>$100/month</span>
                     </div>
-                    <p className="text-sm text-green-600 mt-2">{t('compare.aircallAlternative.costComparison.seasalt.savings')}</p>
+                    <p className="text-sm text-green-600 mt-2">Save $92/month vs. Aircall</p>
                   </div>
                 </div>
               </div>
@@ -226,22 +216,23 @@ const AircallAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('compare.aircallAlternative.cta.title')}
+              Ready to Escape Add-on Fees?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.aircallAlternative.cta.subtitle')}
+              Join thousands of growing businesses who switched from Aircall to get all the features 
+              they need without the complexity and hidden costs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.aircallAlternative.cta.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.aircallAlternative.cta.bookDemo')}
+                Book A Demo
               </a>
             </div>
           </div>

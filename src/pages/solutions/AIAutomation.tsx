@@ -8,7 +8,7 @@ import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const AIAutomation = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/solutions/ai-automation` 
     : `/${i18n.language}/solutions/ai-automation`;
@@ -16,22 +16,22 @@ const AIAutomation = () => {
   const challenges = [
     {
       icon: <Clock className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.challenges.manualTasks.title'),
-      description: t('solutions.aiAutomation.challenges.manualTasks.description'),
+      title: 'Manual Repetitive Tasks',
+      description: 'Your team spends too much time on routine tasks that could be automated',
       color: 'text-purple-600',
       bgColor: 'bg-purple-50'
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.challenges.scaling.title'),
-      description: t('solutions.aiAutomation.challenges.scaling.description'),
+      title: 'Scaling Limitations',
+      description: 'Growth is limited by human capacity rather than market opportunity',
       color: 'text-blue-600',
       bgColor: 'bg-blue-50'
     },
     {
       icon: <Brain className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.challenges.inconsistent.title'),
-      description: t('solutions.aiAutomation.challenges.inconsistent.description'),
+      title: 'Inconsistent Experiences',
+      description: 'Customer experience varies based on which team member handles the interaction',
       color: 'text-green-600',
       bgColor: 'bg-green-50'
     }
@@ -40,13 +40,13 @@ const AIAutomation = () => {
   const solutions = [
     {
       icon: <Bot className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.solutions.voiceChat.title'),
-      description: t('solutions.aiAutomation.solutions.voiceChat.description'),
+      title: 'Intelligent Voice & Chat Automation',
+      description: 'AI agents that understand context and provide human-like interactions',
       benefits: [
-        t('solutions.aiAutomation.solutions.voiceChat.benefits.nlp'),
-        t('solutions.aiAutomation.solutions.voiceChat.benefits.channels'),
-        t('solutions.aiAutomation.solutions.voiceChat.benefits.contextAware'),
-        t('solutions.aiAutomation.solutions.voiceChat.benefits.handoff')
+        'Natural language processing for complex queries',
+        'Voice and text conversations across all channels',
+        'Context-aware responses based on customer history',
+        'Seamless handoff to humans when needed'
       ],
       color: 'text-purple-600',
       bgColor: 'bg-purple-50',
@@ -54,13 +54,13 @@ const AIAutomation = () => {
     },
     {
       icon: <Workflow className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.solutions.workflow.title'),
-      description: t('solutions.aiAutomation.solutions.workflow.description'),
+      title: 'Smart Workflow Automation',
+      description: 'Automate complex business processes with intelligent decision-making',
       benefits: [
-        t('solutions.aiAutomation.solutions.workflow.benefits.leadQualification'),
-        t('solutions.aiAutomation.solutions.workflow.benefits.scheduling'),
-        t('solutions.aiAutomation.solutions.workflow.benefits.pricing'),
-        t('solutions.aiAutomation.solutions.workflow.benefits.followUp')
+        'Automated lead qualification and routing',
+        'Intelligent appointment scheduling and management',
+        'Dynamic pricing and proposal generation',
+        'Automated follow-up sequences and nurturing'
       ],
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
@@ -68,13 +68,13 @@ const AIAutomation = () => {
     },
     {
       icon: <Brain className="h-8 w-8" />,
-      title: t('solutions.aiAutomation.solutions.learning.title'),
-      description: t('solutions.aiAutomation.solutions.learning.description'),
+      title: 'Continuous Learning & Optimization',
+      description: 'AI that gets smarter over time, improving performance automatically',
       benefits: [
-        t('solutions.aiAutomation.solutions.learning.benefits.machineLearning'),
-        t('solutions.aiAutomation.solutions.learning.benefits.optimization'),
-        t('solutions.aiAutomation.solutions.learning.benefits.predictive'),
-        t('solutions.aiAutomation.solutions.learning.benefits.monitoring')
+        'Machine learning from every customer interaction',
+        'Automatic optimization of response accuracy',
+        'Predictive analytics for proactive customer service',
+        'Real-time performance monitoring and adjustment'
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -84,66 +84,46 @@ const AIAutomation = () => {
 
   const automationTypes = [
     {
-      title: t('solutions.aiAutomation.automationTypes.customerService.title'),
-      description: t('solutions.aiAutomation.automationTypes.customerService.description'),
-      examples: [
-        t('solutions.aiAutomation.automationTypes.customerService.examples.orderStatus'),
-        t('solutions.aiAutomation.automationTypes.customerService.examples.faq'),
-        t('solutions.aiAutomation.automationTypes.customerService.examples.troubleshooting'),
-        t('solutions.aiAutomation.automationTypes.customerService.examples.account')
-      ]
+      title: 'Customer Service Automation',
+      description: 'AI handles routine inquiries, escalates complex issues',
+      examples: ['Order status updates', 'FAQ responses', 'Basic troubleshooting', 'Account information']
     },
     {
-      title: t('solutions.aiAutomation.automationTypes.sales.title'),
-      description: t('solutions.aiAutomation.automationTypes.sales.description'),
-      examples: [
-        t('solutions.aiAutomation.automationTypes.sales.examples.leadScoring'),
-        t('solutions.aiAutomation.automationTypes.sales.examples.demoBooking'),
-        t('solutions.aiAutomation.automationTypes.sales.examples.proposals'),
-        t('solutions.aiAutomation.automationTypes.sales.examples.followUp')
-      ]
+      title: 'Sales Process Automation',
+      description: 'Automate lead qualification, follow-ups, and scheduling',
+      examples: ['Lead scoring', 'Demo booking', 'Proposal generation', 'Follow-up sequences']
     },
     {
-      title: t('solutions.aiAutomation.automationTypes.marketing.title'),
-      description: t('solutions.aiAutomation.automationTypes.marketing.description'),
-      examples: [
-        t('solutions.aiAutomation.automationTypes.marketing.examples.personalized'),
-        t('solutions.aiAutomation.automationTypes.marketing.examples.timing'),
-        t('solutions.aiAutomation.automationTypes.marketing.examples.testing'),
-        t('solutions.aiAutomation.automationTypes.marketing.examples.optimization')
-      ]
+      title: 'Marketing Campaign Automation',
+      description: 'Intelligent campaigns that adapt based on customer behavior',
+      examples: ['Personalized messaging', 'Optimal send times', 'A/B testing', 'Performance optimization']
     },
     {
-      title: t('solutions.aiAutomation.automationTypes.operational.title'),
-      description: t('solutions.aiAutomation.automationTypes.operational.description'),
-      examples: [
-        t('solutions.aiAutomation.automationTypes.operational.examples.dataEntry'),
-        t('solutions.aiAutomation.automationTypes.operational.examples.reports'),
-        t('solutions.aiAutomation.automationTypes.operational.examples.taskAssignment'),
-        t('solutions.aiAutomation.automationTypes.operational.examples.qualityMonitoring')
-      ]
+      title: 'Operational Automation',
+      description: 'Streamline internal processes and workflows',
+      examples: ['Data entry', 'Report generation', 'Task assignment', 'Quality monitoring']
     }
   ];
 
   const metrics = [
     {
-      metric: t('solutions.aiAutomation.metrics.reduction.value'),
-      description: t('solutions.aiAutomation.metrics.reduction.label'),
+      metric: '80%',
+      description: 'Reduction in manual tasks',
       icon: <Cog className="h-6 w-6" />
     },
     {
-      metric: t('solutions.aiAutomation.metrics.availability.value'),
-      description: t('solutions.aiAutomation.metrics.availability.label'),
+      metric: '24/7',
+      description: 'Automated operations',
       icon: <Clock className="h-6 w-6" />
     },
     {
-      metric: t('solutions.aiAutomation.metrics.accuracy.value'),
-      description: t('solutions.aiAutomation.metrics.accuracy.label'),
+      metric: '95%',
+      description: 'Accuracy rate',
       icon: <Star className="h-6 w-6" />
     },
     {
-      metric: t('solutions.aiAutomation.metrics.speed.value'),
-      description: t('solutions.aiAutomation.metrics.speed.label'),
+      metric: '3x',
+      description: 'Faster processing',
       icon: <Zap className="h-6 w-6" />
     }
   ];
@@ -154,8 +134,8 @@ const AIAutomation = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={t('solutions.aiAutomation.seo.title')}
-        description={t('solutions.aiAutomation.seo.description')}
+        title="AI Automation Solutions - Seasalt.ai"
+        description="Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results."
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -169,32 +149,34 @@ const AIAutomation = () => {
               <div>
                 <Link to="/" className="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  {t('solutions.aiAutomation.nav.backToHome')}
+                  Back to Home
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  {t('solutions.aiAutomation.hero.title.prefix')}{' '}
+                  Unleash the Power of{' '}
                   <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                    {t('solutions.aiAutomation.hero.title.highlight')}
+                    AI Automation
                   </span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 mb-8">
-                  {t('solutions.aiAutomation.hero.subtitle')}
+                  Intelligent Automation That Thinks, Learns, and Scales
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
-                  {t('solutions.aiAutomation.hero.description')}
+                  Transform your business operations with AI that doesn't just follow rules—it 
+                  understands context, makes intelligent decisions, and continuously improves 
+                  to deliver exceptional results.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('solutions.aiAutomation.hero.cta.primary')}
+                    Start Automating
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)}
                     className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    {t('solutions.aiAutomation.hero.cta.secondary')}
+                    See AI in Action
                   </a>
                 </div>
               </div>
@@ -204,24 +186,24 @@ const AIAutomation = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Bot className="h-8 w-8 text-purple-600 mr-3" />
-                      <h3 className="text-lg font-semibold">{t('solutions.aiAutomation.hero.dashboard.title')}</h3>
+                      <h3 className="text-lg font-semibold">AI Automation Center</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-purple-50 p-3 rounded-lg border-l-4 border-purple-500">
-                        <p className="text-sm font-medium text-purple-800">{t('solutions.aiAutomation.hero.dashboard.stats.tasks')}</p>
-                        <p className="text-xs text-purple-600">{t('solutions.aiAutomation.hero.dashboard.stats.tasksSaved')}</p>
+                        <p className="text-sm font-medium text-purple-800">🧠 AI processed 342 tasks today</p>
+                        <p className="text-xs text-purple-600">Saved 8.5 hours of manual work</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                        <p className="text-sm font-medium text-blue-800">{t('solutions.aiAutomation.hero.dashboard.stats.workflows')}</p>
-                        <p className="text-xs text-blue-600">{t('solutions.aiAutomation.hero.dashboard.stats.workflowsDescription')}</p>
+                        <p className="text-sm font-medium text-blue-800">⚡ 23 workflows automated</p>
+                        <p className="text-xs text-blue-600">From lead capture to customer onboarding</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-500">
-                        <p className="text-sm font-medium text-green-800">{t('solutions.aiAutomation.hero.dashboard.stats.accuracy')}</p>
-                        <p className="text-xs text-green-600">{t('solutions.aiAutomation.hero.dashboard.stats.accuracyDescription')}</p>
+                        <p className="text-sm font-medium text-green-800">📈 97% accuracy rate</p>
+                        <p className="text-xs text-green-600">Continuously improving through ML</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
-                        <p className="text-sm font-medium text-orange-800">{t('solutions.aiAutomation.hero.dashboard.stats.savings')}</p>
-                        <p className="text-xs text-orange-600">{t('solutions.aiAutomation.hero.dashboard.stats.savingsDescription')}</p>
+                        <p className="text-sm font-medium text-orange-800">🎯 $12,400 cost savings this month</p>
+                        <p className="text-xs text-orange-600">Through intelligent automation</p>
                       </div>
                     </div>
                   </div>
@@ -236,10 +218,11 @@ const AIAutomation = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.aiAutomation.challenges.title')}
+                Automation Challenges
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.aiAutomation.challenges.description')}
+                Traditional automation is rigid and limited. Modern businesses need intelligent 
+                automation that adapts, learns, and scales with their growth.
               </p>
             </div>
 
@@ -269,10 +252,11 @@ const AIAutomation = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.aiAutomation.solutions.title')}
+                Intelligent AI Automation
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.aiAutomation.solutions.description')}
+                Go beyond simple rule-based automation with AI that understands context, 
+                makes intelligent decisions, and continuously improves performance.
               </p>
             </div>
 
@@ -295,7 +279,7 @@ const AIAutomation = () => {
                       </p>
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('solutions.aiAutomation.solutions.capabilities')}</h4>
+                      <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Capabilities:</h4>
                       <ul className="space-y-3">
                         {solution.benefits.map((benefit, benefitIndex) => (
                           <li key={benefitIndex} className="flex items-start">
@@ -317,10 +301,11 @@ const AIAutomation = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.aiAutomation.automationTypes.title')}
+                Automation Across Your Business
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.aiAutomation.automationTypes.description')}
+                From customer service to sales, marketing to operations—AI automation 
+                transforms every aspect of your business.
               </p>
             </div>
 
@@ -334,7 +319,7 @@ const AIAutomation = () => {
                     {type.description}
                   </p>
                   <div>
-                    <h4 className="text-sm font-semibold text-purple-600 mb-3">{t('solutions.aiAutomation.automationTypes.examples')}</h4>
+                    <h4 className="text-sm font-semibold text-purple-600 mb-3">EXAMPLES:</h4>
                     <div className="grid grid-cols-2 gap-2">
                       {type.examples.map((example, exampleIndex) => (
                         <div key={exampleIndex} className="bg-purple-50 px-3 py-2 rounded-lg text-sm text-purple-800">
@@ -354,10 +339,10 @@ const AIAutomation = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('solutions.aiAutomation.metrics.title')}
+                Automation Performance Impact
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('solutions.aiAutomation.metrics.description')}
+                Measurable improvements in efficiency, accuracy, and operational capacity
               </p>
             </div>
 
@@ -386,10 +371,10 @@ const AIAutomation = () => {
               <div className="text-center mb-12">
                 <Shield className="h-16 w-16 text-purple-600 mx-auto mb-6" />
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  {t('solutions.aiAutomation.security.title')}
+                  Secure & Compliant AI
                 </h2>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  {t('solutions.aiAutomation.security.description')}
+                  Enterprise-grade security and compliance built into every AI automation
                 </p>
               </div>
 
@@ -398,22 +383,22 @@ const AIAutomation = () => {
                   <div className="bg-purple-100 p-4 rounded-2xl w-fit mx-auto mb-4">
                     <Shield className="h-8 w-8 text-purple-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('solutions.aiAutomation.security.dataProtection.title')}</h3>
-                  <p className="text-gray-600 text-sm">{t('solutions.aiAutomation.security.dataProtection.description')}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Data Protection</h3>
+                  <p className="text-gray-600 text-sm">End-to-end encryption and secure data handling</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-blue-100 p-4 rounded-2xl w-fit mx-auto mb-4">
                     <Check className="h-8 w-8 text-blue-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('solutions.aiAutomation.security.compliance.title')}</h3>
-                  <p className="text-gray-600 text-sm">{t('solutions.aiAutomation.security.compliance.description')}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Compliance Ready</h3>
+                  <p className="text-gray-600 text-sm">HIPAA, GDPR, and industry-specific compliance</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-100 p-4 rounded-2xl w-fit mx-auto mb-4">
                     <BarChart3 className="h-8 w-8 text-green-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('solutions.aiAutomation.security.auditTrail.title')}</h3>
-                  <p className="text-gray-600 text-sm">{t('solutions.aiAutomation.security.auditTrail.description')}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Audit Trail</h3>
+                  <p className="text-gray-600 text-sm">Complete logging and monitoring of all AI actions</p>
                 </div>
               </div>
             </div>
@@ -424,27 +409,28 @@ const AIAutomation = () => {
         <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('solutions.aiAutomation.cta.title')}
+              Ready to Automate Your Business with AI?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('solutions.aiAutomation.cta.description')}
+              Join hundreds of businesses using Seasalt.ai to automate operations, 
+              reduce costs, and scale efficiently with intelligent AI.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('solutions.aiAutomation.cta.primary')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('solutions.aiAutomation.cta.secondary')}
+                Book AI Demo
               </a>
             </div>
             <p className="text-white opacity-75 mt-6 text-sm">
-              {t('solutions.aiAutomation.cta.disclaimer')}
+              No credit card required • See automation in 24 hours • Cancel anytime
             </p>
           </div>
         </section>

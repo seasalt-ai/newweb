@@ -185,7 +185,7 @@ const BlogTableOfContents: React.FC<BlogTableOfContentsProps> = ({ content }) =>
               `}
               title={heading.text}
             >
-              <span className="line-clamp-2 leading-tight break-words hyphens-auto">
+              <span className="line-clamp-2 leading-tight">
                 {heading.text}
               </span>
             </button>

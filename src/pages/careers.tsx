@@ -3,97 +3,91 @@ import { ExternalLink, Users, Target, Heart, Briefcase } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
-import { useTranslation } from 'react-i18next';
+
+const careers = [
+  {
+    department: 'Business',
+    positions: [
+      {
+        title: 'Business Developer',
+        location: 'APAC, Taipei',
+        type: 'Full-time, contractor',
+        url: 'https://docs.google.com/document/d/1XntRJxtRs8JWoCvwd-ib-e0YSi1frpoM-V4rHDo8W8U/edit',
+      },
+      {
+        title: 'Field Marketing and Direct Sales',
+        location: 'Seattle',
+        type: 'Internship, full-time, contractor, work-study',
+        url: 'https://docs.google.com/document/d/1XntRJxtRs8JWoCvwd-ib-e0YSi1frpoM-V4rHDo8W8U/edit',
+      },
+    ],
+  },
+  {
+    department: 'Product',
+    positions: [
+      {
+        title: 'Technical Product Manager',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1c6-HLeU9xnVe_i6iIR_Rc-1jeSYoe8xR7mY7s6IOsD8/edit',
+      },
+      {
+        title: 'Product Marketing',
+        location: 'APAC, Seattle',
+        type: 'Internship, full-time, contractor',
+        url: 'https://docs.google.com/document/d/1OuSpZCvHcp8P6NGqBV5ZAqd2SwkVGpsryZu3coG2UHI/edit',
+      },
+    ],
+  },
+  {
+    department: 'Engineering',
+    positions: [
+      {
+        title: 'Frontend Engineer',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1uh3yF_yE8keinz5ky1XK1GO8PiuK_Heum0PNGkr8OHQ/edit',
+      },
+      {
+        title: 'Backend Engineer (Python)',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1iSCBjVV3HOwgwifkCWXMsi9w7AE0KNxWuuURfvR-A-s/edit',
+      },
+      {
+        title: 'DevOps',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1dg5vCWRc7xeussw27XgCGVcMX8UNhRN2MGR49pRE_Qo/edit',
+      },
+      {
+        title: 'ML Engineer - Natural Language Processing',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1uu8rrIZAvj29DE5jF-9bTTjxH9rCYcD-dQTb0se8p1w/edit',
+      },
+      {
+        title: 'ML Engineer - Language Modeling',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1eFAm3_-ubpoDJGuSBSOvb6WZWdrdQ2a_dGOsRNFEGVI/edit',
+      },
+      {
+        title: 'ML Engineer - Speech Recognition',
+        location: 'Remote',
+        type: 'Full-time, contractor, internship',
+        url: 'https://docs.google.com/document/d/1kHnqQfjU67U6lfMD0dEyUzo2knWHmszTq6DAtjgwp_g/edit',
+      },
+    ],
+  },
+];
 
 const CareersPage = () => {
-  const { t, i18n } = useTranslation();
-  
-  // Define careers data with translation keys
-  const getCareersData = () => [
-    {
-      department: t('careers.departments.business'),
-      positions: [
-        {
-          title: t('careers.positions.businessDeveloper.title'),
-          location: t('careers.positions.businessDeveloper.location'),
-          type: t('careers.positions.businessDeveloper.type'),
-          url: 'https://docs.google.com/document/d/1XntRJxtRs8JWoCvwd-ib-e0YSi1frpoM-V4rHDo8W8U/edit',
-        },
-        {
-          title: t('careers.positions.fieldMarketingDirectSales.title'),
-          location: t('careers.positions.fieldMarketingDirectSales.location'),
-          type: t('careers.positions.fieldMarketingDirectSales.type'),
-          url: 'https://docs.google.com/document/d/1XntRJxtRs8JWoCvwd-ib-e0YSi1frpoM-V4rHDo8W8U/edit',
-        },
-      ],
-    },
-    {
-      department: t('careers.departments.product'),
-      positions: [
-        {
-          title: t('careers.positions.technicalProductManager.title'),
-          location: t('careers.positions.technicalProductManager.location'),
-          type: t('careers.positions.technicalProductManager.type'),
-          url: 'https://docs.google.com/document/d/1c6-HLeU9xnVe_i6iIR_Rc-1jeSYoe8xR7mY7s6IOsD8/edit',
-        },
-        {
-          title: t('careers.positions.productMarketing.title'),
-          location: t('careers.positions.productMarketing.location'),
-          type: t('careers.positions.productMarketing.type'),
-          url: 'https://docs.google.com/document/d/1OuSpZCvHcp8P6NGqBV5ZAqd2SwkVGpsryZu3coG2UHI/edit',
-        },
-      ],
-    },
-    {
-      department: t('careers.departments.engineering'),
-      positions: [
-        {
-          title: t('careers.positions.frontendEngineer.title'),
-          location: t('careers.positions.frontendEngineer.location'),
-          type: t('careers.positions.frontendEngineer.type'),
-          url: 'https://docs.google.com/document/d/1uh3yF_yE8keinz5ky1XK1GO8PiuK_Heum0PNGkr8OHQ/edit',
-        },
-        {
-          title: t('careers.positions.backendEngineer.title'),
-          location: t('careers.positions.backendEngineer.location'),
-          type: t('careers.positions.backendEngineer.type'),
-          url: 'https://docs.google.com/document/d/1iSCBjVV3HOwgwifkCWXMsi9w7AE0KNxWuuURfvR-A-s/edit',
-        },
-        {
-          title: t('careers.positions.devOps.title'),
-          location: t('careers.positions.devOps.location'),
-          type: t('careers.positions.devOps.type'),
-          url: 'https://docs.google.com/document/d/1dg5vCWRc7xeussw27XgCGVcMX8UNhRN2MGR49pRE_Qo/edit',
-        },
-        {
-          title: t('careers.positions.mlEngineerNLP.title'),
-          location: t('careers.positions.mlEngineerNLP.location'),
-          type: t('careers.positions.mlEngineerNLP.type'),
-          url: 'https://docs.google.com/document/d/1uu8rrIZAvj29DE5jF-9bTTjxH9rCYcD-dQTb0se8p1w/edit',
-        },
-        {
-          title: t('careers.positions.mlEngineerLanguageModeling.title'),
-          location: t('careers.positions.mlEngineerLanguageModeling.location'),
-          type: t('careers.positions.mlEngineerLanguageModeling.type'),
-          url: 'https://docs.google.com/document/d/1eFAm3_-ubpoDJGuSBSOvb6WZWdrdQ2a_dGOsRNFEGVI/edit',
-        },
-        {
-          title: t('careers.positions.mlEngineerSpeechRecognition.title'),
-          location: t('careers.positions.mlEngineerSpeechRecognition.location'),
-          type: t('careers.positions.mlEngineerSpeechRecognition.type'),
-          url: 'https://docs.google.com/document/d/1kHnqQfjU67U6lfMD0dEyUzo2knWHmszTq6DAtjgwp_g/edit',
-        },
-      ],
-    },
-  ];
-  
-  const careersData = getCareersData();
-  
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <SEOHelmet 
-        title={t('careers.seo.title')}
-        description={t('careers.seo.description')}
+        title="Careers at Seasalt.ai"
+        description="Explore career opportunities at Seasalt.ai. Join our mission to transform the world of business communication with AI."
         favicon="/seasalt-ai-favicon.ico"
       />
       <Header />
@@ -107,7 +101,7 @@ const CareersPage = () => {
             transition={{ duration: 0.8 }}
             className="text-5xl font-bold mb-6"
           >
-            {t('careers.hero.title')}
+            Careers at Seasalt.ai
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -115,7 +109,8 @@ const CareersPage = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-gray-300 max-w-3xl mx-auto"
           >
-            {t('careers.hero.subtitle')}
+            Join our mission to transform the world of business communication with AI. 
+            We hire the world's best and brightest people to help make this transformation a reality.
           </motion.p>
         </div>
       </section>
@@ -145,9 +140,11 @@ const CareersPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl font-bold mb-6">{t('careers.mission.title')}</h2>
+              <h2 className="text-3xl font-bold mb-6">Seasalt.ai's Mission</h2>
               <p className="text-gray-300 text-lg leading-relaxed">
-                {t('careers.mission.content')}
+                Seasalt.ai's mission is to transform the world of businesses with AI. We 
+                hire the world's best and brightest people to help make this 
+                transformation a reality.
               </p>
             </motion.div>
           </div>
@@ -165,9 +162,10 @@ const CareersPage = () => {
               viewport={{ once: true }}
               className="order-2 lg:order-1"
             >
-              <h2 className="text-3xl font-bold mb-6">{t('careers.vision.title')}</h2>
+              <h2 className="text-3xl font-bold mb-6">Seasalt.ai's Vision</h2>
               <p className="text-gray-300 text-lg leading-relaxed">
-                {t('careers.vision.content')}
+                Seasalt.ai's vision is to create a world where humans coexist with AI. We 
+                solve B2B with B2C in mind.
               </p>
             </motion.div>
             <motion.div
@@ -192,7 +190,7 @@ const CareersPage = () => {
       {/* Job Listings Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          {careersData.map((department, index) => (
+          {careers.map((department, index) => (
             <motion.div 
               key={index}
               initial={{ opacity: 0, y: 50 }}
@@ -233,7 +231,7 @@ const CareersPage = () => {
                         className="bg-teal-600 hover:bg-teal-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors group-hover:bg-teal-500"
                       >
                         <ExternalLink className="w-4 h-4" />
-                        <span className="font-medium">{t('careers.common.detail')}</span>
+                        <span className="font-medium">Detail</span>
                       </a>
                     </div>
                   </motion.div>

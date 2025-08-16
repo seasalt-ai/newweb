@@ -1330,4 +1330,40 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://seasalt.ai/zh-TW/blog/getting-started-with-nextjs</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://seasalt.ai/es/blog/getting-started-with-nextjs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seasalt.ai/en/blog/getting-started-with-nextjs" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seasalt.ai/es/blog/getting-started-with-nextjs</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://seasalt.ai/zh-TW/blog/getting-started-with-nextjs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seasalt.ai/en/blog/getting-started-with-nextjs" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seasalt.ai/en/blog/whatsapp-business-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seasalt.ai/en/blog/getting-started-with-nextjs</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://seasalt.ai/zh-TW/blog/getting-started-with-nextjs" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://seasalt.ai/es/blog/getting-started-with-nextjs" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seasalt.ai/en/blog/getting-started-with-ai-automation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seasalt.ai/en/blog/future-of-customer-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

@@ -3,60 +3,51 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const RingCentralAlternative = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: t('compare.ringcentral.comparison.features.platformArchitecture.name'),
-      seasalt: t('compare.ringcentral.comparison.features.platformArchitecture.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.platformArchitecture.ringcentral'),
+      feature: 'Platform Architecture',
+      seasalt: 'True Unified Contact Center',
+      competitor: 'Separate UCaaS and CCaaS products',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.ringcentral.comparison.features.startingPrice.name'),
-      seasalt: t('compare.ringcentral.comparison.features.startingPrice.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.startingPrice.ringcentral'),
+      feature: 'Starting Price (Contact Center)',
+      seasalt: '$25/agent/month',
+      competitor: '$65/agent/month (RingCX)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.name'),
-      seasalt: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.ringcentral'),
+      feature: 'Unified Voice & Digital',
+      seasalt: 'Yes, natively included',
+      competitor: 'No, not natively unified in one inbox',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.ringcentral.comparison.features.integrationQuality.name'),
-      seasalt: t('compare.ringcentral.comparison.features.integrationQuality.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.integrationQuality.ringcentral'),
+      feature: 'Integration Quality',
+      seasalt: 'Reliable, modern integrations',
+      competitor: 'Users report buggy integrations and logging issues',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.ringcentral.comparison.features.easeOfUse.name'),
-      seasalt: t('compare.ringcentral.comparison.features.easeOfUse.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.easeOfUse.ringcentral'),
+      feature: 'Ease of Use',
+      seasalt: 'Intuitive for small teams',
+      competitor: 'Users report setup can be "mind-numbing"',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.ringcentral.comparison.features.bestFor.name'),
-      seasalt: t('compare.ringcentral.comparison.features.bestFor.seasalt'),
-      competitor: t('compare.ringcentral.comparison.features.bestFor.ringcentral'),
+      feature: 'Best For',
+      seasalt: 'SMEs wanting a simple, powerful, and truly unified contact center',
+      competitor: 'Larger companies needing a broad UCaaS platform and willing to pay extra for a separate contact center solution',
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.ringcentral.seo.title')}
-        description={t('compare.ringcentral.seo.description')}
-        canonicalUrl={`https://seasalt.ai${t('compare.ringcentral.seo.canonicalPath')}`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
       
       <main className="pt-16">
@@ -65,18 +56,20 @@ const RingCentralAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              {t('compare.ringcentral.navigation.backToOverview')}
+              Back to Compare Us Overview
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('compare.ringcentral.hero.title.part1')}{' '}
+                Looking for a True All-in-One Contact Center?{' '}
                 <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
-                  {t('compare.ringcentral.hero.title.part2')}
+                  See Why RingCentral's "Unified" Platform Falls Short
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                {t('compare.ringcentral.hero.subtitle')}
+                RingCentral is a giant in communications, but its solution is fragmented. Their main offering is a business phone system (UCaaS), 
+                while their contact center (RingCX) is a separate, premium product starting at $65/agent/month. This creates complexity and silos. 
+                Seasalt.ai is built from the ground up as a single, unified contact center.
               </p>
             </div>
           </div>
@@ -87,10 +80,10 @@ const RingCentralAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.ringcentral.comparison.title')}
+                Unified vs. Fragmented Architecture
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.ringcentral.comparison.subtitle')}
+                See why a truly unified platform beats separate products bolted together
               </p>
             </div>
 
@@ -99,9 +92,9 @@ const RingCentralAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.ringcentral.comparison.table.headers.feature')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.ringcentral.comparison.table.headers.seasalt')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.ringcentral.comparison.table.headers.ringcentral')}</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">RingCentral</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -134,62 +127,62 @@ const RingCentralAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.ringcentral.architecture.title')}
+                Architecture Matters
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.ringcentral.architecture.subtitle')}
+                Why unified beats fragmented when it comes to customer communications
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.ringcentral.architecture.seasalt.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Unified Platform</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.singleLogin')}</span>
+                    <span className="text-gray-700">Single login for all channels</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.unifiedHistory')}</span>
+                    <span className="text-gray-700">Unified conversation history</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.seamlessSwitching')}</span>
+                    <span className="text-gray-700">Seamless channel switching</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.oneBilling')}</span>
+                    <span className="text-gray-700">One billing, one support contact</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.builtInIntegrations')}</span>
+                    <span className="text-gray-700">Built-in integrations that work</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.ringcentral.architecture.ringcentral.title')}</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">RingCentral: Separate Products</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.multipleLogins')}</span>
+                    <span className="text-gray-700">Multiple logins and interfaces</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.fragmentedData')}</span>
+                    <span className="text-gray-700">Fragmented conversation data</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.complexIntegration')}</span>
+                    <span className="text-gray-700">Complex integration requirements</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.separateBilling')}</span>
+                    <span className="text-gray-700">Separate billing for UCaaS and CCaaS</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.buggyIntegrations')}</span>
+                    <span className="text-gray-700">Users report buggy integrations</span>
                   </li>
                 </ul>
               </div>
@@ -201,22 +194,23 @@ const RingCentralAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('compare.ringcentral.cta.title')}
+              Ready for True Unification?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.ringcentral.cta.subtitle')}
+              Stop juggling separate systems. Get a truly unified contact center that works 
+              seamlessly from day one.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.ringcentral.cta.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.ringcentral.cta.bookDemo')}
+                Book A Demo
               </a>
             </div>
           </div>

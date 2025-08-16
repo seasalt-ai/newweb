@@ -3,90 +3,80 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import SEOHelmet from '../../components/SEOHelmet';
-import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
-
 const OpenPhoneAlternative = () => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = useNormalizedLanguage();
-  
+  const { i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.platformType.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.platformType.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.platformType.openPhone'),
+      feature: 'Platform Type',
+      seasalt: 'Omni-Channel Contact Center',
+      competitor: 'Business Phone System (VoIP)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.supportedChannels.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.supportedChannels.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.supportedChannels.openPhone'),
+      feature: 'Supported Channels',
+      seasalt: 'Voice, SMS, WhatsApp, Webchat, Social',
+      competitor: 'Voice & SMS/MMS only',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.openPhone'),
+      feature: 'Unified Inbox',
+      seasalt: 'Yes, for all channels',
+      competitor: 'Yes, but for calls & texts only',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.aiFeatures.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.aiFeatures.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.aiFeatures.openPhone'),
+      feature: 'AI Voice/Chatbots',
+      seasalt: 'Yes, native and included',
+      competitor: 'AI is a paid add-on ($49/mo)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.advancedRouting.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.advancedRouting.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.advancedRouting.openPhone'),
+      feature: 'Advanced Routing',
+      seasalt: 'Yes, skill-based & IVR',
+      competitor: 'Basic IVR on Business plan ($23/mo+)',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.openPhone'),
+      feature: 'CRM Integrations',
+      seasalt: 'Yes',
+      competitor: 'HubSpot/Salesforce on Business plan only',
       seasaltAdvantage: true
     },
     {
-      feature: t('compare.openPhoneAlternative.comparison.features.bestFor.name'),
-      seasalt: t('compare.openPhoneAlternative.comparison.features.bestFor.seasalt'),
-      competitor: t('compare.openPhoneAlternative.comparison.features.bestFor.openPhone'),
+      feature: 'Best For',
+      seasalt: 'Businesses needing to manage all customer communication channels in one place',
+      competitor: 'Small teams and startups needing a simple, affordable shared phone number',
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.openPhoneAlternative.seo.title')}
-        description={t('compare.openPhoneAlternative.seo.description')}
-        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/openphone-alternative`}
-        availableLanguages={['en', 'zh-TW']}  
-        slug="openphone-alternative"
-        favicon="/favicon.ico"        
-      />
       <Header />
       
       <main className="pt-16">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link to={`/${currentLanguage}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+            <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              {t('compare.openPhoneAlternative.nav.backLink')}
+              Back to Compare Us Overview
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {t('compare.openPhoneAlternative.hero.title')}{' '}
+                Your Business Needs More Than Just a Phone Number.{' '}
                 <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
-                  {t('compare.openPhoneAlternative.hero.highlight')}
+                  Graduate to a True Communications Platform
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                {t('compare.openPhoneAlternative.hero.description')}
+                OpenPhone is an excellent, modern, and affordable business phone system, perfect for teams needing a shared number for calls and texts. 
+                However, it is not an omnichannel contact center. It lacks crucial channels like webchat and social media, and its automation and AI 
+                capabilities are limited to add-ons or basic integrations. Seasalt.ai is the logical next step for businesses that have outgrown a 
+                simple phone solution.
               </p>
             </div>
           </div>
@@ -97,10 +87,10 @@ const OpenPhoneAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.openPhoneAlternative.comparison.title')}
+                Phone System vs. Complete Communication Platform
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.openPhoneAlternative.comparison.subtitle')}
+                See why growing businesses need more than just voice and SMS
               </p>
             </div>
 
@@ -109,9 +99,9 @@ const OpenPhoneAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.openPhoneAlternative.comparison.table.headers.feature')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.openPhoneAlternative.comparison.table.headers.seasalt')}</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.openPhoneAlternative.comparison.table.headers.openPhone')}</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">OpenPhone</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -144,10 +134,10 @@ const OpenPhoneAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.openPhoneAlternative.growthLimitations.title')}
+                When You Outgrow a Simple Phone System
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.openPhoneAlternative.growthLimitations.subtitle')}
+                Signs it's time to upgrade from OpenPhone to a complete communication platform
               </p>
             </div>
 
@@ -156,9 +146,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.customerChat.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Customers Want to Chat</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.customerChat.description')}
+                  Your customers are asking for website chat, WhatsApp support, or social media messaging that OpenPhone can't provide.
                 </p>
               </div>
 
@@ -166,9 +156,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.automation.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">You Need Automation</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.automation.description')}
+                  You want AI to handle routine questions, book appointments, or provide 24/7 support beyond basic auto-replies.
                 </p>
               </div>
 
@@ -176,9 +166,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.complexRouting.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Complex Call Routing</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.complexRouting.description')}
+                  You need advanced IVR, skill-based routing, or queue management beyond OpenPhone's basic features.
                 </p>
               </div>
 
@@ -186,9 +176,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.marketingCampaigns.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Marketing Campaigns</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.marketingCampaigns.description')}
+                  You want to run outbound SMS campaigns, WhatsApp marketing, or multi-channel customer outreach.
                 </p>
               </div>
 
@@ -196,9 +186,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.unifiedCustomerView.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Unified Customer View</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.unifiedCustomerView.description')}
+                  You need to see all customer interactions across channels, not just phone calls and texts.
                 </p>
               </div>
 
@@ -206,9 +196,9 @@ const OpenPhoneAlternative = () => {
                 <div className="bg-yellow-100 p-3 rounded-lg mb-4">
                   <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.advancedAnalytics.title')}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Advanced Analytics</h3>
                 <p className="text-gray-600 text-sm">
-                  {t('compare.openPhoneAlternative.growthLimitations.advancedAnalytics.description')}
+                  You want detailed reporting on customer interactions, agent performance, and business metrics.
                 </p>
               </div>
             </div>
@@ -220,62 +210,62 @@ const OpenPhoneAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.openPhoneAlternative.featureExpansion.title')}
+                What You Gain with Seasalt.ai
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.openPhoneAlternative.featureExpansion.subtitle')}
+                Keep everything you love about OpenPhone and add powerful omnichannel capabilities
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-green-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-green-600 mb-6">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.title')}</h3>
+                <h3 className="text-2xl font-bold text-green-600 mb-6">Keep What Works</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.sharedNumber')}</span>
+                    <span className="text-gray-700">Shared business phone number</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.teamSMS')}</span>
+                    <span className="text-gray-700">Team SMS and MMS messaging</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.simpleInterface')}</span>
+                    <span className="text-gray-700">Simple, intuitive interface</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.mobileApp')}</span>
+                    <span className="text-gray-700">Mobile app for on-the-go</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.affordablePricing')}</span>
+                    <span className="text-gray-700">Affordable pricing</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.title')}</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">Add New Capabilities</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.whatsapp')}</span>
+                    <span className="text-gray-700">WhatsApp Business integration</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.webchat')}</span>
+                    <span className="text-gray-700">Website chat widget</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.socialMedia')}</span>
+                    <span className="text-gray-700">Social media messaging</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.aiVoicebots')}</span>
+                    <span className="text-gray-700">AI voicebot and chatbot</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.analytics')}</span>
+                    <span className="text-gray-700">Advanced analytics and reporting</span>
                   </li>
                 </ul>
               </div>
@@ -288,76 +278,76 @@ const OpenPhoneAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.openPhoneAlternative.pricingComparison.title')}
+                Pricing Comparison
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.openPhoneAlternative.pricingComparison.subtitle')}
+                See how Seasalt.ai's complete platform compares to OpenPhone with add-ons
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">OpenPhone Starter</h3>
                 <div className="text-center mb-6">
-                  <div className="text-3xl font-bold text-gray-900">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.price')}</div>
-                  <div className="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.period')}</div>
+                  <div className="text-3xl font-bold text-gray-900">$15</div>
+                  <div className="text-sm text-gray-600">/user/month</div>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.voiceOnly')}</span>
+                    <span className="text-sm text-gray-700">Voice & SMS only</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.noAI')}</span>
+                    <span className="text-sm text-gray-700">No AI features</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.noChannels')}</span>
+                    <span className="text-sm text-gray-700">No other channels</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-yellow-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">OpenPhone + Add-ons</h3>
                 <div className="text-center mb-6">
-                  <div className="text-3xl font-bold text-yellow-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.price')}</div>
-                  <div className="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.period')}</div>
+                  <div className="text-3xl font-bold text-yellow-600">$72</div>
+                  <div className="text-sm text-gray-600">/user/month</div>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.businessPlan')}</span>
+                    <span className="text-sm text-gray-700">Business plan ($23)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.aiFeatures')}</span>
+                    <span className="text-sm text-gray-700">AI features ($49)</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.stillLimited')}</span>
+                    <span className="text-sm text-gray-700">Still voice & SMS only</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.seasalt.title')}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Seasalt.ai</h3>
                 <div className="text-center mb-6">
-                  <div className="text-3xl font-bold text-blue-600">{t('compare.openPhoneAlternative.pricingComparison.seasalt.price')}</div>
-                  <div className="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.seasalt.period')}</div>
+                  <div className="text-3xl font-bold text-blue-600">$25</div>
+                  <div className="text-sm text-gray-600">/agent/month</div>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.allChannels')}</span>
+                    <span className="text-sm text-gray-700">All channels included</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.aiIncluded')}</span>
+                    <span className="text-sm text-gray-700">AI included</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.completePlatform')}</span>
+                    <span className="text-sm text-gray-700">Complete platform</span>
                   </li>
                 </ul>
               </div>
@@ -370,10 +360,10 @@ const OpenPhoneAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                {t('compare.openPhoneAlternative.migrationPath.title')}
+                Easy Migration Path
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('compare.openPhoneAlternative.migrationPath.subtitle')}
+                Seamlessly transition from OpenPhone to Seasalt.ai without losing your number or disrupting service
               </p>
             </div>
 
@@ -381,23 +371,23 @@ const OpenPhoneAlternative = () => {
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
-                  <h3 className="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.keepNumber.title')}</h3>
-                  <p className="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.keepNumber.description')}</p>
+                  <h3 className="font-semibold text-green-800 mb-2">Keep Your Number</h3>
+                  <p className="text-green-700 text-sm">Port your existing business number to Seasalt.ai</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
-                  <h3 className="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.addChannels.title')}</h3>
-                  <p className="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.addChannels.description')}</p>
+                  <h3 className="font-semibold text-green-800 mb-2">Add New Channels</h3>
+                  <p className="text-green-700 text-sm">Connect WhatsApp, webchat, and social media</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
-                  <h3 className="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.enableAI.title')}</h3>
-                  <p className="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.enableAI.description')}</p>
+                  <h3 className="font-semibold text-green-800 mb-2">Enable AI</h3>
+                  <p className="text-green-700 text-sm">Set up automated responses and voicebots</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
-                  <h3 className="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.trainTeam.title')}</h3>
-                  <p className="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.trainTeam.description')}</p>
+                  <h3 className="font-semibold text-green-800 mb-2">Train Your Team</h3>
+                  <p className="text-green-700 text-sm">Quick onboarding to new features and capabilities</p>
                 </div>
               </div>
             </div>
@@ -408,23 +398,24 @@ const OpenPhoneAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-green-600 to-green-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              {t('compare.openPhoneAlternative.cta.title')}
+              Ready to Upgrade Your Communication Platform?
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              {t('compare.openPhoneAlternative.cta.description')}
+              Keep everything you love about OpenPhone and add powerful omnichannel capabilities 
+              that will help your business grow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 {t('compare.openPhoneAlternative.cta.buttons.signUp')}
+                 Sign Up
               </a>
               <a
                 href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                {t('compare.openPhoneAlternative.cta.buttons.bookDemo')}
+                Book a Demo
               </a>
             </div>
           </div>
