@@ -81,7 +81,7 @@ const PricingPage = () => {
 
   const competitors = [
     {
-      name: t('pricing.comparisonseasalt.name'),
+      name: t('pricing.comparison.seasalt.name'),
       startingPrice: t('pricing.comparison.seasalt.startingPrice'),
       pricingModel: t('pricing.comparison.seasalt.pricingModel'),
       unifiedVoiceDigital: t('pricing.comparison.seasalt.unifiedVoiceDigital'),
