@@ -429,13 +429,8 @@ const OmniChannelCalculator = () => {
               Get Started with Omni-channel
             </a>
             <a
-<<<<<<< HEAD
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
-=======
-              href={getMeetingUrl(i18n.language)}
-              className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block"
->>>>>>> 3a365dac0482f3e64a043915656ef968b25e8126
             >
               Talk to Sales
             </a>

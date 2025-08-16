@@ -6,11 +6,7 @@ import SupportPlan from '../../components/SupportPlan';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
-<<<<<<< HEAD
-  const { t } = useTranslation();
-=======
-  const { i18n } = useTranslation();
->>>>>>> 3a365dac0482f3e64a043915656ef968b25e8126
+  const { t, i18n } = useTranslation();
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
