@@ -18,30 +18,31 @@ const Line = () => {
   }, []);
   const markets = [
     {
-      country: 'Japan',
-      users: '95M',
-      penetration: '75%',
+      country: t('channels.line.markets.JP.country'),
+      users: t('channels.line.markets.JP.users'),
+      penetration: t('channels.line.markets.JP.penetration'),
       flag: '🇯🇵'
     },
     {
-      country: 'Taiwan',
-      users: '21M',
-      penetration: '90%',
+      country: t('channels.line.markets.TW.country'),
+      users: t('channels.line.markets.TW.users'),
+      penetration: t('channels.line.markets.TW.penetration'),
       flag: '🇹🇼'
     },
     {
-      country: 'Thailand',
-      users: '53M',
-      penetration: '76%',
+      country: t('channels.line.markets.TH.country'),
+      users: t('channels.line.markets.TH.users'),
+      penetration: t('channels.line.markets.TH.penetration'),
       flag: '🇹🇭'
     },
     {
-      country: 'South Korea',
-      users: '35M',
-      penetration: '68%',
+      country: t('channels.line.markets.KR.country'),
+      users: t('channels.line.markets.KR.users'),
+      penetration: t('channels.line.markets.KR.penetration'),
       flag: '🇰🇷'
     }
   ];
+
 
   const features = [
     {

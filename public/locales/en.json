@@ -1219,6 +1219,28 @@
         "activeUsers": "Active Users",
         "marketPenetration": "Market Penetration"
       },
+      "markets": {
+        "JP":{
+            "country": "Japan",
+            "users": "95M",
+            "penetration": "75%"
+          },
+        "TW":{
+            "country": "Taiwan",
+            "users": "21M",
+            "penetration": "90%"
+          },
+        "TH":{
+            "country": "Thailand",
+            "users": "53M",
+            "penetration": "76%"
+          },
+        "KR":{
+            "country": "South Korea",
+            "users": "35M",
+            "penetration": "68%"
+          }
+      },
       "features": {
         "title": "LINE Business Features",
         "subtitle": "Leverage LINE's unique features for business communication and customer engagement",
@@ -2592,10 +2614,269 @@
       "subscribeButton": "Subscribe"
     }
   },
-  "contact": {
-    "phone": "+1 (SMB)-AI-AGENT",
-    "email": "info@seasalt.ai",
-    "location": "Seattle, WA"
+  "careers": {
+    "seo": {
+      "title": "Careers at Seasalt.ai",
+      "description": "Join Seasalt.ai to transform healthcare with AI-powered solutions. Explore our mission, vision, and open positions."
+    },
+    "hero": {
+      "title": "Work With Us",
+      "subtitle": "Join Seasalt.ai and help us transform healthcare with AI-powered front office solutions."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower healthcare providers with AI solutions that make patient interactions seamless and efficient."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the leading AI-driven platform transforming front-office operations in healthcare globally."
+    },
+    "departments": {
+      "business": "Business",
+      "product": "Product",
+      "engineering": "Engineering"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Business Developer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Field Marketing & Direct Sales",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "technicalProductManager": {
+        "title": "Technical Product Manager",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "productMarketing": {
+        "title": "Product Marketing",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "frontendEngineer": {
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "backendEngineer": {
+        "title": "Backend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "devOps": {
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerNLP": {
+        "title": "Machine Learning Engineer (NLP)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Machine Learning Engineer (Language Modeling)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Machine Learning Engineer (Speech Recognition)",
+        "location": "Remote",
+        "type": "Full-time"
+      }
+    },
+    "common": {
+      "detail": "View Details"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "About Seasalt.ai",
+      "description": "Seasalt.ai is transforming healthcare with AI-powered front office solutions. Learn about our mission, vision, leadership, products, and global presence."
+    },
+    "hero": {
+      "title": "Transforming Healthcare with AI",
+      "description": "Seasalt.ai leverages cutting-edge AI and speech technologies to revolutionize patient and customer interactions across multiple channels.",
+      "subtitle": "Delivering seamless, multilingual, omnichannel experiences for healthcare providers."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "heading": "Empower Healthcare Providers",
+      "text": "We create AI solutions that streamline front-office operations and enhance patient engagement.",
+      "statement": "Human-centered AI to improve efficiency and quality of care.",
+      "future": "Committed to continuous innovation and expanding global impact."
+    },
+    "vision": {
+      "heading": "Our Vision",
+      "text": "To be the leading AI-driven platform transforming front-office operations in healthcare globally."
+    },
+    "values": {
+      "title": "Core Values",
+      "humanFirst": {
+        "title": "Human First",
+        "description": "Putting people at the center of all our AI solutions."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Open and honest communication across our team and with customers."
+      },
+      "speedSafety": {
+        "title": "Speed & Safety",
+        "description": "Delivering fast solutions while maintaining the highest safety standards."
+      },
+      "buildPurpose": {
+        "title": "Build with Purpose",
+        "description": "Every product and feature serves a meaningful goal."
+      },
+      "globalEmpathy": {
+        "title": "Global Empathy",
+        "description": "Designing solutions with cultural sensitivity and worldwide impact."
+      }
+    },
+    "leadership": {
+      "title": "Leadership & Co-founders",
+      "homepage": "Homepage",
+      "scholar": "Google Scholar",
+      "0": {
+        "role": "CEO & Co-Founder",
+        "bio": "Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu). Two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO & Co-Founder",
+        "bio": "Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      }
+    },
+    "offices": {
+      "title": "Office Locations",
+      "list": [
+        {
+          "title": "Global Headquarters",
+          "location": "Seattle, Washington, USA"
+        },
+        {
+          "title": "Asia R&D and Support Center",
+          "location": "Taipei, Taiwan"
+        }
+      ]
+    },
+    "products": {
+      "title": "What We Build",
+      "subtitle": "Product Portfolio",
+      "downloadPressKit": "Download the Product Logo & Press Kit",
+        "product1":{
+          "name": "SeaChat (Response AI)",
+          "description": "AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice)."
+        },
+        "product2":{
+          "name": "SeaX (Outreach AI)",
+          "description": "Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing."
+        },
+        "product3":{
+          "name": "SeaMeet (Insights AI)",
+          "description": "AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings."
+        },
+        "product4":{
+          "name": "SeaVoice (Voice Autopilot)",
+          "description": "Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition."
+        }
+    },
+    "funding": {
+      "title": "Funding & Investors",
+      "seedFunding": "Seed Funding",
+      "raised": "$4.2 million USD raised in 2024",
+      "investorsTitle": "Our investors include:",
+      "investorsList": [
+        "Unlock Venture Partners (Lead Investor)",
+        "Z Venture Capital (ZVC, the corporate venture arm of LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Strategic Partnerships",
+      "description": "Our platform's power is amplified by deep, strategic partnerships with global technology leaders:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "As a Twilio Gold Partner and authorized reseller of Twilio Flex, we have a strengthened strategic relationship to enhance customer experience with conversational AI. Key to our expansion in the Asia-Pacific and Japan (APJ) region.",
+          "type": "Gold Partner"
+        },
+        {
+          "description": "Official platform integrations with Facebook/WhatsApp/Instagram, enabling seamless omnichannel communications.",
+          "type": "Official Integration"
+        },
+        {
+          "description": "Partnership allows us to seamlessly build advanced email and scheduling features directly into our applications, enhancing the contextual depth of our AI agents.",
+          "type": "Strategic Partner"
+        },
+        {
+          "description": "Through our investor ZVC, we have unique access to LINE's business call APIs, critical for our strategy in key Asian markets where LINE is the dominant communication platform.",
+          "type": "Strategic Partner and Investment"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our mission to transform business communications",
+      "list": [
+        { "event": "Seasalt.ai founded by industry veterans in AI and voice technologies" },
+        { "event": "Surviving Covid19. No one was let go." },
+        { "event": "Launch of SeaChat omnichannel customer service platform" },
+        { "event": "Introduction of SeaX outreach AI and SeaMeet insights AI" },
+        { "event": "Launch of SeaVoice advanced voice AI infrastructure" }
+      ]
+    },
+    "careers": {
+      "title": "Careers at Seasalt.ai",
+      "description": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, AI scientists, developers, and business builders.",
+      "cta": "See open positions",
+      "highlights": [
+        "Global, diverse, and remote-friendly culture",
+        "Work with cutting-edge AI technology",
+        "Make real impact in business communications",
+        "Collaborate with industry veterans"
+      ]
+    },
+    "contact": {
+      "title": "Contact & Press",
+      "press": {
+        "title": "Press & Media",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Investors",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Partnerships",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "24/7 Hotline",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "Download the Product Logo & Press Kit",
+      "tagline": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.",
+      "pressKit": {
+        "downloadText": "Download the Product Logo & Press Kit",
+        "description": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide."
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Sign Up to Our Newsletter",
+    "subtitle": "One per week, written by the CEO",
+    "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
+    "emailPlaceholder": "Enter your email address",
+    "cta": "Subscribe",
+    "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
   },
   "seo": {
     "mainTitle": "Seasalt.ai - Omni-Channel Contact Center for Small Businesses",

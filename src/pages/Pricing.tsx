@@ -557,7 +557,6 @@ const PricingPage = () => {
                     <Building2 className="w-8 h-8 text-gray-600" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.custom.name')}</h3>
-                  <div className="text-lg font-semibold text-gray-600 mb-2">{t('pricing.plans.custom.subtitle')}</div>
                   <p className="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide">{t('pricing.plans.custom.period')}</p>
                 </div>
                 <div className="space-y-2 mb-6">
