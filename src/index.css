@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import text overflow utilities for internationalization */
+@import './styles/text-overflow.css';
+
 /* Mobile responsiveness improvements */
 html {
   overflow-x: hidden;

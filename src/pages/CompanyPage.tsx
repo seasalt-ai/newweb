@@ -23,23 +23,20 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 const CompanyPage = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const leadership = [
     {
       name: 'Xuchen Yao',
-      role: 'CEO & Co-Founder',
-      bio: 'Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu), two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University\'s CLSP.',
+      key: 'company.leadership.0',
       homepage: 'https://xuchen.github.io/',
       image: '/people-images/xuchen_yao.jpg'
     },
     {
       name: 'Guoguo Chen', 
-      role: 'CTO & Co-Founder',
-      bio: 'Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University\'s CLSP.',
+      key: 'company.leadership.1',
       scholar: 'https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao',
       image: '/people-images/guoguo_chen.jpg'
     }
@@ -48,113 +45,107 @@ const CompanyPage = () => {
   const coreValues = [
     {
       icon: Users,
-      title: 'Human-first AI',
-      description: 'We prioritize augmenting people, not replacing them.'
+      titleKey: 'company.values.humanFirst.title',
+      descriptionKey: 'company.values.humanFirst.description'
     },
     {
       icon: Eye,
-      title: 'Transparency',
-      description: 'From data privacy to pricing, we believe in clarity and openness.'
+      titleKey: 'company.values.transparency.title',
+      descriptionKey: 'company.values.transparency.description'
     },
     {
       icon: Zap,
-      title: 'Speed with Safety',
-      description: 'We move fast but never compromise on trust or security.'
+      titleKey: 'company.values.speedSafety.title',
+      descriptionKey: 'company.values.speedSafety.description'
     },
     {
       icon: Target,
-      title: 'Build with Purpose',
-      description: 'We create technology that solves real-world problems.'
+      titleKey: 'company.values.buildPurpose.title',
+      descriptionKey: 'company.values.buildPurpose.description'
     },
     {
       icon: Heart,
-      title: 'Global Empathy',
-      description: 'Our tools serve users across languages, cultures, and time zones.'
+      titleKey: 'company.values.globalEmpathy.title',
+      descriptionKey: 'company.values.globalEmpathy.description'
     }
   ];
 
   const products = [
     {
-      name: 'SeaChat (Response AI)',
-      description: 'AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice).',
+      name: t('company.products.product1.name'),
+      description: t('company.products.product1.description'),
       icon: MessageCircle
     },
     {
-      name: 'SeaX (Outreach AI)', 
-      description: 'Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing.',
+      name: t('company.products.product2.name'),
+      description: t('company.products.product2.description'),
       icon: Phone
     },
     {
-      name: 'SeaMeet (Insights AI)',
-      description: 'AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings.',
+      name: t('company.products.product3.name'),
+      description: t('company.products.product3.description'),
       icon: BarChart3
     },
     {
-      name: 'SeaVoice (Voice Autopilot)',
-      description: 'Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition.',
+      name: t('company.products.product4.name'),
+      description: t('company.products.product4.description'),
       icon: Bot
     }
   ];
 
-  const investors = [
-    'Unlock Venture Partners (Lead Investor)',
-    'Z Venture Capital (ZVC, the corporate venture arm of LINE)',
-    'SparkLabs Group (SparkLabs Taiwan)',
-    'Grand Vision Capital Group',
-    'PatientsForce'
-  ];
+  const investors = t('company.funding.investorsList', { returnObjects: true }) as unknown as string[];
 
   const partnerships = [
     {
       company: 'Twilio',
-      description: 'As a Twilio Gold Partner and authorized reseller of Twilio Flex, we have a strengthened strategic relationship to enhance customer experience with conversational AI. Key to our expansion in the Asia-Pacific and Japan (APJ) region.',
-      type: 'Gold Partner'
+      description: t('company.partnerships.list.0.description'),
+      type: t('company.partnerships.list.0.type')
     },
     {
       company: 'Meta',
-      description: 'Official platform integrations with Facebook/WhatsApp/Instagram, enabling seamless omnichannel communications.',
-      type: 'Official Integration'
+      description: t('company.partnerships.list.1.description'),
+      type: t('company.partnerships.list.1.type')
     },
     {
       company: 'Nylas',
-      description: 'Partnership allows us to seamlessly build advanced email and scheduling features directly into our applications, enhancing the contextual depth of our AI agents.',
-      type: 'Strategic Partner'
+      description: t('company.partnerships.list.2.description'),
+      type: t('company.partnerships.list.2.type')
     },
     {
       company: 'LINE',
-      description: 'Through our investor ZVC, we have unique access to LINE\'s business call APIs, critical for our strategy in key Asian markets where LINE is the dominant communication platform.',
-      type: 'Strategic Partner and Investment'
+      description: t('company.partnerships.list.3.description'),
+      type: t('company.partnerships.list.3.type')
     }
   ];
 
   const offices = [
     {
-      title: 'Global Headquarters',
-      location: 'Seattle, Washington, USA',
+      title: t('company.offices.list.0.title'),
+      location: t('company.offices.list.0.location'),
       type: 'headquarters'
     },
     {
-      title: 'Asia R&D and Support Center',
-      location: 'Taipei, Taiwan',
+      title: t('company.offices.list.1.title'),
+      location: t('company.offices.list.1.location'),
       type: 'rd_center'
     }
   ];
 
   const milestones = [
-    { year: '2020.1', event: 'Seasalt.ai founded by industry veterans in AI and voice technologies' },
-    { year: '2020~2023', event: 'Surviving Covid19. No one was let go.' },
-    { year: '2022', event: 'Launch of SeaChat omnichannel customer service platform' },
-    { year: '2023', event: 'Introduction of SeaX outreach AI and SeaMeet insights AI' },
-    { year: '2025', event: 'Launch of SeaVoice advanced voice AI infrastructure' }
+    { year: '2020.1', event: t('company.timeline.list.0.event') },
+    { year: '2020~2023', event: t('company.timeline.list.1.event') },
+    { year: '2022', event: t('company.timeline.list.2.event') },
+    { year: '2023', event: t('company.timeline.list.3.event') },
+    { year: '2025', event: t('company.timeline.list.4.event') }
   ];
+
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="About Seasalt.ai - Company Information & Leadership"
-        description="Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms."
+        title={t('company.seo.title')}
+        description={t('company.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
-        availableLanguages={SUPPORTED_LANGUAGES}
       />
       
       <Header />
@@ -169,16 +160,13 @@ const CompanyPage = () => {
             className="text-center"
           >
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              About Seasalt.ai
+              {t('company.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
-              Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, 
-              and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice 
-              technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.
+              {t('company.hero.description')}
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, 
-              elevate customer experiences, and unlock new channels for growth.
+              {t('company.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -195,22 +183,22 @@ const CompanyPage = () => {
               viewport={{ once: true }}
             >
               <div className="mb-12">
-                <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission & Values</h2>
+                <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('company.mission.title')}</h2>
                 <div className="bg-blue-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-2xl font-bold text-blue-900 mb-4">Our Mission</h3>
+                  <h3 className="text-2xl font-bold text-blue-900 mb-4">{t('company.mission.heading')}</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.
+                    {t('company.mission.text')}
                   </p>
-                  <h3 className="text-2xl font-bold text-blue-900 mb-4">Our Vision</h3>
+                  <h3 className="text-2xl font-bold text-blue-900 mb-4">{t('company.vision.heading')}</h3>
                   <p className="text-lg text-gray-700">
-                    Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence.
+                    {t('company.vision.text')}
                   </p>
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed italic">
-                  We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.
+                  {t('company.mission.statement')}
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed mt-4">
-                  We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully.
+                  {t('company.mission.future')}
                 </p>
               </div>
             </motion.div>
@@ -221,7 +209,7 @@ const CompanyPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-3xl font-bold text-gray-900 mb-8">🧭 Our Core Values</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">{t('company.values.title')}</h3>
               <div className="space-y-6">
                 {coreValues.map((value, index) => (
                   <div key={index} className="flex items-start space-x-4">
@@ -229,8 +217,8 @@ const CompanyPage = () => {
                       <value.icon className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h4>
-                      <p className="text-gray-600">{value.description}</p>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">{t(value.titleKey)}</h4>
+                      <p className="text-gray-600">{t(value.descriptionKey)}</p>
                     </div>
                   </div>
                 ))}
@@ -242,16 +230,10 @@ const CompanyPage = () => {
 
       {/* Leadership Team */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Leadership & Co-founders</h2>
-          </motion.div>
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
+            {t('company.leadership.title', 'Leadership Team')}
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {leadership.map((leader, index) => (
@@ -269,23 +251,37 @@ const CompanyPage = () => {
                     alt={leader.name}
                     className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                   />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{leader.name}</h3>
-                  <p className="text-lg text-blue-600 font-semibold mb-4">{leader.role}</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    {leader.name}
+                  </h3>
+                  <p className="text-lg text-blue-600 font-semibold mb-4">
+                    {t(`${leader.key}.role`)}
+                  </p>
                 </div>
-                <p className="text-gray-600 leading-relaxed mb-4">{leader.bio}</p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  {t(`${leader.key}.bio`)}
+                </p>
                 <div className="flex justify-center space-x-4">
-                  {leader.homepage && (
-                    <a href={leader.homepage} target="_blank" rel="noopener noreferrer" 
-                       className="text-blue-600 hover:text-blue-800 flex items-center space-x-1">
+                  {t(`${leader.key}.homepage`, { defaultValue: "" }) && (
+                    <a
+                      href={t(`${leader.key}.homepage`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+                    >
                       <ExternalLink className="w-4 h-4" />
-                      <span>Homepage</span>
+                      <span>{t('company.leadership.homepage', 'Homepage')}</span>
                     </a>
                   )}
-                  {leader.scholar && (
-                    <a href={leader.scholar} target="_blank" rel="noopener noreferrer" 
-                       className="text-blue-600 hover:text-blue-800 flex items-center space-x-1">
+                  {t(`${leader.key}.scholar`, { defaultValue: "" }) && (
+                    <a
+                      href={t(`${leader.key}.scholar`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+                    >
                       <ExternalLink className="w-4 h-4" />
-                      <span>Google Scholar</span>
+                      <span>{t('company.leadership.scholar', 'Scholar')}</span>
                     </a>
                   )}
                 </div>
@@ -305,7 +301,7 @@ const CompanyPage = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Office Locations</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('company.offices.title')}</h2>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -337,8 +333,8 @@ const CompanyPage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">🌐 What We Build</h2>
-            <h3 className="text-2xl font-semibold text-gray-700 mb-8">Product Portfolio</h3>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('company.products.title')}</h2>
+            <h3 className="text-2xl font-semibold text-gray-700 mb-8">{t('company.products.subtitle')}</h3>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -379,7 +375,7 @@ const CompanyPage = () => {
               className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <Download className="w-5 h-5" />
-              <span>Download the Product Logo & Press Kit</span>
+              <span>{t('company.products.downloadPressKit')}</span>
             </motion.a>
           </motion.div>
         </div>
@@ -395,15 +391,15 @@ const CompanyPage = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold text-gray-900 mb-8">Funding & Investors</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8">{t('company.funding.title')}</h2>
               <div className="bg-green-50 rounded-xl p-6 mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <DollarSign className="w-8 h-8 text-green-600" />
-                  <h3 className="text-2xl font-bold text-green-900">Seed Funding</h3>
+                  <h3 className="text-2xl font-bold text-green-900">{t('company.funding.seedFunding')}</h3>
                 </div>
-                <p className="text-xl font-semibold text-green-800">$4.2 million USD raised in 2024</p>
+                <p className="text-xl font-semibold text-green-800">{t('company.funding.raised')}</p>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-4">Our investors include:</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-4">{t('company.funding.investorsTitle')}</h4>
               <ul className="space-y-3">
                 {investors.map((investor, index) => (
                   <li key={index} className="flex items-center space-x-3">
@@ -420,9 +416,9 @@ const CompanyPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold text-gray-900 mb-8">Strategic Partnerships</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8">{t('company.partnership.title')}</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our platform's power is amplified by deep, strategic partnerships with global technology leaders:
+                {t('company.partnership.description')}
               </p>
               <div className="space-y-6">
                 {partnerships.map((partnership, index) => (
@@ -453,9 +449,9 @@ const CompanyPage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Journey</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('company.timeline.title')}</h2>
             <p className="text-xl text-gray-600">
-              Key milestones in our mission to transform business communications
+              {t('company.timeline.subtitle')}
             </p>
           </motion.div>
 
@@ -492,10 +488,9 @@ const CompanyPage = () => {
               viewport={{ once: true }}
             >
               <Briefcase className="w-16 h-16 mb-6 opacity-80" />
-              <h2 className="text-4xl font-bold mb-6">Careers at Seasalt.ai</h2>
+              <h2 className="text-4xl font-bold mb-6">{t('company.careers.title')}</h2>
               <p className="text-xl mb-8 opacity-90">
-                Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, 
-                AI scientists, developers, and business builders. 
+                {t('company.careers.description')} 
               </p>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -505,7 +500,7 @@ const CompanyPage = () => {
                   to={`/${currentLanguage}/careers`}
                   className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  See open positions
+                  {t('company.careers.cta')}
                 </Link>
               </motion.div>
             </motion.div>
@@ -519,19 +514,19 @@ const CompanyPage = () => {
             >
               <div className="flex items-center space-x-4">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="text-lg">Global, diverse, and remote-friendly culture</span>
+                <span className="text-lg">{t('company.careers.bullet1')}</span>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="text-lg">Work with cutting-edge AI technology</span>
+                <span className="text-lg">{t('company.careers.bullet2')}</span>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="text-lg">Make real impact in business communications</span>
+                <span className="text-lg">{t('company.careers.bullet3')}</span>
               </div>
               <div className="flex items-center space-x-4">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
-                <span className="text-lg">Collaborate with industry veterans</span>
+                <span className="text-lg">{t('company.careers.bullet4')}</span>
               </div>
             </motion.div>
           </div>
@@ -548,7 +543,7 @@ const CompanyPage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Contact & Press</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('company.contact.title')}</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -560,10 +555,10 @@ const CompanyPage = () => {
               className="bg-white rounded-xl p-8 shadow-lg text-center"
             >
               <Mail className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Press & Media</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('company.contact.press.title')}</h3>
               <p className="text-gray-600">
                 <a href="mailto:press@seasalt.ai" className="text-blue-600 hover:text-blue-800">
-                  press@seasalt.ai
+                  {t('company.contact.press.email')}
                 </a>
               </p>
             </motion.div>
@@ -576,10 +571,10 @@ const CompanyPage = () => {
               className="bg-white rounded-xl p-8 shadow-lg text-center"
             >
               <DollarSign className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Investors</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('company.contact.investors.title')}</h3>
               <p className="text-gray-600">
                 <a href="mailto:invest@seasalt.ai" className="text-blue-600 hover:text-blue-800">
-                  invest@seasalt.ai
+                  {t('company.contact.investors.email')}
                 </a>
               </p>
             </motion.div>
@@ -592,10 +587,10 @@ const CompanyPage = () => {
               className="bg-white rounded-xl p-8 shadow-lg text-center"
             >
               <Handshake className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Partnerships</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('company.contact.partnerships.title')}</h3>
               <p className="text-gray-600">
                 <a href="mailto:partnerships@seasalt.ai" className="text-blue-600 hover:text-blue-800">
-                  partnerships@seasalt.ai
+                  {t('company.contact.partnerships.email')}
                 </a>
               </p>
             </motion.div>
@@ -610,8 +605,8 @@ const CompanyPage = () => {
           >
             <div className="bg-white rounded-xl p-8 shadow-lg inline-block">
               <Phone className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
-              <h3 className="text-xl font-bold text-gray-900 mb-4">24/7 Hotline</h3>
-              <p className="text-2xl font-bold text-blue-600">+1-(SMB)-AI-AGENT</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('company.contact.hotline.title')}</h3>
+              <p className="text-2xl font-bold text-blue-600"> {t('company.contact.hotline.number')}</p>
             </div>
           </motion.div>
 
@@ -630,10 +625,10 @@ const CompanyPage = () => {
               className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mb-6"
             >
               <Download className="w-5 h-5" />
-              <span>Download the Product Logo & Press Kit</span>
+              <span>{t('company.contact.pressKit.downloadText')}</span>
             </motion.a>
             <p className="text-lg text-gray-600 italic">
-              Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.
+              {t('company.contact.pressKit.description')}
             </p>
           </motion.div>
         </div>
@@ -653,12 +648,12 @@ const CompanyPage = () => {
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Send className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold mb-4">Sign Up to Our Newsletter</h2>
+              <h2 className="text-4xl font-bold mb-4">{t('company.newsletter.title')}</h2>
               <p className="text-xl text-blue-100 mb-2">
-                One per week, written by the CEO
+                {t('company.newsletter.subtitle')}
               </p>
               <p className="text-lg text-blue-200">
-                Get insights on AI, business communications, and the future of work directly from our leadership team.
+                {t('company.newsletter.description')}
               </p>
             </div>
             
@@ -692,7 +687,7 @@ const CompanyPage = () => {
                   className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center justify-center space-x-2"
                 >
                   <Send className="w-5 h-5" />
-                  <span>Subscribe</span>
+                  <span>{t('company.newsletter.cta')}</span>
                 </motion.button>
               </div>
             </motion.form>
@@ -704,7 +699,7 @@ const CompanyPage = () => {
               viewport={{ once: true }}
               className="text-sm text-blue-200 mt-6"
             >
-              No spam, unsubscribe at any time. We respect your privacy.
+              {t('company.newsletter.disclaimer')}
             </motion.p>
           </motion.div>
         </div>

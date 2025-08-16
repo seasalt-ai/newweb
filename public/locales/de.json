@@ -40,5 +40,1428 @@
     "startForFree": "Kostenlos starten",
     "seeDemo": "2-Min Demo ansehen",
     "trustedBy": "Vertraut von wachsenden Unternehmen weltweit"
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Vertriebs- und Marketing-Lösungen - Seasalt.ai",
+        "description": "Erfassen Sie mehr Leads, reagieren Sie schneller und konvertieren Sie besser mit intelligenter Automatisierung, die über jeden Kanal funktioniert. Ihre Interessenten erhalten sofortige Antworten, während Sie sich auf den Vertragsabschluss konzentrieren."
+      },
+      "navigation": {
+        "backToHome": "Zurück zur Startseite"
+      },
+      "hero": {
+        "title1": "Verwandeln Sie jeden Lead in eine",
+        "titleGradient": "Umsatzchance",
+        "subtitle": "KI-gestützte Vertriebs- und Marketing-Automatisierung, die niemals schläft",
+        "description": "Erfassen Sie mehr Leads, reagieren Sie schneller und konvertieren Sie besser mit intelligenter Automatisierung, die über jeden Kanal funktioniert. Ihre Interessenten erhalten sofortige Antworten, während Sie sich auf den Vertragsabschluss konzentrieren.",
+        "cta": {
+          "primary": "Steigern Sie Ihre Konversionen",
+          "secondary": "Demo buchen"
+        },
+        "dashboard": {
+          "title": "Vertriebsleistung",
+          "leads": "🎯 47 neue Leads heute erfasst",
+          "leadsQualified": "KI hat 23 als hochpriorisiert qualifiziert",
+          "responseTime": "⚡ Durchschnittliche Antwortzeit: 12 Sekunden",
+          "responseTimeBenefit": "300% schneller als der Branchendurchschnitt",
+          "demos": "📅 15 Demos automatisch gebucht",
+          "demosNote": "Während Ihr Team in Besprechungen war",
+          "pipeline": "💰 $24.500 Pipeline diese Woche hinzugefügt",
+          "conversion": "45% Verbesserung der Konversionsrate"
+        }
+      },
+      "challenges": {
+        "title": "Vertriebs- und Marketing-Herausforderungen",
+        "description": "Jede Minute, in der Sie nicht auf einen Lead reagieren, ist eine Minute, in der Ihr Wettbewerber reagieren könnte. Lassen Sie nicht zu, dass manuelle Prozesse Ihnen Umsatz kosten.",
+        "leadGeneration": {
+          "title": "Lead-Generierung und Qualifizierung",
+          "description": "Schwierigkeiten beim Erfassen von Leads über mehrere Kanäle und deren effizienter Qualifizierung"
+        },
+        "conversion": {
+          "title": "Konversions-Optimierung",
+          "description": "Verpasste Gelegenheiten zur Konversion von Interessenten aufgrund langsamer Antwortzeiten"
+        },
+        "campaignManagement": {
+          "title": "Kampagnen-Management",
+          "description": "Schwierigkeiten beim Verwalten von Multi-Kanal-Kampagnen und der Verfolgung ihrer Wirksamkeit"
+        }
+      },
+      "solutions": {
+        "title": "Ihre KI-gestützte Vertriebs-Engine",
+        "description": "Transformieren Sie Ihre Vertriebs- und Marketing-Operationen mit intelligenter Automatisierung, die rund um die Uhr Leads erfasst, qualifiziert und konvertiert.",
+        "leadCapture": {
+          "title": "Intelligente Lead-Erfassung und Qualifizierung",
+          "description": "Erfassen Sie Leads von jedem Kanal und lassen Sie KI sie sofort qualifizieren",
+          "benefit1": "Leads von Website, sozialen Medien und Anzeigen erfassen",
+          "benefit2": "KI qualifiziert Leads mit intelligenten Fragen",
+          "benefit3": "Automatische Lead-Bewertung und Priorisierung",
+          "benefit4": "Sofortige Benachrichtigungen für heiße Interessenten"
+        },
+        "responseTime": {
+          "title": "Blitzschnelle Antwortzeiten",
+          "description": "Reagieren Sie auf Interessenten in Sekunden, nicht Stunden, mit KI-Automatisierung",
+          "benefit1": "Sofortige Antworten auf alle Anfragen 24/7",
+          "benefit2": "KI bucht Demos und Beratungen automatisch",
+          "benefit3": "Intelligente Follow-up-Sequenzen, die Leads pflegen",
+          "benefit4": "Nahtlose Übergabe an Vertriebsmitarbeiter bei Bereitschaft"
+        },
+        "omnichannel": {
+          "title": "Omnichannel-Kampagnen-Management",
+          "description": "Starten und verwalten Sie Kampagnen über SMS, WhatsApp, E-Mail und Sprache",
+          "benefit1": "Einheitliches Kampagnen-Management über alle Kanäle",
+          "benefit2": "Personalisierte Nachrichten im großen Maßstab",
+          "benefit3": "Echtzeit-Kampagnen-Performance-Tracking",
+          "benefit4": "Automatisierte A/B-Tests und Optimierung"
+        },
+        "keyBenefits": "Hauptvorteile:"
+      },
+      "useCases": {
+        "title": "Echte Vertriebs-Team Erfolgsgeschichten",
+        "description": "Sehen Sie, wie Vertriebs- und Marketing-Teams Seasalt.ai nutzen, um ihr Wachstum zu beschleunigen",
+        "saas": {
+          "title": "SaaS-Vertriebsteam",
+          "challenge": "Generierung und Qualifizierung von Leads für Software-Demos",
+          "solution": "KI erfasst Leads von der Website, qualifiziert das Interessensniveau und bucht automatisch Demos"
+        },
+        "ecommerce": {
+          "title": "E-Commerce-Marketing",
+          "challenge": "Durchführung von Werbekampagnen und Wiederherstellung verlassener Warenkörbe",
+          "solution": "Automatisierte SMS- und WhatsApp-Kampagnen mit personalisierten Angeboten und Warenkorb-Wiederherstellung"
+        },
+        "realEstate": {
+          "title": "Immobilienmakler",
+          "challenge": "Nachverfolgung von Immobilienanfragen und Terminplanung für Besichtigungen",
+          "solution": "KI antwortet sofort auf Immobilienfragen und bucht Besichtigungstermine"
+        },
+        "professionalServices": {
+          "title": "Professionelle Dienstleistungen",
+          "challenge": "Umwandlung von Beratungsanfragen in gebuchte Termine",
+          "solution": "Intelligenter Qualifizierungsprozess, der Beratungen mit dem richtigen Teammitglied bucht"
+        },
+        "challengeLabel": "HERAUSFORDERUNG:",
+        "solutionLabel": "SEASALT.AI LÖSUNG:"
+      },
+      "metrics": {
+        "title": "Auswirkungen auf die Vertriebsleistung",
+        "description": "Sehen Sie die messbaren Auswirkungen auf Ihre Vertriebs- und Marketing-Metriken",
+        "responseRate": "Steigerung der Lead-Antwortrate",
+        "conversionRate": "Höhere Konversionsraten",
+        "availability": "Lead-Erfassung und Qualifizierung",
+        "qualifiedLeads": "Mehr qualifizierte Leads pro Monat"
+      },
+      "cta": {
+        "title": "Bereit, Ihre Vertriebsleistung zu steigern?",
+        "description": "Schließen Sie sich Hunderten von Vertriebsteams an, die Seasalt.ai nutzen, um mehr Leads zu erfassen, schneller zu reagieren und mit KI-Automatisierung mehr Geschäfte abzuschließen.",
+        "primary": "Anmelden",
+        "secondary": "Vertriebs-Demo buchen",
+        "disclaimer": "Keine Kreditkarte erforderlich • Ergebnisse in 24 Stunden • Jederzeit kündbar"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Kundensupport-Lösungen - Seasalt.ai",
+        "description": "Transformieren Sie Ihren Kundensupport mit intelligenter Automatisierung, die routinemäßige Anfragen sofort bearbeitet und Ihre menschlichen Agenten befähigt, sich auf komplexe, wertvolle Interaktionen zu konzentrieren."
+      },
+      "navigation": {
+        "backToHome": "Zurück zur Startseite"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Bieten Sie",
+          "exceptionalSupport": "außergewöhnlichen Support",
+          "atScale": "im großen Maßstab"
+        },
+        "subtitle": "KI-gestützter Kundensupport, der niemals schläft",
+        "description": "Transformieren Sie Ihren Kundensupport mit intelligenter Automatisierung, die routinemäßige Anfragen sofort bearbeitet und Ihre menschlichen Agenten befähigt, sich auf komplexe, wertvolle Interaktionen zu konzentrieren.",
+        "cta": {
+          "primary": "Support jetzt verbessern",
+          "secondary": "Demo ansehen"
+        },
+        "dashboard": {
+          "title": "Support-Dashboard",
+          "aiResolved": "🤖 KI hat heute 156 Tickets gelöst",
+          "resolutionTime": "Durchschnittliche Lösungszeit: 23 Sekunden",
+          "escalated": "👥 12 Tickets an Menschen weitergeleitet",
+          "complexIssues": "Komplexe Probleme, die Expertise erfordern",
+          "satisfaction": "😊 Kundenzufriedenheit: 96%",
+          "satisfactionUp": "15% mehr als letzten Monat",
+          "responseTime": "⏱️ Durchschnittliche Antwortzeit: 8 Sekunden",
+          "fasterThanAverage": "98% schneller als Branchendurchschnitt"
+        }
+      },
+      "challenges": {
+        "title": "Kundensupport-Herausforderungen",
+        "description": "Moderne Kunden erwarten sofortigen, personalisierten Support. Traditionelle Support-Modelle haben Schwierigkeiten, diese Erwartungen bei kontrollierten Kosten zu erfüllen.",
+        "responseTimePressure": {
+          "title": "Antwortzeit-Druck",
+          "description": "Kunden erwarten sofortige Antworten, aber Ihr Team kann nicht rund um die Uhr verfügbar sein"
+        },
+        "scalingTeam": {
+          "title": "Support-Team skalieren",
+          "description": "Wachsende Kundenbasis erfordert mehr Agenten, aber Einstellungen sind teuer und langsam"
+        },
+        "repetitiveInquiries": {
+          "title": "Wiederholende Anfragen",
+          "description": "Agenten verbringen zu viel Zeit mit Routinefragen anstatt mit komplexen Problemen"
+        }
+      },
+      "solutions": {
+        "title": "Ihre KI-gestützte Support-Lösung",
+        "description": "Kombinieren Sie die Effizienz der KI-Automatisierung mit der Empathie menschlicher Agenten, um außergewöhnliche Kundenerfahrungen in jeder Größenordnung zu liefern.",
+        "instantResponse": {
+          "title": "24/7 Sofortiges Antwortsystem",
+          "description": "KI bearbeitet Kundenanfragen sofort, zu jeder Tages- und Nachtzeit",
+          "benefit1": "Sofortige Antworten auf häufige Fragen",
+          "benefit2": "KI löst 80% der Routineanfragen",
+          "benefit3": "Nahtlose Weiterleitung an menschliche Agenten",
+          "benefit4": "Gleichbleibende Servicequalität rund um die Uhr"
+        },
+        "agentProductivity": {
+          "title": "Intelligente Agent-Produktivität",
+          "description": "Stärken Sie Ihre menschlichen Agenten mit KI-Unterstützung und einheitlichem Kundenkontext",
+          "benefit1": "Vollständige Kundenhistorie in einer Ansicht",
+          "benefit2": "KI schlägt Antworten und Lösungen vor",
+          "benefit3": "Automatisches Ticket-Routing und Priorisierung",
+          "benefit4": "Echtzeit-Sentiment-Analyse und Alerts"
+        },
+        "satisfactionOptimization": {
+          "title": "Kundenzufriedenheits-Optimierung",
+          "description": "Liefern Sie außergewöhnliche Erfahrungen, die Kunden zu Befürwortern machen",
+          "benefit1": "Proaktive Problemlösung und Nachverfolgung",
+          "benefit2": "Personalisierter Support basierend auf Kundenhistorie",
+          "benefit3": "Multi-Channel-Konsistenz über alle Berührungspunkte",
+          "benefit4": "Kontinuierliche Verbesserung durch KI-Lernen"
+        },
+        "keyBenefitsTitle": "Hauptvorteile:"
+      },
+      "useCases": {
+        "title": "Support-Team Erfolgsgeschichten",
+        "description": "Sehen Sie, wie Kundensupport-Teams Seasalt.ai nutzen, um Effizienz und Zufriedenheit zu verbessern",
+        "ecommerce": {
+          "title": "E-Commerce-Support",
+          "scenario": "Bearbeitung von Bestellstatus, Rücksendungen und Produktfragen im großen Maßstab",
+          "solution": "KI liefert sofort Bestellaktualisierungen und bearbeitet Rücksendungen, eskaliert komplexe Probleme an Menschen"
+        },
+        "saas": {
+          "title": "SaaS Customer Success",
+          "scenario": "Unterstützung von Benutzern mit technischen Fragen und Feature-Anleitung",
+          "solution": "KI bietet sofortige Hilfeartikel und Tutorials, bucht technische Support-Anrufe bei Bedarf"
+        },
+        "healthcare": {
+          "title": "Gesundheitswesen Patientenbetreuung",
+          "scenario": "Verwaltung von Terminplanung und grundlegenden Gesundheitsanfragen",
+          "solution": "HIPAA-konforme KI bearbeitet Terminplanung und grundlegende Fragen, leitet dringende Angelegenheiten an Personal weiter"
+        },
+        "financial": {
+          "title": "Finanzdienstleistungen",
+          "scenario": "Beantwortung von Kontofragen bei Einhaltung der Sicherheitsbestimmungen",
+          "solution": "Sichere KI verifiziert Identität und liefert Kontoinformationen, eskaliert sensible Angelegenheiten angemessen"
+        },
+        "challengeLabel": "HERAUSFORDERUNG:",
+        "solutionLabel": "SEASALT.AI LÖSUNG:"
+      },
+      "metrics": {
+        "title": "Support-Performance-Auswirkung",
+        "description": "Messbare Verbesserungen in Effizienz, Zufriedenheit und Kostenmanagement",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Reduzierung der Antwortzeit",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Kundenzufriedenheitswert",
+        "costDecrease": "60%",
+        "costDescription": "Reduzierung der Support-Kosten",
+        "availability": "24/7",
+        "availabilityDescription": "Verfügbarkeit ohne Überstunden"
+      },
+      "cta": {
+        "title": "Bereit, Ihren Kundensupport zu transformieren?",
+        "description": "Treten Sie Hunderten von Support-Teams bei, die Seasalt.ai nutzen, um schnellere, effizientere und zufriedenstellendere Kundenerfahrungen zu liefern.",
+        "primary": "Anmelden",
+        "secondary": "Support-Demo buchen",
+        "disclaimer": "Keine Kreditkarte erforderlich • Verbesserung der Zufriedenheit in 24 Stunden • Jederzeit kündbar"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "KI-Automatisierungslösungen - Seasalt.ai",
+        "description": "Transformieren Sie Ihre Geschäftsprozesse mit KI, die nicht nur Regeln befolgt—sie versteht Kontext, trifft intelligente Entscheidungen und verbessert sich kontinuierlich, um außergewöhnliche Ergebnisse zu liefern."
+      },
+      "nav": {
+        "backToHome": "Zurück zur Startseite"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Entfesseln Sie die Macht der",
+          "highlight": "KI-Automatisierung"
+        },
+        "subtitle": "Intelligente Automatisierung, die denkt, lernt und skaliert",
+        "description": "Transformieren Sie Ihre Geschäftsprozesse mit KI, die nicht nur Regeln befolgt—sie versteht Kontext, trifft intelligente Entscheidungen und verbessert sich kontinuierlich, um außergewöhnliche Ergebnisse zu liefern.",
+        "cta": {
+          "primary": "Automatisierung starten",
+          "secondary": "KI in Aktion sehen"
+        },
+        "dashboard": {
+          "title": "KI-Automatisierungszentrale",
+          "stats": {
+            "tasks": "🧠 KI hat heute 342 Aufgaben verarbeitet",
+            "tasksSaved": "8,5 Stunden manuelle Arbeit gespart",
+            "workflows": "⚡ 23 Arbeitsabläufe automatisiert",
+            "workflowsDescription": "Von der Lead-Erfassung bis zum Kunden-Onboarding",
+            "accuracy": "📈 97% Genauigkeitsrate",
+            "accuracyDescription": "Kontinuierliche Verbesserung durch ML",
+            "savings": "🎯 12.400 € Kosteneinsparungen diesen Monat",
+            "savingsDescription": "Durch intelligente Automatisierung"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Automatisierungsherausforderungen",
+        "description": "Traditionelle Automatisierung ist starr und begrenzt. Moderne Unternehmen brauchen intelligente Automatisierung, die sich anpasst, lernt und mit ihrem Wachstum skaliert.",
+        "manualTasks": {
+          "title": "Manuelle wiederkehrende Aufgaben",
+          "description": "Ihr Team verbringt zu viel Zeit mit Routineaufgaben, die automatisiert werden könnten"
+        },
+        "scaling": {
+          "title": "Skalierungsbegrenzungen",
+          "description": "Das Wachstum wird durch menschliche Kapazitäten begrenzt und nicht durch Marktchancen"
+        },
+        "inconsistent": {
+          "title": "Inkonsistente Erfahrungen",
+          "description": "Das Kundenerlebnis variiert je nach Teammitglied, das die Interaktion bearbeitet"
+        }
+      },
+      "solutions": {
+        "title": "Intelligente KI-Automatisierung",
+        "description": "Gehen Sie über einfache regelbasierte Automatisierung hinaus mit KI, die Kontext versteht, intelligente Entscheidungen trifft und die Leistung kontinuierlich verbessert.",
+        "voiceChat": {
+          "title": "Intelligente Sprach- & Chat-Automatisierung",
+          "description": "KI-Agenten, die Kontext verstehen und menschenähnliche Interaktionen bieten",
+          "benefits": {
+            "nlp": "Natürliche Sprachverarbeitung für komplexe Anfragen",
+            "channels": "Sprach- und Textgespräche über alle Kanäle",
+            "contextAware": "Kontextbewusste Antworten basierend auf Kundenhistorie",
+            "handoff": "Nahtloser Übergang zu Menschen bei Bedarf"
+          }
+        },
+        "workflow": {
+          "title": "Intelligente Workflow-Automatisierung",
+          "description": "Automatisieren Sie komplexe Geschäftsprozesse mit intelligenter Entscheidungsfindung",
+          "benefits": {
+            "leadQualification": "Automatisierte Lead-Qualifizierung und -Weiterleitung",
+            "scheduling": "Intelligente Terminplanung und -verwaltung",
+            "pricing": "Dynamische Preisgestaltung und Angebotserstellung",
+            "followUp": "Automatisierte Nachfass-Sequenzen und Pflege"
+          }
+        },
+        "learning": {
+          "title": "Kontinuierliches Lernen & Optimierung",
+          "description": "KI, die mit der Zeit intelligenter wird und die Leistung automatisch verbessert",
+          "benefits": {
+            "machineLearning": "Maschinelles Lernen aus jeder Kundeninteraktion",
+            "optimization": "Automatische Optimierung der Antwortgenauigkeit",
+            "predictive": "Predictive Analytics für proaktiven Kundenservice",
+            "monitoring": "Echtzeitüberwachung und -anpassung der Leistung"
+          }
+        },
+        "capabilities": "Hauptfähigkeiten:"
+      },
+      "automationTypes": {
+        "title": "Automatisierung in Ihrem ganzen Unternehmen",
+        "description": "Vom Kundenservice bis zum Vertrieb, Marketing bis zu Betriebsabläufen—KI-Automatisierung transformiert jeden Aspekt Ihres Unternehmens.",
+        "customerService": {
+          "title": "Kundenservice-Automatisierung",
+          "description": "KI bearbeitet Routineanfragen, eskaliert komplexe Probleme",
+          "examples": {
+            "orderStatus": "Bestellstatus-Updates",
+            "faq": "FAQ-Antworten",
+            "troubleshooting": "Grundlegende Fehlerbehebung",
+            "account": "Kontoinformationen"
+          }
+        },
+        "sales": {
+          "title": "Vertriebsprozess-Automatisierung",
+          "description": "Automatisieren Sie Lead-Qualifizierung, Nachfassen und Terminplanung",
+          "examples": {
+            "leadScoring": "Lead-Bewertung",
+            "demoBooking": "Demo-Buchung",
+            "proposals": "Angebotserstellung",
+            "followUp": "Nachfass-Sequenzen"
+          }
+        },
+        "marketing": {
+          "title": "Marketing-Kampagnen-Automatisierung",
+          "description": "Intelligente Kampagnen, die sich an Kundenverhalten anpassen",
+          "examples": {
+            "personalized": "Personalisierte Nachrichten",
+            "timing": "Optimale Sendezeiten",
+            "testing": "A/B-Tests",
+            "optimization": "Leistungsoptimierung"
+          }
+        },
+        "operational": {
+          "title": "Operative Automatisierung",
+          "description": "Optimieren Sie interne Prozesse und Arbeitsabläufe",
+          "examples": {
+            "dataEntry": "Dateneingabe",
+            "reports": "Berichtserstellung",
+            "taskAssignment": "Aufgabenzuweisung",
+            "qualityMonitoring": "Qualitätsüberwachung"
+          }
+        },
+        "examples": "BEISPIELE:"
+      },
+      "metrics": {
+        "title": "Auswirkungen der Automatisierungsleistung",
+        "description": "Messbare Verbesserungen in Effizienz, Genauigkeit und Betriebskapazität",
+        "reduction": {
+          "value": "80%",
+          "label": "Reduzierung manueller Aufgaben"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Automatisierte Abläufe"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Genauigkeitsrate"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Schnellere Verarbeitung"
+        }
+      },
+      "security": {
+        "title": "Sichere & konforme KI",
+        "description": "Unternehmenstaugliche Sicherheit und Compliance in jede KI-Automatisierung integriert",
+        "dataProtection": {
+          "title": "Datenschutz",
+          "description": "Ende-zu-Ende-Verschlüsselung und sichere Datenbehandlung"
+        },
+        "compliance": {
+          "title": "Compliance-bereit",
+          "description": "HIPAA, GDPR und branchenspezifische Compliance"
+        },
+        "auditTrail": {
+          "title": "Prüfprotokoll",
+          "description": "Vollständige Protokollierung und Überwachung aller KI-Aktionen"
+        }
+      },
+      "cta": {
+        "title": "Bereit, Ihr Unternehmen mit KI zu automatisieren?",
+        "description": "Schließen Sie sich Hunderten von Unternehmen an, die Seasalt.ai nutzen, um Abläufe zu automatisieren, Kosten zu senken und effizient mit intelligenter KI zu skalieren.",
+        "primary": "Anmelden",
+        "secondary": "KI-Demo buchen",
+        "disclaimer": "Keine Kreditkarte erforderlich • Automatisierung in 24 Stunden sehen • Jederzeit kündbar"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "Lösungen für KMU-Inhaber - Seasalt.ai",
+        "description": "Sie sind CEO, Verkaufsteam, Marketingabteilung und Kundenservice in einer Person. Seasalt.ai bietet Ihnen einen KI-Assistenten, der die tägliche Kommunikation übernimmt, damit Sie sich auf das Wachstum Ihres Unternehmens konzentrieren können."
+      },
+      "navigation": {
+        "backToHome": "Zurück zur Startseite"
+      },
+      "hero": {
+        "title": {
+          "part1": "Hören Sie auf zu jonglieren.",
+          "part2": "Beginnen Sie zu skalieren."
+        },
+        "subtitle": "KI-gestützte Kommunikationszentrale für multitaskende KMU-Inhaber",
+        "description": "Sie sind CEO, Verkaufsteam, Marketingabteilung und Kundenservice in einer Person. Seasalt.ai bietet Ihnen einen KI-Assistenten, der die tägliche Kommunikation übernimmt, damit Sie sich auf das Wachstum Ihres Unternehmens konzentrieren können.",
+        "cta": {
+          "getAssistant": "Holen Sie sich Ihren KI-Assistenten",
+          "bookDemo": "Demo buchen"
+        },
+        "dashboard": {
+          "title": "KMU-Inhaber Dashboard",
+          "aiHandledInquiries": "🤖 KI hat heute 23 Anfragen bearbeitet",
+          "timeSaved": "3,5 Stunden für Sie gespart",
+          "appointmentsBooked": "📅 5 Termine automatisch gebucht",
+          "whileInMeetings": "Während Sie in Besprechungen waren",
+          "leadsQualified": "💬 12 Leads qualifiziert und priorisiert",
+          "readyForFollowup": "Bereit für Ihre persönliche Nachverfolgung",
+          "smsCampaign": "📱 SMS-Marketing: 89% Öffnungsrate",
+          "newCustomers": "3 neue Kunden gewonnen"
+        }
+      },
+      "challenges": {
+        "title": "Das KMU-Inhaber-Dilemma",
+        "description": "Ein kleines Unternehmen zu führen bedeutet viele Hüte zu tragen. Aber das sollte nicht bedeuten, in der täglichen Kommunikation zu ertrinken.",
+        "wearingMultipleHats": {
+          "title": "Viele Hüte tragen",
+          "description": "Gleichzeitiges Management von Geschäft, Marketing und Support bei dem Versuch, das Unternehmen zu vergrößern"
+        },
+        "limitedTimeResources": {
+          "title": "Begrenzte Zeit und Ressourcen",
+          "description": "Bei der Führung eines schlanken kleinen Unternehmens zählt jede Minute"
+        },
+        "scalingChallenges": {
+          "title": "Skalierungsherausforderungen",
+          "description": "Kundenbedürfnisse wachsen, aber Teamgröße oder Budget wachsen nicht entsprechend mit"
+        }
+      },
+      "solutions": {
+        "title": "Ihre KI-gestützte Lösung",
+        "description": "Seasalt.ai fungiert als Ihr virtueller Teammitarbeiter und übernimmt Routineaufgaben, damit Sie sich auf das konzentrieren können, was nur Sie tun können - Ihr Unternehmen vergrößern.",
+        "keyBenefits": "Hauptvorteile:",
+        "aiAutomation": {
+          "title": "KI-gestützte Automatisierung",
+          "description": "Lassen Sie KI rund um die Uhr Routineanfragen, Terminplanung und Lead-Qualifizierung übernehmen",
+          "benefits": {
+            "routineQuestions": "Automatisierung von 80% der Routine-Kundenfragen",
+            "bookAppointments": "Buchung von Terminen während Sie schlafen",
+            "qualifyLeads": "Qualifizierung von Leads bevor sie Sie kontaktieren",
+            "instantResponses": "Sofortige Antworten auf allen Kanälen"
+          }
+        },
+        "unifiedView": {
+          "title": "Einheitliche Kundenansicht",
+          "description": "Sehen Sie jede Kundeninteraktion an einem Ort, egal ob sie anrufen, eine Nachricht senden oder chatten",
+          "benefits": {
+            "singleInbox": "Ein Posteingang für alle Kundenkommunikation",
+            "conversationHistory": "Vollständiger Gesprächsverlauf über alle Kanäle",
+            "neverLoseTrack": "Verlieren Sie nie den Kundenkontext",
+            "seamlessHandoffs": "Nahtlose Übergaben zwischen KI und Mensch"
+          }
+        },
+        "smartMarketing": {
+          "title": "Intelligente Marketing-Kampagnen",
+          "description": "Gezielte Kampagnen über SMS, WhatsApp und E-Mail mit KI-Unterstützung",
+          "benefits": {
+            "automatedFollowup": "Automatisierte Nachverfolgungssequenzen",
+            "personalizedMessaging": "Personalisierte Nachrichten im großen Maßstab",
+            "trackPerformance": "Kampagnenleistung in Echtzeit verfolgen",
+            "recoverCarts": "Verlassene Warenkörbe automatisch wiederherstellen"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Echte KMU-Inhaber-Szenarien",
+        "description": "Sehen Sie, wie andere Geschäftsinhaber wie Sie Seasalt.ai nutzen, um ihre Abläufe zu skalieren",
+        "challengeLabel": "Herausforderung:",
+        "solutionLabel": "SEASALT.AI LÖSUNG:",
+        "soloEntrepreneur": {
+          "title": "Solo-Unternehmer",
+          "scenario": "Führung eines Beratungsunternehmens bei gleichzeitigem Management aller Kundenkommunikation",
+          "solution": "KI übernimmt erste Anfragen und bucht Beratungen, damit Sie sich auf die Serviceerbringung konzentrieren können"
+        },
+        "smallRetailer": {
+          "title": "Kleinhändler",
+          "scenario": "Management von Online-Bestellungen, Kundensupport und Marketing-Kampagnen",
+          "solution": "Automatisierung von Bestellupdates, sofortige Support-Antworten und gezielte Marketing-Kampagnen"
+        },
+        "serviceProvider": {
+          "title": "Dienstleister",
+          "scenario": "Jonglieren zwischen Terminplanung, Kundenfragen und Nachverfolgung",
+          "solution": "KI bucht Termine, beantwortet häufige Fragen und sendet automatische Erinnerungen"
+        },
+        "growingStartup": {
+          "title": "Wachsendes Startup",
+          "scenario": "Skalierung der Kundenkommunikation ohne Einstellung eines vollständigen Support-Teams",
+          "solution": "KI bewältigt das Volumen-Wachstum und behält gleichzeitig den persönlichen Service durch intelligente Übergaben bei"
+        }
+      },
+      "roi": {
+        "title": "ROI für KMU-Inhaber",
+        "description": "Sehen Sie die sofortige Auswirkung auf Ihre Geschäftstätigkeiten und Ihr Wachstum",
+        "timeSaved": {
+          "metric": "5+ Stunden",
+          "description": "Wöchentlich gesparte Zeit bei Routine-Kommunikation"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Verbesserung der Lead-Response-Rate"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Kundenservice ohne Nachtschicht-Mitarbeiter"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "Mehr Gespräche vom gleichen Team bearbeitet"
+        }
+      },
+      "cta": {
+        "title": "Bereit, mit dem Jonglieren aufzuhören und anzufangen zu skalieren?",
+        "description": "Schließen Sie sich Tausenden von KMU-Inhabern an, die ihre Zeit zurückgewonnen und die Kundenkommunikation durch KI-Automatisierung skaliert haben.",
+        "startTrial": "Starten Sie Ihre kostenlose Testversion",
+        "scheduleDemo": "Persönliche Demo planen",
+        "disclaimer": "Keine Kreditkarte erforderlich • 10-minütiges Setup • Jederzeit kündbar"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - KI-gestützte Gesundheitskommunikationsplattform",
+        "description": "Verbessern Sie die Patientenkommunikation und optimieren Sie Betriebsabläufe mit SeaHealths KI-gestützter, HIPAA-konformer Plattform. Integrieren Sie Anrufe, SMS und Nachrichten in einem sicheren Postfach."
+      },
+      "hero": {
+        "title": "SeaHealth befähigt Gesundheitsfachkräfte –",
+        "subtitle": "Patienteninteraktionen zu transformieren durch:",
+        "features": {
+          "newPatients": "Neue Patientenakquise",
+          "aiReceptionists": "KI-Empfangskräfte nach Feierabend",
+          "callAnalytics": "Front-Office-Anrufanalysen"
+        },
+        "cta": "Buchen Sie jetzt eine Demo!",
+        "description": "KI-gestütztes medizinisches Front-Office. Verpassen Sie nie wieder einen Anruf, eine Beschwerde oder einen Termin."
+      },
+      "top4Reasons": {
+        "title": "Die 4 Hauptgründe, warum Krankenhäuser und Kliniken SeaHealth wählen:",
+        "neverMissCall": "Nie einen Anruf verpassen",
+        "neverMissComplaint": "Nie eine Kundenbeschwerde verpassen",
+        "bookAppointments": "Neue Patienten nach Feierabend buchen",
+        "provide247Hotline": "24/7-Hotline für potenzielle und bestehende Patienten bereitstellen"
+      },
+      "frontOfficeChallenges": {
+        "title": "Front-Office-Herausforderungen lösen",
+        "unmonitoredCalls": {
+          "title": "Unüberwachte Front-Desk-Telefonate",
+          "complaint": "Probleme angehen, bevor Kundenbeschwerden eskalieren.",
+          "risks": "Risiken anfänglicher medizinischer Triage-Fehler reduzieren.",
+          "professionalism": "Professionalität durch verbesserten Tonfall und Empfangsmitarbeiterverhalten steigern."
+        },
+        "missedCalls": {
+          "title": "Verpasste Anrufe von Patienten",
+          "voicemails": "Aktive Nachverfolgung und Eliminierung von Mailbox-Nachrichten nach Feierabend.",
+          "scheduling": "Terminplanung und -umplanung vereinfachen.",
+          "retention": "Patienten halten, indem Telefone rund um die Uhr beantwortet werden und sie nicht zur Konkurrenz abwandern."
+        },
+        "outboundCalls": {
+          "title": "Ausgehende Anrufe, die niemand führen möchte",
+          "followUp": "Gründlichkeit bei chirurgischen Nachfolgeanrufen gewährleisten.",
+          "insurance": "Langwierige Gespräche mit Versicherungsunternehmen vereinfachen.",
+          "reactivation": "Inaktive Patienten durch effektive Werbeaktionen reaktivieren, um leere Termine zu füllen."
+        }
+      },
+      "solutions": {
+        "title": "Lösungen für jede Gesundheitseinrichtung",
+        "hospitals": "Krankenhäuser & Kliniken",
+        "dental": "Zahnarztpraxen",
+        "hospice": "Hospizheime",
+        "emergency": "Notfallversorgung",
+        "adult": "Erwachsenen-Pflegeheime",
+        "veterinary": "Tierkliniken",
+        "cosmetic": "Schönheitschirurgie"
+      },
+      "mainSolution": {
+        "title": "Die SeaHealth Front-Office-Lösung – Füllt Ihre Terminslots automatisch.",
+        "description": "Unsere KI-gestützte Lösung optimiert Ihre Front-Office-Abläufe und ermöglicht es Ihrem Personal, sich auf das Wichtigste zu konzentrieren - die Patientenversorgung."
+      },
+      "forProviders": {
+        "title": "Für Gesundheitsdienstleister",
+        "reduceAdministrative": "Verwaltungsaufwand reduzieren",
+        "improveSatisfaction": "Patientenzufriedenheit verbessern",
+        "increaseEfficiency": "Betriebseffizienz steigern"
+      },
+      "forPatients": {
+        "title": "Für Patienten",
+        "access247": "24/7-Zugang zu Support",
+        "quickScheduling": "Schnelle Terminplanung",
+        "seamlessCommunication": "Nahtlose Kommunikation"
+      },
+      "whyChoose": {
+        "title": "Warum SeaHealth wählen?",
+        "hipaa": {
+          "title": "HIPAA-konform",
+          "description": "Wir priorisieren Patientendatenschutz und -sicherheit."
+        },
+        "speech": {
+          "title": "Natürliche & kontextuelle Sprachtechnologien",
+          "description": "Interagieren Sie mit Patienten durch menschenähnliche Kommunikation."
+        },
+        "automation": {
+          "title": "Richtige Automatisierung",
+          "description": "Immer fürsorglich für Patienten und Ihre Mitarbeiter."
+        }
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "analytics": {
+          "question": "Wie funktioniert Ihre Front-Desk-Anrufanalyse?",
+          "answer": "Wir nehmen Ihre ein- und ausgehenden Telefonate auf und transkribieren sie zur weiteren Analyse. Zusammenfassungs- und Warn-E-Mails werden täglich versendet."
+        },
+        "recording": {
+          "question": "Erfordert es die Aufzeichnung von Telefonaten und wie?",
+          "answer": "Wir verbinden uns mit Ihrem VoIP-Anbieter, um Anrufaufzeichnungen zu erhalten und führen Sprachanalysen der Aufzeichnungen durch. Wenn Sie analoge Telefone verwenden, nutzen wir ein Telefonaufzeichnungsgerät, das Ihren Anruf über Telefonbuchsen verbindet, um die Aufzeichnungen zu erhalten."
+        },
+        "coverage": {
+          "question": "Wie funktioniert die 24/7-Telefonabdeckung?",
+          "answer": "KI-gestützte Empfangskräfte bearbeiten Anrufe rund um die Uhr und stellen sicher, dass keine Gelegenheiten verpasst werden. Sie können entweder den Anruf beim Klingeln entgegennehmen oder den Anruf während oder nach den Geschäftszeiten an die KI-Empfangskräfte weiterleiten."
+        },
+        "whyUse": {
+          "question": "Warum sollte ich Ihren Service nutzen?",
+          "answer": "SeaHealth verbessert die Effizienz, steigert die Patientenzufriedenheit und erhöht den Umsatz durch Automatisierung und KI-gestützte Lösungen. Es ist günstiger, zuverlässiger und einfühlsamer als die Auslagerung Ihrer Front-Desk-Empfangstätigkeiten."
+        }
+      },
+      "partners": {
+        "title": "Partner & Integrationen"
+      },
+      "cta": {
+        "title": "Bereit, Patienteninteraktionen zu transformieren?",
+        "button": "Buchen Sie heute eine Demo!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Preise - Seasalt.ai",
+      "description": "Einfache, transparente Preise, die mit Ihnen wachsen. Keine versteckten Gebühren. Keine komplexen Add-ons. Nur eine leistungsstarke Plattform für all Ihre Konversationen."
+    },
+    "hero": {
+      "title": "Einfache, transparente Preise, die mit Ihnen wachsen",
+      "description": "Keine versteckten Gebühren. Keine komplexen Add-ons. Nur eine leistungsstarke Plattform für all Ihre Konversationen."
+    },
+    "audienceSection": {
+      "title": "Wählen Sie Ihren Wachstumsweg",
+      "description": "Von Startups bis zu Großunternehmen – wir haben die passende Lösung für jede Phase Ihrer Reise",
+      "startups": {
+        "title": "Für Startups & KMU",
+        "subtitle": "Klein starten, smart skalieren",
+        "seachatFree": {
+          "title": "🚀 Kostenlos starten mit SeaChat",
+          "description": "0 $ für immer – 1 menschlicher Agent, unbegrenzte Chats"
+        },
+        "seavoice": {
+          "title": "📞 Mit SeaVoice skalieren",
+          "description": "29,99 $/Monat – Sprach-KI für eingehende Anrufe hinzufügen"
+        },
+        "seax": {
+          "title": "🌟 Mit SeaX wachsen",
+          "description": "99 $/Monat – Vollständige Omnichannel-Plattform"
+        },
+        "footer": "Perfekt für Unternehmen mit 1–50 Mitarbeitern"
+      },
+      "enterprise": {
+        "title": "Für mittlere bis große Unternehmen",
+        "subtitle": "Lösungen auf Unternehmensniveau",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "29,99 $/Monat + Nutzung – Text-KI auf Unternehmensniveau"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Professional",
+          "description": "99 $/Monat – Einheitliche Plattform mit KI und Omnichannel"
+        },
+        "customEnterprise": {
+          "title": "⚡ Individuelles Enterprise",
+          "description": "Kontaktieren Sie uns – White-Label, HIPAA, individuelle Integrationen"
+        },
+        "footer": "Perfekt für Unternehmen mit 50+ Mitarbeitern"
+      }
+    },
+    "plans": {
+      "title": "Wählen Sie Ihren Plan",
+      "description": "Kostenlos starten und mit flexiblen Preisoptionen skalieren",
+      "liveAgent": {
+        "name": "Live Agent",
+        "price": "0 $",
+        "period": "FÜR IMMER KOSTENLOS",
+        "tagline": "👤 NUR MENSCH",
+        "highlight": "🌟 ALLE KANÄLE + NUR MENSCHLICHE AGENTEN",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Webchat",
+        "feature1": "1 menschlicher Agent enthalten",
+        "feature2": "Unbegrenzte menschliche Gespräche",
+        "feature3": "100 KI-Antworten zum Testen der Funktionen",
+        "feature4": "Basis-Shopify-Integrationen",
+        "cta": "🚀 JETZT KOSTENLOS STARTEN",
+        "poweredBy": "Bereitgestellt von SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "Nur WhatsApp",
+        "price": "19,99 $",
+        "period": "PRO NUTZER/MONAT",
+        "tagline": "💬 NUR MESSAGING",
+        "highlight": "📲 WHATSAPP BUSINESS SPEZIALIST",
+        "channels": "Kampagnen • API • 2-Wege-Chat",
+        "feature1": "WhatsApp Business Plattform",
+        "feature2": "Tools zur Kampagnenverwaltung",
+        "feature3": "Zugriff auf WhatsApp API",
+        "feature4": "Unbegrenzte Kontakte & Vorlagen",
+        "cta": "📱 WHATSAPP STARTEN",
+        "poweredBy": "Bereitgestellt von SeaX"
+      },
+      "omnichannel": {
+        "name": "Omnichannel",
+        "firstUserPrice": "99 $",
+        "firstUserLabel": "ERSTER NUTZER",
+        "additionalUserPrice": "49 $",
+        "additionalUserLabel": "JEWEILS ZUSÄTZLICH",
+        "period": "PRO MONAT",
+        "tagline": "🌐 EIN UI, ALLE KANÄLE",
+        "popular": "🏆 AM BELIEBTESTEN",
+        "highlight": "🎯 KOMPLETTES CONTACT CENTER",
+        "subHighlight": "Telefonate führen & empfangen!",
+        "feature1": "Agenten führen & empfangen Anrufe",
+        "feature2": "SMS + Voice + WhatsApp",
+        "feature3": "Voice- & SMS-Kampagnen",
+        "feature4": "RESTful API + SeaChat-Integration",
+        "cta": "🚀 KOMPLETTES CENTER STARTEN",
+        "poweredBy": "Bereitgestellt von SeaX"
+      },
+      "custom": {
+        "name": "Individuell",
+        "price": "Projekt gemeinsam erstellen",
+        "period": "Eigenen Preis verhandeln",
+        "feature1": "Mehrere Arbeitsbereiche",
+        "feature2": "Perfekt für Agenturen",
+        "feature3": "Individuelle API-Integrationen",
+        "feature4": "HIPAA-Konformität",
+        "feature5": "White-Label-Optionen",
+        "cta": "Kontaktieren Sie uns"
+      },
+      "popularBadge": "Am beliebtesten",
+      "ctaStyles": {
+        "primary": "Jetzt anmelden"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ KI-Erweiterungen",
+      "description": "Verbessern Sie jeden Plan mit KI-Funktionen",
+      "chatAI": {
+        "title": "Chat-KI mit SeaChat",
+        "price": "29,99 $",
+        "period": "pro Monat"
+      },
+      "voiceAI": {
+        "title": "Sprach-KI mit SeaVoice",
+        "price": "29,99 $",
+        "period": "pro Monat"
+      },
+      "combo": {
+        "title": "Beide KI-Funktionen",
+        "price": "29,99 $",
+        "period": "pro Monat insgesamt",
+        "benefit": "🎉 Erhalten Sie Chat-KI und Sprach-KI zusammen für nur 29,99 $/Monat!"
+      }
+    },
+    "transparentAI": {
+      "title": "Transparente KI-Preise",
+      "description": "Zahlen Sie nur für das, was Sie nutzen, mit klaren, nutzungsbasierten Preisen",
+      "chatAI": {
+        "title": "Chat-KI",
+        "price": "0,006 $",
+        "period": "pro Antwort (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Webchat",
+        "feature2": "• 24/7 automatische Antworten",
+        "feature3": "• Integration der Wissensdatenbank"
+      },
+      "voiceAI": {
+        "title": "Sprach-KI",
+        "price": "0,12 $",
+        "period": "pro Minute (ChatGPT-4o mini)",
+        "feature1": "• Eingehende & ausgehende Anrufe",
+        "feature2": "• Natürliche Sprachgespräche",
+        "feature3": "• Anrufaufzeichnung & Zusammenfassungen"
+      },
+      "premiumAI": {
+        "title": "Premium-KI",
+        "price": "0,80 $",
+        "period": "pro Minute (ChatGPT-4o)",
+        "feature1": "• Fortgeschrittenes Denken",
+        "feature2": "• Komplexe Gespräche",
+        "feature3": "• Individuelle Unternehmensfunktionen"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Transparente Kommunikationspreise",
+      "description": "Klare, transparente Preise für alle Ihre Kommunikationsbedürfnisse",
+      "sms": {
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "pro Nachricht (USA/CA)",
+        "description": "Zuverlässige Textnachrichten mit transparenten pro-Nachricht-Preisen"
+      },
+      "voiceCalls": {
+        "title": "Sprachanrufe",
+        "price": "$0.015",
+        "period": "pro Minute (USA/CA)",
+        "description": "Kristallklare Sprachanrufe in über 100 Ländern"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "$0.00",
+        "period": "pro Nachricht weltweit",
+        "description": "Sie zahlen Meta direkt. Kein Aufschlag von Seasalt.ai"
+      },
+      "otherChannels": "📱 Andere Kanäle wie Instagram, Facebook Messenger und Webchat haben keinen Aufschlag oder sind komplett kostenlos."
+    },
+    "comparison": {
+      "title": "Die globale Kommunikationslandschaft: Unser Vergleich",
+      "description": "Sehen Sie, wie Seasalt.ai im Vergleich zu anderen Lösungen auf dem Markt abschneidet. Wir sind die einzige Plattform, die Unternehmensfunktionen mit der Einfachheit für kleine Unternehmen kombiniert.",
+      "table": {
+        "competitor": "Wettbewerber",
+        "startingPrice": "Startpreis",
+        "pricingModel": "Preisgestaltung",
+        "unifiedVoiceDigital": "Vereinheitlichte Sprach- & Digitaldienste",
+        "aiCapabilities": "KI-Funktionen",
+        "bestFor": "Am besten geeignet für"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/Agent/Monat",
+        "pricingModel": "Einfach pro Benutzer",
+        "unifiedVoiceDigital": "✅ Ja, nativ",
+        "aiCapabilities": "✅ Ja, native Sprach- & Chatbots",
+        "bestFor": "KMU, die eine erschwingliche, echte All-in-One-Plattform benötigen.",
+        "recommended": "Empfohlen"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "$30/Nutzer/Monat",
+        "pricingModel": "Pro Benutzer + Add-ons",
+        "unifiedVoiceDigital": "⚠️ Sprache + WhatsApp (Add-on)",
+        "aiCapabilities": "⚠️ KI ist ein kostenpflichtiges Add-on",
+        "bestFor": "Vertriebsteams, die sich mehrere Add-ons leisten können und die Mindestanzahl von 3 Nutzern erfüllen."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "$65/Agent/Monat",
+        "pricingModel": "Komplexe Stufen",
+        "unifiedVoiceDigital": "❌ Getrennte Produkte",
+        "aiCapabilities": "✅ Ja (KI-gestütztes CCaaS)",
+        "bestFor": "Große Unternehmen, die eine umfassende UCaaS-Plattform mit separatem CCaaS benötigen."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/Nutzer/Monat",
+        "pricingModel": "Pro Benutzer + Hohe Mindestanforderungen",
+        "unifiedVoiceDigital": "✅ Ja (in höheren Stufen)",
+        "aiCapabilities": "✅ Ja (Komplexes Token-System)",
+        "bestFor": "Große Unternehmen mit dedizierten Contact-Center-Teams und Budgets."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "$119/Nutzer/Monat",
+        "pricingModel": "Pro Benutzer + Pakete",
+        "unifiedVoiceDigital": "✅ Ja (in Premium-Stufen)",
+        "aiCapabilities": "✅ Ja (Fortgeschrittene KI)",
+        "bestFor": "Große, outbound-lastige Contact-Center, die Enterprise-Tools benötigen."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "$10/Nutzer/Monat",
+        "pricingModel": "Pro Benutzer + Workspace-Gebühr",
+        "unifiedVoiceDigital": "❌ Nein",
+        "aiCapabilities": "❌ Nein (nur Voicemail-Transkription)",
+        "bestFor": "Einzelunternehmer (nur USA) mit grundlegender, separater Telefonnummer."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "$79/Monat",
+        "pricingModel": "Monatlich aktive Kontakte",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Sprache in Beta)",
+        "aiCapabilities": "✅ Ja (KI-Agent in höheren Stufen)",
+        "bestFor": "Marketing-/Vertriebsteams, die sich auf Messaging-Kanäle wie WhatsApp konzentrieren."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "$39/Sitz/Monat",
+        "pricingModel": "Pro Sitz + Add-ons + Nutzung",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Sprache pay-as-you-go)",
+        "aiCapabilities": "✅ Ja (Fin KI-Agent pro Lösung)",
+        "bestFor": "Unternehmen, die sich auf proaktive Website-Interaktion und Support konzentrieren."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Ist der kostenlose Plan wirklich für immer kostenlos?",
+        "answer": "Ja! Unser Live Agent Plan umfasst einen menschlichen Agenten für das Leben mit unbegrenzten Gesprächen, Chatverlauf und Kontakten. Außerdem erhalten Sie 100 AI-Antworten für die Lebensdauer, um unsere AI-Funktionen auszuprobieren. Keine Kreditkarte erforderlich, keine versteckten Gebühren."
+      },
+      "2": {
+        "question": "Wie funktioniert die AI-Preisgestaltung über SeaChat, SeaX und SeaVoice?",
+        "answer": "Alle Voice-AI-Anrufe über SeaChat, SeaX und SeaVoice nutzen denselben Satz von $0,12 pro Minute mit dem ChatGPT-4o mini Modell. Chat-AI-Antworten beginnen bei $0,006 pro Antwort. Höherstufige Modelle wie ChatGPT-4o kosten $0,80 pro Minute und sind in Premium-Plänen verfügbar."
+      },
+      "3": {
+        "question": "Kann ich meinen Plan jederzeit upgraden oder downgraden?",
+        "answer": "Absolut! Sie können Ihren Plan jederzeit ändern. Upgrades werden sofort wirksam, Downgrades am Ende Ihres aktuellen Abrechnungszyklus. Wir berechnen etwaige Anpassungen anteilig."
+      },
+      "4": {
+        "question": "Was ist der Unterschied zwischen WhatsApp Only und Omnichannel-Plänen?",
+        "answer": "WhatsApp Only ($19,99/Monat) konzentriert sich auf WhatsApp-Nachrichten mit unbegrenzten Kontakten und Vorlagen. Omnichannel ($99/Monat für den ersten Nutzer, $49 für zusätzliche) umfasst SMS, Sprachanrufe, Kampagnen, API-Zugriff und SeaChat-Integration für ein komplettes Contact-Center-Erlebnis."
+      },
+      "5": {
+        "question": "Gibt es versteckte Gebühren oder Einrichtungskosten?",
+        "answer": "Nie versteckte Gebühren! Telefonnummern kosten $2-$3/Monat mit E911-Adresse. SMS kosten $0,02/Nachricht, Sprachanrufe $0,015/Minute (USA/CA). WhatsApp-Nachrichten sind weltweit kostenlos – Sie zahlen direkt an Meta, ohne Aufschlag von Seasalt.ai."
+      },
+      "6": {
+        "question": "Was passiert mit meinen Daten, wenn ich kündige?",
+        "answer": "Sie besitzen Ihre Daten. Sie können jederzeit Ihren gesamten Chatverlauf, Kontakte und Wissensdatenbank-Inhalte exportieren, auch im kostenlosen Plan. Wir stehen für Datenfreiheit und Transparenz."
+      },
+      "7": {
+        "question": "Bieten Sie Mengenrabatte für große Unternehmen an?",
+        "answer": "Ja! Unser Custom Enterprise-Plan bietet verhandelte Preise basierend auf Ihrem spezifischen Volumen und Nutzungsmustern. Kontaktieren Sie unser Vertriebsteam für maßgeschneiderte Preise, mehrere Arbeitsbereiche, HIPAA-Compliance und White-Label-Lösungen."
+      },
+      "title": "Häufig gestellte Fragen"
+    },
+    "cta": {
+      "title": "Bereit, Ihre",
+      "titleGradient": "Kundenkommunikation zu transformieren?",
+      "description": "Schließen Sie sich Tausenden von Unternehmen an, die Seasalt.ai nutzen, um außergewöhnliche Kundenerlebnisse zu bieten",
+      "stats": {
+        "customers": "10.000+",
+        "customersLabel": "Zufriedene Kunden",
+        "uptime": "99,9%",
+        "uptimeLabel": "Betriebszeit SLA",
+        "support": "24/7",
+        "supportLabel": "Support"
+      },
+      "primary": "🚀 JETZT ANMELDEN",
+      "secondary": "📞 Mit Vertrieb sprechen",
+      "trustBadge1": "Keine Programmierung erforderlich",
+      "trustBadge2": "Einrichtung in unter 5 Minuten",
+      "trustBadge3": "Jederzeit kündbar",
+      "trustBadge4": "Echter kostenloser Plan verfügbar",
+      "urgency": "⚡ Zeitlich begrenzt: 2 Monate kostenlos bei Jahresplänen + priorisierte Onboarding-Unterstützung!"
+    },
+    "billingToggle": {
+      "monthly": "Monatlich abgerechnet",
+      "annually": "Jährlich abgerechnet",
+      "save20": "20% sparen"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Live-Agent",
+        "price": "$0",
+        "period": "für immer",
+        "tagline": "Wirklich kostenlos, für immer. Perfekt zum Starten.",
+        "description": "Perfekt zum Starten. Vereinen Sie Ihren Posteingang mit 1 menschlichem Agenten.",
+        "features": {
+          "0": "1 menschlicher Agent",
+          "1": "Unbegrenzte Chats mit menschlichem Agenten",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Basisintegrationen (Shopify, etc.)",
+          "4": "E-Mail-Support"
+        },
+        "cta": "Anmelden"
+      },
+      "professional": {
+        "name": "Professional",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "pro Monat",
+        "additionalPriceAnnual": "+ $20/Monat pro zusätzlichem Agenten",
+        "additionalPriceMonthly": "+ $25/Monat pro zusätzlichem Agenten",
+        "tagline": "Die vollständige, einheitliche Lösung für wachsende Unternehmen.",
+        "description": "Alles, was Sie benötigen, um Ihre Kundenkommunikation zu automatisieren und zu skalieren.",
+        "features": {
+          "0": "Alles im Live-Agent",
+          "1": "AI-Automatisierung (Voicebot & Chatbot)",
+          "2": "Alle Kommunikationskanäle (einschließlich Telefonanrufe)",
+          "3": "Outbound-Marketingkampagnen",
+          "4": "CRM-Integrationen (HubSpot, Salesforce)",
+          "5": "Erweiterte Analysen & Berichte",
+          "6": "Priorisierter Support",
+          "7": "HIPAA-Compliance verfügbar"
+        },
+        "cta": "Jetzt starten"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Kontaktieren Sie uns",
+        "period": "",
+        "tagline": "Für Teams mit individuellen Anforderungen.",
+        "description": "Für größere Teams mit speziellen Anforderungen wie erweiterter Compliance oder individuellen Integrationen.",
+        "features": {
+          "0": "Alles im Professional",
+          "1": "HIPAA-Compliance",
+          "2": "Individuelle Integrationen",
+          "3": "Dedizierter Account Manager",
+          "4": "Individuelles AI-Training",
+          "5": "White-Label-Optionen",
+          "6": "SLA-Garantien",
+          "7": "Optionen für On-Premise-Bereitstellung"
+        },
+        "cta": "Vertrieb kontaktieren"
+      }
+    }
+  },
+  "industries": {
+    "title": "خدمة كل صناعة بثقة",
+    "description": "من الرعاية الصحية إلى التكنولوجيا المالية، يتكيف منصتنا مع المتطلبات الفريدة لصناعتك من خلال ميزات متخصصة ومعايير امتثال محددة.",
+    "cta": {
+      "title": "هل أنت مستعد لإحداث ثورة في صناعتك؟",
+      "description": "انضم إلى قادة الصناعة الذين يثقون بـ Seasalt.ai لتقديم تجارب عملاء استثنائية مع تلبية المتطلبات التنظيمية والتشغيلية المحددة.",
+      "signUp": "سجّل الآن",
+      "bookDemo": "احجز عرضًا تجريبيًا"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← العودة إلى الصفحة الرئيسية"
+      },
+      "hero": {
+        "title": "حلول الذكاء الاصطناعي لـ",
+        "signUp": "ابدأ مجانًا",
+        "seeDemo": "شاهد العرض",
+        "hipaaOffering": "متوفر أيضًا: متوافق مع HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "الحلول - Seasalt.ai",
+        "descriptionPrefix": "اكتشف كيف تساعد Seasalt.ai",
+        "descriptionSuffix": "الشركات على تحسين تواصل العملاء ودفع عجلة النمو."
+      },
+      "ui": {
+        "seahealthAlt": "سي هيلث",
+        "testimonialsPrefix": "ماذا يقول"
+      },
+      "benefits": {
+        "title": "لماذا تختار Seasalt.ai لـ",
+        "description": "منصتنا المدعومة بالذكاء الاصطناعي تبسط الاتصالات وتؤتمت سير العمل لـ"
+      },
+      "useCases": {
+        "title": "أمثلة شائعة للاستخدام",
+        "description": {
+          "start": "اكتشف كيف تحول منصتنا",
+          "end": "عملياتك من خلال الأتمتة الذكية"
+        },
+        "customerSupport": {
+          "title": "دعم العملاء على مدار الساعة",
+          "description": "تقديم ردود فورية على استفسارات العملاء عبر جميع القنوات"
+        },
+        "leadGeneration": {
+          "title": "توليد العملاء المحتملين",
+          "description": "التقاط وتقييم العملاء المحتملين تلقائيًا من خلال المحادثات المدعومة بالذكاء الاصطناعي"
+        },
+        "analytics": {
+          "title": "التحليلات والرؤى",
+          "description": "تتبع الأداء والحصول على رؤى حول تفاعلات العملاء"
+        },
+        "subtitle": "اكتشف كيف تدعم منصتنا جميع جوانب الإدارة التعليمية",
+        "case1": {
+          "title": "أنظمة معلومات الطلاب",
+          "description": "مركزة سجلات الطلاب والدرجات وتتبع التقدم الأكاديمي"
+        },
+        "case2": {
+          "title": "إدارة التعلم",
+          "description": "تقديم الدورات، تتبع التقدم، وإدارة المحتوى التعليمي"
+        },
+        "case3": {
+          "title": "الأدوات الإدارية",
+          "description": "تبسيط التسجيل، الجداول الزمنية، والعمليات المؤسسية"
+        }
+      },
+      "testimonials": {
+        "title": "آراء الشركات",
+        "quote1": "لقد أحدثت Seasalt.ai تحولاً في عمليات خدمة العملاء لدينا. انخفضت أوقات الاستجابة بنسبة 80% وارتفعت مستويات الرضا إلى أعلى مستوياتها على الإطلاق.",
+        "author1": "سارة تشين",
+        "company1": "مدير نجاح العملاء",
+        "quote2": "وفرت لنا الأتمتة بالذكاء الاصطناعي ساعات لا تحصى. يمكننا التركيز على تنمية أعمالنا بدلاً من إدارة المهام المتكررة.",
+        "author2": "مايكل رودريغيز",
+        "company2": "مدير العمليات",
+        "subtitle": "شاهد كيف تقوم المؤسسات بتحويل عملياتها",
+        "testimonial1": {
+          "quote": "لقد أحدثت هذه المنصة ثورة في كيفية إدارة عمليات مدرستنا. أصبحت بيانات الطلاب الآن مركزية وسهلة الوصول.",
+          "author": "الدكتورة سارة جونسون",
+          "position": "مديرة، مدرسة لنكولن الابتدائية"
+        },
+        "testimonial2": {
+          "quote": "جعلت ميزات إدارة التعلم التعليم عن بعد والمختلط سلسًا لطلابنا وأعضاء هيئة التدريس.",
+          "author": "الأستاذ مايكل تشين",
+          "position": "عميد التكنولوجيا، جامعة الولاية"
+        },
+        "testimonial3": {
+          "quote": "تحسنت كفاءتنا الإدارية بشكل كبير. كل شيء من التسجيل إلى إعداد التقارير أصبح الآن مبسطًا.",
+          "author": "ماريا رودريغيز",
+          "position": "إدارية، منطقة الكلية المجتمعية"
+        }
+      },
+      "cta": {
+        "title": "هل أنت مستعد لتحويل عملك؟",
+        "description": "انضم إلى آلاف الشركات التي تثق بـ Seasalt.ai لإدارة تواصل العملاء بكفاءة وأمان.",
+        "signUp": "ابدأ التجربة المجانية",
+        "scheduleDemo": "حدد عرضًا تجريبيًا",
+        "seahealthLink": "استكشف حلول الرعاية الصحية المتوافقة مع HIPAA",
+        "buttons": {
+          "primary": "ابدأ التجربة المجانية",
+          "secondary": "حدد عرضًا تجريبيًا",
+          "contact": "تواصل مع فريق المبيعات"
+        }
+      },
+      "solutions": {
+        "title": "الحلول"
+      }
+    }
+  },
+  "channels": {
+    "title": "Verbinden Sie jeden Kundenkanal",
+    "description": "Vereinheitlichen Sie alle Kundenkommunikationen auf einer Plattform. Von WhatsApp über Telefonanrufe, SMS bis zu sozialen Medien – verwalten Sie jede Unterhaltung von einem einzigen Dashboard aus.",
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Verbinden Sie sich mit Kunden auf der weltweit beliebtesten Messaging-Plattform",
+      "seo": {
+        "title": "WhatsApp Business Integration - Seasalt.ai",
+        "description": "Verbinden Sie Ihr WhatsApp Business-Konto mit Seasalt.ai für KI-gestützte Gespräche, Massenkampagnen und nahtlose Unterstützung durch menschliche Agenten. Erreichen Sie über 2 Milliarden Nutzer weltweit."
+      },
+      "nav": {
+        "backToChannels": "Zurück zu den Kanälen"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Verwandeln Sie WhatsApp in Ihr",
+          "highlight": "Business Command Center"
+        },
+        "description": "Verbinden Sie Ihr WhatsApp Business-Konto mit Seasalt.ai für KI-gestützte Gespräche, Massenkampagnen und nahtlose Unterstützung durch menschliche Agenten. Erreichen Sie über 2 Milliarden Nutzer weltweit.",
+        "primaryCta": "WhatsApp in 10 Minuten verbinden",
+        "secondaryCta": "Demo ansehen",
+        "demoTitle": "WhatsApp Business",
+        "demoMessages": {
+          "customer1": "Kunde: \"Wo ist meine Bestellung #12345?\"",
+          "bot1": "KI-Bot: \"Ihre Bestellung ist unterwegs und wird heute bis 18 Uhr geliefert. Hier verfolgen: [Link]\"",
+          "customer2": "Kunde: \"Kann ich die Lieferadresse ändern?\"",
+          "bot2": "KI-Bot: \"Ich verbinde Sie mit einem menschlichen Agenten für Adressänderungen...\""
+        }
+      },
+      "features": {
+        "title": "Hauptfunktionen",
+        "description": "Alles, was Sie benötigen, um WhatsApp in eine leistungsstarke Geschäftskommunikationsplattform zu verwandeln",
+        "aiResponses": {
+          "title": "KI-gestützte Antworten",
+          "description": "Automatisierter Kundenservice mit natürlicher Sprachverarbeitung, der Kontext und Absicht versteht"
+        },
+        "bulkCampaigns": {
+          "title": "Massenkampagnenverwaltung",
+          "description": "Senden Sie Vorlagen-Nachrichten an Tausende von Kontakten mit erweiterten Zielgruppenoptionen und Zeitplanung"
+        },
+        "humanHandoff": {
+          "title": "Übergabe an menschliche Agenten",
+          "description": "Nahtloser Übergang vom Bot zum Live-Agenten mit /live_agent-Befehl und vollständigem Gesprächsverlauf"
+        },
+        "metaIntegration": {
+          "title": "Meta Business Integration",
+          "description": "Vollzugriff auf die Funktionen der WhatsApp Business-Plattform mit unternehmenssicherem Schutz"
+        }
+      },
+      "setup": {
+        "title": "Visualisierung des Einrichtungsprozesses",
+        "description": "Schritt-für-Schritt-Anleitung zum Verbinden Ihres WhatsApp Business-Kontos mit unternehmenssicherem Schutz",
+        "steps": {
+          "0": "Meta-Entwicklerkonto erstellen",
+          "1": "WhatsApp Business API konfigurieren",
+          "2": "Webhook-Endpunkte einrichten",
+          "3": "Zugriffstoken generieren",
+          "4": "Nachrichtenversand testen",
+          "5": "Ihre erste Kampagne starten"
+        },
+        "security": {
+          "title": "Unternehmenssicherer Schutz",
+          "description": "Ihre WhatsApp-Integration umfasst Ende-zu-Ende-Verschlüsselung, sichere Token-Verwaltung und die Einhaltung der Geschäftsrichtlinien von Meta. Alle Daten sind bankensicher geschützt."
+        }
+      },
+      "cta": {
+        "title": "Bereit, WhatsApp zu verbinden?",
+        "description": "Schließen Sie sich Tausenden von Unternehmen an, die WhatsApp nutzen, um besseren Kundenservice zu bieten und den Umsatz zu steigern.",
+        "button": "Integration starten"
+      }
+    },
+    "voice": {
+      "title": "Sprach- & Telefonanrufe",
+      "description": "Professionelles Telefonsystem mit KI-Sprachbot und Unterstützung durch menschliche Agenten"
+    },
+    "sms": {
+      "title": "SMS-Nachrichten",
+      "description": "Erreichen Sie Kunden sofort mit personalisierten SMS-Kampagnen",
+      "seo": {
+        "title": "SMS-Marketing-Plattform - Seasalt.ai",
+        "description": "Erreichen Sie Kunden sofort mit personalisierten SMS-Kampagnen und automatisierten Antworten. 98 % Öffnungsrate und weltweite Zustellung in über 200 Länder. Starten Sie noch heute Ihr SMS-Marketing."
+      },
+      "nav": {
+        "backToChannels": "Zurück zu den Kanälen"
+      },
+      "hero": {
+        "title": {
+          "prefix": "SMS-Marketing, das",
+          "highlight": "tatsächlich konvertiert"
+        },
+        "description": "Erreichen Sie Kunden sofort mit personalisierten SMS-Kampagnen und automatisierten Antworten. 98 % Öffnungsrate und weltweite Zustellung in über 200 Länder.",
+        "primaryCta": "SMS-Kampagnen starten",
+        "secondaryCta": "Demo ansehen",
+        "campaign": {
+          "title": "SMS-Kampagne",
+          "flashSale": {
+            "title": "📱 Kampagne: Blitzverkauf",
+            "sent": "2.847 Nachrichten gesendet"
+          },
+          "delivered": {
+            "title": "✅ Zugestellt: 2.834",
+            "rate": "99,5 % Zustellrate"
+          },
+          "replies": {
+            "title": "💬 Antworten: 312",
+            "rate": "11 % Antwortrate"
+          },
+          "conversions": {
+            "title": "🛒 Conversions: 47",
+            "revenue": "Umsatz: 12.400 $"
+          }
+        }
+      },
+      "features": {
+        "title": "Compliance & Zustellung",
+        "description": "Enterprise-grade SMS-Plattform mit globaler Reichweite und automatischem Compliance-Management",
+        "globalReach": {
+          "title": "Globale Reichweite",
+          "description": "SMS-Zustellung in über 200 Länder mit lokaler Nummernunterstützung und Carrier-Optimierung"
+        },
+        "compliance": {
+          "title": "Compliance-Tools",
+          "description": "TCPA- und GDPR-Compliance-Funktionen mit automatischem Opt-out-Management"
+        },
+        "analytics": {
+          "title": "Zustellungsanalysen",
+          "description": "Echtzeit-Tracking von Zustellungen, Antwortraten und Kampagnenleistung"
+        },
+        "scheduling": {
+          "title": "Intelligente Zeitplanung",
+          "description": "Versand mit Zeitzonenbewusstsein und optimalem Timing basierend auf dem Verhalten der Empfänger"
+        }
+      },
+      "useCases": {
+        "title": "Bewährte Anwendungsfälle",
+        "description": "Sehen Sie, wie Unternehmen SMS nutzen, um Engagement und Umsatz zu steigern",
+        "marketing": {
+          "title": "Marketingkampagnen",
+          "description": "Werbebotschaften mit hoher Öffnungsrate",
+          "stats": "98 % Öffnungsrate"
+        },
+        "appointments": {
+          "title": "Termin-Erinnerungen",
+          "description": "Reduzieren Sie No-Shows mit automatisierten Erinnerungen",
+          "stats": "25 % weniger No-Shows"
+        },
+        "orders": {
+          "title": "Bestellaktualisierungen",
+          "description": "Halten Sie Kunden über ihre Bestellungen auf dem Laufenden",
+          "stats": "90 % Zufriedenheit"
+        },
+        "support": {
+          "title": "Kundensupport",
+          "description": "Zwei-Wege-Konversationen für schnelle Unterstützung",
+          "stats": "5x schnellere Lösung"
+        }
+      },
+      "builder": {
+        "title": "Erweiterter Kampagnen-Builder",
+        "description": "Erstellen Sie anspruchsvolle SMS-Kampagnen mit Drag-and-Drop-Automatisierung und intelligentem Targeting",
+        "segmentation": {
+          "title": "Intelligente Segmentierung",
+          "description": "Zielgruppen basierend auf Verhalten, Standort und Präferenzen auswählen"
+        },
+        "timing": {
+          "title": "Perfektes Timing",
+          "description": "KI-gestützte Optimierung der Versandzeit für maximale Interaktion"
+        },
+        "analytics": {
+          "title": "Echtzeit-Analysen",
+          "description": "Verfolgen Sie Zustellungen, Öffnungen, Klicks und Conversions in Echtzeit"
+        }
+      },
+      "cta": {
+        "title": "Bereit, Ihre SMS-Kampagnen zu starten?",
+        "description": "Schließen Sie sich Tausenden von Unternehmen an, die SMS nutzen, um Engagement und Umsatz zu steigern. Beginnen Sie mit unserer kostenlosen Testversion.",
+        "button": "Anmelden"
+      }
+    },
+    "website": {
+      "title": "Website-Chat-Widget",
+      "description": "Verwandeln Sie Website-Besucher in Konversationen mit KI-gestütztem Chat"
+    },
+    "cta": {
+      "exploreAll": "Alle Kanäle erkunden",
+      "subtitle": "Sehen Sie, wie alle 9 Kanäle nahtlos zusammenarbeiten"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "Professionelles Telefonsystem - Seasalt.ai",
+        "description": "Stärken Sie Ihre Agenten mit einer cloudbasierten Wähltastatur für ein- und ausgehende Anrufe, unterstützt durch Twilio Gold Partnerschaft und KI-Sprachautomatisierung. Skalieren Sie Ihre Geschäftskommunikation."
+      },
+      "nav": {
+        "backToChannels": "Zurück zu den Kanälen"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Professionelles Telefonsystem, das",
+          "highlight": "mit Ihrem Unternehmen skaliert"
+        },
+        "description": "Stärken Sie Ihre Agenten mit einer cloudbasierten Wähltastatur für ein- und ausgehende Anrufe, unterstützt durch unsere Twilio Gold Partnerschaft und KI-Sprachautomatisierung.",
+        "primaryCta": "Heute mit Anrufen starten",
+        "secondaryCta": "Demo ansehen",
+        "dialpad": {
+          "title": "Agenten-Wähltastatur",
+          "callButton": "Anrufen",
+          "endCallButton": "Anruf beenden"
+        }
+      },
+      "features": {
+        "title": "Hauptfunktionen",
+        "description": "Alles, was Ihr Team für professionelle Telefonkommunikation benötigt",
+        "humanDialpad": {
+          "title": "Wähltastatur für menschliche Agenten",
+          "description": "Voll ausgestattete Cloud-Wähltastatur zum Tätigen und Empfangen von Anrufen mit Kontaktverwaltung"
+        },
+        "aiVoiceBot": {
+          "title": "KI-Sprachbot-Integration",
+          "description": "Automatisierte Anrufbearbeitung mit natürlicher Übergabe an menschliche Agenten bei Bedarf"
+        },
+        "multiAgent": {
+          "title": "Unterstützung für mehrere Agenten",
+          "description": "Round-Robin-System verteilt Anrufe automatisch auf verfügbare Agenten"
+        },
+        "analytics": {
+          "title": "Anrufanalysen",
+          "description": "Umfassende Berichte zu Anrufleistung, Ergebnissen und Agentenproduktivität"
+        }
+      },
+      "partnership": {
+        "title": "Vorteile der Twilio-Partnerschaft",
+        "description": "Auf der weltweit vertrauenswürdigsten Kommunikationsplattform aufgebaut",
+        "goldPartner": {
+          "title": "Goldpartner-Status",
+          "benefit1": "Goldpartner-Status mit direktem Zugang zu Twilio Flex",
+          "benefit2": "Unternehmenssichere Zuverlässigkeit auf bewährter Infrastruktur",
+          "benefit3": "Globale Reichweite - Anrufe in über 200 Ländern tätigen",
+          "benefit4": "Schnelle Implementierung - Agenten innerhalb von 10 Tagen im Einsatz"
+        },
+        "global": {
+          "title": "Globale Fähigkeiten",
+          "countries": {
+            "title": "200+ Länder",
+            "description": "Weltweit Anrufe tätigen und empfangen"
+          },
+          "uptime": {
+            "title": "99,95 % Verfügbarkeit",
+            "description": "Unternehmenssichere Zuverlässigkeit"
+          },
+          "setup": {
+            "title": "10-Tage-Einrichtung",
+            "description": "Schnelle Implementierung für Ihr Team"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Anwendungsfälle",
+        "description": "Sehen Sie, wie verschiedene Teams unser Telefonsystem nutzen, um Ergebnisse zu erzielen",
+        "sales": {
+          "title": "Vertriebsteams",
+          "description": "Outbound-Prospecting mit effizientem automatischem Wähler"
+        },
+        "support": {
+          "title": "Kundensupport",
+          "description": "Inbound-Anrufbearbeitung mit KI-Screening"
+        },
+        "appointments": {
+          "title": "Terminvereinbarung",
+          "description": "Automatisierte Anrufe mit menschlicher Bestätigung"
+        },
+        "followup": {
+          "title": "Follow-up-Kampagnen",
+          "description": "Massenanrufe mit personalisierten Agentengesprächen"
+        }
+      },
+      "cta": {
+        "title": "Bereit, Ihr Telefonsystem zu verbessern?",
+        "description": "Bringen Sie Ihr Team in weniger als 10 Tagen in Anrufe mit unternehmenssicherer Zuverlässigkeit und KI-gestützter Automatisierung.",
+        "button": "Einrichtung starten"
+      }
+    }
   }
 }

@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SEOHelmet from '../../components/SEOHelmet';
+const SUPPORTED_LANGUAGES = ['en', 'zh-TW'];
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const ContactForms = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -15,38 +17,38 @@ const ContactForms = () => {
   }, []);
   const platforms = [
     {
-      name: 'MailerLite',
-      description: 'Seamless lead sync from MailerLite contact forms',
+      name: t('channels.contactForms.platforms.mailerlite.name'),
+      description: t('channels.contactForms.platforms.mailerlite.description'),
       icon: '📧',
       color: 'bg-green-50 border-green-200'
     },
     {
-      name: 'Mailchimp',
-      description: 'Direct integration with Mailchimp signup forms',
+      name: t('channels.contactForms.platforms.mailchimp.name'),
+      description: t('channels.contactForms.platforms.mailchimp.description'),
       icon: '🐵',
       color: 'bg-yellow-50 border-yellow-200'
     },
     {
-      name: 'Constant Contact',
-      description: 'Lead capture from Constant Contact forms',
+      name: t('channels.contactForms.platforms.constantContact.name'),
+      description: t('channels.contactForms.platforms.constantContact.description'),
       icon: '📮',
       color: 'bg-blue-50 border-blue-200'
     },
     {
-      name: 'HubSpot',
-      description: 'Advanced form integration with HubSpot marketing',
+      name: t('channels.contactForms.platforms.hubspot.name'),
+      description: t('channels.contactForms.platforms.hubspot.description'),
       icon: '🔶',
       color: 'bg-orange-50 border-orange-200'
     },
     {
-      name: 'Custom Forms',
-      description: 'Support for any website contact form via API',
+      name: t('channels.contactForms.platforms.customForms.name'),
+      description: t('channels.contactForms.platforms.customForms.description'),
       icon: '⚙️',
       color: 'bg-purple-50 border-purple-200'
     },
     {
-      name: 'WordPress',
-      description: 'Native integration with WordPress contact forms',
+      name: t('channels.contactForms.platforms.wordpress.name'),
+      description: t('channels.contactForms.platforms.wordpress.description'),
       icon: '📝',
       color: 'bg-gray-50 border-gray-200'
     }
@@ -55,51 +57,58 @@ const ContactForms = () => {
   const features = [
     {
       icon: <Zap className="h-8 w-8" />,
-      title: 'Instant Engagement',
-      description: 'AI agent responds to form submissions immediately, while leads are hot'
+      title: t('channels.contactForms.features.instantEngagement.title'),
+      description: t('channels.contactForms.features.instantEngagement.description')
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Lead Qualification',
-      description: 'Automated follow-up questions to qualify prospects before human handoff'
+      title: t('channels.contactForms.features.leadQualification.title'),
+      description: t('channels.contactForms.features.leadQualification.description')
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      title: 'Multi-Channel Follow-up',
-      description: 'Continue conversations via WhatsApp, SMS, or phone seamlessly'
+      title: t('channels.contactForms.features.multiChannel.title'),
+      description: t('channels.contactForms.features.multiChannel.description')
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: 'Conversion Tracking',
-      description: 'Monitor form-to-customer conversion rates and optimize performance'
+      title: t('channels.contactForms.features.conversionTracking.title'),
+      description: t('channels.contactForms.features.conversionTracking.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Newsletter Signups',
-      description: 'Engage new subscribers with welcome conversations',
-      example: '"Thanks for subscribing! What topics interest you most?"'
+      title: t('channels.contactForms.useCases.newsletter.title'),
+      description: t('channels.contactForms.useCases.newsletter.description'),
+      example: t('channels.contactForms.useCases.newsletter.example')
     },
     {
-      title: 'Demo Requests',
-      description: 'Instantly qualify and schedule product demonstrations',
-      example: '"I can schedule your demo right now. What\'s your preferred time?"'
+      title: t('channels.contactForms.useCases.demoRequests.title'),
+      description: t('channels.contactForms.useCases.demoRequests.description'),
+      example: t('channels.contactForms.useCases.demoRequests.example')
     },
     {
-      title: 'Contact Inquiries',
-      description: 'Provide immediate responses to general inquiries',
-      example: '"I\'m here to help! What specific information do you need?"'
+      title: t('channels.contactForms.useCases.contactInquiries.title'),
+      description: t('channels.contactForms.useCases.contactInquiries.description'),
+      example: t('channels.contactForms.useCases.contactInquiries.example')
     },
     {
-      title: 'Lead Magnets',
-      description: 'Follow up on content downloads with personalized outreach',
-      example: '"Did you find the guide helpful? I can answer any questions!"'
+      title: t('channels.contactForms.useCases.leadMagnets.title'),
+      description: t('channels.contactForms.useCases.leadMagnets.description'),
+      example: t('channels.contactForms.useCases.leadMagnets.example')
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet 
+        title={t('channels.contactForms.seo.title')}
+        description={t('channels.contactForms.seo.description')}
+        canonicalUrl={`/${i18n.language}/channels/contact-forms`}
+        favicon="/favicon.ico"
+        availableLanguages={SUPPORTED_LANGUAGES}
+      />
       <Header />
       
       <main className="pt-16">
@@ -110,30 +119,29 @@ const ContactForms = () => {
               <div>
                 <Link to={`/${i18n.language}/channels-overview`} className="inline-flex items-center text-gray-600 hover:text-gray-700 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  Back to Channels
+                  {t('channels.contactForms.nav.backToChannels')}
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  Turn Contact Forms into{' '}
+                  {t('channels.contactForms.hero.title.part1')}{' '}
                   <span className="bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
-                    Conversations
+                    {t('channels.contactForms.hero.title.part2')}
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Automatically capture leads from your email marketing forms and engage them instantly 
-                  with AI-powered conversations. Works with MailerLite, HubSpot, Mailchimp, and more.
+                  {t('channels.contactForms.hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://chat.seasalt.ai/gpt/signup"
                     className="bg-gray-800 hover:bg-gray-900 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Connect Your Forms
+                    {t('channels.contactForms.hero.ctaPrimary')}
                   </a>
                   <a
                     href={getMeetingUrl(i18n.language)}
                     className="border-2 border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    See Demo
+                    {t('channels.contactForms.hero.ctaSecondary')}
                   </a>
                 </div>
               </div>
@@ -143,24 +151,24 @@ const ContactForms = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <FileText className="h-8 w-8 text-gray-600 mr-3" />
-                      <h3 className="text-lg font-semibold">Form Integration</h3>
+                      <h3 className="text-lg font-semibold">{t('channels.contactForms.hero.demo.title')}</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-gray-50 p-3 rounded-lg border-l-4 border-gray-500">
-                        <p className="text-sm font-medium text-gray-800">📝 New Form Submission</p>
-                        <p className="text-xs text-gray-600">Sarah Johnson • sarah@email.com</p>
+                        <p className="text-sm font-medium text-gray-800">{t('channels.contactForms.hero.demo.submission')}</p>
+                        <p className="text-xs text-gray-600">{t('channels.contactForms.hero.demo.submitter')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm text-blue-700">AI: "Hi Sarah! Thanks for your interest. I can help you get started right away. What's your main goal?"</p>
+                        <p className="text-sm text-blue-700">{t('channels.contactForms.hero.demo.aiGreeting')}</p>
                       </div>
                       <div className="bg-green-50 p-3 rounded-lg">
-                        <p className="text-sm text-green-700">Sarah: "I want to improve my email marketing"</p>
+                        <p className="text-sm text-green-700">{t('channels.contactForms.hero.demo.userResponse')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg">
-                        <p className="text-sm text-blue-700">AI: "Perfect! I can schedule a 15-min strategy call with our expert. Are you free tomorrow at 2 PM?"</p>
+                        <p className="text-sm text-blue-700">{t('channels.contactForms.hero.demo.aiSchedule')}</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg">
-                        <p className="text-xs text-orange-600">✅ Meeting scheduled automatically</p>
+                        <p className="text-xs text-orange-600">{t('channels.contactForms.hero.demo.meetingConfirmed')}</p>
                       </div>
                     </div>
                   </div>
@@ -175,10 +183,10 @@ const ContactForms = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Supported Platforms
+                {t('channels.contactForms.platforms.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Seamless integration with all major email marketing platforms and form builders
+                {t('channels.contactForms.platforms.subtitle')}
               </p>
             </div>
 
@@ -203,10 +211,10 @@ const ContactForms = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Lead Management Features
+                {t('channels.contactForms.features.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Turn form submissions into qualified leads with intelligent automation
+                {t('channels.contactForms.features.subtitle')}
               </p>
             </div>
 
@@ -233,10 +241,10 @@ const ContactForms = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Use Cases
+                {t('channels.contactForms.useCases.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how different types of forms can be enhanced with AI conversations
+                {t('channels.contactForms.useCases.subtitle')}
               </p>
             </div>
 
@@ -264,29 +272,29 @@ const ContactForms = () => {
             <div className="bg-white rounded-2xl p-12 shadow-xl">
               <div className="text-center mb-12">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  Integration Benefits
+                  {t('channels.contactForms.benefits.title')}
                 </h2>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  See the immediate impact of connecting your forms to conversational AI
+                  {t('channels.contactForms.benefits.subtitle')}
                 </p>
               </div>
 
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
                   <div className="text-2xl font-bold text-gray-800">85%</div>
-                  <div className="text-sm text-gray-600">Higher response rates</div>
+                  <div className="text-sm text-gray-600">{t('channels.contactForms.benefits.responseRates')}</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-2xl font-bold text-green-600">3x</div>
-                  <div className="text-sm text-green-700">Faster lead qualification</div>
+                  <div className="text-sm text-green-700">{t('channels.contactForms.benefits.qualification')}</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <div className="text-2xl font-bold text-blue-600">60%</div>
-                  <div className="text-sm text-blue-700">More qualified meetings</div>
+                  <div className="text-sm text-blue-700">{t('channels.contactForms.benefits.meetings')}</div>
                 </div>
                 <div className="text-center p-4 bg-purple-50 rounded-lg">
                   <div className="text-2xl font-bold text-purple-600">24/7</div>
-                  <div className="text-sm text-purple-700">Lead engagement</div>
+                  <div className="text-sm text-purple-700">{t('channels.contactForms.benefits.engagement')}</div>
                 </div>
               </div>
             </div>
@@ -297,18 +305,17 @@ const ContactForms = () => {
         <section className="py-20 bg-gradient-to-r from-gray-800 to-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Supercharge Your Forms?
+              {t('channels.contactForms.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Connect your contact forms to Seasalt.ai and start converting more leads 
-              with instant AI-powered conversations.
+              {t('channels.contactForms.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Connect Forms Now
+                {t('channels.contactForms.cta.action')}
               </a>
             </div>
           </div>

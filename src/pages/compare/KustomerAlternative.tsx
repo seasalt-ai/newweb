@@ -3,57 +3,65 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const KustomerAlternative = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const comparisonFeatures = [
     {
-      feature: 'Pricing Model',
-      seasalt: 'Simple & predictable per-agent fee',
-      competitor: 'Per-Seat or Per-Conversation',
+      feature: t('compare.kustomerAlternative.comparison.features.pricingModel.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.pricingModel.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.pricingModel.kustomer'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Starting Price',
-      seasalt: '$25/agent/month',
-      competitor: '$89/seat/month',
+      feature: t('compare.kustomerAlternative.comparison.features.startingPrice.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.startingPrice.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.startingPrice.kustomer'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Minimum Commitment',
-      seasalt: '1 User',
-      competitor: '8 Seats (on per-seat plan)',
+      feature: t('compare.kustomerAlternative.comparison.features.minimumCommitment.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.minimumCommitment.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.minimumCommitment.kustomer'),
       seasaltAdvantage: true
     },
     {
-      feature: 'AI Capabilities',
-      seasalt: 'Included (usage-based)',
-      competitor: 'Paid Add-on ($40/user/mo or $0.60/convo)',
+      feature: t('compare.kustomerAlternative.comparison.features.aiCapabilities.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.aiCapabilities.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.aiCapabilities.kustomer'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Omnichannel Timeline',
-      seasalt: 'Yes',
-      competitor: 'Yes, very strong',
+      feature: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.kustomer'),
       seasaltAdvantage: false
     },
     {
-      feature: 'Core Focus',
-      seasalt: 'Affordable, unified communications for SMEs',
-      competitor: 'Enterprise-scale, data-driven customer service',
+      feature: t('compare.kustomerAlternative.comparison.features.coreFocus.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.coreFocus.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.coreFocus.kustomer'),
       seasaltAdvantage: false
     },
     {
-      feature: 'Best For',
-      seasalt: 'Growing businesses needing a powerful but affordable omnichannel solution',
-      competitor: 'Large support teams that can meet the seat minimum and need deep data integration',
+      feature: t('compare.kustomerAlternative.comparison.features.bestFor.name'),
+      seasalt: t('compare.kustomerAlternative.comparison.features.bestFor.seasalt'),
+      competitor: t('compare.kustomerAlternative.comparison.features.bestFor.kustomer'),
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet 
+        title={t('compare.kustomerAlternative.seo.title')}
+        description={t('compare.kustomerAlternative.seo.description')}
+        favicon="/favicon.ico"
+        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/kustomer-alternative`}
+        availableLanguages={['en', 'zh-TW']}
+      />
       <Header />
       
       <main className="pt-16">
@@ -62,21 +70,18 @@ const KustomerAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Compare Us Overview
+              {t('compare.kustomerAlternative.nav.backLink')}
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Enterprise Power for an SME Price.{' '}
+                {t('compare.kustomerAlternative.hero.title')}{' '}
                 <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
-                  Why Pay for 8 Seats When You Only Need 2?
+                  {t('compare.kustomerAlternative.hero.highlight')}
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                Kustomer is a powerful, true omnichannel platform that provides a unified view of the customer journey. However, its power 
-                comes at an enterprise price. The per-seat plan starts at $89/month with a mandatory 8-seat minimum, making it inaccessible 
-                for most SMEs. Critical AI capabilities are also expensive add-ons. Seasalt.ai delivers the core omnichannel functionality 
-                and AI automation SMEs need.
+                {t('compare.kustomerAlternative.hero.description')}
               </p>
             </div>
           </div>
@@ -87,10 +92,10 @@ const KustomerAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                SME-Accessible vs. Enterprise-Only
+                {t('compare.kustomerAlternative.comparison.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See why powerful features shouldn't require enterprise minimums
+                {t('compare.kustomerAlternative.comparison.subtitle')}
               </p>
             </div>
 
@@ -99,9 +104,9 @@ const KustomerAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Kustomer</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.kustomerAlternative.comparison.table.headers.feature')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.kustomerAlternative.comparison.table.headers.seasalt')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.kustomerAlternative.comparison.table.headers.kustomer')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -134,56 +139,56 @@ const KustomerAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                The 8-Seat Minimum Barrier
+                {t('compare.kustomerAlternative.costBarrier.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how Kustomer's minimum commitment prices out growing businesses
+                {t('compare.kustomerAlternative.costBarrier.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">2 Agents</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.title')}</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-green-600">$75/mo</div>
-                    <div className="text-sm text-green-700">Seasalt.ai</div>
+                    <div className="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.seasaltPrice')}</div>
+                    <div className="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.seasaltLabel')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-red-600">$712/mo</div>
-                    <div className="text-sm text-red-700">Kustomer (8-seat min)</div>
+                    <div className="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.kustomerPrice')}</div>
+                    <div className="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.kustomerLabel')}</div>
                   </div>
-                  <div className="text-sm text-gray-600">Save $637/month</div>
+                  <div className="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.savings')}</div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">5 Agents</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.title')}</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-green-600">$175/mo</div>
-                    <div className="text-sm text-green-700">Seasalt.ai</div>
+                    <div className="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.seasaltPrice')}</div>
+                    <div className="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.seasaltLabel')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-red-600">$712/mo</div>
-                    <div className="text-sm text-red-700">Kustomer (8-seat min)</div>
+                    <div className="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.kustomerPrice')}</div>
+                    <div className="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.kustomerLabel')}</div>
                   </div>
-                  <div className="text-sm text-gray-600">Save $537/month</div>
+                  <div className="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.savings')}</div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">8 Agents</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.title')}</h3>
                 <div className="space-y-3">
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-green-600">$225/mo</div>
-                    <div className="text-sm text-green-700">Seasalt.ai</div>
+                    <div className="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.seasaltPrice')}</div>
+                    <div className="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.seasaltLabel')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-xl font-bold text-red-600">$712/mo</div>
-                    <div className="text-sm text-red-700">Kustomer</div>
+                    <div className="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.kustomerPrice')}</div>
+                    <div className="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.kustomerLabel')}</div>
                   </div>
-                  <div className="text-sm text-gray-600">Save $487/month</div>
+                  <div className="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.savings')}</div>
                 </div>
               </div>
             </div>
@@ -192,12 +197,10 @@ const KustomerAlternative = () => {
               <div className="text-center">
                 <AlertCircle className="h-12 w-12 text-red-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-red-800 mb-4">
-                  The SME Accessibility Problem
+                  {t('compare.kustomerAlternative.costBarrier.problem.title')}
                 </h3>
                 <p className="text-red-700 max-w-2xl mx-auto">
-                  Kustomer's 8-seat minimum means even a 2-person team pays for 6 unused seats. 
-                  This creates an artificial barrier that prevents growing businesses from accessing 
-                  powerful omnichannel features until they reach enterprise scale.
+                  {t('compare.kustomerAlternative.costBarrier.problem.description')}
                 </p>
               </div>
             </div>
@@ -209,54 +212,54 @@ const KustomerAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                AI Included vs. Expensive Add-On
+                {t('compare.kustomerAlternative.aiCosts.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how AI costs add up when it's treated as a premium feature
+                {t('compare.kustomerAlternative.aiCosts.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: AI Included</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.kustomerAlternative.aiCosts.seasalt.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">Voice AI</h4>
-                    <p className="text-blue-700 text-sm">Included in base plan</p>
+                    <h4 className="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.voiceAi.title')}</h4>
+                    <p className="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.voiceAi.description')}</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">Chat AI</h4>
-                    <p className="text-blue-700 text-sm">Included in base plan</p>
+                    <h4 className="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.chatAi.title')}</h4>
+                    <p className="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.chatAi.description')}</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">Smart Routing</h4>
-                    <p className="text-blue-700 text-sm">Included in base plan</p>
+                    <h4 className="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.smartRouting.title')}</h4>
+                    <p className="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.smartRouting.description')}</p>
                   </div>
                   <div className="bg-green-50 p-4 rounded-lg border-2 border-green-200">
-                    <h4 className="font-semibold text-green-800">Total AI Cost</h4>
-                    <p className="text-green-700 font-bold">$0 additional</p>
+                    <h4 className="font-semibold text-green-800">{t('compare.kustomerAlternative.aiCosts.seasalt.totalCost.title')}</h4>
+                    <p className="text-green-700 font-bold">{t('compare.kustomerAlternative.aiCosts.seasalt.totalCost.amount')}</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">Kustomer: AI as Add-On</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.kustomerAlternative.aiCosts.kustomer.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800">KIQ AI (Per-User)</h4>
-                    <p className="text-gray-700 text-sm">$40/user/month additional</p>
+                    <h4 className="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.perUser.title')}</h4>
+                    <p className="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.perUser.description')}</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800">KIQ AI (Per-Conversation)</h4>
-                    <p className="text-gray-700 text-sm">$0.60/conversation</p>
+                    <h4 className="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.perConversation.title')}</h4>
+                    <p className="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.perConversation.description')}</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800">Example: 8 users</h4>
-                    <p className="text-gray-700 text-sm">8 × $40 = $320/month extra</p>
+                    <h4 className="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.example.title')}</h4>
+                    <p className="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.example.calculation')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg border-2 border-red-200">
-                    <h4 className="font-semibold text-red-800">Total AI Cost</h4>
-                    <p className="text-red-700 font-bold">$320+ additional</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.kustomerAlternative.aiCosts.kustomer.totalCost.title')}</h4>
+                    <p className="text-red-700 font-bold">{t('compare.kustomerAlternative.aiCosts.kustomer.totalCost.amount')}</p>
                   </div>
                 </div>
               </div>
@@ -269,62 +272,62 @@ const KustomerAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                What You Get vs. What You Pay For
+                {t('compare.kustomerAlternative.features.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Both platforms offer strong omnichannel capabilities, but at very different price points
+                {t('compare.kustomerAlternative.features.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-green-600 mb-6">What You Get with Both</h3>
+                <h3 className="text-2xl font-bold text-green-600 mb-6">{t('compare.kustomerAlternative.features.shared.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Unified omnichannel inbox</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.shared.unifiedInbox')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Customer conversation history</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.shared.conversationHistory')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Team collaboration tools</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.shared.teamCollaboration')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Analytics and reporting</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.shared.analytics')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">CRM integrations</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.shared.crmIntegrations')}</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai Advantages</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.kustomerAlternative.features.advantages.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">No minimum seat requirements</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.advantages.noMinimum')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">AI included in base price</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.advantages.aiIncluded')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Native voice calling platform</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.advantages.nativeVoice')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Self-service setup and management</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.advantages.selfService')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">SME-focused pricing and features</span>
+                    <span className="text-gray-700">{t('compare.kustomerAlternative.features.advantages.smeFocused')}</span>
                   </li>
                 </ul>
               </div>
@@ -336,23 +339,22 @@ const KustomerAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-green-600 to-green-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Get Enterprise Features Without Enterprise Minimums
+              {t('compare.kustomerAlternative.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Why pay for 8 seats when you only need 2? Get powerful omnichannel 
-              capabilities that scale with your actual team size.
+              {t('compare.kustomerAlternative.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 Sign Up
+                 {t('compare.kustomerAlternative.cta.signUp')}
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Book A Demo
+                {t('compare.kustomerAlternative.cta.bookDemo')}
               </a>
             </div>
           </div>

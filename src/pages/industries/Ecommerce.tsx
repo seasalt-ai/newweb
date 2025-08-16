@@ -1,8 +1,10 @@
 import IndustryPageTemplate from './IndustryPageTemplate';
-import { industries } from '../../data/industriesData';
+import { getIndustries } from '../../data/industriesData';
+import { useTranslation } from 'react-i18next';
 
 const Ecommerce = () => {
-  const industryData = industries.find(industry => industry.slug === 'e-commerce')!;
+  const { t } = useTranslation();
+  const industryData = getIndustries(t).find(industry => industry.slug === 'e-commerce')!;
   
   return (
     <IndustryPageTemplate

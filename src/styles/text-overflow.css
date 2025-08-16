@@ -1,0 +1,136 @@
+/* Text Overflow Utilities for Internationalization */
+/* These classes help handle variable text lengths in translations */
+
+/* Button text overflow handling */
+.btn-text-overflow {
+  @apply break-words hyphens-auto text-center leading-tight;
+}
+
+.btn-text-overflow span {
+  @apply truncate min-w-0;
+}
+
+/* Table cell text overflow handling */
+.table-cell-overflow {
+  @apply break-words hyphens-auto leading-tight;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.table-cell-overflow-center {
+  @apply table-cell-overflow text-center;
+}
+
+.table-cell-overflow-left {
+  @apply table-cell-overflow text-left;
+}
+
+/* Card content text overflow handling */
+.card-text-overflow {
+  @apply break-words hyphens-auto whitespace-pre-line;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Navigation text overflow handling */
+.nav-text-overflow {
+  @apply truncate;
+  max-width: 200px;
+}
+
+/* Badge/label text overflow handling */
+.badge-text-overflow {
+  @apply whitespace-nowrap flex-shrink-0 truncate;
+  max-width: 120px;
+}
+
+/* Long text that should wrap gracefully */
+.text-wrap-graceful {
+  @apply break-words hyphens-auto whitespace-pre-line leading-relaxed;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Short text that should truncate */
+.text-truncate-short {
+  @apply truncate;
+  max-width: 150px;
+}
+
+/* Medium text that should truncate */
+.text-truncate-medium {
+  @apply truncate;
+  max-width: 250px;
+}
+
+/* Long text that should truncate */
+.text-truncate-long {
+  @apply truncate;
+  max-width: 350px;
+}
+
+/* Flexbox helpers for text overflow */
+.flex-text-overflow {
+  @apply flex items-center;
+}
+
+.flex-text-overflow .text-content {
+  @apply flex-1 min-w-0 break-words hyphens-auto;
+}
+
+.flex-text-overflow .text-action {
+  @apply flex-shrink-0 ml-2;
+}
+
+/* Multi-line truncation (requires line-clamp support) */
+.text-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  @apply break-words hyphens-auto leading-tight;
+}
+
+.text-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  @apply break-words hyphens-auto leading-tight;
+}
+
+/* CJK-specific improvements */
+.text-cjk-friendly {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  line-break: anywhere;
+}
+
+/* RTL text support */
+.text-rtl-friendly {
+  direction: inherit;
+  text-align: inherit;
+  @apply break-words;
+}
+
+/* Mobile-specific text handling */
+@media (max-width: 640px) {
+  .mobile-text-responsive {
+    @apply text-sm break-words hyphens-auto leading-tight;
+  }
+  
+  .mobile-text-truncate {
+    @apply truncate;
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+/* Print-friendly text */
+@media print {
+  .print-text-friendly {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}

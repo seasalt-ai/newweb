@@ -8,7 +8,7 @@ import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const SmeOwners = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const canonicalUrl = typeof window !== 'undefined' 
     ? `${window.location.origin}/${i18n.language}/solutions/sme-owners` 
     : `/${i18n.language}/solutions/sme-owners`;
@@ -16,22 +16,22 @@ const SmeOwners = () => {
   const challenges = [
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Wearing Multiple Hats',
-      description: 'Managing sales, marketing, and support simultaneously while trying to grow your business',
+      title: t('solutions.smeOwners.challenges.wearingMultipleHats.title'),
+      description: t('solutions.smeOwners.challenges.wearingMultipleHats.description'),
       color: 'text-blue-600',
       bgColor: 'bg-blue-50'
     },
     {
       icon: <Clock className="h-8 w-8" />,
-      title: 'Limited Time & Resources',
-      description: 'Every minute counts when you\'re running a small business with a lean team',
+      title: t('solutions.smeOwners.challenges.limitedTimeResources.title'),
+      description: t('solutions.smeOwners.challenges.limitedTimeResources.description'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-50'
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: 'Scaling Challenges',
-      description: 'Growing customer demands without proportional increase in team size or budget',
+      title: t('solutions.smeOwners.challenges.scalingChallenges.title'),
+      description: t('solutions.smeOwners.challenges.scalingChallenges.description'),
       color: 'text-purple-600',
       bgColor: 'bg-purple-50'
     }
@@ -40,13 +40,13 @@ const SmeOwners = () => {
   const solutions = [
     {
       icon: <Zap className="h-8 w-8" />,
-      title: 'AI-Powered Automation',
-      description: 'Let AI handle routine inquiries, appointment booking, and lead qualification 24/7',
+      title: t('solutions.smeOwners.solutions.aiAutomation.title'),
+      description: t('solutions.smeOwners.solutions.aiAutomation.description'),
       benefits: [
-        'Automate 80% of routine customer questions',
-        'Book appointments while you sleep',
-        'Qualify leads before they reach you',
-        'Provide instant responses across all channels'
+        t('solutions.smeOwners.solutions.aiAutomation.benefits.routineQuestions'),
+        t('solutions.smeOwners.solutions.aiAutomation.benefits.bookAppointments'),
+        t('solutions.smeOwners.solutions.aiAutomation.benefits.qualifyLeads'),
+        t('solutions.smeOwners.solutions.aiAutomation.benefits.instantResponses')
       ],
       color: 'text-green-600',
       bgColor: 'bg-green-50',
@@ -54,13 +54,13 @@ const SmeOwners = () => {
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: 'Unified Customer View',
-      description: 'See every customer interaction in one place, whether they call, text, or chat',
+      title: t('solutions.smeOwners.solutions.unifiedView.title'),
+      description: t('solutions.smeOwners.solutions.unifiedView.description'),
       benefits: [
-        'Single inbox for all customer communications',
-        'Complete conversation history across channels',
-        'Never lose track of customer context',
-        'Seamless handoffs between AI and human'
+        t('solutions.smeOwners.solutions.unifiedView.benefits.singleInbox'),
+        t('solutions.smeOwners.solutions.unifiedView.benefits.conversationHistory'),
+        t('solutions.smeOwners.solutions.unifiedView.benefits.neverLoseTrack'),
+        t('solutions.smeOwners.solutions.unifiedView.benefits.seamlessHandoffs')
       ],
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
@@ -68,13 +68,13 @@ const SmeOwners = () => {
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: 'Smart Marketing Campaigns',
-      description: 'Run targeted campaigns across SMS, WhatsApp, and email with AI assistance',
+      title: t('solutions.smeOwners.solutions.smartMarketing.title'),
+      description: t('solutions.smeOwners.solutions.smartMarketing.description'),
       benefits: [
-        'Automated follow-up sequences',
-        'Personalized messaging at scale',
-        'Track campaign performance in real-time',
-        'Recover abandoned carts automatically'
+        t('solutions.smeOwners.solutions.smartMarketing.benefits.automatedFollowup'),
+        t('solutions.smeOwners.solutions.smartMarketing.benefits.personalizedMessaging'),
+        t('solutions.smeOwners.solutions.smartMarketing.benefits.trackPerformance'),
+        t('solutions.smeOwners.solutions.smartMarketing.benefits.recoverCarts')
       ],
       color: 'text-purple-600',
       bgColor: 'bg-purple-50',
@@ -84,46 +84,46 @@ const SmeOwners = () => {
 
   const useCases = [
     {
-      title: 'The Solo Entrepreneur',
-      scenario: 'Running a consulting business while managing all client communications',
-      solution: 'AI handles initial inquiries and books consultations, freeing you to focus on delivery'
+      title: t('solutions.smeOwners.useCases.soloEntrepreneur.title'),
+      scenario: t('solutions.smeOwners.useCases.soloEntrepreneur.scenario'),
+      solution: t('solutions.smeOwners.useCases.soloEntrepreneur.solution')
     },
     {
-      title: 'The Small Retailer',
-      scenario: 'Managing online orders, customer support, and marketing campaigns',
-      solution: 'Automated order updates, instant support responses, and targeted marketing campaigns'
+      title: t('solutions.smeOwners.useCases.smallRetailer.title'),
+      scenario: t('solutions.smeOwners.useCases.smallRetailer.scenario'),
+      solution: t('solutions.smeOwners.useCases.smallRetailer.solution')
     },
     {
-      title: 'The Service Provider',
-      scenario: 'Juggling appointment scheduling, customer questions, and follow-ups',
-      solution: 'AI books appointments, answers FAQs, and sends automated reminders'
+      title: t('solutions.smeOwners.useCases.serviceProvider.title'),
+      scenario: t('solutions.smeOwners.useCases.serviceProvider.scenario'),
+      solution: t('solutions.smeOwners.useCases.serviceProvider.solution')
     },
     {
-      title: 'The Growing Startup',
-      scenario: 'Scaling customer communications without hiring a full support team',
-      solution: 'AI handles volume growth while maintaining personal touch with smart handoffs'
+      title: t('solutions.smeOwners.useCases.growingStartup.title'),
+      scenario: t('solutions.smeOwners.useCases.growingStartup.scenario'),
+      solution: t('solutions.smeOwners.useCases.growingStartup.solution')
     }
   ];
 
   const roi = [
     {
-      metric: '5+ Hours',
-      description: 'Saved per week on routine communications',
+      metric: t('solutions.smeOwners.roi.timeSaved.metric'),
+      description: t('solutions.smeOwners.roi.timeSaved.description'),
       icon: <Clock className="h-6 w-6" />
     },
     {
-      metric: '40%',
-      description: 'Increase in lead response rate',
+      metric: t('solutions.smeOwners.roi.responseRate.metric'),
+      description: t('solutions.smeOwners.roi.responseRate.description'),
       icon: <Star className="h-6 w-6" />
     },
     {
-      metric: '24/7',
-      description: 'Customer service without hiring night staff',
+      metric: t('solutions.smeOwners.roi.availability.metric'),
+      description: t('solutions.smeOwners.roi.availability.description'),
       icon: <Shield className="h-6 w-6" />
     },
     {
-      metric: '3x',
-      description: 'More conversations handled with same team',
+      metric: t('solutions.smeOwners.roi.conversationsHandled.metric'),
+      description: t('solutions.smeOwners.roi.conversationsHandled.description'),
       icon: <Users className="h-6 w-6" />
     }
   ];
@@ -134,8 +134,8 @@ const SmeOwners = () => {
 
       {/* SEO Tags */}
       <SEOHelmet
-        title="SME Owner Solutions - Seasalt.ai"
-        description="You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business."
+        title={t('solutions.smeOwners.seo.title')}
+        description={t('solutions.smeOwners.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -149,33 +149,31 @@ const SmeOwners = () => {
               <div>
                 <Link to="/" className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
                   <ArrowLeft className="h-5 w-5 mr-2" />
-                  Back to Home
+                  {t('solutions.smeOwners.navigation.backToHome')}
                 </Link>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                  Stop Juggling.{' '}
+                  {t('solutions.smeOwners.hero.title.part1')}{' '}
                   <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                    Start Scaling.
+                    {t('solutions.smeOwners.hero.title.part2')}
                   </span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 mb-8">
-                  The AI-Powered Communication Hub for SME Owners Who Wear Multiple Hats
+                  {t('solutions.smeOwners.hero.subtitle')}
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
-                  You're the CEO, sales team, marketing department, and customer support all in one. 
-                  Seasalt.ai gives you an AI assistant that handles routine communications so you can 
-                  focus on growing your business.
+                  {t('solutions.smeOwners.hero.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://seax.seasalt.ai/signup"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Get Your AI Assistant
+                    {t('solutions.smeOwners.hero.cta.getAssistant')}
                   </a>
                   <a
                      href={getMeetingUrl(i18n.language)} className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                   >
-                    Book A Demo
+                    {t('solutions.smeOwners.hero.cta.bookDemo')}
                   </a>
                 </div>
               </div>
@@ -185,24 +183,24 @@ const SmeOwners = () => {
                   <div className="bg-white rounded-2xl shadow-2xl p-6">
                     <div className="flex items-center mb-4">
                       <Briefcase className="h-8 w-8 text-blue-600 mr-3" />
-                      <h3 className="text-lg font-semibold">SME Owner Dashboard</h3>
+                      <h3 className="text-lg font-semibold">{t('solutions.smeOwners.hero.dashboard.title')}</h3>
                     </div>
                     <div className="space-y-3">
                       <div className="bg-green-50 p-3 rounded-lg border-l-4 border-green-500">
-                        <p className="text-sm font-medium text-green-800">🤖 AI handled 23 inquiries today</p>
-                        <p className="text-xs text-green-600">Saved you 3.5 hours</p>
+                        <p className="text-sm font-medium text-green-800">{t('solutions.smeOwners.hero.dashboard.aiHandledInquiries')}</p>
+                        <p className="text-xs text-green-600">{t('solutions.smeOwners.hero.dashboard.timeSaved')}</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                        <p className="text-sm font-medium text-blue-800">📅 5 appointments booked automatically</p>
-                        <p className="text-xs text-blue-600">While you were in meetings</p>
+                        <p className="text-sm font-medium text-blue-800">{t('solutions.smeOwners.hero.dashboard.appointmentsBooked')}</p>
+                        <p className="text-xs text-blue-600">{t('solutions.smeOwners.hero.dashboard.whileInMeetings')}</p>
                       </div>
                       <div className="bg-purple-50 p-3 rounded-lg border-l-4 border-purple-500">
-                        <p className="text-sm font-medium text-purple-800">💬 12 leads qualified and prioritized</p>
-                        <p className="text-xs text-purple-600">Ready for your personal follow-up</p>
+                        <p className="text-sm font-medium text-purple-800">{t('solutions.smeOwners.hero.dashboard.leadsQualified')}</p>
+                        <p className="text-xs text-purple-600">{t('solutions.smeOwners.hero.dashboard.readyForFollowup')}</p>
                       </div>
                       <div className="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
-                        <p className="text-sm font-medium text-orange-800">📱 SMS campaign: 89% open rate</p>
-                        <p className="text-xs text-orange-600">3 new customers acquired</p>
+                        <p className="text-sm font-medium text-orange-800">{t('solutions.smeOwners.hero.dashboard.smsCampaign')}</p>
+                        <p className="text-xs text-orange-600">{t('solutions.smeOwners.hero.dashboard.newCustomers')}</p>
                       </div>
                     </div>
                   </div>
@@ -217,11 +215,10 @@ const SmeOwners = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                The SME Owner's Dilemma
+                {t('solutions.smeOwners.challenges.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Running a small business means wearing multiple hats. But that shouldn't mean 
-                drowning in routine communications.
+                {t('solutions.smeOwners.challenges.description')}
               </p>
             </div>
 
@@ -251,11 +248,10 @@ const SmeOwners = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Your AI-Powered Solution
+                {t('solutions.smeOwners.solutions.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Seasalt.ai acts as your virtual team member, handling routine tasks so you can 
-                focus on what only you can do - growing your business.
+                {t('solutions.smeOwners.solutions.description')}
               </p>
             </div>
 
@@ -278,7 +274,7 @@ const SmeOwners = () => {
                       </p>
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Benefits:</h4>
+                      <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('solutions.smeOwners.solutions.keyBenefits')}</h4>
                       <ul className="space-y-3">
                         {solution.benefits.map((benefit, benefitIndex) => (
                           <li key={benefitIndex} className="flex items-start">
@@ -300,10 +296,10 @@ const SmeOwners = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Real SME Owner Scenarios
+                {t('solutions.smeOwners.useCases.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how other business owners like you are using Seasalt.ai to scale their operations
+                {t('solutions.smeOwners.useCases.description')}
               </p>
             </div>
 
@@ -314,11 +310,11 @@ const SmeOwners = () => {
                     {useCase.title}
                   </h3>
                   <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-600 mb-2">CHALLENGE:</h4>
+                    <h4 className="text-sm font-semibold text-gray-600 mb-2">{t('solutions.smeOwners.useCases.challengeLabel')}</h4>
                     <p className="text-gray-700 mb-4">{useCase.scenario}</p>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-blue-600 mb-2">SEASALT.AI SOLUTION:</h4>
+                    <h4 className="text-sm font-semibold text-blue-600 mb-2">{t('solutions.smeOwners.useCases.solutionLabel')}</h4>
                     <p className="text-gray-700">{useCase.solution}</p>
                   </div>
                 </div>
@@ -332,10 +328,10 @@ const SmeOwners = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                The SME Owner's ROI
+                {t('solutions.smeOwners.roi.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See the immediate impact on your business operations and growth
+                {t('solutions.smeOwners.roi.description')}
               </p>
             </div>
 
@@ -361,28 +357,27 @@ const SmeOwners = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Stop Juggling and Start Scaling?
+              {t('solutions.smeOwners.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Join thousands of SME owners who've reclaimed their time and scaled their 
-              customer communications with AI automation.
+              {t('solutions.smeOwners.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://seax.seasalt.ai/signup"
                 className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Start Your Free Trial
+                {t('solutions.smeOwners.cta.startTrial')}
               </a>
               <a
                 href={getMeetingUrl(i18n.language)}
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Schedule Personal Demo
+                {t('solutions.smeOwners.cta.scheduleDemo')}
               </a>
             </div>
             <p className="text-white opacity-75 mt-6 text-sm">
-              No credit card required • Setup in under 10 minutes • Cancel anytime
+              {t('solutions.smeOwners.cta.disclaimer')}
             </p>
           </div>
         </section>

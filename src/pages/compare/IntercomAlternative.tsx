@@ -1,53 +1,63 @@
 import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const IntercomAlternative = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
   const comparisonFeatures = [
     {
-      feature: 'Pricing Model',
-      seasalt: 'Simple & predictable per-agent fee',
-      competitor: 'Per-Seat + Per-Resolution + Add-ons',
+      feature: t('compare.intercomAlternative.comparison.features.pricingModel.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.pricingModel.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.pricingModel.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Starting Price',
-      seasalt: '$25/agent/month',
-      competitor: '$29-$39/seat/month',
+      feature: t('compare.intercomAlternative.comparison.features.startingPrice.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.startingPrice.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.startingPrice.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'AI Agent Cost',
-      seasalt: 'Included (usage-based)',
-      competitor: '$0.99 per resolution',
+      feature: t('compare.intercomAlternative.comparison.features.aiAgentCost.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.aiAgentCost.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.aiAgentCost.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Voice Calling',
-      seasalt: 'Yes, native and fully supported',
-      competitor: 'Pay-as-you-go add-on',
+      feature: t('compare.intercomAlternative.comparison.features.voiceCalling.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.voiceCalling.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.voiceCalling.competitor'),
       seasaltAdvantage: true
     },
     {
-      feature: 'Core Focus',
-      seasalt: 'Unified Contact Center',
-      competitor: 'Website Engagement & Support',
+      feature: t('compare.intercomAlternative.comparison.features.coreFocus.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.coreFocus.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.coreFocus.competitor'),
       seasaltAdvantage: false
     },
     {
-      feature: 'Best For',
-      seasalt: 'SMEs needing a complete communication hub for all channels',
-      competitor: 'SaaS and web-based businesses focused on converting and supporting users on their site',
+      feature: t('compare.intercomAlternative.comparison.features.bestFor.name'),
+      seasalt: t('compare.intercomAlternative.comparison.features.bestFor.seasalt'),
+      competitor: t('compare.intercomAlternative.comparison.features.bestFor.competitor'),
       seasaltAdvantage: false
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet 
+        title={t('compare.intercomAlternative.seo.title')}
+        description={t('compare.intercomAlternative.seo.description')}
+        canonicalUrl={`https://www.seasalt.ai/${i18n.language}/compare/intercom-alternative`}
+        availableLanguages={SUPPORTED_LANGUAGES}
+        favicon="/favicon.ico"
+      />
       <Header />
       
       <main className="pt-16">
@@ -56,20 +66,18 @@ const IntercomAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to={`/${i18n.language}/compare-us-overview`} className="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to Compare Us Overview
+              {t('compare.intercomAlternative.navigation.backText')}
             </Link>
             
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Beyond the Website Widget.{' '}
+                {t('compare.intercomAlternative.hero.title.prefix')}{' '}
                 <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
-                  Get a Complete Customer Communication Platform
+                  {t('compare.intercomAlternative.hero.title.highlight')}
                 </span>
               </h1>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                Intercom excels at proactive website engagement with its best-in-class live chat and AI chatbot, Fin. However, its pricing model 
-                is complex and expensive, with separate charges per seat, per AI resolution ($0.99 each), and for add-ons. Voice and SMS are 
-                pay-as-you-go afterthoughts. Seasalt.ai is built as a true contact center, where voice is a primary channel.
+                {t('compare.intercomAlternative.hero.subtitle')}
               </p>
             </div>
           </div>
@@ -80,10 +88,10 @@ const IntercomAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Complete Platform vs. Website-Focused Tool
+                {t('compare.intercomAlternative.comparison.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See why a unified contact center beats a specialized website engagement tool
+                {t('compare.intercomAlternative.comparison.subtitle')}
               </p>
             </div>
 
@@ -92,9 +100,9 @@ const IntercomAlternative = () => {
                 <table className="w-full">
                   <thead className="bg-gray-50">
                     <tr>
-                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Feature</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Seasalt.ai</th>
-                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">Intercom</th>
+                      <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.intercomAlternative.comparison.table.feature')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.intercomAlternative.comparison.table.seasalt')}</th>
+                      <th className="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.intercomAlternative.comparison.table.competitor')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -127,54 +135,54 @@ const IntercomAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Simple vs. Complex Pricing
+                {t('compare.intercomAlternative.pricing.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Why transparent pricing beats per-resolution charges and usage fees
+                {t('compare.intercomAlternative.pricing.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Transparent Pricing</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.intercomAlternative.pricing.seasalt.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-green-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-green-800">$25/agent/month</h4>
-                    <p className="text-green-700 text-sm">Everything included, no surprises</p>
+                    <h4 className="font-semibold text-green-800">{t('compare.intercomAlternative.pricing.seasalt.perAgent.title')}</h4>
+                    <p className="text-green-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.perAgent.description')}</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-blue-800">AI Included</h4>
-                    <p className="text-blue-700 text-sm">Voice and chatbots included in plan</p>
+                    <h4 className="font-semibold text-blue-800">{t('compare.intercomAlternative.pricing.seasalt.aiIncluded.title')}</h4>
+                    <p className="text-blue-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.aiIncluded.description')}</p>
                   </div>
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-purple-800">All Channels</h4>
-                    <p className="text-purple-700 text-sm">Voice, SMS, WhatsApp, chat - no extra fees</p>
+                    <h4 className="font-semibold text-purple-800">{t('compare.intercomAlternative.pricing.seasalt.allChannels.title')}</h4>
+                    <p className="text-purple-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.allChannels.description')}</p>
                   </div>
                   <div className="bg-orange-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-orange-800">Predictable Costs</h4>
-                    <p className="text-orange-700 text-sm">Easy to budget and forecast</p>
+                    <h4 className="font-semibold text-orange-800">{t('compare.intercomAlternative.pricing.seasalt.predictable.title')}</h4>
+                    <p className="text-orange-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.predictable.description')}</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-600 mb-6">Intercom: Complex Billing</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-6">{t('compare.intercomAlternative.pricing.intercom.title')}</h3>
                 <div className="space-y-4">
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">$39/seat/month</h4>
-                    <p className="text-red-700 text-sm">Base price before add-ons</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.basePrice.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.basePrice.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">$0.99 per AI resolution</h4>
-                    <p className="text-red-700 text-sm">Charges for each AI interaction</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.aiResolution.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.aiResolution.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">Pay-per-use Voice</h4>
-                    <p className="text-red-700 text-sm">Voice calling charged separately</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.payPerUse.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.payPerUse.description')}</p>
                   </div>
                   <div className="bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-red-800">Unpredictable Bills</h4>
-                    <p className="text-red-700 text-sm">Costs vary based on usage</p>
+                    <h4 className="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.unpredictable.title')}</h4>
+                    <p className="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.unpredictable.description')}</p>
                   </div>
                 </div>
               </div>
@@ -187,64 +195,64 @@ const IntercomAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Real-World Cost Scenarios
+                {t('compare.intercomAlternative.scenarios.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                See how Intercom's per-resolution pricing can quickly add up
+                {t('compare.intercomAlternative.scenarios.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">Light Usage</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.light.title')}</h3>
                 <div className="space-y-3">
                   <div className="text-center">
-                    <div className="text-sm text-gray-600 mb-2">3 agents, 100 AI resolutions/month</div>
+                    <div className="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.light.description')}</div>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-green-600 text-center">$75/mo</div>
-                    <div className="text-sm text-green-700 text-center">Seasalt.ai</div>
+                    <div className="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.light.seasalt.price')}</div>
+                    <div className="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.light.seasalt.label')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-red-600 text-center">$216/mo</div>
-                    <div className="text-sm text-red-700 text-center">Intercom</div>
-                    <div className="text-xs text-red-600 text-center mt-1">($117 base + $99 AI)</div>
+                    <div className="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.light.intercom.price')}</div>
+                    <div className="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.light.intercom.label')}</div>
+                    <div className="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.light.intercom.breakdown')}</div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">Medium Usage</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.medium.title')}</h3>
                 <div className="space-y-3">
                   <div className="text-center">
-                    <div className="text-sm text-gray-600 mb-2">5 agents, 300 AI resolutions/month</div>
+                    <div className="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.medium.description')}</div>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-green-600 text-center">$150/mo</div>
-                    <div className="text-sm text-green-700 text-center">Seasalt.ai</div>
+                    <div className="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.medium.seasalt.price')}</div>
+                    <div className="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.medium.seasalt.label')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-red-600 text-center">$492/mo</div>
-                    <div className="text-sm text-red-700 text-center">Intercom</div>
-                    <div className="text-xs text-red-600 text-center mt-1">($195 base + $297 AI)</div>
+                    <div className="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.medium.intercom.price')}</div>
+                    <div className="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.medium.intercom.label')}</div>
+                    <div className="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.medium.intercom.breakdown')}</div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">Heavy Usage</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.heavy.title')}</h3>
                 <div className="space-y-3">
                   <div className="text-center">
-                    <div className="text-sm text-gray-600 mb-2">10 agents, 1000 AI resolutions/month</div>
+                    <div className="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.heavy.description')}</div>
                   </div>
                   <div className="bg-green-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-green-600 text-center">$275/mo</div>
-                    <div className="text-sm text-green-700 text-center">Seasalt.ai</div>
+                    <div className="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.heavy.seasalt.price')}</div>
+                    <div className="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.heavy.seasalt.label')}</div>
                   </div>
                   <div className="bg-red-50 p-3 rounded-lg">
-                    <div className="text-lg font-bold text-red-600 text-center">$1,380/mo</div>
-                    <div className="text-sm text-red-700 text-center">Intercom</div>
-                    <div className="text-xs text-red-600 text-center mt-1">($390 base + $990 AI)</div>
+                    <div className="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.heavy.intercom.price')}</div>
+                    <div className="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.heavy.intercom.label')}</div>
+                    <div className="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.heavy.intercom.breakdown')}</div>
                   </div>
                 </div>
               </div>
@@ -257,70 +265,70 @@ const IntercomAlternative = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Complete Channel Coverage vs. Website Focus
+                {t('compare.intercomAlternative.channels.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Why businesses need more than just website engagement
+                {t('compare.intercomAlternative.channels.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-blue-600 mb-6">Seasalt.ai: Complete Coverage</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{t('compare.intercomAlternative.channels.seasalt.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Native voice calling and phone system</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.voice')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">WhatsApp Business integration</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.whatsapp')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">SMS marketing and support</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.sms')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Social media messaging (Instagram, Facebook)</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.social')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Website chat and contact forms</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.website')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Unified inbox for all channels</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.unified')}</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-purple-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold text-purple-600 mb-6">Intercom: Website-Focused</h3>
+                <h3 className="text-2xl font-bold text-purple-600 mb-6">{t('compare.intercomAlternative.channels.intercom.title')}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Excellent website chat and engagement</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.websiteChat')}</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Proactive messaging and targeting</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.proactive')}</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Voice calling as pay-per-use add-on</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.voiceAddon')}</span>
                   </li>
                   <li className="flex items-start">
                     <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Limited SMS capabilities</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.smsLimited')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">No native WhatsApp Business integration</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.noWhatsapp')}</span>
                   </li>
                   <li className="flex items-start">
                     <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
-                    <span className="text-gray-700">No social media messaging support</span>
+                    <span className="text-gray-700">{t('compare.intercomAlternative.channels.intercom.noSocial')}</span>
                   </li>
                 </ul>
               </div>
@@ -332,23 +340,22 @@ const IntercomAlternative = () => {
         <section className="py-20 bg-gradient-to-r from-purple-600 to-purple-700">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready for Complete Customer Communication?
+              {t('compare.intercomAlternative.cta.title')}
             </h2>
             <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-              Stop paying per resolution and get a complete platform that covers 
-              all your customer communication needs at a predictable price.
+              {t('compare.intercomAlternative.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                  href="https://seax.seasalt.ai/signup"
                  className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
                >
-                 Sign Up
+                 {t('compare.intercomAlternative.cta.signUp')}
               </a>
               <a
                 href={getMeetingUrl(i18n.language)} className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
               >
-                Book A Demo
+                {t('compare.intercomAlternative.cta.bookDemo')}
               </a>
             </div>
           </div>
