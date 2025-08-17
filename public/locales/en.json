@@ -2866,41 +2866,35 @@
         "downloadText": "Download the Product Logo & Press Kit",
         "description": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide."
       }
+    },
+    "newsletter": {
+      "title": "Sign Up to Our Newsletter",
+      "subtitle": "One per week, written by the CEO",
+      "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
+      "emailPlaceholder": "Enter your email address",
+      "cta": "Subscribe",
+      "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Small & Medium Businesses",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "campaignMessaging": "Campaign Messaging",
+      "speechAnalysis": "Speech Analysis"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Get approved for Twilio SMS campaigns",
+      "bulkSendSms": "Bulk send SMS",
+      "whatsappCustomers": "WhatsApp your customers",
+      "callCustomersBatch": "Call your customers in batch",
+      "autoAnswerCalls": "Auto-answer calls 24/7",
+      "voiceAiSeniors": "Voice AI calls to check on seniors",
+      "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
+      "conversationalGenAi": "Conversational GenAI for classrooms",
+      "winCampaigns": "Win campaigns with automated texts & calls",
+      "transcribeAudio": "Transcribe audio & calls to discover insights",
+      "meetingAnalytics": "Meeting analytics for remote teams"
     }
-  },
-  "newsletter": {
-    "title": "Sign Up to Our Newsletter",
-    "subtitle": "One per week, written by the CEO",
-    "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
-    "emailPlaceholder": "Enter your email address",
-    "cta": "Subscribe",
-    "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
-  },
-  "seo": {
-    "mainTitle": "Seasalt.ai - Omni-Channel Contact Center for Small Businesses",
-    "channelsTitle": "Communication Channels - Seasalt.ai",
-    "compareTitle": "Compare Seasalt.ai to Alternatives",
-    "companyTitle": "About Seasalt.ai - Company Information & Leadership"
-  },
-  "useCaseCategories": {
-    "smallMediumBusinesses": "Small & Medium Businesses",
-    "healthcare": "Healthcare",
-    "education": "Education",
-    "campaignMessaging": "Campaign Messaging",
-    "speechAnalysis": "Speech Analysis"
-  },
-  "useCaseLinks": {
-    "getTwilioApproval": "Get approved for Twilio SMS campaigns",
-    "bulkSendSms": "Bulk send SMS",
-    "whatsappCustomers": "WhatsApp your customers",
-    "callCustomersBatch": "Call your customers in batch",
-    "autoAnswerCalls": "Auto-answer calls 24/7",
-    "voiceAiSeniors": "Voice AI calls to check on seniors",
-    "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
-    "conversationalGenAi": "Conversational GenAI for classrooms",
-    "winCampaigns": "Win campaigns with automated texts & calls",
-    "transcribeAudio": "Transcribe audio & calls to discover insights",
-    "meetingAnalytics": "Meeting analytics for remote teams"
   },
   "solutions": {
     "salesMarketing": {

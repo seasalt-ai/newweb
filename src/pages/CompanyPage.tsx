@@ -45,28 +45,28 @@ const CompanyPage = () => {
   const coreValues = [
     {
       icon: Users,
-      titleKey: t('company.values.humanFirst.title'),
-      descriptionKey: t('company.values.humanFirst.description')
+      titleKey: 'company.values.humanFirst.title',
+      descriptionKey: 'company.values.humanFirst.description'
     },
     {
       icon: Eye,
-      titleKey: t('company.values.transparency.title'),
-      descriptionKey: t('company.values.transparency.description')
+      titleKey: 'company.values.transparency.title',
+      descriptionKey: 'company.values.transparency.description'
     },
     {
       icon: Zap,
-      titleKey: t('company.values.speedSafety.title'),
-      descriptionKey: t('company.values.speedSafety.description')
+      titleKey: 'company.values.speedSafety.title',
+      descriptionKey: 'company.values.speedSafety.description'
     },
     {
       icon: Target,
-      titleKey: t('company.values.buildPurpose.title'),
-      descriptionKey: t('company.values.buildPurpose.description')
+      titleKey: 'company.values.buildPurpose.title',
+      descriptionKey: 'company.values.buildPurpose.description'
     },
     {
       icon: Heart,
-      titleKey: t('company.values.globalEmpathy.title'),
-      descriptionKey: t('company.values.globalEmpathy.description')
+      titleKey: 'company.values.globalEmpathy.title',
+      descriptionKey: 'company.values.globalEmpathy.description'
     }
   ];
 
@@ -217,8 +217,8 @@ const CompanyPage = () => {
                       <value.icon className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-gray-900 mb-2">{value.titleKey}</h4>
-                      <p className="text-gray-600">{value.descriptionKey}</p>
+                      <h4 className="text-xl font-semibold text-gray-900 mb-2">{t('value.titleKey')}</h4>
+                      <p className="text-gray-600">{t('value.descriptionKey')}</p>
                     </div>
                   </div>
                 ))}
