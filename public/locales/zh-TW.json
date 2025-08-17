@@ -2874,38 +2874,27 @@
       "emailPlaceholder": "輸入您的電子郵件地址",
       "cta": "訂閱",
       "disclaimer": "不發垃圾郵件，可隨時取消訂閱。我們尊重您的隱私。"
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "中小型企業",
+      "healthcare": "醫療保健",
+      "education": "教育",
+      "campaignMessaging": "行銷活動訊息",
+      "speechAnalysis": "語音分析"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "獲得 Twilio 簡訊活動核准",
+      "bulkSendSms": "批量傳送簡訊",
+      "whatsappCustomers": "透過 WhatsApp 聯絡客戶",
+      "callCustomersBatch": "批量撥打客戶電話",
+      "autoAnswerCalls": "全天候自動接聽來電",
+      "voiceAiSeniors": "語音 AI 致電關懷長者",
+      "hospitalAnalytics": "醫院電話通話分析儀表板",
+      "conversationalGenAi": "教室會話式生成式 AI",
+      "winCampaigns": "透過自動化簡訊與電話贏得行銷活動",
+      "transcribeAudio": "轉錄音訊與通話以發掘洞察",
+      "meetingAnalytics": "遠端團隊會議分析"
     }
-  },
-  "contact": {
-    "phone": "+1 (SMB)-AI-AGENT",
-    "email": "info@seasalt.ai",
-    "location": "Seattle, WA"
-  },
-  "seo": {
-    "mainTitle": "Seasalt.ai - 中小企業全渠道聯絡中心",
-    "channelsTitle": "溝通渠道 - Seasalt.ai",
-    "compareTitle": "比較 Seasalt.ai 與替代方案",
-    "companyTitle": "關於 Seasalt.ai - 公司資訊與領導團隊"
-  },
-  "useCaseCategories": {
-    "smallMediumBusinesses": "中小型企業",
-    "healthcare": "醫療保健",
-    "education": "教育",
-    "campaignMessaging": "行銷活動訊息",
-    "speechAnalysis": "語音分析"
-  },
-  "useCaseLinks": {
-    "getTwilioApproval": "獲得 Twilio 簡訊活動核准",
-    "bulkSendSms": "批量傳送簡訊",
-    "whatsappCustomers": "透過 WhatsApp 聯絡客戶",
-    "callCustomersBatch": "批量撥打客戶電話",
-    "autoAnswerCalls": "全天候自動接聽來電",
-    "voiceAiSeniors": "語音 AI 致電關懷長者",
-    "hospitalAnalytics": "醫院電話通話分析儀表板",
-    "conversationalGenAi": "教室會話式生成式 AI",
-    "winCampaigns": "透過自動化簡訊與電話贏得行銷活動",
-    "transcribeAudio": "轉錄音訊與通話以發掘洞察",
-    "meetingAnalytics": "遠端團隊會議分析"
   },
   "solutions": {
     "salesMarketing": {
