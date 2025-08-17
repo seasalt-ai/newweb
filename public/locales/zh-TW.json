@@ -2616,20 +2616,20 @@
   },
   "careers": {
     "seo": {
-      "title": "Seasalt.ai 招聘資訊",
-      "description": "加入 Seasalt.ai，透過 AI 驅動的解決方案改造醫療服務。探索我們的使命、願景與開放職缺。"
+      "title": "加入 Seasalt.ai 的職涯機會",
+      "description": "探索在 Seasalt.ai 的職涯機會。加入我們的使命，用 AI 改變商業通訊的世界。"
     },
     "hero": {
-      "title": "加入我們的團隊",
-      "subtitle": "加入 Seasalt.ai，幫助我們使用 AI 驅動的前台解決方案改變醫療服務體驗。"
+      "title": "加入 Seasalt.ai 的職涯機會",
+      "subtitle": "加入我們的使命，用 AI 改變商業通訊的世界。我們聘用全球最優秀、最聰明的人才，來共同實現這場轉變。"
     },
     "mission": {
-      "title": "我們的使命",
-      "content": "賦能醫療提供者，使用 AI 解決方案使患者互動更加順暢高效。"
+      "title": "Seasalt.ai 的使命",
+      "content": "Seasalt.ai 的使命是用 AI 改變商業世界。我們聘用全球最優秀、最聰明的人才，來共同實現這場轉變。"
     },
     "vision": {
-      "title": "我們的願景",
-      "content": "成為全球領先的 AI 驅動平台，改造醫療前台運營。"
+      "title": "Seasalt.ai 的願景",
+      "content": "Seasalt.ai 的願景是打造一個人類與 AI 共存的世界。我們以 B2C 的思維解決 B2B 的挑戰。"
     },
     "departments": {
       "business": "商務部門",
@@ -2694,24 +2694,24 @@
   },
   "company": {
     "seo": {
-      "title": "關於 Seasalt.ai",
-      "description": "Seasalt.ai 正透過 AI 驅動的前台解決方案改造醫療保健。了解我們的使命、願景、領導團隊、產品及全球布局。"
+      "title": "關於 Seasalt.ai - 公司資訊與領導團隊",
+      "description": "了解 Seasalt.ai，一家領先的雲端通訊 AI 技術解決方案提供商。由 AI 專家創立，我們正在透過全通路 AI 平台改變企業通訊模式。"
     },
     "hero": {
-      "title": "以 AI 改造醫療保健",
-      "description": "Seasalt.ai 利用尖端 AI 與語音技術，革新患者與客戶在多渠道的互動體驗。",
-      "subtitle": "為醫療服務提供無縫、多語言、全渠道的體驗。"
+      "title": "關於 Seasalt.ai",
+      "description": "Seasalt.ai 是領先的雲端通訊 AI 技術解決方案提供商，為全球企業打造統一的、多語言的、全通路的平台。Seasalt.ai 由 AI 與語音技術領域的資深專家於 2020 年創立，使命是讓企業級對話式 AI 對所有人都能夠觸手可及、安全且具備擴展性。",
+      "subtitle": "從中小企業到非營利組織，再到公共部門，Seasalt.ai 讓團隊能夠自動化通訊、提升客戶體驗，並開啟新的成長管道。"
     },
     "mission": {
-      "title": "我們的使命",
-      "heading": "賦能醫療服務提供者",
-      "text": "我們創建 AI 解決方案以簡化前台操作並提升患者參與度。",
-      "statement": "以人為本的 AI，提升效率與醫療品質。",
-      "future": "致力於持續創新並擴大全球影響力。"
+      "title": "我們的使命與價值觀",
+      "heading": "我們的使命",
+      "text": "以 AI 改變商業通訊的世界——在任何地方、任何通道，建立自然且可行動的對話。",
+      "statement": "我們打造能夠對話、傾聽並採取行動的 AI 智能體 —— 橫跨訊息、語音與網路 —— 讓人類專注於真正重要的事物。",
+      "future": "我們相信工作的未來是 AI 輔助，而非 AI 取代。我們的技術幫助人們更好、更快、更有意義地完成工作。"
     },
     "vision": {
       "heading": "我們的願景",
-      "text": "成為全球領先的 AI 驅動平台，改造醫療前台運營。"
+      "text": "打造一個人類與 AI 無縫協作的世界，實現根植於簡單、信任與技術卓越的商業價值。"
     },
     "values": {
       "title": "核心價值",
@@ -2874,38 +2874,27 @@
       "emailPlaceholder": "輸入您的電子郵件地址",
       "cta": "訂閱",
       "disclaimer": "不發垃圾郵件，可隨時取消訂閱。我們尊重您的隱私。"
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "中小型企業",
+      "healthcare": "醫療保健",
+      "education": "教育",
+      "campaignMessaging": "行銷活動訊息",
+      "speechAnalysis": "語音分析"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "獲得 Twilio 簡訊活動核准",
+      "bulkSendSms": "批量傳送簡訊",
+      "whatsappCustomers": "透過 WhatsApp 聯絡客戶",
+      "callCustomersBatch": "批量撥打客戶電話",
+      "autoAnswerCalls": "全天候自動接聽來電",
+      "voiceAiSeniors": "語音 AI 致電關懷長者",
+      "hospitalAnalytics": "醫院電話通話分析儀表板",
+      "conversationalGenAi": "教室會話式生成式 AI",
+      "winCampaigns": "透過自動化簡訊與電話贏得行銷活動",
+      "transcribeAudio": "轉錄音訊與通話以發掘洞察",
+      "meetingAnalytics": "遠端團隊會議分析"
     }
-  },
-  "contact": {
-    "phone": "+1 (SMB)-AI-AGENT",
-    "email": "info@seasalt.ai",
-    "location": "Seattle, WA"
-  },
-  "seo": {
-    "mainTitle": "Seasalt.ai - 中小企業全渠道聯絡中心",
-    "channelsTitle": "溝通渠道 - Seasalt.ai",
-    "compareTitle": "比較 Seasalt.ai 與替代方案",
-    "companyTitle": "關於 Seasalt.ai - 公司資訊與領導團隊"
-  },
-  "useCaseCategories": {
-    "smallMediumBusinesses": "中小型企業",
-    "healthcare": "醫療保健",
-    "education": "教育",
-    "campaignMessaging": "行銷活動訊息",
-    "speechAnalysis": "語音分析"
-  },
-  "useCaseLinks": {
-    "getTwilioApproval": "獲得 Twilio 簡訊活動核准",
-    "bulkSendSms": "批量傳送簡訊",
-    "whatsappCustomers": "透過 WhatsApp 聯絡客戶",
-    "callCustomersBatch": "批量撥打客戶電話",
-    "autoAnswerCalls": "全天候自動接聽來電",
-    "voiceAiSeniors": "語音 AI 致電關懷長者",
-    "hospitalAnalytics": "醫院電話通話分析儀表板",
-    "conversationalGenAi": "教室會話式生成式 AI",
-    "winCampaigns": "透過自動化簡訊與電話贏得行銷活動",
-    "transcribeAudio": "轉錄音訊與通話以發掘洞察",
-    "meetingAnalytics": "遠端團隊會議分析"
   },
   "solutions": {
     "salesMarketing": {
