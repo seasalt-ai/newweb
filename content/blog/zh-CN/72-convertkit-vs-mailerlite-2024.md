@@ -93,4 +93,4 @@ url: /blog/convertkit-vs-mailerlite-2025/
 
 无论您选择哪种电子邮件营销服务，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子邮件营销平台无缝集成。您可以从 SeaChat AI 代理收集电子邮件和潜在客户，并将它们直接同步到您的电子邮件营销列表。
 
-在 10 分钟内设置并启动 AI 聊天代理。多语言支持。实时代理转接。与 Webchat、SMS、LINE、CRM、Shopify、日历、Twilio、Zendesk 和电话集成。欲了解更多详情，请发送电子邮件至 [seachat@seasalt.ai](mailto:help@seameet.ai) 或[预订演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+在 10 分钟内设置并启动 AI 聊天代理。多语言支持。实时代理转接。与 Webchat、SMS、LINE、CRM、Shopify、日历、Twilio、Zendesk 和电话集成。欲了解更多详情，请发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[预订演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。

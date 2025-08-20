@@ -103,4 +103,4 @@ Mailchimp adalah nama yang lebih besar. Ini mungkin menjadi faktor jika mencari 
 
 Tidak kira apa yang anda pilih untuk perkhidmatan pemasaran e-mel anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) berintegrasi dengan baik dengan majoriti platform pemasaran e-mel. Anda boleh mengumpul e-mel dan petunjuk daripada ejen SeaChat AI dan menyegerakkan terus ke senarai pemasaran e-mel anda.
 
-Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan pelbagai bahasa. Pemindahan ejen langsung. Bersepadu dengan sembang web, SMS, Talian, CRM, Shopify, kalendar, Twilio, ZenDesk dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:help@seameet.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan pelbagai bahasa. Pemindahan ejen langsung. Bersepadu dengan sembang web, SMS, Talian, CRM, Shopify, kalendar, Twilio, ZenDesk dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

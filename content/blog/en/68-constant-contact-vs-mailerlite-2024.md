@@ -138,4 +138,4 @@ MailerLite maintains excellent email deliverability rates. According to [​​E
 
 No matter what you end up choosing for your email marketing service, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of email marketing platforms. You can collect the emails and leads from SeaChat AI agent and sync directly to your email marketing list. 
 
-Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:help@seameet.ai) or [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 

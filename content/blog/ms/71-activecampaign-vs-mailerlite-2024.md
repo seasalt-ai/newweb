@@ -92,4 +92,4 @@ Pilih **ActiveCampaign** jika anda perlukan automasi canggih, integrasi CRM dan 
 
 Tidak kira perkhidmatan pemasaran e-mel mana yang anda pilih, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) boleh diintegrasikan dengan kebanyakan platform pemasaran e-mel. Anda boleh mengumpul e-mel dan prospek dari ejen AI SeaChat dan menyegerakkannya terus ke senarai pemasaran e-mel anda.
 
-Bina dan lancarkan ejen chat AI dalam masa 10 minit. Sokongan pelbagai bahasa. Pemindahan ejen segera. Integrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk dan telefon. Untuk maklumat lanjut, e-mel ke [seachat@seasalt.ai](mailto:help@seameet.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+Bina dan lancarkan ejen chat AI dalam masa 10 minit. Sokongan pelbagai bahasa. Pemindahan ejen segera. Integrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk dan telefon. Untuk maklumat lanjut, e-mel ke [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 

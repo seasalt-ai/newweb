@@ -103,4 +103,4 @@ Mailchimp 是一個更大的品牌。如果您正在為客戶尋找具有即時�
 
 無論您最終選擇哪種電子郵件行銷服務，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能與大多數電子郵件行銷平台很好地整合。您可以從 SeaChat AI 代理收集電子郵件和潛在客戶，並直接同步到您的電子郵件行銷清單。
 
-在 10 分鐘內構建並啟動 AI 聊天代理。多語言支援。即時代理轉接。與網路聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk 和電話整合。請發送電子郵件至 [seachat@seasalt.ai](mailto:help@seameet.ai) 或[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)以獲取更多詳細資訊。
+在 10 分鐘內構建並啟動 AI 聊天代理。多語言支援。即時代理轉接。與網路聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk 和電話整合。請發送電子郵件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)以獲取更多詳細資訊。

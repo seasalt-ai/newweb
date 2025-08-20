@@ -83,7 +83,7 @@ Bagaimana jika anda menyukai kuasa reka bentuk Squarespace tetapi mengidamkan al
 
 ## Anda boleh melakukan lebih banyak dengan SeaChat
 
-Tidak kira apa yang anda pilih untuk perniagaan dalam talian anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) berintegrasi dengan baik dengan kebanyakan pembina laman web e-dagang. Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:help@seameet.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Tidak kira apa yang anda pilih untuk perniagaan dalam talian anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) berintegrasi dengan baik dengan kebanyakan pembina laman web e-dagang. Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
 
 SeaChat menawarkan integrasi yang lancar dengan Shopify dan Squarespace. Lihat cara menambah sembang AI dan ejen ke kedai Shopify dan Squarespace anda sekarang:
 

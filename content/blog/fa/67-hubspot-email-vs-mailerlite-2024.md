@@ -97,4 +97,4 @@ url: /blog/hubspot-email-vs-mailerlite/
 
 مهم نیست که چه سرویس بازاریابی ایمیلی را انتخاب می‌کنید، [SeaChat](https://chat.seasalt.ai/?utm_source=blog) به خوبی با اکثر پلتفرم‌های بازاریابی ایمیلی ادغام می‌شود. می‌توانید ایمیل‌ها و سرنخ‌ها را از عامل هوش مصنوعی SeaChat جمع‌آوری کرده و مستقیماً با لیست بازاریابی ایمیلی خود همگام‌سازی کنید.
 
-عامل چت هوش مصنوعی را در 10 دقیقه بسازید و راه‌اندازی کنید. پشتیبانی چندزبانه. انتقال عامل زنده. با چت وب، پیامک، لاین، CRM، Shopify، تقویم‌ها، Twilio، ZenDesk و تماس‌های تلفنی ادغام می‌شود. برای جزئیات بیشتر به ما ایمیل بزنید: [seachat@seasalt.ai](mailto:help@seameet.ai) یا [یک دمو رزرو کنید](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+عامل چت هوش مصنوعی را در 10 دقیقه بسازید و راه‌اندازی کنید. پشتیبانی چندزبانه. انتقال عامل زنده. با چت وب، پیامک، لاین، CRM، Shopify، تقویم‌ها، Twilio، ZenDesk و تماس‌های تلفنی ادغام می‌شود. برای جزئیات بیشتر به ما ایمیل بزنید: [seachat@seasalt.ai](mailto:seachat@seasalt.ai) یا [یک دمو رزرو کنید](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

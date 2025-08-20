@@ -103,4 +103,4 @@ O Mailchimp é o nome maior. Isso pode ser um fator se você estiver procurando 
 
 Não importa o que você acabe escolhendo para o seu serviço de email marketing, o [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integra bem com a maioria das plataformas de email marketing. Você pode coletar os emails e leads do agente de IA do SeaChat e sincronizar diretamente com sua lista de email marketing.
 
-Crie e lance um agente de bate-papo de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um email para mais detalhes em [seachat@seasalt.ai](mailto:help@seameet.ai) ou [agende uma demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Crie e lance um agente de bate-papo de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um email para mais detalhes em [seachat@seasalt.ai](mailto:seachat@seasalt.ai) ou [agende uma demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

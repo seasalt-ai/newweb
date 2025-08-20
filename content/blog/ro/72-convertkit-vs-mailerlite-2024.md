@@ -93,4 +93,4 @@ Cu toate acestea, conform [​​Email Deliverability June 2023](https://www.ema
 
 Indiferent ce alegi pentru serviciul tău de marketing prin e-mail, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integrează bine cu majoritatea platformelor de marketing prin e-mail. Poți colecta e-mailurile și lead-urile de la agentul AI SeaChat și le poți sincroniza direct cu lista ta de marketing prin e-mail. 
 
-Construiește și lansează un agent de chat AI în 10 minute. Suport multilingv. Transfer de agent live. Integrează cu webchat, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimite-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:help@seameet.ai) sau [rezervă o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Construiește și lansează un agent de chat AI în 10 minute. Suport multilingv. Transfer de agent live. Integrează cu webchat, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimite-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:seachat@seasalt.ai) sau [rezervă o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
