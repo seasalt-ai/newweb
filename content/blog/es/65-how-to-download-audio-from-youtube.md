@@ -158,11 +158,11 @@ En general, si bien YouTube ofrece valiosos recursos de audio, es vital usarlos 
 
 # ¿Por qué hacerlo todo usted mismo?
 
-Si bien descargar audio de YouTube puede ser útil, ¿por qué detenerse ahí? Lleve su procesamiento de audio al siguiente nivel con [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Si bien descargar audio de YouTube puede ser útil, ¿por qué detenerse ahí? Lleve su procesamiento de audio al siguiente nivel con [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet ofrece transcripciones y resúmenes precisos en tiempo real para todas sus necesidades de audio.** Ya sea que esté teniendo una reunión, grabando un podcast o simplemente quiera tener una transcripción de una conversación, SeaMeet proporciona transcripciones instantáneas y de alta calidad y resúmenes perspicaces. Esta poderosa herramienta puede ahorrarle horas de trabajo manual y ayudarlo a extraer el máximo valor de su contenido de audio.
 
-[Regístrese en SeaMeet hoy mismo](https://meet.seasalt.ai/?utm_source=blog) y experimente la alegría de rastrear su conversación.
+[Regístrese en SeaMeet hoy mismo](https://seameet.ai/?utm_source=blog) y experimente la alegría de rastrear su conversación.
 
 # Más de la serie Audio Toolbox
 

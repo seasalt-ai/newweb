@@ -18,9 +18,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Rezumat cheie**
 > - Duet AI poate îmbunătăți eficiența întâlnirilor în Google Meet, dar nu acceptă încă limba chineză: [Aflați mai multe](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> - SeaMeet oferă un Copilot AI pentru întâlniri, special pentru utilizatorii chinezi, în special pentru utilizatorii de chineză tradițională: [Aflați mai multe](https://meet.seasalt.ai/?utm_source=blog)
+> - SeaMeet oferă un Copilot AI pentru întâlniri, special pentru utilizatorii chinezi, în special pentru utilizatorii de chineză tradițională: [Aflați mai multe](https://seameet.ai/?utm_source=blog)
 
-În era globalizării, importanța instrumentelor de colaborare este din ce în ce mai evidentă, mai ales într-un mediu multilingv. Google Duet AI, ca un instrument avansat de colaborare, oferă o serie de funcții pentru a îmbunătăți eficiența întâlnirilor și a colaborării. Cu toate acestea, în prezent nu oferă suport pentru limba chineză, ceea ce poate aduce anumite inconveniente utilizatorilor chinezi, în special utilizatorilor de chineză tradițională. Din fericire, există și alte instrumente de colaborare, cum ar fi [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), care pot oferi soluții eficiente pentru utilizatorii chinezi.
+În era globalizării, importanța instrumentelor de colaborare este din ce în ce mai evidentă, mai ales într-un mediu multilingv. Google Duet AI, ca un instrument avansat de colaborare, oferă o serie de funcții pentru a îmbunătăți eficiența întâlnirilor și a colaborării. Cu toate acestea, în prezent nu oferă suport pentru limba chineză, ceea ce poate aduce anumite inconveniente utilizatorilor chinezi, în special utilizatorilor de chineză tradițională. Din fericire, există și alte instrumente de colaborare, cum ar fi [SeaMeet](https://seameet.ai/?utm_source=blog), care pot oferi soluții eficiente pentru utilizatorii chinezi.
 
 # Avantajele Google Duet AI în funcțiile de întâlnire
 
@@ -49,7 +49,7 @@ SeaMeet este o platformă de colaborare concepută pentru utilizatorii chinezi, 
 </center>
 
 
-Suportul chinezesc al SeaMeet nu se limitează doar la interfață și interacțiune, ci oferă și traducere lingvistică și funcții de subtitrare **în timp real** pentru a asigura o comunicare interlingvistică fără bariere. În plus, oferă o serie de instrumente de eficiență a întâlnirilor pentru a ajuta utilizatorii să desfășoare întâlniri și să colaboreze mai eficient. Bine ați venit să [aflați mai multe](https://meet.seasalt.ai/?utm_source=blog) pe site-ul oficial.
+Suportul chinezesc al SeaMeet nu se limitează doar la interfață și interacțiune, ci oferă și traducere lingvistică și funcții de subtitrare **în timp real** pentru a asigura o comunicare interlingvistică fără bariere. În plus, oferă o serie de instrumente de eficiență a întâlnirilor pentru a ajuta utilizatorii să desfășoare întâlniri și să colaboreze mai eficient. Bine ați venit să [aflați mai multe](https://seameet.ai/?utm_source=blog) pe site-ul oficial.
 
 # Perspectivele viitoare ale colaborării interlingvistice
 
@@ -70,4 +70,4 @@ Comparând Google Duet AI și SeaMeet, putem observa că, deși Duet AI oferă u
 
 Vrei și tu să faci întâlnirile echipei tale mai eficiente?
 
-### [>>Începeți experiența gratuită SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Începeți experiența gratuită SeaMeet](https://seameet.ai/?utm_source=blog)

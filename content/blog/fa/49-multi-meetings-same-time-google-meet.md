@@ -44,4 +44,4 @@ SeaMeet ابزاری دستیار جلسات است که برای ارائه ر�
 
 آیا شما هم می‌خواهید جلسات تیم خود را کارآمدتر کنید؟
 
-### >>رایگان با [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) شروع کنید
+### >>رایگان با [SeaMeet](https://seameet.ai/?utm_source=blog) شروع کنید

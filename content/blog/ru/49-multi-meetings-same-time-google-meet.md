@@ -44,4 +44,4 @@ SeaMeet - это инструмент помощника встреч, разр�
 
 Хотите ли вы также сделать встречи вашей команды более эффективными?
 
-### >>Начните бесплатно с [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 
+### >>Начните бесплатно с [SeaMeet](https://seameet.ai/?utm_source=blog) 

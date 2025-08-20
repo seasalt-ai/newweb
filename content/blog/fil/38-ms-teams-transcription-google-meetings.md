@@ -78,4 +78,4 @@ Sa mabilis na pag-unlad ng teknolohiya, ang mga AI meeting assistant ay naging h
 
 Gusto mo bang gawing mas mahusay ang mga pagpupulong ng iyong team?
 
-### [>>Simulan ang paggamit ng SeaMeet nang libre](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Simulan ang paggamit ng SeaMeet nang libre](https://seameet.ai/?utm_source=blog)

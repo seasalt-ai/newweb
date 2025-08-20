@@ -78,4 +78,4 @@ url: /blog/microsoft-teams-transcription-on-google-meetings/
 
 می‌خواهید جلسات تیم خود را کارآمدتر کنید؟
 
-### [>>استفاده از SeaMeet را به صورت رایگان شروع کنید](https://meet.seasalt.ai/?utm_source=blog)
+### [>>استفاده از SeaMeet را به صورت رایگان شروع کنید](https://seameet.ai/?utm_source=blog)

@@ -158,11 +158,11 @@ YouTube 拥有最好的音频收藏之一，但了解法律条款并确保您下
 
 # 为什么要自己做所有事情？
 
-虽然从 YouTube 下载音频可能很有用，但为什么止步于此呢？使用 [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 将您的音频处理提升到新的水平。
+虽然从 YouTube 下载音频可能很有用，但为什么止步于此呢？使用 [SeaMeet](https://seameet.ai/?utm_source=blog) 将您的音频处理提升到新的水平。
 
 **SeaMeet 为您的所有音频需求提供准确、实时的转录和摘要。** 无论您是开会、录制播客，还是只想获得对话转录，SeaMeet 都能提供即时、高质量的转录和富有洞察力的摘要。这个强大的工具可以为您节省数小时的手动工作，并帮助您从音频内容中提取最大价值。
 
-[立即注册 SeaMeet](https://meet.seasalt.ai/?utm_source=blog)，体验跟踪对话的乐趣。
+[立即注册 SeaMeet](https://seameet.ai/?utm_source=blog)，体验跟踪对话的乐趣。
 
 # 音频工具箱系列更多内容
 

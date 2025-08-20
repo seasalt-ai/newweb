@@ -83,7 +83,7 @@ Squarespaceのデザイン力を愛しているが、Shopifyの高度なコマ�
 
 ## SeaChatでできることはもっとたくさんあります
 
-オンラインビジネスで最終的に何を選択するにしても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのEコマースウェブサイトビルダーとよく統合されます。AIチャットエージェントを10分で構築して起動できます。多言語サポート。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。詳細については、[seachat@seasalt.ai](mailto:seameet@seasalt.ai)までメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
+オンラインビジネスで最終的に何を選択するにしても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのEコマースウェブサイトビルダーとよく統合されます。AIチャットエージェントを10分で構築して起動できます。多言語サポート。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。詳細については、[seachat@seasalt.ai](mailto:help@seameet.ai)までメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
 
 SeaChatはShopifyとSquarespaceの両方とシームレスな統合を提供します。ShopifyとSquarespaceストアにAIチャットとエージェントを追加する方法を今すぐ確認してください。
 

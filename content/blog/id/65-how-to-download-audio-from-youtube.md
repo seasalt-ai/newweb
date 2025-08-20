@@ -158,11 +158,11 @@ Secara keseluruhan, meskipun YouTube menawarkan sumber daya audio yang berharga,
 
 # Mengapa melakukan semuanya sendiri?
 
-Meskipun mengunduh audio dari YouTube bisa berguna, mengapa berhenti di situ? Tingkatkan pemrosesan audio Anda ke level berikutnya dengan [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Meskipun mengunduh audio dari YouTube bisa berguna, mengapa berhenti di situ? Tingkatkan pemrosesan audio Anda ke level berikutnya dengan [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet menawarkan transkripsi dan ringkasan yang akurat dan real-time untuk semua kebutuhan audio Anda.** Baik Anda sedang rapat, merekam podcast, atau hanya ingin memiliki transkrip percakapan, SeaMeet menyediakan transkripsi instan berkualitas tinggi dan ringkasan yang berwawasan. Alat canggih ini dapat menghemat jam kerja manual Anda dan membantu Anda mengekstrak nilai maksimum dari konten audio Anda.
 
-[Daftar SeaMeet hari ini](https://meet.seasalt.ai/?utm_source=blog) dan rasakan kegembiraan melacak percakapan Anda.
+[Daftar SeaMeet hari ini](https://seameet.ai/?utm_source=blog) dan rasakan kegembiraan melacak percakapan Anda.
 
 # Lebih Banyak dari Seri Kotak Alat Audio
 

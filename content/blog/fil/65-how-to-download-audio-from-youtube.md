@@ -158,11 +158,11 @@ Sa pangkalahatan, bagama't nag-aalok ang YouTube ng mahahalagang mapagkukunan ng
 
 # Bakit mo gagawin ang lahat ng ito nang mag-isa?
 
-Bagama't maaaring kapaki-pakinabang ang pag-download ng audio mula sa YouTube, bakit titigil doon? Dalhin ang iyong pagproseso ng audio sa susunod na antas gamit ang [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Bagama't maaaring kapaki-pakinabang ang pag-download ng audio mula sa YouTube, bakit titigil doon? Dalhin ang iyong pagproseso ng audio sa susunod na antas gamit ang [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **Nag-aalok ang SeaMeet ng tumpak, real-time na transkripsyon at mga buod para sa lahat ng iyong pangangailangan sa audio.** Kung ikaw ay may pulong, nagre-record ng podcast, o gusto lang magkaroon ng transkripsyon ng pag-uusap, nagbibigay ang SeaMeet ng instant, mataas na kalidad na mga transkripsyon at insightful na mga buod. Ang makapangyarihang tool na ito ay makakatipid sa iyo ng oras ng manual na trabaho at makakatulong sa iyo na makakuha ng maximum na halaga mula sa iyong nilalaman ng audio.
 
-[Mag-sign up para sa SeaMeet ngayon](https://meet.seasalt.ai/?utm_source=blog) at maranasan ang kagalakan ng pagsubaybay sa iyong pag-uusap.
+[Mag-sign up para sa SeaMeet ngayon](https://seameet.ai/?utm_source=blog) at maranasan ang kagalakan ng pagsubaybay sa iyong pag-uusap.
 
 # Higit pa mula sa Audio Toolbox Series
 

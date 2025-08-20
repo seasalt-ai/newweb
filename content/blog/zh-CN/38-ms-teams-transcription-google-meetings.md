@@ -78,4 +78,4 @@ Google Meet推出了一个名为Duet AI的新功能，提供自动字幕翻译�
 
 想让你的团队会议更有效率吗？
 
-### [>>免费开始使用SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>免费开始使用SeaMeet](https://seameet.ai/?utm_source=blog)

@@ -94,4 +94,4 @@ Con la creciente digitalización y globalización de las empresas, la gestión e
 > - La transcripción en tiempo real y el análisis de reuniones no solo pueden mejorar la eficiencia y la eficacia de las reuniones, sino que también pueden mejorar la participación y la satisfacción de los participantes. Al aprovechar estas funciones, las organizaciones pueden garantizar que sus procesos de reunión sean más fluidos y que obtengan el máximo valor de cada reunión.
 
 
-¿También desea tener transcripciones en tiempo real y actas de reuniones para que las reuniones de equipo sean más eficientes? [Inicie una prueba gratuita de SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+¿También desea tener transcripciones en tiempo real y actas de reuniones para que las reuniones de equipo sean más eficientes? [Inicie una prueba gratuita de SeaMeet](https://seameet.ai/?utm_source=blog).

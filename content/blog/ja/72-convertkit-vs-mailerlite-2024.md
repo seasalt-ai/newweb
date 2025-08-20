@@ -93,4 +93,4 @@ MailerLite を選択する場合:
 
 メールマーケティングサービスとして何を選択しても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのメールマーケティングプラットフォームと連携します。SeaChat AIエージェントからメールとリードを収集し、メールマーケティングリストに直接同期できます。 
 
-10分でAIチャットエージェントを構築して起動します。多言語対応。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。[seachat@seasalt.ai](mailto:seameet@seasalt.ai)までメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
+10分でAIチャットエージェントを構築して起動します。多言語対応。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。[seachat@seasalt.ai](mailto:help@seameet.ai)までメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。

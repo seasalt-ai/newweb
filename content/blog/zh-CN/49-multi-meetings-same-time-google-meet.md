@@ -44,4 +44,4 @@ SeaMeet在不同行業中的應用展示了其多樣性。從IT到金融服務�
 
 你也想使團隊會議更高效嗎？
 
-### >>免費開始體驗[SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>免費開始體驗[SeaMeet](https://seameet.ai/?utm_source=blog)

@@ -83,7 +83,7 @@ Squarespace được biết đến nhiều nhất là một công cụ xây dự
 
 ## Bạn có thể làm được nhiều hơn thế với SeaChat
 
-Bất kể bạn chọn gì cho doanh nghiệp trực tuyến của mình, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với hầu hết các nền tảng xây dựng trang web thương mại điện tử. Xây dựng và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển tác nhân trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seameet@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bất kể bạn chọn gì cho doanh nghiệp trực tuyến của mình, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với hầu hết các nền tảng xây dựng trang web thương mại điện tử. Xây dựng và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển tác nhân trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:help@seameet.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
 
 SeaChat cung cấp tích hợp liền mạch với cả Shopify và Squarespace. Hãy xem cách thêm trò chuyện AI và tác nhân vào các cửa hàng Shopify và Squarespace của bạn ngay bây giờ:
 

@@ -78,4 +78,4 @@ SeaMeet ஐ மற்ற இரண்டு தளங்களுடன் ஒ�
 
 உங்கள் குழு கூட்டங்களை மேலும் திறமையாக்க விரும்புகிறீர்களா?
 
-### [>>SeaMeet உடன் இலவசமாக தொடங்குங்கள்](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeet உடன் இலவசமாக தொடங்குங்கள்](https://seameet.ai/?utm_source=blog)

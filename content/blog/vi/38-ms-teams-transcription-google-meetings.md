@@ -78,4 +78,4 @@ Với sự tiến bộ nhanh chóng của công nghệ, trợ lý AI cho cuộc 
 
 Bạn muốn làm cho cuộc họp nhóm của mình hiệu quả hơn?
 
-### [>>Bắt đầu miễn phí với SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Bắt đầu miễn phí với SeaMeet](https://seameet.ai/?utm_source=blog)

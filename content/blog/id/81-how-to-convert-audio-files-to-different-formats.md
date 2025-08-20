@@ -99,7 +99,7 @@ Konversi audio secara langsung, atau konversi audio real-time, sangat penting da
 - Transmisi Latensi Rendah: Dalam aplikasi interaktif seperti komunikasi suara, game online, atau acara langsung, meminimalkan latensi sangat penting untuk menjaga responsivitas real-time dan keterlibatan pengguna. Melakukan konversi audio secara langsung memungkinkan data audio ditransmisikan dengan penundaan minimal, memastikan pengiriman dan pemutaran yang hampir instan. Transmisi latensi rendah ini meningkatkan pengalaman pengguna secara keseluruhan, terutama dalam aplikasi yang sensitif terhadap waktu di mana responsivitas sangat penting.
 - Efisiensi Sumber Daya: Konversi audio real-time menghemat sumber daya sistem dengan menghindari kebutuhan untuk menyimpan atau memproses file audio besar terlebih dahulu. Alih-alih mengonversi konten audio terlebih dahulu ke berbagai format, konversi secara langsung memungkinkan sumber daya dialokasikan secara dinamis sesuai kebutuhan, mengurangi persyaratan penyimpanan dan overhead pemrosesan. Pendekatan yang efisien sumber daya ini sangat menguntungkan di lingkungan yang terbatas sumber daya, seperti sistem tertanam atau perangkat seluler, di mana mengoptimalkan pemanfaatan sumber daya sangat penting untuk menjaga kinerja dan skalabilitas.
 
-Dalam kasus penggunaan khusus kami, kami memiliki perangkat lunak intelijen percakapan bernama [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) yang menerima file audio atau streaming (misalnya, Google Meet) dalam berbagai format audio dan mentranskripsikan percakapan dari ucapan ke teks. Jadi, kami harus mengonversi audio dalam berbagai format ke format yang berfungsi dengan mesin pengenalan ucapan kami secara langsung.
+Dalam kasus penggunaan khusus kami, kami memiliki perangkat lunak intelijen percakapan bernama [SeaMeet](https://seameet.ai/?utm_source=blog) yang menerima file audio atau streaming (misalnya, Google Meet) dalam berbagai format audio dan mentranskripsikan percakapan dari ucapan ke teks. Jadi, kami harus mengonversi audio dalam berbagai format ke format yang berfungsi dengan mesin pengenalan ucapan kami secara langsung.
 
 Konversi audio secara langsung atau real-time dapat dicapai menggunakan pustaka GStreamer. Mirip dengan perintah, kita harus mengatur plugin GStreamer dalam pipeline konversi streaming, tetapi kali ini, dengan bahasa pemrograman.
 
@@ -368,11 +368,11 @@ Waktu tidur yang dihitung, meskipun kemungkinan tidak sempurna, memperkenalkan p
 
 # Mengapa melakukan semuanya sendiri?
 
-Meskipun mengonversi file audio ke format yang berbeda sangat penting, mengapa berhenti di situ? Tingkatkan pengalaman audio Anda dengan [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Meskipun mengonversi file audio ke format yang berbeda sangat penting, mengapa berhenti di situ? Tingkatkan pengalaman audio Anda dengan [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet menawarkan transkripsi dan ringkasan yang akurat dan real-time untuk semua kebutuhan audio Anda.** Baik Anda mengonversi file audio, merekam podcast, atau hanya ingin memiliki transkrip percakapan, SeaMeet menyediakan transkrip instan berkualitas tinggi dan ringkasan yang berwawasan luas. Alat canggih ini dapat menghemat jam kerja manual Anda dan membantu Anda mengekstrak nilai maksimum dari konten audio Anda.
 
-[Daftar untuk SeaMeet hari ini](https://meet.seasalt.ai/?utm_source=blog) dan rasakan kegembiraan melacak percakapan Anda.
+[Daftar untuk SeaMeet hari ini](https://seameet.ai/?utm_source=blog) dan rasakan kegembiraan melacak percakapan Anda.
 
 # Lebih Banyak dari Seri Kotak Alat Audio
 

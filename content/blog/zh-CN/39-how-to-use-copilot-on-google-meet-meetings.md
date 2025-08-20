@@ -18,9 +18,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **重点摘要**
 > - Duet AI能够在Google Meet中改善会议效率，但尚未支持中文: [了解更多](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> - SeaMeet针对中文用户，特别是繁体中文用户，提供了AI会议Copilot: [了解更多](https://meet.seasalt.ai/?utm_source=blog)
+> - SeaMeet针对中文用户，特别是繁体中文用户，提供了AI会议Copilot: [了解更多](https://seameet.ai/?utm_source=blog)
 
-在全球化的时代，协作工具的重要性日益凸显，特别是在多语言的环境中。Google Duet AI作为一个先进的协作工具，提供了多项功能以改善会议和协作的效率。然而，它目前还未能提供中文支持，这对于中文用户，特别是繁体中文用户来说，可能会带来一定的不便。幸好，有一些其他的协作工具，如[SeaMeet](https://meet.seasalt.ai/?utm_source=blog)，能够为中文用户提供有效的解决方案。
+在全球化的时代，协作工具的重要性日益凸显，特别是在多语言的环境中。Google Duet AI作为一个先进的协作工具，提供了多项功能以改善会议和协作的效率。然而，它目前还未能提供中文支持，这对于中文用户，特别是繁体中文用户来说，可能会带来一定的不便。幸好，有一些其他的协作工具，如[SeaMeet](https://seameet.ai/?utm_source=blog)，能够为中文用户提供有效的解决方案。
 
 # Google Duet AI在会议功能方面的优势
 
@@ -49,7 +49,7 @@ SeaMeet是一个针对中文用户设计的协作平台，它提供了一个AI�
 </center>
 
 
-SeaMeet的中文支持不仅仅局限于界面和交互，它还提供了语言翻译和**实时**字幕功能，以确保跨语言的沟通无障碍。此外，它还提供了一系列的会议效率工具，以帮助用户更有效地进行会议和协作。欢迎到官网[了解更多](https://meet.seasalt.ai/?utm_source=blog)。
+SeaMeet的中文支持不仅仅局限于界面和交互，它还提供了语言翻译和**实时**字幕功能，以确保跨语言的沟通无障碍。此外，它还提供了一系列的会议效率工具，以帮助用户更有效地进行会议和协作。欢迎到官网[了解更多](https://seameet.ai/?utm_source=blog)。
 
 # 跨语言协作的未来展望
 
@@ -71,4 +71,4 @@ SeaMeet的中文支持不仅仅局限于界面和交互，它还提供了语言�
 
 你也想使团队会议更高效吗？
 
-### [>>免费开始体验SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>免费开始体验SeaMeet](https://seameet.ai/?utm_source=blog)

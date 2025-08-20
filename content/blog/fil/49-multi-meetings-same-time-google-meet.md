@@ -44,4 +44,4 @@ Sa pamamagitan ng SeaMeet, ang mga abalang executive at manager ay epektibong ma
 
 Nais mo rin bang gawing mas mahusay ang mga pagpupulong ng iyong team?
 
-### >> Simulan ang iyong libreng pagsubok ng [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >> Simulan ang iyong libreng pagsubok ng [SeaMeet](https://seameet.ai/?utm_source=blog)

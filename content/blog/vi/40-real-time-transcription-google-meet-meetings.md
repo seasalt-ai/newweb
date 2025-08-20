@@ -94,4 +94,4 @@ Khi các công ty ngày càng được số hóa và toàn cầu hóa, quản l�
 > - Phiên âm thời gian thực và phân tích cuộc họp không chỉ cải thiện hiệu quả và hiệu suất của các cuộc họp mà còn tăng cường sự tham gia và hài lòng của người tham gia. Bằng cách tận dụng các chức năng này, các tổ chức có thể đảm bảo rằng quy trình cuộc họp của họ diễn ra suôn sẻ hơn và nhận được giá trị tối đa từ mỗi cuộc họp.
 
 
-Bạn cũng muốn có phiên âm thời gian thực và biên bản cuộc họp để làm cho các cuộc họp nhóm hiệu quả hơn? [Bắt đầu trải nghiệm SeaMeet miễn phí](https://meet.seasalt.ai/?utm_source=blog).
+Bạn cũng muốn có phiên âm thời gian thực và biên bản cuộc họp để làm cho các cuộc họp nhóm hiệu quả hơn? [Bắt đầu trải nghiệm SeaMeet miễn phí](https://seameet.ai/?utm_source=blog).

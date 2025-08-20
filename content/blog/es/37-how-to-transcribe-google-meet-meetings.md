@@ -146,4 +146,4 @@ Esperamos que este artículo le haya ayudado a comprender mejor cómo transcribi
 
 ¿También quiere transcribir reuniones de Google Meet en tiempo real y hacer que sus reuniones de equipo sean más eficientes?
 
-### [>>Comience a usar SeaMeet gratis](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Comience a usar SeaMeet gratis](https://seameet.ai/?utm_source=blog)

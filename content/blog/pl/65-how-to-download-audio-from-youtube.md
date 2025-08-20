@@ -158,11 +158,11 @@ Ogólnie rzecz biorąc, choć YouTube oferuje cenne zasoby audio, ważne jest, a
 
 # Dlaczego robić to wszystko samemu?
 
-Chociaż pobieranie audio z YouTube może być przydatne, po co na tym poprzestawać? Przenieś przetwarzanie audio na wyższy poziom dzięki [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Chociaż pobieranie audio z YouTube może być przydatne, po co na tym poprzestawać? Przenieś przetwarzanie audio na wyższy poziom dzięki [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet oferuje dokładne, w czasie rzeczywistym transkrypcje i podsumowania dla wszystkich Twoich potrzeb audio.** Niezależnie od tego, czy masz spotkanie, nagrywasz podcast, czy po prostu chcesz mieć transkrypcję rozmowy, SeaMeet zapewnia natychmiastowe, wysokiej jakości transkrypcje i wnikliwe podsumowania. To potężne narzędzie może zaoszczędzić Ci godziny ręcznej pracy i pomóc Ci wydobyć maksymalną wartość z Twoich treści audio.
 
-[Zarejestruj się w SeaMeet już dziś](https://meet.seasalt.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
+[Zarejestruj się w SeaMeet już dziś](https://seameet.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
 
 # Więcej z serii Audio Toolbox
 

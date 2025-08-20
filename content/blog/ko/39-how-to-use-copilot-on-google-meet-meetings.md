@@ -18,9 +18,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **주요 요점**
 > - Duet AI는 Google Meet에서 회의 효율성을 향상시킬 수 있지만 아직 중국어를 지원하지 않습니다: [자세히 알아보기](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> - SeaMeet은 중국어 사용자, 특히 번체 중국어 사용자를 위한 AI 회의 Copilot을 제공합니다: [자세히 알아보기](https://meet.seasalt.ai/?utm_source=blog)
+> - SeaMeet은 중국어 사용자, 특히 번체 중국어 사용자를 위한 AI 회의 Copilot을 제공합니다: [자세히 알아보기](https://seameet.ai/?utm_source=blog)
 
-글로벌 시대에 협업 도구의 중요성은 특히 다국어 환경에서 더욱 두드러지고 있습니다. Google Duet AI는 고급 협업 도구로서 회의 및 협업의 효율성을 향상시키기 위한 여러 기능을 제공합니다. 그러나 현재 중국어 지원을 제공하지 못하고 있어 중국어 사용자, 특히 번체 중국어 사용자에게는 어느 정도 불편을 초래할 수 있습니다. 다행히 [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)과 같이 중국어 사용자에게 효과적인 솔루션을 제공할 수 있는 다른 협업 도구가 있습니다.
+글로벌 시대에 협업 도구의 중요성은 특히 다국어 환경에서 더욱 두드러지고 있습니다. Google Duet AI는 고급 협업 도구로서 회의 및 협업의 효율성을 향상시키기 위한 여러 기능을 제공합니다. 그러나 현재 중국어 지원을 제공하지 못하고 있어 중국어 사용자, 특히 번체 중국어 사용자에게는 어느 정도 불편을 초래할 수 있습니다. 다행히 [SeaMeet](https://seameet.ai/?utm_source=blog)과 같이 중국어 사용자에게 효과적인 솔루션을 제공할 수 있는 다른 협업 도구가 있습니다.
 
 # Google Duet AI의 회의 기능 장점
 
@@ -49,7 +49,7 @@ SeaMeet은 중국어 사용자를 위해 설계된 협업 플랫폼으로, Googl
 </center>
 
 
-SeaMeet의 중국어 지원은 인터페이스와 상호 작용에만 국한되지 않습니다. 언어 간 커뮤니케이션을 원활하게 하기 위해 언어 번역 및 **실시간** 자막 기능도 제공합니다. 또한 사용자가 보다 효과적으로 회의 및 공동 작업을 수행할 수 있도록 다양한 회의 효율성 도구를 제공합니다. 자세한 내용은 공식 웹사이트[를 참조하십시오](https://meet.seasalt.ai/?utm_source=blog).
+SeaMeet의 중국어 지원은 인터페이스와 상호 작용에만 국한되지 않습니다. 언어 간 커뮤니케이션을 원활하게 하기 위해 언어 번역 및 **실시간** 자막 기능도 제공합니다. 또한 사용자가 보다 효과적으로 회의 및 공동 작업을 수행할 수 있도록 다양한 회의 효율성 도구를 제공합니다. 자세한 내용은 공식 웹사이트[를 참조하십시오](https://seameet.ai/?utm_source=blog).
 
 # 언어 간 협업의 미래 전망
 
@@ -71,4 +71,4 @@ Google Duet AI와 SeaMeet을 비교해 보면 Duet AI는 회의 효율성을 향
 
 팀 회의를 더 효율적으로 만들고 싶으신가요?
 
-### [>>SeaMeet 무료 평가판 시작](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeet 무료 평가판 시작](https://seameet.ai/?utm_source=blog)

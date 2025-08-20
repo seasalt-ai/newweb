@@ -44,4 +44,4 @@ SeaMeet เป็นเครื่องมือผู้ช่วยการ
 
 คุณต้องการทำให้การประชุมของทีมมีประสิทธิภาพมากขึ้นด้วยหรือไม่?
 
-### >>เริ่มต้นฟรีกับ [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 
+### >>เริ่มต้นฟรีกับ [SeaMeet](https://seameet.ai/?utm_source=blog) 

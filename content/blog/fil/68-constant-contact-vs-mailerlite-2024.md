@@ -139,4 +139,4 @@ Pinapanatili ng MailerLite ang mahusay na mga rate ng paghahatid ng email. Ayon 
 
 Anuman ang piliin mo para sa iyong serbisyo sa email marketing, mahusay na isinasama ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) sa karamihan ng mga platform ng email marketing. Maaari mong kolektahin ang mga email at lead mula sa SeaChat AI agent at direktang i-sync sa iyong listahan ng email marketing.
 
-Bumuo at ilunsad ang AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang detalye sa [seachat@seasalt.ai](mailto:seameet@seasalt.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bumuo at ilunsad ang AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang detalye sa [seachat@seasalt.ai](mailto:help@seameet.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

@@ -97,4 +97,4 @@ Aqui está o que você precisa considerar antes de escolher uma ferramenta de e-
 
 Não importa o que você escolha para seu serviço de e-mail marketing, o [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integra bem com a maioria das plataformas de e-mail marketing. Você pode coletar os e-mails e leads do agente de IA do SeaChat e sincronizá-los diretamente com sua lista de e-mail marketing.
 
-Construa e lance um agente de chat de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um e-mail para mais detalhes em [seachat@seasalt.ai](mailto:seameet@seasalt.ai) ou [agende uma demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Construa e lance um agente de chat de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um e-mail para mais detalhes em [seachat@seasalt.ai](mailto:help@seameet.ai) ou [agende uma demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

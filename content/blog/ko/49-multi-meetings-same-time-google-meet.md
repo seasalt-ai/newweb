@@ -44,4 +44,4 @@ SeaMeet을 통해 바쁜 임원과 관리자들은 여러 회의를 효과적으
 
 여러분도 팀 회의를 더욱 효율적으로 만들고 싶으신가요?
 
-### >>[SeaMeet](https://meet.seasalt.ai/?utm_source=blog)으로 무료로 시작하세요
+### >>[SeaMeet](https://seameet.ai/?utm_source=blog)으로 무료로 시작하세요

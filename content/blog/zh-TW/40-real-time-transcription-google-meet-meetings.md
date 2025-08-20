@@ -93,4 +93,4 @@ url: /blog/real-time-transcription-google-meet-meetings/
 > - 實時逐字稿和會議分析不僅可以提高會議的效率和效果，而且還可以增強參與者的參與度和滿意度。通過利用這些功能，組織可以確保他們的會議過程更加順利，並從每次會議中獲得最大的價值。
 
 
-你也想有實時逐字稿和會議紀錄，使團隊會議更高效嗎？[免費開始體驗SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+你也想有實時逐字稿和會議紀錄，使團隊會議更高效嗎？[免費開始體驗SeaMeet](https://seameet.ai/?utm_source=blog).

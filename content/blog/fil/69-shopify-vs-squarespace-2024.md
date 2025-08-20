@@ -83,7 +83,7 @@ Paano kung gusto mo ang kapangyarihan ng disenyo ng Squarespace ngunit gusto mo 
 
 ## Marami ka pang magagawa sa SeaChat
 
-Anuman ang piliin mo para sa iyong online na negosyo, mahusay na isinasama ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) sa karamihan ng mga tagabuo ng website ng ecommerce. Bumuo at ilunsad ang AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Paglipat ng live na ahente. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:seameet@seasalt.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Anuman ang piliin mo para sa iyong online na negosyo, mahusay na isinasama ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) sa karamihan ng mga tagabuo ng website ng ecommerce. Bumuo at ilunsad ang AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Paglipat ng live na ahente. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:help@seameet.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
 
 Nag-aalok ang SeaChat ng walang putol na integrasyon sa Shopify at Squarespace. Tingnan kung paano magdagdag ng AI chat at agent sa iyong mga tindahan ng Shopify at Squarespace ngayon:
 

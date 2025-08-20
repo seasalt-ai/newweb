@@ -146,4 +146,4 @@ url: /blog/how-to-transcribe-google-meet-meetings/
 
 هل تريد أيضًا نسخ اجتماعات Google Meet في الوقت الفعلي وجعل اجتماعات فريقك أكثر كفاءة؟
 
-### [>>ابدأ تجربة SeaMeet مجانًا](https://meet.seasalt.ai/?utm_source=blog)
+### [>>ابدأ تجربة SeaMeet مجانًا](https://seameet.ai/?utm_source=blog)

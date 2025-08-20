@@ -137,4 +137,4 @@ Nous espérons que cet article vous aidera à mieux comprendre comment transcrir
 
 Souhaitez-vous également transcrire les réunions Google Meet en temps réel et rendre vos réunions d'équipe plus efficaces?
 
-### [>>Commencez votre essai gratuit de Seasalt.ai](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Commencez votre essai gratuit de Seasalt.ai](https://seameet.ai/?utm_source=blog)

@@ -94,4 +94,4 @@ Dengan peningkatan digitalisasi dan globalisasi perusahaan, pengurusan mesyuarat
 > - Transkripsi masa nyata dan analisis mesyuarat bukan sahaja dapat meningkatkan kecekapan dan keberkesanan mesyuarat, tetapi juga dapat meningkatkan penglibatan dan kepuasan peserta. Dengan memanfaatkan fungsi-fungsi ini, organisasi dapat memastikan bahawa proses mesyuarat mereka lebih lancar dan mereka mendapat nilai maksimum dari setiap mesyuarat.
 
 
-Adakah anda juga ingin mempunyai transkrip masa nyata dan minit mesyuarat untuk menjadikan mesyuarat pasukan lebih cekap? [Mulakan percubaan percuma SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Adakah anda juga ingin mempunyai transkrip masa nyata dan minit mesyuarat untuk menjadikan mesyuarat pasukan lebih cekap? [Mulakan percubaan percuma SeaMeet](https://seameet.ai/?utm_source=blog).

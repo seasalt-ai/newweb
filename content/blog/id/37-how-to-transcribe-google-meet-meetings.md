@@ -146,4 +146,4 @@ Kami berharap artikel ini membantu Anda memahami lebih baik tentang cara mentran
 
 Apakah Anda juga ingin mentranskripsikan rapat Google Meet Anda secara real-time dan membuat rapat tim Anda lebih efisien?
 
-### [>>Mulai Gunakan SeaMeet Gratis](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulai Gunakan SeaMeet Gratis](https://seameet.ai/?utm_source=blog)

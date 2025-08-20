@@ -99,7 +99,7 @@ Ang pag-convert ng audio on the fly, o real-time na pag-convert ng audio, ay mah
 - Low-Latency Transmission: Sa mga interactive na application tulad ng voice communication, online gaming, o live events, ang pagliit ng latency ay mahalaga para mapanatili ang real-time na pagtugon at pakikipag-ugnayan ng user. Ang paggawa ng audio conversion on the fly ay nagpapahintulot sa data ng audio na maipadala nang may kaunting pagkaantala, na tinitiyak ang halos agarang paghahatid at pag-playback. Pinapahusay ng low-latency transmission na ito ang pangkalahatang karanasan ng user, lalo na sa mga application na sensitibo sa oras kung saan ang pagtugon ay pinakamahalaga.
 - Resource Efficiency: Ang real-time na audio conversion ay nagtitipid ng mga mapagkukunan ng system sa pamamagitan ng pag-iwas sa pangangailangan para sa pag-iimbak o pagproseso ng malalaking audio file nang maaga. Sa halip na i-pre-convert ang nilalaman ng audio sa iba't ibang format, ang conversion on the fly ay nagpapahintulot sa mga mapagkukunan na maitalaga nang dynamic kung kinakailangan, na binabawasan ang mga kinakailangan sa imbakan at overhead ng pagproseso. Ang resource-efficient na diskarte na ito ay partikular na kapaki-pakinabang sa mga kapaligiran na limitado ang mapagkukunan, tulad ng mga naka-embed na system o mobile device, kung saan ang pag-optimize ng paggamit ng mapagkukunan ay mahalaga para mapanatili ang pagganap at scalability.
 
-Sa aming partikular na kaso ng paggamit, mayroon kaming software ng katalinuhan sa pag-uusap na tinatawag na [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) na tumatanggap ng mga audio file o stream (hal., Google Meet) sa iba't ibang format ng audio at nagta-transcribe ng pag-uusap mula sa pagsasalita patungo sa teksto. Kaya, kailangan naming i-convert ang audio sa iba't ibang format sa isang format na gumagana sa aming speech recognition engine on the fly.
+Sa aming partikular na kaso ng paggamit, mayroon kaming software ng katalinuhan sa pag-uusap na tinatawag na [SeaMeet](https://seameet.ai/?utm_source=blog) na tumatanggap ng mga audio file o stream (hal., Google Meet) sa iba't ibang format ng audio at nagta-transcribe ng pag-uusap mula sa pagsasalita patungo sa teksto. Kaya, kailangan naming i-convert ang audio sa iba't ibang format sa isang format na gumagana sa aming speech recognition engine on the fly.
 
 Ang on-the-fly o real-time na pag-convert ng audio ay maaaring makamit gamit ang GStreamer library. Katulad ng command, kailangan nating ayusin ang mga plugin ng GStreamer sa isang streaming conversion pipeline, ngunit sa pagkakataong ito, gamit ang isang programming language.
 
@@ -368,11 +368,11 @@ Ang kinakalkulang oras ng pagtulog, bagaman malamang na hindi perpekto, ay nagpa
 
 # Bakit mo gagawin ang lahat nang mag-isa?
 
-Bagama't mahalaga ang pag-convert ng mga audio file sa iba't ibang format, bakit titigil doon? Pagandahin ang iyong karanasan sa audio gamit ang [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Bagama't mahalaga ang pag-convert ng mga audio file sa iba't ibang format, bakit titigil doon? Pagandahin ang iyong karanasan sa audio gamit ang [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **Nag-aalok ang SeaMeet ng tumpak, real-time na transkripsyon at mga buod para sa lahat ng iyong pangangailangan sa audio.** Kung nagko-convert ka man ng mga audio file, nagre-record ng podcast, o gusto mo lang magkaroon ng transkripsyon ng pag-uusap, nagbibigay ang SeaMeet ng instant, mataas na kalidad na mga transkripsyon at insightful na mga buod. Ang makapangyarihang tool na ito ay makakatipid sa iyo ng mga oras ng manual na trabaho at makakatulong sa iyo na makuha ang pinakamataas na halaga mula sa iyong nilalaman ng audio.
 
-[Mag-sign up para sa SeaMeet ngayon](https://meet.seasalt.ai/?utm_source=blog) at maranasan ang kagalakan ng pagsubaybay sa iyong pag-uusap.
+[Mag-sign up para sa SeaMeet ngayon](https://seameet.ai/?utm_source=blog) at maranasan ang kagalakan ng pagsubaybay sa iyong pag-uusap.
 
 # Higit pa mula sa Serye ng Audio Toolbox
 

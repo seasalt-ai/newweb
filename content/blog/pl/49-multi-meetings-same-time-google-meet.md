@@ -44,4 +44,4 @@ Dzięki SeaMeet zapracowani dyrektorzy i menedżerowie mogą skutecznie zarządz
 
 Czy chcesz również sprawić, aby spotkania zespołu były bardziej efektywne?
 
-### >>Zacznij za darmo z [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>Zacznij za darmo z [SeaMeet](https://seameet.ai/?utm_source=blog)

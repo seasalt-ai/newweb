@@ -94,4 +94,4 @@ With the increasing digitization and globalization of enterprises, efficient mee
 > - Real-time transcription and meeting analysis can not only improve the efficiency and effectiveness of meetings, but also enhance the participation and satisfaction of participants. By leveraging these functions, organizations can ensure that their meeting processes are smoother and that they get the most value from each meeting.
 
 
-Do you also want to have real-time transcripts and meeting minutes to make team meetings more efficient? [Start a free trial of SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Do you also want to have real-time transcripts and meeting minutes to make team meetings more efficient? [Start a free trial of SeaMeet](https://seameet.ai/?utm_source=blog).

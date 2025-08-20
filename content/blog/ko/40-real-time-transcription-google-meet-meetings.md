@@ -94,4 +94,4 @@ url: /blog/real-time-transcription-google-meet-meetings/
 > - 실시간 전사 및 회의 분석은 회의의 효율성과 효과를 향상시킬 뿐만 아니라 참가자의 참여와 만족도를 높일 수 있습니다. 이러한 기능을 활용함으로써 조직은 회의 프로세스가 더 원활하고 각 회의에서 최대 가치를 얻을 수 있도록 할 수 있습니다.
 
 
-팀 회의를 더 효율적으로 만들기 위해 실시간 전사 및 회의록도 원하십니까? [SeaMeet 무료 평가판 시작](https://meet.seasalt.ai/?utm_source=blog).
+팀 회의를 더 효율적으로 만들기 위해 실시간 전사 및 회의록도 원하십니까? [SeaMeet 무료 평가판 시작](https://seameet.ai/?utm_source=blog).

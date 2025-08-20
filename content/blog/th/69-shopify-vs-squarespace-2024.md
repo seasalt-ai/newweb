@@ -83,7 +83,7 @@ Squarespace เป็นที่รู้จักกันดีในฐา�
 
 ## คุณสามารถทำอะไรได้อีกมากมายด้วย SeaChat
 
-ไม่ว่าคุณจะเลือกอะไรสำหรับธุรกิจออนไลน์ของคุณ [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถผสานรวมกับผู้สร้างเว็บไซต์อีคอมเมิร์ซส่วนใหญ่ได้เป็นอย่างดี สร้างและเปิดตัวตัวแทนแชท AI ได้ใน 10 นาที รองรับหลายภาษา การโอนตัวแทนสด ผสานรวมกับเว็บแชท, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราเพื่อขอรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seameet@seasalt.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)
+ไม่ว่าคุณจะเลือกอะไรสำหรับธุรกิจออนไลน์ของคุณ [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถผสานรวมกับผู้สร้างเว็บไซต์อีคอมเมิร์ซส่วนใหญ่ได้เป็นอย่างดี สร้างและเปิดตัวตัวแทนแชท AI ได้ใน 10 นาที รองรับหลายภาษา การโอนตัวแทนสด ผสานรวมกับเว็บแชท, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราเพื่อขอรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:help@seameet.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)
 
 SeaChat นำเสนอการผสานรวมที่ราบรื่นกับทั้ง Shopify และ Squarespace ดูวิธีเพิ่ม AI chat และ agent ไปยังร้านค้า Shopify และ Squarespace ของคุณตอนนี้:
 

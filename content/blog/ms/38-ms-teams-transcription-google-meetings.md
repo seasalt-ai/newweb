@@ -78,4 +78,4 @@ Dengan kemajuan pesat teknologi, pembantu mesyuarat AI telah menjadi alat pentin
 
 Ingin menjadikan mesyuarat pasukan anda lebih cekap?
 
-### [>>Mula menggunakan SeaMeet secara percuma](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mula menggunakan SeaMeet secara percuma](https://seameet.ai/?utm_source=blog)

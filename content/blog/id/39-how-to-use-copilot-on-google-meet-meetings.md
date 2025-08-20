@@ -17,9 +17,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Poin Penting**
 > -   Duet AI dapat meningkatkan efisiensi rapat di Google Meet, tetapi belum mendukung bahasa Mandarin: [Pelajari lebih lanjut](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> -   SeaMeet menyediakan AI meeting Copilot untuk pengguna bahasa Mandarin, terutama pengguna bahasa Mandarin Tradisional: [Pelajari lebih lanjut](https://meet.seasalt.ai/?utm_source=blog)
+> -   SeaMeet menyediakan AI meeting Copilot untuk pengguna bahasa Mandarin, terutama pengguna bahasa Mandarin Tradisional: [Pelajari lebih lanjut](https://seameet.ai/?utm_source=blog)
 
-Di era globalisasi, pentingnya alat kolaborasi semakin menonjol, terutama di lingkungan multibahasa. Google Duet AI, sebagai alat kolaborasi canggih, menawarkan berbagai fitur untuk meningkatkan efisiensi rapat dan kolaborasi. Namun, saat ini belum menyediakan dukungan bahasa Mandarin, yang dapat menyebabkan beberapa ketidaknyamanan bagi pengguna bahasa Mandarin, terutama pengguna bahasa Mandarin Tradisional. Untungnya, ada alat kolaborasi lain, seperti [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), yang dapat memberikan solusi efektif bagi pengguna bahasa Mandarin.
+Di era globalisasi, pentingnya alat kolaborasi semakin menonjol, terutama di lingkungan multibahasa. Google Duet AI, sebagai alat kolaborasi canggih, menawarkan berbagai fitur untuk meningkatkan efisiensi rapat dan kolaborasi. Namun, saat ini belum menyediakan dukungan bahasa Mandarin, yang dapat menyebabkan beberapa ketidaknyamanan bagi pengguna bahasa Mandarin, terutama pengguna bahasa Mandarin Tradisional. Untungnya, ada alat kolaborasi lain, seperti [SeaMeet](https://seameet.ai/?utm_source=blog), yang dapat memberikan solusi efektif bagi pengguna bahasa Mandarin.
 
 # Keunggulan Google Duet AI dalam Fungsi Rapat
 
@@ -46,7 +46,7 @@ SeaMeet adalah platform kolaborasi yang dirancang untuk pengguna bahasa Mandarin
 *SeaMeet menghasilkan ringkasan tematik secara real-time*
 </center>
 
-Dukungan bahasa Mandarin SeaMeet tidak terbatas pada antarmuka dan interaksi; ia juga menyediakan fitur terjemahan bahasa dan subtitle **real-time** untuk memastikan komunikasi lintas bahasa yang mulus. Selain itu, ia menyediakan serangkaian alat efisiensi rapat untuk membantu pengguna melakukan rapat dan berkolaborasi dengan lebih efektif. Selamat datang di situs web resmi untuk [pelajari lebih lanjut](https://meet.seasalt.ai/?utm_source=blog).
+Dukungan bahasa Mandarin SeaMeet tidak terbatas pada antarmuka dan interaksi; ia juga menyediakan fitur terjemahan bahasa dan subtitle **real-time** untuk memastikan komunikasi lintas bahasa yang mulus. Selain itu, ia menyediakan serangkaian alat efisiensi rapat untuk membantu pengguna melakukan rapat dan berkolaborasi dengan lebih efektif. Selamat datang di situs web resmi untuk [pelajari lebih lanjut](https://seameet.ai/?utm_source=blog).
 
 # Prospek Masa Depan Kolaborasi Lintas Bahasa
 
@@ -67,4 +67,4 @@ Dengan membandingkan Google Duet AI dan SeaMeet, kita dapat melihat bahwa meskip
 
 Apakah Anda juga ingin membuat rapat tim Anda lebih efisien?
 
-### [>>Mulai uji coba gratis SeaMeet Anda](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulai uji coba gratis SeaMeet Anda](https://seameet.ai/?utm_source=blog)

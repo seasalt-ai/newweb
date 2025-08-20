@@ -96,4 +96,4 @@ Chọn **ActiveCampaign** nếu: Bạn cần tự động hóa mạnh mẽ, tíc
 
 Bất kể bạn chọn dịch vụ tiếp thị email nào, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với phần lớn các nền tảng tiếp thị email. Bạn có thể thu thập email và khách hàng tiềm năng từ tác nhân AI SeaChat và đồng bộ hóa trực tiếp vào danh sách tiếp thị email của mình. 
 
-Xây dựng và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển tác nhân trực tiếp. Tích hợp với trò chuyện web, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seameet@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+Xây dựng và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển tác nhân trực tiếp. Tích hợp với trò chuyện web, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:help@seameet.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 

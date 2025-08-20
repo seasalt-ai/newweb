@@ -94,4 +94,4 @@ Dengan meningkatnya digitalisasi dan globalisasi perusahaan, manajemen rapat yan
 > - Transkripsi real-time dan analisis rapat tidak hanya dapat meningkatkan efisiensi dan efektivitas rapat, tetapi juga meningkatkan partisipasi dan kepuasan peserta. Dengan memanfaatkan fungsi-fungsi ini, organisasi dapat memastikan bahwa proses rapat mereka lebih lancar dan bahwa mereka mendapatkan nilai maksimal dari setiap rapat.
 
 
-Apakah Anda juga ingin memiliki transkrip dan notulen rapat real-time untuk membuat rapat tim lebih efisien? [Mulai uji coba gratis SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Apakah Anda juga ingin memiliki transkrip dan notulen rapat real-time untuk membuat rapat tim lebih efisien? [Mulai uji coba gratis SeaMeet](https://seameet.ai/?utm_source=blog).

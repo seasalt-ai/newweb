@@ -94,4 +94,4 @@ Sa pagtaas ng digitalisasyon at globalisasyon ng mga negosyo, ang mahusay na pam
 > - Ang real-time na transkripsyon at pagsusuri ng pulong ay hindi lamang maaaring mapabuti ang kahusayan at pagiging epektibo ng mga pagpupulong, ngunit mapapahusay din ang pakikilahok at kasiyahan ng mga kalahok. Sa pamamagitan ng paggamit ng mga pag-andar na ito, masisiguro ng mga organisasyon na ang kanilang mga proseso ng pulong ay mas maayos at na nakukuha nila ang pinakamaraming halaga mula sa bawat pulong.
 
 
-Nais mo rin bang magkaroon ng mga real-time na transcript at minuto ng pulong upang gawing mas mahusay ang mga pulong ng koponan? [Magsimula ng isang libreng pagsubok ng SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Nais mo rin bang magkaroon ng mga real-time na transcript at minuto ng pulong upang gawing mas mahusay ang mga pulong ng koponan? [Magsimula ng isang libreng pagsubok ng SeaMeet](https://seameet.ai/?utm_source=blog).

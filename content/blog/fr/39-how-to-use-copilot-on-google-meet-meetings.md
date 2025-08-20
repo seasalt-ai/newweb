@@ -17,9 +17,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Points clés**
 > -   Duet AI peut améliorer l'efficacité des réunions dans Google Meet, mais il ne prend pas encore en charge le chinois: [En savoir plus](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> -   SeaMeet fournit un Copilot de réunion IA pour les utilisateurs chinois, en particulier les utilisateurs de chinois traditionnel: [En savoir plus](https://meet.seasalt.ai/?utm_source=blog)
+> -   SeaMeet fournit un Copilot de réunion IA pour les utilisateurs chinois, en particulier les utilisateurs de chinois traditionnel: [En savoir plus](https://seameet.ai/?utm_source=blog)
 
-À l'ère de la mondialisation, l'importance des outils de collaboration est de plus en plus prépondérante, en particulier dans les environnements multilingues. Google Duet AI, en tant qu'outil de collaboration avancé, offre une variété de fonctionnalités pour améliorer l'efficacité des réunions et de la collaboration. Cependant, il ne prend actuellement pas en charge la langue chinoise, ce qui peut causer des inconvénients aux utilisateurs chinois, en particulier aux utilisateurs de chinois traditionnel. Heureusement, il existe d'autres outils de collaboration, tels que [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), qui peuvent fournir des solutions efficaces aux utilisateurs chinois.
+À l'ère de la mondialisation, l'importance des outils de collaboration est de plus en plus prépondérante, en particulier dans les environnements multilingues. Google Duet AI, en tant qu'outil de collaboration avancé, offre une variété de fonctionnalités pour améliorer l'efficacité des réunions et de la collaboration. Cependant, il ne prend actuellement pas en charge la langue chinoise, ce qui peut causer des inconvénients aux utilisateurs chinois, en particulier aux utilisateurs de chinois traditionnel. Heureusement, il existe d'autres outils de collaboration, tels que [SeaMeet](https://seameet.ai/?utm_source=blog), qui peuvent fournir des solutions efficaces aux utilisateurs chinois.
 
 # Avantages de Google Duet AI dans les fonctions de réunion
 
@@ -46,7 +46,7 @@ SeaMeet est une plateforme de collaboration conçue pour les utilisateurs chinoi
 *SeaMeet génère des résumés thématiques en temps réel*
 </center>
 
-La prise en charge du chinois par SeaMeet ne se limite pas à l'interface et à l'interaction; elle fournit également des fonctions de traduction linguistique et de sous-titres **en temps réel** pour assurer une communication interlingue transparente. De plus, elle offre une série d'outils d'efficacité des réunions pour aider les utilisateurs à mener des réunions et à collaborer plus efficacement. Bienvenue sur le site officiel pour [en savoir plus](https://meet.seasalt.ai/?utm_source=blog).
+La prise en charge du chinois par SeaMeet ne se limite pas à l'interface et à l'interaction; elle fournit également des fonctions de traduction linguistique et de sous-titres **en temps réel** pour assurer une communication interlingue transparente. De plus, elle offre une série d'outils d'efficacité des réunions pour aider les utilisateurs à mener des réunions et à collaborer plus efficacement. Bienvenue sur le site officiel pour [en savoir plus](https://seameet.ai/?utm_source=blog).
 
 # Perspectives d'avenir de la collaboration interlingue
 
@@ -67,4 +67,4 @@ En comparant Google Duet AI et SeaMeet, nous pouvons voir que, bien que Duet AI 
 
 Souhaitez-vous également rendre les réunions de votre équipe plus efficaces?
 
-### [>>Commencez votre essai gratuit de SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Commencez votre essai gratuit de SeaMeet](https://seameet.ai/?utm_source=blog)

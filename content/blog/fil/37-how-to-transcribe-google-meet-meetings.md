@@ -146,4 +146,4 @@ Umaasa kaming nakatulong ang artikulong ito para magkaroon ka ng mas mahusay na 
 
 Gusto mo rin bang i-transcribe ang iyong mga Google Meet meeting nang real-time at gawing mas mahusay ang iyong team meetings?
 
-### [>>Simulan ang Libreng Paggamit ng SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Simulan ang Libreng Paggamit ng SeaMeet](https://seameet.ai/?utm_source=blog)

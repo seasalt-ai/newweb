@@ -44,4 +44,4 @@ With SeaMeet, busy executives and managers can effectively manage multiple meeti
 
 Do you also want to make your team meetings more efficient?
 
-### >>Start your free trial of [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) now!
+### >>Start your free trial of [SeaMeet](https://seameet.ai/?utm_source=blog) now!

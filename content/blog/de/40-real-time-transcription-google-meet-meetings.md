@@ -94,4 +94,4 @@ Mit der zunehmenden Digitalisierung und Globalisierung von Unternehmen ist ein e
 > - Echtzeit-Transkription und Meeting-Analyse können nicht nur die Effizienz und Effektivität von Meetings steigern, sondern auch das Engagement und die Zufriedenheit der Teilnehmer erhöhen. Durch die Nutzung dieser Funktionen können Unternehmen sicherstellen, dass ihre Meeting-Prozesse reibungsloser ablaufen und sie aus jedem Meeting den größtmöglichen Nutzen ziehen.
 
 
-Möchten Sie auch Echtzeit-Transkriptionen und Meeting-Notizen haben, um Team-Meetings effizienter zu gestalten? [Starten Sie Ihre kostenlose Testversion von SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Möchten Sie auch Echtzeit-Transkriptionen und Meeting-Notizen haben, um Team-Meetings effizienter zu gestalten? [Starten Sie Ihre kostenlose Testversion von SeaMeet](https://seameet.ai/?utm_source=blog).

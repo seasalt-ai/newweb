@@ -43,4 +43,4 @@ Prin SeaMeet, directorii și managerii ocupați pot gestiona eficient mai multe 
 
 Vreți și voi să faceți întâlnirile echipei mai eficiente?
 
-### >> Începeți să experimentați gratuit [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >> Începeți să experimentați gratuit [SeaMeet](https://seameet.ai/?utm_source=blog)

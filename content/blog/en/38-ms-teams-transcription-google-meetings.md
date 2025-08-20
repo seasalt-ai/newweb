@@ -78,4 +78,4 @@ As technology rapidly evolves, AI meeting assistants have become indispensable t
 
 Want to make your team meetings more efficient?
 
-### [>>Start Using SeaMeet for Free](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Start Using SeaMeet for Free](https://seameet.ai/?utm_source=blog)

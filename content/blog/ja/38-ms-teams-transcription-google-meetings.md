@@ -78,4 +78,4 @@ SeaMeetを他の2つのプラットフォームと比較すると、各プラッ
 
 チームの会議をより効率的にしたいですか？
 
-### [>>SeaMeetを無料で使い始める](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeetを無料で使い始める](https://seameet.ai/?utm_source=blog)

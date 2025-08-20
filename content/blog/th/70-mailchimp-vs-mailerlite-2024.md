@@ -103,4 +103,4 @@ Mailchimp เป็นชื่อที่ใหญ่กว่า นี่อ
 
 ไม่ว่าคุณจะเลือกใช้บริการการตลาดผ่านอีเมลใด [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถผสานรวมกับแพลตฟอร์มการตลาดผ่านอีเมลส่วนใหญ่ได้เป็นอย่างดี คุณสามารถรวบรวมอีเมลและลูกค้าเป้าหมายจากตัวแทน SeaChat AI และซิงค์โดยตรงกับรายชื่อการตลาดผ่านอีเมลของคุณ
 
-สร้างและเปิดตัวตัวแทนแชท AI ใน 10 นาที รองรับหลายภาษา การโอนสายไปยังเจ้าหน้าที่สด ผสานรวมกับเว็บแชท, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราเพื่อขอรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seameet@seasalt.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)
+สร้างและเปิดตัวตัวแทนแชท AI ใน 10 นาที รองรับหลายภาษา การโอนสายไปยังเจ้าหน้าที่สด ผสานรวมกับเว็บแชท, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราเพื่อขอรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:help@seameet.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)

@@ -94,4 +94,4 @@ url: /blog/real-time-transcription-google-meet-meetings/
 > - 实时转录和会议分析不仅可以提高会议的效率和效果，而且还可以增强参与者的参与度和满意度。通过利用这些功能，组织可以确保他们的会议过程更加顺利，并从每次会议中获得最大的价值。
 
 
-你也想有实时转录和会议记录，使团队会议更高效吗？[免费开始体验SeaMeet](https://meet.seasalt.ai/?utm_source=blog)。
+你也想有实时转录和会议记录，使团队会议更高效吗？[免费开始体验SeaMeet](https://seameet.ai/?utm_source=blog)。

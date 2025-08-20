@@ -78,4 +78,4 @@ SeaMeet를 다른 두 플랫폼과 비교하면 각 플랫폼에는 각각의 �
 
 팀의 회의를 더 효율적으로 만들고 싶으신가요?
 
-### [>>SeaMeet 무료로 시작하기](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeet 무료로 시작하기](https://seameet.ai/?utm_source=blog)

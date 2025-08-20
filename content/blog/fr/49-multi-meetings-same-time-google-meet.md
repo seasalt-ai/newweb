@@ -44,4 +44,4 @@ Avec SeaMeet, les dirigeants et managers occupés peuvent gérer efficacement pl
 
 Voulez-vous aussi rendre vos réunions d'équipe plus efficaces ?
 
-### >>Commencez gratuitement avec [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>Commencez gratuitement avec [SeaMeet](https://seameet.ai/?utm_source=blog)

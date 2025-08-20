@@ -99,7 +99,7 @@ gst-launch-1.0 filesrc location=input.mp3 ! decodebin ! audioconvert ! audio/x-r
 - Передача с низкой задержкой: В интерактивных приложениях, таких как голосовая связь, онлайн-игры или живые события, минимизация задержки имеет решающее значение для поддержания реакции в реальном времени и вовлеченности пользователей. Выполнение конвертации аудио на лету позволяет передавать аудиоданные с минимальной задержкой, обеспечивая почти мгновенную доставку и воспроизведение. Эта передача с низкой задержкой улучшает общее впечатление пользователя, особенно в приложениях, чувствительных ко времени, где реакция имеет первостепенное значение.
 - Эффективность ресурсов: Конвертация аудио в реальном времени экономит системные ресурсы, избегая необходимости предварительного хранения или обработки больших аудиофайлов. Вместо предварительной конвертации аудиоконтента в различные форматы, конвертация на лету позволяет динамически выделять ресурсы по мере необходимости, уменьшая требования к хранению и накладные расходы на обработку. Этот ресурсоэффективный подход особенно выгоден в средах с ограниченными ресурсами, таких как встроенные системы или мобильные устройства, где оптимизация использования ресурсов необходима для поддержания производительности и масштабируемости.
 
-В нашем конкретном случае использования у нас есть программное обеспечение для анализа разговоров под названием [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), которое принимает аудиофайлы или потоки (например, Google Meet) в различных аудиоформатах и транскрибирует разговор из речи в текст. Таким образом, нам необходимо конвертировать аудио в различных форматах в формат, который работает с нашим движком распознавания речи на лету.
+В нашем конкретном случае использования у нас есть программное обеспечение для анализа разговоров под названием [SeaMeet](https://seameet.ai/?utm_source=blog), которое принимает аудиофайлы или потоки (например, Google Meet) в различных аудиоформатах и транскрибирует разговор из речи в текст. Таким образом, нам необходимо конвертировать аудио в различных форматах в формат, который работает с нашим движком распознавания речи на лету.
 
 Конвертация аудио на лету или в реальном времени может быть достигнута с помощью библиотеки GStreamer. Аналогично команде, нам придется организовать плагины GStreamer в конвейер потоковой конвертации, но на этот раз с использованием языка программирования.
 
@@ -357,11 +357,11 @@ Obliczony czas uśpienia, choć prawdopodobnie niedoskonały, wprowadza opóźni
 
 # Dlaczego robić to wszystko samemu?
 
-Chociaż konwersja plików audio na różne formaty jest niezbędna, dlaczego na tym poprzestać? Popraw swoje wrażenia dźwiękowe dzięki [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Chociaż konwersja plików audio na różne formaty jest niezbędna, dlaczego na tym poprzestać? Popraw swoje wrażenia dźwiękowe dzięki [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet oferuje dokładne, w czasie rzeczywitym transkrypcje i podsumowania dla wszystkich Twoich potrzeb audio.** Niezależnie od tego, czy konwertujesz pliki audio, nagrywasz podcast, czy po prostu chcesz mieć transkrypcję rozmowy, SeaMeet zapewnia natychmiastowe, wysokiej jakości transkrypcje i wnikliwe podsumowania. To potężne narzędzie może zaoszczędzić Ci godziny ręcznej pracy i pomóc Ci wydobyć maksymalną wartość z Twoich treści audio.
 
-[Zarejestruj się w SeaMeet już dziś](https://meet.seasalt.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
+[Zarejestruj się w SeaMeet już dziś](https://seameet.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
 
 # Więcej z serii Narzędzi Audio
 

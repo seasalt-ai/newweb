@@ -146,4 +146,4 @@ Google Meetの組み込みリアルタイム字幕機能が完全にニーズを
 
 あなたもGoogle Meet会議をリアルタイムで文字起こしし、チーム会議をより効率的にしたいと思いませんか？
 
-### [>>SeaMeetを無料で始める](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeetを無料で始める](https://seameet.ai/?utm_source=blog)
