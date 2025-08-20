@@ -78,4 +78,4 @@ Mit der rasanten Entwicklung der Technologie sind KI-Meeting-Assistenten zu unve
 
 Möchten Sie Ihre Team-Meetings effizienter gestalten?
 
-### [>>Starten Sie kostenlos mit SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Starten Sie kostenlos mit SeaMeet](https://seameet.ai/?utm_source=blog)

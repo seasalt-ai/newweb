@@ -146,4 +146,4 @@ Google Meet एक बिल्ट-इन रीयल-टाइम कैप्
 
 क्या आप भी अपनी Google Meet मीटिंग्स को रीयल-टाइम में ट्रांसक्राइब करना और अपनी टीम मीटिंग्स को अधिक कुशल बनाना चाहते हैं?
 
-### [>>SeaMeet का मुफ्त उपयोग शुरू करें](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeet का मुफ्त उपयोग शुरू करें](https://seameet.ai/?utm_source=blog)

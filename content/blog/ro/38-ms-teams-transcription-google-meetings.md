@@ -78,4 +78,4 @@ Cu avansarea rapidă a tehnologiei, asistenții AI pentru întâlniri au devenit
 
 Vrei să faci întâlnirile echipei tale mai eficiente?
 
-### [>>Începe gratuit cu SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Începe gratuit cu SeaMeet](https://seameet.ai/?utm_source=blog)

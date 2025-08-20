@@ -99,7 +99,7 @@ Die Audiokonvertierung im laufenden Betrieb, oder Echtzeit-Audiokonvertierung, i
 - Übertragung mit geringer Latenz: In interaktiven Anwendungen wie Sprachkommunikation, Online-Spielen oder Live-Events ist die Minimierung der Latenz entscheidend für die Aufrechterhaltung der Echtzeit-Reaktionsfähigkeit und des Benutzerengagements. Die Durchführung der Audiokonvertierung im laufenden Betrieb ermöglicht die Übertragung von Audiodaten mit minimaler Verzögerung, wodurch eine nahezu sofortige Bereitstellung und Wiedergabe gewährleistet wird. Diese Übertragung mit geringer Latenz verbessert das gesamte Benutzererlebnis, insbesondere in zeitkritischen Anwendungen, bei denen die Reaktionsfähigkeit von größter Bedeutung ist.
 - Ressourceneffizienz: Die Echtzeit-Audiokonvertierung spart Systemressourcen, indem sie die Notwendigkeit vermeidet, große Audiodateien im Voraus zu speichern oder zu verarbeiten. Anstatt Audioinhalte in verschiedene Formate vorzukonvertieren, ermöglicht die Konvertierung im laufenden Betrieb, dass Ressourcen dynamisch nach Bedarf zugewiesen werden, wodurch der Speicherbedarf und der Verarbeitungsaufwand reduziert werden. Dieser ressourceneffiziente Ansatz ist besonders vorteilhaft in ressourcenbeschränkten Umgebungen, wie z. B. eingebetteten Systemen oder mobilen Geräten, wo die Optimierung der Ressourcennutzung für die Aufrechterhaltung der Leistung und Skalierbarkeit unerlässlich ist.
 
-In unserem speziellen Anwendungsfall haben wir eine Konversationsintelligenzsoftware namens [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), die Audiodateien oder Streams (z. B. Google Meet) in verschiedenen Audioformaten akzeptiert und die Konversation von Sprache in Text transkribiert. Wir müssen also Audio in verschiedenen Formaten im laufenden Betrieb in ein Format konvertieren, das mit unserer Spracherkennungs-Engine funktioniert.
+In unserem speziellen Anwendungsfall haben wir eine Konversationsintelligenzsoftware namens [SeaMeet](https://seameet.ai/?utm_source=blog), die Audiodateien oder Streams (z. B. Google Meet) in verschiedenen Audioformaten akzeptiert und die Konversation von Sprache in Text transkribiert. Wir müssen also Audio in verschiedenen Formaten im laufenden Betrieb in ein Format konvertieren, das mit unserer Spracherkennungs-Engine funktioniert.
 
 Die On-the-Fly- oder Echtzeit-Audiokonvertierung kann mit der GStreamer-Bibliothek erreicht werden. Ähnlich wie beim Befehl müssen wir die GStreamer-Plugins in einer Streaming-Konvertierungspipeline organisieren, diesmal jedoch mit einer Programmiersprache.
 
@@ -366,11 +366,11 @@ Die berechnete Schlafzeit, obwohl wahrscheinlich nicht perfekt, führt eine Verz
 
 # Warum alles selbst machen?
 
-Obwohl die Konvertierung von Audiodateien in verschiedene Formate unerlässlich ist, warum sollte man dort aufhören? Verbessern Sie Ihr Audioerlebnis mit [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Obwohl die Konvertierung von Audiodateien in verschiedene Formate unerlässlich ist, warum sollte man dort aufhören? Verbessern Sie Ihr Audioerlebnis mit [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet bietet genaue, Echtzeit-Transkriptionen und Zusammenfassungen für alle Ihre Audioanforderungen.** Egal, ob Sie Audiodateien konvertieren, einen Podcast aufnehmen oder einfach nur eine Gesprächstranskription haben möchten, SeaMeet bietet sofortige, hochwertige Transkriptionen und aufschlussreiche Zusammenfassungen. Dieses leistungsstarke Tool kann Ihnen Stunden manueller Arbeit ersparen und Ihnen helfen, den maximalen Wert aus Ihren Audioinhalten zu ziehen.
 
-[Melden Sie sich noch heute für SeaMeet an](https://meet.seasalt.ai/?utm_source=blog) und erleben Sie die Freude, Ihre Gespräche zu verfolgen.
+[Melden Sie sich noch heute für SeaMeet an](https://seameet.ai/?utm_source=blog) und erleben Sie die Freude, Ihre Gespräche zu verfolgen.
 
 # Mehr aus der Audio-Toolbox-Serie
 

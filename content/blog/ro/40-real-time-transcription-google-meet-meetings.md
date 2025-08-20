@@ -93,4 +93,4 @@ Pe măsură ce companiile devin din ce în ce mai digitalizate și globalizate, 
 > 
 > - Transcrierea în timp real și analiza întâlnirilor nu numai că pot îmbunătăți eficiența și eficacitatea întâlnirilor, dar pot și spori implicarea și satisfacția participanților. Prin utilizarea acestor funcții, organizațiile se pot asigura că procesul lor de întâlnire este mai fluid și că obțin cea mai mare valoare din fiecare întâlnire.
 
-Vrei și tu transcriere în timp real și înregistrări ale întâlnirilor pentru a face întâlnirile echipei tale mai eficiente? [Începeți experiența gratuită SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Vrei și tu transcriere în timp real și înregistrări ale întâlnirilor pentru a face întâlnirile echipei tale mai eficiente? [Începeți experiența gratuită SeaMeet](https://seameet.ai/?utm_source=blog).

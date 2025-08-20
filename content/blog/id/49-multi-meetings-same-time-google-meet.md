@@ -44,4 +44,4 @@ Dengan SeaMeet, eksekutif dan manajer yang sibuk dapat mengelola beberapa rapat 
 
 Apakah Anda juga ingin membuat rapat tim Anda lebih efisien?
 
-### >>Mulai gratis dengan [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>Mulai gratis dengan [SeaMeet](https://seameet.ai/?utm_source=blog)

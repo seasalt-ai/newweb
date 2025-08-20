@@ -146,4 +146,4 @@ Wir hoffen, dass dieser Artikel Ihnen geholfen hat, besser zu verstehen, wie Sie
 
 Möchten auch Sie Google Meet-Meetings in Echtzeit transkribieren und Ihre Team-Meetings effizienter gestalten?
 
-### [>>Starten Sie kostenlos mit SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Starten Sie kostenlos mit SeaMeet](https://seameet.ai/?utm_source=blog)

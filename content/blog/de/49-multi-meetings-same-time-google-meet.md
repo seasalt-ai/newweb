@@ -44,4 +44,4 @@ Mit SeaMeet können beschäftigte Führungskräfte und Manager mehrere Meetings 
 
 Möchten Sie auch Ihre Team-Meetings effizienter gestalten?
 
-### >>Kostenlos mit [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) beginnen
+### >>Kostenlos mit [SeaMeet](https://seameet.ai/?utm_source=blog) beginnen

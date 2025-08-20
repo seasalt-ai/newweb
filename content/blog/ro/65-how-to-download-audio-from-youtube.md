@@ -158,11 +158,11 @@ YouTube are una dintre cele mai bune colecții audio, dar este important să în
 
 # De ce să o faci singur?
 
-Deși descărcarea audio de pe YouTube poate fi utilă, de ce să te oprești aici? Du-ți procesarea audio la nivelul următor cu [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Deși descărcarea audio de pe YouTube poate fi utilă, de ce să te oprești aici? Du-ți procesarea audio la nivelul următor cu [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet oferă transcriere și rezumate precise, în timp real, pentru toate nevoile tale audio.** Indiferent dacă ai o întâlnire, înregistrezi un podcast sau pur și simplu vrei să ai o transcriere a conversației, SeaMeet oferă transcrieri instantanee, de înaltă calitate și rezumate perspicace. Acest instrument puternic îți poate economisi ore de muncă manuală și te poate ajuta să extragi valoarea maximă din conținutul tău audio.
 
-[Înscrie-te la SeaMeet astăzi](https://meet.seasalt.ai/?utm_source=blog) și experimentează bucuria de a-ți urmări conversația.
+[Înscrie-te la SeaMeet astăzi](https://seameet.ai/?utm_source=blog) și experimentează bucuria de a-ți urmări conversația.
 
 # Mai multe din seria Audio Toolbox
 

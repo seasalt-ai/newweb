@@ -1,10 +1,10 @@
 ---
-title: "Ваш полный гид по конвертации аудио: легко конвертируйте звуковые файлы | Серия Audio Toolbox"
-metatitle: "Конвертация аудио/звуковых файлов | Серия Audio Toolbox"
+title: "Twój kompleksowy przewodnik po konwersji audio: łatwo konwertuj pliki dźwiękowe | Seria Audio Toolbox"
+metatitle: "Konwersja plików audio/dźwiękowych | Seria Audio Toolbox"
 date: 2024-04-01 10:25:00-08:00
 draft: false
 author: Guoguo Chen
-description: "Узнайте о конвертерах аудиофайлов, конвертации звуковых форматов и лучшем бесплатном программном обеспечении для конвертации аудио. Конвертируйте аудиофайлы без усилий с нашим пошаговым руководством."
+description: "Dowiedz się o konwerterach plików audio, konwersji formatów dźwięku i najlepszym darmowym oprogramowaniu do konwersji audio. Konwertuj pliki audio bez wysiłku dzięki naszemu przewodnikowi krok po kroku."
 weight: 1
 tags:
   - Audio Toolbox
@@ -14,36 +14,36 @@ canonicalURL: /blog/how-to-convert-audio-files-to-different-formats/
 url: /blog/how-to-convert-audio-files-to-different-formats/
 ---
 
-# Введение в конвертацию аудио
-В мире цифрового аудио существует множество способов сохранения наших звуков. Каждый способ имеет свои особенности, такие как уменьшение размера файлов или сохранение очень чистого звука. Но почему так много? Ну, потому что у каждого свои потребности и предпочтения. Некоторые форматы хорошо подходят для обмена музыкой онлайн, в то время как другие лучше всего подходят для студийных записей.
+# Wprowadzenie do konwersji audio
+W świecie cyfrowego audio istnieje wiele sposobów zapisywania naszych dźwięków. Każdy sposób ma swoje specjalne cechy, takie jak zmniejszanie rozmiaru plików lub zachowanie naprawdę czystego dźwięku. Ale dlaczego tak wiele? Cóż, ponieważ każdy ma inne potrzeby i preferencje. Niektóre formaty sprawdzają się dobrze do udostępniania muzyki online, podczas gdy inne są najlepsze do nagrań studyjnych.
 
-Но иногда нам нужно изменить один тип аудиофайла на другой. Возможно, наш музыкальный проигрыватель воспроизводит только один тип файла, но у нас есть песня в другом формате. Или, возможно, мы хотим сэкономить место на нашем компьютере, уменьшив большие файлы. Вот тут-то и приходит на помощь конвертация аудио. Сегодня давайте исследуем мир аудиоформатов и научимся легко конвертировать из одного в другой.
+Ale czasami musimy zmienić jeden typ pliku audio na inny. Może nasz odtwarzacz muzyczny odtwarza tylko jeden rodzaj pliku, a my mamy piosenkę w innym formacie. A może chcemy zaoszczędzić miejsce na komputerze, zmniejszając duże pliki. Właśnie tam wkracza konwersja audio. Dzisiaj zbadajmy świat formatów audio i dowiedzmy się, jak łatwo konwertować z jednego na drugi.
 
-# Распространенные аудиоформаты
-## MP3, WAV, AAC, FLAC, OGG: Понимание распространенных аудиоформатов
+# Popularne formaty audio
+## MP3, WAV, AAC, FLAC, OGG: Zrozumienie popularnych formatów audio
 
-Прежде чем мы углубимся в детали конвертации аудио, давайте сначала поближе рассмотрим некоторые из наиболее распространенных аудиоформатов и то, где вы можете с ними столкнуться:
+Zanim zagłębimy się w szczegóły konwersji audio, przyjrzyjmy się bliżej niektórym z najpopularniejszych formatów audio i miejscom, w których można je napotkać:
 
-- MP3 (MPEG-1 Audio Layer 3): MP3 — это как суперзвезда аудиоформатов. Он идеально подходит для обмена и прослушивания музыки онлайн, потому что он делает файлы меньше, не теряя слишком много качества. Так что, когда вы скачиваете песню из интернета, скорее всего, она в формате MP3.
+- MP3 (MPEG-1 Audio Layer 3): MP3 jest jak supergwiazda formatów audio. Jest idealny do udostępniania i słuchania muzyki online, ponieważ zmniejsza rozmiar plików bez zbytniej utraty jakości. Kiedy więc pobierasz piosenkę z internetu, jest duża szansa, że jest w formacie MP3.
 
-- WAV (Waveform Audio File Format): WAV — это все о сохранении суперчистого звука. Это формат, который используется для профессиональных аудиозаписей, потому что он не сжимает звук, что означает, что он отлично подходит для создания музыки в студии.
-- AAC (Advanced Audio Coding): AAC — это формат, используемый iTunes и Apple Music, поэтому, когда вы покупаете песню в iTunes Store, она, вероятно, будет в формате AAC. Кроме того, это также формат по умолчанию для записи голосовых заметок на iPhone.
+- WAV (Waveform Audio File Format): WAV stawia na zachowanie super czystości. Jest to format docelowy dla profesjonalnych nagrań audio, ponieważ nie kompresuje dźwięku, co oznacza, że świetnie nadaje się do tworzenia muzyki w studio.
+- AAC (Advanced Audio Coding): AAC to format używany przez iTunes i Apple Music, więc kiedy kupujesz piosenkę w sklepie iTunes Store, prawdopodobnie jest w formacie AAC. Ponadto jest to również domyślny format do nagrywania notatek głosowych na iPhone'ach.
 
-- FLAC (Free Lossless Audio Codec): FLAC предназначен для аудиофилов, которые хотят получить лучшее из обоих миров: небольшой размер файлов и высочайшее качество звука. Он идеально подходит для архивирования ваших любимых альбомов или наслаждения высококачественной музыкой на ваших дорогих наушниках.
+- FLAC (Free Lossless Audio Codec): FLAC jest dla audiofilów, którzy chcą tego, co najlepsze z obu światów: małych rozmiarów plików i najwyższej jakości dźwięku. Jest idealny do archiwizowania ulubionych albumów lub cieszenia się muzyką wysokiej jakości na fantazyjnych słuchawkach.
 
-- OGG (Ogg Vorbis): OGG, возможно, не так популярен, как другие, но он все равно довольно крут. Это формат с открытым исходным кодом, который отлично подходит для потоковой передачи музыки онлайн. Кроме того, он меньше файлов MP3 и поддерживает дополнительные функции, такие как метаданные, что удобно для организации вашей музыкальной библиотеки.
+- OGG (Ogg Vorbis): OGG może nie jest tak popularny jak inne, ale wciąż jest całkiem fajny. Jest to format open-source, który świetnie nadaje się do strumieniowego przesyłania muzyki online. Ponadto jest mniejszy niż pliki MP3 i obsługuje dodatkowe funkcje, takie jak metadane, co jest przydatne do organizowania biblioteki muzycznej.
 
-# Как конвертировать аудиофайлы - Варианты конвертации аудио
+# Jak konwertować pliki audio - Opcje konwersji audio
 
-## Конвертация аудио с помощью командной строки
+## Konwersja audio za pomocą wiersza polece
 
-Существует множество вариантов конвертации аудио. Если вы предпочитаете графические интерфейсы, вы можете использовать онлайн-конвертеры аудио или Audacity. Если вы готовы испачкать руки и не против печатать, вы можете использовать SoX или GStreamer, которые предлагают большую гибкость. Здесь я сосредоточусь на GStreamer, поскольку он хорошо поддерживает как командную строку, так и программирование, и естественным образом поддерживает потоковую передачу (или конвертацию на лету).
+Istnieje wiele opcji konwersji audio. Jeśli wolisz interfejsy graficzne, możesz użyć konwerterów audio online lub Audacity. Jeśli jesteś otwarty na ubrudzenie sobie rąk i nie masz nic przeciwko pisaniu, możesz użyć SoX lub GStreamer, które oferują większą elastyczność. Tutaj skupię się na GStreamer, ponieważ dobrze obsługuje zarówno wiersz poleceń, jak i programowanie, i naturalnie obsługuje strumieniowanie (lub konwersję w locie).
 
 
-### Установка GStreamer
-Официальный сайт GStreamer предоставляет подробные инструкции по установке для различных операционных систем, см. здесь. Следующее также работает.
+### Instalacja GStreamer
+Oficjalna strona GStreamer zawiera szczegółowe instrukcje instalacji dla różnych systemów operacyjnych, zobacz tutaj. Poniższe również działa.
 
-Для систем Linux вы обычно можете использовать менеджеры пакетов. Например, для систем на базе Debian/Ubuntu вы просто выполняете:
+W systemach Linux można ogólnie używać menedżerów pakietów. Na przykład w systemach opartych na Debianie/Ubuntu wystarczy wykonać
 
 ```
 sudo apt install gstreamer1.0
@@ -51,59 +51,59 @@ sudo apt install gstreamer1.0-plugins-base
 sudo apt install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 ```
 
-Вторая и третья команды являются необязательными, но я всегда считаю, что полезно установить эти дополнительные плагины.
+Druga i trzecia komenda są opcjonalne, ale zawsze uważam, że warto zainstalować te dodatkowe wtyczki.
 
-Для MacOS вы можете установить через Homebrew. Аналогично командам Linux, вы выполняете:
+W systemie MacOS można zainstalować za pomocą Homebrew. Podobnie jak w przypadku poleceń Linuksa, wykonujesz
 
 ```
 brew install gstreamer
 ```
 
-Homebrew не предоставляет отдельные пакеты для плагинов Gstreamer «good», «bad» и «ugly», как это делает для дистрибутивов Linux. Вместо этого Homebrew обычно устанавливает набор плагинов как часть самого пакета `gstreamer`.
+Homebrew nie dostarcza oddzielnych pakietów dla wtyczek Gstreamer „good”, „bad” i „ugly”, tak jak robi to w przypadku dystrybucji Linuksa. Zamiast tego Homebrew zazwyczaj instaluje zestaw wtyczek jako część samego pakietu `gstreamer`.
 
-Для Windows существуют предварительно скомпилированные установщики, перейдите к документации GStreamer здесь и следуйте инструкциям.
+Dla systemu Windows istnieją prekompilowane instalatory, przejdź do dokumentacji GStreamer tutaj i postępuj zgodnie z instrukcjami.
 
 
-### Конвертация аудио
-После установки GStreamer довольно просто конвертировать из одного аудиоформата в другой. Предположим, у вас есть один аудиофайл в формате MP3, назовем его `input.mp3`, и вы хотите конвертировать его в формат WAV, назовем его `output.wav`, вы просто запускаете следующую команду:
+### Konwersja audio
+Po zainstalowaniu GStreamer konwersja z jednego formatu audio na inny jest dość prosta. Załóżmy, że masz jeden plik audio w formacie MP3, nazwijmy go `input.mp3`, i chcesz go przekonwertować na format WAV, nazwijmy go `output.wav`, po prostu uruchom następujące polecenie:
 
 ```
 gst-launch-1.0 filesrc location=input.mp3 ! decodebin ! audioconvert ! audioresample ! wavenc ! filesink location=output.wav
 ```
 
-Эта команда использует следующие элементы GStreamer:
+To polecenie używa następujących elementów GStreamer:
 
-- filesrc: Читает данные из файла.
-- decodebin: Автоматически определяет и декодирует аудиоформат входного файла.
-- audioconvert: Конвертирует аудиоформат в формат, подходящий для конвертации.
-- audioresample: Пересэмплирует аудио до желаемой частоты дискретизации, если необходимо.
-- wavenc: Кодирует аудиоданные в формат WAV.
-- filesink: Записывает выходные аудиоданные в файл.
+- filesrc: Odczytuje dane z pliku.
+- decodebin: Automatycznie wykrywa i dekoduje format audio pliku wejściowego.
+- audioconvert: Konwertuje format audio na format odpowiedni do konwersji.
+- audioresample: Próbkuje ponownie dźwięk do pożądanej częstotliwości próbkowania, jeśli to konieczne.
+- wavenc: Koduje dane audio do formatu WAV.
+- filesink: Zapisuje wyjściowe dane audio do pliku.
 
-После выполнения этой команды GStreamer прочитает входной файл MP3, декодирует его, конвертирует в формат WAV и сохранит полученный файл WAV в указанном месте.
+Po uruchomieniu tego polecenia GStreamer odczyta wejściowy plik MP3, zdekoduje go, przekonwertuje na format WAV i zapisze wynikowy plik WAV w określonej lokalizacji.
 
-Вы можете указать детали формата WAV, используя элемент audioconvert. Вот пример установки частоты дискретизации на 44100 Гц и каналов на стерео:
+Możesz określić szczegóły formatu WAV za pomocą elementu audioconvert. Oto przykład ustawienia częstotliwości próbkowania na 44100 Hz i kanałów na stereo:
 
 ```
 gst-launch-1.0 filesrc location=input.mp3 ! decodebin ! audioconvert ! audio/x-raw,format=S16LE,rate=44100,channels=2 ! wavenc ! filesink location=output.wav
 ```
 
-Аналогично, вы можете конвертировать из одного типа в другой, используя различные плагины GStreamer.
+Podobnie można konwertować z jednego typu na inny za pomocą różnych wtyczek GStreamer.
 
 
-# Конвертация аудио на лету
+# Konwersja audio w locie
 
-Конвертация аудио на лету, или конвертация аудио в реальном времени, необходима в различных сценариях обработки аудио. Чтобы назвать лишь несколько:
+Konwersja audio w locie, czyli konwersja audio w czasie rzeczywistym, jest niezbędna w różnych scenariuszach przetwarzania audio. Wymieniając tylko kilka:
 
-- Адаптивность потоковой передачи: При потоковой передаче аудиоконтента по сетям различные устройства и платформы могут иметь различные требования к аудиоформатам и кодекам. Конвертация в реальном времени обеспечивает бесшовную адаптивность потоковой передачи путем динамической настройки аудиоданных в соответствии со спецификациями каждого принимающего устройства или платформы. Эта адаптивность необходима для обеспечения плавного воспроизведения в различных средах без необходимости предварительной обработки или перекодирования.
-- Передача с низкой задержкой: В интерактивных приложениях, таких как голосовая связь, онлайн-игры или живые события, минимизация задержки имеет решающее значение для поддержания реакции в реальном времени и вовлеченности пользователей. Выполнение конвертации аудио на лету позволяет передавать аудиоданные с минимальной задержкой, обеспечивая почти мгновенную доставку и воспроизведение. Эта передача с низкой задержкой улучшает общее впечатление пользователя, особенно в приложениях, чувствительных ко времени, где реакция имеет первостепенное значение.
-- Эффективность ресурсов: Конвертация аудио в реальном времени экономит системные ресурсы, избегая необходимости предварительного хранения или обработки больших аудиофайлов. Вместо предварительной конвертации аудиоконтента в различные форматы, конвертация на лету позволяет динамически выделять ресурсы по мере необходимости, уменьшая требования к хранению и накладные расходы на обработку. Этот ресурсоэффективный подход особенно выгоден в средах с ограниченными ресурсами, таких как встроенные системы или мобильные устройства, где оптимизация использования ресурсов необходима для поддержания производительности и масштабируемости.
+- Adaptacyjność strumieniowania: Podczas strumieniowania treści audio przez sieci różne urządzenia i platformy mogą mieć różne wymagania dotyczące formatów audio i kodeków. Konwersja w czasie rzeczywistym zapewnia płynną adaptacyjność strumieniowania poprzez dynamiczne dostosowywanie danych audio do specyfikacji każdego urządzenia lub platformy odbierającej. Ta adaptacyjność jest niezbędna do zapewnienia płynnego odtwarzania w różnych środowiskach bez konieczności wstępnego przetwarzania lub ponownego kodowania.
+- Transmisja o niskim opóźnieniu: W aplikacjach interaktywnych, takich jak komunikacja głosowa, gry online lub wydarzenia na żywo, minimalizacja opóźnień ma kluczowe znaczenie dla utrzymania responsywności w czasie rzeczywistym i zaangażowania użytkowników. Wykonywanie konwersji audio w locie pozwala na przesyłanie danych audio z minimalnym opóźnieniem, zapewniając niemal natychmiastowe dostarczanie i odtwarzanie. Ta transmisja o niskim opóźnieniu poprawia ogólne wrażenia użytkownika, zwłaszcza w aplikacjach wrażliwych na czas, w których responsywność ma ogromne znaczenie.
+- Efektywność zasobów: Konwersja audio w czasie rzeczywistym oszczędza zasoby systemowe, unikając konieczności wcześniejszego przechowywania lub przetwarzania dużych plików audio. Zamiast wstępnego konwertowania treści audio na różne formaty, konwersja w locie pozwala na dynamiczne przydzielanie zasobów w razie potrzeby, zmniejszając wymagania dotyczące pamięci masowej i narzut na przetwarzanie. To zasobooszczędne podejście jest szczególnie korzystne w środowiskach o ograniczonych zasobach, takich jak systemy wbudowane lub urządzenia mobilne, gdzie optymalizacja wykorzystania zasobów jest niezbędna do utrzymania wydajności i skalowalności.
 
-В нашем конкретном случае использования у нас есть программное обеспечение для анализа разговоров под названием [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), которое принимает аудиофайлы или потоки (например, Google Meet) в различных аудиоформатах и транскрибирует разговор из речи в текст. Таким образом, нам необходимо конвертировать аудио в различных форматах в формат, который работает с нашим движком распознавания речи на лету.
+W naszym konkretnym przypadku użycia mamy oprogramowanie do analizy konwersacji o nazwie [SeaMeet](https://seameet.ai/?utm_source=blog), które akceptuje pliki audio lub strumienie (np. Google Meet) w różnych formatach audio i transkrybuje rozmowę z mowy na tekst. Musimy więc konwertować audio w różnych formatach na format, który działa z naszym silnikiem rozpoznawania mowy w locie.
 
-Конвертация аудио на лету или в реальном времени может быть достигнута с помощью библиотеки GStreamer. Аналогично команде, нам придется организовать плагины GStreamer в конвейер потоковой конвертации, но на этот раз с использованием языка программирования.
+Konwersję audio w locie lub w czasie rzeczywistym można osiągnąć za pomocą biblioteki GStreamer. Podobnie jak w przypadku polecenia, będziemy musieli zorganizować wtyczki GStreamer w potoku konwersji strumieniowej, ale tym razem za pomocą języka programowania.
 
-Давайте сначала опубликуем рабочий пример на Python, а затем объясним, как он работает.
+Najpierw opublikujmy działający przykład w Pythonie, a następnie wyjaśnimy, jak działa.
 
 ```
 #!/usr/bin/python3
@@ -198,6 +198,15 @@ class AudioConverter:
         self.thread = threading.Thread(target=self.run)
         self.thread.start()
 
+    def push_data(self, data_chunk):
+        self.input_queue.put(data_chunk)
+
+    def pull_converted_data(self):
+        if not self.output_queue.empty():
+            return self.output_queue.get(block=False)  # Wait for data or None
+        else:
+            return None
+
     def run(self):
         """
         Starts the pipeline and data processing thread.
@@ -264,9 +273,7 @@ class AudioConverter:
             self.pipeline.set_state(Gst.State.NULL)
 
     def pipeline_reached_eos(self):
-        """
-Checks if the pipeline has reached EOS.
-"""
+        """Checks if the pipeline has reached EOS."""
         return not self.pipeline or self.pipeline.get_state(Gst.CLOCK_TIME_NONE)[1] == Gst.State.NULL
 
 def main():
@@ -357,11 +364,11 @@ Obliczony czas uśpienia, choć prawdopodobnie niedoskonały, wprowadza opóźni
 
 # Dlaczego robić to wszystko samemu?
 
-Chociaż konwersja plików audio na różne formaty jest niezbędna, dlaczego na tym poprzestać? Popraw swoje wrażenia dźwiękowe dzięki [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Chociaż konwersja plików audio na różne formaty jest niezbędna, dlaczego na tym poprzestać? Popraw swoje wrażenia dźwiękowe dzięki [SeaMeet](https://seameet.ai/?utm_source=blog).
 
-**SeaMeet oferuje dokładne, w czasie rzeczywitym transkrypcje i podsumowania dla wszystkich Twoich potrzeb audio.** Niezależnie od tego, czy konwertujesz pliki audio, nagrywasz podcast, czy po prostu chcesz mieć transkrypcję rozmowy, SeaMeet zapewnia natychmiastowe, wysokiej jakości transkrypcje i wnikliwe podsumowania. To potężne narzędzie może zaoszczędzić Ci godziny ręcznej pracy i pomóc Ci wydobyć maksymalną wartość z Twoich treści audio.
+**SeaMeet oferuje dokładne, w czasie rzeczywistym transkrypcje i podsumowania dla wszystkich Twoich potrzeb audio.** Niezależnie od tego, czy konwertujesz pliki audio, nagrywasz podcast, czy po prostu chcesz mieć transkrypcję rozmowy, SeaMeet zapewnia natychmiastowe, wysokiej jakości transkrypcje i wnikliwe podsumowania. To potężne narzędzie może zaoszczędzić Ci godziny ręcznej pracy i pomóc Ci wydobyć maksymalną wartość z Twoich treści audio.
 
-[Zarejestruj się w SeaMeet już dziś](https://meet.seasalt.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
+[Zarejestruj się w SeaMeet już dziś](https://seameet.ai/?utm_source=blog) i doświadcz radości śledzenia swoich rozmów.
 
 # Więcej z serii Narzędzi Audio
 

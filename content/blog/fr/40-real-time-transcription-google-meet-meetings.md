@@ -94,4 +94,4 @@ Avec la numérisation et la mondialisation croissantes des entreprises, la gesti
 > - La transcription en temps réel et l'analyse des réunions peuvent non seulement améliorer l'efficacité et l'efficience des réunions, mais aussi améliorer la participation et la satisfaction des participants. En tirant parti de ces fonctions, les organisations peuvent s'assurer que leurs processus de réunion sont plus fluides et qu'elles tirent le meilleur parti de chaque réunion.
 
 
-Souhaitez-vous également disposer de transcriptions en temps réel et de procès-verbaux de réunion pour rendre les réunions d'équipe plus efficaces ? [Commencez un essai gratuit de SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Souhaitez-vous également disposer de transcriptions en temps réel et de procès-verbaux de réunion pour rendre les réunions d'équipe plus efficaces ? [Commencez un essai gratuit de SeaMeet](https://seameet.ai/?utm_source=blog).

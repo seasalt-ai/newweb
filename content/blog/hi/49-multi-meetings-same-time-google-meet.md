@@ -44,4 +44,4 @@ SeaMeet के साथ, व्यस्त कार्यकारी और 
 
 क्या आप भी अपनी टीम की बैठकों को अधिक कुशल बनाना चाहते हैं?
 
-### >>[SeaMeet](https://meet.seasalt.ai/?utm_source=blog) के साथ मुफ्त शुरू करें
+### >>[SeaMeet](https://seameet.ai/?utm_source=blog) के साथ मुफ्त शुरू करें

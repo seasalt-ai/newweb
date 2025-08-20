@@ -78,4 +78,4 @@ Dengan pesatnya perkembangan teknologi, asisten rapat AI telah menjadi alat yang
 
 Ingin membuat rapat tim Anda lebih efisien?
 
-### [>>Mulai menggunakan SeaMeet secara gratis](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulai menggunakan SeaMeet secara gratis](https://seameet.ai/?utm_source=blog)

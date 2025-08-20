@@ -78,4 +78,4 @@ Con el rápido desarrollo de la tecnología, los asistentes de IA para reuniones
 
 ¿Quieres hacer que las reuniones de tu equipo sean más eficientes?
 
-### [>>Comienza a usar SeaMeet gratis](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Comienza a usar SeaMeet gratis](https://seameet.ai/?utm_source=blog)

@@ -78,4 +78,4 @@ Com o rápido avanço da tecnologia, os assistentes de reunião AI tornaram-se u
 
 Quer tornar as reuniões da sua equipe mais eficientes?
 
-### [>>Comece a usar o SeaMeet gratuitamente](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Comece a usar o SeaMeet gratuitamente](https://seameet.ai/?utm_source=blog)

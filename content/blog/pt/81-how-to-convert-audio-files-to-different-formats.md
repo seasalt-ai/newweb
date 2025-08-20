@@ -99,7 +99,7 @@ A conversão de áudio em tempo real, ou conversão de áudio em tempo real, é 
 - Transmissão de Baixa Latência: Em aplicativos interativos, como comunicação por voz, jogos online ou eventos ao vivo, minimizar a latência é crucial para manter a capacidade de resposta em tempo real e o envolvimento do usuário. A realização da conversão de áudio em tempo real permite que os dados de áudio sejam transmitidos com atraso mínimo, garantindo entrega e reprodução quase instantâneas. Essa transmissão de baixa latência aprimora a experiência geral do usuário, especialmente em aplicativos sensíveis ao tempo, onde a capacidade de resposta é fundamental.
 - Eficiência de Recursos: A conversão de áudio em tempo real economiza recursos do sistema, evitando a necessidade de armazenar ou processar grandes arquivos de áudio com antecedência. Em vez de pré-converter o conteúdo de áudio para vários formatos, a conversão em tempo real permite que os recursos sejam alocados dinamicamente conforme necessário, reduzindo os requisitos de armazenamento e a sobrecarga de processamento. Essa abordagem eficiente em termos de recursos é particularmente vantajosa em ambientes com recursos limitados, como sistemas embarcados ou dispositivos móveis, onde a otimização do uso de recursos é essencial para manter o desempenho e a escalabilidade.
 
-Em nosso caso de uso específico, temos um software de inteligência de conversação chamado [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) que aceita arquivos de áudio ou streams (por exemplo, Google Meet) em vários formatos de áudio e transcreve a conversa de fala para texto. Portanto, precisamos converter o áudio em vários formatos para um formato que funcione com nosso mecanismo de reconhecimento de fala em tempo real.
+Em nosso caso de uso específico, temos um software de inteligência de conversação chamado [SeaMeet](https://seameet.ai/?utm_source=blog) que aceita arquivos de áudio ou streams (por exemplo, Google Meet) em vários formatos de áudio e transcreve a conversa de fala para texto. Portanto, precisamos converter o áudio em vários formatos para um formato que funcione com nosso mecanismo de reconhecimento de fala em tempo real.
 
 A conversão de áudio em tempo real pode ser alcançada usando a biblioteca GStreamer. Semelhante ao comando, teremos que organizar os plugins GStreamer em um pipeline de conversão de streaming, mas desta vez, com uma linguagem de programação.
 
@@ -366,11 +366,11 @@ O tempo de suspensão calculado, embora provavelmente não seja perfeito, introd
 
 # Por que fazer tudo sozinho?
 
-Embora a conversão de arquivos de áudio para diferentes formatos seja essencial, por que parar por aí? Aprimore sua experiência de áudio com [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Embora a conversão de arquivos de áudio para diferentes formatos seja essencial, por que parar por aí? Aprimore sua experiência de áudio com [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **O SeaMeet oferece transcrição e resumos precisos e em tempo real para todas as suas necessidades de áudio.** Quer você esteja convertendo arquivos de áudio, gravando um podcast ou apenas queira ter uma transcrição de conversa, o SeaMeet fornece transcrições instantâneas de alta qualidade e resumos perspicazes. Essa ferramenta poderosa pode economizar horas de trabalho manual e ajudá-lo a extrair o valor máximo do seu conteúdo de áudio.
 
-[Inscreva-se no SeaMeet hoje](https://meet.seasalt.ai/?utm_source=blog) e experimente a alegria de acompanhar sua conversa.
+[Inscreva-se no SeaMeet hoje](https://seameet.ai/?utm_source=blog) e experimente a alegria de acompanhar sua conversa.
 
 # Mais da Série Caixa de Ferramentas de Áudio
 

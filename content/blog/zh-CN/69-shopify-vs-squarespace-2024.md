@@ -81,7 +81,7 @@ Squarespace 最著名的是一个具有强大电子商务功能的网站建设�
 
 ## 使用 SeaChat 您可以做得更多
 
-无论您为在线业务选择哪种解决方案，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子商务网站建设工具良好集成。在10分钟内构建并启动 AI 聊天代理。支持多语言。实时代理转接。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。发送电子邮件至 [seachat@seasalt.ai](mailto:seameet@seasalt.ai) 获取更多详细信息或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+无论您为在线业务选择哪种解决方案，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子商务网站建设工具良好集成。在10分钟内构建并启动 AI 聊天代理。支持多语言。实时代理转接。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 获取更多详细信息或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
 
 SeaChat 提供与 Shopify 和 Squarespace 的无缝集成。立即了解如何将 AI 聊天和代理添加到您的 Shopify 和 Squarespace 商店：
 

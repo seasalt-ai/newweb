@@ -24,16 +24,16 @@ Meta AI 刚刚发布了 Llama 3，现在您可以直接从 Instagram、Facebook�
 # 我为什么要关心？
 您可能会想：“Meta 正在发布更强大、更易于访问的 AI 助手，这很酷。但作为企业主/个人，我到底该如何利用它呢？”
 
-这就是 [Seasalt.ai](https://seasalt.ai/?utm_source=blog) 存在并持续开发 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 和 [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 等对话式 AI 产品的原因，这些产品可以解决实际的商业挑战。随着 AI 技术变得越来越强大，或者更准确地说，随着大型语言基础模型变得越来越强大，我们可以构建更好的产品。对话式 AI 是一个生态系统，您需要像 Seasalt.ai 这样的公司来弥合模型和应用程序之间的差距。
+这就是 [Seasalt.ai](https://seasalt.ai/?utm_source=blog) 存在并持续开发 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 和 [SeaMeet](https://seameet.ai/?utm_source=blog) 等对话式 AI 产品的原因，这些产品可以解决实际的商业挑战。随着 AI 技术变得越来越强大，或者更准确地说，随着大型语言基础模型变得越来越强大，我们可以构建更好的产品。对话式 AI 是一个生态系统，您需要像 Seasalt.ai 这样的公司来弥合模型和应用程序之间的差距。
 
 用户现在只能出于娱乐目的与 Meta AI 和 ChatGPT 聊天，或者用它来完成简单的任务，但要真正使其对实际业务应用程序有用，还有很多工作要做。以下是我们为弥合这一差距并使这些强大的 AI 助手在您的生活和业务中真正发挥作用所做的一些事情：
 
 ## 以用例为中心
 
-在 Seasalt.ai，我们专注于构建能够解决实际业务痛点的对话式 AI 产品。无论您是想构建能够根据公司政策回答问题的 [AI 客户服务代理](https://chat.seasalt.ai/?utm_source=blog)，还是构建一个公司内部知识库，为回答重复性问题的员工节省时间，或者拥有一个 [可靠的会议记录员](https://meet.seasalt.ai/?utm_source=blog)，它不仅能及时出现在您的所有会议中，还能在会议结束后立即转录和总结会议。这些都是我们客户喜爱的实用用例。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的痛点和用例。
+在 Seasalt.ai，我们专注于构建能够解决实际业务痛点的对话式 AI 产品。无论您是想构建能够根据公司政策回答问题的 [AI 客户服务代理](https://chat.seasalt.ai/?utm_source=blog)，还是构建一个公司内部知识库，为回答重复性问题的员工节省时间，或者拥有一个 [可靠的会议记录员](https://seameet.ai/?utm_source=blog)，它不仅能及时出现在您的所有会议中，还能在会议结束后立即转录和总结会议。这些都是我们客户喜爱的实用用例。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的痛点和用例。
 
 ## 定制
-如果没有大量的开发和定制，您无法根据自己的需求定制现成的 AI 模型。在 Seasalt.ai，我们让定制变得极其简单。您可以带上您公司的所有文档，并在 [10 分钟内构建一个根据您的文档回答问题的聊天机器人](https://chat.seasalt.ai/?utm_source=blog)。收集所有会议转录并定制会议笔记模板将花费您大量时间。我们通过在 [每次会议后提供基于主题的摘要](https://meet.seasalt.ai/?utm_source=blog) 来简化这一过程。您唯一需要做的就是参加会议并专注于沟通。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的定制需求。
+如果没有大量的开发和定制，您无法根据自己的需求定制现成的 AI 模型。在 Seasalt.ai，我们让定制变得极其简单。您可以带上您公司的所有文档，并在 [10 分钟内构建一个根据您的文档回答问题的聊天机器人](https://chat.seasalt.ai/?utm_source=blog)。收集所有会议转录并定制会议笔记模板将花费您大量时间。我们通过在 [每次会议后提供基于主题的摘要](https://seameet.ai/?utm_source=blog) 来简化这一过程。您唯一需要做的就是参加会议并专注于沟通。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的定制需求。
 
 ## 通信渠道
 

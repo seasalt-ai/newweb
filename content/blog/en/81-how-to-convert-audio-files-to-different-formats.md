@@ -99,7 +99,7 @@ Audio conversion on the fly, or real-time audio conversion, is essential in vari
 - Low-Latency Transmission: In interactive applications such as voice communication, online gaming, or live events, minimizing latency is crucial for maintaining real-time responsiveness and user engagement. Performing audio conversion on the fly allows audio data to be transmitted with minimal delay, ensuring near-instantaneous delivery and playback. This low-latency transmission enhances the overall user experience, especially in time-sensitive applications where responsiveness is paramount. 
 - Resource Efficiency: Real-time audio conversion conserves system resources by avoiding the need for storing or processing large audio files in advance. Instead of pre-converting audio content to various formats, conversion on the fly allows resources to be allocated dynamically as needed, reducing storage requirements and processing overhead. This resource-efficient approach is particularly advantageous in resource-constrained environments, such as embedded systems or mobile devices, where optimizing resource utilization is essential for maintaining performance and scalability.
 
-In our specific use case, we have a conversation intelligence software called [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) which accepts audio files or streams (e.g., Google Meet) in various audio formats and transcribes the conversation from speech to text. So, we have to convert audio in various formats into a format that works with our speech recognition engine on the fly.
+In our specific use case, we have a conversation intelligence software called [SeaMeet](https://seameet.ai/?utm_source=blog) which accepts audio files or streams (e.g., Google Meet) in various audio formats and transcribes the conversation from speech to text. So, we have to convert audio in various formats into a format that works with our speech recognition engine on the fly.
 
 On-the-fly or real-time audio conversion can be achieved using the GStreamer library. Similar to the command, we will have to organzie the GStreamer plugins in a streaming conversion pipeline, but this time, with a programming language.
 
@@ -364,11 +364,11 @@ The calculated sleep time, though likely not perfect, introduces a delay between
 
 # Why doing it all by yourself?
 
-While converting audio files to different formats is essential, why stop there? Enhance your audio experience with [SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+While converting audio files to different formats is essential, why stop there? Enhance your audio experience with [SeaMeet](https://seameet.ai/?utm_source=blog).
 
 **SeaMeet offers accurate, real-time transcription and summaries for all your audio needs.** Whether you're converting audio files, recording a podcast, or just want to have a conversation transcript, SeaMeet provides instant, high-quality transcripts and insightful summaries. This powerful tool can save you hours of manual work and help you extract maximum value from your audio content.
 
-[Sign up for SeaMeet today](https://meet.seasalt.ai/?utm_source=blog) and experience the joy of tracking your conversation.
+[Sign up for SeaMeet today](https://seameet.ai/?utm_source=blog) and experience the joy of tracking your conversation.
 
 # More from Audio Toolbox Series
 

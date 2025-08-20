@@ -44,4 +44,4 @@ Dengan SeaMeet, eksekutif dan pengurus yang sibuk boleh menguruskan beberapa mes
 
 Adakah anda juga ingin menjadikan mesyuarat pasukan anda lebih cekap?
 
-### >>Mulakan percuma dengan [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>Mulakan percuma dengan [SeaMeet](https://seameet.ai/?utm_source=blog)

@@ -83,4 +83,4 @@ Google Meet為其用戶引入了一種名為Duet AI的新功能，該功能主�
 
 你也想使團隊會議更高效嗎？
 
-### [>>免費開始體驗SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>免費開始體驗SeaMeet](https://seameet.ai/?utm_source=blog)

@@ -44,4 +44,4 @@ SeaMeetを通じて、多忙な役員やマネージャーは複数の会議を�
 
 チーム会議をより効率的にしたいですか？
 
-### >> [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)の無料トライアルを開始する
+### >> [SeaMeet](https://seameet.ai/?utm_source=blog)の無料トライアルを開始する

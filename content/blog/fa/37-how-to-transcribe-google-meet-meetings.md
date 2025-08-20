@@ -146,4 +146,4 @@ Google Meet یک قابلیت زیرنویس بلادرنگ داخلی ارائ�
 
 آیا شما هم می‌خواهید جلسات Google Meet را به صورت بلادرنگ رونویسی کنید و جلسات تیمی خود را کارآمدتر سازید؟
 
-### [>>استفاده رایگان از SeaMeet را شروع کنید](https://meet.seasalt.ai/?utm_source=blog)
+### [>>استفاده رایگان از SeaMeet را شروع کنید](https://seameet.ai/?utm_source=blog)

@@ -78,4 +78,4 @@ Google Meet ได้แนะนำคุณสมบัติใหม่ท�
 
 ต้องการทำให้การประชุมทีมของคุณมีประสิทธิภาพมากขึ้นหรือไม่?
 
-### [>>เริ่มต้นใช้งาน SeaMeet ฟรี](https://meet.seasalt.ai/?utm_source=blog)
+### [>>เริ่มต้นใช้งาน SeaMeet ฟรี](https://seameet.ai/?utm_source=blog)

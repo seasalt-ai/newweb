@@ -137,4 +137,4 @@ We hope this article helps you better understand how to transcribe Google Meet m
 
 Do you also want to transcribe Google Meet meetings in real-time and make your team meetings more efficient?
 
-### [>>Start your free Seasalt.ai trial](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Start your free Seasalt.ai trial](https://seameet.ai/?utm_source=blog)

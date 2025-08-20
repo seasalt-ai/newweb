@@ -18,9 +18,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Ringkasan Utama**
 > - Duet AI dapat meningkatkan kecekapan mesyuarat di Google Meet, tetapi belum menyokong bahasa Cina: [Ketahui lebih lanjut](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> - SeaMeet menyediakan AI Meeting Copilot untuk pengguna bahasa Cina, terutamanya pengguna Bahasa Cina Tradisional: [Ketahui lebih lanjut](https://meet.seasalt.ai/?utm_source=blog)
+> - SeaMeet menyediakan AI Meeting Copilot untuk pengguna bahasa Cina, terutamanya pengguna Bahasa Cina Tradisional: [Ketahui lebih lanjut](https://seameet.ai/?utm_source=blog)
 
-Dalam era globalisasi, kepentingan alat kerjasama semakin menonjol, terutamanya dalam persekitaran pelbagai bahasa. Google Duet AI, sebagai alat kerjasama canggih, menyediakan pelbagai fungsi untuk meningkatkan kecekapan mesyuarat dan kerjasama. Walau bagaimanapun, pada masa ini ia belum dapat memberikan sokongan bahasa Cina, yang mungkin membawa kesulitan tertentu kepada pengguna bahasa Cina, terutamanya pengguna Bahasa Cina Tradisional. Nasib baik, terdapat beberapa alat kerjasama lain, seperti [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), yang dapat memberikan penyelesaian yang berkesan untuk pengguna bahasa Cina.
+Dalam era globalisasi, kepentingan alat kerjasama semakin menonjol, terutamanya dalam persekitaran pelbagai bahasa. Google Duet AI, sebagai alat kerjasama canggih, menyediakan pelbagai fungsi untuk meningkatkan kecekapan mesyuarat dan kerjasama. Walau bagaimanapun, pada masa ini ia belum dapat memberikan sokongan bahasa Cina, yang mungkin membawa kesulitan tertentu kepada pengguna bahasa Cina, terutamanya pengguna Bahasa Cina Tradisional. Nasib baik, terdapat beberapa alat kerjasama lain, seperti [SeaMeet](https://seameet.ai/?utm_source=blog), yang dapat memberikan penyelesaian yang berkesan untuk pengguna bahasa Cina.
 
 # Kelebihan Fungsi Mesyuarat Google Duet AI
 
@@ -49,7 +49,7 @@ SeaMeet adalah platform kerjasama yang direka untuk pengguna bahasa Cina, ia men
 </center>
 
 
-Sokongan bahasa Cina SeaMeet bukan sahaja terhad kepada antara muka dan interaksi, ia juga menyediakan terjemahan bahasa dan fungsi sari kata **masa nyata** untuk memastikan komunikasi silang bahasa tanpa halangan. Di samping itu, ia juga menyediakan satu siri alat kecekapan mesyuarat untuk membantu pengguna menjalankan mesyuarat dan bekerjasama dengan lebih berkesan. Selamat datang ke laman web rasmi untuk [mengetahui lebih lanjut](https://meet.seasalt.ai/?utm_source=blog).
+Sokongan bahasa Cina SeaMeet bukan sahaja terhad kepada antara muka dan interaksi, ia juga menyediakan terjemahan bahasa dan fungsi sari kata **masa nyata** untuk memastikan komunikasi silang bahasa tanpa halangan. Di samping itu, ia juga menyediakan satu siri alat kecekapan mesyuarat untuk membantu pengguna menjalankan mesyuarat dan bekerjasama dengan lebih berkesan. Selamat datang ke laman web rasmi untuk [mengetahui lebih lanjut](https://seameet.ai/?utm_source=blog).
 
 # Prospek Masa Depan Kerjasama Silang Bahasa
 
@@ -71,4 +71,4 @@ Dengan membandingkan Google Duet AI dan SeaMeet, kita dapat melihat bahawa walau
 
 Adakah anda juga mahu menjadikan mesyuarat pasukan anda lebih cekap?
 
-### [>>Mulakan percubaan percuma SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulakan percubaan percuma SeaMeet](https://seameet.ai/?utm_source=blog)

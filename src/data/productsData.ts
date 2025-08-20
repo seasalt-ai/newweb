@@ -29,7 +29,7 @@ export const getProducts = (t: TFunction): Product[] => [
   },
   {
     title: t('productsData.seameet.title'),
-    href: 'http://meet.seasalt.ai/',
+    href: 'https://seameet.ai/',
     description: t('productsData.seameet.description'),
     icon: Video
   },

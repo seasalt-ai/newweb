@@ -24,16 +24,16 @@ Meta AI 剛剛發布了 Llama 3，現在您可以直接從 Instagram、Facebook�
 # 我為什麼要關心？
 您可能會想：「Meta 正在發布更強大、更易於訪問的 AI 助手，這很酷。但作為企業主/個人，我到底該如何利用它呢？」
 
-這就是 [Seasalt.ai](https://seasalt.ai/?utm_source=blog) 存在並持續開發 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 和 [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 等對話式 AI 產品的原因，這些產品可以解決實際的商業挑戰。隨著 AI 技術變得越來越強大，或者更準確地說，隨著大型語言基礎模型變得越來越強大，我們可以構建更好的產品。對話式 AI 是一個生態系統，您需要像 Seasalt.ai 這樣的公司來彌合模型和應用程序之間的差距。
+這就是 [Seasalt.ai](https://seasalt.ai/?utm_source=blog) 存在並持續開發 [SeaChat](https://chat.seasalt.ai/?utm_source=blog) 和 [SeaMeet](https://seameet.ai/?utm_source=blog) 等對話式 AI 產品的原因，這些產品可以解決實際的商業挑戰。隨著 AI 技術變得越來越強大，或者更準確地說，隨著大型語言基礎模型變得越來越強大，我們可以構建更好的產品。對話式 AI 是一個生態系統，您需要像 Seasalt.ai 這樣的公司來彌合模型和應用程序之間的差距。
 
 用戶現在只能出於娛樂目的與 Meta AI 和 ChatGPT 聊天，或者用它來完成簡單的任務，但要真正使其對實際業務應用程序有用，還有很多工作要做。以下是我們為彌合這一差距並使這些強大的 AI 助手在您的生活和業務中真正發揮作用所做的一些事情：
 
 ## 以用例為中心
 
-在 Seasalt.ai，我們專注於構建能夠解決實際業務痛點的對話式 AI 產品。無論您是想構建能夠根據公司政策回答問題的 [AI 客戶服務代理](https://chat.seasalt.ai/?utm_source=blog)，還是構建一個公司內部知識庫，為回答重複性問題的員工節省時間，或者擁有一個 [可靠的會議記錄員](https://meet.seasalt.ai/?utm_source=blog)，它不僅能及時出現在您的所有會議中，還能在會議結束後立即轉錄和總結會議。這些都是我們客戶喜愛的實用用例。Meta、Google 或 OpenAI 提供的現成 AI 模型很智能，但它們並不專注於您的痛點和用例。
+在 Seasalt.ai，我們專注於構建能夠解決實際業務痛點的對話式 AI 產品。無論您是想構建能夠根據公司政策回答問題的 [AI 客戶服務代理](https://chat.seasalt.ai/?utm_source=blog)，還是構建一個公司內部知識庫，為回答重複性問題的員工節省時間，或者擁有一個 [可靠的會議記錄員](https://seameet.ai/?utm_source=blog)，它不僅能及時出現在您的所有會議中，還能在會議結束後立即轉錄和總結會議。這些都是我們客戶喜愛的實用用例。Meta、Google 或 OpenAI 提供的現成 AI 模型很智能，但它們並不專注於您的痛點和用例。
 
 ## 客製化
-如果沒有大量的開發和客製化，您無法根據自己的需求客製化現成的 AI 模型。在 Seasalt.ai，我們讓客製化變得極其簡單。您可以帶上您公司的所有文件，並在 [10 分鐘內構建一個根據您的文件回答問題的聊天機器人](https://chat.seasalt.ai/?utm_source=blog)。收集所有會議轉錄並客製化會議筆記模板將花費您大量時間。我們通過在 [每次會議後提供基於主題的摘要](https://meet.seasalt.ai/?utm_source=blog) 來簡化這一過程。您唯一需要做的就是參加會議並專注於溝通。Meta、Google 或 OpenAI 提供的現成 AI 模型很智能，但它們並不專注於您的客製化需求。
+如果沒有大量的開發和客製化，您無法根據自己的需求客製化現成的 AI 模型。在 Seasalt.ai，我們讓客製化變得極其簡單。您可以帶上您公司的所有文件，並在 [10 分鐘內構建一個根據您的文件回答問題的聊天機器人](https://chat.seasalt.ai/?utm_source=blog)。收集所有會議轉錄並客製化會議筆記模板將花費您大量時間。我們通過在 [每次會議後提供基於主題的摘要](https://seameet.ai/?utm_source=blog) 來簡化這一過程。您唯一需要做的就是參加會議並專注於溝通。Meta、Google 或 OpenAI 提供的現成 AI 模型很智能，但它們並不專注於您的客製化需求。
 
 ## 通訊渠道
 

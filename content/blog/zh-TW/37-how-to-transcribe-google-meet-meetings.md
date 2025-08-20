@@ -149,4 +149,4 @@ Google Meet 提供了一個內置的實時字幕功能，允許使用者在會�
 
 你也想實時轉錄Google Meet會議、使團隊會議更高效嗎？
 
-### [>>免費開始體驗SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>免費開始體驗SeaMeet](https://seameet.ai/?utm_source=blog)

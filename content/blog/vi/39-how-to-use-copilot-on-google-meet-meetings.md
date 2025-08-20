@@ -18,9 +18,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Tóm tắt chính**
 > - Duet AI có thể cải thiện hiệu quả cuộc họp trong Google Meet, nhưng vẫn chưa hỗ trợ tiếng Trung: [Tìm hiểu thêm](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> - SeaMeet cung cấp AI Meeting Copilot cho người dùng tiếng Trung, đặc biệt là người dùng tiếng Trung phồn thể: [Tìm hiểu thêm](https://meet.seasalt.ai/?utm_source=blog)
+> - SeaMeet cung cấp AI Meeting Copilot cho người dùng tiếng Trung, đặc biệt là người dùng tiếng Trung phồn thể: [Tìm hiểu thêm](https://seameet.ai/?utm_source=blog)
 
-Trong thời đại toàn cầu hóa, tầm quan trọng của các công cụ cộng tác ngày càng trở nên nổi bật, đặc biệt là trong môi trường đa ngôn ngữ. Google Duet AI, với tư cách là một công cụ cộng tác tiên tiến, cung cấp một số chức năng để cải thiện hiệu quả của các cuộc họp và cộng tác. Tuy nhiên, hiện tại nó vẫn chưa thể cung cấp hỗ trợ tiếng Trung, điều này có thể gây ra một số bất tiện cho người dùng tiếng Trung, đặc biệt là người dùng tiếng Trung phồn thể. May mắn thay, có những công cụ cộng tác khác, chẳng hạn như [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), có thể cung cấp các giải pháp hiệu quả cho người dùng tiếng Trung.
+Trong thời đại toàn cầu hóa, tầm quan trọng của các công cụ cộng tác ngày càng trở nên nổi bật, đặc biệt là trong môi trường đa ngôn ngữ. Google Duet AI, với tư cách là một công cụ cộng tác tiên tiến, cung cấp một số chức năng để cải thiện hiệu quả của các cuộc họp và cộng tác. Tuy nhiên, hiện tại nó vẫn chưa thể cung cấp hỗ trợ tiếng Trung, điều này có thể gây ra một số bất tiện cho người dùng tiếng Trung, đặc biệt là người dùng tiếng Trung phồn thể. May mắn thay, có những công cụ cộng tác khác, chẳng hạn như [SeaMeet](https://seameet.ai/?utm_source=blog), có thể cung cấp các giải pháp hiệu quả cho người dùng tiếng Trung.
 
 # Ưu điểm của các chức năng cuộc họp của Google Duet AI
 
@@ -49,7 +49,7 @@ SeaMeet là một nền tảng cộng tác được thiết kế cho người d�
 </center>
 
 
-Hỗ trợ tiếng Trung của SeaMeet không chỉ giới hạn ở giao diện và tương tác, nó còn cung cấp các chức năng dịch ngôn ngữ và phụ đề **thời gian thực** để đảm bảo giao tiếp đa ngôn ngữ không có rào cản. Ngoài ra, nó còn cung cấp một loạt các công cụ hiệu quả cuộc họp để giúp người dùng tiến hành các cuộc họp và cộng tác hiệu quả hơn. Chào mừng bạn đến trang web chính thức để [tìm hiểu thêm](https://meet.seasalt.ai/?utm_source=blog).
+Hỗ trợ tiếng Trung của SeaMeet không chỉ giới hạn ở giao diện và tương tác, nó còn cung cấp các chức năng dịch ngôn ngữ và phụ đề **thời gian thực** để đảm bảo giao tiếp đa ngôn ngữ không có rào cản. Ngoài ra, nó còn cung cấp một loạt các công cụ hiệu quả cuộc họp để giúp người dùng tiến hành các cuộc họp và cộng tác hiệu quả hơn. Chào mừng bạn đến trang web chính thức để [tìm hiểu thêm](https://seameet.ai/?utm_source=blog).
 
 # Triển vọng tương lai của cộng tác đa ngôn ngữ
 
@@ -71,4 +71,4 @@ Bằng cách so sánh Google Duet AI và SeaMeet, chúng ta có thể thấy r�
 
 Bạn cũng muốn làm cho các cuộc họp nhóm của mình hiệu quả hơn?
 
-### [>>Bắt đầu dùng thử miễn phí SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Bắt đầu dùng thử miễn phí SeaMeet](https://seameet.ai/?utm_source=blog)

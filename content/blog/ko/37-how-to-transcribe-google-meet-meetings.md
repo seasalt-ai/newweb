@@ -146,4 +146,4 @@ Google Meet의 내장 실시간 자막 기능이 완전히 요구사항을 충�
 
 당신도 Google Meet 회의를 실시간으로 기록하고 팀 회의를 더 효율적으로 만들고 싶으신가요?
 
-### [>>SeaMeet 무료로 시작하기](https://meet.seasalt.ai/?utm_source=blog)
+### [>>SeaMeet 무료로 시작하기](https://seameet.ai/?utm_source=blog)

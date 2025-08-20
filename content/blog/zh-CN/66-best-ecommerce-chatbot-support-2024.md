@@ -148,4 +148,4 @@ Ecwid是一个流行的电子商务平台，以其简单性和易用性而闻名
 
 ## 使用SeaChat您可以做更多
 
-无论您最终为您的在线业务选择什么，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都能与大多数电子商务网站建设者良好集成。在10分钟内构建并启动AI聊天座席。多语言支持。实时座席转接。与网络聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk和电话集成。如需更多详细信息，请发送电子邮件至[seachat@seasalt.ai](mailto:seameet@seasalt.ai)或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+无论您最终为您的在线业务选择什么，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都能与大多数电子商务网站建设者良好集成。在10分钟内构建并启动AI聊天座席。多语言支持。实时座席转接。与网络聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk和电话集成。如需更多详细信息，请发送电子邮件至[seachat@seasalt.ai](mailto:seachat@seasalt.ai)或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。

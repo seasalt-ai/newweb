@@ -17,9 +17,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Key Takeaways**
 > -   Duet AI can improve meeting efficiency in Google Meet, but it does not yet support Chinese: [Learn more](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> -   SeaMeet provides an AI meeting Copilot for Chinese users, especially Traditional Chinese users: [Learn more](https://meet.seasalt.ai/?utm_source=blog)
+> -   SeaMeet provides an AI meeting Copilot for Chinese users, especially Traditional Chinese users: [Learn more](https://seameet.ai/?utm_source=blog)
 
-In the era of globalization, the importance of collaboration tools is increasingly prominent, especially in multilingual environments. Google Duet AI, as an advanced collaboration tool, offers a variety of features to improve meeting and collaboration efficiency. However, it currently does not provide Chinese language support, which may cause some inconvenience for Chinese users, especially Traditional Chinese users. Fortunately, there are other collaboration tools, such as [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), that can provide effective solutions for Chinese users.
+In the era of globalization, the importance of collaboration tools is increasingly prominent, especially in multilingual environments. Google Duet AI, as an advanced collaboration tool, offers a variety of features to improve meeting and collaboration efficiency. However, it currently does not provide Chinese language support, which may cause some inconvenience for Chinese users, especially Traditional Chinese users. Fortunately, there are other collaboration tools, such as [SeaMeet](https://seameet.ai/?utm_source=blog), that can provide effective solutions for Chinese users.
 
 # Advantages of Google Duet AI in Meeting Functions
 
@@ -46,7 +46,7 @@ SeaMeet is a collaboration platform designed for Chinese users, and it provides 
 *SeaMeet generates thematic summaries in real-time*
 </center>
 
-SeaMeet's Chinese support is not limited to the interface and interaction; it also provides language translation and **real-time** subtitle features to ensure seamless cross-language communication. In addition, it provides a series of meeting efficiency tools to help users conduct meetings and collaborate more effectively. Welcome to the official website to [learn more](https://meet.seasalt.ai/?utm_source=blog).
+SeaMeet's Chinese support is not limited to the interface and interaction; it also provides language translation and **real-time** subtitle features to ensure seamless cross-language communication. In addition, it provides a series of meeting efficiency tools to help users conduct meetings and collaborate more effectively. Welcome to the official website to [learn more](https://seameet.ai/?utm_source=blog).
 
 # Future Outlook of Cross-Language Collaboration
 
@@ -67,4 +67,4 @@ By comparing Google Duet AI and SeaMeet, we can see that although Duet AI provid
 
 Do you also want to make your team meetings more efficient?
 
-### [>>Start your free SeaMeet trial](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Start your free SeaMeet trial](https://seameet.ai/?utm_source=blog)

@@ -94,4 +94,4 @@ Wraz z rosnącą cyfryzacją i globalizacją przedsiębiorstw, efektywne zarząd
 > - Transkrypcja w czasie rzeczywistym i analiza spotkań mogą nie tylko poprawić efektywność i skuteczność spotkań, ale także zwiększyć zaangażowanie i zadowolenie uczestników. Wykorzystując te funkcje, organizacje mogą zapewnić, że ich procesy spotkań przebiegają płynniej i że uzyskują maksymalną wartość z każdego spotkania.
 
 
-Czy chcesz również mieć transkrypcje w czasie rzeczywistym i protokoły spotkań, aby spotkania zespołu były bardziej efektywne? [Rozpocznij bezpłatny okres próbny SeaMeet](https://meet.seasalt.ai/?utm_source=blog).
+Czy chcesz również mieć transkrypcje w czasie rzeczywistym i protokoły spotkań, aby spotkania zespołu były bardziej efektywne? [Rozpocznij bezpłatny okres próbny SeaMeet](https://seameet.ai/?utm_source=blog).

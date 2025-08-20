@@ -158,11 +158,11 @@ YouTube는 최고의 오디오 컬렉션 중 하나를 보유하고 있지만, �
 
 # 왜 모든 것을 직접 하시나요?
 
-YouTube에서 오디오를 다운로드하는 것이 유용할 수 있지만, 왜 거기서 멈추나요? [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)으로 오디오 처리를 다음 단계로 끌어올리세요.
+YouTube에서 오디오를 다운로드하는 것이 유용할 수 있지만, 왜 거기서 멈추나요? [SeaMeet](https://seameet.ai/?utm_source=blog)으로 오디오 처리를 다음 단계로 끌어올리세요.
 
 **SeaMeet은 모든 오디오 요구 사항에 대해 정확하고 실시간으로 전사 및 요약을 제공합니다.** 회의 중이든, 팟캐스트를 녹음 중이든, 아니면 단순히 대화 전사를 원하든, SeaMeet은 즉각적이고 고품질의 전사와 통찰력 있는 요약을 제공합니다. 이 강력한 도구는 수동 작업을 몇 시간 절약하고 오디오 콘텐츠에서 최대 가치를 추출하는 데 도움이 될 수 있습니다.
 
-[오늘 SeaMeet에 가입](https://meet.seasalt.ai/?utm_source=blog)하고 대화를 추적하는 즐거움을 경험하세요.
+[오늘 SeaMeet에 가입](https://seameet.ai/?utm_source=blog)하고 대화를 추적하는 즐거움을 경험하세요.
 
 # 오디오 도구 상자 시리즈 더 보기
 

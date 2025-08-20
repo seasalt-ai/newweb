@@ -17,9 +17,9 @@ url: /blog/copilot-on-google-meet-meetings/
 
 > **Mga Pangunahing Aral**
 > -   Maaaring mapabuti ng Duet AI ang kahusayan sa pagpupulong sa Google Meet, ngunit hindi pa nito sinusuportahan ang wikang Tsino: [Matuto nang higit pa](https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available)
-> -   Nagbibigay ang SeaMeet ng AI meeting Copilot para sa mga gumagamit ng Tsino, lalo na sa mga gumagamit ng Tradisyonal na Tsino: [Matuto nang higit pa](https://meet.seasalt.ai/?utm_source=blog)
+> -   Nagbibigay ang SeaMeet ng AI meeting Copilot para sa mga gumagamit ng Tsino, lalo na sa mga gumagamit ng Tradisyonal na Tsino: [Matuto nang higit pa](https://seameet.ai/?utm_source=blog)
 
-Sa panahon ng globalisasyon, ang kahalagahan ng mga tool sa pakikipagtulungan ay lalong nagiging prominente, lalo na sa mga kapaligirang may maraming wika. Ang Google Duet AI, bilang isang advanced na tool sa pakikipagtulungan, ay nag-aalok ng iba't ibang feature upang mapabuti ang kahusayan sa pagpupulong at pakikipagtulungan. Gayunpaman, kasalukuyan itong hindi nagbibigay ng suporta sa wikang Tsino, na maaaring magdulot ng ilang abala para sa mga gumagamit ng Tsino, lalo na sa mga gumagamit ng Tradisyonal na Tsino. Sa kabutihang-palad, may iba pang mga tool sa pakikipagtulungan, tulad ng [SeaMeet](https://meet.seasalt.ai/?utm_source=blog), na maaaring magbigay ng epektibong solusyon para sa mga gumagamit ng Tsino.
+Sa panahon ng globalisasyon, ang kahalagahan ng mga tool sa pakikipagtulungan ay lalong nagiging prominente, lalo na sa mga kapaligirang may maraming wika. Ang Google Duet AI, bilang isang advanced na tool sa pakikipagtulungan, ay nag-aalok ng iba't ibang feature upang mapabuti ang kahusayan sa pagpupulong at pakikipagtulungan. Gayunpaman, kasalukuyan itong hindi nagbibigay ng suporta sa wikang Tsino, na maaaring magdulot ng ilang abala para sa mga gumagamit ng Tsino, lalo na sa mga gumagamit ng Tradisyonal na Tsino. Sa kabutihang-palad, may iba pang mga tool sa pakikipagtulungan, tulad ng [SeaMeet](https://seameet.ai/?utm_source=blog), na maaaring magbigay ng epektibong solusyon para sa mga gumagamit ng Tsino.
 
 # Mga Kalamangan ng Google Duet AI sa Mga Function ng Pagpupulong
 
@@ -46,7 +46,7 @@ Ang SeaMeet ay isang platform ng pakikipagtulungan na idinisenyo para sa mga gum
 *Bumubuo ang SeaMeet ng mga buod ng tema sa real-time*
 </center>
 
-Ang suporta ng SeaMeet sa wikang Tsino ay hindi limitado sa interface at interaksyon; nagbibigay din ito ng pagsasalin ng wika at mga feature ng **real-time** na subtitle upang matiyak ang tuluy-tuloy na komunikasyon sa iba't ibang wika. Bukod pa rito, nagbibigay ito ng serye ng mga tool sa kahusayan sa pagpupulong upang matulungan ang mga user na magsagawa ng mga pagpupulong at makipagtulungan nang mas epektibo. Maligayang pagdating sa opisyal na website upang [matuto nang higit pa](https://meet.seasalt.ai/?utm_source=blog).
+Ang suporta ng SeaMeet sa wikang Tsino ay hindi limitado sa interface at interaksyon; nagbibigay din ito ng pagsasalin ng wika at mga feature ng **real-time** na subtitle upang matiyak ang tuluy-tuloy na komunikasyon sa iba't ibang wika. Bukod pa rito, nagbibigay ito ng serye ng mga tool sa kahusayan sa pagpupulong upang matulungan ang mga user na magsagawa ng mga pagpupulong at makipagtulungan nang mas epektibo. Maligayang pagdating sa opisyal na website upang [matuto nang higit pa](https://seameet.ai/?utm_source=blog).
 
 # Kinabukasan ng Pakikipagtulungan sa Iba't Ibang Wika
 
@@ -67,4 +67,4 @@ Sa paghahambing ng Google Duet AI at SeaMeet, makikita natin na bagama't nagbibi
 
 Gusto mo rin bang gawing mas mahusay ang mga pagpupulong ng iyong team?
 
-### [>>Simulan ang iyong libreng pagsubok sa SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Simulan ang iyong libreng pagsubok sa SeaMeet](https://seameet.ai/?utm_source=blog)

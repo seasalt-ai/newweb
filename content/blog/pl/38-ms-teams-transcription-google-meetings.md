@@ -78,4 +78,4 @@ Wraz z szybkim postępem technologii, asystenci AI do spotkań stali się niezb�
 
 Chcesz uczynić spotkania swojego zespołu bardziej efektywnymi?
 
-### [>>Rozpocznij korzystanie z SeaMeet za darmo](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Rozpocznij korzystanie z SeaMeet za darmo](https://seameet.ai/?utm_source=blog)

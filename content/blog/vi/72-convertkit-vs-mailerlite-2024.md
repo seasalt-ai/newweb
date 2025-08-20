@@ -93,4 +93,4 @@ Tuy nhiên, theo [Khả năng gửi email tháng 6 năm 2023](https://www.emailt
 
 Bất kể bạn chọn dịch vụ tiếp thị email nào, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với hầu hết các nền tảng tiếp thị email. Bạn có thể thu thập email và khách hàng tiềm năng từ tác nhân AI của SeaChat và đồng bộ hóa chúng trực tiếp với danh sách tiếp thị email của bạn. 
 
-Thiết lập và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao tác nhân trực tiếp. Tích hợp với Webchat, SMS, LINE, CRM, Shopify, Lịch, Twilio, Zendesk và cuộc gọi điện thoại. Để biết thêm chi tiết, hãy gửi email cho chúng tôi tại [seachat@seasalt.ai](mailto:seameet@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Thiết lập và khởi chạy tác nhân trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao tác nhân trực tiếp. Tích hợp với Webchat, SMS, LINE, CRM, Shopify, Lịch, Twilio, Zendesk và cuộc gọi điện thoại. Để biết thêm chi tiết, hãy gửi email cho chúng tôi tại [seachat@seasalt.ai](mailto:seachat@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).

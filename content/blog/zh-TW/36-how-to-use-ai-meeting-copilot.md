@@ -112,4 +112,4 @@ What is a meeting copilot? Let's find out!
 
 你也想使團隊會議更高效嗎？
 
-### 想要提升團隊會議的效率嗎？立即免費體驗SeaMeet，享受實時會議分析和逐字稿功能，確保每次會議都能準確記錄，提升決策過程的效率和精確性。點擊這裡開始體驗：[>>免費開始體驗SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### 想要提升團隊會議的效率嗎？立即免費體驗SeaMeet，享受實時會議分析和逐字稿功能，確保每次會議都能準確記錄，提升決策過程的效率和精確性。點擊這裡開始體驗：[>>免費開始體驗SeaMeet](https://seameet.ai/?utm_source=blog)

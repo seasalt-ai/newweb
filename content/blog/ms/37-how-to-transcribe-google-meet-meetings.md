@@ -146,4 +146,4 @@ Kami berharap artikel ini membantu meningkatkan pemahaman anda tentang cara ment
 
 Adakah anda ingin mentranskrip mesyuarat Google Meet anda secara masa nyata dan menjadikan mesyuarat pasukan anda lebih cekap?
 
-### [>>Mulakan SeaMeet Secara Percuma](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Mulakan SeaMeet Secara Percuma](https://seameet.ai/?utm_source=blog)

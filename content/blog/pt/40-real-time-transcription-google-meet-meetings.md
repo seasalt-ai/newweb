@@ -94,4 +94,4 @@ Muitas ferramentas de gravação de reuniões de IA no mercado suportam apenas o
 > - A transcrição em tempo real e a análise de reuniões não apenas melhoram a eficiência e a eficácia das reuniões, mas também aumentam o engajamento e a satisfação dos participantes. Ao utilizar essas funções, as organizações podem garantir que seus processos de reunião sejam mais suaves e obtenham o máximo valor de cada reunião.
 
 
-Você também gostaria de ter transcrição em tempo real e atas de reunião para tornar as reuniões da equipe mais eficientes? [Comece a experimentar o SeaMeet gratuitamente](https://meet.seasalt.ai/?utm_source=blog).
+Você também gostaria de ter transcrição em tempo real e atas de reunião para tornar as reuniões da equipe mais eficientes? [Comece a experimentar o SeaMeet gratuitamente](https://seameet.ai/?utm_source=blog).

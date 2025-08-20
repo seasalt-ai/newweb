@@ -45,4 +45,4 @@ SeaMeet هي أداة مساعدة للاجتماعات مصممة لتوفير 
 
 هل تريد أيضًا جعل اجتماعات فريقك أكثر كفاءة؟
 
-### >> [ابدأ تجربة SeaMeet مجانًا](https://meet.seasalt.ai/?utm_source=blog)
+### >> [ابدأ تجربة SeaMeet مجانًا](https://seameet.ai/?utm_source=blog)

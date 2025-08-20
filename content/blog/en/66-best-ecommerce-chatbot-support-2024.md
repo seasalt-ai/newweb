@@ -147,4 +147,4 @@ Consider these factors when deciding on the best e-commerce platform:
 
 ## You can do much more with SeaChat
 
-No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seameet@seasalt.ai) or [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 

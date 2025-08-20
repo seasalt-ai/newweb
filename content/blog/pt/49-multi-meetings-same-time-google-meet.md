@@ -44,4 +44,4 @@ Com SeaMeet, executivos e gerentes ocupados podem gerenciar eficazmente múltipl
 
 Você também quer tornar suas reuniões de equipe mais eficientes?
 
-### >>Comece grátis com [SeaMeet](https://meet.seasalt.ai/?utm_source=blog)
+### >>Comece grátis com [SeaMeet](https://seameet.ai/?utm_source=blog)

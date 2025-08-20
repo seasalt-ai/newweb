@@ -78,4 +78,4 @@ Google Meet представил новую функцию под названи
 
 Хотите сделать встречи вашей команды более эффективными?
 
-### [>>Начните использовать SeaMeet бесплатно](https://meet.seasalt.ai/?utm_source=blog)
+### [>>Начните использовать SeaMeet бесплатно](https://seameet.ai/?utm_source=blog)

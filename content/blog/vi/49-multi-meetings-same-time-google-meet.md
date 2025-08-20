@@ -44,4 +44,4 @@ Với SeaMeet, các giám đốc điều hành và quản lý bận rộn có th
 
 Bạn có muốn làm cho các cuộc họp nhóm của mình hiệu quả hơn không?
 
-### >>Bắt đầu miễn phí với [SeaMeet](https://meet.seasalt.ai/?utm_source=blog) 
+### >>Bắt đầu miễn phí với [SeaMeet](https://seameet.ai/?utm_source=blog) 
