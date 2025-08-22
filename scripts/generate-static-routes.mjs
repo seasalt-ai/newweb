@@ -5,81 +5,44 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Import your route configuration and supported languages
 const SUPPORTED_LANGUAGES = ['ar', 'de', 'en', 'es', 'fa', 'fil', 'fr', 'hi', 'id', 'ja', 'ko', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'zh-CN', 'zh-TW'];
 
-// Helper function to convert PascalCase to kebab-case
-function toKebabCase(str) {
-  return str.replace(/([A-Z])/g, '-$1').toLowerCase().replace(/^-/, '');
-}
+const ROUTER_FILES = {
+  'src/App.tsx': '',
+  'src/components/SeaChatRouter.tsx': '/seachat',
+  'src/seax/utils/SeaXRouter.tsx': '/seax',
+  'src/seavoice/utils/SeaVoiceRouter.tsx': '/seavoice'
+};
 
-// Function to generate routes from directory structure
-function generateRoutesFromDir(baseDir, prefix = '') {
+function extractAllRoutes() {
   const routes = new Set();
-  const entries = fs.readdirSync(baseDir, { withFileTypes: true });
+  const routeRegex = /path="([^"]+)"/g;
 
-  for (const entry of entries) {
-    const fullPath = path.join(baseDir, entry.name);
-    if (entry.isDirectory()) {
-      const nestedRoutes = generateRoutesFromDir(fullPath, `${prefix}/${entry.name}`);
-      nestedRoutes.forEach(route => routes.add(route));
-    } else if (entry.name.endsWith('.tsx')) {
-      const pageName = entry.name.replace(/\.tsx$/, '').replace(/Page$/, '');
-      const kebabCaseName = toKebabCase(pageName);
-      
-      if (kebabCaseName === 'index' || kebabCaseName === 'home') {
-        routes.add(prefix || '/');
-      } else {
-        routes.add(`${prefix}/${kebabCaseName}`);
+  for (const [file, prefix] of Object.entries(ROUTER_FILES)) {
+    const filePath = path.join(__dirname, '..', file);
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      let match;
+      while ((match = routeRegex.exec(content)) !== null) {
+        if (!match[1].includes('*') && !match[1].includes(':')) {
+          // Normalize the path by removing leading/trailing slashes before joining
+          const cleanedPath = match[1].replace(/^\/|\/$/g, '');
+          const finalPath = prefix ? `${prefix}/${cleanedPath}` : `/${cleanedPath}`;
+          routes.add(finalPath.replace(/\/\//g, '/')); // Avoid double slashes
+        }
       }
     }
   }
   return Array.from(routes);
 }
 
-
-// Define your static routes (without dynamic parameters)
 function getStaticRoutes(lang) {
   const prefix = `/${lang}`;
+  const allBaseRoutes = extractAllRoutes();
   
-  const pageRoutes = generateRoutesFromDir(path.join(__dirname, '..', 'src', 'pages'));
-  const seavoicePageRoutes = generateRoutesFromDir(path.join(__dirname, '..', 'src', 'seavoice', 'pages'), '/seavoice');
-
-  const allBaseRoutes = [
-    ...pageRoutes,
-    ...seavoicePageRoutes,
-    // Add any other manually defined routes here if necessary
-    '/seachat',
-    '/seachat/pricing',
-    '/seachat/features',
-    '/seachat/integrations',
-    '/seachat/templates',
-    '/seachat/use-cases',
-    '/seachat/industries',
-    '/seachat/channels',
-    '/seachat/compare',
-    '/seax',
-    '/seax/pricing',
-    '/seax/features',
-    '/seax/integrations',
-    '/seax/use-cases',
-    '/seax/industries',
-    '/seax/channels',
-    '/seax/compare',
-  ];
-
-  // Filter out dynamic routes that might have been picked up
-  const staticRoutes = allBaseRoutes.filter(route => !route.includes('['));
-
-  return staticRoutes.map(route => {
-    if (route === '/') return `${prefix}`;
-    // Handle root index case for seavoice
-    if (route === '/seavoice/') return `${prefix}/seavoice`;
-    return `${prefix}${route.startsWith('/') ? '' : '/'}${route}`
-  }).map(route => route.endsWith('/') && route.length > 1 ? route.slice(0, -1) : route);
+  return allBaseRoutes.map(route => `${prefix}${route}`);
 }
 
-// Get all blog post slugs from the content directory
 function getBlogPostSlugs() {
   const blogSlugs = new Set();
   const contentDir = path.join(__dirname, '..', 'content', 'blog');
@@ -90,7 +53,6 @@ function getBlogPostSlugs() {
   }
   
   try {
-    // Scan each language directory for blog posts
     SUPPORTED_LANGUAGES.forEach(lang => {
       const langDir = path.join(contentDir, lang);
       if (fs.existsSync(langDir)) {
@@ -110,7 +72,6 @@ function getBlogPostSlugs() {
   }
 }
 
-// Generate blog routes for all languages
 function getBlogRoutes() {
   const blogSlugs = getBlogPostSlugs();
   const blogRoutes = [];
@@ -124,57 +85,37 @@ function getBlogRoutes() {
   return blogRoutes;
 }
 
-// Generate language-agnostic routes that default to English
 function getLanguageAgnosticRoutes() {
-  const pageRoutes = generateRoutesFromDir(path.join(__dirname, '..', 'src', 'pages'));
-  const seavoicePageRoutes = generateRoutesFromDir(path.join(__dirname, '..', 'src', 'seavoice', 'pages'), '/seavoice');
-
-  const baseRoutes = [
-    ...pageRoutes,
-    ...seavoicePageRoutes,
-    '/seachat',
-    '/seax',
-    '/seavoice',
-    '/privacy',
-    '/terms',
-    '/blog',
-  ].filter(route => !route.includes('['));
-
-  // Also add blog routes without language prefix
+  const baseRoutes = extractAllRoutes();
+  
   const blogSlugs = getBlogPostSlugs();
   blogSlugs.forEach(slug => {
     baseRoutes.push(`/blog/${slug}`);
   });
   
   console.log(`🌐 Generated ${baseRoutes.length} language-agnostic routes`);
-  return baseRoutes.map(route => route.endsWith('/') && route.length > 1 ? route.slice(0, -1) : route);
+  return baseRoutes;
 }
 
-// Main function to generate all static routes
 export function generateAllStaticRoutes() {
-  // Get all routes (static + blog + language-agnostic)
   const allRoutes = new Set();
   
-  // Generate language-agnostic routes first (these will redirect to /en/... via the React app)
   const languageAgnosticRoutes = getLanguageAgnosticRoutes();
   languageAgnosticRoutes.forEach(route => allRoutes.add(route));
   
-  // Generate static routes for each language
   SUPPORTED_LANGUAGES.forEach(lang => {
     const routes = getStaticRoutes(lang);
     routes.forEach(route => allRoutes.add(route));
   });
   
-  // Add blog routes
   const blogRoutes = getBlogRoutes();
   blogRoutes.forEach(route => allRoutes.add(route));
   
-  const uniqueRoutes = Array.from(allRoutes);
+  const uniqueRoutes = Array.from(allRoutes).sort();
   console.log(`🎯 Total routes generated: ${uniqueRoutes.length}`);
   return uniqueRoutes;
 }
 
-// If this script is run directly, output the routes
 if (import.meta.url === `file://${process.argv[1]}`) {
   console.log(JSON.stringify(generateAllStaticRoutes(), null, 2));
 }
