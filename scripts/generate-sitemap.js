@@ -108,12 +108,20 @@ function generateSitemap() {
   xml += `</urlset>`;
 
   fs.writeFileSync(OUTPUT_PATH, xml);
+  const stats = fs.statSync(OUTPUT_PATH);
+  const fileSizeInMB = stats.size / (1024 * 1024);
+
   console.log(`Sitemap generated at ${OUTPUT_PATH}`);
   console.log('--- Sitemap Stats ---');
   console.log(`Total URLs: ${allRoutes.length}`);
   console.log(`Unique Pages: ${Object.keys(groupedRoutes).length}`);
   console.log(`Languages: ${SUPPORTED_LANGUAGES.length}`);
+  console.log(`File Size: ${fileSizeInMB.toFixed(2)} MB`);
   console.log('---------------------');
+
+  if (fileSizeInMB > 50) {
+      console.warn('Warning: Sitemap file size is greater than 50MB. Consider using a sitemap index file.');
+  }
 }
 
 generateSitemap();
