@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 export const SUPPORTED_LANGUAGES = ['ar', 'de', 'en', 'es', 'fa', 'fil', 'fr', 'hi', 'id', 'ja', 'ko', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'zh-CN', 'zh-TW'];
 
-const ROUTER_FILES = {
+export const ROUTER_FILES = {
   'src/App.tsx': '',
   'src/components/SeaChatRouter.tsx': '/seachat',
   'src/seax/utils/SeaXRouter.tsx': '/seax',
