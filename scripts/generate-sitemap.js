@@ -1,17 +1,56 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { generateAllStaticRoutes, SUPPORTED_LANGUAGES } from './generate-static-routes.mjs';
+import { generateAllStaticRoutes, SUPPORTED_LANGUAGES, ROUTER_FILES } from './generate-static-routes.mjs';
 
-// Get __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration
 const SITE_URL = 'https://seasalt.ai';
 const OUTPUT_PATH = path.join(__dirname, '../public/sitemap.xml');
 
-// Generate sitemap XML
+function getRouteMeta(route) {
+  const now = new Date().toISOString().split('T')[0];
+  let lastmod = now;
+  let changefreq = 'weekly';
+  let priority = 0.8;
+
+  const langRegex = new RegExp(`^/(${SUPPORTED_LANGUAGES.join('|')})`);
+  const langMatch = route.match(langRegex);
+  const baseRoute = langMatch ? (route.substring(langMatch[0].length) || '/') : route;
+
+  if (baseRoute.startsWith('/blog/')) {
+    const slug = baseRoute.replace('/blog/', '');
+    const lang = langMatch ? langMatch[1] : 'en';
+    const filePath = path.join(__dirname, '..', 'content', 'blog', lang, `${slug}.md`);
+    if (fs.existsSync(filePath)) {
+      lastmod = fs.statSync(filePath).mtime.toISOString().split('T')[0];
+    }
+    changefreq = 'monthly';
+    priority = 0.7;
+  } else {
+    for (const [file, prefix] of Object.entries(ROUTER_FILES)) {
+      if (baseRoute.startsWith(prefix)) {
+        const filePath = path.join(__dirname, '..', file);
+        if (fs.existsSync(filePath)) {
+          lastmod = fs.statSync(filePath).mtime.toISOString().split('T')[0];
+        }
+        break;
+      }
+    }
+  }
+
+  if (baseRoute === '/') {
+    priority = 1.0;
+    changefreq = 'daily';
+  } else if (baseRoute.includes('pricing')) {
+    priority = 0.9;
+    changefreq = 'monthly';
+  }
+
+  return { lastmod, changefreq, priority };
+}
+
 function generateSitemap() {
   const allRoutes = generateAllStaticRoutes();
   const groupedRoutes = {};
@@ -29,33 +68,44 @@ function generateSitemap() {
     }
   });
 
-  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+`;
 
   for (const baseRoute in groupedRoutes) {
     const alternateUrls = groupedRoutes[baseRoute];
     const englishUrl = alternateUrls.find(url => url.startsWith('/en')) || alternateUrls[0];
 
     alternateUrls.forEach(url => {
-      xml += '  <url>\n';
-      xml += `    <loc>${SITE_URL}${url}</loc>\n`;
+      const { lastmod, changefreq, priority } = getRouteMeta(url);
+      xml += `  <url>
+`;
+      xml += `    <loc>${SITE_URL}${url}</loc>
+`;
+      xml += `    <lastmod>${lastmod}</lastmod>
+`;
 
       alternateUrls.forEach(altUrl => {
         const langMatch = altUrl.match(langRegex);
         if (langMatch) {
           const lang = langMatch[1];
-          xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${altUrl}" />\n`;
+          xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${altUrl}" />
+`;
         }
       });
 
-      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${englishUrl}" />\n`;
-      xml += '    <changefreq>weekly</changefreq>\n';
-      xml += '    <priority>0.8</priority>\n';
-      xml += '  </url>\n';
+      xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${englishUrl}" />
+`;
+      xml += `    <changefreq>${changefreq}</changefreq>
+`;
+      xml += `    <priority>${priority}</priority>
+`;
+      xml += `  </url>
+`;
     });
   }
 
-  xml += '</urlset>';
+  xml += `</urlset>`;
 
   fs.writeFileSync(OUTPUT_PATH, xml);
   console.log(`Sitemap generated at ${OUTPUT_PATH}`);
