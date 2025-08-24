@@ -16,7 +16,7 @@ export const ROUTER_FILES = {
 
 function extractAllRoutes() {
   const routes = new Set();
-  const routeRegex = /path="([^"]+)"/g;
+  const routeRegex = /path=["']([^"']+)["']/g;
 
   for (const [file, prefix] of Object.entries(ROUTER_FILES)) {
     const filePath = path.join(__dirname, '..', file);

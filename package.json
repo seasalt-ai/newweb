@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build && npm run prerender",
     "build-only": "tsc -b && vite build",
-    "prerender-file-approach": "node scripts/prerender-simple.mjs",
+    "prerender:puppeteer-file-approach": "node scripts/prerender-simple.mjs",
     "prerender": "node scripts/prerender-copy.mjs",
     "generate-routes": "node scripts/generate-static-routes.mjs",
     "generate-sitemap": "node scripts/generate-sitemap.js",
