@@ -109,6 +109,11 @@ function generateSitemap() {
 
   fs.writeFileSync(OUTPUT_PATH, xml);
   console.log(`Sitemap generated at ${OUTPUT_PATH}`);
+  console.log('--- Sitemap Stats ---');
+  console.log(`Total URLs: ${allRoutes.length}`);
+  console.log(`Unique Pages: ${Object.keys(groupedRoutes).length}`);
+  console.log(`Languages: ${SUPPORTED_LANGUAGES.length}`);
+  console.log('---------------------');
 }
 
 generateSitemap();
