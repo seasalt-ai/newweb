@@ -2617,19 +2617,19 @@
   "careers": {
     "seo": {
       "title": "Careers at Seasalt.ai",
-      "description": "Join Seasalt.ai to transform healthcare with AI-powered solutions. Explore our mission, vision, and open positions."
+      "description": "Explore career opportunities at Seasalt.ai. Join our mission to transform the world of business communication with AI."
     },
     "hero": {
-      "title": "Work With Us",
-      "subtitle": "Join Seasalt.ai and help us transform healthcare with AI-powered front office solutions."
+      "title": "Careers at Seasalt.ai",
+      "subtitle": "Join our mission to transform the world of business communication with AI. We hire the world's best and brightest people to help make this transformation a reality."
     },
     "mission": {
-      "title": "Our Mission",
-      "content": "To empower healthcare providers with AI solutions that make patient interactions seamless and efficient."
+      "title": "Seasalt.ai's Mission",
+      "content": "Seasalt.ai's mission is to transform the world of businesses with AI. We hire the world's best and brightest people to help make this transformation a reality."
     },
     "vision": {
-      "title": "Our Vision",
-      "content": "To be the leading AI-driven platform transforming front-office operations in healthcare globally."
+      "title": "Seasalt.ai's Vision",
+      "content": "Seasalt.ai's vision is to create a world where humans coexist with AI. We solve B2B with B2C in mind."
     },
     "departments": {
       "business": "Business",
@@ -2694,27 +2694,27 @@
   },
   "company": {
     "seo": {
-      "title": "About Seasalt.ai",
-      "description": "Seasalt.ai is transforming healthcare with AI-powered front office solutions. Learn about our mission, vision, leadership, products, and global presence."
+      "title": "About Seasalt.ai - Company Information & Leadership",
+      "description": "Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms."
     },
     "hero": {
-      "title": "Transforming Healthcare with AI",
-      "description": "Seasalt.ai leverages cutting-edge AI and speech technologies to revolutionize patient and customer interactions across multiple channels.",
-      "subtitle": "Delivering seamless, multilingual, omnichannel experiences for healthcare providers."
+      "title": "About Seasalt.ai",
+      "description": "Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.",
+      "subtitle": "From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, elevate customer experiences, and unlock new channels for growth."
     },
     "mission": {
-      "title": "Our Mission",
-      "heading": "Empower Healthcare Providers",
-      "text": "We create AI solutions that streamline front-office operations and enhance patient engagement.",
-      "statement": "Human-centered AI to improve efficiency and quality of care.",
-      "future": "Committed to continuous innovation and expanding global impact."
+      "title": "Our Mission & Values",
+      "heading": "Our Mission",
+      "text": "Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.",
+      "statement": "We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.",
+      "future": "We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully."
     },
     "vision": {
       "heading": "Our Vision",
-      "text": "To be the leading AI-driven platform transforming front-office operations in healthcare globally."
+      "text": "Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence."
     },
     "values": {
-      "title": "Core Values",
+      "title": "🧭 Our Core Values",
       "humanFirst": {
         "title": "Human First",
         "description": "Putting people at the center of all our AI solutions."
@@ -2837,12 +2837,10 @@
       "title": "Careers at Seasalt.ai",
       "description": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, AI scientists, developers, and business builders.",
       "cta": "See open positions",
-      "highlights": [
-        "Global, diverse, and remote-friendly culture",
-        "Work with cutting-edge AI technology",
-        "Make real impact in business communications",
-        "Collaborate with industry veterans"
-      ]
+      "bullet1":"Global, diverse, and remote-friendly culture",
+      "bullet2":"Work with cutting-edge AI technology",
+      "bullet3":"Make real impact in business communications",
+      "bullet4":"Collaborate with industry veterans"
     },
     "contact": {
       "title": "Contact & Press",
@@ -2868,41 +2866,35 @@
         "downloadText": "Download the Product Logo & Press Kit",
         "description": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide."
       }
+    },
+    "newsletter": {
+      "title": "Sign Up to Our Newsletter",
+      "subtitle": "One per week, written by the CEO",
+      "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
+      "emailPlaceholder": "Enter your email address",
+      "cta": "Subscribe",
+      "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Small & Medium Businesses",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "campaignMessaging": "Campaign Messaging",
+      "speechAnalysis": "Speech Analysis"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Get approved for Twilio SMS campaigns",
+      "bulkSendSms": "Bulk send SMS",
+      "whatsappCustomers": "WhatsApp your customers",
+      "callCustomersBatch": "Call your customers in batch",
+      "autoAnswerCalls": "Auto-answer calls 24/7",
+      "voiceAiSeniors": "Voice AI calls to check on seniors",
+      "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
+      "conversationalGenAi": "Conversational GenAI for classrooms",
+      "winCampaigns": "Win campaigns with automated texts & calls",
+      "transcribeAudio": "Transcribe audio & calls to discover insights",
+      "meetingAnalytics": "Meeting analytics for remote teams"
     }
-  },
-  "newsletter": {
-    "title": "Sign Up to Our Newsletter",
-    "subtitle": "One per week, written by the CEO",
-    "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
-    "emailPlaceholder": "Enter your email address",
-    "cta": "Subscribe",
-    "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
-  },
-  "seo": {
-    "mainTitle": "Seasalt.ai - Omni-Channel Contact Center for Small Businesses",
-    "channelsTitle": "Communication Channels - Seasalt.ai",
-    "compareTitle": "Compare Seasalt.ai to Alternatives",
-    "companyTitle": "About Seasalt.ai - Company Information & Leadership"
-  },
-  "useCaseCategories": {
-    "smallMediumBusinesses": "Small & Medium Businesses",
-    "healthcare": "Healthcare",
-    "education": "Education",
-    "campaignMessaging": "Campaign Messaging",
-    "speechAnalysis": "Speech Analysis"
-  },
-  "useCaseLinks": {
-    "getTwilioApproval": "Get approved for Twilio SMS campaigns",
-    "bulkSendSms": "Bulk send SMS",
-    "whatsappCustomers": "WhatsApp your customers",
-    "callCustomersBatch": "Call your customers in batch",
-    "autoAnswerCalls": "Auto-answer calls 24/7",
-    "voiceAiSeniors": "Voice AI calls to check on seniors",
-    "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
-    "conversationalGenAi": "Conversational GenAI for classrooms",
-    "winCampaigns": "Win campaigns with automated texts & calls",
-    "transcribeAudio": "Transcribe audio & calls to discover insights",
-    "meetingAnalytics": "Meeting analytics for remote teams"
   },
   "solutions": {
     "salesMarketing": {
