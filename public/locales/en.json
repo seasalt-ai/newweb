@@ -1893,6 +1893,70 @@
           "tryFeature": "Try This Feature",
           "watchDemo": "Watch Demo"
         }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Retrieval Augmented Generation",
+            "description": "Keyword, Vector, and Hybrid Search for precise information retrieval",
+            "details": {
+              "0": "Semantic vector search",
+              "1": "Keyword matching",
+              "2": "Hybrid search algorithms",
+              "3": "Real-time content indexing"
+            }
+          },
+          "memory": {
+            "title": "Long Term Memory",
+            "description": "Personalized experiences through persistent user memory",
+            "details": {
+              "0": "User preference tracking",
+              "1": "Conversation history analysis",
+              "2": "Behavioral pattern recognition",
+              "3": "Cross-session continuity"
+            }
+          },
+          "timeAware": {
+            "title": "Time Awareness",
+            "description": "Context-aware responses based on current time and timezone",
+            "details": {
+              "0": "Real-time timestamp integration",
+              "1": "Timezone-aware scheduling",
+              "2": "Time-sensitive recommendations",
+              "3": "Business hours optimization"
+            }
+          },
+          "contextExtraction": {
+            "title": "Context Extraction",
+            "description": "Intelligent field mapping for better user comprehension",
+            "details": {
+              "0": "Custom field definitions",
+              "1": "Automatic data extraction",
+              "2": "User language preferences",
+              "3": "Dynamic context building"
+            }
+          },
+          "referencedResults": {
+            "title": "Referenced Results",
+            "description": "Transparent AI responses with source citations",
+            "details": {
+              "0": "Source document linking",
+              "1": "Citation tracking",
+              "2": "Confidence scoring",
+              "3": "Fact verification"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Knowledge Refinement",
+            "description": "Continuous improvement of knowledge base accuracy",
+            "details": {
+              "0": "Auto-updating content",
+              "1": "Quality scoring",
+              "2": "Relevance optimization",
+              "3": "Performance analytics"
+            }
+          }
+        }
       }
     },
     "omnichannelDemo": {
@@ -2461,6 +2525,57 @@
         "unlimitedContacts": "Unlimited Contacts",
         "knowledgeBase": "Extra knowledge base",
         "extraChatbot": "Extra chatbot"
+      },
+      "table": {
+        "headers": {
+          "features": "Features",
+          "replaces": "Replaces",
+          "otherTools": "Other Tools",
+          "seachat": "SeaChat"
+        },
+        "total": "Total",
+        "totalPrice": "$331 or more per month",
+        "seachatPrice": "$29.99 per month",
+        "explanations": {
+          "valueYouGet": "↑ The Value You Get",
+          "priceYouWouldPay": "↑ The Price You'd Otherwise Pay",
+          "priceYouPay": "↑ The Price You Pay"
+        }
+      },
+      "mobile": {
+        "replaces": "Replaces:",
+        "otherTools": "Other Tools:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Other Tools Total:",
+        "seachatTotal": "SeaChat Total:",
+        "totalPrice": "$331+ per month",
+        "seachatTotalPrice": "$29.99 per month",
+        "priceYouWouldPay": "↑ The Price You'd Otherwise Pay",
+        "priceYouPay": "↑ The Price You Pay"
+      },
+      "uniqueToSeachat": "UNIQUE",
+      "pricing": {
+        "chatbotWebsite": "$99 per month",
+        "chatWidget": "$23 per agent per month",
+        "whatsappMessenger": "$89 per user per month",
+        "multiCalendar": "$10 per seat per month",
+        "phoneCallAI": "$29 per month",
+        "smsActions": "$59 per month",
+        "emailActions": "$20 per month",
+        "phoneNumber": "$2 to $3 per month",
+        "unlimitedContacts": "$65 per 10K contacts",
+        "knowledgeBase": "$8 per extra knowledge base",
+        "extraChatbot": "$7 per extra chatbot"
+      },
+      "seachatValues": {
+        "agencyMode": "Multiple workspaces - one workspace per client",
+        "bulkSMS": "Integrate with SeaX from Seasalt.ai",
+        "unlimitedContacts": "Unlimited",
+        "knowledgeBase": "5,000 documents or 50M tokens",
+        "extraChatbot": "10 bots × 5 channels = 50 channel-bots"
+      },
+      "replaces": {
+        "uniqueToSeachat": "UNIQUE to SeaChat"
       }
     },
     "integrations": {

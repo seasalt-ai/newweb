@@ -1,40 +1,40 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-26T03:50:30.730Z
+Generated: 2025-08-26T04:07:49.129Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 3313
+- **Base Language (en) Keys**: 3386
 - **Components Analyzed**: 210
-- **Translation Coverage**: 61.92%
+- **Translation Coverage**: 62.47%
 - **Missing Keys**: 1909
-- **Hardcoded Strings Found**: 2661
+- **Hardcoded Strings Found**: 4011
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 26.74% | ❌ Incomplete |
-| de | 887 | 26.08% | ❌ Incomplete |
-| en | 3313 | 100.00% | ✅ Good |
-| es | 835 | 24.51% | ❌ Incomplete |
-| fa | 755 | 22.12% | ❌ Incomplete |
-| fil | 739 | 21.61% | ❌ Incomplete |
-| fr | 739 | 21.61% | ❌ Incomplete |
-| hi | 690 | 20.13% | ❌ Incomplete |
-| id | 690 | 20.13% | ❌ Incomplete |
-| ja | 690 | 20.16% | ❌ Incomplete |
-| ko | 690 | 20.13% | ❌ Incomplete |
-| ms | 690 | 20.13% | ❌ Incomplete |
-| pl | 676 | 19.71% | ❌ Incomplete |
-| pt | 676 | 19.71% | ❌ Incomplete |
-| ru | 676 | 19.71% | ❌ Incomplete |
-| ta | 739 | 21.61% | ❌ Incomplete |
-| th | 679 | 19.80% | ❌ Incomplete |
-| vi | 739 | 21.61% | ❌ Incomplete |
-| zh-CN | 802 | 23.54% | ❌ Incomplete |
-| zh-TW | 3313 | 99.97% | ✅ Good |
+| ar | 909 | 26.17% | ❌ Incomplete |
+| de | 887 | 25.52% | ❌ Incomplete |
+| en | 3386 | 100.00% | ✅ Good |
+| es | 835 | 23.98% | ❌ Incomplete |
+| fa | 755 | 21.65% | ❌ Incomplete |
+| fil | 739 | 21.15% | ❌ Incomplete |
+| fr | 739 | 21.15% | ❌ Incomplete |
+| hi | 690 | 19.70% | ❌ Incomplete |
+| id | 690 | 19.70% | ❌ Incomplete |
+| ja | 690 | 19.73% | ❌ Incomplete |
+| ko | 690 | 19.70% | ❌ Incomplete |
+| ms | 690 | 19.70% | ❌ Incomplete |
+| pl | 676 | 19.29% | ❌ Incomplete |
+| pt | 676 | 19.29% | ❌ Incomplete |
+| ru | 676 | 19.29% | ❌ Incomplete |
+| ta | 739 | 21.15% | ❌ Incomplete |
+| th | 679 | 19.37% | ❌ Incomplete |
+| vi | 739 | 21.15% | ❌ Incomplete |
+| zh-CN | 802 | 23.04% | ❌ Incomplete |
+| zh-TW | 3386 | 99.97% | ✅ Good |
 
 ## Priority Actions Required
 
@@ -45,7 +45,7 @@ Generated: 2025-08-26T03:50:30.730Z
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 2661 hardcoded strings that should be internationalized
+**Description**: Found 4011 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1970,7 +1970,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 2661 potential hardcoded strings across components:
+Found 4011 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -1983,6 +1983,14 @@ Found 2661 potential hardcoded strings across components:
 - **File**: src/components/BlogTableOfContents.tsx
   **Text**: "Table of Contents"
   **Context**: `h3 className="text-sm font-semibold text-gray-900">Table of Contents</h3>\n        </div>\n        \...`
+
+- **File**: src/components/Comparison.tsx
+  **Text**: "Genesys Cloud CX"
+  **Context**: `    },\n    {\n      name: 'Genesys Cloud CX',\n      startingPrice: t('comparison.competitors.genes...`
+
+- **File**: src/components/Comparison.tsx
+  **Text**: "Google Voice"
+  **Context**: `    },\n    {\n      name: 'Google Voice',\n      startingPrice: t('comparison.competitors.googleVoi...`
 
 - **File**: src/components/Footer.tsx
   **Text**: "+1 (SMB)-AI-AGENT"
@@ -2004,16 +2012,8 @@ Found 2661 potential hardcoded strings across components:
   **Text**: "Made with"
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
-- **File**: src/components/Footer.tsx
-  **Text**: "in the city of"
-  **Context**: `          <div className="text-center mt-4">\n            <p className="text-gray-300 text-sm">\n   ...`
 
-- **File**: src/components/Footer.tsx
-  **Text**: "+1 (SMB)-AI-AGENT"
-  **Context**: `mr-2" />\n                <span className="text-sm">+1 (SMB)-AI-AGENT</span>\n              </div>\n...`
-
-
-... and 2651 more. See hardcoded-strings.json for complete list.
+... and 4001 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2027,7 +2027,7 @@ Found 2661 potential hardcoded strings across components:
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 2661 hardcoded strings that should be internationalized
+**Description**: Found 4011 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

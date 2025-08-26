@@ -4,7 +4,7 @@ This repository contains the source code for the Seasalt.ai website, a React-bas
 
 Prompt to do i18n:
 
-src/seachat/components/FeatureComparison.tsx still has hard coded strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
+src/seachat/components/FeatureTabs.tsx still has hard coded strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
 
 ## Table of Contents
 

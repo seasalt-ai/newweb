@@ -330,6 +330,46 @@ class I18nAnalyzer {
               }
             }
           }
+        },
+
+        // Find hardcoded strings in object literals and arrays (for data structures)
+        StringLiteral: (path) => {
+          // Skip if already handled by JSX-specific handlers
+          if (path.isJSXText() || path.parent?.type === 'JSXExpressionContainer' || 
+              path.parent?.type === 'JSXAttribute') {
+            return;
+          }
+
+          // Skip if this is already a translation key argument
+          if (path.parent?.type === 'CallExpression' && 
+              t.isIdentifier(path.parent.callee, { name: 't' }) &&
+              path.parent.arguments[0] === path.node) {
+            return;
+          }
+
+          const text = path.node.value.trim();
+          if (text && this.isLikelyUserFacingText(text)) {
+            // Additional checks for data structures
+            const parentContext = this.getParentContext(path);
+            
+            // Look for patterns that suggest this is user-facing data
+            if (this.isInDataStructure(path, parentContext)) {
+              analysis.hardcoded_strings.push({
+                text,
+                context: this.getASTContext(path, content),
+                type: 'data-structure',
+                parentContext
+              });
+              
+              this.results.hardcoded_strings.push({
+                file: filePath,
+                text,
+                context: this.getASTContext(path, content),
+                type: 'data-structure',
+                parentContext
+              });
+            }
+          }
         }
       });
     } catch (error) {
@@ -388,6 +428,115 @@ class I18nAnalyzer {
     const start = Math.max(0, index - length);
     const end = Math.min(content.length, index + length);
     return content.substring(start, end);
+  }
+
+  // Get parent context information for AST analysis
+  getParentContext(path) {
+    const contexts = [];
+    let current = path.parent;
+    
+    while (current && contexts.length < 5) {
+      if (current.type) {
+        contexts.push(current.type);
+      }
+      current = current.parent;
+    }
+    
+    return contexts.join(' -> ');
+  }
+
+  // Check if a string literal is in a data structure that likely contains user-facing text
+  isInDataStructure(path, parentContext) {
+    // Check for common data structure patterns that contain user-facing text
+    const userFacingContexts = [
+      'ObjectProperty', // In object literals
+      'ArrayExpression', // In arrays
+      'VariableDeclarator' // In variable assignments
+    ];
+
+    // Look for specific patterns that suggest user-facing data
+    let current = path.parent;
+    let depth = 0;
+    
+    while (current && depth < 10) {
+      // Check for object properties with user-facing names
+      if (current.type === 'ObjectProperty' && current.key) {
+        const propertyName = current.key.name || current.key.value;
+        if (propertyName && this.isUserFacingPropertyName(propertyName)) {
+          return true;
+        }
+      }
+      
+      // Check for arrays that might contain features, options, etc.
+      if (current.type === 'ArrayExpression') {
+        const varName = this.getVariableName(current);
+        if (varName && this.isUserFacingArrayName(varName)) {
+          return true;
+        }
+      }
+      
+      // Check for variable assignments with user-facing names
+      if (current.type === 'VariableDeclarator' && current.id && current.id.name) {
+        if (this.isUserFacingVariableName(current.id.name)) {
+          return true;
+        }
+      }
+      
+      current = current.parent;
+      depth++;
+    }
+    
+    return false;
+  }
+
+  // Check if property name suggests user-facing content
+  isUserFacingPropertyName(name) {
+    const userFacingProps = [
+      'title', 'description', 'text', 'label', 'name', 'content', 'message',
+      'feature', 'benefit', 'value', 'price', 'cost', 'otherTools', 'seachat',
+      'placeholder', 'tooltip', 'error', 'success', 'warning', 'info',
+      'heading', 'subheading', 'subtitle', 'caption', 'alt', 'summary'
+    ];
+    
+    return userFacingProps.some(prop => name.toLowerCase().includes(prop));
+  }
+
+  // Check if array name suggests user-facing content
+  isUserFacingArrayName(name) {
+    const userFacingArrays = [
+      'features', 'options', 'items', 'menu', 'navigation', 'steps',
+      'benefits', 'services', 'products', 'testimonials', 'pricing',
+      'plans', 'tiers', 'packages', 'categories', 'sections'
+    ];
+    
+    return userFacingArrays.some(arr => name.toLowerCase().includes(arr));
+  }
+
+  // Check if variable name suggests user-facing content
+  isUserFacingVariableName(name) {
+    const userFacingVars = [
+      'features', 'options', 'menu', 'navigation', 'content', 'data',
+      'items', 'list', 'config', 'settings', 'pricing', 'plans'
+    ];
+    
+    return userFacingVars.some(varName => name.toLowerCase().includes(varName));
+  }
+
+  // Get variable name from array expression
+  getVariableName(arrayNode) {
+    let current = arrayNode.parent;
+    
+    while (current) {
+      if (current.type === 'VariableDeclarator' && current.id && current.id.name) {
+        return current.id.name;
+      }
+      if (current.type === 'Property' && current.key) {
+        return current.key.name || current.key.value;
+      }
+      current = current.parent;
+    }
+    
+    return null;
   }
 
   // Generate coverage report

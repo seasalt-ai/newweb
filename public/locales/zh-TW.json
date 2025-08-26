@@ -1893,6 +1893,70 @@
           "tryFeature": "試用此功能",
           "watchDemo": "觀看演示"
         }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "檢索增強生成",
+            "description": "關鍵詞、向量和混合搜尋，實現精確資訊檢索",
+            "details": {
+              "0": "語義向量搜尋",
+              "1": "關鍵詞匹配",
+              "2": "混合搜尋演算法",
+              "3": "即時內容索引"
+            }
+          },
+          "memory": {
+            "title": "長期記憶",
+            "description": "透過持續用戶記憶提供個人化體驗",
+            "details": {
+              "0": "用戶偏好追蹤",
+              "1": "對話歷史分析",
+              "2": "行為模式識別",
+              "3": "跨會話連續性"
+            }
+          },
+          "timeAware": {
+            "title": "時間感知",
+            "description": "基於當前時間和時區的情境感知回應",
+            "details": {
+              "0": "即時時間戳整合",
+              "1": "時區感知排程",
+              "2": "時間敏感建議",
+              "3": "營業時間優化"
+            }
+          },
+          "contextExtraction": {
+            "title": "情境提取",
+            "description": "智能欄位映射，提升用戶理解",
+            "details": {
+              "0": "自訂欄位定義",
+              "1": "自動資料提取",
+              "2": "用戶語言偏好",
+              "3": "動態情境建構"
+            }
+          },
+          "referencedResults": {
+            "title": "引用結果",
+            "description": "透明的 AI 回應與來源引用",
+            "details": {
+              "0": "來源文件連結",
+              "1": "引用追蹤",
+              "2": "信心評分",
+              "3": "事實驗證"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "知識精煉",
+            "description": "持續改善知識庫準確性",
+            "details": {
+              "0": "自動更新內容",
+              "1": "品質評分",
+              "2": "相關性優化",
+              "3": "效能分析"
+            }
+          }
+        }
       }
     },
     "omnichannelDemo": {
@@ -2461,6 +2525,57 @@
         "unlimitedContacts": "無限聯絡人",
         "knowledgeBase": "額外知識庫",
         "extraChatbot": "額外對話機器人"
+      },
+      "table": {
+        "headers": {
+          "features": "功能",
+          "replaces": "取代工具",
+          "otherTools": "其他工具",
+          "seachat": "SeaChat"
+        },
+        "total": "總計",
+        "totalPrice": "每月 $331 或更多",
+        "seachatPrice": "每月 $29.99",
+        "explanations": {
+          "valueYouGet": "↑ 您獲得的價值",
+          "priceYouWouldPay": "↑ 您原本需要支付的價格",
+          "priceYouPay": "↑ 您實際支付的價格"
+        }
+      },
+      "mobile": {
+        "replaces": "取代工具：",
+        "otherTools": "其他工具：",
+        "seachat": "SeaChat：",
+        "otherToolsTotal": "其他工具總計：",
+        "seachatTotal": "SeaChat 總計：",
+        "totalPrice": "每月 $331+",
+        "seachatTotalPrice": "每月 $29.99",
+        "priceYouWouldPay": "↑ 您原本需要支付的價格",
+        "priceYouPay": "↑ 您實際支付的價格"
+      },
+      "uniqueToSeachat": "獨有功能",
+      "pricing": {
+        "chatbotWebsite": "每月 $99",
+        "chatWidget": "每個客服每月 $23",
+        "whatsappMessenger": "每個用戶每月 $89",
+        "multiCalendar": "每個席位每月 $10",
+        "phoneCallAI": "每月 $29",
+        "smsActions": "每月 $59",
+        "emailActions": "每月 $20",
+        "phoneNumber": "每月 $2 至 $3",
+        "unlimitedContacts": "每 1 萬聯絡人 $65",
+        "knowledgeBase": "每個額外知識庫 $8",
+        "extraChatbot": "每個額外聊天機器人 $7"
+      },
+      "seachatValues": {
+        "agencyMode": "多個工作空間 - 每個客戶一個工作空間",
+        "bulkSMS": "與 Seasalt.ai 的 SeaX 整合",
+        "unlimitedContacts": "無限制",
+        "knowledgeBase": "5,000 份文件或 5,000 萬個 token",
+        "extraChatbot": "10 個機器人 × 5 個頻道 = 50 個頻道機器人"
+      },
+      "replaces": {
+        "uniqueToSeachat": "SeaChat 獨有"
       }
     },
     "integrations": {
