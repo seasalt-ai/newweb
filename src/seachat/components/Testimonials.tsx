@@ -8,49 +8,64 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      title: 'Customer Success Director',
-      company: 'TechFlow Solutions',
+      name: t('seachat.testimonials.testimonials.0.name'),
+      title: t('seachat.testimonials.testimonials.0.title'),
+      company: t('seachat.testimonials.testimonials.0.company'),
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-      quote: 'SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.',
+      quote: t('seachat.testimonials.testimonials.0.quote'),
       rating: 5,
-      metrics: { improvement: '70%', feature: 'Response Time' }
+      metrics: { 
+        improvement: t('seachat.testimonials.testimonials.0.metrics.improvement'), 
+        feature: t('seachat.testimonials.testimonials.0.metrics.feature') 
+      }
     },
     {
-      name: 'Marcus Rodriguez',
-      title: 'Operations Manager',
-      company: 'EcoCommerce',
+      name: t('seachat.testimonials.testimonials.1.name'),
+      title: t('seachat.testimonials.testimonials.1.title'),
+      company: t('seachat.testimonials.testimonials.1.company'),
       image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-      quote: 'The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.',
+      quote: t('seachat.testimonials.testimonials.1.quote'),
       rating: 5,
-      metrics: { improvement: '80%', feature: 'Query Resolution' }
+      metrics: { 
+        improvement: t('seachat.testimonials.testimonials.1.metrics.improvement'), 
+        feature: t('seachat.testimonials.testimonials.1.metrics.feature') 
+      }
     },
     {
-      name: 'Emily Watson',
-      title: 'Head of Customer Experience',
-      company: 'HealthTech Pro',
+      name: t('seachat.testimonials.testimonials.2.name'),
+      title: t('seachat.testimonials.testimonials.2.title'),
+      company: t('seachat.testimonials.testimonials.2.company'),
       image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-      quote: 'The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!',
+      quote: t('seachat.testimonials.testimonials.2.quote'),
       rating: 5,
-      metrics: { improvement: '95%', feature: 'Customer Satisfaction' }
+      metrics: { 
+        improvement: t('seachat.testimonials.testimonials.2.metrics.improvement'), 
+        feature: t('seachat.testimonials.testimonials.2.metrics.feature') 
+      }
     },
     {
-      name: 'David Park',
-      title: 'Founder & CEO',
-      company: 'StartupFlow',
+      name: t('seachat.testimonials.testimonials.3.name'),
+      title: t('seachat.testimonials.testimonials.3.title'),
+      company: t('seachat.testimonials.testimonials.3.company'),
       image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-      quote: 'As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we\'re happily paying for AI features as we scale.',
+      quote: t('seachat.testimonials.testimonials.3.quote'),
       rating: 5,
-      metrics: { improvement: '$0', feature: 'Initial Cost' }
+      metrics: { 
+        improvement: t('seachat.testimonials.testimonials.3.metrics.improvement'), 
+        feature: t('seachat.testimonials.testimonials.3.metrics.feature') 
+      }
     },
     {
-      name: 'Lisa Thompson',
-      title: 'Support Team Lead',
-      company: 'GlobalRetail Inc',
+      name: t('seachat.testimonials.testimonials.4.name'),
+      title: t('seachat.testimonials.testimonials.4.title'),
+      company: t('seachat.testimonials.testimonials.4.company'),
       image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-      quote: 'The human-AI handoff is so smooth that customers don\'t even notice when they\'re switched between AI and human agents. It\'s exactly what we needed for our complex support scenarios.',
+      quote: t('seachat.testimonials.testimonials.4.quote'),
       rating: 5,
-      metrics: { improvement: '100%', feature: 'Seamless Handoff' }
+      metrics: { 
+        improvement: t('seachat.testimonials.testimonials.4.metrics.improvement'), 
+        feature: t('seachat.testimonials.testimonials.4.metrics.feature') 
+      }
     }
   ];
 

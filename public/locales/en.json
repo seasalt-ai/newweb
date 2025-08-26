@@ -2250,6 +2250,58 @@
         "uptime": "99.9% Uptime",
         "messages": "50M+ Messages Processed",
         "rating": "4.9/5 Customer Rating"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Customer Success Director",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Response Time"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Operations Manager",
+          "company": "EcoCommerce",
+          "quote": "The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Query Resolution"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Head of Customer Experience",
+          "company": "HealthTech Pro",
+          "quote": "The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Customer Satisfaction"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Founder & CEO",
+          "company": "StartupFlow",
+          "quote": "As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Initial Cost"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Support Team Lead",
+          "company": "GlobalRetail Inc",
+          "quote": "The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Seamless Handoff"
+          }
+        }
       }
     },
     "blog": {

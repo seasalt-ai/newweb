@@ -2250,6 +2250,58 @@
         "uptime": "99.9% 正常運行時間",
         "messages": "處理了 5000 萬+ 則訊息",
         "rating": "4.9/5 客戶評分"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "客戶成功總監",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat 轉變了我們的支援營運。對於我們的新創公司來說，從免費人工專員開始是完美的，而使用 AI 擴展一直很順暢。我們的回應時間改善了 70%。",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "回應時間"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "營運經理",
+          "company": "EcoCommerce",
+          "quote": "知識庫功能太棒了。我們上傳了整個產品目錄和常見問題，現在 AI 以完美的準確性處理 80% 的客戶查詢。",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "查詢解決"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "客戶體驗主管",
+          "company": "HealthTech Pro",
+          "quote": "全渠道整合非常完美。我們的客戶可以在 WhatsApp 上開始對話，然後在我們的網站上繼續，而不會失去上下文。這改變了遊戲規則！",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "客戶滿意度"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "創辦人兼執行長",
+          "company": "StartupFlow",
+          "quote": "作為一家自力更生的新創公司，免費方案是救命稻草。我們從第一天就提供專業支援，無需任何前期成本。現在隨著我們的擴展，我們很樂意為 AI 功能付費。",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "初始成本"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "支援團隊負責人",
+          "company": "GlobalRetail Inc",
+          "quote": "人機轉接非常順暢，客戶甚至不會注意到他們在 AI 和人工專員之間切換。這正是我們複雜支援場景所需要的。",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "無縫轉接"
+          }
+        }
       }
     },
     "blog": {
