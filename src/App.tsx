@@ -1,6 +1,6 @@
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
@@ -72,77 +72,51 @@ const SeaChatRedirect = () => {
   return <Navigate to={redirectTo} replace />;
 };
 
-// Language-aware SeaChat wrapper
-const SeaChatWithLanguage = () => {
+// Generic language-aware wrapper HOC
+const LanguageAwareWrapper: React.FC<{ 
+  children: React.ReactNode; 
+  productName: string; 
+}> = ({ children, productName }) => {
   const { i18n } = useTranslation();
   const location = useLocation();
   
   useEffect(() => {
-    // Extract language from path: /zh-TW/seachat/... -> zh-TW
+    // Extract language from path: /zh-TW/product/... -> zh-TW
     const pathParts = location.pathname.split('/');
     const lang = pathParts[1]; // First part after leading slash
     
-    console.log('[SeaChatWithLanguage] Path parts:', pathParts);
-    console.log('[SeaChatWithLanguage] Detected language:', lang);
-    console.log('[SeaChatWithLanguage] Current i18n language:', i18n.language);
+    console.log(`[${productName}WithLanguage] Path parts:`, pathParts);
+    console.log(`[${productName}WithLanguage] Detected language:`, lang);
+    console.log(`[${productName}WithLanguage] Current i18n language:`, i18n.language);
     
     // Check if it's a supported language and different from current
     if (SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
-      console.log('[SeaChatWithLanguage] Changing language from', i18n.language, 'to', lang);
+      console.log(`[${productName}WithLanguage] Changing language from`, i18n.language, 'to', lang);
       i18n.changeLanguage(lang);
     }
-  }, [location.pathname, i18n]);
+  }, [location.pathname, i18n, productName]);
   
-  return <SeaChatRouter />;
+  return <>{children}</>;
 };
 
-// Language-aware SeaX wrapper
-const SeaXWithLanguage = () => {
-  const { i18n } = useTranslation();
-  const location = useLocation();
-  
-  useEffect(() => {
-    // Extract language from path: /zh-TW/seax/... -> zh-TW
-    const pathParts = location.pathname.split('/');
-    const lang = pathParts[1]; // First part after leading slash
-    
-    console.log('[SeaXWithLanguage] Path parts:', pathParts);
-    console.log('[SeaXWithLanguage] Detected language:', lang);
-    console.log('[SeaXWithLanguage] Current i18n language:', i18n.language);
-    
-    // Check if it's a supported language and different from current
-    if (SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
-      console.log('[SeaXWithLanguage] Changing language from', i18n.language, 'to', lang);
-      i18n.changeLanguage(lang);
-    }
-  }, [location.pathname, i18n]);
-  
-  return <SeaXRouter />;
-};
+// Specific product wrappers using the reusable HOC
+const SeaChatWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaChat">
+    <SeaChatRouter />
+  </LanguageAwareWrapper>
+);
 
-// Language-aware SeaVoice wrapper
-const SeaVoiceWithLanguage = () => {
-  const { i18n } = useTranslation();
-  const location = useLocation();
-  
-  useEffect(() => {
-    // Extract language from path: /zh-TW/seavoice/... -> zh-TW
-    const pathParts = location.pathname.split('/');
-    const lang = pathParts[1]; // First part after leading slash
-    
-    console.log('[SeaVoiceWithLanguage] Path parts:', pathParts);
-    console.log('[SeaVoiceWithLanguage] Detected language:', lang);
-    console.log('[SeaVoiceWithLanguage] Current i18n language:', i18n.language);
-    
-    // Check if it's a supported language and different from current
-    if (SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
-      console.log('[SeaVoiceWithLanguage] Changing language from', i18n.language, 'to', lang);
-      i18n.changeLanguage(lang);
-    }
-  }, [location.pathname, i18n]);
-  
-  return <SeaVoiceRouter />;
-};
+const SeaXWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaX">
+    <SeaXRouter />
+  </LanguageAwareWrapper>
+);
+
+const SeaVoiceWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaVoice">
+    <SeaVoiceRouter />
+  </LanguageAwareWrapper>
+);
 
 // Component to handle SeaX redirects
 const SeaXRedirect = () => {
@@ -159,6 +133,24 @@ const SeaVoiceRedirect = () => {
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
 };
 
+// Detect browser language for homepage redirect - moved outside component to prevent re-creation
+const getBrowserLanguage = () => {
+  if (typeof window === 'undefined') return 'en';
+  
+  // Check browser languages in order of preference
+  const browserLangs = navigator.languages || [navigator.language || 'en'];
+  console.log('[App] Browser languages detected:', browserLangs);
+  
+  for (const browserLang of browserLangs) {
+    const normalized = normalizeLanguage(browserLang);
+    console.log('[App] Normalized browser language:', browserLang, '->', normalized);
+    if (SUPPORTED_LANGUAGES.includes(normalized as any)) {
+      return normalized;
+    }
+  }
+  
+  return 'en'; // fallback
+};
 
 function HomePage() {
   const { i18n } = useTranslation();
@@ -194,25 +186,6 @@ function HomePage() {
 
 function App() {
   const { i18n } = useTranslation();
-  
-  // Detect browser language for homepage redirect
-  const getBrowserLanguage = () => {
-    if (typeof window === 'undefined') return 'en';
-    
-    // Check browser languages in order of preference
-    const browserLangs = navigator.languages || [navigator.language || 'en'];
-    console.log('[App] Browser languages detected:', browserLangs);
-    
-    for (const browserLang of browserLangs) {
-      const normalized = normalizeLanguage(browserLang);
-      console.log('[App] Normalized browser language:', browserLang, '->', normalized);
-      if (SUPPORTED_LANGUAGES.includes(normalized as any)) {
-        return normalized;
-      }
-    }
-    
-    return 'en'; // fallback
-  };
   
   const currentLanguage = i18n.language;
   const detectedBrowserLanguage = getBrowserLanguage();

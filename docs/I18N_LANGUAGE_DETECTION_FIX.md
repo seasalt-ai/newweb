@@ -116,12 +116,19 @@ i18n.init({
 
 #### Cache Management
 ```typescript
-// Clear problematic cached languages that cause conflicts
-if (typeof window !== 'undefined' && window.localStorage) {
-  const cachedLng = window.localStorage.getItem('i18nextLng');
-  if (cachedLng === 'zh' || cachedLng === 'zh-cn' || cachedLng === 'zh-hans') {
+// Generic cache validation and cleanup
+const langFromUrl = window.location.pathname.split('/')[1];
+const isLangInUrlSupported = SUPPORTED_LANGUAGES.includes(langFromUrl as any);
+
+// If URL has a supported language, ensure cache matches or clear it
+if (isLangInUrlSupported) {
+  if (cachedLng && cachedLng !== langFromUrl) {
     window.localStorage.removeItem('i18nextLng');
   }
+}
+// If no language in URL, but cache has an unsupported language, clear it
+else if (cachedLng && !SUPPORTED_LANGUAGES.includes(cachedLng as any)) {
+  window.localStorage.removeItem('i18nextLng');
 }
 ```
 
@@ -184,18 +191,65 @@ The solution implements the requested three-tier priority system:
 - **Efficient**: Browser language detection cached per session
 - **Clean**: No unnecessary re-renders or duplicate API calls
 
+## Code Quality Improvements
+
+### 1. **Generic Cache Management** ✅
+**Problem**: Cache clearing logic was hardcoded for specific language codes (`zh`, `zh-cn`, `zh-hans`), making it brittle and hard to maintain.
+
+**Solution**: Implemented generic cache validation that works with any language:
+```typescript
+// Generic approach validates cache against URL and supported languages
+const langFromUrl = window.location.pathname.split('/')[1];
+const isLangInUrlSupported = SUPPORTED_LANGUAGES.includes(langFromUrl as any);
+
+if (isLangInUrlSupported) {
+  if (cachedLng && cachedLng !== langFromUrl) {
+    window.localStorage.removeItem('i18nextLng');
+  }
+}
+```
+
+### 2. **Eliminated Code Duplication with HOC** ✅  
+**Problem**: Three nearly identical components (`SeaChatWithLanguage`, `SeaXWithLanguage`, `SeaVoiceWithLanguage`) with duplicate logic.
+
+**Solution**: Created reusable Higher-Order Component:
+```typescript
+// Generic wrapper eliminates code duplication
+const LanguageAwareWrapper: React.FC<{ 
+  children: React.ReactNode; 
+  productName: string; 
+}> = ({ children, productName }) => {
+  // Single implementation of language detection logic
+  // ... (language detection logic)
+  return <>{children}</>;
+};
+
+// Clean, maintainable product wrappers
+const SeaChatWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaChat">
+    <SeaChatRouter />
+  </LanguageAwareWrapper>
+);
+```
+
+**Benefits**:
+- **DRY Principle**: Single source of truth for language detection logic
+- **Maintainability**: Changes only need to be made in one place
+- **Extensibility**: Easy to add new product routes using the same pattern
+- **Debugging**: Consistent logging with product-specific identifiers
+
 ## Future Maintenance
 
 ### Adding New Languages
 1. Add language code to `SUPPORTED_LANGUAGES` in `src/constants/languages.ts`
 2. Add translation file in `public/locales/{lang}.json`  
 3. Add language details to `LANGUAGE_DETAILS` array
-4. Language-aware wrappers will automatically support new language
+4. Generic cache management and language wrappers automatically support new language
 
 ### Adding New Product Routes
-1. Create language-aware wrapper following the pattern
+1. Create new wrapper using `LanguageAwareWrapper` HOC
 2. Add routes using the wrapper instead of direct router
-3. Extract language from URL path and call `i18n.changeLanguage()`
+3. No need to duplicate language detection logic
 
 ## Debugging
 

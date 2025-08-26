@@ -4,24 +4,34 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import { SUPPORTED_LANGUAGES, normalizeLanguage } from './constants/languages';
 
-// Clear any cached language that might be causing issues
+// Clear cached language if it conflicts with URL or is unsupported
 if (typeof window !== 'undefined' && window.localStorage) {
   const cachedLng = window.localStorage.getItem('i18nextLng');
   console.log('[i18n] Cached language found:', cachedLng);
   console.log('[i18n] Current URL pathname:', window.location.pathname);
   
-  // Clear any problematic cached languages
-  if (cachedLng === 'zh' || cachedLng === 'zh-cn' || cachedLng === 'zh-hans') {
-    console.log('[i18n] Removing problematic cached language:', cachedLng);
-    window.localStorage.removeItem('i18nextLng');
+  const langFromUrl = window.location.pathname.split('/')[1];
+  const isLangInUrlSupported = SUPPORTED_LANGUAGES.includes(langFromUrl as any);
+  
+  let shouldClearCache = false;
+  let reason = '';
+  
+  // If URL has a supported language, ensure cache matches or clear it
+  if (isLangInUrlSupported) {
+    if (cachedLng && cachedLng !== langFromUrl) {
+      shouldClearCache = true;
+      reason = `URL language (${langFromUrl}) conflicts with cached language (${cachedLng})`;
+    }
+  }
+  // If no language in URL, but cache has an unsupported language, clear it
+  else if (cachedLng && !SUPPORTED_LANGUAGES.includes(cachedLng as any)) {
+    shouldClearCache = true;
+    reason = `Cached language (${cachedLng}) is not in supported languages list`;
   }
   
-  // If we're on a zh-TW URL, make sure localStorage doesn't interfere
-  if (window.location.pathname.startsWith('/zh-TW/')) {
-    console.log('[i18n] On zh-TW route, clearing any conflicting cache');
-    if (cachedLng && cachedLng !== 'zh-TW') {
-      window.localStorage.removeItem('i18nextLng');
-    }
+  if (shouldClearCache) {
+    console.log('[i18n] Clearing cached language:', reason);
+    window.localStorage.removeItem('i18nextLng');
   }
 }
 
