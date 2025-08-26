@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-14T06:55:07.945Z
+Generated: 2025-08-26T03:50:30.730Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 2990
-- **Components Analyzed**: 209
-- **Translation Coverage**: 58.02%
-- **Missing Keys**: 1969
-- **Hardcoded Strings Found**: 2854
+- **Base Language (en) Keys**: 3313
+- **Components Analyzed**: 210
+- **Translation Coverage**: 61.92%
+- **Missing Keys**: 1909
+- **Hardcoded Strings Found**: 2661
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 425 | 13.71% | ❌ Incomplete |
-| de | 422 | 13.61% | ❌ Incomplete |
-| en | 2990 | 100.00% | ✅ Good |
-| es | 422 | 13.61% | ❌ Incomplete |
-| fa | 438 | 14.18% | ❌ Incomplete |
-| fil | 422 | 13.61% | ❌ Incomplete |
-| fr | 422 | 13.61% | ❌ Incomplete |
-| hi | 422 | 13.61% | ❌ Incomplete |
-| id | 422 | 13.61% | ❌ Incomplete |
-| ja | 422 | 13.65% | ❌ Incomplete |
-| ko | 422 | 13.61% | ❌ Incomplete |
-| ms | 422 | 13.61% | ❌ Incomplete |
-| pl | 408 | 13.61% | ❌ Incomplete |
-| pt | 408 | 13.61% | ❌ Incomplete |
-| ru | 408 | 13.61% | ❌ Incomplete |
-| ta | 422 | 13.61% | ❌ Incomplete |
-| th | 422 | 13.61% | ❌ Incomplete |
-| vi | 422 | 13.61% | ❌ Incomplete |
-| zh-CN | 485 | 15.62% | ❌ Incomplete |
-| zh-TW | 3030 | 99.36% | ✅ Good |
+| ar | 909 | 26.74% | ❌ Incomplete |
+| de | 887 | 26.08% | ❌ Incomplete |
+| en | 3313 | 100.00% | ✅ Good |
+| es | 835 | 24.51% | ❌ Incomplete |
+| fa | 755 | 22.12% | ❌ Incomplete |
+| fil | 739 | 21.61% | ❌ Incomplete |
+| fr | 739 | 21.61% | ❌ Incomplete |
+| hi | 690 | 20.13% | ❌ Incomplete |
+| id | 690 | 20.13% | ❌ Incomplete |
+| ja | 690 | 20.16% | ❌ Incomplete |
+| ko | 690 | 20.13% | ❌ Incomplete |
+| ms | 690 | 20.13% | ❌ Incomplete |
+| pl | 676 | 19.71% | ❌ Incomplete |
+| pt | 676 | 19.71% | ❌ Incomplete |
+| ru | 676 | 19.71% | ❌ Incomplete |
+| ta | 739 | 21.61% | ❌ Incomplete |
+| th | 679 | 19.80% | ❌ Incomplete |
+| vi | 739 | 21.61% | ❌ Incomplete |
+| zh-CN | 802 | 23.54% | ❌ Incomplete |
+| zh-TW | 3313 | 99.97% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1969 keys used in components but missing from en.json
-**Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
+**Description**: 1909 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 2854 hardcoded strings that should be internationalized
+**Description**: Found 2661 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -55,61 +55,6 @@ Generated: 2025-08-14T06:55:07.945Z
 The following keys are used in components but missing from the base language file:
 
 ```
-comparison.competitors.seasalt.startingPrice
-comparison.competitors.seasalt.pricingModel
-comparison.competitors.seasalt.unifiedVoiceDigital
-comparison.competitors.seasalt.aiCapabilities
-comparison.competitors.seasalt.bestFor
-comparison.competitors.aircall.startingPrice
-comparison.competitors.aircall.pricingModel
-comparison.competitors.aircall.unifiedVoiceDigital
-comparison.competitors.aircall.aiCapabilities
-comparison.competitors.aircall.bestFor
-comparison.competitors.ringcentral.startingPrice
-comparison.competitors.ringcentral.pricingModel
-comparison.competitors.ringcentral.unifiedVoiceDigital
-comparison.competitors.ringcentral.aiCapabilities
-comparison.competitors.ringcentral.bestFor
-comparison.competitors.genesys.startingPrice
-comparison.competitors.genesys.pricingModel
-comparison.competitors.genesys.unifiedVoiceDigital
-comparison.competitors.genesys.aiCapabilities
-comparison.competitors.genesys.bestFor
-comparison.competitors.five9.startingPrice
-comparison.competitors.five9.pricingModel
-comparison.competitors.five9.unifiedVoiceDigital
-comparison.competitors.five9.aiCapabilities
-comparison.competitors.five9.bestFor
-comparison.competitors.googleVoice.startingPrice
-comparison.competitors.googleVoice.pricingModel
-comparison.competitors.googleVoice.unifiedVoiceDigital
-comparison.competitors.googleVoice.aiCapabilities
-comparison.competitors.googleVoice.bestFor
-comparison.title
-comparison.description
-comparison.table.headers.platform
-comparison.table.headers.startingPrice
-comparison.table.headers.pricingModel
-comparison.table.headers.unifiedVoiceDigital
-comparison.table.headers.aiCapabilities
-comparison.table.headers.bestFor
-comparison.recommended
-comparison.cta.seeAllComparisons
-footer.tagline
-footer.seahealth
-footer.company.title
-footer.productWiki
-footer.apiReferences
-footer.company.careers
-footer.company.about
-footer.copyright
-footer.privacyPolicy
-footer.termsOfService
-footer.compliance.hipaa
-footer.compliance.uptime
-footer.cta.title
-footer.cta.startFreeTrial
-footer.cta.scheduleDemo
 industriesData.ecommerce.benefits.0
 industriesData.ecommerce.benefits.1
 industriesData.ecommerce.benefits.2
@@ -142,29 +87,24 @@ industriesData.financial.benefits.0
 industriesData.financial.benefits.1
 industriesData.financial.benefits.2
 industriesData.financial.benefits.3
+company.partnerships.list.0.description
+company.partnerships.list.0.type
+company.partnerships.list.1.description
+company.partnerships.list.1.type
+company.partnerships.list.2.description
+company.partnerships.list.2.type
+company.partnerships.list.3.description
+company.partnerships.list.3.type
+company.offices.list.0.title
+company.offices.list.0.location
+company.offices.list.1.title
+company.offices.list.1.location
+company.timeline.list.0.event
+company.timeline.list.1.event
+company.timeline.list.2.event
+company.timeline.list.3.event
+company.timeline.list.4.event
 pricing.legacy.enterprise.period
-pricing.comparisonseasalt.name
-pricing.plans.custom.subtitle
-tpricing.ransparentAI.voiceAI.title
-compare.threeCXAlternative.technicalComplexity.youManage.title
-compare.threeCXAlternative.technicalComplexity.youManage.items.serverProvisioning
-compare.threeCXAlternative.technicalComplexity.youManage.items.osUpdates
-compare.threeCXAlternative.technicalComplexity.youManage.items.sslInstallation
-compare.threeCXAlternative.technicalComplexity.youManage.items.firewallConfig
-compare.threeCXAlternative.technicalComplexity.youManage.items.backupRecovery
-compare.threeCXAlternative.technicalComplexity.youManage.items.troubleshooting
-compare.threeCXAlternative.technicalComplexity.youManage.items.capacityPlanning
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.title
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.infrastructureManagement
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticUpdates
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.sslManagement
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.enterpriseSecurity
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automatedBackups
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.monitoringSupport
-compare.threeCXAlternative.technicalComplexity.seasaltHandles.items.automaticScaling
-compare.threeCXAlternative.cta.description
-compare.threeCXAlternative.cta.buttons.signUp
-compare.threeCXAlternative.cta.buttons.bookDemo
 pricing.plans.free.name
 pricing.plans.free.tagline
 pricing.plans.free.description
@@ -2030,7 +1970,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 2854 potential hardcoded strings across components:
+Found 2661 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2073,7 +2013,7 @@ Found 2854 potential hardcoded strings across components:
   **Context**: `mr-2" />\n                <span className="text-sm">+1 (SMB)-AI-AGENT</span>\n              </div>\n...`
 
 
-... and 2844 more. See hardcoded-strings.json for complete list.
+... and 2651 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2081,20 +2021,20 @@ Found 2854 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1969 keys used in components but missing from en.json
-**Action**: Add these keys to public/locales/en.json: comparison.competitors.seasalt.startingPrice, comparison.competitors.seasalt.pricingModel, comparison.competitors.seasalt.unifiedVoiceDigital, comparison.competitors.seasalt.aiCapabilities, comparison.competitors.seasalt.bestFor...
+**Description**: 1909 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 2854 hardcoded strings that should be internationalized
+**Description**: Found 2661 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
 ### 3. Complete translations for under-covered languages (MEDIUM Priority)
 **Category**: Translation Completeness
 **Description**: 18 languages have less than 80% translation coverage
-**Action**: Priority languages to complete: de, es, fil
+**Action**: Priority languages to complete: pl, pt, ru
 
 
 ### 4. Organize translations by page/component sections (MEDIUM Priority)

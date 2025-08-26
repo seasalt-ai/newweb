@@ -317,13 +317,13 @@
   {
     "file": "src/pages/BlogPost.tsx",
     "text": "Sign Up",
-    "context": "                 href=\"https://seax.seasalt.ai/signup\"\n                 className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"\n               >\n                 Sign Up\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"",
+    "context": "                 href=\"https://seax.seasalt.ai/signup\"\n                 className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"\n               >\n                 Sign Up\n              </a>\n              <a\n                href={getMeetingUrl(i18n.language)}\n                className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/BlogPost.tsx",
     "text": "Schedule Demo",
-    "context": "                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </section>",
+    "context": "                href={getMeetingUrl(i18n.language)}\n                className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </section>",
     "type": "jsx-text"
   },
   {
@@ -342,384 +342,6 @@
     "context": "me=\"text-xs sm:text-sm text-gray-500 mr-1 sm:mr-2\">Available in:</span>\n                  <div class"
   },
   {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Communication Channels - Seasalt.ai",
-    "context": "      {/* SEO Tags */}\n      <SEOHelmet\n        title=\"Communication Channels - Seasalt.ai\"\n        description=\"Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n        canonicalUrl={canonicalUrl}",
-    "type": "jsx-attribute",
-    "attribute": "title"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Back to Home",
-    "context": "            <div className=\"text-center mb-16\">\n              <Link to={`/${i18n.language}`} className=\"inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8\">\n                <ArrowLeft className=\"h-5 w-5 mr-2\" />\n                Back to Home\n              </Link>\n              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                Every Customer Channel,{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Every Customer Channel,",
-    "context": "                Back to Home\n              </Link>\n              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                Every Customer Channel,{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">\n                  One Unified Platform\n                </span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "One Unified Platform",
-    "context": "              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                Every Customer Channel,{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">\n                  One Unified Platform\n                </span>\n              </h1>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. \n                Manage every customer conversation from one powerful platform.",
-    "context": "                </span>\n              </h1>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. \n                Manage every customer conversation from one powerful platform.\n              </p>\n            </div>\n\n            {/* Central Hub Visualization */}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Seasalt.ai Hub",
-    "context": "              <div className=\"bg-white rounded-2xl shadow-2xl p-8 text-center\">\n                <div className=\"bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 rounded-xl mb-6\">\n                  <h3 className=\"text-2xl font-bold\">Seasalt.ai Hub</h3>\n                  <p className=\"opacity-90\">All channels unified</p>\n                </div>\n                <div className=\"grid grid-cols-3 md:grid-cols-5 gap-4\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "All channels unified",
-    "context": "                <div className=\"bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 rounded-xl mb-6\">\n                  <h3 className=\"text-2xl font-bold\">Seasalt.ai Hub</h3>\n                  <p className=\"opacity-90\">All channels unified</p>\n                </div>\n                <div className=\"grid grid-cols-3 md:grid-cols-5 gap-4\">\n                  {channels.slice(0, 5).map((channel, index) => (",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Choose Your Channels",
-    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                Choose Your Channels\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Start with the channels your customers use most, then expand as you grow. \n                Each integration takes minutes, not months.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Start with the channels your customers use most, then expand as you grow. \n                Each integration takes minutes, not months.",
-    "context": "                Choose Your Channels\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Start with the channels your customers use most, then expand as you grow. \n                Each integration takes minutes, not months.\n              </p>\n            </div>\n\n            <div className=\"grid md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Learn More",
-    "context": "                    to={`/${i18n.language}${channel.link}`}\n                    className=\"block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-medium transition-colors duration-200\"\n                  >\n                    Learn More\n                  </Link>\n                </div>\n              ))}\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Integration Benefits",
-    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                Integration Benefits\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                When all your channels work together, magic happens. See why unified communication \n                is the future of customer engagement.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "When all your channels work together, magic happens. See why unified communication \n                is the future of customer engagement.",
-    "context": "                Integration Benefits\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                When all your channels work together, magic happens. See why unified communication \n                is the future of customer engagement.\n              </p>\n            </div>\n\n            <div className=\"grid md:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Ready to Unify Your Customer Channels?",
-    "context": "        <section className=\"py-20 bg-gradient-to-r from-blue-600 to-indigo-600\">\n          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n            <h2 className=\"text-3xl lg:text-4xl font-bold text-white mb-6\">\n              Ready to Unify Your Customer Channels?\n            </h2>\n            <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n              Start with our free plan and connect your first channel in minutes. \n              Scale up as your business grows.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Start with our free plan and connect your first channel in minutes. \n              Scale up as your business grows.",
-    "context": "              Ready to Unify Your Customer Channels?\n            </h2>\n            <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n              Start with our free plan and connect your first channel in minutes. \n              Scale up as your business grows.\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                 href=\"https://seax.seasalt.ai/signup\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Sign Up",
-    "context": "                 href=\"https://seax.seasalt.ai/signup\"\n                 className=\"bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n               >\n                 Sign Up\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n              >",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Book A Demo",
-    "context": "              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n              >\n                Book A Demo\n              </a>\n            </div>\n          </div>\n        </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "Seasalt.ai Hub",
-    "context": "                <h3 className=\"text-2xl font-bold\">Seasalt.ai Hub</h3>\n                  <p classNam"
-  },
-  {
-    "file": "src/pages/ChannelsOverview.tsx",
-    "text": "All channels unified",
-    "context": "b</h3>\n                  <p className=\"opacity-90\">All channels unified</p>\n                </div>\n "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "About Seasalt.ai - Company Information & Leadership",
-    "context": "    <div className=\"min-h-screen bg-white\">\n      <SEOHelmet \n        title=\"About Seasalt.ai - Company Information & Leadership\"\n        description=\"Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n        availableLanguages={SUPPORTED_LANGUAGES}",
-    "type": "jsx-attribute",
-    "attribute": "title"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "About Seasalt.ai",
-    "context": "            className=\"text-center\"\n          >\n            <h1 className=\"text-5xl font-bold text-gray-900 mb-6\">\n              About Seasalt.ai\n            </h1>\n            <p className=\"text-xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed\">\n              Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, \n              and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, \n              and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice \n              technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.",
-    "context": "              About Seasalt.ai\n            </h1>\n            <p className=\"text-xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed\">\n              Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, \n              and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice \n              technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.\n            </p>\n            <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n              From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, \n              elevate customer experiences, and unlock new channels for growth.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, \n              elevate customer experiences, and unlock new channels for growth.",
-    "context": "              technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.\n            </p>\n            <p className=\"text-lg text-gray-600 max-w-3xl mx-auto\">\n              From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, \n              elevate customer experiences, and unlock new channels for growth.\n            </p>\n          </motion.div>\n        </div>\n      </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Mission & Values",
-    "context": "            >\n              <div className=\"mb-12\">\n                <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Our Mission & Values</h2>\n                <div className=\"bg-blue-50 rounded-xl p-6 mb-8\">\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Mission</h3>\n                  <p className=\"text-lg text-gray-700 mb-4\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Mission",
-    "context": "                <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Our Mission & Values</h2>\n                <div className=\"bg-blue-50 rounded-xl p-6 mb-8\">\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Mission</h3>\n                  <p className=\"text-lg text-gray-700 mb-4\">\n                    Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.\n                  </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.",
-    "context": "                <div className=\"bg-blue-50 rounded-xl p-6 mb-8\">\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Mission</h3>\n                  <p className=\"text-lg text-gray-700 mb-4\">\n                    Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.\n                  </p>\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Vision</h3>\n                  <p className=\"text-lg text-gray-700\">\n                    Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Vision",
-    "context": "                    Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.\n                  </p>\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Vision</h3>\n                  <p className=\"text-lg text-gray-700\">\n                    Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence.\n                  </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence.",
-    "context": "                  </p>\n                  <h3 className=\"text-2xl font-bold text-blue-900 mb-4\">Our Vision</h3>\n                  <p className=\"text-lg text-gray-700\">\n                    Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence.\n                  </p>\n                </div>\n                <p className=\"text-lg text-gray-600 leading-relaxed italic\">\n                  We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.",
-    "context": "                  </p>\n                </div>\n                <p className=\"text-lg text-gray-600 leading-relaxed italic\">\n                  We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.\n                </p>\n                <p className=\"text-lg text-gray-600 leading-relaxed mt-4\">\n                  We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully.\n                </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully.",
-    "context": "                  We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.\n                </p>\n                <p className=\"text-lg text-gray-600 leading-relaxed mt-4\">\n                  We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully.\n                </p>\n              </div>\n            </motion.div>\n            ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "🧭 Our Core Values",
-    "context": "              viewport={{ once: true }}\n            >\n              <h3 className=\"text-3xl font-bold text-gray-900 mb-8\">🧭 Our Core Values</h3>\n              <div className=\"space-y-6\">\n                {coreValues.map((value, index) => (\n                  <div key={index} className=\"flex items-start space-x-4\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Leadership & Co-founders",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Leadership & Co-founders</h2>\n          </motion.div>\n\n          <div className=\"grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Google Scholar",
-    "context": "                       className=\"text-blue-600 hover:text-blue-800 flex items-center space-x-1\">\n                      <ExternalLink className=\"w-4 h-4\" />\n                      <span>Google Scholar</span>\n                    </a>\n                  )}\n                </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Office Locations",
-    "context": "            className=\"text-center mb-12\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Office Locations</h2>\n          </motion.div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "🌐 What We Build",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">🌐 What We Build</h2>\n            <h3 className=\"text-2xl font-semibold text-gray-700 mb-8\">Product Portfolio</h3>\n          </motion.div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Product Portfolio",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">🌐 What We Build</h2>\n            <h3 className=\"text-2xl font-semibold text-gray-700 mb-8\">Product Portfolio</h3>\n          </motion.div>\n\n          <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Download the Product Logo & Press Kit",
-    "context": "            >\n              <Download className=\"w-5 h-5\" />\n              <span>Download the Product Logo & Press Kit</span>\n            </motion.a>\n          </motion.div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Funding & Investors",
-    "context": "              viewport={{ once: true }}\n            >\n              <h2 className=\"text-4xl font-bold text-gray-900 mb-8\">Funding & Investors</h2>\n              <div className=\"bg-green-50 rounded-xl p-6 mb-8\">\n                <div className=\"flex items-center space-x-3 mb-4\">\n                  <DollarSign className=\"w-8 h-8 text-green-600\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Seed Funding",
-    "context": "                <div className=\"flex items-center space-x-3 mb-4\">\n                  <DollarSign className=\"w-8 h-8 text-green-600\" />\n                  <h3 className=\"text-2xl font-bold text-green-900\">Seed Funding</h3>\n                </div>\n                <p className=\"text-xl font-semibold text-green-800\">$4.2 million USD raised in 2024</p>\n              </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "$4.2 million USD raised in 2024",
-    "context": "                  <h3 className=\"text-2xl font-bold text-green-900\">Seed Funding</h3>\n                </div>\n                <p className=\"text-xl font-semibold text-green-800\">$4.2 million USD raised in 2024</p>\n              </div>\n              <h4 className=\"text-xl font-semibold text-gray-900 mb-4\">Our investors include:</h4>\n              <ul className=\"space-y-3\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our investors include:",
-    "context": "                <p className=\"text-xl font-semibold text-green-800\">$4.2 million USD raised in 2024</p>\n              </div>\n              <h4 className=\"text-xl font-semibold text-gray-900 mb-4\">Our investors include:</h4>\n              <ul className=\"space-y-3\">\n                {investors.map((investor, index) => (\n                  <li key={index} className=\"flex items-center space-x-3\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Strategic Partnerships",
-    "context": "              viewport={{ once: true }}\n            >\n              <h2 className=\"text-4xl font-bold text-gray-900 mb-8\">Strategic Partnerships</h2>\n              <p className=\"text-lg text-gray-600 mb-8\">\n                Our platform's power is amplified by deep, strategic partnerships with global technology leaders:\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our platform's power is amplified by deep, strategic partnerships with global technology leaders:",
-    "context": "            >\n              <h2 className=\"text-4xl font-bold text-gray-900 mb-8\">Strategic Partnerships</h2>\n              <p className=\"text-lg text-gray-600 mb-8\">\n                Our platform's power is amplified by deep, strategic partnerships with global technology leaders:\n              </p>\n              <div className=\"space-y-6\">\n                {partnerships.map((partnership, index) => (\n                  <div key={index} className=\"border-l-4 border-blue-500 pl-6 py-2\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Journey",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Our Journey</h2>\n            <p className=\"text-xl text-gray-600\">\n              Key milestones in our mission to transform business communications\n            </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Key milestones in our mission to transform business communications",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Our Journey</h2>\n            <p className=\"text-xl text-gray-600\">\n              Key milestones in our mission to transform business communications\n            </p>\n          </motion.div>\n\n          <div className=\"space-y-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Careers at Seasalt.ai",
-    "context": "            >\n              <Briefcase className=\"w-16 h-16 mb-6 opacity-80\" />\n              <h2 className=\"text-4xl font-bold mb-6\">Careers at Seasalt.ai</h2>\n              <p className=\"text-xl mb-8 opacity-90\">\n                Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, \n                AI scientists, developers, and business builders. ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, \n                AI scientists, developers, and business builders.",
-    "context": "              <Briefcase className=\"w-16 h-16 mb-6 opacity-80\" />\n              <h2 className=\"text-4xl font-bold mb-6\">Careers at Seasalt.ai</h2>\n              <p className=\"text-xl mb-8 opacity-90\">\n                Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, \n                AI scientists, developers, and business builders. \n              </p>\n              <motion.div\n                whileHover={{ scale: 1.05 }}\n                whileTap={{ scale: 0.95 }}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "See open positions",
-    "context": "                  to={`/${currentLanguage}/careers`}\n                  className=\"inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors\"\n                >\n                  See open positions\n                </Link>\n              </motion.div>\n            </motion.div>\n            ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Global, diverse, and remote-friendly culture",
-    "context": "              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>\n                <span className=\"text-lg\">Global, diverse, and remote-friendly culture</span>\n              </div>\n              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Work with cutting-edge AI technology",
-    "context": "              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>\n                <span className=\"text-lg\">Work with cutting-edge AI technology</span>\n              </div>\n              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Make real impact in business communications",
-    "context": "              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>\n                <span className=\"text-lg\">Make real impact in business communications</span>\n              </div>\n              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Collaborate with industry veterans",
-    "context": "              <div className=\"flex items-center space-x-4\">\n                <div className=\"w-2 h-2 bg-white rounded-full\"></div>\n                <span className=\"text-lg\">Collaborate with industry veterans</span>\n              </div>\n            </motion.div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Contact & Press",
-    "context": "            className=\"text-center mb-16\"\n          >\n            <h2 className=\"text-4xl font-bold text-gray-900 mb-6\">Contact & Press</h2>\n          </motion.div>\n\n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Press & Media",
-    "context": "            >\n              <Mail className=\"w-8 h-8 text-blue-600 mb-4 mx-auto\" />\n              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">Press & Media</h3>\n              <p className=\"text-gray-600\">\n                <a href=\"mailto:press@seasalt.ai\" className=\"text-blue-600 hover:text-blue-800\">\n                  press@seasalt.ai",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "press@seasalt.ai",
-    "context": "              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">Press & Media</h3>\n              <p className=\"text-gray-600\">\n                <a href=\"mailto:press@seasalt.ai\" className=\"text-blue-600 hover:text-blue-800\">\n                  press@seasalt.ai\n                </a>\n              </p>\n            </motion.div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "invest@seasalt.ai",
-    "context": "              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">Investors</h3>\n              <p className=\"text-gray-600\">\n                <a href=\"mailto:invest@seasalt.ai\" className=\"text-blue-600 hover:text-blue-800\">\n                  invest@seasalt.ai\n                </a>\n              </p>\n            </motion.div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "partnerships@seasalt.ai",
-    "context": "              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">Partnerships</h3>\n              <p className=\"text-gray-600\">\n                <a href=\"mailto:partnerships@seasalt.ai\" className=\"text-blue-600 hover:text-blue-800\">\n                  partnerships@seasalt.ai\n                </a>\n              </p>\n            </motion.div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "24/7 Hotline",
-    "context": "            <div className=\"bg-white rounded-xl p-8 shadow-lg inline-block\">\n              <Phone className=\"w-8 h-8 text-blue-600 mb-4 mx-auto\" />\n              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">24/7 Hotline</h3>\n              <p className=\"text-2xl font-bold text-blue-600\">+1-(SMB)-AI-AGENT</p>\n            </div>\n          </motion.div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "+1-(SMB)-AI-AGENT",
-    "context": "              <Phone className=\"w-8 h-8 text-blue-600 mb-4 mx-auto\" />\n              <h3 className=\"text-xl font-bold text-gray-900 mb-4\">24/7 Hotline</h3>\n              <p className=\"text-2xl font-bold text-blue-600\">+1-(SMB)-AI-AGENT</p>\n            </div>\n          </motion.div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Download the Product Logo & Press Kit",
-    "context": "            >\n              <Download className=\"w-5 h-5\" />\n              <span>Download the Product Logo & Press Kit</span>\n            </motion.a>\n            <p className=\"text-lg text-gray-600 italic\">\n              Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.",
-    "context": "              <span>Download the Product Logo & Press Kit</span>\n            </motion.a>\n            <p className=\"text-lg text-gray-600 italic\">\n              Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.\n            </p>\n          </motion.div>\n        </div>\n      </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Sign Up to Our Newsletter",
-    "context": "                <Send className=\"w-8 h-8 text-white\" />\n              </div>\n              <h2 className=\"text-4xl font-bold mb-4\">Sign Up to Our Newsletter</h2>\n              <p className=\"text-xl text-blue-100 mb-2\">\n                One per week, written by the CEO\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "One per week, written by the CEO",
-    "context": "              </div>\n              <h2 className=\"text-4xl font-bold mb-4\">Sign Up to Our Newsletter</h2>\n              <p className=\"text-xl text-blue-100 mb-2\">\n                One per week, written by the CEO\n              </p>\n              <p className=\"text-lg text-blue-200\">\n                Get insights on AI, business communications, and the future of work directly from our leadership team.\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
-    "context": "                One per week, written by the CEO\n              </p>\n              <p className=\"text-lg text-blue-200\">\n                Get insights on AI, business communications, and the future of work directly from our leadership team.\n              </p>\n            </div>\n            \n            <motion.form",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/pages/CompanyPage.tsx",
     "text": "Enter your email address",
     "context": "                  type=\"email\"\n                  name=\"email\"\n                  placeholder=\"Enter your email address\"\n                  required\n                  className=\"flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all\"\n                />",
@@ -727,322 +349,22 @@
     "attribute": "placeholder"
   },
   {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "No spam, unsubscribe at any time. We respect your privacy.",
-    "context": "              viewport={{ once: true }}\n              className=\"text-sm text-blue-200 mt-6\"\n            >\n              No spam, unsubscribe at any time. We respect your privacy.\n            </motion.p>\n          </motion.div>\n        </div>\n      </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Mission & Values",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">Our Mission & Values</h2>\n                <div cl"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Mission",
-    "context": " className=\"text-2xl font-bold text-blue-900 mb-4\">Our Mission</h3>\n                  <p className=\""
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Vision",
-    "context": " className=\"text-2xl font-bold text-blue-900 mb-4\">Our Vision</h3>\n                  <p className=\"t"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "🧭 Our Core Values",
-    "context": " className=\"text-3xl font-bold text-gray-900 mb-8\">🧭 Our Core Values</h3>\n              <div classN"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Leadership & Co-founders",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">Leadership & Co-founders</h2>\n          </motion."
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Google Scholar",
-    "context": "className=\"w-4 h-4\" />\n                      <span>Google Scholar</span>\n                    </a>\n  "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Office Locations",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">Office Locations</h2>\n          </motion.div>\n   "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "🌐 What We Build",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">🌐 What We Build</h2>\n            <h3 className=\""
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Product Portfolio",
-    "context": "ssName=\"text-2xl font-semibold text-gray-700 mb-8\">Product Portfolio</h3>\n          </motion.div>\n\n "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Download the Product Logo & Press Kit",
-    "context": "ownload className=\"w-5 h-5\" />\n              <span>Download the Product Logo & Press Kit</span>\n    "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Funding & Investors",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-8\">Funding & Investors</h2>\n              <div class"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Seed Funding",
-    "context": " <h3 className=\"text-2xl font-bold text-green-900\">Seed Funding</h3>\n                </div>\n        "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "$4.2 million USD raised in 2024",
-    "context": "p className=\"text-xl font-semibold text-green-800\">$4.2 million USD raised in 2024</p>\n             "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our investors include:",
-    "context": "assName=\"text-xl font-semibold text-gray-900 mb-4\">Our investors include:</h4>\n              <ul cla"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Strategic Partnerships",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-8\">Strategic Partnerships</h2>\n              <p clas"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Our Journey",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">Our Journey</h2>\n            <p className=\"text-x"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Careers at Seasalt.ai",
-    "context": "           <h2 className=\"text-4xl font-bold mb-6\">Careers at Seasalt.ai</h2>\n              <p class"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Global, diverse, and remote-friendly culture",
-    "context": "\"></div>\n                <span className=\"text-lg\">Global, diverse, and remote-friendly culture</spa"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Work with cutting-edge AI technology",
-    "context": "\"></div>\n                <span className=\"text-lg\">Work with cutting-edge AI technology</span>\n     "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Make real impact in business communications",
-    "context": "\"></div>\n                <span className=\"text-lg\">Make real impact in business communications</span"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Collaborate with industry veterans",
-    "context": "\"></div>\n                <span className=\"text-lg\">Collaborate with industry veterans</span>\n       "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Contact & Press",
-    "context": " className=\"text-4xl font-bold text-gray-900 mb-6\">Contact & Press</h2>\n          </motion.div>\n\n   "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Press & Media",
-    "context": "3 className=\"text-xl font-bold text-gray-900 mb-4\">Press & Media</h3>\n              <p className=\"te"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "24/7 Hotline",
-    "context": "3 className=\"text-xl font-bold text-gray-900 mb-4\">24/7 Hotline</h3>\n              <p className=\"tex"
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "+1-(SMB)-AI-AGENT",
-    "context": "   <p className=\"text-2xl font-bold text-blue-600\">+1-(SMB)-AI-AGENT</p>\n            </div>\n        "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Download the Product Logo & Press Kit",
-    "context": "ownload className=\"w-5 h-5\" />\n              <span>Download the Product Logo & Press Kit</span>\n    "
-  },
-  {
-    "file": "src/pages/CompanyPage.tsx",
-    "text": "Sign Up to Our Newsletter",
-    "context": "           <h2 className=\"text-4xl font-bold mb-4\">Sign Up to Our Newsletter</h2>\n              <p c"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Compare Seasalt.ai to Alternatives",
-    "context": "      {/* SEO Tags */}\n      <SEOHelmet\n        title=\"Compare Seasalt.ai to Alternatives\"\n        description=\"See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n        canonicalUrl={canonicalUrl}",
-    "type": "jsx-attribute",
-    "attribute": "title"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Back to Home",
-    "context": "            <div className=\"text-center mb-16\">\n              <Link to={`/${i18n.language}/`} className=\"inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8\">\n                <ArrowLeft className=\"h-5 w-5 mr-2\" />\n                Back to Home\n              </Link>\n              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                How Seasalt.ai Compares to{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "How Seasalt.ai Compares to",
-    "context": "                Back to Home\n              </Link>\n              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                How Seasalt.ai Compares to{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">\n                  Every Alternative\n                </span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Every Alternative",
-    "context": "              <h1 className=\"text-4xl lg:text-6xl font-bold text-gray-900 mb-6\">\n                How Seasalt.ai Compares to{' '}\n                <span className=\"bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent\">\n                  Every Alternative\n                </span>\n              </h1>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                See detailed comparisons with every major competitor. We're the only platform that delivers ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "See detailed comparisons with every major competitor. We're the only platform that delivers \n                enterprise features with small business simplicity and transparent pricing.",
-    "context": "                </span>\n              </h1>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                See detailed comparisons with every major competitor. We're the only platform that delivers \n                enterprise features with small business simplicity and transparent pricing.\n              </p>\n            </div>\n\n            {/* Quick Stats */}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Competitors Analyzed",
-    "context": "              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-blue-600 mb-2\">13</div>\n                <div className=\"text-sm text-gray-600\">Competitors Analyzed</div>\n              </div>\n              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-green-600 mb-2\">$25</div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Starting Price/Agent",
-    "context": "              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-green-600 mb-2\">$25</div>\n                <div className=\"text-sm text-gray-600\">Starting Price/Agent</div>\n              </div>\n              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-purple-600 mb-2\">9</div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Channels Included",
-    "context": "              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-purple-600 mb-2\">9</div>\n                <div className=\"text-sm text-gray-600\">Channels Included</div>\n              </div>\n              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-orange-600 mb-2\">1</div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Unified Platform",
-    "context": "              <div className=\"bg-white p-6 rounded-xl shadow-lg text-center\">\n                <div className=\"text-3xl font-bold text-orange-600 mb-2\">1</div>\n                <div className=\"text-sm text-gray-600\">Unified Platform</div>\n              </div>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Choose Your Comparison",
-    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                Choose Your Comparison\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai",
-    "context": "                Choose Your Comparison\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai\n              </p>\n            </div>\n\n            <div className=\"grid md:grid-cols-2 lg:grid-cols-3 gap-6\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Why We Compare Ourselves to Everyone",
-    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-4\">\n                Why We Compare Ourselves to Everyone\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                We believe in transparency. See exactly how we stack up against every alternative in the market.\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "We believe in transparency. See exactly how we stack up against every alternative in the market.",
-    "context": "                Why We Compare Ourselves to Everyone\n              </h2>\n              <p className=\"text-xl text-gray-600 max-w-3xl mx-auto\">\n                We believe in transparency. See exactly how we stack up against every alternative in the market.\n              </p>\n            </div>\n\n            <div className=\"grid md:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/pages/CompareUsOverview.tsx",
     "text": "🔍",
-    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-blue-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">🔍</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Complete Transparency",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Complete Transparency",
-    "context": "                  <div className=\"text-2xl\">🔍</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Complete Transparency\n                </h3>\n                <p className=\"text-gray-600\">\n                  We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff.\n                </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff.",
-    "context": "                  Complete Transparency\n                </h3>\n                <p className=\"text-gray-600\">\n                  We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff.\n                </p>\n              </div>\n\n              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">",
+    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-blue-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">🔍</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  {t('compareUsOverview.benefits.transparency.title')}",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/CompareUsOverview.tsx",
     "text": "💡",
-    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-green-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">💡</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Informed Decisions",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Informed Decisions",
-    "context": "                  <div className=\"text-2xl\">💡</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Informed Decisions\n                </h3>\n                <p className=\"text-gray-600\">\n                  Make the right choice for your business with detailed, honest comparisons of every option.\n                </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Make the right choice for your business with detailed, honest comparisons of every option.",
-    "context": "                  Informed Decisions\n                </h3>\n                <p className=\"text-gray-600\">\n                  Make the right choice for your business with detailed, honest comparisons of every option.\n                </p>\n              </div>\n\n              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">",
+    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-green-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">💡</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  {t('compareUsOverview.benefits.decisions.title')}",
     "type": "jsx-text"
   },
   {
     "file": "src/pages/CompareUsOverview.tsx",
     "text": "🎯",
-    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-purple-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">🎯</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Find Your Fit",
+    "context": "              <div className=\"bg-white p-8 rounded-2xl shadow-lg text-center\">\n                <div className=\"bg-purple-100 p-4 rounded-2xl w-fit mx-auto mb-6\">\n                  <div className=\"text-2xl\">🎯</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  {t('compareUsOverview.benefits.fit.title')}",
     "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Find Your Fit",
-    "context": "                  <div className=\"text-2xl\">🎯</div>\n                </div>\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">\n                  Find Your Fit\n                </h3>\n                <p className=\"text-gray-600\">\n                  Every business is different. See which solution truly matches your needs and budget.\n                </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Every business is different. See which solution truly matches your needs and budget.",
-    "context": "                  Find Your Fit\n                </h3>\n                <p className=\"text-gray-600\">\n                  Every business is different. See which solution truly matches your needs and budget.\n                </p>\n              </div>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Ready to See Why We're Different?",
-    "context": "        <section className=\"py-20 bg-gradient-to-r from-blue-600 to-indigo-600\">\n          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n            <h2 className=\"text-3xl lg:text-4xl font-bold text-white mb-6\">\n              Ready to See Why We're Different?\n            </h2>\n            <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n              After comparing all the alternatives, we think you'll agree: Seasalt.ai is the \n              smart choice for growing businesses.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "After comparing all the alternatives, we think you'll agree: Seasalt.ai is the \n              smart choice for growing businesses.",
-    "context": "              Ready to See Why We're Different?\n            </h2>\n            <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n              After comparing all the alternatives, we think you'll agree: Seasalt.ai is the \n              smart choice for growing businesses.\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                 href=\"https://seax.seasalt.ai/signup\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Sign Up",
-    "context": "                 href=\"https://seax.seasalt.ai/signup\"\n                 className=\"bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n               >\n                 Sign Up\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n              >",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Book A Demo",
-    "context": "              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200\"\n              >\n                Book A Demo\n              </a>\n            </div>\n          </div>\n        </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Competitors Analyzed",
-    "context": "            <div className=\"text-sm text-gray-600\">Competitors Analyzed</div>\n              </div>\n "
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Starting Price/Agent",
-    "context": "            <div className=\"text-sm text-gray-600\">Starting Price/Agent</div>\n              </div>\n "
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Channels Included",
-    "context": "            <div className=\"text-sm text-gray-600\">Channels Included</div>\n              </div>\n    "
-  },
-  {
-    "file": "src/pages/CompareUsOverview.tsx",
-    "text": "Unified Platform",
-    "context": "            <div className=\"text-sm text-gray-600\">Unified Platform</div>\n              </div>\n     "
   },
   {
     "file": "src/pages/SeaHealth.tsx",
@@ -1054,288 +376,114 @@
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Missed Call",
-    "context": "            <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-100\">\n              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleDown className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Missed Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">Missed Inbound Calls from Patients</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">",
+    "context": "            <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-100\">\n              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleDown className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Missed Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">{t('solutions.seahealth.frontOfficeChallenges.missedCalls.title')}</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Missed Inbound Calls from Patients",
-    "context": "              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleDown className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Missed Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">Missed Inbound Calls from Patients</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follow-ups.</li>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Eliminate after-hour voicemails with active follow-ups.",
-    "context": "              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follow-ups.</li>\n                <li className=\"flex items-center\"><FaRegCalendarCheck className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />Simplify appointment scheduling and rescheduling.</li>\n                <li className=\"flex items-center\"><FaRegLifeRing className=\"w-16 h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>\n              </ul>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Simplify appointment scheduling and rescheduling.",
-    "context": "              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follow-ups.</li>\n                <li className=\"flex items-center\"><FaRegCalendarCheck className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />Simplify appointment scheduling and rescheduling.</li>\n                <li className=\"flex items-center\"><FaRegLifeRing className=\"w-16 h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>\n              </ul>\n            </div>",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Life Ring",
-    "context": "                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follow-ups.</li>\n                <li className=\"flex items-center\"><FaRegCalendarCheck className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />Simplify appointment scheduling and rescheduling.</li>\n                <li className=\"flex items-center\"><FaRegLifeRing className=\"w-16 h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>\n              </ul>\n            </div>\n            {/* Outbound Calls Nobody Wants to Make */}",
+    "context": "                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.voicemails')}</li>\n                <li className=\"flex items-center\"><FaRegCalendarCheck className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.scheduling')}</li>\n                <li className=\"flex items-center\"><FaRegLifeRing className=\"w-16 h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />{t('solutions.seahealth.frontOfficeChallenges.missedCalls.retention')}</li>\n              </ul>\n            </div>\n            {/* Outbound Calls Nobody Wants to Make */}",
     "type": "jsx-attribute",
     "attribute": "aria-label"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.",
-    "context": "                <li className=\"flex items-center\"><FaRegBell className=\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follow-ups.</li>\n                <li className=\"flex items-center\"><FaRegCalendarCheck className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />Simplify appointment scheduling and rescheduling.</li>\n                <li className=\"flex items-center\"><FaRegLifeRing className=\"w-16 h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.</li>\n              </ul>\n            </div>\n            {/* Outbound Calls Nobody Wants to Make */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Outbound Call",
-    "context": "            <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-200\">\n              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleUp className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Outbound Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">Outbound Calls Nobody Wants to Make</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">",
+    "context": "            <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 flex flex-col items-center animate-fade-in-up delay-200\">\n              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleUp className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Outbound Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">{t('solutions.seahealth.frontOfficeChallenges.outboundCalls.title')}</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Outbound Calls Nobody Wants to Make",
-    "context": "              <div className=\"mb-2 flex items-center justify-center\">\n                <FaRegArrowAltCircleUp className=\"w-16 h-16 text-blue-500 mr-4\" aria-label=\"Outbound Call\" />\n                <h3 className=\"text-xl font-bold text-blue-900 text-center\">Outbound Calls Nobody Wants to Make</h3>\n              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegListAlt className=\"w-10 h-10 mr-3 text-blue-400\" aria-label=\"List\" />Ensure thoroughness in procedure follow-up calls.</li>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Ensure thoroughness in procedure follow-up calls.",
-    "context": "              </div>\n              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegListAlt className=\"w-10 h-10 mr-3 text-blue-400\" aria-label=\"List\" />Ensure thoroughness in procedure follow-up calls.</li>\n                <li className=\"flex items-center\"><FaRegHandshake className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Handshake\" />Simplify lengthy conversations with insurance companies.</li>\n                <li className=\"flex items-center\"><FaRegStar className=\"w-16 h-16 mr-4 text-yellow-500\" aria-label=\"Star\" />Reactivate lapsed patients with effective promotions to fill empty slots.</li>\n              </ul>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Simplify lengthy conversations with insurance companies.",
-    "context": "              <ul className=\"space-y-2 text-blue-800 text-base\">\n                <li className=\"flex items-center\"><FaRegListAlt className=\"w-10 h-10 mr-3 text-blue-400\" aria-label=\"List\" />Ensure thoroughness in procedure follow-up calls.</li>\n                <li className=\"flex items-center\"><FaRegHandshake className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Handshake\" />Simplify lengthy conversations with insurance companies.</li>\n                <li className=\"flex items-center\"><FaRegStar className=\"w-16 h-16 mr-4 text-yellow-500\" aria-label=\"Star\" />Reactivate lapsed patients with effective promotions to fill empty slots.</li>\n              </ul>\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Reactivate lapsed patients with effective promotions to fill empty slots.",
-    "context": "                <li className=\"flex items-center\"><FaRegListAlt className=\"w-10 h-10 mr-3 text-blue-400\" aria-label=\"List\" />Ensure thoroughness in procedure follow-up calls.</li>\n                <li className=\"flex items-center\"><FaRegHandshake className=\"w-10 h-10 mr-3 text-green-500\" aria-label=\"Handshake\" />Simplify lengthy conversations with insurance companies.</li>\n                <li className=\"flex items-center\"><FaRegStar className=\"w-16 h-16 mr-4 text-yellow-500\" aria-label=\"Star\" />Reactivate lapsed patients with effective promotions to fill empty slots.</li>\n              </ul>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Solutions for Every Healthcare Setting",
-    "context": "      <section className=\"py-16 bg-blue-50\">\n        <div className=\"max-w-6xl mx-auto px-4\">\n          <h2 className=\"text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-10 animate-gradient-x text-center\">Solutions for Every Healthcare Setting</h2>\n          <div className=\"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8\">\n            {/* Hospitals & Clinics */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Hospitals & Clinics Icon",
-    "context": "            {/* Hospitals & Clinics */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospital.svg\" alt=\"Hospitals & Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Hospitals & Clinics</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Hospitals & Clinics */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospital.svg\" alt=\"Hospitals & Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.hospitals')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Hospitals & Clinics",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospital.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospital.svg\" alt=\"Hospitals & Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Hospitals & Clinics</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Dental Clinics */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Dental Clinics Icon",
-    "context": "            {/* Dental Clinics */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/dental.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/dental.svg\" alt=\"Dental Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Dental Clinics</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Dental Clinics */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/dental.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/dental.svg\" alt=\"Dental Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.dental')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Dental Clinics",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/dental.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/dental.svg\" alt=\"Dental Clinics Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Dental Clinics</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Hospice Homes */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Hospice Homes Icon",
-    "context": "            {/* Hospice Homes */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospice.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospice.svg\" alt=\"Hospice Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Hospice Homes</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Hospice Homes */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospice.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospice.svg\" alt=\"Hospice Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.hospice')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Hospice Homes",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/hospice.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/hospice.svg\" alt=\"Hospice Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Hospice Homes</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Emergency Care */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Emergency Care Icon",
-    "context": "            {/* Emergency Care */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/emergency.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/emergency.svg\" alt=\"Emergency Care Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Emergency Care</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Emergency Care */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/emergency.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/emergency.svg\" alt=\"Emergency Care Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.emergency')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Emergency Care",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/emergency.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/emergency.svg\" alt=\"Emergency Care Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Emergency Care</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Adult Family Homes */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Adult Family Homes Icon",
-    "context": "            {/* Adult Family Homes */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/adult.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/adult.svg\" alt=\"Adult Family Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Adult Family Homes</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Adult Family Homes */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/adult.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/adult.svg\" alt=\"Adult Family Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.adult')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Adult Family Homes",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/adult.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/adult.svg\" alt=\"Adult Family Homes Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Adult Family Homes</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Veterinary Hospitals */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Veterinary Hospitals Icon",
-    "context": "            {/* Veterinary Hospitals */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/vet.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/vet.svg\" alt=\"Veterinary Hospitals Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Veterinary Hospitals</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Veterinary Hospitals */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/vet.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/vet.svg\" alt=\"Veterinary Hospitals Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.veterinary')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Veterinary Hospitals",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/vet.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/vet.svg\" alt=\"Veterinary Hospitals Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Veterinary Hospitals</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n            {/* Cosmetic Surgery */}",
-    "type": "jsx-text"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Cosmetic Surgery Icon",
-    "context": "            {/* Cosmetic Surgery */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/cosmetic.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/cosmetic.svg\" alt=\"Cosmetic Surgery Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Cosmetic Surgery</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
+    "context": "            {/* Cosmetic Surgery */}\n            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/cosmetic.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/cosmetic.svg\" alt=\"Cosmetic Surgery Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">{t('solutions.seahealth.solutions.cosmetic')}</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
-    "text": "Cosmetic Surgery",
-    "context": "            <div className=\"relative flex flex-col items-center justify-center rounded-2xl shadow-lg overflow-hidden min-h-[180px] h-56 p-6\" style={{backgroundImage: 'url(/health-images/settings/cosmetic.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>\n              <img src=\"/health-images/settings/cosmetic.svg\" alt=\"Cosmetic Surgery Icon\" className=\"w-16 h-16 mb-2 z-10\" />\n              <h3 className=\"text-lg font-semibold text-white text-center z-10 drop-shadow-lg\">Cosmetic Surgery</h3>\n              <div className=\"absolute inset-0 bg-black/30 z-0\" aria-hidden=\"true\"></div>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.",
-    "context": "            <div className=\"flex flex-col items-center justify-center bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-8 w-full md:w-1/2 animate-fade-in-up\">\n              <img src=\"/logo-seahealth.svg\" alt=\"SeaHealth Logo\" className=\"w-40 h-40 mb-4\" />\n              <h3 className=\"text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x\">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>\n              <p className=\"text-blue-900 mb-2 text-center text-xl\">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>\n            </div>\n            <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.",
-    "context": "              <img src=\"/logo-seahealth.svg\" alt=\"SeaHealth Logo\" className=\"w-40 h-40 mb-4\" />\n              <h3 className=\"text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-2 text-center animate-gradient-x\">The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.</h3>\n              <p className=\"text-blue-900 mb-2 text-center text-xl\">Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.</p>\n            </div>\n            <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2\">\n              <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-100\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "For Healthcare Providers",
-    "context": "            <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-1/2\">\n              <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-100\">\n                <h3 className=\"text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x\">For Healthcare Providers</h3>\n                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegListAlt className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"Reduce administrative burden\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
     "text": "Reduce administrative burden",
-    "context": "                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegListAlt className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"Reduce administrative burden\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Reduce administrative burden</span>\n                  </li>\n                  <li className=\"flex items-center\">",
-    "type": "jsx-attribute",
-    "attribute": "aria-label"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Reduce administrative burden",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaRegListAlt className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"Reduce administrative burden\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Reduce administrative burden</span>\n                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegSmile className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Improve patient satisfaction\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Improve patient satisfaction",
-    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegSmile className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Improve patient satisfaction\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Improve patient satisfaction</span>\n                  </li>\n                  <li className=\"flex items-center\">",
+    "context": "                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegListAlt className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"Reduce administrative burden\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forProviders.benefit1')}</span>\n                  </li>\n                  <li className=\"flex items-center\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Improve patient satisfaction",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaRegSmile className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Improve patient satisfaction\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Improve patient satisfaction</span>\n                  </li>\n                  <li className=\"flex items-center\">\n                    <FaChartBar className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Increase operational efficiency\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Increase operational efficiency",
-    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaChartBar className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Increase operational efficiency\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Increase operational efficiency</span>\n                  </li>\n                </ul>",
+    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegSmile className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Improve patient satisfaction\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forProviders.benefit2')}</span>\n                  </li>\n                  <li className=\"flex items-center\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Increase operational efficiency",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaChartBar className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Increase operational efficiency\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Increase operational efficiency</span>\n                  </li>\n                </ul>\n              </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "For Patients",
-    "context": "              </div>\n              <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-200\">\n                <h3 className=\"text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-4 animate-gradient-x\">For Patients</h3>\n                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegClock className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"24/7 access to support\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "24/7 access to support",
-    "context": "                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegClock className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"24/7 access to support\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">24/7 access to support</span>\n                  </li>\n                  <li className=\"flex items-center\">",
+    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaChartBar className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Increase operational efficiency\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forProviders.benefit3')}</span>\n                  </li>\n                </ul>",
     "type": "jsx-attribute",
     "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "24/7 access to support",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaRegClock className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"24/7 access to support\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">24/7 access to support</span>\n                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegCalendarPlus className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Quick appointment scheduling\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Quick appointment scheduling",
-    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegCalendarPlus className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Quick appointment scheduling\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Quick appointment scheduling</span>\n                  </li>\n                  <li className=\"flex items-center\">",
+    "context": "                <ul className=\"space-y-4\">\n                  <li className=\"flex items-center\">\n                    <FaRegClock className=\"w-8 h-8 mr-3 text-blue-500\" aria-label=\"24/7 access to support\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forPatients.benefit1')}</span>\n                  </li>\n                  <li className=\"flex items-center\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Quick appointment scheduling",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaRegCalendarPlus className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Quick appointment scheduling\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Quick appointment scheduling</span>\n                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegComments className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Seamless communication\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Seamless communication",
-    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegComments className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Seamless communication\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Seamless communication</span>\n                  </li>\n                </ul>",
+    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegCalendarPlus className=\"w-8 h-8 mr-3 text-green-500\" aria-label=\"Quick appointment scheduling\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forPatients.benefit2')}</span>\n                  </li>\n                  <li className=\"flex items-center\">",
     "type": "jsx-attribute",
     "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
     "text": "Seamless communication",
-    "context": "                  <li className=\"flex items-center\">\n                    <FaRegComments className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Seamless communication\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">Seamless communication</span>\n                  </li>\n                </ul>\n              </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Why Choose SeaHealth?",
-    "context": "      <section className=\"py-16 bg-blue-50\">\n        <div className=\"max-w-5xl mx-auto px-4\">\n          <h2 className=\"text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center\">Why Choose SeaHealth?</h2>\n          <div className=\"grid md:grid-cols-3 gap-8\">\n            {[\n              { title: 'HIPAA Compliance', desc: 'We prioritize patient data privacy and security.', img: 'image-why-1.png' },",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Frequently Asked Questions",
-    "context": "      <section className=\"py-16 bg-white\">\n        <div className=\"max-w-3xl mx-auto px-4\">\n          <h2 className=\"text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center\">Frequently Asked Questions</h2>\n          <div className=\"space-y-8\">\n            {[\n              {",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Partners & Integrations",
-    "context": "      <section className=\"py-16 bg-blue-50\">\n        <div className=\"max-w-4xl mx-auto px-4\">\n          <h2 className=\"text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-8 animate-gradient-x text-center\">Partners & Integrations</h2>\n          <div className=\"flex flex-wrap justify-center items-center gap-8\">\n            <div className=\"flex flex-row flex-wrap justify-center items-center gap-8 w-full mb-8\">\n              <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-4 animate-fade-in-up\">",
-    "type": "jsx-text"
+    "context": "                  </li>\n                  <li className=\"flex items-center\">\n                    <FaRegComments className=\"w-8 h-8 mr-3 text-blue-400\" aria-label=\"Seamless communication\" />\n                    <span className=\"text-blue-900 text-lg font-bold\">{t('solutions.seahealth.forPatients.benefit3')}</span>\n                  </li>\n                </ul>",
+    "type": "jsx-attribute",
+    "attribute": "aria-label"
   },
   {
     "file": "src/pages/SeaHealth.tsx",
@@ -1350,226 +498,6 @@
     "context": "            <div className=\"flex justify-center items-center w-full\">\n              <div className=\"bg-gradient-to-br from-white via-blue-100 to-cyan-100 border-2 border-blue-300 rounded-2xl shadow-xl p-6 animate-fade-in-up delay-300\">\n                <img src=\"/health-images/main/image-partners-gold.png\" alt=\"Twilio Gold Partner\" className=\"h-24 md:h-32\" />\n              </div>\n            </div>\n          </div>",
     "type": "jsx-attribute",
     "attribute": "alt"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Ready to transform patient interactions?",
-    "context": "      {/* Final CTA */}\n      <section className=\"py-16 bg-white text-center\">\n        <h2 className=\"text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x\">Ready to transform patient interactions?</h2>\n        <a href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in\">Book a Demo Today!</a>\n      </section>\n    </main>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Book a Demo Today!",
-    "context": "      <section className=\"py-16 bg-white text-center\">\n        <h2 className=\"text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 mb-6 animate-gradient-x\">Ready to transform patient interactions?</h2>\n        <a href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"inline-block bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-green-400 text-white px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl transition-all duration-200 mb-4 animate-fade-in\">Book a Demo Today!</a>\n      </section>\n    </main>\n    <Footer />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Missed Inbound Calls from Patients",
-    "context": "Name=\"text-xl font-bold text-blue-900 text-center\">Missed Inbound Calls from Patients</h3>\n         "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Eliminate after-hour voicemails with active follow-ups.",
-    "context": "\"w-10 h-10 mr-3 text-cyan-500\" aria-label=\"Bell\" />Eliminate after-hour voicemails with active follo"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Simplify appointment scheduling and rescheduling.",
-    "context": " h-10 mr-3 text-green-500\" aria-label=\"Calendar\" />Simplify appointment scheduling and rescheduling."
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors.",
-    "context": " h-16 mr-4 text-blue-400\" aria-label=\"Life Ring\" />Retain patients by ensuring your phones are answe"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Outbound Calls Nobody Wants to Make",
-    "context": "Name=\"text-xl font-bold text-blue-900 text-center\">Outbound Calls Nobody Wants to Make</h3>\n        "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Ensure thoroughness in procedure follow-up calls.",
-    "context": "\"w-10 h-10 mr-3 text-blue-400\" aria-label=\"List\" />Ensure thoroughness in procedure follow-up calls."
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Simplify lengthy conversations with insurance companies.",
-    "context": "h-10 mr-3 text-green-500\" aria-label=\"Handshake\" />Simplify lengthy conversations with insurance com"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Reactivate lapsed patients with effective promotions to fill empty slots.",
-    "context": "-16 h-16 mr-4 text-yellow-500\" aria-label=\"Star\" />Reactivate lapsed patients with effective promoti"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Solutions for Every Healthcare Setting",
-    "context": "to-green-400 mb-10 animate-gradient-x text-center\">Solutions for Every Healthcare Setting</h2>\n     "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Hospitals & Clinics",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Hospitals & Clinics</h3>\n              <div class"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Dental Clinics",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Dental Clinics</h3>\n              <div className="
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Hospice Homes",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Hospice Homes</h3>\n              <div className=\""
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Emergency Care",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Emergency Care</h3>\n              <div className="
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Adult Family Homes",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Adult Family Homes</h3>\n              <div classN"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Veterinary Hospitals",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Veterinary Hospitals</h3>\n              <div clas"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Cosmetic Surgery",
-    "context": "mibold text-white text-center z-10 drop-shadow-lg\">Cosmetic Surgery</h3>\n              <div classNam"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.",
-    "context": " to-green-400 mb-2 text-center animate-gradient-x\">The SeaHealth Front Office Solution – Fills Your "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care.",
-    "context": "className=\"text-blue-900 mb-2 text-center text-xl\">Our AI-powered solution streamlines your front of"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "For Healthcare Providers",
-    "context": "via-cyan-400 to-green-400 mb-4 animate-gradient-x\">For Healthcare Providers</h3>\n                <ul"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Reduce administrative burden",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">Reduce administrative burden</span>\n             "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Improve patient satisfaction",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">Improve patient satisfaction</span>\n             "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Increase operational efficiency",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">Increase operational efficiency</span>\n          "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "For Patients",
-    "context": "via-cyan-400 to-green-400 mb-4 animate-gradient-x\">For Patients</h3>\n                <ul className=\""
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "24/7 access to support",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">24/7 access to support</span>\n                  <"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Quick appointment scheduling",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">Quick appointment scheduling</span>\n             "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Seamless communication",
-    "context": " <span className=\"text-blue-900 text-lg font-bold\">Seamless communication</span>\n                  <"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Why Choose SeaHealth?",
-    "context": " to-green-400 mb-8 animate-gradient-x text-center\">Why Choose SeaHealth?</h2>\n          <div classNa"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Frequently Asked Questions",
-    "context": " to-green-400 mb-8 animate-gradient-x text-center\">Frequently Asked Questions</h2>\n          <div cl"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Partners & Integrations",
-    "context": " to-green-400 mb-8 animate-gradient-x text-center\">Partners & Integrations</h2>\n          <div class"
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Ready to transform patient interactions?",
-    "context": "via-cyan-400 to-green-400 mb-6 animate-gradient-x\">Ready to transform patient interactions?</h2>\n   "
-  },
-  {
-    "file": "src/pages/SeaHealth.tsx",
-    "text": "Book a Demo Today!",
-    "context": " transition-all duration-200 mb-4 animate-fade-in\">Book a Demo Today!</a>\n      </section>\n    </mai"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Careers at Seasalt.ai",
-    "context": "    <div className=\"min-h-screen bg-gray-900 text-white\">\n      <SEOHelmet \n        title=\"Careers at Seasalt.ai\"\n        description=\"Explore career opportunities at Seasalt.ai. Join our mission to transform the world of business communication with AI.\"\n        favicon=\"/seasalt-ai-favicon.ico\"\n      />",
-    "type": "jsx-attribute",
-    "attribute": "title"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Careers at Seasalt.ai",
-    "context": "            transition={{ duration: 0.8 }}\n            className=\"text-5xl font-bold mb-6\"\n          >\n            Careers at Seasalt.ai\n          </motion.h1>\n          <motion.p \n            initial={{ opacity: 0, y: 50 }}\n            animate={{ opacity: 1, y: 0 }}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Join our mission to transform the world of business communication with AI. \n            We hire the world's best and brightest people to help make this transformation a reality.",
-    "context": "            transition={{ duration: 0.8, delay: 0.2 }}\n            className=\"text-xl text-gray-300 max-w-3xl mx-auto\"\n          >\n            Join our mission to transform the world of business communication with AI. \n            We hire the world's best and brightest people to help make this transformation a reality.\n          </motion.p>\n        </div>\n      </section>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's Mission",
-    "context": "              viewport={{ once: true }}\n            >\n              <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Mission</h2>\n              <p className=\"text-gray-300 text-lg leading-relaxed\">\n                Seasalt.ai's mission is to transform the world of businesses with AI. We \n                hire the world's best and brightest people to help make this ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's mission is to transform the world of businesses with AI. We \n                hire the world's best and brightest people to help make this \n                transformation a reality.",
-    "context": "            >\n              <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Mission</h2>\n              <p className=\"text-gray-300 text-lg leading-relaxed\">\n                Seasalt.ai's mission is to transform the world of businesses with AI. We \n                hire the world's best and brightest people to help make this \n                transformation a reality.\n              </p>\n            </motion.div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's Vision",
-    "context": "              className=\"order-2 lg:order-1\"\n            >\n              <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Vision</h2>\n              <p className=\"text-gray-300 text-lg leading-relaxed\">\n                Seasalt.ai's vision is to create a world where humans coexist with AI. We \n                solve B2B with B2C in mind.",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's vision is to create a world where humans coexist with AI. We \n                solve B2B with B2C in mind.",
-    "context": "            >\n              <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Vision</h2>\n              <p className=\"text-gray-300 text-lg leading-relaxed\">\n                Seasalt.ai's vision is to create a world where humans coexist with AI. We \n                solve B2B with B2C in mind.\n              </p>\n            </motion.div>\n            <motion.div\n              initial={{ opacity: 0, x: 50 }}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's Mission",
-    "context": "           <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Mission</h2>\n              <p classN"
-  },
-  {
-    "file": "src/pages/careers.tsx",
-    "text": "Seasalt.ai's Vision",
-    "context": "           <h2 className=\"text-3xl font-bold mb-6\">Seasalt.ai's Vision</h2>\n              <p classNa"
   },
   {
     "file": "src/pages/channels/ContactForms.tsx",
@@ -1830,13 +758,13 @@
   {
     "file": "src/seachat/components/Footer.tsx",
     "text": "Sign Up Free",
-    "context": "              href=\"https://chat.seasalt.ai/gpt/signup\"\n              className=\"bg-white text-teal-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Sign Up Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
+    "context": "              href=\"https://chat.seasalt.ai/gpt/signup\"\n              className=\"bg-white text-teal-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Sign Up Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seachat/components/Footer.tsx",
     "text": "Schedule Demo",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Schedule Demo\n            </a>\n          </div>\n          <p className=\"text-sm text-white opacity-75 mt-4\">\n            No credit card required • Setup in 2 minutes • Cancel anytime",
+    "context": "              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Schedule Demo\n            </a>\n          </div>\n          <p className=\"text-sm text-white opacity-75 mt-4\">\n            No credit card required • Setup in 2 minutes • Cancel anytime",
     "type": "jsx-text"
   },
   {
@@ -1887,29 +815,6 @@
     "file": "src/seachat/components/Header.tsx",
     "text": "View All Solutions →",
     "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    <"
-  },
-  {
-    "file": "src/seachat/components/Hero.tsx",
-    "text": "Start Free with Live Agents",
-    "context": "            <div className=\"inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20\">\n              <div className=\"w-2 h-2 bg-teal-400 rounded-full\"></div>\n              <span className=\"text-sm font-medium text-white\">\n                Start Free with Live Agents\n              </span>\n            </div>\n\n            {/* Main headline matching SeaX style */}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Hero.tsx",
-    "text": "Respond To",
-    "context": "                }}\n              >\n                <span className=\"block\" style={{ fontSize: 'inherit !important' }}>Respond To</span>\n                <span className=\"block\" style={{ fontSize: 'inherit !important' }}>\n                  <span className=\"text-teal-300\" style={{ fontSize: 'inherit !important' }}>Millions</span> 24/7\n                </span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Hero.tsx",
-    "text": "24/7",
-    "context": "                <span className=\"block\" style={{ fontSize: 'inherit !important' }}>Respond To</span>\n                <span className=\"block\" style={{ fontSize: 'inherit !important' }}>\n                  <span className=\"text-teal-300\" style={{ fontSize: 'inherit !important' }}>Millions</span> 24/7\n                </span>\n              </h1>\n            </div>\n            ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Hero.tsx",
-    "text": "Respond To",
-    "context": "\"block\" style={{ fontSize: 'inherit !important' }}>Respond To</span>\n                <span className"
   },
   {
     "file": "src/seachat/components/KeyFeatures.tsx",
@@ -2002,7 +907,7 @@
   {
     "file": "src/seachat/components/UseCases.tsx",
     "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-colors text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                target=\"_blank\"",
+    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-colors text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2542,7 +1447,7 @@
   {
     "file": "src/seachat/pages/PricingPage.tsx",
     "text": "We offer custom enterprise solutions including on-premise deployment, \n            advanced security features, and dedicated support teams.",
-    "context": "            </h2>\n          </div>\n          <p className=\"text-xl text-purple-100 mb-8 max-w-3xl mx-auto\">\n            We offer custom enterprise solutions including on-premise deployment, \n            advanced security features, and dedicated support teams.\n          </p>\n          <div className=\"flex justify-center\">\n            <a \n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\" ",
+    "context": "            </h2>\n          </div>\n          <p className=\"text-xl text-purple-100 mb-8 max-w-3xl mx-auto\">\n            We offer custom enterprise solutions including on-premise deployment, \n            advanced security features, and dedicated support teams.\n          </p>\n          <div className=\"flex justify-center\">\n            <a \n              href={getMeetingUrl(i18n.language)} ",
     "type": "jsx-text"
   },
   {
@@ -2804,7 +1709,7 @@
   {
     "file": "src/seachat/pages/features/AIAutomationPage.tsx",
     "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              target=\"_blank\"",
+    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2822,7 +1727,7 @@
   {
     "file": "src/seachat/pages/features/AdvancedAIPage.tsx",
     "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              target=\"_blank\"",
+    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2834,7 +1739,7 @@
   {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                target=\"_blank\"",
+    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2858,7 +1763,7 @@
   {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              target=\"_blank\"",
+    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2870,7 +1775,7 @@
   {
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                target=\"_blank\"",
+    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2900,7 +1805,7 @@
   {
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              target=\"_blank\"",
+    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2927,7 +1832,7 @@
   {
     "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
     "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n                target=\"_blank\"",
+    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -2939,7 +1844,7 @@
   {
     "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
     "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              target=\"_blank\"",
+    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -3083,13 +1988,13 @@
   {
     "file": "src/seavoice/components/Footer.tsx",
     "text": "Get Started Free",
-    "context": "              href=\"https://chat.seasalt.ai/gpt/signup\"\n              className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Get Started Free\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
+    "context": "              href=\"https://chat.seasalt.ai/gpt/signup\"\n              className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Get Started Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/components/Footer.tsx",
     "text": "Book a Demo",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Book a Demo\n            </a>\n          </div>\n        </div>\n      </div>",
+    "context": "              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Book a Demo\n            </a>\n          </div>\n        </div>\n      </div>",
     "type": "jsx-text"
   },
   {
@@ -3336,7 +2241,7 @@
   {
     "file": "src/seavoice/components/PriceCalculator.tsx",
     "text": "Get Started with",
-    "context": "                    planType === 'inbound' ? 'bg-teal-600 hover:bg-teal-700' : 'bg-blue-600 hover:bg-blue-700'\n                  }`}\n                >\n                  Get Started with {planType === 'inbound' ? 'Inbound Only' : 'Inbound + Outbound'}\n                </a>\n                <a\n                  href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"",
+    "context": "                    planType === 'inbound' ? 'bg-teal-600 hover:bg-teal-700' : 'bg-blue-600 hover:bg-blue-700'\n                  }`}\n                >\n                  Get Started with {planType === 'inbound' ? 'Inbound Only' : 'Inbound + Outbound'}\n                </a>\n                <a\n                  href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {
@@ -4167,7 +3072,7 @@
   {
     "file": "src/seavoice/pages/HomePage.tsx",
     "text": "Get a personalized demo and discover how SeaVoice can transform your customer communications",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to see it in action?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Get a personalized demo and discover how SeaVoice can transform your customer communications\n            </p>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"\n              target=\"_blank\"",
+    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to see it in action?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Get a personalized demo and discover how SeaVoice can transform your customer communications\n            </p>\n            <a\n              href={getMeetingUrl(i18n.language)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -4378,7 +3283,7 @@
   {
     "file": "src/seavoice/pages/PricingPage.tsx",
     "text": "Sign Up For Free",
-    "context": "                  whileTap={{ scale: 0.95 }}\n                  className=\"bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors\"\n                >\n                  Sign Up For Free\n                </motion.button>\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"",
+    "context": "                  whileTap={{ scale: 0.95 }}\n                  className=\"bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors\"\n                >\n                  Sign Up For Free\n                </motion.button>\n              </a>\n              <a\n                href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {
@@ -4707,13 +3612,13 @@
   {
     "file": "src/seavoice/pages/UnifiedHomePage.tsx",
     "text": "Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.",
-    "context": "            <div className=\"bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white\">\n              <h3 className=\"text-2xl font-bold mb-4\">Ready to Experience the SeaVoice AI Advantage?</h3>\n              <p className=\"text-purple-100 mb-6 max-w-2xl mx-auto\">\n                Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.\n              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors\">\n                  Book a Demo",
+    "context": "            <div className=\"bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white\">\n              <h3 className=\"text-2xl font-bold mb-4\">Ready to Experience the SeaVoice AI Advantage?</h3>\n              <p className=\"text-purple-100 mb-6 max-w-2xl mx-auto\">\n                Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.\n              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href={getMeetingUrl(i18n.language)} target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors\">\n                  Book a Demo",
     "type": "jsx-text"
   },
   {
     "file": "src/seavoice/pages/UnifiedHomePage.tsx",
     "text": "Book a Demo",
-    "context": "              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors\">\n                  Book a Demo\n                </a>\n                <a href=\"https://chat.seasalt.ai/signup\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-purple-500 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-400 transition-colors\">\n                  Sign Up Now\n                </a>",
+    "context": "              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href={getMeetingUrl(i18n.language)} target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors\">\n                  Book a Demo\n                </a>\n                <a href=\"https://chat.seasalt.ai/signup\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"bg-purple-500 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-400 transition-colors\">\n                  Sign Up Now\n                </a>",
     "type": "jsx-text"
   },
   {
@@ -4851,7 +3756,7 @@
   {
     "file": "src/seavoice/pages/UnifiedHomePage.tsx",
     "text": "Our team is here to help you understand how SeaVoice can work for your specific business needs.",
-    "context": "            <div className=\"bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white\">\n              <h3 className=\"text-2xl font-bold mb-4\">Still have questions?</h3>\n              <p className=\"text-blue-100 mb-6 max-w-2xl mx-auto\">\n                Our team is here to help you understand how SeaVoice can work for your specific business needs.\n              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a \n                  href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\" ",
+    "context": "            <div className=\"bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white\">\n              <h3 className=\"text-2xl font-bold mb-4\">Still have questions?</h3>\n              <p className=\"text-blue-100 mb-6 max-w-2xl mx-auto\">\n                Our team is here to help you understand how SeaVoice can work for your specific business needs.\n              </p>\n              <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a \n                  href={getMeetingUrl(i18n.language)} ",
     "type": "jsx-text"
   },
   {
@@ -4875,7 +3780,7 @@
   {
     "file": "src/seavoice/pages/UnifiedHomePage.tsx",
     "text": "Get a personalized demo and discover how SeaVoice can transform your customer communications",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to see it in action?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Get a personalized demo and discover how SeaVoice can transform your customer communications\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"",
+    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to see it in action?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Get a personalized demo and discover how SeaVoice can transform your customer communications\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {
@@ -5468,7 +4373,7 @@
   {
     "file": "src/seavoice/pages/platform/LandlineMobilePage.tsx",
     "text": "Connect your landline and mobile infrastructure with AI voice agents in minutes",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to Modernize Your Phone System?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Connect your landline and mobile infrastructure with AI voice agents in minutes\n            </p>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"\n              target=\"_blank\"",
+    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to Modernize Your Phone System?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Connect your landline and mobile infrastructure with AI voice agents in minutes\n            </p>\n            <a\n              href={getMeetingUrl(i18n.language)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -6439,7 +5344,7 @@
   {
     "file": "src/seavoice/pages/platform/VoipSipByocPage.tsx",
     "text": "Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, \n              direct SIP trunking, or bring your own carrier for complete control.",
-    "context": "              VoIP, SIP & BYOC Voice Solutions\n            </h1>\n            <p className=\"text-xl text-gray-600 max-w-3xl mx-auto mb-8\">\n              Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, \n              direct SIP trunking, or bring your own carrier for complete control.\n            </p>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"\n              target=\"_blank\"",
+    "context": "              VoIP, SIP & BYOC Voice Solutions\n            </h1>\n            <p className=\"text-xl text-gray-600 max-w-3xl mx-auto mb-8\">\n              Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, \n              direct SIP trunking, or bring your own carrier for complete control.\n            </p>\n            <a\n              href={getMeetingUrl(i18n.language)}\n              target=\"_blank\"",
     "type": "jsx-text"
   },
   {
@@ -6571,7 +5476,7 @@
   {
     "file": "src/seavoice/pages/platform/VoipSipByocPage.tsx",
     "text": "Speak with our connectivity specialists to design the perfect solution for your needs",
-    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to Optimize Your Voice Infrastructure?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Speak with our connectivity specialists to design the perfect solution for your needs\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"",
+    "context": "          >\n            <h2 className=\"text-4xl font-bold mb-6\">Ready to Optimize Your Voice Infrastructure?</h2>\n            <p className=\"text-xl mb-8 opacity-90\">\n              Speak with our connectivity specialists to design the perfect solution for your needs\n            </p>\n            <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n              <a\n                href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {
@@ -6805,7 +5710,7 @@
   {
     "file": "src/seavoice/pages/platform/WhatsAppVoicePage.tsx",
     "text": "Get Started Today",
-    "context": "                  whileTap={{ scale: 0.95 }}\n                  className=\"bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors\"\n                >\n                  Get Started Today\n                </motion.button>\n              </a>\n              <a\n                href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting\"",
+    "context": "                  whileTap={{ scale: 0.95 }}\n                  className=\"bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors\"\n                >\n                  Get Started Today\n                </motion.button>\n              </a>\n              <a\n                href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {
@@ -10252,13 +9157,13 @@
   {
     "file": "src/seax/components/Footer.tsx",
     "text": "Sign Up Now",
-    "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Sign Up Now\n            </a>\n            <a\n              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
+    "context": "              href=\"https://seax.seasalt.ai/signup\"\n              className=\"bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Sign Up Now\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/components/Footer.tsx",
     "text": "Schedule Demo",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Schedule Demo\n            </a>\n          </div>\n        </div>\n      </div>",
+    "context": "              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base\"\n            >\n              Schedule Demo\n            </a>\n          </div>\n        </div>\n      </div>",
     "type": "jsx-text"
   },
   {
@@ -12626,7 +11531,7 @@
   {
     "file": "src/seax/pages/Pricing.tsx",
     "text": "Talk to Sales",
-    "context": "              href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"\n              className=\"border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
+    "context": "              href={getMeetingUrl(currentLanguage)}\n              className=\"border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors\"\n            >\n              Talk to Sales\n            </a>\n          </div>\n        </div>\n      </div>",
     "type": "jsx-text"
   },
   {
@@ -15440,7 +14345,7 @@
   {
     "file": "src/seax/pages/solutions/AppointmentReminders.tsx",
     "text": "Join thousands of businesses improving appointment attendance with SeaX",
-    "context": "            Ready to Reduce No-Shows and Improve Attendance?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses improving appointment attendance with SeaX\n          </p>\n          \n          <a\n            href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"",
+    "context": "            Ready to Reduce No-Shows and Improve Attendance?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses improving appointment attendance with SeaX\n          </p>\n          \n          <a\n            href={getMeetingUrl(currentLanguage)}",
     "type": "jsx-text"
   },
   {
@@ -15614,7 +14519,7 @@
   {
     "file": "src/seax/pages/solutions/CustomerEngagement.tsx",
     "text": "Join thousands of businesses using SeaX to engage customers and build lasting loyalty",
-    "context": "            Ready to Build Stronger Customer Relationships?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses using SeaX to engage customers and build lasting loyalty\n          </p>\n          \n          <a\n            href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"",
+    "context": "            Ready to Build Stronger Customer Relationships?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses using SeaX to engage customers and build lasting loyalty\n          </p>\n          \n          <a\n            href={getMeetingUrl(currentLanguage)}",
     "type": "jsx-text"
   },
   {
@@ -15787,7 +14692,7 @@
   {
     "file": "src/seax/pages/solutions/EmergencyAlerts.tsx",
     "text": "Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.",
-    "context": "            Ready to Ensure Safety and Communication?\n          </h2>\n          <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n            Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.\n          </p>\n\n          <a\n            href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"",
+    "context": "            Ready to Ensure Safety and Communication?\n          </h2>\n          <p className=\"text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto\">\n            Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.\n          </p>\n\n          <a\n            href={getMeetingUrl(currentLanguage)}",
     "type": "jsx-text"
   },
   {
@@ -16276,7 +15181,7 @@
   {
     "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
     "text": "Join thousands of businesses achieving better results with SeaX",
-    "context": "            Ready to Transform Your SolutionsOverview?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses achieving better results with SeaX\n          </p>\n          \n          <a\n            href=\"https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/\"",
+    "context": "            Ready to Transform Your SolutionsOverview?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses achieving better results with SeaX\n          </p>\n          \n          <a\n            href={getMeetingUrl(i18n.language)}",
     "type": "jsx-text"
   },
   {

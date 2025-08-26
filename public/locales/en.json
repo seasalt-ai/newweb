@@ -1220,26 +1220,26 @@
         "marketPenetration": "Market Penetration"
       },
       "markets": {
-        "JP":{
-            "country": "Japan",
-            "users": "95M",
-            "penetration": "75%"
-          },
-        "TW":{
-            "country": "Taiwan",
-            "users": "21M",
-            "penetration": "90%"
-          },
-        "TH":{
-            "country": "Thailand",
-            "users": "53M",
-            "penetration": "76%"
-          },
-        "KR":{
-            "country": "South Korea",
-            "users": "35M",
-            "penetration": "68%"
-          }
+        "JP": {
+          "country": "Japan",
+          "users": "95M",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "Taiwan",
+          "users": "21M",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "Thailand",
+          "users": "53M",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "South Korea",
+          "users": "35M",
+          "penetration": "68%"
+        }
       },
       "features": {
         "title": "LINE Business Features",
@@ -1680,7 +1680,10 @@
       }
     },
     "hero": {
-      "title": "Start Free with",
+      "title": {
+        "line1": "Respond To",
+        "line2": "Millions 24/7"
+      },
       "subtitle": "Live Agents",
       "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
       "startFree": "Start Free Now",
@@ -1695,6 +1698,38 @@
         "typePlaceholder": "Type your message...",
         "online": "Online",
         "supportTitle": "SeaChat Support"
+      },
+      "badge": "Start Free with Live Agents",
+      "animationSection": {
+        "title": "SeaChat in Action",
+        "autoMode": "Auto",
+        "manualMode": "Manual"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "Phone Voice AI",
+          "description": "AI agents handling phone conversations"
+        },
+        "interactive": {
+          "name": "Interactive Channels",
+          "description": "Click to see different conversations"
+        },
+        "multiChannel": {
+          "name": "Multi-Channel Flow",
+          "description": "Messages flowing between different platforms"
+        },
+        "agentToAI": {
+          "name": "Human-to-AI Handoff",
+          "description": "Start with humans, scale with AI"
+        },
+        "learning": {
+          "name": "AI Learning Journey",
+          "description": "Watch AI get smarter from content"
+        },
+        "dashboard": {
+          "name": "Real-Time Analytics",
+          "description": "Live performance metrics"
+        }
       }
     },
     "keyFeatures": {
@@ -2737,9 +2772,6 @@
       }
     },
     "leadership": {
-      "title": "Leadership & Co-founders",
-      "homepage": "Homepage",
-      "scholar": "Google Scholar",
       "0": {
         "role": "CEO & Co-Founder",
         "bio": "Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu). Two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University CLSP.",
@@ -2749,7 +2781,10 @@
         "role": "CTO & Co-Founder",
         "bio": "Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University CLSP.",
         "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
-      }
+      },
+      "title": "Leadership & Co-founders",
+      "homepage": "Homepage",
+      "scholar": "Google Scholar"
     },
     "offices": {
       "title": "Office Locations",
@@ -2768,22 +2803,22 @@
       "title": "What We Build",
       "subtitle": "Product Portfolio",
       "downloadPressKit": "Download the Product Logo & Press Kit",
-        "product1":{
-          "name": "SeaChat (Response AI)",
-          "description": "AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice)."
-        },
-        "product2":{
-          "name": "SeaX (Outreach AI)",
-          "description": "Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing."
-        },
-        "product3":{
-          "name": "SeaMeet (Insights AI)",
-          "description": "AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings."
-        },
-        "product4":{
-          "name": "SeaVoice (Voice Autopilot)",
-          "description": "Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition."
-        }
+      "product1": {
+        "name": "SeaChat (Response AI)",
+        "description": "AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice)."
+      },
+      "product2": {
+        "name": "SeaX (Outreach AI)",
+        "description": "Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing."
+      },
+      "product3": {
+        "name": "SeaMeet (Insights AI)",
+        "description": "AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings."
+      },
+      "product4": {
+        "name": "SeaVoice (Voice Autopilot)",
+        "description": "Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition."
+      }
     },
     "funding": {
       "title": "Funding & Investors",
@@ -2826,21 +2861,31 @@
       "title": "Our Journey",
       "subtitle": "Key milestones in our mission to transform business communications",
       "list": [
-        { "event": "Seasalt.ai founded by industry veterans in AI and voice technologies" },
-        { "event": "Surviving Covid19. No one was let go." },
-        { "event": "Launch of SeaChat omnichannel customer service platform" },
-        { "event": "Introduction of SeaX outreach AI and SeaMeet insights AI" },
-        { "event": "Launch of SeaVoice advanced voice AI infrastructure" }
+        {
+          "event": "Seasalt.ai founded by industry veterans in AI and voice technologies"
+        },
+        {
+          "event": "Surviving Covid19. No one was let go."
+        },
+        {
+          "event": "Launch of SeaChat omnichannel customer service platform"
+        },
+        {
+          "event": "Introduction of SeaX outreach AI and SeaMeet insights AI"
+        },
+        {
+          "event": "Launch of SeaVoice advanced voice AI infrastructure"
+        }
       ]
     },
     "careers": {
       "title": "Careers at Seasalt.ai",
       "description": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, AI scientists, developers, and business builders.",
       "cta": "See open positions",
-      "bullet1":"Global, diverse, and remote-friendly culture",
-      "bullet2":"Work with cutting-edge AI technology",
-      "bullet3":"Make real impact in business communications",
-      "bullet4":"Collaborate with industry veterans"
+      "bullet1": "Global, diverse, and remote-friendly culture",
+      "bullet2": "Work with cutting-edge AI technology",
+      "bullet3": "Make real impact in business communications",
+      "bullet4": "Collaborate with industry veterans"
     },
     "contact": {
       "title": "Contact & Press",
