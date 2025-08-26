@@ -1680,7 +1680,10 @@
       }
     },
     "hero": {
-      "title": "免費開始使用",
+      "title": {
+        "line1": "24小時貼身客服",
+        "line2": "可人工可智慧"
+      },
       "subtitle": "即時專員",
       "description": "透過我們的全渠道平台轉變客戶支援。從零成本的人工專員開始，然後隨著您的成長無縫整合 AI 自動化。",
       "startFree": "立即免費開始",
@@ -1695,6 +1698,38 @@
         "typePlaceholder": "輸入您的訊息...",
         "online": "線上",
         "supportTitle": "SeaChat 支援"
+      },
+      "badge": "免費真人客服開始",
+      "animationSection": {
+        "title": "SeaChat 實戰展示",
+        "autoMode": "自動",
+        "manualMode": "手動"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "電話語音 AI",
+          "description": "AI 客服處理電話對話"
+        },
+        "interactive": {
+          "name": "互動頻道",
+          "description": "點擊查看不同對話"
+        },
+        "multiChannel": {
+          "name": "多頻道流程",
+          "description": "訊息在不同平台間流動"
+        },
+        "agentToAI": {
+          "name": "人工到 AI 交接",
+          "description": "從人工開始，用 AI 擴展"
+        },
+        "learning": {
+          "name": "AI 學習歷程",
+          "description": "觀看 AI 從內容中變得更智能"
+        },
+        "dashboard": {
+          "name": "即時分析",
+          "description": "即時績效指標"
+        }
       }
     },
     "keyFeatures": {
@@ -1857,6 +1892,70 @@
           ],
           "tryFeature": "試用此功能",
           "watchDemo": "觀看演示"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "檢索增強生成",
+            "description": "關鍵詞、向量和混合搜尋，實現精確資訊檢索",
+            "details": {
+              "0": "語義向量搜尋",
+              "1": "關鍵詞匹配",
+              "2": "混合搜尋演算法",
+              "3": "即時內容索引"
+            }
+          },
+          "memory": {
+            "title": "長期記憶",
+            "description": "透過持續用戶記憶提供個人化體驗",
+            "details": {
+              "0": "用戶偏好追蹤",
+              "1": "對話歷史分析",
+              "2": "行為模式識別",
+              "3": "跨會話連續性"
+            }
+          },
+          "timeAware": {
+            "title": "時間感知",
+            "description": "基於當前時間和時區的情境感知回應",
+            "details": {
+              "0": "即時時間戳整合",
+              "1": "時區感知排程",
+              "2": "時間敏感建議",
+              "3": "營業時間優化"
+            }
+          },
+          "contextExtraction": {
+            "title": "情境提取",
+            "description": "智能欄位映射，提升用戶理解",
+            "details": {
+              "0": "自訂欄位定義",
+              "1": "自動資料提取",
+              "2": "用戶語言偏好",
+              "3": "動態情境建構"
+            }
+          },
+          "referencedResults": {
+            "title": "引用結果",
+            "description": "透明的 AI 回應與來源引用",
+            "details": {
+              "0": "來源文件連結",
+              "1": "引用追蹤",
+              "2": "信心評分",
+              "3": "事實驗證"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "知識精煉",
+            "description": "持續改善知識庫準確性",
+            "details": {
+              "0": "自動更新內容",
+              "1": "品質評分",
+              "2": "相關性優化",
+              "3": "效能分析"
+            }
+          }
         }
       }
     },
@@ -2426,6 +2525,57 @@
         "unlimitedContacts": "無限聯絡人",
         "knowledgeBase": "額外知識庫",
         "extraChatbot": "額外對話機器人"
+      },
+      "table": {
+        "headers": {
+          "features": "功能",
+          "replaces": "取代工具",
+          "otherTools": "其他工具",
+          "seachat": "SeaChat"
+        },
+        "total": "總計",
+        "totalPrice": "每月 $331 或更多",
+        "seachatPrice": "每月 $29.99",
+        "explanations": {
+          "valueYouGet": "↑ 您獲得的價值",
+          "priceYouWouldPay": "↑ 您原本需要支付的價格",
+          "priceYouPay": "↑ 您實際支付的價格"
+        }
+      },
+      "mobile": {
+        "replaces": "取代工具：",
+        "otherTools": "其他工具：",
+        "seachat": "SeaChat：",
+        "otherToolsTotal": "其他工具總計：",
+        "seachatTotal": "SeaChat 總計：",
+        "totalPrice": "每月 $331+",
+        "seachatTotalPrice": "每月 $29.99",
+        "priceYouWouldPay": "↑ 您原本需要支付的價格",
+        "priceYouPay": "↑ 您實際支付的價格"
+      },
+      "uniqueToSeachat": "獨有功能",
+      "pricing": {
+        "chatbotWebsite": "每月 $99",
+        "chatWidget": "每個客服每月 $23",
+        "whatsappMessenger": "每個用戶每月 $89",
+        "multiCalendar": "每個席位每月 $10",
+        "phoneCallAI": "每月 $29",
+        "smsActions": "每月 $59",
+        "emailActions": "每月 $20",
+        "phoneNumber": "每月 $2 至 $3",
+        "unlimitedContacts": "每 1 萬聯絡人 $65",
+        "knowledgeBase": "每個額外知識庫 $8",
+        "extraChatbot": "每個額外聊天機器人 $7"
+      },
+      "seachatValues": {
+        "agencyMode": "多個工作空間 - 每個客戶一個工作空間",
+        "bulkSMS": "與 Seasalt.ai 的 SeaX 整合",
+        "unlimitedContacts": "無限制",
+        "knowledgeBase": "5,000 份文件或 5,000 萬個 token",
+        "extraChatbot": "10 個機器人 × 5 個頻道 = 50 個頻道機器人"
+      },
+      "replaces": {
+        "uniqueToSeachat": "SeaChat 獨有"
       }
     },
     "integrations": {
@@ -2737,9 +2887,6 @@
       }
     },
     "leadership": {
-      "title": "領導團隊與共同創辦人",
-      "homepage": "個人首頁",
-      "scholar": "Google 學術",
       "0": {
         "role": "CEO 與共同創辦人",
         "bio": "曾共同創辦 KITT.AI（由亞馬遜與微軟投資，後被百度收購）。兩次創業者與知名 AI 專家。於約翰霍普金斯大學 CLSP 取得自然語言處理博士學位。",
@@ -2749,7 +2896,10 @@
         "role": "CTO 與共同創辦人",
         "bio": "語音技術專家，同樣是 KITT.AI 的共同創辦人。擁有多語言語音辨識與對話式 AI 的深厚經驗。於約翰霍普金斯大學 CLSP 取得語音辨識博士學位。",
         "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
-      }
+      },
+      "title": "領導團隊與共同創辦人",
+      "homepage": "個人首頁",
+      "scholar": "Google 學術"
     },
     "offices": {
       "title": "辦公室據點",
@@ -2767,23 +2917,23 @@
     "products": {
       "title": "我們打造的產品",
       "subtitle": "產品組合",
-      "downloadPressKit": "下載產品 Logo 與媒體套件", 
-        "product1":{
-          "name": "SeaChat（回覆 AI）",
-          "description": "多語言、全通路的 AI 客服（WhatsApp、FB Messenger、Instagram、Line、網頁、SMS、語音）。"
-        },
-        "product2":{
-          "name": "SeaX（外呼 AI）",
-          "description": "外呼互動、撥號平台、行銷活動、批量 SMS/WhatsApp/語音，支援銷售與行銷。"
-        },
-        "product3":{
-          "name": "SeaMeet（會議洞察 AI）",
-          "description": "會議 AI 助理：自動生成會議紀要、摘要、語義分析，並提供商務會議語音 AI 功能。"
-        },
-        "product4":{
-          "name": "SeaVoice（語音自動駕駛）",
-          "description": "先進語音 AI 基礎架構，打造擬人化電話代理，支援進/出線通話，基於最先進 LLM 與語音識別技術。"
-        }
+      "downloadPressKit": "下載產品 Logo 與媒體套件",
+      "product1": {
+        "name": "SeaChat（回覆 AI）",
+        "description": "多語言、全通路的 AI 客服（WhatsApp、FB Messenger、Instagram、Line、網頁、SMS、語音）。"
+      },
+      "product2": {
+        "name": "SeaX（外呼 AI）",
+        "description": "外呼互動、撥號平台、行銷活動、批量 SMS/WhatsApp/語音，支援銷售與行銷。"
+      },
+      "product3": {
+        "name": "SeaMeet（會議洞察 AI）",
+        "description": "會議 AI 助理：自動生成會議紀要、摘要、語義分析，並提供商務會議語音 AI 功能。"
+      },
+      "product4": {
+        "name": "SeaVoice（語音自動駕駛）",
+        "description": "先進語音 AI 基礎架構，打造擬人化電話代理，支援進/出線通話，基於最先進 LLM 與語音識別技術。"
+      }
     },
     "funding": {
       "title": "資金與投資者",
@@ -2826,11 +2976,21 @@
       "title": "我們的旅程",
       "subtitle": "在我們改變企業溝通使命中的關鍵里程碑",
       "list": [
-        { "event": "Seasalt.ai 由 AI 與語音技術的業界專家創立" },
-        { "event": "度過 Covid19 疫情，沒有任何人被裁員。" },
-        { "event": "推出 SeaChat 全通路客戶服務平台" },
-        { "event": "推出 SeaX 外展 AI 與 SeaMeet 洞察 AI" },
-        { "event": "推出 SeaVoice 先進語音 AI 基礎設施" }
+        {
+          "event": "Seasalt.ai 由 AI 與語音技術的業界專家創立"
+        },
+        {
+          "event": "度過 Covid19 疫情，沒有任何人被裁員。"
+        },
+        {
+          "event": "推出 SeaChat 全通路客戶服務平台"
+        },
+        {
+          "event": "推出 SeaX 外展 AI 與 SeaMeet 洞察 AI"
+        },
+        {
+          "event": "推出 SeaVoice 先進語音 AI 基礎設施"
+        }
       ]
     },
     "careers": {

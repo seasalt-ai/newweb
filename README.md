@@ -4,7 +4,7 @@ This repository contains the source code for the Seasalt.ai website, a React-bas
 
 Prompt to do i18n:
 
-on the home page, src/components/Hero.tsx and src/components/ProblemSolution.tsx still has hard coded strings. you should use the bulk translation method in scripts/how-to-update-json.md to update both zh-TW.json and en.json
+src/seachat/components/FeatureTabs.tsx still has hard coded strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
 
 ## Table of Contents
 

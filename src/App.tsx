@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
@@ -59,7 +60,7 @@ import CompanyPage from './pages/CompanyPage';
 import CareersPage from './pages/careers';
 
 import SEOHelmet from './components/SEOHelmet';
-import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from './constants/languages';
+import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from './constants/languages';
 import FaviconManager from './components/FaviconManager';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -70,6 +71,52 @@ const SeaChatRedirect = () => {
   const redirectTo = `/${DEFAULT_LANGUAGE}/seachat${subPath}`;
   return <Navigate to={redirectTo} replace />;
 };
+
+// Generic language-aware wrapper HOC
+const LanguageAwareWrapper: React.FC<{ 
+  children: React.ReactNode; 
+  productName: string; 
+}> = ({ children, productName }) => {
+  const { i18n } = useTranslation();
+  const location = useLocation();
+  
+  useEffect(() => {
+    // Extract language from path: /zh-TW/product/... -> zh-TW
+    const pathParts = location.pathname.split('/');
+    const lang = pathParts[1]; // First part after leading slash
+    
+    console.log(`[${productName}WithLanguage] Path parts:`, pathParts);
+    console.log(`[${productName}WithLanguage] Detected language:`, lang);
+    console.log(`[${productName}WithLanguage] Current i18n language:`, i18n.language);
+    
+    // Check if it's a supported language and different from current
+    if (SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
+      console.log(`[${productName}WithLanguage] Changing language from`, i18n.language, 'to', lang);
+      i18n.changeLanguage(lang);
+    }
+  }, [location.pathname, i18n, productName]);
+  
+  return <>{children}</>;
+};
+
+// Specific product wrappers using the reusable HOC
+const SeaChatWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaChat">
+    <SeaChatRouter />
+  </LanguageAwareWrapper>
+);
+
+const SeaXWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaX">
+    <SeaXRouter />
+  </LanguageAwareWrapper>
+);
+
+const SeaVoiceWithLanguage = () => (
+  <LanguageAwareWrapper productName="SeaVoice">
+    <SeaVoiceRouter />
+  </LanguageAwareWrapper>
+);
 
 // Component to handle SeaX redirects
 const SeaXRedirect = () => {
@@ -86,6 +133,24 @@ const SeaVoiceRedirect = () => {
   return <Navigate to={`/${DEFAULT_LANGUAGE}/seavoice${subPath}`} replace />;
 };
 
+// Detect browser language for homepage redirect - moved outside component to prevent re-creation
+const getBrowserLanguage = () => {
+  if (typeof window === 'undefined') return 'en';
+  
+  // Check browser languages in order of preference
+  const browserLangs = navigator.languages || [navigator.language || 'en'];
+  console.log('[App] Browser languages detected:', browserLangs);
+  
+  for (const browserLang of browserLangs) {
+    const normalized = normalizeLanguage(browserLang);
+    console.log('[App] Normalized browser language:', browserLang, '->', normalized);
+    if (SUPPORTED_LANGUAGES.includes(normalized as any)) {
+      return normalized;
+    }
+  }
+  
+  return 'en'; // fallback
+};
 
 function HomePage() {
   const { i18n } = useTranslation();
@@ -121,7 +186,9 @@ function HomePage() {
 
 function App() {
   const { i18n } = useTranslation();
+  
   const currentLanguage = i18n.language;
+  const detectedBrowserLanguage = getBrowserLanguage();
   
 
   // Set basename for GitHub Pages if needed (e.g., '/new-seasalt-ai-website')
@@ -133,8 +200,8 @@ function App() {
       <ScrollToTop />
       <FaviconManager>
         <Routes>
-        {/* Root path redirects to current language */}
-        <Route path="/" element={<Navigate to={`/${currentLanguage}`} replace />} />
+        {/* Root path redirects to browser language or current language */}
+        <Route path="/" element={<Navigate to={`/${detectedBrowserLanguage}`} replace />} />
         {/* /health redirects to /seahealth */}
         <Route path="/health" element={<Navigate to="/seahealth" replace />} />
         <Route path="/seahealth" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seahealth`} replace />} />
@@ -143,21 +210,21 @@ function App() {
         <Route path="/seachat/*" element={<SeaChatRedirect />} />
         {/* Dynamic SeaChat routes for all supported languages */}
         {SUPPORTED_LANGUAGES.map(lang => (
-          <Route key={lang} path={`/${lang}/seachat/*`} element={<SeaChatRouter />} />
+          <Route key={lang} path={`/${lang}/seachat/*`} element={<SeaChatWithLanguage />} />
         ))}
         {/* SeaX routes - handle all seax paths */}
         <Route path="/seax" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seax`} replace />} />
         <Route path="/seax/*" element={<SeaXRedirect />} />
         {/* Dynamic SeaX routes for all supported languages */}
         {SUPPORTED_LANGUAGES.map(lang => (
-          <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXRouter />} />
+          <Route key={`seax-${lang}`} path={`/${lang}/seax/*`} element={<SeaXWithLanguage />} />
         ))}
         {/* SeaVoice routes - handle all seavoice paths */}
         <Route path="/seavoice" element={<Navigate to={`/${DEFAULT_LANGUAGE}/seavoice`} replace />} />
         <Route path="/seavoice/*" element={<SeaVoiceRedirect />} />
         {/* Dynamic SeaVoice routes for all supported languages - Must come before general :lang routes */}
         {SUPPORTED_LANGUAGES.map(lang => (
-          <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceRouter />} />
+          <Route key={`seavoice-${lang}`} path={`/${lang}/seavoice/*`} element={<SeaVoiceWithLanguage />} />
         ))}
         {/* Language-specific routes - exclude routes that start with seavoice, seachat, seax */}
         <Route path=":lang" element={<LanguageRouter />}>

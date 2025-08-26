@@ -35,7 +35,7 @@ const FeatureTabs = () => {
     return () => clearInterval(interval);
   }, [tabs]);
 
-  const tabContent: Record<string, any> = {
+  const tabContent: Record<string, any> = useMemo(() => ({
     'agent-chat': {
       title: t('seachat.featureTabs.content.agentChat.title'),
       subtitle: t('seachat.featureTabs.content.agentChat.subtitle'),
@@ -56,39 +56,69 @@ const FeatureTabs = () => {
       advancedFeatures: [
         {
           icon: Search,
-          title: 'Retrieval Augmented Generation',
-          description: 'Keyword, Vector, and Hybrid Search for precise information retrieval',
-          details: ['Semantic vector search', 'Keyword matching', 'Hybrid search algorithms', 'Real-time content indexing']
+          title: t('seachat.featureTabs.advancedAI.features.rag.title'),
+          description: t('seachat.featureTabs.advancedAI.features.rag.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.rag.details.0'),
+            t('seachat.featureTabs.advancedAI.features.rag.details.1'),
+            t('seachat.featureTabs.advancedAI.features.rag.details.2'),
+            t('seachat.featureTabs.advancedAI.features.rag.details.3')
+          ]
         },
         {
           icon: Brain,
-          title: 'Long Term Memory',
-          description: 'Personalized experiences through persistent user memory',
-          details: ['User preference tracking', 'Conversation history analysis', 'Behavioral pattern recognition', 'Cross-session continuity']
+          title: t('seachat.featureTabs.advancedAI.features.memory.title'),
+          description: t('seachat.featureTabs.advancedAI.features.memory.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.memory.details.0'),
+            t('seachat.featureTabs.advancedAI.features.memory.details.1'),
+            t('seachat.featureTabs.advancedAI.features.memory.details.2'),
+            t('seachat.featureTabs.advancedAI.features.memory.details.3')
+          ]
         },
         {
           icon: Clock,
-          title: 'Time Awareness',
-          description: 'Context-aware responses based on current time and timezone',
-          details: ['Real-time timestamp integration', 'Timezone-aware scheduling', 'Time-sensitive recommendations', 'Business hours optimization']
+          title: t('seachat.featureTabs.advancedAI.features.timeAware.title'),
+          description: t('seachat.featureTabs.advancedAI.features.timeAware.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.timeAware.details.0'),
+            t('seachat.featureTabs.advancedAI.features.timeAware.details.1'),
+            t('seachat.featureTabs.advancedAI.features.timeAware.details.2'),
+            t('seachat.featureTabs.advancedAI.features.timeAware.details.3')
+          ]
         },
         {
           icon: Target,
-          title: 'Context Extraction',
-          description: 'Intelligent field mapping for better user comprehension',
-          details: ['Custom field definitions', 'Automatic data extraction', 'User language preferences', 'Dynamic context building']
+          title: t('seachat.featureTabs.advancedAI.features.contextExtraction.title'),
+          description: t('seachat.featureTabs.advancedAI.features.contextExtraction.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.contextExtraction.details.0'),
+            t('seachat.featureTabs.advancedAI.features.contextExtraction.details.1'),
+            t('seachat.featureTabs.advancedAI.features.contextExtraction.details.2'),
+            t('seachat.featureTabs.advancedAI.features.contextExtraction.details.3')
+          ]
         },
         {
           icon: FileText,
-          title: 'Referenced Results',
-          description: 'Transparent AI responses with source citations',
-          details: ['Source document linking', 'Citation tracking', 'Confidence scoring', 'Fact verification']
+          title: t('seachat.featureTabs.advancedAI.features.referencedResults.title'),
+          description: t('seachat.featureTabs.advancedAI.features.referencedResults.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.referencedResults.details.0'),
+            t('seachat.featureTabs.advancedAI.features.referencedResults.details.1'),
+            t('seachat.featureTabs.advancedAI.features.referencedResults.details.2'),
+            t('seachat.featureTabs.advancedAI.features.referencedResults.details.3')
+          ]
         },
         {
           icon: Database,
-          title: 'Knowledge Refinement',
-          description: 'Continuous improvement of knowledge base accuracy',
-          details: ['Auto-updating content', 'Quality scoring', 'Relevance optimization', 'Performance analytics']
+          title: t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.title'),
+          description: t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.description'),
+          details: [
+            t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.details.0'),
+            t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.details.1'),
+            t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.details.2'),
+            t('seachat.featureTabs.advancedAI.features.knowledgeRefinement.details.3')
+          ]
         }
       ]
     },
@@ -104,7 +134,7 @@ const FeatureTabs = () => {
       features: t('seachat.featureTabs.content.integrations.features', { returnObjects: true }),
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop'
     }
-  };
+  }), [t]);
 
   const currentContent = tabContent[activeTab as keyof typeof tabContent];
 

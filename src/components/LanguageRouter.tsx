@@ -16,7 +16,8 @@ const LanguageRouter: React.FC = () => {
       pathname: location.pathname, 
       currentI18nLanguage: i18n.language,
       supportedLanguages: SUPPORTED_LANGUAGES,
-      defaultLanguage: DEFAULT_LANGUAGE
+      defaultLanguage: DEFAULT_LANGUAGE,
+      localStorage_i18nextLng: typeof window !== 'undefined' ? window.localStorage?.getItem('i18nextLng') : null
     });
 
     // Only redirect if the language is missing or unsupported
