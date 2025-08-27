@@ -2045,32 +2045,93 @@
       "agents": "客服數量",
       "plans": {
         "free": {
-          "name": "永久免費",
-          "description": "適合從真人客服開始的完美選擇",
+          "name": "真正免費",
+          "description": "開始使用真人客服的完美選擇",
           "price": "0",
           "period": "/月",
-          "features": "無限真人客服時數,基本聊天小工具,電子郵件支援,3 個通道（網頁、電子郵件、電話）,基本分析,社群支援",
+          "features": {
+            "humanAgent": "1 個真人客服",
+            "unlimitedHumanChats": "無限制真人客服聊天",
+            "unlimitedContacts": "無限制聯絡人",
+            "unlimitedHistory": "無限制聊天記錄",
+            "exportHistory": "自由匯出聊天記錄",
+            "channels": "通道：WhatsApp Messenger、聊天小工具",
+            "integrations": "整合：Wix、WordPress、Shopify、Make.com、Squarespace",
+            "aiAgent": "AI 代理具有 100 次終身 AI 回覆：",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "知識庫包含 20 個文件（最大 200KB）和 250k 令牌",
+            "workspace": "1 個工作空間"
+          },
           "limitations": "無 AI 自動化,有限整合",
-          "button": "免費開始"
-        },
-        "starter": {
-          "name": "AI 入門版",
-          "description": "添加 AI 自動化以擴展您的支援",
-          "badge": "最受歡迎",
-          "features": "包含免費版所有功能,AI 代理自動化,知識庫（5GB）,進階分析,優先電子郵件支援,10 個整合,客製化品牌",
-          "button": "開始 AI 試用"
-        },
-        "growth": {
-          "name": "成長版",
-          "description": "為成長團隊提供的進階功能",
-          "features": "包含入門版所有功能,進階 AI 訓練,無限知識庫,語音代理,API 存取,客製化工作流程,電話支援",
-          "button": "試用成長版"
+          "button": "免費開始",
+          "tagline": "體驗強大功能的試用版",
+          "buttonText": "免費開始"
         },
         "enterprise": {
           "name": "企業版",
           "description": "為大型組織提供的客製化解決方案",
-          "features": "包含成長版所有功能,專屬成功經理,客製化整合,進階安全,SLA 保證,本地部署,24/7 電話支援",
-          "button": "聯絡銷售"
+          "features": {
+            "premiumIncluded": "包含進階版的所有功能",
+            "customBuild": "客製化建置",
+            "multipleWorkspaces": "多個工作空間 - 適合代理商",
+            "workspaceAgents": "每個工作空間都有多個 AI 代理和電話號碼",
+            "customAPI": "客製化 API 整合",
+            "fineTuning": "根據您的指導方針進行微調並提供技術支援"
+          },
+          "button": "聯絡銷售",
+          "tagline": "客製化您的專屬 AI 代理",
+          "buttonText": "聯絡我們"
+        },
+        "premium": {
+          "name": "進階版",
+          "tagline": "添加更多 AI 代理和知識檔案",
+          "description": "使用 AI 自動化擴展您的支援",
+          "features": {
+            "humanAgents": "4 個人類用戶（額外的人類用戶每月費用 $10）",
+            "humanAgentPermission": "支援真人客服權限",
+            "assignAgent": "將真人客服分配給個別對話",
+            "unreadCounter": "每個真人客服的未讀訊息計數器",
+            "transferToHuman": "從 AI 代理即時轉接到真人客服",
+            "transferToAI": "從真人客服即時轉接到 AI 代理",
+            "unlimitedHumanChats": "無限制真人客服聊天",
+            "unlimitedContacts": "無限制聯絡人",
+            "unlimitedHistory": "無限制聊天記錄",
+            "exportHistory": "自由匯出聊天記錄",
+            "channels": "額外通道：Line、Call、Phone Call",
+            "integrations": "額外整合：Google Calendar 自動預約會議",
+            "aiAgents": "10 個 AI 代理，每個代理具有：",
+            "aiModels": "ChatGPT-4o 和 Mistral 模型",
+            "knowledgeBase": "知識庫包含多達 1000 個文件（每個文件 10 MB）和 5M 令牌",
+            "chatSummary": "聊天摘要和電子郵件通知",
+            "agentPrivacy": "代理隱私控制",
+            "contactCapture": "透過自訂表格擷取用戶聯絡方式",
+            "chatCost": "聊天 AI 代理從每次回覆 $0.006 開始",
+            "voiceCost": "電話語音 AI 代理從每分鐘 $0.12 開始",
+            "workspaces": "2 個工作空間（額外工作空間每月費用 $15）",
+            "knowledgeBaseFeatures": "知識庫：",
+            "advancedSearch": "進階文件搜尋 - 關鍵字、向量、混合",
+            "fileTypes": "支援 20 多種檔案類型，針對試算表進行優化",
+            "automationFeatures": "自動化：",
+            "autoLabel": "使用使用者定義的標籤自動標記對話",
+            "builtInActions": "由自動標記觸發的內建動作：SMS、電子郵件",
+            "externalAPI": "外部 API 呼叫作為觸發器和動作",
+            "voiceAgentFeatures": "語音 AI 代理：",
+            "voiceMessages": "支援 Messenger、WhatsApp、Line 中的語音訊息",
+            "phoneCalls": "支援雙向電話對話",
+            "callDirection": "支援來電和撥出電話",
+            "transferAgent": "轉接到真人客服",
+            "callForwarding": "支援呼叫轉移",
+            "sttLanguages": "10 多種語音轉文字語言",
+            "ttsLanguages": "來自 Azure、ElevenLabs、OpenAI 的 10 多種文字轉語音語言和聲音",
+            "callRecording": "通話錄音和摘要",
+            "callNotification": "透過電子郵件進行通話通知",
+            "formTrackers": "從對話中設定表格追蹤器",
+            "slotExtractors": "從對話中提取槽位",
+            "timezoneFeatures": "具有時區支援的本地時間感知，適用於：",
+            "businessHours": "營業時間",
+            "appointmentBooking": "預約預訂"
+          },
+          "buttonText": "開始進階版"
         }
       },
       "enterprise": {
@@ -2558,7 +2619,9 @@
       "company": {
         "productWiki": "產品 Wiki",
         "apiReferences": "API 參考",
-        "careers": "工作機會"
+        "careers": "工作機會",
+        "title": "公司",
+        "about": "關於我們"
       },
       "resources": "資源",
       "legal": {
@@ -4016,8 +4079,9 @@
       "description": "簡單透明的價格方案，隨您的需求成長。無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
     },
     "hero": {
-      "title": "簡單透明的價格方案隨您成長",
-      "description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
+      "title": "隨您成長的定價",
+      "description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。",
+      "subtitle": "完全免費地從真人客服開始，然後在您準備好擴展時加入 AI。沒有隱藏費用，沒有驚喜，只有透明的定價。"
     },
     "audienceSection": {
       "title": "選擇您的成長路徑",
@@ -4381,6 +4445,11 @@
         },
         "cta": "聯絡銷售"
       }
+    },
+    "billing": {
+      "monthly": "每月",
+      "yearly": "每年",
+      "save": "節省 2 個月"
     }
   },
   "compare": {
