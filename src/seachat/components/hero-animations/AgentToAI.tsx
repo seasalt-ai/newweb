@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, Bot, Brain, Zap, MessageCircle, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Conversation {
   id: number;
@@ -10,23 +11,24 @@ interface Conversation {
 }
 
 const AgentToAI = () => {
+  const { t } = useTranslation();
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [aiConfidence, setAiConfidence] = useState(20);
   const [phase, setPhase] = useState<'learning' | 'handoff' | 'autonomous'>('learning');
   const [nextId, setNextId] = useState(1);
 
   const humanMessages = [
-    "Thank you for contacting support! How can I help?",
-    "I understand your concern. Let me check that for you.",
-    "Based on our policy, here's what I recommend...",
-    "Is there anything else I can help you with today?",
+    t('seachat.heroAnimations.agentToAI.humanMessages.0'),
+    t('seachat.heroAnimations.agentToAI.humanMessages.1'),
+    t('seachat.heroAnimations.agentToAI.humanMessages.2'),
+    t('seachat.heroAnimations.agentToAI.humanMessages.3'),
   ];
 
   const aiMessages = [
-    "I've learned to handle this type of inquiry automatically.",
-    "Based on previous conversations, I can help with this.",
-    "I understand your question and can provide instant assistance.",
-    "I'm ready to handle similar requests independently.",
+    t('seachat.heroAnimations.agentToAI.aiMessages.0'),
+    t('seachat.heroAnimations.agentToAI.aiMessages.1'),
+    t('seachat.heroAnimations.agentToAI.aiMessages.2'),
+    t('seachat.heroAnimations.agentToAI.aiMessages.3'),
   ];
 
   useEffect(() => {
@@ -99,9 +101,9 @@ const AgentToAI = () => {
           phase === 'handoff' ? 'bg-yellow-100 text-yellow-800' :
           'bg-green-100 text-green-800'
         }`}>
-          {phase === 'learning' ? '🧑‍💼 Learning from Human' :
-           phase === 'handoff' ? '🤝 Smooth Handoff' :
-           '🤖 AI Autonomous'}
+          {phase === 'learning' ? t('seachat.heroAnimations.agentToAI.phases.learning') :
+           phase === 'handoff' ? t('seachat.heroAnimations.agentToAI.phases.handoff') :
+           t('seachat.heroAnimations.agentToAI.phases.autonomous')}
         </div>
         
         {/* AI Confidence Meter */}
@@ -183,7 +185,7 @@ const AgentToAI = () => {
                 {conv.learned && (
                   <div className="flex items-center mt-2 space-x-1">
                     <Brain className="w-3 h-3 text-green-500" />
-                    <span className="text-xs text-green-600 font-medium">Learned</span>
+                    <span className="text-xs text-green-600 font-medium">{t('seachat.heroAnimations.agentToAI.learned')}</span>
                   </div>
                 )}
               </div>
@@ -194,8 +196,8 @@ const AgentToAI = () => {
 
       {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 text-center">
-        <h3 className="text-lg font-bold text-gray-800">Human-to-AI Handoff</h3>
-        <p className="text-sm text-gray-600">Start with humans, scale with intelligent AI</p>
+        <h3 className="text-lg font-bold text-gray-800">{t('seachat.heroAnimations.agentToAI.title')}</h3>
+        <p className="text-sm text-gray-600">{t('seachat.heroAnimations.agentToAI.subtitle')}</p>
       </div>
     </div>
   );

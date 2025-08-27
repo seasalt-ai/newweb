@@ -798,6 +798,18 @@
     "parentContext": "ObjectProperty"
   },
   {
+    "file": "src/seachat/components/Footer.tsx",
+    "text": "Made with",
+    "context": "          {/* Fun Footer Tagline */}\n          <div className=\"text-center text-gray-400 text-sm mt-8\">\n            <p>\n              Made with <Heart className=\"inline w-4 h-4 text-red-500\" /> in the city of{' '}\n              <Coffee className=\"inline w-4 h-4 text-amber-700\" />{' '}\n              <Umbrella className=\"inline w-4 h-4 text-blue-400\" />{' '}\n              <Plane className=\"inline w-4 h-4 text-gray-500\" />{' '}",
+    "type": "jsx-text"
+  },
+  {
+    "file": "src/seachat/components/Footer.tsx",
+    "text": "in the city of",
+    "context": "          <div className=\"text-center text-gray-400 text-sm mt-8\">\n            <p>\n              Made with <Heart className=\"inline w-4 h-4 text-red-500\" /> in the city of{' '}\n              <Coffee className=\"inline w-4 h-4 text-amber-700\" />{' '}\n              <Umbrella className=\"inline w-4 h-4 text-blue-400\" />{' '}\n              <Plane className=\"inline w-4 h-4 text-gray-500\" />{' '}",
+    "type": "jsx-text"
+  },
+  {
     "file": "src/seachat/components/Header.tsx",
     "text": "Back to Main Site",
     "context": "                onClick={() => setIsMenuOpen(false)}\n              >\n                <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                Back to Main Site\n              </Link>\n            </div>\n            \n            {/* Features Section */}",

@@ -2802,6 +2802,201 @@
           }
         }
       }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 從人工學習",
+          "handoff": "🤝 順暢交接",
+          "autonomous": "🤖 AI 自主運行"
+        },
+        "humanMessages": {
+          "0": "感謝您聯絡客服！我可以如何協助您？",
+          "1": "我了解您的疑慮。讓我為您查詢一下。",
+          "2": "根據我們的政策，我建議您...",
+          "3": "今天還有什麼其他我可以幫助您的嗎？"
+        },
+        "aiMessages": {
+          "0": "我已經學會自動處理這類查詢了。",
+          "1": "根據之前的對話，我可以協助您處理這個問題。",
+          "2": "我理解您的問題，可以提供即時協助。",
+          "3": "我已經準備好獨立處理類似的請求。"
+        },
+        "learned": "已學習",
+        "title": "人工到 AI 交接",
+        "subtitle": "從人工開始，用智能 AI 擴展"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "產品手冊.pdf",
+          "1": "常見問題資料庫.csv",
+          "2": "支援指南.doc",
+          "3": "網站內容"
+        },
+        "knowledgeConcepts": {
+          "0": "產品功能",
+          "1": "定價方案",
+          "2": "支援政策",
+          "3": "技術規格",
+          "4": "使用者指南",
+          "5": "故障排除",
+          "6": "整合步驟",
+          "7": "最佳實踐"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "我該如何重設密碼？",
+            "improvement": "學習了逐步處理流程"
+          },
+          "1": {
+            "question": "你們的定價方案是什麼？",
+            "improvement": "增加了詳細比較"
+          },
+          "2": {
+            "question": "與 Slack 整合？",
+            "improvement": "改善了技術指導"
+          },
+          "3": {
+            "question": "帳單問題",
+            "improvement": "增強了政策理解"
+          }
+        },
+        "phaseLabel": "階段",
+        "accuracy": "準確率",
+        "title": "AI 學習歷程",
+        "subtitle": "觀看 AI 從您的內容變得更聰明"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "您好！需要協助處理我的訂單 📦",
+            "1": "你們的退貨政策是什麼？",
+            "2": "感謝快速回覆！😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "喜歡你們的新產品！💕",
+            "1": "有藍色的嗎？",
+            "2": "可以運送到歐洲嗎？"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "我需要技術支援",
+            "1": "我該如何重設密碼？",
+            "2": "結帳功能無法運作"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "追蹤我之前的電子郵件",
+            "1": "詢問批量定價",
+            "2": "感謝您的協助"
+          }
+        },
+        "agentResponse": "我很樂意協助您！讓我查詢一下相關資訊。",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "網站",
+          "email": "電子郵件"
+        },
+        "supportSuffix": "客服",
+        "online": "在線",
+        "typePlaceholder": "輸入您的訊息...",
+        "title": "互動式頻道選擇器",
+        "subtitle": "點選頻道查看不同的對話"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "電子郵件",
+          "website": "網站"
+        },
+        "messageTemplates": {
+          "0": "需要訂單協助",
+          "1": "產品問題",
+          "2": "技術支援",
+          "3": "帳單查詢",
+          "4": "一般問題"
+        },
+        "title": "多頻道訊息流",
+        "subtitle": "頻道間即時訊息流動"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "王小明",
+          "1": "李美華",
+          "2": "陳志強",
+          "3": "張麗娟",
+          "4": "林大偉"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "您好，我需要查詢訂單狀態",
+            "ai": "您好！我很樂意協助您查詢訂單狀態。請提供您的訂單號碼好嗎？"
+          },
+          "1": {
+            "caller": "好的，是訂單號碼 12345",
+            "ai": "謝謝您！讓我幫您查詢。我看到您的訂單昨天已經出貨，明天就會到達。"
+          },
+          "2": {
+            "caller": "太好了！我可以變更配送地址嗎？",
+            "ai": "我可以協助您處理。請問您希望變更成什麼配送地址？"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat 語音 AI",
+          "connectedWith": "已連線至",
+          "listening": "聆聽中...",
+          "aiSpeaking": "AI 說話中...",
+          "processing": "處理中...",
+          "liveTranscript": "即時轉錄："
+        },
+        "waiting": {
+          "ready": "語音 AI 就緒",
+          "subtitle": "等待來電中..."
+        },
+        "stats": {
+          "callsHandled": "已處理通話",
+          "available": "可用"
+        },
+        "incomingCall": "📞 來電",
+        "features": {
+          "naturalSpeech": {
+            "title": "自然語音",
+            "description": "人性化對話"
+          },
+          "smartRecognition": {
+            "title": "智能識別",
+            "description": "精準語音轉文字"
+          },
+          "contextAware": {
+            "title": "情境感知",
+            "description": "理解意圖"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "活躍聊天",
+          "response": "平均回應",
+          "agents": "線上客服",
+          "satisfaction": "滿意度"
+        },
+        "title": "即時儀表板",
+        "status": {
+          "live": "即時"
+        },
+        "timeLabels": {
+          "12hAgo": "12小時前",
+          "6hAgo": "6小時前",
+          "now": "現在"
+        }
+      }
     }
   },
   "common": {

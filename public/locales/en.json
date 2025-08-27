@@ -2802,6 +2802,201 @@
           }
         }
       }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Learning from Human",
+          "handoff": "🤝 Smooth Handoff",
+          "autonomous": "🤖 AI Autonomous"
+        },
+        "humanMessages": {
+          "0": "Thank you for contacting support! How can I help?",
+          "1": "I understand your concern. Let me check that for you.",
+          "2": "Based on our policy, here's what I recommend...",
+          "3": "Is there anything else I can help you with today?"
+        },
+        "aiMessages": {
+          "0": "I've learned to handle this type of inquiry automatically.",
+          "1": "Based on previous conversations, I can help with this.",
+          "2": "I understand your question and can provide instant assistance.",
+          "3": "I'm ready to handle similar requests independently."
+        },
+        "learned": "Learned",
+        "title": "Human-to-AI Handoff",
+        "subtitle": "Start with humans, scale with intelligent AI"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Product Manual.pdf",
+          "1": "FAQ Database.csv",
+          "2": "Support Guide.doc",
+          "3": "Website Content"
+        },
+        "knowledgeConcepts": {
+          "0": "Product Features",
+          "1": "Pricing Plans",
+          "2": "Support Policies",
+          "3": "Technical Specs",
+          "4": "User Guidelines",
+          "5": "Troubleshooting",
+          "6": "Integration Steps",
+          "7": "Best Practices"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "How do I reset my password?",
+            "improvement": "Learned step-by-step process"
+          },
+          "1": {
+            "question": "What are your pricing plans?",
+            "improvement": "Added detailed comparisons"
+          },
+          "2": {
+            "question": "Integration with Slack?",
+            "improvement": "Improved technical guidance"
+          },
+          "3": {
+            "question": "Billing question",
+            "improvement": "Enhanced policy understanding"
+          }
+        },
+        "phaseLabel": "Phase",
+        "accuracy": "Accuracy",
+        "title": "AI Learning Journey",
+        "subtitle": "Watch AI get smarter from your content"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Hi! Need help with my order 📦",
+            "1": "What's your return policy?",
+            "2": "Thanks for the quick response! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Love your new product! 💕",
+            "1": "Is this available in blue?",
+            "2": "Can you ship to Europe?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "I need technical support",
+            "1": "How do I reset my password?",
+            "2": "The checkout isn't working"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Following up on my previous email",
+            "1": "Request for bulk pricing",
+            "2": "Thank you for your assistance"
+          }
+        },
+        "agentResponse": "I'd be happy to help you with that! Let me check that information for you.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Website",
+          "email": "Email"
+        },
+        "supportSuffix": "Support",
+        "online": "Online",
+        "typePlaceholder": "Type your message...",
+        "title": "Interactive Channel Selector",
+        "subtitle": "Click channels to see different conversations"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Website"
+        },
+        "messageTemplates": {
+          "0": "Need help with order",
+          "1": "Product question",
+          "2": "Technical support",
+          "3": "Billing inquiry",
+          "4": "General question"
+        },
+        "title": "Multi-Channel Message Flow",
+        "subtitle": "Messages flowing between channels in real-time"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Hi, I need help with my order status",
+            "ai": "Hello! I'd be happy to help you check your order status. Could you please provide your order number?"
+          },
+          "1": {
+            "caller": "Yes, it's order number 12345",
+            "ai": "Thank you! Let me look that up for you. I can see your order was shipped yesterday and should arrive tomorrow."
+          },
+          "2": {
+            "caller": "Perfect! Can I change the delivery address?",
+            "ai": "I can help you with that. What would you like the new delivery address to be?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Connected with",
+          "listening": "Listening...",
+          "aiSpeaking": "AI Speaking...",
+          "processing": "Processing...",
+          "liveTranscript": "Live Transcript:"
+        },
+        "waiting": {
+          "ready": "Voice AI Ready",
+          "subtitle": "Waiting for incoming calls..."
+        },
+        "stats": {
+          "callsHandled": "Calls Handled",
+          "available": "Available"
+        },
+        "incomingCall": "📞 Incoming Call",
+        "features": {
+          "naturalSpeech": {
+            "title": "Natural Speech",
+            "description": "Human-like conversation"
+          },
+          "smartRecognition": {
+            "title": "Smart Recognition",
+            "description": "Accurate speech-to-text"
+          },
+          "contextAware": {
+            "title": "Context Aware",
+            "description": "Understands intent"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Active Chats",
+          "response": "Avg Response",
+          "agents": "Online Agents",
+          "satisfaction": "Satisfaction"
+        },
+        "title": "Live Dashboard",
+        "status": {
+          "live": "Live"
+        },
+        "timeLabels": {
+          "12hAgo": "12h ago",
+          "6hAgo": "6h ago",
+          "now": "Now"
+        }
+      }
     }
   },
   "common": {
