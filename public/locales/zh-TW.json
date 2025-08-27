@@ -2044,54 +2044,6 @@
       "chatVolume": "每月聊天量",
       "agents": "客服數量",
       "plans": {
-        "title": "選擇您的方案",
-        "description": "免費開始，並隨著您的成長靈活調整定價選項",
-        "liveAgent": {
-          "name": "真人客服",
-          "price": "$0",
-          "period": "永久免費",
-          "tagline": "👤 僅真人客服",
-          "highlight": "🌟 所有通道 + 僅真人客服",
-          "channels": "WhatsApp • Messenger • Line • Instagram • 網頁聊天",
-          "feature1": "包含 1 位真人客服",
-          "feature2": "無限真人對話",
-          "feature3": "100 次 AI 回覆試用功能",
-          "feature4": "基本 Shopify 整合",
-          "cta": "🚀 立即免費開始",
-          "poweredBy": "由 SeaChat 提供"
-        },
-        "whatsappOnly": {
-          "name": "僅 WhatsApp",
-          "price": "$19.99",
-          "period": "每用戶/月",
-          "tagline": "💬 僅訊息功能",
-          "highlight": "📲 WHATSAPP 商業專家",
-          "channels": "活動 • API • 雙向聊天",
-          "feature1": "WhatsApp Business 平台",
-          "feature2": "活動管理工具",
-          "feature3": "WhatsApp API 存取",
-          "feature4": "無限聯絡人和範本",
-          "cta": "📱 開始使用 WHATSAPP",
-          "poweredBy": "由 SeaX 提供"
-        },
-        "omnichannel": {
-          "name": "全通道",
-          "firstUserPrice": "$99",
-          "firstUserLabel": "第一位用戶",
-          "additionalUserPrice": "$49",
-          "additionalUserLabel": "每位額外用戶",
-          "period": "每月",
-          "tagline": "🌐 一個介面，所有通道",
-          "popular": "🏆 最受歡迎",
-          "highlight": "🎯 完整聯絡中心",
-          "subHighlight": "撥打和接聽電話！",
-          "feature1": "客服可撥打和接聽電話",
-          "feature2": "SMS + 語音 + WHATSAPP",
-          "feature3": "語音和 SMS 活動",
-          "feature4": "RESTful API + SeaChat 整合",
-          "cta": "🚀 開始完整中心",
-          "poweredBy": "由 SeaX 提供"
-        },
         "custom": {
           "name": "客製化",
           "price": "讓我們建立專案",
@@ -2102,10 +2054,6 @@
           "feature4": "HIPAA 合規",
           "feature5": "白標選項",
           "cta": "聯絡我們"
-        },
-        "popularBadge": "最受歡迎",
-        "ctaStyles": {
-          "primary": "立即註冊"
         },
         "free": {
           "name": "真正免費",
@@ -2191,32 +2139,6 @@
           },
           "buttonText": "聯絡我們"
         }
-      },
-      "enterprise": {
-        "title": "需要客製化方案？",
-        "description": "我們提供客製化企業解決方案，包括本地部署、進階安全功能和專屬支援團隊。",
-        "button": "安排企業版示範"
-      },
-      "faq": {
-        "title": "常見問題",
-        "questions": [
-          {
-            "question": "免費方案真的永久免費嗎？",
-            "answer": "是的！我們的免費方案包含 1 位真人客服終身使用，具有無限對話、聊天記錄和聯絡人。無需信用卡，無隱藏費用。"
-          },
-          {
-            "question": "我可以隨時升級或降級我的方案嗎？",
-            "answer": "當然可以！您可以隨時更改您的方案。升級立即生效，降級在當前計費週期結束時生效。"
-          },
-          {
-            "question": "如果我取消，我的數據會怎樣？",
-            "answer": "您擁有您的數據。您可以隨時匯出所有聊天記錄、聯絡人和知識庫內容，即使是免費方案也可以。"
-          },
-          {
-            "question": "您為大型企業提供客製化定價嗎？",
-            "answer": "是的！我們提供客製化企業解決方案，包括批量折扣、專屬支援和專業功能。聯絡我們的銷售團隊獲得個人化報價。"
-          }
-        ]
       }
     },
     "knowledgeBase": {

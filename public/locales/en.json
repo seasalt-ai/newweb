@@ -2044,54 +2044,6 @@
       "chatVolume": "Monthly Chat Volume",
       "agents": "Number of Agents",
       "plans": {
-        "title": "Choose Your Plan",
-        "description": "Start free and scale as you grow with our flexible pricing options",
-        "liveAgent": {
-          "name": "Live Agent",
-          "price": "$0",
-          "period": "FREE FOREVER",
-          "tagline": "👤 HUMAN ONLY",
-          "highlight": "🌟 ALL CHANNELS + HUMAN AGENTS ONLY",
-          "channels": "WhatsApp • Messenger • Line • Instagram • Web Chat",
-          "feature1": "1 human agent included",
-          "feature2": "Unlimited human conversations",
-          "feature3": "100 AI replies to try features",
-          "feature4": "Basic Shopify integrations",
-          "cta": "🚀 START FREE NOW",
-          "poweredBy": "Powered by SeaChat"
-        },
-        "whatsappOnly": {
-          "name": "WhatsApp Only",
-          "price": "$19.99",
-          "period": "PER USER/MONTH",
-          "tagline": "💬 MESSAGING ONLY",
-          "highlight": "📲 WHATSAPP BUSINESS SPECIALIST",
-          "channels": "Campaigns • API • 2-Way Chat",
-          "feature1": "WhatsApp Business Platform",
-          "feature2": "Campaign management tools",
-          "feature3": "WhatsApp API access",
-          "feature4": "Unlimited contacts & templates",
-          "cta": "📱 START WHATSAPP",
-          "poweredBy": "Powered by SeaX"
-        },
-        "omnichannel": {
-          "name": "Omnichannel",
-          "firstUserPrice": "$99",
-          "firstUserLabel": "FIRST USER",
-          "additionalUserPrice": "$49",
-          "additionalUserLabel": "EACH EXTRA",
-          "period": "PER MONTH",
-          "tagline": "🌐 ONE UI, ALL CHANNELS",
-          "popular": "🏆 MOST POPULAR",
-          "highlight": "🎯 COMPLETE CONTACT CENTER",
-          "subHighlight": "Make & Receive PHONE CALLS!",
-          "feature1": "AGENTS MAKE & RECEIVE CALLS",
-          "feature2": "SMS + VOICE + WHATSAPP",
-          "feature3": "Voice & SMS campaigns",
-          "feature4": "RESTful API + SeaChat integration",
-          "cta": "🚀 START FULL CENTER",
-          "poweredBy": "Powered by SeaX"
-        },
         "custom": {
           "name": "Custom",
           "price": "Let's build a project",
@@ -2102,10 +2054,6 @@
           "feature4": "HIPAA compliance",
           "feature5": "White-label options",
           "cta": "Contact Us"
-        },
-        "popularBadge": "Most Popular",
-        "ctaStyles": {
-          "primary": "Sign Up Now"
         },
         "free": {
           "name": "Truly Free",
@@ -2191,32 +2139,6 @@
           },
           "buttonText": "Contact Us"
         }
-      },
-      "enterprise": {
-        "title": "Need Something Custom?",
-        "description": "We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
-        "button": "Schedule Enterprise Demo"
-      },
-      "faq": {
-        "title": "Frequently Asked Questions",
-        "questions": [
-          {
-            "question": "Is the free plan really free forever?",
-            "answer": "Yes! Our free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. No credit card required, no hidden fees."
-          },
-          {
-            "question": "Can I upgrade or downgrade my plan anytime?",
-            "answer": "Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle."
-          },
-          {
-            "question": "What happens to my data if I cancel?",
-            "answer": "You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan."
-          },
-          {
-            "question": "Do you offer custom pricing for large enterprises?",
-            "answer": "Yes! We offer custom enterprise solutions with volume discounts, dedicated support, and specialized features. Contact our sales team for a personalized quote."
-          }
-        ]
       }
     },
     "knowledgeBase": {
