@@ -141,6 +141,9 @@ const PricingPage = () => {
       name: t('seachat.pricing.plans.premium.name'),
       tagline: t('seachat.pricing.plans.premium.tagline'),
       description: t('seachat.pricing.plans.premium.description'),
+      month: t('seachat.pricing.plans.premium.month'),
+      year: t('seachat.pricing.plans.premium.year'),
+      year_description: t('seachat.pricing.plans.premium.year_description'),
       price: getPremiumPrice(),
       originalPrice: billingCycle === 'yearly' ? 29.99 : 0,
       features: [
@@ -299,7 +302,7 @@ const PricingPage = () => {
                     ) : plan.id === 'enterprise' ? (
                       <div className="py-4">
                         <button className="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-lg font-semibold transition-all">
-                          Contact Us
+                          {plan.buttonText}
                         </button>
                       </div>
                     ) : (
@@ -309,12 +312,12 @@ const PricingPage = () => {
                             ${billingCycle === 'yearly' ? plan.price : plan.price}
                           </span>
                           <span className="text-xl ml-2">
-                            /{billingCycle === 'yearly' ? 'year' : 'month'}
+                            /{billingCycle === 'yearly' ? plan.year : plan.month}
                           </span>
                         </div>
                         {billingCycle === 'yearly' && (
                           <div className="mt-2">
-                            <span className="text-sm opacity-75">Save 2 months vs monthly billing</span>
+                            <span className="text-sm opacity-75">${plan.year_description}</span>
                           </div>
                         )}
                       </div>
@@ -879,13 +882,13 @@ const PricingPage = () => {
             className="mb-12"
           >
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
-              Your AI Chat Revolution
+              {t('seachat.pricing.cta.title')}
               <span className="block bg-gradient-to-r from-yellow-300 via-orange-400 to-pink-400 bg-clip-text text-transparent">
-                Starts Right Now!
+                {t('seachat.pricing.cta.subtitle')}
               </span>
             </h2>
             <p className="text-xl sm:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
-              Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels
+              {t('seachat.pricing.cta.description')}
             </p>
           </motion.div>
           
@@ -900,30 +903,30 @@ const PricingPage = () => {
             <div className="text-center">
               <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
                 <MessageSquare className="w-8 h-8 mr-2 text-green-400" />
-                100K+
+                {t('seachat.pricing.cta.stats.messages')}
               </div>
-              <div className="text-sm text-blue-200">Messages Daily</div>
+              <div className="text-sm text-blue-200">{t('seachat.pricing.cta.stats.messagesLabel')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
                 <Clock className="w-8 h-8 mr-2 text-yellow-400" />
-                99.9%
+                {t('seachat.pricing.cta.stats.uptime')}
               </div>
-              <div className="text-sm text-blue-200">Uptime Guarantee</div>
+              <div className="text-sm text-blue-200">{t('seachat.pricing.cta.stats.uptimeLabel')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
                 <Globe className="w-8 h-8 mr-2 text-blue-400" />
-                15+
+                {t('seachat.pricing.cta.stats.channels')}
               </div>
-              <div className="text-sm text-blue-200">Channels Supported</div>
+              <div className="text-sm text-blue-200">{t('seachat.pricing.cta.stats.channelsLabel')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl sm:text-5xl font-black text-white mb-2 flex items-center justify-center">
                 <Shield className="w-8 h-8 mr-2 text-purple-400" />
-                HIPAA
+                {t('seachat.pricing.cta.stats.hipaa')}
               </div>
-              <div className="text-sm text-blue-200">Compliant & Secure</div>
+              <div className="text-sm text-blue-200">{t('seachat.pricing.cta.stats.hipaaLabel')}</div>
             </div>
           </motion.div>
           
@@ -941,7 +944,7 @@ const PricingPage = () => {
             >
               <span className="relative z-10 flex items-center">
                 <Zap className="w-8 h-8 mr-3 animate-bounce" />
-                START TRULY FREE FIRST
+                {t('seachat.pricing.cta.startFree')}
                 <ArrowRight className="w-8 h-8 ml-3 group-hover:translate-x-2 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -952,7 +955,7 @@ const PricingPage = () => {
               className="inline-flex items-center px-8 py-4 text-xl font-semibold text-white border-2 border-white rounded-2xl hover:bg-white hover:text-indigo-900 transition-all duration-300 transform hover:scale-105"
             >
               <MessageSquare className="w-6 h-6 mr-3" />
-              Book Live Demo
+              {t('seachat.pricing.cta.bookDemo')}
             </a>
           </motion.div>
           
@@ -966,19 +969,19 @@ const PricingPage = () => {
           >
             <div className="flex items-center gap-2">
               <Check className="w-6 h-6 text-green-400" />
-              <span className="font-semibold">No Coding Required</span>
+              <span className="font-semibold">{t('seachat.pricing.cta.badges.noCoding')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-6 h-6 text-green-400" />
-              <span className="font-semibold">Free Forever Plan</span>
+              <span className="font-semibold">{t('seachat.pricing.cta.badges.freePlan')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-6 h-6 text-green-400" />
-              <span className="font-semibold">Cancel Anytime</span>
+              <span className="font-semibold">{t('seachat.pricing.cta.badges.cancelAnytime')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Check className="w-6 h-6 text-green-400" />
-              <span className="font-semibold">24/7 Support</span>
+              <span className="font-semibold">{t('seachat.pricing.cta.badges.support')}</span>
             </div>
           </motion.div>
           
@@ -992,7 +995,7 @@ const PricingPage = () => {
           >
             <div className="p-6 bg-gradient-to-r from-red-500/20 to-pink-500/20 backdrop-blur rounded-2xl border border-white/30 animate-pulse">
               <p className="text-white font-bold text-lg">
-                <span className="text-yellow-300">Limited Time:</span> Get 2 months free on annual plans + priority onboarding support!
+                <span className="text-yellow-300">Limited Time:</span> {t('seachat.pricing.cta.urgency')}
               </p>
             </div>
           </motion.div>

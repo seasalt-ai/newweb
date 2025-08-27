@@ -2044,17 +2044,6 @@
       "chatVolume": "Monthly Chat Volume",
       "agents": "Number of Agents",
       "plans": {
-        "custom": {
-          "name": "Custom",
-          "price": "Let's build a project",
-          "period": "Negotiate your own price",
-          "feature1": "Multiple workspaces",
-          "feature2": "Perfect for agencies",
-          "feature3": "Custom API integrations",
-          "feature4": "HIPAA compliance",
-          "feature5": "White-label options",
-          "cta": "Contact Us"
-        },
         "free": {
           "name": "Truly Free",
           "tagline": "Experience a trial of powerful features",
@@ -2078,6 +2067,9 @@
           "name": "Premium",
           "tagline": "Add more AI Agents and Knowledge Files",
           "description": "Scale your support with AI automation",
+          "month": "month",
+          "year": "year",
+          "year_description": "Saves 2 months every year",
           "features": {
             "humanAgents": "4 human users (additional human user costs $10/month)",
             "humanAgentPermission": "Support human agent permission",

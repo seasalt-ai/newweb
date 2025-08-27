@@ -2044,17 +2044,6 @@
       "chatVolume": "每月聊天量",
       "agents": "客服數量",
       "plans": {
-        "custom": {
-          "name": "客製化",
-          "price": "讓我們建立專案",
-          "period": "協商您自己的價格",
-          "feature1": "多個工作空間",
-          "feature2": "適合代理商",
-          "feature3": "客製化 API 整合",
-          "feature4": "HIPAA 合規",
-          "feature5": "白標選項",
-          "cta": "聯絡我們"
-        },
         "free": {
           "name": "真正免費",
           "tagline": "體驗強大功能的試用版",
@@ -2078,6 +2067,9 @@
           "name": "高級版",
           "tagline": "新增更多 AI 智能助手與知識檔案",
           "description": "利用 AI 自動化來擴展您的支援服務",
+          "month": "月",
+          "year": "年",
+          "year_description": "每年計費可節省2個月",
           "features": {
             "humanAgents": "4 個人類用戶（額外的人類用戶每月費用 $10）",
             "humanAgentPermission": "支援真人客服權限",
