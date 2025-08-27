@@ -4,7 +4,7 @@ This repository contains the source code for the Seasalt.ai website, a React-bas
 
 Prompt to do i18n:
 
-src/seachat/components/Testimonials.tsx still has hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
+src/seachat/pages/PricingPage.tsx still has hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
 
 under the src/seachat/components/hero-animations folder, there are a few *.tsx files, they still have hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
 

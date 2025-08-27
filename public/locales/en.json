@@ -2121,7 +2121,17 @@
             "slotExtractors": "Slot extractors from conversations",
             "timezoneFeatures": "Local time awareness with timezone support, for:",
             "businessHours": "business hours",
-            "appointmentBooking": "appointment booking"
+            "appointmentBooking": "appointment booking",
+            "humanAgent": "4 human users (additional human user costs $10/month)",
+            "supportHumanAgent": "Support human agent permission",
+            "liveTransferToHuman": "Live transfer from AI agent to human agent",
+            "liveTransferToAI": "Live transfer from human agent to AI agent",
+            "additionalChannels": "Additional channels: Line, Call, Phone Call",
+            "additionalIntegrations": "Additional integrations: Google Calendar to auto book meetings",
+            "knowledgeBaseTitle": "Knowledge Base:",
+            "automationTitle": "Automation:",
+            "voiceAgentsTitle": "Voice AI Agents:",
+            "timezoneTitle": "Local time awareness with timezone support, for:"
           },
           "buttonText": "Start Premium"
         },
@@ -2139,6 +2149,163 @@
           },
           "buttonText": "Contact Us"
         }
+      },
+      "billing": {
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "year": "year",
+        "month": "month",
+        "save": "Save 2 months vs monthly billing"
+      },
+      "calculator": {
+        "title": "Premium Plan Usage Calculator",
+        "description": "Estimate your costs based on your usage patterns",
+        "modelSelect": "Select AI Model",
+        "priceBreakdown": "Cost Breakdown",
+        "licenseYearly": "License fee (save 2 months):",
+        "licenseFee": "License fee:",
+        "usageCost": "Usage cost:",
+        "usageCostYearly": "Usage cost (12 months):",
+        "addOnsCost": "Add-ons cost:",
+        "addOnsCostYearly": "Add-ons cost (12 months):",
+        "totalPerYear": "Total per year:",
+        "totalPerMonth": "Total per month:",
+        "averagePerMonth": "Average per month:",
+        "aiUsage": "AI Usage (Pay per use)",
+        "chatResponses": "Monthly Chat Responses:",
+        "voiceMinutes": "Monthly Voice Minutes:",
+        "voiceMinutesNote": "USA/Canada only",
+        "chatCost": "Chat Cost",
+        "voiceCost": "Voice Cost",
+        "additionalResources": "Additional Resources",
+        "humanAgents": "Human Agents:",
+        "aiAgents": "AI Agents:",
+        "workspaces": "Workspaces:",
+        "included": "Included:",
+        "extra": "Extra:",
+        "disclaimer": "Usage costs are calculated based on actual consumption. The Premium plan includes:",
+        "disclaimerDetails": "License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
+        "planIncludes": "Premium Plan Includes:",
+        "planIncludesHuman": "4 Human Agents",
+        "planIncludesAI": "10 AI Agents",
+        "planIncludesWorkspaces": "2 Workspaces"
+      },
+      "note": "Prices vary by country. The prices listed are for the United States. For other countries, please contact us.",
+      "comparison": {
+        "title": "Compare All Features",
+        "subtitle": "See exactly what's included in each plan",
+        "featuresTitle": "Features",
+        "trulyFree": "Truly Free",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Human Agents",
+        "aiAgents": "AI Agents",
+        "aiModels": "AI Models",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAI": "Voice AI Agents",
+        "phoneCalls": "Phone Calls",
+        "automation": "Automation",
+        "apiIntegration": "API Integration",
+        "workspaces": "Workspaces",
+        "support": "Support",
+        "features": {
+          "humanAgents": {
+            "free": "1 agent",
+            "premium": "4 users",
+            "enterprise": "Unlimited"
+          },
+          "aiAgents": {
+            "free": "1 agent (100 replies)",
+            "premium": "10 agents (unlimited)",
+            "enterprise": "Custom build"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Advanced models"
+          },
+          "knowledgeBase": {
+            "free": "20 docs (200KB)",
+            "premium": "5000 docs (10MB each)",
+            "enterprise": "Unlimited"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Inbound/Outbound",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Advanced",
+            "enterprise": "✅ Custom"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Custom"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 ($15 each extra)",
+            "enterprise": "Multiple"
+          },
+          "support": {
+            "free": "Community",
+            "premium": "Email + Phone",
+            "enterprise": "Dedicated technical"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Need Something Custom?",
+        "description": "We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
+        "contactSales": "Contact Sales Team"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "question1": "Is the free plan really free forever?",
+        "answer1": "Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
+        "question2": "What's the difference between monthly and yearly billing?",
+        "answer2": "With yearly billing, you save 2 months on the Premium plan ($299/year vs $359.88/year if paid monthly). The billing cycle only affects the Premium plan - the Free plan is always free and Enterprise is custom pricing.",
+        "question3": "Can I upgrade or downgrade my plan anytime?",
+        "answer3": "Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle.",
+        "question4": "What happens if I exceed my AI reply limit on the Free plan?",
+        "answer4": "The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
+        "question5": "How does the Premium plan pricing work?",
+        "answer5": "Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
+        "question6": "What happens to my data if I cancel?",
+        "answer6": "You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.",
+        "question7": "Do you offer custom pricing for large enterprises?",
+        "answer7": "Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
+      },
+      "cta": {
+        "title": "Your AI Chat Revolution",
+        "subtitle": "Starts Right Now!",
+        "description": "Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "Messages Daily",
+          "uptime": "99.9%",
+          "uptimeLabel": "Uptime Guarantee",
+          "channels": "15+",
+          "channelsLabel": "Channels Supported",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Compliant & Secure"
+        },
+        "startFree": "START TRULY FREE FIRST",
+        "bookDemo": "Book Live Demo",
+        "badges": {
+          "noCoding": "No Coding Required",
+          "freePlan": "Free Forever Plan",
+          "cancelAnytime": "Cancel Anytime",
+          "support": "24/7 Support"
+        },
+        "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!"
       }
     },
     "knowledgeBase": {
