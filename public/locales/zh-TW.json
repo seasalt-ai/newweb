@@ -2044,11 +2044,73 @@
       "chatVolume": "每月聊天量",
       "agents": "客服數量",
       "plans": {
+        "title": "選擇您的方案",
+        "description": "免費開始，並隨著您的成長靈活調整定價選項",
+        "liveAgent": {
+          "name": "真人客服",
+          "price": "$0",
+          "period": "永久免費",
+          "tagline": "👤 僅真人客服",
+          "highlight": "🌟 所有通道 + 僅真人客服",
+          "channels": "WhatsApp • Messenger • Line • Instagram • 網頁聊天",
+          "feature1": "包含 1 位真人客服",
+          "feature2": "無限真人對話",
+          "feature3": "100 次 AI 回覆試用功能",
+          "feature4": "基本 Shopify 整合",
+          "cta": "🚀 立即免費開始",
+          "poweredBy": "由 SeaChat 提供"
+        },
+        "whatsappOnly": {
+          "name": "僅 WhatsApp",
+          "price": "$19.99",
+          "period": "每用戶/月",
+          "tagline": "💬 僅訊息功能",
+          "highlight": "📲 WHATSAPP 商業專家",
+          "channels": "活動 • API • 雙向聊天",
+          "feature1": "WhatsApp Business 平台",
+          "feature2": "活動管理工具",
+          "feature3": "WhatsApp API 存取",
+          "feature4": "無限聯絡人和範本",
+          "cta": "📱 開始使用 WHATSAPP",
+          "poweredBy": "由 SeaX 提供"
+        },
+        "omnichannel": {
+          "name": "全通道",
+          "firstUserPrice": "$99",
+          "firstUserLabel": "第一位用戶",
+          "additionalUserPrice": "$49",
+          "additionalUserLabel": "每位額外用戶",
+          "period": "每月",
+          "tagline": "🌐 一個介面，所有通道",
+          "popular": "🏆 最受歡迎",
+          "highlight": "🎯 完整聯絡中心",
+          "subHighlight": "撥打和接聽電話！",
+          "feature1": "客服可撥打和接聽電話",
+          "feature2": "SMS + 語音 + WHATSAPP",
+          "feature3": "語音和 SMS 活動",
+          "feature4": "RESTful API + SeaChat 整合",
+          "cta": "🚀 開始完整中心",
+          "poweredBy": "由 SeaX 提供"
+        },
+        "custom": {
+          "name": "客製化",
+          "price": "讓我們建立專案",
+          "period": "協商您自己的價格",
+          "feature1": "多個工作空間",
+          "feature2": "適合代理商",
+          "feature3": "客製化 API 整合",
+          "feature4": "HIPAA 合規",
+          "feature5": "白標選項",
+          "cta": "聯絡我們"
+        },
+        "popularBadge": "最受歡迎",
+        "ctaStyles": {
+          "primary": "立即註冊"
+        },
         "free": {
           "name": "真正免費",
+          "tagline": "體驗強大功能的試用版",
           "description": "開始使用真人客服的完美選擇",
-          "price": "0",
-          "period": "/月",
           "features": {
             "humanAgent": "1 個真人客服",
             "unlimitedHumanChats": "無限制真人客服聊天",
@@ -2062,25 +2124,7 @@
             "knowledgeBase": "知識庫包含 20 個文件（最大 200KB）和 250k 令牌",
             "workspace": "1 個工作空間"
           },
-          "limitations": "無 AI 自動化,有限整合",
-          "button": "免費開始",
-          "tagline": "體驗強大功能的試用版",
           "buttonText": "免費開始"
-        },
-        "enterprise": {
-          "name": "企業版",
-          "description": "為大型組織提供的客製化解決方案",
-          "features": {
-            "premiumIncluded": "包含進階版的所有功能",
-            "customBuild": "客製化建置",
-            "multipleWorkspaces": "多個工作空間 - 適合代理商",
-            "workspaceAgents": "每個工作空間都有多個 AI 代理和電話號碼",
-            "customAPI": "客製化 API 整合",
-            "fineTuning": "根據您的指導方針進行微調並提供技術支援"
-          },
-          "button": "聯絡銷售",
-          "tagline": "客製化您的專屬 AI 代理",
-          "buttonText": "聯絡我們"
         },
         "premium": {
           "name": "進階版",
@@ -2132,6 +2176,20 @@
             "appointmentBooking": "預約預訂"
           },
           "buttonText": "開始進階版"
+        },
+        "enterprise": {
+          "name": "企業版",
+          "tagline": "客製化您的專屬 AI 代理",
+          "description": "為大型組織提供的客製化解決方案",
+          "features": {
+            "premiumIncluded": "包含進階版的所有功能",
+            "customBuild": "客製化建置",
+            "multipleWorkspaces": "多個工作空間 - 適合代理商",
+            "workspaceAgents": "每個工作空間都有多個 AI 代理和電話號碼",
+            "customAPI": "客製化 API 整合",
+            "fineTuning": "根據您的指導方針進行微調並提供技術支援"
+          },
+          "buttonText": "聯絡我們"
         }
       },
       "enterprise": {

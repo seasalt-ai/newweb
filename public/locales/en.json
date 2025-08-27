@@ -2044,11 +2044,73 @@
       "chatVolume": "Monthly Chat Volume",
       "agents": "Number of Agents",
       "plans": {
+        "title": "Choose Your Plan",
+        "description": "Start free and scale as you grow with our flexible pricing options",
+        "liveAgent": {
+          "name": "Live Agent",
+          "price": "$0",
+          "period": "FREE FOREVER",
+          "tagline": "👤 HUMAN ONLY",
+          "highlight": "🌟 ALL CHANNELS + HUMAN AGENTS ONLY",
+          "channels": "WhatsApp • Messenger • Line • Instagram • Web Chat",
+          "feature1": "1 human agent included",
+          "feature2": "Unlimited human conversations",
+          "feature3": "100 AI replies to try features",
+          "feature4": "Basic Shopify integrations",
+          "cta": "🚀 START FREE NOW",
+          "poweredBy": "Powered by SeaChat"
+        },
+        "whatsappOnly": {
+          "name": "WhatsApp Only",
+          "price": "$19.99",
+          "period": "PER USER/MONTH",
+          "tagline": "💬 MESSAGING ONLY",
+          "highlight": "📲 WHATSAPP BUSINESS SPECIALIST",
+          "channels": "Campaigns • API • 2-Way Chat",
+          "feature1": "WhatsApp Business Platform",
+          "feature2": "Campaign management tools",
+          "feature3": "WhatsApp API access",
+          "feature4": "Unlimited contacts & templates",
+          "cta": "📱 START WHATSAPP",
+          "poweredBy": "Powered by SeaX"
+        },
+        "omnichannel": {
+          "name": "Omnichannel",
+          "firstUserPrice": "$99",
+          "firstUserLabel": "FIRST USER",
+          "additionalUserPrice": "$49",
+          "additionalUserLabel": "EACH EXTRA",
+          "period": "PER MONTH",
+          "tagline": "🌐 ONE UI, ALL CHANNELS",
+          "popular": "🏆 MOST POPULAR",
+          "highlight": "🎯 COMPLETE CONTACT CENTER",
+          "subHighlight": "Make & Receive PHONE CALLS!",
+          "feature1": "AGENTS MAKE & RECEIVE CALLS",
+          "feature2": "SMS + VOICE + WHATSAPP",
+          "feature3": "Voice & SMS campaigns",
+          "feature4": "RESTful API + SeaChat integration",
+          "cta": "🚀 START FULL CENTER",
+          "poweredBy": "Powered by SeaX"
+        },
+        "custom": {
+          "name": "Custom",
+          "price": "Let's build a project",
+          "period": "Negotiate your own price",
+          "feature1": "Multiple workspaces",
+          "feature2": "Perfect for agencies",
+          "feature3": "Custom API integrations",
+          "feature4": "HIPAA compliance",
+          "feature5": "White-label options",
+          "cta": "Contact Us"
+        },
+        "popularBadge": "Most Popular",
+        "ctaStyles": {
+          "primary": "Sign Up Now"
+        },
         "free": {
           "name": "Truly Free",
+          "tagline": "Experience a trial of powerful features",
           "description": "Perfect for getting started with human agents",
-          "price": "0",
-          "period": "/month",
           "features": {
             "humanAgent": "1 human agent",
             "unlimitedHumanChats": "Unlimited human agent chats",
@@ -2062,25 +2124,7 @@
             "knowledgeBase": "Knowledge base includes 20 documents (200KB max) and 250k tokens",
             "workspace": "1 workspace"
           },
-          "limitations": "No AI automation,Limited integrations",
-          "button": "Start Free",
-          "tagline": "Experience a trial of powerful features",
           "buttonText": "Get Started Free"
-        },
-        "enterprise": {
-          "name": "Enterprise",
-          "description": "Custom solutions for large organizations",
-          "features": {
-            "premiumIncluded": "Everything in Premium plan",
-            "customBuild": "Custom build",
-            "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
-            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
-            "customAPI": "Custom API integration",
-            "fineTuning": "Fine-tuning with your guidelines and technical support"
-          },
-          "button": "Contact Sales",
-          "tagline": "Customize your exclusive AI agents",
-          "buttonText": "Contact Us"
         },
         "premium": {
           "name": "Premium",
@@ -2132,6 +2176,20 @@
             "appointmentBooking": "appointment booking"
           },
           "buttonText": "Start Premium"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "tagline": "Customize your exclusive AI agents",
+          "description": "Custom solutions for large organizations",
+          "features": {
+            "premiumIncluded": "Everything in Premium plan",
+            "customBuild": "Custom build",
+            "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "customAPI": "Custom API integration",
+            "fineTuning": "Fine-tuning with your guidelines and technical support"
+          },
+          "buttonText": "Contact Us"
         }
       },
       "enterprise": {
