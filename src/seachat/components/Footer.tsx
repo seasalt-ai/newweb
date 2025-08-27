@@ -62,9 +62,9 @@ const Footer = () => {
     { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
     { name: t('header.pricing'), href: `/${currentLanguage}/seachat/pricing`, icon: DollarSign },
     { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
-    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai/seachat', icon: Book },
-    { name: 'API References', href: 'https://api.seasalt.ai', icon: Server },
-    { name: 'Careers', href: `/${currentLanguage}/careers`, icon: Briefcase },
+    { name: t('seachat.footer.company.productWiki'), href: 'https://wiki.seasalt.ai/seachat', icon: Book },
+    { name: t('seachat.footer.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
+    { name: t('seachat.footer.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
     { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
   ];
 
@@ -79,22 +79,21 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transform your customer support with the perfect blend of human agents and AI automation. 
-              Start free, scale smart, succeed faster.
+              {t('seachat.footer.brand.description')}
             </p>
             
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-3 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>info@seasalt.ai</span>
+                <span>{t('seachat.footer.contact.email')}</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>+1 (SMB)-AI-AGENT</span>
+                <span>{t('seachat.footer.contact.phone')}</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-4 h-4" />
-                <span>Seattle, WA</span>
+                <span>{t('seachat.footer.contact.location')}</span>
               </div>
             </div>
             
@@ -373,14 +372,14 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
+                {t('seachat.footer.copyright', { year: new Date().getFullYear() })}
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
                 <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Privacy Policy
+                  {t('seachat.footer.legal.privacyPolicy')}
                 </Link>
                 <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Terms of Service
+                  {t('seachat.footer.legal.termsOfService')}
                 </Link>
               </div>
             </div>
@@ -389,15 +388,15 @@ const Footer = () => {
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
               <span className="flex items-center">
                 <MessageSquare className="w-4 h-4 mr-1" />
-                5M+ Messages Daily
+                {t('seachat.footer.stats.messagesDaily')}
               </span>
               <span className="flex items-center">
                 <Users className="w-4 h-4 mr-1" />
-                100K+ Active Users
+                {t('seachat.footer.stats.activeUsers')}
               </span>
               <span className="flex items-center">
                 <Shield className="w-4 h-4 mr-1" />
-                99.9% Uptime
+                {t('seachat.footer.stats.uptime')}
               </span>
             </div>
           </div>
@@ -405,7 +404,7 @@ const Footer = () => {
           {/* Fun Footer Tagline */}
           <div className="text-center text-gray-400 text-sm mt-8">
             <p>
-              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
+              {t('seachat.footer.tagline.madeWith')} <Heart className="inline w-4 h-4 text-red-500" /> {t('seachat.footer.tagline.inTheCity')}{' '}
               <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
               <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
               <Plane className="inline w-4 h-4 text-gray-500" />{' '}
@@ -419,27 +418,27 @@ const Footer = () => {
       <div className="bg-gradient-to-r from-teal-600 to-cyan-600 py-6 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
-            Ready to Transform Your Customer Support?
+            {t('seachat.footer.cta.title')}
           </h3>
           <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
-            Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.
+            {t('seachat.footer.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
               href="https://chat.seasalt.ai/gpt/signup"
               className="bg-white text-teal-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Sign Up Free
+              {t('seachat.footer.cta.signUpFree')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Schedule Demo
+              {t('seachat.footer.cta.scheduleDemo')}
             </a>
           </div>
           <p className="text-sm text-white opacity-75 mt-4">
-            No credit card required • Setup in 2 minutes • Cancel anytime
+            {t('seachat.footer.cta.disclaimer')}
           </p>
         </div>
       </div>

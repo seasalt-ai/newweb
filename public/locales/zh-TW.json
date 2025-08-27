@@ -2555,17 +2555,48 @@
     },
     "footer": {
       "product": "產品",
-      "company": "公司",
+      "company": {
+        "productWiki": "產品 Wiki",
+        "apiReferences": "API 參考",
+        "careers": "工作機會"
+      },
       "resources": "資源",
-      "legal": "法律與支援",
+      "legal": {
+        "privacyPolicy": "隱私權政策",
+        "termsOfService": "服務條款"
+      },
       "getStarted": "準備好開始了嗎？",
       "joinThousands": "加入數千家已經在使用 SeaChat 提供卓越客戶體驗的企業。",
       "enterEmail": "輸入您的電子郵件",
       "noCredit": "無需信用卡 • 2 分鐘內完成設定 • 隨時取消",
-      "copyright": "© 2024 SeaChat. 保留所有權利。",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. 保留所有權利。",
       "compliance": "🔒 符合 SOC 2",
       "gdpr": "🛡️ 符合 GDPR",
-      "uptime": "⚡ 99.9% 正常運行時間"
+      "uptime": "⚡ 99.9% 正常運行時間",
+      "brand": {
+        "description": "透過人工專員與 AI 自動化的完美結合轉變您的客戶支援。免費開始，智能擴展，更快成功。"
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "西雅圖，華盛頓州"
+      },
+      "stats": {
+        "messagesDaily": "每日 500 萬+ 訊息",
+        "activeUsers": "10 萬+ 活躍用戶",
+        "uptime": "99.9% 正常運行時間"
+      },
+      "tagline": {
+        "madeWith": "由",
+        "inTheCity": "在城市中製作"
+      },
+      "cta": {
+        "title": "準備好轉變您的客戶支援了嗎？",
+        "description": "加入數千家使用 SeaChat 透過 AI 驅動的聊天支援提供卓越客戶體驗的企業。",
+        "signUpFree": "免費註冊",
+        "scheduleDemo": "安排演示",
+        "disclaimer": "無需信用卡 • 2 分鐘內設定 • 隨時取消"
+      }
     },
     "featureComparison": {
       "title": "為什麼選擇 SeaChat 而不是競爭對手？",

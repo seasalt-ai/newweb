@@ -2555,17 +2555,48 @@
     },
     "footer": {
       "product": "Product",
-      "company": "Company",
+      "company": {
+        "productWiki": "Product Wiki",
+        "apiReferences": "API References",
+        "careers": "Careers"
+      },
       "resources": "Resources",
-      "legal": "Legal & Support",
+      "legal": {
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
+      },
       "getStarted": "Ready to Get Started?",
       "joinThousands": "Join thousands of businesses already using SeaChat to deliver exceptional customer experiences.",
       "enterEmail": "Enter your email",
       "noCredit": "No credit card required • Setup in 2 minutes • Cancel anytime",
-      "copyright": "© 2024 SeaChat. All rights reserved.",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
       "compliance": "🔒 SOC 2 Compliant",
       "gdpr": "🛡️ GDPR Ready",
-      "uptime": "⚡ 99.9% Uptime"
+      "uptime": "⚡ 99.9% Uptime",
+      "brand": {
+        "description": "Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "5M+ Messages Daily",
+        "activeUsers": "100K+ Active Users",
+        "uptime": "99.9% Uptime"
+      },
+      "tagline": {
+        "madeWith": "Made with",
+        "inTheCity": "in the city of"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Customer Support?",
+        "description": "Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.",
+        "signUpFree": "Sign Up Free",
+        "scheduleDemo": "Schedule Demo",
+        "disclaimer": "No credit card required • Setup in 2 minutes • Cancel anytime"
+      }
     },
     "featureComparison": {
       "title": "Why Choose SeaChat Over the Competition?",
