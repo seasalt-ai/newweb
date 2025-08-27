@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, Instagram, Facebook, Mail, Phone, Globe, User, Bot, Check } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Channel {
   id: string;
@@ -19,41 +20,58 @@ interface Message {
 }
 
 const InteractiveChannels = () => {
+  const { t } = useTranslation();
   const [channels, setChannels] = useState<Channel[]>([
     {
       id: 'whatsapp',
-      name: 'WhatsApp',
+      name: t('seachat.heroAnimations.interactiveChannels.channelNames.whatsapp'),
       icon: MessageCircle,
       color: 'text-green-600',
       bgColor: 'bg-green-500',
-      messages: ['Hi! Need help with my order 📦', 'What\'s your return policy?', 'Thanks for the quick response! 😊'],
+      messages: [
+        t('seachat.heroAnimations.interactiveChannels.whatsapp.messages.0'),
+        t('seachat.heroAnimations.interactiveChannels.whatsapp.messages.1'),
+        t('seachat.heroAnimations.interactiveChannels.whatsapp.messages.2')
+      ],
       active: false,
     },
     {
       id: 'instagram',
-      name: 'Instagram',
+      name: t('seachat.heroAnimations.interactiveChannels.channelNames.instagram'),
       icon: Instagram,
       color: 'text-pink-600',
       bgColor: 'bg-pink-500',
-      messages: ['Love your new product! 💕', 'Is this available in blue?', 'Can you ship to Europe?'],
+      messages: [
+        t('seachat.heroAnimations.interactiveChannels.instagram.messages.0'),
+        t('seachat.heroAnimations.interactiveChannels.instagram.messages.1'),
+        t('seachat.heroAnimations.interactiveChannels.instagram.messages.2')
+      ],
       active: false,
     },
     {
       id: 'website',
-      name: 'Website',
+      name: t('seachat.heroAnimations.interactiveChannels.channelNames.website'),
       icon: Globe,
       color: 'text-blue-600',
       bgColor: 'bg-blue-500',
-      messages: ['I need technical support', 'How do I reset my password?', 'The checkout isn\'t working'],
+      messages: [
+        t('seachat.heroAnimations.interactiveChannels.website.messages.0'),
+        t('seachat.heroAnimations.interactiveChannels.website.messages.1'),
+        t('seachat.heroAnimations.interactiveChannels.website.messages.2')
+      ],
       active: true,
     },
     {
       id: 'email',
-      name: 'Email',
+      name: t('seachat.heroAnimations.interactiveChannels.channelNames.email'),
       icon: Mail,
       color: 'text-red-600',
       bgColor: 'bg-red-500',
-      messages: ['Following up on my previous email', 'Request for bulk pricing', 'Thank you for your assistance'],
+      messages: [
+        t('seachat.heroAnimations.interactiveChannels.email.messages.0'),
+        t('seachat.heroAnimations.interactiveChannels.email.messages.1'),
+        t('seachat.heroAnimations.interactiveChannels.email.messages.2')
+      ],
       active: false,
     },
   ]);
@@ -88,7 +106,7 @@ const InteractiveChannels = () => {
       setTimeout(() => {
         const agentResponse: Message = {
           id: Date.now() + 1,
-          text: 'I\'d be happy to help you with that! Let me check that information for you.',
+          text: t('seachat.heroAnimations.interactiveChannels.agentResponse'),
           sender: 'agent',
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         };
@@ -175,10 +193,10 @@ const InteractiveChannels = () => {
               {activeChannelData && React.createElement(activeChannelData.icon, { className: "w-4 h-4" })}
             </div>
             <div>
-              <h3 className="font-semibold">{activeChannelData?.name} Support</h3>
+              <h3 className="font-semibold">{activeChannelData?.name} {t('seachat.heroAnimations.interactiveChannels.supportSuffix')}</h3>
               <div className="flex items-center space-x-1 text-sm opacity-90">
                 <div className="w-2 h-2 bg-green-300 rounded-full" />
-                <span>Online</span>
+                <span>{t('seachat.heroAnimations.interactiveChannels.online')}</span>
               </div>
             </div>
           </div>
@@ -244,7 +262,7 @@ const InteractiveChannels = () => {
           <div className="flex space-x-2">
             <input
               type="text"
-              placeholder="Type your message..."
+              placeholder={t('seachat.heroAnimations.interactiveChannels.typePlaceholder')}
               className="flex-1 px-3 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
               disabled
             />
@@ -283,8 +301,8 @@ const InteractiveChannels = () => {
 
       {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 text-center">
-        <h3 className="text-lg font-bold text-gray-800">Interactive Channel Selector</h3>
-        <p className="text-sm text-gray-600">Click channels to see different conversations</p>
+        <h3 className="text-lg font-bold text-gray-800">{t('seachat.heroAnimations.interactiveChannels.title')}</h3>
+        <p className="text-sm text-gray-600">{t('seachat.heroAnimations.interactiveChannels.subtitle')}</p>
       </div>
     </div>
   );
