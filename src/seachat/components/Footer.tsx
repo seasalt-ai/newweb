@@ -404,7 +404,7 @@ const Footer = () => {
           {/* Fun Footer Tagline */}
           <div className="text-center text-gray-400 text-sm mt-8">
             <p>
-              {t('seachat.footer.tagline.madeWith')} <Heart className="inline w-4 h-4 text-red-500" /> {t('seachat.footer.tagline.inTheCity')}{' '}
+              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
               <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
               <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
               <Plane className="inline w-4 h-4 text-gray-500" />{' '}
