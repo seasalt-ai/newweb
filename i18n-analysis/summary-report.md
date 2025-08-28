@@ -1,15 +1,15 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-28T06:45:40.207Z
+Generated: 2025-08-28T07:02:33.454Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
 - **Base Language (en) Keys**: 3929
 - **Components Analyzed**: 210
-- **Translation Coverage**: 65.07%
+- **Translation Coverage**: 64.89%
 - **Missing Keys**: 1918
-- **Hardcoded Strings Found**: 3703
+- **Hardcoded Strings Found**: 3695
 
 ## Translation Files Status
 
@@ -45,7 +45,7 @@ Generated: 2025-08-28T06:45:40.207Z
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3703 hardcoded strings that should be internationalized
+**Description**: Found 3695 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1979,7 +1979,7 @@ seax.channels.smsLocal.pricing
 ## Hardcoded Strings Summary
 
 
-Found 3703 potential hardcoded strings across components:
+Found 3695 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2022,7 +2022,7 @@ Found 3703 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3693 more. See hardcoded-strings.json for complete list.
+... and 3685 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2036,7 +2036,7 @@ Found 3703 potential hardcoded strings across components:
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3703 hardcoded strings that should be internationalized
+**Description**: Found 3695 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

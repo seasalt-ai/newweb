@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-28T06:45:40.207Z",
+  "timestamp": "2025-08-28T07:02:33.454Z",
   "translation_files": {
     "ar": {
       "file_path": "public/locales/ar.json",
@@ -77067,21 +77067,6 @@
           "type": "jsx-text"
         },
         {
-          "text": "Transparent Pricing",
-          "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Simple, predictable pricing that scales with your business",
-          "context": "                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto\">",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Per Message",
-          "context": "                    <TrendingUp className=\"w-6 h-6 text-purple-600\" />\n                  </div>\n                  <div className=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div className=\"text-2xl font-bold text-purple-600\">\n                    {pricing.perMessage || pricing.perMinute}\n                  </div>",
-          "type": "jsx-text"
-        },
-        {
           "text": "Ready to Scale Your Outreach?",
           "context": "      <div className=\"py-20 bg-gray-900\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-3xl font-bold text-white mb-4\">\n            Ready to Scale Your Outreach?\n          </h2>\n          <p className=\"text-xl text-gray-300 mb-8\">\n            Join thousands of businesses reaching millions with SeaX\n          </p>",
           "type": "jsx-text"
@@ -77104,10 +77089,6 @@
         {
           "text": "Get Started",
           "context": "r space-x-2\"\n              >\n                <span>Get Started</span>\n                <ArrowRight cl"
-        },
-        {
-          "text": "Per Message",
-          "context": "assName=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div classNam"
         },
         {
           "text": "Get Started Today",
@@ -81462,6 +81443,8 @@
         "seax.channels.smsLocal.features.subtitle",
         "seax.channels.smsLocal.useCases.title",
         "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
         "seax.channels.smsLocal.compliance.title",
         "seax.channels.smsLocal.compliance.description",
         "seax.channels.smsLocal.compliance.brandRegistration.title",
@@ -81534,62 +81517,50 @@
     "src/seax/pages/channels/SMSTollFree.tsx": {
       "has_use_translation": true,
       "translation_keys": [
-        "seax.channels.smsTollFree.hero.title",
-        "seax.channels.smsTollFree.hero.status",
-        "seax.channels.smsTollFree.hero.dedicatedNumber",
-        "seax.channels.smsTollFree.hero.deliveryRate",
-        "seax.channels.smsTollFree.hero.higherTrust",
-        "seax.channels.smsTollFree.hero.recentMessages.title",
-        "seax.channels.smsTollFree.hero.recentMessages.customerSupport.title",
-        "seax.channels.smsTollFree.hero.recentMessages.customerSupport.details",
-        "seax.channels.smsTollFree.hero.recentMessages.survey.title",
-        "seax.channels.smsTollFree.hero.recentMessages.survey.details",
-        "seax.channels.smsTollFree.stats.deliveryRate",
-        "seax.channels.smsTollFree.stats.higherTrust",
-        "seax.channels.smsTollFree.stats.responseRate",
-        "seax.channels.smsTollFree.testimonial.quote",
-        "seax.channels.smsTollFree.testimonial.author",
-        "seax.channels.smsTollFree.testimonial.company",
-        "seax.channels.smsTollFree.testimonial.results",
-        "seax.channels.smsTollFree.title",
-        "seax.channels.smsTollFree.subtitle",
-        "seax.channels.smsTollFree.description",
-        "seax.channels.smsTollFree.seo.title",
-        "seax.channels.smsTollFree.seo.description",
-        "seax.channels.smsTollFree.trust.title",
-        "seax.channels.smsTollFree.trust.description",
-        "seax.channels.smsTollFree.trust.professionalImage.title",
-        "seax.channels.smsTollFree.trust.professionalImage.description",
-        "seax.channels.smsTollFree.trust.noCarrierFees.title",
-        "seax.channels.smsTollFree.trust.noCarrierFees.description",
-        "seax.channels.smsTollFree.trust.higherResponse.title",
-        "seax.channels.smsTollFree.trust.higherResponse.description"
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing",
+        "seax.channels.smsLocal.hero.campaign.title",
+        "seax.channels.smsLocal.hero.campaign.status",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.messagesSent",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.recentActivity.title",
+        "seax.channels.smsLocal.hero.recentActivity.marketing.title",
+        "seax.channels.smsLocal.hero.recentActivity.marketing.details",
+        "seax.channels.smsLocal.hero.recentActivity.appointment.title",
+        "seax.channels.smsLocal.hero.recentActivity.appointment.details",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.deliveryRate",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.openRate",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.testimonial.quote",
+        "seax.channels.smsLocal.testimonial.author",
+        "seax.channels.smsLocal.testimonial.company",
+        "seax.channels.smsLocal.testimonial.results",
+        "seax.channels.smsLocal.title",
+        "seax.channels.smsLocal.subtitle",
+        "seax.channels.smsLocal.description",
+        "seax.channels.smsLocal.seo.title",
+        "seax.channels.smsLocal.seo.description",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.compliance.title",
+        "seax.channels.smsLocal.compliance.description",
+        "seax.channels.smsLocal.compliance.brandRegistration.title",
+        "seax.channels.smsLocal.compliance.brandRegistration.description",
+        "seax.channels.smsLocal.compliance.campaignApproval.title",
+        "seax.channels.smsLocal.compliance.campaignApproval.description",
+        "seax.channels.smsLocal.compliance.monitoring.title",
+        "seax.channels.smsLocal.compliance.monitoring.description"
       ],
       "trans_components": [],
-      "hardcoded_strings": [
-        {
-          "text": "1-800-SEAX-SMS",
-          "context": "        \n        <div className=\"text-center\">\n          <div className=\"text-4xl font-bold text-blue-600 mb-2\">\n            1-800-SEAX-SMS\n          </div>\n          <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.dedicatedNumber')}</div>\n        </div>\n        ",
-          "type": "jsx-text"
-        },
-        {
-          "text": "94.7%",
-          "context": "        <div className=\"grid grid-cols-2 gap-4\">\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">94.7%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.deliveryRate')}</div>\n          </div>\n          <div className=\"bg-purple-50 rounded-lg p-4\">",
-          "type": "jsx-text"
-        },
-        {
-          "text": "94%",
-          "context": "  const stats = [\n    {\n      value: '94%',\n      label: t('seax.channels.smsTollFree.stats.deliveryRate'),\n      icon: <Phone className=\"w-8 h-8 text-blue-600\" />\n    },",
-          "type": "data-structure",
-          "parentContext": "ObjectProperty"
-        },
-        {
-          "text": "78%",
-          "context": "    },\n    {\n      value: '78%',\n      label: t('seax.channels.smsTollFree.stats.responseRate'),\n      icon: <TrendingUp className=\"w-8 h-8 text-purple-600\" />\n    }",
-          "type": "data-structure",
-          "parentContext": "ObjectProperty"
-        }
-      ],
+      "hardcoded_strings": [],
       "imports": {
         "useTranslation": true,
         "Trans": true
@@ -84877,7 +84848,7 @@
   },
   "coverage_report": {
     "base_language_keys": 3929,
-    "used_keys_in_components": 5491,
+    "used_keys_in_components": 5463,
     "unused_keys": [
       "header.login",
       "header.backToChannels",
@@ -85226,14 +85197,42 @@
       "seax.features.core.scale.benefits.1",
       "seax.features.core.scale.benefits.2",
       "seax.features.core.scale.benefits.3",
-      "seax.channels.smsLocal.pricing.title",
-      "seax.channels.smsLocal.pricing.subtitle",
       "seax.channels.smsLocal.pricing.setup.label",
       "seax.channels.smsLocal.pricing.setup.value",
       "seax.channels.smsLocal.pricing.monthly.label",
       "seax.channels.smsLocal.pricing.monthly.value",
       "seax.channels.smsLocal.pricing.perMessage.label",
-      "seax.channels.smsLocal.pricing.perMessage.value"
+      "seax.channels.smsLocal.pricing.perMessage.value",
+      "seax.channels.smsTollFree.seo.title",
+      "seax.channels.smsTollFree.seo.description",
+      "seax.channels.smsTollFree.title",
+      "seax.channels.smsTollFree.subtitle",
+      "seax.channels.smsTollFree.description",
+      "seax.channels.smsTollFree.hero.title",
+      "seax.channels.smsTollFree.hero.status",
+      "seax.channels.smsTollFree.hero.dedicatedNumber",
+      "seax.channels.smsTollFree.hero.deliveryRate",
+      "seax.channels.smsTollFree.hero.higherTrust",
+      "seax.channels.smsTollFree.hero.recentMessages.title",
+      "seax.channels.smsTollFree.hero.recentMessages.customerSupport.title",
+      "seax.channels.smsTollFree.hero.recentMessages.customerSupport.details",
+      "seax.channels.smsTollFree.hero.recentMessages.survey.title",
+      "seax.channels.smsTollFree.hero.recentMessages.survey.details",
+      "seax.channels.smsTollFree.stats.deliveryRate",
+      "seax.channels.smsTollFree.stats.higherTrust",
+      "seax.channels.smsTollFree.stats.responseRate",
+      "seax.channels.smsTollFree.testimonial.quote",
+      "seax.channels.smsTollFree.testimonial.author",
+      "seax.channels.smsTollFree.testimonial.company",
+      "seax.channels.smsTollFree.testimonial.results",
+      "seax.channels.smsTollFree.trust.title",
+      "seax.channels.smsTollFree.trust.description",
+      "seax.channels.smsTollFree.trust.professionalImage.title",
+      "seax.channels.smsTollFree.trust.professionalImage.description",
+      "seax.channels.smsTollFree.trust.noCarrierFees.title",
+      "seax.channels.smsTollFree.trust.noCarrierFees.description",
+      "seax.channels.smsTollFree.trust.higherResponse.title",
+      "seax.channels.smsTollFree.trust.higherResponse.description"
     ],
     "missing_keys": [
       "industriesData.ecommerce.benefits.0",
@@ -87155,7 +87154,7 @@
       "seax.features.core.scale.benefits",
       "seax.channels.smsLocal.pricing"
     ],
-    "coverage_percentage": "65.07"
+    "coverage_percentage": "64.89"
   },
   "missing_translations": {
     "ar": {
@@ -160002,24 +160001,6 @@
     },
     {
       "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Transparent Pricing",
-      "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Simple, predictable pricing that scales with your business",
-      "context": "                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto\">",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Per Message",
-      "context": "                    <TrendingUp className=\"w-6 h-6 text-purple-600\" />\n                  </div>\n                  <div className=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div className=\"text-2xl font-bold text-purple-600\">\n                    {pricing.perMessage || pricing.perMinute}\n                  </div>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
       "text": "Ready to Scale Your Outreach?",
       "context": "      <div className=\"py-20 bg-gray-900\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-3xl font-bold text-white mb-4\">\n            Ready to Scale Your Outreach?\n          </h2>\n          <p className=\"text-xl text-gray-300 mb-8\">\n            Join thousands of businesses reaching millions with SeaX\n          </p>",
       "type": "jsx-text"
@@ -160046,11 +160027,6 @@
       "file": "src/seax/components/ChannelPageTemplate.tsx",
       "text": "Get Started",
       "context": "r space-x-2\"\n              >\n                <span>Get Started</span>\n                <ArrowRight cl"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Per Message",
-      "context": "assName=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div classNam"
     },
     {
       "file": "src/seax/components/ChannelPageTemplate.tsx",
@@ -164751,32 +164727,6 @@
       "file": "src/seax/pages/channels/SMSShortCode.tsx",
       "text": "99.9%",
       "context": "    },\n    {\n      value: '99.9%',\n      label: t('seax.channels.smsShortCode.stats.deliveryRate'),\n      icon: <Shield className=\"w-8 h-8 text-green-600\" />\n    },",
-      "type": "data-structure",
-      "parentContext": "ObjectProperty"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSTollFree.tsx",
-      "text": "1-800-SEAX-SMS",
-      "context": "        \n        <div className=\"text-center\">\n          <div className=\"text-4xl font-bold text-blue-600 mb-2\">\n            1-800-SEAX-SMS\n          </div>\n          <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.dedicatedNumber')}</div>\n        </div>\n        ",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSTollFree.tsx",
-      "text": "94.7%",
-      "context": "        <div className=\"grid grid-cols-2 gap-4\">\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">94.7%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.deliveryRate')}</div>\n          </div>\n          <div className=\"bg-purple-50 rounded-lg p-4\">",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSTollFree.tsx",
-      "text": "94%",
-      "context": "  const stats = [\n    {\n      value: '94%',\n      label: t('seax.channels.smsTollFree.stats.deliveryRate'),\n      icon: <Phone className=\"w-8 h-8 text-blue-600\" />\n    },",
-      "type": "data-structure",
-      "parentContext": "ObjectProperty"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSTollFree.tsx",
-      "text": "78%",
-      "context": "    },\n    {\n      value: '78%',\n      label: t('seax.channels.smsTollFree.stats.responseRate'),\n      icon: <TrendingUp className=\"w-8 h-8 text-purple-600\" />\n    }",
       "type": "data-structure",
       "parentContext": "ObjectProperty"
     },
@@ -170219,9 +170169,9 @@
       "priority": "HIGH",
       "category": "Hardcoded Strings",
       "title": "Replace hardcoded strings with translation keys",
-      "description": "Found 3703 hardcoded strings that should be internationalized",
+      "description": "Found 3695 hardcoded strings that should be internationalized",
       "action": "Review and replace hardcoded strings with t() function calls",
-      "count": 3703
+      "count": 3695
     },
     {
       "priority": "MEDIUM",

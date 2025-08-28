@@ -14510,24 +14510,6 @@
   },
   {
     "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Transparent Pricing",
-    "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Simple, predictable pricing that scales with your business",
-    "context": "                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>\n            </div>\n            \n            <div className=\"bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Per Message",
-    "context": "                    <TrendingUp className=\"w-6 h-6 text-purple-600\" />\n                  </div>\n                  <div className=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div className=\"text-2xl font-bold text-purple-600\">\n                    {pricing.perMessage || pricing.perMinute}\n                  </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
     "text": "Ready to Scale Your Outreach?",
     "context": "      <div className=\"py-20 bg-gray-900\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-3xl font-bold text-white mb-4\">\n            Ready to Scale Your Outreach?\n          </h2>\n          <p className=\"text-xl text-gray-300 mb-8\">\n            Join thousands of businesses reaching millions with SeaX\n          </p>",
     "type": "jsx-text"
@@ -14554,11 +14536,6 @@
     "file": "src/seax/components/ChannelPageTemplate.tsx",
     "text": "Get Started",
     "context": "r space-x-2\"\n              >\n                <span>Get Started</span>\n                <ArrowRight cl"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Per Message",
-    "context": "assName=\"text-lg font-semibold text-gray-900 mb-2\">Per Message</div>\n                  <div classNam"
   },
   {
     "file": "src/seax/components/ChannelPageTemplate.tsx",
@@ -19259,32 +19236,6 @@
     "file": "src/seax/pages/channels/SMSShortCode.tsx",
     "text": "99.9%",
     "context": "    },\n    {\n      value: '99.9%',\n      label: t('seax.channels.smsShortCode.stats.deliveryRate'),\n      icon: <Shield className=\"w-8 h-8 text-green-600\" />\n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "1-800-SEAX-SMS",
-    "context": "        \n        <div className=\"text-center\">\n          <div className=\"text-4xl font-bold text-blue-600 mb-2\">\n            1-800-SEAX-SMS\n          </div>\n          <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.dedicatedNumber')}</div>\n        </div>\n        ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "94.7%",
-    "context": "        <div className=\"grid grid-cols-2 gap-4\">\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">94.7%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsTollFree.hero.deliveryRate')}</div>\n          </div>\n          <div className=\"bg-purple-50 rounded-lg p-4\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "94%",
-    "context": "  const stats = [\n    {\n      value: '94%',\n      label: t('seax.channels.smsTollFree.stats.deliveryRate'),\n      icon: <Phone className=\"w-8 h-8 text-blue-600\" />\n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "78%",
-    "context": "    },\n    {\n      value: '78%',\n      label: t('seax.channels.smsTollFree.stats.responseRate'),\n      icon: <TrendingUp className=\"w-8 h-8 text-purple-600\" />\n    }",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },

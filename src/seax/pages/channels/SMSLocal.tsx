@@ -26,6 +26,13 @@ const SMSLocal = () => {
     note: pricingRaw?.note ?? undefined,
   };
 
+  // 获取 pricing labels
+  const pricingLabels = {
+    setup: pricingRaw?.setup?.label ?? 'Setup',
+    monthly: pricingRaw?.monthly?.label ?? 'Monthly',
+    perMessage: pricingRaw?.perMessage?.label ?? 'Per Message',
+  };
+
   const heroContent = (
     <div className="bg-white rounded-2xl shadow-2xl p-8">
       <div className="space-y-6">
@@ -126,6 +133,9 @@ const SMSLocal = () => {
       useCasesTitle={t('seax.channels.smsLocal.useCases.title')}
       useCasesSubtitle={t('seax.channels.smsLocal.useCases.subtitle')}
       pricing={pricing}
+      pricingTitle={t('seax.channels.smsLocal.pricing.title')}
+      pricingSubtitle={t('seax.channels.smsLocal.pricing.subtitle')}
+      pricingLabels={pricingLabels}
       stats={stats}
       testimonial={testimonial}
     >

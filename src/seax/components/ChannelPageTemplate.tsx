@@ -26,6 +26,13 @@ interface ChannelPageTemplateProps {
     perMinute?: string;
     note?: string;
   };
+  pricingTitle?: string;        // ✅ 新增
+  pricingSubtitle?: string;     // ✅ 新增
+  pricingLabels?: {             // ✅ 新增
+    setup: string;
+    monthly: string;
+    perMessage: string;
+  };
   stats: {
     value: string;
     label: string;
@@ -54,6 +61,9 @@ const ChannelPageTemplate = ({
   useCasesTitle,
   useCasesSubtitle,
   pricing,
+  pricingTitle,
+  pricingSubtitle,
+  pricingLabels,
   stats,
   testimonial,
   children
@@ -192,10 +202,10 @@ const ChannelPageTemplate = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Transparent Pricing
+                {pricingTitle || 'Transparent Pricing'}
               </h2>
               <p className="text-lg text-gray-600">
-                Simple, predictable pricing that scales with your business
+                {pricingSubtitle || 'Simple, predictable pricing that scales with your business'}
               </p>
             </div>
             
@@ -205,7 +215,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-green-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <Shield className="w-6 h-6 text-green-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Setup</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.setup || 'Setup'}</div>
                   <div className="text-2xl font-bold text-green-600">{pricing.setup}</div>
                 </div>
                 
@@ -213,7 +223,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-blue-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <Clock className="w-6 h-6 text-blue-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Monthly</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.monthly || 'Monthly'}</div>
                   <div className="text-2xl font-bold text-blue-600">{pricing.monthly}</div>
                 </div>
                 
@@ -221,7 +231,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-purple-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <TrendingUp className="w-6 h-6 text-purple-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Per Message</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.perMessage || 'Per Message'}</div>
                   <div className="text-2xl font-bold text-purple-600">
                     {pricing.perMessage || pricing.perMinute}
                   </div>
