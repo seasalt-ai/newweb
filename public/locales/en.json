@@ -6849,6 +6849,46 @@
           "higherTrust": "Higher Trust",
           "responseRate": "Response Rate"
         },
+        "features": {
+          "title": "Powerful Features",
+          "subtitle": "Everything you need for high-volume messaging success",
+          "items": [
+            "10DLC A2P compliance",
+            "Local presence with area codes",
+            "Brand registration required",
+            "Campaign pre-approval",
+            "High throughput rates",
+            "Carrier-grade delivery"
+          ]
+        },
+        "useCases": {
+          "title": "Perfect For",
+          "subtitle": "Common use cases that drive results",
+          "items": [
+            "Marketing campaigns",
+            "Customer notifications",
+            "Appointment reminders",
+            "Order confirmations",
+            "Account alerts",
+            "Lead nurturing"
+          ]
+        },
+        "pricing": {
+          "title": "Transparent Pricing",
+          "subtitle": "Simple, predictable pricing that scales with your business",
+          "setup": {
+            "label": "Setup",
+            "value": "$50 brand registration"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$10/month per number"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.0075 per message"
+          }
+        },
         "testimonial": {
           "quote": "Our toll-free SMS campaigns have 2x higher engagement than standard numbers. Customers trust the 800 number and respond more frequently.",
           "author": "Michael Chen",
@@ -6896,12 +6936,34 @@
               "title": "Contest Campaign",
               "details": "Completed • 5 min ago"
             }
+          },
+          "campaign": {
+            "title": "Short Code Campaign",
+            "status": "Premium",
+            "messagesSentValue": "10,247,382",
+            "messagesSent": "Messages Sent Today",
+            "deliveryRateValue": "99.9%",
+            "deliveryRate": "Delivery Rate"
+          },
+          "recentActivity": {
+            "title": "Active Campaigns",
+            "marketing": {
+              "title": "Mass Marketing",
+              "details": "10M messages • Active"
+            },
+            "appointment": {
+              "title": "Contest Campaign",
+              "details": "Completed • 5 min ago"
+            }
           }
         },
         "stats": {
           "messagesPerSecond": "Messages/Second",
           "deliveryRate": "Delivery Rate",
-          "digitNumbers": "Digit Numbers"
+          "digitNumbers": "Digit Numbers",
+          "messagesPerSecondValue": "1000+",
+          "deliveryRateValue": "99.9%",
+          "digitNumbersValue": "5-6"
         },
         "testimonial": {
           "quote": "SMS Short Codes gave us the throughput we needed for our Super Bowl campaign. We sent 10 million messages in under 2 hours with 99.9% delivery.",
@@ -6923,6 +6985,42 @@
           "brandRecognition": {
             "title": "Brand Recognition",
             "description": "Memorable 5-6 digit numbers perfect for TV, radio, and print advertising campaigns."
+          }
+        },
+        "features": {
+          "title": "Premium Short Code Features",
+          "subtitle": "Everything you need for high-volume, high-impact campaigns",
+          "items[0]": "Dedicated 5-6 digit numbers",
+          "items[1]": "Highest throughput (1000+ msgs/sec)",
+          "items[2]": "Premium carrier relationships",
+          "items[3]": "Maximum deliverability",
+          "items[4]": "Keyword-based campaigns",
+          "items[5]": "MMS support"
+        },
+        "useCases": {
+          "title": "Perfect For",
+          "subtitle": "High-impact campaigns that demand premium delivery",
+          "items[0]": "Mass marketing campaigns",
+          "items[1]": "TV/Radio call-to-actions",
+          "items[2]": "Voting and polling",
+          "items[3]": "Contest campaigns",
+          "items[4]": "Event notifications",
+          "items[5]": "Emergency alerts"
+        },
+        "pricing": {
+          "title": "Premium Pricing",
+          "subtitle": "Investment-grade messaging for serious campaigns",
+          "setup": {
+            "label": "Setup",
+            "value": "$1,000 setup fee"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$1,000/month per code"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.005 per message"
           }
         }
       },

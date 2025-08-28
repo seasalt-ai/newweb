@@ -6783,15 +6783,15 @@
           "title": "透明定價",
           "subtitle": "簡單、可預測，隨業務擴展",
           "setup": {
-            "label": "Setup",
+            "label": "設置費",
             "value": "品牌註冊費 $50"
           },
           "monthly": {
-            "label": "Monthly",
+            "label": "月費",
             "value": "每個號碼 $10/月"
           },
           "perMessage": {
-            "label": "Per Message",
+            "label": "每則訊息",
             "value": "每則訊息 $0.0075"
           }
         },
@@ -6849,6 +6849,27 @@
           "higherTrust": "更高信任度",
           "responseRate": "回覆率"
         },
+        "features": [
+          "符合 10DLC A2P 規範",
+          "具備當地區碼的在地存在感",
+          "需要品牌註冊",
+          "活動需事先審批",
+          "高吞吐率",
+          "電信等級的傳遞品質"
+        ],
+        "useCases": [
+          "行銷活動",
+          "客戶通知",
+          "預約提醒",
+          "訂單確認",
+          "帳戶警示",
+          "潛在客戶培養"
+        ],
+        "pricing": {
+          "setup": "品牌註冊費 $50",
+          "monthly": "每個號碼 $10/月",
+          "perMessage": "每則訊息 $0.0075"
+        },
         "testimonial": {
           "quote": "我們的免付費短信活動比標準號碼有2倍的互動率。客戶信任800號碼並更頻繁地回覆。",
           "author": "Michael Chen",
@@ -6902,6 +6923,46 @@
           "messagesPerSecond": "每秒訊息量",
           "deliveryRate": "送達率",
           "digitNumbers": "位數號碼"
+        },
+        "features": {
+          "title": "強大的功能",
+          "subtitle": "高量訊息成功所需的一切",
+          "items": [
+            "符合 10DLC A2P 規範",
+            "具備當地區碼的在地存在感",
+            "需要品牌註冊",
+            "活動需事先審批",
+            "高吞吐率",
+            "電信等級的傳遞品質"
+          ]
+        },
+        "useCases": {
+          "title": "適用場景",
+          "subtitle": "常見用例，助力成果",
+          "items": [
+            "行銷活動",
+            "客戶通知",
+            "預約提醒",
+            "訂單確認",
+            "帳戶警示",
+            "潛在客戶培養"
+          ]
+        },
+        "pricing": {
+          "title": "透明定價",
+          "subtitle": "簡單、可預測，隨業務擴展",
+          "setup": {
+            "label": "設置費",
+            "value": "品牌註冊費 $50"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "每個號碼 $10/月"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "每則訊息 $0.0075"
+          }
         },
         "testimonial": {
           "quote": "短信短碼為我們的超級盃活動提供了所需的吞吐量。我們在2小時內發送了1000萬條訊息，送達率達99.9%。",

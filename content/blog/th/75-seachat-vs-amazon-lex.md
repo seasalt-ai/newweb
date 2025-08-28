@@ -1,20 +1,16 @@
 ---
 title: "ทิ้งสคริปต์ โอบรับการสนทนา: เหตุใดการอัปเกรดจาก Amazon Lex เป็น SeaChat จึงสมเหตุสมผลอย่างยิ่ง"
 metatitle: "SeaChat กับ Amazon Lex"
-date: 2024-03-15 00:22:19-07:00
-modified_date: 2025-07-29T17:35:15Z
+date: 2024-03-15T00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "เหตุใด Amazon Lex จึงล้าสมัย ค้นพบ SeaChat - นำทางออกจากแชทบอทที่ซ้ำซากด้วยเทคโนโลยี LLM ขั้นสูง ส่งเสริมการสนทนาที่น่าดึงดูดและเหมือนมนุษย์"
 weight: 1
-tags:
-  - SeaChat
-  - เครื่องมือ AI
-  - แบบจำลองภาษาขนาดใหญ่
-  - NLU
+tags: ["SeaChat", "เครื่องมือ AI", "แบบจำลองภาษาขนาดใหญ่", "NLU"]
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: /blog/seachat-vs-amazon-lex/
-url: /blog/seachat-vs-amazon-lex/
+canonicalURL: "/blog/seachat-vs-amazon-lex/"
+url: "/blog/seachat-vs-amazon-lex/"
+modified_date: "2025-07-29T17:35:15Z"
 ---
 
 โลกของแชทบอทกำลังพัฒนาอย่างรวดเร็ว ในขณะที่ [Amazon Lex](https://aws.amazon.com/lex/) เป็นตัวเลือกยอดนิยมสำหรับการสร้างอินเทอร์เฟซเสียงและข้อความ แต่เทคโนโลยีคลื่นลูกใหม่กำลังเข้ามามีบทบาทสำคัญ: แบบจำลองภาษาขนาดใหญ่ (LLM) [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ซึ่งเป็นแพลตฟอร์มที่ขับเคลื่อนโดย LLM นำเสนอแนวทางที่ก้าวล้ำสู่ AI เชิงสนทนา ทิ้งให้เอ็นจิ้นที่ใช้กฎเกณฑ์อย่าง Lex ไว้ข้างหลัง ถึงเวลาพิจารณาอัปเกรดแชทบอทของคุณแล้วหรือยัง
