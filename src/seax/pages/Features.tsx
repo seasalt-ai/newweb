@@ -15,95 +15,97 @@ import {
   Building2
 } from 'lucide-react';
 import { seaxCoreFeatures } from '../data/seaxFeatures';
-const Features = () => {
-  const { i18n: _i18n } = useTranslation();
-  const currentLanguage = _i18n.language;
 
+const Features = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
+  // Feature Categories 使用 i18n
   const featureCategories = [
     {
-      title: 'Messaging Channels',
+      title: t("seax.features.categories.messaging.title"),
       icon: MessageSquare,
       color: 'blue',
       features: [
         {
-          name: 'SMS (10DLC, Toll-Free, Short-Code)',
-          description: 'All SMS types for every business need',
+          name: t("seax.features.categories.messaging.sms.name"),
+          description: t("seax.features.categories.messaging.sms.description"),
           link: '/channels/sms'
         },
         {
-          name: 'WhatsApp Business Platform',
-          description: 'Campaign mode for mass messaging',
+          name: t("seax.features.categories.messaging.whatsapp.name"),
+          description: t("seax.features.categories.messaging.whatsapp.description"),
           link: '/channels/whatsapp'
         },
         {
-          name: 'Voice Calls (100+ Countries)',
-          description: 'AI-powered calls via Twilio',
+          name: t("seax.features.categories.messaging.voice.name"),
+          description: t("seax.features.categories.messaging.voice.description"),
           link: '/channels/voice'
         }
       ]
     },
     {
-      title: 'AI & Automation',
+      title: t("seax.features.categories.aiAutomation.title"),
       icon: Bot,
       color: 'green',
       features: [
         {
-          name: 'AI-Powered Follow-Up',
-          description: 'Smart lead nurturing 24/7',
+          name: t("seax.features.categories.aiAutomation.followup.name"),
+          description: t("seax.features.categories.aiAutomation.followup.description"),
           link: '/features'
         },
         {
-          name: 'Automated Responses',
-          description: 'Intelligent conversation handling',
+          name: t("seax.features.categories.aiAutomation.responses.name"),
+          description: t("seax.features.categories.aiAutomation.responses.description"),
           link: '/features'
         },
         {
-          name: 'Lead Scoring',
-          description: 'AI-driven prospect qualification',
+          name: t("seax.features.categories.aiAutomation.scoring.name"),
+          description: t("seax.features.categories.aiAutomation.scoring.description"),
           link: '/features'
         }
       ]
     },
     {
-      title: 'Analytics & Insights',
+      title: t("seax.features.categories.analytics.title"),
       icon: BarChart3,
       color: 'purple',
       features: [
         {
-          name: 'Real-Time Dashboard',
-          description: 'Live campaign monitoring',
+          name: t("seax.features.categories.analytics.dashboard.name"),
+          description: t("seax.features.categories.analytics.dashboard.description"),
           link: '/features'
         },
         {
-          name: 'Conversion Tracking',
-          description: 'ROI and performance metrics',
+          name: t("seax.features.categories.analytics.tracking.name"),
+          description: t("seax.features.categories.analytics.tracking.description"),
           link: '/features'
         },
         {
-          name: 'Custom Reporting',
-          description: 'Detailed analytics and insights',
+          name: t("seax.features.categories.analytics.reporting.name"),
+          description: t("seax.features.categories.analytics.reporting.description"),
           link: '/features'
         }
       ]
     },
     {
-      title: 'Enterprise & Security',
+      title: t("seax.features.categories.enterprise.title"),
       icon: Shield,
       color: 'red',
       features: [
         {
-          name: 'GDPR Compliance',
-          description: 'Full regulatory compliance',
+          name: t("seax.features.categories.enterprise.gdpr.name"),
+          description: t("seax.features.categories.enterprise.gdpr.description"),
           link: '/features'
         },
         {
-          name: 'Team Collaboration',
-          description: 'Multi-user access and permissions',
+          name: t("seax.features.categories.enterprise.team.name"),
+          description: t("seax.features.categories.enterprise.team.description"),
           link: '/features'
         },
         {
-          name: 'Enterprise SLAs',
-          description: 'Dedicated support and uptime',
+          name: t("seax.features.categories.enterprise.sla.name"),
+          description: t("seax.features.categories.enterprise.sla.description"),
           link: '/features'
         }
       ]
@@ -123,8 +125,8 @@ const Features = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX Features - Powerful Tools for Mass Communication"
-        description="Explore SeaX's powerful features: bulk messaging engine, AI-powered follow-up, real-time analytics, and enterprise-grade infrastructure."
+        title={t("seax.features.seo.title")}
+        description={t("seax.features.seo.description")}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -134,26 +136,27 @@ const Features = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Powerful Features for
-            <span className="text-blue-600 block">Mass Communication</span>
+            {t("seax.features.hero.title")}
+            <span className="text-blue-600 block">
+              {t("seax.features.hero.titleHighlight")}
+            </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Everything you need to reach millions of customers across SMS, WhatsApp, and voice channels. 
-            Built for scale, designed for results.
+            {t("seax.features.hero.description")}
           </p>
           
           <div className="flex justify-center items-center space-x-8 text-sm text-gray-600">
             <div className="flex items-center space-x-2">
               <Zap className="w-5 h-5 text-yellow-500" />
-              <span>10M+ messages daily</span>
+              <span>{t("seax.features.hero.stats.messages")}</span>
             </div>
             <div className="flex items-center space-x-2">
               <Globe className="w-5 h-5 text-blue-500" />
-              <span>200+ countries</span>
+              <span>{t("seax.features.hero.stats.countries")}</span>
             </div>
             <div className="flex items-center space-x-2">
               <Lock className="w-5 h-5 text-green-500" />
-              <span>Enterprise security</span>
+              <span>{t("seax.features.hero.stats.security")}</span>
             </div>
           </div>
         </div>
@@ -164,45 +167,183 @@ const Features = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Core Features
+              {t("seax.features.core.title")}
             </h2>
             <p className="text-lg text-gray-600">
-              The essential tools that power your mass communication campaigns
+              {t("seax.features.core.description")}
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {seaxCoreFeatures.map((feature, _index) => (
-              <div key={feature.id} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-600 mb-6">
-                  {feature.description}
-                </p>
-                
-                {feature.metrics && (
-                  <div className="bg-white rounded-lg p-4 mb-6">
-                    <div className="text-2xl font-bold text-blue-600 mb-1">
-                      {feature.metrics.value}
-                    </div>
-                    <div className="text-sm text-gray-600">
-                      {feature.metrics.label}
-                    </div>
-                  </div>
-                )}
-                
-                <div className="space-y-2">
-                  {feature.benefits.slice(0, 3).map((benefit, benefitIndex) => (
-                    <div key={benefitIndex} className="flex items-center space-x-2">
-                      <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                      <span className="text-sm text-gray-700">{benefit}</span>
-                    </div>
-                  ))}
+
+            {/* Bulk Messaging */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.bulkMessaging.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.bulkMessaging.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.bulkMessaging.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.bulkMessaging.metrics.label")}
                 </div>
               </div>
-            ))}
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.bulkMessaging.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* AI Follow-Up */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.aiFollowup.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.aiFollowup.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.aiFollowup.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.aiFollowup.metrics.label")}
+                </div>
+              </div>
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.aiFollowup.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Real-Time Analytics */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.analytics.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.analytics.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.analytics.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.analytics.metrics.label")}
+                </div>
+              </div>
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.analytics.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Compliance & Deliverability */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.compliance.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.compliance.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.compliance.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.compliance.metrics.label")}
+                </div>
+              </div>
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.compliance.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Team Collaboration */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.collaboration.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.collaboration.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.collaboration.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.collaboration.metrics.label")}
+                </div>
+              </div>
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.collaboration.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Enterprise Scale */}
+            <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                {t("seax.features.core.scale.title")}
+              </h3>
+              <p className="text-gray-600 mb-6">
+                {t("seax.features.core.scale.description")}
+              </p>
+              <div className="bg-white rounded-lg p-4 mb-6">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  {t("seax.features.core.scale.metrics.value")}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {t("seax.features.core.scale.metrics.label")}
+                </div>
+              </div>
+              <div className="space-y-2">
+                {Object.values(
+                  t("seax.features.core.scale.benefits", { returnObjects: true })
+                ).map((benefit, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -212,10 +353,10 @@ const Features = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Feature Categories
+              {t("seax.features.categories.title")}
             </h2>
             <p className="text-lg text-gray-600">
-              Explore our comprehensive feature set by category
+              {t("seax.features.categories.description")}
             </p>
           </div>
           
@@ -257,76 +398,79 @@ const Features = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Built for Integration
+              {t("seax.features.integrations.title")}
             </h2>
             <p className="text-xl text-blue-100">
-              Connect SeaX with your existing tools and workflows
+              {t("seax.features.integrations.description")}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* CRM */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
               <div className="bg-white/20 p-3 rounded-lg w-fit mb-4">
                 <Building2 className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
-                CRM Integration
+                {t("seax.features.integrations.crm.title")}
               </h3>
               <p className="text-blue-100 mb-4">
-                Connect with Salesforce, HubSpot, and other CRM systems for seamless data flow.
+                {t("seax.features.integrations.crm.description")}
               </p>
               <ul className="space-y-2 text-blue-100">
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>Bi-directional sync</span>
+                  <span>{t("seax.features.integrations.crm.sync")}</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>Custom field mapping</span>
+                  <span>{t("seax.features.integrations.crm.mapping")}</span>
                 </li>
               </ul>
             </div>
-            
+
+            {/* Analytics */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
               <div className="bg-white/20 p-3 rounded-lg w-fit mb-4">
                 <BarChart3 className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
-                Analytics Tools
+                {t("seax.features.integrations.analytics.title")}
               </h3>
               <p className="text-blue-100 mb-4">
-                Export data to Google Analytics, Mixpanel, and other analytics platforms.
+                {t("seax.features.integrations.analytics.description")}
               </p>
               <ul className="space-y-2 text-blue-100">
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>Real-time exports</span>
+                  <span>{t("seax.features.integrations.analytics.exports")}</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>Custom dashboards</span>
+                  <span>{t("seax.features.integrations.analytics.dashboards")}</span>
                 </li>
               </ul>
             </div>
-            
+
+            {/* API */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
               <div className="bg-white/20 p-3 rounded-lg w-fit mb-4">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
-                Developer API
+                {t("seax.features.integrations.api.title")}
               </h3>
               <p className="text-blue-100 mb-4">
-                Full REST API for custom integrations and automated workflows.
+                {t("seax.features.integrations.api.description")}
               </p>
               <ul className="space-y-2 text-blue-100">
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>RESTful endpoints</span>
+                  <span>{t("seax.features.integrations.api.endpoints")}</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span>Webhook support</span>
+                  <span>{t("seax.features.integrations.api.webhooks")}</span>
                 </li>
               </ul>
             </div>
@@ -338,10 +482,10 @@ const Features = () => {
       <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Experience These Features?
+            {t("seax.features.cta.title")}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            See how SeaX can transform your communication strategy
+            {t("seax.features.cta.description")}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -351,7 +495,7 @@ const Features = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Book a Demo</span>
+              <span>{t("seax.features.cta.button")}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
@@ -362,3 +506,4 @@ const Features = () => {
 };
 
 export default Features;
+

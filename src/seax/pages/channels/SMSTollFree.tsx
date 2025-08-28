@@ -1,17 +1,19 @@
 import { Phone, Shield, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import ChannelPageTemplate from '../../components/ChannelPageTemplate';
 import { seaxChannelFeatures } from '../../data/seaxFeatures';
 
 const SMSTollFree = () => {
+  const { t } = useTranslation();
   const tollFreeData = seaxChannelFeatures.sms.types.tollFree;
   
   const heroContent = (
     <div className="bg-white rounded-2xl shadow-2xl p-8">
       <div className="space-y-6">
         <div className="flex items-center justify-between">
-          <div className="text-lg font-semibold text-gray-900">Toll-Free SMS</div>
+          <div className="text-lg font-semibold text-gray-900">{t('seax.channels.smsTollFree.hero.title')}</div>
           <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-            Premium
+            {t('seax.channels.smsTollFree.hero.status')}
           </div>
         </div>
         
@@ -19,35 +21,35 @@ const SMSTollFree = () => {
           <div className="text-4xl font-bold text-blue-600 mb-2">
             1-800-SEAX-SMS
           </div>
-          <div className="text-sm text-gray-600">Your dedicated toll-free number</div>
+          <div className="text-sm text-gray-600">{t('seax.channels.smsTollFree.hero.dedicatedNumber')}</div>
         </div>
         
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-green-50 rounded-lg p-4">
             <div className="text-2xl font-bold text-green-600 mb-1">94.7%</div>
-            <div className="text-sm text-gray-600">Delivery Rate</div>
+            <div className="text-sm text-gray-600">{t('seax.channels.smsTollFree.hero.deliveryRate')}</div>
           </div>
           <div className="bg-purple-50 rounded-lg p-4">
             <div className="text-2xl font-bold text-purple-600 mb-1">2.3x</div>
-            <div className="text-sm text-gray-600">Higher Trust</div>
+            <div className="text-sm text-gray-600">{t('seax.channels.smsTollFree.hero.higherTrust')}</div>
           </div>
         </div>
         
         <div className="space-y-3">
-          <div className="text-sm font-medium text-gray-700">Recent Messages</div>
+          <div className="text-sm font-medium text-gray-700">{t('seax.channels.smsTollFree.hero.recentMessages.title')}</div>
           <div className="space-y-2">
             <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
               <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               <div className="flex-1 text-sm">
-                <div className="font-medium">Customer Support</div>
-                <div className="text-gray-500">Two-way conversation • Active</div>
+                <div className="font-medium">{t('seax.channels.smsTollFree.hero.recentMessages.customerSupport.title')}</div>
+                <div className="text-gray-500">{t('seax.channels.smsTollFree.hero.recentMessages.customerSupport.details')}</div>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <div className="flex-1 text-sm">
-                <div className="font-medium">Survey Response</div>
-                <div className="text-gray-500">Completed • 3 min ago</div>
+                <div className="font-medium">{t('seax.channels.smsTollFree.hero.recentMessages.survey.title')}</div>
+                <div className="text-gray-500">{t('seax.channels.smsTollFree.hero.recentMessages.survey.details')}</div>
               </div>
             </div>
           </div>
@@ -59,35 +61,35 @@ const SMSTollFree = () => {
   const stats = [
     {
       value: '94%',
-      label: 'Delivery Rate',
+      label: t('seax.channels.smsTollFree.stats.deliveryRate'),
       icon: <Phone className="w-8 h-8 text-blue-600" />
     },
     {
       value: '2.3x',
-      label: 'Higher Trust',
+      label: t('seax.channels.smsTollFree.stats.higherTrust'),
       icon: <Shield className="w-8 h-8 text-green-600" />
     },
     {
       value: '78%',
-      label: 'Response Rate',
+      label: t('seax.channels.smsTollFree.stats.responseRate'),
       icon: <TrendingUp className="w-8 h-8 text-purple-600" />
     }
   ];
 
   const testimonial = {
-    quote: "Our toll-free SMS campaigns have 2x higher engagement than standard numbers. Customers trust the 800 number and respond more frequently.",
-    author: "Michael Chen",
-    company: "TechSupport Pro",
-    results: "2x engagement rate, 78% customer satisfaction"
+    quote: t('seax.channels.smsTollFree.testimonial.quote'),
+    author: t('seax.channels.smsTollFree.testimonial.author'),
+    company: t('seax.channels.smsTollFree.testimonial.company'),
+    results: t('seax.channels.smsTollFree.testimonial.results')
   };
 
   return (
     <ChannelPageTemplate
-      title="SMS Toll-Free Numbers"
-      subtitle="Premium Business Messaging"
-      description="Build trust and increase engagement with toll-free SMS numbers. No carrier fees for recipients, faster deployment, and higher response rates."
-      seoTitle="SMS Toll-Free Numbers - Premium Business Messaging | SeaX"
-      seoDescription="Boost SMS engagement with toll-free numbers. Higher trust, better response rates, and no carrier fees for recipients. Perfect for customer support."
+      title={t('seax.channels.smsTollFree.title')}
+      subtitle={t('seax.channels.smsTollFree.subtitle')}
+      description={t('seax.channels.smsTollFree.description')}
+      seoTitle={t('seax.channels.smsTollFree.seo.title')}
+      seoDescription={t('seax.channels.smsTollFree.seo.description')}
       heroContent={heroContent}
       features={tollFreeData.features}
       useCases={tollFreeData.useCases}
@@ -100,10 +102,10 @@ const SMSTollFree = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Customers Trust Toll-Free Numbers
+              {t('seax.channels.smsTollFree.trust.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Toll-free numbers signal professionalism and build instant trust
+              {t('seax.channels.smsTollFree.trust.description')}
             </p>
           </div>
           
@@ -113,10 +115,10 @@ const SMSTollFree = () => {
                 <Shield className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Professional Image
+                {t('seax.channels.smsTollFree.trust.professionalImage.title')}
               </h3>
               <p className="text-gray-600">
-                Toll-free numbers convey established business credibility and professionalism to recipients.
+                {t('seax.channels.smsTollFree.trust.professionalImage.description')}
               </p>
             </div>
             
@@ -125,10 +127,10 @@ const SMSTollFree = () => {
                 <Phone className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                No Carrier Fees
+                {t('seax.channels.smsTollFree.trust.noCarrierFees.title')}
               </h3>
               <p className="text-gray-600">
-                Recipients never pay to receive messages, removing barriers to engagement and responses.
+                {t('seax.channels.smsTollFree.trust.noCarrierFees.description')}
               </p>
             </div>
             
@@ -137,10 +139,10 @@ const SMSTollFree = () => {
                 <TrendingUp className="w-6 h-6 text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Higher Response Rates
+                {t('seax.channels.smsTollFree.trust.higherResponse.title')}
               </h3>
               <p className="text-gray-600">
-                Studies show toll-free numbers achieve 2-3x higher response rates than standard numbers.
+                {t('seax.channels.smsTollFree.trust.higherResponse.description')}
               </p>
             </div>
           </div>

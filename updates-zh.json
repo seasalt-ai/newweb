@@ -1,0 +1,66 @@
+{
+  "channels": {
+    "whatsapp": {
+      "seo": {
+        "title": "WhatsApp 商業整合 - Seasalt.ai",
+        "description": "將您的 WhatsApp 商業帳戶連接到 Seasalt.ai，實現AI驅動對話、大量活動和無縫人工客服支援。接觸全球20億+用戶。"
+      },
+      "backToChannels": "返回通訊管道",
+      "hero": {
+        "title": "將 WhatsApp 轉變為您的",
+        "titleHighlight": "商業指揮中心",
+        "description": "將您的 WhatsApp 商業帳戶連接到 Seasalt.ai，實現AI驅動對話、大量活動和無縫人工客服支援。接觸全球20億+用戶。",
+        "cta": {
+          "primary": "10分鐘內連接 WhatsApp",
+          "secondary": "查看演示"
+        },
+        "demo": {
+          "title": "WhatsApp 商業版",
+          "customer1": "客戶：\"我的訂單 #12345 在哪裡？",
+          "bot1": "AI 機器人：\"您的訂單正在配送中，今天下午6點前送達。在此追蹤：[連結]",
+          "customer2": "客戶：\"我可以更改配送地址嗎？",
+          "bot2": "AI 機器人：\"讓我為您連接人工客服來變更地址..."
+        }
+      },
+      "features": {
+        "title": "核心功能",
+        "description": "將 WhatsApp 轉變為強大商業溝通平台所需的一切功能",
+        "aiResponses": {
+          "title": "AI驅動回覆",
+          "description": "具備自然語言處理功能的自動化客戶服務，理解上下文和意圖"
+        },
+        "bulkCampaigns": {
+          "title": "大量活動管理",
+          "description": "向數千個聯絡人發送範本訊息，具備進階定位和排程功能"
+        },
+        "humanHandoff": {
+          "title": "人工客服轉接",
+          "description": "使用 /live_agent 指令無縫從機器人轉至真人客服，保留完整對話紀錄"
+        },
+        "metaIntegration": {
+          "title": "Meta 商業整合",
+          "description": "完整存取 WhatsApp 商業平台功能，具備企業級安全保障"
+        }
+      },
+      "setup": {
+        "title": "設置流程視覺化",
+        "description": "逐步指南，以企業級安全連接您的 WhatsApp 商業帳戶",
+        "step1": "建立 Meta 開發者帳戶",
+        "step2": "配置 WhatsApp 商業 API",
+        "step3": "設置 webhook 端點",
+        "step4": "生成存取令牌",
+        "step5": "測試訊息傳送",
+        "step6": "啟動您的首個活動"
+      },
+      "security": {
+        "title": "企業級安全",
+        "description": "您的 WhatsApp 整合包括端到端加密、安全令牌管理，以及符合 Meta 商業政策的合規性。所有資料都受到銀行級安全保護。"
+      },
+      "cta": {
+        "title": "準備連接 WhatsApp？",
+        "description": "加入數千家企業，使用 WhatsApp 提供更好的客戶服務並促進更多銷售。",
+        "button": "開始整合"
+      }
+    }
+  }
+}

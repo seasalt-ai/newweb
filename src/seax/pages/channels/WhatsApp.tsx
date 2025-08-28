@@ -17,98 +17,113 @@ import {
 } from 'lucide-react';
 
 const WhatsApp = () => {
-  const { i18n: _i18n } = useTranslation();
-  const currentLanguage = _i18n.language;
+  const { i18n, t } = useTranslation();
+  const currentLanguage = i18n.language;
 
   const features = [
     {
       icon: MessageCircle,
-      title: 'Rich Media Support',
-      description: 'Send images, videos, documents, and interactive buttons for engaging conversations.'
+      title: t('seax.channels.whatsapp.features.richMedia.title'),
+      description: t('seax.channels.whatsapp.features.richMedia.description')
     },
     {
       icon: Globe,
-      title: 'Global Reach',
-      description: 'Reach 2+ billion WhatsApp users worldwide with localized messaging.'
+      title: t('seax.channels.whatsapp.features.globalReach.title'),
+      description: t('seax.channels.whatsapp.features.globalReach.description')
     },
     {
       icon: Shield,
-      title: 'End-to-End Security',
-      description: 'WhatsApp Business API with enterprise-grade encryption and compliance.'
+      title: t('seax.channels.whatsapp.features.security.title'),
+      description: t('seax.channels.whatsapp.features.security.description')
     },
     {
       icon: Zap,
-      title: 'Instant Delivery',
-      description: 'Messages delivered instantly with read receipts and delivery confirmations.'
+      title: t('seax.channels.whatsapp.features.instantDelivery.title'),
+      description: t('seax.channels.whatsapp.features.instantDelivery.description')
     },
     {
       icon: BarChart3,
-      title: 'Advanced Analytics',
-      description: 'Track delivery rates, read rates, and customer engagement metrics.'
+      title: t('seax.channels.whatsapp.features.analytics.title'),
+      description: t('seax.channels.whatsapp.features.analytics.description')
     },
     {
       icon: Users,
-      title: 'Two-way Conversations',
-      description: 'Enable real-time customer support and interactive messaging experiences.'
+      title: t('seax.channels.whatsapp.features.twoWay.title'),
+      description: t('seax.channels.whatsapp.features.twoWay.description')
     }
   ];
 
   const messageTypes = [
     {
       icon: MessageCircle,
-      title: 'Template Messages',
-      description: 'Pre-approved messages for notifications, alerts, and marketing campaigns.',
-      features: ['Order confirmations', 'Shipping updates', 'Appointment reminders', 'Marketing offers']
+      title: t('seax.channels.whatsapp.messageTypes.template.title'),
+      description: t('seax.channels.whatsapp.messageTypes.template.description'),
+      features: [
+        t('seax.channels.whatsapp.messageTypes.template.feature1'),
+        t('seax.channels.whatsapp.messageTypes.template.feature2'),
+        t('seax.channels.whatsapp.messageTypes.template.feature3'),
+        t('seax.channels.whatsapp.messageTypes.template.feature4')
+      ]
     },
     {
       icon: Image,
-      title: 'Rich Media',
-      description: 'Send images, videos, documents, and audio messages.',
-      features: ['Product catalogs', 'Video tutorials', 'PDF documents', 'Voice messages']
+      title: t('seax.channels.whatsapp.messageTypes.richMedia.title'),
+      description: t('seax.channels.whatsapp.messageTypes.richMedia.description'),
+      features: [
+        t('seax.channels.whatsapp.messageTypes.richMedia.feature1'),
+        t('seax.channels.whatsapp.messageTypes.richMedia.feature2'),
+        t('seax.channels.whatsapp.messageTypes.richMedia.feature3'),
+        t('seax.channels.whatsapp.messageTypes.richMedia.feature4')
+      ]
     },
     {
       icon: Users,
-      title: 'Interactive Messages',
-      description: 'Buttons, lists, and quick replies for better user engagement.',
-      features: ['Call-to-action buttons', 'Quick reply options', 'List messages', 'Location sharing']
+      title: t('seax.channels.whatsapp.messageTypes.interactive.title'),
+      description: t('seax.channels.whatsapp.messageTypes.interactive.description'),
+      features: [
+        t('seax.channels.whatsapp.messageTypes.interactive.feature1'),
+        t('seax.channels.whatsapp.messageTypes.interactive.feature2'),
+        t('seax.channels.whatsapp.messageTypes.interactive.feature3'),
+        t('seax.channels.whatsapp.messageTypes.interactive.feature4')
+      ]
     }
   ];
 
   const useCases = [
     {
-      title: 'Customer Support',
-      description: 'Provide instant support through WhatsApp with rich media and file sharing.',
-      metrics: '90% customer satisfaction'
+      title: t('seax.channels.whatsapp.useCases.support.title'),
+      description: t('seax.channels.whatsapp.useCases.support.description'),
+      metrics: t('seax.channels.whatsapp.useCases.support.metrics')
     },
     {
-      title: 'Order Notifications',
-      description: 'Send order confirmations, shipping updates, and delivery notifications.',
-      metrics: '95% open rate'
+      title: t('seax.channels.whatsapp.useCases.orders.title'),
+      description: t('seax.channels.whatsapp.useCases.orders.description'),
+      metrics: t('seax.channels.whatsapp.useCases.orders.metrics')
     },
     {
-      title: 'Marketing Campaigns',
-      description: 'Reach customers with promotional messages, product launches, and offers.',
-      metrics: '65% engagement rate'
+      title: t('seax.channels.whatsapp.useCases.marketing.title'),
+      description: t('seax.channels.whatsapp.useCases.marketing.description'),
+      metrics: t('seax.channels.whatsapp.useCases.marketing.metrics')
     },
     {
-      title: 'Appointment Reminders',
-      description: 'Automated appointment confirmations and reminders with calendar integration.',
-      metrics: '80% reduction in no-shows'
+      title: t('seax.channels.whatsapp.useCases.appointments.title'),
+      description: t('seax.channels.whatsapp.useCases.appointments.description'),
+      metrics: t('seax.channels.whatsapp.useCases.appointments.metrics')
     }
   ];
 
   const stats = [
-    { value: '2B+', label: 'Monthly active users' },
-    { value: '95%', label: 'Open rate' },
-    { value: '65%', label: 'Engagement rate' },
-    { value: '180+', label: 'Countries supported' }
+    { value: '2B+', label: t('seax.channels.whatsapp.hero.stats.monthlyUsers') },
+    { value: '95%', label: t('seax.channels.whatsapp.hero.stats.openRate') },
+    { value: '65%', label: t('seax.channels.whatsapp.hero.stats.engagementRate') },
+    { value: '180+', label: t('seax.channels.whatsapp.hero.stats.countriesSupported') }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX WhatsApp Business Platform - Reach 2B+ Users Globally"
-        description="Send WhatsApp messages to customers worldwide. 95% open rate, rich media support, two-way conversations. Start your WhatsApp Business campaign today."
+        title={t('seax.channels.whatsapp.seo.title')}
+        description={t('seax.channels.whatsapp.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -125,16 +140,15 @@ const WhatsApp = () => {
                     <MessageCircle className="w-8 h-8 text-green-600" />
                   </div>
                   <span className="text-sm font-medium text-green-600 bg-green-100 px-3 py-1 rounded-full">
-                    WhatsApp Business
+                    {t('seax.channels.whatsapp.hero.badge')}
                   </span>
                 </div>
                 <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
-                  Reach 2+ Billion Users on 
-                  <span className="text-green-600 block">WhatsApp</span>
+                  {t('seax.channels.whatsapp.hero.title.line1')}{' '}
+                  <span className="text-green-600 block">{t('seax.channels.whatsapp.hero.title.line2')}</span>
                 </h1>
                 <p className="text-xl text-gray-600">
-                  Connect with customers on their favorite messaging platform. 
-                  Rich media, two-way conversations, and global reach.
+                  {t('seax.channels.whatsapp.hero.description')}
                 </p>
               </div>
               
@@ -154,7 +168,7 @@ const WhatsApp = () => {
                   rel="noopener noreferrer"
                   className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
                 >
-                  <span>Start WhatsApp Campaign</span>
+                  <span>{t('seax.channels.whatsapp.hero.cta.primary')}</span>
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
@@ -163,7 +177,7 @@ const WhatsApp = () => {
                   rel="noopener noreferrer"
                   className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
                 >
-                  View Pricing
+                  {t('seax.channels.whatsapp.hero.cta.secondary')}
                 </a>
               </div>
             </div>
@@ -177,8 +191,8 @@ const WhatsApp = () => {
                       <MessageCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900">WhatsApp Business</h3>
-                      <p className="text-sm text-gray-600">API Campaign</p>
+                      <h3 className="text-lg font-semibold text-gray-900">{t('seax.channels.whatsapp.hero.demo.title')}</h3>
+                      <p className="text-sm text-gray-600">{t('seax.channels.whatsapp.hero.demo.subtitle')}</p>
                     </div>
                   </div>
                   
@@ -186,18 +200,18 @@ const WhatsApp = () => {
                     <div className="bg-green-50 rounded-lg p-4">
                       <div className="flex items-center space-x-2 mb-2">
                         <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                        <span className="text-sm font-medium text-gray-700">Template Message</span>
+                        <span className="text-sm font-medium text-gray-700">{t('seax.channels.whatsapp.hero.demo.templateLabel')}</span>
                       </div>
                       <div className="bg-white rounded-lg p-3 border-l-4 border-green-500">
                         <div className="text-sm text-gray-900">
-                          🎉 Hi {'{name}'}, your order #{'{order_id}'} is ready for pickup!
+                          {t('seax.channels.whatsapp.hero.demo.message')}
                         </div>
                         <div className="mt-2 flex space-x-2">
                           <button className="bg-green-600 text-white px-3 py-1 rounded text-xs">
-                            View Order
+                            {t('seax.channels.whatsapp.hero.demo.button1')}
                           </button>
                           <button className="border border-green-600 text-green-600 px-3 py-1 rounded text-xs">
-                            Contact Us
+                            {t('seax.channels.whatsapp.hero.demo.button2')}
                           </button>
                         </div>
                       </div>
@@ -206,11 +220,11 @@ const WhatsApp = () => {
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-blue-50 rounded-lg p-3 text-center">
                         <div className="text-2xl font-bold text-blue-600">94.8%</div>
-                        <div className="text-sm text-gray-600">Open Rate</div>
+                        <div className="text-sm text-gray-600">{t('seax.channels.whatsapp.hero.demo.openRateLabel')}</div>
                       </div>
                       <div className="bg-purple-50 rounded-lg p-3 text-center">
                         <div className="text-2xl font-bold text-purple-600">12.3K</div>
-                        <div className="text-sm text-gray-600">Delivered</div>
+                        <div className="text-sm text-gray-600">{t('seax.channels.whatsapp.hero.demo.deliveredLabel')}</div>
                       </div>
                     </div>
                   </div>
@@ -226,10 +240,10 @@ const WhatsApp = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose WhatsApp Business?
+              {t('seax.channels.whatsapp.features.title')}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The world's most popular messaging platform for business communication.
+              {t('seax.channels.whatsapp.features.subtitle')}
             </p>
           </div>
           
@@ -252,10 +266,10 @@ const WhatsApp = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Message Types
+              {t('seax.channels.whatsapp.messageTypes.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Choose the right message format for your business needs.
+              {t('seax.channels.whatsapp.messageTypes.subtitle')}
             </p>
           </div>
           
@@ -286,10 +300,10 @@ const WhatsApp = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              WhatsApp Use Cases
+              {t('seax.channels.whatsapp.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Drive engagement and build relationships through WhatsApp.
+              {t('seax.channels.whatsapp.useCases.subtitle')}
             </p>
           </div>
           
@@ -316,10 +330,10 @@ const WhatsApp = () => {
       <div className="bg-green-600 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Connect with Your Customers?
+            {t('seax.channels.whatsapp.cta.title')}
           </h2>
           <p className="text-xl text-green-100 mb-8">
-            Join thousands of businesses using WhatsApp to engage customers
+            {t('seax.channels.whatsapp.cta.subtitle')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -329,7 +343,7 @@ const WhatsApp = () => {
               rel="noopener noreferrer"
               className="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Started Free</span>
+              <span>{t('seax.channels.whatsapp.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -339,7 +353,7 @@ const WhatsApp = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
             >
-              Book a Demo
+              {t('seax.channels.whatsapp.cta.secondary')}
             </a>
           </div>
         </div>

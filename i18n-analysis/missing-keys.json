@@ -50,6 +50,8 @@
     "company.timeline.list.3.event",
     "company.timeline.list.4.event",
     "pricing.legacy.enterprise.period",
+    "channels.sms.hero.title.prefix",
+    "channels.sms.hero.title.highlight",
     "pricing.plans.free.name",
     "pricing.plans.free.tagline",
     "pricing.plans.free.description",
@@ -1908,7 +1910,13 @@
     "seachat.solutions.travel.ctaTitle",
     "seachat.solutions.travel.ctaSubtitle",
     "seachat.solutions.travel.ctaTrialButton",
-    "seachat.solutions.travel.ctaDemoButton"
+    "seachat.solutions.travel.ctaDemoButton",
+    "seax.features.core.bulkMessaging.benefits",
+    "seax.features.core.aiFollowup.benefits",
+    "seax.features.core.analytics.benefits",
+    "seax.features.core.compliance.benefits",
+    "seax.features.core.collaboration.benefits",
+    "seax.features.core.scale.benefits"
   ],
   "suggested_values": {
     "industriesData.ecommerce.benefits.0": "[TODO: Add translation for industriesData.ecommerce.benefits.0]",
@@ -1961,6 +1969,8 @@
     "company.timeline.list.3.event": "[TODO: Add translation for company.timeline.list.3.event]",
     "company.timeline.list.4.event": "[TODO: Add translation for company.timeline.list.4.event]",
     "pricing.legacy.enterprise.period": "[TODO: Add translation for pricing.legacy.enterprise.period]",
+    "channels.sms.hero.title.prefix": "[TODO: Add translation for channels.sms.hero.title.prefix]",
+    "channels.sms.hero.title.highlight": "[TODO: Add translation for channels.sms.hero.title.highlight]",
     "pricing.plans.free.name": "[TODO: Add translation for pricing.plans.free.name]",
     "pricing.plans.free.tagline": "[TODO: Add translation for pricing.plans.free.tagline]",
     "pricing.plans.free.description": "[TODO: Add translation for pricing.plans.free.description]",
@@ -3819,6 +3829,12 @@
     "seachat.solutions.travel.ctaTitle": "[TODO: Add translation for seachat.solutions.travel.ctaTitle]",
     "seachat.solutions.travel.ctaSubtitle": "[TODO: Add translation for seachat.solutions.travel.ctaSubtitle]",
     "seachat.solutions.travel.ctaTrialButton": "[TODO: Add translation for seachat.solutions.travel.ctaTrialButton]",
-    "seachat.solutions.travel.ctaDemoButton": "[TODO: Add translation for seachat.solutions.travel.ctaDemoButton]"
+    "seachat.solutions.travel.ctaDemoButton": "[TODO: Add translation for seachat.solutions.travel.ctaDemoButton]",
+    "seax.features.core.bulkMessaging.benefits": "[TODO: Add translation for seax.features.core.bulkMessaging.benefits]",
+    "seax.features.core.aiFollowup.benefits": "[TODO: Add translation for seax.features.core.aiFollowup.benefits]",
+    "seax.features.core.analytics.benefits": "[TODO: Add translation for seax.features.core.analytics.benefits]",
+    "seax.features.core.compliance.benefits": "[TODO: Add translation for seax.features.core.compliance.benefits]",
+    "seax.features.core.collaboration.benefits": "[TODO: Add translation for seax.features.core.collaboration.benefits]",
+    "seax.features.core.scale.benefits": "[TODO: Add translation for seax.features.core.scale.benefits]"
   }
 }
