@@ -1916,7 +1916,8 @@
     "seax.features.core.analytics.benefits",
     "seax.features.core.compliance.benefits",
     "seax.features.core.collaboration.benefits",
-    "seax.features.core.scale.benefits"
+    "seax.features.core.scale.benefits",
+    "seax.channels.smsLocal.pricing"
   ],
   "suggested_values": {
     "industriesData.ecommerce.benefits.0": "[TODO: Add translation for industriesData.ecommerce.benefits.0]",
@@ -3835,6 +3836,7 @@
     "seax.features.core.analytics.benefits": "[TODO: Add translation for seax.features.core.analytics.benefits]",
     "seax.features.core.compliance.benefits": "[TODO: Add translation for seax.features.core.compliance.benefits]",
     "seax.features.core.collaboration.benefits": "[TODO: Add translation for seax.features.core.collaboration.benefits]",
-    "seax.features.core.scale.benefits": "[TODO: Add translation for seax.features.core.scale.benefits]"
+    "seax.features.core.scale.benefits": "[TODO: Add translation for seax.features.core.scale.benefits]",
+    "seax.channels.smsLocal.pricing": "[TODO: Add translation for seax.channels.smsLocal.pricing]"
   }
 }

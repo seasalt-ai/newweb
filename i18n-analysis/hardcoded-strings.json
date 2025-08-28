@@ -14510,30 +14510,6 @@
   },
   {
     "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Powerful Features",
-    "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Everything you need for high-volume messaging success",
-    "context": "              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Perfect For",
-    "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
-    "text": "Common use cases that drive results",
-    "context": "              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ChannelPageTemplate.tsx",
     "text": "Transparent Pricing",
     "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
     "type": "jsx-text"
@@ -19272,33 +19248,6 @@
     "file": "src/seax/pages/channels/SMS.tsx",
     "text": "847K",
     "context": " <div className=\"text-2xl font-bold text-blue-600\">847K</div>\n                      <div className=\""
-  },
-  {
-    "file": "src/seax/pages/channels/SMSLocal.tsx",
-    "text": "89.2%",
-    "context": "          </div>\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">89.2%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsLocal.hero.campaign.deliveryRate')}</div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSLocal.tsx",
-    "text": "98%",
-    "context": "  const stats = [\n    {\n      value: '98%',\n      label: t('seax.channels.smsLocal.stats.deliveryRate'),\n      icon: <MessageSquare className=\"w-8 h-8 text-blue-600\" />\n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSLocal.tsx",
-    "text": "85%",
-    "context": "    },\n    {\n      value: '85%',\n      label: t('seax.channels.smsLocal.stats.openRate'),\n      icon: <Users className=\"w-8 h-8 text-green-600\" />\n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSLocal.tsx",
-    "text": "24/7",
-    "context": "    },\n    {\n      value: '24/7',\n      label: t('seax.channels.smsLocal.stats.support'),\n      icon: <CheckCircle2 className=\"w-8 h-8 text-purple-600\" />\n    }",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seax/pages/channels/SMSShortCode.tsx",

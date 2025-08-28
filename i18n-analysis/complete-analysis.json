@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-28T01:58:32.561Z",
+  "timestamp": "2025-08-28T06:45:40.207Z",
   "translation_files": {
     "ar": {
       "file_path": "public/locales/ar.json",
@@ -8734,6 +8734,8 @@
         "seax.channels.smsLocal.hero.campaign.status": "Active",
         "seax.channels.smsLocal.hero.campaign.messagesSent": "Messages Sent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate": "Delivery Rate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue": "247,382",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue": "89.2%",
         "seax.channels.smsLocal.hero.recentActivity.title": "Recent Activity",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title": "Marketing Campaign",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details": "+1 (555) 123-4567 • 2 min ago",
@@ -8742,6 +8744,37 @@
         "seax.channels.smsLocal.stats.deliveryRate": "Delivery Rate",
         "seax.channels.smsLocal.stats.openRate": "Open Rate",
         "seax.channels.smsLocal.stats.support": "Support",
+        "seax.channels.smsLocal.stats.deliveryRateValue": "98%",
+        "seax.channels.smsLocal.stats.openRateValue": "85%",
+        "seax.channels.smsLocal.stats.supportValue": "24/7",
+        "seax.channels.smsLocal.features.title": "Powerful Features",
+        "seax.channels.smsLocal.features.subtitle": "Everything you need for high-volume messaging success",
+        "seax.channels.smsLocal.features.items": [
+          "10DLC A2P compliance",
+          "Local presence with area codes",
+          "Brand registration required",
+          "Campaign pre-approval",
+          "High throughput rates",
+          "Carrier-grade delivery"
+        ],
+        "seax.channels.smsLocal.useCases.title": "Perfect For",
+        "seax.channels.smsLocal.useCases.subtitle": "Common use cases that drive results",
+        "seax.channels.smsLocal.useCases.items": [
+          "Marketing campaigns",
+          "Customer notifications",
+          "Appointment reminders",
+          "Order confirmations",
+          "Account alerts",
+          "Lead nurturing"
+        ],
+        "seax.channels.smsLocal.pricing.title": "Transparent Pricing",
+        "seax.channels.smsLocal.pricing.subtitle": "Simple, predictable pricing that scales with your business",
+        "seax.channels.smsLocal.pricing.setup.label": "Setup",
+        "seax.channels.smsLocal.pricing.setup.value": "$50 brand registration",
+        "seax.channels.smsLocal.pricing.monthly.label": "Monthly",
+        "seax.channels.smsLocal.pricing.monthly.value": "$10/month per number",
+        "seax.channels.smsLocal.pricing.perMessage.label": "Per Message",
+        "seax.channels.smsLocal.pricing.perMessage.value": "$0.0075 per message",
         "seax.channels.smsLocal.testimonial.quote": "SeaX's 10DLC A2P solution helped us reach 500K customers with our flash sale campaign. The delivery rates were incredible and setup was seamless.",
         "seax.channels.smsLocal.testimonial.author": "Sarah Johnson",
         "seax.channels.smsLocal.testimonial.company": "RetailMax",
@@ -8915,7 +8948,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle": "Powered by Twilio Infrastructure",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage": "Full regional coverage"
       },
-      "total_keys": 3910,
+      "total_keys": 3929,
       "structure": {
         "header": {
           "products": "Products",
@@ -15649,7 +15682,9 @@
                   "title": "10DLC A2P Campaign",
                   "status": "Active",
                   "messagesSent": "Messages Sent",
-                  "deliveryRate": "Delivery Rate"
+                  "deliveryRate": "Delivery Rate",
+                  "messagesSentValue": "247,382",
+                  "deliveryRateValue": "89.2%"
                 },
                 "recentActivity": {
                   "title": "Recent Activity",
@@ -15666,7 +15701,50 @@
               "stats": {
                 "deliveryRate": "Delivery Rate",
                 "openRate": "Open Rate",
-                "support": "Support"
+                "support": "Support",
+                "deliveryRateValue": "98%",
+                "openRateValue": "85%",
+                "supportValue": "24/7"
+              },
+              "features": {
+                "title": "Powerful Features",
+                "subtitle": "Everything you need for high-volume messaging success",
+                "items": [
+                  "10DLC A2P compliance",
+                  "Local presence with area codes",
+                  "Brand registration required",
+                  "Campaign pre-approval",
+                  "High throughput rates",
+                  "Carrier-grade delivery"
+                ]
+              },
+              "useCases": {
+                "title": "Perfect For",
+                "subtitle": "Common use cases that drive results",
+                "items": [
+                  "Marketing campaigns",
+                  "Customer notifications",
+                  "Appointment reminders",
+                  "Order confirmations",
+                  "Account alerts",
+                  "Lead nurturing"
+                ]
+              },
+              "pricing": {
+                "title": "Transparent Pricing",
+                "subtitle": "Simple, predictable pricing that scales with your business",
+                "setup": {
+                  "label": "Setup",
+                  "value": "$50 brand registration"
+                },
+                "monthly": {
+                  "label": "Monthly",
+                  "value": "$10/month per number"
+                },
+                "perMessage": {
+                  "label": "Per Message",
+                  "value": "$0.0075 per message"
+                }
               },
               "testimonial": {
                 "quote": "SeaX's 10DLC A2P solution helped us reach 500K customers with our flash sale campaign. The delivery rates were incredible and setup was seamless.",
@@ -50262,6 +50340,8 @@
         "seax.channels.smsLocal.hero.campaign.status": "進行中",
         "seax.channels.smsLocal.hero.campaign.messagesSent": "已發送訊息",
         "seax.channels.smsLocal.hero.campaign.deliveryRate": "送達率",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue": "247,382",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue": "89.2%",
         "seax.channels.smsLocal.hero.recentActivity.title": "最近活動",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title": "行銷活動",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details": "+1 (555) 123-4567 • 2分鐘前",
@@ -50270,6 +50350,37 @@
         "seax.channels.smsLocal.stats.deliveryRate": "送達率",
         "seax.channels.smsLocal.stats.openRate": "開啟率",
         "seax.channels.smsLocal.stats.support": "支援",
+        "seax.channels.smsLocal.stats.deliveryRateValue": "98%",
+        "seax.channels.smsLocal.stats.openRateValue": "85%",
+        "seax.channels.smsLocal.stats.supportValue": "24/7",
+        "seax.channels.smsLocal.features.title": "強大的功能",
+        "seax.channels.smsLocal.features.subtitle": "高量訊息成功所需的一切",
+        "seax.channels.smsLocal.features.items": [
+          "符合 10DLC A2P 規範",
+          "具備當地區碼的在地存在感",
+          "需要品牌註冊",
+          "活動需事先審批",
+          "高吞吐率",
+          "電信等級的傳遞品質"
+        ],
+        "seax.channels.smsLocal.useCases.title": "適用場景",
+        "seax.channels.smsLocal.useCases.subtitle": "常見用例，助力成果",
+        "seax.channels.smsLocal.useCases.items": [
+          "行銷活動",
+          "客戶通知",
+          "預約提醒",
+          "訂單確認",
+          "帳戶警示",
+          "潛在客戶培養"
+        ],
+        "seax.channels.smsLocal.pricing.title": "透明定價",
+        "seax.channels.smsLocal.pricing.subtitle": "簡單、可預測，隨業務擴展",
+        "seax.channels.smsLocal.pricing.setup.label": "Setup",
+        "seax.channels.smsLocal.pricing.setup.value": "品牌註冊費 $50",
+        "seax.channels.smsLocal.pricing.monthly.label": "Monthly",
+        "seax.channels.smsLocal.pricing.monthly.value": "每個號碼 $10/月",
+        "seax.channels.smsLocal.pricing.perMessage.label": "Per Message",
+        "seax.channels.smsLocal.pricing.perMessage.value": "每則訊息 $0.0075",
         "seax.channels.smsLocal.testimonial.quote": "SeaX的10DLC A2P解決方案幫助我們透過快閃特賣活動接觸到50萬客戶。送達率令人驚艷，設置也很簡單。",
         "seax.channels.smsLocal.testimonial.author": "Sarah Johnson",
         "seax.channels.smsLocal.testimonial.company": "RetailMax",
@@ -50443,7 +50554,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle": "由 Twilio 基礎設施提供支援",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage": "全區域覆蓋"
       },
-      "total_keys": 3910,
+      "total_keys": 3929,
       "structure": {
         "header": {
           "products": "產品",
@@ -57177,7 +57288,9 @@
                   "title": "10DLC A2P活動",
                   "status": "進行中",
                   "messagesSent": "已發送訊息",
-                  "deliveryRate": "送達率"
+                  "deliveryRate": "送達率",
+                  "messagesSentValue": "247,382",
+                  "deliveryRateValue": "89.2%"
                 },
                 "recentActivity": {
                   "title": "最近活動",
@@ -57194,7 +57307,50 @@
               "stats": {
                 "deliveryRate": "送達率",
                 "openRate": "開啟率",
-                "support": "支援"
+                "support": "支援",
+                "deliveryRateValue": "98%",
+                "openRateValue": "85%",
+                "supportValue": "24/7"
+              },
+              "features": {
+                "title": "強大的功能",
+                "subtitle": "高量訊息成功所需的一切",
+                "items": [
+                  "符合 10DLC A2P 規範",
+                  "具備當地區碼的在地存在感",
+                  "需要品牌註冊",
+                  "活動需事先審批",
+                  "高吞吐率",
+                  "電信等級的傳遞品質"
+                ]
+              },
+              "useCases": {
+                "title": "適用場景",
+                "subtitle": "常見用例，助力成果",
+                "items": [
+                  "行銷活動",
+                  "客戶通知",
+                  "預約提醒",
+                  "訂單確認",
+                  "帳戶警示",
+                  "潛在客戶培養"
+                ]
+              },
+              "pricing": {
+                "title": "透明定價",
+                "subtitle": "簡單、可預測，隨業務擴展",
+                "setup": {
+                  "label": "Setup",
+                  "value": "品牌註冊費 $50"
+                },
+                "monthly": {
+                  "label": "Monthly",
+                  "value": "每個號碼 $10/月"
+                },
+                "perMessage": {
+                  "label": "Per Message",
+                  "value": "每則訊息 $0.0075"
+                }
               },
               "testimonial": {
                 "quote": "SeaX的10DLC A2P解決方案幫助我們透過快閃特賣活動接觸到50萬客戶。送達率令人驚艷，設置也很簡單。",
@@ -76911,26 +77067,6 @@
           "type": "jsx-text"
         },
         {
-          "text": "Powerful Features",
-          "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Everything you need for high-volume messaging success",
-          "context": "              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Perfect For",
-          "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>",
-          "type": "jsx-text"
-        },
-        {
-          "text": "Common use cases that drive results",
-          "context": "              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-          "type": "jsx-text"
-        },
-        {
           "text": "Transparent Pricing",
           "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
           "type": "jsx-text"
@@ -81293,17 +81429,25 @@
     "src/seax/pages/channels/SMSLocal.tsx": {
       "has_use_translation": true,
       "translation_keys": [
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing",
         "seax.channels.smsLocal.hero.campaign.title",
         "seax.channels.smsLocal.hero.campaign.status",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
         "seax.channels.smsLocal.hero.recentActivity.appointment.title",
         "seax.channels.smsLocal.hero.recentActivity.appointment.details",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
         "seax.channels.smsLocal.stats.deliveryRate",
+        "seax.channels.smsLocal.stats.openRateValue",
         "seax.channels.smsLocal.stats.openRate",
+        "seax.channels.smsLocal.stats.supportValue",
         "seax.channels.smsLocal.stats.support",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
@@ -81314,6 +81458,10 @@
         "seax.channels.smsLocal.description",
         "seax.channels.smsLocal.seo.title",
         "seax.channels.smsLocal.seo.description",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
         "seax.channels.smsLocal.compliance.title",
         "seax.channels.smsLocal.compliance.description",
         "seax.channels.smsLocal.compliance.brandRegistration.title",
@@ -81324,31 +81472,7 @@
         "seax.channels.smsLocal.compliance.monitoring.description"
       ],
       "trans_components": [],
-      "hardcoded_strings": [
-        {
-          "text": "89.2%",
-          "context": "          </div>\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">89.2%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsLocal.hero.campaign.deliveryRate')}</div>\n          </div>\n        </div>",
-          "type": "jsx-text"
-        },
-        {
-          "text": "98%",
-          "context": "  const stats = [\n    {\n      value: '98%',\n      label: t('seax.channels.smsLocal.stats.deliveryRate'),\n      icon: <MessageSquare className=\"w-8 h-8 text-blue-600\" />\n    },",
-          "type": "data-structure",
-          "parentContext": "ObjectProperty"
-        },
-        {
-          "text": "85%",
-          "context": "    },\n    {\n      value: '85%',\n      label: t('seax.channels.smsLocal.stats.openRate'),\n      icon: <Users className=\"w-8 h-8 text-green-600\" />\n    },",
-          "type": "data-structure",
-          "parentContext": "ObjectProperty"
-        },
-        {
-          "text": "24/7",
-          "context": "    },\n    {\n      value: '24/7',\n      label: t('seax.channels.smsLocal.stats.support'),\n      icon: <CheckCircle2 className=\"w-8 h-8 text-purple-600\" />\n    }",
-          "type": "data-structure",
-          "parentContext": "ObjectProperty"
-        }
-      ],
+      "hardcoded_strings": [],
       "imports": {
         "useTranslation": true,
         "Trans": true
@@ -84752,8 +84876,8 @@
     }
   },
   "coverage_report": {
-    "base_language_keys": 3910,
-    "used_keys_in_components": 5479,
+    "base_language_keys": 3929,
+    "used_keys_in_components": 5491,
     "unused_keys": [
       "header.login",
       "header.backToChannels",
@@ -85101,7 +85225,15 @@
       "seax.features.core.scale.benefits.0",
       "seax.features.core.scale.benefits.1",
       "seax.features.core.scale.benefits.2",
-      "seax.features.core.scale.benefits.3"
+      "seax.features.core.scale.benefits.3",
+      "seax.channels.smsLocal.pricing.title",
+      "seax.channels.smsLocal.pricing.subtitle",
+      "seax.channels.smsLocal.pricing.setup.label",
+      "seax.channels.smsLocal.pricing.setup.value",
+      "seax.channels.smsLocal.pricing.monthly.label",
+      "seax.channels.smsLocal.pricing.monthly.value",
+      "seax.channels.smsLocal.pricing.perMessage.label",
+      "seax.channels.smsLocal.pricing.perMessage.value"
     ],
     "missing_keys": [
       "industriesData.ecommerce.benefits.0",
@@ -87020,9 +87152,10 @@
       "seax.features.core.analytics.benefits",
       "seax.features.core.compliance.benefits",
       "seax.features.core.collaboration.benefits",
-      "seax.features.core.scale.benefits"
+      "seax.features.core.scale.benefits",
+      "seax.channels.smsLocal.pricing"
     ],
-    "coverage_percentage": "65.01"
+    "coverage_percentage": "65.07"
   },
   "missing_translations": {
     "ar": {
@@ -89900,6 +90033,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -89908,6 +90043,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -90081,7 +90233,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "22.61"
+      "coverage_percentage": "22.50"
     },
     "de": {
       "missing_from_base": [
@@ -92980,6 +93132,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -92988,6 +93142,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -93161,7 +93332,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "22.05"
+      "coverage_percentage": "21.94"
     },
     "es": {
       "missing_from_base": [
@@ -96112,6 +96283,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -96120,6 +96293,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -96293,7 +96483,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "20.72"
+      "coverage_percentage": "20.62"
     },
     "fa": {
       "missing_from_base": [
@@ -99318,6 +99508,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -99326,6 +99518,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -99499,7 +99708,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.75"
+      "coverage_percentage": "18.66"
     },
     "fil": {
       "missing_from_base": [
@@ -102542,6 +102751,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -102550,6 +102761,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -102723,7 +102951,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.31"
+      "coverage_percentage": "18.22"
     },
     "fr": {
       "missing_from_base": [
@@ -105766,6 +105994,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -105774,6 +106004,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -105947,7 +106194,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.31"
+      "coverage_percentage": "18.22"
     },
     "hi": {
       "missing_from_base": [
@@ -109039,6 +109286,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -109047,6 +109296,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -109220,7 +109486,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "17.06"
+      "coverage_percentage": "16.98"
     },
     "id": {
       "missing_from_base": [
@@ -112312,6 +112578,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -112320,6 +112588,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -112493,7 +112778,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "17.06"
+      "coverage_percentage": "16.98"
     },
     "ja": {
       "missing_from_base": [
@@ -115583,6 +115868,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -115591,6 +115878,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -115764,7 +116068,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "17.08"
+      "coverage_percentage": "17.00"
     },
     "ko": {
       "missing_from_base": [
@@ -118856,6 +119160,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -118864,6 +119170,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -119037,7 +119360,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "17.06"
+      "coverage_percentage": "16.98"
     },
     "ms": {
       "missing_from_base": [
@@ -122129,6 +122452,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -122137,6 +122462,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -122310,7 +122652,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "17.06"
+      "coverage_percentage": "16.98"
     },
     "pl": {
       "missing_from_base": [
@@ -125416,6 +125758,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -125424,6 +125768,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -125597,7 +125958,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "16.70"
+      "coverage_percentage": "16.62"
     },
     "pt": {
       "missing_from_base": [
@@ -128703,6 +129064,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -128711,6 +129074,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -128884,7 +129264,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "16.70"
+      "coverage_percentage": "16.62"
     },
     "ru": {
       "missing_from_base": [
@@ -131990,6 +132370,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -131998,6 +132380,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -132171,7 +132570,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "16.70"
+      "coverage_percentage": "16.62"
     },
     "ta": {
       "missing_from_base": [
@@ -135214,6 +135613,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -135222,6 +135623,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -135395,7 +135813,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.31"
+      "coverage_percentage": "18.22"
     },
     "th": {
       "missing_from_base": [
@@ -138438,6 +138856,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -138446,6 +138866,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -138619,7 +139056,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.31"
+      "coverage_percentage": "18.22"
     },
     "vi": {
       "missing_from_base": [
@@ -141662,6 +142099,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -141670,6 +142109,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -141843,7 +142299,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "18.31"
+      "coverage_percentage": "18.22"
     },
     "zh-CN": {
       "missing_from_base": [
@@ -144821,6 +145277,8 @@
         "seax.channels.smsLocal.hero.campaign.status",
         "seax.channels.smsLocal.hero.campaign.messagesSent",
         "seax.channels.smsLocal.hero.campaign.deliveryRate",
+        "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+        "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
         "seax.channels.smsLocal.hero.recentActivity.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.title",
         "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -144829,6 +145287,23 @@
         "seax.channels.smsLocal.stats.deliveryRate",
         "seax.channels.smsLocal.stats.openRate",
         "seax.channels.smsLocal.stats.support",
+        "seax.channels.smsLocal.stats.deliveryRateValue",
+        "seax.channels.smsLocal.stats.openRateValue",
+        "seax.channels.smsLocal.stats.supportValue",
+        "seax.channels.smsLocal.features.title",
+        "seax.channels.smsLocal.features.subtitle",
+        "seax.channels.smsLocal.features.items",
+        "seax.channels.smsLocal.useCases.title",
+        "seax.channels.smsLocal.useCases.subtitle",
+        "seax.channels.smsLocal.useCases.items",
+        "seax.channels.smsLocal.pricing.title",
+        "seax.channels.smsLocal.pricing.subtitle",
+        "seax.channels.smsLocal.pricing.setup.label",
+        "seax.channels.smsLocal.pricing.setup.value",
+        "seax.channels.smsLocal.pricing.monthly.label",
+        "seax.channels.smsLocal.pricing.monthly.value",
+        "seax.channels.smsLocal.pricing.perMessage.label",
+        "seax.channels.smsLocal.pricing.perMessage.value",
         "seax.channels.smsLocal.testimonial.quote",
         "seax.channels.smsLocal.testimonial.author",
         "seax.channels.smsLocal.testimonial.company",
@@ -145002,7 +145477,7 @@
         "seax.channels.voice.globalCoverage.infrastructureTitle",
         "seax.channels.voice.globalCoverage.fullRegionalCoverage"
       ],
-      "coverage_percentage": "19.95"
+      "coverage_percentage": "19.85"
     },
     "zh-TW": {
       "missing_from_base": [
@@ -159527,30 +160002,6 @@
     },
     {
       "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Powerful Features",
-      "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Everything you need for high-volume messaging success",
-      "context": "              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for high-volume messaging success\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Perfect For",
-      "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
-      "text": "Common use cases that drive results",
-      "context": "              Perfect For\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common use cases that drive results\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/components/ChannelPageTemplate.tsx",
       "text": "Transparent Pricing",
       "context": "          <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <div className=\"text-center mb-16\">\n              <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n                Transparent Pricing\n              </h2>\n              <p className=\"text-lg text-gray-600\">\n                Simple, predictable pricing that scales with your business\n              </p>",
       "type": "jsx-text"
@@ -164291,33 +164742,6 @@
       "context": " <div className=\"text-2xl font-bold text-blue-600\">847K</div>\n                      <div className=\""
     },
     {
-      "file": "src/seax/pages/channels/SMSLocal.tsx",
-      "text": "89.2%",
-      "context": "          </div>\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">89.2%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsLocal.hero.campaign.deliveryRate')}</div>\n          </div>\n        </div>",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSLocal.tsx",
-      "text": "98%",
-      "context": "  const stats = [\n    {\n      value: '98%',\n      label: t('seax.channels.smsLocal.stats.deliveryRate'),\n      icon: <MessageSquare className=\"w-8 h-8 text-blue-600\" />\n    },",
-      "type": "data-structure",
-      "parentContext": "ObjectProperty"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSLocal.tsx",
-      "text": "85%",
-      "context": "    },\n    {\n      value: '85%',\n      label: t('seax.channels.smsLocal.stats.openRate'),\n      icon: <Users className=\"w-8 h-8 text-green-600\" />\n    },",
-      "type": "data-structure",
-      "parentContext": "ObjectProperty"
-    },
-    {
-      "file": "src/seax/pages/channels/SMSLocal.tsx",
-      "text": "24/7",
-      "context": "    },\n    {\n      value: '24/7',\n      label: t('seax.channels.smsLocal.stats.support'),\n      icon: <CheckCircle2 className=\"w-8 h-8 text-purple-600\" />\n    }",
-      "type": "data-structure",
-      "parentContext": "ObjectProperty"
-    },
-    {
       "file": "src/seax/pages/channels/SMSShortCode.tsx",
       "text": "99.9%",
       "context": "          </div>\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">99.9%</div>\n            <div className=\"text-sm text-gray-600\">{t('seax.channels.smsShortCode.hero.deliveryRate')}</div>\n          </div>\n        </div>",
@@ -167868,7 +168292,7 @@
       "priority": "HIGH",
       "category": "Translation Structure",
       "title": "Add missing translation keys to base language",
-      "description": "1917 keys used in components but missing from en.json",
+      "description": "1918 keys used in components but missing from en.json",
       "action": "Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...",
       "keys": [
         "industriesData.ecommerce.benefits.0",
@@ -169787,16 +170211,17 @@
         "seax.features.core.analytics.benefits",
         "seax.features.core.compliance.benefits",
         "seax.features.core.collaboration.benefits",
-        "seax.features.core.scale.benefits"
+        "seax.features.core.scale.benefits",
+        "seax.channels.smsLocal.pricing"
       ]
     },
     {
       "priority": "HIGH",
       "category": "Hardcoded Strings",
       "title": "Replace hardcoded strings with translation keys",
-      "description": "Found 3711 hardcoded strings that should be internationalized",
+      "description": "Found 3703 hardcoded strings that should be internationalized",
       "action": "Review and replace hardcoded strings with t() function calls",
-      "count": 3711
+      "count": 3703
     },
     {
       "priority": "MEDIUM",
@@ -172911,6 +173336,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -172919,6 +173346,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -173092,7 +173536,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "16.70"
+            "coverage_percentage": "16.62"
           }
         ],
         [
@@ -176201,6 +176645,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -176209,6 +176655,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -176382,7 +176845,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "16.70"
+            "coverage_percentage": "16.62"
           }
         ],
         [
@@ -179491,6 +179954,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -179499,6 +179964,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -179672,7 +180154,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "16.70"
+            "coverage_percentage": "16.62"
           }
         ],
         [
@@ -182767,6 +183249,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -182775,6 +183259,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -182948,7 +183449,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "17.06"
+            "coverage_percentage": "16.98"
           }
         ],
         [
@@ -186043,6 +186544,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -186051,6 +186554,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -186224,7 +186744,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "17.06"
+            "coverage_percentage": "16.98"
           }
         ],
         [
@@ -189319,6 +189839,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -189327,6 +189849,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -189500,7 +190039,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "17.06"
+            "coverage_percentage": "16.98"
           }
         ],
         [
@@ -192595,6 +193134,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -192603,6 +193144,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -192776,7 +193334,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "17.06"
+            "coverage_percentage": "16.98"
           }
         ],
         [
@@ -195869,6 +196427,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -195877,6 +196437,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -196050,7 +196627,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "17.08"
+            "coverage_percentage": "17.00"
           }
         ],
         [
@@ -199096,6 +199673,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -199104,6 +199683,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -199277,7 +199873,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.31"
+            "coverage_percentage": "18.22"
           }
         ],
         [
@@ -202323,6 +202919,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -202331,6 +202929,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -202504,7 +203119,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.31"
+            "coverage_percentage": "18.22"
           }
         ],
         [
@@ -205550,6 +206165,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -205558,6 +206175,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -205731,7 +206365,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.31"
+            "coverage_percentage": "18.22"
           }
         ],
         [
@@ -208777,6 +209411,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -208785,6 +209421,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -208958,7 +209611,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.31"
+            "coverage_percentage": "18.22"
           }
         ],
         [
@@ -212004,6 +212657,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -212012,6 +212667,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -212185,7 +212857,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.31"
+            "coverage_percentage": "18.22"
           }
         ],
         [
@@ -215213,6 +215885,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -215221,6 +215895,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -215394,7 +216085,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "18.75"
+            "coverage_percentage": "18.66"
           }
         ],
         [
@@ -218375,6 +219066,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -218383,6 +219076,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -218556,7 +219266,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "19.95"
+            "coverage_percentage": "19.85"
           }
         ],
         [
@@ -221510,6 +222220,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -221518,6 +222230,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -221691,7 +222420,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "20.72"
+            "coverage_percentage": "20.62"
           }
         ],
         [
@@ -224593,6 +225322,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -224601,6 +225332,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -224774,7 +225522,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "22.05"
+            "coverage_percentage": "21.94"
           }
         ],
         [
@@ -227654,6 +228402,8 @@
               "seax.channels.smsLocal.hero.campaign.status",
               "seax.channels.smsLocal.hero.campaign.messagesSent",
               "seax.channels.smsLocal.hero.campaign.deliveryRate",
+              "seax.channels.smsLocal.hero.campaign.messagesSentValue",
+              "seax.channels.smsLocal.hero.campaign.deliveryRateValue",
               "seax.channels.smsLocal.hero.recentActivity.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.title",
               "seax.channels.smsLocal.hero.recentActivity.marketing.details",
@@ -227662,6 +228412,23 @@
               "seax.channels.smsLocal.stats.deliveryRate",
               "seax.channels.smsLocal.stats.openRate",
               "seax.channels.smsLocal.stats.support",
+              "seax.channels.smsLocal.stats.deliveryRateValue",
+              "seax.channels.smsLocal.stats.openRateValue",
+              "seax.channels.smsLocal.stats.supportValue",
+              "seax.channels.smsLocal.features.title",
+              "seax.channels.smsLocal.features.subtitle",
+              "seax.channels.smsLocal.features.items",
+              "seax.channels.smsLocal.useCases.title",
+              "seax.channels.smsLocal.useCases.subtitle",
+              "seax.channels.smsLocal.useCases.items",
+              "seax.channels.smsLocal.pricing.title",
+              "seax.channels.smsLocal.pricing.subtitle",
+              "seax.channels.smsLocal.pricing.setup.label",
+              "seax.channels.smsLocal.pricing.setup.value",
+              "seax.channels.smsLocal.pricing.monthly.label",
+              "seax.channels.smsLocal.pricing.monthly.value",
+              "seax.channels.smsLocal.pricing.perMessage.label",
+              "seax.channels.smsLocal.pricing.perMessage.value",
               "seax.channels.smsLocal.testimonial.quote",
               "seax.channels.smsLocal.testimonial.author",
               "seax.channels.smsLocal.testimonial.company",
@@ -227835,7 +228602,7 @@
               "seax.channels.voice.globalCoverage.infrastructureTitle",
               "seax.channels.voice.globalCoverage.fullRegionalCoverage"
             ],
-            "coverage_percentage": "22.61"
+            "coverage_percentage": "22.50"
           }
         ]
       ]

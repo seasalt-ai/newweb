@@ -6731,7 +6731,9 @@
             "title": "10DLC A2P Campaign",
             "status": "Active",
             "messagesSent": "Messages Sent",
-            "deliveryRate": "Delivery Rate"
+            "deliveryRate": "Delivery Rate",
+            "messagesSentValue": "247,382",
+            "deliveryRateValue": "89.2%"
           },
           "recentActivity": {
             "title": "Recent Activity",
@@ -6748,7 +6750,50 @@
         "stats": {
           "deliveryRate": "Delivery Rate",
           "openRate": "Open Rate",
-          "support": "Support"
+          "support": "Support",
+          "deliveryRateValue": "98%",
+          "openRateValue": "85%",
+          "supportValue": "24/7"
+        },
+        "features": {
+          "title": "Powerful Features",
+          "subtitle": "Everything you need for high-volume messaging success",
+          "items": [
+            "10DLC A2P compliance",
+            "Local presence with area codes",
+            "Brand registration required",
+            "Campaign pre-approval",
+            "High throughput rates",
+            "Carrier-grade delivery"
+          ]
+        },
+        "useCases": {
+          "title": "Perfect For",
+          "subtitle": "Common use cases that drive results",
+          "items": [
+            "Marketing campaigns",
+            "Customer notifications",
+            "Appointment reminders",
+            "Order confirmations",
+            "Account alerts",
+            "Lead nurturing"
+          ]
+        },
+        "pricing": {
+          "title": "Transparent Pricing",
+          "subtitle": "Simple, predictable pricing that scales with your business",
+          "setup": {
+            "label": "Setup",
+            "value": "$50 brand registration"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$10/month per number"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.0075 per message"
+          }
         },
         "testimonial": {
           "quote": "SeaX's 10DLC A2P solution helped us reach 500K customers with our flash sale campaign. The delivery rates were incredible and setup was seamless.",

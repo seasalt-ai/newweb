@@ -14,7 +14,11 @@ interface ChannelPageTemplateProps {
   seoDescription: string;
   heroContent: ReactNode;
   features: string[];
+  featuresTitle: string;       // ✅ 新增
+  featuresSubtitle: string;    // ✅ 新增
   useCases: string[];
+  useCasesTitle: string;       // ✅ 新增
+  useCasesSubtitle: string;    // ✅ 新增
   pricing?: {
     setup: string;
     monthly: string;
@@ -44,7 +48,11 @@ const ChannelPageTemplate = ({
   seoDescription,
   heroContent,
   features,
+  featuresTitle,
+  featuresSubtitle,
   useCases,
+  useCasesTitle,
+  useCasesSubtitle,
   pricing,
   stats,
   testimonial,
@@ -133,10 +141,10 @@ const ChannelPageTemplate = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Powerful Features
+              {featuresTitle}
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need for high-volume messaging success
+              {featuresSubtitle}
             </p>
           </div>
           
@@ -158,10 +166,10 @@ const ChannelPageTemplate = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Perfect For
+              {useCasesTitle}
             </h2>
             <p className="text-lg text-gray-600">
-              Common use cases that drive results
+              {useCasesSubtitle}
             </p>
           </div>
           
@@ -296,3 +304,4 @@ const ChannelPageTemplate = ({
 };
 
 export default ChannelPageTemplate;
+

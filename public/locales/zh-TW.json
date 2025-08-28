@@ -6731,7 +6731,9 @@
             "title": "10DLC A2P活動",
             "status": "進行中",
             "messagesSent": "已發送訊息",
-            "deliveryRate": "送達率"
+            "deliveryRate": "送達率",
+            "messagesSentValue": "247,382",
+            "deliveryRateValue": "89.2%"
           },
           "recentActivity": {
             "title": "最近活動",
@@ -6748,7 +6750,50 @@
         "stats": {
           "deliveryRate": "送達率",
           "openRate": "開啟率",
-          "support": "支援"
+          "support": "支援",
+          "deliveryRateValue": "98%",
+          "openRateValue": "85%",
+          "supportValue": "24/7"
+        },
+        "features": {
+          "title": "強大的功能",
+          "subtitle": "高量訊息成功所需的一切",
+          "items": [
+            "符合 10DLC A2P 規範",
+            "具備當地區碼的在地存在感",
+            "需要品牌註冊",
+            "活動需事先審批",
+            "高吞吐率",
+            "電信等級的傳遞品質"
+          ]
+        },
+        "useCases": {
+          "title": "適用場景",
+          "subtitle": "常見用例，助力成果",
+          "items": [
+            "行銷活動",
+            "客戶通知",
+            "預約提醒",
+            "訂單確認",
+            "帳戶警示",
+            "潛在客戶培養"
+          ]
+        },
+        "pricing": {
+          "title": "透明定價",
+          "subtitle": "簡單、可預測，隨業務擴展",
+          "setup": {
+            "label": "Setup",
+            "value": "品牌註冊費 $50"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "每個號碼 $10/月"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "每則訊息 $0.0075"
+          }
         },
         "testimonial": {
           "quote": "SeaX的10DLC A2P解決方案幫助我們透過快閃特賣活動接觸到50萬客戶。送達率令人驚艷，設置也很簡單。",
