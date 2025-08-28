@@ -27,9 +27,9 @@ const SMSTollFree = () => {
   };
 
   const pricingLabels = {
-    setup: pricingRaw?.setup?.label ?? 'Setup',
-    monthly: pricingRaw?.monthly?.label ?? 'Monthly',
-    perMessage: pricingRaw?.perMessage?.label ?? 'Per Message',
+    setup: pricingRaw?.setup?.label ?? t('seax.channels.smsTollFree.pricing.setupLabel'),
+    monthly: pricingRaw?.monthly?.label ?? t('seax.channels.smsTollFree.pricing.monthlyLabel'),
+    perMessage: pricingRaw?.perMessage?.label ?? t('seax.channels.smsTollFree.pricing.perMessageLabel'),
   };
 
   // Hero content
@@ -46,7 +46,7 @@ const SMSTollFree = () => {
           </div>
         </div>
 
-        {/* Dedicated Number */}
+        {/* Dedicated Number (固定数字) */}
         <div className="text-center">
           <div className="text-4xl font-bold text-blue-600 mb-2">
             1-800-SEAX-SMS
@@ -56,7 +56,7 @@ const SMSTollFree = () => {
           </div>
         </div>
 
-        {/* Stats: Delivery Rate & Higher Trust */}
+        {/* Stats: Delivery Rate & Higher Trust (固定数字) */}
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-green-50 rounded-lg p-4">
             <div className="text-2xl font-bold text-green-600 mb-1">94.7%</div>
@@ -106,6 +106,7 @@ const SMSTollFree = () => {
     </div>
   );
 
+  // Stats
   const stats = [
     {
       value: '94%',
@@ -124,6 +125,7 @@ const SMSTollFree = () => {
     }
   ];
 
+  // Testimonial
   const testimonial = {
     quote: t('seax.channels.smsTollFree.testimonial.quote'),
     author: t('seax.channels.smsTollFree.testimonial.author'),
@@ -208,4 +210,6 @@ const SMSTollFree = () => {
 };
 
 export default SMSTollFree;
+
+
 
