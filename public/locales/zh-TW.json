@@ -8493,6 +8493,54 @@
         "subtitle": "立即開始免費試用 - 無需信用卡",
         "signUp": "立即註冊",
         "talkToSales": "聯絡銷售團隊"
+      },
+      "omniCalculator": {
+        "title": "全通路費用試算器",
+        "subtitle": "使用我們的互動式試算器，幾秒鐘內估算您的 SeaX 使用成本",
+        "billing": {
+          "monthly": "月繳",
+          "yearly": "年繳",
+          "save": "省下 17%"
+        },
+        "configureTitle": "設定您的配置",
+        "users": {
+          "label": "使用者數量",
+          "pricing": "第一位使用者 {{first}}，額外使用者 {{additional}}"
+        },
+        "phone": {
+          "label": "電話號碼",
+          "local": "本地號碼（每月 $2）",
+          "tollfree": "免付費號碼（每月 $3）"
+        },
+        "whatsapp": {
+          "label": "WhatsApp 商業號碼",
+          "note": "WhatsApp 號碼免費！僅需為發送的模板訊息付費。"
+        },
+        "usageTitle": "每月使用量",
+        "sms": "簡訊（每則 $0.02）",
+        "calls": "通話分鐘數（每分鐘 $0.015）",
+        "voicemail": "語音信箱投遞（每則 $0.05）",
+        "whatsappMessages": "WhatsApp 訊息（商業發起）",
+        "breakdownTitle": "{{period}}費用明細",
+        "usersBreakdown": "{{count}} 位使用者",
+        "usersDetail": "1 位第一使用者 + {{additional}} 位額外",
+        "phoneBreakdown": "電話號碼",
+        "whatsappBreakdown": "{{count}} 個 WhatsApp 號碼",
+        "whatsappFree": "免費設定與維護",
+        "smsBreakdown": "{{count}} 則簡訊",
+        "callsBreakdown": "{{count}} 通話分鐘數",
+        "voicemailBreakdown": "{{count}} 語音信箱投遞",
+        "whatsappMessagesBreakdown": "{{count}} 則 WhatsApp 訊息",
+        "whatsappMessagesFree": "客戶回覆免費，模板訊息 $0.005-0.02",
+        "total": "{{period}}總計",
+        "savings": {
+          "title": "每年省下 ${{amount}}！",
+          "detail": "相較於月繳方案，年繳方案提供顯著的節省"
+        },
+        "cta": {
+          "start": "開始免費試用",
+          "sales": "聯繫業務"
+        }
       }
     }
   }

@@ -8487,6 +8487,54 @@
           "usage": "Usage:"
         }
       },
+      "omniCalculator": {
+        "title": "Omni-Channel Pricing Calculator",
+        "subtitle": "Estimate your SeaX costs in seconds with our interactive calculator",
+        "billing": {
+          "monthly": "Monthly",
+          "yearly": "Yearly",
+          "save": "Save 17%"
+        },
+        "configureTitle": "Configure Your Setup",
+        "users": {
+          "label": "Users",
+          "pricing": "First user {{first}}, additional users {{additional}}"
+        },
+        "phone": {
+          "label": "Phone Numbers",
+          "local": "Local Numbers ($2/month each)",
+          "tollfree": "Toll-Free Numbers ($3/month each)"
+        },
+        "whatsapp": {
+          "label": "WhatsApp Business Numbers",
+          "note": "WhatsApp numbers are free! Only pay for template messages sent."
+        },
+        "usageTitle": "Monthly Usage",
+        "sms": "SMS Messages ($0.02 each)",
+        "calls": "Call Minutes ($0.015 each)",
+        "voicemail": "Voicemail Drops ($0.05 each)",
+        "whatsappMessages": "WhatsApp Messages (business-initiated)",
+        "breakdownTitle": "{{period}} Cost Breakdown",
+        "usersBreakdown": "{{count}} user{{count, plural, one {} other {s}}}",
+        "usersDetail": "1 first user + {{additional}} additional",
+        "phoneBreakdown": "Phone Numbers",
+        "whatsappBreakdown": "{{count}} WhatsApp number{{count, plural, one {} other {s}}}",
+        "whatsappFree": "Free setup & maintenance",
+        "smsBreakdown": "{{count}} SMS messages",
+        "callsBreakdown": "{{count}} call minutes",
+        "voicemailBreakdown": "{{count}} voicemail drops",
+        "whatsappMessagesBreakdown": "{{count}} WhatsApp messages",
+        "whatsappMessagesFree": "Free for customer replies, $0.005-0.02 for templates",
+        "total": "Total {{period}}",
+        "savings": {
+          "title": "You save ${{amount}} per year!",
+          "detail": "Compared to paying monthly, the yearly plan offers significant savings"
+        },
+        "cta": {
+          "start": "Start Free Trial",
+          "sales": "Talk to Sales"
+        }
+      },
       "roi": {
         "title": "Calculate Your ROI",
         "subtitle": "See how much you can save and earn with SeaX"
