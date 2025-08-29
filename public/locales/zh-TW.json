@@ -8541,6 +8541,34 @@
           "start": "開始免費試用",
           "sales": "聯繫業務"
         }
+      },
+      "roiCalculator": {
+        "title": "投資報酬率試算器",
+        "inputs": {
+          "monthlyMessages": "每月訊息量",
+          "currentCost": "目前每月成本 ($)",
+          "conversionRate": "轉換率 (%)",
+          "averageOrderValue": "平均訂單價值 ($)"
+        },
+        "placeholders": {
+          "monthlyMessages": "100,000",
+          "currentCost": "5,000",
+          "conversionRate": "2.5",
+          "averageOrderValue": "150"
+        },
+        "results": {
+          "monthlyRoi": "每月投資報酬率",
+          "monthlySavings": "每月節省",
+          "seaxCost": "SeaX 成本",
+          "annualSavings": "年度節省",
+          "monthlyRevenue": "每月營收"
+        },
+        "payback": {
+          "period": "回收期間",
+          "duration": "{{count}} 個月",
+          "breakeven": "損益平衡",
+          "messages": "{{count, number}} 則訊息"
+        }
       }
     }
   }

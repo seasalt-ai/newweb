@@ -8563,6 +8563,34 @@
         "subtitle": "Start your free trial today - no credit card required",
         "signUp": "Sign Up Now",
         "talkToSales": "Talk to Sales"
+      },
+      "roiCalculator": {
+        "title": "ROI Calculator",
+        "inputs": {
+          "monthlyMessages": "Monthly Messages",
+          "currentCost": "Current Monthly Cost ($)",
+          "conversionRate": "Conversion Rate (%)",
+          "averageOrderValue": "Average Order Value ($)"
+        },
+        "placeholders": {
+          "monthlyMessages": "100,000",
+          "currentCost": "5,000",
+          "conversionRate": "2.5",
+          "averageOrderValue": "150"
+        },
+        "results": {
+          "monthlyRoi": "Monthly ROI",
+          "monthlySavings": "Monthly Savings",
+          "seaxCost": "SeaX Cost",
+          "annualSavings": "Annual Savings",
+          "monthlyRevenue": "Monthly Revenue"
+        },
+        "payback": {
+          "period": "Payback Period",
+          "duration": "{{count}} month{{count, plural, one {} other {s}}}",
+          "breakeven": "Break-even",
+          "messages": "{{count, number}} messages"
+        }
       }
     }
   }
