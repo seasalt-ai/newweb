@@ -7392,6 +7392,102 @@
           "primary": "Sign Up Now",
           "secondary": "Book a Demo"
         }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Marketing Automation Platform - SeaX Multi-Channel Automation",
+          "description": "Automate your marketing campaigns across SMS, WhatsApp, and voice calls. Advanced workflows, audience segmentation, and performance analytics."
+        },
+        "hero": {
+          "title": {
+            "main": "Marketing Automation",
+            "highlight": "That Works"
+          },
+          "description": "Automate your marketing campaigns across SMS, WhatsApp, and voice calls. Create sophisticated workflows that nurture leads and drive conversions 24/7.",
+          "cta": {
+            "primary": "Start Automating",
+            "secondary": "See Demo"
+          }
+        },
+        "features": {
+          "title": "Powerful Automation Features",
+          "subtitle": "Build sophisticated campaigns that run automatically and deliver results",
+          "items[0]": {
+            "title": "Automated Workflows",
+            "description": "Create complex multi-step campaigns that trigger based on customer behavior and responses."
+          },
+          "items[1]": {
+            "title": "Smart Timing",
+            "description": "Send messages at optimal times based on customer timezone and engagement patterns."
+          },
+          "items[2]": {
+            "title": "Audience Segmentation",
+            "description": "Target specific customer segments with personalized messaging across all channels."
+          },
+          "items[3]": {
+            "title": "Performance Analytics",
+            "description": "Track engagement rates, conversions, and ROI with detailed campaign analytics."
+          },
+          "items[4]": {
+            "title": "Multi-Channel Sequences",
+            "description": "Orchestrate campaigns across SMS, WhatsApp, and voice calls for maximum reach."
+          },
+          "items[5]": {
+            "title": "A/B Testing",
+            "description": "Test different messages, timing, and channels to optimize campaign performance."
+          }
+        },
+        "automationTypes": {
+          "title": "Automation Workflows",
+          "subtitle": "Pre-built automation sequences for common marketing scenarios",
+          "items[0]": {
+            "title": "Welcome Series",
+            "description": "Automatically onboard new customers with personalized welcome sequences.",
+            "example": "Welcome SMS → Product info → Special offer → Feedback request"
+          },
+          "items[1]": {
+            "title": "Abandoned Cart Recovery",
+            "description": "Re-engage customers who left items in their cart with targeted reminders.",
+            "example": "Cart reminder → Limited-time discount → Product recommendations"
+          },
+          "items[2]": {
+            "title": "Customer Lifecycle",
+            "description": "Guide customers through their journey with automated touchpoints.",
+            "example": "Purchase confirmation → Usage tips → Upsell opportunities → Loyalty rewards"
+          },
+          "items[3]": {
+            "title": "Re-engagement Campaigns",
+            "description": "Win back inactive customers with compelling re-engagement sequences.",
+            "example": "Miss you message → Exclusive offer → Product updates → Win-back incentive"
+          },
+          "exampleFlowLabel": "Example Flow:"
+        },
+        "stats": {
+          "title": "Automation Results",
+          "subtitle": "See the impact of marketing automation on your business",
+          "items[0]": {
+            "value": "10x",
+            "label": "More Efficient"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Engagement Rate"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Time Savings"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "ROI Increase"
+          }
+        },
+        "cta": {
+          "title": "Ready to Automate Your Marketing?",
+          "description": "Join thousands of businesses scaling their marketing with SeaX automation",
+          "primary": "Sign Up Now",
+          "secondary": "Book a Demo"
+        }
       }
     }
   }
