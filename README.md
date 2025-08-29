@@ -6,7 +6,12 @@ Prompt to do i18n:
 
 src/seachat/pages/PricingPage.tsx still has hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
 
-under the src/seachat/components/hero-animations folder, there are a few *.tsx files, they still have hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json
+under the src/seachat/pages/integrations folder, there are a few *.tsx files, they still have hard coded English strings. you should:
+1. list all tsx files
+2. learn the Bulk Translation Method in scripts/how-to-update-json.md 
+3. for each file, use the Bulk Translation Method to update both public/locales/zh-TW.json and public/locales/en.json
+4. make a plan first, then execute
+5. don't commit your changes
 
 
 ## Table of Contents
