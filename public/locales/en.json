@@ -8094,6 +8094,140 @@
           "primary": "Get Started Today",
           "secondary": "View Pricing"
         }
+      },
+      "healthcare": {
+        "seo": {
+          "title": "SeaX for Healthcare - Improve Patient Engagement & Care Delivery",
+          "description": "Enhance your healthcare services with SeaX's innovative messaging platform. Improve patient engagement, streamline care coordination, and deliver better health outcomes."
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "Healthcare"
+          },
+          "description": "Elevate patient engagement and improve care outcomes with automated messaging solutions tailored for healthcare providers.",
+          "cta": {
+            "primary": "Get Industry Solution",
+            "secondary": "View Features"
+          }
+        },
+        "challenges": {
+          "title": "Healthcare Challenges We Solve",
+          "subtitle": "Overcoming common obstacles in healthcare delivery through advanced communication methods",
+          "items": {
+            "0": {
+              "title": "Patient Follow-up",
+              "description": "Ensuring timely follow-up with patients post-discharge or after appointments to prevent readmissions and improve care outcomes."
+            },
+            "1": {
+              "title": "Appointment Scheduling",
+              "description": "Managing appointment bookings efficiently while reducing no-show rates, optimizing doctors' schedules, and enhancing patient satisfaction."
+            },
+            "2": {
+              "title": "Chronic Care Management",
+              "description": "Keeping patients with chronic conditions engaged in their care plans through consistent communication and education."
+            },
+            "3": {
+              "title": "Emergency Alerts",
+              "description": "Rapidly communicating critical health alerts and emergency information to patients, staff, and stakeholders."
+            },
+            "4": {
+              "title": "Patient Education",
+              "description": "Providing patients and caregivers with up-to-date information and guidance for better health management and decision-making."
+            },
+            "5": {
+              "title": "Medication Reminders",
+              "description": "Patients missing medications due to lack of timely, personalized reminder systems."
+            }
+          }
+        },
+        "useCases": {
+          "title": "Healthcare Use Cases",
+          "subtitle": "Real-world examples of how SeaX transforms healthcare delivery",
+          "items": {
+            "0": {
+              "title": "Patient Reminders",
+              "description": "Automatically send personalized SMS reminders for upcoming appointments, medication schedules, and preventive screenings.",
+              "benefits": {
+                "0": "Reduced no-shows",
+                "1": "Improved medication adherence",
+                "2": "Better health outcomes"
+              }
+            },
+            "1": {
+              "title": "Chronic Condition Monitoring",
+              "description": "Engage chronic care patients with ongoing communication, educational resources, and progress tracking to enhance their quality of life.",
+              "benefits": {
+                "0": "Improved patient satisfaction",
+                "1": "Decreased readmission rates",
+                "2": "Enhanced care coordination"
+              }
+            },
+            "2": {
+              "title": "Crisis Alerts",
+              "description": "Distribute urgent alerts and updates to patients and healthcare teams during public health emergencies or natural disasters.",
+              "benefits": {
+                "0": "Faster information dissemination",
+                "1": "Greater patient trust",
+                "2": "Effective crisis management"
+              }
+            },
+            "3": {
+              "title": "Telehealth Appointment Setup",
+              "description": "Guide patients through telehealth setup and provide technical support to ensure successful virtual appointments.",
+              "benefits": {
+                "0": "Expanded access to care",
+                "1": "Higher patient engagement",
+                "2": "Reduced travel barriers"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "Healthcare Results Achieved with SeaX",
+          "subtitle": "Proven impact for healthcare providers",
+          "items": {
+            "0": {
+              "value": "40%",
+              "label": "Reduction in No-shows",
+              "description": "With timely appointment reminders"
+            },
+            "1": {
+              "value": "35%",
+              "label": "Increase in Patient Engagement",
+              "description": "Through personalized communication strategies"
+            },
+            "2": {
+              "value": "60%",
+              "label": "Faster Crisis Response",
+              "description": "During emergencies and public health alerts"
+            }
+          }
+        },
+        "features": {
+          "title": "Why Healthcare Providers Choose SeaX",
+          "subtitle": "Comprehensive features designed for healthcare communication success",
+          "items": {
+            "0": {
+              "title": "HIPAA Compliance",
+              "description": "End-to-end encryption and secure data handling that meets all HIPAA requirements."
+            },
+            "1": {
+              "title": "Multi-Channel Messaging",
+              "description": "Reach patients through SMS, voice calls, and secure messaging platforms from one dashboard."
+            },
+            "2": {
+              "title": "Smart Scheduling",
+              "description": "Intelligent appointment reminders with automatic rescheduling and confirmation features."
+            }
+          }
+        },
+        "cta": {
+          "title": "Ready to Transform Your Healthcare Services?",
+          "description": "Partner with SeaX to revolutionize patient experience and care delivery",
+          "primary": "Get Started Today",
+          "secondary": "View Pricing"
+        }
       }
     }
   }

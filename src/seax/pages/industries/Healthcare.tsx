@@ -6,66 +6,82 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle, Stethoscope, Calendar, Users, AlertCircle, Heart } from 'lucide-react';
 
 const Healthcare = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const challenges = [
     {
       icon: <Stethoscope className="w-6 h-6 text-blue-600" />,
-      title: "Patient Follow-up",
-      description: "Ensuring timely follow-up with patients post-discharge or after appointments to prevent readmissions and improve care outcomes."
+      title: t('seax.industries.healthcare.challenges.items.0.title'),
+      description: t('seax.industries.healthcare.challenges.items.0.description')
     },
     {
       icon: <Calendar className="w-6 h-6 text-blue-600" />,
-      title: "Appointment Scheduling",
-      description: "Managing appointment bookings efficiently while reducing no-show rates, optimizing doctors' schedules, and enhancing patient satisfaction."
+      title: t('seax.industries.healthcare.challenges.items.1.title'),
+      description: t('seax.industries.healthcare.challenges.items.1.description')
     },
     {
       icon: <Users className="w-6 h-6 text-blue-600" />,
-      title: "Chronic Care Management",
-      description: "Keeping patients with chronic conditions engaged in their care plans through consistent communication and education."
+      title: t('seax.industries.healthcare.challenges.items.2.title'),
+      description: t('seax.industries.healthcare.challenges.items.2.description')
     },
     {
       icon: <AlertCircle className="w-6 h-6 text-blue-600" />,
-      title: "Emergency Alerts",
-      description: "Rapidly communicating critical health alerts and emergency information to patients, staff, and stakeholders."
+      title: t('seax.industries.healthcare.challenges.items.3.title'),
+      description: t('seax.industries.healthcare.challenges.items.3.description')
     },
     {
       icon: <Heart className="w-6 h-6 text-blue-600" />,
-      title: "Patient Education",
-      description: "Providing patients and caregivers with up-to-date information and guidance for better health management and decision-making."
+      title: t('seax.industries.healthcare.challenges.items.4.title'),
+      description: t('seax.industries.healthcare.challenges.items.4.description')
     }
   ];
 
   const useCases = [
     {
-      title: "Patient Reminders",
-      description: "Automatically send personalized SMS reminders for upcoming appointments, medication schedules, and preventive screenings.",
-      benefits: ["Reduced no-shows", "Improved medication adherence", "Better health outcomes"]
+      title: t('seax.industries.healthcare.useCases.items.0.title'),
+      description: t('seax.industries.healthcare.useCases.items.0.description'),
+      benefits: [
+        t('seax.industries.healthcare.useCases.items.0.benefits.0'),
+        t('seax.industries.healthcare.useCases.items.0.benefits.1'),
+        t('seax.industries.healthcare.useCases.items.0.benefits.2')
+      ]
     },
     {
-      title: "Chronic Condition Monitoring",
-      description: "Engage chronic care patients with ongoing communication, educational resources, and progress tracking to enhance their quality of life.",
-      benefits: ["Improved patient satisfaction", "Decreased readmission rates", "Enhanced care coordination"]
+      title: t('seax.industries.healthcare.useCases.items.1.title'),
+      description: t('seax.industries.healthcare.useCases.items.1.description'),
+      benefits: [
+        t('seax.industries.healthcare.useCases.items.1.benefits.0'),
+        t('seax.industries.healthcare.useCases.items.1.benefits.1'),
+        t('seax.industries.healthcare.useCases.items.1.benefits.2')
+      ]
     },
     {
-      title: "Crisis Alerts",
-      description: "Distribute urgent alerts and updates to patients and healthcare teams during public health emergencies or natural disasters.",
-      benefits: ["Faster information dissemination", "Greater patient trust", "Effective crisis management"]
+      title: t('seax.industries.healthcare.useCases.items.2.title'),
+      description: t('seax.industries.healthcare.useCases.items.2.description'),
+      benefits: [
+        t('seax.industries.healthcare.useCases.items.2.benefits.0'),
+        t('seax.industries.healthcare.useCases.items.2.benefits.1'),
+        t('seax.industries.healthcare.useCases.items.2.benefits.2')
+      ]
     },
     {
-      title: "Telehealth Appointment Setup",
-      description: "Guide patients through telehealth setup and provide technical support to ensure successful virtual appointments.",
-      benefits: ["Expanded access to care", "Higher patient engagement", "Reduced travel barriers"]
+      title: t('seax.industries.healthcare.useCases.items.3.title'),
+      description: t('seax.industries.healthcare.useCases.items.3.description'),
+      benefits: [
+        t('seax.industries.healthcare.useCases.items.3.benefits.0'),
+        t('seax.industries.healthcare.useCases.items.3.benefits.1'),
+        t('seax.industries.healthcare.useCases.items.3.benefits.2')
+      ]
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX for Healthcare - Improve Patient Engagement & Care Delivery"
-        description="Enhance your healthcare services with SeaX's innovative messaging platform. Improve patient engagement, streamline care coordination, and deliver better health outcomes."
+        title={t('seax.industries.healthcare.seo.title')}
+        description={t('seax.industries.healthcare.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -75,11 +91,11 @@ const Healthcare = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            SeaX for
-            <span className="text-blue-600 block">Healthcare</span>
+            {t('seax.industries.healthcare.hero.title.main')}
+            <span className="text-blue-600 block">{t('seax.industries.healthcare.hero.title.highlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Elevate patient engagement and improve care outcomes with automated messaging solutions tailored for healthcare providers.
+            {t('seax.industries.healthcare.hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -89,7 +105,7 @@ const Healthcare = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Industry Solution</span>
+              <span>{t('seax.industries.healthcare.hero.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -97,7 +113,7 @@ const Healthcare = () => {
               to={getLocalizedPath('/features')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              View Features
+              {t('seax.industries.healthcare.hero.cta.secondary')}
             </Link>
           </div>
         </div>
@@ -108,10 +124,10 @@ const Healthcare = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Healthcare Challenges We Solve
+              {t('seax.industries.healthcare.challenges.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Overcoming common obstacles in healthcare delivery through advanced communication methods
+              {t('seax.industries.healthcare.challenges.subtitle')}
             </p>
           </div>
           
@@ -136,10 +152,10 @@ const Healthcare = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Healthcare Use Cases
+              {t('seax.industries.healthcare.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Real-world examples of how SeaX transforms healthcare delivery
+              {t('seax.industries.healthcare.useCases.subtitle')}
             </p>
           </div>
           
@@ -169,28 +185,28 @@ const Healthcare = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Healthcare Results Achieved with SeaX
+              {t('seax.industries.healthcare.stats.title')}
             </h2>
             <p className="text-xl text-blue-100">
-              Proven impact for healthcare providers
+              {t('seax.industries.healthcare.stats.subtitle')}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">40%</div>
-              <div className="text-blue-100">Reduction in No-shows</div>
-              <div className="text-sm text-blue-200 mt-2">With timely appointment reminders</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.healthcare.stats.items.0.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.healthcare.stats.items.0.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.healthcare.stats.items.0.description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">35%</div>
-              <div className="text-blue-100">Increase in Patient Engagement</div>
-              <div className="text-sm text-blue-200 mt-2">Through personalized communication strategies</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.healthcare.stats.items.1.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.healthcare.stats.items.1.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.healthcare.stats.items.1.description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">60%</div>
-              <div className="text-blue-100">Faster Crisis Response</div>
-              <div className="text-sm text-blue-200 mt-2">During emergencies and public health alerts</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.healthcare.stats.items.2.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.healthcare.stats.items.2.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.healthcare.stats.items.2.description')}</div>
             </div>
           </div>
         </div>
@@ -200,10 +216,10 @@ const Healthcare = () => {
       <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Transform Your Healthcare Services?
+            {t('seax.industries.healthcare.cta.title')}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Partner with SeaX to revolutionize patient experience and care delivery
+            {t('seax.industries.healthcare.cta.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -213,7 +229,7 @@ const Healthcare = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
             >
-              <span>Get Started Today</span>
+              <span>{t('seax.industries.healthcare.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -221,7 +237,7 @@ const Healthcare = () => {
               to={getLocalizedPath('/pricing')}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
             >
-              View Pricing
+              {t('seax.industries.healthcare.cta.secondary')}
             </Link>
           </div>
         </div>

@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-29T07:33:17.546Z
+Generated: 2025-08-29T09:04:19.557Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 4474
+- **Base Language (en) Keys**: 4540
 - **Components Analyzed**: 210
-- **Translation Coverage**: 66.93%
-- **Missing Keys**: 1998
-- **Hardcoded Strings Found**: 3218
+- **Translation Coverage**: 67.91%
+- **Missing Keys**: 1957
+- **Hardcoded Strings Found**: 3170
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 19.76% | ❌ Incomplete |
-| de | 887 | 19.27% | ❌ Incomplete |
-| en | 4474 | 100.00% | ✅ Good |
-| es | 835 | 18.10% | ❌ Incomplete |
-| fa | 755 | 16.38% | ❌ Incomplete |
-| fil | 739 | 16.00% | ❌ Incomplete |
-| fr | 739 | 16.00% | ❌ Incomplete |
-| hi | 690 | 14.91% | ❌ Incomplete |
-| id | 690 | 14.91% | ❌ Incomplete |
-| ja | 690 | 14.93% | ❌ Incomplete |
-| ko | 690 | 14.91% | ❌ Incomplete |
-| ms | 690 | 14.91% | ❌ Incomplete |
-| pl | 676 | 14.60% | ❌ Incomplete |
-| pt | 676 | 14.60% | ❌ Incomplete |
-| ru | 676 | 14.60% | ❌ Incomplete |
-| ta | 739 | 16.00% | ❌ Incomplete |
-| th | 739 | 16.00% | ❌ Incomplete |
-| vi | 739 | 16.00% | ❌ Incomplete |
-| zh-CN | 802 | 17.43% | ❌ Incomplete |
-| zh-TW | 4460 | 99.66% | ✅ Good |
+| ar | 909 | 19.47% | ❌ Incomplete |
+| de | 887 | 18.99% | ❌ Incomplete |
+| en | 4540 | 100.00% | ✅ Good |
+| es | 835 | 17.84% | ❌ Incomplete |
+| fa | 755 | 16.15% | ❌ Incomplete |
+| fil | 739 | 15.77% | ❌ Incomplete |
+| fr | 739 | 15.77% | ❌ Incomplete |
+| hi | 690 | 14.69% | ❌ Incomplete |
+| id | 690 | 14.69% | ❌ Incomplete |
+| ja | 690 | 14.71% | ❌ Incomplete |
+| ko | 690 | 14.69% | ❌ Incomplete |
+| ms | 690 | 14.69% | ❌ Incomplete |
+| pl | 676 | 14.38% | ❌ Incomplete |
+| pt | 676 | 14.38% | ❌ Incomplete |
+| ru | 676 | 14.38% | ❌ Incomplete |
+| ta | 739 | 15.77% | ❌ Incomplete |
+| th | 739 | 15.77% | ❌ Incomplete |
+| vi | 739 | 15.77% | ❌ Incomplete |
+| zh-CN | 802 | 17.18% | ❌ Incomplete |
+| zh-TW | 4526 | 99.67% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1998 keys used in components but missing from en.json
+**Description**: 1957 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3218 hardcoded strings that should be internationalized
+**Description**: Found 3170 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1971,47 +1971,6 @@ seax.channels.smsTollFree.pricing.setupLabel
 seax.channels.smsTollFree.pricing.monthlyLabel
 seax.channels.smsTollFree.pricing.perMessageLabel
 seax.channels.voice.pricing
-seax.industries.politicalCampaigns.challenges.items.0.title
-seax.industries.politicalCampaigns.challenges.items.0.description
-seax.industries.politicalCampaigns.challenges.items.1.title
-seax.industries.politicalCampaigns.challenges.items.1.description
-seax.industries.politicalCampaigns.challenges.items.2.title
-seax.industries.politicalCampaigns.challenges.items.2.description
-seax.industries.politicalCampaigns.challenges.items.3.title
-seax.industries.politicalCampaigns.challenges.items.3.description
-seax.industries.politicalCampaigns.challenges.items.4.title
-seax.industries.politicalCampaigns.challenges.items.4.description
-seax.industries.politicalCampaigns.challenges.items.5.title
-seax.industries.politicalCampaigns.challenges.items.5.description
-seax.industries.politicalCampaigns.useCases.items.0.title
-seax.industries.politicalCampaigns.useCases.items.0.description
-seax.industries.politicalCampaigns.useCases.items.0.benefits.0
-seax.industries.politicalCampaigns.useCases.items.0.benefits.1
-seax.industries.politicalCampaigns.useCases.items.0.benefits.2
-seax.industries.politicalCampaigns.useCases.items.1.title
-seax.industries.politicalCampaigns.useCases.items.1.description
-seax.industries.politicalCampaigns.useCases.items.1.benefits.0
-seax.industries.politicalCampaigns.useCases.items.1.benefits.1
-seax.industries.politicalCampaigns.useCases.items.1.benefits.2
-seax.industries.politicalCampaigns.useCases.items.2.title
-seax.industries.politicalCampaigns.useCases.items.2.description
-seax.industries.politicalCampaigns.useCases.items.2.benefits.0
-seax.industries.politicalCampaigns.useCases.items.2.benefits.1
-seax.industries.politicalCampaigns.useCases.items.2.benefits.2
-seax.industries.politicalCampaigns.useCases.items.3.title
-seax.industries.politicalCampaigns.useCases.items.3.description
-seax.industries.politicalCampaigns.useCases.items.3.benefits.0
-seax.industries.politicalCampaigns.useCases.items.3.benefits.1
-seax.industries.politicalCampaigns.useCases.items.3.benefits.2
-seax.industries.politicalCampaigns.stats.items.0.value
-seax.industries.politicalCampaigns.stats.items.0.label
-seax.industries.politicalCampaigns.stats.items.0.description
-seax.industries.politicalCampaigns.stats.items.1.value
-seax.industries.politicalCampaigns.stats.items.1.label
-seax.industries.politicalCampaigns.stats.items.1.description
-seax.industries.politicalCampaigns.stats.items.2.value
-seax.industries.politicalCampaigns.stats.items.2.label
-seax.industries.politicalCampaigns.stats.items.2.description
 seax.industries.realEstate.challenges.items.0.title
 seax.industries.realEstate.challenges.items.0.description
 seax.industries.realEstate.challenges.items.1.title
@@ -2059,7 +2018,7 @@ seax.industries.realEstate.stats.items.2.description
 ## Hardcoded Strings Summary
 
 
-Found 3218 potential hardcoded strings across components:
+Found 3170 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2102,7 +2061,7 @@ Found 3218 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3208 more. See hardcoded-strings.json for complete list.
+... and 3160 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2110,13 +2069,13 @@ Found 3218 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1998 keys used in components but missing from en.json
+**Description**: 1957 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3218 hardcoded strings that should be internationalized
+**Description**: Found 3170 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

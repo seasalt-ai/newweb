@@ -13,71 +13,71 @@ const PoliticalCampaigns = () => {
   const challenges = [
     {
       icon: <Megaphone className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.0.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.0.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[0].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[0].description')
     },
     {
       icon: <Users className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.1.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.1.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[1].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[1].description')
     },
     {
       icon: <MessageSquare className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.2.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.2.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[2].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[2].description')
     },
     {
       icon: <Gift className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.3.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.3.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[3].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[3].description')
     },
     {
       icon: <ThumbsUp className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.4.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.4.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[4].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[4].description')
     },
     {
       icon: <DollarSign className="w-6 h-6 text-blue-600" />,
-      title: t('seax.industries.politicalCampaigns.challenges.items.5.title'),
-      description: t('seax.industries.politicalCampaigns.challenges.items.5.description')
+      title: t('seax.industries.politicalCampaigns.challenges.items[5].title'),
+      description: t('seax.industries.politicalCampaigns.challenges.items[5].description')
     }
   ];
 
   const useCases = [
     {
-      title: t('seax.industries.politicalCampaigns.useCases.items.0.title'),
-      description: t('seax.industries.politicalCampaigns.useCases.items.0.description'),
+      title: t('seax.industries.politicalCampaigns.useCases.items[0].title'),
+      description: t('seax.industries.politicalCampaigns.useCases.items[0].description'),
       benefits: [
-        t('seax.industries.politicalCampaigns.useCases.items.0.benefits.0'),
-        t('seax.industries.politicalCampaigns.useCases.items.0.benefits.1'),
-        t('seax.industries.politicalCampaigns.useCases.items.0.benefits.2')
+        t('seax.industries.politicalCampaigns.useCases.items[0].benefits[0]'),
+        t('seax.industries.politicalCampaigns.useCases.items[0].benefits[1]'),
+        t('seax.industries.politicalCampaigns.useCases.items[0].benefits[2]')
       ]
     },
     {
-      title: t('seax.industries.politicalCampaigns.useCases.items.1.title'),
-      description: t('seax.industries.politicalCampaigns.useCases.items.1.description'),
+      title: t('seax.industries.politicalCampaigns.useCases.items[1].title'),
+      description: t('seax.industries.politicalCampaigns.useCases.items[1].description'),
       benefits: [
-        t('seax.industries.politicalCampaigns.useCases.items.1.benefits.0'),
-        t('seax.industries.politicalCampaigns.useCases.items.1.benefits.1'),
-        t('seax.industries.politicalCampaigns.useCases.items.1.benefits.2')
+        t('seax.industries.politicalCampaigns.useCases.items[1].benefits[0]'),
+        t('seax.industries.politicalCampaigns.useCases.items[1].benefits[1]'),
+        t('seax.industries.politicalCampaigns.useCases.items[1].benefits[2]')
       ]
     },
     {
-      title: t('seax.industries.politicalCampaigns.useCases.items.2.title'),
-      description: t('seax.industries.politicalCampaigns.useCases.items.2.description'),
+      title: t('seax.industries.politicalCampaigns.useCases.items[2].title'),
+      description: t('seax.industries.politicalCampaigns.useCases.items[2].description'),
       benefits: [
-        t('seax.industries.politicalCampaigns.useCases.items.2.benefits.0'),
-        t('seax.industries.politicalCampaigns.useCases.items.2.benefits.1'),
-        t('seax.industries.politicalCampaigns.useCases.items.2.benefits.2')
+        t('seax.industries.politicalCampaigns.useCases.items[2].benefits[0]'),
+        t('seax.industries.politicalCampaigns.useCases.items[2].benefits[1]'),
+        t('seax.industries.politicalCampaigns.useCases.items[2].benefits[2]')
       ]
     },
     {
-      title: t('seax.industries.politicalCampaigns.useCases.items.3.title'),
-      description: t('seax.industries.politicalCampaigns.useCases.items.3.description'),
+      title: t('seax.industries.politicalCampaigns.useCases.items[3].title'),
+      description: t('seax.industries.politicalCampaigns.useCases.items[3].description'),
       benefits: [
-        t('seax.industries.politicalCampaigns.useCases.items.3.benefits.0'),
-        t('seax.industries.politicalCampaigns.useCases.items.3.benefits.1'),
-        t('seax.industries.politicalCampaigns.useCases.items.3.benefits.2')
+        t('seax.industries.politicalCampaigns.useCases.items[3].benefits[0]'),
+        t('seax.industries.politicalCampaigns.useCases.items[3].benefits[1]'),
+        t('seax.industries.politicalCampaigns.useCases.items[3].benefits[2]')
       ]
     }
   ];
@@ -199,19 +199,19 @@ const PoliticalCampaigns = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items.0.value')}</div>
-              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items.0.label')}</div>
-              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items.0.description')}</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items[0].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items[0].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items[0].description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items.1.value')}</div>
-              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items.1.label')}</div>
-              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items.1.description')}</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items[1].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items[1].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items[1].description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items.2.value')}</div>
-              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items.2.label')}</div>
-              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items.2.description')}</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.politicalCampaigns.stats.items[2].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.politicalCampaigns.stats.items[2].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.politicalCampaigns.stats.items[2].description')}</div>
             </div>
           </div>
         </div>
@@ -254,3 +254,4 @@ const PoliticalCampaigns = () => {
 };
 
 export default PoliticalCampaigns;
+
