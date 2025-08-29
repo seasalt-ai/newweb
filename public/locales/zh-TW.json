@@ -7218,6 +7218,46 @@
           "languagesValue": "50+",
           "languagesLabel": "語言"
         },
+        "features": {
+          "title": "強大的功能",
+          "subtitle": "高量訊息成功所需的一切",
+          "items": [
+            "符合 10DLC A2P 規範",
+            "具備當地區碼的在地存在感",
+            "需要品牌註冊",
+            "活動需事先審批",
+            "高吞吐率",
+            "電信等級的傳遞品質"
+          ]
+        },
+        "useCases": {
+          "title": "適用場景",
+          "subtitle": "常見用例，助力成果",
+          "items": [
+            "行銷活動",
+            "客戶通知",
+            "預約提醒",
+            "訂單確認",
+            "帳戶警示",
+            "潛在客戶培養"
+          ]
+        },
+        "pricing": {
+          "title": "透明定價",
+          "subtitle": "簡單、可預測，隨業務擴展",
+          "setup": {
+            "label": "設置費",
+            "value": "品牌註冊費 $50"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "每個號碼 $10/月"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "每則訊息 $0.0075"
+          }
+        },
         "testimonial": {
           "quote": "SeaX 的語音平台幫助我們在 15 個國家進行了 25 萬次預約提醒。AI 語音非常自然，Twilio 的基礎設施堅如磐石。",
           "author": "Amanda Rodriguez 博士",

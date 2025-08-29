@@ -7060,22 +7060,26 @@
         "features": {
           "title": "Premium Short Code Features",
           "subtitle": "Everything you need for high-volume, high-impact campaigns",
-          "items[0]": "Dedicated 5-6 digit numbers",
-          "items[1]": "Highest throughput (1000+ msgs/sec)",
-          "items[2]": "Premium carrier relationships",
-          "items[3]": "Maximum deliverability",
-          "items[4]": "Keyword-based campaigns",
-          "items[5]": "MMS support"
+          "items": [
+            "Dedicated 5-6 digit numbers",
+            "Highest throughput (1000+ msgs/sec)",
+            "Premium carrier relationships",
+            "Maximum deliverability",
+            "Keyword-based campaigns",
+            "MMS support"
+          ]
         },
         "useCases": {
           "title": "Perfect For",
           "subtitle": "High-impact campaigns that demand premium delivery",
-          "items[0]": "Mass marketing campaigns",
-          "items[1]": "TV/Radio call-to-actions",
-          "items[2]": "Voting and polling",
-          "items[3]": "Contest campaigns",
-          "items[4]": "Event notifications",
-          "items[5]": "Emergency alerts"
+          "items": [
+            "Mass marketing campaigns",
+            "TV/Radio call-to-actions",
+            "Voting and polling",
+            "Contest campaigns",
+            "Event notifications",
+            "Emergency alerts"
+          ]
         },
         "pricing": {
           "title": "Premium Pricing",
@@ -7235,6 +7239,46 @@
         "stats": {
           "languagesValue": "50+",
           "languagesLabel": "Languages"
+        },
+        "features": {
+          "title": "Premium Short Code Features",
+          "subtitle": "Everything you need for high-volume, high-impact campaigns",
+          "items": [
+            "Dedicated 5-6 digit numbers",
+            "Highest throughput (1000+ msgs/sec)",
+            "Premium carrier relationships",
+            "Maximum deliverability",
+            "Keyword-based campaigns",
+            "MMS support"
+          ]
+        },
+        "useCases": {
+          "title": "Perfect For",
+          "subtitle": "High-impact campaigns that demand premium delivery",
+          "items": [
+            "Mass marketing campaigns",
+            "TV/Radio call-to-actions",
+            "Voting and polling",
+            "Contest campaigns",
+            "Event notifications",
+            "Emergency alerts"
+          ]
+        },
+        "pricing": {
+          "title": "Premium Pricing",
+          "subtitle": "Investment-grade messaging for serious campaigns",
+          "setup": {
+            "label": "Setup",
+            "value": "$1,000 setup fee"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$1,000/month per code"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.005 per message"
+          }
         },
         "testimonial": {
           "quote": "SeaX's voice platform helped us conduct 250K appointment reminders across 15 countries. The AI voices are incredibly natural and Twilio's infrastructure is rock-solid.",
