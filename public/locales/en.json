@@ -7298,6 +7298,101 @@
           "fullRegionalCoverage": "Full regional coverage"
         }
       }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Lead Generation Solution - SeaX Multi-Channel Outreach",
+          "description": "Generate qualified leads at scale with SeaX's multi-channel lead generation solution. SMS, WhatsApp, and voice campaigns with AI-powered follow-ups."
+        },
+        "hero": {
+          "title": "Lead Generation",
+          "titleHighlight": "at Scale",
+          "description": "Generate qualified leads with multi-channel campaigns across SMS, WhatsApp, and voice calls. AI-powered follow-ups ensure no opportunity is missed.",
+          "cta": {
+            "primary": "Start Generating Leads",
+            "secondary": "Book a Demo"
+          }
+        },
+        "features": {
+          "title": "Powerful Lead Generation Features",
+          "subtitle": "Everything you need to capture, qualify, and convert leads at scale",
+          "targetedOutreach": {
+            "title": "Targeted Outreach",
+            "description": "Reach the right prospects with precision targeting across SMS, WhatsApp, and voice calls."
+          },
+          "multiChannelCampaigns": {
+            "title": "Multi-Channel Campaigns",
+            "description": "Execute coordinated campaigns across SMS, WhatsApp, and voice for maximum impact."
+          },
+          "aiFollowUps": {
+            "title": "AI-Powered Follow-ups",
+            "description": "Automated intelligent responses that qualify leads and schedule meetings 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Real-Time Analytics",
+            "description": "Track campaign performance, lead quality, and conversion rates in real-time."
+          },
+          "leadScoring": {
+            "title": "Lead Scoring",
+            "description": "Automatic lead scoring and prioritization based on engagement and responses."
+          },
+          "voiceQualification": {
+            "title": "Voice Qualification",
+            "description": "AI-powered voice calls to qualify leads and book appointments automatically."
+          }
+        },
+        "useCases": {
+          "title": "Lead Generation Use Cases",
+          "subtitle": "Proven strategies across industries and business types",
+          "b2bSales": {
+            "title": "B2B Sales Outreach",
+            "description": "Generate qualified leads for B2B sales teams with targeted messaging campaigns.",
+            "stats": "300% increase in qualified leads"
+          },
+          "realEstate": {
+            "title": "Real Estate Lead Generation",
+            "description": "Connect with property buyers and sellers through multi-channel campaigns.",
+            "stats": "85% response rate improvement"
+          },
+          "insurance": {
+            "title": "Insurance Lead Qualification",
+            "description": "Qualify insurance prospects with automated follow-ups and appointment booking.",
+            "stats": "60% reduction in qualification time"
+          },
+          "eventRegistration": {
+            "title": "Event Registration",
+            "description": "Drive event registrations with targeted invitations and follow-up sequences.",
+            "stats": "200% increase in registrations"
+          }
+        },
+        "stats": {
+          "title": "Proven Results",
+          "subtitle": "See what our clients achieve with SeaX Lead Generation",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "More Qualified Leads"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Response Rate"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Time Savings"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "ROI Increase"
+          }
+        },
+        "cta": {
+          "title": "Ready to Scale Your Lead Generation?",
+          "subtitle": "Join thousands of businesses generating qualified leads with SeaX",
+          "primary": "Sign Up Now",
+          "secondary": "Book a Demo"
+        }
+      }
     }
   }
 }
