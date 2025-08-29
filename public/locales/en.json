@@ -7890,6 +7890,108 @@
           "primary": "Get Started Today",
           "secondary": "View Pricing"
         }
+      },
+      "realEstate": {
+        "seo": {
+          "title": "SeaX for Real Estate - Instant Lead Response & Client Communication",
+          "description": "Transform your real estate business with SeaX's automated messaging platform. Respond to leads instantly, schedule showings automatically, and keep clients informed throughout transactions."
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "Real Estate"
+          },
+          "description": "Never miss a lead again. Automate your client communication, schedule showings instantly, and close more deals with intelligent messaging.",
+          "cta": {
+            "primary": "Get Industry Solution",
+            "secondary": "View Features"
+          }
+        },
+        "challenges": {
+          "title": "Real Estate Challenges We Solve",
+          "subtitle": "Common communication challenges faced by real estate professionals",
+          "items[0]": {
+            "title": "Lead Response Time",
+            "description": "Real estate leads go cold quickly. Every minute counts when a potential buyer or seller reaches out, but agents often miss calls or respond too late."
+          },
+          "items[1]": {
+            "title": "Appointment Scheduling",
+            "description": "Coordinating property showings, meetings, and closings across multiple parties leads to scheduling conflicts and missed opportunities."
+          },
+          "items[2]": {
+            "title": "Client Communication",
+            "description": "Managing ongoing communication with buyers, sellers, lenders, and other agents across multiple properties becomes overwhelming."
+          },
+          "items[3]": {
+            "title": "After-Hours Availability",
+            "description": "Real estate doesn't stop at 5 PM. Clients expect responses evenings and weekends, but agents need personal time too."
+          },
+          "items[4]": {
+            "title": "Follow-up Consistency",
+            "description": "Maintaining consistent follow-up with leads and past clients for referrals requires systematic communication that's hard to manage manually."
+          },
+          "items[5]": {
+            "title": "Property Updates",
+            "description": "Keeping interested buyers informed about price changes, new listings, and market updates requires constant manual effort."
+          }
+        },
+        "useCases": {
+          "title": "Real Estate Use Cases",
+          "subtitle": "How real estate professionals use SeaX to grow their business",
+          "items[0]": {
+            "title": "Instant Lead Response",
+            "description": "Automatically respond to new leads within seconds via SMS, capturing their interest while it's hot and qualifying them for immediate follow-up.",
+            "benefits[0]": "5x faster response time",
+            "benefits[1]": "Automated lead qualification",
+            "benefits[2]": "Never miss a lead again"
+          },
+          "items[1]": {
+            "title": "Automated Appointment Scheduling",
+            "description": "Let clients book property showings and consultations directly through SMS, with automatic calendar integration and reminder notifications.",
+            "benefits[0]": "Reduced scheduling conflicts",
+            "benefits[1]": "Automatic reminders",
+            "benefits[2]": "Calendar integration"
+          },
+          "items[2]": {
+            "title": "Transaction Updates",
+            "description": "Keep all parties informed throughout the buying/selling process with automated updates on inspections, financing, and closing progress.",
+            "benefits[0]": "Reduced anxiety for clients",
+            "benefits[1]": "Fewer status calls",
+            "benefits[2]": "Smoother transactions"
+          },
+          "items[3]": {
+            "title": "Market Updates & Nurturing",
+            "description": "Stay top-of-mind with past clients and leads through automated market reports, new listing alerts, and personalized property recommendations.",
+            "benefits[0]": "Increased referrals",
+            "benefits[1]": "More repeat business",
+            "benefits[2]": "Consistent market presence"
+          }
+        },
+        "stats": {
+          "title": "Real Estate Results with SeaX",
+          "subtitle": "Proven outcomes for real estate professionals",
+          "items[0]": {
+            "value": "5x",
+            "label": "Faster Lead Response",
+            "description": "From hours to seconds"
+          },
+          "items[1]": {
+            "value": "40%",
+            "label": "More Appointments Booked",
+            "description": "Through automated scheduling"
+          },
+          "items[2]": {
+            "value": "25%",
+            "label": "Increase in Referrals",
+            "description": "Better client relationships"
+          }
+        },
+        "cta": {
+          "title": "Ready to Transform Your Real Estate Business?",
+          "description": "Join thousands of real estate professionals using SeaX to respond faster, book more appointments, and close more deals.",
+          "primary": "Get Started Today",
+          "secondary": "View Pricing"
+        }
       }
     }
   }
