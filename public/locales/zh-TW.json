@@ -7466,6 +7466,100 @@
           "primary": "立即註冊",
           "secondary": "預約演示"
         }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "客戶參與 - SeaX 通訊平台",
+          "description": "透過 SMS、WhatsApp 和語音通話的個人化多通路參與，建立更強大的客戶關係。"
+        },
+        "hero": {
+          "title": {
+            "main": "客戶參與",
+            "highlight": "建立忠誠度"
+          },
+          "description": "透過 SMS、WhatsApp 和語音通話的個人化多通路參與，建立更強大的客戶關係。將每次互動轉化為機會。",
+          "cta": {
+            "primary": "參與客戶",
+            "secondary": "預約演示"
+          }
+        },
+        "features": {
+          "title": "參與功能",
+          "subtitle": "建立有意義客戶關係所需的一切",
+          "items[0]": {
+            "title": "進階客戶檔案",
+            "description": "創建豐富的客戶檔案，實現更個人化的參與。"
+          },
+          "items[1]": {
+            "title": "多通路訊息傳遞",
+            "description": "透過 SMS、WhatsApp 和應用內訊息與客戶互動。"
+          },
+          "items[2]": {
+            "title": "情感分析",
+            "description": "了解客戶情感並相應調整溝通方式。"
+          },
+          "items[3]": {
+            "title": "行為分析",
+            "description": "追蹤和分析客戶行為，改善參與策略。"
+          },
+          "items[4]": {
+            "title": "直接行銷工具",
+            "description": "基於客戶數據，精準執行目標行銷活動。"
+          },
+          "items[5]": {
+            "title": "即時互動",
+            "description": "在最關鍵的時刻與客戶互動，透過即時觸發器和溝通。"
+          }
+        },
+        "useCases": {
+          "title": "參與使用案例",
+          "subtitle": "跨行業的真實客戶參與策略",
+          "items[0]": {
+            "title": "電子商務參與",
+            "description": "透過個人化促銷活動增加重複購買和客戶保留率。",
+            "stats": "重複購買增加 20%"
+          },
+          "items[1]": {
+            "title": "金融服務提醒",
+            "description": "透過自動化提醒和更新，讓客戶了解帳戶活動。",
+            "stats": "提醒參與率 80%"
+          },
+          "items[2]": {
+            "title": "旅遊和酒店業",
+            "description": "透過到達前更新和個人化行程提升賓客體驗。",
+            "stats": "客戶查詢減少 50%"
+          },
+          "items[3]": {
+            "title": "零售忠誠計劃",
+            "description": "基於購買歷史提供個人化獎勵和優惠，提升忠誠度。",
+            "stats": "忠誠計劃會員增加 25%"
+          }
+        },
+        "stats": {
+          "title": "參與成果",
+          "subtitle": "查看增強客戶參與的影響",
+          "items[0]": {
+            "value": "40%",
+            "label": "更高參與度"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "客戶滿意度"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "重複購買率"
+          },
+          "items[3]": {
+            "value": "3倍",
+            "label": "客戶終身價值"
+          }
+        },
+        "cta": {
+          "title": "準備好建立更強大的客戶關係了嗎？",
+          "description": "加入成千上萬使用 SeaX 參與客戶並建立持久忠誠度的企業",
+          "primary": "立即開始"
+        }
       }
     }
   }

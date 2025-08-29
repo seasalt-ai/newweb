@@ -7488,6 +7488,100 @@
           "primary": "Sign Up Now",
           "secondary": "Book a Demo"
         }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Customer Engagement - SeaX Communication Platform",
+          "description": "Build stronger customer relationships with personalized multi-channel engagement across SMS, WhatsApp, and voice calls."
+        },
+        "hero": {
+          "title": {
+            "main": "Customer Engagement",
+            "highlight": "That Builds Loyalty"
+          },
+          "description": "Build stronger customer relationships with personalized multi-channel engagement across SMS, WhatsApp, and voice calls. Turn every interaction into an opportunity.",
+          "cta": {
+            "primary": "Engage Customers",
+            "secondary": "Book a Demo"
+          }
+        },
+        "features": {
+          "title": "Engagement Features",
+          "subtitle": "Everything you need to build meaningful customer relationships",
+          "items[0]": {
+            "title": "Advanced Customer Profiling",
+            "description": "Create enriched customer profiles for more personalized engagement."
+          },
+          "items[1]": {
+            "title": "Multichannel Messaging",
+            "description": "Engage customers across SMS, WhatsApp, and in-app messaging."
+          },
+          "items[2]": {
+            "title": "Sentiment Analysis",
+            "description": "Understand customer sentiments and adjust communications accordingly."
+          },
+          "items[3]": {
+            "title": "Behavioral Analytics",
+            "description": "Track and analyze customer behavior to improve engagement strategies."
+          },
+          "items[4]": {
+            "title": "Direct Marketing Tools",
+            "description": "Run targeted campaigns with precision, based on customer data."
+          },
+          "items[5]": {
+            "title": "Real-time Interaction",
+            "description": "Engage customers when it matters most, with real-time triggers and communication."
+          }
+        },
+        "useCases": {
+          "title": "Engagement Use Cases",
+          "subtitle": "Real-world customer engagement strategies across industries",
+          "items[0]": {
+            "title": "E-commerce Engagement",
+            "description": "Increase repeat business and customer retention through personalized promotions.",
+            "stats": "20% increase in repeat purchases"
+          },
+          "items[1]": {
+            "title": "Financial Services Alerts",
+            "description": "Keep clients informed on account activities with automated alerts and updates.",
+            "stats": "80% engagement rate on alerts"
+          },
+          "items[2]": {
+            "title": "Travel and Hospitality",
+            "description": "Enhance guest experience with pre-arrival updates and personalized itineraries.",
+            "stats": "50% reduction in customer inquiries"
+          },
+          "items[3]": {
+            "title": "Retail Loyalty Programs",
+            "description": "Boost loyalty with personalized rewards and offers based on purchase history.",
+            "stats": "25% increase in loyalty program members"
+          }
+        },
+        "stats": {
+          "title": "Engagement Results",
+          "subtitle": "See the impact of enhanced customer engagement",
+          "items[0]": {
+            "value": "40%",
+            "label": "Higher Engagement"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Customer Satisfaction"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Repeat Purchase Rate"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Customer Lifetime Value"
+          }
+        },
+        "cta": {
+          "title": "Ready to Build Stronger Customer Relationships?",
+          "description": "Join thousands of businesses using SeaX to engage customers and build lasting loyalty",
+          "primary": "Get Started Today"
+        }
       }
     }
   }
