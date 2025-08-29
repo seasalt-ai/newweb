@@ -80,8 +80,8 @@ const AppointmentReminders = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            {t('seax.solutions.appointmentReminders.hero.title')}
-            <span className="text-blue-600 block">{t('seax.solutions.appointmentReminders.hero.titleSpan')}</span>
+            {t('seax.solutions.appointmentReminders.hero.title.main')}
+            <span className="text-blue-600 block">{t('seax.solutions.appointmentReminders.hero.title.highlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             {t('seax.solutions.appointmentReminders.hero.description')}
@@ -94,7 +94,7 @@ const AppointmentReminders = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>{t('seax.solutions.appointmentReminders.hero.ctaPrimary')}</span>
+              <span>{t('seax.solutions.appointmentReminders.hero.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -102,7 +102,7 @@ const AppointmentReminders = () => {
               to={getLocalizedPath('/demo')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              {t('seax.solutions.appointmentReminders.hero.ctaSecondary')}
+              {t('seax.solutions.appointmentReminders.hero.cta.secondary')}
             </Link>
           </div>
         </div>
@@ -116,7 +116,7 @@ const AppointmentReminders = () => {
               {t('seax.solutions.appointmentReminders.features.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              {t('seax.solutions.appointmentReminders.features.description')}
+              {t('seax.solutions.appointmentReminders.features.subtitle')}
             </p>
           </div>
           
@@ -147,7 +147,7 @@ const AppointmentReminders = () => {
               {t('seax.solutions.appointmentReminders.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              {t('seax.solutions.appointmentReminders.useCases.description')}
+              {t('seax.solutions.appointmentReminders.useCases.subtitle')}
             </p>
           </div>
           
@@ -173,7 +173,7 @@ const AppointmentReminders = () => {
               {t('seax.solutions.appointmentReminders.stats.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              {t('seax.solutions.appointmentReminders.stats.description')}
+              {t('seax.solutions.appointmentReminders.stats.subtitle')}
             </p>
           </div>
           
@@ -222,7 +222,7 @@ const AppointmentReminders = () => {
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
           >
-            <span>{t('seax.solutions.appointmentReminders.cta.button')}</span>
+            <span>{t('seax.solutions.appointmentReminders.cta.primary')}</span>
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>
