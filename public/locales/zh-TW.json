@@ -7970,6 +7970,108 @@
           "primary": "立即開始",
           "secondary": "查看定價"
         }
+      },
+      "politicalCampaigns": {
+        "seo": {
+          "title": "SeaX 政治競選解決方案 - 動員選民贏得選舉",
+          "description": "透過 SeaX 強大的訊息平台轉型您的政治競選活動。觸及更多選民、籌集更多資金，並動員支持者在選舉日獲勝。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX 專為",
+            "highlight": "政治競選活動"
+          },
+          "description": "透過專為政治競選設計的終極訊息平台，觸及每一位選民、動員您的支持者，並贏得選舉。",
+          "cta": {
+            "primary": "獲取競選解決方案",
+            "secondary": "查看功能"
+          }
+        },
+        "challenges": {
+          "title": "我們解決的政治競選挑戰",
+          "subtitle": "現代政治競選活動面臨的常見溝通挑戰",
+          "items[0]": {
+            "title": "選民外展",
+            "description": "透過多個管道觸及和動員多元化的選民群體是現代競選活動的重大挑戰。"
+          },
+          "items[1]": {
+            "title": "志工協調",
+            "description": "組織和與志工溝通參加活動、拜票和電話銀行工作需要持續的努力。"
+          },
+          "items[2]": {
+            "title": "個人化訊息",
+            "description": "根據選民的興趣、地點和候選人的政綱向選民傳達個人化訊息至關重要但困難。"
+          },
+          "items[3]": {
+            "title": "募款",
+            "description": "從大量小額捐款人籌集資金需要持續的參與和簡單的捐款流程。"
+          },
+          "items[4]": {
+            "title": "投票動員 (GOTV)",
+            "description": "在選舉日有效提醒和動員支持者投票是一項重大的後勤挑戰。"
+          },
+          "items[5]": {
+            "title": "捐款後續追蹤",
+            "description": "及時感謝捐款人並在他們捐款後保持參與對未來募款成功至關重要。"
+          }
+        },
+        "useCases": {
+          "title": "政治競選應用案例",
+          "subtitle": "政治競選如何使用 SeaX 贏得選舉",
+          "items[0]": {
+            "title": "選民登記活動",
+            "description": "使用 SMS 發送選民登記連結、回答問題，並引導選民完成登記程序。",
+            "benefits[0]": "選民登記數量增加",
+            "benefits[1]": "自動化後續追蹤",
+            "benefits[2]": "減少行政工作"
+          },
+          "items[1]": {
+            "title": "活動回覆與提醒",
+            "description": "管理競選集會、市政會議和其他活動的回覆，並透過自動化 SMS 提醒最大化出席率。",
+            "benefits[0]": "活動出席率更高",
+            "benefits[1]": "自動化提醒",
+            "benefits[2]": "輕鬆管理回覆"
+          },
+          "items[2]": {
+            "title": "募款呼籲",
+            "description": "透過 SMS 發送針對性募款呼籲並附上直接捐款連結，讓支持者輕鬆捐款。",
+            "benefits[0]": "捐款增加",
+            "benefits[1]": "轉換率更高",
+            "benefits[2]": "捐款流程簡化"
+          },
+          "items[3]": {
+            "title": "GOTV 與選舉日提醒",
+            "description": "在選舉日向支持者發送個人化提醒，包含他們的投票地點和時間，以最大化投票率。",
+            "benefits[0]": "投票率更高",
+            "benefits[1]": "個人化提醒",
+            "benefits[2]": "降低投票動員成本"
+          }
+        },
+        "stats": {
+          "title": "使用 SeaX 的競選成果",
+          "subtitle": "政治競選的實證成效",
+          "items[0]": {
+            "value": "15%",
+            "label": "投票率提升",
+            "description": "透過針對性的 GOTV 訊息"
+          },
+          "items[1]": {
+            "value": "25%",
+            "label": "捐款增加",
+            "description": "透過簡化募款呼籲"
+          },
+          "items[2]": {
+            "value": "50%",
+            "label": "志工增加",
+            "description": "透過更好的協調"
+          }
+        },
+        "cta": {
+          "title": "準備好贏得您的選舉了嗎？",
+          "description": "加入數百個使用 SeaX 動員選民、籌集資金並在選舉日獲勝的競選活動。",
+          "primary": "立即開始",
+          "secondary": "查看定價"
+        }
       }
     }
   }

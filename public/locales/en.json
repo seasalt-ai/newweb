@@ -7992,6 +7992,108 @@
           "primary": "Get Started Today",
           "secondary": "View Pricing"
         }
+      },
+      "politicalCampaigns": {
+        "seo": {
+          "title": "SeaX for Political Campaigns - Mobilize Voters & Win Elections",
+          "description": "Transform your political campaign with SeaX's powerful messaging platform. Reach more voters, raise more money, and mobilize supporters to win on election day."
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "Political Campaigns"
+          },
+          "description": "Reach every voter, mobilize your supporters, and win your election with the ultimate messaging platform for political campaigns.",
+          "cta": {
+            "primary": "Get Campaign Solution",
+            "secondary": "View Features"
+          }
+        },
+        "challenges": {
+          "title": "Political Campaign Challenges We Solve",
+          "subtitle": "Common communication challenges faced by modern political campaigns",
+          "items[0]": {
+            "title": "Voter Outreach",
+            "description": "Reaching and mobilizing a diverse voter base across multiple channels is a significant challenge for modern campaigns."
+          },
+          "items[1]": {
+            "title": "Volunteer Coordination",
+            "description": "Organizing and communicating with volunteers for events, canvassing, and phone banking requires constant effort."
+          },
+          "items[2]": {
+            "title": "Personalized Messaging",
+            "description": "Delivering personalized messages to voters based on their interests, location, and a candidate's platform is crucial but difficult."
+          },
+          "items[3]": {
+            "title": "Fundraising",
+            "description": "Raising funds from a large number of small-dollar donors requires continuous engagement and a simple donation process."
+          },
+          "items[4]": {
+            "title": "Get Out the Vote (GOTV)",
+            "description": "Effectively reminding and mobilizing supporters to vote on election day is a major logistical challenge."
+          },
+          "items[5]": {
+            "title": "Donation Follow-up",
+            "description": "Thanking donors promptly and keeping them engaged after they contribute is essential for future fundraising success."
+          }
+        },
+        "useCases": {
+          "title": "Political Campaign Use Cases",
+          "subtitle": "How political campaigns use SeaX to win elections",
+          "items[0]": {
+            "title": "Voter Registration Drives",
+            "description": "Use SMS to send voter registration links, answer questions, and guide voters through the registration process.",
+            "benefits[0]": "Increased voter registration",
+            "benefits[1]": "Automated follow-up",
+            "benefits[2]": "Reduced administrative work"
+          },
+          "items[1]": {
+            "title": "Event RSVPs & Reminders",
+            "description": "Manage RSVPs for campaign rallies, town halls, and other events with automated SMS reminders to maximize attendance.",
+            "benefits[0]": "Higher event attendance",
+            "benefits[1]": "Automated reminders",
+            "benefits[2]": "Easy RSVP management"
+          },
+          "items[2]": {
+            "title": "Fundraising Appeals",
+            "description": "Send targeted fundraising appeals via SMS with a direct link to donate, making it easy for supporters to contribute.",
+            "benefits[0]": "Increased donations",
+            "benefits[1]": "Higher conversion rates",
+            "benefits[2]": "Simplified donation process"
+          },
+          "items[3]": {
+            "title": "GOTV & Election Day Reminders",
+            "description": "Send personalized reminders to supporters on election day with their polling location and hours to maximize voter turnout.",
+            "benefits[0]": "Higher voter turnout",
+            "benefits[1]": "Personalized reminders",
+            "benefits[2]": "Reduced get-out-the-vote costs"
+          }
+        },
+        "stats": {
+          "title": "Campaign Results with SeaX",
+          "subtitle": "Proven outcomes for political campaigns",
+          "items[0]": {
+            "value": "15%",
+            "label": "Increase in Voter Turnout",
+            "description": "Through targeted GOTV messages"
+          },
+          "items[1]": {
+            "value": "25%",
+            "label": "More Donations",
+            "description": "From simplified fundraising appeals"
+          },
+          "items[2]": {
+            "value": "50%",
+            "label": "More Volunteers",
+            "description": "Through better coordination"
+          }
+        },
+        "cta": {
+          "title": "Ready to Win Your Election?",
+          "description": "Join hundreds of campaigns using SeaX to mobilize voters, raise money, and win on election day.",
+          "primary": "Get Started Today",
+          "secondary": "View Pricing"
+        }
       }
     }
   }
