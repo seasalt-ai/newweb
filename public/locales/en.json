@@ -8345,6 +8345,177 @@
           "secondary": "View Pricing"
         }
       }
+    },
+    "pricing": {
+      "seo": {
+        "title": "SeaX Pricing - Transparent, Scalable, Value-Driven",
+        "description": "Simple, transparent pricing for mass SMS, WhatsApp, and voice communication. Scale from thousands to millions of messages with predictable costs."
+      },
+      "hero": {
+        "title": {
+          "main": "Simple, Transparent",
+          "highlight": "Pricing That Scales"
+        },
+        "description": "Start small or go big - our pricing grows with your business. No hidden fees, no surprises, just predictable costs that deliver results."
+      },
+      "plans": {
+        "title": "Choose Your Plan",
+        "billing": {
+          "monthly": "Monthly",
+          "yearly": "Yearly",
+          "savings": "(Saves 2 Months)"
+        },
+        "whatsapp": {
+          "name": "WhatsApp Only",
+          "subheader": "Best price on the market",
+          "price": {
+            "monthly": "$19.99",
+            "yearly": "$199"
+          },
+          "period": {
+            "monthly": "/month",
+            "yearly": "/year"
+          },
+          "description": "Per user",
+          "features": {
+            "0": "Send/Receive WhatsApp",
+            "1": "WhatsApp Business App support",
+            "2": "Unlimited contacts",
+            "3": "Templates",
+            "4": "1 Workspace"
+          },
+          "cta": "Sign Up Now"
+        },
+        "omnichannel": {
+          "name": "Omni-channel",
+          "subheader": "Full-fledged contact center",
+          "price": {
+            "monthly": "$99",
+            "yearly": "$999"
+          },
+          "additionalPrice": {
+            "monthly": "$49",
+            "yearly": "$499"
+          },
+          "period": {
+            "monthly": "/month",
+            "yearly": "/year"
+          },
+          "description": "First user",
+          "additionalDescription": "Additional user",
+          "features": {
+            "0": "Send/Receive SMS",
+            "1": "Inbound/Outbound Phone Calls",
+            "2": "SMS Campaign",
+            "3": "RESTful API Access",
+            "4": "Phone Call Campaign",
+            "5": "SeaChat Integration",
+            "6": "1 Workspace",
+            "7": "(Additional workspace costs $49/month or $499/year)",
+            "8": "Communication:",
+            "9": "$0.02/SMS, $0.04/MMS,",
+            "10": "$0.05/voicemail drop",
+            "11": "Voice AI agents over phone calls start at $0.12 per minute"
+          },
+          "cta": "Start Omni-channel"
+        },
+        "custom": {
+          "name": "Custom",
+          "subheader": "Negotiate your own price",
+          "price": "Contact Us",
+          "description": "Custom build",
+          "features": {
+            "0": "Multiple workspaces — perfect for agencies",
+            "1": "Each workspace has multiple AI agents and phone numbers",
+            "2": "Professional design guidelines and technical support, sold together with the Launch support plan"
+          },
+          "cta": "Contact Us"
+        },
+        "disclaimer": "* Prices vary by country. The prices listed are for the United States. For other countries, please contact us."
+      },
+      "channels": {
+        "title": "Per-Channel Pricing",
+        "subtitle": "Transparent pricing for each communication channel",
+        "smsLocal": {
+          "name": "SMS Local (10DLC)",
+          "campaignSetup": "$150",
+          "monthly": "$2/number",
+          "usage": "$0.02/message (USA/CA)",
+          "description": "Brand registration and A2P registration required"
+        },
+        "smsTollFree": {
+          "name": "SMS Toll-Free",
+          "campaignSetup": "$150",
+          "monthly": "$3/number",
+          "usage": "$0.02/message (USA/CA)",
+          "description": "Higher trust, higher throughput"
+        },
+        "smsShortCode": {
+          "name": "SMS Short-Code",
+          "setup": "$2,000",
+          "quarterly": "$3,000/code",
+          "usage": "$0.02/message (USA/CA)",
+          "description": "Highest throughput"
+        },
+        "whatsapp": {
+          "name": "WhatsApp Business Platform",
+          "metaSetup": "$150",
+          "monthly": "$0",
+          "usage": "$0.00/message (worldwide)",
+          "description": "You pay Meta directly. No markup from Seasalt.ai"
+        },
+        "voice": {
+          "name": "Voice Calls",
+          "setup": "Free",
+          "monthly": "each number costs $2-$3/month with E911 address",
+          "usage": "$0.015/minute (USA/CA)",
+          "description": "100+ countries"
+        },
+        "voicemail": {
+          "name": "Voicemail Drop",
+          "setup": "Free",
+          "monthly": "each number costs $2-$3/month with E911 address",
+          "usage": "$0.05 per drop (USA/CA)",
+          "description": "100+ countries"
+        },
+        "labels": {
+          "campaignSetup": "Campaign setup:",
+          "metaSetup": "Meta setup:",
+          "setup": "Setup:",
+          "monthly": "Monthly:",
+          "quarterly": "Quarterly:",
+          "usage": "Usage:"
+        }
+      },
+      "roi": {
+        "title": "Calculate Your ROI",
+        "subtitle": "See how much you can save and earn with SeaX"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "volume": {
+          "question": "How does volume pricing work?",
+          "answer": "Our pricing automatically scales with your usage. Higher volumes get better per-message rates. We'll recommend the best SMS type (Local, Toll-Free, or Short-Code) based on your volume."
+        },
+        "fees": {
+          "question": "Are there any hidden fees?",
+          "answer": "No hidden fees, ever. You only pay for what you use. Setup fees are clearly stated, and there are no long-term contracts or cancellation fees."
+        },
+        "plans": {
+          "question": "Can I change plans anytime?",
+          "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, and you'll be charged prorated amounts."
+        },
+        "international": {
+          "question": "What about international messaging?",
+          "answer": "We support messaging to 200+ countries. Rates vary by destination, but we provide transparent pricing for all regions. Voice calls are available in 100+ countries."
+        }
+      },
+      "cta": {
+        "title": "Ready to Get Started?",
+        "subtitle": "Start your free trial today - no credit card required",
+        "signUp": "Sign Up Now",
+        "talkToSales": "Talk to Sales"
+      }
     }
   }
 }

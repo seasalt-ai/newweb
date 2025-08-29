@@ -8323,6 +8323,177 @@
           "secondary": "查看定價"
         }
       }
+    },
+    "pricing": {
+      "seo": {
+        "title": "SeaX 價格方案 - 透明、可擴展、價值導向",
+        "description": "簡單透明的大量簡訊、WhatsApp 和語音通訊定價。從數千到數百萬條訊息輕鬆擴展，成本可預測。"
+      },
+      "hero": {
+        "title": {
+          "main": "簡單透明",
+          "highlight": "可擴展的定價"
+        },
+        "description": "從小規模開始或大規模運行 - 我們的定價隨著您的業務增長。沒有隱藏費用，沒有驚喜，只有可預測的成本帶來實際成果。"
+      },
+      "plans": {
+        "title": "選擇您的方案",
+        "billing": {
+          "monthly": "月付",
+          "yearly": "年付",
+          "savings": "(節省 2 個月)"
+        },
+        "whatsapp": {
+          "name": "僅限 WhatsApp",
+          "subheader": "市場最優價格",
+          "price": {
+            "monthly": "$19.99",
+            "yearly": "$199"
+          },
+          "period": {
+            "monthly": "/月",
+            "yearly": "/年"
+          },
+          "description": "每位用戶",
+          "features": {
+            "0": "發送/接收 WhatsApp",
+            "1": "WhatsApp 商業應用支援",
+            "2": "無限聯絡人",
+            "3": "範本功能",
+            "4": "1 個工作區"
+          },
+          "cta": "立即註冊"
+        },
+        "omnichannel": {
+          "name": "全通路",
+          "subheader": "完整的客服中心",
+          "price": {
+            "monthly": "$99",
+            "yearly": "$999"
+          },
+          "additionalPrice": {
+            "monthly": "$49",
+            "yearly": "$499"
+          },
+          "period": {
+            "monthly": "/月",
+            "yearly": "/年"
+          },
+          "description": "首位用戶",
+          "additionalDescription": "額外用戶",
+          "features": {
+            "0": "發送/接收簡訊",
+            "1": "來電/撥出電話",
+            "2": "簡訊行銷活動",
+            "3": "RESTful API 存取",
+            "4": "電話行銷活動",
+            "5": "SeaChat 整合",
+            "6": "1 個工作區",
+            "7": "(額外工作區費用 $49/月 或 $499/年)",
+            "8": "通訊費用：",
+            "9": "$0.02/簡訊, $0.04/多媒體簡訊,",
+            "10": "$0.05/語音信箱投遞",
+            "11": "語音 AI 代理電話通話從每分鐘 $0.12 開始"
+          },
+          "cta": "開始全通路"
+        },
+        "custom": {
+          "name": "客製化",
+          "subheader": "協商您的專屬價格",
+          "price": "聯絡我們",
+          "description": "客製化建置",
+          "features": {
+            "0": "多個工作區 — 完美適合代理商",
+            "1": "每個工作區擁有多個 AI 代理和電話號碼",
+            "2": "專業設計指南和技術支援，與啟動支援方案一起銷售"
+          },
+          "cta": "聯絡我們"
+        },
+        "disclaimer": "* 價格因國家而異。列出的價格適用於美國。其他國家請聯絡我們。"
+      },
+      "channels": {
+        "title": "各通道定價",
+        "subtitle": "每個通訊通道的透明定價",
+        "smsLocal": {
+          "name": "本地簡訊 (10DLC)",
+          "campaignSetup": "$150",
+          "monthly": "$2/號碼",
+          "usage": "$0.02/則訊息 (美國/加拿大)",
+          "description": "需要品牌註冊和 A2P 註冊"
+        },
+        "smsTollFree": {
+          "name": "免付費簡訊",
+          "campaignSetup": "$150",
+          "monthly": "$3/號碼",
+          "usage": "$0.02/則訊息 (美國/加拿大)",
+          "description": "更高信任度，更高吞吐量"
+        },
+        "smsShortCode": {
+          "name": "簡訊短碼",
+          "setup": "$2,000",
+          "quarterly": "$3,000/碼",
+          "usage": "$0.02/則訊息 (美國/加拿大)",
+          "description": "最高吞吐量"
+        },
+        "whatsapp": {
+          "name": "WhatsApp 商業平台",
+          "metaSetup": "$150",
+          "monthly": "$0",
+          "usage": "$0.00/則訊息 (全球)",
+          "description": "您直接向 Meta 付費。Seasalt.ai 無額外加價"
+        },
+        "voice": {
+          "name": "語音通話",
+          "setup": "免費",
+          "monthly": "每個號碼含 E911 地址 $2-$3/月",
+          "usage": "$0.015/分鐘 (美國/加拿大)",
+          "description": "100+ 個國家"
+        },
+        "voicemail": {
+          "name": "語音信箱投遞",
+          "setup": "免費",
+          "monthly": "每個號碼含 E911 地址 $2-$3/月",
+          "usage": "$0.05/次投遞 (美國/加拿大)",
+          "description": "100+ 個國家"
+        },
+        "labels": {
+          "campaignSetup": "活動設定：",
+          "metaSetup": "Meta 設定：",
+          "setup": "設定：",
+          "monthly": "月費：",
+          "quarterly": "季費：",
+          "usage": "使用費："
+        }
+      },
+      "roi": {
+        "title": "計算您的投資報酬率",
+        "subtitle": "了解您使用 SeaX 可以節省和賺取多少"
+      },
+      "faq": {
+        "title": "常見問題",
+        "volume": {
+          "question": "量級定價如何運作？",
+          "answer": "我們的定價會根據您的使用量自動調整。使用量越大，每則訊息的費率越優惠。我們會根據您的用量推薦最佳的簡訊類型（本地、免付費或短碼）。"
+        },
+        "fees": {
+          "question": "有隱藏費用嗎？",
+          "answer": "絕無隱藏費用。您只需為所使用的服務付費。設定費用明確標示，無長期合約或取消費用。"
+        },
+        "plans": {
+          "question": "可以隨時更改方案嗎？",
+          "answer": "是的，您可以隨時升級或降級您的方案。變更立即生效，我們會按比例收費。"
+        },
+        "international": {
+          "question": "國際簡訊服務如何？",
+          "answer": "我們支援向 200+ 個國家發送訊息。費率因目的地而異，但我們為所有地區提供透明定價。語音通話可在 100+ 個國家使用。"
+        }
+      },
+      "cta": {
+        "title": "準備好開始了嗎？",
+        "subtitle": "立即開始免費試用 - 無需信用卡",
+        "signUp": "立即註冊",
+        "talkToSales": "聯絡銷售團隊"
+      }
     }
   }
 }
