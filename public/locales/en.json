@@ -7676,6 +7676,100 @@
           "description": "Join thousands of businesses improving appointment attendance with SeaX",
           "primary": "Get Started Today"
         }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Emergency Alerts - SeaX Notification System",
+          "description": "Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. Ensure message delivery in critical situations."
+        },
+        "hero": {
+          "title": {
+            "main": "Emergency Alerts",
+            "highlight": "That Save Lives"
+          },
+          "description": "Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. Ensure message delivery in critical situations when every second counts.",
+          "cta": {
+            "primary": "Start Sending Alerts",
+            "secondary": "Book a Safety Demo"
+          }
+        },
+        "features": {
+          "title": "Critical Alert Features",
+          "subtitle": "Everything you need for effective and reliable emergency communications",
+          "items[0]": {
+            "title": "Instant Emergency Broadcasts",
+            "description": "Send critical alerts to thousands of recipients simultaneously across SMS, voice, and WhatsApp."
+          },
+          "items[1]": {
+            "title": "Time-Sensitive Delivery",
+            "description": "Prioritized message delivery ensures emergency communications reach recipients immediately."
+          },
+          "items[2]": {
+            "title": "Targeted Recipient Groups",
+            "description": "Create and manage specific groups for different types of emergencies and locations."
+          },
+          "items[3]": {
+            "title": "Reliable Infrastructure",
+            "description": "Built on carrier-grade infrastructure to ensure messages get through when it matters most."
+          },
+          "items[4]": {
+            "title": "Multi-Channel Alerts",
+            "description": "Reach people through their preferred communication channels for maximum response rates."
+          },
+          "items[5]": {
+            "title": "Two-Way Communication",
+            "description": "Receive confirmations and responses from recipients to track alert effectiveness."
+          }
+        },
+        "useCases": {
+          "title": "Emergency Alert Use Cases",
+          "subtitle": "Real-world applications to ensure safety and communication",
+          "items[0]": {
+            "title": "Corporate Emergency Response",
+            "description": "Notify employees about security threats, evacuations, or critical business disruptions.",
+            "stats": "99.9% delivery success rate"
+          },
+          "items[1]": {
+            "title": "School Safety Alerts",
+            "description": "Instantly inform parents, students, and staff about school closures or safety incidents.",
+            "stats": "30-second average delivery time"
+          },
+          "items[2]": {
+            "title": "Healthcare Critical Alerts",
+            "description": "Alert medical staff about code situations, patient emergencies, or facility incidents.",
+            "stats": "95% response rate within 5 minutes"
+          },
+          "items[3]": {
+            "title": "Public Safety Notifications",
+            "description": "Warn communities about natural disasters, hazardous conditions, or public safety threats.",
+            "stats": "10,000+ recipients per minute"
+          }
+        },
+        "stats": {
+          "title": "Proven Emergency Response",
+          "subtitle": "Deliver messages reliably when every second counts",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "Delivery Success Rate"
+          },
+          "items[1]": {
+            "value": "30 sec",
+            "label": "Avg Delivery Time"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Response Within 5 min"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "Messages per Minute"
+          }
+        },
+        "cta": {
+          "title": "Ready to Ensure Safety and Communication?",
+          "description": "Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.",
+          "primary": "Get Started Today"
+        }
       }
     }
   }

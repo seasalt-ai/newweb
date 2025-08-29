@@ -7654,6 +7654,100 @@
           "description": "加入成千上萬透過 SeaX 提高預約出席率的企業",
           "primary": "立即開始"
         }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "緊急警報 - SeaX 通知系統",
+          "description": "透過SMS、語音通話和WhatsApp進行即時緊急警報。在關鍵情況下確保消息傳遞。"
+        },
+        "hero": {
+          "title": {
+            "main": "緊急警報",
+            "highlight": "拯救生命"
+          },
+          "description": "透過SMS、語音通話和WhatsApp進行即時緊急警報，在每一秒都至關重要的危機情況下確保訊息傳遞。",
+          "cta": {
+            "primary": "開始發送警報",
+            "secondary": "預約安全示範"
+          }
+        },
+        "features": {
+          "title": "關鍵警報功能",
+          "subtitle": "確保有效可靠緊急通訊的全方位解決方案",
+          "items[0]": {
+            "title": "即時緊急廣播",
+            "description": "透過SMS、語音通話和WhatsApp同時向數千名接收者發送關鍵警報。"
+          },
+          "items[1]": {
+            "title": "時效性傳遞",
+            "description": "優先訊息傳遞確保緊急通訊立即到達接收者。"
+          },
+          "items[2]": {
+            "title": "目標接收群組",
+            "description": "針對不同類型緊急情況和地點創建和管理特定群組。"
+          },
+          "items[3]": {
+            "title": "可靠基礎設施",
+            "description": "建立在電信級基礎設施上，確保在最關鍵時刻訊息能夠送達。"
+          },
+          "items[4]": {
+            "title": "多通道警報",
+            "description": "透過人們偏好的溝通管道接觸他們，以獲得最高回應率。"
+          },
+          "items[5]": {
+            "title": "雙向溝通",
+            "description": "接收來自接收者的確認和回應，追蹤警報效果。"
+          }
+        },
+        "useCases": {
+          "title": "緊急警報應用案例",
+          "subtitle": "確保安全和溝通的實際應用",
+          "items[0]": {
+            "title": "企業緊急應變",
+            "description": "通知員工安全威脅、疏散或關鍵業務中斷。",
+            "stats": "99.9%送達成功率"
+          },
+          "items[1]": {
+            "title": "學校安全警報",
+            "description": "立即通知家長、學生和教職員停課或安全事件。",
+            "stats": "平均30秒送達時間"
+          },
+          "items[2]": {
+            "title": "醫療急診警報",
+            "description": "提醒醫護人員代碼情況、病人急症或機構事件。",
+            "stats": "5分鐘內95%回應率"
+          },
+          "items[3]": {
+            "title": "公共安全通知",
+            "description": "警告社區天然災害、危險狀況或公共安全威脅。",
+            "stats": "每分鐘10,000+接收者"
+          }
+        },
+        "stats": {
+          "title": "經實證的緊急應變",
+          "subtitle": "在每一秒都重要的時刻可靠地傳遞訊息",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "送達成功率"
+          },
+          "items[1]": {
+            "value": "30秒",
+            "label": "平均送達時間"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "5分鐘內回應"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "每分鐘訊息數"
+          }
+        },
+        "cta": {
+          "title": "準備好確保安全和溝通了嗎？",
+          "description": "加入數千家使用SeaX在緊急情況下確保安全和有效溝通的組織。",
+          "primary": "立即開始"
+        }
       }
     }
   }
