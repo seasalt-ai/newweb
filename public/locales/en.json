@@ -8228,6 +8228,122 @@
           "primary": "Get Started Today",
           "secondary": "View Pricing"
         }
+      },
+      "financialServices": {
+        "seo": {
+          "title": "SeaX for Financial Services - Secure Communication & Client Engagement",
+          "description": "Enhance your financial services with SeaX's secure messaging platform. Improve client communication, streamline loan processes, and boost engagement with automated solutions."
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "Financial Services"
+          },
+          "description": "Build stronger client relationships and streamline financial operations with secure, automated messaging solutions designed for the financial industry.",
+          "cta": {
+            "primary": "Get Industry Solution",
+            "secondary": "View Features"
+          }
+        },
+        "challenges": {
+          "title": "Financial Services Challenges We Solve",
+          "subtitle": "Common communication challenges in the financial services industry",
+          "items": {
+            "0": {
+              "title": "Loan Application Updates",
+              "description": "Keeping applicants informed throughout the complex loan approval process while maintaining clear communication and building trust."
+            },
+            "1": {
+              "title": "Fraud Alerts",
+              "description": "Quickly notifying customers of suspicious account activity and providing secure channels for verification and resolution."
+            },
+            "2": {
+              "title": "Investment Updates",
+              "description": "Delivering timely market updates, portfolio performance, and investment opportunities to clients in a personalized manner."
+            },
+            "3": {
+              "title": "Payment Reminders",
+              "description": "Sending automated payment reminders and overdue notifications while maintaining professional relationships with clients."
+            },
+            "4": {
+              "title": "Customer Onboarding",
+              "description": "Guiding new customers through account setup, verification processes, and initial service activation smoothly."
+            },
+            "5": {
+              "title": "Account Notifications",
+              "description": "Providing real-time updates on account balances, transactions, and important account changes to enhance customer experience."
+            }
+          }
+        },
+        "useCases": {
+          "title": "Financial Services Use Cases",
+          "subtitle": "How financial institutions use SeaX to enhance client services",
+          "items": {
+            "0": {
+              "title": "Loan Status Updates",
+              "description": "Automatically notify applicants about loan application progress, required documentation, and approval status with personalized messaging.",
+              "benefits": {
+                "0": "Reduced customer anxiety",
+                "1": "Faster document submission",
+                "2": "Improved approval rates"
+              }
+            },
+            "1": {
+              "title": "Fraud Prevention",
+              "description": "Instantly alert customers to suspicious activity via SMS with secure verification links to protect accounts and reduce fraud losses.",
+              "benefits": {
+                "0": "Faster fraud detection",
+                "1": "Reduced financial losses",
+                "2": "Enhanced customer trust"
+              }
+            },
+            "2": {
+              "title": "Investment Alerts",
+              "description": "Send timely market updates, portfolio performance reports, and investment opportunities tailored to each client's preferences.",
+              "benefits": {
+                "0": "Increased client engagement",
+                "1": "Better investment decisions",
+                "2": "Higher portfolio performance"
+              }
+            },
+            "3": {
+              "title": "Payment Collections",
+              "description": "Automate payment reminders and overdue notifications with personalized messaging that maintains positive customer relationships.",
+              "benefits": {
+                "0": "Improved collection rates",
+                "1": "Reduced delinquencies",
+                "2": "Better customer retention"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "Financial Services Results with SeaX",
+          "subtitle": "Proven outcomes for financial institutions",
+          "items": {
+            "0": {
+              "value": "45%",
+              "label": "Faster Loan Processing",
+              "description": "Through automated status updates"
+            },
+            "1": {
+              "value": "30%",
+              "label": "Reduction in Fraud Losses",
+              "description": "With real-time alerts"
+            },
+            "2": {
+              "value": "60%",
+              "label": "Improved Collection Rates",
+              "description": "Through timely payment reminders"
+            }
+          }
+        },
+        "cta": {
+          "title": "Ready to Transform Your Financial Services?",
+          "description": "Join leading financial institutions using SeaX to enhance client communication, improve operational efficiency, and drive business growth.",
+          "primary": "Get Started Today",
+          "secondary": "View Pricing"
+        }
       }
     }
   }
