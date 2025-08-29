@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-29T03:28:12.866Z
+Generated: 2025-08-29T06:22:22.373Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 4196
+- **Base Language (en) Keys**: 4244
 - **Components Analyzed**: 210
-- **Translation Coverage**: 66.76%
-- **Missing Keys**: 1916
-- **Hardcoded Strings Found**: 3487
+- **Translation Coverage**: 66.90%
+- **Missing Keys**: 1924
+- **Hardcoded Strings Found**: 3437
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 21.07% | ❌ Incomplete |
-| de | 887 | 20.54% | ❌ Incomplete |
-| en | 4196 | 100.00% | ✅ Good |
-| es | 835 | 19.30% | ❌ Incomplete |
-| fa | 755 | 17.47% | ❌ Incomplete |
-| fil | 739 | 17.06% | ❌ Incomplete |
-| fr | 739 | 17.06% | ❌ Incomplete |
-| hi | 690 | 15.90% | ❌ Incomplete |
-| id | 690 | 15.90% | ❌ Incomplete |
-| ja | 690 | 15.92% | ❌ Incomplete |
-| ko | 690 | 15.90% | ❌ Incomplete |
-| ms | 690 | 15.90% | ❌ Incomplete |
-| pl | 676 | 15.56% | ❌ Incomplete |
-| pt | 676 | 15.56% | ❌ Incomplete |
-| ru | 676 | 15.56% | ❌ Incomplete |
-| ta | 739 | 17.06% | ❌ Incomplete |
-| th | 739 | 17.06% | ❌ Incomplete |
-| vi | 739 | 17.06% | ❌ Incomplete |
-| zh-CN | 802 | 18.59% | ❌ Incomplete |
-| zh-TW | 4182 | 99.64% | ✅ Good |
+| ar | 909 | 20.83% | ❌ Incomplete |
+| de | 887 | 20.31% | ❌ Incomplete |
+| en | 4244 | 100.00% | ✅ Good |
+| es | 835 | 19.09% | ❌ Incomplete |
+| fa | 755 | 17.27% | ❌ Incomplete |
+| fil | 739 | 16.87% | ❌ Incomplete |
+| fr | 739 | 16.87% | ❌ Incomplete |
+| hi | 690 | 15.72% | ❌ Incomplete |
+| id | 690 | 15.72% | ❌ Incomplete |
+| ja | 690 | 15.74% | ❌ Incomplete |
+| ko | 690 | 15.72% | ❌ Incomplete |
+| ms | 690 | 15.72% | ❌ Incomplete |
+| pl | 676 | 15.39% | ❌ Incomplete |
+| pt | 676 | 15.39% | ❌ Incomplete |
+| ru | 676 | 15.39% | ❌ Incomplete |
+| ta | 739 | 16.87% | ❌ Incomplete |
+| th | 739 | 16.87% | ❌ Incomplete |
+| vi | 739 | 16.87% | ❌ Incomplete |
+| zh-CN | 802 | 18.38% | ❌ Incomplete |
+| zh-TW | 4230 | 99.65% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1916 keys used in components but missing from en.json
+**Description**: 1924 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3487 hardcoded strings that should be internationalized
+**Description**: Found 3437 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1971,13 +1971,21 @@ seax.channels.smsTollFree.pricing.setupLabel
 seax.channels.smsTollFree.pricing.monthlyLabel
 seax.channels.smsTollFree.pricing.perMessageLabel
 seax.channels.voice.pricing
+seax.solutions.appointmentReminders.hero.title
+seax.solutions.appointmentReminders.hero.titleSpan
+seax.solutions.appointmentReminders.hero.ctaPrimary
+seax.solutions.appointmentReminders.hero.ctaSecondary
+seax.solutions.appointmentReminders.features.description
+seax.solutions.appointmentReminders.useCases.description
+seax.solutions.appointmentReminders.stats.description
+seax.solutions.appointmentReminders.cta.button
 ```
 
 
 ## Hardcoded Strings Summary
 
 
-Found 3487 potential hardcoded strings across components:
+Found 3437 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2020,7 +2028,7 @@ Found 3487 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3477 more. See hardcoded-strings.json for complete list.
+... and 3427 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2028,13 +2036,13 @@ Found 3487 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1916 keys used in components but missing from en.json
+**Description**: 1924 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3487 hardcoded strings that should be internationalized
+**Description**: Found 3437 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

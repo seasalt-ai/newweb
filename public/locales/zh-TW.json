@@ -7560,6 +7560,100 @@
           "description": "加入成千上萬使用 SeaX 參與客戶並建立持久忠誠度的企業",
           "primary": "立即開始"
         }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "預約提醒 - SeaX 自動化排程",
+          "description": "透過 SMS、WhatsApp 和語音通話的自動化預約提醒，減少爽約並提高出席率。智能排程和確認系統。"
+        },
+        "hero": {
+          "title": {
+            "main": "預約提醒",
+            "highlight": "真正有效"
+          },
+          "description": "透過 SMS、WhatsApp 和語音通話的自動化預約提醒，減少爽約並提高出席率。具備雙向溝通的智能排程。",
+          "cta": {
+            "primary": "開始減少爽約",
+            "secondary": "預約演示"
+          }
+        },
+        "features": {
+          "title": "強大的提醒功能",
+          "subtitle": "維持預約正常進行和減少爽約所需的一切",
+          "items[0]": {
+            "title": "智能排程",
+            "description": "自動安排預約並透過 SMS、WhatsApp 和語音通話發送確認。"
+          },
+          "items[1]": {
+            "title": "多階段提醒",
+            "description": "在最佳間隔發送個人化提醒 - 預約前 24 小時、1 小時和 15 分鐘。"
+          },
+          "items[2]": {
+            "title": "雙向溝通",
+            "description": "允許客戶直接透過 SMS 或 WhatsApp 確認、重新安排或取消預約。"
+          },
+          "items[3]": {
+            "title": "員工通知",
+            "description": "透過預約變更和確認的即時更新讓您的團隊保持消息靈通。"
+          },
+          "items[4]": {
+            "title": "自定義提醒",
+            "description": "為不同類型和時長的預約設定自定義提醒時程表和訊息。"
+          },
+          "items[5]": {
+            "title": "分析與洞察",
+            "description": "追蹤爽約率、確認率，並透過詳細分析優化您的提醒策略。"
+          }
+        },
+        "useCases": {
+          "title": "行業使用案例",
+          "subtitle": "跨不同行業經過驗證的預約提醒策略",
+          "items[0]": {
+            "title": "醫療診所",
+            "description": "透過自動化提醒和輕鬆重新安排選項，減少醫療預約的爽約情況。",
+            "stats": "爽約減少 40%"
+          },
+          "items[1]": {
+            "title": "美容與健康",
+            "description": "透過個人化提醒和確認請求讓美容院和水療預約保持正軌。",
+            "stats": "確認率 85%"
+          },
+          "items[2]": {
+            "title": "專業服務",
+            "description": "透過多通路提醒序列確保諮詢和會議準時進行。",
+            "stats": "出席率 90%"
+          },
+          "items[3]": {
+            "title": "汽車服務",
+            "description": "自動提醒客戶服務預約和維護時程表。",
+            "stats": "回訪增加 60%"
+          }
+        },
+        "stats": {
+          "title": "經過驗證的成果",
+          "subtitle": "查看我們的客戶透過 SeaX 預約提醒取得的成就",
+          "items[0]": {
+            "value": "40%",
+            "label": "爽約減少"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "出席率"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "時間節省"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "客戶滿意度"
+          }
+        },
+        "cta": {
+          "title": "準備好減少爽約並提高出席率了嗎？",
+          "description": "加入成千上萬透過 SeaX 提高預約出席率的企業",
+          "primary": "立即開始"
+        }
       }
     }
   }

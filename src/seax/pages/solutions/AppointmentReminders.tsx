@@ -6,71 +6,71 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { ArrowRight, Calendar, Clock, MessageSquare, Users, Bell, BarChart3 } from 'lucide-react';
 const AppointmentReminders = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const features = [
     {
       icon: Calendar,
-      title: 'Smart Scheduling',
-      description: 'Automatically schedule appointments and send confirmations across SMS, WhatsApp, and voice calls.'
+      title: t('seax.solutions.appointmentReminders.features.items[0].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[0].description')
     },
     {
       icon: Clock,
-      title: 'Multi-Stage Reminders',
-      description: 'Send personalized reminders at optimal intervals - 24 hours, 1 hour, and 15 minutes before appointments.'
+      title: t('seax.solutions.appointmentReminders.features.items[1].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[1].description')
     },
     {
       icon: MessageSquare,
-      title: 'Two-Way Communication',
-      description: 'Allow customers to confirm, reschedule, or cancel appointments directly via SMS or WhatsApp.'
+      title: t('seax.solutions.appointmentReminders.features.items[2].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[2].description')
     },
     {
       icon: Users,
-      title: 'Staff Notifications',
-      description: 'Keep your team informed with real-time updates on appointment changes and confirmations.'
+      title: t('seax.solutions.appointmentReminders.features.items[3].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[3].description')
     },
     {
       icon: Bell,
-      title: 'Custom Alerts',
-      description: 'Set up custom reminder schedules and messages for different appointment types and durations.'
+      title: t('seax.solutions.appointmentReminders.features.items[4].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[4].description')
     },
     {
       icon: BarChart3,
-      title: 'Analytics & Insights',
-      description: 'Track no-show rates, confirmation rates, and optimize your reminder strategy with detailed analytics.'
+      title: t('seax.solutions.appointmentReminders.features.items[5].title'),
+      description: t('seax.solutions.appointmentReminders.features.items[5].description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Healthcare Practices',
-      description: 'Reduce no-shows for medical appointments with automated reminders and easy rescheduling options.',
-      stats: '40% reduction in no-shows'
+      title: t('seax.solutions.appointmentReminders.useCases.items[0].title'),
+      description: t('seax.solutions.appointmentReminders.useCases.items[0].description'),
+      stats: t('seax.solutions.appointmentReminders.useCases.items[0].stats')
     },
     {
-      title: 'Beauty & Wellness',
-      description: 'Keep salon and spa appointments on track with personalized reminders and confirmation requests.',
-      stats: '85% confirmation rate'
+      title: t('seax.solutions.appointmentReminders.useCases.items[1].title'),
+      description: t('seax.solutions.appointmentReminders.useCases.items[1].description'),
+      stats: t('seax.solutions.appointmentReminders.useCases.items[1].stats')
     },
     {
-      title: 'Professional Services',
-      description: 'Ensure consultations and meetings happen on time with multi-channel reminder sequences.',
-      stats: '90% attendance rate'
+      title: t('seax.solutions.appointmentReminders.useCases.items[2].title'),
+      description: t('seax.solutions.appointmentReminders.useCases.items[2].description'),
+      stats: t('seax.solutions.appointmentReminders.useCases.items[2].stats')
     },
     {
-      title: 'Automotive Services',
-      description: 'Remind customers of service appointments and maintenance schedules automatically.',
-      stats: '60% increase in repeat visits'
+      title: t('seax.solutions.appointmentReminders.useCases.items[3].title'),
+      description: t('seax.solutions.appointmentReminders.useCases.items[3].description'),
+      stats: t('seax.solutions.appointmentReminders.useCases.items[3].stats')
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="Appointment Reminders - SeaX Automated Scheduling"
-        description="Reduce no-shows and improve attendance with automated appointment reminders via SMS, WhatsApp, and voice calls. Smart scheduling and confirmation system."
+        title={t('seax.solutions.appointmentReminders.seo.title')}
+        description={t('seax.solutions.appointmentReminders.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -80,12 +80,11 @@ const AppointmentReminders = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Appointment Reminders
-            <span className="text-blue-600 block">That Work</span>
+            {t('seax.solutions.appointmentReminders.hero.title')}
+            <span className="text-blue-600 block">{t('seax.solutions.appointmentReminders.hero.titleSpan')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Reduce no-shows and improve attendance with automated appointment reminders 
-            via SMS, WhatsApp, and voice calls. Smart scheduling with two-way communication.
+            {t('seax.solutions.appointmentReminders.hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -95,7 +94,7 @@ const AppointmentReminders = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Start Reducing No-Shows</span>
+              <span>{t('seax.solutions.appointmentReminders.hero.ctaPrimary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -103,7 +102,7 @@ const AppointmentReminders = () => {
               to={getLocalizedPath('/demo')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              Book a Demo
+              {t('seax.solutions.appointmentReminders.hero.ctaSecondary')}
             </Link>
           </div>
         </div>
@@ -114,10 +113,10 @@ const AppointmentReminders = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Powerful Reminder Features
+              {t('seax.solutions.appointmentReminders.features.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to keep appointments on track and reduce no-shows
+              {t('seax.solutions.appointmentReminders.features.description')}
             </p>
           </div>
           
@@ -145,10 +144,10 @@ const AppointmentReminders = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Industry Use Cases
+              {t('seax.solutions.appointmentReminders.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Proven appointment reminder strategies across different industries
+              {t('seax.solutions.appointmentReminders.useCases.description')}
             </p>
           </div>
           
@@ -171,36 +170,36 @@ const AppointmentReminders = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Proven Results
+              {t('seax.solutions.appointmentReminders.stats.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              See what our clients achieve with SeaX Appointment Reminders
+              {t('seax.solutions.appointmentReminders.stats.description')}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-blue-600 mb-2">40%</div>
-                <div className="text-gray-600">Reduction in No-Shows</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[0].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[0].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-green-600 mb-2">90%</div>
-                <div className="text-gray-600">Attendance Rate</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[1].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[1].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-purple-600 mb-2">75%</div>
-                <div className="text-gray-600">Time Savings</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[2].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[2].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-orange-600 mb-2">95%</div>
-                <div className="text-gray-600">Customer Satisfaction</div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[3].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[3].label')}</div>
               </div>
             </div>
           </div>
@@ -211,10 +210,10 @@ const AppointmentReminders = () => {
       <div className="py-20 bg-blue-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Reduce No-Shows and Improve Attendance?
+            {t('seax.solutions.appointmentReminders.cta.title')}
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of businesses improving appointment attendance with SeaX
+            {t('seax.solutions.appointmentReminders.cta.description')}
           </p>
           
           <a
@@ -223,7 +222,7 @@ const AppointmentReminders = () => {
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
           >
-            <span>Get Started Today</span>
+            <span>{t('seax.solutions.appointmentReminders.cta.button')}</span>
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>

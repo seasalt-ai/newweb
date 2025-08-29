@@ -7582,6 +7582,100 @@
           "description": "Join thousands of businesses using SeaX to engage customers and build lasting loyalty",
           "primary": "Get Started Today"
         }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Appointment Reminders - SeaX Automated Scheduling",
+          "description": "Reduce no-shows and improve attendance with automated appointment reminders via SMS, WhatsApp, and voice calls. Smart scheduling and confirmation system."
+        },
+        "hero": {
+          "title": {
+            "main": "Appointment Reminders",
+            "highlight": "That Work"
+          },
+          "description": "Reduce no-shows and improve attendance with automated appointment reminders via SMS, WhatsApp, and voice calls. Smart scheduling with two-way communication.",
+          "cta": {
+            "primary": "Start Reducing No-Shows",
+            "secondary": "Book a Demo"
+          }
+        },
+        "features": {
+          "title": "Powerful Reminder Features",
+          "subtitle": "Everything you need to keep appointments on track and reduce no-shows",
+          "items[0]": {
+            "title": "Smart Scheduling",
+            "description": "Automatically schedule appointments and send confirmations across SMS, WhatsApp, and voice calls."
+          },
+          "items[1]": {
+            "title": "Multi-Stage Reminders",
+            "description": "Send personalized reminders at optimal intervals - 24 hours, 1 hour, and 15 minutes before appointments."
+          },
+          "items[2]": {
+            "title": "Two-Way Communication",
+            "description": "Allow customers to confirm, reschedule, or cancel appointments directly via SMS or WhatsApp."
+          },
+          "items[3]": {
+            "title": "Staff Notifications",
+            "description": "Keep your team informed with real-time updates on appointment changes and confirmations."
+          },
+          "items[4]": {
+            "title": "Custom Alerts",
+            "description": "Set up custom reminder schedules and messages for different appointment types and durations."
+          },
+          "items[5]": {
+            "title": "Analytics & Insights",
+            "description": "Track no-show rates, confirmation rates, and optimize your reminder strategy with detailed analytics."
+          }
+        },
+        "useCases": {
+          "title": "Industry Use Cases",
+          "subtitle": "Proven appointment reminder strategies across different industries",
+          "items[0]": {
+            "title": "Healthcare Practices",
+            "description": "Reduce no-shows for medical appointments with automated reminders and easy rescheduling options.",
+            "stats": "40% reduction in no-shows"
+          },
+          "items[1]": {
+            "title": "Beauty & Wellness",
+            "description": "Keep salon and spa appointments on track with personalized reminders and confirmation requests.",
+            "stats": "85% confirmation rate"
+          },
+          "items[2]": {
+            "title": "Professional Services",
+            "description": "Ensure consultations and meetings happen on time with multi-channel reminder sequences.",
+            "stats": "90% attendance rate"
+          },
+          "items[3]": {
+            "title": "Automotive Services",
+            "description": "Remind customers of service appointments and maintenance schedules automatically.",
+            "stats": "60% increase in repeat visits"
+          }
+        },
+        "stats": {
+          "title": "Proven Results",
+          "subtitle": "See what our clients achieve with SeaX Appointment Reminders",
+          "items[0]": {
+            "value": "40%",
+            "label": "Reduction in No-Shows"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Attendance Rate"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Time Savings"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Customer Satisfaction"
+          }
+        },
+        "cta": {
+          "title": "Ready to Reduce No-Shows and Improve Attendance?",
+          "description": "Join thousands of businesses improving appointment attendance with SeaX",
+          "primary": "Get Started Today"
+        }
       }
     }
   }
