@@ -2059,32 +2059,93 @@
       "agents": "Number of Agents",
       "plans": {
         "free": {
-          "name": "Free Forever",
+          "name": "Truly Free",
           "description": "Perfect for getting started with human agents",
           "price": "0",
           "period": "/month",
-          "features": "Unlimited human agent hours,Basic chat widget,Email support,3 channels (Web, Email, Phone),Basic analytics,Community support",
+          "features": {
+            "humanAgent": "1 human agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Channels: WhatsApp Messenger, chat widget",
+            "integrations": "Integrations: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "AI agent with 100 lifetime AI replies:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Knowledge base includes 20 documents (200KB max) and 250k tokens",
+            "workspace": "1 workspace"
+          },
           "limitations": "No AI automation,Limited integrations",
-          "button": "Start Free"
-        },
-        "starter": {
-          "name": "AI Starter",
-          "description": "Add AI automation to scale your support",
-          "badge": "Most Popular",
-          "features": "Everything in Free,AI agent automation,Knowledge base (5GB),Advanced analytics,Priority email support,10 integrations,Custom branding",
-          "button": "Start AI Trial"
-        },
-        "growth": {
-          "name": "Growth",
-          "description": "Advanced features for growing teams",
-          "features": "Everything in Starter,Advanced AI training,Unlimited knowledge base,Voice agents,API access,Custom workflows,Phone support",
-          "button": "Try Growth"
+          "button": "Start Free",
+          "tagline": "Experience a trial of powerful features",
+          "buttonText": "Get Started Free"
         },
         "enterprise": {
           "name": "Enterprise",
           "description": "Custom solutions for large organizations",
-          "features": "Everything in Growth,Dedicated success manager,Custom integrations,Advanced security,SLA guarantees,On-premise deployment,24/7 phone support",
-          "button": "Contact Sales"
+          "features": {
+            "premiumIncluded": "Everything in Premium plan",
+            "customBuild": "Custom build",
+            "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "customAPI": "Custom API integration",
+            "fineTuning": "Fine-tuning with your guidelines and technical support"
+          },
+          "button": "Contact Sales",
+          "tagline": "Customize your exclusive AI agents",
+          "buttonText": "Contact Us"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Add more AI Agents and Knowledge Files",
+          "description": "Scale your support with AI automation",
+          "features": {
+            "humanAgents": "4 human users (additional human user costs $10/month)",
+            "humanAgentPermission": "Support human agent permission",
+            "assignAgent": "Assign human agent to individual conversation",
+            "unreadCounter": "Unread message counter for each human agent",
+            "transferToHuman": "Live transfer from AI agent to human agent",
+            "transferToAI": "Live transfer from human agent to AI agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Additional channels: Line, Call, Phone Call",
+            "integrations": "Additional integrations: Google Calendar to auto book meetings",
+            "aiAgents": "10 AI agents, with each agent having:",
+            "aiModels": "ChatGPT-4o and Mistral models",
+            "knowledgeBase": "Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens",
+            "chatSummary": "Chat summary and notification via email",
+            "agentPrivacy": "Agent privacy control",
+            "contactCapture": "User contact capture via custom forms",
+            "chatCost": "Chat AI agent starts at $0.006 per response",
+            "voiceCost": "Voice AI agent over phone calls starts at $0.12 per minute",
+            "workspaces": "2 workspaces (additional workspace costs $15/month)",
+            "knowledgeBaseFeatures": "Knowledge Base:",
+            "advancedSearch": "Advanced document search - keyword, vector, hybrid",
+            "fileTypes": "20+ file types supported, with optimization on spreadsheets",
+            "automationFeatures": "Automation:",
+            "autoLabel": "Automatically label conversations with user-defined labels",
+            "builtInActions": "Built-in actions triggered by auto-labeling: SMS, Email",
+            "externalAPI": "External API calls as both triggers and actions",
+            "voiceAgentFeatures": "Voice AI Agents:",
+            "voiceMessages": "Support voice messages in Messenger, WhatsApp, Line",
+            "phoneCalls": "Support 2-way phone call conversations",
+            "callDirection": "Support both inbound and outbound call",
+            "transferAgent": "Transfer to human agent",
+            "callForwarding": "Call forwarding supported",
+            "sttLanguages": "10+ Speech-To-Text languages",
+            "ttsLanguages": "10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "callRecording": "Call recording and summary",
+            "callNotification": "Call notification via email",
+            "formTrackers": "Set form trackers from conversations",
+            "slotExtractors": "Slot extractors from conversations",
+            "timezoneFeatures": "Local time awareness with timezone support, for:",
+            "businessHours": "business hours",
+            "appointmentBooking": "appointment booking"
+          },
+          "buttonText": "Start Premium"
         }
       },
       "enterprise": {
@@ -2572,7 +2633,9 @@
       "company": {
         "productWiki": "Product Wiki",
         "apiReferences": "API References",
-        "careers": "Careers"
+        "careers": "Careers",
+        "title": "Company",
+        "about": "About"
       },
       "resources": "Resources",
       "legal": {
@@ -4030,8 +4093,9 @@
       "description": "Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
     },
     "hero": {
-      "title": "Simple, Transparent Pricing That Grows With You",
-      "description": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
+      "title": "Pricing That Grows With You",
+      "description": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
+      "subtitle": "Start completely free with human agents, then add AI when you are ready to scale. No surprises, no hidden fees, just transparent pricing."
     },
     "audienceSection": {
       "title": "Choose Your Growth Path",
@@ -4395,6 +4459,11 @@
         },
         "cta": "Contact Sales"
       }
+    },
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 2 Months"
     }
   },
   "compare": {
@@ -6657,7 +6726,8 @@
             "message": "Hi John, 🎉 Flash Sale! 50% off all items. Use code SAVE50. Shop now: link.co/shop. Reply STOP to opt out.",
             "delivered": "Delivered",
             "successRate": "Success Rate"
-          }
+          },
+          "getStarted": "Get Started"
         },
         "features": {
           "title": "Why Choose SeaX SMS?",

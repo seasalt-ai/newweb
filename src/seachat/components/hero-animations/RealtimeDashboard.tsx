@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Activity, Clock, Users, MessageCircle, TrendingUp, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Metric {
   id: string;
@@ -12,11 +13,12 @@ interface Metric {
 }
 
 const RealtimeDashboard = () => {
+  const { t } = useTranslation();
   const [metrics, setMetrics] = useState<Metric[]>([
-    { id: 'conversations', label: 'Active Chats', value: 247, change: 0, icon: MessageCircle, color: 'text-blue-600', unit: '' },
-    { id: 'response', label: 'Avg Response', value: 15, change: 0, icon: Clock, color: 'text-green-600', unit: 's' },
-    { id: 'agents', label: 'Online Agents', value: 12, change: 0, icon: Users, color: 'text-purple-600', unit: '' },
-    { id: 'satisfaction', label: 'Satisfaction', value: 94, change: 0, icon: TrendingUp, color: 'text-teal-600', unit: '%' },
+    { id: 'conversations', label: t('seachat.heroAnimations.realtimeDashboard.metrics.conversations'), value: 247, change: 0, icon: MessageCircle, color: 'text-blue-600', unit: '' },
+    { id: 'response', label: t('seachat.heroAnimations.realtimeDashboard.metrics.response'), value: 15, change: 0, icon: Clock, color: 'text-green-600', unit: 's' },
+    { id: 'agents', label: t('seachat.heroAnimations.realtimeDashboard.metrics.agents'), value: 12, change: 0, icon: Users, color: 'text-purple-600', unit: '' },
+    { id: 'satisfaction', label: t('seachat.heroAnimations.realtimeDashboard.metrics.satisfaction'), value: 94, change: 0, icon: TrendingUp, color: 'text-teal-600', unit: '%' },
   ]);
 
   const [activityPulses, setActivityPulses] = useState<{ id: number; x: number; y: number; delay: number }[]>([]);
@@ -99,11 +101,11 @@ const RealtimeDashboard = () => {
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-3">
           <Activity className="w-6 h-6 text-teal-400" />
-          <h3 className="text-xl font-bold text-white">Live Dashboard</h3>
+          <h3 className="text-xl font-bold text-white">{t('seachat.heroAnimations.realtimeDashboard.title')}</h3>
         </div>
         <div className="flex items-center space-x-2">
           <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-          <span className="text-green-400 text-sm font-medium">Live</span>
+          <span className="text-green-400 text-sm font-medium">{t('seachat.heroAnimations.realtimeDashboard.status.live')}</span>
         </div>
       </div>
 
@@ -160,9 +162,9 @@ const RealtimeDashboard = () => {
         </div>
         
         <div className="flex justify-between text-xs text-gray-400 mt-2">
-          <span>12h ago</span>
-          <span>6h ago</span>
-          <span>Now</span>
+          <span>{t('seachat.heroAnimations.realtimeDashboard.timeLabels.12hAgo')}</span>
+          <span>{t('seachat.heroAnimations.realtimeDashboard.timeLabels.6hAgo')}</span>
+          <span>{t('seachat.heroAnimations.realtimeDashboard.timeLabels.now')}</span>
         </div>
       </div>
 

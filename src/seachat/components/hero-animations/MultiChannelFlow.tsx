@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, Instagram, Facebook, Mail, Phone, Globe, User, Bot } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Message {
   id: number;
@@ -14,23 +15,24 @@ interface Message {
 }
 
 const MultiChannelFlow = () => {
+  const { t } = useTranslation();
   const [messages, setMessages] = useState<Message[]>([]);
   const [nextId, setNextId] = useState(1);
 
   const channels = [
-    { name: 'WhatsApp', icon: MessageCircle, color: 'bg-green-500', x: 20 },
-    { name: 'Instagram', icon: Instagram, color: 'bg-pink-500', x: 35 },
-    { name: 'Facebook', icon: Facebook, color: 'bg-blue-600', x: 50 },
-    { name: 'Email', icon: Mail, color: 'bg-red-500', x: 65 },
-    { name: 'Website', icon: Globe, color: 'bg-blue-500', x: 80 },
+    { name: t('seachat.heroAnimations.multiChannelFlow.channels.whatsapp'), icon: MessageCircle, color: 'bg-green-500', x: 20 },
+    { name: t('seachat.heroAnimations.multiChannelFlow.channels.instagram'), icon: Instagram, color: 'bg-pink-500', x: 35 },
+    { name: t('seachat.heroAnimations.multiChannelFlow.channels.facebook'), icon: Facebook, color: 'bg-blue-600', x: 50 },
+    { name: t('seachat.heroAnimations.multiChannelFlow.channels.email'), icon: Mail, color: 'bg-red-500', x: 65 },
+    { name: t('seachat.heroAnimations.multiChannelFlow.channels.website'), icon: Globe, color: 'bg-blue-500', x: 80 },
   ];
 
   const messageTemplates = [
-    'Need help with order',
-    'Product question',
-    'Technical support',
-    'Billing inquiry',
-    'General question',
+    t('seachat.heroAnimations.multiChannelFlow.messageTemplates.0'),
+    t('seachat.heroAnimations.multiChannelFlow.messageTemplates.1'),
+    t('seachat.heroAnimations.multiChannelFlow.messageTemplates.2'),
+    t('seachat.heroAnimations.multiChannelFlow.messageTemplates.3'),
+    t('seachat.heroAnimations.multiChannelFlow.messageTemplates.4'),
   ];
 
   useEffect(() => {
@@ -154,8 +156,8 @@ const MultiChannelFlow = () => {
 
       {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 text-center">
-        <h3 className="text-lg font-bold text-gray-800">Multi-Channel Message Flow</h3>
-        <p className="text-sm text-gray-600">Messages flowing between channels in real-time</p>
+        <h3 className="text-lg font-bold text-gray-800">{t('seachat.heroAnimations.multiChannelFlow.title')}</h3>
+        <p className="text-sm text-gray-600">{t('seachat.heroAnimations.multiChannelFlow.subtitle')}</p>
       </div>
     </div>
   );

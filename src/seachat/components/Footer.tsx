@@ -65,7 +65,7 @@ const Footer = () => {
     { name: t('seachat.footer.company.productWiki'), href: 'https://wiki.seasalt.ai/seachat', icon: Book },
     { name: t('seachat.footer.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
     { name: t('seachat.footer.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
-    { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
+    { name: t('seachat.footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
   ];
 
   return (
@@ -287,14 +287,14 @@ const Footer = () => {
           {/* Company */}
           <div>
             {/* Desktop: Regular heading */}
-            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('footer.company.title')}</h3>
+            <h3 className="hidden lg:block text-lg font-semibold mb-6">{t('seachat.footer.company.title')}</h3>
             
             {/* Mobile: Collapsible heading */}
             <button 
               onClick={() => toggleMobileSection('company')}
               className="lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
             >
-              {t('footer.company.title')}
+              {t('seachat.footer.company.title')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.company ? '' : 'rotate-180'}`} />
             </button>
             

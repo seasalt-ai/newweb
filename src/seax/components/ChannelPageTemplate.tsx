@@ -71,6 +71,8 @@ const ChannelPageTemplate = ({
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { t } = useTranslation();
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -109,7 +111,7 @@ const ChannelPageTemplate = ({
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
               >
-                <span>Get Started</span>
+                <span>{t('seax.channels.sms.hero.getStarted')}</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
               </div>

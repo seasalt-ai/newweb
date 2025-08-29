@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Brain, FileText, TrendingUp, Zap, BookOpen, MessageCircle, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Document {
   id: number;
@@ -26,6 +27,7 @@ interface Conversation {
 }
 
 const ConversationLearning = () => {
+  const { t } = useTranslation();
   const [documents, setDocuments] = useState<Document[]>([]);
   const [knowledgeNodes, setKnowledgeNodes] = useState<KnowledgeNode[]>([]);
   const [conversations, setConversations] = useState<Conversation[]>([]);
@@ -33,22 +35,44 @@ const ConversationLearning = () => {
   const [phase, setPhase] = useState<'uploading' | 'processing' | 'learning' | 'mastery'>('uploading');
 
   const documentTypes = [
-    { name: 'Product Manual.pdf', type: 'pdf' as const },
-    { name: 'FAQ Database.csv', type: 'csv' as const },
-    { name: 'Support Guide.doc', type: 'doc' as const },
-    { name: 'Website Content', type: 'website' as const },
+    { name: t('seachat.heroAnimations.conversationLearning.documentTypes.0'), type: 'pdf' as const },
+    { name: t('seachat.heroAnimations.conversationLearning.documentTypes.1'), type: 'csv' as const },
+    { name: t('seachat.heroAnimations.conversationLearning.documentTypes.2'), type: 'doc' as const },
+    { name: t('seachat.heroAnimations.conversationLearning.documentTypes.3'), type: 'website' as const },
   ];
 
   const knowledgeConcepts = [
-    'Product Features', 'Pricing Plans', 'Support Policies', 'Technical Specs',
-    'User Guidelines', 'Troubleshooting', 'Integration Steps', 'Best Practices'
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.0'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.1'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.2'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.3'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.4'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.5'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.6'),
+    t('seachat.heroAnimations.conversationLearning.knowledgeConcepts.7'),
   ];
 
   const conversationExamples = [
-    { question: 'How do I reset my password?', improvement: 'Learned step-by-step process', accuracy: 75 },
-    { question: 'What are your pricing plans?', improvement: 'Added detailed comparisons', accuracy: 85 },
-    { question: 'Integration with Slack?', improvement: 'Improved technical guidance', accuracy: 90 },
-    { question: 'Billing question', improvement: 'Enhanced policy understanding', accuracy: 95 },
+    { 
+      question: t('seachat.heroAnimations.conversationLearning.conversationExamples.0.question'), 
+      improvement: t('seachat.heroAnimations.conversationLearning.conversationExamples.0.improvement'), 
+      accuracy: 75 
+    },
+    { 
+      question: t('seachat.heroAnimations.conversationLearning.conversationExamples.1.question'), 
+      improvement: t('seachat.heroAnimations.conversationLearning.conversationExamples.1.improvement'), 
+      accuracy: 85 
+    },
+    { 
+      question: t('seachat.heroAnimations.conversationLearning.conversationExamples.2.question'), 
+      improvement: t('seachat.heroAnimations.conversationLearning.conversationExamples.2.improvement'), 
+      accuracy: 90 
+    },
+    { 
+      question: t('seachat.heroAnimations.conversationLearning.conversationExamples.3.question'), 
+      improvement: t('seachat.heroAnimations.conversationLearning.conversationExamples.3.improvement'), 
+      accuracy: 95 
+    },
   ];
 
   useEffect(() => {
@@ -157,7 +181,7 @@ const ConversationLearning = () => {
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-3">
           <PhaseIcon className={`w-6 h-6 ${getPhaseColor()}`} />
-          <h3 className="text-lg font-bold text-gray-800 capitalize">{phase} Phase</h3>
+          <h3 className="text-lg font-bold text-gray-800 capitalize">{phase} {t('seachat.heroAnimations.conversationLearning.phaseLabel')}</h3>
         </div>
         <div className="flex items-center space-x-2">
           <Brain className="w-4 h-4 text-purple-600" />
@@ -277,7 +301,7 @@ const ConversationLearning = () => {
                   </div>
                   <div className="text-right">
                     <div className="text-lg font-bold text-green-600">{conv.accuracy}%</div>
-                    <div className="text-xs text-gray-500">Accuracy</div>
+                    <div className="text-xs text-gray-500">{t('seachat.heroAnimations.conversationLearning.accuracy')}</div>
                   </div>
                 </div>
               </div>
@@ -288,8 +312,8 @@ const ConversationLearning = () => {
 
       {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 text-center">
-        <h3 className="text-lg font-bold text-gray-800">AI Learning Journey</h3>
-        <p className="text-sm text-gray-600">Watch AI get smarter from your content</p>
+        <h3 className="text-lg font-bold text-gray-800">{t('seachat.heroAnimations.conversationLearning.title')}</h3>
+        <p className="text-sm text-gray-600">{t('seachat.heroAnimations.conversationLearning.subtitle')}</p>
       </div>
 
       <style>{`

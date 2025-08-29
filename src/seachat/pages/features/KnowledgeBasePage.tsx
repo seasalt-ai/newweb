@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export default function KnowledgeBasePage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('seachat');
   
   return (
     <div className="min-h-screen bg-white">
@@ -20,7 +20,7 @@ export default function KnowledgeBasePage() {
               <div className="bg-blue-600 p-3 rounded-xl mr-4">
                 <Book className="h-8 w-8 text-white" />
               </div>
-              <h1 className="text-4xl font-bold text-gray-900">{t('seachat.features.knowledgeBase.title', 'Knowledge Base')}</h1>
+              <h1 className="text-4xl font-bold text-gray-900">{t('features.knowledgeBase.title', 'Knowledge Base')}</h1>
             </div>
             <p className="text-xl text-gray-600 leading-relaxed">
               {t('seachat.features.knowledgeBase.subtitle', 'Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.')}

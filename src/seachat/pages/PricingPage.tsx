@@ -6,7 +6,7 @@ import SupportPlan from '../../components/SupportPlan';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const PricingPage = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('seachat');
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
@@ -82,56 +82,56 @@ const PricingPage = () => {
   const plans = [
     {
       id: 'free',
-      name: t('pricing.plans.free.name'),
-      tagline: t('pricing.plans.free.tagline'),
-      description: t('pricing.plans.free.description'),
+      name: t('seachat.pricing.plans.free.name'),
+      tagline: t('seachat.pricing.plans.free.tagline'),
+      description: t('seachat.pricing.plans.free.description'),
       price: 0,
       originalPrice: 0,
       features: [
         {
-          description: t('pricing.plans.free.features.humanAgent'),
+          description: t('seachat.pricing.plans.free.features.humanAgent'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedHumanChats'),
+          description: t('seachat.pricing.plans.free.features.unlimitedHumanChats'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedContacts'),
+          description: t('seachat.pricing.plans.free.features.unlimitedContacts'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.unlimitedHistory'),
+          description: t('seachat.pricing.plans.free.features.unlimitedHistory'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.exportHistory'),
+          description: t('seachat.pricing.plans.free.features.exportHistory'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.channels'),
+          description: t('seachat.pricing.plans.free.features.channels'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.integrations'),
+          description: t('seachat.pricing.plans.free.features.integrations'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.aiAgent'),
+          description: t('seachat.pricing.plans.free.features.aiAgent'),
           sub_features: [
-            { description: t('pricing.plans.free.features.aiAgentModel'), sub_features: [] }
+            { description: t('seachat.pricing.plans.free.features.aiAgentModel'), sub_features: [] }
           ]
         },
         {
-          description: t('pricing.plans.free.features.knowledgeBase'),
+          description: t('seachat.pricing.plans.free.features.knowledgeBase'),
           sub_features: []
         },
         {
-          description: t('pricing.plans.free.features.workspace'),
+          description: t('seachat.pricing.plans.free.features.workspace'),
           sub_features: []
         }
       ],
-      buttonText: t('pricing.plans.free.buttonText'),
+      buttonText: t('seachat.pricing.plans.free.buttonText'),
       buttonStyle: 'bg-purple-600 hover:bg-purple-700 text-white',
       cardStyle: 'bg-gradient-to-br from-purple-400 to-purple-600 text-white',
       highlight: false
