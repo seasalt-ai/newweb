@@ -7749,6 +7749,126 @@
           "primary": "立即開始"
         }
       }
+    },
+    "industries": {
+      "ecommerceRetail": {
+        "seo": {
+          "title": "SeaX 電商零售解決方案 - 透過智慧訊息提升銷售",
+          "description": "透過 SeaX 智慧訊息平台轉型您的電商業務。挽救放棄購物車的客戶、提升客戶留存率，並透過個人化溝通推動銷售。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX 專為",
+            "highlight": "電商零售業"
+          },
+          "description": "透過智慧訊息轉型您的電商體驗，推動銷售、減少購物車遺棄率，並建立客戶忠誠度。",
+          "cta": {
+            "primary": "獲取行業解決方案",
+            "secondary": "查看功能"
+          }
+        },
+        "challenges": {
+          "title": "我們解決的電商挑戰",
+          "subtitle": "電商零售業常見的溝通挑戰",
+          "items[0]": {
+            "title": "高購物車遺棄率",
+            "description": "客戶因缺乏及時的後續追蹤和個人化參與而放棄完成購買。"
+          },
+          "items[1]": {
+            "title": "客戶留存率低",
+            "description": "缺乏有效的留存策略，難以與客戶維持長期關係。"
+          },
+          "items[2]": {
+            "title": "溝通不一致",
+            "description": "多個管道間的訊息分散，導致客戶體驗不佳。"
+          },
+          "items[3]": {
+            "title": "個人化程度有限",
+            "description": "通用的行銷訊息無法引起個別客戶偏好和行為的共鳴。"
+          },
+          "items[4]": {
+            "title": "訂單更新不足",
+            "description": "客戶對於訂單狀態、運送更新和交貨通知缺乏了解。"
+          },
+          "items[5]": {
+            "title": "重新參與效果不佳",
+            "description": "難以重新吸引不活躍的客戶並鼓勵重複購買。"
+          }
+        },
+        "useCases": {
+          "title": "電商應用案例",
+          "subtitle": "電商零售業的實際應用場景",
+          "items[0]": {
+            "title": "購物車挽回",
+            "description": "自動化個人化 SMS 和訊息活動，挽回流失的銷售並重新吸引將商品留在購物車中的客戶。",
+            "benefits[0]": "購物車挽回率提升 30%",
+            "benefits[1]": "個人化產品推薦",
+            "benefits[2]": "自動化時機優化"
+          },
+          "items[1]": {
+            "title": "訂單狀態與運送更新",
+            "description": "透過即時訂單更新和交貨通知，讓客戶在整個購買過程中保持資訊暢通。",
+            "benefits[0]": "減少客戶服務詢問",
+            "benefits[1]": "提升客戶滿意度",
+            "benefits[2]": "主動式溝通"
+          },
+          "items[2]": {
+            "title": "客戶忠誠度計劃",
+            "description": "為回購客戶創建針對性活動，提供專屬優惠、獎勵和個人化購物體驗。",
+            "benefits[0]": "重複購買率提升 20%",
+            "benefits[1]": "提高客戶終身價值",
+            "benefits[2]": "自動化獎勵發放"
+          },
+          "items[3]": {
+            "title": "促銷活動",
+            "description": "透過 SMS、訊息和社群平台推出針對性行銷活動，推動銷售和參與度。",
+            "benefits[0]": "提高轉換率",
+            "benefits[1]": "行銷支出 ROI 更佳",
+            "benefits[2]": "分眾目標定位"
+          }
+        },
+        "stats": {
+          "title": "使用 SeaX 的電商成果",
+          "subtitle": "電商零售業務的實證成效",
+          "items[0]": {
+            "value": "30%",
+            "label": "銷售轉換率提升",
+            "description": "購物車挽回的平均改善"
+          },
+          "items[1]": {
+            "value": "20%",
+            "label": "客戶留存率提升",
+            "description": "重複購買率更高"
+          },
+          "items[2]": {
+            "value": "15%",
+            "label": "購物車遺棄率降低",
+            "description": "透過及時的個人化訊息"
+          }
+        },
+        "features": {
+          "title": "為什麼電商企業選擇 SeaX",
+          "subtitle": "專為線上零售成功設計的全方位功能",
+          "items[0]": {
+            "title": "全通路訊息",
+            "description": "從統一儀表板透過 SMS、WhatsApp 和社群平台接觸客戶。"
+          },
+          "items[1]": {
+            "title": "智慧分群",
+            "description": "根據行為、購買歷史和偏好自動分群客戶。"
+          },
+          "items[2]": {
+            "title": "即時分析",
+            "description": "透過詳細洞察追蹤活動績效、客戶參與度和投資報酬率。"
+          }
+        },
+        "cta": {
+          "title": "準備好轉型您的電商業務了嗎？",
+          "description": "加入數千家使用 SeaX 提升銷售、減少購物車遺棄率和建立持久客戶關係的電商企業。",
+          "primary": "立即開始",
+          "secondary": "查看定價"
+        }
+      }
     }
   }
 }

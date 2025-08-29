@@ -1,40 +1,40 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-29T07:02:08.720Z
+Generated: 2025-08-29T07:15:30.596Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 4292
+- **Base Language (en) Keys**: 4358
 - **Components Analyzed**: 210
-- **Translation Coverage**: 67.30%
+- **Translation Coverage**: 67.67%
 - **Missing Keys**: 1916
-- **Hardcoded Strings Found**: 3387
+- **Hardcoded Strings Found**: 3321
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 20.60% | ❌ Incomplete |
-| de | 887 | 20.08% | ❌ Incomplete |
-| en | 4292 | 100.00% | ✅ Good |
-| es | 835 | 18.87% | ❌ Incomplete |
-| fa | 755 | 17.08% | ❌ Incomplete |
-| fil | 739 | 16.68% | ❌ Incomplete |
-| fr | 739 | 16.68% | ❌ Incomplete |
-| hi | 690 | 15.54% | ❌ Incomplete |
-| id | 690 | 15.54% | ❌ Incomplete |
-| ja | 690 | 15.56% | ❌ Incomplete |
-| ko | 690 | 15.54% | ❌ Incomplete |
-| ms | 690 | 15.54% | ❌ Incomplete |
-| pl | 676 | 15.21% | ❌ Incomplete |
-| pt | 676 | 15.21% | ❌ Incomplete |
-| ru | 676 | 15.21% | ❌ Incomplete |
-| ta | 739 | 16.68% | ❌ Incomplete |
-| th | 739 | 16.68% | ❌ Incomplete |
-| vi | 739 | 16.68% | ❌ Incomplete |
-| zh-CN | 802 | 18.17% | ❌ Incomplete |
-| zh-TW | 4278 | 99.65% | ✅ Good |
+| ar | 909 | 20.28% | ❌ Incomplete |
+| de | 887 | 19.78% | ❌ Incomplete |
+| en | 4358 | 100.00% | ✅ Good |
+| es | 835 | 18.59% | ❌ Incomplete |
+| fa | 755 | 16.82% | ❌ Incomplete |
+| fil | 739 | 16.43% | ❌ Incomplete |
+| fr | 739 | 16.43% | ❌ Incomplete |
+| hi | 690 | 15.31% | ❌ Incomplete |
+| id | 690 | 15.31% | ❌ Incomplete |
+| ja | 690 | 15.33% | ❌ Incomplete |
+| ko | 690 | 15.31% | ❌ Incomplete |
+| ms | 690 | 15.31% | ❌ Incomplete |
+| pl | 676 | 14.98% | ❌ Incomplete |
+| pt | 676 | 14.98% | ❌ Incomplete |
+| ru | 676 | 14.98% | ❌ Incomplete |
+| ta | 739 | 16.43% | ❌ Incomplete |
+| th | 739 | 16.43% | ❌ Incomplete |
+| vi | 739 | 16.43% | ❌ Incomplete |
+| zh-CN | 802 | 17.90% | ❌ Incomplete |
+| zh-TW | 4344 | 99.66% | ✅ Good |
 
 ## Priority Actions Required
 
@@ -45,7 +45,7 @@ Generated: 2025-08-29T07:02:08.720Z
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3387 hardcoded strings that should be internationalized
+**Description**: Found 3321 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1977,7 +1977,7 @@ seax.channels.voice.pricing
 ## Hardcoded Strings Summary
 
 
-Found 3387 potential hardcoded strings across components:
+Found 3321 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2020,7 +2020,7 @@ Found 3387 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3377 more. See hardcoded-strings.json for complete list.
+... and 3311 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2034,7 +2034,7 @@ Found 3387 potential hardcoded strings across components:
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3387 hardcoded strings that should be internationalized
+**Description**: Found 3321 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

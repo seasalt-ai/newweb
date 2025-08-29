@@ -7771,6 +7771,126 @@
           "primary": "Get Started Today"
         }
       }
+    },
+    "industries": {
+      "ecommerceRetail": {
+        "seo": {
+          "title": "SeaX for E-commerce & Retail - Boost Sales with Smart Messaging",
+          "description": "Transform your e-commerce business with SeaX's intelligent messaging platform. Recover abandoned carts, increase customer retention, and drive sales with personalized communication."
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "E-commerce & Retail"
+          },
+          "description": "Transform your e-commerce experience with intelligent messaging that drives sales, reduces cart abandonment, and builds customer loyalty.",
+          "cta": {
+            "primary": "Get Industry Solution",
+            "secondary": "View Features"
+          }
+        },
+        "challenges": {
+          "title": "E-commerce Challenges We Solve",
+          "subtitle": "Common communication challenges in the e-commerce and retail industry",
+          "items[0]": {
+            "title": "High Cart Abandonment Rates",
+            "description": "Customers leave without completing purchases due to lack of timely follow-up and personalized engagement."
+          },
+          "items[1]": {
+            "title": "Low Customer Retention",
+            "description": "Difficulty maintaining long-term relationships with customers without effective retention strategies."
+          },
+          "items[2]": {
+            "title": "Inconsistent Communication",
+            "description": "Fragmented messaging across multiple channels leading to poor customer experience."
+          },
+          "items[3]": {
+            "title": "Limited Personalization",
+            "description": "Generic marketing messages that don't resonate with individual customer preferences and behaviors."
+          },
+          "items[4]": {
+            "title": "Poor Order Updates",
+            "description": "Customers left in the dark about order status, shipping updates, and delivery notifications."
+          },
+          "items[5]": {
+            "title": "Ineffective Re-engagement",
+            "description": "Struggle to win back inactive customers and encourage repeat purchases."
+          }
+        },
+        "useCases": {
+          "title": "E-commerce Use Cases",
+          "subtitle": "Real-world applications for e-commerce and retail businesses",
+          "items[0]": {
+            "title": "Abandoned Cart Recovery",
+            "description": "Automate personalized SMS and messaging campaigns to recover lost sales and re-engage customers who left items in their cart.",
+            "benefits[0]": "30% increase in cart recovery",
+            "benefits[1]": "Personalized product recommendations",
+            "benefits[2]": "Automated timing optimization"
+          },
+          "items[1]": {
+            "title": "Order Status & Shipping Updates",
+            "description": "Keep customers informed throughout their purchase journey with real-time order updates and delivery notifications.",
+            "benefits[0]": "Reduced customer service inquiries",
+            "benefits[1]": "Improved customer satisfaction",
+            "benefits[2]": "Proactive communication"
+          },
+          "items[2]": {
+            "title": "Customer Loyalty Programs",
+            "description": "Create targeted campaigns for repeat customers with exclusive offers, rewards, and personalized shopping experiences.",
+            "benefits[0]": "20% increase in repeat purchases",
+            "benefits[1]": "Higher customer lifetime value",
+            "benefits[2]": "Automated reward distribution"
+          },
+          "items[3]": {
+            "title": "Promotional Campaigns",
+            "description": "Launch targeted marketing campaigns across SMS, messaging, and social platforms to drive sales and engagement.",
+            "benefits[0]": "Higher conversion rates",
+            "benefits[1]": "Better ROI on marketing spend",
+            "benefits[2]": "Segmented audience targeting"
+          }
+        },
+        "stats": {
+          "title": "E-commerce Results with SeaX",
+          "subtitle": "Proven outcomes for e-commerce and retail businesses",
+          "items[0]": {
+            "value": "30%",
+            "label": "Increase in Sales Conversion",
+            "description": "Average improvement in cart recovery"
+          },
+          "items[1]": {
+            "value": "20%",
+            "label": "Increase in Customer Retention",
+            "description": "Higher repeat purchase rates"
+          },
+          "items[2]": {
+            "value": "15%",
+            "label": "Reduction in Cart Abandonment",
+            "description": "Through timely personalized messaging"
+          }
+        },
+        "features": {
+          "title": "Why E-commerce Businesses Choose SeaX",
+          "subtitle": "Comprehensive features designed specifically for online retail success",
+          "items[0]": {
+            "title": "Omnichannel Messaging",
+            "description": "Reach customers across SMS, WhatsApp, and social platforms from one unified dashboard."
+          },
+          "items[1]": {
+            "title": "Smart Segmentation",
+            "description": "Automatically segment customers based on behavior, purchase history, and preferences."
+          },
+          "items[2]": {
+            "title": "Real-time Analytics",
+            "description": "Track campaign performance, customer engagement, and ROI with detailed insights."
+          }
+        },
+        "cta": {
+          "title": "Ready to Transform Your E-commerce Business?",
+          "description": "Join thousands of e-commerce businesses using SeaX to increase sales, reduce cart abandonment, and build lasting customer relationships.",
+          "primary": "Get Started Today",
+          "secondary": "View Pricing"
+        }
+      }
     }
   }
 }
