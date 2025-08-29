@@ -3003,6 +3003,1137 @@
             "description": "享受自動數據同步"
           }
         }
+      },
+      "api": {
+        "accessButton": "取得 API 存取權",
+        "benefits": {
+          "dataFlow": {
+            "description": "SeaChat 與您的系統之間自動同步",
+            "title": "無縫資料流"
+          },
+          "implementation": {
+            "description": "使用預先建置的整合範本快速設定",
+            "title": "更快的實作"
+          },
+          "insights": {
+            "description": "透過整合的資料來源增強報告功能",
+            "title": "更深入的洞察"
+          },
+          "manualWork": {
+            "description": "透過智慧自動化消除重複性任務",
+            "title": "減少手動工作"
+          }
+        },
+        "benefitsSubtitle": "透過強大的自訂轉變您的工作流程。",
+        "benefitsTitle": "整合優勢",
+        "buildSubtitle": "請按照以下簡單步驟開始使用自訂 SeaChat API 整合。",
+        "buildTitle": "準備好建立您的整合了嗎？",
+        "capabilitiesSubtitle": "您需要的一切，以建立與 SeaChat 的強大、可擴充的整合。",
+        "capabilitiesTitle": "強大的整合能力",
+        "copyCode": "複製程式碼",
+        "ctaAccessButton": "取得 API 存取權",
+        "ctaDocsButton": "查看文件",
+        "ctaSubtitle": "取得 API 存取權，並開始建立強大的自訂整合，以轉變您的客戶支援工作流程。",
+        "ctaTitle": "立即開始建立",
+        "docsButton": "查看 API 文件",
+        "exampleSubtitle": "只需幾行程式碼即可開始使用我們的 API。",
+        "exampleTitle": "快速入門程式碼範例",
+        "features": {
+          "custom": {
+            "description": "為您的特定業務需求建立自訂整合",
+            "title": "自訂整合"
+          },
+          "restful": {
+            "description": "乾淨、文件齊全的 REST API，可實現無縫整合",
+            "title": "RESTful API"
+          },
+          "webhooks": {
+            "description": "事件和對話更新的即時通知",
+            "title": "即時 Webhook"
+          },
+          "workflow": {
+            "description": "使用我們的整合平台自動化複雜的工作流程",
+            "title": "工作流程自動化"
+          }
+        },
+        "integrationExample": "自訂整合範例",
+        "patternsSubtitle": "探索熱門的整合情境和實作範例。",
+        "patternsTitle": "常見整合模式",
+        "resources": {
+          "community": "開發人員社群支援",
+          "docs": "全面的 API 文件",
+          "examples": "多種語言的程式碼範例",
+          "explorer": "互動式 API 瀏覽器",
+          "sandbox": "用於測試的沙箱環境",
+          "simulator": "Webhook 事件模擬器"
+        },
+        "resourcesTitle": "開發人員資源",
+        "steps": {
+          "build": {
+            "description": "使用我們的沙箱環境開發您的整合",
+            "title": "建立與測試"
+          },
+          "credentials": {
+            "description": "註冊並產生您的 API 金鑰和 Webhook 密鑰",
+            "title": "取得 API 憑證"
+          },
+          "deploy": {
+            "description": "啟動您的整合並監控效能",
+            "title": "部署與監控"
+          },
+          "docs": {
+            "description": "探索我們全面的 API 文件和範例",
+            "title": "檢閱文件"
+          }
+        },
+        "subtitle": "使用我們全面的 API 建立強大的自訂整合。使用我們對開發人員友善的工具，將 SeaChat 連接到任何系統或工作流程。",
+        "title": "自訂 API 整合",
+        "types": {
+          "analytics": {
+            "complexity": "低",
+            "description": "將對話資料傳送到您的分析工具",
+            "example": "追蹤客戶滿意度和支援指標",
+            "time": "1-2 小時",
+            "title": "分析平台"
+          },
+          "crm": {
+            "complexity": "中",
+            "description": "將客戶資料與您的 CRM 系統同步",
+            "example": "從支援對話中自動建立潛在客戶",
+            "time": "2-4 小時",
+            "title": "CRM 整合"
+          },
+          "ecommerce": {
+            "complexity": "中",
+            "description": "與您的線上商店連線以進行訂單管理",
+            "example": "提供即時訂單狀態和追蹤資訊",
+            "time": "3-6 小時",
+            "title": "電子商務平台"
+          },
+          "payment": {
+            "complexity": "高",
+            "description": "與支付網關整合以提供帳單支援",
+            "example": "自動處理退款和付款查詢",
+            "time": "4-8 小時",
+            "title": "支付處理"
+          }
+        },
+        "useCaseTitle": "使用案例範例"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "自動提醒和確認可減少錯過的約會",
+            "title": "減少未到場次數"
+          },
+          "scheduling": {
+            "description": "讓客戶直接從聊天對話中預約",
+            "title": "自動排程"
+          },
+          "timeSavings": {
+            "description": "消除來回排程的電子郵件和電話",
+            "title": "節省時間"
+          },
+          "utilization": {
+            "description": "透過智慧排程優化行事曆使用",
+            "title": "更佳的使用率"
+          }
+        },
+        "benefitsSubtitle": "透過自動預約簡化您的排程流程並改善客戶體驗。",
+        "benefitsTitle": "行事曆整合優勢",
+        "connectButton": "連接行事曆",
+        "connectPlatform": "連接",
+        "ctaConnectButton": "連接您的行事曆",
+        "ctaGuideButton": "查看設定指南",
+        "ctaSubtitle": "連接您的行事曆，讓客戶透過您的支援對話無縫預約。",
+        "ctaTitle": "準備好自動化您的排程了嗎？",
+        "customer": "客戶",
+        "customerChoice": "週二下午 2 點很完美！",
+        "demoButton": "預約排程示範",
+        "exampleTitle": "排程範例",
+        "flow": {
+          "availability": {
+            "description": "系統檢查即時行事曆空閒情況",
+            "example": "可用時段：週二下午 2 點，週三上午 10 點，週四下午 3 點",
+            "title": "空閒情況檢查"
+          },
+          "confirmation": {
+            "description": "客戶選擇時間，約會將自動預訂",
+            "example": "會議已預訂於週二下午 2 點，並已傳送行事曆邀請",
+            "title": "預訂確認"
+          },
+          "followup": {
+            "description": "自動傳送提醒和確認",
+            "example": "24 小時提醒 + 會議連結 + 準備資料",
+            "title": "自動後續追蹤"
+          },
+          "request": {
+            "description": "客戶要求安排會議或約會",
+            "title": "客戶要求"
+          }
+        },
+        "flowSubtitle": "了解在客戶對話中無縫預約的運作方式。",
+        "flowTitle": "自動排程流程",
+        "platforms": {
+          "acuity": {
+            "category": "專業",
+            "description": "具有客戶管理功能的進階排程",
+            "features": {
+              "group": "團體約會",
+              "intake": "客戶接收表格",
+              "packages": "套裝排程",
+              "workflows": "自動化工作流程"
+            },
+            "name": "Acuity Scheduling",
+            "setupTime": "12 分鐘"
+          },
+          "apple": {
+            "category": "Apple 生態系統",
+            "description": "為 Apple 生態系統使用者提供 iCloud 行事曆整合",
+            "features": {
+              "devices": "跨裝置存取",
+              "location": "定位服務",
+              "sharing": "事件分享",
+              "sync": "iCloud 同步"
+            },
+            "name": "Apple 行事曆",
+            "setupTime": "6 分鐘"
+          },
+          "calcom": {
+            "category": "開放式排程",
+            "description": "為團隊和個人提供開放式排程基礎架構",
+            "features": {
+              "api": "API 和 Webhook",
+              "booking": "預約連結",
+              "payments": "支付整合",
+              "workflows": "自訂工作流程"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 分鐘"
+          },
+          "calendly": {
+            "category": "排程",
+            "description": "用於自動預約的熱門排程工具",
+            "features": {
+              "booking": "預約頁面",
+              "buffer": "緩衝時間",
+              "payment": "支付整合",
+              "questions": "自訂問題"
+            },
+            "name": "Calendly",
+            "setupTime": "10 分鐘"
+          },
+          "google": {
+            "category": "Google Workspace",
+            "description": "與 Google 行事曆無縫整合以進行約會排程",
+            "features": {
+              "availability": "空閒情況同步",
+              "events": "事件建立",
+              "meetings": "會議排程",
+              "reminders": "提醒通知"
+            },
+            "name": "Google 行事曆",
+            "setupTime": "5 分鐘"
+          },
+          "highlevel": {
+            "category": "多合一",
+            "description": "多合一銷售、行銷和行事曆自動化",
+            "features": {
+              "forms": "預約表格",
+              "integration": "CRM 整合",
+              "pipelines": "銷售管道",
+              "reminders": "自動提醒"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 分鐘"
+          },
+          "notion": {
+            "category": "生產力",
+            "description": "與 Notion 整合的行事曆和專案管理",
+            "features": {
+              "automation": "工作流程自動化",
+              "sync": "行事曆同步",
+              "tasks": "任務排程",
+              "templates": "自訂範本"
+            },
+            "name": "Notion",
+            "setupTime": "6 分鐘"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Microsoft Outlook 和 Office 365 行事曆整合",
+            "features": {
+              "exchange": "Exchange 同步",
+              "recurring": "週期性事件",
+              "rooms": "會議室",
+              "team": "團隊行事曆"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 分鐘"
+          },
+          "zoom": {
+            "category": "視訊會議",
+            "description": "與 Zoom 整合的視訊會議排程",
+            "features": {
+              "meetings": "視訊會議",
+              "recording": "錄製設定",
+              "waiting": "等候室",
+              "webinar": "網路研討會排程"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 分鐘"
+          }
+        },
+        "platformsSubtitle": "與所有主要行事曆和排程平台連線，以實現無縫的約會管理。",
+        "platformsTitle": "行事曆平台整合",
+        "seachatAI": "SeaChat AI",
+        "slot1": "1 月 16 日星期二 - 太平洋標準時間下午 2:00",
+        "slot2": "1 月 17 日星期三 - 太平洋標準時間上午 10:00",
+        "slot3": "1 月 18 日星期四 - 太平洋標準時間下午 3:00",
+        "solutionSubtitle": "您需要的一切，可直接從您的客戶支援平台管理約會、會議和活動。",
+        "solutionTitle": "完整的排程解決方案",
+        "subtitle": "與熱門的行事曆平台整合，可直接從客戶支援對話中無縫安排約會。",
+        "title": "行事曆與排程"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "改善內部團隊協調和回應時間",
+            "title": "團隊協作"
+          },
+          "efficiency": {
+            "description": "使用整合的通訊工具更快地解決問題",
+            "title": "回應效率"
+          },
+          "satisfaction": {
+            "description": "在所有管道上提供更好的支援體驗",
+            "title": "客戶滿意度"
+          },
+          "unified": {
+            "description": "從一個中央中樞管理所有通訊管道",
+            "title": "統一通訊"
+          }
+        },
+        "benefitsSubtitle": "透過無縫的Seachat整合增強您的客戶支援和內部協作。",
+        "benefitsTitle": "整合通訊的優勢",
+        "connectButton": "連接通訊工具",
+        "cta": {
+          "connectButton": "立即開始",
+          "contactButton": "聯絡銷售人員",
+          "title": "準備好簡化您的通訊了嗎？"
+        },
+        "demoButton": "安排整合示範",
+        "features": {
+          "feature1": {
+            "description": "在所有整合平台上立即與客戶互動，確保及時回應並提高滿意度。",
+            "title": "即時訊息"
+          },
+          "feature2": {
+            "description": "設定自動回應和路由規則，以有效管理傳入的訊息並減少手動工作。",
+            "title": "自動化工作流程"
+          },
+          "feature3": {
+            "description": "從單一、直覺的介面管理所有對話，無需在不同應用程式之間切換。",
+            "title": "統一收件匣"
+          },
+          "feature4": {
+            "description": "透過全面的分析和報告，深入了解通訊量、回應時間和專員績效。",
+            "title": "績效分析"
+          }
+        },
+        "featuresSubtitle": "了解我們的Seachat通訊整合如何轉變您的工作流程。",
+        "featuresTitle": "主要功能",
+        "platforms": {
+          "discord": {
+            "category": "社群",
+            "description": "透過 Discord 伺服器和頻道提供社群支援",
+            "features": {
+              "bot": "機器人功能",
+              "moderation": "社群管理",
+              "server": "伺服器整合",
+              "voice": "語音頻道"
+            },
+            "name": "Discord",
+            "setupTime": "10 分鐘"
+          },
+          "email": {
+            "category": "電子郵件",
+            "description": "與 Gmail、Outlook 和其他電子郵件提供商連線",
+            "features": {
+              "attachments": "附件處理",
+              "routing": "電子郵件路由",
+              "templates": "範本回應",
+              "threading": "對話串"
+            },
+            "name": "電子郵件平台",
+            "setupTime": "7 分鐘"
+          },
+          "googlechat": {
+            "category": "團隊聊天",
+            "description": "在 Google Workspace 生態系統中簡化團隊通訊。",
+            "features": {
+              "bots": "機器人Seachat整合",
+              "files": "檔案分享",
+              "meetings": "會議整合",
+              "spaces": "協作空間"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 分鐘"
+          },
+          "kakaotalk": {
+            "category": "訊息",
+            "description": "與南韓及其他地區的使用者透過 KakaoTalk 連線。",
+            "features": {
+              "channels": "Plus Friend 頻道",
+              "commerce": "Kakao Commerce 整合",
+              "messages": "豐富訊息",
+              "payments": "Kakao Pay 整合"
+            },
+            "name": "KakaoTalk",
+            "setupTime": "12 分鐘"
+          },
+          "slack": {
+            "category": "團隊聊天",
+            "description": "與 Slack 整合以進行團隊協作和內部通知",
+            "features": {
+              "channels": "頻道通知",
+              "commands": "機器人指令",
+              "files": "檔案分享",
+              "messages": "直接訊息"
+            },
+            "name": "Slack",
+            "setupTime": "5 分鐘"
+          },
+          "teams": {
+            "category": "企業",
+            "description": "與 Microsoft Teams 連線以進行企業通訊",
+            "features": {
+              "apps": "應用程式整合",
+              "calls": "視訊通話",
+              "channels": "團隊頻道",
+              "files": "檔案協作"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 分鐘"
+          },
+          "telegram": {
+            "category": "訊息",
+            "description": "Telegram 機器人整合，提供即時訊息支援",
+            "features": {
+              "api": "機器人 API",
+              "channels": "頻道廣播",
+              "files": "檔案傳輸",
+              "groups": "群組聊天"
+            },
+            "name": "Telegram",
+            "setupTime": "15 分鐘"
+          },
+          "whatsapp": {
+            "category": "訊息",
+            "features": {
+              "automation": "自動回應",
+              "businessApi": "商業 API",
+              "messaging": "豐富訊息",
+              "templates": "訊息範本"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 分鐘"
+          },
+          "zalo": {
+            "category": "訊息",
+            "description": "透過 Zalo 與越南和東南亞的客戶連線。",
+            "features": {
+              "messaging": "豐富訊息",
+              "miniApp": "迷你應用程式",
+              "officialAccount": "官方帳號",
+              "payments": "Zalo Pay 整合"
+            },
+            "name": "Zalo",
+            "setupTime": "10 分鐘"
+          }
+        },
+        "platformsSubtitle": "與您團隊已在使用的通訊工具連線，以實現無縫的工作流程整合。",
+        "platformsTitle": "熱門通訊平台",
+        "subtitle": "與 Slack、Teams、Discord 等熱門通訊平台整合，以簡化您的支援工作流程和團隊協作。",
+        "title": "通訊工具"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "透過主動支援減少購物車放棄率",
+            "title": "購物車救援"
+          },
+          "orders": {
+            "description": "自動處理訂單查詢、追蹤和更新",
+            "title": "訂單管理"
+          },
+          "payment": {
+            "description": "協助處理付款問題和帳單問題",
+            "title": "付款支援"
+          },
+          "sales": {
+            "description": "將支援對話轉化為額外銷售",
+            "title": "增加銷售額"
+          }
+        },
+        "benefitsSubtitle": "將您的客戶支援轉變為推動銷售、提高留存率的強大動力。",
+        "benefitsTitle": "電子商務支援優勢",
+        "connectPlatform": "連接",
+        "cta": {
+          "button1": "立即連接您的商店",
+          "button2": "安排電子商務示範"
+        },
+        "ctaSubtitle": "連接您的線上商店，開始提供卓越的客戶支援，以推動銷售和忠誠度。",
+        "ctaTitle": "準備好提升您的電子商務銷售額了嗎？",
+        "customer": "客戶",
+        "hero": {
+          "button1": "連接您的商店",
+          "button2": "安排電子商務示範"
+        },
+        "orderQuestion": "我的訂單 #12345 在哪裡？",
+        "orderResponse": "您的訂單 #12345 已於昨天出貨，目前正在運送途中。預計送達時間：明天下午 6 點前。在此處追蹤：[追蹤連結]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "為成長中的線上商店提供 BigCommerce API 整合",
+            "features": {
+              "customers": "客戶洞察",
+              "orders": "訂單管理",
+              "products": "產品資料",
+              "shipping": "運送資訊"
+            },
+            "name": "BigCommerce",
+            "popularity": "成長中",
+            "setupTime": "10 分鐘"
+          },
+          "etsy": {
+            "description": "為創意賣家提供 Etsy 市場整合",
+            "features": {
+              "listings": "刊登協助",
+              "messages": "客戶訊息",
+              "orders": "訂單支援",
+              "shop": "商店管理"
+            },
+            "name": "Etsy",
+            "popularity": "創意",
+            "setupTime": "12 分鐘"
+          },
+          "fourthwall": {
+            "description": "創作者建立免費網站、銷售產品和管理會員資格的平台",
+            "features": {
+              "community": "社群工具",
+              "donations": "捐款",
+              "memberships": "會員資格",
+              "merch": "客製化商品"
+            },
+            "name": "Fourthwall",
+            "popularity": "創作者經濟",
+            "setupTime": "10 分鐘"
+          },
+          "godaddy": {
+            "description": "網站、行銷和線上商店的多合一解決方案",
+            "features": {
+              "scheduling": "預約排程",
+              "security": "SSL 安全性",
+              "social": "社群媒體工具",
+              "website": "網站建立工具"
+            },
+            "name": "GoDaddy",
+            "popularity": "全面",
+            "setupTime": "15 分鐘"
+          },
+          "hostinger": {
+            "description": "提供整合式網站建立工具和電子商務功能的網頁代管服務提供商",
+            "features": {
+              "builder": "AI 網站建立工具",
+              "hosting": "可靠的代管服務",
+              "ssl": "免費 SSL",
+              "support": "全年無休支援"
+            },
+            "name": "Hostinger",
+            "popularity": "經濟實惠",
+            "setupTime": "10 分鐘"
+          },
+          "magento": {
+            "description": "為大型電子商務提供企業級 Magento 整合",
+            "features": {
+              "catalog": "目錄同步",
+              "multistore": "多商店支援",
+              "orders": "進階訂單",
+              "segments": "客戶區隔"
+            },
+            "name": "Magento",
+            "popularity": "企業",
+            "setupTime": "15 分鐘"
+          },
+          "opencart": {
+            "description": "適用於線上商店的免費開源電子商務平台",
+            "features": {
+              "dashboard": "管理儀表板",
+              "extensions": "豐富的擴充功能",
+              "multi_store": "多商店功能",
+              "themes": "可更換主題"
+            },
+            "name": "OpenCart",
+            "popularity": "彈性",
+            "setupTime": "25 分鐘"
+          },
+          "prestashop": {
+            "description": "適用於中小型企業的開源電子商務解決方案",
+            "features": {
+              "analytics": "進階分析",
+              "customizable": "高度客製化",
+              "modules": "數千個模組",
+              "multilingual": "多語言支援"
+            },
+            "name": "PrestaShop",
+            "popularity": "開源",
+            "setupTime": "30 分鐘"
+          },
+          "sellfy": {
+            "description": "創作者銷售數位產品、訂閱和實體商品的電子商務平台",
+            "features": {
+              "digital": "數位產品銷售",
+              "marketing": "內建行銷",
+              "print_on_demand": "按需印刷",
+              "subscriptions": "訂閱服務"
+            },
+            "name": "Sellfy",
+            "popularity": "以創作者為中心",
+            "setupTime": "5 分鐘"
+          },
+          "shopify": {
+            "description": "完整的 Shopify 整合，包含訂單管理和客戶同步",
+            "features": {
+              "catalog": "產品目錄",
+              "customers": "客戶個人資料",
+              "inventory": "庫存同步",
+              "orders": "訂單追蹤"
+            },
+            "name": "Shopify",
+            "popularity": "最受歡迎",
+            "setupTime": "5 分鐘"
+          },
+          "square": {
+            "description": "適用於各種規模企業的銷售點和電子商務解決方案",
+            "features": {
+              "invoicing": "發票開立",
+              "loyalty": "忠誠度計畫",
+              "pos": "整合式 POS",
+              "reporting": "銷售報告"
+            },
+            "name": "Square",
+            "popularity": "零售",
+            "setupTime": "5 分鐘"
+          },
+          "squarespace": {
+            "description": "以其優美的設計範本和電子商務功能而聞名的網站建立工具",
+            "features": {
+              "blogging": "部落格工具",
+              "commerce": "完整的商務功能",
+              "design": "屢獲殊榮的設計",
+              "portfolio": "作品集選項"
+            },
+            "name": "Squarespace",
+            "popularity": "以設計為中心",
+            "setupTime": "20 分鐘"
+          },
+          "weebly": {
+            "description": "具有電子商務功能的簡單拖放式網站建立工具",
+            "features": {
+              "marketing": "行銷工具",
+              "payments": "整合式支付",
+              "seo": "SEO 優化",
+              "storefront": "可客製化的店面"
+            },
+            "name": "Weebly",
+            "popularity": "使用者友善",
+            "setupTime": "10 分鐘"
+          },
+          "wix": {
+            "description": "用於建立 HTML5 網站和行動網站的雲端網頁開發平台",
+            "features": {
+              "analytics": "網站分析",
+              "apps": "應用程式市集",
+              "mobile": "行動裝置最佳化",
+              "templates": "設計師範本"
+            },
+            "name": "Wix",
+            "popularity": "多功能",
+            "setupTime": "10 分鐘"
+          },
+          "woocommerce": {
+            "description": "用於無縫商店整合的 WordPress WooCommerce 外掛程式",
+            "features": {
+              "customers": "客戶歷史記錄",
+              "orders": "訂單狀態",
+              "payments": "付款追蹤",
+              "products": "產品支援"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 分鐘"
+          }
+        },
+        "platformsSubtitle": "與所有主要電子商務平台和市集整合，以提供統一的客戶支援。",
+        "platformsTitle": "支援的電子商務平台",
+        "recommendationQuestion": "太好了！可以推薦類似的產品嗎？",
+        "recommendationResponse": "根據您的購買紀錄，您可能會喜歡這些商品：[產品 A]、[產品 B]。您想在下次訂單中享有 10% 的折扣嗎？",
+        "scenarioTitle": "客戶支援情境",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "將 SeaChat 與您的線上商店連線，以提供卓越的客戶支援、增加銷售額並減少購物車放棄率。",
+        "supportSubtitle": "您需要的一切，可為您的線上商店提供卓越的客戶支援，從訂單追蹤到產品推薦。",
+        "supportTitle": "完整的電子商務支援套件",
+        "title": "電子商務Seachat整合"
+      },
+      "marketing": {
+        "automationTitle": "行銷自動化流程",
+        "benefits": {
+          "campaigns": {
+            "description": "透過客戶支援洞察改善活動成果",
+            "title": "活動績效"
+          },
+          "leads": {
+            "description": "將支援對話轉化為行銷合格潛在客戶",
+            "title": "潛在客戶開發"
+          },
+          "retention": {
+            "description": "透過個人化的行銷活動提高客戶留存率",
+            "title": "客戶留存"
+          },
+          "revenue": {
+            "description": "透過整合的行銷活動增加收入",
+            "title": "收入成長"
+          }
+        },
+        "benefitsSubtitle": "將客戶支援轉變為強大的行銷和成長引擎。",
+        "benefitsTitle": "行銷整合優勢",
+        "connectButton": "連接行銷工具",
+        "connectPlatform": "連接",
+        "ctaConnectButton": "連接行銷工具",
+        "ctaGuideButton": "查看設定指南",
+        "ctaSubtitle": "連接您的行銷平台，將每一次客戶支援對話轉化為成長機會。",
+        "ctaTitle": "準備好為您的行銷加持了嗎？",
+        "demoButton": "安排行銷示範",
+        "flow": {
+          "conversation": {
+            "description": "客戶詢問進階功能",
+            "title": "支援對話"
+          },
+          "conversion": {
+            "description": "客戶升級至進階方案",
+            "title": "轉換"
+          },
+          "tagging": {
+            "description": "客戶被標記為「對升級感興趣」",
+            "title": "自動標記"
+          },
+          "trigger": {
+            "description": "自動電子郵件序列開始",
+            "title": "活動觸發"
+          }
+        },
+        "integrationSubtitle": "透過智慧自動化彌合客戶支援和行銷之間的差距，將每一次對話轉化為成長機會。",
+        "integrationTitle": "完整的行銷整合",
+        "platforms": {
+          "activecampaign": {
+            "category": "自動化",
+            "description": "客戶體驗自動化平台",
+            "features": {
+              "automation": "行銷自動化",
+              "crm": "CRM 整合",
+              "learning": "機器學習",
+              "sending": "預測性傳送"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 分鐘"
+          },
+          "constantcontact": {
+            "category": "電子郵件行銷",
+            "description": "適用於小型企業的電子郵件行銷和自動化",
+            "features": {
+              "analytics": "分析儀表板",
+              "scheduling": "活動排程",
+              "social": "社群媒體工具",
+              "templates": "電子郵件範本"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 分鐘"
+          },
+          "convertkit": {
+            "category": "創作者經濟",
+            "description": "以創作者為中心的電子郵件行銷，具有自動化序列",
+            "features": {
+              "integrations": "整合",
+              "landing": "登陸頁面",
+              "sequences": "電子郵件序列",
+              "tagging": "訂閱者標記"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 分鐘"
+          },
+          "engagebay": {
+            "category": "多合一",
+            "description": "多合一行銷、銷售和支援 CRM",
+            "features": {
+              "automation": "行銷自動化",
+              "crm": "CRM 整合",
+              "email": "電子郵件行銷",
+              "forms": "潛在客戶表單和彈出視窗"
+            },
+            "name": "EngageBay",
+            "setupTime": "11 分鐘"
+          },
+          "hubspot": {
+            "category": "行銷中心",
+            "description": "具有潛在客戶培養功能的集客式行銷平台",
+            "features": {
+              "automation": "行銷自動化",
+              "landing": "登陸頁面",
+              "scoring": "潛在客戶評分",
+              "social": "社群媒體"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 分鐘"
+          },
+          "klaviyo": {
+            "category": "電子商務",
+            "description": "以電子商務為中心的電子郵件和簡訊行銷平台",
+            "features": {
+              "recommendations": "產品推薦",
+              "revenue": "收入追蹤",
+              "sms": "簡訊活動",
+              "triggers": "行為觸發器"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 分鐘"
+          },
+          "mailchimp": {
+            "category": "電子郵件行銷",
+            "description": "具有受眾洞察的全面電子郵件行銷平台",
+            "features": {
+              "builder": "活動建立工具",
+              "reporting": "報告",
+              "segmentation": "受眾區隔",
+              "testing": "A/B 測試"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 分鐘"
+          },
+          "mailerlite": {
+            "category": "電子郵件行銷",
+            "description": "具有客戶支援整合的電子郵件行銷自動化",
+            "features": {
+              "analytics": "分析",
+              "automation": "自動化工作流程",
+              "campaigns": "電子郵件活動",
+              "subscribers": "訂閱者管理"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 分鐘"
+          },
+          "omnisend": {
+            "category": "電子商務",
+            "description": "適用於電子商務的全通路行銷自動化",
+            "features": {
+              "automation": "自動化工作流程",
+              "email": "電子郵件和簡訊活動",
+              "reports": "進階報告",
+              "segmentation": "受眾區隔"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 分鐘"
+          }
+        },
+        "platformsSubtitle": "與領先的行銷平台整合，以創造無縫的客戶體驗。",
+        "platformsTitle": "熱門行銷平台",
+        "subtitle": "將 SeaChat 與您的行銷工具連線，將客戶支援對話轉化為強大的行銷機會和個人化活動。",
+        "title": "行銷平台",
+        "useCases": {
+          "nurturing": {
+            "description": "自動將支援聯絡人新增至培養活動中",
+            "example": "客戶詢問定價 → 新增至產品示範電子郵件序列",
+            "title": "潛在客戶培養"
+          },
+          "onboarding": {
+            "description": "透過行銷自動化實現無縫的入門體驗",
+            "example": "新的客戶支援工單 → 包含實用資源的歡迎系列",
+            "title": "客戶入門"
+          },
+          "retention": {
+            "description": "根據支援互動模式主動留存",
+            "example": "多個支援工單 → 觸發客戶成功外展",
+            "title": "留存活動"
+          },
+          "upselling": {
+            "description": "從支援對話中識別追加銷售機會",
+            "example": "客戶提及成長計畫 → 觸發升級活動",
+            "title": "追加銷售機會"
+          }
+        },
+        "useCasesSubtitle": "了解支援對話如何觸發強大的行銷工作流程。",
+        "useCasesTitle": "行銷自動化使用案例",
+        "workflowExample": "工作流程範例"
+      },
+      "social": {
+        "benefits": {
+          "meet": {
+            "description": "在客戶每天使用的平台上提供支援",
+            "title": "在客戶所在的地方與他們見面"
+          },
+          "reputation": {
+            "description": "透過快速、有用的回應維持正面的品牌形象",
+            "title": "品牌聲譽"
+          },
+          "response": {
+            "description": "即時回應社群媒體查詢",
+            "title": "更快的應答時間"
+          },
+          "unified": {
+            "description": "從一個儀表板處理所有社群平台",
+            "title": "統一管理"
+          }
+        },
+        "benefitsSubtitle": "將您的社群媒體形象轉變為強大的客戶支援管道。",
+        "benefitsTitle": "社群媒體支援優勢",
+        "brandMentions": "需要回應的品牌提及",
+        "connectButton": "連接社群平台",
+        "connectPlatform": "連接",
+        "ctaConnectButton": "連接社群平台",
+        "ctaGuideButton": "安排電子商務示範",
+        "ctaSubtitle": "連接您所有的社群媒體平台，並在客戶花時間的地方提供卓越的客戶支援。",
+        "ctaTitle": "準備好統一您的社群媒體支援了嗎？",
+        "dashboardTitle": "社群媒體儀表板",
+        "demoButton": "安排社群示範",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "您需要的一切，可從一個統一的儀表板管理所有社群媒體平台上的客戶互動。",
+        "managementTitle": "完整的社群媒體管理",
+        "mentions": "3 次提及",
+        "newMessages": "12 則新訊息",
+        "pageMessages": "5 則頁面訊息",
+        "platforms": {
+          "facebook": {
+            "features": {
+              "cards": "豐富卡片",
+              "menu": "固定選單",
+              "page": "頁面整合",
+              "responses": "自動回應"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 分鐘",
+            "users": "13 億以上使用者"
+          },
+          "instagram": {
+            "description": "在一個統一的收件匣中管理 Instagram 私訊和限時動態回覆",
+            "features": {
+              "dm": "直接訊息",
+              "media": "媒體分享",
+              "responses": "快速回應",
+              "stories": "限時動態回覆"
+            },
+            "name": "Instagram",
+            "setupTime": "8 分鐘",
+            "users": "14 億以上使用者"
+          },
+          "line": {
+            "description": "在 LINE 上提供無縫的客戶支援和互動",
+            "features": {
+              "broadcast": "廣播訊息",
+              "messaging": "豐富訊息",
+              "payments": "LINE Pay 整合",
+              "stickers": "貼圖支援"
+            },
+            "name": "LINE",
+            "setupTime": "10 分鐘",
+            "users": "1.8 億以上使用者"
+          },
+          "tiktok": {
+            "description": "在 TikTok 上與您的受眾互動並管理客戶互動",
+            "features": {
+              "ads": "廣告活動支援",
+              "analytics": "受眾分析",
+              "comments": "留言管理",
+              "dm": "直接訊息"
+            },
+            "name": "TikTok",
+            "setupTime": "15 分鐘",
+            "users": "10 億以上使用者"
+          },
+          "twitter": {
+            "description": "在 Twitter/X 平台上處理客戶查詢和提及",
+            "features": {
+              "dm": "直接訊息",
+              "mentions": "提及追蹤",
+              "responses": "推文回應",
+              "threads": "對話串管理"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 分鐘",
+            "users": "4.5 億以上使用者"
+          },
+          "whatsapp": {
+            "features": {
+              "api": "商業 API",
+              "groups": "群組",
+              "media": "豐富媒體",
+              "templates": "範本"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 分鐘",
+            "users": "20 億以上使用者"
+          }
+        },
+        "platformsSubtitle": "與您的客戶使用的每個社群平台整合，以提供全面的社群媒體支援。",
+        "platformsTitle": "所有主要社群平台",
+        "productComments": "最新產品展示的留言",
+        "productInquiries": "客戶對產品可用性的查詢",
+        "storyReplies": "8 則限時動態回覆",
+        "subtitle": "連接您所有的社群媒體平台，並在 WhatsApp、Instagram、Facebook、Twitter 等平台上提供無縫的客戶支援。",
+        "supportRequests": "支援請求和一般查詢",
+        "title": "社群媒體整合",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "全球"
+      },
+      "websites": {
+        "code": "程式碼",
+        "codeButton": "取得小工具程式碼",
+        "copyCode": "複製程式碼",
+        "ctaCodeButton": "立即取得小工具程式碼",
+        "ctaDocsButton": "查看整合文件",
+        "ctaSubtitle": "取得您的自訂小工具程式碼，並在幾分鐘內開始提供卓越的客戶支援。",
+        "ctaTitle": "準備好將 SeaChat 新增至您的網站了嗎？",
+        "customization": {
+          "colors": {
+            "description": "符合您的品牌顏色、字體和樣式",
+            "features": {
+              "css": "CSS 覆寫",
+              "fonts": "字體客製化",
+              "logo": "品牌標誌整合",
+              "schemes": "自訂配色方案"
+            },
+            "title": "顏色與品牌"
+          },
+          "content": {
+            "description": "客製化所有文字和訊息",
+            "features": {
+              "greetings": "自訂問候語",
+              "multilanguage": "多語言支援",
+              "offline": "離線訊息",
+              "welcome": "歡迎訊息"
+            },
+            "title": "內容與訊息"
+          },
+          "position": {
+            "description": "控制小工具的顯示位置和方式",
+            "features": {
+              "auto": "自動開啟設定",
+              "corner": "角落定位",
+              "mobile": "行動裝置回應性",
+              "trigger": "觸發條件"
+            },
+            "title": "位置與行為"
+          }
+        },
+        "customizationSubtitle": "透過廣泛的客製化選項，讓 SeaChat 與您的品牌完美匹配。",
+        "customizationTitle": "客製化選項",
+        "demoButton": "安排示範",
+        "getPlatformCode": "取得",
+        "installation": {
+          "step1": {
+            "description": "從儀表板複製您唯一的 SeaChat 小工具程式碼",
+            "title": "取得您的小工具程式碼"
+          },
+          "step2": {
+            "description": "將程式碼貼到 </body> 標籤之前",
+            "title": "新增至您的網站"
+          },
+          "step3": {
+            "description": "可選：客製化顏色、位置和行為",
+            "title": "客製化外觀"
+          }
+        },
+        "installationSubtitle": "請按照以下簡單步驟，在幾分鐘內將 SeaChat 新增至任何網站。",
+        "installationTitle": "通用安裝指南",
+        "platforms": {
+          "generic": {
+            "description": "適用於任何 HTML 網站的通用小工具",
+            "difficulty": "簡單",
+            "features": {
+              "compatibility": "通用相容性",
+              "installation": "安裝簡單",
+              "responsive": "回應式設計",
+              "styling": "自訂樣式"
+            },
+            "name": "通用網站",
+            "setupTime": "2 分鐘"
+          },
+          "shopify": {
+            "description": "具有訂單追蹤整合的電子商務最佳化",
+            "difficulty": "簡單",
+            "features": {
+              "cart": "購物車放棄",
+              "customers": "客戶資料同步",
+              "orders": "訂單整合",
+              "products": "產品推薦"
+            },
+            "name": "Shopify",
+            "setupTime": "3 分鐘"
+          },
+          "squarespace": {
+            "description": "與 Squarespace 設計系統無縫整合",
+            "difficulty": "中等",
+            "features": {
+              "code": "程式碼注入",
+              "design": "設計系統匹配",
+              "style": "樣式客製化",
+              "templates": "範本相容性"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 分鐘"
+          },
+          "webflow": {
+            "description": "Webflow CMS 和電子商務的原生整合",
+            "difficulty": "簡單",
+            "features": {
+              "cms": "CMS 整合",
+              "custom": "自訂程式碼注入",
+              "design": "對設計師友善",
+              "ecommerce": "電子商務支援"
+            },
+            "name": "Webflow",
+            "setupTime": "2 分鐘"
+          },
+          "wix": {
+            "description": "Wix 網站的拖放式整合",
+            "difficulty": "簡單",
+            "features": {
+              "app": "Wix 應用程式商店",
+              "editor": "視覺化編輯器",
+              "mobile": "行動裝置最佳化",
+              "positioning": "自訂定位"
+            },
+            "name": "Wix",
+            "setupTime": "2 分鐘"
+          },
+          "wordpress": {
+            "description": "具有進階客製化功能的原生 WordPress 外掛程式",
+            "difficulty": "簡單",
+            "features": {
+              "dashboard": "管理儀表板",
+              "plugin": "WordPress 外掛程式",
+              "shortcode": "短代碼支援",
+              "theme": "主題整合"
+            },
+            "name": "WordPress",
+            "setupTime": "1 分鐘"
+          }
+        },
+        "platformsSubtitle": "選擇您的平台以取得最佳化的整合和設定說明。",
+        "platformsTitle": "支援的平台",
+        "subtitle": "在任何網站平台上快速部署 SeaChat。通用相容性，具有自訂樣式和回應式設計。",
+        "title": "網站整合",
+        "viewDocs": "查看文件"
       }
     },
     "heroAnimations": {

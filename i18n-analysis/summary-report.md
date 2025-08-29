@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-27T04:01:16.405Z
+Generated: 2025-08-29T23:07:52.439Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 3617
+- **Base Language (en) Keys**: 4468
 - **Components Analyzed**: 210
-- **Translation Coverage**: 63.78%
-- **Missing Keys**: 1901
-- **Hardcoded Strings Found**: 3907
+- **Translation Coverage**: 78.28%
+- **Missing Keys**: 1177
+- **Hardcoded Strings Found**: 3779
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 24.50% | ❌ Incomplete |
-| de | 887 | 23.89% | ❌ Incomplete |
-| en | 3617 | 100.00% | ✅ Good |
-| es | 835 | 22.45% | ❌ Incomplete |
-| fa | 755 | 20.27% | ❌ Incomplete |
-| fil | 739 | 19.80% | ❌ Incomplete |
-| fr | 739 | 19.80% | ❌ Incomplete |
-| hi | 690 | 18.44% | ❌ Incomplete |
-| id | 690 | 18.44% | ❌ Incomplete |
-| ja | 690 | 18.47% | ❌ Incomplete |
-| ko | 690 | 18.44% | ❌ Incomplete |
-| ms | 690 | 18.44% | ❌ Incomplete |
-| pl | 676 | 18.05% | ❌ Incomplete |
-| pt | 676 | 18.05% | ❌ Incomplete |
-| ru | 676 | 18.05% | ❌ Incomplete |
-| ta | 739 | 19.80% | ❌ Incomplete |
-| th | 679 | 18.14% | ❌ Incomplete |
-| vi | 739 | 19.80% | ❌ Incomplete |
-| zh-CN | 802 | 21.56% | ❌ Incomplete |
-| zh-TW | 3617 | 99.97% | ✅ Good |
+| ar | 909 | 19.83% | ❌ Incomplete |
+| de | 887 | 19.34% | ❌ Incomplete |
+| en | 4468 | 100.00% | ✅ Good |
+| es | 835 | 18.17% | ❌ Incomplete |
+| fa | 755 | 16.41% | ❌ Incomplete |
+| fil | 739 | 16.03% | ❌ Incomplete |
+| fr | 739 | 16.03% | ❌ Incomplete |
+| hi | 690 | 14.93% | ❌ Incomplete |
+| id | 690 | 14.93% | ❌ Incomplete |
+| ja | 690 | 14.95% | ❌ Incomplete |
+| ko | 690 | 14.93% | ❌ Incomplete |
+| ms | 690 | 14.93% | ❌ Incomplete |
+| pl | 676 | 14.62% | ❌ Incomplete |
+| pt | 676 | 14.62% | ❌ Incomplete |
+| ru | 676 | 14.62% | ❌ Incomplete |
+| ta | 739 | 16.03% | ❌ Incomplete |
+| th | 679 | 14.68% | ❌ Incomplete |
+| vi | 739 | 16.03% | ❌ Incomplete |
+| zh-CN | 802 | 17.46% | ❌ Incomplete |
+| zh-TW | 4468 | 99.98% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1901 keys used in components but missing from en.json
+**Description**: 1177 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3907 hardcoded strings that should be internationalized
+**Description**: Found 3779 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -106,6 +106,8 @@ company.timeline.list.3.event
 company.timeline.list.4.event
 pricing.legacy.enterprise.period
 seachat.pricing.plans.free.features
+seachat.pricing.plans.free.limitations
+seachat.pricing.plans.free.button
 seachat.pricing.plans.starter.name
 seachat.pricing.plans.starter.description
 seachat.pricing.plans.starter.badge
@@ -116,6 +118,9 @@ seachat.pricing.plans.growth.description
 seachat.pricing.plans.growth.features
 seachat.pricing.plans.growth.button
 seachat.pricing.plans.enterprise.features
+seachat.pricing.plans.enterprise.button
+seachat.pricing.plans.free.period
+seachat.pricing.enterprise.button
 seachat.features.aiAutomation.contextAware.title
 seachat.features.aiAutomation.contextAware.description
 seachat.features.aiAutomation.learning.title
@@ -502,754 +507,25 @@ seachat.features.voiceAgents.moreSamples
 seachat.features.voiceAgents.featuresTitle
 seachat.features.voiceAgents.ctaTitle
 seachat.features.voiceAgents.ctaSubtitle
-seachat.integrations.calendar.platforms.acuity.name
-seachat.integrations.calendar.platforms.acuity.description
-seachat.integrations.calendar.platforms.acuity.features.intake
-seachat.integrations.calendar.platforms.acuity.features.packages
-seachat.integrations.calendar.platforms.acuity.features.group
-seachat.integrations.calendar.platforms.acuity.features.workflows
-seachat.integrations.calendar.platforms.acuity.setupTime
-seachat.integrations.calendar.platforms.acuity.category
-seachat.integrations.calendar.platforms.apple.name
-seachat.integrations.calendar.platforms.apple.description
-seachat.integrations.calendar.platforms.apple.features.sync
-seachat.integrations.calendar.platforms.apple.features.devices
-seachat.integrations.calendar.platforms.apple.features.sharing
-seachat.integrations.calendar.platforms.apple.features.location
-seachat.integrations.calendar.platforms.apple.setupTime
-seachat.integrations.calendar.platforms.apple.category
-seachat.integrations.calendar.platforms.calcom.name
-seachat.integrations.calendar.platforms.calcom.description
-seachat.integrations.calendar.platforms.calcom.features.booking
-seachat.integrations.calendar.platforms.calcom.features.workflows
-seachat.integrations.calendar.platforms.calcom.features.payments
-seachat.integrations.calendar.platforms.calcom.features.api
-seachat.integrations.calendar.platforms.calcom.setupTime
-seachat.integrations.calendar.platforms.calcom.category
-seachat.integrations.calendar.platforms.calendly.name
-seachat.integrations.calendar.platforms.calendly.description
-seachat.integrations.calendar.platforms.calendly.features.booking
-seachat.integrations.calendar.platforms.calendly.features.buffer
-seachat.integrations.calendar.platforms.calendly.features.questions
-seachat.integrations.calendar.platforms.calendly.features.payment
-seachat.integrations.calendar.platforms.calendly.setupTime
-seachat.integrations.calendar.platforms.calendly.category
-seachat.integrations.calendar.platforms.google.name
-seachat.integrations.calendar.platforms.google.description
-seachat.integrations.calendar.platforms.google.features.meetings
-seachat.integrations.calendar.platforms.google.features.availability
-seachat.integrations.calendar.platforms.google.features.events
-seachat.integrations.calendar.platforms.google.features.reminders
-seachat.integrations.calendar.platforms.google.setupTime
-seachat.integrations.calendar.platforms.google.category
-seachat.integrations.calendar.platforms.highlevel.name
-seachat.integrations.calendar.platforms.highlevel.description
-seachat.integrations.calendar.platforms.highlevel.features.pipelines
-seachat.integrations.calendar.platforms.highlevel.features.reminders
-seachat.integrations.calendar.platforms.highlevel.features.forms
-seachat.integrations.calendar.platforms.highlevel.features.integration
-seachat.integrations.calendar.platforms.highlevel.setupTime
-seachat.integrations.calendar.platforms.highlevel.category
-seachat.integrations.calendar.platforms.notion.name
-seachat.integrations.calendar.platforms.notion.description
-seachat.integrations.calendar.platforms.notion.features.sync
-seachat.integrations.calendar.platforms.notion.features.tasks
-seachat.integrations.calendar.platforms.notion.features.templates
-seachat.integrations.calendar.platforms.notion.features.automation
-seachat.integrations.calendar.platforms.notion.setupTime
-seachat.integrations.calendar.platforms.notion.category
-seachat.integrations.calendar.platforms.outlook.name
-seachat.integrations.calendar.platforms.outlook.description
-seachat.integrations.calendar.platforms.outlook.features.exchange
-seachat.integrations.calendar.platforms.outlook.features.rooms
-seachat.integrations.calendar.platforms.outlook.features.recurring
-seachat.integrations.calendar.platforms.outlook.features.team
-seachat.integrations.calendar.platforms.outlook.setupTime
-seachat.integrations.calendar.platforms.outlook.category
-seachat.integrations.calendar.platforms.zoom.name
-seachat.integrations.calendar.platforms.zoom.description
-seachat.integrations.calendar.platforms.zoom.features.meetings
-seachat.integrations.calendar.platforms.zoom.features.webinar
-seachat.integrations.calendar.platforms.zoom.features.recording
-seachat.integrations.calendar.platforms.zoom.features.waiting
-seachat.integrations.calendar.platforms.zoom.setupTime
-seachat.integrations.calendar.platforms.zoom.category
-seachat.integrations.calendar.benefits.scheduling.title
-seachat.integrations.calendar.benefits.scheduling.description
-seachat.integrations.calendar.benefits.noShows.title
-seachat.integrations.calendar.benefits.noShows.description
-seachat.integrations.calendar.benefits.timeSavings.title
-seachat.integrations.calendar.benefits.timeSavings.description
-seachat.integrations.calendar.benefits.utilization.title
-seachat.integrations.calendar.benefits.utilization.description
 seachat.integrations.calendar.features
-seachat.integrations.calendar.flow.request.title
-seachat.integrations.calendar.flow.request.description
 seachat.integrations.calendar.flow.request.example
-seachat.integrations.calendar.flow.availability.title
-seachat.integrations.calendar.flow.availability.description
-seachat.integrations.calendar.flow.availability.example
-seachat.integrations.calendar.flow.confirmation.title
-seachat.integrations.calendar.flow.confirmation.description
-seachat.integrations.calendar.flow.confirmation.example
-seachat.integrations.calendar.flow.followup.title
-seachat.integrations.calendar.flow.followup.description
-seachat.integrations.calendar.flow.followup.example
-seachat.integrations.calendar.title
-seachat.integrations.calendar.subtitle
-seachat.integrations.calendar.connectButton
-seachat.integrations.calendar.demoButton
-seachat.integrations.calendar.platformsTitle
-seachat.integrations.calendar.platformsSubtitle
 seachat.integrations.calendar.setup
-seachat.integrations.calendar.connectPlatform
-seachat.integrations.calendar.benefitsTitle
-seachat.integrations.calendar.benefitsSubtitle
-seachat.integrations.calendar.flowTitle
-seachat.integrations.calendar.flowSubtitle
-seachat.integrations.calendar.solutionTitle
-seachat.integrations.calendar.solutionSubtitle
-seachat.integrations.calendar.exampleTitle
-seachat.integrations.calendar.customer
 seachat.integrations.calendar.customerRequest
-seachat.integrations.calendar.seachatAI
 seachat.integrations.calendar.aiResponse1
-seachat.integrations.calendar.slot1
-seachat.integrations.calendar.slot2
-seachat.integrations.calendar.slot3
-seachat.integrations.calendar.customerChoice
 seachat.integrations.calendar.aiResponse2
-seachat.integrations.calendar.ctaTitle
-seachat.integrations.calendar.ctaSubtitle
-seachat.integrations.calendar.ctaConnectButton
-seachat.integrations.calendar.ctaGuideButton
-seachat.integrations.communication.platforms.discord.name
-seachat.integrations.communication.platforms.discord.description
-seachat.integrations.communication.platforms.discord.features.server
-seachat.integrations.communication.platforms.discord.features.voice
-seachat.integrations.communication.platforms.discord.features.moderation
-seachat.integrations.communication.platforms.discord.features.bot
-seachat.integrations.communication.platforms.discord.setupTime
-seachat.integrations.communication.platforms.discord.category
-seachat.integrations.communication.platforms.email.name
-seachat.integrations.communication.platforms.email.description
-seachat.integrations.communication.platforms.email.features.routing
-seachat.integrations.communication.platforms.email.features.templates
-seachat.integrations.communication.platforms.email.features.attachments
-seachat.integrations.communication.platforms.email.features.threading
-seachat.integrations.communication.platforms.email.setupTime
-seachat.integrations.communication.platforms.email.category
-seachat.integrations.communication.platforms.googlechat.name
-seachat.integrations.communication.platforms.googlechat.description
-seachat.integrations.communication.platforms.googlechat.features.spaces
-seachat.integrations.communication.platforms.googlechat.features.bots
-seachat.integrations.communication.platforms.googlechat.features.files
-seachat.integrations.communication.platforms.googlechat.features.meetings
-seachat.integrations.communication.platforms.googlechat.setupTime
-seachat.integrations.communication.platforms.googlechat.category
-seachat.integrations.communication.platforms.kakaotalk.name
-seachat.integrations.communication.platforms.kakaotalk.description
-seachat.integrations.communication.platforms.kakaotalk.features.channels
-seachat.integrations.communication.platforms.kakaotalk.features.messages
-seachat.integrations.communication.platforms.kakaotalk.features.commerce
-seachat.integrations.communication.platforms.kakaotalk.features.payments
-seachat.integrations.communication.platforms.kakaotalk.setupTime
-seachat.integrations.communication.platforms.kakaotalk.category
-seachat.integrations.communication.platforms.teams.name
-seachat.integrations.communication.platforms.teams.description
-seachat.integrations.communication.platforms.teams.features.channels
-seachat.integrations.communication.platforms.teams.features.calls
-seachat.integrations.communication.platforms.teams.features.files
-seachat.integrations.communication.platforms.teams.features.apps
-seachat.integrations.communication.platforms.teams.setupTime
-seachat.integrations.communication.platforms.teams.category
-seachat.integrations.communication.platforms.slack.name
-seachat.integrations.communication.platforms.slack.description
-seachat.integrations.communication.platforms.slack.features.channels
-seachat.integrations.communication.platforms.slack.features.messages
-seachat.integrations.communication.platforms.slack.features.commands
-seachat.integrations.communication.platforms.slack.features.files
-seachat.integrations.communication.platforms.slack.setupTime
-seachat.integrations.communication.platforms.slack.category
-seachat.integrations.communication.platforms.telegram.name
-seachat.integrations.communication.platforms.telegram.description
-seachat.integrations.communication.platforms.telegram.features.api
-seachat.integrations.communication.platforms.telegram.features.groups
-seachat.integrations.communication.platforms.telegram.features.channels
-seachat.integrations.communication.platforms.telegram.features.files
-seachat.integrations.communication.platforms.telegram.setupTime
-seachat.integrations.communication.platforms.telegram.category
-seachat.integrations.communication.platforms.whatsapp.name
 seachat.integrations.communication.platforms.whatsapp.description
-seachat.integrations.communication.platforms.whatsapp.features.messaging
-seachat.integrations.communication.platforms.whatsapp.features.businessApi
-seachat.integrations.communication.platforms.whatsapp.features.templates
-seachat.integrations.communication.platforms.whatsapp.features.automation
-seachat.integrations.communication.platforms.whatsapp.setupTime
-seachat.integrations.communication.platforms.whatsapp.category
-seachat.integrations.communication.platforms.zalo.name
-seachat.integrations.communication.platforms.zalo.description
-seachat.integrations.communication.platforms.zalo.features.messaging
-seachat.integrations.communication.platforms.zalo.features.officialAccount
-seachat.integrations.communication.platforms.zalo.features.miniApp
-seachat.integrations.communication.platforms.zalo.features.payments
-seachat.integrations.communication.platforms.zalo.setupTime
-seachat.integrations.communication.platforms.zalo.category
-seachat.integrations.communication.benefits.unified.title
-seachat.integrations.communication.benefits.unified.description
-seachat.integrations.communication.benefits.collaboration.title
-seachat.integrations.communication.benefits.collaboration.description
-seachat.integrations.communication.benefits.efficiency.title
-seachat.integrations.communication.benefits.efficiency.description
-seachat.integrations.communication.benefits.satisfaction.title
-seachat.integrations.communication.benefits.satisfaction.description
-seachat.integrations.communication.features.feature1.title
-seachat.integrations.communication.features.feature1.description
-seachat.integrations.communication.features.feature2.title
-seachat.integrations.communication.features.feature2.description
-seachat.integrations.communication.features.feature3.title
-seachat.integrations.communication.features.feature3.description
-seachat.integrations.communication.features.feature4.title
-seachat.integrations.communication.features.feature4.description
-seachat.integrations.communication.title
-seachat.integrations.communication.subtitle
-seachat.integrations.communication.connectButton
-seachat.integrations.communication.demoButton
-seachat.integrations.communication.platformsTitle
-seachat.integrations.communication.platformsSubtitle
 seachat.integrations.communication.setup
 seachat.integrations.communication.connectPlatform
-seachat.integrations.communication.benefitsTitle
-seachat.integrations.communication.benefitsSubtitle
-seachat.integrations.communication.featuresTitle
-seachat.integrations.communication.featuresSubtitle
-seachat.integrations.communication.cta.title
 seachat.integrations.communication.cta.subtitle
-seachat.integrations.communication.cta.connectButton
-seachat.integrations.communication.cta.contactButton
-seachat.integrations.ecommerce.platforms.bigcommerce.name
-seachat.integrations.ecommerce.platforms.bigcommerce.description
-seachat.integrations.ecommerce.platforms.bigcommerce.features.orders
-seachat.integrations.ecommerce.platforms.bigcommerce.features.products
-seachat.integrations.ecommerce.platforms.bigcommerce.features.customers
-seachat.integrations.ecommerce.platforms.bigcommerce.features.shipping
-seachat.integrations.ecommerce.platforms.bigcommerce.setupTime
-seachat.integrations.ecommerce.platforms.bigcommerce.popularity
-seachat.integrations.ecommerce.platforms.etsy.name
-seachat.integrations.ecommerce.platforms.etsy.description
-seachat.integrations.ecommerce.platforms.etsy.features.orders
-seachat.integrations.ecommerce.platforms.etsy.features.shop
-seachat.integrations.ecommerce.platforms.etsy.features.messages
-seachat.integrations.ecommerce.platforms.etsy.features.listings
-seachat.integrations.ecommerce.platforms.etsy.setupTime
-seachat.integrations.ecommerce.platforms.etsy.popularity
-seachat.integrations.ecommerce.platforms.fourthwall.name
-seachat.integrations.ecommerce.platforms.fourthwall.description
-seachat.integrations.ecommerce.platforms.fourthwall.features.merch
-seachat.integrations.ecommerce.platforms.fourthwall.features.memberships
-seachat.integrations.ecommerce.platforms.fourthwall.features.donations
-seachat.integrations.ecommerce.platforms.fourthwall.features.community
-seachat.integrations.ecommerce.platforms.fourthwall.setupTime
-seachat.integrations.ecommerce.platforms.fourthwall.popularity
-seachat.integrations.ecommerce.platforms.godaddy.name
-seachat.integrations.ecommerce.platforms.godaddy.description
-seachat.integrations.ecommerce.platforms.godaddy.features.website
-seachat.integrations.ecommerce.platforms.godaddy.features.scheduling
-seachat.integrations.ecommerce.platforms.godaddy.features.social
-seachat.integrations.ecommerce.platforms.godaddy.features.security
-seachat.integrations.ecommerce.platforms.godaddy.setupTime
-seachat.integrations.ecommerce.platforms.godaddy.popularity
-seachat.integrations.ecommerce.platforms.hostinger.name
-seachat.integrations.ecommerce.platforms.hostinger.description
-seachat.integrations.ecommerce.platforms.hostinger.features.hosting
-seachat.integrations.ecommerce.platforms.hostinger.features.builder
-seachat.integrations.ecommerce.platforms.hostinger.features.ssl
-seachat.integrations.ecommerce.platforms.hostinger.features.support
-seachat.integrations.ecommerce.platforms.hostinger.setupTime
-seachat.integrations.ecommerce.platforms.hostinger.popularity
-seachat.integrations.ecommerce.platforms.magento.name
-seachat.integrations.ecommerce.platforms.magento.description
-seachat.integrations.ecommerce.platforms.magento.features.multistore
-seachat.integrations.ecommerce.platforms.magento.features.orders
-seachat.integrations.ecommerce.platforms.magento.features.segments
-seachat.integrations.ecommerce.platforms.magento.features.catalog
-seachat.integrations.ecommerce.platforms.magento.setupTime
-seachat.integrations.ecommerce.platforms.magento.popularity
-seachat.integrations.ecommerce.platforms.opencart.name
-seachat.integrations.ecommerce.platforms.opencart.description
-seachat.integrations.ecommerce.platforms.opencart.features.dashboard
-seachat.integrations.ecommerce.platforms.opencart.features.extensions
-seachat.integrations.ecommerce.platforms.opencart.features.themes
-seachat.integrations.ecommerce.platforms.opencart.features.multi_store
-seachat.integrations.ecommerce.platforms.opencart.setupTime
-seachat.integrations.ecommerce.platforms.opencart.popularity
-seachat.integrations.ecommerce.platforms.prestashop.name
-seachat.integrations.ecommerce.platforms.prestashop.description
-seachat.integrations.ecommerce.platforms.prestashop.features.customizable
-seachat.integrations.ecommerce.platforms.prestashop.features.modules
-seachat.integrations.ecommerce.platforms.prestashop.features.multilingual
-seachat.integrations.ecommerce.platforms.prestashop.features.analytics
-seachat.integrations.ecommerce.platforms.prestashop.setupTime
-seachat.integrations.ecommerce.platforms.prestashop.popularity
-seachat.integrations.ecommerce.platforms.sellfy.name
-seachat.integrations.ecommerce.platforms.sellfy.description
-seachat.integrations.ecommerce.platforms.sellfy.features.digital
-seachat.integrations.ecommerce.platforms.sellfy.features.subscriptions
-seachat.integrations.ecommerce.platforms.sellfy.features.print_on_demand
-seachat.integrations.ecommerce.platforms.sellfy.features.marketing
-seachat.integrations.ecommerce.platforms.sellfy.setupTime
-seachat.integrations.ecommerce.platforms.sellfy.popularity
-seachat.integrations.ecommerce.platforms.shopify.name
-seachat.integrations.ecommerce.platforms.shopify.description
-seachat.integrations.ecommerce.platforms.shopify.features.orders
-seachat.integrations.ecommerce.platforms.shopify.features.catalog
-seachat.integrations.ecommerce.platforms.shopify.features.customers
-seachat.integrations.ecommerce.platforms.shopify.features.inventory
-seachat.integrations.ecommerce.platforms.shopify.setupTime
-seachat.integrations.ecommerce.platforms.shopify.popularity
-seachat.integrations.ecommerce.platforms.square.name
-seachat.integrations.ecommerce.platforms.square.description
-seachat.integrations.ecommerce.platforms.square.features.pos
-seachat.integrations.ecommerce.platforms.square.features.invoicing
-seachat.integrations.ecommerce.platforms.square.features.loyalty
-seachat.integrations.ecommerce.platforms.square.features.reporting
-seachat.integrations.ecommerce.platforms.square.setupTime
-seachat.integrations.ecommerce.platforms.square.popularity
-seachat.integrations.ecommerce.platforms.squarespace.name
-seachat.integrations.ecommerce.platforms.squarespace.description
-seachat.integrations.ecommerce.platforms.squarespace.features.design
-seachat.integrations.ecommerce.platforms.squarespace.features.blogging
-seachat.integrations.ecommerce.platforms.squarespace.features.portfolio
-seachat.integrations.ecommerce.platforms.squarespace.features.commerce
-seachat.integrations.ecommerce.platforms.squarespace.setupTime
-seachat.integrations.ecommerce.platforms.squarespace.popularity
-seachat.integrations.ecommerce.platforms.weebly.name
-seachat.integrations.ecommerce.platforms.weebly.description
-seachat.integrations.ecommerce.platforms.weebly.features.storefront
-seachat.integrations.ecommerce.platforms.weebly.features.marketing
-seachat.integrations.ecommerce.platforms.weebly.features.seo
-seachat.integrations.ecommerce.platforms.weebly.features.payments
-seachat.integrations.ecommerce.platforms.weebly.setupTime
-seachat.integrations.ecommerce.platforms.weebly.popularity
-seachat.integrations.ecommerce.platforms.wix.name
-seachat.integrations.ecommerce.platforms.wix.description
-seachat.integrations.ecommerce.platforms.wix.features.templates
-seachat.integrations.ecommerce.platforms.wix.features.apps
-seachat.integrations.ecommerce.platforms.wix.features.mobile
-seachat.integrations.ecommerce.platforms.wix.features.analytics
-seachat.integrations.ecommerce.platforms.wix.setupTime
-seachat.integrations.ecommerce.platforms.wix.popularity
-seachat.integrations.ecommerce.platforms.woocommerce.name
-seachat.integrations.ecommerce.platforms.woocommerce.description
-seachat.integrations.ecommerce.platforms.woocommerce.features.orders
-seachat.integrations.ecommerce.platforms.woocommerce.features.products
-seachat.integrations.ecommerce.platforms.woocommerce.features.customers
-seachat.integrations.ecommerce.platforms.woocommerce.features.payments
-seachat.integrations.ecommerce.platforms.woocommerce.setupTime
-seachat.integrations.ecommerce.platforms.woocommerce.popularity
-seachat.integrations.ecommerce.benefits.orders.title
-seachat.integrations.ecommerce.benefits.orders.description
-seachat.integrations.ecommerce.benefits.sales.title
-seachat.integrations.ecommerce.benefits.sales.description
-seachat.integrations.ecommerce.benefits.payment.title
-seachat.integrations.ecommerce.benefits.payment.description
-seachat.integrations.ecommerce.benefits.cart.title
-seachat.integrations.ecommerce.benefits.cart.description
 seachat.integrations.ecommerce.features
-seachat.integrations.ecommerce.title
-seachat.integrations.ecommerce.subtitle
-seachat.integrations.ecommerce.hero.button1
-seachat.integrations.ecommerce.hero.button2
-seachat.integrations.ecommerce.platformsTitle
-seachat.integrations.ecommerce.platformsSubtitle
 seachat.integrations.ecommerce.setup
-seachat.integrations.ecommerce.connectPlatform
-seachat.integrations.ecommerce.benefitsTitle
-seachat.integrations.ecommerce.benefitsSubtitle
-seachat.integrations.ecommerce.supportTitle
-seachat.integrations.ecommerce.supportSubtitle
-seachat.integrations.ecommerce.scenarioTitle
-seachat.integrations.ecommerce.customer
-seachat.integrations.ecommerce.orderQuestion
-seachat.integrations.ecommerce.seachatAI
-seachat.integrations.ecommerce.orderResponse
-seachat.integrations.ecommerce.recommendationQuestion
-seachat.integrations.ecommerce.recommendationResponse
-seachat.integrations.ecommerce.ctaTitle
-seachat.integrations.ecommerce.ctaSubtitle
-seachat.integrations.ecommerce.cta.button1
-seachat.integrations.ecommerce.cta.button2
-seachat.integrations.api.features.restful.title
-seachat.integrations.api.features.restful.description
-seachat.integrations.api.features.webhooks.title
-seachat.integrations.api.features.webhooks.description
-seachat.integrations.api.features.custom.title
-seachat.integrations.api.features.custom.description
-seachat.integrations.api.features.workflow.title
-seachat.integrations.api.features.workflow.description
-seachat.integrations.api.types.crm.title
-seachat.integrations.api.types.crm.description
-seachat.integrations.api.types.crm.example
-seachat.integrations.api.types.crm.complexity
-seachat.integrations.api.types.crm.time
-seachat.integrations.api.types.ecommerce.title
-seachat.integrations.api.types.ecommerce.description
-seachat.integrations.api.types.ecommerce.example
-seachat.integrations.api.types.ecommerce.complexity
-seachat.integrations.api.types.ecommerce.time
-seachat.integrations.api.types.payment.title
-seachat.integrations.api.types.payment.description
-seachat.integrations.api.types.payment.example
-seachat.integrations.api.types.payment.complexity
-seachat.integrations.api.types.payment.time
-seachat.integrations.api.types.analytics.title
-seachat.integrations.api.types.analytics.description
-seachat.integrations.api.types.analytics.example
-seachat.integrations.api.types.analytics.complexity
-seachat.integrations.api.types.analytics.time
-seachat.integrations.api.benefits.dataFlow.title
-seachat.integrations.api.benefits.dataFlow.description
-seachat.integrations.api.benefits.manualWork.title
-seachat.integrations.api.benefits.manualWork.description
-seachat.integrations.api.benefits.insights.title
-seachat.integrations.api.benefits.insights.description
-seachat.integrations.api.benefits.implementation.title
-seachat.integrations.api.benefits.implementation.description
-seachat.integrations.api.title
-seachat.integrations.api.subtitle
-seachat.integrations.api.accessButton
-seachat.integrations.api.docsButton
-seachat.integrations.api.capabilitiesTitle
-seachat.integrations.api.capabilitiesSubtitle
-seachat.integrations.api.patternsTitle
-seachat.integrations.api.patternsSubtitle
-seachat.integrations.api.useCaseTitle
-seachat.integrations.api.exampleTitle
-seachat.integrations.api.exampleSubtitle
-seachat.integrations.api.integrationExample
-seachat.integrations.api.copyCode
-seachat.integrations.api.benefitsTitle
-seachat.integrations.api.benefitsSubtitle
-seachat.integrations.api.buildTitle
-seachat.integrations.api.buildSubtitle
-seachat.integrations.api.steps.credentials.title
-seachat.integrations.api.steps.credentials.description
-seachat.integrations.api.steps.docs.title
-seachat.integrations.api.steps.docs.description
-seachat.integrations.api.steps.build.title
-seachat.integrations.api.steps.build.description
-seachat.integrations.api.steps.deploy.title
-seachat.integrations.api.steps.deploy.description
-seachat.integrations.api.resourcesTitle
-seachat.integrations.api.resources.docs
-seachat.integrations.api.resources.explorer
-seachat.integrations.api.resources.examples
-seachat.integrations.api.resources.sandbox
-seachat.integrations.api.resources.simulator
-seachat.integrations.api.resources.community
-seachat.integrations.api.ctaTitle
-seachat.integrations.api.ctaSubtitle
-seachat.integrations.api.ctaAccessButton
-seachat.integrations.api.ctaDocsButton
-seachat.integrations.marketing.platforms.activecampaign.name
-seachat.integrations.marketing.platforms.activecampaign.description
-seachat.integrations.marketing.platforms.activecampaign.features.automation
-seachat.integrations.marketing.platforms.activecampaign.features.crm
-seachat.integrations.marketing.platforms.activecampaign.features.learning
-seachat.integrations.marketing.platforms.activecampaign.features.sending
-seachat.integrations.marketing.platforms.activecampaign.setupTime
-seachat.integrations.marketing.platforms.activecampaign.category
-seachat.integrations.marketing.platforms.constantcontact.name
-seachat.integrations.marketing.platforms.constantcontact.description
-seachat.integrations.marketing.platforms.constantcontact.features.templates
-seachat.integrations.marketing.platforms.constantcontact.features.social
-seachat.integrations.marketing.platforms.constantcontact.features.scheduling
-seachat.integrations.marketing.platforms.constantcontact.features.analytics
-seachat.integrations.marketing.platforms.constantcontact.setupTime
-seachat.integrations.marketing.platforms.constantcontact.category
-seachat.integrations.marketing.platforms.convertkit.name
-seachat.integrations.marketing.platforms.convertkit.description
-seachat.integrations.marketing.platforms.convertkit.features.sequences
-seachat.integrations.marketing.platforms.convertkit.features.tagging
-seachat.integrations.marketing.platforms.convertkit.features.landing
-seachat.integrations.marketing.platforms.convertkit.features.integrations
-seachat.integrations.marketing.platforms.convertkit.setupTime
-seachat.integrations.marketing.platforms.convertkit.category
-seachat.integrations.marketing.platforms.engagebay.name
-seachat.integrations.marketing.platforms.engagebay.description
-seachat.integrations.marketing.platforms.engagebay.features.email
-seachat.integrations.marketing.platforms.engagebay.features.crm
-seachat.integrations.marketing.platforms.engagebay.features.forms
-seachat.integrations.marketing.platforms.engagebay.features.automation
-seachat.integrations.marketing.platforms.engagebay.setupTime
-seachat.integrations.marketing.platforms.engagebay.category
-seachat.integrations.marketing.platforms.hubspot.name
-seachat.integrations.marketing.platforms.hubspot.description
-seachat.integrations.marketing.platforms.hubspot.features.scoring
-seachat.integrations.marketing.platforms.hubspot.features.automation
-seachat.integrations.marketing.platforms.hubspot.features.landing
-seachat.integrations.marketing.platforms.hubspot.features.social
-seachat.integrations.marketing.platforms.hubspot.setupTime
-seachat.integrations.marketing.platforms.hubspot.category
-seachat.integrations.marketing.platforms.klaviyo.name
-seachat.integrations.marketing.platforms.klaviyo.description
-seachat.integrations.marketing.platforms.klaviyo.features.triggers
-seachat.integrations.marketing.platforms.klaviyo.features.recommendations
-seachat.integrations.marketing.platforms.klaviyo.features.sms
-seachat.integrations.marketing.platforms.klaviyo.features.revenue
-seachat.integrations.marketing.platforms.klaviyo.setupTime
-seachat.integrations.marketing.platforms.klaviyo.category
-seachat.integrations.marketing.platforms.mailchimp.name
-seachat.integrations.marketing.platforms.mailchimp.description
-seachat.integrations.marketing.platforms.mailchimp.features.builder
-seachat.integrations.marketing.platforms.mailchimp.features.segmentation
-seachat.integrations.marketing.platforms.mailchimp.features.testing
-seachat.integrations.marketing.platforms.mailchimp.features.reporting
-seachat.integrations.marketing.platforms.mailchimp.setupTime
-seachat.integrations.marketing.platforms.mailchimp.category
-seachat.integrations.marketing.platforms.mailerlite.name
-seachat.integrations.marketing.platforms.mailerlite.description
-seachat.integrations.marketing.platforms.mailerlite.features.campaigns
-seachat.integrations.marketing.platforms.mailerlite.features.automation
-seachat.integrations.marketing.platforms.mailerlite.features.subscribers
-seachat.integrations.marketing.platforms.mailerlite.features.analytics
-seachat.integrations.marketing.platforms.mailerlite.setupTime
-seachat.integrations.marketing.platforms.mailerlite.category
-seachat.integrations.marketing.platforms.omnisend.name
-seachat.integrations.marketing.platforms.omnisend.description
-seachat.integrations.marketing.platforms.omnisend.features.email
-seachat.integrations.marketing.platforms.omnisend.features.automation
-seachat.integrations.marketing.platforms.omnisend.features.segmentation
-seachat.integrations.marketing.platforms.omnisend.features.reports
-seachat.integrations.marketing.platforms.omnisend.setupTime
-seachat.integrations.marketing.platforms.omnisend.category
-seachat.integrations.marketing.benefits.leads.title
-seachat.integrations.marketing.benefits.leads.description
-seachat.integrations.marketing.benefits.retention.title
-seachat.integrations.marketing.benefits.retention.description
-seachat.integrations.marketing.benefits.campaigns.title
-seachat.integrations.marketing.benefits.campaigns.description
-seachat.integrations.marketing.benefits.revenue.title
-seachat.integrations.marketing.benefits.revenue.description
 seachat.integrations.marketing.features
-seachat.integrations.marketing.useCases.nurturing.title
-seachat.integrations.marketing.useCases.nurturing.description
-seachat.integrations.marketing.useCases.nurturing.example
-seachat.integrations.marketing.useCases.upselling.title
-seachat.integrations.marketing.useCases.upselling.description
-seachat.integrations.marketing.useCases.upselling.example
-seachat.integrations.marketing.useCases.onboarding.title
-seachat.integrations.marketing.useCases.onboarding.description
-seachat.integrations.marketing.useCases.onboarding.example
-seachat.integrations.marketing.useCases.retention.title
-seachat.integrations.marketing.useCases.retention.description
-seachat.integrations.marketing.useCases.retention.example
-seachat.integrations.marketing.title
-seachat.integrations.marketing.subtitle
-seachat.integrations.marketing.connectButton
-seachat.integrations.marketing.demoButton
-seachat.integrations.marketing.platformsTitle
-seachat.integrations.marketing.platformsSubtitle
 seachat.integrations.marketing.setup
-seachat.integrations.marketing.connectPlatform
-seachat.integrations.marketing.benefitsTitle
-seachat.integrations.marketing.benefitsSubtitle
-seachat.integrations.marketing.useCasesTitle
-seachat.integrations.marketing.useCasesSubtitle
-seachat.integrations.marketing.workflowExample
-seachat.integrations.marketing.integrationTitle
-seachat.integrations.marketing.integrationSubtitle
-seachat.integrations.marketing.automationTitle
-seachat.integrations.marketing.flow.conversation.title
-seachat.integrations.marketing.flow.conversation.description
-seachat.integrations.marketing.flow.tagging.title
-seachat.integrations.marketing.flow.tagging.description
-seachat.integrations.marketing.flow.trigger.title
-seachat.integrations.marketing.flow.trigger.description
-seachat.integrations.marketing.flow.conversion.title
-seachat.integrations.marketing.flow.conversion.description
-seachat.integrations.marketing.ctaTitle
-seachat.integrations.marketing.ctaSubtitle
-seachat.integrations.marketing.ctaConnectButton
-seachat.integrations.marketing.ctaGuideButton
-seachat.integrations.social.platforms.whatsapp.name
 seachat.integrations.social.platforms.whatsapp.description
-seachat.integrations.social.platforms.whatsapp.features.api
-seachat.integrations.social.platforms.whatsapp.features.media
-seachat.integrations.social.platforms.whatsapp.features.templates
-seachat.integrations.social.platforms.whatsapp.features.groups
-seachat.integrations.social.platforms.whatsapp.users
-seachat.integrations.social.platforms.whatsapp.setupTime
-seachat.integrations.social.platforms.instagram.name
-seachat.integrations.social.platforms.instagram.description
-seachat.integrations.social.platforms.instagram.features.dm
-seachat.integrations.social.platforms.instagram.features.stories
-seachat.integrations.social.platforms.instagram.features.media
-seachat.integrations.social.platforms.instagram.features.responses
-seachat.integrations.social.platforms.instagram.users
-seachat.integrations.social.platforms.instagram.setupTime
-seachat.integrations.social.platforms.facebook.name
 seachat.integrations.social.platforms.facebook.description
-seachat.integrations.social.platforms.facebook.features.page
-seachat.integrations.social.platforms.facebook.features.responses
-seachat.integrations.social.platforms.facebook.features.cards
-seachat.integrations.social.platforms.facebook.features.menu
-seachat.integrations.social.platforms.facebook.users
-seachat.integrations.social.platforms.facebook.setupTime
-seachat.integrations.social.platforms.twitter.name
-seachat.integrations.social.platforms.twitter.description
-seachat.integrations.social.platforms.twitter.features.dm
-seachat.integrations.social.platforms.twitter.features.mentions
-seachat.integrations.social.platforms.twitter.features.responses
-seachat.integrations.social.platforms.twitter.features.threads
-seachat.integrations.social.platforms.twitter.users
-seachat.integrations.social.platforms.twitter.setupTime
-seachat.integrations.social.platforms.line.name
-seachat.integrations.social.platforms.line.description
-seachat.integrations.social.platforms.line.features.messaging
-seachat.integrations.social.platforms.line.features.stickers
-seachat.integrations.social.platforms.line.features.broadcast
-seachat.integrations.social.platforms.line.features.payments
-seachat.integrations.social.platforms.line.users
-seachat.integrations.social.platforms.line.setupTime
-seachat.integrations.social.platforms.tiktok.name
-seachat.integrations.social.platforms.tiktok.description
-seachat.integrations.social.platforms.tiktok.features.comments
-seachat.integrations.social.platforms.tiktok.features.dm
-seachat.integrations.social.platforms.tiktok.features.analytics
-seachat.integrations.social.platforms.tiktok.features.ads
-seachat.integrations.social.platforms.tiktok.users
-seachat.integrations.social.platforms.tiktok.setupTime
-seachat.integrations.social.benefits.meet.title
-seachat.integrations.social.benefits.meet.description
-seachat.integrations.social.benefits.response.title
-seachat.integrations.social.benefits.response.description
-seachat.integrations.social.benefits.unified.title
-seachat.integrations.social.benefits.unified.description
-seachat.integrations.social.benefits.reputation.title
-seachat.integrations.social.benefits.reputation.description
 seachat.integrations.social.features
-seachat.integrations.social.title
-seachat.integrations.social.subtitle
-seachat.integrations.social.connectButton
-seachat.integrations.social.demoButton
-seachat.integrations.social.platformsTitle
-seachat.integrations.social.platformsSubtitle
-seachat.integrations.social.worldwide
 seachat.integrations.social.setup
-seachat.integrations.social.connectPlatform
-seachat.integrations.social.benefitsTitle
-seachat.integrations.social.benefitsSubtitle
-seachat.integrations.social.managementTitle
-seachat.integrations.social.managementSubtitle
-seachat.integrations.social.dashboardTitle
-seachat.integrations.social.whatsapp
-seachat.integrations.social.newMessages
-seachat.integrations.social.productInquiries
-seachat.integrations.social.instagram
-seachat.integrations.social.storyReplies
-seachat.integrations.social.productComments
-seachat.integrations.social.facebook
-seachat.integrations.social.pageMessages
-seachat.integrations.social.supportRequests
-seachat.integrations.social.twitter
-seachat.integrations.social.mentions
-seachat.integrations.social.brandMentions
-seachat.integrations.social.ctaTitle
-seachat.integrations.social.ctaSubtitle
-seachat.integrations.social.ctaConnectButton
-seachat.integrations.social.ctaGuideButton
-seachat.integrations.websites.platforms.generic.name
-seachat.integrations.websites.platforms.generic.description
-seachat.integrations.websites.platforms.generic.features.compatibility
-seachat.integrations.websites.platforms.generic.features.styling
-seachat.integrations.websites.platforms.generic.features.responsive
-seachat.integrations.websites.platforms.generic.features.installation
-seachat.integrations.websites.platforms.generic.setupTime
-seachat.integrations.websites.platforms.generic.difficulty
-seachat.integrations.websites.platforms.wordpress.name
-seachat.integrations.websites.platforms.wordpress.description
-seachat.integrations.websites.platforms.wordpress.features.plugin
-seachat.integrations.websites.platforms.wordpress.features.dashboard
-seachat.integrations.websites.platforms.wordpress.features.theme
-seachat.integrations.websites.platforms.wordpress.features.shortcode
-seachat.integrations.websites.platforms.wordpress.setupTime
-seachat.integrations.websites.platforms.wordpress.difficulty
-seachat.integrations.websites.platforms.shopify.name
-seachat.integrations.websites.platforms.shopify.description
-seachat.integrations.websites.platforms.shopify.features.orders
-seachat.integrations.websites.platforms.shopify.features.customers
-seachat.integrations.websites.platforms.shopify.features.products
-seachat.integrations.websites.platforms.shopify.features.cart
-seachat.integrations.websites.platforms.shopify.setupTime
-seachat.integrations.websites.platforms.shopify.difficulty
-seachat.integrations.websites.platforms.wix.name
-seachat.integrations.websites.platforms.wix.description
-seachat.integrations.websites.platforms.wix.features.app
-seachat.integrations.websites.platforms.wix.features.editor
-seachat.integrations.websites.platforms.wix.features.mobile
-seachat.integrations.websites.platforms.wix.features.positioning
-seachat.integrations.websites.platforms.wix.setupTime
-seachat.integrations.websites.platforms.wix.difficulty
-seachat.integrations.websites.platforms.squarespace.name
-seachat.integrations.websites.platforms.squarespace.description
-seachat.integrations.websites.platforms.squarespace.features.design
-seachat.integrations.websites.platforms.squarespace.features.code
-seachat.integrations.websites.platforms.squarespace.features.templates
-seachat.integrations.websites.platforms.squarespace.features.style
-seachat.integrations.websites.platforms.squarespace.setupTime
-seachat.integrations.websites.platforms.squarespace.difficulty
-seachat.integrations.websites.platforms.webflow.name
-seachat.integrations.websites.platforms.webflow.description
-seachat.integrations.websites.platforms.webflow.features.cms
-seachat.integrations.websites.platforms.webflow.features.ecommerce
-seachat.integrations.websites.platforms.webflow.features.design
-seachat.integrations.websites.platforms.webflow.features.custom
-seachat.integrations.websites.platforms.webflow.setupTime
-seachat.integrations.websites.platforms.webflow.difficulty
-seachat.integrations.websites.installation.step1.title
-seachat.integrations.websites.installation.step1.description
-seachat.integrations.websites.installation.step2.title
-seachat.integrations.websites.installation.step2.description
-seachat.integrations.websites.installation.step3.title
-seachat.integrations.websites.installation.step3.description
-seachat.integrations.websites.title
-seachat.integrations.websites.subtitle
-seachat.integrations.websites.codeButton
-seachat.integrations.websites.demoButton
-seachat.integrations.websites.platformsTitle
-seachat.integrations.websites.platformsSubtitle
 seachat.integrations.websites.setup
-seachat.integrations.websites.getPlatformCode
-seachat.integrations.websites.code
-seachat.integrations.websites.installationTitle
-seachat.integrations.websites.installationSubtitle
-seachat.integrations.websites.copyCode
-seachat.integrations.websites.viewDocs
-seachat.integrations.websites.customizationTitle
-seachat.integrations.websites.customizationSubtitle
-seachat.integrations.websites.customization.colors.title
-seachat.integrations.websites.customization.colors.description
-seachat.integrations.websites.customization.colors.features.schemes
-seachat.integrations.websites.customization.colors.features.logo
-seachat.integrations.websites.customization.colors.features.fonts
-seachat.integrations.websites.customization.colors.features.css
-seachat.integrations.websites.customization.position.title
-seachat.integrations.websites.customization.position.description
-seachat.integrations.websites.customization.position.features.corner
-seachat.integrations.websites.customization.position.features.auto
-seachat.integrations.websites.customization.position.features.mobile
-seachat.integrations.websites.customization.position.features.trigger
-seachat.integrations.websites.customization.content.title
-seachat.integrations.websites.customization.content.description
-seachat.integrations.websites.customization.content.features.welcome
-seachat.integrations.websites.customization.content.features.offline
-seachat.integrations.websites.customization.content.features.multilanguage
-seachat.integrations.websites.customization.content.features.greetings
-seachat.integrations.websites.ctaTitle
-seachat.integrations.websites.ctaSubtitle
-seachat.integrations.websites.ctaCodeButton
-seachat.integrations.websites.ctaDocsButton
 seachat.solutions.ecommerce.features.orders.title
 seachat.solutions.ecommerce.features.orders.description
 seachat.solutions.ecommerce.features.orders.benefits.status
@@ -1962,7 +1238,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 3907 potential hardcoded strings across components:
+Found 3779 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2005,7 +1281,7 @@ Found 3907 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3897 more. See hardcoded-strings.json for complete list.
+... and 3769 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2013,13 +1289,13 @@ Found 3907 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1901 keys used in components but missing from en.json
+**Description**: 1177 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3907 hardcoded strings that should be internationalized
+**Description**: Found 3779 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
