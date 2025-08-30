@@ -1208,28 +1208,28 @@
   {
     "file": "src/seachat/pages/solutions/EducationPage.tsx",
     "text": "50%",
-    "context": "  const metrics = [\n    { \n      value: '50%', \n      label: t('seachat.solutions.education.metrics.admin.label', 'Reduced Admin Workload'), \n      description: t('seachat.solutions.education.metrics.admin.description', 'Through automated student inquiries') \n    },",
+    "context": "  const metrics = [\n    { \n      value: '50%', \n      label: t('seachat.solutions.education.metrics.admin.label'), \n      description: t('seachat.solutions.education.metrics.admin.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/EducationPage.tsx",
     "text": "85%",
-    "context": "    },\n    { \n      value: '85%', \n      label: t('seachat.solutions.education.metrics.satisfaction.label', 'Student Satisfaction'), \n      description: t('seachat.solutions.education.metrics.satisfaction.description', 'With 24/7 support availability') \n    },",
+    "context": "    },\n    { \n      value: '85%', \n      label: t('seachat.solutions.education.metrics.satisfaction.label'), \n      description: t('seachat.solutions.education.metrics.satisfaction.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/EducationPage.tsx",
     "text": "40%",
-    "context": "    },\n    { \n      value: '40%', \n      label: t('seachat.solutions.education.metrics.response.label', 'Faster Response Time'), \n      description: t('seachat.solutions.education.metrics.response.description', 'For student and parent inquiries') \n    },",
+    "context": "    },\n    { \n      value: '40%', \n      label: t('seachat.solutions.education.metrics.response.label'), \n      description: t('seachat.solutions.education.metrics.response.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/EducationPage.tsx",
     "text": "60%",
-    "context": "    },\n    { \n      value: '60%', \n      label: t('seachat.solutions.education.metrics.enrollment.label', 'Increased Enrollment'), \n      description: t('seachat.solutions.education.metrics.enrollment.description', 'With streamlined application process') \n    }",
+    "context": "    },\n    { \n      value: '60%', \n      label: t('seachat.solutions.education.metrics.enrollment.label'), \n      description: t('seachat.solutions.education.metrics.enrollment.description') \n    }",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
@@ -1258,34 +1258,6 @@
     "file": "src/seachat/pages/solutions/FintechPage.tsx",
     "text": "95%",
     "context": "    },\n    { \n      value: '95%', \n      label: t('seachat.solutions.fintech.metrics.satisfaction.label', 'Customer Satisfaction'), \n      description: t('seachat.solutions.fintech.metrics.satisfaction.description', 'For financial support interactions') \n    }",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/HealthcarePage.tsx",
-    "text": "40%",
-    "context": "  const metrics = [\n    { \n      value: '40%', \n      label: t('seachat.solutions.healthcare.metrics.noshows.label', 'Reduction in No-shows'), \n      description: t('seachat.solutions.healthcare.metrics.noshows.description', 'With automated appointment reminders') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/HealthcarePage.tsx",
-    "text": "60%",
-    "context": "    },\n    { \n      value: '60%', \n      label: t('seachat.solutions.healthcare.metrics.response.label', 'Faster Response Time'), \n      description: t('seachat.solutions.healthcare.metrics.response.description', 'For patient inquiries and concerns') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/HealthcarePage.tsx",
-    "text": "85%",
-    "context": "    },\n    { \n      value: '85%', \n      label: t('seachat.solutions.healthcare.metrics.satisfaction.label', 'Patient Satisfaction'), \n      description: t('seachat.solutions.healthcare.metrics.satisfaction.description', 'With 24/7 support availability') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/HealthcarePage.tsx",
-    "text": "50%",
-    "context": "    },\n    { \n      value: '50%', \n      label: t('seachat.solutions.healthcare.metrics.efficiency.label', 'Administrative Efficiency'), \n      description: t('seachat.solutions.healthcare.metrics.efficiency.description', 'Through automated workflows') \n    }",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
@@ -1320,28 +1292,28 @@
   {
     "file": "src/seachat/pages/solutions/SaaSPage.tsx",
     "text": "70%",
-    "context": "  const metrics = [\n    { \n      value: '70%', \n      label: t('seachat.solutions.saas.metrics.tickets.label', 'Reduced Support Tickets'), \n      description: t('seachat.solutions.saas.metrics.tickets.description', 'Through self-service automation') \n    },",
+    "context": "  const metrics = [\n    { \n      value: '70%', \n      label: t('seachat.solutions.saas.metrics.tickets.label'), \n      description: t('seachat.solutions.saas.metrics.tickets.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/SaaSPage.tsx",
     "text": "45%",
-    "context": "    },\n    { \n      value: '45%', \n      label: t('seachat.solutions.saas.metrics.onboarding.label', 'Faster Onboarding'), \n      description: t('seachat.solutions.saas.metrics.onboarding.description', 'With guided setup assistance') \n    },",
+    "context": "    },\n    { \n      value: '45%', \n      label: t('seachat.solutions.saas.metrics.onboarding.label'), \n      description: t('seachat.solutions.saas.metrics.onboarding.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/SaaSPage.tsx",
     "text": "60%",
-    "context": "    },\n    { \n      value: '60%', \n      label: t('seachat.solutions.saas.metrics.adoption.label', 'Higher Feature Adoption'), \n      description: t('seachat.solutions.saas.metrics.adoption.description', 'Through proactive feature guidance') \n    },",
+    "context": "    },\n    { \n      value: '60%', \n      label: t('seachat.solutions.saas.metrics.adoption.label'), \n      description: t('seachat.solutions.saas.metrics.adoption.description') \n    },",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
   {
     "file": "src/seachat/pages/solutions/SaaSPage.tsx",
     "text": "35%",
-    "context": "    },\n    { \n      value: '35%', \n      label: t('seachat.solutions.saas.metrics.churn.label', 'Reduced Churn Rate'), \n      description: t('seachat.solutions.saas.metrics.churn.description', 'With proactive customer success') \n    }",
+    "context": "    },\n    { \n      value: '35%', \n      label: t('seachat.solutions.saas.metrics.churn.label'), \n      description: t('seachat.solutions.saas.metrics.churn.description') \n    }",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },
@@ -1370,34 +1342,6 @@
     "file": "src/seachat/pages/solutions/SmallBusinessPage.tsx",
     "text": "90%",
     "context": "    },\n    { \n      value: '90%', \n      label: t('seachat.solutions.smallBusiness.metrics.satisfaction.label', 'Customer Satisfaction'), \n      description: t('seachat.solutions.smallBusiness.metrics.satisfaction.description', 'With instant responses') \n    }",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/TravelPage.tsx",
-    "text": "60%",
-    "context": "  const metrics = [\n    { \n      value: '60%', \n      label: t('seachat.solutions.travel.metrics.booking.label', 'Faster Booking Process'), \n      description: t('seachat.solutions.travel.metrics.booking.description', 'With AI-assisted search and booking') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/TravelPage.tsx",
-    "text": "85%",
-    "context": "    },\n    { \n      value: '85%', \n      label: t('seachat.solutions.travel.metrics.satisfaction.label', 'Customer Satisfaction'), \n      description: t('seachat.solutions.travel.metrics.satisfaction.description', 'With 24/7 travel support availability') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/TravelPage.tsx",
-    "text": "40%",
-    "context": "    },\n    { \n      value: '40%', \n      label: t('seachat.solutions.travel.metrics.call.label', 'Reduced Call Volume'), \n      description: t('seachat.solutions.travel.metrics.call.description', 'Through automated travel assistance') \n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seachat/pages/solutions/TravelPage.tsx",
-    "text": "95%",
-    "context": "    },\n    { \n      value: '95%', \n      label: t('seachat.solutions.travel.metrics.resolution.label', 'Issue Resolution Rate'), \n      description: t('seachat.solutions.travel.metrics.resolution.description', 'For travel-related inquiries') \n    }",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
   },

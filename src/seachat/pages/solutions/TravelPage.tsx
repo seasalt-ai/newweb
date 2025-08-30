@@ -81,22 +81,22 @@ const TravelPage = () => {
 
   const metrics = [
     { 
-      value: '60%', 
+      value: t('seachat.solutions.travel.metrics.booking.value', '60%'), 
       label: t('seachat.solutions.travel.metrics.booking.label', 'Faster Booking Process'), 
       description: t('seachat.solutions.travel.metrics.booking.description', 'With AI-assisted search and booking') 
     },
     { 
-      value: '85%', 
+      value: t('seachat.solutions.travel.metrics.satisfaction.value', '85%'), 
       label: t('seachat.solutions.travel.metrics.satisfaction.label', 'Customer Satisfaction'), 
       description: t('seachat.solutions.travel.metrics.satisfaction.description', 'With 24/7 travel support availability') 
     },
     { 
-      value: '40%', 
+      value: t('seachat.solutions.travel.metrics.call.value', '40%'), 
       label: t('seachat.solutions.travel.metrics.call.label', 'Reduced Call Volume'), 
       description: t('seachat.solutions.travel.metrics.call.description', 'Through automated travel assistance') 
     },
     { 
-      value: '95%', 
+      value: t('seachat.solutions.travel.metrics.resolution.value', '95%'), 
       label: t('seachat.solutions.travel.metrics.resolution.label', 'Issue Resolution Rate'), 
       description: t('seachat.solutions.travel.metrics.resolution.description', 'For travel-related inquiries') 
     }
