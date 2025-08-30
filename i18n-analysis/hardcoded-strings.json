@@ -810,34 +810,6 @@
     "type": "jsx-text"
   },
   {
-    "file": "src/seachat/components/Header.tsx",
-    "text": "Back to Main Site",
-    "context": "                onClick={() => setIsMenuOpen(false)}\n              >\n                <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                Back to Main Site\n              </Link>\n            </div>\n            \n            {/* Features Section */}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Header.tsx",
-    "text": "View All Integrations →",
-    "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/integrations')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Header.tsx",
-    "text": "View All Solutions →",
-    "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/solutions')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/Header.tsx",
-    "text": "View All Integrations →",
-    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                  "
-  },
-  {
-    "file": "src/seachat/components/Header.tsx",
-    "text": "View All Solutions →",
-    "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    <"
-  },
-  {
     "file": "src/seachat/components/KeyFeatures.tsx",
     "text": "2min",
     "context": "            </div>\n            <div>\n              <div className=\"text-3xl font-bold text-purple-600 mb-2\">2min</div>\n              <div className=\"text-gray-600\">{t('seachat.keyFeatures.statsBar.setupTime')}</div>\n            </div>\n            <div>",

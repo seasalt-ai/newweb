@@ -485,7 +485,7 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
-                Back to Main Site
+                {t('seachat.header.backToMainSite')}
               </Link>
             </div>
             
@@ -563,7 +563,7 @@ const Header = () => {
                           {item.name}
                         </Link>
                       ))}
-                      <Link to={createLink('seachat/integrations')} className="block text-blue-600 font-medium">View All Integrations →</Link>
+                      <Link to={createLink('seachat/integrations')} className="block text-blue-600 font-medium">{t('seachat.header.viewAllIntegrations')}</Link>
                     </div>
                   </motion.div>
                 )}
@@ -604,7 +604,7 @@ const Header = () => {
                           {item.name}
                         </Link>
                       ))}
-                      <Link to={createLink('seachat/solutions')} className="block text-blue-600 font-medium">View All Solutions →</Link>
+                      <Link to={createLink('seachat/solutions')} className="block text-blue-600 font-medium">{t('seachat.header.viewAllSolutions')}</Link>
                     </div>
                   </motion.div>
                 )}

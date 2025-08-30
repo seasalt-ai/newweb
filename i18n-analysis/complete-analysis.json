@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-30T15:33:15.857Z",
+  "timestamp": "2025-08-30T15:41:37.118Z",
   "translation_files": {
     "ar": {
       "file_path": "public/locales/ar.json",
@@ -5736,6 +5736,9 @@
         "seachat.header.solutionsDropdown.travel": "Travel & Hospitality",
         "seachat.header.solutionsDropdown.saas": "SaaS & Technology",
         "seachat.header.solutionsDropdown.smallBusiness": "Small Business",
+        "seachat.header.backToMainSite": "Back to Main Site",
+        "seachat.header.viewAllIntegrations": "View All Integrations →",
+        "seachat.header.viewAllSolutions": "View All Solutions →",
         "seachat.hero.title.line1": "Respond To",
         "seachat.hero.title.line2": "Millions 24/7",
         "seachat.hero.subtitle": "Live Agents",
@@ -10716,7 +10719,7 @@
         "compareUsOverview.cta.signUp": "Sign Up",
         "compareUsOverview.cta.bookDemo": "Book A Demo"
       },
-      "total_keys": 5572,
+      "total_keys": 5575,
       "structure": {
         "header": {
           "products": "Products",
@@ -12399,7 +12402,10 @@
               "travel": "Travel & Hospitality",
               "saas": "SaaS & Technology",
               "smallBusiness": "Small Business"
-            }
+            },
+            "backToMainSite": "Back to Main Site",
+            "viewAllIntegrations": "View All Integrations →",
+            "viewAllSolutions": "View All Solutions →"
           },
           "hero": {
             "title": {
@@ -51544,6 +51550,9 @@
         "seachat.header.solutionsDropdown.travel": "旅遊和飯店業",
         "seachat.header.solutionsDropdown.saas": "SaaS 和技術",
         "seachat.header.solutionsDropdown.smallBusiness": "小型企業",
+        "seachat.header.backToMainSite": "返回主網站",
+        "seachat.header.viewAllIntegrations": "查看所有整合 →",
+        "seachat.header.viewAllSolutions": "查看所有解決方案 →",
         "seachat.hero.title.line1": "24小時貼身客服",
         "seachat.hero.title.line2": "可人工可智慧",
         "seachat.hero.subtitle": "即時專員",
@@ -56526,7 +56535,7 @@
         "compareUsOverview.cta.signUp": "立即註冊",
         "compareUsOverview.cta.bookDemo": "預約示範"
       },
-      "total_keys": 5574,
+      "total_keys": 5577,
       "structure": {
         "header": {
           "products": "產品",
@@ -58209,7 +58218,10 @@
               "travel": "旅遊和飯店業",
               "saas": "SaaS 和技術",
               "smallBusiness": "小型企業"
-            }
+            },
+            "backToMainSite": "返回主網站",
+            "viewAllIntegrations": "查看所有整合 →",
+            "viewAllSolutions": "查看所有解決方案 →"
           },
           "hero": {
             "title": {
@@ -70895,38 +70907,17 @@
         "seachat.common.getStarted",
         "seachat.common.signIn",
         "seachat.common.getStarted",
+        "seachat.header.backToMainSite",
         "seachat.header.features",
         "seachat.header.integrations",
+        "seachat.header.viewAllIntegrations",
         "seachat.header.solutions",
+        "seachat.header.viewAllSolutions",
         "seachat.header.pricing",
         "seachat.header.blog"
       ],
       "trans_components": [],
-      "hardcoded_strings": [
-        {
-          "text": "Back to Main Site",
-          "context": "                onClick={() => setIsMenuOpen(false)}\n              >\n                <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                Back to Main Site\n              </Link>\n            </div>\n            \n            {/* Features Section */}",
-          "type": "jsx-text"
-        },
-        {
-          "text": "View All Integrations →",
-          "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/integrations')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-          "type": "jsx-text"
-        },
-        {
-          "text": "View All Solutions →",
-          "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/solutions')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-          "type": "jsx-text"
-        },
-        {
-          "text": "View All Integrations →",
-          "context": "ons')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                  "
-        },
-        {
-          "text": "View All Solutions →",
-          "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    <"
-        }
-      ],
+      "hardcoded_strings": [],
       "imports": {
         "useTranslation": true,
         "Trans": true
@@ -93699,8 +93690,8 @@
     }
   },
   "coverage_report": {
-    "base_language_keys": 5572,
-    "used_keys_in_components": 5433,
+    "base_language_keys": 5575,
+    "used_keys_in_components": 5436,
     "unused_keys": [
       "header.login",
       "header.backToChannels",
@@ -94747,6 +94738,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -98788,7 +98782,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "15.90"
+      "coverage_percentage": "15.89"
     },
     "de": {
       "missing_from_base": [
@@ -99485,6 +99479,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -103526,7 +103523,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "15.51"
+      "coverage_percentage": "15.50"
     },
     "es": {
       "missing_from_base": [
@@ -104275,6 +104272,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -109143,6 +109143,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -113184,7 +113187,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "13.16"
+      "coverage_percentage": "13.15"
     },
     "fil": {
       "missing_from_base": [
@@ -114029,6 +114032,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -118070,7 +118076,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.85"
+      "coverage_percentage": "12.84"
     },
     "fr": {
       "missing_from_base": [
@@ -118915,6 +118921,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -122956,7 +122965,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.85"
+      "coverage_percentage": "12.84"
     },
     "hi": {
       "missing_from_base": [
@@ -123801,6 +123810,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -127891,7 +127903,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.97"
+      "coverage_percentage": "11.96"
     },
     "id": {
       "missing_from_base": [
@@ -128736,6 +128748,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -132826,7 +132841,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.97"
+      "coverage_percentage": "11.96"
     },
     "ja": {
       "missing_from_base": [
@@ -133669,6 +133684,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -137759,7 +137777,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.99"
+      "coverage_percentage": "11.98"
     },
     "ko": {
       "missing_from_base": [
@@ -138604,6 +138622,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -142694,7 +142715,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.97"
+      "coverage_percentage": "11.96"
     },
     "ms": {
       "missing_from_base": [
@@ -143539,6 +143560,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -147629,7 +147653,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.97"
+      "coverage_percentage": "11.96"
     },
     "pl": {
       "missing_from_base": [
@@ -148488,6 +148512,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -152578,7 +152605,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.72"
+      "coverage_percentage": "11.71"
     },
     "pt": {
       "missing_from_base": [
@@ -153437,6 +153464,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -157527,7 +157557,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.72"
+      "coverage_percentage": "11.71"
     },
     "ru": {
       "missing_from_base": [
@@ -158386,6 +158416,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -162476,7 +162509,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.72"
+      "coverage_percentage": "11.71"
     },
     "ta": {
       "missing_from_base": [
@@ -163321,6 +163354,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -167362,7 +167398,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.85"
+      "coverage_percentage": "12.84"
     },
     "th": {
       "missing_from_base": [
@@ -168267,6 +168303,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -173153,6 +173192,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -177194,7 +177236,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.85"
+      "coverage_percentage": "12.84"
     },
     "zh-CN": {
       "missing_from_base": [
@@ -177974,6 +178016,9 @@
         "seachat.header.solutionsDropdown.travel",
         "seachat.header.solutionsDropdown.saas",
         "seachat.header.solutionsDropdown.smallBusiness",
+        "seachat.header.backToMainSite",
+        "seachat.header.viewAllIntegrations",
+        "seachat.header.viewAllSolutions",
         "seachat.hero.title.line1",
         "seachat.hero.title.line2",
         "seachat.hero.subtitle",
@@ -182015,7 +182060,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "14.00"
+      "coverage_percentage": "13.99"
     },
     "zh-TW": {
       "missing_from_base": [
@@ -182842,34 +182887,6 @@
       "text": "in the city of",
       "context": "          <div className=\"text-center text-gray-400 text-sm mt-8\">\n            <p>\n              Made with <Heart className=\"inline w-4 h-4 text-red-500\" /> in the city of{' '}\n              <Coffee className=\"inline w-4 h-4 text-amber-700\" />{' '}\n              <Umbrella className=\"inline w-4 h-4 text-blue-400\" />{' '}\n              <Plane className=\"inline w-4 h-4 text-gray-500\" />{' '}",
       "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/components/Header.tsx",
-      "text": "Back to Main Site",
-      "context": "                onClick={() => setIsMenuOpen(false)}\n              >\n                <img src=\"/seasalt-ai-logo.png\" alt=\"Seasalt.ai\" className=\"h-6 w-auto mr-2\" />\n                Back to Main Site\n              </Link>\n            </div>\n            \n            {/* Features Section */}",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/components/Header.tsx",
-      "text": "View All Integrations →",
-      "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/integrations')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/components/Header.tsx",
-      "text": "View All Solutions →",
-      "context": "                        </Link>\n                      ))}\n                      <Link to={createLink('seachat/solutions')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    </div>\n                  </motion.div>\n                )}",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/components/Header.tsx",
-      "text": "View All Integrations →",
-      "context": "ons')} className=\"block text-blue-600 font-medium\">View All Integrations →</Link>\n                  "
-    },
-    {
-      "file": "src/seachat/components/Header.tsx",
-      "text": "View All Solutions →",
-      "context": "ons')} className=\"block text-blue-600 font-medium\">View All Solutions →</Link>\n                    <"
     },
     {
       "file": "src/seachat/components/KeyFeatures.tsx",
@@ -205289,9 +205306,9 @@
       "priority": "HIGH",
       "category": "Hardcoded Strings",
       "title": "Replace hardcoded strings with translation keys",
-      "description": "Found 3757 hardcoded strings that should be internationalized",
+      "description": "Found 3752 hardcoded strings that should be internationalized",
       "action": "Review and replace hardcoded strings with t() function calls",
-      "count": 3757
+      "count": 3752
     },
     {
       "priority": "MEDIUM",
@@ -206159,6 +206176,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -210249,7 +210269,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.72"
+            "coverage_percentage": "11.71"
           }
         ],
         [
@@ -211111,6 +211131,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -215201,7 +215224,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.72"
+            "coverage_percentage": "11.71"
           }
         ],
         [
@@ -216063,6 +216086,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -220153,7 +220179,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.72"
+            "coverage_percentage": "11.71"
           }
         ],
         [
@@ -221061,6 +221087,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -225950,6 +225979,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -230040,7 +230072,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.97"
+            "coverage_percentage": "11.96"
           }
         ],
         [
@@ -230888,6 +230920,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -234978,7 +235013,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.97"
+            "coverage_percentage": "11.96"
           }
         ],
         [
@@ -235826,6 +235861,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -239916,7 +239954,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.97"
+            "coverage_percentage": "11.96"
           }
         ],
         [
@@ -240764,6 +240802,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -244854,7 +244895,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.97"
+            "coverage_percentage": "11.96"
           }
         ],
         [
@@ -245700,6 +245741,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -249790,7 +249834,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.99"
+            "coverage_percentage": "11.98"
           }
         ],
         [
@@ -250638,6 +250682,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -254679,7 +254726,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.85"
+            "coverage_percentage": "12.84"
           }
         ],
         [
@@ -255527,6 +255574,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -259568,7 +259618,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.85"
+            "coverage_percentage": "12.84"
           }
         ],
         [
@@ -260416,6 +260466,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -264457,7 +264510,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.85"
+            "coverage_percentage": "12.84"
           }
         ],
         [
@@ -265305,6 +265358,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -269346,7 +269402,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.85"
+            "coverage_percentage": "12.84"
           }
         ],
         [
@@ -270176,6 +270232,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -274217,7 +274276,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "13.16"
+            "coverage_percentage": "13.15"
           }
         ],
         [
@@ -275000,6 +275059,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -279041,7 +279103,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "14.00"
+            "coverage_percentage": "13.99"
           }
         ],
         [
@@ -279793,6 +279855,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -284534,6 +284599,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -288575,7 +288643,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "15.51"
+            "coverage_percentage": "15.50"
           }
         ],
         [
@@ -289253,6 +289321,9 @@
               "seachat.header.solutionsDropdown.travel",
               "seachat.header.solutionsDropdown.saas",
               "seachat.header.solutionsDropdown.smallBusiness",
+              "seachat.header.backToMainSite",
+              "seachat.header.viewAllIntegrations",
+              "seachat.header.viewAllSolutions",
               "seachat.hero.title.line1",
               "seachat.hero.title.line2",
               "seachat.hero.subtitle",
@@ -293294,7 +293365,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "15.90"
+            "coverage_percentage": "15.89"
           }
         ]
       ]
