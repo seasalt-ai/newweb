@@ -87,6 +87,7 @@ const Header = () => {
 
   const navigation = [
     { 
+      id: 'platform',
       name: t('seavoice.header.navigation.platform.title'), 
       href: `/${i18n.language}/seavoice/platform`,
       hasDropdown: true,
@@ -102,18 +103,20 @@ const Header = () => {
       ]
     },
     { 
+      id: 'inboundSolutions',
       name: t('seavoice.header.navigation.inboundSolutions.title'), 
       href: `/${i18n.language}/seavoice/solutions`,
       hasDropdown: true,
       dropdownItems: inboundSolutions
     },
     { 
+      id: 'outboundSolutions',
       name: t('seavoice.header.navigation.outboundSolutions.title'), 
       href: `/${i18n.language}/seavoice/solutions`,
       hasDropdown: true,
       dropdownItems: outboundSolutions
     },
-    { name: t('seavoice.header.navigation.pricing'), href: `/${i18n.language}/seavoice/pricing` },
+    { id: 'pricing', name: t('seavoice.header.navigation.pricing'), href: `/${i18n.language}/seavoice/pricing` },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -161,14 +164,14 @@ const Header = () => {
                 key={item.name}
                 className="relative"
                 onMouseEnter={() => {
-                  if (item.name === t('seavoice.header.navigation.platform.title')) setIsPlatformOpen(true);
-                  if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setIsInboundSolutionsOpen(true);
-                  if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setIsOutboundSolutionsOpen(true);
+                  if (item.id === 'platform') setIsPlatformOpen(true);
+                  if (item.id === 'inboundSolutions') setIsInboundSolutionsOpen(true);
+                  if (item.id === 'outboundSolutions') setIsOutboundSolutionsOpen(true);
                 }}
                 onMouseLeave={() => {
-                  if (item.name === t('seavoice.header.navigation.platform.title')) setIsPlatformOpen(false);
-                  if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setIsInboundSolutionsOpen(false);
-                  if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setIsOutboundSolutionsOpen(false);
+                  if (item.id === 'platform') setIsPlatformOpen(false);
+                  if (item.id === 'inboundSolutions') setIsInboundSolutionsOpen(false);
+                  if (item.id === 'outboundSolutions') setIsOutboundSolutionsOpen(false);
                 }}
               >
                 <Link
@@ -186,7 +189,7 @@ const Header = () => {
                 </Link>
                 
                 {/* Platform Dropdown */}
-                {item.name === t('seavoice.header.navigation.platform.title') && item.hasDropdown && isPlatformOpen && (
+                {item.id === 'platform' && item.hasDropdown && isPlatformOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -211,7 +214,7 @@ const Header = () => {
                 )}
 
                 {/* Inbound Solutions Dropdown */}
-                {item.name === t('seavoice.header.navigation.inboundSolutions.title') && item.hasDropdown && isInboundSolutionsOpen && (
+                {item.id === 'inboundSolutions' && item.hasDropdown && isInboundSolutionsOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -240,7 +243,7 @@ const Header = () => {
                 )}
 
                 {/* Outbound Solutions Dropdown */}
-                {item.name === t('seavoice.header.navigation.outboundSolutions.title') && item.hasDropdown && isOutboundSolutionsOpen && (
+                {item.id === 'outboundSolutions' && item.hasDropdown && isOutboundSolutionsOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -344,18 +347,18 @@ const Header = () => {
                     {/* Collapsible header for mobile */}
                     <button
                       onClick={() => {
-                        if (item.name === t('seavoice.header.navigation.platform.title')) setMobilePlatformCollapsed(!mobilePlatformCollapsed);
-                        if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setMobileInboundCollapsed(!mobileInboundCollapsed);
-                        if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setMobileOutboundCollapsed(!mobileOutboundCollapsed);
+                        if (item.id === 'platform') setMobilePlatformCollapsed(!mobilePlatformCollapsed);
+                        if (item.id === 'inboundSolutions') setMobileInboundCollapsed(!mobileInboundCollapsed);
+                        if (item.id === 'outboundSolutions') setMobileOutboundCollapsed(!mobileOutboundCollapsed);
                       }}
                       className="w-full flex items-center justify-between px-3 py-2 text-base font-semibold text-gray-900 hover:text-blue-600"
                     >
                       <span>{item.name}</span>
                       <ChevronDown 
                         className={`w-4 h-4 transition-transform duration-200 ${
-                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
+                          (item.id === 'platform' && !mobilePlatformCollapsed) ||
+                          (item.id === 'inboundSolutions' && !mobileInboundCollapsed) ||
+                          (item.id === 'outboundSolutions' && !mobileOutboundCollapsed)
                             ? 'transform rotate-180' 
                             : ''
                         }`}

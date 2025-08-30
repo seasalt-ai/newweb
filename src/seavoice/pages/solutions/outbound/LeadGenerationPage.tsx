@@ -1,78 +1,114 @@
 
 import { motion } from 'framer-motion';
 import { Users, Target, BarChart3, Phone, CheckCircle, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const LeadGenerationPage = () => {
+  const { t } = useTranslation();
+  const namespace = 'seavoice.pages.solutions.outbound.leadGeneration';
   const features = [
     {
       icon: Target,
-      title: 'Intelligent Lead Qualification',
-      description: 'AI-powered conversations that identify high-quality prospects and gather essential information.',
-      benefits: ['Automated scoring', 'Intent detection', 'Demographic profiling']
+      title: t(`${namespace}.features.intelligentQualification.title`),
+      description: t(`${namespace}.features.intelligentQualification.description`),
+      benefits: [
+        t(`${namespace}.features.intelligentQualification.benefits.automatedScoring`),
+        t(`${namespace}.features.intelligentQualification.benefits.intentDetection`),
+        t(`${namespace}.features.intelligentQualification.benefits.demographicProfiling`)
+      ]
     },
     {
       icon: Phone,
-      title: 'Personalized Outreach',
-      description: 'Dynamic conversations tailored to each prospect based on their profile and interests.',
-      benefits: ['Custom messaging', 'Behavioral triggers', 'Contextual responses']
+      title: t(`${namespace}.features.personalizedOutreach.title`),
+      description: t(`${namespace}.features.personalizedOutreach.description`),
+      benefits: [
+        t(`${namespace}.features.personalizedOutreach.benefits.customMessaging`),
+        t(`${namespace}.features.personalizedOutreach.benefits.behavioralTriggers`),
+        t(`${namespace}.features.personalizedOutreach.benefits.contextualResponses`)
+      ]
     },
     {
       icon: BarChart3,
-      title: 'Real-Time Analytics',
-      description: 'Track campaign performance and lead quality with comprehensive reporting.',
-      benefits: ['Conversion tracking', 'Quality metrics', 'ROI analysis']
+      title: t(`${namespace}.features.realTimeAnalytics.title`),
+      description: t(`${namespace}.features.realTimeAnalytics.description`),
+      benefits: [
+        t(`${namespace}.features.realTimeAnalytics.benefits.conversionTracking`),
+        t(`${namespace}.features.realTimeAnalytics.benefits.qualityMetrics`),
+        t(`${namespace}.features.realTimeAnalytics.benefits.roiAnalysis`)
+      ]
     }
   ];
 
   const qualificationProcess = [
     {
       step: 1,
-      title: 'Initial Contact',
-      description: 'AI agent makes personalized outbound calls to prospects',
-      outcome: 'Engagement rate: 35%'
+      title: t(`${namespace}.process.steps.initialContact.title`),
+      description: t(`${namespace}.process.steps.initialContact.description`),
+      outcome: t(`${namespace}.process.steps.initialContact.outcome`)
     },
     {
       step: 2,
-      title: 'Needs Assessment',
-      description: 'Intelligent questioning to understand prospect requirements',
-      outcome: 'Qualification rate: 60%'
+      title: t(`${namespace}.process.steps.needsAssessment.title`),
+      description: t(`${namespace}.process.steps.needsAssessment.description`),
+      outcome: t(`${namespace}.process.steps.needsAssessment.outcome`)
     },
     {
       step: 3,
-      title: 'Interest Scoring',
-      description: 'AI scores lead quality based on responses and engagement',
-      outcome: 'Accuracy rate: 85%'
+      title: t(`${namespace}.process.steps.interestScoring.title`),
+      description: t(`${namespace}.process.steps.interestScoring.description`),
+      outcome: t(`${namespace}.process.steps.interestScoring.outcome`)
     },
     {
       step: 4,
-      title: 'Handoff to Sales',
-      description: 'Qualified leads transferred to human sales team with full context',
-      outcome: 'Conversion rate: 25%'
+      title: t(`${namespace}.process.steps.handoffToSales.title`),
+      description: t(`${namespace}.process.steps.handoffToSales.description`),
+      outcome: t(`${namespace}.process.steps.handoffToSales.outcome`)
     }
   ];
 
   const benefits = [
-    { metric: '300%', description: 'Increase in qualified leads' },
-    { metric: '60%', description: 'Reduction in cost per lead' },
-    { metric: '85%', description: 'Lead qualification accuracy' },
-    { metric: '25%', description: 'Lead to customer conversion rate' }
+    {
+      metric: t(`${namespace}.results.qualifiedLeads.metric`),
+      description: t(`${namespace}.results.qualifiedLeads.description`)
+    },
+    {
+      metric: t(`${namespace}.results.costReduction.metric`),
+      description: t(`${namespace}.results.costReduction.description`)
+    },
+    {
+      metric: t(`${namespace}.results.accuracy.metric`),
+      description: t(`${namespace}.results.accuracy.description`)
+    },
+    {
+      metric: t(`${namespace}.results.conversion.metric`),
+      description: t(`${namespace}.results.conversion.description`)
+    }
   ];
 
   const industries = [
     {
-      name: 'Real Estate',
-      description: 'Qualify property buyers and sellers, schedule viewings',
-      results: ['40% more qualified leads', '50% faster sales cycle']
+      name: t(`${namespace}.industries.realEstate.name`),
+      description: t(`${namespace}.industries.realEstate.description`),
+      results: [
+        t(`${namespace}.industries.realEstate.results.moreLeads`),
+        t(`${namespace}.industries.realEstate.results.fasterCycle`)
+      ]
     },
     {
-      name: 'Insurance',
-      description: 'Identify prospects needing coverage, gather risk information',
-      results: ['35% increase in policy sales', '60% cost reduction']
+      name: t(`${namespace}.industries.insurance.name`),
+      description: t(`${namespace}.industries.insurance.description`),
+      results: [
+        t(`${namespace}.industries.insurance.results.increaseSales`),
+        t(`${namespace}.industries.insurance.results.costReduction`)
+      ]
     },
     {
-      name: 'Software/SaaS',
-      description: 'Qualify enterprise prospects, schedule product demos',
-      results: ['3x more demo bookings', '45% higher close rate']
+      name: t(`${namespace}.industries.softwareSaas.name`),
+      description: t(`${namespace}.industries.softwareSaas.description`),
+      results: [
+        t(`${namespace}.industries.softwareSaas.results.demoBookings`),
+        t(`${namespace}.industries.softwareSaas.results.closeRate`)
+      ]
     }
   ];
 
@@ -91,19 +127,17 @@ const LeadGenerationPage = () => {
               <Users className="w-16 h-16 text-purple-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Lead Generation & Qualification
+              {t(`${namespace}.hero.title`)}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Transform your sales pipeline with AI-powered lead generation that identifies, 
-              qualifies, and nurtures prospects automatically, delivering only the highest-quality 
-              leads to your sales team.
+              {t(`${namespace}.hero.subtitle`)}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
             >
-              Boost Your Lead Generation
+              {t(`${namespace}.hero.cta`)}
             </motion.button>
           </motion.div>
         </div>
@@ -120,10 +154,10 @@ const LeadGenerationPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Intelligent Lead Generation Features
+              {t(`${namespace}.features.title`)}
             </h2>
             <p className="text-xl text-gray-600">
-              Advanced AI technology that identifies and qualifies prospects with precision
+              {t(`${namespace}.features.subtitle`)}
             </p>
           </motion.div>
 
@@ -167,10 +201,10 @@ const LeadGenerationPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Lead Qualification Process
+              {t(`${namespace}.process.title`)}
             </h2>
             <p className="text-xl text-gray-600">
-              From initial contact to qualified handoff - see how our AI works
+              {t(`${namespace}.process.subtitle`)}
             </p>
           </motion.div>
 
@@ -209,10 +243,10 @@ const LeadGenerationPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Proven Results
+              {t(`${namespace}.results.title`)}
             </h2>
             <p className="text-xl text-gray-600">
-              See the impact of AI-powered lead generation on your sales pipeline
+              {t(`${namespace}.results.subtitle`)}
             </p>
           </motion.div>
 
@@ -245,10 +279,10 @@ const LeadGenerationPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Industry Success Stories
+              {t(`${namespace}.industries.title`)}
             </h2>
             <p className="text-xl text-gray-600">
-              See how different industries benefit from AI lead generation
+              {t(`${namespace}.industries.subtitle`)}
             </p>
           </motion.div>
 
@@ -287,9 +321,9 @@ const LeadGenerationPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Lead Generation?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t(`${namespace}.cta.title`)}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Start generating and qualifying more leads with AI-powered outbound calling
+              {t(`${namespace}.cta.subtitle`)}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -297,14 +331,14 @@ const LeadGenerationPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t(`${namespace}.cta.startTrial`)}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors"
               >
-                Schedule Demo
+                {t(`${namespace}.cta.scheduleDemo`)}
               </motion.button>
             </div>
           </motion.div>

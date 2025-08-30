@@ -1,70 +1,97 @@
 
 import { motion } from 'framer-motion';
 import { Shield, AlertTriangle, Phone, BarChart3, CheckCircle, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ScamShieldPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Shield,
-      title: 'Real-Time Scam Detection',
-      description: 'Advanced AI algorithms identify and block fraudulent calls before they reach your customers.',
-      benefits: ['Pattern recognition', 'Behavioral analysis', 'Instant blocking']
+      title: t('seavoice.solutions.inbound.scamShield.features.realTimeDetection.title'),
+      description: t('seavoice.solutions.inbound.scamShield.features.realTimeDetection.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.scamShield.features.realTimeDetection.benefit1'),
+        t('seavoice.solutions.inbound.scamShield.features.realTimeDetection.benefit2'),
+        t('seavoice.solutions.inbound.scamShield.features.realTimeDetection.benefit3')
+      ]
     },
     {
       icon: AlertTriangle,
-      title: 'Threat Intelligence',
-      description: 'Continuously updated database of known scam patterns and fraudulent phone numbers.',
-      benefits: ['Global threat data', 'Real-time updates', 'Machine learning']
+      title: t('seavoice.solutions.inbound.scamShield.features.threatIntelligence.title'),
+      description: t('seavoice.solutions.inbound.scamShield.features.threatIntelligence.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.scamShield.features.threatIntelligence.benefit1'),
+        t('seavoice.solutions.inbound.scamShield.features.threatIntelligence.benefit2'),
+        t('seavoice.solutions.inbound.scamShield.features.threatIntelligence.benefit3')
+      ]
     },
     {
       icon: Phone,
-      title: 'Customer Protection',
-      description: 'Proactively protect customers from financial fraud and identity theft attempts.',
-      benefits: ['Fraud prevention', 'Identity protection', 'Financial security']
+      title: t('seavoice.solutions.inbound.scamShield.features.customerProtection.title'),
+      description: t('seavoice.solutions.inbound.scamShield.features.customerProtection.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.scamShield.features.customerProtection.benefit1'),
+        t('seavoice.solutions.inbound.scamShield.features.customerProtection.benefit2'),
+        t('seavoice.solutions.inbound.scamShield.features.customerProtection.benefit3')
+      ]
     }
   ];
 
   const scamTypes = [
     {
-      type: 'Phishing Calls',
-      description: 'Attempts to steal personal information or login credentials',
-      detection: 'Voice pattern analysis and keyword detection',
-      action: 'Immediate call termination and customer alert'
+      type: t('seavoice.solutions.inbound.scamShield.scamTypes.phishing.type'),
+      description: t('seavoice.solutions.inbound.scamShield.scamTypes.phishing.description'),
+      detection: t('seavoice.solutions.inbound.scamShield.scamTypes.phishing.detection'),
+      action: t('seavoice.solutions.inbound.scamShield.scamTypes.phishing.action')
     },
     {
-      type: 'Tech Support Scams',
-      description: 'Fake technical support claiming computer problems',
-      detection: 'Script pattern recognition and caller ID verification',
-      action: 'Block call and provide legitimate support contact'
+      type: t('seavoice.solutions.inbound.scamShield.scamTypes.techSupport.type'),
+      description: t('seavoice.solutions.inbound.scamShield.scamTypes.techSupport.description'),
+      detection: t('seavoice.solutions.inbound.scamShield.scamTypes.techSupport.detection'),
+      action: t('seavoice.solutions.inbound.scamShield.scamTypes.techSupport.action')
     },
     {
-      type: 'Financial Fraud',
-      description: 'Impersonating banks or financial institutions',
-      detection: 'Institution verification and voice authentication',
-      action: 'Terminate call and notify real financial institution'
+      type: t('seavoice.solutions.inbound.scamShield.scamTypes.financialFraud.type'),
+      description: t('seavoice.solutions.inbound.scamShield.scamTypes.financialFraud.description'),
+      detection: t('seavoice.solutions.inbound.scamShield.scamTypes.financialFraud.detection'),
+      action: t('seavoice.solutions.inbound.scamShield.scamTypes.financialFraud.action')
     },
     {
-      type: 'Romance Scams',
-      description: 'Building fake relationships to extract money',
-      detection: 'Conversation pattern analysis and emotional manipulation detection',
-      action: 'Warning alerts and resource provision'
+      type: t('seavoice.solutions.inbound.scamShield.scamTypes.romance.type'),
+      description: t('seavoice.solutions.inbound.scamShield.scamTypes.romance.description'),
+      detection: t('seavoice.solutions.inbound.scamShield.scamTypes.romance.detection'),
+      action: t('seavoice.solutions.inbound.scamShield.scamTypes.romance.action')
     }
   ];
 
   const benefits = [
-    { metric: '95%', description: 'Scam call detection accuracy' },
-    { metric: '80%', description: 'Reduction in successful fraud attempts' },
-    { metric: '24/7', description: 'Continuous protection coverage' },
-    { metric: '99.9%', description: 'Legitimate call preservation rate' }
+    { 
+      metric: t('seavoice.solutions.inbound.scamShield.benefits.accuracy.metric'), 
+      description: t('seavoice.solutions.inbound.scamShield.benefits.accuracy.description') 
+    },
+    { 
+      metric: t('seavoice.solutions.inbound.scamShield.benefits.reduction.metric'), 
+      description: t('seavoice.solutions.inbound.scamShield.benefits.reduction.description') 
+    },
+    { 
+      metric: t('seavoice.solutions.inbound.scamShield.benefits.coverage.metric'), 
+      description: t('seavoice.solutions.inbound.scamShield.benefits.coverage.description') 
+    },
+    { 
+      metric: t('seavoice.solutions.inbound.scamShield.benefits.preservation.metric'), 
+      description: t('seavoice.solutions.inbound.scamShield.benefits.preservation.description') 
+    }
   ];
 
   const protectionLayers = [
-    'Caller ID verification',
-    'Voice pattern analysis',
-    'Script detection algorithms',
-    'Behavioral anomaly detection',
-    'Real-time threat intelligence',
-    'Customer education alerts'
+    t('seavoice.solutions.inbound.scamShield.protection.layer1'),
+    t('seavoice.solutions.inbound.scamShield.protection.layer2'),
+    t('seavoice.solutions.inbound.scamShield.protection.layer3'),
+    t('seavoice.solutions.inbound.scamShield.protection.layer4'),
+    t('seavoice.solutions.inbound.scamShield.protection.layer5'),
+    t('seavoice.solutions.inbound.scamShield.protection.layer6')
   ];
 
   return (
@@ -82,19 +109,17 @@ const ScamShieldPage = () => {
               <Shield className="w-16 h-16 text-red-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Scam Shield Protection
+              {t('seavoice.solutions.inbound.scamShield.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Protect your customers from phone scams and fraudulent calls with AI-powered 
-              detection that identifies and blocks threats in real-time, keeping your 
-              community safe from financial fraud.
+              {t('seavoice.solutions.inbound.scamShield.hero.subtitle')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition-colors"
             >
-              Activate Scam Protection
+              {t('seavoice.solutions.inbound.scamShield.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -111,10 +136,10 @@ const ScamShieldPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Advanced Scam Detection
+              {t('seavoice.solutions.inbound.scamShield.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Multi-layered protection against evolving fraud tactics
+              {t('seavoice.solutions.inbound.scamShield.features.subtitle')}
             </p>
           </motion.div>
 
@@ -158,10 +183,10 @@ const ScamShieldPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Protected Against All Scam Types
+              {t('seavoice.solutions.inbound.scamShield.scamTypes.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive protection against the most common fraud tactics
+              {t('seavoice.solutions.inbound.scamShield.scamTypes.subtitle')}
             </p>
           </motion.div>
 
@@ -182,11 +207,11 @@ const ScamShieldPage = () => {
                 <p className="text-gray-600 mb-4">{scam.description}</p>
                 <div className="space-y-3">
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-sm">Detection Method:</h4>
+                    <h4 className="font-semibold text-gray-900 text-sm">{t('seavoice.solutions.inbound.scamShield.scamTypes.detectionMethodLabel')}:</h4>
                     <p className="text-gray-600 text-sm">{scam.detection}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-sm">Protection Action:</h4>
+                    <h4 className="font-semibold text-gray-900 text-sm">{t('seavoice.solutions.inbound.scamShield.scamTypes.protectionActionLabel')}:</h4>
                     <p className="text-gray-600 text-sm">{scam.action}</p>
                   </div>
                 </div>
@@ -207,32 +232,31 @@ const ScamShieldPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Multi-Layer Protection System
+                {t('seavoice.solutions.inbound.scamShield.protectionSystem.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our comprehensive scam shield uses multiple detection methods working together 
-                to provide maximum protection while ensuring legitimate calls always get through.
+                {t('seavoice.solutions.inbound.scamShield.protectionSystem.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Zap className="w-6 h-6 text-red-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Real-Time Analysis</h3>
-                    <p className="text-gray-600">Instant evaluation of every incoming call</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.scamShield.protectionSystem.realTimeAnalysis.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.scamShield.protectionSystem.realTimeAnalysis.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-red-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Continuous Learning</h3>
-                    <p className="text-gray-600">AI improves detection with every blocked scam</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.scamShield.protectionSystem.continuousLearning.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.scamShield.protectionSystem.continuousLearning.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-red-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Zero False Positives</h3>
-                    <p className="text-gray-600">Legitimate calls are never blocked</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.scamShield.protectionSystem.zeroFalsePositives.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.scamShield.protectionSystem.zeroFalsePositives.description')}</p>
                   </div>
                 </div>
               </div>
@@ -245,7 +269,7 @@ const ScamShieldPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Protection Layers</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.solutions.inbound.scamShield.protection.title')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {protectionLayers.map((layer, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -270,10 +294,10 @@ const ScamShieldPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Protection Results
+              {t('seavoice.solutions.inbound.scamShield.results.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Proven effectiveness in stopping fraud and protecting customers
+              {t('seavoice.solutions.inbound.scamShield.results.subtitle')}
             </p>
           </motion.div>
 
@@ -304,9 +328,9 @@ const ScamShieldPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Customers?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.solutions.inbound.scamShield.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Stop scammers in their tracks with AI-powered fraud detection and protection
+              {t('seavoice.solutions.inbound.scamShield.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -314,14 +338,14 @@ const ScamShieldPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Activate Protection
+                {t('seavoice.solutions.inbound.scamShield.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-red-600 transition-colors"
               >
-                Learn More
+                {t('seavoice.solutions.inbound.scamShield.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

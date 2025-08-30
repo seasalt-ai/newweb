@@ -1,52 +1,79 @@
 
 import { motion } from 'framer-motion';
 import { Clock, Phone, Users, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const VirtualAssistantPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Clock,
-      title: '24/7 Availability',
-      description: 'Never miss a call again with round-the-clock AI assistance that handles inquiries at any hour.',
-      benefits: ['Always available', 'No overtime costs', 'Global time zone coverage']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.features.availability.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.features.availability.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.availability.benefits.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.availability.benefits.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.availability.benefits.2')
+      ]
     },
     {
       icon: Phone,
-      title: 'Intelligent Call Handling',
-      description: 'Advanced AI understands caller intent and provides appropriate responses or escalation.',
-      benefits: ['Natural conversations', 'Context awareness', 'Smart escalation']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.features.callHandling.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.features.callHandling.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.callHandling.benefits.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.callHandling.benefits.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.callHandling.benefits.2')
+      ]
     },
     {
       icon: Users,
-      title: 'Seamless Handoffs',
-      description: 'Smooth transition to human agents when needed, with full context preservation.',
-      benefits: ['Context retention', 'Warm transfers', 'No repeated information']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.features.handoffs.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.features.handoffs.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.handoffs.benefits.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.handoffs.benefits.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.features.handoffs.benefits.2')
+      ]
     }
   ];
 
   const useCases = [
     {
-      title: 'Healthcare After-Hours',
-      description: 'Handle patient inquiries, appointment requests, and emergency triage outside office hours.',
-      metrics: ['60% reduction in missed calls', '24/7 patient support', 'HIPAA compliant']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.healthcare.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.healthcare.description'),
+      metrics: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.healthcare.metrics.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.healthcare.metrics.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.healthcare.metrics.2')
+      ]
     },
     {
-      title: 'E-commerce Support',
-      description: 'Assist customers with order inquiries, returns, and product information anytime.',
-      metrics: ['40% increase in customer satisfaction', 'Instant order status', '24/7 availability']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.ecommerce.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.ecommerce.description'),
+      metrics: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.ecommerce.metrics.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.ecommerce.metrics.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.ecommerce.metrics.2')
+      ]
     },
     {
-      title: 'Financial Services',
-      description: 'Provide account information, fraud alerts, and basic banking services after hours.',
-      metrics: ['Secure authentication', 'Fraud prevention', 'Regulatory compliance']
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.financial.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.financial.description'),
+      metrics: [
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.financial.metrics.0'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.financial.metrics.1'),
+        t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.financial.metrics.2')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '80%', description: 'Reduction in after-hours call abandonment' },
-    { metric: '24/7', description: 'Continuous customer service availability' },
-    { metric: '60%', description: 'Cost savings compared to human agents' },
-    { metric: '95%', description: 'Customer satisfaction with AI interactions' }
+    { metric: '80%', description: t('seavoice.pages.solutions.inbound.virtualAssistant.metrics.abandonment.description') },
+    { metric: '24/7', description: t('seavoice.pages.solutions.inbound.virtualAssistant.metrics.availability.description') },
+    { metric: '60%', description: t('seavoice.pages.solutions.inbound.virtualAssistant.metrics.costSavings.description') },
+    { metric: '95%', description: t('seavoice.pages.solutions.inbound.virtualAssistant.metrics.satisfaction.description') }
   ];
 
   return (
@@ -64,19 +91,17 @@ const VirtualAssistantPage = () => {
               <Clock className="w-16 h-16 text-blue-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              24/7 Virtual Assistant for After-Hour Calls
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Never miss another customer call. Our AI virtual assistant provides intelligent, 
-              human-like support around the clock, ensuring your customers always receive 
-              immediate assistance when they need it most.
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              Start Your 24/7 Assistant
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.hero.primaryCta')}
             </motion.button>
           </motion.div>
         </div>
@@ -93,10 +118,10 @@ const VirtualAssistantPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Always-On Customer Support
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive after-hours support that maintains your service quality 24/7
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.features.description')}
             </p>
           </motion.div>
 
@@ -140,10 +165,10 @@ const VirtualAssistantPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Proven Results
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See the impact of 24/7 virtual assistance on your business
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.benefits.description')}
             </p>
           </motion.div>
 
@@ -176,10 +201,10 @@ const VirtualAssistantPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Industry Applications
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how different industries benefit from 24/7 virtual assistance
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.useCases.description')}
             </p>
           </motion.div>
 
@@ -218,9 +243,9 @@ const VirtualAssistantPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready for 24/7 Customer Support?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.virtualAssistant.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Transform your after-hours customer experience with intelligent virtual assistance
+              {t('seavoice.pages.solutions.inbound.virtualAssistant.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -228,14 +253,14 @@ const VirtualAssistantPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.pages.solutions.inbound.virtualAssistant.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
               >
-                Schedule Demo
+                {t('seavoice.pages.solutions.inbound.virtualAssistant.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

@@ -1,70 +1,96 @@
 
 import { motion } from 'framer-motion';
 import { CreditCard, Shield, Clock, BarChart3, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CollectionsPage = () => {
+  const { t } = useTranslation();
   const features = [
     {
       icon: CreditCard,
-      title: 'Automated Payment Reminders',
-      description: 'Gentle, professional reminders that maintain customer relationships while encouraging payment.',
-      benefits: ['Customizable messaging', 'Multiple contact attempts', 'Payment plan options']
+      title: t('seavoice.pages.solutions.outbound.features.paymentReminders.title'),
+      description: t('seavoice.pages.solutions.outbound.features.paymentReminders.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.features.paymentReminders.benefit1'),
+        t('seavoice.pages.solutions.outbound.features.paymentReminders.benefit2'),
+        t('seavoice.pages.solutions.outbound.features.paymentReminders.benefit3')
+      ]
     },
     {
       icon: Shield,
-      title: 'Compliance & Regulation',
-      description: 'Built-in compliance with FDCPA, TCPA, and other debt collection regulations.',
-      benefits: ['Regulatory compliance', 'Call recording', 'Audit trails']
+      title: t('seavoice.pages.solutions.outbound.features.compliance.title'),
+      description: t('seavoice.pages.solutions.outbound.features.compliance.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.features.compliance.benefit1'),
+        t('seavoice.pages.solutions.outbound.features.compliance.benefit2'),
+        t('seavoice.pages.solutions.outbound.features.compliance.benefit3')
+      ]
     },
     {
       icon: Clock,
-      title: 'Optimal Timing',
-      description: 'AI determines the best times to contact customers for maximum response rates.',
-      benefits: ['Time zone awareness', 'Behavioral patterns', 'Response optimization']
+      title: t('seavoice.pages.solutions.outbound.features.optimalTiming.title'),
+      description: t('seavoice.pages.solutions.outbound.features.optimalTiming.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.features.optimalTiming.benefit1'),
+        t('seavoice.pages.solutions.outbound.features.optimalTiming.benefit2'),
+        t('seavoice.pages.solutions.outbound.features.optimalTiming.benefit3')
+      ]
     }
   ];
 
   const collectionProcess = [
     {
-      stage: 'Early Reminder',
-      description: 'Friendly payment reminders for recently overdue accounts',
-      approach: 'Soft, helpful tone with payment options',
-      success: '65% payment rate'
+      stage: t('seavoice.pages.solutions.outbound.collectionProcess.earlyReminder.stage'),
+      description: t('seavoice.pages.solutions.outbound.collectionProcess.earlyReminder.description'),
+      approach: t('seavoice.pages.solutions.outbound.collectionProcess.earlyReminder.approach'),
+      success: t('seavoice.pages.solutions.outbound.collectionProcess.earlyReminder.success')
     },
     {
-      stage: 'Follow-up',
-      description: 'More direct communication for persistent overdue accounts',
-      approach: 'Clear consequences, payment plan offers',
-      success: '45% payment rate'
+      stage: t('seavoice.pages.solutions.outbound.collectionProcess.followUp.stage'),
+      description: t('seavoice.pages.solutions.outbound.collectionProcess.followUp.description'),
+      approach: t('seavoice.pages.solutions.outbound.collectionProcess.followUp.approach'),
+      success: t('seavoice.pages.solutions.outbound.collectionProcess.followUp.success')
     },
     {
-      stage: 'Final Notice',
-      description: 'Last attempt before escalation to human collectors',
-      approach: 'Urgent tone, final payment deadline',
-      success: '30% payment rate'
+      stage: t('seavoice.pages.solutions.outbound.collectionProcess.finalNotice.stage'),
+      description: t('seavoice.pages.solutions.outbound.collectionProcess.finalNotice.description'),
+      approach: t('seavoice.pages.solutions.outbound.collectionProcess.finalNotice.approach'),
+      success: t('seavoice.pages.solutions.outbound.collectionProcess.finalNotice.success')
     },
     {
-      stage: 'Human Handoff',
-      description: 'Complex cases transferred to human collectors with full context',
-      approach: 'Detailed account history and previous interactions',
-      success: '25% resolution rate'
+      stage: t('seavoice.pages.solutions.outbound.collectionProcess.humanHandoff.stage'),
+      description: t('seavoice.pages.solutions.outbound.collectionProcess.humanHandoff.description'),
+      approach: t('seavoice.pages.solutions.outbound.collectionProcess.humanHandoff.approach'),
+      success: t('seavoice.pages.solutions.outbound.collectionProcess.humanHandoff.success')
     }
   ];
 
   const benefits = [
-    { metric: '40%', description: 'Increase in collection rates' },
-    { metric: '60%', description: 'Reduction in collection costs' },
-    { metric: '80%', description: 'Faster payment processing' },
-    { metric: '95%', description: 'Regulatory compliance rate' }
+    { 
+      metric: t('seavoice.pages.solutions.outbound.benefits.collectionRates.metric'), 
+      description: t('seavoice.pages.solutions.outbound.benefits.collectionRates.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.benefits.costReduction.metric'), 
+      description: t('seavoice.pages.solutions.outbound.benefits.costReduction.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.benefits.paymentProcessing.metric'), 
+      description: t('seavoice.pages.solutions.outbound.benefits.paymentProcessing.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.benefits.complianceRate.metric'), 
+      description: t('seavoice.pages.solutions.outbound.benefits.complianceRate.description') 
+    }
   ];
 
   const complianceFeatures = [
-    'FDCPA Compliance',
-    'TCPA Compliance',
-    'State Regulation Adherence',
-    'Call Recording & Monitoring',
-    'Dispute Handling',
-    'Cease & Desist Management'
+    t('seavoice.pages.solutions.outbound.complianceSection.features.fdcpaCompliance'),
+    t('seavoice.pages.solutions.outbound.complianceSection.features.tcpaCompliance'),
+    t('seavoice.pages.solutions.outbound.complianceSection.features.stateRegulation'),
+    t('seavoice.pages.solutions.outbound.complianceSection.features.callRecording'),
+    t('seavoice.pages.solutions.outbound.complianceSection.features.disputeHandling'),
+    t('seavoice.pages.solutions.outbound.complianceSection.features.ceaseDesist')
   ];
 
   return (
@@ -82,19 +108,17 @@ const CollectionsPage = () => {
               <CreditCard className="w-16 h-16 text-orange-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Collections Service Automation
+              {t('seavoice.pages.solutions.outbound.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Streamline your debt collection process with AI-powered calling that maintains 
-              customer relationships while improving collection rates. Fully compliant with 
-              FDCPA and TCPA regulations.
+              {t('seavoice.pages.solutions.outbound.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors"
             >
-              Improve Collection Rates
+              {t('seavoice.pages.solutions.outbound.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -111,10 +135,10 @@ const CollectionsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Smart Collections Features
+              {t('seavoice.pages.solutions.outbound.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Professional, compliant, and effective debt collection automation
+              {t('seavoice.pages.solutions.outbound.features.subtitle')}
             </p>
           </motion.div>
 
@@ -158,10 +182,10 @@ const CollectionsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Progressive Collection Strategy
+              {t('seavoice.pages.solutions.outbound.collectionProcess.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Escalating approach that maximizes collection while preserving relationships
+              {t('seavoice.pages.solutions.outbound.collectionProcess.subtitle')}
             </p>
           </motion.div>
 
@@ -203,33 +227,31 @@ const CollectionsPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Built-in Compliance
+                {t('seavoice.pages.solutions.outbound.complianceSection.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our collections platform is designed with compliance at its core, ensuring 
-                all interactions meet federal and state regulations while maintaining 
-                professional standards.
+                {t('seavoice.pages.solutions.outbound.complianceSection.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-orange-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Regulatory Compliance</h3>
-                    <p className="text-gray-600">FDCPA, TCPA, and state-specific regulations</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.regulatoryCompliance.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.regulatoryCompliance.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-orange-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Complete Audit Trail</h3>
-                    <p className="text-gray-600">Detailed logging of all interactions and outcomes</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.auditTrail.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.auditTrail.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Clock className="w-6 h-6 text-orange-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Timing Controls</h3>
-                    <p className="text-gray-600">Automatic adherence to calling time restrictions</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.timingControls.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.complianceSection.subFeatures.timingControls.description')}</p>
                   </div>
                 </div>
               </div>
@@ -242,7 +264,7 @@ const CollectionsPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Compliance Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.complianceSection.featuresTitle')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {complianceFeatures.map((feature, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -267,10 +289,10 @@ const CollectionsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Proven Collection Results
+              {t('seavoice.pages.solutions.outbound.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See the impact of AI-powered collections on your recovery rates
+              {t('seavoice.pages.solutions.outbound.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -301,9 +323,9 @@ const CollectionsPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Improve Your Collection Rates?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Start recovering more debt with compliant, professional AI-powered collections
+              {t('seavoice.pages.solutions.outbound.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -311,14 +333,14 @@ const CollectionsPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.pages.solutions.outbound.cta.startFreeTrial')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors"
               >
-                Schedule Demo
+                {t('seavoice.pages.solutions.outbound.cta.scheduleDemo')}
               </motion.button>
             </div>
           </motion.div>

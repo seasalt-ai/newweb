@@ -1,70 +1,129 @@
 
 import { motion } from 'framer-motion';
 import { MessageSquare, BarChart3, Users, Star, CheckCircle, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CustomerSurveysPage = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: MessageSquare,
-      title: 'Conversational Surveys',
-      description: 'Natural voice conversations that feel like friendly discussions rather than formal surveys.',
-      benefits: ['Higher response rates', 'Natural interactions', 'Detailed feedback']
+      title: t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.2')
+      ]
     },
     {
       icon: BarChart3,
-      title: 'Real-Time Analytics',
-      description: 'Instant analysis and reporting of survey responses with actionable insights.',
-      benefits: ['Live dashboards', 'Sentiment analysis', 'Trend identification']
+      title: t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.2')
+      ]
     },
     {
       icon: Users,
-      title: 'Targeted Outreach',
-      description: 'Reach specific customer segments with personalized survey experiences.',
-      benefits: ['Demographic targeting', 'Behavioral segmentation', 'Custom timing']
+      title: t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.2')
+      ]
     }
   ];
 
   const surveyTypes = [
     {
-      type: 'Customer Satisfaction (CSAT)',
-      description: 'Measure overall satisfaction with products, services, or interactions',
-      questions: ['How satisfied are you with our service?', 'What could we improve?', 'Would you recommend us?'],
-      metrics: ['CSAT Score', 'Net Promoter Score', 'Response Rate']
+      type: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.description'),
+      questions: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.2')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.2')
+      ]
     },
     {
-      type: 'Post-Purchase Feedback',
-      description: 'Gather insights immediately after a purchase or service interaction',
-      questions: ['How was your buying experience?', 'Did the product meet expectations?', 'Any delivery issues?'],
-      metrics: ['Purchase Satisfaction', 'Delivery Rating', 'Product Quality']
+      type: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.description'),
+      questions: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.2')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.2')
+      ]
     },
     {
-      type: 'Product Development',
-      description: 'Collect input for new features, products, or service improvements',
-      questions: ['What features would you like to see?', 'How do you use our product?', 'What problems need solving?'],
-      metrics: ['Feature Requests', 'Usage Patterns', 'Pain Points']
+      type: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.description'),
+      questions: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.2')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.2')
+      ]
     },
     {
-      type: 'Market Research',
-      description: 'Understand market trends, preferences, and competitive landscape',
-      questions: ['What brands do you prefer?', 'How do you make purchasing decisions?', 'What influences your choices?'],
-      metrics: ['Brand Awareness', 'Purchase Drivers', 'Market Trends']
+      type: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.title'),
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.description'),
+      questions: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.2')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.0'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.1'),
+        t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.2')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '3x', description: 'Higher response rate than traditional surveys' },
-    { metric: '85%', description: 'Survey completion rate' },
-    { metric: '60%', description: 'More detailed feedback collected' },
-    { metric: '24/7', description: 'Automated survey deployment' }
+    { 
+      metric: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.0.metric'), 
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.0.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.1.metric'), 
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.1.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.2.metric'), 
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.2.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.3.metric'), 
+      description: t('seavoice.pages.solutions.outbound.customerSurveys.benefits.3.description') 
+    }
   ];
 
   const analysisFeatures = [
-    'Real-time sentiment analysis',
-    'Automated response categorization',
-    'Trend identification and alerts',
-    'Custom reporting dashboards',
-    'Integration with CRM systems',
-    'Actionable insights generation'
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.0'),
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.1'),
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.2'),
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.3'),
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.4'),
+    t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.5')
   ];
 
   return (
@@ -82,19 +141,17 @@ const CustomerSurveysPage = () => {
               <MessageSquare className="w-16 h-16 text-cyan-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Customer Survey Automation
+              {t('seavoice.pages.solutions.outbound.customerSurveys.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Gather valuable customer feedback through natural voice conversations. 
-              Conduct automated surveys that feel personal and engaging, achieving 
-              higher response rates and more detailed insights than traditional methods.
+              {t('seavoice.pages.solutions.outbound.customerSurveys.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-cyan-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-cyan-700 transition-colors"
             >
-              Start Survey Campaign
+              {t('seavoice.pages.solutions.outbound.customerSurveys.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -111,10 +168,10 @@ const CustomerSurveysPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Intelligent Survey Features
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Advanced AI technology that makes surveys feel like natural conversations
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.features.subtitle')}
             </p>
           </motion.div>
 
@@ -158,10 +215,10 @@ const CustomerSurveysPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Comprehensive Survey Solutions
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.surveys.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Tailored survey types for different business objectives and insights
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.surveys.subtitle')}
             </p>
           </motion.div>
 
@@ -179,7 +236,7 @@ const CustomerSurveysPage = () => {
                 <p className="text-gray-600 mb-6">{survey.description}</p>
                 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 text-sm mb-3">Sample Questions:</h4>
+                  <h4 className="font-semibold text-gray-900 text-sm mb-3">{t('seavoice.pages.solutions.outbound.customerSurveys.sections.sampleQuestions')}</h4>
                   <div className="space-y-2">
                     {survey.questions.map((question, questionIndex) => (
                       <div key={questionIndex} className="flex items-start">
@@ -191,7 +248,7 @@ const CustomerSurveysPage = () => {
                 </div>
                 
                 <div className="p-4 bg-cyan-50 rounded-lg">
-                  <h4 className="font-semibold text-cyan-900 text-sm mb-2">Key Metrics:</h4>
+                  <h4 className="font-semibold text-cyan-900 text-sm mb-2">{t('seavoice.pages.solutions.outbound.customerSurveys.sections.keyMetrics')}</h4>
                   <div className="flex flex-wrap gap-2">
                     {survey.metrics.map((metric, metricIndex) => (
                       <span key={metricIndex} className="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
@@ -217,33 +274,31 @@ const CustomerSurveysPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Advanced Analytics & Insights
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.analytics.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our AI doesn't just collect responses—it analyzes sentiment, identifies trends, 
-                and provides actionable insights that help you make data-driven decisions to 
-                improve your business.
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.analytics.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Star className="w-6 h-6 text-cyan-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Sentiment Analysis</h3>
-                    <p className="text-gray-600">Understand emotional tone behind responses</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.sentimentAnalysis.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.sentimentAnalysis.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <TrendingUp className="w-6 h-6 text-cyan-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Trend Identification</h3>
-                    <p className="text-gray-600">Spot patterns and emerging issues early</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.trendIdentification.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.trendIdentification.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-cyan-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Actionable Reports</h3>
-                    <p className="text-gray-600">Get specific recommendations for improvement</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.actionableReports.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.analytics.actionableReports.description')}</p>
                   </div>
                 </div>
               </div>
@@ -256,7 +311,7 @@ const CustomerSurveysPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Analysis Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.customerSurveys.sections.analysisFeatures.title')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {analysisFeatures.map((feature, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -267,23 +322,23 @@ const CustomerSurveysPage = () => {
               </div>
               
               <div className="mt-6 p-4 bg-white rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Live Survey Dashboard</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.title')}</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Responses Today:</span>
-                    <span className="font-semibold text-cyan-600">1,847</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.responsesToday')}</span>
+                    <span className="font-semibold text-cyan-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.responsesTodayValue')}</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Completion Rate:</span>
-                    <span className="font-semibold text-green-600">85.3%</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.completionRate')}</span>
+                    <span className="font-semibold text-green-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.completionRateValue')}</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Avg. Satisfaction:</span>
-                    <span className="font-semibold text-blue-600">4.2/5</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.avgSatisfaction')}</span>
+                    <span className="font-semibold text-blue-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.avgSatisfactionValue')}</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Sentiment:</span>
-                    <span className="font-semibold text-green-600">78% Positive</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.sentiment')}</span>
+                    <span className="font-semibold text-green-600">{t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.sentimentValue')}</span>
                   </div>
                 </div>
               </div>
@@ -303,10 +358,10 @@ const CustomerSurveysPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Survey Performance Results
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Proven improvements in feedback collection and customer insights
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -337,9 +392,9 @@ const CustomerSurveysPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Gather Better Customer Insights?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.customerSurveys.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Start collecting valuable feedback with conversational surveys that customers actually want to complete
+              {t('seavoice.pages.solutions.outbound.customerSurveys.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -347,14 +402,14 @@ const CustomerSurveysPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-cyan-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Launch Survey Campaign
+                {t('seavoice.pages.solutions.outbound.customerSurveys.cta.primaryBtn')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-cyan-600 transition-colors"
               >
-                See Sample Survey
+                {t('seavoice.pages.solutions.outbound.customerSurveys.cta.secondaryBtn')}
               </motion.button>
             </div>
           </motion.div>

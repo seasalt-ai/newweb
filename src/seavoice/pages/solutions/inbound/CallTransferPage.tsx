@@ -1,57 +1,72 @@
 
 import { motion } from 'framer-motion';
 import { PhoneCall, Users, Zap, CheckCircle, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CallTransferPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Zap,
-      title: 'Intelligent Routing',
-      description: 'AI analyzes caller intent and routes to the most appropriate department or agent.',
-      benefits: ['Intent recognition', 'Skill-based routing', 'Priority handling']
+      title: t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.title'),
+      description: t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.0'),
+        t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.1'),
+        t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.2')
+      ]
     },
     {
       icon: Users,
-      title: 'Agent Optimization',
-      description: 'Balance workload across agents and ensure calls reach available specialists.',
-      benefits: ['Load balancing', 'Availability checking', 'Expertise matching']
+      title: t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.title'),
+      description: t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.0'),
+        t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.1'),
+        t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.2')
+      ]
     },
     {
       icon: Clock,
-      title: 'Reduced Wait Times',
-      description: 'Minimize customer wait times with efficient routing and queue management.',
-      benefits: ['Queue optimization', 'Callback options', 'Real-time updates']
+      title: t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.title'),
+      description: t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.0'),
+        t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.1'),
+        t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.2')
+      ]
     }
   ];
 
   const routingRules = [
     {
-      trigger: 'Billing Inquiry',
-      action: 'Route to Billing Department',
-      result: '90% first-call resolution'
+      trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.trigger'),
+      action: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.action'),
+      result: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.result')
     },
     {
-      trigger: 'Technical Support',
-      action: 'Route to Technical Team',
-      result: '85% issue resolution'
+      trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.trigger'),
+      action: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.action'),
+      result: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.result')
     },
     {
-      trigger: 'Sales Interest',
-      action: 'Route to Sales Team',
-      result: '40% conversion rate'
+      trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.trigger'),
+      action: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.action'),
+      result: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.result')
     },
     {
-      trigger: 'VIP Customer',
-      action: 'Priority Queue',
-      result: '< 30 second wait time'
+      trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.trigger'),
+      action: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.action'),
+      result: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.result')
     }
   ];
 
   const benefits = [
-    { metric: '70%', description: 'Reduction in average wait time' },
-    { metric: '85%', description: 'First-call resolution rate' },
-    { metric: '40%', description: 'Improvement in agent efficiency' },
-    { metric: '95%', description: 'Accurate routing to correct department' }
+    { metric: '70%', description: t('seavoice.solutions.inbound.callTransfer.metrics.waitTime.description') },
+    { metric: '85%', description: t('seavoice.solutions.inbound.callTransfer.metrics.resolution.description') },
+    { metric: '40%', description: t('seavoice.solutions.inbound.callTransfer.metrics.efficiency.description') },
+    { metric: '95%', description: t('seavoice.solutions.inbound.callTransfer.metrics.accuracy.description') }
   ];
 
   return (
@@ -69,19 +84,17 @@ const CallTransferPage = () => {
               <PhoneCall className="w-16 h-16 text-green-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Smart Call Transfer During Business Hours
+              {t('seavoice.solutions.inbound.callTransfer.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Revolutionize your call routing with AI-powered intelligent transfer that understands 
-              caller intent and connects them to the right person instantly, reducing wait times 
-              and improving customer satisfaction.
+              {t('seavoice.solutions.inbound.callTransfer.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
             >
-              Optimize Your Call Routing
+              {t('seavoice.solutions.inbound.callTransfer.hero.primaryCta')}
             </motion.button>
           </motion.div>
         </div>
@@ -98,10 +111,10 @@ const CallTransferPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Intelligent Call Routing Features
+              {t('seavoice.solutions.inbound.callTransfer.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Advanced AI technology that understands and routes calls with precision
+              {t('seavoice.solutions.inbound.callTransfer.features.description')}
             </p>
           </motion.div>
 
@@ -145,10 +158,10 @@ const CallTransferPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Smart Routing in Action
+              {t('seavoice.solutions.inbound.callTransfer.routing.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how our AI identifies intent and routes calls for optimal outcomes
+              {t('seavoice.solutions.inbound.callTransfer.routing.description')}
             </p>
           </motion.div>
 
@@ -189,10 +202,10 @@ const CallTransferPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Measurable Impact
+              {t('seavoice.solutions.inbound.callTransfer.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Real results from implementing intelligent call transfer
+              {t('seavoice.solutions.inbound.callTransfer.benefits.description')}
             </p>
           </motion.div>
 
@@ -223,9 +236,9 @@ const CallTransferPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Optimize Your Call Routing?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.solutions.inbound.callTransfer.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Reduce wait times and improve customer satisfaction with intelligent call transfer
+              {t('seavoice.solutions.inbound.callTransfer.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -233,14 +246,14 @@ const CallTransferPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.solutions.inbound.callTransfer.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
               >
-                See Demo
+                {t('seavoice.solutions.inbound.callTransfer.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>
