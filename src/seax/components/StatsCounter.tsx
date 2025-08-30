@@ -121,10 +121,12 @@ const StatsCounter = () => {
               <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                 <div className={`text-4xl font-bold ${stat.color} mb-2`}>
                   {formatValue(stat)}
-                  <span className="text-2xl">{stat.suffix}</span>
+                  <span className="text-2xl">
+                    {t(`statsCounter.stats.${stat.id}.suffix`)}
+                  </span>
                 </div>
                 <div className="text-sm text-gray-600 font-medium">
-                  {stat.label}
+                  {t(`statsCounter.stats.${stat.id}.label`)}
                 </div>
               </div>
             </div>

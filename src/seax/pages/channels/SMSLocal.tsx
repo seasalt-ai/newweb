@@ -13,9 +13,12 @@ interface Pricing {
 const SMSLocal = () => {
   const { t } = useTranslation();
 
-  // features 和 useCases 获取数组
-  const features: string[] = t('seax.channels.smsLocal.features.items', { returnObjects: true }) as string[];
-  const useCases: string[] = t('seax.channels.smsLocal.useCases.items', { returnObjects: true }) as string[];
+  // features 和 useCases 获取对象并转换为数组
+  const featuresObj = t('seax.channels.smsLocal.features.items', { returnObjects: true }) as Record<string, string>;
+  const features: string[] = Object.values(featuresObj || {});
+  
+  const useCasesObj = t('seax.channels.smsLocal.useCases.items', { returnObjects: true }) as Record<string, string>;
+  const useCases: string[] = Object.values(useCasesObj || {});
 
   // pricing 正規化結構：從 label/value 物件轉換為模板所需的扁平結構
   const pricingRaw = t('seax.channels.smsLocal.pricing', { returnObjects: true }) as any;

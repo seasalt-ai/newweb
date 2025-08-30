@@ -335,12 +335,20 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.seax.messages.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.messagesPerDay')}</div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.scaleComparison.seax.stats.messagesPerDay')}
+                  </div>
                 </div>
+
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">{comparisonData.seax.time}</div>
-                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.timeRequired')}</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">
+                    {comparisonData.seax.time}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.scaleComparison.seax.stats.timeRequired')}
+                  </div>
                 </div>
+
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <motion.div
                     key={comparisonData.seax.reach}
@@ -350,25 +358,34 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.seax.reach.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.peopleReached')}</div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.scaleComparison.seax.stats.peopleReached')}
+                  </div>
                 </div>
+
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">{comparisonData.seax.efficiency}%</div>
-                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.efficiency')}</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">
+                    {comparisonData.seax.efficiency}%
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.scaleComparison.seax.stats.efficiency')}
+                  </div>
                 </div>
               </div>
-            </div>
+              </div>
 
-            {/* Advantage Badge */}
-            <motion.div
-              animate={{ y: [0, -5, 0] }}
-              transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
-              className="absolute -bottom-4 right-4 bg-green-500 text-white rounded-lg p-3 shadow-lg"
-            >
-              <div className="text-sm font-medium">{t('seax.scaleComparison.seax.badge')}</div>
-            </motion.div>
-          </motion.div>
-        </div>
+              {/* Advantage Badge */}
+              <motion.div
+                animate={{ y: [0, -5, 0] }}
+                transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
+                className="absolute -bottom-4 right-4 bg-green-500 text-white rounded-lg p-3 shadow-lg"
+              >
+                <div className="text-sm font-medium">
+                  {t('seax.scaleComparison.seax.badge')}
+                </div>
+              </motion.div>
+              </motion.div>
+              </div>
 
         {/* Bottom Summary */}
         <motion.div
@@ -381,15 +398,15 @@ const ScaleComparison = () => {
             <h3 className="text-3xl font-bold mb-4">{t('seax.scaleComparison.advantage.title')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <div className="text-4xl font-bold mb-2">5000x</div>
+                <div className="text-4xl font-bold mb-2">{t('seax.scaleComparison.advantage.fasterMultiplier')}</div>
                 <div className="text-blue-100">{t('seax.scaleComparison.advantage.fasterExecution')}</div>
               </div>
               <div>
-                <div className="text-4xl font-bold mb-2">20000x</div>
+                <div className="text-4xl font-bold mb-2">{t('seax.scaleComparison.advantage.reachMultiplier')}</div>
                 <div className="text-blue-100">{t('seax.scaleComparison.advantage.moreReach')}</div>
               </div>
               <div>
-                <div className="text-4xl font-bold mb-2">280%</div>
+                <div className="text-4xl font-bold mb-2">{t('seax.scaleComparison.advantage.efficiencyMultiplier')}</div>
                 <div className="text-blue-100">{t('seax.scaleComparison.advantage.higherEfficiency')}</div>
               </div>
             </div>

@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-30T13:21:27.595Z
+Generated: 2025-08-30T15:29:03.754Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 5200
+- **Base Language (en) Keys**: 5489
 - **Components Analyzed**: 210
-- **Translation Coverage**: 67.29%
-- **Missing Keys**: 2260
-- **Hardcoded Strings Found**: 2446
+- **Translation Coverage**: 70.76%
+- **Missing Keys**: 2024
+- **Hardcoded Strings Found**: 2435
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 17.00% | ❌ Incomplete |
-| de | 887 | 16.58% | ❌ Incomplete |
-| en | 5200 | 100.00% | ✅ Good |
-| es | 835 | 15.58% | ❌ Incomplete |
-| fa | 755 | 14.10% | ❌ Incomplete |
-| fil | 739 | 13.77% | ❌ Incomplete |
-| fr | 739 | 13.77% | ❌ Incomplete |
-| hi | 690 | 12.83% | ❌ Incomplete |
-| id | 690 | 12.83% | ❌ Incomplete |
-| ja | 690 | 12.85% | ❌ Incomplete |
-| ko | 690 | 12.83% | ❌ Incomplete |
-| ms | 690 | 12.83% | ❌ Incomplete |
-| pl | 676 | 12.56% | ❌ Incomplete |
-| pt | 676 | 12.56% | ❌ Incomplete |
-| ru | 676 | 12.56% | ❌ Incomplete |
-| ta | 739 | 13.77% | ❌ Incomplete |
-| th | 739 | 13.77% | ❌ Incomplete |
-| vi | 739 | 13.77% | ❌ Incomplete |
-| zh-CN | 802 | 14.98% | ❌ Incomplete |
-| zh-TW | 5233 | 98.77% | ✅ Good |
+| ar | 909 | 16.10% | ❌ Incomplete |
+| de | 887 | 15.70% | ❌ Incomplete |
+| en | 5489 | 100.00% | ✅ Good |
+| es | 835 | 14.76% | ❌ Incomplete |
+| fa | 755 | 13.35% | ❌ Incomplete |
+| fil | 739 | 13.04% | ❌ Incomplete |
+| fr | 739 | 13.04% | ❌ Incomplete |
+| hi | 690 | 12.15% | ❌ Incomplete |
+| id | 690 | 12.15% | ❌ Incomplete |
+| ja | 690 | 12.17% | ❌ Incomplete |
+| ko | 690 | 12.15% | ❌ Incomplete |
+| ms | 690 | 12.15% | ❌ Incomplete |
+| pl | 676 | 11.90% | ❌ Incomplete |
+| pt | 676 | 11.90% | ❌ Incomplete |
+| ru | 676 | 11.90% | ❌ Incomplete |
+| ta | 739 | 13.04% | ❌ Incomplete |
+| th | 739 | 13.04% | ❌ Incomplete |
+| vi | 739 | 13.04% | ❌ Incomplete |
+| zh-CN | 802 | 14.19% | ❌ Incomplete |
+| zh-TW | 5585 | 99.98% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 2260 keys used in components but missing from en.json
+**Description**: 2024 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 2446 hardcoded strings that should be internationalized
+**Description**: Found 2435 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1963,8 +1963,8 @@ seax.channelTemplate.pricing.subtitle
 seax.channelTemplate.pricing.setup
 seax.channelTemplate.pricing.monthly
 seax.channelTemplate.pricing.perMessage
-seax.channelTemplate.cta.getStarted
-seax.channelTemplate.cta.viewPricing
+seax.realTimeDashboard.cards.deliveryValue
+seax.realTimeDashboard.cards.hourlyValue
 seax.features.core.bulkMessaging.benefits
 seax.features.core.aiFollowup.benefits
 seax.features.core.analytics.benefits
@@ -2067,261 +2067,25 @@ seax.resources.cta.title
 seax.resources.cta.subtitle
 seax.resources.cta.signUp
 seax.resources.cta.viewPricing
-seax.home.scalingProblem.manualOutreach.title
-seax.home.scalingProblem.manualOutreach.description
-seax.home.scalingProblem.seaxAutomation.title
-seax.home.scalingProblem.seaxAutomation.description
-seax.home.scalingProblem.stats.messagesSent.value
-seax.home.scalingProblem.stats.messagesSent.label
-seax.home.scalingProblem.stats.callsPerHour.value
-seax.home.scalingProblem.stats.callsPerHour.label
-seax.home.scalingProblem.stats.deliveryRate.value
-seax.home.scalingProblem.stats.deliveryRate.label
-seax.home.scalingProblem.stats.roiAverage.value
-seax.home.scalingProblem.stats.roiAverage.label
-seax.home.cta.title
-seax.home.cta.subtitle
-seax.home.cta.demoButton
-seax.home.cta.signupButton
 seax.channels.smsLocal.features.items
 seax.channels.smsLocal.useCases.items
 seax.channels.smsLocal.pricing
 seax.channels.smsShortCode.features.items
 seax.channels.smsShortCode.useCases.items
 seax.channels.smsShortCode.pricing
-seax.channels.smsShortCode.hero.campaign.title
-seax.channels.smsShortCode.hero.campaign.status
-seax.channels.smsShortCode.hero.campaign.messagesSentValue
-seax.channels.smsShortCode.hero.campaign.messagesSent
-seax.channels.smsShortCode.hero.campaign.deliveryRateValue
-seax.channels.smsShortCode.hero.campaign.deliveryRate
-seax.channels.smsShortCode.hero.recentActivity.title
-seax.channels.smsShortCode.hero.recentActivity.marketing.title
-seax.channels.smsShortCode.hero.recentActivity.marketing.details
-seax.channels.smsShortCode.hero.recentActivity.appointment.title
-seax.channels.smsShortCode.hero.recentActivity.appointment.details
-seax.channels.smsShortCode.stats.messagesPerSecondValue
-seax.channels.smsShortCode.stats.messagesPerSecond
-seax.channels.smsShortCode.stats.deliveryRateValue
-seax.channels.smsShortCode.stats.deliveryRate
-seax.channels.smsShortCode.stats.digitNumbersValue
-seax.channels.smsShortCode.stats.digitNumbers
-seax.channels.smsShortCode.testimonial.quote
-seax.channels.smsShortCode.testimonial.author
-seax.channels.smsShortCode.testimonial.company
-seax.channels.smsShortCode.testimonial.results
-seax.channels.smsShortCode.title
-seax.channels.smsShortCode.subtitle
-seax.channels.smsShortCode.description
-seax.channels.smsShortCode.seo.title
-seax.channels.smsShortCode.seo.description
-seax.channels.smsShortCode.features.title
-seax.channels.smsShortCode.features.subtitle
-seax.channels.smsShortCode.useCases.title
-seax.channels.smsShortCode.useCases.subtitle
-seax.channels.smsShortCode.pricing.title
-seax.channels.smsShortCode.pricing.subtitle
-seax.channels.smsShortCode.premiumFeatures.title
-seax.channels.smsShortCode.premiumFeatures.description
-seax.channels.smsShortCode.premiumFeatures.ultraThroughput.title
-seax.channels.smsShortCode.premiumFeatures.ultraThroughput.description
-seax.channels.smsShortCode.premiumFeatures.premiumRoutes.title
-seax.channels.smsShortCode.premiumFeatures.premiumRoutes.description
-seax.channels.smsShortCode.premiumFeatures.brandRecognition.title
-seax.channels.smsShortCode.premiumFeatures.brandRecognition.description
 seax.channels.smsTollFree.features.items
 seax.channels.smsTollFree.useCases.items
 seax.channels.smsTollFree.pricing
-seax.channels.smsTollFree.pricing.setupLabel
-seax.channels.smsTollFree.pricing.monthlyLabel
-seax.channels.smsTollFree.pricing.perMessageLabel
-seax.channels.smsTollFree.hero.title
-seax.channels.smsTollFree.hero.status
-seax.channels.smsTollFree.hero.dedicatedNumber
-seax.channels.smsTollFree.hero.deliveryRate
-seax.channels.smsTollFree.hero.higherTrust
-seax.channels.smsTollFree.hero.recentMessages.title
-seax.channels.smsTollFree.hero.recentMessages.customerSupport.title
-seax.channels.smsTollFree.hero.recentMessages.customerSupport.details
-seax.channels.smsTollFree.hero.recentMessages.survey.title
-seax.channels.smsTollFree.hero.recentMessages.survey.details
-seax.channels.smsTollFree.stats.deliveryRate
-seax.channels.smsTollFree.stats.higherTrust
-seax.channels.smsTollFree.stats.responseRate
-seax.channels.smsTollFree.testimonial.quote
-seax.channels.smsTollFree.testimonial.author
-seax.channels.smsTollFree.testimonial.company
-seax.channels.smsTollFree.testimonial.results
-seax.channels.smsTollFree.title
-seax.channels.smsTollFree.subtitle
-seax.channels.smsTollFree.description
-seax.channels.smsTollFree.seo.title
-seax.channels.smsTollFree.seo.description
-seax.channels.smsTollFree.features.title
-seax.channels.smsTollFree.features.subtitle
-seax.channels.smsTollFree.useCases.title
-seax.channels.smsTollFree.useCases.subtitle
-seax.channels.smsTollFree.pricing.title
-seax.channels.smsTollFree.pricing.subtitle
-seax.channels.smsTollFree.trust.title
-seax.channels.smsTollFree.trust.description
-seax.channels.smsTollFree.trust.professionalImage.title
-seax.channels.smsTollFree.trust.professionalImage.description
-seax.channels.smsTollFree.trust.noCarrierFees.title
-seax.channels.smsTollFree.trust.noCarrierFees.description
-seax.channels.smsTollFree.trust.higherResponse.title
-seax.channels.smsTollFree.trust.higherResponse.description
 seax.channels.voice.features.items
 seax.channels.voice.useCases.items
-seax.channels.voice.features.title
-seax.channels.voice.features.subtitle
-seax.channels.voice.useCases.title
-seax.channels.voice.useCases.subtitle
 seax.channels.voice.pricing
-seax.channels.voice.hero.widget.title
-seax.channels.voice.hero.widget.poweredBy
-seax.channels.voice.hero.widget.callsNumber
-seax.channels.voice.hero.widget.callsCompletedToday
-seax.channels.voice.hero.widget.connectionRateValue
-seax.channels.voice.hero.widget.connectionRateLabel
-seax.channels.voice.hero.widget.countriesValue
-seax.channels.voice.hero.widget.countriesLabel
-seax.channels.voice.hero.widget.activeCalls
-seax.channels.voice.hero.widget.usPhoneNumber
-seax.channels.voice.hero.widget.appointmentReminder
-seax.channels.voice.hero.widget.ukPhoneNumber
-seax.channels.voice.hero.widget.surveyCall
-seax.channels.voice.stats.languagesValue
-seax.channels.voice.stats.languagesLabel
-seax.channels.voice.testimonial.quote
-seax.channels.voice.testimonial.author
-seax.channels.voice.testimonial.company
-seax.channels.voice.testimonial.results
-seax.channels.voice.title
-seax.channels.voice.subtitle
-seax.channels.voice.description
-seax.channels.voice.seoTitle
-seax.channels.voice.seoDescription
-seax.channels.whatsapp.features.richMedia.title
-seax.channels.whatsapp.features.richMedia.description
-seax.channels.whatsapp.features.globalReach.title
-seax.channels.whatsapp.features.globalReach.description
-seax.channels.whatsapp.features.security.title
-seax.channels.whatsapp.features.security.description
-seax.channels.whatsapp.features.instantDelivery.title
-seax.channels.whatsapp.features.instantDelivery.description
-seax.channels.whatsapp.features.analytics.title
-seax.channels.whatsapp.features.analytics.description
-seax.channels.whatsapp.features.twoWay.title
-seax.channels.whatsapp.features.twoWay.description
-seax.channels.whatsapp.messageTypes.template.title
-seax.channels.whatsapp.messageTypes.template.description
-seax.channels.whatsapp.messageTypes.template.feature1
-seax.channels.whatsapp.messageTypes.template.feature2
-seax.channels.whatsapp.messageTypes.template.feature3
-seax.channels.whatsapp.messageTypes.template.feature4
-seax.channels.whatsapp.messageTypes.richMedia.title
-seax.channels.whatsapp.messageTypes.richMedia.description
-seax.channels.whatsapp.messageTypes.richMedia.feature1
-seax.channels.whatsapp.messageTypes.richMedia.feature2
-seax.channels.whatsapp.messageTypes.richMedia.feature3
-seax.channels.whatsapp.messageTypes.richMedia.feature4
-seax.channels.whatsapp.messageTypes.interactive.title
-seax.channels.whatsapp.messageTypes.interactive.description
-seax.channels.whatsapp.messageTypes.interactive.feature1
-seax.channels.whatsapp.messageTypes.interactive.feature2
-seax.channels.whatsapp.messageTypes.interactive.feature3
-seax.channels.whatsapp.messageTypes.interactive.feature4
-seax.channels.whatsapp.useCases.support.title
-seax.channels.whatsapp.useCases.support.description
-seax.channels.whatsapp.useCases.support.metrics
-seax.channels.whatsapp.useCases.orders.title
-seax.channels.whatsapp.useCases.orders.description
-seax.channels.whatsapp.useCases.orders.metrics
-seax.channels.whatsapp.useCases.marketing.title
-seax.channels.whatsapp.useCases.marketing.description
-seax.channels.whatsapp.useCases.marketing.metrics
-seax.channels.whatsapp.useCases.appointments.title
-seax.channels.whatsapp.useCases.appointments.description
-seax.channels.whatsapp.useCases.appointments.metrics
-seax.channels.whatsapp.hero.stats.monthlyUsers
-seax.channels.whatsapp.hero.stats.openRate
-seax.channels.whatsapp.hero.stats.engagementRate
-seax.channels.whatsapp.hero.stats.countriesSupported
-seax.channels.whatsapp.seo.title
-seax.channels.whatsapp.seo.description
-seax.channels.whatsapp.hero.badge
-seax.channels.whatsapp.hero.title.line1
-seax.channels.whatsapp.hero.title.line2
-seax.channels.whatsapp.hero.description
-seax.channels.whatsapp.hero.cta.primary
-seax.channels.whatsapp.hero.cta.secondary
-seax.channels.whatsapp.hero.demo.title
-seax.channels.whatsapp.hero.demo.subtitle
-seax.channels.whatsapp.hero.demo.templateLabel
-seax.channels.whatsapp.hero.demo.message
-seax.channels.whatsapp.hero.demo.button1
-seax.channels.whatsapp.hero.demo.button2
-seax.channels.whatsapp.hero.demo.openRateLabel
-seax.channels.whatsapp.hero.demo.deliveredLabel
-seax.channels.whatsapp.features.title
-seax.channels.whatsapp.features.subtitle
-seax.channels.whatsapp.messageTypes.title
-seax.channels.whatsapp.messageTypes.subtitle
-seax.channels.whatsapp.useCases.title
-seax.channels.whatsapp.useCases.subtitle
-seax.channels.whatsapp.cta.title
-seax.channels.whatsapp.cta.subtitle
-seax.channels.whatsapp.cta.primary
-seax.channels.whatsapp.cta.secondary
-seax.industries.realEstate.challenges.items.0.title
-seax.industries.realEstate.challenges.items.0.description
-seax.industries.realEstate.challenges.items.1.title
-seax.industries.realEstate.challenges.items.1.description
-seax.industries.realEstate.challenges.items.2.title
-seax.industries.realEstate.challenges.items.2.description
-seax.industries.realEstate.challenges.items.3.title
-seax.industries.realEstate.challenges.items.3.description
-seax.industries.realEstate.challenges.items.4.title
-seax.industries.realEstate.challenges.items.4.description
-seax.industries.realEstate.challenges.items.5.title
-seax.industries.realEstate.challenges.items.5.description
-seax.industries.realEstate.useCases.items.0.title
-seax.industries.realEstate.useCases.items.0.description
-seax.industries.realEstate.useCases.items.0.benefits.0
-seax.industries.realEstate.useCases.items.0.benefits.1
-seax.industries.realEstate.useCases.items.0.benefits.2
-seax.industries.realEstate.useCases.items.1.title
-seax.industries.realEstate.useCases.items.1.description
-seax.industries.realEstate.useCases.items.1.benefits.0
-seax.industries.realEstate.useCases.items.1.benefits.1
-seax.industries.realEstate.useCases.items.1.benefits.2
-seax.industries.realEstate.useCases.items.2.title
-seax.industries.realEstate.useCases.items.2.description
-seax.industries.realEstate.useCases.items.2.benefits.0
-seax.industries.realEstate.useCases.items.2.benefits.1
-seax.industries.realEstate.useCases.items.2.benefits.2
-seax.industries.realEstate.useCases.items.3.title
-seax.industries.realEstate.useCases.items.3.description
-seax.industries.realEstate.useCases.items.3.benefits.0
-seax.industries.realEstate.useCases.items.3.benefits.1
-seax.industries.realEstate.useCases.items.3.benefits.2
-seax.industries.realEstate.stats.items.0.value
-seax.industries.realEstate.stats.items.0.label
-seax.industries.realEstate.stats.items.0.description
-seax.industries.realEstate.stats.items.1.value
-seax.industries.realEstate.stats.items.1.label
-seax.industries.realEstate.stats.items.1.description
-seax.industries.realEstate.stats.items.2.value
-seax.industries.realEstate.stats.items.2.label
-seax.industries.realEstate.stats.items.2.description
 ```
 
 
 ## Hardcoded Strings Summary
 
 
-Found 2446 potential hardcoded strings across components:
+Found 2435 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2364,7 +2128,7 @@ Found 2446 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 2436 more. See hardcoded-strings.json for complete list.
+... and 2425 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2372,13 +2136,13 @@ Found 2446 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 2260 keys used in components but missing from en.json
+**Description**: 2024 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 2446 hardcoded strings that should be internationalized
+**Description**: Found 2435 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

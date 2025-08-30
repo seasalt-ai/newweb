@@ -38,6 +38,7 @@ const SeaXHome = () => {
       {/* The Scaling Problem Section */}
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
               {t('seax.home.scalingProblem.title')}
@@ -48,45 +49,80 @@ const SeaXHome = () => {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left Column */}
             <div className="space-y-6">
+              {/* Manual Outreach */}
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-red-600 transform rotate-45" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seax.home.scalingProblem.manualOutreach.title')}</h3>
-                  <p className="text-gray-600">{t('seax.home.scalingProblem.manualOutreach.description')}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    {t('seax.home.scalingProblem.manualOutreach.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('seax.home.scalingProblem.manualOutreach.description')}
+                  </p>
                 </div>
               </div>
               
+              {/* SeaX Automation */}
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                   <Zap className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seax.home.scalingProblem.seaxAutomation.title')}</h3>
-                  <p className="text-gray-600">{t('seax.home.scalingProblem.seaxAutomation.description')}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    {t('seax.home.scalingProblem.seaxAutomation.title')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('seax.home.scalingProblem.seaxAutomation.description')}
+                  </p>
                 </div>
               </div>
             </div>
             
+            {/* Right Column (Stats) */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8">
               <div className="grid grid-cols-2 gap-6">
+                {/* Messages Sent */}
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">{t('seax.home.scalingProblem.stats.messagesSent.value')}</div>
-                  <div className="text-sm text-gray-600">{t('seax.home.scalingProblem.stats.messagesSent.label')}</div>
+                  <div className="text-3xl font-bold text-blue-600">
+                    {t('seax.home.scalingProblem.stats.messagesSent.value')}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.home.scalingProblem.stats.messagesSent.label')}
+                  </div>
                 </div>
+
+                {/* Calls Per Hour */}
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">{t('seax.home.scalingProblem.stats.callsPerHour.value')}</div>
-                  <div className="text-sm text-gray-600">{t('seax.home.scalingProblem.stats.callsPerHour.label')}</div>
+                  <div className="text-3xl font-bold text-blue-600">
+                    {t('seax.home.scalingProblem.stats.callsPerHour.value')}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.home.scalingProblem.stats.callsPerHour.label')}
+                  </div>
                 </div>
+
+                {/* Delivery Rate */}
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">{t('seax.home.scalingProblem.stats.deliveryRate.value')}</div>
-                  <div className="text-sm text-gray-600">{t('seax.home.scalingProblem.stats.deliveryRate.label')}</div>
+                  <div className="text-3xl font-bold text-blue-600">
+                    {t('seax.home.scalingProblem.stats.deliveryRate.value')}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.home.scalingProblem.stats.deliveryRate.label')}
+                  </div>
                 </div>
+
+                {/* ROI Average */}
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">{t('seax.home.scalingProblem.stats.roiAverage.value')}</div>
-                  <div className="text-sm text-gray-600">{t('seax.home.scalingProblem.stats.roiAverage.label')}</div>
+                  <div className="text-3xl font-bold text-blue-600">
+                    {t('seax.home.scalingProblem.stats.roiAverage.value')}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {t('seax.home.scalingProblem.stats.roiAverage.label')}
+                  </div>
                 </div>
               </div>
             </div>

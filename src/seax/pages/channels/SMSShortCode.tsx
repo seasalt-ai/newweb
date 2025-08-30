@@ -12,12 +12,12 @@ interface Pricing {
 const SMSShortCode = () => {
   const { t } = useTranslation();
 
-  // features 和 useCases 获取数组
-  const featuresRaw = t('seax.channels.smsShortCode.features.items', { returnObjects: true });
-  const features: string[] = Array.isArray(featuresRaw) ? featuresRaw : [];
+  // features 和 useCases 从对象转换为数组
+  const featuresObj = t('seax.channels.smsShortCode.features.items', { returnObjects: true }) as Record<string, string>;
+  const features: string[] = Object.values(featuresObj || {});
 
-  const useCasesRaw = t('seax.channels.smsShortCode.useCases.items', { returnObjects: true });
-  const useCases: string[] = Array.isArray(useCasesRaw) ? useCasesRaw : [];
+  const useCasesObj = t('seax.channels.smsShortCode.useCases.items', { returnObjects: true }) as Record<string, string>;
+  const useCases: string[] = Object.values(useCasesObj || {});
 
   // pricing 正規化結構
   const pricingRaw = t('seax.channels.smsShortCode.pricing', { returnObjects: true }) as any;

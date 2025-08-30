@@ -13,9 +13,12 @@ interface Pricing {
 const SMSTollFree = () => {
   const { t } = useTranslation();
 
-  // features 和 useCases 获取数组
-  const features: string[] = t('seax.channels.smsTollFree.features.items', { returnObjects: true }) as string[];
-  const useCases: string[] = t('seax.channels.smsTollFree.useCases.items', { returnObjects: true }) as string[];
+  // features 和 useCases 从对象转换为数组
+  const featuresObj = t('seax.channels.smsTollFree.features.items', { returnObjects: true }) as Record<string, string>;
+  const features: string[] = Object.values(featuresObj || {});
+  
+  const useCasesObj = t('seax.channels.smsTollFree.useCases.items', { returnObjects: true }) as Record<string, string>;
+  const useCases: string[] = Object.values(useCasesObj || {});
 
   // pricing 正規化結構
   const pricingRaw = t('seax.channels.smsTollFree.pricing', { returnObjects: true }) as any;
@@ -46,26 +49,30 @@ const SMSTollFree = () => {
           </div>
         </div>
 
-        {/* Dedicated Number (固定数字) */}
+        {/* Dedicated Number */}
         <div className="text-center">
           <div className="text-4xl font-bold text-blue-600 mb-2">
-            1-800-SEAX-SMS
+            {t('seax.channels.smsTollFree.hero.phoneNumber')}
           </div>
           <div className="text-sm text-gray-600">
             {t('seax.channels.smsTollFree.hero.dedicatedNumber')}
           </div>
         </div>
 
-        {/* Stats: Delivery Rate & Higher Trust (固定数字) */}
+        {/* Stats: Delivery Rate & Higher Trust */}
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-green-50 rounded-lg p-4">
-            <div className="text-2xl font-bold text-green-600 mb-1">94.7%</div>
+            <div className="text-2xl font-bold text-green-600 mb-1">
+              {t('seax.channels.smsTollFree.hero.deliveryRateValue')}
+            </div>
             <div className="text-sm text-gray-600">
               {t('seax.channels.smsTollFree.hero.deliveryRate')}
             </div>
           </div>
           <div className="bg-purple-50 rounded-lg p-4">
-            <div className="text-2xl font-bold text-purple-600 mb-1">2.3x</div>
+            <div className="text-2xl font-bold text-purple-600 mb-1">
+              {t('seax.channels.smsTollFree.hero.higherTrustValue')}
+            </div>
             <div className="text-sm text-gray-600">
               {t('seax.channels.smsTollFree.hero.higherTrust')}
             </div>
@@ -109,17 +116,17 @@ const SMSTollFree = () => {
   // Stats
   const stats = [
     {
-      value: '94%',
+      value: t('seax.channels.smsTollFree.stats.deliveryRateValue'),
       label: t('seax.channels.smsTollFree.stats.deliveryRate'),
       icon: <Phone className="w-8 h-8 text-blue-600" />
     },
     {
-      value: '2.3x',
+      value: t('seax.channels.smsTollFree.stats.higherTrustValue'),
       label: t('seax.channels.smsTollFree.stats.higherTrust'),
       icon: <Shield className="w-8 h-8 text-green-600" />
     },
     {
-      value: '78%',
+      value: t('seax.channels.smsTollFree.stats.responseRateValue'),
       label: t('seax.channels.smsTollFree.stats.responseRate'),
       icon: <TrendingUp className="w-8 h-8 text-purple-600" />
     }

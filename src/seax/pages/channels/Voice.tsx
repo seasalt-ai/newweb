@@ -15,9 +15,12 @@ const Voice = () => {
   const { t } = useTranslation();
   const voiceData = seaxChannelFeatures.voice;
 
-  // Features 和 Use Cases，保证为数组
-  const features: string[] = (t('seax.channels.voice.features.items', { returnObjects: true }) as string[]) || [];
-  const useCases: string[] = (t('seax.channels.voice.useCases.items', { returnObjects: true }) as string[]) || [];
+  // Features 和 Use Cases，从对象转换为数组
+  const featuresObj = t('seax.channels.voice.features.items', { returnObjects: true }) as Record<string, string>;
+  const features: string[] = Object.values(featuresObj || {});
+  
+  const useCasesObj = t('seax.channels.voice.useCases.items', { returnObjects: true }) as Record<string, string>;
+  const useCases: string[] = Object.values(useCasesObj || {});
 
   // Features / UseCases 标题
   const featuresTitle = t('seax.channels.voice.features.title') || '';

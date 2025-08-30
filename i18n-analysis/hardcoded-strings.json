@@ -14183,42 +14183,8 @@
   },
   {
     "file": "src/seax/components/RealTimeDashboard.tsx",
-    "text": "94.2%",
-    "context": "              className=\"absolute -top-4 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-4 shadow-xl\"\n            >\n              <div className=\"text-lg font-bold\">94.2%</div>\n              <div className=\"text-xs opacity-90\">{t('seax.realTimeDashboard.cards.deliveryRate')}</div>\n            </motion.div>\n",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/RealTimeDashboard.tsx",
     "text": "metric.value ? 'up' : newValue",
     "context": "    }\n          \n          const trend = newValue > metric.value ? 'up' : newValue < metric.value ? "
-  },
-  {
-    "file": "src/seax/components/ScaleComparison.tsx",
-    "text": "5000x",
-    "context": "            <div className=\"grid grid-cols-1 md:grid-cols-3 gap-6\">\n              <div>\n                <div className=\"text-4xl font-bold mb-2\">5000x</div>\n                <div className=\"text-blue-100\">{t('seax.scaleComparison.advantage.fasterExecution')}</div>\n              </div>\n              <div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ScaleComparison.tsx",
-    "text": "20000x",
-    "context": "              </div>\n              <div>\n                <div className=\"text-4xl font-bold mb-2\">20000x</div>\n                <div className=\"text-blue-100\">{t('seax.scaleComparison.advantage.moreReach')}</div>\n              </div>\n              <div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ScaleComparison.tsx",
-    "text": "280%",
-    "context": "              </div>\n              <div>\n                <div className=\"text-4xl font-bold mb-2\">280%</div>\n                <div className=\"text-blue-100\">{t('seax.scaleComparison.advantage.higherEfficiency')}</div>\n              </div>\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/components/ScaleComparison.tsx",
-    "text": "5000x",
-    "context": "          <div className=\"text-4xl font-bold mb-2\">5000x</div>\n                <div className=\"text-"
-  },
-  {
-    "file": "src/seax/components/ScaleComparison.tsx",
-    "text": "20000x",
-    "context": "          <div className=\"text-4xl font-bold mb-2\">20000x</div>\n                <div className=\"text"
   },
   {
     "file": "src/seax/data/seaxFeatures.ts",
@@ -15145,32 +15111,6 @@
     "context": " className=\"text-3xl font-bold text-blue-600 mb-2\">10M+</div>\n              <div className=\"text-gra"
   },
   {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "1-800-SEAX-SMS",
-    "context": "        {/* Dedicated Number (固定数字) */}\n        <div className=\"text-center\">\n          <div className=\"text-4xl font-bold text-blue-600 mb-2\">\n            1-800-SEAX-SMS\n          </div>\n          <div className=\"text-sm text-gray-600\">\n            {t('seax.channels.smsTollFree.hero.dedicatedNumber')}\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "94.7%",
-    "context": "        <div className=\"grid grid-cols-2 gap-4\">\n          <div className=\"bg-green-50 rounded-lg p-4\">\n            <div className=\"text-2xl font-bold text-green-600 mb-1\">94.7%</div>\n            <div className=\"text-sm text-gray-600\">\n              {t('seax.channels.smsTollFree.hero.deliveryRate')}\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "94%",
-    "context": "  const stats = [\n    {\n      value: '94%',\n      label: t('seax.channels.smsTollFree.stats.deliveryRate'),\n      icon: <Phone className=\"w-8 h-8 text-blue-600\" />\n    },",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMSTollFree.tsx",
-    "text": "78%",
-    "context": "    },\n    {\n      value: '78%',\n      label: t('seax.channels.smsTollFree.stats.responseRate'),\n      icon: <TrendingUp className=\"w-8 h-8 text-purple-600\" />\n    }",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
     "file": "src/seax/pages/channels/WhatsApp.tsx",
     "text": "2B+",
     "context": "\n  const stats = [\n    { value: '2B+', label: t('seax.channels.whatsapp.hero.stats.monthlyUsers') },\n    { value: '95%', label: t('seax.channels.whatsapp.hero.stats.openRate') },\n    { value: '65%', label: t('seax.channels.whatsapp.hero.stats.engagementRate') },\n    { value: '180+', label: t('seax.channels.whatsapp.hero.stats.countriesSupported') }",
@@ -15190,12 +15130,6 @@
     "context": "    { value: '2B+', label: t('seax.channels.whatsapp.hero.stats.monthlyUsers') },\n    { value: '95%', label: t('seax.channels.whatsapp.hero.stats.openRate') },\n    { value: '65%', label: t('seax.channels.whatsapp.hero.stats.engagementRate') },\n    { value: '180+', label: t('seax.channels.whatsapp.hero.stats.countriesSupported') }\n  ];\n",
     "type": "data-structure",
     "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/WhatsApp.tsx",
-    "text": "94.8%",
-    "context": "                    <div className=\"grid grid-cols-2 gap-4\">\n                      <div className=\"bg-blue-50 rounded-lg p-3 text-center\">\n                        <div className=\"text-2xl font-bold text-blue-600\">94.8%</div>\n                        <div className=\"text-sm text-gray-600\">{t('seax.channels.whatsapp.hero.demo.openRateLabel')}</div>\n                      </div>\n                      <div className=\"bg-purple-50 rounded-lg p-3 text-center\">",
-    "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/solutions/SolutionsOverview.tsx",

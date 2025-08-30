@@ -369,7 +369,7 @@ const RealTimeDashboard = () => {
                         <div className={`w-2 h-2 rounded-full ${activity.status === 'sent' ? 'bg-blue-500' : activity.status === 'delivered' ? 'bg-green-500' : activity.status === 'read' ? 'bg-purple-500' : 'bg-orange-500'} animate-pulse`} />
                         <div>
                           <div className={`text-sm font-medium ${getActivityColor(activity.status)}`}>
-                            {activity.count.toLocaleString()} {activity.type.toUpperCase()} {activity.status}
+                            {activity.count.toLocaleString()} {t(`seax.realTimeDashboard.activity.types.${activity.type}`)} {t(`seax.realTimeDashboard.activity.statuses.${activity.status}`)}
                           </div>
                           <div className="text-xs text-gray-500">
                             {activity.timestamp.toLocaleTimeString()}
@@ -398,7 +398,7 @@ const RealTimeDashboard = () => {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -top-4 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-4 shadow-xl"
             >
-              <div className="text-lg font-bold">94.2%</div>
+              <div className="text-lg font-bold">{t('seax.realTimeDashboard.cards.deliveryValue')}</div>
               <div className="text-xs opacity-90">{t('seax.realTimeDashboard.cards.deliveryRate')}</div>
             </motion.div>
 
@@ -407,7 +407,7 @@ const RealTimeDashboard = () => {
               transition={{ duration: 4, repeat: Infinity }}
               className="absolute -bottom-4 -left-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white rounded-lg p-4 shadow-xl"
             >
-              <div className="text-lg font-bold">2.1M</div>
+              <div className="text-lg font-bold">{t('seax.realTimeDashboard.cards.hourlyValue')}</div>
               <div className="text-xs opacity-90">{t('seax.realTimeDashboard.cards.thisHour')}</div>
             </motion.div>
 

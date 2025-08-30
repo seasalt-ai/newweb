@@ -219,11 +219,11 @@ const WhatsApp = () => {
                     
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-blue-50 rounded-lg p-3 text-center">
-                        <div className="text-2xl font-bold text-blue-600">94.8%</div>
+                        <div className="text-2xl font-bold text-blue-600">{t('seax.channels.whatsapp.hero.demo.openRateValue')}</div>
                         <div className="text-sm text-gray-600">{t('seax.channels.whatsapp.hero.demo.openRateLabel')}</div>
                       </div>
                       <div className="bg-purple-50 rounded-lg p-3 text-center">
-                        <div className="text-2xl font-bold text-purple-600">12.3K</div>
+                        <div className="text-2xl font-bold text-purple-600">{t('seax.channels.whatsapp.hero.demo.deliveredValue')}</div>
                         <div className="text-sm text-gray-600">{t('seax.channels.whatsapp.hero.demo.deliveredLabel')}</div>
                       </div>
                     </div>
