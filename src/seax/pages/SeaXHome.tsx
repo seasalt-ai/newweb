@@ -23,8 +23,8 @@ const SeaXHome = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX - Reach Millions Instantly | Mass SMS, WhatsApp & Voice Communication"
-        description="The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business with powerful outreach."
+        title={t('seax.home.seo.title')}
+        description={t('seax.home.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
         canonicalUrl={canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
@@ -201,7 +201,7 @@ const SeaXHome = () => {
           <div className="space-y-20">
             {[
               {
-                number: '01',
+                number: t('seax.home.howItWorks.step1.number'),
                 titleKey: 'seax.home.howItWorks.step1.title',
                 descriptionKey: 'seax.home.howItWorks.step1.description',
                 icon: <Upload className="w-6 h-6 text-blue-600" />,
@@ -211,11 +211,11 @@ const SeaXHome = () => {
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200">
                         <div className="flex items-center space-x-3">
                           <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
-                            <span className="text-white font-bold text-sm">✓</span>
+                            <span className="text-white font-bold text-sm">{t('seax.home.howItWorks.step1.illustration.checkmark')}</span>
                           </div>
                           <div>
-                            <div className="font-semibold text-gray-900">contacts.csv</div>
-                            <div className="text-sm text-gray-600">10,000 contacts</div>
+                            <div className="font-semibold text-gray-900">{t('seax.home.howItWorks.step1.illustration.fileName')}</div>
+                            <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step1.illustration.contactCount')}</div>
                           </div>
                         </div>
                       </div>
@@ -223,22 +223,22 @@ const SeaXHome = () => {
                         <div className="flex items-center space-x-3">
                           <Upload className="w-8 h-8 text-gray-400" />
                           <div>
-                            <div className="font-semibold text-gray-700">Drop files here</div>
-                            <div className="text-sm text-gray-500">or browse</div>
+                            <div className="font-semibold text-gray-700">{t('seax.home.howItWorks.step1.illustration.dropFiles')}</div>
+                            <div className="text-sm text-gray-500">{t('seax.home.howItWorks.step1.illustration.browse')}</div>
                           </div>
                         </div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-blue-600">100K+</div>
-                        <div className="text-sm text-gray-600">contacts imported</div>
+                        <div className="text-2xl font-bold text-blue-600">{t('seax.home.howItWorks.step1.illustration.importedCount')}</div>
+                        <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step1.illustration.contactsImported')}</div>
                       </div>
                     </div>
                   </div>
                 ),
-                time: '2 minutes'
+                time: t('seax.home.howItWorks.step1.time')
               },
               {
-                number: '02',
+                number: t('seax.home.howItWorks.step2.number'),
                 titleKey: 'seax.home.howItWorks.step2.title',
                 descriptionKey: 'seax.home.howItWorks.step2.description',
                 icon: <Smartphone className="w-6 h-6 text-blue-600" />,
@@ -247,26 +247,26 @@ const SeaXHome = () => {
                     <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-green-200 text-center">
                         <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-2" />
-                        <div className="font-semibold text-gray-900">SMS</div>
-                        <div className="text-sm text-gray-600">98% open rate</div>
+                        <div className="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.sms.label')}</div>
+                        <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.sms.rate')}</div>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-teal-200 text-center">
                         <Send className="w-8 h-8 text-teal-600 mx-auto mb-2" />
-                        <div className="font-semibold text-gray-900">WhatsApp</div>
-                        <div className="text-sm text-gray-600">85% engagement</div>
+                        <div className="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.whatsapp.label')}</div>
+                        <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.whatsapp.rate')}</div>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200 text-center">
                         <Phone className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-                        <div className="font-semibold text-gray-900">Voice</div>
-                        <div className="text-sm text-gray-600">Real-time calls</div>
+                        <div className="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.voice.label')}</div>
+                        <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.voice.rate')}</div>
                       </div>
                     </div>
                   </div>
                 ),
-                time: '1 minute'
+                time: t('seax.home.howItWorks.step2.time')
               },
               {
-                number: '03',
+                number: t('seax.home.howItWorks.step3.number'),
                 titleKey: 'seax.home.howItWorks.step3.title',
                 descriptionKey: 'seax.home.howItWorks.step3.description',
                 icon: <MessageSquare className="w-6 h-6 text-blue-600" />,
@@ -275,30 +275,30 @@ const SeaXHome = () => {
                     <div className="space-y-4 w-full max-w-sm">
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-purple-200">
                         <div className="flex items-center justify-between mb-3">
-                          <span className="font-semibold text-gray-900">Campaign Draft</span>
-                          <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">Draft</span>
+                          <span className="font-semibold text-gray-900">{t('seax.home.howItWorks.step3.illustration.campaignDraft')}</span>
+                          <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">{t('seax.home.howItWorks.step3.illustration.draftStatus')}</span>
                         </div>
                         <div className="bg-gray-50 rounded p-3 mb-3">
-                          <div className="text-sm text-gray-700">"Hi John, Check out our new product launch..."</div>
+                          <div className="text-sm text-gray-700">{t('seax.home.howItWorks.step3.illustration.sampleMessage')}</div>
                         </div>
                         <div className="flex space-x-2">
-                          <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">Preview</button>
-                          <button className="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">A/B Test</button>
+                          <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">{t('seax.home.howItWorks.step3.illustration.previewButton')}</button>
+                          <button className="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">{t('seax.home.howItWorks.step3.illustration.abTestButton')}</button>
                         </div>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-pink-200">
                         <div className="flex items-center justify-between">
-                          <span className="font-semibold text-gray-900">Schedule</span>
-                          <span className="text-sm text-pink-600">Now</span>
+                          <span className="font-semibold text-gray-900">{t('seax.home.howItWorks.step3.illustration.schedule')}</span>
+                          <span className="text-sm text-pink-600">{t('seax.home.howItWorks.step3.illustration.now')}</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 ),
-                time: '5 minutes'
+                time: t('seax.home.howItWorks.step3.time')
               },
               {
-                number: '04',
+                number: t('seax.home.howItWorks.step4.number'),
                 titleKey: 'seax.home.howItWorks.step4.title',
                 descriptionKey: 'seax.home.howItWorks.step4.description',
                 icon: <BarChart3 className="w-6 h-6 text-blue-600" />,
@@ -307,40 +307,40 @@ const SeaXHome = () => {
                     <div className="space-y-4 w-full max-w-sm">
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-orange-200">
                         <div className="flex items-center justify-between mb-3">
-                          <span className="font-semibold text-gray-900">Campaign Status</span>
-                          <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">Live</span>
+                          <span className="font-semibold text-gray-900">{t('seax.home.howItWorks.step4.illustration.campaignStatus')}</span>
+                          <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">{t('seax.home.howItWorks.step4.illustration.liveStatus')}</span>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-orange-600">847K</div>
-                            <div className="text-sm text-gray-600">Delivered</div>
+                            <div className="text-2xl font-bold text-orange-600">{t('seax.home.howItWorks.step4.illustration.deliveredCount')}</div>
+                            <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.delivered')}</div>
                           </div>
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-green-600">12.3%</div>
-                            <div className="text-sm text-gray-600">Response</div>
+                            <div className="text-2xl font-bold text-green-600">{t('seax.home.howItWorks.step4.illustration.responseRate')}</div>
+                            <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.response')}</div>
                           </div>
                         </div>
                       </div>
                       <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-red-200">
                         <div className="grid grid-cols-2 gap-4">
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-red-600">1M</div>
-                            <div className="text-sm text-gray-600">Total Messages</div>
+                            <div className="text-2xl font-bold text-red-600">{t('seax.home.howItWorks.step4.illustration.totalCount')}</div>
+                            <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.totalMessages')}</div>
                           </div>
                           <div className="text-center">
-                            <div className="text-2xl font-bold text-green-600">99%</div>
-                            <div className="text-sm text-gray-600">Delivery Rate</div>
+                            <div className="text-2xl font-bold text-green-600">{t('seax.home.howItWorks.step4.illustration.deliveryRate')}</div>
+                            <div className="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.deliveryRateLabel')}</div>
                           </div>
                           <div className="col-span-2 mt-2 bg-gradient-to-r from-red-300 to-green-300 h-2 rounded-full relative">
                             <div className="absolute top-0 left-0 right-0 h-full bg-purple-600" style={{width: '75%'}}></div>
                           </div>
                         </div>
-                        <p className="mt-4 text-xs text-gray-700 text-center">Real-time Analytics</p>
+                        <p className="mt-4 text-xs text-gray-700 text-center">{t('seax.home.howItWorks.step4.illustration.analytics')}</p>
                       </div>
                     </div>
                   </div>
                 ),
-                time: '1 click'
+                time: t('seax.home.howItWorks.step4.time')
               }
             ].map((step, index) => (
               <div key={step.number} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
@@ -366,7 +366,7 @@ const SeaXHome = () => {
                     <div className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                       <span className="text-sm font-medium text-gray-700">
-                        Time required: {step.time}
+                        {t('seax.home.howItWorks.timeRequired')}{step.time}
                       </span>
                     </div>
                   </div>
@@ -399,21 +399,21 @@ const SeaXHome = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                quote: "We doubled our qualified leads in a month thanks to SeaX's ability to reach our entire database.",
-                author: "Sarah Chen",
-                role: "VP of Sales, TechScale",
+                quote: t('seax.home.testimonials.testimonial1.quote'),
+                author: t('seax.home.testimonials.testimonial1.author'),
+                role: t('seax.home.testimonials.testimonial1.role'),
                 rating: 5
               },
               {
-                quote: "The ROI is incredible. We're sending 2 million messages monthly and our pipeline has never been fuller.",
-                author: "Michael Rodriguez",
-                role: "Growth Manager, LeadForce",
+                quote: t('seax.home.testimonials.testimonial2.quote'),
+                author: t('seax.home.testimonials.testimonial2.author'),
+                role: t('seax.home.testimonials.testimonial2.role'),
                 rating: 5
               },
               {
-                quote: "SeaX replaced 5 different tools and 10x'd our outreach capacity. Game-changing for our sales team.",
-                author: "Jennifer Park",
-                role: "CEO, MarketBoost",
+                quote: t('seax.home.testimonials.testimonial3.quote'),
+                author: t('seax.home.testimonials.testimonial3.author'),
+                role: t('seax.home.testimonials.testimonial3.role'),
                 rating: 5
               }
             ].map((testimonial, index) => (

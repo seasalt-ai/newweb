@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-30T04:27:42.695Z
+Generated: 2025-08-30T04:35:59.296Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 5362
+- **Base Language (en) Keys**: 5396
 - **Components Analyzed**: 210
-- **Translation Coverage**: 70.38%
-- **Missing Keys**: 1980
-- **Hardcoded Strings Found**: 2612
+- **Translation Coverage**: 69.92%
+- **Missing Keys**: 2076
+- **Hardcoded Strings Found**: 2452
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 16.49% | ❌ Incomplete |
-| de | 887 | 16.08% | ❌ Incomplete |
-| en | 5362 | 100.00% | ✅ Good |
-| es | 835 | 15.11% | ❌ Incomplete |
-| fa | 755 | 13.67% | ❌ Incomplete |
-| fil | 739 | 13.35% | ❌ Incomplete |
-| fr | 739 | 13.35% | ❌ Incomplete |
-| hi | 690 | 12.44% | ❌ Incomplete |
-| id | 690 | 12.44% | ❌ Incomplete |
-| ja | 690 | 12.46% | ❌ Incomplete |
-| ko | 690 | 12.44% | ❌ Incomplete |
-| ms | 690 | 12.44% | ❌ Incomplete |
-| pl | 676 | 12.18% | ❌ Incomplete |
-| pt | 676 | 12.18% | ❌ Incomplete |
-| ru | 676 | 12.18% | ❌ Incomplete |
-| ta | 739 | 13.35% | ❌ Incomplete |
-| th | 739 | 13.35% | ❌ Incomplete |
-| vi | 739 | 13.35% | ❌ Incomplete |
-| zh-CN | 802 | 14.53% | ❌ Incomplete |
-| zh-TW | 5348 | 99.72% | ✅ Good |
+| ar | 909 | 16.38% | ❌ Incomplete |
+| de | 887 | 15.97% | ❌ Incomplete |
+| en | 5396 | 100.00% | ✅ Good |
+| es | 835 | 15.01% | ❌ Incomplete |
+| fa | 755 | 13.58% | ❌ Incomplete |
+| fil | 739 | 13.27% | ❌ Incomplete |
+| fr | 739 | 13.27% | ❌ Incomplete |
+| hi | 690 | 12.36% | ❌ Incomplete |
+| id | 690 | 12.36% | ❌ Incomplete |
+| ja | 690 | 12.38% | ❌ Incomplete |
+| ko | 690 | 12.36% | ❌ Incomplete |
+| ms | 690 | 12.36% | ❌ Incomplete |
+| pl | 676 | 12.10% | ❌ Incomplete |
+| pt | 676 | 12.10% | ❌ Incomplete |
+| ru | 676 | 12.10% | ❌ Incomplete |
+| ta | 739 | 13.27% | ❌ Incomplete |
+| th | 739 | 13.27% | ❌ Incomplete |
+| vi | 739 | 13.27% | ❌ Incomplete |
+| zh-CN | 802 | 14.44% | ❌ Incomplete |
+| zh-TW | 5478 | 99.72% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1980 keys used in components but missing from en.json
+**Description**: 2076 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 2612 hardcoded strings that should be internationalized
+**Description**: Found 2452 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -1971,6 +1971,102 @@ seax.features.core.analytics.benefits
 seax.features.core.compliance.benefits
 seax.features.core.collaboration.benefits
 seax.features.core.scale.benefits
+seax.resources.categories.gettingStarted.title
+seax.resources.categories.gettingStarted.description
+seax.resources.categories.gettingStarted.quickStart.title
+seax.resources.categories.gettingStarted.quickStart.description
+seax.resources.categories.gettingStarted.quickStart.type
+seax.resources.categories.gettingStarted.quickStart.readTime
+seax.resources.categories.gettingStarted.bestPractices.title
+seax.resources.categories.gettingStarted.bestPractices.description
+seax.resources.categories.gettingStarted.bestPractices.type
+seax.resources.categories.gettingStarted.bestPractices.readTime
+seax.resources.categories.gettingStarted.apiIntegration.title
+seax.resources.categories.gettingStarted.apiIntegration.description
+seax.resources.categories.gettingStarted.apiIntegration.type
+seax.resources.categories.gettingStarted.apiIntegration.readTime
+seax.resources.categories.videos.title
+seax.resources.categories.videos.description
+seax.resources.categories.videos.firstCampaign.title
+seax.resources.categories.videos.firstCampaign.description
+seax.resources.categories.videos.firstCampaign.type
+seax.resources.categories.videos.firstCampaign.duration
+seax.resources.categories.videos.targeting.title
+seax.resources.categories.videos.targeting.description
+seax.resources.categories.videos.targeting.type
+seax.resources.categories.videos.targeting.duration
+seax.resources.categories.videos.analytics.title
+seax.resources.categories.videos.analytics.description
+seax.resources.categories.videos.analytics.type
+seax.resources.categories.videos.analytics.duration
+seax.resources.categories.documentation.title
+seax.resources.categories.documentation.description
+seax.resources.categories.documentation.apiReference.title
+seax.resources.categories.documentation.apiReference.description
+seax.resources.categories.documentation.apiReference.type
+seax.resources.categories.documentation.apiReference.badge
+seax.resources.categories.documentation.webhook.title
+seax.resources.categories.documentation.webhook.description
+seax.resources.categories.documentation.webhook.type
+seax.resources.categories.documentation.webhook.badge
+seax.resources.categories.documentation.sdk.title
+seax.resources.categories.documentation.sdk.description
+seax.resources.categories.documentation.sdk.type
+seax.resources.categories.documentation.sdk.badge
+seax.resources.categories.caseStudies.title
+seax.resources.categories.caseStudies.description
+seax.resources.categories.caseStudies.ecommerce.title
+seax.resources.categories.caseStudies.ecommerce.description
+seax.resources.categories.caseStudies.ecommerce.type
+seax.resources.categories.caseStudies.ecommerce.industry
+seax.resources.categories.caseStudies.healthcare.title
+seax.resources.categories.caseStudies.healthcare.description
+seax.resources.categories.caseStudies.healthcare.type
+seax.resources.categories.caseStudies.healthcare.industry
+seax.resources.categories.caseStudies.fintech.title
+seax.resources.categories.caseStudies.fintech.description
+seax.resources.categories.caseStudies.fintech.type
+seax.resources.categories.caseStudies.fintech.industry
+seax.resources.downloads.playbook.title
+seax.resources.downloads.playbook.description
+seax.resources.downloads.playbook.format
+seax.resources.downloads.playbook.size
+seax.resources.downloads.compliance.title
+seax.resources.downloads.compliance.description
+seax.resources.downloads.compliance.format
+seax.resources.downloads.compliance.size
+seax.resources.downloads.templates.title
+seax.resources.downloads.templates.description
+seax.resources.downloads.templates.format
+seax.resources.downloads.templates.size
+seax.resources.seo.title
+seax.resources.seo.description
+seax.resources.hero.title
+seax.resources.hero.titleHighlight
+seax.resources.hero.description
+seax.resources.hero.getSupport
+seax.resources.hero.browseApiDocs
+seax.resources.explore.title
+seax.resources.explore.subtitle
+seax.resources.common.readMore
+seax.resources.downloads.title
+seax.resources.downloads.subtitle
+seax.resources.downloads.download
+seax.resources.support.title
+seax.resources.support.subtitle
+seax.resources.support.liveChat.title
+seax.resources.support.liveChat.description
+seax.resources.support.liveChat.action
+seax.resources.support.knowledgeBase.title
+seax.resources.support.knowledgeBase.description
+seax.resources.support.knowledgeBase.action
+seax.resources.support.community.title
+seax.resources.support.community.description
+seax.resources.support.community.action
+seax.resources.cta.title
+seax.resources.cta.subtitle
+seax.resources.cta.signUp
+seax.resources.cta.viewPricing
 seax.home.scalingProblem.manualOutreach.title
 seax.home.scalingProblem.manualOutreach.description
 seax.home.scalingProblem.seaxAutomation.title
@@ -2041,7 +2137,7 @@ seax.industries.realEstate.stats.items.2.description
 ## Hardcoded Strings Summary
 
 
-Found 2612 potential hardcoded strings across components:
+Found 2452 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -2084,7 +2180,7 @@ Found 2612 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 2602 more. See hardcoded-strings.json for complete list.
+... and 2442 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -2092,13 +2188,13 @@ Found 2612 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1980 keys used in components but missing from en.json
+**Description**: 2076 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 2612 hardcoded strings that should be internationalized
+**Description**: Found 2452 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

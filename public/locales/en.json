@@ -8770,7 +8770,16 @@
           "dropFiles": "Drop files here",
           "orBrowse": "or browse",
           "contactsImported": "100K+",
-          "contactsImportedLabel": "contacts imported"
+          "contactsImportedLabel": "contacts imported",
+          "illustration": {
+            "fileName": "contacts.csv",
+            "contactCount": "10,000 contacts",
+            "checkmark": "✓",
+            "dropFiles": "Drop files here",
+            "browse": "or browse",
+            "importedCount": "100K+",
+            "contactsImported": "contacts imported"
+          }
         },
         "step2": {
           "number": "02",
@@ -8782,7 +8791,21 @@
           "whatsapp": "WhatsApp",
           "whatsappRate": "85% engagement",
           "voice": "Voice",
-          "voiceRate": "Real-time calls"
+          "voiceRate": "Real-time calls",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% open rate"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "85% engagement"
+            },
+            "voice": {
+              "label": "Voice",
+              "rate": "Real-time calls"
+            }
+          }
         },
         "step3": {
           "number": "03",
@@ -8795,7 +8818,16 @@
           "preview": "Preview",
           "abTest": "A/B Test",
           "schedule": "Schedule",
-          "scheduleNow": "Now"
+          "scheduleNow": "Now",
+          "illustration": {
+            "campaignDraft": "Campaign Draft",
+            "draftStatus": "Draft",
+            "sampleMessage": "Hi John, Check out our new product launch...",
+            "previewButton": "Preview",
+            "abTestButton": "A/B Test",
+            "schedule": "Schedule",
+            "now": "Now"
+          }
         },
         "step4": {
           "number": "04",
@@ -8813,8 +8845,22 @@
           "deliveryRate": "99%",
           "deliveryRateLabel": "Delivery Rate",
           "realtimeAnalytics": "Real-time Analytics",
-          "timeRequired": "Time required:"
-        }
+          "timeRequired": "Time required:",
+          "illustration": {
+            "campaignStatus": "Campaign Status",
+            "liveStatus": "Live",
+            "deliveredCount": "847K",
+            "delivered": "Delivered",
+            "responseRate": "12.3%",
+            "response": "Response",
+            "totalCount": "1M",
+            "totalMessages": "Total Messages",
+            "deliveryRate": "99%",
+            "deliveryRateLabel": "Delivery Rate",
+            "analytics": "Real-time Analytics"
+          }
+        },
+        "timeRequired": "Time required:"
       },
       "testimonials": {
         "title": "Trusted by Growth Leaders",
@@ -8840,6 +8886,10 @@
         "subtitle": "Join thousands of companies using SeaX to scale their outreach and fill their pipeline with qualified leads.",
         "requestDemo": "Request a Personalized Demo",
         "signUpNow": "Sign Up Now"
+      },
+      "seo": {
+        "title": "SeaX - Reach Millions Instantly | Mass SMS, WhatsApp & Voice Communication",
+        "description": "The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business with powerful outreach."
       }
     },
     "header": {
@@ -9553,6 +9603,22 @@
         "support": {
           "title": "Expert Support",
           "description": "Dedicated account managers and 24/7 technical support"
+        }
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%"
+          },
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%"
+          }
         }
       }
     }

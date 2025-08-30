@@ -8748,7 +8748,16 @@
           "dropFiles": "拖放文件至此",
           "orBrowse": "或瀏覽",
           "contactsImported": "100K+",
-          "contactsImportedLabel": "聯絡人已匯入"
+          "contactsImportedLabel": "聯絡人已匯入",
+          "illustration": {
+            "fileName": "聯絡人.csv",
+            "contactCount": "10,000 個聯絡人",
+            "checkmark": "✓",
+            "dropFiles": "將檔案拖放至此",
+            "browse": "或瀏覽檔案",
+            "importedCount": "10萬+",
+            "contactsImported": "聯絡人已匯入"
+          }
         },
         "step2": {
           "number": "02",
@@ -8760,7 +8769,21 @@
           "whatsapp": "WhatsApp",
           "whatsappRate": "85% 參與率",
           "voice": "語音",
-          "voiceRate": "即時通話"
+          "voiceRate": "即時通話",
+          "illustration": {
+            "sms": {
+              "label": "簡訊",
+              "rate": "98% 開啟率"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "85% 互動率"
+            },
+            "voice": {
+              "label": "語音",
+              "rate": "即時通話"
+            }
+          }
         },
         "step3": {
           "number": "03",
@@ -8773,7 +8796,16 @@
           "preview": "預覽",
           "abTest": "A/B 測試",
           "schedule": "排程",
-          "scheduleNow": "立即"
+          "scheduleNow": "立即",
+          "illustration": {
+            "campaignDraft": "活動草稿",
+            "draftStatus": "草稿",
+            "sampleMessage": "嗨 John，看看我們的新產品發佈...",
+            "previewButton": "預覽",
+            "abTestButton": "A/B 測試",
+            "schedule": "排程",
+            "now": "立即"
+          }
         },
         "step4": {
           "number": "04",
@@ -8791,25 +8823,39 @@
           "deliveryRate": "99%",
           "deliveryRateLabel": "送達率",
           "realtimeAnalytics": "即時分析",
-          "timeRequired": "所需時間："
-        }
+          "timeRequired": "所需時間：",
+          "illustration": {
+            "campaignStatus": "活動狀態",
+            "liveStatus": "進行中",
+            "deliveredCount": "84.7萬",
+            "delivered": "已送達",
+            "responseRate": "12.3%",
+            "response": "回應",
+            "totalCount": "100萬",
+            "totalMessages": "訊息總數",
+            "deliveryRate": "99%",
+            "deliveryRateLabel": "送達率",
+            "analytics": "即時分析"
+          }
+        },
+        "timeRequired": "所需時間："
       },
       "testimonials": {
         "title": "受成長領導者信賴",
         "subtitle": "了解公司如何透過 SeaX 擴展外聯",
         "testimonial1": {
-          "quote": "感謝 SeaX 觸及整個資料庫的能力，我們在一個月內將合格潛在客戶翻倍。",
-          "author": "Sarah Chen",
+          "quote": "感謝 SeaX 能夠觸達我們整個客戶資料庫，我們在一個月內將合格潛在客戶數量翻倍。",
+          "author": "陳莎拉",
           "role": "銷售副總裁，TechScale"
         },
         "testimonial2": {
-          "quote": "投資報酬率驚人。我們每月發送 200 萬條訊息，我們的管道從未如此充實。",
-          "author": "Michael Rodriguez",
+          "quote": "投資回報率驚人。我們每月發送 200 萬條訊息，我們的銷售漏斗從未如此充滿。",
+          "author": "麥可·羅德里格斯",
           "role": "成長經理，LeadForce"
         },
         "testimonial3": {
-          "quote": "SeaX 取代了 5 個不同工具，並將我們的外聯能力提升 10 倍。對我們銷售團隊來說是改變遊戲規則的工具。",
-          "author": "Jennifer Park",
+          "quote": "SeaX 取代了 5 個不同的工具，並將我們的觸達能力提高了 10 倍。對我們的銷售團隊來說是顛覆性的。",
+          "author": "朴珍妮佛",
           "role": "執行長，MarketBoost"
         }
       },
@@ -8818,6 +8864,10 @@
         "subtitle": "加入使用 SeaX 擴展外聯並填滿合格潛在客戶管道的數千家公司。",
         "requestDemo": "申請個人化演示",
         "signUpNow": "立即註冊"
+      },
+      "seo": {
+        "title": "SeaX - 即時觸達百萬用戶 | 大量簡訊、WhatsApp 和語音通訊",
+        "description": "發送數百萬條簡訊、WhatsApp 訊息和自動語音通話的終極平台。填滿您的銷售漏斗，推動收入增長，利用強大的觸達功能擴展您的業務。"
       }
     },
     "header": {
@@ -9532,6 +9582,164 @@
           "title": "專家支援",
           "description": "專屬客戶經理和 24/7 技術支援"
         }
+      }
+    },
+    "resources": {
+      "seo": {
+        "title": "SeaX 資源 - 指南、教學與說明文件",
+        "description": "取得 SeaX 的完整資源，包括指南、教學、API 說明文件、案例研究等，助您在大量溝通上取得成功。"
+      },
+      "hero": {
+        "title": "資源與",
+        "titleHighlight": "學習中心",
+        "description": "掌握大量溝通所需的一切資源。從快速入門指南到進階教學，我們為您提供全方位支援。",
+        "getSupport": "獲得支援",
+        "browseApiDocs": "瀏覽 API 文件"
+      },
+      "explore": {
+        "title": "探索我們的資源",
+        "subtitle": "找到您在 SeaX 上成功所需的一切"
+      },
+      "categories": {
+        "gettingStarted": {
+          "title": "快速入門",
+          "description": "啟動您第一個活動所需的一切",
+          "quickStart": {
+            "title": "快速入門指南",
+            "description": "在 10 分鐘內快速上手 SeaX",
+            "type": "指南",
+            "readTime": "5 分鐘閱讀"
+          },
+          "bestPractices": {
+            "title": "大量簡訊最佳實務",
+            "description": "學習如何撰寫能有效轉換的訊息",
+            "type": "指南",
+            "readTime": "8 分鐘閱讀"
+          },
+          "apiIntegration": {
+            "title": "API 整合教學",
+            "description": "將 SeaX 與您的應用程式整合的逐步指南",
+            "type": "教學",
+            "readTime": "15 分鐘閱讀"
+          }
+        },
+        "videos": {
+          "title": "影片教學",
+          "description": "透過我們的專家教學影片來學習",
+          "firstCampaign": {
+            "title": "建立您的第一個活動",
+            "description": "觀看如何設定和啟動您的第一個簡訊活動",
+            "type": "影片",
+            "duration": "12 分鐘"
+          },
+          "targeting": {
+            "title": "進階目標設定策略",
+            "description": "學習如何有效地細分和鎖定您的受眾",
+            "type": "影片",
+            "duration": "18 分鐘"
+          },
+          "analytics": {
+            "title": "分析與報告深入探討",
+            "description": "掌握 SeaX 分析功能來優化您的活動",
+            "type": "影片",
+            "duration": "25 分鐘"
+          }
+        },
+        "documentation": {
+          "title": "說明文件",
+          "description": "技術說明文件與 API 參考",
+          "apiReference": {
+            "title": "API 參考",
+            "description": "完整的 API 說明文件與範例",
+            "type": "說明文件",
+            "badge": "開發者"
+          },
+          "webhook": {
+            "title": "Webhook 指南",
+            "description": "設定即時通知與回呼功能",
+            "type": "說明文件",
+            "badge": "開發者"
+          },
+          "sdk": {
+            "title": "SDK 說明文件",
+            "description": "熱門程式語言的客戶端程式庫",
+            "type": "說明文件",
+            "badge": "開發者"
+          }
+        },
+        "caseStudies": {
+          "title": "案例研究",
+          "description": "來自我們客戶的真實成功故事",
+          "ecommerce": {
+            "title": "電商：簡訊行銷帶來 300% ROI",
+            "description": "線上零售商如何將投資報酬率提升三倍",
+            "type": "案例研究",
+            "industry": "電子商務"
+          },
+          "healthcare": {
+            "title": "醫療：大規模預約提醒",
+            "description": "透過自動化提醒將爽約率降低 45%",
+            "type": "案例研究",
+            "industry": "醫療保健"
+          },
+          "fintech": {
+            "title": "金融科技：透過簡訊防範詐騙",
+            "description": "即時詐騙警報保護數百萬用戶",
+            "type": "案例研究",
+            "industry": "金融服務"
+          }
+        }
+      },
+      "common": {
+        "readMore": "閱讀更多"
+      },
+      "downloads": {
+        "title": "下載資源",
+        "subtitle": "免費資源助您充分發揮 SeaX 的效能",
+        "playbook": {
+          "title": "簡訊行銷手冊",
+          "description": "包含範本與範例的完整簡訊行銷指南",
+          "format": "PDF",
+          "size": "2.5 MB"
+        },
+        "compliance": {
+          "title": "合規檢查清單",
+          "description": "確保您的活動符合所有法規要求",
+          "format": "PDF",
+          "size": "1.2 MB"
+        },
+        "templates": {
+          "title": "訊息範本庫",
+          "description": "適用於常見使用案例的即用範本",
+          "format": "ZIP",
+          "size": "850 KB"
+        },
+        "download": "下載"
+      },
+      "support": {
+        "title": "需要更多協助？",
+        "subtitle": "我們的支援團隊致力於協助您成功。獲得個人化的活動與技術問題協助。",
+        "liveChat": {
+          "title": "即時聊天",
+          "description": "從我們的支援團隊獲得即時協助",
+          "action": "開始聊天"
+        },
+        "knowledgeBase": {
+          "title": "知識庫",
+          "description": "搜尋我們全面的說明文章",
+          "action": "瀏覽文章"
+        },
+        "community": {
+          "title": "社群",
+          "description": "與其他 SeaX 使用者交流",
+          "action": "加入社群"
+        }
+      },
+      "cta": {
+        "title": "準備好開始了嗎？",
+        "subtitle": "加入已使用 SeaX 與客戶溝通的數千家企業",
+        "signUp": "立即註冊",
+        "viewPricing": "查看定價"
       }
     }
   },
