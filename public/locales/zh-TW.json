@@ -8999,6 +8999,14 @@
         "getStartedButton": "立即開始",
         "viewPricingButton": "查看定價"
       }
+    },
+    "massCommunicationFlow": {
+      "messageTypes": {
+        "sms": "簡訊",
+        "whatsapp": "WhatsApp",
+        "voice": "語音",
+        "email": "電子郵件"
+      }
     }
   }
 }

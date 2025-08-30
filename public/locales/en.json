@@ -9021,6 +9021,14 @@
         "getStartedButton": "Get Started Today",
         "viewPricingButton": "View Pricing"
       }
+    },
+    "massCommunicationFlow": {
+      "messageTypes": {
+        "sms": "SMS",
+        "whatsapp": "WhatsApp",
+        "voice": "Voice",
+        "email": "Email"
+      }
     }
   }
 }

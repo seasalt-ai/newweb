@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, Smartphone, Phone, Mail, Send, User } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Stats {
   totalSent: number;
@@ -13,17 +14,18 @@ interface MassCommunicationFlowProps {
 }
 
 const MassCommunicationFlow: React.FC<MassCommunicationFlowProps> = ({ onStatsUpdate }) => {
+  const { t } = useTranslation();
   const [messageNodes, setMessageNodes] = useState<Array<{ id: number; type: string; targetAngle: number; progress: number; emissionAngle: number }>>([]);
   const [stats, setStats] = useState<Stats>({ totalSent: 0, delivered: 0, active: 3245 });
   const [centralRotation, setCentralRotation] = useState(0);
 
   // Move messageTypes outside of render to prevent recreation
   const messageTypes = React.useMemo(() => [
-    { type: 'SMS', icon: MessageCircle, color: 'text-blue-300', bgColor: 'bg-blue-500/40' },
-    { type: 'WhatsApp', icon: Smartphone, color: 'text-green-300', bgColor: 'bg-green-500/40' },
-    { type: 'Voice', icon: Phone, color: 'text-purple-300', bgColor: 'bg-purple-500/40' },
-    { type: 'Email', icon: Mail, color: 'text-orange-300', bgColor: 'bg-orange-500/40' }
-  ], []);
+    { type: t('seax.massCommunicationFlow.messageTypes.sms'), icon: MessageCircle, color: 'text-blue-300', bgColor: 'bg-blue-500/40' },
+    { type: t('seax.massCommunicationFlow.messageTypes.whatsapp'), icon: Smartphone, color: 'text-green-300', bgColor: 'bg-green-500/40' },
+    { type: t('seax.massCommunicationFlow.messageTypes.voice'), icon: Phone, color: 'text-purple-300', bgColor: 'bg-purple-500/40' },
+    { type: t('seax.massCommunicationFlow.messageTypes.email'), icon: Mail, color: 'text-orange-300', bgColor: 'bg-orange-500/40' }
+  ], [t]);
 
   const contacts = Array.from({ length: 12 }, (_, i) => ({
     id: i,
