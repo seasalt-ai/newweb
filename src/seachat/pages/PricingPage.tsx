@@ -218,7 +218,7 @@ const PricingPage = () => {
       buttonText: t('seachat.pricing.plans.premium.buttonText'),
       buttonStyle: 'bg-orange-500 hover:bg-orange-600 text-white',
       cardStyle: 'bg-gradient-to-br from-orange-300 to-orange-500 text-white',
-      badge: 'Most Popular',
+      badge: t('seachat.pricing.plans.premium.badge'),
       highlight: true
     },
     {
@@ -430,8 +430,8 @@ const PricingPage = () => {
                     const model = pricingData.pricing.find(p => p.model_name === selectedModel);
                     return model ? (
                       <div className="space-y-1">
-                        <div>${model.per_text_response.toFixed(3)} per chat response</div>
-                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>
+                        <div>${model.per_text_response.toFixed(3)} {t('seachat.pricing.calculator.perChatResponse')}</div>
+                        <div>${model.per_voice_minute.toFixed(2)} {t('seachat.pricing.calculator.perVoiceMinute')}</div>
                       </div>
                     ) : null;
                   })()}
@@ -497,7 +497,7 @@ const PricingPage = () => {
                   <div>
                     <label className="block text-lg font-semibold text-gray-900 mb-4">
                       {t('seachat.pricing.calculator.chatResponses')}: <span className="text-orange-600">{chatResponses.toLocaleString()}</span>
-                      <div className="text-sm text-gray-500 mt-1 opacity-0">Placeholder</div>
+                      <div className="text-sm text-gray-500 mt-1 opacity-0">{t('seachat.pricing.calculator.placeholderText')}</div>
                     </label>
                     <input
                       type="range"

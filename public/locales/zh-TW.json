@@ -2131,7 +2131,8 @@
             "voiceAgentsTitle": "語音 AI 智能助手：",
             "timezoneTitle": "具有時區支援的本地時間感知，適用於："
           },
-          "buttonText": "開始高級版"
+          "buttonText": "開始高級版",
+          "badge": "最受歡迎"
         },
         "enterprise": {
           "name": "企業版",
@@ -2186,7 +2187,10 @@
         "planIncludes": "高級版包括：",
         "planIncludesHuman": "4 位人工助理",
         "planIncludesAI": "10 個 AI 智能助手",
-        "planIncludesWorkspaces": "2 個工作區"
+        "planIncludesWorkspaces": "2 個工作區",
+        "perChatResponse": "每次聊天回應",
+        "perVoiceMinute": "每分鐘語音",
+        "placeholderText": "佔位符"
       },
       "note": "價格以美元計算。語音價格因國家而異，列出的價格適用於美國。其他國家請聯絡我們。",
       "comparison": {
@@ -2303,7 +2307,8 @@
           "cancelAnytime": "隨時取消",
           "support": "24/7 支援"
         },
-        "urgency": "限時優惠：年度方案免費 2 個月 + 優先上線支援！"
+        "urgency": "限時優惠：年度方案免費 2 個月 + 優先上線支援！",
+        "limitedTime": "限時優惠："
       }
     },
     "knowledgeBase": {
@@ -6262,6 +6267,81 @@
         "ctaSubtitle": "連接所有客戶接觸點，提供讓客戶回流的無縫支援體驗。",
         "customerMessage": "您好，我對您的 AI 自動化功能感興趣。您能告訴我更多資訊嗎？",
         "agentMessage": "我很樂意幫助您！我們的 AI 自動化可以處理高達 80% 的日常詢問..."
+      },
+      "voiceAgents": {
+        "title": "語音智能客服",
+        "subtitle": "透過聽起來自然、理解上下文並能提供多語言即時協助的AI語音智能客服，轉化您的電話支援。",
+        "signUpFree": "免費註冊",
+        "scheduleDemo": "安排示範",
+        "natural": {
+          "title": "自然語音對話",
+          "description": "AI驅動的語音智能客服，聽起來自然且理解上下文。"
+        },
+        "speech": {
+          "title": "先進語音識別",
+          "description": "多語言和腔調的精確語音轉文字轉換。"
+        },
+        "synthesis": {
+          "title": "高品質語音合成",
+          "description": "水晶般清晰、人性化的語音輸出，具備情感智慧。"
+        },
+        "support": {
+          "title": "24/7語音支援",
+          "description": "為全球客戶支援提供全天候語音協助。"
+        },
+        "multilanguage": {
+          "title": "多語言支援",
+          "description": "支援50+種語言，具備原生發音。"
+        },
+        "routing": {
+          "title": "智能通話路由",
+          "description": "當出現複雜問題時，智慧路由至人工專員。"
+        },
+        "capabilitiesTitle": "先進語音功能",
+        "capabilitiesSubtitle": "我們的語音智能客服結合尖端AI與自然語言處理，實現人性化對話。",
+        "capabilities": {
+          "service": {
+            "title": "客戶服務通話",
+            "description": "處理日常查詢、訂單狀態和基本故障排除"
+          },
+          "appointments": {
+            "title": "預約排程",
+            "description": "自動預約、重新安排和確認約會"
+          },
+          "orders": {
+            "title": "訂單處理",
+            "description": "接受訂單、處理付款和確認詳細資料"
+          },
+          "support": {
+            "title": "技術支援",
+            "description": "引導客戶完成基本故障排除步驟"
+          }
+        },
+        "performanceTitle": "語音智能客服效能",
+        "performanceSubtitle": "了解我們的語音智能客服在不同類型的客戶互動中的表現。",
+        "accuracyRate": "準確率",
+        "avgDuration": "平均時長",
+        "experienceTitle": "體驗語音AI的實際運作",
+        "experienceSubtitle": "聆聽客戶與我們語音智能客服之間的真實對話。",
+        "sampleTitle": "對話範例",
+        "voiceAgent": "語音智能客服",
+        "customer": "客戶",
+        "agentGreeting": "您好！感謝您致電SeaChat客服。請問有什麼可以為您服務的嗎？",
+        "customerQuestion": "你好，我需要查看我最近訂單的狀態。",
+        "agentResponse": "我很樂意為您協助。請您提供訂單號碼或您帳戶的電子郵件地址好嗎？",
+        "playDemo": "播放完整示範",
+        "moreSamples": "更多範例",
+        "featuresTitle": "語音智能客服功能",
+        "featuresList": {
+          "0": "自然語音處理",
+          "1": "多語言支援",
+          "2": "電話系統整合",
+          "3": "語音情感分析",
+          "4": "通話錄音和分析",
+          "5": "智能人工升級"
+        },
+        "ctaTitle": "準備轉化電話支援了嗎？",
+        "ctaSubtitle": "體驗語音客戶支援的未來，AI智能客服聽起來和感覺都像真人。"
       }
     }
   },
@@ -7284,9 +7364,9 @@
       "description": "簡單透明的價格方案，隨您的需求成長。無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
     },
     "hero": {
-      "title": "隨您成長的定價",
+      "title": "選擇適合您需求的方案",
       "description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。",
-      "subtitle": "完全免費地從真人客服開始，然後在您準備好擴展時加入 AI。沒有隱藏費用，沒有驚喜，只有透明的定價。"
+      "subtitle": "從新創到企業 - 透明定價，無隱藏費用。免費開始，隨需擴展。"
     },
     "audienceSection": {
       "title": "選擇您的成長路徑",

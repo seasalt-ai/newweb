@@ -958,18 +958,6 @@
   },
   {
     "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "per chat response",
-    "context": "                    return model ? (\n                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
-    "text": "per voice minute",
-    "context": "                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;\n                  })()}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/PricingPage.tsx",
     "text": ": 4",
     "context": "                    <div className=\"mt-3 text-center\">\n                      <div className=\"bg-white rounded-lg p-3 border border-orange-300\">\n                        <div className=\"text-xs text-gray-500 mb-1\">{t('seachat.pricing.calculator.included')}: 4</div>\n                        <div className=\"text-sm text-gray-600 mb-1\">\n                          {t('seachat.pricing.calculator.extra')}: {Math.max(0, humanAgents - 4)} × $10\n                        </div>",
     "type": "jsx-text"
@@ -1014,18 +1002,6 @@
     "file": "src/seachat/pages/PricingPage.tsx",
     "text": "Limited Time:",
     "context": "\n                <span className=\"text-yellow-300\">Limited Time:</span> {t('seachat.pricing.cta.urge"
-  },
-  {
-    "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-    "text": "// @ts-ignore",
-    "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-    "text": "// @ts-ignore",
-    "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
-    "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/features/APIPage.tsx",

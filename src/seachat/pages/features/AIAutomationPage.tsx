@@ -195,7 +195,6 @@ const AIAutomationPage = () => {
                 <h3 className="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>
               </div>
               <div className="space-y-4">
-                  // @ts-ignore
                 {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) 
                   ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (
                   <div
@@ -217,7 +216,6 @@ const AIAutomationPage = () => {
                 <MessageSquare className="w-12 h-12 text-green-600 mr-4" />
                 <h3 className="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>
               </div>
-                  // @ts-ignore
               <div className="space-y-4">
                 {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) 
                   ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (

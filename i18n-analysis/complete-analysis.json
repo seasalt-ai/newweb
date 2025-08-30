@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-30T15:41:37.118Z",
+  "timestamp": "2025-08-30T15:47:11.045Z",
   "translation_files": {
     "ar": {
       "file_path": "public/locales/ar.json",
@@ -6059,6 +6059,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle": "Voice AI Agents:",
         "seachat.pricing.plans.premium.features.timezoneTitle": "Local time awareness with timezone support, for:",
         "seachat.pricing.plans.premium.buttonText": "Start Premium",
+        "seachat.pricing.plans.premium.badge": "Most Popular",
         "seachat.pricing.plans.enterprise.name": "Enterprise",
         "seachat.pricing.plans.enterprise.tagline": "Customize your exclusive AI agents",
         "seachat.pricing.plans.enterprise.description": "Custom solutions for large organizations",
@@ -6105,6 +6106,9 @@
         "seachat.pricing.calculator.planIncludesHuman": "4 Human Agents",
         "seachat.pricing.calculator.planIncludesAI": "10 AI Agents",
         "seachat.pricing.calculator.planIncludesWorkspaces": "2 Workspaces",
+        "seachat.pricing.calculator.perChatResponse": "per chat response",
+        "seachat.pricing.calculator.perVoiceMinute": "per voice minute",
+        "seachat.pricing.calculator.placeholderText": "Placeholder",
         "seachat.pricing.note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
         "seachat.pricing.comparison.title": "Compare All Features",
         "seachat.pricing.comparison.subtitle": "See exactly what's included in each plan",
@@ -6188,6 +6192,7 @@
         "seachat.pricing.cta.badges.cancelAnytime": "Cancel Anytime",
         "seachat.pricing.cta.badges.support": "24/7 Support",
         "seachat.pricing.cta.urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+        "seachat.pricing.cta.limitedTime": "Limited Time:",
         "seachat.knowledgeBase.title": "Powerful Knowledge Base",
         "seachat.knowledgeBase.subtitle": "Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
         "seachat.knowledgeBase.supportedFormats.title": "Supported File Types",
@@ -9359,9 +9364,9 @@
         "solutions.seahealth.cta.button": "Book a Demo Today!",
         "pricing.seo.title": "Pricing - Seasalt.ai",
         "pricing.seo.description": "Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
-        "pricing.hero.title": "Pricing That Grows With You",
+        "pricing.hero.title": "Choose the Plan That Fits Your Needs",
         "pricing.hero.description": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
-        "pricing.hero.subtitle": "Start completely free with human agents, then add AI when you are ready to scale. No surprises, no hidden fees, just transparent pricing.",
+        "pricing.hero.subtitle": "From startups to enterprise - transparent pricing with no hidden fees. Start free and scale as you grow.",
         "pricing.audienceSection.title": "Choose Your Growth Path",
         "pricing.audienceSection.description": "From startups to enterprises, we have the right solution for every stage of your journey",
         "pricing.audienceSection.startups.title": "For Startups & SMEs",
@@ -10719,7 +10724,7 @@
         "compareUsOverview.cta.signUp": "Sign Up",
         "compareUsOverview.cta.bookDemo": "Book A Demo"
       },
-      "total_keys": 5575,
+      "total_keys": 5580,
       "structure": {
         "header": {
           "products": "Products",
@@ -12853,7 +12858,8 @@
                   "voiceAgentsTitle": "Voice AI Agents:",
                   "timezoneTitle": "Local time awareness with timezone support, for:"
                 },
-                "buttonText": "Start Premium"
+                "buttonText": "Start Premium",
+                "badge": "Most Popular"
               },
               "enterprise": {
                 "name": "Enterprise",
@@ -12908,7 +12914,10 @@
               "planIncludes": "Premium Plan Includes:",
               "planIncludesHuman": "4 Human Agents",
               "planIncludesAI": "10 AI Agents",
-              "planIncludesWorkspaces": "2 Workspaces"
+              "planIncludesWorkspaces": "2 Workspaces",
+              "perChatResponse": "per chat response",
+              "perVoiceMinute": "per voice minute",
+              "placeholderText": "Placeholder"
             },
             "note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
             "comparison": {
@@ -13025,7 +13034,8 @@
                 "cancelAnytime": "Cancel Anytime",
                 "support": "24/7 Support"
               },
-              "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!"
+              "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+              "limitedTime": "Limited Time:"
             }
           },
           "knowledgeBase": {
@@ -18004,9 +18014,9 @@
             "description": "Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
           },
           "hero": {
-            "title": "Pricing That Grows With You",
+            "title": "Choose the Plan That Fits Your Needs",
             "description": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
-            "subtitle": "Start completely free with human agents, then add AI when you are ready to scale. No surprises, no hidden fees, just transparent pricing."
+            "subtitle": "From startups to enterprise - transparent pricing with no hidden fees. Start free and scale as you grow."
           },
           "audienceSection": {
             "title": "Choose Your Growth Path",
@@ -51873,6 +51883,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle": "語音 AI 智能助手：",
         "seachat.pricing.plans.premium.features.timezoneTitle": "具有時區支援的本地時間感知，適用於：",
         "seachat.pricing.plans.premium.buttonText": "開始高級版",
+        "seachat.pricing.plans.premium.badge": "最受歡迎",
         "seachat.pricing.plans.enterprise.name": "企業版",
         "seachat.pricing.plans.enterprise.tagline": "客製化您的專屬 AI 智能助手",
         "seachat.pricing.plans.enterprise.description": "為大型組織提供客製化解決方案",
@@ -51919,6 +51930,9 @@
         "seachat.pricing.calculator.planIncludesHuman": "4 位人工助理",
         "seachat.pricing.calculator.planIncludesAI": "10 個 AI 智能助手",
         "seachat.pricing.calculator.planIncludesWorkspaces": "2 個工作區",
+        "seachat.pricing.calculator.perChatResponse": "每次聊天回應",
+        "seachat.pricing.calculator.perVoiceMinute": "每分鐘語音",
+        "seachat.pricing.calculator.placeholderText": "佔位符",
         "seachat.pricing.note": "價格以美元計算。語音價格因國家而異，列出的價格適用於美國。其他國家請聯絡我們。",
         "seachat.pricing.comparison.title": "比較所有功能",
         "seachat.pricing.comparison.subtitle": "查看每個方案包含的確切內容",
@@ -52002,6 +52016,7 @@
         "seachat.pricing.cta.badges.cancelAnytime": "隨時取消",
         "seachat.pricing.cta.badges.support": "24/7 支援",
         "seachat.pricing.cta.urgency": "限時優惠：年度方案免費 2 個月 + 優先上線支援！",
+        "seachat.pricing.cta.limitedTime": "限時優惠：",
         "seachat.knowledgeBase.title": "強大的知識庫",
         "seachat.knowledgeBase.subtitle": "上傳 30 多種文件類型，讓 AI 提供豐富、具上下文的回應，包含卡片、按鈕、圖像和影片。",
         "seachat.knowledgeBase.supportedFormats.title": "支援的文件類型",
@@ -55175,9 +55190,9 @@
         "solutions.seahealth.cta.button": "立即預約示範！",
         "pricing.seo.title": "價格方案 - Seasalt.ai",
         "pricing.seo.description": "簡單透明的價格方案，隨您的需求成長。無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。",
-        "pricing.hero.title": "隨您成長的定價",
+        "pricing.hero.title": "選擇適合您需求的方案",
         "pricing.hero.description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。",
-        "pricing.hero.subtitle": "完全免費地從真人客服開始，然後在您準備好擴展時加入 AI。沒有隱藏費用，沒有驚喜，只有透明的定價。",
+        "pricing.hero.subtitle": "從新創到企業 - 透明定價，無隱藏費用。免費開始，隨需擴展。",
         "pricing.audienceSection.title": "選擇您的成長路徑",
         "pricing.audienceSection.description": "從新創企業到大型企業，我們為您成長的每個階段提供正確的解決方案",
         "pricing.audienceSection.startups.title": "適合新創企業和中小企業",
@@ -56535,7 +56550,7 @@
         "compareUsOverview.cta.signUp": "立即註冊",
         "compareUsOverview.cta.bookDemo": "預約示範"
       },
-      "total_keys": 5577,
+      "total_keys": 5582,
       "structure": {
         "header": {
           "products": "產品",
@@ -58669,7 +58684,8 @@
                   "voiceAgentsTitle": "語音 AI 智能助手：",
                   "timezoneTitle": "具有時區支援的本地時間感知，適用於："
                 },
-                "buttonText": "開始高級版"
+                "buttonText": "開始高級版",
+                "badge": "最受歡迎"
               },
               "enterprise": {
                 "name": "企業版",
@@ -58724,7 +58740,10 @@
               "planIncludes": "高級版包括：",
               "planIncludesHuman": "4 位人工助理",
               "planIncludesAI": "10 個 AI 智能助手",
-              "planIncludesWorkspaces": "2 個工作區"
+              "planIncludesWorkspaces": "2 個工作區",
+              "perChatResponse": "每次聊天回應",
+              "perVoiceMinute": "每分鐘語音",
+              "placeholderText": "佔位符"
             },
             "note": "價格以美元計算。語音價格因國家而異，列出的價格適用於美國。其他國家請聯絡我們。",
             "comparison": {
@@ -58841,7 +58860,8 @@
                 "cancelAnytime": "隨時取消",
                 "support": "24/7 支援"
               },
-              "urgency": "限時優惠：年度方案免費 2 個月 + 優先上線支援！"
+              "urgency": "限時優惠：年度方案免費 2 個月 + 優先上線支援！",
+              "limitedTime": "限時優惠："
             }
           },
           "knowledgeBase": {
@@ -63822,9 +63842,9 @@
             "description": "簡單透明的價格方案，隨您的需求成長。無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。"
           },
           "hero": {
-            "title": "隨您成長的定價",
+            "title": "選擇適合您需求的方案",
             "description": "無隱藏費用，無複雜附加項目，僅一個強大平台滿足所有對話需求。",
-            "subtitle": "完全免費地從真人客服開始，然後在您準備好擴展時加入 AI。沒有隱藏費用，沒有驚喜，只有透明的定價。"
+            "subtitle": "從新創到企業 - 透明定價，無隱藏費用。免費開始，隨需擴展。"
           },
           "audienceSection": {
             "title": "選擇您的成長路徑",
@@ -71553,6 +71573,7 @@
         "seachat.pricing.plans.premium.features.businessHours",
         "seachat.pricing.plans.premium.features.appointmentBooking",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -71574,6 +71595,8 @@
         "seachat.pricing.billing.monthly",
         "seachat.pricing.billing.yearly",
         "seachat.pricing.calculator.modelSelect",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
         "seachat.pricing.calculator.priceBreakdown",
         "seachat.pricing.calculator.licenseYearly",
         "seachat.pricing.calculator.licenseFee",
@@ -71586,6 +71609,7 @@
         "seachat.pricing.calculator.averagePerMonth",
         "seachat.pricing.calculator.aiUsage",
         "seachat.pricing.calculator.chatResponses",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.calculator.chatCost",
         "seachat.pricing.calculator.voiceMinutes",
         "seachat.pricing.calculator.voiceMinutesNote",
@@ -71746,16 +71770,6 @@
           "parentContext": "ObjectProperty"
         },
         {
-          "text": "per chat response",
-          "context": "                    return model ? (\n                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;",
-          "type": "jsx-text"
-        },
-        {
-          "text": "per voice minute",
-          "context": "                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;\n                  })()}",
-          "type": "jsx-text"
-        },
-        {
           "text": ": 4",
           "context": "                    <div className=\"mt-3 text-center\">\n                      <div className=\"bg-white rounded-lg p-3 border border-orange-300\">\n                        <div className=\"text-xs text-gray-500 mb-1\">{t('seachat.pricing.calculator.included')}: 4</div>\n                        <div className=\"text-sm text-gray-600 mb-1\">\n                          {t('seachat.pricing.calculator.extra')}: {Math.max(0, humanAgents - 4)} × $10\n                        </div>",
           "type": "jsx-text"
@@ -71845,18 +71859,7 @@
         "seachat.features.aiAutomation.scheduleDemo"
       ],
       "trans_components": [],
-      "hardcoded_strings": [
-        {
-          "text": "// @ts-ignore",
-          "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
-          "type": "jsx-text"
-        },
-        {
-          "text": "// @ts-ignore",
-          "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
-          "type": "jsx-text"
-        }
-      ],
+      "hardcoded_strings": [],
       "imports": {
         "useTranslation": true,
         "Trans": true
@@ -93690,8 +93693,8 @@
     }
   },
   "coverage_report": {
-    "base_language_keys": 5575,
-    "used_keys_in_components": 5436,
+    "base_language_keys": 5580,
+    "used_keys_in_components": 5440,
     "unused_keys": [
       "header.login",
       "header.backToChannels",
@@ -93773,6 +93776,7 @@
       "seachat.pricing.plans.premium.features.timezoneFeatures",
       "seachat.pricing.billing.year",
       "seachat.pricing.billing.month",
+      "seachat.pricing.cta.limitedTime",
       "seachat.useCases.cta.buttons.viewCases",
       "seachat.useCases.cta.buttons.startStory",
       "seachat.useCases.metrics.responseTime",
@@ -94988,6 +94992,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -95034,6 +95039,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -95117,6 +95125,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -98782,7 +98791,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "15.89"
+      "coverage_percentage": "15.88"
     },
     "de": {
       "missing_from_base": [
@@ -99729,6 +99738,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -99775,6 +99785,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -99858,6 +99871,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -103523,7 +103537,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "15.50"
+      "coverage_percentage": "15.48"
     },
     "es": {
       "missing_from_base": [
@@ -104522,6 +104536,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -104568,6 +104583,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -104651,6 +104669,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -108316,7 +108335,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "14.57"
+      "coverage_percentage": "14.55"
     },
     "fa": {
       "missing_from_base": [
@@ -109393,6 +109412,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -109439,6 +109459,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -109522,6 +109545,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -113187,7 +113211,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "13.15"
+      "coverage_percentage": "13.14"
     },
     "fil": {
       "missing_from_base": [
@@ -114282,6 +114306,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -114328,6 +114353,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -114411,6 +114439,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -118076,7 +118105,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.84"
+      "coverage_percentage": "12.83"
     },
     "fr": {
       "missing_from_base": [
@@ -119171,6 +119200,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -119217,6 +119247,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -119300,6 +119333,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -122965,7 +122999,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.84"
+      "coverage_percentage": "12.83"
     },
     "hi": {
       "missing_from_base": [
@@ -124060,6 +124094,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -124106,6 +124141,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -124189,6 +124227,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -127903,7 +127942,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.96"
+      "coverage_percentage": "11.95"
     },
     "id": {
       "missing_from_base": [
@@ -128998,6 +129037,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -129044,6 +129084,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -129127,6 +129170,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -132841,7 +132885,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.96"
+      "coverage_percentage": "11.95"
     },
     "ja": {
       "missing_from_base": [
@@ -133934,6 +133978,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -133980,6 +134025,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -134063,6 +134111,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -137777,7 +137826,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.98"
+      "coverage_percentage": "11.97"
     },
     "ko": {
       "missing_from_base": [
@@ -138872,6 +138921,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -138918,6 +138968,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -139001,6 +139054,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -142715,7 +142769,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.96"
+      "coverage_percentage": "11.95"
     },
     "ms": {
       "missing_from_base": [
@@ -143810,6 +143864,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -143856,6 +143911,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -143939,6 +143997,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -147653,7 +147712,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.96"
+      "coverage_percentage": "11.95"
     },
     "pl": {
       "missing_from_base": [
@@ -148762,6 +148821,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -148808,6 +148868,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -148891,6 +148954,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -152605,7 +152669,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.71"
+      "coverage_percentage": "11.70"
     },
     "pt": {
       "missing_from_base": [
@@ -153714,6 +153778,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -153760,6 +153825,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -153843,6 +153911,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -157557,7 +157626,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.71"
+      "coverage_percentage": "11.70"
     },
     "ru": {
       "missing_from_base": [
@@ -158666,6 +158735,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -158712,6 +158782,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -158795,6 +158868,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -162509,7 +162583,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.71"
+      "coverage_percentage": "11.70"
     },
     "ta": {
       "missing_from_base": [
@@ -163604,6 +163678,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -163650,6 +163725,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -163733,6 +163811,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -167398,7 +167477,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.84"
+      "coverage_percentage": "12.83"
     },
     "th": {
       "missing_from_base": [
@@ -168553,6 +168632,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -168599,6 +168679,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -168682,6 +168765,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -172347,7 +172431,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "11.77"
+      "coverage_percentage": "11.76"
     },
     "vi": {
       "missing_from_base": [
@@ -173442,6 +173526,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -173488,6 +173573,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -173571,6 +173659,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -177236,7 +177325,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "12.84"
+      "coverage_percentage": "12.83"
     },
     "zh-CN": {
       "missing_from_base": [
@@ -178266,6 +178355,7 @@
         "seachat.pricing.plans.premium.features.voiceAgentsTitle",
         "seachat.pricing.plans.premium.features.timezoneTitle",
         "seachat.pricing.plans.premium.buttonText",
+        "seachat.pricing.plans.premium.badge",
         "seachat.pricing.plans.enterprise.name",
         "seachat.pricing.plans.enterprise.tagline",
         "seachat.pricing.plans.enterprise.description",
@@ -178312,6 +178402,9 @@
         "seachat.pricing.calculator.planIncludesHuman",
         "seachat.pricing.calculator.planIncludesAI",
         "seachat.pricing.calculator.planIncludesWorkspaces",
+        "seachat.pricing.calculator.perChatResponse",
+        "seachat.pricing.calculator.perVoiceMinute",
+        "seachat.pricing.calculator.placeholderText",
         "seachat.pricing.note",
         "seachat.pricing.comparison.title",
         "seachat.pricing.comparison.subtitle",
@@ -178395,6 +178488,7 @@
         "seachat.pricing.cta.badges.cancelAnytime",
         "seachat.pricing.cta.badges.support",
         "seachat.pricing.cta.urgency",
+        "seachat.pricing.cta.limitedTime",
         "seachat.knowledgeBase.title",
         "seachat.knowledgeBase.subtitle",
         "seachat.knowledgeBase.supportedFormats.title",
@@ -182060,7 +182154,7 @@
         "compareUsOverview.cta.signUp",
         "compareUsOverview.cta.bookDemo"
       ],
-      "coverage_percentage": "13.99"
+      "coverage_percentage": "13.98"
     },
     "zh-TW": {
       "missing_from_base": [
@@ -183037,18 +183131,6 @@
     },
     {
       "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "per chat response",
-      "context": "                    return model ? (\n                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
-      "text": "per voice minute",
-      "context": "                      <div className=\"space-y-1\">\n                        <div>${model.per_text_response.toFixed(3)} per chat response</div>\n                        <div>${model.per_voice_minute.toFixed(2)} per voice minute</div>\n                      </div>\n                    ) : null;\n                  })()}",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/PricingPage.tsx",
       "text": ": 4",
       "context": "                    <div className=\"mt-3 text-center\">\n                      <div className=\"bg-white rounded-lg p-3 border border-orange-300\">\n                        <div className=\"text-xs text-gray-500 mb-1\">{t('seachat.pricing.calculator.included')}: 4</div>\n                        <div className=\"text-sm text-gray-600 mb-1\">\n                          {t('seachat.pricing.calculator.extra')}: {Math.max(0, humanAgents - 4)} × $10\n                        </div>",
       "type": "jsx-text"
@@ -183093,18 +183175,6 @@
       "file": "src/seachat/pages/PricingPage.tsx",
       "text": "Limited Time:",
       "context": "\n                <span className=\"text-yellow-300\">Limited Time:</span> {t('seachat.pricing.cta.urge"
-    },
-    {
-      "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-      "text": "// @ts-ignore",
-      "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
-      "type": "jsx-text"
-    },
-    {
-      "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-      "text": "// @ts-ignore",
-      "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
-      "type": "jsx-text"
     },
     {
       "file": "src/seachat/pages/features/APIPage.tsx",
@@ -205306,9 +205376,9 @@
       "priority": "HIGH",
       "category": "Hardcoded Strings",
       "title": "Replace hardcoded strings with translation keys",
-      "description": "Found 3752 hardcoded strings that should be internationalized",
+      "description": "Found 3748 hardcoded strings that should be internationalized",
       "action": "Review and replace hardcoded strings with t() function calls",
-      "count": 3752
+      "count": 3748
     },
     {
       "priority": "MEDIUM",
@@ -206426,6 +206496,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -206472,6 +206543,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -206555,6 +206629,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -210269,7 +210344,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.71"
+            "coverage_percentage": "11.70"
           }
         ],
         [
@@ -211381,6 +211456,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -211427,6 +211503,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -211510,6 +211589,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -215224,7 +215304,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.71"
+            "coverage_percentage": "11.70"
           }
         ],
         [
@@ -216336,6 +216416,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -216382,6 +216463,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -216465,6 +216549,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -220179,7 +220264,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.71"
+            "coverage_percentage": "11.70"
           }
         ],
         [
@@ -221337,6 +221422,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -221383,6 +221469,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -221466,6 +221555,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -225131,7 +225221,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.77"
+            "coverage_percentage": "11.76"
           }
         ],
         [
@@ -226229,6 +226319,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -226275,6 +226366,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -226358,6 +226452,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -230072,7 +230167,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.96"
+            "coverage_percentage": "11.95"
           }
         ],
         [
@@ -231170,6 +231265,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -231216,6 +231312,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -231299,6 +231398,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -235013,7 +235113,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.96"
+            "coverage_percentage": "11.95"
           }
         ],
         [
@@ -236111,6 +236211,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -236157,6 +236258,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -236240,6 +236344,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -239954,7 +240059,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.96"
+            "coverage_percentage": "11.95"
           }
         ],
         [
@@ -241052,6 +241157,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -241098,6 +241204,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -241181,6 +241290,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -244895,7 +245005,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.96"
+            "coverage_percentage": "11.95"
           }
         ],
         [
@@ -245991,6 +246101,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -246037,6 +246148,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -246120,6 +246234,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -249834,7 +249949,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "11.98"
+            "coverage_percentage": "11.97"
           }
         ],
         [
@@ -250932,6 +251047,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -250978,6 +251094,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -251061,6 +251180,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -254726,7 +254846,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.84"
+            "coverage_percentage": "12.83"
           }
         ],
         [
@@ -255824,6 +255944,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -255870,6 +255991,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -255953,6 +256077,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -259618,7 +259743,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.84"
+            "coverage_percentage": "12.83"
           }
         ],
         [
@@ -260716,6 +260841,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -260762,6 +260888,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -260845,6 +260974,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -264510,7 +264640,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.84"
+            "coverage_percentage": "12.83"
           }
         ],
         [
@@ -265608,6 +265738,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -265654,6 +265785,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -265737,6 +265871,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -269402,7 +269537,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "12.84"
+            "coverage_percentage": "12.83"
           }
         ],
         [
@@ -270482,6 +270617,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -270528,6 +270664,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -270611,6 +270750,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -274276,7 +274416,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "13.15"
+            "coverage_percentage": "13.14"
           }
         ],
         [
@@ -275309,6 +275449,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -275355,6 +275496,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -275438,6 +275582,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -279103,7 +279248,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "13.99"
+            "coverage_percentage": "13.98"
           }
         ],
         [
@@ -280105,6 +280250,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -280151,6 +280297,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -280234,6 +280383,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -283899,7 +284049,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "14.57"
+            "coverage_percentage": "14.55"
           }
         ],
         [
@@ -284849,6 +284999,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -284895,6 +285046,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -284978,6 +285132,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -288643,7 +288798,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "15.50"
+            "coverage_percentage": "15.48"
           }
         ],
         [
@@ -289571,6 +289726,7 @@
               "seachat.pricing.plans.premium.features.voiceAgentsTitle",
               "seachat.pricing.plans.premium.features.timezoneTitle",
               "seachat.pricing.plans.premium.buttonText",
+              "seachat.pricing.plans.premium.badge",
               "seachat.pricing.plans.enterprise.name",
               "seachat.pricing.plans.enterprise.tagline",
               "seachat.pricing.plans.enterprise.description",
@@ -289617,6 +289773,9 @@
               "seachat.pricing.calculator.planIncludesHuman",
               "seachat.pricing.calculator.planIncludesAI",
               "seachat.pricing.calculator.planIncludesWorkspaces",
+              "seachat.pricing.calculator.perChatResponse",
+              "seachat.pricing.calculator.perVoiceMinute",
+              "seachat.pricing.calculator.placeholderText",
               "seachat.pricing.note",
               "seachat.pricing.comparison.title",
               "seachat.pricing.comparison.subtitle",
@@ -289700,6 +289859,7 @@
               "seachat.pricing.cta.badges.cancelAnytime",
               "seachat.pricing.cta.badges.support",
               "seachat.pricing.cta.urgency",
+              "seachat.pricing.cta.limitedTime",
               "seachat.knowledgeBase.title",
               "seachat.knowledgeBase.subtitle",
               "seachat.knowledgeBase.supportedFormats.title",
@@ -293365,7 +293525,7 @@
               "compareUsOverview.cta.signUp",
               "compareUsOverview.cta.bookDemo"
             ],
-            "coverage_percentage": "15.89"
+            "coverage_percentage": "15.88"
           }
         ]
       ]
