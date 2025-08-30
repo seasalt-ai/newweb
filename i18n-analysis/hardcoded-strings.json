@@ -1045,12 +1045,6 @@
   },
   {
     "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-    "text": "Schedule Demo",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AIAutomationPage.tsx",
     "text": "// @ts-ignore",
     "context": "                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>\n              </div>\n              <div className=\"space-y-4\">\n                  // @ts-ignore\n                {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div\n                    key={index}",
     "type": "jsx-text"
@@ -1059,18 +1053,6 @@
     "file": "src/seachat/pages/features/AIAutomationPage.tsx",
     "text": "// @ts-ignore",
     "context": "                <MessageSquare className=\"w-12 h-12 text-green-600 mr-4\" />\n                <h3 className=\"text-2xl font-bold text-gray-900\">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>\n              </div>\n                  // @ts-ignore\n              <div className=\"space-y-4\">\n                {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) \n                  ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (\n                  <div",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AIAutomationPage.tsx",
-    "text": "Schedule Demo",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center\"\n            >\n              Schedule Demo\n              <ArrowRight className=\"w-5 h-5 ml-2\" />\n            </a>\n          </div>\n        </div>",
     "type": "jsx-text"
   },
   {
@@ -1110,18 +1092,6 @@
   },
   {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AnalyticsPage.tsx",
-    "text": "Schedule Demo",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "98.2%",
     "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">98.2%</div>\n                    <div className=\"text-blue-200\">{t('seachat.features.analytics.dashboard.systemUptime', 'System Uptime')}</div>\n                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">",
     "type": "jsx-text"
@@ -1130,30 +1100,6 @@
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "4.8/5",
     "context": "                  </div>\n                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm\">\n                    <div className=\"text-2xl font-bold\">4.8/5</div>\n                    <div className=\"text-blue-200\">{t('seachat.features.analytics.dashboard.customerRating', 'Customer Rating')}</div>\n                  </div>\n                </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AnalyticsPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AnalyticsPage.tsx",
-    "text": "Schedule Demo",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center\"\n            >\n              Schedule Demo\n            </a>\n          </div>\n        </div>\n      </section>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/OmnichannelPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/OmnichannelPage.tsx",
-    "text": "Schedule Demo",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </div>",
     "type": "jsx-text"
   },
   {
@@ -1172,18 +1118,6 @@
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Emma Wilson",
     "context": "                  <div className=\"bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-pink-400\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <span className=\"font-medium\">Emma Wilson</span>\n                      <Instagram className=\"w-4 h-4 text-pink-400\" />\n                    </div>\n                    <p className=\"text-sm text-gray-300\">{t('seachat.features.omnichannel.instagramDM', 'Instagram DM about return policy...')}</p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/OmnichannelPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/OmnichannelPage.tsx",
-    "text": "Schedule Demo",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center\"\n            >\n              Schedule Demo\n              <ArrowRight className=\"w-5 h-5 ml-2\" />\n            </a>\n          </div>\n        </div>",
     "type": "jsx-text"
   },
   {

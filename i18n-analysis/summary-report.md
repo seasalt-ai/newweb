@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-30T01:53:18.309Z
+Generated: 2025-08-30T02:22:45.568Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 4562
+- **Base Language (en) Keys**: 4835
 - **Components Analyzed**: 210
-- **Translation Coverage**: 79.97%
-- **Missing Keys**: 1086
-- **Hardcoded Strings Found**: 3776
+- **Translation Coverage**: 84.94%
+- **Missing Keys**: 817
+- **Hardcoded Strings Found**: 3765
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 19.42% | ❌ Incomplete |
-| de | 887 | 18.94% | ❌ Incomplete |
-| en | 4562 | 100.00% | ✅ Good |
-| es | 835 | 17.80% | ❌ Incomplete |
-| fa | 755 | 16.07% | ❌ Incomplete |
-| fil | 739 | 15.69% | ❌ Incomplete |
-| fr | 739 | 15.69% | ❌ Incomplete |
-| hi | 690 | 14.62% | ❌ Incomplete |
-| id | 690 | 14.62% | ❌ Incomplete |
-| ja | 690 | 14.64% | ❌ Incomplete |
-| ko | 690 | 14.62% | ❌ Incomplete |
-| ms | 690 | 14.62% | ❌ Incomplete |
-| pl | 676 | 14.31% | ❌ Incomplete |
-| pt | 676 | 14.31% | ❌ Incomplete |
-| ru | 676 | 14.31% | ❌ Incomplete |
-| ta | 739 | 15.69% | ❌ Incomplete |
-| th | 679 | 14.38% | ❌ Incomplete |
-| vi | 739 | 15.69% | ❌ Incomplete |
-| zh-CN | 802 | 17.10% | ❌ Incomplete |
-| zh-TW | 4564 | 99.96% | ✅ Good |
+| ar | 909 | 18.32% | ❌ Incomplete |
+| de | 887 | 17.87% | ❌ Incomplete |
+| en | 4835 | 100.00% | ✅ Good |
+| es | 835 | 16.79% | ❌ Incomplete |
+| fa | 755 | 15.16% | ❌ Incomplete |
+| fil | 739 | 14.81% | ❌ Incomplete |
+| fr | 739 | 14.81% | ❌ Incomplete |
+| hi | 690 | 13.80% | ❌ Incomplete |
+| id | 690 | 13.80% | ❌ Incomplete |
+| ja | 690 | 13.82% | ❌ Incomplete |
+| ko | 690 | 13.80% | ❌ Incomplete |
+| ms | 690 | 13.80% | ❌ Incomplete |
+| pl | 676 | 13.51% | ❌ Incomplete |
+| pt | 676 | 13.51% | ❌ Incomplete |
+| ru | 676 | 13.51% | ❌ Incomplete |
+| ta | 739 | 14.81% | ❌ Incomplete |
+| th | 679 | 13.57% | ❌ Incomplete |
+| vi | 739 | 14.81% | ❌ Incomplete |
+| zh-CN | 802 | 16.13% | ❌ Incomplete |
+| zh-TW | 4837 | 99.96% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1086 keys used in components but missing from en.json
+**Description**: 817 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3776 hardcoded strings that should be internationalized
+**Description**: Found 3765 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -121,275 +121,6 @@ seachat.pricing.plans.enterprise.features
 seachat.pricing.plans.enterprise.button
 seachat.pricing.plans.free.period
 seachat.pricing.enterprise.button
-seachat.features.aiAutomation.contextAware.title
-seachat.features.aiAutomation.contextAware.description
-seachat.features.aiAutomation.learning.title
-seachat.features.aiAutomation.learning.description
-seachat.features.aiAutomation.handoff.title
-seachat.features.aiAutomation.handoff.description
-seachat.features.aiAutomation.availability.title
-seachat.features.aiAutomation.availability.description
-seachat.features.aiAutomation.response.title
-seachat.features.aiAutomation.response.description
-seachat.features.aiAutomation.multilanguage.title
-seachat.features.aiAutomation.multilanguage.description
-seachat.features.aiAutomation.types.faq.title
-seachat.features.aiAutomation.types.faq.description
-seachat.features.aiAutomation.types.orders.title
-seachat.features.aiAutomation.types.orders.description
-seachat.features.aiAutomation.types.appointments.title
-seachat.features.aiAutomation.types.appointments.description
-seachat.features.aiAutomation.types.recommendations.title
-seachat.features.aiAutomation.types.recommendations.description
-seachat.features.aiAutomation.title
-seachat.features.aiAutomation.subtitle
-seachat.features.aiAutomation.tryButton
-seachat.features.aiAutomation.featuresTitle
-seachat.features.aiAutomation.featuresSubtitle
-seachat.features.aiAutomation.performanceTitle
-seachat.features.aiAutomation.performanceSubtitle
-seachat.features.aiAutomation.hybridTitle
-seachat.features.aiAutomation.hybridSubtitle
-seachat.features.aiAutomation.aiStrengthsTitle
-seachat.features.aiAutomation.aiStrengths
-seachat.features.aiAutomation.humanStrengthsTitle
-seachat.features.aiAutomation.humanStrengths
-seachat.features.aiAutomation.ctaTitle
-seachat.features.aiAutomation.ctaSubtitle
-seachat.features.api.restful.title
-seachat.features.api.restful.description
-seachat.features.api.webhooks.title
-seachat.features.api.webhooks.description
-seachat.features.api.security.title
-seachat.features.api.security.description
-seachat.features.api.cdn.title
-seachat.features.api.cdn.description
-seachat.features.api.endpoints.createConversation
-seachat.features.api.endpoints.getConversation
-seachat.features.api.endpoints.sendMessage
-seachat.features.api.sdks.available
-seachat.features.api.sdks.comingSoon
-seachat.features.api.title
-seachat.features.api.subtitle
-seachat.features.api.getKeyButton
-seachat.features.api.viewDocsButton
-seachat.features.api.featuresTitle
-seachat.features.api.featuresSubtitle
-seachat.features.api.endpointsTitle
-seachat.features.api.endpointsSubtitle
-seachat.features.api.exampleRequestResponse
-seachat.features.api.tryItOut
-seachat.features.api.testConsole
-seachat.features.api.copyCurl
-seachat.features.api.sdksTitle
-seachat.features.api.sdksSubtitle
-seachat.features.api.exampleTitle
-seachat.features.api.exampleSubtitle
-seachat.features.api.jsExample
-seachat.features.api.copy
-seachat.features.api.ctaTitle
-seachat.features.api.ctaSubtitle
-seachat.features.api.ctaAccessButton
-seachat.features.api.ctaDocsButton
-seachat.features.analytics.metrics.satisfaction.title
-seachat.features.analytics.metrics.responseTime.title
-seachat.features.analytics.metrics.resolution.title
-seachat.features.analytics.metrics.growth.title
-seachat.features.analytics.seachat.features.dashboards.title
-seachat.features.analytics.seachat.features.dashboards.description
-seachat.features.analytics.seachat.features.dashboards.benefits.metrics
-seachat.features.analytics.seachat.features.dashboards.benefits.kpi
-seachat.features.analytics.seachat.features.dashboards.benefits.team
-seachat.features.analytics.seachat.features.dashboards.benefits.alerts
-seachat.features.analytics.seachat.features.reporting.title
-seachat.features.analytics.seachat.features.reporting.description
-seachat.features.analytics.seachat.features.reporting.benefits.automated
-seachat.features.analytics.seachat.features.reporting.benefits.dates
-seachat.features.analytics.seachat.features.reporting.benefits.export
-seachat.features.analytics.seachat.features.reporting.benefits.scheduled
-seachat.features.analytics.seachat.features.journey.title
-seachat.features.analytics.seachat.features.journey.description
-seachat.features.analytics.seachat.features.journey.benefits.tracking
-seachat.features.analytics.seachat.features.journey.benefits.visualization
-seachat.features.analytics.seachat.features.journey.benefits.conversion
-seachat.features.analytics.seachat.features.journey.benefits.dropoff
-seachat.features.analytics.seachat.features.optimization.title
-seachat.features.analytics.seachat.features.optimization.description
-seachat.features.analytics.seachat.features.optimization.benefits.bottlenecks
-seachat.features.analytics.seachat.features.optimization.benefits.resources
-seachat.features.analytics.seachat.features.optimization.benefits.efficiency
-seachat.features.analytics.seachat.features.optimization.benefits.roi
-seachat.features.analytics.title
-seachat.features.analytics.subtitle
-seachat.features.analytics.metricsTitle
-seachat.features.analytics.metricsSubtitle
-seachat.features.analytics.metrics.period
-seachat.features.analytics.featuresTitle
-seachat.features.analytics.featuresSubtitle
-seachat.features.analytics.dashboardTitle
-seachat.features.analytics.dashboardSubtitle
-seachat.features.analytics.dashboard.overview
-seachat.features.analytics.dashboard.months.jan
-seachat.features.analytics.dashboard.months.dec
-seachat.features.analytics.dashboard.quickStats
-seachat.features.analytics.dashboard.activeConversations
-seachat.features.analytics.dashboard.systemUptime
-seachat.features.analytics.dashboard.customerRating
-seachat.features.analytics.ctaTitle
-seachat.features.analytics.ctaSubtitle
-seachat.features.humanAgents.unlimited.title
-seachat.features.humanAgents.unlimited.description
-seachat.features.humanAgents.realtime.title
-seachat.features.humanAgents.realtime.description
-seachat.features.humanAgents.collaboration.title
-seachat.features.humanAgents.collaboration.description
-seachat.features.humanAgents.security.title
-seachat.features.humanAgents.security.description
-seachat.features.humanAgents.analytics.title
-seachat.features.humanAgents.analytics.description
-seachat.features.humanAgents.workflows.title
-seachat.features.humanAgents.workflows.description
-seachat.features.humanAgents.benefits.personal.title
-seachat.features.humanAgents.benefits.personal.description
-seachat.features.humanAgents.benefits.complex.title
-seachat.features.humanAgents.benefits.complex.description
-seachat.features.humanAgents.benefits.brand.title
-seachat.features.humanAgents.benefits.brand.description
-seachat.features.humanAgents.benefits.relationships.title
-seachat.features.humanAgents.benefits.relationships.description
-seachat.features.humanAgents.title
-seachat.features.humanAgents.subtitle
-seachat.features.humanAgents.startButton
-seachat.features.humanAgents.demoButton
-seachat.features.humanAgents.freeForever.title
-seachat.features.humanAgents.freeForever.subtitle
-seachat.features.humanAgents.freeForever.meaningTitle
-seachat.features.humanAgents.freeForever.agent
-seachat.features.humanAgents.freeForever.conversations
-seachat.features.humanAgents.freeForever.history
-seachat.features.humanAgents.freeForever.contacts
-seachat.features.humanAgents.freeForever.export
-seachat.features.humanAgents.freeForever.noCredit
-seachat.features.humanAgents.freeForever.unlimited
-seachat.features.humanAgents.freeForever.noCaps
-seachat.features.humanAgents.freeForever.forever
-seachat.features.humanAgents.featuresTitle
-seachat.features.humanAgents.featuresSubtitle
-seachat.features.humanAgents.whyMatterTitle
-seachat.features.humanAgents.whyMatterSubtitle
-seachat.features.humanAgents.ctaTitle
-seachat.features.humanAgents.ctaSubtitle
-seachat.features.humanAgents.ctaStartButton
-seachat.features.humanAgents.ctaDemoButton
-common.back
-features.knowledgeBase.title
-seachat.features.knowledgeBase.subtitle
-seachat.features.knowledgeBase.managementTitle
-seachat.features.knowledgeBase.managementSubtitle
-seachat.features.knowledgeBase.smartSearch.title
-seachat.features.knowledgeBase.smartSearch.description
-seachat.features.knowledgeBase.documentManagement.title
-seachat.features.knowledgeBase.documentManagement.description
-seachat.features.knowledgeBase.collaboration.title
-seachat.features.knowledgeBase.collaboration.description
-seachat.features.knowledgeBase.autoLearning.title
-seachat.features.knowledgeBase.autoLearning.description
-seachat.features.knowledgeBase.accessControl.title
-seachat.features.knowledgeBase.accessControl.description
-seachat.features.knowledgeBase.multiLanguage.title
-seachat.features.knowledgeBase.multiLanguage.description
-seachat.features.knowledgeBase.demoTitle
-seachat.features.knowledgeBase.demoSubtitle
-seachat.features.knowledgeBase.interfaceTitle
-seachat.features.knowledgeBase.categories
-seachat.features.knowledgeBase.productDocs
-seachat.features.knowledgeBase.articles
-seachat.features.knowledgeBase.supportFaqs
-seachat.features.knowledgeBase.policies
-seachat.features.knowledgeBase.recentUpdates
-seachat.features.knowledgeBase.refundUpdate
-seachat.features.knowledgeBase.hoursAgo
-seachat.features.knowledgeBase.returnWindow
-seachat.features.knowledgeBase.featureGuide
-seachat.features.knowledgeBase.dayAgo
-seachat.features.knowledgeBase.analyticsDoc
-seachat.features.knowledgeBase.transformTitle
-seachat.features.knowledgeBase.transformSubtitle
-seachat.features.knowledgeBase.benefitsTitle
-seachat.features.knowledgeBase.fasterResponse.title
-seachat.features.knowledgeBase.fasterResponse.description
-seachat.features.knowledgeBase.consistency.title
-seachat.features.knowledgeBase.consistency.description
-seachat.features.knowledgeBase.training.title
-seachat.features.knowledgeBase.training.description
-seachat.features.knowledgeBase.readyTitle
-seachat.features.knowledgeBase.readySubtitle
-seachat.features.knowledgeBase.startButton
-seachat.features.omnichannel.channels.website.name
-seachat.features.omnichannel.channels.website.description
-seachat.features.omnichannel.channels.website.seachat.features.compatibility
-seachat.features.omnichannel.channels.website.seachat.features.styling
-seachat.features.omnichannel.channels.website.seachat.features.responsive
-seachat.features.omnichannel.channels.website.seachat.features.sync
-seachat.features.omnichannel.channels.whatsapp.name
-seachat.features.omnichannel.channels.whatsapp.description
-seachat.features.omnichannel.channels.whatsapp.seachat.features.api
-seachat.features.omnichannel.channels.whatsapp.seachat.features.media
-seachat.features.omnichannel.channels.whatsapp.seachat.features.templates
-seachat.features.omnichannel.channels.whatsapp.seachat.features.groups
-seachat.features.omnichannel.channels.instagram.name
-seachat.features.omnichannel.channels.instagram.description
-seachat.features.omnichannel.channels.instagram.seachat.features.replies
-seachat.features.omnichannel.channels.instagram.seachat.features.media
-seachat.features.omnichannel.channels.instagram.seachat.features.responses
-seachat.features.omnichannel.channels.instagram.seachat.features.greetings
-seachat.features.omnichannel.channels.facebook.name
-seachat.features.omnichannel.channels.facebook.description
-seachat.features.omnichannel.channels.facebook.seachat.features.integration
-seachat.features.omnichannel.channels.facebook.seachat.features.responses
-seachat.features.omnichannel.channels.facebook.seachat.features.cards
-seachat.features.omnichannel.channels.facebook.seachat.features.menu
-seachat.features.omnichannel.channels.voice.name
-seachat.features.omnichannel.channels.voice.description
-seachat.features.omnichannel.channels.voice.seachat.features.conversations
-seachat.features.omnichannel.channels.voice.seachat.features.routing
-seachat.features.omnichannel.channels.voice.seachat.features.voicemail
-seachat.features.omnichannel.channels.voice.seachat.features.conference
-seachat.features.omnichannel.channels.email.name
-seachat.features.omnichannel.channels.email.description
-seachat.features.omnichannel.channels.email.seachat.features.categorization
-seachat.features.omnichannel.channels.email.seachat.features.responses
-seachat.features.omnichannel.channels.email.seachat.features.templates
-seachat.features.omnichannel.channels.email.seachat.features.priority
-seachat.features.omnichannel.benefits.unifiedView.title
-seachat.features.omnichannel.benefits.unifiedView.description
-seachat.features.omnichannel.benefits.handoffs.title
-seachat.features.omnichannel.benefits.handoffs.description
-seachat.features.omnichannel.benefits.resolution.title
-seachat.features.omnichannel.benefits.resolution.description
-seachat.features.omnichannel.benefits.satisfaction.title
-seachat.features.omnichannel.benefits.satisfaction.description
-seachat.features.omnichannel.title
-seachat.features.omnichannel.subtitle
-seachat.features.omnichannel.channelsTitle
-seachat.features.omnichannel.channelsSubtitle
-seachat.features.omnichannel.benefitsTitle
-seachat.features.omnichannel.benefitsSubtitle
-seachat.features.omnichannel.inboxTitle
-seachat.features.omnichannel.inboxSubtitle
-seachat.features.omnichannel.activeConversations
-seachat.features.omnichannel.websiteChat
-seachat.features.omnichannel.whatsappInquiry
-seachat.features.omnichannel.instagramDM
-seachat.features.omnichannel.conversationView
-seachat.features.omnichannel.customerVia
-seachat.features.omnichannel.customerMessage
-seachat.features.omnichannel.agentResponse
-seachat.features.omnichannel.agentMessage
-seachat.features.omnichannel.customerViaWhatsapp
-seachat.features.omnichannel.whatsappMessage
-seachat.features.omnichannel.ctaTitle
-seachat.features.omnichannel.ctaSubtitle
 seachat.features.voiceAgents.featuresList
 seachat.features.voiceAgents.natural.title
 seachat.features.voiceAgents.natural.description
@@ -1147,7 +878,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 3776 potential hardcoded strings across components:
+Found 3765 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -1190,7 +921,7 @@ Found 3776 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3766 more. See hardcoded-strings.json for complete list.
+... and 3755 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -1198,13 +929,13 @@ Found 3776 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1086 keys used in components but missing from en.json
+**Description**: 817 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3776 hardcoded strings that should be internationalized
+**Description**: Found 3765 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

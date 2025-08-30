@@ -121,6 +121,9 @@
     "testimonial": {
       "quote": "我推薦 Seasalt.ai，因為它強大的知識庫系統和全渠道支援！",
       "author": "— 解決方案架構師評論"
+    },
+    "knowledgeBase": {
+      "title": "知識庫"
     }
   },
   "howItWorks": {
@@ -4598,6 +4601,460 @@
           "signUp": "免費註冊",
           "scheduleDemo": "預約演示"
         }
+      },
+      "aiAutomation": {
+        "title": "AI 自動化",
+        "subtitle": "透過智慧型 AI 擴展您的客戶支援，AI 能夠學習、適應並提供即時回應，同時在需要時保持人性化的觸感。",
+        "tryButton": "試用 AI 自動化",
+        "featuresTitle": "智慧型 AI 功能",
+        "featuresSubtitle": "我們的 AI 自動化超越了簡單的聊天機器人，提供真正智慧的客戶支援。",
+        "performanceTitle": "真正有效的自動化",
+        "performanceSubtitle": "了解我們的 AI 自動化如何以驚人的準確率處理不同類型的客戶查詢。",
+        "hybridTitle": "完美平衡：AI + 人工",
+        "hybridSubtitle": "我們的混合方式結合了 AI 的速度和人工客服的同理心。",
+        "aiStrengthsTitle": "AI 自動化的優勢",
+        "aiStrengths": [
+          "對常見問題的即時回應",
+          "全年無休 24/7 的可用性",
+          "同時處理多個對話",
+          "一致的服務品質",
+          "多語言溝通支援",
+          "快速存取知識庫資訊"
+        ],
+        "humanStrengthsTitle": "人工客服的優勢",
+        "humanStrengths": [
+          "複雜的問題解決和同理心",
+          "與客戶建立個人關係",
+          "處理敏感或情緒化的情況",
+          "創意解決方案和跳脫思維",
+          "了解客戶的細緻需求",
+          "在模糊情況下做出判斷決定"
+        ],
+        "ctaTitle": "準備好使用 AI 擴展了嗎？",
+        "ctaSubtitle": "從免費的人工客服開始，然後在您準備好擴展時添加 AI 自動化。成長型企業的完美混合方式。",
+        "contextAware": {
+          "title": "上下文感知回應",
+          "description": "AI 理解對話上下文並提供相關的智慧回應。"
+        },
+        "learning": {
+          "title": "從對話中學習",
+          "description": "透過每次客戶互動持續改進。"
+        },
+        "handoff": {
+          "title": "無縫人工轉接",
+          "description": "當出現複雜問題時，順暢轉接至人工客服。"
+        },
+        "availability": {
+          "title": "24/7 全天候可用",
+          "description": "即使在客服離線時，也能提供全天候即時支援。"
+        },
+        "response": {
+          "title": "即時回應時間",
+          "description": "在毫秒內回應客戶查詢，而非分鐘。"
+        },
+        "multilanguage": {
+          "title": "多語言支援",
+          "description": "自動以客戶偏好的語言進行溝通。"
+        },
+        "types": {
+          "faq": {
+            "title": "FAQ 自動化",
+            "description": "以準確、最新的資訊即時回答常見問題。"
+          },
+          "orders": {
+            "title": "訂單狀態更新",
+            "description": "提供即時訂單追蹤和物流資訊。"
+          },
+          "appointments": {
+            "title": "預約排程",
+            "description": "自動預約和管理日程安排。"
+          },
+          "recommendations": {
+            "title": "產品推薦",
+            "description": "根據客戶偏好建議相關產品。"
+          }
+        },
+        "scheduleDemo": "預約演示",
+        "signUpForFree": "免費註冊"
+      },
+      "api": {
+        "restful": {
+          "title": "RESTful API",
+          "description": "簡潔直觀的 REST API，配備完整文檔"
+        },
+        "webhooks": {
+          "title": "即時 Webhooks",
+          "description": "即時接收事件和對話更新通知"
+        },
+        "security": {
+          "title": "安全認證",
+          "description": "OAuth 2.0 和 API 金鑰認證，具備速率限制"
+        },
+        "cdn": {
+          "title": "全球 CDN",
+          "description": "全球低延遲 API 存取"
+        },
+        "endpoints": {
+          "createConversation": "建立新對話",
+          "getConversation": "取得對話詳細資訊",
+          "sendMessage": "在對話中傳送訊息"
+        },
+        "sdks": {
+          "available": "可用",
+          "comingSoon": "即將推出"
+        },
+        "title": "API 和開發者工具",
+        "subtitle": "使用我們全面的 API 和開發者友善的工具，建立客製化整合並擴展 SeaChat 的功能。",
+        "getKeyButton": "取得 API 金鑰",
+        "viewDocsButton": "查看文檔",
+        "featuresTitle": "強大的 API 功能",
+        "featuresSubtitle": "將 SeaChat 整合到您現有系統和工作流程所需的一切。",
+        "endpointsTitle": "API 端點",
+        "endpointsSubtitle": "探索我們全面的 API，包含範例和互動式文檔。",
+        "exampleRequestResponse": "請求/回應範例",
+        "tryItOut": "立即試用",
+        "testConsole": "在控制台測試",
+        "copyCurl": "複製 cURL",
+        "sdksTitle": "SDK 和函式庫",
+        "sdksSubtitle": "使用我們為熱門程式語言提供的官方 SDK 快速開始。",
+        "exampleTitle": "快速開始範例",
+        "exampleSubtitle": "只需幾行程式碼即可啟動並執行 SeaChat API。",
+        "jsExample": "JavaScript 範例",
+        "copy": "複製",
+        "ctaTitle": "準備開始建置了嗎？",
+        "ctaSubtitle": "立即取得您的 API 金鑰，開始將 SeaChat 整合到您的應用程式中。",
+        "ctaAccessButton": "取得 API 存取權",
+        "ctaDocsButton": "閱讀文檔"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "客戶滿意度"
+          },
+          "responseTime": {
+            "title": "平均響應時間"
+          },
+          "resolution": {
+            "title": "解決率"
+          },
+          "growth": {
+            "title": "月度增長"
+          },
+          "period": "本月"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "即時儀表板",
+              "description": "透過即時、可自定義的儀表板監控您的支援績效。",
+              "benefits": {
+                "metrics": "即時績效指標",
+                "kpi": "自定義關鍵績效指標追蹤",
+                "team": "團隊績效視圖",
+                "alerts": "警報通知"
+              }
+            },
+            "reporting": {
+              "title": "進階報告",
+              "description": "產生具有可行見解和趨勢的詳細報告。",
+              "benefits": {
+                "automated": "自動報告生成",
+                "dates": "自定義日期範圍",
+                "export": "匯出功能",
+                "scheduled": "定時傳送"
+              }
+            },
+            "journey": {
+              "title": "客戶旅程分析",
+              "description": "追蹤客戶在所有接觸點和管道中的互動。",
+              "benefits": {
+                "tracking": "多管道追蹤",
+                "visualization": "旅程視覺化",
+                "conversion": "轉換分析",
+                "dropoff": "流失識別"
+              }
+            },
+            "optimization": {
+              "title": "績效優化",
+              "description": "識別瓶頸並優化您的支援營運。",
+              "benefits": {
+                "bottlenecks": "瓶頸檢測",
+                "resources": "資源配置",
+                "efficiency": "效率建議",
+                "roi": "投資報酬率分析"
+              }
+            }
+          }
+        },
+        "title": "分析與洞察",
+        "subtitle": "透過全面的分析做出數據驅動的決策，揭示客戶行為、專員績效和優化機會。",
+        "metricsTitle": "關鍵績效指標",
+        "metricsSubtitle": "追蹤對您客戶支援成功最重要的指標。",
+        "featuresTitle": "全面分析套件",
+        "featuresSubtitle": "您需要的一切來理解、測量和改進您的客戶支援營運。",
+        "dashboardTitle": "互動式儀表板預覽",
+        "dashboardSubtitle": "看看我們的分析儀表板如何一目了然地提供可行的見解。",
+        "dashboard": {
+          "overview": "績效概覽",
+          "months": {
+            "jan": "一月",
+            "dec": "十二月"
+          },
+          "quickStats": "快速統計",
+          "activeConversations": "活躍對話",
+          "systemUptime": "系統正常運行時間",
+          "customerRating": "客戶評分"
+        },
+        "ctaTitle": "開始做出數據驅動的決策",
+        "ctaSubtitle": "釋放分析的力量，優化您的客戶支援並推動業務增長。"
+      },
+      "humanAgents": {
+        "title": "真人客服聊天室",
+        "subtitle": "立即享受終身免費的真人客服支援。無限制、無隱藏費用，為您的顧客帶來真誠的人性化互動。",
+        "startButton": "立即免費開始",
+        "demoButton": "觀看示範",
+        "unlimited": {
+          "title": "無限客服時數",
+          "description": "無時間限制、無工時上限。您的真人客服會盡您所需提供服務，完全免費。"
+        },
+        "realtime": {
+          "title": "即時聊天管理",
+          "description": "透過直觀的聊天介面，同時處理多個對話。"
+        },
+        "collaboration": {
+          "title": "多人協作模式",
+          "description": "透過無縫的客服人員轉接和協作工具，輕鬆擴展您的團隊。"
+        },
+        "security": {
+          "title": "進階安全防護",
+          "description": "企業級安全防護，具備端到端加密和資料保護。"
+        },
+        "analytics": {
+          "title": "效能分析報告",
+          "description": "追蹤回應時間、顧客滿意度和客服人員績效指標。"
+        },
+        "workflows": {
+          "title": "客製化工作流程",
+          "description": "為您的客服流程建立個人化工作流程和自動化規則。"
+        },
+        "benefits": {
+          "personal": {
+            "title": "人性化服務",
+            "description": "提供AI無法複製的人類同理心和理解力"
+          },
+          "complex": {
+            "title": "複雜問題解決",
+            "description": "處理需要人類判斷力的複雜情況"
+          },
+          "brand": {
+            "title": "品牌形象代表",
+            "description": "真正理解並代表您品牌價值的客服人員"
+          },
+          "relationships": {
+            "title": "顾客關係建立",
+            "description": "透過真實的人際互動建立持久的顧客關係"
+          }
+        },
+        "freeForever": {
+          "title": "真正的終身免費 🍺 & 🎙️",
+          "subtitle": "我們說免費就是真正的免費。終身擁有一位真人客服，無限功能全包。",
+          "meaningTitle": "「終身免費」的真正意義",
+          "agent": "終身擁有 1 位真人客服",
+          "conversations": "無限聊天對話",
+          "history": "無限聊天記錄",
+          "contacts": "無限聯絡人",
+          "export": "自由匯出所有資料",
+          "noCredit": "無需信用卡",
+          "unlimited": "一切無限制",
+          "noCaps": "無隱藏費用、無時間限制、無對話上限。純粹無限的真人客服支援。",
+          "forever": "永遠"
+        },
+        "featuresTitle": "強大的真人客服功能",
+        "featuresSubtitle": "提供卓越人性化客服支援所需的一切功能。",
+        "whyMatterTitle": "為什麼真人客服依然重要",
+        "whyMatterSubtitle": "在AI驅動的世界中，人際連結在建立信任和解決複雜問題方面仍然不可取代。",
+        "ctaTitle": "準備好開始使用真人客服了嗎？",
+        "ctaSubtitle": "加入數千家企業的行列，透過我們免費的真人客服提供卓越的顧客支援。",
+        "ctaStartButton": "立即免費開始",
+        "ctaDemoButton": "安排示範"
+      },
+      "knowledgeBase": {
+        "subtitle": "透過全面的知識管理賦能您的 AI 智能體。創建、組織和維護集中式資訊儲存庫，提供智能、準確的回應。",
+        "managementTitle": "智能知識管理",
+        "managementSubtitle": "建立強大的知識基礎，與您的業務共同成長，並增強每次客戶互動。",
+        "smartSearch": {
+          "title": "智能搜索",
+          "description": "先進的語義搜索功能，理解上下文和意圖，即時提供精確資訊。"
+        },
+        "documentManagement": {
+          "title": "文件管理",
+          "description": "在一個集中位置上傳、組織和版本控制文件、常見問題、政策和程序。"
+        },
+        "collaboration": {
+          "title": "協作編輯",
+          "description": "通過即時編輯、審批工作流程和基於角色的存取控制實現團隊協作。"
+        },
+        "autoLearning": {
+          "title": "自動學習",
+          "description": "自動捕獲和學習成功的互動，持續提高知識準確性。"
+        },
+        "accessControl": {
+          "title": "存取控制",
+          "description": "透過細緻的權限保護敏感資訊，並確保符合資料保護法規。"
+        },
+        "multiLanguage": {
+          "title": "多語言",
+          "description": "支援多種語言和在地化，為全球客戶提供文化適宜的回應。"
+        },
+        "demoTitle": "看看知識庫的實際應用",
+        "demoSubtitle": "觀看我們的智能知識系統如何提供準確、符合情境的回應。",
+        "interfaceTitle": "知識庫介面",
+        "categories": "文件類別",
+        "productDocs": "產品文件",
+        "articles": "篇文章",
+        "supportFaqs": "客戶支援常見問題",
+        "policies": "公司政策",
+        "recentUpdates": "最近更新",
+        "refundUpdate": "退款政策已更新",
+        "hoursAgo": "小時前",
+        "returnWindow": "退貨期限從 14 天更新為 30 天",
+        "featureGuide": "新功能指南",
+        "dayAgo": "天前",
+        "analyticsDoc": "新增進階分析文件",
+        "transformTitle": "轉變您的客戶支援",
+        "transformSubtitle": "井然有序的知識庫是卓越客戶服務和高效運營的基礎。",
+        "benefitsTitle": "主要優勢",
+        "fasterResponse": {
+          "title": "更快的回應時間",
+          "description": "透過即時存取準確資訊，將平均回應時間縮短 60%。"
+        },
+        "consistency": {
+          "title": "一致的準確性",
+          "description": "確保所有客服人員在所有通道中提供一致、最新的資訊。"
+        },
+        "training": {
+          "title": "可擴展的培訓",
+          "description": "透過全面、可搜索的文件更快地培訓新客服人員。"
+        },
+        "readyTitle": "準備好開始了嗎？",
+        "readySubtitle": "立即建立您的知識庫，轉變您的團隊提供客戶支援的方式。",
+        "startButton": "開始建立",
+        "scheduleDemo": "預約演示"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "網站聊天",
+            "description": "在任何網站平台上嵌入聊天小工具",
+            "seachat": {
+              "features": {
+                "compatibility": "通用相容性",
+                "styling": "自訂樣式",
+                "responsive": "移動響應式",
+                "sync": "即時同步"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp 商業版",
+            "seachat": {
+              "features": {
+                "api": "商業 API 整合",
+                "media": "豐富媒體支援",
+                "templates": "範本訊息",
+                "groups": "群組訊息"
+              }
+            },
+            "description": "在世界上最受歡迎的即時通訊應用程式上與客戶互動"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "在一個地方管理 Instagram 私訊和限時動態回覆",
+            "seachat": {
+              "features": {
+                "replies": "限時動態回覆管理",
+                "media": "媒體分享",
+                "responses": "快速回應",
+                "greetings": "自動問候語"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "頁面整合",
+                "responses": "自動回應",
+                "cards": "豐富卡片",
+                "menu": "持久選單"
+              }
+            },
+            "description": "透過 Facebook 的訊息平台提供支援"
+          },
+          "voice": {
+            "name": "語音通話",
+            "description": "使用 AI 語音專員處理電話支援",
+            "seachat": {
+              "features": {
+                "conversations": "自然對話",
+                "routing": "通話路由",
+                "voicemail": "語音信箱轉錄",
+                "conference": "會議通話"
+              }
+            }
+          },
+          "email": {
+            "name": "電子郵件支援",
+            "description": "使用智慧路由管理電子郵件工單",
+            "seachat": {
+              "features": {
+                "categorization": "智慧分類",
+                "responses": "自動回應",
+                "templates": "電子郵件範本",
+                "priority": "優先級處理"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "統一客戶視圖",
+            "description": "在一個介面中查看所有管道的完整客戶歷史記錄"
+          },
+          "handoffs": {
+            "title": "無縫交接",
+            "description": "客戶可以在不失去對話上下文的情況下切換管道"
+          },
+          "resolution": {
+            "title": "更快解決",
+            "description": "通過統一的專員工作流程縮短解決時間"
+          },
+          "satisfaction": {
+            "title": "更高滿意度",
+            "description": "在所有接觸點提供一致的體驗"
+          }
+        },
+        "title": "全通路支援",
+        "subtitle": "在一個統一平台中連接所有客戶接觸點。在網站、社交媒體、電話和電子郵件上提供一致、無縫的支援。",
+        "channelsTitle": "所有管道，一個平台",
+        "channelsSubtitle": "連接並管理客戶在每個管道上使用的客戶對話。",
+        "benefitsTitle": "真正全通路的力量",
+        "benefitsSubtitle": "不僅僅是擁有多個管道。創造讓客戶滿意的統一體驗。",
+        "inboxTitle": "統一收件匣體驗",
+        "inboxSubtitle": "了解所有客戶對話如何在一個智慧介面中匯聚。",
+        "activeConversations": "活躍對話",
+        "websiteChat": "關於產品功能的網站聊天...",
+        "whatsappInquiry": "關於訂單狀態的 WhatsApp 詢問...",
+        "instagramDM": "關於退貨政策的 Instagram 私訊...",
+        "conversationView": "對話視圖",
+        "customerVia": "客戶透過網站",
+        "agentResponse": "專員回應",
+        "customerViaWhatsapp": "客戶透過 WhatsApp",
+        "whatsappMessage": "謝謝！我能在 WhatsApp 上繼續這個對話嗎？",
+        "ctaTitle": "準備好統一您的客戶管道了嗎？",
+        "ctaSubtitle": "連接所有客戶接觸點，提供讓客戶回流的無縫支援體驗。",
+        "customerMessage": "您好，我對您的 AI 自動化功能感興趣。您能告訴我更多資訊嗎？",
+        "agentMessage": "我很樂意幫助您！我們的 AI 自動化可以處理高達 80% 的日常詢問..."
       }
     }
   },
@@ -4610,7 +5067,9 @@
     "actions": {
       "signUp": "註冊",
       "bookDemo": "預約示範",
-      "clearFilters": "清除篩選條件"
+      "clearFilters": "清除篩選條件",
+      "signUpForFree": "免費註冊",
+      "scheduleDemo": "安排演示"
     }
   },
   "navigation": {

@@ -1,33 +1,47 @@
-import { ArrowLeft, Book, Search, FileText, Users, Zap, Shield, Globe } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Book, Search, FileText, Users, Zap, Shield, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { getMeetingUrl } from '../../../constants/urls';
 
 export default function KnowledgeBasePage() {
-  const { t } = useTranslation('seachat');
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <Link to="/" className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors">
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            {t('common.back')}
-          </Link>
-          
-          <div className="max-w-3xl">
-            <div className="flex items-center mb-6">
-              <div className="bg-blue-600 p-3 rounded-xl mr-4">
-                <Book className="h-8 w-8 text-white" />
-              </div>
-              <h1 className="text-4xl font-bold text-gray-900">{t('features.knowledgeBase.title', 'Knowledge Base')}</h1>
+    <div className="pt-16">
+      {/* Hero Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <div className="flex items-center justify-center mb-6">
+              <Book className="w-16 h-16 text-blue-300 mr-4" />
+              <h1 className="text-5xl md:text-6xl font-bold">
+                {t('features.knowledgeBase.title', 'Knowledge Base')}
+              </h1>
             </div>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
               {t('seachat.features.knowledgeBase.subtitle', 'Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.')}
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+              >
+                {t('seachat.features.knowledgeBase.startButton', 'Start Building')}
+              </a>
+              <a
+                href={getMeetingUrl(currentLanguage)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+              >
+                {t('seachat.features.knowledgeBase.scheduleDemo', 'Schedule Demo')}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Key Features */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

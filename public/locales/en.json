@@ -121,6 +121,9 @@
     "testimonial": {
       "quote": "I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!",
       "author": "— Solution Architect Review"
+    },
+    "knowledgeBase": {
+      "title": "Knowledge Base"
     }
   },
   "howItWorks": {
@@ -4596,6 +4599,460 @@
           "signUp": "Sign Up For Free",
           "scheduleDemo": "Schedule Demo"
         }
+      },
+      "aiAutomation": {
+        "title": "AI Automation",
+        "subtitle": "Scale your customer support with intelligent AI that learns, adapts, and provides instant responses while maintaining the human touch when needed.",
+        "tryButton": "Try AI Automation",
+        "featuresTitle": "Intelligent AI Features",
+        "featuresSubtitle": "Our AI automation goes beyond simple chatbots to provide truly intelligent customer support.",
+        "performanceTitle": "Automation That Actually Works",
+        "performanceSubtitle": "See how our AI automation handles different types of customer inquiries with impressive accuracy rates.",
+        "hybridTitle": "The Perfect Balance: AI + Human",
+        "hybridSubtitle": "Our hybrid approach combines the speed of AI with the empathy of human agents.",
+        "aiStrengthsTitle": "AI Automation Excels At",
+        "aiStrengths": [
+          "Instant responses to common questions",
+          "24/7 availability without breaks",
+          "Handling multiple conversations simultaneously",
+          "Consistent service quality",
+          "Multilingual communication support",
+          "Quick access to knowledge base information"
+        ],
+        "humanStrengthsTitle": "Human Agents Excel At",
+        "humanStrengths": [
+          "Complex problem-solving and empathy",
+          "Building personal relationships with customers",
+          "Handling sensitive or emotional situations",
+          "Creative solutions and out-of-box thinking",
+          "Understanding nuanced customer needs",
+          "Making judgment calls in ambiguous scenarios"
+        ],
+        "ctaTitle": "Ready to Scale with AI?",
+        "ctaSubtitle": "Start with free human agents, then add AI automation when you're ready to scale. The perfect hybrid approach for growing businesses.",
+        "contextAware": {
+          "title": "Context-Aware Responses",
+          "description": "AI understands conversation context and provides relevant, intelligent responses."
+        },
+        "learning": {
+          "title": "Learning from Conversations",
+          "description": "Continuously improves by learning from every customer interaction."
+        },
+        "handoff": {
+          "title": "Seamless Human Handoff",
+          "description": "Smooth transition to human agents when complex issues arise."
+        },
+        "availability": {
+          "title": "24/7 Availability",
+          "description": "Provide instant support around the clock, even when agents are offline."
+        },
+        "response": {
+          "title": "Instant Response Time",
+          "description": "Respond to customer queries in milliseconds, not minutes."
+        },
+        "multilanguage": {
+          "title": "Multi-language Support",
+          "description": "Communicate with customers in their preferred language automatically."
+        },
+        "types": {
+          "faq": {
+            "title": "FAQ Automation",
+            "description": "Instantly answer common questions with accurate, up-to-date information."
+          },
+          "orders": {
+            "title": "Order Status Updates",
+            "description": "Provide real-time order tracking and shipping information."
+          },
+          "appointments": {
+            "title": "Appointment Scheduling",
+            "description": "Book appointments and manage calendars automatically."
+          },
+          "recommendations": {
+            "title": "Product Recommendations",
+            "description": "Suggest relevant products based on customer preferences."
+          }
+        },
+        "scheduleDemo": "Schedule Demo",
+        "signUpForFree": "Sign Up For Free"
+      },
+      "api": {
+        "restful": {
+          "title": "RESTful API",
+          "description": "Clean, intuitive REST API with comprehensive documentation"
+        },
+        "webhooks": {
+          "title": "Real-time Webhooks",
+          "description": "Get instant notifications for events and conversation updates"
+        },
+        "security": {
+          "title": "Secure Authentication",
+          "description": "OAuth 2.0 and API key authentication with rate limiting"
+        },
+        "cdn": {
+          "title": "Global CDN",
+          "description": "Low-latency API access from anywhere in the world"
+        },
+        "endpoints": {
+          "createConversation": "Create a new conversation",
+          "getConversation": "Retrieve conversation details",
+          "sendMessage": "Send a message in a conversation"
+        },
+        "sdks": {
+          "available": "Available",
+          "comingSoon": "Coming Soon"
+        },
+        "title": "API & Developer Tools",
+        "subtitle": "Build custom integrations and extend SeaChat's capabilities with our comprehensive API and developer-friendly tools.",
+        "getKeyButton": "Get API Key",
+        "viewDocsButton": "View Documentation",
+        "featuresTitle": "Powerful API Features",
+        "featuresSubtitle": "Everything you need to integrate SeaChat into your existing systems and workflows.",
+        "endpointsTitle": "API Endpoints",
+        "endpointsSubtitle": "Explore our comprehensive API with examples and interactive documentation.",
+        "exampleRequestResponse": "Example Request/Response",
+        "tryItOut": "Try it out",
+        "testConsole": "Test in Console",
+        "copyCurl": "Copy cURL",
+        "sdksTitle": "SDKs & Libraries",
+        "sdksSubtitle": "Get started quickly with our official SDKs for popular programming languages.",
+        "exampleTitle": "Quick Start Example",
+        "exampleSubtitle": "Get up and running with SeaChat API in just a few lines of code.",
+        "jsExample": "JavaScript Example",
+        "copy": "Copy",
+        "ctaTitle": "Ready to Start Building?",
+        "ctaSubtitle": "Get your API key and start integrating SeaChat into your applications today.",
+        "ctaAccessButton": "Get API Access",
+        "ctaDocsButton": "Read Documentation"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Customer Satisfaction"
+          },
+          "responseTime": {
+            "title": "Average Response Time"
+          },
+          "resolution": {
+            "title": "Resolution Rate"
+          },
+          "growth": {
+            "title": "Monthly Growth"
+          },
+          "period": "this month"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Real-time Dashboards",
+              "description": "Monitor your support performance with live, customizable dashboards.",
+              "benefits": {
+                "metrics": "Live performance metrics",
+                "kpi": "Custom KPI tracking",
+                "team": "Team performance views",
+                "alerts": "Alert notifications"
+              }
+            },
+            "reporting": {
+              "title": "Advanced Reporting",
+              "description": "Generate detailed reports with actionable insights and trends.",
+              "benefits": {
+                "automated": "Automated report generation",
+                "dates": "Custom date ranges",
+                "export": "Export capabilities",
+                "scheduled": "Scheduled delivery"
+              }
+            },
+            "journey": {
+              "title": "Customer Journey Analytics",
+              "description": "Track customer interactions across all touchpoints and channels.",
+              "benefits": {
+                "tracking": "Multi-channel tracking",
+                "visualization": "Journey visualization",
+                "conversion": "Conversion analysis",
+                "dropoff": "Drop-off identification"
+              }
+            },
+            "optimization": {
+              "title": "Performance Optimization",
+              "description": "Identify bottlenecks and optimize your support operations.",
+              "benefits": {
+                "bottlenecks": "Bottleneck detection",
+                "resources": "Resource allocation",
+                "efficiency": "Efficiency recommendations",
+                "roi": "ROI analysis"
+              }
+            }
+          }
+        },
+        "title": "Analytics & Insights",
+        "subtitle": "Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.",
+        "metricsTitle": "Key Performance Metrics",
+        "metricsSubtitle": "Track the metrics that matter most to your customer support success.",
+        "featuresTitle": "Comprehensive Analytics Suite",
+        "featuresSubtitle": "Everything you need to understand, measure, and improve your customer support operations.",
+        "dashboardTitle": "Interactive Dashboard Preview",
+        "dashboardSubtitle": "See how our analytics dashboard provides actionable insights at a glance.",
+        "dashboard": {
+          "overview": "Performance Overview",
+          "months": {
+            "jan": "Jan",
+            "dec": "Dec"
+          },
+          "quickStats": "Quick Stats",
+          "activeConversations": "Active Conversations",
+          "systemUptime": "System Uptime",
+          "customerRating": "Customer Rating"
+        },
+        "ctaTitle": "Start Making Data-Driven Decisions",
+        "ctaSubtitle": "Unlock the power of analytics to optimize your customer support and drive business growth."
+      },
+      "humanAgents": {
+        "title": "Human Agent Chat",
+        "subtitle": "Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
+        "startButton": "Start Free Forever",
+        "demoButton": "Watch Demo",
+        "unlimited": {
+          "title": "Unlimited Agent Hours",
+          "description": "No time limits, no hourly caps. Your human agent works as much as you need, completely free."
+        },
+        "realtime": {
+          "title": "Real-time Chat Management",
+          "description": "Handle multiple conversations simultaneously with our intuitive chat interface."
+        },
+        "collaboration": {
+          "title": "Multi-agent Collaboration",
+          "description": "Scale your team with seamless agent-to-agent handoffs and collaboration tools."
+        },
+        "security": {
+          "title": "Advanced Security",
+          "description": "Enterprise-grade security with end-to-end encryption and data protection."
+        },
+        "analytics": {
+          "title": "Performance Analytics",
+          "description": "Track response times, customer satisfaction, and agent performance metrics."
+        },
+        "workflows": {
+          "title": "Custom Workflows",
+          "description": "Create personalized workflows and automation rules for your support process."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Personal Touch",
+            "description": "Human empathy and understanding that AI cannot replicate"
+          },
+          "complex": {
+            "title": "Complex Problem Solving",
+            "description": "Handle nuanced situations that require human judgment"
+          },
+          "brand": {
+            "title": "Brand Representation",
+            "description": "Agents who truly understand and represent your brand values"
+          },
+          "relationships": {
+            "title": "Customer Relationships",
+            "description": "Build lasting relationships through genuine human connections"
+          }
+        },
+        "freeForever": {
+          "title": "Truly Free as in Free 🍺 & 🎙️",
+          "subtitle": "We mean it when we say free. One human agent for life, with unlimited everything.",
+          "meaningTitle": "What \"Free Forever\" Really Means",
+          "agent": "1 Human Agent for Life",
+          "conversations": "Unlimited Chat Conversations",
+          "history": "Unlimited Chat History",
+          "contacts": "Unlimited Contacts",
+          "export": "Freedom to Export All Data",
+          "noCredit": "No Credit Card Required",
+          "unlimited": "Unlimited Everything",
+          "noCaps": "No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
+          "forever": "Forever"
+        },
+        "featuresTitle": "Powerful Human Agent Features",
+        "featuresSubtitle": "Everything you need to provide exceptional human-powered customer support.",
+        "whyMatterTitle": "Why Human Agents Still Matter",
+        "whyMatterSubtitle": "In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
+        "ctaTitle": "Ready to Start with Human Agents?",
+        "ctaSubtitle": "Join thousands of businesses providing exceptional customer support with our free human agents.",
+        "ctaStartButton": "Start Free Now",
+        "ctaDemoButton": "Schedule Demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.",
+        "managementTitle": "Intelligent Knowledge Management",
+        "managementSubtitle": "Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.",
+        "smartSearch": {
+          "title": "Smart Search",
+          "description": "Advanced semantic search capabilities that understand context and intent, delivering precise information instantly."
+        },
+        "documentManagement": {
+          "title": "Document Management",
+          "description": "Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location."
+        },
+        "collaboration": {
+          "title": "Collaborative Editing",
+          "description": "Enable team collaboration with real-time editing, approval workflows, and role-based access controls."
+        },
+        "autoLearning": {
+          "title": "Auto-Learning",
+          "description": "Automatically capture and learn from successful interactions to continuously improve knowledge accuracy."
+        },
+        "accessControl": {
+          "title": "Access Control",
+          "description": "Secure sensitive information with granular permissions and ensure compliance with data protection regulations."
+        },
+        "multiLanguage": {
+          "title": "Multi-Language",
+          "description": "Support multiple languages and localization to serve global customers with culturally appropriate responses."
+        },
+        "demoTitle": "See Knowledge Base in Action",
+        "demoSubtitle": "Watch how our intelligent knowledge system powers accurate, contextual responses.",
+        "interfaceTitle": "Knowledge Base Interface",
+        "categories": "Document Categories",
+        "productDocs": "Product Documentation",
+        "articles": "articles",
+        "supportFaqs": "Customer Support FAQs",
+        "policies": "Company Policies",
+        "recentUpdates": "Recent Updates",
+        "refundUpdate": "Refund Policy Updated",
+        "hoursAgo": "hours ago",
+        "returnWindow": "Updated return window from 14 to 30 days",
+        "featureGuide": "New Feature Guide",
+        "dayAgo": "day ago",
+        "analyticsDoc": "Added documentation for advanced analytics",
+        "transformTitle": "Transform Your Customer Support",
+        "transformSubtitle": "A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
+        "benefitsTitle": "Key Benefits",
+        "fasterResponse": {
+          "title": "Faster Response Times",
+          "description": "Reduce average response time by 60% with instant access to accurate information."
+        },
+        "consistency": {
+          "title": "Consistent Accuracy",
+          "description": "Ensure all agents provide consistent, up-to-date information across all channels."
+        },
+        "training": {
+          "title": "Scalable Training",
+          "description": "Onboard new agents faster with comprehensive, searchable documentation."
+        },
+        "readyTitle": "Ready to Get Started?",
+        "readySubtitle": "Build your knowledge base today and transform how your team delivers customer support.",
+        "startButton": "Start Building",
+        "scheduleDemo": "Schedule Demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Website Chat",
+            "description": "Embed chat widgets on any website platform",
+            "seachat": {
+              "features": {
+                "compatibility": "Universal compatibility",
+                "styling": "Custom styling",
+                "responsive": "Mobile responsive",
+                "sync": "Real-time sync"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Business API integration",
+                "media": "Rich media support",
+                "templates": "Template messages",
+                "groups": "Group messaging"
+              }
+            },
+            "description": "Connect with customers on the world's most popular messaging app"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Manage Instagram DMs and story replies in one place",
+            "seachat": {
+              "features": {
+                "replies": "Story reply management",
+                "media": "Media sharing",
+                "responses": "Quick responses",
+                "greetings": "Automated greetings"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Page integration",
+                "responses": "Automated responses",
+                "cards": "Rich cards",
+                "menu": "Persistent menu"
+              }
+            },
+            "description": "Provide support through Facebook's messaging platform"
+          },
+          "voice": {
+            "name": "Voice Calls",
+            "description": "Handle phone support with AI voice agents",
+            "seachat": {
+              "features": {
+                "conversations": "Natural conversations",
+                "routing": "Call routing",
+                "voicemail": "Voicemail transcription",
+                "conference": "Conference calls"
+              }
+            }
+          },
+          "email": {
+            "name": "Email Support",
+            "description": "Manage email tickets with intelligent routing",
+            "seachat": {
+              "features": {
+                "categorization": "Smart categorization",
+                "responses": "Auto-responses",
+                "templates": "Email templates",
+                "priority": "Priority handling"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Unified Customer View",
+            "description": "See complete customer history across all channels in one interface"
+          },
+          "handoffs": {
+            "title": "Seamless Handoffs",
+            "description": "Customers can switch channels without losing conversation context"
+          },
+          "resolution": {
+            "title": "Faster Resolution",
+            "description": "Reduce resolution time with unified agent workflows"
+          },
+          "satisfaction": {
+            "title": "Higher Satisfaction",
+            "description": "Consistent experience across all touchpoints"
+          }
+        },
+        "title": "Omnichannel Support",
+        "subtitle": "Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
+        "channelsTitle": "All Your Channels, One Platform",
+        "channelsSubtitle": "Connect and manage customer conversations across every channel your customers use.",
+        "benefitsTitle": "The Power of True Omnichannel",
+        "benefitsSubtitle": "Go beyond just having multiple channels. Create unified experiences that delight customers.",
+        "inboxTitle": "Unified Inbox Experience",
+        "inboxSubtitle": "See how all your customer conversations come together in one intelligent interface.",
+        "activeConversations": "Active Conversations",
+        "websiteChat": "Website chat about product seachat.features...",
+        "whatsappInquiry": "WhatsApp inquiry about order status...",
+        "instagramDM": "Instagram DM about return policy...",
+        "conversationView": "Conversation View",
+        "customerVia": "Customer via Website",
+        "agentResponse": "Agent Response",
+        "customerViaWhatsapp": "Customer via WhatsApp",
+        "whatsappMessage": "Thanks! Can I continue this conversation on WhatsApp?",
+        "ctaTitle": "Ready to Unify Your Customer Channels?",
+        "ctaSubtitle": "Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
+        "customerMessage": "Hi, I'm interested in your AI automation features. Can you tell me more?",
+        "agentMessage": "I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
       }
     }
   },
@@ -4608,7 +5065,9 @@
     "actions": {
       "signUp": "Sign Up",
       "bookDemo": "Book A Demo",
-      "clearFilters": "Clear filters"
+      "clearFilters": "Clear filters",
+      "signUpForFree": "Sign Up For Free",
+      "scheduleDemo": "Schedule Demo"
     }
   },
   "navigation": {

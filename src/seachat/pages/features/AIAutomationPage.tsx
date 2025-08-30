@@ -101,7 +101,7 @@ const AIAutomationPage = () => {
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
               >
-                Schedule Demo
+                {t('seachat.features.aiAutomation.scheduleDemo', 'Schedule Demo')}
               </a>
             </div>
           </div>
@@ -253,7 +253,7 @@ const AIAutomationPage = () => {
               rel="noopener noreferrer"
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
             >
-              Sign Up For Free
+              {t('seachat.features.aiAutomation.signUpForFree', 'Sign Up For Free')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
@@ -261,7 +261,7 @@ const AIAutomationPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
             >
-              Schedule Demo
+              {t('seachat.features.aiAutomation.scheduleDemo', 'Schedule Demo')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </div>
