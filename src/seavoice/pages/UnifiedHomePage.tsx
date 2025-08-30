@@ -567,7 +567,17 @@ const UnifiedHomePage = () => {
               <Star className="w-4 h-4 mr-2" />
               {t('seavoice.home.useCases.badge')}
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">{t('seavoice.home.useCases.title')}</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              {typeof t('seavoice.home.useCases.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.useCases.title.line1')}
+                  <br className="hidden sm:block" />
+                  {t('seavoice.home.useCases.title.line2')}
+                </>
+              ) : (
+                t('seavoice.home.useCases.title')
+              )}
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('seavoice.home.useCases.subtitle')}</p>
           </motion.div>
 
@@ -633,7 +643,17 @@ const UnifiedHomePage = () => {
               <Zap className="w-4 h-4 mr-2" />
               {t('seavoice.home.howItWorks.badge')}
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight" dangerouslySetInnerHTML={{ __html: t('seavoice.home.howItWorks.title') }}></h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              {typeof t('seavoice.home.howItWorks.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.howItWorks.title.prefix')}
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{t('seavoice.home.howItWorks.title.highlight')}</span>
+                  {t('seavoice.home.howItWorks.title.suffix')}
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.howItWorks.title') }} />
+              )}
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('seavoice.home.howItWorks.subtitle')}</p>
           </motion.div>
 
@@ -747,40 +767,40 @@ const UnifiedHomePage = () => {
               <div className="space-y-4">
                 {[
                   {
-                    feature: '24/7 Availability',
-                    seavoice: { text: 'Always on', winner: true, icon: '🌟' },
-                    human: { text: '9-5 only', winner: false },
-                    outsourced: { text: 'Extra fees', winner: false }
+                    feature: t('seavoice.home.comparison.availability.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.availability.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.availability.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.availability.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Call Volume Handling',
-                    seavoice: { text: '500+ concurrent', winner: true, icon: '🌟' },
-                    human: { text: '1 call at a time', winner: false },
-                    outsourced: { text: '5-10 concurrent', winner: false }
+                    feature: t('seavoice.home.comparison.callVolume.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.callVolume.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.callVolume.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.callVolume.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Language Support',
-                    seavoice: { text: '30+ languages', winner: true, icon: '🌟' },
-                    human: { text: 'Limited by hire', winner: false },
-                    outsourced: { text: 'Extra $/language', winner: false }
+                    feature: t('seavoice.home.comparison.language.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.language.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.language.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.language.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Emotional Intelligence',
-                    seavoice: { text: 'Basic empathy', winner: false },
-                    human: { text: 'High', winner: true },
-                    outsourced: { text: 'Agent-dependent', winner: false }
+                    feature: t('seavoice.home.comparison.emotional.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.emotional.seavoice'), winner: false },
+                    human: { text: t('seavoice.home.comparison.emotional.human'), winner: true },
+                    outsourced: { text: t('seavoice.home.comparison.emotional.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Compliance',
-                    seavoice: { text: 'Built-in tools', winner: true, icon: '🌟' },
-                    human: { text: 'Training required', winner: false },
-                    outsourced: { text: 'Training required', winner: false }
+                    feature: t('seavoice.home.comparison.compliance.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.compliance.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.compliance.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.compliance.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Implementation Time',
-                    seavoice: { text: '<1 day', winner: true, icon: '🌟' },
-                    human: { text: '6-8 week hiring', winner: false },
-                    outsourced: { text: '2-4 weeks', winner: false }
+                    feature: t('seavoice.home.comparison.implementation.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.implementation.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.implementation.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.implementation.outsourced'), winner: false }
                   }
                 ].map((row, index) => (
                   <motion.div
@@ -833,8 +853,8 @@ const UnifiedHomePage = () => {
                 className="my-12 text-center"
               >
                 <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-3xl font-bold mb-2">💰 Cost Comparison</h3>
-                  <p className="text-green-100">See the dramatic cost savings with SeaVoice AI</p>
+                  <h3 className="text-3xl font-bold mb-2">{t('seavoice.home.comparison.costComparison')}</h3>
+                  <p className="text-green-100">{t('seavoice.home.comparison.costDescription')}</p>
                 </div>
               </motion.div>
 
@@ -842,22 +862,22 @@ const UnifiedHomePage = () => {
               <div className="space-y-4">
                 {[
                   {
-                    feature: 'Monthly Cost',
-                    seavoice: { text: 'Starts at $30', winner: true, icon: '🌟' },
-                    human: { text: '$3,397+', winner: false },
-                    outsourced: { text: '$1,500-$2,500', winner: false }
+                    feature: t('seavoice.home.comparison.cost.monthly.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.monthly.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.monthly.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.monthly.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Effective Rate',
-                    seavoice: { text: '$0.12/minute', winner: true, icon: '🌟' },
-                    human: { text: '$6.79/call', winner: false },
-                    outsourced: { text: '$3.00-$5.00/call', winner: false }
+                    feature: t('seavoice.home.comparison.cost.effective.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.effective.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.effective.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.effective.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Hidden Costs',
-                    seavoice: { text: 'None', winner: true, icon: '🌟' },
-                    human: { text: 'Benefits ($800+/mo)', winner: false },
-                    outsourced: { text: 'Setup fees', winner: false }
+                    feature: t('seavoice.home.comparison.cost.hidden.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.hidden.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.hidden.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.hidden.outsourced'), winner: false }
                   }
                 ].map((row, index) => (
                   <motion.div
@@ -903,16 +923,16 @@ const UnifiedHomePage = () => {
               >
                 <div className="flex items-center justify-center gap-8 flex-wrap">
                   <div className="text-center">
-                    <div className="text-3xl font-bold">95%</div>
-                    <div className="text-green-100">Cost Savings vs Human</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.costVsHuman')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.costVsHumanLabel')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold">80%</div>
-                    <div className="text-green-100">Savings vs Outsourced</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.costVsOutsourced')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.costVsOutsourcedLabel')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold">$40K+</div>
-                    <div className="text-green-100">Annual Savings</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.annualSavings')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.annualSavingsLabel')}</div>
                   </div>
                 </div>
               </motion.div>
@@ -927,16 +947,16 @@ const UnifiedHomePage = () => {
             className="text-center mt-12"
           >
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">Ready to Experience the SeaVoice AI Advantage?</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('seavoice.home.comparison.cta.title')}</h3>
               <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
-                Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.
+                {t('seavoice.home.comparison.cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href={getMeetingUrl(i18n.language)} target="_blank" rel="noopener noreferrer" className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
-                  Book a Demo
+                  {t('seavoice.home.comparison.cta.bookDemo')}
                 </a>
                 <a href="https://chat.seasalt.ai/signup" target="_blank" rel="noopener noreferrer" className="bg-purple-500 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-400 transition-colors">
-                  Sign Up Now
+                  {t('seavoice.home.comparison.cta.signUp')}
                 </a>
               </div>
             </div>
@@ -955,11 +975,18 @@ const UnifiedHomePage = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold mb-4">
-              Capabilities of SeaVoice is brought to you by{' '}
-              <span className="text-teal-400">SeaChat</span>
+              {typeof t('seavoice.home.seachat.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.seachat.title.prefix')}
+                  <span className="text-teal-400">{t('seavoice.home.seachat.title.highlight')}</span>
+                  {t('seavoice.home.seachat.title.suffix')}
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.seachat.title') }} />
+              )}
             </h2>
             <p className="text-xl text-gray-300">
-              An omni-channel and multi-modal no-code agent platform
+              {t('seavoice.home.seachat.subtitle')}
             </p>
           </motion.div>
           
@@ -971,7 +998,7 @@ const UnifiedHomePage = () => {
             className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20"
           >
             <h3 className="text-2xl font-semibold text-center mb-8">
-              One Team, Working Together for You
+              {t('seavoice.home.seachat.teamTitle')}
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -984,8 +1011,8 @@ const UnifiedHomePage = () => {
                     <Bot className="w-10 h-10 text-teal-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Chat AI Agent</h4>
-                <p className="text-gray-300">Instant responses across web, mobile, and messaging platforms</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.chatAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.chatAgent.description')}</p>
               </motion.div>
               
               <motion.div
@@ -997,8 +1024,8 @@ const UnifiedHomePage = () => {
                     <Users className="w-10 h-10 text-blue-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Human Agent</h4>
-                <p className="text-gray-300">Seamless handoff for complex queries that need a human touch</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.humanAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.humanAgent.description')}</p>
               </motion.div>
               
               <motion.div
@@ -1010,8 +1037,8 @@ const UnifiedHomePage = () => {
                     <Headphones className="w-10 h-10 text-purple-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Voice AI Agent</h4>
-                <p className="text-gray-300">Natural phone conversations powered by advanced voice AI</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.voiceAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.voiceAgent.description')}</p>
               </motion.div>
             </div>
             
@@ -1020,7 +1047,7 @@ const UnifiedHomePage = () => {
                 href="/seachat"
                 className="inline-flex items-center text-teal-400 hover:text-teal-300 font-semibold transition-colors"
               >
-                Learn more about SeaChat
+                {t('seavoice.home.seachat.learnMore')}
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
             </div>
@@ -1060,20 +1087,20 @@ const UnifiedHomePage = () => {
               className="grid grid-cols-2 gap-6"
             >
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-400 mb-2">2 weeks</div>
-                <div className="text-gray-400">Reduced training time</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">{t('seavoice.home.testimonial.stat1')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat1Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-teal-400 mb-2">20%</div>
-                <div className="text-gray-400">Efficiency gain</div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">{t('seavoice.home.testimonial.stat2')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat2Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-purple-400 mb-2">94%</div>
-                <div className="text-gray-400">Customer satisfaction</div>
+                <div className="text-4xl font-bold text-purple-400 mb-2">{t('seavoice.home.testimonial.stat3')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat3Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-orange-400 mb-2">500+</div>
-                <div className="text-gray-400">Simultaneous calls</div>
+                <div className="text-4xl font-bold text-orange-400 mb-2">{t('seavoice.home.testimonial.stat4')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat4Label')}</div>
               </div>
             </motion.div>
           </div>
@@ -1101,7 +1128,17 @@ const UnifiedHomePage = () => {
               <Star className="w-4 h-4 mr-2" />
               {t('seavoice.home.faq.badge')}
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight" dangerouslySetInnerHTML={{ __html: t('seavoice.home.faq.title') }}></h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              {typeof t('seavoice.home.faq.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.faq.title.line1')}
+                  <br className="hidden sm:block" />
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{t('seavoice.home.faq.title.line2')}</span>
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.faq.title') }} />
+              )}
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               {t('seavoice.home.faq.subtitle')}
             </p>

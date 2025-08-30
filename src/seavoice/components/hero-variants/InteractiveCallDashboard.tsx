@@ -4,7 +4,7 @@ import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Phone, Users, Clock, BarChart3, Globe, ArrowRight, Activity } from 'lucide-react';
 const InteractiveCallDashboard = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [activeCalls, setActiveCalls] = useState(247);
   const [queueTime, setQueueTime] = useState(0.3);
   const [resolutionRate, setResolutionRate] = useState(94);
@@ -38,10 +38,10 @@ const InteractiveCallDashboard = () => {
   }, []);
 
   const conversationBubbles = [
-    { id: 1, text: "Hi, I'd like to schedule an appointment", x: 15, y: 20, delay: 0 },
-    { id: 2, text: "Thank you for calling TechCorp...", x: 70, y: 35, delay: 1 },
-    { id: 3, text: "Can you help me track my order?", x: 25, y: 65, delay: 2 },
-    { id: 4, text: "I'm available Tuesday at 2 PM", x: 80, y: 80, delay: 3 },
+    { id: 1, text: t('seavoice.components.interactiveCallDashboard.conversations.appointmentRequest'), x: 15, y: 20, delay: 0 },
+    { id: 2, text: t('seavoice.components.interactiveCallDashboard.conversations.techCorpGreeting'), x: 70, y: 35, delay: 1 },
+    { id: 3, text: t('seavoice.components.interactiveCallDashboard.conversations.orderTracking'), x: 25, y: 65, delay: 2 },
+    { id: 4, text: t('seavoice.components.interactiveCallDashboard.conversations.availabilityResponse'), x: 80, y: 80, delay: 3 },
   ];
 
   return (
@@ -84,19 +84,18 @@ const InteractiveCallDashboard = () => {
               className="inline-flex items-center px-4 py-2 bg-blue-500/20 backdrop-blur-sm rounded-full border border-blue-400/30 text-blue-200 text-sm font-medium mb-8"
             >
               <Activity className="w-4 h-4 mr-2 text-green-400" />
-              Live Dashboard
+              {t('seavoice.components.interactiveCallDashboard.liveDashboard')}
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8">
-              <span className="block">Control Center</span>
+              <span className="block">{t('seavoice.components.interactiveCallDashboard.controlCenter')}</span>
               <span className="bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">
-                Real-Time Analytics
+                {t('seavoice.components.interactiveCallDashboard.realTimeAnalytics')}
               </span>
             </h1>
 
             <p className="text-xl text-blue-100 leading-relaxed mb-8">
-              Watch our AI voice platform handle thousands of simultaneous calls with 
-              human-like conversations and real-time analytics.
+              {t('seavoice.components.interactiveCallDashboard.description')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -108,7 +107,7 @@ const InteractiveCallDashboard = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg font-semibold flex items-center justify-center"
               >
-                Book a Demo
+                {t('seavoice.components.interactiveCallDashboard.bookDemo')}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </motion.a>
             </div>
@@ -124,14 +123,14 @@ const InteractiveCallDashboard = () => {
             {/* Main Dashboard */}
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-xl font-semibold text-white">SeaVoice Control Center</h3>
+                <h3 className="text-xl font-semibold text-white">{t('seavoice.components.interactiveCallDashboard.controlCenterTitle')}</h3>
                 <div className="flex items-center space-x-2">
                   <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                     className="w-3 h-3 bg-green-400 rounded-full"
                   />
-                  <span className="text-green-300 text-sm">Live</span>
+                  <span className="text-green-300 text-sm">{t('seavoice.components.interactiveCallDashboard.live')}</span>
                 </div>
               </div>
 
@@ -150,7 +149,7 @@ const InteractiveCallDashboard = () => {
                   >
                     {activeCalls}
                   </motion.div>
-                  <div className="text-blue-200 text-sm">Active Calls</div>
+                  <div className="text-blue-200 text-sm">{t('seavoice.components.interactiveCallDashboard.activeCalls')}</div>
                 </motion.div>
 
                 <div className="text-center p-4 bg-purple-500/20 rounded-lg">
@@ -162,7 +161,7 @@ const InteractiveCallDashboard = () => {
                   >
                     {queueTime.toFixed(1)}s
                   </motion.div>
-                  <div className="text-purple-200 text-sm">Avg Queue Time</div>
+                  <div className="text-purple-200 text-sm">{t('seavoice.components.interactiveCallDashboard.avgQueueTime')}</div>
                 </div>
 
                 <div className="text-center p-4 bg-green-500/20 rounded-lg">
@@ -174,12 +173,12 @@ const InteractiveCallDashboard = () => {
                   >
                     {resolutionRate}%
                   </motion.div>
-                  <div className="text-green-200 text-sm">Resolution Rate</div>
+                  <div className="text-green-200 text-sm">{t('seavoice.components.interactiveCallDashboard.resolutionRate')}</div>
                 </div>
 
                 <div className="text-center p-4 bg-orange-500/20 rounded-lg">
                   <div className="text-3xl font-bold text-orange-400 mb-2">24/7</div>
-                  <div className="text-orange-200 text-sm">Availability</div>
+                  <div className="text-orange-200 text-sm">{t('seavoice.components.interactiveCallDashboard.availability')}</div>
                 </div>
               </div>
 
@@ -208,14 +207,19 @@ const InteractiveCallDashboard = () => {
                   ))}
                 </AnimatePresence>
                 <div className="absolute bottom-2 left-2 text-xs text-blue-200">
-                  Global Call Activity
+                  {t('seavoice.components.interactiveCallDashboard.globalCallActivity')}
                 </div>
               </div>
 
               {/* Recent Activity */}
               <div className="space-y-3">
-                <div className="text-sm font-medium text-white mb-3">Recent Conversations</div>
-                {['Customer inquiry resolved', 'Appointment scheduled', 'Payment processed', 'Support ticket created'].map((activity, index) => (
+                <div className="text-sm font-medium text-white mb-3">{t('seavoice.components.interactiveCallDashboard.recentConversations')}</div>
+                {[
+                  t('seavoice.components.interactiveCallDashboard.customerInquiryResolved'), 
+                  t('seavoice.components.interactiveCallDashboard.appointmentScheduled'), 
+                  t('seavoice.components.interactiveCallDashboard.paymentProcessed'), 
+                  t('seavoice.components.interactiveCallDashboard.supportTicketCreated')
+                ].map((activity, index) => (
                   <motion.div
                     key={activity}
                     initial={{ opacity: 0, x: -20 }}
@@ -225,7 +229,7 @@ const InteractiveCallDashboard = () => {
                   >
                     <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
                     <span className="text-sm text-blue-100">{activity}</span>
-                    <span className="text-xs text-blue-300 ml-auto">Just now</span>
+                    <span className="text-xs text-blue-300 ml-auto">{t('seavoice.components.interactiveCallDashboard.justNow')}</span>
                   </motion.div>
                 ))}
               </div>
@@ -256,7 +260,7 @@ const InteractiveCallDashboard = () => {
               className="absolute -top-4 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-4 shadow-xl"
             >
               <div className="text-2xl font-bold">500+</div>
-              <div className="text-sm opacity-90">Concurrent Calls</div>
+              <div className="text-sm opacity-90">{t('seavoice.components.interactiveCallDashboard.concurrentCalls')}</div>
             </motion.div>
 
             <motion.div
@@ -265,7 +269,7 @@ const InteractiveCallDashboard = () => {
               className="absolute -bottom-4 -left-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white rounded-lg p-4 shadow-xl"
             >
               <div className="text-2xl font-bold">99.9%</div>
-              <div className="text-sm opacity-90">Uptime</div>
+              <div className="text-sm opacity-90">{t('seavoice.components.interactiveCallDashboard.uptime')}</div>
             </motion.div>
           </motion.div>
         </div>

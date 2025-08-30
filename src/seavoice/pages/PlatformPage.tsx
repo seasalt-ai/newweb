@@ -1,44 +1,47 @@
 
 import { motion } from 'framer-motion';
 import { Mic, Brain, BarChart3, Phone, Globe, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const PlatformPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Mic,
-      title: 'AI Voice Agents',
-      description: 'Human-like voice agents that handle inbound and outbound calls 24/7 with perfect consistency.',
-      features: ['24/7 availability', 'Human-like conversations', 'Dynamic pauses and tone shifts', 'Multi-language support']
+      title: t('seavoice.platform.features.aiVoice.title'),
+      description: t('seavoice.platform.features.aiVoice.description'),
+      features: [t('seavoice.platform.features.aiVoice.feature1'), t('seavoice.platform.features.aiVoice.feature2'), t('seavoice.platform.features.aiVoice.feature3'), t('seavoice.platform.features.aiVoice.feature4')]
     },
     {
       icon: Brain,
-      title: 'Conversational AI',
-      description: 'Advanced AI that learns from your documents and remembers past interactions for personalized service.',
-      features: ['RAG technology', 'Long-term memory', 'Custom knowledge base', 'Context awareness']
+      title: t('seavoice.platform.features.conversationalAI.title'),
+      description: t('seavoice.platform.features.conversationalAI.description'),
+      features: [t('seavoice.platform.features.conversationalAI.feature1'), t('seavoice.platform.features.conversationalAI.feature2'), t('seavoice.platform.features.conversationalAI.feature3'), t('seavoice.platform.features.conversationalAI.feature4')]
     },
     {
       icon: BarChart3,
-      title: 'Analytics & Insights',
-      description: 'Real-time transcripts, sentiment analysis, and actionable insights from every conversation.',
-      features: ['Real-time transcripts', 'Sentiment analysis', 'Performance metrics', 'Call volume analytics']
+      title: t('seavoice.platform.features.analytics.title'),
+      description: t('seavoice.platform.features.analytics.description'),
+      features: [t('seavoice.platform.features.analytics.feature1'), t('seavoice.platform.features.analytics.feature2'), t('seavoice.platform.features.analytics.feature3'), t('seavoice.platform.features.analytics.feature4')]
     },
     {
       icon: Phone,
-      title: 'Telephony & Connectivity',
-      description: 'Flexible integration with VoIP, SIP, and BYOC options for seamless connectivity.',
-      features: ['VoIP integration', 'SIP trunking', 'BYOC support', 'Global coverage']
+      title: t('seavoice.platform.features.telephony.title'),
+      description: t('seavoice.platform.features.telephony.description'),
+      features: [t('seavoice.platform.features.telephony.feature1'), t('seavoice.platform.features.telephony.feature2'), t('seavoice.platform.features.telephony.feature3'), t('seavoice.platform.features.telephony.feature4')]
     },
     {
       icon: Globe,
-      title: 'Integrations & Channels',
-      description: 'Connect with your existing tools and reach customers across multiple channels.',
-      features: ['CRM integration', 'WhatsApp Voice API', 'LINE Business Calls', 'Calendar sync']
+      title: t('seavoice.platform.features.integrations.title'),
+      description: t('seavoice.platform.features.integrations.description'),
+      features: [t('seavoice.platform.features.integrations.feature1'), t('seavoice.platform.features.integrations.feature2'), t('seavoice.platform.features.integrations.feature3'), t('seavoice.platform.features.integrations.feature4')]
     },
     {
       icon: Zap,
-      title: 'Speech Technologies',
-      description: 'Industry-leading speech-to-text and text-to-speech with custom voice profiles.',
-      features: ['High accuracy STT', 'Natural TTS', 'Voice cloning', '10+ languages']
+      title: t('seavoice.platform.features.speech.title'),
+      description: t('seavoice.platform.features.speech.description'),
+      features: [t('seavoice.platform.features.speech.feature1'), t('seavoice.platform.features.speech.feature2'), t('seavoice.platform.features.speech.feature3'), t('seavoice.platform.features.speech.feature4')]
     }
   ];
 
@@ -54,11 +57,10 @@ const PlatformPage = () => {
             className="text-center"
           >
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              The Complete AI Voice Platform
+              {t('seavoice.platform.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Discover the technology that powers human-like voice interactions, 
-              seamless integrations, and actionable insights for your business.
+              {t('seavoice.platform.hero.description')}
             </p>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
@@ -70,7 +72,7 @@ const PlatformPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
               >
-                Explore Platform Capabilities
+                {t('seavoice.platform.hero.cta')}
               </motion.button>
             </a>
           </motion.div>
@@ -122,29 +124,29 @@ const PlatformPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Built on Industry-Leading Technology
+              {t('seavoice.platform.technology.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Powered by the original Kaldi team's expertise in speech recognition
+              {t('seavoice.platform.technology.subtitle')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Speech Recognition',
-                description: 'Advanced STT technology with 99%+ accuracy, even with background noise and industry jargon.',
-                metrics: ['99%+ accuracy', 'Real-time processing', 'Noise reduction']
+                title: t('seavoice.platform.technology.speechRecognition.title'),
+                description: t('seavoice.platform.technology.speechRecognition.description'),
+                metrics: [t('seavoice.platform.technology.speechRecognition.metric1'), t('seavoice.platform.technology.speechRecognition.metric2'), t('seavoice.platform.technology.speechRecognition.metric3')]
               },
               {
-                title: 'Natural Language Processing',
-                description: 'Context-aware AI that understands intent and maintains natural conversation flow.',
-                metrics: ['Intent recognition', 'Context retention', 'Emotional intelligence']
+                title: t('seavoice.platform.technology.nlp.title'),
+                description: t('seavoice.platform.technology.nlp.description'),
+                metrics: [t('seavoice.platform.technology.nlp.metric1'), t('seavoice.platform.technology.nlp.metric2'), t('seavoice.platform.technology.nlp.metric3')]
               },
               {
-                title: 'Voice Synthesis',
-                description: 'Human-like text-to-speech with customizable voices and natural prosody.',
-                metrics: ['Natural prosody', 'Voice cloning', 'Emotion control']
+                title: t('seavoice.platform.technology.voiceSynthesis.title'),
+                description: t('seavoice.platform.technology.voiceSynthesis.description'),
+                metrics: [t('seavoice.platform.technology.voiceSynthesis.metric1'), t('seavoice.platform.technology.voiceSynthesis.metric2'), t('seavoice.platform.technology.voiceSynthesis.metric3')]
               }
             ].map((tech, index) => (
               <motion.div

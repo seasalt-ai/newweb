@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mic, Volume2, Globe, ArrowRight, Settings, Play, Pause, RotateCcw } from 'lucide-react';
 
 const AIVoiceAvatar = () => {
+  const { t } = useTranslation();
   const [isListening, setIsListening] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [currentVoice, setCurrentVoice] = useState('professional');
@@ -11,23 +13,23 @@ const AIVoiceAvatar = () => {
   const [demoText, setDemoText] = useState('');
 
   const voices = [
-    { id: 'professional', name: 'Professional Sarah', description: 'Clear, authoritative business voice' },
-    { id: 'friendly', name: 'Friendly Mike', description: 'Warm, approachable customer service' },
-    { id: 'empathetic', name: 'Caring Emma', description: 'Compassionate healthcare voice' }
+    { id: 'professional', name: t('components.aiVoiceAvatar.voices.professional.name'), description: t('components.aiVoiceAvatar.voices.professional.description') },
+    { id: 'friendly', name: t('components.aiVoiceAvatar.voices.friendly.name'), description: t('components.aiVoiceAvatar.voices.friendly.description') },
+    { id: 'empathetic', name: t('components.aiVoiceAvatar.voices.empathetic.name'), description: t('components.aiVoiceAvatar.voices.empathetic.description') }
   ];
 
   const languages = [
-    { id: 'english', name: 'English', flag: '🇺🇸' },
-    { id: 'spanish', name: 'Spanish', flag: '🇪🇸' },
-    { id: 'french', name: 'French', flag: '🇫🇷' },
-    { id: 'german', name: 'German', flag: '🇩🇪' },
-    { id: 'chinese', name: 'Chinese', flag: '🇨🇳' }
+    { id: 'english', name: t('components.aiVoiceAvatar.languages.english'), flag: '🇺🇸' },
+    { id: 'spanish', name: t('components.aiVoiceAvatar.languages.spanish'), flag: '🇪🇸' },
+    { id: 'french', name: t('components.aiVoiceAvatar.languages.french'), flag: '🇫🇷' },
+    { id: 'german', name: t('components.aiVoiceAvatar.languages.german'), flag: '🇩🇪' },
+    { id: 'chinese', name: t('components.aiVoiceAvatar.languages.chinese'), flag: '🇨🇳' }
   ];
 
   const demoScripts = {
-    professional: "Hello, I'm Sarah, your AI business assistant. I can handle customer inquiries, schedule appointments, and provide detailed product information with precision and clarity.",
-    friendly: "Hi there! I'm Mike, and I'm here to make your experience amazing. Whether you need help with an order or just have a quick question, I'm happy to chat!",
-    empathetic: "Hello, I'm Emma. I understand that healthcare questions can be stressful, and I'm here to provide caring, accurate support whenever you need it."
+    professional: t('components.aiVoiceAvatar.demoScripts.professional'),
+    friendly: t('components.aiVoiceAvatar.demoScripts.friendly'),
+    empathetic: t('components.aiVoiceAvatar.demoScripts.empathetic')
   };
 
   // Avatar expressions based on mood
@@ -85,7 +87,7 @@ const AIVoiceAvatar = () => {
       setTimeout(() => {
         setAvatarMood('speaking');
         setIsSpeaking(true);
-        setDemoText("I heard you! This is where I would respond to your voice input with contextual understanding.");
+        setDemoText(t('components.aiVoiceAvatar.listeningResponse'));
         
         setTimeout(() => {
           setIsSpeaking(false);
@@ -128,24 +130,23 @@ const AIVoiceAvatar = () => {
               className="inline-flex items-center px-4 py-2 bg-purple-500/20 backdrop-blur-sm rounded-full border border-purple-400/30 text-purple-200 text-sm font-medium mb-8"
             >
               <Volume2 className="w-4 h-4 mr-2 text-pink-400" />
-              Interactive AI Avatar
+              {t('components.aiVoiceAvatar.badge.label')}
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8">
-              <span className="block">Meet Your</span>
+              <span className="block">{t('components.aiVoiceAvatar.hero.title.line1')}</span>
               <span className="bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">
-                AI Voice Agent
+                {t('components.aiVoiceAvatar.hero.title.line2')}
               </span>
             </h1>
 
             <p className="text-xl text-purple-100 leading-relaxed mb-8">
-              Experience the future of AI communication. Our avatars demonstrate human-like 
-              conversations with emotional intelligence and multiple personality options.
+              {t('components.aiVoiceAvatar.hero.subtitle')}
             </p>
 
             {/* Voice Selection */}
             <div className="mb-6">
-              <div className="text-sm font-medium text-purple-200 mb-3">Choose Voice Personality:</div>
+              <div className="text-sm font-medium text-purple-200 mb-3">{t('components.aiVoiceAvatar.controls.voicePersonality')}</div>
               <div className="grid grid-cols-1 gap-2">
                 {voices.map((voice) => (
                   <motion.button
@@ -168,7 +169,7 @@ const AIVoiceAvatar = () => {
 
             {/* Language Selection */}
             <div className="mb-8">
-              <div className="text-sm font-medium text-purple-200 mb-3">Language:</div>
+              <div className="text-sm font-medium text-purple-200 mb-3">{t('components.aiVoiceAvatar.controls.language')}</div>
               <div className="flex flex-wrap gap-2">
                 {languages.map((lang) => (
                   <motion.button
@@ -199,7 +200,7 @@ const AIVoiceAvatar = () => {
                 className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-lg font-semibold flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Play className="mr-2 w-5 h-5" />
-                Demo Voice
+                {t('components.aiVoiceAvatar.controls.demoVoice')}
               </motion.button>
 
               <motion.button
@@ -210,7 +211,7 @@ const AIVoiceAvatar = () => {
                 className="border-2 border-purple-400 text-purple-200 px-8 py-4 rounded-lg font-semibold hover:bg-purple-500/10 transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Mic className="mr-2 w-5 h-5" />
-                Try Voice Input
+                {t('components.aiVoiceAvatar.controls.tryVoiceInput')}
               </motion.button>
 
               <motion.button
@@ -360,7 +361,7 @@ const AIVoiceAvatar = () => {
 
                 {/* Mood indicator */}
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-black/20 rounded-full">
-                  <span className="text-white text-xs font-medium capitalize">{avatarMood}</span>
+                  <span className="text-white text-xs font-medium capitalize">{t(`components.aiVoiceAvatar.avatarMoods.${avatarMood}`)}</span>
                 </div>
               </motion.div>
 
@@ -394,15 +395,15 @@ const AIVoiceAvatar = () => {
             >
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium text-purple-200">Status:</span>
+                  <span className="text-sm font-medium text-purple-200">{t('components.aiVoiceAvatar.status.label')}</span>
                   <span className={`text-sm font-bold ${
                     isListening ? 'text-purple-300' : 
                     isSpeaking ? 'text-green-300' : 
                     'text-blue-300'
                   }`}>
-                    {isListening ? 'Listening...' : 
-                     isSpeaking ? 'Speaking...' : 
-                     'Ready'}
+                    {isListening ? t('components.aiVoiceAvatar.status.listening') : 
+                     isSpeaking ? t('components.aiVoiceAvatar.status.speaking') : 
+                     t('components.aiVoiceAvatar.status.ready')}
                   </span>
                 </div>
                 <AnimatePresence>

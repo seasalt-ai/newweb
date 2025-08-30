@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Phone, Brain, MessageSquare, Mic, Speaker, ArrowRight, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const VoiceConversationFlow = () => {
+  const { t } = useTranslation();
   const [currentStep, setCurrentStep] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [autoHighlight, setAutoHighlight] = useState(0);
@@ -10,32 +12,32 @@ const VoiceConversationFlow = () => {
   const steps = [
     {
       id: 'call-connected',
-      title: 'Call Connected',
-      description: 'Customer connected with your business',
+      title: t('voiceConversationFlow.steps.callConnected.title'),
+      description: t('voiceConversationFlow.steps.callConnected.description'),
       icon: Phone,
       color: 'from-blue-500 to-blue-600',
       animation: 'ring'
     },
     {
       id: 'listening',
-      title: 'AI Listening',
-      description: 'Advanced speech recognition captures every word',
+      title: t('voiceConversationFlow.steps.listening.title'),
+      description: t('voiceConversationFlow.steps.listening.description'),
       icon: Mic,
       color: 'from-green-500 to-green-600',
       animation: 'pulse'
     },
     {
       id: 'processing',
-      title: 'AI Processing',
-      description: 'Neural networks understand intent and context',
+      title: t('voiceConversationFlow.steps.processing.title'),
+      description: t('voiceConversationFlow.steps.processing.description'),
       icon: Brain,
       color: 'from-purple-500 to-purple-600',
       animation: 'think'
     },
     {
       id: 'responding',
-      title: 'AI Responding',
-      description: 'Human-like voice delivers perfect response',
+      title: t('voiceConversationFlow.steps.responding.title'),
+      description: t('voiceConversationFlow.steps.responding.description'),
       icon: Speaker,
       color: 'from-orange-500 to-orange-600',
       animation: 'speak'
@@ -44,19 +46,19 @@ const VoiceConversationFlow = () => {
 
   const conversations = [
     {
-      customer: "Hi, I'd like to schedule an appointment for next Tuesday.",
-      ai: "I'd be happy to help you schedule an appointment. Let me check our availability for next Tuesday. What time would work best for you?",
-      context: "Appointment Booking"
+      customer: t('voiceConversationFlow.conversations.appointmentBooking.customer'),
+      ai: t('voiceConversationFlow.conversations.appointmentBooking.ai'),
+      context: t('voiceConversationFlow.conversationTypes.appointmentBooking')
     },
     {
-      customer: "I'm having trouble with my recent order. It hasn't arrived yet.",
-      ai: "I understand your concern about your order. Let me look that up for you right away. Can you please provide your order number?",
-      context: "Order Support"
+      customer: t('voiceConversationFlow.conversations.orderSupport.customer'),
+      ai: t('voiceConversationFlow.conversations.orderSupport.ai'),
+      context: t('voiceConversationFlow.conversationTypes.orderSupport')
     },
     {
-      customer: "Can you tell me about your pricing plans?",
-      ai: "Absolutely! We have several pricing options to fit different needs. Our basic plan starts at $29/month and includes all core features. Would you like me to explain the differences?",
-      context: "Sales Inquiry"
+      customer: t('voiceConversationFlow.conversations.salesInquiry.customer'),
+      ai: t('voiceConversationFlow.conversations.salesInquiry.ai'),
+      context: t('voiceConversationFlow.conversationTypes.salesInquiry')
     }
   ];
 
@@ -161,7 +163,7 @@ const VoiceConversationFlow = () => {
         {/* Conversation selector */}
         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
           <div className="space-y-3">
-            <div className="text-sm text-white/80 text-center">Choose Conversation Type:</div>
+            <div className="text-sm text-white/80 text-center">{t('voiceConversationFlow.ui.chooseConversationType')}</div>
             <div className="flex flex-wrap gap-3 justify-center">
               {conversations.map((conv, index) => (
                 <button
@@ -186,7 +188,7 @@ const VoiceConversationFlow = () => {
             {isPlaying && (
               <div className="flex items-center justify-center space-x-2 mt-3">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <div className="text-xs text-green-300">Auto-progressing through scenarios...</div>
+                <div className="text-xs text-green-300">{t('voiceConversationFlow.ui.autoProgressing')}</div>
               </div>
             )}
           </div>
@@ -272,7 +274,7 @@ const VoiceConversationFlow = () => {
 
               {/* Conversation Display */}
               <div className="space-y-4">
-                <div className="text-sm font-medium text-white mb-4">Live Conversation:</div>
+                <div className="text-sm font-medium text-white mb-4">{t('voiceConversationFlow.ui.liveConversation')}</div>
                 
                 {/* Show preview when not playing, actual conversation when playing */}
                 {!isPlaying && (
@@ -291,7 +293,7 @@ const VoiceConversationFlow = () => {
                             <div className="w-1 h-2 bg-blue-300 rounded animate-pulse" style={{animationDelay: '300ms'}} />
                             <div className="w-1 h-5 bg-blue-300 rounded animate-pulse" style={{animationDelay: '450ms'}} />
                           </div>
-                          <span className="text-xs text-blue-200 opacity-70">Speaking...</span>
+                          <span className="text-xs text-blue-200 opacity-70">{t('voiceConversationFlow.ui.speaking')}</span>
                         </div>
                         <div className="text-blue-100 text-sm">
                           {conversations[currentConversation].customer}
@@ -314,7 +316,7 @@ const VoiceConversationFlow = () => {
                             <div className="w-1 h-5 bg-purple-300 rounded animate-pulse" style={{animationDelay: '300ms'}} />
                             <div className="w-1 h-2 bg-purple-300 rounded animate-pulse" style={{animationDelay: '400ms'}} />
                           </div>
-                          <span className="text-xs text-purple-200 opacity-70">AI Speaking...</span>
+                          <span className="text-xs text-purple-200 opacity-70">{t('voiceConversationFlow.ui.aiSpeaking')}</span>
                         </div>
                         <div className="text-purple-100 text-sm">
                           {conversations[currentConversation].ai}
@@ -393,8 +395,8 @@ const VoiceConversationFlow = () => {
                   exit={{ opacity: 0, scale: 0 }}
                   className="absolute -top-4 -right-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg p-4 shadow-xl"
                 >
-                  <div className="text-lg font-bold">AI Thinking...</div>
-                  <div className="text-sm opacity-90">Processing context</div>
+                  <div className="text-lg font-bold">{t('voiceConversationFlow.ui.aiThinking')}</div>
+                  <div className="text-sm opacity-90">{t('voiceConversationFlow.ui.processingContext')}</div>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -406,7 +408,7 @@ const VoiceConversationFlow = () => {
               className="absolute -bottom-4 -left-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-4 shadow-xl"
             >
               <div className="text-lg font-bold">99.2%</div>
-              <div className="text-sm opacity-90">Accuracy Rate</div>
+              <div className="text-sm opacity-90">{t('voiceConversationFlow.ui.accuracyRate')}</div>
             </motion.div>
           </motion.div>
     </div>

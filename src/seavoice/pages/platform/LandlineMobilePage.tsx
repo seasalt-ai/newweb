@@ -3,43 +3,67 @@ import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { Phone, Smartphone, Globe, Shield, Clock, CheckCircle } from 'lucide-react';
 const LandlineMobilePage = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const features = [
     {
       icon: Phone,
-      title: 'Traditional Landline Integration',
-      description: 'Seamlessly connect your existing landline infrastructure with AI voice capabilities.',
-      benefits: ['Keep your existing phone numbers', 'No hardware changes required', 'Instant AI backup for busy lines']
+      title: t('seavoice.platform.landlineMobile.features.0.title'),
+      description: t('seavoice.platform.landlineMobile.features.0.description'),
+      benefits: [
+        t('seavoice.platform.landlineMobile.features.0.benefits.0'),
+        t('seavoice.platform.landlineMobile.features.0.benefits.1'),
+        t('seavoice.platform.landlineMobile.features.0.benefits.2')
+      ]
     },
     {
       icon: Smartphone,
-      title: 'Mobile Network Connectivity',
-      description: 'Direct integration with mobile carriers for outbound campaigns and customer engagement.',
-      benefits: ['Reach customers on their mobile devices', 'High delivery rates', 'SMS fallback options']
+      title: t('seavoice.platform.landlineMobile.features.1.title'),
+      description: t('seavoice.platform.landlineMobile.features.1.description'),
+      benefits: [
+        t('seavoice.platform.landlineMobile.features.1.benefits.0'),
+        t('seavoice.platform.landlineMobile.features.1.benefits.1'),
+        t('seavoice.platform.landlineMobile.features.1.benefits.2')
+      ]
     },
     {
       icon: Globe,
-      title: 'Global Coverage',
-      description: 'Connect with customers worldwide through our extensive carrier network partnerships.',
-      benefits: ['200+ countries supported', 'Local number presence', 'Competitive international rates']
+      title: t('seavoice.platform.landlineMobile.features.2.title'),
+      description: t('seavoice.platform.landlineMobile.features.2.description'),
+      benefits: [
+        t('seavoice.platform.landlineMobile.features.2.benefits.0'),
+        t('seavoice.platform.landlineMobile.features.2.benefits.1'),
+        t('seavoice.platform.landlineMobile.features.2.benefits.2')
+      ]
     }
   ];
 
   const useCases = [
     {
-      title: 'Appointment Reminders',
-      description: 'Automatically call patients, customers, or clients to confirm upcoming appointments.',
-      metrics: ['40% reduction in no-shows', '95% contact success rate', '24/7 automated calling']
+      title: t('seavoice.platform.landlineMobile.useCases.0.title'),
+      description: t('seavoice.platform.landlineMobile.useCases.0.description'),
+      metrics: [
+        t('seavoice.platform.landlineMobile.useCases.0.metrics.0'),
+        t('seavoice.platform.landlineMobile.useCases.0.metrics.1'),
+        t('seavoice.platform.landlineMobile.useCases.0.metrics.2')
+      ]
     },
     {
-      title: 'Emergency Notifications',
-      description: 'Rapidly notify large groups during emergencies or critical updates.',
-      metrics: ['1000+ calls per minute', 'Multi-language support', 'Delivery confirmation']
+      title: t('seavoice.platform.landlineMobile.useCases.1.title'),
+      description: t('seavoice.platform.landlineMobile.useCases.1.description'),
+      metrics: [
+        t('seavoice.platform.landlineMobile.useCases.1.metrics.0'),
+        t('seavoice.platform.landlineMobile.useCases.1.metrics.1'),
+        t('seavoice.platform.landlineMobile.useCases.1.metrics.2')
+      ]
     },
     {
-      title: 'Customer Surveys',
-      description: 'Conduct post-service surveys to gather valuable customer feedback.',
-      metrics: ['3x higher response rates', 'Real-time sentiment analysis', 'Automated reporting']
+      title: t('seavoice.platform.landlineMobile.useCases.2.title'),
+      description: t('seavoice.platform.landlineMobile.useCases.2.description'),
+      metrics: [
+        t('seavoice.platform.landlineMobile.useCases.2.metrics.0'),
+        t('seavoice.platform.landlineMobile.useCases.2.metrics.1'),
+        t('seavoice.platform.landlineMobile.useCases.2.metrics.2')
+      ]
     }
   ];
 
@@ -63,11 +87,10 @@ const LandlineMobilePage = () => {
               </div>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Landline & Mobile Voice Solutions
+              {t('seavoice.platform.landlineMobile.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Transform your traditional phone systems with AI-powered voice agents that work 
-              seamlessly with landlines and mobile networks worldwide.
+              {t('seavoice.platform.landlineMobile.hero.subtitle')}
             </p>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
@@ -79,7 +102,7 @@ const LandlineMobilePage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
               >
-                Sign Up For Free
+                {t('seavoice.platform.landlineMobile.hero.cta')}
               </motion.button>
             </a>
           </motion.div>
@@ -97,10 +120,10 @@ const LandlineMobilePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Universal Voice Connectivity
+              {t('seavoice.platform.landlineMobile.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Connect with any phone system, anywhere in the world
+              {t('seavoice.platform.landlineMobile.features.subtitle')}
             </p>
           </motion.div>
 
@@ -144,10 +167,10 @@ const LandlineMobilePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Popular Use Cases
+              {t('seavoice.platform.landlineMobile.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how businesses leverage landline and mobile voice automation
+              {t('seavoice.platform.landlineMobile.useCases.subtitle')}
             </p>
           </motion.div>
 
@@ -188,32 +211,31 @@ const LandlineMobilePage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Enterprise-Grade Reliability
+                {t('seavoice.platform.landlineMobile.specs.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Built for mission-critical communications with carrier-grade infrastructure 
-                and 99.99% uptime guarantee.
+                {t('seavoice.platform.landlineMobile.specs.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Security & Compliance</h3>
-                    <p className="text-gray-600">SOC 2, HIPAA, and PCI compliant infrastructure</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.landlineMobile.specs.security.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.security.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Clock className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">24/7 Monitoring</h3>
-                    <p className="text-gray-600">Real-time system monitoring and instant failover</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.landlineMobile.specs.monitoring.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.monitoring.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Globe className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Global Infrastructure</h3>
-                    <p className="text-gray-600">Redundant data centers across multiple regions</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.landlineMobile.specs.infrastructure.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.infrastructure.description')}</p>
                   </div>
                 </div>
               </div>
@@ -226,27 +248,27 @@ const LandlineMobilePage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Technical Specifications</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.platform.landlineMobile.specs.technical.title')}</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Concurrent Calls</span>
-                  <span className="font-semibold">Unlimited</span>
+                  <span className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.technical.concurrentCalls.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.landlineMobile.specs.technical.concurrentCalls.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Audio Quality</span>
-                  <span className="font-semibold">HD Voice (G.722)</span>
+                  <span className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.technical.audioQuality.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.landlineMobile.specs.technical.audioQuality.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Latency</span>
-                  <span className="font-semibold">&lt; 150ms</span>
+                  <span className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.technical.latency.label')}</span>
+                  <span className="font-semibold" dangerouslySetInnerHTML={{ __html: t('seavoice.platform.landlineMobile.specs.technical.latency.value') }}></span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Uptime SLA</span>
-                  <span className="font-semibold">99.99%</span>
+                  <span className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.technical.uptimeSLA.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.landlineMobile.specs.technical.uptimeSLA.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Global Coverage</span>
-                  <span className="font-semibold">200+ Countries</span>
+                  <span className="text-gray-600">{t('seavoice.platform.landlineMobile.specs.technical.globalCoverage.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.landlineMobile.specs.technical.globalCoverage.value')}</span>
                 </div>
               </div>
             </motion.div>
@@ -263,9 +285,9 @@ const LandlineMobilePage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Modernize Your Phone System?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.platform.landlineMobile.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Connect your landline and mobile infrastructure with AI voice agents in minutes
+              {t('seavoice.platform.landlineMobile.cta.subtitle')}
             </p>
             <a
               href={getMeetingUrl(i18n.language)}
@@ -277,7 +299,7 @@ const LandlineMobilePage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Schedule Integration Call
+                {t('seavoice.platform.landlineMobile.cta.button')}
               </motion.button>
             </a>
           </motion.div>

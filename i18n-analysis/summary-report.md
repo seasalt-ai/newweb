@@ -1,51 +1,54 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-30T19:20:26.477Z
+Generated: 2025-08-30T20:47:56.383Z
 
 ## Executive Summary
 
-- **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 6176
-- **Components Analyzed**: 208
-- **Translation Coverage**: 98.98%
-- **Missing Keys**: 58
-- **Hardcoded Strings Found**: 3459
+- **Languages Analyzed**: 23
+- **Base Language (en) Keys**: 6965
+- **Components Analyzed**: 206
+- **Translation Coverage**: 98.75%
+- **Missing Keys**: 83
+- **Hardcoded Strings Found**: 2766
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 14.35% | ❌ Incomplete |
-| de | 887 | 13.99% | ❌ Incomplete |
-| en | 6176 | 100.00% | ✅ Good |
-| es | 835 | 13.15% | ❌ Incomplete |
-| fa | 755 | 11.87% | ❌ Incomplete |
-| fil | 739 | 11.59% | ❌ Incomplete |
-| fr | 739 | 11.59% | ❌ Incomplete |
-| hi | 690 | 10.80% | ❌ Incomplete |
-| id | 690 | 10.80% | ❌ Incomplete |
-| ja | 690 | 10.82% | ❌ Incomplete |
-| ko | 690 | 10.80% | ❌ Incomplete |
-| ms | 690 | 10.80% | ❌ Incomplete |
-| pl | 676 | 10.57% | ❌ Incomplete |
-| pt | 676 | 10.57% | ❌ Incomplete |
-| ru | 676 | 10.57% | ❌ Incomplete |
-| ta | 739 | 11.59% | ❌ Incomplete |
-| th | 679 | 10.62% | ❌ Incomplete |
-| vi | 739 | 11.59% | ❌ Incomplete |
-| zh-CN | 802 | 12.63% | ❌ Incomplete |
-| zh-TW | 6178 | 99.95% | ✅ Good |
+| ar | 909 | 12.72% | ❌ Incomplete |
+| de | 887 | 12.40% | ❌ Incomplete |
+| en | 6965 | 100.00% | ✅ Good |
+| es | 835 | 11.66% | ❌ Incomplete |
+| fa | 755 | 10.52% | ❌ Incomplete |
+| fil | 739 | 10.28% | ❌ Incomplete |
+| fr | 739 | 10.28% | ❌ Incomplete |
+| hi | 690 | 9.58% | ❌ Incomplete |
+| id | 690 | 9.58% | ❌ Incomplete |
+| ja | 690 | 9.59% | ❌ Incomplete |
+| ko | 690 | 9.58% | ❌ Incomplete |
+| ms | 690 | 9.58% | ❌ Incomplete |
+| pl | 676 | 9.38% | ❌ Incomplete |
+| pt | 676 | 9.38% | ❌ Incomplete |
+| ru | 676 | 9.38% | ❌ Incomplete |
+| ta | 739 | 10.28% | ❌ Incomplete |
+| th | 679 | 9.42% | ❌ Incomplete |
+| vi | 739 | 10.28% | ❌ Incomplete |
+| zh-CN | 802 | 11.20% | ❌ Incomplete |
+| zh-TW | 6967 | 99.60% | ✅ Good |
+| zh-tw-alic | 614 | 8.69% | ❌ Incomplete |
+| zh-tw-qwen | 614 | 8.69% | ❌ Incomplete |
+| zh-tw1 | 614 | 8.69% | ❌ Incomplete |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 58 keys used in components but missing from en.json
+**Description**: 83 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3459 hardcoded strings that should be internationalized
+**Description**: Found 2766 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -112,6 +115,31 @@ seachat.integrations.calendar.aiResponse2
 seachat.solutions.realEstate.integrations
 seachat.solutions.saas.integrations
 seachat.solutions.travel.integrations
+voiceConversationFlow.steps.callConnected.title
+voiceConversationFlow.steps.callConnected.description
+voiceConversationFlow.steps.listening.title
+voiceConversationFlow.steps.listening.description
+voiceConversationFlow.steps.processing.title
+voiceConversationFlow.steps.processing.description
+voiceConversationFlow.steps.responding.title
+voiceConversationFlow.steps.responding.description
+voiceConversationFlow.conversations.appointmentBooking.customer
+voiceConversationFlow.conversations.appointmentBooking.ai
+voiceConversationFlow.conversationTypes.appointmentBooking
+voiceConversationFlow.conversations.orderSupport.customer
+voiceConversationFlow.conversations.orderSupport.ai
+voiceConversationFlow.conversationTypes.orderSupport
+voiceConversationFlow.conversations.salesInquiry.customer
+voiceConversationFlow.conversations.salesInquiry.ai
+voiceConversationFlow.conversationTypes.salesInquiry
+voiceConversationFlow.ui.chooseConversationType
+voiceConversationFlow.ui.autoProgressing
+voiceConversationFlow.ui.liveConversation
+voiceConversationFlow.ui.speaking
+voiceConversationFlow.ui.aiSpeaking
+voiceConversationFlow.ui.aiThinking
+voiceConversationFlow.ui.processingContext
+voiceConversationFlow.ui.accuracyRate
 seavoice.pricing.plans.custom.period
 ```
 
@@ -119,7 +147,7 @@ seavoice.pricing.plans.custom.period
 ## Hardcoded Strings Summary
 
 
-Found 3459 potential hardcoded strings across components:
+Found 2766 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -162,7 +190,7 @@ Found 3459 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3449 more. See hardcoded-strings.json for complete list.
+... and 2756 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -170,20 +198,20 @@ Found 3459 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 58 keys used in components but missing from en.json
+**Description**: 83 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3459 hardcoded strings that should be internationalized
+**Description**: Found 2766 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
 ### 3. Complete translations for under-covered languages (MEDIUM Priority)
 **Category**: Translation Completeness
-**Description**: 18 languages have less than 80% translation coverage
-**Action**: Priority languages to complete: pl, pt, ru
+**Description**: 21 languages have less than 80% translation coverage
+**Action**: Priority languages to complete: zh-tw-alic, zh-tw-qwen, zh-tw1
 
 
 ### 4. Organize translations by page/component sections (MEDIUM Priority)

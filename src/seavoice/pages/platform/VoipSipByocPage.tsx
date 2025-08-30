@@ -3,61 +3,77 @@ import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { Network, Server, Shield, Zap, Globe, Settings } from 'lucide-react';
 const VoipSipByocPage = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
   const connectionTypes = [
     {
       icon: Network,
-      title: 'VoIP Integration',
-      description: 'Connect your existing VoIP infrastructure seamlessly with our AI voice platform.',
-      features: ['SIP trunk compatibility', 'Codec optimization', 'Quality of Service (QoS)', 'Bandwidth management'],
-      pricing: 'Starting at $0.08/minute'
+      title: t('voipSipByoc.connectionTypes.voip.title'),
+      description: t('voipSipByoc.connectionTypes.voip.description'),
+      features: [
+        t('voipSipByoc.connectionTypes.voip.features.sipTrunk'),
+        t('voipSipByoc.connectionTypes.voip.features.codecOptimization'),
+        t('voipSipByoc.connectionTypes.voip.features.qos'),
+        t('voipSipByoc.connectionTypes.voip.features.bandwidthManagement')
+      ],
+      pricing: t('voipSipByoc.connectionTypes.voip.pricing')
     },
     {
       icon: Server,
-      title: 'SIP Trunking',
-      description: 'Direct SIP connectivity for maximum control and customization of your voice traffic.',
-      features: ['Direct SIP endpoints', 'Custom routing rules', 'Failover protection', 'Real-time monitoring'],
-      pricing: 'Starting at $0.06/minute'
+      title: t('voipSipByoc.connectionTypes.sip.title'),
+      description: t('voipSipByoc.connectionTypes.sip.description'),
+      features: [
+        t('voipSipByoc.connectionTypes.sip.features.directEndpoints'),
+        t('voipSipByoc.connectionTypes.sip.features.customRouting'),
+        t('voipSipByoc.connectionTypes.sip.features.failoverProtection'),
+        t('voipSipByoc.connectionTypes.sip.features.realTimeMonitoring')
+      ],
+      pricing: t('voipSipByoc.connectionTypes.sip.pricing')
     },
     {
       icon: Globe,
-      title: 'Bring Your Own Carrier (BYOC)',
-      description: 'Use your preferred carriers while leveraging our AI voice capabilities.',
-      features: ['Carrier independence', 'Cost optimization', 'Global reach', 'Vendor flexibility'],
-      pricing: 'Platform fee + carrier rates'
+      title: t('voipSipByoc.connectionTypes.byoc.title'),
+      description: t('voipSipByoc.connectionTypes.byoc.description'),
+      features: [
+        t('voipSipByoc.connectionTypes.byoc.features.carrierIndependence'),
+        t('voipSipByoc.connectionTypes.byoc.features.costOptimization'),
+        t('voipSipByoc.connectionTypes.byoc.features.globalReach'),
+        t('voipSipByoc.connectionTypes.byoc.features.vendorFlexibility')
+      ],
+      pricing: t('voipSipByoc.connectionTypes.byoc.pricing')
     }
   ];
 
   const benefits = [
     {
-      title: 'Cost Savings',
-      description: 'Reduce communication costs by up to 60% with optimized routing and carrier selection.',
-      metric: '60%'
+      title: t('voipSipByoc.benefits.costSavings.title'),
+      description: t('voipSipByoc.benefits.costSavings.description'),
+      metric: t('voipSipByoc.benefits.costSavings.metric')
     },
     {
-      title: 'Reliability',
-      description: 'Enterprise-grade uptime with automatic failover and redundant infrastructure.',
-      metric: '99.99%'
+      title: t('voipSipByoc.benefits.reliability.title'),
+      description: t('voipSipByoc.benefits.reliability.description'),
+      metric: t('voipSipByoc.benefits.reliability.metric')
     },
     {
-      title: 'Scalability',
-      description: 'Handle thousands of concurrent calls with elastic scaling capabilities.',
-      metric: '10,000+'
+      title: t('voipSipByoc.benefits.scalability.title'),
+      description: t('voipSipByoc.benefits.scalability.description'),
+      metric: t('voipSipByoc.benefits.scalability.metric')
     },
     {
-      title: 'Global Reach',
-      description: 'Connect to customers worldwide with local presence in major markets.',
-      metric: '200+'
+      title: t('voipSipByoc.benefits.globalReach.title'),
+      description: t('voipSipByoc.benefits.globalReach.description'),
+      metric: t('voipSipByoc.benefits.globalReach.metric')
     }
   ];
 
   const technicalSpecs = [
-    { feature: 'Supported Protocols', value: 'SIP 2.0, RTP, SRTP' },
-    { feature: 'Audio Codecs', value: 'G.711, G.722, G.729, Opus' },
-    { feature: 'Encryption', value: 'TLS 1.3, SRTP, AES-256' },
-    { feature: 'Network Requirements', value: '100 kbps per concurrent call' },
-    { feature: 'Latency', value: '< 150ms end-to-end' },
-    { feature: 'Jitter Buffer', value: 'Adaptive, 20-200ms' }
+    { feature: t('voipSipByoc.technicalSpecs.supportedProtocols.feature'), value: t('voipSipByoc.technicalSpecs.supportedProtocols.value') },
+    { feature: t('voipSipByoc.technicalSpecs.audioCodecs.feature'), value: t('voipSipByoc.technicalSpecs.audioCodecs.value') },
+    { feature: t('voipSipByoc.technicalSpecs.encryption.feature'), value: t('voipSipByoc.technicalSpecs.encryption.value') },
+    { feature: t('voipSipByoc.technicalSpecs.networkRequirements.feature'), value: t('voipSipByoc.technicalSpecs.networkRequirements.value') },
+    { feature: t('voipSipByoc.technicalSpecs.latency.feature'), value: t('voipSipByoc.technicalSpecs.latency.value') },
+    { feature: t('voipSipByoc.technicalSpecs.jitterBuffer.feature'), value: t('voipSipByoc.technicalSpecs.jitterBuffer.value') }
   ];
 
   return (
@@ -75,11 +91,10 @@ const VoipSipByocPage = () => {
               <Network className="w-16 h-16 text-blue-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              VoIP, SIP & BYOC Voice Solutions
+              {t('voipSipByoc.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, 
-              direct SIP trunking, or bring your own carrier for complete control.
+              {t('voipSipByoc.hero.subtitle')}
             </p>
             <a
               href={getMeetingUrl(i18n.language)}
@@ -91,7 +106,7 @@ const VoipSipByocPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
               >
-                Talk to Connectivity Specialist
+                {t('voipSipByoc.hero.cta')}
               </motion.button>
             </a>
           </motion.div>
@@ -109,10 +124,10 @@ const VoipSipByocPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Flexible Connectivity Options
+              {t('voipSipByoc.connectionTypes.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Choose the connection method that best fits your infrastructure and requirements
+              {t('voipSipByoc.connectionTypes.subtitle')}
             </p>
           </motion.div>
 
@@ -133,7 +148,7 @@ const VoipSipByocPage = () => {
                 <p className="text-gray-600 mb-6 leading-relaxed">{type.description}</p>
                 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-3">Key Features:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">{t('voipSipByoc.connectionTypes.keyFeatures')}</h4>
                   <ul className="space-y-2">
                     {type.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-gray-700 text-sm">
@@ -164,10 +179,10 @@ const VoipSipByocPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Enterprise Benefits
+              {t('voipSipByoc.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Why leading enterprises choose our voice connectivity solutions
+              {t('voipSipByoc.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -201,32 +216,31 @@ const VoipSipByocPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Technical Excellence
+                {t('voipSipByoc.technicalExcellence.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Built on industry-standard protocols with enterprise-grade security and performance. 
-                Our platform supports all major codecs and provides real-time quality monitoring.
+                {t('voipSipByoc.technicalExcellence.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">End-to-End Encryption</h3>
-                    <p className="text-gray-600">TLS 1.3 and SRTP for secure voice transmission</p>
+                    <h3 className="font-semibold text-gray-900">{t('voipSipByoc.technicalExcellence.endToEndEncryption.title')}</h3>
+                    <p className="text-gray-600">{t('voipSipByoc.technicalExcellence.endToEndEncryption.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Zap className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Low Latency</h3>
-                    <p className="text-gray-600">Sub-150ms latency for crystal clear conversations</p>
+                    <h3 className="font-semibold text-gray-900">{t('voipSipByoc.technicalExcellence.lowLatency.title')}</h3>
+                    <p className="text-gray-600">{t('voipSipByoc.technicalExcellence.lowLatency.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Settings className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Advanced Configuration</h3>
-                    <p className="text-gray-600">Granular control over routing and quality settings</p>
+                    <h3 className="font-semibold text-gray-900">{t('voipSipByoc.technicalExcellence.advancedConfiguration.title')}</h3>
+                    <p className="text-gray-600">{t('voipSipByoc.technicalExcellence.advancedConfiguration.description')}</p>
                   </div>
                 </div>
               </div>
@@ -239,7 +253,7 @@ const VoipSipByocPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Technical Specifications</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('voipSipByoc.technicalSpecs.title')}</h3>
               <div className="space-y-4">
                 {technicalSpecs.map((spec, index) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-gray-200 last:border-b-0">
@@ -264,10 +278,10 @@ const VoipSipByocPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              How It Works
+              {t('voipSipByoc.howItWorks.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Simple integration with your existing infrastructure
+              {t('voipSipByoc.howItWorks.subtitle')}
             </p>
           </motion.div>
 
@@ -283,24 +297,24 @@ const VoipSipByocPage = () => {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Server className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Your Infrastructure</h3>
-                <p className="text-gray-600">Existing PBX, VoIP system, or carrier</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('voipSipByoc.howItWorks.yourInfrastructure.title')}</h3>
+                <p className="text-gray-600">{t('voipSipByoc.howItWorks.yourInfrastructure.description')}</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Network className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">SeaVoice Platform</h3>
-                <p className="text-gray-600">AI voice processing and routing</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('voipSipByoc.howItWorks.seavoicePlatform.title')}</h3>
+                <p className="text-gray-600">{t('voipSipByoc.howItWorks.seavoicePlatform.description')}</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-teal-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Global Network</h3>
-                <p className="text-gray-600">Worldwide carrier connections</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('voipSipByoc.howItWorks.globalNetwork.title')}</h3>
+                <p className="text-gray-600">{t('voipSipByoc.howItWorks.globalNetwork.description')}</p>
               </div>
             </div>
           </motion.div>
@@ -316,9 +330,9 @@ const VoipSipByocPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Optimize Your Voice Infrastructure?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('voipSipByoc.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Speak with our connectivity specialists to design the perfect solution for your needs
+              {t('voipSipByoc.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -331,7 +345,7 @@ const VoipSipByocPage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Schedule Consultation
+                  {t('voipSipByoc.cta.scheduleConsultation')}
                 </motion.button>
               </a>
               <a
@@ -344,7 +358,7 @@ const VoipSipByocPage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
                 >
-                  Sign Up For Free
+                  {t('voipSipByoc.cta.signUpForFree')}
                 </motion.button>
               </a>
             </div>
