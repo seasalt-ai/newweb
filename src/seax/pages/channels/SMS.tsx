@@ -74,10 +74,10 @@ const SMS = () => {
   ];
 
   const stats = [
-    { value: '10M+', label: t('seax.channels.sms.hero.stats.messagesSent') },
-    { value: '200+', label: t('seax.channels.sms.hero.stats.countries') },
-    { value: '99.9%', label: t('seax.channels.sms.hero.stats.uptime') },
-    { value: '98%', label: t('seax.channels.sms.hero.stats.deliveryRate') }
+    { value: t('seax.channels.sms.hero.stats.messagesValue'), label: t('seax.channels.sms.hero.stats.messagesSent') },
+    { value: t('seax.channels.sms.hero.stats.countriesValue'), label: t('seax.channels.sms.hero.stats.countries') },
+    { value: t('seax.channels.sms.hero.stats.uptimeValue'), label: t('seax.channels.sms.hero.stats.uptime') },
+    { value: t('seax.channels.sms.hero.stats.deliveryValue'), label: t('seax.channels.sms.hero.stats.deliveryRate') }
   ];
 
   return (
@@ -165,11 +165,11 @@ const SMS = () => {
                   
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-blue-50 rounded-lg p-3 text-center">
-                      <div className="text-2xl font-bold text-blue-600">847K</div>
+                      <div className="text-2xl font-bold text-blue-600">{t('seax.channels.sms.hero.preview.deliveredValue')}</div>
                       <div className="text-sm text-gray-600">{t('seax.channels.sms.hero.preview.delivered')}</div>
                     </div>
                     <div className="bg-green-50 rounded-lg p-3 text-center">
-                      <div className="text-2xl font-bold text-green-600">98.2%</div>
+                      <div className="text-2xl font-bold text-green-600">{t('seax.channels.sms.hero.preview.successValue')}</div>
                       <div className="text-sm text-gray-600">{t('seax.channels.sms.hero.preview.successRate')}</div>
                     </div>
                   </div>

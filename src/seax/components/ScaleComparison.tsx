@@ -24,13 +24,13 @@ const ScaleComparison = () => {
   const [comparisonData, setComparisonData] = useState<ComparisonData>({
     manual: {
       messages: 0,
-      time: '8 hours',
+      time: t('seax.scaleComparison.manual.timeValue'),
       reach: 0,
       efficiency: 25
     },
     seax: {
       messages: 0,
-      time: '5 minutes',
+      time: t('seax.scaleComparison.seax.timeValue'),
       reach: 0,
       efficiency: 95
     }
