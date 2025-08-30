@@ -39,10 +39,10 @@ const Footer = () => {
   };
 
   const channelLinks = [
-    { name: t('footer.links.channels.smsOverview'), path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
-    { name: t('footer.links.channels.smsLocal'), path: '/channels/sms-local', icon: Building2, iconText: '10DLC', isChild: true },
-    { name: t('footer.links.channels.smsTollFree'), path: '/channels/sms-toll-free', icon: Phone, iconText: '8XX', isChild: true },
-    { name: t('footer.links.channels.smsShortCode'), path: '/channels/sms-short-code', icon: Hash, iconText: 'xxxxx', isChild: true },
+    { name: t('footer.links.channels.smsOverview'), path: '/channels/sms', icon: MessageSquare, iconText: t('footer.technical.sms'), isParent: true },
+    { name: t('footer.links.channels.smsLocal'), path: '/channels/sms-local', icon: Building2, iconText: t('footer.technical.tenDlc'), isChild: true },
+    { name: t('footer.links.channels.smsTollFree'), path: '/channels/sms-toll-free', icon: Phone, iconText: t('footer.technical.tollFree'), isChild: true },
+    { name: t('footer.links.channels.smsShortCode'), path: '/channels/sms-short-code', icon: Hash, iconText: t('footer.technical.shortCode'), isChild: true },
     { name: t('footer.links.channels.whatsapp'), path: '/channels/whatsapp', icon: WhatsAppIcon },
     { name: t('footer.links.channels.voice'), path: '/channels/voice', icon: Phone }
   ];
@@ -82,7 +82,7 @@ const Footer = () => {
             <div className="flex items-center mb-6">
               <img 
                 src="/seax-logo.png" 
-                alt="SeaX" 
+                alt={t('footer.logo.alt')}
                 className="h-8 w-auto brightness-0 invert"
               />
             </div>
@@ -449,7 +449,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
+                {t('footer.copyright', { year: new Date().getFullYear() })}
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
                 <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">

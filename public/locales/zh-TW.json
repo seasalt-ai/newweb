@@ -125,6 +125,15 @@
       "phone": "+1 (SMB)-AI-AGENT",
       "email": "info@seasalt.ai",
       "location": "西雅圖，華盛頓州"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
     }
   },
   "hero": {
@@ -8969,6 +8978,26 @@
       "visual": {
         "title": "中央行銷中心",
         "subtitle": "即時觸及數百萬"
+      }
+    },
+    "channelTemplate": {
+      "hero": {
+        "getStarted": "開始使用"
+      },
+      "pricing": {
+        "defaultTitle": "透明定價",
+        "defaultSubtitle": "簡單、可預測的定價，隨您的業務擴展",
+        "labels": {
+          "setup": "設置費用",
+          "monthly": "月費",
+          "perMessage": "每條訊息"
+        }
+      },
+      "cta": {
+        "title": "準備擴展您的外聯業務？",
+        "subtitle": "加入數千家企業，使用 SeaX 觸及數百萬客戶",
+        "getStartedButton": "立即開始",
+        "viewPricingButton": "查看定價"
       }
     }
   }

@@ -125,6 +125,15 @@
       "phone": "+1 (SMB)-AI-AGENT",
       "email": "info@seasalt.ai",
       "location": "Seattle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
     }
   },
   "hero": {
@@ -8991,6 +9000,26 @@
       "visual": {
         "title": "Central Marketing Hub",
         "subtitle": "Real-time reach to millions"
+      }
+    },
+    "channelTemplate": {
+      "hero": {
+        "getStarted": "Get Started"
+      },
+      "pricing": {
+        "defaultTitle": "Transparent Pricing",
+        "defaultSubtitle": "Simple, predictable pricing that scales with your business",
+        "labels": {
+          "setup": "Setup",
+          "monthly": "Monthly",
+          "perMessage": "Per Message"
+        }
+      },
+      "cta": {
+        "title": "Ready to Scale Your Outreach?",
+        "subtitle": "Join thousands of businesses reaching millions with SeaX",
+        "getStartedButton": "Get Started Today",
+        "viewPricingButton": "View Pricing"
       }
     }
   }
