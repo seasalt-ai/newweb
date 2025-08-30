@@ -9770,5 +9770,852 @@
       "signUp": "Sign Up",
       "bookDemo": "Book A Demo"
     }
+  },
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "Platform",
+          "overview": "Platform Overview",
+          "landlineMobile": "Landline & Mobile Voice",
+          "voipSipByoc": "VoIP & SIP & BYOC Voice",
+          "lineCallPlus": "Line Call Plus for Businesses",
+          "whatsAppVoice": "WhatsApp Voice API for Businesses",
+          "speechToText": "Speech To Text",
+          "textToSpeech": "Text To Speech",
+          "endToEndLlms": "End To End LLMs"
+        },
+        "inboundSolutions": {
+          "title": "Inbound Solutions",
+          "virtualAssistant": "24/7 Virtual Assistant",
+          "callTransfer": "Smart Call Transfer",
+          "ivrReplacement": "IVR Replacement",
+          "mentalHealth": "Mental Health Companion",
+          "scamShield": "Scam Shield Protection",
+          "technicalSupport": "Technical Support",
+          "orderTracking": "Order Status & Tracking",
+          "paymentProcessing": "Payment Processing",
+          "appointmentBooking": "Appointment Booking"
+        },
+        "outboundSolutions": {
+          "title": "Outbound Solutions",
+          "leadGeneration": "Lead Generation & Qualification",
+          "collections": "Collections Service",
+          "reactivation": "Customer Reactivation",
+          "seniorChecks": "Senior Check Calls",
+          "campaigns": "Large Scale Campaigns",
+          "proactiveSupport": "Proactive Support",
+          "renewals": "Subscription Renewals",
+          "surveys": "Customer Surveys",
+          "fraudAlerts": "Fraud Alerts"
+        },
+        "pricing": "Pricing"
+      },
+      "auth": {
+        "signIn": "Sign In",
+        "getStarted": "Get Started"
+      },
+      "backToMainSite": "Back to Main Site"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Your Business Never Sleeps",
+        "title": {
+          "line1": "AI Voice Agents",
+          "line2": "Handle Calls 24/7"
+        },
+        "subtitle": {
+          "line1": "Transform customer interactions with human-like AI that never sleeps.",
+          "line2": "Automate support, bookings, and outbound call with scale."
+        },
+        "bookDemo": "Book a Demo",
+        "signUp": "Sign Up Now"
+      },
+      "voiceDemo": {
+        "title": "Try Our Voice Technology",
+        "subtitle": "Listen to real examples of SeaVoice in action and experience the future of AI-powered conversations"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "Customer Calls",
+          "description": "Caller dials your business number"
+        },
+        "step2": {
+          "title": "AI Agent Answers",
+          "description": "SeaVoice AI picks up instantly"
+        },
+        "step3": {
+          "title": "Natural Conversation",
+          "description": "Human-like voice interaction"
+        },
+        "step4": {
+          "title": "Task Completion",
+          "description": "Booking, support, or transfer"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "Hi, I'd like to book an appointment for next week.",
+          "ai": "I'd be happy to help you schedule an appointment! Let me check our availability for next week. What type of service are you looking for?",
+          "scenario": "Appointment booking"
+        },
+        "support": {
+          "customer": "I'm having trouble with my recent order. Can you help?",
+          "ai": "Of course! I'm here to help with your order. Can you please provide your order number so I can look up the details for you?",
+          "scenario": "Customer support"
+        },
+        "inquiry": {
+          "customer": "What are your business hours?",
+          "ai": "We're open Monday through Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM. We're closed on Sundays. Is there anything specific you'd like to know about our services?",
+          "scenario": "General inquiry"
+        }
+      },
+      "useCases": {
+        "title": "Transform Your Business with <br className=\"hidden sm:block\" />Successful Use Cases",
+        "subtitle": "Discover how industry leaders leverage SeaVoice AI to revolutionize customer interactions and drive growth",
+        "badge": "Proven Success Stories",
+        "inbound": {
+          "category": "Inbound Solutions",
+          "appointmentBooking": {
+            "title": "Appointment Booking & Management",
+            "description": "Automate appointment scheduling with AI that understands availability, preferences, and business rules."
+          },
+          "technicalSupport": {
+            "title": "Technical Support Automation",
+            "description": "Provide instant technical support with AI that can diagnose problems and guide customers through solutions."
+          },
+          "virtualAssistant": {
+            "title": "Virtual Assistant",
+            "description": "Handle general inquiries, provide information, and route calls intelligently."
+          },
+          "callTransfer": {
+            "title": "Call Transfer & Routing",
+            "description": "Intelligently route calls to the right department or agent based on caller needs."
+          },
+          "orderTracking": {
+            "title": "Order Tracking & Support",
+            "description": "Allow customers to check order status, track shipments, and get delivery updates."
+          },
+          "paymentProcessing": {
+            "title": "Payment Processing",
+            "description": "Securely process payments, handle billing inquiries, and manage account information."
+          },
+          "ivrReplacement": {
+            "title": "IVR Replacement",
+            "description": "Replace traditional menus with natural language understanding for a smoother experience."
+          },
+          "mentalHealth": {
+            "title": "Mental Health Support",
+            "description": "Provide empathetic AI-driven mental health support around the clock."
+          },
+          "scamShield": {
+            "title": "Scam Shield Protection",
+            "description": "Protect your users from scams with real-time detection and blocking."
+          },
+          "type": "Inbound"
+        },
+        "outbound": {
+          "category": "Outbound Solutions",
+          "leadGeneration": {
+            "title": "Lead Generation & Qualification",
+            "description": "Transform your sales pipeline with AI-powered lead generation that identifies and qualifies prospects."
+          },
+          "seniorChecks": {
+            "title": "Senior Check Calls & Wellness",
+            "description": "Regular AI-powered wellness checks for seniors with compassionate conversations that monitor health."
+          },
+          "surveys": {
+            "title": "Customer Surveys & Feedback",
+            "description": "Conduct post-purchase surveys and collect valuable customer feedback automatically."
+          },
+          "collections": {
+            "title": "Collections & Payment Reminders",
+            "description": "Respectful and effective collection calls that improve payment rates while maintaining relationships."
+          },
+          "reactivation": {
+            "title": "Customer Reactivation",
+            "description": "Re-engage dormant customers with personalized outreach campaigns."
+          },
+          "fraudAlerts": {
+            "title": "Fraud Alerts & Verification",
+            "description": "Notify customers about suspicious transactions and verify their identity for security."
+          },
+          "campaigns": {
+            "title": "Large Scale Campaigns",
+            "description": "Execute massive voice campaigns to reach thousands of customers globally."
+          },
+          "proactiveSupport": {
+            "title": "Proactive Customer Support",
+            "description": "Keep customers informed proactively with intelligent notifications."
+          },
+          "renewals": {
+            "title": "Subscription Renewals",
+            "description": "Automate renewals with reminders and seamless payment processing."
+          },
+          "type": "Outbound"
+        },
+        "types": {
+          "inbound": "Inbound",
+          "outbound": "Outbound"
+        }
+      },
+      "howItWorks": {
+        "title": "Get Started in <span className=\"bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent\">5 Easy Steps</span>",
+        "subtitle": "From setup to go-live in under 20 minutes. Our streamlined process gets your AI voice agent ready to handle calls immediately.",
+        "badge": "Simple Setup Process",
+        "step1": {
+          "title": "Train Your Voice Agent",
+          "description": "Customize your voice, scripts, and responses in minutes. Our AI learns from your website and Google Business Profile to accurately represent your brand."
+        },
+        "step2": {
+          "title": "Connect Your Phone System",
+          "description": "Seamlessly integrate SeaVoice with your existing phone setup (SIP/VoIP/PSTN). Forward calls to SeaVoice without changing your business number."
+        },
+        "step3": {
+          "title": "Set Up Call Rules",
+          "description": "Define how SeaVoice handles different call types and when to escalate to your team. Ensure every caller gets the right response."
+        },
+        "step4": {
+          "title": "Go Live",
+          "description": "Activate your AI voice agent and start handling calls. The entire process typically takes less than 20 minutes from start to finish."
+        },
+        "step5": {
+          "title": "24/7 Support & Analytics",
+          "description": "Monitor calls in real-time, receive detailed transcripts, and leverage insights to improve your business. Our support team is always available to help you optimize performance."
+        },
+        "ctaBadge": "Most customers are live within 20 minutes",
+        "liveTime": "Most customers are live within 20 minutes"
+      },
+      "comparison": {
+        "title": "Voice AI vs Human vs Outsourced Services",
+        "subtitle": "See how SeaVoice AI compares to traditional alternatives",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "Full-Time Human",
+        "outsourcedService": "Outsourced Service",
+        "availability": {
+          "feature": "24/7 Availability",
+          "seavoice": "Always on",
+          "human": "9-5 only",
+          "outsourced": "Extra fees"
+        },
+        "callVolume": {
+          "feature": "Call Volume Handling",
+          "seavoice": "500+ concurrent",
+          "human": "1 call at a time",
+          "outsourced": "5-10 concurrent"
+        },
+        "language": {
+          "feature": "Language Support",
+          "seavoice": "30+ languages",
+          "human": "Limited by hire",
+          "outsourced": "Extra $/language"
+        },
+        "emotional": {
+          "feature": "Emotional Intelligence",
+          "seavoice": "Basic empathy",
+          "human": "High",
+          "outsourced": "Agent-dependent"
+        },
+        "compliance": {
+          "feature": "Compliance",
+          "seavoice": "Built-in tools",
+          "human": "Training required",
+          "outsourced": "Training required"
+        },
+        "implementation": {
+          "feature": "Implementation Time",
+          "seavoice": "<1 day",
+          "human": "6-8 week hiring",
+          "outsourced": "2-4 weeks"
+        },
+        "costComparison": "💰 Cost Comparison",
+        "cost": {
+          "monthly": {
+            "feature": "Monthly Cost",
+            "seavoice": "Starts at $30",
+            "human": "$3,397+",
+            "outsourced": "$1,500-$2,500"
+          },
+          "effective": {
+            "feature": "Effective Rate",
+            "seavoice": "$0.12/minute",
+            "human": "$6.79/call",
+            "outsourced": "$3.00-$5.00/call"
+          },
+          "hidden": {
+            "feature": "Hidden Costs",
+            "seavoice": "None",
+            "human": "Benefits ($800+/mo)",
+            "outsourced": "Setup fees"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "Cost Savings vs Human",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "Savings vs Outsourced",
+          "annualSavings": "$40K+",
+          "annualSavingsLabel": "Annual Savings"
+        },
+        "cta": {
+          "title": "Ready to Experience the SeaVoice AI Advantage?",
+          "subtitle": "Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.",
+          "bookDemo": "Book a Demo",
+          "signUp": "Sign Up Now",
+          "description": "Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business."
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "See the dramatic cost savings with SeaVoice AI",
+        "costSavings": "95%",
+        "costSavingsLabel": "Cost Savings vs Human",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "Savings vs Outsourced",
+        "annualSavings": "$40K+",
+        "annualSavingsLabel": "Annual Savings",
+        "features": {
+          "availability": "24/7 Availability",
+          "callVolume": "Call Volume Handling",
+          "language": "Language Support",
+          "emotional": "Emotional Intelligence",
+          "compliance": "Compliance",
+          "implementation": "Implementation Time",
+          "monthlyCost": "Monthly Cost",
+          "effectiveRate": "Effective Rate",
+          "hiddenCosts": "Hidden Costs"
+        },
+        "seavoice": {
+          "availability": "Always on",
+          "callVolume": "500+ concurrent",
+          "language": "30+ languages",
+          "emotional": "Basic empathy",
+          "compliance": "Built-in tools",
+          "implementation": "<1 day",
+          "monthlyCost": "Starts at $30",
+          "effectiveRate": "$0.12/minute",
+          "hiddenCosts": "None"
+        },
+        "human": {
+          "availability": "9-5 only",
+          "callVolume": "1 call at a time",
+          "language": "Limited by hire",
+          "emotional": "High",
+          "compliance": "Training required",
+          "implementation": "6-8 week hiring",
+          "monthlyCost": "$3,397+",
+          "effectiveRate": "$6.79/call",
+          "hiddenCosts": "Benefits ($800+/mo)"
+        },
+        "outsourced": {
+          "availability": "Extra fees",
+          "callVolume": "5-10 concurrent",
+          "language": "Extra $/language",
+          "emotional": "Agent-dependent",
+          "compliance": "Training required",
+          "implementation": "2-4 weeks",
+          "monthlyCost": "$1,500-$2,500",
+          "effectiveRate": "$3.00-$5.00/call",
+          "hiddenCosts": "Setup fees"
+        }
+      },
+      "seachat": {
+        "title": "Capabilities of SeaVoice is brought to you by <span className=\"text-teal-400\">SeaChat</span>",
+        "subtitle": "An omni-channel and multi-modal no-code agent platform",
+        "teamwork": {
+          "title": "One Team, Working Together for You"
+        },
+        "chatAgent": {
+          "title": "Chat AI Agent",
+          "description": "Instant responses across web, mobile, and messaging platforms"
+        },
+        "humanAgent": {
+          "title": "Human Agent",
+          "description": "Seamless handoff for complex queries that need a human touch"
+        },
+        "voiceAgent": {
+          "title": "Voice AI Agent",
+          "description": "Natural phone conversations powered by advanced voice AI"
+        },
+        "learnMore": "Learn more about SeaChat",
+        "teamTitle": "One Team, Working Together for You"
+      },
+      "testimonial": {
+        "quote": "SeaVoice reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "author": "Sarah Johnson",
+        "role": "VP of Customer Success",
+        "company": "TechCorp Inc.",
+        "stat1": "2 weeks",
+        "stat1Label": "Reduced training time",
+        "stat2": "20%",
+        "stat2Label": "Efficiency gain",
+        "stat3": "94%",
+        "stat3Label": "Customer satisfaction",
+        "stat4": "500+",
+        "stat4Label": "Simultaneous calls"
+      },
+      "faq": {
+        "1": {
+          "question": "How does SeaVoice differ from a traditional chatbot?",
+          "answer": "SeaVoice provides real-time voice conversations with advanced AI that can understand context, handle interruptions, and deliver human-like responses over the phone. Unlike text-based chatbots, SeaVoice handles actual voice calls with natural speech patterns."
+        },
+        "2": {
+          "question": "How long does it take to set up?",
+          "answer": "Setup typically takes less than 20 minutes. You can train your voice agent, connect your phone system, set up call rules, and go live in one session."
+        },
+        "3": {
+          "question": "Can callers tell they're speaking with an AI?",
+          "answer": "Our advanced voice technology creates very human-like conversations. While some callers may notice, most find the experience natural and helpful. You can also customize the AI to introduce itself as an AI assistant if preferred."
+        },
+        "4": {
+          "question": "What happens if SeaVoice can't answer a question?",
+          "answer": "SeaVoice is designed to handle escalations gracefully. It can transfer calls to human agents, take messages, schedule callbacks, or direct callers to appropriate resources based on your configured rules."
+        },
+        "5": {
+          "question": "How does pricing work?",
+          "answer": "We offer transparent per-minute pricing. Premium plans include base minutes with additional usage billed per minute. Enterprise plans are customized based on volume and specific needs."
+        },
+        "6": {
+          "question": "Can I customize the AI's voice?",
+          "answer": "Yes! You can choose from multiple voice options, adjust tone and speaking style, and even clone custom voices for Enterprise plans. The AI can be trained to match your brand's communication style."
+        },
+        "7": {
+          "question": "Is SeaVoice multilingual?",
+          "answer": "Yes, SeaVoice supports conversations in over 10 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, and Japanese."
+        },
+        "8": {
+          "question": "What industries benefit most from SeaVoice?",
+          "answer": "SeaVoice works well across industries including healthcare, real estate, hospitality, financial services, e-commerce, professional services, and any business that handles high call volumes or needs 24/7 availability."
+        },
+        "9": {
+          "question": "Can SeaVoice handle emergency calls?",
+          "answer": "While SeaVoice can handle urgent inquiries and escalate appropriately, we recommend maintaining direct emergency protocols. SeaVoice can be configured to immediately transfer emergency-related calls to human operators."
+        },
+        "10": {
+          "question": "Can SeaVoice detect spam calls?",
+          "answer": "Yes, SeaVoice includes built-in spam detection that can identify and filter suspicious calls, protecting your business from unwanted interruptions while ensuring legitimate calls get through."
+        },
+        "11": {
+          "question": "How do I get started?",
+          "answer": "Getting started is easy! Book a demo to see SeaVoice in action, then our team will help you set up your voice agent, integrate with your phone system, and configure it for your specific needs. Most customers are up and running within a day."
+        },
+        "title": "Frequently Asked <br className=\"hidden sm:block\" /><span className=\"bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent\">Questions</span>",
+        "subtitle": "Everything you need to know about SeaVoice AI and how it can transform your business communications",
+        "badge": "Got Questions?",
+        "expandAll": "Expand All Questions",
+        "collapseAll": "Collapse All",
+        "q1": {
+          "question": "How does SeaVoice differ from a traditional chatbot?",
+          "answer": "SeaVoice provides real-time voice conversations with advanced AI that can understand context, handle interruptions, and deliver human-like responses over the phone. Unlike text-based chatbots, SeaVoice handles actual voice calls with natural speech patterns."
+        },
+        "q2": {
+          "question": "How long does it take to set up?",
+          "answer": "Setup typically takes less than 20 minutes. You can train your voice agent, connect your phone system, set up call rules, and go live in one session."
+        },
+        "q3": {
+          "question": "Can callers tell they're speaking with an AI?",
+          "answer": "Our advanced voice technology creates very human-like conversations. While some callers may notice, most find the experience natural and helpful. You can also customize the AI to introduce itself as an AI assistant if preferred."
+        },
+        "q4": {
+          "question": "What happens if SeaVoice can't answer a question?",
+          "answer": "SeaVoice is designed to handle escalations gracefully. It can transfer calls to human agents, take messages, schedule callbacks, or direct callers to appropriate resources based on your configured rules."
+        },
+        "q5": {
+          "question": "How does pricing work?",
+          "answer": "We offer transparent per-minute pricing. Premium plans include base minutes with additional usage billed per minute. Enterprise plans are customized based on volume and specific needs."
+        },
+        "q6": {
+          "question": "Can I customize the AI's voice?",
+          "answer": "Yes! You can choose from multiple voice options, adjust tone and speaking style, and even clone custom voices for Enterprise plans. The AI can be trained to match your brand's communication style."
+        },
+        "q7": {
+          "question": "Is SeaVoice multilingual?",
+          "answer": "Yes, SeaVoice supports conversations in over 10 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, and Japanese."
+        },
+        "q8": {
+          "question": "What industries benefit most from SeaVoice?",
+          "answer": "SeaVoice works well across industries including healthcare, real estate, hospitality, financial services, e-commerce, professional services, and any business that handles high call volumes or needs 24/7 availability."
+        },
+        "q9": {
+          "question": "Can SeaVoice handle emergency calls?",
+          "answer": "While SeaVoice can handle urgent inquiries and escalate appropriately, we recommend maintaining direct emergency protocols. SeaVoice can be configured to immediately transfer emergency-related calls to human operators."
+        },
+        "q10": {
+          "question": "Can SeaVoice detect spam calls?",
+          "answer": "Yes, SeaVoice includes built-in spam detection that can identify and filter suspicious calls, protecting your business from unwanted interruptions while ensuring legitimate calls get through."
+        },
+        "q11": {
+          "question": "How do I get started?",
+          "answer": "Getting started is easy! Book a demo to see SeaVoice in action, then our team will help you set up your voice agent, integrate with your phone system, and configure it for your specific needs. Most customers are up and running within a day."
+        }
+      },
+      "finalCta": {
+        "title": "Ready to see it in action?",
+        "subtitle": "Get a personalized demo and discover how SeaVoice can transform your customer communications",
+        "bookDemo": "Book a Demo Today",
+        "signUp": "Sign Up Now"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "Appointment Booking",
+            "status": "completed",
+            "duration": "3:42",
+            "time": "2 minutes ago",
+            "outcome": "Appointment scheduled for next Tuesday at 2 PM",
+            "tag1": "booking",
+            "tag2": "satisfied"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "Technical Support",
+            "status": "transferred",
+            "duration": "1:28",
+            "time": "5 minutes ago",
+            "outcome": "Transferred to technical specialist - Issue: Login problems",
+            "tag1": "support",
+            "tag2": "escalated"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "Order Inquiry",
+            "status": "completed",
+            "duration": "2:15",
+            "time": "8 minutes ago",
+            "outcome": "Order status provided - Package will arrive tomorrow",
+            "tag1": "inquiry",
+            "tag2": "resolved"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "Billing Question",
+            "status": "in-progress",
+            "duration": "1:03",
+            "time": "Just now",
+            "outcome": "Currently discussing billing discrepancy",
+            "tag1": "billing",
+            "tag2": "active"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "Appointment Booking",
+          "status1": "completed",
+          "duration1": "3:42",
+          "time1": "2 minutes ago",
+          "outcome1": "Appointment scheduled for next Tuesday at 2 PM",
+          "customer2": "Mike Chen",
+          "type2": "Technical Support",
+          "status2": "transferred",
+          "duration2": "1:28",
+          "time2": "5 minutes ago",
+          "outcome2": "Transferred to technical specialist - Issue: Login problems",
+          "customer3": "Emily Rodriguez",
+          "type3": "Order Inquiry",
+          "status3": "completed",
+          "duration3": "2:15",
+          "time3": "8 minutes ago",
+          "outcome3": "Order status provided - Package will arrive tomorrow",
+          "customer4": "David Wilson",
+          "type4": "Billing Question",
+          "status4": "in-progress",
+          "duration4": "1:03",
+          "time4": "Just now",
+          "outcome4": "Currently discussing billing discrepancy"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 weeks",
+          "trainingTimeLabel": "Reduced training time",
+          "efficiency": "20%",
+          "efficiencyLabel": "Efficiency gain",
+          "satisfaction": "94%",
+          "satisfactionLabel": "Customer satisfaction",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "Simultaneous calls"
+        },
+        "quote": "SeaVoice reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "author": "Sarah Johnson",
+        "role": "VP of Customer Success",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "Simple, Transparent Pricing",
+        "subtitle": "Voice AI solutions designed for inbound customer service and outbound campaigns. Built on SeaChat Premium ($29.99) and SeaX Omni-channel ($99) foundations."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "Inbound Only",
+          "tagline": "Perfect for Customer Service",
+          "price": "$29.99",
+          "period": "/month",
+          "description": "Ideal for businesses needing an inbound call solution with Voice AI (based on SeaChat Premium plan)",
+          "features": {
+            "aiCallHandling": "AI-based call handling (inbound calls only)",
+            "voiceAIPrice": "Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
+            "phoneNumber": "Phone number included ($2-$3/month with E911 address)",
+            "callRecording": "Call recording and summary",
+            "transferHuman": "Transfer to human agent support",
+            "multiLanguage": "Multi-language voice support",
+            "sttLanguages": "10+ Speech-To-Text languages",
+            "ttsLanguages": "10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "CRM integrations (Salesforce, HubSpot)",
+            "calendarIntegration": "Calendar integration (Google, Outlook)",
+            "callAnalytics": "Call analytics and reporting",
+            "emailNotifications": "Email notifications for calls"
+          },
+          "limitations": {
+            "noOutbound": "No outbound calling capabilities",
+            "noBulkCampaigns": "No bulk campaign features"
+          },
+          "cta": "Start with Inbound Only",
+          "poweredBy": "Powered by SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "Inbound + Outbound",
+          "tagline": "Scale Your Voice Campaigns",
+          "price": "$99",
+          "period": "/month",
+          "description": "Perfect for large-scale voice AI campaigns (equivalent to SeaX Omni-channel plan for first user)",
+          "badge": "Most Popular",
+          "features": {
+            "everythingInbound": "Everything in Inbound Only plan",
+            "outboundCalling": "Outbound calling and campaigns",
+            "bulkCampaigns": "Bulk voice AI campaigns",
+            "voiceAIPrice": "Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
+            "additionalUsers": "Additional users: $49/month each",
+            "multipleNumbers": "Multiple phone numbers supported",
+            "campaignScheduling": "Campaign scheduling and automation",
+            "advancedRouting": "Advanced call routing",
+            "customVoiceTraining": "Custom voice training",
+            "voicemailDrop": "Voicemail drop capability ($0.05 per drop)",
+            "apiAccess": "RESTful API access",
+            "seachatIntegration": "SeaChat integration for multi-channel support",
+            "advancedAnalytics": "Advanced analytics dashboard",
+            "prioritySupport": "Priority support"
+          },
+          "cta": "Start with Inbound + Outbound",
+          "poweredBy": "Powered by SeaX + SeaChat"
+        },
+        "custom": {
+          "name": "Custom Plan",
+          "tagline": "Enterprise-Grade Solutions",
+          "price": "Contact Us",
+          "period": "",
+          "description": "Bespoke solutions tailored to specific business needs (similar to SeaChat/SeaX Enterprise plans)",
+          "customPriceMessage": "Let's build a project",
+          "features": {
+            "everythingInboundOutbound": "Everything in Inbound + Outbound plan",
+            "multipleWorkspaces": "Multiple workspaces (perfect for agencies)",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "customPricing": "Custom pricing per minute based on volume",
+            "accountManager": "Dedicated account manager",
+            "uptimeSLA": "99.99% uptime SLA",
+            "compliance": "HIPAA/PCI compliance available",
+            "whiteLabel": "White-label solutions",
+            "customAPI": "Custom API integrations",
+            "advancedSecurity": "Advanced security features",
+            "voiceCloning": "Custom voice cloning",
+            "phoneSupport": "Priority phone support",
+            "technicalSupport": "Professional design guidelines and technical support",
+            "onPremise": "On-premise deployment options"
+          },
+          "cta": "Contact Us"
+        }
+      },
+      "productRelationship": {
+        "title": "How SeaVoice Connects with SeaChat & SeaX",
+        "seachatIntegration": {
+          "title": "🔗 SeaChat Integration",
+          "description": "SeaVoice Inbound Only ($29.99/month) is built on SeaChat Premium plan foundations, providing voice AI capabilities for incoming calls at $0.12 per minute.",
+          "subtitle": "Perfect for businesses wanting to add voice AI to their existing SeaChat setup."
+        },
+        "seaxIntegration": {
+          "title": "📞 SeaX Integration",
+          "description": "SeaVoice Inbound + Outbound ($99/month) mirrors SeaX Omni-channel pricing, enabling large-scale voice campaigns with callback handling.",
+          "subtitle": "Ideal for businesses running outbound campaigns who need comprehensive voice AI coverage."
+        },
+        "completePicture": {
+          "title": "✨ The Complete Picture",
+          "description": "All Voice AI calls across SeaChat, SeaX, and SeaVoice use the same $0.12 per minute rate with ChatGPT-4o mini model. When contacts call back after outbound campaigns, SeaVoice seamlessly handles these inbound calls with the same AI intelligence."
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about SeaVoice pricing and features",
+        "question1": "How does SeaVoice pricing relate to SeaChat and SeaX?",
+        "answer1": "SeaVoice Inbound Only plan ($29.99/month) is based on SeaChat Premium plan, focusing on inbound voice AI. The Inbound + Outbound plan ($99/month) mirrors SeaX Omni-channel pricing for comprehensive voice campaigns. All voice AI calls start at $0.12 per minute using ChatGPT-4o mini model.",
+        "question2": "What's the difference between Inbound Only and Inbound + Outbound plans?",
+        "answer2": "Inbound Only ($29.99/month) handles incoming calls with AI, perfect for customer service. Inbound + Outbound ($99/month for first user) adds bulk campaign capabilities and outbound calling, ideal for sales and marketing teams running large-scale voice campaigns.",
+        "question3": "Can I keep my existing business phone numbers?",
+        "answer3": "Yes, you can keep your existing business numbers and forward calls to SeaVoice, or we can provide new numbers. Each phone number costs $2-$3/month with E911 address registration.",
+        "question4": "How much do voice AI calls actually cost?",
+        "answer4": "All voice AI calls start at $0.12 per minute using the ChatGPT-4o mini model. This is the same rate across SeaChat Premium and SeaVoice plans. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on custom plans.",
+        "question5": "What happens when contacts call back after an outbound campaign?",
+        "answer5": "With the Inbound + Outbound plan, when contacts call back after receiving campaign calls, our inbound Voice AI will automatically handle these calls, providing seamless continuity in your customer communications.",
+        "question6": "Can I upgrade from Inbound Only to Inbound + Outbound?",
+        "answer6": "Absolutely! You can upgrade your plan at any time. The upgrade takes effect immediately, and you'll gain access to outbound calling, campaign features, and additional user seats.",
+        "question7": "Do you offer volume discounts for high-usage customers?",
+        "answer7": "Yes, our Custom Plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team to discuss custom pricing that scales with your business needs."
+      },
+      "cta": {
+        "title": "Ready to Get Started?",
+        "subtitle": "Start your free trial today and experience the power of AI voice automation",
+        "signUpFree": "Sign Up For Free",
+        "scheduleDemo": "Schedule Demo"
+      }
+    },
+    "footer": {
+      "description": "Automate 80% of customer calls with AI voice agents that sound human and integrate seamlessly with your business.",
+      "platform": {
+        "title": "Platform",
+        "overview": "Platform Overview",
+        "landlineMobile": "Landline & Mobile Voice",
+        "voipSipByoc": "VoIP & SIP & BYOC Voice",
+        "lineCallPlus": "Line Call Plus for Businesses",
+        "whatsAppVoice": "WhatsApp Voice API for Businesses",
+        "speechToText": "Speech To Text",
+        "textToSpeech": "Text To Speech",
+        "endToEndLlms": "End To End LLMs"
+      },
+      "inboundSolutions": {
+        "title": "Inbound Solutions",
+        "virtualAssistant": "24/7 Virtual Assistant",
+        "callTransfer": "Smart Call Transfer",
+        "ivrReplacement": "IVR Replacement",
+        "mentalHealth": "Mental Health Companion",
+        "scamShield": "Scam Shield Protection",
+        "technicalSupport": "Technical Support",
+        "orderTracking": "Order Status & Tracking",
+        "paymentProcessing": "Payment Processing",
+        "appointmentBooking": "Appointment Booking"
+      },
+      "outboundSolutions": {
+        "title": "Outbound Solutions",
+        "leadGeneration": "Lead Generation & Qualification",
+        "collections": "Collections Service",
+        "reactivation": "Customer Reactivation",
+        "seniorChecks": "Senior Check Calls",
+        "campaigns": "Large Scale Campaigns",
+        "proactiveSupport": "Proactive Support",
+        "renewals": "Subscription Renewals",
+        "surveys": "Customer Surveys",
+        "fraudAlerts": "Fraud Alerts"
+      },
+      "company": {
+        "title": "Company",
+        "pricing": "Pricing",
+        "productWiki": "Product Wiki",
+        "apiReferences": "API References"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
+      },
+      "stats": {
+        "callsHandled": "1M+ Calls Handled",
+        "activeAgents": "50K+ Active Agents",
+        "uptime": "99.99% Uptime"
+      },
+      "cta": {
+        "title": "Ready to Automate 80% of Your Customer Calls?",
+        "description": "Join hundreds of businesses using SeaVoice AI agents to handle customer calls 24/7, reduce costs, and improve customer satisfaction.",
+        "getStartedFree": "Get Started Free",
+        "bookDemo": "Book a Demo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "Monthly Price Calculator",
+        "subtitle": "Calculate your exact monthly cost based on your usage needs. All pricing is for USA/Canada with phone charges included."
+      },
+      "configure": {
+        "title": "Configure Your Plan"
+      },
+      "planType": {
+        "label": "1. Choose Your Plan Type",
+        "inbound": {
+          "title": "Inbound Only - $29.99/month",
+          "description": "Perfect for customer service"
+        },
+        "inboundOutbound": {
+          "title": "Inbound + Outbound - $99/month",
+          "description": "Scale your voice campaigns"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. Phone Numbers (with E911 address)",
+        "local": {
+          "label": "Local Numbers ($2/month each)"
+        },
+        "tollFree": {
+          "label": "Toll-Free Numbers ($3/month each)"
+        }
+      },
+      "voiceAI": {
+        "label": "3. Voice AI Minutes ($0.12/minute - ChatGPT-4o mini)",
+        "range": {
+          "min": "0 min",
+          "max": "5,000 min",
+          "current": "minutes"
+        }
+      },
+      "humanAgent": {
+        "label": "4. Human Agent Minutes ($0.015/minute)",
+        "range": {
+          "min": "0 min",
+          "max": "2,000 min",
+          "current": "minutes"
+        }
+      },
+      "breakdown": {
+        "title": "Monthly Cost Breakdown",
+        "inboundPlan": "Inbound Only Plan",
+        "inboundOutboundPlan": "Inbound + Outbound Plan",
+        "phoneNumbersTitle": "Phone Numbers",
+        "phoneNumbers": {
+          "local": "local",
+          "tollFree": "toll-free"
+        },
+        "voiceAI": {
+          "title": "Voice AI Minutes",
+          "calculation": "min × $0.12"
+        },
+        "humanAgent": {
+          "title": "Human Agent Minutes",
+          "calculation": "min × $0.015"
+        },
+        "total": "Total Monthly Cost"
+      },
+      "features": {
+        "usaCanada": "USA/Canada coverage included",
+        "phoneCharges": "All phone charges included",
+        "e911": "E911 address registration included",
+        "recording": "Call recording and analytics",
+        "outboundCampaigns": "Outbound campaigns and bulk calling"
+      },
+      "cta": {
+        "getStartedInbound": "Get Started with Inbound Only",
+        "getStartedInboundOutbound": "Get Started with Inbound + Outbound",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "notes": {
+        "title": "Important Notes",
+        "usaCanadaOnly": "Pricing shown is for USA/Canada only",
+        "phoneChargesIncluded": "All phone call charges are included in the rates shown",
+        "voiceAIModel": "Voice AI uses ChatGPT-4o mini model at $0.12/minute",
+        "humanAgentMinutes": "Human agent minutes are for call transfers and direct calls"
+      }
+    }
   }
 }

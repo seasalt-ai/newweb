@@ -57,63 +57,63 @@ const Header = () => {
   const [mobileOutboundCollapsed, setMobileOutboundCollapsed] = useState(true);
   const location = useLocation();
   const navigate = useNavigate();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
 
   const inboundSolutions = [
-    { name: '24/7 Virtual Assistant', href: `/${i18n.language}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
-    { name: 'Smart Call Transfer', href: `/${i18n.language}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
-    { name: 'IVR Replacement', href: `/${i18n.language}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
-    { name: 'Mental Health Companion', href: `/${i18n.language}/seavoice/solutions/inbound/mental-health`, icon: Heart },
-    { name: 'Scam Shield Protection', href: `/${i18n.language}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
-    { name: 'Technical Support', href: `/${i18n.language}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
-    { name: 'Order Status & Tracking', href: `/${i18n.language}/seavoice/solutions/inbound/order-tracking`, icon: Package },
-    { name: 'Payment Processing', href: `/${i18n.language}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
-    { name: 'Appointment Booking', href: `/${i18n.language}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
+    { name: t('seavoice.header.navigation.inboundSolutions.virtualAssistant'), href: `/${i18n.language}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
+    { name: t('seavoice.header.navigation.inboundSolutions.callTransfer'), href: `/${i18n.language}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
+    { name: t('seavoice.header.navigation.inboundSolutions.ivrReplacement'), href: `/${i18n.language}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
+    { name: t('seavoice.header.navigation.inboundSolutions.mentalHealth'), href: `/${i18n.language}/seavoice/solutions/inbound/mental-health`, icon: Heart },
+    { name: t('seavoice.header.navigation.inboundSolutions.scamShield'), href: `/${i18n.language}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
+    { name: t('seavoice.header.navigation.inboundSolutions.technicalSupport'), href: `/${i18n.language}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
+    { name: t('seavoice.header.navigation.inboundSolutions.orderTracking'), href: `/${i18n.language}/seavoice/solutions/inbound/order-tracking`, icon: Package },
+    { name: t('seavoice.header.navigation.inboundSolutions.paymentProcessing'), href: `/${i18n.language}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
+    { name: t('seavoice.header.navigation.inboundSolutions.appointmentBooking'), href: `/${i18n.language}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
   ];
 
   const outboundSolutions = [
-    { name: 'Lead Generation & Qualification', href: `/${i18n.language}/seavoice/solutions/outbound/lead-generation`, icon: Target },
-    { name: 'Collections Service', href: `/${i18n.language}/seavoice/solutions/outbound/collections`, icon: DollarSign },
-    { name: 'Customer Reactivation', href: `/${i18n.language}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
-    { name: 'Senior Check Calls', href: `/${i18n.language}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
-    { name: 'Large Scale Campaigns', href: `/${i18n.language}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
-    { name: 'Proactive Support', href: `/${i18n.language}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
-    { name: 'Subscription Renewals', href: `/${i18n.language}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
-    { name: 'Customer Surveys', href: `/${i18n.language}/seavoice/solutions/outbound/surveys`, icon: FileText },
-    { name: 'Fraud Alerts', href: `/${i18n.language}/seavoice/solutions/outbound/fraud-alerts`, icon: AlertTriangle },
+    { name: t('seavoice.header.navigation.outboundSolutions.leadGeneration'), href: `/${i18n.language}/seavoice/solutions/outbound/lead-generation`, icon: Target },
+    { name: t('seavoice.header.navigation.outboundSolutions.collections'), href: `/${i18n.language}/seavoice/solutions/outbound/collections`, icon: DollarSign },
+    { name: t('seavoice.header.navigation.outboundSolutions.reactivation'), href: `/${i18n.language}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
+    { name: t('seavoice.header.navigation.outboundSolutions.seniorChecks'), href: `/${i18n.language}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
+    { name: t('seavoice.header.navigation.outboundSolutions.campaigns'), href: `/${i18n.language}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
+    { name: t('seavoice.header.navigation.outboundSolutions.proactiveSupport'), href: `/${i18n.language}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
+    { name: t('seavoice.header.navigation.outboundSolutions.renewals'), href: `/${i18n.language}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
+    { name: t('seavoice.header.navigation.outboundSolutions.surveys'), href: `/${i18n.language}/seavoice/solutions/outbound/surveys`, icon: FileText },
+    { name: t('seavoice.header.navigation.outboundSolutions.fraudAlerts'), href: `/${i18n.language}/seavoice/solutions/outbound/fraud-alerts`, icon: AlertTriangle },
   ];
 
 
   const navigation = [
     { 
-      name: 'Platform', 
+      name: t('seavoice.header.navigation.platform.title'), 
       href: `/${i18n.language}/seavoice/platform`,
       hasDropdown: true,
       dropdownItems: [
-        { name: 'Platform Overview', href: `/${i18n.language}/seavoice/platform`, icon: Monitor },
-        { name: 'Landline & Mobile Voice', href: `/${i18n.language}/seavoice/platform/landline-mobile`, icon: Phone },
-        { name: 'VoIP & SIP & BYOC Voice', href: `/${i18n.language}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
-        { name: 'Line Call Plus for Businesses', href: `/${i18n.language}/seavoice/platform/line-call-plus`, icon: PhoneCall },
-        { name: 'WhatsApp Voice API for Businesses', href: `/${i18n.language}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
-        { name: 'Speech To Text', href: `/${i18n.language}/seavoice/platform/speech-to-text`, icon: AudioLines },
-        { name: 'Text To Speech', href: `/${i18n.language}/seavoice/platform/text-to-speech`, icon: Volume2 },
-        { name: 'End To End LLMs', href: `/${i18n.language}/seavoice/platform/end-to-end-llms`, icon: Brain },
+        { name: t('seavoice.header.navigation.platform.overview'), href: `/${i18n.language}/seavoice/platform`, icon: Monitor },
+        { name: t('seavoice.header.navigation.platform.landlineMobile'), href: `/${i18n.language}/seavoice/platform/landline-mobile`, icon: Phone },
+        { name: t('seavoice.header.navigation.platform.voipSipByoc'), href: `/${i18n.language}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
+        { name: t('seavoice.header.navigation.platform.lineCallPlus'), href: `/${i18n.language}/seavoice/platform/line-call-plus`, icon: PhoneCall },
+        { name: t('seavoice.header.navigation.platform.whatsAppVoice'), href: `/${i18n.language}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
+        { name: t('seavoice.header.navigation.platform.speechToText'), href: `/${i18n.language}/seavoice/platform/speech-to-text`, icon: AudioLines },
+        { name: t('seavoice.header.navigation.platform.textToSpeech'), href: `/${i18n.language}/seavoice/platform/text-to-speech`, icon: Volume2 },
+        { name: t('seavoice.header.navigation.platform.endToEndLlms'), href: `/${i18n.language}/seavoice/platform/end-to-end-llms`, icon: Brain },
       ]
     },
     { 
-      name: 'Inbound Solutions', 
+      name: t('seavoice.header.navigation.inboundSolutions.title'), 
       href: `/${i18n.language}/seavoice/solutions`,
       hasDropdown: true,
       dropdownItems: inboundSolutions
     },
     { 
-      name: 'Outbound Solutions', 
+      name: t('seavoice.header.navigation.outboundSolutions.title'), 
       href: `/${i18n.language}/seavoice/solutions`,
       hasDropdown: true,
       dropdownItems: outboundSolutions
     },
-    { name: 'Pricing', href: `/${i18n.language}/seavoice/pricing` },
+    { name: t('seavoice.header.navigation.pricing'), href: `/${i18n.language}/seavoice/pricing` },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -161,14 +161,14 @@ const Header = () => {
                 key={item.name}
                 className="relative"
                 onMouseEnter={() => {
-                  if (item.name === 'Platform') setIsPlatformOpen(true);
-                  if (item.name === 'Inbound Solutions') setIsInboundSolutionsOpen(true);
-                  if (item.name === 'Outbound Solutions') setIsOutboundSolutionsOpen(true);
+                  if (item.name === t('seavoice.header.navigation.platform.title')) setIsPlatformOpen(true);
+                  if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setIsInboundSolutionsOpen(true);
+                  if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setIsOutboundSolutionsOpen(true);
                 }}
                 onMouseLeave={() => {
-                  if (item.name === 'Platform') setIsPlatformOpen(false);
-                  if (item.name === 'Inbound Solutions') setIsInboundSolutionsOpen(false);
-                  if (item.name === 'Outbound Solutions') setIsOutboundSolutionsOpen(false);
+                  if (item.name === t('seavoice.header.navigation.platform.title')) setIsPlatformOpen(false);
+                  if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setIsInboundSolutionsOpen(false);
+                  if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setIsOutboundSolutionsOpen(false);
                 }}
               >
                 <Link
@@ -186,7 +186,7 @@ const Header = () => {
                 </Link>
                 
                 {/* Platform Dropdown */}
-                {item.name === 'Platform' && item.hasDropdown && isPlatformOpen && (
+                {item.name === t('seavoice.header.navigation.platform.title') && item.hasDropdown && isPlatformOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -211,7 +211,7 @@ const Header = () => {
                 )}
 
                 {/* Inbound Solutions Dropdown */}
-                {item.name === 'Inbound Solutions' && item.hasDropdown && isInboundSolutionsOpen && (
+                {item.name === t('seavoice.header.navigation.inboundSolutions.title') && item.hasDropdown && isInboundSolutionsOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -223,7 +223,7 @@ const Header = () => {
                     <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
                       <div className="flex items-center mb-3 pb-2 border-b border-gray-100 px-4">
                         <PhoneIncoming className="w-4 h-4 text-blue-600 mr-2" />
-                        <h3 className="text-sm font-semibold text-gray-900">Inbound Solutions</h3>
+                        <h3 className="text-sm font-semibold text-gray-900">{t('seavoice.header.navigation.inboundSolutions.title')}</h3>
                       </div>
                       {item.dropdownItems?.map((dropdownItem) => (
                         <Link
@@ -240,7 +240,7 @@ const Header = () => {
                 )}
 
                 {/* Outbound Solutions Dropdown */}
-                {item.name === 'Outbound Solutions' && item.hasDropdown && isOutboundSolutionsOpen && (
+                {item.name === t('seavoice.header.navigation.outboundSolutions.title') && item.hasDropdown && isOutboundSolutionsOpen && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -252,7 +252,7 @@ const Header = () => {
                     <div className="bg-white rounded-lg shadow-xl border border-gray-200 py-2">
                       <div className="flex items-center mb-3 pb-2 border-b border-gray-100 px-4">
                         <PhoneOutgoing className="w-4 h-4 text-teal-600 mr-2" />
-                        <h3 className="text-sm font-semibold text-gray-900">Outbound Solutions</h3>
+                        <h3 className="text-sm font-semibold text-gray-900">{t('seavoice.header.navigation.outboundSolutions.title')}</h3>
                       </div>
                       {item.dropdownItems?.map((dropdownItem) => (
                         <Link
@@ -279,13 +279,13 @@ const Header = () => {
               href="https://chat.seasalt.ai/gpt/signin"
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
-              Sign In
+              {t('seavoice.header.auth.signIn')}
             </a>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
               className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-medium transition-all transform hover:scale-105"
             >
-              Get Started
+              {t('seavoice.header.auth.getStarted')}
             </a>
           </div>
 
@@ -315,13 +315,13 @@ const Header = () => {
                   href="https://chat.seasalt.ai/gpt/signin"
                   className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
                 >
-                  Sign In
+                  {t('seavoice.header.auth.signIn')}
                 </a>
                 <a
                   href="https://chat.seasalt.ai/gpt/signup"
                   className="w-full block text-center bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
-                  Get Started
+                  {t('seavoice.header.auth.getStarted')}
                 </a>
               </div>
 
@@ -333,7 +333,7 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
-                  Back to Main Site
+                  {t('seavoice.header.backToMainSite')}
                 </Link>
               </div>
 
@@ -344,21 +344,21 @@ const Header = () => {
                     {/* Collapsible header for mobile */}
                     <button
                       onClick={() => {
-                        if (item.name === 'Platform') setMobilePlatformCollapsed(!mobilePlatformCollapsed);
-                        if (item.name === 'Inbound Solutions') setMobileInboundCollapsed(!mobileInboundCollapsed);
-                        if (item.name === 'Outbound Solutions') setMobileOutboundCollapsed(!mobileOutboundCollapsed);
+                        if (item.name === t('seavoice.header.navigation.platform.title')) setMobilePlatformCollapsed(!mobilePlatformCollapsed);
+                        if (item.name === t('seavoice.header.navigation.inboundSolutions.title')) setMobileInboundCollapsed(!mobileInboundCollapsed);
+                        if (item.name === t('seavoice.header.navigation.outboundSolutions.title')) setMobileOutboundCollapsed(!mobileOutboundCollapsed);
                       }}
                       className="w-full flex items-center justify-between px-3 py-2 text-base font-semibold text-gray-900 hover:text-blue-600"
                     >
                       <span>{item.name}</span>
                       <ChevronDown 
                         className={`w-4 h-4 transition-transform duration-200 ${
-                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
-                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
-                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
                             ? 'transform rotate-180' 
                             : ''
-                        }`} 
+                        }`}
                       />
                     </button>
                     
@@ -367,15 +367,15 @@ const Header = () => {
                       initial={false}
                       animate={{ 
                         height: 
-                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
-                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
-                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
                             ? 'auto' 
                             : 0,
                         opacity: 
-                          (item.name === 'Platform' && !mobilePlatformCollapsed) ||
-                          (item.name === 'Inbound Solutions' && !mobileInboundCollapsed) ||
-                          (item.name === 'Outbound Solutions' && !mobileOutboundCollapsed)
+                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
+                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
                             ? 1 
                             : 0
                       }}

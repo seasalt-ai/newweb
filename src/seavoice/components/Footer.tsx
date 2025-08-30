@@ -25,47 +25,47 @@ const Footer = () => {
   };
   
   const platformLinks = [
-    { name: 'Platform Overview', href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
-    { name: 'Landline & Mobile Voice', href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
-    { name: 'VoIP & SIP & BYOC Voice', href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
-    { name: 'Line Call Plus for Businesses', href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: PhoneCall },
-    { name: 'WhatsApp Voice API for Businesses', href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
-    { name: 'Speech To Text', href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: AudioLines },
-    { name: 'Text To Speech', href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Volume2 },
-    { name: 'End To End LLMs', href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain },
+    { name: t('seavoice.footer.platform.overview'), href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
+    { name: t('seavoice.footer.platform.landlineMobile'), href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
+    { name: t('seavoice.footer.platform.voipSipByoc'), href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
+    { name: t('seavoice.footer.platform.lineCallPlus'), href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: PhoneCall },
+    { name: t('seavoice.footer.platform.whatsAppVoice'), href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
+    { name: t('seavoice.footer.platform.speechToText'), href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: AudioLines },
+    { name: t('seavoice.footer.platform.textToSpeech'), href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Volume2 },
+    { name: t('seavoice.footer.platform.endToEndLlms'), href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain },
   ];
 
   const inboundSolutionsLinks = [
-    { name: '24/7 Virtual Assistant', href: `/${currentLanguage}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
-    { name: 'Smart Call Transfer', href: `/${currentLanguage}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
-    { name: 'IVR Replacement', href: `/${currentLanguage}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
-    { name: 'Mental Health Companion', href: `/${currentLanguage}/seavoice/solutions/inbound/mental-health`, icon: Heart },
-    { name: 'Scam Shield Protection', href: `/${currentLanguage}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
-    { name: 'Technical Support', href: `/${currentLanguage}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
-    { name: 'Order Status & Tracking', href: `/${currentLanguage}/seavoice/solutions/inbound/order-tracking`, icon: Package },
-    { name: 'Payment Processing', href: `/${currentLanguage}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
-    { name: 'Appointment Booking', href: `/${currentLanguage}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
+    { name: t('seavoice.footer.inboundSolutions.virtualAssistant'), href: `/${currentLanguage}/seavoice/solutions/inbound/virtual-assistant`, icon: Bot },
+    { name: t('seavoice.footer.inboundSolutions.callTransfer'), href: `/${currentLanguage}/seavoice/solutions/inbound/call-transfer`, icon: ArrowRightLeft },
+    { name: t('seavoice.footer.inboundSolutions.ivrReplacement'), href: `/${currentLanguage}/seavoice/solutions/inbound/ivr-replacement`, icon: Zap },
+    { name: t('seavoice.footer.inboundSolutions.mentalHealth'), href: `/${currentLanguage}/seavoice/solutions/inbound/mental-health`, icon: Heart },
+    { name: t('seavoice.footer.inboundSolutions.scamShield'), href: `/${currentLanguage}/seavoice/solutions/inbound/scam-shield`, icon: Shield },
+    { name: t('seavoice.footer.inboundSolutions.technicalSupport'), href: `/${currentLanguage}/seavoice/solutions/inbound/technical-support`, icon: Headphones },
+    { name: t('seavoice.footer.inboundSolutions.orderTracking'), href: `/${currentLanguage}/seavoice/solutions/inbound/order-tracking`, icon: Package },
+    { name: t('seavoice.footer.inboundSolutions.paymentProcessing'), href: `/${currentLanguage}/seavoice/solutions/inbound/payment-processing`, icon: CreditCard },
+    { name: t('seavoice.footer.inboundSolutions.appointmentBooking'), href: `/${currentLanguage}/seavoice/solutions/inbound/appointment-booking`, icon: Calendar },
   ];
 
   const outboundSolutionsLinks = [
-    { name: 'Lead Generation & Qualification', href: `/${currentLanguage}/seavoice/solutions/outbound/lead-generation`, icon: Target },
-    { name: 'Collections Service', href: `/${currentLanguage}/seavoice/solutions/outbound/collections`, icon: DollarSign },
-    { name: 'Customer Reactivation', href: `/${currentLanguage}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
-    { name: 'Senior Check Calls', href: `/${currentLanguage}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
-    { name: 'Large Scale Campaigns', href: `/${currentLanguage}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
-    { name: 'Proactive Support', href: `/${currentLanguage}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
-    { name: 'Subscription Renewals', href: `/${currentLanguage}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
-    { name: 'Customer Surveys', href: `/${currentLanguage}/seavoice/solutions/outbound/surveys`, icon: Mail },
-    { name: 'Fraud Alerts', href: `/${currentLanguage}/seavoice/solutions/outbound/fraud-alerts`, icon: Shield },
+    { name: t('seavoice.footer.outboundSolutions.leadGeneration'), href: `/${currentLanguage}/seavoice/solutions/outbound/lead-generation`, icon: Target },
+    { name: t('seavoice.footer.outboundSolutions.collections'), href: `/${currentLanguage}/seavoice/solutions/outbound/collections`, icon: DollarSign },
+    { name: t('seavoice.footer.outboundSolutions.reactivation'), href: `/${currentLanguage}/seavoice/solutions/outbound/reactivation`, icon: UserCheck },
+    { name: t('seavoice.footer.outboundSolutions.seniorChecks'), href: `/${currentLanguage}/seavoice/solutions/outbound/senior-checks`, icon: Clock },
+    { name: t('seavoice.footer.outboundSolutions.campaigns'), href: `/${currentLanguage}/seavoice/solutions/outbound/campaigns`, icon: Megaphone },
+    { name: t('seavoice.footer.outboundSolutions.proactiveSupport'), href: `/${currentLanguage}/seavoice/solutions/outbound/proactive-support`, icon: Headset },
+    { name: t('seavoice.footer.outboundSolutions.renewals'), href: `/${currentLanguage}/seavoice/solutions/outbound/renewals`, icon: RefreshCw },
+    { name: t('seavoice.footer.outboundSolutions.surveys'), href: `/${currentLanguage}/seavoice/solutions/outbound/surveys`, icon: Mail },
+    { name: t('seavoice.footer.outboundSolutions.fraudAlerts'), href: `/${currentLanguage}/seavoice/solutions/outbound/fraud-alerts`, icon: Shield },
   ];
 
   const companyLinks = [
     { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
-    { name: 'Pricing', href: `/${currentLanguage}/seavoice/pricing`, icon: DollarSign },
+    { name: t('seavoice.footer.company.pricing'), href: `/${currentLanguage}/seavoice/pricing`, icon: DollarSign },
     { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
-    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai', icon: Book },
-    { name: 'API References', href: 'https://api.seasalt.ai', icon: Server },
-    { name: 'Careers', href: `/${currentLanguage}/careers`, icon: Briefcase },
+    { name: t('seavoice.footer.company.productWiki'), href: 'https://wiki.seasalt.ai', icon: Book },
+    { name: t('seavoice.footer.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
+    { name: t('footer.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
     { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 },
   ];
 
@@ -83,7 +83,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-gray-400 mb-6">
-              Automate 80% of customer calls with AI voice agents that sound human and integrate seamlessly with your business.
+              {t('seavoice.footer.description')}
             </p>
             
             {/* Contact Information */}
@@ -123,7 +123,7 @@ const Footer = () => {
           <div>
             {/* Desktop: Regular heading */}
             <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
-              Platform
+              {t('seavoice.footer.platform.title')}
             </h3>
             
             {/* Mobile: Collapsible heading */}
@@ -131,7 +131,7 @@ const Footer = () => {
               onClick={() => toggleMobileSection('platform')}
               className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
             >
-              Platform
+              {t('seavoice.footer.platform.title')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.platform ? '' : 'rotate-180'}`} />
             </button>
             
@@ -182,7 +182,7 @@ const Footer = () => {
           <div>
             {/* Desktop: Regular heading */}
             <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
-              Inbound Solutions
+              {t('seavoice.footer.inboundSolutions.title')}
             </h3>
             
             {/* Mobile: Collapsible heading */}
@@ -190,7 +190,7 @@ const Footer = () => {
               onClick={() => toggleMobileSection('inboundSolutions')}
               className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
             >
-              Inbound Solutions
+              {t('seavoice.footer.inboundSolutions.title')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.inboundSolutions ? '' : 'rotate-180'}`} />
             </button>
             
@@ -241,7 +241,7 @@ const Footer = () => {
           <div>
             {/* Desktop: Regular heading */}
             <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
-              Outbound Solutions
+              {t('seavoice.footer.outboundSolutions.title')}
             </h3>
             
             {/* Mobile: Collapsible heading */}
@@ -249,7 +249,7 @@ const Footer = () => {
               onClick={() => toggleMobileSection('outboundSolutions')}
               className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
             >
-              Outbound Solutions
+              {t('seavoice.footer.outboundSolutions.title')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.outboundSolutions ? '' : 'rotate-180'}`} />
             </button>
             
@@ -300,7 +300,7 @@ const Footer = () => {
           <div>
             {/* Desktop: Regular heading */}
             <h3 className="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
-              Company
+              {t('seavoice.footer.company.title')}
             </h3>
             
             {/* Mobile: Collapsible heading */}
@@ -308,7 +308,7 @@ const Footer = () => {
               onClick={() => toggleMobileSection('company')}
               className="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left"
             >
-              Company
+              {t('seavoice.footer.company.title')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.company ? '' : 'rotate-180'}`} />
             </button>
             
@@ -386,14 +386,14 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
               <p className="text-gray-300 text-sm">
-                © 2020 - {new Date().getFullYear()} Seasalt.ai. All rights reserved.
+                {t('seavoice.footer.legal.copyright', { year: new Date().getFullYear() })}
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
                 <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Privacy Policy
+                  {t('seavoice.footer.legal.privacyPolicy')}
                 </Link>
                 <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Terms of Service
+                  {t('seavoice.footer.legal.termsOfService')}
                 </Link>
               </div>
             </div>
@@ -402,15 +402,15 @@ const Footer = () => {
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
               <span className="flex items-center">
                 <PhoneCall className="w-4 h-4 mr-1" />
-                1M+ Calls Handled
+                {t('seavoice.footer.stats.callsHandled')}
               </span>
               <span className="flex items-center">
                 <Users className="w-4 h-4 mr-1" />
-                50K+ Active Agents
+                {t('seavoice.footer.stats.activeAgents')}
               </span>
               <span className="flex items-center">
                 <Activity className="w-4 h-4 mr-1" />
-                99.99% Uptime
+                {t('seavoice.footer.stats.uptime')}
               </span>
             </div>
           </div>
@@ -432,23 +432,23 @@ const Footer = () => {
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
-            Ready to Automate 80% of Your Customer Calls?
+            {t('seavoice.footer.cta.title')}
           </h3>
           <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
-            Join hundreds of businesses using SeaVoice AI agents to handle customer calls 24/7, reduce costs, and improve customer satisfaction.
+            {t('seavoice.footer.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
               href="https://chat.seasalt.ai/gpt/signup"
               className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Get Started Free
+              {t('seavoice.footer.cta.getStartedFree')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Book a Demo
+              {t('seavoice.footer.cta.bookDemo')}
             </a>
           </div>
         </div>
