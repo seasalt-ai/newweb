@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2, ChevronDown } from 'lucide-react';
+import { Linkedin, Twitter, Youtube, Mail, Phone, MapPin, Heart, Coffee, Umbrella, Plane, Gem, PhoneCall, Users, Activity, Monitor, Wifi, MessageSquare, Mic, MicOff, Brain, Bot, ArrowRightLeft, Zap, Shield, Headphones, Package, CreditCard, Calendar, Target, DollarSign, UserCheck, Clock, Megaphone, Headset, RefreshCw, BarChart3, Book, Server, Briefcase, Building2, ChevronDown, Volume2, AudioLines, MessageCircle } from 'lucide-react';
 import { FaDiscord } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
@@ -28,10 +28,10 @@ const Footer = () => {
     { name: 'Platform Overview', href: `/${currentLanguage}/seavoice/platform`, icon: Monitor },
     { name: 'Landline & Mobile Voice', href: `/${currentLanguage}/seavoice/platform/landline-mobile`, icon: Phone },
     { name: 'VoIP & SIP & BYOC Voice', href: `/${currentLanguage}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
-    { name: 'Line Call Plus for Businesses', href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: MessageSquare },
-    { name: 'WhatsApp Voice API for Businesses', href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
-    { name: 'Speech To Text', href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: MicOff },
-    { name: 'Text To Speech', href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Mic },
+    { name: 'Line Call Plus for Businesses', href: `/${currentLanguage}/seavoice/platform/line-call-plus`, icon: PhoneCall },
+    { name: 'WhatsApp Voice API for Businesses', href: `/${currentLanguage}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
+    { name: 'Speech To Text', href: `/${currentLanguage}/seavoice/platform/speech-to-text`, icon: AudioLines },
+    { name: 'Text To Speech', href: `/${currentLanguage}/seavoice/platform/text-to-speech`, icon: Volume2 },
     { name: 'End To End LLMs', href: `/${currentLanguage}/seavoice/platform/end-to-end-llms`, icon: Brain },
   ];
 

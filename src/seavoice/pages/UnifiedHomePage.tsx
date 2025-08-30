@@ -1080,6 +1080,9 @@ const UnifiedHomePage = () => {
         </div>
       </section>
 
+      {/* Interactive Call Dashboard */}
+      <InteractiveCallDashboard />
+
       {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-slate-100 relative">
         {/* Background decorative elements */}
@@ -1165,43 +1168,8 @@ const UnifiedHomePage = () => {
               </motion.div>
             ))}
           </div>
-          
-          {/* Additional CTA */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            viewport={{ once: true }}
-            className="text-center mt-16"
-          >
-            <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">Still have questions?</h3>
-              <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-                Our team is here to help you understand how SeaVoice can work for your specific business needs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href={getMeetingUrl(i18n.language)} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                >
-                  Schedule a Call
-                </a>
-                <a 
-                  href="mailto:seax@seasalt.ai" 
-                  className="bg-white/10 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/20 transition-colors"
-                >
-                  Email Support
-                </a>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
-
-      {/* Interactive Call Dashboard */}
-      <InteractiveCallDashboard />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">

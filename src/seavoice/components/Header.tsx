@@ -30,7 +30,12 @@ import {
   Headset,
   RefreshCw,
   FileText,
-  AlertTriangle
+  AlertTriangle,
+  PhoneCall,
+  Volume2,
+  VolumeX,
+  AudioLines,
+  MessageCircle
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
@@ -89,10 +94,10 @@ const Header = () => {
         { name: 'Platform Overview', href: `/${i18n.language}/seavoice/platform`, icon: Monitor },
         { name: 'Landline & Mobile Voice', href: `/${i18n.language}/seavoice/platform/landline-mobile`, icon: Phone },
         { name: 'VoIP & SIP & BYOC Voice', href: `/${i18n.language}/seavoice/platform/voip-sip-byoc`, icon: Wifi },
-        { name: 'Line Call Plus for Businesses', href: `/${i18n.language}/seavoice/platform/line-call-plus`, icon: MessageSquare },
-        { name: 'WhatsApp Voice API for Businesses', href: `/${i18n.language}/seavoice/platform/whatsapp-voice`, icon: MessageSquare },
-        { name: 'Speech To Text', href: `/${i18n.language}/seavoice/platform/speech-to-text`, icon: MicOff },
-        { name: 'Text To Speech', href: `/${i18n.language}/seavoice/platform/text-to-speech`, icon: Mic },
+        { name: 'Line Call Plus for Businesses', href: `/${i18n.language}/seavoice/platform/line-call-plus`, icon: PhoneCall },
+        { name: 'WhatsApp Voice API for Businesses', href: `/${i18n.language}/seavoice/platform/whatsapp-voice`, icon: MessageCircle },
+        { name: 'Speech To Text', href: `/${i18n.language}/seavoice/platform/speech-to-text`, icon: AudioLines },
+        { name: 'Text To Speech', href: `/${i18n.language}/seavoice/platform/text-to-speech`, icon: Volume2 },
         { name: 'End To End LLMs', href: `/${i18n.language}/seavoice/platform/end-to-end-llms`, icon: Brain },
       ]
     },
