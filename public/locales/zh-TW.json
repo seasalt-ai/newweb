@@ -2988,6 +2988,38 @@
             "description": "在支援對話中存取完整的客戶歷史記錄"
           }
         },
+        "features": [
+          {
+            "title": "無縫資料同步",
+            "description": "自動同步客戶聯絡資訊、對話歷史和互動記錄",
+            "icon": "sync"
+          },
+          {
+            "title": "潛在客戶自動化",
+            "description": "將支援對話自動轉化為CRM中的合格潛在客戶",
+            "icon": "users"
+          },
+          {
+            "title": "智能路由",
+            "description": "根據CRM資料智能將客戶路由至正確的銷售或支援團隊",
+            "icon": "route"
+          },
+          {
+            "title": "統一客戶檢視",
+            "description": "在支援對話中即時存取完整的客戶歷史和交易記錄",
+            "icon": "eye"
+          },
+          {
+            "title": "活動觸發",
+            "description": "基於客戶互動自動觸發CRM工作流程和行銷活動",
+            "icon": "zap"
+          },
+          {
+            "title": "報告與分析",
+            "description": "跨平台的統一報告，深入了解客戶生命週期和轉換指標",
+            "icon": "chart"
+          }
+        ],
         "workflow": {
           "connect": {
             "title": "連接您的 CRM",
@@ -3148,9 +3180,23 @@
         "ctaTitle": "準備好自動化您的排程了嗎？",
         "customer": "客戶",
         "customerChoice": "週二下午 2 點很完美！",
+        "customerRequest": "\"我想預約下週的產品示範\"",
         "demoButton": "預約排程示範",
         "exampleTitle": "排程範例",
+        "features": [
+          "即時空閒狀況同步",
+          "自動預約確認",
+          "行事曆邀請產生",
+          "提醒通知",
+          "多時區支援",
+          "定期約會處理"
+        ],
         "flow": {
+          "request": {
+            "description": "客戶要求安排會議或約會",
+            "example": "我想預約下週的產品示範",
+            "title": "客戶要求"
+          },
           "availability": {
             "description": "系統檢查即時行事曆空閒情況",
             "example": "可用時段：週二下午 2 點，週三上午 10 點，週四下午 3 點",
@@ -3165,10 +3211,6 @@
             "description": "自動傳送提醒和確認",
             "example": "24 小時提醒 + 會議連結 + 準備資料",
             "title": "自動後續追蹤"
-          },
-          "request": {
-            "description": "客戶要求安排會議或約會",
-            "title": "客戶要求"
           }
         },
         "flowSubtitle": "了解在客戶對話中無縫預約的運作方式。",
@@ -3286,6 +3328,8 @@
         "platformsSubtitle": "與所有主要行事曆和排程平台連線，以實現無縫的約會管理。",
         "platformsTitle": "行事曆平台整合",
         "seachatAI": "SeaChat AI",
+        "aiResponse1": "我很樂意幫您安排示範！以下是下週的可用時段：",
+        "aiResponse2": "太好了！我已為您預約了1月16日星期二下午2:00（太平洋標準時間）的示範。您很快就會收到一封包含會議連結的行事曆邀請。",
         "slot1": "1 月 16 日星期二 - 太平洋標準時間下午 2:00",
         "slot2": "1 月 17 日星期三 - 太平洋標準時間上午 10:00",
         "slot3": "1 月 18 日星期四 - 太平洋標準時間下午 3:00",
@@ -3320,7 +3364,8 @@
         "cta": {
           "connectButton": "立即開始",
           "contactButton": "聯絡銷售人員",
-          "title": "準備好簡化您的通訊了嗎？"
+          "title": "準備好簡化您的通訊了嗎？",
+          "subtitle": "連接您最喜歡的通訊工具，提高團隊的工作效率和客戶參與度。"
         },
         "demoButton": "安排整合示範",
         "features": {
@@ -3437,7 +3482,8 @@
               "templates": "訊息範本"
             },
             "name": "WhatsApp",
-            "setupTime": "10 分鐘"
+            "setupTime": "10 分鐘",
+            "description": "透過世界上最受歡迎的訊息應用程式直接與客戶互動。"
           },
           "zalo": {
             "category": "訊息",
@@ -3683,9 +3729,41 @@
         "seachatAI": "SeaChat AI",
         "subtitle": "將 SeaChat 與您的線上商店連線，以提供卓越的客戶支援、增加銷售額並減少購物車放棄率。",
         "supportSubtitle": "您需要的一切，可為您的線上商店提供卓越的客戶支援，從訂單追蹤到產品推薦。",
-        "supportTitle": "完整的電子商務支援套件",
-        "title": "電子商務Seachat整合",
-        "setup": "設定時間"
+        "supportTitle": "完整的電子商務客戶支援套件",
+        "title": "電子商務整合",
+        "setup": "設置時間",
+        "features": [
+          {
+            "title": "即時訂單追蹤",
+            "description": "自動同步訂單狀態，為客戶提供即時追蹤資訊",
+            "icon": "package"
+          },
+          {
+            "title": "庫存管理",
+            "description": "讓客戶了解產品庫存情況和補貨通知",
+            "icon": "warehouse"
+          },
+          {
+            "title": "智能產品推薦",
+            "description": "基於客戶購買歷史和偏好的 AI 驅動產品建議",
+            "icon": "target"
+          },
+          {
+            "title": "購物車挽回",
+            "description": "主動聯繫放棄購物車的客戶，發送個性化訊息",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "付款問題解決",
+            "description": "處理付款失敗和帳單查詢，即時存取交易資料",
+            "icon": "credit-card"
+          },
+          {
+            "title": "客戶購買歷史",
+            "description": "存取完整的客戶購買歷史，提供更好的支援和個性化服務",
+            "icon": "history"
+          }
+        ]
       },
       "marketing": {
         "automationTitle": "行銷自動化流程",
@@ -3734,8 +3812,40 @@
             "title": "活動觸發"
           }
         },
-        "integrationSubtitle": "透過智慧自動化彌合客戶支援和行銷之間的差距，將每一次對話轉化為成長機會。",
-        "integrationTitle": "完整的行銷整合",
+        "integrationSubtitle": "透過智能自動化橋接客戶支援與行銷之間的鴻溝，將每次對話轉化為成長機會。",
+        "integrationTitle": "完整行銷整合",
+        "features": [
+          {
+            "title": "潛在客戶資格審查與評分",
+            "description": "根據參與度和意向自動審查和評分支援對話中的潛在客戶",
+            "icon": "target"
+          },
+          {
+            "title": "活動觸發自動化",
+            "description": "基於特定的客戶互動和行為模式觸發目標行銷活動",
+            "icon": "zap"
+          },
+          {
+            "title": "客戶旅程規劃",
+            "description": "追蹤並優化從首次接觸到轉換和保留的完整客戶旅程",
+            "icon": "map"
+          },
+          {
+            "title": "個人化內容傳遞",
+            "description": "根據支援對話歷史和偏好傳遞個人化行銷內容和優惠",
+            "icon": "heart"
+          },
+          {
+            "title": "多渠道活動同步",
+            "description": "在電子郵件、簡訊、WhatsApp和社群媒體間同步行銷活動，確保訊息一致性",
+            "icon": "sync"
+          },
+          {
+            "title": "績效分析與投資報酬率",
+            "description": "透過轉換率和客戶終身價值的詳細分析衡量活動績效和投資報酬率",
+            "icon": "chart"
+          }
+        ],
         "platforms": {
           "activecampaign": {
             "category": "自動化",
@@ -3878,6 +3988,38 @@
         "setup": "設定"
       },
       "social": {
+        "features": [
+          {
+            "title": "即時客戶回覆",
+            "description": "在所有平台上即時回覆社群媒體詢問",
+            "icon": "message-circle"
+          },
+          {
+            "title": "統一社群收件箱",
+            "description": "從一個集中的儀表板管理所有社群媒體訊息",
+            "icon": "inbox"
+          },
+          {
+            "title": "智慧自動路由",
+            "description": "自動將社群訊息路由到正確的團隊成員",
+            "icon": "route"
+          },
+          {
+            "title": "品牌聲譽管理",
+            "description": "快速監控和回應品牌提及與評論",
+            "icon": "shield"
+          },
+          {
+            "title": "多語言支援",
+            "description": "使用客戶偏好的語言與全球客戶溝通",
+            "icon": "globe"
+          },
+          {
+            "title": "社群分析",
+            "description": "追蹤回應時間、參與率和客戶滿意度",
+            "icon": "chart"
+          }
+        ],
         "benefits": {
           "meet": {
             "description": "在客戶每天使用的平台上提供支援",
@@ -4140,7 +4282,7 @@
         "subtitle": "在任何網站平台上快速部署 SeaChat。通用相容性，具有自訂樣式和回應式設計。",
         "title": "網站整合",
         "viewDocs": "查看文件",
-        "setup": "設定"
+        "setup": "安裝時間"
       }
     },
     "heroAnimations": {

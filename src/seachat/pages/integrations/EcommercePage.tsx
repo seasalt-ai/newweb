@@ -230,6 +230,9 @@ const EcommercePage = () => {
     }
   ];
 
+  const featuresFromTranslation = t('seachat.integrations.ecommerce.features', { returnObjects: true });
+  const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
+
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -353,7 +356,15 @@ const EcommercePage = () => {
               <p className="text-lg text-gray-600 mb-8">
                 {t('seachat.integrations.ecommerce.supportSubtitle', 'Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.')}
               </p>
-
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                {features.map((feature, index) => (
+                  <div key={index} className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700">{feature.title || String(feature)}</span>
+                  </div>
+                ))}
+              </div>
             </div>
             
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">

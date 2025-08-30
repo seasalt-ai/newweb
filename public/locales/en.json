@@ -2988,6 +2988,38 @@
             "description": "Access complete customer history during support conversations"
           }
         },
+        "features": [
+          {
+            "title": "Seamless Data Sync",
+            "description": "Automatically sync customer contact information, conversation history, and interaction records",
+            "icon": "sync"
+          },
+          {
+            "title": "Lead Automation",
+            "description": "Automatically convert support conversations into qualified leads in your CRM",
+            "icon": "users"
+          },
+          {
+            "title": "Smart Routing",
+            "description": "Intelligently route customers to the right sales or support team based on CRM data",
+            "icon": "route"
+          },
+          {
+            "title": "Unified Customer View",
+            "description": "Access complete customer history and transaction records instantly during support conversations",
+            "icon": "eye"
+          },
+          {
+            "title": "Activity Triggers",
+            "description": "Automatically trigger CRM workflows and marketing campaigns based on customer interactions",
+            "icon": "zap"
+          },
+          {
+            "title": "Reports & Analytics",
+            "description": "Unified reporting across platforms with deep insights into customer lifecycle and conversion metrics",
+            "icon": "chart"
+          }
+        ],
         "workflow": {
           "connect": {
             "title": "Connect Your CRM",
@@ -3150,6 +3182,14 @@
         "customerChoice": "Tuesday at 2 PM works perfect!",
         "demoButton": "Book Scheduling Demo",
         "exampleTitle": "Scheduling Example",
+        "features": [
+          "Real-time availability sync",
+          "Automated booking confirmations",
+          "Calendar invite generation",
+          "Reminder notifications",
+          "Multi-timezone support",
+          "Recurring appointment handling"
+        ],
         "flow": {
           "availability": {
             "description": "System checks real-time calendar availability",
@@ -3168,6 +3208,7 @@
           },
           "request": {
             "description": "Customer asks to schedule a meeting or appointment",
+            "example": "\"I'd like to schedule a demo for next week\"",
             "title": "Customer Request"
           }
         },
@@ -3317,10 +3358,12 @@
         "benefitsSubtitle": "Enhance your customer support and internal collaboration with seamless Seachat integrations.",
         "benefitsTitle": "Benefits of Integrated Communication",
         "connectButton": "Connect Communication Tools",
+        "connectPlatform": "Connect with",
         "cta": {
           "connectButton": "Get Started Now",
           "contactButton": "Contact Sales",
-          "title": "Ready to Streamline Your Communication?"
+          "title": "Ready to Streamline Your Communication?",
+          "subtitle": "Connect your favorite communication tools and enhance your team's productivity and customer engagement."
         },
         "demoButton": "Schedule Integration Demo",
         "features": {
@@ -3437,7 +3480,8 @@
               "templates": "Message templates"
             },
             "name": "WhatsApp",
-            "setupTime": "10 minutes"
+            "setupTime": "10 minutes",
+            "description": "Engage with customers directly on the world's most popular messaging app."
           },
           "zalo": {
             "category": "Messaging",
@@ -3685,7 +3729,39 @@
         "supportSubtitle": "Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
         "supportTitle": "Complete E-commerce Support Suite",
         "title": "E-commerce Seachat integrations",
-        "setup": "Setup time"
+        "setup": "Setup time",
+        "features": [
+          {
+            "title": "Real-Time Order Tracking",
+            "description": "Automatically sync order status and provide instant tracking information to customers",
+            "icon": "package"
+          },
+          {
+            "title": "Inventory Management",
+            "description": "Keep customers informed about product availability and restock notifications",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Smart Product Recommendations",
+            "description": "AI-powered product suggestions based on customer purchase history and preferences",
+            "icon": "target"
+          },
+          {
+            "title": "Cart Abandonment Recovery",
+            "description": "Proactively reach out to customers who abandoned their carts with personalized messages",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Payment Issue Resolution",
+            "description": "Handle payment failures and billing inquiries with instant access to transaction data",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Customer Purchase History",
+            "description": "Access complete customer purchase history for better support and personalized service",
+            "icon": "history"
+          }
+        ]
       },
       "marketing": {
         "automationTitle": "Marketing Automation Flow",
@@ -3736,6 +3812,38 @@
         },
         "integrationSubtitle": "Bridge the gap between customer support and marketing with intelligent automation that turns every conversation into a growth opportunity.",
         "integrationTitle": "Complete Marketing Integration",
+        "features": [
+          {
+            "title": "Lead Qualification & Scoring",
+            "description": "Automatically qualify and score leads from support conversations based on engagement and intent",
+            "icon": "target"
+          },
+          {
+            "title": "Campaign Trigger Automation",
+            "description": "Trigger targeted marketing campaigns based on specific customer interactions and behavior patterns",
+            "icon": "zap"
+          },
+          {
+            "title": "Customer Journey Mapping",
+            "description": "Track and optimize the complete customer journey from first contact to conversion and retention",
+            "icon": "map"
+          },
+          {
+            "title": "Personalized Content Delivery",
+            "description": "Deliver personalized marketing content and offers based on support conversation history and preferences",
+            "icon": "heart"
+          },
+          {
+            "title": "Multi-Channel Campaign Sync",
+            "description": "Synchronize marketing campaigns across email, SMS, WhatsApp, and social media for consistent messaging",
+            "icon": "sync"
+          },
+          {
+            "title": "Performance Analytics & ROI",
+            "description": "Measure campaign performance and ROI with detailed analytics on conversion rates and customer lifetime value",
+            "icon": "chart"
+          }
+        ],
         "platforms": {
           "activecampaign": {
             "category": "Automation",
@@ -3878,6 +3986,38 @@
         "setup": "Set up"
       },
       "social": {
+        "features": [
+          {
+            "title": "Instant Customer Responses",
+            "description": "Reply to social media inquiries in real-time across all platforms",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Unified Social Inbox",
+            "description": "Manage all social media messages from one centralized dashboard",
+            "icon": "inbox"
+          },
+          {
+            "title": "Smart Auto-Routing",
+            "description": "Automatically route social messages to the right team members",
+            "icon": "route"
+          },
+          {
+            "title": "Brand Reputation Management",
+            "description": "Monitor and respond to brand mentions and comments quickly",
+            "icon": "shield"
+          },
+          {
+            "title": "Multi-Language Support",
+            "description": "Communicate with global customers in their preferred language",
+            "icon": "globe"
+          },
+          {
+            "title": "Social Analytics",
+            "description": "Track response times, engagement rates, and customer satisfaction",
+            "icon": "chart"
+          }
+        ],
         "benefits": {
           "meet": {
             "description": "Provide support on the platforms your customers already use daily",
@@ -4140,7 +4280,7 @@
         "subtitle": "Deploy SeaChat on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
         "title": "Website Integrations",
         "viewDocs": "View Documentation",
-        "setup": "Set up"
+        "setup": "Setup time"
       }
     },
     "heroAnimations": {
