@@ -147,11 +147,11 @@ const StatsCounter = () => {
             {/* Campaign stats */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="bg-blue-50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-blue-600 mb-1">2.4M</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">{t('statsCounter.dashboard.demo.messagesSent')}</div>
                 <div className="text-sm text-gray-600">{t('statsCounter.dashboard.messagesSent')}</div>
               </div>
               <div className="bg-green-50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-green-600 mb-1">85%</div>
+                <div className="text-2xl font-bold text-green-600 mb-1">{t('statsCounter.dashboard.demo.deliveryRate')}</div>
                 <div className="text-sm text-gray-600">{t('statsCounter.dashboard.deliveryRate')}</div>
               </div>
             </div>

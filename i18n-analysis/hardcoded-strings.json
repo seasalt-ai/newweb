@@ -14271,12 +14271,6 @@
     "context": "          <div className=\"text-4xl font-bold mb-2\">20000x</div>\n                <div className=\"text"
   },
   {
-    "file": "src/seax/components/StatsCounter.tsx",
-    "text": "85%",
-    "context": "              </div>\n              <div className=\"bg-green-50 rounded-lg p-4\">\n                <div className=\"text-2xl font-bold text-green-600 mb-1\">85%</div>\n                <div className=\"text-sm text-gray-600\">{t('statsCounter.dashboard.deliveryRate')}</div>\n              </div>\n            </div>",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/seax/data/seaxFeatures.ts",
     "text": "Bulk Messaging Engine",
     "context": "  {\n    id: 'bulk-messaging',\n    title: 'Bulk Messaging Engine',\n    description: 'Send millions of SMS, WhatsApp messages, and phone calls simultaneously with carrier-grade reliability.',\n    icon: '📱',\n    metrics: {",
@@ -16923,18 +16917,6 @@
     "context": "className=\"mt-4 text-xs text-gray-700 text-center\">Real-time Analytics</p>\n                      </d"
   },
   {
-    "file": "src/seax/pages/channels/ChannelsOverview.tsx",
-    "text": "Coming Soon",
-    "context": "          </h1>\n          <div className=\"bg-blue-50 rounded-lg p-8\">\n            <h2 className=\"text-2xl font-semibold text-blue-900 mb-4\">\n              Coming Soon\n            </h2>\n            <p className=\"text-blue-700\">\n              We're building out the complete ChannelsOverview experience.\n            </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/ChannelsOverview.tsx",
-    "text": "We're building out the complete ChannelsOverview experience.",
-    "context": "              Coming Soon\n            </h2>\n            <p className=\"text-blue-700\">\n              We're building out the complete ChannelsOverview experience.\n            </p>\n          </div>\n        </div>\n      </div>",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/seax/pages/channels/SMS.tsx",
     "text": "10M+",
     "context": "\n  const stats = [\n    { value: '10M+', label: t('seax.channels.sms.hero.stats.messagesSent') },\n    { value: '200+', label: t('seax.channels.sms.hero.stats.countries') },\n    { value: '99.9%', label: t('seax.channels.sms.hero.stats.uptime') },\n    { value: '98%', label: t('seax.channels.sms.hero.stats.deliveryRate') }",
@@ -17026,252 +17008,21 @@
     "type": "jsx-text"
   },
   {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Specialized communication solutions designed specifically for the IndustriesOverview industry.",
-    "context": "            <span className=\"text-blue-600 block\">IndustriesOverview</span>\n          </h1>\n          <p className=\"text-xl text-gray-600 mb-8 max-w-3xl mx-auto\">\n            Specialized communication solutions designed specifically for the IndustriesOverview industry.\n          </p>\n          \n          <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n            <a",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Get Industry Solution",
-    "context": "              className=\"bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2\"\n            >\n              <span>Get Industry Solution</span>\n              <ArrowRight className=\"w-5 h-5\" />\n            </a>\n            ",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "View Features",
-    "context": "              to={getLocalizedPath('/features')}\n              className=\"border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors\"\n            >\n              View Features\n            </Link>\n          </div>\n        </div>\n      </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Common communication challenges in the IndustriesOverview industry",
-    "context": "              IndustriesOverview Challenges We Solve\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Common communication challenges in the IndustriesOverview industry\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "How SeaX addresses",
-    "context": "                  <h3 className=\"text-lg font-semibold text-gray-900\">{challenge}</h3>\n                </div>\n                <p className=\"text-gray-600\">\n                  How SeaX addresses {challenge} specific to the IndustriesOverview industry.\n                </p>\n              </div>\n            ))}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "specific to the IndustriesOverview industry.",
-    "context": "                </div>\n                <p className=\"text-gray-600\">\n                  How SeaX addresses {challenge} specific to the IndustriesOverview industry.\n                </p>\n              </div>\n            ))}\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Real-world applications for the IndustriesOverview industry",
-    "context": "              IndustriesOverview Use Cases\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Real-world applications for the IndustriesOverview industry\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Detailed description of how",
-    "context": "              <div key={index} className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">{useCase}</h3>\n                <p className=\"text-gray-600 mb-6\">\n                  Detailed description of how {useCase} applies to IndustriesOverview businesses.\n                </p>\n                <div className=\"flex items-center space-x-2\">\n                  <CheckCircle className=\"w-5 h-5 text-green-500\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "applies to IndustriesOverview businesses.",
-    "context": "                <h3 className=\"text-xl font-semibold text-gray-900 mb-4\">{useCase}</h3>\n                <p className=\"text-gray-600 mb-6\">\n                  Detailed description of how {useCase} applies to IndustriesOverview businesses.\n                </p>\n                <div className=\"flex items-center space-x-2\">\n                  <CheckCircle className=\"w-5 h-5 text-green-500\" />\n                  <span className=\"text-sm text-gray-700\">Industry-specific solution</span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Industry-specific solution",
-    "context": "                <div className=\"flex items-center space-x-2\">\n                  <CheckCircle className=\"w-5 h-5 text-green-500\" />\n                  <span className=\"text-sm text-gray-700\">Industry-specific solution</span>\n                </div>\n              </div>\n            ))}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Proven outcomes for IndustriesOverview businesses",
-    "context": "              IndustriesOverview Results\n            </h2>\n            <p className=\"text-xl text-blue-100\">\n              Proven outcomes for IndustriesOverview businesses\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "250%",
-    "context": "          <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">250%</div>\n              <div className=\"text-blue-100\">ROI Increase</div>\n            </div>\n            <div className=\"text-center\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "90%",
-    "context": "            </div>\n            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">90%</div>\n              <div className=\"text-blue-100\">Customer Satisfaction</div>\n            </div>\n            <div className=\"text-center\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Customer Satisfaction",
-    "context": "            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">90%</div>\n              <div className=\"text-blue-100\">Customer Satisfaction</div>\n            </div>\n            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">60%</div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "60%",
-    "context": "            </div>\n            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">60%</div>\n              <div className=\"text-blue-100\">Time Savings</div>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Time Savings",
-    "context": "            <div className=\"text-center\">\n              <div className=\"text-4xl font-bold text-white mb-2\">60%</div>\n              <div className=\"text-blue-100\">Time Savings</div>\n            </div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Ready to Transform Your IndustriesOverview Business?",
-    "context": "      <div className=\"py-20 bg-gray-900\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-3xl font-bold text-white mb-4\">\n            Ready to Transform Your IndustriesOverview Business?\n          </h2>\n          <p className=\"text-xl text-gray-300 mb-8\">\n            Join other IndustriesOverview leaders who trust SeaX for their communication needs\n          </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Join other IndustriesOverview leaders who trust SeaX for their communication needs",
-    "context": "            Ready to Transform Your IndustriesOverview Business?\n          </h2>\n          <p className=\"text-xl text-gray-300 mb-8\">\n            Join other IndustriesOverview leaders who trust SeaX for their communication needs\n          </p>\n          \n          <a\n            href=\"https://seax.seasalt.ai/signup\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Get Industry Solution",
-    "context": "            className=\"bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2\"\n          >\n            <span>Get Industry Solution</span>\n            <ArrowRight className=\"w-5 h-5\" />\n          </a>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Get Industry Solution",
-    "context": "enter space-x-2\"\n            >\n              <span>Get Industry Solution</span>\n              <Arrow"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Industry-specific solution",
-    "context": "           <span className=\"text-sm text-gray-700\">Industry-specific solution</span>\n               "
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Customer Satisfaction",
-    "context": "/div>\n              <div className=\"text-blue-100\">Customer Satisfaction</div>\n            </div>\n  "
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Time Savings",
-    "context": "/div>\n              <div className=\"text-blue-100\">Time Savings</div>\n            </div>\n          <"
-  },
-  {
-    "file": "src/seax/pages/industries/IndustriesOverview.tsx",
-    "text": "Get Industry Solution",
-    "context": "ms-center space-x-2\"\n          >\n            <span>Get Industry Solution</span>\n            <ArrowRi"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Transform your business communication with our comprehensive SolutionsOverview solution.",
-    "context": "            <span className=\"text-blue-600 block\">Solution</span>\n          </h1>\n          <p className=\"text-xl text-gray-600 mb-8 max-w-3xl mx-auto\">\n            Transform your business communication with our comprehensive SolutionsOverview solution.\n          </p>\n          \n          <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">\n            <a",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Get Started",
-    "context": "              className=\"bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2\"\n            >\n              <span>Get Started</span>\n              <ArrowRight className=\"w-5 h-5\" />\n            </a>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Powerful Features",
-    "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for successful SolutionsOverview\n            </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Everything you need for successful SolutionsOverview",
-    "context": "              Powerful Features\n            </h2>\n            <p className=\"text-lg text-gray-600\">\n              Everything you need for successful SolutionsOverview\n            </p>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Detailed description of",
-    "context": "                  <h3 className=\"text-lg font-semibold text-gray-900\">{feature}</h3>\n                </div>\n                <p className=\"text-gray-600\">\n                  Detailed description of {feature} and how it benefits your business.\n                </p>\n              </div>\n            ))}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "and how it benefits your business.",
-    "context": "                </div>\n                <p className=\"text-gray-600\">\n                  Detailed description of {feature} and how it benefits your business.\n                </p>\n              </div>\n            ))}\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Proven Results",
-    "context": "        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n          <div className=\"text-center mb-16\">\n            <h2 className=\"text-3xl font-bold text-gray-900 mb-4\">\n              Proven Results\n            </h2>\n          </div>\n          \n          <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8\">",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
     "text": "300%",
-    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-blue-600 mb-2\">300%</div>\n                <div className=\"text-gray-600\">Improvement</div>\n              </div>\n            </div>",
+    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-blue-600 mb-2\">300%</div>\n                <div className=\"text-gray-600\">{t('seax.solutionsOverview.stats.improvement')}</div>\n              </div>\n            </div>",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
     "text": "85%",
-    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-green-600 mb-2\">85%</div>\n                <div className=\"text-gray-600\">Success Rate</div>\n              </div>\n            </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Success Rate",
-    "context": "              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-green-600 mb-2\">85%</div>\n                <div className=\"text-gray-600\">Success Rate</div>\n              </div>\n            </div>\n            <div className=\"text-center\">",
+    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-green-600 mb-2\">85%</div>\n                <div className=\"text-gray-600\">{t('seax.solutionsOverview.stats.successRate')}</div>\n              </div>\n            </div>",
     "type": "jsx-text"
   },
   {
     "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
     "text": "50%",
-    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-purple-600 mb-2\">50%</div>\n                <div className=\"text-gray-600\">Time Savings</div>\n              </div>\n            </div>",
+    "context": "            <div className=\"text-center\">\n              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-purple-600 mb-2\">50%</div>\n                <div className=\"text-gray-600\">{t('seax.solutionsOverview.stats.timeSavings')}</div>\n              </div>\n            </div>",
     "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Time Savings",
-    "context": "              <div className=\"bg-white rounded-lg p-8 shadow-sm\">\n                <div className=\"text-4xl font-bold text-purple-600 mb-2\">50%</div>\n                <div className=\"text-gray-600\">Time Savings</div>\n              </div>\n            </div>\n          </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Ready to Transform Your SolutionsOverview?",
-    "context": "      <div className=\"py-20 bg-blue-600\">\n        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center\">\n          <h2 className=\"text-3xl font-bold text-white mb-4\">\n            Ready to Transform Your SolutionsOverview?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses achieving better results with SeaX\n          </p>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Join thousands of businesses achieving better results with SeaX",
-    "context": "            Ready to Transform Your SolutionsOverview?\n          </h2>\n          <p className=\"text-xl text-blue-100 mb-8\">\n            Join thousands of businesses achieving better results with SeaX\n          </p>\n          \n          <a\n            href={getMeetingUrl(i18n.language)}",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Get Started Today",
-    "context": "            className=\"bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2\"\n          >\n            <span>Get Started Today</span>\n            <ArrowRight className=\"w-5 h-5\" />\n          </a>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Get Started",
-    "context": "enter space-x-2\"\n            >\n              <span>Get Started</span>\n              <ArrowRight clas"
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Success Rate",
-    "context": "iv>\n                <div className=\"text-gray-600\">Success Rate</div>\n              </div>\n         "
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Time Savings",
-    "context": "iv>\n                <div className=\"text-gray-600\">Time Savings</div>\n              </div>\n         "
-  },
-  {
-    "file": "src/seax/pages/solutions/SolutionsOverview.tsx",
-    "text": "Get Started Today",
-    "context": "ms-center space-x-2\"\n          >\n            <span>Get Started Today</span>\n            <ArrowRight "
   }
 ]

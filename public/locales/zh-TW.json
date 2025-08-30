@@ -9091,6 +9091,116 @@
         "comingSoon": "即將推出",
         "description": "我們正在建立完整的渠道總覽體驗。"
       }
+    },
+    "industryOverview": {
+      "seo": {
+        "title": "SeaX 行業解決方案 - 針對特定行業的解決方案",
+        "description": "SeaX 為各行業提供量身定制的溝通解決方案，具備卓越成果和行業專業知識。"
+      },
+      "hero": {
+        "title": {
+          "prefix": "SeaX",
+          "industries": "行業解決方案"
+        },
+        "subtitle": "專門為您的行業設計的專業通訊解決方案。",
+        "cta": {
+          "primary": "獲取行業解決方案",
+          "secondary": "查看功能"
+        }
+      },
+      "challenges": {
+        "title": "我們解決的行業挑戰",
+        "subtitle": "各行業常見的溝通挑戰",
+        "challenge1": "挑戰一",
+        "challenge2": "挑戰二",
+        "challenge3": "挑戰三",
+        "challenge4": "挑戰四",
+        "challenge5": "挑戰五",
+        "challenge6": "挑戰六",
+        "description": "SeaX 如何針對您的行業解決 {challenge}。"
+      },
+      "useCases": {
+        "title": "行業應用案例",
+        "subtitle": "您行業的實際應用",
+        "useCase1": "應用案例一",
+        "useCase2": "應用案例二",
+        "useCase3": "應用案例三",
+        "useCase4": "應用案例四",
+        "description": "{useCase} 如何詳細應用於您的業務。",
+        "badge": "行業專用解決方案"
+      },
+      "stats": {
+        "title": "行業成果",
+        "subtitle": "企業經證實的成果",
+        "roi": {
+          "value": "250%",
+          "label": "投資回報率提升"
+        },
+        "satisfaction": {
+          "value": "90%",
+          "label": "客戶滿意度"
+        },
+        "time": {
+          "value": "60%",
+          "label": "時間節省"
+        }
+      },
+      "cta": {
+        "title": "準備好轉型您的企業了嗎？",
+        "subtitle": "加入信賴 SeaX 滿足通訊需求的其他行業領導者",
+        "button": "獲取行業解決方案"
+      }
+    },
+    "solutionsOverview": {
+      "seo": {
+        "title": "SeaX 解決方案概覽 - 擴展您的業務",
+        "description": "SeaX 解決方案概覽幫助企業擴展通訊並取得更好的成果。"
+      },
+      "hero": {
+        "title": "解決方案概覽",
+        "titleHighlight": "解決方案",
+        "description": "利用我們全面的解決方案組合，轉型您的企業通訊。",
+        "getStarted": "立即開始"
+      },
+      "features": {
+        "title": "強大功能",
+        "subtitle": "成功企業解決方案所需的一切",
+        "feature1": {
+          "title": "自動化通訊",
+          "description": "透過 AI 驅動的自動化和智能路由，簡化您的通訊流程。"
+        },
+        "feature2": {
+          "title": "多渠道支援",
+          "description": "透過多個渠道（包括簡訊、語音和訊息平台）接觸您的受眾。"
+        },
+        "feature3": {
+          "title": "即時分析",
+          "description": "透過全面的即時分析追蹤表現並優化您的活動。"
+        },
+        "feature4": {
+          "title": "可擴展基礎設施",
+          "description": "透過我們強大的企業級基礎設施處理數百萬條訊息。"
+        },
+        "feature5": {
+          "title": "進階個人化",
+          "description": "透過動態內容和智能定位功能提供個人化體驗。"
+        },
+        "feature6": {
+          "title": "整合就緒",
+          "description": "透過我們全面的 API 與您現有的系統和工作流程無縫整合。"
+        }
+      },
+      "stats": {
+        "title": "經過驗證的成果",
+        "improvement": "改善率",
+        "successRate": "成功率",
+        "timeSavings": "時間節省"
+      },
+      "cta": {
+        "title": "準備好轉型您的企業解決方案？",
+        "subtitle": "加入數千家使用 SeaX 取得更好成果的企業",
+        "getStarted": "今天就開始"
+      }
     }
   },
   "statsCounter": {
@@ -9119,7 +9229,11 @@
       "title": "SeaX 控制台",
       "messagesSent": "已發送訊息",
       "deliveryRate": "送達率",
-      "recentActivity": "近期活動"
+      "recentActivity": "近期活動",
+      "demo": {
+        "messagesSent": "240萬",
+        "deliveryRate": "85%"
+      }
     },
     "activity": {
       "flashSale": {

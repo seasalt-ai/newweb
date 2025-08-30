@@ -9113,6 +9113,116 @@
         "comingSoon": "Coming Soon",
         "description": "We're building out the complete ChannelsOverview experience."
       }
+    },
+    "industryOverview": {
+      "seo": {
+        "title": "SeaX for Industries - Industry-Specific Solutions",
+        "description": "SeaX provides tailored communication solutions for industries with proven results and industry expertise."
+      },
+      "hero": {
+        "title": {
+          "prefix": "SeaX for",
+          "industries": "Industries"
+        },
+        "subtitle": "Specialized communication solutions designed specifically for your industry.",
+        "cta": {
+          "primary": "Get Industry Solution",
+          "secondary": "View Features"
+        }
+      },
+      "challenges": {
+        "title": "Industry Challenges We Solve",
+        "subtitle": "Common communication challenges in various industries",
+        "challenge1": "Challenge 1",
+        "challenge2": "Challenge 2",
+        "challenge3": "Challenge 3",
+        "challenge4": "Challenge 4",
+        "challenge5": "Challenge 5",
+        "challenge6": "Challenge 6",
+        "description": "How SeaX addresses {challenge} specific to your industry."
+      },
+      "useCases": {
+        "title": "Industry Use Cases",
+        "subtitle": "Real-world applications for your industry",
+        "useCase1": "Use Case 1",
+        "useCase2": "Use Case 2",
+        "useCase3": "Use Case 3",
+        "useCase4": "Use Case 4",
+        "description": "Detailed description of how {useCase} applies to your business.",
+        "badge": "Industry-specific solution"
+      },
+      "stats": {
+        "title": "Industry Results",
+        "subtitle": "Proven outcomes for businesses",
+        "roi": {
+          "value": "250%",
+          "label": "ROI Increase"
+        },
+        "satisfaction": {
+          "value": "90%",
+          "label": "Customer Satisfaction"
+        },
+        "time": {
+          "value": "60%",
+          "label": "Time Savings"
+        }
+      },
+      "cta": {
+        "title": "Ready to Transform Your Business?",
+        "subtitle": "Join other industry leaders who trust SeaX for their communication needs",
+        "button": "Get Industry Solution"
+      }
+    },
+    "solutionsOverview": {
+      "seo": {
+        "title": "SeaX Solutions Overview - Scale Your Business",
+        "description": "SeaX Solutions Overview helps businesses scale their communication and achieve better results."
+      },
+      "hero": {
+        "title": "Solutions Overview",
+        "titleHighlight": "Solutions",
+        "description": "Transform your business communication with our comprehensive solutions portfolio.",
+        "getStarted": "Get Started"
+      },
+      "features": {
+        "title": "Powerful Features",
+        "subtitle": "Everything you need for successful business solutions",
+        "feature1": {
+          "title": "Automated Communication",
+          "description": "Streamline your communication processes with AI-powered automation and intelligent routing."
+        },
+        "feature2": {
+          "title": "Multi-Channel Support",
+          "description": "Reach your audience across multiple channels including SMS, voice, and messaging platforms."
+        },
+        "feature3": {
+          "title": "Real-Time Analytics",
+          "description": "Track performance and optimize your campaigns with comprehensive real-time analytics."
+        },
+        "feature4": {
+          "title": "Scalable Infrastructure",
+          "description": "Handle millions of messages with our robust, enterprise-grade infrastructure."
+        },
+        "feature5": {
+          "title": "Advanced Personalization",
+          "description": "Deliver personalized experiences with dynamic content and smart targeting capabilities."
+        },
+        "feature6": {
+          "title": "Integration Ready",
+          "description": "Seamlessly integrate with your existing systems and workflows through our comprehensive APIs."
+        }
+      },
+      "stats": {
+        "title": "Proven Results",
+        "improvement": "Improvement",
+        "successRate": "Success Rate",
+        "timeSavings": "Time Savings"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Business Solutions?",
+        "subtitle": "Join thousands of businesses achieving better results with SeaX",
+        "getStarted": "Get Started Today"
+      }
     }
   },
   "statsCounter": {
@@ -9141,7 +9251,11 @@
       "title": "SeaX Dashboard",
       "messagesSent": "Messages Sent",
       "deliveryRate": "Delivery Rate",
-      "recentActivity": "Recent Activity"
+      "recentActivity": "Recent Activity",
+      "demo": {
+        "messagesSent": "2.4M",
+        "deliveryRate": "85%"
+      }
     },
     "activity": {
       "flashSale": {
