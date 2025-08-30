@@ -1,0 +1,111 @@
+{
+  "seax": {
+    "channels": {
+      "smsLocal": {
+        "title": "SMS 本地 (10DLC)",
+        "subtitle": "使用可信本地號碼進行專業簡訊服務",
+        "description": "使用註冊的 10DLC 號碼發送大量簡訊活動，提供卓越的可靠性和電信商信任。完美適用於行銷活動、預約提醒和客戶通知。",
+        "seo": {
+          "title": "SMS 本地 (10DLC) - 專業商業訊息服務 | SeaX",
+          "description": "使用 10DLC 本地號碼發送專業簡訊活動。高送達率、電信商信任，為您的商業通訊提供合規訊息服務。"
+        },
+        "hero": {
+          "campaign": {
+            "title": "行銷活動儀表板",
+            "status": "進行中",
+            "messagesSentValue": "2,847",
+            "messagesSent": "已發送訊息",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "送達率"
+          },
+          "recentActivity": {
+            "title": "最近活動",
+            "marketing": {
+              "title": "限時優惠活動",
+              "details": "發送給 1,523 名訂閱者 • 89% 送達"
+            },
+            "appointment": {
+              "title": "預約提醒",
+              "details": "發送 247 則提醒 • 爽約率 2%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "送達率",
+          "openRateValue": "96%",
+          "openRate": "開信率",
+          "supportValue": "24/7",
+          "support": "支援服務"
+        },
+        "features": {
+          "title": "主要特色",
+          "subtitle": "專業簡訊行銷所需的一切功能",
+          "items": {
+            "0": "電信商信任帶來的高送達率",
+            "1": "10DLC 註冊與品牌驗證",
+            "2": "活動預先審核流程",
+            "3": "雙向訊息支援",
+            "4": "進階分析與報告",
+            "5": "自動退訂管理",
+            "6": "訊息範本與個人化",
+            "7": "排程與滴水式行銷活動"
+          }
+        },
+        "useCases": {
+          "title": "完美使用案例",
+          "subtitle": "10DLC 訊息服務的理想應用",
+          "items": {
+            "0": "行銷活動與促銷",
+            "1": "預約提醒與確認",
+            "2": "訂單狀態與物流通知",
+            "3": "客戶服務與支援",
+            "4": "活動通知與警報",
+            "5": "調查與回饋收集",
+            "6": "潛在客戶培養序列",
+            "7": "緊急與急迫通訊"
+          }
+        },
+        "pricing": {
+          "title": "簡單透明的定價",
+          "subtitle": "無隱藏費用，可預測成本",
+          "setup": {
+            "label": "活動設定",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "$2/號碼"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.02"
+          },
+          "note": "10DLC 合規需要品牌註冊和 A2P 註冊"
+        },
+        "testimonial": {
+          "quote": "10DLC 訊息服務完全改變了我們的客戶互動方式。送達率非常出色，客戶信任我們的本地號碼。",
+          "author": "陳莎拉",
+          "company": "行銷總監，GrowthTech",
+          "results": "送達率提升 35%，客戶回應率增加 42%"
+        },
+        "compliance": {
+          "title": "簡化合規流程",
+          "description": "我們處理所有複雜的 10DLC 要求，讓您專注於訊息活動",
+          "brandRegistration": {
+            "title": "品牌註冊",
+            "description": "與電信網路完成品牌驗證流程，以獲得最大信任度和送達率"
+          },
+          "campaignApproval": {
+            "title": "活動預先審核",
+            "description": "在啟動前獲得電信商的活動核准，確保合規性和最佳效能"
+          },
+          "monitoring": {
+            "title": "持續監控",
+            "description": "持續監控活動效能和合規指標，維持最佳送達率"
+          }
+        }
+      }
+    }
+  }
+}

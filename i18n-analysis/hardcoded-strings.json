@@ -15145,44 +15145,6 @@
     "context": " className=\"text-3xl font-bold text-blue-600 mb-2\">10M+</div>\n              <div className=\"text-gra"
   },
   {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "10M+",
-    "context": "\n  const stats = [\n    { value: '10M+', label: t('seax.channels.sms.hero.stats.messagesSent') },\n    { value: '200+', label: t('seax.channels.sms.hero.stats.countries') },\n    { value: '99.9%', label: t('seax.channels.sms.hero.stats.uptime') },\n    { value: '98%', label: t('seax.channels.sms.hero.stats.deliveryRate') }",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "99.9%",
-    "context": "    { value: '10M+', label: t('seax.channels.sms.hero.stats.messagesSent') },\n    { value: '200+', label: t('seax.channels.sms.hero.stats.countries') },\n    { value: '99.9%', label: t('seax.channels.sms.hero.stats.uptime') },\n    { value: '98%', label: t('seax.channels.sms.hero.stats.deliveryRate') }\n  ];\n",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "98%",
-    "context": "    { value: '200+', label: t('seax.channels.sms.hero.stats.countries') },\n    { value: '99.9%', label: t('seax.channels.sms.hero.stats.uptime') },\n    { value: '98%', label: t('seax.channels.sms.hero.stats.deliveryRate') }\n  ];\n\n  return (",
-    "type": "data-structure",
-    "parentContext": "ObjectProperty"
-  },
-  {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "847K",
-    "context": "                  <div className=\"grid grid-cols-2 gap-4\">\n                    <div className=\"bg-blue-50 rounded-lg p-3 text-center\">\n                      <div className=\"text-2xl font-bold text-blue-600\">847K</div>\n                      <div className=\"text-sm text-gray-600\">{t('seax.channels.sms.hero.preview.delivered')}</div>\n                    </div>\n                    <div className=\"bg-green-50 rounded-lg p-3 text-center\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "98.2%",
-    "context": "                    </div>\n                    <div className=\"bg-green-50 rounded-lg p-3 text-center\">\n                      <div className=\"text-2xl font-bold text-green-600\">98.2%</div>\n                      <div className=\"text-sm text-gray-600\">{t('seax.channels.sms.hero.preview.successRate')}</div>\n                    </div>\n                  </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seax/pages/channels/SMS.tsx",
-    "text": "847K",
-    "context": " <div className=\"text-2xl font-bold text-blue-600\">847K</div>\n                      <div className=\""
-  },
-  {
     "file": "src/seax/pages/channels/SMSTollFree.tsx",
     "text": "1-800-SEAX-SMS",
     "context": "        {/* Dedicated Number (固定数字) */}\n        <div className=\"text-center\">\n          <div className=\"text-4xl font-bold text-blue-600 mb-2\">\n            1-800-SEAX-SMS\n          </div>\n          <div className=\"text-sm text-gray-600\">\n            {t('seax.channels.smsTollFree.hero.dedicatedNumber')}\n          </div>",

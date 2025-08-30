@@ -1,0 +1,111 @@
+{
+  "seax": {
+    "channels": {
+      "smsLocal": {
+        "title": "SMS Local (10DLC)",
+        "subtitle": "Professional SMS messaging with trusted local numbers",
+        "description": "Send high-volume SMS campaigns using registered 10DLC numbers that deliver exceptional reliability and carrier trust. Perfect for marketing campaigns, appointment reminders, and customer notifications.",
+        "seo": {
+          "title": "SMS Local (10DLC) - Professional Business Messaging | SeaX",
+          "description": "Send professional SMS campaigns with 10DLC local numbers. High deliverability, carrier trust, and compliance-ready messaging for your business communications."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Marketing Campaign Dashboard",
+            "status": "Active",
+            "messagesSentValue": "2,847",
+            "messagesSent": "Messages Sent",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Delivery Rate"
+          },
+          "recentActivity": {
+            "title": "Recent Activity",
+            "marketing": {
+              "title": "Flash Sale Campaign",
+              "details": "Sent to 1,523 subscribers • 89% delivered"
+            },
+            "appointment": {
+              "title": "Appointment Reminders",
+              "details": "247 reminders sent • 2% no-show rate"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Delivery Rate",
+          "openRateValue": "96%",
+          "openRate": "Open Rate",
+          "supportValue": "24/7",
+          "support": "Support"
+        },
+        "features": {
+          "title": "Key Features",
+          "subtitle": "Everything you need for professional SMS marketing",
+          "items": {
+            "0": "High deliverability with carrier trust",
+            "1": "10DLC registration and brand verification",
+            "2": "Campaign pre-approval process",
+            "3": "Two-way messaging support",
+            "4": "Advanced analytics and reporting",
+            "5": "Automated opt-out management",
+            "6": "Message templates and personalization",
+            "7": "Schedule and drip campaigns"
+          }
+        },
+        "useCases": {
+          "title": "Perfect Use Cases",
+          "subtitle": "Ideal applications for 10DLC messaging",
+          "items": {
+            "0": "Marketing campaigns and promotions",
+            "1": "Appointment reminders and confirmations",
+            "2": "Order status and shipping notifications",
+            "3": "Customer service and support",
+            "4": "Event notifications and alerts",
+            "5": "Survey and feedback collection",
+            "6": "Lead nurturing sequences",
+            "7": "Emergency and urgent communications"
+          }
+        },
+        "pricing": {
+          "title": "Simple, Transparent Pricing",
+          "subtitle": "No hidden fees, predictable costs",
+          "setup": {
+            "label": "Campaign Setup",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$2/number"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.02"
+          },
+          "note": "Brand registration and A2P registration required for 10DLC compliance"
+        },
+        "testimonial": {
+          "quote": "10DLC messaging has completely transformed our customer engagement. The delivery rates are outstanding, and customers trust our local numbers.",
+          "author": "Sarah Chen",
+          "company": "Marketing Director, GrowthTech",
+          "results": "Improved delivery rates by 35% and increased customer response rates by 42%"
+        },
+        "compliance": {
+          "title": "Compliance Made Simple",
+          "description": "We handle all the complex 10DLC requirements so you can focus on your messaging campaigns",
+          "brandRegistration": {
+            "title": "Brand Registration",
+            "description": "Complete brand verification process with carrier networks for maximum trust and deliverability"
+          },
+          "campaignApproval": {
+            "title": "Campaign Pre-Approval",
+            "description": "Get your campaigns approved by carriers before launch to ensure compliance and optimal performance"
+          },
+          "monitoring": {
+            "title": "Ongoing Monitoring",
+            "description": "Continuous monitoring of campaign performance and compliance metrics to maintain optimal delivery rates"
+          }
+        }
+      }
+    }
+  }
+}

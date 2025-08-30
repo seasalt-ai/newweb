@@ -6772,11 +6772,196 @@
             "messagesValue": "10M+",
             "countriesValue": "200+",
             "uptimeValue": "99.9%",
-            "deliveryValue": "98%"
+            "deliveryValue": "98%",
+            "messagesSent": "Messages Sent",
+            "countries": "Countries",
+            "uptime": "Uptime",
+            "deliveryRate": "Delivery Rate"
           },
           "preview": {
             "deliveredValue": "847K",
-            "successValue": "98.2%"
+            "successValue": "98.2%",
+            "title": "Live SMS Campaign",
+            "status": "Active",
+            "messageLabel": "Sample Message",
+            "message": "Hi [Name], Don't miss our exclusive 50% off sale ending today! Shop now: bit.ly/save50",
+            "delivered": "Delivered",
+            "successRate": "Success Rate"
+          },
+          "badge": "SMS Channel",
+          "title": "Scale Your SMS",
+          "titleHighlight": "To Millions",
+          "description": "Send personalized SMS messages to millions of customers worldwide with industry-leading delivery rates and real-time analytics.",
+          "cta": {
+            "primary": "Start Sending SMS",
+            "secondary": "Schedule Demo"
+          }
+        },
+        "seo": {
+          "title": "SMS Marketing & Communication Platform - SeaX by Seasalt.ai",
+          "description": "Send bulk SMS messages at scale with SeaX. Reach customers globally with 98% delivery rates, advanced analytics, and enterprise-grade security for marketing campaigns and communications."
+        },
+        "features": {
+          "title": "Powerful SMS Features",
+          "description": "Everything you need to create, send, and optimize SMS campaigns that drive results.",
+          "globalReach": {
+            "title": "Global Reach",
+            "description": "Send SMS to over 200 countries with direct carrier connections for optimal delivery rates."
+          },
+          "lightningFast": {
+            "title": "Lightning Fast",
+            "description": "Messages delivered within seconds with real-time status updates and delivery confirmations."
+          },
+          "secure": {
+            "title": "Enterprise Security",
+            "description": "Bank-grade encryption, GDPR compliance, and secure data handling for all your communications."
+          },
+          "analytics": {
+            "title": "Advanced Analytics",
+            "description": "Detailed reporting on delivery rates, click-through rates, and campaign performance metrics."
+          },
+          "bulk": {
+            "title": "Bulk Messaging",
+            "description": "Send millions of personalized messages simultaneously with smart scheduling and throttling."
+          },
+          "segmentation": {
+            "title": "Smart Segmentation",
+            "description": "Target specific customer segments with personalized messaging based on behavior and preferences."
+          }
+        },
+        "useCases": {
+          "title": "SMS Use Cases",
+          "description": "Discover how businesses use SMS to engage customers and drive growth.",
+          "marketing": {
+            "title": "Marketing Campaigns",
+            "description": "Drive sales with promotional messages, flash sales, and personalized offers.",
+            "metrics": "up to 45% open rates"
+          },
+          "support": {
+            "title": "Customer Support",
+            "description": "Send order updates, shipping notifications, and support messages.",
+            "metrics": "95% customer satisfaction"
+          },
+          "appointments": {
+            "title": "Appointment Reminders",
+            "description": "Reduce no-shows with automated appointment confirmations and reminders.",
+            "metrics": "60% reduction in no-shows"
+          },
+          "emergency": {
+            "title": "Emergency Alerts",
+            "description": "Send critical notifications and emergency communications instantly.",
+            "metrics": "99.9% delivery reliability"
+          }
+        },
+        "cta": {
+          "title": "Ready to Scale Your SMS?",
+          "description": "Join thousands of businesses using SeaX to reach millions of customers through SMS.",
+          "primary": "Get Started Free",
+          "secondary": "Book a Demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS Local (10DLC)",
+        "subtitle": "Professional SMS messaging with trusted local numbers",
+        "description": "Send high-volume SMS campaigns using registered 10DLC numbers that deliver exceptional reliability and carrier trust. Perfect for marketing campaigns, appointment reminders, and customer notifications.",
+        "seo": {
+          "title": "SMS Local (10DLC) - Professional Business Messaging | SeaX",
+          "description": "Send professional SMS campaigns with 10DLC local numbers. High deliverability, carrier trust, and compliance-ready messaging for your business communications."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Marketing Campaign Dashboard",
+            "status": "Active",
+            "messagesSentValue": "2,847",
+            "messagesSent": "Messages Sent",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Delivery Rate"
+          },
+          "recentActivity": {
+            "title": "Recent Activity",
+            "marketing": {
+              "title": "Flash Sale Campaign",
+              "details": "Sent to 1,523 subscribers • 89% delivered"
+            },
+            "appointment": {
+              "title": "Appointment Reminders",
+              "details": "247 reminders sent • 2% no-show rate"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Delivery Rate",
+          "openRateValue": "96%",
+          "openRate": "Open Rate",
+          "supportValue": "24/7",
+          "support": "Support"
+        },
+        "features": {
+          "title": "Key Features",
+          "subtitle": "Everything you need for professional SMS marketing",
+          "items": {
+            "0": "High deliverability with carrier trust",
+            "1": "10DLC registration and brand verification",
+            "2": "Campaign pre-approval process",
+            "3": "Two-way messaging support",
+            "4": "Advanced analytics and reporting",
+            "5": "Automated opt-out management",
+            "6": "Message templates and personalization",
+            "7": "Schedule and drip campaigns"
+          }
+        },
+        "useCases": {
+          "title": "Perfect Use Cases",
+          "subtitle": "Ideal applications for 10DLC messaging",
+          "items": {
+            "0": "Marketing campaigns and promotions",
+            "1": "Appointment reminders and confirmations",
+            "2": "Order status and shipping notifications",
+            "3": "Customer service and support",
+            "4": "Event notifications and alerts",
+            "5": "Survey and feedback collection",
+            "6": "Lead nurturing sequences",
+            "7": "Emergency and urgent communications"
+          }
+        },
+        "pricing": {
+          "title": "Simple, Transparent Pricing",
+          "subtitle": "No hidden fees, predictable costs",
+          "setup": {
+            "label": "Campaign Setup",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "Monthly",
+            "value": "$2/number"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.02"
+          },
+          "note": "Brand registration and A2P registration required for 10DLC compliance"
+        },
+        "testimonial": {
+          "quote": "10DLC messaging has completely transformed our customer engagement. The delivery rates are outstanding, and customers trust our local numbers.",
+          "author": "Sarah Chen",
+          "company": "Marketing Director, GrowthTech",
+          "results": "Improved delivery rates by 35% and increased customer response rates by 42%"
+        },
+        "compliance": {
+          "title": "Compliance Made Simple",
+          "description": "We handle all the complex 10DLC requirements so you can focus on your messaging campaigns",
+          "brandRegistration": {
+            "title": "Brand Registration",
+            "description": "Complete brand verification process with carrier networks for maximum trust and deliverability"
+          },
+          "campaignApproval": {
+            "title": "Campaign Pre-Approval",
+            "description": "Get your campaigns approved by carriers before launch to ensure compliance and optimal performance"
+          },
+          "monitoring": {
+            "title": "Ongoing Monitoring",
+            "description": "Continuous monitoring of campaign performance and compliance metrics to maintain optimal delivery rates"
           }
         }
       }
