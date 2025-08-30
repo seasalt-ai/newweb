@@ -9029,6 +9029,137 @@
         "voice": "Voice",
         "email": "Email"
       }
+    },
+    "realTimeDashboard": {
+      "badge": "Real-Time Analytics",
+      "title": {
+        "live": "Live",
+        "performance": "Performance",
+        "insights": "Insights"
+      },
+      "description": "Watch your campaigns perform in real-time with live metrics, engagement tracking, and instant performance insights. Make data-driven decisions as they happen.",
+      "metrics": {
+        "messagesSent": "Messages Sent",
+        "delivered": "Delivered",
+        "engagementRate": "Engagement Rate",
+        "activeUsers": "Active Users"
+      },
+      "liveUpdates": {
+        "title": "Live Updates",
+        "dataPoints": "data points refreshed"
+      },
+      "dashboard": {
+        "title": "Campaign Analytics",
+        "liveStatus": "Live",
+        "chartLabel": "Engagement Trend",
+        "sent": "Sent",
+        "delivered": "Delivered",
+        "engagement": "Engagement"
+      },
+      "activity": {
+        "title": "Live Activity"
+      },
+      "cards": {
+        "deliveryRate": "Delivery Rate",
+        "thisHour": "This Hour",
+        "liveUpdates": "Live Updates"
+      }
+    },
+    "scaleComparison": {
+      "badge": "Scale Comparison",
+      "title": {
+        "manual": "Manual vs",
+        "automated": "Automated",
+        "outreach": "Outreach"
+      },
+      "description": "See the dramatic difference between traditional manual outreach and SeaX's automated mass communication platform.",
+      "manual": {
+        "title": "Manual Outreach",
+        "person": "One person typing...",
+        "stats": {
+          "messagesPerDay": "Messages/Day",
+          "timeRequired": "Time Required",
+          "peopleReached": "People Reached",
+          "efficiency": "Efficiency"
+        },
+        "badge": "Limited Scale"
+      },
+      "vs": "VS",
+      "seax": {
+        "title": "SeaX Automated",
+        "aiPowered": "AI-Powered",
+        "stats": {
+          "messagesPerDay": "Messages/Day",
+          "timeRequired": "Time Required",
+          "peopleReached": "People Reached",
+          "efficiency": "Efficiency"
+        },
+        "badge": "Unlimited Scale"
+      },
+      "advantage": {
+        "title": "The SeaX Advantage",
+        "fasterExecution": "Faster Execution",
+        "moreReach": "More Reach",
+        "higherEfficiency": "Higher Efficiency"
+      }
+    },
+    "pages": {
+      "channelsOverview": {
+        "seo": {
+          "title": "SeaX ChannelsOverview - Coming Soon",
+          "description": "SeaX ChannelsOverview page is coming soon."
+        },
+        "title": "ChannelsOverview",
+        "comingSoon": "Coming Soon",
+        "description": "We're building out the complete ChannelsOverview experience."
+      }
+    }
+  },
+  "statsCounter": {
+    "stats": {
+      "messages": {
+        "label": "Messages Sent Daily"
+      },
+      "calls": {
+        "label": "Calls Per Hour"
+      },
+      "uptime": {
+        "label": "Uptime Guarantee"
+      },
+      "countries": {
+        "label": "Countries Supported"
+      },
+      "roi": {
+        "label": "Average ROI"
+      }
+    },
+    "section": {
+      "title": "Powering High-Volume Communication",
+      "subtitle": "Join thousands of businesses that trust SeaX to deliver their most important messages at scale"
+    },
+    "dashboard": {
+      "title": "SeaX Dashboard",
+      "messagesSent": "Messages Sent",
+      "deliveryRate": "Delivery Rate",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Flash Sale Campaign",
+        "detail": "50,000 SMS sent • 2 min ago"
+      },
+      "leadFollowup": {
+        "title": "Lead Follow-up",
+        "detail": "12,000 calls completed • 5 min ago"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Campaign",
+        "detail": "25,000 messages queued • 8 min ago"
+      }
+    },
+    "status": {
+      "liveRunning": "Live campaigns running",
+      "liveActivity": "Live activity: Messages being sent right now"
     }
   }
 }

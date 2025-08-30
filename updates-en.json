@@ -1,10 +1,49 @@
 {
-  "footer": {
-    "technical": {
-      "tenDlc": "10DLC",
-      "tollFree": "8XX",
-      "sms": "SMS",
-      "shortCode": "xxxxx"
+  "statsCounter": {
+    "stats": {
+      "messages": {
+        "label": "Messages Sent Daily"
+      },
+      "calls": {
+        "label": "Calls Per Hour"
+      },
+      "uptime": {
+        "label": "Uptime Guarantee"
+      },
+      "countries": {
+        "label": "Countries Supported"
+      },
+      "roi": {
+        "label": "Average ROI"
+      }
+    },
+    "section": {
+      "title": "Powering High-Volume Communication",
+      "subtitle": "Join thousands of businesses that trust SeaX to deliver their most important messages at scale"
+    },
+    "dashboard": {
+      "title": "SeaX Dashboard",
+      "messagesSent": "Messages Sent",
+      "deliveryRate": "Delivery Rate",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Flash Sale Campaign",
+        "detail": "50,000 SMS sent • 2 min ago"
+      },
+      "leadFollowup": {
+        "title": "Lead Follow-up",
+        "detail": "12,000 calls completed • 5 min ago"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Campaign",
+        "detail": "25,000 messages queued • 8 min ago"
+      }
+    },
+    "status": {
+      "liveRunning": "Live campaigns running",
+      "liveActivity": "Live activity: Messages being sent right now"
     }
   }
 }

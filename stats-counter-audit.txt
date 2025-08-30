@@ -1,0 +1,52 @@
+StatsCounter.tsx Internationalization Audit
+==========================================
+
+FOUND 28 HARDCODED STRINGS requiring translation keys:
+
+## 1. Statistics Data Labels
+- "Messages Sent Daily" (line 16)
+- "Calls Per Hour" (line 24) 
+- "Uptime Guarantee" (line 32)
+- "Countries Supported" (line 40)
+- "Average ROI" (line 48)
+
+## 2. Section Titles & Headers
+- "Powering High-Volume Communication" (line 108)
+- "Join thousands of businesses that trust SeaX to deliver their most important messages at scale" (line 111)
+
+## 3. Dashboard UI Components
+- "SeaX Dashboard" (line 141)
+- "Messages Sent" (line 148)
+- "Delivery Rate" (line 152)
+- "Recent Activity" (line 158)
+
+## 4. Campaign Activity Items
+- "Flash Sale Campaign" (line 162)
+- "50,000 SMS sent • 2 min ago" (line 163)
+- "Lead Follow-up" (line 169)
+- "12,000 calls completed • 5 min ago" (line 170)
+- "WhatsApp Campaign" (line 176)
+- "25,000 messages queued • 8 min ago" (line 177)
+
+## 5. Status Indicators
+- "Live campaigns running" (line 185)
+- "Live activity: Messages being sent right now" (line 194)
+
+## 6. Numeric Values & Formatted Text
+- "10,000,000" (line 17) - dynamic value
+- "500,000" (line 25) - dynamic value  
+- "99.9" (line 33) - dynamic value
+- "200" (line 41) - dynamic value
+- "400" (line 49) - dynamic value
+- "M+", "K+", "%", "+" (suffixes - lines 19, 27, 35, 43, 51)
+- "2.4M" (line 147) - dashboard value
+- "85%" (line 151) - dashboard percentage
+
+CATEGORIES FOR TRANSLATION KEYS:
+1. stats.* - Statistics labels and descriptions
+2. statsCounter.section.* - Section headers
+3. statsCounter.dashboard.* - Dashboard UI elements
+4. statsCounter.activity.* - Recent activity items
+5. statsCounter.status.* - Status indicators
+
+Total: 28 hardcoded strings requiring internationalization

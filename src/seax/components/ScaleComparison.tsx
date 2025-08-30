@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { User, Users, MessageSquare, Phone, Clock, TrendingUp, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface ComparisonData {
   manual: {
@@ -18,6 +19,7 @@ interface ComparisonData {
 }
 
 const ScaleComparison = () => {
+  const { t } = useTranslation();
   const [animationPhase, setAnimationPhase] = useState(0); // 0: manual, 1: transition, 2: seax
   const [comparisonData, setComparisonData] = useState<ComparisonData>({
     manual: {
@@ -120,20 +122,19 @@ const ScaleComparison = () => {
             className="inline-flex items-center px-4 py-2 bg-orange-100 rounded-full text-orange-800 text-sm font-medium mb-8"
           >
             <TrendingUp className="w-4 h-4 mr-2" />
-            Scale Comparison
+            {t('seax.scaleComparison.badge')}
           </motion.div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-8">
-            <span className="block">Manual vs</span>
+            <span className="block">{t('seax.scaleComparison.title.manual')}</span>
             <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-              Automated
+              {t('seax.scaleComparison.title.automated')}
             </span>
-            <span className="block">Outreach</span>
+            <span className="block">{t('seax.scaleComparison.title.outreach')}</span>
           </h1>
 
           <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            See the dramatic difference between traditional manual outreach and 
-            SeaX's automated mass communication platform.
+            {t('seax.scaleComparison.description')}
           </p>
         </div>
 
@@ -148,7 +149,7 @@ const ScaleComparison = () => {
           >
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-200">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-bold text-gray-900">Manual Outreach</h2>
+                <h2 className="text-2xl font-bold text-gray-900">{t('seax.scaleComparison.manual.title')}</h2>
                 <div className="flex items-center space-x-2 text-orange-600">
                   <User className="w-6 h-6" />
                   <Clock className="w-6 h-6" />
@@ -160,7 +161,7 @@ const ScaleComparison = () => {
                 <div className="absolute inset-0 flex items-center justify-center text-gray-400">
                   <div className="text-center">
                     <User className="w-12 h-12 mx-auto mb-2" />
-                    <div className="text-sm">One person typing...</div>
+                    <div className="text-sm">{t('seax.scaleComparison.manual.person')}</div>
                   </div>
                 </div>
 
@@ -200,11 +201,11 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.manual.messages.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">Messages/Day</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.messagesPerDay')}</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <div className="text-2xl font-bold text-orange-600 mb-1">{comparisonData.manual.time}</div>
-                  <div className="text-sm text-gray-600">Time Required</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.timeRequired')}</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <motion.div
@@ -215,11 +216,11 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.manual.reach}
                   </motion.div>
-                  <div className="text-sm text-gray-600">People Reached</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.peopleReached')}</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <div className="text-2xl font-bold text-orange-600 mb-1">{comparisonData.manual.efficiency}%</div>
-                  <div className="text-sm text-gray-600">Efficiency</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.efficiency')}</div>
                 </div>
               </div>
             </div>
@@ -230,7 +231,7 @@ const ScaleComparison = () => {
               transition={{ duration: 2, repeat: Infinity }}
               className="absolute -bottom-4 left-4 bg-red-500 text-white rounded-lg p-3 shadow-lg"
             >
-              <div className="text-sm font-medium">Limited Scale</div>
+              <div className="text-sm font-medium">{t('seax.scaleComparison.manual.badge')}</div>
             </motion.div>
           </motion.div>
 
@@ -247,7 +248,7 @@ const ScaleComparison = () => {
               }}
               className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-xl"
             >
-              VS
+              {t('seax.scaleComparison.vs')}
             </motion.div>
           </div>
 
@@ -260,7 +261,7 @@ const ScaleComparison = () => {
           >
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-200">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-bold text-gray-900">SeaX Automated</h2>
+                <h2 className="text-2xl font-bold text-gray-900">{t('seax.scaleComparison.seax.title')}</h2>
                 <div className="flex items-center space-x-2 text-blue-600">
                   <Zap className="w-6 h-6" />
                   <Users className="w-6 h-6" />
@@ -271,7 +272,7 @@ const ScaleComparison = () => {
               <div className="relative h-64 bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg mb-6 overflow-hidden">
                 <div className="absolute top-4 left-4 flex items-center space-x-2 text-blue-600">
                   <Zap className="w-4 h-4" />
-                  <span className="text-sm font-medium">AI-Powered</span>
+                  <span className="text-sm font-medium">{t('seax.scaleComparison.seax.aiPowered')}</span>
                 </div>
 
                 {/* SeaX message explosion */}
@@ -334,11 +335,11 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.seax.messages.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">Messages/Day</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.messagesPerDay')}</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <div className="text-2xl font-bold text-blue-600 mb-1">{comparisonData.seax.time}</div>
-                  <div className="text-sm text-gray-600">Time Required</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.timeRequired')}</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <motion.div
@@ -349,11 +350,11 @@ const ScaleComparison = () => {
                   >
                     {comparisonData.seax.reach.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">People Reached</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.peopleReached')}</div>
                 </div>
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <div className="text-2xl font-bold text-blue-600 mb-1">{comparisonData.seax.efficiency}%</div>
-                  <div className="text-sm text-gray-600">Efficiency</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.efficiency')}</div>
                 </div>
               </div>
             </div>
@@ -364,7 +365,7 @@ const ScaleComparison = () => {
               transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
               className="absolute -bottom-4 right-4 bg-green-500 text-white rounded-lg p-3 shadow-lg"
             >
-              <div className="text-sm font-medium">Unlimited Scale</div>
+              <div className="text-sm font-medium">{t('seax.scaleComparison.seax.badge')}</div>
             </motion.div>
           </motion.div>
         </div>
@@ -377,19 +378,19 @@ const ScaleComparison = () => {
           className="mt-16 text-center"
         >
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-8 shadow-xl">
-            <h3 className="text-3xl font-bold mb-4">The SeaX Advantage</h3>
+            <h3 className="text-3xl font-bold mb-4">{t('seax.scaleComparison.advantage.title')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
                 <div className="text-4xl font-bold mb-2">5000x</div>
-                <div className="text-blue-100">Faster Execution</div>
+                <div className="text-blue-100">{t('seax.scaleComparison.advantage.fasterExecution')}</div>
               </div>
               <div>
                 <div className="text-4xl font-bold mb-2">20000x</div>
-                <div className="text-blue-100">More Reach</div>
+                <div className="text-blue-100">{t('seax.scaleComparison.advantage.moreReach')}</div>
               </div>
               <div>
                 <div className="text-4xl font-bold mb-2">280%</div>
-                <div className="text-blue-100">Higher Efficiency</div>
+                <div className="text-blue-100">{t('seax.scaleComparison.advantage.higherEfficiency')}</div>
               </div>
             </div>
           </div>
