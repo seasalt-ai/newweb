@@ -8,159 +8,159 @@ const SaaSPage = () => {
   const features = [
     {
       icon: Code,
-      title: t('seachat.solutions.saas.features.technical.title', 'Technical Support'),
-      description: t('seachat.solutions.saas.features.technical.description', 'Provide expert technical assistance for software issues and integrations'),
+      title: t('seachat.solutions.saas.features.technical.title'),
+      description: t('seachat.solutions.saas.features.technical.description'),
       benefits: [
-        t('seachat.solutions.saas.features.technical.benefits.api', 'API documentation help'), 
-        t('seachat.solutions.saas.features.technical.benefits.integration', 'Integration support'), 
-        t('seachat.solutions.saas.features.technical.benefits.troubleshooting', 'Troubleshooting guides'), 
-        t('seachat.solutions.saas.features.technical.benefits.resources', 'Developer resources')
+        t('seachat.solutions.saas.features.technical.benefits.api'), 
+        t('seachat.solutions.saas.features.technical.benefits.integration'), 
+        t('seachat.solutions.saas.features.technical.benefits.troubleshooting'), 
+        t('seachat.solutions.saas.features.technical.benefits.resources')
       ]
     },
     {
       icon: Users,
-      title: t('seachat.solutions.saas.features.onboarding.title', 'User Onboarding'),
-      description: t('seachat.solutions.saas.features.onboarding.description', 'Streamline user onboarding with guided setup and feature introduction'),
+      title: t('seachat.solutions.saas.features.onboarding.title'),
+      description: t('seachat.solutions.saas.features.onboarding.description'),
       benefits: [
-        t('seachat.solutions.saas.features.onboarding.benefits.tutorials', 'Interactive tutorials'), 
-        t('seachat.solutions.saas.features.onboarding.benefits.walkthroughs', 'Feature walkthroughs'), 
-        t('seachat.solutions.saas.features.onboarding.benefits.setup', 'Setup assistance'), 
-        t('seachat.solutions.saas.features.onboarding.benefits.practices', 'Best practices')
+        t('seachat.solutions.saas.features.onboarding.benefits.tutorials'), 
+        t('seachat.solutions.saas.features.onboarding.benefits.walkthroughs'), 
+        t('seachat.solutions.saas.features.onboarding.benefits.setup'), 
+        t('seachat.solutions.saas.features.onboarding.benefits.practices')
       ]
     },
     {
       icon: TrendingUp,
-      title: t('seachat.solutions.saas.features.success.title', 'Customer Success'),
-      description: t('seachat.solutions.saas.features.success.description', 'Drive product adoption and reduce churn with proactive support'),
+      title: t('seachat.solutions.saas.features.success.title'),
+      description: t('seachat.solutions.saas.features.success.description'),
       benefits: [
-        t('seachat.solutions.saas.features.success.benefits.analytics', 'Usage analytics'), 
-        t('seachat.solutions.saas.features.success.benefits.adoption', 'Feature adoption'), 
-        t('seachat.solutions.saas.features.success.benefits.churn', 'Churn prevention'), 
-        t('seachat.solutions.saas.features.success.benefits.upselling', 'Upselling opportunities')
+        t('seachat.solutions.saas.features.success.benefits.analytics'), 
+        t('seachat.solutions.saas.features.success.benefits.adoption'), 
+        t('seachat.solutions.saas.features.success.benefits.churn'), 
+        t('seachat.solutions.saas.features.success.benefits.upselling')
       ]
     },
     {
       icon: Shield,
-      title: t('seachat.solutions.saas.features.security.title', 'Security & Compliance'),
-      description: t('seachat.solutions.saas.features.security.description', 'Address security concerns and compliance requirements'),
+      title: t('seachat.solutions.saas.features.security.title'),
+      description: t('seachat.solutions.saas.features.security.description'),
       benefits: [
-        t('seachat.solutions.saas.features.security.benefits.documentation', 'Security documentation'), 
-        t('seachat.solutions.saas.features.security.benefits.compliance', 'Compliance guides'), 
-        t('seachat.solutions.saas.features.security.benefits.protection', 'Data protection'), 
-        t('seachat.solutions.saas.features.security.benefits.audit', 'Audit support')
+        t('seachat.solutions.saas.features.security.benefits.documentation'), 
+        t('seachat.solutions.saas.features.security.benefits.compliance'), 
+        t('seachat.solutions.saas.features.security.benefits.protection'), 
+        t('seachat.solutions.saas.features.security.benefits.audit')
       ]
     }
   ];
 
   const useCases = [
     {
-      title: t('seachat.solutions.saas.useCases.api.title', 'API Integration Help'),
-      description: t('seachat.solutions.saas.useCases.api.description', 'Assist developers with API implementation and troubleshooting'),
-      example: t('seachat.solutions.saas.useCases.api.example', '"How do I authenticate with your API?"'),
-      outcome: t('seachat.solutions.saas.useCases.api.outcome', 'Step-by-step authentication guide with code examples and testing tools')
+      title: t('seachat.solutions.saas.useCases.api.title'),
+      description: t('seachat.solutions.saas.useCases.api.description'),
+      example: t('seachat.solutions.saas.useCases.api.example'),
+      outcome: t('seachat.solutions.saas.useCases.api.outcome')
     },
     {
-      title: t('seachat.solutions.saas.useCases.feature.title', 'Feature Guidance'),
-      description: t('seachat.solutions.saas.useCases.feature.description', 'Help users discover and implement advanced features'),
-      example: t('seachat.solutions.saas.useCases.feature.example', '"How do I set up automated workflows?"'),
-      outcome: t('seachat.solutions.saas.useCases.feature.outcome', 'Interactive tutorial with workflow templates and configuration assistance')
+      title: t('seachat.solutions.saas.useCases.feature.title'),
+      description: t('seachat.solutions.saas.useCases.feature.description'),
+      example: t('seachat.solutions.saas.useCases.feature.example'),
+      outcome: t('seachat.solutions.saas.useCases.feature.outcome')
     },
     {
-      title: t('seachat.solutions.saas.useCases.billing.title', 'Billing & Subscriptions'),
-      description: t('seachat.solutions.saas.useCases.billing.description', 'Handle billing inquiries and subscription management'),
-      example: t('seachat.solutions.saas.useCases.billing.example', '"I want to upgrade my plan, what are the differences?"'),
-      outcome: t('seachat.solutions.saas.useCases.billing.outcome', 'Plan comparison with pricing details and upgrade assistance')
+      title: t('seachat.solutions.saas.useCases.billing.title'),
+      description: t('seachat.solutions.saas.useCases.billing.description'),
+      example: t('seachat.solutions.saas.useCases.billing.example'),
+      outcome: t('seachat.solutions.saas.useCases.billing.outcome')
     },
     {
-      title: t('seachat.solutions.saas.useCases.performance.title', 'Performance Optimization'),
-      description: t('seachat.solutions.saas.useCases.performance.description', 'Provide guidance on optimizing software performance'),
-      example: t('seachat.solutions.saas.useCases.performance.example', '"My dashboard is loading slowly, how can I fix this?"'),
-      outcome: t('seachat.solutions.saas.useCases.performance.outcome', 'Performance analysis with optimization recommendations and implementation help')
+      title: t('seachat.solutions.saas.useCases.performance.title'),
+      description: t('seachat.solutions.saas.useCases.performance.description'),
+      example: t('seachat.solutions.saas.useCases.performance.example'),
+      outcome: t('seachat.solutions.saas.useCases.performance.outcome')
     }
   ];
 
   const metrics = [
     { 
       value: '70%', 
-      label: t('seachat.solutions.saas.metrics.tickets.label', 'Reduced Support Tickets'), 
-      description: t('seachat.solutions.saas.metrics.tickets.description', 'Through self-service automation') 
+      label: t('seachat.solutions.saas.metrics.tickets.label'), 
+      description: t('seachat.solutions.saas.metrics.tickets.description') 
     },
     { 
       value: '45%', 
-      label: t('seachat.solutions.saas.metrics.onboarding.label', 'Faster Onboarding'), 
-      description: t('seachat.solutions.saas.metrics.onboarding.description', 'With guided setup assistance') 
+      label: t('seachat.solutions.saas.metrics.onboarding.label'), 
+      description: t('seachat.solutions.saas.metrics.onboarding.description') 
     },
     { 
       value: '60%', 
-      label: t('seachat.solutions.saas.metrics.adoption.label', 'Higher Feature Adoption'), 
-      description: t('seachat.solutions.saas.metrics.adoption.description', 'Through proactive feature guidance') 
+      label: t('seachat.solutions.saas.metrics.adoption.label'), 
+      description: t('seachat.solutions.saas.metrics.adoption.description') 
     },
     { 
       value: '35%', 
-      label: t('seachat.solutions.saas.metrics.churn.label', 'Reduced Churn Rate'), 
-      description: t('seachat.solutions.saas.metrics.churn.description', 'With proactive customer success') 
+      label: t('seachat.solutions.saas.metrics.churn.label'), 
+      description: t('seachat.solutions.saas.metrics.churn.description') 
     }
   ];
 
   const saasTypes = [
     {
-      title: t('seachat.solutions.saas.types.b2b.title', 'B2B SaaS Platforms'),
-      description: t('seachat.solutions.saas.types.b2b.description', 'Enterprise software and business tools'),
+      title: t('seachat.solutions.saas.types.b2b.title'),
+      description: t('seachat.solutions.saas.types.b2b.description'),
       features: [
-        t('seachat.solutions.saas.types.b2b.features.tenant', 'Multi-tenant support'), 
-        t('seachat.solutions.saas.types.b2b.features.security', 'Enterprise security'), 
-        t('seachat.solutions.saas.types.b2b.features.api', 'API documentation'), 
-        t('seachat.solutions.saas.types.b2b.features.assistance', 'Integration assistance')
+        t('seachat.solutions.saas.types.b2b.features.tenant'), 
+        t('seachat.solutions.saas.types.b2b.features.security'), 
+        t('seachat.solutions.saas.types.b2b.features.api'), 
+        t('seachat.solutions.saas.types.b2b.features.assistance')
       ]
     },
     {
-      title: t('seachat.solutions.saas.types.developer.title', 'Developer Tools'),
-      description: t('seachat.solutions.saas.types.developer.description', 'APIs, SDKs, and development platforms'),
+      title: t('seachat.solutions.saas.types.developer.title'),
+      description: t('seachat.solutions.saas.types.developer.description'),
       features: [
-        t('seachat.solutions.saas.types.developer.features.examples', 'Code examples'), 
-        t('seachat.solutions.saas.types.developer.features.documentation', 'Technical documentation'), 
-        t('seachat.solutions.saas.types.developer.features.debugging', 'Debugging help'), 
-        t('seachat.solutions.saas.types.developer.features.community', 'Community support')
+        t('seachat.solutions.saas.types.developer.features.examples'), 
+        t('seachat.solutions.saas.types.developer.features.documentation'), 
+        t('seachat.solutions.saas.types.developer.features.debugging'), 
+        t('seachat.solutions.saas.types.developer.features.community')
       ]
     },
     {
-      title: t('seachat.solutions.saas.types.marketing.title', 'Marketing Software'),
-      description: t('seachat.solutions.saas.types.marketing.description', 'Marketing automation and analytics tools'),
+      title: t('seachat.solutions.saas.types.marketing.title'),
+      description: t('seachat.solutions.saas.types.marketing.description'),
       features: [
-        t('seachat.solutions.saas.types.marketing.features.campaign', 'Campaign setup'), 
-        t('seachat.solutions.saas.types.marketing.features.analytics', 'Analytics guidance'), 
-        t('seachat.solutions.saas.types.marketing.features.integration', 'Integration help'), 
-        t('seachat.solutions.saas.types.marketing.features.practices', 'Best practices')
+        t('seachat.solutions.saas.types.marketing.features.campaign'), 
+        t('seachat.solutions.saas.types.marketing.features.analytics'), 
+        t('seachat.solutions.saas.types.marketing.features.integration'), 
+        t('seachat.solutions.saas.types.marketing.features.practices')
       ]
     },
     {
-      title: t('seachat.solutions.saas.types.productivity.title', 'Productivity Apps'),
-      description: t('seachat.solutions.saas.types.productivity.description', 'Collaboration and productivity software'),
+      title: t('seachat.solutions.saas.types.productivity.title'),
+      description: t('seachat.solutions.saas.types.productivity.description'),
       features: [
-        t('seachat.solutions.saas.types.productivity.features.tutorials', 'Feature tutorials'), 
-        t('seachat.solutions.saas.types.productivity.features.workflow', 'Workflow optimization'), 
-        t('seachat.solutions.saas.types.productivity.features.team', 'Team setup'), 
-        t('seachat.solutions.saas.types.productivity.features.usage', 'Usage analytics')
+        t('seachat.solutions.saas.types.productivity.features.tutorials'), 
+        t('seachat.solutions.saas.types.productivity.features.workflow'), 
+        t('seachat.solutions.saas.types.productivity.features.team'), 
+        t('seachat.solutions.saas.types.productivity.features.usage')
       ]
     },
     {
-      title: t('seachat.solutions.saas.types.ecommerce.title', 'E-commerce Platforms'),
-      description: t('seachat.solutions.saas.types.ecommerce.description', 'Online store and payment solutions'),
+      title: t('seachat.solutions.saas.types.ecommerce.title'),
+      description: t('seachat.solutions.saas.types.ecommerce.description'),
       features: [
-        t('seachat.solutions.saas.types.ecommerce.features.store', 'Store setup'), 
-        t('seachat.solutions.saas.types.ecommerce.features.payment', 'Payment integration'), 
-        t('seachat.solutions.saas.types.ecommerce.features.theme', 'Theme customization'), 
-        t('seachat.solutions.saas.types.ecommerce.features.performance', 'Performance optimization')
+        t('seachat.solutions.saas.types.ecommerce.features.store'), 
+        t('seachat.solutions.saas.types.ecommerce.features.payment'), 
+        t('seachat.solutions.saas.types.ecommerce.features.theme'), 
+        t('seachat.solutions.saas.types.ecommerce.features.performance')
       ]
     },
     {
-      title: t('seachat.solutions.saas.types.analytics.title', 'Analytics Platforms'),
-      description: t('seachat.solutions.saas.types.analytics.description', 'Data analytics and business intelligence'),
+      title: t('seachat.solutions.saas.types.analytics.title'),
+      description: t('seachat.solutions.saas.types.analytics.description'),
       features: [
-        t('seachat.solutions.saas.types.analytics.features.dashboard', 'Dashboard creation'), 
-        t('seachat.solutions.saas.types.analytics.features.data', 'Data integration'), 
-        t('seachat.solutions.saas.types.analytics.features.report', 'Report generation'), 
-        t('seachat.solutions.saas.types.analytics.features.visualization', 'Visualization help')
+        t('seachat.solutions.saas.types.analytics.features.dashboard'), 
+        t('seachat.solutions.saas.types.analytics.features.data'), 
+        t('seachat.solutions.saas.types.analytics.features.report'), 
+        t('seachat.solutions.saas.types.analytics.features.visualization')
       ]
     }
   ];
@@ -177,11 +177,11 @@ const SaaSPage = () => {
             <div className="flex items-center justify-center mb-6">
               <Cloud className="w-16 h-16 text-indigo-300 mr-4" />
               <h1 className="text-5xl md:text-6xl font-bold">
-                {t('seachat.solutions.saas.title', 'SaaS & Technology')}
+                {t('seachat.solutions.saas.title')}
               </h1>
             </div>
             <p className="text-2xl text-indigo-200 mb-8 max-w-4xl mx-auto">
-              {t('seachat.solutions.saas.subtitle', 'Accelerate user adoption and reduce churn with intelligent customer support that provides technical assistance, onboarding guidance, and proactive success management.')}
+              {t('seachat.solutions.saas.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -190,7 +190,7 @@ const SaaSPage = () => {
               rel="noopener noreferrer"
               className="bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
             >
-              {t('seachat.solutions.saas.trialButton', 'Start SaaS For Free')}
+              {t('seachat.solutions.saas.trialButton')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
@@ -198,7 +198,7 @@ const SaaSPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
             >
-              {t('seachat.solutions.saas.demoButton', 'Schedule SaaS Demo')}
+              {t('seachat.solutions.saas.demoButton')}
             </a>
             </div>
           </div>
@@ -210,10 +210,10 @@ const SaaSPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('seachat.solutions.saas.featuresTitle', 'SaaS-Specific Features')}
+              {t('seachat.solutions.saas.featuresTitle')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('seachat.solutions.saas.featuresSubtitle', 'Purpose-built features for SaaS companies to drive user success and business growth.')}
+              {t('seachat.solutions.saas.featuresSubtitle')}
             </p>
           </div>
 
@@ -252,10 +252,10 @@ const SaaSPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('seachat.solutions.saas.typesTitle', 'All SaaS Categories Supported')}
+              {t('seachat.solutions.saas.typesTitle')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('seachat.solutions.saas.typesSubtitle', 'From enterprise platforms to developer tools, we support every type of SaaS business.')}
+              {t('seachat.solutions.saas.typesSubtitle')}
             </p>
           </div>
 
@@ -287,10 +287,10 @@ const SaaSPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('seachat.solutions.saas.impactTitle', 'SaaS Business Impact')}
+              {t('seachat.solutions.saas.impactTitle')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('seachat.solutions.saas.impactSubtitle', 'Real results from SaaS companies using SeaChat for customer support and success.')}
+              {t('seachat.solutions.saas.impactSubtitle')}
             </p>
           </div>
 
@@ -314,10 +314,10 @@ const SaaSPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('seachat.solutions.saas.useCasesTitle', 'SaaS Support Use Cases')}
+              {t('seachat.solutions.saas.useCasesTitle')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('seachat.solutions.saas.useCasesSubtitle', 'See how SeaChat handles typical SaaS customer interactions and technical support.')}
+              {t('seachat.solutions.saas.useCasesSubtitle')}
             </p>
           </div>
 
@@ -332,12 +332,12 @@ const SaaSPage = () => {
                 
                 <div className="space-y-4">
                   <div className="bg-indigo-50 rounded-lg p-4 border-l-4 border-indigo-500">
-                    <h4 className="font-semibold text-indigo-900 mb-2">{t('seachat.solutions.saas.userQuestion', 'User Question')}:</h4>
+                    <h4 className="font-semibold text-indigo-900 mb-2">{t('seachat.solutions.saas.userQuestion')}:</h4>
                     <p className="text-indigo-800 italic">"{useCase.example}"</p>
                   </div>
                   
                   <div className="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
-                    <h4 className="font-semibold text-green-900 mb-2">{t('seachat.solutions.saas.seachatResponse', 'SeaChat Response')}:</h4>
+                    <h4 className="font-semibold text-green-900 mb-2">{t('seachat.solutions.saas.seachatResponse')}:</h4>
                     <p className="text-green-800">{useCase.outcome}</p>
                   </div>
                 </div>
@@ -353,10 +353,10 @@ const SaaSPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                {t('seachat.solutions.saas.integrationsTitle', 'SaaS Platform Integrations')}
+                {t('seachat.solutions.saas.integrationsTitle')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                {t('seachat.solutions.saas.integrationsSubtitle', 'Connect with the tools and platforms that power your SaaS business for unified customer success operations.')}
+                {t('seachat.solutions.saas.integrationsSubtitle')}
               </p>
               
               <div className="grid md:grid-cols-1 gap-4">
@@ -370,37 +370,37 @@ const SaaSPage = () => {
             </div>
             
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seachat.solutions.saas.successFlowTitle', 'Customer Success Flow')}</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seachat.solutions.saas.successFlowTitle')}</h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.onboarding.title', 'User Onboarding')}</h4>
-                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.onboarding.description', 'Guided setup and feature introduction')}</p>
+                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.onboarding.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.onboarding.description')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.adoption.title', 'Feature Adoption')}</h4>
-                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.adoption.description', 'Proactive feature recommendations')}</p>
+                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.adoption.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.adoption.description')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.monitoring.title', 'Usage Monitoring')}</h4>
-                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.monitoring.description', 'Track engagement and identify issues')}</p>
+                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.monitoring.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.monitoring.description')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">4</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.growth.title', 'Success & Growth')}</h4>
-                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.growth.description', 'Upselling and expansion opportunities')}</p>
+                    <h4 className="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.growth.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.growth.description')}</p>
                   </div>
                 </div>
               </div>
@@ -413,10 +413,10 @@ const SaaSPage = () => {
       <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            {t('seachat.solutions.saas.ctaTitle', 'Ready to Accelerate SaaS Growth?')}
+            {t('seachat.solutions.saas.ctaTitle')}
           </h2>
           <p className="text-xl text-indigo-100 mb-8 max-w-3xl mx-auto">
-            {t('seachat.solutions.saas.ctaSubtitle', 'Join SaaS companies already using SeaChat to drive user adoption, reduce churn, and accelerate customer success.')}
+            {t('seachat.solutions.saas.ctaSubtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -425,7 +425,7 @@ const SaaSPage = () => {
               rel="noopener noreferrer"
               className="bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
             >
-              {t('seachat.solutions.saas.ctaTrialButton', 'Start SaaS For Free')}
+              {t('seachat.solutions.saas.ctaTrialButton')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
@@ -433,7 +433,7 @@ const SaaSPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
             >
-              {t('seachat.solutions.saas.ctaDemoButton', 'Schedule SaaS Demo')}
+              {t('seachat.solutions.saas.ctaDemoButton')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </div>

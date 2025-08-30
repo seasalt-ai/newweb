@@ -358,7 +358,7 @@ const MarketingPage = () => {
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="text-gray-700">{feature.title || String(feature)}</span>
                   </div>
                 ))}
               </div>
