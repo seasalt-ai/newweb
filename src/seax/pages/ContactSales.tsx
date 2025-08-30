@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import SEOHelmet from '../../components/SEOHelmet';
 import { 
@@ -15,6 +16,8 @@ import {
 } from 'lucide-react';
 
 const ContactSales = () => {
+  const { t } = useTranslation();
+  
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -50,38 +53,38 @@ const ContactSales = () => {
   const contactMethods = [
     {
       icon: Mail,
-      title: 'Email Us',
-      description: 'Get in touch via email',
-      action: 'sales@seax.com',
+      title: t('seax.contactSales.contactMethods.email.title'),
+      description: t('seax.contactSales.contactMethods.email.description'),
+      action: t('seax.contactSales.contactMethods.email.action'),
       color: 'blue'
     },
     {
       icon: Phone,
-      title: 'Call Us',
-      description: 'Speak with a sales expert',
-      action: '+1 (555) 123-SEAX',
+      title: t('seax.contactSales.contactMethods.phone.title'),
+      description: t('seax.contactSales.contactMethods.phone.description'),
+      action: t('seax.contactSales.contactMethods.phone.action'),
       color: 'green'
     },
     {
       icon: Calendar,
-      title: 'Book a Demo',
-      description: 'Schedule a live demo',
-      action: 'Schedule Now',
+      title: t('seax.contactSales.contactMethods.demo.title'),
+      description: t('seax.contactSales.contactMethods.demo.description'),
+      action: t('seax.contactSales.contactMethods.demo.action'),
       color: 'purple'
     },
     {
       icon: MessageCircle,
-      title: 'Live Chat',
-      description: 'Chat with our team',
-      action: 'Start Chat',
+      title: t('seax.contactSales.contactMethods.chat.title'),
+      description: t('seax.contactSales.contactMethods.chat.description'),
+      action: t('seax.contactSales.contactMethods.chat.action'),
       color: 'orange'
     }
   ];
 
   const stats = [
-    { value: '< 24h', label: 'Response Time' },
-    { value: '95%', label: 'Customer Satisfaction' },
-    { value: '10K+', label: 'Businesses Served' }
+    { value: t('seax.contactSales.stats.responseTime.value'), label: t('seax.contactSales.stats.responseTime.label') },
+    { value: t('seax.contactSales.stats.satisfaction.value'), label: t('seax.contactSales.stats.satisfaction.label') },
+    { value: t('seax.contactSales.stats.businesses.value'), label: t('seax.contactSales.stats.businesses.label') }
   ];
 
   const getColorClasses = (color: string) => {
@@ -107,42 +110,41 @@ const ContactSales = () => {
               </div>
               
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
-                Thank You!
+                {t('seax.contactSales.success.title')}
               </h1>
               
               <p className="text-lg text-gray-600 mb-8">
-                We've received your request and will get back to you within 24 hours. 
-                Our team is excited to help you scale your communication.
+                {t('seax.contactSales.success.message')}
               </p>
               
               <div className="bg-white rounded-lg p-6 mb-8">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  What happens next?
+                  {t('seax.contactSales.success.nextSteps.title')}
                 </h3>
                 <div className="space-y-3 text-left">
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                       <span className="text-blue-600 text-sm font-bold">1</span>
                     </div>
-                    <span className="text-gray-700">Our team reviews your requirements</span>
+                    <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step1')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                       <span className="text-blue-600 text-sm font-bold">2</span>
                     </div>
-                    <span className="text-gray-700">We'll schedule a personalized demo</span>
+                    <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step2')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                       <span className="text-blue-600 text-sm font-bold">3</span>
                     </div>
-                    <span className="text-gray-700">Get a custom quote for your volume</span>
+                    <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step3')}</span>
                   </div>
                 </div>
               </div>
               
               <p className="text-sm text-gray-500">
-                Need immediate assistance? Call us at <strong>+1 (555) 123-SEAX</strong>
+                {t('seax.contactSales.success.immediateHelp')} <strong>+1 (555) 123-SEAX</strong>
               </p>
             </div>
           </div>
@@ -154,8 +156,8 @@ const ContactSales = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="Contact SeaX Sales - Get a Custom Quote for Mass Communication"
-        description="Get in touch with our sales team for a personalized demo and custom quote. Start scaling your SMS, WhatsApp, and voice communication today."
+        title={t('seax.contactSales.seo.title')}
+        description={t('seax.contactSales.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -166,12 +168,11 @@ const ContactSales = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-              Let's Scale Your
-              <span className="text-blue-600 block">Communication Together</span>
+              {t('seax.contactSales.hero.title.line1')}
+              <span className="text-blue-600 block">{t('seax.contactSales.hero.title.line2')}</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Ready to reach millions? Our experts will help you find the perfect solution 
-              for your business needs and provide a custom quote within 24 hours.
+              {t('seax.contactSales.hero.subtitle')}
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
@@ -191,10 +192,10 @@ const ContactSales = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Multiple Ways to Connect
+              {t('seax.contactSales.contactMethods.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Choose the method that works best for you
+              {t('seax.contactSales.contactMethods.subtitle')}
             </p>
           </div>
           
@@ -224,10 +225,10 @@ const ContactSales = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Get a Custom Quote
+              {t('seax.contactSales.form.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Tell us about your needs and we'll create a personalized solution
+              {t('seax.contactSales.form.subtitle')}
             </p>
           </div>
           
@@ -236,7 +237,7 @@ const ContactSales = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    First Name *
+                    {t('seax.contactSales.form.firstName.label')}
                   </label>
                   <input
                     type="text"
@@ -245,13 +246,13 @@ const ContactSales = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="John"
+                    placeholder={t('seax.contactSales.form.firstName.placeholder')}
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Last Name *
+                    {t('seax.contactSales.form.lastName.label')}
                   </label>
                   <input
                     type="text"
@@ -260,7 +261,7 @@ const ContactSales = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Smith"
+                    placeholder={t('seax.contactSales.form.lastName.placeholder')}
                   />
                 </div>
               </div>
@@ -268,7 +269,7 @@ const ContactSales = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Business Email *
+                    {t('seax.contactSales.form.email.label')}
                   </label>
                   <input
                     type="email"
@@ -277,13 +278,13 @@ const ContactSales = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="john@company.com"
+                    placeholder={t('seax.contactSales.form.email.placeholder')}
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Company *
+                    {t('seax.contactSales.form.company.label')}
                   </label>
                   <input
                     type="text"
@@ -292,7 +293,7 @@ const ContactSales = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Your Company"
+                    placeholder={t('seax.contactSales.form.company.placeholder')}
                   />
                 </div>
               </div>
@@ -300,7 +301,7 @@ const ContactSales = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
+                    {t('seax.contactSales.form.phone.label')}
                   </label>
                   <input
                     type="tel"
@@ -308,13 +309,13 @@ const ContactSales = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder={t('seax.contactSales.form.phone.placeholder')}
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Monthly Message Volume *
+                    {t('seax.contactSales.form.volume.label')}
                   </label>
                   <select
                     name="monthlyVolume"
@@ -323,19 +324,19 @@ const ContactSales = () => {
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   >
-                    <option value="">Select volume</option>
-                    <option value="under-10k">Under 10,000</option>
-                    <option value="10k-50k">10,000 - 50,000</option>
-                    <option value="50k-200k">50,000 - 200,000</option>
-                    <option value="200k-1m">200,000 - 1,000,000</option>
-                    <option value="over-1m">Over 1,000,000</option>
+                    <option value="">{t('seax.contactSales.form.volume.placeholder')}</option>
+                    <option value="under-10k">{t('seax.contactSales.form.volume.under10k')}</option>
+                    <option value="10k-50k">{t('seax.contactSales.form.volume.10k50k')}</option>
+                    <option value="50k-200k">{t('seax.contactSales.form.volume.50k200k')}</option>
+                    <option value="200k-1m">{t('seax.contactSales.form.volume.200k1m')}</option>
+                    <option value="over-1m">{t('seax.contactSales.form.volume.over1m')}</option>
                   </select>
                 </div>
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Primary Use Case *
+                  {t('seax.contactSales.form.useCase.label')}
                 </label>
                 <select
                   name="useCase"
@@ -344,20 +345,20 @@ const ContactSales = () => {
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 >
-                  <option value="">Select use case</option>
-                  <option value="marketing">Marketing Campaigns</option>
-                  <option value="notifications">Customer Notifications</option>
-                  <option value="reminders">Appointment Reminders</option>
-                  <option value="alerts">Emergency Alerts</option>
-                  <option value="lead-generation">Lead Generation</option>
-                  <option value="support">Customer Support</option>
-                  <option value="other">Other</option>
+                  <option value="">{t('seax.contactSales.form.useCase.placeholder')}</option>
+                  <option value="marketing">{t('seax.contactSales.form.useCase.marketing')}</option>
+                  <option value="notifications">{t('seax.contactSales.form.useCase.notifications')}</option>
+                  <option value="reminders">{t('seax.contactSales.form.useCase.reminders')}</option>
+                  <option value="alerts">{t('seax.contactSales.form.useCase.alerts')}</option>
+                  <option value="lead-generation">{t('seax.contactSales.form.useCase.leadGeneration')}</option>
+                  <option value="support">{t('seax.contactSales.form.useCase.support')}</option>
+                  <option value="other">{t('seax.contactSales.form.useCase.other')}</option>
                 </select>
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Tell us about your requirements
+                  {t('seax.contactSales.form.message.label')}
                 </label>
                 <textarea
                   name="message"
@@ -365,7 +366,7 @@ const ContactSales = () => {
                   onChange={handleChange}
                   rows={4}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="What are your specific needs? Any questions about our platform?"
+                  placeholder={t('seax.contactSales.form.message.placeholder')}
                 />
               </div>
               
@@ -377,7 +378,7 @@ const ContactSales = () => {
                   className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                 />
                 <label htmlFor="consent" className="text-sm text-gray-600">
-                  I agree to receive communications from SeaX about products and services.
+                  {t('seax.contactSales.form.consent.label')}
                 </label>
               </div>
               
@@ -389,11 +390,11 @@ const ContactSales = () => {
                 {isSubmitting ? (
                   <>
                     <Clock className="w-5 h-5 animate-spin" />
-                    <span>Submitting...</span>
+                    <span>{t('seax.contactSales.form.submit.submitting')}</span>
                   </>
                 ) : (
                   <>
-                    <span>Get My Custom Quote</span>
+                    <span>{t('seax.contactSales.form.submit.default')}</span>
                     <ArrowRight className="w-5 h-5" />
                   </>
                 )}
@@ -408,10 +409,10 @@ const ContactSales = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Why Choose SeaX?
+              {t('seax.contactSales.whyChoose.title')}
             </h2>
             <p className="text-xl text-blue-100">
-              Join thousands of businesses that trust us with their communication
+              {t('seax.contactSales.whyChoose.subtitle')}
             </p>
           </div>
           
@@ -420,9 +421,9 @@ const ContactSales = () => {
               <div className="bg-white/20 p-4 rounded-lg w-fit mx-auto mb-4">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Proven Results</h3>
+              <h3 className="text-xl font-bold text-white mb-2">{t('seax.contactSales.whyChoose.results.title')}</h3>
               <p className="text-blue-100">
-                400% average ROI and 95% customer satisfaction rate
+                {t('seax.contactSales.whyChoose.results.description')}
               </p>
             </div>
             
@@ -430,9 +431,9 @@ const ContactSales = () => {
               <div className="bg-white/20 p-4 rounded-lg w-fit mx-auto mb-4">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Enterprise Security</h3>
+              <h3 className="text-xl font-bold text-white mb-2">{t('seax.contactSales.whyChoose.security.title')}</h3>
               <p className="text-blue-100">
-                GDPR compliant with enterprise-grade security and uptime SLAs
+                {t('seax.contactSales.whyChoose.security.description')}
               </p>
             </div>
             
@@ -440,9 +441,9 @@ const ContactSales = () => {
               <div className="bg-white/20 p-4 rounded-lg w-fit mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Expert Support</h3>
+              <h3 className="text-xl font-bold text-white mb-2">{t('seax.contactSales.whyChoose.support.title')}</h3>
               <p className="text-blue-100">
-                Dedicated account managers and 24/7 technical support
+                {t('seax.contactSales.whyChoose.support.description')}
               </p>
             </div>
           </div>

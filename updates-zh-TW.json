@@ -1,0 +1,137 @@
+{
+  "seax": {
+    "contactSales": {
+      "seo": {
+        "title": "聯絡 SeaX 銷售團隊 - 獲取大量通訊的客製化報價",
+        "description": "聯絡我們的銷售團隊獲取個人化演示和客製化報價。立即開始擴展您的 SMS、WhatsApp 和語音通訊。"
+      },
+      "hero": {
+        "title": {
+          "line1": "讓我們攜手",
+          "line2": "擴展您的通訊規模"
+        },
+        "subtitle": "準備好觸及數百萬人了嗎？我們的專家將協助您找到最適合的業務解決方案，並在 24 小時內提供客製化報價。"
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24小時",
+          "label": "回應時間"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "客戶滿意度"
+        },
+        "businesses": {
+          "value": "10K+",
+          "label": "服務企業數"
+        }
+      },
+      "contactMethods": {
+        "title": "多種聯絡方式",
+        "subtitle": "選擇最適合您的聯絡方式",
+        "email": {
+          "title": "電子郵件聯絡",
+          "description": "透過電子郵件聯絡我們",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "電話聯絡",
+          "description": "與銷售專家通話",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "預約演示",
+          "description": "安排實時演示",
+          "action": "立即預約"
+        },
+        "chat": {
+          "title": "即時聊天",
+          "description": "與我們的團隊聊天",
+          "action": "開始聊天"
+        }
+      },
+      "form": {
+        "title": "獲取客製化報價",
+        "subtitle": "告訴我們您的需求，我們將為您創建個人化解決方案",
+        "firstName": {
+          "label": "名字 *",
+          "placeholder": "志明"
+        },
+        "lastName": {
+          "label": "姓氏 *",
+          "placeholder": "王"
+        },
+        "email": {
+          "label": "商務電子郵件 *",
+          "placeholder": "zhiming@company.com"
+        },
+        "company": {
+          "label": "公司 *",
+          "placeholder": "您的公司"
+        },
+        "phone": {
+          "label": "電話號碼",
+          "placeholder": "+886 123-456-789"
+        },
+        "volume": {
+          "label": "每月訊息量 *",
+          "placeholder": "選擇訊息量",
+          "under10k": "少於 10,000",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "超過 1,000,000"
+        },
+        "useCase": {
+          "label": "主要使用情境 *",
+          "placeholder": "選擇使用情境",
+          "marketing": "行銷活動",
+          "notifications": "客戶通知",
+          "reminders": "預約提醒",
+          "alerts": "緊急警報",
+          "leadGeneration": "潛在客戶開發",
+          "support": "客戶支援",
+          "other": "其他"
+        },
+        "message": {
+          "label": "告訴我們您的需求",
+          "placeholder": "您有什麼特殊需求？對我們的平台有任何疑問嗎？"
+        },
+        "consent": {
+          "label": "我同意接收 SeaX 關於產品和服務的通訊。"
+        },
+        "submit": {
+          "submitting": "提交中...",
+          "default": "獲取我的客製化報價"
+        }
+      },
+      "success": {
+        "title": "謝謝您！",
+        "message": "我們已收到您的請求，將在 24 小時內回覆您。我們的團隊很興奮能協助您擴展通訊規模。",
+        "nextSteps": {
+          "title": "接下來會發生什麼？",
+          "step1": "我們的團隊審核您的需求",
+          "step2": "我們將安排個人化演示",
+          "step3": "根據您的訊息量獲取客製化報價"
+        },
+        "immediateHelp": "需要即時協助？請致電"
+      },
+      "whyChoose": {
+        "title": "為什麼選擇 SeaX？",
+        "subtitle": "加入信賴我們通訊服務的數千家企業",
+        "results": {
+          "title": "經證實的成果",
+          "description": "平均 400% 投資回報率和 95% 客戶滿意度"
+        },
+        "security": {
+          "title": "企業級安全性",
+          "description": "符合 GDPR 規範，提供企業級安全性和正常運行時間 SLA"
+        },
+        "support": {
+          "title": "專家支援",
+          "description": "專屬客戶經理和 24/7 技術支援"
+        }
+      }
+    }
+  }
+}

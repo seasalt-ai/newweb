@@ -9090,6 +9090,126 @@
         "title": "渠道總覽",
         "comingSoon": "即將推出",
         "description": "我們正在建立完整的渠道總覽體驗。"
+      },
+      "howItWorks": {
+        "seo": {
+          "title": "SeaX 運作方式 - 3 個簡單步驟即可向數百萬人發起活動",
+          "description": "了解如何透過 SeaX 在 3 個簡單步驟中向數百萬人發起大規模簡訊、WhatsApp 和語音活動。"
+        },
+        "hero": {
+          "title": {
+            "line1": "向數百萬人發起活動",
+            "line2": "只需 4 個簡單步驟"
+          },
+          "subtitle": "無論您需要觸及 1,000 或 1,000,000 人，SeaX 都能無縫處理。無需技術專業知識。",
+          "features": {
+            "setup": "10 分鐘內完成設定",
+            "noCoding": "無需編程",
+            "instantDeploy": "即時部署"
+          }
+        },
+        "steps": {
+          "step1": {
+            "title": "上傳您的聯絡人",
+            "description": "從 CSV、Excel 匯入您的聯絡人清單，或連接您的 CRM。我們的系統能輕鬆處理數百萬筆聯絡人。",
+            "features": {
+              "csvImport": "CSV/Excel 匯入",
+              "crmIntegrations": "CRM 整合",
+              "dataValidation": "資料驗證",
+              "duplicateRemoval": "重複資料移除",
+              "segmentationTools": "分群工具"
+            },
+            "time": "2 分鐘"
+          },
+          "step2": {
+            "title": "選擇傳遞方式",
+            "description": "選擇您要如何透過簡訊、WhatsApp 或電話通話觸及您的受眾。",
+            "features": {
+              "smsDelivery": "簡訊傳送",
+              "whatsappMessaging": "WhatsApp 訊息",
+              "phoneCallIntegration": "電話通話整合"
+            },
+            "time": "1 分鐘"
+          },
+          "step3": {
+            "title": "建立您的活動",
+            "description": "設計您的訊息並設定活動參數。",
+            "features": {
+              "messageTemplates": "訊息範本",
+              "abTesting": "A/B 測試",
+              "schedulingOptions": "排程選項",
+              "personalization": "個人化"
+            },
+            "time": "5 分鐘"
+          },
+          "step4": {
+            "title": "發起與分析",
+            "description": "立即向數百萬人部署您的活動，並透過詳細分析追蹤即時效能。",
+            "features": {
+              "instantDeployment": "即時部署",
+              "realTimeTracking": "即時追蹤",
+              "deliveryReports": "傳送報告",
+              "responseAnalytics": "回應分析",
+              "roiMeasurement": "投資報酬率測量"
+            },
+            "time": "一鍵完成"
+          }
+        },
+        "ui": {
+          "timeRequired": "所需時間：{{time}}"
+        },
+        "results": {
+          "title": "成果不言而喻",
+          "subtitle": "加入數千家使用 SeaX 實現大規模成長的企業",
+          "stats": {
+            "messagesDaily": "每日傳送訊息",
+            "openRate": "平均開啟率",
+            "roi": "平均投資報酬率"
+          }
+        },
+        "cta": {
+          "title": "準備發起您的第一個活動？",
+          "subtitle": "加入數千家使用 SeaX 觸及數百萬人的企業",
+          "signUp": "註冊",
+          "bookDemo": "預約演示"
+        },
+        "illustrations": {
+          "contacts": {
+            "fileName": "聯絡人.csv",
+            "fileSize": "10,000 筆聯絡人",
+            "dropFiles": "將檔案拖放至此",
+            "browse": "或瀏覽檔案",
+            "imported": "筆聯絡人已匯入"
+          },
+          "channels": {
+            "sms": "簡訊",
+            "smsRate": "98% 開啟率",
+            "whatsapp": "WhatsApp",
+            "whatsappRate": "85% 參與率",
+            "voice": "語音",
+            "voiceRate": "即時通話"
+          },
+          "campaign": {
+            "draft": "活動草稿",
+            "status": {
+              "draft": "草稿"
+            },
+            "messagePreview": "嗨 John，查看我們的新產品發佈...",
+            "preview": "預覽",
+            "abTest": "A/B 測試",
+            "schedule": "排程",
+            "scheduleNow": "現在"
+          },
+          "analytics": {
+            "campaignStatus": "活動狀態",
+            "status": {
+              "live": "執行中"
+            },
+            "delivered": "已傳送",
+            "response": "回應",
+            "realTimeAnalytics": "即時分析"
+          }
+        }
       }
     },
     "industryOverview": {
@@ -9201,6 +9321,218 @@
         "subtitle": "加入數千家使用 SeaX 取得更好成果的企業",
         "getStarted": "今天就開始"
       }
+    },
+    "about": {
+      "seo": {
+        "title": "關於 SeaX - 大規模通訊的驅動力",
+        "description": "了解 SeaX 民主化大眾通訊的使命。探索我們的故事、價值觀，以及幫助企業觸及數百萬人的承諾。"
+      },
+      "hero": {
+        "title": "民主化",
+        "titleHighlight": "大眾通訊",
+        "description": "SeaX 建立在這樣的信念之上：每家企業都應該有能力像發送一條訊息一樣輕鬆地觸及數百萬客戶。"
+      },
+      "mission": {
+        "title": "我們的使命",
+        "description1": "我們的使命是讓各種規模的企業都能獲得大眾通訊服務。從新創公司到大型企業，每個人都應該有大規模觸及受眾的能力。",
+        "description2": "透過結合尖端技術與簡單直覺的設計，我們正在打破曾經讓大量通訊成為大型企業專屬領域的障礙。",
+        "stats": {
+          "messagesDaily": "每日訊息數",
+          "businessesServed": "服務企業數"
+        },
+        "features": {
+          "scale": {
+            "title": "無限擴展",
+            "description": "從 1,000 到 1,000 萬條訊息，我們與您一同擴展"
+          },
+          "security": {
+            "title": "企業級安全",
+            "description": "為每家企業提供銀行級安全保障"
+          },
+          "global": {
+            "title": "全球觸及",
+            "description": "與 200 多個國家的客戶建立聯繫"
+          }
+        }
+      },
+      "values": {
+        "title": "我們的價值觀",
+        "subtitle": "指導我們所有行為的原則",
+        "customerFirst": {
+          "title": "客戶至上",
+          "description": "我們做出的每個決定都將客戶的成功置於核心位置。"
+        },
+        "trust": {
+          "title": "信任與安全",
+          "description": "我們以最高的安全標準保護您的數據和通訊。"
+        },
+        "innovation": {
+          "title": "創新",
+          "description": "我們不斷突破通訊領域的可能性邊界。"
+        },
+        "impact": {
+          "title": "全球影響力",
+          "description": "我們正在建立連接全球企業的技術。"
+        }
+      },
+      "story": {
+        "title": "我們的故事",
+        "subtitle": "SeaX 是如何誕生的",
+        "problem": {
+          "title": "問題所在",
+          "description": "小企業難以大規模觸及其客戶。現有解決方案要么太昂貴、太複雜，要么根本無法處理現代企業成長所需的通訊量。"
+        },
+        "solution": {
+          "title": "解決方案",
+          "description": "我們以簡單的願景建立了 SeaX：讓大眾通訊像發送單條訊息一樣簡單。透過運用雲端基礎設施和 AI，我們創建了一個能夠從數千條到數百萬條訊息無縫擴展的平台。"
+        },
+        "growth": {
+          "title": "成長歷程",
+          "description": "在一年內，我們為數千家企業每日處理數百萬條訊息。從新創公司到財富 500 強企業，SeaX 成為大量通訊的首選平台。"
+        },
+        "future": {
+          "title": "未來展望",
+          "description": "如今，SeaX 每日在 200 多個國家處理超過 1,000 萬條訊息。我們在為各地企業民主化大眾通訊的使命上才剛開始。"
+        }
+      },
+      "cta": {
+        "title": "準備好加入我們的使命？",
+        "subtitle": "探索 SeaX 如何轉型您的企業通訊",
+        "getStarted": "立即開始"
+      }
+    },
+    "contactSales": {
+      "seo": {
+        "title": "聯絡 SeaX 銷售團隊 - 獲取大量通訊的客製化報價",
+        "description": "聯絡我們的銷售團隊獲取個人化演示和客製化報價。立即開始擴展您的 SMS、WhatsApp 和語音通訊。"
+      },
+      "hero": {
+        "title": {
+          "line1": "讓我們攜手",
+          "line2": "擴展您的通訊規模"
+        },
+        "subtitle": "準備好觸及數百萬人了嗎？我們的專家將協助您找到最適合的業務解決方案，並在 24 小時內提供客製化報價。"
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24小時",
+          "label": "回應時間"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "客戶滿意度"
+        },
+        "businesses": {
+          "value": "10K+",
+          "label": "服務企業數"
+        }
+      },
+      "contactMethods": {
+        "title": "多種聯絡方式",
+        "subtitle": "選擇最適合您的聯絡方式",
+        "email": {
+          "title": "電子郵件聯絡",
+          "description": "透過電子郵件聯絡我們",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "電話聯絡",
+          "description": "與銷售專家通話",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "預約演示",
+          "description": "安排實時演示",
+          "action": "立即預約"
+        },
+        "chat": {
+          "title": "即時聊天",
+          "description": "與我們的團隊聊天",
+          "action": "開始聊天"
+        }
+      },
+      "form": {
+        "title": "獲取客製化報價",
+        "subtitle": "告訴我們您的需求，我們將為您創建個人化解決方案",
+        "firstName": {
+          "label": "名字 *",
+          "placeholder": "志明"
+        },
+        "lastName": {
+          "label": "姓氏 *",
+          "placeholder": "王"
+        },
+        "email": {
+          "label": "商務電子郵件 *",
+          "placeholder": "zhiming@company.com"
+        },
+        "company": {
+          "label": "公司 *",
+          "placeholder": "您的公司"
+        },
+        "phone": {
+          "label": "電話號碼",
+          "placeholder": "+886 123-456-789"
+        },
+        "volume": {
+          "label": "每月訊息量 *",
+          "placeholder": "選擇訊息量",
+          "under10k": "少於 10,000",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "超過 1,000,000"
+        },
+        "useCase": {
+          "label": "主要使用情境 *",
+          "placeholder": "選擇使用情境",
+          "marketing": "行銷活動",
+          "notifications": "客戶通知",
+          "reminders": "預約提醒",
+          "alerts": "緊急警報",
+          "leadGeneration": "潛在客戶開發",
+          "support": "客戶支援",
+          "other": "其他"
+        },
+        "message": {
+          "label": "告訴我們您的需求",
+          "placeholder": "您有什麼特殊需求？對我們的平台有任何疑問嗎？"
+        },
+        "consent": {
+          "label": "我同意接收 SeaX 關於產品和服務的通訊。"
+        },
+        "submit": {
+          "submitting": "提交中...",
+          "default": "獲取我的客製化報價"
+        }
+      },
+      "success": {
+        "title": "謝謝您！",
+        "message": "我們已收到您的請求，將在 24 小時內回覆您。我們的團隊很興奮能協助您擴展通訊規模。",
+        "nextSteps": {
+          "title": "接下來會發生什麼？",
+          "step1": "我們的團隊審核您的需求",
+          "step2": "我們將安排個人化演示",
+          "step3": "根據您的訊息量獲取客製化報價"
+        },
+        "immediateHelp": "需要即時協助？請致電"
+      },
+      "whyChoose": {
+        "title": "為什麼選擇 SeaX？",
+        "subtitle": "加入信賴我們通訊服務的數千家企業",
+        "results": {
+          "title": "經證實的成果",
+          "description": "平均 400% 投資回報率和 95% 客戶滿意度"
+        },
+        "security": {
+          "title": "企業級安全性",
+          "description": "符合 GDPR 規範，提供企業級安全性和正常運行時間 SLA"
+        },
+        "support": {
+          "title": "專家支援",
+          "description": "專屬客戶經理和 24/7 技術支援"
+        }
+      }
     }
   },
   "statsCounter": {
@@ -9252,6 +9584,19 @@
     "status": {
       "liveRunning": "即時活動運行中",
       "liveActivity": "即時活動：訊息正在發送中"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "1萬+",
+      "callsMax": "5千+",
+      "voicemailMax": "1千+",
+      "whatsappMax": "1萬+"
+    },
+    "breakdown": {
+      "localPlus": "本地 +",
+      "tollFreeMinus": "免費電話"
     }
   }
 }

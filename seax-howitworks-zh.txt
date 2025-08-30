@@ -1,0 +1,89 @@
+# SEO & Meta
+seax.pages.howItWorks.seo.title=SeaX 運作方式 - 3 個簡單步驟即可向數百萬人發起活動
+seax.pages.howItWorks.seo.description=了解如何透過 SeaX 在 3 個簡單步驟中向數百萬人發起大規模簡訊、WhatsApp 和語音活動。
+
+# Hero Section
+seax.pages.howItWorks.hero.title.line1=向數百萬人發起活動
+seax.pages.howItWorks.hero.title.line2=只需 4 個簡單步驟
+seax.pages.howItWorks.hero.subtitle=無論您需要觸及 1,000 或 1,000,000 人，SeaX 都能無縫處理。無需技術專業知識。
+seax.pages.howItWorks.hero.features.setup=10 分鐘內完成設定
+seax.pages.howItWorks.hero.features.noCoding=無需編程
+seax.pages.howItWorks.hero.features.instantDeploy=即時部署
+
+# Steps Data
+seax.pages.howItWorks.steps.step1.title=上傳您的聯絡人
+seax.pages.howItWorks.steps.step1.description=從 CSV、Excel 匯入您的聯絡人清單，或連接您的 CRM。我們的系統能輕鬆處理數百萬筆聯絡人。
+seax.pages.howItWorks.steps.step1.features.csvImport=CSV/Excel 匯入
+seax.pages.howItWorks.steps.step1.features.crmIntegrations=CRM 整合
+seax.pages.howItWorks.steps.step1.features.dataValidation=資料驗證
+seax.pages.howItWorks.steps.step1.features.duplicateRemoval=重複資料移除
+seax.pages.howItWorks.steps.step1.features.segmentationTools=分群工具
+seax.pages.howItWorks.steps.step1.time=2 分鐘
+
+seax.pages.howItWorks.steps.step2.title=選擇傳遞方式
+seax.pages.howItWorks.steps.step2.description=選擇您要如何透過簡訊、WhatsApp 或電話通話觸及您的受眾。
+seax.pages.howItWorks.steps.step2.features.smsDelivery=簡訊傳送
+seax.pages.howItWorks.steps.step2.features.whatsappMessaging=WhatsApp 訊息
+seax.pages.howItWorks.steps.step2.features.phoneCallIntegration=電話通話整合
+seax.pages.howItWorks.steps.step2.time=1 分鐘
+
+seax.pages.howItWorks.steps.step3.title=建立您的活動
+seax.pages.howItWorks.steps.step3.description=設計您的訊息並設定活動參數。
+seax.pages.howItWorks.steps.step3.features.messageTemplates=訊息範本
+seax.pages.howItWorks.steps.step3.features.abTesting=A/B 測試
+seax.pages.howItWorks.steps.step3.features.schedulingOptions=排程選項
+seax.pages.howItWorks.steps.step3.features.personalization=個人化
+seax.pages.howItWorks.steps.step3.time=5 分鐘
+
+seax.pages.howItWorks.steps.step4.title=發起與分析
+seax.pages.howItWorks.steps.step4.description=立即向數百萬人部署您的活動，並透過詳細分析追蹤即時效能。
+seax.pages.howItWorks.steps.step4.features.instantDeployment=即時部署
+seax.pages.howItWorks.steps.step4.features.realTimeTracking=即時追蹤
+seax.pages.howItWorks.steps.step4.features.deliveryReports=傳送報告
+seax.pages.howItWorks.steps.step4.features.responseAnalytics=回應分析
+seax.pages.howItWorks.steps.step4.features.roiMeasurement=投資報酬率測量
+seax.pages.howItWorks.steps.step4.time=一鍵完成
+
+# UI Labels
+seax.pages.howItWorks.ui.timeRequired=所需時間：{{time}}
+
+# Results Section
+seax.pages.howItWorks.results.title=成果不言而喻
+seax.pages.howItWorks.results.subtitle=加入數千家使用 SeaX 實現大規模成長的企業
+seax.pages.howItWorks.results.stats.messagesDaily=每日傳送訊息
+seax.pages.howItWorks.results.stats.openRate=平均開啟率
+seax.pages.howItWorks.results.stats.roi=平均投資報酬率
+
+# CTA Section
+seax.pages.howItWorks.cta.title=準備發起您的第一個活動？
+seax.pages.howItWorks.cta.subtitle=加入數千家使用 SeaX 觸及數百萬人的企業
+seax.pages.howItWorks.cta.signUp=註冊
+seax.pages.howItWorks.cta.bookDemo=預約演示
+
+# Illustration Content
+seax.pages.howItWorks.illustrations.contacts.fileName=聯絡人.csv
+seax.pages.howItWorks.illustrations.contacts.fileSize=10,000 筆聯絡人
+seax.pages.howItWorks.illustrations.contacts.dropFiles=將檔案拖放至此
+seax.pages.howItWorks.illustrations.contacts.browse=或瀏覽檔案
+seax.pages.howItWorks.illustrations.contacts.imported=筆聯絡人已匯入
+
+seax.pages.howItWorks.illustrations.channels.sms=簡訊
+seax.pages.howItWorks.illustrations.channels.smsRate=98% 開啟率
+seax.pages.howItWorks.illustrations.channels.whatsapp=WhatsApp
+seax.pages.howItWorks.illustrations.channels.whatsappRate=85% 參與率
+seax.pages.howItWorks.illustrations.channels.voice=語音
+seax.pages.howItWorks.illustrations.channels.voiceRate=即時通話
+
+seax.pages.howItWorks.illustrations.campaign.draft=活動草稿
+seax.pages.howItWorks.illustrations.campaign.status.draft=草稿
+seax.pages.howItWorks.illustrations.campaign.messagePreview=嗨 John，查看我們的新產品發佈...
+seax.pages.howItWorks.illustrations.campaign.preview=預覽
+seax.pages.howItWorks.illustrations.campaign.abTest=A/B 測試
+seax.pages.howItWorks.illustrations.campaign.schedule=排程
+seax.pages.howItWorks.illustrations.campaign.scheduleNow=現在
+
+seax.pages.howItWorks.illustrations.analytics.campaignStatus=活動狀態
+seax.pages.howItWorks.illustrations.analytics.status.live=執行中
+seax.pages.howItWorks.illustrations.analytics.delivered=已傳送
+seax.pages.howItWorks.illustrations.analytics.response=回應
+seax.pages.howItWorks.illustrations.analytics.realTimeAnalytics=即時分析

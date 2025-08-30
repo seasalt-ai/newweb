@@ -9112,6 +9112,126 @@
         "title": "ChannelsOverview",
         "comingSoon": "Coming Soon",
         "description": "We're building out the complete ChannelsOverview experience."
+      },
+      "howItWorks": {
+        "seo": {
+          "title": "How SeaX Works - Launch Campaigns to Millions in 3 Simple Steps",
+          "description": "Learn how to launch mass SMS, WhatsApp, and voice campaigns to millions in 3 simple steps with SeaX."
+        },
+        "hero": {
+          "title": {
+            "line1": "Launch campaigns to millions",
+            "line2": "in just 4 simple steps"
+          },
+          "subtitle": "Whether you need to reach 1,000 or 1,000,000 people, SeaX handles it seamlessly. No technical expertise required.",
+          "features": {
+            "setup": "Setup in 10 minutes",
+            "noCoding": "No coding required",
+            "instantDeploy": "Instant deployment"
+          }
+        },
+        "steps": {
+          "step1": {
+            "title": "Upload Your Contacts",
+            "description": "Import your contact list from CSV, Excel, or connect your CRM. Our system easily handles millions of contacts.",
+            "features": {
+              "csvImport": "CSV/Excel Import",
+              "crmIntegrations": "CRM Integrations",
+              "dataValidation": "Data Validation",
+              "duplicateRemoval": "Duplicate Removal",
+              "segmentationTools": "Segmentation Tools"
+            },
+            "time": "2 minutes"
+          },
+          "step2": {
+            "title": "Choose Delivery Method",
+            "description": "Select how you want to reach your audience via SMS, WhatsApp, or phone calls.",
+            "features": {
+              "smsDelivery": "SMS Delivery",
+              "whatsappMessaging": "WhatsApp Messaging",
+              "phoneCallIntegration": "Phone Call Integration"
+            },
+            "time": "1 minute"
+          },
+          "step3": {
+            "title": "Build Your Campaign",
+            "description": "Design your message and configure campaign parameters.",
+            "features": {
+              "messageTemplates": "Message Templates",
+              "abTesting": "A/B Testing",
+              "schedulingOptions": "Scheduling Options",
+              "personalization": "Personalization"
+            },
+            "time": "5 minutes"
+          },
+          "step4": {
+            "title": "Launch & Analyze",
+            "description": "Deploy your campaign to millions instantly and track real-time performance with detailed analytics.",
+            "features": {
+              "instantDeployment": "Instant Deployment",
+              "realTimeTracking": "Real-Time Tracking",
+              "deliveryReports": "Delivery Reports",
+              "responseAnalytics": "Response Analytics",
+              "roiMeasurement": "ROI Measurement"
+            },
+            "time": "One click"
+          }
+        },
+        "ui": {
+          "timeRequired": "Time required: {{time}}"
+        },
+        "results": {
+          "title": "The results speak for themselves",
+          "subtitle": "Join thousands of companies using SeaX to scale massively",
+          "stats": {
+            "messagesDaily": "Messages sent daily",
+            "openRate": "Average open rate",
+            "roi": "Average ROI"
+          }
+        },
+        "cta": {
+          "title": "Ready to launch your first campaign?",
+          "subtitle": "Join thousands of companies using SeaX to reach millions",
+          "signUp": "Sign Up",
+          "bookDemo": "Book Demo"
+        },
+        "illustrations": {
+          "contacts": {
+            "fileName": "contacts.csv",
+            "fileSize": "10,000 contacts",
+            "dropFiles": "Drop files here",
+            "browse": "or browse files",
+            "imported": "contacts imported"
+          },
+          "channels": {
+            "sms": "SMS",
+            "smsRate": "98% open rate",
+            "whatsapp": "WhatsApp",
+            "whatsappRate": "85% engagement",
+            "voice": "Voice",
+            "voiceRate": "Instant calls"
+          },
+          "campaign": {
+            "draft": "Campaign Draft",
+            "status": {
+              "draft": "Draft"
+            },
+            "messagePreview": "Hi John, check out our new product launch...",
+            "preview": "Preview",
+            "abTest": "A/B Test",
+            "schedule": "Schedule",
+            "scheduleNow": "Now"
+          },
+          "analytics": {
+            "campaignStatus": "Campaign Status",
+            "status": {
+              "live": "Live"
+            },
+            "delivered": "Delivered",
+            "response": "Response",
+            "realTimeAnalytics": "Real-time Analytics"
+          }
+        }
       }
     },
     "industryOverview": {
@@ -9223,6 +9343,218 @@
         "subtitle": "Join thousands of businesses achieving better results with SeaX",
         "getStarted": "Get Started Today"
       }
+    },
+    "about": {
+      "seo": {
+        "title": "About SeaX - Powering Mass Communication at Scale",
+        "description": "Learn about SeaX's mission to democratize mass communication. Discover our story, values, and commitment to helping businesses reach millions."
+      },
+      "hero": {
+        "title": "Democratizing",
+        "titleHighlight": "Mass Communication",
+        "description": "SeaX was built on the belief that every business should have the power to reach millions of customers with the same ease as sending a single message."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description1": "We're on a mission to make mass communication accessible to businesses of all sizes. From startups to enterprises, everyone deserves the power to reach their audience at scale.",
+        "description2": "By combining cutting-edge technology with simple, intuitive design, we're breaking down the barriers that once made high-volume communication the exclusive domain of large corporations.",
+        "stats": {
+          "messagesDaily": "Messages Daily",
+          "businessesServed": "Businesses Served"
+        },
+        "features": {
+          "scale": {
+            "title": "Scale Without Limits",
+            "description": "From 1,000 to 10 million messages, we scale with you"
+          },
+          "security": {
+            "title": "Enterprise Security",
+            "description": "Bank-level security for every business"
+          },
+          "global": {
+            "title": "Global Reach",
+            "description": "Connect with customers in 200+ countries"
+          }
+        }
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "The principles that guide everything we do",
+        "customerFirst": {
+          "title": "Customer First",
+          "description": "Every decision we make puts our customers' success at the center."
+        },
+        "trust": {
+          "title": "Trust & Security",
+          "description": "We protect your data and communications with the highest security standards."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "We constantly push the boundaries of what's possible in communication."
+        },
+        "impact": {
+          "title": "Global Impact",
+          "description": "We're building technology that connects businesses worldwide."
+        }
+      },
+      "story": {
+        "title": "Our Story",
+        "subtitle": "How SeaX came to be",
+        "problem": {
+          "title": "The Problem",
+          "description": "Small businesses were struggling to reach their customers at scale. Existing solutions were either too expensive, too complex, or simply couldn't handle the volume needed for modern business growth."
+        },
+        "solution": {
+          "title": "The Solution",
+          "description": "We built SeaX with a simple vision: make mass communication as easy as sending a single message. By leveraging cloud infrastructure and AI, we created a platform that could scale from thousands to millions of messages seamlessly."
+        },
+        "growth": {
+          "title": "The Growth",
+          "description": "Within a year, we were processing millions of messages daily for thousands of businesses. From startups to Fortune 500 companies, SeaX became the go-to platform for high-volume communication."
+        },
+        "future": {
+          "title": "The Future",
+          "description": "Today, SeaX powers over 10 million messages daily across 200+ countries. We're just getting started on our mission to democratize mass communication for businesses everywhere."
+        }
+      },
+      "cta": {
+        "title": "Ready to Join Our Mission?",
+        "subtitle": "Discover how SeaX can transform your business communication",
+        "getStarted": "Get Started"
+      }
+    },
+    "contactSales": {
+      "seo": {
+        "title": "Contact SeaX Sales - Get a Custom Quote for Mass Communication",
+        "description": "Get in touch with our sales team for a personalized demo and custom quote. Start scaling your SMS, WhatsApp, and voice communication today."
+      },
+      "hero": {
+        "title": {
+          "line1": "Let's Scale Your",
+          "line2": "Communication Together"
+        },
+        "subtitle": "Ready to reach millions? Our experts will help you find the perfect solution for your business needs and provide a custom quote within 24 hours."
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24h",
+          "label": "Response Time"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "Customer Satisfaction"
+        },
+        "businesses": {
+          "value": "10K+",
+          "label": "Businesses Served"
+        }
+      },
+      "contactMethods": {
+        "title": "Multiple Ways to Connect",
+        "subtitle": "Choose the method that works best for you",
+        "email": {
+          "title": "Email Us",
+          "description": "Get in touch via email",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "Call Us",
+          "description": "Speak with a sales expert",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "Book a Demo",
+          "description": "Schedule a live demo",
+          "action": "Schedule Now"
+        },
+        "chat": {
+          "title": "Live Chat",
+          "description": "Chat with our team",
+          "action": "Start Chat"
+        }
+      },
+      "form": {
+        "title": "Get a Custom Quote",
+        "subtitle": "Tell us about your needs and we'll create a personalized solution",
+        "firstName": {
+          "label": "First Name *",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "label": "Last Name *",
+          "placeholder": "Smith"
+        },
+        "email": {
+          "label": "Business Email *",
+          "placeholder": "john@company.com"
+        },
+        "company": {
+          "label": "Company *",
+          "placeholder": "Your Company"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+1 (555) 123-4567"
+        },
+        "volume": {
+          "label": "Monthly Message Volume *",
+          "placeholder": "Select volume",
+          "under10k": "Under 10,000",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "Over 1,000,000"
+        },
+        "useCase": {
+          "label": "Primary Use Case *",
+          "placeholder": "Select use case",
+          "marketing": "Marketing Campaigns",
+          "notifications": "Customer Notifications",
+          "reminders": "Appointment Reminders",
+          "alerts": "Emergency Alerts",
+          "leadGeneration": "Lead Generation",
+          "support": "Customer Support",
+          "other": "Other"
+        },
+        "message": {
+          "label": "Tell us about your requirements",
+          "placeholder": "What are your specific needs? Any questions about our platform?"
+        },
+        "consent": {
+          "label": "I agree to receive communications from SeaX about products and services."
+        },
+        "submit": {
+          "submitting": "Submitting...",
+          "default": "Get My Custom Quote"
+        }
+      },
+      "success": {
+        "title": "Thank You!",
+        "message": "We've received your request and will get back to you within 24 hours. Our team is excited to help you scale your communication.",
+        "nextSteps": {
+          "title": "What happens next?",
+          "step1": "Our team reviews your requirements",
+          "step2": "We'll schedule a personalized demo",
+          "step3": "Get a custom quote for your volume"
+        },
+        "immediateHelp": "Need immediate assistance? Call us at"
+      },
+      "whyChoose": {
+        "title": "Why Choose SeaX?",
+        "subtitle": "Join thousands of businesses that trust us with their communication",
+        "results": {
+          "title": "Proven Results",
+          "description": "400% average ROI and 95% customer satisfaction rate"
+        },
+        "security": {
+          "title": "Enterprise Security",
+          "description": "GDPR compliant with enterprise-grade security and uptime SLAs"
+        },
+        "support": {
+          "title": "Expert Support",
+          "description": "Dedicated account managers and 24/7 technical support"
+        }
+      }
     }
   },
   "statsCounter": {
@@ -9274,6 +9606,19 @@
     "status": {
       "liveRunning": "Live campaigns running",
       "liveActivity": "Live activity: Messages being sent right now"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10k+",
+      "callsMax": "5k+",
+      "voicemailMax": "1k+",
+      "whatsappMax": "10k+"
+    },
+    "breakdown": {
+      "localPlus": "local +",
+      "tollFreeMinus": "toll-free"
     }
   }
 }

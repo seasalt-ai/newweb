@@ -1,0 +1,137 @@
+{
+  "seax": {
+    "contactSales": {
+      "seo": {
+        "title": "Contact SeaX Sales - Get a Custom Quote for Mass Communication",
+        "description": "Get in touch with our sales team for a personalized demo and custom quote. Start scaling your SMS, WhatsApp, and voice communication today."
+      },
+      "hero": {
+        "title": {
+          "line1": "Let's Scale Your",
+          "line2": "Communication Together"
+        },
+        "subtitle": "Ready to reach millions? Our experts will help you find the perfect solution for your business needs and provide a custom quote within 24 hours."
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24h",
+          "label": "Response Time"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "Customer Satisfaction"
+        },
+        "businesses": {
+          "value": "10K+",
+          "label": "Businesses Served"
+        }
+      },
+      "contactMethods": {
+        "title": "Multiple Ways to Connect",
+        "subtitle": "Choose the method that works best for you",
+        "email": {
+          "title": "Email Us",
+          "description": "Get in touch via email",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "Call Us",
+          "description": "Speak with a sales expert",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "Book a Demo",
+          "description": "Schedule a live demo",
+          "action": "Schedule Now"
+        },
+        "chat": {
+          "title": "Live Chat",
+          "description": "Chat with our team",
+          "action": "Start Chat"
+        }
+      },
+      "form": {
+        "title": "Get a Custom Quote",
+        "subtitle": "Tell us about your needs and we'll create a personalized solution",
+        "firstName": {
+          "label": "First Name *",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "label": "Last Name *",
+          "placeholder": "Smith"
+        },
+        "email": {
+          "label": "Business Email *",
+          "placeholder": "john@company.com"
+        },
+        "company": {
+          "label": "Company *",
+          "placeholder": "Your Company"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+1 (555) 123-4567"
+        },
+        "volume": {
+          "label": "Monthly Message Volume *",
+          "placeholder": "Select volume",
+          "under10k": "Under 10,000",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "Over 1,000,000"
+        },
+        "useCase": {
+          "label": "Primary Use Case *",
+          "placeholder": "Select use case",
+          "marketing": "Marketing Campaigns",
+          "notifications": "Customer Notifications",
+          "reminders": "Appointment Reminders",
+          "alerts": "Emergency Alerts",
+          "leadGeneration": "Lead Generation",
+          "support": "Customer Support",
+          "other": "Other"
+        },
+        "message": {
+          "label": "Tell us about your requirements",
+          "placeholder": "What are your specific needs? Any questions about our platform?"
+        },
+        "consent": {
+          "label": "I agree to receive communications from SeaX about products and services."
+        },
+        "submit": {
+          "submitting": "Submitting...",
+          "default": "Get My Custom Quote"
+        }
+      },
+      "success": {
+        "title": "Thank You!",
+        "message": "We've received your request and will get back to you within 24 hours. Our team is excited to help you scale your communication.",
+        "nextSteps": {
+          "title": "What happens next?",
+          "step1": "Our team reviews your requirements",
+          "step2": "We'll schedule a personalized demo",
+          "step3": "Get a custom quote for your volume"
+        },
+        "immediateHelp": "Need immediate assistance? Call us at"
+      },
+      "whyChoose": {
+        "title": "Why Choose SeaX?",
+        "subtitle": "Join thousands of businesses that trust us with their communication",
+        "results": {
+          "title": "Proven Results",
+          "description": "400% average ROI and 95% customer satisfaction rate"
+        },
+        "security": {
+          "title": "Enterprise Security",
+          "description": "GDPR compliant with enterprise-grade security and uptime SLAs"
+        },
+        "support": {
+          "title": "Expert Support",
+          "description": "Dedicated account managers and 24/7 technical support"
+        }
+      }
+    }
+  }
+}

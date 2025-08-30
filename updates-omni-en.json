@@ -1,0 +1,15 @@
+{
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10k+",
+      "callsMax": "5k+",
+      "voicemailMax": "1k+",
+      "whatsappMax": "10k+"
+    },
+    "breakdown": {
+      "localPlus": "local +",
+      "tollFreeMinus": "toll-free"
+    }
+  }
+}

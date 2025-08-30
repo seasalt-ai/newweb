@@ -250,9 +250,9 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{smsCount.toLocaleString()}</span>
-                <span>10k+</span>
+                <span>{t('omniCalculator.ranges.smsMax')}</span>
               </div>
             </div>
 
@@ -269,9 +269,9 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{callMinutes.toLocaleString()}</span>
-                <span>5k+</span>
+                <span>{t('omniCalculator.ranges.callsMax')}</span>
               </div>
             </div>
 
@@ -288,9 +288,9 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{voicemailDrops.toLocaleString()}</span>
-                <span>1k+</span>
+                <span>{t('omniCalculator.ranges.voicemailMax')}</span>
               </div>
             </div>
 
@@ -307,9 +307,9 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{whatsappMessages.toLocaleString()}</span>
-                <span>10k+</span>
+                <span>{t('omniCalculator.ranges.whatsappMax')}</span>
               </div>
             </div>
           </div>
@@ -341,7 +341,7 @@ const OmniChannelCalculator = () => {
                 <div>
                   <span className="text-gray-700">{t('seax.pricing.omniCalculator.phoneBreakdown')}</span>
                   <p className="text-sm text-gray-500">
-                    {localNumbers} local + {tollFreeNumbers} toll-free
+                    {localNumbers} {t('omniCalculator.breakdown.localPlus')} {tollFreeNumbers} {t('omniCalculator.breakdown.tollFreeMinus')}
                   </p>
                 </div>
                 <span className="text-lg font-semibold">
