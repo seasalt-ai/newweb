@@ -58,16 +58,74 @@
       "uptime": "99.9% 正常運行時間"
     },
     "cta": {
-      "title": "準備好轉變您的客戶溝通了嗎？",
+      "title": "準備好將您的外聯規模擴展到數百萬嗎？",
       "startFreeTrial": "免費註冊",
-      "scheduleDemo": "安排演示"
+      "scheduleDemo": "安排演示",
+      "subtitle": "加入數千家使用 SeaX 的公司，觸及更多客戶，產生更多潛在客戶，實現更快增長。",
+      "signUpNow": "立即註冊"
     },
     "tagline": "為小型企業打造的多合一聯絡中心。自動化支援，捕捉每個潛在客戶，並統一您所有的客戶對話。",
     "seahealth": "SeaHealth - 優化醫療保健",
     "productWiki": "產品 Wiki",
     "apiReferences": "API 參考",
-    "madeWith": "由",
-    "inCityOf": "在"
+    "madeWith": {
+      "text": "用",
+      "inCityOf": "在這座城市製作"
+    },
+    "inCityOf": "在",
+    "description": {
+      "company": "即時觸及數百萬用戶。發送數百萬條簡訊、WhatsApp 訊息和自動電話的終極平台。填充您的銷售管道，推動營收，擴展您的業務。"
+    },
+    "section": {
+      "channels": "渠道",
+      "solutions": "解決方案",
+      "industries": "產業"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "簡訊總覽",
+        "smsLocal": "本地號碼 (10DLC)",
+        "smsTollFree": "免付費電話號碼",
+        "smsShortCode": "短碼",
+        "whatsapp": "WhatsApp 商業平台",
+        "voice": "電話語音"
+      },
+      "solutions": {
+        "leadGeneration": "潛在客戶開發",
+        "marketingAutomation": "行銷自動化",
+        "customerEngagement": "客戶參與",
+        "appointmentReminders": "預約提醒",
+        "emergencyAlerts": "緊急警報"
+      },
+      "industries": {
+        "ecommerceRetail": "電子商務與零售",
+        "realEstate": "房地產",
+        "politicalCampaigns": "政治競選",
+        "healthcare": "醫療保健",
+        "financialServices": "金融服務"
+      },
+      "company": {
+        "features": "功能特色",
+        "pricing": "定價",
+        "productWiki": "產品 Wiki",
+        "apiReferences": "API 參考",
+        "careers": "工作機會"
+      }
+    },
+    "stats": {
+      "messagesDaily": "每日 1000 萬+ 訊息",
+      "activeUsers": "50 萬+ 活躍用戶",
+      "uptime": "99.9% 正常運行時間"
+    },
+    "legal": {
+      "privacyPolicy": "隱私權政策",
+      "termsOfService": "服務條款"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "西雅圖，華盛頓州"
+    }
   },
   "hero": {
     "title": "停止應付多個應用程式 <br> 將每個客戶的 <br> 通話、WhatsApp 和聊天 <br> 統一在一個簡單的收件匣中。",
@@ -7275,6 +7333,10 @@
           "infrastructureTitle": "由 Twilio 基礎設施提供支援",
           "fullRegionalCoverage": "全區域覆蓋"
         }
+      },
+      "cta": {
+        "title": "準備擴展您的外聯了嗎？",
+        "subtitle": "加入使用 SeaX 觸及數百萬人的數千家企業"
       }
     },
     "solutions": {
@@ -8570,6 +8632,316 @@
           "messages": "{{count, number}} 則訊息"
         }
       }
+    },
+    "common": {
+      "getStartedToday": "立即開始",
+      "viewPricing": "查看定價",
+      "bookDemo": "預約演示",
+      "signUp": "立即註冊",
+      "learnMore": "了解更多",
+      "contactSales": "聯繫銷售"
+    },
+    "home": {
+      "hero": {
+        "socialProof": "受到 10,000+ 企業信賴",
+        "title": {
+          "reach": "觸及",
+          "millions": "百萬人",
+          "instantly": "即刻見效"
+        },
+        "subtitle": "發送數百萬簡訊、WhatsApp 訊息和自動化電話的終極平台。填滿您的管道，推動營收，透過強大的外聯擴展業務。",
+        "benefits": {
+          "messages": "每日 10M+ 訊息",
+          "calls": "每小時 500K+ 通話",
+          "uptime": "99.9% 正常運行時間"
+        },
+        "liveActivity": "即時活動",
+        "stats": {
+          "messagesSent": "訊息已發送",
+          "delivered": "已送達",
+          "activeNow": "目前活躍"
+        },
+        "animationTitle": "中央行銷中心",
+        "animationSubtitle": "即時觸及數百萬人"
+      },
+      "scalingProblem": {
+        "title": "停止冷撥電話，開始高轉換",
+        "subtitle": "將您的外聯從繁瑣的手動流程轉換為能即刻觸及數百萬人的強大自動化活動。",
+        "manual": {
+          "title": "手動外聯",
+          "description": "每日 100 通電話，2% 接通率，疲憊的銷售團隊"
+        },
+        "automation": {
+          "title": "SeaX 自動化",
+          "description": "每小時 500,000 訊息，15% 參與率，可擴展的成長"
+        },
+        "stats": {
+          "messagesSent": "10M+",
+          "messagesSentLabel": "每日發送訊息",
+          "callsPerHour": "500K",
+          "callsPerHourLabel": "每小時通話數",
+          "deliveryRate": "98%",
+          "deliveryRateLabel": "送達率",
+          "roiAverage": "15倍",
+          "roiAverageLabel": "平均投資報酬率"
+        }
+      },
+      "features": {
+        "title": "專為大規模打造",
+        "subtitle": "觸及數百萬人所需的基礎設施和功能",
+        "sms": {
+          "title": "數百萬簡訊 (SMS)",
+          "description": "為您最大型的活動提供電信級可靠性和即時分析。"
+        },
+        "whatsapp": {
+          "title": "無限制 WhatsApp",
+          "description": "透過我們強大的 WhatsApp Business API 整合突破限制。"
+        },
+        "voice": {
+          "title": "大量語音通話",
+          "description": "在幾分鐘內部署數千個 AI 驅動或預錄的通話。"
+        },
+        "ai": {
+          "title": "AI 對話",
+          "description": "讓 AI 24/7 大規模處理後續跟進並篩選您的潛在客戶。"
+        }
+      },
+      "leadGeneration": {
+        "title": "從首次接觸到成交",
+        "subtitle": "完整的潛在客戶生成和培育系統，隨您的業務擴展",
+        "capture": {
+          "title": "獲取",
+          "description": "透過精準活動觸及數百萬人"
+        },
+        "qualify": {
+          "title": "篩選",
+          "description": "AI 自動為潛在客戶評分和分類"
+        },
+        "nurture": {
+          "title": "培育",
+          "description": "自動化後續跟進，提高轉換"
+        },
+        "close": {
+          "title": "成交",
+          "description": "將優質潛在客戶移交給您的銷售團隊"
+        }
+      },
+      "howItWorks": {
+        "title": "SeaX 如何運作",
+        "subtitle": "透過 4 個簡單步驟向數百萬人發起活動",
+        "step1": {
+          "number": "01",
+          "title": "上傳您的聯絡人",
+          "description": "從 CSV、Excel 匯入聯絡人清單，或連接您的 CRM。我們的系統可輕鬆處理數百萬個聯絡人。",
+          "time": "2 分鐘",
+          "contactsFile": "contacts.csv",
+          "contactsCount": "10,000 個聯絡人",
+          "dropFiles": "拖放文件至此",
+          "orBrowse": "或瀏覽",
+          "contactsImported": "100K+",
+          "contactsImportedLabel": "聯絡人已匯入"
+        },
+        "step2": {
+          "number": "02",
+          "title": "選擇傳送方式",
+          "description": "選擇您想透過簡訊、WhatsApp 或電話通話觸及受眾的方式。",
+          "time": "1 分鐘",
+          "sms": "簡訊",
+          "smsRate": "98% 開啟率",
+          "whatsapp": "WhatsApp",
+          "whatsappRate": "85% 參與率",
+          "voice": "語音",
+          "voiceRate": "即時通話"
+        },
+        "step3": {
+          "number": "03",
+          "title": "建立您的活動",
+          "description": "設計您的訊息並設定活動參數。",
+          "time": "5 分鐘",
+          "campaignDraft": "活動草稿",
+          "draftStatus": "草稿",
+          "sampleMessage": "嗨 John，查看我們的新產品發布...",
+          "preview": "預覽",
+          "abTest": "A/B 測試",
+          "schedule": "排程",
+          "scheduleNow": "立即"
+        },
+        "step4": {
+          "number": "04",
+          "title": "發起並分析",
+          "description": "即時部署您的活動至數百萬人，並透過詳細分析追蹤即時效果。",
+          "time": "1 次點擊",
+          "campaignStatus": "活動狀態",
+          "liveStatus": "進行中",
+          "delivered": "847K",
+          "deliveredLabel": "已送達",
+          "response": "12.3%",
+          "responseLabel": "回應率",
+          "totalMessages": "1M",
+          "totalMessagesLabel": "總訊息數",
+          "deliveryRate": "99%",
+          "deliveryRateLabel": "送達率",
+          "realtimeAnalytics": "即時分析",
+          "timeRequired": "所需時間："
+        }
+      },
+      "testimonials": {
+        "title": "受成長領導者信賴",
+        "subtitle": "了解公司如何透過 SeaX 擴展外聯",
+        "testimonial1": {
+          "quote": "感謝 SeaX 觸及整個資料庫的能力，我們在一個月內將合格潛在客戶翻倍。",
+          "author": "Sarah Chen",
+          "role": "銷售副總裁，TechScale"
+        },
+        "testimonial2": {
+          "quote": "投資報酬率驚人。我們每月發送 200 萬條訊息，我們的管道從未如此充實。",
+          "author": "Michael Rodriguez",
+          "role": "成長經理，LeadForce"
+        },
+        "testimonial3": {
+          "quote": "SeaX 取代了 5 個不同工具，並將我們的外聯能力提升 10 倍。對我們銷售團隊來說是改變遊戲規則的工具。",
+          "author": "Jennifer Park",
+          "role": "執行長，MarketBoost"
+        }
+      },
+      "finalCTA": {
+        "title": "準備成長了嗎？",
+        "subtitle": "加入使用 SeaX 擴展外聯並填滿合格潛在客戶管道的數千家公司。",
+        "requestDemo": "申請個人化演示",
+        "signUpNow": "立即註冊"
+      }
+    },
+    "header": {
+      "backToMain": "返回主站",
+      "features": "功能",
+      "pricing": "定價",
+      "howItWorks": "運作方式",
+      "about": "關於我們",
+      "resources": "資源",
+      "blog": "部落格",
+      "contactSales": "聯繫銷售",
+      "navigation": {
+        "features": "功能",
+        "channels": "渠道",
+        "solutions": "解決方案",
+        "industries": "產業",
+        "pricing": "定價"
+      },
+      "channels": {
+        "smsOverview": "簡訊總覽",
+        "localNumber": "本地號碼 (10DLC)",
+        "tollFree": "免付費電話號碼",
+        "shortCode": "短碼",
+        "whatsappBusiness": "WhatsApp Business 平台",
+        "phoneCallVoice": "電話語音通話"
+      },
+      "solutions": {
+        "leadGeneration": "潛在客戶開發",
+        "marketingAutomation": "行銷自動化",
+        "customerEngagement": "客戶互動",
+        "appointmentReminders": "預約提醒",
+        "emergencyAlerts": "緊急警報"
+      },
+      "industries": {
+        "ecommerceRetail": "電子商務和零售",
+        "realEstate": "房地產",
+        "politicalCampaigns": "政治競選",
+        "healthcare": "醫療保健",
+        "financialServices": "金融服務"
+      },
+      "buttons": {
+        "wiki": "Wiki",
+        "signIn": "登入",
+        "signUp": "註冊"
+      },
+      "mobile": {
+        "backToMainSite": "返回主網站"
+      }
+    },
+    "footer": {
+      "tagline": "即時觸及數百萬人。發送數百萬簡訊、WhatsApp 訊息和自動化電話的終極平台。填滿您的管道，推動營收，擴展您的業務。",
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA",
+      "channels": {
+        "title": "通道",
+        "smsOverview": "簡訊概覽",
+        "localNumber": "本地號碼 (10DLC)",
+        "localNumberCode": "10DLC",
+        "tollFree": "免付費號碼",
+        "tollFreeCode": "8XX",
+        "shortCode": "短碼",
+        "shortCodeNumber": "xxxxx",
+        "whatsappBusiness": "WhatsApp 商業平台",
+        "phoneVoice": "電話語音通話"
+      },
+      "solutions": {
+        "title": "解決方案",
+        "leadGeneration": "潛在客戶生成",
+        "marketingAutomation": "行銷自動化",
+        "customerEngagement": "客戶參與",
+        "appointmentReminders": "預約提醒",
+        "emergencyAlerts": "緊急警報"
+      },
+      "industries": {
+        "title": "產業",
+        "ecommerce": "電子商務和零售",
+        "realEstate": "房地產",
+        "political": "政治活動",
+        "healthcare": "醫療保健",
+        "financial": "金融服務"
+      },
+      "company": {
+        "title": "公司",
+        "productWiki": "產品文檔",
+        "apiReferences": "API 參考"
+      }
+    },
+    "calculator": {
+      "ranges": {
+        "tenKPlus": "10k+",
+        "fiveKPlus": "5k+",
+        "oneKPlus": "1k+"
+      },
+      "phone": {
+        "localPlus": "本地 +",
+        "tollFree": "免付費"
+      }
+    },
+    "dashboard": {
+      "messagesSent": "訊息已發送",
+      "delivered": "已送達",
+      "opened": "已開啟",
+      "clicked": "已點擊",
+      "replied": "已回覆",
+      "bounce": "退回",
+      "unsubscribed": "已取消訂閱",
+      "liveUpdates": "即時更新",
+      "campaignPerformance": "活動效果"
+    },
+    "scale": {
+      "traditional": {
+        "title": "傳統外聯",
+        "calls": "手動撥號",
+        "emails": "電子郵件群發",
+        "limitation": "觸及限制"
+      },
+      "seax": {
+        "title": "SeaX 平台",
+        "sms": "大量簡訊",
+        "whatsapp": "WhatsApp 活動",
+        "voice": "語音自動化",
+        "scale": "無限擴展"
+      }
+    },
+    "stats": {
+      "processing": "處理中",
+      "messagesPerSecond": "每秒訊息數",
+      "delivered": "已送達",
+      "campaignsActive": "活躍活動",
+      "responseRate": "回應率",
+      "automatedFollowups": "自動化跟進",
+      "leadsQualified": "合格潛在客戶"
     }
   }
 }

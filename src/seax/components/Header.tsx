@@ -20,7 +20,7 @@ import ProductLogoDropdown from '../../components/ProductLogoDropdown';
 import PhoneBanner from '../../components/PhoneBanner';
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     if (!i18n.language) {
       i18n.changeLanguage('en'); // default to English or detect from settings
@@ -52,115 +52,115 @@ const Header = () => {
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const navigation = useMemo(() => [
-    { name: 'Features', href: getLocalizedPath('/features') },
+    { name: t('seax.header.navigation.features'), href: getLocalizedPath('/features') },
     {
-      name: 'Channels',
+      name: t('seax.header.navigation.channels'),
       href: getLocalizedPath('/channels'),
       dropdown: [
         { 
-          name: 'SMS Overview', 
+          name: t('seax.header.channels.smsOverview'), 
           href: getLocalizedPath('/channels/sms'),
           icon: MessageSquare,
           iconText: 'SMS',
           isParent: true
         },
         { 
-          name: 'Local Number (10DLC)', 
+          name: t('seax.header.channels.localNumber'), 
           href: getLocalizedPath('/channels/sms-local'),
           icon: Building2,
           iconText: '10DLC',
           isChild: true
         },
         { 
-          name: 'Toll-Free Number', 
+          name: t('seax.header.channels.tollFree'), 
           href: getLocalizedPath('/channels/sms-toll-free'),
           icon: Phone,
           iconText: '8XX',
           isChild: true
         },
         { 
-          name: 'Short Code', 
+          name: t('seax.header.channels.shortCode'), 
           href: getLocalizedPath('/channels/sms-short-code'),
           icon: Hash,
           iconText: 'xxxxx',
           isChild: true
         },
         { 
-          name: 'WhatsApp Business Platform', 
+          name: t('seax.header.channels.whatsappBusiness'), 
           href: getLocalizedPath('/channels/whatsapp'),
           icon: WhatsAppIcon
         },
         { 
-          name: 'Phone Call Voice', 
+          name: t('seax.header.channels.phoneCallVoice'), 
           href: getLocalizedPath('/channels/voice'),
           icon: Phone
         }
       ]
     },
     {
-      name: 'Solutions',
+      name: t('seax.header.navigation.solutions'),
       href: getLocalizedPath('/solutions'),
       dropdown: [
         { 
-          name: 'Lead Generation', 
+          name: t('seax.header.solutions.leadGeneration'), 
           href: getLocalizedPath('/solutions/lead-generation'),
           icon: Target
         },
         { 
-          name: 'Marketing Automation', 
+          name: t('seax.header.solutions.marketingAutomation'), 
           href: getLocalizedPath('/solutions/marketing-automation'),
           icon: Zap
         },
         { 
-          name: 'Customer Engagement', 
+          name: t('seax.header.solutions.customerEngagement'), 
           href: getLocalizedPath('/solutions/customer-engagement'),
           icon: Users
         },
         { 
-          name: 'Appointment Reminders', 
+          name: t('seax.header.solutions.appointmentReminders'), 
           href: getLocalizedPath('/solutions/appointment-reminders'),
           icon: Calendar
         },
         { 
-          name: 'Emergency Alerts', 
+          name: t('seax.header.solutions.emergencyAlerts'), 
           href: getLocalizedPath('/solutions/emergency-alerts'),
           icon: AlertTriangle
         }
       ]
     },
     {
-      name: 'Industries',
+      name: t('seax.header.navigation.industries'),
       href: getLocalizedPath('/industries'),
       dropdown: [
         { 
-          name: 'E-commerce & Retail', 
+          name: t('seax.header.industries.ecommerceRetail'), 
           href: getLocalizedPath('/industries/ecommerce-retail'),
           icon: ShoppingCart
         },
         { 
-          name: 'Real Estate', 
+          name: t('seax.header.industries.realEstate'), 
           href: getLocalizedPath('/industries/real-estate'),
           icon: Building2
         },
         { 
-          name: 'Political Campaigns', 
+          name: t('seax.header.industries.politicalCampaigns'), 
           href: getLocalizedPath('/industries/political-campaigns'),
           icon: Vote
         },
         { 
-          name: 'Healthcare', 
+          name: t('seax.header.industries.healthcare'), 
           href: getLocalizedPath('/industries/healthcare'),
           icon: Heart
         },
         { 
-          name: 'Financial Services', 
+          name: t('seax.header.industries.financialServices'), 
           href: getLocalizedPath('/industries/financial-services'),
           icon: DollarSign
         }
       ]
     },
-    { name: 'Pricing', href: getLocalizedPath('/pricing') }
-  ], [currentLanguage]);
+    { name: t('seax.header.navigation.pricing'), href: getLocalizedPath('/pricing') }
+  ], [t, currentLanguage]);
 
   const isActivePath = (path: string) => {
     return location.pathname === path;
@@ -289,7 +289,7 @@ const Header = () => {
               className="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400 ml-4"
             >
               <BookOpen className="w-5 h-5 mr-2" />
-              Wiki
+              {t('seax.header.buttons.wiki')}
             </a>
           </nav>
 
@@ -300,13 +300,13 @@ const Header = () => {
               href="https://seax.seasalt.ai/signin"
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
-              Sign In
+              {t('seax.header.buttons.signIn')}
             </a>
             <a
               href="https://seax.seasalt.ai/signup"
               className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
             >
-              Sign Up
+              {t('seax.header.buttons.signUp')}
             </a>
           </div>
 
@@ -331,13 +331,13 @@ const Header = () => {
                   href="https://seax.seasalt.ai/signin"
                   className="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
                 >
-                  Sign In
+                  {t('seax.header.buttons.signIn')}
                 </a>
                 <a
                   href="https://seax.seasalt.ai/signup"
                   className="w-full block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
-                  Sign Up
+                  {t('seax.header.buttons.signUp')}
                 </a>
                 <a
                   href="https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/"
@@ -346,7 +346,7 @@ const Header = () => {
                   className="w-full flex items-center justify-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400"
                 >
                   <BookOpen className="w-5 h-5 mr-2" />
-                  Wiki
+                  {t('seax.header.buttons.wiki')}
                 </a>
               </div>
 
@@ -358,7 +358,7 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" className="h-6 w-auto mr-2" />
-                  Back to Main Site
+                  {t('seax.header.mobile.backToMainSite')}
                 </Link>
               </div>
 

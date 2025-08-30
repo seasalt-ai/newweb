@@ -39,37 +39,37 @@ const Footer = () => {
   };
 
   const channelLinks = [
-    { name: 'SMS Overview', path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
-    { name: 'Local Number (10DLC)', path: '/channels/sms-local', icon: Building2, iconText: '10DLC', isChild: true },
-    { name: 'Toll-Free Number', path: '/channels/sms-toll-free', icon: Phone, iconText: '8XX', isChild: true },
-    { name: 'Short Code', path: '/channels/sms-short-code', icon: Hash, iconText: 'xxxxx', isChild: true },
-    { name: 'WhatsApp Business Platform', path: '/channels/whatsapp', icon: WhatsAppIcon },
-    { name: 'Phone Call Voice', path: '/channels/voice', icon: Phone }
+    { name: t('footer.links.channels.smsOverview'), path: '/channels/sms', icon: MessageSquare, iconText: 'SMS', isParent: true },
+    { name: t('footer.links.channels.smsLocal'), path: '/channels/sms-local', icon: Building2, iconText: '10DLC', isChild: true },
+    { name: t('footer.links.channels.smsTollFree'), path: '/channels/sms-toll-free', icon: Phone, iconText: '8XX', isChild: true },
+    { name: t('footer.links.channels.smsShortCode'), path: '/channels/sms-short-code', icon: Hash, iconText: 'xxxxx', isChild: true },
+    { name: t('footer.links.channels.whatsapp'), path: '/channels/whatsapp', icon: WhatsAppIcon },
+    { name: t('footer.links.channels.voice'), path: '/channels/voice', icon: Phone }
   ];
 
   const solutionLinks = [
-    { name: 'Lead Generation', path: '/solutions/lead-generation', icon: Target },
-    { name: 'Marketing Automation', path: '/solutions/marketing-automation', icon: Zap },
-    { name: 'Customer Engagement', path: '/solutions/customer-engagement', icon: Users },
-    { name: 'Appointment Reminders', path: '/solutions/appointment-reminders', icon: Calendar },
-    { name: 'Emergency Alerts', path: '/solutions/emergency-alerts', icon: AlertTriangle }
+    { name: t('footer.links.solutions.leadGeneration'), path: '/solutions/lead-generation', icon: Target },
+    { name: t('footer.links.solutions.marketingAutomation'), path: '/solutions/marketing-automation', icon: Zap },
+    { name: t('footer.links.solutions.customerEngagement'), path: '/solutions/customer-engagement', icon: Users },
+    { name: t('footer.links.solutions.appointmentReminders'), path: '/solutions/appointment-reminders', icon: Calendar },
+    { name: t('footer.links.solutions.emergencyAlerts'), path: '/solutions/emergency-alerts', icon: AlertTriangle }
   ];
 
   const industryLinks = [
-    { name: 'E-commerce & Retail', path: '/industries/ecommerce-retail', icon: ShoppingCart },
-    { name: 'Real Estate', path: '/industries/real-estate', icon: Building2 },
-    { name: 'Political Campaigns', path: '/industries/political-campaigns', icon: Vote },
-    { name: 'Healthcare', path: '/industries/healthcare', icon: Heart },
-    { name: 'Financial Services', path: '/industries/financial-services', icon: DollarSign }
+    { name: t('footer.links.industries.ecommerceRetail'), path: '/industries/ecommerce-retail', icon: ShoppingCart },
+    { name: t('footer.links.industries.realEstate'), path: '/industries/real-estate', icon: Building2 },
+    { name: t('footer.links.industries.politicalCampaigns'), path: '/industries/political-campaigns', icon: Vote },
+    { name: t('footer.links.industries.healthcare'), path: '/industries/healthcare', icon: Heart },
+    { name: t('footer.links.industries.financialServices'), path: '/industries/financial-services', icon: DollarSign }
   ];
 
   const companyLinks = [
     { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
     { name: t('header.pricing'), href: getLocalizedPath('/pricing'), icon: DollarSign },
     { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
-    { name: 'Product Wiki', href: 'https://wiki.seasalt.ai', icon: Book },
-    { name: 'API References', href: 'https://api.seasalt.ai', icon: Server },
-    { name: 'Careers', href: `/${currentLanguage}/careers`, icon: Briefcase },
+    { name: t('footer.links.company.productWiki'), href: 'https://wiki.seasalt.ai', icon: Book },
+    { name: t('footer.links.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
+    { name: t('footer.links.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
     { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
   ];
 
@@ -87,21 +87,20 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, 
-              and automated phone calls. Fill your pipeline, drive revenue, and scale your business.
+              {t('footer.description.company')}
             </p>
             <div className="space-y-2 sm:space-y-3">
               <div className="flex items-center text-gray-300">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="text-sm">+1 (SMB)-AI-AGENT</span>
+                <span className="text-sm">{t('footer.contact.phone')}</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">info@seasalt.ai</span>
+                <span className="text-sm">{t('footer.contact.email')}</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span className="text-sm">Seattle, WA</span>
+                <span className="text-sm">{t('footer.contact.location')}</span>
               </div>
             </div>
             <div className="flex space-x-4 mt-6">
@@ -123,14 +122,14 @@ const Footer = () => {
           {/* Channels */}
           <div>
             {/* Desktop: Regular heading */}
-            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Channels</h3>
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.channels')}</h3>
             
             {/* Mobile: Collapsible heading */}
             <button 
               onClick={() => toggleMobileSection('channels')}
               className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
             >
-              Channels
+              {t('footer.section.channels')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.channels ? '' : 'rotate-180'}`} />
             </button>
             
@@ -212,14 +211,14 @@ const Footer = () => {
           {/* Solutions */}
           <div>
             {/* Desktop: Regular heading */}
-            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Solutions</h3>
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.solutions')}</h3>
             
             {/* Mobile: Collapsible heading */}
             <button 
               onClick={() => toggleMobileSection('solutions')}
               className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
             >
-              Solutions
+              {t('footer.section.solutions')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.solutions ? '' : 'rotate-180'}`} />
             </button>
             
@@ -269,14 +268,14 @@ const Footer = () => {
           {/* Industries */}
           <div>
             {/* Desktop: Regular heading */}
-            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">Industries</h3>
+            <h3 className="hidden lg:block text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.industries')}</h3>
             
             {/* Mobile: Collapsible heading */}
             <button 
               onClick={() => toggleMobileSection('industries')}
               className="lg:hidden flex items-center justify-between w-full text-base sm:text-lg font-semibold mb-4 text-left"
             >
-              Industries
+              {t('footer.section.industries')}
               <ChevronDown className={`w-4 h-4 transition-transform ${mobileCollapsed.industries ? '' : 'rotate-180'}`} />
             </button>
             
@@ -346,7 +345,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                 >
                   <Zap className="h-3 w-3 mr-2 text-blue-400" />
-                  Features
+                  {t('footer.links.company.features')}
                 </Link>
               </li>
               <li>
@@ -355,7 +354,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                 >
                   <DollarSign className="h-3 w-3 mr-2 text-blue-400" />
-                  Pricing
+                  {t('footer.links.company.pricing')}
                 </Link>
               </li>
               {/* Then company links */}
@@ -402,7 +401,7 @@ const Footer = () => {
                         className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                       >
                         <Zap className="h-3 w-3 mr-2 text-blue-400" />
-                        Features
+                        {t('footer.links.company.features')}
                       </Link>
                     </li>
                     <li>
@@ -411,7 +410,7 @@ const Footer = () => {
                         className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                       >
                         <DollarSign className="h-3 w-3 mr-2 text-blue-400" />
-                        Pricing
+                        {t('footer.links.company.pricing')}
                       </Link>
                     </li>
                     {/* Then company links */}
@@ -454,10 +453,10 @@ const Footer = () => {
               </p>
               <div className="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
                 <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Privacy Policy
+                  {t('footer.legal.privacyPolicy')}
                 </Link>
                 <Link to="/terms" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Terms of Service
+                  {t('footer.legal.termsOfService')}
                 </Link>
               </div>
             </div>
@@ -466,21 +465,21 @@ const Footer = () => {
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
               <span className="flex items-center">
                 <MessageSquare className="w-4 h-4 mr-1" />
-                10M+ Messages Daily
+                {t('footer.stats.messagesDaily')}
               </span>
               <span className="flex items-center">
                 <Users className="w-4 h-4 mr-1" />
-                500K+ Active Users
+                {t('footer.stats.activeUsers')}
               </span>
               <span className="flex items-center">
                 <Target className="w-4 h-4 mr-1" />
-                99.9% Uptime
+                {t('footer.stats.uptime')}
               </span>
             </div>
           </div>
           <div className="text-center mt-4">
             <p className="text-gray-300 text-sm">
-              Made with <Heart className="inline w-4 h-4 text-red-500" /> in the city of{' '}
+              {t('footer.madeWith.text')} <Heart className="inline w-4 h-4 text-red-500" /> {t('footer.madeWith.inCityOf')}{' '}
               <Coffee className="inline w-4 h-4 text-amber-700" />{' '}
               <Umbrella className="inline w-4 h-4 text-blue-400" />{' '}
               <Plane className="inline w-4 h-4 text-gray-500" />{' '}
@@ -494,23 +493,23 @@ const Footer = () => {
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
           <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
-            Ready to Scale Your Outreach to Millions?
+            {t('footer.cta.title')}
           </h3>
           <p className="text-white opacity-90 mb-6 max-w-2xl mx-auto">
-            Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.
+            {t('footer.cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
               href="https://seax.seasalt.ai/signup"
               className="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Sign Up Now
+              {t('footer.cta.signUpNow')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
             >
-              Schedule Demo
+              {t('footer.cta.scheduleDemo')}
             </a>
           </div>
         </div>
