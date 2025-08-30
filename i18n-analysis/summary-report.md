@@ -1,51 +1,51 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-29T23:07:52.439Z
+Generated: 2025-08-30T01:53:18.309Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 4468
+- **Base Language (en) Keys**: 4562
 - **Components Analyzed**: 210
-- **Translation Coverage**: 78.28%
-- **Missing Keys**: 1177
-- **Hardcoded Strings Found**: 3779
+- **Translation Coverage**: 79.97%
+- **Missing Keys**: 1086
+- **Hardcoded Strings Found**: 3776
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 19.83% | ❌ Incomplete |
-| de | 887 | 19.34% | ❌ Incomplete |
-| en | 4468 | 100.00% | ✅ Good |
-| es | 835 | 18.17% | ❌ Incomplete |
-| fa | 755 | 16.41% | ❌ Incomplete |
-| fil | 739 | 16.03% | ❌ Incomplete |
-| fr | 739 | 16.03% | ❌ Incomplete |
-| hi | 690 | 14.93% | ❌ Incomplete |
-| id | 690 | 14.93% | ❌ Incomplete |
-| ja | 690 | 14.95% | ❌ Incomplete |
-| ko | 690 | 14.93% | ❌ Incomplete |
-| ms | 690 | 14.93% | ❌ Incomplete |
-| pl | 676 | 14.62% | ❌ Incomplete |
-| pt | 676 | 14.62% | ❌ Incomplete |
-| ru | 676 | 14.62% | ❌ Incomplete |
-| ta | 739 | 16.03% | ❌ Incomplete |
-| th | 679 | 14.68% | ❌ Incomplete |
-| vi | 739 | 16.03% | ❌ Incomplete |
-| zh-CN | 802 | 17.46% | ❌ Incomplete |
-| zh-TW | 4468 | 99.98% | ✅ Good |
+| ar | 909 | 19.42% | ❌ Incomplete |
+| de | 887 | 18.94% | ❌ Incomplete |
+| en | 4562 | 100.00% | ✅ Good |
+| es | 835 | 17.80% | ❌ Incomplete |
+| fa | 755 | 16.07% | ❌ Incomplete |
+| fil | 739 | 15.69% | ❌ Incomplete |
+| fr | 739 | 15.69% | ❌ Incomplete |
+| hi | 690 | 14.62% | ❌ Incomplete |
+| id | 690 | 14.62% | ❌ Incomplete |
+| ja | 690 | 14.64% | ❌ Incomplete |
+| ko | 690 | 14.62% | ❌ Incomplete |
+| ms | 690 | 14.62% | ❌ Incomplete |
+| pl | 676 | 14.31% | ❌ Incomplete |
+| pt | 676 | 14.31% | ❌ Incomplete |
+| ru | 676 | 14.31% | ❌ Incomplete |
+| ta | 739 | 15.69% | ❌ Incomplete |
+| th | 679 | 14.38% | ❌ Incomplete |
+| vi | 739 | 15.69% | ❌ Incomplete |
+| zh-CN | 802 | 17.10% | ❌ Incomplete |
+| zh-TW | 4564 | 99.96% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 1177 keys used in components but missing from en.json
+**Description**: 1086 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 3779 hardcoded strings that should be internationalized
+**Description**: Found 3776 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -191,81 +191,6 @@ seachat.features.api.ctaTitle
 seachat.features.api.ctaSubtitle
 seachat.features.api.ctaAccessButton
 seachat.features.api.ctaDocsButton
-seachat.features.advancedAI.rag.title
-seachat.features.advancedAI.rag.description
-seachat.features.advancedAI.rag.details.semantic
-seachat.features.advancedAI.rag.details.keyword
-seachat.features.advancedAI.rag.details.hybrid
-seachat.features.advancedAI.rag.details.indexing
-seachat.features.advancedAI.memory.title
-seachat.features.advancedAI.memory.description
-seachat.features.advancedAI.memory.details.preferences
-seachat.features.advancedAI.memory.details.history
-seachat.features.advancedAI.memory.details.patterns
-seachat.features.advancedAI.memory.details.continuity
-seachat.features.advancedAI.timeAwareness.title
-seachat.features.advancedAI.timeAwareness.description
-seachat.features.advancedAI.timeAwareness.details.timestamp
-seachat.features.advancedAI.timeAwareness.details.timezone
-seachat.features.advancedAI.timeAwareness.details.recommendations
-seachat.features.advancedAI.timeAwareness.details.hours
-seachat.features.advancedAI.context.title
-seachat.features.advancedAI.context.description
-seachat.features.advancedAI.context.details.fields
-seachat.features.advancedAI.context.details.extraction
-seachat.features.advancedAI.context.details.language
-seachat.features.advancedAI.context.details.dynamic
-seachat.features.advancedAI.references.title
-seachat.features.advancedAI.references.description
-seachat.features.advancedAI.references.details.linking
-seachat.features.advancedAI.references.details.tracking
-seachat.features.advancedAI.references.details.confidence
-seachat.features.advancedAI.references.details.verification
-seachat.features.advancedAI.knowledge.title
-seachat.features.advancedAI.knowledge.description
-seachat.features.advancedAI.knowledge.details.updating
-seachat.features.advancedAI.knowledge.details.scoring
-seachat.features.advancedAI.knowledge.details.relevance
-seachat.features.advancedAI.knowledge.details.analytics
-seachat.features.advancedAI.memoryExamples.language.field
-seachat.features.advancedAI.memoryExamples.language.description
-seachat.features.advancedAI.memoryExamples.language.example
-seachat.features.advancedAI.memoryExamples.product.field
-seachat.features.advancedAI.memoryExamples.product.description
-seachat.features.advancedAI.memoryExamples.product.example
-seachat.features.advancedAI.memoryExamples.history.field
-seachat.features.advancedAI.memoryExamples.history.description
-seachat.features.advancedAI.memoryExamples.history.example
-seachat.features.advancedAI.memoryExamples.style.field
-seachat.features.advancedAI.memoryExamples.style.description
-seachat.features.advancedAI.memoryExamples.style.example
-seachat.features.advancedAI.title
-seachat.features.advancedAI.subtitle
-seachat.features.advancedAI.exploreButton
-seachat.features.advancedAI.capabilities.title
-seachat.features.advancedAI.capabilities.subtitle
-seachat.features.advancedAI.memory.sectionTitle
-seachat.features.advancedAI.memory.sectionSubtitle
-seachat.features.advancedAI.memory.fieldsTitle
-seachat.features.advancedAI.memory.fieldsDescription
-seachat.features.advancedAI.memory.example
-seachat.features.advancedAI.memory.timeline
-seachat.features.advancedAI.memory.firstInteraction
-seachat.features.advancedAI.memory.firstInteractionDesc
-seachat.features.advancedAI.memory.ongoingConversations
-seachat.features.advancedAI.memory.ongoingConversationsDesc
-seachat.features.advancedAI.memory.returnVisits
-seachat.features.advancedAI.memory.returnVisitsDesc
-seachat.features.advancedAI.rag.sectionTitle
-seachat.features.advancedAI.rag.sectionSubtitle
-seachat.features.advancedAI.rag.keyword
-seachat.features.advancedAI.rag.keywordDesc
-seachat.features.advancedAI.rag.vector
-seachat.features.advancedAI.rag.vectorDesc
-seachat.features.advancedAI.rag.hybrid
-seachat.features.advancedAI.rag.hybridDesc
-seachat.features.advancedAI.cta.title
-seachat.features.advancedAI.cta.subtitle
 seachat.features.analytics.metrics.satisfaction.title
 seachat.features.analytics.metrics.responseTime.title
 seachat.features.analytics.metrics.resolution.title
@@ -507,25 +432,9 @@ seachat.features.voiceAgents.moreSamples
 seachat.features.voiceAgents.featuresTitle
 seachat.features.voiceAgents.ctaTitle
 seachat.features.voiceAgents.ctaSubtitle
-seachat.integrations.calendar.features
-seachat.integrations.calendar.flow.request.example
-seachat.integrations.calendar.setup
 seachat.integrations.calendar.customerRequest
 seachat.integrations.calendar.aiResponse1
 seachat.integrations.calendar.aiResponse2
-seachat.integrations.communication.platforms.whatsapp.description
-seachat.integrations.communication.setup
-seachat.integrations.communication.connectPlatform
-seachat.integrations.communication.cta.subtitle
-seachat.integrations.ecommerce.features
-seachat.integrations.ecommerce.setup
-seachat.integrations.marketing.features
-seachat.integrations.marketing.setup
-seachat.integrations.social.platforms.whatsapp.description
-seachat.integrations.social.platforms.facebook.description
-seachat.integrations.social.features
-seachat.integrations.social.setup
-seachat.integrations.websites.setup
 seachat.solutions.ecommerce.features.orders.title
 seachat.solutions.ecommerce.features.orders.description
 seachat.solutions.ecommerce.features.orders.benefits.status
@@ -1238,7 +1147,7 @@ seachat.solutions.travel.ctaDemoButton
 ## Hardcoded Strings Summary
 
 
-Found 3779 potential hardcoded strings across components:
+Found 3776 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -1281,7 +1190,7 @@ Found 3779 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
-... and 3769 more. See hardcoded-strings.json for complete list.
+... and 3766 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -1289,13 +1198,13 @@ Found 3779 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 1177 keys used in components but missing from en.json
+**Description**: 1086 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 3779 hardcoded strings that should be internationalized
+**Description**: Found 3776 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

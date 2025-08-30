@@ -1081,24 +1081,6 @@
     "parentContext": "ObjectProperty"
   },
   {
-    "file": "src/seachat/pages/features/AdvancedAIPage.tsx",
-    "text": "Schedule Demo",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AdvancedAIPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/AdvancedAIPage.tsx",
-    "text": "Schedule Demo",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center\"\n            >\n              Schedule Demo\n              <ArrowRight className=\"w-5 h-5 ml-2\" />\n            </a>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
     "file": "src/seachat/pages/features/AnalyticsPage.tsx",
     "text": "94.5%",
     "context": "      icon: Users,\n      title: t('seachat.features.analytics.metrics.satisfaction.title', 'Customer Satisfaction'),\n      value: '94.5%',\n      change: '+2.3%',\n      color: 'from-green-500 to-emerald-500'\n    },",

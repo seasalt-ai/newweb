@@ -4477,6 +4477,126 @@
           "now": "Now"
         }
       }
+    },
+    "features": {
+      "advancedAI": {
+        "title": "Advanced AI Features",
+        "subtitle": "Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.",
+        "exploreButton": "Explore Advanced AI",
+        "scheduleDemo": "Schedule Demo",
+        "capabilities": {
+          "title": "Cutting-Edge AI Capabilities",
+          "subtitle": "Experience the future of customer support with our advanced AI features that learn, remember, and adapt."
+        },
+        "rag": {
+          "title": "Retrieval Augmented Generation (RAG)",
+          "description": "Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.",
+          "details": {
+            "semantic": "Semantic vector search for contextual understanding",
+            "keyword": "Traditional keyword matching for exact queries",
+            "hybrid": "Hybrid algorithms combining both approaches",
+            "indexing": "Real-time content indexing and updates"
+          },
+          "sectionTitle": "Retrieval Augmented Generation",
+          "sectionSubtitle": "Advanced search technology that combines multiple approaches for the most accurate information retrieval.",
+          "keyword": "Keyword Search",
+          "keywordDesc": "Traditional exact-match searching for precise queries and specific terms.",
+          "vector": "Vector Search",
+          "vectorDesc": "Semantic understanding that finds contextually relevant information.",
+          "hybrid": "Hybrid Search",
+          "hybridDesc": "Best of both worlds, combining keyword precision with semantic understanding."
+        },
+        "memory": {
+          "title": "Long Term Memory System",
+          "description": "Persistent user memory that creates personalized experiences across all interactions.",
+          "details": {
+            "preferences": "User preference tracking and storage",
+            "history": "Conversation history analysis",
+            "patterns": "Behavioral pattern recognition",
+            "continuity": "Cross-session continuity and context"
+          },
+          "sectionTitle": "Long Term Memory in Action",
+          "sectionSubtitle": "See how our AI remembers and learns from every interaction to provide increasingly personalized support.",
+          "fieldsTitle": "Context Extraction Fields",
+          "fieldsDescription": "Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.",
+          "example": "Example",
+          "timeline": "Memory Timeline",
+          "firstInteraction": "First Interaction",
+          "firstInteractionDesc": "AI learns user preferences and context",
+          "ongoingConversations": "Ongoing Conversations",
+          "ongoingConversationsDesc": "Continuously updates user profile",
+          "returnVisits": "Return Visits",
+          "returnVisitsDesc": "Provides personalized, context-aware responses"
+        },
+        "timeAwareness": {
+          "title": "Time Awareness Integration",
+          "description": "Context-aware responses based on current time, timezone, and temporal relevance.",
+          "details": {
+            "timestamp": "Real-time timestamp integration",
+            "timezone": "Timezone-aware scheduling and responses",
+            "recommendations": "Time-sensitive recommendations",
+            "hours": "Business hours optimization"
+          }
+        },
+        "context": {
+          "title": "Smart Context Extraction",
+          "description": "Intelligent field mapping and data extraction for better user comprehension.",
+          "details": {
+            "fields": "Custom field definitions and mapping",
+            "extraction": "Automatic data extraction from conversations",
+            "language": "User language preference detection",
+            "dynamic": "Dynamic context building and updates"
+          }
+        },
+        "references": {
+          "title": "Referenced Chat Results",
+          "description": "Transparent AI responses with source citations and confidence scoring.",
+          "details": {
+            "linking": "Source document linking and citations",
+            "tracking": "Citation tracking and verification",
+            "confidence": "Confidence scoring for responses",
+            "verification": "Fact verification and validation"
+          }
+        },
+        "knowledge": {
+          "title": "Knowledge Base Refinement",
+          "description": "Continuous improvement of knowledge base accuracy and relevance.",
+          "details": {
+            "updating": "Auto-updating content based on interactions",
+            "scoring": "Quality scoring and content ranking",
+            "relevance": "Relevance optimization algorithms",
+            "analytics": "Performance analytics and insights"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "User_Language",
+            "description": "Remembers preferred communication language",
+            "example": "Customer prefers Spanish responses"
+          },
+          "product": {
+            "field": "Product_Interest",
+            "description": "Tracks product categories of interest",
+            "example": "Interested in premium software solutions"
+          },
+          "history": {
+            "field": "Support_History",
+            "description": "Maintains context of previous issues",
+            "example": "Previously had billing questions resolved"
+          },
+          "style": {
+            "field": "Communication_Style",
+            "description": "Adapts to preferred interaction style",
+            "example": "Prefers detailed technical explanations"
+          }
+        },
+        "cta": {
+          "title": "Experience the Future of AI",
+          "subtitle": "Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.",
+          "signUp": "Sign Up For Free",
+          "scheduleDemo": "Schedule Demo"
+        }
+      }
     }
   },
   "common": {

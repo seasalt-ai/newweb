@@ -4479,6 +4479,126 @@
           "now": "現在"
         }
       }
+    },
+    "features": {
+      "advancedAI": {
+        "title": "進階 AI 功能",
+        "subtitle": "下一代 AI 智能，具備記憶、情境感知和進階推理能力，提供真正個人化的客戶體驗。",
+        "exploreButton": "探索進階 AI",
+        "scheduleDemo": "預約演示",
+        "capabilities": {
+          "title": "尖端 AI 能力",
+          "subtitle": "體驗客戶支援的未來，我們的進階 AI 功能能夠學習、記憶和適應。"
+        },
+        "rag": {
+          "title": "檢索增強生成 (RAG)",
+          "description": "結合關鍵字、向量和混合搜尋的進階搜尋能力，實現精準的資訊檢索。",
+          "details": {
+            "semantic": "語義向量搜尋，提供情境理解",
+            "keyword": "傳統關鍵字匹配，用於精確查詢",
+            "hybrid": "結合兩種方法的混合演算法",
+            "indexing": "即時內容索引和更新"
+          },
+          "sectionTitle": "檢索增強生成",
+          "sectionSubtitle": "進階搜尋技術，結合多種方法實現最準確的資訊檢索。",
+          "keyword": "關鍵字搜尋",
+          "keywordDesc": "傳統精確匹配搜尋，用於精確查詢和特定術語。",
+          "vector": "向量搜尋",
+          "vectorDesc": "語義理解，找到情境相關的資訊。",
+          "hybrid": "混合搜尋",
+          "hybridDesc": "兩全其美，結合關鍵字精確性和語義理解。"
+        },
+        "memory": {
+          "title": "長期記憶系統",
+          "description": "持久的用戶記憶，在所有互動中創造個人化體驗。",
+          "details": {
+            "preferences": "用戶偏好追蹤和儲存",
+            "history": "對話歷史分析",
+            "patterns": "行為模式識別",
+            "continuity": "跨會話連續性和情境"
+          },
+          "sectionTitle": "長期記憶實際運作",
+          "sectionSubtitle": "了解我們的 AI 如何從每次互動中記憶和學習，提供日益個人化的支援。",
+          "fieldsTitle": "情境提取欄位",
+          "fieldsDescription": "我們的 AI 自動識別並儲存每個用戶的關鍵資訊，創建豐富的個人檔案，增強每次未來的互動。",
+          "example": "範例",
+          "timeline": "記憶時間軸",
+          "firstInteraction": "首次互動",
+          "firstInteractionDesc": "AI 學習用戶偏好和情境",
+          "ongoingConversations": "持續對話",
+          "ongoingConversationsDesc": "持續更新用戶檔案",
+          "returnVisits": "回訪",
+          "returnVisitsDesc": "提供個人化、情境感知的回應"
+        },
+        "timeAwareness": {
+          "title": "時間感知整合",
+          "description": "基於當前時間、時區和時間相關性的情境感知回應。",
+          "details": {
+            "timestamp": "即時時間戳整合",
+            "timezone": "時區感知排程和回應",
+            "recommendations": "時間敏感的建議",
+            "hours": "營業時間優化"
+          }
+        },
+        "context": {
+          "title": "智慧情境提取",
+          "description": "智能欄位映射和數據提取，提高用戶理解能力。",
+          "details": {
+            "fields": "自訂欄位定義和映射",
+            "extraction": "從對話中自動提取數據",
+            "language": "用戶語言偏好檢測",
+            "dynamic": "動態情境建構和更新"
+          }
+        },
+        "references": {
+          "title": "引用聊天結果",
+          "description": "透明的 AI 回應，包含來源引用和信心評分。",
+          "details": {
+            "linking": "來源文件連結和引用",
+            "tracking": "引用追蹤和驗證",
+            "confidence": "回應信心評分",
+            "verification": "事實驗證和確認"
+          }
+        },
+        "knowledge": {
+          "title": "知識庫優化",
+          "description": "持續改善知識庫的準確性和相關性。",
+          "details": {
+            "updating": "基於互動自動更新內容",
+            "scoring": "品質評分和內容排名",
+            "relevance": "相關性優化演算法",
+            "analytics": "效能分析和洞察"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "用戶語言",
+            "description": "記住偏好的溝通語言",
+            "example": "客戶偏好西班牙語回應"
+          },
+          "product": {
+            "field": "產品興趣",
+            "description": "追蹤感興趣的產品類別",
+            "example": "對高級軟體解決方案感興趣"
+          },
+          "history": {
+            "field": "支援歷史",
+            "description": "維護之前問題的情境",
+            "example": "之前的帳單問題已解決"
+          },
+          "style": {
+            "field": "溝通風格",
+            "description": "適應偏好的互動風格",
+            "example": "偏好詳細的技術說明"
+          }
+        },
+        "cta": {
+          "title": "體驗 AI 的未來",
+          "subtitle": "準備好用能夠記憶、學習和適應的進階 AI 轉變您的客戶支援嗎？用我們的尖端技術開始您的旅程。",
+          "signUp": "免費註冊",
+          "scheduleDemo": "預約演示"
+        }
+      }
     }
   },
   "common": {
