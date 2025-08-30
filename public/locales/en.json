@@ -2885,13 +2885,12 @@
         "guideButton": "View Integration Guide",
         "platformsTitle": "Supported CRM Platforms",
         "platformsSubtitle": "Choose from our extensive list of CRM integrations, each optimized for seamless data flow.",
-        "setupTime": "integrations.crm.setupTime",
+        "setupTime": "Setup time",
         "connectPlatform": "Connect",
         "whyIntegrateTitle": "Why Integrate with Your CRM?",
         "whyIntegrateSubtitle": "Transform your customer support into a powerful sales and relationship management tool.",
         "featuresTitle": "Comprehensive CRM Integration Features",
         "featuresSubtitle": "Our CRM integrations go beyond basic contact sync to provide a complete customer relationship management solution.",
-        "features": "integrations.crm.features",
         "workflowTitle": "Integration Workflow",
         "ctaTitle": "Ready to Connect Your CRM?",
         "ctaSubtitle": "Start syncing your customer data and transform support conversations into business opportunities.",
@@ -3293,7 +3292,8 @@
         "solutionSubtitle": "Everything you need to manage appointments, meetings, and events directly from your customer support platform.",
         "solutionTitle": "Complete Scheduling Solution",
         "subtitle": "Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.",
-        "title": "Calendar & Scheduling"
+        "title": "Calendar & Scheduling",
+        "setup": "Set up"
       },
       "communication": {
         "benefits": {
@@ -3455,7 +3455,8 @@
         "platformsSubtitle": "Connect with the communication tools your team already uses for seamless workflow integration.",
         "platformsTitle": "Popular Communication Platforms",
         "subtitle": "Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.",
-        "title": "Communication Tools"
+        "title": "Communication Tools",
+        "setup": "Setup time"
       },
       "ecommerce": {
         "benefits": {
@@ -3683,7 +3684,8 @@
         "subtitle": "Connect SeaChat with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.",
         "supportSubtitle": "Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
         "supportTitle": "Complete E-commerce Support Suite",
-        "title": "E-commerce Seachat integrations"
+        "title": "E-commerce Seachat integrations",
+        "setup": "Setup time"
       },
       "marketing": {
         "automationTitle": "Marketing Automation Flow",
@@ -3872,7 +3874,8 @@
         },
         "useCasesSubtitle": "See how support conversations can trigger powerful marketing workflows.",
         "useCasesTitle": "Marketing Automation Use Cases",
-        "workflowExample": "Example Workflow"
+        "workflowExample": "Example Workflow",
+        "setup": "Set up"
       },
       "social": {
         "benefits": {
@@ -3913,6 +3916,7 @@
         "pageMessages": "5 page messages",
         "platforms": {
           "facebook": {
+            "description": "Provide customer support through Facebook's messaging platform",
             "features": {
               "cards": "Rich cards",
               "menu": "Persistent menu",
@@ -3972,6 +3976,7 @@
             "users": "450M+ users"
           },
           "whatsapp": {
+            "description": "Connect with customers on the world's most popular messaging platform",
             "features": {
               "api": "Business API",
               "groups": "Groups",
@@ -3987,6 +3992,7 @@
         "platformsTitle": "All Major Social Platforms",
         "productComments": "Comments on latest product showcase",
         "productInquiries": "Customer inquiries about product availability",
+        "setup": "Setup time",
         "storyReplies": "8 story replies",
         "subtitle": "Connect all your social media platforms and provide seamless customer support across WhatsApp, Instagram, Facebook, Twitter, and more.",
         "supportRequests": "Support requests and general inquiries",
@@ -4133,7 +4139,8 @@
         "platformsTitle": "Supported Platforms",
         "subtitle": "Deploy SeaChat on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
         "title": "Website Integrations",
-        "viewDocs": "View Documentation"
+        "viewDocs": "View Documentation",
+        "setup": "Set up"
       }
     },
     "heroAnimations": {

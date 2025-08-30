@@ -116,9 +116,6 @@ const SocialMediaPage = () => {
     }
   ];
 
-  const featuresFromTranslation = t('seachat.integrations.social.features', { returnObjects: true });
-  const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
-
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -240,14 +237,6 @@ const SocialMediaPage = () => {
                 {t('seachat.integrations.social.managementSubtitle', 'Everything you need to manage customer interactions across all social media platforms from one unified dashboard.')}
               </p>
               
-              <div className="grid md:grid-cols-2 gap-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
-                  </div>
-                ))}
-              </div>
             </div>
             
             <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 border border-pink-100">

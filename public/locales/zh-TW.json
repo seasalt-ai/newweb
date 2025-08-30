@@ -2885,13 +2885,12 @@
         "guideButton": "查看整合指南",
         "platformsTitle": "支援的 CRM 平台",
         "platformsSubtitle": "從我們豐富的 CRM 整合清單中選擇，每個都經過優化以實現無縫數據流。",
-        "setupTime": "integrations.crm.setupTime",
+        "setupTime": "設定時間",
         "connectPlatform": "連接",
         "whyIntegrateTitle": "為什麼要與您的 CRM 整合？",
         "whyIntegrateSubtitle": "將您的客戶支援轉變為強大的銷售和關係管理工具。",
         "featuresTitle": "全面的 CRM 整合功能",
         "featuresSubtitle": "我們的 CRM 整合超越基本的聯絡人同步，提供完整的客戶關係管理解決方案。",
-        "features": "integrations.crm.features",
         "workflowTitle": "整合工作流程",
         "ctaTitle": "準備好連接您的 CRM 了嗎？",
         "ctaSubtitle": "開始同步您的客戶數據，將支援對話轉化為商業機會。",
@@ -3293,7 +3292,8 @@
         "solutionSubtitle": "您需要的一切，可直接從您的客戶支援平台管理約會、會議和活動。",
         "solutionTitle": "完整的排程解決方案",
         "subtitle": "與熱門的行事曆平台整合，可直接從客戶支援對話中無縫安排約會。",
-        "title": "行事曆與排程"
+        "title": "行事曆與排程",
+        "setup": "設定"
       },
       "communication": {
         "benefits": {
@@ -3455,7 +3455,8 @@
         "platformsSubtitle": "與您團隊已在使用的通訊工具連線，以實現無縫的工作流程整合。",
         "platformsTitle": "熱門通訊平台",
         "subtitle": "與 Slack、Teams、Discord 等熱門通訊平台整合，以簡化您的支援工作流程和團隊協作。",
-        "title": "通訊工具"
+        "title": "通訊工具",
+        "setup": "設定時間"
       },
       "ecommerce": {
         "benefits": {
@@ -3683,7 +3684,8 @@
         "subtitle": "將 SeaChat 與您的線上商店連線，以提供卓越的客戶支援、增加銷售額並減少購物車放棄率。",
         "supportSubtitle": "您需要的一切，可為您的線上商店提供卓越的客戶支援，從訂單追蹤到產品推薦。",
         "supportTitle": "完整的電子商務支援套件",
-        "title": "電子商務Seachat整合"
+        "title": "電子商務Seachat整合",
+        "setup": "設定時間"
       },
       "marketing": {
         "automationTitle": "行銷自動化流程",
@@ -3872,7 +3874,8 @@
         },
         "useCasesSubtitle": "了解支援對話如何觸發強大的行銷工作流程。",
         "useCasesTitle": "行銷自動化使用案例",
-        "workflowExample": "工作流程範例"
+        "workflowExample": "工作流程範例",
+        "setup": "設定"
       },
       "social": {
         "benefits": {
@@ -3913,6 +3916,7 @@
         "pageMessages": "5 則頁面訊息",
         "platforms": {
           "facebook": {
+            "description": "透過 Facebook 的訊息平台提供客戶支援",
             "features": {
               "cards": "豐富卡片",
               "menu": "固定選單",
@@ -3972,6 +3976,7 @@
             "users": "4.5 億以上使用者"
           },
           "whatsapp": {
+            "description": "在全球最受歡迎的訊息平台上與客戶聯繫",
             "features": {
               "api": "商業 API",
               "groups": "群組",
@@ -3988,6 +3993,7 @@
         "productComments": "最新產品展示的留言",
         "productInquiries": "客戶對產品可用性的查詢",
         "storyReplies": "8 則限時動態回覆",
+        "setup": "設定時間",
         "subtitle": "連接您所有的社群媒體平台，並在 WhatsApp、Instagram、Facebook、Twitter 等平台上提供無縫的客戶支援。",
         "supportRequests": "支援請求和一般查詢",
         "title": "社群媒體整合",
@@ -4133,7 +4139,8 @@
         "platformsTitle": "支援的平台",
         "subtitle": "在任何網站平台上快速部署 SeaChat。通用相容性，具有自訂樣式和回應式設計。",
         "title": "網站整合",
-        "viewDocs": "查看文件"
+        "viewDocs": "查看文件",
+        "setup": "設定"
       }
     },
     "heroAnimations": {
