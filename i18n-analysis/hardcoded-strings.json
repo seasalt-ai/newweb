@@ -840,47 +840,6 @@
     "parentContext": "ObjectProperty"
   },
   {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "/month",
-    "context": "                  {plan.originalPrice && plan.originalPrice > 0 && billingCycle === 'yearly' && (\n                    <div className=\"flex items-center mt-2\">\n                      <span className=\"text-lg text-gray-500 line-through\">${plan.originalPrice}/month</span>\n                      <span className=\"ml-2 bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-semibold\">\n                        {t('seachat.pricing.save')}\n                      </span>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "Based on",
-    "context": "                  )}\n                  {plan.price > 0 && (\n                    <p className=\"text-sm text-gray-500 mt-1\">\n                      Based on {chatVolume.toLocaleString()} chats/{billingCycle === 'monthly' ? 'month' : 'year'}\n                    </p>\n                  )}\n                </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "chats/",
-    "context": "                  {plan.price > 0 && (\n                    <p className=\"text-sm text-gray-500 mt-1\">\n                      Based on {chatVolume.toLocaleString()} chats/{billingCycle === 'monthly' ? 'month' : 'year'}\n                    </p>\n                  )}\n                </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "// @ts-ignore",
-    "context": "                    </p>\n                  )}\n                </div>\n\n                  // @ts-ignore\n                <ul className=\"space-y-3 mb-8\">\n                  {(plan.features as string[]).map((feature: string, index: number) => (\n                    <li key={index} className=\"flex items-start space-x-3\">\n                      <Check className=\"w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5\" />",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "// @ts-ignore",
-    "context": "\n                {plan.limitations && (\n                  <div className=\"mb-6\">\n                      // @ts-ignore\n                    <p className=\"text-sm font-medium text-gray-500 mb-2\">Limitations:</p>\n                    <ul className=\"space-y-1\">\n                      {(plan.limitations as string[]).map((limitation: string, index: number) => (\n                        <li key={index} className=\"text-sm text-gray-500 flex items-center space-x-2\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "Limitations:",
-    "context": "                  <div className=\"mb-6\">\n                      // @ts-ignore\n                    <p className=\"text-sm font-medium text-gray-500 mb-2\">Limitations:</p>\n                    <ul className=\"space-y-1\">\n                      {(plan.limitations as string[]).map((limitation: string, index: number) => (\n                        <li key={index} className=\"text-sm text-gray-500 flex items-center space-x-2\">",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/components/PricingSection.tsx",
-    "text": "Limitations:",
-    "context": "className=\"text-sm font-medium text-gray-500 mb-2\">Limitations:</p>\n                    <ul classNam"
-  },
-  {
     "file": "src/seachat/components/hero-animations/InteractiveChannels.tsx",
     "text": "w-4 h-4",
     "context": "          <div className=\"flex items-center space-x-3\">\n            <div className=\"w-8 h-8 bg-white/20 rounded-full flex items-center justify-center\">\n              {activeChannelData && React.createElement(activeChannelData.icon, { className: \"w-4 h-4\" })}\n            </div>\n            <div>\n              <h3 className=\"font-semibold\">{activeChannelData?.name} {t('seachat.heroAnimations.interactiveChannels.supportSuffix')}</h3>",
@@ -1082,30 +1041,6 @@
     "file": "src/seachat/pages/features/OmnichannelPage.tsx",
     "text": "Emma Wilson",
     "context": "                     <span className=\"font-medium\">Emma Wilson</span>\n                      <Instagr"
-  },
-  {
-    "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center\"\n              >\n                Sign Up For Free\n              </a>\n              <a\n                href={getMeetingUrl(currentLanguage)}\n                target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
-    "text": "Schedule Demo",
-    "context": "                rel=\"noopener noreferrer\"\n                className=\"border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center\"\n              >\n                Schedule Demo\n              </a>\n            </div>\n          </div>\n        </div>",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
-    "text": "Sign Up For Free",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center\"\n            >\n              Sign Up For Free\n            </a>\n            <a\n              href={getMeetingUrl(currentLanguage)}\n              target=\"_blank\"",
-    "type": "jsx-text"
-  },
-  {
-    "file": "src/seachat/pages/features/VoiceAgentsPage.tsx",
-    "text": "Schedule Demo",
-    "context": "              rel=\"noopener noreferrer\"\n              className=\"border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center\"\n            >\n              Schedule Demo\n              <ArrowRight className=\"w-5 h-5 ml-2\" />\n            </a>\n          </div>\n        </div>",
-    "type": "jsx-text"
   },
   {
     "file": "src/seachat/pages/integrations/CalendarPage.tsx",

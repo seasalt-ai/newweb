@@ -12495,10 +12495,23 @@
         "engagement": "互動"
       },
       "activity": {
-        "title": "即時活動"
+        "title": "即時活動",
+        "types": {
+          "sms": "簡訊",
+          "whatsapp": "WhatsApp",
+          "voice": "語音"
+        },
+        "statuses": {
+          "sent": "已發送",
+          "delivered": "已送達",
+          "read": "已讀",
+          "replied": "已回覆"
+        }
       },
       "cards": {
+        "deliveryValue": "99.2%",
         "deliveryRate": "送達率",
+        "hourlyValue": "240萬",
         "thisHour": "本小時",
         "liveUpdates": "即時更新"
       }

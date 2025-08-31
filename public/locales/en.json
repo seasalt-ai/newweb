@@ -12493,10 +12493,23 @@
         "engagement": "Engagement"
       },
       "activity": {
-        "title": "Live Activity"
+        "title": "Live Activity",
+        "types": {
+          "sms": "SMS",
+          "whatsapp": "WhatsApp",
+          "voice": "Voice"
+        },
+        "statuses": {
+          "sent": "sent",
+          "delivered": "delivered",
+          "read": "read",
+          "replied": "replied"
+        }
       },
       "cards": {
+        "deliveryValue": "99.2%",
         "deliveryRate": "Delivery Rate",
+        "hourlyValue": "2.4M",
         "thisHour": "This Hour",
         "liveUpdates": "Live Updates"
       }

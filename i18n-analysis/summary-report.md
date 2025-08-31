@@ -1,54 +1,65 @@
 # I18n Translation Coverage Analysis Report
 
-Generated: 2025-08-30T15:29:03.754Z
+Generated: 2025-08-31T15:33:56.290Z
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
-- **Base Language (en) Keys**: 5489
-- **Components Analyzed**: 210
-- **Translation Coverage**: 70.76%
-- **Hardcoded Strings Found**: 2435
+- **Base Language (en) Keys**: 7519
+- **Components Analyzed**: 209
+- **Translation Coverage**: 97.46%
+- **Missing Keys**: 180
+- **Hardcoded Strings Found**: 2265
 
+## Translation Files Status
+
+| Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
-| ar | 909 | 16.10% | ❌ Incomplete |
-| de | 887 | 15.70% | ❌ Incomplete |
-| en | 5489 | 100.00% | ✅ Good |
-| es | 835 | 14.76% | ❌ Incomplete |
-| fa | 755 | 13.35% | ❌ Incomplete |
-| fil | 739 | 13.04% | ❌ Incomplete |
-| fr | 739 | 13.04% | ❌ Incomplete |
-| hi | 690 | 12.15% | ❌ Incomplete |
-| id | 690 | 12.15% | ❌ Incomplete |
-| ja | 690 | 12.17% | ❌ Incomplete |
-| ko | 690 | 12.15% | ❌ Incomplete |
-| ms | 690 | 12.15% | ❌ Incomplete |
-| pl | 676 | 11.90% | ❌ Incomplete |
-| pt | 676 | 11.90% | ❌ Incomplete |
-| ru | 676 | 11.90% | ❌ Incomplete |
-| ta | 739 | 13.04% | ❌ Incomplete |
-| th | 739 | 13.04% | ❌ Incomplete |
-| vi | 739 | 13.04% | ❌ Incomplete |
-| zh-CN | 802 | 14.19% | ❌ Incomplete |
-| zh-TW | 5585 | 99.98% | ✅ Good |
+| ar | 909 | 11.76% | ❌ Incomplete |
+| de | 887 | 11.46% | ❌ Incomplete |
+| en | 7519 | 100.00% | ✅ Good |
+| es | 835 | 10.77% | ❌ Incomplete |
+| fa | 755 | 9.75% | ❌ Incomplete |
+| fil | 739 | 9.52% | ❌ Incomplete |
+| fr | 739 | 9.52% | ❌ Incomplete |
+| hi | 690 | 8.87% | ❌ Incomplete |
+| id | 690 | 8.87% | ❌ Incomplete |
+| ja | 690 | 8.88% | ❌ Incomplete |
+| ko | 690 | 8.87% | ❌ Incomplete |
+| ms | 690 | 8.87% | ❌ Incomplete |
+| pl | 676 | 8.68% | ❌ Incomplete |
+| pt | 676 | 8.68% | ❌ Incomplete |
+| ru | 676 | 8.68% | ❌ Incomplete |
+| ta | 739 | 9.52% | ❌ Incomplete |
+| th | 739 | 9.52% | ❌ Incomplete |
+| vi | 739 | 9.52% | ❌ Incomplete |
+| zh-CN | 802 | 10.36% | ❌ Incomplete |
+| zh-TW | 7617 | 99.97% | ✅ Good |
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
-**Description**: 2024 keys used in components but missing from en.json
+**Description**: 180 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
-**Description**: Found 2435 hardcoded strings that should be internationalized
+**Description**: Found 2265 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
+
+
+## Missing Translation Keys
 
 
 The following keys are used in components but missing from the base language file:
 
 ```
+industriesData.ecommerce.benefits.0
 industriesData.ecommerce.benefits.1
+industriesData.ecommerce.benefits.2
+industriesData.ecommerce.benefits.3
+industriesData.healthcare.benefits.0
 industriesData.healthcare.benefits.1
 industriesData.healthcare.benefits.2
 industriesData.healthcare.benefits.3
@@ -96,99 +107,13 @@ company.timeline.list.4.event
 pricing.legacy.enterprise.period
 channels.sms.hero.title.prefix
 channels.sms.hero.title.highlight
-seachat.pricing.plans.free.features
-seachat.pricing.plans.free.limitations
-seachat.pricing.plans.free.button
-seachat.pricing.plans.starter.name
-seachat.pricing.plans.starter.description
-seachat.pricing.plans.starter.badge
-seachat.pricing.plans.starter.features
-seachat.pricing.plans.starter.button
-seachat.pricing.plans.growth.name
-seachat.pricing.plans.growth.description
-seachat.pricing.plans.growth.features
-seachat.pricing.plans.growth.button
-seachat.pricing.plans.enterprise.features
-seachat.pricing.plans.enterprise.button
-seachat.pricing.plans.free.period
-seachat.pricing.enterprise.button
 seachat.features.voiceAgents.featuresList
-seachat.features.voiceAgents.natural.title
-seachat.features.voiceAgents.natural.description
-seachat.features.voiceAgents.speech.title
-seachat.features.voiceAgents.speech.description
-seachat.features.voiceAgents.synthesis.title
-seachat.features.voiceAgents.synthesis.description
-seachat.features.voiceAgents.support.title
-seachat.features.voiceAgents.support.description
-seachat.features.voiceAgents.multilanguage.title
-seachat.features.voiceAgents.multilanguage.description
-seachat.features.voiceAgents.routing.title
-seachat.features.voiceAgents.routing.description
-seachat.features.voiceAgents.capabilities.service.title
-seachat.features.voiceAgents.capabilities.service.description
-seachat.features.voiceAgents.capabilities.appointments.title
-seachat.features.voiceAgents.capabilities.appointments.description
-seachat.features.voiceAgents.capabilities.orders.title
-seachat.features.voiceAgents.capabilities.orders.description
-seachat.features.voiceAgents.capabilities.support.title
-seachat.features.voiceAgents.capabilities.support.description
-seachat.features.voiceAgents.title
-seachat.features.voiceAgents.subtitle
-seachat.features.voiceAgents.capabilitiesTitle
-seachat.features.voiceAgents.capabilitiesSubtitle
-seachat.features.voiceAgents.performanceTitle
-seachat.features.voiceAgents.performanceSubtitle
-seachat.features.voiceAgents.accuracyRate
-seachat.features.voiceAgents.avgDuration
-seachat.features.voiceAgents.experienceTitle
-seachat.features.voiceAgents.experienceSubtitle
-seachat.features.voiceAgents.sampleTitle
-seachat.features.voiceAgents.voiceAgent
-seachat.features.voiceAgents.agentGreeting
-seachat.features.voiceAgents.customer
-seachat.features.voiceAgents.customerQuestion
-seachat.features.voiceAgents.agentResponse
-seachat.features.voiceAgents.playDemo
-seachat.features.voiceAgents.moreSamples
-seachat.features.voiceAgents.featuresTitle
-seachat.features.voiceAgents.ctaTitle
-seachat.features.voiceAgents.ctaSubtitle
 seachat.integrations.calendar.customerRequest
 seachat.integrations.calendar.aiResponse1
 seachat.integrations.calendar.aiResponse2
 seachat.solutions.realEstate.integrations
 seachat.solutions.saas.integrations
 seachat.solutions.travel.integrations
-seachat.solutions.travel.title
-seachat.solutions.travel.subtitle
-seachat.solutions.travel.trialButton
-seachat.solutions.travel.demoButton
-seachat.solutions.travel.featuresTitle
-seachat.solutions.travel.featuresSubtitle
-seachat.solutions.travel.servicesTitle
-seachat.solutions.travel.servicesSubtitle
-seachat.solutions.travel.impactTitle
-seachat.solutions.travel.impactSubtitle
-seachat.solutions.travel.useCasesTitle
-seachat.solutions.travel.useCasesSubtitle
-seachat.solutions.travel.travelerRequest
-seachat.solutions.travel.seachatResponse
-seachat.solutions.travel.integrationsTitle
-seachat.solutions.travel.integrationsSubtitle
-seachat.solutions.travel.bookingFlowTitle
-seachat.solutions.travel.flow.inquiry.title
-seachat.solutions.travel.flow.inquiry.description
-seachat.solutions.travel.flow.search.title
-seachat.solutions.travel.flow.search.description
-seachat.solutions.travel.flow.assistance.title
-seachat.solutions.travel.flow.assistance.description
-seachat.solutions.travel.flow.confirmation.title
-seachat.solutions.travel.flow.confirmation.description
-seachat.solutions.travel.ctaTitle
-seachat.solutions.travel.ctaSubtitle
-seachat.solutions.travel.ctaTrialButton
-seachat.solutions.travel.ctaDemoButton
 seax.channelTemplate.pricing.title
 seax.channelTemplate.pricing.subtitle
 seax.channelTemplate.pricing.setup
@@ -315,8 +240,8 @@ seax.channels.voice.pricing
 
 ## Hardcoded Strings Summary
 
-Found 2435 potential hardcoded strings across components:
 
+Found 2265 potential hardcoded strings across components:
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -358,7 +283,8 @@ Found 2435 potential hardcoded strings across components:
   **Text**: "Made with"
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
-... and 2425 more. See hardcoded-strings.json for complete list.
+
+... and 2255 more. See hardcoded-strings.json for complete list.
 
 
 ## Recommendations for Phase 2.1
@@ -366,13 +292,13 @@ Found 2435 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
-**Description**: 2024 keys used in components but missing from en.json
+**Description**: 180 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
-**Description**: Found 2435 hardcoded strings that should be internationalized
+**Description**: Found 2265 hardcoded strings that should be internationalized
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

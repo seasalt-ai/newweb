@@ -6,13 +6,11 @@ import { useTranslation } from 'react-i18next';
 interface ComparisonData {
   manual: {
     messages: number;
-    time: string;
     reach: number;
     efficiency: number;
   };
   seax: {
     messages: number;
-    time: string;
     reach: number;
     efficiency: number;
   };
@@ -24,18 +22,17 @@ const ScaleComparison = () => {
   const [comparisonData, setComparisonData] = useState<ComparisonData>({
     manual: {
       messages: 0,
-      time: t('seax.scaleComparison.manual.timeValue'),
       reach: 0,
       efficiency: 25
     },
     seax: {
       messages: 0,
-      time: t('seax.scaleComparison.seax.timeValue'),
       reach: 0,
       efficiency: 95
     }
   });
 
+  // Phase rotation
   useEffect(() => {
     const phaseInterval = setInterval(() => {
       setAnimationPhase(prev => (prev + 1) % 3);
@@ -44,8 +41,8 @@ const ScaleComparison = () => {
     return () => clearInterval(phaseInterval);
   }, []);
 
+  // Animate counters
   useEffect(() => {
-    // Animate counters based on current phase
     const interval = setInterval(() => {
       setComparisonData(prev => ({
         manual: {
@@ -167,26 +164,24 @@ const ScaleComparison = () => {
 
                 {/* Manual message dots */}
                 <AnimatePresence>
-                  {animationPhase === 0 && manualMessages.slice(0, Math.floor(comparisonData.manual.messages / 6)).map((msg) => (
-                    <motion.div
-                      key={msg.id}
-                      initial={{ opacity: 0, scale: 0 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0 }}
-                      transition={{ delay: msg.delay }}
-                      className="absolute w-3 h-3 bg-orange-500 rounded-full"
-                      style={{
-                        left: `${msg.x}%`,
-                        top: `${msg.y}%`,
-                      }}
-                    >
+                  {animationPhase === 0 &&
+                    manualMessages.slice(0, Math.floor(comparisonData.manual.messages / 6)).map((msg) => (
                       <motion.div
-                        animate={{ scale: [1, 1.5, 1] }}
-                        transition={{ duration: 2, repeat: Infinity }}
-                        className="absolute inset-0 bg-orange-400/30 rounded-full"
-                      />
-                    </motion.div>
-                  ))}
+                        key={msg.id}
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ delay: msg.delay }}
+                        className="absolute w-3 h-3 bg-orange-500 rounded-full"
+                        style={{ left: `${msg.x}%`, top: `${msg.y}%` }}
+                      >
+                        <motion.div
+                          animate={{ scale: [1, 1.5, 1] }}
+                          transition={{ duration: 2, repeat: Infinity }}
+                          className="absolute inset-0 bg-orange-400/30 rounded-full"
+                        />
+                      </motion.div>
+                    ))}
                 </AnimatePresence>
               </div>
 
@@ -203,10 +198,14 @@ const ScaleComparison = () => {
                   </motion.div>
                   <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.messagesPerDay')}</div>
                 </div>
+
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
-                  <div className="text-2xl font-bold text-orange-600 mb-1">{comparisonData.manual.time}</div>
+                  <div className="text-2xl font-bold text-orange-600 mb-1">
+                    {t('seax.scaleComparison.manual.timeValue')}
+                  </div>
                   <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.timeRequired')}</div>
                 </div>
+
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <motion.div
                     key={comparisonData.manual.reach}
@@ -218,6 +217,7 @@ const ScaleComparison = () => {
                   </motion.div>
                   <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.peopleReached')}</div>
                 </div>
+
                 <div className="text-center p-4 bg-orange-50 rounded-lg">
                   <div className="text-2xl font-bold text-orange-600 mb-1">{comparisonData.manual.efficiency}%</div>
                   <div className="text-sm text-gray-600">{t('seax.scaleComparison.manual.stats.efficiency')}</div>
@@ -238,13 +238,13 @@ const ScaleComparison = () => {
           {/* VS Divider */}
           <div className="hidden lg:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
             <motion.div
-              animate={{ 
+              animate={{
                 scale: [1, 1.1, 1],
                 rotate: [0, 180, 360]
               }}
-              transition={{ 
+              transition={{
                 scale: { duration: 2, repeat: Infinity },
-                rotate: { duration: 8, repeat: Infinity, ease: "linear" }
+                rotate: { duration: 8, repeat: Infinity, ease: 'linear' }
               }}
               className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-xl"
             >
@@ -275,48 +275,32 @@ const ScaleComparison = () => {
                   <span className="text-sm font-medium">{t('seax.scaleComparison.seax.aiPowered')}</span>
                 </div>
 
-                {/* SeaX message explosion */}
                 <AnimatePresence>
-                  {animationPhase === 2 && seaxMessages.map((msg) => (
-                    <motion.div
-                      key={msg.id}
-                      initial={{ opacity: 0, scale: 0 }}
-                      animate={{ 
-                        opacity: 1, 
-                        scale: [0, 1, 0.8]
-                      }}
-                      exit={{ opacity: 0, scale: 0 }}
-                      transition={{ 
-                        delay: msg.delay,
-                        duration: 0.5,
-                        scale: { duration: 1 }
-                      }}
-                      className="absolute w-3 h-3 bg-blue-500 rounded-full"
-                      style={{
-                        left: `${msg.x}%`,
-                        top: `${msg.y}%`,
-                      }}
-                    >
+                  {animationPhase === 2 &&
+                    seaxMessages.map((msg) => (
                       <motion.div
-                        animate={{ scale: [1, 2, 1], opacity: [0.6, 0, 0.6] }}
-                        transition={{ duration: 1.5, repeat: Infinity }}
-                        className="absolute inset-0 bg-blue-400/40 rounded-full"
-                      />
-                    </motion.div>
-                  ))}
+                        key={msg.id}
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: [0, 1, 0.8] }}
+                        exit={{ opacity: 0, scale: 0 }}
+                        transition={{ delay: msg.delay, duration: 0.5, scale: { duration: 1 } }}
+                        className="absolute w-3 h-3 bg-blue-500 rounded-full"
+                        style={{ left: `${msg.x}%`, top: `${msg.y}%` }}
+                      >
+                        <motion.div
+                          animate={{ scale: [1, 2, 1], opacity: [0.6, 0, 0.6] }}
+                          transition={{ duration: 1.5, repeat: Infinity }}
+                          className="absolute inset-0 bg-blue-400/40 rounded-full"
+                        />
+                      </motion.div>
+                    ))}
                 </AnimatePresence>
 
                 {/* Central command center */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   <motion.div
-                    animate={{ 
-                      scale: animationPhase === 2 ? [1, 1.2, 1] : 1,
-                      rotate: [0, 360]
-                    }}
-                    transition={{ 
-                      scale: { duration: 2, repeat: Infinity },
-                      rotate: { duration: 10, repeat: Infinity, ease: "linear" }
-                    }}
+                    animate={{ scale: animationPhase === 2 ? [1, 1.2, 1] : 1, rotate: [0, 360] }}
+                    transition={{ scale: { duration: 2, repeat: Infinity }, rotate: { duration: 10, repeat: Infinity, ease: 'linear' } }}
                     className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center"
                   >
                     <Users className="w-6 h-6 text-white" />
@@ -327,73 +311,44 @@ const ScaleComparison = () => {
               {/* SeaX Stats */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <motion.div
-                    key={comparisonData.seax.messages}
-                    initial={{ scale: 1.1 }}
-                    animate={{ scale: 1 }}
-                    className="text-2xl font-bold text-blue-600 mb-1"
-                  >
+                  <motion.div key={comparisonData.seax.messages} initial={{ scale: 1.1 }} animate={{ scale: 1 }} className="text-2xl font-bold text-blue-600 mb-1">
                     {comparisonData.seax.messages.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">
-                    {t('seax.scaleComparison.seax.stats.messagesPerDay')}
-                  </div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.messagesPerDay')}</div>
                 </div>
 
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">
-                    {comparisonData.seax.time}
-                  </div>
-                  <div className="text-sm text-gray-600">
-                    {t('seax.scaleComparison.seax.stats.timeRequired')}
-                  </div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">{t('seax.scaleComparison.seax.timeValue')}</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.timeRequired')}</div>
                 </div>
 
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <motion.div
-                    key={comparisonData.seax.reach}
-                    initial={{ scale: 1.1 }}
-                    animate={{ scale: 1 }}
-                    className="text-2xl font-bold text-blue-600 mb-1"
-                  >
+                  <motion.div key={comparisonData.seax.reach} initial={{ scale: 1.1 }} animate={{ scale: 1 }} className="text-2xl font-bold text-blue-600 mb-1">
                     {comparisonData.seax.reach.toLocaleString()}
                   </motion.div>
-                  <div className="text-sm text-gray-600">
-                    {t('seax.scaleComparison.seax.stats.peopleReached')}
-                  </div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.peopleReached')}</div>
                 </div>
 
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 mb-1">
-                    {comparisonData.seax.efficiency}%
-                  </div>
-                  <div className="text-sm text-gray-600">
-                    {t('seax.scaleComparison.seax.stats.efficiency')}
-                  </div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">{comparisonData.seax.efficiency}%</div>
+                  <div className="text-sm text-gray-600">{t('seax.scaleComparison.seax.stats.efficiency')}</div>
                 </div>
               </div>
-              </div>
+            </div>
 
-              {/* Advantage Badge */}
-              <motion.div
-                animate={{ y: [0, -5, 0] }}
-                transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
-                className="absolute -bottom-4 right-4 bg-green-500 text-white rounded-lg p-3 shadow-lg"
-              >
-                <div className="text-sm font-medium">
-                  {t('seax.scaleComparison.seax.badge')}
-                </div>
-              </motion.div>
-              </motion.div>
-              </div>
+            {/* Advantage Badge */}
+            <motion.div
+              animate={{ y: [0, -5, 0] }}
+              transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
+              className="absolute -bottom-4 right-4 bg-green-500 text-white rounded-lg p-3 shadow-lg"
+            >
+              <div className="text-sm font-medium">{t('seax.scaleComparison.seax.badge')}</div>
+            </motion.div>
+          </motion.div>
+        </div>
 
         {/* Bottom Summary */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-16 text-center"
-        >
+        <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-8 shadow-xl">
             <h3 className="text-3xl font-bold mb-4">{t('seax.scaleComparison.advantage.title')}</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -418,3 +373,5 @@ const ScaleComparison = () => {
 };
 
 export default ScaleComparison;
+
+
