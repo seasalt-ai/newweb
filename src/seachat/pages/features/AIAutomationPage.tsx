@@ -101,7 +101,7 @@ const AIAutomationPage = () => {
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
               >
-                Schedule Demo
+                {t('seachat.features.aiAutomation.scheduleDemo', 'Schedule Demo')}
               </a>
             </div>
           </div>
@@ -195,7 +195,6 @@ const AIAutomationPage = () => {
                 <h3 className="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.aiStrengthsTitle', 'AI Automation Excels At')}</h3>
               </div>
               <div className="space-y-4">
-                  // @ts-ignore
                 {Array.isArray(t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true })) 
                   ? (t('seachat.features.aiAutomation.aiStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (
                   <div
@@ -217,7 +216,6 @@ const AIAutomationPage = () => {
                 <MessageSquare className="w-12 h-12 text-green-600 mr-4" />
                 <h3 className="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.humanStrengthsTitle', 'Human Agents Excel At')}</h3>
               </div>
-                  // @ts-ignore
               <div className="space-y-4">
                 {Array.isArray(t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true })) 
                   ? (t('seachat.features.aiAutomation.humanStrengths', { returnObjects: true }) as string[]).map((strength: string, index: number) => (
@@ -253,7 +251,7 @@ const AIAutomationPage = () => {
               rel="noopener noreferrer"
               className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
             >
-              Sign Up For Free
+              {t('seachat.features.aiAutomation.signUpForFree', 'Sign Up For Free')}
             </a>
             <a
               href={getMeetingUrl(currentLanguage)}
@@ -261,7 +259,7 @@ const AIAutomationPage = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
             >
-              Schedule Demo
+              {t('seachat.features.aiAutomation.scheduleDemo', 'Schedule Demo')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </div>

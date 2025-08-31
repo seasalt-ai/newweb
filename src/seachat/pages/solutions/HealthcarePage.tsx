@@ -81,22 +81,22 @@ const HealthcarePage = () => {
 
   const metrics = [
     { 
-      value: '40%', 
+      value: t('seachat.solutions.healthcare.metrics.noshows.value', '40%'), 
       label: t('seachat.solutions.healthcare.metrics.noshows.label', 'Reduction in No-shows'), 
       description: t('seachat.solutions.healthcare.metrics.noshows.description', 'With automated appointment reminders') 
     },
     { 
-      value: '60%', 
+      value: t('seachat.solutions.healthcare.metrics.response.value', '60%'), 
       label: t('seachat.solutions.healthcare.metrics.response.label', 'Faster Response Time'), 
       description: t('seachat.solutions.healthcare.metrics.response.description', 'For patient inquiries and concerns') 
     },
     { 
-      value: '85%', 
+      value: t('seachat.solutions.healthcare.metrics.satisfaction.value', '85%'), 
       label: t('seachat.solutions.healthcare.metrics.satisfaction.label', 'Patient Satisfaction'), 
       description: t('seachat.solutions.healthcare.metrics.satisfaction.description', 'With 24/7 support availability') 
     },
     { 
-      value: '50%', 
+      value: t('seachat.solutions.healthcare.metrics.efficiency.value', '50%'), 
       label: t('seachat.solutions.healthcare.metrics.efficiency.label', 'Administrative Efficiency'), 
       description: t('seachat.solutions.healthcare.metrics.efficiency.description', 'Through automated workflows') 
     }
