@@ -1,70 +1,129 @@
 
 import { motion } from 'framer-motion';
 import { Megaphone, Users, BarChart3, Globe, CheckCircle, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const LargeScaleCampaignsPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Megaphone,
-      title: 'Mass Communication',
-      description: 'Reach thousands of customers simultaneously with personalized voice messages.',
-      benefits: ['Unlimited concurrent calls', 'Personalized messaging', 'Global reach']
+      title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.title'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit3')
+      ]
     },
     {
       icon: Users,
-      title: 'Audience Segmentation',
-      description: 'Target specific customer segments with tailored messages and timing.',
-      benefits: ['Demographic targeting', 'Behavioral segmentation', 'Custom audiences']
+      title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.title'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit3')
+      ]
     },
     {
       icon: BarChart3,
-      title: 'Real-Time Analytics',
-      description: 'Monitor campaign performance and optimize in real-time for better results.',
-      benefits: ['Live dashboards', 'Performance metrics', 'A/B testing']
+      title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.title'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit3')
+      ]
     }
   ];
 
   const campaignTypes = [
     {
-      type: 'Product Announcements',
-      description: 'Launch new products or services with widespread awareness campaigns',
-      examples: ['New feature releases', 'Product launches', 'Service updates'],
-      metrics: ['Reach: 100K+ customers', 'Awareness: 85% increase', 'Engagement: 45% response']
+      type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.type'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.description'),
+      examples: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example3')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric3')
+      ]
     },
     {
-      type: 'Emergency Notifications',
-      description: 'Rapidly disseminate critical information during emergencies',
-      examples: ['Service outages', 'Safety alerts', 'Policy changes'],
-      metrics: ['Speed: 1000 calls/minute', 'Delivery: 99% success', 'Response: < 5 minutes']
+      type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.type'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.description'),
+      examples: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example3')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric3')
+      ]
     },
     {
-      type: 'Marketing Campaigns',
-      description: 'Execute large-scale promotional and marketing initiatives',
-      examples: ['Seasonal promotions', 'Brand campaigns', 'Event invitations'],
-      metrics: ['Conversion: 12% average', 'ROI: 300% typical', 'Reach: Unlimited scale']
+      type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.type'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.description'),
+      examples: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example3')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric3')
+      ]
     },
     {
-      type: 'Survey & Research',
-      description: 'Conduct market research and gather customer feedback at scale',
-      examples: ['Market research', 'Customer satisfaction', 'Product feedback'],
-      metrics: ['Response: 35% rate', 'Completion: 80%', 'Insights: Real-time']
+      type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.type'),
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.description'),
+      examples: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example3')
+      ],
+      metrics: [
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric1'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric2'),
+        t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric3')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '10,000+', description: 'Concurrent calls supported' },
-    { metric: '99.9%', description: 'Message delivery success rate' },
-    { metric: '75%', description: 'Cost reduction vs traditional methods' },
-    { metric: '24/7', description: 'Campaign execution capability' }
+    { 
+      metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric1.value'), 
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric1.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric2.value'), 
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric2.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric3.value'), 
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric3.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric4.value'), 
+      description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric4.description') 
+    }
   ];
 
   const scalingCapabilities = [
-    'Unlimited concurrent calls',
-    'Global carrier network',
-    'Multi-language support',
-    'Time zone optimization',
-    'Regulatory compliance',
-    'Real-time monitoring'
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability1'),
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability2'),
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability3'),
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability4'),
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability5'),
+    t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability6')
   ];
 
   return (
@@ -82,19 +141,17 @@ const LargeScaleCampaignsPage = () => {
               <Megaphone className="w-16 h-16 text-indigo-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Large Scale Outbound Campaigns
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Execute massive voice campaigns that reach thousands of customers simultaneously. 
-              From product launches to emergency notifications, deliver personalized messages 
-              at unprecedented scale with AI-powered efficiency.
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors"
             >
-              Launch Mass Campaign
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -111,10 +168,10 @@ const LargeScaleCampaignsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Enterprise-Scale Campaign Features
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Powerful tools for managing and executing large-scale voice campaigns
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.subtitle')}
             </p>
           </motion.div>
 
@@ -158,10 +215,10 @@ const LargeScaleCampaignsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Campaign Types & Applications
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Versatile solutions for different business communication needs
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.subtitle')}
             </p>
           </motion.div>
 
@@ -179,7 +236,7 @@ const LargeScaleCampaignsPage = () => {
                 <p className="text-gray-600 mb-6">{campaign.description}</p>
                 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 text-sm mb-3">Common Examples:</h4>
+                  <h4 className="font-semibold text-gray-900 text-sm mb-3">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.commonExamples')}</h4>
                   <div className="space-y-1">
                     {campaign.examples.map((example, exampleIndex) => (
                       <div key={exampleIndex} className="flex items-center">
@@ -191,7 +248,7 @@ const LargeScaleCampaignsPage = () => {
                 </div>
                 
                 <div className="p-4 bg-indigo-50 rounded-lg">
-                  <h4 className="font-semibold text-indigo-900 text-sm mb-2">Performance Metrics:</h4>
+                  <h4 className="font-semibold text-indigo-900 text-sm mb-2">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.performanceMetrics')}</h4>
                   <div className="space-y-1">
                     {campaign.metrics.map((metric, metricIndex) => (
                       <p key={metricIndex} className="text-xs text-indigo-800">{metric}</p>
@@ -215,33 +272,31 @@ const LargeScaleCampaignsPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Unlimited Scale & Reach
+                {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our platform is built to handle campaigns of any size, from thousands to millions 
-                of calls. With global carrier partnerships and advanced infrastructure, we ensure 
-                reliable delivery at massive scale.
+                {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Globe className="w-6 h-6 text-indigo-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Global Infrastructure</h3>
-                    <p className="text-gray-600">Worldwide carrier network for maximum reach</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.globalInfrastructure.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.globalInfrastructure.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Zap className="w-6 h-6 text-indigo-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">High-Speed Execution</h3>
-                    <p className="text-gray-600">1000+ concurrent calls per minute</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.highSpeedExecution.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.highSpeedExecution.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-indigo-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Real-Time Monitoring</h3>
-                    <p className="text-gray-600">Live campaign performance tracking</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.realTimeMonitoring.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.realTimeMonitoring.description')}</p>
                   </div>
                 </div>
               </div>
@@ -254,7 +309,7 @@ const LargeScaleCampaignsPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Scaling Capabilities</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.title')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {scalingCapabilities.map((capability, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -265,19 +320,19 @@ const LargeScaleCampaignsPage = () => {
               </div>
               
               <div className="mt-6 p-4 bg-white rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Campaign Dashboard</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.title')}</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Active Calls:</span>
-                    <span className="font-semibold text-indigo-600">8,547</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCalls')}</span>
+                    <span className="font-semibold text-indigo-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue')}</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Completion Rate:</span>
-                    <span className="font-semibold text-green-600">94.2%</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRate')}</span>
+                    <span className="font-semibold text-green-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue')}</span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-gray-600">Response Rate:</span>
-                    <span className="font-semibold text-blue-600">67.8%</span>
+                    <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRate')}</span>
+                    <span className="font-semibold text-blue-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue')}</span>
                   </div>
                 </div>
               </div>
@@ -297,10 +352,10 @@ const LargeScaleCampaignsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Campaign Performance Results
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Proven effectiveness at enterprise scale
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -331,9 +386,9 @@ const LargeScaleCampaignsPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Scale Your Communications?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Launch massive voice campaigns that reach thousands of customers with personalized messages
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -341,14 +396,14 @@ const LargeScaleCampaignsPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Plan Your Campaign
+                {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors"
               >
-                See Case Studies
+                {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

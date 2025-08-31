@@ -1,62 +1,124 @@
-
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Mic, Zap, Globe, Shield, BarChart3, Settings } from 'lucide-react';
 
 const SpeechToTextPage = () => {
+  const { t } = useTranslation();
   const features = [
     {
       icon: Zap,
-      title: 'Real-Time Processing',
-      description: 'Convert speech to text in real-time with ultra-low latency for live conversations.',
-      specs: ['< 100ms latency', 'Streaming recognition', 'Live transcription']
+      title: t('seavoice.platform.speechToText.features.0.title'),
+      description: t('seavoice.platform.speechToText.features.0.description'),
+      specs: [
+        t('seavoice.platform.speechToText.features.0.specs.0'),
+        t('seavoice.platform.speechToText.features.0.specs.1'),
+        t('seavoice.platform.speechToText.features.0.specs.2')
+      ]
     },
     {
       icon: Globe,
-      title: 'Multi-Language Support',
-      description: 'Support for 50+ languages and dialects with automatic language detection.',
-      specs: ['50+ languages', 'Auto-detection', 'Regional accents']
+      title: t('seavoice.platform.speechToText.features.1.title'),
+      description: t('seavoice.platform.speechToText.features.1.description'),
+      specs: [
+        t('seavoice.platform.speechToText.features.1.specs.0'),
+        t('seavoice.platform.speechToText.features.1.specs.1'),
+        t('seavoice.platform.speechToText.features.1.specs.2')
+      ]
     },
     {
       icon: Shield,
-      title: 'Industry Accuracy',
-      description: 'Specialized models trained for different industries and use cases.',
-      specs: ['99%+ accuracy', 'Domain-specific', 'Custom vocabularies']
+      title: t('seavoice.platform.speechToText.features.2.title'),
+      description: t('seavoice.platform.speechToText.features.2.description'),
+      specs: [
+        t('seavoice.platform.speechToText.features.2.specs.0'),
+        t('seavoice.platform.speechToText.features.2.specs.1'),
+        t('seavoice.platform.speechToText.features.2.specs.2')
+      ]
     }
   ];
 
   const accuracyStats = [
-    { category: 'General Conversation', accuracy: '99.2%', improvement: '+15%' },
-    { category: 'Medical Terminology', accuracy: '98.8%', improvement: '+22%' },
-    { category: 'Financial Services', accuracy: '99.1%', improvement: '+18%' },
-    { category: 'Technical Support', accuracy: '98.9%', improvement: '+20%' }
+    {
+      category: t('seavoice.platform.speechToText.accuracy.stats.0.category'),
+      accuracy: t('seavoice.platform.speechToText.accuracy.stats.0.accuracy'),
+      improvement: t('seavoice.platform.speechToText.accuracy.stats.0.improvement')
+    },
+    {
+      category: t('seavoice.platform.speechToText.accuracy.stats.1.category'),
+      accuracy: t('seavoice.platform.speechToText.accuracy.stats.1.accuracy'),
+      improvement: t('seavoice.platform.speechToText.accuracy.stats.1.improvement')
+    },
+    {
+      category: t('seavoice.platform.speechToText.accuracy.stats.2.category'),
+      accuracy: t('seavoice.platform.speechToText.accuracy.stats.2.accuracy'),
+      improvement: t('seavoice.platform.speechToText.accuracy.stats.2.improvement')
+    },
+    {
+      category: t('seavoice.platform.speechToText.accuracy.stats.3.category'),
+      accuracy: t('seavoice.platform.speechToText.accuracy.stats.3.accuracy'),
+      improvement: t('seavoice.platform.speechToText.accuracy.stats.3.improvement')
+    }
   ];
 
   const languages = [
-    'English (US, UK, AU)', 'Spanish (ES, MX, AR)', 'French (FR, CA)', 'German',
-    'Italian', 'Portuguese (BR, PT)', 'Japanese', 'Korean', 'Mandarin Chinese',
-    'Cantonese', 'Hindi', 'Arabic', 'Russian', 'Dutch', 'Swedish', 'Norwegian'
+    t('seavoice.platform.speechToText.languages.supportedLanguages.0'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.1'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.2'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.3'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.4'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.5'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.6'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.7'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.8'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.9'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.10'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.11'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.12'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.13'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.14'),
+    t('seavoice.platform.speechToText.languages.supportedLanguages.15')
   ];
 
   const useCases = [
     {
-      title: 'Call Center Transcription',
-      description: 'Real-time transcription of customer service calls for quality assurance and training.',
-      benefits: ['Quality monitoring', 'Compliance recording', 'Agent training', 'Customer insights']
+      title: t('seavoice.platform.speechToText.useCases.0.title'),
+      description: t('seavoice.platform.speechToText.useCases.0.description'),
+      benefits: [
+        t('seavoice.platform.speechToText.useCases.0.benefits.0'),
+        t('seavoice.platform.speechToText.useCases.0.benefits.1'),
+        t('seavoice.platform.speechToText.useCases.0.benefits.2'),
+        t('seavoice.platform.speechToText.useCases.0.benefits.3')
+      ]
     },
     {
-      title: 'Meeting Documentation',
-      description: 'Automatic transcription of meetings, conferences, and business discussions.',
-      benefits: ['Meeting minutes', 'Action item extraction', 'Searchable archives', 'Multi-speaker ID']
+      title: t('seavoice.platform.speechToText.useCases.1.title'),
+      description: t('seavoice.platform.speechToText.useCases.1.description'),
+      benefits: [
+        t('seavoice.platform.speechToText.useCases.1.benefits.0'),
+        t('seavoice.platform.speechToText.useCases.1.benefits.1'),
+        t('seavoice.platform.speechToText.useCases.1.benefits.2'),
+        t('seavoice.platform.speechToText.useCases.1.benefits.3')
+      ]
     },
     {
-      title: 'Voice Commands',
-      description: 'Convert voice commands to text for voice-controlled applications and interfaces.',
-      benefits: ['Hands-free operation', 'Accessibility features', 'Smart home control', 'Mobile apps']
+      title: t('seavoice.platform.speechToText.useCases.2.title'),
+      description: t('seavoice.platform.speechToText.useCases.2.description'),
+      benefits: [
+        t('seavoice.platform.speechToText.useCases.2.benefits.0'),
+        t('seavoice.platform.speechToText.useCases.2.benefits.1'),
+        t('seavoice.platform.speechToText.useCases.2.benefits.2'),
+        t('seavoice.platform.speechToText.useCases.2.benefits.3')
+      ]
     },
     {
-      title: 'Content Creation',
-      description: 'Transform audio content into text for podcasts, videos, and media production.',
-      benefits: ['Subtitle generation', 'Content indexing', 'SEO optimization', 'Accessibility compliance']
+      title: t('seavoice.platform.speechToText.useCases.3.title'),
+      description: t('seavoice.platform.speechToText.useCases.3.description'),
+      benefits: [
+        t('seavoice.platform.speechToText.useCases.3.benefits.0'),
+        t('seavoice.platform.speechToText.useCases.3.benefits.1'),
+        t('seavoice.platform.speechToText.useCases.3.benefits.2'),
+        t('seavoice.platform.speechToText.useCases.3.benefits.3')
+      ]
     }
   ];
 
@@ -77,11 +139,10 @@ const SpeechToTextPage = () => {
               </div>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Speech-to-Text Technology
+              {t('seavoice.platform.speechToText.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Industry-leading speech recognition with 99%+ accuracy. Convert any audio to text 
-              in real-time with support for 50+ languages and specialized industry vocabularies.
+              {t('seavoice.platform.speechToText.hero.subtitle')}
             </p>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
@@ -93,7 +154,7 @@ const SpeechToTextPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
               >
-                Try Speech Recognition
+                {t('seavoice.platform.speechToText.hero.cta')}
               </motion.button>
             </a>
           </motion.div>
@@ -111,10 +172,10 @@ const SpeechToTextPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Advanced Speech Recognition
+              {t('seavoice.platform.speechToText.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Built on the original Kaldi framework with modern deep learning enhancements
+              {t('seavoice.platform.speechToText.features.subtitle')}
             </p>
           </motion.div>
 
@@ -158,10 +219,10 @@ const SpeechToTextPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Industry-Leading Accuracy
+              {t('seavoice.platform.speechToText.accuracy.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Specialized models trained for different industries and use cases
+              {t('seavoice.platform.speechToText.accuracy.subtitle')}
             </p>
           </motion.div>
 
@@ -177,7 +238,7 @@ const SpeechToTextPage = () => {
               >
                 <h3 className="text-lg font-bold text-gray-900 mb-4">{stat.category}</h3>
                 <div className="text-4xl font-bold text-blue-600 mb-2">{stat.accuracy}</div>
-                <p className="text-sm text-green-600 font-semibold">{stat.improvement} vs industry average</p>
+                <p className="text-sm text-green-600 font-semibold">{stat.improvement}{t('seavoice.platform.speechToText.accuracy.improvementSuffix')}</p>
               </motion.div>
             ))}
           </div>
@@ -195,33 +256,31 @@ const SpeechToTextPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Global Language Support
+                {t('seavoice.platform.speechToText.languages.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Comprehensive support for major world languages with automatic language detection 
-                and regional accent recognition. Our models are continuously trained on diverse 
-                datasets to ensure accuracy across different speaking styles and environments.
+                {t('seavoice.platform.speechToText.languages.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Globe className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">50+ Languages</h3>
-                    <p className="text-gray-600">Major world languages and regional dialects</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.0.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.speechToText.languages.features.0.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Settings className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Auto-Detection</h3>
-                    <p className="text-gray-600">Automatic language identification and switching</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.1.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.speechToText.languages.features.1.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Continuous Learning</h3>
-                    <p className="text-gray-600">Models improve with usage and feedback</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.2.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.speechToText.languages.features.2.description')}</p>
                   </div>
                 </div>
               </div>
@@ -234,7 +293,7 @@ const SpeechToTextPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Supported Languages</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.languages.supportedTitle')}</h3>
               <div className="grid grid-cols-1 gap-2">
                 {languages.map((language, index) => (
                   <div key={index} className="flex items-center py-2">
@@ -245,7 +304,7 @@ const SpeechToTextPage = () => {
               </div>
               <div className="mt-6 p-4 bg-white rounded-lg">
                 <p className="text-sm text-gray-600 italic">
-                  "Custom language models available for specialized vocabularies and industry-specific terminology"
+                  "{t('seavoice.platform.speechToText.languages.customNote')}"
                 </p>
               </div>
             </motion.div>
@@ -264,10 +323,10 @@ const SpeechToTextPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Powerful Use Cases
+              {t('seavoice.platform.speechToText.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Transform audio into actionable text across industries and applications
+              {t('seavoice.platform.speechToText.useCases.subtitle')}
             </p>
           </motion.div>
 
@@ -308,10 +367,10 @@ const SpeechToTextPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Technical Specifications
+              {t('seavoice.platform.speechToText.specs.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Enterprise-grade performance and reliability
+              {t('seavoice.platform.speechToText.specs.subtitle')}
             </p>
           </motion.div>
 
@@ -323,23 +382,23 @@ const SpeechToTextPage = () => {
               viewport={{ once: true }}
               className="bg-white rounded-xl p-8 shadow-lg border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Performance</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.performance.title')}</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Latency</span>
-                  <span className="font-semibold">{"< 100ms"}</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.latency.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.performance.latency.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Accuracy</span>
-                  <span className="font-semibold">99%+</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.accuracy.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.performance.accuracy.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Throughput</span>
-                  <span className="font-semibold">1000+ concurrent</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.throughput.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.performance.throughput.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Uptime</span>
-                  <span className="font-semibold">99.99%</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.uptime.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.performance.uptime.value')}</span>
                 </div>
               </div>
             </motion.div>
@@ -351,23 +410,23 @@ const SpeechToTextPage = () => {
               viewport={{ once: true }}
               className="bg-white rounded-xl p-8 shadow-lg border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Audio Formats</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.audioFormats.title')}</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Sample Rate</span>
-                  <span className="font-semibold">8-48 kHz</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.sampleRate.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.sampleRate.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Bit Depth</span>
-                  <span className="font-semibold">16-32 bit</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.bitDepth.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.bitDepth.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Formats</span>
-                  <span className="font-semibold">WAV, MP3, FLAC</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.formats.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.formats.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Streaming</span>
-                  <span className="font-semibold">Real-time</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.streaming.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.streaming.value')}</span>
                 </div>
               </div>
             </motion.div>
@@ -379,23 +438,23 @@ const SpeechToTextPage = () => {
               viewport={{ once: true }}
               className="bg-white rounded-xl p-8 shadow-lg border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Integration</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.integration.title')}</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">API</span>
-                  <span className="font-semibold">REST & WebSocket</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.api.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.integration.api.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">SDKs</span>
-                  <span className="font-semibold">Python, Node.js, Go</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.sdks.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.integration.sdks.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Webhooks</span>
-                  <span className="font-semibold">Real-time events</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.webhooks.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.integration.webhooks.value')}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Security</span>
-                  <span className="font-semibold">TLS 1.3, OAuth 2.0</span>
+                  <span className="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.security.label')}</span>
+                  <span className="font-semibold">{t('seavoice.platform.speechToText.specs.integration.security.value')}</span>
                 </div>
               </div>
             </motion.div>
@@ -412,9 +471,9 @@ const SpeechToTextPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Transform Audio to Text?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.platform.speechToText.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Experience the power of industry-leading speech recognition technology
+              {t('seavoice.platform.speechToText.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -427,7 +486,7 @@ const SpeechToTextPage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Try Free Demo
+                  {t('seavoice.platform.speechToText.cta.primaryButton')}
                 </motion.button>
               </a>
               <motion.button
@@ -435,7 +494,7 @@ const SpeechToTextPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
               >
-                View API Docs
+                {t('seavoice.platform.speechToText.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

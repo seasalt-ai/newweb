@@ -10,7 +10,7 @@ import VoiceConversationFlow from '../components/hero-variants/VoiceConversation
 const UnifiedHomePage = () => {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   const [openFaqIndex, setOpenFaqIndex] = useState<number | string | null>(null);
   
@@ -30,32 +30,32 @@ const UnifiedHomePage = () => {
   const conversationSteps = [
     {
       step: 1,
-      title: "Customer Calls",
-      description: "Caller dials your business number",
+      title: t('seavoice.home.conversationFlow.step1.title'),
+      description: t('seavoice.home.conversationFlow.step1.description'),
       icon: Phone,
       color: "blue",
       status: "calling"
     },
     {
       step: 2,
-      title: "AI Agent Answers",
-      description: "SeaVoice AI picks up instantly",
+      title: t('seavoice.home.conversationFlow.step2.title'),
+      description: t('seavoice.home.conversationFlow.step2.description'),
       icon: Bot,
       color: "purple",
       status: "answering"
     },
     {
       step: 3,
-      title: "Natural Conversation",
-      description: "Human-like voice interaction",
+      title: t('seavoice.home.conversationFlow.step3.title'),
+      description: t('seavoice.home.conversationFlow.step3.description'),
       icon: Mic,
       color: "teal",
       status: "talking"
     },
     {
       step: 4,
-      title: "Task Completion",
-      description: "Booking, support, or transfer",
+      title: t('seavoice.home.conversationFlow.step4.title'),
+      description: t('seavoice.home.conversationFlow.step4.description'),
       icon: CheckCircle,
       color: "green",
       status: "completed"
@@ -64,19 +64,19 @@ const UnifiedHomePage = () => {
 
   const conversationExamples = [
     {
-      customerMessage: "Hi, I'd like to book an appointment for next week.",
-      aiResponse: "I'd be happy to help you schedule an appointment! Let me check our availability for next week. What type of service are you looking for?",
-      scenario: "Appointment booking"
+      customerMessage: t('seavoice.home.conversationExamples.appointment.customer'),
+      aiResponse: t('seavoice.home.conversationExamples.appointment.ai'),
+      scenario: t('seavoice.home.conversationExamples.appointment.scenario')
     },
     {
-      customerMessage: "I'm having trouble with my recent order. Can you help?",
-      aiResponse: "Of course! I'm here to help with your order. Can you please provide your order number so I can look up the details for you?",
-      scenario: "Customer support"
+      customerMessage: t('seavoice.home.conversationExamples.support.customer'),
+      aiResponse: t('seavoice.home.conversationExamples.support.ai'),
+      scenario: t('seavoice.home.conversationExamples.support.scenario')
     },
     {
-      customerMessage: "What are your business hours?", 
-      aiResponse: "We're open Monday through Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM. We're closed on Sundays. Is there anything specific you'd like to know about our services?",
-      scenario: "General inquiry"
+      customerMessage: t('seavoice.home.conversationExamples.inquiry.customer'), 
+      aiResponse: t('seavoice.home.conversationExamples.inquiry.ai'),
+      scenario: t('seavoice.home.conversationExamples.inquiry.scenario')
     }
   ];
 
@@ -133,28 +133,28 @@ const UnifiedHomePage = () => {
 
   const platformSteps = [
     {
-      title: 'Train Your Voice Agent',
-      description: 'Customize your voice, scripts, and responses in minutes. Our AI learns from your website and Google Business Profile to accurately represent your brand.',
+      title: t('seavoice.home.howItWorks.step1.title'),
+      description: t('seavoice.home.howItWorks.step1.description'),
       icon: Bot,
     },
     {
-      title: 'Connect Your Phone System',
-      description: 'Seamlessly integrate SeaVoice with your existing phone setup (SIP/VoIP/PSTN). Forward calls to SeaVoice without changing your business number.',
+      title: t('seavoice.home.howItWorks.step2.title'),
+      description: t('seavoice.home.howItWorks.step2.description'),
       icon: Phone,
     },
     {
-      title: 'Set Up Call Rules',
-      description: 'Define how SeaVoice handles different call types and when to escalate to your team. Ensure every caller gets the right response.',
+      title: t('seavoice.home.howItWorks.step3.title'),
+      description: t('seavoice.home.howItWorks.step3.description'),
       icon: CheckCircle,
     },
     {
-      title: 'Go Live',
-      description: 'Activate your AI voice agent and start handling calls. The entire process typically takes less than 20 minutes from start to finish.',
+      title: t('seavoice.home.howItWorks.step4.title'),
+      description: t('seavoice.home.howItWorks.step4.description'),
       icon: Headphones,
     },
     {
-      title: '24/7 Support & Analytics',
-      description: 'Monitor calls in real-time, receive detailed transcripts, and leverage insights to improve your business. Our support team is always available to help you optimize performance.',
+      title: t('seavoice.home.howItWorks.step5.title'),
+      description: t('seavoice.home.howItWorks.step5.description'),
       icon: BarChart3,
     },
   ];
@@ -179,123 +179,123 @@ const UnifiedHomePage = () => {
 
   const useCaseCategories = [
     {
-      category: 'Inbound Solutions',
+      category: t('seavoice.home.useCases.inbound.category'),
       icon: Headphones,
       color: 'blue',
           cases: [
             {
-              title: 'Appointment Booking & Management',
-              description: 'Automate appointment scheduling with AI that understands availability, preferences, and business rules.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.appointmentBooking.title'),
+              description: t('seavoice.home.useCases.inbound.appointmentBooking.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/appointment-booking'
             },
             {
-              title: 'Technical Support Automation',
-              description: 'Provide instant technical support with AI that can diagnose problems and guide customers through solutions.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.technicalSupport.title'),
+              description: t('seavoice.home.useCases.inbound.technicalSupport.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/technical-support'
             },
             {
-              title: 'Virtual Assistant',
-              description: 'Handle general inquiries, provide information, and route calls intelligently.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.virtualAssistant.title'),
+              description: t('seavoice.home.useCases.inbound.virtualAssistant.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/virtual-assistant'
             },
             {
-              title: 'Call Transfer & Routing',
-              description: 'Intelligently route calls to the right department or agent based on caller needs.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.callTransfer.title'),
+              description: t('seavoice.home.useCases.inbound.callTransfer.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/call-transfer'
             },
             {
-              title: 'Order Tracking & Support',
-              description: 'Allow customers to check order status, track shipments, and get delivery updates.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.orderTracking.title'),
+              description: t('seavoice.home.useCases.inbound.orderTracking.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/order-tracking'
             },
             {
-              title: 'Payment Processing',
-              description: 'Securely process payments, handle billing inquiries, and manage account information.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.paymentProcessing.title'),
+              description: t('seavoice.home.useCases.inbound.paymentProcessing.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/payment-processing'
             },
             {
-              title: 'IVR Replacement',
-              description: 'Replace traditional menus with natural language understanding for a smoother experience.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.ivrReplacement.title'),
+              description: t('seavoice.home.useCases.inbound.ivrReplacement.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/ivr-replacement'
             },
             {
-              title: 'Mental Health Support',
-              description: 'Provide empathetic AI-driven mental health support around the clock.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.mentalHealth.title'),
+              description: t('seavoice.home.useCases.inbound.mentalHealth.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/mental-health'
             },
             {
-              title: 'Scam Shield Protection',
-              description: 'Protect your users from scams with real-time detection and blocking.',
-              type: 'Inbound',
+              title: t('seavoice.home.useCases.inbound.scamShield.title'),
+              description: t('seavoice.home.useCases.inbound.scamShield.description'),
+              type: t('seavoice.home.useCases.types.inbound'),
               url: '/solutions/inbound/scam-shield'
             }
           ]
     },
     {
-      category: 'Outbound Solutions',
+      category: t('seavoice.home.useCases.outbound.category'),
       icon: Phone,
       color: 'purple',
           cases: [
             {
-              title: 'Lead Generation & Qualification',
-              description: 'Transform your sales pipeline with AI-powered lead generation that identifies and qualifies prospects.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.leadGeneration.title'),
+              description: t('seavoice.home.useCases.outbound.leadGeneration.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/lead-generation'
             },
             {
-              title: 'Senior Check Calls & Wellness',
-              description: 'Regular AI-powered wellness checks for seniors with compassionate conversations that monitor health.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.seniorChecks.title'),
+              description: t('seavoice.home.useCases.outbound.seniorChecks.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/senior-checks'
             },
             {
-              title: 'Customer Surveys & Feedback',
-              description: 'Conduct post-purchase surveys and collect valuable customer feedback automatically.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.surveys.title'),
+              description: t('seavoice.home.useCases.outbound.surveys.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/surveys'
             },
             {
-              title: 'Collections & Payment Reminders',
-              description: 'Respectful and effective collection calls that improve payment rates while maintaining relationships.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.collections.title'),
+              description: t('seavoice.home.useCases.outbound.collections.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/collections'
             },
             {
-              title: 'Customer Reactivation',
-              description: 'Re-engage dormant customers with personalized outreach campaigns.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.reactivation.title'),
+              description: t('seavoice.home.useCases.outbound.reactivation.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/reactivation'
             },
             {
-              title: 'Fraud Alerts & Verification',
-              description: 'Notify customers about suspicious transactions and verify their identity for security.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.fraudAlerts.title'),
+              description: t('seavoice.home.useCases.outbound.fraudAlerts.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/fraud-alerts'
             },
             {
-              title: 'Large Scale Campaigns',
-              description: 'Execute massive voice campaigns to reach thousands of customers globally.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.campaigns.title'),
+              description: t('seavoice.home.useCases.outbound.campaigns.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/campaigns'
             },
             {
-              title: 'Proactive Customer Support',
-              description: 'Keep customers informed proactively with intelligent notifications.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.proactiveSupport.title'),
+              description: t('seavoice.home.useCases.outbound.proactiveSupport.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/proactive-support'
             },
             {
-              title: 'Subscription Renewals',
-              description: 'Automate renewals with reminders and seamless payment processing.',
-              type: 'Outbound',
+              title: t('seavoice.home.useCases.outbound.renewals.title'),
+              description: t('seavoice.home.useCases.outbound.renewals.description'),
+              type: t('seavoice.home.useCases.types.outbound'),
               url: '/solutions/outbound/renewals'
             }
           ]
@@ -304,57 +304,57 @@ const UnifiedHomePage = () => {
 
   const testimonials = [
     {
-      quote: "SeaVoice reduced our agent training time by 2 weeks and increased efficiency by 20%",
-      author: "Sarah Johnson",
-      role: "VP of Customer Success",
-      company: "TechCorp Inc."
+      quote: t('seavoice.home.testimonials.quote'),
+      author: t('seavoice.home.testimonials.author'),
+      role: t('seavoice.home.testimonials.role'),
+      company: t('seavoice.home.testimonials.company')
     }
   ];
 
   const faqItems = [
     {
-      question: 'How does SeaVoice differ from a traditional chatbot?',
-      answer: 'SeaVoice provides real-time voice conversations with advanced AI that can understand context, handle interruptions, and deliver human-like responses over the phone. Unlike text-based chatbots, SeaVoice handles actual voice calls with natural speech patterns.'
+      question: t('seavoice.home.faq.q1.question'),
+      answer: t('seavoice.home.faq.q1.answer')
     },
     {
-      question: 'How long does it take to set up?',
-      answer: 'Setup typically takes less than 20 minutes. You can train your voice agent, connect your phone system, set up call rules, and go live in one session.'
+      question: t('seavoice.home.faq.q2.question'),
+      answer: t('seavoice.home.faq.q2.answer')
     },
     {
-      question: 'Can callers tell they\'re speaking with an AI?',
-      answer: 'Our advanced voice technology creates very human-like conversations. While some callers may notice, most find the experience natural and helpful. You can also customize the AI to introduce itself as an AI assistant if preferred.'
+      question: t('seavoice.home.faq.q3.question'),
+      answer: t('seavoice.home.faq.q3.answer')
     },
     {
-      question: 'What happens if SeaVoice can\'t answer a question?',
-      answer: 'SeaVoice is designed to handle escalations gracefully. It can transfer calls to human agents, take messages, schedule callbacks, or direct callers to appropriate resources based on your configured rules.'
+      question: t('seavoice.home.faq.q4.question'),
+      answer: t('seavoice.home.faq.q4.answer')
     },
     {
-      question: 'How does pricing work?',
-      answer: 'We offer transparent per-minute pricing. Premium plans include base minutes with additional usage billed per minute. Enterprise plans are customized based on volume and specific needs.'
+      question: t('seavoice.home.faq.q5.question'),
+      answer: t('seavoice.home.faq.q5.answer')
     },
     {
-      question: 'Can I customize the AI\'s voice?',
-      answer: 'Yes! You can choose from multiple voice options, adjust tone and speaking style, and even clone custom voices for Enterprise plans. The AI can be trained to match your brand\'s communication style.'
+      question: t('seavoice.home.faq.q6.question'),
+      answer: t('seavoice.home.faq.q6.answer')
     },
     {
-      question: 'Is SeaVoice multilingual?',
-      answer: 'Yes, SeaVoice supports conversations in over 10 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, and Japanese.'
+      question: t('seavoice.home.faq.q7.question'),
+      answer: t('seavoice.home.faq.q7.answer')
     },
     {
-      question: 'What industries benefit most from SeaVoice?',
-      answer: 'SeaVoice works well across industries including healthcare, real estate, hospitality, financial services, e-commerce, professional services, and any business that handles high call volumes or needs 24/7 availability.'
+      question: t('seavoice.home.faq.q8.question'),
+      answer: t('seavoice.home.faq.q8.answer')
     },
     {
-      question: 'Can SeaVoice handle emergency calls?',
-      answer: 'While SeaVoice can handle urgent inquiries and escalate appropriately, we recommend maintaining direct emergency protocols. SeaVoice can be configured to immediately transfer emergency-related calls to human operators.'
+      question: t('seavoice.home.faq.q9.question'),
+      answer: t('seavoice.home.faq.q9.answer')
     },
     {
-      question: 'Can SeaVoice detect spam calls?',
-      answer: 'Yes, SeaVoice includes built-in spam detection that can identify and filter suspicious calls, protecting your business from unwanted interruptions while ensuring legitimate calls get through.'
+      question: t('seavoice.home.faq.q10.question'),
+      answer: t('seavoice.home.faq.q10.answer')
     },
     {
-      question: 'How do I get started?',
-      answer: 'Getting started is easy! Book a demo to see SeaVoice in action, then our team will help you set up your voice agent, integrate with your phone system, and configure it for your specific needs. Most customers are up and running within a day.'
+      question: t('seavoice.home.faq.q11.question'),
+      answer: t('seavoice.home.faq.q11.answer')
     },
   ];
 
@@ -362,46 +362,46 @@ const UnifiedHomePage = () => {
   const mockCalls = [
     {
       id: 1,
-      customer: "Sarah Johnson",
-      type: "Appointment Booking",
-      status: "completed",
-      duration: "3:42",
-      time: "2 minutes ago",
+      customer: t('seavoice.home.dashboard.mockCalls.customer1'),
+      type: t('seavoice.home.dashboard.mockCalls.type1'),
+      status: t('seavoice.home.dashboard.mockCalls.status1'),
+      duration: t('seavoice.home.dashboard.mockCalls.duration1'),
+      time: t('seavoice.home.dashboard.mockCalls.time1'),
       satisfaction: 5,
-      outcome: "Appointment scheduled for next Tuesday at 2 PM",
+      outcome: t('seavoice.home.dashboard.mockCalls.outcome1'),
       tags: ["booking", "satisfied"]
     },
     {
       id: 2,
-      customer: "Mike Chen", 
-      type: "Technical Support",
-      status: "transferred",
-      duration: "1:28",
-      time: "5 minutes ago",
+      customer: t('seavoice.home.dashboard.mockCalls.customer2'),
+      type: t('seavoice.home.dashboard.mockCalls.type2'),
+      status: t('seavoice.home.dashboard.mockCalls.status2'),
+      duration: t('seavoice.home.dashboard.mockCalls.duration2'),
+      time: t('seavoice.home.dashboard.mockCalls.time2'),
       satisfaction: 4,
-      outcome: "Transferred to technical specialist - Issue: Login problems",
+      outcome: t('seavoice.home.dashboard.mockCalls.outcome2'),
       tags: ["support", "escalated"]
     },
     {
       id: 3,
-      customer: "Emily Rodriguez",
-      type: "Order Inquiry",
-      status: "completed",
-      duration: "2:15",
-      time: "8 minutes ago",
+      customer: t('seavoice.home.dashboard.mockCalls.customer3'),
+      type: t('seavoice.home.dashboard.mockCalls.type3'),
+      status: t('seavoice.home.dashboard.mockCalls.status3'),
+      duration: t('seavoice.home.dashboard.mockCalls.duration3'),
+      time: t('seavoice.home.dashboard.mockCalls.time3'),
       satisfaction: 5,
-      outcome: "Order status provided - Package will arrive tomorrow",
+      outcome: t('seavoice.home.dashboard.mockCalls.outcome3'),
       tags: ["inquiry", "resolved"]
     },
     {
       id: 4,
-      customer: "David Wilson",
-      type: "Billing Question",
-      status: "in-progress",
-      duration: "1:03",
-      time: "Just now",
+      customer: t('seavoice.home.dashboard.mockCalls.customer4'),
+      type: t('seavoice.home.dashboard.mockCalls.type4'),
+      status: t('seavoice.home.dashboard.mockCalls.status4'),
+      duration: t('seavoice.home.dashboard.mockCalls.duration4'),
+      time: t('seavoice.home.dashboard.mockCalls.time4'),
       satisfaction: null,
-      outcome: "Currently discussing billing discrepancy",
+      outcome: t('seavoice.home.dashboard.mockCalls.outcome4'),
       tags: ["billing", "active"]
     }
   ];
@@ -457,7 +457,7 @@ const UnifiedHomePage = () => {
                 className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white/80 text-sm font-medium mb-8"
               >
                 <Zap className="w-4 h-4 mr-2 text-yellow-400" />
-                Your Business Never Sleeps
+                {t('seavoice.home.hero.tagline')}
               </motion.div>
               
               <h1 
@@ -473,16 +473,16 @@ const UnifiedHomePage = () => {
                   className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent"
                   style={{ fontSize: 'inherit !important' }}
                 >
-                  AI Voice Agents
+                  {t('seavoice.home.hero.title.line1')}
                 </span>
                 <br />
-                <span className="text-white/90" style={{ fontSize: 'inherit !important' }}>Handle Calls 24/7</span>
+                <span className="text-white/90" style={{ fontSize: 'inherit !important' }}>{t('seavoice.home.hero.title.line2')}</span>
               </h1>
               
               <p className="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mb-12 font-light">
-                Transform customer interactions with human-like AI that never sleeps.
+                {t('seavoice.home.hero.subtitle.line1')}
                 <br className="hidden sm:block" />
-                <span className="text-blue-300">Automate support, bookings, and <span className="font-bold text-yellow-300">outbound call with scale</span>.</span>
+                <span className="text-blue-300">{t('seavoice.home.hero.subtitle.line2')}</span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-start mb-16">
@@ -495,7 +495,7 @@ const UnifiedHomePage = () => {
                   className="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center justify-center overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span className="relative z-10">Book a Demo</span>
+                  <span className="relative z-10">{t('seavoice.home.hero.bookDemo')}</span>
                   <ArrowRight className="relative z-10 ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
                 
@@ -507,7 +507,7 @@ const UnifiedHomePage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="group relative bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center"
                 >
-                  <span>Sign Up Now</span>
+                  <span>{t('seavoice.home.hero.signUp')}</span>
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
               </div>
@@ -535,8 +535,8 @@ const UnifiedHomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">Try Our Voice Technology</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Listen to real examples of SeaVoice in action and experience the future of AI-powered conversations</p>
+            <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">{t('seavoice.home.voiceDemo.title')}</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('seavoice.home.voiceDemo.subtitle')}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -565,10 +565,20 @@ const UnifiedHomePage = () => {
           >
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full border border-blue-200 text-blue-700 text-sm font-medium mb-6">
               <Star className="w-4 h-4 mr-2" />
-              Proven Success Stories
+              {t('seavoice.home.useCases.badge')}
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">Transform Your Business with <br className="hidden sm:block" />Successful Use Cases</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Discover how industry leaders leverage SeaVoice AI to revolutionize customer interactions and drive growth</p>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              {typeof t('seavoice.home.useCases.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.useCases.title.line1')}
+                  <br className="hidden sm:block" />
+                  {t('seavoice.home.useCases.title.line2')}
+                </>
+              ) : (
+                t('seavoice.home.useCases.title')
+              )}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('seavoice.home.useCases.subtitle')}</p>
           </motion.div>
 
           {useCaseCategories.map((category, categoryIndex) => (
@@ -631,10 +641,20 @@ const UnifiedHomePage = () => {
           >
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-full border border-indigo-200 text-indigo-700 text-sm font-medium mb-6">
               <Zap className="w-4 h-4 mr-2" />
-              Simple Setup Process
+              {t('seavoice.home.howItWorks.badge')}
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">Get Started in <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">5 Easy Steps</span></h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">From setup to go-live in under 20 minutes. Our streamlined process gets your AI voice agent ready to handle calls immediately.</p>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              {typeof t('seavoice.home.howItWorks.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.howItWorks.title.prefix')}
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{t('seavoice.home.howItWorks.title.highlight')}</span>
+                  {t('seavoice.home.howItWorks.title.suffix')}
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.howItWorks.title') }} />
+              )}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('seavoice.home.howItWorks.subtitle')}</p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 relative">
@@ -679,7 +699,7 @@ const UnifiedHomePage = () => {
           >
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-100 to-emerald-100 rounded-full border border-green-200 text-green-700 text-sm font-medium">
               <Clock className="w-4 h-4" />
-              Most customers are live within 20 minutes
+              {t('seavoice.home.howItWorks.liveTime')}
             </div>
           </motion.div>
         </div>
@@ -695,8 +715,8 @@ const UnifiedHomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Voice AI vs Human vs Outsourced Services</h2>
-            <p className="text-xl text-gray-600">See how SeaVoice AI compares to traditional alternatives</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('seavoice.home.comparison.title')}</h2>
+            <p className="text-xl text-gray-600">{t('seavoice.home.comparison.subtitle')}</p>
           </motion.div>
 
           <div className="w-full">
@@ -715,7 +735,7 @@ const UnifiedHomePage = () => {
                   <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Star className="w-6 h-6 text-white fill-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-purple-900">SeaVoice AI</h3>
+                  <h3 className="text-xl font-bold text-purple-900">{t('seavoice.home.comparison.seavoiceAI')}</h3>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
@@ -727,7 +747,7 @@ const UnifiedHomePage = () => {
                   <div className="w-12 h-12 bg-gray-400 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Users className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-700">Full-Time Human</h3>
+                  <h3 className="text-xl font-bold text-gray-700">{t('seavoice.home.comparison.fullTimeHuman')}</h3>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
@@ -739,7 +759,7 @@ const UnifiedHomePage = () => {
                   <div className="w-12 h-12 bg-gray-400 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-700">Outsourced Service</h3>
+                  <h3 className="text-xl font-bold text-gray-700">{t('seavoice.home.comparison.outsourcedService')}</h3>
                 </motion.div>
               </div>
 
@@ -747,40 +767,40 @@ const UnifiedHomePage = () => {
               <div className="space-y-4">
                 {[
                   {
-                    feature: '24/7 Availability',
-                    seavoice: { text: 'Always on', winner: true, icon: '🌟' },
-                    human: { text: '9-5 only', winner: false },
-                    outsourced: { text: 'Extra fees', winner: false }
+                    feature: t('seavoice.home.comparison.availability.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.availability.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.availability.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.availability.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Call Volume Handling',
-                    seavoice: { text: '500+ concurrent', winner: true, icon: '🌟' },
-                    human: { text: '1 call at a time', winner: false },
-                    outsourced: { text: '5-10 concurrent', winner: false }
+                    feature: t('seavoice.home.comparison.callVolume.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.callVolume.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.callVolume.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.callVolume.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Language Support',
-                    seavoice: { text: '30+ languages', winner: true, icon: '🌟' },
-                    human: { text: 'Limited by hire', winner: false },
-                    outsourced: { text: 'Extra $/language', winner: false }
+                    feature: t('seavoice.home.comparison.language.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.language.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.language.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.language.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Emotional Intelligence',
-                    seavoice: { text: 'Basic empathy', winner: false },
-                    human: { text: 'High', winner: true },
-                    outsourced: { text: 'Agent-dependent', winner: false }
+                    feature: t('seavoice.home.comparison.emotional.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.emotional.seavoice'), winner: false },
+                    human: { text: t('seavoice.home.comparison.emotional.human'), winner: true },
+                    outsourced: { text: t('seavoice.home.comparison.emotional.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Compliance',
-                    seavoice: { text: 'Built-in tools', winner: true, icon: '🌟' },
-                    human: { text: 'Training required', winner: false },
-                    outsourced: { text: 'Training required', winner: false }
+                    feature: t('seavoice.home.comparison.compliance.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.compliance.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.compliance.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.compliance.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Implementation Time',
-                    seavoice: { text: '<1 day', winner: true, icon: '🌟' },
-                    human: { text: '6-8 week hiring', winner: false },
-                    outsourced: { text: '2-4 weeks', winner: false }
+                    feature: t('seavoice.home.comparison.implementation.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.implementation.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.implementation.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.implementation.outsourced'), winner: false }
                   }
                 ].map((row, index) => (
                   <motion.div
@@ -833,8 +853,8 @@ const UnifiedHomePage = () => {
                 className="my-12 text-center"
               >
                 <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-3xl font-bold mb-2">💰 Cost Comparison</h3>
-                  <p className="text-green-100">See the dramatic cost savings with SeaVoice AI</p>
+                  <h3 className="text-3xl font-bold mb-2">{t('seavoice.home.comparison.costComparison')}</h3>
+                  <p className="text-green-100">{t('seavoice.home.comparison.costDescription')}</p>
                 </div>
               </motion.div>
 
@@ -842,22 +862,22 @@ const UnifiedHomePage = () => {
               <div className="space-y-4">
                 {[
                   {
-                    feature: 'Monthly Cost',
-                    seavoice: { text: 'Starts at $30', winner: true, icon: '🌟' },
-                    human: { text: '$3,397+', winner: false },
-                    outsourced: { text: '$1,500-$2,500', winner: false }
+                    feature: t('seavoice.home.comparison.cost.monthly.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.monthly.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.monthly.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.monthly.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Effective Rate',
-                    seavoice: { text: '$0.12/minute', winner: true, icon: '🌟' },
-                    human: { text: '$6.79/call', winner: false },
-                    outsourced: { text: '$3.00-$5.00/call', winner: false }
+                    feature: t('seavoice.home.comparison.cost.effective.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.effective.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.effective.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.effective.outsourced'), winner: false }
                   },
                   {
-                    feature: 'Hidden Costs',
-                    seavoice: { text: 'None', winner: true, icon: '🌟' },
-                    human: { text: 'Benefits ($800+/mo)', winner: false },
-                    outsourced: { text: 'Setup fees', winner: false }
+                    feature: t('seavoice.home.comparison.cost.hidden.feature'),
+                    seavoice: { text: t('seavoice.home.comparison.cost.hidden.seavoice'), winner: true, icon: '🌟' },
+                    human: { text: t('seavoice.home.comparison.cost.hidden.human'), winner: false },
+                    outsourced: { text: t('seavoice.home.comparison.cost.hidden.outsourced'), winner: false }
                   }
                 ].map((row, index) => (
                   <motion.div
@@ -903,16 +923,16 @@ const UnifiedHomePage = () => {
               >
                 <div className="flex items-center justify-center gap-8 flex-wrap">
                   <div className="text-center">
-                    <div className="text-3xl font-bold">95%</div>
-                    <div className="text-green-100">Cost Savings vs Human</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.costVsHuman')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.costVsHumanLabel')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold">80%</div>
-                    <div className="text-green-100">Savings vs Outsourced</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.costVsOutsourced')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.costVsOutsourcedLabel')}</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold">$40K+</div>
-                    <div className="text-green-100">Annual Savings</div>
+                    <div className="text-3xl font-bold">{t('seavoice.home.comparison.savings.annualSavings')}</div>
+                    <div className="text-green-100">{t('seavoice.home.comparison.savings.annualSavingsLabel')}</div>
                   </div>
                 </div>
               </motion.div>
@@ -927,16 +947,16 @@ const UnifiedHomePage = () => {
             className="text-center mt-12"
           >
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">Ready to Experience the SeaVoice AI Advantage?</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('seavoice.home.comparison.cta.title')}</h3>
               <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
-                Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.
+                {t('seavoice.home.comparison.cta.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href={getMeetingUrl(i18n.language)} target="_blank" rel="noopener noreferrer" className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
-                  Book a Demo
+                  {t('seavoice.home.comparison.cta.bookDemo')}
                 </a>
                 <a href="https://chat.seasalt.ai/signup" target="_blank" rel="noopener noreferrer" className="bg-purple-500 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-400 transition-colors">
-                  Sign Up Now
+                  {t('seavoice.home.comparison.cta.signUp')}
                 </a>
               </div>
             </div>
@@ -955,11 +975,18 @@ const UnifiedHomePage = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold mb-4">
-              Capabilities of SeaVoice is brought to you by{' '}
-              <span className="text-teal-400">SeaChat</span>
+              {typeof t('seavoice.home.seachat.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.seachat.title.prefix')}
+                  <span className="text-teal-400">{t('seavoice.home.seachat.title.highlight')}</span>
+                  {t('seavoice.home.seachat.title.suffix')}
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.seachat.title') }} />
+              )}
             </h2>
             <p className="text-xl text-gray-300">
-              An omni-channel and multi-modal no-code agent platform
+              {t('seavoice.home.seachat.subtitle')}
             </p>
           </motion.div>
           
@@ -971,7 +998,7 @@ const UnifiedHomePage = () => {
             className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20"
           >
             <h3 className="text-2xl font-semibold text-center mb-8">
-              One Team, Working Together for You
+              {t('seavoice.home.seachat.teamTitle')}
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -984,8 +1011,8 @@ const UnifiedHomePage = () => {
                     <Bot className="w-10 h-10 text-teal-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Chat AI Agent</h4>
-                <p className="text-gray-300">Instant responses across web, mobile, and messaging platforms</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.chatAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.chatAgent.description')}</p>
               </motion.div>
               
               <motion.div
@@ -997,8 +1024,8 @@ const UnifiedHomePage = () => {
                     <Users className="w-10 h-10 text-blue-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Human Agent</h4>
-                <p className="text-gray-300">Seamless handoff for complex queries that need a human touch</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.humanAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.humanAgent.description')}</p>
               </motion.div>
               
               <motion.div
@@ -1010,8 +1037,8 @@ const UnifiedHomePage = () => {
                     <Headphones className="w-10 h-10 text-purple-400" />
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">Voice AI Agent</h4>
-                <p className="text-gray-300">Natural phone conversations powered by advanced voice AI</p>
+                <h4 className="text-lg font-semibold mb-2">{t('seavoice.home.seachat.voiceAgent.title')}</h4>
+                <p className="text-gray-300">{t('seavoice.home.seachat.voiceAgent.description')}</p>
               </motion.div>
             </div>
             
@@ -1020,7 +1047,7 @@ const UnifiedHomePage = () => {
                 href="/seachat"
                 className="inline-flex items-center text-teal-400 hover:text-teal-300 font-semibold transition-colors"
               >
-                Learn more about SeaChat
+                {t('seavoice.home.seachat.learnMore')}
                 <ArrowRight className="ml-2 w-4 h-4" />
               </a>
             </div>
@@ -1060,25 +1087,28 @@ const UnifiedHomePage = () => {
               className="grid grid-cols-2 gap-6"
             >
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-400 mb-2">2 weeks</div>
-                <div className="text-gray-400">Reduced training time</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">{t('seavoice.home.testimonial.stat1')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat1Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-teal-400 mb-2">20%</div>
-                <div className="text-gray-400">Efficiency gain</div>
+                <div className="text-4xl font-bold text-teal-400 mb-2">{t('seavoice.home.testimonial.stat2')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat2Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-purple-400 mb-2">94%</div>
-                <div className="text-gray-400">Customer satisfaction</div>
+                <div className="text-4xl font-bold text-purple-400 mb-2">{t('seavoice.home.testimonial.stat3')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat3Label')}</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-orange-400 mb-2">500+</div>
-                <div className="text-gray-400">Simultaneous calls</div>
+                <div className="text-4xl font-bold text-orange-400 mb-2">{t('seavoice.home.testimonial.stat4')}</div>
+                <div className="text-gray-400">{t('seavoice.home.testimonial.stat4Label')}</div>
               </div>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Interactive Call Dashboard */}
+      <InteractiveCallDashboard />
 
       {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-slate-100 relative">
@@ -1096,14 +1126,21 @@ const UnifiedHomePage = () => {
           >
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full border border-blue-200 text-blue-700 text-sm font-medium mb-6">
               <Star className="w-4 h-4 mr-2" />
-              Got Questions?
+              {t('seavoice.home.faq.badge')}
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Frequently Asked <br className="hidden sm:block" />
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Questions</span>
+              {typeof t('seavoice.home.faq.title') === 'object' ? (
+                <>
+                  {t('seavoice.home.faq.title.line1')}
+                  <br className="hidden sm:block" />
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{t('seavoice.home.faq.title.line2')}</span>
+                </>
+              ) : (
+                <span dangerouslySetInnerHTML={{ __html: t('seavoice.home.faq.title') }} />
+              )}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to know about SeaVoice AI and how it can transform your business communications
+              {t('seavoice.home.faq.subtitle')}
             </p>
           </motion.div>
 
@@ -1119,7 +1156,7 @@ const UnifiedHomePage = () => {
               onClick={() => toggleFaq(-1)}
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-lg px-6 py-3 font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              {openFaqIndex === 'all' ? 'Collapse All' : 'Expand All Questions'}
+              {openFaqIndex === 'all' ? t('seavoice.home.faq.collapseAll') : t('seavoice.home.faq.expandAll')}
             </button>
           </motion.div>
 
@@ -1165,43 +1202,8 @@ const UnifiedHomePage = () => {
               </motion.div>
             ))}
           </div>
-          
-          {/* Additional CTA */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            viewport={{ once: true }}
-            className="text-center mt-16"
-          >
-            <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">Still have questions?</h3>
-              <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-                Our team is here to help you understand how SeaVoice can work for your specific business needs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href={getMeetingUrl(i18n.language)} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                >
-                  Schedule a Call
-                </a>
-                <a 
-                  href="mailto:seax@seasalt.ai" 
-                  className="bg-white/10 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/20 transition-colors"
-                >
-                  Email Support
-                </a>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
-
-      {/* Interactive Call Dashboard */}
-      <InteractiveCallDashboard />
 
       {/* Final CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
@@ -1212,9 +1214,9 @@ const UnifiedHomePage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to see it in action?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.home.finalCta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Get a personalized demo and discover how SeaVoice can transform your customer communications
+              {t('seavoice.home.finalCta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -1227,7 +1229,7 @@ const UnifiedHomePage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Book a Demo Today
+                  {t('seavoice.home.finalCta.bookDemo')}
                 </motion.button>
               </a>
               <a
@@ -1240,7 +1242,7 @@ const UnifiedHomePage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white/10 border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/20 transition-colors"
                 >
-                  Sign Up Now
+                  {t('seavoice.home.finalCta.signUp')}
                 </motion.button>
               </a>
             </div>

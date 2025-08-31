@@ -1,74 +1,116 @@
 
 import { motion } from 'framer-motion';
 import { Heart, Shield, Clock, Phone, CheckCircle, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const SeniorCheckCallsPage = () => {
+  const { t } = useTranslation();
   const features = [
     {
       icon: Heart,
-      title: 'Wellness Monitoring',
-      description: 'Regular check-ins to monitor senior health and well-being with compassionate AI conversations.',
-      benefits: ['Daily/weekly schedules', 'Health status tracking', 'Medication reminders']
+      title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.title'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit3')
+      ]
     },
     {
       icon: Shield,
-      title: 'Emergency Detection',
-      description: 'Advanced AI recognizes distress signals and emergency situations for immediate response.',
-      benefits: ['Crisis recognition', 'Emergency contacts', 'First responder alerts']
+      title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.title'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit3')
+      ]
     },
     {
       icon: Clock,
-      title: 'Flexible Scheduling',
-      description: 'Customizable call schedules that adapt to individual preferences and needs.',
-      benefits: ['Personalized timing', 'Holiday adjustments', 'Family coordination']
+      title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.title'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.description'),
+      benefits: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit3')
+      ]
     }
   ];
 
   const checkTypes = [
     {
-      type: 'Daily Wellness Checks',
-      description: 'Brief daily calls to ensure seniors are safe and well',
-      frequency: 'Daily at preferred time',
-      duration: '3-5 minutes',
-      focus: ['General well-being', 'Medication compliance', 'Safety confirmation']
+      type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.type'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.description'),
+      frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.frequency'),
+      duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.duration'),
+      focus: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus3')
+      ]
     },
     {
-      type: 'Weekly Health Reviews',
-      description: 'Comprehensive weekly assessments of health and needs',
-      frequency: 'Weekly on chosen day',
-      duration: '10-15 minutes',
-      focus: ['Health changes', 'Appointment reminders', 'Family updates']
+      type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.type'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.description'),
+      frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.frequency'),
+      duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.duration'),
+      focus: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus3')
+      ]
     },
     {
-      type: 'Emergency Response',
-      description: 'Immediate response to missed calls or distress signals',
-      frequency: 'As needed',
-      duration: 'Variable',
-      focus: ['Welfare verification', 'Emergency services', 'Family notification']
+      type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.type'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.description'),
+      frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.frequency'),
+      duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.duration'),
+      focus: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus3')
+      ]
     },
     {
-      type: 'Social Connection',
-      description: 'Friendly conversations to reduce isolation and loneliness',
-      frequency: 'Bi-weekly or monthly',
-      duration: '15-20 minutes',
-      focus: ['Companionship', 'Mental health', 'Activity suggestions']
+      type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.type'),
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.description'),
+      frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.frequency'),
+      duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.duration'),
+      focus: [
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus1'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus2'),
+        t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus3')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '95%', description: 'Senior satisfaction with AI companion' },
-    { metric: '40%', description: 'Reduction in emergency incidents' },
-    { metric: '24/7', description: 'Emergency response availability' },
-    { metric: '85%', description: 'Family peace of mind improvement' }
+    { 
+      metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.seniorSatisfaction.metric'), 
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.seniorSatisfaction.description')
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.emergencyReduction.metric'), 
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.emergencyReduction.description')
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.availability.metric'), 
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.availability.description')
+    },
+    { 
+      metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.familyPeace.metric'), 
+      description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.familyPeace.description')
+    }
   ];
 
   const safetyProtocols = [
-    'Missed call escalation procedures',
-    'Emergency keyword recognition',
-    'Family and caregiver notifications',
-    'Healthcare provider integration',
-    'Local emergency services coordination',
-    'Medical alert system compatibility'
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.missedCallEscalation'),
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.emergencyKeyword'),
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.familyNotifications'),
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.healthcareProvider'),
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.emergencyServices'),
+    t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.medicalAlert')
   ];
 
   return (
@@ -86,19 +128,17 @@ const SeniorCheckCallsPage = () => {
               <Heart className="w-16 h-16 text-blue-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Senior Check Calls & Wellness Monitoring
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Provide peace of mind for families with regular AI-powered wellness checks for seniors. 
-              Compassionate conversations that monitor health, detect emergencies, and ensure 
-              safety while maintaining dignity and independence.
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              Start Wellness Monitoring
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.button')}
             </motion.button>
           </motion.div>
         </div>
@@ -115,10 +155,10 @@ const SeniorCheckCallsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Compassionate Senior Care
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              AI technology designed specifically for senior wellness and safety
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.subtitle')}
             </p>
           </motion.div>
 
@@ -162,10 +202,10 @@ const SeniorCheckCallsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Comprehensive Check-In Services
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Flexible wellness monitoring tailored to individual needs
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.subtitle')}
             </p>
           </motion.div>
 
@@ -184,17 +224,17 @@ const SeniorCheckCallsPage = () => {
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-sm mb-1">Frequency</h4>
+                    <h4 className="font-semibold text-gray-900 text-sm mb-1">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.frequency')}</h4>
                     <p className="text-gray-600 text-sm">{check.frequency}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-sm mb-1">Duration</h4>
+                    <h4 className="font-semibold text-gray-900 text-sm mb-1">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.duration')}</h4>
                     <p className="text-gray-600 text-sm">{check.duration}</p>
                   </div>
                 </div>
                 
                 <div>
-                  <h4 className="font-semibold text-gray-900 text-sm mb-3">Focus Areas:</h4>
+                  <h4 className="font-semibold text-gray-900 text-sm mb-3">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.focusAreas')}</h4>
                   <div className="space-y-1">
                     {check.focus.map((item, itemIndex) => (
                       <div key={itemIndex} className="flex items-center">
@@ -221,33 +261,31 @@ const SeniorCheckCallsPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Advanced Safety Protocols
+                {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our senior check call system includes comprehensive safety measures designed 
-                to detect emergencies, coordinate with family members, and ensure rapid 
-                response when needed.
+                {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Emergency Response</h3>
-                    <p className="text-gray-600">Immediate escalation for missed calls or distress</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.emergencyResponse.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.emergencyResponse.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Users className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Family Coordination</h3>
-                    <p className="text-gray-600">Automatic notifications to family and caregivers</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.familyCoordination.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.familyCoordination.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Healthcare Integration</h3>
-                    <p className="text-gray-600">Coordination with healthcare providers and services</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.healthcareIntegration.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.healthcareIntegration.description')}</p>
                   </div>
                 </div>
               </div>
@@ -260,7 +298,7 @@ const SeniorCheckCallsPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Safety Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.featuresTitle')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {safetyProtocols.map((protocol, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -285,10 +323,10 @@ const SeniorCheckCallsPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Wellness Monitoring Impact
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Measurable improvements in senior safety and family peace of mind
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -319,9 +357,9 @@ const SeniorCheckCallsPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Ensure Senior Safety?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Provide peace of mind with compassionate AI wellness monitoring for your loved ones
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -329,14 +367,14 @@ const SeniorCheckCallsPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Monitoring
+                {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.startButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
               >
-                Learn More
+                {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.learnButton')}
               </motion.button>
             </div>
           </motion.div>

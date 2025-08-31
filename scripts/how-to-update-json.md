@@ -7,14 +7,14 @@
 ### 🚀 For Bulk Updates (Most Common)
 ```bash
 # Method A: Key-Value File (Recommended)
-cat > my-translations.txt << EOF
+cat > translations-{uid}.txt << EOF
 key1=value1
 key2.nested=value2
 key3.deeply.nested=value3
 EOF
-node scripts/generate-updates.js my-translations.txt updates.json
-node scripts/bulk-update-translation.js public/locales/en.json updates.json
-rm my-translations.txt updates.json
+node scripts/generate-updates.js translations-{uid}.txt updates-{uid}.json
+node scripts/bulk-update-translation.js public/locales/en.json updates-{uid}.json
+rm translations-{uid}.txt updates-{uid}.json
 
 # Optional: Check for remaining hardcoded strings
 node scripts/analyze-i18n-coverage.js src/path/to/your/component.tsx
@@ -57,13 +57,13 @@ channels.inPerson.workflow.steps.record.description=Start recording with high-qu
 EOF
 
 # 2. Generate nested JSON structure
-node scripts/generate-updates.js translations.txt updates.json
+node scripts/generate-updates.js translations-{uid}.txt updates-{uid}.json
 
 # 3. Apply all updates with single backup
-node scripts/bulk-update-translation.js public/locales/en.json updates.json
+node scripts/bulk-update-translation.js public/locales/en.json updates-{uid}.json
 
 # 4. Clean up
-rm translations.txt updates.json
+rm translations-{uid}.txt updates-{uid}.json
 
 # 5. Verify no hardcoded strings remain
 node scripts/analyze-i18n-coverage.js src/components/YourComponent.tsx
@@ -118,9 +118,9 @@ components.productCard.cta.learnMore=Learn More
 EOF
 
 # 2. Apply all translations (single backup, organized output)
-node scripts/generate-updates.js product-card-i18n.txt updates.json
-node scripts/bulk-update-translation.js public/locales/en.json updates.json
-rm product-card-i18n.txt updates.json
+node scripts/generate-updates.js product-card-i18n.txt updates-{uid}.json
+node scripts/bulk-update-translation.js public/locales/en.json updates-{uid}.json
+rm product-card-i18n.txt updates-{uid}.json
 
 # ✅ Result: 15 translations added with 1 backup file and clear output
 

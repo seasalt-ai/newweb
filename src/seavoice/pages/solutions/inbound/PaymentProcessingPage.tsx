@@ -1,66 +1,96 @@
-
 import { motion } from 'framer-motion';
 import { CreditCard, Shield, Clock, BarChart3, CheckCircle, Lock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const PaymentProcessingPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: CreditCard,
-      title: 'Secure Payment Processing',
-      description: 'Process payments safely over the phone with PCI-compliant voice technology.',
-      benefits: ['PCI DSS compliance', 'Encrypted transactions', 'Multiple payment methods']
+      title: t('seavoice.solutions.inbound.paymentProcessing.features.securePayment.title'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.features.securePayment.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.paymentProcessing.features.securePayment.benefit1'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.securePayment.benefit2'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.securePayment.benefit3')
+      ]
     },
     {
       icon: Shield,
-      title: 'Fraud Protection',
-      description: 'Advanced fraud detection and prevention to protect both business and customers.',
-      benefits: ['Real-time fraud detection', 'Risk assessment', 'Secure authentication']
+      title: t('seavoice.solutions.inbound.paymentProcessing.features.fraudProtection.title'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.features.fraudProtection.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.paymentProcessing.features.fraudProtection.benefit1'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.fraudProtection.benefit2'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.fraudProtection.benefit3')
+      ]
     },
     {
       icon: Clock,
-      title: 'Instant Processing',
-      description: 'Process payments immediately with real-time authorization and confirmation.',
-      benefits: ['Real-time authorization', 'Instant confirmation', 'Immediate receipts']
+      title: t('seavoice.solutions.inbound.paymentProcessing.features.instantProcessing.title'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.features.instantProcessing.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.paymentProcessing.features.instantProcessing.benefit1'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.instantProcessing.benefit2'),
+        t('seavoice.solutions.inbound.paymentProcessing.features.instantProcessing.benefit3')
+      ]
     }
   ];
 
   const paymentMethods = [
     {
-      method: 'Credit Cards',
-      description: 'Accept all major credit cards with secure voice processing',
-      features: ['Visa, Mastercard, Amex', 'CVV verification', 'Expiry validation']
+      method: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.creditCards.method'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.creditCards.description'),
+      features: [
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.creditCards.feature1'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.creditCards.feature2'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.creditCards.feature3')
+      ]
     },
     {
-      method: 'Debit Cards',
-      description: 'Process debit card payments with PIN verification',
-      features: ['PIN entry via voice', 'Bank verification', 'Instant deduction']
+      method: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.debitCards.method'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.debitCards.description'),
+      features: [
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.debitCards.feature1'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.debitCards.feature2'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.debitCards.feature3')
+      ]
     },
     {
-      method: 'Bank Transfers',
-      description: 'Direct bank account transfers and ACH payments',
-      features: ['Account verification', 'Routing number validation', 'ACH processing']
+      method: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.method'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.description'),
+      features: [
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.feature1'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.feature2'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.feature3')
+      ]
     },
     {
-      method: 'Digital Wallets',
-      description: 'Support for popular digital payment platforms',
-      features: ['Apple Pay', 'Google Pay', 'PayPal integration']
+      method: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.method'),
+      description: t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.description'),
+      features: [
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.feature1'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.feature2'),
+        t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.feature3')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '99.9%', description: 'Payment processing uptime' },
-    { metric: '< 3s', description: 'Average transaction time' },
-    { metric: '100%', description: 'PCI DSS compliance' },
-    { metric: '0.1%', description: 'Fraud rate with AI protection' }
+    { metric: t('seavoice.solutions.inbound.paymentProcessing.benefits.uptime.metric'), description: t('seavoice.solutions.inbound.paymentProcessing.benefits.uptime.description') },
+    { metric: t('seavoice.solutions.inbound.paymentProcessing.benefits.transactionTime.metric'), description: t('seavoice.solutions.inbound.paymentProcessing.benefits.transactionTime.description') },
+    { metric: t('seavoice.solutions.inbound.paymentProcessing.benefits.compliance.metric'), description: t('seavoice.solutions.inbound.paymentProcessing.benefits.compliance.description') },
+    { metric: t('seavoice.solutions.inbound.paymentProcessing.benefits.fraudRate.metric'), description: t('seavoice.solutions.inbound.paymentProcessing.benefits.fraudRate.description') }
   ];
 
   const securityFeatures = [
-    'End-to-end encryption',
-    'PCI DSS Level 1 compliance',
-    'Tokenization of card data',
-    'Multi-factor authentication',
-    'Real-time fraud monitoring',
-    'Secure voice recognition'
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature1'),
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature2'),
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature3'),
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature4'),
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature5'),
+    t('seavoice.solutions.inbound.paymentProcessing.security.feature6')
   ];
 
   return (
@@ -78,19 +108,17 @@ const PaymentProcessingPage = () => {
               <CreditCard className="w-16 h-16 text-emerald-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Secure Payment Processing
+              {t('seavoice.solutions.inbound.paymentProcessing.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Enable secure, PCI-compliant payment processing through voice interactions. 
-              Let customers make payments safely over the phone with advanced fraud protection 
-              and instant transaction processing.
+              {t('seavoice.solutions.inbound.paymentProcessing.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-emerald-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
-              Enable Secure Payments
+              {t('seavoice.solutions.inbound.paymentProcessing.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -107,10 +135,10 @@ const PaymentProcessingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Secure Voice Payment Features
+              {t('seavoice.solutions.inbound.paymentProcessing.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Enterprise-grade security meets seamless customer experience
+              {t('seavoice.solutions.inbound.paymentProcessing.features.subtitle')}
             </p>
           </motion.div>
 
@@ -154,10 +182,10 @@ const PaymentProcessingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Comprehensive Payment Options
+              {t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Accept all major payment methods with secure voice processing
+              {t('seavoice.solutions.inbound.paymentProcessing.paymentMethods.subtitle')}
             </p>
           </motion.div>
 
@@ -198,33 +226,31 @@ const PaymentProcessingPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Bank-Level Security
+                {t('seavoice.solutions.inbound.paymentProcessing.security.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our payment processing system meets the highest security standards in the industry, 
-                ensuring that every transaction is protected with multiple layers of encryption 
-                and fraud prevention.
+                {t('seavoice.solutions.inbound.paymentProcessing.security.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Lock className="w-6 h-6 text-emerald-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">End-to-End Encryption</h3>
-                    <p className="text-gray-600">All payment data encrypted in transit and at rest</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.paymentProcessing.security.endToEndEncryption.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.paymentProcessing.security.endToEndEncryption.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-emerald-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">PCI DSS Compliance</h3>
-                    <p className="text-gray-600">Level 1 PCI DSS certified infrastructure</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.paymentProcessing.security.pciCompliance.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.paymentProcessing.security.pciCompliance.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-emerald-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Real-Time Monitoring</h3>
-                    <p className="text-gray-600">Continuous fraud detection and prevention</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.paymentProcessing.security.realTimeMonitoring.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.paymentProcessing.security.realTimeMonitoring.description')}</p>
                   </div>
                 </div>
               </div>
@@ -237,7 +263,7 @@ const PaymentProcessingPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Security Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.solutions.inbound.paymentProcessing.security.featuresTitle')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {securityFeatures.map((feature, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -262,10 +288,10 @@ const PaymentProcessingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Payment Processing Performance
+              {t('seavoice.solutions.inbound.paymentProcessing.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Industry-leading reliability and security metrics
+              {t('seavoice.solutions.inbound.paymentProcessing.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -296,9 +322,9 @@ const PaymentProcessingPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready for Secure Voice Payments?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.solutions.inbound.paymentProcessing.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Enable PCI-compliant payment processing with advanced fraud protection
+              {t('seavoice.solutions.inbound.paymentProcessing.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -306,14 +332,14 @@ const PaymentProcessingPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-emerald-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Secure Processing
+                {t('seavoice.solutions.inbound.paymentProcessing.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors"
               >
-                Security Overview
+                {t('seavoice.solutions.inbound.paymentProcessing.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

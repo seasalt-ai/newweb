@@ -1,66 +1,109 @@
 
 import { motion } from 'framer-motion';
 import { Heart, Shield, Clock, Users, CheckCircle, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const MentalHealthPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Heart,
-      title: 'Empathetic AI Companion',
-      description: 'Trained to provide compassionate, non-judgmental support with appropriate emotional responses.',
-      benefits: ['Active listening', 'Emotional validation', 'Crisis recognition']
+      title: t('seavoice.solutions.inbound.mentalHealth.features.empathetic.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.features.empathetic.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.mentalHealth.features.empathetic.benefits.activeListening'),
+        t('seavoice.solutions.inbound.mentalHealth.features.empathetic.benefits.emotionalValidation'),
+        t('seavoice.solutions.inbound.mentalHealth.features.empathetic.benefits.crisisRecognition')
+      ]
     },
     {
       icon: Shield,
-      title: 'Safe & Confidential',
-      description: 'HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.',
-      benefits: ['HIPAA compliance', 'Encrypted conversations', 'Anonymous options']
+      title: t('seavoice.solutions.inbound.mentalHealth.features.safe.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.features.safe.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.mentalHealth.features.safe.benefits.hipaaCompliance'),
+        t('seavoice.solutions.inbound.mentalHealth.features.safe.benefits.encryptedConversations'),
+        t('seavoice.solutions.inbound.mentalHealth.features.safe.benefits.anonymousOptions')
+      ]
     },
     {
       icon: Clock,
-      title: '24/7 Availability',
-      description: 'Always available when someone needs to talk, providing immediate support during crisis moments.',
-      benefits: ['Round-the-clock access', 'Immediate response', 'No wait times']
+      title: t('seavoice.solutions.inbound.mentalHealth.features.availability.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.features.availability.description'),
+      benefits: [
+        t('seavoice.solutions.inbound.mentalHealth.features.availability.benefits.roundTheClockAccess'),
+        t('seavoice.solutions.inbound.mentalHealth.features.availability.benefits.immediateResponse'),
+        t('seavoice.solutions.inbound.mentalHealth.features.availability.benefits.noWaitTimes')
+      ]
     }
   ];
 
   const capabilities = [
     {
-      title: 'Initial Mental Health Screening',
-      description: 'Conduct preliminary assessments using validated screening tools',
-      outcomes: ['Early identification', 'Risk assessment', 'Appropriate referrals']
+      title: t('seavoice.solutions.inbound.mentalHealth.capabilities.screening.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.capabilities.screening.description'),
+      outcomes: [
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.screening.outcomes.earlyIdentification'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.screening.outcomes.riskAssessment'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.screening.outcomes.appropriateReferrals')
+      ]
     },
     {
-      title: 'Crisis Intervention',
-      description: 'Recognize crisis situations and provide immediate support or escalation',
-      outcomes: ['Crisis detection', 'De-escalation techniques', 'Emergency protocols']
+      title: t('seavoice.solutions.inbound.mentalHealth.capabilities.crisis.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.capabilities.crisis.description'),
+      outcomes: [
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.crisis.outcomes.crisisDetection'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.crisis.outcomes.deEscalationTechniques'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.crisis.outcomes.emergencyProtocols')
+      ]
     },
     {
-      title: 'Resource Navigation',
-      description: 'Guide users to appropriate mental health resources and services',
-      outcomes: ['Service matching', 'Appointment scheduling', 'Follow-up support']
+      title: t('seavoice.solutions.inbound.mentalHealth.capabilities.navigation.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.capabilities.navigation.description'),
+      outcomes: [
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.navigation.outcomes.serviceMatching'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.navigation.outcomes.appointmentScheduling'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.navigation.outcomes.followUpSupport')
+      ]
     },
     {
-      title: 'Emotional Support',
-      description: 'Provide compassionate listening and emotional validation',
-      outcomes: ['Reduced isolation', 'Emotional relief', 'Coping strategies']
+      title: t('seavoice.solutions.inbound.mentalHealth.capabilities.emotional.title'),
+      description: t('seavoice.solutions.inbound.mentalHealth.capabilities.emotional.description'),
+      outcomes: [
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.emotional.outcomes.reducedIsolation'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.emotional.outcomes.emotionalRelief'),
+        t('seavoice.solutions.inbound.mentalHealth.capabilities.emotional.outcomes.copingStrategies')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '24/7', description: 'Always available support' },
-    { metric: '60%', description: 'Reduction in crisis escalation' },
-    { metric: '85%', description: 'User satisfaction rate' },
-    { metric: '40%', description: 'Increase in help-seeking behavior' }
+    { 
+      metric: '24/7', 
+      description: t('seavoice.solutions.inbound.mentalHealth.benefits.alwaysAvailableSupport') 
+    },
+    { 
+      metric: '60%', 
+      description: t('seavoice.solutions.inbound.mentalHealth.benefits.crisisEscalationReduction') 
+    },
+    { 
+      metric: '85%', 
+      description: t('seavoice.solutions.inbound.mentalHealth.benefits.userSatisfactionRate') 
+    },
+    { 
+      metric: '40%', 
+      description: t('seavoice.solutions.inbound.mentalHealth.benefits.helpSeekingBehaviorIncrease') 
+    }
   ];
 
   const safetyFeatures = [
-    'Crisis keyword detection',
-    'Suicide risk assessment',
-    'Automatic escalation protocols',
-    'Emergency contact integration',
-    'Professional handoff procedures',
-    'Follow-up scheduling'
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.crisisKeywordDetection'),
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.suicideRiskAssessment'),
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.automaticEscalationProtocols'),
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.emergencyContactIntegration'),
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.professionalHandoffProcedures'),
+    t('seavoice.solutions.inbound.mentalHealth.safetyFeatures.followUpScheduling')
   ];
 
   return (
@@ -78,18 +121,17 @@ const MentalHealthPage = () => {
               <Heart className="w-16 h-16 text-pink-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Mental Health Voice Companion
+              {t('seavoice.solutions.inbound.mentalHealth.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Provide compassionate, 24/7 mental health support with AI that listens, understands, 
-              and responds with empathy. Safely bridge the gap between crisis and professional care.
+              {t('seavoice.solutions.inbound.mentalHealth.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-pink-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-pink-700 transition-colors"
             >
-              Learn About Mental Health AI
+              {t('seavoice.solutions.inbound.mentalHealth.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -106,10 +148,10 @@ const MentalHealthPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Compassionate AI Support
+              {t('seavoice.solutions.inbound.mentalHealth.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Advanced AI trained in mental health support and crisis intervention
+              {t('seavoice.solutions.inbound.mentalHealth.features.description')}
             </p>
           </motion.div>
 
@@ -153,10 +195,10 @@ const MentalHealthPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Mental Health Support Capabilities
+              {t('seavoice.solutions.inbound.mentalHealth.capabilities.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive support across the mental health care spectrum
+              {t('seavoice.solutions.inbound.mentalHealth.capabilities.description')}
             </p>
           </motion.div>
 
@@ -197,33 +239,31 @@ const MentalHealthPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Safety-First Design
+                {t('seavoice.solutions.inbound.mentalHealth.safety.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our mental health AI is designed with safety as the top priority, featuring 
-                advanced crisis detection and immediate escalation protocols to ensure users 
-                receive appropriate professional care when needed.
+                {t('seavoice.solutions.inbound.mentalHealth.safety.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Shield className="w-6 h-6 text-pink-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Crisis Detection</h3>
-                    <p className="text-gray-600">Advanced algorithms identify crisis situations</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.mentalHealth.safety.crisisDetection.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.mentalHealth.safety.crisisDetection.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-pink-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Professional Handoff</h3>
-                    <p className="text-gray-600">Seamless transfer to human mental health professionals</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.mentalHealth.safety.professionalHandoff.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.mentalHealth.safety.professionalHandoff.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Users className="w-6 h-6 text-pink-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Emergency Protocols</h3>
-                    <p className="text-gray-600">Immediate connection to crisis hotlines when needed</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.solutions.inbound.mentalHealth.safety.emergencyProtocols.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.solutions.inbound.mentalHealth.safety.emergencyProtocols.description')}</p>
                   </div>
                 </div>
               </div>
@@ -236,7 +276,7 @@ const MentalHealthPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Safety Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.solutions.inbound.mentalHealth.safety.features.title')}</h3>
               <div className="grid grid-cols-1 gap-3">
                 {safetyFeatures.map((feature, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -261,10 +301,10 @@ const MentalHealthPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Mental Health Impact
+              {t('seavoice.solutions.inbound.mentalHealth.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Measurable improvements in mental health support accessibility
+              {t('seavoice.solutions.inbound.mentalHealth.benefits.description')}
             </p>
           </motion.div>
 
@@ -295,9 +335,9 @@ const MentalHealthPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Support Mental Health?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.solutions.inbound.mentalHealth.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Provide compassionate, 24/7 mental health support with AI that truly cares
+              {t('seavoice.solutions.inbound.mentalHealth.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -305,14 +345,14 @@ const MentalHealthPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-pink-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Learn More
+                {t('seavoice.solutions.inbound.mentalHealth.cta.learnMore')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-pink-600 transition-colors"
               >
-                Contact Specialists
+                {t('seavoice.solutions.inbound.mentalHealth.cta.contactSpecialists')}
               </motion.button>
             </div>
           </motion.div>

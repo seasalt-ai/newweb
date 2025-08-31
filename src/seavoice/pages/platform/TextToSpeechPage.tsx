@@ -1,68 +1,105 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Volume2, User, Settings, Globe, Play, Pause } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const TextToSpeechPage = () => {
+  const { t } = useTranslation();
   const [selectedVoice, setSelectedVoice] = useState('sarah');
   const [isPlaying, setIsPlaying] = useState(false);
 
   const voices = [
-    { id: 'sarah', name: 'Sarah', gender: 'Female', accent: 'US English', description: 'Professional, warm' },
-    { id: 'tom', name: 'Tom', gender: 'Male', accent: 'US English', description: 'Friendly, conversational' },
-    { id: 'lissa', name: 'Lissa', gender: 'Female', accent: 'UK English', description: 'Energetic, helpful' },
-    { id: 'alex', name: 'Alex', gender: 'Male', accent: 'Australian', description: 'Clear, confident' },
-    { id: 'maria', name: 'Maria', gender: 'Female', accent: 'Spanish', description: 'Expressive, natural' },
-    { id: 'hiroshi', name: 'Hiroshi', gender: 'Male', accent: 'Japanese', description: 'Polite, professional' }
+    { id: 'sarah', name: t('textToSpeech.voices.sarah.name'), gender: t('textToSpeech.voices.sarah.gender'), accent: t('textToSpeech.voices.sarah.accent'), description: t('textToSpeech.voices.sarah.description') },
+    { id: 'tom', name: t('textToSpeech.voices.tom.name'), gender: t('textToSpeech.voices.tom.gender'), accent: t('textToSpeech.voices.tom.accent'), description: t('textToSpeech.voices.tom.description') },
+    { id: 'lissa', name: t('textToSpeech.voices.lissa.name'), gender: t('textToSpeech.voices.lissa.gender'), accent: t('textToSpeech.voices.lissa.accent'), description: t('textToSpeech.voices.lissa.description') },
+    { id: 'alex', name: t('textToSpeech.voices.alex.name'), gender: t('textToSpeech.voices.alex.gender'), accent: t('textToSpeech.voices.alex.accent'), description: t('textToSpeech.voices.alex.description') },
+    { id: 'maria', name: t('textToSpeech.voices.maria.name'), gender: t('textToSpeech.voices.maria.gender'), accent: t('textToSpeech.voices.maria.accent'), description: t('textToSpeech.voices.maria.description') },
+    { id: 'hiroshi', name: t('textToSpeech.voices.hiroshi.name'), gender: t('textToSpeech.voices.hiroshi.gender'), accent: t('textToSpeech.voices.hiroshi.accent'), description: t('textToSpeech.voices.hiroshi.description') }
   ];
 
   const features = [
     {
       icon: User,
-      title: 'Custom Voice Cloning',
-      description: 'Create unique voice profiles that match your brand personality and speaking style.',
-      capabilities: ['Voice cloning from samples', 'Brand voice consistency', 'Emotional expression', 'Custom pronunciations']
+      title: t('textToSpeech.features.customVoiceCloning.title'),
+      description: t('textToSpeech.features.customVoiceCloning.description'),
+      capabilities: [
+        t('textToSpeech.features.customVoiceCloning.capabilities.voiceCloning'),
+        t('textToSpeech.features.customVoiceCloning.capabilities.brandVoice'),
+        t('textToSpeech.features.customVoiceCloning.capabilities.emotionalExpression'),
+        t('textToSpeech.features.customVoiceCloning.capabilities.customPronunciations')
+      ]
     },
     {
       icon: Settings,
-      title: 'Advanced Controls',
-      description: 'Fine-tune every aspect of speech generation for perfect audio output.',
-      capabilities: ['Speed adjustment', 'Pitch control', 'Emphasis placement', 'Pause insertion']
+      title: t('textToSpeech.features.advancedControls.title'),
+      description: t('textToSpeech.features.advancedControls.description'),
+      capabilities: [
+        t('textToSpeech.features.advancedControls.capabilities.speedAdjustment'),
+        t('textToSpeech.features.advancedControls.capabilities.pitchControl'),
+        t('textToSpeech.features.advancedControls.capabilities.emphasisPlacement'),
+        t('textToSpeech.features.advancedControls.capabilities.pauseInsertion')
+      ]
     },
     {
       icon: Globe,
-      title: 'Multi-Language Support',
-      description: 'Generate natural speech in 40+ languages with native pronunciation.',
-      capabilities: ['40+ languages', 'Regional accents', 'Code-switching', 'Multilingual voices']
+      title: t('textToSpeech.features.multiLanguageSupport.title'),
+      description: t('textToSpeech.features.multiLanguageSupport.description'),
+      capabilities: [
+        t('textToSpeech.features.multiLanguageSupport.capabilities.fortyPlusLanguages'),
+        t('textToSpeech.features.multiLanguageSupport.capabilities.regionalAccents'),
+        t('textToSpeech.features.multiLanguageSupport.capabilities.codeSwitching'),
+        t('textToSpeech.features.multiLanguageSupport.capabilities.multilingualVoices')
+      ]
     }
   ];
 
   const qualityMetrics = [
-    { metric: 'Naturalness Score', value: '4.8/5', description: 'Human evaluation rating' },
-    { metric: 'Intelligibility', value: '99.2%', description: 'Word recognition accuracy' },
-    { metric: 'Latency', value: '< 200ms', description: 'Text to audio generation' },
-    { metric: 'Audio Quality', value: '48kHz', description: 'High-fidelity output' }
+    { metric: t('textToSpeech.qualityMetrics.naturalness.metric'), value: t('textToSpeech.qualityMetrics.naturalness.value'), description: t('textToSpeech.qualityMetrics.naturalness.description') },
+    { metric: t('textToSpeech.qualityMetrics.intelligibility.metric'), value: t('textToSpeech.qualityMetrics.intelligibility.value'), description: t('textToSpeech.qualityMetrics.intelligibility.description') },
+    { metric: t('textToSpeech.qualityMetrics.latency.metric'), value: t('textToSpeech.qualityMetrics.latency.value'), description: t('textToSpeech.qualityMetrics.latency.description') },
+    { metric: t('textToSpeech.qualityMetrics.audioQuality.metric'), value: t('textToSpeech.qualityMetrics.audioQuality.value'), description: t('textToSpeech.qualityMetrics.audioQuality.description') }
   ];
 
   const useCases = [
     {
-      title: 'Customer Service',
-      description: 'Provide consistent, professional voice responses for customer interactions.',
-      benefits: ['24/7 availability', 'Consistent quality', 'Multi-language support', 'Brand voice alignment']
+      title: t('textToSpeech.useCases.customerService.title'),
+      description: t('textToSpeech.useCases.customerService.description'),
+      benefits: [
+        t('textToSpeech.useCases.customerService.benefits.availability'),
+        t('textToSpeech.useCases.customerService.benefits.consistentQuality'),
+        t('textToSpeech.useCases.customerService.benefits.multiLanguageSupport'),
+        t('textToSpeech.useCases.customerService.benefits.brandVoiceAlignment')
+      ]
     },
     {
-      title: 'Content Creation',
-      description: 'Generate voiceovers for videos, podcasts, and multimedia content.',
-      benefits: ['Cost-effective production', 'Quick turnaround', 'Multiple voice options', 'Easy revisions']
+      title: t('textToSpeech.useCases.contentCreation.title'),
+      description: t('textToSpeech.useCases.contentCreation.description'),
+      benefits: [
+        t('textToSpeech.useCases.contentCreation.benefits.costEffectiveProduction'),
+        t('textToSpeech.useCases.contentCreation.benefits.quickTurnaround'),
+        t('textToSpeech.useCases.contentCreation.benefits.multipleVoiceOptions'),
+        t('textToSpeech.useCases.contentCreation.benefits.easyRevisions')
+      ]
     },
     {
-      title: 'Accessibility',
-      description: 'Make content accessible with high-quality text-to-speech for visually impaired users.',
-      benefits: ['Screen reader enhancement', 'Document narration', 'Web accessibility', 'Educational support']
+      title: t('textToSpeech.useCases.accessibility.title'),
+      description: t('textToSpeech.useCases.accessibility.description'),
+      benefits: [
+        t('textToSpeech.useCases.accessibility.benefits.screenReaderEnhancement'),
+        t('textToSpeech.useCases.accessibility.benefits.documentNarration'),
+        t('textToSpeech.useCases.accessibility.benefits.webAccessibility'),
+        t('textToSpeech.useCases.accessibility.benefits.educationalSupport')
+      ]
     },
     {
-      title: 'Interactive Applications',
-      description: 'Add voice capabilities to apps, games, and interactive experiences.',
-      benefits: ['Real-time generation', 'Dynamic content', 'User engagement', 'Immersive experiences']
+      title: t('textToSpeech.useCases.interactiveApplications.title'),
+      description: t('textToSpeech.useCases.interactiveApplications.description'),
+      benefits: [
+        t('textToSpeech.useCases.interactiveApplications.benefits.realTimeGeneration'),
+        t('textToSpeech.useCases.interactiveApplications.benefits.dynamicContent'),
+        t('textToSpeech.useCases.interactiveApplications.benefits.userEngagement'),
+        t('textToSpeech.useCases.interactiveApplications.benefits.immersiveExperiences')
+      ]
     }
   ];
 
@@ -88,18 +125,17 @@ const TextToSpeechPage = () => {
               </div>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Text-to-Speech Technology
+              {t('textToSpeech.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Generate human-like speech from text with our advanced neural text-to-speech technology. 
-              Create custom voices, support 40+ languages, and deliver exceptional audio quality.
+              {t('textToSpeech.hero.subtitle')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
             >
-              Try Voice Generation
+              {t('textToSpeech.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -116,10 +152,10 @@ const TextToSpeechPage = () => {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Experience Our Voice Technology
+              {t('textToSpeech.demo.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Try different voices and hear the quality for yourself
+              {t('textToSpeech.demo.subtitle')}
             </p>
           </motion.div>
 
@@ -134,7 +170,7 @@ const TextToSpeechPage = () => {
               {/* Voice Selection */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-3">
-                  Choose a voice:
+                  {t('textToSpeech.demo.chooseVoice')}
                 </label>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {voices.map((voice) => (
@@ -160,13 +196,13 @@ const TextToSpeechPage = () => {
               {/* Text Input */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Enter text to convert to speech:
+                  {t('textToSpeech.demo.textPrompt')}
                 </label>
                 <textarea
                   className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent resize-none"
                   rows={3}
-                  defaultValue="Hello! I'm an AI voice assistant powered by SeaVoice technology. I can help you with customer service, sales, and support in a natural, human-like voice."
-                  placeholder="Type something for our AI to say..."
+                  defaultValue={t('textToSpeech.demo.defaultText')}
+                  placeholder={t('textToSpeech.demo.placeholderText')}
                 />
               </div>
 
@@ -186,12 +222,12 @@ const TextToSpeechPage = () => {
                   {isPlaying ? (
                     <>
                       <Pause className="w-5 h-5 mr-2" />
-                      Playing...
+                      {t('textToSpeech.demo.playing')}
                     </>
                   ) : (
                     <>
                       <Play className="w-5 h-5 mr-2" />
-                      Generate Speech
+                      {t('textToSpeech.demo.generateSpeech')}
                     </>
                   )}
                 </motion.button>
@@ -236,10 +272,10 @@ const TextToSpeechPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Advanced Voice Generation
+              {t('textToSpeech.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Cutting-edge neural networks deliver human-like speech quality
+              {t('textToSpeech.features.subtitle')}
             </p>
           </motion.div>
 
@@ -283,10 +319,10 @@ const TextToSpeechPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Exceptional Quality Metrics
+              {t('textToSpeech.qualityMetrics.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Measured performance that delivers professional results
+              {t('textToSpeech.qualityMetrics.subtitle')}
             </p>
           </motion.div>
 
@@ -320,10 +356,10 @@ const TextToSpeechPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Versatile Applications
+              {t('textToSpeech.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Transform text into speech across industries and use cases
+              {t('textToSpeech.useCases.subtitle')}
             </p>
           </motion.div>
 
@@ -364,33 +400,31 @@ const TextToSpeechPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Custom Voice Cloning
+                {t('textToSpeech.voiceCloning.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Create unique voice profiles that perfectly match your brand personality. 
-                Our advanced voice cloning technology can replicate speaking styles, 
-                accents, and emotional expressions with just a few minutes of sample audio.
+                {t('textToSpeech.voiceCloning.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <User className="w-6 h-6 text-purple-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Brand Voice Consistency</h3>
-                    <p className="text-gray-600">Maintain consistent brand voice across all interactions</p>
+                    <h3 className="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.brandVoiceConsistency.title')}</h3>
+                    <p className="text-gray-600">{t('textToSpeech.voiceCloning.brandVoiceConsistency.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Settings className="w-6 h-6 text-purple-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Fine-Tuned Control</h3>
-                    <p className="text-gray-600">Adjust tone, pace, and emotional expression</p>
+                    <h3 className="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.fineTunedControl.title')}</h3>
+                    <p className="text-gray-600">{t('textToSpeech.voiceCloning.fineTunedControl.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Volume2 className="w-6 h-6 text-purple-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">High Fidelity Output</h3>
-                    <p className="text-gray-600">Professional quality audio for any application</p>
+                    <h3 className="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.highFidelityOutput.title')}</h3>
+                    <p className="text-gray-600">{t('textToSpeech.voiceCloning.highFidelityOutput.description')}</p>
                   </div>
                 </div>
               </div>
@@ -403,15 +437,15 @@ const TextToSpeechPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Voice Cloning Process</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('textToSpeech.voiceCloning.process.title')}</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Upload Audio Samples</h4>
-                    <p className="text-gray-600 text-sm">Provide 5-10 minutes of clean audio recordings</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step1.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step1.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -419,8 +453,8 @@ const TextToSpeechPage = () => {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">AI Training</h4>
-                    <p className="text-gray-600 text-sm">Our neural networks learn your unique voice characteristics</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step2.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step2.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -428,8 +462,8 @@ const TextToSpeechPage = () => {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Voice Generation</h4>
-                    <p className="text-gray-600 text-sm">Generate unlimited speech with your custom voice</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step3.title')}</h4>
+                    <p className="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step3.description')}</p>
                   </div>
                 </div>
               </div>
@@ -447,9 +481,9 @@ const TextToSpeechPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Give Your Brand a Voice?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('textToSpeech.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Create custom voices and generate professional-quality speech for any application
+              {t('textToSpeech.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -457,14 +491,14 @@ const TextToSpeechPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Voice Cloning
+                {t('textToSpeech.cta.startVoiceCloning')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors"
               >
-                Explore API
+                {t('textToSpeech.cta.exploreApi')}
               </motion.button>
             </div>
           </motion.div>

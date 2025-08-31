@@ -1,138 +1,141 @@
 
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { PhoneIncoming, PhoneOutgoing, ArrowRight, Clock, Users, Shield, Heart, Zap, CreditCard } from 'lucide-react';
 
 const SolutionsPage = () => {
+  const { t } = useTranslation();
+  
   const inboundSolutions = [
     {
-      title: '24/7 Virtual Assistant',
-      description: 'Provide immediate support outside business hours with intelligent call handling.',
+      title: t('seavoice.pages.solutions.inbound.virtualAssistant.title'),
+      description: t('seavoice.pages.solutions.inbound.virtualAssistant.description'),
       icon: Clock,
       link: '/solutions/inbound/virtual-assistant',
-      benefits: ['24/7 availability', 'Instant response', 'Cost reduction']
+      benefits: [t('seavoice.pages.solutions.inbound.virtualAssistant.benefit1'), t('seavoice.pages.solutions.inbound.virtualAssistant.benefit2'), t('seavoice.pages.solutions.inbound.virtualAssistant.benefit3')]
     },
     {
-      title: 'Smart Call Transfer',
-      description: 'Intelligently route calls to the right department based on caller intent.',
+      title: t('seavoice.pages.solutions.inbound.smartCallTransfer.title'),
+      description: t('seavoice.pages.solutions.inbound.smartCallTransfer.description'),
       icon: PhoneIncoming,
       link: '/solutions/inbound/call-transfer',
-      benefits: ['Reduced wait times', 'Better routing', 'Improved efficiency']
+      benefits: [t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit1'), t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit2'), t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit3')]
     },
     {
-      title: 'IVR Replacement',
-      description: 'Replace outdated phone menus with natural language understanding.',
+      title: t('seavoice.pages.solutions.inbound.ivrReplacement.title'),
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.description'),
       icon: Zap,
       link: '/solutions/inbound/ivr-replacement',
-      benefits: ['Natural conversations', 'Better UX', 'Higher satisfaction']
+      benefits: [t('seavoice.pages.solutions.inbound.ivrReplacement.benefit1'), t('seavoice.pages.solutions.inbound.ivrReplacement.benefit2'), t('seavoice.pages.solutions.inbound.ivrReplacement.benefit3')]
     },
     {
-      title: 'Mental Health Companion',
-      description: 'Provide empathetic support for mental health screenings and resources.',
+      title: t('seavoice.pages.solutions.inbound.mentalHealth.title'),
+      description: t('seavoice.pages.solutions.inbound.mentalHealth.description'),
       icon: Heart,
       link: '/solutions/inbound/mental-health',
-      benefits: ['24/7 support', 'Empathetic responses', 'Crisis escalation']
+      benefits: [t('seavoice.pages.solutions.inbound.mentalHealth.benefit1'), t('seavoice.pages.solutions.inbound.mentalHealth.benefit2'), t('seavoice.pages.solutions.inbound.mentalHealth.benefit3')]
     },
     {
-      title: 'Scam Shield Protection',
-      description: 'Identify and block fraudulent calls to protect your customers.',
+      title: t('seavoice.pages.solutions.inbound.scamShield.title'),
+      description: t('seavoice.pages.solutions.inbound.scamShield.description'),
       icon: Shield,
       link: '/solutions/inbound/scam-shield',
-      benefits: ['Fraud detection', 'Customer protection', 'Reduced scam calls']
+      benefits: [t('seavoice.pages.solutions.inbound.scamShield.benefit1'), t('seavoice.pages.solutions.inbound.scamShield.benefit2'), t('seavoice.pages.solutions.inbound.scamShield.benefit3')]
     },
     {
-      title: 'Technical Support',
-      description: 'Automate troubleshooting and guide users through technical issues.',
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.description'),
       icon: Zap,
       link: '/solutions/inbound/technical-support',
-      benefits: ['Self-service solutions', 'Faster resolution', 'Cost savings']
+      benefits: [t('seavoice.pages.solutions.inbound.technicalSupport.benefit1'), t('seavoice.pages.solutions.inbound.technicalSupport.benefit2'), t('seavoice.pages.solutions.inbound.technicalSupport.benefit3')]
     },
     {
-      title: 'Order Status & Tracking',
-      description: 'Let customers check order status and delivery information instantly.',
+      title: t('seavoice.pages.solutions.inbound.orderTracking.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.description'),
       icon: PhoneIncoming,
       link: '/solutions/inbound/order-tracking',
-      benefits: ['Instant updates', 'Reduced calls', 'Better experience']
+      benefits: [t('seavoice.pages.solutions.inbound.orderTracking.benefit1'), t('seavoice.pages.solutions.inbound.orderTracking.benefit2'), t('seavoice.pages.solutions.inbound.orderTracking.benefit3')]
     },
     {
-      title: 'Payment Processing',
-      description: 'Securely process payments and handle billing inquiries.',
+      title: t('seavoice.pages.solutions.inbound.paymentProcessing.title'),
+      description: t('seavoice.pages.solutions.inbound.paymentProcessing.description'),
       icon: CreditCard,
       link: '/solutions/inbound/payment-processing',
-      benefits: ['Secure transactions', 'Automated billing', 'PCI compliance']
+      benefits: [t('seavoice.pages.solutions.inbound.paymentProcessing.benefit1'), t('seavoice.pages.solutions.inbound.paymentProcessing.benefit2'), t('seavoice.pages.solutions.inbound.paymentProcessing.benefit3')]
     },
     {
-      title: 'Appointment Booking',
-      description: 'Enable autonomous appointment scheduling and management.',
+      title: t('seavoice.pages.solutions.inbound.appointmentBooking.title'),
+      description: t('seavoice.pages.solutions.inbound.appointmentBooking.description'),
       icon: Clock,
       link: '/solutions/inbound/appointment-booking',
-      benefits: ['24/7 booking', 'Calendar sync', 'Automated reminders']
+      benefits: [t('seavoice.pages.solutions.inbound.appointmentBooking.benefit1'), t('seavoice.pages.solutions.inbound.appointmentBooking.benefit2'), t('seavoice.pages.solutions.inbound.appointmentBooking.benefit3')]
     }
   ];
 
   const outboundSolutions = [
     {
-      title: 'Lead Generation & Qualification',
-      description: 'Proactively qualify leads and schedule follow-ups for sales teams.',
+      title: t('seavoice.pages.solutions.outbound.leadGeneration.title'),
+      description: t('seavoice.pages.solutions.outbound.leadGeneration.description'),
       icon: Users,
       link: '/solutions/outbound/lead-generation',
-      benefits: ['Higher conversion', 'Qualified leads', 'Sales efficiency']
+      benefits: [t('seavoice.pages.solutions.outbound.leadGeneration.benefit1'), t('seavoice.pages.solutions.outbound.leadGeneration.benefit2'), t('seavoice.pages.solutions.outbound.leadGeneration.benefit3')]
     },
     {
-      title: 'Collections Service',
-      description: 'Automate payment reminders and collection processes.',
+      title: t('seavoice.pages.solutions.outbound.collections.title'),
+      description: t('seavoice.pages.solutions.outbound.collections.description'),
       icon: CreditCard,
       link: '/solutions/outbound/collections',
-      benefits: ['Faster collections', 'Payment arrangements', 'Compliance']
+      benefits: [t('seavoice.pages.solutions.outbound.collections.benefit1'), t('seavoice.pages.solutions.outbound.collections.benefit2'), t('seavoice.pages.solutions.outbound.collections.benefit3')]
     },
     {
-      title: 'Customer Reactivation',
-      description: 'Re-engage inactive customers with personalized outreach.',
+      title: t('seavoice.pages.solutions.outbound.reactivation.title'),
+      description: t('seavoice.pages.solutions.outbound.reactivation.description'),
       icon: Users,
       link: '/solutions/outbound/reactivation',
-      benefits: ['Win-back campaigns', 'Personalized offers', 'Customer retention']
+      benefits: [t('seavoice.pages.solutions.outbound.reactivation.benefit1'), t('seavoice.pages.solutions.outbound.reactivation.benefit2'), t('seavoice.pages.solutions.outbound.reactivation.benefit3')]
     },
     {
-      title: 'Senior Check Calls',
-      description: 'Provide wellness checks for seniors on regular or on-demand basis.',
+      title: t('seavoice.pages.solutions.outbound.seniorChecks.title'),
+      description: t('seavoice.pages.solutions.outbound.seniorChecks.description'),
       icon: Heart,
       link: '/solutions/outbound/senior-checks',
-      benefits: ['Wellness monitoring', 'Emergency escalation', 'Peace of mind']
+      benefits: [t('seavoice.pages.solutions.outbound.seniorChecks.benefit1'), t('seavoice.pages.solutions.outbound.seniorChecks.benefit2'), t('seavoice.pages.solutions.outbound.seniorChecks.benefit3')]
     },
     {
-      title: 'Large Scale Campaigns',
-      description: 'Execute high-volume marketing and informational campaigns.',
+      title: t('seavoice.pages.solutions.outbound.campaigns.title'),
+      description: t('seavoice.pages.solutions.outbound.campaigns.description'),
       icon: PhoneOutgoing,
       link: '/solutions/outbound/campaigns',
-      benefits: ['Mass reach', 'Personalized messages', 'Cost effective']
+      benefits: [t('seavoice.pages.solutions.outbound.campaigns.benefit1'), t('seavoice.pages.solutions.outbound.campaigns.benefit2'), t('seavoice.pages.solutions.outbound.campaigns.benefit3')]
     },
     {
-      title: 'Proactive Support',
-      description: 'Notify customers about service updates and important information.',
+      title: t('seavoice.pages.solutions.outbound.proactiveSupport.title'),
+      description: t('seavoice.pages.solutions.outbound.proactiveSupport.description'),
       icon: Zap,
       link: '/solutions/outbound/proactive-support',
-      benefits: ['Proactive communication', 'Issue prevention', 'Customer satisfaction']
+      benefits: [t('seavoice.pages.solutions.outbound.proactiveSupport.benefit1'), t('seavoice.pages.solutions.outbound.proactiveSupport.benefit2'), t('seavoice.pages.solutions.outbound.proactiveSupport.benefit3')]
     },
     {
-      title: 'Subscription Renewals',
-      description: 'Automate subscription renewal reminders and processing.',
+      title: t('seavoice.pages.solutions.outbound.renewals.title'),
+      description: t('seavoice.pages.solutions.outbound.renewals.description'),
       icon: Clock,
       link: '/solutions/outbound/renewals',
-      benefits: ['Automated renewals', 'Reduced churn', 'Revenue protection']
+      benefits: [t('seavoice.pages.solutions.outbound.renewals.benefit1'), t('seavoice.pages.solutions.outbound.renewals.benefit2'), t('seavoice.pages.solutions.outbound.renewals.benefit3')]
     },
     {
-      title: 'Customer Surveys',
-      description: 'Conduct automated post-service feedback collection.',
+      title: t('seavoice.pages.solutions.outbound.surveys.title'),
+      description: t('seavoice.pages.solutions.outbound.surveys.description'),
       icon: Users,
       link: '/solutions/outbound/surveys',
-      benefits: ['Feedback collection', 'Quality insights', 'Improvement data']
+      benefits: [t('seavoice.pages.solutions.outbound.surveys.benefit1'), t('seavoice.pages.solutions.outbound.surveys.benefit2'), t('seavoice.pages.solutions.outbound.surveys.benefit3')]
     },
     {
-      title: 'Fraud Alerts',
-      description: 'Alert customers to suspicious account activity immediately.',
+      title: t('seavoice.pages.solutions.outbound.fraudAlerts.title'),
+      description: t('seavoice.pages.solutions.outbound.fraudAlerts.description'),
       icon: Shield,
       link: '/solutions/outbound/fraud-alerts',
-      benefits: ['Real-time alerts', 'Account protection', 'Fraud prevention']
+      benefits: [t('seavoice.pages.solutions.outbound.fraudAlerts.benefit1'), t('seavoice.pages.solutions.outbound.fraudAlerts.benefit2'), t('seavoice.pages.solutions.outbound.fraudAlerts.benefit3')]
     }
   ];
 
@@ -148,11 +151,10 @@ const SolutionsPage = () => {
             className="text-center"
           >
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              AI Voice Solutions for Every Business Need
+              {t('seavoice.pages.solutions.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Discover comprehensive inbound and outbound voice automation solutions 
-              designed to transform your customer communications and business operations.
+              {t('seavoice.pages.solutions.hero.description')}
             </p>
           </motion.div>
         </div>
@@ -170,10 +172,10 @@ const SolutionsPage = () => {
           >
             <div className="flex items-center justify-center mb-6">
               <PhoneIncoming className="w-12 h-12 text-blue-600 mr-4" />
-              <h2 className="text-4xl font-bold text-gray-900">Inbound Solutions</h2>
+              <h2 className="text-4xl font-bold text-gray-900">{t('seavoice.pages.solutions.inbound.header')}</h2>
             </div>
             <p className="text-xl text-gray-600">
-              Handle incoming calls with intelligent automation and superior customer experience
+              {t('seavoice.pages.solutions.inbound.description')}
             </p>
           </motion.div>
 
@@ -205,7 +207,7 @@ const SolutionsPage = () => {
                       ))}
                     </div>
                     <div className="flex items-center text-blue-600 font-semibold group-hover:translate-x-2 transition-transform">
-                      Learn More <ArrowRight className="ml-2 w-4 h-4" />
+                      {t('seavoice.pages.solutions.learnMore')} <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
                 </Link>
@@ -227,10 +229,10 @@ const SolutionsPage = () => {
           >
             <div className="flex items-center justify-center mb-6">
               <PhoneOutgoing className="w-12 h-12 text-teal-600 mr-4" />
-              <h2 className="text-4xl font-bold text-gray-900">Outbound Solutions</h2>
+              <h2 className="text-4xl font-bold text-gray-900">{t('seavoice.pages.solutions.outbound.header')}</h2>
             </div>
             <p className="text-xl text-gray-600">
-              Proactively engage customers with automated outbound calling campaigns
+              {t('seavoice.pages.solutions.outbound.description')}
             </p>
           </motion.div>
 
@@ -262,7 +264,7 @@ const SolutionsPage = () => {
                       ))}
                     </div>
                     <div className="flex items-center text-teal-600 font-semibold group-hover:translate-x-2 transition-transform">
-                      Learn More <ArrowRight className="ml-2 w-4 h-4" />
+                      {t('seavoice.pages.solutions.learnMore')} <ArrowRight className="ml-2 w-4 h-4" />
                     </div>
                   </div>
                 </Link>
@@ -281,16 +283,16 @@ const SolutionsPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Business Communications?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Discover how our AI voice solutions can automate your customer interactions and drive business growth
+              {t('seavoice.pages.solutions.cta.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
             >
-              Schedule a Consultation
+              {t('seavoice.pages.solutions.cta.button')}
             </motion.button>
           </motion.div>
         </div>
