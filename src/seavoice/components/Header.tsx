@@ -370,15 +370,15 @@ const Header = () => {
                       initial={false}
                       animate={{ 
                         height: 
-                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
+                          (item.id === 'platform' && !mobilePlatformCollapsed) ||
+                          (item.id === 'inboundSolutions' && !mobileInboundCollapsed) ||
+                          (item.id === 'outboundSolutions' && !mobileOutboundCollapsed)
                             ? 'auto' 
                             : 0,
                         opacity: 
-                          (item.name === t('seavoice.header.navigation.platform.title') && !mobilePlatformCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.inboundSolutions.title') && !mobileInboundCollapsed) ||
-                          (item.name === t('seavoice.header.navigation.outboundSolutions.title') && !mobileOutboundCollapsed)
+                          (item.id === 'platform' && !mobilePlatformCollapsed) ||
+                          (item.id === 'inboundSolutions' && !mobileInboundCollapsed) ||
+                          (item.id === 'outboundSolutions' && !mobileOutboundCollapsed)
                             ? 1 
                             : 0
                       }}
