@@ -10881,24 +10881,24 @@
         }
       },
       "voice": {
-        "title": "語音通話",
-        "subtitle": "全球語音解決方案",
-        "description": "透過高品質語音通話觸達全球客戶。自動化外撥活動、智能路由，在180多個國家提供清晰連接。",
-        "seoTitle": "語音通話解決方案 | 全球自動化通話 | SeaX",
-        "seoDescription": "具有全球觸達能力的專業語音通話解決方案。自動化外撥活動、高連接率和智能通話路由，服務全球企業。",
+        "title": "AI語音行銷",
+        "subtitle": "大規模自動化電話通話",
+        "description": "使用AI智能語音活動即時聯繫客戶。適用於約會提醒、調查問卷、緊急警報和個人化客戶外聯，覆蓋100多個國家。",
+        "seoTitle": "語音通話自動化平台 - AI智能電話行銷 | SeaX",
+        "seoDescription": "使用SeaX語音服務大規模自動化電話通話。AI智能語音活動、約會提醒、調查問卷和客戶外聯，在100多個國家實現高接通率。",
         "hero": {
           "widget": {
-            "title": "全球語音儀表板",
-            "poweredBy": "AI 驅動",
-            "callsNumber": "15,847",
-            "callsCompletedToday": "今日完成通話數",
-            "connectionRateValue": "92.5%",
-            "connectionRateLabel": "連接率",
-            "countriesValue": "180+",
-            "countriesLabel": "覆蓋國家",
-            "activeCalls": "進行中通話",
+            "title": "AI語音控制台",
+            "poweredBy": "由SeaX提供支持",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "今日已完成通話",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "接通率",
+            "countriesValue": "100+",
+            "countriesLabel": "支援國家",
+            "activeCalls": "活躍通話",
             "usPhoneNumber": "+1 (555) 123-4567",
-            "appointmentReminder": "預約提醒通話",
+            "appointmentReminder": "約會提醒通話",
             "ukPhoneNumber": "+44 20 7946 0958",
             "surveyCall": "客戶滿意度調查"
           }
@@ -10908,9 +10908,17 @@
           "languagesLabel": "支援語言"
         },
         "features": {
-          "title": "語音通話功能",
-          "subtitle": "具有全球觸達能力和智能自動化的專業語音解決方案",
+          "title": "強大的語音功能",
+          "subtitle": "成功語音行銷活動所需的一切",
           "items": {
+            "0": "AI驅動的自然語音合成",
+            "1": "多語言支援（25+種語言）",
+            "2": "即時通話分析和報告",
+            "3": "互動式語音應答（IVR）功能",
+            "4": "語音信箱檢測和處理",
+            "5": "通話錄音和轉錄",
+            "6": "智能重試邏輯和排程",
+            "7": "符合電話行銷規定",
             "globalReach": "全球觸達，在180多個國家提供本地電話號碼",
             "highQuality": "水晶般清晰的高清語音品質，具備智能路由",
             "smartDialing": "智能撥號，具有最佳時機和通話排程",
@@ -10920,9 +10928,17 @@
           }
         },
         "useCases": {
-          "title": "語音應用場景",
-          "subtitle": "適合需要大規模直接、個人化溝通的企業",
+          "title": "語音行銷使用案例",
+          "subtitle": "語音自動化的實證應用",
           "items": {
+            "0": "約會提醒和確認",
+            "1": "客戶滿意度調查",
+            "2": "付款提醒和催收",
+            "3": "緊急警報和通知",
+            "4": "活動確認和更新",
+            "5": "潛在客戶評估和培育",
+            "6": "市場研究和民調",
+            "7": "服務中斷通知",
             "appointmentReminders": "自動化預約提醒和確認",
             "customerSurveys": "客戶滿意度和意見調查",
             "salesOutreach": "銷售外展和潛在客戶資格審查通話",
@@ -10932,11 +10948,11 @@
           }
         },
         "pricing": {
-          "title": "語音定價",
-          "subtitle": "全球語音通訊的彈性定價",
+          "title": "語音行銷價格",
+          "subtitle": "語音自動化的經濟實惠定價",
           "setup": {
             "label": "設定費用",
-            "value": "免費"
+            "value": "$199"
           },
           "monthly": {
             "label": "月費",
@@ -10944,17 +10960,21 @@
           },
           "perMinute": {
             "label": "每分鐘",
-            "value": "$0.08"
+            "value": "$0.12"
           },
           "note": {
-            "value": "大量活動享有容量折扣"
+            "value": "月通話量10,000+次可享大量折扣"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.08"
           }
         },
         "testimonial": {
-          "quote": "SeaX的語音解決方案徹底改變了我們的客戶觸達方式。通話品質卓越，全球覆蓋讓我們能觸達世界各地的客戶。",
-          "author": "David Kim",
-          "company": "Global Healthcare Solutions",
-          "results": "92.5%連接率，成本降低40%"
+          "quote": "SeaX語音行銷徹底改革了我們的約會提醒系統。我們將爽約率降低了70%，並顯著提升了客戶滿意度。",
+          "author": "艾蜜莉·羅德里格茲醫師",
+          "company": "健康第一醫療集團",
+          "results": "爽約率降低70%，客戶滿意度達95%"
         }
       }
     },

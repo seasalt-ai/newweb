@@ -10879,21 +10879,21 @@
         }
       },
       "voice": {
-        "title": "Voice Calls",
-        "subtitle": "Global Voice Solutions",
-        "description": "Reach customers worldwide with high-quality voice calls. Automated outbound campaigns, smart routing, and crystal-clear connections in 180+ countries.",
-        "seoTitle": "Voice Call Solutions | Global Automated Calling | SeaX",
-        "seoDescription": "Professional voice call solutions with global reach. Automated outbound campaigns, high connection rates, and intelligent call routing for businesses worldwide.",
+        "title": "AI Voice Campaigns",
+        "subtitle": "Automated Phone Calls at Scale",
+        "description": "Reach customers instantly with AI-powered voice campaigns. Perfect for appointment reminders, surveys, emergency alerts, and personalized customer outreach across 100+ countries.",
+        "seoTitle": "Voice Call Automation Platform - AI-Powered Phone Campaigns | SeaX",
+        "seoDescription": "Automate phone calls at scale with SeaX Voice. AI-powered voice campaigns, appointment reminders, surveys, and customer outreach with high connection rates across 100+ countries.",
         "hero": {
           "widget": {
-            "title": "Global Voice Dashboard",
-            "poweredBy": "AI Powered",
-            "callsNumber": "15,847",
-            "callsCompletedToday": "Calls Completed Today",
-            "connectionRateValue": "92.5%",
+            "title": "AI Voice Dashboard",
+            "poweredBy": "Powered by SeaX",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "calls completed today",
+            "connectionRateValue": "87%",
             "connectionRateLabel": "Connection Rate",
-            "countriesValue": "180+",
-            "countriesLabel": "Countries Covered",
+            "countriesValue": "100+",
+            "countriesLabel": "Countries Supported",
             "activeCalls": "Active Calls",
             "usPhoneNumber": "+1 (555) 123-4567",
             "appointmentReminder": "Appointment reminder call",
@@ -10906,9 +10906,17 @@
           "languagesLabel": "Languages Supported"
         },
         "features": {
-          "title": "Voice Call Features",
-          "subtitle": "Professional voice solutions with global reach and intelligent automation",
+          "title": "Powerful Voice Features",
+          "subtitle": "Everything you need for successful voice campaigns",
           "items": {
+            "0": "AI-powered natural voice synthesis",
+            "1": "Multi-language support (25+ languages)",
+            "2": "Real-time call analytics and reporting",
+            "3": "Interactive voice response (IVR) capability",
+            "4": "Voicemail detection and handling",
+            "5": "Call recording and transcription",
+            "6": "Smart retry logic and scheduling",
+            "7": "Compliance with telemarketing regulations",
             "globalReach": "Global reach with local phone numbers in 180+ countries",
             "highQuality": "Crystal-clear HD voice quality with intelligent routing",
             "smartDialing": "Smart dialing with optimal timing and call scheduling",
@@ -10918,9 +10926,17 @@
           }
         },
         "useCases": {
-          "title": "Voice Use Cases",
-          "subtitle": "Perfect for businesses that need direct, personal communication at scale",
+          "title": "Voice Campaign Use Cases",
+          "subtitle": "Proven applications for voice automation",
           "items": {
+            "0": "Appointment reminders and confirmations",
+            "1": "Customer satisfaction surveys",
+            "2": "Payment reminders and collections",
+            "3": "Emergency alerts and notifications",
+            "4": "Event confirmations and updates",
+            "5": "Lead qualification and nurturing",
+            "6": "Market research and polling",
+            "7": "Service outage notifications",
             "appointmentReminders": "Automated appointment reminders and confirmations",
             "customerSurveys": "Customer satisfaction and feedback surveys",
             "salesOutreach": "Sales outreach and lead qualification calls",
@@ -10930,11 +10946,11 @@
           }
         },
         "pricing": {
-          "title": "Voice Pricing",
-          "subtitle": "Flexible pricing for global voice communication",
+          "title": "Voice Campaign Pricing",
+          "subtitle": "Cost-effective pricing for voice automation",
           "setup": {
             "label": "Setup Fee",
-            "value": "Free"
+            "value": "$199"
           },
           "monthly": {
             "label": "Monthly Fee",
@@ -10942,17 +10958,21 @@
           },
           "perMinute": {
             "label": "Per Minute",
-            "value": "$0.08"
+            "value": "$0.12"
           },
           "note": {
-            "value": "Volume discounts available for high-volume campaigns"
+            "value": "Volume discounts available for 10,000+ calls/month"
+          },
+          "perMessage": {
+            "label": "Per Message",
+            "value": "$0.08"
           }
         },
         "testimonial": {
-          "quote": "SeaX's voice solutions have revolutionized our customer outreach. The call quality is exceptional and the global coverage allows us to reach customers anywhere in the world.",
-          "author": "David Kim",
-          "company": "Global Healthcare Solutions",
-          "results": "92.5% connection rate with 40% cost reduction"
+          "quote": "SeaX voice campaigns have revolutionized our appointment reminders. We've reduced no-shows by 70% and improved customer satisfaction significantly.",
+          "author": "Dr. Emily Rodriguez",
+          "company": "HealthFirst Medical Group",
+          "results": "70% reduction in no-shows and 95% customer satisfaction rate"
         }
       }
     },
