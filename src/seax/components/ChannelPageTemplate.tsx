@@ -14,13 +14,24 @@ interface ChannelPageTemplateProps {
   seoDescription: string;
   heroContent: ReactNode;
   features: string[];
+  featuresTitle: string;       // ✅ 新增
+  featuresSubtitle: string;    // ✅ 新增
   useCases: string[];
+  useCasesTitle: string;       // ✅ 新增
+  useCasesSubtitle: string;    // ✅ 新增
   pricing?: {
     setup: string;
     monthly: string;
     perMessage?: string;
     perMinute?: string;
     note?: string;
+  };
+  pricingTitle?: string;        // ✅ 新增
+  pricingSubtitle?: string;     // ✅ 新增
+  pricingLabels?: {             // ✅ 新增
+    setup: string;
+    monthly: string;
+    perMessage: string;
   };
   stats: {
     value: string;
@@ -44,8 +55,15 @@ const ChannelPageTemplate = ({
   seoDescription,
   heroContent,
   features,
+  featuresTitle,
+  featuresSubtitle,
   useCases,
+  useCasesTitle,
+  useCasesSubtitle,
   pricing,
+  pricingTitle,
+  pricingSubtitle,
+  pricingLabels,
   stats,
   testimonial,
   children
@@ -53,6 +71,8 @@ const ChannelPageTemplate = ({
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
+  const { t } = useTranslation();
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -91,7 +111,7 @@ const ChannelPageTemplate = ({
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
               >
-                <span>Get Started</span>
+                <span>{t('seax.channelTemplate.hero.getStarted')}</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
               </div>
@@ -133,10 +153,10 @@ const ChannelPageTemplate = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Powerful Features
+              {featuresTitle}
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need for high-volume messaging success
+              {featuresSubtitle}
             </p>
           </div>
           
@@ -158,10 +178,10 @@ const ChannelPageTemplate = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Perfect For
+              {useCasesTitle}
             </h2>
             <p className="text-lg text-gray-600">
-              Common use cases that drive results
+              {useCasesSubtitle}
             </p>
           </div>
           
@@ -184,10 +204,10 @@ const ChannelPageTemplate = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Transparent Pricing
+                {pricingTitle || t('seax.channelTemplate.pricing.title')}
               </h2>
               <p className="text-lg text-gray-600">
-                Simple, predictable pricing that scales with your business
+                {pricingSubtitle || t('seax.channelTemplate.pricing.subtitle')}
               </p>
             </div>
             
@@ -197,7 +217,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-green-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <Shield className="w-6 h-6 text-green-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Setup</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.setup || t('seax.channelTemplate.pricing.setup')}</div>
                   <div className="text-2xl font-bold text-green-600">{pricing.setup}</div>
                 </div>
                 
@@ -205,7 +225,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-blue-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <Clock className="w-6 h-6 text-blue-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Monthly</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.monthly || t('seax.channelTemplate.pricing.monthly')}</div>
                   <div className="text-2xl font-bold text-blue-600">{pricing.monthly}</div>
                 </div>
                 
@@ -213,7 +233,7 @@ const ChannelPageTemplate = ({
                   <div className="bg-purple-100 p-3 rounded-lg w-fit mx-auto mb-4">
                     <TrendingUp className="w-6 h-6 text-purple-600" />
                   </div>
-                  <div className="text-lg font-semibold text-gray-900 mb-2">Per Message</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">{pricingLabels?.perMessage || t('seax.channelTemplate.pricing.perMessage')}</div>
                   <div className="text-2xl font-bold text-purple-600">
                     {pricing.perMessage || pricing.perMinute}
                   </div>
@@ -263,10 +283,10 @@ const ChannelPageTemplate = ({
       <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Scale Your Outreach?
+            {t('seax.channelTemplate.cta.title')}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join thousands of businesses reaching millions with SeaX
+            {t('seax.channelTemplate.cta.subtitle')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -276,7 +296,7 @@ const ChannelPageTemplate = ({
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Started Today</span>
+              <span>{t('seax.channelTemplate.cta.getStarted')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -284,7 +304,7 @@ const ChannelPageTemplate = ({
               to={getLocalizedPath('/pricing')}
               className="border-2 border-gray-600 text-gray-300 px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
             >
-              View Pricing
+              {t('seax.channelTemplate.cta.viewPricing')}
             </Link>
           </div>
         </div>
@@ -296,3 +316,4 @@ const ChannelPageTemplate = ({
 };
 
 export default ChannelPageTemplate;
+

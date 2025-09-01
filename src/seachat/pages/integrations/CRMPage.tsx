@@ -2,7 +2,16 @@ import { Users, Database, FolderSync as Sync, TrendingUp, ArrowRight, CheckCircl
 import { useTranslation } from 'react-i18next';
 
 const CRMPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+  
+  // Helper function to get the correct SeaChat Wiki URL based on language
+  const getSeaChatWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+  };
   
   const crmPlatforms = [
     {
@@ -134,7 +143,7 @@ const CRMPage = () => {
               <a href="https://chat.seasalt.ai/gpt/signup" className="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
                 {t('seachat.integrations.crm.connectButton', 'Connect Your CRM')}
               </a>
-              <a href="https://wiki.seasalt.ai/seachat/" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+              <a href={getSeaChatWikiUrl()} className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
                 {t('seachat.integrations.crm.guideButton', 'View Integration Guide')}
               </a>
             </div>
@@ -294,7 +303,7 @@ const CRMPage = () => {
             <a href="https://chat.seasalt.ai/gpt/signup" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
               {t('seachat.integrations.crm.ctaChooseButton', 'Sign Up For Free')}
             </a>
-            <a href="https://wiki.seasalt.ai/seachat/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            <a href={getSeaChatWikiUrl()} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
               {t('seachat.integrations.crm.ctaGuideButton', 'View Setup Guide')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>

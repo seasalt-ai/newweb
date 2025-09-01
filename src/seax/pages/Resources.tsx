@@ -5,112 +5,112 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { ArrowRight, Book, FileText, Video, MessageSquare, Download, ExternalLink, Users } from 'lucide-react';
 const Resources = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const resourceCategories = [
     {
-      title: 'Getting Started',
-      description: 'Everything you need to launch your first campaign',
+      title: t('seax.resources.categories.gettingStarted.title'),
+      description: t('seax.resources.categories.gettingStarted.description'),
       icon: Book,
       color: 'blue',
       resources: [
         {
-          title: 'Quick Start Guide',
-          description: 'Get up and running with SeaX in under 10 minutes',
-          type: 'Guide',
-          readTime: '5 min read'
+          title: t('seax.resources.categories.gettingStarted.quickStart.title'),
+          description: t('seax.resources.categories.gettingStarted.quickStart.description'),
+          type: t('seax.resources.categories.gettingStarted.quickStart.type'),
+          readTime: t('seax.resources.categories.gettingStarted.quickStart.readTime')
         },
         {
-          title: 'Best Practices for Mass SMS',
-          description: 'Learn how to craft effective messages that convert',
-          type: 'Guide',
-          readTime: '8 min read'
+          title: t('seax.resources.categories.gettingStarted.bestPractices.title'),
+          description: t('seax.resources.categories.gettingStarted.bestPractices.description'),
+          type: t('seax.resources.categories.gettingStarted.bestPractices.type'),
+          readTime: t('seax.resources.categories.gettingStarted.bestPractices.readTime')
         },
         {
-          title: 'API Integration Tutorial',
-          description: 'Step-by-step guide to integrate SeaX with your app',
-          type: 'Tutorial',
-          readTime: '15 min read'
+          title: t('seax.resources.categories.gettingStarted.apiIntegration.title'),
+          description: t('seax.resources.categories.gettingStarted.apiIntegration.description'),
+          type: t('seax.resources.categories.gettingStarted.apiIntegration.type'),
+          readTime: t('seax.resources.categories.gettingStarted.apiIntegration.readTime')
         }
       ]
     },
     {
-      title: 'Video Tutorials',
-      description: 'Watch and learn from our expert tutorials',
+      title: t('seax.resources.categories.videos.title'),
+      description: t('seax.resources.categories.videos.description'),
       icon: Video,
       color: 'green',
       resources: [
         {
-          title: 'Creating Your First Campaign',
-          description: 'Watch how to set up and launch your first SMS campaign',
-          type: 'Video',
-          duration: '12 min'
+          title: t('seax.resources.categories.videos.firstCampaign.title'),
+          description: t('seax.resources.categories.videos.firstCampaign.description'),
+          type: t('seax.resources.categories.videos.firstCampaign.type'),
+          duration: t('seax.resources.categories.videos.firstCampaign.duration')
         },
         {
-          title: 'Advanced Targeting Strategies',
-          description: 'Learn how to segment and target your audience effectively',
-          type: 'Video',
-          duration: '18 min'
+          title: t('seax.resources.categories.videos.targeting.title'),
+          description: t('seax.resources.categories.videos.targeting.description'),
+          type: t('seax.resources.categories.videos.targeting.type'),
+          duration: t('seax.resources.categories.videos.targeting.duration')
         },
         {
-          title: 'Analytics and Reporting Deep Dive',
-          description: 'Master SeaX analytics to optimize your campaigns',
-          type: 'Video',
-          duration: '25 min'
+          title: t('seax.resources.categories.videos.analytics.title'),
+          description: t('seax.resources.categories.videos.analytics.description'),
+          type: t('seax.resources.categories.videos.analytics.type'),
+          duration: t('seax.resources.categories.videos.analytics.duration')
         }
       ]
     },
     {
-      title: 'Documentation',
-      description: 'Technical documentation and API references',
+      title: t('seax.resources.categories.documentation.title'),
+      description: t('seax.resources.categories.documentation.description'),
       icon: FileText,
       color: 'purple',
       resources: [
         {
-          title: 'API Reference',
-          description: 'Complete API documentation with examples',
-          type: 'Documentation',
-          badge: 'Developer'
+          title: t('seax.resources.categories.documentation.apiReference.title'),
+          description: t('seax.resources.categories.documentation.apiReference.description'),
+          type: t('seax.resources.categories.documentation.apiReference.type'),
+          badge: t('seax.resources.categories.documentation.apiReference.badge')
         },
         {
-          title: 'Webhook Guide',
-          description: 'Set up real-time notifications and callbacks',
-          type: 'Documentation',
-          badge: 'Developer'
+          title: t('seax.resources.categories.documentation.webhook.title'),
+          description: t('seax.resources.categories.documentation.webhook.description'),
+          type: t('seax.resources.categories.documentation.webhook.type'),
+          badge: t('seax.resources.categories.documentation.webhook.badge')
         },
         {
-          title: 'SDK Documentation',
-          description: 'Client libraries for popular programming languages',
-          type: 'Documentation',
-          badge: 'Developer'
+          title: t('seax.resources.categories.documentation.sdk.title'),
+          description: t('seax.resources.categories.documentation.sdk.description'),
+          type: t('seax.resources.categories.documentation.sdk.type'),
+          badge: t('seax.resources.categories.documentation.sdk.badge')
         }
       ]
     },
     {
-      title: 'Case Studies',
-      description: 'Real success stories from our customers',
+      title: t('seax.resources.categories.caseStudies.title'),
+      description: t('seax.resources.categories.caseStudies.description'),
       icon: MessageSquare,
       color: 'orange',
       resources: [
         {
-          title: 'E-commerce: 300% ROI with SMS Marketing',
-          description: 'How an online retailer tripled their return on investment',
-          type: 'Case Study',
-          industry: 'E-commerce'
+          title: t('seax.resources.categories.caseStudies.ecommerce.title'),
+          description: t('seax.resources.categories.caseStudies.ecommerce.description'),
+          type: t('seax.resources.categories.caseStudies.ecommerce.type'),
+          industry: t('seax.resources.categories.caseStudies.ecommerce.industry')
         },
         {
-          title: 'Healthcare: Appointment Reminders at Scale',
-          description: 'Reducing no-shows by 45% with automated reminders',
-          type: 'Case Study',
-          industry: 'Healthcare'
+          title: t('seax.resources.categories.caseStudies.healthcare.title'),
+          description: t('seax.resources.categories.caseStudies.healthcare.description'),
+          type: t('seax.resources.categories.caseStudies.healthcare.type'),
+          industry: t('seax.resources.categories.caseStudies.healthcare.industry')
         },
         {
-          title: 'FinTech: Fraud Prevention via SMS',
-          description: 'Real-time fraud alerts protecting millions of users',
-          type: 'Case Study',
-          industry: 'Financial Services'
+          title: t('seax.resources.categories.caseStudies.fintech.title'),
+          description: t('seax.resources.categories.caseStudies.fintech.description'),
+          type: t('seax.resources.categories.caseStudies.fintech.type'),
+          industry: t('seax.resources.categories.caseStudies.fintech.industry')
         }
       ]
     }
@@ -118,22 +118,22 @@ const Resources = () => {
 
   const downloads = [
     {
-      title: 'SMS Marketing Playbook',
-      description: 'Complete guide to SMS marketing with templates and examples',
-      format: 'PDF',
-      size: '2.5 MB'
+      title: t('seax.resources.downloads.playbook.title'),
+      description: t('seax.resources.downloads.playbook.description'),
+      format: t('seax.resources.downloads.playbook.format'),
+      size: t('seax.resources.downloads.playbook.size')
     },
     {
-      title: 'Compliance Checklist',
-      description: 'Ensure your campaigns meet all regulatory requirements',
-      format: 'PDF',
-      size: '1.2 MB'
+      title: t('seax.resources.downloads.compliance.title'),
+      description: t('seax.resources.downloads.compliance.description'),
+      format: t('seax.resources.downloads.compliance.format'),
+      size: t('seax.resources.downloads.compliance.size')
     },
     {
-      title: 'Message Templates Library',
-      description: 'Ready-to-use templates for common use cases',
-      format: 'ZIP',
-      size: '850 KB'
+      title: t('seax.resources.downloads.templates.title'),
+      description: t('seax.resources.downloads.templates.description'),
+      format: t('seax.resources.downloads.templates.format'),
+      size: t('seax.resources.downloads.templates.size')
     }
   ];
 
@@ -150,8 +150,8 @@ const Resources = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX Resources - Guides, Tutorials & Documentation"
-        description="Access comprehensive resources for SeaX including guides, tutorials, API documentation, case studies, and more to help you succeed with mass communication."
+        title={t('seax.resources.seo.title')}
+        description={t('seax.resources.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -161,12 +161,11 @@ const Resources = () => {
       <div className="bg-gradient-to-br from-indigo-50 to-purple-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Resources &
-            <span className="text-indigo-600 block">Learning Center</span>
+            {t('seax.resources.hero.title')}
+            <span className="text-indigo-600 block">{t('seax.resources.hero.titleHighlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Everything you need to master mass communication. From quick start guides to advanced 
-            tutorials, we've got you covered.
+            {t('seax.resources.hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -174,12 +173,12 @@ const Resources = () => {
               href={getMeetingUrl(currentLanguage)}
               className="bg-indigo-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Support</span>
+              <span>{t('seax.resources.hero.getSupport')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
             <button className="border-2 border-indigo-600 text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-indigo-50 transition-colors">
-              Browse API Docs
+              {t('seax.resources.hero.browseApiDocs')}
             </button>
           </div>
         </div>
@@ -190,10 +189,10 @@ const Resources = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Explore Our Resources
+              {t('seax.resources.explore.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Find exactly what you need to succeed with SeaX
+              {t('seax.resources.explore.subtitle')}
             </p>
           </div>
           
@@ -240,7 +239,7 @@ const Resources = () => {
                             {(resource as any).industry && (resource as any).industry}
                           </div>
                           <button className="text-indigo-600 hover:text-indigo-800 flex items-center space-x-1">
-                            <span>Read More</span>
+                            <span>{t('seax.resources.common.readMore')}</span>
                             <ArrowRight className="w-4 h-4" />
                           </button>
                         </div>
@@ -259,10 +258,10 @@ const Resources = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Downloads
+              {t('seax.resources.downloads.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Free resources to help you get the most out of SeaX
+              {t('seax.resources.downloads.subtitle')}
             </p>
           </div>
           
@@ -288,7 +287,7 @@ const Resources = () => {
                 
                 <button className="w-full bg-indigo-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2">
                   <Download className="w-5 h-5" />
-                  <span>Download</span>
+                  <span>{t('seax.resources.downloads.download')}</span>
                 </button>
               </div>
             ))}
@@ -302,11 +301,10 @@ const Resources = () => {
           <div className="bg-indigo-50 rounded-2xl p-8 lg:p-12">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Need More Help?
+                {t('seax.resources.support.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our support team is here to help you succeed. Get personalized assistance 
-                with your campaigns and technical questions.
+                {t('seax.resources.support.subtitle')}
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -314,10 +312,10 @@ const Resources = () => {
                   <div className="bg-white p-4 rounded-lg w-fit mx-auto mb-4">
                     <MessageSquare className="w-8 h-8 text-indigo-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Live Chat</h3>
-                  <p className="text-gray-600 mb-4">Get instant help from our support team</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seax.resources.support.liveChat.title')}</h3>
+                  <p className="text-gray-600 mb-4">{t('seax.resources.support.liveChat.description')}</p>
                   <button className="text-indigo-600 hover:text-indigo-800 font-medium">
-                    Start Chat
+                    {t('seax.resources.support.liveChat.action')}
                   </button>
                 </div>
                 
@@ -325,10 +323,10 @@ const Resources = () => {
                   <div className="bg-white p-4 rounded-lg w-fit mx-auto mb-4">
                     <Book className="w-8 h-8 text-indigo-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Knowledge Base</h3>
-                  <p className="text-gray-600 mb-4">Search our comprehensive help articles</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seax.resources.support.knowledgeBase.title')}</h3>
+                  <p className="text-gray-600 mb-4">{t('seax.resources.support.knowledgeBase.description')}</p>
                   <button className="text-indigo-600 hover:text-indigo-800 font-medium flex items-center mx-auto">
-                    <span>Browse Articles</span>
+                    <span>{t('seax.resources.support.knowledgeBase.action')}</span>
                     <ExternalLink className="w-4 h-4 ml-1" />
                   </button>
                 </div>
@@ -337,10 +335,10 @@ const Resources = () => {
                   <div className="bg-white p-4 rounded-lg w-fit mx-auto mb-4">
                     <Users className="w-8 h-8 text-indigo-600" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Community</h3>
-                  <p className="text-gray-600 mb-4">Connect with other SeaX users</p>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seax.resources.support.community.title')}</h3>
+                  <p className="text-gray-600 mb-4">{t('seax.resources.support.community.description')}</p>
                   <button className="text-indigo-600 hover:text-indigo-800 font-medium flex items-center mx-auto">
-                    <span>Join Community</span>
+                    <span>{t('seax.resources.support.community.action')}</span>
                     <ExternalLink className="w-4 h-4 ml-1" />
                   </button>
                 </div>
@@ -354,10 +352,10 @@ const Resources = () => {
       <div className="py-20 bg-indigo-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Get Started?
+            {t('seax.resources.cta.title')}
           </h2>
           <p className="text-xl text-indigo-100 mb-8">
-            Join thousands of businesses already using SeaX to reach their customers
+            {t('seax.resources.cta.subtitle')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -365,7 +363,7 @@ const Resources = () => {
               href="https://seax.seasalt.ai/signup"
               className="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Sign Up Now</span>
+              <span>{t('seax.resources.cta.signUp')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -373,7 +371,7 @@ const Resources = () => {
               to={getLocalizedPath('/pricing')}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors"
             >
-              View Pricing
+              {t('seax.resources.cta.viewPricing')}
             </Link>
           </div>
         </div>

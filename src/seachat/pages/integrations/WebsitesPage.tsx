@@ -6,6 +6,14 @@ const WebsitesPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
+  // Helper function to get the correct SeaChat Wiki URL based on language
+  const getSeaChatWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+  };
+  
   const platforms = [
     {
       name: t('seachat.integrations.websites.platforms.generic.name', 'Generic Website'),
@@ -340,7 +348,7 @@ const WebsitesPage = () => {
             <a href="https://chat.seasalt.ai/gpt/signup" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
               {t('seachat.integrations.websites.ctaCodeButton', 'Get Widget Code Now')}
             </a>
-            <a href="https://wiki.seasalt.ai/seachat/" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            <a href={getSeaChatWikiUrl()} className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
               {t('seachat.integrations.websites.ctaDocsButton', 'View Integration Docs')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>

@@ -6,71 +6,87 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle, CreditCard, Shield, TrendingUp, Bell, User, DollarSign } from 'lucide-react';
 
 const FinancialServices = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const challenges = [
     {
       icon: <CreditCard className="w-6 h-6 text-blue-600" />,
-      title: "Loan Application Updates",
-      description: "Keeping applicants informed throughout the complex loan approval process while maintaining clear communication and building trust."
+      title: t('seax.industries.financialServices.challenges.items.0.title'),
+      description: t('seax.industries.financialServices.challenges.items.0.description')
     },
     {
       icon: <Shield className="w-6 h-6 text-blue-600" />,
-      title: "Fraud Alerts",
-      description: "Quickly notifying customers of suspicious account activity and providing secure channels for verification and resolution."
+      title: t('seax.industries.financialServices.challenges.items.1.title'),
+      description: t('seax.industries.financialServices.challenges.items.1.description')
     },
     {
       icon: <TrendingUp className="w-6 h-6 text-blue-600" />,
-      title: "Investment Updates",
-      description: "Delivering timely market updates, portfolio performance, and investment opportunities to clients in a personalized manner."
+      title: t('seax.industries.financialServices.challenges.items.2.title'),
+      description: t('seax.industries.financialServices.challenges.items.2.description')
     },
     {
       icon: <Bell className="w-6 h-6 text-blue-600" />,
-      title: "Payment Reminders",
-      description: "Sending automated payment reminders and overdue notifications while maintaining professional relationships with clients."
+      title: t('seax.industries.financialServices.challenges.items.3.title'),
+      description: t('seax.industries.financialServices.challenges.items.3.description')
     },
     {
       icon: <User className="w-6 h-6 text-blue-600" />,
-      title: "Customer Onboarding",
-      description: "Guiding new customers through account setup, verification processes, and initial service activation smoothly."
+      title: t('seax.industries.financialServices.challenges.items.4.title'),
+      description: t('seax.industries.financialServices.challenges.items.4.description')
     },
     {
       icon: <DollarSign className="w-6 h-6 text-blue-600" />,
-      title: "Account Notifications",
-      description: "Providing real-time updates on account balances, transactions, and important account changes to enhance customer experience."
+      title: t('seax.industries.financialServices.challenges.items.5.title'),
+      description: t('seax.industries.financialServices.challenges.items.5.description')
     }
   ];
 
   const useCases = [
     {
-      title: "Loan Status Updates",
-      description: "Automatically notify applicants about loan application progress, required documentation, and approval status with personalized messaging.",
-      benefits: ["Reduced customer anxiety", "Faster document submission", "Improved approval rates"]
+      title: t('seax.industries.financialServices.useCases.items.0.title'),
+      description: t('seax.industries.financialServices.useCases.items.0.description'),
+      benefits: [
+        t('seax.industries.financialServices.useCases.items.0.benefits.0'),
+        t('seax.industries.financialServices.useCases.items.0.benefits.1'),
+        t('seax.industries.financialServices.useCases.items.0.benefits.2')
+      ]
     },
     {
-      title: "Fraud Prevention",
-      description: "Instantly alert customers to suspicious activity via SMS with secure verification links to protect accounts and reduce fraud losses.",
-      benefits: ["Faster fraud detection", "Reduced financial losses", "Enhanced customer trust"]
+      title: t('seax.industries.financialServices.useCases.items.1.title'),
+      description: t('seax.industries.financialServices.useCases.items.1.description'),
+      benefits: [
+        t('seax.industries.financialServices.useCases.items.1.benefits.0'),
+        t('seax.industries.financialServices.useCases.items.1.benefits.1'),
+        t('seax.industries.financialServices.useCases.items.1.benefits.2')
+      ]
     },
     {
-      title: "Investment Alerts",
-      description: "Send timely market updates, portfolio performance reports, and investment opportunities tailored to each client's preferences.",
-      benefits: ["Increased client engagement", "Better investment decisions", "Higher portfolio performance"]
+      title: t('seax.industries.financialServices.useCases.items.2.title'),
+      description: t('seax.industries.financialServices.useCases.items.2.description'),
+      benefits: [
+        t('seax.industries.financialServices.useCases.items.2.benefits.0'),
+        t('seax.industries.financialServices.useCases.items.2.benefits.1'),
+        t('seax.industries.financialServices.useCases.items.2.benefits.2')
+      ]
     },
     {
-      title: "Payment Collections",
-      description: "Automate payment reminders and overdue notifications with personalized messaging that maintains positive customer relationships.",
-      benefits: ["Improved collection rates", "Reduced delinquencies", "Better customer retention"]
+      title: t('seax.industries.financialServices.useCases.items.3.title'),
+      description: t('seax.industries.financialServices.useCases.items.3.description'),
+      benefits: [
+        t('seax.industries.financialServices.useCases.items.3.benefits.0'),
+        t('seax.industries.financialServices.useCases.items.3.benefits.1'),
+        t('seax.industries.financialServices.useCases.items.3.benefits.2')
+      ]
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX for Financial Services - Secure Communication & Client Engagement"
-        description="Enhance your financial services with SeaX's secure messaging platform. Improve client communication, streamline loan processes, and boost engagement with automated solutions."
+        title={t('seax.industries.financialServices.seo.title')}
+        description={t('seax.industries.financialServices.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -80,11 +96,11 @@ const FinancialServices = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            SeaX for
-            <span className="text-blue-600 block">Financial Services</span>
+            {t('seax.industries.financialServices.hero.title.main')}
+            <span className="text-blue-600 block">{t('seax.industries.financialServices.hero.title.highlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Build stronger client relationships and streamline financial operations with secure, automated messaging solutions designed for the financial industry.
+            {t('seax.industries.financialServices.hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -94,7 +110,7 @@ const FinancialServices = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Industry Solution</span>
+              <span>{t('seax.industries.financialServices.hero.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -102,7 +118,7 @@ const FinancialServices = () => {
               to={getLocalizedPath('/features')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              View Features
+              {t('seax.industries.financialServices.hero.cta.secondary')}
             </Link>
           </div>
         </div>
@@ -113,10 +129,10 @@ const FinancialServices = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Financial Services Challenges We Solve
+              {t('seax.industries.financialServices.challenges.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Common communication challenges in the financial services industry
+              {t('seax.industries.financialServices.challenges.subtitle')}
             </p>
           </div>
           
@@ -141,10 +157,10 @@ const FinancialServices = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Financial Services Use Cases
+              {t('seax.industries.financialServices.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              How financial institutions use SeaX to enhance client services
+              {t('seax.industries.financialServices.useCases.subtitle')}
             </p>
           </div>
           
@@ -174,28 +190,28 @@ const FinancialServices = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Financial Services Results with SeaX
+              {t('seax.industries.financialServices.stats.title')}
             </h2>
             <p className="text-xl text-blue-100">
-              Proven outcomes for financial institutions
+              {t('seax.industries.financialServices.stats.subtitle')}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">45%</div>
-              <div className="text-blue-100">Faster Loan Processing</div>
-              <div className="text-sm text-blue-200 mt-2">Through automated status updates</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.financialServices.stats.items.0.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.financialServices.stats.items.0.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.financialServices.stats.items.0.description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">30%</div>
-              <div className="text-blue-100">Reduction in Fraud Losses</div>
-              <div className="text-sm text-blue-200 mt-2">With real-time alerts</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.financialServices.stats.items.1.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.financialServices.stats.items.1.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.financialServices.stats.items.1.description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">60%</div>
-              <div className="text-blue-100">Improved Collection Rates</div>
-              <div className="text-sm text-blue-200 mt-2">Through timely payment reminders</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.financialServices.stats.items.2.value')}</div>
+              <div className="text-blue-100">{t('seax.industries.financialServices.stats.items.2.label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.financialServices.stats.items.2.description')}</div>
             </div>
           </div>
         </div>
@@ -205,10 +221,10 @@ const FinancialServices = () => {
       <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Transform Your Financial Services?
+            {t('seax.industries.financialServices.cta.title')}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join leading financial institutions using SeaX to enhance client communication, improve operational efficiency, and drive business growth.
+            {t('seax.industries.financialServices.cta.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -218,7 +234,7 @@ const FinancialServices = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
             >
-              <span>Get Started Today</span>
+              <span>{t('seax.industries.financialServices.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -226,7 +242,7 @@ const FinancialServices = () => {
               to={getLocalizedPath('/pricing')}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
             >
-              View Pricing
+              {t('seax.industries.financialServices.cta.secondary')}
             </Link>
           </div>
         </div>

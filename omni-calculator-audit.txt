@@ -1,0 +1,25 @@
+OmniChannelCalculator.tsx Internationalization Audit
+===================================================
+
+FOUND 9 HARDCODED STRINGS requiring translation keys:
+
+## Range Indicators (4 strings)
+- "10k+" (line 255) - SMS range maximum indicator
+- "5k+" (line 274) - Call minutes range maximum indicator
+- "1k+" (line 293) - Voicemail drops range maximum indicator
+- "10k+" (line 312) - WhatsApp messages range maximum indicator
+
+## Phone Breakdown Text (1 string)  
+- "local +" (line 344) - Phone number breakdown text fragment
+
+## Calculation Controls (4 additional zero values)
+- "0" (line 253) - SMS range minimum
+- "0" (line 272) - Call minutes range minimum
+- "0" (line 291) - Voicemail range minimum
+- "0" (line 310) - WhatsApp messages range minimum
+
+CATEGORIES FOR TRANSLATION KEYS:
+1. omniCalculator.ranges.* - Range indicators and labels
+2. omniCalculator.breakdown.* - Breakdown text components
+
+Total: 9 hardcoded strings requiring internationalization

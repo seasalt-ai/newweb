@@ -6,71 +6,87 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle, Home, Phone, Calendar, Users, Clock, MessageSquare } from 'lucide-react';
 
 const RealEstate = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const challenges = [
     {
       icon: <Phone className="w-6 h-6 text-blue-600" />,
-      title: "Lead Response Time",
-      description: "Real estate leads go cold quickly. Every minute counts when a potential buyer or seller reaches out, but agents often miss calls or respond too late."
+      title: t('seax.industries.realEstate.challenges.items[0].title'),
+      description: t('seax.industries.realEstate.challenges.items[0].description')
     },
     {
       icon: <Calendar className="w-6 h-6 text-blue-600" />,
-      title: "Appointment Scheduling",
-      description: "Coordinating property showings, meetings, and closings across multiple parties leads to scheduling conflicts and missed opportunities."
+      title: t('seax.industries.realEstate.challenges.items[1].title'),
+      description: t('seax.industries.realEstate.challenges.items[1].description')
     },
     {
       icon: <Users className="w-6 h-6 text-blue-600" />,
-      title: "Client Communication",
-      description: "Managing ongoing communication with buyers, sellers, lenders, and other agents across multiple properties becomes overwhelming."
+      title: t('seax.industries.realEstate.challenges.items[2].title'),
+      description: t('seax.industries.realEstate.challenges.items[2].description')
     },
     {
       icon: <Clock className="w-6 h-6 text-blue-600" />,
-      title: "After-Hours Availability",
-      description: "Real estate doesn't stop at 5 PM. Clients expect responses evenings and weekends, but agents need personal time too."
+      title: t('seax.industries.realEstate.challenges.items[3].title'),
+      description: t('seax.industries.realEstate.challenges.items[3].description')
     },
     {
       icon: <MessageSquare className="w-6 h-6 text-blue-600" />,
-      title: "Follow-up Consistency",
-      description: "Maintaining consistent follow-up with leads and past clients for referrals requires systematic communication that's hard to manage manually."
+      title: t('seax.industries.realEstate.challenges.items[4].title'),
+      description: t('seax.industries.realEstate.challenges.items[4].description')
     },
     {
       icon: <Home className="w-6 h-6 text-blue-600" />,
-      title: "Property Updates",
-      description: "Keeping interested buyers informed about price changes, new listings, and market updates requires constant manual effort."
+      title: t('seax.industries.realEstate.challenges.items[5].title'),
+      description: t('seax.industries.realEstate.challenges.items[5].description')
     }
   ];
 
   const useCases = [
     {
-      title: "Instant Lead Response",
-      description: "Automatically respond to new leads within seconds via SMS, capturing their interest while it's hot and qualifying them for immediate follow-up.",
-      benefits: ["5x faster response time", "Automated lead qualification", "Never miss a lead again"]
+      title: t('seax.industries.realEstate.useCases.items[0].title'),
+      description: t('seax.industries.realEstate.useCases.items[0].description'),
+      benefits: [
+        t('seax.industries.realEstate.useCases.items[0].benefits[0]'),
+        t('seax.industries.realEstate.useCases.items[0].benefits[1]'),
+        t('seax.industries.realEstate.useCases.items[0].benefits[2]')
+      ]
     },
     {
-      title: "Automated Appointment Scheduling",
-      description: "Let clients book property showings and consultations directly through SMS, with automatic calendar integration and reminder notifications.",
-      benefits: ["Reduced scheduling conflicts", "Automatic reminders", "Calendar integration"]
+      title: t('seax.industries.realEstate.useCases.items[1].title'),
+      description: t('seax.industries.realEstate.useCases.items[1].description'),
+      benefits: [
+        t('seax.industries.realEstate.useCases.items[1].benefits[0]'),
+        t('seax.industries.realEstate.useCases.items[1].benefits[1]'),
+        t('seax.industries.realEstate.useCases.items[1].benefits[2]')
+      ]
     },
     {
-      title: "Transaction Updates",
-      description: "Keep all parties informed throughout the buying/selling process with automated updates on inspections, financing, and closing progress.",
-      benefits: ["Reduced anxiety for clients", "Fewer status calls", "Smoother transactions"]
+      title: t('seax.industries.realEstate.useCases.items[2].title'),
+      description: t('seax.industries.realEstate.useCases.items[2].description'),
+      benefits: [
+        t('seax.industries.realEstate.useCases.items[2].benefits[0]'),
+        t('seax.industries.realEstate.useCases.items[2].benefits[1]'),
+        t('seax.industries.realEstate.useCases.items[2].benefits[2]')
+      ]
     },
     {
-      title: "Market Updates & Nurturing",
-      description: "Stay top-of-mind with past clients and leads through automated market reports, new listing alerts, and personalized property recommendations.",
-      benefits: ["Increased referrals", "More repeat business", "Consistent market presence"]
+      title: t('seax.industries.realEstate.useCases.items[3].title'),
+      description: t('seax.industries.realEstate.useCases.items[3].description'),
+      benefits: [
+        t('seax.industries.realEstate.useCases.items[3].benefits[0]'),
+        t('seax.industries.realEstate.useCases.items[3].benefits[1]'),
+        t('seax.industries.realEstate.useCases.items[3].benefits[2]')
+      ]
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX for Real Estate - Instant Lead Response & Client Communication"
-        description="Transform your real estate business with SeaX's automated messaging platform. Respond to leads instantly, schedule showings automatically, and keep clients informed throughout transactions."
+        title={t('seax.industries.realEstate.seo.title')}
+        description={t('seax.industries.realEstate.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -80,11 +96,11 @@ const RealEstate = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            SeaX for
-            <span className="text-blue-600 block">Real Estate</span>
+            {t('seax.industries.realEstate.hero.title.main')}
+            <span className="text-blue-600 block">{t('seax.industries.realEstate.hero.title.highlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Never miss a lead again. Automate your client communication, schedule showings instantly, and close more deals with intelligent messaging.
+            {t('seax.industries.realEstate.hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -94,7 +110,7 @@ const RealEstate = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Industry Solution</span>
+              <span>{t('seax.industries.realEstate.hero.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -102,7 +118,7 @@ const RealEstate = () => {
               to={getLocalizedPath('/features')}
               className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
-              View Features
+              {t('seax.industries.realEstate.hero.cta.secondary')}
             </Link>
           </div>
         </div>
@@ -113,10 +129,10 @@ const RealEstate = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Real Estate Challenges We Solve
+              {t('seax.industries.realEstate.challenges.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Common communication challenges faced by real estate professionals
+              {t('seax.industries.realEstate.challenges.subtitle')}
             </p>
           </div>
           
@@ -141,10 +157,10 @@ const RealEstate = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Real Estate Use Cases
+              {t('seax.industries.realEstate.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              How real estate professionals use SeaX to grow their business
+              {t('seax.industries.realEstate.useCases.subtitle')}
             </p>
           </div>
           
@@ -174,28 +190,28 @@ const RealEstate = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Real Estate Results with SeaX
+              {t('seax.industries.realEstate.stats.title')}
             </h2>
             <p className="text-xl text-blue-100">
-              Proven outcomes for real estate professionals
+              {t('seax.industries.realEstate.stats.subtitle')}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">5x</div>
-              <div className="text-blue-100">Faster Lead Response</div>
-              <div className="text-sm text-blue-200 mt-2">From hours to seconds</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.realEstate.stats.items[0].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.realEstate.stats.items[0].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.realEstate.stats.items[0].description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">40%</div>
-              <div className="text-blue-100">More Appointments Booked</div>
-              <div className="text-sm text-blue-200 mt-2">Through automated scheduling</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.realEstate.stats.items[1].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.realEstate.stats.items[1].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.realEstate.stats.items[1].description')}</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">25%</div>
-              <div className="text-blue-100">Increase in Referrals</div>
-              <div className="text-sm text-blue-200 mt-2">Better client relationships</div>
+              <div className="text-4xl font-bold text-white mb-2">{t('seax.industries.realEstate.stats.items[2].value')}</div>
+              <div className="text-blue-100">{t('seax.industries.realEstate.stats.items[2].label')}</div>
+              <div className="text-sm text-blue-200 mt-2">{t('seax.industries.realEstate.stats.items[2].description')}</div>
             </div>
           </div>
         </div>
@@ -205,10 +221,10 @@ const RealEstate = () => {
       <div className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Transform Your Real Estate Business?
+            {t('seax.industries.realEstate.cta.title')}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join thousands of real estate professionals using SeaX to respond faster, book more appointments, and close more deals.
+            {t('seax.industries.realEstate.cta.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -218,7 +234,7 @@ const RealEstate = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
             >
-              <span>Get Started Today</span>
+              <span>{t('seax.industries.realEstate.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -226,7 +242,7 @@ const RealEstate = () => {
               to={getLocalizedPath('/pricing')}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
             >
-              View Pricing
+              {t('seax.industries.realEstate.cta.secondary')}
             </Link>
           </div>
         </div>

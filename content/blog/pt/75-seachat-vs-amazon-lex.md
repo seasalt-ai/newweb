@@ -1,20 +1,16 @@
 ---
 title: "Abandone o roteiro, abrace a conversa: por que atualizar do Amazon Lex para o SeaChat faz todo o sentido"
 metatitle: "SeaChat vs. Amazon Lex"
-date: 2024-03-15 00:22:19-07:00
-modified_date: 2025-07-29T17:35:15Z
+date: 2024-03-15T00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "Por que o Amazon Lex está desatualizado? Descubra o SeaChat - Navegue para longe das praias repetitivas de chatbots com a avançada tecnologia LLM, promovendo conversas envolventes e semelhantes às humanas."
 weight: 1
-tags:
-  - SeaChat
-  - Ferramentas de IA
-  - Grandes Modelos de Linguagem
-  - NLU
+tags: ["SeaChat", "Ferramentas de IA", "Grandes Modelos de Linguagem", "NLU"]
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: /blog/seachat-vs-amazon-lex/
-url: /blog/seachat-vs-amazon-lex/
+canonicalURL: "/blog/seachat-vs-amazon-lex/"
+url: "/blog/seachat-vs-amazon-lex/"
+modified_date: "2025-07-29T17:35:15Z"
 ---
 
 O mundo dos chatbots está evoluindo rapidamente. Embora o [Amazon Lex](https://aws.amazon.com/lex/) tenha sido uma escolha popular para a criação de interfaces de voz e texto, uma nova onda de tecnologia está ganhando o centro do palco: os Grandes Modelos de Linguagem (LLMs). O [SeaChat](https://chat.seasalt.ai/?utm_source=blog), uma plataforma alimentada por LLMs, oferece uma abordagem inovadora para a IA de conversação, deixando para trás os mecanismos baseados em regras como o Lex. É hora de considerar uma atualização para o seu chatbot?

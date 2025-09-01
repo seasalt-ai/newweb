@@ -6,62 +6,62 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { Upload, MessageSquare, BarChart3, ArrowRight, CheckCircle, Smartphone, Phone, Send } from 'lucide-react';
 const HowItWorks = () => {
-  const { i18n: _i18n } = useTranslation();
+  const { t, i18n: _i18n } = useTranslation();
   const currentLanguage = _i18n.language;
 
   const steps = [
     {
       number: '01',
-      title: 'Upload Your Contacts',
-      description: 'Import your contact list from CSV, Excel, or connect your CRM. Our system handles millions of contacts with ease.',
+      title: t('seax.pages.howItWorks.steps.step1.title'),
+      description: t('seax.pages.howItWorks.steps.step1.description'),
       icon: Upload,
       features: [
-        'CSV/Excel import',
-        'CRM integrations',
-        'Data validation',
-        'Duplicate removal',
-        'Segmentation tools'
+        t('seax.pages.howItWorks.steps.step1.features.csvImport'),
+        t('seax.pages.howItWorks.steps.step1.features.crmIntegrations'),
+        t('seax.pages.howItWorks.steps.step1.features.dataValidation'),
+        t('seax.pages.howItWorks.steps.step1.features.duplicateRemoval'),
+        t('seax.pages.howItWorks.steps.step1.features.segmentationTools')
       ],
-      time: '2 minutes'
+      time: t('seax.pages.howItWorks.steps.step1.time')
     },
     {
       number: '02',
-      title: 'Choose Delivery Method',
-      description: 'Select how you want to reach your audience via SMS, WhatsApp, or Phone Calls.',
+      title: t('seax.pages.howItWorks.steps.step2.title'),
+      description: t('seax.pages.howItWorks.steps.step2.description'),
       icon: Smartphone,
       features: [
-        'SMS delivery',
-        'WhatsApp messaging',
-        'Phone call integration'
+        t('seax.pages.howItWorks.steps.step2.features.smsDelivery'),
+        t('seax.pages.howItWorks.steps.step2.features.whatsappMessaging'),
+        t('seax.pages.howItWorks.steps.step2.features.phoneCallIntegration')
       ],
-      time: '1 minute'
+      time: t('seax.pages.howItWorks.steps.step2.time')
     },
     {
       number: '03',
-      title: 'Create Your Campaign',
-      description: 'Design your message and set your campaign parameters.',
+      title: t('seax.pages.howItWorks.steps.step3.title'),
+      description: t('seax.pages.howItWorks.steps.step3.description'),
       icon: MessageSquare,
       features: [
-        'Message templates',
-        'A/B testing',
-        'Scheduling options',
-        'Personalization'
+        t('seax.pages.howItWorks.steps.step3.features.messageTemplates'),
+        t('seax.pages.howItWorks.steps.step3.features.abTesting'),
+        t('seax.pages.howItWorks.steps.step3.features.schedulingOptions'),
+        t('seax.pages.howItWorks.steps.step3.features.personalization')
       ],
-      time: '5 minutes'
+      time: t('seax.pages.howItWorks.steps.step3.time')
     },
     {
       number: '04',
-      title: 'Launch & Analyze',
-      description: 'Deploy your campaign to millions instantly and track real-time performance with detailed analytics.',
+      title: t('seax.pages.howItWorks.steps.step4.title'),
+      description: t('seax.pages.howItWorks.steps.step4.description'),
       icon: BarChart3,
       features: [
-        'Instant deployment',
-        'Real-time tracking',
-        'Delivery reports',
-        'Response analytics',
-        'ROI measurement'
+        t('seax.pages.howItWorks.steps.step4.features.instantDeployment'),
+        t('seax.pages.howItWorks.steps.step4.features.realTimeTracking'),
+        t('seax.pages.howItWorks.steps.step4.features.deliveryReports'),
+        t('seax.pages.howItWorks.steps.step4.features.responseAnalytics'),
+        t('seax.pages.howItWorks.steps.step4.features.roiMeasurement')
       ],
-      time: '1 click'
+      time: t('seax.pages.howItWorks.steps.step4.time')
     }
   ];
 
@@ -75,8 +75,8 @@ const HowItWorks = () => {
               <span className="text-white font-bold text-sm">✓</span>
             </div>
             <div>
-              <div className="font-semibold text-gray-900">contacts.csv</div>
-              <div className="text-sm text-gray-600">10,000 contacts</div>
+              <div className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.contacts.fileName')}</div>
+              <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.contacts.fileSize')}</div>
             </div>
           </div>
         </div>
@@ -84,14 +84,14 @@ const HowItWorks = () => {
           <div className="flex items-center space-x-3">
             <Upload className="w-8 h-8 text-gray-400" />
             <div>
-              <div className="font-semibold text-gray-700">Drop files here</div>
-              <div className="text-sm text-gray-500">or browse</div>
+              <div className="font-semibold text-gray-700">{t('seax.pages.howItWorks.illustrations.contacts.dropFiles')}</div>
+              <div className="text-sm text-gray-500">{t('seax.pages.howItWorks.illustrations.contacts.browse')}</div>
             </div>
           </div>
         </div>
         <div className="text-center">
           <div className="text-2xl font-bold text-blue-600">100K+</div>
-          <div className="text-sm text-gray-600">contacts imported</div>
+          <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.contacts.imported')}</div>
         </div>
       </div>
     </div>
@@ -102,18 +102,18 @@ const HowItWorks = () => {
       <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-green-200 text-center">
           <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-2" />
-          <div className="font-semibold text-gray-900">SMS</div>
-          <div className="text-sm text-gray-600">98% open rate</div>
+          <div className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.channels.sms')}</div>
+          <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.channels.smsRate')}</div>
         </div>
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-teal-200 text-center">
           <Send className="w-8 h-8 text-teal-600 mx-auto mb-2" />
-          <div className="font-semibold text-gray-900">WhatsApp</div>
-          <div className="text-sm text-gray-600">85% engagement</div>
+          <div className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.channels.whatsapp')}</div>
+          <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.channels.whatsappRate')}</div>
         </div>
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200 text-center">
           <Phone className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-          <div className="font-semibold text-gray-900">Voice</div>
-          <div className="text-sm text-gray-600">Real-time calls</div>
+          <div className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.channels.voice')}</div>
+          <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.channels.voiceRate')}</div>
         </div>
       </div>
     </div>
@@ -124,21 +124,21 @@ const HowItWorks = () => {
       <div className="space-y-4 w-full max-w-sm">
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-purple-200">
           <div className="flex items-center justify-between mb-3">
-            <span className="font-semibold text-gray-900">Campaign Draft</span>
-            <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">Draft</span>
+            <span className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.campaign.draft')}</span>
+            <span className="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">{t('seax.pages.howItWorks.illustrations.campaign.status.draft')}</span>
           </div>
           <div className="bg-gray-50 rounded p-3 mb-3">
-            <div className="text-sm text-gray-700">"Hi John, Check out our new product launch..."</div>
+            <div className="text-sm text-gray-700">{t('seax.pages.howItWorks.illustrations.campaign.messagePreview')}</div>
           </div>
           <div className="flex space-x-2">
-            <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">Preview</button>
-            <button className="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">A/B Test</button>
+            <button className="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">{t('seax.pages.howItWorks.illustrations.campaign.preview')}</button>
+            <button className="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">{t('seax.pages.howItWorks.illustrations.campaign.abTest')}</button>
           </div>
         </div>
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-pink-200">
           <div className="flex items-center justify-between">
-            <span className="font-semibold text-gray-900">Schedule</span>
-            <span className="text-sm text-pink-600">Now</span>
+            <span className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.campaign.schedule')}</span>
+            <span className="text-sm text-pink-600">{t('seax.pages.howItWorks.illustrations.campaign.scheduleNow')}</span>
           </div>
         </div>
       </div>
@@ -150,24 +150,24 @@ const HowItWorks = () => {
       <div className="space-y-4 w-full max-w-sm">
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-orange-200">
           <div className="flex items-center justify-between mb-3">
-            <span className="font-semibold text-gray-900">Campaign Status</span>
-            <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">Live</span>
+            <span className="font-semibold text-gray-900">{t('seax.pages.howItWorks.illustrations.analytics.campaignStatus')}</span>
+            <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">{t('seax.pages.howItWorks.illustrations.analytics.status.live')}</span>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center">
               <div className="text-2xl font-bold text-orange-600">847K</div>
-              <div className="text-sm text-gray-600">Delivered</div>
+              <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.analytics.delivered')}</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-green-600">12.3%</div>
-              <div className="text-sm text-gray-600">Response</div>
+              <div className="text-sm text-gray-600">{t('seax.pages.howItWorks.illustrations.analytics.response')}</div>
             </div>
           </div>
         </div>
         <div className="bg-white rounded-lg p-4 shadow-sm border-2 border-red-200">
           <div className="h-20 bg-gradient-to-r from-orange-200 to-red-200 rounded relative">
             <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-orange-400 to-red-400 rounded-b"></div>
-            <div className="absolute top-2 left-2 text-xs font-medium text-gray-700">Real-time Analytics</div>
+            <div className="absolute top-2 left-2 text-xs font-medium text-gray-700">{t('seax.pages.howItWorks.illustrations.analytics.realTimeAnalytics')}</div>
           </div>
         </div>
       </div>
@@ -179,8 +179,8 @@ const HowItWorks = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="How SeaX Works - Launch Campaigns to Millions in 3 Simple Steps"
-        description="Learn how to launch mass SMS, WhatsApp, and voice campaigns to millions of people in just 3 simple steps with SeaX."
+        title={t('seax.pages.howItWorks.seo.title')}
+        description={t('seax.pages.howItWorks.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -190,26 +190,25 @@ const HowItWorks = () => {
       <div className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Launch a Campaign to
-            <span className="text-blue-600 block">Millions in 4 Simple Steps</span>
+            {t('seax.pages.howItWorks.hero.title.line1')}
+            <span className="text-blue-600 block">{t('seax.pages.howItWorks.hero.title.line2')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Whether you need to reach 1,000 or 1,000,000 people, SeaX handles it seamlessly. 
-            No technical expertise required.
+            {t('seax.pages.howItWorks.hero.subtitle')}
           </p>
           
           <div className="flex justify-center items-center space-x-8 text-sm text-gray-600">
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-5 h-5 text-green-500" />
-              <span>Setup in 10 minutes</span>
+              <span>{t('seax.pages.howItWorks.hero.features.setup')}</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-5 h-5 text-green-500" />
-              <span>No coding required</span>
+              <span>{t('seax.pages.howItWorks.hero.features.noCoding')}</span>
             </div>
             <div className="flex items-center space-x-2">
               <CheckCircle className="w-5 h-5 text-green-500" />
-              <span>Instant deployment</span>
+              <span>{t('seax.pages.howItWorks.hero.features.instantDeploy')}</span>
             </div>
           </div>
         </div>
@@ -255,7 +254,7 @@ const HowItWorks = () => {
                     <div className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                       <span className="text-sm font-medium text-gray-700">
-                        Time required: {step.time}
+                        {t('seax.pages.howItWorks.ui.timeRequired', { time: step.time })}
                       </span>
                     </div>
                   </div>
@@ -276,25 +275,25 @@ const HowItWorks = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              The Results Speak for Themselves
+              {t('seax.pages.howItWorks.results.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Join thousands of businesses achieving massive scale with SeaX
+              {t('seax.pages.howItWorks.results.subtitle')}
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm text-center">
               <div className="text-3xl font-bold text-blue-600 mb-2">10M+</div>
-              <div className="text-gray-600">Messages delivered daily</div>
+              <div className="text-gray-600">{t('seax.pages.howItWorks.results.stats.messagesDaily')}</div>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm text-center">
               <div className="text-3xl font-bold text-green-600 mb-2">85%</div>
-              <div className="text-gray-600">Average open rate</div>
+              <div className="text-gray-600">{t('seax.pages.howItWorks.results.stats.openRate')}</div>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm text-center">
               <div className="text-3xl font-bold text-purple-600 mb-2">400%</div>
-              <div className="text-gray-600">Average ROI</div>
+              <div className="text-gray-600">{t('seax.pages.howItWorks.results.stats.roi')}</div>
             </div>
           </div>
         </div>
@@ -304,10 +303,10 @@ const HowItWorks = () => {
       <div className="bg-blue-600 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Launch Your First Campaign?
+            {t('seax.pages.howItWorks.cta.title')}
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of businesses reaching millions with SeaX
+            {t('seax.pages.howItWorks.cta.subtitle')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -317,7 +316,7 @@ const HowItWorks = () => {
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Sign Up</span>
+              <span>{t('seax.pages.howItWorks.cta.signUp')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
@@ -327,7 +326,7 @@ const HowItWorks = () => {
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
-              Book a Demo
+              {t('seax.pages.howItWorks.cta.bookDemo')}
             </a>
           </div>
         </div>

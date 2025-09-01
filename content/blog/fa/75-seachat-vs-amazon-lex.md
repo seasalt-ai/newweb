@@ -1,20 +1,16 @@
 ---
 title: "اسکریپت را رها کنید، گفتگو را در آغوش بگیرید: چرا ارتقا از Amazon Lex به SeaChat کاملاً منطقی است"
 metatitle: "SeaChat در مقابل Amazon Lex"
-date: 2024-03-15 00:22:19-07:00
-modified_date: 2025-07-29T17:35:15Z
+date: 2024-03-15T00:22:19-07:00
 draft: false
 author: Xuchen Yao
 description: "چرا Amazon Lex قدیمی شده است؟ SeaChat را کشف کنید - با فناوری پیشرفته LLM از سواحل تکراری چت بات دور شوید و مکالمات جذاب و شبیه انسان را تقویت کنید."
 weight: 1
-tags:
-  - SeaChat
-  - ابزارهای هوش مصنوعی
-  - مدل های زبان بزرگ
-  - NLU
+tags: ["SeaChat", "ابزارهای هوش مصنوعی", "مدل های زبان بزرگ", "NLU"]
 image: /images/blog/75-SeaChat-vs-Amazon-Lex/blog-banner.png
-canonicalURL: /blog/seachat-vs-amazon-lex/
-url: /blog/seachat-vs-amazon-lex/
+canonicalURL: "/blog/seachat-vs-amazon-lex/"
+url: "/blog/seachat-vs-amazon-lex/"
+modified_date: "2025-07-29T17:35:15Z"
 ---
 
 دنیای چت بات ها به سرعت در حال تحول است. در حالی که [Amazon Lex](https://aws.amazon.com/lex/) یک انتخاب محبوب برای ساخت رابط های صوتی و متنی بوده است، موج جدیدی از فناوری در مرکز صحنه قرار گرفته است: مدل های زبان بزرگ (LLM). [SeaChat](https://chat.seasalt.ai/?utm_source=blog)، پلتفرمی که توسط LLM ها طراحی شده است، رویکردی پیشگامانه به هوش مصنوعی مکالمه ای ارائه می دهد و موتورهای مبتنی بر قانون مانند Lex را پشت سر می گذارد. آیا زمان آن رسیده است که برای چت بات خود یک ارتقا را در نظر بگیرید؟

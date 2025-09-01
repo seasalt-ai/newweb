@@ -6,7 +6,7 @@ import MassCommunicationFlow from './MassCommunicationFlow';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const Hero = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [, setIsVideoPlaying] = useState(false);
   const [messagesSent, setMessagesSent] = useState(2456789);
   const [delivered, setDelivered] = useState(2389654);
@@ -40,7 +40,7 @@ const Hero = () => {
                 <div className="w-6 h-6 bg-purple-500 rounded-full border-2 border-white"></div>
               </div>
               <span className="text-sm font-medium text-gray-700">
-                Trusted by 10,000+ businesses
+                {t('seax.hero.badge')}
               </span>
             </div>
 
@@ -54,30 +54,29 @@ const Hero = () => {
                 color: 'white !important'
               }}
             >
-              <span className="block" style={{ fontSize: 'inherit !important' }}>Reach</span>
-              <span className="block text-blue-400" style={{ fontSize: 'inherit !important' }}>Millions.</span>
-              <span className="block" style={{ fontSize: 'inherit !important' }}>Instantly.</span>
+              <span className="block" style={{ fontSize: 'inherit !important' }}>{t('seax.hero.headline.reach')}</span>
+              <span className="block text-blue-400" style={{ fontSize: 'inherit !important' }}>{t('seax.hero.headline.millions')}</span>
+              <span className="block" style={{ fontSize: 'inherit !important' }}>{t('seax.hero.headline.instantly')}</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0">
-              The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. 
-              Fill your pipeline, drive revenue, and scale your business with powerful outreach.
+              {t('seax.hero.subtitle')}
             </p>
 
             {/* Key benefits */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10 text-sm">
               <div className="flex items-center space-x-2">
                 <MessageCircle className="w-5 h-5 text-blue-400" />
-                <span className="font-medium text-gray-300">10M+ Messages Daily</span>
+                <span className="font-medium text-gray-300">{t('seax.hero.benefits.messages')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-green-400" />
-                <span className="font-medium text-gray-300">500K+ Calls Per Hour</span>
+                <span className="font-medium text-gray-300">{t('seax.hero.benefits.calls')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-5 h-5 text-purple-400" />
-                <span className="font-medium text-gray-300">99.9% Uptime</span>
+                <span className="font-medium text-gray-300">{t('seax.hero.benefits.uptime')}</span>
               </div>
             </div>
 
@@ -87,7 +86,7 @@ const Hero = () => {
                 href={getMeetingUrl(i18n.language)}
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
               >
-                <span>Book a Demo</span>
+                <span>{t('seax.hero.cta.bookDemo')}</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
               
@@ -96,7 +95,7 @@ const Hero = () => {
                 className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl border"
               >
                 <Play className="w-5 h-5" />
-                <span>Sign Up</span>
+                <span>{t('seax.hero.cta.signUp')}</span>
               </a>
             </div>
 
@@ -105,7 +104,7 @@ const Hero = () => {
               <div className="text-center mb-4">
                 <div className="flex items-center justify-center space-x-2 mb-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium text-gray-300">Live Activity</span>
+                  <span className="text-sm font-medium text-gray-300">{t('seax.hero.liveActivity')}</span>
                 </div>
               </div>
               
@@ -120,7 +119,7 @@ const Hero = () => {
                   >
                     {messagesSent.toLocaleString()}
                   </motion.div>
-                  <div className="text-xs text-gray-400">Messages Sent</div>
+                  <div className="text-xs text-gray-400">{t('seax.hero.stats.sent')}</div>
                 </div>
                 
                 <div className="text-center">
@@ -133,7 +132,7 @@ const Hero = () => {
                   >
                     {delivered.toLocaleString()}
                   </motion.div>
-                  <div className="text-xs text-gray-400">Delivered</div>
+                  <div className="text-xs text-gray-400">{t('seax.hero.stats.delivered')}</div>
                 </div>
                 
                 <div className="text-center">
@@ -146,7 +145,7 @@ const Hero = () => {
                   >
                     {activeNow.toLocaleString()}
                   </motion.div>
-                  <div className="text-xs text-gray-400">Active Now</div>
+                  <div className="text-xs text-gray-400">{t('seax.hero.stats.active')}</div>
                 </div>
               </div>
             </div>
@@ -157,10 +156,10 @@ const Hero = () => {
             {/* Animation Title */}
             <div className="text-center">
               <h3 className="text-2xl font-semibold text-white mb-2">
-                Central Marketing Hub
+                {t('seax.hero.visual.title')}
               </h3>
               <p className="text-gray-300 text-base">
-                Real-time reach to millions
+                {t('seax.hero.visual.subtitle')}
               </p>
             </div>
             

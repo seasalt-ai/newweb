@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface StatItem {
   id: string;
@@ -10,10 +11,12 @@ interface StatItem {
 }
 
 const StatsCounter = () => {
+  const { t } = useTranslation();
+  
   const [stats, setStats] = useState<StatItem[]>([
     {
       id: 'messages',
-      label: 'Messages Sent Daily',
+      label: t('statsCounter.stats.messages.label'),
       value: '10,000,000',
       animatedValue: 0,
       suffix: 'M+',
@@ -21,7 +24,7 @@ const StatsCounter = () => {
     },
     {
       id: 'calls',
-      label: 'Calls Per Hour',
+      label: t('statsCounter.stats.calls.label'),
       value: '500,000',
       animatedValue: 0,
       suffix: 'K+',
@@ -29,7 +32,7 @@ const StatsCounter = () => {
     },
     {
       id: 'uptime',
-      label: 'Uptime Guarantee',
+      label: t('statsCounter.stats.uptime.label'),
       value: '99.9',
       animatedValue: 0,
       suffix: '%',
@@ -37,7 +40,7 @@ const StatsCounter = () => {
     },
     {
       id: 'countries',
-      label: 'Countries Supported',
+      label: t('statsCounter.stats.countries.label'),
       value: '200',
       animatedValue: 0,
       suffix: '+',
@@ -45,7 +48,7 @@ const StatsCounter = () => {
     },
     {
       id: 'roi',
-      label: 'Average ROI',
+      label: t('statsCounter.stats.roi.label'),
       value: '400',
       animatedValue: 0,
       suffix: '%',
@@ -105,10 +108,10 @@ const StatsCounter = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Powering High-Volume Communication
+            {t('statsCounter.section.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join thousands of businesses that trust SeaX to deliver their most important messages at scale
+            {t('statsCounter.section.subtitle')}
           </p>
         </div>
 
@@ -118,10 +121,12 @@ const StatsCounter = () => {
               <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                 <div className={`text-4xl font-bold ${stat.color} mb-2`}>
                   {formatValue(stat)}
-                  <span className="text-2xl">{stat.suffix}</span>
+                  <span className="text-2xl">
+                    {t(`statsCounter.stats.${stat.id}.suffix`)}
+                  </span>
                 </div>
                 <div className="text-sm text-gray-600 font-medium">
-                  {stat.label}
+                  {t(`statsCounter.stats.${stat.id}.label`)}
                 </div>
               </div>
             </div>
@@ -138,43 +143,43 @@ const StatsCounter = () => {
                 <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               </div>
-              <span className="text-sm font-medium text-gray-600">SeaX Dashboard</span>
+              <span className="text-sm font-medium text-gray-600">{t('statsCounter.dashboard.title')}</span>
             </div>
 
             {/* Campaign stats */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="bg-blue-50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-blue-600 mb-1">2.4M</div>
-                <div className="text-sm text-gray-600">Messages Sent</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">{t('statsCounter.dashboard.demo.messagesSent')}</div>
+                <div className="text-sm text-gray-600">{t('statsCounter.dashboard.messagesSent')}</div>
               </div>
               <div className="bg-green-50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-green-600 mb-1">85%</div>
-                <div className="text-sm text-gray-600">Delivery Rate</div>
+                <div className="text-2xl font-bold text-green-600 mb-1">{t('statsCounter.dashboard.demo.deliveryRate')}</div>
+                <div className="text-sm text-gray-600">{t('statsCounter.dashboard.deliveryRate')}</div>
               </div>
             </div>
 
             {/* Recent activity */}
             <div className="space-y-3">
-              <div className="text-sm font-medium text-gray-700 mb-2">Recent Activity</div>
+              <div className="text-sm font-medium text-gray-700 mb-2">{t('statsCounter.dashboard.recentActivity')}</div>
               <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                 <div className="flex-1 text-sm">
-                  <div className="font-medium">Flash Sale Campaign</div>
-                  <div className="text-gray-500">50,000 SMS sent • 2 min ago</div>
+                  <div className="font-medium">{t('statsCounter.activity.flashSale.title')}</div>
+                  <div className="text-gray-500">{t('statsCounter.activity.flashSale.detail')}</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <div className="flex-1 text-sm">
-                  <div className="font-medium">Lead Follow-up</div>
-                  <div className="text-gray-500">12,000 calls completed • 5 min ago</div>
+                  <div className="font-medium">{t('statsCounter.activity.leadFollowup.title')}</div>
+                  <div className="text-gray-500">{t('statsCounter.activity.leadFollowup.detail')}</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                 <div className="flex-1 text-sm">
-                  <div className="font-medium">WhatsApp Campaign</div>
-                  <div className="text-gray-500">25,000 messages queued • 8 min ago</div>
+                  <div className="font-medium">{t('statsCounter.activity.whatsapp.title')}</div>
+                  <div className="text-gray-500">{t('statsCounter.activity.whatsapp.detail')}</div>
                 </div>
               </div>
             </div>
@@ -182,7 +187,7 @@ const StatsCounter = () => {
             {/* Live indicator */}
             <div className="mt-6 flex items-center justify-center space-x-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-sm text-gray-600">Live campaigns running</span>
+              <span className="text-sm text-gray-600">{t('statsCounter.status.liveRunning')}</span>
             </div>
           </div>
         </div>
@@ -191,7 +196,7 @@ const StatsCounter = () => {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium">Live activity: Messages being sent right now</span>
+            <span className="text-sm font-medium">{t('statsCounter.status.liveActivity')}</span>
           </div>
         </div>
       </div>

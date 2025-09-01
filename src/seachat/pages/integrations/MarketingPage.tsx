@@ -7,6 +7,14 @@ const MarketingPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
+  // Helper function to get the correct SeaChat Wiki URL based on language
+  const getSeaChatWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+  };
+  
   const platforms = [
     {
       name: t('seachat.integrations.marketing.platforms.activecampaign.name', 'ActiveCampaign'),
@@ -423,7 +431,7 @@ const MarketingPage = () => {
               {t('seachat.integrations.marketing.ctaConnectButton', 'Connect Marketing Tools')}
             </a>
             <a
-              href="http://wiki.seasalt.ai/seachat/"
+              href={getSeaChatWikiUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"

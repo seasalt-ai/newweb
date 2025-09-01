@@ -9,6 +9,14 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
+  // Helper function to get the correct Wiki URL based on language
+  const getWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/`;
+  };
+  
   // Mobile collapsible state
   const [mobileCollapsed, setMobileCollapsed] = useState({
     platform: true,
@@ -63,7 +71,7 @@ const Footer = () => {
     { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
     { name: t('seavoice.footer.company.pricing'), href: `/${currentLanguage}/seavoice/pricing`, icon: DollarSign },
     { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
-    { name: t('seavoice.footer.company.productWiki'), href: 'https://wiki.seasalt.ai', icon: Book },
+    { name: t('seavoice.footer.company.productWiki'), href: getWikiUrl(), icon: Book },
     { name: t('seavoice.footer.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
     { name: t('footer.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
     { name: t('footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 },

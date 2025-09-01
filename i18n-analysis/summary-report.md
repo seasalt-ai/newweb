@@ -1,20 +1,54 @@
 # I18n Translation Coverage Analysis Report
 
+<<<<<<< HEAD
+Generated: 2025-08-31T15:33:56.290Z
+=======
 Generated: 2025-08-30T22:50:58.093Z
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
+<<<<<<< HEAD
+- **Base Language (en) Keys**: 7519
+- **Components Analyzed**: 209
+- **Translation Coverage**: 97.46%
+- **Missing Keys**: 180
+- **Hardcoded Strings Found**: 2265
+=======
 - **Base Language (en) Keys**: 8518
 - **Components Analyzed**: 206
 - **Translation Coverage**: 98.77%
 - **Missing Keys**: 97
 - **Hardcoded Strings Found**: 1957
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
+<<<<<<< HEAD
+| ar | 909 | 11.76% | ❌ Incomplete |
+| de | 887 | 11.46% | ❌ Incomplete |
+| en | 7519 | 100.00% | ✅ Good |
+| es | 835 | 10.77% | ❌ Incomplete |
+| fa | 755 | 9.75% | ❌ Incomplete |
+| fil | 739 | 9.52% | ❌ Incomplete |
+| fr | 739 | 9.52% | ❌ Incomplete |
+| hi | 690 | 8.87% | ❌ Incomplete |
+| id | 690 | 8.87% | ❌ Incomplete |
+| ja | 690 | 8.88% | ❌ Incomplete |
+| ko | 690 | 8.87% | ❌ Incomplete |
+| ms | 690 | 8.87% | ❌ Incomplete |
+| pl | 676 | 8.68% | ❌ Incomplete |
+| pt | 676 | 8.68% | ❌ Incomplete |
+| ru | 676 | 8.68% | ❌ Incomplete |
+| ta | 739 | 9.52% | ❌ Incomplete |
+| th | 739 | 9.52% | ❌ Incomplete |
+| vi | 739 | 9.52% | ❌ Incomplete |
+| zh-CN | 802 | 10.36% | ❌ Incomplete |
+| zh-TW | 7617 | 99.97% | ✅ Good |
+=======
 | ar | 909 | 10.39% | ❌ Incomplete |
 | de | 887 | 10.13% | ❌ Incomplete |
 | en | 8518 | 100.00% | ✅ Good |
@@ -35,17 +69,27 @@ Generated: 2025-08-30T22:50:58.093Z
 | vi | 739 | 8.39% | ❌ Incomplete |
 | zh-CN | 802 | 9.15% | ❌ Incomplete |
 | zh-TW | 8521 | 99.61% | ✅ Good |
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
+<<<<<<< HEAD
+**Description**: 180 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
+
+### 2. Replace hardcoded strings with translation keys
+**Category**: Hardcoded Strings
+**Description**: Found 2265 hardcoded strings that should be internationalized
+=======
 **Description**: 97 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: hero.title, industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
 **Description**: Found 1957 hardcoded strings that should be internationalized
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -106,6 +150,11 @@ company.timeline.list.2.event
 company.timeline.list.3.event
 company.timeline.list.4.event
 pricing.legacy.enterprise.period
+<<<<<<< HEAD
+channels.sms.hero.title.prefix
+channels.sms.hero.title.highlight
+=======
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 seachat.features.voiceAgents.featuresList
 seachat.integrations.calendar.customerRequest
 seachat.integrations.calendar.aiResponse1
@@ -113,6 +162,129 @@ seachat.integrations.calendar.aiResponse2
 seachat.solutions.realEstate.integrations
 seachat.solutions.saas.integrations
 seachat.solutions.travel.integrations
+<<<<<<< HEAD
+seax.channelTemplate.pricing.title
+seax.channelTemplate.pricing.subtitle
+seax.channelTemplate.pricing.setup
+seax.channelTemplate.pricing.monthly
+seax.channelTemplate.pricing.perMessage
+seax.realTimeDashboard.cards.deliveryValue
+seax.realTimeDashboard.cards.hourlyValue
+seax.features.core.bulkMessaging.benefits
+seax.features.core.aiFollowup.benefits
+seax.features.core.analytics.benefits
+seax.features.core.compliance.benefits
+seax.features.core.collaboration.benefits
+seax.features.core.scale.benefits
+seax.resources.categories.gettingStarted.title
+seax.resources.categories.gettingStarted.description
+seax.resources.categories.gettingStarted.quickStart.title
+seax.resources.categories.gettingStarted.quickStart.description
+seax.resources.categories.gettingStarted.quickStart.type
+seax.resources.categories.gettingStarted.quickStart.readTime
+seax.resources.categories.gettingStarted.bestPractices.title
+seax.resources.categories.gettingStarted.bestPractices.description
+seax.resources.categories.gettingStarted.bestPractices.type
+seax.resources.categories.gettingStarted.bestPractices.readTime
+seax.resources.categories.gettingStarted.apiIntegration.title
+seax.resources.categories.gettingStarted.apiIntegration.description
+seax.resources.categories.gettingStarted.apiIntegration.type
+seax.resources.categories.gettingStarted.apiIntegration.readTime
+seax.resources.categories.videos.title
+seax.resources.categories.videos.description
+seax.resources.categories.videos.firstCampaign.title
+seax.resources.categories.videos.firstCampaign.description
+seax.resources.categories.videos.firstCampaign.type
+seax.resources.categories.videos.firstCampaign.duration
+seax.resources.categories.videos.targeting.title
+seax.resources.categories.videos.targeting.description
+seax.resources.categories.videos.targeting.type
+seax.resources.categories.videos.targeting.duration
+seax.resources.categories.videos.analytics.title
+seax.resources.categories.videos.analytics.description
+seax.resources.categories.videos.analytics.type
+seax.resources.categories.videos.analytics.duration
+seax.resources.categories.documentation.title
+seax.resources.categories.documentation.description
+seax.resources.categories.documentation.apiReference.title
+seax.resources.categories.documentation.apiReference.description
+seax.resources.categories.documentation.apiReference.type
+seax.resources.categories.documentation.apiReference.badge
+seax.resources.categories.documentation.webhook.title
+seax.resources.categories.documentation.webhook.description
+seax.resources.categories.documentation.webhook.type
+seax.resources.categories.documentation.webhook.badge
+seax.resources.categories.documentation.sdk.title
+seax.resources.categories.documentation.sdk.description
+seax.resources.categories.documentation.sdk.type
+seax.resources.categories.documentation.sdk.badge
+seax.resources.categories.caseStudies.title
+seax.resources.categories.caseStudies.description
+seax.resources.categories.caseStudies.ecommerce.title
+seax.resources.categories.caseStudies.ecommerce.description
+seax.resources.categories.caseStudies.ecommerce.type
+seax.resources.categories.caseStudies.ecommerce.industry
+seax.resources.categories.caseStudies.healthcare.title
+seax.resources.categories.caseStudies.healthcare.description
+seax.resources.categories.caseStudies.healthcare.type
+seax.resources.categories.caseStudies.healthcare.industry
+seax.resources.categories.caseStudies.fintech.title
+seax.resources.categories.caseStudies.fintech.description
+seax.resources.categories.caseStudies.fintech.type
+seax.resources.categories.caseStudies.fintech.industry
+seax.resources.downloads.playbook.title
+seax.resources.downloads.playbook.description
+seax.resources.downloads.playbook.format
+seax.resources.downloads.playbook.size
+seax.resources.downloads.compliance.title
+seax.resources.downloads.compliance.description
+seax.resources.downloads.compliance.format
+seax.resources.downloads.compliance.size
+seax.resources.downloads.templates.title
+seax.resources.downloads.templates.description
+seax.resources.downloads.templates.format
+seax.resources.downloads.templates.size
+seax.resources.seo.title
+seax.resources.seo.description
+seax.resources.hero.title
+seax.resources.hero.titleHighlight
+seax.resources.hero.description
+seax.resources.hero.getSupport
+seax.resources.hero.browseApiDocs
+seax.resources.explore.title
+seax.resources.explore.subtitle
+seax.resources.common.readMore
+seax.resources.downloads.title
+seax.resources.downloads.subtitle
+seax.resources.downloads.download
+seax.resources.support.title
+seax.resources.support.subtitle
+seax.resources.support.liveChat.title
+seax.resources.support.liveChat.description
+seax.resources.support.liveChat.action
+seax.resources.support.knowledgeBase.title
+seax.resources.support.knowledgeBase.description
+seax.resources.support.knowledgeBase.action
+seax.resources.support.community.title
+seax.resources.support.community.description
+seax.resources.support.community.action
+seax.resources.cta.title
+seax.resources.cta.subtitle
+seax.resources.cta.signUp
+seax.resources.cta.viewPricing
+seax.channels.smsLocal.features.items
+seax.channels.smsLocal.useCases.items
+seax.channels.smsLocal.pricing
+seax.channels.smsShortCode.features.items
+seax.channels.smsShortCode.useCases.items
+seax.channels.smsShortCode.pricing
+seax.channels.smsTollFree.features.items
+seax.channels.smsTollFree.useCases.items
+seax.channels.smsTollFree.pricing
+seax.channels.voice.features.items
+seax.channels.voice.useCases.items
+seax.channels.voice.pricing
+=======
 seavoice.pricing.plans.custom.period
 seavoice.home.useCases.title
 seavoice.home.howItWorks.title
@@ -152,13 +324,18 @@ seavoice.pages.solutions.outbound.proactiveSupport.impact.description
 seavoice.pages.solutions.outbound.proactiveSupport.cta.description
 seavoice.pages.solutions.outbound.proactiveSupport.cta.primaryButton
 seavoice.pages.solutions.outbound.proactiveSupport.cta.secondaryButton
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 ```
 
 
 ## Hardcoded Strings Summary
 
 
+<<<<<<< HEAD
+Found 2265 potential hardcoded strings across components:
+=======
 Found 1957 potential hardcoded strings across components:
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -201,7 +378,11 @@ Found 1957 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
+<<<<<<< HEAD
+... and 2255 more. See hardcoded-strings.json for complete list.
+=======
 ... and 1947 more. See hardcoded-strings.json for complete list.
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 
 ## Recommendations for Phase 2.1
@@ -209,13 +390,22 @@ Found 1957 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
+<<<<<<< HEAD
+**Description**: 180 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
+=======
 **Description**: 97 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: hero.title, industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3...
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
+<<<<<<< HEAD
+**Description**: Found 2265 hardcoded strings that should be internationalized
+=======
 **Description**: Found 1957 hardcoded strings that should be internationalized
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

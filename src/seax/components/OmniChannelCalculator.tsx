@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 
 const OmniChannelCalculator = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
   const [users, setUsers] = useState(1);
   const [localNumbers, setLocalNumbers] = useState(1);
@@ -93,20 +93,15 @@ const OmniChannelCalculator = () => {
       <div className="text-center mb-8">
         <div className="flex items-center justify-center space-x-2 mb-4">
           <Calculator className="w-8 h-8 text-blue-600" />
-          <h2 className="text-3xl font-bold text-gray-900">Omni-channel Plan Calculator</h2>
+          <h2 className="text-3xl font-bold text-gray-900">{t('seax.pricing.omniCalculator.title')}</h2>
         </div>
-        <p className="text-lg text-gray-600">
-          Using USA/Canada as an example. For other countries, please{' '}
-          <a href="mailto:seax@seasalt.ai" className="text-blue-600 hover:text-blue-800 underline">
-            contact us
-          </a>
-        </p>
+        <p className="text-lg text-gray-600">{t('seax.pricing.omniCalculator.subtitle')}</p>
       </div>
 
       {/* Billing Period Toggle */}
       <div className="flex items-center justify-center mb-8">
         <span className={`mr-3 ${billingPeriod === 'monthly' ? 'text-gray-900 font-medium' : 'text-gray-500'}`}>
-          Monthly
+          {t('seax.pricing.omniCalculator.billing.monthly')}
         </span>
         <button
           onClick={() => setBillingPeriod(billingPeriod === 'monthly' ? 'yearly' : 'monthly')}
@@ -119,20 +114,20 @@ const OmniChannelCalculator = () => {
           />
         </button>
         <span className={`ml-3 ${billingPeriod === 'yearly' ? 'text-gray-900 font-medium' : 'text-gray-500'}`}>
-          Yearly <span className="text-green-500 font-semibold">(Save 2 Months)</span>
+          {t('seax.pricing.omniCalculator.billing.yearly')} <span className="text-green-500 font-semibold">{t('seax.pricing.omniCalculator.billing.save')}</span>
         </span>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Configuration Panel */}
         <div className="space-y-6">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">Configure Your Plan</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seax.pricing.omniCalculator.configureTitle')}</h3>
           
           {/* Users */}
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <Users className="w-5 h-5 text-blue-600" />
-              <label className="text-sm font-medium text-gray-700">Number of Users</label>
+              <label className="text-sm font-medium text-gray-700">{t('seax.pricing.omniCalculator.users.label')}</label>
             </div>
             <div className="flex items-center space-x-4">
               <button
@@ -150,8 +145,10 @@ const OmniChannelCalculator = () => {
               </button>
             </div>
             <p className="text-sm text-gray-500">
-              First user: {billingPeriod === 'monthly' ? '$99/month' : '$999/year'} | 
-              Additional: {billingPeriod === 'monthly' ? '$49/month' : '$499/year'}
+              {t('seax.pricing.omniCalculator.users.pricing', {
+                first: billingPeriod === 'monthly' ? '$99/month' : '$999/year',
+                additional: billingPeriod === 'monthly' ? '$49/month' : '$499/year'
+              })}
             </p>
           </div>
 
@@ -159,13 +156,13 @@ const OmniChannelCalculator = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5 text-green-600" />
-              <label className="text-sm font-medium text-gray-700">Phone Numbers</label>
+              <label className="text-sm font-medium text-gray-700">{t('seax.pricing.omniCalculator.phone.label')}</label>
             </div>
             
             {/* Local Numbers */}
             <div className="ml-7">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">Local Numbers ($2/month each)</span>
+                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">{t('seax.pricing.omniCalculator.phone.local')}</span>
                 <div className="flex items-center space-x-2 flex-shrink-0">
                     <button
                       onClick={() => setLocalNumbers(Math.max(0, localNumbers - 1))}
@@ -187,7 +184,7 @@ const OmniChannelCalculator = () => {
             {/* Toll-Free Numbers */}
             <div className="ml-7">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">Toll-Free Numbers ($3/month each)</span>
+                <span className="text-sm text-gray-600 break-words hyphens-auto flex-1 mr-2">{t('seax.pricing.omniCalculator.phone.tollfree')}</span>
                 <div className="flex items-center space-x-2 flex-shrink-0">
                     <button
                       onClick={() => setTollFreeNumbers(Math.max(0, tollFreeNumbers - 1))}
@@ -211,7 +208,7 @@ const OmniChannelCalculator = () => {
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <MessageSquare className="w-5 h-5 text-emerald-600" />
-              <label className="text-sm font-medium text-gray-700">WhatsApp Numbers</label>
+              <label className="text-sm font-medium text-gray-700">{t('seax.pricing.omniCalculator.whatsapp.label')}</label>
             </div>
             <div className="flex items-center space-x-4">
               <button
@@ -231,18 +228,18 @@ const OmniChannelCalculator = () => {
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-3 flex items-start space-x-2">
               <Info className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
               <p className="text-sm text-emerald-700">
-                WhatsApp fees are paid directly to Meta. Seasalt.ai imposes NO markup.
+                {t('seax.pricing.omniCalculator.whatsapp.note')}
               </p>
             </div>
           </div>
 
           {/* Usage */}
           <div className="space-y-4">
-            <h4 className="text-lg font-medium text-gray-900">Monthly Usage</h4>
+            <h4 className="text-lg font-medium text-gray-900">{t('seax.pricing.omniCalculator.usageTitle')}</h4>
             
             {/* SMS */}
             <div className="space-y-2">
-              <label className="text-sm text-gray-600">SMS Messages ($0.02 each)</label>
+              <label className="text-sm text-gray-600">{t('seax.pricing.omniCalculator.sms')}</label>
               <input
                 type="range"
                 min="0"
@@ -253,15 +250,15 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{smsCount.toLocaleString()}</span>
-                <span>10k+</span>
+                <span>{t('omniCalculator.ranges.smsMax')}</span>
               </div>
             </div>
 
             {/* Call Minutes */}
             <div className="space-y-2">
-              <label className="text-sm text-gray-600">Call Minutes ($0.015/minute)</label>
+              <label className="text-sm text-gray-600">{t('seax.pricing.omniCalculator.calls')}</label>
               <input
                 type="range"
                 min="0"
@@ -272,15 +269,15 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{callMinutes.toLocaleString()}</span>
-                <span>5k+</span>
+                <span>{t('omniCalculator.ranges.callsMax')}</span>
               </div>
             </div>
 
             {/* Voicemail Drops */}
             <div className="space-y-2">
-              <label className="text-sm text-gray-600">Voicemail Drops ($0.05 each)</label>
+              <label className="text-sm text-gray-600">{t('seax.pricing.omniCalculator.voicemail')}</label>
               <input
                 type="range"
                 min="0"
@@ -291,15 +288,15 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{voicemailDrops.toLocaleString()}</span>
-                <span>1k+</span>
+                <span>{t('omniCalculator.ranges.voicemailMax')}</span>
               </div>
             </div>
 
             {/* WhatsApp Messages */}
             <div className="space-y-2">
-              <label className="text-sm text-gray-600">WhatsApp Business-Initiated Messages (Free)</label>
+              <label className="text-sm text-gray-600">{t('seax.pricing.omniCalculator.whatsappMessages')}</label>
               <input
                 type="range"
                 min="0"
@@ -310,9 +307,9 @@ const OmniChannelCalculator = () => {
                 className="w-full"
               />
               <div className="flex justify-between text-sm text-gray-500">
-                <span>0</span>
+                <span>{t('omniCalculator.ranges.zero')}</span>
                 <span className="font-medium">{whatsappMessages.toLocaleString()}</span>
-                <span>10k+</span>
+                <span>{t('omniCalculator.ranges.whatsappMax')}</span>
               </div>
             </div>
           </div>
@@ -321,16 +318,18 @@ const OmniChannelCalculator = () => {
         {/* Results Panel */}
         <div className="bg-gray-50 rounded-xl p-6">
           <h3 className="text-xl font-semibold text-gray-900 mb-6">
-            {billingPeriod === 'monthly' ? 'Monthly' : 'Yearly'} Pricing Breakdown
+            {t('seax.pricing.omniCalculator.breakdownTitle', {
+              period: billingPeriod === 'monthly' ? t('seax.pricing.omniCalculator.billing.monthly') : t('seax.pricing.omniCalculator.billing.yearly')
+            })}
           </h3>
           
           <div className="space-y-4">
             {/* User Costs */}
             <div className="flex justify-between items-center py-2 border-b border-gray-200">
               <div>
-                <span className="text-gray-700">Users ({users})</span>
+                <span className="text-gray-700">{t('seax.pricing.omniCalculator.usersBreakdown', { count: users })}</span>
                 <p className="text-sm text-gray-500">
-                  1 first user + {Math.max(0, users - 1)} additional
+                  {t('seax.pricing.omniCalculator.usersDetail', { additional: Math.max(0, users - 1) })}
                 </p>
               </div>
               <span className="text-lg font-semibold">${currentCosts.userCost.toLocaleString()}</span>
@@ -340,9 +339,9 @@ const OmniChannelCalculator = () => {
             {(localNumbers > 0 || tollFreeNumbers > 0) && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
                 <div>
-                  <span className="text-gray-700">Phone Numbers</span>
+                  <span className="text-gray-700">{t('seax.pricing.omniCalculator.phoneBreakdown')}</span>
                   <p className="text-sm text-gray-500">
-                    {localNumbers} local + {tollFreeNumbers} toll-free
+                    {localNumbers} {t('omniCalculator.breakdown.localPlus')} {tollFreeNumbers} {t('omniCalculator.breakdown.tollFreeMinus')}
                   </p>
                 </div>
                 <span className="text-lg font-semibold">
@@ -355,8 +354,8 @@ const OmniChannelCalculator = () => {
             {whatsappNumbers > 0 && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
                 <div>
-                  <span className="text-gray-700">WhatsApp Numbers ({whatsappNumbers})</span>
-                  <p className="text-sm text-emerald-600">Free - No markup</p>
+                  <span className="text-gray-700">{t('seax.pricing.omniCalculator.whatsappBreakdown', { count: whatsappNumbers })}</span>
+                  <p className="text-sm text-emerald-600">{t('seax.pricing.omniCalculator.whatsappFree')}</p>
                 </div>
                 <span className="text-lg font-semibold text-emerald-600">$0</span>
               </div>
@@ -365,21 +364,21 @@ const OmniChannelCalculator = () => {
             {/* Usage Costs */}
             {smsCount > 0 && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                <span className="text-gray-700">SMS ({smsCount.toLocaleString()})</span>
+                <span className="text-gray-700">{t('seax.pricing.omniCalculator.smsBreakdown', { count: smsCount })}</span>
                 <span className="text-lg font-semibold">${currentCosts.smsCost.toFixed(2)}</span>
               </div>
             )}
 
             {callMinutes > 0 && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                <span className="text-gray-700">Call Minutes ({callMinutes.toLocaleString()})</span>
+                <span className="text-gray-700">{t('seax.pricing.omniCalculator.callsBreakdown', { count: callMinutes })}</span>
                 <span className="text-lg font-semibold">${currentCosts.callCost.toFixed(2)}</span>
               </div>
             )}
 
             {voicemailDrops > 0 && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
-                <span className="text-gray-700">Voicemail Drops ({voicemailDrops.toLocaleString()})</span>
+                <span className="text-gray-700">{t('seax.pricing.omniCalculator.voicemailBreakdown', { count: voicemailDrops })}</span>
                 <span className="text-lg font-semibold">${currentCosts.voicemailCost.toFixed(2)}</span>
               </div>
             )}
@@ -387,8 +386,8 @@ const OmniChannelCalculator = () => {
             {whatsappMessages > 0 && (
               <div className="flex justify-between items-center py-2 border-b border-gray-200">
                 <div>
-                  <span className="text-gray-700">WhatsApp Messages ({whatsappMessages.toLocaleString()})</span>
-                  <p className="text-sm text-emerald-600">Business-initiated - Free</p>
+                  <span className="text-gray-700">{t('seax.pricing.omniCalculator.whatsappMessagesBreakdown', { count: whatsappMessages })}</span>
+                  <p className="text-sm text-emerald-600">{t('seax.pricing.omniCalculator.whatsappMessagesFree')}</p>
                 </div>
                 <span className="text-lg font-semibold text-emerald-600">$0</span>
               </div>
@@ -397,7 +396,9 @@ const OmniChannelCalculator = () => {
             {/* Total */}
             <div className="flex justify-between items-center py-4 border-t-2 border-gray-300">
               <span className="text-xl font-bold text-gray-900">
-                Total {billingPeriod === 'monthly' ? 'Monthly' : 'Yearly'}
+                {t('seax.pricing.omniCalculator.total', {
+                  period: billingPeriod === 'monthly' ? t('seax.pricing.omniCalculator.billing.monthly') : t('seax.pricing.omniCalculator.billing.yearly')
+                })}
               </span>
               <span className="text-2xl font-bold text-blue-600">
                 ${currentCosts.total.toLocaleString()}
@@ -410,11 +411,11 @@ const OmniChannelCalculator = () => {
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                   <span className="text-green-800 font-semibold">
-                    You save ${savings.toLocaleString()} per year!
+                    {t('seax.pricing.omniCalculator.savings.title', { amount: savings.toLocaleString() })}
                   </span>
                 </div>
                 <p className="text-sm text-green-700 mt-1">
-                  Equivalent to getting 2 months free with the yearly plan
+                  {t('seax.pricing.omniCalculator.savings.detail')}
                 </p>
               </div>
             )}
@@ -426,13 +427,13 @@ const OmniChannelCalculator = () => {
               href="https://seax.seasalt.ai/signup"
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
-              Get Started with Omni-channel
+              {t('seax.pricing.omniCalculator.cta.start')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
               className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
-              Talk to Sales
+              {t('seax.pricing.omniCalculator.cta.sales')}
             </a>
           </div>
         </div>

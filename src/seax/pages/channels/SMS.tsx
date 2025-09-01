@@ -2,7 +2,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
-import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
+import { getMeetingUrl } from '../../../constants/urls';
 import { 
   MessageSquare, 
   CheckCircle, 
@@ -16,77 +16,76 @@ import {
 } from 'lucide-react';
 
 const SMS = () => {
-  const { i18n: _i18n } = useTranslation();
-  const currentLanguage = _i18n.language;
+  const { t, i18n } = useTranslation();
 
   const features = [
     {
       icon: Globe,
-      title: 'Global Reach',
-      description: 'Send SMS to 200+ countries with local number support and carrier optimization.'
+      title: t('seax.channels.sms.features.globalReach.title'),
+      description: t('seax.channels.sms.features.globalReach.description')
     },
     {
       icon: Zap,
-      title: 'Lightning Fast',
-      description: 'Deliver messages instantly with 99.9% uptime and sub-second delivery rates.'
+      title: t('seax.channels.sms.features.lightningFast.title'),
+      description: t('seax.channels.sms.features.lightningFast.description')
     },
     {
       icon: Shield,
-      title: 'Secure & Compliant',
-      description: 'GDPR, TCPA, and CCPA compliant with enterprise-grade security.'
+      title: t('seax.channels.sms.features.secure.title'),
+      description: t('seax.channels.sms.features.secure.description')
     },
     {
       icon: BarChart3,
-      title: 'Advanced Analytics',
-      description: 'Real-time delivery reports, open rates, and conversion tracking.'
+      title: t('seax.channels.sms.features.analytics.title'),
+      description: t('seax.channels.sms.features.analytics.description')
     },
     {
       icon: Users,
-      title: 'Bulk Messaging',
-      description: 'Send to millions of recipients simultaneously with smart rate limiting.'
+      title: t('seax.channels.sms.features.bulk.title'),
+      description: t('seax.channels.sms.features.bulk.description')
     },
     {
       icon: Target,
-      title: 'Smart Segmentation',
-      description: 'Target specific audiences with AI-powered segmentation and personalization.'
+      title: t('seax.channels.sms.features.segmentation.title'),
+      description: t('seax.channels.sms.features.segmentation.description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Marketing Campaigns',
-      description: 'Promotional messages, flash sales, and product announcements.',
-      metrics: '35% avg open rate'
+      title: t('seax.channels.sms.useCases.marketing.title'),
+      description: t('seax.channels.sms.useCases.marketing.description'),
+      metrics: t('seax.channels.sms.useCases.marketing.metrics')
     },
     {
-      title: 'Customer Support',
-      description: 'Order confirmations, shipping updates, and support notifications.',
-      metrics: '98% delivery rate'
+      title: t('seax.channels.sms.useCases.support.title'),
+      description: t('seax.channels.sms.useCases.support.description'),
+      metrics: t('seax.channels.sms.useCases.support.metrics')
     },
     {
-      title: 'Appointment Reminders',
-      description: 'Automated reminders for appointments, meetings, and events.',
-      metrics: '60% reduction in no-shows'
+      title: t('seax.channels.sms.useCases.appointments.title'),
+      description: t('seax.channels.sms.useCases.appointments.description'),
+      metrics: t('seax.channels.sms.useCases.appointments.metrics')
     },
     {
-      title: 'Emergency Alerts',
-      description: 'Critical notifications, security alerts, and urgent updates.',
-      metrics: '< 5 second delivery'
+      title: t('seax.channels.sms.useCases.emergency.title'),
+      description: t('seax.channels.sms.useCases.emergency.description'),
+      metrics: t('seax.channels.sms.useCases.emergency.metrics')
     }
   ];
 
   const stats = [
-    { value: '10M+', label: 'Messages sent daily' },
-    { value: '200+', label: 'Countries supported' },
-    { value: '99.9%', label: 'Uptime guarantee' },
-    { value: '98%', label: 'Delivery rate' }
+    { value: t('seax.channels.sms.hero.stats.messagesValue'), label: t('seax.channels.sms.hero.stats.messagesSent') },
+    { value: t('seax.channels.sms.hero.stats.countriesValue'), label: t('seax.channels.sms.hero.stats.countries') },
+    { value: t('seax.channels.sms.hero.stats.uptimeValue'), label: t('seax.channels.sms.hero.stats.uptime') },
+    { value: t('seax.channels.sms.hero.stats.deliveryValue'), label: t('seax.channels.sms.hero.stats.deliveryRate') }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="SeaX SMS - Send Bulk Text Messages to Millions Instantly"
-        description="Send SMS campaigns to millions of customers worldwide. 98% delivery rate, 200+ countries, real-time analytics. Start your SMS campaign today."
+        title={t('seax.channels.sms.seo.title')}
+        description={t('seax.channels.sms.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
       
@@ -103,16 +102,15 @@ const SMS = () => {
                     <MessageSquare className="w-8 h-8 text-green-600" />
                   </div>
                   <span className="text-sm font-medium text-green-600 bg-green-100 px-3 py-1 rounded-full">
-                    SMS Marketing
+                    {t('seax.channels.sms.hero.badge')}
                   </span>
                 </div>
                 <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
-                  Send SMS to 
-                  <span className="text-green-600 block">Millions Instantly</span>
+                  {t('seax.channels.sms.hero.title')}
+                  <span className="text-green-600 block">{t('seax.channels.sms.hero.titleHighlight')}</span>
                 </h1>
                 <p className="text-xl text-gray-600">
-                  Reach customers worldwide with high-converting SMS campaigns. 
-                  98% delivery rate, 200+ countries, real-time analytics.
+                  {t('seax.channels.sms.hero.description')}
                 </p>
               </div>
               
@@ -132,16 +130,16 @@ const SMS = () => {
                   rel="noopener noreferrer"
                   className="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
                 >
-                  <span>Start SMS Campaign</span>
+                  <span>{t('seax.channels.sms.hero.cta.primary')}</span>
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
-                  href={getMeetingUrl(currentLanguage)}
+                  href={getMeetingUrl(i18n.language)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
                 >
-                  View Pricing
+                  {t('seax.channels.sms.hero.cta.secondary')}
                 </a>
               </div>
             </div>
@@ -151,30 +149,29 @@ const SMS = () => {
               <div className="bg-white rounded-2xl shadow-xl p-8 border">
                 <div className="space-y-6">
                   <div className="flex items-center justify-between">
-                    <h3 className="text-lg font-semibold text-gray-900">SMS Campaign</h3>
+                    <h3 className="text-lg font-semibold text-gray-900">{t('seax.channels.sms.hero.preview.title')}</h3>
                     <span className="text-sm text-green-600 bg-green-100 px-3 py-1 rounded-full font-medium">
-                      Active
+                      {t('seax.channels.sms.hero.preview.status')}
                     </span>
                   </div>
                   
                   <div className="bg-gray-50 rounded-lg p-4">
-                    <div className="text-sm text-gray-700 mb-2">Message Preview:</div>
+                    <div className="text-sm text-gray-700 mb-2">{t('seax.channels.sms.hero.preview.messageLabel')}</div>
                     <div className="bg-white rounded-lg p-3 border-l-4 border-green-500">
                       <div className="text-sm text-gray-900">
-                        "Hi John, 🎉 Flash Sale! 50% off all items. Use code SAVE50.
-                        Shop now: link.co/shop. Reply STOP to opt out."
+                        "{t('seax.channels.sms.hero.preview.message')}"
                       </div>
                     </div>
                   </div>
                   
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-blue-50 rounded-lg p-3 text-center">
-                      <div className="text-2xl font-bold text-blue-600">847K</div>
-                      <div className="text-sm text-gray-600">Delivered</div>
+                      <div className="text-2xl font-bold text-blue-600">{t('seax.channels.sms.hero.preview.deliveredValue')}</div>
+                      <div className="text-sm text-gray-600">{t('seax.channels.sms.hero.preview.delivered')}</div>
                     </div>
                     <div className="bg-green-50 rounded-lg p-3 text-center">
-                      <div className="text-2xl font-bold text-green-600">98.2%</div>
-                      <div className="text-sm text-gray-600">Success Rate</div>
+                      <div className="text-2xl font-bold text-green-600">{t('seax.channels.sms.hero.preview.successValue')}</div>
+                      <div className="text-sm text-gray-600">{t('seax.channels.sms.hero.preview.successRate')}</div>
                     </div>
                   </div>
                 </div>
@@ -189,10 +186,10 @@ const SMS = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose SeaX SMS?
+              {t('seax.channels.sms.features.title')}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Powerful SMS marketing platform built for scale, compliance, and results.
+              {t('seax.channels.sms.features.description')}
             </p>
           </div>
           
@@ -215,10 +212,10 @@ const SMS = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              SMS Use Cases
+              {t('seax.channels.sms.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              From marketing to customer service, SMS drives results across industries.
+              {t('seax.channels.sms.useCases.description')}
             </p>
           </div>
           
@@ -245,10 +242,10 @@ const SMS = () => {
       <div className="bg-green-600 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Start Your SMS Campaign?
+            {t('seax.channels.sms.cta.title')}
           </h2>
           <p className="text-xl text-green-100 mb-8">
-            Join thousands of businesses reaching millions with SMS
+            {t('seax.channels.sms.cta.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -258,17 +255,17 @@ const SMS = () => {
               rel="noopener noreferrer"
               className="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Get Started Free</span>
+              <span>{t('seax.channels.sms.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             
             <a
-              href={getMeetingUrl(currentLanguage)}
+              href={getMeetingUrl(i18n.language)}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
             >
-              Book a Demo
+              {t('seax.channels.sms.cta.secondary')}
             </a>
           </div>
         </div>

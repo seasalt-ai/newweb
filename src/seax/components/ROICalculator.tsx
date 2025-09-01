@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { Calculator, TrendingUp, DollarSign } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ROICalculator = () => {
+  const { t } = useTranslation();
   const [monthlyMessages, setMonthlyMessages] = useState(100000);
   const [currentCost, setCurrentCost] = useState(5000);
   const [conversionRate, setConversionRate] = useState(2.5);
@@ -31,7 +33,7 @@ const ROICalculator = () => {
         <div className="bg-blue-100 p-3 rounded-lg">
           <Calculator className="w-6 h-6 text-blue-600" />
         </div>
-        <h3 className="text-2xl font-bold text-gray-900">ROI Calculator</h3>
+        <h3 className="text-2xl font-bold text-gray-900">{t('seax.pricing.roiCalculator.title')}</h3>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -39,33 +41,33 @@ const ROICalculator = () => {
         <div className="space-y-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Monthly Messages
+              {t('seax.pricing.roiCalculator.inputs.monthlyMessages')}
             </label>
             <input
               type="number"
               value={monthlyMessages}
               onChange={(e) => setMonthlyMessages(Number(e.target.value))}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="100,000"
+              placeholder={t('seax.pricing.roiCalculator.placeholders.monthlyMessages')}
             />
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Current Monthly Cost ($)
+              {t('seax.pricing.roiCalculator.inputs.currentCost')}
             </label>
             <input
               type="number"
               value={currentCost}
               onChange={(e) => setCurrentCost(Number(e.target.value))}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="5,000"
+              placeholder={t('seax.pricing.roiCalculator.placeholders.currentCost')}
             />
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Conversion Rate (%)
+              {t('seax.pricing.roiCalculator.inputs.conversionRate')}
             </label>
             <input
               type="number"
@@ -73,20 +75,20 @@ const ROICalculator = () => {
               value={conversionRate}
               onChange={(e) => setConversionRate(Number(e.target.value))}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="2.5"
+              placeholder={t('seax.pricing.roiCalculator.placeholders.conversionRate')}
             />
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Average Order Value ($)
+              {t('seax.pricing.roiCalculator.inputs.averageOrderValue')}
             </label>
             <input
               type="number"
               value={averageOrderValue}
               onChange={(e) => setAverageOrderValue(Number(e.target.value))}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="150"
+              placeholder={t('seax.pricing.roiCalculator.placeholders.averageOrderValue')}
             />
           </div>
         </div>
@@ -96,7 +98,7 @@ const ROICalculator = () => {
           <div className="bg-green-50 rounded-lg p-6">
             <div className="flex items-center space-x-2 mb-2">
               <TrendingUp className="w-5 h-5 text-green-600" />
-              <span className="text-sm font-medium text-green-700">Monthly ROI</span>
+              <span className="text-sm font-medium text-green-700">{t('seax.pricing.roiCalculator.results.monthlyRoi')}</span>
             </div>
             <div className="text-3xl font-bold text-green-600">
               {roi.toFixed(0)}%
@@ -106,7 +108,7 @@ const ROICalculator = () => {
           <div className="bg-blue-50 rounded-lg p-6">
             <div className="flex items-center space-x-2 mb-2">
               <DollarSign className="w-5 h-5 text-blue-600" />
-              <span className="text-sm font-medium text-blue-700">Monthly Savings</span>
+              <span className="text-sm font-medium text-blue-700">{t('seax.pricing.roiCalculator.results.monthlySavings')}</span>
             </div>
             <div className="text-3xl font-bold text-blue-600">
               ${monthlySavings.toLocaleString()}
@@ -115,13 +117,13 @@ const ROICalculator = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-gray-50 rounded-lg p-4">
-              <div className="text-sm text-gray-600 mb-1">SeaX Cost</div>
+              <div className="text-sm text-gray-600 mb-1">{t('seax.pricing.roiCalculator.results.seaxCost')}</div>
               <div className="text-xl font-bold text-gray-900">
                 ${seaxMonthlyCost.toLocaleString()}
               </div>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
-              <div className="text-sm text-gray-600 mb-1">Annual Savings</div>
+              <div className="text-sm text-gray-600 mb-1">{t('seax.pricing.roiCalculator.results.annualSavings')}</div>
               <div className="text-xl font-bold text-gray-900">
                 ${annualSavings.toLocaleString()}
               </div>
@@ -129,7 +131,7 @@ const ROICalculator = () => {
           </div>
 
           <div className="bg-purple-50 rounded-lg p-4">
-            <div className="text-sm text-purple-700 mb-1">Monthly Revenue</div>
+            <div className="text-sm text-purple-700 mb-1">{t('seax.pricing.roiCalculator.results.monthlyRevenue')}</div>
             <div className="text-2xl font-bold text-purple-600">
               ${monthlyRevenue.toLocaleString()}
             </div>
@@ -139,8 +141,8 @@ const ROICalculator = () => {
 
       <div className="mt-8 p-4 bg-yellow-50 rounded-lg">
         <p className="text-sm text-yellow-800 text-center">
-          <strong>Payback Period:</strong> {paybackPeriod} month{paybackPeriod !== 1 ? 's' : ''} • 
-          <strong> Break-even:</strong> {(seaxMonthlyCost / (conversionRate / 100 * averageOrderValue)).toLocaleString()} messages
+          <strong>{t('seax.pricing.roiCalculator.payback.period')}:</strong> {t('seax.pricing.roiCalculator.payback.duration', { count: paybackPeriod })} • 
+          <strong> {t('seax.pricing.roiCalculator.payback.breakeven')}:</strong> {t('seax.pricing.roiCalculator.payback.messages', { count: Math.round(seaxMonthlyCost / (conversionRate / 100 * averageOrderValue)) })}
         </p>
       </div>
     </div>

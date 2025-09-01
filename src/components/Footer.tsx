@@ -15,6 +15,14 @@ const Footer = () => {
   const solutions = getSolutions(t);
   const industries = getIndustries(t);
   
+  // Helper function to get the correct Wiki URL based on language
+  const getWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}`;
+  };
+  
   // Collapsible sections state
   const [collapsed, setCollapsed] = useState({
     products: true,
@@ -297,7 +305,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://wiki.seasalt.ai" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+                  <a href={getWikiUrl()} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
                     <Book className="h-4 w-4 mr-2" />
                     {t('footer.productWiki')}
                   </a>

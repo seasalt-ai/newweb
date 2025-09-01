@@ -6,71 +6,71 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { ArrowRight, AlertTriangle, Clock, Users, Shield, Bell, MessageSquare } from 'lucide-react';
 const EmergencyAlerts = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
 
   const features = [
     {
       icon: AlertTriangle,
-      title: 'Instant Emergency Broadcasts',
-      description: 'Send critical alerts to thousands of recipients simultaneously across SMS, voice, and WhatsApp.'
+      title: t('seax.solutions.emergencyAlerts.features.items[0].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[0].description')
     },
     {
       icon: Clock,
-      title: 'Time-Sensitive Delivery',
-      description: 'Prioritized message delivery ensures emergency communications reach recipients immediately.'
+      title: t('seax.solutions.emergencyAlerts.features.items[1].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[1].description')
     },
     {
       icon: Users,
-      title: 'Targeted Recipient Groups',
-      description: 'Create and manage specific groups for different types of emergencies and locations.'
+      title: t('seax.solutions.emergencyAlerts.features.items[2].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[2].description')
     },
     {
       icon: Shield,
-      title: 'Reliable Infrastructure',
-      description: 'Built on carrier-grade infrastructure to ensure messages get through when it matters most.'
+      title: t('seax.solutions.emergencyAlerts.features.items[3].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[3].description')
     },
     {
       icon: Bell,
-      title: 'Multi-Channel Alerts',
-      description: 'Reach people through their preferred communication channels for maximum response rates.'
+      title: t('seax.solutions.emergencyAlerts.features.items[4].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[4].description')
     },
     {
       icon: MessageSquare,
-      title: 'Two-Way Communication',
-      description: 'Receive confirmations and responses from recipients to track alert effectiveness.'
+      title: t('seax.solutions.emergencyAlerts.features.items[5].title'),
+      description: t('seax.solutions.emergencyAlerts.features.items[5].description')
     }
   ];
 
   const useCases = [
     {
-      title: 'Corporate Emergency Response',
-      description: 'Notify employees about security threats, evacuations, or critical business disruptions.',
-      stats: '99.9% delivery success rate'
+      title: t('seax.solutions.emergencyAlerts.useCases.items[0].title'),
+      description: t('seax.solutions.emergencyAlerts.useCases.items[0].description'),
+      stats: t('seax.solutions.emergencyAlerts.useCases.items[0].stats')
     },
     {
-      title: 'School Safety Alerts',
-      description: 'Instantly inform parents, students, and staff about school closures or safety incidents.',
-      stats: '30-second average delivery time'
+      title: t('seax.solutions.emergencyAlerts.useCases.items[1].title'),
+      description: t('seax.solutions.emergencyAlerts.useCases.items[1].description'),
+      stats: t('seax.solutions.emergencyAlerts.useCases.items[1].stats')
     },
     {
-      title: 'Healthcare Critical Alerts',
-      description: 'Alert medical staff about code situations, patient emergencies, or facility incidents.',
-      stats: '95% response rate within 5 minutes'
+      title: t('seax.solutions.emergencyAlerts.useCases.items[2].title'),
+      description: t('seax.solutions.emergencyAlerts.useCases.items[2].description'),
+      stats: t('seax.solutions.emergencyAlerts.useCases.items[2].stats')
     },
     {
-      title: 'Public Safety Notifications',
-      description: 'Warn communities about natural disasters, hazardous conditions, or public safety threats.',
-      stats: '10,000+ recipients per minute'
+      title: t('seax.solutions.emergencyAlerts.useCases.items[3].title'),
+      description: t('seax.solutions.emergencyAlerts.useCases.items[3].description'),
+      stats: t('seax.solutions.emergencyAlerts.useCases.items[3].stats')
     }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet
-        title="Emergency Alerts - SeaX Notification System"
-        description="Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. Ensure message delivery in critical situations."
+        title={t('seax.solutions.emergencyAlerts.seo.title')}
+        description={t('seax.solutions.emergencyAlerts.seo.description')}
         favicon="/seasalt-ai-favicon.ico"
       />
 
@@ -80,12 +80,11 @@ const EmergencyAlerts = () => {
       <div className="bg-gradient-to-br from-red-50 to-yellow-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Emergency Alerts
-            <span className="text-red-600 block">That Save Lives</span>
+            {t('seax.solutions.emergencyAlerts.hero.title.main')}
+            <span className="text-red-600 block">{t('seax.solutions.emergencyAlerts.hero.title.highlight')}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Send instant emergency alerts with real-time communication across SMS, voice, and WhatsApp. 
-            Ensure message delivery in critical situations when every second counts.
+            {t('seax.solutions.emergencyAlerts.hero.description')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -95,7 +94,7 @@ const EmergencyAlerts = () => {
               rel="noopener noreferrer"
               className="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>Start Sending Alerts</span>
+              <span>{t('seax.solutions.emergencyAlerts.hero.cta.primary')}</span>
               <ArrowRight className="w-5 h-5" />
             </a>
 
@@ -103,7 +102,7 @@ const EmergencyAlerts = () => {
               to={getLocalizedPath('/demo')}
               className="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-red-50 transition-colors"
             >
-              Book a Safety Demo
+              {t('seax.solutions.emergencyAlerts.hero.cta.secondary')}
             </Link>
           </div>
         </div>
@@ -114,10 +113,10 @@ const EmergencyAlerts = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Critical Alert Features
+              {t('seax.solutions.emergencyAlerts.features.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need for effective and reliable emergency communications
+              {t('seax.solutions.emergencyAlerts.features.subtitle')}
             </p>
           </div>
 
@@ -145,10 +144,10 @@ const EmergencyAlerts = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Emergency Alert Use Cases
+              {t('seax.solutions.emergencyAlerts.useCases.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Real-world applications to ensure safety and communication
+              {t('seax.solutions.emergencyAlerts.useCases.subtitle')}
             </p>
           </div>
 
@@ -171,36 +170,36 @@ const EmergencyAlerts = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Proven Emergency Response
+              {t('seax.solutions.emergencyAlerts.stats.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              Deliver messages reliably when every second counts
+              {t('seax.solutions.emergencyAlerts.stats.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-red-600 mb-2">99.9%</div>
-                <div className="text-gray-600">Delivery Success Rate</div>
+                <div className="text-3xl font-bold text-red-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[0].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[0].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-yellow-600 mb-2">30 sec</div>
-                <div className="text-gray-600">Avg Delivery Time</div>
+                <div className="text-3xl font-bold text-yellow-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[1].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[1].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
-                <div className="text-gray-600">Response Within 5 min</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[2].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[2].label')}</div>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
-                <div className="text-3xl font-bold text-green-600 mb-2">10,000+</div>
-                <div className="text-gray-600">Messages per Minute</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[3].value')}</div>
+                <div className="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[3].label')}</div>
               </div>
             </div>
           </div>
@@ -211,10 +210,10 @@ const EmergencyAlerts = () => {
       <div className="py-20 bg-gradient-to-r from-red-600 to-yellow-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Ensure Safety and Communication?
+            {t('seax.solutions.emergencyAlerts.cta.title')}
           </h2>
           <p className="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-            Join thousands of organizations using SeaX to ensure safety and communicate effectively during emergencies.
+            {t('seax.solutions.emergencyAlerts.cta.description')}
           </p>
 
           <a
@@ -223,7 +222,7 @@ const EmergencyAlerts = () => {
             rel="noopener noreferrer"
             className="bg-white text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
           >
-            <span>Get Started Today</span>
+            <span>{t('seax.solutions.emergencyAlerts.cta.primary')}</span>
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>

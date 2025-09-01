@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BarChart3, TrendingUp, Users, MessageSquare, Phone, Eye, Target, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface MetricData {
   id: string;
@@ -21,10 +22,12 @@ interface CampaignActivity {
 }
 
 const RealTimeDashboard = () => {
+  const { t } = useTranslation();
+  
   const [metrics, setMetrics] = useState<MetricData[]>([
     {
       id: 'messages',
-      label: 'Messages Sent',
+      label: t('seax.realTimeDashboard.metrics.messagesSent'),
       value: 245600,
       previousValue: 245600,
       trend: 'stable',
@@ -33,7 +36,7 @@ const RealTimeDashboard = () => {
     },
     {
       id: 'delivered',
-      label: 'Delivered',
+      label: t('seax.realTimeDashboard.metrics.delivered'),
       value: 238200,
       previousValue: 238200,
       trend: 'stable',
@@ -42,7 +45,7 @@ const RealTimeDashboard = () => {
     },
     {
       id: 'engagement',
-      label: 'Engagement Rate',
+      label: t('seax.realTimeDashboard.metrics.engagementRate'),
       value: 87,
       previousValue: 87,
       trend: 'stable',
@@ -51,7 +54,7 @@ const RealTimeDashboard = () => {
     },
     {
       id: 'active',
-      label: 'Active Users',
+      label: t('seax.realTimeDashboard.metrics.activeUsers'),
       value: 12400,
       previousValue: 12400,
       trend: 'stable',
@@ -183,20 +186,19 @@ const RealTimeDashboard = () => {
               className="inline-flex items-center px-4 py-2 bg-blue-500/20 backdrop-blur-sm rounded-full border border-blue-400/30 text-blue-200 text-sm font-medium mb-8"
             >
               <BarChart3 className="w-4 h-4 mr-2 text-cyan-400" />
-              Real-Time Analytics
+              {t('seax.realTimeDashboard.badge')}
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8">
-              <span className="block">Live</span>
+              <span className="block">{t('seax.realTimeDashboard.title.live')}</span>
               <span className="bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-                Performance
+                {t('seax.realTimeDashboard.title.performance')}
               </span>
-              <span className="block">Insights</span>
+              <span className="block">{t('seax.realTimeDashboard.title.insights')}</span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8">
-              Watch your campaigns perform in real-time with live metrics, engagement tracking, 
-              and instant performance insights. Make data-driven decisions as they happen.
+              {t('seax.realTimeDashboard.description')}
             </p>
 
             {/* Key Performance Indicators */}
@@ -236,7 +238,7 @@ const RealTimeDashboard = () => {
                   transition={{ duration: 1, repeat: Infinity }}
                   className="w-3 h-3 bg-green-400 rounded-full"
                 />
-                <span className="text-green-300 font-medium">Live Updates</span>
+                <span className="text-green-300 font-medium">{t('seax.realTimeDashboard.liveUpdates.title')}</span>
               </div>
               <motion.div
                 key={liveCount}
@@ -244,7 +246,7 @@ const RealTimeDashboard = () => {
                 animate={{ scale: 1 }}
                 className="text-xl font-bold text-white"
               >
-                {liveCount.toLocaleString()} data points refreshed
+                {liveCount.toLocaleString()} {t('seax.realTimeDashboard.liveUpdates.dataPoints')}
               </motion.div>
             </div>
           </motion.div>
@@ -260,14 +262,14 @@ const RealTimeDashboard = () => {
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 shadow-2xl">
               {/* Dashboard Header */}
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-xl font-semibold text-white">Campaign Analytics</h3>
+                <h3 className="text-xl font-semibold text-white">{t('seax.realTimeDashboard.dashboard.title')}</h3>
                 <div className="flex items-center space-x-2">
                   <motion.div
                     animate={{ scale: [1, 1.3, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                     className="w-3 h-3 bg-green-400 rounded-full"
                   />
-                  <span className="text-green-300 text-sm font-medium">Live</span>
+                  <span className="text-green-300 text-sm font-medium">{t('seax.realTimeDashboard.dashboard.liveStatus')}</span>
                 </div>
               </div>
 
@@ -303,7 +305,7 @@ const RealTimeDashboard = () => {
                 />
                 
                 <div className="absolute bottom-2 left-2 text-xs text-cyan-300">
-                  Engagement Trend
+                  {t('seax.realTimeDashboard.dashboard.chartLabel')}
                 </div>
               </div>
 
@@ -318,7 +320,7 @@ const RealTimeDashboard = () => {
                   >
                     {(metrics[0]?.value || 0).toLocaleString()}
                   </motion.div>
-                  <div className="text-xs text-blue-200">Sent</div>
+                  <div className="text-xs text-blue-200">{t('seax.realTimeDashboard.dashboard.sent')}</div>
                 </div>
                 
                 <div className="text-center p-3 bg-green-500/20 rounded-lg">
@@ -330,7 +332,7 @@ const RealTimeDashboard = () => {
                   >
                     {(metrics[1]?.value || 0).toLocaleString()}
                   </motion.div>
-                  <div className="text-xs text-green-200">Delivered</div>
+                  <div className="text-xs text-green-200">{t('seax.realTimeDashboard.dashboard.delivered')}</div>
                 </div>
                 
                 <div className="text-center p-3 bg-purple-500/20 rounded-lg">
@@ -342,7 +344,7 @@ const RealTimeDashboard = () => {
                   >
                     {metrics[2]?.value || 0}%
                   </motion.div>
-                  <div className="text-xs text-purple-200">Engagement</div>
+                  <div className="text-xs text-purple-200">{t('seax.realTimeDashboard.dashboard.engagement')}</div>
                 </div>
               </div>
 
@@ -350,7 +352,7 @@ const RealTimeDashboard = () => {
               <div className="space-y-3">
                 <div className="text-sm font-medium text-white mb-3 flex items-center">
                   <Zap className="w-4 h-4 mr-2 text-yellow-400" />
-                  Live Activity
+                  {t('seax.realTimeDashboard.activity.title')}
                 </div>
                 
                 <AnimatePresence mode="popLayout">
@@ -367,7 +369,7 @@ const RealTimeDashboard = () => {
                         <div className={`w-2 h-2 rounded-full ${activity.status === 'sent' ? 'bg-blue-500' : activity.status === 'delivered' ? 'bg-green-500' : activity.status === 'read' ? 'bg-purple-500' : 'bg-orange-500'} animate-pulse`} />
                         <div>
                           <div className={`text-sm font-medium ${getActivityColor(activity.status)}`}>
-                            {activity.count.toLocaleString()} {activity.type.toUpperCase()} {activity.status}
+                            {activity.count.toLocaleString()} {t(`seax.realTimeDashboard.activity.types.${activity.type}`)} {t(`seax.realTimeDashboard.activity.statuses.${activity.status}`)}
                           </div>
                           <div className="text-xs text-gray-500">
                             {activity.timestamp.toLocaleTimeString()}
@@ -396,8 +398,8 @@ const RealTimeDashboard = () => {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -top-4 -right-4 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-4 shadow-xl"
             >
-              <div className="text-lg font-bold">94.2%</div>
-              <div className="text-xs opacity-90">Delivery Rate</div>
+              <div className="text-lg font-bold">{t('seax.realTimeDashboard.cards.deliveryValue')}</div>
+              <div className="text-xs opacity-90">{t('seax.realTimeDashboard.cards.deliveryRate')}</div>
             </motion.div>
 
             <motion.div
@@ -405,8 +407,8 @@ const RealTimeDashboard = () => {
               transition={{ duration: 4, repeat: Infinity }}
               className="absolute -bottom-4 -left-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white rounded-lg p-4 shadow-xl"
             >
-              <div className="text-lg font-bold">2.1M</div>
-              <div className="text-xs opacity-90">This Hour</div>
+              <div className="text-lg font-bold">{t('seax.realTimeDashboard.cards.hourlyValue')}</div>
+              <div className="text-xs opacity-90">{t('seax.realTimeDashboard.cards.thisHour')}</div>
             </motion.div>
 
             <motion.div
@@ -417,8 +419,8 @@ const RealTimeDashboard = () => {
               transition={{ duration: 6, repeat: Infinity }}
               className="absolute top-1/3 -left-6 bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-lg p-3 shadow-xl"
             >
-              <div className="text-sm font-bold">Live</div>
-              <div className="text-xs opacity-90">Updates</div>
+              <div className="text-sm font-bold">{t('seax.realTimeDashboard.dashboard.liveStatus')}</div>
+              <div className="text-xs opacity-90">{t('seax.realTimeDashboard.cards.liveUpdates')}</div>
             </motion.div>
           </motion.div>
         </div>

@@ -58,11 +58,19 @@ const Footer = () => {
     { name: t('seachat.header.solutionsDropdown.smallBusiness'), href: `/${currentLanguage}/seachat/solutions/small-business`, icon: Briefcase }
   ];
 
+  // Helper function to get the correct SeaChat Wiki URL based on language
+  const getSeaChatWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+  };
+
   const companyLinks = [
     { name: t('header.blog'), href: `/${currentLanguage}/blog`, icon: MessageSquare },
     { name: t('header.pricing'), href: `/${currentLanguage}/seachat/pricing`, icon: DollarSign },
     { name: t('header.compareUs'), href: `/${currentLanguage}/compare-us-overview`, icon: BarChart3 },
-    { name: t('seachat.footer.company.productWiki'), href: 'https://wiki.seasalt.ai/seachat', icon: Book },
+    { name: t('seachat.footer.company.productWiki'), href: getSeaChatWikiUrl(), icon: Book },
     { name: t('seachat.footer.company.apiReferences'), href: 'https://api.seasalt.ai', icon: Server },
     { name: t('seachat.footer.company.careers'), href: `/${currentLanguage}/careers`, icon: Briefcase },
     { name: t('seachat.footer.company.about'), href: `/${currentLanguage}/company`, icon: Building2 }
