@@ -14,6 +14,15 @@
 import React, { useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
+import { 
+  LANGUAGE_REGION_MAP, 
+  getHreflangCode, 
+  getAllLocales, 
+  getGeoTargeting,
+  hasRegionalVariants,
+  SUPPORTED_LANGUAGES,
+  type SupportedLanguage 
+} from '../constants/languages';
 
 // Brand constants for consistent SEO metadata
 const BRAND_CONSTANTS = {
@@ -94,7 +103,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   title = 'Seasalt.ai',
   description = '',
   favicon = '/favicon.ico',
-  availableLanguages = [],
+  availableLanguages,
   image,
   type = 'website',
   author,
@@ -122,35 +131,73 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     // Generate canonical URL
     const canonicalUrl = customCanonicalUrl || `${BRAND_CONSTANTS.SITE_URL}/${pathname}`;
     
-    // Generate hreflang URLs if availableLanguages is provided
+    // Use SUPPORTED_LANGUAGES as default if availableLanguages is not provided or empty
+    const effectiveAvailableLanguages = (availableLanguages && availableLanguages.length > 0) 
+      ? availableLanguages 
+      : SUPPORTED_LANGUAGES;
+    
+    // Generate enhanced hreflang URLs with regional targeting
     let hreflangUrls: Array<{ lang: string; url: string }> = [];
-    if (availableLanguages && availableLanguages.length > 0) {
+    if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
       const origin = BRAND_CONSTANTS.SITE_URL;
       const cleanPath = pathname.split('/').slice(1).join('/'); // Remove potential language prefix
       
-      hreflangUrls = availableLanguages.map(lang => {
-        // Convert language codes to proper hreflang codes
-        let hrefLangCode = lang;
-        if (lang === 'zh-TW') hrefLangCode = 'zh-Hant';
-        if (lang === 'zh-CN') hrefLangCode = 'zh-Hans';
+      // Generate hreflang URLs for each language and its regional variants
+      effectiveAvailableLanguages.forEach(langCode => {
+        const lang = langCode as SupportedLanguage;
+        const languageInfo = LANGUAGE_REGION_MAP[lang];
         
-        // Generate URL for this language
-        let url: string;
-        if (slug) {
-          // For blog posts
-          url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog/${slug}`;
-        } else if (cleanPath === 'blog') {
-          // For blog listing page
-          url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog`;
-        } else {
-          // For other pages
-          const langPrefix = lang === 'en' ? '' : `/${lang}`;
-          const pathSuffix = cleanPath ? `/${cleanPath}` : '';
-          url = `${origin}${langPrefix}${pathSuffix}`;
+        if (!languageInfo) {
+          // Fallback for unsupported languages
+          const hrefLangCode = getHreflangCode(lang);
+          const url = generateUrlForLanguage(origin, lang, cleanPath, slug);
+          hreflangUrls.push({ lang: hrefLangCode, url });
+          return;
         }
         
-        return { lang: hrefLangCode, url };
+        // Add primary locale hreflang
+        const primaryHrefLang = convertLocaleToHreflang(languageInfo.primaryLocale);
+        const primaryUrl = generateUrlForLanguage(origin, lang, cleanPath, slug);
+        hreflangUrls.push({ lang: primaryHrefLang, url: primaryUrl });
+        
+        // Add alternate regional locales if they exist
+        if (hasRegionalVariants(lang)) {
+          languageInfo.alternateLocales.forEach(locale => {
+            const regionalHrefLang = convertLocaleToHreflang(locale);
+            // Use same URL for all regional variants since we serve one version per language
+            hreflangUrls.push({ lang: regionalHrefLang, url: primaryUrl });
+          });
+          
+          // Add generic language code (e.g., 'en', 'zh-Hant') as fallback
+          const genericHrefLang = getHreflangCode(lang);
+          if (!hreflangUrls.some(item => item.lang === genericHrefLang)) {
+            hreflangUrls.push({ lang: genericHrefLang, url: primaryUrl });
+          }
+        }
       });
+    }
+    
+    // Helper function to generate URL for a language
+    function generateUrlForLanguage(origin: string, lang: string, cleanPath: string, slug?: string): string {
+      if (slug) {
+        // For blog posts
+        return `${origin}/${lang}/blog/${slug}`;
+      } else if (cleanPath === 'blog') {
+        // For blog listing page
+        return `${origin}/${lang}/blog`;
+      } else {
+        // For other pages
+        const langPrefix = `/${lang}`;
+        const pathSuffix = cleanPath ? `/${cleanPath}` : '';
+        return `${origin}${langPrefix}${pathSuffix}`;
+      }
+    }
+    
+    // Helper function to convert locale to hreflang format
+    function convertLocaleToHreflang(locale: string): string {
+      // Convert underscore locales to hreflang format
+      // e.g., 'en_US' -> 'en-US', 'zh_Hant_TW' -> 'zh-Hant-TW'
+      return locale.replace(/_/g, '-');
     }
     
     // Generate social image URL
@@ -192,6 +239,50 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     
     // Combine all structured data
     const allStructuredData = [organizationSchema, websiteSchema, ...structuredData];
+    
+    // Generate geographic targeting information
+    let geoTargetingMeta: Array<{ name: string; content: string }> = [];
+    if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
+      const currentLang = pathname.split('/')[0] as SupportedLanguage || 'en';
+      const currentLanguageInfo = LANGUAGE_REGION_MAP[currentLang];
+      
+      if (currentLanguageInfo) {
+        const geoTargeting = getGeoTargeting(currentLang);
+        
+        // Add geographic targeting meta tags
+        geoTargetingMeta = [
+          { name: 'geo.region', content: geoTargeting.regions.join(', ') },
+          { name: 'geo.placename', content: geoTargeting.placenames.join(', ') },
+          { name: 'ICBM', content: '' }, // Will be populated if we add coordinates later
+        ].filter(meta => meta.content); // Remove empty content
+        
+        // Add enhanced organization schema with geographic data
+        const enhancedOrganizationSchema = {
+          ...organizationSchema,
+          areaServed: geoTargeting.regions.map(region => ({
+            '@type': 'Country',
+            identifier: region
+          })),
+          availableLanguage: effectiveAvailableLanguages.map(langCode => {
+            const lang = langCode as SupportedLanguage;
+            const langInfo = LANGUAGE_REGION_MAP[lang];
+            return {
+              '@type': 'Language',
+              name: langInfo?.language || lang,
+              alternateName: getAllLocales(lang)
+            };
+          })
+        };
+        
+        // Replace the basic organization schema with the enhanced one
+        const organizationIndex = allStructuredData.findIndex(
+          schema => schema['@type'] === 'Organization'
+        );
+        if (organizationIndex !== -1) {
+          allStructuredData[organizationIndex] = enhancedOrganizationSchema;
+        }
+      }
+    }
     
     // Add breadcrumb data if provided
     if (breadcrumbs && breadcrumbs.length > 0) {
@@ -262,7 +353,8 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       socialImageAlt,
       robotsContent,
       themeColor,
-      allStructuredData
+      allStructuredData,
+      geoTargetingMeta
     };
   }, [location.pathname, title, description, image, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview]);
   
@@ -273,7 +365,8 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     socialImageAlt,
     robotsContent,
     themeColor,
-    allStructuredData
+    allStructuredData,
+    geoTargetingMeta
   } = computedValues;
   
   // ==========================================================================
@@ -356,6 +449,11 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+      
+      {/* Geographic Targeting Meta Tags */}
+      {geoTargetingMeta.map((meta, index) => (
+        <meta key={`geo-${index}`} name={meta.name} content={meta.content} />
+      ))}
       
       {/* Additional Meta Tags */}
       {additionalMeta.map((meta, index) => {

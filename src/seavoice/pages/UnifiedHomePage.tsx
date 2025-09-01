@@ -4,6 +4,7 @@ import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones
 import { useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import SEOHelmet from '../../components/SEOHelmet';
 import VoiceDemo from '../components/VoiceDemo';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
@@ -11,6 +12,21 @@ const UnifiedHomePage = () => {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const { t, i18n } = useTranslation();
+  
+  // Get current language for canonical URL  
+  const currentLang = lang || i18n.language || 'en';
+  const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice`;
+  
+  // SEO configuration based on language
+  const getSEOContent = () => {
+    return {
+      title: t('seo.seavoice.homepage.title'),
+      description: t('seo.seavoice.homepage.description'),
+      keywords: t('seo.seavoice.homepage.keywords')
+    };
+  };
+  
+  const seoContent = getSEOContent();
   
   const [openFaqIndex, setOpenFaqIndex] = useState<number | string | null>(null);
   
@@ -416,6 +432,16 @@ const UnifiedHomePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={seoContent.title}
+        description={seoContent.description}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={canonicalUrl}
+        image="/seavoice-logo.png"
+        tags={seoContent.keywords.split(', ')}
+      />
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 py-24 lg:py-32 overflow-hidden">
         {/* Animated background elements */}

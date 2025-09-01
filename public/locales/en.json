@@ -17804,6 +17804,25 @@
     }
   },
   "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Omni-Channel Contact Center for Small Businesses",
+      "description": "Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses.",
+      "keywords": "omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AI-Powered Voice Communication - Seasalt.ai",
+        "description": "Transform your voice communications with AI. SeaVoice offers intelligent call routing, voice analytics, and automated responses. Handle customer calls 24/7 with human-like AI agents.",
+        "keywords": "AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service"
+      },
+      "virtualAssistant": {
+        "title": "24/7 Virtual Assistant | SeaVoice AI Voice Solutions - Seasalt.ai",
+        "description": "Provide round-the-clock customer service with SeaVoice AI Virtual Assistant. Intelligent voice agents handle customer inquiries, appointment scheduling, and support requests, improving satisfaction while reducing costs.",
+        "keywords": "virtual assistant, AI voice assistant, 24/7 customer service, intelligent customer service, SeaVoice, voice automation, customer service automation"
+      }
+    }
+  },
   "// Key structure: seavoice": {
     "pages": {
       "solutions": {
@@ -17882,33 +17901,5 @@
       "localPlus": "local +",
       "tollFreeMinus": "toll-free"
     }
-  },
-  "// Hero Section": "",
-  "// Features Section": "",
-  "// Feature Cards": "",
-  "// Campaign Types Section": "",
-  "// Campaign Type Cards": "",
-  "// Campaign Types Labels": "",
-  "// Scaling Capabilities Section": "",
-  "// Infrastructure Cards": "",
-  "// Scaling Capabilities List": "",
-  "// Campaign Dashboard": "",
-  "// Benefits Section": "",
-  "// Benefit Metrics": "",
-  "// CTA Section": "",
-  "// Subscription Renewals Page - English key-value pairs": "",
-  "// Renewal Process Section": "",
-  "// Renewal Process Steps": "",
-  "// Subscription Types Section": "",
-  "// Subscription Type Cards": "",
-  "// Subscription Types Labels": "",
-  "// Retention Section": "",
-  "// Retention Cards": "",
-  "// Retention Tactics": "",
-  "// Renewal Dashboard": "",
-  "// Large Scale Campaigns Page - Metric Values": "",
-  "// Dashboard Metrics Section": "",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue": "8,547",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue": "94.2%",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue": "67.8%"
+  }
 }

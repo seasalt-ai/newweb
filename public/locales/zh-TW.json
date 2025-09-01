@@ -18035,43 +18035,24 @@
       "accuracyRate": "準確率"
     }
   },
-  "// Large Scale Campaigns Page - Traditional Chinese key-value pairs": "",
-  "// Key structure: seavoice": {
-    "pages": {
-      "solutions": {
-        "outbound": {
-          "largeScaleCampaigns": "",
-          "subscriptionRenewals": ""
-        }
+  "// Large Scale Campaigns Page - 繁體中文 key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | 小型企業全通路聯絡中心",
+      "description": "停止切換多個應用程式。統一每一通電話、WhatsApp 和聊天於單一簡潔收件箱。專為小型企業量身打造的全方位聯絡中心。",
+      "keywords": "全通路聯絡中心, 小型企業溝通, 統一收件箱, 客服軟體, WhatsApp 商業, 語音通話, 聊天支援"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AI 語音通訊平台 - Seasalt.ai",
+        "description": "運用 AI 技術轉變您的語音通訊。SeaVoice 提供智慧通話路由、語音分析與自動回應功能。以類人 AI 客服代理 24/7 處理客戶來電。",
+        "keywords": "AI 語音, 客服中心軟體, 語音分析, SeaVoice, 智慧通話路由, 自動電話系統, 語音助理, 24/7 客戶服務"
+      },
+      "virtualAssistant": {
+        "title": "24/7 虛擬助理 | SeaVoice AI 語音解決方案 - Seasalt.ai",
+        "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服代理處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
+        "keywords": "虛擬助理, AI 語音助理, 24/7 客戶服務, 智慧客服, SeaVoice, 語音自動化, 客戶服務自動化"
       }
     }
-  },
-  "// Hero Section": "",
-  "// Features Section": "",
-  "// Feature Cards": "",
-  "// Campaign Types Section": "",
-  "// Campaign Type Cards": "",
-  "// Campaign Types Labels": "",
-  "// Scaling Capabilities Section": "",
-  "// Infrastructure Cards": "",
-  "// Scaling Capabilities List": "",
-  "// Campaign Dashboard": "",
-  "// Benefits Section": "",
-  "// Benefit Metrics": "",
-  "// CTA Section": "",
-  "// Subscription Renewals Page - Traditional Chinese key-value pairs": "",
-  "// Renewal Process Section": "",
-  "// Renewal Process Steps": "",
-  "// Subscription Types Section": "",
-  "// Subscription Type Cards": "",
-  "// Subscription Types Labels": "",
-  "// Retention Section": "",
-  "// Retention Cards": "",
-  "// Retention Tactics": "",
-  "// Renewal Dashboard": "",
-  "// Large Scale Campaigns Page - Metric Values - Traditional Chinese": "",
-  "// Dashboard Metrics Section": "",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue": "8,547",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue": "94.2%",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue": "67.8%"
+  }
 }

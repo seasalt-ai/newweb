@@ -324,15 +324,15 @@ const LargeScaleCampaignsPage = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCalls')}</span>
-                    <span className="font-semibold text-indigo-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue')}</span>
+                    <span className="font-semibold text-indigo-600">8,547</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRate')}</span>
-                    <span className="font-semibold text-green-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue')}</span>
+                    <span className="font-semibold text-green-600">94.2%</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRate')}</span>
-                    <span className="font-semibold text-blue-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue')}</span>
+                    <span className="font-semibold text-blue-600">67.8%</span>
                   </div>
                 </div>
               </div>

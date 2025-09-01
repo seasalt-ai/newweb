@@ -1,3 +1,4 @@
+// see docs/SEO-ENHANCEMENTS.md for context on SEO strategy
 export const SUPPORTED_LANGUAGES = ['ar', 'de', 'en', 'es', 'fa', 'fil', 'fr', 'hi', 'id', 'ja', 'ko', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'zh-CN', 'zh-TW'] as const;
 
 export type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number];

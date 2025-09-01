@@ -2,9 +2,28 @@
 import { motion } from 'framer-motion';
 import { Clock, Phone, Users, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
+import SEOHelmet from '../../../../components/SEOHelmet';
 
 const VirtualAssistantPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const location = useLocation();
+  
+  // Extract language from pathname
+  const pathParts = location.pathname.split('/');
+  const currentLang = pathParts[1] || i18n.language || 'en';
+  
+  // SEO configuration
+  const getSEOContent = () => {
+    return {
+      title: t('seo.seavoice.virtualAssistant.title'),
+      description: t('seo.seavoice.virtualAssistant.description'),
+      keywords: t('seo.seavoice.virtualAssistant.keywords')
+    };
+  };
+  
+  const seoContent = getSEOContent();
+  const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/solutions/inbound/virtual-assistant`;
   
   const features = [
     {
@@ -78,6 +97,16 @@ const VirtualAssistantPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={seoContent.title}
+        description={seoContent.description}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={canonicalUrl}
+        image="/seavoice-logo.png"
+        tags={seoContent.keywords.split(', ')}
+      />
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
