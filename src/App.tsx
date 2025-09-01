@@ -157,19 +157,11 @@ function HomePage() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
-  // Generate canonical URL for SEO
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${currentLanguage}` 
-    : `/${currentLanguage}`;
-  
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
-        description="Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses."
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
+        pageType="home" 
+        language={currentLanguage as any}
       />
       <Header />
       <Hero />
