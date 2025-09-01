@@ -1,5 +1,5 @@
 /**
- * Enhanced SEO Head Component for Seasalt.ai
+ * Enhanced SEO Helmet Component for Seasalt.ai
  * Based on SeaMeet's comprehensive SEO approach
  * 
  * This component provides complete SEO metadata management including:
@@ -12,28 +12,29 @@
  * - Favicon and theme metadata
  */
 
-import Head from 'next/head';
-import { useRouter } from 'next/router';
+import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 import { useMemo } from 'react';
-import { SEO_CONFIG, type PageType, type SeoMetadata } from '../../config/seo';
+import { BRAND_CONSTANTS, getSEOConfig, getCanonicalUrl, generateHreflangUrls, type SEOConfig } from '../../config/seo';
 import type { SupportedLanguage } from '../../constants/languages';
-import { 
-  generateCanonicalUrl,
-  generateHreflangUrls,
-  generatePageMetadata,
-  generateSocialImageUrl,
-  generateSocialImageAlt,
-  generateOrganizationStructuredData,
-  generateRobotsContent,
-  generateThemeColor,
-  SEOUtils
-} from '../../utils/seo-enhanced';
+
+// Type definitions for SEO
+export type PageType = 'home' | 'pricing' | 'seachat' | 'seax' | 'seavoice' | 'blog' | 'company' | 'channels' | 'industries';
+export interface SeoMetadata {
+  title: string;
+  description: string;
+  keywords?: string[];
+  ogTitle?: string;
+  ogDescription?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+}
 
 // =============================================================================
-// SEO Head Component Props Interface
+// SEO Helmet Component Props Interface
 // =============================================================================
 
-export interface SEOHeadProps {
+export interface SEOHelmetProps {
   /** Page type for SEO configuration */
   pageType?: PageType;
   
@@ -70,10 +71,10 @@ export interface SEOHeadProps {
 }
 
 // =============================================================================
-// Enhanced SEO Head Component
+// Enhanced SEO Helmet Component
 // =============================================================================
 
-export const SEOHead: React.FC<SEOHeadProps> = ({
+export const SEOHelmet: React.FC<SEOHelmetProps> = ({
   pageType = 'home',
   language = 'en',
   customSeo,
@@ -85,62 +86,117 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   canonicalUrl: customCanonicalUrl,
   additionalMeta = []
 }) => {
-  const router = useRouter();
+  const location = useLocation();
   
   // ==========================================================================
   // Computed SEO Values
   // ==========================================================================
   
   const computedValues = useMemo(() => {
-    // Get current pathname
-    const pathname = router.asPath.split('?')[0];
+    // Get current pathname and clean it
+    const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
     
-    // Generate page metadata
-    const metadata = generatePageMetadata(pageType, language, customSeo);
+    // Get base SEO config for this page
+    const seoConfig = getSEOConfig(pathname, language);
+    
+    // Merge with custom overrides
+    const metadata: SeoMetadata = {
+      title: customSeo?.title || seoConfig.title,
+      description: customSeo?.description || seoConfig.description,
+      keywords: customSeo?.keywords || (seoConfig.keywords ? seoConfig.keywords.split(', ') : []),
+      ogTitle: customSeo?.ogTitle,
+      ogDescription: customSeo?.ogDescription,
+      twitterTitle: customSeo?.twitterTitle,
+      twitterDescription: customSeo?.twitterDescription
+    };
     
     // Generate URLs
-    const canonicalUrl = customCanonicalUrl || generateCanonicalUrl(pathname, language);
+    const canonicalUrl = customCanonicalUrl || getCanonicalUrl(pathname, language);
     const hreflangUrls = generateHreflangUrls(pathname);
-    const socialImageUrl = generateSocialImageUrl(pageType, language, socialImage);
-    const socialImageAlt = generateSocialImageAlt(pageType, language);
+    
+    // Generate social image URL
+    const socialImageUrl = socialImage || seoConfig.image || BRAND_CONSTANTS.DEFAULT_IMAGE;
+    const fullSocialImageUrl = socialImageUrl.startsWith('http') ? 
+      socialImageUrl : `${BRAND_CONSTANTS.SITE_URL}${socialImageUrl}`;
+    
+    // Generate alt text for social image
+    const socialImageAlt = `${metadata.title} - ${BRAND_CONSTANTS.COMPANY_NAME}`;
     
     // Generate robots content
-    const robotsContent = generateRobotsContent(pageType, language, isPreview);
+    const robotsContent = isPreview ? 
+      'noindex, nofollow' : 
+      'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1';
     
-    // Generate theme color
-    const themeColor = generateThemeColor(language);
+    // Theme color
+    const themeColor = BRAND_CONSTANTS.THEME_COLOR;
+    
+    // Basic structured data for organization
+    const organizationSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: BRAND_CONSTANTS.COMPANY_NAME,
+      url: BRAND_CONSTANTS.SITE_URL,
+      logo: `${BRAND_CONSTANTS.SITE_URL}${BRAND_CONSTANTS.LOGO_URL}`,
+      sameAs: [
+        'https://twitter.com/seasalt_ai',
+        'https://linkedin.com/company/seasalt-ai'
+      ]
+    };
+    
+    // Website schema
+    const websiteSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: BRAND_CONSTANTS.COMPANY_NAME,
+      url: BRAND_CONSTANTS.SITE_URL
+    };
     
     // Combine all structured data
-    const allStructuredData = [...structuredData];
-    
-    // Add organization data for homepage
-    if (pageType === 'home') {
-      allStructuredData.push(generateOrganizationStructuredData(language));
-    }
+    const allStructuredData = [organizationSchema, websiteSchema, ...structuredData];
     
     // Add breadcrumb data if provided
     if (breadcrumbs && breadcrumbs.length > 0) {
-      const { generateBreadcrumbStructuredData } = SEOUtils;
-      allStructuredData.push(generateBreadcrumbStructuredData(breadcrumbs, language));
+      const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbs.map((crumb, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: crumb.name,
+          item: crumb.url
+        }))
+      };
+      allStructuredData.push(breadcrumbSchema);
     }
     
     // Add FAQ data if provided
     if (faqs && faqs.length > 0) {
-      const { generateFAQStructuredData } = SEOUtils;
-      allStructuredData.push(generateFAQStructuredData(faqs, language));
+      const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer
+          }
+        }))
+      };
+      allStructuredData.push(faqSchema);
     }
     
     return {
       metadata,
       canonicalUrl,
       hreflangUrls,
-      socialImageUrl,
+      socialImageUrl: fullSocialImageUrl,
       socialImageAlt,
       robotsContent,
       themeColor,
       allStructuredData
     };
-  }, [pageType, language, customSeo, router.asPath, customCanonicalUrl, socialImage, isPreview, structuredData, breadcrumbs, faqs]);
+  }, [pageType, language, customSeo, location.pathname, customCanonicalUrl, socialImage, isPreview, structuredData, breadcrumbs, faqs]);
   
   const {
     metadata,
@@ -158,7 +214,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   // ==========================================================================
   
   return (
-    <Head>
+    <Helmet>
       {/* Basic Meta Tags */}
       <title>{metadata.title}</title>
       <meta name="description" content={metadata.description} />
@@ -189,7 +245,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       <meta property="og:title" content={metadata.ogTitle || metadata.title} />
       <meta property="og:description" content={metadata.ogDescription || metadata.description} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:site_name" content={SEO_CONFIG.brand.name} />
+      <meta property="og:site_name" content={BRAND_CONSTANTS.COMPANY_NAME} />
       <meta property="og:locale" content={language === 'zh-TW' ? 'zh_TW' : `${language}_${language.toUpperCase()}`} />
       <meta property="og:image" content={socialImageUrl} />
       <meta property="og:image:alt" content={socialImageAlt} />
@@ -212,7 +268,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       <meta name="msapplication-TileColor" content={themeColor} />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content={SEO_CONFIG.brand.name} />
+      <meta name="apple-mobile-web-app-title" content={BRAND_CONSTANTS.COMPANY_NAME} />
       
       {/* Favicons and Icons */}
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -263,18 +319,39 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       {/* Security Headers */}
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="referrer" content="strict-origin-when-cross-origin" />
-    </Head>
+    </Helmet>
   );
 };
 
 // =============================================================================
-// Hook for SEO Metadata Validation
+// Simple SEO Metadata Validation Hook
 // =============================================================================
 
 export const useSEOValidation = (metadata: SeoMetadata) => {
   return useMemo(() => {
-    const { validateSeoMetadata } = SEOUtils;
-    return validateSeoMetadata(metadata);
+    const validation = {
+      isValid: true,
+      warnings: [] as string[],
+      errors: [] as string[]
+    };
+    
+    // Basic validation
+    if (!metadata.title || metadata.title.length < 10) {
+      validation.warnings.push('Title should be at least 10 characters long');
+    }
+    if (metadata.title && metadata.title.length > 60) {
+      validation.warnings.push('Title should be no more than 60 characters for optimal SEO');
+    }
+    if (!metadata.description || metadata.description.length < 50) {
+      validation.warnings.push('Description should be at least 50 characters long');
+    }
+    if (metadata.description && metadata.description.length > 160) {
+      validation.warnings.push('Description should be no more than 160 characters for optimal SEO');
+    }
+    
+    validation.isValid = validation.errors.length === 0;
+    
+    return validation;
   }, [metadata]);
 };
 
@@ -282,4 +359,4 @@ export const useSEOValidation = (metadata: SeoMetadata) => {
 // Default Export
 // =============================================================================
 
-export default SEOHead;
+export default SEOHelmet;
