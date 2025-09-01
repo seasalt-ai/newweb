@@ -63,6 +63,7 @@ import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from './constants/languages';
 import FaviconManager from './components/FaviconManager';
 import ScrollToTop from './components/ScrollToTop';
+import GTMTracker from './components/GTMTracker';
 
 // Component to handle SeaChat redirects
 const SeaChatRedirect = () => {
@@ -197,6 +198,7 @@ function App() {
 
   return (
     <Router basename={basename}>
+      <GTMTracker />
       <ScrollToTop />
       <FaviconManager>
         <Routes>
