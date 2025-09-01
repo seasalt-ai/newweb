@@ -157,11 +157,32 @@ function HomePage() {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
+  // Define homepage SEO content based on language
+  const getHomePageSEO = () => {
+    if (currentLanguage === 'zh-TW') {
+      return {
+        title: 'Seasalt.ai | 小型企業的全通路聯絡中心',
+        description: '停止在多個應用程式之間切換。將每通客戶電話、WhatsApp 和聊天統一到一個簡單的收件匣中。專為小型企業打造的一站式聯絡中心。',
+        image: '/seasalt-ai-homepage-og.png'
+      };
+    }
+    return {
+      title: 'Seasalt.ai | Omni-Channel Contact Center for Small Businesses',
+      description: 'Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses.',
+      image: '/seasalt-ai-homepage-og.png'
+    };
+  };
+  
+  const seo = getHomePageSEO();
+  
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        pageType="home" 
-        language={currentLanguage as any}
+        title={seo.title}
+        description={seo.description}
+        favicon="/seasalt-ai-favicon.ico"
+        image={seo.image}
+        availableLanguages={SUPPORTED_LANGUAGES}
       />
       <Header />
       <Hero />
