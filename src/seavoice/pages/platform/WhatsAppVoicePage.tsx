@@ -3,78 +3,78 @@ import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { MessageSquare, Globe, Users, Shield, CheckCircle, Smartphone } from 'lucide-react';
 const WhatsAppVoicePage = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const features = [
     {
       icon: MessageSquare,
-      title: 'WhatsApp Business API',
-      description: 'Official integration with WhatsApp Business API for verified business communications.',
-      benefits: ['Green checkmark verification', 'Business profile features', 'Message templates']
+      title: t('seavoice.platform.whatsAppVoice.features.0.title'),
+      description: t('seavoice.platform.whatsAppVoice.features.0.description'),
+      benefits: [t('seavoice.platform.whatsAppVoice.features.0.benefits.0'), t('seavoice.platform.whatsAppVoice.features.0.benefits.1'), t('seavoice.platform.whatsAppVoice.features.0.benefits.2')]
     },
     {
       icon: Globe,
-      title: 'Global Reach',
-      description: 'Connect with 2+ billion WhatsApp users worldwide through voice calling.',
-      benefits: ['180+ countries supported', 'Multi-language capabilities', 'Local number presence']
+      title: t('seavoice.platform.whatsAppVoice.features.1.title'),
+      description: t('seavoice.platform.whatsAppVoice.features.1.description'),
+      benefits: [t('seavoice.platform.whatsAppVoice.features.1.benefits.0'), t('seavoice.platform.whatsAppVoice.features.1.benefits.1'), t('seavoice.platform.whatsAppVoice.features.1.benefits.2')]
     },
     {
       icon: Shield,
-      title: 'End-to-End Security',
-      description: 'Leverage WhatsApp\'s end-to-end encryption for secure business communications.',
-      benefits: ['Message encryption', 'Secure voice calls', 'Privacy compliance']
+      title: t('seavoice.platform.whatsAppVoice.features.2.title'),
+      description: t('seavoice.platform.whatsAppVoice.features.2.description'),
+      benefits: [t('seavoice.platform.whatsAppVoice.features.2.benefits.0'), t('seavoice.platform.whatsAppVoice.features.2.benefits.1'), t('seavoice.platform.whatsAppVoice.features.2.benefits.2')]
     }
   ];
 
   const globalStats = [
-    { region: 'Global Users', count: '2.78B+', growth: '+3.2% YoY' },
-    { region: 'Business Accounts', count: '200M+', growth: '+15% YoY' },
-    { region: 'Daily Messages', count: '100B+', growth: '+8% YoY' },
-    { region: 'Countries', count: '180+', growth: 'Full Coverage' }
+    { region: t('seavoice.platform.whatsAppVoice.globalStats.stats.0.region'), count: t('seavoice.platform.whatsAppVoice.globalStats.stats.0.count'), growth: t('seavoice.platform.whatsAppVoice.globalStats.stats.0.growth') },
+    { region: t('seavoice.platform.whatsAppVoice.globalStats.stats.1.region'), count: t('seavoice.platform.whatsAppVoice.globalStats.stats.1.count'), growth: t('seavoice.platform.whatsAppVoice.globalStats.stats.1.growth') },
+    { region: t('seavoice.platform.whatsAppVoice.globalStats.stats.2.region'), count: t('seavoice.platform.whatsAppVoice.globalStats.stats.2.count'), growth: t('seavoice.platform.whatsAppVoice.globalStats.stats.2.growth') },
+    { region: t('seavoice.platform.whatsAppVoice.globalStats.stats.3.region'), count: t('seavoice.platform.whatsAppVoice.globalStats.stats.3.count'), growth: t('seavoice.platform.whatsAppVoice.globalStats.stats.3.growth') }
   ];
 
   const useCases = [
     {
-      title: 'Customer Support',
-      description: 'Provide instant voice support directly within WhatsApp conversations.',
-      metrics: ['60% faster resolution', '95% customer satisfaction', 'Seamless escalation']
+      title: t('seavoice.platform.whatsAppVoice.useCases.0.title'),
+      description: t('seavoice.platform.whatsAppVoice.useCases.0.description'),
+      metrics: [t('seavoice.platform.whatsAppVoice.useCases.0.metrics.0'), t('seavoice.platform.whatsAppVoice.useCases.0.metrics.1'), t('seavoice.platform.whatsAppVoice.useCases.0.metrics.2')]
     },
     {
-      title: 'Sales & Consultations',
-      description: 'Convert chat inquiries to voice calls for personalized sales experiences.',
-      metrics: ['4x higher conversion', 'Personal touch', 'Trust building']
+      title: t('seavoice.platform.whatsAppVoice.useCases.1.title'),
+      description: t('seavoice.platform.whatsAppVoice.useCases.1.description'),
+      metrics: [t('seavoice.platform.whatsAppVoice.useCases.1.metrics.0'), t('seavoice.platform.whatsAppVoice.useCases.1.metrics.1'), t('seavoice.platform.whatsAppVoice.useCases.1.metrics.2')]
     },
     {
-      title: 'Appointment Booking',
-      description: 'Enable voice-based appointment scheduling within WhatsApp Business.',
-      metrics: ['One-tap booking', 'Calendar sync', 'Automated confirmations']
+      title: t('seavoice.platform.whatsAppVoice.useCases.2.title'),
+      description: t('seavoice.platform.whatsAppVoice.useCases.2.description'),
+      metrics: [t('seavoice.platform.whatsAppVoice.useCases.2.metrics.0'), t('seavoice.platform.whatsAppVoice.useCases.2.metrics.1'), t('seavoice.platform.whatsAppVoice.useCases.2.metrics.2')]
     },
     {
-      title: 'Order Management',
-      description: 'Handle order inquiries, updates, and support through voice interactions.',
-      metrics: ['Real-time updates', 'Order tracking', 'Issue resolution']
+      title: t('seavoice.platform.whatsAppVoice.useCases.3.title'),
+      description: t('seavoice.platform.whatsAppVoice.useCases.3.description'),
+      metrics: [t('seavoice.platform.whatsAppVoice.useCases.3.metrics.0'), t('seavoice.platform.whatsAppVoice.useCases.3.metrics.1'), t('seavoice.platform.whatsAppVoice.useCases.3.metrics.2')]
     }
   ];
 
   const integrationSteps = [
     {
       step: 1,
-      title: 'WhatsApp Business Setup',
-      description: 'Connect your WhatsApp Business account or create a new verified business profile.'
+      title: t('seavoice.platform.whatsAppVoice.integration.steps.0.title'),
+      description: t('seavoice.platform.whatsAppVoice.integration.steps.0.description')
     },
     {
       step: 2,
-      title: 'Voice Agent Configuration',
-      description: 'Configure AI voice agents with your business logic, scripts, and brand voice.'
+      title: t('seavoice.platform.whatsAppVoice.integration.steps.1.title'),
+      description: t('seavoice.platform.whatsAppVoice.integration.steps.1.description')
     },
     {
       step: 3,
-      title: 'API Integration',
-      description: 'Integrate with your existing systems using our comprehensive API and webhooks.'
+      title: t('seavoice.platform.whatsAppVoice.integration.steps.2.title'),
+      description: t('seavoice.platform.whatsAppVoice.integration.steps.2.description')
     },
     {
       step: 4,
-      title: 'Go Live',
-      description: 'Launch your voice-enabled WhatsApp Business and start engaging customers.'
+      title: t('seavoice.platform.whatsAppVoice.integration.steps.3.title'),
+      description: t('seavoice.platform.whatsAppVoice.integration.steps.3.description')
     }
   ];
 
@@ -95,18 +95,17 @@ const WhatsAppVoicePage = () => {
               </div>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              WhatsApp Voice API for Businesses
+              {t('seavoice.platform.whatsAppVoice.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Transform your WhatsApp Business account with AI-powered voice calling. 
-              Reach 2+ billion users worldwide with seamless voice interactions.
+              {t('seavoice.platform.whatsAppVoice.hero.subtitle')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
             >
-              Get WhatsApp Business API
+              {t('seavoice.platform.whatsAppVoice.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -123,10 +122,10 @@ const WhatsAppVoicePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Reach the World's Largest Messaging Platform
+              {t('seavoice.platform.whatsAppVoice.globalStats.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              WhatsApp dominates global messaging with unprecedented reach and engagement
+              {t('seavoice.platform.whatsAppVoice.globalStats.subtitle')}
             </p>
           </motion.div>
 
@@ -160,10 +159,10 @@ const WhatsAppVoicePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Enterprise WhatsApp Voice Features
+              {t('seavoice.platform.whatsAppVoice.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Everything you need to provide exceptional voice experiences on WhatsApp
+              {t('seavoice.platform.whatsAppVoice.features.subtitle')}
             </p>
           </motion.div>
 
@@ -207,10 +206,10 @@ const WhatsAppVoicePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Transform Customer Interactions
+              {t('seavoice.platform.whatsAppVoice.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how businesses use WhatsApp Voice API to enhance customer relationships
+              {t('seavoice.platform.whatsAppVoice.useCases.subtitle')}
             </p>
           </motion.div>
 
@@ -251,10 +250,10 @@ const WhatsAppVoicePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Simple Integration Process
+              {t('seavoice.platform.whatsAppVoice.integration.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Get started with WhatsApp Voice API in just four steps
+              {t('seavoice.platform.whatsAppVoice.integration.subtitle')}
             </p>
           </motion.div>
 
@@ -290,33 +289,31 @@ const WhatsAppVoicePage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                See It in Action
+                {t('seavoice.platform.whatsAppVoice.demo.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Experience how seamlessly voice calling integrates with WhatsApp Business. 
-                Our AI agents can handle complex conversations while maintaining the familiar 
-                WhatsApp experience your customers love.
+                {t('seavoice.platform.whatsAppVoice.demo.subtitle')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Smartphone className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">One-Tap Calling</h3>
-                    <p className="text-gray-600">Customers can initiate voice calls directly from chat</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.whatsAppVoice.demo.features.0.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.features.0.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Users className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Seamless Handoff</h3>
-                    <p className="text-gray-600">Smooth transition between AI and human agents</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.whatsAppVoice.demo.features.1.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.features.1.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <MessageSquare className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Unified History</h3>
-                    <p className="text-gray-600">Complete conversation history across chat and voice</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.whatsAppVoice.demo.features.2.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.features.2.description')}</p>
                   </div>
                 </div>
               </div>
@@ -330,28 +327,28 @@ const WhatsAppVoicePage = () => {
               className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200"
             >
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-lg font-semibold text-gray-900">WhatsApp Business Dashboard</h3>
+                <h3 className="text-lg font-semibold text-gray-900">{t('seavoice.platform.whatsAppVoice.demo.dashboard.title')}</h3>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm text-gray-600">Live</span>
+                  <span className="text-sm text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.liveStatus')}</span>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Active Voice Calls</span>
-                  <span className="font-semibold text-2xl text-green-600">89</span>
+                  <span className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.activeVoiceCalls.label')}</span>
+                  <span className="font-semibold text-2xl text-green-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.activeVoiceCalls.value')}</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Messages Today</span>
-                  <span className="font-semibold text-green-600">2,847</span>
+                  <span className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.messagesToday.label')}</span>
+                  <span className="font-semibold text-green-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.messagesToday.value')}</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Response Rate</span>
-                  <span className="font-semibold text-green-600">96%</span>
+                  <span className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.responseRate.label')}</span>
+                  <span className="font-semibold text-green-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.responseRate.value')}</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Customer Satisfaction</span>
-                  <span className="font-semibold text-green-600">4.9/5</span>
+                  <span className="text-gray-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.customerSatisfaction.label')}</span>
+                  <span className="font-semibold text-green-600">{t('seavoice.platform.whatsAppVoice.demo.dashboard.stats.customerSatisfaction.value')}</span>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg">
@@ -359,11 +356,10 @@ const WhatsAppVoicePage = () => {
                   <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center mr-3">
                     <MessageSquare className="w-4 h-4 text-white" />
                   </div>
-                  <span className="font-semibold text-gray-900">AI Assistant</span>
+                  <span className="font-semibold text-gray-900">{t('seavoice.platform.whatsAppVoice.demo.aiAssistant.name')}</span>
                 </div>
                 <p className="text-sm text-gray-700 italic">
-                  "Hi! I'm here to help with your order. Would you like to speak with me directly? 
-                  Just tap the call button above!"
+                  "{t('seavoice.platform.whatsAppVoice.demo.aiAssistant.message')}"
                 </p>
               </div>
             </motion.div>
@@ -380,9 +376,9 @@ const WhatsAppVoicePage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Transform WhatsApp Business?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.platform.whatsAppVoice.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of businesses using WhatsApp Voice API to provide exceptional customer experiences
+              {t('seavoice.platform.whatsAppVoice.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -395,7 +391,7 @@ const WhatsAppVoicePage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Get Started Today
+                  {t('seavoice.platform.whatsAppVoice.cta.primaryButton')}
                 </motion.button>
               </a>
               <a
@@ -408,7 +404,7 @@ const WhatsAppVoicePage = () => {
                   whileTap={{ scale: 0.95 }}
                   className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
                 >
-                  Schedule Demo
+                  {t('seavoice.platform.whatsAppVoice.cta.secondaryButton')}
                 </motion.button>
               </a>
             </div>

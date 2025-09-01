@@ -1,66 +1,109 @@
 
 import { motion } from 'framer-motion';
 import { Package, MapPin, Clock, BarChart3, CheckCircle, Truck } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const OrderTrackingPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Package,
-      title: 'Real-Time Order Status',
-      description: 'Instantly provide customers with up-to-date information about their orders and shipments.',
-      benefits: ['Live tracking updates', 'Delivery estimates', 'Status notifications']
+      title: t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.liveTracking'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.deliveryEstimates'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.statusNotifications')
+      ]
     },
     {
       icon: MapPin,
-      title: 'Location Tracking',
-      description: 'Share precise location information and delivery progress with customers.',
-      benefits: ['GPS tracking', 'Route optimization', 'Delivery mapping']
+      title: t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.gpsTracking'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.routeOptimization'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.deliveryMapping')
+      ]
     },
     {
       icon: Clock,
-      title: 'Proactive Updates',
-      description: 'Automatically notify customers of delays, changes, or delivery confirmations.',
-      benefits: ['Delay notifications', 'Schedule changes', 'Delivery confirmations']
+      title: t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.delayNotifications'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.scheduleChanges'),
+        t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.deliveryConfirmations')
+      ]
     }
   ];
 
   const trackingCapabilities = [
     {
-      stage: 'Order Placed',
-      description: 'Confirmation of order receipt and processing start',
-      information: ['Order number', 'Items ordered', 'Processing timeline']
+      stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.description'),
+      information: [
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.orderNumber'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.itemsOrdered'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.processingTimeline')
+      ]
     },
     {
-      stage: 'In Transit',
-      description: 'Package is on its way to the destination',
-      information: ['Current location', 'Expected delivery', 'Carrier information']
+      stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.description'),
+      information: [
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.currentLocation'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.expectedDelivery'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.carrierInformation')
+      ]
     },
     {
-      stage: 'Out for Delivery',
-      description: 'Package is with delivery driver for final delivery',
-      information: ['Delivery window', 'Driver contact', 'Special instructions']
+      stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.description'),
+      information: [
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.deliveryWindow'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.driverContact'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.specialInstructions')
+      ]
     },
     {
-      stage: 'Delivered',
-      description: 'Package has been successfully delivered',
-      information: ['Delivery time', 'Delivery location', 'Signature confirmation']
+      stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.title'),
+      description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.description'),
+      information: [
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.deliveryTime'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.deliveryLocation'),
+        t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.signatureConfirmation')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '85%', description: 'Reduction in "Where is my order?" calls' },
-    { metric: '95%', description: 'Customer satisfaction with tracking info' },
-    { metric: '24/7', description: 'Order status availability' },
-    { metric: '60%', description: 'Decrease in customer service workload' }
+    { 
+      metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.callReduction.metric'), 
+      description: t('seavoice.pages.solutions.inbound.orderTracking.impact.callReduction.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.satisfaction.metric'), 
+      description: t('seavoice.pages.solutions.inbound.orderTracking.impact.satisfaction.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.availability.metric'), 
+      description: t('seavoice.pages.solutions.inbound.orderTracking.impact.availability.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.workloadReduction.metric'), 
+      description: t('seavoice.pages.solutions.inbound.orderTracking.impact.workloadReduction.description') 
+    }
   ];
 
   const integrations = [
-    'FedEx API',
-    'UPS Tracking',
-    'USPS Integration',
-    'DHL Services',
-    'Amazon Logistics',
-    'Custom Carriers'
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.fedex'),
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.ups'),
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.usps'),
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.dhl'),
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.amazon'),
+    t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.custom')
   ];
 
   return (
@@ -78,19 +121,17 @@ const OrderTrackingPage = () => {
               <Package className="w-16 h-16 text-green-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Order Status & Tracking
+              {t('seavoice.pages.solutions.inbound.orderTracking.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Let customers instantly check their order status, track shipments, and get 
-              delivery updates through natural voice conversations. Reduce support calls 
-              while improving customer satisfaction.
+              {t('seavoice.pages.solutions.inbound.orderTracking.hero.subtitle')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
             >
-              Enable Order Tracking
+              {t('seavoice.pages.solutions.inbound.orderTracking.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -107,10 +148,10 @@ const OrderTrackingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Comprehensive Order Tracking
+              {t('seavoice.pages.solutions.inbound.orderTracking.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Complete visibility into order status and delivery progress
+              {t('seavoice.pages.solutions.inbound.orderTracking.features.subtitle')}
             </p>
           </motion.div>
 
@@ -154,10 +195,10 @@ const OrderTrackingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Complete Delivery Journey
+              {t('seavoice.pages.solutions.inbound.orderTracking.tracking.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Track every stage from order placement to final delivery
+              {t('seavoice.pages.solutions.inbound.orderTracking.tracking.subtitle')}
             </p>
           </motion.div>
 
@@ -203,32 +244,31 @@ const OrderTrackingPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Universal Carrier Integration
+                {t('seavoice.pages.solutions.inbound.orderTracking.integration.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Connect with all major shipping carriers and logistics providers to provide 
-                comprehensive tracking information regardless of how packages are shipped.
+                {t('seavoice.pages.solutions.inbound.orderTracking.integration.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Truck className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Multi-Carrier Support</h3>
-                    <p className="text-gray-600">Track packages across all major carriers</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.multiCarrier.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.multiCarrier.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Real-Time Updates</h3>
-                    <p className="text-gray-600">Live tracking data from carrier APIs</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.realTimeUpdates.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.realTimeUpdates.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Delivery Analytics</h3>
-                    <p className="text-gray-600">Performance insights and delivery metrics</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.deliveryAnalytics.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.deliveryAnalytics.description')}</p>
                   </div>
                 </div>
               </div>
@@ -241,7 +281,7 @@ const OrderTrackingPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Supported Carriers</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.title')}</h3>
               <div className="grid grid-cols-2 gap-3">
                 {integrations.map((integration, index) => (
                   <div key={index} className="flex items-center p-3 bg-white rounded-lg shadow-sm">
@@ -266,10 +306,10 @@ const OrderTrackingPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Customer Service Impact
+              {t('seavoice.pages.solutions.inbound.orderTracking.impact.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Measurable improvements in customer satisfaction and support efficiency
+              {t('seavoice.pages.solutions.inbound.orderTracking.impact.subtitle')}
             </p>
           </motion.div>
 
@@ -300,9 +340,9 @@ const OrderTrackingPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Automate Order Tracking?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.orderTracking.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Reduce support calls and improve customer satisfaction with instant order status
+              {t('seavoice.pages.solutions.inbound.orderTracking.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -310,14 +350,14 @@ const OrderTrackingPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.pages.solutions.inbound.orderTracking.cta.startTrial')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
               >
-                See Demo
+                {t('seavoice.pages.solutions.inbound.orderTracking.cta.seeDemo')}
               </motion.button>
             </div>
           </motion.div>

@@ -1,6 +1,8 @@
 import { Shield, AlertTriangle, CheckCircle, Clock, Phone, BarChart3 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const FraudAlertsPage = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -8,9 +10,9 @@ const FraudAlertsPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Shield className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl font-bold mb-6">Fraud Alert System</h1>
+            <h1 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.fraudAlerts.hero.title')}</h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Protect your customers with instant fraud alerts. Our AI-powered system detects suspicious activities and automatically contacts customers to verify transactions.
+              {t('seavoice.pages.solutions.outbound.fraudAlerts.hero.description')}
             </p>
           </div>
         </div>
@@ -20,34 +22,34 @@ const FraudAlertsPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Advanced Fraud Detection</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.features.title')}</h2>
             <p className="text-xl text-gray-600">
-              Real-time monitoring and intelligent alerting to protect your customers
+              {t('seavoice.pages.solutions.outbound.fraudAlerts.features.subtitle')}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <AlertTriangle className="w-12 h-12 text-red-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-4">Real-time Detection</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.features.realTimeDetection.title')}</h3>
               <p className="text-gray-600">
-                Monitor transactions 24/7 and detect suspicious patterns instantly using advanced AI algorithms.
+                {t('seavoice.pages.solutions.outbound.fraudAlerts.features.realTimeDetection.description')}
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <Phone className="w-12 h-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-4">Instant Alerts</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.features.instantAlerts.title')}</h3>
               <p className="text-gray-600">
-                Automatically call customers within minutes of detecting suspicious activity to verify transactions.
+                {t('seavoice.pages.solutions.outbound.fraudAlerts.features.instantAlerts.description')}
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <BarChart3 className="w-12 h-12 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-4">Detailed Analytics</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.features.detailedAnalytics.title')}</h3>
               <p className="text-gray-600">
-                Track fraud prevention metrics and customer response rates with comprehensive reporting.
+                {t('seavoice.pages.solutions.outbound.fraudAlerts.features.detailedAnalytics.description')}
               </p>
             </div>
           </div>
@@ -57,7 +59,7 @@ const FraudAlertsPage = () => {
       {/* How It Works Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-16">How Fraud Alerts Work</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.title')}</h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -67,8 +69,8 @@ const FraudAlertsPage = () => {
                     <span className="text-red-600 font-bold">1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2">Fraud Detection</h3>
-                    <p className="text-gray-600">System identifies suspicious transaction patterns</p>
+                    <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step1.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step1.description')}</p>
                   </div>
                 </div>
 
@@ -77,8 +79,8 @@ const FraudAlertsPage = () => {
                     <span className="text-orange-600 font-bold">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2">Immediate Alert</h3>
-                    <p className="text-gray-600">AI agent calls customer within 2 minutes</p>
+                    <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step2.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step2.description')}</p>
                   </div>
                 </div>
 
@@ -87,8 +89,8 @@ const FraudAlertsPage = () => {
                     <span className="text-blue-600 font-bold">3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2">Verification</h3>
-                    <p className="text-gray-600">Customer confirms or denies the transaction</p>
+                    <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step3.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step3.description')}</p>
                   </div>
                 </div>
 
@@ -97,20 +99,18 @@ const FraudAlertsPage = () => {
                     <span className="text-green-600 font-bold">4</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2">Action Taken</h3>
-                    <p className="text-gray-600">Transaction approved or security measures activated</p>
+                    <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step4.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.step4.description')}</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-xl">
-              <h3 className="text-xl font-semibold mb-4">Sample Alert Call</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.sampleCall.title')}</h3>
               <div className="bg-white p-4 rounded-lg shadow-sm">
                 <p className="text-gray-700 italic">
-                  "Hello, this is a security alert from [Bank Name]. We've detected unusual activity on your account. 
-                  A transaction of $500 at Amazon was just attempted. Did you authorize this purchase? 
-                  Please press 1 to confirm or 2 if this was not you."
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.howItWorks.sampleCall.message')}
                 </p>
               </div>
             </div>
@@ -121,39 +121,39 @@ const FraudAlertsPage = () => {
       {/* Benefits Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-16">Key Benefits</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.title')}</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-red-600" />
               </div>
-              <h3 className="font-semibold mb-2">Fraud Prevention</h3>
-              <p className="text-gray-600">Reduce fraudulent transactions by up to 85%</p>
+              <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.fraudPrevention.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.fraudPrevention.description')}</p>
             </div>
 
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-blue-600" />
               </div>
-              <h3 className="font-semibold mb-2">Instant Response</h3>
-              <p className="text-gray-600">Alert customers within 2 minutes of detection</p>
+              <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.instantResponse.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.instantResponse.description')}</p>
             </div>
 
             <div className="text-center">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-green-600" />
               </div>
-              <h3 className="font-semibold mb-2">Customer Trust</h3>
-              <p className="text-gray-600">Build confidence with proactive protection</p>
+              <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.customerTrust.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.customerTrust.description')}</p>
             </div>
 
             <div className="text-center">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BarChart3 className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="font-semibold mb-2">Smart Analytics</h3>
-              <p className="text-gray-600">Detailed insights on fraud patterns and trends</p>
+              <h3 className="font-semibold mb-2">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.smartAnalytics.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.pages.solutions.outbound.fraudAlerts.benefits.smartAnalytics.description')}</p>
             </div>
           </div>
         </div>
@@ -162,49 +162,49 @@ const FraudAlertsPage = () => {
       {/* Use Cases Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-16">Common Use Cases</h2>
+          <h2 className="text-3xl font-bold text-center mb-16">{t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.title')}</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg border">
-              <h3 className="text-xl font-semibold mb-4">Banking & Financial Services</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.banking.title')}</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Credit card fraud detection
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.banking.item1')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Unusual spending pattern alerts
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.banking.item2')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Account takeover prevention
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.banking.item3')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Large transaction verification
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.banking.item4')}
                 </li>
               </ul>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border">
-              <h3 className="text-xl font-semibold mb-4">E-commerce & Retail</h3>
+              <h3 className="text-xl font-semibold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.ecommerce.title')}</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Suspicious purchase patterns
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.ecommerce.item1')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  High-value order verification
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.ecommerce.item2')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Identity theft protection
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.ecommerce.item3')}
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Payment method changes
+                  {t('seavoice.pages.solutions.outbound.fraudAlerts.useCases.ecommerce.item4')}
                 </li>
               </ul>
             </div>
@@ -215,12 +215,12 @@ const FraudAlertsPage = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-red-600 to-orange-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Protect Your Customers Today</h2>
+          <h2 className="text-3xl font-bold mb-4">{t('seavoice.pages.solutions.outbound.fraudAlerts.cta.title')}</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Implement advanced fraud detection with automated customer alerts to reduce losses and build trust.
+            {t('seavoice.pages.solutions.outbound.fraudAlerts.cta.description')}
           </p>
           <button className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-            Get Started with Fraud Alerts
+            {t('seavoice.pages.solutions.outbound.fraudAlerts.cta.button')}
           </button>
         </div>
       </section>

@@ -1,20 +1,33 @@
 # I18n Translation Coverage Analysis Report
 
+<<<<<<< HEAD
 Generated: 2025-08-31T15:33:56.290Z
+=======
+Generated: 2025-08-30T22:50:58.093Z
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Executive Summary
 
 - **Languages Analyzed**: 20
+<<<<<<< HEAD
 - **Base Language (en) Keys**: 7519
 - **Components Analyzed**: 209
 - **Translation Coverage**: 97.46%
 - **Missing Keys**: 180
 - **Hardcoded Strings Found**: 2265
+=======
+- **Base Language (en) Keys**: 8518
+- **Components Analyzed**: 206
+- **Translation Coverage**: 98.77%
+- **Missing Keys**: 97
+- **Hardcoded Strings Found**: 1957
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Translation Files Status
 
 | Language | Total Keys | Coverage vs Base | Status |
 |----------|------------|------------------|--------|
+<<<<<<< HEAD
 | ar | 909 | 11.76% | ❌ Incomplete |
 | de | 887 | 11.46% | ❌ Incomplete |
 | en | 7519 | 100.00% | ✅ Good |
@@ -35,17 +48,48 @@ Generated: 2025-08-31T15:33:56.290Z
 | vi | 739 | 9.52% | ❌ Incomplete |
 | zh-CN | 802 | 10.36% | ❌ Incomplete |
 | zh-TW | 7617 | 99.97% | ✅ Good |
+=======
+| ar | 909 | 10.39% | ❌ Incomplete |
+| de | 887 | 10.13% | ❌ Incomplete |
+| en | 8518 | 100.00% | ✅ Good |
+| es | 835 | 9.52% | ❌ Incomplete |
+| fa | 755 | 8.59% | ❌ Incomplete |
+| fil | 739 | 8.39% | ❌ Incomplete |
+| fr | 739 | 8.39% | ❌ Incomplete |
+| hi | 690 | 7.82% | ❌ Incomplete |
+| id | 690 | 7.82% | ❌ Incomplete |
+| ja | 690 | 7.83% | ❌ Incomplete |
+| ko | 690 | 7.82% | ❌ Incomplete |
+| ms | 690 | 7.82% | ❌ Incomplete |
+| pl | 676 | 7.65% | ❌ Incomplete |
+| pt | 676 | 7.65% | ❌ Incomplete |
+| ru | 676 | 7.65% | ❌ Incomplete |
+| ta | 739 | 8.39% | ❌ Incomplete |
+| th | 679 | 7.69% | ❌ Incomplete |
+| vi | 739 | 8.39% | ❌ Incomplete |
+| zh-CN | 802 | 9.15% | ❌ Incomplete |
+| zh-TW | 8521 | 99.61% | ✅ Good |
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 ## Priority Actions Required
 
 ### 1. Add missing translation keys to base language
 **Category**: Translation Structure
+<<<<<<< HEAD
 **Description**: 180 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
 
 ### 2. Replace hardcoded strings with translation keys
 **Category**: Hardcoded Strings
 **Description**: Found 2265 hardcoded strings that should be internationalized
+=======
+**Description**: 97 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: hero.title, industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3...
+
+### 2. Replace hardcoded strings with translation keys
+**Category**: Hardcoded Strings
+**Description**: Found 1957 hardcoded strings that should be internationalized
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 **Action**: Review and replace hardcoded strings with t() function calls
 
 
@@ -55,6 +99,7 @@ Generated: 2025-08-31T15:33:56.290Z
 The following keys are used in components but missing from the base language file:
 
 ```
+hero.title
 industriesData.ecommerce.benefits.0
 industriesData.ecommerce.benefits.1
 industriesData.ecommerce.benefits.2
@@ -105,8 +150,11 @@ company.timeline.list.2.event
 company.timeline.list.3.event
 company.timeline.list.4.event
 pricing.legacy.enterprise.period
+<<<<<<< HEAD
 channels.sms.hero.title.prefix
 channels.sms.hero.title.highlight
+=======
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 seachat.features.voiceAgents.featuresList
 seachat.integrations.calendar.customerRequest
 seachat.integrations.calendar.aiResponse1
@@ -114,6 +162,7 @@ seachat.integrations.calendar.aiResponse2
 seachat.solutions.realEstate.integrations
 seachat.solutions.saas.integrations
 seachat.solutions.travel.integrations
+<<<<<<< HEAD
 seax.channelTemplate.pricing.title
 seax.channelTemplate.pricing.subtitle
 seax.channelTemplate.pricing.setup
@@ -235,13 +284,58 @@ seax.channels.smsTollFree.pricing
 seax.channels.voice.features.items
 seax.channels.voice.useCases.items
 seax.channels.voice.pricing
+=======
+seavoice.pricing.plans.custom.period
+seavoice.home.useCases.title
+seavoice.home.howItWorks.title
+seavoice.home.howItWorks.title.prefix
+seavoice.home.seachat.title
+seavoice.home.faq.title
+seavoice.pages.solutions.outbound.proactiveSupport.benefits.reactiveCallsReduction.metric
+seavoice.pages.solutions.outbound.proactiveSupport.benefits.reactiveCallsReduction.description
+seavoice.pages.solutions.outbound.proactiveSupport.benefits.churnDecrease.metric
+seavoice.pages.solutions.outbound.proactiveSupport.benefits.churnDecrease.description
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature1
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature2
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature3
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature4
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature5
+seavoice.pages.solutions.outbound.proactiveSupport.automation.feature6
+seavoice.pages.solutions.outbound.proactiveSupport.common.examples
+seavoice.pages.solutions.outbound.proactiveSupport.common.timing
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.title
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.description
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item1.title
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item1.description
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item2.title
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item2.description
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item3.title
+seavoice.pages.solutions.outbound.proactiveSupport.automationEngine.item3.description
+seavoice.pages.solutions.outbound.proactiveSupport.automationFeatures.title
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.title
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.activeMonitors
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.activeMonitorsCount
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.notificationsSent
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.notificationsSentCount
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.issuesPrevented
+seavoice.pages.solutions.outbound.proactiveSupport.liveMonitoring.issuesPreventedCount
+seavoice.pages.solutions.outbound.proactiveSupport.impact.title
+seavoice.pages.solutions.outbound.proactiveSupport.impact.description
+seavoice.pages.solutions.outbound.proactiveSupport.cta.description
+seavoice.pages.solutions.outbound.proactiveSupport.cta.primaryButton
+seavoice.pages.solutions.outbound.proactiveSupport.cta.secondaryButton
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 ```
 
 
 ## Hardcoded Strings Summary
 
 
+<<<<<<< HEAD
 Found 2265 potential hardcoded strings across components:
+=======
+Found 1957 potential hardcoded strings across components:
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 - **File**: src/App.tsx
   **Text**: "Seasalt.ai - Omni-Channel Contact Center for Small Businesses"
@@ -284,7 +378,11 @@ Found 2265 potential hardcoded strings across components:
   **Context**: `          </div>\n          <div className="text-center mt-4">\n            <p className="text-gray-...`
 
 
+<<<<<<< HEAD
 ... and 2255 more. See hardcoded-strings.json for complete list.
+=======
+... and 1947 more. See hardcoded-strings.json for complete list.
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 
 ## Recommendations for Phase 2.1
@@ -292,13 +390,22 @@ Found 2265 potential hardcoded strings across components:
 
 ### 1. Add missing translation keys to base language (HIGH Priority)
 **Category**: Translation Structure
+<<<<<<< HEAD
 **Description**: 180 keys used in components but missing from en.json
 **Action**: Add these keys to public/locales/en.json: industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3, industriesData.healthcare.benefits.0...
+=======
+**Description**: 97 keys used in components but missing from en.json
+**Action**: Add these keys to public/locales/en.json: hero.title, industriesData.ecommerce.benefits.0, industriesData.ecommerce.benefits.1, industriesData.ecommerce.benefits.2, industriesData.ecommerce.benefits.3...
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 
 
 ### 2. Replace hardcoded strings with translation keys (HIGH Priority)
 **Category**: Hardcoded Strings
+<<<<<<< HEAD
 **Description**: Found 2265 hardcoded strings that should be internationalized
+=======
+**Description**: Found 1957 hardcoded strings that should be internationalized
+>>>>>>> 37e5fd567251bdfe571f95b2461bcb066d8c9b0a
 **Action**: Review and replace hardcoded strings with t() function calls
 
 

@@ -1,61 +1,88 @@
 
 import { motion } from 'framer-motion';
 import { Zap, MessageSquare, Users, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const IvrReplacementPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: MessageSquare,
-      title: 'Natural Language Understanding',
-      description: 'Replace confusing menu options with natural conversation that understands what customers really want.',
-      benefits: ['Conversational interface', 'Intent recognition', 'Context awareness']
+      title: t('seavoice.pages.solutions.inbound.ivrReplacement.features.naturalLanguage.title'),
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.features.naturalLanguage.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.naturalLanguage.benefit1'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.naturalLanguage.benefit2'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.naturalLanguage.benefit3')
+      ]
     },
     {
       icon: Zap,
-      title: 'Instant Resolution',
-      description: 'Resolve customer inquiries immediately without navigating through multiple menu levels.',
-      benefits: ['Zero wait time', 'Direct answers', 'Immediate assistance']
+      title: t('seavoice.pages.solutions.inbound.ivrReplacement.features.instantResolution.title'),
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.features.instantResolution.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.instantResolution.benefit1'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.instantResolution.benefit2'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.instantResolution.benefit3')
+      ]
     },
     {
       icon: Users,
-      title: 'Improved Experience',
-      description: 'Transform frustrating phone trees into pleasant, efficient customer interactions.',
-      benefits: ['Higher satisfaction', 'Reduced abandonment', 'Better accessibility']
+      title: t('seavoice.pages.solutions.inbound.ivrReplacement.features.improvedExperience.title'),
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.features.improvedExperience.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.improvedExperience.benefit1'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.improvedExperience.benefit2'),
+        t('seavoice.pages.solutions.inbound.ivrReplacement.features.improvedExperience.benefit3')
+      ]
     }
   ];
 
   const comparison = [
     {
-      aspect: 'Customer Experience',
-      traditional: 'Press 1 for sales, 2 for support...',
-      modern: '"I need help with my order" - Instantly connected',
-      improvement: '85% satisfaction increase'
+      aspect: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.customerExperience.aspect'),
+      traditional: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.customerExperience.traditional'),
+      modern: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.customerExperience.modern'),
+      improvement: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.customerExperience.improvement')
     },
     {
-      aspect: 'Time to Resolution',
-      traditional: '3-5 minutes navigating menus',
-      modern: '30 seconds to reach right department',
-      improvement: '80% time reduction'
+      aspect: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.timeToResolution.aspect'),
+      traditional: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.timeToResolution.traditional'),
+      modern: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.timeToResolution.modern'),
+      improvement: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.timeToResolution.improvement')
     },
     {
-      aspect: 'Call Abandonment',
-      traditional: '25% abandon during menu navigation',
-      modern: '5% abandonment rate',
-      improvement: '80% reduction'
+      aspect: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.callAbandonment.aspect'),
+      traditional: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.callAbandonment.traditional'),
+      modern: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.callAbandonment.modern'),
+      improvement: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.callAbandonment.improvement')
     },
     {
-      aspect: 'Accessibility',
-      traditional: 'Difficult for elderly/disabled users',
-      modern: 'Natural speech for all users',
-      improvement: '100% accessibility'
+      aspect: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.accessibility.aspect'),
+      traditional: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.accessibility.traditional'),
+      modern: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.accessibility.modern'),
+      improvement: t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.accessibility.improvement')
     }
   ];
 
   const benefits = [
-    { metric: '85%', description: 'Increase in customer satisfaction' },
-    { metric: '80%', description: 'Reduction in call abandonment' },
-    { metric: '70%', description: 'Faster call resolution' },
-    { metric: '90%', description: 'Reduction in misdirected calls' }
+    { 
+      metric: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.satisfaction.metric'), 
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.satisfaction.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.abandonment.metric'), 
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.abandonment.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.resolution.metric'), 
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.resolution.description') 
+    },
+    { 
+      metric: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.misdirected.metric'), 
+      description: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.misdirected.description') 
+    }
   ];
 
   return (
@@ -73,18 +100,17 @@ const IvrReplacementPage = () => {
               <Zap className="w-16 h-16 text-indigo-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              IVR Replacement with Natural Language
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Eliminate frustrating phone trees and menu navigation. Let customers speak naturally 
-              to describe their needs and get connected to the right place instantly.
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.hero.subtitle')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors"
             >
-              Replace Your IVR Today
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.hero.cta')}
             </motion.button>
           </motion.div>
         </div>
@@ -101,10 +127,10 @@ const IvrReplacementPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Modern Voice Interface Features
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Transform outdated phone systems with intelligent conversation
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.features.subtitle')}
             </p>
           </motion.div>
 
@@ -148,10 +174,10 @@ const IvrReplacementPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Traditional IVR vs. Natural Language
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See the dramatic difference in customer experience
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.subtitle')}
             </p>
           </motion.div>
 
@@ -170,11 +196,11 @@ const IvrReplacementPage = () => {
                     <h3 className="text-lg font-bold text-gray-900">{item.aspect}</h3>
                   </div>
                   <div className="text-center">
-                    <h4 className="text-sm font-semibold text-red-600 mb-2">Traditional IVR</h4>
+                    <h4 className="text-sm font-semibold text-red-600 mb-2">{t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.traditionalIvr')}</h4>
                     <p className="text-gray-600 text-sm italic">"{item.traditional}"</p>
                   </div>
                   <div className="text-center">
-                    <h4 className="text-sm font-semibold text-green-600 mb-2">Natural Language</h4>
+                    <h4 className="text-sm font-semibold text-green-600 mb-2">{t('seavoice.pages.solutions.inbound.ivrReplacement.comparison.naturalLanguage')}</h4>
                     <p className="text-gray-600 text-sm italic">"{item.modern}"</p>
                   </div>
                   <div className="text-center">
@@ -200,10 +226,10 @@ const IvrReplacementPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Measurable Improvements
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Real results from replacing traditional IVR systems
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.subtitle')}
             </p>
           </motion.div>
 
@@ -234,9 +260,9 @@ const IvrReplacementPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Modernize Your Phone System?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.ivrReplacement.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Replace frustrating phone trees with natural conversation that customers love
+              {t('seavoice.pages.solutions.inbound.ivrReplacement.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -244,14 +270,14 @@ const IvrReplacementPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.pages.solutions.inbound.ivrReplacement.cta.startTrial')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors"
               >
-                See Demo
+                {t('seavoice.pages.solutions.inbound.ivrReplacement.cta.seeDemo')}
               </motion.button>
             </div>
           </motion.div>

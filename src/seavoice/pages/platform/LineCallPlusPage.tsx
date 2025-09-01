@@ -1,26 +1,29 @@
 
 import { motion } from 'framer-motion';
 import { MessageCircle, Users, Globe, Smartphone, CheckCircle, BarChart3 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const LineCallPlusPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: MessageCircle,
-      title: 'Native LINE Integration',
-      description: 'Seamlessly integrate voice calling directly within the LINE messaging platform.',
-      benefits: ['One-tap calling from chat', 'Unified conversation history', 'Rich media support']
+      title: t('seavoice.platform.lineCallPlus.features.nativeIntegration.title'),
+      description: t('seavoice.platform.lineCallPlus.features.nativeIntegration.description'),
+      benefits: [t('seavoice.platform.lineCallPlus.features.nativeIntegration.benefit1'), t('seavoice.platform.lineCallPlus.features.nativeIntegration.benefit2'), t('seavoice.platform.lineCallPlus.features.nativeIntegration.benefit3')]
     },
     {
       icon: Users,
-      title: 'Business Account Support',
-      description: 'Full support for LINE Business accounts with advanced features and analytics.',
-      benefits: ['Verified business profiles', 'Custom branding options', 'Advanced user management']
+      title: t('seavoice.platform.lineCallPlus.features.businessAccount.title'),
+      description: t('seavoice.platform.lineCallPlus.features.businessAccount.description'),
+      benefits: [t('seavoice.platform.lineCallPlus.features.businessAccount.benefit1'), t('seavoice.platform.lineCallPlus.features.businessAccount.benefit2'), t('seavoice.platform.lineCallPlus.features.businessAccount.benefit3')]
     },
     {
       icon: Globe,
-      title: 'Asia-Pacific Focus',
-      description: 'Optimized for key Asian markets where LINE dominates business communications.',
-      benefits: ['Local language support', 'Regional compliance', 'Cultural customization']
+      title: t('seavoice.platform.lineCallPlus.features.asiaPacific.title'),
+      description: t('seavoice.platform.lineCallPlus.features.asiaPacific.description'),
+      benefits: [t('seavoice.platform.lineCallPlus.features.asiaPacific.benefit1'), t('seavoice.platform.lineCallPlus.features.asiaPacific.benefit2'), t('seavoice.platform.lineCallPlus.features.asiaPacific.benefit3')]
     }
   ];
 
@@ -33,19 +36,19 @@ const LineCallPlusPage = () => {
 
   const useCases = [
     {
-      title: 'Customer Support',
-      description: 'Provide instant voice support directly within LINE conversations.',
-      metrics: ['50% faster resolution', '90% customer satisfaction', '24/7 availability']
+      title: t('seavoice.platform.lineCallPlus.useCases.customerSupport.title'),
+      description: t('seavoice.platform.lineCallPlus.useCases.customerSupport.description'),
+      metrics: [t('seavoice.platform.lineCallPlus.useCases.customerSupport.metric1'), t('seavoice.platform.lineCallPlus.useCases.customerSupport.metric2'), t('seavoice.platform.lineCallPlus.useCases.customerSupport.metric3')]
     },
     {
-      title: 'Sales Consultations',
-      description: 'Convert chat inquiries to voice calls for personalized sales experiences.',
-      metrics: ['3x higher conversion', 'Personalized recommendations', 'Trust building']
+      title: t('seavoice.platform.lineCallPlus.useCases.salesConsultations.title'),
+      description: t('seavoice.platform.lineCallPlus.useCases.salesConsultations.description'),
+      metrics: [t('seavoice.platform.lineCallPlus.useCases.salesConsultations.metric1'), t('seavoice.platform.lineCallPlus.useCases.salesConsultations.metric2'), t('seavoice.platform.lineCallPlus.useCases.salesConsultations.metric3')]
     },
     {
-      title: 'Appointment Booking',
-      description: 'Enable voice-based appointment scheduling within LINE Business accounts.',
-      metrics: ['Instant confirmations', 'Calendar integration', 'Automated reminders']
+      title: t('seavoice.platform.lineCallPlus.useCases.appointmentBooking.title'),
+      description: t('seavoice.platform.lineCallPlus.useCases.appointmentBooking.description'),
+      metrics: [t('seavoice.platform.lineCallPlus.useCases.appointmentBooking.metric1'), t('seavoice.platform.lineCallPlus.useCases.appointmentBooking.metric2'), t('seavoice.platform.lineCallPlus.useCases.appointmentBooking.metric3')]
     }
   ];
 
@@ -66,11 +69,10 @@ const LineCallPlusPage = () => {
               </div>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              LINE Call Plus for Businesses
+              {t('seavoice.platform.lineCallPlus.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Transform your LINE Business account with AI-powered voice calling. 
-              Connect with customers across Asia-Pacific markets through their preferred messaging platform.
+              {t('seavoice.platform.lineCallPlus.hero.description')}
             </p>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
@@ -82,7 +84,7 @@ const LineCallPlusPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
               >
-                Start LINE Integration
+                {t('seavoice.platform.lineCallPlus.hero.cta')}
               </motion.button>
             </a>
           </motion.div>
@@ -100,10 +102,10 @@ const LineCallPlusPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Reach Millions Across Asia-Pacific
+              {t('seavoice.platform.lineCallPlus.marketReach.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              LINE dominates business communications in key Asian markets
+              {t('seavoice.platform.lineCallPlus.marketReach.subtitle')}
             </p>
           </motion.div>
 
@@ -119,9 +121,9 @@ const LineCallPlusPage = () => {
               >
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{stat.country}</h3>
                 <div className="text-3xl font-bold text-green-600 mb-2">{stat.users}</div>
-                <p className="text-gray-600">Active Users</p>
+                <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.marketReach.activeUsers')}</p>
                 <div className="mt-4 text-lg font-semibold text-gray-900">{stat.penetration}</div>
-                <p className="text-sm text-gray-600">Market Penetration</p>
+                <p className="text-sm text-gray-600">{t('seavoice.platform.lineCallPlus.marketReach.marketPenetration')}</p>
               </motion.div>
             ))}
           </div>
@@ -139,10 +141,10 @@ const LineCallPlusPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Powerful LINE Business Features
+              {t('seavoice.platform.lineCallPlus.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Everything you need to provide exceptional voice experiences on LINE
+              {t('seavoice.platform.lineCallPlus.features.subtitle')}
             </p>
           </motion.div>
 
@@ -186,10 +188,10 @@ const LineCallPlusPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Transform Customer Interactions
+              {t('seavoice.platform.lineCallPlus.useCases.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See how businesses use LINE Call Plus to enhance customer relationships
+              {t('seavoice.platform.lineCallPlus.useCases.subtitle')}
             </p>
           </motion.div>
 
@@ -230,10 +232,10 @@ const LineCallPlusPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Simple Integration Process
+              {t('seavoice.platform.lineCallPlus.integration.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Get started with LINE Call Plus in just a few steps
+              {t('seavoice.platform.lineCallPlus.integration.subtitle')}
             </p>
           </motion.div>
 
@@ -248,8 +250,8 @@ const LineCallPlusPage = () => {
               <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
                 1
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Connect LINE Business</h3>
-              <p className="text-gray-600">Link your existing LINE Business account or create a new one with our guided setup.</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('seavoice.platform.lineCallPlus.integration.step1.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.integration.step1.description')}</p>
             </motion.div>
 
             <motion.div
@@ -262,8 +264,8 @@ const LineCallPlusPage = () => {
               <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
                 2
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Configure Voice Agents</h3>
-              <p className="text-gray-600">Set up your AI voice agents with custom scripts, voices, and business logic.</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('seavoice.platform.lineCallPlus.integration.step2.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.integration.step2.description')}</p>
             </motion.div>
 
             <motion.div
@@ -276,8 +278,8 @@ const LineCallPlusPage = () => {
               <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Go Live</h3>
-              <p className="text-gray-600">Launch your voice-enabled LINE Business account and start engaging customers.</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('seavoice.platform.lineCallPlus.integration.step3.title')}</h3>
+              <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.integration.step3.description')}</p>
             </motion.div>
           </div>
         </div>
@@ -294,32 +296,31 @@ const LineCallPlusPage = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Comprehensive Analytics
+                {t('seavoice.platform.lineCallPlus.analytics.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Track performance, understand customer behavior, and optimize your LINE voice 
-                interactions with detailed analytics and reporting.
+                {t('seavoice.platform.lineCallPlus.analytics.description')}
               </p>
               <div className="space-y-6">
                 <div className="flex items-center">
                   <BarChart3 className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Call Analytics</h3>
-                    <p className="text-gray-600">Track call volume, duration, and success rates</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.lineCallPlus.analytics.callAnalytics.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.callAnalytics.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Users className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">User Engagement</h3>
-                    <p className="text-gray-600">Monitor user interactions and satisfaction scores</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.lineCallPlus.analytics.userEngagement.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.userEngagement.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Smartphone className="w-6 h-6 text-green-600 mr-4" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Platform Insights</h3>
-                    <p className="text-gray-600">LINE-specific metrics and performance data</p>
+                    <h3 className="font-semibold text-gray-900">{t('seavoice.platform.lineCallPlus.analytics.platformInsights.title')}</h3>
+                    <p className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.platformInsights.description')}</p>
                   </div>
                 </div>
               </div>
@@ -333,27 +334,27 @@ const LineCallPlusPage = () => {
               className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200"
             >
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-lg font-semibold text-gray-900">LINE Call Analytics</h3>
+                <h3 className="text-lg font-semibold text-gray-900">{t('seavoice.platform.lineCallPlus.analytics.dashboard.title')}</h3>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm text-gray-600">Live</span>
+                  <span className="text-sm text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.dashboard.live')}</span>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Active Calls</span>
+                  <span className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.dashboard.activeCalls')}</span>
                   <span className="font-semibold text-2xl text-green-600">156</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Response Rate</span>
+                  <span className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.dashboard.responseRate')}</span>
                   <span className="font-semibold text-green-600">92%</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Avg. Call Duration</span>
+                  <span className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.dashboard.avgCallDuration')}</span>
                   <span className="font-semibold text-green-600">3:24</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Customer Satisfaction</span>
+                  <span className="text-gray-600">{t('seavoice.platform.lineCallPlus.analytics.dashboard.customerSatisfaction')}</span>
                   <span className="font-semibold text-green-600">4.8/5</span>
                 </div>
               </div>
@@ -361,7 +362,7 @@ const LineCallPlusPage = () => {
                 <p className="text-sm text-gray-700 italic">
                   "こんにちは！LINEサポートです。どのようにお手伝いできますか？"
                 </p>
-                <p className="text-xs text-gray-500 mt-1">Japanese voice agent responding to customer</p>
+                <p className="text-xs text-gray-500 mt-1">{t('seavoice.platform.lineCallPlus.analytics.dashboard.sampleResponse')}</p>
               </div>
             </motion.div>
           </div>
@@ -377,9 +378,9 @@ const LineCallPlusPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Expand in Asia-Pacific?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.platform.lineCallPlus.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Connect with millions of LINE users and transform your customer engagement across key Asian markets
+              {t('seavoice.platform.lineCallPlus.cta.description')}
             </p>
             <a
               href="https://chat.seasalt.ai/gpt/signup"
@@ -391,7 +392,7 @@ const LineCallPlusPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start LINE Integration
+                {t('seavoice.platform.lineCallPlus.cta.button')}
               </motion.button>
             </a>
           </motion.div>

@@ -1,79 +1,110 @@
 
 import { motion } from 'framer-motion';
 import { Wrench, Zap, Users, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const TechnicalSupportPage = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Wrench,
-      title: 'Automated Troubleshooting',
-      description: 'Guide customers through step-by-step solutions for common technical issues.',
-      benefits: ['Self-service resolution', 'Instant diagnostics', 'Interactive guidance']
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.2')
+      ]
     },
     {
       icon: Zap,
-      title: 'Intelligent Escalation',
-      description: 'Automatically escalate complex issues to human technicians with full context.',
-      benefits: ['Smart routing', 'Context preservation', 'Seamless handoff']
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.2')
+      ]
     },
     {
       icon: Users,
-      title: 'Multi-Platform Support',
-      description: 'Provide technical assistance across different devices, software, and platforms.',
-      benefits: ['Universal compatibility', 'Cross-platform expertise', 'Comprehensive coverage']
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.description'),
+      benefits: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.2')
+      ]
     }
   ];
 
   const supportCapabilities = [
     {
-      category: 'Hardware Issues',
-      description: 'Diagnose and resolve hardware-related problems',
-      examples: ['Device connectivity', 'Performance issues', 'Hardware setup']
+      category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.category'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.description'),
+      examples: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.2')
+      ]
     },
     {
-      category: 'Software Troubleshooting',
-      description: 'Help with software installation and configuration',
-      examples: ['App installation', 'Settings configuration', 'Update assistance']
+      category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.category'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.description'),
+      examples: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.2')
+      ]
     },
     {
-      category: 'Network Problems',
-      description: 'Resolve internet and network connectivity issues',
-      examples: ['WiFi setup', 'Connection problems', 'Speed optimization']
+      category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.category'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.description'),
+      examples: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.2')
+      ]
     },
     {
-      category: 'Account & Security',
-      description: 'Assist with account access and security concerns',
-      examples: ['Password reset', 'Account recovery', 'Security settings']
+      category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.category'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.description'),
+      examples: [
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.0'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.1'),
+        t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.2')
+      ]
     }
   ];
 
   const benefits = [
-    { metric: '75%', description: 'Issues resolved without human agent' },
-    { metric: '60%', description: 'Reduction in average resolution time' },
-    { metric: '90%', description: 'Customer satisfaction with AI support' },
-    { metric: '24/7', description: 'Technical support availability' }
+    { metric: '75%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.resolution.description') },
+    { metric: '60%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.reductionTime.description') },
+    { metric: '90%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.satisfaction.description') },
+    { metric: '24/7', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.availability.description') }
   ];
 
   const troubleshootingSteps = [
     {
       step: 1,
-      title: 'Issue Identification',
-      description: 'AI listens to the problem description and asks clarifying questions'
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.issueIdentification.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.issueIdentification.description')
     },
     {
       step: 2,
-      title: 'Diagnostic Analysis',
-      description: 'System analyzes symptoms and identifies potential causes'
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.diagnosticAnalysis.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.diagnosticAnalysis.description')
     },
     {
       step: 3,
-      title: 'Solution Guidance',
-      description: 'Provides step-by-step instructions to resolve the issue'
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.solutionGuidance.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.solutionGuidance.description')
     },
     {
       step: 4,
-      title: 'Verification & Follow-up',
-      description: 'Confirms resolution and offers additional assistance if needed'
+      title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.verificationFollowup.title'),
+      description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.verificationFollowup.description')
     }
   ];
 
@@ -92,19 +123,17 @@ const TechnicalSupportPage = () => {
               <Wrench className="w-16 h-16 text-blue-600" />
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Technical Support Automation
+              {t('seavoice.pages.solutions.inbound.technicalSupport.hero.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Provide instant technical support with AI that can diagnose problems, 
-              guide customers through solutions, and escalate complex issues to human 
-              experts when needed.
+              {t('seavoice.pages.solutions.inbound.technicalSupport.hero.description')}
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              Automate Technical Support
+              {t('seavoice.pages.solutions.inbound.technicalSupport.hero.primaryCta')}
             </motion.button>
           </motion.div>
         </div>
@@ -121,10 +150,10 @@ const TechnicalSupportPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Intelligent Technical Support
+              {t('seavoice.pages.solutions.inbound.technicalSupport.features.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Advanced AI that understands technical problems and provides solutions
+              {t('seavoice.pages.solutions.inbound.technicalSupport.features.description')}
             </p>
           </motion.div>
 
@@ -168,10 +197,10 @@ const TechnicalSupportPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Comprehensive Support Coverage
+              {t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Handle a wide range of technical issues across all platforms
+              {t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.description')}
             </p>
           </motion.div>
 
@@ -212,10 +241,10 @@ const TechnicalSupportPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              AI Troubleshooting Process
+              {t('seavoice.pages.solutions.inbound.technicalSupport.process.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Systematic approach to diagnosing and resolving technical issues
+              {t('seavoice.pages.solutions.inbound.technicalSupport.process.description')}
             </p>
           </motion.div>
 
@@ -251,10 +280,10 @@ const TechnicalSupportPage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Support Efficiency Results
+              {t('seavoice.pages.solutions.inbound.technicalSupport.benefits.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Measurable improvements in technical support operations
+              {t('seavoice.pages.solutions.inbound.technicalSupport.benefits.description')}
             </p>
           </motion.div>
 
@@ -285,9 +314,9 @@ const TechnicalSupportPage = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Ready to Automate Technical Support?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.technicalSupport.cta.title')}</h2>
             <p className="text-xl mb-8 opacity-90">
-              Provide instant, intelligent technical assistance that resolves issues faster
+              {t('seavoice.pages.solutions.inbound.technicalSupport.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
@@ -295,14 +324,14 @@ const TechnicalSupportPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
-                Start Free Trial
+                {t('seavoice.pages.solutions.inbound.technicalSupport.cta.primaryButton')}
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
               >
-                See Demo
+                {t('seavoice.pages.solutions.inbound.technicalSupport.cta.secondaryButton')}
               </motion.button>
             </div>
           </motion.div>

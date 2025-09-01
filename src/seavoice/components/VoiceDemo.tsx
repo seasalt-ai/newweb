@@ -1,57 +1,59 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Play, Pause } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const VoiceDemo = () => {
+  const { t } = useTranslation();
   const [playingDemo, setPlayingDemo] = useState<string | null>(null);
   const [audioDuration, setAudioDuration] = useState<{[key: string]: number}>({});
   const [audioProgress, setAudioProgress] = useState<{[key: string]: number}>({});
   const audioRefs = useRef<{[key: string]: HTMLAudioElement}>({});
 
-  const demos = [
+  const demos = useMemo(() => [
     {
       id: 'restaurant',
-      title: 'Restaurant reservation booking',
-      description: 'AI handles table bookings, availability checks, and special requests',
+      title: t('seavoice.components.voiceDemo.demos.restaurant.title'),
+      description: t('seavoice.components.voiceDemo.demos.restaurant.description'),
       audioUrl: '/seavoice-recordings/Restaurant-reservation-booking.m4a',
       image: '/demo-images/restaurant.png'
     },
     {
       id: 'insurance',
-      title: 'Insurance verification call',
-      description: 'Automated insurance verification and claim processing',
+      title: t('seavoice.components.voiceDemo.demos.insurance.title'),
+      description: t('seavoice.components.voiceDemo.demos.insurance.description'),
       audioUrl: '/seavoice-recordings/Insurance-verification-call.m4a',
       image: '/demo-images/insurance.png'
     },
     {
       id: 'tech-support',
-      title: 'Tech support',
-      description: 'Technical troubleshooting and customer support automation',
+      title: t('seavoice.components.voiceDemo.demos.techSupport.title'),
+      description: t('seavoice.components.voiceDemo.demos.techSupport.description'),
       audioUrl: '/seavoice-recordings/Tech-support.m4a',
       image: '/demo-images/technical.png'
     },
     {
       id: 'sales-lead',
-      title: 'Sales lead qualification',
-      description: 'Intelligent lead qualification and sales funnel management',
+      title: t('seavoice.components.voiceDemo.demos.salesLead.title'),
+      description: t('seavoice.components.voiceDemo.demos.salesLead.description'),
       audioUrl: '/seavoice-recordings/Sales-lead-qualification.m4a',
       image: '/demo-images/ecommerce.png'
     },
     {
       id: 'realestate',
-      title: 'Real estate inquiry handling',
-      description: 'Property inquiries, scheduling viewings, and client management',
+      title: t('seavoice.components.voiceDemo.demos.realEstate.title'),
+      description: t('seavoice.components.voiceDemo.demos.realEstate.description'),
       audioUrl: '/seavoice-recordings/Real-estate-inquiry-handling.m4a',
       image: '/demo-images/realestate.png'
     },
     {
       id: 'donation',
-      title: 'Donation campaign outreach',
-      description: 'Fundraising campaigns and donor engagement automation',
+      title: t('seavoice.components.voiceDemo.demos.donation.title'),
+      description: t('seavoice.components.voiceDemo.demos.donation.description'),
       audioUrl: '/seavoice-recordings/Donation-campaign-outreach.m4a',
       image: '/demo-images/donation.png'
     }
-  ];
+  ], [t]);
 
   useEffect(() => {
     // Initialize audio elements
@@ -90,7 +92,7 @@ const VoiceDemo = () => {
         audio.pause();
       });
     };
-  }, []);
+  }, [demos]);
 
   const handlePlay = (demoId: string) => {
     const audio = audioRefs.current[demoId];
@@ -187,7 +189,7 @@ const VoiceDemo = () => {
                 <div 
                   className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden cursor-pointer hover:h-3 transition-all duration-200"
                   onClick={(e) => handleProgressBarClick(e, demo.id)}
-                  title="Click to seek"
+                  title={t('seavoice.components.voiceDemo.seekTooltip')}
                 >
                   <motion.div
                     className="h-full bg-purple-600 rounded-full pointer-events-none"

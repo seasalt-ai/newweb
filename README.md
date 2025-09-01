@@ -2,9 +2,11 @@
 
 This repository contains the source code for the Seasalt.ai website, a React-based application built with Vite and TypeScript. The website showcases Seasalt.ai's omni-channel contact center solutions for small businesses.
 
-Prompt to do i18n:
+Prompt to do i18n:gt
 
-src/seachat/pages/solutions/EcommerceSolutionPage.tsx still has hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json. Note that the i18n keys do not exist in zh-TW.json and en.json even if they appear in the .tsx file. Don't git commit.
+src/seavoice/pages/solutions/outbound/SubscriptionRenewalsPage.tsx still has hard coded English strings. you should use the Bulk Translation Method in scripts/how-to-update-json.md to update both public/locales/zh-TW.json and public/locales/en.json. Note that the i18n keys do not exist in zh-TW.json and en.json even if they appear in the .tsx file. Don't git commit. 
+
+The newly created keys should be under seavoice.pages.solutions.outbound in both en.json and zh-TW.json
 
 under the src/seachat/pages/integrations folder, there are a few *.tsx files, they still have hard coded English strings. you should:
 1. list all tsx files
