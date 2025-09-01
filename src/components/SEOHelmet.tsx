@@ -114,202 +114,89 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   const location = useLocation();
   
   // ==========================================================================
-  // Handle Legacy Props
-  // ==========================================================================
-  const isLegacyUsage = !!(legacyTitle || legacyDescription || availableLanguages);
-  
-  if (isLegacyUsage) {
-    // Legacy behavior - use the old logic for backward compatibility
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://seasalt.ai';
-    const fullImageUrl = (legacyImage || '/seasalt-ai-icon.png').startsWith('http') 
-      ? (legacyImage || '/seasalt-ai-icon.png') 
-      : `${origin}${legacyImage || '/seasalt-ai-icon.png'}`;
-    const siteName = 'Seasalt.ai';
-    
-    // For legacy usage, only generate hreflang for supported SEO languages to avoid incorrect links
-    const effectiveLanguages = availableLanguages ? ['en', 'zh-TW'].filter(lang => availableLanguages.includes(lang)) : [];
-    
-    // Generate hreflang links using the new logic instead of hardcoded blog paths
-    const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
-    const cleanPath = pathname.split('/').slice(1).join('/'); // Remove language prefix
-    const hrefLangLinks = effectiveLanguages.map(lang => {
-      // Convert language codes to proper hreflang codes
-      let hrefLangCode = lang;
-      if (lang === 'zh-TW') hrefLangCode = 'zh-Hant';
-      if (lang === 'zh-CN') hrefLangCode = 'zh-Hans';
-      if (lang === 'fa') hrefLangCode = 'fa';
-      
-      // Use proper URL generation logic instead of hardcoded /blog paths
-      let url;
-      if (slug) {
-        // For blog posts
-        url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog/${slug}`;
-      } else if (cleanPath === 'blog') {
-        // For blog listing page
-        url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog`;
-      } else {
-        // For other pages - use the canonical URL generation
-        const langPrefix = lang === 'en' ? '' : `/${lang}`;
-        const pathSuffix = cleanPath ? `/${cleanPath}` : '';
-        url = `${origin}${langPrefix}${pathSuffix}`;
-      }
-      
-      return {
-        lang: hrefLangCode,
-        url: url
-      };
-    });
-    
-    return (
-      <Helmet>
-        {/* Basic Meta Tags */}
-        <title>{legacyTitle}</title>
-        <meta name="description" content={legacyDescription} />
-        {legacyFavicon && <link rel="icon" type="image/x-icon" href={legacyFavicon} />}
-        
-        {/* Canonical URL */}
-        {customCanonicalUrl && <link rel="canonical" href={customCanonicalUrl} />}
-        
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content={legacyTitle} />
-        <meta property="og:description" content={legacyDescription} />
-        <meta property="og:image" content={fullImageUrl} />
-        <meta property="og:type" content={type} />
-        <meta property="og:site_name" content={siteName} />
-        {customCanonicalUrl && <meta property="og:url" content={customCanonicalUrl} />}
-        
-        {/* Article-specific Open Graph tags */}
-        {type === 'article' && (
-          <>
-            {author && <meta property="article:author" content={author} />}
-            {publishedTime && <meta property="article:published_time" content={publishedTime} />}
-            {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
-            {tags.map(tag => (
-              <meta key={tag} property="article:tag" content={tag} />
-            ))}
-          </>
-        )}
-        
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={legacyTitle} />
-        <meta name="twitter:description" content={legacyDescription} />
-        <meta name="twitter:image" content={fullImageUrl} />
-        <meta name="twitter:site" content="@seasalt_ai" />
-        
-        {/* Language and Regional Meta Tags */}
-        <meta httpEquiv="content-language" content={effectiveLanguages[0] || 'en'} />
-        
-        {/* Hreflang Links for Internationalization */}
-        {hrefLangLinks.map(({ lang, url }) => (
-          <link key={lang} rel="alternate" hrefLang={lang} href={url} />
-        ))}
-        
-        {/* Add x-default for international targeting */}
-        {hrefLangLinks.length > 0 && (
-          <link rel="alternate" hrefLang="x-default" href={hrefLangLinks.find(l => l.lang === 'en')?.url || hrefLangLinks[0].url} />
-        )}
-        
-        {/* Additional SEO Meta Tags */}
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        {/* Structured Data - Basic Organization */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": siteName,
-            "url": origin,
-            "logo": `${origin}/seasalt-ai-logo.png`,
-            "sameAs": [
-              "https://www.linkedin.com/company/seasalt-ai",
-              "https://twitter.com/seasalt_ai",
-              "https://github.com/seasalt-ai"
-            ]
-          })}
-        </script>
-        
-        {/* Blog-specific structured data */}
-        {type === 'article' && (
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BlogPosting",
-              "headline": legacyTitle,
-              "description": legacyDescription,
-              "image": fullImageUrl,
-              "author": {
-                "@type": "Person",
-                "name": author || "Seasalt.ai Team"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": siteName,
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": `${origin}/seasalt-ai-logo.png`
-                }
-              },
-              "datePublished": publishedTime,
-              "dateModified": modifiedTime || publishedTime,
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": customCanonicalUrl
-              }
-            })}
-          </script>
-        )}
-      </Helmet>
-    );
-  }
-  
-  // ==========================================================================
-  // Modern Computed SEO Values
+  // Computed SEO Values
   // ==========================================================================
   
   const computedValues = useMemo(() => {
-    // Parse the current pathname to extract the clean path without language prefix
-    const fullPathname = location.pathname;
+    // Detect legacy usage
+    const isLegacyUsage = !!(legacyTitle || legacyDescription || availableLanguages);
     
-    // Extract language and clean path from URL structure: /:lang/path/to/page
-    const pathSegments = fullPathname.split('/').filter(segment => segment); // Remove empty segments
+    // Get current pathname and clean it
+    const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
     
-    // If first segment is a supported language, remove it to get clean path
-    let cleanPath = '';
-    if (pathSegments.length > 0) {
-      const possibleLang = pathSegments[0];
-      const supportedLanguages = ['en', 'zh-TW', 'ar', 'de', 'es', 'fa', 'fil', 'fr', 'hi', 'id', 'ja', 'ko', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'zh-CN'];
+    // For legacy usage, use direct props; for modern usage, use SEO config + overrides
+    let metadata: SeoMetadata;
+    let canonicalUrl: string;
+    let hreflangUrls: Array<{ lang: string; url: string }>;
+    let socialImageUrl: string;
+    
+    if (isLegacyUsage) {
+      // Legacy behavior - use props directly
+      metadata = {
+        title: legacyTitle || 'Seasalt.ai',
+        description: legacyDescription || '',
+        keywords: [],
+        ogTitle: legacyTitle,
+        ogDescription: legacyDescription,
+        twitterTitle: legacyTitle,
+        twitterDescription: legacyDescription
+      };
       
-      if (supportedLanguages.includes(possibleLang)) {
-        // Remove language prefix - remaining segments form the clean path
-        cleanPath = pathSegments.slice(1).join('/');
+      canonicalUrl = customCanonicalUrl || `${BRAND_CONSTANTS.SITE_URL}/${pathname}`;
+      
+      // For legacy usage, generate limited hreflang if availableLanguages is provided
+      if (availableLanguages && availableLanguages.length > 0) {
+        const origin = BRAND_CONSTANTS.SITE_URL;
+        const cleanPath = pathname.split('/').slice(1).join('/'); // Remove potential language prefix
+        
+        hreflangUrls = availableLanguages.map(lang => {
+          // Convert language codes to proper hreflang codes
+          let hrefLangCode = lang;
+          if (lang === 'zh-TW') hrefLangCode = 'zh-Hant';
+          if (lang === 'zh-CN') hrefLangCode = 'zh-Hans';
+          
+          // Generate URL for this language
+          let url: string;
+          if (slug) {
+            // For blog posts
+            url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog/${slug}`;
+          } else if (cleanPath === 'blog') {
+            // For blog listing page
+            url = `${origin}/${lang === 'en' ? '' : lang + '/'}blog`;
+          } else {
+            // For other pages
+            const langPrefix = lang === 'en' ? '' : `/${lang}`;
+            const pathSuffix = cleanPath ? `/${cleanPath}` : '';
+            url = `${origin}${langPrefix}${pathSuffix}`;
+          }
+          
+          return { lang: hrefLangCode, url };
+        });
       } else {
-        // No language prefix, use all segments as clean path
-        cleanPath = pathSegments.join('/');
+        hreflangUrls = [];
       }
+      
+      socialImageUrl = legacyImage || BRAND_CONSTANTS.DEFAULT_IMAGE;
+    } else {
+      // Modern behavior - use SEO config system
+      const seoConfig = getSEOConfig(pathname, language);
+      
+      metadata = {
+        title: customSeo?.title || seoConfig.title,
+        description: customSeo?.description || seoConfig.description,
+        keywords: customSeo?.keywords || (seoConfig.keywords ? seoConfig.keywords.split(', ') : []),
+        ogTitle: customSeo?.ogTitle,
+        ogDescription: customSeo?.ogDescription,
+        twitterTitle: customSeo?.twitterTitle,
+        twitterDescription: customSeo?.twitterDescription
+      };
+      
+      canonicalUrl = customCanonicalUrl || getCanonicalUrl(pathname, language);
+      hreflangUrls = generateHreflangUrls(pathname);
+      socialImageUrl = socialImage || seoConfig.image || BRAND_CONSTANTS.DEFAULT_IMAGE;
     }
     
-    // Get base SEO config for this page using clean path
-    const seoConfig = getSEOConfig(cleanPath, language);
-    
-    // Merge with custom overrides
-    const metadata: SeoMetadata = {
-      title: customSeo?.title || seoConfig.title,
-      description: customSeo?.description || seoConfig.description,
-      keywords: customSeo?.keywords || (seoConfig.keywords ? seoConfig.keywords.split(', ') : []),
-      ogTitle: customSeo?.ogTitle,
-      ogDescription: customSeo?.ogDescription,
-      twitterTitle: customSeo?.twitterTitle,
-      twitterDescription: customSeo?.twitterDescription
-    };
-    
-    // Generate URLs using clean path
-    const canonicalUrl = customCanonicalUrl || getCanonicalUrl(cleanPath, language);
-    const hreflangUrls = generateHreflangUrls(cleanPath);
-    
-    // Generate social image URL
-    const socialImageUrl = socialImage || seoConfig.image || BRAND_CONSTANTS.DEFAULT_IMAGE;
+    // Generate full social image URL
     const fullSocialImageUrl = socialImageUrl.startsWith('http') ? 
       socialImageUrl : `${BRAND_CONSTANTS.SITE_URL}${socialImageUrl}`;
     
@@ -390,7 +277,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       themeColor,
       allStructuredData
     };
-  }, [pageType, language, customSeo, location.pathname, customCanonicalUrl, socialImage, isPreview, structuredData, breadcrumbs, faqs]);
+  }, [pageType, language, customSeo, location.pathname, customCanonicalUrl, socialImage, isPreview, structuredData, breadcrumbs, faqs, legacyTitle, legacyDescription, availableLanguages, legacyImage, type, author, publishedTime, modifiedTime, tags, slug]);
   
   const {
     metadata,
@@ -557,14 +444,29 @@ export const useSEOValidation = (metadata: SeoMetadata) => {
 export const SEOHelmet = React.memo(SEOHelmetInternal, (prevProps, nextProps) => {
   // Custom comparison function to avoid unnecessary re-renders
   return (
+    // Modern props
     prevProps.pageType === nextProps.pageType &&
     prevProps.language === nextProps.language &&
     prevProps.canonicalUrl === nextProps.canonicalUrl &&
     JSON.stringify(prevProps.customSeo) === JSON.stringify(nextProps.customSeo) &&
-    // Legacy props comparison
+    JSON.stringify(prevProps.structuredData) === JSON.stringify(nextProps.structuredData) &&
+    JSON.stringify(prevProps.breadcrumbs) === JSON.stringify(nextProps.breadcrumbs) &&
+    JSON.stringify(prevProps.faqs) === JSON.stringify(nextProps.faqs) &&
+    prevProps.socialImage === nextProps.socialImage &&
+    prevProps.isPreview === nextProps.isPreview &&
+    JSON.stringify(prevProps.additionalMeta) === JSON.stringify(nextProps.additionalMeta) &&
+    // Legacy props
     prevProps.title === nextProps.title &&
     prevProps.description === nextProps.description &&
-    JSON.stringify(prevProps.availableLanguages) === JSON.stringify(nextProps.availableLanguages)
+    prevProps.favicon === nextProps.favicon &&
+    JSON.stringify(prevProps.availableLanguages) === JSON.stringify(nextProps.availableLanguages) &&
+    prevProps.image === nextProps.image &&
+    prevProps.type === nextProps.type &&
+    prevProps.author === nextProps.author &&
+    prevProps.publishedTime === nextProps.publishedTime &&
+    prevProps.modifiedTime === nextProps.modifiedTime &&
+    JSON.stringify(prevProps.tags) === JSON.stringify(nextProps.tags) &&
+    prevProps.slug === nextProps.slug
   );
 });
 
