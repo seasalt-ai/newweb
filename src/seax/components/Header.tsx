@@ -166,6 +166,13 @@ const Header = () => {
     return location.pathname === path;
   };
 
+  // Helper function to get the correct Wiki URL based on language
+  const getWikiUrl = () => {
+    // For Chinese languages (zh-TW and zh-CN), use 'zh' for the Wiki URL
+    // For all other languages, use 'en' for the Wiki URL
+    const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+    return `https://wiki.seasalt.ai/${wikiLanguage}/seax/seax-omni/seax-intro/`;
+  };
 
   return (
     <>
@@ -283,7 +290,7 @@ const Header = () => {
 
             {/* Wiki (standout) */}
             <a
-              href="https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/"
+              href={getWikiUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400 ml-4"
@@ -340,7 +347,7 @@ const Header = () => {
                   {t('seax.header.buttons.signUp')}
                 </a>
                 <a
-                  href="https://wiki.seasalt.ai/en/seax/seax-omni/seax-intro/"
+                  href={getWikiUrl()}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400"
