@@ -269,11 +269,29 @@ export const SEOHelmet: React.FC<SEOHelmetProps> = ({
   // ==========================================================================
   
   const computedValues = useMemo(() => {
-    // Get current pathname and clean it
-    const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
+    // Parse the current pathname to extract the clean path without language prefix
+    const fullPathname = location.pathname;
     
-    // Get base SEO config for this page
-    const seoConfig = getSEOConfig(pathname, language);
+    // Extract language and clean path from URL structure: /:lang/path/to/page
+    const pathSegments = fullPathname.split('/').filter(segment => segment); // Remove empty segments
+    
+    // If first segment is a supported language, remove it to get clean path
+    let cleanPath = '';
+    if (pathSegments.length > 0) {
+      const possibleLang = pathSegments[0];
+      const supportedLanguages = ['en', 'zh-TW', 'ar', 'de', 'es', 'fa', 'fil', 'fr', 'hi', 'id', 'ja', 'ko', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'zh-CN'];
+      
+      if (supportedLanguages.includes(possibleLang)) {
+        // Remove language prefix - remaining segments form the clean path
+        cleanPath = pathSegments.slice(1).join('/');
+      } else {
+        // No language prefix, use all segments as clean path
+        cleanPath = pathSegments.join('/');
+      }
+    }
+    
+    // Get base SEO config for this page using clean path
+    const seoConfig = getSEOConfig(cleanPath, language);
     
     // Merge with custom overrides
     const metadata: SeoMetadata = {
@@ -286,9 +304,9 @@ export const SEOHelmet: React.FC<SEOHelmetProps> = ({
       twitterDescription: customSeo?.twitterDescription
     };
     
-    // Generate URLs
-    const canonicalUrl = customCanonicalUrl || getCanonicalUrl(pathname, language);
-    const hreflangUrls = generateHreflangUrls(pathname);
+    // Generate URLs using clean path
+    const canonicalUrl = customCanonicalUrl || getCanonicalUrl(cleanPath, language);
+    const hreflangUrls = generateHreflangUrls(cleanPath);
     
     // Generate social image URL
     const socialImageUrl = socialImage || seoConfig.image || BRAND_CONSTANTS.DEFAULT_IMAGE;
