@@ -6,7 +6,8 @@
  * and internationalization settings across the entire website.
  */
 
-import { SupportedLanguage } from '../constants/languages';
+import type { SupportedLanguage } from '../constants/languages';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 // =============================================================================
 // Core SEO Configuration Interfaces
@@ -316,7 +317,7 @@ export const getCanonicalUrl = (pagePath: string, language: SupportedLanguage = 
  */
 export const generateHreflangUrls = (
   pagePath: string, 
-  supportedLanguages: readonly SupportedLanguage[] = ['en', 'zh-TW']
+  supportedLanguages: readonly SupportedLanguage[] = SUPPORTED_LANGUAGES
 ): Array<{ lang: string; url: string }> => {
   const cleanPath = pagePath.replace(/^\/+|\/+$/g, '');
   
