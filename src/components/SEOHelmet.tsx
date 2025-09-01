@@ -12,9 +12,9 @@
  * - Favicon and theme metadata
  */
 
+import React, { useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
-import { useMemo } from 'react';
 import { BRAND_CONSTANTS, getSEOConfig, getCanonicalUrl, generateHreflangUrls, type SEOConfig } from '../config/seo';
 import type { SupportedLanguage } from '../constants/languages';
 
@@ -87,7 +87,7 @@ export interface SEOHelmetProps {
 // Enhanced SEO Helmet Component
 // =============================================================================
 
-export const SEOHelmet: React.FC<SEOHelmetProps> = ({
+const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   pageType = 'home',
   language = 'en',
   customSeo,
@@ -548,6 +548,25 @@ export const useSEOValidation = (metadata: SeoMetadata) => {
     return validation;
   }, [metadata]);
 };
+
+// =============================================================================
+// Memoized Export to Prevent Unnecessary Re-renders
+// =============================================================================
+
+// Use React.memo to prevent duplicate renders when props haven't changed
+export const SEOHelmet = React.memo(SEOHelmetInternal, (prevProps, nextProps) => {
+  // Custom comparison function to avoid unnecessary re-renders
+  return (
+    prevProps.pageType === nextProps.pageType &&
+    prevProps.language === nextProps.language &&
+    prevProps.canonicalUrl === nextProps.canonicalUrl &&
+    JSON.stringify(prevProps.customSeo) === JSON.stringify(nextProps.customSeo) &&
+    // Legacy props comparison
+    prevProps.title === nextProps.title &&
+    prevProps.description === nextProps.description &&
+    JSON.stringify(prevProps.availableLanguages) === JSON.stringify(nextProps.availableLanguages)
+  );
+});
 
 // =============================================================================
 // Default Export
