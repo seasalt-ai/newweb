@@ -2,9 +2,20 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Volume2, User, Settings, Globe, Play, Pause } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../components/SEOHelmet';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 
 const TextToSpeechPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.platform.textToSpeech', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/platform/text-to-speech')
+  });
+  
   const [selectedVoice, setSelectedVoice] = useState('sarah');
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -110,6 +121,16 @@ const TextToSpeechPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={seoData.title}
+        description={seoData.description}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={seoData.canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
+      />
+      
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

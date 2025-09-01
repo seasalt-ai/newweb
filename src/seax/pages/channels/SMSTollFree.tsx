@@ -1,6 +1,8 @@
 import { Phone, Shield, TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ChannelPageTemplate from '../../components/ChannelPageTemplate';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
 
 interface Pricing {
   setup: string;
@@ -11,7 +13,12 @@ interface Pricing {
 }
 
 const SMSTollFree = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate enhanced SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.channels.smsTollFree', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax/channels/sms-toll-free')
+  });
 
   // features 和 useCases 从对象转换为数组
   const featuresObj = t('seax.channels.smsTollFree.features.items', { returnObjects: true }) as Record<string, string>;
@@ -145,8 +152,8 @@ const SMSTollFree = () => {
       title={t('seax.channels.smsTollFree.title')}
       subtitle={t('seax.channels.smsTollFree.subtitle')}
       description={t('seax.channels.smsTollFree.description')}
-      seoTitle={t('seax.channels.smsTollFree.seo.title')}
-      seoDescription={t('seax.channels.smsTollFree.seo.description')}
+      seoTitle={seoData.title}
+      seoDescription={seoData.description}
       heroContent={heroContent}
       features={features}
       featuresTitle={t('seax.channels.smsTollFree.features.title')}

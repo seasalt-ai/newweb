@@ -23,13 +23,14 @@ import {
   SUPPORTED_LANGUAGES,
   type SupportedLanguage 
 } from '../constants/languages';
+import { useProductAssets, getProductAssets } from '../utils/productAssets';
 
 // Brand constants for consistent SEO metadata
 const BRAND_CONSTANTS = {
   COMPANY_NAME: 'Seasalt.ai',
   SITE_URL: 'https://seasalt.ai',
-  DEFAULT_IMAGE: '/seasalt-ai-og-default.png',
-  LOGO_URL: '/seasalt-ai-logo.png',
+  DEFAULT_IMAGE: '/seasalt-ai-og-default.png', // Fallback only - prefer product-specific assets
+  LOGO_URL: '/seasalt-ai-logo.png', // Fallback only - prefer product-specific assets
   TWITTER_HANDLE: '@seasalt_ai',
   THEME_COLOR: '#2563eb'
 } as const;
@@ -102,9 +103,9 @@ export interface SEOHelmetProps {
 const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   title = 'Seasalt.ai',
   description = '',
-  favicon = '/favicon.ico',
+  favicon, // Will use product-specific default if not provided
   availableLanguages,
-  image,
+  image, // Will use product-specific default if not provided
   type = 'website',
   author,
   publishedTime,
@@ -119,6 +120,17 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   isPreview = false
 }) => {
   const location = useLocation();
+  
+  // ==========================================================================
+  // Product-Specific Assets
+  // ==========================================================================
+  
+  // Get product-specific assets based on current path
+  const productAssets = getProductAssets(location.pathname);
+  
+  // Use product-specific defaults if not explicitly provided
+  const effectiveFavicon = favicon || productAssets.favicon;
+  const effectiveImage = image || productAssets.ogDefault;
   
   // ==========================================================================
   // Computed SEO Values
@@ -200,8 +212,8 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       return locale.replace(/_/g, '-');
     }
     
-    // Generate social image URL
-    const socialImageUrl = image || BRAND_CONSTANTS.DEFAULT_IMAGE;
+    // Generate social image URL using effective image (product-specific default or explicit)
+    const socialImageUrl = effectiveImage || BRAND_CONSTANTS.DEFAULT_IMAGE;
     const fullSocialImageUrl = socialImageUrl.startsWith('http') ? 
       socialImageUrl : `${BRAND_CONSTANTS.SITE_URL}${socialImageUrl}`;
     
@@ -356,7 +368,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       allStructuredData,
       geoTargetingMeta
     };
-  }, [location.pathname, title, description, image, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview]);
+  }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets]);
   
   const {
     canonicalUrl,
@@ -437,8 +449,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content={BRAND_CONSTANTS.COMPANY_NAME} />
       
-      {/* Favicons and Icons */}
-      <link rel="icon" type="image/x-icon" href={favicon} />
+      {/* Favicons and Icons - Note: Primary favicon is handled by FaviconManager */}
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

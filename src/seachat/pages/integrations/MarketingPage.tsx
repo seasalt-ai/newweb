@@ -3,9 +3,16 @@ import { SiMailchimp, SiHubspot } from 'react-icons/si';
 import { Mail, Target, Users, Zap, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 const MarketingPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.integrations.marketing', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/integrations/marketing')
+  });
   
   // Helper function to get the correct SeaChat Wiki URL based on language
   const getSeaChatWikiUrl = () => {
@@ -194,7 +201,9 @@ const MarketingPage = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-orange-900 via-red-800 to-pink-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -443,6 +452,7 @@ const MarketingPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

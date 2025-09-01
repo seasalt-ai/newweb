@@ -2,9 +2,16 @@ import { MessageSquare, Instagram, Facebook, ArrowRight, CheckCircle } from 'luc
 import { SiTiktok, SiLine, SiWhatsapp, SiX } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 const SocialMediaPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.integrations.socialMedia', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/integrations/social-media')
+  });
   
   const platforms = [
     {
@@ -121,7 +128,9 @@ const SocialMediaPage = () => {
   const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
 
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-pink-900 via-purple-800 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -312,6 +321,7 @@ const SocialMediaPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

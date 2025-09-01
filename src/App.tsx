@@ -162,7 +162,7 @@ function HomePage() {
     return {
       title: t('seo.homepage.title'),
       description: t('seo.homepage.description'),
-      image: '/seasalt-ai-homepage-og.png'
+      image: '/public/seasalt-ai-logo.png'
     };
   };
   

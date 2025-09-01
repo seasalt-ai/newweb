@@ -2,6 +2,8 @@ import { Phone, Globe, Mic } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ChannelPageTemplate from '../../components/ChannelPageTemplate';
 import { seaxChannelFeatures } from '../../data/seaxFeatures';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
 
 interface Pricing {
   setup: string;
@@ -12,8 +14,13 @@ interface Pricing {
 }
 
 const Voice = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const voiceData = seaxChannelFeatures.voice;
+  
+  // Generate enhanced SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.channels.voice', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax/channels/voice')
+  });
 
   // Features 和 Use Cases，从对象转换为数组
   const featuresObj = t('seax.channels.voice.features.items', { returnObjects: true }) as Record<string, string>;
@@ -127,8 +134,8 @@ const Voice = () => {
       title={t('seax.channels.voice.title') || ''}
       subtitle={t('seax.channels.voice.subtitle') || ''}
       description={t('seax.channels.voice.description') || ''}
-      seoTitle={t('seax.channels.voice.seoTitle') || ''}
-      seoDescription={t('seax.channels.voice.seoDescription') || ''}
+      seoTitle={seoData.title}
+      seoDescription={seoData.description}
       heroContent={heroContent}
       features={features}
       featuresTitle={featuresTitle}

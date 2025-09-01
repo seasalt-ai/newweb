@@ -7,16 +7,17 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { SUPPORTED_LANGUAGES } from '../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../utils/seo';
 
 const PricingPage = () => {
   const { t, i18n } = useTranslation();
   const [isAnnualBilling, setIsAnnualBilling] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   
-  // Generate canonical URL for SEO
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${i18n.language}/pricing` 
-    : `/${i18n.language}/pricing`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'pricing', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/pricing')
+  });
 
   const plans = [
     {
@@ -201,10 +202,10 @@ const PricingPage = () => {
     <div className="min-h-screen bg-white">
       {/* SEO Tags */}
       <SEOHelmet
-        title={t('pricing.seo.title')}
-        description={t('pricing.seo.description')}
+        title={seoData.title}
+        description={seoData.description}
         favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
+        canonicalUrl={seoData.canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
       />
       {/* Global Header */}

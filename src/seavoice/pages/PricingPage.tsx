@@ -5,9 +5,20 @@ import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
 import PriceCalculator from '../components/PriceCalculator';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import SEOHelmet from '../../components/SEOHelmet';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const PricingPage = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pricing', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/pricing')
+  });
+
   const plans = [
     {
       id: 'inboundOnly',
@@ -139,6 +150,16 @@ const PricingPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={seoData.title}
+        description={seoData.description}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={seoData.canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
+      />
+      
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,13 +1,22 @@
 import { Book, Search, FileText, Users, Zap, Shield, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getMeetingUrl } from '../../../constants/urls';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 
 export default function KnowledgeBasePage() {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.features.knowledgeBase', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/features/knowledge-base')
+  });
+  
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -247,5 +256,6 @@ export default function KnowledgeBasePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

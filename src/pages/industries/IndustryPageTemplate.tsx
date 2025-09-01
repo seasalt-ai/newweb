@@ -7,6 +7,7 @@ import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getIndustrySEOData } from '../../utils/seo';
 
 interface IndustryPageTemplateProps {
   title: string;
@@ -16,6 +17,7 @@ interface IndustryPageTemplateProps {
   bgColor: string;
   borderColor: string;
   icon: React.ComponentType<{ className?: string }>;
+  slug: string; // Add slug for SEO
   showSeaHealthLink?: boolean;
 }
 
@@ -27,6 +29,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
   bgColor,
   borderColor,
   icon: Icon,
+  slug,
   showSeaHealthLink = false
 }) => {
   const { t, i18n } = useTranslation();
@@ -35,9 +38,9 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}` 
-    : `/${i18n.language}/industries/${title.toLowerCase().replace(/\s+/g, '-')}`;
+  
+  // Generate SEO data using the utility function
+  const seoData = getIndustrySEOData(t, slug, i18n.language);
 
   const useCases = [
     {
@@ -76,10 +79,10 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
 
       {/* SEO Tags */}
       <SEOHelmet
-        title={`${title} ${t('industries.template.seo.titleSuffix')}`}
-        description={`${headline} ${t('industries.template.seo.descriptionPrefix')} ${title} ${t('industries.template.seo.descriptionSuffix')}`}
+        title={seoData.title}
+        description={seoData.description}
         favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
+        canonicalUrl={seoData.canonicalUrl}
         availableLanguages={SUPPORTED_LANGUAGES}
       />
       

@@ -1,9 +1,16 @@
 import { ShoppingBag, TrendingUp, Package, CreditCard, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 const EcommercePage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.integrations.ecommerce', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/integrations/ecommerce')
+  });
   
   const platforms = [
     {
@@ -234,7 +241,9 @@ const EcommercePage = () => {
   const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
 
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-purple-900 via-pink-800 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -415,6 +424,7 @@ const EcommercePage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

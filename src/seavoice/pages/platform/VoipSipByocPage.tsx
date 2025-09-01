@@ -2,8 +2,17 @@ import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
 import { motion } from 'framer-motion';
 import { Network, Server, Shield, Zap, Globe, Settings } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+
 const VoipSipByocPage = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.platform.voipSipByoc', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/platform/voip-sip-byoc')
+  });
   
   const connectionTypes = [
     {
@@ -77,7 +86,9 @@ const VoipSipByocPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -366,6 +377,7 @@ const VoipSipByocPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

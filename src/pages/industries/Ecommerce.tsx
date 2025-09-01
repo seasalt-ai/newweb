@@ -15,6 +15,7 @@ const Ecommerce = () => {
       bgColor={industryData.bgColor}
       borderColor={industryData.borderColor}
       icon={industryData.icon}
+      slug={industryData.slug}
     />
   );
 };
