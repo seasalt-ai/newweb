@@ -33,15 +33,17 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
   tags = [],
   slug
 }) => {
-  const fullImageUrl = image.startsWith('http') ? image : `${window.location.origin}${image}`;
+  // Handle SSR safely
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://seasalt.ai';
+  const fullImageUrl = image.startsWith('http') ? image : `${origin}${image}`;
   const siteName = 'Seasalt.ai';
   
   // Generate hreflang links for available languages
   const hrefLangLinks = availableLanguages.map(lang => {
     const langDetail = LANGUAGE_DETAILS.find(l => l.code === lang);
     const hrefLangUrl = slug 
-      ? `${window.location.origin}/${lang}/blog/${slug}`
-      : `${window.location.origin}/${lang}/blog`;
+      ? `${origin}/${lang}/blog/${slug}`
+      : `${origin}/${lang}/blog`;
     
     // Convert language codes to proper hreflang codes
     let hrefLangCode = lang;
@@ -115,8 +117,8 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": siteName,
-          "url": window.location.origin,
-          "logo": `${window.location.origin}/seasalt-ai-logo.png`,
+          "url": origin,
+          "logo": `${origin}/seasalt-ai-logo.png`,
           "sameAs": [
             "https://www.linkedin.com/company/seasalt-ai",
             "https://twitter.com/seasalt_ai",
@@ -143,7 +145,7 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
               "name": siteName,
               "logo": {
                 "@type": "ImageObject",
-                "url": `${window.location.origin}/seasalt-ai-logo.png`
+                "url": `${origin}/seasalt-ai-logo.png`
               }
             },
             "datePublished": publishedTime,
