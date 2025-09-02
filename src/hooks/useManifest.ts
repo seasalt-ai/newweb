@@ -223,34 +223,38 @@ export function useManifest(lang: string = 'en') {
     const translation = getManifestTranslation(lang);
     const langPrefix = lang === 'en' ? '' : `/${lang}`;
     
+    // Determine current origin (development vs production)
+    const currentOrigin = typeof window !== 'undefined' ? window.location.origin : 'https://seasalt.ai';
+    const baseUrl = currentOrigin;
+    
     const manifest = {
       name: translation.name,
       short_name: translation.short_name,
       description: translation.description,
-      start_url: `${langPrefix}/`,
+      start_url: `${baseUrl}${langPrefix}/`,
       display: 'standalone',
       background_color: '#ffffff',
       theme_color: '#2563eb',
       orientation: 'portrait-primary',
-      scope: `${langPrefix}/`,
+      scope: `${baseUrl}/`,
       lang: lang,
       dir: ['ar', 'fa'].includes(lang) ? 'rtl' : 'ltr',
       categories: ['business', 'productivity', 'communication'],
       icons: [
         {
-          src: '/seasalt-ai-favicon.ico',
+          src: `${baseUrl}/seasalt-ai-favicon.ico`,
           sizes: '16x16 32x32',
           type: 'image/x-icon',
           purpose: 'any'
         },
         {
-          src: '/seasalt-ai-icon.png',
+          src: `${baseUrl}/seasalt-ai-icon.png`,
           sizes: '192x192',
           type: 'image/png',
           purpose: 'any maskable'
         },
         {
-          src: '/seasalt-ai-logo.png',
+          src: `${baseUrl}/seasalt-ai-logo.png`,
           sizes: '512x512',
           type: 'image/png',
           purpose: 'any maskable'
@@ -261,10 +265,10 @@ export function useManifest(lang: string = 'en') {
           name: translation.shortcuts.seachat.name,
           short_name: translation.shortcuts.seachat.name,
           description: translation.shortcuts.seachat.description,
-          url: `${langPrefix}/seachat`,
+          url: `${baseUrl}${langPrefix}/seachat`,
           icons: [
             {
-              src: '/seachat-icon.png',
+              src: `${baseUrl}/seachat-icon.png`,
               sizes: '96x96',
               type: 'image/png'
             }
@@ -274,10 +278,10 @@ export function useManifest(lang: string = 'en') {
           name: translation.shortcuts.seax.name,
           short_name: translation.shortcuts.seax.name,
           description: translation.shortcuts.seax.description,
-          url: `${langPrefix}/seax`,
+          url: `${baseUrl}${langPrefix}/seax`,
           icons: [
             {
-              src: '/seax-icon.png',
+              src: `${baseUrl}/seax-icon.png`,
               sizes: '96x96',
               type: 'image/png'
             }
@@ -287,10 +291,10 @@ export function useManifest(lang: string = 'en') {
           name: translation.shortcuts.pricing.name,
           short_name: translation.shortcuts.pricing.name,
           description: translation.shortcuts.pricing.description,
-          url: `${langPrefix}/pricing`,
+          url: `${baseUrl}${langPrefix}/pricing`,
           icons: [
             {
-              src: '/seasalt-ai-icon.png',
+              src: `${baseUrl}/seasalt-ai-icon.png`,
               sizes: '96x96',
               type: 'image/png'
             }

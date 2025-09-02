@@ -324,7 +324,7 @@ Homepage includes comprehensive organization data:
   "name": "Seasalt.ai",
   "description": "Leading AI conversation intelligence platform...",
   "url": "https://seasalt.ai",
-  "logo": "https://seasalt.ai/logo.png",
+  "logo": "https://seasalt.ai/seasalt-ai-logo.png",
   "sameAs": [
     "https://linkedin.com/company/seasalt-ai",
     "https://twitter.com/seasalt_ai"
@@ -471,7 +471,7 @@ The sitemap generator creates:
 node scripts/generate-sitemap.js
 
 # Custom configuration
-node scripts/generate-sitemap.js --baseUrl=https://staging.seasalt.ai --languages=en,zh-TW
+node scripts/generate-sitemap.js --baseUrl=https://newweb.seasalt.ai --languages=en,zh-TW
 ```
 
 ## 🚀 Performance SEO
@@ -1089,7 +1089,7 @@ export default function AdvancedLayout({
           
           {/* Additional SEO Meta Tags */}
           <meta name="theme-color" content="#2563eb" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-title" content="Seasalt.ai" />
           
           {/* Performance DNS Prefetch */}

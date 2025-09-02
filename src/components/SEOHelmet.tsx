@@ -463,14 +463,11 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       <meta name="theme-color" content={themeColor} />
       <meta name="msapplication-TileColor" content={themeColor} />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content={BRAND_CONSTANTS.COMPANY_NAME} />
       
-      {/* Favicons and Icons - Note: Primary favicon is handled by FaviconManager */}
-      <link rel="icon" type="image/x-icon" href="/seasalt-ai-favicon.ico" />
-      <link rel="icon" type="image/png" sizes="192x192" href="/seasalt-ai-icon.png" />
-      <link rel="apple-touch-icon" sizes="192x192" href="/seasalt-ai-icon.png" />
+      {/* Favicons are handled by FaviconManager - no static favicon links here to prevent conflicts */}
       <link rel="manifest" href={manifestDataUrl} />
       
       {/* DNS Prefetch and Preconnect for Performance */}

@@ -54,6 +54,13 @@ const SeaXRouter = () => {
     }
   }, [lang, i18n]);
 
+  // Update HTML lang attribute whenever the language changes
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+    console.log('[SeaXRouter] Updated HTML lang attribute to:', i18n.language);
+  }, [i18n.language]);
+
   return (
     <Routes>
       {/* Home page */}

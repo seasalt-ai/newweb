@@ -98,6 +98,13 @@ const LanguageAwareWrapper: React.FC<{
     }
   }, [location.pathname, i18n, productName]);
   
+  // Update HTML lang attribute whenever the language changes
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+    console.log(`[${productName}WithLanguage] Updated HTML lang attribute to:`, i18n.language);
+  }, [i18n.language, productName]);
+  
   return <>{children}</>;
 };
 

@@ -52,6 +52,13 @@ const LanguageRouter: React.FC = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lang, location.pathname, navigate, i18n]);
+
+  // Update HTML lang attribute whenever the language changes
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+    console.log('[LanguageRouter] Updated HTML lang attribute to:', i18n.language);
+  }, [i18n.language]);
   
   return <Outlet />;
 };
