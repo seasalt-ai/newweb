@@ -25,6 +25,18 @@ import {
 } from '../constants/languages';
 import { useProductAssets, getProductAssets } from '../utils/productAssets';
 import { useManifest } from '../hooks/useManifest';
+import {
+  createOrganizationSchema,
+  createWebSiteSchema,
+  createWebPageSchema,
+  createBreadcrumbListSchema,
+  createFAQPageSchema,
+  createArticleSchema,
+  createProductSchema,
+  stringifyStructuredData
+} from '../utils/structuredData';
+import { getProductKeyFromPath } from '../utils/productAssets';
+import { type ProductKey, type SchemaAvailability, SCHEMA_AVAILABILITY } from '../config/structuredData';
 
 // Brand constants for consistent SEO metadata
 const BRAND_CONSTANTS = {
@@ -95,6 +107,18 @@ export interface SEOHelmetProps {
   
   /** Whether this is a preview/draft page */
   isPreview?: boolean;
+  
+  /** Product key for automatic product schema generation */
+  productKey?: ProductKey;
+  
+  /** Custom price override for product schema */
+  price?: string;
+  
+  /** Custom price currency for product schema */
+  priceCurrency?: string;
+  
+  /** Custom availability status for product schema */
+  availability?: SchemaAvailability;
 }
 
 // =============================================================================
@@ -118,7 +142,11 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   structuredData = [],
   breadcrumbs,
   faqs,
-  isPreview = false
+  isPreview = false,
+  productKey,
+  price,
+  priceCurrency,
+  availability
 }) => {
   const location = useLocation();
   
@@ -246,29 +274,83 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     // Theme color
     const themeColor = BRAND_CONSTANTS.THEME_COLOR;
     
-    // Basic structured data for organization
-    const organizationSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: BRAND_CONSTANTS.COMPANY_NAME,
-      url: BRAND_CONSTANTS.SITE_URL,
-      logo: `${BRAND_CONSTANTS.SITE_URL}${BRAND_CONSTANTS.LOGO_URL}`,
-      sameAs: [
-        'https://twitter.com/seasalt_ai',
-        'https://linkedin.com/company/seasalt-ai'
-      ]
-    };
+    // =======================================================================
+    // Enhanced Structured Data Generation Using Utilities
+    // =======================================================================
     
-    // Website schema
-    const websiteSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      name: BRAND_CONSTANTS.COMPANY_NAME,
-      url: BRAND_CONSTANTS.SITE_URL
-    };
+    // Initialize structured data array
+    const allStructuredData: Array<Record<string, any>> = [];
     
-    // Combine all structured data
-    const allStructuredData = [organizationSchema, websiteSchema, ...structuredData];
+    // 1. Enhanced Organization Schema with full information
+    const organizationSchema = createOrganizationSchema(
+      undefined, // Use default ORGANIZATION_INFO
+      description, // Add current page description if available
+      effectiveAvailableLanguages.map(lang => lang as string) // Available languages
+    );
+    allStructuredData.push(organizationSchema);
+    
+    // 2. Website Schema with search functionality
+    const websiteSchema = createWebSiteSchema();
+    allStructuredData.push(websiteSchema);
+    
+    // 3. WebPage Schema for current page
+    const webPageSchema = createWebPageSchema({
+      title,
+      description,
+      url: canonicalUrl,
+      language: currentLang,
+      dateModified: modifiedTime,
+      lastReviewed: new Date().toISOString() // Always mark as recently reviewed
+    });
+    allStructuredData.push(webPageSchema);
+    
+    // 4. Product Schema (if productKey provided or detected from path)
+    const effectiveProductKey = productKey || getProductKeyFromPath(location.pathname);
+    if (effectiveProductKey) {
+      try {
+        const productSchema = createProductSchema({
+          productKey: effectiveProductKey,
+          url: canonicalUrl,
+          customPrice: price,
+          customPriceCurrency: priceCurrency,
+          customAvailability: availability
+        });
+        allStructuredData.push(productSchema);
+      } catch (error) {
+        console.warn('Failed to create product schema:', error);
+      }
+    }
+    
+    // 5. Breadcrumb Schema (if breadcrumbs provided)
+    if (breadcrumbs && breadcrumbs.length > 0) {
+      const breadcrumbSchema = createBreadcrumbListSchema(breadcrumbs);
+      allStructuredData.push(breadcrumbSchema);
+    }
+    
+    // 6. FAQ Schema (if FAQs provided)
+    if (faqs && faqs.length > 0) {
+      const faqSchema = createFAQPageSchema(faqs);
+      allStructuredData.push(faqSchema);
+    }
+    
+    // 7. Article Schema (if article type and author provided)
+    if (type === 'article' && author) {
+      const articleSchema = createArticleSchema({
+        title,
+        description,
+        image: fullSocialImageUrl,
+        author,
+        datePublished: publishedTime,
+        dateModified: modifiedTime || publishedTime,
+        url: canonicalUrl
+      });
+      allStructuredData.push(articleSchema);
+    }
+    
+    // 8. Add any additional custom structured data
+    if (structuredData && structuredData.length > 0) {
+      allStructuredData.push(...structuredData);
+    }
     
     // Generate geographic targeting information
     let geoTargetingMeta: Array<{ name: string; content: string }> = [];
@@ -285,95 +367,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
           { name: 'geo.placename', content: geoTargeting.placenames.join(', ') },
           { name: 'ICBM', content: '' }, // Will be populated if we add coordinates later
         ].filter(meta => meta.content); // Remove empty content
-        
-        // Add enhanced organization schema with geographic data
-        const enhancedOrganizationSchema = {
-          ...organizationSchema,
-          areaServed: geoTargeting.regions.map(region => ({
-            '@type': 'Country',
-            identifier: region
-          })),
-          availableLanguage: effectiveAvailableLanguages.map(langCode => {
-            const lang = langCode as SupportedLanguage;
-            const langInfo = LANGUAGE_REGION_MAP[lang];
-            return {
-              '@type': 'Language',
-              name: langInfo?.language || lang,
-              alternateName: getAllLocales(lang)
-            };
-          })
-        };
-        
-        // Replace the basic organization schema with the enhanced one
-        const organizationIndex = allStructuredData.findIndex(
-          schema => schema['@type'] === 'Organization'
-        );
-        if (organizationIndex !== -1) {
-          allStructuredData[organizationIndex] = enhancedOrganizationSchema;
-        }
       }
-    }
-    
-    // Add breadcrumb data if provided
-    if (breadcrumbs && breadcrumbs.length > 0) {
-      const breadcrumbSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: breadcrumbs.map((crumb, index) => ({
-          '@type': 'ListItem',
-          position: index + 1,
-          name: crumb.name,
-          item: crumb.url
-        }))
-      };
-      allStructuredData.push(breadcrumbSchema);
-    }
-    
-    // Add FAQ data if provided
-    if (faqs && faqs.length > 0) {
-      const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqs.map(faq => ({
-          '@type': 'Question',
-          name: faq.question,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: faq.answer
-          }
-        }))
-      };
-      allStructuredData.push(faqSchema);
-    }
-    
-    // Add article data if it's an article type
-    if (type === 'article' && author) {
-      const articleSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        headline: title,
-        description: description,
-        image: fullSocialImageUrl,
-        author: {
-          '@type': 'Person',
-          name: author
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: BRAND_CONSTANTS.COMPANY_NAME,
-          logo: {
-            '@type': 'ImageObject',
-            url: `${BRAND_CONSTANTS.SITE_URL}${BRAND_CONSTANTS.LOGO_URL}`
-          }
-        },
-        datePublished: publishedTime,
-        dateModified: modifiedTime || publishedTime,
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': canonicalUrl
-        }
-      };
-      allStructuredData.push(articleSchema);
     }
     
     return {
@@ -386,7 +380,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       allStructuredData,
       geoTargetingMeta
     };
-  }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets]);
+  }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets, productKey, price, priceCurrency, availability]);
   
   const {
     canonicalUrl,
@@ -540,7 +534,11 @@ export const SEOHelmet = React.memo(SEOHelmetInternal, (prevProps, nextProps) =>
     JSON.stringify(prevProps.structuredData) === JSON.stringify(nextProps.structuredData) &&
     JSON.stringify(prevProps.breadcrumbs) === JSON.stringify(nextProps.breadcrumbs) &&
     JSON.stringify(prevProps.faqs) === JSON.stringify(nextProps.faqs) &&
-    prevProps.isPreview === nextProps.isPreview
+    prevProps.isPreview === nextProps.isPreview &&
+    prevProps.productKey === nextProps.productKey &&
+    prevProps.price === nextProps.price &&
+    prevProps.priceCurrency === nextProps.priceCurrency &&
+    prevProps.availability === nextProps.availability
   );
 });
 

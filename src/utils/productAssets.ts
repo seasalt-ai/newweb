@@ -7,6 +7,7 @@
 
 import { useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
+import type { ProductKey } from '../config/structuredData';
 
 // =============================================================================
 // Type Definitions
@@ -126,6 +127,42 @@ export function getProductAssets(pathname: string): ProductAssets {
 export function useProductAssets(): ProductAssets {
   const { pathname } = useLocation();
   return useMemo(() => getProductAssets(pathname), [pathname]);
+}
+
+// =============================================================================
+// Structured Data Integration
+// =============================================================================
+
+/**
+ * Maps Product types to ProductKey types for structured data
+ * @param product - Product type from asset detection
+ * @returns ProductKey compatible with structured data configuration, or null if not applicable
+ */
+export function mapProductToProductKey(product: Product): ProductKey | null {
+  switch (product) {
+    case 'seachat':
+      return 'seachat';
+    case 'seax':
+      return 'seax';
+    case 'seavoice':
+      return 'seavoice';
+    // Note: 'seahealth' and 'core' don't have structured data configurations yet
+    case 'seahealth':
+    case 'core':
+    default:
+      return null;
+  }
+}
+
+/**
+ * Gets the ProductKey for structured data based on URL pathname
+ * This is used by SEOHelmet to automatically detect product schemas
+ * @param pathname - URL pathname
+ * @returns ProductKey for structured data, or null if not a product page
+ */
+export function getProductKeyFromPath(pathname: string): ProductKey | null {
+  const product = detectProduct(pathname);
+  return mapProductToProductKey(product);
 }
 
 // =============================================================================

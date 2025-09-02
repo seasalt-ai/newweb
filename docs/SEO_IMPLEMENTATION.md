@@ -344,7 +344,7 @@ Homepage includes comprehensive organization data:
 
 ```tsx
 // Add FAQ schema
-<SEOHead
+<SEOHelmet
   faqs={[
     {
       question: "What is Seasalt.ai?",
@@ -353,23 +353,39 @@ Homepage includes comprehensive organization data:
   ]}
 />
 
-// Product page with structured data
-const productSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "SeaVoice",
-  "description": "AI-powered voice analytics platform",
-  "applicationCategory": "BusinessApplication",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "Contact for pricing"
-  }
-};
+// Product page with automatic schema detection
+<SEOHelmet
+  title="SeaChat | Free AI Chatbot Platform - Seasalt.ai"
+  description="Build powerful AI chatbots for free..."
+  // productKey is automatically detected from URL path
+/>
 
-<SEOHead
-  pageType="products"
-  structuredData={[productSchema]}
+// Product page with custom pricing
+<SEOHelmet
+  title="SeaX Enterprise | Omnichannel Platform - Seasalt.ai"
+  description="Scale your business communications..."
+  productKey="seax"
+  price="299"
+  priceCurrency="USD"
+  availability="https://schema.org/InStock"
+/>
+
+// Enhanced product page with breadcrumbs and FAQs
+<SEOHelmet
+  title="SeaVoice | AI Voice Analytics - Seasalt.ai"
+  description="Transform voice communications with AI..."
+  productKey="seavoice"
+  breadcrumbs={[
+    { name: "Home", url: "https://seasalt.ai" },
+    { name: "Products", url: "https://seasalt.ai/products" },
+    { name: "SeaVoice", url: "https://seasalt.ai/seavoice" }
+  ]}
+  faqs={[
+    {
+      question: "What is SeaVoice?",
+      answer: "SeaVoice is an AI-powered voice communication platform..."
+    }
+  ]}
 />
 ```
 
