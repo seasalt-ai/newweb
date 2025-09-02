@@ -9,7 +9,7 @@ const CollectionsPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.collections.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.collections', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/collections')
   });
   const features = [

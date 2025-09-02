@@ -11,7 +11,7 @@ const SmeOwners = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'solutions.smeOwners.seo', {
+  const seoData = getSEOData(t, 'solutions.smeOwners', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/solutions/sme-owners')
   });
 

@@ -9,7 +9,7 @@ const CustomerReactivationPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.customerReactivation.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.customerReactivation', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/customer-reactivation')
   });
   

@@ -16,7 +16,7 @@ const SeaXHome = () => {
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seax.home.seo', {
+  const seoData = getSEOData(t, 'seax.home', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seax')
   });
   

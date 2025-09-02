@@ -18,7 +18,7 @@ const WebsiteWidget = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.websiteWidget.seo', {
+  const seoData = getSEOData(t, 'channels.websiteWidget', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/website-widget')
   });
   const platforms = [

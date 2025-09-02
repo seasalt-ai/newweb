@@ -11,7 +11,7 @@ const DialpadAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.dialpadAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.dialpadAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/dialpad-alternative')
   });
   

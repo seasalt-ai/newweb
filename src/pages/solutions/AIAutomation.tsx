@@ -11,7 +11,7 @@ const AIAutomation = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'solutions.aiAutomation.seo', {
+  const seoData = getSEOData(t, 'solutions.aiAutomation', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/solutions/ai-automation')
   });
 

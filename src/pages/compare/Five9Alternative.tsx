@@ -11,7 +11,7 @@ const Five9Alternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.five9Alternative.seo', {
+  const seoData = getSEOData(t, 'compare.five9Alternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/five9-alternative')
   });
   

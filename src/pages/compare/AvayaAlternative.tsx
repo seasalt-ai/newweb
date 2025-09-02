@@ -11,7 +11,7 @@ const AvayaAlternative = () => {
   const { i18n, t } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.avayaAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.avayaAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/avaya-alternative')
   });
   

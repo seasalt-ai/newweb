@@ -11,7 +11,7 @@ const RespondIoAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.respondIoAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.respondIoAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/respond-io-alternative')
   });
   

@@ -9,7 +9,7 @@ const SeniorCheckCallsPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.seniorCheckCalls.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.seniorCheckCalls', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/senior-check-calls')
   });
   const features = [

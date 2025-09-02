@@ -9,7 +9,7 @@ const LeadGenerationPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.leadGeneration.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.leadGeneration', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/lead-generation')
   });
   

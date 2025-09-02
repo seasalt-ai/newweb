@@ -11,7 +11,7 @@ const IntercomAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.intercomAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.intercomAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/intercom-alternative')
   });
   

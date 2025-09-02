@@ -11,7 +11,7 @@ const CustomerSupport = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'solutions.customerSupport.seo', {
+  const seoData = getSEOData(t, 'solutions.customerSupport', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/solutions/customer-support')
   });
 

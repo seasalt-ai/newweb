@@ -11,7 +11,7 @@ const CallTransferPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.callTransfer.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.callTransfer', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/call-transfer')
   });
   

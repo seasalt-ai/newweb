@@ -17,7 +17,7 @@ const SMS = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.sms.seo', {
+  const seoData = getSEOData(t, 'channels.sms', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/sms')
   });
 

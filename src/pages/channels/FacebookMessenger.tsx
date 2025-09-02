@@ -17,7 +17,7 @@ const FacebookMessenger = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.facebookMessenger.seo', {
+  const seoData = getSEOData(t, 'channels.facebookMessenger', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/facebook-messenger')
   });
   

@@ -24,6 +24,7 @@ import {
   type SupportedLanguage 
 } from '../constants/languages';
 import { useProductAssets, getProductAssets } from '../utils/productAssets';
+import { useManifest } from '../hooks/useManifest';
 
 // Brand constants for consistent SEO metadata
 const BRAND_CONSTANTS = {
@@ -122,6 +123,14 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
   const location = useLocation();
   
   // ==========================================================================
+  // Dynamic Manifest Generation
+  // ==========================================================================
+  
+  // Get current language for manifest
+  const currentLang = location.pathname.split('/')[1] || 'en';
+  const { manifestDataUrl } = useManifest(currentLang);
+  
+  // ==========================================================================
   // Product-Specific Assets
   // ==========================================================================
   
@@ -142,7 +151,6 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     
     // Detect current language for manifest selection
     const currentLang = pathname.split('/')[0] || 'en';
-    const manifestPath = `/api/manifest?lang=${currentLang}`;
     
     // Generate canonical URL
     const canonicalUrl = customCanonicalUrl || `${BRAND_CONSTANTS.SITE_URL}/${pathname}`;
@@ -156,7 +164,9 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     let hreflangUrls: Array<{ lang: string; url: string }> = [];
     if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
       const origin = BRAND_CONSTANTS.SITE_URL;
-      const cleanPath = pathname.split('/').slice(1).join('/'); // Remove potential language prefix
+      const segments = pathname.split('/');
+      const langInPath = SUPPORTED_LANGUAGES.includes(segments[0] as SupportedLanguage);
+      const cleanPath = langInPath ? segments.slice(1).join('/') : pathname;
       
       // Add x-default hreflang (points to English version)
       const defaultUrl = generateUrlForLanguage(origin, 'en', cleanPath, slug);
@@ -374,8 +384,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       robotsContent,
       themeColor,
       allStructuredData,
-      geoTargetingMeta,
-      manifestPath
+      geoTargetingMeta
     };
   }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets]);
   
@@ -387,8 +396,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     robotsContent,
     themeColor,
     allStructuredData,
-    geoTargetingMeta,
-    manifestPath
+    geoTargetingMeta
   } = computedValues;
   
   // ==========================================================================
@@ -463,7 +471,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       <link rel="icon" type="image/x-icon" href="/seasalt-ai-favicon.ico" />
       <link rel="icon" type="image/png" sizes="192x192" href="/seasalt-ai-icon.png" />
       <link rel="apple-touch-icon" sizes="192x192" href="/seasalt-ai-icon.png" />
-      <link rel="manifest" href={manifestPath} />
+      <link rel="manifest" href={manifestDataUrl} />
       
       {/* DNS Prefetch and Preconnect for Performance */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />

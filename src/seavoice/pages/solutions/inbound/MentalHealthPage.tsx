@@ -11,7 +11,7 @@ const MentalHealthPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.mentalHealth.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.mentalHealth', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/mental-health')
   });
   

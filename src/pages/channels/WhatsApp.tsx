@@ -17,7 +17,7 @@ const WhatsApp = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.whatsapp.seo', {
+  const seoData = getSEOData(t, 'channels.whatsApp', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/whatsapp')
   });
 

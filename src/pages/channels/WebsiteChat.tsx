@@ -17,7 +17,7 @@ const WebsiteChat = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.websiteChat.seo', {
+  const seoData = getSEOData(t, 'channels.websiteChat', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/website-chat')
   });
   

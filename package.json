@@ -13,6 +13,7 @@
     "generate-routes": "node scripts/generate-static-routes.mjs",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-robots": "node scripts/generate-robots.js",
+    "generate-manifests": "node scripts/generate-manifests.js",
     "seo-analyze": "node scripts/seo-analyzer.mjs",
     "seo-analyze-dev": "node scripts/seo-analyzer.mjs --url=http://localhost:5173",
     "seo-analyze-prod": "node scripts/seo-analyzer.mjs --url=https://seasalt.ai --format=html --output=reports/seo-audit.html",

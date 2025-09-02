@@ -11,7 +11,7 @@ const SalesMarketing = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'solutions.salesMarketing.seo', {
+  const seoData = getSEOData(t, 'solutions.salesMarketing', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/solutions/sales-marketing')
   });
 

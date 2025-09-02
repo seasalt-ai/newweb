@@ -14,7 +14,7 @@ const OpenPhoneAlternative = () => {
   const currentLanguage = useNormalizedLanguage();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.openPhoneAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.openPhoneAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/openphone-alternative')
   });
   

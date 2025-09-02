@@ -17,7 +17,7 @@ const PhoneCalls = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.phoneCalls.seo', {
+  const seoData = getSEOData(t, 'channels.phoneCalls', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/phone-calls')
   });
 

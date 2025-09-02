@@ -11,7 +11,7 @@ const IvrReplacementPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.ivrReplacement.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.ivrReplacement', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/ivr-replacement')
   });
   

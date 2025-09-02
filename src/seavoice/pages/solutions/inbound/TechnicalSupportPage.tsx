@@ -11,7 +11,7 @@ const TechnicalSupportPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.technicalSupport.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.technicalSupport', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/technical-support')
   });
   

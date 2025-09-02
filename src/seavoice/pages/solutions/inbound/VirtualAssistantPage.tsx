@@ -11,7 +11,7 @@ const VirtualAssistantPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.virtualAssistant.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.virtualAssistant', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/virtual-assistant')
   });
   

@@ -1,7 +1,5 @@
-// Dynamic Web App Manifest Generator
-// Generates localized manifests for all 20 languages
-
-import { SUPPORTED_LANGUAGES } from '../src/constants/languages.js';
+import { useMemo } from 'react';
+import { SUPPORTED_LANGUAGES } from '../constants/languages';
 
 // Manifest translations for all supported languages
 const MANIFEST_TRANSLATIONS = {
@@ -205,111 +203,116 @@ const MANIFEST_TRANSLATIONS = {
       pricing: { name: 'قیمت‌گذاری', description: 'مشاهده طرح‌های قیمتی' }
     }
   }
-};
+} as const;
+
+type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number];
 
 // Default to English for unsupported languages
-function getManifestTranslation(lang) {
-  return MANIFEST_TRANSLATIONS[lang] || MANIFEST_TRANSLATIONS['en'];
+function getManifestTranslation(lang: string) {
+  return MANIFEST_TRANSLATIONS[lang as keyof typeof MANIFEST_TRANSLATIONS] || MANIFEST_TRANSLATIONS['en'];
 }
 
-// Generate dynamic manifest
-export default function handler(req, res) {
-  const { lang = 'en' } = req.query;
-  
-  // Validate language
-  if (!SUPPORTED_LANGUAGES.includes(lang)) {
-    return res.status(400).json({ error: 'Unsupported language' });
-  }
-  
-  const translation = getManifestTranslation(lang);
-  const langPrefix = lang === 'en' ? '' : `/${lang}`;
-  
-  const manifest = {
-    name: translation.name,
-    short_name: translation.short_name,
-    description: translation.description,
-    start_url: `${langPrefix}/`,
-    display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#2563eb',
-    orientation: 'portrait-primary',
-    scope: `${langPrefix}/`,
-    lang: lang,
-    dir: ['ar', 'fa'].includes(lang) ? 'rtl' : 'ltr',
-    categories: ['business', 'productivity', 'communication'],
-    icons: [
-      {
-        src: '/seasalt-ai-favicon.ico',
-        sizes: '16x16 32x32',
-        type: 'image/x-icon',
-        purpose: 'any'
-      },
-      {
-        src: '/seasalt-ai-icon.png',
-        sizes: '192x192',
-        type: 'image/png',
-        purpose: 'any maskable'
-      },
-      {
-        src: '/seasalt-ai-logo.png',
-        sizes: '512x512',
-        type: 'image/png',
-        purpose: 'any maskable'
-      }
-    ],
-    shortcuts: [
-      {
-        name: translation.shortcuts.seachat.name,
-        short_name: translation.shortcuts.seachat.name,
-        description: translation.shortcuts.seachat.description,
-        url: `${langPrefix}/seachat`,
-        icons: [
-          {
-            src: '/seachat-icon.png',
-            sizes: '96x96',
-            type: 'image/png'
-          }
-        ]
-      },
-      {
-        name: translation.shortcuts.seax.name,
-        short_name: translation.shortcuts.seax.name,
-        description: translation.shortcuts.seax.description,
-        url: `${langPrefix}/seax`,
-        icons: [
-          {
-            src: '/seax-icon.png',
-            sizes: '96x96',
-            type: 'image/png'
-          }
-        ]
-      },
-      {
-        name: translation.shortcuts.pricing.name,
-        short_name: translation.shortcuts.pricing.name,
-        description: translation.shortcuts.pricing.description,
-        url: `${langPrefix}/pricing`,
-        icons: [
-          {
-            src: '/seasalt-ai-icon.png',
-            sizes: '96x96',
-            type: 'image/png'
-          }
-        ]
-      }
-    ],
-    related_applications: [
-      {
-        platform: 'webapp',
-        url: `https://seasalt.ai${langPrefix}/`
-      }
-    ],
-    prefer_related_applications: false
-  };
-  
-  // Set proper content type and caching headers
-  res.setHeader('Content-Type', 'application/manifest+json');
-  res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
-  
-  return res.status(200).json(manifest);
+// Hook to generate dynamic manifest data
+export function useManifest(lang: string = 'en') {
+  return useMemo(() => {
+    // Validate language
+    if (!SUPPORTED_LANGUAGES.includes(lang as any)) {
+      lang = 'en';
+    }
+    
+    const translation = getManifestTranslation(lang);
+    const langPrefix = lang === 'en' ? '' : `/${lang}`;
+    
+    const manifest = {
+      name: translation.name,
+      short_name: translation.short_name,
+      description: translation.description,
+      start_url: `${langPrefix}/`,
+      display: 'standalone',
+      background_color: '#ffffff',
+      theme_color: '#2563eb',
+      orientation: 'portrait-primary',
+      scope: `${langPrefix}/`,
+      lang: lang,
+      dir: ['ar', 'fa'].includes(lang) ? 'rtl' : 'ltr',
+      categories: ['business', 'productivity', 'communication'],
+      icons: [
+        {
+          src: '/seasalt-ai-favicon.ico',
+          sizes: '16x16 32x32',
+          type: 'image/x-icon',
+          purpose: 'any'
+        },
+        {
+          src: '/seasalt-ai-icon.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'any maskable'
+        },
+        {
+          src: '/seasalt-ai-logo.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable'
+        }
+      ],
+      shortcuts: [
+        {
+          name: translation.shortcuts.seachat.name,
+          short_name: translation.shortcuts.seachat.name,
+          description: translation.shortcuts.seachat.description,
+          url: `${langPrefix}/seachat`,
+          icons: [
+            {
+              src: '/seachat-icon.png',
+              sizes: '96x96',
+              type: 'image/png'
+            }
+          ]
+        },
+        {
+          name: translation.shortcuts.seax.name,
+          short_name: translation.shortcuts.seax.name,
+          description: translation.shortcuts.seax.description,
+          url: `${langPrefix}/seax`,
+          icons: [
+            {
+              src: '/seax-icon.png',
+              sizes: '96x96',
+              type: 'image/png'
+            }
+          ]
+        },
+        {
+          name: translation.shortcuts.pricing.name,
+          short_name: translation.shortcuts.pricing.name,
+          description: translation.shortcuts.pricing.description,
+          url: `${langPrefix}/pricing`,
+          icons: [
+            {
+              src: '/seasalt-ai-icon.png',
+              sizes: '96x96',
+              type: 'image/png'
+            }
+          ]
+        }
+      ],
+      related_applications: [
+        {
+          platform: 'webapp',
+          url: `https://seasalt.ai${langPrefix}/`
+        }
+      ],
+      prefer_related_applications: false
+    };
+
+    // Create data URL for the manifest
+    const manifestJson = JSON.stringify(manifest);
+    const manifestDataUrl = `data:application/manifest+json,${encodeURIComponent(manifestJson)}`;
+    
+    return {
+      manifest,
+      manifestDataUrl
+    };
+  }, [lang]);
 }

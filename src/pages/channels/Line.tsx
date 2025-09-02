@@ -18,7 +18,7 @@ const Line = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.line.seo', {
+  const seoData = getSEOData(t, 'channels.line', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/line')
   });
   const markets = [

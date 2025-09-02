@@ -11,7 +11,7 @@ const GenesysAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.genesysAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.genesysAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/genesys-alternative')
   });
   

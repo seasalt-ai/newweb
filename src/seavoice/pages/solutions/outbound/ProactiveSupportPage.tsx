@@ -9,7 +9,7 @@ const ProactiveSupportPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.proactiveSupport.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.proactiveSupport', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/proactive-support')
   });
   const features = [

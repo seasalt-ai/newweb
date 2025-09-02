@@ -17,7 +17,7 @@ const ContactForms = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.contactForms.seo', {
+  const seoData = getSEOData(t, 'channels.contactForms', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/contact-forms')
   });
   const platforms = [

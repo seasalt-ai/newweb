@@ -11,7 +11,7 @@ const ThreeCXAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.threeCXAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.threeCXAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/3cx-alternative')
   });
   

@@ -11,7 +11,7 @@ const KustomerAlternative = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.kustomerAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.kustomerAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/kustomer-alternative')
   });
   

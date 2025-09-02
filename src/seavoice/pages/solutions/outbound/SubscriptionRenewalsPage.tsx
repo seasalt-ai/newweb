@@ -9,7 +9,7 @@ const SubscriptionRenewalsPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.outbound.subscriptionRenewals.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.subscriptionRenewals', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/subscription-renewals')
   });
   const features = [

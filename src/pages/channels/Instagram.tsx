@@ -17,7 +17,7 @@ const InstagramPage = () => {
   }, []);
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'channels.instagram.seo', {
+  const seoData = getSEOData(t, 'channels.instagram', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/channels/instagram')
   });
   const features = [

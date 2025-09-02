@@ -9,7 +9,7 @@ const ScamShieldPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.scamShield.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.scamShield', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/scam-shield')
   });
   

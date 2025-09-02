@@ -62,7 +62,7 @@ const AircallAlternative = () => {
   ];
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.aircallAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.aircallAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/aircall-alternative')
   });
 

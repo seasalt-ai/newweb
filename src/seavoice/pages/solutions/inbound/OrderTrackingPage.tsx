@@ -11,7 +11,7 @@ const OrderTrackingPage = () => {
   const { t, i18n } = useTranslation();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seavoice.solutions.inbound.orderTracking.seo', {
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.orderTracking', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/order-tracking')
   });
   

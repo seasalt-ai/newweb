@@ -13,7 +13,7 @@ const EightXEightAlternative = () => {
   const currentLanguage = useNormalizedLanguage();
   
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'compare.eightXEightAlternative.seo', {
+  const seoData = getSEOData(t, 'compare.eightXEightAlternative', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/compare/8x8-alternative')
   });
   

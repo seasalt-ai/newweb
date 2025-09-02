@@ -24,7 +24,7 @@ const Pricing = () => {
   const currentLanguage = i18n.language;
 
   // Generate SEO data using standardized utility
-  const seoData = getSEOData(t, 'seax.pricing.seo', {
+  const seoData = getSEOData(t, 'seax.pricing', {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seax/pricing')
   });
 
