@@ -14511,6 +14511,140 @@
           "secondaryButton": "View API Docs"
         }
       },
+      "voipSipByoc": {
+        "hero": {
+          "title": "VoIP, SIP & BYOC Voice Solutions",
+          "subtitle": "Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, direct SIP trunking, or bring your own carrier for complete control.",
+          "cta": "Talk to Connectivity Specialist"
+        },
+        "connectionTypes": {
+          "title": "Flexible Connectivity Options",
+          "subtitle": "Choose the connection method that best fits your infrastructure and requirements",
+          "keyFeatures": "Key Features:",
+          "voip": {
+            "title": "VoIP Integration",
+            "description": "Connect your existing VoIP infrastructure seamlessly with our AI voice platform.",
+            "features": {
+              "sipTrunk": "SIP trunk compatibility",
+              "codecOptimization": "Codec optimization",
+              "qos": "Quality of Service (QoS)",
+              "bandwidthManagement": "Bandwidth management"
+            },
+            "pricing": "Starting at $0.08/minute"
+          },
+          "sip": {
+            "title": "SIP Trunking",
+            "description": "Direct SIP connectivity for maximum control and customization of your voice traffic.",
+            "features": {
+              "directEndpoints": "Direct SIP endpoints",
+              "customRouting": "Custom routing rules",
+              "failoverProtection": "Failover protection",
+              "realTimeMonitoring": "Real-time monitoring"
+            },
+            "pricing": "Starting at $0.06/minute"
+          },
+          "byoc": {
+            "title": "Bring Your Own Carrier (BYOC)",
+            "description": "Use your preferred carriers while leveraging our AI voice capabilities.",
+            "features": {
+              "carrierIndependence": "Carrier independence",
+              "costOptimization": "Cost optimization",
+              "globalReach": "Global reach",
+              "vendorFlexibility": "Vendor flexibility"
+            },
+            "pricing": "Platform fee + carrier rates"
+          }
+        },
+        "benefits": {
+          "title": "Enterprise Benefits",
+          "subtitle": "Why leading enterprises choose our voice connectivity solutions",
+          "costSavings": {
+            "title": "Cost Savings",
+            "description": "Reduce communication costs by up to 60% with optimized routing and carrier selection.",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "Reliability",
+            "description": "Enterprise-grade uptime with automatic failover and redundant infrastructure.",
+            "metric": "99.99%"
+          },
+          "scalability": {
+            "title": "Scalability",
+            "description": "Handle thousands of concurrent calls with elastic scaling capabilities.",
+            "metric": "10,000+"
+          },
+          "globalReach": {
+            "title": "Global Reach",
+            "description": "Connect to customers worldwide with local presence in major markets.",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "Technical Excellence",
+          "subtitle": "Built on industry-standard protocols with enterprise-grade security and performance. Our platform supports all major codecs and provides real-time quality monitoring.",
+          "endToEndEncryption": {
+            "title": "End-to-End Encryption",
+            "description": "TLS 1.3 and SRTP for secure voice transmission"
+          },
+          "lowLatency": {
+            "title": "Low Latency",
+            "description": "Sub-150ms latency for crystal clear conversations"
+          },
+          "advancedConfiguration": {
+            "title": "Advanced Configuration",
+            "description": "Granular control over routing and quality settings"
+          }
+        },
+        "technicalSpecs": {
+          "title": "Technical Specifications",
+          "supportedProtocols": {
+            "feature": "Supported Protocols",
+            "value": "SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "Audio Codecs",
+            "value": "G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "Encryption",
+            "value": "TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "Network Requirements",
+            "value": "100 kbps per concurrent call"
+          },
+          "latency": {
+            "feature": "Latency",
+            "value": "< 150ms end-to-end"
+          },
+          "jitterBuffer": {
+            "feature": "Jitter Buffer",
+            "value": "Adaptive, 20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "How It Works",
+          "subtitle": "Simple integration with your existing infrastructure",
+          "yourInfrastructure": {
+            "title": "Your Infrastructure",
+            "description": "Existing PBX, VoIP system, or carrier"
+          },
+          "seavoicePlatform": {
+            "title": "SeaVoice Platform",
+            "description": "AI voice processing and routing"
+          },
+          "globalNetwork": {
+            "title": "Global Network",
+            "description": "Worldwide carrier connections"
+          }
+        },
+        "cta": {
+          "title": "Ready to Optimize Your Voice Infrastructure?",
+          "subtitle": "Speak with our connectivity specialists to design the perfect solution for your needs",
+          "scheduleConsultation": "Schedule Consultation",
+          "signUpForFree": "Sign Up For Free"
+        }
+      },
       "whatsAppVoice": {
         "hero": {
           "title": "WhatsApp Voice API for Businesses",
@@ -16229,11 +16363,6 @@
               "subtitle": "Start personalized reactivation campaigns that rebuild valuable customer relationships",
               "startCampaign": "Start Campaign",
               "viewCaseStudies": "View Case Studies"
-            },
-            "seo": {
-              "title": "Customer Reactivation Campaigns - SeaVoice AI",
-              "description": "Win back inactive customers with personalized AI-powered outreach campaigns. Re-engage past customers with compelling offers and rebuild valuable relationships that drive recurring revenue.",
-              "keywords": "customer reactivation, win back campaigns, AI outreach, personalized marketing, customer retention, SeaVoice"
             }
           },
           "fraudAlerts": {
@@ -17564,140 +17693,6 @@
       "subtitle": "Create custom voices and generate professional-quality speech for any application",
       "startVoiceCloning": "Start Voice Cloning",
       "exploreApi": "Explore API"
-    }
-  },
-  "voipSipByoc": {
-    "hero": {
-      "title": "VoIP, SIP & BYOC Voice Solutions",
-      "subtitle": "Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, direct SIP trunking, or bring your own carrier for complete control.",
-      "cta": "Talk to Connectivity Specialist"
-    },
-    "connectionTypes": {
-      "title": "Flexible Connectivity Options",
-      "subtitle": "Choose the connection method that best fits your infrastructure and requirements",
-      "keyFeatures": "Key Features:",
-      "voip": {
-        "title": "VoIP Integration",
-        "description": "Connect your existing VoIP infrastructure seamlessly with our AI voice platform.",
-        "features": {
-          "sipTrunk": "SIP trunk compatibility",
-          "codecOptimization": "Codec optimization",
-          "qos": "Quality of Service (QoS)",
-          "bandwidthManagement": "Bandwidth management"
-        },
-        "pricing": "Starting at $0.08/minute"
-      },
-      "sip": {
-        "title": "SIP Trunking",
-        "description": "Direct SIP connectivity for maximum control and customization of your voice traffic.",
-        "features": {
-          "directEndpoints": "Direct SIP endpoints",
-          "customRouting": "Custom routing rules",
-          "failoverProtection": "Failover protection",
-          "realTimeMonitoring": "Real-time monitoring"
-        },
-        "pricing": "Starting at $0.06/minute"
-      },
-      "byoc": {
-        "title": "Bring Your Own Carrier (BYOC)",
-        "description": "Use your preferred carriers while leveraging our AI voice capabilities.",
-        "features": {
-          "carrierIndependence": "Carrier independence",
-          "costOptimization": "Cost optimization",
-          "globalReach": "Global reach",
-          "vendorFlexibility": "Vendor flexibility"
-        },
-        "pricing": "Platform fee + carrier rates"
-      }
-    },
-    "benefits": {
-      "title": "Enterprise Benefits",
-      "subtitle": "Why leading enterprises choose our voice connectivity solutions",
-      "costSavings": {
-        "title": "Cost Savings",
-        "description": "Reduce communication costs by up to 60% with optimized routing and carrier selection.",
-        "metric": "60%"
-      },
-      "reliability": {
-        "title": "Reliability",
-        "description": "Enterprise-grade uptime with automatic failover and redundant infrastructure.",
-        "metric": "99.99%"
-      },
-      "scalability": {
-        "title": "Scalability",
-        "description": "Handle thousands of concurrent calls with elastic scaling capabilities.",
-        "metric": "10,000+"
-      },
-      "globalReach": {
-        "title": "Global Reach",
-        "description": "Connect to customers worldwide with local presence in major markets.",
-        "metric": "200+"
-      }
-    },
-    "technicalExcellence": {
-      "title": "Technical Excellence",
-      "subtitle": "Built on industry-standard protocols with enterprise-grade security and performance. Our platform supports all major codecs and provides real-time quality monitoring.",
-      "endToEndEncryption": {
-        "title": "End-to-End Encryption",
-        "description": "TLS 1.3 and SRTP for secure voice transmission"
-      },
-      "lowLatency": {
-        "title": "Low Latency",
-        "description": "Sub-150ms latency for crystal clear conversations"
-      },
-      "advancedConfiguration": {
-        "title": "Advanced Configuration",
-        "description": "Granular control over routing and quality settings"
-      }
-    },
-    "technicalSpecs": {
-      "title": "Technical Specifications",
-      "supportedProtocols": {
-        "feature": "Supported Protocols",
-        "value": "SIP 2.0, RTP, SRTP"
-      },
-      "audioCodecs": {
-        "feature": "Audio Codecs",
-        "value": "G.711, G.722, G.729, Opus"
-      },
-      "encryption": {
-        "feature": "Encryption",
-        "value": "TLS 1.3, SRTP, AES-256"
-      },
-      "networkRequirements": {
-        "feature": "Network Requirements",
-        "value": "100 kbps per concurrent call"
-      },
-      "latency": {
-        "feature": "Latency",
-        "value": "< 150ms end-to-end"
-      },
-      "jitterBuffer": {
-        "feature": "Jitter Buffer",
-        "value": "Adaptive, 20-200ms"
-      }
-    },
-    "howItWorks": {
-      "title": "How It Works",
-      "subtitle": "Simple integration with your existing infrastructure",
-      "yourInfrastructure": {
-        "title": "Your Infrastructure",
-        "description": "Existing PBX, VoIP system, or carrier"
-      },
-      "seavoicePlatform": {
-        "title": "SeaVoice Platform",
-        "description": "AI voice processing and routing"
-      },
-      "globalNetwork": {
-        "title": "Global Network",
-        "description": "Worldwide carrier connections"
-      }
-    },
-    "cta": {
-      "title": "Ready to Optimize Your Voice Infrastructure?",
-      "subtitle": "Speak with our connectivity specialists to design the perfect solution for your needs",
-      "scheduleConsultation": "Schedule Consultation",
-      "signUpForFree": "Sign Up For Free"
     }
   },
   "components": {

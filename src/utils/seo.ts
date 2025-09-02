@@ -49,7 +49,7 @@ export const getSEOData = (
     canonicalUrl
   } = options;
 
-  // Try to get title from translation
+  // Try to get title from translation with multiple fallbacks
   let title = '';
   try {
     // First try dedicated SEO title
@@ -60,11 +60,17 @@ export const getSEOData = (
       const pageTitle = t(`${baseKey}.${titleKey}`, { defaultValue: '' });
       title = pageTitle ? `${pageTitle}${titleSuffix}` : '';
     }
+    
+    // If still no title, try hero section title
+    if (!title) {
+      const heroTitle = t(`${baseKey}.hero.title`, { defaultValue: '' });
+      title = heroTitle ? `${heroTitle}${titleSuffix}` : '';
+    }
   } catch (error) {
     console.warn(`Failed to get title for SEO key: ${baseKey}`);
   }
 
-  // Try to get description from translation
+  // Try to get description from translation with multiple fallbacks
   let description = '';
   try {
     // First try dedicated SEO description
@@ -74,6 +80,12 @@ export const getSEOData = (
     if (!description) {
       description = t(`${baseKey}.${descriptionKey}`, { defaultValue: '' }) ||
                    t(`${baseKey}.subtitle`, { defaultValue: '' });
+    }
+    
+    // If still no description, try hero section description or subtitle
+    if (!description) {
+      description = t(`${baseKey}.hero.description`, { defaultValue: '' }) ||
+                   t(`${baseKey}.hero.subtitle`, { defaultValue: '' });
     }
     
     // Add prefix/suffix if provided

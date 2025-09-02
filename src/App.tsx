@@ -91,10 +91,12 @@ const LanguageAwareWrapper: React.FC<{
     console.log(`[${productName}WithLanguage] Detected language:`, lang);
     console.log(`[${productName}WithLanguage] Current i18n language:`, i18n.language);
     
-    // Check if it's a supported language and different from current
-    if (SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
+    // Only change if it's a supported language AND different from current
+    if (lang && SUPPORTED_LANGUAGES.includes(lang as any) && i18n.language !== lang) {
       console.log(`[${productName}WithLanguage] Changing language from`, i18n.language, 'to', lang);
       i18n.changeLanguage(lang);
+    } else if (lang && i18n.language === lang) {
+      console.log(`[${productName}WithLanguage] Language already correct, no change needed:`, lang);
     }
   }, [location.pathname, i18n, productName]);
   
@@ -171,11 +173,41 @@ function HomePage() {
     image: '/seasalt-ai-logo.png'
   });
   
+  // Homepage breadcrumbs (minimal for homepage)
+  const breadcrumbs = [
+    { name: 'Home', url: getCanonicalUrl(i18n.language, '/') }
+  ];
+  
+  // Example FAQs for homepage (you can customize these based on your content)
+  const faqs = [
+    {
+      question: "What is Seasalt.ai?",
+      answer: "Seasalt.ai is an AI-powered omnichannel customer communication platform that helps businesses automate customer service across multiple channels including WhatsApp, SMS, voice calls, and web chat."
+    },
+    {
+      question: "What products does Seasalt.ai offer?",
+      answer: "Seasalt.ai offers three main products: SeaChat for AI chatbots and customer service automation, SeaX for omnichannel communication campaigns, and SeaVoice for AI voice agents and call automation."
+    },
+    {
+      question: "How does Seasalt.ai help businesses?",
+      answer: "Seasalt.ai helps businesses reduce customer service costs, improve response times, automate repetitive tasks, and provide 24/7 customer support across multiple communication channels using advanced AI technology."
+    }
+  ];
+  
   return (
     <div className="min-h-screen bg-white">
       <Header />
       
-      <SEOHelmet {...seoData} />
+      <SEOHelmet 
+        {...seoData}
+        type="homepage"
+        breadcrumbs={breadcrumbs.map(crumb => ({ 
+          name: crumb.name, 
+          path: crumb.url.replace('https://seasalt.ai', '') 
+        }))}
+        faqs={faqs}
+        enableAutoSchema={true}
+      />
       <Hero />
       <ProblemSolution />
       <Features />

@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, memo } from 'react';
 import { useParams, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from '../constants/languages';
 
-const LanguageRouter: React.FC = () => {
+const LanguageRouter: React.FC = memo(() => {
   const { lang } = useParams<{ lang: string }>();
   const { i18n } = useTranslation();
   const navigate = useNavigate();
@@ -61,6 +61,6 @@ const LanguageRouter: React.FC = () => {
   }, [i18n.language]);
   
   return <Outlet />;
-};
+});
 
 export default LanguageRouter;

@@ -20,11 +20,42 @@ const SeaXHome = () => {
     canonicalUrl: getCanonicalUrl(i18n.language, '/seax')
   });
   
+  // SeaX breadcrumbs
+  const breadcrumbs = [
+    { name: 'Home', url: getCanonicalUrl(i18n.language, '/') },
+    { name: 'SeaX', url: getCanonicalUrl(i18n.language, '/seax') }
+  ];
+  
+  // SeaX FAQs
+  const faqs = [
+    {
+      question: "What is SeaX?",
+      answer: "SeaX is a cloud communication platform that enables businesses to send millions of SMS messages, make voice calls, and conduct WhatsApp campaigns at scale. It's designed for high-volume outreach and customer engagement."
+    },
+    {
+      question: "How many messages can SeaX send?",
+      answer: "SeaX can handle massive scale communications, sending millions of SMS messages and making thousands of voice calls simultaneously. It's built for enterprise-level campaigns and bulk communications."
+    },
+    {
+      question: "What channels does SeaX support?",
+      answer: "SeaX supports multiple communication channels including SMS, voice calls, WhatsApp Business API, and other messaging platforms, allowing businesses to reach customers through their preferred channels."
+    },
+    {
+      question: "Is SeaX suitable for lead generation?",
+      answer: "Yes, SeaX is specifically designed for lead generation and customer outreach campaigns. It includes features for lead capture, qualification, nurturing, and conversion tracking with real-time analytics."
+    }
+  ];
+  
   return (
     <div className="min-h-screen bg-white">
       <Header />
       
-      <SEOHelmet {...seoData} />
+      <SEOHelmet 
+        {...seoData}
+        productKey="seax"
+        breadcrumbs={breadcrumbs}
+        faqs={faqs}
+      />
       <Hero />
       <StatsCounter />
       

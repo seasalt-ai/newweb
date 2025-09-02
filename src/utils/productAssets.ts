@@ -7,7 +7,7 @@
 
 import { useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
-import type { ProductKey } from '../config/structuredData';
+import type { ProductKey } from '../config/schemaData';
 
 // =============================================================================
 // Type Definitions

@@ -28,15 +28,18 @@ import { useManifest } from '../hooks/useManifest';
 import {
   createOrganizationSchema,
   createWebSiteSchema,
+  createLocalizedWebSiteSchema,
   createWebPageSchema,
   createBreadcrumbListSchema,
   createFAQPageSchema,
   createArticleSchema,
   createProductSchema,
-  stringifyStructuredData
-} from '../utils/structuredData';
+  stringifyStructuredData,
+  generatePageSchemas,
+  createLocalizedUrl
+} from '../utils/schemaGenerator';
 import { getProductKeyFromPath } from '../utils/productAssets';
-import { type ProductKey, type SchemaAvailability, SCHEMA_AVAILABILITY } from '../config/structuredData';
+import { type ProductKey, type SchemaAvailability, SCHEMA_AVAILABILITY } from '../config/schemaData';
 
 // Brand constants for consistent SEO metadata
 const BRAND_CONSTANTS = {
@@ -68,8 +71,8 @@ export interface SEOHelmetProps {
   /** Social sharing image */
   image?: string;
   
-  /** Page type for Open Graph */
-  type?: 'website' | 'article';
+  /** Page type for Open Graph and schema generation */
+  type?: 'website' | 'article' | 'homepage' | 'product' | 'blog' | 'faq' | 'general';
   
   /** Article author (for blog posts) */
   author?: string;
@@ -96,11 +99,11 @@ export interface SEOHelmetProps {
     content: string;
   }>;
   
-  /** Structured data to include */
+  /** Custom structured data to include */
   structuredData?: Array<Record<string, any>>;
   
-  /** Breadcrumbs for structured data */
-  breadcrumbs?: Array<{ name: string; url: string }>;
+  /** Breadcrumbs for structured data (enhanced with path support) */
+  breadcrumbs?: Array<{ name: string; url?: string; path?: string }>;
   
   /** FAQ data for structured data */
   faqs?: Array<{ question: string; answer: string }>;
@@ -119,6 +122,21 @@ export interface SEOHelmetProps {
   
   /** Custom availability status for product schema */
   availability?: SchemaAvailability;
+  
+  /** Custom product features for enhanced schema */
+  productFeatures?: string[];
+  
+  /** Enable automatic schema generation based on page type */
+  enableAutoSchema?: boolean;
+  
+  /** Custom offer details for products */
+  customOffer?: {
+    price?: string;
+    priceCurrency?: string;
+    availability?: SchemaAvailability;
+    description?: string;
+    validFrom?: string;
+  };
 }
 
 // =============================================================================
@@ -275,82 +293,112 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     const themeColor = BRAND_CONSTANTS.THEME_COLOR;
     
     // =======================================================================
-    // Enhanced Structured Data Generation Using Utilities
+    // Enhanced Structured Data Generation Using Advanced Utilities
     // =======================================================================
     
-    // Initialize structured data array
-    const allStructuredData: Array<Record<string, any>> = [];
-    
-    // 1. Enhanced Organization Schema with full information
-    const organizationSchema = createOrganizationSchema(
-      undefined, // Use default ORGANIZATION_INFO
-      description, // Add current page description if available
-      effectiveAvailableLanguages.map(lang => lang as string) // Available languages
-    );
-    allStructuredData.push(organizationSchema);
-    
-    // 2. Website Schema with search functionality
-    const websiteSchema = createWebSiteSchema();
-    allStructuredData.push(websiteSchema);
-    
-    // 3. WebPage Schema for current page
-    const webPageSchema = createWebPageSchema({
-      title,
-      description,
-      url: canonicalUrl,
-      language: currentLang,
-      dateModified: modifiedTime,
-      lastReviewed: new Date().toISOString() // Always mark as recently reviewed
-    });
-    allStructuredData.push(webPageSchema);
-    
-    // 4. Product Schema (if productKey provided or detected from path)
+    // Determine page type for schema generation
+    const pageType = type === 'website' ? 'homepage' : type;
     const effectiveProductKey = productKey || getProductKeyFromPath(location.pathname);
-    if (effectiveProductKey) {
+    
+    // Convert breadcrumbs to the new format
+    const localizedBreadcrumbs = breadcrumbs?.map(crumb => ({
+      name: crumb.name,
+      path: crumb.path || crumb.url?.replace(BRAND_CONSTANTS.SITE_URL, '') || ''
+    }));
+    
+    // Prepare article data if needed
+    const articleData = (type === 'article' && author) ? {
+      author,
+      datePublished: publishedTime,
+      dateModified: modifiedTime
+    } : undefined;
+    
+    // Generate comprehensive structured data using the new advanced function
+    let allStructuredData: Array<Record<string, any>> = [];
+    
+    try {
+      allStructuredData = generatePageSchemas({
+        pageType: pageType as 'homepage' | 'product' | 'blog' | 'faq' | 'general',
+        title,
+        description,
+        language: currentLang,
+        baseUrl: BRAND_CONSTANTS.SITE_URL,
+        path: pathname,
+        breadcrumbs: localizedBreadcrumbs,
+        faqs,
+        productKey: effectiveProductKey || undefined,
+        customOffer: {
+          price,
+          priceCurrency,
+          availability
+        },
+        articleData,
+        customStructuredData: structuredData
+      });
+      
+      console.log('[SEOHelmet] Generated enhanced structured data:', allStructuredData.length, 'schemas');
+    } catch (error) {
+      console.warn('[SEOHelmet] Error generating enhanced structured data, falling back to basic schemas:', error);
+      
+      // Fallback to basic schema generation
+      allStructuredData = [];
+      
+      // Add basic organization schema
       try {
-        const productSchema = createProductSchema({
-          productKey: effectiveProductKey,
-          url: canonicalUrl,
-          customPrice: price,
-          customPriceCurrency: priceCurrency,
-          customAvailability: availability
-        });
-        allStructuredData.push(productSchema);
-      } catch (error) {
-        console.warn('Failed to create product schema:', error);
+        const organizationSchema = createOrganizationSchema(
+          undefined,
+          description,
+          effectiveAvailableLanguages.map(lang => lang as string)
+        );
+        allStructuredData.push(organizationSchema);
+      } catch (orgError) {
+        console.warn('Error creating organization schema:', orgError);
+      }
+      
+      // Add website schema with localization
+      const websiteSchema = createLocalizedWebSiteSchema({
+        language: currentLang,
+        baseUrl: BRAND_CONSTANTS.SITE_URL
+      });
+      allStructuredData.push(websiteSchema);
+      
+      // Add webpage schema
+      const webPageSchema = createWebPageSchema({
+        title,
+        description,
+        url: canonicalUrl,
+        language: currentLang,
+        dateModified: modifiedTime,
+        lastReviewed: new Date().toISOString()
+      });
+      allStructuredData.push(webPageSchema);
+      
+      // Add product schema if applicable
+      if (effectiveProductKey) {
+        try {
+          const productSchema = createProductSchema({
+            productKey: effectiveProductKey,
+            url: canonicalUrl,
+            customPrice: price,
+            customPriceCurrency: priceCurrency,
+            customAvailability: availability
+          });
+          allStructuredData.push(productSchema);
+        } catch (productError) {
+          console.warn('Failed to create product schema:', productError);
+        }
+      }
+      
+      // Add FAQ schema if FAQs provided
+      if (faqs && faqs.length > 0) {
+        const faqSchema = createFAQPageSchema(faqs);
+        allStructuredData.push(faqSchema);
       }
     }
     
-    // 5. Breadcrumb Schema (if breadcrumbs provided)
-    if (breadcrumbs && breadcrumbs.length > 0) {
-      const breadcrumbSchema = createBreadcrumbListSchema(breadcrumbs);
-      allStructuredData.push(breadcrumbSchema);
-    }
-    
-    // 6. FAQ Schema (if FAQs provided)
-    if (faqs && faqs.length > 0) {
-      const faqSchema = createFAQPageSchema(faqs);
-      allStructuredData.push(faqSchema);
-    }
-    
-    // 7. Article Schema (if article type and author provided)
-    if (type === 'article' && author) {
-      const articleSchema = createArticleSchema({
-        title,
-        description,
-        image: fullSocialImageUrl,
-        author,
-        datePublished: publishedTime,
-        dateModified: modifiedTime || publishedTime,
-        url: canonicalUrl
-      });
-      allStructuredData.push(articleSchema);
-    }
-    
-    // 8. Add any additional custom structured data
-    if (structuredData && structuredData.length > 0) {
-      allStructuredData.push(...structuredData);
-    }
+    // Debug: Log final structured data array
+    console.log('[SEOHelmet] Final structured data array:', allStructuredData);
+    console.log('[SEOHelmet] Total structured data items:', allStructuredData.length);
     
     // Generate geographic targeting information
     let geoTargetingMeta: Array<{ name: string; content: string }> = [];
@@ -490,10 +538,9 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
         <script
           key={`structured-data-${index}`}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(data, null, 0)
-          }}
-        />
+        >
+          {JSON.stringify(data, null, 0)}
+        </script>
       ))}
       
       {/* Additional SEO Enhancements */}

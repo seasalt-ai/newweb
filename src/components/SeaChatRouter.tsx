@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { Routes, Route, Navigate, useParams, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../constants/languages';
+import SEOHelmet from './SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../utils/seo';
 
 // SeaChat components
 import Header from '../seachat/components/Header';
@@ -52,8 +54,48 @@ import SmallBusinessPage from '../seachat/pages/solutions/SmallBusinessPage';
 import PricingPage from '../seachat/pages/PricingPage';
 
 function SeaChatHomePage() {
+  const { i18n, t } = useTranslation();
+  
+  // Generate SEO data for SeaChat homepage
+  const seoData = getSEOData(t, 'seachat', {
+    titleSuffix: ' - AI Chatbot & Customer Service Automation | Seasalt.ai',
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat'),
+  });
+  
+  // SeaChat breadcrumbs
+  const breadcrumbs = [
+    { name: 'Home', url: getCanonicalUrl(i18n.language, '/') },
+    { name: 'SeaChat', url: getCanonicalUrl(i18n.language, '/seachat') }
+  ];
+  
+  // SeaChat FAQs
+  const faqs = [
+    {
+      question: "What is SeaChat?",
+      answer: "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more. It uses advanced AI to understand and respond to customer inquiries naturally."
+    },
+    {
+      question: "How does SeaChat integrate with my existing systems?",
+      answer: "SeaChat integrates with popular platforms including CRM systems (Salesforce, HubSpot), ecommerce platforms (Shopify, WooCommerce), communication channels (WhatsApp, LINE, Facebook), and calendar systems through APIs and pre-built connectors."
+    },
+    {
+      question: "Can SeaChat handle voice conversations?",
+      answer: "Yes, SeaChat includes voice AI capabilities that can handle phone calls, understand speech, and respond naturally using text-to-speech technology. It can automate customer service calls and integrate with existing phone systems."
+    },
+    {
+      question: "What makes SeaChat different from other chatbots?",
+      answer: "SeaChat combines advanced AI with omnichannel capabilities, human agent handoff, custom knowledge base integration, real-time analytics, and enterprise-grade security. It's designed specifically for businesses that need scalable, intelligent customer communication."
+    }
+  ];
+  
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet 
+        {...seoData}
+        productKey="seachat"
+        breadcrumbs={breadcrumbs}
+        faqs={faqs}
+      />
       <Hero />
       <KeyFeatures />
       <OmnichannelDemo />
