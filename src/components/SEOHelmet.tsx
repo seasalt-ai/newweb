@@ -140,6 +140,10 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     // Get current pathname and clean it
     const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
     
+    // Detect current language for manifest selection
+    const currentLang = pathname.split('/')[0] || 'en';
+    const manifestPath = `/api/manifest?lang=${currentLang}`;
+    
     // Generate canonical URL
     const canonicalUrl = customCanonicalUrl || `${BRAND_CONSTANTS.SITE_URL}/${pathname}`;
     
@@ -153,6 +157,10 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
       const origin = BRAND_CONSTANTS.SITE_URL;
       const cleanPath = pathname.split('/').slice(1).join('/'); // Remove potential language prefix
+      
+      // Add x-default hreflang (points to English version)
+      const defaultUrl = generateUrlForLanguage(origin, 'en', cleanPath, slug);
+      hreflangUrls.push({ lang: 'x-default', url: defaultUrl });
       
       // Generate hreflang URLs for each language and its regional variants
       effectiveAvailableLanguages.forEach(langCode => {
@@ -366,7 +374,8 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       robotsContent,
       themeColor,
       allStructuredData,
-      geoTargetingMeta
+      geoTargetingMeta,
+      manifestPath
     };
   }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets]);
   
@@ -378,7 +387,8 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
     robotsContent,
     themeColor,
     allStructuredData,
-    geoTargetingMeta
+    geoTargetingMeta,
+    manifestPath
   } = computedValues;
   
   // ==========================================================================
@@ -450,11 +460,10 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       <meta name="apple-mobile-web-app-title" content={BRAND_CONSTANTS.COMPANY_NAME} />
       
       {/* Favicons and Icons - Note: Primary favicon is handled by FaviconManager */}
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-      <link rel="mask-icon" href="/safari-pinned-tab.svg" color={themeColor} />
-      <link rel="manifest" href="/manifest.json" />
+      <link rel="icon" type="image/x-icon" href="/seasalt-ai-favicon.ico" />
+      <link rel="icon" type="image/png" sizes="192x192" href="/seasalt-ai-icon.png" />
+      <link rel="apple-touch-icon" sizes="192x192" href="/seasalt-ai-icon.png" />
+      <link rel="manifest" href={manifestPath} />
       
       {/* DNS Prefetch and Preconnect for Performance */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />

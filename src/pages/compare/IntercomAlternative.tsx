@@ -1,14 +1,19 @@
 import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const IntercomAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.intercomAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/intercom-alternative')
+  });
   
   const comparisonFeatures = [
     {
@@ -51,13 +56,7 @@ const IntercomAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.intercomAlternative.seo.title')}
-        description={t('compare.intercomAlternative.seo.description')}
-        canonicalUrl={`https://www.seasalt.ai/${i18n.language}/compare/intercom-alternative`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

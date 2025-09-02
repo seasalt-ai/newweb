@@ -6,6 +6,7 @@ interface SEOData {
   description: string;
   keywords?: string;
   image?: string;
+  tags?: string[];
   canonicalUrl?: string;
 }
 
@@ -17,6 +18,8 @@ interface SEOOptions {
   descriptionPrefix?: string;
   descriptionSuffix?: string;
   defaultImage?: string;
+  image?: string;
+  tags?: string[];
   canonicalUrl?: string;
 }
 
@@ -41,6 +44,8 @@ export const getSEOData = (
     descriptionPrefix = '',
     descriptionSuffix = '',
     defaultImage, // If not provided, will use product-specific default
+    image, // Explicit image override
+    tags, // Tags array for SEO
     canonicalUrl
   } = options;
 
@@ -87,8 +92,8 @@ export const getSEOData = (
     // Keywords are optional, so don't warn
   }
 
-  // If no defaultImage provided, use product-specific default based on canonical URL path
-  let effectiveImage = defaultImage;
+  // Determine effective image: explicit image > defaultImage > product-specific default
+  let effectiveImage = image || defaultImage;
   if (!effectiveImage && canonicalUrl) {
     try {
       const url = new URL(canonicalUrl);
@@ -107,6 +112,7 @@ export const getSEOData = (
     description: description || 'AI-powered omnichannel customer communication platform',
     ...(keywords && { keywords }),
     image: effectiveImage,
+    ...(tags && { tags }),
     ...(canonicalUrl && { canonicalUrl })
   };
 };

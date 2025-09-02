@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const FacebookMessenger = () => {
   const { i18n, t } = useTranslation();
@@ -16,7 +16,10 @@ const FacebookMessenger = () => {
     window.scrollTo(0, 0);
   }, []);
   
-  const canonicalUrl = `https://www.seasalt.ai/${i18n.language}/channels/facebook-messenger`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.facebookMessenger.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/facebook-messenger')
+  });
   
   const features = [
     {
@@ -62,14 +65,9 @@ const FacebookMessenger = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('channels.facebookMessenger.hero.title') + ' ' + t('channels.facebookMessenger.hero.titleHighlight')}
-        description={t('channels.facebookMessenger.hero.subtitle')}
-        favicon="/favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

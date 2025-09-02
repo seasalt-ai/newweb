@@ -345,7 +345,6 @@ const HealthcarePage = () => {
     </div>
     </>
   );
-  );
 };
 
 export default HealthcarePage;

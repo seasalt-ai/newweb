@@ -61,6 +61,7 @@ import CareersPage from './pages/careers';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from './constants/languages';
+import { getSEOData, getCanonicalUrl } from './utils/seo';
 import FaviconManager from './components/FaviconManager';
 import ScrollToTop from './components/ScrollToTop';
 import GTMTracker from './components/GTMTracker';
@@ -157,27 +158,17 @@ function HomePage() {
   const { i18n, t } = useTranslation();
   const currentLanguage = i18n.language;
   
-  // Define homepage SEO content based on language
-  const getHomePageSEO = () => {
-    return {
-      title: t('seo.homepage.title'),
-      description: t('seo.homepage.description'),
-      image: '/public/seasalt-ai-logo.png'
-    };
-  };
-  
-  const seo = getHomePageSEO();
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seo.homepage', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/'),
+    image: '/seasalt-ai-logo.png'
+  });
   
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={seo.title}
-        description={seo.description}
-        favicon="/seasalt-ai-favicon.ico"
-        image={seo.image}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       <Hero />
       <ProblemSolution />
       <Features />

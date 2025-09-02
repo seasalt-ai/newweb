@@ -5,9 +5,16 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const DialpadAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.dialpadAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/dialpad-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.dialpadAlternative.comparison.features.platformArchitecture.name'),
@@ -55,13 +62,7 @@ const DialpadAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.dialpadAlternative.seo.title')}
-        description={t('compare.dialpadAlternative.seo.description')}
-        favicon="/favicon.ico"
-        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/dialpad-alternative`}
-        availableLanguages={['en', 'zh-TW']}
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

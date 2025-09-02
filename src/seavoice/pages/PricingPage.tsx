@@ -8,7 +8,6 @@ import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import SEOHelmet from '../../components/SEOHelmet';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const PricingPage = () => {
@@ -150,14 +149,7 @@ const PricingPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={seoData.title}
-        description={seoData.description}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={seoData.canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      <SEOHelmet {...seoData} />
       
       
       {/* Hero Section */}

@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { Shield, AlertTriangle, Phone, BarChart3, CheckCircle, Zap } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const ScamShieldPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.solutions.inbound.scamShield.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/scam-shield')
+  });
   
   const features = [
     {
@@ -96,6 +103,7 @@ const ScamShieldPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet seoData={seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-red-50 via-white to-orange-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

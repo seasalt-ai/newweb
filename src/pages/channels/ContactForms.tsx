@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-const SUPPORTED_LANGUAGES = ['en', 'zh-TW'];
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const ContactForms = () => {
   const { i18n, t } = useTranslation();
@@ -15,6 +15,11 @@ const ContactForms = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.contactForms.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/contact-forms')
+  });
   const platforms = [
     {
       name: t('channels.contactForms.platforms.mailerlite.name'),
@@ -102,14 +107,9 @@ const ContactForms = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('channels.contactForms.seo.title')}
-        description={t('channels.contactForms.seo.description')}
-        canonicalUrl={`/${i18n.language}/channels/contact-forms`}
-        favicon="/favicon.ico"
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

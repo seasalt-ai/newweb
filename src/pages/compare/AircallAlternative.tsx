@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const AircallAlternative = () => {
   const { t, i18n } = useTranslation();
@@ -61,17 +61,14 @@ const AircallAlternative = () => {
     }
   ];
   
-  const currentUrl = `https://www.seasalt.ai/${i18n.language}/compare/aircall-alternative`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.aircallAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/aircall-alternative')
+  });
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.aircallAlternative.seo.title')}
-        description={t('compare.aircallAlternative.seo.description')}
-        canonicalUrl={currentUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { RefreshCw, CreditCard, Users, BarChart3, CheckCircle, Calendar } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const SubscriptionRenewalsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.solutions.outbound.subscriptionRenewals.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/subscription-renewals')
+  });
   const features = [
     {
       icon: RefreshCw,
@@ -138,6 +145,7 @@ const SubscriptionRenewalsPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet seoData={seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-white to-emerald-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

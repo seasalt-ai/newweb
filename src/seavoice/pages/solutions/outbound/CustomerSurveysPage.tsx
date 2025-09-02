@@ -1,10 +1,17 @@
 
 import { motion } from 'framer-motion';
-import { MessageSquare, BarChart3, Users, Star, CheckCircle, TrendingUp } from 'lucide-react';
+import { MessageSquare, BarChart3, Target, Users, CheckCircle, Star, TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const CustomerSurveysPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.solutions.outbound.customerSurveys.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/customer-surveys')
+  });
 
   const features = [
     {
@@ -128,6 +135,7 @@ const CustomerSurveysPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-cyan-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

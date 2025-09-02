@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { Megaphone, Users, BarChart3, Globe, CheckCircle, Zap } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const LargeScaleCampaignsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.solutions.outbound.largeScaleCampaigns.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/large-scale-campaigns')
+  });
   
   const features = [
     {
@@ -128,6 +135,7 @@ const LargeScaleCampaignsPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet seoData={seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

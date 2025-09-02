@@ -4,11 +4,17 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const GenesysAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.genesysAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/genesys-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.genesysAlternative.features.targetCustomer.name'),
@@ -50,13 +56,7 @@ const GenesysAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.genesysAlternative.seo.title')}
-        description={t('compare.genesysAlternative.seo.description')}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/genesys-alternative`}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

@@ -4,11 +4,17 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const AvayaAlternative = () => {
   const { i18n, t } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.avayaAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/avaya-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.avayaAlternative.comparison.features.platformType.name'),
@@ -50,13 +56,7 @@ const AvayaAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.avayaAlternative.seo.title')}
-        description={t('compare.avayaAlternative.seo.description')}
-        canonicalUrl={`/${i18n.language}/compare/avaya-alternative`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 import ROICalculator from '../components/ROICalculator';
 import SupportPlan from '../../components/SupportPlan';
 import OmniChannelCalculator from '../components/OmniChannelCalculator';
@@ -21,6 +22,11 @@ import {
 const Pricing = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.pricing.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax/pricing')
+  });
 
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('monthly');
 
@@ -164,13 +170,9 @@ const Pricing = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('seax.pricing.seo.title')}
-        description={t('seax.pricing.seo.description')}
-        favicon="/seasalt-ai-favicon.ico"
-      />
-      
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 py-16 sm:py-24">

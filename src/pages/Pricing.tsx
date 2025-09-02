@@ -200,14 +200,7 @@ const PricingPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={seoData.title}
-        description={seoData.description}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={seoData.canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      <SEOHelmet {...seoData} />
       {/* Global Header */}
       <Header />
       {/* Main Content */}

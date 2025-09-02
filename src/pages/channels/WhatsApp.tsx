@@ -5,8 +5,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const WhatsApp = () => {
   const { t, i18n } = useTranslation();
@@ -16,9 +16,10 @@ const WhatsApp = () => {
     window.scrollTo(0, 0);
   }, []);
   
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${i18n.language}/channels/whatsapp` 
-    : `/${i18n.language}/channels/whatsapp`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.whatsapp.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/whatsapp')
+  });
 
   const features = [
     {
@@ -56,14 +57,7 @@ const WhatsApp = () => {
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={t('channels.whatsapp.seo.title')}
-        description={t('channels.whatsapp.seo.description')}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

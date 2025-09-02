@@ -2,9 +2,18 @@
 import { motion } from 'framer-motion';
 import { Package, MapPin, Clock, BarChart3, CheckCircle, Truck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const OrderTrackingPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.solutions.inbound.orderTracking.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/order-tracking')
+  });
   
   const features = [
     {
@@ -108,6 +117,8 @@ const OrderTrackingPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -363,6 +374,7 @@ const OrderTrackingPage = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

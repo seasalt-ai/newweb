@@ -6,11 +6,17 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 
 const OpenPhoneAlternative = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = useNormalizedLanguage();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.openPhoneAlternative.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/openphone-alternative')
+  });
   
   const comparisonFeatures = [
     {
@@ -59,14 +65,7 @@ const OpenPhoneAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.openPhoneAlternative.seo.title')}
-        description={t('compare.openPhoneAlternative.seo.description')}
-        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/openphone-alternative`}
-        availableLanguages={['en', 'zh-TW']}  
-        slug="openphone-alternative"
-        favicon="/favicon.ico"        
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

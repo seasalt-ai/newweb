@@ -8,29 +8,23 @@ import Footer from '../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import ScaleComparison from '../components/ScaleComparison';
 import RealTimeDashboard from '../components/RealTimeDashboard';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 import { MessageSquare, Phone, Zap, TrendingUp, Target, CheckCircle, Star, ArrowRight, BarChart3, Users, Upload, Smartphone, Send } from 'lucide-react';
 const SeaXHome = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const getLocalizedPath = (path: string) => `/${currentLanguage}/seax${path}`;
   
-  // Generate canonical URL for SEO
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${currentLanguage}/seax` 
-    : `/${currentLanguage}/seax`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.home.seo', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax')
+  });
   
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('seax.home.seo.title')}
-        description={t('seax.home.seo.description')}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
-      
       <Header />
+      
+      <SEOHelmet {...seoData} />
       <Hero />
       <StatsCounter />
       

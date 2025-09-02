@@ -5,7 +5,6 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
 import { getIndustrySEOData } from '../../utils/seo';
 
@@ -77,14 +76,7 @@ const IndustryPageTemplate: React.FC<IndustryPageTemplateProps> = ({
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={seoData.title}
-        description={seoData.description}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={seoData.canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}
