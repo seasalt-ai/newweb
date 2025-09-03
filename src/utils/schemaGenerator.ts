@@ -15,6 +15,7 @@ import {
   PRODUCTS_INFO,
   SCHEMA_AVAILABILITY,
   getLocalizedProductDescription,
+  getLocalizedProductInfo,
   type ProductKey,
   type ProductInfo,
   type OrganizationInfo,
@@ -561,7 +562,8 @@ export function createProductSchema({
   customPrice,
   customPriceCurrency,
   customAvailability,
-  customDescription
+  customDescription,
+  language = 'en'
 }: {
   productKey: ProductKey;
   url: string;
@@ -569,8 +571,10 @@ export function createProductSchema({
   customPriceCurrency?: string;
   customAvailability?: SchemaAvailability;
   customDescription?: string;
+  language?: string;
 }): SoftwareApplicationSchema {
-  const productInfo = PRODUCTS_INFO[productKey];
+  // Get localized product info based on language
+  const productInfo = getLocalizedProductInfo(productKey, language);
   
   if (!productInfo) {
     throw new Error(`Product information not found for key: ${productKey}`);
@@ -581,7 +585,8 @@ export function createProductSchema({
     price: customPrice || productInfo.defaultOffer.price,
     priceCurrency: customPriceCurrency || productInfo.defaultOffer.priceCurrency,
     availability: customAvailability || (productInfo.defaultOffer.availability as SchemaAvailability),
-    description: customDescription || productInfo.defaultOffer.description
+    description: customDescription || productInfo.defaultOffer.description,
+    validFrom: new Date().toISOString()
   });
 
   // Determine schema ID based on product
@@ -669,7 +674,8 @@ export function createLocalizedProductSchema({
   customFeatures?: string[];
   path?: string;
 }): SoftwareApplicationSchema {
-  const productInfo = PRODUCTS_INFO[productKey];
+  // Get localized product info based on language
+  const productInfo = getLocalizedProductInfo(productKey, language);
   if (!productInfo) {
     throw new Error(`Product information not found for key: ${productKey}`);
   }

@@ -22,14 +22,6 @@ const HtmlLangUpdater: React.FC = () => {
     document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
     // Update document language
     document.documentElement.lang = i18n.language;
-    
-    // Optional: Log the update for debugging
-    if (process.env.NODE_ENV === 'development') {
-      console.log('[HtmlLangUpdater] Updated HTML attributes:', {
-        lang: i18n.language,
-        dir: i18n.language === 'ar' ? 'rtl' : 'ltr'
-      });
-    }
   }, [i18n.language]);
 
   // This component doesn't render any visible UI

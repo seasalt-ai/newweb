@@ -336,9 +336,9 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
         customStructuredData: structuredData
       });
       
-      console.log('[SEOHelmet] Generated enhanced structured data:', allStructuredData.length, 'schemas');
+      // Successfully generated enhanced structured data
     } catch (error) {
-      console.warn('[SEOHelmet] Error generating enhanced structured data, falling back to basic schemas:', error);
+      // Error generating enhanced structured data, falling back to basic schemas
       
       // Fallback to basic schema generation
       allStructuredData = [];
@@ -352,7 +352,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
         );
         allStructuredData.push(organizationSchema);
       } catch (orgError) {
-        console.warn('Error creating organization schema:', orgError);
+        // Error creating organization schema, skipping
       }
       
       // Add website schema with localization
@@ -381,11 +381,12 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
             url: canonicalUrl,
             customPrice: price,
             customPriceCurrency: priceCurrency,
-            customAvailability: availability
+            customAvailability: availability,
+            language: currentLang
           });
           allStructuredData.push(productSchema);
         } catch (productError) {
-          console.warn('Failed to create product schema:', productError);
+          // Failed to create product schema, skipping
         }
       }
       
@@ -396,9 +397,7 @@ const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
       }
     }
     
-    // Debug: Log final structured data array
-    console.log('[SEOHelmet] Final structured data array:', allStructuredData);
-    console.log('[SEOHelmet] Total structured data items:', allStructuredData.length);
+    // Final structured data array is ready
     
     // Generate geographic targeting information
     let geoTargetingMeta: Array<{ name: string; content: string }> = [];

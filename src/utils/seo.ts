@@ -55,16 +55,27 @@ export const getSEOData = (
     // First try dedicated SEO title
     title = t(`${baseKey}.seo.title`, { defaultValue: '' });
     
+    // If we found an SEO title, check if it already has the suffix
+    if (title && titleSuffix && !title.endsWith(titleSuffix)) {
+      title = `${title}${titleSuffix}`;
+    }
+    
     // If no SEO title, use page title with suffix
     if (!title) {
       const pageTitle = t(`${baseKey}.${titleKey}`, { defaultValue: '' });
-      title = pageTitle ? `${pageTitle}${titleSuffix}` : '';
+      if (pageTitle) {
+        // Check if title already ends with the suffix to avoid duplication
+        title = pageTitle.endsWith(titleSuffix) ? pageTitle : `${pageTitle}${titleSuffix}`;
+      }
     }
     
     // If still no title, try hero section title
     if (!title) {
       const heroTitle = t(`${baseKey}.hero.title`, { defaultValue: '' });
-      title = heroTitle ? `${heroTitle}${titleSuffix}` : '';
+      if (heroTitle) {
+        // Check if title already ends with the suffix to avoid duplication
+        title = heroTitle.endsWith(titleSuffix) ? heroTitle : `${heroTitle}${titleSuffix}`;
+      }
     }
   } catch (error) {
     console.warn(`Failed to get title for SEO key: ${baseKey}`);

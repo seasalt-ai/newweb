@@ -56,8 +56,13 @@ function SeaChatHomePage() {
   const { i18n, t } = useTranslation();
   
   // Generate SEO data for SeaChat homepage
+  // Use localized title suffix from translation files
+  const titleSuffix = t('seachat.seo.titleSuffix', { 
+    defaultValue: ' - AI Chatbot & Customer Service Automation | Seasalt.ai' 
+  });
+  
   const seoData = getSEOData(t, 'seachat', {
-    titleSuffix: ' - AI Chatbot & Customer Service Automation | Seasalt.ai',
+    titleSuffix,
     canonicalUrl: getCanonicalUrl(i18n.language, '/seachat'),
   });
   
