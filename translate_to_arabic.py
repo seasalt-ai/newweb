@@ -1,189 +1,377 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import json
 import re
 import sys
+from typing import Dict, Any
 
-def should_not_translate(value):
-    """
-    Check if a value should not be translated based on the rules:
-    - Company/product names (Seasalt.ai, SeaChat, SeaMeet, SeaX, SeaVoice, SeaHealth, etc.)
-    - Author names (names in quotes or after dashes)
-    - Technical terms that should remain unchanged
-    - URLs, emails, phone numbers
-    """
-    if not isinstance(value, str):
-        return True
-    
-    # Company and product names
-    company_products = [
-        "Seasalt.ai", "SeaChat", "SeaMeet", "SeaX", "SeaVoice", "SeaHealth",
-        "WhatsApp", "Instagram", "Facebook", "LINE", "Gmail", "Outlook",
-        "Shopify", "WordPress", "Squarespace", "Wix", "HubSpot", "Salesforce",
-        "Mailchimp", "MailerLite", "Twilio", "Discord", "LinkedIn", "Twitter",
-        "Google", "Microsoft", "Apple", "Amazon", "Meta", "Zoom", "Slack"
-    ]
-    
-    for name in company_products:
-        if name.lower() in value.lower():
+class ArabicTranslator:
+    def __init__(self):
+        # Company and product names to preserve
+        self.preserve_names = {
+            'seasalt.ai', 'seasalt', 'seachat', 'seameet', 'seax', 'seavoice',
+            'seasuite', 'twilio', 'discord', 'whatsapp', 'sms', 'api',
+            'hipaa', 'gdpr', 'iso', 'soc', 'flex'
+        }
+        
+        # Common technical terms and SEO-related terms to preserve
+        self.preserve_tech = {
+            'api', 'sdk', 'webhook', 'json', 'xml', 'http', 'https', 'url',
+            'seo', 'meta', 'og', 'twitter', 'facebook', 'linkedin', 'youtube',
+            'instagram', 'tiktok', 'email', 'gmail', 'outlook', 'csv', 'pdf',
+            'ai', 'ml', 'nlp', 'gpt', 'bot', 'chatbot', 'voicebot'
+        }
+        
+        # Translation dictionary for common terms
+        self.translations = {
+            # Navigation and UI
+            'home': 'الرئيسية',
+            'about': 'حول',
+            'about us': 'من نحن',
+            'contact': 'اتصل بنا',
+            'contact us': 'اتصل بنا',
+            'products': 'المنتجات',
+            'services': 'الخدمات',
+            'solutions': 'الحلول',
+            'features': 'الميزات',
+            'pricing': 'الأسعار',
+            'blog': 'المدونة',
+            'news': 'الأخبار',
+            'support': 'الدعم',
+            'help': 'المساعدة',
+            'login': 'تسجيل الدخول',
+            'sign in': 'تسجيل الدخول',
+            'sign up': 'التسجيل',
+            'register': 'التسجيل',
+            'get started': 'ابدأ الآن',
+            'learn more': 'اعرف المزيد',
+            'read more': 'اقرأ المزيد',
+            'view all': 'عرض الكل',
+            'show more': 'عرض المزيد',
+            'book a demo': 'احجز عرضاً تجريبياً',
+            'request demo': 'طلب عرض تجريبي',
+            'free trial': 'تجربة مجانية',
+            'try free': 'جرب مجاناً',
+            'get quote': 'احصل على عرض سعر',
+            
+            # Business terms
+            'business': 'الأعمال',
+            'enterprise': 'المؤسسة',
+            'company': 'الشركة',
+            'organization': 'المنظمة',
+            'team': 'الفريق',
+            'customer': 'العميل',
+            'customers': 'العملاء',
+            'client': 'العميل',
+            'clients': 'العملاء',
+            'user': 'المستخدم',
+            'users': 'المستخدمون',
+            'account': 'الحساب',
+            'profile': 'الملف الشخصي',
+            'dashboard': 'لوحة التحكم',
+            'settings': 'الإعدادات',
+            'preferences': 'التفضيلات',
+            'configuration': 'التكوين',
+            
+            # Communication
+            'message': 'الرسالة',
+            'messages': 'الرسائل',
+            'chat': 'الدردشة',
+            'conversation': 'المحادثة',
+            'conversations': 'المحادثات',
+            'call': 'المكالمة',
+            'calls': 'المكالمات',
+            'voice': 'الصوت',
+            'text': 'النص',
+            'phone': 'الهاتف',
+            'mobile': 'الجوال',
+            'reach': 'الوصول',
+            'connect': 'اتصل',
+            'communication': 'التواصل',
+            'messaging': 'المراسلة',
+            'notification': 'الإشعار',
+            'notifications': 'الإشعارات',
+            'alert': 'التنبيه',
+            'alerts': 'التنبيهات',
+            
+            # Time and scheduling
+            'schedule': 'الجدولة',
+            'appointment': 'الموعد',
+            'appointments': 'المواعيد',
+            'meeting': 'الاجتماع',
+            'meetings': 'الاجتماعات',
+            'calendar': 'التقويم',
+            'time': 'الوقت',
+            'date': 'التاريخ',
+            'today': 'اليوم',
+            'tomorrow': 'غداً',
+            'yesterday': 'أمس',
+            'now': 'الآن',
+            'soon': 'قريباً',
+            'later': 'لاحقاً',
+            'hour': 'ساعة',
+            'hours': 'ساعات',
+            'minute': 'دقيقة',
+            'minutes': 'دقائق',
+            'second': 'ثانية',
+            'seconds': 'ثواني',
+            
+            # Actions
+            'create': 'إنشاء',
+            'add': 'إضافة',
+            'edit': 'تحرير',
+            'update': 'تحديث',
+            'delete': 'حذف',
+            'remove': 'إزالة',
+            'save': 'حفظ',
+            'cancel': 'إلغاء',
+            'submit': 'إرسال',
+            'send': 'إرسال',
+            'receive': 'استقبال',
+            'upload': 'رفع',
+            'download': 'تحميل',
+            'import': 'استيراد',
+            'export': 'تصدير',
+            'search': 'البحث',
+            'filter': 'تصفية',
+            'sort': 'ترتيب',
+            'view': 'عرض',
+            'preview': 'معاينة',
+            'print': 'طباعة',
+            'share': 'مشاركة',
+            'copy': 'نسخ',
+            'paste': 'لصق',
+            'cut': 'قص',
+            'select': 'تحديد',
+            'choose': 'اختيار',
+            'pick': 'اختيار',
+            'browse': 'تصفح',
+            'navigate': 'التنقل',
+            'go': 'اذهب',
+            'back': 'العودة',
+            'next': 'التالي',
+            'previous': 'السابق',
+            'continue': 'المتابعة',
+            'finish': 'إنهاء',
+            'complete': 'إكمال',
+            'done': 'تم',
+            'success': 'نجح',
+            'failed': 'فشل',
+            'error': 'خطأ',
+            'warning': 'تحذير',
+            'info': 'معلومات',
+            'tip': 'نصيحة',
+            'note': 'ملاحظة',
+            
+            # Status
+            'active': 'نشط',
+            'inactive': 'غير نشط',
+            'online': 'متصل',
+            'offline': 'غير متصل',
+            'available': 'متاح',
+            'unavailable': 'غير متاح',
+            'busy': 'مشغول',
+            'free': 'متاح',
+            'pending': 'في الانتظار',
+            'completed': 'مكتمل',
+            'in progress': 'قيد التنفيذ',
+            'cancelled': 'ملغي',
+            'approved': 'موافق عليه',
+            'rejected': 'مرفوض',
+            'draft': 'مسودة',
+            'published': 'منشور',
+            'archived': 'مؤرشف',
+            
+            # Common phrases
+            'welcome': 'مرحباً',
+            'hello': 'مرحباً',
+            'hi': 'مرحباً',
+            'good morning': 'صباح الخير',
+            'good afternoon': 'مساء الخير',
+            'good evening': 'مساء الخير',
+            'good night': 'تصبح على خير',
+            'goodbye': 'وداعاً',
+            'thank you': 'شكراً لك',
+            'thanks': 'شكراً',
+            'please': 'من فضلك',
+            'you\'re welcome': 'على الرحب والسعة',
+            'excuse me': 'اعذرني',
+            'sorry': 'آسف',
+            'congratulations': 'تهانينا',
+            'good luck': 'حظ سعيد',
+            'yes': 'نعم',
+            'no': 'لا',
+            'maybe': 'ربما',
+            'ok': 'حسناً',
+            'okay': 'حسناً',
+            'sure': 'بالطبع',
+            'of course': 'بالطبع',
+            'definitely': 'بالتأكيد',
+            'absolutely': 'تماماً',
+            'exactly': 'بالضبط',
+            'correct': 'صحيح',
+            'right': 'صحيح',
+            'wrong': 'خطأ',
+            'true': 'صحيح',
+            'false': 'خطأ',
+            
+            # Industries
+            'healthcare': 'الرعاية الصحية',
+            'education': 'التعليم',
+            'finance': 'المالية',
+            'banking': 'المصرفية',
+            'insurance': 'التأمين',
+            'retail': 'التجارة بالتجزئة',
+            'ecommerce': 'التجارة الإلكترونية',
+            'manufacturing': 'التصنيع',
+            'logistics': 'اللوجستيات',
+            'transportation': 'النقل',
+            'hospitality': 'الضيافة',
+            'real estate': 'العقارات',
+            'legal': 'القانونية',
+            'government': 'الحكومة',
+            'nonprofit': 'غير ربحية',
+            'technology': 'التكنولوجيا',
+            'software': 'البرمجيات',
+            'hardware': 'الأجهزة',
+            'telecommunications': 'الاتصالات',
+            'media': 'الإعلام',
+            'entertainment': 'الترفيه',
+            'sports': 'الرياضة',
+            'fitness': 'اللياقة البدنية',
+            'food': 'الطعام',
+            'restaurant': 'المطعم',
+            'travel': 'السفر',
+            'tourism': 'السياحة',
+            'automotive': 'السيارات',
+            'energy': 'الطاقة',
+            'utilities': 'المرافق',
+            'construction': 'البناء',
+            'agriculture': 'الزراعة',
+            'mining': 'التعدين',
+            'pharmaceutical': 'الصيدلة',
+            'biotechnology': 'التكنولوجيا الحيوية',
+            'aerospace': 'الفضاء الجوي',
+            'defense': 'الدفاع',
+            'consulting': 'الاستشارات',
+            'marketing': 'التسويق',
+            'advertising': 'الإعلان',
+            'sales': 'المبيعات',
+            'recruitment': 'التوظيف',
+            'hr': 'الموارد البشرية',
+            'human resources': 'الموارد البشرية',
+        }
+
+    def should_preserve(self, text: str) -> bool:
+        """Check if text should be preserved (not translated)"""
+        if not text or not isinstance(text, str):
             return True
-    
-    # URLs and emails
-    if re.search(r'https?://|@|\.(com|ai|org|net)', value):
-        return True
-    
-    # Phone numbers
-    if re.search(r'\+\d|^\d+[-\s]\d+', value):
-        return True
-    
-    # Technical codes and IDs
-    if re.search(r'^[A-Z0-9]{2,}$|^\d+[A-Z]+$', value):
-        return True
+            
+        text_lower = text.lower().strip()
         
-    return False
+        # Preserve URLs, emails, and technical patterns
+        if any(pattern in text_lower for pattern in ['http', 'www.', '@', '.com', '.org', '.net']):
+            return True
+            
+        # Preserve version numbers and technical IDs
+        if re.search(r'^\d+(\.\d+)*$|^v\d|^[a-f0-9]{8,}$|^[A-Z0-9_]{3,}$', text):
+            return True
+            
+        # Check against preserve lists
+        words = re.findall(r'\b\w+\b', text_lower)
+        for word in words:
+            if word in self.preserve_names or word in self.preserve_tech:
+                return True
+                
+        return False
 
-def translate_value(value):
-    """
-    Translate English values to Arabic following the specified rules
-    """
-    if should_not_translate(value):
-        return value
-    
-    # Translation mappings - this is a simplified mapping
-    # In a real implementation, you would use a translation service
-    translations = {
-        # Navigation and common UI
-        "Products": "المنتجات",
-        "Solutions": "الحلول", 
-        "Industries": "الصناعات",
-        "Channels": "القنوات",
-        "Pricing": "التسعير",
-        "Compare Us": "قارننا",
-        "Blog": "المدونة",
-        "Login": "تسجيل الدخول",
-        "Sign Up": "سجل",
-        "Sign In": "تسجيل الدخول",
-        "Back to Channels": "العودة إلى القنوات",
-        "All Channels Overview": "نظرة عامة على جميع القنوات",
+    def translate_text(self, text: str) -> str:
+        """Translate text to Arabic with preservation rules"""
+        if not text or not isinstance(text, str):
+            return text
+            
+        # Check if should be preserved completely
+        if self.should_preserve(text):
+            return text
+            
+        # For mixed content, translate word by word
+        words = text.split()
+        translated_words = []
         
-        # Header sections
-        "For Sales & Marketing": "للمبيعات والتسويق",
-        "For Customer Support": "لدعم العملاء", 
-        "AI & Automation": "الذكاء الاصطناعي والأتمتة",
-        "For SME Owners": "لأصحاب الشركات الصغيرة والمتوسطة",
+        for word in words:
+            # Clean word for lookup
+            clean_word = re.sub(r'[^\w\s]', '', word.lower())
+            
+            # Check if individual word should be preserved
+            if clean_word in self.preserve_names or clean_word in self.preserve_tech:
+                translated_words.append(word)
+            elif clean_word in self.translations:
+                # Preserve punctuation from original word
+                if word.endswith(('.', '!', '?', ':')):
+                    translated_words.append(self.translations[clean_word] + word[-1])
+                else:
+                    translated_words.append(self.translations[clean_word])
+            else:
+                # For unknown words, apply basic rules or leave as is for proper nouns
+                if word[0].isupper() and len(word) > 2:  # Likely proper noun
+                    translated_words.append(word)
+                else:
+                    # For now, leave as is - could be enhanced with translation API
+                    translated_words.append(word)
         
-        # Channels
-        "Phone Calls": "المكالمات الهاتفية",
-        "SMS": "رسائل نصية قصيرة",
-        "Website Chat": "الدردشة عبر الموقع",
-        "Facebook Messenger": "ماسنجر فيسبوك",
-        "Contact Forms": "نماذج الاتصال",
-        "Website Widget": "أداة الموقع",
-        
-        # Footer
-        "Company": "الشركة",
-        "Contact Us": "اتصل بنا",
-        "About Us": "من نحن", 
-        "Careers": "وظائف",
-        "Privacy Policy": "سياسة الخصوصية",
-        "Terms of Service": "شروط الخدمة",
-        "Security": "الأمان",
-        
-        # Features
-        "Features": "الميزات",
-        "Knowledge Base": "قاعدة المعرفة",
-        "API References": "مراجع واجهة برمجة التطبيقات",
-        
-        # Common actions
-        "Get Started": "ابدأ",
-        "Book A Demo": "احجز عرض توضيحي",
-        "Schedule Demo": "جدولة عرض توضيحي",
-        "Start Free Trial": "ابدأ النسخة التجريبية المجانية",
-        "Contact Sales": "اتصل بالمبيعات",
-        "Learn More": "اعرف المزيد",
-        "Read More": "اقرأ المزيد",
-        "View All": "عرض الكل",
-        "Try Now": "جرب الآن",
-        
-        # Business terms
-        "Lead Generation": "توليد العملاء المحتملين",
-        "Marketing Automation": "أتمتة التسويق",
-        "Customer Engagement": "مشاركة العملاء",
-        "Appointment Reminders": "تذكيرات المواعيد",
-        "Emergency Alerts": "تنبيهات الطوارئ",
-        
-        # Industries
-        "E-commerce & Retail": "التجارة الإلكترونية والتجزئة",
-        "Real Estate": "العقارات",
-        "Political Campaigns": "الحملات السياسية", 
-        "Healthcare": "الرعاية الصحية",
-        "Financial Services": "الخدمات المالية",
-        "Education": "التعليم",
-        
-        # Time and numbers
-        "Daily": "يوميًا",
-        "Weekly": "أسبوعيًا", 
-        "Monthly": "شهريًا",
-        "Users": "المستخدمون",
-        "Messages": "الرسائل",
-        "Uptime": "وقت التشغيل",
-        
-        # Location
-        "Seattle, WA": "سياتل، واشنطن",
-        
-        # Common phrases
-        "Made with": "صُنع بـ",
-        "in the city of": "في مدينة",
-        "All rights reserved": "جميع الحقوق محفوظة",
-    }
-    
-    # Check for exact matches first
-    if value in translations:
-        return translations[value]
-    
-    # Check for partial matches and replace
-    result = value
-    for english, arabic in translations.items():
-        if english.lower() in result.lower():
-            # Use case-insensitive replacement but preserve structure
-            pattern = re.compile(re.escape(english), re.IGNORECASE)
-            result = pattern.sub(arabic, result)
-    
-    # If no translation found, return original (this would be enhanced with a translation service)
-    return result
+        result = ' '.join(translated_words)
+        return result
 
-def translate_json_values(obj):
-    """
-    Recursively translate JSON values while preserving structure
-    """
-    if isinstance(obj, dict):
-        return {key: translate_json_values(value) for key, value in obj.items()}
-    elif isinstance(obj, list):
-        return [translate_json_values(item) for item in obj]
-    elif isinstance(obj, str):
-        return translate_value(obj)
-    else:
-        return obj
+    def translate_value(self, value: Any) -> Any:
+        """Recursively translate values in JSON structure"""
+        if isinstance(value, str):
+            return self.translate_text(value)
+        elif isinstance(value, dict):
+            return {key: self.translate_value(val) for key, val in value.items()}
+        elif isinstance(value, list):
+            return [self.translate_value(item) for item in value]
+        else:
+            return value
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python translate_to_arabic.py input.json output.json")
-        sys.exit(1)
+    input_file = 'public/locales/en.json'
+    output_file = 'public/locales/ar.json'
     
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
+    translator = ArabicTranslator()
     
-    # Read the English JSON
-    with open(input_file, 'r', encoding='utf-8') as f:
-        english_data = json.load(f)
+    print("Loading English JSON file...")
     
-    # Translate the values
-    arabic_data = translate_json_values(english_data)
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+        
+        print(f"Loaded JSON structure successfully")
+        print("Starting translation process...")
+        
+        # Translate the entire structure
+        translated_data = translator.translate_value(json_data)
+        
+        print("Translation completed. Writing to output file...")
+        
+        # Write the translated data
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(translated_data, f, ensure_ascii=False, indent=2)
+        
+        print(f"Translation completed successfully!")
+        print(f"Output written to {output_file}")
+        
+        # Validate the output
+        with open(output_file, 'r', encoding='utf-8') as f:
+            json.load(f)  # This will raise an exception if JSON is invalid
+        
+        print("Output JSON is valid!")
+        
+    except Exception as e:
+        print(f"Error during translation: {e}")
+        return 1
     
-    # Write the Arabic JSON
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(arabic_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"Translation complete: {input_file} -> {output_file}")
+    return 0
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
