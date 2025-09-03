@@ -58,6 +58,7 @@ import SeaXRouter from './seax/utils/SeaXRouter';
 import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
 import CompanyPage from './pages/CompanyPage';
 import CareersPage from './pages/careers';
+import HtmlLangUpdater from './components/HtmlLangUpdater';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from './constants/languages';
@@ -100,14 +101,12 @@ const LanguageAwareWrapper: React.FC<{
     }
   }, [location.pathname, i18n, productName]);
   
-  // Update HTML lang attribute whenever the language changes
-  useEffect(() => {
-    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = i18n.language;
-    console.log(`[${productName}WithLanguage] Updated HTML lang attribute to:`, i18n.language);
-  }, [i18n.language, productName]);
-  
-  return <>{children}</>;
+  return (
+    <>
+      <HtmlLangUpdater />
+      {children}
+    </>
+  );
 };
 
 // Specific product wrappers using the reusable HOC

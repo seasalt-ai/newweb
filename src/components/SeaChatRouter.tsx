@@ -1,9 +1,8 @@
-import { useEffect } from 'react';
-import { Routes, Route, Navigate, useParams, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../constants/languages';
 import SEOHelmet from './SEOHelmet';
 import { getSEOData, getCanonicalUrl } from '../utils/seo';
+import HtmlLangUpdater from './HtmlLangUpdater';
 
 // SeaChat components
 import Header from '../seachat/components/Header';
@@ -109,16 +108,9 @@ function SeaChatHomePage() {
 }
 
 const SeaChatRouter = () => {
-  const { i18n } = useTranslation();
-
-  // Set document direction based on language
-  useEffect(() => {
-    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = i18n.language;
-  }, [i18n.language]);
-
   return (
     <div className="min-h-screen bg-white">
+      <HtmlLangUpdater />
       <PhoneBanner />
       <Header />
       <Routes>

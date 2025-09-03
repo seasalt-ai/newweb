@@ -2,6 +2,7 @@ import React, { useEffect, memo } from 'react';
 import { useParams, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from '../constants/languages';
+import HtmlLangUpdater from './HtmlLangUpdater';
 
 const LanguageRouter: React.FC = memo(() => {
   const { lang } = useParams<{ lang: string }>();
@@ -53,14 +54,12 @@ const LanguageRouter: React.FC = memo(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lang, location.pathname, navigate, i18n]);
 
-  // Update HTML lang attribute whenever the language changes
-  useEffect(() => {
-    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = i18n.language;
-    console.log('[LanguageRouter] Updated HTML lang attribute to:', i18n.language);
-  }, [i18n.language]);
-  
-  return <Outlet />;
+  return (
+    <>
+      <HtmlLangUpdater />
+      <Outlet />
+    </>
+  );
 });
 
 export default LanguageRouter;

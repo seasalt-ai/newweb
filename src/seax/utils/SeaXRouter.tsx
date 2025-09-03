@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
+import HtmlLangUpdater from '../../components/HtmlLangUpdater';
 
 // Import SeaX pages
 import SeaXHome from '../pages/SeaXHome';
@@ -54,15 +55,10 @@ const SeaXRouter = () => {
     }
   }, [lang, i18n]);
 
-  // Update HTML lang attribute whenever the language changes
-  useEffect(() => {
-    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = i18n.language;
-    console.log('[SeaXRouter] Updated HTML lang attribute to:', i18n.language);
-  }, [i18n.language]);
-
   return (
-    <Routes>
+    <>
+      <HtmlLangUpdater />
+      <Routes>
       {/* Home page */}
       <Route index element={<SeaXHome />} />
       
@@ -100,7 +96,8 @@ const SeaXRouter = () => {
       
       {/* Catch-all route for non-matching paths - redirect to SeaX home */}
       <Route path="*" element={<Navigate to="" replace />} />
-    </Routes>
+      </Routes>
+    </>
   );
 };
 
