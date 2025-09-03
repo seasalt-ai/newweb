@@ -1,5 +1,9 @@
 public/sitemap*.xml
 
+# Compiled JavaScript files in src directory
+src/**/*.js
+src/**/*.js.map
+
 *.backup*
 *.tsbuildinfo
 *.zip
