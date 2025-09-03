@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { Bell, Shield, Clock, Zap, CheckCircle, AlertTriangle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const ProactiveSupportPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.proactiveSupport', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/proactive-support')
+  });
   const features = [
     {
       icon: Bell,
@@ -125,6 +132,7 @@ const ProactiveSupportPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-teal-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

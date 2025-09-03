@@ -2,9 +2,18 @@
 import { motion } from 'framer-motion';
 import { PhoneCall, Users, Zap, CheckCircle, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const CallTransferPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.callTransfer', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/call-transfer')
+  });
   
   const features = [
     {
@@ -71,6 +80,8 @@ const CallTransferPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -259,6 +270,7 @@ const CallTransferPage = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

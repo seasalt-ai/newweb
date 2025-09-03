@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { Megaphone, Users, BarChart3, Globe, CheckCircle, Zap } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const LargeScaleCampaignsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.largeScaleCampaigns', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/large-scale-campaigns')
+  });
   
   const features = [
     {
@@ -128,6 +135,7 @@ const LargeScaleCampaignsPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -324,15 +332,15 @@ const LargeScaleCampaignsPage = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCalls')}</span>
-                    <span className="font-semibold text-indigo-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue')}</span>
+                    <span className="font-semibold text-indigo-600">8,547</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRate')}</span>
-                    <span className="font-semibold text-green-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue')}</span>
+                    <span className="font-semibold text-green-600">94.2%</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRate')}</span>
-                    <span className="font-semibold text-blue-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue')}</span>
+                    <span className="font-semibold text-blue-600">67.8%</span>
                   </div>
                 </div>
               </div>

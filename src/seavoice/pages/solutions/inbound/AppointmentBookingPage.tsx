@@ -2,9 +2,18 @@
 import { motion } from 'framer-motion';
 import { Calendar, Clock, Users, BarChart3, CheckCircle, Bell } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const AppointmentBookingPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.inbound.appointmentBooking', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/inbound/appointment-booking')
+  });
   
   const features = [
     {
@@ -129,6 +138,8 @@ const AppointmentBookingPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-50 via-white to-pink-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -444,6 +455,7 @@ const AppointmentBookingPage = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

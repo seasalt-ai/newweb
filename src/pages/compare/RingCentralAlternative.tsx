@@ -4,11 +4,17 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const RingCentralAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.ringCentralAlternative', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/ringcentral-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.ringcentral.comparison.features.platformArchitecture.name'),
@@ -50,13 +56,7 @@ const RingCentralAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.ringcentral.seo.title')}
-        description={t('compare.ringcentral.seo.description')}
-        canonicalUrl={`https://seasalt.ai${t('compare.ringcentral.seo.canonicalPath')}`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

@@ -1,9 +1,17 @@
 import { Plane, MapPin, Calendar, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../../constants/urls';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+
 const TravelPage = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.solutions.travel', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/solutions/travel')
+  });
   
   const features = [
     {
@@ -169,7 +177,9 @@ const TravelPage = () => {
   const safeIntegrations = Array.isArray(integrations) ? integrations : [];
 
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-900 via-teal-800 to-cyan-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -440,6 +450,7 @@ const TravelPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

@@ -5,9 +5,16 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const ThreeCXAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.threeCXAlternative', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/3cx-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.threeCXAlternative.comparison.features.platformType.name'),
@@ -49,13 +56,7 @@ const ThreeCXAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.threeCXAlternative.seo.title')}
-        description={t('compare.threeCXAlternative.seo.description')}
-        favicon="/favicon.ico"
-        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/3cx-alternative`}
-        availableLanguages={['en', 'zh-TW']}
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

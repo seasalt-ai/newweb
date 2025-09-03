@@ -6,15 +6,20 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const WebsiteChat = () => {
   const { t, i18n } = useTranslation();
-
   
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.websiteChat', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/website-chat')
+  });
   
   const features = [
     {
@@ -69,13 +74,9 @@ const WebsiteChat = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('channels.websiteChat.hero.title.prefix') + ' ' + t('channels.websiteChat.hero.title.highlight')}
-        description={t('channels.websiteChat.hero.description')}
-        favicon="/favicon.ico"
-        canonicalUrl={`${window.location.origin}/channels/website-chat`}
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

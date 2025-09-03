@@ -4,14 +4,16 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const SalesMarketing = () => {
-  const { i18n, t } = useTranslation();
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${i18n.language}/solutions/sales-marketing` 
-    : `/${i18n.language}/solutions/sales-marketing`;
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'solutions.salesMarketing', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/solutions/sales-marketing')
+  });
 
   const challenges = [
     {
@@ -132,14 +134,7 @@ const SalesMarketing = () => {
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={t('solutions.salesMarketing.seo.title')}
-        description={t('solutions.salesMarketing.seo.description')}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

@@ -4,6 +4,8 @@ import { Phone, BarChart3, CheckCircle, ArrowRight, Star, Bot, Users, Headphones
 import { useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import SEOHelmet from '../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 import VoiceDemo from '../components/VoiceDemo';
 import InteractiveCallDashboard from '../components/hero-variants/InteractiveCallDashboard';
 import VoiceConversationFlow from '../components/hero-variants/VoiceConversationFlow';
@@ -11,6 +13,16 @@ const UnifiedHomePage = () => {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const { t, i18n } = useTranslation();
+  
+  // Get current language for canonical URL  
+  const currentLang = lang || i18n.language || 'en';
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seo.seavoice.homepage', {
+    canonicalUrl: getCanonicalUrl(currentLang, '/seavoice'),
+    image: '/seavoice-logo.png',
+    tags: t('seo.seavoice.homepage.keywords')?.split(', ')
+  });
   
   const [openFaqIndex, setOpenFaqIndex] = useState<number | string | null>(null);
   
@@ -416,6 +428,8 @@ const UnifiedHomePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      <SEOHelmet {...seoData} />
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 py-24 lg:py-32 overflow-hidden">
         {/* Animated background elements */}

@@ -1,8 +1,15 @@
 import { Code, Zap, Puzzle, Settings, ArrowRight, CheckCircle, Copy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 
 const IntegrationAPIPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.integrations.api', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/integrations/api')
+  });
   
   const apiFeatures = [
     {
@@ -122,7 +129,9 @@ app.post('/api/seachat/webhook', (req, res) => {
   ];
 
   return (
-    <div className="pt-16">
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -399,6 +408,7 @@ app.post('/api/seachat/webhook', (req, res) => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

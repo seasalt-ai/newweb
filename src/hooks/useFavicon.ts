@@ -1,29 +1,14 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { getProductAssets } from '../utils/productAssets';
 
 const useFavicon = () => {
   const location = useLocation();
 
   const getFaviconPath = () => {
-    const pathname = location.pathname;
-    
-    // Check if we're on a SeaX page
-    if (pathname.includes('/seax')) {
-      return '/seax-icon.png';
-    }
-    
-    // Check if we're on a SeaVoice page
-    if (pathname.includes('/seavoice')) {
-      return '/seavoice-icon.png';
-    }
-    
-    // Check if we're on a SeaChat page
-    if (pathname.includes('/seachat')) {
-      return '/seachat-icon.png';
-    }
-    
-    // Default favicon for main site
-    return '/seasalt-ai-favicon.ico';
+    // Use the centralized product detection logic
+    const productAssets = getProductAssets(location.pathname);
+    return productAssets.favicon;
   };
 
   const updateFavicon = (faviconPath: string) => {

@@ -4,6 +4,7 @@ import { Buffer } from 'buffer';
 import { Suspense } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App.tsx';
+import './styles/text-overflow.css';
 import './index.css';
 import './i18n';
 

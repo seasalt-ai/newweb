@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { Heart, Shield, Clock, Phone, CheckCircle, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const SeniorCheckCallsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.seniorCheckCalls', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/senior-check-calls')
+  });
   const features = [
     {
       icon: Heart,
@@ -115,6 +122,7 @@ const SeniorCheckCallsPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

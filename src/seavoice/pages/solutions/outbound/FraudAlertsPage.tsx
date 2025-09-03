@@ -1,10 +1,18 @@
 import { Shield, AlertTriangle, CheckCircle, Clock, Phone, BarChart3 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const FraudAlertsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.fraudAlerts', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/fraud-alerts')
+  });
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

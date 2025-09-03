@@ -4,11 +4,17 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const Five9Alternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.five9Alternative', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/five9-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.five9Alternative.comparison.features.targetCustomer.name'),
@@ -50,12 +56,7 @@ const Five9Alternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.five9Alternative.seo.title')}
-        description={t('compare.five9Alternative.seo.description')}
-        canonicalUrl={`https://seasalt.ai/${i18n.language}/compare/five9-alternative`}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

@@ -1,82 +1,488 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { LANGUAGE_DETAILS } from '../constants/languages';
-// Note: useTranslation not currently needed as this component handles SEO metadata
-// Most content is passed via props and brand constants should not be translated
+/**
+ * SEO Helmet Component for Seasalt.ai
+ * 
+ * This component provides complete SEO metadata management including:
+ * - Meta tags (title, description, keywords, robots)
+ * - Open Graph metadata for social sharing
+ * - Twitter Cards support
+ * - Multilingual hreflang links
+ * - Canonical URLs
+ * - Structured data (JSON-LD)
+ * - Favicon and theme metadata
+ */
 
-interface SEOHelmetProps {
-  title: string;
-  description: string;
-  favicon: string;
-  canonicalUrl?: string;
+import React, { useMemo } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
+import { 
+  LANGUAGE_REGION_MAP, 
+  getHreflangCode, 
+  getAllLocales, 
+  getGeoTargeting,
+  hasRegionalVariants,
+  SUPPORTED_LANGUAGES,
+  type SupportedLanguage 
+} from '../constants/languages';
+import { useProductAssets, getProductAssets } from '../utils/productAssets';
+import { useManifest } from '../hooks/useManifest';
+import {
+  createOrganizationSchema,
+  createWebSiteSchema,
+  createLocalizedWebSiteSchema,
+  createWebPageSchema,
+  createBreadcrumbListSchema,
+  createFAQPageSchema,
+  createArticleSchema,
+  createProductSchema,
+  stringifyStructuredData,
+  generatePageSchemas,
+  createLocalizedUrl
+} from '../utils/schemaGenerator';
+import { getProductKeyFromPath } from '../utils/productAssets';
+import { type ProductKey, type SchemaAvailability, SCHEMA_AVAILABILITY } from '../config/schemaData';
+
+// Brand constants for consistent SEO metadata
+const BRAND_CONSTANTS = {
+  COMPANY_NAME: 'Seasalt.ai',
+  SITE_URL: 'https://seasalt.ai',
+  DEFAULT_IMAGE: '/seasalt-ai-og-default.png', // Fallback only - prefer product-specific assets
+  LOGO_URL: '/seasalt-ai-logo.png', // Fallback only - prefer product-specific assets
+  TWITTER_HANDLE: '@seasalt_ai',
+  THEME_COLOR: '#2563eb'
+} as const;
+
+// =============================================================================
+// SEO Helmet Component Props Interface
+// =============================================================================
+
+export interface SEOHelmetProps {
+  /** Page title */
+  title?: string;
+  
+  /** Meta description */
+  description?: string;
+  
+  /** Favicon URL */
+  favicon?: string;
+  
+  /** Available languages for hreflang generation */
   availableLanguages?: readonly string[];
+  
+  /** Social sharing image */
   image?: string;
-  type?: 'website' | 'article';
+  
+  /** Page type for Open Graph and schema generation */
+  type?: 'website' | 'article' | 'homepage' | 'product' | 'blog' | 'faq' | 'general';
+  
+  /** Article author (for blog posts) */
   author?: string;
+  
+  /** Article published time (for blog posts) */
   publishedTime?: string;
+  
+  /** Article modified time (for blog posts) */
   modifiedTime?: string;
+  
+  /** Article tags/keywords */
   tags?: string[];
+  
+  /** Blog post slug (for generating URLs) */
   slug?: string;
+  
+  /** Custom canonical URL override */
+  canonicalUrl?: string;
+  
+  /** Additional meta tags */
+  additionalMeta?: Array<{
+    name?: string;
+    property?: string;
+    content: string;
+  }>;
+  
+  /** Custom structured data to include */
+  structuredData?: Array<Record<string, any>>;
+  
+  /** Breadcrumbs for structured data (enhanced with path support) */
+  breadcrumbs?: Array<{ name: string; url?: string; path?: string }>;
+  
+  /** FAQ data for structured data */
+  faqs?: Array<{ question: string; answer: string }>;
+  
+  /** Whether this is a preview/draft page */
+  isPreview?: boolean;
+  
+  /** Product key for automatic product schema generation */
+  productKey?: ProductKey;
+  
+  /** Custom price override for product schema */
+  price?: string;
+  
+  /** Custom price currency for product schema */
+  priceCurrency?: string;
+  
+  /** Custom availability status for product schema */
+  availability?: SchemaAvailability;
+  
+  /** Custom product features for enhanced schema */
+  productFeatures?: string[];
+  
+  /** Enable automatic schema generation based on page type */
+  enableAutoSchema?: boolean;
+  
+  /** Custom offer details for products */
+  customOffer?: {
+    price?: string;
+    priceCurrency?: string;
+    availability?: SchemaAvailability;
+    description?: string;
+    validFrom?: string;
+  };
 }
 
-const SEOHelmet: React.FC<SEOHelmetProps> = ({ 
-  title, 
-  description, 
-  favicon, 
-  canonicalUrl,
-  availableLanguages = [],
-  image = '/seasalt-ai-icon.png',
+// =============================================================================
+// SEO Helmet Component
+// =============================================================================
+
+const SEOHelmetInternal: React.FC<SEOHelmetProps> = ({
+  title = 'Seasalt.ai',
+  description = '',
+  favicon, // Will use product-specific default if not provided
+  availableLanguages,
+  image, // Will use product-specific default if not provided
   type = 'website',
   author,
   publishedTime,
   modifiedTime,
   tags = [],
-  slug
+  slug,
+  canonicalUrl: customCanonicalUrl,
+  additionalMeta = [],
+  structuredData = [],
+  breadcrumbs,
+  faqs,
+  isPreview = false,
+  productKey,
+  price,
+  priceCurrency,
+  availability
 }) => {
-  const fullImageUrl = image.startsWith('http') ? image : `${window.location.origin}${image}`;
-  const siteName = 'Seasalt.ai';
+  const location = useLocation();
   
-  // Generate hreflang links for available languages
-  const hrefLangLinks = availableLanguages.map(lang => {
-    const langDetail = LANGUAGE_DETAILS.find(l => l.code === lang);
-    const hrefLangUrl = slug 
-      ? `${window.location.origin}/${lang}/blog/${slug}`
-      : `${window.location.origin}/${lang}/blog`;
+  // ==========================================================================
+  // Dynamic Manifest Generation
+  // ==========================================================================
+  
+  // Get current language for manifest
+  const currentLang = location.pathname.split('/')[1] || 'en';
+  const { manifestDataUrl } = useManifest(currentLang);
+  
+  // ==========================================================================
+  // Product-Specific Assets
+  // ==========================================================================
+  
+  // Get product-specific assets based on current path
+  const productAssets = getProductAssets(location.pathname);
+  
+  // Use product-specific defaults if not explicitly provided
+  const effectiveFavicon = favicon || productAssets.favicon;
+  const effectiveImage = image || productAssets.ogDefault;
+  
+  // ==========================================================================
+  // Computed SEO Values
+  // ==========================================================================
+  
+  const computedValues = useMemo(() => {
+    // Get current pathname and clean it
+    const pathname = location.pathname.replace(/^\//, ''); // Remove leading slash
     
-    // Convert language codes to proper hreflang codes
-    let hrefLangCode = lang;
-    if (lang === 'zh-TW') hrefLangCode = 'zh-Hant';
-    if (lang === 'zh-CN') hrefLangCode = 'zh-Hans';
-    if (lang === 'fa') hrefLangCode = 'fa';
+    // Detect current language for manifest selection
+    const currentLang = pathname.split('/')[0] || 'en';
+    
+    // Generate canonical URL
+    const canonicalUrl = customCanonicalUrl || `${BRAND_CONSTANTS.SITE_URL}/${pathname}`;
+    
+    // Use SUPPORTED_LANGUAGES as default if availableLanguages is not provided or empty
+    const effectiveAvailableLanguages = (availableLanguages && availableLanguages.length > 0) 
+      ? availableLanguages 
+      : SUPPORTED_LANGUAGES;
+    
+    // Generate enhanced hreflang URLs with regional targeting
+    let hreflangUrls: Array<{ lang: string; url: string }> = [];
+    if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
+      const origin = BRAND_CONSTANTS.SITE_URL;
+      const segments = pathname.split('/');
+      const langInPath = SUPPORTED_LANGUAGES.includes(segments[0] as SupportedLanguage);
+      const cleanPath = langInPath ? segments.slice(1).join('/') : pathname;
+      
+      // Add x-default hreflang (points to English version)
+      const defaultUrl = generateUrlForLanguage(origin, 'en', cleanPath, slug);
+      hreflangUrls.push({ lang: 'x-default', url: defaultUrl });
+      
+      // Generate hreflang URLs for each language and its regional variants
+      effectiveAvailableLanguages.forEach(langCode => {
+        const lang = langCode as SupportedLanguage;
+        const languageInfo = LANGUAGE_REGION_MAP[lang];
+        
+        if (!languageInfo) {
+          // Fallback for unsupported languages
+          const hrefLangCode = getHreflangCode(lang);
+          const url = generateUrlForLanguage(origin, lang, cleanPath, slug);
+          hreflangUrls.push({ lang: hrefLangCode, url });
+          return;
+        }
+        
+        // Add primary locale hreflang
+        const primaryHrefLang = convertLocaleToHreflang(languageInfo.primaryLocale);
+        const primaryUrl = generateUrlForLanguage(origin, lang, cleanPath, slug);
+        hreflangUrls.push({ lang: primaryHrefLang, url: primaryUrl });
+        
+        // Add alternate regional locales if they exist
+        if (hasRegionalVariants(lang)) {
+          languageInfo.alternateLocales.forEach(locale => {
+            const regionalHrefLang = convertLocaleToHreflang(locale);
+            // Use same URL for all regional variants since we serve one version per language
+            hreflangUrls.push({ lang: regionalHrefLang, url: primaryUrl });
+          });
+          
+          // Add generic language code (e.g., 'en', 'zh-Hant') as fallback
+          const genericHrefLang = getHreflangCode(lang);
+          if (!hreflangUrls.some(item => item.lang === genericHrefLang)) {
+            hreflangUrls.push({ lang: genericHrefLang, url: primaryUrl });
+          }
+        }
+      });
+    }
+    
+    // Helper function to generate URL for a language
+    function generateUrlForLanguage(origin: string, lang: string, cleanPath: string, slug?: string): string {
+      if (slug) {
+        // For blog posts
+        return `${origin}/${lang}/blog/${slug}`;
+      } else if (cleanPath === 'blog') {
+        // For blog listing page
+        return `${origin}/${lang}/blog`;
+      } else {
+        // For other pages
+        const langPrefix = `/${lang}`;
+        const pathSuffix = cleanPath ? `/${cleanPath}` : '';
+        return `${origin}${langPrefix}${pathSuffix}`;
+      }
+    }
+    
+    // Helper function to convert locale to hreflang format
+    function convertLocaleToHreflang(locale: string): string {
+      // Convert underscore locales to hreflang format
+      // e.g., 'en_US' -> 'en-US', 'zh_Hant_TW' -> 'zh-Hant-TW'
+      return locale.replace(/_/g, '-');
+    }
+    
+    // Generate social image URL using effective image (product-specific default or explicit)
+    const socialImageUrl = effectiveImage || BRAND_CONSTANTS.DEFAULT_IMAGE;
+    const fullSocialImageUrl = socialImageUrl.startsWith('http') ? 
+      socialImageUrl : `${BRAND_CONSTANTS.SITE_URL}${socialImageUrl}`;
+    
+    // Generate alt text for social image
+    const socialImageAlt = `${title} - ${BRAND_CONSTANTS.COMPANY_NAME}`;
+    
+    // Generate robots content
+    const robotsContent = isPreview ? 
+      'noindex, nofollow' : 
+      'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1';
+    
+    // Theme color
+    const themeColor = BRAND_CONSTANTS.THEME_COLOR;
+    
+    // =======================================================================
+    // Enhanced Structured Data Generation Using Advanced Utilities
+    // =======================================================================
+    
+    // Determine page type for schema generation
+    const pageType = type === 'website' ? 'homepage' : type;
+    const effectiveProductKey = productKey || getProductKeyFromPath(location.pathname);
+    
+    // Convert breadcrumbs to the new format
+    const localizedBreadcrumbs = breadcrumbs?.map(crumb => ({
+      name: crumb.name,
+      path: crumb.path || crumb.url?.replace(BRAND_CONSTANTS.SITE_URL, '') || ''
+    }));
+    
+    // Prepare article data if needed
+    const articleData = (type === 'article' && author) ? {
+      author,
+      datePublished: publishedTime,
+      dateModified: modifiedTime
+    } : undefined;
+    
+    // Generate comprehensive structured data using the new advanced function
+    let allStructuredData: Array<Record<string, any>> = [];
+    
+    try {
+      allStructuredData = generatePageSchemas({
+        pageType: pageType as 'homepage' | 'product' | 'blog' | 'faq' | 'general',
+        title,
+        description,
+        language: currentLang,
+        baseUrl: BRAND_CONSTANTS.SITE_URL,
+        path: pathname,
+        breadcrumbs: localizedBreadcrumbs,
+        faqs,
+        productKey: effectiveProductKey || undefined,
+        customOffer: {
+          price,
+          priceCurrency,
+          availability
+        },
+        articleData,
+        customStructuredData: structuredData
+      });
+      
+      // Successfully generated enhanced structured data
+    } catch (error) {
+      // Error generating enhanced structured data, falling back to basic schemas
+      
+      // Fallback to basic schema generation
+      allStructuredData = [];
+      
+      // Add basic organization schema
+      try {
+        const organizationSchema = createOrganizationSchema(
+          undefined,
+          description,
+          effectiveAvailableLanguages.map(lang => lang as string)
+        );
+        allStructuredData.push(organizationSchema);
+      } catch (orgError) {
+        // Error creating organization schema, skipping
+      }
+      
+      // Add website schema with localization
+      const websiteSchema = createLocalizedWebSiteSchema({
+        language: currentLang,
+        baseUrl: BRAND_CONSTANTS.SITE_URL
+      });
+      allStructuredData.push(websiteSchema);
+      
+      // Add webpage schema
+      const webPageSchema = createWebPageSchema({
+        title,
+        description,
+        url: canonicalUrl,
+        language: currentLang,
+        dateModified: modifiedTime,
+        lastReviewed: new Date().toISOString()
+      });
+      allStructuredData.push(webPageSchema);
+      
+      // Add product schema if applicable
+      if (effectiveProductKey) {
+        try {
+          const productSchema = createProductSchema({
+            productKey: effectiveProductKey,
+            url: canonicalUrl,
+            customPrice: price,
+            customPriceCurrency: priceCurrency,
+            customAvailability: availability,
+            language: currentLang
+          });
+          allStructuredData.push(productSchema);
+        } catch (productError) {
+          // Failed to create product schema, skipping
+        }
+      }
+      
+      // Add FAQ schema if FAQs provided
+      if (faqs && faqs.length > 0) {
+        const faqSchema = createFAQPageSchema(faqs);
+        allStructuredData.push(faqSchema);
+      }
+    }
+    
+    // Final structured data array is ready
+    
+    // Generate geographic targeting information
+    let geoTargetingMeta: Array<{ name: string; content: string }> = [];
+    if (effectiveAvailableLanguages && effectiveAvailableLanguages.length > 0) {
+      const currentLang = pathname.split('/')[0] as SupportedLanguage || 'en';
+      const currentLanguageInfo = LANGUAGE_REGION_MAP[currentLang];
+      
+      if (currentLanguageInfo) {
+        const geoTargeting = getGeoTargeting(currentLang);
+        
+        // Add geographic targeting meta tags
+        geoTargetingMeta = [
+          { name: 'geo.region', content: geoTargeting.regions.join(', ') },
+          { name: 'geo.placename', content: geoTargeting.placenames.join(', ') },
+          { name: 'ICBM', content: '' }, // Will be populated if we add coordinates later
+        ].filter(meta => meta.content); // Remove empty content
+      }
+    }
     
     return {
-      lang: hrefLangCode,
-      url: hrefLangUrl
+      canonicalUrl,
+      hreflangUrls,
+      socialImageUrl: fullSocialImageUrl,
+      socialImageAlt,
+      robotsContent,
+      themeColor,
+      allStructuredData,
+      geoTargetingMeta
     };
-  });
+  }, [location.pathname, title, description, effectiveImage, availableLanguages, slug, customCanonicalUrl, structuredData, breadcrumbs, faqs, type, author, publishedTime, modifiedTime, isPreview, productAssets, productKey, price, priceCurrency, availability]);
+  
+  const {
+    canonicalUrl,
+    hreflangUrls,
+    socialImageUrl,
+    socialImageAlt,
+    robotsContent,
+    themeColor,
+    allStructuredData,
+    geoTargetingMeta
+  } = computedValues;
+  
+  // ==========================================================================
+  // Render SEO Head Tags
+  // ==========================================================================
   
   return (
     <Helmet>
       {/* Basic Meta Tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="icon" type="image/x-icon" href={favicon} />
+      {tags.length > 0 && (
+        <meta name="keywords" content={tags.join(', ')} />
+      )}
+      <meta name="robots" content={robotsContent} />
       
       {/* Canonical URL */}
-      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+      <link rel="canonical" href={canonicalUrl} />
+      
+      {/* Hreflang Links */}
+      {hreflangUrls.map((hreflang, index) => (
+        <link
+          key={`hreflang-${index}`}
+          rel="alternate"
+          hrefLang={hreflang.lang}
+          href={hreflang.url}
+        />
+      ))}
       
       {/* Open Graph Meta Tags */}
+      <meta property="og:type" content={type} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={fullImageUrl} />
-      <meta property="og:type" content={type} />
-      <meta property="og:site_name" content={siteName} />
-      {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:site_name" content={BRAND_CONSTANTS.COMPANY_NAME} />
+      <meta property="og:image" content={socialImageUrl} />
+      <meta property="og:image:alt" content={socialImageAlt} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:type" content="image/jpeg" />
       
       {/* Article-specific Open Graph tags */}
-      {type === 'article' && (
+      {type === 'article' && author && (
         <>
-          {author && <meta property="article:author" content={author} />}
+          <meta property="article:author" content={author} />
           {publishedTime && <meta property="article:published_time" content={publishedTime} />}
           {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
           {tags.map(tag => (
@@ -87,76 +493,103 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
       
       {/* Twitter Card Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content={BRAND_CONSTANTS.TWITTER_HANDLE} />
+      <meta name="twitter:creator" content={BRAND_CONSTANTS.TWITTER_HANDLE} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={fullImageUrl} />
-      <meta name="twitter:site" content="@seasalt_ai" />
+      <meta name="twitter:image" content={socialImageUrl} />
+      <meta name="twitter:image:alt" content={socialImageAlt} />
       
-      {/* Language and Regional Meta Tags */}
-      <meta httpEquiv="content-language" content={availableLanguages[0] || 'en'} />
+      {/* Mobile and PWA Meta Tags */}
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      <meta name="theme-color" content={themeColor} />
+      <meta name="msapplication-TileColor" content={themeColor} />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="apple-mobile-web-app-title" content={BRAND_CONSTANTS.COMPANY_NAME} />
       
-      {/* Hreflang Links for Internationalization */}
-      {hrefLangLinks.map(({ lang, url }) => (
-        <link key={lang} rel="alternate" hrefLang={lang} href={url} />
+      {/* Favicons are handled by FaviconManager - no static favicon links here to prevent conflicts */}
+      <link rel="manifest" href={manifestDataUrl} />
+      
+      {/* DNS Prefetch and Preconnect for Performance */}
+      <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+      
+      {/* Geographic Targeting Meta Tags */}
+      {geoTargetingMeta.map((meta, index) => (
+        <meta key={`geo-${index}`} name={meta.name} content={meta.content} />
       ))}
       
-      {/* Add x-default for international targeting */}
-      {hrefLangLinks.length > 0 && (
-        <link rel="alternate" hrefLang="x-default" href={hrefLangLinks.find(l => l.lang === 'en')?.url || hrefLangLinks[0].url} />
-      )}
+      {/* Additional Meta Tags */}
+      {additionalMeta.map((meta, index) => {
+        if (meta.name) {
+          return <meta key={`additional-meta-${index}`} name={meta.name} content={meta.content} />;
+        }
+        if (meta.property) {
+          return <meta key={`additional-meta-${index}`} property={meta.property} content={meta.content} />;
+        }
+        return null;
+      })}
       
-      {/* Additional SEO Meta Tags */}
-      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      
-      {/* Structured Data - Basic Organization */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": siteName,
-          "url": window.location.origin,
-          "logo": `${window.location.origin}/seasalt-ai-logo.png`,
-          "sameAs": [
-            "https://www.linkedin.com/company/seasalt-ai",
-            "https://twitter.com/seasalt_ai",
-            "https://github.com/seasalt-ai"
-          ]
-        })}
-      </script>
-      
-      {/* Blog-specific structured data */}
-      {type === 'article' && (
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": title,
-            "description": description,
-            "image": fullImageUrl,
-            "author": {
-              "@type": "Person",
-              "name": author || "Seasalt.ai Team"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": siteName,
-              "logo": {
-                "@type": "ImageObject",
-                "url": `${window.location.origin}/seasalt-ai-logo.png`
-              }
-            },
-            "datePublished": publishedTime,
-            "dateModified": modifiedTime || publishedTime,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": canonicalUrl
-            }
-          })}
+      {/* Structured Data (JSON-LD) */}
+      {allStructuredData.map((data, index) => (
+        <script
+          key={`structured-data-${index}`}
+          type="application/ld+json"
+        >
+          {JSON.stringify(data, null, 0)}
         </script>
-      )}
+      ))}
+      
+      {/* Additional SEO Enhancements */}
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="google" content="notranslate" />
+      
+      {/* Performance Hints */}
+      <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossOrigin="" />
+      
+      {/* Security Headers */}
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="referrer" content="strict-origin-when-cross-origin" />
     </Helmet>
   );
 };
+
+// =============================================================================
+// Memoized Export to Prevent Unnecessary Re-renders
+// =============================================================================
+
+// Use React.memo to prevent duplicate renders when props haven't changed
+export const SEOHelmet = React.memo(SEOHelmetInternal, (prevProps, nextProps) => {
+  // Custom comparison function to avoid unnecessary re-renders
+  return (
+    prevProps.title === nextProps.title &&
+    prevProps.description === nextProps.description &&
+    prevProps.favicon === nextProps.favicon &&
+    JSON.stringify(prevProps.availableLanguages) === JSON.stringify(nextProps.availableLanguages) &&
+    prevProps.image === nextProps.image &&
+    prevProps.type === nextProps.type &&
+    prevProps.author === nextProps.author &&
+    prevProps.publishedTime === nextProps.publishedTime &&
+    prevProps.modifiedTime === nextProps.modifiedTime &&
+    JSON.stringify(prevProps.tags) === JSON.stringify(nextProps.tags) &&
+    prevProps.slug === nextProps.slug &&
+    prevProps.canonicalUrl === nextProps.canonicalUrl &&
+    JSON.stringify(prevProps.additionalMeta) === JSON.stringify(nextProps.additionalMeta) &&
+    JSON.stringify(prevProps.structuredData) === JSON.stringify(nextProps.structuredData) &&
+    JSON.stringify(prevProps.breadcrumbs) === JSON.stringify(nextProps.breadcrumbs) &&
+    JSON.stringify(prevProps.faqs) === JSON.stringify(nextProps.faqs) &&
+    prevProps.isPreview === nextProps.isPreview &&
+    prevProps.productKey === nextProps.productKey &&
+    prevProps.price === nextProps.price &&
+    prevProps.priceCurrency === nextProps.priceCurrency &&
+    prevProps.availability === nextProps.availability
+  );
+});
+
+// =============================================================================
+// Default Export
+// =============================================================================
 
 export default SEOHelmet;

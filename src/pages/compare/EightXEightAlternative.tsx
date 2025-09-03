@@ -6,10 +6,16 @@ import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 import { useNormalizedLanguage } from '../../hooks/useNormalizedLanguage';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const EightXEightAlternative = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = useNormalizedLanguage();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.eightXEightAlternative', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/8x8-alternative')
+  });
   
   const comparisonFeatures = [
     {
@@ -58,14 +64,7 @@ const EightXEightAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('compare.eightXEightAlternative.seo.title')}
-        description={t('compare.eightXEightAlternative.seo.description')}
-        canonicalUrl={`https://seasalt.ai/${currentLanguage}/compare/8x8-alternative`}
-        availableLanguages={['en', 'zh-TW']}
-        slug="8x8-alternative"
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

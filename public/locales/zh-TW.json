@@ -308,8 +308,8 @@
   },
   "phoneBanner": {
     "callText": "致電",
-    "phoneNumber": "+1 (SMB)-AI-AGENT",
-    "bookingText": "與 SeaVoice AI 智能體預約會議。",
+    "phoneNumber": "02-77443577 (台灣)",
+    "bookingText": "或 +1 (SMB)-AI-AGENT(美國Toll Free)與SeaVoice AI預約會議。",
     "availability": "24/7 可用"
   },
   "problemSolution": {
@@ -6432,6 +6432,11 @@
         "ctaTitle": "準備轉化電話支援了嗎？",
         "ctaSubtitle": "體驗語音客戶支援的未來，AI智能客服聽起來和感覺都像真人。"
       }
+    },
+    "seo": {
+      "title": "SeaChat - AI 聊天機器人與客服自動化 | Seasalt.ai",
+      "titleSuffix": " - AI 聊天機器人與客服自動化 | Seasalt.ai",
+      "description": "SeaChat 是一個 AI 驅動的聊天機器人平台，幫助企業在多個管道上自動化客戶服務，包括 WhatsApp、網站、社群媒體等。"
     }
   },
   "common": {
@@ -14743,6 +14748,140 @@
           "button": "開始LINE整合"
         }
       },
+      "voipSipByoc": {
+        "hero": {
+          "title": "VoIP、SIP 與 BYOC 語音解決方案",
+          "subtitle": "企業級語音連接，具有最大靈活性。從 VoIP 整合、直接 SIP 中繼或自帶電信商中選擇，完全控制。",
+          "cta": "與連接專家對話"
+        },
+        "connectionTypes": {
+          "title": "靈活的連接選項",
+          "subtitle": "選擇最適合您基礎設施和需求的連接方式",
+          "keyFeatures": "主要功能：",
+          "voip": {
+            "title": "VoIP 整合",
+            "description": "將您現有的 VoIP 基礎設施與我們的 AI 語音平台無縫連接。",
+            "features": {
+              "sipTrunk": "SIP 中繼相容性",
+              "codecOptimization": "編解碼器優化",
+              "qos": "服務品質 (QoS)",
+              "bandwidthManagement": "頻寬管理"
+            },
+            "pricing": "起價 $0.08/分鐘"
+          },
+          "sip": {
+            "title": "SIP 中繼",
+            "description": "直接 SIP 連接，最大化控制和自訂您的語音流量。",
+            "features": {
+              "directEndpoints": "直接 SIP 端點",
+              "customRouting": "自訂路由規則",
+              "failoverProtection": "故障切換保護",
+              "realTimeMonitoring": "即時監控"
+            },
+            "pricing": "起價 $0.06/分鐘"
+          },
+          "byoc": {
+            "title": "自帶電信商 (BYOC)",
+            "description": "使用您偏好的電信商，同時利用我們的 AI 語音功能。",
+            "features": {
+              "carrierIndependence": "電信商獨立性",
+              "costOptimization": "成本優化",
+              "globalReach": "全球覆蓋",
+              "vendorFlexibility": "供應商靈活性"
+            },
+            "pricing": "平台費用 + 電信商費率"
+          }
+        },
+        "benefits": {
+          "title": "企業優勢",
+          "subtitle": "為什麼領先企業選擇我們的語音連接解決方案",
+          "costSavings": {
+            "title": "成本節約",
+            "description": "通過優化路由和電信商選擇，最多可減少 60% 的通訊成本。",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "可靠性",
+            "description": "企業級正常運行時間，具有自動故障切換和冗餘基礎設施。",
+            "metric": "99.99%"
+          },
+          "scalability": {
+            "title": "可擴展性",
+            "description": "通過彈性擴展功能處理數千個並發通話。",
+            "metric": "10,000+"
+          },
+          "globalReach": {
+            "title": "全球覆蓋",
+            "description": "通過主要市場的本地覆蓋連接全球客戶。",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "技術卓越",
+          "subtitle": "基於行業標準協議構建，具有企業級安全和性能。我們的平台支援所有主要編解碼器並提供即時品質監控。",
+          "endToEndEncryption": {
+            "title": "端到端加密",
+            "description": "TLS 1.3 和 SRTP 保護語音傳輸安全"
+          },
+          "lowLatency": {
+            "title": "低延遲",
+            "description": "低於 150ms 延遲，提供清晰通話"
+          },
+          "advancedConfiguration": {
+            "title": "進階配置",
+            "description": "對路由和品質設定的精細控制"
+          }
+        },
+        "technicalSpecs": {
+          "title": "技術規格",
+          "supportedProtocols": {
+            "feature": "支援協議",
+            "value": "SIP 2.0、RTP、SRTP"
+          },
+          "audioCodecs": {
+            "feature": "音頻編解碼器",
+            "value": "G.711、G.722、G.729、Opus"
+          },
+          "encryption": {
+            "feature": "加密",
+            "value": "TLS 1.3、SRTP、AES-256"
+          },
+          "networkRequirements": {
+            "feature": "網路需求",
+            "value": "每個並發通話 100 kbps"
+          },
+          "latency": {
+            "feature": "延遲",
+            "value": "< 150ms 端到端"
+          },
+          "jitterBuffer": {
+            "feature": "抖動緩衝區",
+            "value": "自適應，20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "工作原理",
+          "subtitle": "與您現有基礎設施的簡單整合",
+          "yourInfrastructure": {
+            "title": "您的基礎設施",
+            "description": "現有 PBX、VoIP 系統或電信商"
+          },
+          "seavoicePlatform": {
+            "title": "SeaVoice 平台",
+            "description": "AI 語音處理和路由"
+          },
+          "globalNetwork": {
+            "title": "全球網路",
+            "description": "全球電信商連接"
+          }
+        },
+        "cta": {
+          "title": "準備好優化您的語音基礎設施了嗎？",
+          "subtitle": "與我們的連接專家交談，為您的需求設計完美解決方案",
+          "scheduleConsultation": "安排諮詢",
+          "signUpForFree": "免費註冊"
+        }
+      },
       "whatsAppVoice": {
         "hero": {
           "title": "企業 WhatsApp 語音 API",
@@ -16457,10 +16596,15 @@
               }
             },
             "cta": {
-              "title": "準備贏回您的客戶了嗎？",
-              "subtitle": "開始個人化重新激活行銷活動，重建有價值的客戶關係",
-              "startCampaign": "開始行銷活動",
+              "title": "準備重新贏回您的客戶了嗎？",
+              "subtitle": "開始進行個人化的重新激活活動，重建有價值的客戶關係",
+              "startCampaign": "開始活動",
               "viewCaseStudies": "查看案例研究"
+            },
+            "seo": {
+              "title": "客戶重新激活活動 - SeaVoice AI",
+              "description": "透過個人化的 AI 驅動推廣活動重新贏回不活躍的客戶。重新接觸過去的客戶，提供有吸引力的優惠，重建有價值的關係，帶來經常性收入。",
+              "keywords": "客戶重新激活, 贏回活動, AI推廣, 個人化行銷, 客戶保留, SeaVoice"
             }
           },
           "fraudAlerts": {
@@ -17793,140 +17937,6 @@
       "exploreApi": "探索 API"
     }
   },
-  "voipSipByoc": {
-    "hero": {
-      "title": "VoIP、SIP 與 BYOC 語音解決方案",
-      "subtitle": "企業級語音連接，具有最大靈活性。從 VoIP 整合、直接 SIP 中繼或自帶電信商中選擇，完全控制。",
-      "cta": "與連接專家對話"
-    },
-    "connectionTypes": {
-      "title": "靈活的連接選項",
-      "subtitle": "選擇最適合您基礎設施和需求的連接方式",
-      "keyFeatures": "主要功能：",
-      "voip": {
-        "title": "VoIP 整合",
-        "description": "將您現有的 VoIP 基礎設施與我們的 AI 語音平台無縫連接。",
-        "features": {
-          "sipTrunk": "SIP 中繼相容性",
-          "codecOptimization": "編解碼器優化",
-          "qos": "服務品質 (QoS)",
-          "bandwidthManagement": "頻寬管理"
-        },
-        "pricing": "起價 $0.08/分鐘"
-      },
-      "sip": {
-        "title": "SIP 中繼",
-        "description": "直接 SIP 連接，最大化控制和自訂您的語音流量。",
-        "features": {
-          "directEndpoints": "直接 SIP 端點",
-          "customRouting": "自訂路由規則",
-          "failoverProtection": "故障切換保護",
-          "realTimeMonitoring": "即時監控"
-        },
-        "pricing": "起價 $0.06/分鐘"
-      },
-      "byoc": {
-        "title": "自帶電信商 (BYOC)",
-        "description": "使用您偏好的電信商，同時利用我們的 AI 語音功能。",
-        "features": {
-          "carrierIndependence": "電信商獨立性",
-          "costOptimization": "成本優化",
-          "globalReach": "全球覆蓋",
-          "vendorFlexibility": "供應商靈活性"
-        },
-        "pricing": "平台費用 + 電信商費率"
-      }
-    },
-    "benefits": {
-      "title": "企業優勢",
-      "subtitle": "為什麼領先企業選擇我們的語音連接解決方案",
-      "costSavings": {
-        "title": "成本節約",
-        "description": "通過優化路由和電信商選擇，最多可減少 60% 的通訊成本。",
-        "metric": "60%"
-      },
-      "reliability": {
-        "title": "可靠性",
-        "description": "企業級正常運行時間，具有自動故障切換和冗餘基礎設施。",
-        "metric": "99.99%"
-      },
-      "scalability": {
-        "title": "可擴展性",
-        "description": "通過彈性擴展功能處理數千個並發通話。",
-        "metric": "10,000+"
-      },
-      "globalReach": {
-        "title": "全球覆蓋",
-        "description": "通過主要市場的本地覆蓋連接全球客戶。",
-        "metric": "200+"
-      }
-    },
-    "technicalExcellence": {
-      "title": "技術卓越",
-      "subtitle": "基於行業標準協議構建，具有企業級安全和性能。我們的平台支援所有主要編解碼器並提供即時品質監控。",
-      "endToEndEncryption": {
-        "title": "端到端加密",
-        "description": "TLS 1.3 和 SRTP 保護語音傳輸安全"
-      },
-      "lowLatency": {
-        "title": "低延遲",
-        "description": "低於 150ms 延遲，提供清晰通話"
-      },
-      "advancedConfiguration": {
-        "title": "進階配置",
-        "description": "對路由和品質設定的精細控制"
-      }
-    },
-    "technicalSpecs": {
-      "title": "技術規格",
-      "supportedProtocols": {
-        "feature": "支援協議",
-        "value": "SIP 2.0、RTP、SRTP"
-      },
-      "audioCodecs": {
-        "feature": "音頻編解碼器",
-        "value": "G.711、G.722、G.729、Opus"
-      },
-      "encryption": {
-        "feature": "加密",
-        "value": "TLS 1.3、SRTP、AES-256"
-      },
-      "networkRequirements": {
-        "feature": "網路需求",
-        "value": "每個並發通話 100 kbps"
-      },
-      "latency": {
-        "feature": "延遲",
-        "value": "< 150ms 端到端"
-      },
-      "jitterBuffer": {
-        "feature": "抖動緩衝區",
-        "value": "自適應，20-200ms"
-      }
-    },
-    "howItWorks": {
-      "title": "工作原理",
-      "subtitle": "與您現有基礎設施的簡單整合",
-      "yourInfrastructure": {
-        "title": "您的基礎設施",
-        "description": "現有 PBX、VoIP 系統或電信商"
-      },
-      "seavoicePlatform": {
-        "title": "SeaVoice 平台",
-        "description": "AI 語音處理和路由"
-      },
-      "globalNetwork": {
-        "title": "全球網路",
-        "description": "全球電信商連接"
-      }
-    },
-    "cta": {
-      "title": "準備好優化您的語音基礎設施了嗎？",
-      "subtitle": "與我們的連接專家交談，為您的需求設計完美解決方案",
-      "scheduleConsultation": "安排諮詢",
-      "signUpForFree": "免費註冊"
-    }
-  },
   "components": {
     "aiVoiceAvatar": {
       "badge": {
@@ -18035,43 +18045,23 @@
       "accuracyRate": "準確率"
     }
   },
-  "// Large Scale Campaigns Page - Traditional Chinese key-value pairs": "",
-  "// Key structure: seavoice": {
-    "pages": {
-      "solutions": {
-        "outbound": {
-          "largeScaleCampaigns": "",
-          "subscriptionRenewals": ""
-        }
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | 小型企業全通路聯絡中心",
+      "description": "停止切換多個應用程式。統一每一通電話、WhatsApp 和聊天於單一簡潔收件箱。專為小型企業量身打造的全方位聯絡中心。",
+      "keywords": "全通路聯絡中心, 小型企業溝通, 統一收件箱, 客服軟體, WhatsApp 商業, 語音通話, 聊天支援"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AI 語音通訊平台 - Seasalt.ai",
+        "description": "運用 AI 技術轉變您的語音通訊。SeaVoice 提供智慧通話路由、語音分析與自動回應功能。以類人 AI 客服代理 24/7 處理客戶來電。",
+        "keywords": "AI 語音, 客服中心軟體, 語音分析, SeaVoice, 智慧通話路由, 自動電話系統, 語音助理, 24/7 客戶服務"
+      },
+      "virtualAssistant": {
+        "title": "24/7 虛擬助理 | SeaVoice AI 語音解決方案 - Seasalt.ai",
+        "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服代理處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
+        "keywords": "虛擬助理, AI 語音助理, 24/7 客戶服務, 智慧客服, SeaVoice, 語音自動化, 客戶服務自動化"
       }
     }
-  },
-  "// Hero Section": "",
-  "// Features Section": "",
-  "// Feature Cards": "",
-  "// Campaign Types Section": "",
-  "// Campaign Type Cards": "",
-  "// Campaign Types Labels": "",
-  "// Scaling Capabilities Section": "",
-  "// Infrastructure Cards": "",
-  "// Scaling Capabilities List": "",
-  "// Campaign Dashboard": "",
-  "// Benefits Section": "",
-  "// Benefit Metrics": "",
-  "// CTA Section": "",
-  "// Subscription Renewals Page - Traditional Chinese key-value pairs": "",
-  "// Renewal Process Section": "",
-  "// Renewal Process Steps": "",
-  "// Subscription Types Section": "",
-  "// Subscription Type Cards": "",
-  "// Subscription Types Labels": "",
-  "// Retention Section": "",
-  "// Retention Cards": "",
-  "// Retention Tactics": "",
-  "// Renewal Dashboard": "",
-  "// Large Scale Campaigns Page - Metric Values - Traditional Chinese": "",
-  "// Dashboard Metrics Section": "",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCallsValue": "8,547",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRateValue": "94.2%",
-  "seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRateValue": "67.8%"
+  }
 }

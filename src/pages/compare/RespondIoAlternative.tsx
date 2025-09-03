@@ -4,11 +4,17 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const RespondIoAlternative = () => {
   const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'compare.respondIoAlternative', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/compare/respond-io-alternative')
+  });
+  
   const comparisonFeatures = [
     {
       feature: t('compare.respondIoAlternative.comparison.features.pricingModel.name'),
@@ -56,13 +62,7 @@ const RespondIoAlternative = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('compare.respondIoAlternative.seo.title')}
-        description={t('compare.respondIoAlternative.seo.description')}
-        canonicalUrl={`/${i18n.language}/compare/respond-io-alternative`}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
+      <SEOHelmet {...seoData} />
       <Header />
       
       <main className="pt-16">

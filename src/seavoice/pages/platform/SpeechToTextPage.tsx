@@ -1,9 +1,19 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Mic, Zap, Globe, Shield, BarChart3, Settings } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
 
 const SpeechToTextPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.platform.speechToText', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/platform/speech-to-text')
+  });
   const features = [
     {
       icon: Zap,
@@ -124,6 +134,16 @@ const SpeechToTextPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Tags */}
+      <SEOHelmet
+        title={seoData.title}
+        description={seoData.description}
+        favicon="/seasalt-ai-favicon.ico"
+        canonicalUrl={seoData.canonicalUrl}
+        availableLanguages={SUPPORTED_LANGUAGES}
+      />
+      
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

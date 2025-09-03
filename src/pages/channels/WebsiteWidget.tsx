@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const WebsiteWidget = () => {
   const { t, i18n } = useTranslation();
@@ -16,6 +16,11 @@ const WebsiteWidget = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.websiteWidget', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/website-widget')
+  });
   const platforms = [
     {
       name: t('channels.websiteWidget.platforms.wordpress.name'),
@@ -97,13 +102,9 @@ const WebsiteWidget = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet
-        title={t('channels.websiteWidget.seo.title')}
-        description={t('channels.websiteWidget.seo.description')}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

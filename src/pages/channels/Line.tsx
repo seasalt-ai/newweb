@@ -6,8 +6,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
 
-const SUPPORTED_LANGUAGES = ['en', 'zh-TW'];
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const Line = () => {
   const { t, i18n } = useTranslation();
@@ -16,6 +16,11 @@ const Line = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.line', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/line')
+  });
   const markets = [
     {
       country: t('channels.line.markets.JP.country'),
@@ -88,13 +93,9 @@ const Line = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={t('channels.line.seo.title')}
-        description={t('channels.line.seo.description')}
-        availableLanguages={SUPPORTED_LANGUAGES}
-        favicon="/favicon.ico"
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

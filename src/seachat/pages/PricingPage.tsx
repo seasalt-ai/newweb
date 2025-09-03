@@ -4,9 +4,17 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import SupportPlan from '../../components/SupportPlan';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import SEOHelmet from '../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const PricingPage = () => {
   const { t, i18n } = useTranslation('seachat');
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seachat.pricing', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seachat/pricing')
+  });
+  
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
@@ -243,8 +251,10 @@ const PricingPage = () => {
   ];
 
   return (
-    <div className="pt-4">
-      {/* Hero Section */}
+    <>
+      <SEOHelmet {...seoData} />
+      <div className="pt-4">
+        {/* Hero Section */}
       <section className="pt-16 pb-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -1001,7 +1011,8 @@ const PricingPage = () => {
           </motion.div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

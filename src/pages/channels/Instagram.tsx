@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const InstagramPage = () => {
   const { i18n, t } = useTranslation();
@@ -15,6 +15,11 @@ const InstagramPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.instagram', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/instagram')
+  });
   const features = [
     {
       icon: <Camera className="h-8 w-8" />,
@@ -65,14 +70,9 @@ const InstagramPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEOHelmet 
-        title={`${t('channels.instagram.hero.title.prefix')} ${t('channels.instagram.hero.title.highlight')} - Seasalt.ai`}
-        description={t('channels.instagram.hero.subtitle')}
-        favicon="/favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
       <Header />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

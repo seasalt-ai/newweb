@@ -4,33 +4,33 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import { SUPPORTED_LANGUAGES, normalizeLanguage } from './constants/languages';
 
-// Clear cached language if it conflicts with URL or is unsupported
+// Extract initial language from URL path
+const getInitialLanguageFromUrl = (): string => {
+  if (typeof window === 'undefined') return 'en';
+  
+  const pathSegments = window.location.pathname.split('/').filter(Boolean);
+  const potentialLang = pathSegments[0];
+  
+  // Check if first path segment is a supported language
+  if (potentialLang && SUPPORTED_LANGUAGES.includes(potentialLang as any)) {
+    console.log('[i18n] Language detected from URL:', potentialLang);
+    return potentialLang;
+  }
+  
+  console.log('[i18n] No language in URL, defaulting to English');
+  return 'en';
+};
+
+// Get the initial language before i18next initialization
+const initialLanguage = getInitialLanguageFromUrl();
+
+// Clear cached language if it conflicts with URL-detected language
 if (typeof window !== 'undefined' && window.localStorage) {
   const cachedLng = window.localStorage.getItem('i18nextLng');
   console.log('[i18n] Cached language found:', cachedLng);
-  console.log('[i18n] Current URL pathname:', window.location.pathname);
   
-  const langFromUrl = window.location.pathname.split('/')[1];
-  const isLangInUrlSupported = SUPPORTED_LANGUAGES.includes(langFromUrl as any);
-  
-  let shouldClearCache = false;
-  let reason = '';
-  
-  // If URL has a supported language, ensure cache matches or clear it
-  if (isLangInUrlSupported) {
-    if (cachedLng && cachedLng !== langFromUrl) {
-      shouldClearCache = true;
-      reason = `URL language (${langFromUrl}) conflicts with cached language (${cachedLng})`;
-    }
-  }
-  // If no language in URL, but cache has an unsupported language, clear it
-  else if (cachedLng && !SUPPORTED_LANGUAGES.includes(cachedLng as any)) {
-    shouldClearCache = true;
-    reason = `Cached language (${cachedLng}) is not in supported languages list`;
-  }
-  
-  if (shouldClearCache) {
-    console.log('[i18n] Clearing cached language:', reason);
+  if (cachedLng && cachedLng !== initialLanguage) {
+    console.log(`[i18n] Clearing cached language: URL language (${initialLanguage}) conflicts with cached language (${cachedLng})`);
     window.localStorage.removeItem('i18nextLng');
   }
 }
@@ -46,7 +46,7 @@ i18n
     supportedLngs: [...SUPPORTED_LANGUAGES],
     debug: process.env.NODE_ENV === 'development',
     load: 'currentOnly', // Only load the current language, no fallbacks
-    lng: 'en', // Start with English, will be changed by LanguageRouter
+    lng: initialLanguage, // Start with URL-detected language
     nonExplicitSupportedLngs: false, // Don't allow non-explicit languages
     cleanCode: false, // Don't clean language codes (prevent zh-TW -> zh conversion)
     // Backend configuration

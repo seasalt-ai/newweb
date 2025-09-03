@@ -1,6 +1,8 @@
 import { Zap, Shield, TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ChannelPageTemplate from '../../components/ChannelPageTemplate';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
 
 interface Pricing {
   setup: string;
@@ -10,7 +12,12 @@ interface Pricing {
 }
 
 const SMSShortCode = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate enhanced SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.channels.smsShortCode', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax/channels/sms-short-code')
+  });
 
   // features 和 useCases 从对象转换为数组
   const featuresObj = t('seax.channels.smsShortCode.features.items', { returnObjects: true }) as Record<string, string>;
@@ -117,8 +124,8 @@ const SMSShortCode = () => {
       title={t('seax.channels.smsShortCode.title')}
       subtitle={t('seax.channels.smsShortCode.subtitle')}
       description={t('seax.channels.smsShortCode.description')}
-      seoTitle={t('seax.channels.smsShortCode.seo.title')}
-      seoDescription={t('seax.channels.smsShortCode.seo.description')}
+      seoTitle={seoData.title}
+      seoDescription={seoData.description}
       heroContent={heroContent}
       features={features}
       featuresTitle={t('seax.channels.smsShortCode.features.title')}

@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SEOHelmet from '../../components/SEOHelmet';
-import { SUPPORTED_LANGUAGES } from '../../constants/languages';
 import { MEETING_URL, getMeetingUrl } from '../../constants/urls';
+import { getSEOData, getCanonicalUrl } from '../../utils/seo';
 
 const PhoneCalls = () => {
   const { t, i18n } = useTranslation();
@@ -16,9 +16,10 @@ const PhoneCalls = () => {
     window.scrollTo(0, 0);
   }, []);
   
-  const canonicalUrl = typeof window !== 'undefined' 
-    ? `${window.location.origin}/${i18n.language}/channels/phone-calls` 
-    : `/${i18n.language}/channels/phone-calls`;
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'channels.phoneCalls', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/channels/phone-calls')
+  });
 
   const features = [
     {
@@ -72,15 +73,8 @@ const PhoneCalls = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-
-      {/* SEO Tags */}
-      <SEOHelmet
-        title={t('channels.phoneCalls.seo.title')}
-        description={t('channels.phoneCalls.seo.description')}
-        favicon="/seasalt-ai-favicon.ico"
-        canonicalUrl={canonicalUrl}
-        availableLanguages={SUPPORTED_LANGUAGES}
-      />
+      
+      <SEOHelmet {...seoData} />
       
       <main className="pt-16">
         {/* Hero Section */}

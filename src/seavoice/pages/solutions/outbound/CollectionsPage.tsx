@@ -2,9 +2,16 @@
 import { motion } from 'framer-motion';
 import { CreditCard, Shield, Clock, BarChart3, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHelmet from '../../../../components/SEOHelmet';
+import { getSEOData, getCanonicalUrl } from '../../../../utils/seo';
 
 const CollectionsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate SEO data using standardized utility
+  const seoData = getSEOData(t, 'seavoice.pages.solutions.outbound.collections', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seavoice/solutions/outbound/collections')
+  });
   const features = [
     {
       icon: CreditCard,
@@ -95,6 +102,7 @@ const CollectionsPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet {...seoData} />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 via-white to-red-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

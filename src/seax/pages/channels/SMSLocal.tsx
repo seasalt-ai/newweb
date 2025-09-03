@@ -1,6 +1,8 @@
 import { MessageSquare, Users, CheckCircle2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ChannelPageTemplate from '../../components/ChannelPageTemplate';
+import { getSEOData, getCanonicalUrl } from '../../../utils/seo';
+import { SUPPORTED_LANGUAGES } from '../../../constants/languages';
 
 interface Pricing {
   setup: string;
@@ -11,7 +13,12 @@ interface Pricing {
 }
 
 const SMSLocal = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Generate enhanced SEO data using standardized utility
+  const seoData = getSEOData(t, 'seax.channels.smsLocal', {
+    canonicalUrl: getCanonicalUrl(i18n.language, '/seax/channels/sms-local')
+  });
 
   // features 和 useCases 获取对象并转换为数组
   const featuresObj = t('seax.channels.smsLocal.features.items', { returnObjects: true }) as Record<string, string>;
@@ -126,8 +133,8 @@ const SMSLocal = () => {
       title={t('seax.channels.smsLocal.title')}
       subtitle={t('seax.channels.smsLocal.subtitle')}
       description={t('seax.channels.smsLocal.description')}
-      seoTitle={t('seax.channels.smsLocal.seo.title')}
-      seoDescription={t('seax.channels.smsLocal.seo.description')}
+      seoTitle={seoData.title}
+      seoDescription={seoData.description}
       heroContent={heroContent}
       features={features}
       featuresTitle={t('seax.channels.smsLocal.features.title')}
