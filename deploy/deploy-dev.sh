@@ -42,6 +42,11 @@ main() {
     
     # Build the project
     build_project
+    
+    # Run SEO updates (generate sitemap and robots.txt)
+    print_info "Updating SEO files (sitemap and robots.txt)..."
+    npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    
     verify_build_dir "$BUILD_DIR"
     
     # Show build info
