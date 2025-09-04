@@ -3,6 +3,27 @@ set -euo pipefail
 
 # Production deployment script - deploys to seasalt.ai
 # MUST be run from main branch for safety
+#
+# HOW THIS WORKS:
+# ================
+# This script deploys the built website to a SEPARATE GitHub repository
+# (seasalt-ai/seasalt-ai.github.io) which serves the production website.
+#
+# The deployment process:
+# 1. Builds the website in the current repository (creates dist/ folder)
+# 2. Clones/updates the production repo to ~/.deployment-cache/seasalt-ai.github.io/
+# 3. Creates a backup tag of the current production state
+# 4. Replaces ALL content in production repo with the new build
+# 5. Commits and pushes to the master branch
+# 6. GitHub Pages automatically serves the updated content
+#
+# IMPORTANT: The production repo is completely separate from this source code repo.
+# It only contains the compiled/built website files, never the source code.
+#
+# PREREQUISITES:
+# - SSH key with push access to seasalt-ai/seasalt-ai.github.io repo
+# - Node.js and npm installed for building the project
+# - Must be on 'main' branch with clean working tree
 
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -11,13 +32,13 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source "$SCRIPT_DIR/deploy-utils.sh"
 
 # Configuration
-BUILD_DIR="dist"
-PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"
-PROD_REPO_NAME="seasalt-ai.github.io"
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"
-PROD_BRANCH="master"
-BACKUP_TAG_PREFIX="prod-backup"
-REQUIRED_BRANCH="main"
+BUILD_DIR="dist"                                          # Build output directory from npm run build
+PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"  # Production repo (separate from source)
+PROD_REPO_NAME="seasalt-ai.github.io"                   # Repository name
+PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"  # Local cache location for faster deployments
+PROD_BRANCH="master"                                     # Production branch (GitHub Pages default)
+BACKUP_TAG_PREFIX="prod-backup"                          # Prefix for backup tags
+REQUIRED_BRANCH="main"                                   # Must deploy from this branch
 
 # Main deployment process
 main() {
@@ -46,24 +67,30 @@ main() {
     get_build_info "$BUILD_DIR"
     
     # Clone or update production repo
+    # NOTE: This is a SEPARATE repository from your source code!
+    # The production repo (seasalt-ai.github.io) only contains built files.
     print_info "Setting up production repository..."
     
     # Create cache directory if it doesn't exist
     mkdir -p "$(dirname "$PROD_REPO_DIR")"
     
+    # Check if we already have the production repo cached locally
     if [[ -d "$PROD_REPO_DIR" ]]; then
+        # Production repo exists locally - update it to latest state
         print_info "Updating existing production repository..."
         pushd "$PROD_REPO_DIR" > /dev/null
         
         # Ensure we're on the right branch and clean
         git checkout "$PROD_BRANCH"
-        git fetch origin
-        git reset --hard "origin/$PROD_BRANCH"
-        git clean -fdx
+        git fetch origin                      # Get latest from remote
+        git reset --hard "origin/$PROD_BRANCH" # Reset to match remote exactly
+        git clean -fdx                        # Remove any untracked files
         
         popd > /dev/null
     else
-        print_info "Cloning production repository..."
+        # First time deployment - clone the production repo
+        print_info "Cloning production repository for the first time..."
+        print_info "This may take a moment..."
         git clone "$PROD_REPO_URL" "$PROD_REPO_DIR"
         
         pushd "$PROD_REPO_DIR" > /dev/null
@@ -87,12 +114,15 @@ main() {
     # Clear current production content and copy new build
     print_info "Deploying new build to production repository..."
     
+    # Now we're working in the production repo directory
     pushd "$PROD_REPO_DIR" > /dev/null
     
-    # Remove all existing files except .git directory
+    # IMPORTANT: Remove all existing files except .git directory
+    # This ensures a clean deployment without old/stale files
     find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
     
-    # Copy new build files
+    # Copy the newly built website files from the source repo's dist/ folder
+    # Note: We're copying FROM the source repo's build output TO the production repo
     cp -R "$BUILD_DIR"/. ./
     
     # Add CNAME file for custom domain

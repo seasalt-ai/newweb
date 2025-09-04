@@ -8,6 +8,33 @@ The deployment system supports two environments:
 1. **DEV Environment** - For testing and preview (`newweb.seasalt.ai`)
 2. **Production Environment** - Live customer-facing site (`seasalt.ai`)
 
+## Repository Architecture
+
+This deployment system works with **two separate GitHub repositories**:
+
+### 1. Source Code Repository (`seasalt-ai/newweb`)
+- **Purpose**: Contains all source code, components, and development files
+- **Branch Structure**: 
+  - `main` - Production-ready code
+  - `gh-pages` - DEV environment deployment
+  - Feature branches for development
+- **What's here**: TypeScript, React components, styles, configs, this deployment system
+
+### 2. Production Repository (`seasalt-ai/seasalt-ai.github.io`)
+- **Purpose**: Serves the live production website via GitHub Pages
+- **Branch Structure**: 
+  - `master` - Live website content (built files only)
+- **What's here**: Only compiled HTML, CSS, JS, and static assets
+- **Important**: This repo NEVER contains source code
+
+### Why Separate Repositories?
+
+1. **Security**: Source code is never exposed in the production repository
+2. **Clean Deployments**: Production only contains exactly what's needed to serve the site
+3. **GitHub Pages Optimization**: The `seasalt-ai.github.io` repo name enables GitHub Pages at the organization level
+4. **Rollback Safety**: Production deployments are isolated from development
+5. **Performance**: Smaller production repo means faster cloning and deployment
+
 ## Directory Structure
 
 ```
@@ -25,6 +52,8 @@ Before using the deployment scripts:
 1. Ensure you have Git configured with SSH access to GitHub
 2. Have Node.js and npm installed for building the project
 3. Have proper permissions to push to the repositories
+   - For production: Must have push access to `seasalt-ai/seasalt-ai.github.io` repo
+   - Test with: `ssh -T git@github.com`
 
 ## Deployment Workflows
 
@@ -64,6 +93,48 @@ git pull origin main
 - Creates automatic backup before deployment
 - Multiple confirmation prompts for safety
 - Stores production repo locally in `~/.deployment-cache/`
+
+#### How Production Deployment Works
+
+The production deployment uses a **separate repository strategy**. Here's the step-by-step process:
+
+1. **Build Phase**: Runs `npm run build` in your current project to generate the `dist/` folder
+
+2. **Repository Setup**: 
+   - Checks if `~/.deployment-cache/seasalt-ai.github.io/` exists
+   - If not, clones: `git clone git@github.com:seasalt-ai/seasalt-ai.github.io.git`
+   - If exists, updates: `git fetch origin && git reset --hard origin/master`
+
+3. **Backup Creation**: 
+   - Creates a backup tag of current production state
+   - Format: `prod-backup-YYYYMMDD-HHMMSS`
+   - Pushes tag to remote for recovery purposes
+
+4. **Content Replacement**:
+   ```bash
+   # In the production repo directory
+   # Remove all files except .git directory
+   find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+   
+   # Copy built files from your project
+   cp -R /your/project/dist/. ./
+   ```
+
+5. **GitHub Pages Configuration**:
+   - Adds `CNAME` file with `seasalt.ai` and `www.seasalt.ai`
+   - Adds `.nojekyll` to disable Jekyll processing
+   - Creates `deployment-info.txt` with metadata
+
+6. **Commit & Push**:
+   - Commits all changes with deployment timestamp
+   - Pushes to `master` branch of production repo
+   - GitHub Pages automatically serves the updated content
+
+**Important**: The production repository (`seasalt-ai.github.io`) is completely separate from your source code repository. It only contains the built/compiled website files, not the source code. This separation ensures:
+- Clean production deployments
+- No source code in production repo
+- Independent version control for deployments
+- Easy rollback capabilities
 
 ### 3. Production Rollback
 
@@ -185,6 +256,14 @@ All deployment scripts automatically:
 ### Permission Denied
 - Verify SSH key is added to GitHub account
 - Check repository access permissions
+- For production deployment specifically:
+  ```bash
+  # Test SSH access
+  ssh -T git@github.com
+  
+  # Test production repo access
+  git ls-remote git@github.com:seasalt-ai/seasalt-ai.github.io.git
+  ```
 
 ### Deployment Not Reflecting
 - GitHub Pages can take 5-10 minutes to update
@@ -195,6 +274,32 @@ All deployment scripts automatically:
 - Ensure you have the latest tags: `git fetch --tags`
 - Check if backup tag exists before attempting rollback
 - Use the full tag name when rolling back
+
+### Production Deployment Specific Issues
+
+#### "Repository not found" error
+- Ensure you have push access to `seasalt-ai/seasalt-ai.github.io`
+- Contact repository admin to grant access
+
+#### First-time deployment is slow
+- Initial clone of production repo takes time
+- Subsequent deployments use cached repo and are much faster
+
+#### Local cache issues
+```bash
+# Clear the cache and try again
+rm -rf ~/.deployment-cache/seasalt-ai.github.io
+./deploy/deploy-prod.sh
+```
+
+#### Verify production repo state manually
+```bash
+# Check the production repo directly
+cd ~/.deployment-cache/seasalt-ai.github.io
+git status
+git log --oneline -5
+git remote -v
+```
 
 ## Support Files
 
