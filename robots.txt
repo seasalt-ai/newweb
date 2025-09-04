@@ -4,9 +4,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-# Main sitemap index (recommended for search engines)
-Sitemap: https://seasalt.ai/sitemap-index.xml
-
-# Individual sitemaps (for reference)
 Sitemap: https://seasalt.ai/sitemap.xml
-Sitemap: https://seasalt.ai/sitemap-hreflang.xml
