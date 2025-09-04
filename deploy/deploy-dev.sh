@@ -15,6 +15,7 @@ BUILD_DIR="dist"
 TARGET_BRANCH="gh-pages"
 TMP_DIR="$(mktemp -d)"
 
+trap 'rm -rf "$TMP_DIR"' EXIT
 # Main deployment process
 main() {
     # Get current branch for commit message

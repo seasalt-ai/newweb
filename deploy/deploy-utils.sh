@@ -106,7 +106,7 @@ confirm_action() {
 create_backup_tag() {
     local repo_dir="$1"
     local tag_prefix="$2"
-    local tag_name="${tag_prefix}-$(date -u '+%Y-%m-%d-%H%M%S')"
+    local tag_name="${tag_prefix}-$(date -u '+%Y%m%d-%H%M%S')"
     
     pushd "$repo_dir" > /dev/null
     
@@ -117,7 +117,8 @@ create_backup_tag() {
             print_success "Backup tag created: $tag_name"
             echo "$tag_name"  # Return the tag name
         else
-            print_warning "Failed to push backup tag to remote"
+            print_error "Failed to push backup tag to remote. Aborting deployment."
+            exit 1
         fi
     else
         print_warning "Failed to create backup tag"
