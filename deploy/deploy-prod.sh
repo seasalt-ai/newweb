@@ -61,6 +61,11 @@ main() {
     
     # Build the project
     build_project
+    
+    # Run SEO updates (generate sitemap and robots.txt)
+    print_info "Updating SEO files (sitemap and robots.txt)..."
+    npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    
     verify_build_dir "$BUILD_DIR"
     
     # Show build info
@@ -114,6 +119,9 @@ main() {
     # Clear current production content and copy new build
     print_info "Deploying new build to production repository..."
     
+    # Save the source repository path before changing directories
+    SOURCE_REPO_DIR="$(pwd)"
+    
     # Now we're working in the production repo directory
     pushd "$PROD_REPO_DIR" > /dev/null
     
@@ -123,7 +131,8 @@ main() {
     
     # Copy the newly built website files from the source repo's dist/ folder
     # Note: We're copying FROM the source repo's build output TO the production repo
-    cp -R "$BUILD_DIR"/. ./
+    # Using absolute path to the build directory
+    cp -R "$SOURCE_REPO_DIR/$BUILD_DIR"/. ./
     
     # Add CNAME file for custom domain
     echo "seasalt.ai" > CNAME
