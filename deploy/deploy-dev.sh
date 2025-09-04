@@ -72,9 +72,17 @@ main() {
     
     # Clear previous contents (except .git) and copy new files
     print_info "Copying build files..."
-    rm -rf "$TMP_DIR"/*
-    rm -rf "$TMP_DIR"/.[!.]*  # Remove hidden files except .git
-    cp -R "$BUILD_DIR"/. "$TMP_DIR"/
+    # Save current directory
+    ORIGINAL_DIR="$(pwd)"
+    
+    # Remove old content in worktree (preserving .git)
+    pushd "$TMP_DIR" >/dev/null
+    git rm -rf . 2>/dev/null || true
+    git clean -fdx
+    popd >/dev/null
+    
+    # Copy new build files from the original directory
+    cp -R "$ORIGINAL_DIR/$BUILD_DIR"/. "$TMP_DIR"/
     
     # Add CNAME file for custom domain (if needed)
     echo "newweb.seasalt.ai" > "$TMP_DIR/CNAME"
