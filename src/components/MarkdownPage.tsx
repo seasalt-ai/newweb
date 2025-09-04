@@ -19,7 +19,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ pageType }) => {
   useEffect(() => {
     const fetchMarkdown = async () => {
       try {
-        const response = await fetch(`/content/${pageType}.md`);
+        const response = await fetch(`/${pageType}.md`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
