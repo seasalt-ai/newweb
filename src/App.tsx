@@ -308,9 +308,12 @@ function App() {
           <Route path="seahealth" element={<SeaHealth />} />
           <Route path="company" element={<CompanyPage />} />
           <Route path="careers" element={<CareersPage />} />
+          <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
+          <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         </Route>
-        <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
-        <Route path="terms" element={<MarkdownPage pageType="terms" />} />
+        {/* Language-agnostic routes for privacy and terms - redirect to default language */}
+        <Route path="privacy" element={<Navigate to={`/${DEFAULT_LANGUAGE}/privacy`} replace />} />
+        <Route path="terms" element={<Navigate to={`/${DEFAULT_LANGUAGE}/terms`} replace />} />
         {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
         </Routes>
