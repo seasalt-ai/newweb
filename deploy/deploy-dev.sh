@@ -15,7 +15,14 @@ BUILD_DIR="dist"
 TARGET_BRANCH="gh-pages"
 TMP_DIR="$(mktemp -d)"
 
-trap 'rm -rf "$TMP_DIR"' EXIT
+# Ensure cleanup on exit (including errors)
+cleanup() {
+    if [[ -n "${TMP_DIR:-}" ]] && [[ -d "$TMP_DIR" ]]; then
+        git worktree remove --force "$TMP_DIR" 2>/dev/null || true
+    fi
+    git worktree prune 2>/dev/null || true
+}
+trap cleanup EXIT
 # Main deployment process
 main() {
     # Get current branch for commit message
@@ -55,19 +62,33 @@ main() {
     # Prepare the gh-pages worktree
     print_info "Preparing gh-pages worktree..."
     
-    # Try to add worktree (will reuse if already exists, or create new)
-    if git worktree list | grep -q "$TARGET_BRANCH"; then
-        print_info "Removing existing worktree for $TARGET_BRANCH"
-        git worktree remove --force "$TARGET_BRANCH" 2>/dev/null || true
+    # Clean up any stale worktrees first
+    print_info "Cleaning up any stale worktrees..."
+    git worktree prune
+    
+    # Remove any existing worktree for gh-pages branch
+    # Use git worktree list to find and remove it properly
+    EXISTING_WORKTREE=$(git worktree list --porcelain | grep -B2 "branch refs/heads/$TARGET_BRANCH" | grep "^worktree" | cut -d' ' -f2 || true)
+    if [[ -n "$EXISTING_WORKTREE" ]]; then
+        print_info "Found existing worktree for $TARGET_BRANCH at: $EXISTING_WORKTREE"
+        print_info "Removing it..."
+        git worktree remove --force "$EXISTING_WORKTREE" 2>/dev/null || true
+    fi
+    
+    # Also check if the temp directory is already a worktree and remove it
+    if git worktree list | grep -q "$TMP_DIR"; then
+        print_info "Removing worktree at temporary directory: $TMP_DIR"
+        git worktree remove --force "$TMP_DIR" 2>/dev/null || true
     fi
     
     # Add worktree - try to fetch from origin first, create if doesn't exist
     if git ls-remote --heads origin "$TARGET_BRANCH" | grep -q "$TARGET_BRANCH"; then
         print_info "Using existing $TARGET_BRANCH from origin"
-        git worktree add -B "$TARGET_BRANCH" "$TMP_DIR" "origin/$TARGET_BRANCH"
+        git fetch origin "$TARGET_BRANCH:$TARGET_BRANCH" 2>/dev/null || true
+        git worktree add "$TMP_DIR" "$TARGET_BRANCH"
     else
         print_info "Creating new $TARGET_BRANCH branch"
-        git worktree add -B "$TARGET_BRANCH" "$TMP_DIR"
+        git worktree add -b "$TARGET_BRANCH" "$TMP_DIR" HEAD
     fi
     
     # Clear previous contents (except .git) and copy new files
@@ -122,7 +143,8 @@ main() {
     
     # Clean up
     print_info "Cleaning up..."
-    git worktree remove "$TMP_DIR"
+    git worktree remove --force "$TMP_DIR" 2>/dev/null || true
+    git worktree prune
     
     print_success "Deployment process completed!"
 }
