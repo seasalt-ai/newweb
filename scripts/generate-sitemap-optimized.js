@@ -9,6 +9,40 @@ const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://seasalt.ai';
 const OUTPUT_DIR = path.join(__dirname, '../public');
 
+// External URLs to include in sitemap (not served by this repo)
+const EXTERNAL_URLS = [
+  {
+    url: 'https://voice.seasalt.ai/discord/',
+    changefreq: 'monthly',
+    priority: 0.7,
+    lastmod: new Date().toISOString().split('T')[0]
+  },
+  {
+    url: 'https://voice.seasalt.ai/discord/zh-tw',
+    changefreq: 'monthly',
+    priority: 0.7,
+    lastmod: new Date().toISOString().split('T')[0]
+  },
+  {
+    url: 'https://suite.seasalt.ai/',
+    changefreq: 'weekly',
+    priority: 0.8,
+    lastmod: new Date().toISOString().split('T')[0]
+  },
+  {
+    url: 'https://suite.seasalt.ai/stt',
+    changefreq: 'monthly',
+    priority: 0.7,
+    lastmod: new Date().toISOString().split('T')[0]
+  },
+  {
+    url: 'https://suite.seasalt.ai/tts',
+    changefreq: 'monthly',
+    priority: 0.7,
+    lastmod: new Date().toISOString().split('T')[0]
+  }
+];
+
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -77,6 +111,7 @@ function generateMainSitemap() {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
+  // Add internal routes
   allRoutes.forEach(route => {
     const { lastmod, changefreq, priority } = getRouteMeta(route);
     
@@ -85,6 +120,16 @@ function generateMainSitemap() {
     xml += `    <lastmod>${lastmod}</lastmod>\n`;
     xml += `    <changefreq>${changefreq}</changefreq>\n`;
     xml += `    <priority>${priority}</priority>\n`;
+    xml += `  </url>\n`;
+  });
+  
+  // Add external URLs
+  EXTERNAL_URLS.forEach(external => {
+    xml += `  <url>\n`;
+    xml += `    <loc>${external.url}</loc>\n`;
+    xml += `    <lastmod>${external.lastmod}</lastmod>\n`;
+    xml += `    <changefreq>${external.changefreq}</changefreq>\n`;
+    xml += `    <priority>${external.priority}</priority>\n`;
     xml += `  </url>\n`;
   });
 
@@ -96,11 +141,14 @@ function generateMainSitemap() {
   const stats = fs.statSync(outputPath);
   const fileSizeInKB = stats.size / 1024;
   
+  const totalUrls = allRoutes.length + EXTERNAL_URLS.length;
   console.log(`Main sitemap generated at ${outputPath}`);
-  console.log(`  - Total URLs: ${allRoutes.length}`);
+  console.log(`  - Internal URLs: ${allRoutes.length}`);
+  console.log(`  - External URLs: ${EXTERNAL_URLS.length}`);
+  console.log(`  - Total URLs: ${totalUrls}`);
   console.log(`  - File Size: ${fileSizeInKB.toFixed(2)} KB`);
   
-  return allRoutes.length;
+  return totalUrls;
 }
 
 /**
@@ -123,6 +171,14 @@ function generateHreflangSitemap() {
       groupedRoutes[baseRoute].push(route);
     }
   });
+  
+  // Add external URL hreflang mappings for Discord (which has zh-tw variant)
+  const externalHreflangGroups = {
+    'external:discord': [
+      { url: 'https://voice.seasalt.ai/discord/', lang: 'en' },
+      { url: 'https://voice.seasalt.ai/discord/zh-tw', lang: 'zh-TW' }
+    ]
+  };
   
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n`;
@@ -149,6 +205,24 @@ function generateHreflangSitemap() {
     xml += `  </url>\n`;
   }
   
+  // Add external URLs with hreflang support
+  for (const groupKey in externalHreflangGroups) {
+    const urls = externalHreflangGroups[groupKey];
+    const defaultUrl = urls.find(u => u.lang === 'en') || urls[0];
+    
+    xml += `  <url>\n`;
+    xml += `    <loc>${defaultUrl.url}</loc>\n`;
+    
+    // Add hreflang links for all variants
+    urls.forEach(urlInfo => {
+      xml += `    <xhtml:link rel="alternate" hreflang="${urlInfo.lang}" href="${urlInfo.url}" />\n`;
+    });
+    
+    // Add x-default
+    xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${defaultUrl.url}" />\n`;
+    xml += `  </url>\n`;
+  }
+  
   xml += `</urlset>`;
   
   const outputPath = path.join(OUTPUT_DIR, 'sitemap-hreflang.xml');
@@ -157,11 +231,15 @@ function generateHreflangSitemap() {
   const stats = fs.statSync(outputPath);
   const fileSizeInKB = stats.size / 1024;
   
+  const totalUniquePages = Object.keys(groupedRoutes).length + Object.keys(externalHreflangGroups).length;
+  
   console.log(`Hreflang sitemap generated at ${outputPath}`);
-  console.log(`  - Unique Pages: ${Object.keys(groupedRoutes).length}`);
+  console.log(`  - Internal Unique Pages: ${Object.keys(groupedRoutes).length}`);
+  console.log(`  - External Pages with hreflang: ${Object.keys(externalHreflangGroups).length}`);
+  console.log(`  - Total Unique Pages: ${totalUniquePages}`);
   console.log(`  - File Size: ${fileSizeInKB.toFixed(2)} KB`);
   
-  return Object.keys(groupedRoutes).length;
+  return totalUniquePages;
 }
 
 /**
