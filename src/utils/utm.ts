@@ -187,7 +187,7 @@ export const addUTMParamsToUrl = (url: string, utmParams?: UTMParams): string =>
       return url;
     }
 
-    const urlObj = new URL(url);
+    const urlObj = new URL(url, window.location.origin);
     const utmQueryString = utmParamsToQueryString(params);
     
     if (utmQueryString) {
