@@ -66,6 +66,7 @@ import { getSEOData, getCanonicalUrl } from './utils/seo';
 import FaviconManager from './components/FaviconManager';
 import ScrollToTop from './components/ScrollToTop';
 import GTMTracker from './components/GTMTracker';
+import UTMTracker from './components/UTMTracker';
 
 // Component to handle SeaChat redirects
 const SeaChatRedirect = () => {
@@ -234,6 +235,7 @@ function App() {
   return (
     <Router basename={basename}>
       <GTMTracker />
+      <UTMTracker />
       <ScrollToTop />
       <FaviconManager>
         <Routes>
