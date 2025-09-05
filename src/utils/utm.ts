@@ -70,7 +70,7 @@ const checkAndClearOldVersion = (): void => {
       sessionStorage.setItem(UTM_VERSION_KEY, CURRENT_UTM_VERSION);
     }
   } catch (error) {
-    console.warn('UTM version check failed:', error);
+    // Silently handle version check errors
   }
 };
 
@@ -95,10 +95,9 @@ export const saveUTMParams = (utmParams: UTMParams): void => {
 
     if (Object.keys(validParams).length > 0) {
       sessionStorage.setItem(UTM_STORAGE_KEY, JSON.stringify(validParams));
-      console.log('[UTM] Saved UTM params:', validParams);
     }
   } catch (error) {
-    console.warn('Failed to save UTM params:', error);
+    // Silently handle storage errors
   }
 };
 
@@ -116,11 +115,10 @@ export const getSavedUTMParams = (): UTMParams => {
     const saved = sessionStorage.getItem(UTM_STORAGE_KEY);
     if (saved) {
       const params = JSON.parse(saved) as UTMParams;
-      console.log('[UTM] Retrieved saved UTM params:', params);
       return params;
     }
   } catch (error) {
-    console.warn('Failed to get saved UTM params:', error);
+    // Silently handle storage errors
   }
   
   return {};
@@ -134,9 +132,8 @@ export const clearSavedUTMParams = (): void => {
   
   try {
     sessionStorage.removeItem(UTM_STORAGE_KEY);
-    console.log('[UTM] Cleared saved UTM params');
   } catch (error) {
-    console.warn('Failed to clear UTM params:', error);
+    // Silently handle storage errors
   }
 };
 
@@ -201,7 +198,7 @@ export const addUTMParamsToUrl = (url: string, utmParams?: UTMParams): string =>
     
     return urlObj.toString();
   } catch (error) {
-    console.warn('Failed to add UTM params to URL:', url, error);
+    // Silently handle URL processing errors
     return url;
   }
 };
@@ -237,7 +234,6 @@ export const enhanceExternalLinks = (): void => {
       const enhancedUrl = addUTMParamsToUrl(href, savedParams);
       if (enhancedUrl !== href) {
         link.setAttribute('href', enhancedUrl);
-        console.log('[UTM] Enhanced external link:', href, '->', enhancedUrl);
       }
     }
   });

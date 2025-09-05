@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import { 
   handlePageUTMParams, 
   enhanceExternalLinks,
-  getSavedUTMParams,
   isExternalLink,
   addUTMParamsToUrl
 } from '../utils/utm';
@@ -56,7 +55,6 @@ const UTMTracker: React.FC = () => {
         window.location.href = enhancedUrl;
       }
       
-      console.log('[UTM] Redirected external link with UTM params:', href, '->', enhancedUrl);
     }
   }, []);
 
@@ -125,15 +123,6 @@ const UTMTracker: React.FC = () => {
     };
   }, []);
 
-  // Debug 信息（僅在開發環境中）
-  useEffect(() => {
-    if (process.env.NODE_ENV === 'development') {
-      const savedParams = getSavedUTMParams();
-      if (Object.keys(savedParams).length > 0) {
-        console.log('[UTM] Current saved UTM params:', savedParams);
-      }
-    }
-  }, [location]);
 
   // 這個組件不渲染任何內容
   return null;
