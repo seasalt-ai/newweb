@@ -2,7 +2,12 @@ import { Phone, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const PhoneBanner = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Use Taiwan phone number for zh-TW, US toll-free for others
+  const phoneHref = i18n.language === 'zh-TW' 
+    ? 'tel:+886-2-77443577'  // Taiwan number
+    : 'tel:+1-762-242-4368'; // US toll-free number
   
   return (
     <div className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-800 text-white py-3 px-4 shadow-lg border-b-2 border-blue-500">
@@ -11,7 +16,7 @@ const PhoneBanner = () => {
           <Phone className="w-5 h-5 animate-pulse" />
           <span className="font-semibold text-lg">
             {t('phoneBanner.callText')} <a 
-              href="tel:+1-762-244-3688" 
+              href={phoneHref}
               className="text-yellow-300 hover:text-yellow-200 underline decoration-2 underline-offset-2"
             >
               {t('phoneBanner.phoneNumber')}
