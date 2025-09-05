@@ -20,10 +20,10 @@ const UTMTracker: React.FC = () => {
 
   // 處理外部鏈接點擊事件的回調函數
   const handleLinkClick = useCallback((event: MouseEvent) => {
-    const target = event.target as HTMLAnchorElement;
+    const target = (event.target as Element).closest('a');
     
     // 確保點擊的是 <a> 標籤
-    if (target.tagName !== 'A') return;
+    if (!target) return;
     
     const href = target.getAttribute('href');
     if (!href || !isExternalLink(href)) return;
