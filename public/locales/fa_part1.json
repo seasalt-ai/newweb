@@ -1,0 +1,3639 @@
+{
+  "header": {
+    "products": "محصولات",
+    "solutions": "راه‌حل‌ها",
+    "industries": "صنایع",
+    "channels": "کانال‌ها",
+    "pricing": "قیمت‌گذاری",
+    "compareUs": "مقایسه کنید",
+    "blog": "وبلاگ",
+    "login": "ورود",
+    "startForFree": "ثبت‌نام",
+    "backToChannels": "بازگشت به کانال‌ها",
+    "allChannelsOverview": "همه کانال‌ها نمای کلی",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Optimized Healthcare",
+      "useCases": "موارد استفاده"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "برای فروش & بازاریابی",
+      "customerSupport": "برای پشتیبانی مشتری",
+      "aiAutomation": "AI & Automation",
+      "smeOwners": "برای صاحبان کسب‌وکارهای کوچک و متوسط"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "تلفن تماس‌ها",
+      "sms": "SMS",
+      "websiteChat": "Website چت",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "فرم‌های تماس",
+      "line": "Lمنne",
+      "websiteWidget": "وب‌سایت ابزارک"
+    },
+    "comparisonsDropdown": {
+      "title": "مقایسه‌ها",
+      "allComparisonsOverview": "همه Comparisons نمای کلی"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "همه Comparisons نمای کلی"
+    },
+    "signIn": "ورود"
+  },
+  "footer": {
+    "company": {
+      "title": "شرکت",
+      "contact": "تماس با ما",
+      "about": "درباره ما",
+      "careers": "فرصت‌های شغلی"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
+    "privacyPolicy": "سیاست حفظ حریم خصوصی",
+    "termsOfService": "شرایط خدمات",
+    "security": "امنیت",
+    "compliance": {
+      "soc2": "SOC 2 Compliant",
+      "hipaa": "HIPAA Available",
+      "uptime": "99.9% زمان فعالیت"
+    },
+    "cta": {
+      "title": "آماده به مقیاس Your دسترسی به میلیون‌ها?",
+      "startFreeTrial": "ثبت‌نام برای رایگان",
+      "scheduleDemo": "برنامه‌ریزی دمو",
+      "subtitle": "Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.",
+      "signUpNow": "ثبت‌نام اکنون"
+    },
+    "tagline": "یک همه در یک مرکز تماس ساخته شده برای کوچک کسب‌وکارes. خودکار سازی پشتیبانی, ضبط هر سرنخ, و unify همه your مشتری گفتگوs.",
+    "seahealth": "SeaHealth - Optimized Healthcare",
+    "productWiki": "محصول Wiki",
+    "apiReferences": "API References",
+    "madeWith": {
+      "text": "ساخته شده با",
+      "inCityOf": "ورود city از"
+    },
+    "inCityOf": "ورود",
+    "description": {
+      "company": "Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business."
+    },
+    "section": {
+      "channels": "کانال‌ها",
+      "solutions": "راه‌حل‌ها",
+      "industries": "صنایع"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "SMS Overview",
+        "smsLocal": "شماره محلی (10DLC)",
+        "smsTollFree": "Toll-رایگان شماره",
+        "smsShortCode": "کد کوتاه",
+        "whatsapp": "WhatsApp Business Platform",
+        "voice": "تلفن تماس صوت"
+      },
+      "solutions": {
+        "leadGeneration": "تولید سرنخ",
+        "marketingAutomation": "بازاریابی اتوماسیون",
+        "customerEngagement": "تعامل مشتری",
+        "appointmentReminders": "اپلیکیشنointment Reminders",
+        "emergencyAlerts": "هشدارهای اضطراری"
+      },
+      "industries": {
+        "ecommerceRetail": "تجارت الکترونیک & خرده‌فروشی",
+        "realEstate": "املاک",
+        "politicalCampaigns": "Political کمپینs",
+        "healthcare": "مراقبت‌های بهداشتی",
+        "financialServices": "Financial خدماتs"
+      },
+      "company": {
+        "features": "ویژگی‌ها",
+        "pricing": "قیمت‌گذاری",
+        "productWiki": "محصول Wiki",
+        "apiReferences": "API References",
+        "careers": "فرصت‌های شغلی"
+      }
+    },
+    "stats": {
+      "messagesDaily": "10M+ پیامs روزانه",
+      "activeUsers": "500K+ Active کاربرs",
+      "uptime": "99.9% زمان فعالیت"
+    },
+    "legal": {
+      "privacyPolicy": "سیاست حفظ حریم خصوصی",
+      "termsOfService": "شرایط خدمات"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seیکttle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "توقف تعویض اپلیکیشنs",
+      "line2": "یکپارچه‌سازی همه مشتری",
+      "line3": "Call, WhatsApp, and Chat",
+      "line4": "در یک ساده صندوق ورودی."
+    },
+    "titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
+    "description": "Seasalt.ai is the all-in-one contact center built for small businesses. Automate support, capture every lead, and manage all your conversations from a single screen.",
+    "signUp": "ثبت‌نام",
+    "seeDemo": "رزرو دمو",
+    "trustedBy": "مورد اعتماد در حال رشد کسب‌وکارes در سراسر جهان",
+    "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:",
+    "developerTools": {
+      "phoneUse": "تلفن استفاده",
+      "messageUse": "پیام استفاده",
+      "emailUse": "ایمیل استفاده",
+      "meetingUse": "جلسه استفاده"
+    },
+    "unifiedInbox": "یکپارچه صندوق ورودی",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "تلفن",
+      "chat": "چت"
+    }
+  },
+  "features": {
+    "mainTitle": "چند کاناله کمک خلبان تماس مرکز برای شرکت‌های کوچک و متوسط",
+    "mainDescription": "Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
+    "omniChannel": {
+      "title": "یکپارچه چند کاناله صندوق ورودی",
+      "description": "Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
+    },
+    "aiVoicebot": {
+      "title": "AI Voicebot & Chatbot",
+      "description": "Your first digital employee works ۲۴/۷. Automate up to 80% of routine queries, book 5+ اپلیکیشنointments روزانه, and seamlessly handoff to human نمایندهs when needed."
+    },
+    "voiceWhatsapp": {
+      "title": "Native Voice & WhatsApp Integration",
+      "description": "Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp chat history when they call."
+    },
+    "outboundMarketing": {
+      "title": "Outbound بازاریابی کمپینs",
+      "description": "ایجاد یکپارچه, حلقه بسته مشتری مسیرها. راه‌اندازی هدفمند کمپینs و مدیریت همه پاسخ‌ها روی این همان پلتفرم."
+    },
+    "enterpriseSecurity": {
+      "title": "سازمانی-درجه امنیت",
+      "description": "HIPAA-compliant solution with bank-level encryption. Trust your customer data is always protected."
+    },
+    "predictablePricing": {
+      "title": "ساده, Predictable قیمت‌گذاری",
+      "description": "با اعتماد بودجه‌ریزی کنید. شفاف قیمت‌گذاری به این معنی که دقیقاً می‌دانید چقدر پرداخت خواهید کرد هر ماه."
+    },
+    "testimonial": {
+      "quote": "I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!",
+      "author": "— Solutمنروی Arcضربه زدنect Revمنew"
+    },
+    "knowledgeBase": {
+      "title": "پایگاه دانش"
+    }
+  },
+  "howItWorks": {
+    "title": "شروع کنید در 3 ساده Steps",
+    "description1": "Transform your مشتری ارتباطاتs در minutes, not months.",
+    "description2": "No complex setup یا technical دانش required.",
+    "connectYourChannels": {
+      "title": "اتصال Your کانال‌ها",
+      "description": "Link your phone, WhatsApp, SMS, website chat, and social media in minutes. No technical expertise required."
+    },
+    "automateRoutineWork": {
+      "title": "خودکار سازی روتین کار",
+      "description": "Set up AI to handle common questions like \"Where's my order?\" and book appointments automatically."
+    },
+    "unifyYourTeam": {
+      "title": "Unify Your تیم",
+      "description": "Your تیم sees این کامل گفتگو history when مشتریs switch از چت به تلفن تماس‌ها."
+    },
+    "signUpNow": "ثبت‌نام اکنون",
+    "setupTime": "راه‌اندازی در under 5 minutes"
+  },
+  "useCases": {
+    "title": "قدرتمند استفاده Cases برای هر کسب‌وکار Need",
+    "description": "From contact centers to marketing campaigns, see how Seasalt.ai adapts to your specific business requirements with enterprise-grade features in a simple, unified platform.",
+    "keyFeatures": "Key ویژگی‌ها",
+    "contactCenter": {
+      "title": "تماس مرکز Operations",
+      "headline": "حرفه‌ای مرکز تماس با کامل تماس مدیریت",
+      "description": "Transform your کسب‌وکار into یک حرفه‌ای مرکز تماس با سازمانی-درجه ویژگی‌ها.",
+      "features": {
+        "ivr": "پیشرفته IVR سیستم برای تماس routing",
+        "recording": "خودکار تماس recording & transcription",
+        "voicemail": "هوشمند صوتmail با notifications",
+        "analytics": "زمان واقعی تماس آنالیتیک & reporting",
+        "dashboards": "نماینده عملکرد داشبوردs",
+        "queueManagement": "تماس queue مدیریت"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "۲۴/۷ Virtual Receptionist",
+      "headline": "Never Miss a Call Again with AI-Powered Reception",
+      "description": "Deploy یک هوشمند صوتbot that کار می‌کند around این clock به capture inbound تماس‌ها و qualify سرنخ‌ها.",
+      "features": {
+        "aiVoicebot": "AI voicebot answers calls 24/7",
+        "appointments": "اپلیکیشنointment booking & scheduling",
+        "leadQualification": "سرنخ qualification & routing",
+        "customGreeting": "Cمابهm greetمنng & respرویses",
+        "handoff": "Seamless انتقال به human نمایندهs",
+        "multiLanguage": "Multi-language پشتیبانی"
+      }
+    },
+    "smsManagement": {
+      "title": "Unified SMS Management",
+      "headline": "Manage Multiple Phone Lines & Two-Way SMS in One Platform",
+      "description": "Consolidate all your business phone lines and SMS communications into a single, powerful platform.",
+      "features": {
+        "multipleLines": "چندتایی تلفن lines در یک داشبورد",
+        "twoWaySms": "Two-way SMS conversations",
+        "unifiedHistory": "SMS & call history unified",
+        "teamCollaboration": "تیم همکاری روی پیامs",
+        "automatedResponses": "Automated SMS responses",
+        "numberSupport": "محلی & toll-رایگان شماره پشتیبانی"
+      }
+    },
+    "smsMarketing": {
+      "title": "SMS Marketing Campaigns",
+      "headline": "Launch Powerful A2P SMS Campaigns with 10DLC & Toll-Free",
+      "description": "Execute professional SMS marketing campaigns with high deliverability and compliance.",
+      "features": {
+        "tenDlc": "10DLC registered کمپینs",
+        "tollFree": "Toll-رایگان & short code پشتیبانی",
+        "highVolume": "High-volume پیام delivery",
+        "analytics": "کمپین عملکرد آنالیتیک",
+        "compliance": "Compliance & opt-out مدیریت",
+        "dripCampaigns": "Automated drip کمپینs"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "WhatsApp Business Campaigns",
+      "headline": "Reach Global Customers with WhatsApp Business Platform",
+      "description": "Launch targeted WhatsApp campaigns using the official WhatsApp Business Platform.",
+      "features": {
+        "apiIntegration": "WhatsApp Business API integration",
+        "templateMessages": "قالب پیام کمپینs",
+        "automatedChatbot": "Automated چتbot responses",
+        "richMedia": "Rich media پیام پشتیبانی",
+        "globalReach": "جهانی مشتری reach",
+        "analytics": "گفتگو آنالیتیک"
+      }
+    },
+    "aiSupport": {
+      "title": "Intelligent Chatbot and Voicebot AI Support",
+      "headline": "AI-Powered Customer Support That Never Sleeps",
+      "description": "Deploy هوشمند چتbots در تمام your ارتباطات کانال‌ها به مدیریت مشتری inquiries ۲۴/۷.",
+      "features": {
+        "automated24x7": "۲۴/۷ automated پشتیبانی مشتری",
+        "multiChannel": "Multi-کانال چتbot deployment",
+        "instantResponse": "فوری response به common درخواست‌ها",
+        "humanHandoff": "Seamless human نماینده انتقال",
+        "continuousLearning": "Continuous یادگیری & improvement",
+        "knowledgeBase": "سفارشی پایگاه دانش یکپارچه‌سازی"
+      }
+    },
+    "cta": {
+      "title": "آماده برای Transform Your کسب‌وکار ارتباطاتs?",
+      "description": "Choose این استفاده cases that fit your کسب‌وکار needs. شروع با our رایگان plan و scale as you grow.",
+      "signUp": "ثبت‌نام",
+      "bookDemo": "رزرو دمو"
+    }
+  },
+  "phoneBanner": {
+    "callText": "تماس",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "to book a meeting with the SeaVoice AI agent.",
+    "availability": "در دسترس ۲۴/۷"
+  },
+  "problemSolution": {
+    "title": "Losing سرنخ‌ها در یک Maze از اپلیکیشنs و صندوق ورودیes?",
+    "description": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
+    "problems": {
+      "fragmented": {
+        "title": "Fragmented گفتگوs",
+        "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
+      },
+      "lostRevenue": {
+        "title": "Lost درآمد",
+        "description": "Missed پیامs after-hours و slow responses mean lost سرنخ‌ها و frustrated مشتریs."
+      },
+      "operational": {
+        "title": "Oهریکtمنروییکl Overloیکd",
+        "description": "Your تیم است stretched thin مدیریت too زیاد ابزارs instead از focusing روی مشتریs."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
+      "hubTitle": "متحد چند کاناله Hub",
+      "subtitle": "AI & Human Agents, 24/7",
+      "tabs": {
+        "support": "پشتیبانی",
+        "marketing": "بازاریابی"
+      },
+      "features": {
+        "marketing": {
+          "title": "Copilot Your بازاریابی کمپینs",
+          "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+        },
+        "support": {
+          "title": "Autopilot Your پشتیبانی مشتری",
+          "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+        },
+        "human": {
+          "title": "هرگز Lose Human Touch",
+          "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+        }
+      },
+      "cta": "Use Seasalt.ai to Solve This"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sیکrیکh Jاوهnsروی",
+          "description": "تلفن تماس about order status",
+          "timeAgo": "2m یکرفتن"
+        },
+        "mike": {
+          "name": "Mمنke Cاوn",
+          "description": "WhatsApp: Shipping question",
+          "timeAgo": "5m یکرفتن"
+        },
+        "lisa": {
+          "name": "Lمنsیک Pیکrk",
+          "description": "Website چت: Product inquiry",
+          "timeAgo": "8m یکرفتن"
+        },
+        "david": {
+          "name": "Dیکvمنd Kمنm",
+          "description": "پشتیبانی تماس: Technical issue",
+          "timeAgo": "12m یکرفتن"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Black Friday کمپین",
+          "description": "SMS: 2,847 sent • 312 replies",
+          "result": "+47 leیکds"
+        },
+        "whatsappLaunch": {
+          "name": "WhatsApp Product Launch",
+          "description": "1,523 پیامs • 89 گفتگوs",
+          "result": "+23 فروش"
+        },
+        "cartRecovery": {
+          "name": "Abandoned سبد خرید Recovery",
+          "description": "Email + SMS: 156 recovered",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Follow-up تماس کمپین",
+          "description": "AI Voicebot: 89 calls • 34 appts",
+          "result": "+34 اپلیکیشنts"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "پشتیبانی Plan",
+    "priceNote": "*همه prices are in US dollars",
+    "trial": {
+      "title": "آزمایش",
+      "price": "$0",
+      "features": {
+        "diy": "DIY with محصول wiki",
+        "email": "ایمیل (info@seasalt.ai)",
+        "chat": "یا چت با پشتیبانی مشتری (روی this page)"
+      }
+    },
+    "launch": {
+      "title": "راه‌اندازی",
+      "startsAt": "Stیکrts یکt",
+      "minPrice": "$500",
+      "upTo": "نام به",
+      "maxPrice": "$10,000",
+      "duration": "ماهانه برای 3 months",
+      "description": "با این راه‌اندازی پشتیبانی Plan, our تیم است committed به providing حرفه‌ای guidance در این زیر areas:",
+      "features": {
+        "meetings": {
+          "title": "Unlimited 1-روی-1 Meetings:",
+          "description": "Personalized sessions با این SeaChat تیم."
+        },
+        "promptTuning": {
+          "title": "Prompt Tunمنng:",
+          "description": "سفارشی‌سازی برای both چت و صوت اپلیکیشنlications."
+        },
+        "guidance": {
+          "title": "طراحی و Technical Guidance:",
+          "description": "متخصص advice روی طراحی و technical aspects."
+        },
+        "launchSupport": {
+          "title": "AI Agent Launch Support:",
+          "description": "Comprehensive کمک throughout این راه‌اندازی پردازش."
+        },
+        "marketStrategy": {
+          "title": "Go-به-Market استراتژی:",
+          "description": "Strategic planning برای بازار entry."
+        },
+        "successfulLaunch": {
+          "title": "Successful AI Agent Launch:",
+          "description": "Achieve یک موفقیتful راه‌اندازی within 4-6 weeks."
+        },
+        "postLaunch": {
+          "title": "Post-راه‌اندازی Iteration و بهبود:",
+          "description": "Continuous enhancement based روی usage و feedback."
+        },
+        "operational": {
+          "title": "Oهریکtمنروییکl Stیکbمنlمنty:",
+          "description": "Establish standard operating procedures for the long-term operation of AI agents."
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "Seasalt.ai Main Site",
+      "description": "همه محصولات و راه‌حل‌ها"
+    },
+    "productsLabel": "محصولات"
+  },
+  "industries": {
+    "title": "خدمت به هر صنعت با اعتماد",
+    "description": "از healthcare به fintech, our پلتفرم adapts به your industry's unique requirements با specialized ویژگی‌ها و compliance standards.",
+    "cta": {
+      "title": "آماده به Revolutionize Your صنعت?",
+      "description": "Join industry leaders who trust Seasalt.ai to deliver exceptional customer experiences while meeting specific regulatory and operational requirements.",
+      "signUp": "ثبت‌نام",
+      "bookDemo": "رزرو دمو"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← بازگشت به صفحه اصلی"
+      },
+      "hero": {
+        "title": "AI Solutions for",
+        "signUp": "شروع کنید رایگان",
+        "seeDemo": "دیدن دمو",
+        "hipaaOffering": "Also available: HIPAA-compliant"
+      },
+      "seo": {
+        "titleSuffix": "Solutions - Seasalt.ai",
+        "descriptionPrefix": "See how Seasalt.ai helps",
+        "descriptionSuffix": "کسب‌وکارes improve مشتری ارتباطاتs و drive رشد."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "چه"
+      },
+      "benefits": {
+        "title": "Why Choose Seasalt.ai for",
+        "description": "Our AI-powered platform streamlines communications and automates workflows for"
+      },
+      "useCases": {
+        "title": "Common موارد استفاده",
+        "description": {
+          "start": "Discover how our پلتفرم transforms",
+          "end": "operations با هوشمند اتوماسیون"
+        },
+        "customerSupport": {
+          "title": "۲۴/۷ پشتیبانی مشتری",
+          "description": "Provide فوری responses به مشتری inquiries در تمام کانال‌ها"
+        },
+        "leadGeneration": {
+          "title": "تولید سرنخ",
+          "description": "Capture and qualify leads automatically with AI-powered conversations"
+        },
+        "analytics": {
+          "title": "آنالیتیک & بینشs",
+          "description": "پیگیری عملکرد و gain بینشs into مشتری interactions"
+        },
+        "subtitle": "Discover how our پلتفرم پشتیبانیs هر aspect از آموزشal مدیریت",
+        "case1": {
+          "title": "Student اطلاعات سیستمs",
+          "description": "Centralize دانش‌آموز records, grades, و academic پیشرفت پیگیری"
+        },
+        "case2": {
+          "title": "یادگیری مدیریت",
+          "description": "Deliver courses, پیگیری progress, و مدیریت آموزشal content"
+        },
+        "case3": {
+          "title": "Administrative ابزارs",
+          "description": "Streamline enrollment, scheduling, و institutional operations"
+        }
+      },
+      "testimonials": {
+        "title": "شرکت‌ها هستند Saying",
+        "quote1": "Seasalt.ai has transformed our customer service operations. Response times are down 80% and satisfaction is at an all-time high.",
+        "author1": "Sیکrیکh Cاوn",
+        "company1": "مشتری موفقیت Manager",
+        "quote2": "The AI automation has saved us countless hours. We can focus on growing our business instead of managing repetitive tasks.",
+        "author2": "Mمنchیکel Rodrمنguez",
+        "company2": "Oهریکtمنرویs Dمنrectیا",
+        "subtitle": "دیدن how institutions هستند transforming their operations",
+        "testimonial1": {
+          "quote": "This پلتفرم دارد revolutionized how we مدیریت our school operations. Student داده است اکنون centralized و accessible.",
+          "author": "Dr. Sیکrیکh Jاوهnsروی",
+          "position": "Principal, Lincoln Elementary مدرسه"
+        },
+        "testimonial2": {
+          "quote": "این یادگیری مدیریت ویژگی‌ها دارند ساخته شده remote و hybrid یادگیری seamless برای our students و faculty.",
+          "author": "Prاز. Mمنchیکel Cاوn",
+          "position": "Dean از فناوری, State University"
+        },
+        "testimonial3": {
+          "quote": "Our administrative کارایی دارد improved dramatically. Everything از enrollment به reporting است اکنون streamlined.",
+          "author": "Mیکrمنیک Rodrمنguez",
+          "position": "Administrator, Community کالج District"
+        }
+      },
+      "cta": {
+        "title": "آماده برای Transform Your کسب‌وکار?",
+        "description": "Join thousands of companies that trust Seasalt.ai to manage their customer communications efficiently and securely.",
+        "signUp": "شروع رایگان آزمایش",
+        "scheduleDemo": "برنامه‌ریزی دمو",
+        "seahealthLink": "Explore HIPAA-Compliant Healthcare Solutions",
+        "buttons": {
+          "primary": "شروع رایگان آزمایش",
+          "secondary": "برنامه‌ریزی دمو",
+          "contact": "تماس فروش"
+        }
+      },
+      "solutions": {
+        "title": "راه‌حل‌ها"
+      }
+    }
+  },
+  "channels": {
+    "title": "اتصال هر مشتری کانال",
+    "description": "Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "اتصال با مشتریs روی این world's بیشتر محبوب messaging پلتفرم",
+      "seo": {
+        "title": "WhatsApp Business Integration - Seasalt.ai",
+        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transform WhatsApp into Your",
+          "highlight": "کسب‌وکار Command مرکز"
+        },
+        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide.",
+        "primaryCta": "Connect WhatsApp in 10 Minutes",
+        "secondaryCta": "دیدن دمو",
+        "demoTitle": "WhatsApp Business",
+        "demoMessages": {
+          "customer1": "مشتری: \"Where's my order #12345?",
+          "bot1": "AI Bot: \"Your order is out for delivery and will arrive today by 6 PM. Track it here: [link]",
+          "customer2": "مشتری: \"می‌تواند I change این delivery address?",
+          "bot2": "AI Bot: \"Let me connect you with a human agent for address changes..."
+        }
+      },
+      "features": {
+        "title": "Key ویژگی‌ها",
+        "description": "Everything you need to turn WhatsApp into a powerful business communication platform",
+        "aiResponses": {
+          "title": "AI-Powered Responses",
+          "description": "Automated مشتری خدمات با natural language پردازش that understands context و intent"
+        },
+        "bulkCampaigns": {
+          "title": "Bulk کمپین مدیریت",
+          "description": "ارسال قالب پیامs به هزاران از مخاطبین با پیشرفته targeting و scheduling"
+        },
+        "humanHandoff": {
+          "title": "Human نماینده انتقال",
+          "description": "Seamless transition از bot به زنده نماینده با /live_نماینده command و کامل گفتگو history"
+        },
+        "metaIntegration": {
+          "title": "Metیک Bمامنness Integrیکtمنروی",
+          "description": "Full access to WhatsApp Business Platform features with enterprise-grade security"
+        }
+      },
+      "setup": {
+        "title": "راه‌اندازی فرآیند Visualization",
+        "description": "Step-by-step guide to connect your WhatsApp Business account with enterprise-grade security",
+        "steps": {
+          "0": "Creیکte Metیک Develoهر حساب",
+          "1": "Configure WhatsApp Business API",
+          "2": "Set نام webhook endpoints",
+          "3": "Generیکte یکccess tخوبens",
+          "4": "آزمون پیام delivery",
+          "5": "راه‌اندازی اولین کمپین"
+        },
+        "security": {
+          "title": "سازمانی-درجه امنیت",
+          "description": "Your WhatsApp integration includes end-to-end encryption, secure token management, and compliance with Meta's business policies. All data is protected with bank-level security."
+        }
+      },
+      "cta": {
+        "title": "Ready to Connect WhatsApp?",
+        "description": "Join thousands of businesses using WhatsApp to provide better customer service and drive more sales.",
+        "button": "شروع یکپارچه‌سازی"
+      }
+    },
+    "voice": {
+      "title": "صوت & تلفن تماس‌ها",
+      "description": "Professional phone system with AI voicebot and human agent support"
+    },
+    "sms": {
+      "title": "SMS Messaging",
+      "description": "Reach customers instantly with personalized SMS campaigns",
+      "seo": {
+        "title": "SMS Marketing Platform - Seasalt.ai",
+        "description": "Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries. Start your SMS marketing today."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "SMS Marketing That",
+        "description": "Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries.",
+        "primaryCta": "Start SMS Campaigns",
+        "secondaryCta": "دیدن دمو",
+        "campaign": {
+          "title": "SMS Campaign",
+          "flashSale": {
+            "title": "📱 کمپین: Flash Sale",
+            "sent": "2,847 پیامs sent"
+          },
+          "delivered": {
+            "title": "✅ Delمنveقرمز: 2,834",
+            "rate": "99.5% تحویل rate"
+          },
+          "replies": {
+            "title": "💬 Replمنes: 312",
+            "rate": "11% respرویse rیکte"
+          },
+          "conversions": {
+            "title": "🛒 Cرویversمنرویs: 47",
+            "revenue": "$12,400 درآمد"
+          }
+        },
+        "titleHighlight": "Actuیکlly Cرویverts",
+        "cta": {
+          "primary": "Start SMS Campaigns",
+          "secondary": "دیدن دمو"
+        },
+        "dashboard": {
+          "title": "SMS Campaign",
+          "campaign": "📱 کمپین: Flash Sale",
+          "campaignSent": "2,847 پیامs sent",
+          "delivered": "✅ Delمنveقرمز: 2,834",
+          "deliveryRate": "99.5% تحویل rate",
+          "replies": "💬 Replمنes: 312",
+          "responseRate": "11% respرویse rیکte",
+          "conversions": "🛒 Cرویversمنرویs: 47",
+          "revenue": "$12,400 درآمد"
+        }
+      },
+      "features": {
+        "title": "Compliance & تحویل",
+        "description": "Enterprise-grade SMS platform with global reach and automatic compliance management",
+        "globalReach": {
+          "title": "Globیکl Reیکch",
+          "description": "SMS delivery to 200+ countries with local number support and carrier optimization"
+        },
+        "compliance": {
+          "title": "Compliance ابزارs",
+          "description": "TCPA و GDPR compliance ویژگی‌ها با automatic opt-out management"
+        },
+        "analytics": {
+          "title": "Delivery آنالیتیک",
+          "description": "زمان واقعی delivery پیگیری, response rates, و کمپین عملکرد metrics"
+        },
+        "scheduling": {
+          "title": "Smیکrt Scاوdulمنng",
+          "description": "Timezone-aware ارسال با optimal timing based روی recipient behavior"
+        }
+      },
+      "useCases": {
+        "title": "Proven موارد استفاده",
+        "description": "See how businesses use SMS to drive engagement and revenue",
+        "marketing": {
+          "title": "بازاریابی کمپینs",
+          "description": "Promotional پیامs با high open rates",
+          "stats": "98% باز rate"
+        },
+        "appointments": {
+          "title": "اپلیکیشنointment Reminders",
+          "description": "Reduce no-shows با automated یادآوری‌ها",
+          "stats": "25% fewer نه-نشان می‌دهد"
+        },
+        "orders": {
+          "title": "سفارش Updates",
+          "description": "Keep مشتریs informed about their orders",
+          "stats": "90% sیکtمنsfیکctمنروی"
+        },
+        "support": {
+          "title": "پشتیبانی مشتری",
+          "description": "دو-way گفتگوs برای سریع پشتیبانی",
+          "stats": "5x faster reراه‌حل"
+        }
+      },
+      "builder": {
+        "title": "پیشرفته کمپین Builder",
+        "description": "Create sophisticated SMS campaigns with drag-and-drop automation and smart targeting",
+        "segmentation": {
+          "title": "Smیکrt Segمنntیکtمنروی",
+          "description": "Target مشتریs based روی behavior, location, و preferences"
+        },
+        "timing": {
+          "title": "کامل Tمنmمنng",
+          "description": "AI-powered send time optimization for maximum engagement"
+        },
+        "analytics": {
+          "title": "زمان واقعی آنالیتیک",
+          "description": "پیگیری delivery, opens, clicks, و conversions در زمان واقعی"
+        }
+      },
+      "cta": {
+        "title": "Ready to Launch Your SMS Campaigns?",
+        "description": "Join thousands of businesses using SMS to drive higher engagement and revenue. Start with our free trial.",
+        "button": "ثبت‌نام"
+      },
+      "backToChannels": "بازگشت به کانال‌ها"
+    },
+    "website": {
+      "title": "Website چت ابزارک",
+      "description": "Turn website visitors into conversations with AI-powered chat"
+    },
+    "cta": {
+      "exploreAll": "Explore همه کانال‌ها",
+      "subtitle": "مشاهده how همه 9 کانال‌ها work together یکپارچه"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "Professional Phone System - Seasalt.ai",
+        "description": "Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by Twilio Gold Partnership and AI voice automation. Scale your business communication."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "حرفه‌ای تلفن سیستم That",
+          "highlight": "Scales با Your کسب‌وکار"
+        },
+        "description": "Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by our Twilio Gold Partnership and AI voice automation.",
+        "primaryCta": "شروع ساختن تماس‌ها امروز",
+        "secondaryCta": "دیدن دمو",
+        "dialpad": {
+          "title": "نماینده Dialpad",
+          "callButton": "تماس",
+          "endCallButton": "End تماس"
+        }
+      },
+      "features": {
+        "title": "Key ویژگی‌ها",
+        "description": "Everything your تیم needs برای حرفه‌ای تلفن ارتباطات",
+        "humanDialpad": {
+          "title": "Human نماینده Dialpad",
+          "description": "کامل-ویژگیd cloud dialpad برای ساختن و دریافت تماس‌ها با تماس مدیریت"
+        },
+        "aiVoiceBot": {
+          "title": "AI Voice Bot Integration",
+          "description": "Automated تماس مدیریت با natural انتقال به human نمایندهs در صورت نیاز"
+        },
+        "multiAgent": {
+          "title": "Multi-نماینده پشتیبانی",
+          "description": "Round robin سیستم distributes تماس‌ها across در دسترس نمایندهs خودکارally"
+        },
+        "analytics": {
+          "title": "تماس آنالیتیک",
+          "description": "Comprehensive reporting روی تماس عملکرد, outcomes, و نماینده بهره‌وری"
+        }
+      },
+      "partnership": {
+        "title": "Twilio Partnership مزیتs",
+        "description": "Built روی این world's بیشتر قابل اعتماد ارتباطاتs پلتفرم",
+        "goldPartner": {
+          "title": "Gقدیمی Pیکrtner Stیکtما",
+          "benefit1": "Gold Partner Status با direct Twilio Flex access",
+          "benefit2": "سازمانی-درجه قابلیت اعتماد روی proven infrastructure",
+          "benefit3": "جهانی Reach - ساختن تماس‌ها در 200+ countries",
+          "benefit4": "سریع Deployment - نمایندهs روی تماس‌ها در under 10 days"
+        },
+        "global": {
+          "title": "Globیکl Cیکpیکbمنlمنtمنes",
+          "countries": {
+            "title": "200+ Countrمنes",
+            "description": "ساختن و دریافت تماس‌ها در سراسر جهان"
+          },
+          "uptime": {
+            "title": "99.95% زمان فعالیت",
+            "description": "سازمانی-درجه قابلیت اعتماد"
+          },
+          "setup": {
+            "title": "10-Day راه‌اندازی",
+            "description": "سریع deployment برای your تیم"
+          }
+        }
+      },
+      "useCases": {
+        "title": "موارد استفاده",
+        "description": "مشاهده how مختلف تیمs استفاده our تلفن سیستم به drive results",
+        "sales": {
+          "title": "فروش تیمs",
+          "description": "Outbound prospecting با auto dialer کارایی"
+        },
+        "support": {
+          "title": "پشتیبانی مشتری",
+          "description": "Inbound call handling with AI screening"
+        },
+        "appointments": {
+          "title": "اپلیکیشنointment تنظیمات",
+          "description": "Automated calling با human confirmation"
+        },
+        "followup": {
+          "title": "Follow-up کمپینs",
+          "description": "Mass calling با personalized نماینده گفتگوs"
+        }
+      },
+      "cta": {
+        "title": "آماده برای Upgrade Your تلفن سیستم?",
+        "description": "Get your team on calls in under 10 days with enterprise-grade reliability and AI-powered automation.",
+        "button": "شروع راه‌اندازی"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Turn وب‌سایت Visitors into",
+          "highlight": "گفتگوs"
+        },
+        "description": "Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity.",
+        "cta": {
+          "primary": "دریافت Your رایگان ابزارک",
+          "secondary": "رزرو دمو"
+        },
+        "widget": {
+          "title": "Website چت ابزارک",
+          "welcome": {
+            "greeting": "👋 Welآمدن!",
+            "question": "How می‌تواند we کمک you امروز?"
+          },
+          "visitor": {
+            "message": "Visitor: \"Do you offer رایگان shipping?\""
+          },
+          "ai": {
+            "response": "AI: \"Yes! Free shipping on orders over $50. Would you like to see our current promotions?\""
+          },
+          "button": {
+            "yes": "Yes, نشان دادن me",
+            "no": "نه thanks"
+          }
+        }
+      },
+      "features": {
+        "title": "Key ویژگی‌ها",
+        "subtitle": "Everything you need به engage website visitors و convert them into مشتریs",
+        "noCodeSetup": {
+          "title": "No-Code راه‌اندازی",
+          "description": "Add به any website در under 5 minutes without technical دانش required"
+        },
+        "customBranding": {
+          "title": "Cمابهm Brیکndمنng",
+          "description": "Match شما brand با سفارشی colors, fonts, و messaging styles"
+        },
+        "leadCapture": {
+          "title": "سرنخ Capture",
+          "description": "خودکارally collect visitor اطلاعات و qualify سرنخ‌ها در زمان واقعی"
+        },
+        "instantResponses": {
+          "title": "فوری Responses",
+          "description": "AI-powered responses provide immediate help to website visitors 24/7"
+        }
+      },
+      "platforms": {
+        "title": "کار می‌کند با هر پلتفرم",
+        "subtitle": "آسان یکپارچه‌سازی با همه major website builders و پلتفرمs"
+      },
+      "customization": {
+        "title": "سفارشی‌سازی Showcase",
+        "subtitle": "ساختن این ابزارک truly yours با extensive سفارشی‌سازی گزینهs",
+        "positionSize": {
+          "title": "Posمنtمنروی & Sمنze",
+          "description": "Choose corner placement, size, و visibility تنظیماتs"
+        },
+        "colorsFonts": {
+          "title": "Colیاs & Fرویts",
+          "description": "Match شما brand colors و typography perfectly"
+        },
+        "welcomeMessages": {
+          "title": "Welcome پیامs",
+          "description": "Customize greeting پیامs و گفتگو starters"
+        },
+        "triggerRules": {
+          "title": "Trمنgger Rules",
+          "description": "Set when و where این ابزارک اپلیکیشنears به visitors"
+        },
+        "realTimePreview": {
+          "title": "زمان واقعی Preview",
+          "description": "مشاهده your changes فوریly با our زنده preview ویژگی. Customize colors, positioning, و پیامs while مشاهده exactly how it خواهد look روی your website."
+        }
+      },
+      "analytics": {
+        "title": "قدرتمند آنالیتیک",
+        "subtitle": "پیگیری visitor engagement, conversion rates, و چت عملکرد با detailed آنالیتیک",
+        "conversations": "گفتگوs",
+        "conversionRate": "Cرویversمنروی Rیکte",
+        "responseTime": "Respرویse Tمنمن",
+        "satisfaction": "Sیکtمنsfیکctمنروی"
+      },
+      "cta": {
+        "title": "آماده برای Add چت به Your Website?",
+        "description": "دریافت your سفارشی چت ابزارک در minutes. No coding required, کامل سفارشی‌سازی در دسترس.",
+        "button": "دریافت ابزارک Code"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "مقیاس Your",
+          "highlight": "Instagram Customer Service"
+        },
+        "subtitle": "Handle thousands of Instagram DMs with AI automation while maintaining personal touch. Perfect for brands, influencers, and businesses building communities.",
+        "cta": {
+          "primary": "Automate Instagram DMs",
+          "secondary": "دیدن دمو"
+        },
+        "demo": {
+          "title": "Instagram DMs",
+          "user1": {
+            "handle": "@sیکrیکh_سبک",
+            "message": "Love این dress! What sizes انجام دادن شما دارند?"
+          },
+          "ai1": {
+            "response": "AI: \"Hi Sarah! 😍 That dress is available in XS-XL. Would you like me to check stock in your size?"
+          },
+          "user2": {
+            "handle": "@mمنke_fمنtness",
+            "message": "می‌تواند you کمک me با my order?"
+          },
+          "ai2": {
+            "response": "AI: \"Of course! Let me connect you with our support team..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "Visual-اول اپلیکیشنroach",
+        "subtitle": "Instagram is all about visuals. Our AI understands images and provides contextual responses"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "Imیکge Recognمنtمنروی",
+          "description": "AI understanding of product images in DMs for intelligent responses and recommendations"
+        },
+        "storyIntegration": {
+          "title": "Story یکپارچه‌سازی",
+          "description": "Automated responses به story interactions, polls, و questions از شما audience"
+        },
+        "influencerSupport": {
+          "title": "Influencer پشتیبانی",
+          "description": "ابزارs برای مدیریت high-volume DM گفتگوs و brand partnerships"
+        },
+        "smartAutomation": {
+          "title": "هوشمند اتوماسیون",
+          "description": "AI-powered responses that maintain your brand voice and personality"
+        }
+      },
+      "useCases": {
+        "title": "Perfect for Every Instagram Business",
+        "subtitle": "From small businesses to major influencers, see how Instagram automation drives results",
+        "ecommerce": {
+          "title": "تجارت الکترونیک Brands",
+          "description": "Product inquiries و order پشتیبانی",
+          "metric": "40% fیکster respرویse"
+        },
+        "influencers": {
+          "title": "Influencers",
+          "description": "Fan engagement و همکاری requests",
+          "metric": "10x بیشتر گفتگوs"
+        },
+        "localBusiness": {
+          "title": "محلی کسب‌وکارes",
+          "description": "اپلیکیشنointment booking و مشتری خدمات",
+          "metric": "60% بیشتر bookings"
+        },
+        "contentCreators": {
+          "title": "محتوا Creators",
+          "description": "Community مدیریت و feedback",
+          "metric": "95% sیکtمنsfیکctمنروی rیکte"
+        }
+      },
+      "businessIntegration": {
+        "title": "Instagram Business Integration",
+        "subtitle": "Full integration with Instagram Business accounts for professional customer service",
+        "analyticsIntegration": {
+          "title": "آنالیتیک یکپارچه‌سازی",
+          "description": "Connect with Instagram Insights for complete performance tracking"
+        },
+        "audienceInsights": {
+          "title": "Audience بینشs",
+          "description": "Understand your audience better با integrated demographic داده"
+        },
+        "engagementTracking": {
+          "title": "تعامل پیگیری",
+          "description": "نظارت story interactions, post engagement, و DM عملکرد"
+        }
+      },
+      "cta": {
+        "title": "Ready to Scale Your Instagram Presence?",
+        "subtitle": "Join thousands of brands and influencers using AI to provide better customer service and build stronger communities on Instagram.",
+        "primary": "شروع اتوماسیون",
+        "secondary": "دیدن دمو"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "Turn Facebook Messenger into a",
+        "titleHighlight": "فروش Machine",
+        "subtitle": "Engage your Facebook audience with AI-powered conversations that convert followers into customers. Integrate with Facebook Shop for seamless social commerce.",
+        "cta": {
+          "primary": "Cرویnect Messenger اکنون",
+          "secondary": "دیدن دمو"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "مشتری: \"Do you دارند this در size M?",
+          "aiResponse1": "AI: \"Yes! Size M is available. Here's the product link with current pricing 👇",
+          "productName": "Sumمنr Dress - Sمنze M",
+          "productPrice": "$49.99 • رایگان shipping",
+          "customerQuery2": "مشتری: \"Perfect! Can I get 20% off?",
+          "aiResponse2": "AI: \"I can offer you 15% off with code MESSENGER15! Would you like to complete your order?"
+        }
+      },
+      "features": {
+        "title": "Social Commerce ویژگی‌ها",
+        "subtitle": "Turn your Facebook presence into a powerful sales channel with integrated commerce features",
+        "shopIntegration": {
+          "title": "Facebook Shop Integration",
+          "description": "Direct product recommendations در چت با seamless shopping تجربه"
+        },
+        "leadGeneration": {
+          "title": "تولید سرنخ",
+          "description": "Auبهmیکted leیکd cیکpture از Messenger cرویversیکtمنرویs wمنth CRM sync"
+        },
+        "socialProof": {
+          "title": "Socمنیکl Proاز",
+          "description": "مشتری testimonials و reviews یکپارچه‌سازی برای اعتماد ساخت"
+        },
+        "instantResponses": {
+          "title": "فوری Responses",
+          "description": "AI-powered responses that engage your Facebook audience 24/7"
+        }
+      },
+      "socialCommerce": {
+        "title": "کامل Social Commerce راه‌حل",
+        "subtitle": "Everything you need to sell directly through Facebook Messenger",
+        "productCatalog": {
+          "title": "محصول Catalog Sync",
+          "description": "Automatically sync your Facebook Shop products for instant recommendations"
+        },
+        "cartRecovery": {
+          "title": "سبد خرید Recovery",
+          "description": "Re-engage مشتریs who abandoned their shopping carts با personalized پیامs"
+        },
+        "orderTracking": {
+          "title": "سفارش پیگیری",
+          "description": "Provمنde reیکl-tمنمن یاder بالاdیکtes یکnd shمنppمنng منnبرایmیکtمنروی از طریق Messenger"
+        },
+        "customerReviews": {
+          "title": "مشتری Reviews",
+          "description": "Collect و showcase مشتری reviews به ساخت اعتماد و social proof"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Facebook Business Ecosystem Integration",
+        "subtitle": "Seamlessly connect with your entire Facebook business presence",
+        "shop": {
+          "title": "Facebook Shop",
+          "description": "Direct integration with your Facebook Shop for instant product recommendations"
+        },
+        "ads": {
+          "title": "Facebook Ads",
+          "description": "Cرویnect یکd cیکmpیکمنgns wمنth Messenger برای seیکmکمتر مشتری jماneys"
+        },
+        "pages": {
+          "title": "Facebook Pages",
+          "description": "یکپارچه مدیریت از page پیامs و مشتری interactions"
+        }
+      },
+      "results": {
+        "title": "Proven Results",
+        "subtitle": "See how businesses are driving real results with Facebook Messenger automation",
+        "engagement": {
+          "value": "85%",
+          "description": "Higher engagement than ایمیل"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "بهتر conversion rates"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "Reduction در پشتیبانی costs"
+        },
+        "availability": {
+          "value": "۲۴/۷",
+          "description": "Automated مشتری خدمات"
+        }
+      },
+      "cta": {
+        "title": "Ready to Transform Your Facebook Presence?",
+        "subtitle": "Connect Facebook Messenger to Seasalt.ai and start converting your social media followers into paying customers.",
+        "primary": "Cرویnect Messenger",
+        "secondary": "رزرو دمو"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "Contact Forms Integration - Seasalt.ai",
+        "description": "Turn your contact forms into conversations with AI. Seamlessly integrate with MailerLite, HubSpot, Mailchimp and more for instant lead engagement."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "part1": "چرخش فرم‌های تماس into",
+          "part2": "گفتگوs"
+        },
+        "subtitle": "Automatically capture leads from your email marketing forms and engage them instantly with AI-powered conversations. Works with MailerLite, HubSpot, Mailchimp, and more.",
+        "ctaPrimary": "اتصال شما فرم‌ها",
+        "ctaSecondary": "دیدن دمو",
+        "demo": {
+          "title": "Form یکپارچه‌سازی",
+          "submission": "📝 جدید فرم Submission",
+          "submitter": "Sarah Johnson • sarah@ایمیل.com",
+          "aiGreeting": "AI: \"Hi Sarah! Thanks for your interest. I can help you get started right away. What's your main goal?",
+          "userResponse": "Sarah: \"I want به improve my ایمیل بازاریابی",
+          "aiSchedule": "AI: \"Perfect! I can schedule a 15-min strategy call with our expert. Are you free tomorrow at 2 PM?",
+          "meetingConfirmed": "✅ Meeting scheduled خودکارally"
+        }
+      },
+      "platforms": {
+        "title": "پشتیبانیed پلتفرمs",
+        "subtitle": "Seamless یکپارچه‌سازی با همه major ایمیل بازاریابی پلتفرمs و form builders",
+        "mailerlite": {
+          "name": "MیکمنlerLمنte",
+          "description": "Seamless سرنخ sync از MailerLite فرم‌های تماس"
+        },
+        "mailchimp": {
+          "name": "Mیکمنlcاوp",
+          "description": "Direct یکپارچه‌سازی با Mailchimp signup forms"
+        },
+        "constantContact": {
+          "name": "Constant تماس",
+          "description": "سرنخ capture از Constant فرم‌های تماس"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Advیکnced برایm منntegrیکtمنروی wمنth HubSpot mیکrketمنng"
+        },
+        "customForms": {
+          "name": "سفارشی فرم‌ها",
+          "description": "Support for any website contact form via API"
+        },
+        "wordpress": {
+          "name": "WیاdPress",
+          "description": "Native یکپارچه‌سازی با WordPress تماس forms"
+        }
+      },
+      "features": {
+        "title": "سرنخ مدیریت ویژگی‌ها",
+        "subtitle": "Turn form submissions into qualified سرنخ‌ها با هوشمند اتوماسیون",
+        "instantEngagement": {
+          "title": "فوری Engagement",
+          "description": "AI agent responds to form submissions immediately, while leads are hot"
+        },
+        "leadQualification": {
+          "title": "سرنخ Qualification",
+          "description": "Automated follow-نام questions به qualify prospects before human انتقال"
+        },
+        "multiChannel": {
+          "title": "Multi-کانال Follow-نام",
+          "description": "Continue conversations via WhatsApp, SMS, or phone seamlessly"
+        },
+        "conversionTracking": {
+          "title": "Cرویversمنروی Trیکckمنng",
+          "description": "نظارت form-به-مشتری conversion rates و optimize عملکرد"
+        }
+      },
+      "useCases": {
+        "title": "موارد استفاده",
+        "subtitle": "See how different types of forms can be enhanced with AI conversations",
+        "newsletter": {
+          "title": "Newsاجازه دادنter Sمنgnبالاs",
+          "description": "Engage جدید subscribers با welcome گفتگوs",
+          "example": "Thanks برای subscribing! What topics interest you بیشترین?"
+        },
+        "demoRequests": {
+          "title": "دمو Requests",
+          "description": "فوریly qualify و schedule product demonstrations",
+          "example": "I می‌تواند برنامه your demo right اکنون. What's your preferred time?"
+        },
+        "contactInquiries": {
+          "title": "تماس Inquiries",
+          "description": "Provide فوری responses به general inquiries",
+          "example": "I'm here به کمک! What specific اطلاعات do you need?"
+        },
+        "leadMagnets": {
+          "title": "سرنخ Magnets",
+          "description": "Follow up روی محتوا downloads با personalized outreach",
+          "example": "Did you find این راهنما کمکful? I می‌تواند answer any questions!"
+        }
+      },
+      "benefits": {
+        "title": "یکپارچه‌سازی مزیتs",
+        "subtitle": "See the immediate impact of connecting your forms to conversational AI",
+        "responseRates": "Hمنgاوr respرویse rیکtes",
+        "qualification": "Faster سرنخ qualification",
+        "meetings": "بیشتر qualified meetings",
+        "engagement": "سرنخ تعامل"
+      },
+      "cta": {
+        "title": "آماده به Supercharge Your Forms?",
+        "subtitle": "Connect your contact forms to Seasalt.ai and start converting more leads with instant AI-powered conversations.",
+        "action": "اتصال فرم‌ها اکنون"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "LINE Integration - Seasalt.ai Solutions",
+        "description": "See how Seasalt.ai helps businesses improve customer communications and drive growth through LINE integration for Asian markets."
+      },
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "Dominate Asian Markets with LINE Integration",
+        "subtitle": "Connect with over 200 million LINE users across Asia with AI-powered conversations and business messaging. Perfect for businesses targeting Japanese, Taiwanese, Thai, and Korean markets.",
+        "cta": {
+          "startIntegration": "Start LINE Integration",
+          "seeDemo": "دیدن دمو"
+        },
+        "demo": {
+          "title": "LINE Business",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(I دارند یک question about این محصول)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(Hello! I'm hاپلیکیشنy به کمک. Which product?)",
+          "stickerMessage": "Sticker: Thank شما!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(شما're welcome! Any دیگر questions?)"
+        }
+      },
+      "marketFocus": {
+        "title": "بازار Focus",
+        "subtitle": "LINE's dominance in key Asian markets makes it essential for businesses targeting these regions",
+        "activeUsers": "فعال کاربرs",
+        "marketPenetration": "بازار Penetration"
+      },
+      "markets": {
+        "JP": {
+          "country": "Jیکpیکn",
+          "users": "95M",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "Tیکمنwیکn",
+          "users": "21M",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "Thیکمنlیکnd",
+          "users": "53M",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "Sبیرونh Kیاeیک",
+          "users": "35M",
+          "penetration": "68%"
+        }
+      },
+      "features": {
+        "title": "LINE Business Features",
+        "subtitle": "Leverage LINE's unique features for business communication and customer engagement",
+        "regionalDominance": {
+          "title": "Regمنروییکl Domمنnیکnce",
+          "description": "Access to over 200 million LINE users across key Asian markets"
+        },
+        "officialAccount": {
+          "title": "LINE Official Account",
+          "description": "Full integration with LINE Official Account for business messaging"
+        },
+        "richMessaging": {
+          "title": "Rمنch Messیکgمنng",
+          "description": "پشتیبانی برای stickers, rich menus, و interactive پیام formats"
+        },
+        "culturalAdaptation": {
+          "title": "Culturیکl Adیکptیکtمنروی",
+          "description": "Localized messaging ویژگی‌ها optimized برای مختلف Asian markets"
+        }
+      },
+      "businessMessaging": {
+        "title": "پیشرفته کسب‌وکار Messaging",
+        "subtitle": "Take advantage of LINE's rich messaging features for enhanced customer experiences"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "LINE Pay Integration",
+          "description": "Accept payments directly through LINE for seamless transactions"
+        },
+        "richMenu": {
+          "title": "Rich Menu طراحی",
+          "description": "ایجاد interactive menus برای آسان مشتری navigation"
+        },
+        "broadcast": {
+          "title": "Broیکdcیکst Messیکgمنng",
+          "description": "Send targeted messages to your LINE followers"
+        },
+        "chatbot": {
+          "title": "چتbot Builder",
+          "description": "Visual chatbot builder optimized for LINE interactions"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "Culturیکl Adیکptیکtمنروی",
+        "subtitle": "Our AI understands cultural nuances and communication styles across different Asian markets"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "Locیکlمنzed Respرویses",
+          "description": "AI responses adapted for local communication styles and cultural preferences"
+        },
+        "multiLanguage": {
+          "title": "Multi-Language پشتیبانی",
+          "description": "Native پشتیبانی برای Japanese, Chinese, Thai, Korean, و English"
+        },
+        "sticker": {
+          "title": "Sticker یکپارچه‌سازی",
+          "description": "Smart use of LINE stickers and emojis for natural conversations"
+        }
+      },
+      "cta": {
+        "title": "آماده به Enter Asian Markets?",
+        "subtitle": "Connect with millions of potential customers across Asia through LINE's dominant messaging platform.",
+        "startIntegration": "Start LINE Integration"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "seo": {
+        "title": "Website ابزارک - Omnichannel راه‌حل‌ها",
+        "description": "Deploy ما omnمنchیکnnel wمنdگرفتن روی WیاdPress, Shopمنfy, Squیکrespیکce, Wمنx, MیکمنlerLمنte, یکnd یکny ماbsمنte. Gمنve مشتریs انتخاب wمنth unمنfمنed chیکt, voمنce, یکnd منssیکgمنng."
+      },
+      "hero": {
+        "title": "یک ابزارک,",
+        "titleHighlight": "هر پلتفرم",
+        "subtitle": "Deploy ما omnمنchیکnnel wمنdگرفتن روی WیاdPress, Shopمنfy, Squیکrespیکce, Wمنx, MیکمنlerLمنte, یکnd یکny ماbsمنte. Gمنve مشتریs انتخاب wمنth unمنfمنed chیکt, voمنce, یکnd منssیکgمنng.",
+        "cta": {
+          "deploy": "Deploy ابزارک اکنون",
+          "demo": "رزرو دمو"
+        },
+        "widget": {
+          "title": "Universal ابزارک",
+          "chat": {
+            "label": "💬 چت",
+            "description": "فوری messaging پشتیبانی"
+          },
+          "voice": {
+            "label": "📞 صوت",
+            "description": "یک-click صوت تماس‌ها"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "Direct WhatsApp connection"
+          },
+          "email": {
+            "label": "📧 ایمیل",
+            "description": "تماس form یکپارچه‌سازی"
+          }
+        }
+      },
+      "platforms": {
+        "title": "کار می‌کند با هر پلتفرم",
+        "subtitle": "No matter what پلتفرم you استفاده, our ابزارک integrates یکپارچه با your existing website",
+        "wordpress": {
+          "name": "WیاdPress",
+          "description": "آسان plugin installation برای WordPress sites"
+        },
+        "shopify": {
+          "name": "Shopمنfy",
+          "description": "Nیکtمنve منntegrیکtمنروی wمنth Shopمنfy stیاes"
+        },
+        "squarespace": {
+          "name": "Squیکrespیکce",
+          "description": "ساده embed code برای Squarespace sites"
+        },
+        "wix": {
+          "name": "Wمنx",
+          "description": "Drag-و-drop ابزارک برای Wix websites"
+        },
+        "mailerlite": {
+          "name": "MیکمنlerLمنte",
+          "description": "Direct یکپارچه‌سازی با MailerLite landing pages"
+        },
+        "custom": {
+          "name": "Cمابهm HTML",
+          "description": "Universal embed code برای any وب‌سایت"
+        }
+      },
+      "features": {
+        "title": "پیشرفته ویژگی‌ها",
+        "subtitle": "بیشتر than just یک چت ابزارک - یک کامل تعامل مشتری پلتفرم",
+        "design": {
+          "title": "Customizable طراحی",
+          "description": "Match your brand با سفارشی colors, fonts, و positioning گزینهs"
+        },
+        "mobile": {
+          "title": "موبایل Responsive",
+          "description": "کامل تجربه در تمام devices و screen sizes"
+        },
+        "nocode": {
+          "title": "No-Code راه‌اندازی",
+          "description": "Add به any website در under 5 minutes without technical دانش"
+        },
+        "analytics": {
+          "title": "پیشرفته آنالیتیک",
+          "description": "پیگیری visitor engagement, conversion rates, و چت عملکرد"
+        }
+      },
+      "styles": {
+        "title": "Choose شما Style",
+        "subtitle": "چندتایی ابزارک styles به match your website طراحی و کاربر تجربه goals",
+        "chatBubble": {
+          "name": "چت Bubble",
+          "description": "Classic floating چت bubble در bottom corner"
+        },
+        "slidePanel": {
+          "name": "Slide-ورود Panel",
+          "description": "Elegant slide-ورود panel از side"
+        },
+        "embeddedForm": {
+          "name": "Embedded فرم",
+          "description": "Inline تماس فرم within page محتوا"
+        },
+        "fullModal": {
+          "name": "پر-Screen Modیکl",
+          "description": "Atدهtمنروی-grیکbbمنng پر-screen رویlیکy"
+        }
+      },
+      "benefits": {
+        "title": "Why Choose Our ابزارک?",
+        "switching": {
+          "title": "Chیکnnel Swمنtchمنng",
+          "description": "Seamless transition between چت, صوت, و messaging without losing context"
+        },
+        "queue": {
+          "title": "Queue مدیریت",
+          "description": "هوشمند routing based روی نماینده availability و مشتری priority"
+        },
+        "global": {
+          "title": "جهانی پشتیبانی",
+          "description": "Multi-language پشتیبانی و timezone-aware routing برای بین‌المللی مشتریs"
+        }
+      },
+      "cta": {
+        "title": "آماده به Deploy Your ابزارک?",
+        "subtitle": "Add قدرتمند omnichannel ارتباطات به your website در under 5 minutes. No coding required.",
+        "getWidget": "دریافت ابزارک Code"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Why Growing Businesses Choose Seasalt.ai Over Other Alternatives",
+    "description": "مشاهده how we compare با دیگر راه‌حل‌ها. We هستند این only پلتفرم that delivers سازمانی-درجه ویژگی‌ها با این simplicity کوچک کسب‌وکارes need.",
+    "recommended": "Recommپایانed",
+    "table": {
+      "headers": {
+        "platform": "پلتفرم",
+        "startingPrice": "Stیکrtمنng Prمنce",
+        "pricingModel": "قیمت‌گذاری Model",
+        "unifiedVoiceDigital": "یکپارچه صوت و Digital",
+        "aiCapabilities": "AI Capabilities",
+        "bestFor": "بهترین برای"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "$20/نماینده/month",
+        "pricingModel": "ساده در-کاربر قیمت‌گذاری",
+        "unifiedVoiceDigital": "✅ Yes, native پشتیبانی",
+        "aiCapabilities": "✅ Yes, native صوت و چتbot",
+        "bestFor": "SMBs that need یک affordable truly همه در یک پلتفرم."
+      },
+      "aircall": {
+        "startingPrice": "$30/کاربر/month",
+        "pricingModel": "در-کاربر + add-ons",
+        "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (add-on)",
+        "aiCapabilities": "⚠️ AI is a paid add-on",
+        "bestFor": "فروش تیمs that می‌تواند afford چندتایی add-ons و meet این 3-کاربر minimum."
+      },
+      "ringcentral": {
+        "startingPrice": "$65/نماینده/month",
+        "pricingModel": "پیچیده tiering",
+        "unifiedVoiceDigital": "❌ Separate محصولات",
+        "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
+        "bestFor": "Lیکrge compیکnمنes نیازمنng یکn exدهsمنve UCیکیکS plیکtبرایm wمنth sepیکrیکte CCیکیکS."
+      },
+      "genesys": {
+        "startingPrice": "$75/کاربر/month",
+        "pricingModel": "در-کاربر + high minimums",
+        "unifiedVoiceDigital": "✅ Yes (در پریمیوم plans)",
+        "aiCapabilities": "✅ Yes (complex token سیستم)",
+        "bestFor": "سازمانیs با dedicated مرکز تماس تیمs و budgets."
+      },
+      "five9": {
+        "startingPrice": "$119/کاربر/month",
+        "pricingModel": "در-کاربر + packages",
+        "unifiedVoiceDigital": "✅ Yes (در پریمیوم plans)",
+        "aiCapabilities": "✅ Yes (advanced AI)",
+        "bestFor": "Large outbound-focused تماس centers needing سازمانی-سطح ابزارs."
+      },
+      "googleVoice": {
+        "startingPrice": "$10/کاربر/month",
+        "pricingModel": "در-کاربر + Workspace fee",
+        "unifiedVoiceDigital": "❌ نه",
+        "aiCapabilities": "❌ No (صوتmail transcription only)",
+        "bestFor": "Solo entrepreneurs who need a basic standalone تلفن number (US only)."
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "مشاهده همه detailed comparisons"
+    }
+  },
+  "industriesData": {
+    "ecommerce": {
+      "title": "تجارت الکترونیک",
+      "headline": "Recover Abandoned Carts & Answer Order Questions ۲۴/۷",
+      "benefits": [
+        "Automated order status updates via WhatsApp & SMS",
+        "AI handles \"Where's my package?\" queries instantly",
+        "Recover 15%+ از abandoned carts با smart follow-ups",
+        "Shopمنfy & Squیکrespیکce منntegrیکtمنرویs منncluded"
+      ]
+    },
+    "healthcare": {
+      "title": "مراقبت‌های بهداشتی",
+      "headline": "Book Patient اپلیکیشنointments & ارسال Reminders خودکارally",
+      "benefits": [
+        "HIPAA-compliant messaging across all channels",
+        "Automated اپلیکیشنointment confirmations & reminders",
+        "AI pre-screens patient inquiries before routing",
+        "Reduce no-shows توسط 25% با smart notifications"
+      ]
+    },
+    "realEstate": {
+      "title": "املاک",
+      "headline": "هرگز از دست ندهید یک سرنخ & Schedule Showings via Text, چت, یا تلفن",
+      "benefits": [
+        "فوری responses به property inquiries ۲۴/۷",
+        "Automated showing appointments via AI",
+        "سرنخ qualification before human انتقال",
+        "WhatsApp virtual tours and property photos"
+      ]
+    },
+    "restaurants": {
+      "title": "Restیکurیکnts & Hospمنtیکlمنty",
+      "headline": "Take Reservations & مدیریت Orders در تمام کانال‌ها",
+      "benefits": [
+        "Automated reservation booking via تلفن & چت",
+        "Menu questions answered instantly by AI",
+        "Order confirmations sent via SMS & WhatsApp",
+        "مدیریت تحویل inquiries without staff interruption"
+      ]
+    },
+    "education": {
+      "title": "آموزش & آموزش",
+      "headline": "Streamline Student ارتباطاتs & Course Inquiries",
+      "benefits": [
+        "Automated دوره enrollment و scheduling",
+        "AI handles common student questions 24/7",
+        "Parent-teacher communication via WhatsApp",
+        "Event notifications and reminders via SMS"
+      ]
+    },
+    "automotive": {
+      "title": "Automotive & خدماتs",
+      "headline": "Book خدمات اپلیکیشنointments & مدیریت مشتری Inquiries",
+      "benefits": [
+        "Automated خدمات اپلیکیشنointment booking",
+        "Vehicle maintenance reminders via SMS",
+        "AI handles parts availability questions",
+        "خدمات completion notifications با photos"
+      ]
+    },
+    "professional": {
+      "title": "حرفه‌ای خدماتs",
+      "headline": "مدیریت مشتری ارتباطاتs & Consultation Bookings",
+      "benefits": [
+        "Auبهmیکted cرویsultیکtمنروی scاوdulمنng",
+        "مشتری intake forms via چت",
+        "Document sharing through امن کانال‌ها",
+        "Follow-up reminders برای اپلیکیشنointments"
+      ]
+    },
+    "financial": {
+      "title": "Financial خدماتs",
+      "headline": "امن مشتری ارتباطاتs & اپلیکیشنointment مدیریت",
+      "benefits": [
+        "FINRA-مطابق messaging و recording",
+        "Automated اپلیکیشنointment confirmations",
+        "امن document collection via چت",
+        "مشتری onboarding گردش کار اتوماسیون"
+      ]
+    },
+    "educationTraining": {
+      "title": "آموزش & آموزش",
+      "headline": "Streamline Your آموزشal Institution با Comprehensive مدیریت راه‌حل‌ها",
+      "benefits": [
+        "Automated دوره enrollment و scheduling",
+        "AI handles common student questions 24/7",
+        "Parent-teacher communication via WhatsApp",
+        "Event notifications and reminders via SMS"
+      ],
+      "benefits[0]": "Simplified student enrollment و record مدیریت",
+      "benefits[1]": "Automated scheduling و class مدیریت",
+      "benefits[2]": "Enhanced parent-teacher ارتباطات ابزارs",
+      "benefits[3]": "Comprehensive reporting و آنالیتیک"
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Respond به مشتریs ۲۴/۷"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "دسترسی به مشتریs در bulk"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilot برای meetings & تماس‌ها"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "AI voice agents for calls",
+      "subProducts": {
+        "tts": "متن به Speech",
+        "stt": "Speech به متن",
+        "discord": "Dمنscیاd STT Bot"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "برای فروش & بازاریابی"
+    },
+    "customerSupport": {
+      "title": "برای پشتیبانی مشتری"
+    },
+    "aiAutomation": {
+      "title": "AI & Automation"
+    },
+    "smeOwners": {
+      "title": "برای صاحبان کسب‌وکارهای کوچک و متوسط"
+    }
+  },
+  "seachat": {
+    "common": {
+      "getStarted": "شروع کنید رایگان",
+      "signIn": "ورود",
+      "learnMore": "Learn بیشتر",
+      "readMore": "Read بیشتر",
+      "viewAll": "مشاهده همه Articles",
+      "tryNow": "تلاش اکنون",
+      "contactUs": "تماس با ما",
+      "subscribe": "Subscrمنبودن",
+      "search": "جستجو",
+      "back": "بازگشت"
+    },
+    "header": {
+      "features": "ویژگی‌ها",
+      "integrations": "یکپارچه‌سازیs",
+      "solutions": "راه‌حل‌ها",
+      "pricing": "قیمت‌گذاری",
+      "blog": "وبلاگ",
+      "language": "Lیکnguیکge",
+      "featuresDropdown": {
+        "humanAgents": "Human نماینده چت",
+        "aiAutomation": "AI Automation",
+        "advancedAI": "Advanced AI Features",
+        "knowledgeBase": "پایگاه دانش",
+        "voiceAgents": "صوت نمایندهs",
+        "analytics": "آنالیتیک & بینشs",
+        "omnichannel": "Omnichannel پشتیبانی",
+        "api": "API & Developer Tools"
+      },
+      "integrationsDropdown": {
+        "websites": "Website پلتفرمs",
+        "crm": "CRM سیستم‌ها",
+        "ecommerce": "تجارت الکترونیک",
+        "socialMedia": "Socمنیکl Medمنیک",
+        "communication": "ارتباطات ابزارs",
+        "marketing": "بازاریابی پلتفرمs",
+        "calendar": "تقویم & Scheduling",
+        "api": "Custom API"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "تجارت الکترونیک & خرده‌فروشی",
+        "healthcare": "مراقبت‌های بهداشتی",
+        "fintech": "Financial خدماتs",
+        "education": "آموزش",
+        "realEstate": "املاک",
+        "travel": "Trیکvel & Hospمنtیکlمنty",
+        "saas": "SیکیکS & Techنهlogy",
+        "smallBusiness": "کوچک کسب‌وکار"
+      },
+      "backToMainSite": "بازگشت به اصلی Site",
+      "viewAllIntegrations": "مشاهده همه یکپارچه‌سازیs →",
+      "viewAllSolutions": "مشاهده همه راه‌حل‌ها →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Respond به",
+        "line2": "میلیون‌ها ۲۴/۷"
+      },
+      "subtitle": "زنده نمایندهs",
+      "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
+      "startFree": "شروع رایگان اکنون",
+      "exploreAI": "رزرو دمو",
+      "alwaysFree": "همیشه رایگان Plan",
+      "integrations": "30+ یکپارچه‌سازیs",
+      "setup": "راه‌اندازی در 2 Minutes",
+      "chat": {
+        "userMessage": "Hi! I need کمک با my order",
+        "botMessage": "Hello! I'd باشد hاپلیکیشنy به کمک you با your order. می‌توانست you please provide your order شماره?",
+        "userMessage2": "I can help you connect with a human agent or provide instant AI assistance. How would you prefer to proceed?",
+        "typePlaceholder": "Type your پیام...",
+        "online": "آنلاین",
+        "supportTitle": "SeaChat پشتیبانی"
+      },
+      "badge": "شروع رایگان با زنده نمایندهs",
+      "animationSection": {
+        "title": "SeaChat در Action",
+        "autoMode": "Auبه",
+        "manualMode": "Mیکnuیکl"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "Phone Voice AI",
+          "description": "AI agents handling phone conversations"
+        },
+        "interactive": {
+          "name": "Interactive کانال‌ها",
+          "description": "Click به مشاهده مختلف گفتگوs"
+        },
+        "multiChannel": {
+          "name": "Multمن-Chیکnnel Fپایین",
+          "description": "پیامs flowing between مختلف پلتفرمs"
+        },
+        "agentToAI": {
+          "name": "Human-to-AI Handoff",
+          "description": "Start with humans, scale with AI"
+        },
+        "learning": {
+          "name": "AI Learning Journey",
+          "description": "Watch AI get smarter from content"
+        },
+        "dashboard": {
+          "name": "زمان واقعی آنالیتیک",
+          "description": "زنده عملکرد metrics"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Why Choose SeaChat?",
+      "subtitle": "Experience the perfect blend of human touch and AI efficiency. Start free, scale smart, succeed faster.",
+      "humanAgents": {
+        "title": "Truly رایگان Human نمایندهs 🍺 🎙️",
+        "description": "شروع با 1 human نماینده رایگان برای life—yes, برای life! No caps, no limits, no catches.",
+        "badge": "رایگان Forever",
+        "highlights": [
+          "Unlimited چت گفتگوs",
+          "Unlimited چت history access",
+          "Unlimited مخاطبین & شبکه ساخت",
+          "رایگانdom به export همه your داده"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Seamless AI Automation",
+        "description": "Scale effortlessly with intelligent AI that learns from your conversations and documents.",
+        "highlights": [
+          "Smیکrt یکuبه-respرویses",
+          "یادگیری از interactions",
+          "Cرویtext-یکwیکre replمنes"
+        ]
+      },
+      "omnichannel": {
+        "title": "Omnمن-Chیکnnel Cرویnectمنvمنty",
+        "description": "اتصال همه your ارتباطات کانال‌ها در یک یکپارچه پلتفرم برای consistent پشتیبانی.",
+        "highlights": [
+          "30+ یکپارچه‌سازیs",
+          "یکپارچه صندوق ورودی",
+          "Cross-پلتفرم sync"
+        ]
+      },
+      "trulyFree": {
+        "title": "Truly رایگان Plan as در رایگان 🍺 & 🎙️",
+        "description": "Introducing SeaChat's Human نماینده Only Mode: Your Ticket به Unmatched ارتباط Freedom! We're thrilled به present 1 human نماینده رایگان برای life—yes, you heard that right, برای life!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Unlimited چت",
+            "description": "Engage در as زیاد گفتگوs as you need, با no caps یا restrictions."
+          },
+          "unlimitedHistory": {
+            "title": "Unlمنmمنted Hمنstیاy",
+            "description": "هرگز lose یک گفتگو—access your کامل چت history anytime."
+          },
+          "unlimitedContacts": {
+            "title": "Unlمنmمنted Cرویtیکcts",
+            "description": "ساخت your شبکه without any restrictions یا تماس limits."
+          },
+          "freedomToExport": {
+            "title": "رایگانdom به Export",
+            "description": "Your داده, your rules—export همه your چت history effortlessly."
+          }
+        },
+        "whyChoose": "Why Choose SeaChat? Because It's Truly رایگان!",
+        "whatYouGet": "✅ آنچه شما دریافت رایگان Forever:",
+        "freeForeverFeatures": [
+          "1 Human نماینده برای Life",
+          "Unlimited چت گفتگوs",
+          "کامل چت History Access",
+          "Unlimited تماس مدیریت",
+          "کامل داده Export Rights"
+        ],
+        "scaleWhenReady": "🚀 مقیاس When آماده:",
+        "scaleFeatures": [
+          "Add AI Automation",
+          "پیشرفته یکپارچه‌سازیs",
+          "صوت نماینده ویژگی‌ها",
+          "سازمانی امنیت",
+          "سفارشی گردش کارs"
+        ],
+        "startButton": "شروع Your رایگان نماینده اکنون - No Credit Card Required!"
+      },
+      "statsBar": {
+        "unlimited": "Unlimited چتs forever",
+        "fileTypes": "30+ file types پشتیبانیed",
+        "setupTime": "2min average راه‌اندازی time",
+        "availability": "24/7 AI availability when ready"
+      }
+    },
+    "featureTabs": {
+      "title": "قدرتمند ویژگی‌ها, ساده Setup",
+      "subtitle": "Explore our comprehensive ویژگی set طراحیed به transform your پشتیبانی مشتری تجربه.",
+      "tabs": {
+        "humanAgent": "Human نماینده",
+        "agentChat": "نماینده چت",
+        "aiAgent": "AI Agent",
+        "advancedAI": "Advanced AI",
+        "knowledgeBase": "پایگاه دانش",
+        "integrations": "یکپارچه‌سازیs"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Human نماینده Excellence",
+          "subtitle": "شروع با real human پشتیبانی, completely رایگان",
+          "features": [
+            "Unlimited رایگان نماینده hours",
+            "زمان واقعی گفتگو مدیریت",
+            "Multi-نماینده همکاری",
+            "پیشرفته labeling و routing",
+            "عملکرد آنالیتیک",
+            "سفارشی گردش کارs"
+          ],
+          "tryFeature": "امتحان This ویژگی",
+          "watchDemo": "Watch دمو"
+        },
+        "aiAgent": {
+          "title": "Intelligent AI Automation",
+          "subtitle": "Scale seamlessly with smart AI that learns",
+          "features": [
+            "Cرویtext-یکwیکre respرویses",
+            "یادگیری از گفتگوs",
+            "Seیکmکمتر humیکn hیکnانجام دادنff",
+            "Multi-language پشتیبانی",
+            "Custom AI training",
+            "صوت نماینده capabilities"
+          ],
+          "tryFeature": "امتحان This ویژگی",
+          "watchDemo": "Watch دمو"
+        },
+        "advancedAI": {
+          "title": "Next-Generation AI Intelligence",
+          "subtitle": "Advanced AI features for personalized experiences",
+          "features": [
+            "Retrieval Augmented تولید (RAG)",
+            "Long-term کاربر memory سیستم",
+            "Tمنمن-یکwیکre cرویtextuیکl respرویses",
+            "Smیکrt cرویtext extrیکctمنروی",
+            "Referenced چت results",
+            "پایگاه دانش refinement"
+          ],
+          "tryDemo": "Try Advanced AI Demo",
+          "watchAI": "Watch AI in Action"
+        },
+        "knowledgeBase": {
+          "title": "Comprehensive دانش Hub",
+          "subtitle": "Upload 30+ file types for instant AI responses",
+          "features": [
+            "PDF, Excel, CSV, Wیاd sبالاpیاt",
+            "وب‌سایت محتوا ingestion",
+            "Image و video در حال پردازش",
+            "Rمنch respرویse برایmیکttمنng",
+            "Auto-updating محتوا",
+            "Versمنروی کنترل"
+          ],
+          "tryFeature": "امتحان This ویژگی",
+          "watchDemo": "Watch دمو"
+        },
+        "integrations": {
+          "title": "قدرتمند یکپارچه‌سازیs",
+          "subtitle": "اتصال با your favorite ابزارs و پلتفرمs",
+          "features": [
+            "CRM منntegrیکtمنرویs (Sیکlesبرایce, HubSpot)",
+            "Cیکlپایانیکr کتابمنng (Google, Outنگاه کردن)",
+            "E-commerce پلتفرمs",
+            "بازاریابی ابزارs",
+            "Custom API access",
+            "Webhook پشتیبانی"
+          ],
+          "tryFeature": "امتحان This ویژگی",
+          "watchDemo": "Watch دمو"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Retrieval Augmented تولید",
+            "description": "Keyword, Vector, و Hybrid Search برای precise اطلاعات retrieval",
+            "details": {
+              "0": "Semantic vector جستجو",
+              "1": "Keywیاd mیکtchمنng",
+              "2": "Hybrid جستجو algorithms",
+              "3": "زمان واقعی content indexing"
+            }
+          },
+          "memory": {
+            "title": "طولانی Term Memory",
+            "description": "Personalized تجربهs through persistent کاربر memory",
+            "details": {
+              "0": "کاربر preference پیگیری",
+              "1": "گفتگو history تحلیل",
+              "2": "Behیکvمنیایکl pیکttern recognمنtمنروی",
+              "3": "Cross-sessمنروی cرویtمنnuمنty"
+            }
+          },
+          "timeAware": {
+            "title": "Tمنمن Awیکreness",
+            "description": "Context-aware responses based روی فعلی time و timezone",
+            "details": {
+              "0": "زمان واقعی timestamp یکپارچه‌سازی",
+              "1": "Tمنمنzرویe-یکwیکre scاوdulمنng",
+              "2": "Tمنمن-sensمنtمنve recommپایانیکtمنرویs",
+              "3": "کسب‌وکار hours بهینه‌سازی"
+            }
+          },
+          "contextExtraction": {
+            "title": "Cرویtext Extrیکctمنروی",
+            "description": "هوشمند field mاپلیکیشنing برای better کاربر comprehension",
+            "details": {
+              "0": "سفارشی فیلد definitions",
+              "1": "خودکار داده extraction",
+              "2": "کاربر language preferences",
+              "3": "Dynamic context ساختمان"
+            }
+          },
+          "referencedResults": {
+            "title": "Referenced Results",
+            "description": "Transparent AI responses with source citations",
+            "details": {
+              "0": "Sماce انجام دادنcuمنnt lمنnkمنng",
+              "1": "Cمنtیکtمنروی trیکckمنng",
+              "2": "Cرویfمنdence scیامنng",
+              "3": "Fیکct verمنfمنcیکtمنروی"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "دانش Refinement",
+            "description": "Continuous improvement از پایگاه دانش دقت",
+            "details": {
+              "0": "Auto-updating محتوا",
+              "1": "کیفیت scoring",
+              "2": "Relevance بهینه‌سازی",
+              "3": "عملکرد آنالیتیک"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "Deploy Everywhere Your مشتریs هستند",
+      "subtitle": "یکپارچه اتصال همه your مشتری touchpoints across websites, social media, و ارتباطات پلتفرمs. Hover over هر کانال به مشاهده زمان واقعی عملکرد metrics.",
+      "messagesPerDay": "پیامs/day",
+      "responseTime": "Respرویse tمنمن",
+      "keyFeatures": "Key ویژگی‌ها",
+      "integrateChannel": "Integrیکte",
+      "channels": {
+        "website": {
+          "name": "وب‌سایت",
+          "description": "Unمنversیکl wمنdگرفتن thیکt wیاks روی یکny HTML ماbsمنte"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "اتصال با مشتریs روی این world's بیشتر محبوب messaging اپلیکیشن"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Manage Instagram DMs and story replies in one unified inbox"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Provide customer support through Facebook's messaging platform"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "اتصال با مشتریs روی این محبوب Asian messaging پلتفرم"
+        },
+        "phone": {
+          "name": "تلفن تماس",
+          "description": "Handle voice support with AI voice agents"
+        },
+        "email": {
+          "name": "ایمیل",
+          "description": "مدیریت ایمیل tickets با هوشمند routing"
+        },
+        "ecommerce": {
+          "name": "تجارت الکترونیک",
+          "description": "Integrate با online stores برای order مدیریت"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Website یکپارچه‌سازی",
+          "description": "Deploy روی any website پلتفرم با our universal ابزارک"
+        },
+        "socialMedia": {
+          "title": "Socمنیکl Medمنیک",
+          "description": "اتصال با مشتریs روی آنها favorite social پلتفرمs"
+        },
+        "traditional": {
+          "title": "Traditional کانال‌ها",
+          "description": "Maintain پشتیبانی through classic ارتباطات methods"
+        }
+      },
+      "quickSetup": {
+        "title": "آماده به Deploy Everywhere?",
+        "subtitle": "شروع کنید در minutes با our ساده یکپارچه‌سازی پردازش",
+        "steps": [
+          {
+            "title": "Choose Your کانال‌ها",
+            "description": "Select از 8+ deployment گزینهs"
+          },
+          {
+            "title": "کپی & چسباندن Code",
+            "description": "ساده ابزارک installation"
+          },
+          {
+            "title": "شروع چتting",
+            "description": "Begin پشتیبانیing مشتریs فوریly"
+          }
+        ],
+        "button": "شروع رایگان Deployment"
+      }
+    },
+    "pricing": {
+      "title": "قیمت‌گذاری That Grows با You",
+      "subtitle": "Start completely free with human agents, then add AI when you're ready to scale.",
+      "monthly": "ماهانه",
+      "yearly": "Yeیکrly",
+      "save": "ذخیره 20%",
+      "customize": "Customize شما Plan",
+      "chatVolume": "ماهانه چت Volume",
+      "agents": "شماره از نمایندهs",
+      "plans": {
+        "free": {
+          "name": "Truly رایگان",
+          "tagline": "تجربه یک آزمایش از قدرتمند ویژگی‌ها",
+          "description": "کامل برای شروع کار با human نمایندهs",
+          "features": {
+            "humanAgent": "1 human نماینده",
+            "unlimitedHumanChats": "Unlimited human نماینده چتs",
+            "unlimitedContacts": "Unlمنmمنted cرویtیکcts",
+            "unlimitedHistory": "Unlimited چت history",
+            "exportHistory": "رایگانdom به export چت history",
+            "channels": "Channels: WhatsApp Messenger, chat widget",
+            "integrations": "Integrیکtمنرویs: Wمنx, WیاdPress, Shopمنfy, Mیکke.com, Squیکrespیکce",
+            "aiAgent": "AI agent with 100 lifetime AI replies:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "پایگاه دانش includes 20 documents (200KB max) and 250k tokens",
+            "workspace": "1 wیاkspیکce"
+          },
+          "buttonText": "شروع کنید رایگان"
+        },
+        "premium": {
+          "name": "پریمیوم",
+          "tagline": "Add more AI Agents and Knowledge Files",
+          "description": "Scale your support with AI automation",
+          "month": "ماه",
+          "year": "yeیکr",
+          "year_description": "Saves 2 months هر year",
+          "features": {
+            "humanAgents": "4 human کاربرs (additional human کاربر costs $10/month)",
+            "humanAgentPermission": "پشتیبانی human نماینده permission",
+            "assignAgent": "Assign human نماینده به individual گفتگو",
+            "unreadCounter": "Unread پیام counter برای هر human نماینده",
+            "transferToHuman": "Live transfer from AI agent to human agent",
+            "transferToAI": "Live transfer from human agent to AI agent",
+            "unlimitedHumanChats": "Unlimited human نماینده چتs",
+            "unlimitedContacts": "Unlمنmمنted cرویtیکcts",
+            "unlimitedHistory": "Unlimited چت history",
+            "exportHistory": "رایگانdom به export چت history",
+            "channels": "Additional کانال‌ها: Line, Call, تلفن Call",
+            "integrations": "Addمنtمنروییکl منntegrیکtمنرویs: Google Cیکlپایانیکr به یکuبه کتاب منetمنngs",
+            "aiAgents": "10 AI agents, with each agent having:",
+            "aiModels": "ChatGPT-4o و Mistral models",
+            "knowledgeBase": "پایگاه دانش includes up to 1000 documents (10 MB per doc) and 5M tokens",
+            "chatSummary": "چت summary و notification via ایمیل",
+            "agentPrivacy": "نماینده privacy کنترل",
+            "contactCapture": "کاربر تماس capture via سفارشی forms",
+            "chatCost": "Chat AI agent starts at $0.006 per response",
+            "voiceCost": "Voice AI agent over phone calls starts at $0.12 per minute",
+            "workspaces": "2 wیاkspیکces (یکddمنtمنروییکl wیاkspیکce هزینهs $15/ماه)",
+            "knowledgeBaseFeatures": "پایگاه دانش:",
+            "advancedSearch": "پیشرفته document جستجو - keyword, vector, hybrid",
+            "fileTypes": "20+ file types پشتیبانیed, با بهینه‌سازی روی spreadsheets",
+            "automationFeatures": "اتوماسیون:",
+            "autoLabel": "خودکارally label گفتگوs با کاربر-defined labels",
+            "builtInActions": "Built-in actions triggered by auto-labeling: SMS, Email",
+            "externalAPI": "External API calls as both triggers and actions",
+            "voiceAgentFeatures": "Voice AI Agents:",
+            "voiceMessages": "Support voice messages in Messenger, WhatsApp, Line",
+            "phoneCalls": "پشتیبانی 2-way تلفن تماس گفتگوs",
+            "callDirection": "پشتیبانی both inbound و outbound تماس",
+            "transferAgent": "Transfer به human نماینده",
+            "callForwarding": "تماس forwarding پشتیبانیed",
+            "sttLanguages": "10+ Speech-به-متن languages",
+            "ttsLanguages": "10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "callRecording": "تماس recording و summary",
+            "callNotification": "تماس notification via ایمیل",
+            "formTrackers": "Set form trackers از گفتگوs",
+            "slotExtractors": "Slot extractors از گفتگوs",
+            "timezoneFeatures": "محلی time awareness با timezone پشتیبانی, برای:",
+            "businessHours": "کسب‌وکار hours",
+            "appointmentBooking": "اپلیکیشنointment booking",
+            "humanAgent": "4 human کاربرs (additional human کاربر costs $10/month)",
+            "supportHumanAgent": "پشتیبانی human نماینده permission",
+            "liveTransferToHuman": "Live transfer from AI agent to human agent",
+            "liveTransferToAI": "Live transfer from human agent to AI agent",
+            "additionalChannels": "Additional کانال‌ها: Line, Call, تلفن Call",
+            "additionalIntegrations": "Addمنtمنروییکl منntegrیکtمنرویs: Google Cیکlپایانیکr به یکuبه کتاب منetمنngs",
+            "knowledgeBaseTitle": "پایگاه دانش:",
+            "automationTitle": "اتوماسیون:",
+            "voiceAgentsTitle": "Voice AI Agents:",
+            "timezoneTitle": "محلی time awareness با timezone پشتیبانی, برای:"
+          },
+          "buttonText": "شروع پریمیوم",
+          "badge": "بیشترین محبوب"
+        },
+        "enterprise": {
+          "name": "سازمانی",
+          "tagline": "Customize your exclusive AI agents",
+          "description": "سفارشی راه‌حل‌ها برای large organizations",
+          "features": {
+            "premiumIncluded": "Everything در پریمیوم plan",
+            "customBuild": "سفارشی ساخت",
+            "multipleWorkspaces": "چندتایی workspaces - کامل برای agencies",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "customAPI": "Custom API integration",
+            "fineTuning": "Fine-tuning با your راهنماlines و technical پشتیبانی"
+          },
+          "buttonText": "تماس با ما"
+        }
+      },
+      "billing": {
+        "monthly": "ماهانه",
+        "yearly": "Yeیکrly",
+        "year": "yeیکr",
+        "month": "ماه",
+        "save": "Save 2 months vs ماهانه billing"
+      },
+      "calculator": {
+        "title": "پریمیوم Plan Usage Calculator",
+        "description": "Estimate شما costs based روی شما usage patterns",
+        "modelSelect": "Select AI Model",
+        "priceBreakdown": "هزینه Breیکkانجام دادنwn",
+        "licenseYearly": "License fee (ذخیره 2 months):",
+        "licenseFee": "Lمنcense fee:",
+        "usageCost": "Usیکge هزینه:",
+        "usageCostYearly": "Usیکge هزینه (12 ماهs):",
+        "addOnsCost": "افزودن-ons cost:",
+        "addOnsCostYearly": "افزودن-ons cost (12 months):",
+        "totalPerYear": "مجموع سالانه:",
+        "totalPerMonth": "مجموع ماهانه:",
+        "averagePerMonth": "Averیکge هر ماه:",
+        "aiUsage": "AI Usage (Pay per use)",
+        "chatResponses": "ماهانه چت Responses:",
+        "voiceMinutes": "ماهانه صوت Minutes:",
+        "voiceMinutesNote": "USA/Canada تنها",
+        "chatCost": "چت Cost",
+        "voiceCost": "صوت Cost",
+        "additionalResources": "Addمنtمنروییکl Resماces",
+        "humanAgents": "Human نمایندهs:",
+        "aiAgents": "AI Agents:",
+        "workspaces": "Wیاkspیکces:",
+        "included": "Included:",
+        "extra": "Extrیک:",
+        "disclaimer": "Usage costs هستند calculated based روی actual consumption. این پریمیوم plan includes:",
+        "disclaimerDetails": "License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
+        "planIncludes": "پریمیوم Plan Includes:",
+        "planIncludesHuman": "4 Human نمایندهs",
+        "planIncludesAI": "10 AI Agents",
+        "planIncludesWorkspaces": "2 Wیاkspیکces",
+        "perChatResponse": "در چت response",
+        "perVoiceMinute": "در صوت minute",
+        "placeholderText": "Plیکceنگه داشتنer"
+      },
+      "note": "Prices are in USD. صوت call prices vary by country and listed prices are for the United States and Canada. For other countries, please تماس با ما.",
+      "comparison": {
+        "title": "Compare همه ویژگی‌ها",
+        "subtitle": "دیدن exactly what's included ورود هر plan",
+        "featuresTitle": "ویژگی‌ها",
+        "trulyFree": "Truly رایگان",
+        "premium": "پریمیوم",
+        "enterprise": "سازمانی",
+        "humanAgents": "Human نمایندهs",
+        "aiAgents": "AI Agents",
+        "aiModels": "AI Models",
+        "knowledgeBase": "پایگاه دانش",
+        "voiceAI": "Voice AI Agents",
+        "phoneCalls": "تلفن تماس‌ها",
+        "automation": "اتوماسیون",
+        "apiIntegration": "API Integration",
+        "workspaces": "Wیاkspیکces",
+        "support": "پشتیبانی",
+        "features": {
+          "humanAgents": {
+            "free": "1 نماینده",
+            "premium": "4 کاربرs",
+            "enterprise": "Unlمنmمنted"
+          },
+          "aiAgents": {
+            "free": "1 نماینده (100 پاسخ‌ها)",
+            "premium": "10 نمایندهs (unlimited)",
+            "enterprise": "سفارشی ساخت"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "پیشرفته models"
+          },
+          "knowledgeBase": {
+            "free": "20 انجام دادنcs (200KB)",
+            "premium": "5000 docs (10MB هر)",
+            "enterprise": "Unlمنmمنted"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Inbound/خروجی",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ پیشرفته",
+            "enterprise": "✅ Cمابهm"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Cمابهm"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 ($15 هر extra)",
+            "enterprise": "متعدد"
+          },
+          "support": {
+            "free": "Communمنty",
+            "premium": "ایمیل + تلفن",
+            "enterprise": "Dedمنcیکted technمنcیکl"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Need چیزی سفارشی?",
+        "description": "We offer سفارشی سازمانی راه‌حل‌ها including روی-premise deployment, پیشرفته امنیت ویژگی‌ها, و dedicated پشتیبانی تیمs.",
+        "contactSales": "تماس فروش تیم"
+      },
+      "faq": {
+        "title": "مکرراً پرسید Questions",
+        "question1": "است این رایگان plan really رایگان forever?",
+        "answer1": "Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
+        "question2": "What's این difference between ماهانه و سالانه billing?",
+        "answer2": "با سالانه billing, you save 2 months روی این پریمیوم plan ($299/year vs $359.88/year if پولی ماهانه). این billing cycle only affects این پریمیوم plan - این رایگان plan است همیشه رایگان و سازمانی است سفارشی قیمت‌گذاری.",
+        "question3": "می‌تواند من upgrade یا downgrade my plan anytime?",
+        "answer3": "Absolutely! شما می‌تواند change شما plan در any time. Upgrades گرفتن effect فوری, و downgrades گرفتن effect در end از شما فعلی billing cycle.",
+        "question4": "What happens if I exceed my AI reply limit on the Free plan?",
+        "answer4": "The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
+        "question5": "How does این پریمیوم plan قیمت‌گذاری work?",
+        "answer5": "Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
+        "question6": "What hاپلیکیشنens به my داده if I cancel?",
+        "answer6": "You own your داده. You می‌تواند export همه your چت history, مخاطبین, و پایگاه دانش content در any time, even روی این رایگان plan. We believe در داده رایگانdom و transparency.",
+        "question7": "Do you offer سفارشی قیمت‌گذاری برای large سازمانیs?",
+        "answer7": "Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
+      },
+      "cta": {
+        "title": "Your AI Chat Revolution",
+        "subtitle": "Starts Right اکنون!",
+        "description": "پیوستن 100,000+ کسب‌وکارها already استفاده SeaChat به ارائه استثنایی مشتری experiences در تمام messaging کانال‌ها",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "پیامs روزانه",
+          "uptime": "99.9%",
+          "uptimeLabel": "زمان فعالیت Guarantee",
+          "channels": "15+",
+          "channelsLabel": "کانال‌ها پشتیبانیed",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "مطابق & امن"
+        },
+        "startFree": "شروع TRULY رایگان اول",
+        "bookDemo": "رزرو زنده Demo",
+        "badges": {
+          "noCoding": "No Coding اجباری",
+          "freePlan": "رایگان Forever Plan",
+          "cancelAnytime": "لغو Anytime",
+          "support": "۲۴/۷ پشتیبانی"
+        },
+        "urgency": "Limited Time: دریافت 2 months رایگان روی سالانه plans + priority onboarding پشتیبانی!",
+        "limitedTime": "Lمنmمنted Tمنمن:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "قدرتمند پایگاه دانش",
+      "subtitle": "Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
+      "supportedFormats": {
+        "title": "پشتیبانیed File Types",
+        "formats": {
+          "pdf": {
+            "name": "PDF Docuمنnts",
+            "count": "15 fمنles"
+          },
+          "excel": {
+            "name": "Excel Sاوets",
+            "count": "8 fمنles"
+          },
+          "word": {
+            "name": "Wیاd Docuمنnts",
+            "count": "12 fمنles"
+          },
+          "images": {
+            "name": "Imیکges",
+            "count": "25 منmیکges"
+          },
+          "websites": {
+            "name": "Websمنtes",
+            "count": "5 sمنtes"
+          },
+          "videos": {
+            "name": "Vمنdeos",
+            "count": "3 vمنdeos"
+          }
+        },
+        "richResponse": {
+          "title": "Rمنch Respرویse Fیاmیکttمنng:",
+          "features": [
+            "Interیکctمنve Cیکrds",
+            "Actمنروی Buttرویs",
+            "Emبودنdded Imیکges",
+            "Vمنdeo Respرویses"
+          ]
+        },
+        "addDocuments": "افزودن Your Documents"
+      },
+      "uploadModal": {
+        "title": "آپلود Your Documents",
+        "dropzone": {
+          "title": "Drop شما files here",
+          "description": "Sبالاpیاt برای PDF, Wیاd, Excel, منmیکges, vمنdeos, یکnd بیشتر",
+          "button": "انتخاب کردن Fمنles"
+        },
+        "demoFiles": [
+          "sیکmple_mیکnuیکl.pdf",
+          "product_داده.xlsx",
+          "brand_راهنما.jpg"
+        ],
+        "close": "Close دمو"
+      }
+    },
+    "useCases": {
+      "title": "موفقیت Stories Across صنایع",
+      "subtitle": "See how businesses transform their customer support with SeaChat's human-AI hybrid approach.",
+      "cases": {
+        "ecommerce": {
+          "title": "E-commerce پشتیبانی Revolution",
+          "industry": "خرده‌فروشی",
+          "challenge": "مدیریت 500+ روزانه مشتری inquiries across چندتایی کانال‌ها با limited staff",
+          "solution": "Deployed SeaChat with AI agents handling 70% of routine inquiries, human agents for complex issues",
+          "results": [
+            "60% reduction ورود response time",
+            "40% increase in مشتری satisfaction",
+            "75% cost savings on پشتیبانی operations"
+          ],
+          "metrics": {
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Healthcare Patient پشتیبانی",
+          "industry": "مراقبت‌های بهداشتی",
+          "challenge": "Providing 24/7 patient support while maintaining HIPAA compliance",
+          "solution": "Integrated secure AI agents with appointment booking and symptom pre-screening",
+          "results": [
+            "۲۴/۷ patient کمک",
+            "50% reduction ورود no-shows",
+            "100% HIPAA compliance maintained"
+          ],
+          "metrics": {
+            "availability": "۲۴/۷",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Financial خدماتs Excellence",
+          "industry": "FمنnTech",
+          "challenge": "مدیریت sensitive financial درخواست‌ها با سرعت و امنیت",
+          "solution": "Custom AI training on financial regulations with seamless human escalation",
+          "results": [
+            "90% first-contact reراه‌حل",
+            "3x faster query در حال پردازش",
+            "Enhanced امنیت protocols"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Enhیکnced"
+          }
+        }
+      },
+      "cta": {
+        "title": "آماده برای Transform Your پشتیبانی?",
+        "description": "پیوستن صدها از کسب‌وکارها already استفاده SeaChat به ارائه استثنایی مشتری experiences.",
+        "buttons": {
+          "viewCases": "مشاهده همه Case Studies",
+          "startStory": "شروع Your موفقیت Story"
+        },
+        "signUpFree": "ثبت‌نام برای رایگان",
+        "bookDemo": "رزرو دمو"
+      },
+      "labels": {
+        "challenge": "Chیکllenge:",
+        "solution": "راه‌حل:",
+        "resultsAchieved": "Results Achمنeved:"
+      },
+      "metrics": {
+        "responseTime": "Respرویse Tمنمن",
+        "satisfaction": "Sیکtمنsfیکctمنروی",
+        "cost": "هزینه",
+        "availability": "Avیکمنlیکbمنlمنty",
+        "noShows": "نه-نشان می‌دهد",
+        "compliance": "Complمنیکnce",
+        "resolution": "Reراه‌حل",
+        "speed": "سرعت",
+        "security": "امنیت"
+      }
+    },
+    "testimonials": {
+      "title": "دوست داشته شده توسط پشتیبانی تیمs در سراسر جهان",
+      "subtitle": "Don't just take our word برای it. Here's what our مشتریان say about transforming their پشتیبانی با SeaChat.",
+      "navigation": {
+        "previous": "قبلی",
+        "next": "بعدی"
+      },
+      "trustedBy": "مورد اعتماد توسط innovative شرکت‌ها در سراسر جهان",
+      "stats": {
+        "customers": "10,000+ Hاپلیکیشنy مشتریs",
+        "uptime": "99.9% زمان فعالیت",
+        "messages": "50M+ پیامs Processed",
+        "rating": "4.9/5 مشتری Rating"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sیکrیکh Cاوn",
+          "title": "مشتری موفقیت Director",
+          "company": "TechFlow راه‌حل‌ها",
+          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Respرویse Tمنمن"
+          }
+        },
+        "1": {
+          "name": "Mیکrcما Rodrمنguez",
+          "title": "Oهریکtمنرویs Mیکnیکger",
+          "company": "EcoComمنrce",
+          "quote": "The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Query Reراه‌حل"
+          }
+        },
+        "2": {
+          "name": "Emمنly Wیکtsروی",
+          "title": "Head از مشتری تجربه",
+          "company": "HeیکlthTech Pro",
+          "quote": "The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "مشتری Satisfaction"
+          }
+        },
+        "3": {
+          "name": "Dیکvمنd Pیکrk",
+          "title": "Foزیر & CEO",
+          "company": "StیکrtبالاFپایین",
+          "quote": "As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Inمنtمنیکl هزینه"
+          }
+        },
+        "4": {
+          "name": "Lمنsیک Thompsروی",
+          "title": "پشتیبانی تیم سرنخ",
+          "company": "GlobیکlRetیکمنl Inc",
+          "quote": "The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Seیکmکمتر Hیکnانجام دادنff"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "آخرین بینشs & Resources",
+      "subtitle": "Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
+      "categories": {
+        "all": "همه",
+        "ai": "AI & Automation",
+        "strategy": "استراتژی",
+        "integration": "یکپارچه‌سازی",
+        "knowledge": "دانش مدیریت",
+        "success": "مشتری موفقیت"
+      },
+      "featured": "ویژگیd",
+      "latest": "اخیر Posts",
+      "readTime": "mمنn reیکd",
+      "stayUpdated": "Stیکy Updیکted",
+      "newsletterSubtitle": "Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
+      "joinProfessionals": "پیوستن 5,000+ پشتیبانی حرفه‌ایs. Unsubscribe anytime.",
+      "loading": "Loading وبلاگ posts...",
+      "loadingPost": "در حال بارگذاری article...",
+      "backToBlog": "بازگشت به وبلاگ",
+      "share": "Shیکre",
+      "tags": "برچسب‌ها",
+      "followLinkedIn": "Follow روی LinkedIn",
+      "moreArticles": "بیشتر Articles",
+      "relatedArticles": "Relیکted Artمنcles",
+      "searchPlaceholder": "جستجو articles, topics, یا برچسب‌ها...",
+      "articleCount": "article(s) پیدا کرد",
+      "noArticles": "No articles پیدا کرد",
+      "adjustSearch": "امتحان adjusting your جستجو شرایط یا دسته‌بندی فیلتر."
+    },
+    "solutions": {
+      "healthcare": {
+        "title": "Healthcare راه‌حل‌ها",
+        "subtitle": "Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.",
+        "trialButton": "شروع Healthcare برای رایگان",
+        "demoButton": "برنامه مراقبت‌های بهداشتی Demo",
+        "featuresTitle": "Healthcare-Specific ویژگی‌ها",
+        "featuresSubtitle": "Purpose-built ویژگی‌ها برای healthcare providers به ارائه استثنایی patient care.",
+        "features": {
+          "hipaa": {
+            "title": "HIPAA Compliance",
+            "description": "Full HIPAA compliance with encrypted communications and secure data handling",
+            "benefits": {
+              "encryption": "End-به-end رمزگذاری",
+              "audit": "Audمنt trیکمنls",
+              "access": "Access کنترلs",
+              "anonymization": "داده anonymization"
+            }
+          },
+          "appointments": {
+            "title": "اپلیکیشنointment مدیریت",
+            "description": "Seamless اپلیکیشنointment scheduling, rescheduling, و reminder سیستمs",
+            "benefits": {
+              "availability": "زمان واقعی availability",
+              "reminders": "Automated یادآوری‌ها",
+              "cancellation": "Cیکnسلولیکtمنروی hیکndlمنng",
+              "waitlist": "Waitlist مدیریت"
+            }
+          },
+          "telehealth": {
+            "title": "Telehealth پشتیبانی",
+            "description": "Integrated telehealth capabilities برای remote بیمار consultations",
+            "benefits": {
+              "video": "Vمنdeo cرویsultیکtمنرویs",
+              "messaging": "امن messaging",
+              "documents": "Docuمنnt shیکrمنng",
+              "followup": "Follow-نام care"
+            }
+          },
+          "engagement": {
+            "title": "بیمار Engagement",
+            "description": "Improve patient satisfaction با ۲۴/۷ پشتیبانی و personalized care",
+            "benefits": {
+              "availability": "۲۴/۷ availability",
+              "multilanguage": "Multi-language پشتیبانی",
+              "coordination": "Cیکre coیاdمنnیکtمنروی",
+              "education": "Health آموزش"
+            }
+          }
+        },
+        "metricsTitle": "مراقبت‌های بهداشتی Impact Metrics",
+        "metricsSubtitle": "Real results از healthcare providers استفاده SeaChat برای patient پشتیبانی.",
+        "metrics": {
+          "noshows": {
+            "label": "Reduction ورود No-shows",
+            "description": "با automated اپلیکیشنointment reminders",
+            "value": "40%"
+          },
+          "response": {
+            "label": "Fیکster Respرویse Tمنمن",
+            "description": "برای بیمار inquiries و concerns",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "بیمار Satisfaction",
+            "description": "با ۲۴/۷ پشتیبانی availability",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "Administrative کارایی",
+            "description": "Through automated گردش کارs",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "Common مراقبت‌های بهداشتی استفاده Cases",
+        "useCasesSubtitle": "مشاهده how SeaChat handles typical patient interactions و administrative tasks.",
+        "useCases": {
+          "appointments": {
+            "title": "اپلیکیشنointment Scheduling",
+            "description": "Patients می‌تواند book, reschedule, یا cancel اپلیکیشنointments through چت",
+            "example": "I need به reschedule my اپلیکیشنointment برای بعدی Tuesday",
+            "outcome": "Automated scheduling با calendar یکپارچه‌سازی و confirmation"
+          },
+          "prescriptions": {
+            "title": "Prescrمنptمنروی Inquمنrمنes",
+            "description": "مدیریت prescription refills و medication questions securely",
+            "example": "When خواهد my prescription باشد آماده برای pickup?",
+            "outcome": "زمان واقعی pharmacy یکپارچه‌سازی و status updates"
+          },
+          "insurance": {
+            "title": "بیمه Verification",
+            "description": "تایید insurance coverage و explain مزیتs به patients",
+            "example": "است my procedure covered توسط my بیمه plan?",
+            "outcome": "فوری insurance verification و coverage explanation"
+          },
+          "symptoms": {
+            "title": "Sympبهm Pre-screenمنng",
+            "description": "AI-powered symptom assessment and triage recommendations",
+            "example": "من دارند یک fever و cough, باید من آمدن ورود?",
+            "outcome": "Symptom assessment با اپلیکیشنropriate care recommendations"
+          }
+        },
+        "patientRequest": "بیمار Request",
+        "seachatResponse": "SeaChat Response",
+        "hipaaTitle": "HIPAA Compliance & Security",
+        "hipaaSubtitle": "Built از این ground up با healthcare امنیت و compliance در mind. Protect patient داده while delivering exceptional care تجربهs.",
+        "compliance": {
+          "complianceFeatures": [
+            "End-به-end رمزگذاری",
+            "Audمنt trیکمنls",
+            "Access کنترلs",
+            "داده anonymization",
+            "امن داده storage",
+            "Regular امنیت audits",
+            "Staff آموزش و certification",
+            "Incمنdent respرویse procedures"
+          ]
+        },
+        "certificationsTitle": "امنیت Certifications",
+        "certifications": {
+          "hipaa": "HIPAA Compliant",
+          "soc2": "SOC 2 Type II",
+          "iso": "ISO 27001",
+          "gdpr": "GDPR Ready"
+        },
+        "certified": "Certمنfمنed",
+        "compliant": "مطابق",
+        "ctaTitle": "آماده به Transform بیمار Care?",
+        "ctaSubtitle": "پیوستن healthcare providers already استفاده SeaChat به ارائه استثنایی patient experiences while maintaining این highest security و compliance standards.",
+        "ctaTrialButton": "شروع Healthcare برای رایگان",
+        "ctaDemoButton": "برنامه مراقبت‌های بهداشتی Demo"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "End-به-end رمزگذاری برای همه ارتباطاتs",
+          "Multi-factor authentication و identity verification",
+          "Regular امنیت audits و penetration آزمون",
+          "ISO 27001 certمنfمنed منnfrیکساختار",
+          "زمان واقعی fraud نظارت و detection",
+          "Secure API endpoints with rate limiting"
+        ],
+        "title": "Fintech راه‌حل‌ها",
+        "subtitle": "امن, مطابق پشتیبانی مشتری برای financial خدماتs. مدیریت transactions, provide investment guidance, و ensure regulatory compliance با اعتماد.",
+        "trialButton": "شروع Fintech برای رایگان",
+        "demoButton": "برنامه مالی Demo",
+        "featuresTitle": "Financial خدماتs ویژگی‌ها",
+        "featuresSubtitle": "Purpose-built ویژگی‌ها برای financial institutions به deliver امن, مطابق پشتیبانی مشتری.",
+        "features": {
+          "security": {
+            "title": "Financial امنیت",
+            "description": "Bank-درجه امنیت با PCI DSS compliance و fraud protection",
+            "benefits": {
+              "pci": "PCI DSS complمنیکnce",
+              "fraud": "Frیکud detectمنروی",
+              "transactions": "امن transactions",
+              "identity": "Identمنty verمنfمنcیکtمنروی"
+            }
+          },
+          "payment": {
+            "title": "Payment پشتیبانی",
+            "description": "Comprehensive payment پردازش پشتیبانی و dispute reراه‌حل",
+            "benefits": {
+              "tracking": "Trیکnsیکctمنروی trیکckمنng",
+              "dispute": "Dمنsقرار دادنe hیکndlمنng",
+              "refund": "Refund در حال پردازش",
+              "methods": "پرداخت methods"
+            }
+          },
+          "investment": {
+            "title": "سرمایه‌گذاری Guidance",
+            "description": "AI-powered investment advice and portfolio management support",
+            "benefits": {
+              "insights": "Market بینشs",
+              "portfolio": "Portfolio تحلیل",
+              "risk": "Rمنsk یکssessمنnt",
+              "recommendations": "سرمایه‌گذاری recommendations"
+            }
+          },
+          "compliance": {
+            "title": "Regulیکtیاy Complمنیکnce",
+            "description": "Built-در compliance با مالی regulations و reporting requirements",
+            "benefits": {
+              "kyc": "KYC/AML complمنیکnce",
+              "reporting": "Regulیکtیاy repیاtمنng",
+              "audit": "Audمنt trیکمنls",
+              "protection": "داده protection"
+            }
+          }
+        },
+        "impactTitle": "Financial خدماتs Impact",
+        "impactSubtitle": "Real results از financial institutions استفاده SeaChat برای مشتری پشتیبانی.",
+        "metrics": {
+          "accuracy": {
+            "label": "Transaction دقت",
+            "description": "با automated در حال پردازش و verification"
+          },
+          "resolution": {
+            "label": "Faster Reراه‌حل",
+            "description": "برای مالی inquiries و disputes"
+          },
+          "fraud": {
+            "label": "Frیکud Detectمنروی Rیکte",
+            "description": "With AI-powered monitoring systems"
+          },
+          "satisfaction": {
+            "label": "مشتری Satisfaction",
+            "description": "برای financial پشتیبانی interactions"
+          }
+        },
+        "useCasesTitle": "Financial پشتیبانی استفاده Cases",
+        "useCasesSubtitle": "مشاهده how SeaChat handles complex financial inquiries و transactions.",
+        "useCases": {
+          "account": {
+            "title": "حساب مدیریت",
+            "description": "کمک مشتریs با حساب setup, verification, و مدیریت",
+            "example": "I need کمک تنظیمات up my کسب‌وکار حساب",
+            "outcome": "راهنماd حساب setup با document verification و compliance checks"
+          },
+          "transaction": {
+            "title": "Trیکnsیکctمنروی Inquمنrمنes",
+            "description": "Provide زمان واقعی transaction status و history اطلاعات",
+            "example": "Where است my wire transfer به ABC شرکت?",
+            "outcome": "زمان واقعی transaction پیگیری با detailed status updates"
+          },
+          "fraud": {
+            "title": "Frیکud Prحتیtمنروی",
+            "description": "Detect and prevent fraudulent activities with AI monitoring",
+            "example": "من دیدن یک suspicious charge روی my حساب",
+            "outcome": "فوری fraud investigation و حساب protection measures"
+          },
+          "investment": {
+            "title": "Investment پشتیبانی",
+            "description": "Provide investment guidance و portfolio مدیریت کمک",
+            "example": "باید من invest ورود tech stocks right اکنون?",
+            "outcome": "Personalized investment advice based روی risk پروفایل و market تحلیل"
+          }
+        },
+        "customerInquiry": "مشتری Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "securityTitle": "Bank-درجه امنیت & Compliance",
+        "securitySubtitle": "ساخته شده با این highest امنیت standards و regulatory compliance requirements برای financial خدماتs institutions.",
+        "regulatoryTitle": "Regulیکtیاy Complمنیکnce",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "Payment Card Industry داده امنیت استاندارد",
+            "status": "مطابق"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "Sیکrbیکnes-Oxley عمل complمنیکnce",
+            "status": "مطابق"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "General داده Protection Regulation",
+            "status": "مطابق"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "Know Your مشتری / Anti-Money Laundering",
+            "status": "پشتیبانیed"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "California Consumer حریم خصوصی Act",
+            "status": "مطابق"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "مالی صنعت Regulatory Authority",
+            "status": "پشتیبانیed"
+          }
+        },
+        "ctaTitle": "آماده برای امن Your Financial خدماتs?",
+        "ctaSubtitle": "پیوستن financial institutions already استفاده SeaChat به deliver امن, مطابق مشتری پشتیبانی that builds اعتماد و drives growth.",
+        "ctaTrialButton": "شروع Fintech برای رایگان",
+        "ctaDemoButton": "برنامه مالی Demo"
+      },
+      "ecommerce": {
+        "title": "تجارت الکترونیک & خرده‌فروشی",
+        "subtitle": "Transform your online store با هوشمند پشتیبانی مشتری that drives فروش, reduces cart abandonment, و creates loyal مشتریs.",
+        "trialButton": "شروع E-commerce برای رایگان",
+        "demoButton": "برنامه تجارت الکترونیک Demo",
+        "featuresTitle": "E-commerce Specialized ویژگی‌ها",
+        "featuresSubtitle": "Purpose-built ویژگی‌ها برای online retailers به maximize فروش و مشتری satisfaction.",
+        "features": {
+          "orders": {
+            "title": "Order مدیریت یکپارچه‌سازی",
+            "description": "یکپارچه integrate با your e-commerce پلتفرم برای زمان واقعی order پیگیری و updates.",
+            "benefits": {
+              "status": "زمان واقعی order status",
+              "shipping": "Automated ارسال updates",
+              "returns": "Return در حال پردازش",
+              "inventory": "Inventیاy منnquمنrمنes"
+            }
+          },
+          "accounts": {
+            "title": "مشتری حساب پشتیبانی",
+            "description": "کمک مشتریs با حساب issues, password resets, و پروفایل مدیریت.",
+            "benefits": {
+              "recovery": "حساب reپوشش دادنy",
+              "updates": "Prازمنle بالاdیکtes",
+              "subscriptions": "Subscription مدیریت",
+              "billing": "Billing پشتیبانی"
+            }
+          },
+          "recommendations": {
+            "title": "محصول Recommendations",
+            "description": "AI-powered product suggestions based on customer preferences and browsing history.",
+            "benefits": {
+              "personalized": "Persروییکlمنzed پیشنهاد کردنمنرویs",
+              "cross": "Cross-فروختنمنng oppیاtunمنtمنes",
+              "upselling": "Upselling اتوماسیون",
+              "inventory": "Inventory بهینه‌سازی"
+            }
+          },
+          "assistance": {
+            "title": "۲۴/۷ Shopping کمک",
+            "description": "Round-این-clock پشتیبانی برای مشتریs across مختلف time zones و shopping patterns.",
+            "benefits": {
+              "global": "Globیکl پوشش دادنیکge",
+              "peak": "Peak hour پشتیبانی",
+              "holiday": "Holiday کمک",
+              "mobile": "Mobile shopping کمک"
+            }
+          }
+        },
+        "resultsTitle": "Proven تجارت الکترونیک Results",
+        "resultsSubtitle": "Real metrics از e-commerce کسب‌وکارها استفاده SeaChat برای مشتری پشتیبانی.",
+        "metrics": {
+          "conversion": {
+            "label": "Increase در فروش Conversion",
+            "description": "Through proactive پشتیبانی مشتری"
+          },
+          "abandonment": {
+            "label": "Reduction در سبد خرید Abandonment",
+            "description": "با زمان واقعی shopping کمک"
+          },
+          "resolution": {
+            "label": "Faster Order Reراه‌حل",
+            "description": "Automated سفارش status updates"
+          },
+          "satisfaction": {
+            "label": "مشتری Satisfaction Rate",
+            "description": "برای e-commerce پشتیبانی interactions"
+          }
+        },
+        "integrationsTitle": "E-commerce پلتفرم یکپارچه‌سازیs",
+        "integrationsSubtitle": "یکپارچه اتصال با your existing e-commerce stack برای یکپارچه پشتیبانی مشتری.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopمنfy",
+            "description": "Nیکtمنve Shopمنfy یکpp wمنth پر یاder منntegrیکtمنروی"
+          },
+          "woocommerce": {
+            "name": "WooComمنrce",
+            "description": "WordPress plugin برای WooCommerce stores"
+          },
+          "magento": {
+            "name": "Mنمایندهo",
+            "description": "سازمانی-درجه Mنمایندهo یکپارچه‌سازی"
+          },
+          "bigcommerce": {
+            "name": "BمنgComمنrce",
+            "description": "Complete BigCommerce API integration"
+          },
+          "stripe": {
+            "name": "Strمنpe",
+            "description": "Payment پردازش و billing پشتیبانی"
+          },
+          "paypal": {
+            "name": "PیکyPیکl",
+            "description": "PayPal transaction و dispute مدیریت"
+          }
+        },
+        "successTitle": "موفقیت Story: Fashion Retailer",
+        "challenge": "Chیکllenge",
+        "challengeDescription": "High cart abandonment rate و مشتریs leaving due به sizing questions و product availability concerns.",
+        "solution": "راه‌حل",
+        "solutionDescription": "Deployed SeaChat با product catalog یکپارچه‌سازی, sizing guides, و proactive cart abandonment recovery.",
+        "results": "Results",
+        "result1": "45% increase ورود conversion rate",
+        "result2": "60% reduction in سبد خرید abandonment",
+        "result3": "$2.3M additional درآمد in 6 months",
+        "chatPreview": "زنده چت Preview",
+        "customer": "مشتری",
+        "customerQuestion": "است this dress در دسترس در size M?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "Yes! این Blue Summer Dress است در دسترس در size M. We دارند 3 در stock. خواهد you like me به افزودن it به your سبد خرید?",
+        "customerResponse": "کامل! Yes, please افزودن it.",
+        "aiResponse2": "Added به cart! 🛍️ You qualify برای رایگان shipping. آماده برای checkout?",
+        "ctaTitle": "آماده برای Boost Your E-commerce فروش?",
+        "ctaSubtitle": "پیوستن صدها از online retailers استفاده SeaChat به increase conversions, reduce cart abandonment, و ایجاد exceptional shopping experiences.",
+        "ctaTrialButton": "شروع E-commerce برای رایگان",
+        "ctaDemoButton": "برنامه تجارت الکترونیک Demo"
+      },
+      "education": {
+        "title": "آموزش راه‌حل‌ها",
+        "subtitle": "Transform educational support with AI-powered assistance for students, parents, faculty, and staff. Streamline operations and enhance the learning experience.",
+        "trialButton": "شروع آموزش برای رایگان",
+        "demoButton": "Schedule آموزش Demo",
+        "featuresTitle": "آموزش-Specific ویژگی‌ها",
+        "featuresSubtitle": "Purpose-built ویژگی‌ها برای آموزشal institutions به enhance student موفقیت و operational کارایی.",
+        "features": {
+          "student": {
+            "title": "Student پشتیبانی خدماتs",
+            "description": "Comprehensive پشتیبانی برای student inquiries, enrollment, و academic کمک",
+            "benefits": {
+              "support": "۲۴/۷ student پشتیبانی",
+              "enrollment": "Enrollment کمک",
+              "academic": "Acیکdemمنc guمنdیکnce",
+              "technical": "Technical کمک"
+            }
+          },
+          "admin": {
+            "title": "Administrative اتوماسیون",
+            "description": "Streamline administrative tasks با automated scheduling و notifications",
+            "benefits": {
+              "scheduling": "Clیکss scاوdulمنng",
+              "events": "Event مدیریت",
+              "deadlines": "Deadline یادآوری‌ها",
+              "registration": "Registration پشتیبانی"
+            }
+          },
+          "stakeholder": {
+            "title": "Multi-Stakeholder پشتیبانی",
+            "description": "پشتیبانی students, parents, faculty, و staff با tailored تجربهs",
+            "benefits": {
+              "portals": "دانش‌آموز portals",
+              "parent": "Parent ارتباطات",
+              "faculty": "Faculty کمک",
+              "staff": "Stیکff coیاdمنnیکtمنروی"
+            }
+          },
+          "lms": {
+            "title": "یادگیری مدیریت یکپارچه‌سازی",
+            "description": "Seamless یکپارچه‌سازی با LMS پلتفرمs و آموزشal ابزارs",
+            "benefits": {
+              "connectivity": "LMS cرویnectمنvمنty",
+              "grades": "سطح inquiries",
+              "assignments": "Assignment کمک",
+              "courses": "Course اطلاعات"
+            }
+          }
+        },
+        "stakeholdersTitle": "پشتیبانی برای همه Stakeholders",
+        "stakeholdersSubtitle": "Tailored تجربهs برای هر member از your آموزشal community.",
+        "stakeholders": {
+          "students": {
+            "title": "Students",
+            "description": "Academic پشتیبانی, enrollment کمک, و campus خدماتs",
+            "features": {
+              "courses": "Course اطلاعات",
+              "assignments": "Assمنgnمنnt deیکdlمنnes",
+              "grades": "سطح inquiries",
+              "campus": "Cیکmpما nیکvمنgیکtمنروی"
+            }
+          },
+          "parents": {
+            "title": "Pیکrents",
+            "description": "Stay informed about دانش‌آموز پیشرفت و institutional updates",
+            "features": {
+              "progress": "پیشرفت updates",
+              "payment": "Payment اطلاعات",
+              "events": "رویداد notifications",
+              "communication": "ارتباطات با faculty"
+            }
+          },
+          "faculty": {
+            "title": "Fیکculty",
+            "description": "Administrative پشتیبانی و teaching کمک",
+            "features": {
+              "management": "Class مدیریت",
+              "inquiries": "دانش‌آموز inquiries",
+              "resources": "Resماce requests",
+              "technical": "Technical پشتیبانی"
+            }
+          },
+          "staff": {
+            "title": "Stیکff",
+            "description": "Operational کارایی و administrative اتوماسیون",
+            "features": {
+              "automation": "پردازش اتوماسیون",
+              "information": "اطلاعات access",
+              "workflow": "گردش کار مدیریت",
+              "reporting": "Reporting ابزارs"
+            }
+          }
+        },
+        "metricsTitle": "آموزشal Impact Metrics",
+        "metricsSubtitle": "Real results از educational institutions استفاده SeaChat برای student و administrative پشتیبانی.",
+        "metrics": {
+          "admin": {
+            "label": "Reduced Admمنn Wیاkloیکd",
+            "description": "Through automated دانش‌آموز inquiries"
+          },
+          "satisfaction": {
+            "label": "دانش‌آموز Satisfaction",
+            "description": "با ۲۴/۷ پشتیبانی availability"
+          },
+          "response": {
+            "label": "Fیکster Respرویse Tمنمن",
+            "description": "برای دانش‌آموز و parent inquiries"
+          },
+          "enrollment": {
+            "label": "Increیکsed Enrollمنnt",
+            "description": "با streamlined اپلیکیشنlication پردازش"
+          }
+        },
+        "useCasesTitle": "Common آموزشal استفاده Cases",
+        "useCasesSubtitle": "مشاهده how SeaChat handles typical student و administrative interactions.",
+        "useCases": {
+          "enrollment": {
+            "title": "دانش‌آموز Enrollment",
+            "description": "راهنما prospective students through این enrollment پردازش",
+            "example": "I want به اپلیکیشنly برای این Computer Science program",
+            "outcome": "مرحله-توسط-مرحله enrollment guidance با document requirements و deadlines"
+          },
+          "academic": {
+            "title": "Academic پشتیبانی",
+            "description": "Provide academic کمک و course اطلاعات",
+            "example": "When است deadline برای my History assignment?",
+            "outcome": "زمان واقعی access به assignment deadlines و submission راهنماlines"
+          },
+          "campus": {
+            "title": "Campus خدماتs",
+            "description": "کمک با campus facilities, dining, housing, و transportation",
+            "example": "How انجام دادن من reserve یک study room ورود library?",
+            "outcome": "Direct booking سیستم یکپارچه‌سازی با availability و confirmation"
+          },
+          "financial": {
+            "title": "مالی Aid",
+            "description": "Assist با financial aid اپلیکیشنlications و scholarship اطلاعات",
+            "example": "What scholarships am من eligible برای?",
+            "outcome": "Personalized scholarship recommendations based روی دانش‌آموز پروفایل"
+          }
+        },
+        "studentInquiry": "دانش‌آموز Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "آموزشal پلتفرم یکپارچه‌سازیs",
+        "integrationsSubtitle": "یکپارچه اتصال با محبوب آموزشal ابزارs و پلتفرمs.",
+        "integrations": {
+          "canvas": {
+            "name": "Cیکnvیکs LMS",
+            "description": "یادگیری مدیریت سیستم یکپارچه‌سازی"
+          },
+          "blackboard": {
+            "name": "Blیکckboیکrd",
+            "description": "Course مدیریت و content delivery"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "Open-source یادگیری پلتفرم"
+          },
+          "google": {
+            "name": "Google Clیکssاتاق",
+            "description": "آموزشal همکاری پلتفرم"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "Video conferencing برای virtual classes"
+          },
+          "teams": {
+            "name": "Microsoft تیمs",
+            "description": "آموزشal همکاری و ارتباطات"
+          },
+          "sis": {
+            "name": "Student اطلاعات سیستمs",
+            "description": "SIS یکپارچه‌سازی برای student records"
+          },
+          "library": {
+            "name": "Library سیستمs",
+            "description": "Resource booking و catalog جستجو"
+          }
+        },
+        "ctaTitle": "آماده برای Transform آموزش پشتیبانی?",
+        "ctaSubtitle": "پیوستن educational institutions already استفاده SeaChat به enhance student success و streamline administrative operations.",
+        "ctaTrialButton": "شروع آموزش برای رایگان",
+        "ctaDemoButton": "Schedule آموزش Demo"
+      },
+      "realEstate": {
+        "title": "Real Estate راه‌حل‌ها",
+        "subtitle": "Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.",
+        "trialButton": "شروع Real Estate برای رایگان",
+        "demoButton": "برنامه املاک Demo",
+        "featuresTitle": "Real Estate Specialized ویژگی‌ها",
+        "featuresSubtitle": "Purpose-built ویژگی‌ها برای real estate حرفه‌ایs به capture سرنخ‌ها و serve مشتریs better.",
+        "features": {
+          "search": {
+            "title": "Property Search کمک",
+            "description": "Help clients find their perfect property with AI-powered search and recommendations",
+            "benefits": {
+              "matching": "هوشمند ملک matching",
+              "insights": "Market بینشs",
+              "neighborhood": "Neighborhood اطلاعات",
+              "analysis": "Price تحلیل"
+            }
+          },
+          "showing": {
+            "title": "Sچگونهمنng Coیاdمنnیکtمنروی",
+            "description": "Streamline ملک showings با automated scheduling و coordination",
+            "benefits": {
+              "scheduling": "Auبهmیکted scاوdulمنng",
+              "availability": "Avیکمنlیکbمنlمنty sync",
+              "reminders": "Remمنnder نهtمنfمنcیکtمنرویs",
+              "route": "Route بهینه‌سازی"
+            }
+          },
+          "leads": {
+            "title": "سرنخ مدیریت",
+            "description": "Capture و nurture سرنخ‌ها با هوشمند qualification و follow-نام",
+            "benefits": {
+              "qualification": "سرنخ qualification",
+              "followup": "Automated follow-نام",
+              "crm": "CRM منntegrیکtمنروی",
+              "tracking": "Cرویversمنروی trیکckمنng"
+            }
+          },
+          "communication": {
+            "title": "مشتری ارتباطات",
+            "description": "۲۴/۷ مشتری پشتیبانی برای inquiries, updates, و transaction کمک",
+            "benefits": {
+              "availability": "۲۴/۷ availability",
+              "updates": "Trیکnsیکctمنروی بالاdیکtes",
+              "assistance": "Document کمک",
+              "market": "بازار updates"
+            }
+          }
+        },
+        "metricsTitle": "املاک Impact Metrics",
+        "metricsSubtitle": "Real results از real estate professionals استفاده SeaChat برای client پشتیبانی و سرنخ generation.",
+        "metrics": {
+          "leads": {
+            "label": "بیشتر Qualified سرنخ‌ها",
+            "description": "Through هوشمند سرنخ qualification"
+          },
+          "response": {
+            "label": "Fیکster Respرویse Tمنمن",
+            "description": "برای مشتری inquiries و requests"
+          },
+          "showing": {
+            "label": "نمایش کارایی",
+            "description": "با automated scheduling coordination"
+          },
+          "satisfaction": {
+            "label": "مشتری Satisfaction",
+            "description": "با ۲۴/۷ پشتیبانی availability"
+          }
+        },
+        "propertyTypesTitle": "همه Property Types پشتیبانیed",
+        "propertyTypesSubtitle": "Whether you specialize در residential, commercial, یا سرمایه‌گذاری properties, we've got you covered.",
+        "propertyTypes": {
+          "residential": {
+            "name": "Residential فروش",
+            "description": "تک-family homes, condos, و townhouses"
+          },
+          "commercial": {
+            "name": "Commercial املاک",
+            "description": "دفتر buildings, خرده‌فروشی spaces, و warehouses"
+          },
+          "rental": {
+            "name": "Rentیکl Proهرtمنes",
+            "description": "Apartment complexes و rental مدیریت"
+          },
+          "luxury": {
+            "name": "Luxury Proهرtمنes",
+            "description": "High-end homes و exclusive listings"
+          },
+          "investment": {
+            "name": "سرمایه‌گذاری Properties",
+            "description": "Fix-و-flip و rental investments"
+          },
+          "new": {
+            "name": "جدید Construction",
+            "description": "Builder partnerships و جدید توسعهs"
+          }
+        },
+        "useCasesTitle": "املاک استفاده Cases",
+        "useCasesSubtitle": "مشاهده how SeaChat handles typical real estate client interactions و سرنخ generation.",
+        "useCases": {
+          "property": {
+            "title": "ملک Inquiries",
+            "description": "مدیریت property questions و provide detailed اطلاعات",
+            "example": "Tell me about این 3-bedroom خانه روی Oak Street",
+            "outcome": "Detailed property اطلاعات با photos, قیمت‌گذاری, و neighborhood داده"
+          },
+          "showing": {
+            "title": "Sچگونهمنng Requests",
+            "description": "برنامه ملک viewings و coordinate با همه parties",
+            "example": "I'd like به برنامه یک نمایش برای this weekend",
+            "outcome": "Automated scheduling با نماینده availability و confirmation"
+          },
+          "market": {
+            "title": "Market تحلیل",
+            "description": "Provide market بینشs و property valuations",
+            "example": "What's my صفحه اصلی worth در امروز's بازار?",
+            "outcome": "Comparative market تحلیل با اخیر فروش و trends"
+          },
+          "transaction": {
+            "title": "Transaction پشتیبانی",
+            "description": "راهنما مشتریs through این buying یا selling پردازش",
+            "example": "What documents انجام دادن من need برای closing?",
+            "outcome": "Checklist از اجباری documents با deadlines و instructions"
+          }
+        },
+        "clientInquiry": "مشتری Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "Real Estate پلتفرم یکپارچه‌سازیs",
+        "integrationsSubtitle": "یکپارچه اتصال با این ابزارs و پلتفرمs you already استفاده به مدیریت your real estate کسب‌وکار.",
+        "leadCaptureTitle": "سرنخ Capture Example",
+        "websiteVisitor": "وب‌سایت Visitor",
+        "visitorQuery": "I'm looking برای یک 3-bedroom خانه under $500k",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "I'd love به کمک you find این کامل home! I دارند چندین 3-bedroom properties under $500k. می‌تواند I دریافت your تماس اطلاعات به ارسال you برخی گزینهs?",
+        "visitorResponse": "Sure! My ایمیل is john@ایمیل.com",
+        "systemAction": "سیستم Action",
+        "leadCaptured": "Leیکd cیکptuقرمز یکnd یکdded به CRM wمنth proهرty preferences",
+        "ctaTitle": "آماده برای Transform Your Real Estate کسب‌وکار?",
+        "ctaSubtitle": "پیوستن real estate professionals already استفاده SeaChat به capture بیشتر سرنخ‌ها, coordinate showings, و provide exceptional client خدمات.",
+        "ctaTrialButton": "شروع Real Estate برای رایگان",
+        "ctaDemoButton": "برنامه املاک Demo",
+        "integrations": {
+          "0": "MLS Integrیکtمنروی",
+          "1": "CRM سیستم‌ها",
+          "2": "Property مدیریت",
+          "3": "تولید سرنخ ابزارs",
+          "4": "تقویم & Scheduling",
+          "5": "ایمیل بازاریابی",
+          "6": "Document مدیریت",
+          "7": "Virtual Tour پلتفرمs"
+        }
+      },
+      "saas": {
+        "title": "SیکیکS & Techنهlogy",
+        "subtitle": "Accelerate کاربر adگزینه و reduce churn با هوشمند پشتیبانی مشتری that provides technical کمک, onboarding guidance, و proactive موفقیت مدیریت.",
+        "trialButton": "Stیکrt SیکیکS Fیا رایگان",
+        "demoButton": "Scاوdule SیکیکS Demo",
+        "featuresTitle": "SیکیکS-Specمنfمنc Feیکtures",
+        "featuresSubtitle": "هدف-buمنlt feیکtures برای SیکیکS compیکnمنes به رانندگی کردن ماer موفقیت یکnd کسب‌وکار رشد کردنth.",
+        "features": {
+          "technical": {
+            "title": "Technical پشتیبانی",
+            "description": "Provide متخصص technical کمک برای نرم‌افزار issues و یکپارچه‌سازیs",
+            "benefits": {
+              "api": "API documentation help",
+              "integration": "یکپارچه‌سازی پشتیبانی",
+              "troubleshooting": "Troubleshooting راهنماs",
+              "resources": "Develoهر resماces"
+            }
+          },
+          "onboarding": {
+            "title": "کاربر Onboarding",
+            "description": "Streamline کاربر onboarding با راهنماd setup و ویژگی introduction",
+            "benefits": {
+              "tutorials": "Interactive آموزشs",
+              "walkthroughs": "ویژگی walkthroughs",
+              "setup": "Setup کمک",
+              "practices": "بهترین practices"
+            }
+          },
+          "success": {
+            "title": "مشتری موفقیت",
+            "description": "Drive product adگزینه و reduce churn با proactive پشتیبانی",
+            "benefits": {
+              "analytics": "Usage آنالیتیک",
+              "adoption": "ویژگی adگزینه",
+              "churn": "Churn prحتیtمنروی",
+              "upselling": "Upفروختنمنng oppیاtunمنtمنes"
+            }
+          },
+          "security": {
+            "title": "امنیت & Compliance",
+            "description": "Address امنیت concerns و compliance requirements",
+            "benefits": {
+              "documentation": "امنیت مستندات",
+              "compliance": "Compliance راهنماs",
+              "protection": "داده protection",
+              "audit": "Audit پشتیبانی"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "API Integration Help",
+            "description": "Assist developers with API implementation and troubleshooting",
+            "example": "How do I authenticate with your API?",
+            "outcome": "Step-توسط-step authentication راهنما با code examples و آزمون ابزارs"
+          },
+          "feature": {
+            "title": "ویژگی Guidance",
+            "description": "کمک کاربرs discover و implement پیشرفته ویژگی‌ها",
+            "example": "How do I set up automated گردش کارs?",
+            "outcome": "Interactive آموزش با گردش کار قالبs و پیکربندی کمک"
+          },
+          "billing": {
+            "title": "Bمنllمنng & Subscrمنptمنرویs",
+            "description": "مدیریت billing inquiries و subscription مدیریت",
+            "example": "من want به upgrade my plan, what هستند differences?",
+            "outcome": "Plan comparison با قیمت‌گذاری details و upgrade کمک"
+          },
+          "performance": {
+            "title": "عملکرد بهینه‌سازی",
+            "description": "Provide guidance روی optimizing نرم‌افزار عملکرد",
+            "example": "My داشبورد است loading slowly, how می‌تواند I fix this?",
+            "outcome": "عملکرد تحلیل با بهینه‌سازی recommendations و implementation کمک"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "Reduced پشتیبانی Tickets",
+            "description": "Through self-خدمات اتوماسیون"
+          },
+          "onboarding": {
+            "label": "Fیکster Onboیکrdمنng",
+            "description": "با راهنماd setup کمک"
+          },
+          "adoption": {
+            "label": "Higher ویژگی Adگزینه",
+            "description": "Through proactive ویژگی guidance"
+          },
+          "churn": {
+            "label": "Reduced Churn Rیکte",
+            "description": "با proactive مشتری موفقیت"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "B2B SیکیکS Plیکtبرایms",
+            "description": "سازمانی نرم‌افزار و کسب‌وکار ابزارs",
+            "features": {
+              "tenant": "Multi-tenant پشتیبانی",
+              "security": "سازمانی امنیت",
+              "api": "API documentation",
+              "assistance": "یکپارچه‌سازی کمک"
+            }
+          },
+          "developer": {
+            "title": "Developer ابزارs",
+            "description": "APIs, SDKs, and development platforms",
+            "features": {
+              "examples": "کد examples",
+              "documentation": "Technمنcیکl انجام دادنcuمنntیکtمنروی",
+              "debugging": "Debugging کمک",
+              "community": "Community پشتیبانی"
+            }
+          },
+          "marketing": {
+            "title": "بازاریابی نرم‌افزار",
+            "description": "بازاریابی اتوماسیون و آنالیتیک ابزارs",
+            "features": {
+              "campaign": "کمپین setup",
+              "analytics": "آنالیتیک guidance",
+              "integration": "یکپارچه‌سازی کمک",
+              "practices": "بهترین practices"
+            }
+          },
+          "productivity": {
+            "title": "بهره‌وری اپلیکیشنs",
+            "description": "همکاری و بهره‌وری نرم‌افزار",
+            "features": {
+              "tutorials": "ویژگی آموزشs",
+              "workflow": "گردش کار بهینه‌سازی",
+              "team": "تیم setup",
+              "usage": "Usage آنالیتیک"
+            }
+          },
+          "ecommerce": {
+            "title": "E-commerce پلتفرمs",
+            "description": "Online store و payment راه‌حل‌ها",
+            "features": {
+              "store": "Store راه‌اندازی",
+              "payment": "Payment یکپارچه‌سازی",
+              "theme": "Theme سفارشی‌سازی",
+              "performance": "عملکرد بهینه‌سازی"
+            }
+          },
+          "analytics": {
+            "title": "آنالیتیک پلتفرمs",
+            "description": "داده آنالیتیک و کسب‌وکار intelligence",
+            "features": {
+              "dashboard": "داشبورد creation",
+              "data": "داده یکپارچه‌سازی",
+              "report": "Report تولید",
+              "visualization": "Visualization کمک"
+            }
+          }
+        },
+        "typesTitle": "همه SیکیکS Cیکteرفتنrمنes Sبالاpیاted",
+        "typesSubtitle": "از وارد شدنprمنse plیکtبرایms به توسعه دادنer بهols, ما sبالاpیاt تا به حالy نوع از SیکیکS کسب‌وکار.",
+        "impactTitle": "SیکیکS Bمامنness Impیکct",
+        "impactSubtitle": "Real results از SaaS شرکت‌ها استفاده SeaChat برای مشتری پشتیبانی و success.",
+        "useCasesTitle": "SیکیکS Sبالاpیاt استفاده کردن Cیکses",
+        "useCasesSubtitle": "مشاهده how SeaChat handles typical SaaS مشتری interactions و پشتیبانی فنی.",
+        "userQuestion": "کاربر Question",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "SیکیکS Plیکtبرایm Integrیکtمنرویs",
+        "integrationsSubtitle": "Cرویnect wمنth tاو بهols یکnd plیکtبرایms thیکt قدرت yما SیکیکS کسب‌وکار برای unمنfمنed مشتری موفقیت oهریکtمنرویs.",
+        "successFlowTitle": "مشتری موفقیت Flow",
+        "flow": {
+          "onboarding": {
+            "title": "کاربر Onboarding",
+            "description": "راهنماd setup و ویژگی introduction"
+          },
+          "adoption": {
+            "title": "ویژگی Adگزینه",
+            "description": "Proactive ویژگی recommendations"
+          },
+          "monitoring": {
+            "title": "Usیکge Mرویمنtیامنng",
+            "description": "پیگیری تعامل و identify issues"
+          },
+          "growth": {
+            "title": "موفقیت & رشد",
+            "description": "Upselling و expansion opportunities"
+          }
+        },
+        "ctaTitle": "Reیکdy به Accelerیکte SیکیکS رشد?",
+        "ctaSubtitle": "پیوستن SaaS شرکت‌ها already استفاده SeaChat به drive کاربر adoption, reduce churn, و accelerate مشتری success.",
+        "ctaTrialButton": "Stیکrt SیکیکS Fیا رایگان",
+        "ctaDemoButton": "Scاوdule SیکیکS Demo",
+        "integrations": {
+          "0": "Slack یکپارچه‌سازی",
+          "1": "Sیکlesبرایce CRM",
+          "2": "HubSpot",
+          "3": "Zپایانesk",
+          "4": "Intercom",
+          "5": "Strمنpe",
+          "6": "Google Anیکlytمنcs",
+          "7": "Microsoft تیمs",
+          "8": "Jمنrیک",
+          "9": "GمنtHub",
+          "10": "Atlیکssمنیکn Suمنte",
+          "11": "AWS خدماتs"
+        }
+      },
+      "smallBusiness": {
+        "title": "کوچک کسب‌وکار راه‌حل‌ها",
+        "subtitle": "Affordable, آسان-به-استفاده پشتیبانی مشتری برای کوچک کسب‌وکارes. شروع رایگان و grow با ویژگی‌ها that کمک you serve مشتریs better without breaking این bank.",
+        "startButton": "شروع رایگان امروز",
+        "demoButton": "مشاهده کوچک کسب‌وکار Demo",
+        "featuresTitle": "ساخته شده برای کوچک کسب‌وکار موفقیت",
+        "featuresSubtitle": "Everything کوچک کسب‌وکارes need به provide حرفه‌ای پشتیبانی مشتری without این complexity یا cost.",
+        "features": {
+          "local": {
+            "title": "محلی کسب‌وکار پشتیبانی",
+            "description": "کامل برای محلی shops, restaurants, و خدمات providers",
+            "benefits": {
+              "seo": "محلی SEO بهینه‌سازی",
+              "google": "Google من Bمامنness منntegrیکtمنروی",
+              "reviews": "Review مدیریت",
+              "customer": "محلی مشتری پایه"
+            }
+          },
+          "cost": {
+            "title": "Cost-Effective راه‌حل",
+            "description": "Affordable قیمت‌گذاری that grows با your کسب‌وکار",
+            "benefits": {
+              "free": "رایگان plan در دسترس",
+              "setup": "No راه‌اندازی fees",
+              "pricing": "Flexible قیمت‌گذاری",
+              "roi": "ROI trیکckمنng"
+            }
+          },
+          "setup": {
+            "title": "سریع راه‌اندازی",
+            "description": "دریافت started ورود minutes, not hours یا days",
+            "benefits": {
+              "minutes": "5-minute راه‌اندازی",
+              "templates": "Pre-built قالبs",
+              "integration": "آسان یکپارچه‌سازی",
+              "activation": "فوری activation"
+            }
+          },
+          "personal": {
+            "title": "Persروییکl Touch",
+            "description": "Maintain شخصی relationships در حالی که scaling efficiently",
+            "benefits": {
+              "history": "مشتری history",
+              "notes": "Persروییکl نهtes",
+              "relationship": "Relationship ساختمان",
+              "community": "محلی community focus"
+            }
+          }
+        },
+        "typesTitle": "کامل برای هر کوچک کسب‌وکار",
+        "typesSubtitle": "از retail stores به حرفه‌ای خدماتs, we پشتیبانی همه types از کوچک کسب‌وکارes.",
+        "types": {
+          "retail": {
+            "title": "خرده‌فروشی Stores",
+            "description": "Clothing, electronics, صفحه اصلی goods, و specialty shops",
+            "features": {
+              "product": "محصول inquiries",
+              "hours": "Stیاe ساعتs",
+              "inventory": "Inventیاy چک کردنs",
+              "appointment": "اپلیکیشنointment booking"
+            }
+          },
+          "restaurants": {
+            "title": "Restیکurیکnts & Cیکfes"
+          }
+        }
+      }
+    }
+  }
+}
