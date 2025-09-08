@@ -1,24 +1,63 @@
-# build output
+# Astro build outputs
 dist/
-# generated types
 .astro/
 
-# dependencies
+# Dependencies
 node_modules/
 
-# logs
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Logs
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
+# TypeScript
+*.tsbuildinfo
+tsconfig.app.tsbuildinfo
 
-# environment variables
-.env
-.env.production
+# Generated files
+public/sitemap*.xml
+src/**/*.js
+src/**/*.js.map
 
-# macOS-specific files
+# Temporary and backup files
+*.tmp
+*.temp
+*.backup*
+*.zip
+*.local
+
+# Operating System
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+Thumbs.db
 
-# jetbrains setting folder
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Migration and documentation
+# (keeping docs/ directory in version control)
+# screenshots-*/
+# reports/
