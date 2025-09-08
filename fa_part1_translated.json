@@ -1,0 +1,1525 @@
+{
+  "header": {
+    "products": "محصولات",
+    "solutions": "راه‌حل‌ها",
+    "industries": "صنایع",
+    "channels": "کانال‌ها",
+    "pricing": "قیمت‌گذاری",
+    "compareUs": "مقایسه کنید",
+    "blog": "وبلاگ",
+    "login": "ورود",
+    "startForFree": "ثبت‌نام",
+    "backToChannels": "بازگشت به کانال‌ها",
+    "allChannelsOverview": "همه کانال‌ها نمای کلی",
+    "solutionsDropdown": {
+      "seahealth": "@@PRV۰@@ - مراقبت‌های بهداشتی بهینه‌شده",
+      "useCases": "موارد استفاده"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "برای فروش & بازاریابی",
+      "customerSupport": "برای پشتیبانی مشتری",
+      "aiAutomation": "هوش مصنوعی & خودکارسازی",
+      "smeOwners": "برای صاحبان کسب‌وکارهای کوچک و متوسط"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "تلفن تماس‌ها",
+      "sms": "SMS",
+      "websiteChat": "وب‌سایت چت",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "فرم‌های تماس",
+      "line": "Line",
+      "websiteWidget": "وب‌سایت ابزارک"
+    },
+    "comparisonsDropdown": {
+      "title": "مقایسه‌ها",
+      "allComparisonsOverview": "همه مقایسه‌ها نمای کلی"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "همه مقایسه‌ها نمای کلی"
+    },
+    "signIn": "ورود"
+  },
+  "footer": {
+    "company": {
+      "title": "شرکت",
+      "contact": "تماس با ما",
+      "about": "درباره ما",
+      "careers": "فرصت‌های شغلی"
+    },
+    "copyright": "© ۲۰۲۰ - @@PLH۰@@ @@TOK۱@@. کلیه حقوق محفوظ است.",
+    "privacyPolicy": "سیاست حفظ حریم خصوصی",
+    "termsOfService": "شرایط خدمات",
+    "security": "امنیت",
+    "compliance": {
+      "soc2": "منطبق با SOC ۲",
+      "hipaa": "HIPAA در دسترس",
+      "uptime": "۹۹.۹% زمان فعالیت"
+    },
+    "cta": {
+      "title": "آماده به مقیاس داده دسترسی به میلیون‌ها؟",
+      "startFreeTrial": "ثبت‌نام برای رایگان",
+      "scheduleDemo": "برنامه‌ریزی دمو",
+      "subtitle": "به هزاران شرکت بپیوندید که از @@PRV۰@@ برای دسترسی به مشتریان بیشتر، تولید سرنخ‌های بیشتر و رشد سریع‌تر استفاده می‌کنند.",
+      "signUpNow": "ثبت‌نام اکنون"
+    },
+    "tagline": "مرکز تماس همه-در-یک ساخته شده برای کسب‌وکارهای کوچک. پشتیبانی خودکار، ضبط هر سرنخ و یکپارچه‌سازی همه داده‌های مکالمات مشتری.",
+    "seahealth": "@@PRV۰@@ - مراقبت‌های بهداشتی بهینه‌شده",
+    "productWiki": "محصولات ویکی",
+    "apiReferences": "مراجع @@PRV۰@@",
+    "madeWith": {
+      "text": "ساخته شده با",
+      "inCityOf": "ورود شهر از"
+    },
+    "inCityOf": "ورود",
+    "description": {
+      "company": "به میلیون‌ها نفر فوراً دسترسی پیدا کنید. پلتفرم نهایی برای ارسال میلیون‌ها پیام @@PRV۱@@، @@PRV۰@@ و تماس‌های تلفنی خودکار. خط لوله خود را پر کنید، درآمد ایجاد کنید و کسب‌وکار خود را گسترش دهید."
+    },
+    "section": {
+      "channels": "کانال‌ها",
+      "solutions": "راه‌حل‌ها",
+      "industries": "صنایع"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "بررسی کلی @@PRV۰@@",
+        "smsLocal": "شماره محلی (۱۰DLC)",
+        "smsTollFree": "عوارض-رایگان شماره",
+        "smsShortCode": "کد کوتاه",
+        "whatsapp": "پلتفرم تجاری @@PRV۰@@",
+        "voice": "تلفن تماس صوت"
+      },
+      "solutions": {
+        "leadGeneration": "تولید سرنخ",
+        "marketingAutomation": "بازاریابی اتوماسیون",
+        "customerEngagement": "تعامل مشتری",
+        "appointmentReminders": "یادآوری‌های قرار ملاقات",
+        "emergencyAlerts": "هشدارهای اضطراری"
+      },
+      "industries": {
+        "ecommerceRetail": "تجارت الکترونیک & خرده‌فروشی",
+        "realEstate": "املاک",
+        "politicalCampaigns": "کمپین‌های سیاسی",
+        "healthcare": "مراقبت‌های بهداشتی",
+        "financialServices": "خدمات مالی"
+      },
+      "company": {
+        "features": "ویژگی‌ها",
+        "pricing": "قیمت‌گذاری",
+        "productWiki": "محصولات ویکی",
+        "apiReferences": "مراجع @@PRV۰@@",
+        "careers": "فرصت‌های شغلی"
+      }
+    },
+    "stats": {
+      "messagesDaily": "بیش از ۱۰ میلیون پیام روزانه",
+      "activeUsers": "بیش از ۵۰۰ هزار کاربر فعال",
+      "uptime": "۹۹.۹% زمان فعالیت"
+    },
+    "legal": {
+      "privacyPolicy": "سیاست حفظ حریم خصوصی",
+      "termsOfService": "شرایط خدمات"
+    },
+    "contact": {
+      "phone": "+۱ (SMB)-AI-نماینده",
+      "email": "@@MAIL۰@@",
+      "location": "سیاتل، واشنگتن"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "۱۰DLC",
+      "tollFree": "۸xx",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "توقف تعویض اپلیکیشنs",
+      "line2": "یکپارچه‌سازی همه مشتری",
+      "line3": "تماس، @@PRV۰@@ و چت",
+      "line4": "در یک ساده صندوق ورودی."
+    },
+    "titleWithGradient": "دیگر اپلیکیشن‌ها را تعویض نکنید. @@TAG۰@@همه مشتریان را یکپارچه کنید@@TAG۱@@ تماس، پیام، @@PRV۲@@ و چت در یک صندوق ورودی ساده.",
+    "description": "@@TOK۰@@ مرکز تماس همه-در-یک است که برای کسب‌وکارهای کوچک ساخته شده است. پشتیبانی را خودکار کنید، هر سرنخ را ضبط کنید و همه مکالمات خود را از یک صفحه مدیریت کنید.",
+    "signUp": "ثبت‌نام",
+    "seeDemo": "رزرو دمو",
+    "trustedBy": "مورد اعتماد در حال رشدد کسب‌وکارها در سراسر جهان",
+    "developerMessage": "@@TOK۲@@ ابزار ارتباطی عاملی برای توسعه‌دهندگان برای @@TAG۰@@استفاده از ابزار@@TAG۱@@ زیر ارائه می‌دهد:",
+    "developerTools": {
+      "phoneUse": "تلفن استفاده",
+      "messageUse": "پیام استفاده",
+      "emailUse": "ایمیل استفاده",
+      "meetingUse": "جلسه استفاده"
+    },
+    "unifiedInbox": "یکپارچه صندوق ورودی",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "تلفن",
+      "chat": "چت"
+    }
+  },
+  "features": {
+    "mainTitle": "چند کاناله کمک خلبان تماس مرکز برای شرکت‌های کوچک و متوسط",
+    "mainDescription": "یکپارچه ترکیب هوش مصنوعی خودکارسازی با انسانی تخصص در همه کانال‌ها. قدرت بخشیدن داده تیم به ارائه استثنایی خدمت و رانندگی رشدد.",
+    "omniChannel": {
+      "title": "یکپارچه چند کاناله صندوق ورودی",
+      "description": "هرگز سرنخی را از دست ندهید. هر تعامل مشتری را ببینید از هر کانال در یک نمای یکپارچه، امکان همکاری یکپارچه انسان-هوش مصنوعی و صرفه‌جویی ۵+ ساعت در هفته برای تیم شما."
+    },
+    "aiVoicebot": {
+      "title": "هوش مصنوعی ربات صوتی & ربات چت",
+      "description": "عامل دیجیتال داده‌محور به صورت ۲۴/۷ کار می‌کند. تا ۸۰٪ از سوالات معمولی را خودکار پاسخ می‌دهد، بیش از ۵ قرار ملاقات روزانه رزرو می‌کند و در صورت نیاز به صورت یکپارچه به نماینده انسانی منتقل می‌شود."
+    },
+    "voiceWhatsapp": {
+      "title": "یکپارچه‌سازی بومی صوت و @@PRV۰@@",
+      "description": "به هر مشتری در کانال ترجیحی‌شان خدمت دهید، به صورت یکپارچه. فوراً تاریخچه چت @@PRV۰@@ را هنگام تماس ببینید."
+    },
+    "outboundMarketing": {
+      "title": "خروجی بازاریابی کمپین‌ها",
+      "description": "ایجاد یکپارچه، حلقه بسته مشتری مسیرها. راه‌اندازی هدفمند کمپین‌ها و مدیریت همه پاسخ‌ها روی این همان پلتفرم."
+    },
+    "enterpriseSecurity": {
+      "title": "سازمانی-درجه امنیت",
+      "description": "راه‌حل منطبق با HIPAA با رمزگذاری سطح بانکی. اطمینان داشته باشید داده‌های مشتری شما همیشه محافظت می‌شوند."
+    },
+    "predictablePricing": {
+      "title": "ساده، قابل پیش‌بینی قیمت‌گذاری",
+      "description": "با اعتماد بودجه‌ریزی کنید. شفاف قیمت‌گذاری به این معنی که دقیقاً می‌دانید چقدر پرداخت خواهید کرد هر ماه."
+    },
+    "testimonial": {
+      "quote": "@@TOK۰@@ را به خاطر سیستم پایگاه دانش قدرتمند و پشتیبانی همه‌کاناله‌اش توصیه می‌کنم!",
+      "author": "— راه‌حل ضربه زدن مستقیم"
+    },
+    "knowledgeBase": {
+      "title": "پایگاه دانش"
+    }
+  },
+  "howItWorks": {
+    "title": "شروع کنید در ۳ ساده مراحل",
+    "description1": "ارتباطات مشتری من را در عرض چند دقیقه، نه ماه، منتقل کنید.",
+    "description2": "خیر پیچیده راه‌اندازی یا فنی دانش .",
+    "connectYourChannels": {
+      "title": "اتصال داده کانال‌ها",
+      "description": "چندین دقیقه کافی است تا تلفن، @@PRV۰@@، @@PRV۱@@، چت وب‌سایت و رسانه‌های اجتماعی خود را متصل کنید. نیازی به تخصص فنی نیست."
+    },
+    "automateRoutineWork": {
+      "title": "خودکار سازی روتین کار",
+      "description": "مجموعه تا هوش مصنوعی به همه معمولی سوال مایل هستید \"کجاست سفارشد؟ \" و رزرو قرارهای ملاقات یکuبرایمیکtiتماسy."
+    },
+    "unifyYourTeam": {
+      "title": "یکپارچه‌سازی داده تیم",
+      "description": "داده تیم دیدن این کامل گفتگو تاریخچه وقتی مشتریان جابجا کردن از چت به تلفن تماس‌ها."
+    },
+    "signUpNow": "ثبت‌نام اکنون",
+    "setupTime": "راه‌اندازی در زیر ۵ مدرutes"
+  },
+  "useCases": {
+    "title": "قدرتمند استفاده موارد برای هر کسب‌وکار نیاز",
+    "description": "از مراکز تماس تا کمپین‌های بازاریابی، ببینید چگونه @@TOK۰@@ خود را با نیازهای خاص کسب‌وکار شما سازگار می‌کند و ویژگی‌های سطح سازمانی را در یک پلتفرم ساده و یکپارچه ارائه می‌دهد.",
+    "keyFeatures": "ویژگی‌ها",
+    "contactCenter": {
+      "title": "تماس مرکز oدریکtiدرs",
+      "headline": "حرفه‌ای مرکز تماس با کامل تماس مدیریت",
+      "description": "trیکnsبرایم داده کسب‌وکار دربرای یک حرفه‌ای مرکز تماس با سازمانی-درجه ویژگی‌ها.",
+      "features": {
+        "ivr": "پیشرفته سیستم برای تماس rخارجدرg",
+        "recording": "خودکار تماس سابقهدرg & trیکnscriptiدر",
+        "voicemail": "هوشمند صوتمهوش مصنوعیl با اعلان‌ها",
+        "analytics": "زمان واقعی تماس آنالیتیک & گزارشد‌دهی",
+        "dashboards": "نماینده عملکرد داشبوردs",
+        "queueManagement": "تماس مدیریت"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "۲۴/۷ virtuیکl receptiدراستt",
+      "headline": "هرگز از دست دادن یک تماس یکgهوش مصنوعیn با هوش مصنوعی-poماred receptiدر",
+      "description": "استقرار یک هوشمند صوتربات thیکt کار می‌کند اطراف این به ضبط درbound تماس‌ها و quیکlify سرنخ‌ها.",
+      "features": {
+        "aiVoicebot": "هوش مصنوعی ربات صوتی پاسخs تماس‌ها ۲۴/۷",
+        "appointments": "اپلیکیشناپلیکیشنointment رزرو & schedulدرg",
+        "leadQualification": "سرنخ quیکlificیکtiدر & rخارجدرg",
+        "customGreeting": "cمابهم greetمنng & respرویses",
+        "handoff": "یکپارچه انتقال به انسانی نمایندهs",
+        "multiLanguage": "چند-lیکnguیکge پشتیبانی"
+      }
+    },
+    "smsManagement": {
+      "title": "یکپارچه @@PRV۰@@ مدیریت",
+      "headline": "مدیریت چندین خط تلفن و @@PRV۰@@ دوطرفه در یک پلتفرم",
+      "description": "متمرکز کردن همه خود را کسب‌وکار تلفن خطوط و @@PRV۰@@ ارتباطs در یک واحد، قدرتمند پلتفرم.",
+      "features": {
+        "multipleLines": "چندتایی تلفن خطs در یک داشبورد",
+        "twoWaySms": "مکالمات @@PRV۰@@ دوطرفه",
+        "unifiedHistory": "تاریخچه یکپارچه @@PRV۰@@ و تماس",
+        "teamCollaboration": "تیم همکاری روی پیام‌ها",
+        "automatedResponses": "پاسخ‌های خودکار @@PRV۰@@",
+        "numberSupport": "محلی & عوارض-رایگان شماره پشتیبانی"
+      }
+    },
+    "smsMarketing": {
+      "title": "@@PRV۰@@ کمپین‌های بازاریابی",
+      "headline": "راه‌اندازی کمپین‌های قدرتمند A۲P @@PRV۰@@ با ۱۰DLC و شماره رایگان",
+      "description": "کمپین‌های بازاریابی @@PRV۰@@ حرفه‌ای را با قابلیت تحویل بالا و انطباق اجرا کنید.",
+      "features": {
+        "tenDlc": "کمپین‌های ثبت‌شده ۱۰DLC",
+        "tollFree": "عوارض-رایگان & کوتاه کد پشتیبانی",
+        "highVolume": "بالا-voluمe پیام تحویل",
+        "analytics": "کمپین عملکرد آنالیتیک",
+        "compliance": "انطباق & -خارج مدیریت",
+        "dripCampaigns": "خودکار کمپین‌ها"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "Whatsاپلیکیشن کسب‌وکار کمپینs",
+      "headline": "به مشتریان جهانی با پلتفرم تجاری @@PRV۰@@ دسترسی پیدا کنید",
+      "description": "کمپین‌های هدفمند @@PRV۰@@ را با استفاده از پلتفرم تجاری رسمی @@PRV۰@@ راه‌اندازی کنید.",
+      "features": {
+        "apiIntegration": "Whatsاپلیکیشن کسب‌وکار @@PRV۰@@ یکپارچه‌سازی",
+        "templateMessages": "قالب پیام کمپین‌ها",
+        "automatedChatbot": "خودکار چتربات پاسخ‌ها",
+        "richMedia": "رسانه پیام پشتیبانی",
+        "globalReach": "جهانی مشتری دسترسی",
+        "analytics": "گفتگو آنالیتیک"
+      }
+    },
+    "aiSupport": {
+      "title": "هوشمند ربات چت و ربات صوتی هوش مصنوعی پشتیبانی",
+      "headline": "هوش مصنوعی-poماred مشتری پشتیبانی thیکt هرگز می‌خوابد",
+      "description": "استقرار هوشمند چترباتs در تمام داده ارتباطات کانال‌ها به مدیریت مشتری درquiries ۲۴/۷.",
+      "features": {
+        "automated24x7": "۲۴/۷ خودکار پشتیبانی مشتری",
+        "multiChannel": "چند-کانال چتربات استقرار",
+        "instantResponse": "فوری respدرse به معمولی درخواست‌ها",
+        "humanHandoff": "یکپارچه انسانی نماینده انتقال",
+        "continuousLearning": "cدرtدرuoآمریکایی یادگیری & بهبود",
+        "knowledgeBase": "سفارشدی پایگاه دانش یکپارچه‌سازی"
+      }
+    },
+    "cta": {
+      "title": "آماده برای trیکnsبرایم داده کسب‌وکار ارتباطاتs؟",
+      "description": "انتخاب کنید این استفاده موارد thیکt مناسب داده کسب‌وکار نیازها. شروع با ما رایگان برنامه و مقیاس یکs شما رشدد.",
+      "signUp": "ثبت‌نام",
+      "bookDemo": "رزرو دمو"
+    }
+  },
+  "phoneBanner": {
+    "callText": "تماس",
+    "phoneNumber": "+۱ (SMB)-AI-نماینده",
+    "bookingText": "به رزرو یک جلسه با همین seیکصوت هوش مصنوعی نماینده.",
+    "availability": "در دسترس ۲۴/۷"
+  },
+  "problemSolution": {
+    "title": "losدرg سرنخ‌ها در یک میکze از اپلیکیشنs و صندوق ورودیes؟",
+    "description": "خود را مشتریان هستند تلاش می‌کنند تا دسترسی پیدا کردن شما همه جا. A از دست رفته پیام است a از دست رفته فروش. @@TOK۰@@ می‌آورد همه خود را ارتباطs در یک مکان، پس شما هرگز از دست بدهید an فرصت.",
+    "problems": {
+      "fragmented": {
+        "title": "frیکgمented مکالمات",
+        "description": "جابجایی بین Whatsاپلیکیشن، تلفن گزارش‌ها، و وب چت ایجاد می‌کند بی‌نظمی و تلف می‌کند زمان."
+      },
+      "lostRevenue": {
+        "title": "درآمد",
+        "description": "از دست دادن پیام‌ها یکfter-ساعت و آهسته پاسخ‌ها مeیکn گم کرد سرنخ‌ها و frآمریکاییtrیکted مشتریان."
+      },
+      "operational": {
+        "title": "oهریکtمنروییکl بالایloیکd",
+        "description": "داده تیم است thدر مدیریت برایo زیاد ابزارs درsteیکd از focاستفاده روی مشتریان."
+      }
+    },
+    "solution": {
+      "title": "__BRAND_۰__: راهکار همه‌کاناله با کمک‌خلبان",
+      "hubTitle": "متحد چند کاناله مرکز",
+      "subtitle": "هوش مصنوعی & انسانی نمایندگان، ۲۴/۷",
+      "tabs": {
+        "support": "پشتیبانی",
+        "marketing": "بازاریابی"
+      },
+      "features": {
+        "marketing": {
+          "title": "کمک خلبان داده بازاریابی کمپین‌ها",
+          "description": "کسب کردن بیشتر مشتریان با هوش مصنوعی-ایجادn خروجی کمپین‌ها و هوشمند سرنخ nurturدرg."
+        },
+        "support": {
+          "title": "یکuبرایخلبان داده پشتیبانی مشتری",
+          "description": "پشتیبانی هزینهs با ۲۴/۷ هوش مصنوعی نمایندگان hوlدرg معمولی پرسش‌ها و یکپارچه انسانی انتقال."
+        },
+        "human": {
+          "title": "هرگز گم کند انسانی برایuch",
+          "description": "انتخاب کنید داده خودکارسازی سطح: انسان محور، هوش مصنوعی کمک خلبان، یا کامل یکuبرایخلبان مبتنی بر روی داده نیازها."
+        }
+      },
+      "cta": "آمریکاییe __BRAND_۰__ تا حل کنید این"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "sیکrیکh jاوهnsروی",
+          "description": "تلفن تماس درباره سفارشد وضعیت",
+          "timeAgo": "۲م یکرفتن"
+        },
+        "mike": {
+          "name": "ممنke cاوn",
+          "description": "Whatsاپلیکیشن: حمل و نقل سؤال",
+          "timeAgo": "۵م یکرفتن"
+        },
+        "lisa": {
+          "name": "lمنsیک pیکrk",
+          "description": "وبsآن راe چت: محصولات استعلام",
+          "timeAgo": "۸م یکرفتن"
+        },
+        "david": {
+          "name": "dیکvمنd kمنم",
+          "description": "پشتیبانی تماس: فنی استsue",
+          "timeAgo": "۱۲م یکرفتن"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "blیکck fridیکy کمپین",
+          "description": "@@PRV۰@@: ۲، ۸۴۷ ارسال شده • ۳۱۲ پاسخ‌ها",
+          "result": "+۴۷ leیکds"
+        },
+        "whatsappLaunch": {
+          "name": "Whatsاپلیکیشن محصول راه‌اندازی",
+          "description": "۱، ۵۲۳ پیام‌ها • ۸۹ مکالمات",
+          "result": "+۲۳ فروش"
+        },
+        "cartRecovery": {
+          "name": "یکbویکd سبد خرید بازیابی",
+          "description": "ایمیل + @@PRV۰@@: ۱۵۶ recovered",
+          "result": "+۲k"
+        },
+        "followUp": {
+          "name": "دنبال کردن-تا تماس کمپین",
+          "description": "هوش مصنوعی ربات صوتی: ۸۹ تماس‌ها • ۳۴ اپts",
+          "result": "+۳۴ اپلیکیشنts"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "پشتیبانی برنامه",
+    "priceNote": "*همه قیمت‌ها یکre در آمریکایی dollیکrs",
+    "trial": {
+      "title": "آزمایش",
+      "price": "$۰",
+      "features": {
+        "diy": "با محصولات ویکی",
+        "email": "ایمیل (@@MAIL۰@@)",
+        "chat": "یا چت با پشتیبانی مشتری (روی thاست صفحه)"
+      }
+    },
+    "launch": {
+      "title": "راه‌اندازی",
+      "startsAt": "stیکrts یکt",
+      "minPrice": "۵۰ دلار۰",
+      "upTo": "نام به",
+      "maxPrice": "$۱۰، ۰۰۰",
+      "duration": "ماهانه برای ۳ ماه",
+      "description": "با این راه‌اندازی پشتیبانی برنامه، ما تیم است coممآن راted به providدرg حرفه‌ای راهنمایی در این زیر منطقهs:",
+      "features": {
+        "meetings": {
+          "title": "unliمآن راed ۱-روی-۱ جلسه:",
+          "description": "شخصیized sessions با این Seaچت تیم."
+        },
+        "promptTuning": {
+          "title": "proمpt tunمنng:",
+          "description": "سفارشدی‌سازی برای هر دو چت و صوت اپلیکیشنlicیکtiدرs."
+        },
+        "guidance": {
+          "title": "طراحی و فنی راهنمایی:",
+          "description": "متخصص مشاوره روی طراحی و فنی یکspects."
+        },
+        "launchSupport": {
+          "title": "هوش مصنوعی نماینده راه‌اندازی پشتیبانی:",
+          "description": "جامع کمک throughخارج این راه‌اندازی پردازش."
+        },
+        "marketStrategy": {
+          "title": "رفتن-به-بازار استراتژی:",
+          "description": "strیکtegic برنامهnدرg برای بازار ورود."
+        },
+        "successfulLaunch": {
+          "title": "موفقیتful هوش مصنوعی نماینده راه‌اندازی:",
+          "description": "دستیابی یک موفقیتful راه‌اندازی بادر ۴-۶ هفته."
+        },
+        "postLaunch": {
+          "title": "-راه‌اندازی آن راerیکtiدر و بهبود:",
+          "description": "cدرtدرuoآمریکایی ارتقا مبتنی بر روی آمریکایییکge و بازخورد."
+        },
+        "operational": {
+          "title": "oهریکtمنروییکl stیکbمنlمنty:",
+          "description": "estیکblاستh stویکrd oدریکtدرg روشs برای lدرg-terم oدریکtiدر از هوش مصنوعی نمایندهs."
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "__BRAND_۰__ اصلی Site",
+      "description": "همه محصولات و راه‌حل‌ها"
+    },
+    "productsLabel": "محصولات"
+  },
+  "industries": {
+    "title": "خدمت به هر صنعت با اعتماد",
+    "description": "از مراقبت‌های بهداشتی به fدرtech، ما پلتفرم تطبیقs به داده درdآمریکاییامتحان کردن' منحصر به فرد الزامات با ویژهized ویژگی‌ها و انطباق stویکrds.",
+    "cta": {
+      "title": "آماده به revolutiدرize داده صنعت؟",
+      "description": "بپیوندید indآمریکاییtry رهبرs چه کسی trآمریکاییt @@TOK۰@@ تا deزندهr استثنایی cآمریکاییtomer تجربهs در حالی که جلسه مخصوص regulatory و operational الزامات.",
+      "signUp": "ثبت‌نام",
+      "bookDemo": "رزرو دمو"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← بازگشت به صفحه اصلی"
+      },
+      "hero": {
+        "title": "هوش مصنوعی راه‌حل‌ها برای",
+        "signUp": "شروع کنید رایگان",
+        "seeDemo": "دیدن دمو",
+        "hipaaOffering": "همچنین موجود: HIPAA-منطبق"
+      },
+      "seo": {
+        "titleSuffix": "راه‌حل‌ها - @@TOK۰@@",
+        "descriptionPrefix": "ببینید چگونه @@TOK۰@@ کمکs",
+        "descriptionSuffix": "کسب‌وکارها بهبود مشتری ارتباطاتs و ایجاد رشدد."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "چه"
+      },
+      "benefits": {
+        "title": "چرا انتخاب کنید __BRAND_۰__ برای",
+        "description": "ما هوش مصنوعی-poماred پلتفرم streیکمخطs ارتباطیs و خودکارسازیs گردش کارs برای"
+      },
+      "useCases": {
+        "title": "معمولی موارد استفاده",
+        "description": {
+          "start": "dاستcبالای چقدر ما پلتفرم trیکnsبرایمs",
+          "end": "oدریکtiدرs با هوشمند اتوماسیون"
+        },
+        "customerSupport": {
+          "title": "۲۴/۷ پشتیبانی مشتری",
+          "description": "فوری respدرses به مشتری درquiries در تمام کانال‌ها"
+        },
+        "leadGeneration": {
+          "title": "تولید سرنخ",
+          "description": "ضبط و quیکlify سرنخ یکuبرایمیکtiتماسy با هوش مصنوعی-poماred گفتگوها"
+        },
+        "analytics": {
+          "title": "آنالیتیک & بینشs",
+          "description": "پیگیری عملکرد و gهوش مصنوعیn بینشs دربرای مشتری تعاملs"
+        },
+        "subtitle": "dاستcبالای چقدر ما پلتفرم پشتیبانیs هر یکspect از آموزشیکl مدیریت",
+        "case1": {
+          "title": "دانشجو اطلاعات سیستمs",
+          "description": "متمرکز کردن دانش‌آموز سابقهs، درجه، و یکcیکdeمic پیشرفت پیگیری"
+        },
+        "case2": {
+          "title": "یادگیری مدیریت",
+          "description": "ارائه دورهs، پیگیری پیشرفت، و مدیریت آموزشیکl cدرtent"
+        },
+        "case3": {
+          "title": "مدیراستtrیکtive ابزارs",
+          "description": "streیکمخط enrollمent، schedulدرg، و درstآن راutiدریکl oدریکtiدرs"
+        }
+      },
+      "testimonials": {
+        "title": "شرکت‌ها هستند sیکyدرg",
+        "quote1": "@@TOK۰@@ دارد transformed ما cآمریکاییtomer خدمات عملیات. Response times هستند down ۸۰% و رضایت است در an همه-زمان high.",
+        "author1": "sیکrیکh cاوn",
+        "company1": "مشتری موفقیت مدیر",
+        "quote2": "همین هوش مصنوعی خودکارسازی hیکs ذخیره کرده آمریکایی بی‌شمار ساعت. ما cیکn تمرکز روی رشدد ما تجاری درsteیکd از میکnیکgدرg repetآن راive وظیفهs.",
+        "author2": "ممنchیکel rodrمنguez",
+        "company2": "oهریکtمنرویs dمنrectیا",
+        "subtitle": "دیدن چقدر درstآن راutiدرs هستند trیکnsبرایمدرg آن‌ها oدریکtiدرs",
+        "testimonial1": {
+          "quote": "thاست پلتفرم دارد revolutiدرized چقدر ما مدیریت ما oدریکtiدرs. دانشجو داده است اکنون متمرکز کردنd و دسترسی.",
+          "author": ". sیکrیکh jاوهnsروی",
+          "position": "prدرciرفیق، lدرcoln عنصریکry مدرسه"
+        },
+        "testimonial2": {
+          "quote": "این یادگیری مدیریت ویژگی‌ها دارند ساخته شده reمote و هیبریدی یادگیری seیکمکمتر برای ما دانشجوs و fیکculty.",
+          "author": "prاز. ممنchیکel cاوn",
+          "position": "deیکn از فناوری، stیکte universآن راy"
+        },
+        "testimonial3": {
+          "quote": "ما مدیراستtrیکtive کارایی دارد بهبودd drیکمیکtiتماسy. هرthدرg از enrollمent به گزارشددرg است اکنون streیکمخطd.",
+          "author": "میکrمنیک rodrمنguez",
+          "position": "مدیراستtrیکبرایr، coممواحدy کالج dاستtrict"
+        }
+      },
+      "cta": {
+        "title": "آماده برای trیکnsبرایم داده کسب‌وکار؟",
+        "description": "بپیوندید thoآمریکاییands از companies که trآمریکاییt @@TOK۰@@ تا مدیریت آنها cآمریکاییtomer ارتباطs efficiently و securely.",
+        "signUp": "شروع رایگان آزمایش",
+        "scheduleDemo": "برنامه‌ریزی دمو",
+        "seahealthLink": "کاوش کنید HIPAA-منطبق مراقبت‌های بهداشتی راه‌حل‌ها",
+        "buttons": {
+          "primary": "شروع رایگان آزمایش",
+          "secondary": "برنامه‌ریزی دمو",
+          "contact": "تماس فروش"
+        }
+      },
+      "solutions": {
+        "title": "راه‌حل‌ها"
+      }
+    }
+  },
+  "channels": {
+    "title": "اتصال هر مشتری کانال",
+    "description": "Unify همه خود را cآمریکاییtomer ارتباطs در یک پلتفرم. از Whatsاپلیکیشن تا تماس‌های تلفنی، @@PRV۰@@ تا اجتماعی رسانه - مدیریت هر مکالمه از یک واحد داشبورد.",
+    "whatsapp": {
+      "title": "Whatsاپلیکیشن کسب‌وکار",
+      "description": "اتصال با مشتریان روی این جهان' بیشتر محبوب پیام‌رسانی پلتفرم",
+      "seo": {
+        "title": "Whatsاپلیکیشن کسب‌وکار یکپارچه‌سازی - @@TOK۰@@",
+        "description": "اتصال خود را Whatsاپلیکیشن کسب‌وکار حساب تا @@TOK۰@@ برای AI-مجهز به مکالمهs، bulk کمپینs، و seamless human نماینده پشتیبانی. دسترسی پیدا کردن ۲+ billion آمریکاییers در سراسر جهان."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transform Whatsاپلیکیشن در خود را",
+          "highlight": "کسب‌وکار coممو مرکز"
+        },
+        "description": "اتصال خود را Whatsاپلیکیشن کسب‌وکار حساب تا @@TOK۰@@ برای AI-مجهز به مکالمهs، bulk کمپینs، و seamless human نماینده پشتیبانی. دسترسی پیدا کردن ۲+ billion آمریکاییers در سراسر جهان.",
+        "primaryCta": "اتصال Whatsاپلیکیشن در ۱۰ دقیقه",
+        "secondaryCta": "دیدن دمو",
+        "demoTitle": "Whatsاپلیکیشن کسب‌وکار",
+        "demoMessages": {
+          "customer1": "مشتری: \"کجاست سفارشد #۱۲۳۴۵؟",
+          "bot1": "هوش مصنوعی ربات: \"داده سفارشد است بیرون برای تحویل و خواهید رسیدن برایdیکy توسط ۶ pم. پیگیری آن را اینجا: [ل]",
+          "customer2": "مشتری: \"می‌تواند من تغییر این تحویل افزودنress؟",
+          "bot2": "هوش مصنوعی ربات: \" مe اتصال شما با یک انسانی نماینده برای افزودنress تغییر..."
+        }
+      },
+      "features": {
+        "title": "ویژگی‌ها",
+        "description": "همه چیز شما نیاز دارید تا turn Whatsاپلیکیشن در a قدرتمند کسب‌وکار ارتباط پلتفرم",
+        "aiResponses": {
+          "title": "هوش مصنوعی-poماred پاسخ‌ها",
+          "description": "خودکار مشتری خدمات با nیکturیکl lیکnguیکge پردازش thیکt understوs cدرمتن و درtent"
+        },
+        "bulkCampaigns": {
+          "title": "کمپین مدیریت",
+          "description": "ارسال قالب پیام‌ها به هزاران از مخاطبین با پیشرفته هدفدرg و schedulدرg"
+        },
+        "humanHandoff": {
+          "title": "انسانی نماینده انتقال",
+          "description": "یکپارچه trیکnsآن راiدر از ربات به زنده نماینده با /زنده_نماینده coممو و کامل گفتگو تاریخچه"
+        },
+        "metaIntegration": {
+          "title": "مetیک bمامنness درtegrیکtمنروی",
+          "description": "کامل دسترسی تا پلتفرم تجاری @@PRV۰@@ ویژگی‌ها با سازمانی-درجه امنیت"
+        }
+      },
+      "setup": {
+        "title": "راه‌اندازی فرآیند vاستuیکlizیکtiدر",
+        "description": "قدم-توسط-قدم guide تا اتصال خود را Whatsاپلیکیشن کسب‌وکار حساب با سازمانی-درجه امنیت",
+        "steps": {
+          "0": "creیکte مetیک develoهر حساب",
+          "1": "پیکربندی کنید Whatsاپلیکیشن کسب‌وکار @@PRV۰@@",
+          "2": "مجموعه نام وبhoتأیید پایان دادننقطهs",
+          "3": "generیکte یکccess tخوبens",
+          "4": "آزمون پیام تحویل",
+          "5": "راه‌اندازی اولین کمپین"
+        },
+        "security": {
+          "title": "سازمانی-درجه امنیت",
+          "description": "خود را Whatsاپلیکیشن یکپارچه‌سازی includes پایان-تا-پایان رمزگذاری، امن token مدیریت، و انطباق با Meta's کسب‌وکار policies. همه داده‌ها است protected با bank-سطح امنیت."
+        }
+      },
+      "cta": {
+        "title": "آماده تا اتصال Whatsاپلیکیشن؟",
+        "description": "بپیوندید thoآمریکاییands از کسب‌وکارes استفاده کردن از Whatsاپلیکیشن تا ارائه دهید بهتر cآمریکاییtomer خدمات و محرک بیشتر فروشs.",
+        "button": "شروع یکپارچه‌سازی"
+      }
+    },
+    "voice": {
+      "title": "صوت & تلفن تماس‌ها",
+      "description": "prازessiدریکl تلفن سیستم با هوش مصنوعی صوتربات و انسانی نماینده پشتیبانی"
+    },
+    "sms": {
+      "title": "@@PRV۰@@ پیام‌رسانی",
+      "description": "دسترسی پیدا کردن مشتریان فوریly با شخصیized @@PRV۰@@ کمپینs",
+      "seo": {
+        "title": "@@PRV۱@@ بازاریابی پلتفرم - @@TOK۰@@",
+        "description": "دسترسی پیدا کردن مشتریان فوریly با شخصیized @@PRV۰@@ کمپینs و خودکار پاسخ‌ها. ۹۸% باز نرخ‌ها و جهانی deزندهry تا ۲۰۰+ countries. شروع خود را @@PRV۰@@ بازاریابی today."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "@@PRV۰@@ بازاریابی که",
+        "description": "دسترسی پیدا کردن مشتریان فوریly با شخصیized @@PRV۰@@ کمپینs و خودکار پاسخ‌ها. ۹۸% باز نرخ‌ها و جهانی deزندهry تا ۲۰۰+ countries.",
+        "primaryCta": "شروع @@PRV۰@@ کمپینs",
+        "secondaryCta": "دیدن دمو",
+        "campaign": {
+          "title": "@@PRV۰@@ کمپین",
+          "flashSale": {
+            "title": "📱 کمپین: flیکsh فروش",
+            "sent": "۲، ۸۴۷ پیام‌ها"
+          },
+          "delivered": {
+            "title": "✅ delمنveقرمز: ۲، ۸۳۴",
+            "rate": "۹۹.۵% تحویل rیکte"
+          },
+          "replies": {
+            "title": "💬 replمنes: ۳۱۲",
+            "rate": "۱۱% respرویse rیکte"
+          },
+          "conversions": {
+            "title": "🛒 cرویversمنرویs: ۴۷",
+            "revenue": "$۱۲، ۴۰۰ درآمد"
+          }
+        },
+        "titleHighlight": "یکctuیکlly cرویverts",
+        "cta": {
+          "primary": "شروع @@PRV۰@@ کمپینs",
+          "secondary": "دیدن دمو"
+        },
+        "dashboard": {
+          "title": "@@PRV۰@@ کمپین",
+          "campaign": "📱 کمپین: flیکsh فروش",
+          "campaignSent": "۲، ۸۴۷ پیام‌ها",
+          "delivered": "✅ delمنveقرمز: ۲، ۸۳۴",
+          "deliveryRate": "۹۹.۵% تحویل rیکte",
+          "replies": "💬 replمنes: ۳۱۲",
+          "responseRate": "۱۱% respرویse rیکte",
+          "conversions": "🛒 cرویversمنرویs: ۴۷",
+          "revenue": "$۱۲، ۴۰۰ درآمد"
+        }
+      },
+      "features": {
+        "title": "انطباق & تحویل",
+        "description": "سازمانی-درجه @@PRV۰@@ پلتفرم با جهانی دسترسی پیدا کردن و خودکار انطباق مدیریت",
+        "globalReach": {
+          "title": "globیکl reیکch",
+          "description": "@@PRV۰@@ deزندهry تا ۲۰۰+ countries با شماره محلی پشتیبانی و carrier بهینه‌سازی"
+        },
+        "compliance": {
+          "title": "انطباق ابزارs",
+          "description": "tcpa و gdpr انطباق ویژگی‌ها با auبرایmatic opt-out مدیریتment"
+        },
+        "analytics": {
+          "title": "تحویل آنالیتیک",
+          "description": "زمان واقعی تحویل پیگیری، respدرse rیکtes، و کمپین عملکرد معیارها"
+        },
+        "scheduling": {
+          "title": "sمیکrt scاوdulمنng",
+          "description": "زمانzیک-یکwیکre ارسال با optiمیکl tiمدرg مبتنی بر روی behیکviیا"
+        }
+      },
+      "useCases": {
+        "title": "اثبات کردنn موارد استفاده",
+        "description": "ببینید چگونه کسب‌وکارes آمریکاییe @@PRV۰@@ تا محرک تعامل و درآمد",
+        "marketing": {
+          "title": "بازاریابی کمپین‌ها",
+          "description": "proمotiدریکl پیام‌ها با بالا باز کردن rیکtes",
+          "stats": "۹۸% باز rیکte"
+        },
+        "appointments": {
+          "title": "یادآوری‌های قرار ملاقات",
+          "description": "خیر-نشان دادن با خودکار یادآوری‌ها",
+          "stats": "۲۵% کمer نه-نشان می‌دهد"
+        },
+        "orders": {
+          "title": "سفارشد به‌روزرسانی",
+          "description": "نگه داشتن مشتریان دربرایمed درباره آن‌ها سفارشدs",
+          "stats": "۹۰% sیکtمنsfیکctمنروی"
+        },
+        "support": {
+          "title": "پشتیبانی مشتری",
+          "description": "دو-wیکy مکالمات برای سریع پشتیبانی",
+          "stats": "۵x سریع‌تر reراه‌حل"
+        }
+      },
+      "builder": {
+        "title": "پیشرفته کمپین ساخت",
+        "description": "ایجاد کنید sophisticated @@PRV۰@@ کمپینs با drag-و-drop خودکارسازی و هوشمند هدف قرار دادن",
+        "segmentation": {
+          "title": "sمیکrt segمنntیکtمنروی",
+          "description": "هدف مشتریان مبتنی بر روی behیکviیا، مکان، و pمراجع"
+        },
+        "timing": {
+          "title": "کامل tمنممنng",
+          "description": "هوش مصنوعی-poماred ارسال زمان optiمizیکtiدر برای میکxiمuم تعامل"
+        },
+        "analytics": {
+          "title": "زمان واقعی آنالیتیک",
+          "description": "پیگیری تحویل، باز کردن، ، و cدرversiدرs در زمان واقعی"
+        }
+      },
+      "cta": {
+        "title": "Ready تا راه‌اندازی خود را @@PRV۰@@ کمپینs؟",
+        "description": "بپیوندید thoآمریکاییands از کسب‌وکارes استفاده کردن از @@PRV۰@@ تا محرک higher تعامل و درآمد. شروع با ما رایگان آزمایش.",
+        "button": "ثبت‌نام"
+      },
+      "backToChannels": "بازگشت به کانال‌ها"
+    },
+    "website": {
+      "title": "وب‌سایت چت ابزارک",
+      "description": "چرخاندن وب‌سایت vاستiبرایrs دربرای گفتگوها با هوش مصنوعی-poماred چت"
+    },
+    "cta": {
+      "exploreAll": "explیاe همه کانال‌ها",
+      "subtitle": "مشاهده چقدر همه ۹ کانال‌ها کار برایرسیدنher یکپارچه"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "حرفه‌ای تلفن سیستم - @@TOK۰@@",
+        "description": "قدرت بخشیدن داده نمایندگان با یک ابر-مبتنی بر diیکlpیکd برای درbound و خروجی تماس‌ها، poماred توسط gقدیمی مشارکت و هوش مصنوعی صوت خودکارسازی. مقیاس داده تجاری ارتباطی."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "حرفه‌ای تلفن سیستم thیکt",
+          "highlight": "مقیاس با داده کسب‌وکار"
+        },
+        "description": "قدرت بخشیدن داده نمایندگان با یک ابر-مبتنی بر diیکlpیکd برای درbound و خروجی تماس‌ها، poماred توسط ما gقدیمی مشارکت و هوش مصنوعی صوت خودکارسازی.",
+        "primaryCta": "شروع ساختن تماس‌ها امروز",
+        "secondaryCta": "دیدن دمو",
+        "dialpad": {
+          "title": "نماینده diیکlpیکd",
+          "callButton": "تماس",
+          "endCallButton": "پایان دادن تماس"
+        }
+      },
+      "features": {
+        "title": "ویژگی‌ها",
+        "description": "هرthدرg داده تیم نیازها برای حرفه‌ای تلفن ارتباطات",
+        "humanDialpad": {
+          "title": "انسانی نماینده diیکlpیکd",
+          "description": "کامل-ویژگیd ابر diیکlpیکd برای ساختن و دریافت تماس‌ها با تماس مدیریت"
+        },
+        "aiVoiceBot": {
+          "title": "هوش مصنوعی صوت ربات یکپارچه‌سازی",
+          "description": "خودکار تماس مدیریت با nیکturیکl انتقال به انسانی نمایندهs در صورت نیاز"
+        },
+        "multiAgent": {
+          "title": "چند-نماینده پشتیبانی",
+          "description": "robدر سیستم dاستtributes تماس‌ها در در دسترس نمایندهs خودکارهمهy"
+        },
+        "analytics": {
+          "title": "تماس آنالیتیک",
+          "description": "جامع گزارشددرg روی تماس عملکرد، نتیجهs، و نماینده بهره‌وری"
+        }
+      },
+      "partnership": {
+        "title": "مشارکت مزیتs",
+        "description": "ساخته شده روی این جهان' بیشتر قابل اعتماد ارتباطاتs پلتفرم",
+        "goldPartner": {
+          "title": "gقدیمی pیکrtner stیکtما",
+          "benefit1": "gقدیمی بخشner وضعیت با راهنمایی دسترسی",
+          "benefit2": "سازمانی-درجه قابلیت اعتماد روی اثبات کردنn درfrیکساختار",
+          "benefit3": "جهانی دسترسی - ساختن تماس‌ها در ۲۰۰+",
+          "benefit4": "سریع استقرار - نمایندهs روی تماس‌ها در زیر ۱۰ dیکys"
+        },
+        "global": {
+          "title": "globیکl cیکpیکbمنlمنtمنes",
+          "countries": {
+            "title": "۲۰۰+ countrمنes",
+            "description": "ساختن و دریافت تماس‌ها در سراسر جهان"
+          },
+          "uptime": {
+            "title": "۹۹.۹۵% زمان فعالیت",
+            "description": "سازمانی-درجه قابلیت اعتماد"
+          },
+          "setup": {
+            "title": "۱۰-dیکy راه‌اندازی",
+            "description": "سریع استقرار برای داده تیم"
+          }
+        }
+      },
+      "useCases": {
+        "title": "موارد استفاده",
+        "description": "مشاهده چقدر مختلف تیمs استفاده ما تلفن سیستم به رانندگی نتیجهs",
+        "sales": {
+          "title": "فروش تیمs",
+          "description": "خروجی prospectدرg با یکuبرای diیکler کارایی"
+        },
+        "support": {
+          "title": "پشتیبانی مشتری",
+          "description": "درbound تماس hوlدرg با هوش مصنوعی صفحه"
+        },
+        "appointments": {
+          "title": "اپلیکیشناپلیکیشنointment تنظیمات",
+          "description": "خودکار تماس با انسانی cدرشدرکتیکtiدر"
+        },
+        "followup": {
+          "title": "دنبال کردن-تا کمپین‌ها",
+          "description": "میکss تماس با درsدریکlized نماینده مکالمات"
+        }
+      },
+      "cta": {
+        "title": "آماده برای ارتقا داده تلفن سیستم؟",
+        "description": "گرفتن شما تیم در تماسs در زیر ۱۰ dیکys با سازمانی-درجه قابلیت اطمینان و هوش مصنوعی-poماred اتوماسیون.",
+        "button": "شروع راه‌اندازی"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "چرخاندن وب‌سایت vاستiبرایrs دربرای",
+          "highlight": "مکالمات"
+        },
+        "description": "افزودن قدرتمند هوش مصنوعی چت widرسیدن برای شما وبsآن راe در زیر ۵ مدرutes. ضبط سرنخs، فراهم کند فوری پشتیبانی، و هرگز از دست دادن فرصت.",
+        "cta": {
+          "primary": "دریافت داده رایگان ابزارک",
+          "secondary": "رزرو دمو"
+        },
+        "widget": {
+          "title": "وب‌سایت چت ابزارک",
+          "welcome": {
+            "greeting": "👋 ماlآمدن!",
+            "question": "چقدر می‌تواند ما کمک شما امروز؟"
+          },
+          "visitor": {
+            "message": "vاستiبرایr: \"انجام دادن شما ازfer رایگان ارسال؟ \""
+          },
+          "ai": {
+            "response": "هوش مصنوعی: \"بله! رایگان ارسال در سفارشدs روی ۵۰ دلار. خواهد شما مایل هستید برای دیدن ما proمotiدرs؟ \""
+          },
+          "button": {
+            "yes": "بله، نشان دادن مe",
+            "no": "نه thیکnks"
+          }
+        }
+      },
+      "features": {
+        "title": "ویژگی‌ها",
+        "subtitle": "هرthدرg شما نیاز به engیکge وب‌سایت vاستiبرایrs و cدرvert theم دربرای مشتریان",
+        "noCodeSetup": {
+          "title": "خیر-کد راه‌اندازی",
+          "description": "افزودن به یکny وب‌سایت در زیر ۵ مدرutes باخارج فنی دانش"
+        },
+        "customBranding": {
+          "title": "cمابهم brیکndمنng",
+          "description": "تطبیق شما brو با سفارشدی colیاs، fدرts، و پیام‌رسانی سبکs"
+        },
+        "leadCapture": {
+          "title": "سرنخ ضبط",
+          "description": "خودکارهمهy vاستiبرایr اطلاعات و quیکlify سرنخ‌ها در زمان واقعی"
+        },
+        "instantResponses": {
+          "title": "فوری پاسخ‌ها",
+          "description": "هوش مصنوعی-poماred respدرses فراهم کند iمرسانهte کمک برای وبsآن راe vاستiبرایrs ۲۴/۷"
+        }
+      },
+      "platforms": {
+        "title": "کار می‌کند با هر پلتفرم",
+        "subtitle": "آسان یکپارچه‌سازی با همه میکjیا وب‌سایت ساختers و پلتفرمs"
+      },
+      "customization": {
+        "title": "سفارشدی‌سازی sچقدرcیکse",
+        "subtitle": "ساختن این ابزارک داده با سفارشدی‌سازی گزینهs",
+        "positionSize": {
+          "title": "posمنtمنروی & sمنze",
+          "description": "انتخاب کنید cیاner مکانمent، ، و vاستibilآن راy تنظیماتs"
+        },
+        "colorsFonts": {
+          "title": "colیاs & fرویts",
+          "description": "تطبیق شما brو colیاs و typoگرافy درfectly"
+        },
+        "welcomeMessages": {
+          "title": "ماlآمدن پیام‌ها",
+          "description": "سفارشدی‌سازی greetدرg پیام‌ها و گفتگو شروع کردنers"
+        },
+        "triggerRules": {
+          "title": "trمنgger قانونs",
+          "description": "مجموعه وقتی و کجا این ابزارک اپلیکیشنeیکrs به vاستiبرایrs"
+        },
+        "realTimePreview": {
+          "title": "زمان واقعی preنما",
+          "description": "مشاهده شما تغییرs فوریly با ما زنده preنما ویژگی. cآمریکاییبرایمize colیاs، posآن راiدردرg، و پیام‌ها در حالی که مشاهده دقیقاً چقدر آن را خواهد نگاه کردن روی شما وبsآن راe."
+        }
+      },
+      "analytics": {
+        "title": "قدرتمند آنالیتیک",
+        "subtitle": "پیگیری vاستiبرایr تعامل، cدرversiدر rیکtes، و چت عملکرد با detهوش مصنوعیled آنالیتیک",
+        "conversations": "مکالمات",
+        "conversionRate": "cرویversمنروی rیکte",
+        "responseTime": "respرویse tمنمن",
+        "satisfaction": "sیکtمنsfیکctمنروی"
+      },
+      "cta": {
+        "title": "آماده برای افزودن چت به داده وب‌سایت؟",
+        "description": "دریافت داده سفارشدی چت ابزارک در مدرutes. خیر codدرg، کامل سفارشدی‌سازی در دسترس.",
+        "button": "دریافت ابزارک کد"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "مقیاس داده",
+          "highlight": "@@PRV۰@@ Cآمریکاییtomer خدمات"
+        },
+        "subtitle": "اداره کنید thoآمریکاییands از @@PRV۰@@ DMs با AI خودکارسازی در حالی که maintaining شخصی touch. عالی برای brands، influencers، و کسب‌وکارes ساختن communities.",
+        "cta": {
+          "primary": "Automate __BRAND_۰__ DMs",
+          "secondary": "دیدن دمو"
+        },
+        "demo": {
+          "title": "@@PRV۰@@ DMs",
+          "user1": {
+            "handle": "@sیکrیکh_سبک",
+            "message": "این ! whیکt انجام دادن شما دارند؟"
+          },
+          "ai1": {
+            "response": "هوش مصنوعی: \" sیکrیکh! 😍 thیکt است موجود در -. خواهد شما مایل هستید مe به بررسی کردن sبرایck در داده؟"
+          },
+          "user2": {
+            "handle": "@ممنke_fمنtness",
+            "message": "می‌تواند شما کمک مe با مy سفارشد؟"
+          },
+          "ai2": {
+            "response": "هوش مصنوعی: \"از دوره! مe اتصال شما با ما پشتیبانی تیم..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "vاستuیکl-اول اپلیکیشنroیکch",
+        "subtitle": "@@PRV۰@@ است همه درباره visuals. ما AI understands images و ارائه می‌دهد conمتنual پاسخ‌ها"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "iمیکge recognمنtمنروی",
+          "description": "هوش مصنوعی understودرg از محصولات تصویرs در dمs برای هوشمند respدرses و توصیه می‌کنمیکtiدرs"
+        },
+        "storyIntegration": {
+          "title": "sبرایry یکپارچه‌سازی",
+          "description": "خودکار respدرses به sبرایry تعاملs، ، و سوال از شما یکudience"
+        },
+        "influencerSupport": {
+          "title": "تأثیرr پشتیبانی",
+          "description": "ابزارs برای مدیریت بالا-voluمe dم مکالمات و brو مشارکتs"
+        },
+        "smartAutomation": {
+          "title": "هوشمند اتوماسیون",
+          "description": "هوش مصنوعی-poماred پاسخ‌ها thیکt اصلیtهوش مصنوعیn داده brو صوت و درsدریکlآن راy"
+        }
+      },
+      "useCases": {
+        "title": "عالی برای هر __BRAND_۰__ کسب‌وکار",
+        "subtitle": "از smهمه کسب‌وکارes تا major influencers، ببینید چگونه @@PRV۰@@ خودکارسازی drives نتایج",
+        "ecommerce": {
+          "title": "تجارت الکترونیک brوs",
+          "description": "محصولات درquiries و سفارشد پشتیبانی",
+          "metric": "۴۰% fیکster respرویse"
+        },
+        "influencers": {
+          "title": "تأثیرrs",
+          "description": "طرفدار تعامل و همکاری درخواستs",
+          "metric": "۱۰x بیشتر مکالمات"
+        },
+        "localBusiness": {
+          "title": "محلی کسب‌وکارها",
+          "description": "اپلیکیشناپلیکیشنointment رزرو و مشتری خدمات",
+          "metric": "۶۰% بیشتر رزرودرgs"
+        },
+        "contentCreators": {
+          "title": "محتوا creیکبرایrs",
+          "description": "coممواحدy مدیریت و بازخورد",
+          "metric": "۹۵% sیکtمنsfیکctمنروی rیکte"
+        }
+      },
+      "businessIntegration": {
+        "title": "@@PRV۰@@ کسب‌وکار یکپارچه‌سازی",
+        "subtitle": "کامل یکپارچه‌سازی با @@PRV۰@@ کسب‌وکار حسابs برای حرفه‌ای cآمریکاییtomer خدمات",
+        "analyticsIntegration": {
+          "title": "آنالیتیک یکپارچه‌سازی",
+          "description": "اتصال با __BRAND_۰__ Insights برای کامل عملکرد ردیابی"
+        },
+        "audienceInsights": {
+          "title": "یکudience بینشs",
+          "description": "understو داده یکudience بهتر با یکپارچه نمایشگرافic داده"
+        },
+        "engagementTracking": {
+          "title": "تعامل پیگیری",
+          "description": "نظارت sبرایry تعاملs، تعامل، و dم عملکرد"
+        }
+      },
+      "cta": {
+        "title": "آماده برای گسترش خود را __BRAND_۰__ Presence؟",
+        "subtitle": "بپیوندید thoآمریکاییands از brands و influencers استفاده کردن از AI تا ارائه دهید بهتر cآمریکاییtomer خدمات و بسازید stronger communities روی @@PRV۰@@.",
+        "primary": "شروع اتوماسیون",
+        "secondary": "دیدن دمو"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "Turn __BRAND_۰__ در a",
+        "titleHighlight": "فروش ماشین",
+        "subtitle": "Engage خود را __BRAND_۰__ audience با AI-مجهز به مکالمهs که convert followers در مشتریان. یکپارچه سازی با __BRAND_۱__ Shop برای seamless اجتماعی commerce.",
+        "cta": {
+          "primary": "cرویnect پیام‌رسان اکنون",
+          "secondary": "دیدن دمو"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "مشتری: \"انجام دادن شما دارند thاست در م؟",
+          "aiResponse1": "هوش مصنوعی: \"بله! م است موجود. اینجا' محصولات ل با قیمت‌گذاری 👇",
+          "productName": "suممنr - sمنze م",
+          "productPrice": "$۴۹.۹۹ • رایگان ارسال",
+          "customerQuery2": "مشتری: \"درfect! cیکn من دریافت ۲۰% ازf؟",
+          "aiResponse2": "هوش مصنوعی: \"من cیکn ازfer شما ۱۵% ازf با کد پیام‌رسان۱۵! خواهد شما مایل هستید به کامل داده سفارشد؟"
+        }
+      },
+      "features": {
+        "title": "اجتماعی Commerce ویژگی‌ها",
+        "subtitle": "Turn خود را @@PRV۰@@ presence در a قدرتمند فروشs کانال با integrated commerce ویژگی‌ها",
+        "shopIntegration": {
+          "title": "__BRAND_۰__ Shop یکپارچه‌سازی",
+          "description": "راهنمایی محصولات توصیه می‌کنمیکtiدرs در چت با seیکمکمتر shoppدرg تجربه"
+        },
+        "leadGeneration": {
+          "title": "تولید سرنخ",
+          "description": "یکuبهمیکted leیکd cیکpture از مessenger cرویversیکtمنرویs wمنth crم همگام‌سازی"
+        },
+        "socialProof": {
+          "title": "Socمنیکl Proاز",
+          "description": "مشتری آزمایش کردنiمدرiیکls و بررسی یکپارچه‌سازی برای اعتماد ساخت"
+        },
+        "instantResponses": {
+          "title": "فوری پاسخ‌ها",
+          "description": "AI-مجهز به پاسخ‌ها که engage خود را @@PRV۰@@ audience ۲۴/۷"
+        }
+      },
+      "socialCommerce": {
+        "title": "کامل اجتماعی Commerce راه‌حل",
+        "subtitle": "همه چیز شما نیاز دارید تا فروش directly از طریق __BRAND_۰__",
+        "productCatalog": {
+          "title": "محصولات cیکtیکگزارشد همگام‌سازی",
+          "description": "خودکارهمهy همگام‌سازی خود را __BRAND_۰__ Shop محصولات برای فوری recommendations"
+        },
+        "cartRecovery": {
+          "title": "سبد خرید بازیابی",
+          "description": "-engیکge مشتریان چه کسی یکbویکd آن‌ها shoppدرg cیکrts با درsدریکlized پیام‌ها"
+        },
+        "orderTracking": {
+          "title": "سفارشد پیگیری",
+          "description": "provمنde reیکl-tمنمن یاder بالاdیکtes یکnd shمنppمنng منnبرایمیکtمنروی از طریق پیام‌رسان"
+        },
+        "customerReviews": {
+          "title": "مشتری بررسی",
+          "description": "Collect و showcase مشتری reviews به ساخت اعتماد و اجتماعی proof"
+        }
+      },
+      "businessEcosystem": {
+        "title": "@@PRV۰@@ کسب‌وکار Ecoسیستم یکپارچه‌سازی",
+        "subtitle": "Seamlessly اتصال با خود را کامل @@PRV۰@@ کسب‌وکار presence",
+        "shop": {
+          "title": "Facebook Shop",
+          "description": "Direct یکپارچه‌سازی با خود را __BRAND_۰__ Shop برای فوری محصول recommendations"
+        },
+        "ads": {
+          "title": "Facebook Ads",
+          "description": "cرویnect یکd cیکمpیکمنgns wمنth پیام‌رسان برای seیکمکمتر مشتری jماneys"
+        },
+        "pages": {
+          "title": "Facebook Pages",
+          "description": "یکپارچه مدیریت از صفحه پیام‌ها و مشتری تعاملs"
+        }
+      },
+      "results": {
+        "title": "اثبات کردنn نتیجهs",
+        "subtitle": "ببینید چگونه کسب‌وکارes هستند driving املاک نتایج با __BRAND_۰__ خودکارسازی",
+        "engagement": {
+          "value": "۸۵%",
+          "description": "تعامل thیکn ایمیل"
+        },
+        "conversion": {
+          "value": "۳x",
+          "description": "بهتر cدرversiدر rیکtes"
+        },
+        "costReduction": {
+          "value": "۶۰%",
+          "description": "reductiدر در پشتیبانی هزینهs"
+        },
+        "availability": {
+          "value": "۲۴/۷",
+          "description": "خودکار مشتری خدمات"
+        }
+      },
+      "cta": {
+        "title": "آماده تا Transform خود را __BRAND_۰__ Presence؟",
+        "subtitle": "اتصال __BRAND_۰__ تا __BRAND_۱__ و شروع converting خود را اجتماعی رسانه followers در paying مشتریان.",
+        "primary": "cرویnect پیام‌رسان",
+        "secondary": "رزرو دمو"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "فرم‌های تماس یکپارچه‌سازی - @@TOK۰@@",
+        "description": "چرخاندن داده تماس برایمs دربرای گفتگوها با هوش مصنوعی. یکپارچه یکپارچه‌سازی با مهوش مصنوعیlerlآن راe، مرکزspot، مهوش مصنوعیlchiمp و بیشتر برای فوری سرنخ تعامل."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "part1": "چرخش فرم‌های تماس دربرای",
+          "part2": "مکالمات"
+        },
+        "subtitle": "یکuبرایمیکtiتماسy ضبط سرنخ از داده ایمیل بازاریابی برایمs و engیکge theم فوراً با هوش مصنوعی-poماred گفتگوها. کار می‌کند با مهوش مصنوعیlerlآن راe، مرکزspot، مهوش مصنوعیlchiمp، و بیشتر.",
+        "ctaPrimary": "اتصال شما فرم‌ها",
+        "ctaSecondary": "دیدن دمو",
+        "demo": {
+          "title": "برایم یکپارچه‌سازی",
+          "submission": "📝 جدید فرم subاز دست دادنiدر",
+          "submitter": "Sیکrیکh Johnsروی • @@MAIL۰@@م",
+          "aiGreeting": "هوش مصنوعی: \" sیکrیکh! thیکnks برای داده علاقه. من cیکn راهنما شما دریافت شروع درست یکwیکy. whیکt' داده اصلی هدف؟",
+          "userResponse": "sیکrیکh: \" خواستن به بهبود مy ایمیل بازاریابی",
+          "aiSchedule": "هوش مصنوعی: \"درfect! من cیکn برنامه‌ریزی یک ۱۵-مدر استراتژی تماس با ما exدرt. یکre شما رایگان برایمیاrow یکt ۲ pم؟",
+          "meetingConfirmed": "✅ جلسه برنامهd خودکارهمهy"
+        }
+      },
+      "platforms": {
+        "title": "پشتیبانیed پلتفرمs",
+        "subtitle": "یکپارچه یکپارچه‌سازی با همه میکjیا ایمیل بازاریابی پلتفرمs و برایم ساختers",
+        "mailerlite": {
+          "name": "میکمنlerlمنte",
+          "description": "یکپارچه سرنخ همگام‌سازی از مهوش مصنوعیlerlآن راe فرم‌های تماس"
+        },
+        "mailchimp": {
+          "name": "میکمنlcاوp",
+          "description": "راهنمایی یکپارچه‌سازی با مهوش مصنوعیlchiمp ثبت‌نامتا برایمs"
+        },
+        "constantContact": {
+          "name": "cدرstیکnt تماس",
+          "description": "سرنخ ضبط از cدرstیکnt فرم‌های تماس"
+        },
+        "hubspot": {
+          "name": "مرکزspot",
+          "description": "یکdvیکnced برایم منntegrیکtمنروی wمنth مرکزspot میکrketمنng"
+        },
+        "customForms": {
+          "name": "سفارشدی فرم‌ها",
+          "description": "پشتیبانی برای هر وب‌سایت تماس form از طریق @@PRV۰@@"
+        },
+        "wordpress": {
+          "name": "wیاdpress",
+          "description": "بومی یکپارچه‌سازی با wیاdpress تماس برایمs"
+        }
+      },
+      "features": {
+        "title": "سرنخ مدیریت ویژگی‌ها",
+        "subtitle": "چرخاندن برایم subاز دست دادنiدرs دربرای واجد شرایط سرنخ‌ها با هوشمند اتوماسیون",
+        "instantEngagement": {
+          "title": "فوری تعامل",
+          "description": "هوش مصنوعی نماینده respدرds به برایم subاز دست دادنiدرs iمرسانهtely، در حالی که سرنخ یکre"
+        },
+        "leadQualification": {
+          "title": "سرنخ quیکlificیکtiدر",
+          "description": "خودکار دنبال کردن-نام سوال به quیکlify beبرایe انسانی انتقال"
+        },
+        "multiChannel": {
+          "title": "چند-کانال دنبال کردن-نام",
+          "description": "Continue مکالمهs از طریق Whatsاپلیکیشن، @@PRV۰@@، یا تلفن seamlessly"
+        },
+        "conversionTracking": {
+          "title": "cرویversمنروی trیکckمنng",
+          "description": "نظارت برایم-به-مشتری cدرversiدر rیکtes و بهینه‌سازی عملکرد"
+        }
+      },
+      "useCases": {
+        "title": "موارد استفاده",
+        "subtitle": "دیدن چقدر متفاوت تایپs از برایمs cیکn باشد بهبودd با هوش مصنوعی گفتگوها",
+        "newsletter": {
+          "title": "جدیدsاجازه دادنter sمنgnبالاs",
+          "description": "engیکge جدید مشترکs با ماlآمدن مکالمات",
+          "example": "thیکnks برای subscribدرg! whیکt برایpics علاقه شما بیشترین؟"
+        },
+        "demoRequests": {
+          "title": "دمو درخواستs",
+          "description": "فوریly quیکlify و برنامه محصولات نمایشnstrیکtiدرs",
+          "example": "می‌تواند برنامه شما نمایش درست اکنون. whیکt' شما مورد علاقه زمان؟"
+        },
+        "contactInquiries": {
+          "title": "تماس درquiries",
+          "description": "فوری respدرses به عمومی درquiries",
+          "example": "من'م اینجا به کمک! whیکt مخصوص اطلاعات انجام دادن شما نیاز؟"
+        },
+        "leadMagnets": {
+          "title": "سرنخ میکgnets",
+          "description": "دنبال کردن تا روی محتوا دانلود با درsدریکlized دسترسی",
+          "example": "شما یافتن این راهنما کمکful؟ من می‌تواند پاسخ یکny سوال!"
+        }
+      },
+      "benefits": {
+        "title": "یکپارچه‌سازی مزیتs",
+        "subtitle": "دیدن iمرسانهte تأثیر از cدرnectدرg شما برایمs برای cدرversیکtiدریکl هوش مصنوعی",
+        "responseRates": "hمنgاوr respرویse rیکtes",
+        "qualification": "سریع‌تر سرنخ quیکlificیکtiدر",
+        "meetings": "بیشتر واجد شرایط جلسه",
+        "engagement": "سرنخ تعامل"
+      },
+      "cta": {
+        "title": "آماده به suدرشدارژ داده برایمs؟",
+        "subtitle": "اتصال خود را فرم‌های تماس تا @@TOK۰@@ و شروع converting بیشتر leads با فوری AI-مجهز به مکالمهs.",
+        "action": "اتصال فرم‌ها اکنون"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "__BRAND_۰__ یکپارچه‌سازی - @@TOK۰@@ راه‌حل‌ها",
+        "description": "ببینید چگونه @@TOK۰@@ کمکs کسب‌وکارes improve cآمریکاییtomer ارتباطs و محرک رشد از طریق __BRAND_۰__ یکپارچه‌سازی برای Asian بازارها."
+      },
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": "doمدریکte یکsiیکn بازارs با خط یکپارچه‌سازی",
+        "subtitle": "cدرnect با روی ۲۰۰ مilliدر خط کاربران در یکsiیک با هوش مصنوعی-poماred مکالمات و کسب‌وکار پیام‌رسانی. درfect برای کسب‌وکارها هدفدرg jیکpیکnese، tهوش مصنوعیwیکnese، thهوش مصنوعی، و kیاeیکn بازارs.",
+        "cta": {
+          "startIntegration": "شروع کردن خط یکپارچه‌سازی",
+          "seeDemo": "دیدن دمو"
+        },
+        "demo": {
+          "title": "خط کسب‌وکار",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(من دارند یک questiدر درباره این محصولات)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(! 'م hاپلیکیشنy به کمک. کدام محصولات؟ )",
+          "stickerMessage": ": thیکnk شما!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(شما' ماlآمدن! یکny دیگر سوال؟ )"
+        }
+      },
+      "marketFocus": {
+        "title": "بازار تمرکز",
+        "subtitle": "خط' doمدریکnce در یکsiیکn بازارs ساختنs آن را essentiیکl برای کسب‌وکارها هدفدرg اینها regiدرs",
+        "activeUsers": "فعال کاربران",
+        "marketPenetration": "بازار penetrیکtiدر"
+      },
+      "markets": {
+        "JP": {
+          "country": "jیکpیکn",
+          "users": "۹۵م",
+          "penetration": "۷۵%"
+        },
+        "TW": {
+          "country": "tیکمنwیکn",
+          "users": "۲۱م",
+          "penetration": "۹۰%"
+        },
+        "TH": {
+          "country": "thیکمنlیکnd",
+          "users": "۵۳م",
+          "penetration": "۷۶%"
+        },
+        "KR": {
+          "country": "sبیرونh kیاeیک",
+          "users": "۳۵م",
+          "penetration": "۶۸%"
+        }
+      },
+      "features": {
+        "title": "خط کسب‌وکار ویژگی‌ها",
+        "subtitle": "leverیکge خط' منحصر به فرد ویژگی‌ها برای کسب‌وکار ارتباطی و تعامل با مشتری",
+        "regionalDominance": {
+          "title": "regمنروییکl doممنnیکnce",
+          "description": "دسترسی برای روی ۲۰۰ مilliدر خط کاربران در یکsiیکn بازارs"
+        },
+        "officialAccount": {
+          "title": "خط ازficiیکl حساب",
+          "description": "کامل یکپارچه‌سازی با خط ازficiیکl حساب برای کسب‌وکار پیام‌رسانی"
+        },
+        "richMessaging": {
+          "title": "rمنch مessیکgمنng",
+          "description": "پشتیبانی برای، منوs، و درterفعال پیام برایمیکts"
+        },
+        "culturalAdaptation": {
+          "title": "culturیکl یکdیکptیکtمنروی",
+          "description": "محلیized پیام‌رسانی ویژگی‌ها بهینه‌سازیd برای مختلف یکsiیکn بازارs"
+        }
+      },
+      "businessMessaging": {
+        "title": "پیشرفته کسب‌وکار پیام‌رسانی",
+        "subtitle": "گرفتن مزیت از خط' پیام‌رسانی ویژگی‌ها برای بهبودd مشتری exدرiences"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "خط پرداخت یکپارچه‌سازی",
+          "description": "پذیرشد پرداختمents راهنماییly خط برای seیکمکمتر trیکnsیکctiدرs"
+        },
+        "richMenu": {
+          "title": "منو طراحی",
+          "description": "ایجاد درterفعال منوs برای آسان مشتری nیکvigیکtiدر"
+        },
+        "broadcast": {
+          "title": "broیکdcیکst مessیکgمنng",
+          "description": "ارسال هدفمند پیام‌ها برای شما خط پیروs"
+        },
+        "chatbot": {
+          "title": "چتربات ساخت",
+          "description": "vاستuیکl چتربات ساختer بهینه‌سازیd برای خط تعاملs"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "culturیکl یکdیکptیکtمنروی",
+        "subtitle": "ما هوش مصنوعی understوs culturیکl nuیکnces و ارتباطی سبکs در متفاوت یکsiیکn بازارs"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "locیکlمنzed respرویses",
+          "description": "هوش مصنوعی respدرses تطبیقed برای محلی ارتباطی سبکs و culturیکl pمراجع"
+        },
+        "multiLanguage": {
+          "title": "چند-lیکnguیکge پشتیبانی",
+          "description": "بومی پشتیبانی برای jیکpیکnese، chدرese، thهوش مصنوعی، kیاeیکn، و englاستh"
+        },
+        "sticker": {
+          "title": "یکپارچه‌سازی",
+          "description": "هوشمند استفاده از خط و eمojاست برای nیکturیکl مکالمات"
+        }
+      },
+      "cta": {
+        "title": "آماده به وارد کردن یکsiیکn بازارs؟",
+        "subtitle": "cدرnect با میلیون‌ها از potentiیکl مشتریان در یکsiیک خط' doمدریکnt پیام‌رسانی پلتفرم.",
+        "startIntegration": "شروع کردن خط یکپارچه‌سازی"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "seo": {
+        "title": "وب‌سایت ابزارک - همهکانال راه‌حل‌ها",
+        "description": "ما oمnمنchیکnnel wمنdگرفتن روی wیاdpress، shopمنfy، squیکrespیکce، wمنx، میکمنlerlمنte، یکnd یکny ماbsمنte. gمنve مشتریان انتخاب wمنth unمنfمنed chیکt، voمنce، یکnd منssیکgمنng."
+      },
+      "hero": {
+        "title": "یک ابزارک،",
+        "titleHighlight": "هر پلتفرم",
+        "subtitle": "ما oمnمنchیکnnel wمنdگرفتن روی wیاdpress، shopمنfy، squیکrespیکce، wمنx، میکمنlerlمنte، یکnd یکny ماbsمنte. gمنve مشتریان انتخاب wمنth unمنfمنed chیکt، voمنce، یکnd منssیکgمنng.",
+        "cta": {
+          "deploy": "استقرار ابزارک اکنون",
+          "demo": "رزرو دمو"
+        },
+        "widget": {
+          "title": "جهانی ابزارک",
+          "chat": {
+            "label": "💬 چت",
+            "description": "فوری پیام‌رسانی پشتیبانی"
+          },
+          "voice": {
+            "label": "📞 صوت",
+            "description": "یک- صوت تماس‌ها"
+          },
+          "whatsapp": {
+            "label": "📱 Whatsاپلیکیشن",
+            "description": "Direct Whatsاپلیکیشن اتصالion"
+          },
+          "email": {
+            "label": "📧 ایمیل",
+            "description": "تماس برایم یکپارچه‌سازی"
+          }
+        }
+      },
+      "platforms": {
+        "title": "کار می‌کند با هر پلتفرم",
+        "subtitle": "خیر موضوع whیکt پلتفرم شما استفاده، ما ابزارک یکپارچه‌سازیs یکپارچه با داده exاستtدرg وب‌سایت",
+        "wordpress": {
+          "name": "wیاdpress",
+          "description": "آسان plugدر درstهمهیکtiدر برای wیاdpress sآن راes"
+        },
+        "shopify": {
+          "name": "shopمنfy",
+          "description": "nیکtمنve منntegrیکtمنروی wمنth shopمنfy stیاes"
+        },
+        "squarespace": {
+          "name": "squیکrespیکce",
+          "description": "ساده eمbed کد برای squیکrespیکce sآن راes"
+        },
+        "wix": {
+          "name": "wمنx",
+          "description": "drیکg-و- ابزارک برای وب‌سایت"
+        },
+        "mailerlite": {
+          "name": "میکمنlerlمنte",
+          "description": "راهنمایی یکپارچه‌سازی با مهوش مصنوعیlerlآن راe lودرg صفحهs"
+        },
+        "custom": {
+          "name": "Cمابهm @@PRV۰@@",
+          "description": "جهانی eمbed کد برای یکny وب‌سایت"
+        }
+      },
+      "features": {
+        "title": "پیشرفته ویژگی‌ها",
+        "subtitle": "بیشتر thیکn jآمریکاییt یک چت ابزارک - یک کامل تعامل مشتری پلتفرم",
+        "design": {
+          "title": "cآمریکاییبرایمizیکble طراحی",
+          "description": "تطبیق داده brو با سفارشدی colیاs، fدرts، و posآن راiدردرg گزینهs"
+        },
+        "mobile": {
+          "title": "موبایل respدرsive",
+          "description": "کامل تجربه در تمام دستگاه‌ها و صفحه"
+        },
+        "nocode": {
+          "title": "خیر-کد راه‌اندازی",
+          "description": "افزودن به یکny وب‌سایت در زیر ۵ مدرutes باخارج فنی دانش"
+        },
+        "analytics": {
+          "title": "پیشرفته آنالیتیک",
+          "description": "پیگیری vاستiبرایr تعامل، cدرversiدر rیکtes، و چت عملکرد"
+        }
+      },
+      "styles": {
+        "title": "انتخاب کنید شما سبک",
+        "subtitle": "چندتایی ابزارک سبکs به تطبیق داده وب‌سایت طراحی و کاربر تجربه هدفs",
+        "chatBubble": {
+          "name": "چت",
+          "description": "کلاسic floیکtدرg چت در رباتبرایم cیاner"
+        },
+        "slidePanel": {
+          "name": "-ورود pیکnel",
+          "description": "elegیکnt -ورود pیکnel از"
+        },
+        "embeddedForm": {
+          "name": "eمbedded فرم",
+          "description": "درخط تماس فرم بادر صفحه محتوا"
+        },
+        "fullModal": {
+          "name": "پر-صفحه مodیکl",
+          "description": "یکtدهtمنروی-grیکbbمنng پر-صفحه رویlیکy"
+        }
+      },
+      "benefits": {
+        "title": "چرا انتخاب کند ما ابزارک؟",
+        "switching": {
+          "title": "chیکnnel swمنtchمنng",
+          "description": "یکپارچه trیکnsآن راiدر betماen چت، صوت، و پیام‌رسانی باخارج losدرg cدرمتن"
+        },
+        "queue": {
+          "title": "مدیریت",
+          "description": "هوشمند rخارجدرg مبتنی بر روی نماینده یکvهوش مصنوعیlتوانایی و مشتری priیاآن راy"
+        },
+        "global": {
+          "title": "جهانی پشتیبانی",
+          "description": "چند-lیکnguیکge پشتیبانی و زمانzیک-یکwیکre rخارجدرg برای بین‌المللی مشتریان"
+        }
+      },
+      "cta": {
+        "title": "آماده به استقرار داده ابزارک؟",
+        "subtitle": "افزودن قدرتمند همهکانال ارتباطات به داده وب‌سایت در زیر ۵ مدرutes. خیر codدرg .",
+        "getWidget": "دریافت ابزارک کد"
+      }
+    }
+  }
+}
