@@ -5,15 +5,15 @@ const blogCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    publishDate: z.date(),
-    updatedDate: z.date().optional(),
+    publishDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
     author: z.string().default('SeaSalt.ai Team'),
     image: z.object({
       url: z.string(),
       alt: z.string(),
     }).optional(),
     tags: z.array(z.string()).default([]),
-    lang: z.enum(['en', 'es', 'zh-tw', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 'fil', 'hi', 'id', 'ms']).default('en'),
+    lang: z.enum(['en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ro', 'ru', 'ta', 'th', 'vi']).default('en'),
     slug: z.string().optional(),
     draft: z.boolean().default(false),
     category: z.string().optional(),
