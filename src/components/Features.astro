@@ -1,0 +1,115 @@
+---
+import { useTranslations } from '../i18n/utils';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+const t = useTranslations(lang as keyof typeof import('../i18n/utils').languages);
+
+const features = [
+  {
+    title: t('features.omniChannel.title'),
+    description: t('features.omniChannel.description'),
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-100',
+    iconType: 'inbox'
+  },
+  {
+    title: t('features.aiVoicebot.title'),
+    description: t('features.aiVoicebot.description'),
+    color: 'text-green-600',
+    bgColor: 'bg-green-100',
+    iconType: 'bot'
+  },
+  {
+    title: t('features.voiceWhatsapp.title'),
+    description: t('features.voiceWhatsapp.description'),
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-100',
+    iconType: 'globe'
+  },
+  {
+    title: t('features.outboundMarketing.title'),
+    description: t('features.outboundMarketing.description'),
+    color: 'text-orange-600',
+    bgColor: 'bg-orange-100',
+    iconType: 'zap'
+  },
+  {
+    title: t('features.enterpriseSecurity.title'),
+    description: t('features.enterpriseSecurity.description'),
+    color: 'text-red-600',
+    bgColor: 'bg-red-100',
+    iconType: 'shield'
+  },
+  {
+    title: t('features.predictablePricing.title'),
+    description: t('features.predictablePricing.description'),
+    color: 'text-indigo-600',
+    bgColor: 'bg-indigo-100',
+    iconType: 'chart'
+  }
+];
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="text-center mb-16">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+        {t('features.mainTitle')}
+      </h2>
+      <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        {t('features.mainDescription')}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      {features.map((feature, index) => (
+        <div class="group p-6 sm:p-8 rounded-2xl border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all duration-300">
+          <div class={`${feature.bgColor} ${feature.color} p-3 rounded-xl w-fit mb-6 group-hover:scale-110 transition-transform duration-300`}>
+            <div class={`h-8 w-8 feature-icon`} data-type={feature.iconType}></div>
+          </div>
+          <h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3 sm:mb-4">
+            {feature.title}
+          </h3>
+          <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
+            {feature.description}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <!-- Testimonial Quote -->
+    <div class="mt-20 text-center">
+      <blockquote class="text-xl sm:text-2xl font-medium text-gray-900 mb-4">
+        {t('features.testimonial.quote')}
+      </blockquote>
+      <cite class="text-base sm:text-lg text-gray-600">{t('features.testimonial.author')}</cite>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Add SVG icons for features
+  function createFeatureIcon(type: string): string {
+    const icons = {
+      inbox: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>`,
+      bot: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><circle cx="12" cy="5" r="2"/><path d="m12 7v4h-2m6 0h-4"/></svg>`,
+      globe: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="m12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+      zap: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/></svg>`,
+      shield: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7z"/></svg>`,
+      chart: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m19 9l-5 5-4-4-3 3"/></svg>`
+    };
+    return icons[type as keyof typeof icons] || icons.inbox;
+  }
+
+  // Initialize feature icons
+  document.querySelectorAll('.feature-icon').forEach((icon) => {
+    const type = icon.getAttribute('data-type');
+    if (type) {
+      icon.innerHTML = createFeatureIcon(type);
+    }
+  });
+</script>
