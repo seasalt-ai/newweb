@@ -34,9 +34,9 @@ const {
 } = Astro.props;
 
 // Get current URL and build canonical URL
-const currentUrl = new URL(Astro.request.url);
+const currentUrl = canonical ? new URL(canonical) : new URL(Astro.url);
 const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
-const canonicalUrl = canonical || currentUrl.href;
+const canonicalUrl = canonical || Astro.url.href;
 
 // Build absolute image URL
 const absoluteImageUrl = image.startsWith('http') ? image : `${baseUrl}${image}`;

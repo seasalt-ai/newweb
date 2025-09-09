@@ -20,36 +20,9 @@ export const onRequest = defineMiddleware((context, next) => {
   
   // Check if this is the root path
   if (pathname === '/') {
-    // Detect browser language or use default
-    const acceptLanguage = context.request.headers.get('accept-language');
-    let preferredLang = defaultLang;
-    
-    if (acceptLanguage) {
-      // Parse accept-language header to find the best match
-      const browserLanguages = acceptLanguage
-        .split(',')
-        .map(lang => {
-          const parts = lang.trim().split(';');
-          const code = parts[0];
-          const quality = parts[1] ? parseFloat(parts[1].split('=')[1]) : 1;
-          return { code: normalizeLanguageCode(code), quality };
-        })
-        .sort((a, b) => b.quality - a.quality);
-      
-      // Find the first supported language
-      const supportedLangCodes = Object.keys(languages);
-      for (const lang of browserLanguages) {
-        if (supportedLangCodes.includes(lang.code)) {
-          preferredLang = lang.code as SupportedLanguage;
-          break;
-        }
-      }
-    }
-    
-    // Redirect to preferred language (unless it's the default and we don't prefix default)
-    if (preferredLang !== defaultLang || prefixDefaultLocale()) {
-      return Response.redirect(new URL(`/${preferredLang}`, url), 302);
-    }
+    // For static builds, we rely on client-side redirection in the index.html page
+    // Skip server-side language detection to avoid prerendering issues
+    return next();
   }
 
   // Handle language-prefixed routes
