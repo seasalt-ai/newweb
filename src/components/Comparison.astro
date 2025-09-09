@@ -1,0 +1,199 @@
+---
+import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
+const { t } = await getTranslationHelpers(currentLang);
+
+const competitors = [
+  {
+    name: 'Seasalt.ai',
+    startingPrice: t('comparison.competitors.seasalt.startingPrice', lang),
+    pricingModel: t('comparison.competitors.seasalt.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.seasalt.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.seasalt.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.seasalt.bestFor', lang),
+    highlight: true,
+    link: null
+  },
+  {
+    name: 'Aircall',
+    startingPrice: t('comparison.competitors.aircall.startingPrice', lang),
+    pricingModel: t('comparison.competitors.aircall.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.aircall.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.aircall.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.aircall.bestFor', lang),
+    highlight: false,
+    link: `/${lang}/compare/aircall-alternative`
+  },
+  {
+    name: 'RingCentral',
+    startingPrice: t('comparison.competitors.ringcentral.startingPrice', lang),
+    pricingModel: t('comparison.competitors.ringcentral.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.ringcentral.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.ringcentral.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.ringcentral.bestFor', lang),
+    highlight: false,
+    link: `/${lang}/compare/ringcentral-alternative`
+  },
+  {
+    name: 'Genesys Cloud CX',
+    startingPrice: t('comparison.competitors.genesys.startingPrice', lang),
+    pricingModel: t('comparison.competitors.genesys.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.genesys.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.genesys.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.genesys.bestFor', lang),
+    highlight: false,
+    link: `/${lang}/compare/genesys-alternative`
+  },
+  {
+    name: 'Five9',
+    startingPrice: t('comparison.competitors.five9.startingPrice', lang),
+    pricingModel: t('comparison.competitors.five9.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.five9.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.five9.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.five9.bestFor', lang),
+    highlight: false,
+    link: `/${lang}/compare/five9-alternative`
+  },
+  {
+    name: 'Google Voice',
+    startingPrice: t('comparison.competitors.googleVoice.startingPrice', lang),
+    pricingModel: t('comparison.competitors.googleVoice.pricingModel', lang),
+    unifiedVoiceDigital: t('comparison.competitors.googleVoice.unifiedVoiceDigital', lang),
+    aiCapabilities: t('comparison.competitors.googleVoice.aiCapabilities', lang),
+    bestFor: t('comparison.competitors.googleVoice.bestFor', lang),
+    highlight: false,
+    link: `/${lang}/compare/google-voice-alternative`
+  }
+];
+
+function renderCapability(capability: string) {
+  if (capability.includes('✅')) {
+    return { type: 'check', text: capability };
+  } else if (capability.includes('❌')) {
+    return { type: 'x', text: capability };
+  } else if (capability.includes('⚠️')) {
+    return { type: 'alert', text: capability };
+  }
+  return { type: 'text', text: capability };
+}
+---
+
+<section id="compare" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="text-center mb-16">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+        {t('comparison.title', lang)}
+      </h2>
+      <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        {t('comparison.description', lang)}
+      </p>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
+      <div class="overflow-x-auto">
+        <table class="w-full min-w-[800px]">
+          <thead class="bg-gray-50 text-left">
+            <tr>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.platform', lang)}
+              </th>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.startingPrice', lang)}
+              </th>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.pricingModel', lang)}
+              </th>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.unifiedVoiceDigital', lang)}
+              </th>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.aiCapabilities', lang)}
+              </th>
+              <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">
+                {t('comparison.table.headers.bestFor', lang)}
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            {competitors.map((competitor) => {
+              const unifiedCapability = renderCapability(competitor.unifiedVoiceDigital);
+              const aiCapability = renderCapability(competitor.aiCapabilities);
+              
+              return (
+                <tr class={competitor.highlight ? 'bg-blue-50 border-2 border-blue-200' : 'hover:bg-gray-50'}>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4">
+                    <div class="flex items-center flex-wrap gap-2">
+                      <div class="flex-shrink-0">
+                        {competitor.link ? (
+                          <a 
+                            href={competitor.link}
+                            class={`text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto ${
+                              competitor.highlight ? 'text-blue-900' : 'text-blue-600 hover:text-blue-800'
+                            }`}
+                          >
+                            {competitor.name}
+                          </a>
+                        ) : (
+                          <span class={`text-xs sm:text-sm font-semibold break-words hyphens-auto ${competitor.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
+                            {competitor.name}
+                          </span>
+                        )}
+                      </div>
+                      {competitor.highlight && (
+                        <span class="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full whitespace-nowrap flex-shrink-0">
+                          {t('comparison.recommended', lang)}
+                        </span>
+                      )}
+                    </div>
+                  </td>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                    <div class="break-words hyphens-auto">{competitor.startingPrice}</div>
+                  </td>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                    <div class="break-words hyphens-auto">{competitor.pricingModel}</div>
+                  </td>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">
+                    <div class="flex justify-center">
+                      {unifiedCapability.type === 'check' && <span class="text-green-600">✓</span>}
+                      {unifiedCapability.type === 'x' && <span class="text-red-500">✗</span>}
+                      {unifiedCapability.type === 'alert' && <span class="text-yellow-500">⚠</span>}
+                      {unifiedCapability.type === 'text' && <span>{unifiedCapability.text}</span>}
+                    </div>
+                  </td>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm">
+                    <div class="flex justify-center">
+                      {aiCapability.type === 'check' && <span class="text-green-600">✓</span>}
+                      {aiCapability.type === 'x' && <span class="text-red-500">✗</span>}
+                      {aiCapability.type === 'alert' && <span class="text-yellow-500">⚠</span>}
+                      {aiCapability.type === 'text' && <span>{aiCapability.text}</span>}
+                    </div>
+                  </td>
+                  <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                    <div class="break-words hyphens-auto leading-tight">{competitor.bestFor}</div>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-16">
+      <a
+        href={`/${lang}/compare-us-overview`}
+        class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+      >
+        {t('comparison.cta.seeAllComparisons', lang)}
+      </a>
+    </div>
+  </div>
+</section>

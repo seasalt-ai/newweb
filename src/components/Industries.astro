@@ -1,0 +1,242 @@
+---
+import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+import { getMeetingUrl } from '../constants/urls';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
+const { t } = await getTranslationHelpers(currentLang);
+
+// 定義行業數據
+const industriesData = [
+  {
+    title: t('industriesData.ecommerce.title'),
+    headline: t('industriesData.ecommerce.headline'),
+    benefits: [
+      t('industriesData.ecommerce.benefits.0'),
+      t('industriesData.ecommerce.benefits.1'),
+      t('industriesData.ecommerce.benefits.2'),
+      t('industriesData.ecommerce.benefits.3')
+    ],
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50',
+    borderColor: 'border-blue-200',
+    icon: 'shopping-cart'
+  },
+  {
+    title: t('industriesData.healthcare.title'),
+    headline: t('industriesData.healthcare.headline'),
+    benefits: [
+      t('industriesData.healthcare.benefits.0'),
+      t('industriesData.healthcare.benefits.1'),
+      t('industriesData.healthcare.benefits.2'),
+      t('industriesData.healthcare.benefits.3')
+    ],
+    color: 'text-green-600',
+    bgColor: 'bg-green-50',
+    borderColor: 'border-green-200',
+    icon: 'heart'
+  },
+  {
+    title: t('industriesData.realEstate.title'),
+    headline: t('industriesData.realEstate.headline'),
+    benefits: [
+      t('industriesData.realEstate.benefits.0'),
+      t('industriesData.realEstate.benefits.1'),
+      t('industriesData.realEstate.benefits.2'),
+      t('industriesData.realEstate.benefits.3')
+    ],
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-50',
+    borderColor: 'border-purple-200',
+    icon: 'home'
+  },
+  {
+    title: t('industriesData.restaurants.title'),
+    headline: t('industriesData.restaurants.headline'),
+    benefits: [
+      t('industriesData.restaurants.benefits.0'),
+      t('industriesData.restaurants.benefits.1'),
+      t('industriesData.restaurants.benefits.2'),
+      t('industriesData.restaurants.benefits.3')
+    ],
+    color: 'text-orange-600',
+    bgColor: 'bg-orange-50',
+    borderColor: 'border-orange-200',
+    icon: 'utensils'
+  },
+  {
+    title: t('industriesData.education.title'),
+    headline: t('industriesData.education.headline'),
+    benefits: [
+      t('industriesData.education.benefits.0'),
+      t('industriesData.education.benefits.1'),
+      t('industriesData.education.benefits.2'),
+      t('industriesData.education.benefits.3')
+    ],
+    color: 'text-indigo-600',
+    bgColor: 'bg-indigo-50',
+    borderColor: 'border-indigo-200',
+    icon: 'graduation-cap'
+  },
+  {
+    title: t('industriesData.automotive.title'),
+    headline: t('industriesData.automotive.headline'),
+    benefits: [
+      t('industriesData.automotive.benefits.0'),
+      t('industriesData.automotive.benefits.1'),
+      t('industriesData.automotive.benefits.2'),
+      t('industriesData.automotive.benefits.3')
+    ],
+    color: 'text-red-600',
+    bgColor: 'bg-red-50',
+    borderColor: 'border-red-200',
+    icon: 'car'
+  },
+  {
+    title: t('industriesData.professional.title'),
+    headline: t('industriesData.professional.headline'),
+    benefits: [
+      t('industriesData.professional.benefits.0'),
+      t('industriesData.professional.benefits.1'),
+      t('industriesData.professional.benefits.2'),
+      t('industriesData.professional.benefits.3')
+    ],
+    color: 'text-gray-600',
+    bgColor: 'bg-gray-50',
+    borderColor: 'border-gray-200',
+    icon: 'briefcase'
+  },
+  {
+    title: t('industriesData.financial.title'),
+    headline: t('industriesData.financial.headline'),
+    benefits: [
+      t('industriesData.financial.benefits.0'),
+      t('industriesData.financial.benefits.1'),
+      t('industriesData.financial.benefits.2'),
+      t('industriesData.financial.benefits.3')
+    ],
+    color: 'text-emerald-600',
+    bgColor: 'bg-emerald-50',
+    borderColor: 'border-emerald-200',
+    icon: 'building'
+  }
+];
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="text-center mb-16">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+        {t('industries.title')}
+      </h2>
+      <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        {t('industries.description')}
+      </p>
+    </div>
+
+    <!-- Industries Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+      {industriesData.map((industry) => (
+        <div class={`p-4 sm:p-6 rounded-2xl border-2 ${industry.borderColor} ${industry.bgColor} hover:shadow-lg transition-all duration-300 group cursor-pointer`}>
+          <div class="text-center mb-4 sm:mb-6">
+            <div class={`${industry.color} mb-4 group-hover:scale-110 transition-transform duration-300 mx-auto w-fit`}>
+              <div class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" data-icon={industry.icon}></div>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">
+              {industry.title}
+            </h3>
+            <h4 class={`text-xs sm:text-sm font-semibold ${industry.color} mb-3 sm:mb-4`}>
+              {industry.headline}
+            </h4>
+          </div>
+
+          <ul class="space-y-1.5 sm:space-y-2">
+            {industry.benefits.map((benefit) => (
+              <li class="flex items-start">
+                <div class={`w-1.5 h-1.5 ${industry.color.replace('text-', 'bg-')} rounded-full mt-1.5 mr-2 flex-shrink-0`}></div>
+                <span class="text-xs text-gray-700 leading-tight">{benefit}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <!-- CTA Section -->
+    <div class="mt-16 text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-6 sm:p-8 md:p-12 text-white">
+      <h3 class="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
+        {t('industries.cta.title')}
+      </h3>
+      <p class="text-lg sm:text-xl opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
+        {t('industries.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+        >
+          {t('industries.cta.signUp')}
+        </a>
+        <a
+          href={getMeetingUrl(currentLang)}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+        >
+          {t('industries.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Icon styles using custom data attributes */
+[data-icon="shopping-cart"]:before {
+  content: "🛒";
+  font-size: 2rem;
+}
+
+[data-icon="heart"]:before {
+  content: "❤️";
+  font-size: 2rem;
+}
+
+[data-icon="home"]:before {
+  content: "🏠";
+  font-size: 2rem;
+}
+
+[data-icon="utensils"]:before {
+  content: "🍴";
+  font-size: 2rem;
+}
+
+[data-icon="graduation-cap"]:before {
+  content: "🎓";
+  font-size: 2rem;
+}
+
+[data-icon="car"]:before {
+  content: "🚗";
+  font-size: 2rem;
+}
+
+[data-icon="briefcase"]:before {
+  content: "💼";
+  font-size: 2rem;
+}
+
+[data-icon="building"]:before {
+  content: "🏢";
+  font-size: 2rem;
+}
+
+@media (max-width: 640px) {
+  [data-icon]:before {
+    font-size: 1.5rem;
+  }
+}
+</style>

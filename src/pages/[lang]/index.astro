@@ -3,6 +3,11 @@ import Layout from '../../layouts/Layout.astro';
 import Hero from '../../components/Hero.astro';
 import ProblemSolution from '../../components/ProblemSolution.astro';
 import Features from '../../components/Features.astro';
+import HowItWorks from '../../components/HowItWorks.astro';
+import UseCases from '../../components/UseCases.astro';
+import Industries from '../../components/Industries.astro';
+import Channels from '../../components/Channels.astro';
+import Comparison from '../../components/Comparison.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
 
 // 為所有支持的語言生成靜態路徑
@@ -33,4 +38,9 @@ const description = t('seo.homepage.description') || 'Transform your customer co
 	<Hero lang={currentLang} />
 	<ProblemSolution lang={currentLang} />
 	<Features lang={currentLang} />
+	<HowItWorks lang={currentLang} />
+	<UseCases lang={currentLang} />
+	<Industries lang={currentLang} />
+	<Channels lang={currentLang} />
+	<Comparison lang={currentLang} />
 </Layout>

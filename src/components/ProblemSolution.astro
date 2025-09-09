@@ -167,15 +167,53 @@ const problems = [
           </div>
         </div>
 
-        <!-- Bottom CTA -->
-        <p class="text-lg sm:text-xl mb-6">
-          {t('problemSolution.solution.description')}
-        </p>
+        <!-- Visual Marketing/Support/Human Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
+          <!-- Marketing Section -->
+          <div class="text-center">
+            <div class="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
+              <div class="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto megaphone-icon">📢</div>
+            </div>
+            <h4 class="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+              {t('problemSolution.solution.features.marketing.title', lang)}
+            </h4>
+            <p class="text-white opacity-90 text-xs sm:text-sm">
+              {t('problemSolution.solution.features.marketing.description', lang)}
+            </p>
+          </div>
+
+          <!-- Support Section -->
+          <div class="text-center">
+            <div class="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
+              <div class="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto bot-icon">🤖</div>
+            </div>
+            <h4 class="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+              {t('problemSolution.solution.features.support.title', lang)}
+            </h4>
+            <p class="text-white opacity-90 text-xs sm:text-sm">
+              {t('problemSolution.solution.features.support.description', lang)}
+            </p>
+          </div>
+
+          <!-- Human Agents Section -->
+          <div class="text-center">
+            <div class="bg-white bg-opacity-20 p-3 sm:p-4 rounded-2xl mb-3 sm:mb-4 inline-block">
+              <div class="h-8 w-8 sm:h-10 sm:w-10 text-white mx-auto users-icon">👥</div>
+            </div>
+            <h4 class="text-lg sm:text-xl font-semibold text-white mb-1 sm:mb-2">
+              {t('problemSolution.solution.features.human.title', lang)}
+            </h4>
+            <p class="text-white opacity-90 text-xs sm:text-sm">
+              {t('problemSolution.solution.features.human.description', lang)}
+            </p>
+          </div>
+        </div>
+
         <a
           href="https://seax.seasalt.ai/signup"
-          class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 inline-block"
+          class="inline-flex items-center bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
         >
-          {t('problemSolution.solution.cta')}
+          {t('problemSolution.solution.cta', lang)}
         </a>
       </div>
     </div>
