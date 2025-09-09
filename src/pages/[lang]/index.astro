@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import ProblemSolution from '../../components/ProblemSolution.astro';
+import Features from '../../components/Features.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t } = await getTranslationHelpers(currentLang);
+
+// 使用翻譯的標題和描述
+const title = t('seo.homepage.title') || 'SeaSalt.ai - AI-Powered Contact Center Solutions';
+const description = t('seo.homepage.description') || 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.';
+---
+
+<Layout title={title} description={description} lang={currentLang}>
+	<Hero lang={currentLang} />
+	<ProblemSolution lang={currentLang} />
+	<Features lang={currentLang} />
+</Layout>

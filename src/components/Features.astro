@@ -1,12 +1,13 @@
 ---
-import { useTranslations } from '../i18n/utils';
+import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
 
 export interface Props {
   lang?: string;
 }
 
 const { lang = 'en' } = Astro.props;
-const t = useTranslations(lang as keyof typeof import('../i18n/utils').languages);
+const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
+const { t } = await getTranslationHelpers(currentLang);
 
 const features = [
   {

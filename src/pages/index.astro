@@ -1,16 +1,62 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import ProblemSolution from '../components/ProblemSolution.astro';
-import Features from '../components/Features.astro';
-
-const lang = 'en'; // Default language for root page
-const title = 'SeaSalt.ai - AI-Powered Contact Center Solutions';
-const description = 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.';
+// 支持的語言列表
+const supportedLocales = [
+  'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+  'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+];
 ---
 
-<Layout title={title} description={description} lang={lang}>
-	<Hero lang={lang} />
-	<ProblemSolution lang={lang} />
-	<Features lang={lang} />
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaSalt.ai - Redirecting...</title>
+  <meta name="description" content="SeaSalt.ai - AI-Powered Contact Center Solutions">
+</head>
+<body>
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif;">
+    <div style="text-align: center;">
+      <h1>Redirecting...</h1>
+      <p>Please wait while we redirect you to the appropriate language version.</p>
+    </div>
+  </div>
+
+  <script>
+    // 客戶端語言檢測和重定向
+    function detectBrowserLanguage() {
+      const supportedLocales = [
+        'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+        'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+      ];
+      
+      const browserLangs = navigator.languages || [navigator.language || 'en'];
+      
+      for (const browserLang of browserLangs) {
+        const locale = browserLang.toLowerCase();
+        
+        // 完全匹配
+        if (supportedLocales.includes(locale)) {
+          return locale;
+        }
+        
+        // 語言代碼匹配 (例如 'zh' 匹配 'zh-cn')
+        const langCode = locale.split('-')[0];
+        const matchedLocale = supportedLocales.find(supported => 
+          supported.startsWith(langCode + '-') || supported === langCode
+        );
+        
+        if (matchedLocale) {
+          return matchedLocale;
+        }
+      }
+      
+      return 'en'; // 預設
+    }
+    
+    // 立即重定向
+    const detectedLanguage = detectBrowserLanguage();
+    window.location.href = `/${detectedLanguage}/`;
+  </script>
+</body>
+</html>

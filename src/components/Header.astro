@@ -1,6 +1,6 @@
 ---
 import LanguageSwitcher from './LanguageSwitcher.astro';
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getTranslationHelpers, extractLangFromPath } from '../i18n/helpers';
 
 // Header component props
 export interface Props {
@@ -8,33 +8,38 @@ export interface Props {
 }
 
 const { currentPath = '/' } = Astro.props;
-const currentLang = getLangFromUrl(Astro.url);
-const t = useTranslations(currentLang);
+const currentLang = extractLangFromPath(Astro.url.pathname);
+const { t } = await getTranslationHelpers(currentLang);
 
-// Navigation data - can be moved to separate data file later
+// Navigation data using translations
 const solutions = [
-  { title: 'AI Automation', path: '/solutions/ai-automation' },
-  { title: 'Customer Support', path: '/solutions/customer-support' },
-  { title: 'Sales Marketing', path: '/solutions/sales-marketing' },
-  { title: 'SME Owners', path: '/solutions/sme-owners' }
+  { title: t('header.useCasesDropdown.salesMarketing'), path: '/solutions/sales-marketing', icon: 'TrendingUp' },
+  { title: t('header.useCasesDropdown.customerSupport'), path: '/solutions/customer-support', icon: 'Headphones' },
+  { title: t('header.useCasesDropdown.aiAutomation'), path: '/solutions/ai-automation', icon: 'Bot' },
+  { title: t('header.useCasesDropdown.smeOwners'), path: '/solutions/sme-owners', icon: 'Building2' }
 ];
 
 const industries = [
-  { title: 'Healthcare', path: '/industries/healthcare' },
-  { title: 'E-commerce', path: '/industries/ecommerce' },
-  { title: 'Real Estate', path: '/industries/real-estate' },
-  { title: 'Financial Services', path: '/industries/financial-services' },
-  { title: 'Professional Services', path: '/industries/professional-services' },
-  { title: 'Restaurants & Hospitality', path: '/industries/restaurants-hospitality' }
+  { title: t('industriesData.ecommerce.title'), path: '/industries/ecommerce', slug: 'e-commerce', icon: 'ShoppingCart' },
+  { title: t('industriesData.healthcare.title'), path: '/industries/healthcare', slug: 'healthcare', icon: 'Heart' },
+  { title: t('industriesData.realEstate.title'), path: '/industries/real-estate', slug: 'real-estate', icon: 'Home' },
+  { title: t('industriesData.restaurants.title'), path: '/industries/restaurants-hospitality', slug: 'restaurants-hospitality', icon: 'Utensils' },
+  { title: t('industriesData.education.title'), path: '/industries/education', slug: 'education-training', icon: 'GraduationCap' },
+  { title: t('industriesData.automotive.title'), path: '/industries/automotive', slug: 'automotive-services', icon: 'Car' },
+  { title: t('industriesData.professional.title'), path: '/industries/professional-services', slug: 'professional-services', icon: 'Briefcase' },
+  { title: t('industriesData.financial.title'), path: '/industries/financial-services', slug: 'financial-services', icon: 'Building' }
 ];
 
 const channels = [
-  { title: 'WhatsApp', path: '/channels/whatsapp' },
-  { title: 'Phone Calls', path: '/channels/phone-calls' },
-  { title: 'SMS', path: '/channels/sms' },
-  { title: 'Website Chat', path: '/channels/website-chat' },
-  { title: 'Instagram', path: '/channels/instagram' },
-  { title: 'Facebook Messenger', path: '/channels/facebook-messenger' }
+  { title: t('header.channelsDropdown.whatsapp'), path: '/channels/whatsapp', icon: 'MessageCircle' },
+  { title: t('header.channelsDropdown.phoneCalls'), path: '/channels/phone-calls', icon: 'Phone' },
+  { title: t('header.channelsDropdown.sms'), path: '/channels/sms', icon: 'MessageSquare' },
+  { title: t('header.channelsDropdown.websiteChat'), path: '/channels/website-chat', icon: 'Bot' },
+  { title: t('header.channelsDropdown.instagram'), path: '/channels/instagram', icon: 'Instagram' },
+  { title: t('header.channelsDropdown.facebookMessenger'), path: '/channels/facebook-messenger', icon: 'Facebook' },
+  { title: t('header.channelsDropdown.contactForms'), path: '/channels/contact-forms', icon: 'Mail' },
+  { title: t('header.channelsDropdown.line'), path: '/channels/line', icon: 'MessageSquare' },
+  { title: t('header.channelsDropdown.websiteWidget'), path: '/channels/website-widget', icon: 'Monitor' }
 ];
 
 const competitors = [
@@ -42,15 +47,58 @@ const competitors = [
   { title: 'vs. RingCentral', path: '/compare/ringcentral-alternative' },
   { title: 'vs. Genesys', path: '/compare/genesys-alternative' },
   { title: 'vs. Five9', path: '/compare/five9-alternative' },
-  { title: 'vs. Intercom', path: '/compare/intercom-alternative' }
+  { title: 'vs. Intercom', path: '/compare/intercom-alternative' },
+  { title: 'vs. Avaya', path: '/compare/avaya-alternative' },
+  { title: 'vs. Google Voice', path: '/compare/google-voice-alternative' },
+  { title: 'vs. respond.io', path: '/compare/respond-io-alternative' },
+  { title: 'vs. Kustomer', path: '/compare/kustomer-alternative' }
 ];
 
 const products = [
-  { title: 'SeaChat', href: 'https://seachat.seasalt.ai' },
-  { title: 'SeaMeet', href: 'https://seameet.seasalt.ai' },
-  { title: 'SeaVoice', href: 'https://seavoice.seasalt.ai' },
-  { title: 'SeaX', href: 'https://seax.seasalt.ai' }
+  { title: t('productsData.seachat.title'), description: t('productsData.seachat.description'), href: '/seachat', icon: 'MessageSquare' },
+  { title: t('productsData.seax.title'), description: t('productsData.seax.description'), href: '/seax', icon: 'Users' },
+  { title: t('productsData.seameet.title'), description: t('productsData.seameet.description'), href: 'https://seameet.ai/', icon: 'Video' },
+  {
+    title: t('productsData.seavoice.title'), 
+    description: t('productsData.seavoice.description'), 
+    href: '/seavoice', 
+    icon: 'Mic',
+    subProducts: [
+      { title: t('productsData.seavoice.subProducts.tts'), href: 'https://suite.seasalt.ai/tts/' },
+      { title: t('productsData.seavoice.subProducts.stt'), href: 'https://suite.seasalt.ai/stt/' },
+      { title: t('productsData.seavoice.subProducts.discord'), href: 'https://voice.seasalt.ai/discord/' }
+    ]
+  }
 ];
+
+// Helper function to render SVG icons
+const getIcon = (iconName: string, className = 'w-4 h-4') => {
+  const icons = {
+    MessageSquare: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.004 9.004 0 01-8.716-6.747M3 5a2 2 0 012-2h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H17a2 2 0 012 2v11a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"></path></svg>`,
+    Users: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`,
+    Video: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>`,
+    Mic: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>`,
+    TrendingUp: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>`,
+    Headphones: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8a2 2 0 012 2v5l-2 1-2-1V6a2 2 0 00-2-2H8a2 2 0 00-2 2v5l-2 1-2-1V6a2 2 0 012-2z"></path></svg>`,
+    Bot: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>`,
+    Building2: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>`,
+    ShoppingCart: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17M17 13v4a2 2 0 01-2 2H9a2 2 0 01-2-2v-4m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"></path></svg>`,
+    Heart: `<svg class="${className}" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>`,
+    Home: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>`,
+    Utensils: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path></svg>`,
+    GraduationCap: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z M12 14l-6.16-3.422"></path></svg>`,
+    Car: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>`,
+    Briefcase: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v6a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0H8"></path></svg>`,
+    Building: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>`,
+    MessageCircle: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.004 9.004 0 01-8.716-6.747M3 5a2 2 0 012-2h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H17a2 2 0 012 2v11a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"></path></svg>`,
+    Phone: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>`,
+    Instagram: `<svg class="${className}" fill="currentColor" viewBox="0 0 24 24"><path d="M12.017 0C8.396 0 7.989.013 7.041.048 5.51.131 4.574.33 3.789.624 2.23.983 1.378 1.378.333 2.644-.295 3.649-.295 5.26.48 7.875c.374 1.426.923 2.634 1.649 3.635.726 1.001 1.649 1.728 2.644 2.197C6.25 14.05 7.875 14.05 12.017 14.05s5.767 0 7.144-.343c.995-.469 1.918-1.196 2.644-2.197.726-1.001 1.275-2.209 1.649-3.635.775-2.615.775-4.226.48-7.875C23.611.989 22.604.333 21.256.048 20.013.013 19.626.001 16.017.001h-4zM12.017 5.838A6.162 6.162 0 1 0 18.179 12a6.162 6.162 0 0 0-6.162-6.162zM12.017 15.838A3.838 3.838 0 1 1 15.855 12a3.838 3.838 0 0 1-3.838 3.838zM19.846 5.595a1.44 1.44 0 1 1 0-2.881 1.44 1.44 0 0 1 0 2.881z"/></svg>`,
+    Facebook: `<svg class="${className}" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`,
+    Mail: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>`,
+    Monitor: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>`
+  };
+  return icons[iconName] || '';
+};
 ---
 
 <header class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
@@ -81,18 +129,68 @@ const products = [
         
         <!-- Products Dropdown -->
         <div 
-          class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+          class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
           data-dropdown-menu="products"
         >
+          <!-- Main Site Overview -->
+          <a 
+            href={`/${currentLang}`}
+            class="flex items-center px-4 py-3 text-sm hover:bg-gray-50 border-b border-gray-100"
+          >
+            <Fragment set:html={getIcon('Home', 'w-5 h-5 mr-3 text-blue-600')} />
+            <div>
+              <div class="font-medium text-gray-900">{t('productDropdown.mainSite.title')}</div>
+              <div class="text-gray-600 text-xs mt-1">{t('productDropdown.mainSite.description')}</div>
+            </div>
+          </a>
+          
+          <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+            {t('productDropdown.productsLabel')}
+          </div>
+          
           {products.map((product) => (
-            <a 
-              href={product.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
-            >
-              {product.title}
-            </a>
+            <div>
+              {product.href.startsWith('/') ? (
+                <a 
+                  href={`/${currentLang}${product.href}`}
+                  class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                >
+                  <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  <div>
+                    <div class="font-medium">{product.title}</div>
+                    <div class="text-gray-600 text-xs mt-1">{product.description}</div>
+                  </div>
+                </a>
+              ) : (
+                <a 
+                  href={product.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
+                >
+                  <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  <div>
+                    <div class="font-medium">{product.title}</div>
+                    <div class="text-gray-600 text-xs mt-1">{product.description}</div>
+                  </div>
+                </a>
+              )}
+              
+              {product.subProducts && product.subProducts.length > 0 && (
+                <div class="bg-gray-50 border-t border-gray-100">
+                  {product.subProducts.map((subProduct) => (
+                    <a
+                      href={subProduct.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                    >
+                      {subProduct.title}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
         </div>
       </div>
@@ -100,30 +198,103 @@ const products = [
       <!-- Desktop Navigation -->
       <nav class="hidden lg:flex items-center space-x-8">
         
+        
         <!-- Solutions Dropdown -->
         <div class="relative dropdown">
           <button 
             class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="solutions"
           >
-            解決方案
+            {t('header.solutions')}
             <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
           
           <div 
-            class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+            class="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
             data-dropdown-menu="solutions"
           >
+            <!-- Existing Solutions -->
             {solutions.map((solution) => (
               <a 
                 href={`/${currentLang}${solution.path}`}
-                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
+                <Fragment set:html={getIcon(solution.icon, 'h-5 w-5 text-gray-400')} />
                 {solution.title}
               </a>
             ))}
+            
+            <!-- SeaHealth Entry -->
+            <a 
+              href={`/${currentLang}/seahealth`}
+              class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+            >
+              <Fragment set:html={getIcon('Heart', 'h-5 w-5 text-red-500')} />
+              {t('header.solutionsDropdown.seahealth')}
+            </a>
+            
+            <!-- Use Cases Section -->
+            <div class="border-t border-gray-100 mt-2 pt-2">
+              <div class="text-xs font-semibold text-gray-500 px-4 mb-1">{t('header.solutionsDropdown.useCases')}</div>
+              
+              <!-- Small & Medium Businesses -->
+              <div class="px-4 mb-2">
+                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                  <span role="img" aria-label="building">🏢</span> Small & Medium Businesses
+                </div>
+                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                  <li><a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" class="hover:underline" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a></li>
+                  <li><a href="https://usecase.seasalt.ai/bulk-send-sms/" class="hover:underline" target="_blank" rel="noopener noreferrer">Bulk send SMS</a></li>
+                  <li><a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" class="hover:underline" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a></li>
+                  <li><a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" class="hover:underline" target="_blank" rel="noopener noreferrer">Call your customers in batch</a></li>
+                  <li><a href="https://usecase.seasalt.ai/auto-answer-calls-247/" class="hover:underline" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a></li>
+                </ul>
+              </div>
+              
+              <!-- Healthcare -->
+              <div class="px-4 mb-2">
+                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                  <span role="img" aria-label="plus">➕</span> Healthcare
+                </div>
+                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                  <li><a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" class="hover:underline" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a></li>
+                  <li><a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" class="hover:underline" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a></li>
+                </ul>
+              </div>
+              
+              <!-- Education -->
+              <div class="px-4 mb-2">
+                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                  <span role="img" aria-label="graduation-cap">🎓</span> Education
+                </div>
+                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                  <li><a href="https://usecase.seasalt.ai/education/" class="hover:underline" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a></li>
+                </ul>
+              </div>
+              
+              <!-- Campaign Messaging -->
+              <div class="px-4 mb-2">
+                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                  <span role="img" aria-label="comment-alt">💬</span> Campaign Messaging
+                </div>
+                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                  <li><a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" class="hover:underline" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a></li>
+                </ul>
+              </div>
+              
+              <!-- Speech Analysis -->
+              <div class="px-4 mb-2">
+                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
+                  <span role="img" aria-label="circle">⚪</span> Speech Analysis
+                </div>
+                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
+                  <li><a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" class="hover:underline" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a></li>
+                  <li><a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" class="hover:underline" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         
@@ -133,7 +304,7 @@ const products = [
             class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="industries"
           >
-            行業
+            {t('header.industries')}
             <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
@@ -146,8 +317,9 @@ const products = [
             {industries.map((industry) => (
               <a 
                 href={`/${currentLang}${industry.path}`}
-                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
+                <Fragment set:html={getIcon(industry.icon, 'h-5 w-5 text-gray-400')} />
                 {industry.title}
               </a>
             ))}
@@ -160,7 +332,7 @@ const products = [
             class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="channels"
           >
-            頻道
+            {t('header.channels')}
             <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
@@ -174,13 +346,14 @@ const products = [
               href={`/${currentLang}/channels-overview`} 
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100"
             >
-              所有頻道概覽
+              {t('header.allChannelsOverview')}
             </a>
             {channels.map((channel) => (
               <a 
                 href={`/${currentLang}${channel.path}`}
-                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
+                <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
                 {channel.title}
               </a>
             ))}
@@ -192,7 +365,7 @@ const products = [
           href={`/${currentLang}/pricing`} 
           class="text-gray-700 hover:text-blue-600 transition-colors duration-200"
         >
-          定價
+          {t('header.pricing')}
         </a>
         
         <!-- Compare Dropdown -->
@@ -201,7 +374,7 @@ const products = [
             class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="compare"
           >
-            比較
+            {t('header.compareUs')}
             <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
@@ -215,7 +388,7 @@ const products = [
               href={`/${currentLang}/compare-us-overview`} 
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium border-b border-gray-100"
             >
-              所有比較概覽
+              {t('header.compareDropdown.allComparisonsOverview')}
             </a>
             {competitors.map((competitor) => (
               <a 
@@ -228,13 +401,13 @@ const products = [
           </div>
         </div>
         
-        <!-- Blog Link -->
-        <a 
+        <!-- Blog Link - Temporarily Disabled -->
+        <!-- <a 
           href={`/${currentLang}/blog`} 
           class="text-gray-700 hover:text-blue-600 transition-colors duration-200"
         >
-          部落格
-        </a>
+          {t('header.blog')}
+        </a> -->
       </nav>
 
       <!-- CTA Buttons (Desktop) -->
@@ -244,13 +417,13 @@ const products = [
           href="https://seax.seasalt.ai/signin"
           class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
         >
-          登入
+          {t('header.signIn')}
         </a>
         <a
           href="https://seax.seasalt.ai/signup"
           class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
         >
-          免費開始
+          {t('header.startForFree')}
         </a>
       </div>
 
@@ -278,25 +451,25 @@ const products = [
               href="https://seax.seasalt.ai/signin" 
               class="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors"
             >
-              登入
+              {t('header.signIn')}
             </a>
             <a 
               href="https://seax.seasalt.ai/signup" 
               class="block px-4 py-3 bg-blue-600 text-white rounded-lg text-center font-medium hover:bg-blue-700 transition-colors"
             >
-              免費開始
+              {t('header.startForFree')}
             </a>
           </div>
         </div>
         
         <!-- Mobile Navigation Items -->
         <div class="space-y-1">
-          <a href={`/${currentLang}/solutions/ai-automation`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">解決方案</a>
-          <a href={`/${currentLang}/industries/healthcare`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">行業</a>
-          <a href={`/${currentLang}/channels-overview`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">頻道</a>
-          <a href={`/${currentLang}/pricing`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">定價</a>
-          <a href={`/${currentLang}/compare-us-overview`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">比較</a>
-          <a href={`/${currentLang}/blog`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">部落格</a>
+          <a href={`/${currentLang}/solutions/ai-automation`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.solutions')}</a>
+          <a href={`/${currentLang}/industries/healthcare`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.industries')}</a>
+          <a href={`/${currentLang}/channels-overview`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.channels')}</a>
+          <a href={`/${currentLang}/pricing`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.pricing')}</a>
+          <a href={`/${currentLang}/compare-us-overview`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.compareUs')}</a>
+          <a href={`/${currentLang}/blog`} class="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md">{t('header.blog')}</a>
         </div>
         
         <!-- Mobile Language Selector -->
@@ -312,6 +485,7 @@ const products = [
   // Dropdown functionality
   document.addEventListener('DOMContentLoaded', function() {
     let currentDropdown: string | null = null;
+    let hoverTimeout: number | null = null;
     
     // Handle dropdown toggles
     document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
@@ -338,6 +512,10 @@ const products = [
       const dropdown = button.closest('.dropdown');
       if (dropdown) {
         dropdown.addEventListener('mouseenter', () => {
+          if (hoverTimeout) {
+            clearTimeout(hoverTimeout);
+            hoverTimeout = null;
+          }
           closeAllDropdowns();
           if (dropdownName) {
             openDropdown(dropdownName);
@@ -346,10 +524,29 @@ const products = [
         });
         
         dropdown.addEventListener('mouseleave', () => {
-          closeAllDropdowns();
-          currentDropdown = null;
+          hoverTimeout = window.setTimeout(() => {
+            closeAllDropdowns();
+            currentDropdown = null;
+          }, 100); // 100ms delay to allow moving to dropdown content
         });
       }
+    });
+    
+    // Handle hover for dropdown menus to prevent closing when mouse enters
+    document.querySelectorAll('.dropdown-menu').forEach(menu => {
+      menu.addEventListener('mouseenter', () => {
+        if (hoverTimeout) {
+          clearTimeout(hoverTimeout);
+          hoverTimeout = null;
+        }
+      });
+      
+      menu.addEventListener('mouseleave', () => {
+        hoverTimeout = window.setTimeout(() => {
+          closeAllDropdowns();
+          currentDropdown = null;
+        }, 100);
+      });
     });
     
     // Handle mobile menu

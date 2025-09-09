@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import TopBar from '../components/TopBar.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -23,6 +24,7 @@ const { title, description = 'SeaSalt.ai - AI-Powered Contact Center Solutions',
 		<title>{title}</title>
 	</head>
 	<body>
+		<TopBar />
 		<Header lang={lang} />
 		<main>
 			<slot />
