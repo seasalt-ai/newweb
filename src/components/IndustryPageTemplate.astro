@@ -1,0 +1,348 @@
+---
+import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+import { getMeetingUrl } from '../constants/urls';
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'lucide-react';
+
+export interface Props {
+  lang?: string;
+  title: string;
+  headline: string;
+  benefits: string[];
+  color: string;
+  bgColor: string;
+  borderColor: string;
+  iconName: string;
+  slug: string;
+  showSeaHealthLink?: boolean;
+}
+
+const { 
+  lang = 'en', 
+  title, 
+  headline, 
+  benefits, 
+  color, 
+  bgColor, 
+  borderColor, 
+  iconName, 
+  slug, 
+  showSeaHealthLink = false 
+} = Astro.props;
+
+const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data
+const seoData = {
+  title: `${title} ${t('industries.template.solutions.title')} - Seasalt.ai`,
+  description: `${headline} - Transform your ${title.toLowerCase()} business with AI-powered customer communication.`,
+  canonicalUrl: `https://seasalt.ai/${currentLang}/industries/${slug}`,
+  ogType: 'website'
+};
+
+// Use cases data
+const useCases = [
+  {
+    title: t('industries.template.useCases.customerSupport.title'),
+    description: t('industries.template.useCases.customerSupport.description'),
+    iconName: 'users'
+  },
+  {
+    title: t('industries.template.useCases.leadGeneration.title'),
+    description: t('industries.template.useCases.leadGeneration.description'),
+    iconName: 'star'
+  },
+  {
+    title: t('industries.template.useCases.analytics.title'),
+    description: t('industries.template.useCases.analytics.description'),
+    iconName: 'bar-chart-3'
+  }
+];
+
+const testimonials = [
+  {
+    quote: t('industries.template.testimonials.quote1'),
+    author: t('industries.template.testimonials.author1'),
+    company: `${title} ${t('industries.template.testimonials.company1')}`
+  },
+  {
+    quote: t('industries.template.testimonials.quote2'),
+    author: t('industries.template.testimonials.author2'),
+    company: `${title} ${t('industries.template.testimonials.company2')}`
+  }
+];
+---
+
+<Layout title={seoData.title} description={seoData.description} lang={currentLang}>
+  <main class="pt-16">
+    <!-- Hero Section -->
+    <section class={`${bgColor} py-20`}>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+          <div class="text-gray-900">
+            <a href={`/${currentLang}`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+              ← {t('industries.template.nav.backToHome')}
+            </a>
+            <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+              {t('industries.template.hero.title')}{' '}
+              <span class={`bg-gradient-to-r ${color.replace('text-', 'from-')} to-gray-700 bg-clip-text text-transparent`}>
+                {title}
+              </span>
+            </h1>
+            <h2 class="text-2xl lg:text-3xl font-semibold text-gray-700 mb-8">
+              {headline}
+            </h2>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a
+                href="https://seax.seasalt.ai/signup"
+                class={`${color.replace('text-', 'bg-')} hover:opacity-90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
+              >
+                {t('industries.template.hero.signUp')}
+              </a>
+              <a
+                href={getMeetingUrl(currentLang)}
+                class={`border-2 ${borderColor} ${color} hover:${color.replace('text-', 'bg-')} hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200`}
+              >
+                {t('industries.template.hero.seeDemo')}
+              </a>
+            </div>
+            {showSeaHealthLink && (
+              <div class="mt-6">
+                <a
+                  href={`/${currentLang}/seahealth`}
+                  class={`inline-flex items-center ${color} hover:opacity-80 transition-all duration-200 text-lg font-medium`}
+                >
+                  <span class="mr-2">{t('industries.template.hero.hipaaOffering')}</span>
+                  <img 
+                    src="/logo-seahealth.svg" 
+                    alt="SeaHealth" 
+                    class="h-6 inline-block"
+                  />
+                </a>
+              </div>
+            )}
+          </div>
+          
+          <div class="mt-12 lg:mt-0">
+            <div class="relative">
+              <div class={`${bgColor} ${borderColor} border-2 p-8 rounded-2xl shadow-2xl`}>
+              <div class="flex items-center mb-6">
+                <div class={`${color.replace('text-', 'bg-')} p-3 rounded-xl mr-4 flex items-center justify-center`}>
+                  <div class="h-8 w-8 text-white flex items-center justify-center" data-icon={iconName}></div>
+                </div>
+                  <h3 class="text-xl font-semibold text-gray-900">{title} {t('industries.template.solutions.title')}</h3>
+                </div>
+                <div class="space-y-3">
+                  {benefits.slice(0, 3).map((benefit) => (
+                    <div class="flex items-start">
+                      <div class={`h-5 w-5 ${color} mr-3 mt-0.5 flex-shrink-0 flex items-center justify-center`} data-icon="check"></div>
+                      <span class="text-gray-700 text-sm">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            {t('industries.template.benefits.title')} {title}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('industries.template.benefits.description')} {title.toLowerCase()}.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {benefits.map((benefit) => (
+            <div class={`p-6 rounded-2xl border-2 ${borderColor} ${bgColor} hover:shadow-lg transition-all duration-300`}>
+              <div class="flex items-start">
+                <div class={`h-6 w-6 ${color} mr-4 mt-1 flex-shrink-0 flex items-center justify-center`} data-icon="check"></div>
+                <span class="text-gray-800 font-medium">{benefit}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            {t('industries.template.useCases.title')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('industries.template.useCases.description.start')} {title.toLowerCase()} {t('industries.template.useCases.description.end')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          {useCases.map((useCase) => (
+            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+              <div class={`${color.replace('text-', 'bg-')} bg-opacity-10 p-4 rounded-2xl w-fit mx-auto mb-6 flex items-center justify-center`}>
+                <div class={`${color} h-8 w-8 flex items-center justify-center`} data-icon={useCase.iconName}></div>
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                {useCase.title}
+              </h3>
+              <p class="text-gray-600">
+                {useCase.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            {t('industries.template.ui.testimonialsPrefix')} {title} {t('industries.template.testimonials.title')}
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {testimonials.map((testimonial) => (
+            <div class={`p-8 rounded-2xl border-2 ${borderColor} ${bgColor}`}>
+              <blockquote class="text-lg text-gray-800 mb-6">
+                "{testimonial.quote}"
+              </blockquote>
+              <div class="flex items-center">
+                <div class={`w-12 h-12 ${color.replace('text-', 'bg-')} rounded-full flex items-center justify-center mr-4`}>
+                  <span class="text-white font-bold text-lg">
+                    {testimonial.author.split(' ').map(n => n[0]).join('')}
+                  </span>
+                </div>
+                <div>
+                  <div class="font-semibold text-gray-900">{testimonial.author}</div>
+                  <div class="text-gray-600 text-sm">{testimonial.company}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class={`py-20 bg-gradient-to-r ${color.replace('text-', 'from-')} to-gray-700 text-white`}>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+          {t('industries.template.cta.title')}
+        </h2>
+        <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+          {t('industries.template.cta.description')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://seax.seasalt.ai/signup"
+            class="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+          >
+            {t('industries.template.cta.signUp')}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            class="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+          >
+            {t('industries.template.cta.scheduleDemo')}
+          </a>
+        </div>
+        {showSeaHealthLink && (
+          <div class="mt-6 text-center">
+            <a
+              href={`/${currentLang}/seahealth`}
+              class="inline-block text-white underline hover:text-gray-200 transition-colors duration-200 text-lg"
+            >
+              {t('industries.template.cta.seahealthLink')}
+            </a>
+          </div>
+        )}
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+/* Icon styles using data attributes */
+[data-icon="check"]:before {
+  content: "✓";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+[data-icon="shopping-cart"]:before {
+  content: "🛒";
+  font-size: 2rem;
+}
+
+[data-icon="heart"]:before {
+  content: "❤️";
+  font-size: 2rem;
+}
+
+[data-icon="home"]:before {
+  content: "🏠";
+  font-size: 2rem;
+}
+
+[data-icon="utensils"]:before {
+  content: "🍴";
+  font-size: 2rem;
+}
+
+[data-icon="graduation-cap"]:before {
+  content: "🎓";
+  font-size: 2rem;
+}
+
+[data-icon="car"]:before {
+  content: "🚗";
+  font-size: 2rem;
+}
+
+[data-icon="briefcase"]:before {
+  content: "💼";
+  font-size: 2rem;
+}
+
+[data-icon="building"]:before {
+  content: "🏢";
+  font-size: 2rem;
+}
+
+[data-icon="users"]:before {
+  content: "👥";
+  font-size: 2rem;
+}
+
+[data-icon="star"]:before {
+  content: "⭐";
+  font-size: 2rem;
+}
+
+[data-icon="bar-chart-3"]:before {
+  content: "📊";
+  font-size: 2rem;
+}
+
+@media (max-width: 640px) {
+  [data-icon]:before {
+    font-size: 1.5rem;
+  }
+  
+  [data-icon="check"]:before {
+    font-size: 0.875rem;
+  }
+}
+</style>

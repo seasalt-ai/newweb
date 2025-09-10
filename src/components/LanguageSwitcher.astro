@@ -8,6 +8,8 @@ export interface Props {
 
 const { currentPath = '/' } = Astro.props;
 const currentLang = extractLangFromPath(Astro.url.pathname);
+// 使用實際的 URL 路徑而不是傳入的 currentPath
+const actualCurrentPath = Astro.url.pathname;
 ---
 
 <div class="relative inline-block text-left">
@@ -22,7 +24,7 @@ const currentLang = extractLangFromPath(Astro.url.pathname);
     <div class="py-1">
       {Object.entries(languages).map(([lang, info]) => (
         <a 
-          href={getLocalizedPath(currentPath, lang as keyof typeof languages)}
+          href={getLocalizedPath(actualCurrentPath, lang as keyof typeof languages)}
           class={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-50 ${
             currentLang === lang ? 'font-semibold text-blue-600 bg-blue-50' : 'text-gray-700'
           }`}

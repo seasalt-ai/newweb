@@ -1,0 +1,41 @@
+---
+import IndustryPageTemplate from '../../../components/IndustryPageTemplate.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  const supportedLocales = ['en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'];
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const industryData = {
+  title: t('industriesData.automotive.title'),
+  headline: t('industriesData.automotive.headline'),
+  benefits: [
+    t('industriesData.automotive.benefits.0'),
+    t('industriesData.automotive.benefits.1'),
+    t('industriesData.automotive.benefits.2'),
+    t('industriesData.automotive.benefits.3')
+  ],
+  color: 'text-red-600',
+  bgColor: 'bg-red-50',
+  borderColor: 'border-red-200',
+  iconName: 'car',
+  slug: 'automotive'
+};
+---
+
+<IndustryPageTemplate
+  title={industryData.title}
+  headline={industryData.headline}
+  benefits={industryData.benefits}
+  color={industryData.color}
+  bgColor={industryData.bgColor}
+  borderColor={industryData.borderColor}
+  iconName={industryData.iconName}
+  slug={industryData.slug}
+  lang={currentLang}
+/>
