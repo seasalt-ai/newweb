@@ -1,0 +1,429 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
+import CompanyNewsletter from '../../components/react/CompanyNewsletter.tsx';
+import { ExternalLink, Building2, DollarSign, Handshake, Briefcase, Download, ArrowRight, CheckCircle, Sparkles, Mail, Phone, MessageSquare, BarChart3, Bot, Users, Eye, Zap, Target, Heart } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = ['en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'];
+  return supportedLocales.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('company.seo.title');
+const description = t('company.seo.description');
+
+// 獲取各種資料
+const investorsData = t('company.funding.investorsList', { returnObjects: true });
+const investors = Array.isArray(investorsData) ? investorsData : [];
+
+// Core values - 從原始 CompanyPage.tsx 的結構附上 Icon
+const coreValues = [
+  {
+    icon: Users,
+    titleKey: 'company.values.humanFirst.title',
+    descriptionKey: 'company.values.humanFirst.description'
+  },
+  {
+    icon: Eye,
+    titleKey: 'company.values.transparency.title',
+    descriptionKey: 'company.values.transparency.description'
+  },
+  {
+    icon: Zap,
+    titleKey: 'company.values.speedSafety.title',
+    descriptionKey: 'company.values.speedSafety.description'
+  },
+  {
+    icon: Target,
+    titleKey: 'company.values.buildPurpose.title',
+    descriptionKey: 'company.values.buildPurpose.description'
+  },
+  {
+    icon: Heart,
+    titleKey: 'company.values.globalEmpathy.title',
+    descriptionKey: 'company.values.globalEmpathy.description'
+  }
+];
+
+// Leadership team - get from translations
+const leadership = [
+  {
+    name: 'Xuchen Yao',
+    role: t('company.leadership.0.role'),
+    bio: t('company.leadership.0.bio'),
+    image: '/people-images/xuchen_yao.jpg',
+    homepage: t('company.leadership.0.homepage')
+  },
+  {
+    name: 'Guoguo Chen',
+    role: t('company.leadership.1.role'),
+    bio: t('company.leadership.1.bio'),
+    image: '/people-images/guoguo_chen.jpg',
+    scholar: t('company.leadership.1.scholar')
+  }
+];
+
+// Offices
+const officesData = t('company.offices.list', { returnObjects: true });
+const offices = Array.isArray(officesData) ? officesData : [];
+
+// Products
+const products = [
+  {
+    name: t('company.products.product1.name'),
+    description: t('company.products.product1.description'),
+    icon: MessageSquare
+  },
+  {
+    name: t('company.products.product2.name'),
+    description: t('company.products.product2.description'),
+    icon: Phone
+  },
+  {
+    name: t('company.products.product3.name'),
+    description: t('company.products.product3.description'),
+    icon: BarChart3
+  },
+  {
+    name: t('company.products.product4.name'),
+    description: t('company.products.product4.description'),
+    icon: Bot
+  }
+];
+
+// Partnerships - 從原始 CompanyPage.tsx 的結構
+const partnerships = [
+  {
+    company: 'Twilio',
+    description: t('company.partnerships.list.0.description'),
+    type: t('company.partnerships.list.0.type')
+  },
+  {
+    company: 'Meta',
+    description: t('company.partnerships.list.1.description'),
+    type: t('company.partnerships.list.1.type')
+  },
+  {
+    company: 'Nylas',
+    description: t('company.partnerships.list.2.description'),
+    type: t('company.partnerships.list.2.type')
+  },
+  {
+    company: 'LINE',
+    description: t('company.partnerships.list.3.description'),
+    type: t('company.partnerships.list.3.type')
+  }
+];
+
+// Timeline milestones - 從原始 CompanyPage.tsx 的結構
+const milestones = [
+  { year: '2020.1', event: t('company.timeline.list.0.event') },
+  { year: '2020~2023', event: t('company.timeline.list.1.event') },
+  { year: '2022', event: t('company.timeline.list.2.event') },
+  { year: '2023', event: t('company.timeline.list.3.event') },
+  { year: '2025', event: t('company.timeline.list.4.event') }
+];
+---
+
+<Layout title={title} description={description} lang={currentLang}>
+  <main class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">{t('company.hero.title')}</h1>
+          <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">{t('company.hero.description')}</p>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">{t('company.hero.subtitle')}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('company.mission.title')}</h2>
+            <div class="bg-blue-50 rounded-xl p-6 mb-8">
+              <h3 class="text-2xl font-bold text-blue-900 mb-4">{t('company.mission.heading')}</h3>
+              <p class="text-lg text-gray-700 mb-4">{t('company.mission.text')}</p>
+              <h3 class="text-2xl font-bold text-blue-900 mb-4">{t('company.vision.heading')}</h3>
+              <p class="text-lg text-gray-700">{t('company.vision.text')}</p>
+            </div>
+            <p class="text-lg text-gray-600 leading-relaxed italic">{t('company.mission.statement')}</p>
+            <p class="text-lg text-gray-600 leading-relaxed mt-4">{t('company.mission.future')}</p>
+          </div>
+          
+          <div>
+            <h3 class="text-3xl font-bold text-gray-900 mb-8">{t('company.values.title')}</h3>
+            <div class="space-y-6">
+              {coreValues.map(value => (
+                <div class="flex items-start space-x-4">
+                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <value.icon className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">{t(value.titleKey)}</h4>
+                    <p class="text-gray-600">{t(value.descriptionKey)}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">
+          {t('company.leadership.title') || 'Leadership Team'}
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          {leadership.map((leader) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg">
+              <div class="text-center mb-6">
+                <img
+                  src={leader.image}
+                  alt={leader.name}
+                  class="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">
+                  {leader.name}
+                </h3>
+                <p class="text-lg text-blue-600 font-semibold mb-4">
+                  {leader.role}
+                </p>
+              </div>
+              <p class="text-gray-600 leading-relaxed mb-4">
+                {leader.bio}
+              </p>
+              <div class="flex justify-center space-x-4">
+                {leader.homepage && (
+                  <a
+                    href={leader.homepage}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    <span>{t('company.leadership.homepage') || 'Homepage'}</span>
+                  </a>
+                )}
+                {leader.scholar && (
+                  <a
+                    href={leader.scholar}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    <span>{t('company.leadership.scholar') || 'Scholar'}</span>
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('company.offices.title')}</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {offices.map((office) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-blue-500">
+              <Building2 className="w-8 h-8 text-blue-600 mb-4" />
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{office.title}</h3>
+              <p class="text-gray-600">{office.location}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Build -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('company.products.title')}</h2>
+          <h3 class="text-2xl font-semibold text-gray-700 mb-8">{t('company.products.subtitle')}</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {products.map((product) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <product.icon className="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold text-gray-900 mb-3">{product.name}</h4>
+                  <p class="text-gray-600 leading-relaxed">{product.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="text-center mt-12">
+          <a href="./press/Seasalt.ai_logo_press.zip" download class="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            <Download className="w-5 h-5" />
+            <span>{t('company.products.downloadPressKit')}</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Funding & Investors -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-8">{t('company.funding.title')}</h2>
+            <div class="bg-green-50 rounded-xl p-6 mb-8">
+              <div class="flex items-center space-x-3 mb-4">
+                <DollarSign className="w-8 h-8 text-green-600" />
+                <h3 class="text-2xl font-bold text-green-900">{t('company.funding.seedFunding')}</h3>
+              </div>
+              <p class="text-xl font-semibold text-green-800">{t('company.funding.raised')}</p>
+            </div>
+            <h4 class="text-xl font-semibold text-gray-900 mb-4">{t('company.funding.investorsTitle')}</h4>
+            <ul class="space-y-3">
+              {investors.map((investor, index) => (
+                <li key={index} class="flex items-center space-x-3">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span class="text-gray-700">{investor}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-8">{t('company.partnership.title')}</h2>
+            <p class="text-lg text-gray-600 mb-8">{t('company.partnership.description')}</p>
+            <div class="space-y-6">
+              {partnerships.map((partnership, index) => (
+                <div key={index} class="border-l-4 border-blue-500 pl-6 py-2">
+                  <div class="flex items-center space-x-3 mb-2">
+                    <Handshake className="w-5 h-5 text-blue-600" />
+                    <h4 class="text-lg font-bold text-gray-900">{partnership.company}</h4>
+                    <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded-full">{partnership.type}</span>
+                  </div>
+                  <p class="text-gray-600 text-sm leading-relaxed">{partnership.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company Timeline -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('company.timeline.title')}</h2>
+          <p class="text-xl text-gray-600">{t('company.timeline.subtitle')}</p>
+        </div>
+        <div class="space-y-8">
+          {milestones.map((milestone, index) => (
+            <div key={index} class="flex items-center space-x-6">
+              <div class="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
+                {milestone.year}
+              </div>
+              <div class="flex-1">
+                <p class="text-lg text-gray-800 font-medium">{milestone.event}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section class="py-20 bg-blue-600 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <Briefcase className="w-16 h-16 mb-6 opacity-80" />
+            <h2 class="text-4xl font-bold mb-6">{t('company.careers.title')}</h2>
+            <p class="text-xl mb-8 opacity-90">{t('company.careers.description')}</p>
+            <a href={`/${currentLang}/careers`} class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+              {t('company.careers.cta')}
+            </a>
+          </div>
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-2 h-2 bg-white rounded-full"></div>
+              <span class="text-lg">{t('company.careers.bullet1')}</span>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-2 h-2 bg-white rounded-full"></div>
+              <span class="text-lg">{t('company.careers.bullet2')}</span>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-2 h-2 bg-white rounded-full"></div>
+              <span class="text-lg">{t('company.careers.bullet3')}</span>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-2 h-2 bg-white rounded-full"></div>
+              <span class="text-lg">{t('company.careers.bullet4')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('company.contact.title')}</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border">
+            <Mail className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{t('company.contact.press.title')}</h3>
+            <p class="text-gray-600"><a href="mailto:press@seasalt.ai" class="text-blue-600 hover:text-blue-800">{t('company.contact.press.email')}</a></p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border">
+            <DollarSign className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{t('company.contact.investors.title')}</h3>
+            <p class="text-gray-600"><a href="mailto:invest@seasalt.ai" class="text-blue-600 hover:text-blue-800">{t('company.contact.investors.email')}</a></p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border">
+            <Handshake className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{t('company.contact.partnerships.title')}</h3>
+            <p class="text-gray-600"><a href="mailto:partnerships@seasalt.ai" class="text-blue-600 hover:text-blue-800">{t('company.contact.partnerships.email')}</a></p>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <div class="bg-white rounded-xl p-8 shadow-lg inline-block border">
+            <Phone className="w-8 h-8 text-blue-600 mb-4 mx-auto" />
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{t('company.contact.hotline.title')}</h3>
+            <p class="text-2xl font-bold text-blue-600">{t('company.contact.hotline.number')}</p>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <a href="./press/Seasalt.ai_logo_press.zip" download class="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mb-6">
+            <Download className="w-5 h-5" />
+            <span>{t('company.contact.pressKit.downloadText')}</span>
+          </a>
+          <p class="text-lg text-gray-600 italic">{t('company.contact.pressKit.description')}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <CompanyNewsletter client:load lang={currentLang} />
+
+  </main>
+</Layout>

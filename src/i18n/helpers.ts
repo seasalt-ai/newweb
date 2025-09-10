@@ -53,7 +53,7 @@ async function loadTranslations(lang: SupportedLanguage) {
 
 // 翻譯函數
 function createTranslationFunction(translations: any) {
-  return function t(key: string, params?: Record<string, any>): string {
+  return function t(key: string, params?: Record<string, any>): any {
     if (!translations) {
       return key;
     }
@@ -69,6 +69,11 @@ function createTranslationFunction(translations: any) {
       }
     }
     
+    // 如果參數中包含 returnObjects: true，直接返回結果
+    if (params?.returnObjects === true) {
+      return result;
+    }
+    
     if (typeof result === 'string') {
       // 簡單的參數替換
       if (params) {
@@ -76,6 +81,11 @@ function createTranslationFunction(translations: any) {
           return params[paramName]?.toString() || match;
         });
       }
+      return result;
+    }
+    
+    // 對於其他類型（數組、對象）也返回結果
+    if (Array.isArray(result) || (typeof result === 'object' && result !== null)) {
       return result;
     }
     
