@@ -55,14 +55,14 @@ const competitors = [
 ];
 
 const products = [
-  { title: t('productsData.seachat.title'), description: t('productsData.seachat.description'), href: '/seachat', icon: 'MessageSquare' },
-  { title: t('productsData.seax.title'), description: t('productsData.seax.description'), href: '/seax', icon: 'Users' },
-  { title: t('productsData.seameet.title'), description: t('productsData.seameet.description'), href: 'https://seameet.ai/', icon: 'Video' },
+  { title: t('productsData.seachat.title'), description: t('productsData.seachat.description'), href: '/seachat', logo: '/seachat-icon.png' },
+  { title: t('productsData.seax.title'), description: t('productsData.seax.description'), href: '/seax', logo: '/seax-icon.png' },
+  { title: t('productsData.seameet.title'), description: t('productsData.seameet.description'), href: 'https://seameet.ai/', logo: '/seameet-icon.png' },
   {
     title: t('productsData.seavoice.title'), 
     description: t('productsData.seavoice.description'), 
     href: '/seavoice', 
-    icon: 'Mic',
+    logo: '/seavoice-icon.png',
     subProducts: [
       { title: t('productsData.seavoice.subProducts.tts'), href: 'https://suite.seasalt.ai/tts/' },
       { title: t('productsData.seavoice.subProducts.stt'), href: 'https://suite.seasalt.ai/stt/' },
@@ -155,7 +155,11 @@ const getIcon = (iconName: string, className = 'w-4 h-4') => {
                   href={`/${currentLang}${product.href}`}
                   class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                 >
-                  <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  {product.logo ? (
+                    <img src={product.logo} alt={product.title} class="w-5 h-5 mr-3 flex-shrink-0" />
+                  ) : (
+                    <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  )}
                   <div>
                     <div class="font-medium">{product.title}</div>
                     <div class="text-gray-600 text-xs mt-1">{product.description}</div>
@@ -168,7 +172,11 @@ const getIcon = (iconName: string, className = 'w-4 h-4') => {
                   rel="noopener noreferrer"
                   class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50"
                 >
-                  <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  {product.logo ? (
+                    <img src={product.logo} alt={product.title} class="w-5 h-5 mr-3 flex-shrink-0" />
+                  ) : (
+                    <Fragment set:html={getIcon(product.icon, 'w-5 h-5 mr-3 text-blue-600')} />
+                  )}
                   <div>
                     <div class="font-medium">{product.title}</div>
                     <div class="text-gray-600 text-xs mt-1">{product.description}</div>
@@ -183,8 +191,9 @@ const getIcon = (iconName: string, className = 'w-4 h-4') => {
                       href={subProduct.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="block px-8 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                      class="flex items-center px-8 py-2 text-sm text-gray-600 hover:bg-gray-100 hover:text-gray-900"
                     >
+                      <span class="text-gray-400 mr-2">→</span>
                       {subProduct.title}
                     </a>
                   ))}
@@ -212,7 +221,7 @@ const getIcon = (iconName: string, className = 'w-4 h-4') => {
           </button>
           
           <div 
-            class="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+            class="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-[80vh] overflow-y-auto z-50 hidden dropdown-menu"
             data-dropdown-menu="solutions"
           >
             <!-- Existing Solutions -->
@@ -237,62 +246,69 @@ const getIcon = (iconName: string, className = 'w-4 h-4') => {
             
             <!-- Use Cases Section -->
             <div class="border-t border-gray-100 mt-2 pt-2">
-              <div class="text-xs font-semibold text-gray-500 px-4 mb-1">{t('header.solutionsDropdown.useCases')}</div>
+              <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                {t('header.solutionsDropdown.useCases')}
+              </div>
               
               <!-- Small & Medium Businesses -->
-              <div class="px-4 mb-2">
-                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                  <span role="img" aria-label="building">🏢</span> Small & Medium Businesses
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="building">🏢</span>
+                  Small & Medium Businesses
                 </div>
-                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
-                  <li><a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" class="hover:underline" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a></li>
-                  <li><a href="https://usecase.seasalt.ai/bulk-send-sms/" class="hover:underline" target="_blank" rel="noopener noreferrer">Bulk send SMS</a></li>
-                  <li><a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" class="hover:underline" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a></li>
-                  <li><a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" class="hover:underline" target="_blank" rel="noopener noreferrer">Call your customers in batch</a></li>
-                  <li><a href="https://usecase.seasalt.ai/auto-answer-calls-247/" class="hover:underline" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a></li>
-                </ul>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a>
+                  <a href="https://usecase.seasalt.ai/bulk-send-sms/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Bulk send SMS</a>
+                  <a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a>
+                  <a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Call your customers in batch</a>
+                  <a href="https://usecase.seasalt.ai/auto-answer-calls-247/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a>
+                </div>
               </div>
               
               <!-- Healthcare -->
-              <div class="px-4 mb-2">
-                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                  <span role="img" aria-label="plus">➕</span> Healthcare
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="plus">➕</span>
+                  Healthcare
                 </div>
-                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
-                  <li><a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" class="hover:underline" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a></li>
-                  <li><a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" class="hover:underline" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a></li>
-                </ul>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a>
+                  <a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a>
+                </div>
               </div>
               
               <!-- Education -->
-              <div class="px-4 mb-2">
-                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                  <span role="img" aria-label="graduation-cap">🎓</span> Education
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="graduation-cap">🎓</span>
+                  Education
                 </div>
-                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
-                  <li><a href="https://usecase.seasalt.ai/education/" class="hover:underline" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a></li>
-                </ul>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/education/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a>
+                </div>
               </div>
               
               <!-- Campaign Messaging -->
-              <div class="px-4 mb-2">
-                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                  <span role="img" aria-label="comment-alt">💬</span> Campaign Messaging
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="comment-alt">💬</span>
+                  Campaign Messaging
                 </div>
-                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
-                  <li><a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" class="hover:underline" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a></li>
-                </ul>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a>
+                </div>
               </div>
               
               <!-- Speech Analysis -->
-              <div class="px-4 mb-2">
-                <div class="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1">
-                  <span role="img" aria-label="circle">⚪</span> Speech Analysis
+              <div class="mb-1">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="circle">⚪</span>
+                  Speech Analysis
                 </div>
-                <ul class="ml-5 list-disc text-xs text-gray-600 space-y-2">
-                  <li><a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" class="hover:underline" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a></li>
-                  <li><a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" class="hover:underline" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a></li>
-                </ul>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a>
+                  <a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a>
+                </div>
               </div>
             </div>
           </div>
