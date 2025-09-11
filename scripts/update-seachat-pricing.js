@@ -51,26 +51,26 @@ const localizedCalculatorTitles = {
   'pl': 'Kalkulator Planu i Użycia Modelu'
 };
 
-// GPT-4o Realtime API feature in different languages (fallback to English for untranslated)
+// GPT-4o Realtime API feature - keep "GPT-4o Realtime API" untranslated (proper noun)
 const localizedGpt4oFeature = {
   'en': 'Access to GPT-4o Realtime API',
-  'es': 'Acceso a la API en tiempo real de GPT-4o',
-  'fr': 'Accès à l\'API temps réel GPT-4o',
-  'de': 'Zugang zur GPT-4o Realtime API',
-  'ja': 'GPT-4o リアルタイム API へのアクセス',
-  'ko': 'GPT-4o 실시간 API 액세스',
-  'zh-TW': '存取 GPT-4o 即時 API',
-  'zh-CN': '访问 GPT-4o 实时 API',
-  'pt': 'Acesso à API em tempo real do GPT-4o',
-  'ru': 'Доступ к API реального времени GPT-4o',
-  'ar': 'الوصول إلى واجهة برمجة التطبيقات في الوقت الفعلي GPT-4o',
-  'hi': 'GPT-4o रीयलटाइम API तक पहुंच',
+  'es': 'Acceso a GPT-4o Realtime API',
+  'fr': 'Accès à GPT-4o Realtime API',
+  'de': 'Zugang zu GPT-4o Realtime API',
+  'ja': 'GPT-4o Realtime API へのアクセス',
+  'ko': 'GPT-4o Realtime API 액세스',
+  'zh-TW': '存取 GPT-4o Realtime API',
+  'zh-CN': '访问 GPT-4o Realtime API',
+  'pt': 'Acesso ao GPT-4o Realtime API',
+  'ru': 'Доступ к GPT-4o Realtime API',
+  'ar': 'الوصول إلى GPT-4o Realtime API',
+  'hi': 'GPT-4o Realtime API तक पहुंच',
   'th': 'การเข้าถึง GPT-4o Realtime API',
   'vi': 'Truy cập GPT-4o Realtime API',
   'id': 'Akses ke GPT-4o Realtime API',
   'ms': 'Akses kepada GPT-4o Realtime API',
   'fil': 'Access sa GPT-4o Realtime API',
-  'ta': 'GPT-4o நேரடி API அணுகல்',
+  'ta': 'GPT-4o Realtime API அணুகல்',
   'fa': 'دسترسی به GPT-4o Realtime API',
   'pl': 'Dostęp do GPT-4o Realtime API'
 };
