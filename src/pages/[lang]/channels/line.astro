@@ -19,6 +19,27 @@ const breadcrumbs = [
 ];
 
 const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
+
+const markets = [
+  { country: t('channels.line.markets.JP.country'), users: t('channels.line.markets.JP.users'), penetration: t('channels.line.markets.JP.penetration'), flag: '🇯🇵' },
+  { country: t('channels.line.markets.TW.country'), users: t('channels.line.markets.TW.users'), penetration: t('channels.line.markets.TW.penetration'), flag: '🇹🇼' },
+  { country: t('channels.line.markets.TH.country'), users: t('channels.line.markets.TH.users'), penetration: t('channels.line.markets.TH.penetration'), flag: '🇹🇭' },
+  { country: t('channels.line.markets.KR.country'), users: t('channels.line.markets.KR.users'), penetration: t('channels.line.markets.KR.penetration'), flag: '🇰🇷' }
+];
+
+const features = [
+  { icon: 'Globe', title: t('channels.line.features.regionalDominance.title'), description: t('channels.line.features.regionalDominance.description') },
+  { icon: 'Users', title: t('channels.line.features.officialAccount.title'), description: t('channels.line.features.officialAccount.description') },
+  { icon: 'Zap', title: t('channels.line.features.richMessaging.title'), description: t('channels.line.features.richMessaging.description') },
+  { icon: 'BarChart3', title: t('channels.line.features.culturalAdaptation.title'), description: t('channels.line.features.culturalAdaptation.description') }
+];
+
+const businessFeatures = [
+  { title: t('channels.line.businessFeatures.payIntegration.title'), description: t('channels.line.businessFeatures.payIntegration.description') },
+  { title: t('channels.line.businessFeatures.richMenu.title'), description: t('channels.line.businessFeatures.richMenu.description') },
+  { title: t('channels.line.businessFeatures.broadcast.title'), description: t('channels.line.businessFeatures.broadcast.description') },
+  { title: t('channels.line.businessFeatures.chatbot.title'), description: t('channels.line.businessFeatures.chatbot.description') }
+];
 ---
 
 <Layout
@@ -29,6 +50,7 @@ const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
   type="software"
   breadcrumbs={breadcrumbs}
 >
+  <!-- Hero Section -->
   <section class="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
@@ -65,9 +87,165 @@ const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
                 <p class="text-sm text-blue-700">AI: "{t('channels.line.hero.demo.ai1')}"</p>
                 <p class="text-xs text-blue-600">{t('channels.line.hero.demo.ai1Translation')}</p>
               </div>
+              <div class="bg-gray-50 p-3 rounded-lg">
+                <p class="text-sm text-gray-700">🎌 {t('channels.line.hero.demo.stickerMessage')}</p>
+              </div>
+              <div class="bg-green-50 p-3 rounded-lg">
+                <p class="text-sm text-green-700">AI: "{t('channels.line.hero.demo.ai2')}"</p>
+                <p class="text-xs text-green-600">{t('channels.line.hero.demo.ai2Translation')}</p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Market Focus -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.line.marketFocus.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.line.marketFocus.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {markets.map((market, index) => (
+          <div key={index} class="bg-green-50 p-6 rounded-2xl border-2 border-green-200 hover:shadow-lg transition-all duration-300 text-center">
+            <div class="text-4xl mb-4">{market.flag}</div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              {market.country}
+            </h3>
+            <div class="space-y-2">
+              <div class="bg-white p-2 rounded-lg">
+                <div class="text-lg font-bold text-green-600">{market.users}</div>
+                <div class="text-xs text-green-700">{t('channels.line.marketFocus.activeUsers')}</div>
+              </div>
+              <div class="bg-white p-2 rounded-lg">
+                <div class="text-lg font-bold text-green-600">{market.penetration}</div>
+                <div class="text-xs text-green-700">{t('channels.line.marketFocus.marketPenetration')}</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.line.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.line.features.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {features.map((feature, index) => (
+          <div key={index} class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <div class="text-green-500 mb-4">
+              {feature.icon === 'Globe' && (<svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9 3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>)}
+              {feature.icon === 'Users' && (<svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197"/></svg>)}
+              {feature.icon === 'Zap' && (<svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>)}
+              {feature.icon === 'BarChart3' && (<svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 20h18M7 10v7m5-11v11m5-6v6"/></svg>)}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Messaging -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.line.businessMessaging.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.line.businessMessaging.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {businessFeatures.map((feature, index) => (
+          <div key={index} class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Cultural Adaptation -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-green-500 to-green-600 rounded-2xl p-12 text-white">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">
+            {t('channels.line.culturalAdaptationSection.title')}
+          </h2>
+          <p class="text-xl opacity-90 max-w-2xl mx-auto">
+            {t('channels.line.culturalAdaptationSection.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
+            <svg class="h-8 w-8 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.657 0 3-1.343 3-3S13.657 5 12 5 9 6.343 9 8s1.343 3 3 3zm0 2c-2.667 0-8 1.333-8 4v2h16v-2c0-2.667-5.333-4-8-4z"/></svg>
+            <h3 class="text-lg font-semibold mb-2 text-white">{t('channels.line.culturalFeatures.localized.title')}</h3>
+            <p class="text-sm text-white/90">{t('channels.line.culturalFeatures.localized.description')}</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
+            <svg class="h-8 w-8 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H4v-2a4 4 0 014-4h1m0 0a4 4 0 100-8 4 4 0 000 8z"/></svg>
+            <h3 class="text-lg font-semibold mb-2 text-white">{t('channels.line.culturalFeatures.multiLanguage.title')}</h3>
+            <p class="text-sm text-white/90">{t('channels.line.culturalFeatures.multiLanguage.description')}</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
+            <svg class="h-8 w-8 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+            <h3 class="text-lg font-semibold mb-2 text-white">{t('channels.line.culturalFeatures.sticker.title')}</h3>
+            <p class="text-sm text-white/90">{t('channels.line.culturalFeatures.sticker.description')}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-500 to-green-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('channels.line.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('channels.line.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('channels.line.cta.startIntegration')}
+        </a>
       </div>
     </div>
   </section>
