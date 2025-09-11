@@ -1282,5 +1282,19 @@
         "title": "解决方案"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "访问 GPT-4o 实时 API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "方案与模型使用量计算器"
+      }
+    }
   }
 }

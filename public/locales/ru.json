@@ -1094,5 +1094,19 @@
         "title": "Решения"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Доступ к API реального времени GPT-4o"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Калькулятор Плана и Использования Модели"
+      }
+    }
   }
 }

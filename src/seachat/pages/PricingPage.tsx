@@ -241,6 +241,7 @@ const PricingPage = () => {
         { description: t('seachat.pricing.plans.enterprise.features.customBuild'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.multipleWorkspaces'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.workspaceAgents'), sub_features: [] },
+        { description: t('seachat.pricing.plans.enterprise.features.gpt4oRealtimeAPI'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.customAPI'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.fineTuning'), sub_features: [] }
       ],

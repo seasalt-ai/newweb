@@ -1116,5 +1116,19 @@
         "title": "솔루션"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "GPT-4o 실시간 API 액세스"
+          }
+        }
+      },
+      "calculator": {
+        "title": "플랜 및 모델 사용량 계산기"
+      }
+    }
   }
 }

@@ -1116,5 +1116,19 @@
         "title": "ソリューション"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "GPT-4o リアルタイム API へのアクセス"
+          }
+        }
+      },
+      "calculator": {
+        "title": "プラン＆モデル使用量計算機"
+      }
+    }
   }
 }

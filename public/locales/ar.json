@@ -1503,5 +1503,19 @@
         "button": "ابدأ الإعداد"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "الوصول إلى واجهة برمجة التطبيقات في الوقت الفعلي GPT-4o"
+          }
+        }
+      },
+      "calculator": {
+        "title": "حاسبة خطة واستخدام النموذج"
+      }
+    }
   }
 }
