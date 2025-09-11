@@ -45,6 +45,25 @@ const PricingPage = () => {
         "plans": ["Premium", "Enterprise"]
       },
       {
+        "model_name": "ChatGPT-4.1 Mini",
+        "per_text_response": 0.018,
+        "per_voice_minute": 0.17,
+        "plans": ["Premium", "Enterprise"]
+      },
+      {
+        "model_name": "ChatGPT-5 Mini",
+        "per_text_response": 0.015,
+        "per_voice_minute": 0.16,
+        "plans": ["Premium", "Enterprise"]
+      },
+      {
+        "model_name": "ChatGPT-4o Realtime API",
+        "per_text_response": null,
+        "per_voice_minute": 0.19,
+        "plans": ["Premium", "Enterprise"],
+        "voice_only": true
+      },
+      {
         "model_name": "Mistral-large",
         "per_text_response": 0.08,
         "per_voice_minute": 0.80,
@@ -61,7 +80,7 @@ const PricingPage = () => {
     const model = pricingData.pricing.find(p => p.model_name === selectedModel);
     if (!model) return 0;
     
-    const textCost = chatResponses * model.per_text_response;
+    const textCost = model.per_text_response ? chatResponses * model.per_text_response : 0;
     const voiceCost = voiceMinutes * model.per_voice_minute;
     return textCost + voiceCost;
   };
@@ -441,7 +460,11 @@ const PricingPage = () => {
                     const model = pricingData.pricing.find(p => p.model_name === selectedModel);
                     return model ? (
                       <div className="space-y-1">
-                        <div>${model.per_text_response.toFixed(3)} {t('seachat.pricing.calculator.perChatResponse')}</div>
+                        {model.per_text_response ? (
+                          <div>${model.per_text_response.toFixed(3)} {t('seachat.pricing.calculator.perChatResponse')}</div>
+                        ) : (
+                          <div className="text-gray-500 italic">{t('seachat.pricing.calculator.voiceOnly')}</div>
+                        )}
                         <div>${model.per_voice_minute.toFixed(2)} {t('seachat.pricing.calculator.perVoiceMinute')}</div>
                       </div>
                     ) : null;
@@ -529,7 +552,7 @@ const PricingPage = () => {
                         <div className="text-xl font-bold text-orange-600">
                           ${(() => {
                             const model = pricingData.pricing.find(p => p.model_name === selectedModel);
-                            return model ? (chatResponses * model.per_text_response).toFixed(2) : '0.00';
+                            return model && model.per_text_response ? (chatResponses * model.per_text_response).toFixed(2) : '0.00';
                           })()}
                         </div>
                       </div>
