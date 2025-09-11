@@ -27,6 +27,39 @@ const { t } = await getTranslationHelpers(currentLang);
 // SEO 資料
 const title = t('pricing.seo.title') || 'Pricing - Seasalt.ai AI Contact Center Solutions';
 const description = t('pricing.seo.description') || 'Choose the right plan for your business. Transparent pricing for AI-powered contact center solutions with no hidden fees.';
+const keywords = 'pricing, plans, AI contact center, omnichannel, WhatsApp, voice calls, chat support, small business';
+
+// FAQ 資料 - 從翻譯系統取得
+const faqData = [
+  {
+    question: t('pricing.faq.1.question'),
+    answer: t('pricing.faq.1.answer')
+  },
+  {
+    question: t('pricing.faq.2.question'),
+    answer: t('pricing.faq.2.answer')
+  },
+  {
+    question: t('pricing.faq.3.question'),
+    answer: t('pricing.faq.3.answer')
+  },
+  {
+    question: t('pricing.faq.4.question'),
+    answer: t('pricing.faq.4.answer')
+  },
+  {
+    question: t('pricing.faq.5.question'),
+    answer: t('pricing.faq.5.answer')
+  },
+  {
+    question: t('pricing.faq.6.question'),
+    answer: t('pricing.faq.6.answer')
+  },
+  {
+    question: t('pricing.faq.7.question'),
+    answer: t('pricing.faq.7.answer')
+  }
+];
 
 // 獲取會議連結函數
 function getMeetingUrl(language: string) {
@@ -44,7 +77,14 @@ function getMeetingUrl(language: string) {
 const meetingUrl = getMeetingUrl(currentLang);
 ---
 
-<Layout title={title} description={description} lang={currentLang}>
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="product"
+  faqs={faqData}
+>
   <!-- Hero Section with Gradient Background -->
   <section class="bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 py-16 sm:py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

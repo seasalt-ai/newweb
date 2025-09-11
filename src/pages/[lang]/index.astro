@@ -32,9 +32,16 @@ const { t } = await getTranslationHelpers(currentLang);
 // 使用翻譯的標題和描述
 const title = t('seo.homepage.title') || 'SeaSalt.ai - AI-Powered Contact Center Solutions';
 const description = t('seo.homepage.description') || 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.';
+const keywords = t('seo.homepage.keywords') || 'omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support';
 ---
 
-<Layout title={title} description={description} lang={currentLang}>
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+>
 	<Hero lang={currentLang} />
 	<ProblemSolution lang={currentLang} />
 	<Features lang={currentLang} />

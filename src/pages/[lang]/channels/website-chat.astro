@@ -1,0 +1,152 @@
+---
+import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+
+const seoTitle = t('channels.websiteChat.seo.title');
+const seoDescription = t('channels.websiteChat.seo.description');
+const seoKeywords = t('channels.websiteChat.seo.keywords');
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/website-chat`;
+
+const breadcrumbs = [
+  { name: t('breadcrumbs.home'), url: `/${lang}/` },
+  { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
+  { name: t('breadcrumbs.websiteChat') }
+];
+
+const features = [
+  {
+    iconName: 'Code',
+    title: t('channels.websiteChat.features.noCodeSetup.title'),
+    description: t('channels.websiteChat.features.noCodeSetup.description')
+  },
+  {
+    iconName: 'Palette',
+    title: t('channels.websiteChat.features.customBranding.title'),
+    description: t('channels.websiteChat.features.customBranding.description')
+  },
+  {
+    iconName: 'Users',
+    title: t('channels.websiteChat.features.leadCapture.title'),
+    description: t('channels.websiteChat.features.leadCapture.description')
+  },
+  {
+    iconName: 'Zap',
+    title: t('channels.websiteChat.features.instantResponses.title'),
+    description: t('channels.websiteChat.features.instantResponses.description')
+  }
+];
+
+const integrations = [
+  'WordPress',
+  'Shopify',
+  'Squarespace', 
+  'Wix',
+  'Webflow',
+  'Custom HTML'
+];
+
+const customizationOptions = [
+  {
+    title: t('channels.websiteChat.customization.positionSize.title'),
+    description: t('channels.websiteChat.customization.positionSize.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.colorsFonts.title'),
+    description: t('channels.websiteChat.customization.colorsFonts.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.welcomeMessages.title'),
+    description: t('channels.websiteChat.customization.welcomeMessages.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.triggerRules.title'),
+    description: t('channels.websiteChat.customization.triggerRules.description')
+  }
+];
+
+const getMeetingUrl = (lang: string) => `https://calendly.com/seasaltai/demo`;
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  keywords={seoKeywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-indigo-50 via-white to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            {t('channels.websiteChat.navigation.backToChannels')}
+          </a>
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            {t('channels.websiteChat.hero.title.prefix')}{' '}
+            <span class="bg-gradient-to-r from-indigo-600 to-indigo-700 bg-clip-text text-transparent">
+              {t('channels.websiteChat.hero.title.highlight')}
+            </span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">
+            {t('channels.websiteChat.hero.description')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.websiteChat.hero.cta.primary')}
+            </a>
+            <a
+              href={getMeetingUrl(lang)} class="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.websiteChat.hero.cta.secondary')}
+            </a>
+          </div>
+        </div>
+        
+        <div class="mt-12 lg:mt-0">
+          <div class="relative">
+            <div class="bg-white rounded-2xl shadow-2xl p-6">
+              <div class="flex items-center mb-4">
+                 <svg class="h-8 w-8 text-indigo-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <h3 class="text-lg font-semibold">{t('channels.websiteChat.hero.widget.title')}</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="bg-indigo-50 p-3 rounded-lg">
+                  <p class="text-sm font-medium text-indigo-800">{t('channels.websiteChat.hero.widget.welcome.greeting')}</p>
+                  <p class="text-xs text-indigo-600">{t('channels.websiteChat.hero.widget.welcome.question')}</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.websiteChat.hero.widget.visitor.message')}</p>
+                </div>
+                <div class="bg-blue-50 p-3 rounded-lg">
+                  <p class="text-sm text-blue-700">{t('channels.websiteChat.hero.widget.ai.response')}</p>
+                </div>
+                <div class="flex space-x-2">
+                  <button class="bg-indigo-600 text-white px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.yes')}</button>
+                  <button class="bg-gray-200 text-gray-700 px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.no')}</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</Layout>
+

@@ -1,0 +1,269 @@
+---
+import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import Layout from '../../../layouts/Layout.astro';
+import SEO from '../../../components/SEO.astro';
+
+// 生成所有語言的靜態路徑
+export async function getStaticPaths() {
+  const paths = Object.keys(languages).map((lang) => ({
+    params: { lang }
+  }));
+  return paths;
+}
+
+// 從 params 取得語言
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+
+// SEO 資料
+const seoTitle = t('channels.whatsapp.seo.title');
+const seoDescription = t('channels.whatsapp.seo.description');
+const seoKeywords = 'WhatsApp Business, WhatsApp automation, customer communication, messaging platform, AI chatbot, business messaging';
+const canonicalUrl = lang === 'en' ? 'https://seasalt.ai/channels/whatsapp' : `https://seasalt.ai/${lang}/channels/whatsapp`;
+
+// 麵包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${lang}/` },
+  { name: 'Channels', url: `/${lang}/channels/` },
+  { name: 'WhatsApp' }
+];
+
+// 功能列表
+const features = [
+  {
+    iconName: 'Bot',
+    title: t('channels.whatsapp.features.aiResponses.title'),
+    description: t('channels.whatsapp.features.aiResponses.description')
+  },
+  {
+    iconName: 'Globe',
+    title: t('channels.whatsapp.features.bulkCampaigns.title'),
+    description: t('channels.whatsapp.features.bulkCampaigns.description')
+  },
+  {
+    iconName: 'Users',
+    title: t('channels.whatsapp.features.humanHandoff.title'),
+    description: t('channels.whatsapp.features.humanHandoff.description')
+  },
+  {
+    iconName: 'Shield',
+    title: t('channels.whatsapp.features.metaIntegration.title'),
+    description: t('channels.whatsapp.features.metaIntegration.description')
+  }
+];
+
+// 設定步驟
+const setupSteps = [
+  t('channels.whatsapp.setup.steps.0'),
+  t('channels.whatsapp.setup.steps.1'),
+  t('channels.whatsapp.setup.steps.2'),
+  t('channels.whatsapp.setup.steps.3'),
+  t('channels.whatsapp.setup.steps.4'),
+  t('channels.whatsapp.setup.steps.5')
+];
+
+// 會議 URL 的簡化版本 - 根據語言決定
+const getMeetingUrl = (lang: string) => {
+  // 簡化的實現，實際可能需要更複雜的邏輯
+  return 'https://calendly.com/seasaltai/demo';
+};
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  keywords={seoKeywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            {t('channels.whatsapp.nav.backToChannels')}
+          </a>
+          
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            {t('channels.whatsapp.hero.title.prefix')}{' '}
+            <span class="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              {t('channels.whatsapp.hero.title.highlight')}
+            </span>
+          </h1>
+          
+          <p class="text-xl text-gray-600 mb-8">
+            {t('channels.whatsapp.hero.description')}
+          </p>
+          
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://seax.seasalt.ai/signup"
+              class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.whatsapp.hero.primaryCta')}
+            </a>
+            <a
+              href={getMeetingUrl(lang)}
+              class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.whatsapp.hero.secondaryCta')}
+            </a>
+          </div>
+        </div>
+        
+        <div class="mt-12 lg:mt-0">
+          <div class="relative">
+            <div class="bg-white rounded-2xl shadow-2xl p-6">
+              <div class="flex items-center mb-4">
+                <svg class="h-8 w-8 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                </svg>
+                <h3 class="text-lg font-semibold">{t('channels.whatsapp.hero.demoTitle')}</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="bg-green-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.customer1')}</p>
+                </div>
+                <div class="bg-blue-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.bot1')}</p>
+                </div>
+                <div class="bg-green-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.customer2')}</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.whatsapp.hero.demoMessages.bot2')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.whatsapp.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.whatsapp.features.description')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {features.map((feature, index) => (
+          <div key={index} class="p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300">
+            <div class="text-green-600 mb-4">
+              {feature.iconName === 'Bot' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Globe' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Users' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Shield' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Setup Process -->
+  <section id="setup" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.whatsapp.setup.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.whatsapp.setup.description')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {setupSteps.map((step, index) => (
+          <div key={index} class="bg-white p-6 rounded-xl shadow-sm">
+            <div class="flex items-center mb-3">
+              <div class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mr-3">
+                {index + 1}
+              </div>
+              <h3 class="font-semibold text-gray-900">{step}</h3>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2">
+              <div class="bg-green-600 h-2 rounded-full" style="width: 100%;"></div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-12 bg-green-50 border-2 border-green-200 rounded-2xl p-8">
+        <div class="flex items-start">
+          <svg class="h-8 w-8 text-green-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold text-green-800 mb-2">
+              {t('channels.whatsapp.setup.security.title')}
+            </h3>
+            <p class="text-green-700">
+              {t('channels.whatsapp.setup.security.description')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-600 to-green-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('channels.whatsapp.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('channels.whatsapp.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('channels.whatsapp.cta.button')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // 頁面載入時捲動到頂端
+  window.scrollTo(0, 0);
+</script>

@@ -23,7 +23,15 @@ const { t } = await getTranslationHelpers(currentLang);
 // SEO data
 const seoTitle = t('solutions.aiAutomation.seo.title') || 'AI Automation Solutions - Seasalt.ai';
 const seoDescription = t('solutions.aiAutomation.seo.description') || 'Transform business operations with intelligent AI automation.';
+const seoKeywords = 'AI automation, business automation, customer service automation, voice automation, chat automation, workflow automation';
 const canonicalUrl = currentLang === 'en' ? 'https://seasalt.ai/solutions/ai-automation' : `https://seasalt.ai/${currentLang}/solutions/ai-automation`;
+
+// 麻包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'Solutions', url: `/${currentLang}/solutions/` },
+  { name: 'AI Automation' }
+];
 
 // Page data
 const challenges = [
@@ -172,6 +180,16 @@ const getMeetingUrl = (language: string) => {
   description={seoDescription}
   canonical={canonicalUrl}
   lang={currentLang}
+  keywords={seoKeywords}
+  type="service"
+  breadcrumbs={breadcrumbs}
+  image="https://seasalt.ai/seasalt-ai-og-image.png"
+  article={{
+    publishedTime: '2024-01-01T00:00:00Z',
+    modifiedTime: '2024-01-15T00:00:00Z',
+    author: 'Seasalt.ai Team',
+    section: 'Solutions'
+  }}
 >
   <main class="pt-16">
     <!-- Hero Section -->

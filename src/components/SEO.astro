@@ -1,95 +1,57 @@
 ---
-import { languages, defaultLang } from '../i18n/helpers';
-
-export interface Props {
+interface Props {
   title?: string;
   description?: string;
   keywords?: string;
   image?: string;
   canonical?: string;
   lang?: string;
-  type?: 'website' | 'article' | 'product';
-  article?: {
-    publishedTime?: string;
-    modifiedTime?: string;
-    author?: string;
-    section?: string;
-    tags?: string[];
-  };
+  type?: 'website' | 'article' | 'product' | 'software';
   noindex?: boolean;
   nofollow?: boolean;
 }
 
 const {
-  title = 'Seasalt.ai - AI-Powered Customer Communication Platform',
-  description = 'Unify WhatsApp, SMS, voice calls, and chat in one intelligent omnichannel platform. Automate support, boost sales, and deliver exceptional customer experiences.',
-  keywords,
-  image = '/seasalt-ai-og-image.png',
+  title = 'SeaSalt.ai - AI-Powered Omnichannel Customer Communication Platform',
+  description = 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.',
+  keywords = 'AI customer service, omnichannel platform, WhatsApp business, customer support software, contact center solutions, conversational AI, customer communication',
+  image = '/images/og/seasalt-ai-social-card.png',
   canonical,
-  lang = defaultLang,
+  lang = 'en',
   type = 'website',
-  article,
   noindex = false,
-  nofollow = false,
+  nofollow = false
 } = Astro.props;
 
-// Get current URL and build canonical URL
+// URL processing
 const currentUrl = canonical ? new URL(canonical) : new URL(Astro.url);
 const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
 const canonicalUrl = canonical || Astro.url.href;
 
-// Build absolute image URL
-const absoluteImageUrl = image.startsWith('http') ? image : `${baseUrl}${image}`;
+// Safe image URL handling
+const safeImage = image || '/images/og/seasalt-ai-social-card.png';
+const absoluteImageUrl = (safeImage && safeImage.startsWith && safeImage.startsWith('http')) 
+  ? safeImage 
+  : `${baseUrl}${safeImage}`;
 
-// Generate alternate language links
-const alternateLinks = Object.keys(languages).map(langCode => {
-  const langPath = langCode === defaultLang ? '' : `/${langCode}`;
-  const alternatePath = currentUrl.pathname.replace(/^\/[a-z]{2}-?[A-Z]{0,2}/, '');
-  return {
-    lang: langCode,
-    url: `${baseUrl}${langPath}${alternatePath}${currentUrl.search}`
-  };
-});
+// Robots settings
+const robotsContent = [
+  noindex ? 'noindex' : 'index',
+  nofollow ? 'nofollow' : 'follow'
+].join(',');
 
-// Structured Data (JSON-LD)
+// Basic structured data
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": type === 'website' ? "WebSite" : type === 'article' ? "Article" : "Product",
+  "@type": type === 'article' ? 'Article' : type === 'product' ? 'Product' : type === 'software' ? 'SoftwareApplication' : 'WebSite',
   "name": title,
   "description": description,
   "url": canonicalUrl,
   "image": absoluteImageUrl,
-  "inLanguage": lang,
-  ...(type === 'website' && {
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": `${baseUrl}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string"
-    }
-  }),
-  ...(type === 'article' && article && {
-    "datePublished": article.publishedTime,
-    "dateModified": article.modifiedTime,
-    "author": {
-      "@type": "Organization",
-      "name": article.author || "Seasalt.ai"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Seasalt.ai",
-      "logo": {
-        "@type": "ImageObject",
-        "url": `${baseUrl}/seasalt-ai-logo.png`
-      }
-    }
-  })
+  "inLanguage": lang
 };
-
-// Get language direction
-const isRTL = ['ar', 'fa'].includes(lang);
 ---
 
-<!-- Basic Meta Tags -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -97,61 +59,31 @@ const isRTL = ['ar', 'fa'].includes(lang);
 <title>{title}</title>
 <meta name="description" content={description} />
 {keywords && <meta name="keywords" content={keywords} />}
-
-<!-- Language and Direction -->
-<html lang={lang} dir={isRTL ? 'rtl' : 'ltr'} />
+<meta name="author" content="SeaSalt.ai" />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalUrl} />
 
-<!-- Alternate Language Links (hreflang) -->
-{alternateLinks.map(({ lang: altLang, url }) => (
-  <link rel="alternate" hreflang={altLang} href={url} />
-))}
-<link rel="alternate" hreflang="x-default" href={alternateLinks.find(link => link.lang === defaultLang)?.url} />
-
-<!-- Open Graph Meta Tags -->
+<!-- Open Graph -->
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={absoluteImageUrl} />
-<meta property="og:image:alt" content={title} />
-<meta property="og:site_name" content="Seasalt.ai" />
-<meta property="og:locale" content={lang.replace('-', '_')} />
+<meta property="og:site_name" content="SeaSalt.ai" />
 
-<!-- Twitter Card Meta Tags -->
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@seasalt_ai" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={absoluteImageUrl} />
 
-<!-- Article-specific meta tags -->
-{type === 'article' && article && (
-  <>
-    {article.publishedTime && <meta property="article:published_time" content={article.publishedTime} />}
-    {article.modifiedTime && <meta property="article:modified_time" content={article.modifiedTime} />}
-    {article.author && <meta property="article:author" content={article.author} />}
-    {article.section && <meta property="article:section" content={article.section} />}
-    {article.tags?.map(tag => <meta property="article:tag" content={tag} />)}
-  </>
-)}
-
-<!-- Robots Meta Tag -->
-<meta name="robots" content={`${noindex ? 'noindex' : 'index'},${nofollow ? 'nofollow' : 'follow'}`} />
+<!-- Robots -->
+<meta name="robots" content={robotsContent} />
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" type="image/png" href="/favicon.png" />
 
 <!-- Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
-
-<!-- Additional SEO enhancements -->
-<meta name="theme-color" content="#0EA5E9" />
-<meta name="msapplication-TileColor" content="#0EA5E9" />
-
-<!-- Preconnect to external domains for performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

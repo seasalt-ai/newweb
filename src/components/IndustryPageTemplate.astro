@@ -34,12 +34,17 @@ const currentLang = extractLangFromPath(Astro.url.pathname) || lang as Supported
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO data
-const seoData = {
-  title: `${title} ${t('industries.template.solutions.title')} - Seasalt.ai`,
-  description: `${headline} - Transform your ${title.toLowerCase()} business with AI-powered customer communication.`,
-  canonicalUrl: `https://seasalt.ai/${currentLang}/industries/${slug}`,
-  ogType: 'website'
-};
+const seoTitle = `${title} ${t('industries.template.solutions.title')} - Seasalt.ai`;
+const seoDescription = `${headline} - Transform your ${title.toLowerCase()} business with AI-powered customer communication.`;
+const seoKeywords = `${title.toLowerCase()}, AI customer service, omnichannel communication, business automation, ${title.toLowerCase()} solutions`;
+const canonicalUrl = currentLang === 'en' ? `https://seasalt.ai/industries/${slug}` : `https://seasalt.ai/${currentLang}/industries/${slug}`;
+
+// 麵包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'Industries', url: `/${currentLang}/industries/` },
+  { name: title }
+];
 
 // Use cases data
 const useCases = [
@@ -74,7 +79,22 @@ const testimonials = [
 ];
 ---
 
-<Layout title={seoData.title} description={seoData.description} lang={currentLang}>
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={currentLang}
+  keywords={seoKeywords}
+  type="service"
+  breadcrumbs={breadcrumbs}
+  image="https://seasalt.ai/seasalt-ai-og-image.png"
+  article={{
+    publishedTime: '2024-01-01T00:00:00Z',
+    modifiedTime: '2024-01-15T00:00:00Z',
+    author: 'Seasalt.ai Team',
+    section: 'Industries'
+  }}
+>
   <main class="pt-16">
     <!-- Hero Section -->
     <section class={`${bgColor} py-20`}>

@@ -23,7 +23,15 @@ const { t } = await getTranslationHelpers(currentLang);
 // SEO data
 const seoTitle = t('solutions.salesMarketing.seo.title') || 'Sales & Marketing Solutions - Seasalt.ai';
 const seoDescription = t('solutions.salesMarketing.seo.description') || 'Transform your sales and marketing with AI automation.';
+const seoKeywords = 'sales automation, marketing automation, lead generation, conversion optimization, CRM, sales funnel';
 const canonicalUrl = currentLang === 'en' ? 'https://seasalt.ai/solutions/sales-marketing' : `https://seasalt.ai/${currentLang}/solutions/sales-marketing`;
+
+// 麵包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'Solutions', url: `/${currentLang}/solutions/` },
+  { name: 'Sales & Marketing' }
+];
 
 // Page data
 const challenges = [
@@ -152,6 +160,16 @@ const getMeetingUrl = (language: string) => {
   description={seoDescription}
   canonical={canonicalUrl}
   lang={currentLang}
+  keywords={seoKeywords}
+  type="service"
+  breadcrumbs={breadcrumbs}
+  image="https://seasalt.ai/seasalt-ai-og-image.png"
+  article={{
+    publishedTime: '2024-01-01T00:00:00Z',
+    modifiedTime: '2024-01-15T00:00:00Z',
+    author: 'Seasalt.ai Team',
+    section: 'Solutions'
+  }}
 >
   <main class="pt-16">
     <!-- Hero Section -->

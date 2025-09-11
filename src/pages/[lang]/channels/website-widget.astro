@@ -1,0 +1,77 @@
+---
+import { getTranslationHelpers, languages } from '../../../i18n/helpers';
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+
+const seoTitle = t('channels.websiteWidget.seo.title');
+const seoDescription = t('channels.websiteWidget.seo.description');
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/website-widget`;
+const breadcrumbs = [
+  { name: t('breadcrumbs.home'), url: `/${lang}/` },
+  { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
+  { name: 'Website Widget' }
+];
+
+const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
+---
+
+<Layout
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <section class="bg-gradient-to-br from-orange-50 via-white to-orange-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            {t('channels.websiteWidget.navigation.backToChannels')}
+          </a>
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            {t('channels.websiteWidget.hero.title')}{' '}
+            <span class="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
+              {t('channels.websiteWidget.hero.titleHighlight')}
+            </span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">{t('channels.websiteWidget.hero.subtitle')}</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="https://seax.seasalt.ai/signup" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+              {t('channels.websiteWidget.hero.cta.deploy')}
+            </a>
+            <a href={getMeetingUrl(lang)} class="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+              {t('channels.websiteWidget.hero.cta.demo')}
+            </a>
+          </div>
+        </div>
+        <div class="mt-12 lg:mt-0">
+          <div class="bg-white rounded-2xl shadow-2xl p-6">
+            <div class="flex items-center mb-4">
+              <svg class="h-8 w-8 text-orange-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+              <h3 class="text-lg font-semibold">{t('channels.websiteWidget.hero.widget.title')}</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="bg-orange-50 p-3 rounded-lg border-l-4 border-orange-500">
+                <p class="text-sm font-medium text-orange-800">{t('channels.websiteWidget.hero.widget.chat.label')}</p>
+                <p class="text-xs text-orange-600">{t('channels.websiteWidget.hero.widget.chat.description')}</p>
+              </div>
+              <div class="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
+                <p class="text-sm font-medium text-blue-800">{t('channels.websiteWidget.hero.widget.voice.label')}</p>
+                <p class="text-xs text-blue-600">{t('channels.websiteWidget.hero.widget.voice.description')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

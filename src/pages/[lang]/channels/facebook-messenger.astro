@@ -1,0 +1,75 @@
+---
+import { getTranslationHelpers, languages } from '../../../i18n/helpers';
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+
+const seoTitle = t('channels.facebookMessenger.seo.title');
+const seoDescription = t('channels.facebookMessenger.seo.description');
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/facebook-messenger`;
+const breadcrumbs = [
+  { name: t('breadcrumbs.home'), url: `/${lang}/` },
+  { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
+  { name: 'Facebook Messenger' }
+];
+
+const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
+---
+
+<Layout
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <section class="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            {t('channels.facebookMessenger.navigation.backToChannels')}
+          </a>
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            {t('channels.facebookMessenger.hero.title')}{' '}
+            <span class="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+              {t('channels.facebookMessenger.hero.titleHighlight')}
+            </span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">{t('channels.facebookMessenger.hero.subtitle')}</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+              {t('channels.facebookMessenger.hero.cta.primary')}
+            </a>
+            <a href={getMeetingUrl(lang)} class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+              {t('channels.facebookMessenger.hero.cta.secondary')}
+            </a>
+          </div>
+        </div>
+        <div class="mt-12 lg:mt-0">
+          <div class="bg-white rounded-2xl shadow-2xl p-6">
+            <div class="flex items-center mb-4">
+              <svg class="h-8 w-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 20h9l-9-9h9V9H12v2h7.5L12 18.5z"/></svg>
+              <h3 class="text-lg font-semibold">{t('channels.facebookMessenger.hero.demo.title')}</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="bg-blue-50 p-3 rounded-lg">
+                <p class="text-sm font-medium text-blue-800">{t('channels.facebookMessenger.hero.demo.customerQuery')}</p>
+              </div>
+              <div class="bg-gray-50 p-3 rounded-lg">
+                <p class="text-sm text-gray-700">{t('channels.facebookMessenger.hero.demo.aiResponse1')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

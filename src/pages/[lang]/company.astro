@@ -16,6 +16,13 @@ const { t } = await getTranslationHelpers(currentLang);
 
 const title = t('company.seo.title');
 const description = t('company.seo.description');
+const keywords = 'about seasalt.ai, AI company, contact center technology, team, leadership, funding, careers';
+
+// 麻包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'About Us' }
+];
 
 // 獲取各種資料
 const investorsData = t('company.funding.investorsList', { returnObjects: true });
@@ -130,7 +137,14 @@ const milestones = [
 ];
 ---
 
-<Layout title={title} description={description} lang={currentLang}>
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+  breadcrumbs={breadcrumbs}
+>
   <main class="min-h-screen bg-white">
     <!-- Hero Section -->
     <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
