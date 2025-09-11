@@ -87,7 +87,7 @@ const PricingPage = () => {
         "per_text_response": 0.08,
         "per_voice_minute": {
           "standard": 0.80,
-          "premium": 0.80  // Same price for both tiers for Mistral
+          "premium": 0.86
         },
         "plans": ["Premium", "Enterprise"]
       }
