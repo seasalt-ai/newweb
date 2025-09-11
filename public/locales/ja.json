@@ -1116,5 +1116,23 @@
         "title": "ソリューション"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "GPT-4o Realtime API へのアクセス"
+          }
+        }
+      },
+      "calculator": {
+        "title": "プラン＆モデル使用量計算機",
+        "voiceOnly": "音声専用モデル",
+        "voicePricing": "音声料金",
+        "standardVoice": "スタンダード音声",
+        "premiumVoice": "プレミアム音声"
+      }
+    }
   }
 }

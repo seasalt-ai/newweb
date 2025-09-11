@@ -2233,7 +2233,8 @@
             "multipleWorkspaces": "多個工作區 - 完美適合代理商",
             "workspaceAgents": "每個工作區具有多個 AI 智能助手和電話號碼",
             "customAPI": "客製化 API 整合",
-            "fineTuning": "根據您的指導原則進行微調和技術支援"
+            "fineTuning": "根據您的指導原則進行微調和技術支援",
+            "gpt4oRealtimeAPI": "存取 GPT-4o Realtime API"
           },
           "buttonText": "聯絡我們"
         }
@@ -2246,7 +2247,7 @@
         "save": "與月度計費相比節省 2 個月"
       },
       "calculator": {
-        "title": "高級版使用量計算器",
+        "title": "方案與模型使用量計算器",
         "description": "根據您的使用模式估算成本",
         "modelSelect": "選擇 AI 模型",
         "priceBreakdown": "成本明細",
@@ -2279,7 +2280,11 @@
         "planIncludesWorkspaces": "2 個工作區",
         "perChatResponse": "每次聊天回應",
         "perVoiceMinute": "每分鐘語音",
-        "placeholderText": "佔位符"
+        "placeholderText": "佔位符",
+        "voiceOnly": "僅語音模型",
+        "voicePricing": "語音定價",
+        "standardVoice": "標準語音",
+        "premiumVoice": "高級語音"
       },
       "note": "價格以美元計算。語音價格因國家而異，列出的價格適用於美國。其他國家請聯絡我們。",
       "comparison": {

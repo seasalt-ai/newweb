@@ -816,54 +816,6 @@
       }
     },
     "aiAddons": {
-      "title": "⭐ Modules Complémentaires IA",
-      "description": "Améliorez n'importe quel plan avec des capacités IA",
-      "chatAI": {
-        "title": "Chat IA avec SeaChat",
-        "price": "29,99 $",
-        "period": "par mois"
-      },
-      "voiceAI": {
-        "title": "Voice IA avec SeaVoice",
-        "price": "29,99 $",
-        "period": "par mois"
-      },
-      "combo": {
-        "title": "Les deux fonctionnalités IA",
-        "price": "29,99 $",
-        "period": "par mois au total",
-        "benefit": "🎉 Obtenez Chat IA et Voice IA pour seulement 29,99 $/mois combinés !"
-      }
-    },
-    "transparentAI": {
-      "title": "Tarification Transparente de l'IA",
-      "description": "Payez uniquement ce que vous utilisez avec notre tarification IA claire basée sur l'utilisation",
-      "chatAI": {
-        "title": "Chat IA",
-        "price": "0,006 $",
-        "period": "par réponse (ChatGPT-4o mini)",
-        "feature1": "• WhatsApp, Messenger, Chat Web",
-        "feature2": "• Réponses automatisées 24/7",
-        "feature3": "• Intégration base de connaissances"
-      },
-      "voiceAI": {
-        "title": "Voice IA",
-        "price": "0,12 $",
-        "period": "par minute (ChatGPT-4o mini)",
-        "feature1": "• Appels entrants et sortants",
-        "feature2": "• Conversations vocales naturelles",
-        "feature3": "• Enregistrement et résumés d'appels"
-      },
-      "premiumAI": {
-        "title": "IA Premium",
-        "price": "0,80 $",
-        "period": "par minute (ChatGPT-4o)",
-        "feature1": "• Raisonnement avancé",
-        "feature2": "• Conversations complexes",
-        "feature3": "• Fonctionnalités entreprises personnalisées"
-      }
-    },
-    "aiAddons": {
       "title": "⭐ Extensions IA",
       "description": "Améliorez n'importe quel plan avec des capacités IA",
       "chatAI": {
@@ -1227,6 +1179,24 @@
       },
       "solutions": {
         "title": "Solutions"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Accès à GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculateur de Plan et Utilisation de Modèle",
+        "voiceOnly": "Modèle vocal uniquement",
+        "voicePricing": "Tarification vocale",
+        "standardVoice": "Voix Standard",
+        "premiumVoice": "Voix Premium"
       }
     }
   }

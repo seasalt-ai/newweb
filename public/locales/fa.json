@@ -1213,5 +1213,23 @@
         "title": "راهکارها"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "دسترسی به GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "ماشین حساب طرح و استفاده از مدل",
+        "voiceOnly": "مدل فقط صوتی",
+        "voicePricing": "قیمت‌گذاری صدا",
+        "standardVoice": "صدای استاندارد",
+        "premiumVoice": "صدای پریمیوم"
+      }
+    }
   }
 }

@@ -19,6 +19,7 @@ const PricingPage = () => {
   const [selectedModel, setSelectedModel] = useState('ChatGPT-4o mini');
   const [chatResponses, setChatResponses] = useState(1000);
   const [voiceMinutes, setVoiceMinutes] = useState(100);
+  const [voiceQuality, setVoiceQuality] = useState<'standard' | 'premium'>('standard');
   const [humanAgents, setHumanAgents] = useState(4);
   const [aiAgents, setAiAgents] = useState(10);
   const [workspaces, setWorkspaces] = useState(2);
@@ -29,25 +30,65 @@ const PricingPage = () => {
       {
         "model_name": "ChatGPT-3.5-turbo",
         "per_text_response": 0.01,
-        "per_voice_minute": 0.15,
+        "per_voice_minute": {
+          "standard": 0.15,
+          "premium": 0.15  // Same price for both tiers for 3.5-turbo
+        },
         "plans": ["Standard"]
       },
       {
         "model_name": "ChatGPT-4o mini",
         "per_text_response": 0.006,
-        "per_voice_minute": 0.12,
+        "per_voice_minute": {
+          "standard": 0.12,
+          "premium": 0.18
+        },
         "plans": ["Premium", "Enterprise"]
       },
       {
         "model_name": "ChatGPT-4o",
         "per_text_response": 0.08,
-        "per_voice_minute": 0.80,
+        "per_voice_minute": {
+          "standard": 0.80,
+          "premium": 0.86
+        },
         "plans": ["Premium", "Enterprise"]
+      },
+      {
+        "model_name": "ChatGPT-4.1 Mini",
+        "per_text_response": 0.018,
+        "per_voice_minute": {
+          "standard": 0.17,
+          "premium": 0.23
+        },
+        "plans": ["Premium", "Enterprise"]
+      },
+      {
+        "model_name": "ChatGPT-5 Mini",
+        "per_text_response": 0.015,
+        "per_voice_minute": {
+          "standard": 0.16,
+          "premium": 0.22
+        },
+        "plans": ["Premium", "Enterprise"]
+      },
+      {
+        "model_name": "ChatGPT-4o Realtime API",
+        "per_text_response": null,
+        "per_voice_minute": {
+          "standard": 0.19,
+          "premium": 0.25
+        },
+        "plans": ["Premium", "Enterprise"],
+        "voice_only": true
       },
       {
         "model_name": "Mistral-large",
         "per_text_response": 0.08,
-        "per_voice_minute": 0.80,
+        "per_voice_minute": {
+          "standard": 0.80,
+          "premium": 0.86
+        },
         "plans": ["Premium", "Enterprise"]
       }
     ]
@@ -61,8 +102,8 @@ const PricingPage = () => {
     const model = pricingData.pricing.find(p => p.model_name === selectedModel);
     if (!model) return 0;
     
-    const textCost = chatResponses * model.per_text_response;
-    const voiceCost = voiceMinutes * model.per_voice_minute;
+    const textCost = model.per_text_response ? chatResponses * model.per_text_response : 0;
+    const voiceCost = voiceMinutes * model.per_voice_minute[voiceQuality];
     return textCost + voiceCost;
   };
 
@@ -241,6 +282,7 @@ const PricingPage = () => {
         { description: t('seachat.pricing.plans.enterprise.features.customBuild'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.multipleWorkspaces'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.workspaceAgents'), sub_features: [] },
+        { description: t('seachat.pricing.plans.enterprise.features.gpt4oRealtimeAPI'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.customAPI'), sub_features: [] },
         { description: t('seachat.pricing.plans.enterprise.features.fineTuning'), sub_features: [] }
       ],
@@ -440,8 +482,18 @@ const PricingPage = () => {
                     const model = pricingData.pricing.find(p => p.model_name === selectedModel);
                     return model ? (
                       <div className="space-y-1">
-                        <div>${model.per_text_response.toFixed(3)} {t('seachat.pricing.calculator.perChatResponse')}</div>
-                        <div>${model.per_voice_minute.toFixed(2)} {t('seachat.pricing.calculator.perVoiceMinute')}</div>
+                        {model.per_text_response ? (
+                          <div>${model.per_text_response.toFixed(3)} {t('seachat.pricing.calculator.perChatResponse')}</div>
+                        ) : (
+                          <div className="text-gray-500 italic">{t('seachat.pricing.calculator.voiceOnly')}</div>
+                        )}
+                        <div>
+                          <div className="font-medium text-gray-700 mb-1">{t('seachat.pricing.calculator.voicePricing')}:</div>
+                          <div className="ml-2 space-y-0.5">
+                            <div>${model.per_voice_minute.standard.toFixed(2)} {t('seachat.pricing.calculator.perVoiceMinute')} ({t('seachat.pricing.calculator.standardVoice')})</div>
+                            <div>${model.per_voice_minute.premium.toFixed(2)} {t('seachat.pricing.calculator.perVoiceMinute')} ({t('seachat.pricing.calculator.premiumVoice')})</div>
+                          </div>
+                        </div>
                       </div>
                     ) : null;
                   })()}
@@ -528,7 +580,7 @@ const PricingPage = () => {
                         <div className="text-xl font-bold text-orange-600">
                           ${(() => {
                             const model = pricingData.pricing.find(p => p.model_name === selectedModel);
-                            return model ? (chatResponses * model.per_text_response).toFixed(2) : '0.00';
+                            return model && model.per_text_response ? (chatResponses * model.per_text_response).toFixed(2) : '0.00';
                           })()}
                         </div>
                       </div>
@@ -540,6 +592,34 @@ const PricingPage = () => {
                       {t('seachat.pricing.calculator.voiceMinutes')}: <span className="text-orange-600">{voiceMinutes.toLocaleString()}</span>
                       <div className="text-sm text-gray-500 mt-1">{t('seachat.pricing.calculator.voiceMinutesNote')}</div>
                     </label>
+                    
+                    {/* Voice Quality Selection */}
+                    <div className="mb-4">
+                      <div className="flex items-center space-x-6">
+                        <label className="flex items-center cursor-pointer">
+                          <input
+                            type="radio"
+                            name="voiceQuality"
+                            value="standard"
+                            checked={voiceQuality === 'standard'}
+                            onChange={(e) => setVoiceQuality(e.target.value as 'standard' | 'premium')}
+                            className="mr-2 text-orange-600 focus:ring-orange-500"
+                          />
+                          <span className="text-sm font-medium text-gray-700">{t('seachat.pricing.calculator.standardVoice')}</span>
+                        </label>
+                        <label className="flex items-center cursor-pointer">
+                          <input
+                            type="radio"
+                            name="voiceQuality"
+                            value="premium"
+                            checked={voiceQuality === 'premium'}
+                            onChange={(e) => setVoiceQuality(e.target.value as 'standard' | 'premium')}
+                            className="mr-2 text-orange-600 focus:ring-orange-500"
+                          />
+                          <span className="text-sm font-medium text-gray-700">{t('seachat.pricing.calculator.premiumVoice')}</span>
+                        </label>
+                      </div>
+                    </div>
                     <input
                       type="range"
                       min="0"
@@ -559,7 +639,7 @@ const PricingPage = () => {
                         <div className="text-xl font-bold text-orange-600">
                           ${(() => {
                             const model = pricingData.pricing.find(p => p.model_name === selectedModel);
-                            return model ? (voiceMinutes * model.per_voice_minute).toFixed(2) : '0.00';
+                            return model ? (voiceMinutes * model.per_voice_minute[voiceQuality]).toFixed(2) : '0.00';
                           })()}
                         </div>
                       </div>
