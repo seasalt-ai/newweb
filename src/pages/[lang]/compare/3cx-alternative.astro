@@ -1,0 +1,335 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.threeCXAlternative.seo.title') || 'Best 3CX Alternative - Seasalt.ai';
+const description = t('compare.threeCXAlternative.seo.description') || 'Compare Seasalt.ai vs 3CX for contact center and communication solutions.';
+
+function getMeetingUrl(language: string) {
+  const meetingUrls = {
+    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
+    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
+    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
+    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
+    'default': 'https://calendly.com/seasalt-ai/demo'
+  };
+  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
+}
+
+const meetingUrl = getMeetingUrl(currentLang);
+
+const comparisonFeatures = [
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.platformType.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.platformType.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.platformType.threeCX'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.pricingModel.threeCX'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.managementOverhead.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.managementOverhead.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.managementOverhead.threeCX'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.omnichannelInbox.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.omnichannelInbox.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.omnichannelInbox.threeCX'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.aiCapabilities.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.aiCapabilities.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.aiCapabilities.threeCX'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.threeCXAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.threeCXAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.threeCXAlternative.comparison.features.bestFor.threeCX'),
+    seasaltAdvantage: false
+  }
+];
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords="3CX alternative" type="website">
+  <section class="bg-gradient-to-br from-indigo-50 via-white to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.threeCXAlternative.nav.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.threeCXAlternative.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-indigo-600 to-indigo-700 bg-clip-text text-transparent">
+            {t('compare.threeCXAlternative.hero.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.threeCXAlternative.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.threeCXAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.threeCXAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.threeCXAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.threeCXAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.threeCXAlternative.comparison.table.headers.threeCX')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.threeCXAlternative.hiddenCosts.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.threeCXAlternative.hiddenCosts.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-indigo-600 mb-6">{t('compare.threeCXAlternative.hiddenCosts.seasalt.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-green-800">${t('compare.threeCXAlternative.hiddenCosts.seasalt.pricing')}</h4>
+              <p class="text-green-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.seasalt.pricingDescription')}</p>
+            </div>
+            <div class="bg-blue-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.threeCXAlternative.hiddenCosts.seasalt.cloudHosting.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.seasalt.cloudHosting.description')}</p>
+            </div>
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-purple-800">{t('compare.threeCXAlternative.hiddenCosts.seasalt.support.title')}</h4>
+              <p class="text-purple-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.seasalt.support.description')}</p>
+            </div>
+            <div class="bg-orange-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-orange-800">{t('compare.threeCXAlternative.hiddenCosts.seasalt.updates.title')}</h4>
+              <p class="text-orange-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.seasalt.updates.description')}</p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-gray-800">{t('compare.threeCXAlternative.hiddenCosts.seasalt.ssl.title')}</h4>
+              <p class="text-gray-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.seasalt.ssl.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.threeCXAlternative.hiddenCosts.threeCX.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-yellow-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-yellow-800">{t('compare.threeCXAlternative.hiddenCosts.threeCX.baseLicense.price')}</h4>
+              <p class="text-yellow-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.threeCX.baseLicense.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.threeCXAlternative.hiddenCosts.threeCX.hostingCosts.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.threeCX.hostingCosts.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.threeCXAlternative.hiddenCosts.threeCX.supportTickets.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.threeCX.supportTickets.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.threeCXAlternative.hiddenCosts.threeCX.itManagement.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.threeCX.itManagement.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.threeCXAlternative.hiddenCosts.threeCX.sslCerts.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.threeCXAlternative.hiddenCosts.threeCX.sslCerts.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-red-50 border-2 border-red-200 rounded-2xl p-8">
+        <div class="text-center">
+          <svg class="h-12 w-12 text-red-600 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+          </svg>
+          <h3 class="text-2xl font-bold text-red-800 mb-4">
+            {t('compare.threeCXAlternative.hiddenCosts.realCost.title')}
+          </h3>
+          <p class="text-red-700 max-w-2xl mx-auto mb-6">
+            {t('compare.threeCXAlternative.hiddenCosts.realCost.description')}
+          </p>
+          <div class="bg-white p-4 rounded-lg inline-block">
+            <p class="text-red-800 font-semibold">
+              {t('compare.threeCXAlternative.hiddenCosts.realCost.calculation')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.threeCXAlternative.technicalComplexity.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.threeCXAlternative.technicalComplexity.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-red-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-red-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.threeCX.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.serverProvisioning')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.osUpdates')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.sslInstallation')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.firewallConfig')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.backupRecovery')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.troubleshooting')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.threeCX.capacityPlanning')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-green-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-green-600 mb-6">{t('compare.threeCXAlternative.technicalComplexity.seasalt.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.infrastructure')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.securityUpdates')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.sslManagement')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.enterpriseSecurity')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.backups')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.monitoring')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.threeCXAlternative.technicalComplexity.seasalt.scaling')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gradient-to-r from-indigo-600 to-indigo-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.threeCXAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.threeCXAlternative.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-indigo-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.threeCXAlternative.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.threeCXAlternative.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

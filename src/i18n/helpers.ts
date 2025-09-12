@@ -28,6 +28,13 @@ export const defaultLang: SupportedLanguage = 'en';
 // 翻譯緩存
 const translationCache = new Map<string, any>();
 
+// 用於追蹤已記錄的缺失鍵，避免重複記錄
+const loggedMissingKeys = new Set<string>();
+
+// 檢查是否為開發環境
+const isDev = import.meta.env?.DEV || process.env.NODE_ENV === 'development';
+
+
 // 動態載入翻譯文件
 async function loadTranslations(lang: SupportedLanguage) {
   const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
@@ -52,7 +59,7 @@ async function loadTranslations(lang: SupportedLanguage) {
 }
 
 // 翻譯函數
-function createTranslationFunction(translations: any) {
+function createTranslationFunction(translations: any, lang?: SupportedLanguage) {
   return function t(key: string, params?: Record<string, any>): any {
     if (!translations) {
       return key;
@@ -65,6 +72,14 @@ function createTranslationFunction(translations: any) {
       if (result && typeof result === 'object' && k in result) {
         result = result[k];
       } else {
+        // 在開發環境中記錄缺失的翻譯鍵
+        if (isDev) {
+          const logKey = `${lang || 'unknown'}:${key}`;
+          if (!loggedMissingKeys.has(logKey)) {
+            console.warn(`🌐 Missing translation key: "${key}" in locale "${lang || 'unknown'}"`);
+            loggedMissingKeys.add(logKey);
+          }
+        }
         return key; // 找不到翻譯時返回 key
       }
     }
@@ -96,7 +111,7 @@ function createTranslationFunction(translations: any) {
 // 在 Astro 組件中使用的 helper 函數
 export async function getTranslationHelpers(lang: SupportedLanguage) {
   const translations = await loadTranslations(lang);
-  const t = createTranslationFunction(translations);
+  const t = createTranslationFunction(translations, lang);
   
   return {
     t,

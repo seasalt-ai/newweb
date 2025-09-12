@@ -1,0 +1,418 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.dialpadAlternative.seo.title') || 'Best Dialpad Alternative - Seasalt.ai';
+const description = t('compare.dialpadAlternative.seo.description') || 'Compare Seasalt.ai vs Dialpad for contact center and communication solutions.';
+const keywords = 'Dialpad alternative, contact center, unified communications, voice AI';
+
+// 比較功能資料
+const comparisonFeatures = [
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.platformArchitecture.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.platformArchitecture.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.platformArchitecture.dialpad'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.startingPrice.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.startingPrice.dialpad'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.contactCenterPrice.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.contactCenterPrice.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.contactCenterPrice.dialpad'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.unifiedVoiceDigital.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.unifiedVoiceDigital.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.unifiedVoiceDigital.dialpad'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.voiceAI.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.voiceAI.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.voiceAI.dialpad'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.globalSMS.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.globalSMS.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.globalSMS.dialpad'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.dialpadAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.dialpadAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.dialpadAlternative.comparison.features.bestFor.dialpad'),
+    seasaltAdvantage: false
+  }
+];
+
+function getMeetingUrl(language: string) {
+  const meetingUrls = {
+    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
+    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
+    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
+    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
+    'default': 'https://calendly.com/seasalt-ai/demo'
+  };
+  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
+}
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.dialpadAlternative.nav.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.dialpadAlternative.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+            {t('compare.dialpadAlternative.hero.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.dialpadAlternative.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Comparison -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.dialpadAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.dialpadAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.dialpadAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.dialpadAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.dialpadAlternative.comparison.table.headers.dialpad')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Tiers Comparison -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.dialpadAlternative.pricingTiers.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.dialpadAlternative.pricingTiers.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-gray-900">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.features.basicCalling')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.features.voiceIntelligence')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.features.noOmnichannel')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.features.noContactCenter')}</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <span class="text-sm text-gray-600">{t('compare.dialpadAlternative.pricingTiers.dialpadStandard.goodFor')}</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-red-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-red-600">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.features.contactCenterFeatures')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.features.omnichannelRouting')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.features.advancedAnalytics')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.features.digitalChannels')}</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <span class="text-sm text-red-600">{t('compare.dialpadAlternative.pricingTiers.dialpadSupport.requiredFor')}</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.dialpadAlternative.pricingTiers.seasalt.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-blue-600">{t('compare.dialpadAlternative.pricingTiers.seasalt.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.dialpadAlternative.pricingTiers.seasalt.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.seasalt.features.fullContactCenter')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.seasalt.features.allChannelsIncluded')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.seasalt.features.aiVoiceChat')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.dialpadAlternative.pricingTiers.seasalt.features.noUpgradeRequired')}</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <span class="text-sm text-blue-600">{t('compare.dialpadAlternative.pricingTiers.seasalt.perfectFor')}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Analysis -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.dialpadAlternative.costAnalysis.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.dialpadAlternative.costAnalysis.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.dialpadAlternative.costAnalysis.agents5.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-blue-600">{t('compare.dialpadAlternative.costAnalysis.agents5.seasalt.price')}</div>
+              <div class="text-sm text-blue-700">{t('compare.dialpadAlternative.costAnalysis.agents5.seasalt.label')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.dialpadAlternative.costAnalysis.agents5.dialpadBasic.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.dialpadAlternative.costAnalysis.agents5.dialpadBasic.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.dialpadAlternative.costAnalysis.agents5.dialpadCC.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.dialpadAlternative.costAnalysis.agents5.dialpadCC.label')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.dialpadAlternative.costAnalysis.agents10.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-blue-600">{t('compare.dialpadAlternative.costAnalysis.agents10.seasalt.price')}</div>
+              <div class="text-sm text-blue-700">{t('compare.dialpadAlternative.costAnalysis.agents10.seasalt.label')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.dialpadAlternative.costAnalysis.agents10.dialpadBasic.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.dialpadAlternative.costAnalysis.agents10.dialpadBasic.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.dialpadAlternative.costAnalysis.agents10.dialpadCC.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.dialpadAlternative.costAnalysis.agents10.dialpadCC.label')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.dialpadAlternative.costAnalysis.agents20.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-blue-600">{t('compare.dialpadAlternative.costAnalysis.agents20.seasalt.price')}</div>
+              <div class="text-sm text-blue-700">{t('compare.dialpadAlternative.costAnalysis.agents20.seasalt.label')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.dialpadAlternative.costAnalysis.agents20.dialpadBasic.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.dialpadAlternative.costAnalysis.agents20.dialpadBasic.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.dialpadAlternative.costAnalysis.agents20.dialpadCC.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.dialpadAlternative.costAnalysis.agents20.dialpadCC.label')}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Voice AI Comparison -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.dialpadAlternative.voiceAI.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.dialpadAlternative.voiceAI.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.dialpadAlternative.voiceAI.seasalt.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.seasalt.features.voicebotHandling')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.seasalt.features.realtimeTranscription')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.seasalt.features.aiChatbots')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.seasalt.features.unifiedAI')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.seasalt.features.includedPricing')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.dialpadAlternative.voiceAI.dialpad.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.dialpad.features.excellentTranscription')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.dialpad.features.aiSummaries')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.dialpad.features.sentimentAnalysis')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.dialpad.features.limitedVoiceOnly')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.dialpadAlternative.voiceAI.dialpad.features.noAutomatedHandling')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.dialpadAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.dialpadAlternative.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.dialpadAlternative.cta.buttons.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.dialpadAlternative.cta.buttons.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

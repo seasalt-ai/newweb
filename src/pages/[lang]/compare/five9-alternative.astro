@@ -1,0 +1,300 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.five9Alternative.seo.title') || 'Best Five9 Alternative - Seasalt.ai';
+const description = t('compare.five9Alternative.seo.description') || 'Compare Seasalt.ai vs Five9 for contact center and communication solutions.';
+const keywords = 'Five9 alternative, contact center, outbound calling, enterprise communications';
+
+// 比較功能資料
+const comparisonFeatures = [
+  {
+    feature: t('compare.five9Alternative.comparison.features.targetCustomer.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.targetCustomer.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.targetCustomer.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.five9Alternative.comparison.features.startingPrice.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.startingPrice.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.five9Alternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.pricingModel.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.five9Alternative.comparison.features.setupComplexity.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.setupComplexity.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.setupComplexity.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.five9Alternative.comparison.features.outboundFocus.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.outboundFocus.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.outboundFocus.competitor'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.five9Alternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.five9Alternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.five9Alternative.comparison.features.bestFor.competitor'),
+    seasaltAdvantage: false
+  }
+];
+
+function getMeetingUrl(language: string) {
+  const meetingUrls = {
+    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
+    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
+    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
+    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
+    'default': 'https://calendly.com/seasalt-ai/demo'
+  };
+  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
+}
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-orange-50 via-white to-orange-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-orange-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.five9Alternative.navigation.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.five9Alternative.hero.title.part1')}{' '}
+          <span class="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
+            {t('compare.five9Alternative.hero.title.part2')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.five9Alternative.hero.subtitle')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Comparison -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.five9Alternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.five9Alternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.five9Alternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.five9Alternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.five9Alternative.comparison.table.headers.five9')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Analysis -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.five9Alternative.cost.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.five9Alternative.cost.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.five9Alternative.cost.agents5.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.five9Alternative.cost.agents5.seasalt.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.five9Alternative.cost.agents5.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.five9Alternative.cost.agents5.five9.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.five9Alternative.cost.agents5.five9.label')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.five9Alternative.cost.agents5.savings')}</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.five9Alternative.cost.agents10.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.five9Alternative.cost.agents10.seasalt.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.five9Alternative.cost.agents10.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.five9Alternative.cost.agents10.five9.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.five9Alternative.cost.agents10.five9.label')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.five9Alternative.cost.agents10.savings')}</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.five9Alternative.cost.agents20.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.five9Alternative.cost.agents20.seasalt.price')}</div>
+              <div class="text-sm text-green-700">{t('compare.five9Alternative.cost.agents20.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.five9Alternative.cost.agents20.five9.price')}</div>
+              <div class="text-sm text-red-700">{t('compare.five9Alternative.cost.agents20.five9.label')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.five9Alternative.cost.agents20.savings')}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.five9Alternative.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.five9Alternative.features.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-blue-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.five9Alternative.features.seasalt.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.five9Alternative.features.seasalt.feature1')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.five9Alternative.features.seasalt.feature2')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.five9Alternative.features.seasalt.feature3')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.five9Alternative.features.seasalt.feature4')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.five9Alternative.features.seasalt.feature5')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-orange-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-orange-600 mb-6">{t('compare.five9Alternative.features.five9.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <span class="text-orange-600 mr-3 mt-0.5">•</span>
+              <span class="text-gray-700">{t('compare.five9Alternative.features.five9.feature1')}</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-600 mr-3 mt-0.5">•</span>
+              <span class="text-gray-700">{t('compare.five9Alternative.features.five9.feature2')}</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-600 mr-3 mt-0.5">•</span>
+              <span class="text-gray-700">{t('compare.five9Alternative.features.five9.feature3')}</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-600 mr-3 mt-0.5">•</span>
+              <span class="text-gray-700">{t('compare.five9Alternative.features.five9.feature4')}</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-600 mr-3 mt-0.5">•</span>
+              <span class="text-gray-700">{t('compare.five9Alternative.features.five9.feature5')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-orange-600 to-orange-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.five9Alternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.five9Alternative.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-orange-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.five9Alternative.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.five9Alternative.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

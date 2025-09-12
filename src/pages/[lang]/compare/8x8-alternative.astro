@@ -1,0 +1,381 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.eightXEightAlternative.seo.title') || 'Best 8x8 Alternative - Seasalt.ai';
+const description = t('compare.eightXEightAlternative.seo.description') || 'Compare Seasalt.ai vs 8x8 for contact center and communication solutions.';
+const keywords = '8x8 alternative, contact center, unified communications, pricing transparency';
+
+// 比較功能資料
+const comparisonFeatures = [
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.targetCustomer.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.targetCustomer.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.targetCustomer.eightXEight'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.pricingModel.eightXEight'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.startingPrice.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.startingPrice.eightXEight'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.omnichannelRouting.eightXEight'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.workforceManagement.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.workforceManagement.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.workforceManagement.eightXEight'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.easeOfSetup.eightXEight'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.eightXEightAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.eightXEightAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.eightXEightAlternative.comparison.features.bestFor.eightXEight'),
+    seasaltAdvantage: false
+  }
+];
+
+function getMeetingUrl(language: string) {
+  const meetingUrls = {
+    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
+    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
+    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
+    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
+    'default': 'https://calendly.com/seasalt-ai/demo'
+  };
+  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
+}
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.eightXEightAlternative.nav.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.eightXEightAlternative.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
+            {t('compare.eightXEightAlternative.hero.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.eightXEightAlternative.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Comparison -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.eightXEightAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.eightXEightAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.eightXEightAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.eightXEightAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.eightXEightAlternative.comparison.table.headers.eightXEight')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Transparency -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.eightXEightAlternative.pricingTransparency.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.eightXEightAlternative.pricingTransparency.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-green-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.pricing.title')}</h4>
+              <p class="text-green-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.pricing.description')}</p>
+            </div>
+            <div class="bg-blue-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.selfService.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.selfService.description')}</p>
+            </div>
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-purple-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.noMinimums.title')}</h4>
+              <p class="text-purple-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.noMinimums.description')}</p>
+            </div>
+            <div class="bg-orange-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-orange-800">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.predictableCosts.title')}</h4>
+              <p class="text-orange-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.seasalt.predictableCosts.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.hiddenPricing.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.hiddenPricing.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.salesProcess.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.salesProcess.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.enterpriseFocus.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.enterpriseFocus.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.complexContracts.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.eightXEightAlternative.pricingTransparency.eightXEight.complexContracts.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-8">
+        <div class="text-center">
+          <AlertCircle className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
+          <h3 class="text-2xl font-bold text-yellow-800 mb-4">
+            {t('compare.eightXEightAlternative.pricingTransparency.quoteBasedProblem.title')}
+          </h3>
+          <p class="text-yellow-700 max-w-2xl mx-auto">
+            {t('compare.eightXEightAlternative.pricingTransparency.quoteBasedProblem.description')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.eightXEightAlternative.featureComparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.eightXEightAlternative.featureComparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-blue-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.eightXEightAlternative.featureComparison.seasalt.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.essentialOmnichannel')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.aiAutomation')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.simpleSetup')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.intuitiveUI')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.affordableScaling')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.seasalt.features.fastTimeToValue')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.eightXEightAlternative.featureComparison.eightXEight.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.advancedWorkforce')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.comprehensiveAnalytics')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.complexImplementation')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.steepLearning')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.highTotalCost')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.eightXEightAlternative.featureComparison.eightXEight.features.longDeployment')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.eightXEightAlternative.businessImpact.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.eightXEightAlternative.businessImpact.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.seasalt.value')}</div>
+              <div class="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.eightXEight.value')}</div>
+              <div class="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.timeToDeploy.eightXEight.label')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.learningCurve.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.learningCurve.seasalt.value')}</div>
+              <div class="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.learningCurve.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.learningCurve.eightXEight.value')}</div>
+              <div class="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.learningCurve.eightXEight.label')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{t('compare.eightXEightAlternative.businessImpact.totalCost.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-green-600">{t('compare.eightXEightAlternative.businessImpact.totalCost.seasalt.value')}</div>
+              <div class="text-sm text-green-700">{t('compare.eightXEightAlternative.businessImpact.totalCost.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-2xl font-bold text-red-600">{t('compare.eightXEightAlternative.businessImpact.totalCost.eightXEight.value')}</div>
+              <div class="text-sm text-red-700">{t('compare.eightXEightAlternative.businessImpact.totalCost.eightXEight.label')}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-gray-700 to-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.eightXEightAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.eightXEightAlternative.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-gray-800 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.eightXEightAlternative.cta.buttons.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.eightXEightAlternative.cta.buttons.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
