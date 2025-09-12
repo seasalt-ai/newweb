@@ -59,6 +59,7 @@ import SeaVoiceRouter from './seavoice/utils/SeaVoiceRouter';
 import CompanyPage from './pages/CompanyPage';
 import CareersPage from './pages/careers';
 import HtmlLangUpdater from './components/HtmlLangUpdater';
+import PathRedirect from './components/PathRedirect';
 
 import SEOHelmet from './components/SEOHelmet';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, normalizeLanguage } from './constants/languages';
@@ -165,7 +166,6 @@ const getBrowserLanguage = () => {
 
 function HomePage() {
   const { i18n, t } = useTranslation();
-  const currentLanguage = i18n.language;
   
   // Generate SEO data using standardized utility
   const seoData = getSEOData(t, 'seo.homepage', {
@@ -313,10 +313,32 @@ function App() {
           <Route path="privacy" element={<MarkdownPage pageType="privacy" />} />
           <Route path="terms" element={<MarkdownPage pageType="terms" />} />
         </Route>
+        {/* Common pages without language prefix - use PathRedirect for browser language detection */}
+        <Route path="pricing" element={<PathRedirect />} />
+        <Route path="channels-overview" element={<PathRedirect />} />
+        <Route path="compare-us-overview" element={<PathRedirect />} />
+        <Route path="blog" element={<PathRedirect />} />
+        <Route path="blog/*" element={<PathRedirect />} />
+        <Route path="company" element={<PathRedirect />} />
+        <Route path="careers" element={<PathRedirect />} />
+        
+        {/* Channel pages without language prefix */}
+        <Route path="channels/*" element={<PathRedirect />} />
+        
+        {/* Compare pages without language prefix */}
+        <Route path="compare/*" element={<PathRedirect />} />
+        
+        {/* Industry pages without language prefix */}
+        <Route path="industries/*" element={<PathRedirect />} />
+        
+        {/* Solution pages without language prefix */}
+        <Route path="solutions/*" element={<PathRedirect />} />
+        
         {/* Language-agnostic routes for privacy and terms - redirect to default language */}
         <Route path="privacy" element={<Navigate to={`/${DEFAULT_LANGUAGE}/privacy`} replace />} />
         <Route path="terms" element={<Navigate to={`/${DEFAULT_LANGUAGE}/terms`} replace />} />
-        {/* Fallback: only /seahealth or /health render SeaHealth, all else redirect to language root */}
+        
+        {/* Fallback: all other unmatched routes redirect to current language home */}
         <Route path="*" element={<Navigate to={`/${currentLanguage}`} replace />} />
         </Routes>
       </FaviconManager>
