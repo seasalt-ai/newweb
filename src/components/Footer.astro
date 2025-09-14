@@ -522,10 +522,10 @@ const currentYear = new Date().getFullYear();
             © 2020 - {currentYear} Seasalt.ai. All rights reserved.
           </p>
           <div class="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
-            <a href="/privacy" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <a href={`/${currentLang}/privacy`} class="text-gray-300 hover:text-white transition-colors duration-200">
               {t('footer.privacyPolicy')}
             </a>
-            <a href="/terms" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <a href={`/${currentLang}/terms`} class="text-gray-300 hover:text-white transition-colors duration-200">
               {t('footer.termsOfService')}
             </a>
           </div>

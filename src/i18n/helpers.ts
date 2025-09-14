@@ -136,10 +136,23 @@ export function extractLangFromPath(pathname: string): SupportedLanguage {
 
 // 產生本地化路徑
 export function getLocalizedPath(path: string, targetLang: SupportedLanguage): string {
-  // 移除現有語言前綴
-  const cleanPath = path.replace(/^\/[a-z]{2}(-[a-z]{2})?/i, '') || '/';
+  // 檢查路徑是否已經包含支援的語言前綴
+  const segments = path.split('/').filter(Boolean);
+  const firstSegment = segments[0]?.toLowerCase();
   
-  // 如果是預設語言，不加前綴
+  let cleanPath = path;
+  
+  // 只有當第一個段落是支援的語言時才移除它
+  if (firstSegment && firstSegment in languages) {
+    cleanPath = '/' + segments.slice(1).join('/');
+  }
+  
+  // 確保路徑以 / 開頭
+  if (!cleanPath.startsWith('/')) {
+    cleanPath = '/' + cleanPath;
+  }
+  
+  // 如果是預設語言，不加前綴（根據 prefixDefaultLocale 設定）
   if (targetLang === defaultLang) {
     return cleanPath;
   }

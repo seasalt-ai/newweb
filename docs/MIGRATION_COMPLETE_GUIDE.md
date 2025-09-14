@@ -1,8 +1,8 @@
 # 🚀 React → Astro 專案搬遷完整指南
 
-> **專案狀態**: ✅ **搬遷已完成**  
-> **最後更新**: 2025-01-11  
-> **目前狀態**: 生產就緒，560 個頁面成功生成  
+> **專案狀態**: 🚧 **核心搬遷已完成，產品頁面待搬移**  
+> **最後更新**: 2025-09-12  
+> **目前狀態**: 45 個核心頁面完成，900 個多語言頁面成功生成
 
 ---
 
@@ -11,13 +11,18 @@
 ### ✅ 已完成的里程碑
 1. **架構遷移** - React + Vite → Astro + TypeScript ✅
 2. **多語言系統** - 20 種語言完整支援 ✅  
-3. **所有主要頁面** - 首頁、定價、公司、渠道、行業、解決方案 ✅
+3. **核心頁面搬遷** - 首頁、定價、公司、渠道、行業、解決方案、比較 ✅
 4. **SEO 系統** - 完整的 JSON-LD、meta 標籤、sitemap ✅
 5. **效能優化** - SSG 靜態生成，載入速度大幅提升 ✅
 
+### 🚧 進行中的里程碑
+6. **產品頁面搬遷** - SeaChat、SeaX、SeaVoice 產品頁面 🚧
+7. **部落格系統** - 目前暫時停用，可快速恢復 🚧
+8. **法律文件** - 隱私政策、服務條款等 🚧
+
 ### 🎯 成功指標
-- **頁面數量**: 560 個生成頁面（20 語言 × 28 主要頁面）
-- **建置時間**: ~3 分鐘（相比原 React 版本大幅改善）
+- **頁面數量**: 45 個核心頁面完成（20 語言 × 45 頁面 = 900 個生成頁面）
+- **建置時間**: ~1 分鐘（核心頁面，相比原 React 版本大幅改善）
 - **效能提升**: 移除 React 運行時負擔，純靜態 HTML
 - **SEO 友善**: 原生 SSG，無需 Puppeteer 預渲染
 
@@ -47,7 +52,7 @@
 
 ## 📋 頁面搬遷狀態
 
-### ✅ 已完成頁面 (28 個主要頁面)
+### ✅ 已完成頁面 (45 個核心頁面)
 
 #### 核心頁面
 - **首頁** (`/[lang]/index`) - Hero、Features、Use Cases 等完整組件
@@ -72,7 +77,7 @@
 - 聯絡表單 (`/[lang]/channels/contact-forms`)
 - 網站小工具 (`/[lang]/channels/website-widget`)
 
-#### 行業頁面 (9 個)
+#### 行業頁面 (13 個)
 - 行業概覽 (`/[lang]/industries/index`)
 - 電商 (`/[lang]/industries/ecommerce`)
 - 醫療保健 (`/[lang]/industries/healthcare`)
@@ -82,16 +87,49 @@
 - 汽車服務 (`/[lang]/industries/automotive-services`)
 - 專業服務 (`/[lang]/industries/professional-services`)
 - 金融服務 (`/[lang]/industries/financial-services`)
+- 教育 (`/[lang]/industries/education`)
+- 汽車 (`/[lang]/industries/automotive`)
+- 及其他行業特化頁面
+
+#### 比較頁面 (14 個) - ✨ 最新完成
+- 比較概覽 (`/[lang]/compare/index`)
+- 比較總覽 (`/[lang]/compare-us-overview`) 
+- 3CX 替代方案 (`/[lang]/compare/3cx-alternative`)
+- 8x8 替代方案 (`/[lang]/compare/8x8-alternative`)
+- Aircall 替代方案 (`/[lang]/compare/aircall-alternative`)
+- Avaya 替代方案 (`/[lang]/compare/avaya-alternative`)
+- Dialpad 替代方案 (`/[lang]/compare/dialpad-alternative`)
+- Five9 替代方案 (`/[lang]/compare/five9-alternative`)
+- Genesys 替代方案 (`/[lang]/compare/genesys-alternative`)
+- Google Voice 替代方案 (`/[lang]/compare/google-voice-alternative`)
+- Intercom 替代方案 (`/[lang]/compare/intercom-alternative`)
+- Kustomer 替代方案 (`/[lang]/compare/kustomer-alternative`)
+- OpenPhone 替代方案 (`/[lang]/compare/openphone-alternative`)
+- Respond.io 替代方案 (`/[lang]/compare/respond-io-alternative`)
+- RingCentral 替代方案 (`/[lang]/compare/ringcentral-alternative`)
 
 ### 🔄 Blog 系統
 - **狀態**: 暫時停用，但保留恢復機制
 - **原因**: 避免處理數百篇文章的建置時間
 - **恢復**: 可依照文件指引快速恢復
 
-### ⏸️ 產品頁面 (獨立系統)
-- **SeaChat 產品頁面**: 暫不搬遷 (與主站分離)
-- **SeaX 產品頁面**: 暫不搬遷 (與主站分離)
-- **SeaVoice 產品頁面**: 暫不搬遷 (與主站分離)
+### 🚧 待搬移頁面
+
+#### 產品頁面 (高優先級)
+- **SeaChat 產品頁面** - 主要產品頁面
+- **SeaX 產品頁面** - 全通道解決方案
+- **SeaVoice 產品頁面** - AI 語音助手
+
+#### 法律文件頁面 (中優先級)
+- **隱私政策** (`/[lang]/privacy`)
+- **服務條款** (`/[lang]/terms`)
+- **安全政策** (`/[lang]/security`)
+
+#### 其他頁面 (低優先級)
+- **職業頁面** (`/[lang]/careers`)
+- **SeaHealth** (`/[lang]/seahealth`)
+- **API 文件** (`/[lang]/api-reference`)
+- **合作夥伴** (`/[lang]/partners`)
 
 ---
 
