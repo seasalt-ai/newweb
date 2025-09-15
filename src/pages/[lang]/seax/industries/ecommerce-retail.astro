@@ -1,0 +1,371 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO Configuration
+const seoData = {
+  title: t('seax.industries.ecommerceRetail.seo.title') || 'SeaX for E-commerce & Retail - Scale Your Customer Communications',
+  description: t('seax.industries.ecommerceRetail.seo.description') || 'Boost e-commerce sales with automated order confirmations, abandoned cart recovery, and customer support at scale using SeaX mass communication platform.',
+  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/industries/ecommerce-retail', lang),
+  ogImage: '/seax-ecommerce-retail.png'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: getLocalizedPath('/', lang) },
+  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
+  { name: 'Industries', url: getLocalizedPath('/seax/industries', lang) },
+  { name: 'E-commerce & Retail', url: getLocalizedPath('/seax/industries/ecommerce-retail', lang) }
+];
+
+// Industry-specific FAQs
+const faqs = [
+  {
+    question: "How does SeaX help with abandoned cart recovery?",
+    answer: "SeaX automates personalized SMS and WhatsApp messages to customers who abandoned their carts, with customizable timing and messaging sequences to maximize recovery rates."
+  },
+  {
+    question: "Can SeaX integrate with my e-commerce platform?",
+    answer: "Yes, SeaX integrates with major e-commerce platforms including Shopify, WooCommerce, Magento, and others through APIs and webhooks for seamless order and customer data synchronization."
+  },
+  {
+    question: "Is SeaX suitable for high-volume e-commerce businesses?",
+    answer: "Absolutely. SeaX is designed for scale, handling millions of messages daily for large e-commerce operations including order confirmations, shipping updates, and marketing campaigns."
+  },
+  {
+    question: "How does SeaX handle customer support for e-commerce?",
+    answer: "SeaX provides automated customer support through multiple channels, handling common inquiries about orders, returns, and product information, with seamless escalation to human agents when needed."
+  }
+];
+
+// Industry challenges data
+const challenges = [
+  {
+    icon: 'shopping-cart',
+    title: t('seax.industries.ecommerceRetail.challenges.items[0].title') || 'Cart Abandonment Recovery',
+    description: t('seax.industries.ecommerceRetail.challenges.items[0].description') || 'Recover lost sales with automated, personalized follow-up campaigns'
+  },
+  {
+    icon: 'users',
+    title: t('seax.industries.ecommerceRetail.challenges.items[1].title') || 'Customer Retention',
+    description: t('seax.industries.ecommerceRetail.challenges.items[1].description') || 'Keep customers engaged with targeted communications and offers'
+  },
+  {
+    icon: 'message-square',
+    title: t('seax.industries.ecommerceRetail.challenges.items[2].title') || 'Order Communications',
+    description: t('seax.industries.ecommerceRetail.challenges.items[2].description') || 'Automate order confirmations, shipping updates, and delivery notifications'
+  },
+  {
+    icon: 'target',
+    title: t('seax.industries.ecommerceRetail.challenges.items[3].title') || 'Personalized Marketing',
+    description: t('seax.industries.ecommerceRetail.challenges.items[3].description') || 'Deliver targeted campaigns based on customer behavior and preferences'
+  },
+  {
+    icon: 'trending-up',
+    title: t('seax.industries.ecommerceRetail.challenges.items[4].title') || 'Seasonal Campaigns',
+    description: t('seax.industries.ecommerceRetail.challenges.items[4].description') || 'Launch time-sensitive promotions and flash sales at scale'
+  },
+  {
+    icon: 'refresh-cw',
+    title: t('seax.industries.ecommerceRetail.challenges.items[5].title') || 'Customer Support',
+    description: t('seax.industries.ecommerceRetail.challenges.items[5].description') || 'Provide 24/7 automated support for order inquiries and returns'
+  }
+];
+
+// Use cases data
+const useCases = [
+  {
+    title: t('seax.industries.ecommerceRetail.useCases.items[0].title') || 'Abandoned Cart Recovery',
+    description: t('seax.industries.ecommerceRetail.useCases.items[0].description') || 'Automatically send personalized recovery messages to customers who abandon their shopping carts.',
+    benefits: [
+      t('seax.industries.ecommerceRetail.useCases.items[0].benefits[0]') || 'Recover 15-25% of abandoned carts',
+      t('seax.industries.ecommerceRetail.useCases.items[0].benefits[1]') || 'Personalized messaging based on cart contents',
+      t('seax.industries.ecommerceRetail.useCases.items[0].benefits[2]') || 'Automated multi-step follow-up sequences'
+    ]
+  },
+  {
+    title: t('seax.industries.ecommerceRetail.useCases.items[1].title') || 'Order Status Updates',
+    description: t('seax.industries.ecommerceRetail.useCases.items[1].description') || 'Keep customers informed throughout the entire order lifecycle with automated notifications.',
+    benefits: [
+      t('seax.industries.ecommerceRetail.useCases.items[1].benefits[0]') || 'Real-time order confirmation and shipping alerts',
+      t('seax.industries.ecommerceRetail.useCases.items[1].benefits[1]') || 'Delivery tracking and arrival notifications',
+      t('seax.industries.ecommerceRetail.useCases.items[1].benefits[2]') || 'Reduce customer service inquiries by 40%'
+    ]
+  },
+  {
+    title: t('seax.industries.ecommerceRetail.useCases.items[2].title') || 'Flash Sales & Promotions',
+    description: t('seax.industries.ecommerceRetail.useCases.items[2].description') || 'Launch time-sensitive campaigns to millions of customers simultaneously.',
+    benefits: [
+      t('seax.industries.ecommerceRetail.useCases.items[2].benefits[0]') || 'Reach millions of customers in minutes',
+      t('seax.industries.ecommerceRetail.useCases.items[2].benefits[1]') || 'Segment audiences for targeted offers',
+      t('seax.industries.ecommerceRetail.useCases.items[2].benefits[2]') || 'Real-time campaign performance tracking'
+    ]
+  },
+  {
+    title: t('seax.industries.ecommerceRetail.useCases.items[3].title') || 'Customer Reactivation',
+    description: t('seax.industries.ecommerceRetail.useCases.items[3].description') || 'Win back dormant customers with personalized reactivation campaigns.',
+    benefits: [
+      t('seax.industries.ecommerceRetail.useCases.items[3].benefits[0]') || 'Identify and target inactive customers',
+      t('seax.industries.ecommerceRetail.useCases.items[3].benefits[1]') || 'Personalized offers based on purchase history',
+      t('seax.industries.ecommerceRetail.useCases.items[3].benefits[2]') || 'Increase customer lifetime value by 30%'
+    ]
+  }
+];
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.industries.ecommerceRetail.hero.title.main') || 'SeaX for'}
+        <span class="text-blue-600 block">{t('seax.industries.ecommerceRetail.hero.title.highlight') || 'E-commerce & Retail'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.industries.ecommerceRetail.hero.description') || 'Boost sales with automated order confirmations, abandoned cart recovery, and customer support at scale. Reach millions of customers instantly with personalized messaging.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.industries.ecommerceRetail.hero.cta.primary') || 'Start Free Trial'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+        
+        <a
+          href={getLocalizedPath('/seax/features', lang)}
+          class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+        >
+          {t('seax.industries.ecommerceRetail.hero.cta.secondary') || 'View Features'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Challenges -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.industries.ecommerceRetail.challenges.title') || 'E-commerce Challenges We Solve'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.industries.ecommerceRetail.challenges.subtitle') || 'Common communication challenges in e-commerce and retail businesses'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {challenges.map((challenge, index) => (
+          <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div class="flex items-center space-x-3 mb-4">
+              {challenge.icon === 'shopping-cart' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m0 0h9m-9 0h9"/>
+                </svg>
+              )}
+              {challenge.icon === 'users' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                </svg>
+              )}
+              {challenge.icon === 'message-square' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                </svg>
+              )}
+              {challenge.icon === 'target' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+              {challenge.icon === 'trending-up' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                </svg>
+              )}
+              {challenge.icon === 'refresh-cw' && (
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                </svg>
+              )}
+              <h3 class="text-lg font-semibold text-gray-900">{challenge.title}</h3>
+            </div>
+            <p class="text-gray-600">
+              {challenge.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.industries.ecommerceRetail.useCases.title') || 'E-commerce Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.industries.ecommerceRetail.useCases.subtitle') || 'Proven strategies to boost your e-commerce performance'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {useCases.map((useCase, index) => (
+          <div class="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">{useCase.title}</h3>
+            <p class="text-gray-600 mb-6">
+              {useCase.description}
+            </p>
+            <div class="space-y-2">
+              {useCase.benefits.map((benefit, benefitIndex) => (
+                <div class="flex items-center space-x-2">
+                  <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Stats -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-white mb-4">
+          {t('seax.industries.ecommerceRetail.stats.title') || 'E-commerce Results'}
+        </h2>
+        <p class="text-xl text-blue-100">
+          {t('seax.industries.ecommerceRetail.stats.subtitle') || 'Proven outcomes for e-commerce businesses'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industries.ecommerceRetail.stats.items[0].value') || '25%'}</div>
+          <div class="text-blue-100">{t('seax.industries.ecommerceRetail.stats.items[0].label') || 'Cart Recovery Rate'}</div>
+          <div class="text-sm text-blue-200 mt-2">{t('seax.industries.ecommerceRetail.stats.items[0].description') || 'Average improvement in abandoned cart recovery'}</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industries.ecommerceRetail.stats.items[1].value') || '40%'}</div>
+          <div class="text-blue-100">{t('seax.industries.ecommerceRetail.stats.items[1].label') || 'Fewer Support Tickets'}</div>
+          <div class="text-sm text-blue-200 mt-2">{t('seax.industries.ecommerceRetail.stats.items[1].description') || 'Reduction in customer service inquiries'}</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industries.ecommerceRetail.stats.items[2].value') || '3x'}</div>
+          <div class="text-blue-100">{t('seax.industries.ecommerceRetail.stats.items[2].label') || 'Campaign Reach'}</div>
+          <div class="text-sm text-blue-200 mt-2">{t('seax.industries.ecommerceRetail.stats.items[2].description') || 'Increase in promotional campaign reach'}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.industries.ecommerceRetail.features.title') || 'E-commerce Specific Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.industries.ecommerceRetail.features.subtitle') || 'Built specifically for e-commerce and retail businesses'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">{t('seax.industries.ecommerceRetail.features.items[0].title') || 'Order Automation'}</h3>
+          <p class="text-gray-600">{t('seax.industries.ecommerceRetail.features.items[0].description') || 'Automated order confirmations, shipping notifications, and delivery updates'}</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">{t('seax.industries.ecommerceRetail.features.items[1].title') || 'Cart Recovery'}</h3>
+          <p class="text-gray-600">{t('seax.industries.ecommerceRetail.features.items[1].description') || 'Intelligent abandoned cart recovery with personalized messaging sequences'}</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">{t('seax.industries.ecommerceRetail.features.items[2].title') || 'Sales Analytics'}</h3>
+          <p class="text-gray-600">{t('seax.industries.ecommerceRetail.features.items[2].description') || 'Real-time analytics on campaign performance, conversion rates, and customer engagement'}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.industries.ecommerceRetail.cta.title') || 'Ready to Scale Your E-commerce Business?'}
+      </h2>
+      <p class="text-xl text-gray-300 mb-8">
+        {t('seax.industries.ecommerceRetail.cta.description') || 'Join thousands of e-commerce businesses using SeaX to increase sales and improve customer satisfaction.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
+        >
+          <span>{t('seax.industries.ecommerceRetail.cta.primary') || 'Start Free Trial'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+        
+        <a
+          href={getLocalizedPath('/seax/pricing', lang)}
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
+        >
+          {t('seax.industries.ecommerceRetail.cta.secondary') || 'View Pricing'}
+        </a>
+      </div>
+    </div>
+  </div>
+  
+</SeaxLayout>

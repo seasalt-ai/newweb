@@ -1,0 +1,291 @@
+---
+import SeaxLayout from "../../../../layouts/SeaxLayout.astro";
+import { getTranslationHelpers, languages, getLocalizedPath } from "../../../../i18n/helpers";
+import { ArrowRight, CheckCircle, Stethoscope, Calendar, Users, AlertCircle, Heart } from "lucide-react";
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO configuration
+const seoData = {
+  title: t("seax.industries.healthcare.seo.title"),
+  description: t("seax.industries.healthcare.seo.description"),
+  canonical: "https://seasalt.ai" + getLocalizedPath("/seax/industries/healthcare", lang),
+  ogImage: "/seax-healthcare.png"
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: "Home", url: getLocalizedPath("/", lang) },
+  { name: "SeaX", url: getLocalizedPath("/seax", lang) },
+  { name: "Industries", url: getLocalizedPath("/seax/industries", lang) },
+  { name: "Healthcare", url: getLocalizedPath("/seax/industries/healthcare", lang) }
+];
+
+// Challenges data
+const challenges = [
+  {
+    icon: "stethoscope",
+    title: t("seax.industries.healthcare.challenges.items.0.title"),
+    description: t("seax.industries.healthcare.challenges.items.0.description")
+  },
+  {
+    icon: "calendar",
+    title: t("seax.industries.healthcare.challenges.items.1.title"),
+    description: t("seax.industries.healthcare.challenges.items.1.description")
+  },
+  {
+    icon: "users",
+    title: t("seax.industries.healthcare.challenges.items.2.title"),
+    description: t("seax.industries.healthcare.challenges.items.2.description")
+  },
+  {
+    icon: "alert-circle",
+    title: t("seax.industries.healthcare.challenges.items.3.title"),
+    description: t("seax.industries.healthcare.challenges.items.3.description")
+  },
+  {
+    icon: "heart",
+    title: t("seax.industries.healthcare.challenges.items.4.title"),
+    description: t("seax.industries.healthcare.challenges.items.4.description")
+  }
+];
+
+// Use cases data
+const useCases = [
+  {
+    title: t("seax.industries.healthcare.useCases.items.0.title"),
+    description: t("seax.industries.healthcare.useCases.items.0.description"),
+    benefits: [
+      t("seax.industries.healthcare.useCases.items.0.benefits.0"),
+      t("seax.industries.healthcare.useCases.items.0.benefits.1"),
+      t("seax.industries.healthcare.useCases.items.0.benefits.2")
+    ]
+  },
+  {
+    title: t("seax.industries.healthcare.useCases.items.1.title"),
+    description: t("seax.industries.healthcare.useCases.items.1.description"),
+    benefits: [
+      t("seax.industries.healthcare.useCases.items.1.benefits.0"),
+      t("seax.industries.healthcare.useCases.items.1.benefits.1"),
+      t("seax.industries.healthcare.useCases.items.1.benefits.2")
+    ]
+  },
+  {
+    title: t("seax.industries.healthcare.useCases.items.2.title"),
+    description: t("seax.industries.healthcare.useCases.items.2.description"),
+    benefits: [
+      t("seax.industries.healthcare.useCases.items.2.benefits.0"),
+      t("seax.industries.healthcare.useCases.items.2.benefits.1"),
+      t("seax.industries.healthcare.useCases.items.2.benefits.2")
+    ]
+  },
+  {
+    title: t("seax.industries.healthcare.useCases.items.3.title"),
+    description: t("seax.industries.healthcare.useCases.items.3.description"),
+    benefits: [
+      t("seax.industries.healthcare.useCases.items.3.benefits.0"),
+      t("seax.industries.healthcare.useCases.items.3.benefits.1"),
+      t("seax.industries.healthcare.useCases.items.3.benefits.2")
+    ]
+  }
+];
+
+// Stats data
+const stats = [
+  {
+    value: t("seax.industries.healthcare.stats.items.0.value"),
+    label: t("seax.industries.healthcare.stats.items.0.label"),
+    description: t("seax.industries.healthcare.stats.items.0.description")
+  },
+  {
+    value: t("seax.industries.healthcare.stats.items.1.value"),
+    label: t("seax.industries.healthcare.stats.items.1.label"),
+    description: t("seax.industries.healthcare.stats.items.1.description")
+  },
+  {
+    value: t("seax.industries.healthcare.stats.items.2.value"),
+    label: t("seax.industries.healthcare.stats.items.2.label"),
+    description: t("seax.industries.healthcare.stats.items.2.description")
+  }
+];
+
+// Icon mapping function
+const getIcon = (iconName) => {
+  const iconMap = {
+    "stethoscope": Stethoscope,
+    "calendar": Calendar,
+    "users": Users,
+    "alert-circle": AlertCircle,
+    "heart": Heart
+  };
+  return iconMap[iconName] || AlertCircle;
+};
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={[]} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t("seax.industries.healthcare.hero.title.main")}
+        <span class="text-blue-600 block">{t("seax.industries.healthcare.hero.title.highlight")}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t("seax.industries.healthcare.hero.description")}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t("seax.industries.healthcare.hero.cta.primary")}</span>
+          <ArrowRight className="w-5 h-5" />
+        </a>
+        
+        <a
+          href={`/${lang}/seax/features`}
+          class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+        >
+          {t("seax.industries.healthcare.hero.cta.secondary")}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Challenges -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t("seax.industries.healthcare.challenges.title")}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t("seax.industries.healthcare.challenges.subtitle")}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {challenges.map((challenge, index) => {
+          const IconComponent = getIcon(challenge.icon);
+          return (
+            <div key={index} class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow">
+              <div class="flex items-center space-x-3 mb-4">
+                <IconComponent className="w-6 h-6 text-blue-600" />
+                <h3 class="text-lg font-semibold text-gray-900">{challenge.title}</h3>
+              </div>
+              <p class="text-gray-600">
+                {challenge.description}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t("seax.industries.healthcare.useCases.title")}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t("seax.industries.healthcare.useCases.subtitle")}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {useCases.map((useCase, index) => (
+          <div key={index} class="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">{useCase.title}</h3>
+            <p class="text-gray-600 mb-6">
+              {useCase.description}
+            </p>
+            <div class="space-y-2">
+              {useCase.benefits.map((benefit, benefitIndex) => (
+                <div key={benefitIndex} class="flex items-center space-x-2">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Stats -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-white mb-4">
+          {t("seax.industries.healthcare.stats.title")}
+        </h2>
+        <p class="text-xl text-blue-100">
+          {t("seax.industries.healthcare.stats.subtitle")}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {stats.map((stat, index) => (
+          <div key={index} class="text-center">
+            <div class="text-4xl font-bold text-white mb-2">{stat.value}</div>
+            <div class="text-blue-100">{stat.label}</div>
+            <div class="text-sm text-blue-200 mt-2">{stat.description}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t("seax.industries.healthcare.cta.title")}
+      </h2>
+      <p class="text-xl text-gray-300 mb-8">
+        {t("seax.industries.healthcare.cta.description")}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
+        >
+          <span>{t("seax.industries.healthcare.cta.primary")}</span>
+          <ArrowRight className="w-5 h-5" />
+        </a>
+        
+        <a
+          href={`/${lang}/seax/pricing`}
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors"
+        >
+          {t("seax.industries.healthcare.cta.secondary")}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>

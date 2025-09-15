@@ -1,0 +1,316 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO Configuration
+const seoData = {
+  title: t('seax.industryOverview.seo.title'),
+  description: t('seax.industryOverview.seo.description'),
+  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/industries', lang),
+  ogImage: '/seax-logo.png'
+};
+
+// SeaX Industries breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: getLocalizedPath('/', lang) },
+  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
+  { name: t('seax.industryOverview.hero.title.industries') || 'Industries', url: getLocalizedPath('/seax/industries', lang) }
+];
+
+// Industries FAQs
+const faqs = [
+  {
+    question: "What industries benefit most from SeaX?",
+    answer: "SeaX works across all industries that need to communicate at scale. This includes e-commerce, healthcare, real estate, financial services, and political campaigns."
+  },
+  {
+    question: "How does SeaX adapt to different industry needs?",
+    answer: "SeaX provides industry-specific templates, compliance features, and custom workflows that address unique communication requirements for each sector."
+  },
+  {
+    question: "Can SeaX handle industry-specific compliance requirements?",
+    answer: "Yes, SeaX includes features for HIPAA compliance (healthcare), financial regulations, and other industry-specific requirements to ensure secure and compliant communications."
+  }
+];
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.industryOverview.hero.title.prefix')}
+        <span class="text-blue-600 block">{t('seax.industryOverview.hero.title.industries')}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.industryOverview.hero.subtitle')}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.industryOverview.hero.cta.primary')}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+        
+        <a
+          href={getLocalizedPath('/seax/features', lang)}
+          class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+        >
+          {t('seax.industryOverview.hero.cta.secondary')}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Challenges -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.industryOverview.challenges.title')}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.industryOverview.challenges.subtitle')}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {[
+          t('seax.industryOverview.challenges.challenge1') || 'Scale Communication', 
+          t('seax.industryOverview.challenges.challenge2') || 'Maintain Personalization', 
+          t('seax.industryOverview.challenges.challenge3') || 'Multi-Channel Reach', 
+          t('seax.industryOverview.challenges.challenge4') || 'Compliance Requirements', 
+          t('seax.industryOverview.challenges.challenge5') || 'Real-Time Analytics', 
+          t('seax.industryOverview.challenges.challenge6') || 'Cost Management'
+        ].map((challenge, index) => (
+          <div class="bg-gray-50 rounded-lg p-6">
+            <div class="flex items-center space-x-3 mb-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+              <h3 class="text-lg font-semibold text-gray-900">{challenge}</h3>
+            </div>
+            <p class="text-gray-600">
+              {t('seax.industryOverview.challenges.description', { challenge }) || 'How SeaX addresses this specific industry challenge with proven solutions.'}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.industryOverview.useCases.title')}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.industryOverview.useCases.subtitle')}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {[
+          t('seax.industryOverview.useCases.useCase1') || 'Lead Generation Campaigns', 
+          t('seax.industryOverview.useCases.useCase2') || 'Customer Retention Programs', 
+          t('seax.industryOverview.useCases.useCase3') || 'Emergency Notifications', 
+          t('seax.industryOverview.useCases.useCase4') || 'Appointment Reminders'
+        ].map((useCase, index) => (
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">{useCase}</h3>
+            <p class="text-gray-600 mb-6">
+              {t('seax.industryOverview.useCases.description', { useCase }) || 'Detailed description of how this use case applies to your business needs and drives results.'}
+            </p>
+            <div class="flex items-center space-x-2">
+              <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-sm text-gray-700">{t('seax.industryOverview.useCases.badge') || 'Industry-specific solution'}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Stats -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-white mb-4">
+          {t('seax.industryOverview.stats.title')}
+        </h2>
+        <p class="text-xl text-blue-100">
+          {t('seax.industryOverview.stats.subtitle')}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industryOverview.stats.roi.value') || '250%'}</div>
+          <div class="text-blue-100">{t('seax.industryOverview.stats.roi.label') || 'ROI Increase'}</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industryOverview.stats.satisfaction.value') || '90%'}</div>
+          <div class="text-blue-100">{t('seax.industryOverview.stats.satisfaction.label') || 'Customer Satisfaction'}</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-white mb-2">{t('seax.industryOverview.stats.time.value') || '60%'}</div>
+          <div class="text-blue-100">{t('seax.industryOverview.stats.time.label') || 'Time Savings'}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Industries -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          Featured Industries
+        </h2>
+        <p class="text-lg text-gray-600">
+          Discover how SeaX transforms communication for specific industries
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- E-commerce & Retail -->
+        <a href={getLocalizedPath('/seax/industries/ecommerce-retail', lang)} class="group block bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 hover:shadow-lg transition-all duration-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m0 0h9m-9 0h9"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">E-commerce & Retail</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Boost sales with automated order confirmations, abandoned cart recovery, and customer support at scale.</p>
+          <div class="text-purple-600 group-hover:text-purple-700 font-medium">Learn more →</div>
+        </a>
+
+        <!-- Healthcare -->
+        <a href={getLocalizedPath('/seax/industries/healthcare', lang)} class="group block bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 hover:shadow-lg transition-all duration-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">Healthcare</h3>
+          </div>
+          <p class="text-gray-600 mb-4">HIPAA-compliant appointment reminders, patient communications, and emergency notifications.</p>
+          <div class="text-blue-600 group-hover:text-blue-700 font-medium">Learn more →</div>
+        </a>
+
+        <!-- Real Estate -->
+        <a href={getLocalizedPath('/seax/industries/real-estate', lang)} class="group block bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 hover:shadow-lg transition-all duration-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">Real Estate</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Nurture leads, schedule showings, and keep clients informed throughout the buying process.</p>
+          <div class="text-green-600 group-hover:text-green-700 font-medium">Learn more →</div>
+        </a>
+
+        <!-- Financial Services -->
+        <a href={getLocalizedPath('/seax/industries/financial-services', lang)} class="group block bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 hover:shadow-lg transition-all duration-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">Financial Services</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Secure client communications, loan reminders, and regulatory-compliant notifications.</p>
+          <div class="text-yellow-600 group-hover:text-yellow-700 font-medium">Learn more →</div>
+        </a>
+
+        <!-- Political Campaigns -->
+        <a href={getLocalizedPath('/seax/industries/political-campaigns', lang)} class="group block bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-6 hover:shadow-lg transition-all duration-200">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-8 0h8M7 4v16a1 1 0 001 1h8a1 1 0 001 1V4M7 4H5a2 2 0 00-2 2v14a2 2 0 002 2h2"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">Political Campaigns</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Mobilize voters, share updates, and run large-scale outreach campaigns efficiently.</p>
+          <div class="text-red-600 group-hover:text-red-700 font-medium">Learn more →</div>
+        </a>
+
+        <!-- More Industries -->
+        <a href={getLocalizedPath('/industries', lang)} class="group block bg-gradient-to-br from-gray-50 to-slate-100 rounded-xl p-6 hover:shadow-lg transition-all duration-200 border-2 border-dashed border-gray-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">More Industries</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Discover solutions for automotive, education, hospitality, and many other industries.</p>
+          <div class="text-gray-600 group-hover:text-gray-700 font-medium">View all →</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.industryOverview.cta.title')}
+      </h2>
+      <p class="text-xl text-gray-300 mb-8">
+        {t('seax.industryOverview.cta.subtitle')}
+      </p>
+      
+      <a
+        href="https://seax.seasalt.ai/signup"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
+      >
+        <span>{t('seax.industryOverview.cta.button')}</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  
+</SeaxLayout>
