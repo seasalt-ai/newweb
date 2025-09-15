@@ -1,0 +1,144 @@
+---
+// 接收翻譯函數作為 props
+const { t } = Astro.props;
+---
+
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        {t('supportPlan.title')}
+      </h2>
+      <p class="text-xl text-gray-600">
+        {t('supportPlan.priceNote')}
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <!-- Trial Plan -->
+      <div class="bg-gradient-to-br from-yellow-500 to-yellow-700 rounded-2xl p-8 text-white shadow-xl lg:col-span-1 flex flex-col h-full">
+        <div class="text-center">
+          <h3 class="text-3xl font-bold mb-6 text-white">{t('supportPlan.trial.title')}</h3>
+          <div class="text-6xl font-bold mb-6 text-yellow-50">{t('supportPlan.trial.price')}</div>
+          <div class="space-y-4">
+            <div class="flex items-center justify-center space-x-3">
+              <svg class="w-6 h-6 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-lg font-medium text-white">{t('supportPlan.trial.features.diy')}</span>
+            </div>
+            <div class="flex items-center justify-center space-x-3">
+              <svg class="w-6 h-6 text-white flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-lg font-medium text-white">{t('supportPlan.trial.features.email')}</span>
+            </div>
+            <div class="text-base text-yellow-50 mt-4" set:html={t('supportPlan.trial.features.chat')}></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Launch Plan -->
+      <div class="bg-black rounded-2xl p-8 text-white shadow-xl lg:col-span-2 flex flex-col h-full">
+        <div class="text-center mb-8">
+          <h3 class="text-3xl font-bold mb-4">{t('supportPlan.launch.title')}</h3>
+          <div class="mb-4">
+            <span class="text-2xl">{t('supportPlan.launch.startsAt')} </span>
+            <span class="text-4xl font-bold text-pink-200">{t('supportPlan.launch.minPrice')}</span>
+            <span class="text-2xl"> {t('supportPlan.launch.upTo')} </span>
+            <span class="text-4xl font-bold text-pink-200">{t('supportPlan.launch.maxPrice')}</span>
+          </div>
+          <div class="text-lg mb-6">{t('supportPlan.launch.duration')}</div>
+        </div>
+
+        <div class="mb-8">
+          <p class="text-pink-100 mb-6">
+            {t('supportPlan.launch.description')}
+          </p>
+        </div>
+
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.meetings.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.meetings.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.promptTuning.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.promptTuning.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.guidance.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.guidance.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.launchSupport.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.launchSupport.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.marketStrategy.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.marketStrategy.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.successfulLaunch.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.successfulLaunch.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.postLaunch.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.postLaunch.description')}</div>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-3">
+            <svg class="w-6 h-6 text-green-300 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <div>
+              <div class="font-semibold">{t('supportPlan.launch.features.operational.title')}</div>
+              <div class="text-pink-100">{t('supportPlan.launch.features.operational.description')}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
