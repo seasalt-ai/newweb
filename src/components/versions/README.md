@@ -6,7 +6,6 @@
 
 - **自動版本檢測**: 根據 URL 路徑自動選擇合適的 Header/Footer 版本
 - **手動版本控制**: 在頁面層級手動指定使用的版本
-- **開發工具**: 內建開發環境的版本切換器，方便測試不同版本效果
 - **類型安全**: 完整的 TypeScript 支援
 - **統一管理**: 集中管理所有版本的配置和樣式
 
@@ -16,7 +15,6 @@
 src/components/versions/
 ├── config.ts              # 版本配置文件
 ├── VersionManager.astro    # 版本管理器（核心組件）
-├── VersionSwitcher.astro   # 開發工具版本切換器
 ├── headers/               # Header 組件版本
 │   ├── DefaultHeader.astro
 │   ├── SeaChatHeader.astro
@@ -87,7 +85,6 @@ import VersionManager from '../components/versions/VersionManager.astro';
 ```astro
 ---
 import VersionManager from '../components/versions/VersionManager.astro';
-import VersionSwitcher from '../components/versions/VersionSwitcher.astro';
 
 export interface Props {
   title: string;
@@ -124,9 +121,6 @@ const {
       lang={lang} 
       currentPath={Astro.url.pathname} 
     />
-    
-    <!-- 開發環境版本切換器 -->
-    <VersionSwitcher />
   </body>
 </html>
 ```
@@ -156,25 +150,6 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 ```
 
-## 🛠️ 開發工具
-
-### 版本切換器
-
-在開發環境中，頁面左下角會出現版本切換器工具：
-
-- **功能**: 即時切換不同版本的 Header 和 Footer
-- **快捷鍵**: `Ctrl + Shift + V` 切換顯示/隱藏
-- **持久化**: 選擇會存儲在 localStorage 中
-- **僅開發模式**: 只在 `import.meta.env.DEV` 為 true 時顯示
-
-### 版本指示器
-
-在開發環境中，右下角會顯示當前使用的版本：
-
-```
-header: seachat
-footer: default
-```
 
 ## 🎨 自訂版本
 
@@ -297,14 +272,6 @@ const navigation = [
 1. 檢查對應語言的翻譯文件是否包含所需的翻譯鍵
 2. 確認翻譯鍵的命名空間是否正確（如 `seachat.header.features`）
 
-### 4. 開發工具不顯示
-
-**問題**: 版本切換器在開發環境中不顯示
-
-**解決方案**:
-1. 確認運行在開發模式 (`npm run dev`)
-2. 檢查 `import.meta.env.DEV` 是否為 true
-3. 查看瀏覽器控制台是否有 JavaScript 錯誤
 
 ## 📝 更新日誌
 
@@ -332,5 +299,4 @@ const navigation = [
 **快速參考**:
 - 配置文件: `src/components/versions/config.ts`
 - 核心組件: `src/components/versions/VersionManager.astro`
-- 開發工具: `src/components/versions/VersionSwitcher.astro`
 - 版本組件: `src/components/versions/{headers|footers}/`

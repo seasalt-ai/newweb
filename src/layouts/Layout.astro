@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import VersionManager from '../components/versions/VersionManager.astro';
-import VersionSwitcher from '../components/versions/VersionSwitcher.astro';
 import SEO from '../components/SEO.astro';
 
 export interface Props {
@@ -77,8 +76,6 @@ const {
 			<slot />
 		</main>
 		<VersionManager type="footer" version={footerVersion} lang={lang} currentPath={Astro.url.pathname} />
-		<!-- Development Version Switcher (only shows in dev mode) -->
-		<VersionSwitcher />
 	</body>
 </html>
 
