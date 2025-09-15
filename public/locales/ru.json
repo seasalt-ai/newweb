@@ -1094,5 +1094,23 @@
         "title": "Решения"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Доступ к GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Калькулятор Плана и Использования Модели",
+        "voiceOnly": "Только голосовая модель",
+        "voicePricing": "Цены на голос",
+        "standardVoice": "Стандартный голос",
+        "premiumVoice": "Премиум голос"
+      }
+    }
   }
 }

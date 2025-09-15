@@ -1503,5 +1503,23 @@
         "button": "ابدأ الإعداد"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "الوصول إلى GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "حاسبة خطة واستخدام النموذج",
+        "voiceOnly": "نموذج صوتي فقط",
+        "voicePricing": "أسعار الصوت",
+        "standardVoice": "صوت عادي",
+        "premiumVoice": "صوت متميز"
+      }
+    }
   }
 }

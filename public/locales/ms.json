@@ -1116,5 +1116,23 @@
         "title": "Penyelesaian"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Akses kepada GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Kalkulator Pelan & Penggunaan Model",
+        "voiceOnly": "Model suara sahaja",
+        "voicePricing": "Harga suara",
+        "standardVoice": "Suara Standard",
+        "premiumVoice": "Suara Premium"
+      }
+    }
   }
 }

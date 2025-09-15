@@ -1181,5 +1181,23 @@
         "title": "Mga Solusyon"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Access sa GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculator ng Plan & Paggamit ng Model",
+        "voiceOnly": "Voice lang na modelo",
+        "voicePricing": "Presyo ng boses",
+        "standardVoice": "Standard na Boses",
+        "premiumVoice": "Premium na Boses"
+      }
+    }
   }
 }

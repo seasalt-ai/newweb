@@ -1463,5 +1463,23 @@
         "button": "Einrichtung starten"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Zugang zu GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Plan & Modellnutzung-Rechner",
+        "voiceOnly": "Nur Sprachmodell",
+        "voicePricing": "Sprachpreise",
+        "standardVoice": "Standard-Stimme",
+        "premiumVoice": "Premium-Stimme"
+      }
+    }
   }
 }

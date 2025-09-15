@@ -2229,6 +2229,7 @@
             "customBuild": "Custom build",
             "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
             "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "gpt4oRealtimeAPI": "Access to GPT-4o Realtime API",
             "customAPI": "Custom API integration",
             "fineTuning": "Fine-tuning with your guidelines and technical support"
           },
@@ -2243,7 +2244,7 @@
         "save": "Save 2 months vs monthly billing"
       },
       "calculator": {
-        "title": "Premium Plan Usage Calculator",
+        "title": "Plan & Model Usage Calculator",
         "description": "Estimate your costs based on your usage patterns",
         "modelSelect": "Select AI Model",
         "priceBreakdown": "Cost Breakdown",
@@ -2276,6 +2277,10 @@
         "planIncludesWorkspaces": "2 Workspaces",
         "perChatResponse": "per chat response",
         "perVoiceMinute": "per voice minute",
+        "voiceOnly": "Voice only model",
+        "voicePricing": "Voice pricing",
+        "standardVoice": "Standard Voice",
+        "premiumVoice": "Premium Voice",
         "placeholderText": "Placeholder"
       },
       "note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",

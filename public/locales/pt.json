@@ -1094,5 +1094,23 @@
         "title": "Soluções"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Acesso ao GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculadora de Plano e Uso do Modelo",
+        "voiceOnly": "Modelo somente de voz",
+        "voicePricing": "Preços de voz",
+        "standardVoice": "Voz Padrão",
+        "premiumVoice": "Voz Premium"
+      }
+    }
   }
 }

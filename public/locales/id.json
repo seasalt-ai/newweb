@@ -1116,5 +1116,23 @@
         "title": "Solusi"
       }
     }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Akses ke GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Kalkulator Paket & Penggunaan Model",
+        "voiceOnly": "Model khusus suara",
+        "voicePricing": "Harga suara",
+        "standardVoice": "Suara Standar",
+        "premiumVoice": "Suara Premium"
+      }
+    }
   }
 }
