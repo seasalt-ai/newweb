@@ -1,0 +1,478 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO Configuration
+const seoData = {
+  title: t('seax.channels.smsTollFree.seo.title') || 'SMS Toll-Free Numbers | Professional Business Messaging | SeaX',
+  description: t('seax.channels.smsTollFree.seo.description') || 'Enhance customer trust with SMS toll-free numbers. Professional business messaging with higher response rates and improved brand recognition.',
+  keywords: 'SMS toll-free, business messaging, professional SMS, toll-free numbers, customer trust, brand recognition',
+  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/channels/sms-toll-free', lang),
+  ogImage: '/seax-sms-toll-free.png'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: getLocalizedPath('/', lang) },
+  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
+  { name: 'Channels', url: getLocalizedPath('/seax/channels', lang) },
+  { name: 'SMS Toll-Free', url: getLocalizedPath('/seax/channels/sms-toll-free', lang) }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: "What are SMS toll-free numbers and how do they work?",
+    answer: "SMS toll-free numbers are 1-800 numbers that customers can receive text messages from without charge. They provide a professional appearance and build customer trust while improving response rates compared to regular phone numbers."
+  },
+  {
+    question: "What are the benefits of using toll-free SMS?",
+    answer: "Toll-free SMS offers 2.3x higher trust rates, 78% better response rates, enhanced professional brand image, and no cost to recipients. It's ideal for customer service, appointment reminders, and professional communications."
+  },
+  {
+    question: "How much does toll-free SMS cost?",
+    answer: "Our toll-free SMS pricing includes a $99 setup fee, $29 monthly fee, and $0.04 per message. Pricing is for USA and Canada with no additional carrier fees or hidden costs."
+  }
+];
+
+// Features and Use Cases, from objects convert to arrays
+const featuresObj = {
+  'recognizableNumbers': t('seax.channels.smsTollFree.features.items.recognizableNumbers') || 'Instantly recognizable 1-800 numbers',
+  'noCharges': t('seax.channels.smsTollFree.features.items.noCharges') || 'No charges to recipients - free for customers',
+  'professionalImage': t('seax.channels.smsTollFree.features.items.professionalImage') || 'Enhanced professional brand image',
+  'higherTrust': t('seax.channels.smsTollFree.features.items.higherTrust') || '2.3x higher trust compared to regular numbers',
+  'improvedResponse': t('seax.channels.smsTollFree.features.items.improvedResponse') || '78% higher response rates',
+  'brandRecognition': t('seax.channels.smsTollFree.features.items.brandRecognition') || 'Improved brand recognition and recall'
+};
+const features = Object.values(featuresObj || {});
+
+const useCasesObj = {
+  'customerService': t('seax.channels.smsTollFree.useCases.items.customerService') || 'Customer service and support communications',
+  'appointmentReminders': t('seax.channels.smsTollFree.useCases.items.appointmentReminders') || 'Appointment reminders and confirmations',
+  'surveys': t('seax.channels.smsTollFree.useCases.items.surveys') || 'Customer satisfaction surveys',
+  'notifications': t('seax.channels.smsTollFree.useCases.items.notifications') || 'Important account notifications',
+  'promotions': t('seax.channels.smsTollFree.useCases.items.promotions') || 'Professional promotional campaigns',
+  'alerts': t('seax.channels.smsTollFree.useCases.items.alerts') || 'Service alerts and updates'
+};
+const useCases = Object.values(useCasesObj || {});
+
+// Features / UseCases titles
+const featuresTitle = t('seax.channels.smsTollFree.features.title') || 'Toll-Free Advantages';
+const featuresSubtitle = t('seax.channels.smsTollFree.features.subtitle') || 'Professional messaging that builds trust and drives engagement';
+const useCasesTitle = t('seax.channels.smsTollFree.useCases.title') || 'Perfect Use Cases';
+const useCasesSubtitle = t('seax.channels.smsTollFree.useCases.subtitle') || 'Ideal for businesses that prioritize trust and professionalism';
+
+// Pricing raw object
+const pricingRaw = {
+  title: t('seax.channels.smsTollFree.pricing.title') || 'Professional Pricing',
+  subtitle: t('seax.channels.smsTollFree.pricing.subtitle') || 'Transparent pricing for toll-free SMS messaging',
+  setup: {
+    label: t('seax.channels.smsTollFree.pricing.setup.label') || 'Setup Fee',
+    value: t('seax.channels.smsTollFree.pricing.setup.value') || '$99'
+  },
+  monthly: {
+    label: t('seax.channels.smsTollFree.pricing.monthly.label') || 'Monthly Fee',
+    value: t('seax.channels.smsTollFree.pricing.monthly.value') || '$29'
+  },
+  perMessage: {
+    label: t('seax.channels.smsTollFree.pricing.perMessage.label') || 'Per Message',
+    value: t('seax.channels.smsTollFree.pricing.perMessage.value') || '$0.04'
+  },
+  note: {
+    value: t('seax.channels.smsTollFree.pricing.note') || 'Price is for USA and Canada. No additional carrier fees or hidden costs'
+  }
+};
+
+// Extract pricing values
+const pricing = {
+  setup: pricingRaw.setup?.value || '',
+  monthly: pricingRaw.monthly?.value || '',
+  perMessage: pricingRaw.perMessage?.value,
+  note: pricingRaw.note?.value,
+};
+
+const pricingLabels = {
+  setup: pricingRaw.setup?.label || 'Setup',
+  monthly: pricingRaw.monthly?.label || 'Monthly',
+  perMessage: pricingRaw.perMessage?.label || 'Per Message',
+};
+
+// Stats
+const stats = [
+  {
+    value: t('seax.channels.smsTollFree.stats.deliveryRateValue') || '94%',
+    label: t('seax.channels.smsTollFree.stats.deliveryRate') || 'Delivery Rate',
+    icon: 'phone'
+  },
+  {
+    value: t('seax.channels.smsTollFree.stats.higherTrustValue') || '2.3x',
+    label: t('seax.channels.smsTollFree.stats.higherTrust') || 'Higher Trust',
+    icon: 'shield'
+  },
+  {
+    value: t('seax.channels.smsTollFree.stats.responseRateValue') || '78%',
+    label: t('seax.channels.smsTollFree.stats.responseRate') || 'Response Rate',
+    icon: 'trending-up'
+  }
+];
+
+// Testimonial
+const testimonial = {
+  quote: t('seax.channels.smsTollFree.testimonial.quote') || 'The toll-free SMS feature has significantly improved our customer response rates. Customers trust messages from our 1-800 number much more than regular numbers.',
+  author: t('seax.channels.smsTollFree.testimonial.author') || 'Sarah Chen',
+  company: t('seax.channels.smsTollFree.testimonial.company') || 'HealthCare Plus',
+  results: t('seax.channels.smsTollFree.testimonial.results') || '78% higher response rates and 94% customer satisfaction'
+};
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+
+// Helper function to get demo URL
+const getDemoUrl = () => {
+  return `https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`;
+};
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section with Dashboard Widget -->
+  <div class="bg-gradient-to-br from-blue-50 to-purple-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3">
+              <div class="bg-blue-100 p-3 rounded-lg">
+                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </div>
+              <span class="text-sm font-medium text-blue-600 bg-blue-100 px-3 py-1 rounded-full">
+                {t('seax.channels.smsTollFree.subtitle') || 'Trusted Business SMS'}
+              </span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">
+              {t('seax.channels.smsTollFree.title') || 'SMS Toll-Free'}
+            </h1>
+            <p class="text-xl text-gray-600">
+              {t('seax.channels.smsTollFree.description') || 'Build trust and improve engagement with toll-free SMS numbers. Professional communication that customers recognize and respond to.'}
+            </p>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-4">
+            {stats.map((stat, index) => (
+              <div key={index} class="text-center">
+                <div class="text-2xl font-bold text-blue-600">{stat.value}</div>
+                <div class="text-sm text-gray-600">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+            >
+              <span>{t('seax.channelTemplate.hero.getStarted') || 'Get Started'}</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Toll-Free SMS Dashboard Widget -->
+        <div class="relative">
+          <div class="bg-white rounded-2xl shadow-2xl p-8">
+            <div class="space-y-6">
+              <!-- Title + Status -->
+              <div class="flex items-center justify-between">
+                <div class="text-lg font-semibold text-gray-900">
+                  {t('seax.channels.smsTollFree.hero.title') || 'Toll-Free SMS Dashboard'}
+                </div>
+                <div class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                  {t('seax.channels.smsTollFree.hero.status') || 'Active'}
+                </div>
+              </div>
+
+              <!-- Dedicated Number -->
+              <div class="text-center">
+                <div class="text-4xl font-bold text-blue-600 mb-2">
+                  {t('seax.channels.smsTollFree.hero.phoneNumber') || '+1-800-AI-AGENT'}
+                </div>
+                <div class="text-sm text-gray-600">
+                  {t('seax.channels.smsTollFree.hero.dedicatedNumber') || 'Your Dedicated Toll-Free Number'}
+                </div>
+              </div>
+
+              <!-- Stats: Delivery Rate & Higher Trust -->
+              <div class="grid grid-cols-2 gap-4">
+                <div class="bg-green-50 rounded-lg p-4">
+                  <div class="text-2xl font-bold text-green-600 mb-1">
+                    {t('seax.channels.smsTollFree.hero.deliveryRateValue') || '94.7%'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seax.channels.smsTollFree.hero.deliveryRate') || 'Delivery Rate'}
+                  </div>
+                </div>
+                <div class="bg-purple-50 rounded-lg p-4">
+                  <div class="text-2xl font-bold text-purple-600 mb-1">
+                    {t('seax.channels.smsTollFree.hero.higherTrustValue') || '2.3x'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seax.channels.smsTollFree.hero.higherTrust') || 'Higher Trust Rate'}
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recent Messages -->
+              <div class="space-y-3">
+                <div class="text-sm font-medium text-gray-700">
+                  {t('seax.channels.smsTollFree.hero.recentMessages.title') || 'Recent Messages'}
+                </div>
+                <div class="space-y-2">
+                  <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <div class="flex-1 text-sm">
+                      <div class="font-medium">
+                        {t('seax.channels.smsTollFree.hero.recentMessages.customerSupport.title') || 'Customer Support Response'}
+                      </div>
+                      <div class="text-gray-500">
+                        {t('seax.channels.smsTollFree.hero.recentMessages.customerSupport.details') || 'Auto-response sent from 1-800-SUPPORT'}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                    <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <div class="flex-1 text-sm">
+                      <div class="font-medium">
+                        {t('seax.channels.smsTollFree.hero.recentMessages.survey.title') || 'Customer Satisfaction Survey'}
+                      </div>
+                      <div class="text-gray-500">
+                        {t('seax.channels.smsTollFree.hero.recentMessages.survey.details') || 'Survey invitation sent with 78% response rate'}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {featuresTitle}
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          {featuresSubtitle}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div key={index} class="text-center">
+            <div class="bg-blue-100 p-3 rounded-lg w-fit mx-auto mb-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+            <p class="text-gray-700">{feature}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {useCasesTitle}
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          {useCasesSubtitle}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {useCases.map((useCase, index) => (
+          <div key={index} class="bg-white rounded-lg p-6 shadow-sm">
+            <div class="bg-green-100 p-3 rounded-lg w-fit mb-4">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <p class="text-gray-700">{useCase}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Trust & Engagement Section -->
+  <div class="py-20 bg-green-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.channels.smsTollFree.trust.title') || 'Why Toll-Free SMS Works'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.channels.smsTollFree.trust.description') || 'Build trust and drive engagement with professional toll-free messaging'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="bg-green-100 p-3 rounded-lg w-fit mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seax.channels.smsTollFree.trust.professionalImage.title') || 'Professional Brand Image'}
+          </h3>
+          <p class="text-gray-600">
+            {t('seax.channels.smsTollFree.trust.professionalImage.description') || 'Toll-free numbers instantly convey professionalism and legitimacy, making customers more likely to engage with your messages.'}
+          </p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="bg-blue-100 p-3 rounded-lg w-fit mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seax.channels.smsTollFree.trust.noCarrierFees.title') || 'No Cost to Customers'}
+          </h3>
+          <p class="text-gray-600">
+            {t('seax.channels.smsTollFree.trust.noCarrierFees.description') || 'Customers don\'t pay to receive messages, removing a barrier to engagement and improving response rates.'}
+          </p>
+        </div>
+        
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="bg-purple-100 p-3 rounded-lg w-fit mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seax.channels.smsTollFree.trust.higherResponse.title') || 'Higher Response Rates'}
+          </h3>
+          <p class="text-gray-600">
+            {t('seax.channels.smsTollFree.trust.higherResponse.description') || 'Studies show 2.3x higher trust and 78% better response rates compared to regular phone numbers.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {pricingRaw.title}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {pricingRaw.subtitle}
+        </p>
+      </div>
+      
+      <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          <div class="text-center">
+            <div class="text-sm font-medium text-gray-600 mb-2">{pricingLabels.setup}</div>
+            <div class="text-3xl font-bold text-gray-900">{pricing.setup}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-sm font-medium text-gray-600 mb-2">{pricingLabels.monthly}</div>
+            <div class="text-3xl font-bold text-gray-900">{pricing.monthly}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-sm font-medium text-gray-600 mb-2">{pricingLabels.perMessage}</div>
+            <div class="text-3xl font-bold text-gray-900">{pricing.perMessage}</div>
+          </div>
+        </div>
+        {pricing.note && (
+          <div class="text-center text-sm text-gray-600">
+            {pricing.note}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+        <div class="mb-6">
+          <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-10zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+          </svg>
+          <blockquote class="text-lg text-gray-700 mb-6">
+            "{testimonial.quote}"
+          </blockquote>
+        </div>
+        <div class="border-t pt-6">
+          <div class="font-semibold text-gray-900">{testimonial.author}</div>
+          <div class="text-blue-600">{testimonial.company}</div>
+          <div class="text-sm text-gray-600 mt-2">{testimonial.results}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.channelTemplate.cta.title') || 'Ready to Scale Your Outreach?'}
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {t('seax.channelTemplate.cta.subtitle') || 'Join thousands of businesses reaching millions with SeaX'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          {t('seax.channelTemplate.cta.getStarted') || 'Get Started Today'}
+        </a>
+        <a
+          href={getDemoUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+        >
+          {t('seax.channelTemplate.cta.viewPricing') || 'View Pricing'}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>
