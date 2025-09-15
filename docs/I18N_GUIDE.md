@@ -807,6 +807,49 @@ const isValidLanguage = (lang: string): lang is SupportedLanguage => {
 };
 ```
 
+## 🛠️ 翻譯編譯器警告處理
+
+### 常見編譯警告
+
+在建置過程中，你可能會看到類似以下的警告訊息：
+
+```
+Missing translation key: "seax.pricing.omniCalculator.title" in locale "es"
+```
+
+### 警告原因
+1. **新頁面翻譯缺失**: 新增的產品頁面可能還沒有完成所有語言的翻譯
+2. **新組件翻譯鍵**: React 組件中使用了一些未翻譯的鍵
+3. **部分語言更新延遲**: 某些語言的翻譯檔案需要補充
+
+### 處理步驟
+
+1. **識別缺失翻譯**:
+   ```bash
+   # 在建置過程中收集警告訊息
+   npm run build 2>&1 | grep "Missing translation key" > missing_translations.txt
+   ```
+
+2. **檢查翻譯檔案**:
+   ```bash
+   # 檢查特定語言的翻譯檔案大小
+   ls -la src/i18n/locales/ | grep -E "\.(es|zh-cn|ja)\.json"
+   ```
+
+3. **補充缺失的翻譯**:
+   - 在英語檔案 `en.json` 中找到對應的翻譯鍵
+   - 將翻譯鍵和內容複製到目標語言檔案
+   - 按需要翻譯成目標語言
+
+### 最佳實踐
+
+- **編譯時忽略警告**: 這些警告不會影響網站正常運作
+- **優先處理核心功能**: 先確保主要頁面的翻譯完整
+- **漸進式補充**: 可以逐步補充各語言的翻譯，不用一次性完成
+- **使用預設值**: 組件中始終使用 fallback 值保障顯示
+
+---
+
 ## 🔄 遷移指南
 
 如果你有使用舊的 react-i18next 系統的組件：

@@ -1,0 +1,296 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+// 生成所有語言的靜態路徑
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 獲取動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯 - 使用通用翻譯加上具體的營銷自動化內容
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// Breadcrumb navigation
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutions.marketingAutomation.seo.title') || "Marketing Automation Solutions - SeaX Mass Communication Platform",
+    description: t('seax.solutions.marketingAutomation.seo.description') || "Automate your marketing campaigns with intelligent targeting and personalized messaging across SMS, WhatsApp, and voice channels.",
+    keywords: t('seax.keywords') || "marketing automation, campaign automation, SMS marketing, WhatsApp marketing, multi-channel marketing",
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions/marketing-automation`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-purple-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutions.marketingAutomation.hero.title.main') || 'Marketing Automation'}
+        <span class="text-purple-600 block">{t('seax.solutions.marketingAutomation.hero.title.highlight') || 'That Actually Works'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutions.marketingAutomation.hero.description') || 'Transform your marketing strategy with intelligent automation that reaches millions of customers across SMS, WhatsApp, and voice channels.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutions.marketingAutomation.hero.cta.primary') || 'Start Automating'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+        
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-purple-50 transition-colors"
+        >
+          {t('seax.solutions.marketingAutomation.hero.cta.secondary') || 'View Pricing'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.marketingAutomation.features.title') || 'Powerful Marketing Automation Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.marketingAutomation.features.subtitle') || 'Everything you need to create, execute, and optimize successful marketing campaigns'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Intelligent Campaign Creation -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[0].title') || 'Intelligent Campaign Creation'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[0].description') || 'Build sophisticated marketing campaigns with AI-powered recommendations and automatic optimization for maximum engagement.'}
+          </p>
+        </div>
+
+        <!-- Multi-Channel Automation -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[1].title') || 'Scheduled Campaigns'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[1].description') || 'Schedule campaigns across time zones with precision timing to reach customers when they\'re most likely to engage.'}
+          </p>
+        </div>
+
+        <!-- Advanced Segmentation -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[2].title') || 'Advanced Segmentation'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[2].description') || 'Target specific customer segments based on behavior, demographics, purchase history, and engagement patterns.'}
+          </p>
+        </div>
+
+        <!-- Real-Time Analytics -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 00-2 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[3].title') || 'Real-Time Analytics'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[3].description') || 'Monitor campaign performance in real-time with detailed metrics on delivery, engagement, and conversion rates.'}
+          </p>
+        </div>
+
+        <!-- Dynamic Content -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[4].title') || 'Dynamic Content'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[4].description') || 'Personalize messages with dynamic content that adapts based on customer data and behavior patterns.'}
+          </p>
+        </div>
+
+        <!-- Automated Workflows -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.marketingAutomation.features.items[5].title') || 'Automated Workflows'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.marketingAutomation.features.items[5].description') || 'Create complex marketing workflows with triggers, conditions, and actions that run automatically without manual intervention.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Automation Types Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.marketingAutomation.automationTypes.title') || 'Marketing Automation Types'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.marketingAutomation.automationTypes.subtitle') || 'Choose from pre-built automation workflows designed for different marketing scenarios'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Welcome Series -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.marketingAutomation.automationTypes.items[0].title') || 'Welcome Series Automation'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.marketingAutomation.automationTypes.items[0].description') || 'Engage new customers with a personalized welcome sequence that introduces your brand and drives initial purchases.'}</p>
+          <div class="bg-purple-50 rounded-lg p-4">
+            <div class="text-sm font-medium text-purple-800 mb-2">{t('seax.solutions.marketingAutomation.automationTypes.exampleFlowLabel') || 'Example Flow:'}</div>
+            <div class="text-sm text-purple-700">{t('seax.solutions.marketingAutomation.automationTypes.items[0].example') || 'New sign-up → Welcome SMS → Product introduction → Special offer → Follow-up WhatsApp'}</div>
+          </div>
+        </div>
+
+        <!-- Abandoned Cart Recovery -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.marketingAutomation.automationTypes.items[1].title') || 'Abandoned Cart Recovery'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.marketingAutomation.automationTypes.items[1].description') || 'Recover lost sales by automatically following up with customers who abandon their shopping carts.'}</p>
+          <div class="bg-purple-50 rounded-lg p-4">
+            <div class="text-sm font-medium text-purple-800 mb-2">{t('seax.solutions.marketingAutomation.automationTypes.exampleFlowLabel') || 'Example Flow:'}</div>
+            <div class="text-sm text-purple-700">{t('seax.solutions.marketingAutomation.automationTypes.items[1].example') || 'Cart abandonment → 1hr reminder SMS → 24hr follow-up → Discount offer → Voice call'}</div>
+          </div>
+        </div>
+
+        <!-- Re-engagement Campaign -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.marketingAutomation.automationTypes.items[2].title') || 'Customer Re-engagement'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.marketingAutomation.automationTypes.items[2].description') || 'Win back inactive customers with targeted campaigns that reignite their interest in your products.'}</p>
+          <div class="bg-purple-50 rounded-lg p-4">
+            <div class="text-sm font-medium text-purple-800 mb-2">{t('seax.solutions.marketingAutomation.automationTypes.exampleFlowLabel') || 'Example Flow:'}</div>
+            <div class="text-sm text-purple-700">{t('seax.solutions.marketingAutomation.automationTypes.items[2].example') || '30 days inactive → "We miss you" SMS → Exclusive offer → WhatsApp follow-up'}</div>
+          </div>
+        </div>
+
+        <!-- Birthday & Anniversary -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.marketingAutomation.automationTypes.items[3].title') || 'Birthday & Anniversary'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.marketingAutomation.automationTypes.items[3].description') || 'Celebrate special occasions with personalized messages and exclusive offers that strengthen customer relationships.'}</p>
+          <div class="bg-purple-50 rounded-lg p-4">
+            <div class="text-sm font-medium text-purple-800 mb-2">{t('seax.solutions.marketingAutomation.automationTypes.exampleFlowLabel') || 'Example Flow:'}</div>
+            <div class="text-sm text-purple-700">{t('seax.solutions.marketingAutomation.automationTypes.items[3].example') || 'Birthday → Personalized SMS → Special discount → WhatsApp celebration message'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.marketingAutomation.stats.title') || 'Marketing Automation Results'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.marketingAutomation.stats.subtitle') || 'See the impact of automated marketing campaigns on business growth'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-purple-600 mb-2">{t('seax.solutions.marketingAutomation.stats.items[0].value') || '400%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.marketingAutomation.stats.items[0].label') || 'Increase in Engagement'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.marketingAutomation.stats.items[1].value') || '75%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.marketingAutomation.stats.items[1].label') || 'Time Savings'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.marketingAutomation.stats.items[2].value') || '250%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.marketingAutomation.stats.items[2].label') || 'ROI Improvement'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-orange-600 mb-2">{t('seax.solutions.marketingAutomation.stats.items[3].value') || '90%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.marketingAutomation.stats.items[3].label') || 'Customer Satisfaction'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-purple-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutions.marketingAutomation.cta.title') || 'Ready to Automate Your Marketing?'}
+      </h2>
+      <p class="text-xl text-purple-100 mb-8">
+        {t('seax.solutions.marketingAutomation.cta.description') || 'Join thousands of businesses already scaling their marketing with SeaX automation'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+        >
+          <span>{t('seax.solutions.marketingAutomation.cta.primary') || 'Get Started'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors"
+        >
+          {t('seax.solutions.marketingAutomation.cta.secondary') || 'View Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>

@@ -1,0 +1,279 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutions.leadGeneration.seo.title') || "Lead Generation Solutions - SeaX Mass Communication Platform",
+    description: t('seax.solutions.leadGeneration.seo.description') || "Generate and qualify high-quality leads with intelligent outreach campaigns across SMS, WhatsApp, and voice channels.",
+    keywords: t('seax.keywords') || "lead generation, lead qualification, sales automation, CRM integration, lead scoring",
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions/lead-generation`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-green-50 to-blue-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutions.leadGeneration.hero.title') || 'Lead Generation'}
+        <span class="text-blue-600 block">{t('seax.solutions.leadGeneration.hero.titleHighlight') || 'That Converts'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutions.leadGeneration.hero.description') || 'Transform your sales pipeline with intelligent lead generation campaigns that identify, qualify, and nurture prospects at scale.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutions.leadGeneration.hero.cta.primary') || 'Start Generating Leads'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+        
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors"
+        >
+          {t('seax.solutions.leadGeneration.hero.cta.secondary') || 'View Pricing'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.leadGeneration.features.title') || 'Powerful Lead Generation Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.leadGeneration.features.subtitle') || 'Everything you need to capture, qualify, and convert high-quality leads'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Intelligent Lead Scoring -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 00-2 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.targetedOutreach.title') || 'Targeted Outreach'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.targetedOutreach.description') || 'Reach the right prospects with precision targeting based on demographics, behavior, and engagement patterns.'}
+          </p>
+        </div>
+
+        <!-- Multi-Touch Campaigns -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.multiChannelCampaigns.title') || 'Multi-Channel Campaigns'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.multiChannelCampaigns.description') || 'Launch coordinated campaigns across SMS, WhatsApp, and voice channels for maximum reach and engagement.'}
+          </p>
+        </div>
+
+        <!-- Real-Time Qualification -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.aiFollowUps.title') || 'AI Follow-ups'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.aiFollowUps.description') || 'Intelligent follow-up sequences powered by AI that adapt based on lead responses and engagement levels.'}
+          </p>
+        </div>
+
+        <!-- CRM Integration -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.realTimeAnalytics.title') || 'Real-Time Analytics'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.realTimeAnalytics.description') || 'Track campaign performance, lead quality, and conversion rates with comprehensive real-time analytics.'}
+          </p>
+        </div>
+
+        <!-- Advanced Analytics -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.leadScoring.title') || 'Lead Scoring'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.leadScoring.description') || 'Automatically score and prioritize leads based on engagement, demographics, and behavioral indicators.'}
+          </p>
+        </div>
+
+        <!-- A/B Testing -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a4 4 0 00-4-4V5z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.leadGeneration.features.voiceQualification.title') || 'Voice Qualification'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.leadGeneration.features.voiceQualification.description') || 'Qualify leads instantly with intelligent voice conversations that gather key information and assess interest.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.leadGeneration.useCases.title') || 'Lead Generation Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.leadGeneration.useCases.subtitle') || 'See how different industries use SeaX for lead generation'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.leadGeneration.useCases.b2bSales.title') || 'B2B Sales'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.leadGeneration.useCases.b2bSales.description') || 'Generate qualified B2B leads through targeted outreach and intelligent follow-up campaigns.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.leadGeneration.useCases.b2bSales.stats') || '40% increase in qualified leads'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.leadGeneration.useCases.realEstate.title') || 'Real Estate'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.leadGeneration.useCases.realEstate.description') || 'Connect with property buyers and sellers through personalized messaging campaigns.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.leadGeneration.useCases.realEstate.stats') || '25% faster lead response time'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.leadGeneration.useCases.insurance.title') || 'Insurance'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.leadGeneration.useCases.insurance.description') || 'Generate insurance leads through targeted campaigns and automated qualification processes.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.leadGeneration.useCases.insurance.stats') || '60% reduction in cost per lead'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.leadGeneration.useCases.eventRegistration.title') || 'Event Registration'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.leadGeneration.useCases.eventRegistration.description') || 'Drive event registrations and generate attendee leads through multi-channel campaigns.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.leadGeneration.useCases.eventRegistration.stats') || '3x higher registration rates'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.leadGeneration.stats.title') || 'Lead Generation Results'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.leadGeneration.stats.subtitle') || 'See the impact of our lead generation solutions'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.leadGeneration.stats.qualifiedLeads.value') || '350%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.leadGeneration.stats.qualifiedLeads.label') || 'More Qualified Leads'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.leadGeneration.stats.responseRate.value') || '65%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.leadGeneration.stats.responseRate.label') || 'Response Rate'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-purple-600 mb-2">{t('seax.solutions.leadGeneration.stats.timeSavings.value') || '80%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.leadGeneration.stats.timeSavings.label') || 'Time Savings'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-orange-600 mb-2">{t('seax.solutions.leadGeneration.stats.roiIncrease.value') || '45%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.leadGeneration.stats.roiIncrease.label') || 'ROI Increase'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutions.leadGeneration.cta.title') || 'Ready to Generate More Qualified Leads?'}
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {t('seax.solutions.leadGeneration.cta.subtitle') || 'Start your lead generation campaign today and see results within 24 hours'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+        >
+          <span>{t('seax.solutions.leadGeneration.cta.primary') || 'Get Started'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+        >
+          {t('seax.solutions.leadGeneration.cta.secondary') || 'View Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>

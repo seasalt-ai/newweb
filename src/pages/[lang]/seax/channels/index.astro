@@ -54,6 +54,29 @@ const channels = [
     stats: [
       { value: '98%', label: t('seax.channels.sms.stat1') || 'Open Rate' },
       { value: '6 sec', label: t('seax.channels.sms.stat2') || 'Avg. Response Time' }
+    ],
+    subChannels: [
+      {
+        name: t('seax.channels.smsLocal.name') || 'Local Numbers (10DLC)',
+        description: t('seax.channels.smsLocal.shortDescription') || 'Trusted area codes for compliant business messaging',
+        href: getLocalizedPath('/seax/channels/sms-local', lang),
+        icon: 'location',
+        color: 'blue'
+      },
+      {
+        name: t('seax.channels.smsTollFree.name') || 'Toll-Free Numbers',
+        description: t('seax.channels.smsTollFree.shortDescription') || 'Premium brand recognition, free for customers',
+        href: getLocalizedPath('/seax/channels/sms-toll-free', lang),
+        icon: 'gift',
+        color: 'green'
+      },
+      {
+        name: t('seax.channels.smsShortCode.name') || 'Short Codes',
+        description: t('seax.channels.smsShortCode.shortDescription') || 'Enterprise-grade, ultra-high volume messaging',
+        href: getLocalizedPath('/seax/channels/sms-short-code', lang),
+        icon: 'lightning',
+        color: 'purple'
+      }
     ]
   },
   {
@@ -286,15 +309,63 @@ const getColorClasses = (color) => {
                 ))}
               </div>
               
-              <a
-                href={channel.href}
-                class={`${colors.button} text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2 group`}
-              >
-                <span>Learn More</span>
-                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                </svg>
-              </a>
+              <div class="space-y-4">
+                <a
+                  href={channel.href}
+                  class={`${colors.button} text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2 group`}
+                >
+                  <span>Learn More</span>
+                  <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                  </svg>
+                </a>
+                
+                {channel.subChannels && (
+                  <div class="border-t pt-4">
+                    <h4 class="text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wide">SMS Types:</h4>
+                    <div class="space-y-2">
+                      {channel.subChannels.map((subChannel, subIndex) => {
+                        const subColors = getColorClasses(subChannel.color);
+                        return (
+                          <a
+                            key={subIndex}
+                            href={subChannel.href}
+                            class="flex items-center space-x-3 p-3 rounded-lg bg-white/50 hover:bg-white/80 transition-colors group/sub"
+                          >
+                            <div class={`${subColors.icon} p-2 rounded-md flex-shrink-0`}>
+                              {subChannel.icon === 'location' && (
+                                <svg class={`w-4 h-4 ${subColors.iconColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                              )}
+                              {subChannel.icon === 'gift' && (
+                                <svg class={`w-4 h-4 ${subColors.iconColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/>
+                                </svg>
+                              )}
+                              {subChannel.icon === 'lightning' && (
+                                <svg class={`w-4 h-4 ${subColors.iconColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                              )}
+                            </div>
+                            <div class="flex-1 min-w-0">
+                              <h5 class={`text-sm font-semibold text-gray-900 group-hover/sub:${subColors.iconColor.replace('text-', 'text-')} transition-colors`}>
+                                {subChannel.name}
+                              </h5>
+                              <p class="text-xs text-gray-600 mt-1">{subChannel.description}</p>
+                            </div>
+                            <svg class="w-4 h-4 text-gray-400 group-hover/sub:text-gray-600 group-hover/sub:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                          </a>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           );
         })}

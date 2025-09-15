@@ -1,0 +1,279 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutions.appointmentReminders.seo.title') || "Appointment Reminder Solutions - SeaX Mass Communication Platform",
+    description: t('seax.solutions.appointmentReminders.seo.description') || "Reduce no-shows and improve customer satisfaction with automated appointment reminders across SMS, WhatsApp, and voice channels.",
+    keywords: t('seax.keywords') || "appointment reminders, SMS reminders, WhatsApp reminders, voice reminders, reduce no-shows, mass communication",
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions/appointment-reminders`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutions.appointmentReminders.hero.title.main') || 'Appointment Reminders'}
+        <span class="text-blue-600 block">{t('seax.solutions.appointmentReminders.hero.title.highlight') || 'That Actually Work'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutions.appointmentReminders.hero.description') || 'Dramatically reduce no-shows and improve customer satisfaction with intelligent appointment reminders across SMS, WhatsApp, and voice channels.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutions.appointmentReminders.hero.cta.primary') || 'Get Started'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+        
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+        >
+          {t('seax.solutions.appointmentReminders.hero.cta.secondary') || 'View Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.appointmentReminders.features.title') || 'Appointment Reminder Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.appointmentReminders.features.subtitle') || 'Everything you need to ensure customers never miss their appointments'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Smart Scheduling -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[0].title') || 'Smart Scheduling'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[0].description') || 'Automatically schedule reminders at optimal times based on appointment type, customer preferences, and historical data.'}
+          </p>
+        </div>
+
+        <!-- Multi-Channel Reminders -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[1].title') || 'Multi-Channel Delivery'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[1].description') || 'Send reminders via SMS, WhatsApp, voice calls, and email to ensure customers receive notifications through their preferred channels.'}
+          </p>
+        </div>
+
+        <!-- Confirmation & Rescheduling -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[2].title') || 'Easy Confirmation'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[2].description') || 'Allow customers to confirm, reschedule, or cancel appointments with simple text replies or one-click links.'}
+          </p>
+        </div>
+
+        <!-- Calendar Integration -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[3].title') || 'Calendar Integration'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[3].description') || 'Seamlessly integrate with popular calendar systems like Google Calendar, Outlook, and scheduling software.'}
+          </p>
+        </div>
+
+        <!-- Automated Follow-ups -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[4].title') || 'Automated Follow-ups'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[4].description') || 'Send post-appointment follow-ups, satisfaction surveys, and next appointment scheduling automatically.'}
+          </p>
+        </div>
+
+        <!-- Real-Time Analytics -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 00-2 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.appointmentReminders.features.items[5].title') || 'Performance Analytics'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.appointmentReminders.features.items[5].description') || 'Track appointment attendance rates, reminder effectiveness, and optimize your reminder strategy with detailed analytics.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.appointmentReminders.useCases.title') || 'Appointment Reminder Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.appointmentReminders.useCases.subtitle') || 'See how different industries use appointment reminders'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.appointmentReminders.useCases.items[0].title') || 'Healthcare'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.appointmentReminders.useCases.items[0].description') || 'Reduce patient no-shows with automated reminders for appointments, procedures, and follow-ups.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.appointmentReminders.useCases.items[0].stats') || '85% reduction in missed appointments'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.appointmentReminders.useCases.items[1].title') || 'Beauty & Wellness'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.appointmentReminders.useCases.items[1].description') || 'Keep your salon or spa fully booked with timely reminders and easy rescheduling options.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.appointmentReminders.useCases.items[1].stats') || '70% improvement in booking efficiency'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.appointmentReminders.useCases.items[2].title') || 'Professional Services'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.appointmentReminders.useCases.items[2].description') || 'Ensure consultations, meetings, and service appointments run smoothly with automated reminders.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.appointmentReminders.useCases.items[2].stats') || '60% increase in appointment attendance'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.appointmentReminders.useCases.items[3].title') || 'Fitness Centers'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.appointmentReminders.useCases.items[3].description') || 'Maximize class attendance and personal training sessions with automated reminders and cancellation management.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.appointmentReminders.useCases.items[3].stats') || '75% reduction in no-shows'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.appointmentReminders.stats.title') || 'Appointment Reminder Results'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.appointmentReminders.stats.subtitle') || 'See the impact of automated appointment reminders'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[0].value') || '75%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[0].label') || 'Reduction in No-Shows'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[1].value') || '90%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[1].label') || 'Customer Satisfaction'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-purple-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[2].value') || '65%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[2].label') || 'Time Savings for Staff'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-orange-600 mb-2">{t('seax.solutions.appointmentReminders.stats.items[3].value') || '40%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.appointmentReminders.stats.items[3].label') || 'Increase in Revenue'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutions.appointmentReminders.cta.title') || 'Ready to Reduce No-Shows?'}
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {t('seax.solutions.appointmentReminders.cta.description') || 'Start reducing no-shows and improving customer satisfaction today'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+        >
+          <span>{t('seax.solutions.appointmentReminders.cta.primary') || 'Get Started'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+        >
+          {t('seax.solutions.appointmentReminders.hero.cta.secondary') || 'Book a Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>

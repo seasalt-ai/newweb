@@ -1,0 +1,212 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+// 生成所有語言的靜態路徑
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 獲取動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯
+const { t, translations } = await getTranslationHelpers(currentLang);
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutionsOverview.seo.title') || 'SeaX Solutions Overview - Scale Your Business',
+    description: t('seax.solutionsOverview.seo.description') || 'SeaX Solutions Overview helps businesses scale their communication and achieve better results.',
+    keywords: t('seax.keywords') || 'seax, mass communication, business solutions',
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutionsOverview.hero.title') || 'Solutions Overview'}
+        <span class="text-blue-600 block">{t('seax.solutionsOverview.hero.titleHighlight') || 'Solutions'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutionsOverview.hero.description') || 'Transform your business communication with our comprehensive solutions portfolio.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutionsOverview.hero.getStarted') || 'Get Started'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutionsOverview.features.title') || 'Powerful Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutionsOverview.features.subtitle') || 'Everything you need for successful business solutions'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature 1: Automated Communication -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature1.title') || 'Automated Communication'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature1.description') || 'Streamline your communication processes with AI-powered automation and intelligent routing.'}
+          </p>
+        </div>
+
+        <!-- Feature 2: Multi-Channel Support -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature2.title') || 'Multi-Channel Support'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature2.description') || 'Reach your audience across multiple channels including SMS, voice, and messaging platforms.'}
+          </p>
+        </div>
+
+        <!-- Feature 3: Real-Time Analytics -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature3.title') || 'Real-Time Analytics'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature3.description') || 'Track performance and optimize your campaigns with comprehensive real-time analytics.'}
+          </p>
+        </div>
+
+        <!-- Feature 4: Scalable Infrastructure -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature4.title') || 'Scalable Infrastructure'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature4.description') || 'Handle millions of messages with our robust, enterprise-grade infrastructure.'}
+          </p>
+        </div>
+
+        <!-- Feature 5: Advanced Personalization -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature5.title') || 'Advanced Personalization'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature5.description') || 'Deliver personalized experiences with dynamic content and smart targeting capabilities.'}
+          </p>
+        </div>
+
+        <!-- Feature 6: Integration Ready -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutionsOverview.features.feature6.title') || 'Integration Ready'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutionsOverview.features.feature6.description') || 'Seamlessly integrate with your existing systems and workflows through our comprehensive APIs.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutionsOverview.stats.title') || 'Proven Results'}
+        </h2>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <div class="text-4xl font-bold text-blue-600 mb-2">300%</div>
+            <div class="text-gray-600">{t('seax.solutionsOverview.stats.improvement') || 'Improvement'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <div class="text-4xl font-bold text-green-600 mb-2">85%</div>
+            <div class="text-gray-600">{t('seax.solutionsOverview.stats.successRate') || 'Success Rate'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <div class="text-4xl font-bold text-purple-600 mb-2">50%</div>
+            <div class="text-gray-600">{t('seax.solutionsOverview.stats.timeSavings') || 'Time Savings'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutionsOverview.cta.title') || 'Ready to Transform Your Business Solutions?'}
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {t('seax.solutionsOverview.cta.subtitle') || 'Join thousands of businesses achieving better results with SeaX'}
+      </p>
+      
+      <a
+        href="https://meetings.hubspot.com/seasalt-ai/demo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+      >
+        <span>{t('seax.solutionsOverview.cta.getStarted') || 'Get Started Today'}</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</SeaxLayout>
