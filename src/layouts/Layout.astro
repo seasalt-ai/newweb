@@ -1,8 +1,7 @@
 ---
 import '../styles/global.css';
-import TopBar from '../components/TopBar.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import VersionManager from '../components/versions/VersionManager.astro';
+import VersionSwitcher from '../components/versions/VersionSwitcher.astro';
 import SEO from '../components/SEO.astro';
 
 export interface Props {
@@ -30,6 +29,9 @@ export interface Props {
 	}>;
 	noindex?: boolean;
 	nofollow?: boolean;
+	// Version management props
+	headerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
+	footerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
 }
 
 const { 
@@ -44,7 +46,9 @@ const {
 	faqs,
 	breadcrumbs,
 	noindex = false,
-	nofollow = false
+	nofollow = false,
+	headerVersion,
+	footerVersion
 } = Astro.props;
 ---
 
@@ -68,12 +72,13 @@ const {
 		<meta name="generator" content={Astro.generator} />
 	</head>
 	<body>
-		<TopBar />
-		<Header lang={lang} />
+		<VersionManager type="header" version={headerVersion} lang={lang} currentPath={Astro.url.pathname} />
 		<main>
 			<slot />
 		</main>
-		<Footer lang={lang} />
+		<VersionManager type="footer" version={footerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<!-- Development Version Switcher (only shows in dev mode) -->
+		<VersionSwitcher />
 	</body>
 </html>
 

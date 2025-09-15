@@ -1,51 +1,46 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
-
-type SupportedLanguage = 'en' | 'es' | 'zh-tw' | 'zh-cn' | 'ja' | 'ko' | 'fr' | 'de' | 'ar' | 'fa' | 'fil' | 'hi' | 'id' | 'ms' | 'pl' | 'pt' | 'ru' | 'ta' | 'th' | 'vi';
+import { useTranslation, type SupportedLanguage } from '../../i18n/helpers';
 
 interface CompanyNewsletterProps {
   lang: SupportedLanguage;
+  translations?: any;
 }
 
-const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
-  const [translations, setTranslations] = useState<any>(null);
+const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang, translations }) => {
+  const { t, isLoading } = useTranslation(lang);
+  
+  // Use passed translations or fall back to hook
+  const getText = (key: string, fallback: string) => {
+    if (translations) {
+      const keys = key.split('.');
+      let value = translations;
+      for (const k of keys) {
+        value = value?.[k];
+      }
+      return value || fallback;
+    }
+    return t?.(key) || fallback;
+  };
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  useEffect(() => {
-    const loadTranslations = async () => {
-      try {
-        const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
-        const translationModule = await import(`../../i18n/locales/${langKey}.json`);
-        setTranslations(translationModule.default || translationModule);
-      } catch (error) {
-        console.error('Failed to load translations:', error);
-      }
-    };
-
-    loadTranslations();
-  }, [lang]);
-
-  if (!translations) {
-    return <div>Loading...</div>;
+  if (isLoading && !translations) {
+    return (
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center animate-pulse">
+            <div className="w-16 h-16 bg-white/20 rounded-full mx-auto mb-6"></div>
+            <div className="h-10 bg-white/20 rounded w-3/4 mx-auto mb-4"></div>
+            <div className="h-6 bg-white/20 rounded w-full mx-auto mb-2"></div>
+            <div className="h-6 bg-white/20 rounded w-2/3 mx-auto"></div>
+          </div>
+        </div>
+      </section>
+    );
   }
-
-  const t = (key: string) => {
-    const keys = key.split('.');
-    let result: any = translations;
-    
-    for (const k of keys) {
-      if (result && typeof result === 'object' && k in result) {
-        result = result[k];
-      } else {
-        return key;
-      }
-    }
-    
-    return typeof result === 'string' ? result : key;
-  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -73,12 +68,12 @@ const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
             <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <Send className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-4xl font-bold mb-4">{t('company.newsletter.title')}</h2>
+            <h2 className="text-4xl font-bold mb-4">{getText('company.newsletter.title', 'Stay Updated')}</h2>
             <p className="text-xl text-blue-100 mb-2">
-              {t('company.newsletter.subtitle')}
+              {getText('company.newsletter.subtitle', 'Get the latest news and insights')}
             </p>
             <p className="text-lg text-blue-200">
-              {t('company.newsletter.description')}
+              {getText('company.newsletter.description', 'Subscribe to our newsletter for product updates and industry insights')}
             </p>
           </div>
           
@@ -90,8 +85,8 @@ const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
               viewport={{ once: true }}
               className="max-w-md mx-auto bg-white/10 rounded-lg p-6"
             >
-              <p className="text-lg font-semibold mb-2">{t('company.newsletter.thankYou') || 'Thank you for subscribing!'}</p>
-              <p className="text-blue-100">{t('company.newsletter.confirmation') || 'You\'ll receive our weekly newsletter soon.'}</p>
+              <p className="text-lg font-semibold mb-2">{getText('company.newsletter.thankYou', 'Thank you for subscribing!')}</p>
+              <p className="text-blue-100">{getText('company.newsletter.confirmation', 'You\'ll receive our weekly newsletter soon.')}</p>
             </motion.div>
           ) : (
             <motion.form
@@ -108,7 +103,7 @@ const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
                   name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={t('company.newsletter.emailPlaceholder') || 'Enter your email address'}
+                  placeholder={getText('company.newsletter.emailPlaceholder', 'Enter your email address')}
                   required
                   className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
                 />
@@ -127,7 +122,7 @@ const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
                   ) : (
                     <>
                       <Send className="w-5 h-5" />
-                      <span>{t('company.newsletter.cta')}</span>
+                      <span>{getText('company.newsletter.cta', 'Subscribe')}</span>
                     </>
                   )}
                 </motion.button>
@@ -142,7 +137,7 @@ const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang }) => {
             viewport={{ once: true }}
             className="text-sm text-blue-200 mt-6"
           >
-            {t('company.newsletter.disclaimer')}
+            {getText('company.newsletter.disclaimer', 'We respect your privacy and will never share your information')}
           </motion.p>
         </motion.div>
       </div>

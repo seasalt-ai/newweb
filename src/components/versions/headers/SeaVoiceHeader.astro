@@ -1,0 +1,46 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+import PhoneBanner from '../shared/PhoneBanner.astro';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+---
+
+<PhoneBanner lang={lang} />
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center">
+        <a href={`/${lang}/seavoice`} class="hover:opacity-80 transition-opacity">
+          <img 
+            src={versionConfig?.logo || '/seavoice-logo.png'} 
+            alt="SeaVoice" 
+            class="h-6 sm:h-8 w-auto"
+          />
+        </a>
+      </div>
+      
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href={`/${lang}/seavoice/platform`} class="text-gray-700 hover:text-amber-600">Platform</a>
+        <a href={`/${lang}/seavoice/solutions`} class="text-gray-700 hover:text-amber-600">Solutions</a>
+        <a href={`/${lang}/seavoice/pricing`} class="text-gray-700 hover:text-amber-600">Pricing</a>
+        <a 
+          href="https://cal.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 text-sm font-medium"
+        >
+          Get Started
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>

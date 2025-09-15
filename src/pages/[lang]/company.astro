@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
-const { t } = await getTranslationHelpers(currentLang);
+const { t, translations } = await getTranslationHelpers(currentLang);
 
 const title = t('company.seo.title');
 const description = t('company.seo.description');
@@ -437,7 +437,7 @@ const milestones = [
     </section>
 
     <!-- Newsletter Signup Section -->
-    <CompanyNewsletter client:load lang={currentLang} />
+    <CompanyNewsletter client:load lang={currentLang} translations={translations} />
 
   </main>
 </Layout>

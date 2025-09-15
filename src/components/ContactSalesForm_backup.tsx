@@ -112,25 +112,25 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                     <span className="text-blue-600 text-sm font-bold">1</span>
                   </div>
-                  <span className="text-gray-700">{t?.('seax.contactSales.success.nextSteps.step1') || 'We\'ll review your requirements'}</span>
+                  <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step1')}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                     <span className="text-blue-600 text-sm font-bold">2</span>
                   </div>
-                  <span className="text-gray-700">{t?.('seax.contactSales.success.nextSteps.step2') || 'Schedule a personalized demo'}</span>
+                  <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step2')}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                     <span className="text-blue-600 text-sm font-bold">3</span>
                   </div>
-                  <span className="text-gray-700">{t?.('seax.contactSales.success.nextSteps.step3') || 'Customize your solution'}</span>
+                  <span className="text-gray-700">{t('seax.contactSales.success.nextSteps.step3')}</span>
                 </div>
               </div>
             </div>
             
             <p className="text-sm text-gray-500">
-              {t?.('seax.contactSales.success.immediateHelp') || 'Need immediate help? Call us at'} <strong>+1 (555) 123-SEAX</strong>
+              {t('seax.contactSales.success.immediateHelp')} <strong>+1 (555) 123-SEAX</strong>
             </p>
           </div>
         </div>
@@ -143,10 +143,10 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            {t?.('seax.contactSales.form.title') || 'Contact Sales'}
+            {t('seax.contactSales.form.title')}
           </h2>
           <p className="text-lg text-gray-600">
-            {t?.('seax.contactSales.form.subtitle') || 'Get in touch with our sales team to learn more about our enterprise solutions'}
+            {t('seax.contactSales.form.subtitle')}
           </p>
         </div>
         
@@ -155,7 +155,7 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.firstName.label') || 'First Name'} *
+                  {t('seax.contactSales.form.firstName.label')}
                 </label>
                 <input
                   type="text"
@@ -164,13 +164,13 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder={t?.('seax.contactSales.form.firstName.placeholder') || 'Enter your first name'}
+                  placeholder={t('seax.contactSales.form.firstName.placeholder')}
                 />
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.lastName.label') || 'Last Name'} *
+                  {t('seax.contactSales.form.lastName.label')}
                 </label>
                 <input
                   type="text"
@@ -179,7 +179,7 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder={t?.('seax.contactSales.form.lastName.placeholder') || 'Enter your last name'}
+                  placeholder={t('seax.contactSales.form.lastName.placeholder')}
                 />
               </div>
             </div>
@@ -187,7 +187,7 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.email.label') || 'Business Email'} *
+                  {t('seax.contactSales.form.email.label')}
                 </label>
                 <input
                   type="email"
@@ -196,13 +196,13 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder={t?.('seax.contactSales.form.email.placeholder') || 'you@company.com'}
+                  placeholder={t('seax.contactSales.form.email.placeholder')}
                 />
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.company.label') || 'Company'} *
+                  {t('seax.contactSales.form.company.label')}
                 </label>
                 <input
                   type="text"
@@ -211,7 +211,7 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder={t?.('seax.contactSales.form.company.placeholder') || 'Your company name'}
+                  placeholder={t('seax.contactSales.form.company.placeholder')}
                 />
               </div>
             </div>
@@ -219,7 +219,7 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.phone.label') || 'Phone Number'}
+                  {t('seax.contactSales.form.phone.label')}
                 </label>
                 <input
                   type="tel"
@@ -227,87 +227,96 @@ const ContactSalesForm = ({ lang }: ContactSalesFormProps) => {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder={t?.('seax.contactSales.form.phone.placeholder') || '+1 (555) 123-4567'}
+                  placeholder={t('seax.contactSales.form.phone.placeholder')}
                 />
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  {t?.('seax.contactSales.form.monthlyVolume.label') || 'Expected Monthly Volume'}
+                  {t('seax.contactSales.form.volume.label')}
                 </label>
                 <select
                   name="monthlyVolume"
                   value={formData.monthlyVolume}
                   onChange={handleChange}
+                  required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 >
-                  <option value="">{t?.('seax.contactSales.form.monthlyVolume.placeholder') || 'Select volume range'}</option>
-                  <option value="0-10k">{t?.('seax.contactSales.form.monthlyVolume.options.0to10k') || '0 - 10,000 messages'}</option>
-                  <option value="10k-100k">{t?.('seax.contactSales.form.monthlyVolume.options.10kto100k') || '10,000 - 100,000 messages'}</option>
-                  <option value="100k-1m">{t?.('seax.contactSales.form.monthlyVolume.options.100kto1m') || '100,000 - 1M messages'}</option>
-                  <option value="1m+">{t?.('seax.contactSales.form.monthlyVolume.options.1mplus') || '1M+ messages'}</option>
+                  <option value="">{t('seax.contactSales.form.volume.placeholder')}</option>
+                  <option value="under-10k">{t('seax.contactSales.form.volume.under10k')}</option>
+                  <option value="10k-50k">{t('seax.contactSales.form.volume.10k50k')}</option>
+                  <option value="50k-200k">{t('seax.contactSales.form.volume.50k200k')}</option>
+                  <option value="200k-1m">{t('seax.contactSales.form.volume.200k1m')}</option>
+                  <option value="over-1m">{t('seax.contactSales.form.volume.over1m')}</option>
                 </select>
               </div>
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                {t?.('seax.contactSales.form.useCase.label') || 'Primary Use Case'}
+                {t('seax.contactSales.form.useCase.label')}
               </label>
               <select
                 name="useCase"
                 value={formData.useCase}
                 onChange={handleChange}
+                required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
-                <option value="">{t?.('seax.contactSales.form.useCase.placeholder') || 'Select primary use case'}</option>
-                <option value="marketing">{t?.('seax.contactSales.form.useCase.options.marketing') || 'Marketing Campaigns'}</option>
-                <option value="notifications">{t?.('seax.contactSales.form.useCase.options.notifications') || 'Transactional Notifications'}</option>
-                <option value="customer-support">{t?.('seax.contactSales.form.useCase.options.customerSupport') || 'Customer Support'}</option>
-                <option value="alerts">{t?.('seax.contactSales.form.useCase.options.alerts') || 'Emergency Alerts'}</option>
-                <option value="appointments">{t?.('seax.contactSales.form.useCase.options.appointments') || 'Appointment Reminders'}</option>
-                <option value="other">{t?.('seax.contactSales.form.useCase.options.other') || 'Other'}</option>
+                <option value="">{t('seax.contactSales.form.useCase.placeholder')}</option>
+                <option value="marketing">{t('seax.contactSales.form.useCase.marketing')}</option>
+                <option value="notifications">{t('seax.contactSales.form.useCase.notifications')}</option>
+                <option value="reminders">{t('seax.contactSales.form.useCase.reminders')}</option>
+                <option value="alerts">{t('seax.contactSales.form.useCase.alerts')}</option>
+                <option value="lead-generation">{t('seax.contactSales.form.useCase.leadGeneration')}</option>
+                <option value="support">{t('seax.contactSales.form.useCase.support')}</option>
+                <option value="other">{t('seax.contactSales.form.useCase.other')}</option>
               </select>
             </div>
             
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                {t?.('seax.contactSales.form.message.label') || 'Message'}
+                {t('seax.contactSales.form.message.label')}
               </label>
               <textarea
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-                placeholder={t?.('seax.contactSales.form.message.placeholder') || 'Tell us about your specific requirements...'}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder={t('seax.contactSales.form.message.placeholder')}
               />
             </div>
             
-            <div className="pt-4">
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 flex items-center justify-center space-x-2"
-              >
-                {isSubmitting ? (
-                  <>
-                    <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                    <span>{t?.('seax.contactSales.form.submitting') || 'Submitting...'}</span>
-                  </>
-                ) : (
-                  <>
-                    <span>{t?.('seax.contactSales.form.submit') || 'Contact Sales Team'}</span>
-                    <ArrowRight className="w-5 h-5" />
-                  </>
-                )}
-              </button>
+            <div className="flex items-center space-x-2">
+              <input
+                type="checkbox"
+                id="consent"
+                required
+                className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+              />
+              <label htmlFor="consent" className="text-sm text-gray-600">
+                {t('seax.contactSales.form.consent.label')}
+              </label>
             </div>
             
-            <div className="text-center text-sm text-gray-500">
-              <Clock className="w-4 h-4 inline mr-1" />
-              {t?.('seax.contactSales.form.responseTime') || 'We typically respond within 24 hours'}
-            </div>
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full bg-blue-600 text-white py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+            >
+              {isSubmitting ? (
+                <>
+                  <Clock className="w-5 h-5 animate-spin" />
+                  <span>{t('seax.contactSales.form.submit.submitting')}</span>
+                </>
+              ) : (
+                <>
+                  <span>{t('seax.contactSales.form.submit.default')}</span>
+                  <ArrowRight className="w-5 h-5" />
+                </>
+              )}
+            </button>
           </form>
         </div>
       </div>

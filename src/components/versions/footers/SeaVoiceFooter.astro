@@ -1,0 +1,73 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Company Info -->
+      <div>
+        <div class="flex items-center mb-4">
+          <img 
+            src={versionConfig?.logo || '/seavoice-logo.png'} 
+            alt="SeaVoice" 
+            class="h-8 brightness-0 invert"
+          />
+        </div>
+        <p class="text-gray-400 mb-4">
+          AI voice assistant platform for automated phone conversations
+        </p>
+      </div>
+
+      <!-- Platform -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Platform</h3>
+        <ul class="space-y-2">
+          <li><a href={`/${lang}/seavoice/platform/landline-mobile`} class="text-gray-400 hover:text-white transition-colors">Landline & Mobile</a></li>
+          <li><a href={`/${lang}/seavoice/platform/voip-sip-byoc`} class="text-gray-400 hover:text-white transition-colors">VoIP/SIP/BYOC</a></li>
+          <li><a href={`/${lang}/seavoice/platform/speech-to-text`} class="text-gray-400 hover:text-white transition-colors">Speech-to-Text</a></li>
+          <li><a href={`/${lang}/seavoice/platform/text-to-speech`} class="text-gray-400 hover:text-white transition-colors">Text-to-Speech</a></li>
+        </ul>
+      </div>
+
+      <!-- Solutions -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Solutions</h3>
+        <ul class="space-y-2">
+          <li><a href={`/${lang}/seavoice/solutions/inbound/virtual-assistant`} class="text-gray-400 hover:text-white transition-colors">Virtual Assistant</a></li>
+          <li><a href={`/${lang}/seavoice/solutions/outbound/lead-generation`} class="text-gray-400 hover:text-white transition-colors">Lead Generation</a></li>
+          <li><a href={`/${lang}/seavoice/solutions/inbound/technical-support`} class="text-gray-400 hover:text-white transition-colors">Technical Support</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Company</h3>
+        <ul class="space-y-2">
+          <li><a href={`/${lang}/seavoice/pricing`} class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+          <li><a href={`/${lang}/company`} class="text-gray-400 hover:text-white transition-colors">About</a></li>
+          <li><a href="https://wiki.seasalt.ai" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
+          <li><a href="https://api.seasalt.ai" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">API</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+      <p class="text-gray-400 text-sm">
+        © {currentYear} Seasalt.ai. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>

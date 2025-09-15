@@ -152,11 +152,7 @@ export function getLocalizedPath(path: string, targetLang: SupportedLanguage): s
     cleanPath = '/' + cleanPath;
   }
   
-  // 如果是預設語言，不加前綴（根據 prefixDefaultLocale 設定）
-  if (targetLang === defaultLang) {
-    return cleanPath;
-  }
-  
+  // 根據 Astro 配置，所有語言都需要前綴（prefixDefaultLocale: true）
   return `/${targetLang}${cleanPath}`;
 }
 
@@ -183,4 +179,70 @@ export function getSupportedLanguages() {
     englishName: info.englishName,
     shortCode: info.shortCode
   }));
+}
+
+// React Hook for i18n (統一的翻譯 Hook)
+// 這個 Hook 只能在 React 組件中使用
+let React: any;
+try {
+  React = require('react');
+} catch (e) {
+  // React 不可用時的處理
+}
+
+export function useTranslation(lang: SupportedLanguage) {
+  // Check if we're in a browser environment
+  if (typeof window === 'undefined') {
+    // SSR environment: load translations synchronously if cached
+    const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
+    const cachedTranslations = translationCache.get(langKey);
+    
+    if (cachedTranslations) {
+      return {
+        t: createTranslationFunction(cachedTranslations, lang),
+        isLoading: false,
+        error: null
+      };
+    }
+    
+    // If not cached, return a fallback that shows the key
+    return {
+      t: (key: string) => key,
+      isLoading: false,
+      error: null
+    };
+  }
+  
+  if (!React || !React.useState || !React.useEffect) {
+    console.warn('useTranslation can only be used in React components');
+    return {
+      t: null,
+      isLoading: false,
+      error: new Error('useTranslation can only be used in React components')
+    };
+  }
+  
+  const [t, setT] = React.useState<((key: string, params?: Record<string, any>) => string) | null>(null);
+  const [isLoading, setIsLoading] = React.useState(true);
+  const [error, setError] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const loadTranslations = async () => {
+      try {
+        setIsLoading(true);
+        setError(null);
+        const { t: tFunc } = await getTranslationHelpers(lang);
+        setT(() => tFunc);
+      } catch (err) {
+        setError(err instanceof Error ? err : new Error('Failed to load translations'));
+        console.error(`Failed to load translations for ${lang}:`, err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadTranslations();
+  }, [lang]);
+  
+  return { t, isLoading, error };
 }

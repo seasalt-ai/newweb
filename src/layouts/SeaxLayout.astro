@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+import SEO from '../components/SEO.astro';
+import VersionManager from '../components/versions/VersionManager.astro';
+
+export interface Props {
+	seoData: {
+		title: string;
+		description: string;
+		keywords: string;
+		canonical: string;
+		ogImage?: string;
+	};
+	productKey?: string;
+	breadcrumbs?: Array<{
+		name: string;
+		url?: string;
+	}>;
+	faqs?: Array<{
+		question: string;
+		answer: string;
+	}>;
+	lang?: string;
+	headerVersion?: string;
+	footerVersion?: string;
+}
+
+const { 
+	seoData,
+	productKey,
+	breadcrumbs,
+	faqs,
+	lang = 'en',
+	headerVersion = 'seax',
+	footerVersion = 'seax'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<SEO 
+			title={seoData.title}
+			description={seoData.description}
+			lang={lang}
+			keywords={seoData.keywords}
+			image={seoData.ogImage}
+			canonical={seoData.canonical}
+			type="software"
+			faqs={faqs}
+			breadcrumbs={breadcrumbs}
+		/>
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- Preload key fonts if needed -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<!-- SeaX specific meta tags -->
+		<meta name="product" content="seax">
+		<meta name="theme-color" content="#2563eb">
+		
+		<!-- Additional SeaX specific head elements can go here -->
+	</head>
+	<body>
+		<div class="seax-container">
+			<VersionManager type="header" version={headerVersion} lang={lang} />
+			
+			<main class="seax-main">
+				<slot />
+			</main>
+			
+			<VersionManager type="footer" version={footerVersion} lang={lang} />
+		</div>
+	</body>
+</html>
+
+<style is:global>
+	html {
+		font-family: system-ui, sans-serif;
+		scroll-behavior: smooth;
+	}
+	
+	body {
+		margin: 0;
+		padding: 0;
+		line-height: 1.6;
+		color: #374151;
+		background-color: #ffffff;
+	}
+	
+	/* SeaX specific global styles */
+	.seax-container {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.seax-main {
+		flex: 1;
+	}
+</style>

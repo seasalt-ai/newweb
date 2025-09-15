@@ -7,9 +7,9 @@ export interface Props {
 }
 
 const { currentPath = '/' } = Astro.props;
-const currentLang = extractLangFromPath(Astro.url.pathname);
-// 使用實際的 URL 路徑而不是傳入的 currentPath
-const actualCurrentPath = Astro.url.pathname;
+// 使用傳入的 currentPath，如果沒有則使用實際的 URL 路徑
+const actualCurrentPath = currentPath !== '/' ? currentPath : Astro.url.pathname;
+const currentLang = extractLangFromPath(actualCurrentPath);
 ---
 
 <div class="relative inline-block text-left">

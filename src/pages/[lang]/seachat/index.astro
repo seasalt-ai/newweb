@@ -1,0 +1,188 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 設定
+const title = t('seo.seachat.title') || 'SeaChat - AI-Powered Chatbot Platform | SeaSalt.ai';
+const description = t('seo.seachat.description') || 'Transform your customer support with SeaChat\'s AI-powered chatbot platform. Automate conversations across WhatsApp, SMS, webchat, and voice calls.';
+const keywords = t('seo.seachat.keywords') || 'AI chatbot, customer service automation, WhatsApp business, conversational AI, chatbot platform, customer support';
+---
+
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+  headerVersion="seachat"
+  footerVersion="seachat"
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 to-indigo-100 py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex justify-center mb-8">
+          <img 
+            src="/seachat-logo.png" 
+            alt="SeaChat Logo" 
+            class="h-16 w-auto"
+          />
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          {t('seachat.hero.title', 'AI-Powered Customer Support')}
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          {t('seachat.hero.description', 'Transform your customer conversations with SeaChat\'s intelligent chatbot platform. Automate support across all channels while maintaining a human touch.')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            class="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg"
+          >
+            {t('seachat.hero.cta.primary', 'Start Free Trial')}
+          </a>
+          <a
+            href="https://calendly.com/seasalt-ai/seasalt-ai-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all"
+          >
+            {t('seachat.hero.cta.secondary', 'Schedule Demo')}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Test Content Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seachat.test.title', 'Header & Footer Test Page')}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seachat.test.description', 'This is a test page to verify the SeaChat header and footer functionality.')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature Card 1 -->
+        <div class="bg-gray-50 rounded-lg p-6 text-center">
+          <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.004 9.004 0 01-8.716-6.747M3 5a2 2 0 012-2h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293H17a2 2 0 012 2v11a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seachat.feature1.title', 'AI Conversations')}
+          </h3>
+          <p class="text-gray-600">
+            {t('seachat.feature1.description', 'Intelligent chatbots that understand context and provide human-like responses.')}
+          </p>
+        </div>
+
+        <!-- Feature Card 2 -->
+        <div class="bg-gray-50 rounded-lg p-6 text-center">
+          <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seachat.feature2.title', 'Human Handoff')}
+          </h3>
+          <p class="text-gray-600">
+            {t('seachat.feature2.description', 'Seamlessly transfer complex conversations to human agents when needed.')}
+          </p>
+        </div>
+
+        <!-- Feature Card 3 -->
+        <div class="bg-gray-50 rounded-lg p-6 text-center">
+          <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">
+            {t('seachat.feature3.title', 'Analytics & Insights')}
+          </h3>
+          <p class="text-gray-600">
+            {t('seachat.feature3.description', 'Track performance metrics and gain insights into customer interactions.')}
+          </p>
+        </div>
+      </div>
+
+      <!-- Navigation Test Section -->
+      <div class="mt-16 bg-gray-100 rounded-lg p-8">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">
+          {t('seachat.nav.title', 'Navigation Test')}
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h4 class="text-lg font-semibold text-gray-900 mb-4">Header Features:</h4>
+            <ul class="space-y-2 text-gray-600">
+              <li>✅ PhoneBanner with close functionality</li>
+              <li>✅ ProductLogoDropdown for product navigation</li>
+              <li>✅ Complete navigation dropdowns (Features, Integrations, Solutions)</li>
+              <li>✅ Wiki button with gradient styling</li>
+              <li>✅ Sign In / Get Started buttons</li>
+              <li>✅ Language switcher (20 languages)</li>
+              <li>✅ Mobile responsive menu</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-gray-900 mb-4">Footer Features:</h4>
+            <ul class="space-y-2 text-gray-600">
+              <li>✅ Complete 5-column layout</li>
+              <li>✅ Social media links</li>
+              <li>✅ Collapsible mobile sections</li>
+              <li>✅ Statistics display</li>
+              <li>✅ CTA banner</li>
+              <li>✅ Legal links</li>
+              <li>✅ Company information</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spacer Section to test footer -->
+  <section class="py-32 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">
+        {t('seachat.spacer.title', 'Scroll down to see the footer')}
+      </h2>
+      <p class="text-lg text-gray-600">
+        {t('seachat.spacer.description', 'This section provides space to test the complete page layout and footer visibility.')}
+      </p>
+      <div class="mt-8">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-teal-100 rounded-full">
+          <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

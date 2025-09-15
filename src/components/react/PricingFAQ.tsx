@@ -1,26 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
+import { useTranslation, type SupportedLanguage } from '../../i18n/helpers';
 
 interface PricingFAQProps {
   lang: SupportedLanguage;
+  translations?: any;
 }
 
-export default function PricingFAQ({ lang }: PricingFAQProps) {
+export default function PricingFAQ({ lang, translations }: PricingFAQProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [t, setT] = useState<((key: string) => string) | null>(null);
+  const { t, isLoading } = useTranslation(lang);
+  
+  // Use passed translations or fall back to hook
+  const getText = (key: string, fallback: string) => {
+    if (translations) {
+      const keys = key.split('.');
+      let value = translations;
+      for (const k of keys) {
+        value = value?.[k];
+      }
+      return value || fallback;
+    }
+    return t?.(key) || fallback;
+  };
 
-  // 載入翻譯
-  useEffect(() => {
-    const loadTranslations = async () => {
-      const { t: tFunc } = await getTranslationHelpers(lang);
-      setT(() => tFunc);
-    };
-    loadTranslations();
-  }, [lang]);
-
-  // 如果翻譯還沒載入完成，顯示載入狀態
-  if (!t) {
+  // 如果翻譯還在載入，顯示載入狀態
+  if (isLoading && !translations) {
     return (
       <div className="max-w-3xl mx-auto">
         <div className="animate-pulse space-y-4">
@@ -37,32 +42,32 @@ export default function PricingFAQ({ lang }: PricingFAQProps) {
 
   const faqs = [
     {
-      question: t('pricing.faq.1.question'),
-      answer: t('pricing.faq.1.answer')
+      question: getText('pricing.faq.1.question', 'What is included in the free plan?'),
+      answer: getText('pricing.faq.1.answer', 'The free plan includes basic features to help you get started.')
     },
     {
-      question: t('pricing.faq.2.question'),
-      answer: t('pricing.faq.2.answer')
+      question: getText('pricing.faq.2.question', 'Can I upgrade or downgrade my plan?'),
+      answer: getText('pricing.faq.2.answer', 'Yes, you can change your plan at any time from your account settings.')
     },
     {
-      question: t('pricing.faq.3.question'),
-      answer: t('pricing.faq.3.answer')
+      question: getText('pricing.faq.3.question', 'What payment methods do you accept?'),
+      answer: getText('pricing.faq.3.answer', 'We accept all major credit cards and PayPal.')
     },
     {
-      question: t('pricing.faq.4.question'),
-      answer: t('pricing.faq.4.answer')
+      question: getText('pricing.faq.4.question', 'Is there a setup fee?'),
+      answer: getText('pricing.faq.4.answer', 'No, there are no setup fees for any of our plans.')
     },
     {
-      question: t('pricing.faq.5.question'),
-      answer: t('pricing.faq.5.answer')
+      question: getText('pricing.faq.5.question', 'Can I cancel my subscription anytime?'),
+      answer: getText('pricing.faq.5.answer', 'Yes, you can cancel your subscription at any time with no cancellation fees.')
     },
     {
-      question: t('pricing.faq.6.question'),
-      answer: t('pricing.faq.6.answer')
+      question: getText('pricing.faq.6.question', 'Do you offer refunds?'),
+      answer: getText('pricing.faq.6.answer', 'We offer a 30-day money-back guarantee for all paid plans.')
     },
     {
-      question: t('pricing.faq.7.question'),
-      answer: t('pricing.faq.7.answer')
+      question: getText('pricing.faq.7.question', 'How can I contact support?'),
+      answer: getText('pricing.faq.7.answer', 'You can reach our support team via email, chat, or phone during business hours.')
     }
   ];
 

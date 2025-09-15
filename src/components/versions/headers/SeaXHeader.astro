@@ -1,0 +1,470 @@
+---
+import LanguageSwitcher from '../../LanguageSwitcher.astro';
+import { getTranslationHelpers, getLocalizedPath } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+import ProductLogoDropdown from '../shared/ProductLogoDropdown.astro';
+import PhoneBanner from '../shared/PhoneBanner.astro';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+
+// Get localized paths for SeaX
+const getSeaXPath = (path: string) => getLocalizedPath(`/seax${path}`, lang);
+
+// Custom WhatsApp icon component as string
+const WhatsAppIcon = `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516"/></svg>`;
+
+// Navigation configuration matching old version with dropdowns
+const navigation = [
+  { name: t('seax.header.navigation.features') || 'Features', href: getSeaXPath('/features') },
+  {
+    name: t('seax.header.navigation.channels') || 'Channels',
+    href: getSeaXPath('/channels'),
+    dropdown: [
+      { 
+        name: t('seax.header.channels.smsOverview') || 'SMS Overview', 
+        href: getSeaXPath('/channels/sms'),
+        iconText: 'SMS',
+        isParent: true
+      },
+      { 
+        name: t('seax.header.channels.localNumber') || 'Local Number', 
+        href: getSeaXPath('/channels/sms-local'),
+        iconText: '10DLC',
+        isChild: true
+      },
+      { 
+        name: t('seax.header.channels.tollFree') || 'Toll Free', 
+        href: getSeaXPath('/channels/sms-toll-free'),
+        iconText: '8XX',
+        isChild: true
+      },
+      { 
+        name: t('seax.header.channels.shortCode') || 'Short Code', 
+        href: getSeaXPath('/channels/sms-short-code'),
+        iconText: 'xxxxx',
+        isChild: true
+      },
+      { 
+        name: t('seax.header.channels.whatsappBusiness') || 'WhatsApp Business', 
+        href: getSeaXPath('/channels/whatsapp'),
+        icon: 'whatsapp'
+      },
+      { 
+        name: t('seax.header.channels.phoneCallVoice') || 'Phone Call / Voice', 
+        href: getSeaXPath('/channels/voice'),
+        icon: 'phone'
+      }
+    ]
+  },
+  {
+    name: t('seax.header.navigation.solutions') || 'Solutions',
+    href: getSeaXPath('/solutions'),
+    dropdown: [
+      { 
+        name: t('seax.header.solutions.leadGeneration') || 'Lead Generation', 
+        href: getSeaXPath('/solutions/lead-generation'),
+        icon: 'target'
+      },
+      { 
+        name: t('seax.header.solutions.marketingAutomation') || 'Marketing Automation', 
+        href: getSeaXPath('/solutions/marketing-automation'),
+        icon: 'zap'
+      },
+      { 
+        name: t('seax.header.solutions.customerEngagement') || 'Customer Engagement', 
+        href: getSeaXPath('/solutions/customer-engagement'),
+        icon: 'users'
+      },
+      { 
+        name: t('seax.header.solutions.appointmentReminders') || 'Appointment Reminders', 
+        href: getSeaXPath('/solutions/appointment-reminders'),
+        icon: 'calendar'
+      },
+      { 
+        name: t('seax.header.solutions.emergencyAlerts') || 'Emergency Alerts', 
+        href: getSeaXPath('/solutions/emergency-alerts'),
+        icon: 'alert-triangle'
+      }
+    ]
+  },
+  {
+    name: t('seax.header.navigation.industries') || 'Industries',
+    href: getSeaXPath('/industries'),
+    dropdown: [
+      { 
+        name: t('seax.header.industries.ecommerceRetail') || 'E-commerce & Retail', 
+        href: getSeaXPath('/industries/ecommerce-retail'),
+        icon: 'shopping-cart'
+      },
+      { 
+        name: t('seax.header.industries.realEstate') || 'Real Estate', 
+        href: getSeaXPath('/industries/real-estate'),
+        icon: 'building'
+      },
+      { 
+        name: t('seax.header.industries.politicalCampaigns') || 'Political Campaigns', 
+        href: getSeaXPath('/industries/political-campaigns'),
+        icon: 'vote'
+      },
+      { 
+        name: t('seax.header.industries.healthcare') || 'Healthcare', 
+        href: getSeaXPath('/industries/healthcare'),
+        icon: 'heart'
+      },
+      { 
+        name: t('seax.header.industries.financialServices') || 'Financial Services', 
+        href: getSeaXPath('/industries/financial-services'),
+        icon: 'dollar-sign'
+      }
+    ]
+  },
+  { name: t('seax.header.navigation.pricing') || 'Pricing', href: getSeaXPath('/pricing') }
+];
+
+// Helper function to render icon
+const getIcon = (iconName: string, iconText?: string) => {
+  if (iconText) {
+    return `<span class="text-xs font-mono font-bold text-blue-600">${iconText}</span>`;
+  }
+  
+  const icons = {
+    'whatsapp': WhatsAppIcon,
+    'phone': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>`,
+    'target': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M6.267 3.455a8 8 0 111.164 1.164l-1.122 1.122a6.5 6.5 0 10-.958-.958l1.122-1.122z"></path></svg>`,
+    'zap': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>`,
+    'users': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`,
+    'calendar': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>`,
+    'alert-triangle': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>`,
+    'shopping-cart': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17M17 13v4a2 2 0 01-2 2H9a2 2 0 01-2-2v-4m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"></path></svg>`,
+    'building': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>`,
+    'vote': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v6a2 2 0 002 2h2m2 0h2a2 2 0 002-2V7a2 2 0 00-2-2h-2m-4 0V3a2 2 0 012-2 2 2 0 012 2v2M9 5v6.5m0 0a2 2 0 102 2 2 2 0 00-2-2z"></path></svg>`,
+    'heart': `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>`,
+    'dollar-sign': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path></svg>`
+  };
+  
+  return icons[iconName] || '';
+};
+
+// Helper function to get the correct Wiki URL based on language
+const getWikiUrl = () => {
+  const wikiLanguage = (lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/seax/seax-omni/seax-intro/`;
+};
+---
+
+<PhoneBanner lang={lang} />
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<div class="flex justify-between items-center h-16">
+			<!-- Logo -->
+			<div class="flex-shrink-0">
+				<div class="flex items-center relative">
+					<div class="relative flex items-center">
+						<!-- Logo - navigates to SeaX home -->
+						<a href={getSeaXPath('')} class="hover:opacity-80 transition-opacity flex items-center">
+							<img 
+								src={versionConfig?.logo || '/seax-logo.png'} 
+								alt="SeaX" 
+								class="h-6 sm:h-8 w-auto"
+							/>
+						</a>
+						
+						<ProductLogoDropdown lang={lang} currentProduct="seax" />
+					</div>
+				</div>
+			</div>
+
+			<!-- Desktop Navigation -->
+			<nav class="hidden md:flex items-center space-x-8">
+				{navigation.map((item) => (
+					<div class="relative">
+						{item.dropdown ? (
+							<div class="relative dropdown-container" data-dropdown={item.name.toLowerCase()}>
+								<button class="flex items-center space-x-1 text-gray-700 hover:text-blue-600 font-medium transition-colors dropdown-trigger" data-dropdown={item.name.toLowerCase()}>
+									<span>{item.name}</span>
+									<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+									</svg>
+								</button>
+								<div class="hidden absolute top-full left-0 pt-2 w-72 z-[60] dropdown-menu" data-dropdown-menu={item.name.toLowerCase()}>
+									<div class="bg-white rounded-md shadow-lg border border-gray-200 py-2">
+										{item.dropdown.map((subItem) => (
+											<a href={subItem.href} class={`flex items-center px-4 py-2 text-sm hover:bg-gray-50 hover:text-blue-600 transition-colors ${
+												subItem.isParent 
+													? 'text-gray-900 font-medium border-b border-gray-100 bg-gray-50' 
+													: subItem.isChild 
+														? 'text-gray-600 pl-8' 
+														: 'text-gray-700'
+											}`}>
+												{(subItem.icon || subItem.iconText) && (
+													<div class="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0" set:html={getIcon(subItem.icon, subItem.iconText)} />
+												)}
+												<span>{subItem.name}</span>
+											</a>
+										))}
+									</div>
+								</div>
+							</div>
+						) : (
+							<a href={item.href} class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+								{item.name}
+							</a>
+						)}
+					</div>
+				))}
+				
+				<!-- Wiki Button (standout) -->
+				<a href={getWikiUrl()} target="_blank" rel="noopener noreferrer" 
+				   class="flex items-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all transform hover:scale-105 border border-blue-400 ml-4">
+					<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+					</svg>
+					{t('seax.header.buttons.wiki') || 'Wiki'}
+				</a>
+			</nav>
+
+			<!-- Right side buttons -->
+			<div class="hidden md:flex items-center space-x-4">
+				<!-- Language Switcher -->
+				<LanguageSwitcher currentPath={currentPath} />
+				
+				<a href="https://seax.seasalt.ai/signin" 
+				   class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+					{t('seax.header.buttons.signIn') || 'Sign In'}
+				</a>
+				<a href="https://seax.seasalt.ai/signup" 
+				   class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium">
+					{t('seax.header.buttons.signUp') || 'Sign Up'}
+				</a>
+			</div>
+
+			<!-- Mobile menu button -->
+			<div class="md:hidden">
+				<button id="mobile-menu-button" class="text-gray-700 hover:text-blue-600">
+					<svg id="menu-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+					</svg>
+					<svg id="menu-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+
+		<!-- Mobile menu -->
+		<div id="mobile-menu" class="md:hidden hidden bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto">
+			<div class="px-4 py-6 space-y-3">
+				<!-- Action buttons -->
+				<div class="space-y-3 mb-4">
+					<a href="https://seax.seasalt.ai/signin" 
+					   class="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors">
+						{t('seax.header.buttons.signIn') || 'Sign In'}
+					</a>
+					<a href="https://seax.seasalt.ai/signup" 
+					   class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+						{t('seax.header.buttons.signUp') || 'Sign Up'}
+					</a>
+					<a href={getWikiUrl()} target="_blank" rel="noopener noreferrer" 
+					   class="flex items-center justify-center font-semibold text-white bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-2 rounded-lg shadow hover:from-blue-600 hover:to-teal-600 transition-all border border-blue-400">
+						<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+						</svg>
+						{t('seax.header.buttons.wiki') || 'Wiki'}
+					</a>
+				</div>
+
+				<!-- Back to Main Site -->
+				<div class="pt-4 pb-4 border-t border-gray-100">
+					<a href={getLocalizedPath('/', lang)} 
+					   class="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors">
+						<img src="/seasalt-ai-logo.png" alt="Seasalt.ai" class="h-6 w-auto mr-2" />
+						{t('seax.header.mobile.backToMainSite') || 'Back to Main Site'}
+					</a>
+				</div>
+
+				<!-- Navigation Links -->
+				{navigation.map((item) => (
+					<div>
+						{item.dropdown ? (
+							<div>
+								<button class="mobile-dropdown-trigger w-full text-left block px-3 py-2 text-base font-semibold text-gray-900 hover:text-blue-600 hover:bg-gray-50" data-mobile-dropdown={item.name.toLowerCase()}>
+									<div class="flex items-center justify-between">
+										<span>{item.name}</span>
+										<svg class="w-4 h-4 mobile-dropdown-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+										</svg>
+									</div>
+								</button>
+								<div class="hidden mobile-dropdown-menu pl-4" data-mobile-dropdown-menu={item.name.toLowerCase()}>
+									{item.dropdown.map((subItem) => (
+										<a href={subItem.href} class={`flex items-center px-3 py-2 text-sm hover:text-blue-600 hover:bg-gray-50 transition-colors ${
+											subItem.isParent 
+												? 'text-gray-900 font-medium border-b border-gray-100 bg-gray-50' 
+												: subItem.isChild 
+													? 'text-gray-600 pl-6' 
+													: 'text-gray-600'
+										}`}>
+											{(subItem.icon || subItem.iconText) && (
+												<div class="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0" set:html={getIcon(subItem.icon, subItem.iconText)} />
+											)}
+											<span>{subItem.name}</span>
+										</a>
+									))}
+								</div>
+							</div>
+						) : (
+							<a href={item.href} class="block px-3 py-2 text-base text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors">
+								{item.name}
+							</a>
+						)}
+					</div>
+				))}
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+
+	// Initialize when DOM is loaded
+	document.addEventListener('DOMContentLoaded', function() {
+		// Mobile menu toggle functionality
+		const mobileMenuButton = document.getElementById('mobile-menu-button');
+		const mobileMenu = document.getElementById('mobile-menu');
+		const menuOpenIcon = document.getElementById('menu-open');
+		const menuCloseIcon = document.getElementById('menu-close');
+
+		if (mobileMenuButton && mobileMenu && menuOpenIcon && menuCloseIcon) {
+			mobileMenuButton.addEventListener('click', () => {
+				const isHidden = mobileMenu.classList.contains('hidden');
+				
+				if (isHidden) {
+					mobileMenu.classList.remove('hidden');
+					menuOpenIcon.classList.add('hidden');
+					menuCloseIcon.classList.remove('hidden');
+				} else {
+					mobileMenu.classList.add('hidden');
+					menuOpenIcon.classList.remove('hidden');
+					menuCloseIcon.classList.add('hidden');
+				}
+			});
+		}
+		
+		
+		
+		
+		
+		// Product dropdown functionality (using new shared component)
+		const productDropdownTriggers = document.querySelectorAll('[data-dropdown="products"]');
+		productDropdownTriggers.forEach(trigger => {
+			const menu = document.querySelector('[data-dropdown-menu="products"]');
+			
+			if (menu) {
+				let hoverTimeout;
+				
+				const showDropdown = () => {
+					if (hoverTimeout) {
+						clearTimeout(hoverTimeout);
+					}
+					menu.classList.remove('hidden');
+				};
+				
+				const hideDropdown = () => {
+					hoverTimeout = setTimeout(() => {
+						menu.classList.add('hidden');
+					}, 100);
+				};
+				
+				// Mouse events for hover behavior
+				trigger.addEventListener('mouseenter', showDropdown);
+				trigger.addEventListener('mouseleave', hideDropdown);
+				menu.addEventListener('mouseenter', showDropdown);
+				menu.addEventListener('mouseleave', hideDropdown);
+				
+				// Click event for toggle behavior
+				trigger.addEventListener('click', (e) => {
+					e.preventDefault();
+					menu.classList.toggle('hidden');
+				});
+			}
+		});
+		
+		// Desktop navigation dropdowns
+		const dropdownContainers = document.querySelectorAll('.dropdown-container');
+		dropdownContainers.forEach(container => {
+			const trigger = container.querySelector('.dropdown-trigger');
+			const menu = container.querySelector('.dropdown-menu');
+			
+			if (trigger && menu) {
+				let hoverTimeout;
+				
+				const showDropdown = () => {
+					if (hoverTimeout) {
+						clearTimeout(hoverTimeout);
+					}
+					menu.classList.remove('hidden');
+				};
+				
+				const hideDropdown = () => {
+					hoverTimeout = setTimeout(() => {
+						menu.classList.add('hidden');
+					}, 100);
+				};
+				
+				trigger.addEventListener('mouseenter', showDropdown);
+				trigger.addEventListener('mouseleave', hideDropdown);
+				menu.addEventListener('mouseenter', showDropdown);
+				menu.addEventListener('mouseleave', hideDropdown);
+				
+				trigger.addEventListener('click', (e) => {
+					e.preventDefault();
+					menu.classList.toggle('hidden');
+				});
+			}
+		});
+		
+		// Mobile navigation dropdowns
+		const mobileDropdownTriggers = document.querySelectorAll('.mobile-dropdown-trigger');
+		mobileDropdownTriggers.forEach(trigger => {
+			const dropdownName = trigger.dataset.mobileDropdown;
+			const menu = document.querySelector(`[data-mobile-dropdown-menu="${dropdownName}"]`);
+			const chevron = trigger.querySelector('.mobile-dropdown-chevron');
+			
+			if (menu && chevron) {
+				trigger.addEventListener('click', () => {
+					const isHidden = menu.classList.contains('hidden');
+					menu.classList.toggle('hidden');
+					chevron.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
+				});
+			}
+		});
+		
+		// Close all dropdowns when clicking outside
+		document.addEventListener('click', (e) => {
+			// Close desktop navigation dropdowns
+			if (!e.target.closest('.dropdown-container')) {
+				document.querySelectorAll('.dropdown-container .dropdown-menu').forEach(menu => {
+					menu.classList.add('hidden');
+				});
+			}
+			
+			// Close product dropdown when clicking outside
+			if (!e.target.closest('[data-dropdown="products"]') && !e.target.closest('[data-dropdown-menu="products"]')) {
+				document.querySelectorAll('[data-dropdown-menu="products"]').forEach(menu => {
+					menu.classList.add('hidden');
+				});
+			}
+		});
+		
+	});
+</script>

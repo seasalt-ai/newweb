@@ -22,7 +22,7 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 
 // 獲取翻譯幫助函數
-const { t } = await getTranslationHelpers(currentLang);
+const { t, translations } = await getTranslationHelpers(currentLang);
 
 // SEO 資料
 const title = t('pricing.seo.title') || 'Pricing - Seasalt.ai AI Contact Center Solutions';
@@ -893,7 +893,7 @@ const meetingUrl = getMeetingUrl(currentLang);
         {t('pricing.faq.title')}
       </h3>
       <!-- React 組件處理 FAQ 互動 -->
-      <PricingFAQ lang={currentLang} client:load />
+      <PricingFAQ lang={currentLang} client:load translations={translations} />
     </div>
 
     <!-- Dramatic Final CTA Section -->

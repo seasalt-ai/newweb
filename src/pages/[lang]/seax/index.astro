@@ -1,0 +1,743 @@
+---
+import SeaxLayout from '../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, languages, getLocalizedPath } from '../../../i18n/helpers';
+import Hero from '../../../components/react/seax/Hero';
+import StatsCounter from '../../../components/react/seax/StatsCounter';
+import ScaleComparison from '../../../components/react/seax/ScaleComparison';
+import RealTimeDashboard from '../../../components/react/seax/RealTimeDashboard';
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO Configuration
+const seoData = {
+  title: t('seax.home.seo.title'),
+  description: t('seax.home.seo.description'),
+  keywords: t('seax.home.seo.keywords'),
+  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax', lang),
+  ogImage: '/seax-logo.png'
+};
+
+// SeaX breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: getLocalizedPath('/', lang) },
+  { name: 'SeaX', url: getLocalizedPath('/seax', lang) }
+];
+
+// SeaX FAQs
+const faqs = [
+  {
+    question: "What is SeaX?",
+    answer: "SeaX is a cloud communication platform that enables businesses to send millions of SMS messages, make voice calls, and conduct WhatsApp campaigns at scale. It's designed for high-volume outreach and customer engagement."
+  },
+  {
+    question: "How many messages can SeaX send?",
+    answer: "SeaX can handle massive scale communications, sending millions of SMS messages and making thousands of voice calls simultaneously. It's built for enterprise-level campaigns and bulk communications."
+  },
+  {
+    question: "What channels does SeaX support?",
+    answer: "SeaX supports multiple communication channels including SMS, voice calls, WhatsApp Business API, and other messaging platforms, allowing businesses to reach customers through their preferred channels."
+  },
+  {
+    question: "Is SeaX suitable for lead generation?",
+    answer: "Yes, SeaX is specifically designed for lead generation and customer outreach campaigns. It includes features for lead capture, qualification, nurturing, and conversion tracking with real-time analytics."
+  }
+];
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+      <Hero client:only="react" lang={lang} translations_obj={translations} translations={{
+        badge: t('seax.hero.badge') || '🚀 The Ultimate Mass Communication Platform',
+        headline: {
+          reach: t('seax.hero.headline.reach') || 'Reach',
+          millions: t('seax.hero.headline.millions') || 'Millions',
+          instantly: t('seax.hero.headline.instantly') || 'Instantly'
+        },
+        subtitle: t('seax.hero.subtitle') || 'Send millions of SMS messages, make thousands of phone calls, and run WhatsApp campaigns simultaneously. SeaX is built for businesses that need to communicate at massive scale.',
+        benefits: {
+          messages: t('seax.hero.benefits.messages') || '10M+ Messages Daily',
+          calls: t('seax.hero.benefits.calls') || '100K+ Calls Per Hour',
+          uptime: t('seax.hero.benefits.uptime') || '99.9% Uptime Guaranteed'
+        },
+        cta: {
+          bookDemo: t('seax.hero.cta.bookDemo') || 'Book Demo',
+          signUp: t('seax.hero.cta.signUp') || 'Start Free Trial'
+        },
+        liveActivity: t('seax.hero.liveActivity') || 'Live Activity',
+        stats: {
+          sent: t('seax.hero.stats.sent') || 'Sent',
+          delivered: t('seax.hero.stats.delivered') || 'Delivered',
+          active: t('seax.hero.stats.active') || 'Active Now'
+        },
+        visual: {
+          title: t('seax.hero.visual.title') || 'Watch SeaX in Action',
+          subtitle: t('seax.hero.visual.subtitle') || 'Real-time mass communication at scale'
+        }
+      }} />
+      <StatsCounter client:only="react" translations={{
+        section: {
+          title: t('statsCounter.section.title') || 'Trusted by businesses worldwide',
+          subtitle: t('statsCounter.section.subtitle') || 'Our platform powers millions of conversations every day'
+        },
+        stats: {
+          messages: {
+            label: t('statsCounter.stats.messages.label') || 'Messages Sent',
+            suffix: t('statsCounter.stats.messages.suffix') || 'M+'
+          },
+          calls: {
+            label: t('statsCounter.stats.calls.label') || 'Calls Made',
+            suffix: t('statsCounter.stats.calls.suffix') || 'K+'
+          },
+          uptime: {
+            label: t('statsCounter.stats.uptime.label') || 'System Uptime',
+            suffix: t('statsCounter.stats.uptime.suffix') || '%'
+          },
+          countries: {
+            label: t('statsCounter.stats.countries.label') || 'Countries Served',
+            suffix: t('statsCounter.stats.countries.suffix') || '+'
+          },
+          roi: {
+            label: t('statsCounter.stats.roi.label') || 'ROI Increase',
+            suffix: t('statsCounter.stats.roi.suffix') || '%'
+          }
+        },
+        dashboard: {
+          title: t('statsCounter.dashboard.title') || 'SeaX Dashboard',
+          messagesSent: t('statsCounter.dashboard.messagesSent') || 'Messages Sent',
+          deliveryRate: t('statsCounter.dashboard.deliveryRate') || 'Delivery Rate',
+          recentActivity: t('statsCounter.dashboard.recentActivity') || 'Recent Activity',
+          demo: {
+            messagesSent: t('statsCounter.dashboard.demo.messagesSent') || '2.4M',
+            deliveryRate: t('statsCounter.dashboard.demo.deliveryRate') || '85%'
+          }
+        },
+        activity: {
+          flashSale: {
+            title: t('statsCounter.activity.flashSale.title') || 'Flash Sale Campaign',
+            detail: t('statsCounter.activity.flashSale.detail') || '50,000 SMS sent • 2 min ago'
+          },
+          leadFollowup: {
+            title: t('statsCounter.activity.leadFollowup.title') || 'Lead Follow-up',
+            detail: t('statsCounter.activity.leadFollowup.detail') || '12,000 calls completed • 5 min ago'
+          },
+          whatsapp: {
+            title: t('statsCounter.activity.whatsapp.title') || 'WhatsApp Campaign',
+            detail: t('statsCounter.activity.whatsapp.detail') || '25,000 messages queued • 8 min ago'
+          }
+        },
+        status: {
+          liveRunning: t('statsCounter.status.liveRunning') || 'Live campaigns running',
+          liveActivity: t('statsCounter.status.liveActivity') || 'Live activity: Messages being sent right now'
+        }
+      }} />
+    
+    <!-- The Scaling Problem Section -->
+    <div class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            {t('seax.home.scalingProblem.title')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seax.home.scalingProblem.subtitle')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Left Column -->
+          <div class="space-y-6">
+            <!-- Manual Outreach -->
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6 text-red-600 transform rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  {t('seax.home.scalingProblem.manualOutreach.title')}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seax.home.scalingProblem.manualOutreach.description')}
+                </p>
+              </div>
+            </div>
+            
+            <!-- SeaX Automation -->
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  {t('seax.home.scalingProblem.seaxAutomation.title')}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seax.home.scalingProblem.seaxAutomation.description')}
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Right Column (Stats) -->
+          <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8">
+            <div class="grid grid-cols-2 gap-6">
+              <!-- Messages Sent -->
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600">
+                  {t('seax.home.scalingProblem.stats.messagesSent.value')}
+                </div>
+                <div class="text-sm text-gray-600">
+                  {t('seax.home.scalingProblem.stats.messagesSent.label')}
+                </div>
+              </div>
+
+              <!-- Calls Per Hour -->
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600">
+                  {t('seax.home.scalingProblem.stats.callsPerHour.value')}
+                </div>
+                <div class="text-sm text-gray-600">
+                  {t('seax.home.scalingProblem.stats.callsPerHour.label')}
+                </div>
+              </div>
+
+              <!-- Delivery Rate -->
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600">
+                  {t('seax.home.scalingProblem.stats.deliveryRate.value')}
+                </div>
+                <div class="text-sm text-gray-600">
+                  {t('seax.home.scalingProblem.stats.deliveryRate.label')}
+                </div>
+              </div>
+
+              <!-- ROI Average -->
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600">
+                  {t('seax.home.scalingProblem.stats.roiAverage.value')}
+                </div>
+                <div class="text-sm text-gray-600">
+                  {t('seax.home.scalingProblem.stats.roiAverage.label')}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scale Comparison Animation -->
+    <ScaleComparison client:only="react" lang={lang} translations={translations} />
+    
+    <!-- Massive Scale Features -->
+    <div class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            {t('seax.home.features.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seax.home.features.subtitle')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.features.sms.title')}</h3>
+            <p class="text-gray-600">{t('seax.home.features.sms.description')}</p>
+          </div>
+          
+          <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516Z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.features.whatsapp.title')}</h3>
+            <p class="text-gray-600">{t('seax.home.features.whatsapp.description')}</p>
+          </div>
+          
+          <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.features.voice.title')}</h3>
+            <p class="text-gray-600">{t('seax.home.features.voice.description')}</p>
+          </div>
+          
+          <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.features.ai.title')}</h3>
+            <p class="text-gray-600">{t('seax.home.features.ai.description')}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Lead Generation Focus -->
+    <div class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            {t('seax.home.leadGeneration.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seax.home.leadGeneration.subtitle')}
+          </p>
+        </div>
+        
+        <div class="relative">
+          <div class="grid md:grid-cols-4 gap-8">
+            <!-- Step 1 -->
+            <div class="relative">
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-6 text-center">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"/>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.leadGeneration.capture.title')}</h3>
+                <p class="text-gray-600">{t('seax.home.leadGeneration.capture.description')}</p>
+              </div>
+              <div class="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="relative">
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-6 text-center">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.leadGeneration.qualify.title')}</h3>
+                <p class="text-gray-600">{t('seax.home.leadGeneration.qualify.description')}</p>
+              </div>
+              <div class="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="relative">
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-6 text-center">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.leadGeneration.nurture.title')}</h3>
+                <p class="text-gray-600">{t('seax.home.leadGeneration.nurture.description')}</p>
+              </div>
+              <div class="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="relative">
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-6 text-center">
+                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">{t('seax.home.leadGeneration.close.title')}</h3>
+                <p class="text-gray-600">{t('seax.home.leadGeneration.close.description')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- How It Works Section -->
+    <div class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            {t('seax.home.howItWorks.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seax.home.howItWorks.subtitle')}
+          </p>
+        </div>
+        <div class="space-y-20">
+          <!-- Step 1: Upload Contacts -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+              <div class="flex items-center space-x-4">
+                <div class="text-4xl font-bold text-blue-600">
+                  {t('seax.home.howItWorks.step1.number')}
+                </div>
+                <div class="bg-blue-100 p-3 rounded-lg">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-3xl font-bold text-gray-900">
+                {t('seax.home.howItWorks.step1.title')}
+              </h3>
+              <p class="text-lg text-gray-600">
+                {t('seax.home.howItWorks.step1.description')}
+              </p>
+              <div class="bg-gray-50 rounded-lg p-4">
+                <div class="flex items-center space-x-2">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span class="text-sm font-medium text-gray-700">
+                    {t('seax.home.howItWorks.timeRequired')}{t('seax.home.howItWorks.step1.time')}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Step 1 Visual -->
+            <div class="relative bg-gradient-to-r from-blue-50 to-indigo-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+              <div class="space-y-4 w-full max-w-sm">
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                      <span class="text-white font-bold text-sm">✓</span>
+                    </div>
+                    <div>
+                      <div class="font-semibold text-gray-900">{t('seax.home.howItWorks.step1.illustration.fileName')}</div>
+                      <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step1.illustration.contactCount')}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-dashed border-gray-300">
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+                    </svg>
+                    <div>
+                      <div class="font-semibold text-gray-700">{t('seax.home.howItWorks.step1.illustration.dropFiles')}</div>
+                      <div class="text-sm text-gray-500">{t('seax.home.howItWorks.step1.illustration.browse')}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div class="text-2xl font-bold text-blue-600">{t('seax.home.howItWorks.step1.illustration.importedCount')}</div>
+                  <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step1.illustration.contactsImported')}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 2: Choose Channels -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:grid-flow-col-dense">
+            <!-- Step 2 Visual -->
+            <div class="lg:col-start-1 relative bg-gradient-to-r from-green-50 to-teal-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+              <div class="grid grid-cols-3 gap-4 w-full max-w-sm">
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-green-200 text-center">
+                  <svg class="w-8 h-8 text-green-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                  </svg>
+                  <div class="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.sms.label')}</div>
+                  <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.sms.rate')}</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-teal-200 text-center">
+                  <svg class="w-8 h-8 text-teal-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                  </svg>
+                  <div class="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.whatsapp.label')}</div>
+                  <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.whatsapp.rate')}</div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-blue-200 text-center">
+                  <svg class="w-8 h-8 text-blue-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                  <div class="font-semibold text-gray-900">{t('seax.home.howItWorks.step2.illustration.voice.label')}</div>
+                  <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step2.illustration.voice.rate')}</div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-start-2 space-y-6">
+              <div class="flex items-center space-x-4">
+                <div class="text-4xl font-bold text-blue-600">
+                  {t('seax.home.howItWorks.step2.number')}
+                </div>
+                <div class="bg-blue-100 p-3 rounded-lg">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-3xl font-bold text-gray-900">
+                {t('seax.home.howItWorks.step2.title')}
+              </h3>
+              <p class="text-lg text-gray-600">
+                {t('seax.home.howItWorks.step2.description')}
+              </p>
+              <div class="bg-gray-50 rounded-lg p-4">
+                <div class="flex items-center space-x-2">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span class="text-sm font-medium text-gray-700">
+                    {t('seax.home.howItWorks.timeRequired')}{t('seax.home.howItWorks.step2.time')}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 3: Create Campaign -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+              <div class="flex items-center space-x-4">
+                <div class="text-4xl font-bold text-blue-600">
+                  {t('seax.home.howItWorks.step3.number')}
+                </div>
+                <div class="bg-blue-100 p-3 rounded-lg">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-3xl font-bold text-gray-900">
+                {t('seax.home.howItWorks.step3.title')}
+              </h3>
+              <p class="text-lg text-gray-600">
+                {t('seax.home.howItWorks.step3.description')}
+              </p>
+              <div class="bg-gray-50 rounded-lg p-4">
+                <div class="flex items-center space-x-2">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span class="text-sm font-medium text-gray-700">
+                    {t('seax.home.howItWorks.timeRequired')}{t('seax.home.howItWorks.step3.time')}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Step 3 Visual -->
+            <div class="relative bg-gradient-to-r from-purple-50 to-pink-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+              <div class="space-y-4 w-full max-w-sm">
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-purple-200">
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="font-semibold text-gray-900">{t('seax.home.howItWorks.step3.illustration.campaignDraft')}</span>
+                    <span class="text-sm text-purple-600 bg-purple-100 px-2 py-1 rounded">{t('seax.home.howItWorks.step3.illustration.draftStatus')}</span>
+                  </div>
+                  <div class="bg-gray-50 rounded p-3 mb-3">
+                    <div class="text-sm text-gray-700">{t('seax.home.howItWorks.step3.illustration.sampleMessage')}</div>
+                  </div>
+                  <div class="flex space-x-2">
+                    <button class="flex-1 bg-purple-600 text-white px-3 py-2 rounded text-sm font-medium">{t('seax.home.howItWorks.step3.illustration.previewButton')}</button>
+                    <button class="flex-1 bg-gray-200 text-gray-700 px-3 py-2 rounded text-sm font-medium">{t('seax.home.howItWorks.step3.illustration.abTestButton')}</button>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-pink-200">
+                  <div class="flex items-center justify-between">
+                    <span class="font-semibold text-gray-900">{t('seax.home.howItWorks.step3.illustration.schedule')}</span>
+                    <span class="text-sm text-pink-600">{t('seax.home.howItWorks.step3.illustration.now')}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Step 4: Track Results -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:grid-flow-col-dense">
+            <!-- Step 4 Visual -->
+            <div class="lg:col-start-1 relative bg-gradient-to-r from-orange-50 to-red-100 rounded-xl p-8 min-h-[300px] flex items-center justify-center">
+              <div class="space-y-4 w-full max-w-sm">
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-orange-200">
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="font-semibold text-gray-900">{t('seax.home.howItWorks.step4.illustration.campaignStatus')}</span>
+                    <span class="text-sm text-green-600 bg-green-100 px-2 py-1 rounded">{t('seax.home.howItWorks.step4.illustration.liveStatus')}</span>
+                  </div>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="text-center">
+                      <div class="text-2xl font-bold text-orange-600">{t('seax.home.howItWorks.step4.illustration.deliveredCount')}</div>
+                      <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.delivered')}</div>
+                    </div>
+                    <div class="text-center">
+                      <div class="text-2xl font-bold text-green-600">{t('seax.home.howItWorks.step4.illustration.responseRate')}</div>
+                      <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.response')}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-sm border-2 border-red-200">
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="text-center">
+                      <div class="text-2xl font-bold text-red-600">{t('seax.home.howItWorks.step4.illustration.totalCount')}</div>
+                      <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.totalMessages')}</div>
+                    </div>
+                    <div class="text-center">
+                      <div class="text-2xl font-bold text-green-600">{t('seax.home.howItWorks.step4.illustration.deliveryRate')}</div>
+                      <div class="text-sm text-gray-600">{t('seax.home.howItWorks.step4.illustration.deliveryRateLabel')}</div>
+                    </div>
+                  </div>
+                  <div class="col-span-2 mt-2 bg-gradient-to-r from-red-300 to-green-300 h-2 rounded-full relative">
+                    <div class="absolute top-0 left-0 right-0 h-full bg-purple-600 rounded-full" style="width: 75%"></div>
+                  </div>
+                  <p class="mt-4 text-xs text-gray-700 text-center">{t('seax.home.howItWorks.step4.illustration.analytics')}</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-start-2 space-y-6">
+              <div class="flex items-center space-x-4">
+                <div class="text-4xl font-bold text-blue-600">
+                  {t('seax.home.howItWorks.step4.number')}
+                </div>
+                <div class="bg-blue-100 p-3 rounded-lg">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-3xl font-bold text-gray-900">
+                {t('seax.home.howItWorks.step4.title')}
+              </h3>
+              <p class="text-lg text-gray-600">
+                {t('seax.home.howItWorks.step4.description')}
+              </p>
+              <div class="bg-gray-50 rounded-lg p-4">
+                <div class="flex items-center space-x-2">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span class="text-sm font-medium text-gray-700">
+                    {t('seax.home.howItWorks.timeRequired')}{t('seax.home.howItWorks.step4.time')}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Real-Time Dashboard Animation -->
+    <RealTimeDashboard client:only="react" lang={lang} translations={translations} />
+
+    <!-- Customer Testimonials -->
+    <div class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            {t('seax.home.testimonials.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seax.home.testimonials.subtitle')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-gray-50 rounded-xl p-6 shadow-lg border">
+            <div class="flex mb-4">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+            </div>
+            <p class="text-gray-700 mb-6 italic">"{t('seax.home.testimonials.testimonial1.quote')}"</p>
+            <div>
+              <p class="font-semibold text-gray-900">{t('seax.home.testimonials.testimonial1.author')}</p>
+              <p class="text-sm text-gray-600">{t('seax.home.testimonials.testimonial1.role')}</p>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="bg-gray-50 rounded-xl p-6 shadow-lg border">
+            <div class="flex mb-4">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+            </div>
+            <p class="text-gray-700 mb-6 italic">"{t('seax.home.testimonials.testimonial2.quote')}"</p>
+            <div>
+              <p class="font-semibold text-gray-900">{t('seax.home.testimonials.testimonial2.author')}</p>
+              <p class="text-sm text-gray-600">{t('seax.home.testimonials.testimonial2.role')}</p>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="bg-gray-50 rounded-xl p-6 shadow-lg border">
+            <div class="flex mb-4">
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.191-5.934 5.787 1.4 8.164L12 18.896l-7.334 4.264 1.4-8.164L.132 9.209l8.2-1.191z"/></svg>
+            </div>
+            <p class="text-gray-700 mb-6 italic">"{t('seax.home.testimonials.testimonial3.quote')}"</p>
+            <div>
+              <p class="font-semibold text-gray-900">{t('seax.home.testimonials.testimonial3.author')}</p>
+              <p class="text-sm text-gray-600">{t('seax.home.testimonials.testimonial3.role')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final CTA Section -->
+    <div class="py-20 bg-gradient-to-br from-blue-600 to-indigo-700">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold text-white mb-4">
+          {t('seax.home.cta.title')}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          {t('seax.home.cta.subtitle')}
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <a
+            href={`https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`}
+            class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center space-x-2"
+          >
+            <span>{t('seax.home.cta.demoButton')}</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a
+            href="https://seax.seasalt.ai/signup"
+            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center space-x-2"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+            <span>{t('seax.home.cta.signupButton')}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+</SeaxLayout>
