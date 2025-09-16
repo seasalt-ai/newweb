@@ -1,0 +1,358 @@
+---
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Extract language from params and validate it
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data using the same translation structure as original PaymentProcessingPage.tsx
+const seoTitle = t('seavoice.pages.solutions.inbound.paymentProcessing.hero.title') || 'Secure Payment Processing - AI Voice Solutions | SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.inbound.paymentProcessing.hero.description') || 'Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection.';
+const seoKeywords = 'payment processing, secure payments, voice payments, PCI compliance, fraud protection, SeaVoice, payment automation';
+
+// Features data matching original structure
+const features = [
+  {
+    icon: 'CreditCard',
+    title: t('seavoice.pages.solutions.inbound.paymentProcessing.features.secure.title') || 'Secure Payment Processing',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.features.secure.description') || 'Process payments safely over the phone with PCI-compliant voice technology.',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.secure.benefits.pciCompliance') || 'PCI DSS compliance',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.secure.benefits.encryptedTransactions') || 'Encrypted transactions',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.secure.benefits.multiplePaymentMethods') || 'Multiple payment methods'
+    ]
+  },
+  {
+    icon: 'Shield',
+    title: t('seavoice.pages.solutions.inbound.paymentProcessing.features.fraud.title') || 'Fraud Protection',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.features.fraud.description') || 'Advanced fraud detection and prevention to protect both business and customers.',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.fraud.benefits.realtimeFraudDetection') || 'Real-time fraud detection',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.fraud.benefits.riskAssessment') || 'Risk assessment',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.fraud.benefits.secureAuthentication') || 'Secure authentication'
+    ]
+  },
+  {
+    icon: 'Clock',
+    title: t('seavoice.pages.solutions.inbound.paymentProcessing.features.instant.title') || 'Instant Processing',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.features.instant.description') || 'Process payments immediately with real-time authorization and confirmation.',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.instant.benefits.realtimeAuthorization') || 'Real-time authorization',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.instant.benefits.instantConfirmation') || 'Instant confirmation',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.features.instant.benefits.immediateReceipts') || 'Immediate receipts'
+    ]
+  }
+];
+
+// Payment methods data matching original structure
+const paymentMethods = [
+  {
+    method: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.creditCards.method') || 'Credit Cards',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.creditCards.description') || 'Accept all major credit cards with secure voice processing',
+    features: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.creditCards.features.visaMastercardAmex') || 'Visa, Mastercard, Amex',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.creditCards.features.cvvVerification') || 'CVV verification',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.creditCards.features.expiryValidation') || 'Expiry validation'
+    ]
+  },
+  {
+    method: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.debitCards.method') || 'Debit Cards',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.debitCards.description') || 'Process debit card payments with PIN verification',
+    features: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.debitCards.features.pinEntryVoice') || 'PIN entry via voice',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.debitCards.features.bankVerification') || 'Bank verification',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.debitCards.features.instantDeduction') || 'Instant deduction'
+    ]
+  },
+  {
+    method: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.method') || 'Bank Transfers',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.description') || 'Direct bank account transfers and ACH payments',
+    features: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.features.accountVerification') || 'Account verification',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.features.routingNumberValidation') || 'Routing number validation',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.bankTransfers.features.achProcessing') || 'ACH processing'
+    ]
+  },
+  {
+    method: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.method') || 'Digital Wallets',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.description') || 'Support for popular digital payment platforms',
+    features: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.features.applePay') || 'Apple Pay',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.features.googlePay') || 'Google Pay',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.digitalWallets.features.paypalIntegration') || 'PayPal integration'
+    ]
+  }
+];
+
+// Benefits metrics matching original structure
+const benefits = [
+  { 
+    metric: '99.9%', 
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.uptime') || 'Payment processing uptime' 
+  },
+  { 
+    metric: '< 3s', 
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.transactionTime') || 'Average transaction time' 
+  },
+  { 
+    metric: '100%', 
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.compliance') || 'PCI DSS compliance' 
+  },
+  { 
+    metric: '< 0.1%', 
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.fraudRate') || 'Fraud detection rate' 
+  }
+];
+
+// Security features matching original structure
+const securityFeatures = [
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.endToEndEncryption') || 'End-to-end encryption',
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.pciDssCompliance') || 'PCI DSS Level 1 compliance',
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.tokenization') || 'Tokenization of card data',
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.multiFactorAuth') || 'Multi-factor authentication',
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.fraudMonitoring') || 'Real-time fraud monitoring',
+  t('seavoice.pages.solutions.inbound.paymentProcessing.securityFeatures.voiceRecognition') || 'Secure voice recognition'
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-emerald-50 via-white to-blue-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-16 h-16 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+          </svg>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.hero.title') || 'Secure Payment Processing'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.hero.description') || 'Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.'}
+        </p>
+        <button class="bg-emerald-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-emerald-700 transition-colors">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.hero.cta') || 'Enable Secure Payments'}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.features.title') || 'Secure Voice Payment Features'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.features.description') || 'Enterprise-grade security meets seamless customer experience'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              {feature.icon === 'CreditCard' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                </svg>
+              )}
+              {feature.icon === 'Shield' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              )}
+              {feature.icon === 'Clock' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Methods Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.title') || 'Comprehensive Payment Options'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.paymentMethods.description') || 'Accept all major payment methods with secure voice processing'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {paymentMethods.map((method, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{method.method}</h3>
+            <p class="text-gray-600 mb-6">{method.description}</p>
+            <div class="space-y-2">
+              {method.features.map((feature) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-emerald-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.paymentProcessing.security.title') || 'Bank-Level Security'}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('seavoice.pages.solutions.inbound.paymentProcessing.security.description') || 'Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.'}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-emerald-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.encryption.title') || 'End-to-End Encryption'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.encryption.description') || 'All payment data encrypted in transit and at rest'}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-emerald-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.pciCompliance.title') || 'PCI DSS Compliance'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.pciCompliance.description') || 'Level 1 PCI DSS certified infrastructure'}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-emerald-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.monitoring.title') || 'Real-Time Monitoring'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.pages.solutions.inbound.paymentProcessing.security.monitoring.description') || 'Continuous fraud detection and prevention'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.paymentProcessing.security.features.title') || 'Security Features'}
+          </h3>
+          <div class="grid grid-cols-1 gap-3">
+            {securityFeatures.map((feature, index) => (
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-gray-700 font-medium">{feature}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Metrics Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.title') || 'Payment Processing Performance'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.benefits.description') || 'Industry-leading reliability and security metrics'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {benefits.map((benefit, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-emerald-600 mb-4">{benefit.metric}</div>
+            <p class="text-gray-600">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-emerald-600 to-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">
+        {t('seavoice.pages.solutions.inbound.paymentProcessing.cta.title') || 'Ready for Secure Voice Payments?'}
+      </h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.pages.solutions.inbound.paymentProcessing.cta.description') || 'Enable PCI-compliant payment processing with advanced fraud protection'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="bg-white text-emerald-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.cta.startProcessing') || 'Start Secure Processing'}
+        </button>
+        <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-emerald-600 transition-colors">
+          {t('seavoice.pages.solutions.inbound.paymentProcessing.cta.securityOverview') || 'Security Overview'}
+        </button>
+      </div>
+    </div>
+  </section>
+</Layout>
