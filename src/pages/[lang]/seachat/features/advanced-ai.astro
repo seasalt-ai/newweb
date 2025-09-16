@@ -1,0 +1,390 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+// Generate all static paths for supported languages
+export async function getStaticPaths() {
+  const supportedLanguages: SupportedLanguage[] = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers for the current language
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data for the advanced AI page
+const title = t('seachat.features.advancedAI.title') || 'Advanced AI Features';
+const description = t('seachat.features.advancedAI.subtitle') || 'Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.';
+
+const seoData = {
+  title: `${title} | SeaChat`,
+  description,
+  keywords: 'advanced AI, AI features, memory system, RAG, context awareness, intelligent AI, customer support AI',
+  ogTitle: title,
+  ogDescription: description,
+  ogType: 'website'
+};
+
+// Advanced features data
+const advancedFeatures = [
+  {
+    icon: '🔍',
+    title: t('seachat.features.advancedAI.rag.title') || 'Retrieval Augmented Generation (RAG)',
+    description: t('seachat.features.advancedAI.rag.description') || 'Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.',
+    details: [
+      t('seachat.features.advancedAI.rag.details.semantic') || 'Semantic vector search for contextual understanding',
+      t('seachat.features.advancedAI.rag.details.keyword') || 'Traditional keyword matching for exact queries',
+      t('seachat.features.advancedAI.rag.details.hybrid') || 'Hybrid algorithms combining both approaches',
+      t('seachat.features.advancedAI.rag.details.indexing') || 'Real-time content indexing and updates'
+    ],
+    color: 'from-blue-500 to-indigo-600'
+  },
+  {
+    icon: '🧠',
+    title: t('seachat.features.advancedAI.memory.title') || 'Long Term Memory System',
+    description: t('seachat.features.advancedAI.memory.description') || 'Persistent user memory that creates personalized experiences across all interactions.',
+    details: [
+      t('seachat.features.advancedAI.memory.details.preferences') || 'User preference tracking and storage',
+      t('seachat.features.advancedAI.memory.details.history') || 'Conversation history analysis',
+      t('seachat.features.advancedAI.memory.details.patterns') || 'Behavioral pattern recognition',
+      t('seachat.features.advancedAI.memory.details.continuity') || 'Cross-session continuity and context'
+    ],
+    color: 'from-purple-500 to-pink-600'
+  },
+  {
+    icon: '⏰',
+    title: t('seachat.features.advancedAI.timeAwareness.title') || 'Time Awareness Integration',
+    description: t('seachat.features.advancedAI.timeAwareness.description') || 'Context-aware responses based on current time, timezone, and temporal relevance.',
+    details: [
+      t('seachat.features.advancedAI.timeAwareness.details.timestamp') || 'Real-time timestamp integration',
+      t('seachat.features.advancedAI.timeAwareness.details.timezone') || 'Timezone-aware scheduling and responses',
+      t('seachat.features.advancedAI.timeAwareness.details.recommendations') || 'Time-sensitive recommendations',
+      t('seachat.features.advancedAI.timeAwareness.details.hours') || 'Business hours optimization'
+    ],
+    color: 'from-green-500 to-teal-600'
+  },
+  {
+    icon: '🎯',
+    title: t('seachat.features.advancedAI.context.title') || 'Smart Context Extraction',
+    description: t('seachat.features.advancedAI.context.description') || 'Intelligent field mapping and data extraction for better user comprehension.',
+    details: [
+      t('seachat.features.advancedAI.context.details.fields') || 'Custom field definitions and mapping',
+      t('seachat.features.advancedAI.context.details.extraction') || 'Automatic data extraction from conversations',
+      t('seachat.features.advancedAI.context.details.language') || 'User language preference detection',
+      t('seachat.features.advancedAI.context.details.dynamic') || 'Dynamic context building and updates'
+    ],
+    color: 'from-orange-500 to-red-600'
+  },
+  {
+    icon: '📄',
+    title: t('seachat.features.advancedAI.references.title') || 'Referenced Chat Results',
+    description: t('seachat.features.advancedAI.references.description') || 'Transparent AI responses with source citations and confidence scoring.',
+    details: [
+      t('seachat.features.advancedAI.references.details.linking') || 'Source document linking and citations',
+      t('seachat.features.advancedAI.references.details.tracking') || 'Citation tracking and verification',
+      t('seachat.features.advancedAI.references.details.confidence') || 'Confidence scoring for responses',
+      t('seachat.features.advancedAI.references.details.verification') || 'Fact verification and validation'
+    ],
+    color: 'from-teal-500 to-blue-600'
+  },
+  {
+    icon: '🗄️',
+    title: t('seachat.features.advancedAI.knowledge.title') || 'Knowledge Base Refinement',
+    description: t('seachat.features.advancedAI.knowledge.description') || 'Continuous improvement of knowledge base accuracy and relevance.',
+    details: [
+      t('seachat.features.advancedAI.knowledge.details.updating') || 'Auto-updating content based on interactions',
+      t('seachat.features.advancedAI.knowledge.details.scoring') || 'Quality scoring and content ranking',
+      t('seachat.features.advancedAI.knowledge.details.relevance') || 'Relevance optimization algorithms',
+      t('seachat.features.advancedAI.knowledge.details.analytics') || 'Performance analytics and insights'
+    ],
+    color: 'from-indigo-500 to-purple-600'
+  }
+];
+
+// Memory examples data
+const memoryExamples = [
+  {
+    field: t('seachat.features.advancedAI.memoryExamples.language.field') || 'User_Language',
+    description: t('seachat.features.advancedAI.memoryExamples.language.description') || 'Remembers preferred communication language',
+    example: t('seachat.features.advancedAI.memoryExamples.language.example') || 'Customer prefers Spanish responses'
+  },
+  {
+    field: t('seachat.features.advancedAI.memoryExamples.product.field') || 'Product_Interest',
+    description: t('seachat.features.advancedAI.memoryExamples.product.description') || 'Tracks product categories of interest',
+    example: t('seachat.features.advancedAI.memoryExamples.product.example') || 'Interested in premium software solutions'
+  },
+  {
+    field: t('seachat.features.advancedAI.memoryExamples.history.field') || 'Support_History',
+    description: t('seachat.features.advancedAI.memoryExamples.history.description') || 'Maintains context of previous issues',
+    example: t('seachat.features.advancedAI.memoryExamples.history.example') || 'Previously had billing questions resolved'
+  },
+  {
+    field: t('seachat.features.advancedAI.memoryExamples.style.field') || 'Communication_Style',
+    description: t('seachat.features.advancedAI.memoryExamples.style.description') || 'Adapts to preferred interaction style',
+    example: t('seachat.features.advancedAI.memoryExamples.style.example') || 'Prefers detailed technical explanations'
+  }
+];
+
+// Meeting URL helper (similar to old version)
+const getMeetingUrl = (language: string) => {
+  return 'https://calendar.app.google/NL13hnQEG5Mj6LsPA';
+};
+---
+
+<Layout 
+  title={seoData.title}
+  description={seoData.description}
+  keywords={seoData.keywords}
+  lang={currentLang}
+  ogTitle={seoData.ogTitle}
+  ogDescription={seoData.ogDescription}
+  ogType={seoData.ogType}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <span class="text-6xl mr-4">🧠</span>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.features.advancedAI.title') || 'Advanced AI Features'}
+            </h1>
+          </div>
+          <p class="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.features.advancedAI.subtitle') || 'Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-pink-500 hover:bg-pink-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.features.advancedAI.exploreButton') || 'Explore Advanced AI'}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.features.advancedAI.scheduleDemo') || 'Schedule Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advanced Features Grid -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.advancedAI.capabilities.title') || 'Cutting-Edge AI Capabilities'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.advancedAI.capabilities.subtitle') || 'Experience the future of customer support with our advanced AI features that learn, remember, and adapt.'}
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+          {advancedFeatures.map((feature) => (
+            <div class="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class={`w-20 h-20 bg-gradient-to-br ${feature.color} rounded-3xl flex items-center justify-center mb-6`}>
+                <span class="text-3xl">{feature.icon}</span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {feature.title}
+              </h3>
+              
+              <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                {feature.description}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.details.map((detail) => (
+                  <div class="flex items-start space-x-3">
+                    <div class="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <span class="text-gray-700">{detail}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Memory System Deep Dive -->
+    <section class="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.advancedAI.memory.sectionTitle') || 'Long Term Memory in Action'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.advancedAI.memory.sectionSubtitle') || 'See how our AI remembers and learns from every interaction to provide increasingly personalized support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6">
+              {t('seachat.features.advancedAI.memory.fieldsTitle') || 'Context Extraction Fields'}
+            </h3>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.features.advancedAI.memory.fieldsDescription') || 'Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.'}
+            </p>
+            
+            <div class="space-y-6">
+              {memoryExamples.map((example) => (
+                <div class="bg-white rounded-xl p-6 shadow-lg border border-purple-100">
+                  <div class="flex items-center mb-3">
+                    <code class="bg-purple-100 text-purple-800 px-3 py-1 rounded-lg font-mono text-sm">
+                      {example.field}
+                    </code>
+                  </div>
+                  <p class="text-gray-700 mb-2">{example.description}</p>
+                  <p class="text-sm text-gray-500 italic">
+                    {t('seachat.features.advancedAI.memory.example') || 'Example'}: {example.example}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 shadow-2xl">
+            <h4 class="text-xl font-bold text-gray-900 mb-6">
+              {t('seachat.features.advancedAI.memory.timeline') || 'Memory Timeline'}
+            </h4>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-4 h-4 bg-blue-500 rounded-full mt-1"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">
+                    {t('seachat.features.advancedAI.memory.firstInteraction') || 'First Interaction'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seachat.features.advancedAI.memory.firstInteractionDesc') || 'AI learns user preferences and context'}
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <div class="w-4 h-4 bg-purple-500 rounded-full mt-1"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">
+                    {t('seachat.features.advancedAI.memory.ongoingConversations') || 'Ongoing Conversations'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seachat.features.advancedAI.memory.ongoingConversationsDesc') || 'Continuously updates user profile'}
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <div class="w-4 h-4 bg-green-500 rounded-full mt-1"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">
+                    {t('seachat.features.advancedAI.memory.returnVisits') || 'Return Visits'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seachat.features.advancedAI.memory.returnVisitsDesc') || 'Provides personalized, context-aware responses'}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAG Technology Showcase -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.advancedAI.rag.sectionTitle') || 'Retrieval Augmented Generation'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.advancedAI.rag.sectionSubtitle') || 'Advanced search technology that combines multiple approaches for the most accurate information retrieval.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+            <span class="text-6xl mb-6 block">🔍</span>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seachat.features.advancedAI.rag.keyword') || 'Keyword Search'}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.features.advancedAI.rag.keywordDesc') || 'Traditional exact-match searching for precise queries and specific terms.'}
+            </p>
+          </div>
+          
+          <div class="text-center bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">
+            <span class="text-6xl mb-6 block">🧠</span>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seachat.features.advancedAI.rag.vector') || 'Vector Search'}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.features.advancedAI.rag.vectorDesc') || 'Semantic understanding that finds contextually relevant information.'}
+            </p>
+          </div>
+          
+          <div class="text-center bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 border border-green-100">
+            <span class="text-6xl mb-6 block">⚡</span>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seachat.features.advancedAI.rag.hybrid') || 'Hybrid Search'}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.features.advancedAI.rag.hybridDesc') || 'Best of both worlds, combining keyword precision with semantic understanding.'}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="flex items-center justify-center mb-6">
+          <span class="text-6xl mr-4">⭐</span>
+          <h2 class="text-4xl md:text-5xl font-bold text-white">
+            {t('seachat.features.advancedAI.cta.title') || 'Experience the Future of AI'}
+          </h2>
+        </div>
+        <p class="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.features.advancedAI.cta.subtitle') || 'Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.features.advancedAI.cta.signUp') || 'Sign Up For Free'}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+          >
+            {t('seachat.features.advancedAI.cta.scheduleDemo') || 'Schedule Demo'}
+            <span class="ml-2">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

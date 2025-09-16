@@ -1,0 +1,98 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import HealthcarePage from '../../../../components/react/seachat/HealthcarePage';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const seoTitle = t('seachat.solutions.healthcare.seo.title') || 'SeaChat for Healthcare - HIPAA-Compliant Patient Communication Solutions';
+const seoDescription = t('seachat.solutions.healthcare.seo.description') || 'Transform patient care with SeaChat\'s HIPAA-compliant communication platform. Streamline appointments, support telehealth, and improve patient engagement with AI-powered healthcare solutions.';
+const seoKeywords = t('seachat.solutions.healthcare.seo.keywords') || 'SeaChat healthcare, HIPAA compliant, patient communication, healthcare AI, telehealth support, medical appointments, patient engagement';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/healthcare`;
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-healthcare-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-healthcare-twitter.jpg',
+};
+
+// Structured data for Healthcare Solutions
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Healthcare Solutions",
+  "applicationCategory": "HealthcareApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "HIPAA Compliance",
+    "Appointment Management", 
+    "Telehealth Support",
+    "Patient Engagement",
+    "AI-powered Communication",
+    "Multi-language Support"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-healthcare-screenshot.jpg"
+};
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+>
+  <HealthcarePage 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+</Layout>
