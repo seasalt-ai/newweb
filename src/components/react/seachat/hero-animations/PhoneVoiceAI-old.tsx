@@ -64,20 +64,20 @@ const PhoneVoiceAI: React.FC<PhoneVoiceAIProps> = ({ lang, translations }) => {
   }
 
   const callerNames = [
-    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.0', 'Sarah Johnson'),
-    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.1', 'Mike Chen'),
-    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.2', 'Emma Davis'),
-    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.3', 'James Wilson'),
-    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.4', 'Lisa Brown'),
+    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.0', 'John Smith'),
+    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.1', 'Sarah Johnson'),
+    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.2', 'Mike Chen'),
+    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.3', 'Lisa Wong'),
+    getText('seachat.heroAnimations.phoneVoiceAI.callerNames.4', 'David Kim'),
   ];
   
   const conversationFlow = [
-    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.0.caller', 'Hi, I need help with my account') },
-    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.0.ai', 'Hello! I\'d be happy to help with your account. Can you provide your account number?') },
-    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.1.caller', 'It\'s AC-12345') },
-    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.1.ai', 'Thank you! I can see your account now. How can I assist you today?') },
-    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.2.caller', 'I want to update my billing address') },
-    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.2.ai', 'I can help you update your billing address. Let me guide you through the process.') },
+    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.0.caller', 'Hi, I need help with my order') },
+    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.0.ai', 'I\'d be happy to help! Can you provide your order number?') },
+    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.1.caller', 'It\'s order #12345') },
+    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.1.ai', 'I found your order. It was shipped yesterday and should arrive tomorrow.') },
+    { speaker: 'caller', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.2.caller', 'Perfect! Thank you so much') },
+    { speaker: 'ai', text: getText('seachat.heroAnimations.phoneVoiceAI.conversationFlow.2.ai', 'You\'re welcome! Is there anything else I can help you with?') },
   ];
 
   // Generate voice waves
@@ -243,115 +243,72 @@ const PhoneVoiceAI: React.FC<PhoneVoiceAIProps> = ({ lang, translations }) => {
                   ))}
                 </div>
 
-                {/* Current Activity */}
-                <div className="flex items-center justify-center space-x-3">
+                {/* Call Status */}
+                <div className="text-center">
                   {isListening && (
-                    <div className="flex items-center space-x-2 text-blue-400">
-                      <Mic className="w-5 h-5 animate-pulse" />
+                    <div className="flex items-center justify-center space-x-2 text-blue-400">
+                      <Mic className="w-4 h-4" />
                       <span className="text-sm">{getText('seachat.heroAnimations.phoneVoiceAI.status.listening', 'Listening...')}</span>
                     </div>
                   )}
                   {isSpeaking && (
-                    <div className="flex items-center space-x-2 text-green-400">
-                      <Volume2 className="w-5 h-5 animate-pulse" />
-                      <span className="text-sm">{getText('seachat.heroAnimations.phoneVoiceAI.status.aiSpeaking', 'AI Speaking...')}</span>
+                    <div className="flex items-center justify-center space-x-2 text-green-400">
+                      <Volume2 className="w-4 h-4" />
+                      <span className="text-sm">{getText('seachat.heroAnimations.phoneVoiceAI.status.speaking', 'AI Speaking...')}</span>
                     </div>
                   )}
-                  {!isListening && !isSpeaking && (
-                    <div className="flex items-center space-x-2 text-gray-400">
-                      <Bot className="w-5 h-5" />
-                      <span className="text-sm">{getText('seachat.heroAnimations.phoneVoiceAI.status.processing', 'Processing...')}</span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Live Transcript */}
-                <div className="bg-gray-800 rounded-lg p-3 h-32 overflow-y-auto text-left">
-                  <div className="text-xs text-gray-400 mb-2">{getText('seachat.heroAnimations.phoneVoiceAI.status.liveTranscript', 'Live Transcript')}</div>
-                  <div className="space-y-1 text-xs">
-                    {activeCall.transcript.slice(-4).map((line, index) => (
-                      <div
-                        key={index}
-                        className={line.startsWith('AI:') ? 'text-green-400' : 'text-blue-400'}
-                      >
-                        {line}
-                      </div>
-                    ))}
-                  </div>
                 </div>
 
                 {/* Call Controls */}
                 <div className="flex justify-center space-x-4">
-                  <button className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center">
-                    <PhoneCall className="w-6 h-6 text-white transform rotate-135" />
+                  <button className="w-14 h-14 bg-red-500 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors">
+                    <Phone className="w-6 h-6 text-white transform rotate-135" />
                   </button>
                 </div>
+
+                {/* Transcript Preview */}
+                {activeCall.transcript.length > 0 && (
+                  <div className="bg-gray-800 rounded-lg p-3 max-h-20 overflow-y-auto">
+                    <div className="text-xs text-gray-300">
+                      {activeCall.transcript.slice(-2).map((line, index) => (
+                        <div key={index} className="mb-1">{line}</div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             ) : (
-              /* Waiting State */
-              <div className="text-center text-white space-y-8">
-                <div className="space-y-2">
-                  <div className="text-lg font-semibold">{getText('seachat.heroAnimations.phoneVoiceAI.waiting.ready', 'Voice AI Ready')}</div>
-                  <div className="text-sm text-gray-400">{getText('seachat.heroAnimations.phoneVoiceAI.waiting.subtitle', 'Waiting for incoming calls...')}</div>
-                </div>
-
-                {/* Phone Icon with Pulse */}
-                <div className="flex justify-center">
-                  <div className="relative">
-                    <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center animate-pulse">
-                      <Phone className="w-10 h-10 text-white" />
-                    </div>
-                    <div className="absolute inset-0 w-20 h-20 bg-green-500 rounded-full animate-ping opacity-30" />
+              /* Idle Interface */
+              <div className="text-center text-white space-y-8 flex flex-col justify-center h-full">
+                <div className="space-y-4">
+                  <div className="w-24 h-24 mx-auto bg-gradient-to-br from-blue-500 to-teal-500 rounded-full flex items-center justify-center">
+                    <Phone className="w-12 h-12 text-white" />
                   </div>
+                  <h3 className="text-xl font-semibold">{getText('seachat.heroAnimations.phoneVoiceAI.idle.title', 'Voice AI Ready')}</h3>
+                  <p className="text-gray-400 text-sm">{getText('seachat.heroAnimations.phoneVoiceAI.idle.subtitle', 'Waiting for incoming calls...')}</p>
                 </div>
 
                 {/* Stats */}
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="text-center">
+                <div className="grid grid-cols-2 gap-4 text-center">
+                  <div className="bg-gray-800 rounded-lg p-3">
                     <div className="text-2xl font-bold text-green-400">{callCount}</div>
-                    <div className="text-gray-400">{getText('seachat.heroAnimations.phoneVoiceAI.stats.callsHandled', 'Calls Handled')}</div>
+                    <div className="text-xs text-gray-400">{getText('seachat.heroAnimations.phoneVoiceAI.stats.callsHandled', 'Calls Handled')}</div>
                   </div>
-                  <div className="text-center">
+                  <div className="bg-gray-800 rounded-lg p-3">
                     <div className="text-2xl font-bold text-blue-400">24/7</div>
-                    <div className="text-gray-400">{getText('seachat.heroAnimations.phoneVoiceAI.stats.available', 'Available')}</div>
+                    <div className="text-xs text-gray-400">{getText('seachat.heroAnimations.phoneVoiceAI.stats.availability', 'Availability')}</div>
                   </div>
                 </div>
               </div>
             )}
           </div>
-
-          {/* Incoming Call Notification */}
-          {calls.some(call => call.status === 'incoming') && (
-            <div className="absolute -top-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium animate-bounce">
-              {getText('seachat.heroAnimations.phoneVoiceAI.incomingCall', 'Incoming Call')}
-            </div>
-          )}
-
-          {/* AI Processing Indicators */}
-          <div className="absolute -left-8 top-1/2 transform -translate-y-1/2 space-y-2">
-            <div className="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center animate-pulse">
-              <Zap className="w-3 h-3 text-white" />
-            </div>
-            <div className="w-4 h-4 bg-blue-500 rounded-full animate-ping" />
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-bounce" />
-          </div>
-
-          {/* Features List */}
-          <div className="absolute -right-32 top-8 space-y-3 text-sm">
-            <div className="bg-white rounded-lg p-3 shadow-lg border-l-4 border-green-500">
-              <div className="font-semibold text-gray-800">{getText('seachat.heroAnimations.phoneVoiceAI.features.naturalSpeech.title', 'Natural Speech')}</div>
-              <div className="text-gray-600">{getText('seachat.heroAnimations.phoneVoiceAI.features.naturalSpeech.description', 'Human-like conversation')}</div>
-            </div>
-            <div className="bg-white rounded-lg p-3 shadow-lg border-l-4 border-blue-500">
-              <div className="font-semibold text-gray-800">{getText('seachat.heroAnimations.phoneVoiceAI.features.smartRecognition.title', 'Smart Recognition')}</div>
-              <div className="text-gray-600">{getText('seachat.heroAnimations.phoneVoiceAI.features.smartRecognition.description', 'Advanced voice processing')}</div>
-            </div>
-            <div className="bg-white rounded-lg p-3 shadow-lg border-l-4 border-purple-500">
-              <div className="font-semibold text-gray-800">{getText('seachat.heroAnimations.phoneVoiceAI.features.contextAware.title', 'Context Aware')}</div>
-              <div className="text-gray-600">{getText('seachat.heroAnimations.phoneVoiceAI.features.contextAware.description', 'Remembers conversation')}</div>
-            </div>
-          </div>
         </div>
+      </div>
+
+      {/* Title */}
+      <div className="absolute bottom-4 left-4 right-4 text-center">
+        <h3 className="text-lg font-bold text-gray-800">{getText('seachat.heroAnimations.phoneVoiceAI.title', 'AI Voice Agent')}</h3>
+        <p className="text-sm text-gray-600">{getText('seachat.heroAnimations.phoneVoiceAI.subtitle', '24/7 intelligent phone support')}</p>
       </div>
     </div>
   );

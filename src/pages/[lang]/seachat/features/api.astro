@@ -1,0 +1,266 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { Code, Zap, Shield, Globe, Book } from 'lucide-react';
+import { CodeExample, ApiEndpoints } from '../../../../components/react/seachat/ApiPageComponents';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Get language and i18n functions
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO data
+const seoTitle = t('seachat.features.api.title') + ' - SeaChat';
+const seoDescription = t('seachat.features.api.subtitle');
+const seoKeywords = 'SeaChat API, developer tools, REST API, webhooks, API integration, custom development';
+const canonicalUrl = currentLang === 'en' ? 'https://seasalt.ai/seachat/features/api' : `https://seasalt.ai/${currentLang}/seachat/features/api`;
+
+// 麵包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: 'API & Developer Tools' }
+];
+
+// Page data
+const features = [
+  {
+    icon: Code,
+    title: t('seachat.features.api.restful.title'),
+    description: t('seachat.features.api.restful.description'),
+    color: 'from-blue-500 to-indigo-600'
+  },
+  {
+    icon: Zap,
+    title: t('seachat.features.api.webhooks.title'),
+    description: t('seachat.features.api.webhooks.description'),
+    color: 'from-green-500 to-teal-600'
+  },
+  {
+    icon: Shield,
+    title: t('seachat.features.api.security.title'),
+    description: t('seachat.features.api.security.description'),
+    color: 'from-purple-500 to-pink-600'
+  },
+  {
+    icon: Globe,
+    title: t('seachat.features.api.cdn.title'),
+    description: t('seachat.features.api.cdn.description'),
+    color: 'from-orange-500 to-red-600'
+  }
+];
+
+const sdks = [
+  { name: 'JavaScript/Node.js', icon: '🟨', status: t('seachat.features.api.sdks.available') },
+  { name: 'Python', icon: '🐍', status: t('seachat.features.api.sdks.available') },
+  { name: 'PHP', icon: '🐘', status: t('seachat.features.api.sdks.available') },
+  { name: 'Ruby', icon: '💎', status: t('seachat.features.api.sdks.available') },
+  { name: 'Java', icon: '☕', status: t('seachat.features.api.sdks.available') },
+  { name: 'C#/.NET', icon: '🔷', status: t('seachat.features.api.sdks.available') },
+  { name: 'Go', icon: '🐹', status: t('seachat.features.api.sdks.comingSoon') },
+  { name: 'Rust', icon: '🦀', status: t('seachat.features.api.sdks.comingSoon') }
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={currentLang}
+  keywords={seoKeywords}
+  type="service"
+  breadcrumbs={breadcrumbs}
+  image="https://seasalt.ai/seasalt-ai-og-image.png"
+  article={{
+    publishedTime: '2024-01-01T00:00:00Z',
+    modifiedTime: '2024-01-15T00:00:00Z',
+    author: 'SeaChat Team',
+    section: 'Features'
+  }}
+>
+  <main>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-800 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <Code size={64} class="text-blue-300 mr-4" />
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.features.api.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.features.api.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.features.api.getKeyButton')}
+            </a>
+            <a
+              href="https://api.seasalt.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.features.api.viewDocsButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.api.featuresTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.api.featuresSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {features.map((feature, index) => {
+            const IconComponent = feature.icon;
+            return (
+              <div
+                key={index}
+                class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+              >
+                <div class={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mb-6`}>
+                  <IconComponent size={32} class="text-white" />
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+                <p class="text-gray-600 leading-relaxed">{feature.description}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- API Endpoints -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.api.endpointsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.api.endpointsSubtitle')}
+          </p>
+        </div>
+
+        <ApiEndpoints 
+          client:only="react" 
+          lang={currentLang} 
+          translations={translations}
+        />
+      </div>
+    </section>
+
+    <!-- SDKs and Libraries -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.api.sdksTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.api.sdksSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {sdks.map((sdk, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-all duration-300"
+            >
+              <div class="text-4xl mb-4">{sdk.icon}</div>
+              <h3 class="font-bold text-gray-900 mb-2">{sdk.name}</h3>
+              <span class={`inline-block px-3 py-1 rounded-full text-sm font-medium ${
+                sdk.status === t('seachat.features.api.sdks.available') 
+                  ? 'bg-green-100 text-green-800' 
+                  : 'bg-yellow-100 text-yellow-800'
+              }`}>
+                {sdk.status}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Code Example -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.api.exampleTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.api.exampleSubtitle')}
+          </p>
+        </div>
+
+        <CodeExample 
+          client:only="react" 
+          lang={currentLang} 
+          translations={translations}
+        />
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-gray-900 to-blue-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.features.api.ctaTitle')}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.features.api.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.features.api.ctaAccessButton')}
+          </a>
+          <a
+            href="https://api.seasalt.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            <Book size={20} class="mr-2" />
+            {t('seachat.features.api.ctaDocsButton')}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

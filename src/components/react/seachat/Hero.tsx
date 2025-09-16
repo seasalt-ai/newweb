@@ -6,6 +6,9 @@ import { useTranslation, type SupportedLanguage } from '../../../i18n/helpers';
 import MultiChannelFlow from './hero-animations/MultiChannelFlow';
 import AgentToAI from './hero-animations/AgentToAI';
 import PhoneVoiceAI from './hero-animations/PhoneVoiceAI';
+import RealtimeDashboard from './hero-animations/RealtimeDashboard';
+import InteractiveChannels from './hero-animations/InteractiveChannels';
+import ConversationLearning from './hero-animations/ConversationLearning';
 
 interface HeroProps {
   lang: SupportedLanguage;
@@ -59,6 +62,12 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
       component: PhoneVoiceAI,
     },
     {
+      id: 'interactive',
+      name: getText('seachat.hero.animations.interactive.name', 'Interactive Channels'),
+      description: getText('seachat.hero.animations.interactive.description', 'Multi-platform support'),
+      component: InteractiveChannels,
+    },
+    {
       id: 'multiChannel',
       name: getText('seachat.hero.animations.multiChannel.name', 'Multi-Channel'),
       description: getText('seachat.hero.animations.multiChannel.description', 'All platforms unified'),
@@ -66,9 +75,21 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
     },
     {
       id: 'agentToAI',
-      name: getText('seachat.hero.animations.agentToAI.name', 'AI Learning'),
+      name: getText('seachat.hero.animations.agentToAI.name', 'Agent to AI'),
       description: getText('seachat.hero.animations.agentToAI.description', 'Learns from humans'),
       component: AgentToAI,
+    },
+    {
+      id: 'learning',
+      name: getText('seachat.hero.animations.learning.name', 'AI Learning'),
+      description: getText('seachat.hero.animations.learning.description', 'Continuous improvement'),
+      component: ConversationLearning,
+    },
+    {
+      id: 'dashboard',
+      name: getText('seachat.hero.animations.dashboard.name', 'Real-time Dashboard'),
+      description: getText('seachat.hero.animations.dashboard.description', 'Live performance metrics'),
+      component: RealtimeDashboard,
     },
   ], [getText]);
 
@@ -120,7 +141,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
               <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
               <span className="text-sm font-medium text-white">
-                {getText('seachat.hero.badge', 'AI-Powered Customer Support')}
+                {getText('seachat.hero.badge', 'Start Free with Live Agents')}
               </span>
             </div>
 
@@ -134,26 +155,26 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                   color: 'white'
                 }}
               >
-                <span className="block">{getText('seachat.hero.title.line1', 'Smart AI')}</span>
+                <span className="block">{getText('seachat.hero.title.line1', 'Respond To')}</span>
                 <span className="block">
-                  <span className="text-teal-300">{getText('seachat.hero.title.line2', 'Customer Support')}</span>
+                  <span className="text-teal-300">{getText('seachat.hero.title.line2', 'Millions 24/7')}</span>
                 </span>
               </h1>
             </div>
             
             <p className="text-xl text-blue-100 leading-relaxed">
-              {getText('seachat.hero.description', 'Transform your customer conversations with SeaChat\'s intelligent chatbot platform. Automate support across all channels while maintaining a human touch.')}
+              {getText('seachat.hero.description', 'Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://chat.seasalt.ai/gpt/signup" className="block">
                 <button className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg w-full">
-                  {getText('seachat.hero.startFree', 'Start Free Trial')}
+                  {getText('seachat.hero.startFree', 'Start Free Now')}
                 </button>
               </a>
               <a href="https://calendly.com/seasalt-ai/seasalt-ai-demo" className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
-                  {getText('seachat.hero.exploreAI', 'Schedule Demo')}
+                  {getText('seachat.hero.exploreAI', 'Book A Demo')}
                 </button>
               </a>
             </div>
@@ -161,7 +182,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
             <div className="flex items-center space-x-8 text-blue-200">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span>{getText('seachat.hero.alwaysFree', 'Always Free')}</span>
+                <span>{getText('seachat.hero.alwaysFree', 'Always Free Plan')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
@@ -169,7 +190,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span>{getText('seachat.hero.setup', '2-min Setup')}</span>
+                <span>{getText('seachat.hero.setup', 'Setup in 2 Minutes')}</span>
               </div>
             </div>
           </div>
@@ -180,7 +201,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
               {/* Animation Controls */}
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-white font-semibold">{getText('seachat.hero.animationSection.title', 'Interactive Demo')}</h3>
+                  <h3 className="text-white font-semibold">{getText('seachat.hero.animationSection.title', 'SeaChat in Action')}</h3>
                   <button
                     onClick={() => setAutoRotate(!autoRotate)}
                     className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
@@ -195,7 +216,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                 </div>
                 
                 {/* Animation Selector */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                   {animations.map((animation) => (
                     <button
                       key={animation.id}
