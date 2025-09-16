@@ -1,0 +1,435 @@
+---
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO配置
+const seoData = {
+  title: t('seavoice.pages.solutions.hero.title') || 'AI Voice Solutions - SeaVoice',
+  description: t('seavoice.pages.solutions.hero.description') || 'Discover comprehensive voice AI solutions for inbound customer service and outbound campaigns that transform your business communications.',
+  canonical: `/${currentLang}/seavoice/solutions`,
+};
+
+// Inbound Solutions 配置
+const inboundSolutions = [
+  {
+    title: t('seavoice.pages.solutions.inbound.virtualAssistant.title') || '24/7 Virtual Assistant',
+    description: t('seavoice.pages.solutions.inbound.virtualAssistant.description') || 'Handle customer inquiries around the clock with AI agents that never sleep.',
+    icon: 'clock',
+    link: `/${currentLang}/seavoice/solutions/inbound/virtual-assistant`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.virtualAssistant.benefit1') || '24/7 availability',
+      t('seavoice.pages.solutions.inbound.virtualAssistant.benefit2') || 'Consistent quality service',
+      t('seavoice.pages.solutions.inbound.virtualAssistant.benefit3') || 'Reduced operational costs'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.smartCallTransfer.title') || 'Smart Call Transfer',
+    description: t('seavoice.pages.solutions.inbound.smartCallTransfer.description') || 'Intelligently route calls to the right human agents when needed.',
+    icon: 'phone-incoming',
+    link: `/${currentLang}/seavoice/solutions/inbound/call-transfer`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit1') || 'Contextual handoffs',
+      t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit2') || 'Reduced wait times',
+      t('seavoice.pages.solutions.inbound.smartCallTransfer.benefit3') || 'Higher satisfaction rates'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.ivrReplacement.title') || 'IVR Replacement',
+    description: t('seavoice.pages.solutions.inbound.ivrReplacement.description') || 'Replace outdated phone menus with natural conversation flows.',
+    icon: 'zap',
+    link: `/${currentLang}/seavoice/solutions/inbound/ivr-replacement`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.ivrReplacement.benefit1') || 'Natural conversations',
+      t('seavoice.pages.solutions.inbound.ivrReplacement.benefit2') || 'Faster resolution',
+      t('seavoice.pages.solutions.inbound.ivrReplacement.benefit3') || 'Better user experience'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.mentalHealth.title') || 'Mental Health Companion',
+    description: t('seavoice.pages.solutions.inbound.mentalHealth.description') || 'Provide empathetic support and crisis intervention with AI assistants.',
+    icon: 'heart',
+    link: `/${currentLang}/seavoice/solutions/inbound/mental-health`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.mentalHealth.benefit1') || 'Always available support',
+      t('seavoice.pages.solutions.inbound.mentalHealth.benefit2') || 'Consistent empathetic responses',
+      t('seavoice.pages.solutions.inbound.mentalHealth.benefit3') || 'Crisis detection and escalation'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.scamShield.title') || 'Scam Shield Protection',
+    description: t('seavoice.pages.solutions.inbound.scamShield.description') || 'Protect customers from fraudulent calls and verify legitimate communications.',
+    icon: 'shield',
+    link: `/${currentLang}/seavoice/solutions/inbound/scam-shield`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.scamShield.benefit1') || 'Fraud detection',
+      t('seavoice.pages.solutions.inbound.scamShield.benefit2') || 'Identity verification',
+      t('seavoice.pages.solutions.inbound.scamShield.benefit3') || 'Real-time alerts'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.title') || 'Technical Support',
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.description') || 'Resolve technical issues with step-by-step troubleshooting guidance.',
+    icon: 'zap',
+    link: `/${currentLang}/seavoice/solutions/inbound/technical-support`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.benefit1') || 'Expert troubleshooting',
+      t('seavoice.pages.solutions.inbound.technicalSupport.benefit2') || 'Instant diagnostics',
+      t('seavoice.pages.solutions.inbound.technicalSupport.benefit3') || 'Knowledge base integration'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.orderTracking.title') || 'Order Status & Tracking',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.description') || 'Provide real-time order updates and delivery information to customers.',
+    icon: 'phone-incoming',
+    link: `/${currentLang}/seavoice/solutions/inbound/order-tracking`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.orderTracking.benefit1') || 'Real-time updates',
+      t('seavoice.pages.solutions.inbound.orderTracking.benefit2') || 'Automated notifications',
+      t('seavoice.pages.solutions.inbound.orderTracking.benefit3') || 'Reduced support volume'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.paymentProcessing.title') || 'Payment Processing',
+    description: t('seavoice.pages.solutions.inbound.paymentProcessing.description') || 'Securely handle payment inquiries and process transactions over voice.',
+    icon: 'credit-card',
+    link: `/${currentLang}/seavoice/solutions/inbound/payment-processing`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.paymentProcessing.benefit1') || 'Secure transactions',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.benefit2') || 'PCI compliance',
+      t('seavoice.pages.solutions.inbound.paymentProcessing.benefit3') || 'Automated billing'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.inbound.appointmentBooking.title') || 'Appointment Booking',
+    description: t('seavoice.pages.solutions.inbound.appointmentBooking.description') || 'Schedule appointments and manage calendars through natural voice interactions.',
+    icon: 'calendar',
+    link: `/${currentLang}/seavoice/solutions/inbound/appointment-booking`,
+    benefits: [
+      t('seavoice.pages.solutions.inbound.appointmentBooking.benefit1') || 'Seamless scheduling',
+      t('seavoice.pages.solutions.inbound.appointmentBooking.benefit2') || 'Calendar integration',
+      t('seavoice.pages.solutions.inbound.appointmentBooking.benefit3') || 'Automated confirmations'
+    ]
+  }
+];
+
+// Outbound Solutions 配置
+const outboundSolutions = [
+  {
+    title: t('seavoice.pages.solutions.outbound.leadGeneration.title') || 'Lead Generation & Qualification',
+    description: t('seavoice.pages.solutions.outbound.leadGeneration.description') || 'Identify and qualify potential customers with intelligent outbound campaigns.',
+    icon: 'users',
+    link: `/${currentLang}/seavoice/solutions/outbound/lead-generation`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.leadGeneration.benefit1') || 'Automated prospecting',
+      t('seavoice.pages.solutions.outbound.leadGeneration.benefit2') || 'Quality lead scoring',
+      t('seavoice.pages.solutions.outbound.leadGeneration.benefit3') || 'Higher conversion rates'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.collections.title') || 'Collections Service',
+    description: t('seavoice.pages.solutions.outbound.collections.description') || 'Manage debt collection with empathetic and compliant voice interactions.',
+    icon: 'credit-card',
+    link: `/${currentLang}/seavoice/solutions/outbound/collections`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.collections.benefit1') || 'Compliance assured',
+      t('seavoice.pages.solutions.outbound.collections.benefit2') || 'Empathetic approach',
+      t('seavoice.pages.solutions.outbound.collections.benefit3') || 'Higher recovery rates'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.reactivation.title') || 'Customer Reactivation',
+    description: t('seavoice.pages.solutions.outbound.reactivation.description') || 'Win back lost customers with personalized outreach campaigns.',
+    icon: 'users',
+    link: `/${currentLang}/seavoice/solutions/outbound/reactivation`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.reactivation.benefit1') || 'Personalized outreach',
+      t('seavoice.pages.solutions.outbound.reactivation.benefit2') || 'Win-back offers',
+      t('seavoice.pages.solutions.outbound.reactivation.benefit3') || 'Retention improvement'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.seniorChecks.title') || 'Senior Check Calls',
+    description: t('seavoice.pages.solutions.outbound.seniorChecks.description') || 'Provide wellness checks and social connection for elderly community members.',
+    icon: 'heart',
+    link: `/${currentLang}/seavoice/solutions/outbound/senior-checks`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.seniorChecks.benefit1') || 'Regular wellness checks',
+      t('seavoice.pages.solutions.outbound.seniorChecks.benefit2') || 'Social companionship',
+      t('seavoice.pages.solutions.outbound.seniorChecks.benefit3') || 'Emergency detection'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.campaigns.title') || 'Large Scale Campaigns',
+    description: t('seavoice.pages.solutions.outbound.campaigns.description') || 'Execute massive outbound campaigns with consistent messaging and quality.',
+    icon: 'phone-outgoing',
+    link: `/${currentLang}/seavoice/solutions/outbound/campaigns`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.campaigns.benefit1') || 'Massive scale capability',
+      t('seavoice.pages.solutions.outbound.campaigns.benefit2') || 'Consistent messaging',
+      t('seavoice.pages.solutions.outbound.campaigns.benefit3') || 'Real-time optimization'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.proactiveSupport.title') || 'Proactive Support',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.description') || 'Reach out to customers before problems occur with predictive support.',
+    icon: 'zap',
+    link: `/${currentLang}/seavoice/solutions/outbound/proactive-support`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.benefit1') || 'Issue prevention',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.benefit2') || 'Predictive insights',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.benefit3') || 'Customer satisfaction'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.renewals.title') || 'Subscription Renewals',
+    description: t('seavoice.pages.solutions.outbound.renewals.description') || 'Automate subscription renewal processes with personalized renewal campaigns.',
+    icon: 'clock',
+    link: `/${currentLang}/seavoice/solutions/outbound/renewals`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.renewals.benefit1') || 'Automated renewals',
+      t('seavoice.pages.solutions.outbound.renewals.benefit2') || 'Personalized offers',
+      t('seavoice.pages.solutions.outbound.renewals.benefit3') || 'Higher retention'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.surveys.title') || 'Customer Surveys',
+    description: t('seavoice.pages.solutions.outbound.surveys.description') || 'Collect valuable customer feedback through natural voice conversations.',
+    icon: 'users',
+    link: `/${currentLang}/seavoice/solutions/outbound/surveys`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.surveys.benefit1') || 'Higher response rates',
+      t('seavoice.pages.solutions.outbound.surveys.benefit2') || 'Natural conversations',
+      t('seavoice.pages.solutions.outbound.surveys.benefit3') || 'Actionable insights'
+    ]
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.fraudAlerts.title') || 'Fraud Alerts',
+    description: t('seavoice.pages.solutions.outbound.fraudAlerts.description') || 'Instantly notify customers of suspicious activities and security threats.',
+    icon: 'shield',
+    link: `/${currentLang}/seavoice/solutions/outbound/fraud-alerts`,
+    benefits: [
+      t('seavoice.pages.solutions.outbound.fraudAlerts.benefit1') || 'Instant notifications',
+      t('seavoice.pages.solutions.outbound.fraudAlerts.benefit2') || 'Security verification',
+      t('seavoice.pages.solutions.outbound.fraudAlerts.benefit3') || 'Fraud prevention'
+    ]
+  }
+];
+
+// 圖示組件映射
+function getIconSvg(iconName: string) {
+  const icons = {
+    'clock': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>',
+    'phone-incoming': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>',
+    'phone-outgoing': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>',
+    'zap': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>',
+    'heart': '<svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>',
+    'shield': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>',
+    'users': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>',
+    'credit-card': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>',
+    'calendar': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>'
+  };
+  return icons[iconName as keyof typeof icons] || icons.clock;
+}
+---
+
+<Layout seo={seoData} lang={currentLang}>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.hero.title') || 'Comprehensive AI Voice Solutions'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.pages.solutions.hero.description') || 'Discover comprehensive voice AI solutions for inbound customer service and outbound campaigns that transform your business communications.'}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inbound Solutions -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-12 h-12 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          <h2 class="text-4xl font-bold text-gray-900">{t('seavoice.pages.solutions.inbound.header') || 'Inbound Solutions'}</h2>
+        </div>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.description') || 'Handle incoming calls with intelligent AI agents that provide exceptional customer service 24/7.'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {inboundSolutions.map((solution) => (
+          <div class="group">
+            <a href={solution.link}>
+              <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 group-hover:border-blue-300 h-full">
+                <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center mb-6">
+                  <Fragment set:html={getIconSvg(solution.icon)} />
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
+                  {solution.title}
+                </h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">{solution.description}</p>
+                <div class="space-y-2 mb-6">
+                  {solution.benefits.map((benefit) => (
+                    <div class="flex items-center">
+                      <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                      <span class="text-sm text-gray-700">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+                <div class="flex items-center text-blue-600 font-semibold group-hover:translate-x-2 transition-transform">
+                  {t('seavoice.pages.solutions.learnMore') || 'Learn More'} 
+                  <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Outbound Solutions -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-12 h-12 text-teal-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          <h2 class="text-4xl font-bold text-gray-900">{t('seavoice.pages.solutions.outbound.header') || 'Outbound Solutions'}</h2>
+        </div>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.outbound.description') || 'Proactively reach out to customers with intelligent campaigns that drive engagement and growth.'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {outboundSolutions.map((solution) => (
+          <div class="group">
+            <a href={solution.link}>
+              <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 group-hover:border-teal-300 h-full">
+                <div class="w-12 h-12 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+                  <Fragment set:html={getIconSvg(solution.icon)} />
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-teal-600 transition-colors">
+                  {solution.title}
+                </h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">{solution.description}</p>
+                <div class="space-y-2 mb-6">
+                  {solution.benefits.map((benefit) => (
+                    <div class="flex items-center">
+                      <div class="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <span class="text-sm text-gray-700">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+                <div class="flex items-center text-teal-600 font-semibold group-hover:translate-x-2 transition-transform">
+                  {t('seavoice.pages.solutions.learnMore') || 'Learn More'} 
+                  <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Benefits Section -->
+  <section class="py-20 bg-blue-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">Why Choose SeaVoice Solutions?</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Our AI voice solutions deliver measurable results across all customer touchpoints.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+          <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">24/7 Availability</h3>
+          <p class="text-gray-600 text-sm">Never miss a customer call with round-the-clock AI agents</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+          <div class="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Cost Reduction</h3>
+          <p class="text-gray-600 text-sm">Reduce operational costs by up to 80% with AI automation</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+          <div class="w-16 h-16 bg-gradient-to-r from-purple-400 to-purple-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Customer Satisfaction</h3>
+          <p class="text-gray-600 text-sm">Improve satisfaction scores with consistent, empathetic service</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+          <div class="w-16 h-16 bg-gradient-to-r from-indigo-400 to-indigo-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Scalability</h3>
+          <p class="text-gray-600 text-sm">Handle unlimited concurrent calls without hiring more staff</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.cta.title') || 'Ready to Transform Your Business Communications?'}</h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.pages.solutions.cta.description') || 'Discover how AI voice solutions can revolutionize your customer experience and business operations.'}
+      </p>
+      <a
+        href="https://chat.seasalt.ai/gpt/signup"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+      >
+        {t('seavoice.pages.solutions.cta.button') || 'Get Started Today'}
+      </a>
+    </div>
+  </section>
+</Layout>

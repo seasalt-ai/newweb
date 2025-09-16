@@ -1,0 +1,273 @@
+---
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// Generate SEO data
+const seoData = {
+  title: t('seavoice.solutions.inbound.callTransfer.hero.title') || 'Smart Call Transfer - SeaVoice',
+  description: t('seavoice.solutions.inbound.callTransfer.hero.description') || 'Transform your call routing with AI-powered intelligent transfer technology that understands caller intent and routes them to the right person instantly.',
+  keywords: 'call transfer, intelligent routing, AI call routing, customer service, call center, SeaVoice',
+  ogImage: '/images/og/seavoice-call-transfer.jpg'
+};
+
+// Data structures from the original React component
+const features = [
+  {
+    iconType: 'zap',
+    title: t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.title') || 'Smart Routing',
+    description: t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.description') || 'AI analyzes caller intent and routes to the most appropriate department or agent.',
+    benefits: [
+      t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.0') || 'Intent Recognition',
+      t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.1') || 'Skill-based Routing',
+      t('seavoice.solutions.inbound.callTransfer.features.intelligentRouting.benefits.2') || 'Priority Handling'
+    ]
+  },
+  {
+    iconType: 'users',
+    title: t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.title') || 'Agent Optimization',
+    description: t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.description') || 'Balance workload among agents to ensure calls reach available professional staff.',
+    benefits: [
+      t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.0') || 'Load Balancing',
+      t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.1') || 'Availability Check',
+      t('seavoice.solutions.inbound.callTransfer.features.agentOptimization.benefits.2') || 'Expertise Matching'
+    ]
+  },
+  {
+    iconType: 'clock',
+    title: t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.title') || 'Reduced Wait Times',
+    description: t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.description') || 'Minimize customer wait times through efficient routing and queue management.',
+    benefits: [
+      t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.0') || 'Queue Optimization',
+      t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.1') || 'Callback Options',
+      t('seavoice.solutions.inbound.callTransfer.features.reducedWaitTimes.benefits.2') || 'Real-time Updates'
+    ]
+  }
+];
+
+const routingRules = [
+  {
+    trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.trigger') || 'Billing Inquiry',
+    action: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.action') || 'Route to Billing Department',
+    result: t('seavoice.solutions.inbound.callTransfer.routingRules.billingInquiry.result') || '90% first call resolution'
+  },
+  {
+    trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.trigger') || 'Technical Support',
+    action: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.action') || 'Route to Technical Team',
+    result: t('seavoice.solutions.inbound.callTransfer.routingRules.technicalSupport.result') || '85% problem resolution rate'
+  },
+  {
+    trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.trigger') || 'Sales Inquiry',
+    action: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.action') || 'Route to Sales Team',
+    result: t('seavoice.solutions.inbound.callTransfer.routingRules.salesInterest.result') || '40% conversion rate'
+  },
+  {
+    trigger: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.trigger') || 'VIP Customer',
+    action: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.action') || 'Priority Queue',
+    result: t('seavoice.solutions.inbound.callTransfer.routingRules.vipCustomer.result') || '< 30 second wait time'
+  }
+];
+
+const benefits = [
+  { metric: '70%', description: t('seavoice.solutions.inbound.callTransfer.metrics.waitTime.description') || 'Average wait time reduction' },
+  { metric: '85%', description: t('seavoice.solutions.inbound.callTransfer.metrics.resolution.description') || 'First call resolution rate' },
+  { metric: '40%', description: t('seavoice.solutions.inbound.callTransfer.metrics.efficiency.description') || 'Agent efficiency improvement' },
+  { metric: '95%', description: t('seavoice.solutions.inbound.callTransfer.metrics.accuracy.description') || 'Correct department routing accuracy' }
+];
+---
+
+<Layout 
+  title={seoData.title}
+  description={seoData.description}
+  keywords={seoData.keywords}
+  ogImage={seoData.ogImage}
+  lang={currentLang}
+  jsonLd={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": seoData.title,
+    "description": seoData.description,
+    "url": Astro.url.href,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Seasalt.ai",
+      "url": "https://seasalt.ai"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "SeaVoice Call Transfer",
+      "description": seoData.description,
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "description": "AI-powered call transfer and routing solution"
+      }
+    }
+  }}
+>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-blue-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-16 h-16 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+          </svg>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.callTransfer.hero.title') || 'Smart Business Hours Call Transfer'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.solutions.inbound.callTransfer.hero.description') || 'Transform your call routing with AI-powered intelligent transfer technology that understands caller intent and routes them to the right person instantly, reducing wait times and improving customer satisfaction.'}
+        </p>
+        <button class="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors">
+          {t('seavoice.solutions.inbound.callTransfer.hero.primaryCta') || 'Optimize Your Call Routing'}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.callTransfer.features.title') || 'Smart Call Routing Features'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.callTransfer.features.description') || 'Advanced AI technology that accurately understands and routes calls'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              {feature.iconType === 'zap' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              )}
+              {feature.iconType === 'users' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                </svg>
+              )}
+              {feature.iconType === 'clock' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Routing Rules Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.callTransfer.routing.title') || 'Smart Routing in Action'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.callTransfer.routing.description') || 'See how our AI identifies intent and routes calls for optimal results'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {routingRules.map((rule, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-bold text-gray-900">{rule.trigger}</h3>
+              <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-4">{rule.action}</p>
+            <div class="p-3 bg-green-50 rounded-lg">
+              <p class="text-sm font-semibold text-green-800">{rule.result}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Metrics Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.callTransfer.benefits.title') || 'Measurable Results'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.callTransfer.benefits.description') || 'Real outcomes from implementing smart call transfer'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {benefits.map((benefit, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-green-600 mb-4">{benefit.metric}</div>
+            <p class="text-gray-600">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">
+        {t('seavoice.solutions.inbound.callTransfer.cta.title') || 'Ready to Optimize Your Call Routing?'}
+      </h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.solutions.inbound.callTransfer.cta.description') || 'Reduce wait times and improve customer satisfaction with intelligent call transfer'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+          {t('seavoice.solutions.inbound.callTransfer.cta.primaryButton') || 'Start Free Trial'}
+        </button>
+        <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
+          {t('seavoice.solutions.inbound.callTransfer.cta.secondaryButton') || 'Watch Demo'}
+        </button>
+      </div>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,41 @@
+---
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+import LeadGenerationPage from '../../../../../components/react/seavoice/solutions/outbound/LeadGenerationPage';
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯資源
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO 內容
+const seoTitle = t('seavoice.pages.solutions.outbound.leadGeneration.hero.title') || 'Lead Generation & Qualification - SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.outbound.leadGeneration.hero.subtitle') || 'Transform your sales pipeline with AI-powered lead generation that identifies, qualifies, and nurtures prospects automatically.';
+const seoKeywords = 'AI lead generation, sales automation, lead qualification, outbound calling, prospect identification, sales pipeline, SeaVoice';
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+>
+  <LeadGenerationPage 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+</Layout>

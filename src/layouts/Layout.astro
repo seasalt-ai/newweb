@@ -10,13 +10,37 @@ export interface Props {
 	keywords?: string;
 	image?: string;
 	canonical?: string;
-	type?: 'website' | 'article' | 'product' | 'software';
+	type?: 'website' | 'article' | 'product' | 'software' | 'service';
 	article?: {
 		publishedTime?: string;
 		modifiedTime?: string;
 		author?: string;
 		section?: string;
 		tags?: string[];
+	};
+	service?: {
+		serviceType?: string;
+		provider?: string;
+		areaServed?: string;
+		availableChannel?: string[];
+		hoursAvailable?: {
+			opens?: string;
+			closes?: string;
+			dayOfWeek?: string[];
+		};
+		offers?: Array<{
+			name?: string;
+			description?: string;
+			price?: string;
+			priceCurrency?: string;
+			priceSpecification?: {
+				price?: string;
+				priceCurrency?: string;
+				unitCode?: string;
+			};
+		}>;
+		price?: string;
+		currency?: string;
 	};
 	faqs?: Array<{
 		question: string;
@@ -28,6 +52,7 @@ export interface Props {
 	}>;
 	noindex?: boolean;
 	nofollow?: boolean;
+	customJsonLd?: Record<string, any>[];
 	// Version management props
 	headerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
 	footerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
@@ -42,10 +67,12 @@ const {
 	canonical,
 	type = 'website',
 	article,
+	service,
 	faqs,
 	breadcrumbs,
 	noindex = false,
 	nofollow = false,
+	customJsonLd,
 	headerVersion,
 	footerVersion
 } = Astro.props;
@@ -63,10 +90,12 @@ const {
 			canonical={canonical}
 			type={type}
 			article={article}
+			service={service}
 			faqs={faqs}
 			breadcrumbs={breadcrumbs}
 			noindex={noindex}
 			nofollow={nofollow}
+			customJsonLd={customJsonLd}
 		/>
 		<meta name="generator" content={Astro.generator} />
 	</head>

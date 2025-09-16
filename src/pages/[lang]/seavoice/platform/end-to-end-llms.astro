@@ -1,0 +1,571 @@
+---
+// 導入相關依賴
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+
+// 生成所有語言的靜態路徑
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 獲取動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 數據
+const title = t('seavoice.platform.endToEndLLMs.hero.title') + ' | SeaVoice Platform';
+const description = t('seavoice.platform.endToEndLLMs.hero.subtitle');
+const keywords = 'end-to-end LLM, AI voice, large language model, conversation AI, SeaVoice, enterprise AI';
+
+// 構建 canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/platform/end-to-end-llms`;
+
+// Component data arrays
+const features = [
+  {
+    icon: 'brain',
+    title: t('seavoice.platform.endToEndLLMs.features.advancedModels.title'),
+    description: t('seavoice.platform.endToEndLLMs.features.advancedModels.description'),
+    capabilities: [
+      t('seavoice.platform.endToEndLLMs.features.advancedModels.gpt4Integration'),
+      t('seavoice.platform.endToEndLLMs.features.advancedModels.customFineTuning'),
+      t('seavoice.platform.endToEndLLMs.features.advancedModels.domainSpecific'),
+      t('seavoice.platform.endToEndLLMs.features.advancedModels.multiModal')
+    ]
+  },
+  {
+    icon: 'database',
+    title: t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.title'),
+    description: t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.description'),
+    capabilities: [
+      t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.documentIngestion'),
+      t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.realTimeUpdates'),
+      t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.semanticSearch'),
+      t('seavoice.platform.endToEndLLMs.features.knowledgeIntegration.contextAwareness')
+    ]
+  },
+  {
+    icon: 'shield',
+    title: t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.title'),
+    description: t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.description'),
+    capabilities: [
+      t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.dataEncryption'),
+      t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.accessControls'),
+      t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.auditLogging'),
+      t('seavoice.platform.endToEndLLMs.features.enterpriseSecurity.complianceReady')
+    ]
+  }
+];
+
+const llmCapabilities = [
+  {
+    category: t('seavoice.platform.endToEndLLMs.capabilities.nlu.category'),
+    description: t('seavoice.platform.endToEndLLMs.capabilities.nlu.description'),
+    metrics: [
+      t('seavoice.platform.endToEndLLMs.capabilities.nlu.intentAccuracy'),
+      t('seavoice.platform.endToEndLLMs.capabilities.nlu.contextRetention'),
+      t('seavoice.platform.endToEndLLMs.capabilities.nlu.sentimentAnalysis')
+    ]
+  },
+  {
+    category: t('seavoice.platform.endToEndLLMs.capabilities.conversationalFlow.category'),
+    description: t('seavoice.platform.endToEndLLMs.capabilities.conversationalFlow.description'),
+    metrics: [
+      t('seavoice.platform.endToEndLLMs.capabilities.conversationalFlow.multiTurnCoherence'),
+      t('seavoice.platform.endToEndLLMs.capabilities.conversationalFlow.topicSwitching'),
+      t('seavoice.platform.endToEndLLMs.capabilities.conversationalFlow.contextPreservation')
+    ]
+  },
+  {
+    category: t('seavoice.platform.endToEndLLMs.capabilities.businessLogic.category'),
+    description: t('seavoice.platform.endToEndLLMs.capabilities.businessLogic.description'),
+    metrics: [
+      t('seavoice.platform.endToEndLLMs.capabilities.businessLogic.workflowAccuracy'),
+      t('seavoice.platform.endToEndLLMs.capabilities.businessLogic.decisionConsistency'),
+      t('seavoice.platform.endToEndLLMs.capabilities.businessLogic.errorHandling')
+    ]
+  },
+  {
+    category: t('seavoice.platform.endToEndLLMs.capabilities.personalization.category'),
+    description: t('seavoice.platform.endToEndLLMs.capabilities.personalization.description'),
+    metrics: [
+      t('seavoice.platform.endToEndLLMs.capabilities.personalization.personalizationScore'),
+      t('seavoice.platform.endToEndLLMs.capabilities.personalization.userSatisfaction'),
+      t('seavoice.platform.endToEndLLMs.capabilities.personalization.engagementRate')
+    ]
+  }
+];
+
+const architectureComponents = [
+  {
+    title: t('seavoice.platform.endToEndLLMs.architecture.speechInput.title'),
+    description: t('seavoice.platform.endToEndLLMs.architecture.speechInput.description'),
+    technologies: [
+      t('seavoice.platform.endToEndLLMs.architecture.speechInput.kaldiASR'),
+      t('seavoice.platform.endToEndLLMs.architecture.speechInput.noiseReduction'),
+      t('seavoice.platform.endToEndLLMs.architecture.speechInput.speakerDiarization')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.architecture.llmProcessing.title'),
+    description: t('seavoice.platform.endToEndLLMs.architecture.llmProcessing.description'),
+    technologies: [
+      t('seavoice.platform.endToEndLLMs.architecture.llmProcessing.gpt4Turbo'),
+      t('seavoice.platform.endToEndLLMs.architecture.llmProcessing.customFineTuning'),
+      t('seavoice.platform.endToEndLLMs.architecture.llmProcessing.ragIntegration')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.architecture.responseGeneration.title'),
+    description: t('seavoice.platform.endToEndLLMs.architecture.responseGeneration.description'),
+    technologies: [
+      t('seavoice.platform.endToEndLLMs.architecture.responseGeneration.templateSystems'),
+      t('seavoice.platform.endToEndLLMs.architecture.responseGeneration.dynamicContent'),
+      t('seavoice.platform.endToEndLLMs.architecture.responseGeneration.complianceChecking')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.architecture.speechOutput.title'),
+    description: t('seavoice.platform.endToEndLLMs.architecture.speechOutput.description'),
+    technologies: [
+      t('seavoice.platform.endToEndLLMs.architecture.speechOutput.neuralTTS'),
+      t('seavoice.platform.endToEndLLMs.architecture.speechOutput.voiceCloning'),
+      t('seavoice.platform.endToEndLLMs.architecture.speechOutput.emotionControl')
+    ]
+  }
+];
+
+const useCases = [
+  {
+    title: t('seavoice.platform.endToEndLLMs.useCases.customerSupport.title'),
+    description: t('seavoice.platform.endToEndLLMs.useCases.customerSupport.description'),
+    benefits: [
+      t('seavoice.platform.endToEndLLMs.useCases.customerSupport.reducedEscalation'),
+      t('seavoice.platform.endToEndLLMs.useCases.customerSupport.fasterResolution'),
+      t('seavoice.platform.endToEndLLMs.useCases.customerSupport.consistentQuality'),
+      t('seavoice.platform.endToEndLLMs.useCases.customerSupport.availability24x7')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.useCases.salesConversations.title'),
+    description: t('seavoice.platform.endToEndLLMs.useCases.salesConversations.description'),
+    benefits: [
+      t('seavoice.platform.endToEndLLMs.useCases.salesConversations.higherConversion'),
+      t('seavoice.platform.endToEndLLMs.useCases.salesConversations.personalizedRecommendations'),
+      t('seavoice.platform.endToEndLLMs.useCases.salesConversations.objectionHandling'),
+      t('seavoice.platform.endToEndLLMs.useCases.salesConversations.leadQualification')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.title'),
+    description: t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.description'),
+    benefits: [
+      t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.complexTroubleshooting'),
+      t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.stepByStepGuidance'),
+      t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.documentationAccess'),
+      t('seavoice.platform.endToEndLLMs.useCases.technicalSupport.escalationIntelligence')
+    ]
+  },
+  {
+    title: t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.title'),
+    description: t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.description'),
+    benefits: [
+      t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.medicalKnowledge'),
+      t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.appointmentScheduling'),
+      t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.symptomAssessment'),
+      t('seavoice.platform.endToEndLLMs.useCases.healthcareAssistance.careCoordination')
+    ]
+  }
+];
+
+// Icon mapping for different icons
+const getIconSVG = (iconName: string) => {
+  const icons = {
+    brain: `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>`,
+    database: `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>`,
+    shield: `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>`,
+    zap: `<svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>`,
+    message: `<svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>`,
+    chart: `<svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>`
+  };
+  return icons[iconName] || icons.brain;
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  keywords={keywords}
+  canonical={canonicalUrl}
+  lang={currentLang}
+>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center animate-fade-in">
+          <div class="flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full flex items-center justify-center">
+              <Fragment set:html={getIconSVG('brain')} />
+            </div>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.endToEndLLMs.hero.title')}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t('seavoice.platform.endToEndLLMs.hero.subtitle')}
+          </p>
+          <button class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105">
+            {t('seavoice.platform.endToEndLLMs.hero.cta')}
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.endToEndLLMs.features.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.platform.endToEndLLMs.features.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div class={`bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 animate-fade-in-up animate-delay-${index * 200}`}>
+              <div class="w-12 h-12 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+                <Fragment set:html={getIconSVG(feature.icon)} />
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+              <div class="space-y-2">
+                {feature.capabilities.map((capability) => (
+                  <div class="flex items-center">
+                    <div class="w-2 h-2 bg-indigo-600 rounded-full mr-3"></div>
+                    <span class="text-sm text-gray-700">{capability}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- LLM Capabilities -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.endToEndLLMs.capabilities.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.platform.endToEndLLMs.capabilities.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {llmCapabilities.map((capability, index) => (
+            <div class={`bg-white rounded-xl p-8 shadow-lg border border-gray-200 animate-fade-in-up animate-delay-${index * 100}`}>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{capability.category}</h3>
+              <p class="text-gray-600 mb-6">{capability.description}</p>
+              <div class="space-y-2">
+                {capability.metrics.map((metric) => (
+                  <div class="flex items-center">
+                    <Fragment set:html={getIconSVG('chart')} />
+                    <span class="text-sm text-gray-700 ml-3">{metric}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture Overview -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.endToEndLLMs.architecture.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.platform.endToEndLLMs.architecture.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {architectureComponents.map((component, index) => (
+            <div class={`text-center animate-fade-in-up animate-delay-${index * 100}`}>
+              <div class="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">
+                {index + 1}
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{component.title}</h3>
+              <p class="text-gray-600 mb-4">{component.description}</p>
+              <div class="space-y-1">
+                {component.technologies.map((tech) => (
+                  <div class="text-sm text-indigo-600 font-medium">
+                    {tech}
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.endToEndLLMs.useCases.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.platform.endToEndLLMs.useCases.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {useCases.map((useCase, index) => (
+            <div class={`bg-white rounded-xl p-8 shadow-lg border border-gray-200 animate-fade-in-up animate-delay-${index * 100}`}>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{useCase.title}</h3>
+              <p class="text-gray-600 mb-6">{useCase.description}</p>
+              <div class="grid grid-cols-2 gap-2">
+                {useCase.benefits.map((benefit) => (
+                  <div class="flex items-center">
+                    <div class="w-2 h-2 bg-indigo-600 rounded-full mr-3"></div>
+                    <span class="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="animate-fade-in-left">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seavoice.platform.endToEndLLMs.performance.title')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seavoice.platform.endToEndLLMs.performance.description')}
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <Fragment set:html={getIconSVG('zap')} />
+                <div class="ml-4">
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.platform.endToEndLLMs.performance.realTimeTitle')}</h3>
+                  <p class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.realTimeDesc')}</p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <Fragment set:html={getIconSVG('shield')} />
+                <div class="ml-4">
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.platform.endToEndLLMs.performance.securityTitle')}</h3>
+                  <p class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.securityDesc')}</p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <Fragment set:html={getIconSVG('message')} />
+                <div class="ml-4">
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.platform.endToEndLLMs.performance.qualityTitle')}</h3>
+                  <p class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.qualityDesc')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 animate-fade-in-right">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.platform.endToEndLLMs.performance.metricsTitle')}</h3>
+            <div class="space-y-6">
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.responseLatency')}</span>
+                <span class="font-semibold text-2xl text-indigo-600">{t('seavoice.platform.endToEndLLMs.performance.responseLatencyValue')}</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.intentAccuracy')}</span>
+                <span class="font-semibold text-2xl text-indigo-600">{t('seavoice.platform.endToEndLLMs.performance.intentAccuracyValue')}</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.contextRetention')}</span>
+                <span class="font-semibold text-2xl text-indigo-600">{t('seavoice.platform.endToEndLLMs.performance.contextRetentionValue')}</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.uptimeSLA')}</span>
+                <span class="font-semibold text-2xl text-indigo-600">{t('seavoice.platform.endToEndLLMs.performance.uptimeSLAValue')}</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">{t('seavoice.platform.endToEndLLMs.performance.concurrentUsers')}</span>
+                <span class="font-semibold text-2xl text-indigo-600">{t('seavoice.platform.endToEndLLMs.performance.concurrentUsersValue')}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="animate-fade-in-up">
+          <h2 class="text-4xl font-bold mb-6">{t('seavoice.platform.endToEndLLMs.cta.title')}</h2>
+          <p class="text-xl mb-8 opacity-90">
+            {t('seavoice.platform.endToEndLLMs.cta.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+              {t('seavoice.platform.endToEndLLMs.cta.scheduleDemoButton')}
+            </button>
+            <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-all duration-300 transform hover:scale-105">
+              {t('seavoice.platform.endToEndLLMs.cta.exploreArchButton')}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  /* Animation styles */
+  .animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeInRight 0.8s ease-out forwards 0.2s;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 0.1s;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 0.3s;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Scroll-triggered animations */
+  @media (prefers-reduced-motion: no-preference) {
+    .animate-fade-in-up {
+      animation-play-state: paused;
+    }
+    
+    .animate-fade-in-up.in-view {
+      animation-play-state: running;
+    }
+  }
+
+  /* Button hover effects */
+  button {
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Card hover effects */
+  .shadow-lg {
+    transition: all 0.3s ease;
+  }
+
+  .hover\:shadow-xl:hover {
+    transform: translateY(-5px);
+  }
+</style>
+
+<script>
+  // Add intersection observer for scroll animations
+  document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, observerOptions);
+
+    // Observe all elements with animation classes
+    document.querySelectorAll('.animate-fade-in-up').forEach((el) => {
+      observer.observe(el);
+    });
+  });
+</script>

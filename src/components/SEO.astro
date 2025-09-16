@@ -65,6 +65,18 @@ interface Props {
       closes?: string;
       dayOfWeek?: string[];
     };
+    offers?: Array<{
+      name?: string;
+      description?: string;
+      price?: string;
+      priceCurrency?: string;
+      priceSpecification?: {
+        price?: string;
+        priceCurrency?: string;
+        unitCode?: string;
+      };
+    }>;
+    // Legacy single price support
     price?: string;
     currency?: string;
   };
@@ -476,11 +488,23 @@ if (type === 'service' && service) {
       "closes": service.hoursAvailable.closes,
       "dayOfWeek": service.hoursAvailable.dayOfWeek
     } : undefined,
-    "offers": service.price ? {
+    "offers": service.offers && service.offers.length > 0 ? service.offers.map(offer => ({
+      "@type": "Offer",
+      "name": offer.name,
+      "description": offer.description,
+      "price": offer.price,
+      "priceCurrency": offer.priceCurrency || "USD",
+      "priceSpecification": offer.priceSpecification ? {
+        "@type": "UnitPriceSpecification",
+        "price": offer.priceSpecification.price,
+        "priceCurrency": offer.priceSpecification.priceCurrency || "USD",
+        "unitCode": offer.priceSpecification.unitCode
+      } : undefined
+    })) : (service.price ? [{
       "@type": "Offer",
       "price": service.price,
       "priceCurrency": service.currency || "USD"
-    } : undefined
+    }] : undefined)
   };
   structuredDataArray[0] = serviceData;
 }

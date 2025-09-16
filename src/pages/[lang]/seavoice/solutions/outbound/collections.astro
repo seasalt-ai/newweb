@@ -1,0 +1,41 @@
+---
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLocales = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+  
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+import CollectionsPage from '../../../../../components/react/seavoice/solutions/outbound/CollectionsPage';
+
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯資源
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO 內容
+const seoTitle = t('seavoice.pages.solutions.outbound.hero.title') || 'Collections Service Automation - SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.outbound.hero.description') || 'Streamline your debt collection process with AI-powered calling that maintains customer relationships while improving collection rates.';
+const seoKeywords = 'AI debt collection, collections automation, FDCPA compliant, payment reminders, collection calls, SeaVoice';
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+>
+  <CollectionsPage 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+</Layout>
