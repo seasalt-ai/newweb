@@ -1022,7 +1022,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "홈으로 돌아가기"
+        "backToHome": "← 홈으로 돌아가기"
       },
       "hero": {
         "title": "AI 솔루션",
@@ -1114,6 +1114,24 @@
       },
       "solutions": {
         "title": "솔루션"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "GPT-4o Realtime API 액세스"
+          }
+        }
+      },
+      "calculator": {
+        "title": "플랜 및 모델 사용량 계산기",
+        "voiceOnly": "음성 전용 모델",
+        "voicePricing": "음성 요금",
+        "standardVoice": "표준 음성",
+        "premiumVoice": "프리미엄 음성"
       }
     }
   }

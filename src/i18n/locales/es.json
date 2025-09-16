@@ -1087,7 +1087,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "Volver a inicio"
+        "backToHome": "← Volver a inicio"
       },
       "hero": {
         "title": "Soluciones de IA para",
@@ -1179,288 +1179,6 @@
       },
       "solutions": {
         "title": "Soluciones"
-      }
-    }
-  },
-  "channels": {
-    "title": "Conecta Todos los Canales de Clientes",
-    "description": "Unifica todas tus comunicaciones con clientes en una sola plataforma. Desde WhatsApp hasta llamadas telefónicas, SMS y redes sociales: gestiona cada conversación desde un único panel.",
-    "whatsapp": {
-      "title": "WhatsApp Business",
-      "description": "Conéctate con los clientes en la plataforma de mensajería más popular del mundo",
-      "seo": {
-        "title": "Integración WhatsApp Business - Seasalt.ai",
-        "description": "Conecta tu cuenta de WhatsApp Business con Seasalt.ai para conversaciones impulsadas por IA, campañas masivas y soporte fluido con agentes humanos. Llega a más de 2 mil millones de usuarios en todo el mundo."
-      },
-      "nav": {
-        "backToChannels": "Volver a Canales"
-      },
-      "hero": {
-        "title": {
-          "prefix": "Transforma WhatsApp en tu",
-          "highlight": "Centro de Comando Empresarial"
-        },
-        "description": "Conecta tu cuenta de WhatsApp Business con Seasalt.ai para conversaciones con IA, campañas masivas y soporte fluido con agentes humanos. Llega a más de 2 mil millones de usuarios en todo el mundo.",
-        "primaryCta": "Conectar WhatsApp en 10 Minutos",
-        "secondaryCta": "Ver Demo",
-        "demoTitle": "WhatsApp Business",
-        "demoMessages": {
-          "customer1": "Cliente: \"¿Dónde está mi pedido #12345?\"",
-          "bot1": "Bot IA: \"Tu pedido está en camino y llegará hoy antes de las 6 PM. Rastrea aquí: [enlace]\"",
-          "customer2": "Cliente: \"¿Puedo cambiar la dirección de entrega?\"",
-          "bot2": "Bot IA: \"Permíteme conectarte con un agente humano para cambios de dirección...\""
-        }
-      },
-      "features": {
-        "title": "Características Clave",
-        "description": "Todo lo que necesitas para convertir WhatsApp en una plataforma de comunicación empresarial potente",
-        "aiResponses": {
-          "title": "Respuestas impulsadas por IA",
-          "description": "Servicio al cliente automatizado con procesamiento de lenguaje natural que comprende contexto e intención"
-        },
-        "bulkCampaigns": {
-          "title": "Gestión de Campañas Masivas",
-          "description": "Envía mensajes de plantilla a miles de contactos con segmentación avanzada y programación"
-        },
-        "humanHandoff": {
-          "title": "Transferencia a Agentes Humanos",
-          "description": "Transición fluida del bot al agente en vivo con el comando /live_agent y el historial completo de la conversación"
-        },
-        "metaIntegration": {
-          "title": "Integración con Meta Business",
-          "description": "Acceso completo a las funciones de la plataforma WhatsApp Business con seguridad de nivel empresarial"
-        }
-      },
-      "setup": {
-        "title": "Visualización del Proceso de Configuración",
-        "description": "Guía paso a paso para conectar tu cuenta de WhatsApp Business con seguridad de nivel empresarial",
-        "steps": {
-          "0": "Crear cuenta de desarrollador Meta",
-          "1": "Configurar la API de WhatsApp Business",
-          "2": "Configurar los endpoints del webhook",
-          "3": "Generar tokens de acceso",
-          "4": "Probar la entrega de mensajes",
-          "5": "Lanzar tu primera campaña"
-        },
-        "security": {
-          "title": "Seguridad de Nivel Empresarial",
-          "description": "Tu integración de WhatsApp incluye cifrado de extremo a extremo, gestión segura de tokens y cumplimiento de las políticas empresariales de Meta. Todos los datos están protegidos con seguridad de nivel bancario."
-        }
-      },
-      "cta": {
-        "title": "¿Listo para Conectar WhatsApp?",
-        "description": "Únete a miles de empresas que usan WhatsApp para ofrecer mejor servicio al cliente y aumentar las ventas.",
-        "button": "Iniciar Integración"
-      }
-    },
-    "voice": {
-      "title": "Voz y Llamadas Telefónicas",
-      "description": "Sistema telefónico profesional con asistente de voz IA y soporte de agentes humanos"
-    },
-    "sms": {
-      "title": "Mensajería SMS",
-      "description": "Llega a los clientes al instante con campañas SMS personalizadas",
-      "seo": {
-        "title": "Plataforma de Marketing SMS - Seasalt.ai",
-        "description": "Llega a los clientes al instante con campañas SMS personalizadas y respuestas automáticas. 98% de apertura y entrega global en más de 200 países. Comienza tu marketing SMS hoy."
-      },
-      "nav": {
-        "backToChannels": "Volver a Canales"
-      },
-      "hero": {
-        "title": {
-          "prefix": "Marketing SMS que",
-          "highlight": "Realmente Convierte"
-        },
-        "description": "Llega a los clientes al instante con campañas SMS personalizadas y respuestas automáticas. 98% de apertura y entrega global en más de 200 países.",
-        "primaryCta": "Iniciar Campañas SMS",
-        "secondaryCta": "Ver Demo",
-        "campaign": {
-          "title": "Campaña SMS",
-          "flashSale": {
-            "title": "📱 Campaña: Venta Relámpago",
-            "sent": "2,847 mensajes enviados"
-          },
-          "delivered": {
-            "title": "✅ Entregados: 2,834",
-            "rate": "99.5% de tasa de entrega"
-          },
-          "replies": {
-            "title": "💬 Respuestas: 312",
-            "rate": "11% de tasa de respuesta"
-          },
-          "conversions": {
-            "title": "🛒 Conversiones: 47",
-            "revenue": "$12,400 de ingresos"
-          }
-        }
-      },
-      "features": {
-        "title": "Cumplimiento y Entrega",
-        "description": "Plataforma SMS de nivel empresarial con alcance global y gestión automática de cumplimiento",
-        "globalReach": {
-          "title": "Alcance Global",
-          "description": "Entrega de SMS en más de 200 países con soporte de números locales y optimización de operadores"
-        },
-        "compliance": {
-          "title": "Herramientas de Cumplimiento",
-          "description": "Funciones de cumplimiento TCPA y GDPR con gestión automática de bajas"
-        },
-        "analytics": {
-          "title": "Analítica de Entrega",
-          "description": "Seguimiento en tiempo real de entregas, tasas de respuesta y métricas de rendimiento de campañas"
-        },
-        "scheduling": {
-          "title": "Programación Inteligente",
-          "description": "Envío consciente de zona horaria con el mejor horario según el comportamiento del destinatario"
-        }
-      },
-      "useCases": {
-        "title": "Casos de Uso Comprobados",
-        "description": "Descubre cómo las empresas usan SMS para aumentar el engagement y los ingresos",
-        "marketing": {
-          "title": "Campañas de Marketing",
-          "description": "Mensajes promocionales con alta tasa de apertura",
-          "stats": "98% de apertura"
-        },
-        "appointments": {
-          "title": "Recordatorios de Citas",
-          "description": "Reduce ausencias con recordatorios automáticos",
-          "stats": "25% menos ausencias"
-        },
-        "orders": {
-          "title": "Actualizaciones de Pedidos",
-          "description": "Mantén a los clientes informados sobre sus pedidos",
-          "stats": "90% de satisfacción"
-        },
-        "support": {
-          "title": "Soporte al Cliente",
-          "description": "Conversaciones bidireccionales para soporte rápido",
-          "stats": "Resolución 5x más rápida"
-        }
-      },
-      "builder": {
-        "title": "Constructor Avanzado de Campañas",
-        "description": "Crea campañas SMS sofisticadas con automatización drag-and-drop y segmentación inteligente",
-        "segmentation": {
-          "title": "Segmentación Inteligente",
-          "description": "Dirige tus clientes según comportamiento, ubicación y preferencias"
-        },
-        "timing": {
-          "title": "Timing Perfecto",
-          "description": "Optimización de envío impulsada por IA para máximo engagement"
-        },
-        "analytics": {
-          "title": "Analítica en Tiempo Real",
-          "description": "Rastrea entregas, aperturas, clics y conversiones en tiempo real"
-        }
-      },
-      "cta": {
-        "title": "¿Listo para Lanzar tus Campañas SMS?",
-        "description": "Únete a miles de empresas que usan SMS para aumentar engagement e ingresos. Comienza con nuestra prueba gratuita.",
-        "button": "Regístrate"
-      }
-    },
-    "website": {
-      "title": "Widget de Chat en el Sitio Web",
-      "description": "Convierte a los visitantes del sitio web en conversaciones con chat impulsado por IA"
-    },
-    "cta": {
-      "exploreAll": "Explorar Todos los Canales",
-      "subtitle": "Descubre cómo los 9 canales trabajan juntos de forma fluida"
-    },
-    "phoneCalls": {
-      "seo": {
-        "title": "Sistema Telefónico Profesional - Seasalt.ai",
-        "description": "Empodera a tus agentes con un dialpad basado en la nube para llamadas entrantes y salientes, impulsado por la asociación Twilio Gold y automatización de voz con IA. Escala tu comunicación empresarial."
-      },
-      "nav": {
-        "backToChannels": "Volver a Canales"
-      },
-      "hero": {
-        "title": {
-          "prefix": "Sistema Telefónico Profesional que",
-          "highlight": "Escala con tu Negocio"
-        },
-        "description": "Empodera a tus agentes con un dialpad basado en la nube para llamadas entrantes y salientes, impulsado por nuestra asociación Twilio Gold y automatización de voz con IA.",
-        "primaryCta": "Comienza a Llamar Hoy",
-        "secondaryCta": "Ver Demo",
-        "dialpad": {
-          "title": "Dialpad del Agente",
-          "callButton": "Llamar",
-          "endCallButton": "Finalizar Llamada"
-        }
-      },
-      "features": {
-        "title": "Características Clave",
-        "description": "Todo lo que tu equipo necesita para comunicación telefónica profesional",
-        "humanDialpad": {
-          "title": "Dialpad para Agente Humano",
-          "description": "Dialpad completo en la nube para realizar y recibir llamadas con gestión de contactos"
-        },
-        "aiVoiceBot": {
-          "title": "Integración de Bot de Voz IA",
-          "description": "Gestión automatizada de llamadas con transferencia natural a agentes humanos cuando sea necesario"
-        },
-        "multiAgent": {
-          "title": "Soporte Multi-Agente",
-          "description": "Sistema round robin que distribuye llamadas automáticamente entre los agentes disponibles"
-        },
-        "analytics": {
-          "title": "Analítica de Llamadas",
-          "description": "Informe completo sobre rendimiento de llamadas, resultados y productividad de agentes"
-        }
-      },
-      "partnership": {
-        "title": "Beneficios de la Asociación Twilio",
-        "description": "Construido sobre la plataforma de comunicaciones más confiable del mundo",
-        "goldPartner": {
-          "title": "Estado Gold Partner",
-          "benefit1": "Estado Gold Partner con acceso directo a Twilio Flex",
-          "benefit2": "Confiabilidad de nivel empresarial en infraestructura probada",
-          "benefit3": "Alcance Global: realizar llamadas en más de 200 países",
-          "benefit4": "Despliegue Rápido: agentes en llamadas en menos de 10 días"
-        },
-        "global": {
-          "title": "Capacidades Globales",
-          "countries": {
-            "title": "Más de 200 Países",
-            "description": "Realiza y recibe llamadas en todo el mundo"
-          },
-          "uptime": {
-            "title": "99.95% de Disponibilidad",
-            "description": "Confiabilidad de nivel empresarial"
-          },
-          "setup": {
-            "title": "Configuración en 10 Días",
-            "description": "Despliegue rápido para tu equipo"
-          }
-        }
-      },
-      "useCases": {
-        "title": "Casos de Uso",
-        "description": "Descubre cómo diferentes equipos usan nuestro sistema telefónico para obtener resultados",
-        "sales": {
-          "title": "Equipos de Ventas",
-          "description": "Prospección saliente con eficiencia de marcado automático"
-        },
-        "support": {
-          "title": "Soporte al Cliente",
-          "description": "Gestión de llamadas entrantes con filtrado IA"
-        },
-        "appointments": {
-          "title": "Agendamiento de Citas",
-          "description": "Llamadas automatizadas con confirmación humana"
-        },
-        "followup": {
-          "title": "Campañas de Seguimiento",
-          "description": "Llamadas masivas con conversaciones personalizadas de agentes"
-        }
-      },
-      "cta": {
-        "title": "¿Listo para Mejorar tu Sistema Telefónico?",
-        "description": "Pon a tu equipo en llamadas en menos de 10 días con confiabilidad de nivel empresarial y automatización impulsada por IA.",
-        "button": "Iniciar Configuración"
       }
     }
   },
@@ -1641,6 +1359,24 @@
         "title": "آماده راه‌اندازی کمپین‌های پیامکی خود هستید؟",
         "description": "به هزاران کسب‌وکاری بپیوندید که از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند. با نسخه آزمایشی رایگان شروع کنید.",
         "button": "ثبت‌نام"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Acceso a GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculadora de Plan y Uso de Modelo",
+        "voiceOnly": "Modelo solo de voz",
+        "voicePricing": "Precios de voz",
+        "standardVoice": "Voz Estándar",
+        "premiumVoice": "Voz Premium"
       }
     }
   }

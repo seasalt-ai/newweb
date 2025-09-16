@@ -474,7 +474,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "Back to Home"
+        "backToHome": "← Back to Home"
       },
       "hero": {
         "title": "AI Solutions for",
@@ -2051,78 +2051,6 @@
         }
       }
     },
-    "features": {
-      "humanAgents": {
-        "title": "Human Agent Chat",
-        "subtitle": "Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
-        "startButton": "Start Free Forever",
-        "demoButton": "Watch Demo",
-        "freeForever": {
-          "title": "Truly Free as in Free 🍺 & 🎙️",
-          "subtitle": "We mean it when we say free. One human agent for life, with unlimited everything.",
-          "meaningTitle": "What \"Free Forever\" Really Means",
-          "agent": "1 Human Agent for Life",
-          "conversations": "Unlimited Chat Conversations",
-          "history": "Unlimited Chat History",
-          "contacts": "Unlimited Contacts",
-          "export": "Freedom to Export All Data",
-          "noCredit": "No Credit Card Required",
-          "unlimited": "Unlimited Everything",
-          "noCaps": "No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
-          "forever": "Forever"
-        },
-        "featuresTitle": "Powerful Human Agent Features",
-        "featuresSubtitle": "Everything you need to provide exceptional human-powered customer support.",
-        "unlimited": {
-          "title": "Unlimited Agent Hours",
-          "description": "No time limits, no hourly caps. Your human agent works as much as you need, completely free."
-        },
-        "realtime": {
-          "title": "Real-time Chat Management",
-          "description": "Handle multiple conversations simultaneously with our intuitive chat interface."
-        },
-        "collaboration": {
-          "title": "Multi-agent Collaboration",
-          "description": "Scale your team with seamless agent-to-agent handoffs and collaboration tools."
-        },
-        "security": {
-          "title": "Advanced Security",
-          "description": "Enterprise-grade security with end-to-end encryption and data protection."
-        },
-        "analytics": {
-          "title": "Performance Analytics",
-          "description": "Track response times, customer satisfaction, and agent performance metrics."
-        },
-        "workflows": {
-          "title": "Custom Workflows",
-          "description": "Create personalized workflows and automation rules for your support process."
-        },
-        "whyMatterTitle": "Why Human Agents Still Matter",
-        "whyMatterSubtitle": "In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
-        "benefits": {
-          "personal": {
-            "title": "Personal Touch",
-            "description": "Human empathy and understanding that AI cannot replicate"
-          },
-          "complex": {
-            "title": "Complex Problem Solving",
-            "description": "Handle nuanced situations that require human judgment"
-          },
-          "brand": {
-            "title": "Brand Representation",
-            "description": "Agents who truly understand and represent your brand values"
-          },
-          "relationships": {
-            "title": "Customer Relationships",
-            "description": "Build lasting relationships through genuine human connections"
-          }
-        },
-        "ctaTitle": "Ready to Start with Human Agents?",
-        "ctaSubtitle": "Join thousands of businesses providing exceptional customer support with our free human agents.",
-        "ctaStartButton": "Start Free Now",
-        "ctaDemoButton": "Schedule Demo"
-      }
-    },
     "omnichannelDemo": {
       "title": "Deploy Everywhere Your Customers Are",
       "subtitle": "Seamlessly connect all your customer touchpoints across websites, social media, and communication platforms. Hover over each channel to see real-time performance metrics.",
@@ -2301,6 +2229,7 @@
             "customBuild": "Custom build",
             "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
             "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "gpt4oRealtimeAPI": "Access to GPT-4o Realtime API",
             "customAPI": "Custom API integration",
             "fineTuning": "Fine-tuning with your guidelines and technical support"
           },
@@ -2315,7 +2244,7 @@
         "save": "Save 2 months vs monthly billing"
       },
       "calculator": {
-        "title": "Premium Plan Usage Calculator",
+        "title": "Plan & Model Usage Calculator",
         "description": "Estimate your costs based on your usage patterns",
         "modelSelect": "Select AI Model",
         "priceBreakdown": "Cost Breakdown",
@@ -2348,6 +2277,10 @@
         "planIncludesWorkspaces": "2 Workspaces",
         "perChatResponse": "per chat response",
         "perVoiceMinute": "per voice minute",
+        "voiceOnly": "Voice only model",
+        "voicePricing": "Voice pricing",
+        "standardVoice": "Standard Voice",
+        "premiumVoice": "Premium Voice",
         "placeholderText": "Placeholder"
       },
       "note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
@@ -10511,7 +10444,7 @@
           "description": "Send millions of SMS messages instantly with premium short codes. Enterprise-grade SMS marketing, notifications, and mass communications with 99.9% delivery rates."
         },
         "nav": {
-          "backToChannels": "Back to Channels"
+          "backToChannels": "← Back to Channels"
         },
         "hero": {
           "title": {
@@ -12368,7 +12301,6 @@
       "about": "About",
       "resources": "Resources",
       "blog": "Blog",
-      "compareUs": "Compare Us",
       "contactSales": "Contact Sales",
       "navigation": {
         "features": "Features",
@@ -12444,9 +12376,7 @@
       "company": {
         "title": "Company",
         "productWiki": "Product Wiki",
-        "apiReferences": "API References",
-        "careers": "Careers",
-        "about": "About"
+        "apiReferences": "API References"
       }
     },
     "calculator": {

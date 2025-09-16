@@ -819,192 +819,192 @@
       "title": "⭐ Tiện ích AI",
       "description": "Nâng cao mọi gói dịch vụ với khả năng AI",
       "chatAI": {
-          "title": "Chat AI với SeaChat",
-          "price": "$29.99",
-          "period": "mỗi tháng"
+        "title": "Chat AI với SeaChat",
+        "price": "$29.99",
+        "period": "mỗi tháng"
       },
       "voiceAI": {
-          "title": "Voice AI với SeaVoice",
-          "price": "$29.99",
-          "period": "mỗi tháng"
+        "title": "Voice AI với SeaVoice",
+        "price": "$29.99",
+        "period": "mỗi tháng"
       },
       "combo": {
-          "title": "Cả hai tính năng AI",
-          "price": "$29.99",
-          "period": "tổng mỗi tháng",
-          "benefit": "🎉 Nhận cả Chat AI và Voice AI chỉ với $29.99/tháng!"
+        "title": "Cả hai tính năng AI",
+        "price": "$29.99",
+        "period": "tổng mỗi tháng",
+        "benefit": "🎉 Nhận cả Chat AI và Voice AI chỉ với $29.99/tháng!"
       }
-  },
-  "transparentAI": {
+    },
+    "transparentAI": {
       "title": "Giá AI minh bạch",
       "description": "Chỉ trả cho những gì bạn sử dụng với giá AI dựa trên mức sử dụng rõ ràng",
       "chatAI": {
-          "title": "Chat AI",
-          "price": "$0.006",
-          "period": "mỗi phản hồi (ChatGPT-4o mini)",
-          "feature1": "• WhatsApp, Messenger, Web chat",
-          "feature2": "• Phản hồi tự động 24/7",
-          "feature3": "• Tích hợp cơ sở tri thức"
+        "title": "Chat AI",
+        "price": "$0.006",
+        "period": "mỗi phản hồi (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Web chat",
+        "feature2": "• Phản hồi tự động 24/7",
+        "feature3": "• Tích hợp cơ sở tri thức"
       },
       "voiceAI": {
-          "title": "Voice AI",
-          "price": "$0.12",
-          "period": "mỗi phút (ChatGPT-4o mini)",
-          "feature1": "• Gọi vào & gọi ra",
-          "feature2": "• Hội thoại giọng nói tự nhiên",
-          "feature3": "• Ghi âm cuộc gọi & tóm tắt"
+        "title": "Voice AI",
+        "price": "$0.12",
+        "period": "mỗi phút (ChatGPT-4o mini)",
+        "feature1": "• Gọi vào & gọi ra",
+        "feature2": "• Hội thoại giọng nói tự nhiên",
+        "feature3": "• Ghi âm cuộc gọi & tóm tắt"
       },
       "premiumAI": {
-          "title": "Premium AI",
-          "price": "$0.80",
-          "period": "mỗi phút (ChatGPT-4o)",
-          "feature1": "• Lý luận nâng cao",
-          "feature2": "• Hội thoại phức tạp",
-          "feature3": "• Tính năng doanh nghiệp tùy chỉnh"
+        "title": "Premium AI",
+        "price": "$0.80",
+        "period": "mỗi phút (ChatGPT-4o)",
+        "feature1": "• Lý luận nâng cao",
+        "feature2": "• Hội thoại phức tạp",
+        "feature3": "• Tính năng doanh nghiệp tùy chỉnh"
       }
-  },
-  "transparentCommunication": {
+    },
+    "transparentCommunication": {
       "title": "Giá truyền thông minh bạch",
       "description": "Giá rõ ràng, minh bạch cho mọi nhu cầu truyền thông của bạn",
       "sms": {
-          "title": "SMS",
-          "price": "$0.02",
-          "period": "mỗi tin nhắn (Mỹ/Canada)",
-          "description": "Nhắn tin đáng tin cậy với mức giá minh bạch cho mỗi tin nhắn"
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "mỗi tin nhắn (Mỹ/Canada)",
+        "description": "Nhắn tin đáng tin cậy với mức giá minh bạch cho mỗi tin nhắn"
       },
       "voiceCalls": {
-          "title": "Cuộc gọi thoại",
-          "price": "$0.015",
-          "period": "mỗi phút (Mỹ/Canada)",
-          "description": "Cuộc gọi thoại rõ ràng đến 100+ quốc gia"
+        "title": "Cuộc gọi thoại",
+        "price": "$0.015",
+        "period": "mỗi phút (Mỹ/Canada)",
+        "description": "Cuộc gọi thoại rõ ràng đến 100+ quốc gia"
       },
       "whatsapp": {
-          "title": "WhatsApp Business",
-          "price": "$0.00",
-          "period": "mỗi tin nhắn toàn cầu",
-          "description": "Bạn thanh toán trực tiếp cho Meta. Không có phí chênh lệch từ Seasalt.ai"
+        "title": "WhatsApp Business",
+        "price": "$0.00",
+        "period": "mỗi tin nhắn toàn cầu",
+        "description": "Bạn thanh toán trực tiếp cho Meta. Không có phí chênh lệch từ Seasalt.ai"
       },
       "otherChannels": "📱 Các kênh khác như Instagram, Facebook Messenger và Webchat không có phí chênh lệch hoặc hoàn toàn miễn phí."
-  },
-  "comparison": {
+    },
+    "comparison": {
       "title": "Cảnh quan truyền thông toàn cầu: Chúng tôi đứng ở đâu",
       "description": "Xem cách Seasalt.ai so sánh với các giải pháp khác trên thị trường. Chúng tôi là nền tảng duy nhất cung cấp tính năng doanh nghiệp với sự đơn giản dành cho doanh nghiệp nhỏ.",
       "table": {
-          "competitor": "Đối thủ",
-          "startingPrice": "Giá khởi điểm",
-          "pricingModel": "Mô hình giá",
-          "unifiedVoiceDigital": "Tích hợp thoại & kỹ thuật số",
-          "aiCapabilities": "Khả năng AI",
-          "bestFor": "Phù hợp cho"
+        "competitor": "Đối thủ",
+        "startingPrice": "Giá khởi điểm",
+        "pricingModel": "Mô hình giá",
+        "unifiedVoiceDigital": "Tích hợp thoại & kỹ thuật số",
+        "aiCapabilities": "Khả năng AI",
+        "bestFor": "Phù hợp cho"
       },
       "seasalt": {
-          "name": "Seasalt.ai",
-          "startingPrice": "$20/agent/tháng",
-          "pricingModel": "Đơn giản theo người dùng",
-          "unifiedVoiceDigital": "✅ Có, bản địa",
-          "aiCapabilities": "✅ Có, Chatbots & Voice bản địa",
-          "bestFor": "Doanh nghiệp vừa và nhỏ cần một nền tảng tất cả trong một, giá cả phải chăng.",
-          "recommended": "Được khuyến nghị"
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/agent/tháng",
+        "pricingModel": "Đơn giản theo người dùng",
+        "unifiedVoiceDigital": "✅ Có, bản địa",
+        "aiCapabilities": "✅ Có, Chatbots & Voice bản địa",
+        "bestFor": "Doanh nghiệp vừa và nhỏ cần một nền tảng tất cả trong một, giá cả phải chăng.",
+        "recommended": "Được khuyến nghị"
       },
       "aircall": {
-          "name": "Aircall",
-          "startingPrice": "$30/user/tháng",
-          "pricingModel": "Theo người dùng + Add-on",
-          "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (Add-on)",
-          "aiCapabilities": "⚠️ AI là add-on trả phí",
-          "bestFor": "Nhóm bán hàng có thể chi trả cho nhiều add-on và đáp ứng tối thiểu 3 người dùng."
+        "name": "Aircall",
+        "startingPrice": "$30/user/tháng",
+        "pricingModel": "Theo người dùng + Add-on",
+        "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (Add-on)",
+        "aiCapabilities": "⚠️ AI là add-on trả phí",
+        "bestFor": "Nhóm bán hàng có thể chi trả cho nhiều add-on và đáp ứng tối thiểu 3 người dùng."
       },
       "ringcentral": {
-          "name": "RingCentral",
-          "startingPrice": "$65/agent/tháng",
-          "pricingModel": "Cấp độ phức tạp",
-          "unifiedVoiceDigital": "❌ Sản phẩm riêng lẻ",
-          "aiCapabilities": "✅ Có (AI-powered CCaaS)",
-          "bestFor": "Các công ty lớn cần nền tảng UCaaS rộng với CCaaS riêng."
+        "name": "RingCentral",
+        "startingPrice": "$65/agent/tháng",
+        "pricingModel": "Cấp độ phức tạp",
+        "unifiedVoiceDigital": "❌ Sản phẩm riêng lẻ",
+        "aiCapabilities": "✅ Có (AI-powered CCaaS)",
+        "bestFor": "Các công ty lớn cần nền tảng UCaaS rộng với CCaaS riêng."
       },
       "genesys": {
-          "name": "Genesys Cloud CX",
-          "startingPrice": "$75/user/tháng",
-          "pricingModel": "Theo người dùng + Mức tối thiểu cao",
-          "unifiedVoiceDigital": "✅ Có (ở cấp cao hơn)",
-          "aiCapabilities": "✅ Có (Hệ thống token phức tạp)",
-          "bestFor": "Doanh nghiệp lớn với đội ngũ trung tâm liên hệ chuyên dụng."
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/user/tháng",
+        "pricingModel": "Theo người dùng + Mức tối thiểu cao",
+        "unifiedVoiceDigital": "✅ Có (ở cấp cao hơn)",
+        "aiCapabilities": "✅ Có (Hệ thống token phức tạp)",
+        "bestFor": "Doanh nghiệp lớn với đội ngũ trung tâm liên hệ chuyên dụng."
       },
       "five9": {
-          "name": "Five9",
-          "startingPrice": "$119/user/tháng",
-          "pricingModel": "Theo người dùng + Gói",
-          "unifiedVoiceDigital": "✅ Có (ở cấp premium)",
-          "aiCapabilities": "✅ Có (AI nâng cao)",
-          "bestFor": "Trung tâm liên hệ lớn, outbound-heavy cần công cụ doanh nghiệp."
+        "name": "Five9",
+        "startingPrice": "$119/user/tháng",
+        "pricingModel": "Theo người dùng + Gói",
+        "unifiedVoiceDigital": "✅ Có (ở cấp premium)",
+        "aiCapabilities": "✅ Có (AI nâng cao)",
+        "bestFor": "Trung tâm liên hệ lớn, outbound-heavy cần công cụ doanh nghiệp."
       },
       "googleVoice": {
-          "name": "Google Voice",
-          "startingPrice": "$10/user/tháng",
-          "pricingModel": "Theo người dùng + Phí Workspace",
-          "unifiedVoiceDigital": "❌ Không",
-          "aiCapabilities": "❌ Không (chỉ phiên âm hộp thư thoại)",
-          "bestFor": "Doanh nghiệp cá nhân (chỉ Mỹ) cần số điện thoại cơ bản."
+        "name": "Google Voice",
+        "startingPrice": "$10/user/tháng",
+        "pricingModel": "Theo người dùng + Phí Workspace",
+        "unifiedVoiceDigital": "❌ Không",
+        "aiCapabilities": "❌ Không (chỉ phiên âm hộp thư thoại)",
+        "bestFor": "Doanh nghiệp cá nhân (chỉ Mỹ) cần số điện thoại cơ bản."
       },
       "respondIo": {
-          "name": "respond.io",
-          "startingPrice": "$79/tháng",
-          "pricingModel": "Liên hệ hoạt động hàng tháng",
-          "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Voice Beta)",
-          "aiCapabilities": "✅ Có (AI Agent ở cấp cao hơn)",
-          "bestFor": "Nhóm marketing/bán hàng tập trung vào các kênh nhắn tin như WhatsApp."
+        "name": "respond.io",
+        "startingPrice": "$79/tháng",
+        "pricingModel": "Liên hệ hoạt động hàng tháng",
+        "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Voice Beta)",
+        "aiCapabilities": "✅ Có (AI Agent ở cấp cao hơn)",
+        "bestFor": "Nhóm marketing/bán hàng tập trung vào các kênh nhắn tin như WhatsApp."
       },
       "intercom": {
-          "name": "Intercom",
-          "startingPrice": "$39/seat/tháng",
-          "pricingModel": "Theo chỗ + Add-on + Sử dụng",
-          "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Voice trả theo mức sử dụng)",
-          "aiCapabilities": "✅ Có (Fin AI Agent theo mỗi giải pháp)",
-          "bestFor": "Doanh nghiệp tập trung vào tương tác website chủ động và hỗ trợ."
+        "name": "Intercom",
+        "startingPrice": "$39/seat/tháng",
+        "pricingModel": "Theo chỗ + Add-on + Sử dụng",
+        "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Voice trả theo mức sử dụng)",
+        "aiCapabilities": "✅ Có (Fin AI Agent theo mỗi giải pháp)",
+        "bestFor": "Doanh nghiệp tập trung vào tương tác website chủ động và hỗ trợ."
       }
-  },
-  "faq": {
+    },
+    "faq": {
       "1": {
-          "question": "Gói miễn phí có thực sự miễn phí vĩnh viễn không?",
-          "answer": "Có! Gói Live Agent bao gồm 1 agent con người trọn đời với cuộc trò chuyện, lịch sử chat và danh bạ không giới hạn. Thêm 100 phản hồi AI trọn đời để thử các tính năng AI. Không cần thẻ tín dụng, không phí ẩn."
+        "question": "Gói miễn phí có thực sự miễn phí vĩnh viễn không?",
+        "answer": "Có! Gói Live Agent bao gồm 1 agent con người trọn đời với cuộc trò chuyện, lịch sử chat và danh bạ không giới hạn. Thêm 100 phản hồi AI trọn đời để thử các tính năng AI. Không cần thẻ tín dụng, không phí ẩn."
       },
       "2": {
-          "question": "Giá AI hoạt động thế nào trên SeaChat, SeaX và SeaVoice?",
-          "answer": "Tất cả cuộc gọi Voice AI trên SeaChat, SeaX và SeaVoice áp dụng mức $0.12/phút với mô hình ChatGPT-4o mini. Phản hồi Chat AI bắt đầu từ $0.006 mỗi phản hồi. Các mô hình cao cấp như ChatGPT-4o có giá $0.80/phút, có trên gói premium."
+        "question": "Giá AI hoạt động thế nào trên SeaChat, SeaX và SeaVoice?",
+        "answer": "Tất cả cuộc gọi Voice AI trên SeaChat, SeaX và SeaVoice áp dụng mức $0.12/phút với mô hình ChatGPT-4o mini. Phản hồi Chat AI bắt đầu từ $0.006 mỗi phản hồi. Các mô hình cao cấp như ChatGPT-4o có giá $0.80/phút, có trên gói premium."
       },
       "3": {
-          "question": "Tôi có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào không?",
-          "answer": "Chắc chắn! Bạn có thể thay đổi gói bất cứ lúc nào. Nâng cấp có hiệu lực ngay lập tức, hạ cấp có hiệu lực vào cuối chu kỳ thanh toán hiện tại. Chúng tôi sẽ điều chỉnh thanh toán theo tỷ lệ."
+        "question": "Tôi có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào không?",
+        "answer": "Chắc chắn! Bạn có thể thay đổi gói bất cứ lúc nào. Nâng cấp có hiệu lực ngay lập tức, hạ cấp có hiệu lực vào cuối chu kỳ thanh toán hiện tại. Chúng tôi sẽ điều chỉnh thanh toán theo tỷ lệ."
       },
       "4": {
-          "question": "Sự khác biệt giữa gói WhatsApp Only và Omnichannel là gì?",
-          "answer": "WhatsApp Only ($19.99/tháng) tập trung vào nhắn tin WhatsApp với danh bạ và mẫu không giới hạn. Omnichannel ($99/tháng cho người dùng đầu tiên, $49 cho người dùng bổ sung) bao gồm SMS, gọi thoại, chiến dịch, API và tích hợp SeaChat cho trải nghiệm trung tâm liên hệ đầy đủ."
+        "question": "Sự khác biệt giữa gói WhatsApp Only và Omnichannel là gì?",
+        "answer": "WhatsApp Only ($19.99/tháng) tập trung vào nhắn tin WhatsApp với danh bạ và mẫu không giới hạn. Omnichannel ($99/tháng cho người dùng đầu tiên, $49 cho người dùng bổ sung) bao gồm SMS, gọi thoại, chiến dịch, API và tích hợp SeaChat cho trải nghiệm trung tâm liên hệ đầy đủ."
       },
       "5": {
-          "question": "Có phí ẩn hoặc chi phí thiết lập không?",
-          "answer": "Không có phí ẩn! Số điện thoại $2-$3/tháng kèm địa chỉ E911. SMS $0.02/tin nhắn, gọi thoại $0.015/phút (Mỹ/Canada). Tin nhắn WhatsApp miễn phí toàn cầu - bạn trả trực tiếp cho Meta, không thêm phí từ chúng tôi."
+        "question": "Có phí ẩn hoặc chi phí thiết lập không?",
+        "answer": "Không có phí ẩn! Số điện thoại $2-$3/tháng kèm địa chỉ E911. SMS $0.02/tin nhắn, gọi thoại $0.015/phút (Mỹ/Canada). Tin nhắn WhatsApp miễn phí toàn cầu - bạn trả trực tiếp cho Meta, không thêm phí từ chúng tôi."
       },
       "6": {
-          "question": "Dữ liệu của tôi sẽ ra sao nếu tôi hủy?",
-          "answer": "Bạn sở hữu dữ liệu của mình. Bạn có thể xuất toàn bộ lịch sử chat, danh bạ và nội dung cơ sở tri thức bất cứ lúc nào, kể cả với gói miễn phí. Chúng tôi tin vào tự do và minh bạch dữ liệu."
+        "question": "Dữ liệu của tôi sẽ ra sao nếu tôi hủy?",
+        "answer": "Bạn sở hữu dữ liệu của mình. Bạn có thể xuất toàn bộ lịch sử chat, danh bạ và nội dung cơ sở tri thức bất cứ lúc nào, kể cả với gói miễn phí. Chúng tôi tin vào tự do và minh bạch dữ liệu."
       },
       "7": {
-          "question": "Có chiết khấu số lượng cho doanh nghiệp lớn không?",
-          "answer": "Có! Gói Custom Enterprise cung cấp giá thương lượng dựa trên khối lượng và mức sử dụng cụ thể của bạn. Liên hệ đội sales để nhận giá tùy chỉnh, nhiều workspace, tuân thủ HIPAA, và giải pháp white-label."
+        "question": "Có chiết khấu số lượng cho doanh nghiệp lớn không?",
+        "answer": "Có! Gói Custom Enterprise cung cấp giá thương lượng dựa trên khối lượng và mức sử dụng cụ thể của bạn. Liên hệ đội sales để nhận giá tùy chỉnh, nhiều workspace, tuân thủ HIPAA, và giải pháp white-label."
       },
       "title": "Câu hỏi thường gặp"
-  },
-  "cta": {
+    },
+    "cta": {
       "title": "Sẵn sàng biến đổi",
       "titleGradient": "truyền thông khách hàng của bạn?",
       "description": "Tham gia hàng ngàn doanh nghiệp sử dụng Seasalt.ai để mang đến trải nghiệm khách hàng xuất sắc",
       "stats": {
-          "customers": "10.000+",
-          "customersLabel": "Khách hàng hài lòng",
-          "uptime": "99.9%",
-          "uptimeLabel": "Thời gian hoạt động SLA",
-          "support": "24/7",
-          "supportLabel": "Hỗ trợ"
+        "customers": "10.000+",
+        "customersLabel": "Khách hàng hài lòng",
+        "uptime": "99.9%",
+        "uptimeLabel": "Thời gian hoạt động SLA",
+        "support": "24/7",
+        "supportLabel": "Hỗ trợ"
       },
       "primary": "🚀 ĐĂNG KÝ NGAY",
       "secondary": "📞 Nói chuyện với Sales",
@@ -1013,66 +1013,66 @@
       "trustBadge3": "Hủy bất cứ lúc nào",
       "trustBadge4": "Có gói miễn phí thực sự",
       "urgency": "⚡ Thời gian có hạn: Nhận 2 tháng miễn phí với gói hàng năm + hỗ trợ onboarding ưu tiên!"
-  },
-  "billingToggle": {
+    },
+    "billingToggle": {
       "monthly": "Thanh toán hàng tháng",
       "annually": "Thanh toán hàng năm",
       "save20": "Tiết kiệm 20%"
-  },
-  "legacy": {
+    },
+    "legacy": {
       "liveAgent": {
-          "name": "Live Agent",
-          "price": "$0",
-          "period": "vĩnh viễn",
-          "tagline": "Thực sự miễn phí, mãi mãi. Hoàn hảo để bắt đầu.",
-          "description": "Hoàn hảo để bắt đầu. Tích hợp hộp thư với 1 agent con người.",
-          "features": {
-              "0": "1 agent con người",
-              "1": "Trò chuyện không giới hạn với agent con người",
-              "2": "WhatsApp/Messenger/LINE/Webchat",
-              "3": "Tích hợp cơ bản (Shopify, v.v.)",
-              "4": "Hỗ trợ email"
-          },
-          "cta": "Đăng ký"
+        "name": "Live Agent",
+        "price": "$0",
+        "period": "vĩnh viễn",
+        "tagline": "Thực sự miễn phí, mãi mãi. Hoàn hảo để bắt đầu.",
+        "description": "Hoàn hảo để bắt đầu. Tích hợp hộp thư với 1 agent con người.",
+        "features": {
+          "0": "1 agent con người",
+          "1": "Trò chuyện không giới hạn với agent con người",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Tích hợp cơ bản (Shopify, v.v.)",
+          "4": "Hỗ trợ email"
+        },
+        "cta": "Đăng ký"
       },
       "professional": {
-          "name": "Professional",
-          "priceAnnual": "$40",
-          "priceMonthly": "$50",
-          "period": "mỗi tháng",
-          "additionalPriceAnnual": "+ $20/tháng cho mỗi agent bổ sung",
-          "additionalPriceMonthly": "+ $25/tháng cho mỗi agent bổ sung",
-          "tagline": "Giải pháp toàn diện, hợp nhất cho doanh nghiệp đang phát triển.",
-          "description": "Mọi thứ bạn cần để tự động hóa và mở rộng truyền thông khách hàng.",
-          "features": {
-              "0": "Mọi thứ trong Live Agent",
-              "1": "Tự động hóa AI (Voicebot & Chatbot)",
-              "2": "Tất cả kênh truyền thông (bao gồm gọi điện thoại)",
-              "3": "Chiến dịch tiếp thị ra ngoài",
-              "4": "Tích hợp CRM (HubSpot, Salesforce)",
-              "5": "Phân tích & báo cáo nâng cao",
-              "6": "Hỗ trợ ưu tiên",
-              "7": "Tuân thủ HIPAA có sẵn"
-          },
-          "cta": "Bắt đầu"
+        "name": "Professional",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "mỗi tháng",
+        "additionalPriceAnnual": "+ $20/tháng cho mỗi agent bổ sung",
+        "additionalPriceMonthly": "+ $25/tháng cho mỗi agent bổ sung",
+        "tagline": "Giải pháp toàn diện, hợp nhất cho doanh nghiệp đang phát triển.",
+        "description": "Mọi thứ bạn cần để tự động hóa và mở rộng truyền thông khách hàng.",
+        "features": {
+          "0": "Mọi thứ trong Live Agent",
+          "1": "Tự động hóa AI (Voicebot & Chatbot)",
+          "2": "Tất cả kênh truyền thông (bao gồm gọi điện thoại)",
+          "3": "Chiến dịch tiếp thị ra ngoài",
+          "4": "Tích hợp CRM (HubSpot, Salesforce)",
+          "5": "Phân tích & báo cáo nâng cao",
+          "6": "Hỗ trợ ưu tiên",
+          "7": "Tuân thủ HIPAA có sẵn"
+        },
+        "cta": "Bắt đầu"
       },
       "enterprise": {
-          "name": "Enterprise",
-          "price": "Liên hệ",
-          "period": "",
-          "tagline": "Cho các đội có nhu cầu tùy chỉnh.",
-          "description": "Cho các đội lớn với nhu cầu cụ thể như tuân thủ nâng cao hoặc tích hợp tùy chỉnh.",
-          "features": {
-              "0": "Mọi thứ trong Professional",
-              "1": "Tuân thủ HIPAA",
-              "2": "Tích hợp tùy chỉnh",
-              "3": "Quản lý tài khoản riêng",
-              "4": "Đào tạo AI tùy chỉnh",
-              "5": "Tùy chọn white-label",
-              "6": "Cam kết SLA",
-              "7": "Tùy chọn triển khai tại chỗ"
-          },
-          "cta": "Liên hệ Sales"
+        "name": "Enterprise",
+        "price": "Liên hệ",
+        "period": "",
+        "tagline": "Cho các đội có nhu cầu tùy chỉnh.",
+        "description": "Cho các đội lớn với nhu cầu cụ thể như tuân thủ nâng cao hoặc tích hợp tùy chỉnh.",
+        "features": {
+          "0": "Mọi thứ trong Professional",
+          "1": "Tuân thủ HIPAA",
+          "2": "Tích hợp tùy chỉnh",
+          "3": "Quản lý tài khoản riêng",
+          "4": "Đào tạo AI tùy chỉnh",
+          "5": "Tùy chọn white-label",
+          "6": "Cam kết SLA",
+          "7": "Tùy chọn triển khai tại chỗ"
+        },
+        "cta": "Liên hệ Sales"
       }
     }
   },
@@ -1087,7 +1087,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "Quay về Trang chủ"
+        "backToHome": "← Quay về Trang chủ"
       },
       "hero": {
         "title": "Giải pháp AI cho",
@@ -1179,6 +1179,24 @@
       },
       "solutions": {
         "title": "Giải pháp"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Truy cập GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Máy tính Gói và Sử dụng Mô hình",
+        "voiceOnly": "Mô hình chỉ giọng nói",
+        "voicePricing": "Giá tính giọng nói",
+        "standardVoice": "Giọng nói chuẩn",
+        "premiumVoice": "Giọng nói cao cấp"
       }
     }
   }

@@ -1188,7 +1188,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "返回首页"
+        "backToHome": "← 返回首页"
       },
       "hero": {
         "title": "AI 解决方案适用于",
@@ -1280,6 +1280,24 @@
       },
       "solutions": {
         "title": "解决方案"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "访问 GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "方案与模型使用量计算器",
+        "voiceOnly": "仅语音模型",
+        "voicePricing": "语音定价",
+        "standardVoice": "标准语音",
+        "premiumVoice": "高级语音"
       }
     }
   }

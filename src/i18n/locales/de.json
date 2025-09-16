@@ -1087,7 +1087,7 @@
     },
     "template": {
       "nav": {
-        "backToHome": "العودة إلى الصفحة الرئيسية"
+        "backToHome": "← العودة إلى الصفحة الرئيسية"
       },
       "hero": {
         "title": "حلول الذكاء الاصطناعي لـ",
@@ -1461,6 +1461,24 @@
         "title": "Bereit, Ihr Telefonsystem zu verbessern?",
         "description": "Bringen Sie Ihr Team in weniger als 10 Tagen in Anrufe mit unternehmenssicherer Zuverlässigkeit und KI-gestützter Automatisierung.",
         "button": "Einrichtung starten"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Zugang zu GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Plan & Modellnutzung-Rechner",
+        "voiceOnly": "Nur Sprachmodell",
+        "voicePricing": "Sprachpreise",
+        "standardVoice": "Standard-Stimme",
+        "premiumVoice": "Premium-Stimme"
       }
     }
   }
