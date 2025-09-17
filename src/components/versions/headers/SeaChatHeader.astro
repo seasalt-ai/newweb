@@ -352,13 +352,14 @@ const isActiveSection = (section: string) => {
       <!-- Mobile menu button -->
       <div class="lg:hidden">
         <button 
+          id="seachat-mobile-menu-toggle"
           class="mobile-menu-toggle inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-teal-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
           aria-expanded="false"
         >
-          <svg class="block h-6 w-6 menu-open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg id="seachat-menu-open" class="block h-6 w-6 menu-open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <svg class="hidden h-6 w-6 menu-close" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg id="seachat-menu-close" class="hidden h-6 w-6 menu-close" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
@@ -366,7 +367,7 @@ const isActiveSection = (section: string) => {
     </div>
 
     <!-- Mobile menu -->
-    <div class="lg:hidden hidden mobile-menu bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto">
+    <div id="seachat-mobile-menu" class="lg:hidden hidden mobile-menu bg-white border-b border-gray-100 max-h-[70vh] overflow-y-auto">
       <div class="px-4 py-6 space-y-3">
         <!-- Action Buttons at Top -->
         <div class="space-y-3">
@@ -409,20 +410,22 @@ const isActiveSection = (section: string) => {
         <!-- Features Section -->
         <div>
           <button 
+            id="seachat-features-toggle"
             class="mobile-section-toggle flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
             data-section="features"
+            data-open="false"
           >
             {t('seachat.header.features', 'Features')}
             <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <div class="mobile-section-content hidden" data-section-content="features">
+          <div class="mobile-section-content" data-section-content="features" style="display: none;">
             <div class="space-y-1 pl-4 pb-2">
               {featuresDropdown.map((item) => (
                 <a 
                   href={item.href} 
-                  class={`flex items-center transition-colors ${
+                  class={`flex items-center py-2 transition-colors ${
                     isActivePath(item.href) 
                       ? 'text-blue-600 font-medium' 
                       : 'text-gray-600 hover:text-blue-600'
@@ -439,20 +442,22 @@ const isActiveSection = (section: string) => {
         <!-- Integrations Section -->
         <div>
           <button 
+            id="seachat-integrations-toggle"
             class="mobile-section-toggle flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
             data-section="integrations"
+            data-open="false"
           >
             {t('seachat.header.integrations', 'Integrations')}
             <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <div class="mobile-section-content hidden" data-section-content="integrations">
+          <div class="mobile-section-content" data-section-content="integrations" style="display: none;">
             <div class="space-y-1 pl-4 pb-2">
               {integrationsDropdown.slice(0, 4).map((item) => (
                 <a 
                   href={item.href} 
-                  class={`flex items-center transition-colors ${
+                  class={`flex items-center py-2 transition-colors ${
                     isActivePath(item.href) 
                       ? 'text-blue-600 font-medium' 
                       : 'text-gray-600 hover:text-blue-600'
@@ -462,7 +467,7 @@ const isActiveSection = (section: string) => {
                   {item.name}
                 </a>
               ))}
-              <a href={`/${lang}/seachat/integrations`} class="block text-blue-600 font-medium">{t('seachat.header.viewAllIntegrations', 'View All Integrations')}</a>
+              <a href={`/${lang}/seachat/integrations`} class="block text-blue-600 font-medium py-2">{t('seachat.header.viewAllIntegrations', 'View All Integrations')}</a>
             </div>
           </div>
         </div>
@@ -470,20 +475,22 @@ const isActiveSection = (section: string) => {
         <!-- Solutions Section -->
         <div>
           <button 
+            id="seachat-solutions-toggle"
             class="mobile-section-toggle flex items-center justify-between w-full font-semibold text-gray-900 mb-3 px-3 py-2"
             data-section="solutions"
+            data-open="false"
           >
             {t('seachat.header.solutions', 'Solutions')}
             <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <div class="mobile-section-content hidden" data-section-content="solutions">
+          <div class="mobile-section-content" data-section-content="solutions" style="display: none;">
             <div class="space-y-1 pl-4 pb-2">
               {solutionsDropdown.slice(0, 4).map((item) => (
                 <a 
                   href={item.href} 
-                  class={`flex items-center transition-colors ${
+                  class={`flex items-center py-2 transition-colors ${
                     isActivePath(item.href) 
                       ? 'text-blue-600 font-medium' 
                       : 'text-gray-600 hover:text-blue-600'
@@ -493,7 +500,7 @@ const isActiveSection = (section: string) => {
                   {item.name}
                 </a>
               ))}
-              <a href={`/${lang}/seachat/solutions`} class="block text-blue-600 font-medium">{t('seachat.header.viewAllSolutions', 'View All Solutions')}</a>
+              <a href={`/${lang}/seachat/solutions`} class="block text-blue-600 font-medium py-2">{t('seachat.header.viewAllSolutions', 'View All Solutions')}</a>
             </div>
           </div>
         </div>
@@ -527,9 +534,10 @@ const isActiveSection = (section: string) => {
   </div>
 </header>
 
-<script>
+<script is:inline>
   // Header dropdown functionality
   document.addEventListener('DOMContentLoaded', function() {
+    // Desktop dropdown functionality
     const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
     const dropdownMenus = document.querySelectorAll('.dropdown-menu');
     
@@ -557,50 +565,75 @@ const isActiveSection = (section: string) => {
       }
     });
 
-    // Mobile menu toggle
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const menuOpenIcon = document.querySelector('.menu-open');
-    const menuCloseIcon = document.querySelector('.menu-close');
+    // Mobile hamburger menu toggle
+    const mobileMenuToggle = document.getElementById('seachat-mobile-menu-toggle');
+    const mobileMenu = document.getElementById('seachat-mobile-menu');
+    const menuOpenIcon = document.getElementById('seachat-menu-open');
+    const menuCloseIcon = document.getElementById('seachat-menu-close');
     
     if (mobileMenuToggle && mobileMenu) {
-      mobileMenuToggle.addEventListener('click', function() {
-        const isHidden = mobileMenu.classList.contains('hidden');
-        mobileMenu.classList.toggle('hidden');
+      mobileMenuToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
         
-        // Toggle menu icons
+        const isCurrentlyHidden = mobileMenu.classList.contains('hidden') || mobileMenu.style.display === 'none';
+        
+        // Toggle menu visibility with both class and style
+        if (isCurrentlyHidden) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenu.style.display = 'block';
+        } else {
+          mobileMenu.classList.add('hidden');
+          mobileMenu.style.display = 'none';
+        }
+        
+        // Toggle hamburger icons
         if (menuOpenIcon && menuCloseIcon) {
-          if (isHidden) {
-            menuOpenIcon.classList.add('hidden');
-            menuCloseIcon.classList.remove('hidden');
+          if (isCurrentlyHidden) {
+            menuOpenIcon.style.display = 'none';
+            menuCloseIcon.style.display = 'block';
           } else {
-            menuOpenIcon.classList.remove('hidden');
-            menuCloseIcon.classList.add('hidden');
+            menuOpenIcon.style.display = 'block';
+            menuCloseIcon.style.display = 'none';
           }
         }
         
-        this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        this.setAttribute('aria-expanded', isCurrentlyHidden ? 'true' : 'false');
       });
+      
+      // Initialize menu state
+      mobileMenu.style.display = 'none';
     }
 
-    // Mobile section toggles
+    // Mobile section toggles (Features, Integrations, Solutions)
     const sectionToggles = document.querySelectorAll('.mobile-section-toggle');
     
-    sectionToggles.forEach(toggle => {
-      toggle.addEventListener('click', function() {
+    sectionToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
         const section = this.getAttribute('data-section');
         const content = document.querySelector(`[data-section-content="${section}"]`);
-        const chevron = this.querySelector('.chevron-down');
+        const chevron = this.querySelector('svg');
         
         if (content) {
-          const isHidden = content.classList.contains('hidden');
-          content.classList.toggle('hidden');
+          // Use data attribute to track state
+          const isOpen = this.getAttribute('data-open') === 'true';
           
-          if (chevron) {
-            if (isHidden) {
-              chevron.classList.add('rotate-180');
-            } else {
-              chevron.classList.remove('rotate-180');
+          if (isOpen) {
+            // Close the section
+            content.style.display = 'none';
+            this.setAttribute('data-open', 'false');
+            if (chevron) {
+              chevron.style.cssText = 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;';
+            }
+          } else {
+            // Open the section
+            content.style.display = 'block';
+            this.setAttribute('data-open', 'true');
+            if (chevron) {
+              chevron.style.cssText = 'transform: rotate(180deg) !important; transition: transform 0.2s ease !important;';
             }
           }
         }

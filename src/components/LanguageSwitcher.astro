@@ -13,14 +13,14 @@ const currentLang = extractLangFromPath(actualCurrentPath);
 ---
 
 <div class="relative inline-block text-left">
-  <button id="language-switcher" class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200">
+  <button class="language-switcher-btn flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200">
     <span class="mr-1">{languages[currentLang]?.shortCode || 'EN'}</span>
     <svg class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
     </svg>
   </button>
   
-  <div id="language-menu" class="hidden absolute right-0 z-10 mt-2 w-64 origin-top-right bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-[9999]">
+  <div class="language-menu hidden absolute right-0 z-10 mt-2 w-64 origin-top-right bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-[9999]">
     <div class="py-1">
       {Object.entries(languages).map(([lang, info]) => (
         <a 
@@ -39,35 +39,92 @@ const currentLang = extractLangFromPath(actualCurrentPath);
   </div>
 </div>
 
-<script>
-  const button = document.getElementById('language-switcher');
-  const menu = document.getElementById('language-menu');
-  
-  if (button && menu) {
-    button.addEventListener('click', () => {
-      const isHidden = menu.classList.contains('hidden');
-      menu.classList.toggle('hidden');
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add a small delay to ensure all elements are loaded
+    setTimeout(function() {
+      const buttons = document.querySelectorAll('.language-switcher-btn');
       
-      // Toggle chevron rotation
-      const chevron = button.querySelector('svg');
-      if (chevron) {
-        if (isHidden) {
-          chevron.classList.add('rotate-180');
-        } else {
-          chevron.classList.remove('rotate-180');
+      buttons.forEach(button => {
+        const container = button.closest('.relative');
+        const menu = container ? container.querySelector('.language-menu') : null;
+        
+        if (button && menu) {
+          // Add data attribute to track state
+          button.setAttribute('data-open', 'false');
+          
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const isOpen = this.getAttribute('data-open') === 'true';
+            
+            // Close all other language menus first
+            document.querySelectorAll('.language-switcher-btn').forEach(otherButton => {
+              if (otherButton !== this) {
+                otherButton.setAttribute('data-open', 'false');
+                const otherContainer = otherButton.closest('.relative');
+                const otherMenu = otherContainer ? otherContainer.querySelector('.language-menu') : null;
+                if (otherMenu) {
+                  otherMenu.classList.add('hidden');
+                  otherMenu.style.display = 'none';
+                }
+                const otherChevron = otherButton.querySelector('svg');
+                if (otherChevron) {
+                  otherChevron.style.cssText = 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;';
+                }
+              }
+            });
+            
+            // Toggle current menu
+            if (isOpen) {
+              // Close current menu
+              menu.classList.add('hidden');
+              menu.style.display = 'none';
+              this.setAttribute('data-open', 'false');
+            } else {
+              // Open current menu
+              menu.classList.remove('hidden');
+              menu.style.display = 'block';
+              this.setAttribute('data-open', 'true');
+            }
+            
+            // Rotate chevron
+            const chevron = this.querySelector('svg');
+            if (chevron) {
+              chevron.style.cssText = isOpen 
+                ? 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;'
+                : 'transform: rotate(180deg) !important; transition: transform 0.2s ease !important;';
+            }
+          });
+          
+          // Initialize as hidden
+          menu.classList.add('hidden');
+          menu.style.display = 'none';
         }
-      }
-    });
-    
-    // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!button.contains(e.target as Node) && !menu.contains(e.target as Node)) {
-        menu.classList.add('hidden');
-        const chevron = button.querySelector('svg');
-        if (chevron) {
-          chevron.classList.remove('rotate-180');
+      });
+      
+      // Close menus when clicking outside
+      document.addEventListener('click', function(e) {
+        const clickedButton = e.target.closest('.language-switcher-btn');
+        const clickedMenu = e.target.closest('.language-menu');
+        
+        if (!clickedButton && !clickedMenu) {
+          document.querySelectorAll('.language-switcher-btn').forEach(button => {
+            button.setAttribute('data-open', 'false');
+            const container = button.closest('.relative');
+            const menu = container ? container.querySelector('.language-menu') : null;
+            if (menu) {
+              menu.classList.add('hidden');
+              menu.style.display = 'none';
+            }
+            const chevron = button.querySelector('svg');
+            if (chevron) {
+              chevron.style.cssText = 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;';
+            }
+          });
         }
-      }
-    });
-  }
+      });
+    }, 100);
+  });
 </script>

@@ -1,0 +1,271 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import Layout from '../../../../layouts/Layout.astro';
+import SocialMediaIcon from '../../../../components/react/seachat/integrations/SocialMediaIcon';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
+
+const getMeetingUrl = (lang: string) => {
+  return `https://calendly.com/seasaltai/demo`;
+};
+
+// Social Media Platform data
+const platforms = [
+  {
+    name: t('seachat.integrations.social.platforms.whatsapp.name'),
+    iconType: 'whatsapp',
+    color: 'from-green-500 to-emerald-500',
+    description: t('seachat.integrations.social.platforms.whatsapp.description'),
+    features: [
+      t('seachat.integrations.social.platforms.whatsapp.features.api'),
+      t('seachat.integrations.social.platforms.whatsapp.features.media'),
+      t('seachat.integrations.social.platforms.whatsapp.features.templates'),
+      t('seachat.integrations.social.platforms.whatsapp.features.groups')
+    ],
+    users: t('seachat.integrations.social.platforms.whatsapp.users'),
+    setupTime: t('seachat.integrations.social.platforms.whatsapp.setupTime')
+  },
+  {
+    name: t('seachat.integrations.social.platforms.instagram.name'),
+    iconType: 'instagram',
+    color: 'from-pink-500 to-purple-500',
+    description: t('seachat.integrations.social.platforms.instagram.description'),
+    features: [
+      t('seachat.integrations.social.platforms.instagram.features.dm'),
+      t('seachat.integrations.social.platforms.instagram.features.stories'),
+      t('seachat.integrations.social.platforms.instagram.features.media'),
+      t('seachat.integrations.social.platforms.instagram.features.responses')
+    ],
+    users: t('seachat.integrations.social.platforms.instagram.users'),
+    setupTime: t('seachat.integrations.social.platforms.instagram.setupTime')
+  },
+  {
+    name: t('seachat.integrations.social.platforms.facebook.name'),
+    iconType: 'facebook',
+    color: 'from-blue-500 to-indigo-500',
+    description: t('seachat.integrations.social.platforms.facebook.description'),
+    features: [
+      t('seachat.integrations.social.platforms.facebook.features.page'),
+      t('seachat.integrations.social.platforms.facebook.features.responses'),
+      t('seachat.integrations.social.platforms.facebook.features.cards'),
+      t('seachat.integrations.social.platforms.facebook.features.menu')
+    ],
+    users: t('seachat.integrations.social.platforms.facebook.users'),
+    setupTime: t('seachat.integrations.social.platforms.facebook.setupTime')
+  },
+  {
+    name: t('seachat.integrations.social.platforms.twitter.name'),
+    iconType: 'twitter',
+    color: 'from-gray-700 to-black',
+    description: t('seachat.integrations.social.platforms.twitter.description'),
+    features: [
+      t('seachat.integrations.social.platforms.twitter.features.dm'),
+      t('seachat.integrations.social.platforms.twitter.features.mentions'),
+      t('seachat.integrations.social.platforms.twitter.features.responses'),
+      t('seachat.integrations.social.platforms.twitter.features.threads')
+    ],
+    users: t('seachat.integrations.social.platforms.twitter.users'),
+    setupTime: t('seachat.integrations.social.platforms.twitter.setupTime')
+  },
+  {
+    name: t('seachat.integrations.social.platforms.line.name'),
+    iconType: 'line',
+    color: 'from-green-400 to-green-600',
+    description: t('seachat.integrations.social.platforms.line.description'),
+    features: [
+      t('seachat.integrations.social.platforms.line.features.messaging'),
+      t('seachat.integrations.social.platforms.line.features.stickers'),
+      t('seachat.integrations.social.platforms.line.features.broadcast'),
+      t('seachat.integrations.social.platforms.line.features.payments')
+    ],
+    users: t('seachat.integrations.social.platforms.line.users'),
+    setupTime: t('seachat.integrations.social.platforms.line.setupTime')
+  },
+  {
+    name: t('seachat.integrations.social.platforms.tiktok.name'),
+    iconType: 'tiktok',
+    color: 'from-black to-gray-800',
+    description: t('seachat.integrations.social.platforms.tiktok.description'),
+    features: [
+      t('seachat.integrations.social.platforms.tiktok.features.comments'),
+      t('seachat.integrations.social.platforms.tiktok.features.dm'),
+      t('seachat.integrations.social.platforms.tiktok.features.analytics'),
+      t('seachat.integrations.social.platforms.tiktok.features.ads')
+    ],
+    users: t('seachat.integrations.social.platforms.tiktok.users'),
+    setupTime: t('seachat.integrations.social.platforms.tiktok.setupTime')
+  }
+];
+
+// Benefits data
+const benefits = [
+  {
+    title: t('seachat.integrations.social.benefits.meet.title'),
+    description: t('seachat.integrations.social.benefits.meet.description'),
+    metric: '5B+'
+  },
+  {
+    title: t('seachat.integrations.social.benefits.response.title'),
+    description: t('seachat.integrations.social.benefits.response.description'),
+    metric: '<30s'
+  },
+  {
+    title: t('seachat.integrations.social.benefits.unified.title'),
+    description: t('seachat.integrations.social.benefits.unified.description'),
+    metric: '100%'
+  },
+  {
+    title: t('seachat.integrations.social.benefits.reputation.title'),
+    description: t('seachat.integrations.social.benefits.reputation.description'),
+    metric: '95%'
+  }
+];
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.socialMedia.seo.title');
+const seoDescription = t('seachat.integrations.socialMedia.seo.description');
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/social-media`;
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-pink-900 via-purple-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-pink-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.social.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-pink-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.social.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-pink-500 hover:bg-pink-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center">
+              {t('seachat.integrations.social.connectButton')}
+            </a>
+            <a href={getMeetingUrl(lang as string)} class="border-2 border-white text-white hover:bg-white hover:text-pink-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center">
+              {t('seachat.integrations.social.demoButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Platforms -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.social.platformsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.social.platformsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {platforms.map((platform, index) => (
+            <div key={index} class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class={`w-16 h-16 bg-gradient-to-br ${platform.color} rounded-2xl flex items-center justify-center mb-6`}>
+                <SocialMediaIcon 
+                  iconType={platform.iconType} 
+                  className="w-8 h-8 text-white"
+                  client:only="react" 
+                />
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6 text-sm">
+                <div class="text-gray-600">
+                  <span class="font-medium text-gray-900">{platform.users}</span> {t('seachat.integrations.social.worldwide')}
+                </div>
+                <div class="text-gray-600">
+                  {t('seachat.integrations.social.setup')}: <span class="font-medium text-gray-900">{platform.setupTime}</span>
+                </div>
+              </div>
+              
+              <a href="https://chat.seasalt.ai/gpt/signup" class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+                {t('seachat.integrations.social.connectPlatform')} {platform.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.social.benefitsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.social.benefitsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div key={index} class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-3xl font-bold text-pink-600 mb-4">{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-pink-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.social.ctaTitle')}
+        </h2>
+        <p class="text-xl text-pink-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.social.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://chat.seasalt.ai/gpt/signup" class="bg-white text-pink-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
+            {t('seachat.integrations.social.ctaButton')}
+          </a>
+          <a href={getMeetingUrl(lang as string)} class="border-2 border-white text-white hover:bg-white hover:text-pink-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            {t('seachat.integrations.social.ctaDemoButton')}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

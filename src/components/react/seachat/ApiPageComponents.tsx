@@ -52,7 +52,7 @@ const conversation = await client.conversations.create({
 // Send a response
 await client.messages.send({
   conversation_id: conversation.id,
-  content: 'I'd be happy to help you with your order!',
+  content: 'I\'d be happy to help you with your order!',
   type: 'text'
 });
 
@@ -128,18 +128,46 @@ export const ApiEndpoints: React.FC<ApiPageComponentsProps> = ({ lang, translati
       example: `{
   "customer_id": "cust_123",
   "channel": "website",
-  "message": "Hello, I need help"
+  "message": "Hello, I need help",
+  "metadata": {
+    "source": "contact-form",
+    "priority": "high"
+  }
+}`,
+      response: `{
+  "id": "conv_789",
+  "status": "active",
+  "created_at": "2024-01-15T10:30:00Z",
+  "customer": {
+    "id": "cust_123",
+    "name": "John Doe",
+    "email": "john@example.com"
+  }
 }`
     },
     {
       method: 'GET',
       endpoint: '/api/v1/conversations/{id}',
       description: getText('seachat.features.api.endpoints.getConversation', 'Retrieve conversation details'),
-      example: `{
-  "id": "conv_456",
+      example: `GET /api/v1/conversations/conv_789
+Authorization: Bearer your_api_key`,
+      response: `{
+  "id": "conv_789",
   "status": "active",
-  "messages": [...],
-  "agent": "agent_789"
+  "created_at": "2024-01-15T10:30:00Z",
+  "updated_at": "2024-01-15T10:45:00Z",
+  "customer": {
+    "id": "cust_123",
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  "agent": {
+    "id": "agent_456",
+    "name": "Sarah Smith",
+    "type": "human"
+  },
+  "messages_count": 5,
+  "tags": ["support", "urgent"]
 }`
     },
     {
@@ -147,9 +175,108 @@ export const ApiEndpoints: React.FC<ApiPageComponentsProps> = ({ lang, translati
       endpoint: '/api/v1/messages',
       description: getText('seachat.features.api.endpoints.sendMessage', 'Send a message in a conversation'),
       example: `{
-  "conversation_id": "conv_456",
-  "content": "How can I help you?",
-  "type": "text"
+  "conversation_id": "conv_789",
+  "content": "How can I help you today?",
+  "type": "text",
+  "agent_id": "agent_456"
+}`,
+      response: `{
+  "id": "msg_101",
+  "conversation_id": "conv_789",
+  "content": "How can I help you today?",
+  "type": "text",
+  "sent_at": "2024-01-15T10:45:30Z",
+  "sender": {
+    "id": "agent_456",
+    "type": "agent"
+  }
+}`
+    },
+    {
+      method: 'GET',
+      endpoint: '/api/v1/messages',
+      description: getText('seachat.features.api.endpoints.listMessages', 'List messages in a conversation'),
+      example: `GET /api/v1/messages?conversation_id=conv_789&limit=20`,
+      response: `{
+  "messages": [
+    {
+      "id": "msg_100",
+      "content": "Hello, I need help",
+      "type": "text",
+      "sent_at": "2024-01-15T10:30:15Z",
+      "sender": {
+        "id": "cust_123",
+        "type": "customer"
+      }
+    },
+    {
+      "id": "msg_101",
+      "content": "How can I help you today?",
+      "type": "text",
+      "sent_at": "2024-01-15T10:45:30Z",
+      "sender": {
+        "id": "agent_456",
+        "type": "agent"
+      }
+    }
+  ],
+  "pagination": {
+    "total": 5,
+    "limit": 20,
+    "offset": 0
+  }
+}`
+    },
+    {
+      method: 'POST',
+      endpoint: '/api/v1/webhooks',
+      description: getText('seachat.features.api.endpoints.createWebhook', 'Create a webhook endpoint'),
+      example: `{
+  "url": "https://yourapp.com/webhooks/seachat",
+  "events": [
+    "message.received",
+    "conversation.created",
+    "conversation.resolved"
+  ],
+  "secret": "your_webhook_secret"
+}`,
+      response: `{
+  "id": "webhook_123",
+  "url": "https://yourapp.com/webhooks/seachat",
+  "events": [
+    "message.received",
+    "conversation.created",
+    "conversation.resolved"
+  ],
+  "status": "active",
+  "created_at": "2024-01-15T10:30:00Z"
+}`
+    },
+    {
+      method: 'GET',
+      endpoint: '/api/v1/agents',
+      description: getText('seachat.features.api.endpoints.listAgents', 'List all agents'),
+      example: `GET /api/v1/agents?status=active&type=human`,
+      response: `{
+  "agents": [
+    {
+      "id": "agent_456",
+      "name": "Sarah Smith",
+      "email": "sarah@company.com",
+      "type": "human",
+      "status": "online",
+      "skills": ["support", "billing"],
+      "active_conversations": 3
+    },
+    {
+      "id": "ai_agent_001",
+      "name": "AI Assistant",
+      "type": "ai",
+      "status": "active",
+      "capabilities": ["faq", "order_status"],
+      "active_conversations": 15
+    }
+  ]
 }`
     }
   ];
@@ -196,10 +323,25 @@ export const ApiEndpoints: React.FC<ApiPageComponentsProps> = ({ lang, translati
             <div className="grid lg:grid-cols-2 gap-8">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-4">{getText('seachat.features.api.exampleRequestResponse', 'Example Request/Response')}</h4>
-                <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
-                  <pre className="text-green-400 text-sm">
-                    <code>{endpoint.example}</code>
-                  </pre>
+                <div className="space-y-4">
+                  <div>
+                    <h5 className="text-sm font-medium text-gray-700 mb-2">Request</h5>
+                    <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+                      <pre className="text-green-400 text-sm">
+                        <code>{endpoint.example}</code>
+                      </pre>
+                    </div>
+                  </div>
+                  {endpoint.response && (
+                    <div>
+                      <h5 className="text-sm font-medium text-gray-700 mb-2">Response</h5>
+                      <div className="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+                        <pre className="text-blue-400 text-sm">
+                          <code>{endpoint.response}</code>
+                        </pre>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
               

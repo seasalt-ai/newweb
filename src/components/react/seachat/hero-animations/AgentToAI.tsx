@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { User, Bot, Brain, Zap, MessageCircle, TrendingUp } from 'lucide-react';
 import { useTranslation, type SupportedLanguage } from '../../../../i18n/helpers';
 
@@ -20,7 +20,7 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
     { t: null, isLoading: false } : 
     useTranslation(lang);
 
-  const getText = (key: string, fallback: string = key): string => {
+  const getText = useCallback((key: string, fallback: string = key): string => {
     if (translations) {
       const keys = key.split('.');
       let result: any = translations;
@@ -38,7 +38,7 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
     }
     
     return hookT ? hookT(key) : fallback;
-  };
+  }, [translations, hookT, lang]);
 
   // 處理載入狀態
   if (isLoading) {
@@ -54,37 +54,40 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
   const [phase, setPhase] = useState<'learning' | 'handoff' | 'autonomous'>('learning');
   const [nextId, setNextId] = useState(1);
 
-  const humanMessages = useMemo(() => [
-    getText('seachat.heroAnimations.agentToAI.humanMessages.0', 'How can I help you with your order today?'),
-    getText('seachat.heroAnimations.agentToAI.humanMessages.1', 'Let me check that information for you'),
-    getText('seachat.heroAnimations.agentToAI.humanMessages.2', 'I understand your concern, let me assist'),
-    getText('seachat.heroAnimations.agentToAI.humanMessages.3', 'Thank you for your patience while I research this'),
-  ], [getText]);
+  // humanMessages 和 aiMessages 現在直接在 useEffect 中定義，避免不必要的依賴
 
-  const aiMessages = useMemo(() => [
-    getText('seachat.heroAnimations.agentToAI.aiMessages.0', 'I can help you with your order. Let me check the status.'),
-    getText('seachat.heroAnimations.agentToAI.aiMessages.1', 'Based on our records, here\'s what I found...'),
-    getText('seachat.heroAnimations.agentToAI.aiMessages.2', 'I understand your concern. Let me provide a solution.'),
-    getText('seachat.heroAnimations.agentToAI.aiMessages.3', 'I\'ve processed your request successfully.'),
-  ], [getText]);
-
-  // 初始化一些對話
+  // 初始化一些對話 - 使用預設值避免依賴 humanMessages
   useEffect(() => {
+    const initialMessage = getText('seachat.heroAnimations.agentToAI.humanMessages.0', 'How can I help you with your order today?');
     const initialConversations = [
       {
         id: 1,
         type: 'human' as const,
-        message: humanMessages[0],
+        message: initialMessage,
         learned: false,
         progress: 50,
       }
     ];
     setConversations(initialConversations);
     setNextId(2);
-  }, [humanMessages]);
+  }, []); // 只在組件掛載時執行一次
 
+  // 主要動畫邏輯 - 使用穩定的訊息陣列
   useEffect(() => {
-    if (humanMessages.length === 0 || aiMessages.length === 0) return;
+    // 建立本地穩定的訊息陣列
+    const stableHumanMessages = [
+      getText('seachat.heroAnimations.agentToAI.humanMessages.0', 'How can I help you with your order today?'),
+      getText('seachat.heroAnimations.agentToAI.humanMessages.1', 'Let me check that information for you'),
+      getText('seachat.heroAnimations.agentToAI.humanMessages.2', 'I understand your concern, let me assist'),
+      getText('seachat.heroAnimations.agentToAI.humanMessages.3', 'Thank you for your patience while I research this'),
+    ];
+    
+    const stableAiMessages = [
+      getText('seachat.heroAnimations.agentToAI.aiMessages.0', 'I can help you with your order. Let me check the status.'),
+      getText('seachat.heroAnimations.agentToAI.aiMessages.1', 'Based on our records, here\'s what I found...'),
+      getText('seachat.heroAnimations.agentToAI.aiMessages.2', 'I understand your concern. Let me provide a solution.'),
+      getText('seachat.heroAnimations.agentToAI.aiMessages.3', 'I\'ve processed your request successfully.'),
+    ];
     
     const interval = setInterval(() => {
       setNextId(currentNextId => {
@@ -95,7 +98,7 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
               const newConversation: Conversation = {
                 id: currentNextId,
                 type: 'human',
-                message: humanMessages[Math.floor(Math.random() * humanMessages.length)],
+                message: stableHumanMessages[Math.floor(Math.random() * stableHumanMessages.length)],
                 learned: false,
                 progress: 0,
               };
@@ -123,7 +126,7 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
               const newConversation: Conversation = {
                 id: currentNextId,
                 type: 'ai',
-                message: aiMessages[Math.floor(Math.random() * aiMessages.length)],
+                message: stableAiMessages[Math.floor(Math.random() * stableAiMessages.length)],
                 learned: true,
                 progress: 0,
               };
@@ -140,7 +143,7 @@ const AgentToAI: React.FC<AgentToAIProps> = ({ lang, translations }) => {
     }, 2500);
 
     return () => clearInterval(interval);
-  }, [humanMessages, aiMessages]);
+  }, [getText]); // 只依賴穩定的 getText
 
   useEffect(() => {
     const progressInterval = setInterval(() => {

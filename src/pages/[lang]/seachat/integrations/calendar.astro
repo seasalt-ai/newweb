@@ -1,0 +1,505 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import Layout from '../../../../layouts/Layout.astro';
+import { Calendar, Clock, Users, Video, CheckCircle, ChevronRight } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Platform data
+const platforms = [
+  {
+    name: t('seachat.integrations.calendar.platforms.acuity.name') || 'Acuity Scheduling',
+    icon: 'users',
+    color: 'from-purple-500 to-pink-500',
+    description: t('seachat.integrations.calendar.platforms.acuity.description') || 'Advanced scheduling with client management features',
+    features: [
+      t('seachat.integrations.calendar.platforms.acuity.features.intake') || 'Client intake forms',
+      t('seachat.integrations.calendar.platforms.acuity.features.packages') || 'Package scheduling',
+      t('seachat.integrations.calendar.platforms.acuity.features.group') || 'Group appointments',
+      t('seachat.integrations.calendar.platforms.acuity.features.workflows') || 'Automated workflows'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.acuity.setupTime') || '12 minutes',
+    category: t('seachat.integrations.calendar.platforms.acuity.category') || 'Professional'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.apple.name') || 'Apple Calendar',
+    icon: 'calendar',
+    color: 'from-gray-600 to-gray-800',
+    description: t('seachat.integrations.calendar.platforms.apple.description') || 'iCloud calendar integration for Apple ecosystem users',
+    features: [
+      t('seachat.integrations.calendar.platforms.apple.features.sync') || 'iCloud sync',
+      t('seachat.integrations.calendar.platforms.apple.features.devices') || 'Cross-device access',
+      t('seachat.integrations.calendar.platforms.apple.features.sharing') || 'Event sharing',
+      t('seachat.integrations.calendar.platforms.apple.features.location') || 'Location services'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.apple.setupTime') || '6 minutes',
+    category: t('seachat.integrations.calendar.platforms.apple.category') || 'Apple Ecosystem'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.calcom.name') || 'Cal.com',
+    icon: 'clock',
+    color: 'from-gray-800 to-gray-600',
+    description: t('seachat.integrations.calendar.platforms.calcom.description') || 'Open scheduling infrastructure for teams and individuals',
+    features: [
+      t('seachat.integrations.calendar.platforms.calcom.features.booking') || 'Booking links',
+      t('seachat.integrations.calendar.platforms.calcom.features.workflows') || 'Custom workflows',
+      t('seachat.integrations.calendar.platforms.calcom.features.payments') || 'Payment integration',
+      t('seachat.integrations.calendar.platforms.calcom.features.api') || 'API & webhooks'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.calcom.setupTime') || '7 minutes',
+    category: t('seachat.integrations.calendar.platforms.calcom.category') || 'Open Scheduling'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.calendly.name') || 'Calendly',
+    icon: 'clock',
+    color: 'from-green-500 to-teal-500',
+    description: t('seachat.integrations.calendar.platforms.calendly.description') || 'Popular scheduling tool for automated appointment booking',
+    features: [
+      t('seachat.integrations.calendar.platforms.calendly.features.booking') || 'Booking pages',
+      t('seachat.integrations.calendar.platforms.calendly.features.buffer') || 'Buffer times',
+      t('seachat.integrations.calendar.platforms.calendly.features.questions') || 'Custom questions',
+      t('seachat.integrations.calendar.platforms.calendly.features.payment') || 'Payment integration'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.calendly.setupTime') || '10 minutes',
+    category: t('seachat.integrations.calendar.platforms.calendly.category') || 'Scheduling'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.google.name') || 'Google Calendar',
+    icon: 'calendar',
+    color: 'from-blue-500 to-indigo-500',
+    description: t('seachat.integrations.calendar.platforms.google.description') || 'Seamless integration with Google Calendar for appointment scheduling',
+    features: [
+      t('seachat.integrations.calendar.platforms.google.features.meetings') || 'Meeting scheduling',
+      t('seachat.integrations.calendar.platforms.google.features.availability') || 'Availability sync',
+      t('seachat.integrations.calendar.platforms.google.features.events') || 'Event creation',
+      t('seachat.integrations.calendar.platforms.google.features.reminders') || 'Reminder notifications'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.google.setupTime') || '5 minutes',
+    category: t('seachat.integrations.calendar.platforms.google.category') || 'Google Workspace'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.highlevel.name') || 'HighLevel',
+    icon: 'users',
+    color: 'from-indigo-700 to-blue-700',
+    description: t('seachat.integrations.calendar.platforms.highlevel.description') || 'All-in-one sales, marketing, and calendar automation',
+    features: [
+      t('seachat.integrations.calendar.platforms.highlevel.features.pipelines') || 'Sales pipelines',
+      t('seachat.integrations.calendar.platforms.highlevel.features.reminders') || 'Automated reminders',
+      t('seachat.integrations.calendar.platforms.highlevel.features.forms') || 'Booking forms',
+      t('seachat.integrations.calendar.platforms.highlevel.features.integration') || 'CRM integration'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.highlevel.setupTime') || '9 minutes',
+    category: t('seachat.integrations.calendar.platforms.highlevel.category') || 'All-in-One'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.notion.name') || 'Notion',
+    icon: 'calendar',
+    color: 'from-black to-gray-700',
+    description: t('seachat.integrations.calendar.platforms.notion.description') || 'Calendar and project management with Notion integration',
+    features: [
+      t('seachat.integrations.calendar.platforms.notion.features.sync') || 'Calendar sync',
+      t('seachat.integrations.calendar.platforms.notion.features.tasks') || 'Task scheduling',
+      t('seachat.integrations.calendar.platforms.notion.features.templates') || 'Custom templates',
+      t('seachat.integrations.calendar.platforms.notion.features.automation') || 'Workflow automation'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.notion.setupTime') || '6 minutes',
+    category: t('seachat.integrations.calendar.platforms.notion.category') || 'Productivity'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.outlook.name') || 'Microsoft Outlook',
+    icon: 'calendar',
+    color: 'from-blue-600 to-purple-600',
+    description: t('seachat.integrations.calendar.platforms.outlook.description') || 'Microsoft Outlook and Office 365 calendar integration',
+    features: [
+      t('seachat.integrations.calendar.platforms.outlook.features.exchange') || 'Exchange sync',
+      t('seachat.integrations.calendar.platforms.outlook.features.rooms') || 'Meeting rooms',
+      t('seachat.integrations.calendar.platforms.outlook.features.recurring') || 'Recurring events',
+      t('seachat.integrations.calendar.platforms.outlook.features.team') || 'Team calendars'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.outlook.setupTime') || '8 minutes',
+    category: t('seachat.integrations.calendar.platforms.outlook.category') || 'Microsoft 365'
+  },
+  {
+    name: t('seachat.integrations.calendar.platforms.zoom.name') || 'Zoom Scheduler',
+    icon: 'video',
+    color: 'from-blue-400 to-blue-600',
+    description: t('seachat.integrations.calendar.platforms.zoom.description') || 'Video meeting scheduling with Zoom integration',
+    features: [
+      t('seachat.integrations.calendar.platforms.zoom.features.meetings') || 'Video meetings',
+      t('seachat.integrations.calendar.platforms.zoom.features.webinar') || 'Webinar scheduling',
+      t('seachat.integrations.calendar.platforms.zoom.features.recording') || 'Recording setup',
+      t('seachat.integrations.calendar.platforms.zoom.features.waiting') || 'Waiting rooms'
+    ],
+    setupTime: t('seachat.integrations.calendar.platforms.zoom.setupTime') || '7 minutes',
+    category: t('seachat.integrations.calendar.platforms.zoom.category') || 'Video Conferencing'
+  }
+];
+
+const benefits = [
+  {
+    title: t('seachat.integrations.calendar.benefits.scheduling.title') || 'Automated Scheduling',
+    description: t('seachat.integrations.calendar.benefits.scheduling.description') || 'Let customers book appointments directly from chat conversations',
+    metric: '80%'
+  },
+  {
+    title: t('seachat.integrations.calendar.benefits.noShows.title') || 'Reduced No-Shows',
+    description: t('seachat.integrations.calendar.benefits.noShows.description') || 'Automatic reminders and confirmations reduce missed appointments',
+    metric: '65%'
+  },
+  {
+    title: t('seachat.integrations.calendar.benefits.timeSavings.title') || 'Time Savings',
+    description: t('seachat.integrations.calendar.benefits.timeSavings.description') || 'Eliminate back-and-forth scheduling emails and calls',
+    metric: '3hrs'
+  },
+  {
+    title: t('seachat.integrations.calendar.benefits.utilization.title') || 'Better Utilization',
+    description: t('seachat.integrations.calendar.benefits.utilization.description') || 'Optimize calendar usage with intelligent scheduling',
+    metric: '45%'
+  }
+];
+
+const schedulingFlow = [
+  {
+    step: 1,
+    title: t('seachat.integrations.calendar.flow.request.title') || 'Customer Request',
+    description: t('seachat.integrations.calendar.flow.request.description') || 'Customer asks to schedule a meeting or appointment',
+    example: t('seachat.integrations.calendar.flow.request.example') || 'I\'d like to schedule a demo for next week'
+  },
+  {
+    step: 2,
+    title: t('seachat.integrations.calendar.flow.availability.title') || 'Availability Check',
+    description: t('seachat.integrations.calendar.flow.availability.description') || 'System checks real-time calendar availability',
+    example: t('seachat.integrations.calendar.flow.availability.example') || 'Available slots: Tue 2PM, Wed 10AM, Thu 3PM'
+  },
+  {
+    step: 3,
+    title: t('seachat.integrations.calendar.flow.confirmation.title') || 'Booking Confirmation',
+    description: t('seachat.integrations.calendar.flow.confirmation.description') || 'Customer selects time and appointment is automatically booked',
+    example: t('seachat.integrations.calendar.flow.confirmation.example') || 'Meeting booked for Tuesday 2PM with calendar invite sent'
+  },
+  {
+    step: 4,
+    title: t('seachat.integrations.calendar.flow.followup.title') || 'Automated Follow-up',
+    description: t('seachat.integrations.calendar.flow.followup.description') || 'Reminders and confirmations sent automatically',
+    example: t('seachat.integrations.calendar.flow.followup.example') || '24hr reminder + meeting link + preparation materials'
+  }
+];
+
+// Features list - handle both array and non-array returns from translation
+const featuresTranslation = t('seachat.integrations.calendar.features');
+const features = Array.isArray(featuresTranslation) ? featuresTranslation : [
+  'Real-time availability checking',
+  'Automated booking confirmations',
+  'Smart reminder system',
+  'Time zone detection',
+  'Multi-calendar sync',
+  'Recurring appointments',
+  'Buffer time management',
+  'Cancellation handling',
+  'Meeting room booking',
+  'Resource allocation',
+  'Team scheduling',
+  'Customer preferences'
+];
+
+// Get meeting URL based on language
+const getMeetingUrl = (language: string) => {
+  const zhLanguages = ['zh-tw', 'zh-cn', 'zh-TW', 'zh-CN', 'zh'];
+  return zhLanguages.includes(language) 
+    ? 'https://calendar.app.google/3oAK5NJjGh5Y9K939'
+    : 'https://calendar.app.google/Tc5F7PHZjZEV2A1e8';
+};
+
+// Get Wiki URL based on language
+const getSeaChatWikiUrl = () => {
+  const wikiLanguage = (lang === 'zh-tw' || lang === 'zh-cn') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+};
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.calendar.seo.title') || 'Calendar & Scheduling Integration - SeaChat';
+const seoDescription = t('seachat.integrations.calendar.seo.description') || 'Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.';
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/calendar`;
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.calendar.title') || 'Calendar & Scheduling'}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.calendar.subtitle') || 'Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.integrations.calendar.connectButton') || 'Connect Calendar'}
+            </a>
+            <a
+              href={getMeetingUrl(lang as string)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.integrations.calendar.demoButton') || 'Book Scheduling Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Platforms -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.calendar.platformsTitle') || 'Calendar Platform Integrations'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.calendar.platformsSubtitle') || 'Connect with all major calendar and scheduling platforms for seamless appointment management.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {platforms.map((platform, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+            >
+              <div class="flex items-center justify-between mb-6">
+                <div class={`w-16 h-16 bg-gradient-to-br ${platform.color} rounded-2xl flex items-center justify-center`}>
+                  {platform.icon === 'users' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'calendar' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'clock' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'video' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                    </svg>
+                  )}
+                </div>
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">
+                  {platform.category}
+                </span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6">
+                <div class="text-sm text-gray-600">
+                  {t('seachat.integrations.calendar.setup') || 'Setup'}: <span class="font-medium text-gray-900">{platform.setupTime}</span>
+                </div>
+              </div>
+              
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                class={`w-full bg-gradient-to-r ${platform.color} hover:opacity-90 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center block`}
+              >
+                {t('seachat.integrations.calendar.connectPlatform') || 'Connect'} {platform.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.calendar.benefitsTitle') || 'Calendar Integration Benefits'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.calendar.benefitsSubtitle') || 'Streamline your scheduling process and improve customer experience with automated booking.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300"
+            >
+              <div class="text-4xl font-bold text-blue-600 mb-4">{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Scheduling Flow -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.calendar.flowTitle') || 'Automated Scheduling Flow'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.calendar.flowSubtitle') || 'See how seamless appointment booking works within customer conversations.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {schedulingFlow.map((flow, index) => (
+            <div
+              key={index}
+              class="text-center"
+            >
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span class="text-white font-bold text-xl">{flow.step}</span>
+              </div>
+              
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{flow.title}</h3>
+              <p class="text-gray-600 mb-4">{flow.description}</p>
+              
+              <div class="bg-blue-50 rounded-lg p-4 border border-blue-100">
+                <p class="text-sm text-blue-800 italic">"{flow.example}"</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Showcase -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.integrations.calendar.solutionTitle') || 'Complete Scheduling Solution'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.integrations.calendar.solutionSubtitle') || 'Everything you need to manage appointments, meetings, and events directly from your customer support platform.'}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {features.map((feature, index) => (
+                <div key={index} class="flex items-center space-x-3">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.integrations.calendar.exampleTitle') || 'Scheduling Example'}</h3>
+            <div class="space-y-4">
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">{t('seachat.integrations.calendar.customer') || 'Customer'}</div>
+                <p class="text-gray-800">{t('seachat.integrations.calendar.customerRequest') || 'I\'d like to schedule a product demo for next week'}</p>
+              </div>
+              
+              <div class="bg-blue-100 rounded-lg p-4">
+                <div class="text-sm text-blue-600 mb-2">{t('seachat.integrations.calendar.seachatAI') || 'SeaChat AI'}</div>
+                <p class="text-gray-800">{t('seachat.integrations.calendar.aiResponse1') || 'I\'d be happy to help you schedule a demo! I have these available slots next week:'}</p>
+                <div class="mt-3 space-y-2">
+                  <div class="bg-white rounded p-2 text-sm">📅 {t('seachat.integrations.calendar.slot1') || 'Tuesday, Jan 16 - 2:00 PM PST'}</div>
+                  <div class="bg-white rounded p-2 text-sm">📅 {t('seachat.integrations.calendar.slot2') || 'Wednesday, Jan 17 - 10:00 AM PST'}</div>
+                  <div class="bg-white rounded p-2 text-sm">📅 {t('seachat.integrations.calendar.slot3') || 'Thursday, Jan 18 - 3:00 PM PST'}</div>
+                </div>
+              </div>
+              
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">{t('seachat.integrations.calendar.customer') || 'Customer'}</div>
+                <p class="text-gray-800">{t('seachat.integrations.calendar.customerChoice') || 'Tuesday at 2 PM works perfect!'}</p>
+              </div>
+              
+              <div class="bg-green-100 rounded-lg p-4">
+                <div class="text-sm text-green-600 mb-2">{t('seachat.integrations.calendar.seachatAI') || 'SeaChat AI'}</div>
+                <p class="text-gray-800">✅ {t('seachat.integrations.calendar.aiResponse2') || 'Perfect! I\'ve booked your demo for Tuesday, Jan 16 at 2:00 PM PST. You\'ll receive a calendar invite with the meeting link shortly.'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.calendar.ctaTitle') || 'Ready to Automate Your Scheduling?'}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.calendar.ctaSubtitle') || 'Connect your calendar and let customers book appointments seamlessly through your support conversations.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.integrations.calendar.ctaConnectButton') || 'Connect Your Calendar'}
+          </a>
+          <a
+            href={getSeaChatWikiUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+          >
+            {t('seachat.integrations.calendar.ctaGuideButton') || 'View Setup Guide'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

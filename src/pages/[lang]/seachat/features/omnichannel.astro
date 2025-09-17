@@ -128,15 +128,10 @@ const benefits = [
   }
 ];
 
-// Icon mapping
-const iconMap = {
-  'Globe': '🌐',
-  'MessageSquare': '💬',
-  'Instagram': '📸',
-  'Facebook': '📘',
-  'Phone': '📞',
-  'Mail': '📧'
-};
+// Note: For actual brand logos (WhatsApp, Instagram, Facebook), 
+// we use lucide-react icons as placeholders.
+// In production, these should be replaced with actual brand SVG logos 
+// to comply with brand guidelines.
 ---
 
 <Layout 
@@ -203,7 +198,12 @@ const iconMap = {
               class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
             >
               <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
-                <span class="text-white text-2xl">{iconMap[channel.iconName] || '🌐'}</span>
+                {channel.iconName === 'Globe' && <Globe class="w-8 h-8 text-white" />}
+                {channel.iconName === 'MessageSquare' && <MessageSquare class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Instagram' && <Instagram class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Facebook' && <Facebook class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Phone' && <Phone class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Mail' && <Mail class="w-8 h-8 text-white" />}
               </div>
               
               <h3 class="text-xl font-bold text-gray-900 mb-3">{channel.name}</h3>

@@ -1,0 +1,91 @@
+---
+import { getTranslationHelpers } from '../../i18n/helpers';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+
+const testimonials = [
+  {
+    id: 'testimonial1',
+    rating: 5,
+    company: 'TechCorp',
+    role: 'Customer Success Manager'
+  },
+  {
+    id: 'testimonial2',
+    rating: 5,
+    company: 'RetailPlus',
+    role: 'Operations Director'
+  },
+  {
+    id: 'testimonial3',
+    rating: 5,
+    company: 'HealthFirst',
+    role: 'Head of Support'
+  }
+];
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">
+        {t('features.testimonial.title') || 'What Our Customers Say'}
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        {t('features.testimonial.subtitle') || 'Join thousands of businesses transforming their customer support with SeaChat'}
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {testimonials.map((testimonial) => (
+        <div class="bg-gray-50 rounded-xl p-6">
+          {/* Rating Stars */}
+          <div class="flex mb-4">
+            {[...Array(testimonial.rating)].map(() => (
+              <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+              </svg>
+            ))}
+          </div>
+
+          <p class="text-gray-700 mb-4 italic">
+            "{t(`features.testimonial.${testimonial.id}.quote`) || 
+              'SeaChat has transformed our customer service operations. Response times are down 80% and satisfaction is at an all-time high.'}"
+          </p>
+
+          <div class="border-t pt-4">
+            <p class="font-semibold text-gray-900">
+              {t(`features.testimonial.${testimonial.id}.author`) || 'Sarah Chen'}
+            </p>
+            <p class="text-sm text-gray-600">
+              {t(`features.testimonial.${testimonial.id}.role`) || testimonial.role} • 
+              {t(`features.testimonial.${testimonial.id}.company`) || testimonial.company}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Trust Badges */}
+    <div class="mt-12 pt-12 border-t border-gray-200">
+      <div class="text-center mb-8">
+        <p class="text-sm text-gray-500 uppercase tracking-wide">
+          {t('features.testimonial.trustedBy') || 'Trusted by Industry Leaders'}
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center items-center gap-8 opacity-50">
+        {/* Company logos would go here */}
+        <div class="text-gray-400 font-semibold text-lg">TechCorp</div>
+        <div class="text-gray-400 font-semibold text-lg">RetailPlus</div>
+        <div class="text-gray-400 font-semibold text-lg">HealthFirst</div>
+        <div class="text-gray-400 font-semibold text-lg">FinanceHub</div>
+        <div class="text-gray-400 font-semibold text-lg">EduTech</div>
+      </div>
+    </div>
+  </div>
+</section>

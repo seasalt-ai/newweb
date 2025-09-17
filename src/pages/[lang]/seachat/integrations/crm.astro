@@ -1,0 +1,354 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import Layout from '../../../../layouts/Layout.astro';
+import CRMPlatformIcon from '../../../../components/react/seachat/integrations/CRMPlatformIcon';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Helper function to get the correct SeaChat Wiki URL based on language
+const getSeaChatWikiUrl = () => {
+  const currentLanguage = lang as string;
+  const wikiLanguage = (currentLanguage === 'zh-tw' || currentLanguage === 'zh-cn') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+};
+
+// CRM Platform data
+const crmPlatforms = [
+  {
+    name: t('seachat.integrations.crm.platforms.salesforce.name'),
+    platformKey: 'salesforce',
+    description: t('seachat.integrations.crm.platforms.salesforce.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.salesforce.features.contacts'),
+      t('seachat.integrations.crm.platforms.salesforce.features.leads'),
+      t('seachat.integrations.crm.platforms.salesforce.features.opportunities'),
+      t('seachat.integrations.crm.platforms.salesforce.features.fields')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.salesforce.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.salesforce.popularity')
+  },
+  {
+    name: t('seachat.integrations.crm.platforms.hubspot.name'),
+    platformKey: 'hubspot',
+    description: t('seachat.integrations.crm.platforms.hubspot.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.hubspot.features.properties'),
+      t('seachat.integrations.crm.platforms.hubspot.features.deals'),
+      t('seachat.integrations.crm.platforms.hubspot.features.sequences'),
+      t('seachat.integrations.crm.platforms.hubspot.features.reporting')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.hubspot.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.hubspot.popularity')
+  },
+  {
+    name: t('seachat.integrations.crm.platforms.pipedrive.name'),
+    platformKey: 'pipedrive',
+    description: t('seachat.integrations.crm.platforms.pipedrive.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.pipedrive.features.pipeline'),
+      t('seachat.integrations.crm.platforms.pipedrive.features.activity'),
+      t('seachat.integrations.crm.platforms.pipedrive.features.history'),
+      t('seachat.integrations.crm.platforms.pipedrive.features.automation')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.pipedrive.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.pipedrive.popularity')
+  },
+  {
+    name: t('seachat.integrations.crm.platforms.zoho.name'),
+    platformKey: 'zoho crm',
+    description: t('seachat.integrations.crm.platforms.zoho.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.zoho.features.scoring'),
+      t('seachat.integrations.crm.platforms.zoho.features.workflow'),
+      t('seachat.integrations.crm.platforms.zoho.features.modules'),
+      t('seachat.integrations.crm.platforms.zoho.features.analytics')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.zoho.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.zoho.popularity')
+  },
+  {
+    name: t('seachat.integrations.crm.platforms.dynamics.name'),
+    platformKey: 'microsoft dynamics',
+    description: t('seachat.integrations.crm.platforms.dynamics.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.dynamics.features.mapping'),
+      t('seachat.integrations.crm.platforms.dynamics.features.processes'),
+      t('seachat.integrations.crm.platforms.dynamics.features.powerbi'),
+      t('seachat.integrations.crm.platforms.dynamics.features.security')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.dynamics.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.dynamics.popularity')
+  },
+  {
+    name: t('seachat.integrations.crm.platforms.freshworks.name'),
+    platformKey: 'freshworks crm',
+    description: t('seachat.integrations.crm.platforms.freshworks.description'),
+    features: [
+      t('seachat.integrations.crm.platforms.freshworks.features.management'),
+      t('seachat.integrations.crm.platforms.freshworks.features.sequences'),
+      t('seachat.integrations.crm.platforms.freshworks.features.phone'),
+      t('seachat.integrations.crm.platforms.freshworks.features.insights')
+    ],
+    setupTime: t('seachat.integrations.crm.platforms.freshworks.setupTime'),
+    popularity: t('seachat.integrations.crm.platforms.freshworks.popularity')
+  }
+];
+
+// Benefits data
+const benefits = [
+  {
+    icon: 'database',
+    title: t('seachat.integrations.crm.benefits.data.title'),
+    description: t('seachat.integrations.crm.benefits.data.description'),
+    metric: '100%'
+  },
+  {
+    icon: 'trending',
+    title: t('seachat.integrations.crm.benefits.leads.title'),
+    description: t('seachat.integrations.crm.benefits.leads.description'),
+    metric: '45%'
+  },
+  {
+    icon: 'sync',
+    title: t('seachat.integrations.crm.benefits.sync.title'),
+    description: t('seachat.integrations.crm.benefits.sync.description'),
+    metric: '<1s'
+  },
+  {
+    icon: 'users',
+    title: t('seachat.integrations.crm.benefits.context.title'),
+    description: t('seachat.integrations.crm.benefits.context.description'),
+    metric: '360°'
+  }
+];
+
+// Features list - handling potential array or string return
+const featuresFromTranslation = t('seachat.integrations.crm.features');
+const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.crm.seo.title');
+const seoDescription = t('seachat.integrations.crm.seo.description');
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/crm`;
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.crm.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.crm.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+              {t('seachat.integrations.crm.connectButton')}
+            </a>
+            <a href={getSeaChatWikiUrl()} class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+              {t('seachat.integrations.crm.guideButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported CRM Platforms -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.crm.platformsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.crm.platformsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {crmPlatforms.map((platform, index) => (
+            <div key={index} class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class="flex items-center justify-between mb-6">
+                <CRMPlatformIcon 
+                  platform={platform.platformKey} 
+                  className="w-10 h-10"
+                  client:only="react" 
+                />
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">
+                  {platform.popularity}
+                </span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6">
+                <div class="text-sm text-gray-600">
+                  {t('seachat.integrations.crm.setupTime')}: <span class="font-medium text-gray-900">{platform.setupTime}</span>
+                </div>
+              </div>
+              
+              <a href="https://chat.seasalt.ai/gpt/signup" class="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+                {t('seachat.integrations.crm.connectPlatform')} {platform.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.crm.whyIntegrateTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.crm.whyIntegrateSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div key={index} class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                {benefit.icon === 'database' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'trending' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'sync' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'users' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  </svg>
+                )}
+              </div>
+              <div class="text-3xl font-bold text-blue-600 mb-4">{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features List -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.integrations.crm.featuresTitle')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.integrations.crm.featuresSubtitle')}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {features.map((feature, index) => (
+                <div key={index} class="flex items-center space-x-3">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{typeof feature === 'string' ? feature : feature.title}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.integrations.crm.workflowTitle')}</h3>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.crm.workflow.connect.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.crm.workflow.connect.description')}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.crm.workflow.map.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.crm.workflow.map.description')}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.crm.workflow.sync.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.crm.workflow.sync.description')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.crm.ctaTitle')}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.crm.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://chat.seasalt.ai/gpt/signup" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
+            {t('seachat.integrations.crm.ctaChooseButton')}
+          </a>
+          <a href={getSeaChatWikiUrl()} class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            {t('seachat.integrations.crm.ctaGuideButton')}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,460 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import Layout from '../../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Helper function to get meeting URL based on language  
+const getMeetingUrl = (lang: string) => {
+  return `https://calendly.com/seasaltai/demo`;
+};
+
+// E-commerce platforms data
+const platforms = [
+  {
+    name: t('seachat.integrations.ecommerce.platforms.bigcommerce.name'),
+    logo: '🏬',
+    description: t('seachat.integrations.ecommerce.platforms.bigcommerce.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.bigcommerce.features.orders'),
+      t('seachat.integrations.ecommerce.platforms.bigcommerce.features.products'),
+      t('seachat.integrations.ecommerce.platforms.bigcommerce.features.customers'),
+      t('seachat.integrations.ecommerce.platforms.bigcommerce.features.shipping')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.bigcommerce.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.bigcommerce.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.etsy.name'),
+    logo: '🎨',
+    description: t('seachat.integrations.ecommerce.platforms.etsy.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.etsy.features.orders'),
+      t('seachat.integrations.ecommerce.platforms.etsy.features.shop'),
+      t('seachat.integrations.ecommerce.platforms.etsy.features.messages'),
+      t('seachat.integrations.ecommerce.platforms.etsy.features.listings')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.etsy.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.etsy.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.fourthwall.name'),
+    logo: '🎬',
+    description: t('seachat.integrations.ecommerce.platforms.fourthwall.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.fourthwall.features.merch'),
+      t('seachat.integrations.ecommerce.platforms.fourthwall.features.memberships'),
+      t('seachat.integrations.ecommerce.platforms.fourthwall.features.donations'),
+      t('seachat.integrations.ecommerce.platforms.fourthwall.features.community')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.fourthwall.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.fourthwall.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.godaddy.name'),
+    logo: '🚀',
+    description: t('seachat.integrations.ecommerce.platforms.godaddy.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.godaddy.features.website'),
+      t('seachat.integrations.ecommerce.platforms.godaddy.features.scheduling'),
+      t('seachat.integrations.ecommerce.platforms.godaddy.features.social'),
+      t('seachat.integrations.ecommerce.platforms.godaddy.features.security')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.godaddy.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.godaddy.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.hostinger.name'),
+    logo: '🏠',
+    description: t('seachat.integrations.ecommerce.platforms.hostinger.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.hostinger.features.hosting'),
+      t('seachat.integrations.ecommerce.platforms.hostinger.features.builder'),
+      t('seachat.integrations.ecommerce.platforms.hostinger.features.ssl'),
+      t('seachat.integrations.ecommerce.platforms.hostinger.features.support')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.hostinger.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.hostinger.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.magento.name'),
+    logo: '🏪',
+    description: t('seachat.integrations.ecommerce.platforms.magento.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.magento.features.multistore'),
+      t('seachat.integrations.ecommerce.platforms.magento.features.orders'),
+      t('seachat.integrations.ecommerce.platforms.magento.features.segments'),
+      t('seachat.integrations.ecommerce.platforms.magento.features.catalog')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.magento.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.magento.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.opencart.name'),
+    logo: '🛍️',
+    description: t('seachat.integrations.ecommerce.platforms.opencart.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.opencart.features.dashboard'),
+      t('seachat.integrations.ecommerce.platforms.opencart.features.extensions'),
+      t('seachat.integrations.ecommerce.platforms.opencart.features.themes'),
+      t('seachat.integrations.ecommerce.platforms.opencart.features.multi_store')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.opencart.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.opencart.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.prestashop.name'),
+    logo: '🛒',
+    description: t('seachat.integrations.ecommerce.platforms.prestashop.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.prestashop.features.customizable'),
+      t('seachat.integrations.ecommerce.platforms.prestashop.features.modules'),
+      t('seachat.integrations.ecommerce.platforms.prestashop.features.multilingual'),
+      t('seachat.integrations.ecommerce.platforms.prestashop.features.analytics')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.prestashop.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.prestashop.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.sellfy.name'),
+    logo: '📈',
+    description: t('seachat.integrations.ecommerce.platforms.sellfy.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.sellfy.features.digital'),
+      t('seachat.integrations.ecommerce.platforms.sellfy.features.subscriptions'),
+      t('seachat.integrations.ecommerce.platforms.sellfy.features.print_on_demand'),
+      t('seachat.integrations.ecommerce.platforms.sellfy.features.marketing')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.sellfy.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.sellfy.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.shopify.name'),
+    logo: '🛍️',
+    description: t('seachat.integrations.ecommerce.platforms.shopify.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.shopify.features.orders'),
+      t('seachat.integrations.ecommerce.platforms.shopify.features.catalog'),
+      t('seachat.integrations.ecommerce.platforms.shopify.features.customers'),
+      t('seachat.integrations.ecommerce.platforms.shopify.features.inventory')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.shopify.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.shopify.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.square.name'),
+    logo: '💳',
+    description: t('seachat.integrations.ecommerce.platforms.square.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.square.features.pos'),
+      t('seachat.integrations.ecommerce.platforms.square.features.invoicing'),
+      t('seachat.integrations.ecommerce.platforms.square.features.loyalty'),
+      t('seachat.integrations.ecommerce.platforms.square.features.reporting')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.square.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.square.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.squarespace.name'),
+    logo: '📐',
+    description: t('seachat.integrations.ecommerce.platforms.squarespace.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.squarespace.features.design'),
+      t('seachat.integrations.ecommerce.platforms.squarespace.features.blogging'),
+      t('seachat.integrations.ecommerce.platforms.squarespace.features.portfolio'),
+      t('seachat.integrations.ecommerce.platforms.squarespace.features.commerce')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.squarespace.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.squarespace.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.weebly.name'),
+    logo: '🌐',
+    description: t('seachat.integrations.ecommerce.platforms.weebly.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.weebly.features.storefront'),
+      t('seachat.integrations.ecommerce.platforms.weebly.features.marketing'),
+      t('seachat.integrations.ecommerce.platforms.weebly.features.seo'),
+      t('seachat.integrations.ecommerce.platforms.weebly.features.payments')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.weebly.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.weebly.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.wix.name'),
+    logo: '✨',
+    description: t('seachat.integrations.ecommerce.platforms.wix.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.wix.features.templates'),
+      t('seachat.integrations.ecommerce.platforms.wix.features.apps'),
+      t('seachat.integrations.ecommerce.platforms.wix.features.mobile'),
+      t('seachat.integrations.ecommerce.platforms.wix.features.analytics')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.wix.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.wix.popularity')
+  },
+  {
+    name: t('seachat.integrations.ecommerce.platforms.woocommerce.name'),
+    logo: '🛒',
+    description: t('seachat.integrations.ecommerce.platforms.woocommerce.description'),
+    features: [
+      t('seachat.integrations.ecommerce.platforms.woocommerce.features.orders'),
+      t('seachat.integrations.ecommerce.platforms.woocommerce.features.products'),
+      t('seachat.integrations.ecommerce.platforms.woocommerce.features.customers'),
+      t('seachat.integrations.ecommerce.platforms.woocommerce.features.payments')
+    ],
+    setupTime: t('seachat.integrations.ecommerce.platforms.woocommerce.setupTime'),
+    popularity: t('seachat.integrations.ecommerce.platforms.woocommerce.popularity')
+  }
+];
+
+// Benefits data
+const benefits = [
+  {
+    icon: 'package',
+    title: t('seachat.integrations.ecommerce.benefits.orders.title'),
+    description: t('seachat.integrations.ecommerce.benefits.orders.description'),
+    metric: '80%'
+  },
+  {
+    icon: 'trending',
+    title: t('seachat.integrations.ecommerce.benefits.sales.title'),
+    description: t('seachat.integrations.ecommerce.benefits.sales.description'),
+    metric: '25%'
+  },
+  {
+    icon: 'credit-card',
+    title: t('seachat.integrations.ecommerce.benefits.payment.title'),
+    description: t('seachat.integrations.ecommerce.benefits.payment.description'),
+    metric: '95%'
+  },
+  {
+    icon: 'shopping-bag',
+    title: t('seachat.integrations.ecommerce.benefits.cart.title'),
+    description: t('seachat.integrations.ecommerce.benefits.cart.description'),
+    metric: '40%'
+  }
+];
+
+// Features list - handling potential array or string return
+const featuresFromTranslation = t('seachat.integrations.ecommerce.features');
+const features = Array.isArray(featuresFromTranslation) ? featuresFromTranslation : [];
+
+// SEO metadata - using default values since keys might not exist yet
+const seoTitle = t('seachat.integrations.ecommerce.title') || 'E-commerce Integrations - SeaChat AI';
+const seoDescription = t('seachat.integrations.ecommerce.subtitle') || 'Connect SeaChat with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.';
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/ecommerce`;
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-purple-900 via-pink-800 to-red-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <!-- Shopping Bag Icon -->
+            <svg class="w-16 h-16 text-purple-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.ecommerce.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.ecommerce.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
+              {t('seachat.integrations.ecommerce.hero.button1')}
+            </a>
+            <a href={getMeetingUrl(lang as string)} class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">
+              {t('seachat.integrations.ecommerce.hero.button2')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Platforms -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.ecommerce.platformsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.ecommerce.platformsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {platforms.map((platform) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class="flex items-center justify-between mb-6">
+                <div class="text-4xl">{platform.logo}</div>
+                <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-medium">
+                  {platform.popularity}
+                </span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature) => (
+                  <div class="flex items-center space-x-3">
+                    <!-- Check Circle Icon -->
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6">
+                <div class="text-sm text-gray-600">
+                  {t('seachat.integrations.ecommerce.setup')}: <span class="font-medium text-gray-900">{platform.setupTime}</span>
+                </div>
+              </div>
+              
+              <a href="https://chat.seasalt.ai/gpt/signup" class="block w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center">
+                {t('seachat.integrations.ecommerce.connectPlatform')} {platform.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.ecommerce.benefitsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.ecommerce.benefitsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                {benefit.icon === 'package' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'trending' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'credit-card' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+                  </svg>
+                )}
+                {benefit.icon === 'shopping-bag' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                  </svg>
+                )}
+              </div>
+              <div class="text-3xl font-bold text-purple-600 mb-4">{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Showcase -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.integrations.ecommerce.supportTitle')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.integrations.ecommerce.supportSubtitle')}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {features.map((feature) => (
+                <div class="flex items-center space-x-3">
+                  <!-- Check Circle Icon -->
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{typeof feature === 'object' && feature.title ? feature.title : String(feature)}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.integrations.ecommerce.scenarioTitle')}</h3>
+            <div class="space-y-4">
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">{t('seachat.integrations.ecommerce.customer')}</div>
+                <p class="text-gray-800">{t('seachat.integrations.ecommerce.orderQuestion')}</p>
+              </div>
+              
+              <div class="bg-purple-100 rounded-lg p-4">
+                <div class="text-sm text-purple-600 mb-2">{t('seachat.integrations.ecommerce.seachatAI')}</div>
+                <p class="text-gray-800">{t('seachat.integrations.ecommerce.orderResponse')}</p>
+              </div>
+              
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">{t('seachat.integrations.ecommerce.customer')}</div>
+                <p class="text-gray-800">{t('seachat.integrations.ecommerce.recommendationQuestion')}</p>
+              </div>
+              
+              <div class="bg-purple-100 rounded-lg p-4">
+                <div class="text-sm text-purple-600 mb-2">{t('seachat.integrations.ecommerce.seachatAI')}</div>
+                <p class="text-gray-800">{t('seachat.integrations.ecommerce.recommendationResponse')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-600 to-pink-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.ecommerce.ctaTitle')}
+        </h2>
+        <p class="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.ecommerce.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
+            {t('seachat.integrations.ecommerce.cta.button1')}
+          </a>
+          <a href={getMeetingUrl(lang as string)} class="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
+            {t('seachat.integrations.ecommerce.cta.button2')}
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

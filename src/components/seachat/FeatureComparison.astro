@@ -1,0 +1,330 @@
+---
+import { Check, Star, AlertTriangle, X } from 'lucide-react';
+import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
+import { getMeetingUrl } from '../../constants/urls';
+
+export interface Props {
+  lang: SupportedLanguage;
+}
+
+const { lang = 'en' } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+
+// Company logo mapping
+const companyLogos = {
+  'chatbase': '/company_icons/chatbase.png',
+  'crisp.chat': '/company_icons/crisp_chat.png',
+  'tawk.to': '/company_icons/tawk_to.png',
+  'tidio': '/company_icons/tidio.png',
+  'botpress': '/company_icons/botpress.jpg',
+  'freshchat': '/company_icons/freshchat.png',
+  'ManyChat': '/company_icons/manychat.jpeg',
+  'Kustomer': '/company_icons/kustomer.webp',
+  'chatfuel': '/company_icons/chatfuel.png',
+  'jivochat': '/company_icons/jivochat.jpg',
+  'Calendly': '/company_icons/calendly.png',
+  'Cal.com': '/company_icons/cal_com.jpg',
+  'Retell': '/company_icons/retell.png',
+  'Bland AI': '/company_icons/bland_ai.jpg',
+  'Synthflow': '/company_icons/synthflow.jpg',
+  'textline': '/company_icons/textline.png',
+  'textrequest': '/company_icons/textrequest.jpg',
+  'salesmsg': '/company_icons/salesmsg.jpg',
+  'Sendgrid': '/company_icons/sendgrid.jpg',
+  'MailChimp': '/company_icons/mailchimp.png',
+  'Twilio': '/company_icons/twilio.png'
+};
+
+// Features data
+const features = [
+  {
+    feature: t('seachat.featureComparison.features.chatbotWebsite'),
+    replaces: ['chatbase', 'crisp.chat', 'tawk.to', 'tidio', 'botpress'],
+    otherTools: t('seachat.featureComparison.pricing.chatbotWebsite'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.chatWidget'),
+    replaces: ['tawk.to', 'freshchat'],
+    otherTools: t('seachat.featureComparison.pricing.chatWidget'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.whatsappMessenger'),
+    replaces: ['ManyChat', 'Kustomer', 'chatfuel', 'jivochat'],
+    otherTools: t('seachat.featureComparison.pricing.whatsappMessenger'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.multiCalendar'),
+    replaces: ['Calendly', 'Cal.com'],
+    otherTools: t('seachat.featureComparison.pricing.multiCalendar'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.phoneCallAI'),
+    replaces: ['Retell', 'Bland AI', 'Synthflow'],
+    otherTools: t('seachat.featureComparison.pricing.phoneCallAI'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.smsActions'),
+    replaces: ['textline', 'textrequest', 'salesmsg'],
+    otherTools: t('seachat.featureComparison.pricing.smsActions'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.emailActions'),
+    replaces: ['Sendgrid', 'MailChimp'],
+    otherTools: t('seachat.featureComparison.pricing.emailActions'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.phoneNumber'),
+    replaces: ['Twilio'],
+    otherTools: t('seachat.featureComparison.pricing.phoneNumber'),
+    seachat: 'TRUE'
+  },
+  {
+    feature: t('seachat.featureComparison.features.agencyMode'),
+    replaces: t('seachat.featureComparison.replaces.uniqueToSeachat'),
+    otherTools: '',
+    seachat: t('seachat.featureComparison.seachatValues.agencyMode')
+  },
+  {
+    feature: t('seachat.featureComparison.features.bulkSMS'),
+    replaces: [],
+    otherTools: '',
+    seachat: t('seachat.featureComparison.seachatValues.bulkSMS')
+  },
+  {
+    feature: t('seachat.featureComparison.features.unlimitedContacts'),
+    replaces: ['ManyChat'],
+    otherTools: t('seachat.featureComparison.pricing.unlimitedContacts'),
+    seachat: t('seachat.featureComparison.seachatValues.unlimitedContacts')
+  },
+  {
+    feature: t('seachat.featureComparison.features.knowledgeBase'),
+    replaces: ['Synthflow'],
+    otherTools: t('seachat.featureComparison.pricing.knowledgeBase'),
+    seachat: t('seachat.featureComparison.seachatValues.knowledgeBase')
+  },
+  {
+    feature: t('seachat.featureComparison.features.extraChatbot'),
+    replaces: ['chatbase'],
+    otherTools: t('seachat.featureComparison.pricing.extraChatbot'),
+    seachat: t('seachat.featureComparison.seachatValues.extraChatbot')
+  }
+];
+
+const currentLanguage = lang;
+---
+
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        {t('seachat.featureComparison.title')}
+      </h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        {t('seachat.featureComparison.subtitle')}
+      </p>
+    </div>
+
+    <!-- Value Proposition -->
+    <div class="bg-gradient-to-r from-teal-500 to-blue-600 rounded-2xl p-8 text-white mb-12">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="text-left">
+          <h3 class="text-xl font-bold mb-2">
+            {t('seachat.featureComparison.valueTitle')}
+          </h3>
+          <p class="font-semibold mb-2 text-3xl">
+            {t('seachat.featureComparison.totalValue')}
+          </p>
+          <p class="text-sm opacity-90">
+            {t('seachat.featureComparison.competitorTotal')}
+          </p>
+        </div>
+        <div class="text-left">
+          <h3 class="text-xl font-bold mb-2">
+            {t('seachat.featureComparison.priceTitle')}
+          </h3>
+          <p class="font-semibold mb-2 text-3xl">
+            {t('seachat.featureComparison.seachatPrice')}
+          </p>
+          <p class="text-sm opacity-90">
+            {t('seachat.featureComparison.seachatAll')}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="bg-gradient-to-r from-blue-600 to-teal-600">
+              <th class="px-6 py-4 text-left text-white font-semibold">
+                {t('seachat.featureComparison.table.headers.features')}
+              </th>
+              <th class="px-6 py-4 text-center text-white font-semibold min-w-[200px]">
+                {t('seachat.featureComparison.table.headers.replaces')}
+              </th>
+              <th class="px-6 py-4 text-center text-white font-semibold">
+                {t('seachat.featureComparison.table.headers.otherTools')}
+              </th>
+              <th class="px-6 py-4 text-center text-white font-semibold bg-teal-700">
+                <div class="flex items-center justify-center">
+                  <Star class="w-5 h-5 mr-2 text-yellow-300" />
+                  SeaChat
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {features.map((item, index) => (
+              <tr class={`border-b ${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-colors`}>
+                <td class="px-6 py-4 text-gray-800 font-medium">
+                  {item.feature}
+                </td>
+                <td class="px-6 py-4">
+                  {typeof item.replaces === 'string' ? (
+                    item.replaces === t('seachat.featureComparison.replaces.uniqueToSeachat') ? (
+                      <div class="flex items-center justify-center">
+                        <Star class="w-4 h-4 text-yellow-500 mr-2" />
+                        <span class="text-xs text-yellow-700 font-medium">
+                          {t('seachat.featureComparison.uniqueToSeachat')}
+                        </span>
+                      </div>
+                    ) : (
+                      <span class="text-xs text-gray-600">{item.replaces}</span>
+                    )
+                  ) : !item.replaces || item.replaces.length === 0 ? (
+                    <span class="text-xs text-gray-400">-</span>
+                  ) : (
+                    <div class="flex flex-wrap items-center justify-center gap-2">
+                      {item.replaces.map((company) => {
+                        const logoPath = companyLogos[company as keyof typeof companyLogos];
+                        return logoPath ? (
+                          <img
+                            src={logoPath}
+                            alt={company}
+                            class="w-6 h-6 rounded object-contain"
+                            title={company}
+                          />
+                        ) : (
+                          <span class="text-xs text-gray-600 px-1">
+                            {company}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
+                </td>
+                <td class="px-6 py-4 text-center">
+                  {item.otherTools ? (
+                    <span class="text-sm text-red-600 font-medium">{item.otherTools}</span>
+                  ) : (
+                    <span class="text-gray-400">-</span>
+                  )}
+                </td>
+                <td class="px-6 py-4 text-center bg-teal-50/50">
+                  {item.seachat === 'TRUE' ? (
+                    <div class="flex items-center justify-center">
+                      <Check class="w-5 h-5 text-green-600" />
+                    </div>
+                  ) : item.seachat === 'UNIQUE' || item.seachat === t('seachat.featureComparison.seachatValues.agencyMode') ? (
+                    <span class="inline-flex items-center px-3 py-1 bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs font-bold rounded-full">
+                      {item.seachat}
+                    </span>
+                  ) : item.seachat === 'Included' || item.seachat === t('seachat.featureComparison.seachatValues.bulkSMS') || item.seachat === t('seachat.featureComparison.seachatValues.unlimitedContacts') || item.seachat === t('seachat.featureComparison.seachatValues.knowledgeBase') ? (
+                    <span class="text-sm text-green-600 font-bold">{item.seachat}</span>
+                  ) : item.seachat ? (
+                    <span class="text-sm text-teal-600 font-medium">{item.seachat}</span>
+                  ) : (
+                    <X class="w-5 h-5 text-gray-400" />
+                  )}
+                </td>
+              </tr>
+            ))}
+            
+            <!-- Total Row -->
+            <tr class="bg-gradient-to-r from-gray-50 to-teal-50 font-bold">
+              <td class="px-6 py-4 text-sm font-bold text-gray-900">
+                {t('seachat.featureComparison.table.total')}
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600 text-center">
+                -
+              </td>
+              <td class="px-6 py-4 text-sm text-red-600 text-center font-bold">
+                {t('seachat.featureComparison.table.totalPrice')}
+              </td>
+              <td class="px-6 py-4 text-sm text-center bg-teal-100">
+                <div class="text-2xl font-bold text-teal-700">
+                  {t('seachat.featureComparison.table.seachatPrice')}
+                </div>
+              </td>
+            </tr>
+            
+            <!-- Bottom explanation row -->
+            <tr class="bg-gradient-to-r from-blue-50 to-teal-50 text-xs">
+              <td class="px-6 py-3 text-center font-medium text-blue-700">
+                {t('seachat.featureComparison.table.explanations.valueYouGet')}
+              </td>
+              <td class="px-6 py-3 text-center font-medium text-blue-700">
+                
+              </td>
+              <td class="px-6 py-3 text-center font-medium text-red-700">
+                {t('seachat.featureComparison.table.explanations.priceYouWouldPay')}
+              </td>
+              <td class="px-6 py-3 text-center font-medium text-teal-700 bg-teal-100">
+                {t('seachat.featureComparison.table.explanations.priceYouPay')}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Bottom Summary -->
+    <div class="mt-12 bg-gradient-to-r from-blue-600 to-teal-600 rounded-2xl p-8 text-white">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
+        <div class="mb-6 lg:mb-0 lg:mr-8">
+          <h3 class="text-2xl font-bold mb-2">
+            {t('seachat.featureComparison.ctaTitle')}
+          </h3>
+          <p class="text-blue-100">
+            {t('seachat.featureComparison.ctaSubtitle')}
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.featureComparison.startFree')}
+          </a>
+          <a
+            href={getMeetingUrl(currentLanguage)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-semibold transition-all text-center"
+          >
+            {t('seachat.featureComparison.bookDemo')}
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="mt-8 text-center">
+      <p class="text-xs text-gray-500 max-w-3xl mx-auto">
+        * {t('common.disclaimer.priceComparison')}
+      </p>
+    </div>
+  </div>
+</section>
