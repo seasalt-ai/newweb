@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../constants/urls";
 import PricingBillingToggle from '../../components/react/PricingBillingToggle.tsx';
 import PricingFAQ from '../../components/react/PricingFAQ.tsx';
 import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
@@ -60,19 +61,6 @@ const faqData = [
     answer: t('pricing.faq.7.answer')
   }
 ];
-
-// 獲取會議連結函數
-function getMeetingUrl(language: string) {
-  const meetingUrls = {
-    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
-    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
-    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
-    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
-    'default': 'https://calendly.com/seasalt-ai/demo'
-  };
-  
-  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
-}
 
 const meetingUrl = getMeetingUrl(currentLang);
 ---

@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -83,8 +84,6 @@ const channels = [
     icon: 'Globe'
   }
 ];
-
-const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
 ---
 
 <Layout

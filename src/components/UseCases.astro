@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+import { getMeetingUrl } from '../constants/urls';
 
 export interface Props {
   lang?: string;
@@ -8,17 +9,6 @@ export interface Props {
 const { lang = 'en' } = Astro.props;
 const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
 const { t } = await getTranslationHelpers(currentLang);
-
-// Get meeting URL based on language
-const getMeetingUrl = (language: string) => {
-  const meetingUrls: Record<string, string> = {
-    'en': 'https://meetings.hubspot.com/ansonlai',
-    'zh-tw': 'https://meetings.hubspot.com/ansonlai',
-    'zh-cn': 'https://meetings.hubspot.com/ansonlai',
-    'ja': 'https://meetings.hubspot.com/ansonlai'
-  };
-  return meetingUrls[language] || meetingUrls['en'];
-};
 
 const useCases = [
   {

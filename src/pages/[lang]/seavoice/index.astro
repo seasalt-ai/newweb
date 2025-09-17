@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 import VoiceConversationFlow from '../../../components/react/seavoice/VoiceConversationFlow.tsx';
 import VoiceDemo from '../../../components/react/seavoice/VoiceDemo.tsx';
@@ -28,12 +29,6 @@ const { t } = await getTranslationHelpers(validatedLang);
 const seoTitle = t('seo.seavoice.homepage.title') || 'SeaVoice - AI Voice Automation Platform | Seasalt.ai';
 const seoDescription = t('seo.seavoice.homepage.description') || 'Transform your customer interactions with AI-powered voice agents. 24/7 availability, unlimited scalability, and seamless integration.';
 const seoKeywords = t('seo.seavoice.homepage.keywords') || 'AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service';
-
-// Helper function to get meeting URL based on language
-function getMeetingUrl(language: string) {
-  const baseUrl = 'https://meetings.hubspot.com/seasalt-ai/seasalt-demo';
-  return baseUrl;
-}
 
 // Color mapping for use cases - matching original structure
 const colorClasses = {

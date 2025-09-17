@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import type { VersionConfig } from '../config';
 
 export interface Props {
@@ -16,11 +17,6 @@ const currentYear = new Date().getFullYear();
 const getWikiUrl = () => {
   const wikiLanguage = (lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en';
   return `https://wiki.seasalt.ai/${wikiLanguage}/`;
-};
-
-// Helper function to get meeting URL based on language
-const getMeetingUrl = () => {
-  return `https://calendly.com/seasalt-ai/seasalt-ai-demo?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`;
 };
 
 // Helper function to render SVG icons

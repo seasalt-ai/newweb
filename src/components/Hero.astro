@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+import { getMeetingUrl } from '../constants/urls';
 import HeroAnimation from './HeroAnimation';
 
 export interface Props {
@@ -19,14 +20,6 @@ function processTranslationWithComponents(text: string): { __html: string } {
   
   return { __html: processedText };
 }
-
-// Helper function to get the appropriate meeting URL based on language (matching original)
-const getMeetingUrl = (language: string): string => {
-  if (language.toLowerCase() === 'zh-cn' || language.toLowerCase() === 'zh-tw') {
-    return 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan';
-  }
-  return 'https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/';
-};
 
 const meetingUrl = getMeetingUrl(currentLang);
 

@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 import SEO from '../../../components/SEO.astro';
 
@@ -61,12 +62,6 @@ const setupSteps = [
   t('channels.whatsapp.setup.steps.4'),
   t('channels.whatsapp.setup.steps.5')
 ];
-
-// 會議 URL 的簡化版本 - 根據語言決定
-const getMeetingUrl = (lang: string) => {
-  // 簡化的實現，實際可能需要更複雜的邏輯
-  return 'https://calendly.com/seasaltai/demo';
-};
 ---
 
 <Layout 

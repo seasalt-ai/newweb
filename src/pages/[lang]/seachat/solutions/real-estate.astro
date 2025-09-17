@@ -1,0 +1,156 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import RealEstatePage from '../../../../components/react/seachat/RealEstatePage';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const seoTitle = t('seachat.solutions.realEstate.seo.title') || 'SeaChat for Real Estate - AI-Powered Property Management & Lead Generation';
+const seoDescription = t('seachat.solutions.realEstate.seo.description') || 'Transform your real estate business with SeaChat\'s AI-powered customer support. Capture more leads, coordinate property showings, and provide 24/7 client assistance with intelligent automation.';
+const seoKeywords = t('seachat.solutions.realEstate.seo.keywords') || 'SeaChat real estate, property management AI, real estate lead generation, property showing automation, real estate customer support, MLS integration, real estate chatbot';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/real-estate`;
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-real-estate-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-real-estate-twitter.jpg',
+};
+
+// Structured data for Real Estate Solutions
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Real Estate Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Property Search Assistance",
+    "Showing Coordination",
+    "Lead Management",
+    "Client Communication",
+    "MLS Integration",
+    "CRM Integration",
+    "24/7 Availability",
+    "Multi-language Support"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-real-estate-screenshot.jpg",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "250",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+};
+
+// Additional schema for Real Estate Service
+const realEstateServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Real Estate Technology Solution",
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Real Estate Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Property Search Assistance",
+          "description": "AI-powered property search and recommendations"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Lead Management",
+          "description": "Intelligent lead capture and qualification"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Showing Coordination",
+          "description": "Automated property showing scheduling"
+        }
+      }
+    ]
+  }
+};
+
+// Combine structured data
+const combinedStructuredData = [structuredData, realEstateServiceSchema];
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={combinedStructuredData}
+>
+  <RealEstatePage 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+</Layout>

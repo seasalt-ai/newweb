@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -70,8 +71,6 @@ const customizationOptions = [
     description: t('channels.websiteChat.customization.triggerRules.description')
   }
 ];
-
-const getMeetingUrl = (lang: string) => `https://calendly.com/seasaltai/demo`;
 ---
 
 <Layout 

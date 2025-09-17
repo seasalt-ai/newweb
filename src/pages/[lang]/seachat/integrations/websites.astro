@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 import Layout from '../../../../layouts/Layout.astro';
 import CodeBlock from '../../../../components/react/seachat/integrations/CodeBlock';
 import PlatformIcon from '../../../../components/react/seachat/integrations/PlatformIcon';
@@ -16,11 +17,6 @@ const getSeaChatWikiUrl = () => {
   const currentLanguage = lang as string;
   const wikiLanguage = (currentLanguage === 'zh-tw' || currentLanguage === 'zh-cn') ? 'zh' : 'en';
   return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
-};
-
-// Helper function to get meeting URL based on language
-const getMeetingUrl = (lang: string) => {
-  return `https://calendly.com/seasaltai/demo`;
 };
 
 // Platform data

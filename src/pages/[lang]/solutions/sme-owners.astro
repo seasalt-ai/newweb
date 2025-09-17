@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import { ArrowLeft, Check, Star, Users, Zap, BarChart3, Clock, Shield, Briefcase } from 'lucide-react';
 
 // 為所有支持的語言生成靜態路徑
@@ -148,11 +149,6 @@ const roi = [
     icon: 'Users'
   }
 ];
-
-// Meeting URL helper
-const getMeetingUrl = (language: string) => {
-  return 'https://cal.com/seasalt-ai/demo';
-};
 ---
 
 <Layout 

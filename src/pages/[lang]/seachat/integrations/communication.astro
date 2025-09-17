@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 import Layout from '../../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -8,11 +9,6 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params;
 const { t, translations } = await getTranslationHelpers(lang as SupportedLanguage);
-
-// Helper function to get meeting URL based on language  
-const getMeetingUrl = (lang: string) => {
-  return `https://calendly.com/seasaltai/demo`;
-};
 
 // Communication platforms data
 const platforms = [

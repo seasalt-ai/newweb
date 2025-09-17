@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 import Layout from '../../../../layouts/Layout.astro';
 import SocialMediaIcon from '../../../../components/react/seachat/integrations/SocialMediaIcon';
 
@@ -9,10 +10,6 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params;
 const { t } = await getTranslationHelpers(lang as SupportedLanguage);
-
-const getMeetingUrl = (lang: string) => {
-  return `https://calendly.com/seasaltai/demo`;
-};
 
 // Social Media Platform data
 const platforms = [

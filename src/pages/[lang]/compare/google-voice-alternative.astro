@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import { ArrowLeft, Check, X } from 'lucide-react';
 
 export async function getStaticPaths() {
@@ -69,17 +70,6 @@ const comparisonFeatures = [
     seasaltAdvantage: false
   }
 ];
-
-function getMeetingUrl(language: string) {
-  const meetingUrls = {
-    'zh-tw': 'https://calendly.com/seasalt-ai/demo-tw',
-    'zh-cn': 'https://calendly.com/seasalt-ai/demo-cn',
-    'ja': 'https://calendly.com/seasalt-ai/demo-jp',
-    'ko': 'https://calendly.com/seasalt-ai/demo-kr',
-    'default': 'https://calendly.com/seasalt-ai/demo'
-  };
-  return meetingUrls[language as keyof typeof meetingUrls] || meetingUrls.default;
-}
 
 const meetingUrl = getMeetingUrl(currentLang);
 ---

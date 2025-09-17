@@ -1,0 +1,99 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import EducationPage from '../../../../components/react/seachat/EducationPage';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const seoTitle = t('seachat.solutions.education.seo.title') || 'SeaChat for Education - Smart Campus Communication & Student Support Platform';
+const seoDescription = t('seachat.solutions.education.seo.description') || 'Transform education with SeaChat\'s AI-powered platform. Streamline student support, enhance enrollment processes, and improve campus communication with intelligent automation.';
+const seoKeywords = t('seachat.solutions.education.seo.keywords') || 'SeaChat education, AI campus support, student engagement, LMS integration, educational chatbot, enrollment automation, academic support';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/education`;
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-education-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-education-twitter.jpg',
+};
+
+// Structured data for Education Solutions
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Education Solutions",
+  "applicationCategory": "EducationApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Student Support Automation",
+    "Enrollment Management", 
+    "Academic Advising",
+    "LMS Integration",
+    "Multi-stakeholder Support",
+    "AI-powered Communication",
+    "Multi-language Support"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-education-screenshot.jpg"
+};
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+>
+  <EducationPage 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+</Layout>

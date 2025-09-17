@@ -1,6 +1,7 @@
 ---
 import { getTranslationHelpers, languages } from '../../../i18n/helpers';
 import Layout from '../../../layouts/Layout.astro';
+import { getMeetingUrl } from '../../../constants/urls';
 
 export async function getStaticPaths() {
   return Object.keys(languages).map((lang) => ({ params: { lang } }));
@@ -17,8 +18,6 @@ const breadcrumbs = [
   { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
   { name: 'Contact Forms' }
 ];
-
-const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
 
 const platforms = [
   {

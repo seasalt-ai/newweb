@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 // 生成所有語言的靜態路徑
@@ -74,11 +75,6 @@ const useCases = [
     stats: t('channels.sms.useCases.support.stats')
   }
 ];
-
-// 會議 URL
-const getMeetingUrl = (lang: string) => {
-  return 'https://calendly.com/seasaltai/demo';
-};
 ---
 
 <Layout 

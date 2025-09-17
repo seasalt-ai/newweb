@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../../constants/urls";
 import Layout from '../../../../../layouts/Layout.astro';
 
 // Generate static paths for all supported languages
@@ -104,12 +105,6 @@ const benefits = [
     description: t('seavoice.pages.solutions.inbound.ivrReplacement.benefits.misdirected.description') || 'Reduction in misdirected calls' 
   }
 ];
-
-// Helper function to get meeting URL based on language
-function getMeetingUrl(language: string) {
-  const baseUrl = 'https://meetings.hubspot.com/seasalt-ai/seasalt-demo';
-  return baseUrl;
-}
 ---
 
 <Layout 

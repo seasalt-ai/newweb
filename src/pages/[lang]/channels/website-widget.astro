@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -17,8 +18,6 @@ const breadcrumbs = [
   { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
   { name: 'Website Widget' }
 ];
-
-const getMeetingUrl = (lang: string) => 'https://calendly.com/seasaltai/demo';
 
 const platforms = [
   { name: t('channels.websiteWidget.platforms.wordpress.name'), description: t('channels.websiteWidget.platforms.wordpress.description'), icon: '🔌' },

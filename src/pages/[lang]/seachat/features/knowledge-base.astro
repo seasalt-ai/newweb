@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 
 // Generate all static paths for supported languages
 export async function getStaticPaths() {
@@ -31,11 +32,6 @@ const seoData = {
   ogTitle: `${title} | SeaChat`,
   ogDescription: subtitle,
   ogType: 'website'
-};
-
-// Meeting URL helper (same as old version)
-const getMeetingUrl = (language: string) => {
-  return 'https://calendar.app.google/NL13hnQEG5Mj6LsPA';
 };
 ---
 

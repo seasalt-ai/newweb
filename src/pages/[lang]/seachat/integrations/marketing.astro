@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 import Layout from '../../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -13,15 +14,6 @@ const { t } = await getTranslationHelpers(lang as SupportedLanguage);
 const getSeaChatWikiUrl = (currentLanguage: string) => {
   const wikiLanguage = (currentLanguage === 'zh-tw' || currentLanguage === 'zh-cn') ? 'zh' : 'en';
   return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
-};
-
-// Helper function to get meeting URL based on language
-const getMeetingUrl = (currentLanguage: string) => {
-  const MEETING_URLS = {
-    'zh-tw': 'https://calendly.com/seasalt-ai/product-demo-zh-tw',
-    'zh-cn': 'https://calendly.com/seasalt-ai/product-demo-zh-cn',
-  };
-  return MEETING_URLS[currentLanguage as keyof typeof MEETING_URLS] || 'https://calendly.com/seasalt-ai-international/chat';
 };
 
 const platforms = [

@@ -1,5 +1,6 @@
 ---
 import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
 import Layout from '../../../../layouts/Layout.astro';
 import { Calendar, Clock, Users, Video, CheckCircle, ChevronRight } from 'lucide-react';
 
@@ -206,14 +207,6 @@ const features = Array.isArray(featuresTranslation) ? featuresTranslation : [
   'Team scheduling',
   'Customer preferences'
 ];
-
-// Get meeting URL based on language
-const getMeetingUrl = (language: string) => {
-  const zhLanguages = ['zh-tw', 'zh-cn', 'zh-TW', 'zh-CN', 'zh'];
-  return zhLanguages.includes(language) 
-    ? 'https://calendar.app.google/3oAK5NJjGh5Y9K939'
-    : 'https://calendar.app.google/Tc5F7PHZjZEV2A1e8';
-};
 
 // Get Wiki URL based on language
 const getSeaChatWikiUrl = () => {
