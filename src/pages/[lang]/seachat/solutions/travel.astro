@@ -1,0 +1,626 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from '../../../../constants/urls';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  const supportedLanguages = [
+    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+  ];
+
+  return supportedLanguages.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.travel.seo.title') || 'SeaChat for Travel & Hospitality - Transform Travel Experiences';
+const seoDescription = t('seachat.solutions.travel.seo.description') || 'Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.';
+const seoKeywords = t('seachat.solutions.travel.seo.keywords') || 'SeaChat travel, hospitality, booking assistance, travel support, hotel management, flight booking, travel planning';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/travel`;
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-travel-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,  
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-travel-twitter.jpg',
+};
+
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Travel & Hospitality Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Booking Assistance",
+    "Travel Planning",
+    "24/7 Travel Support", 
+    "Trip Management",
+    "Multi-channel Support",
+    "Travel Documentation Help"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-travel-screenshot.jpg"
+};
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'plane',
+    titleKey: 'seachat.solutions.travel.features.booking.title',
+    titleDefault: 'Booking Assistance',
+    descKey: 'seachat.solutions.travel.features.booking.description',
+    descDefault: 'Help customers with flight, hotel, and activity bookings with real-time availability',
+    benefits: [
+      { key: 'seachat.solutions.travel.features.booking.benefits.availability', default: 'Real-time availability' },
+      { key: 'seachat.solutions.travel.features.booking.benefits.comparisons', default: 'Price comparisons' },
+      { key: 'seachat.solutions.travel.features.booking.benefits.modifications', default: 'Booking modifications' },
+      { key: 'seachat.solutions.travel.features.booking.benefits.cancellation', default: 'Cancellation support' }
+    ]
+  },
+  {
+    icon: 'map-pin',
+    titleKey: 'seachat.solutions.travel.features.planning.title',
+    titleDefault: 'Travel Planning',
+    descKey: 'seachat.solutions.travel.features.planning.description',
+    descDefault: 'Provide personalized travel recommendations and itinerary planning',
+    benefits: [
+      { key: 'seachat.solutions.travel.features.planning.benefits.insights', default: 'Destination insights' },
+      { key: 'seachat.solutions.travel.features.planning.benefits.itinerary', default: 'Itinerary creation' },
+      { key: 'seachat.solutions.travel.features.planning.benefits.recommendations', default: 'Local recommendations' },
+      { key: 'seachat.solutions.travel.features.planning.benefits.weather', default: 'Weather updates' }
+    ]
+  },
+  {
+    icon: 'clock',
+    titleKey: 'seachat.solutions.travel.features.support.title',
+    titleDefault: '24/7 Travel Support',
+    descKey: 'seachat.solutions.travel.features.support.description',
+    descDefault: 'Round-the-clock assistance for travelers across different time zones',
+    benefits: [
+      { key: 'seachat.solutions.travel.features.support.benefits.timezone', default: 'Global time zone support' },
+      { key: 'seachat.solutions.travel.features.support.benefits.emergency', default: 'Emergency assistance' },
+      { key: 'seachat.solutions.travel.features.support.benefits.updates', default: 'Real-time updates' },
+      { key: 'seachat.solutions.travel.features.support.benefits.multilanguage', default: 'Multi-language help' }
+    ]
+  },
+  {
+    icon: 'calendar',
+    titleKey: 'seachat.solutions.travel.features.management.title',
+    titleDefault: 'Trip Management',
+    descKey: 'seachat.solutions.travel.features.management.description',
+    descDefault: 'Comprehensive trip management from booking to post-travel follow-up',
+    benefits: [
+      { key: 'seachat.solutions.travel.features.management.benefits.tracking', default: 'Trip tracking' },
+      { key: 'seachat.solutions.travel.features.management.benefits.documents', default: 'Document management' },
+      { key: 'seachat.solutions.travel.features.management.benefits.reminders', default: 'Reminder notifications' },
+      { key: 'seachat.solutions.travel.features.management.benefits.loyalty', default: 'Loyalty programs' }
+    ]
+  }
+];
+
+const travelServices = [
+  {
+    titleKey: 'seachat.solutions.travel.services.airlines.title',
+    titleDefault: 'Airlines',
+    descKey: 'seachat.solutions.travel.services.airlines.description',
+    descDefault: 'Flight bookings, check-ins, and travel updates',
+    features: [
+      { key: 'seachat.solutions.travel.services.airlines.features.status', default: 'Flight status' },
+      { key: 'seachat.solutions.travel.services.airlines.features.seat', default: 'Seat selection' },
+      { key: 'seachat.solutions.travel.services.airlines.features.baggage', default: 'Baggage tracking' },
+      { key: 'seachat.solutions.travel.services.airlines.features.loyalty', default: 'Loyalty programs' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.travel.services.hotels.title',
+    titleDefault: 'Hotels & Accommodation',
+    descKey: 'seachat.solutions.travel.services.hotels.description',
+    descDefault: 'Hotel reservations and guest services',
+    features: [
+      { key: 'seachat.solutions.travel.services.hotels.features.booking', default: 'Room booking' },
+      { key: 'seachat.solutions.travel.services.hotels.features.amenity', default: 'Amenity information' },
+      { key: 'seachat.solutions.travel.services.hotels.features.requests', default: 'Special requests' },
+      { key: 'seachat.solutions.travel.services.hotels.features.loyalty', default: 'Loyalty rewards' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.travel.services.agencies.title',
+    titleDefault: 'Travel Agencies',
+    descKey: 'seachat.solutions.travel.services.agencies.description',
+    descDefault: 'Comprehensive travel planning and booking services',
+    features: [
+      { key: 'seachat.solutions.travel.services.agencies.features.deals', default: 'Package deals' },
+      { key: 'seachat.solutions.travel.services.agencies.features.itineraries', default: 'Custom itineraries' },
+      { key: 'seachat.solutions.travel.services.agencies.features.groups', default: 'Group bookings' },
+      { key: 'seachat.solutions.travel.services.agencies.features.insurance', default: 'Travel insurance' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.travel.services.car.title',
+    titleDefault: 'Car Rentals',
+    descKey: 'seachat.solutions.travel.services.car.description',
+    descDefault: 'Vehicle rental assistance and support',
+    features: [
+      { key: 'seachat.solutions.travel.services.car.features.availability', default: 'Car availability' },
+      { key: 'seachat.solutions.travel.services.car.features.locations', default: 'Pickup locations' },
+      { key: 'seachat.solutions.travel.services.car.features.insurance', default: 'Insurance options' },
+      { key: 'seachat.solutions.travel.services.car.features.roadside', default: 'Roadside assistance' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.travel.services.cruise.title',
+    titleDefault: 'Cruise Lines',
+    descKey: 'seachat.solutions.travel.services.cruise.description',
+    descDefault: 'Cruise booking and onboard services',
+    features: [
+      { key: 'seachat.solutions.travel.services.cruise.features.cabin', default: 'Cabin selection' },
+      { key: 'seachat.solutions.travel.services.cruise.features.shore', default: 'Shore excursions' },
+      { key: 'seachat.solutions.travel.services.cruise.features.dining', default: 'Dining reservations' },
+      { key: 'seachat.solutions.travel.services.cruise.features.entertainment', default: 'Entertainment booking' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.travel.services.tour.title',
+    titleDefault: 'Tour Operators',
+    descKey: 'seachat.solutions.travel.services.tour.description',
+    descDefault: 'Guided tours and activity bookings',
+    features: [
+      { key: 'seachat.solutions.travel.services.tour.features.availability', default: 'Tour availability' },
+      { key: 'seachat.solutions.travel.services.tour.features.sizes', default: 'Group sizes' },
+      { key: 'seachat.solutions.travel.services.tour.features.equipment', default: 'Equipment rental' },
+      { key: 'seachat.solutions.travel.services.tour.features.guides', default: 'Local guides' }
+    ]
+  }
+];
+
+const metrics = [
+  { 
+    value: '60%', 
+    labelKey: 'seachat.solutions.travel.metrics.booking.label',
+    labelDefault: 'Faster Booking Process',
+    descKey: 'seachat.solutions.travel.metrics.booking.description',
+    descDefault: 'With AI-assisted search and booking'
+  },
+  { 
+    value: '85%', 
+    labelKey: 'seachat.solutions.travel.metrics.satisfaction.label',
+    labelDefault: 'Customer Satisfaction',
+    descKey: 'seachat.solutions.travel.metrics.satisfaction.description',
+    descDefault: 'With 24/7 travel support availability'
+  },
+  { 
+    value: '40%', 
+    labelKey: 'seachat.solutions.travel.metrics.call.label',
+    labelDefault: 'Reduced Call Volume',
+    descKey: 'seachat.solutions.travel.metrics.call.description',
+    descDefault: 'Through automated travel assistance'
+  },
+  { 
+    value: '95%', 
+    labelKey: 'seachat.solutions.travel.metrics.resolution.label',
+    labelDefault: 'Issue Resolution Rate',
+    descKey: 'seachat.solutions.travel.metrics.resolution.description',
+    descDefault: 'For travel-related inquiries'
+  }
+];
+
+const useCases = [
+  {
+    titleKey: 'seachat.solutions.travel.useCases.flight.title',
+    titleDefault: 'Flight Booking & Changes',
+    descKey: 'seachat.solutions.travel.useCases.flight.description',
+    descDefault: 'Assist with flight reservations, changes, and cancellations',
+    exampleKey: 'seachat.solutions.travel.useCases.flight.example',
+    exampleDefault: '"I need to change my flight from Tuesday to Thursday"',
+    outcomeKey: 'seachat.solutions.travel.useCases.flight.outcome',
+    outcomeDefault: 'Real-time flight availability check with rebooking options and fee information'
+  },
+  {
+    titleKey: 'seachat.solutions.travel.useCases.disruptions.title',
+    titleDefault: 'Travel Disruptions',
+    descKey: 'seachat.solutions.travel.useCases.disruptions.description',
+    descDefault: 'Handle flight delays, cancellations, and rebooking assistance',
+    exampleKey: 'seachat.solutions.travel.useCases.disruptions.example',
+    exampleDefault: '"My flight was cancelled, what are my options?"',
+    outcomeKey: 'seachat.solutions.travel.useCases.disruptions.outcome',
+    outcomeDefault: 'Immediate rebooking assistance with alternative flights and compensation information'
+  },
+  {
+    titleKey: 'seachat.solutions.travel.useCases.destination.title',
+    titleDefault: 'Destination Information',
+    descKey: 'seachat.solutions.travel.useCases.destination.description',
+    descDefault: 'Provide travel advice, local insights, and destination recommendations',
+    exampleKey: 'seachat.solutions.travel.useCases.destination.example',
+    exampleDefault: '"What are the best restaurants in Paris?"',
+    outcomeKey: 'seachat.solutions.travel.useCases.destination.outcome',
+    outcomeDefault: 'Curated restaurant recommendations with reservations and local insights'
+  },
+  {
+    titleKey: 'seachat.solutions.travel.useCases.documentation.title',
+    titleDefault: 'Travel Documentation',
+    descKey: 'seachat.solutions.travel.useCases.documentation.description',
+    descDefault: 'Help with visa requirements, passport info, and travel documents',
+    exampleKey: 'seachat.solutions.travel.useCases.documentation.example',
+    exampleDefault: '"Do I need a visa to travel to Japan?"',
+    outcomeKey: 'seachat.solutions.travel.useCases.documentation.outcome',
+    outcomeDefault: 'Comprehensive visa requirements with application process and timeline'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+>
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-teal-800 to-cyan-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-cyan-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.travel.title') || 'Travel & Hospitality'}
+            </h1>
+          </div>
+          <p class="text-2xl text-cyan-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.travel.subtitle') || 'Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-cyan-500 hover:bg-cyan-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.travel.trialButton') || 'Start Travel For Free'}
+            </a>
+            <a
+              href={meetingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-cyan-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.travel.demoButton') || 'Schedule Travel Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.travel.featuresTitle') || 'Travel Industry Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.travel.featuresSubtitle') || 'Purpose-built features for travel and hospitality businesses to enhance customer experiences.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature) => (
+            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border border-cyan-100">
+              <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                {feature.icon === 'plane' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                  </svg>
+                )}
+                {feature.icon === 'map-pin' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'clock' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'calendar' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                )}
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Services -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.travel.servicesTitle') || 'All Travel Services Covered'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.travel.servicesSubtitle') || 'From airlines to hotels, car rentals to cruise lines - we support every aspect of travel.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {travelServices.map((service) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">
+                {t(service.titleKey) || service.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(service.descKey) || service.descDefault}
+              </p>
+              
+              <div class="space-y-2">
+                {service.features.map((feature) => (
+                  <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-cyan-500 rounded-full"></div>
+                    <span class="text-gray-700 text-sm">{t(feature.key) || feature.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.travel.impactTitle') || 'Travel Industry Impact'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.travel.impactSubtitle') || 'Real results from travel companies using SeaChat for customer support and booking assistance.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric) => (
+            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-cyan-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.travel.useCasesTitle') || 'Travel Support Use Cases'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.travel.useCasesSubtitle') || 'See how SeaChat handles typical travel inquiries and booking assistance.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(useCase.titleKey) || useCase.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(useCase.descKey) || useCase.descDefault}
+              </p>
+              
+              <div class="space-y-4">
+                <div class="bg-cyan-50 rounded-lg p-4 border-l-4 border-cyan-500">
+                  <h4 class="font-semibold text-cyan-900 mb-2">
+                    {t('seachat.solutions.travel.travelerRequest') || 'Traveler Request'}:
+                  </h4>
+                  <p class="text-cyan-800 italic">
+                    {t(useCase.exampleKey) || useCase.exampleDefault}
+                  </p>
+                </div>
+                
+                <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">
+                    {t('seachat.solutions.travel.seachatResponse') || 'SeaChat Response'}:
+                  </h4>
+                  <p class="text-green-800">
+                    {t(useCase.outcomeKey) || useCase.outcomeDefault}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.travel.integrationsTitle') || 'Travel Industry Integrations'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.solutions.travel.integrationsSubtitle') || 'Seamlessly connect with travel booking systems, GDS platforms, and hospitality management tools for unified operations.'}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {['Amadeus GDS', 'Sabre GDS', 'Travelport', 'Booking.com', 'Expedia API', 'HubSpot CRM'].map((integration) => (
+                <div class="flex items-center space-x-3">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{integration}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border border-cyan-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.travel.bookingFlowTitle') || 'Travel Booking Flow'}
+            </h3>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">
+                    {t('seachat.solutions.travel.flow.inquiry.title') || 'Travel Inquiry'}
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    {t('seachat.solutions.travel.flow.inquiry.description') || 'Customer asks about travel options'}
+                  </p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">
+                    {t('seachat.solutions.travel.flow.search.title') || 'Real-time Search'}
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    {t('seachat.solutions.travel.flow.search.description') || 'AI searches across multiple systems'}
+                  </p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">
+                    {t('seachat.solutions.travel.flow.assistance.title') || 'Booking Assistance'}
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    {t('seachat.solutions.travel.flow.assistance.description') || 'Guided booking with payment processing'}
+                  </p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">4</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">
+                    {t('seachat.solutions.travel.flow.confirmation.title') || 'Confirmation & Support'}
+                  </h4>
+                  <p class="text-gray-600 text-sm">
+                    {t('seachat.solutions.travel.flow.confirmation.description') || 'Booking confirmation with ongoing support'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-cyan-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.travel.ctaTitle') || 'Ready to Transform Travel Experiences?'}
+        </h2>
+        <p class="text-xl text-cyan-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.travel.ctaSubtitle') || 'Join travel companies already using SeaChat to provide exceptional customer service and streamline booking processes worldwide.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-cyan-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.travel.ctaTrialButton') || 'Start Travel For Free'}
+          </a>
+          <a
+            href={meetingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-cyan-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.travel.ctaDemoButton') || 'Schedule Travel Demo'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

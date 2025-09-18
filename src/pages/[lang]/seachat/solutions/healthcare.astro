@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
-import HealthcarePage from '../../../../components/react/seachat/HealthcarePage';
+import { getMeetingUrl } from '../../../../constants/urls';
 
 // Generate static paths for all supported languages
 export async function getStaticPaths() {
@@ -19,12 +19,12 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 
 // Get translations for server-side rendering
-const { t, translations } = await getTranslationHelpers(currentLang);
+const { t } = await getTranslationHelpers(currentLang);
 
-// SEO metadata
-const seoTitle = t('seachat.solutions.healthcare.seo.title') || 'SeaChat for Healthcare - HIPAA-Compliant Patient Communication Solutions';
-const seoDescription = t('seachat.solutions.healthcare.seo.description') || 'Transform patient care with SeaChat\'s HIPAA-compliant communication platform. Streamline appointments, support telehealth, and improve patient engagement with AI-powered healthcare solutions.';
-const seoKeywords = t('seachat.solutions.healthcare.seo.keywords') || 'SeaChat healthcare, HIPAA compliant, patient communication, healthcare AI, telehealth support, medical appointments, patient engagement';
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.healthcare.seo.title') || 'SeaChat for Healthcare - HIPAA Compliant Patient Support';
+const seoDescription = t('seachat.solutions.healthcare.seo.description') || 'Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.';
+const seoKeywords = t('seachat.solutions.healthcare.seo.keywords') || 'healthcare customer support, HIPAA compliant, patient engagement, telehealth, appointment scheduling, medical AI';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/healthcare`;
@@ -41,17 +41,17 @@ const ogData = {
 
 const twitterData = {
   card: 'summary_large_image',
-  title: seoTitle,
+  title: seoTitle,  
   description: seoDescription,
   image: 'https://seasalt.ai/images/seachat-healthcare-twitter.jpg',
 };
 
-// Structured data for Healthcare Solutions
+// Structured data
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "SeaChat Healthcare Solutions",
-  "applicationCategory": "HealthcareApplication",
+  "applicationCategory": "BusinessApplication",
   "description": seoDescription,
   "url": canonicalUrl,
   "operatingSystem": "Web-based",
@@ -73,26 +73,471 @@ const structuredData = {
     "Appointment Management", 
     "Telehealth Support",
     "Patient Engagement",
-    "AI-powered Communication",
-    "Multi-language Support"
+    "Secure Messaging",
+    "Insurance Verification"
   ],
   "screenshot": "https://seasalt.ai/images/seachat-healthcare-screenshot.jpg"
 };
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'shield',
+    titleKey: 'seachat.solutions.healthcare.features.hipaa.title',
+    titleDefault: 'HIPAA Compliance',
+    descKey: 'seachat.solutions.healthcare.features.hipaa.description',
+    descDefault: 'Full HIPAA compliance with encrypted communications and secure data handling',
+    benefits: [
+      { key: 'seachat.solutions.healthcare.features.hipaa.benefits.encryption', default: 'End-to-end encryption' },
+      { key: 'seachat.solutions.healthcare.features.hipaa.benefits.audit', default: 'Audit trails' },
+      { key: 'seachat.solutions.healthcare.features.hipaa.benefits.access', default: 'Access controls' },
+      { key: 'seachat.solutions.healthcare.features.hipaa.benefits.anonymization', default: 'Data anonymization' }
+    ]
+  },
+  {
+    icon: 'calendar',
+    titleKey: 'seachat.solutions.healthcare.features.appointments.title',
+    titleDefault: 'Appointment Management',
+    descKey: 'seachat.solutions.healthcare.features.appointments.description',
+    descDefault: 'Seamless appointment scheduling, rescheduling, and reminder systems',
+    benefits: [
+      { key: 'seachat.solutions.healthcare.features.appointments.benefits.availability', default: 'Real-time availability' },
+      { key: 'seachat.solutions.healthcare.features.appointments.benefits.reminders', default: 'Automated reminders' },
+      { key: 'seachat.solutions.healthcare.features.appointments.benefits.cancellation', default: 'Cancellation handling' },
+      { key: 'seachat.solutions.healthcare.features.appointments.benefits.waitlist', default: 'Waitlist management' }
+    ]
+  },
+  {
+    icon: 'phone',
+    titleKey: 'seachat.solutions.healthcare.features.telehealth.title',
+    titleDefault: 'Telehealth Support',
+    descKey: 'seachat.solutions.healthcare.features.telehealth.description',
+    descDefault: 'Integrated telehealth capabilities for remote patient consultations',
+    benefits: [
+      { key: 'seachat.solutions.healthcare.features.telehealth.benefits.video', default: 'Video consultations' },
+      { key: 'seachat.solutions.healthcare.features.telehealth.benefits.messaging', default: 'Secure messaging' },
+      { key: 'seachat.solutions.healthcare.features.telehealth.benefits.documents', default: 'Document sharing' },
+      { key: 'seachat.solutions.healthcare.features.telehealth.benefits.followup', default: 'Follow-up care' }
+    ]
+  },
+  {
+    icon: 'users',
+    titleKey: 'seachat.solutions.healthcare.features.engagement.title',
+    titleDefault: 'Patient Engagement',
+    descKey: 'seachat.solutions.healthcare.features.engagement.description',
+    descDefault: 'Improve patient satisfaction with 24/7 support and personalized care',
+    benefits: [
+      { key: 'seachat.solutions.healthcare.features.engagement.benefits.availability', default: '24/7 availability' },
+      { key: 'seachat.solutions.healthcare.features.engagement.benefits.multilanguage', default: 'Multi-language support' },
+      { key: 'seachat.solutions.healthcare.features.engagement.benefits.coordination', default: 'Care coordination' },
+      { key: 'seachat.solutions.healthcare.features.engagement.benefits.education', default: 'Health education' }
+    ]
+  }
+];
+
+const useCases = [
+  {
+    titleKey: 'seachat.solutions.healthcare.useCases.appointments.title',
+    titleDefault: 'Appointment Scheduling',
+    descKey: 'seachat.solutions.healthcare.useCases.appointments.description',
+    descDefault: 'Patients can book, reschedule, or cancel appointments through chat',
+    exampleKey: 'seachat.solutions.healthcare.useCases.appointments.example',
+    exampleDefault: 'I need to reschedule my appointment for next Tuesday',
+    outcomeKey: 'seachat.solutions.healthcare.useCases.appointments.outcome',
+    outcomeDefault: 'Automated scheduling with calendar integration and confirmation'
+  },
+  {
+    titleKey: 'seachat.solutions.healthcare.useCases.prescriptions.title',
+    titleDefault: 'Prescription Inquiries',
+    descKey: 'seachat.solutions.healthcare.useCases.prescriptions.description',
+    descDefault: 'Handle prescription refills and medication questions securely',
+    exampleKey: 'seachat.solutions.healthcare.useCases.prescriptions.example',
+    exampleDefault: 'When will my prescription be ready for pickup?',
+    outcomeKey: 'seachat.solutions.healthcare.useCases.prescriptions.outcome',
+    outcomeDefault: 'Real-time pharmacy integration and status updates'
+  },
+  {
+    titleKey: 'seachat.solutions.healthcare.useCases.insurance.title',
+    titleDefault: 'Insurance Verification',
+    descKey: 'seachat.solutions.healthcare.useCases.insurance.description',
+    descDefault: 'Verify insurance coverage and explain benefits to patients',
+    exampleKey: 'seachat.solutions.healthcare.useCases.insurance.example',
+    exampleDefault: 'Is my procedure covered by my insurance plan?',
+    outcomeKey: 'seachat.solutions.healthcare.useCases.insurance.outcome',
+    outcomeDefault: 'Instant insurance verification and coverage explanation'
+  },
+  {
+    titleKey: 'seachat.solutions.healthcare.useCases.symptoms.title',
+    titleDefault: 'Symptom Pre-screening',
+    descKey: 'seachat.solutions.healthcare.useCases.symptoms.description',
+    descDefault: 'AI-powered symptom assessment and triage recommendations',
+    exampleKey: 'seachat.solutions.healthcare.useCases.symptoms.example',
+    exampleDefault: 'I have a fever and cough, should I come in?',
+    outcomeKey: 'seachat.solutions.healthcare.useCases.symptoms.outcome',
+    outcomeDefault: 'Symptom assessment with appropriate care recommendations'
+  }
+];
+
+const metrics = [
+  { 
+    valueKey: 'seachat.solutions.healthcare.metrics.noshows.value',
+    value: '40%', 
+    labelKey: 'seachat.solutions.healthcare.metrics.noshows.label',
+    labelDefault: 'Reduction in No-shows', 
+    descKey: 'seachat.solutions.healthcare.metrics.noshows.description',
+    descDefault: 'With automated appointment reminders'
+  },
+  { 
+    valueKey: 'seachat.solutions.healthcare.metrics.response.value',
+    value: '60%', 
+    labelKey: 'seachat.solutions.healthcare.metrics.response.label',
+    labelDefault: 'Faster Response Time', 
+    descKey: 'seachat.solutions.healthcare.metrics.response.description',
+    descDefault: 'For patient inquiries and concerns'
+  },
+  { 
+    valueKey: 'seachat.solutions.healthcare.metrics.satisfaction.value',
+    value: '85%', 
+    labelKey: 'seachat.solutions.healthcare.metrics.satisfaction.label',
+    labelDefault: 'Patient Satisfaction', 
+    descKey: 'seachat.solutions.healthcare.metrics.satisfaction.description',
+    descDefault: 'With 24/7 support availability'
+  },
+  { 
+    valueKey: 'seachat.solutions.healthcare.metrics.efficiency.value',
+    value: '50%', 
+    labelKey: 'seachat.solutions.healthcare.metrics.efficiency.label',
+    labelDefault: 'Administrative Efficiency', 
+    descKey: 'seachat.solutions.healthcare.metrics.efficiency.description',
+    descDefault: 'Through automated workflows'
+  }
+];
+
+const certifications = [
+  { 
+    nameKey: 'seachat.solutions.healthcare.certifications.hipaa',
+    nameDefault: 'HIPAA Compliant',
+    statusKey: 'seachat.solutions.healthcare.certified',
+    statusDefault: 'Certified',
+    bgColor: 'bg-green-50',
+    textColor: 'text-green-600'
+  },
+  { 
+    nameKey: 'seachat.solutions.healthcare.certifications.soc2',
+    nameDefault: 'SOC 2 Type II',
+    statusKey: 'seachat.solutions.healthcare.certified',
+    statusDefault: 'Certified',
+    bgColor: 'bg-blue-50',
+    textColor: 'text-blue-600'
+  },
+  { 
+    nameKey: 'seachat.solutions.healthcare.certifications.iso',
+    nameDefault: 'ISO 27001',
+    statusKey: 'seachat.solutions.healthcare.certified',
+    statusDefault: 'Certified',
+    bgColor: 'bg-purple-50',
+    textColor: 'text-purple-600'
+  },
+  { 
+    nameKey: 'seachat.solutions.healthcare.certifications.gdpr',
+    nameDefault: 'GDPR Ready',
+    statusKey: 'seachat.solutions.healthcare.compliant',
+    statusDefault: 'Compliant',
+    bgColor: 'bg-orange-50',
+    textColor: 'text-orange-600'
+  }
+];
+
+// Helper function to get icon SVG
+function getIconSVG(iconName: string) {
+  const icons = {
+    'heart': `<svg class="w-16 h-16 text-teal-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+    </svg>`,
+    'shield': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+    </svg>`,
+    'calendar': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+    </svg>`,
+    'phone': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+    </svg>`,
+    'users': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+    </svg>`,
+    'check-circle': `<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+    </svg>`,
+    'arrow-right': `<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+    </svg>`
+  };
+  return icons[iconName] || '';
+}
 ---
 
 <Layout 
-  title={seoTitle} 
+  title={seoTitle}
   description={seoDescription}
   keywords={seoKeywords}
+  canonical={canonicalUrl}
   lang={currentLang}
-  canonicalUrl={canonicalUrl}
   ogData={ogData}
   twitterData={twitterData}
   structuredData={structuredData}
 >
-  <HealthcarePage 
-    client:only="react" 
-    lang={currentLang} 
-    translations={translations}
-  />
+  <div class="pt-16">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-teal-800 to-green-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <Fragment set:html={getIconSVG('heart')} />
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.healthcare.title') || 'Healthcare Solutions'}
+            </h1>
+          </div>
+          <p class="text-2xl text-teal-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.healthcare.subtitle') || 'Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-teal-500 hover:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.healthcare.trialButton') || 'Start Healthcare For Free'}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-teal-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.healthcare.demoButton') || 'Schedule Healthcare Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.healthcare.featuresTitle') || 'Healthcare-Specific Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.healthcare.featuresSubtitle') || 'Purpose-built features for healthcare providers to deliver exceptional patient care.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              class="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-8 border border-teal-100"
+            >
+              <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                <Fragment set:html={getIconSVG(feature.icon)} />
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <Fragment set:html={getIconSVG('check-circle')} />
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.healthcare.metricsTitle') || 'Healthcare Impact Metrics'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.healthcare.metricsSubtitle') || 'Real results from healthcare providers using SeaChat for patient support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300"
+            >
+              <div class="text-4xl font-bold text-teal-600 mb-4">
+                {t(metric.valueKey) || metric.value}
+              </div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.healthcare.useCasesTitle') || 'Common Healthcare Use Cases'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.healthcare.useCasesSubtitle') || 'See how SeaChat handles typical patient interactions and administrative tasks.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase, index) => (
+            <div
+              key={index}
+              class="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-8 border border-teal-100"
+            >
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(useCase.titleKey) || useCase.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(useCase.descKey) || useCase.descDefault}
+              </p>
+              
+              <div class="space-y-4">
+                <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">
+                    {t('seachat.solutions.healthcare.patientRequest') || 'Patient Request'}:
+                  </h4>
+                  <p class="text-blue-800 italic">
+                    "{t(useCase.exampleKey) || useCase.exampleDefault}"
+                  </p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">
+                    {t('seachat.solutions.healthcare.seachatResponse') || 'SeaChat Response'}:
+                  </h4>
+                  <p class="text-green-800">
+                    {t(useCase.outcomeKey) || useCase.outcomeDefault}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- HIPAA Compliance -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.healthcare.hipaaTitle') || 'HIPAA Compliance & Security'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.solutions.healthcare.hipaaSubtitle') || 'Built from the ground up with healthcare security and compliance in mind. Protect patient data while delivering exceptional care experiences.'}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {(() => {
+                const complianceFeatures = t('seachat.solutions.healthcare.compliance.complianceFeatures', { returnObjects: true });
+                const featuresArray = Array.isArray(complianceFeatures) ? complianceFeatures : [
+                  'End-to-end encryption',
+                  'Access controls',
+                  'Audit logging',
+                  'Data backup',
+                  'Incident response',
+                  'Staff training'
+                ];
+                return featuresArray.map((feature: string, index: number) => (
+                  <div key={index} class="flex items-center space-x-3">
+                    <Fragment set:html={getIconSVG('check-circle')} />
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ));
+              })()}
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-8 shadow-2xl">
+            <div class="text-center mb-6">
+              <Fragment set:html={`<svg class="w-16 h-16 text-teal-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>`} />
+              <h3 class="text-2xl font-bold text-gray-900">
+                {t('seachat.solutions.healthcare.certificationsTitle') || 'Security Certifications'}
+              </h3>
+            </div>
+            
+            <div class="space-y-4">
+              {certifications.map((cert, index) => (
+                <div key={index} class={`flex items-center justify-between p-4 ${cert.bgColor} rounded-lg`}>
+                  <span class="font-medium text-gray-900">
+                    {t(cert.nameKey) || cert.nameDefault}
+                  </span>
+                  <span class={`${cert.textColor} font-bold`}>
+                    ✓ {t(cert.statusKey) || cert.statusDefault}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-teal-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.healthcare.ctaTitle') || 'Ready to Transform Patient Care?'}
+        </h2>
+        <p class="text-xl text-teal-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.healthcare.ctaSubtitle') || 'Join healthcare providers already using SeaChat to deliver exceptional patient experiences while maintaining the highest security and compliance standards.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.healthcare.ctaTrialButton') || 'Start Healthcare For Free'}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.healthcare.ctaDemoButton') || 'Schedule Healthcare Demo'}
+            <Fragment set:html={getIconSVG('arrow-right')} />
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
 </Layout>
