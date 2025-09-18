@@ -20,7 +20,7 @@ const currentLang = extractLangFromPath(actualCurrentPath);
     </svg>
   </button>
   
-  <div class="language-menu hidden absolute right-0 z-10 mt-2 w-64 origin-top-right bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto z-[9999]">
+  <div class="language-menu hidden absolute right-0 z-[9999] mt-2 w-64 origin-top-right bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-96 overflow-y-auto">
     <div class="py-1">
       {Object.entries(languages).map(([lang, info]) => (
         <a 
@@ -41,11 +41,17 @@ const currentLang = extractLangFromPath(actualCurrentPath);
 
 <script is:inline>
   document.addEventListener('DOMContentLoaded', function() {
-    // Add a small delay to ensure all elements are loaded
-    setTimeout(function() {
+    // Initialize language switchers after DOM is loaded
+    function initLanguageSwitchers() {
       const buttons = document.querySelectorAll('.language-switcher-btn');
       
       buttons.forEach(button => {
+        // Skip if already initialized
+        if (button.hasAttribute('data-initialized')) {
+          return;
+        }
+        
+        button.setAttribute('data-initialized', 'true');
         const container = button.closest('.relative');
         const menu = container ? container.querySelector('.language-menu') : null;
         
@@ -53,9 +59,16 @@ const currentLang = extractLangFromPath(actualCurrentPath);
           // Add data attribute to track state
           button.setAttribute('data-open', 'false');
           
-          button.addEventListener('click', function(e) {
+          // Remove existing event listeners if any
+          button.replaceWith(button.cloneNode(true));
+          const newButton = container.querySelector('.language-switcher-btn');
+          newButton.setAttribute('data-initialized', 'true');
+          
+          newButton.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
+            
+            console.log('Language switcher clicked'); // Debug log
             
             const isOpen = this.getAttribute('data-open') === 'true';
             
@@ -71,7 +84,7 @@ const currentLang = extractLangFromPath(actualCurrentPath);
                 }
                 const otherChevron = otherButton.querySelector('svg');
                 if (otherChevron) {
-                  otherChevron.style.cssText = 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;';
+                  otherChevron.style.transform = 'rotate(0deg)';
                 }
               }
             });
@@ -82,19 +95,20 @@ const currentLang = extractLangFromPath(actualCurrentPath);
               menu.classList.add('hidden');
               menu.style.display = 'none';
               this.setAttribute('data-open', 'false');
+              console.log('Menu closed'); // Debug log
             } else {
               // Open current menu
               menu.classList.remove('hidden');
               menu.style.display = 'block';
               this.setAttribute('data-open', 'true');
+              console.log('Menu opened'); // Debug log
             }
             
             // Rotate chevron
             const chevron = this.querySelector('svg');
             if (chevron) {
-              chevron.style.cssText = isOpen 
-                ? 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;'
-                : 'transform: rotate(180deg) !important; transition: transform 0.2s ease !important;';
+              chevron.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+              chevron.style.transition = 'transform 0.2s ease';
             }
           });
           
@@ -103,28 +117,33 @@ const currentLang = extractLangFromPath(actualCurrentPath);
           menu.style.display = 'none';
         }
       });
+    }
+    
+    // Initialize immediately and also after a short delay
+    initLanguageSwitchers();
+    setTimeout(initLanguageSwitchers, 200);
       
-      // Close menus when clicking outside
-      document.addEventListener('click', function(e) {
-        const clickedButton = e.target.closest('.language-switcher-btn');
-        const clickedMenu = e.target.closest('.language-menu');
-        
-        if (!clickedButton && !clickedMenu) {
-          document.querySelectorAll('.language-switcher-btn').forEach(button => {
-            button.setAttribute('data-open', 'false');
-            const container = button.closest('.relative');
-            const menu = container ? container.querySelector('.language-menu') : null;
-            if (menu) {
-              menu.classList.add('hidden');
-              menu.style.display = 'none';
-            }
-            const chevron = button.querySelector('svg');
-            if (chevron) {
-              chevron.style.cssText = 'transform: rotate(0deg) !important; transition: transform 0.2s ease !important;';
-            }
-          });
-        }
-      });
-    }, 100);
+    // Close menus when clicking outside (with higher priority)
+    document.addEventListener('click', function(e) {
+      const clickedButton = e.target.closest('.language-switcher-btn');
+      const clickedMenu = e.target.closest('.language-menu');
+      
+      if (!clickedButton && !clickedMenu) {
+        document.querySelectorAll('.language-switcher-btn').forEach(button => {
+          button.setAttribute('data-open', 'false');
+          const container = button.closest('.relative');
+          const menu = container ? container.querySelector('.language-menu') : null;
+          if (menu) {
+            menu.classList.add('hidden');
+            menu.style.display = 'none';
+          }
+          const chevron = button.querySelector('svg');
+          if (chevron) {
+            chevron.style.transform = 'rotate(0deg)';
+            chevron.style.transition = 'transform 0.2s ease';
+          }
+        });
+      }
+    }, true); // Use capture phase for higher priority
   });
 </script>

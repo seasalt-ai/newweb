@@ -560,6 +560,11 @@ const isActiveSection = (section: string) => {
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
+      // Don't interfere with language switcher
+      if (event.target.closest('.language-switcher-btn') || event.target.closest('.language-menu')) {
+        return;
+      }
+      
       if (!event.target.closest('.dropdown-trigger') && !event.target.closest('.dropdown-menu')) {
         dropdownMenus.forEach(menu => menu.classList.add('hidden'));
       }
