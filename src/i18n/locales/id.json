@@ -37,9 +37,132 @@
   "hero": {
     "title": "Berhenti Mengganti Aplikasi <br> Satukan Setiap Panggilan Pelanggan <br> WhatsApp, dan Obrolan <br> dalam Satu Kotak Masuk Sederhana.",
     "description": "Seasalt.ai adalah pusat kontak all-in-one yang dibuat untuk usaha kecil. Otomatisasi dukungan, tangkap setiap prospek, dan kelola semua percakapan Anda dari satu layar.",
-    "startForFree": "Mulai Gratis",
     "seeDemo": "Lihat Demo 2 Menit",
     "trustedBy": "Dipercaya oleh bisnis yang berkembang di seluruh dunia"
+  },
+  "industries": {
+    "title": "Layani Setiap Industri dengan Percaya Diri",
+    "description": "Dari layanan kesehatan hingga fintech, platform kami menyesuaikan dengan kebutuhan unik industri Anda dengan fitur khusus dan standar kepatuhan.",
+    "cta": {
+      "title": "Siap Merevolusi Industri Anda?",
+      "description": "Bergabunglah dengan pemimpin industri yang mempercayai Seasalt.ai untuk memberikan pengalaman pelanggan yang luar biasa sambil memenuhi persyaratan regulasi dan operasional tertentu.",
+      "signUp": "Daftar",
+      "bookDemo": "Pesan Demo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Kembali ke Beranda"
+      },
+      "hero": {
+        "title": "Solusi AI untuk",
+        "signUp": "Mulai Gratis",
+        "seeDemo": "Lihat Demo",
+        "hipaaOffering": "Juga tersedia: Sesuai HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Solusi - Seasalt.ai",
+        "descriptionPrefix": "Lihat bagaimana Seasalt.ai membantu",
+        "descriptionSuffix": "bisnis meningkatkan komunikasi dengan pelanggan dan mendorong pertumbuhan."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Apa"
+      },
+      "benefits": {
+        "title": "Mengapa Memilih Seasalt.ai untuk",
+        "description": "Platform berbasis AI kami menyederhanakan komunikasi dan mengotomatisasi alur kerja untuk"
+      },
+      "useCases": {
+        "title": "Kasus Penggunaan Umum",
+        "description": {
+          "start": "Temukan bagaimana platform kami mengubah",
+          "end": "operasi dengan otomatisasi cerdas"
+        },
+        "customerSupport": {
+          "title": "Dukungan Pelanggan 24/7",
+          "description": "Memberikan respons instan terhadap pertanyaan pelanggan di semua saluran"
+        },
+        "leadGeneration": {
+          "title": "Generasi Prospek",
+          "description": "Tangkap dan kualifikasi prospek secara otomatis dengan percakapan berbasis AI"
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "description": "Lacak kinerja dan dapatkan wawasan tentang interaksi pelanggan"
+        },
+        "subtitle": "Temukan bagaimana platform kami mendukung setiap aspek manajemen pendidikan",
+        "case1": {
+          "title": "Sistem Informasi Mahasiswa",
+          "description": "Sentralisasi catatan mahasiswa, nilai, dan pelacakan kemajuan akademik"
+        },
+        "case2": {
+          "title": "Manajemen Pembelajaran",
+          "description": "Memberikan kursus, melacak kemajuan, dan mengelola konten pendidikan"
+        },
+        "case3": {
+          "title": "Alat Administratif",
+          "description": "Menyederhanakan pendaftaran, penjadwalan, dan operasi institusi"
+        }
+      },
+      "testimonials": {
+        "title": "Apa Kata Perusahaan",
+        "quote1": "Seasalt.ai telah mengubah operasi layanan pelanggan kami. Waktu respons turun 80% dan kepuasan berada pada level tertinggi.",
+        "author1": "Sarah Chen",
+        "company1": "Manajer Keberhasilan Pelanggan",
+        "quote2": "Otomatisasi AI telah menghemat waktu kami yang tak terhitung jumlahnya. Kami dapat fokus mengembangkan bisnis daripada mengelola tugas yang berulang.",
+        "author2": "Michael Rodriguez",
+        "company2": "Direktur Operasi",
+        "subtitle": "Lihat bagaimana institusi mengubah operasi mereka",
+        "testimonial1": {
+          "quote": "Platform ini telah merevolusi cara kami mengelola operasi sekolah kami. Data mahasiswa kini tersentralisasi dan dapat diakses.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Kepala Sekolah, Lincoln Elementary School"
+        },
+        "testimonial2": {
+          "quote": "Fitur manajemen pembelajaran membuat pembelajaran jarak jauh dan hibrida lancar bagi siswa dan fakultas kami.",
+          "author": "Prof. Michael Chen",
+          "position": "Dekan Teknologi, State University"
+        },
+        "testimonial3": {
+          "quote": "Efisiensi administrasi kami meningkat secara drastis. Segala hal mulai dari pendaftaran hingga pelaporan kini lebih sederhana.",
+          "author": "Maria Rodriguez",
+          "position": "Administrator, Community College District"
+        }
+      },
+      "cta": {
+        "title": "Siap Mengubah Bisnis Anda?",
+        "description": "Bergabunglah dengan ribuan perusahaan yang mempercayai Seasalt.ai untuk mengelola komunikasi pelanggan mereka secara efisien dan aman.",
+        "signUp": "Mulai Uji Coba Gratis",
+        "scheduleDemo": "Jadwalkan Demo",
+        "seahealthLink": "Jelajahi Solusi Kesehatan Sesuai HIPAA",
+        "buttons": {
+          "primary": "Mulai Uji Coba Gratis",
+          "secondary": "Jadwalkan Demo",
+          "contact": "Hubungi Penjualan"
+        }
+      },
+      "solutions": {
+        "title": "Solusi"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Akses ke GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Kalkulator Paket & Penggunaan Model",
+        "voiceOnly": "Model khusus suara",
+        "voicePricing": "Harga suara",
+        "standardVoice": "Suara Standar",
+        "premiumVoice": "Suara Premium"
+      }
+    }
   },
   "solutions": {
     "salesMarketing": {
@@ -649,50 +772,13 @@
         "description": "Solusi bertenaga AI kami merampingkan operasi front office Anda, memungkinkan staf Anda fokus pada yang paling penting - perawatan pasien."
       },
       "forProviders": {
-        "title": "Untuk Penyedia Layanan Kesehatan",
-        "reduceAdministrative": "Mengurangi beban administratif",
-        "improveSatisfaction": "Meningkatkan kepuasan pasien",
-        "increaseEfficiency": "Meningkatkan efisiensi operasional"
+        "title": "Untuk Penyedia Layanan Kesehatan"
       },
       "forPatients": {
-        "title": "Untuk Pasien",
-        "access247": "Akses 24/7 ke dukungan",
-        "quickScheduling": "Penjadwalan janji temu yang cepat",
-        "seamlessCommunication": "Komunikasi yang lancar"
+        "title": "Untuk Pasien"
       },
       "whyChoose": {
-        "title": "Mengapa Memilih SeaHealth?",
-        "hipaa": {
-          "title": "Kepatuhan HIPAA",
-          "description": "Kami mengutamakan privasi dan keamanan data pasien."
-        },
-        "speech": {
-          "title": "Teknologi Suara Alami & Kontekstual",
-          "description": "Berinteraksi dengan pasien melalui komunikasi yang mirip manusia."
-        },
-        "automation": {
-          "title": "Otomasi yang Tepat",
-          "description": "Selalu peduli dengan pasien dan karyawan Anda."
-        }
-      },
-      "faq": {
-        "title": "Pertanyaan yang Sering Diajukan",
-        "analytics": {
-          "question": "Bagaimana cara kerja analitik panggilan front desk Anda?",
-          "answer": "Kami merekam panggilan telepon masuk dan keluar Anda, kemudian mentranskripsikannya untuk analisis lebih lanjut. Email ringkasan dan peringatan dikirim setiap hari."
-        },
-        "recording": {
-          "question": "Apakah perlu merekam panggilan telepon, dan bagaimana caranya?",
-          "answer": "Kami terhubung dengan penyedia VoIP Anda untuk mendapatkan rekaman panggilan dan melakukan analisis suara pada rekaman. Jika Anda menggunakan telepon analog, kami menggunakan perangkat perekam telepon yang menghubungkan panggilan Anda dengan jack telepon untuk mendapatkan rekaman."
-        },
-        "coverage": {
-          "question": "Bagaimana cara kerja cakupan panggilan telepon 24/7?",
-          "answer": "Resepsionis bertenaga AI menangani panggilan 24/7, memastikan tidak ada peluang yang terlewat. Anda dapat menjawab panggilan saat berdering, atau mentransfer panggilan ke resepsionis AI selama atau setelah jam kerja."
-        },
-        "whyUse": {
-          "question": "Mengapa saya harus menggunakan layanan Anda?",
-          "answer": "SeaHealth meningkatkan efisiensi, meningkatkan kepuasan pasien, dan meningkatkan pendapatan melalui otomasi dan solusi bertenaga AI. Lebih murah, lebih dapat diandalkan, dan lebih empatik daripada outsourcing pekerjaan resepsionis front desk Anda."
-        }
+        "title": "Mengapa Memilih SeaHealth?"
       },
       "partners": {
         "title": "Mitra & Integrasi"
@@ -1008,130 +1094,6 @@
           "7": "Opsi penyebaran On-premise"
         },
         "cta": "Hubungi Penjualan"
-      }
-    }
-  },
-  "industries": {
-    "title": "Layani Setiap Industri dengan Percaya Diri",
-    "description": "Dari layanan kesehatan hingga fintech, platform kami menyesuaikan dengan kebutuhan unik industri Anda dengan fitur khusus dan standar kepatuhan.",
-    "cta": {
-      "title": "Siap Merevolusi Industri Anda?",
-      "description": "Bergabunglah dengan pemimpin industri yang mempercayai Seasalt.ai untuk memberikan pengalaman pelanggan yang luar biasa sambil memenuhi persyaratan regulasi dan operasional tertentu.",
-      "signUp": "Daftar",
-      "bookDemo": "Pesan Demo"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← Kembali ke Beranda"
-      },
-      "hero": {
-        "title": "Solusi AI untuk",
-        "signUp": "Mulai Gratis",
-        "seeDemo": "Lihat Demo",
-        "hipaaOffering": "Juga tersedia: Sesuai HIPAA"
-      },
-      "seo": {
-        "titleSuffix": "Solusi - Seasalt.ai",
-        "descriptionPrefix": "Lihat bagaimana Seasalt.ai membantu",
-        "descriptionSuffix": "bisnis meningkatkan komunikasi dengan pelanggan dan mendorong pertumbuhan."
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "Apa"
-      },
-      "benefits": {
-        "title": "Mengapa Memilih Seasalt.ai untuk",
-        "description": "Platform berbasis AI kami menyederhanakan komunikasi dan mengotomatisasi alur kerja untuk"
-      },
-      "useCases": {
-        "title": "Kasus Penggunaan Umum",
-        "description": {
-          "start": "Temukan bagaimana platform kami mengubah",
-          "end": "operasi dengan otomatisasi cerdas"
-        },
-        "customerSupport": {
-          "title": "Dukungan Pelanggan 24/7",
-          "description": "Memberikan respons instan terhadap pertanyaan pelanggan di semua saluran"
-        },
-        "leadGeneration": {
-          "title": "Generasi Prospek",
-          "description": "Tangkap dan kualifikasi prospek secara otomatis dengan percakapan berbasis AI"
-        },
-        "analytics": {
-          "title": "Analitik & Wawasan",
-          "description": "Lacak kinerja dan dapatkan wawasan tentang interaksi pelanggan"
-        },
-        "subtitle": "Temukan bagaimana platform kami mendukung setiap aspek manajemen pendidikan",
-        "case1": {
-          "title": "Sistem Informasi Mahasiswa",
-          "description": "Sentralisasi catatan mahasiswa, nilai, dan pelacakan kemajuan akademik"
-        },
-        "case2": {
-          "title": "Manajemen Pembelajaran",
-          "description": "Memberikan kursus, melacak kemajuan, dan mengelola konten pendidikan"
-        },
-        "case3": {
-          "title": "Alat Administratif",
-          "description": "Menyederhanakan pendaftaran, penjadwalan, dan operasi institusi"
-        }
-      },
-      "testimonials": {
-        "title": "Apa Kata Perusahaan",
-        "quote1": "Seasalt.ai telah mengubah operasi layanan pelanggan kami. Waktu respons turun 80% dan kepuasan berada pada level tertinggi.",
-        "author1": "Sarah Chen",
-        "company1": "Manajer Keberhasilan Pelanggan",
-        "quote2": "Otomatisasi AI telah menghemat waktu kami yang tak terhitung jumlahnya. Kami dapat fokus mengembangkan bisnis daripada mengelola tugas yang berulang.",
-        "author2": "Michael Rodriguez",
-        "company2": "Direktur Operasi",
-        "subtitle": "Lihat bagaimana institusi mengubah operasi mereka",
-        "testimonial1": {
-          "quote": "Platform ini telah merevolusi cara kami mengelola operasi sekolah kami. Data mahasiswa kini tersentralisasi dan dapat diakses.",
-          "author": "Dr. Sarah Johnson",
-          "position": "Kepala Sekolah, Lincoln Elementary School"
-        },
-        "testimonial2": {
-          "quote": "Fitur manajemen pembelajaran membuat pembelajaran jarak jauh dan hibrida lancar bagi siswa dan fakultas kami.",
-          "author": "Prof. Michael Chen",
-          "position": "Dekan Teknologi, State University"
-        },
-        "testimonial3": {
-          "quote": "Efisiensi administrasi kami meningkat secara drastis. Segala hal mulai dari pendaftaran hingga pelaporan kini lebih sederhana.",
-          "author": "Maria Rodriguez",
-          "position": "Administrator, Community College District"
-        }
-      },
-      "cta": {
-        "title": "Siap Mengubah Bisnis Anda?",
-        "description": "Bergabunglah dengan ribuan perusahaan yang mempercayai Seasalt.ai untuk mengelola komunikasi pelanggan mereka secara efisien dan aman.",
-        "signUp": "Mulai Uji Coba Gratis",
-        "scheduleDemo": "Jadwalkan Demo",
-        "seahealthLink": "Jelajahi Solusi Kesehatan Sesuai HIPAA",
-        "buttons": {
-          "primary": "Mulai Uji Coba Gratis",
-          "secondary": "Jadwalkan Demo",
-          "contact": "Hubungi Penjualan"
-        }
-      },
-      "solutions": {
-        "title": "Solusi"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "Akses ke GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "Kalkulator Paket & Penggunaan Model",
-        "voiceOnly": "Model khusus suara",
-        "voicePricing": "Harga suara",
-        "standardVoice": "Suara Standar",
-        "premiumVoice": "Suara Premium"
       }
     }
   }

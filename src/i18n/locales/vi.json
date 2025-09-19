@@ -8,7 +8,6 @@
     "compareUs": "So sánh chúng tôi",
     "blog": "Blog",
     "login": "Đăng nhập",
-    "signUp": "Bắt đầu miễn phí",
     "backToChannels": "Quay lại Kênh",
     "allChannelsOverview": "Tổng quan tất cả các kênh"
   },
@@ -40,6 +39,130 @@
     "signUp": "Bắt đầu miễn phí",
     "seeDemo": "Xem bản demo 2 phút",
     "trustedBy": "Được tin cậy bởi các doanh nghiệp đang phát triển trên toàn thế giới"
+  },
+  "industries": {
+    "title": "Phục vụ mọi ngành nghề với sự tự tin",
+    "description": "Từ chăm sóc sức khỏe đến fintech, nền tảng của chúng tôi thích ứng với các yêu cầu đặc thù của ngành của bạn với các tính năng chuyên biệt và tiêu chuẩn tuân thủ.",
+    "cta": {
+      "title": "Sẵn sàng cách mạng hóa ngành của bạn chưa?",
+      "description": "Tham gia cùng các nhà lãnh đạo ngành tin tưởng Seasalt.ai để mang lại trải nghiệm khách hàng xuất sắc đồng thời đáp ứng các yêu cầu về quy định và vận hành cụ thể.",
+      "signUp": "Đăng ký",
+      "bookDemo": "Đặt lịch trình diễn demo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Quay về Trang chủ"
+      },
+      "hero": {
+        "title": "Giải pháp AI cho",
+        "signUp": "Bắt đầu miễn phí",
+        "seeDemo": "Xem demo",
+        "hipaaOffering": "Cũng có sẵn: Tuân thủ HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Solutions - Seasalt.ai",
+        "descriptionPrefix": "Xem cách Seasalt.ai giúp",
+        "descriptionSuffix": "các doanh nghiệp cải thiện giao tiếp với khách hàng và thúc đẩy tăng trưởng."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Những gì"
+      },
+      "benefits": {
+        "title": "Tại sao chọn Seasalt.ai cho",
+        "description": "Nền tảng được hỗ trợ bởi AI của chúng tôi giúp đơn giản hóa giao tiếp và tự động hóa quy trình cho"
+      },
+      "useCases": {
+        "title": "Các trường hợp sử dụng phổ biến",
+        "description": {
+          "start": "Khám phá cách nền tảng của chúng tôi biến đổi",
+          "end": "các hoạt động với tự động hóa thông minh"
+        },
+        "customerSupport": {
+          "title": "Hỗ trợ khách hàng 24/7",
+          "description": "Cung cấp phản hồi ngay lập tức cho các yêu cầu của khách hàng trên tất cả các kênh"
+        },
+        "leadGeneration": {
+          "title": "Tạo khách hàng tiềm năng",
+          "description": "Tự động nắm bắt và đánh giá khách hàng tiềm năng thông qua các cuộc trò chuyện được AI hỗ trợ"
+        },
+        "analytics": {
+          "title": "Phân tích & Thông tin chi tiết",
+          "description": "Theo dõi hiệu suất và có được thông tin chi tiết về tương tác của khách hàng"
+        },
+        "subtitle": "Khám phá cách nền tảng của chúng tôi hỗ trợ mọi khía cạnh của quản lý giáo dục",
+        "case1": {
+          "title": "Hệ thống thông tin sinh viên",
+          "description": "Tập trung dữ liệu sinh viên, điểm số và theo dõi tiến trình học tập"
+        },
+        "case2": {
+          "title": "Quản lý học tập",
+          "description": "Cung cấp khóa học, theo dõi tiến độ và quản lý nội dung giáo dục"
+        },
+        "case3": {
+          "title": "Công cụ quản trị",
+          "description": "Đơn giản hóa việc đăng ký, lập lịch và các hoạt động của tổ chức"
+        }
+      },
+      "testimonials": {
+        "title": "Các công ty nói gì",
+        "quote1": "Seasalt.ai đã thay đổi cách vận hành dịch vụ khách hàng của chúng tôi. Thời gian phản hồi giảm 80% và mức độ hài lòng đạt mức cao nhất.",
+        "author1": "Sarah Chen",
+        "company1": "Quản lý thành công khách hàng",
+        "quote2": "Tự động hóa AI đã giúp chúng tôi tiết kiệm vô số giờ. Chúng tôi có thể tập trung phát triển doanh nghiệp thay vì quản lý các công việc lặp đi lặp lại.",
+        "author2": "Michael Rodriguez",
+        "company2": "Giám đốc vận hành",
+        "subtitle": "Xem cách các tổ chức đang chuyển đổi hoạt động của họ",
+        "testimonial1": {
+          "quote": "Nền tảng này đã cách mạng hóa cách chúng tôi quản lý hoạt động của trường. Dữ liệu sinh viên hiện đã được tập trung và dễ truy cập.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Hiệu trưởng, Trường Tiểu học Lincoln"
+        },
+        "testimonial2": {
+          "quote": "Các tính năng quản lý học tập giúp việc học từ xa và học kết hợp trở nên liền mạch cho sinh viên và giảng viên của chúng tôi.",
+          "author": "Prof. Michael Chen",
+          "position": "Trưởng khoa Công nghệ, Đại học Bang"
+        },
+        "testimonial3": {
+          "quote": "Hiệu quả quản trị của chúng tôi đã cải thiện đáng kể. Mọi thứ từ đăng ký đến báo cáo hiện đã được tối ưu hóa.",
+          "author": "Maria Rodriguez",
+          "position": "Quản trị viên, Học viện Cộng đồng"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng chuyển đổi doanh nghiệp của bạn chưa?",
+        "description": "Tham gia hàng ngàn công ty tin tưởng Seasalt.ai để quản lý giao tiếp với khách hàng một cách hiệu quả và an toàn.",
+        "signUp": "Bắt đầu dùng thử miễn phí",
+        "scheduleDemo": "Đặt lịch demo",
+        "seahealthLink": "Khám phá giải pháp chăm sóc sức khỏe tuân thủ HIPAA",
+        "buttons": {
+          "primary": "Bắt đầu dùng thử miễn phí",
+          "secondary": "Đặt lịch demo",
+          "contact": "Liên hệ phòng kinh doanh"
+        }
+      },
+      "solutions": {
+        "title": "Giải pháp"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Truy cập GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Máy tính Gói và Sử dụng Mô hình",
+        "voiceOnly": "Mô hình chỉ giọng nói",
+        "voicePricing": "Giá tính giọng nói",
+        "standardVoice": "Giọng nói chuẩn",
+        "premiumVoice": "Giọng nói cao cấp"
+      }
+    }
   },
   "solutions": {
     "salesMarketing": {
@@ -649,50 +772,13 @@
         "description": "Giải pháp AI của chúng tôi giúp tối ưu hóa hoạt động bộ phận tiếp tân, cho phép nhân viên tập trung vào điều quan trọng nhất - chăm sóc bệnh nhân."
       },
       "forProviders": {
-        "title": "Dành cho Nhà cung cấp Dịch vụ Y tế",
-        "reduceAdministrative": "Giảm gánh nặng hành chính",
-        "improveSatisfaction": "Nâng cao sự hài lòng của bệnh nhân",
-        "increaseEfficiency": "Tăng hiệu quả vận hành"
+        "title": "Dành cho Nhà cung cấp Dịch vụ Y tế"
       },
       "forPatients": {
-        "title": "Dành cho Bệnh nhân",
-        "access247": "Hỗ trợ 24/7",
-        "quickScheduling": "Đặt lịch nhanh",
-        "seamlessCommunication": "Giao tiếp liền mạch"
+        "title": "Dành cho Bệnh nhân"
       },
       "whyChoose": {
-        "title": "Tại sao chọn SeaHealth?",
-        "hipaa": {
-          "title": "Tuân thủ HIPAA",
-          "description": "Chúng tôi ưu tiên bảo mật và quyền riêng tư dữ liệu bệnh nhân."
-        },
-        "speech": {
-          "title": "Công nghệ nói tự nhiên & theo ngữ cảnh",
-          "description": "Tương tác với bệnh nhân bằng giao tiếp giống con người."
-        },
-        "automation": {
-          "title": "Tự động hóa đúng cách",
-          "description": "Luôn chăm sóc bệnh nhân và nhân viên của bạn."
-        }
-      },
-      "faq": {
-        "title": "Câu hỏi thường gặp",
-        "analytics": {
-          "question": "Phân tích cuộc gọi bộ phận tiếp tân hoạt động như thế nào?",
-          "answer": "Chúng tôi ghi lại các cuộc gọi đến và đi, sau đó phiên âm để phân tích thêm. Email tóm tắt và cảnh báo được gửi hàng ngày."
-        },
-        "recording": {
-          "question": "Có cần ghi âm cuộc gọi điện thoại không, và như thế nào?",
-          "answer": "Chúng tôi kết nối với nhà cung cấp VoIP của bạn để lấy bản ghi cuộc gọi và phân tích giọng nói. Nếu bạn dùng điện thoại analog, chúng tôi sử dụng thiết bị ghi âm kết nối cuộc gọi với jack điện thoại để lấy bản ghi."
-        },
-        "coverage": {
-          "question": "Dịch vụ hỗ trợ điện thoại 24/7 hoạt động ra sao?",
-          "answer": "Lễ tân AI xử lý cuộc gọi suốt 24/7, đảm bảo không bỏ lỡ cơ hội. Bạn có thể nhấc máy khi chúng reo hoặc chuyển cuộc gọi cho lễ tân AI trong hoặc sau giờ làm việc."
-        },
-        "whyUse": {
-          "question": "Tại sao tôi nên sử dụng dịch vụ của bạn?",
-          "answer": "SeaHealth cải thiện hiệu quả, nâng cao sự hài lòng của bệnh nhân và tăng doanh thu nhờ tự động hóa và các giải pháp AI. Nó rẻ hơn, đáng tin cậy hơn và thấu cảm hơn so với việc thuê ngoài công việc lễ tân."
-        }
+        "title": "Tại sao chọn SeaHealth?"
       },
       "partners": {
         "title": "Đối tác & Tích hợp"
@@ -1073,130 +1159,6 @@
           "7": "Tùy chọn triển khai tại chỗ"
         },
         "cta": "Liên hệ Sales"
-      }
-    }
-  },
-  "industries": {
-    "title": "Phục vụ mọi ngành nghề với sự tự tin",
-    "description": "Từ chăm sóc sức khỏe đến fintech, nền tảng của chúng tôi thích ứng với các yêu cầu đặc thù của ngành của bạn với các tính năng chuyên biệt và tiêu chuẩn tuân thủ.",
-    "cta": {
-      "title": "Sẵn sàng cách mạng hóa ngành của bạn chưa?",
-      "description": "Tham gia cùng các nhà lãnh đạo ngành tin tưởng Seasalt.ai để mang lại trải nghiệm khách hàng xuất sắc đồng thời đáp ứng các yêu cầu về quy định và vận hành cụ thể.",
-      "signUp": "Đăng ký",
-      "bookDemo": "Đặt lịch trình diễn demo"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← Quay về Trang chủ"
-      },
-      "hero": {
-        "title": "Giải pháp AI cho",
-        "signUp": "Bắt đầu miễn phí",
-        "seeDemo": "Xem demo",
-        "hipaaOffering": "Cũng có sẵn: Tuân thủ HIPAA"
-      },
-      "seo": {
-        "titleSuffix": "Solutions - Seasalt.ai",
-        "descriptionPrefix": "Xem cách Seasalt.ai giúp",
-        "descriptionSuffix": "các doanh nghiệp cải thiện giao tiếp với khách hàng và thúc đẩy tăng trưởng."
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "Những gì"
-      },
-      "benefits": {
-        "title": "Tại sao chọn Seasalt.ai cho",
-        "description": "Nền tảng được hỗ trợ bởi AI của chúng tôi giúp đơn giản hóa giao tiếp và tự động hóa quy trình cho"
-      },
-      "useCases": {
-        "title": "Các trường hợp sử dụng phổ biến",
-        "description": {
-          "start": "Khám phá cách nền tảng của chúng tôi biến đổi",
-          "end": "các hoạt động với tự động hóa thông minh"
-        },
-        "customerSupport": {
-          "title": "Hỗ trợ khách hàng 24/7",
-          "description": "Cung cấp phản hồi ngay lập tức cho các yêu cầu của khách hàng trên tất cả các kênh"
-        },
-        "leadGeneration": {
-          "title": "Tạo khách hàng tiềm năng",
-          "description": "Tự động nắm bắt và đánh giá khách hàng tiềm năng thông qua các cuộc trò chuyện được AI hỗ trợ"
-        },
-        "analytics": {
-          "title": "Phân tích & Thông tin chi tiết",
-          "description": "Theo dõi hiệu suất và có được thông tin chi tiết về tương tác của khách hàng"
-        },
-        "subtitle": "Khám phá cách nền tảng của chúng tôi hỗ trợ mọi khía cạnh của quản lý giáo dục",
-        "case1": {
-          "title": "Hệ thống thông tin sinh viên",
-          "description": "Tập trung dữ liệu sinh viên, điểm số và theo dõi tiến trình học tập"
-        },
-        "case2": {
-          "title": "Quản lý học tập",
-          "description": "Cung cấp khóa học, theo dõi tiến độ và quản lý nội dung giáo dục"
-        },
-        "case3": {
-          "title": "Công cụ quản trị",
-          "description": "Đơn giản hóa việc đăng ký, lập lịch và các hoạt động của tổ chức"
-        }
-      },
-      "testimonials": {
-        "title": "Các công ty nói gì",
-        "quote1": "Seasalt.ai đã thay đổi cách vận hành dịch vụ khách hàng của chúng tôi. Thời gian phản hồi giảm 80% và mức độ hài lòng đạt mức cao nhất.",
-        "author1": "Sarah Chen",
-        "company1": "Quản lý thành công khách hàng",
-        "quote2": "Tự động hóa AI đã giúp chúng tôi tiết kiệm vô số giờ. Chúng tôi có thể tập trung phát triển doanh nghiệp thay vì quản lý các công việc lặp đi lặp lại.",
-        "author2": "Michael Rodriguez",
-        "company2": "Giám đốc vận hành",
-        "subtitle": "Xem cách các tổ chức đang chuyển đổi hoạt động của họ",
-        "testimonial1": {
-          "quote": "Nền tảng này đã cách mạng hóa cách chúng tôi quản lý hoạt động của trường. Dữ liệu sinh viên hiện đã được tập trung và dễ truy cập.",
-          "author": "Dr. Sarah Johnson",
-          "position": "Hiệu trưởng, Trường Tiểu học Lincoln"
-        },
-        "testimonial2": {
-          "quote": "Các tính năng quản lý học tập giúp việc học từ xa và học kết hợp trở nên liền mạch cho sinh viên và giảng viên của chúng tôi.",
-          "author": "Prof. Michael Chen",
-          "position": "Trưởng khoa Công nghệ, Đại học Bang"
-        },
-        "testimonial3": {
-          "quote": "Hiệu quả quản trị của chúng tôi đã cải thiện đáng kể. Mọi thứ từ đăng ký đến báo cáo hiện đã được tối ưu hóa.",
-          "author": "Maria Rodriguez",
-          "position": "Quản trị viên, Học viện Cộng đồng"
-        }
-      },
-      "cta": {
-        "title": "Sẵn sàng chuyển đổi doanh nghiệp của bạn chưa?",
-        "description": "Tham gia hàng ngàn công ty tin tưởng Seasalt.ai để quản lý giao tiếp với khách hàng một cách hiệu quả và an toàn.",
-        "signUp": "Bắt đầu dùng thử miễn phí",
-        "scheduleDemo": "Đặt lịch demo",
-        "seahealthLink": "Khám phá giải pháp chăm sóc sức khỏe tuân thủ HIPAA",
-        "buttons": {
-          "primary": "Bắt đầu dùng thử miễn phí",
-          "secondary": "Đặt lịch demo",
-          "contact": "Liên hệ phòng kinh doanh"
-        }
-      },
-      "solutions": {
-        "title": "Giải pháp"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "Truy cập GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "Máy tính Gói và Sử dụng Mô hình",
-        "voiceOnly": "Mô hình chỉ giọng nói",
-        "voicePricing": "Giá tính giọng nói",
-        "standardVoice": "Giọng nói chuẩn",
-        "premiumVoice": "Giọng nói cao cấp"
       }
     }
   }

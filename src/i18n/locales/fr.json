@@ -37,9 +37,132 @@
   "hero": {
     "title": "Arrêtez de jongler avec les applications <br> Unifiez chaque appel client <br> WhatsApp et chat <br> dans une seule boîte de réception simple.",
     "description": "Seasalt.ai est le centre de contact tout-en-un conçu pour les petites entreprises. Automatisez le support, capturez chaque prospect et gérez toutes vos conversations depuis un seul écran.",
-    "startForFree": "Commencer gratuitement",
     "seeDemo": "Voir démo de 2 min",
     "trustedBy": "Approuvé par des entreprises en croissance dans le monde entier"
+  },
+  "industries": {
+    "title": "Servir chaque secteur avec confiance",
+    "description": "De la santé à la fintech, notre plateforme s’adapte aux exigences uniques de votre secteur grâce à des fonctionnalités spécialisées et à des normes de conformité.",
+    "cta": {
+      "title": "Prêt à révolutionner votre secteur ?",
+      "description": "Rejoignez les leaders du secteur qui font confiance à Seasalt.ai pour offrir des expériences client exceptionnelles tout en respectant les exigences réglementaires et opérationnelles spécifiques.",
+      "signUp": "S'inscrire",
+      "bookDemo": "Réserver une démo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Retour à l’accueil"
+      },
+      "hero": {
+        "title": "Solutions IA pour",
+        "signUp": "Commencez gratuitement",
+        "seeDemo": "Voir la démo",
+        "hipaaOffering": "Disponible également : conforme à la norme HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Solutions - Seasalt.ai",
+        "descriptionPrefix": "Découvrez comment Seasalt.ai aide",
+        "descriptionSuffix": "les entreprises à améliorer leurs communications client et à stimuler leur croissance."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Ce que"
+      },
+      "benefits": {
+        "title": "Pourquoi choisir Seasalt.ai pour",
+        "description": "Notre plateforme alimentée par l’IA simplifie les communications et automatise les flux de travail pour"
+      },
+      "useCases": {
+        "title": "Cas d'utilisation courants",
+        "description": {
+          "start": "Découvrez comment notre plateforme transforme",
+          "end": "les opérations grâce à l’automatisation intelligente"
+        },
+        "customerSupport": {
+          "title": "Support client 24/7",
+          "description": "Fournissez des réponses instantanées aux demandes des clients sur tous les canaux"
+        },
+        "leadGeneration": {
+          "title": "Génération de leads",
+          "description": "Capturez et qualifiez automatiquement les prospects grâce à des conversations alimentées par l’IA"
+        },
+        "analytics": {
+          "title": "Analyses et insights",
+          "description": "Suivez les performances et obtenez des informations sur les interactions avec les clients"
+        },
+        "subtitle": "Découvrez comment notre plateforme soutient chaque aspect de la gestion éducative",
+        "case1": {
+          "title": "Systèmes d’information des étudiants",
+          "description": "Centralisez les dossiers, notes et le suivi des progrès académiques des étudiants"
+        },
+        "case2": {
+          "title": "Gestion de l’apprentissage",
+          "description": "Dispensez des cours, suivez les progrès et gérez le contenu éducatif"
+        },
+        "case3": {
+          "title": "Outils administratifs",
+          "description": "Rationalisez les inscriptions, la planification et les opérations institutionnelles"
+        }
+      },
+      "testimonials": {
+        "title": "Ce que disent les entreprises",
+        "quote1": "Seasalt.ai a transformé nos opérations de service client. Les délais de réponse ont diminué de 80 % et la satisfaction est à un niveau record.",
+        "author1": "Sarah Chen",
+        "company1": "Responsable du succès client",
+        "quote2": "L’automatisation par l’IA nous a fait gagner d’innombrables heures. Nous pouvons nous concentrer sur la croissance de notre entreprise plutôt que sur des tâches répétitives.",
+        "author2": "Michael Rodriguez",
+        "company2": "Directeur des opérations",
+        "subtitle": "Découvrez comment les institutions transforment leurs opérations",
+        "testimonial1": {
+          "quote": "Cette plateforme a révolutionné notre gestion des opérations scolaires. Les données des étudiants sont désormais centralisées et accessibles.",
+          "author": "Dr Sarah Johnson",
+          "position": "Directrice, Lincoln Elementary School"
+        },
+        "testimonial2": {
+          "quote": "Les fonctionnalités de gestion de l’apprentissage ont rendu l’enseignement à distance et hybride fluide pour nos étudiants et notre corps professoral.",
+          "author": "Prof. Michael Chen",
+          "position": "Doyen de la technologie, State University"
+        },
+        "testimonial3": {
+          "quote": "Notre efficacité administrative s’est considérablement améliorée. Tout, de l’inscription aux rapports, est désormais rationalisé.",
+          "author": "Maria Rodriguez",
+          "position": "Administratrice, Community College District"
+        }
+      },
+      "cta": {
+        "title": "Prêt à transformer votre entreprise ?",
+        "description": "Rejoignez des milliers d’entreprises qui font confiance à Seasalt.ai pour gérer efficacement et en toute sécurité leurs communications client.",
+        "signUp": "Commencez l’essai gratuit",
+        "scheduleDemo": "Planifier une démo",
+        "seahealthLink": "Explorer les solutions de santé conformes à la norme HIPAA",
+        "buttons": {
+          "primary": "Commencez l’essai gratuit",
+          "secondary": "Planifier une démo",
+          "contact": "Contacter les ventes"
+        }
+      },
+      "solutions": {
+        "title": "Solutions"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Accès à GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculateur de Plan et Utilisation de Modèle",
+        "voiceOnly": "Modèle vocal uniquement",
+        "voicePricing": "Tarification vocale",
+        "standardVoice": "Voix Standard",
+        "premiumVoice": "Voix Premium"
+      }
+    }
   },
   "solutions": {
     "salesMarketing": {
@@ -649,50 +772,13 @@
         "description": "Notre solution alimentée par l'IA rationalise vos opérations d'accueil, permettant à votre personnel de se concentrer sur ce qui compte le plus - les soins aux patients."
       },
       "forProviders": {
-        "title": "Pour les Prestataires de Santé",
-        "reduceAdministrative": "Réduire la charge administrative",
-        "improveSatisfaction": "Améliorer la satisfaction des patients",
-        "increaseEfficiency": "Augmenter l'efficacité opérationnelle"
+        "title": "Pour les Prestataires de Santé"
       },
       "forPatients": {
-        "title": "Pour les Patients",
-        "access247": "Accès 24/7 au support",
-        "quickScheduling": "Planification rapide des rendez-vous",
-        "seamlessCommunication": "Communication transparente"
+        "title": "Pour les Patients"
       },
       "whyChoose": {
-        "title": "Pourquoi Choisir SeaHealth?",
-        "hipaa": {
-          "title": "Conformité HIPAA",
-          "description": "Nous priorisons la confidentialité et la sécurité des données des patients."
-        },
-        "speech": {
-          "title": "Technologies Vocales Naturelles et Contextuelles",
-          "description": "Interagissez avec les patients grâce à une communication semblable à celle des humains."
-        },
-        "automation": {
-          "title": "Automatisation Correcte",
-          "description": "Toujours soucieux des patients et de vos employés."
-        }
-      },
-      "faq": {
-        "title": "Questions Fréquemment Posées",
-        "analytics": {
-          "question": "Comment fonctionne votre analyse des appels d'accueil?",
-          "answer": "Nous enregistrons vos appels entrants et sortants, puis les transcrivons pour une analyse plus approfondie. Des emails de résumé et d'alerte sont envoyés quotidiennement."
-        },
-        "recording": {
-          "question": "Cela nécessite-t-il d'enregistrer les appels téléphoniques, et comment?",
-          "answer": "Nous nous connectons à votre fournisseur VoIP pour obtenir les enregistrements d'appels et effectuons une analyse vocale sur les enregistrements. Si vous utilisez des téléphones analogiques, nous utilisons un dispositif d'enregistrement téléphonique qui connecte votre appel avec des prises téléphoniques pour obtenir les enregistrements."
-        },
-        "coverage": {
-          "question": "Comment fonctionne la couverture téléphonique 24/7?",
-          "answer": "Les réceptionnistes alimentés par l'IA gèrent les appels 24/7, s'assurant qu'aucune opportunité n'est manquée. Vous pouvez soit décrocher l'appel quand il sonne, soit transférer l'appel aux réceptionnistes IA pendant ou après les heures ouvrables."
-        },
-        "whyUse": {
-          "question": "Pourquoi devrais-je utiliser votre service?",
-          "answer": "SeaHealth améliore l'efficacité, renforce la satisfaction des patients et augmente les revenus grâce à l'automatisation et aux solutions alimentées par l'IA. C'est moins cher, plus fiable et plus empathique que d'externaliser votre travail de réceptionniste d'accueil."
-        }
+        "title": "Pourquoi Choisir SeaHealth?"
       },
       "partners": {
         "title": "Partenaires et Intégrations"
@@ -1073,130 +1159,6 @@
           "7": "Options de déploiement sur site"
         },
         "cta": "Contacter les ventes"
-      }
-    }
-  },
-  "industries": {
-    "title": "Servir chaque secteur avec confiance",
-    "description": "De la santé à la fintech, notre plateforme s’adapte aux exigences uniques de votre secteur grâce à des fonctionnalités spécialisées et à des normes de conformité.",
-    "cta": {
-      "title": "Prêt à révolutionner votre secteur ?",
-      "description": "Rejoignez les leaders du secteur qui font confiance à Seasalt.ai pour offrir des expériences client exceptionnelles tout en respectant les exigences réglementaires et opérationnelles spécifiques.",
-      "signUp": "S'inscrire",
-      "bookDemo": "Réserver une démo"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← Retour à l’accueil"
-      },
-      "hero": {
-        "title": "Solutions IA pour",
-        "signUp": "Commencez gratuitement",
-        "seeDemo": "Voir la démo",
-        "hipaaOffering": "Disponible également : conforme à la norme HIPAA"
-      },
-      "seo": {
-        "titleSuffix": "Solutions - Seasalt.ai",
-        "descriptionPrefix": "Découvrez comment Seasalt.ai aide",
-        "descriptionSuffix": "les entreprises à améliorer leurs communications client et à stimuler leur croissance."
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "Ce que"
-      },
-      "benefits": {
-        "title": "Pourquoi choisir Seasalt.ai pour",
-        "description": "Notre plateforme alimentée par l’IA simplifie les communications et automatise les flux de travail pour"
-      },
-      "useCases": {
-        "title": "Cas d'utilisation courants",
-        "description": {
-          "start": "Découvrez comment notre plateforme transforme",
-          "end": "les opérations grâce à l’automatisation intelligente"
-        },
-        "customerSupport": {
-          "title": "Support client 24/7",
-          "description": "Fournissez des réponses instantanées aux demandes des clients sur tous les canaux"
-        },
-        "leadGeneration": {
-          "title": "Génération de leads",
-          "description": "Capturez et qualifiez automatiquement les prospects grâce à des conversations alimentées par l’IA"
-        },
-        "analytics": {
-          "title": "Analyses et insights",
-          "description": "Suivez les performances et obtenez des informations sur les interactions avec les clients"
-        },
-        "subtitle": "Découvrez comment notre plateforme soutient chaque aspect de la gestion éducative",
-        "case1": {
-          "title": "Systèmes d’information des étudiants",
-          "description": "Centralisez les dossiers, notes et le suivi des progrès académiques des étudiants"
-        },
-        "case2": {
-          "title": "Gestion de l’apprentissage",
-          "description": "Dispensez des cours, suivez les progrès et gérez le contenu éducatif"
-        },
-        "case3": {
-          "title": "Outils administratifs",
-          "description": "Rationalisez les inscriptions, la planification et les opérations institutionnelles"
-        }
-      },
-      "testimonials": {
-        "title": "Ce que disent les entreprises",
-        "quote1": "Seasalt.ai a transformé nos opérations de service client. Les délais de réponse ont diminué de 80 % et la satisfaction est à un niveau record.",
-        "author1": "Sarah Chen",
-        "company1": "Responsable du succès client",
-        "quote2": "L’automatisation par l’IA nous a fait gagner d’innombrables heures. Nous pouvons nous concentrer sur la croissance de notre entreprise plutôt que sur des tâches répétitives.",
-        "author2": "Michael Rodriguez",
-        "company2": "Directeur des opérations",
-        "subtitle": "Découvrez comment les institutions transforment leurs opérations",
-        "testimonial1": {
-          "quote": "Cette plateforme a révolutionné notre gestion des opérations scolaires. Les données des étudiants sont désormais centralisées et accessibles.",
-          "author": "Dr Sarah Johnson",
-          "position": "Directrice, Lincoln Elementary School"
-        },
-        "testimonial2": {
-          "quote": "Les fonctionnalités de gestion de l’apprentissage ont rendu l’enseignement à distance et hybride fluide pour nos étudiants et notre corps professoral.",
-          "author": "Prof. Michael Chen",
-          "position": "Doyen de la technologie, State University"
-        },
-        "testimonial3": {
-          "quote": "Notre efficacité administrative s’est considérablement améliorée. Tout, de l’inscription aux rapports, est désormais rationalisé.",
-          "author": "Maria Rodriguez",
-          "position": "Administratrice, Community College District"
-        }
-      },
-      "cta": {
-        "title": "Prêt à transformer votre entreprise ?",
-        "description": "Rejoignez des milliers d’entreprises qui font confiance à Seasalt.ai pour gérer efficacement et en toute sécurité leurs communications client.",
-        "signUp": "Commencez l’essai gratuit",
-        "scheduleDemo": "Planifier une démo",
-        "seahealthLink": "Explorer les solutions de santé conformes à la norme HIPAA",
-        "buttons": {
-          "primary": "Commencez l’essai gratuit",
-          "secondary": "Planifier une démo",
-          "contact": "Contacter les ventes"
-        }
-      },
-      "solutions": {
-        "title": "Solutions"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "Accès à GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "Calculateur de Plan et Utilisation de Modèle",
-        "voiceOnly": "Modèle vocal uniquement",
-        "voicePricing": "Tarification vocale",
-        "standardVoice": "Voix Standard",
-        "premiumVoice": "Voix Premium"
       }
     }
   }

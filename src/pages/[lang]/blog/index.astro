@@ -27,8 +27,38 @@ const allBlogPosts = await getCollection('blog', ({ data, id }) => {
   return data.draft !== true && postLang === currentLang;
 });
 
+// 為每篇文章處理並渲柔內容，用於提取圖片
+const postsWithContent = await Promise.all(
+  allBlogPosts.map(async (post) => {
+    let extractedImage = post.data.image;
+    
+    // 如果文章沒有設定圖片，嘗試從內容中提取第一張圖片
+    if (!extractedImage) {
+      // 直接從Markdown內容中搜索圖片標籤
+      const imgRegex = /!\[([^\]]*)\]\(([^)]+)\)|<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+      let match;
+      
+      while ((match = imgRegex.exec(post.body)) !== null) {
+        const imageUrl = match[2] || match[3]; // Markdown 或 HTML 格式
+        if (imageUrl) {
+          extractedImage = {
+            url: imageUrl,
+            alt: match[1] || post.data.title
+          };
+          break; // 只取第一張圖片
+        }
+      }
+    }
+    
+    return {
+      ...post,
+      extractedImage
+    };
+  })
+);
+
 // 按發布日期排序（最新的在前）
-const sortedPosts = allBlogPosts.sort((a, b) => 
+const sortedPosts = postsWithContent.sort((a, b) => 
   new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
 );
 
@@ -48,7 +78,7 @@ const structuredData = {
       "@type": "BlogPosting",
       "headline": post.data.title,
       "description": post.data.description,
-      "image": post.data.image?.url,
+      "image": post.extractedImage?.url || post.data.image?.url,
       "datePublished": post.data.publishDate.toISOString(),
       "author": {
         "@type": "Person",
@@ -162,10 +192,10 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
                       data-tags={post.data.tags?.join(' ').toLowerCase() || ''}
                     >
                       <div class="bg-gray-200">
-                        {post.data.image ? (
+                        {post.extractedImage || post.data.image ? (
                           <img
-                            src={post.data.image.url}
-                            alt={post.data.image.alt}
+                            src={(post.extractedImage || post.data.image).url}
+                            alt={(post.extractedImage || post.data.image).alt}
                             class="w-full h-40 sm:h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                             onerror="this.src='/seasalt-ai-icon.png'"
                           />

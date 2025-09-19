@@ -37,9 +37,132 @@
   "hero": {
     "title": "Tumigil sa Pag-juggle ng Apps <br> Pagsamahin ang Lahat ng Customer <br> Call, WhatsApp, at Chat <br> sa Isang Simpleng Inbox.",
     "description": "Ang Seasalt.ai ay ang all-in-one contact center na ginawa para sa mga small business. I-automate ang support, makuha ang lahat ng lead, at i-manage ang lahat ng conversations mula sa isang screen.",
-    "startForFree": "Simulan Nang Libre",
     "seeDemo": "Tignan ang 2-Minute Demo",
     "trustedBy": "Pinagkakatiwalaan ng mga growing business sa buong mundo"
+  },
+  "industries": {
+    "title": "Paglingkuran ang Bawat Industriya nang May Kumpiyansa",
+    "description": "Mula sa pangangalaga sa kalusugan hanggang sa fintech, ang aming platform ay umaangkop sa natatanging pangangailangan ng iyong industriya gamit ang mga espesyal na tampok at pamantayan sa pagsunod.",
+    "cta": {
+      "title": "Handa ka na bang Baguhin ang Iyong Industriya?",
+      "description": "Sumali sa mga lider ng industriya na nagtitiwala sa Seasalt.ai upang maghatid ng pambihirang karanasan sa customer habang natutugunan ang mga partikular na kinakailangang regulasyon at operasyon.",
+      "signUp": "Mag-sign Up",
+      "bookDemo": "Mag-book ng Demo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Bumalik sa Home"
+      },
+      "hero": {
+        "title": "Mga Solusyon ng AI para sa",
+        "signUp": "Magsimula nang Libre",
+        "seeDemo": "Tingnan ang Demo",
+        "hipaaOffering": "Available din: HIPAA-compliant"
+      },
+      "seo": {
+        "titleSuffix": "Mga Solusyon - Seasalt.ai",
+        "descriptionPrefix": "Tingnan kung paano tinutulungan ng Seasalt.ai ang",
+        "descriptionSuffix": "mga negosyo na mapabuti ang komunikasyon sa customer at magpalago."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Ano ang sinasabi ng"
+      },
+      "benefits": {
+        "title": "Bakit Pumili ng Seasalt.ai para sa",
+        "description": "Ang aming AI-powered na platform ay nagpapadali ng komunikasyon at nag-a-automate ng mga workflow para sa"
+      },
+      "useCases": {
+        "title": "Karaniwang Mga Gamit",
+        "description": {
+          "start": "Alamin kung paano binabago ng aming platform ang",
+          "end": "mga operasyon gamit ang matalinong automation"
+        },
+        "customerSupport": {
+          "title": "24/7 Suporta sa Customer",
+          "description": "Magbigay ng agarang tugon sa mga tanong ng customer sa lahat ng channel"
+        },
+        "leadGeneration": {
+          "title": "Lead Generation",
+          "description": "Awtomatikong mag-capture at mag-qualify ng leads gamit ang AI-powered na usapan"
+        },
+        "analytics": {
+          "title": "Analytics at Mga Insight",
+          "description": "Subaybayan ang performance at makakuha ng mga insight sa interaksyon ng customer"
+        },
+        "subtitle": "Alamin kung paano sinusuportahan ng aming platform ang bawat aspeto ng pamamahala sa edukasyon",
+        "case1": {
+          "title": "Sistemang Impormasyon ng Mag-aaral",
+          "description": "I-centralize ang mga talaan, grado, at pagsubaybay sa progreso ng akademiko ng mga mag-aaral"
+        },
+        "case2": {
+          "title": "Pamamahala ng Pagkatuto",
+          "description": "Maghatid ng mga kurso, subaybayan ang progreso, at pamahalaan ang nilalaman pang-edukasyon"
+        },
+        "case3": {
+          "title": "Mga Kagamitang Administratibo",
+          "description": "Pasimplehin ang enrollment, pag-iskedyul, at mga operasyon ng institusyon"
+        }
+      },
+      "testimonials": {
+        "title": "Sinasabi ng mga Kumpanya",
+        "quote1": "Binago ng Seasalt.ai ang aming operasyon sa serbisyo sa customer. Bumaba ng 80% ang oras ng pagtugon at nasa pinakamataas na antas ang kasiyahan.",
+        "author1": "Sarah Chen",
+        "company1": "Customer Success Manager",
+        "quote2": "Nakapagtipid kami ng napakaraming oras sa pamamagitan ng AI automation. Mas nakakapokus na kami sa pagpapalago ng aming negosyo kaysa sa paulit-ulit na gawain.",
+        "author2": "Michael Rodriguez",
+        "company2": "Operations Director",
+        "subtitle": "Tingnan kung paano binabago ng mga institusyon ang kanilang operasyon",
+        "testimonial1": {
+          "quote": "Binago ng platform na ito kung paano namin pinamamahalaan ang operasyon ng aming paaralan. Na-centralize at madaling ma-access na ngayon ang data ng mag-aaral.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Principal, Lincoln Elementary School"
+        },
+        "testimonial2": {
+          "quote": "Pinadali ng mga tampok sa pamamahala ng pagkatuto ang remote at hybrid learning para sa aming mga estudyante at guro.",
+          "author": "Prof. Michael Chen",
+          "position": "Dean of Technology, State University"
+        },
+        "testimonial3": {
+          "quote": "Lubos na bumuti ang aming kahusayan sa administrasyon. Lahat mula sa enrollment hanggang sa reporting ay naging mas simple na ngayon.",
+          "author": "Maria Rodriguez",
+          "position": "Administrator, Community College District"
+        }
+      },
+      "cta": {
+        "title": "Handa ka na bang Baguhin ang Iyong Negosyo?",
+        "description": "Sumali sa libu-libong kumpanya na nagtitiwala sa Seasalt.ai upang mahusay at ligtas na pamahalaan ang kanilang komunikasyon sa customer.",
+        "signUp": "Simulan ang Libreng Pagsubok",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "seahealthLink": "Tuklasin ang HIPAA-Compliant na Mga Solusyon sa Pangangalagang Pangkalusugan",
+        "buttons": {
+          "primary": "Simulan ang Libreng Pagsubok",
+          "secondary": "Mag-iskedyul ng Demo",
+          "contact": "Makipag-ugnayan sa Sales"
+        }
+      },
+      "solutions": {
+        "title": "Mga Solusyon"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Access sa GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculator ng Plan & Paggamit ng Model",
+        "voiceOnly": "Voice lang na modelo",
+        "voicePricing": "Presyo ng boses",
+        "standardVoice": "Standard na Boses",
+        "premiumVoice": "Premium na Boses"
+      }
+    }
   },
   "solutions": {
     "salesMarketing": {
@@ -649,50 +772,13 @@
         "description": "Ginagawang simple ng aming AI-powered solution ang inyong front office operations, nagbibigay-daan sa inyong staff na mag-focus sa pinakaimportante - patient care."
       },
       "forProviders": {
-        "title": "Para sa mga Healthcare Provider",
-        "reduceAdministrative": "Bawasan ang administrative burden",
-        "improveSatisfaction": "Pahusayin ang patient satisfaction",
-        "increaseEfficiency": "Dagdagan ang operational efficiency"
+        "title": "Para sa mga Healthcare Provider"
       },
       "forPatients": {
-        "title": "Para sa mga Pasyente",
-        "access247": "24/7 na access sa support",
-        "quickScheduling": "Mabilis na appointment scheduling",
-        "seamlessCommunication": "Seamless na komunikasyon"
+        "title": "Para sa mga Pasyente"
       },
       "whyChoose": {
-        "title": "Bakit Piliin ang SeaHealth?",
-        "hipaa": {
-          "title": "HIPAA Compliance",
-          "description": "Pinahahalagahan namin ang privacy at security ng patient data."
-        },
-        "speech": {
-          "title": "Natural & Contextual Speech Technologies",
-          "description": "Makipag-ugnayan sa mga pasyente sa pamamagitan ng human-like na komunikasyon."
-        },
-        "automation": {
-          "title": "Tamang Automation",
-          "description": "Laging nag-aalaga sa mga pasyente at sa inyong mga empleyado."
-        }
-      },
-      "faq": {
-        "title": "Mga Madalas Itanong",
-        "analytics": {
-          "question": "Paano gumagana ang inyong front desk call analytics?",
-          "answer": "Ni-record namin ang inyong incoming at outgoing phone calls, pagkatapos ay transcript namin ito para sa karagdagang analysis. Pinapadala ang summary at alert emails araw-araw."
-        },
-        "recording": {
-          "question": "Kailangan ba nito na i-record ang mga phone calls, at paano?",
-          "answer": "Kumokonekta kami sa inyong VoIP provider para makuha ang call recordings at ginagawa naming speech analysis ang recordings. Kung gumagamit kayo ng analog phones, gumagamit kami ng phone recording device na kumokonekta sa inyong call gamit ang phone jacks para makuha ang recordings."
-        },
-        "coverage": {
-          "question": "Paano gumagana ang 24/7 phone call coverage?",
-          "answer": "Hinahawakan ng AI-powered receptionists ang mga tawag 24/7, tinitiyak na walang nakakalimutang opportunity. Maaari ninyong sagutin ang tawag kapag tumunog, o i-transfer ang tawag sa AI receptionists habang nasa o pagkatapos ng business hours."
-        },
-        "whyUse": {
-          "question": "Bakit dapat gamitin ko ang inyong service?",
-          "answer": "Pinahahusay ng SeaHealth ang efficiency, pinapahusay ang patient satisfaction, at pinapataas ang revenue sa pamamagitan ng automation at AI-powered solutions. Mas mura, mas maaasahan, at mas mahabagin kaysa sa pag-outsource ng inyong front desk receptionist work."
-        }
+        "title": "Bakit Piliin ang SeaHealth?"
       },
       "partners": {
         "title": "Mga Partner at Integration"
@@ -1073,130 +1159,6 @@
           "7": "On-premise deployment options"
         },
         "cta": "Makipag-ugnayan sa Sales"
-      }
-    }
-  },
-  "industries": {
-    "title": "Paglingkuran ang Bawat Industriya nang May Kumpiyansa",
-    "description": "Mula sa pangangalaga sa kalusugan hanggang sa fintech, ang aming platform ay umaangkop sa natatanging pangangailangan ng iyong industriya gamit ang mga espesyal na tampok at pamantayan sa pagsunod.",
-    "cta": {
-      "title": "Handa ka na bang Baguhin ang Iyong Industriya?",
-      "description": "Sumali sa mga lider ng industriya na nagtitiwala sa Seasalt.ai upang maghatid ng pambihirang karanasan sa customer habang natutugunan ang mga partikular na kinakailangang regulasyon at operasyon.",
-      "signUp": "Mag-sign Up",
-      "bookDemo": "Mag-book ng Demo"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← Bumalik sa Home"
-      },
-      "hero": {
-        "title": "Mga Solusyon ng AI para sa",
-        "signUp": "Magsimula nang Libre",
-        "seeDemo": "Tingnan ang Demo",
-        "hipaaOffering": "Available din: HIPAA-compliant"
-      },
-      "seo": {
-        "titleSuffix": "Mga Solusyon - Seasalt.ai",
-        "descriptionPrefix": "Tingnan kung paano tinutulungan ng Seasalt.ai ang",
-        "descriptionSuffix": "mga negosyo na mapabuti ang komunikasyon sa customer at magpalago."
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "Ano ang sinasabi ng"
-      },
-      "benefits": {
-        "title": "Bakit Pumili ng Seasalt.ai para sa",
-        "description": "Ang aming AI-powered na platform ay nagpapadali ng komunikasyon at nag-a-automate ng mga workflow para sa"
-      },
-      "useCases": {
-        "title": "Karaniwang Mga Gamit",
-        "description": {
-          "start": "Alamin kung paano binabago ng aming platform ang",
-          "end": "mga operasyon gamit ang matalinong automation"
-        },
-        "customerSupport": {
-          "title": "24/7 Suporta sa Customer",
-          "description": "Magbigay ng agarang tugon sa mga tanong ng customer sa lahat ng channel"
-        },
-        "leadGeneration": {
-          "title": "Lead Generation",
-          "description": "Awtomatikong mag-capture at mag-qualify ng leads gamit ang AI-powered na usapan"
-        },
-        "analytics": {
-          "title": "Analytics at Mga Insight",
-          "description": "Subaybayan ang performance at makakuha ng mga insight sa interaksyon ng customer"
-        },
-        "subtitle": "Alamin kung paano sinusuportahan ng aming platform ang bawat aspeto ng pamamahala sa edukasyon",
-        "case1": {
-          "title": "Sistemang Impormasyon ng Mag-aaral",
-          "description": "I-centralize ang mga talaan, grado, at pagsubaybay sa progreso ng akademiko ng mga mag-aaral"
-        },
-        "case2": {
-          "title": "Pamamahala ng Pagkatuto",
-          "description": "Maghatid ng mga kurso, subaybayan ang progreso, at pamahalaan ang nilalaman pang-edukasyon"
-        },
-        "case3": {
-          "title": "Mga Kagamitang Administratibo",
-          "description": "Pasimplehin ang enrollment, pag-iskedyul, at mga operasyon ng institusyon"
-        }
-      },
-      "testimonials": {
-        "title": "Sinasabi ng mga Kumpanya",
-        "quote1": "Binago ng Seasalt.ai ang aming operasyon sa serbisyo sa customer. Bumaba ng 80% ang oras ng pagtugon at nasa pinakamataas na antas ang kasiyahan.",
-        "author1": "Sarah Chen",
-        "company1": "Customer Success Manager",
-        "quote2": "Nakapagtipid kami ng napakaraming oras sa pamamagitan ng AI automation. Mas nakakapokus na kami sa pagpapalago ng aming negosyo kaysa sa paulit-ulit na gawain.",
-        "author2": "Michael Rodriguez",
-        "company2": "Operations Director",
-        "subtitle": "Tingnan kung paano binabago ng mga institusyon ang kanilang operasyon",
-        "testimonial1": {
-          "quote": "Binago ng platform na ito kung paano namin pinamamahalaan ang operasyon ng aming paaralan. Na-centralize at madaling ma-access na ngayon ang data ng mag-aaral.",
-          "author": "Dr. Sarah Johnson",
-          "position": "Principal, Lincoln Elementary School"
-        },
-        "testimonial2": {
-          "quote": "Pinadali ng mga tampok sa pamamahala ng pagkatuto ang remote at hybrid learning para sa aming mga estudyante at guro.",
-          "author": "Prof. Michael Chen",
-          "position": "Dean of Technology, State University"
-        },
-        "testimonial3": {
-          "quote": "Lubos na bumuti ang aming kahusayan sa administrasyon. Lahat mula sa enrollment hanggang sa reporting ay naging mas simple na ngayon.",
-          "author": "Maria Rodriguez",
-          "position": "Administrator, Community College District"
-        }
-      },
-      "cta": {
-        "title": "Handa ka na bang Baguhin ang Iyong Negosyo?",
-        "description": "Sumali sa libu-libong kumpanya na nagtitiwala sa Seasalt.ai upang mahusay at ligtas na pamahalaan ang kanilang komunikasyon sa customer.",
-        "signUp": "Simulan ang Libreng Pagsubok",
-        "scheduleDemo": "Mag-iskedyul ng Demo",
-        "seahealthLink": "Tuklasin ang HIPAA-Compliant na Mga Solusyon sa Pangangalagang Pangkalusugan",
-        "buttons": {
-          "primary": "Simulan ang Libreng Pagsubok",
-          "secondary": "Mag-iskedyul ng Demo",
-          "contact": "Makipag-ugnayan sa Sales"
-        }
-      },
-      "solutions": {
-        "title": "Mga Solusyon"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "Access sa GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "Calculator ng Plan & Paggamit ng Model",
-        "voiceOnly": "Voice lang na modelo",
-        "voicePricing": "Presyo ng boses",
-        "standardVoice": "Standard na Boses",
-        "premiumVoice": "Premium na Boses"
       }
     }
   }

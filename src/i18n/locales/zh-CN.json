@@ -142,6 +142,130 @@
     "signUpNow": "立即注册",
     "setupTime": "5 分钟内完成设置"
   },
+  "industries": {
+    "title": "自信服务每个行业",
+    "description": "从医疗到金融科技，我们的平台可根据您行业的独特需求，提供专属功能和合规标准。",
+    "cta": {
+      "title": "准备好革新您的行业了吗？",
+      "description": "加入信任 Seasalt.ai 的行业领导者行列，在满足特定法规和运营要求的同时，提供卓越的客户体验。",
+      "signUp": "注册",
+      "bookDemo": "预约演示"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← 返回首页"
+      },
+      "hero": {
+        "title": "AI 解决方案适用于",
+        "signUp": "免费开始",
+        "seeDemo": "查看演示",
+        "hipaaOffering": "另可提供：符合 HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "解决方案 - Seasalt.ai",
+        "descriptionPrefix": "了解 Seasalt.ai 如何帮助",
+        "descriptionSuffix": "企业改善客户沟通并推动增长。"
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "客户反馈"
+      },
+      "benefits": {
+        "title": "为什么选择 Seasalt.ai 用于",
+        "description": "我们的 AI 驱动平台简化了沟通并自动化工作流程，适用于"
+      },
+      "useCases": {
+        "title": "常见使用场景",
+        "description": {
+          "start": "了解我们的平台如何改变",
+          "end": "操作，实现智能自动化"
+        },
+        "customerSupport": {
+          "title": "全天候客户支持",
+          "description": "在所有渠道上即时响应客户咨询"
+        },
+        "leadGeneration": {
+          "title": "潜在客户获取",
+          "description": "通过 AI 驱动的对话自动捕获和评估潜在客户"
+        },
+        "analytics": {
+          "title": "分析与洞察",
+          "description": "跟踪绩效并获得客户互动洞察"
+        },
+        "subtitle": "了解我们的平台如何支持教育管理的各个方面",
+        "case1": {
+          "title": "学生信息系统",
+          "description": "集中管理学生记录、成绩及学业进度追踪"
+        },
+        "case2": {
+          "title": "学习管理",
+          "description": "提供课程、追踪进度并管理教育内容"
+        },
+        "case3": {
+          "title": "行政工具",
+          "description": "简化注册、排课及机构运营"
+        }
+      },
+      "testimonials": {
+        "title": "公司评价",
+        "quote1": "Seasalt.ai 改变了我们的客户服务运营。响应时间下降 80%，满意度达到历史最高。",
+        "author1": "Sarah Chen",
+        "company1": "客户成功经理",
+        "quote2": "AI 自动化为我们节省了无数时间。我们可以专注于业务增长，而非重复任务管理。",
+        "author2": "Michael Rodriguez",
+        "company2": "运营总监",
+        "subtitle": "看看机构如何转型运营",
+        "testimonial1": {
+          "quote": "该平台彻底改变了我们管理学校运营的方式。学生数据现已集中并可访问。",
+          "author": "Dr. Sarah Johnson",
+          "position": "校长，林肯小学"
+        },
+        "testimonial2": {
+          "quote": "学习管理功能使远程和混合学习对学生和教职员工来说无缝衔接。",
+          "author": "Prof. Michael Chen",
+          "position": "技术学院院长，州立大学"
+        },
+        "testimonial3": {
+          "quote": "我们的行政效率显著提升。从注册到报告的各项流程现在更加顺畅。",
+          "author": "Maria Rodriguez",
+          "position": "管理员，社区学院区"
+        }
+      },
+      "cta": {
+        "title": "准备好转型您的业务了吗？",
+        "description": "加入成千上万信任 Seasalt.ai 的公司，高效且安全地管理客户沟通。",
+        "signUp": "开始免费试用",
+        "scheduleDemo": "安排演示",
+        "seahealthLink": "探索符合 HIPAA 的医疗解决方案",
+        "buttons": {
+          "primary": "开始免费试用",
+          "secondary": "安排演示",
+          "contact": "联系销售"
+        }
+      },
+      "solutions": {
+        "title": "解决方案"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "访问 GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "方案与模型使用量计算器",
+        "voiceOnly": "仅语音模型",
+        "voicePricing": "语音定价",
+        "standardVoice": "标准语音",
+        "premiumVoice": "高级语音"
+      }
+    }
+  },
   "solutions": {
     "salesMarketing": {
       "seo": {
@@ -497,28 +621,6 @@
             "timing": "最佳发送时间",
             "testing": "A/B 测试",
             "optimization": "性能优化"
-      }
-    },
-    "blog": {
-      "share": "分享",
-      "availableIn": "同时提供：",
-      "tableOfContents": "目录",
-      "relatedArticles": "相关文章",
-      "cta": {
-        "title": "准备好转变您的客户沟通了吗？",
-        "description": "加入数千家信赖 Seasalt.ai 提供卓越客户体验的公司。从我们的免费方案开始，随着您的成长而扩展。",
-        "signUp": "免费注册",
-        "scheduleDemo": "安排演示"
-      }
-    },
-    "comparison": {
-          "title": "运营自动化",
-          "description": "优化内部流程和工作流",
-          "examples": {
-            "dataEntry": "数据录入",
-            "reports": "报告生成",
-            "taskAssignment": "任务分配",
-            "qualityMonitoring": "质量监控"
           }
         },
         "examples": "示例："
@@ -762,50 +864,13 @@
         "description": "我们的 AI 驱动解决方案优化前台运营，让员工专注于最重要的事情——患者护理。"
       },
       "forProviders": {
-        "title": "面向医疗提供者",
-        "reduceAdministrative": "减轻行政负担",
-        "improveSatisfaction": "提高患者满意度",
-        "increaseEfficiency": "提升运营效率"
+        "title": "面向医疗提供者"
       },
       "forPatients": {
-        "title": "面向患者",
-        "access247": "24/7 全天候支持",
-        "quickScheduling": "快速预约",
-        "seamlessCommunication": "无缝沟通"
+        "title": "面向患者"
       },
       "whyChoose": {
-        "title": "为什么选择 SeaHealth？",
-        "hipaa": {
-          "title": "HIPAA 合规",
-          "description": "我们优先考虑患者数据的隐私和安全。"
-        },
-        "speech": {
-          "title": "自然与情境语音技术",
-          "description": "以类人方式与患者进行沟通。"
-        },
-        "automation": {
-          "title": "自动化正确实施",
-          "description": "始终关心患者及您的员工。"
-        }
-      },
-      "faq": {
-        "title": "常见问题",
-        "analytics": {
-          "question": "前台电话分析如何工作？",
-          "answer": "我们会记录您的来电和去电，然后将其转录以便进一步分析。摘要和警报邮件每天发送。"
-        },
-        "recording": {
-          "question": "是否需要录音电话，如何录？",
-          "answer": "我们连接到您的 VoIP 提供商以获取通话录音，并对录音进行语音分析。如果您使用模拟电话，我们会使用电话录音设备，将通话通过电话接口连接以获取录音。"
-        },
-        "coverage": {
-          "question": "24/7 电话覆盖如何工作？",
-          "answer": "AI 驱动的接待员全天候处理电话，确保不会错过任何机会。您可以在电话响铃时接听，也可以在工作时间或下班后将电话转接给 AI 接待员。"
-        },
-        "whyUse": {
-          "question": "为什么我应该使用您的服务？",
-          "answer": "SeaHealth 提高效率，提升患者满意度，并通过自动化和 AI 驱动的解决方案增加收入。它比外包前台工作更便宜、更可靠、更具同理心。"
-        }
+        "title": "为什么选择 SeaHealth？"
       },
       "partners": {
         "title": "合作伙伴与集成"
@@ -1186,130 +1251,6 @@
           "7": "本地部署选项"
         },
         "cta": "联系销售"
-      }
-    }
-  },
-  "industries": {
-    "title": "自信服务每个行业",
-    "description": "从医疗到金融科技，我们的平台可根据您行业的独特需求，提供专属功能和合规标准。",
-    "cta": {
-      "title": "准备好革新您的行业了吗？",
-      "description": "加入信任 Seasalt.ai 的行业领导者行列，在满足特定法规和运营要求的同时，提供卓越的客户体验。",
-      "signUp": "注册",
-      "bookDemo": "预约演示"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← 返回首页"
-      },
-      "hero": {
-        "title": "AI 解决方案适用于",
-        "signUp": "免费开始",
-        "seeDemo": "查看演示",
-        "hipaaOffering": "另可提供：符合 HIPAA"
-      },
-      "seo": {
-        "titleSuffix": "解决方案 - Seasalt.ai",
-        "descriptionPrefix": "了解 Seasalt.ai 如何帮助",
-        "descriptionSuffix": "企业改善客户沟通并推动增长。"
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "客户反馈"
-      },
-      "benefits": {
-        "title": "为什么选择 Seasalt.ai 用于",
-        "description": "我们的 AI 驱动平台简化了沟通并自动化工作流程，适用于"
-      },
-      "useCases": {
-        "title": "常见使用场景",
-        "description": {
-          "start": "了解我们的平台如何改变",
-          "end": "操作，实现智能自动化"
-        },
-        "customerSupport": {
-          "title": "全天候客户支持",
-          "description": "在所有渠道上即时响应客户咨询"
-        },
-        "leadGeneration": {
-          "title": "潜在客户获取",
-          "description": "通过 AI 驱动的对话自动捕获和评估潜在客户"
-        },
-        "analytics": {
-          "title": "分析与洞察",
-          "description": "跟踪绩效并获得客户互动洞察"
-        },
-        "subtitle": "了解我们的平台如何支持教育管理的各个方面",
-        "case1": {
-          "title": "学生信息系统",
-          "description": "集中管理学生记录、成绩及学业进度追踪"
-        },
-        "case2": {
-          "title": "学习管理",
-          "description": "提供课程、追踪进度并管理教育内容"
-        },
-        "case3": {
-          "title": "行政工具",
-          "description": "简化注册、排课及机构运营"
-        }
-      },
-      "testimonials": {
-        "title": "公司评价",
-        "quote1": "Seasalt.ai 改变了我们的客户服务运营。响应时间下降 80%，满意度达到历史最高。",
-        "author1": "Sarah Chen",
-        "company1": "客户成功经理",
-        "quote2": "AI 自动化为我们节省了无数时间。我们可以专注于业务增长，而非重复任务管理。",
-        "author2": "Michael Rodriguez",
-        "company2": "运营总监",
-        "subtitle": "看看机构如何转型运营",
-        "testimonial1": {
-          "quote": "该平台彻底改变了我们管理学校运营的方式。学生数据现已集中并可访问。",
-          "author": "Dr. Sarah Johnson",
-          "position": "校长，林肯小学"
-        },
-        "testimonial2": {
-          "quote": "学习管理功能使远程和混合学习对学生和教职员工来说无缝衔接。",
-          "author": "Prof. Michael Chen",
-          "position": "技术学院院长，州立大学"
-        },
-        "testimonial3": {
-          "quote": "我们的行政效率显著提升。从注册到报告的各项流程现在更加顺畅。",
-          "author": "Maria Rodriguez",
-          "position": "管理员，社区学院区"
-        }
-      },
-      "cta": {
-        "title": "准备好转型您的业务了吗？",
-        "description": "加入成千上万信任 Seasalt.ai 的公司，高效且安全地管理客户沟通。",
-        "signUp": "开始免费试用",
-        "scheduleDemo": "安排演示",
-        "seahealthLink": "探索符合 HIPAA 的医疗解决方案",
-        "buttons": {
-          "primary": "开始免费试用",
-          "secondary": "安排演示",
-          "contact": "联系销售"
-        }
-      },
-      "solutions": {
-        "title": "解决方案"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "访问 GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "方案与模型使用量计算器",
-        "voiceOnly": "仅语音模型",
-        "voicePricing": "语音定价",
-        "standardVoice": "标准语音",
-        "premiumVoice": "高级语音"
       }
     }
   }

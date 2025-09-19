@@ -37,9 +37,309 @@
   "hero": {
     "title": "Deja de hacer malabares con aplicaciones <br> Unifica cada llamada de clientes <br> WhatsApp y chat <br> en una bandeja de entrada simple.",
     "description": "Seasalt.ai es el centro de contacto todo en uno creado para pequeñas empresas. Automatiza el soporte, captura cada cliente potencial y gestiona todas tus conversaciones desde una sola pantalla.",
-    "startForFree": "Comenzar gratis",
     "seeDemo": "Ver demo de 2 minutos",
     "trustedBy": "Confiado por empresas en crecimiento en todo el mundo"
+  },
+  "industries": {
+    "title": "Sirve a todas las industrias con confianza",
+    "description": "Desde la atención sanitaria hasta las finanzas tecnológicas, nuestra plataforma se adapta a los requisitos únicos de tu industria con funciones especializadas y estándares de cumplimiento.",
+    "cta": {
+      "title": "¿Listo para revolucionar tu industria?",
+      "description": "Únete a los líderes del sector que confían en Seasalt.ai para ofrecer experiencias excepcionales a los clientes mientras cumplen con requisitos regulatorios y operativos específicos.",
+      "signUp": "Registrarse",
+      "bookDemo": "Reservar una demostración"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Volver a inicio"
+      },
+      "hero": {
+        "title": "Soluciones de IA para",
+        "signUp": "Empieza gratis",
+        "seeDemo": "Ver demostración",
+        "hipaaOffering": "También disponible: Cumple con HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Soluciones - Seasalt.ai",
+        "descriptionPrefix": "Descubre cómo Seasalt.ai ayuda a",
+        "descriptionSuffix": "a mejorar la comunicación con los clientes y a impulsar el crecimiento."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Lo que"
+      },
+      "benefits": {
+        "title": "Por qué elegir Seasalt.ai para",
+        "description": "Nuestra plataforma impulsada por IA agiliza las comunicaciones y automatiza los flujos de trabajo para"
+      },
+      "useCases": {
+        "title": "Casos de uso comunes",
+        "description": {
+          "start": "Descubre cómo nuestra plataforma transforma las operaciones de",
+          "end": "con automatización inteligente"
+        },
+        "customerSupport": {
+          "title": "Atención al cliente 24/7",
+          "description": "Ofrece respuestas instantáneas a las consultas de los clientes en todos los canales"
+        },
+        "leadGeneration": {
+          "title": "Generación de leads",
+          "description": "Captura y califica clientes potenciales automáticamente con conversaciones impulsadas por IA"
+        },
+        "analytics": {
+          "title": "Analítica e información",
+          "description": "Supervisa el rendimiento y obtén información sobre las interacciones con los clientes"
+        },
+        "subtitle": "Descubre cómo nuestra plataforma respalda todos los aspectos de la gestión educativa",
+        "case1": {
+          "title": "Sistemas de información estudiantil",
+          "description": "Centraliza los registros, calificaciones y seguimiento del progreso académico de los estudiantes"
+        },
+        "case2": {
+          "title": "Gestión del aprendizaje",
+          "description": "Imparte cursos, realiza seguimiento del progreso y administra contenido educativo"
+        },
+        "case3": {
+          "title": "Herramientas administrativas",
+          "description": "Agiliza la inscripción, la programación y las operaciones institucionales"
+        }
+      },
+      "testimonials": {
+        "title": "Las empresas dicen",
+        "quote1": "Seasalt.ai ha transformado nuestras operaciones de servicio al cliente. Los tiempos de respuesta han disminuido un 80% y la satisfacción está en su punto más alto.",
+        "author1": "Sarah Chen",
+        "company1": "Gerente de Éxito del Cliente",
+        "quote2": "La automatización con IA nos ha ahorrado incontables horas. Podemos centrarnos en hacer crecer nuestro negocio en lugar de gestionar tareas repetitivas.",
+        "author2": "Michael Rodriguez",
+        "company2": "Director de Operaciones",
+        "subtitle": "Descubre cómo las instituciones están transformando sus operaciones",
+        "testimonial1": {
+          "quote": "Esta plataforma ha revolucionado la forma en que gestionamos nuestras operaciones escolares. Ahora los datos de los estudiantes están centralizados y son accesibles.",
+          "author": "Dra. Sarah Johnson",
+          "position": "Directora, Escuela Primaria Lincoln"
+        },
+        "testimonial2": {
+          "quote": "Las funciones de gestión del aprendizaje han hecho que la educación a distancia e híbrida sea fluida para nuestros estudiantes y profesores.",
+          "author": "Prof. Michael Chen",
+          "position": "Decano de Tecnología, Universidad Estatal"
+        },
+        "testimonial3": {
+          "quote": "Nuestra eficiencia administrativa ha mejorado drásticamente. Ahora todo, desde la inscripción hasta los informes, está optimizado.",
+          "author": "Maria Rodriguez",
+          "position": "Administradora, Distrito de Colegios Comunitarios"
+        }
+      },
+      "cta": {
+        "title": "¿Listo para transformar tu negocio?",
+        "description": "Únete a miles de empresas que confían en Seasalt.ai para gestionar sus comunicaciones con clientes de manera eficiente y segura.",
+        "signUp": "Iniciar prueba gratuita",
+        "scheduleDemo": "Agendar demostración",
+        "seahealthLink": "Explorar soluciones sanitarias compatibles con HIPAA",
+        "buttons": {
+          "primary": "Iniciar prueba gratuita",
+          "secondary": "Agendar demostración",
+          "contact": "Contactar ventas"
+        }
+      },
+      "solutions": {
+        "title": "Soluciones"
+      }
+    }
+  },
+  "channels": {
+    "title": "اتصال به تمام کانال‌های مشتریان",
+    "description": "تمام ارتباطات مشتریان خود را در یک پلتفرم یکپارچه کنید. از واتساپ تا تماس‌های تلفنی، پیامک و شبکه‌های اجتماعی — هر مکالمه را از یک داشبورد مدیریت کنید.",
+    "whatsapp": {
+      "title": "واتساپ بیزنس",
+      "description": "ارتباط با مشتریان در محبوب‌ترین پلتفرم پیام‌رسان جهان",
+      "seo": {
+        "title": "ادغام واتساپ بیزنس - Seasalt.ai",
+        "description": "حساب واتساپ بیزنس خود را به Seasalt.ai متصل کنید تا مکالمات هوش مصنوعی، کمپین‌های انبوه و پشتیبانی بدون مشکل از عوامل انسانی را تجربه کنید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {
+          "prefix": "واتساپ را به",
+          "highlight": "مرکز فرماندهی کسب‌وکار خود تبدیل کنید"
+        },
+        "description": "حساب واتساپ بیزنس خود را به Seasalt.ai متصل کنید تا مکالمات هوش مصنوعی، کمپین‌های انبوه و پشتیبانی روان از عوامل انسانی را داشته باشید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید.",
+        "primaryCta": "اتصال واتساپ در ۱۰ دقیقه",
+        "secondaryCta": "مشاهده دمو",
+        "demoTitle": "واتساپ بیزنس",
+        "demoMessages": {
+          "customer1": "مشتری: \"سفارش من شماره 12345 کجاست؟\"",
+          "bot1": "ربات هوش مصنوعی: \"سفارش شما در حال تحویل است و امروز تا ساعت ۱۸ می‌رسد. رهگیری در اینجا: [لینک]\"",
+          "customer2": "مشتری: \"می‌توانم آدرس تحویل را تغییر دهم؟\"",
+          "bot2": "ربات هوش مصنوعی: \"اجازه دهید شما را به یک عامل انسانی برای تغییر آدرس وصل کنم...\""
+        }
+      },
+      "features": {
+        "title": "ویژگی‌های کلیدی",
+        "description": "همه چیزهایی که برای تبدیل واتساپ به یک پلتفرم قدرتمند ارتباط با مشتری نیاز دارید",
+        "aiResponses": {
+          "title": "پاسخ‌های مبتنی بر هوش مصنوعی",
+          "description": "خدمات مشتری خودکار با پردازش زبان طبیعی که زمینه و هدف را درک می‌کند"
+        },
+        "bulkCampaigns": {
+          "title": "مدیریت کمپین‌های انبوه",
+          "description": "ارسال پیام‌های قالبی به هزاران مخاطب با هدف‌گیری و زمان‌بندی پیشرفته"
+        },
+        "humanHandoff": {
+          "title": "انتقال به عامل انسانی",
+          "description": "انتقال بدون درز از ربات به عامل زنده با دستور /live_agent و تاریخچه کامل مکالمه"
+        },
+        "metaIntegration": {
+          "title": "ادغام با Meta Business",
+          "description": "دسترسی کامل به ویژگی‌های پلتفرم واتساپ بیزنس با امنیت سطح سازمانی"
+        }
+      },
+      "setup": {
+        "title": "تصویرسازی فرآیند راه‌اندازی",
+        "description": "راهنمای گام‌به‌گام برای اتصال حساب واتساپ بیزنس با امنیت سازمانی",
+        "steps": {
+          "0": "ایجاد حساب توسعه‌دهنده Meta",
+          "1": "پیکربندی API واتساپ بیزنس",
+          "2": "راه‌اندازی endpoints وب هوک",
+          "3": "ایجاد توکن‌های دسترسی",
+          "4": "تست ارسال پیام",
+          "5": "راه‌اندازی اولین کمپین"
+        },
+        "security": {
+          "title": "امنیت سطح سازمانی",
+          "description": "ادغام واتساپ شما شامل رمزگذاری سرتاسر، مدیریت امن توکن‌ها و تطابق با سیاست‌های کسب‌وکار Meta است. تمام داده‌ها با امنیت سطح بانکی محافظت می‌شوند."
+        }
+      },
+      "cta": {
+        "title": "آماده اتصال واتساپ هستید؟",
+        "description": "به هزاران کسب‌وکاری بپیوندید که از واتساپ برای ارائه خدمات بهتر به مشتریان و افزایش فروش استفاده می‌کنند.",
+        "button": "شروع ادغام"
+      }
+    },
+    "voice": {
+      "title": "صدا و تماس‌های تلفنی",
+      "description": "سیستم تلفن حرفه‌ای با ربات صوتی هوش مصنوعی و پشتیبانی عوامل انسانی"
+    },
+    "sms": {
+      "title": "پیامک (SMS)",
+      "description": "مشتریان را بلافاصله با کمپین‌های پیامکی شخصی‌سازی شده درگیر کنید",
+      "seo": {
+        "title": "پلتفرم بازاریابی پیامک - Seasalt.ai",
+        "description": "با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار، بلافاصله به مشتریان دسترسی پیدا کنید. نرخ باز شدن ۹۸٪ و ارسال جهانی به بیش از ۲۰۰ کشور. بازاریابی پیامکی خود را امروز شروع کنید."
+      },
+      "nav": {
+        "backToChannels": "بازگشت به کانال‌ها"
+      },
+      "hero": {
+        "title": {},
+        "description": "مشتریان را بلافاصله با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار درگیر کنید. نرخ باز شدن ۹۸٪ و ارسال جهانی به بیش از ۲۰۰ کشور.",
+        "primaryCta": "شروع کمپین‌های پیامکی",
+        "secondaryCta": "مشاهده دمو",
+        "campaign": {
+          "title": "کمپین پیامکی",
+          "flashSale": {
+            "title": "📱 کمپین: فروش فوری",
+            "sent": "۲,۸۴۷ پیام ارسال شد"
+          },
+          "delivered": {
+            "title": "✅ تحویل داده شد: ۲,۸۳۴",
+            "rate": "۹۹.۵٪ نرخ تحویل"
+          },
+          "replies": {
+            "title": "💬 پاسخ‌ها: ۳۱۲",
+            "rate": "۱۱٪ نرخ پاسخ"
+          },
+          "conversions": {
+            "title": "🛒 تبدیل‌ها: ۴۷",
+            "revenue": "۱۲,۴۰۰ دلار درآمد"
+          }
+        }
+      },
+      "features": {
+        "title": "رعایت قوانین و تحویل",
+        "description": "پلتفرم پیامکی سطح سازمانی با دسترسی جهانی و مدیریت خودکار رعایت قوانین",
+        "globalReach": {
+          "title": "دسترسی جهانی",
+          "description": "ارسال پیامک به بیش از ۲۰۰ کشور با پشتیبانی شماره محلی و بهینه‌سازی حامل"
+        },
+        "compliance": {
+          "title": "ابزارهای تطابق",
+          "description": "ویژگی‌های رعایت قوانین TCPA و GDPR با مدیریت خودکار لغو اشتراک"
+        },
+        "analytics": {
+          "title": "تحلیل تحویل",
+          "description": "ردیابی تحویل، نرخ پاسخ و عملکرد کمپین‌ها در زمان واقعی"
+        },
+        "scheduling": {
+          "title": "زمان‌بندی هوشمند",
+          "description": "ارسال آگاهانه به منطقه زمانی با بهترین زمان بر اساس رفتار گیرنده"
+        }
+      },
+      "useCases": {
+        "title": "موارد استفاده اثبات شده",
+        "description": "ببینید کسب‌وکارها چگونه از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند",
+        "marketing": {
+          "title": "کمپین‌های بازاریابی",
+          "description": "پیام‌های تبلیغاتی با نرخ باز شدن بالا",
+          "stats": "۹۸٪ نرخ باز شدن"
+        },
+        "appointments": {
+          "title": "یادآوری قرار ملاقات‌ها",
+          "description": "کاهش عدم حضور با یادآوری‌های خودکار",
+          "stats": "۲۵٪ کاهش عدم حضور"
+        },
+        "orders": {
+          "title": "به‌روزرسانی سفارشات",
+          "description": "مشتریان را از وضعیت سفارش‌هایشان مطلع نگه دارید",
+          "stats": "۹۰٪ رضایت"
+        },
+        "support": {
+          "title": "پشتیبانی مشتری",
+          "description": "مکالمه دوطرفه برای پشتیبانی سریع",
+          "stats": "حل مشکلات ۵ برابر سریع‌تر"
+        }
+      },
+      "builder": {
+        "title": "سازنده پیشرفته کمپین",
+        "description": "کمپین‌های پیامکی پیشرفته با اتوماسیون کشیدن و رها کردن و هدف‌گیری هوشمند بسازید",
+        "segmentation": {
+          "title": "تقسیم‌بندی هوشمند",
+          "description": "مشتریان را بر اساس رفتار، مکان و ترجیحات هدف‌گذاری کنید"
+        },
+        "timing": {
+          "title": "زمان‌بندی عالی",
+          "description": "بهینه‌سازی زمان ارسال با هوش مصنوعی برای بیشترین تعامل"
+        },
+        "analytics": {
+          "title": "تحلیل لحظه‌ای",
+          "description": "ردیابی تحویل، باز شدن، کلیک‌ها و تبدیل‌ها در زمان واقعی"
+        }
+      },
+      "cta": {
+        "title": "آماده راه‌اندازی کمپین‌های پیامکی خود هستید؟",
+        "description": "به هزاران کسب‌وکاری بپیوندید که از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند. با نسخه آزمایشی رایگان شروع کنید.",
+        "button": "ثبت‌نام"
+      }
+    }
+  },
+  "seachat": {
+    "pricing": {
+      "plans": {
+        "enterprise": {
+          "features": {
+            "gpt4oRealtimeAPI": "Acceso a GPT-4o Realtime API"
+          }
+        }
+      },
+      "calculator": {
+        "title": "Calculadora de Plan y Uso de Modelo",
+        "voiceOnly": "Modelo solo de voz",
+        "voicePricing": "Precios de voz",
+        "standardVoice": "Voz Estándar",
+        "premiumVoice": "Voz Premium"
+      }
+    }
   },
   "solutions": {
     "salesMarketing": {
@@ -649,50 +949,13 @@
         "description": "Nuestra solución impulsada por IA optimiza las operaciones de su recepción, permitiendo que su personal se enfoque en lo más importante: el cuidado del paciente."
       },
       "forProviders": {
-        "title": "Para Proveedores de Salud",
-        "reduceAdministrative": "Reducir carga administrativa",
-        "improveSatisfaction": "Mejorar satisfacción del paciente",
-        "increaseEfficiency": "Aumentar eficiencia operacional"
+        "title": "Para Proveedores de Salud"
       },
       "forPatients": {
-        "title": "Para Pacientes",
-        "access247": "Acceso 24/7 a soporte",
-        "quickScheduling": "Programación rápida de citas",
-        "seamlessCommunication": "Comunicación fluida"
+        "title": "Para Pacientes"
       },
       "whyChoose": {
-        "title": "¿Por qué elegir SeaHealth?",
-        "hipaa": {
-          "title": "Cumplimiento HIPAA",
-          "description": "Priorizamos la privacidad y seguridad de datos del paciente."
-        },
-        "speech": {
-          "title": "Tecnologías de Voz Naturales y Contextuales",
-          "description": "Interactúe con pacientes a través de comunicación similar a la humana."
-        },
-        "automation": {
-          "title": "Automatización Correcta",
-          "description": "Siempre cuidando a los pacientes y también a sus empleados."
-        }
-      },
-      "faq": {
-        "title": "Preguntas Frecuentes",
-        "analytics": {
-          "question": "¿Cómo funciona su análisis de llamadas de recepción?",
-          "answer": "Grabamos sus llamadas entrantes y salientes, luego las transcribimos para análisis adicional. Se envían correos de resumen y alerta diariamente."
-        },
-        "recording": {
-          "question": "¿Requiere grabar las llamadas telefónicas y cómo?",
-          "answer": "Nos conectamos con su proveedor VoIP para obtener grabaciones de llamadas y realizamos análisis de voz en las grabaciones. Si usa teléfonos analógicos, usamos un dispositivo de grabación telefónica que conecta su llamada con enchufes telefónicos para obtener las grabaciones."
-        },
-        "coverage": {
-          "question": "¿Cómo funciona la cobertura telefónica 24/7?",
-          "answer": "Los recepcionistas impulsados por IA manejan llamadas las 24 horas, asegurando que no se pierdan oportunidades. Puede contestar la llamada cuando suene, o transferir la llamada a los recepcionistas IA durante o después del horario laboral."
-        },
-        "whyUse": {
-          "question": "¿Por qué debería usar su servicio?",
-          "answer": "SeaHealth mejora la eficiencia, aumenta la satisfacción del paciente e incrementa los ingresos a través de automatización y soluciones impulsadas por IA. Es más barato, más confiable y más empático que externalizar su trabajo de recepcionista."
-        }
+        "title": "¿Por qué elegir SeaHealth?"
       },
       "partners": {
         "title": "Socios e Integraciones"
@@ -1073,310 +1336,6 @@
           "7": "Opciones de implementación On-Premise"
         },
         "cta": "Contactar Ventas"
-      }
-    }
-  },
-  "industries": {
-    "title": "Sirve a todas las industrias con confianza",
-    "description": "Desde la atención sanitaria hasta las finanzas tecnológicas, nuestra plataforma se adapta a los requisitos únicos de tu industria con funciones especializadas y estándares de cumplimiento.",
-    "cta": {
-      "title": "¿Listo para revolucionar tu industria?",
-      "description": "Únete a los líderes del sector que confían en Seasalt.ai para ofrecer experiencias excepcionales a los clientes mientras cumplen con requisitos regulatorios y operativos específicos.",
-      "signUp": "Registrarse",
-      "bookDemo": "Reservar una demostración"
-    },
-    "template": {
-      "nav": {
-        "backToHome": "← Volver a inicio"
-      },
-      "hero": {
-        "title": "Soluciones de IA para",
-        "signUp": "Empieza gratis",
-        "seeDemo": "Ver demostración",
-        "hipaaOffering": "También disponible: Cumple con HIPAA"
-      },
-      "seo": {
-        "titleSuffix": "Soluciones - Seasalt.ai",
-        "descriptionPrefix": "Descubre cómo Seasalt.ai ayuda a",
-        "descriptionSuffix": "a mejorar la comunicación con los clientes y a impulsar el crecimiento."
-      },
-      "ui": {
-        "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "Lo que"
-      },
-      "benefits": {
-        "title": "Por qué elegir Seasalt.ai para",
-        "description": "Nuestra plataforma impulsada por IA agiliza las comunicaciones y automatiza los flujos de trabajo para"
-      },
-      "useCases": {
-        "title": "Casos de uso comunes",
-        "description": {
-          "start": "Descubre cómo nuestra plataforma transforma las operaciones de",
-          "end": "con automatización inteligente"
-        },
-        "customerSupport": {
-          "title": "Atención al cliente 24/7",
-          "description": "Ofrece respuestas instantáneas a las consultas de los clientes en todos los canales"
-        },
-        "leadGeneration": {
-          "title": "Generación de leads",
-          "description": "Captura y califica clientes potenciales automáticamente con conversaciones impulsadas por IA"
-        },
-        "analytics": {
-          "title": "Analítica e información",
-          "description": "Supervisa el rendimiento y obtén información sobre las interacciones con los clientes"
-        },
-        "subtitle": "Descubre cómo nuestra plataforma respalda todos los aspectos de la gestión educativa",
-        "case1": {
-          "title": "Sistemas de información estudiantil",
-          "description": "Centraliza los registros, calificaciones y seguimiento del progreso académico de los estudiantes"
-        },
-        "case2": {
-          "title": "Gestión del aprendizaje",
-          "description": "Imparte cursos, realiza seguimiento del progreso y administra contenido educativo"
-        },
-        "case3": {
-          "title": "Herramientas administrativas",
-          "description": "Agiliza la inscripción, la programación y las operaciones institucionales"
-        }
-      },
-      "testimonials": {
-        "title": "Las empresas dicen",
-        "quote1": "Seasalt.ai ha transformado nuestras operaciones de servicio al cliente. Los tiempos de respuesta han disminuido un 80% y la satisfacción está en su punto más alto.",
-        "author1": "Sarah Chen",
-        "company1": "Gerente de Éxito del Cliente",
-        "quote2": "La automatización con IA nos ha ahorrado incontables horas. Podemos centrarnos en hacer crecer nuestro negocio en lugar de gestionar tareas repetitivas.",
-        "author2": "Michael Rodriguez",
-        "company2": "Director de Operaciones",
-        "subtitle": "Descubre cómo las instituciones están transformando sus operaciones",
-        "testimonial1": {
-          "quote": "Esta plataforma ha revolucionado la forma en que gestionamos nuestras operaciones escolares. Ahora los datos de los estudiantes están centralizados y son accesibles.",
-          "author": "Dra. Sarah Johnson",
-          "position": "Directora, Escuela Primaria Lincoln"
-        },
-        "testimonial2": {
-          "quote": "Las funciones de gestión del aprendizaje han hecho que la educación a distancia e híbrida sea fluida para nuestros estudiantes y profesores.",
-          "author": "Prof. Michael Chen",
-          "position": "Decano de Tecnología, Universidad Estatal"
-        },
-        "testimonial3": {
-          "quote": "Nuestra eficiencia administrativa ha mejorado drásticamente. Ahora todo, desde la inscripción hasta los informes, está optimizado.",
-          "author": "Maria Rodriguez",
-          "position": "Administradora, Distrito de Colegios Comunitarios"
-        }
-      },
-      "cta": {
-        "title": "¿Listo para transformar tu negocio?",
-        "description": "Únete a miles de empresas que confían en Seasalt.ai para gestionar sus comunicaciones con clientes de manera eficiente y segura.",
-        "signUp": "Iniciar prueba gratuita",
-        "scheduleDemo": "Agendar demostración",
-        "seahealthLink": "Explorar soluciones sanitarias compatibles con HIPAA",
-        "buttons": {
-          "primary": "Iniciar prueba gratuita",
-          "secondary": "Agendar demostración",
-          "contact": "Contactar ventas"
-        }
-      },
-      "solutions": {
-        "title": "Soluciones"
-      }
-    }
-  },
-  "channels": {
-    "title": "اتصال به تمام کانال‌های مشتریان",
-    "description": "تمام ارتباطات مشتریان خود را در یک پلتفرم یکپارچه کنید. از واتساپ تا تماس‌های تلفنی، پیامک و شبکه‌های اجتماعی — هر مکالمه را از یک داشبورد مدیریت کنید.",
-    "whatsapp": {
-      "title": "واتساپ بیزنس",
-      "description": "ارتباط با مشتریان در محبوب‌ترین پلتفرم پیام‌رسان جهان",
-      "seo": {
-        "title": "ادغام واتساپ بیزنس - Seasalt.ai",
-        "description": "حساب واتساپ بیزنس خود را به Seasalt.ai متصل کنید تا مکالمات هوش مصنوعی، کمپین‌های انبوه و پشتیبانی بدون مشکل از عوامل انسانی را تجربه کنید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید."
-      },
-      "nav": {
-        "backToChannels": "بازگشت به کانال‌ها"
-      },
-      "hero": {
-        "title": {
-          "prefix": "واتساپ را به",
-          "highlight": "مرکز فرماندهی کسب‌وکار خود تبدیل کنید"
-        },
-        "description": "حساب واتساپ بیزنس خود را به Seasalt.ai متصل کنید تا مکالمات هوش مصنوعی، کمپین‌های انبوه و پشتیبانی روان از عوامل انسانی را داشته باشید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید.",
-        "primaryCta": "اتصال واتساپ در ۱۰ دقیقه",
-        "secondaryCta": "مشاهده دمو",
-        "demoTitle": "واتساپ بیزنس",
-        "demoMessages": {
-          "customer1": "مشتری: \"سفارش من شماره 12345 کجاست؟\"",
-          "bot1": "ربات هوش مصنوعی: \"سفارش شما در حال تحویل است و امروز تا ساعت ۱۸ می‌رسد. رهگیری در اینجا: [لینک]\"",
-          "customer2": "مشتری: \"می‌توانم آدرس تحویل را تغییر دهم؟\"",
-          "bot2": "ربات هوش مصنوعی: \"اجازه دهید شما را به یک عامل انسانی برای تغییر آدرس وصل کنم...\""
-        }
-      },
-      "features": {
-        "title": "ویژگی‌های کلیدی",
-        "description": "همه چیزهایی که برای تبدیل واتساپ به یک پلتفرم قدرتمند ارتباط با مشتری نیاز دارید",
-        "aiResponses": {
-          "title": "پاسخ‌های مبتنی بر هوش مصنوعی",
-          "description": "خدمات مشتری خودکار با پردازش زبان طبیعی که زمینه و هدف را درک می‌کند"
-        },
-        "bulkCampaigns": {
-          "title": "مدیریت کمپین‌های انبوه",
-          "description": "ارسال پیام‌های قالبی به هزاران مخاطب با هدف‌گیری و زمان‌بندی پیشرفته"
-        },
-        "humanHandoff": {
-          "title": "انتقال به عامل انسانی",
-          "description": "انتقال بدون درز از ربات به عامل زنده با دستور /live_agent و تاریخچه کامل مکالمه"
-        },
-        "metaIntegration": {
-          "title": "ادغام با Meta Business",
-          "description": "دسترسی کامل به ویژگی‌های پلتفرم واتساپ بیزنس با امنیت سطح سازمانی"
-        }
-      },
-      "setup": {
-        "title": "تصویرسازی فرآیند راه‌اندازی",
-        "description": "راهنمای گام‌به‌گام برای اتصال حساب واتساپ بیزنس با امنیت سازمانی",
-        "steps": {
-          "0": "ایجاد حساب توسعه‌دهنده Meta",
-          "1": "پیکربندی API واتساپ بیزنس",
-          "2": "راه‌اندازی endpoints وب هوک",
-          "3": "ایجاد توکن‌های دسترسی",
-          "4": "تست ارسال پیام",
-          "5": "راه‌اندازی اولین کمپین"
-        },
-        "security": {
-          "title": "امنیت سطح سازمانی",
-          "description": "ادغام واتساپ شما شامل رمزگذاری سرتاسر، مدیریت امن توکن‌ها و تطابق با سیاست‌های کسب‌وکار Meta است. تمام داده‌ها با امنیت سطح بانکی محافظت می‌شوند."
-        }
-      },
-      "cta": {
-        "title": "آماده اتصال واتساپ هستید؟",
-        "description": "به هزاران کسب‌وکاری بپیوندید که از واتساپ برای ارائه خدمات بهتر به مشتریان و افزایش فروش استفاده می‌کنند.",
-        "button": "شروع ادغام"
-      }
-    },
-    "voice": {
-      "title": "صدا و تماس‌های تلفنی",
-      "description": "سیستم تلفن حرفه‌ای با ربات صوتی هوش مصنوعی و پشتیبانی عوامل انسانی"
-    },
-    "sms": {
-      "title": "پیامک (SMS)",
-      "description": "مشتریان را بلافاصله با کمپین‌های پیامکی شخصی‌سازی شده درگیر کنید",
-      "seo": {
-        "title": "پلتفرم بازاریابی پیامک - Seasalt.ai",
-        "description": "با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار، بلافاصله به مشتریان دسترسی پیدا کنید. نرخ باز شدن ۹۸٪ و ارسال جهانی به بیش از ۲۰۰ کشور. بازاریابی پیامکی خود را امروز شروع کنید."
-      },
-      "nav": {
-        "backToChannels": "بازگشت به کانال‌ها"
-      },
-      "hero": {
-        "title": {
-          "prefix": "بازاریابی پیامکی که",
-          "highlight": "واقعاً تبدیل می‌کند"
-        },
-        "description": "مشتریان را بلافاصله با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار درگیر کنید. نرخ باز شدن ۹۸٪ و ارسال جهانی به بیش از ۲۰۰ کشور.",
-        "primaryCta": "شروع کمپین‌های پیامکی",
-        "secondaryCta": "مشاهده دمو",
-        "campaign": {
-          "title": "کمپین پیامکی",
-          "flashSale": {
-            "title": "📱 کمپین: فروش فوری",
-            "sent": "۲,۸۴۷ پیام ارسال شد"
-          },
-          "delivered": {
-            "title": "✅ تحویل داده شد: ۲,۸۳۴",
-            "rate": "۹۹.۵٪ نرخ تحویل"
-          },
-          "replies": {
-            "title": "💬 پاسخ‌ها: ۳۱۲",
-            "rate": "۱۱٪ نرخ پاسخ"
-          },
-          "conversions": {
-            "title": "🛒 تبدیل‌ها: ۴۷",
-            "revenue": "۱۲,۴۰۰ دلار درآمد"
-          }
-        }
-      },
-      "features": {
-        "title": "رعایت قوانین و تحویل",
-        "description": "پلتفرم پیامکی سطح سازمانی با دسترسی جهانی و مدیریت خودکار رعایت قوانین",
-        "globalReach": {
-          "title": "دسترسی جهانی",
-          "description": "ارسال پیامک به بیش از ۲۰۰ کشور با پشتیبانی شماره محلی و بهینه‌سازی حامل"
-        },
-        "compliance": {
-          "title": "ابزارهای تطابق",
-          "description": "ویژگی‌های رعایت قوانین TCPA و GDPR با مدیریت خودکار لغو اشتراک"
-        },
-        "analytics": {
-          "title": "تحلیل تحویل",
-          "description": "ردیابی تحویل، نرخ پاسخ و عملکرد کمپین‌ها در زمان واقعی"
-        },
-        "scheduling": {
-          "title": "زمان‌بندی هوشمند",
-          "description": "ارسال آگاهانه به منطقه زمانی با بهترین زمان بر اساس رفتار گیرنده"
-        }
-      },
-      "useCases": {
-        "title": "موارد استفاده اثبات شده",
-        "description": "ببینید کسب‌وکارها چگونه از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند",
-        "marketing": {
-          "title": "کمپین‌های بازاریابی",
-          "description": "پیام‌های تبلیغاتی با نرخ باز شدن بالا",
-          "stats": "۹۸٪ نرخ باز شدن"
-        },
-        "appointments": {
-          "title": "یادآوری قرار ملاقات‌ها",
-          "description": "کاهش عدم حضور با یادآوری‌های خودکار",
-          "stats": "۲۵٪ کاهش عدم حضور"
-        },
-        "orders": {
-          "title": "به‌روزرسانی سفارشات",
-          "description": "مشتریان را از وضعیت سفارش‌هایشان مطلع نگه دارید",
-          "stats": "۹۰٪ رضایت"
-        },
-        "support": {
-          "title": "پشتیبانی مشتری",
-          "description": "مکالمه دوطرفه برای پشتیبانی سریع",
-          "stats": "حل مشکلات ۵ برابر سریع‌تر"
-        }
-      },
-      "builder": {
-        "title": "سازنده پیشرفته کمپین",
-        "description": "کمپین‌های پیامکی پیشرفته با اتوماسیون کشیدن و رها کردن و هدف‌گیری هوشمند بسازید",
-        "segmentation": {
-          "title": "تقسیم‌بندی هوشمند",
-          "description": "مشتریان را بر اساس رفتار، مکان و ترجیحات هدف‌گذاری کنید"
-        },
-        "timing": {
-          "title": "زمان‌بندی عالی",
-          "description": "بهینه‌سازی زمان ارسال با هوش مصنوعی برای بیشترین تعامل"
-        },
-        "analytics": {
-          "title": "تحلیل لحظه‌ای",
-          "description": "ردیابی تحویل، باز شدن، کلیک‌ها و تبدیل‌ها در زمان واقعی"
-        }
-      },
-      "cta": {
-        "title": "آماده راه‌اندازی کمپین‌های پیامکی خود هستید؟",
-        "description": "به هزاران کسب‌وکاری بپیوندید که از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند. با نسخه آزمایشی رایگان شروع کنید.",
-        "button": "ثبت‌نام"
-      }
-    }
-  },
-  "seachat": {
-    "pricing": {
-      "plans": {
-        "enterprise": {
-          "features": {
-            "gpt4oRealtimeAPI": "Acceso a GPT-4o Realtime API"
-          }
-        }
-      },
-      "calculator": {
-        "title": "Calculadora de Plan y Uso de Modelo",
-        "voiceOnly": "Modelo solo de voz",
-        "voicePricing": "Precios de voz",
-        "standardVoice": "Voz Estándar",
-        "premiumVoice": "Voz Premium"
       }
     }
   }

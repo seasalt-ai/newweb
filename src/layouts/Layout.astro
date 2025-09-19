@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import VersionManager from '../components/versions/VersionManager.astro';
 import SEO from '../components/SEO.astro';
+import SeaChatWidget from '../components/SeaChatWidget.astro';
 
 export interface Props {
 	title: string;
@@ -105,6 +106,8 @@ const {
 			<slot />
 		</main>
 		<VersionManager type="footer" version={footerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<!-- SeaChat Webchat Widget -->
+		<SeaChatWidget />
 	</body>
 </html>
 

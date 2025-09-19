@@ -30,6 +30,10 @@ public/sitemap*.xml
 src/**/*.js
 src/**/*.js.map
 
+# I18n sync state
+.sync-state.json
+backups/
+
 # Temporary and backup files
 *.tmp
 *.temp

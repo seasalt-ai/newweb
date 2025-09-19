@@ -409,10 +409,7 @@
       "features": {
         "diy": "透過產品說明文件自助服務",
         "email": "電子郵件 (info@seasalt.ai)",
-        "chat": {
-          "line1": "或與客戶支援聊天",
-          "line2": "（在此頁面上）"
-        }
+        "chat": {}
       }
     },
     "launch": {
@@ -868,6 +865,11 @@
       }
     },
     "websiteChat": {
+      "seo": {
+        "title": "Website Chat Widget Integration - Seasalt.ai",
+        "description": "Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity with our customizable chat solution.",
+        "keywords": "website chat widget, live chat software, website support, lead capture, customer engagement, chat integration"
+      },
       "navigation": {
         "backToChannels": "返回頻道總覽"
       },
@@ -962,6 +964,11 @@
       }
     },
     "instagram": {
+      "seo": {
+        "title": "Instagram DM Automation - AI-Powered Customer Service | Seasalt.ai",
+        "description": "Scale your Instagram customer service with AI automation. Handle thousands of DMs while maintaining personal touch. Perfect for brands, influencers, and businesses.",
+        "keywords": "Instagram DM automation, Instagram customer service, social media automation, influencer tools, Instagram business, AI chat"
+      },
       "navigation": {
         "backToChannels": "返回頻道總覽"
       },
@@ -1063,6 +1070,11 @@
       }
     },
     "facebookMessenger": {
+      "seo": {
+        "title": "Facebook Messenger Business Integration - AI Social Commerce | Seasalt.ai",
+        "description": "Transform Facebook Messenger into a sales machine with AI-powered conversations. Integrate with Facebook Shop for seamless social commerce and automated customer service.",
+        "keywords": "Facebook Messenger business, social commerce, Facebook Shop integration, Messenger automation, social media sales, AI customer service"
+      },
       "navigation": {
         "backToChannels": "返回頻道總覽"
       },
@@ -1523,18 +1535,6 @@
         "subtitle": "在5分鐘內為您的網站添加強大的全通路溝通功能。無需編程。",
         "getWidget": "獲取小工具代碼"
       }
-    }
-  },
-  "blog": {
-    "share": "分享",
-    "availableIn": "同時提供：",
-    "tableOfContents": "目錄",
-    "relatedArticles": "相關文章",
-    "cta": {
-      "title": "準備好轉變您的客戶溝通了嗎？",
-      "description": "加入數千家信賴 Seasalt.ai 提供卓越客戶體驗的公司。從我們的免費方案開始，隨著您的成長而擴展。",
-      "signUp": "免費註冊",
-      "scheduleDemo": "安排演示"
     }
   },
   "comparison": {
@@ -2244,9 +2244,9 @@
             "customBuild": "客製化開發",
             "multipleWorkspaces": "多個工作區 - 完美適合代理商",
             "workspaceAgents": "每個工作區具有多個 AI 智能助手和電話號碼",
+            "gpt4oRealtimeAPI": "存取 GPT-4o Realtime API",
             "customAPI": "客製化 API 整合",
-            "fineTuning": "根據您的指導原則進行微調和技術支援",
-            "gpt4oRealtimeAPI": "存取 GPT-4o Realtime API"
+            "fineTuning": "根據您的指導原則進行微調和技術支援"
           },
           "buttonText": "聯絡我們"
         }
@@ -2292,11 +2292,11 @@
         "planIncludesWorkspaces": "2 個工作區",
         "perChatResponse": "每次聊天回應",
         "perVoiceMinute": "每分鐘語音",
-        "placeholderText": "佔位符",
         "voiceOnly": "僅語音模型",
         "voicePricing": "語音定價",
         "standardVoice": "標準語音",
-        "premiumVoice": "高級語音"
+        "premiumVoice": "高級語音",
+        "placeholderText": "佔位符"
       },
       "note": "價格以美元計算。語音價格因國家而異，列出的價格適用於美國。其他國家請聯絡我們。",
       "comparison": {
@@ -4501,7 +4501,6 @@
         "ctaTitle": "準備好自動化您的排程了嗎？",
         "customer": "客戶",
         "customerChoice": "週二下午 2 點很完美！",
-        "customerRequest": "\"我想預約下週的產品示範\"",
         "demoButton": "預約排程示範",
         "exampleTitle": "排程範例",
         "features": [
@@ -4513,11 +4512,6 @@
           "定期約會處理"
         ],
         "flow": {
-          "request": {
-            "description": "客戶要求安排會議或約會",
-            "example": "我想預約下週的產品示範",
-            "title": "客戶要求"
-          },
           "availability": {
             "description": "系統檢查即時行事曆空閒情況",
             "example": "可用時段：週二下午 2 點，週三上午 10 點，週四下午 3 點",
@@ -4532,6 +4526,11 @@
             "description": "自動傳送提醒和確認",
             "example": "24 小時提醒 + 會議連結 + 準備資料",
             "title": "自動後續追蹤"
+          },
+          "request": {
+            "description": "客戶要求安排會議或約會",
+            "example": "我想預約下週的產品示範",
+            "title": "客戶要求"
           }
         },
         "flowSubtitle": "了解在客戶對話中無縫預約的運作方式。",
@@ -4649,8 +4648,6 @@
         "platformsSubtitle": "與所有主要行事曆和排程平台連線，以實現無縫的約會管理。",
         "platformsTitle": "行事曆平台整合",
         "seachatAI": "SeaChat AI",
-        "aiResponse1": "我很樂意幫您安排示範！以下是下週的可用時段：",
-        "aiResponse2": "太好了！我已為您預約了1月16日星期二下午2:00（太平洋標準時間）的示範。您很快就會收到一封包含會議連結的行事曆邀請。",
         "slot1": "1 月 16 日星期二 - 太平洋標準時間下午 2:00",
         "slot2": "1 月 17 日星期三 - 太平洋標準時間上午 10:00",
         "slot3": "1 月 18 日星期四 - 太平洋標準時間下午 3:00",
@@ -4682,6 +4679,7 @@
         "benefitsSubtitle": "透過無縫的Seachat整合增強您的客戶支援和內部協作。",
         "benefitsTitle": "整合通訊的優勢",
         "connectButton": "連接通訊工具",
+        "connectPlatform": "Connect with",
         "cta": {
           "connectButton": "立即開始",
           "contactButton": "聯絡銷售人員",
@@ -5455,8 +5453,8 @@
         "platformsTitle": "所有主要社群平台",
         "productComments": "最新產品展示的留言",
         "productInquiries": "客戶對產品可用性的查詢",
-        "storyReplies": "8 則限時動態回覆",
         "setup": "設定時間",
+        "storyReplies": "8 則限時動態回覆",
         "subtitle": "連接您所有的社群媒體平台，並在 WhatsApp、Instagram、Facebook、Twitter 等平台上提供無縫的客戶支援。",
         "supportRequests": "支援請求和一般查詢",
         "title": "社群媒體整合",
@@ -6513,6 +6511,18 @@
       "description": "獲取 AI 自動化、客戶體驗和業務成長的最新文章，直接送到您的收件匣。",
       "emailPlaceholder": "輸入您的電子郵件",
       "subscribeButton": "訂閱"
+    },
+    "details": {
+      "share": "Share",
+      "availableIn": "Available in:",
+      "tableOfContents": "Table of Contents",
+      "relatedArticles": "Related Articles",
+      "cta": {
+        "title": "Ready to Transform Your Customer Communications?",
+        "description": "See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.",
+        "signUp": "Sign Up",
+        "scheduleDemo": "Schedule Demo"
+      }
     }
   },
   "careers": {
@@ -7956,6 +7966,13 @@
         "subtitle": "加入數千家從 Aircall 轉換的成長企業，獲得所需的所有功能，無需複雜性和隱藏成本。",
         "signUp": "註冊",
         "bookDemo": "預約演示"
+      }
+    },
+    "ringCentralAlternative": {
+      "seo": {
+        "title": "RingCentral Alternative - Unified Contact Center vs Fragmented Solutions | Seasalt.ai",
+        "description": "Discover why Seasalt.ai's truly unified contact center outperforms RingCentral's fragmented UCaaS and CCaaS approach. Compare pricing, features, and architecture.",
+        "keywords": "RingCentral alternative, unified contact center, business phone system, VoIP solution, UCaaS alternative"
       }
     },
     "ringcentral": {
@@ -12196,35 +12213,6 @@
           "usage": "使用費："
         }
       },
-      "roi": {
-        "title": "計算您的投資報酬率",
-        "subtitle": "了解您使用 SeaX 可以節省和賺取多少"
-      },
-      "faq": {
-        "title": "常見問題",
-        "volume": {
-          "question": "量級定價如何運作？",
-          "answer": "我們的定價會根據您的使用量自動調整。使用量越大，每則訊息的費率越優惠。我們會根據您的用量推薦最佳的簡訊類型（本地、免付費或短碼）。"
-        },
-        "fees": {
-          "question": "有隱藏費用嗎？",
-          "answer": "絕無隱藏費用。您只需為所使用的服務付費。設定費用明確標示，無長期合約或取消費用。"
-        },
-        "plans": {
-          "question": "可以隨時更改方案嗎？",
-          "answer": "是的，您可以隨時升級或降級您的方案。變更立即生效，我們會按比例收費。"
-        },
-        "international": {
-          "question": "國際簡訊服務如何？",
-          "answer": "我們支援向 200+ 個國家發送訊息。費率因目的地而異，但我們為所有地區提供透明定價。語音通話可在 100+ 個國家使用。"
-        }
-      },
-      "cta": {
-        "title": "準備好開始了嗎？",
-        "subtitle": "立即開始免費試用 - 無需信用卡",
-        "signUp": "立即註冊",
-        "talkToSales": "聯絡銷售團隊"
-      },
       "omniCalculator": {
         "title": "全通路費用試算器",
         "subtitle": "使用我們的互動式試算器，幾秒鐘內估算您的 SeaX 使用成本",
@@ -12272,6 +12260,35 @@
           "start": "開始免費試用",
           "sales": "聯繫業務"
         }
+      },
+      "roi": {
+        "title": "計算您的投資報酬率",
+        "subtitle": "了解您使用 SeaX 可以節省和賺取多少"
+      },
+      "faq": {
+        "title": "常見問題",
+        "volume": {
+          "question": "量級定價如何運作？",
+          "answer": "我們的定價會根據您的使用量自動調整。使用量越大，每則訊息的費率越優惠。我們會根據您的用量推薦最佳的簡訊類型（本地、免付費或短碼）。"
+        },
+        "fees": {
+          "question": "有隱藏費用嗎？",
+          "answer": "絕無隱藏費用。您只需為所使用的服務付費。設定費用明確標示，無長期合約或取消費用。"
+        },
+        "plans": {
+          "question": "可以隨時更改方案嗎？",
+          "answer": "是的，您可以隨時升級或降級您的方案。變更立即生效，我們會按比例收費。"
+        },
+        "international": {
+          "question": "國際簡訊服務如何？",
+          "answer": "我們支援向 200+ 個國家發送訊息。費率因目的地而異，但我們為所有地區提供透明定價。語音通話可在 100+ 個國家使用。"
+        }
+      },
+      "cta": {
+        "title": "準備好開始了嗎？",
+        "subtitle": "立即開始免費試用 - 無需信用卡",
+        "signUp": "立即註冊",
+        "talkToSales": "聯絡銷售團隊"
       },
       "roiCalculator": {
         "title": "投資報酬率試算器",
@@ -13041,233 +13058,6 @@
           "description": "專屬客戶經理和 24/7 技術支援"
         }
       }
-    },
-    "resources": {
-      "seo": {
-        "title": "SeaX 資源 - 指南、教學與說明文件",
-        "description": "取得 SeaX 的完整資源，包括指南、教學、API 說明文件、案例研究等，助您在大量溝通上取得成功。"
-      },
-      "hero": {
-        "title": "資源與",
-        "titleHighlight": "學習中心",
-        "description": "掌握大量溝通所需的一切資源。從快速入門指南到進階教學，我們為您提供全方位支援。",
-        "getSupport": "獲得支援",
-        "browseApiDocs": "瀏覽 API 文件"
-      },
-      "explore": {
-        "title": "探索我們的資源",
-        "subtitle": "找到您在 SeaX 上成功所需的一切"
-      },
-      "categories": {
-        "gettingStarted": {
-          "title": "快速入門",
-          "description": "啟動您第一個活動所需的一切",
-          "quickStart": {
-            "title": "快速入門指南",
-            "description": "在 10 分鐘內快速上手 SeaX",
-            "type": "指南",
-            "readTime": "5 分鐘閱讀"
-          },
-          "bestPractices": {
-            "title": "大量簡訊最佳實務",
-            "description": "學習如何撰寫能有效轉換的訊息",
-            "type": "指南",
-            "readTime": "8 分鐘閱讀"
-          },
-          "apiIntegration": {
-            "title": "API 整合教學",
-            "description": "將 SeaX 與您的應用程式整合的逐步指南",
-            "type": "教學",
-            "readTime": "15 分鐘閱讀"
-          }
-        },
-        "videos": {
-          "title": "影片教學",
-          "description": "透過我們的專家教學影片來學習",
-          "firstCampaign": {
-            "title": "建立您的第一個活動",
-            "description": "觀看如何設定和啟動您的第一個簡訊活動",
-            "type": "影片",
-            "duration": "12 分鐘"
-          },
-          "targeting": {
-            "title": "進階目標設定策略",
-            "description": "學習如何有效地細分和鎖定您的受眾",
-            "type": "影片",
-            "duration": "18 分鐘"
-          },
-          "analytics": {
-            "title": "分析與報告深入探討",
-            "description": "掌握 SeaX 分析功能來優化您的活動",
-            "type": "影片",
-            "duration": "25 分鐘"
-          }
-        },
-        "documentation": {
-          "title": "說明文件",
-          "description": "技術說明文件與 API 參考",
-          "apiReference": {
-            "title": "API 參考",
-            "description": "完整的 API 說明文件與範例",
-            "type": "說明文件",
-            "badge": "開發者"
-          },
-          "webhook": {
-            "title": "Webhook 指南",
-            "description": "設定即時通知與回呼功能",
-            "type": "說明文件",
-            "badge": "開發者"
-          },
-          "sdk": {
-            "title": "SDK 說明文件",
-            "description": "熱門程式語言的客戶端程式庫",
-            "type": "說明文件",
-            "badge": "開發者"
-          }
-        },
-        "caseStudies": {
-          "title": "案例研究",
-          "description": "來自我們客戶的真實成功故事",
-          "ecommerce": {
-            "title": "電商：簡訊行銷帶來 300% ROI",
-            "description": "線上零售商如何將投資報酬率提升三倍",
-            "type": "案例研究",
-            "industry": "電子商務"
-          },
-          "healthcare": {
-            "title": "醫療：大規模預約提醒",
-            "description": "透過自動化提醒將爽約率降低 45%",
-            "type": "案例研究",
-            "industry": "醫療保健"
-          },
-          "fintech": {
-            "title": "金融科技：透過簡訊防範詐騙",
-            "description": "即時詐騙警報保護數百萬用戶",
-            "type": "案例研究",
-            "industry": "金融服務"
-          }
-        }
-      },
-      "common": {
-        "readMore": "閱讀更多"
-      },
-      "downloads": {
-        "title": "下載資源",
-        "subtitle": "免費資源助您充分發揮 SeaX 的效能",
-        "playbook": {
-          "title": "簡訊行銷手冊",
-          "description": "包含範本與範例的完整簡訊行銷指南",
-          "format": "PDF",
-          "size": "2.5 MB"
-        },
-        "compliance": {
-          "title": "合規檢查清單",
-          "description": "確保您的活動符合所有法規要求",
-          "format": "PDF",
-          "size": "1.2 MB"
-        },
-        "templates": {
-          "title": "訊息範本庫",
-          "description": "適用於常見使用案例的即用範本",
-          "format": "ZIP",
-          "size": "850 KB"
-        },
-        "download": "下載"
-      },
-      "support": {
-        "title": "需要更多協助？",
-        "subtitle": "我們的支援團隊致力於協助您成功。獲得個人化的活動與技術問題協助。",
-        "liveChat": {
-          "title": "即時聊天",
-          "description": "從我們的支援團隊獲得即時協助",
-          "action": "開始聊天"
-        },
-        "knowledgeBase": {
-          "title": "知識庫",
-          "description": "搜尋我們全面的說明文章",
-          "action": "瀏覽文章"
-        },
-        "community": {
-          "title": "社群",
-          "description": "與其他 SeaX 使用者交流",
-          "action": "加入社群"
-        }
-      },
-      "cta": {
-        "title": "準備好開始了嗎？",
-        "subtitle": "加入已使用 SeaX 與客戶溝通的數千家企業",
-        "signUp": "立即註冊",
-        "viewPricing": "查看定價"
-      }
-    }
-  },
-  "statsCounter": {
-    "section": {
-      "title": "深受全球企業信賴",
-      "subtitle": "我們的平台每天支援數百萬次對話"
-    },
-    "stats": {
-      "messages": {
-        "label": "已傳送訊息",
-        "suffix": "M+"
-      },
-      "calls": {
-        "label": "已撥打電話",
-        "suffix": "K+"
-      },
-      "uptime": {
-        "label": "系統正常運行時間",
-        "suffix": "%"
-      },
-      "countries": {
-        "label": "服務國家數",
-        "suffix": "+"
-      },
-      "roi": {
-        "label": "投資報酬率提升",
-        "suffix": "%"
-      }
-    },
-    "dashboard": {
-      "title": "SeaX 控制台",
-      "messagesSent": "已發送訊息",
-      "deliveryRate": "送達率",
-      "recentActivity": "近期活動",
-      "demo": {
-        "messagesSent": "240萬",
-        "deliveryRate": "85%"
-      }
-    },
-    "activity": {
-      "flashSale": {
-        "title": "限時促銷活動",
-        "detail": "已發送 50,000 則簡訊 • 2 分鐘前"
-      },
-      "leadFollowup": {
-        "title": "客戶跟進",
-        "detail": "已完成 12,000 通電話 • 5 分鐘前"
-      },
-      "whatsapp": {
-        "title": "WhatsApp 活動",
-        "detail": "25,000 則訊息已排隊 • 8 分鐘前"
-      }
-    },
-    "status": {
-      "liveRunning": "即時活動運行中",
-      "liveActivity": "即時活動：訊息正在發送中"
-    }
-  },
-  "omniCalculator": {
-    "ranges": {
-      "zero": "0",
-      "smsMax": "1萬+",
-      "callsMax": "5千+",
-      "voicemailMax": "1千+",
-      "whatsappMax": "1萬+"
-    },
-    "breakdown": {
-      "localPlus": "本地 +",
-      "tollFreeMinus": "免費電話"
     }
   },
   "seavoice": {
@@ -14142,6 +13932,144 @@
           "feature4": "10+種語言"
         }
       },
+      "technology": {
+        "title": "建立在業界領先的技術之上",
+        "subtitle": "由原Kaldi團隊的語音識別專業技術驅動",
+        "speechRecognition": {
+          "title": "語音識別",
+          "description": "先進的STT技術，準確度超過99%，即使在背景噪音和行業術語環境下也能準確識別。",
+          "metric1": "99%+準確度",
+          "metric2": "即時處理",
+          "metric3": "降噪技術"
+        },
+        "nlp": {
+          "title": "自然語言處理",
+          "description": "語境感知AI，理解意圖並維持自然對話流程。",
+          "metric1": "意圖識別",
+          "metric2": "語境保持",
+          "metric3": "情感智慧"
+        },
+        "voiceSynthesis": {
+          "title": "語音合成",
+          "description": "類人文字轉語音技術，配備可客製化語音和自然韻律。",
+          "metric1": "自然韻律",
+          "metric2": "聲音複製",
+          "metric3": "情感控制"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "固定電話與行動語音解決方案",
+          "subtitle": "以AI驅動的語音代理轉換您的傳統電話系統，與固定電話和行動網路完美整合，服務全球客戶。",
+          "cta": "免費註冊"
+        },
+        "features": {
+          "0": {
+            "title": "傳統固定電話整合",
+            "description": "將您現有的固定電話基礎設施與AI語音功能無縫連接。",
+            "benefits": {
+              "0": "保留現有電話號碼",
+              "1": "無需更換硬體設備",
+              "2": "忙線時提供即時AI備援"
+            }
+          },
+          "1": {
+            "title": "行動網路連接",
+            "description": "直接整合行動電信業者，用於外撥活動和客戶互動。",
+            "benefits": {
+              "0": "觸達客戶的行動裝置",
+              "1": "高通達率",
+              "2": "SMS備援選項"
+            }
+          },
+          "2": {
+            "title": "全球覆蓋",
+            "description": "透過我們廣泛的電信業者網路合作夥伴，與全球客戶連接。",
+            "benefits": {
+              "0": "支援200多個國家",
+              "1": "本地號碼呈現",
+              "2": "競爭力的國際費率"
+            }
+          },
+          "title": "通用語音連接",
+          "subtitle": "與世界各地的任何電話系統連接"
+        },
+        "useCases": {
+          "0": {
+            "title": "預約提醒",
+            "description": "自動致電病患、客戶或客戶端，確認即將到來的預約。",
+            "metrics": {
+              "0": "減少40%的缺席率",
+              "1": "95%的聯繫成功率",
+              "2": "24/7自動化撥號"
+            }
+          },
+          "1": {
+            "title": "緊急通知",
+            "description": "在緊急情況或重要更新時快速通知大量群組。",
+            "metrics": {
+              "0": "每分鐘1000+通電話",
+              "1": "多語言支援",
+              "2": "傳送確認"
+            }
+          },
+          "2": {
+            "title": "客戶調查",
+            "description": "進行售後服務調查，收集寶貴的客戶回饋。",
+            "metrics": {
+              "0": "提高3倍的回應率",
+              "1": "即時情感分析",
+              "2": "自動化報告"
+            }
+          },
+          "title": "熱門使用案例",
+          "subtitle": "了解企業如何運用固定電話和行動語音自動化"
+        },
+        "specs": {
+          "title": "企業級可靠性",
+          "subtitle": "為關鍵任務通訊而建置，具備電信級基礎設施和99.99%正常運行時間保證。",
+          "security": {
+            "title": "安全性與合規性",
+            "description": "SOC 2、HIPAA和PCI合規基礎設施"
+          },
+          "monitoring": {
+            "title": "24/7監控",
+            "description": "即時系統監控和即時故障轉移"
+          },
+          "infrastructure": {
+            "title": "全球基礎設施",
+            "description": "跨多個地區的冗餘資料中心"
+          },
+          "technical": {
+            "title": "技術規格",
+            "concurrentCalls": {
+              "label": "並行通話",
+              "value": "無限制"
+            },
+            "audioQuality": {
+              "label": "音訊品質",
+              "value": "HD語音 (G.722)"
+            },
+            "latency": {
+              "label": "延遲",
+              "value": "< 150毫秒"
+            },
+            "uptimeSLA": {
+              "label": "正常運行時間SLA",
+              "value": "99.99%"
+            },
+            "globalCoverage": {
+              "label": "全球覆蓋",
+              "value": "200多個國家"
+            }
+          }
+        },
+        "cta": {
+          "title": "準備現代化您的電話系統？",
+          "subtitle": "幾分鐘內將您的固定電話和行動基礎設施與AI語音代理連接",
+          "button": "安排整合通話"
+        }
+      },
       "endToEndLLMs": {
         "hero": {
           "title": "端到端大型語言模型解決方案",
@@ -14304,142 +14232,113 @@
           "exploreArchButton": "探索架構"
         }
       },
-      "technology": {
-        "title": "建立在業界領先的技術之上",
-        "subtitle": "由原Kaldi團隊的語音識別專業技術驅動",
-        "speechRecognition": {
-          "title": "語音識別",
-          "description": "先進的STT技術，準確度超過99%，即使在背景噪音和行業術語環境下也能準確識別。",
-          "metric1": "99%+準確度",
-          "metric2": "即時處理",
-          "metric3": "降噪技術"
-        },
-        "nlp": {
-          "title": "自然語言處理",
-          "description": "語境感知AI，理解意圖並維持自然對話流程。",
-          "metric1": "意圖識別",
-          "metric2": "語境保持",
-          "metric3": "情感智慧"
-        },
-        "voiceSynthesis": {
-          "title": "語音合成",
-          "description": "類人文字轉語音技術，配備可客製化語音和自然韻律。",
-          "metric1": "自然韻律",
-          "metric2": "聲音複製",
-          "metric3": "情感控制"
-        }
-      },
-      "landlineMobile": {
+      "lineCallPlus": {
         "hero": {
-          "title": "固定電話與行動語音解決方案",
-          "subtitle": "以AI驅動的語音代理轉換您的傳統電話系統，與固定電話和行動網路完美整合，服務全球客戶。",
-          "cta": "免費註冊"
+          "title": "商用LINE通話增強版",
+          "description": "運用AI驅動的語音通話功能轉型您的LINE商業帳號。透過客戶偏愛的通訊平台與亞太市場客戶建立連結。",
+          "cta": "開始LINE整合"
+        },
+        "marketReach": {
+          "title": "觸達亞太地區數百萬用戶",
+          "subtitle": "LINE主導亞洲主要市場的商業通訊",
+          "activeUsers": "活躍用戶",
+          "marketPenetration": "市場滲透率"
         },
         "features": {
-          "0": {
-            "title": "傳統固定電話整合",
-            "description": "將您現有的固定電話基礎設施與AI語音功能無縫連接。",
-            "benefits": {
-              "0": "保留現有電話號碼",
-              "1": "無需更換硬體設備",
-              "2": "忙線時提供即時AI備援"
-            }
+          "title": "強大的LINE商業功能",
+          "subtitle": "在LINE上提供卓越語音體驗所需的一切功能",
+          "nativeIntegration": {
+            "title": "原生LINE整合",
+            "description": "在LINE通訊平台內無縫整合語音通話功能。",
+            "benefit1": "聊天中一鍵通話",
+            "benefit2": "統一對話紀錄",
+            "benefit3": "豐富媒體支援"
           },
-          "1": {
-            "title": "行動網路連接",
-            "description": "直接整合行動電信業者，用於外撥活動和客戶互動。",
-            "benefits": {
-              "0": "觸達客戶的行動裝置",
-              "1": "高通達率",
-              "2": "SMS備援選項"
-            }
+          "businessAccount": {
+            "title": "商業帳號支援",
+            "description": "全面支援LINE商業帳號的進階功能和分析。",
+            "benefit1": "驗證商業檔案",
+            "benefit2": "客製化品牌選項",
+            "benefit3": "進階使用者管理"
           },
-          "2": {
-            "title": "全球覆蓋",
-            "description": "透過我們廣泛的電信業者網路合作夥伴，與全球客戶連接。",
-            "benefits": {
-              "0": "支援200多個國家",
-              "1": "本地號碼呈現",
-              "2": "競爭力的國際費率"
-            }
-          },
-          "title": "通用語音連接",
-          "subtitle": "與世界各地的任何電話系統連接"
+          "asiaPacific": {
+            "title": "亞太地區專注",
+            "description": "專為LINE主導商業通訊的亞洲主要市場優化。",
+            "benefit1": "當地語言支援",
+            "benefit2": "區域合規",
+            "benefit3": "文化客製化"
+          }
         },
         "useCases": {
-          "0": {
-            "title": "預約提醒",
-            "description": "自動致電病患、客戶或客戶端，確認即將到來的預約。",
-            "metrics": {
-              "0": "減少40%的缺席率",
-              "1": "95%的聯繫成功率",
-              "2": "24/7自動化撥號"
-            }
+          "title": "轉型客戶互動",
+          "subtitle": "了解企業如何使用LINE通話增強版來提升客戶關係",
+          "customerSupport": {
+            "title": "客戶支援",
+            "description": "在LINE對話中直接提供即時語音支援。",
+            "metric1": "解決速度提升50%",
+            "metric2": "90%客戶滿意度",
+            "metric3": "24/7全天候服務"
           },
-          "1": {
-            "title": "緊急通知",
-            "description": "在緊急情況或重要更新時快速通知大量群組。",
-            "metrics": {
-              "0": "每分鐘1000+通電話",
-              "1": "多語言支援",
-              "2": "傳送確認"
-            }
+          "salesConsultations": {
+            "title": "銷售諮詢",
+            "description": "將聊天詢問轉換為語音通話，提供個性化銷售體驗。",
+            "metric1": "轉換率提升3倍",
+            "metric2": "個性化建議",
+            "metric3": "建立信任"
           },
-          "2": {
-            "title": "客戶調查",
-            "description": "進行售後服務調查，收集寶貴的客戶回饋。",
-            "metrics": {
-              "0": "提高3倍的回應率",
-              "1": "即時情感分析",
-              "2": "自動化報告"
-            }
-          },
-          "title": "熱門使用案例",
-          "subtitle": "了解企業如何運用固定電話和行動語音自動化"
+          "appointmentBooking": {
+            "title": "預約排程",
+            "description": "在LINE商業帳號內啟用基於語音的預約排程。",
+            "metric1": "即時確認",
+            "metric2": "行事曆整合",
+            "metric3": "自動提醒"
+          }
         },
-        "specs": {
-          "title": "企業級可靠性",
-          "subtitle": "為關鍵任務通訊而建置，具備電信級基礎設施和99.99%正常運行時間保證。",
-          "security": {
-            "title": "安全性與合規性",
-            "description": "SOC 2、HIPAA和PCI合規基礎設施"
+        "integration": {
+          "title": "簡單整合流程",
+          "subtitle": "只需幾個步驟即可開始使用LINE通話增強版",
+          "step1": {
+            "title": "連接LINE商業帳號",
+            "description": "連結您現有的LINE商業帳號或透過我們的引導設定創建新帳號。"
           },
-          "monitoring": {
-            "title": "24/7監控",
-            "description": "即時系統監控和即時故障轉移"
+          "step2": {
+            "title": "配置語音助理",
+            "description": "使用客製化腳本、語音和商業邏輯設定您的AI語音助理。"
           },
-          "infrastructure": {
-            "title": "全球基礎設施",
-            "description": "跨多個地區的冗餘資料中心"
+          "step3": {
+            "title": "上線運作",
+            "description": "啟動您的語音功能LINE商業帳號並開始與客戶互動。"
+          }
+        },
+        "analytics": {
+          "title": "全面分析",
+          "description": "透過詳細的分析和報告追蹤效能、了解客戶行為並優化您的LINE語音互動。",
+          "callAnalytics": {
+            "title": "通話分析",
+            "description": "追蹤通話量、持續時間和成功率"
           },
-          "technical": {
-            "title": "技術規格",
-            "concurrentCalls": {
-              "label": "並行通話",
-              "value": "無限制"
-            },
-            "audioQuality": {
-              "label": "音訊品質",
-              "value": "HD語音 (G.722)"
-            },
-            "latency": {
-              "label": "延遲",
-              "value": "< 150毫秒"
-            },
-            "uptimeSLA": {
-              "label": "正常運行時間SLA",
-              "value": "99.99%"
-            },
-            "globalCoverage": {
-              "label": "全球覆蓋",
-              "value": "200多個國家"
-            }
+          "userEngagement": {
+            "title": "使用者參與",
+            "description": "監控使用者互動和滿意度評分"
+          },
+          "platformInsights": {
+            "title": "平台洞察",
+            "description": "LINE特定指標和效能數據"
+          },
+          "dashboard": {
+            "title": "LINE通話分析",
+            "live": "即時",
+            "activeCalls": "活躍通話",
+            "responseRate": "回應率",
+            "avgCallDuration": "平均通話時間",
+            "customerSatisfaction": "客戶滿意度",
+            "sampleResponse": "日語語音助理回應客戶"
           }
         },
         "cta": {
-          "title": "準備現代化您的電話系統？",
-          "subtitle": "幾分鐘內將您的固定電話和行動基礎設施與AI語音代理連接",
-          "button": "安排整合通話"
+          "title": "準備好在亞太地區擴展？",
+          "description": "與數百萬LINE用戶建立連結，在亞洲主要市場轉型您的客戶參與",
+          "button": "開始LINE整合"
         }
       },
       "speechToText": {
@@ -14654,115 +14553,6 @@
           "subtitle": "體驗業界領先語音識別技術的強大功能",
           "primaryButton": "免費試用",
           "secondaryButton": "查看API文檔"
-        }
-      },
-      "lineCallPlus": {
-        "hero": {
-          "title": "商用LINE通話增強版",
-          "description": "運用AI驅動的語音通話功能轉型您的LINE商業帳號。透過客戶偏愛的通訊平台與亞太市場客戶建立連結。",
-          "cta": "開始LINE整合"
-        },
-        "marketReach": {
-          "title": "觸達亞太地區數百萬用戶",
-          "subtitle": "LINE主導亞洲主要市場的商業通訊",
-          "activeUsers": "活躍用戶",
-          "marketPenetration": "市場滲透率"
-        },
-        "features": {
-          "title": "強大的LINE商業功能",
-          "subtitle": "在LINE上提供卓越語音體驗所需的一切功能",
-          "nativeIntegration": {
-            "title": "原生LINE整合",
-            "description": "在LINE通訊平台內無縫整合語音通話功能。",
-            "benefit1": "聊天中一鍵通話",
-            "benefit2": "統一對話紀錄",
-            "benefit3": "豐富媒體支援"
-          },
-          "businessAccount": {
-            "title": "商業帳號支援",
-            "description": "全面支援LINE商業帳號的進階功能和分析。",
-            "benefit1": "驗證商業檔案",
-            "benefit2": "客製化品牌選項",
-            "benefit3": "進階使用者管理"
-          },
-          "asiaPacific": {
-            "title": "亞太地區專注",
-            "description": "專為LINE主導商業通訊的亞洲主要市場優化。",
-            "benefit1": "當地語言支援",
-            "benefit2": "區域合規",
-            "benefit3": "文化客製化"
-          }
-        },
-        "useCases": {
-          "title": "轉型客戶互動",
-          "subtitle": "了解企業如何使用LINE通話增強版來提升客戶關係",
-          "customerSupport": {
-            "title": "客戶支援",
-            "description": "在LINE對話中直接提供即時語音支援。",
-            "metric1": "解決速度提升50%",
-            "metric2": "90%客戶滿意度",
-            "metric3": "24/7全天候服務"
-          },
-          "salesConsultations": {
-            "title": "銷售諮詢",
-            "description": "將聊天詢問轉換為語音通話，提供個性化銷售體驗。",
-            "metric1": "轉換率提升3倍",
-            "metric2": "個性化建議",
-            "metric3": "建立信任"
-          },
-          "appointmentBooking": {
-            "title": "預約排程",
-            "description": "在LINE商業帳號內啟用基於語音的預約排程。",
-            "metric1": "即時確認",
-            "metric2": "行事曆整合",
-            "metric3": "自動提醒"
-          }
-        },
-        "integration": {
-          "title": "簡單整合流程",
-          "subtitle": "只需幾個步驟即可開始使用LINE通話增強版",
-          "step1": {
-            "title": "連接LINE商業帳號",
-            "description": "連結您現有的LINE商業帳號或透過我們的引導設定創建新帳號。"
-          },
-          "step2": {
-            "title": "配置語音助理",
-            "description": "使用客製化腳本、語音和商業邏輯設定您的AI語音助理。"
-          },
-          "step3": {
-            "title": "上線運作",
-            "description": "啟動您的語音功能LINE商業帳號並開始與客戶互動。"
-          }
-        },
-        "analytics": {
-          "title": "全面分析",
-          "description": "透過詳細的分析和報告追蹤效能、了解客戶行為並優化您的LINE語音互動。",
-          "callAnalytics": {
-            "title": "通話分析",
-            "description": "追蹤通話量、持續時間和成功率"
-          },
-          "userEngagement": {
-            "title": "使用者參與",
-            "description": "監控使用者互動和滿意度評分"
-          },
-          "platformInsights": {
-            "title": "平台洞察",
-            "description": "LINE特定指標和效能數據"
-          },
-          "dashboard": {
-            "title": "LINE通話分析",
-            "live": "即時",
-            "activeCalls": "活躍通話",
-            "responseRate": "回應率",
-            "avgCallDuration": "平均通話時間",
-            "customerSatisfaction": "客戶滿意度",
-            "sampleResponse": "日語語音助理回應客戶"
-          }
-        },
-        "cta": {
-          "title": "準備好在亞太地區擴展？",
-          "description": "與數百萬LINE用戶建立連結，在亞洲主要市場轉型您的客戶參與",
-          "button": "開始LINE整合"
         }
       },
       "voipSipByoc": {
@@ -16617,11 +16407,6 @@
               "subtitle": "開始進行個人化的重新激活活動，重建有價值的客戶關係",
               "startCampaign": "開始活動",
               "viewCaseStudies": "查看案例研究"
-            },
-            "seo": {
-              "title": "客戶重新激活活動 - SeaVoice AI",
-              "description": "透過個人化的 AI 驅動推廣活動重新贏回不活躍的客戶。重新接觸過去的客戶，提供有吸引力的優惠，重建有價值的關係，帶來經常性收入。",
-              "keywords": "客戶重新激活, 贏回活動, AI推廣, 個人化行銷, 客戶保留, SeaVoice"
             }
           },
           "fraudAlerts": {
@@ -18062,6 +17847,7 @@
       "accuracyRate": "準確率"
     }
   },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
   "seo": {
     "homepage": {
       "title": "Seasalt.ai | 小型企業全通路聯絡中心",
@@ -18078,7 +17864,115 @@
         "title": "24/7 虛擬助理 | SeaVoice AI 語音解決方案 - Seasalt.ai",
         "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服代理處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
         "keywords": "虛擬助理, AI 語音助理, 24/7 客戶服務, 智慧客服, SeaVoice, 語音自動化, 客戶服務自動化"
+      },
+      "ivrReplacement": {
+        "title": "IVR Replacement with Natural Language - SeaVoice AI | Seasalt.ai",
+        "description": "Replace frustrating phone trees with natural language understanding. Transform your IVR system for better customer experience with AI-powered voice interactions.",
+        "keywords": "IVR replacement, natural language IVR, phone menu alternative, voice AI, customer experience, automated phone system"
+      },
+      "mentalHealth": {
+        "title": "Mental Health Voice Companion - 24/7 AI Support | SeaVoice",
+        "description": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+        "keywords": "mental health AI, crisis intervention, voice companion, 24/7 support, empathetic AI, mental health screening"
+      },
+      "scamShield": {
+        "title": "Scam Shield Protection - AI-Powered Fraud Detection | SeaVoice",
+        "description": "Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time.",
+        "keywords": "scam shield, fraud detection, phone scam protection, AI security, SeaVoice, call protection"
+      },
+      "surveys": {
+        "title": "Customer Survey Automation | SeaVoice AI Voice Solutions - Seasalt.ai",
+        "description": "Gather valuable customer feedback through natural voice conversations. Conduct automated surveys that feel personal and engaging, achieving higher response rates.",
+        "keywords": "customer surveys, voice surveys, AI voice automation, feedback collection, CSAT surveys, post-purchase surveys, market research, SeaVoice"
+      },
+      "reactivation": {
+        "title": "Customer Reactivation Campaigns - SeaVoice AI",
+        "description": "Win back inactive customers with personalized AI-powered outreach campaigns. Re-engage past customers with compelling offers and rebuild valuable relationships.",
+        "keywords": "customer reactivation, win-back campaigns, AI outreach, personalized marketing, customer retention, SeaVoice"
       }
     }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "深受全球企業信賴",
+      "subtitle": "我們的平台每天支援數百萬次對話"
+    },
+    "stats": {
+      "messages": {
+        "label": "已傳送訊息",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "已撥打電話",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "系統正常運行時間",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "服務國家數",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "投資報酬率提升",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "SeaX 控制台",
+      "messagesSent": "已發送訊息",
+      "deliveryRate": "送達率",
+      "recentActivity": "近期活動",
+      "demo": {
+        "messagesSent": "240萬",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "限時促銷活動",
+        "detail": "已發送 50,000 則簡訊 • 2 分鐘前"
+      },
+      "leadFollowup": {
+        "title": "客戶跟進",
+        "detail": "已完成 12,000 通電話 • 5 分鐘前"
+      },
+      "whatsapp": {
+        "title": "WhatsApp 活動",
+        "detail": "25,000 則訊息已排隊 • 8 分鐘前"
+      }
+    },
+    "status": {
+      "liveRunning": "即時活動運行中",
+      "liveActivity": "即時活動：訊息正在發送中"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "1萬+",
+      "callsMax": "5千+",
+      "voicemailMax": "1千+",
+      "whatsappMax": "1萬+"
+    },
+    "breakdown": {
+      "localPlus": "本地 +",
+      "tollFreeMinus": "免費電話"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog"
   }
 }
