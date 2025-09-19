@@ -85,7 +85,7 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
               <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
               </svg>
-              {t('blog.nav.backToHome') || t('navigation.backToHome') || 'Back to Home'}
+              {t('blog.nav.backToHome') || 'Back to Home'}
             </a>
             <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
               {t('blog.hero.title') || 'Seasalt.ai'}{' '}
@@ -117,7 +117,7 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
                   id="tag-filter"
                   class="w-full px-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base"
                 >
-                  <option value="">{t('blog.filter.allCategories') || t('blog.allCategories') || 'All Categories'}</option>
+                  <option value="">{t('blog.filter.allCategories') || 'All Categories'}</option>
                   {allTags.map(tag => (
                     <option value={tag}>{tag}</option>
                   ))}

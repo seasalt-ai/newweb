@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.travel.seo.title') || 'SeaChat for Travel & Hospitality - Transform Travel Experiences';
-const seoDescription = t('seachat.solutions.travel.seo.description') || 'Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.';
-const seoKeywords = t('seachat.solutions.travel.seo.keywords') || 'SeaChat travel, hospitality, booking assistance, travel support, hotel management, flight booking, travel planning';
+const seoTitle = t('seachat.solutions.travel.title') || 'SeaChat for Travel & Hospitality - Transform Travel Experiences';
+const seoDescription = t('seachat.solutions.travel.subtitle') || 'Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.';
+const seoKeywords = t('seachat.solutions.travel.keywords') || 'SeaChat travel, hospitality, booking assistance, travel support, hotel management, flight booking, travel planning';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/travel`;

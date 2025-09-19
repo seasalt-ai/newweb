@@ -21,13 +21,14 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO data for the human agents page
-const title = t('seachat.features.humanAgents.title') || 'Human Agent Chat - SeaChat';
+const title = t('seachat.features.humanAgents.title') + ' - SeaChat' || 'Human Agent Chat - SeaChat';
 const description = t('seachat.features.humanAgents.subtitle') || 'Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.';
+const keywords = 'human agents, live chat, customer support, free agents, real humans, chat support';
 
 const seoData = {
-  title: `${title} | SeaChat`,
+  title,
   description,
-  keywords: 'human agents, live chat, customer support, free agents, real humans, chat support',
+  keywords,
   ogTitle: title,
   ogDescription: description,
   ogType: 'website'

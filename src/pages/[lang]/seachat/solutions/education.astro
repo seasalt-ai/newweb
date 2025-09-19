@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.education.seo.title') || 'SeaChat for Education - Streamline Student Support & Campus Communication';
-const seoDescription = t('seachat.solutions.education.seo.description') || 'Transform your educational institution with intelligent AI support for students, parents, faculty, and staff. Automate admissions, academic support, and campus operations.';
-const seoKeywords = t('seachat.solutions.education.seo.keywords') || 'SeaChat education, student support, campus communication, educational AI, admission automation, academic assistance';
+const seoTitle = t('seachat.solutions.education.title') || 'SeaChat for Education - Streamline Student Support & Campus Communication';
+const seoDescription = t('seachat.solutions.education.subtitle') || 'Transform your educational institution with intelligent AI support for students, parents, faculty, and staff. Automate admissions, academic support, and campus operations.';
+const seoKeywords = t('seachat.solutions.education.keywords') || 'SeaChat education, student support, campus communication, educational AI, admission automation, academic assistance';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/education`;

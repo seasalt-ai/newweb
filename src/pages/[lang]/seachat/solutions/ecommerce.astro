@@ -21,9 +21,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.ecommerce.seo.title') || 'SeaChat for E-commerce - Boost Sales & Reduce Cart Abandonment';
-const seoDescription = t('seachat.solutions.ecommerce.seo.description') || 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.';
-const seoKeywords = t('seachat.solutions.ecommerce.seo.keywords') || 'SeaChat ecommerce, online retail, cart abandonment, sales conversion, customer support, shopping assistance';
+const seoTitle = t('seachat.solutions.ecommerce.title') || 'SeaChat for E-commerce - Boost Sales & Reduce Cart Abandonment';
+const seoDescription = t('seachat.solutions.ecommerce.subtitle') || 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.';
+const seoKeywords = t('seachat.solutions.ecommerce.keywords') || 'SeaChat ecommerce, online retail, cart abandonment, sales conversion, customer support, shopping assistance';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/ecommerce`;

@@ -124,8 +124,8 @@ const benefits = [
 ];
 
 // SEO metadata
-const seoTitle = t('seachat.integrations.socialMedia.seo.title');
-const seoDescription = t('seachat.integrations.socialMedia.seo.description');
+const seoTitle = t('seachat.integrations.social.title');
+const seoDescription = t('seachat.integrations.social.subtitle');
 const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/social-media`;
 ---
 
@@ -153,10 +153,10 @@ const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/social-med
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://chat.seasalt.ai/gpt/signup" class="bg-pink-500 hover:bg-pink-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center">
-              {t('seachat.integrations.social.connectButton')}
+              {t('seachat.integrations.social.ctaConnectButton')}
             </a>
             <a href={getMeetingUrl(lang as string)} class="border-2 border-white text-white hover:bg-white hover:text-pink-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center">
-              {t('seachat.integrations.social.demoButton')}
+              {t('seachat.integrations.social.ctaGuideButton')}
             </a>
           </div>
         </div>
@@ -253,10 +253,10 @@ const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/social-med
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="https://chat.seasalt.ai/gpt/signup" class="bg-white text-pink-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
-            {t('seachat.integrations.social.ctaButton')}
+            {t('seachat.integrations.social.ctaConnectButton')}
           </a>
           <a href={getMeetingUrl(lang as string)} class="border-2 border-white text-white hover:bg-white hover:text-pink-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
-            {t('seachat.integrations.social.ctaDemoButton')}
+            {t('seachat.integrations.social.ctaGuideButton')}
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>

@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.fintech.seo.title') || 'SeaChat for Fintech - Secure Financial Customer Support';
-const seoDescription = t('seachat.solutions.fintech.seo.description') || 'Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.';
-const seoKeywords = t('seachat.solutions.fintech.seo.keywords') || 'fintech customer support, financial AI, banking chatbot, compliance, transaction support, investment guidance';
+const seoTitle = t('seachat.solutions.fintech.title') || 'SeaChat for Fintech - Secure Financial Customer Support';
+const seoDescription = t('seachat.solutions.fintech.subtitle') || 'Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.';
+const seoKeywords = t('seachat.solutions.fintech.keywords') || 'fintech customer support, financial AI, banking chatbot, compliance, transaction support, investment guidance';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/fintech`;

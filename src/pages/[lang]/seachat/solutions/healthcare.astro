@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.healthcare.seo.title') || 'SeaChat for Healthcare - HIPAA Compliant Patient Support';
-const seoDescription = t('seachat.solutions.healthcare.seo.description') || 'Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.';
-const seoKeywords = t('seachat.solutions.healthcare.seo.keywords') || 'healthcare customer support, HIPAA compliant, patient engagement, telehealth, appointment scheduling, medical AI';
+const seoTitle = t('seachat.solutions.healthcare.title') || 'SeaChat for Healthcare - HIPAA Compliant Patient Support';
+const seoDescription = t('seachat.solutions.healthcare.subtitle') || 'Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.';
+const seoKeywords = t('seachat.solutions.healthcare.keywords') || 'healthcare customer support, HIPAA compliant, patient engagement, telehealth, appointment scheduling, medical AI';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/healthcare`;

@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata
-const seoTitle = t('seachat.solutions.smallBusiness.seo.title') || 'SeaChat for Small Business - Affordable AI Customer Support Solutions';
-const seoDescription = t('seachat.solutions.smallBusiness.seo.description') || 'Affordable, easy-to-use customer support for small businesses. Start free and grow with features that help you serve customers better without breaking the bank.';
-const seoKeywords = t('seachat.solutions.smallBusiness.seo.keywords') || 'SeaChat small business, affordable customer support, small business AI, local business solutions, SMB customer service, cost-effective support';
+const seoTitle = t('seachat.solutions.smallBusiness.title') || 'SeaChat for Small Business - Affordable AI Customer Support Solutions';
+const seoDescription = t('seachat.solutions.smallBusiness.subtitle') || 'Affordable, easy-to-use customer support for small businesses. Start free and grow with features that help you serve customers better without breaking the bank.';
+const seoKeywords = t('seachat.solutions.smallBusiness.keywords') || 'SeaChat small business, affordable customer support, small business AI, local business solutions, SMB customer service, cost-effective support';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/small-business`;

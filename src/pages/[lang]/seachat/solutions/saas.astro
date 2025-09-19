@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata
-const seoTitle = t('seachat.solutions.saas.seo.title') || 'SeaChat for SaaS - AI Customer Support for Software Companies';
-const seoDescription = t('seachat.solutions.saas.seo.description') || 'Transform SaaS customer success with SeaChat\'s AI-powered support that handles technical questions, onboarding, and user adoption to reduce churn and drive growth.';
-const seoKeywords = t('seachat.solutions.saas.seo.keywords') || 'SeaChat SaaS, AI customer support, software customer success, technical support automation, user onboarding, SaaS solutions';
+const seoTitle = t('seachat.solutions.saas.title') || 'SeaChat for SaaS - AI Customer Support for Software Companies';
+const seoDescription = t('seachat.solutions.saas.subtitle') || 'Transform SaaS customer success with SeaChat\'s AI-powered support that handles technical questions, onboarding, and user adoption to reduce churn and drive growth.';
+const seoKeywords = t('seachat.solutions.saas.keywords') || 'SeaChat SaaS, AI customer support, software customer success, technical support automation, user onboarding, SaaS solutions';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/saas`;

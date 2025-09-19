@@ -25,9 +25,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t, translations } = await getTranslationHelpers(currentLang);
 
 // SEO 設定
-const title = t('seo.seachat.pricing.title') || 'SeaChat Pricing - Choose Your Plan | SeaSalt.ai';
-const description = t('seo.seachat.pricing.description') || 'Transparent pricing for SeaChat AI-powered chatbot platform. Start free with unlimited contacts. Scale with premium features and enterprise support.';
-const keywords = t('seo.seachat.pricing.keywords') || 'SeaChat pricing, AI chatbot cost, customer service automation pricing, chatbot platform plans, conversational AI pricing';
+const title = t('seachat.pricing.title') + ' - SeaChat | SeaSalt.ai' || 'SeaChat Pricing - Choose Your Plan | SeaSalt.ai';
+const description = t('seachat.pricing.subtitle') || 'Transparent pricing for SeaChat AI-powered chatbot platform. Start free with unlimited contacts. Scale with premium features and enterprise support.';
+const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation pricing, chatbot platform plans, conversational AI pricing';
 
 ---
 

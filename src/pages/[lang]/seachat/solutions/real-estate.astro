@@ -22,9 +22,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata - 使用與舊版本相同的翻譯鍵
-const seoTitle = t('seachat.solutions.realEstate.seo.title') || 'SeaChat for Real Estate - Capture Leads & Schedule Showings';
-const seoDescription = t('seachat.solutions.realEstate.seo.description') || 'Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.';
-const seoKeywords = t('seachat.solutions.realEstate.seo.keywords') || 'SeaChat real estate, property management, lead generation, showing coordination, real estate agent, property search';
+const seoTitle = t('seachat.solutions.realEstate.title') || 'SeaChat for Real Estate - Capture Leads & Schedule Showings';
+const seoDescription = t('seachat.solutions.realEstate.subtitle') || 'Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.';
+const seoKeywords = t('seachat.solutions.realEstate.keywords') || 'SeaChat real estate, property management, lead generation, showing coordination, real estate agent, property search';
 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/real-estate`;
