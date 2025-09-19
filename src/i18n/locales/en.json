@@ -865,6 +865,11 @@
       }
     },
     "websiteChat": {
+      "seo": {
+        "title": "Website Chat Widget Integration - Seasalt.ai",
+        "description": "Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity with our customizable chat solution.",
+        "keywords": "website chat widget, live chat software, website support, lead capture, customer engagement, chat integration"
+      },
       "navigation": {
         "backToChannels": "Back to Channels"
       },
@@ -959,6 +964,11 @@
       }
     },
     "instagram": {
+      "seo": {
+        "title": "Instagram DM Automation - AI-Powered Customer Service | Seasalt.ai",
+        "description": "Scale your Instagram customer service with AI automation. Handle thousands of DMs while maintaining personal touch. Perfect for brands, influencers, and businesses.",
+        "keywords": "Instagram DM automation, Instagram customer service, social media automation, influencer tools, Instagram business, AI chat"
+      },
       "navigation": {
         "backToChannels": "Back to Channels"
       },
@@ -1060,6 +1070,11 @@
       }
     },
     "facebookMessenger": {
+      "seo": {
+        "title": "Facebook Messenger Business Integration - AI Social Commerce | Seasalt.ai",
+        "description": "Transform Facebook Messenger into a sales machine with AI-powered conversations. Integrate with Facebook Shop for seamless social commerce and automated customer service.",
+        "keywords": "Facebook Messenger business, social commerce, Facebook Shop integration, Messenger automation, social media sales, AI customer service"
+      },
       "navigation": {
         "backToChannels": "Back to Channels"
       },
@@ -6496,6 +6511,18 @@
       "description": "Get the latest articles on AI automation, customer experience, and business growth delivered straight to your inbox.",
       "emailPlaceholder": "Enter your email",
       "subscribeButton": "Subscribe"
+    },
+    "details": {
+      "share": "Share",
+      "availableIn": "Available in:",
+      "tableOfContents": "Table of Contents",
+      "relatedArticles": "Related Articles",
+      "cta": {
+        "title": "Ready to Transform Your Customer Communications?",
+        "description": "See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.",
+        "signUp": "Sign Up",
+        "scheduleDemo": "Schedule Demo"
+      }
     }
   },
   "careers": {
@@ -7939,6 +7966,13 @@
         "subtitle": "Join thousands of growing businesses who switched from Aircall to get all the features they need without the complexity and hidden costs.",
         "signUp": "Sign Up",
         "bookDemo": "Book A Demo"
+      }
+    },
+    "ringCentralAlternative": {
+      "seo": {
+        "title": "RingCentral Alternative - Unified Contact Center vs Fragmented Solutions | Seasalt.ai",
+        "description": "Discover why Seasalt.ai's truly unified contact center outperforms RingCentral's fragmented UCaaS and CCaaS approach. Compare pricing, features, and architecture.",
+        "keywords": "RingCentral alternative, unified contact center, business phone system, VoIP solution, UCaaS alternative"
       }
     },
     "ringcentral": {
@@ -17830,6 +17864,31 @@
         "title": "24/7 Virtual Assistant | SeaVoice AI Voice Solutions - Seasalt.ai",
         "description": "Provide round-the-clock customer service with SeaVoice AI Virtual Assistant. Intelligent voice agents handle customer inquiries, appointment scheduling, and support requests, improving satisfaction while reducing costs.",
         "keywords": "virtual assistant, AI voice assistant, 24/7 customer service, intelligent customer service, SeaVoice, voice automation, customer service automation"
+      },
+      "ivrReplacement": {
+        "title": "IVR Replacement with Natural Language - SeaVoice AI | Seasalt.ai",
+        "description": "Replace frustrating phone trees with natural language understanding. Transform your IVR system for better customer experience with AI-powered voice interactions.",
+        "keywords": "IVR replacement, natural language IVR, phone menu alternative, voice AI, customer experience, automated phone system"
+      },
+      "mentalHealth": {
+        "title": "Mental Health Voice Companion - 24/7 AI Support | SeaVoice",
+        "description": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+        "keywords": "mental health AI, crisis intervention, voice companion, 24/7 support, empathetic AI, mental health screening"
+      },
+      "scamShield": {
+        "title": "Scam Shield Protection - AI-Powered Fraud Detection | SeaVoice",
+        "description": "Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time.",
+        "keywords": "scam shield, fraud detection, phone scam protection, AI security, SeaVoice, call protection"
+      },
+      "surveys": {
+        "title": "Customer Survey Automation | SeaVoice AI Voice Solutions - Seasalt.ai",
+        "description": "Gather valuable customer feedback through natural voice conversations. Conduct automated surveys that feel personal and engaging, achieving higher response rates.",
+        "keywords": "customer surveys, voice surveys, AI voice automation, feedback collection, CSAT surveys, post-purchase surveys, market research, SeaVoice"
+      },
+      "reactivation": {
+        "title": "Customer Reactivation Campaigns - SeaVoice AI",
+        "description": "Win back inactive customers with personalized AI-powered outreach campaigns. Re-engage past customers with compelling offers and rebuild valuable relationships.",
+        "keywords": "customer reactivation, win-back campaigns, AI outreach, personalized marketing, customer retention, SeaVoice"
       }
     }
   },
@@ -17915,19 +17974,5 @@
   "nav": {
     "home": "Home",
     "blog": "Blog"
-  },
-  "blog": {
-    "details": {
-      "share": "Share",
-      "availableIn": "Available in:",
-      "tableOfContents": "Table of Contents",
-      "relatedArticles": "Related Articles",
-      "cta": {
-        "title": "Ready to Transform Your Customer Communications?",
-        "description": "See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.",
-        "signUp": "Sign Up",
-        "scheduleDemo": "Schedule Demo"
-      }
-    }
   }
 }
