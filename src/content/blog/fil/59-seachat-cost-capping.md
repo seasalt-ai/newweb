@@ -10,7 +10,7 @@ publishDate: '2023-12-21'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
+  url: /images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
   alt: Pagpigil sa Pang-aabuso at Pamamahala ng Gastos para sa AI Agents
 tags:
 - SeaChat

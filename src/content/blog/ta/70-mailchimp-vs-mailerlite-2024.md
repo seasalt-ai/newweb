@@ -7,7 +7,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
+  url: /images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
   alt: 'Mailchimp vs. MailerLite: 2025 இல் எந்த மின்னஞ்சல் சந்தைப்படுத்தல் சேவை உங்களுக்கு
     சரியானது?'
 tags:

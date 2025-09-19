@@ -7,7 +7,7 @@ description: Discover how Seasalt.ai's transformative omni-channel contact cente
 publishDate: '2023-06-25'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: 'Customer Story: How Seax Helped Top Mobile Phone Brand Support Customers Across
     100 Countries'
 tags:

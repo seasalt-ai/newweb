@@ -6,7 +6,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: '음성 AI 에이전트: 음성 AI 에이전트를 전화에 연결하고 제품 서비스 질문에 24시간 연중무휴 답변'
 tags:
 - SeaChat

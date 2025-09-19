@@ -8,7 +8,7 @@ publishDate: '2023-12-17'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
+  url: /images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
   alt: 'Android மற்றும் iPhone இல் AI அழைப்புத் திரைகள்: உங்கள் தனிப்பட்ட உதவியாளர்
     மற்றும் வாயிற்காப்பாளர்'
 tags:

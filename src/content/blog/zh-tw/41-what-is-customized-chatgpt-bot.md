@@ -5,7 +5,7 @@ description: 客製化ChatGPT機器人如何顛覆傳統的客服模式，並帶
 publishDate: '2023-10-24'
 author: Xuchen Yao
 image:
-  url: images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
+  url: /images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
   alt: 什麼是客製化的ChatGPT？如何應用於商業加強客戶體驗
 tags:
 - SeaChat

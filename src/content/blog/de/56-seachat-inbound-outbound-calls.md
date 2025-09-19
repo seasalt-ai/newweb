@@ -8,7 +8,7 @@ publishDate: '2023-12-18'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
+  url: /images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
   alt: Eingehende und ausgehende Anrufe, KI-Telefonagenten können für Sie bei beidem
     arbeiten
 tags:

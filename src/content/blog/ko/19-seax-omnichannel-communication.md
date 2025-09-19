@@ -6,7 +6,7 @@ publishDate: '2022-07-15'
 updatedDate: '2025-08-02'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: SeaX 옴니채널 커뮤니케이션으로 모든 채널의 고객을 한 곳으로 모으세요
 tags:
 - SeaX

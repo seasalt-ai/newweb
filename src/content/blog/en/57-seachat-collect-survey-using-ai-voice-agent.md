@@ -6,7 +6,7 @@ description: Discover the future of survey creation with an AI voice agent! Effo
 publishDate: '2023-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
+  url: /images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
   alt: Easy Survey Collection with an AI Voice Agent
 tags:
 - SeaChat

@@ -7,7 +7,7 @@ publishDate: '2022-05-23'
 updatedDate: '2025-08-01'
 author: Kim Dodds
 image:
-  url: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+  url: /images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
   alt: 'Discord (1/3): O nouă frontieră pentru implicarea clienților'
 tags:
 - SeaX

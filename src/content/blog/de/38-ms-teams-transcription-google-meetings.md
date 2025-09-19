@@ -6,7 +6,7 @@ description: Entdecken Sie die KI-Meeting-Assistenten von Microsoft Teams und Go
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'KI-Meeting-Assistenten im Vergleich: Microsoft Teams vs. Google Meet'
 tags:
 - SeaMeet

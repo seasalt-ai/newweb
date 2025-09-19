@@ -4,7 +4,7 @@ description: 在這篇部落格中，我們將展示 SeaX 的大量簡訊功能�
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: SeaX 大量簡訊：更快、更有效的客戶拓展
 tags:
 - SeaX

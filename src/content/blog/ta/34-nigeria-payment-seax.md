@@ -8,7 +8,7 @@ publishDate: '2023-06-30'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'வாடிக்கையாளர் கதை: நைஜீரியாவின் டிஜிட்டல் கட்டணத் துறையில் தொடர்பு மைய வெற்றி'
 tags:
 - SeaX

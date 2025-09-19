@@ -5,7 +5,7 @@ description: Near Me Messaging integrates Conversational AI with Google Business
 publishDate: '2022-04-12'
 author: Ruli Setiawati
 image:
-  url: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+  url: /images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
   alt: Near Me Messaging Complements Google Business Messages
 tags:
 - NearMe

@@ -5,7 +5,7 @@ description: 'In this blog, we will look at ''distributed'' contact centers: wha
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Expand Your Contact Center Footprint with a Distributed Contact Center
 tags:
 - SeaX

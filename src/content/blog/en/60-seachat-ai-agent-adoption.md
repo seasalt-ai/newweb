@@ -7,7 +7,7 @@ description: Smoothly navigate AI adoption within your organization with SeaChat
 publishDate: '2023-12-22'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: SeaChat's No-Code AI Agent Builder Makes AI Adoption a Breeze
 tags:
 - SeaChat

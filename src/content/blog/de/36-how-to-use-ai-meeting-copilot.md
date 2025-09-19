@@ -12,7 +12,7 @@ description: Mit der Entstehung großer Sprachmodelle wie ChatGPT hat generative
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Wie Sie Echtzeit-Transkription und KI-Meeting-Notizen nutzen können, um die
     Effizienz von Team-Meetings zu steigern
 tags:

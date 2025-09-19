@@ -7,7 +7,7 @@ description: Rolul revoluționar al roboților ChatGPT personalizați în servic
 publishDate: '2023-11-01'
 author: Xuchen Yao
 image:
-  url: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
+  url: /images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
   alt: Cum să folosești ChatGPT pentru serviciul clienți online
 tags:
 - SeaChat

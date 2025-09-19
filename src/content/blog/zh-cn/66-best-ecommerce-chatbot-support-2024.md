@@ -5,7 +5,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
+  url: /images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
   alt: 2025年最佳电子商务网站建设者：聊天机器人支持及其他
 tags:
 - SeaChat

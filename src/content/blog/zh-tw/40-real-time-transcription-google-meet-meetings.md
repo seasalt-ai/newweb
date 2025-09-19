@@ -4,7 +4,7 @@ description: 實時逐字稿與會議分析功能改變了會議的運作方式�
 publishDate: '2023-10-09'
 author: Xuchen Yao
 image:
-  url: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
+  url: /images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
   alt: 實時逐字稿與會議分析功能如何改變Google Meet會議
 tags:
 - SeaMeet

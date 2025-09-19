@@ -8,7 +8,7 @@ publishDate: '2022-01-26'
 updatedDate: '2025-08-05'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'Tự động hóa Trung tâm Liên hệ được kích hoạt bởi AI: Cộng tác viên ảo với
     CRM'
 tags:

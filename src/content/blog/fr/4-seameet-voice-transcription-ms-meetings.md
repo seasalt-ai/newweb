@@ -5,7 +5,7 @@ description: Dans la deuxième partie de cette série de blogs, suivez le parcou
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Du démo au succès : Les pièges des réunions modernes (2/5)'
 tags:
 - SeaMeet

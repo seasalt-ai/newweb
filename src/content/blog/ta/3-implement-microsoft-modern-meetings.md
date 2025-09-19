@@ -6,7 +6,7 @@ description: இந்த வலைப்பதிவு தொடரின் �
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'டெமோவிலிருந்து வெற்றிக்கு: மைக்ரோசாப்டின் நவீன கூட்டங்களை செயல்படுத்துதல்
     மற்றும் அதற்கு அப்பால் (1/5)'
 tags:

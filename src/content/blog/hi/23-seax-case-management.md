@@ -7,7 +7,7 @@ publishDate: '2022-08-17'
 updatedDate: '2025-07-29'
 author: Sarah Reid
 image:
-  url: images/blog/23-seax-case-management/0-main.png
+  url: /images/blog/23-seax-case-management/0-main.png
   alt: 'SeaX केस मैनेजमेंट: अपने संपर्क केंद्र के केस ट्रैकिंग पर नियंत्रण रखें'
 tags:
 - SeaX

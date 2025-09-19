@@ -7,7 +7,7 @@ description: Explore how SeaChat, an AI agent no-code builder, tackles customer 
 publishDate: '2023-12-21'
 author: Xuchen Yao
 image:
-  url: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
+  url: /images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
   alt: Preventing Abuse and Managing Costs for AI Agents
 tags:
 - SeaChat

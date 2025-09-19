@@ -10,7 +10,7 @@ publishDate: '2023-11-02'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: ChatGPT ஐப் பயன்படுத்தி நிறுவனத்தின் அறிவுத் தளத்தை உருவாக்குதல்
 tags:
 - SeaChat

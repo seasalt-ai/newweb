@@ -6,7 +6,7 @@ description: Jelajahi asisten rapat AI Microsoft Teams dan Google Meet, bandingk
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'Pertarungan Asisten Rapat AI: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

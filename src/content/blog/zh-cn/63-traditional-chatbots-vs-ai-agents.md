@@ -5,7 +5,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 企业应了解的关于聊天机器人的知识：从传统聊天机器人到 LLM 代理的演变
 tags:
 - SeaChat

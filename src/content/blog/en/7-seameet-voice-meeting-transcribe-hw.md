@@ -5,7 +5,7 @@ description: In the last part of this blog series, follow Seasalt.ai’s journey
 publishDate: '2021-09-15'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'From Demo to Success: Beyond Hardware (5/5)'
 tags:
 - SeaMeet

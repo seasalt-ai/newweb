@@ -7,7 +7,7 @@ publishDate: '2023-12-18'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
+  url: /images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
   alt: تماس‌های ورودی و خروجی، عامل تلفنی هوش مصنوعی می‌تواند برای شما در هر دو مورد
     کار کند
 tags:

@@ -5,7 +5,7 @@ description: MailerLite vs. ConverKit, Какая служба электрон�
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: Какая служба email-маркетинга подходит вам в 2025 году?'
 tags:
 - SeaChat

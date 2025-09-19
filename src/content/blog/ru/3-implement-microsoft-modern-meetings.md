@@ -6,7 +6,7 @@ description: В первой части этой серии блогов про�
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'От демонстрации к успеху: внедрение современных совещаний Microsoft и не только
     (1/5)'
 tags:

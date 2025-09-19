@@ -5,7 +5,7 @@ description: In this article, we will walk you through Google Business Profile, 
 publishDate: '2022-03-23'
 author: Ruli Setiawati
 image:
-  url: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+  url: /images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
   alt: 'Business Owners: Don’t Miss Out Customers Messages on Google Maps!'
 tags:
 - NearMe

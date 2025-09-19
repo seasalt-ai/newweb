@@ -4,7 +4,7 @@ description: 實時轉錄Google Meet會議方法探討，從內置功能到Seasa
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: 如何實時轉錄Google Meet會議？
 tags:
 - SeaMeet

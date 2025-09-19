@@ -7,7 +7,7 @@ publishDate: '2022-07-27'
 updatedDate: '2025-07-28'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: एक वितरित संपर्क केंद्र के साथ अपने संपर्क केंद्र के पदचिह्न का विस्तार करें
 tags:
 - SeaX

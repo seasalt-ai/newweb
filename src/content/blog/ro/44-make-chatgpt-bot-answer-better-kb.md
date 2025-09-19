@@ -9,7 +9,7 @@ description: Cum să construiești un bot ChatGPT personalizat care răspunde cu
 publishDate: '2023-10-30'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: Cum să creezi un bot ChatGPT personalizat care răspunde cu precizie
 tags:
 - SeaChat

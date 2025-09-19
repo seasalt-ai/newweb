@@ -5,7 +5,7 @@ publishDate: '2023-10-06'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
+  url: /images/blog/39-how-to-use-copilot-on-google-meet-meetings/39-how-to-use-copilot-on-google-meet-meetings.jpeg
   alt: Google Meet将推出AI Copilot提升你的会议效率
 tags:
 - SeaMeet

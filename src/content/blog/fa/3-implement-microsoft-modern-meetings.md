@@ -5,7 +5,7 @@ description: در اولین قسمت از این مجموعه وبلاگ، سف
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'از دمو تا موفقیت: پیاده سازی جلسات مدرن مایکروسافت و فراتر از آن (1/5)'
 tags:
 - SeaMeet

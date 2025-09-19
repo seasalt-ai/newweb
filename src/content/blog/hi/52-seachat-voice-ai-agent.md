@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'वॉयस एआई एजेंट: वॉयस एआई एजेंट को फोन से कनेक्ट करें और किसी भी उत्पाद सेवा
     के प्रश्नों का 24/7 उत्तर दें'
 tags:

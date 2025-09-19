@@ -11,7 +11,7 @@ publishDate: '2023-11-02'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: Erstellen Sie einen maßgeschneiderten KI-Chatbot für Ihr Unternehmen - Custom
     ChatGPT Bot für interne Unternehmenswissensdatenbank
 tags:

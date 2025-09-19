@@ -6,7 +6,7 @@ description: Discover the game-changing potential of AI phone agents in customer
 publishDate: '2023-12-18'
 author: Xuchen Yao
 image:
-  url: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
+  url: /images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
   alt: Inbound and Outbound Calls, AI Phone Agent Can Work for You on Both
 tags:
 - SeaChat

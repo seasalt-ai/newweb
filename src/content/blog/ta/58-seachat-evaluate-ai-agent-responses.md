@@ -6,7 +6,7 @@ description: SeaChat AI Agent பதில்களை குறிக்க, �
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'AI Agent பதில்களை மதிப்பீடு செய்வது எப்படி: SeaChat-ன் AI Agent மேம்பாடு மற்றும்
     கட்டுப்பாட்டு முறை'
 tags:

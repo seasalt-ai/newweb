@@ -6,7 +6,7 @@ description: Na primeira parte desta série de blogs, acompanhe a jornada da Sea
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Da demonstração ao sucesso: implementando as reuniões modernas da Microsoft
     e além (1/5)'
 tags:

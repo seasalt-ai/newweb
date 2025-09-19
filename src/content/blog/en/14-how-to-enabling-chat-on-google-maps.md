@@ -5,7 +5,7 @@ description: In this blog, we will look at the three different methods to enable
 publishDate: '2022-04-29'
 author: Ruli Setiawati
 image:
-  url: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+  url: /images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
   alt: Ultimate Guide to Enabling Chat on Google Maps to Connect With Customers
 tags:
 - NearMe

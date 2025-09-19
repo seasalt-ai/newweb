@@ -6,7 +6,7 @@ description: W tym blogu omówimy nasze ustalenia dotyczące tego, jak prawdziwi
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Mowa na tekst w Discordzie: studium przypadku bota Discord STT'
 tags:
 - SeaVoice

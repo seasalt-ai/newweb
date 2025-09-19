@@ -9,7 +9,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: 'Customer Story: Paano Tinulungan ng Seax ang Nangungunang Brand ng Mobile
     Phone na Suportahan ang mga Customer sa 100 Bansa'
 tags:

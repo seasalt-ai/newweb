@@ -5,7 +5,7 @@ description: En la segunda parte de esta serie de blogs, siga el viaje de Seasal
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Del demo al éxito: Trampas de las reuniones modernas (2/5)'
 tags:
 - SeaMeet

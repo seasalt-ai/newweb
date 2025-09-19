@@ -5,7 +5,7 @@ publishDate: '2023-10-01'
 updatedDate: '2024-07-01'
 author: Kim Dodds
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: Excel、Googleスプレッドシート、Apple Numbersで連絡先に一括SMSを送信する正しい方法
 tags:
 - 一括SMS

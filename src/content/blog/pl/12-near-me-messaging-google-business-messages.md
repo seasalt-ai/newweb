@@ -7,7 +7,7 @@ publishDate: '2022-04-12'
 updatedDate: '2025-07-28'
 author: Ruli Setiawati
 image:
-  url: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+  url: /images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
   alt: Near Me Messaging uzupełnia Google Business Messages
 tags:
 - NearMe

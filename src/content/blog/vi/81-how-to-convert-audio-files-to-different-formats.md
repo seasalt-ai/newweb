@@ -7,7 +7,7 @@ description: Tìm hiểu về các công cụ chuyển đổi tệp âm thanh, c
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Hướng dẫn toàn diện về chuyển đổi âm thanh: Chuyển đổi tệp âm thanh dễ dàng
     | Chuỗi công cụ âm thanh'
 tags:

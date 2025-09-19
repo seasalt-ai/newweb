@@ -6,7 +6,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Jun Mao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: '고객 사례: 아시아 주요 은행이 다국어 및 개인 정보 보호 중심 고객 지원을 제공하도록 지원'
 tags:
 - SeaX

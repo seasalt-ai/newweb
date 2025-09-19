@@ -9,7 +9,7 @@ publishDate: '2023-10-26'
 updatedDate: '2024-07-08'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: 'Кастомный чат-бот ChatGPT: поддержка одновременно LINE и веб-бота'
 tags:
 - SeaChat

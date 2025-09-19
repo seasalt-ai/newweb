@@ -13,7 +13,7 @@ publishDate: '2023-10-02'
 updatedDate: '2025-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Làm thế nào để sử dụng bản ghi thời gian thực và ghi chú cuộc họp AI để nâng
     cao hiệu quả cuộc họp nhóm?
 tags:

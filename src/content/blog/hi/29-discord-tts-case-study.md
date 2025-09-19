@@ -7,7 +7,7 @@ publishDate: '2022-12-27'
 updatedDate: '2025-07-29'
 author: Kim Dodds
 image:
-  url: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+  url: /images/blog/29-tts-case-study/discord-tts-accessibility.jpg
   alt: 'डिस्कॉर्ड पर टेक्स्ट-टू-स्पीच: एक टीटीएस डिस्कॉर्ड बॉट केस स्टडी'
 tags:
 - SeaVoice

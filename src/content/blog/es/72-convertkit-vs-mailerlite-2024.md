@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: ¿Qué servicio de email marketing es el adecuado para usted
     en 2025?'
 tags:

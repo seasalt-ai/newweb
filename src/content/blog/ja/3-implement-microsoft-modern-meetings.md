@@ -4,7 +4,7 @@ description: このブログシリーズの最初の部分では、SeaMeet、私
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: デモから成功へ：マイクロソフトのモダンミーティングとその先の実装（1/5）
 tags:
 - SeaMeet

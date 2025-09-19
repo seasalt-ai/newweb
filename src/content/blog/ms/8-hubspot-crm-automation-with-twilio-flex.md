@@ -6,7 +6,7 @@ description: Dalam blog ini, kami akan meneroka integrasi CRM seperti HubSpot ke
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'Automasi Pusat Hubungan Berasaskan AI: Kolaborasi Ejen Maya dengan CRM'
 tags:
 - HubSpot

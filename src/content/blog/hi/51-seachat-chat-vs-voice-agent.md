@@ -8,7 +8,7 @@ publishDate: '2023-12-12'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
+  url: /images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
   alt: 'वॉयस एआई एजेंट बनाम चैट एआई एजेंट: आपके व्यवसाय के लिए SeaChat के एआई समाधानों
     को नेविगेट करना'
 tags:

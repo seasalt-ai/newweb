@@ -6,7 +6,7 @@ description: MailerLite vs. ActiveCampaign, Which email service is right for you
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
+  url: /images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
   alt: 'ActiveCampaign vs. MailerLite: Which Email Marketing Service is Right for
     You in 2025?'
 tags:

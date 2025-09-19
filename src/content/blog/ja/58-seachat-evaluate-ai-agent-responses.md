@@ -4,7 +4,7 @@ description: SeaChatを使用すると、AIエージェントの応答をフラ�
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: AIエージェントの応答を評価する方法：SeaChatのAIエージェント改善と制御のためのレビューシステム
 tags:
 - SeaChat

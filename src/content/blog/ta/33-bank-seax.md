@@ -10,7 +10,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'வாடிக்கையாளர் கதை: ஆசியாவின் ஒரு பெரிய வங்கிக்கு பல மொழி மற்றும் தனியுரிமை
     சார்ந்த ஆதரவை வாடிக்கையாளர்களுக்கு வழங்க அதிகாரம் அளித்தல்'
 tags:

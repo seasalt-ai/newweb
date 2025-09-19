@@ -8,7 +8,7 @@ publishDate: '2023-11-04'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: Paano Ginagamit ng mga Kumpanya ang mga Custom AI Chatbot para Gawing Mas Madali
     ang Training ng mga Empleyado
 tags:

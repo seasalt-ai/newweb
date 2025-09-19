@@ -12,7 +12,7 @@ description: Cum roboții de chat personalizați ChatGPT subminează modelul tra
 publishDate: '2023-10-26'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: Robot de chat personalizat ChatGPT, care acceptă simultan LINE și robotul web
 tags:
 - SeaChat

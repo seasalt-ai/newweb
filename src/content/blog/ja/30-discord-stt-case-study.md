@@ -4,7 +4,7 @@ description: このブログでは、数週間にわたる実際の音声テキ�
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: Discordでの音声テキスト変換：STT Discordボットのケーススタディ
 tags:
 - SeaVoice

@@ -7,7 +7,7 @@ publishDate: '2022-12-27'
 updatedDate: '2025-08-01'
 author: Kim Dodds
 image:
-  url: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+  url: /images/blog/29-tts-case-study/discord-tts-accessibility.jpg
   alt: 'Text-to-Speech pe Discord: Un studiu de caz al botului TTS Discord'
 tags:
 - SeaVoice

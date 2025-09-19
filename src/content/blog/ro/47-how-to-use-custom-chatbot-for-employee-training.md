@@ -8,7 +8,7 @@ description: Explorați rolul revoluționar al chatbot-urilor AI personalizate �
 publishDate: '2023-11-04'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: Cum pot companiile să folosească chatbot-uri AI personalizate pentru a simplifica
     instruirea angajaților
 tags:

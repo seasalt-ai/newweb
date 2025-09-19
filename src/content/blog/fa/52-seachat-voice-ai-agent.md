@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'عامل صوتی هوش مصنوعی: اتصال عامل صوتی هوش مصنوعی به تلفن و پاسخگویی 24/7 به
     هرگونه سوالات خدمات محصول'
 tags:

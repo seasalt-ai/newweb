@@ -7,7 +7,7 @@ description: Explore SeaChat's AI solutions for businesses, Voice AI Agent for v
 publishDate: '2023-12-12'
 author: Xuchen Yao
 image:
-  url: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
+  url: /images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
   alt: 'Voice AI Agent vs. Chat AI Agent: Navigating SeaChat’s AI Solutions for Your
     Business'
 tags:

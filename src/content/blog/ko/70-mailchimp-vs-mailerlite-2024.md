@@ -5,7 +5,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
+  url: /images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
   alt: '메일침프 vs. 메일러라이트: 2025년 당신에게 적합한 이메일 마케팅 서비스는?'
 tags:
 - SeaChat

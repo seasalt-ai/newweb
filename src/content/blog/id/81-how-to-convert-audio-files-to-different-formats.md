@@ -7,7 +7,7 @@ description: Pelajari tentang konverter file audio, konversi format suara, dan p
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Panduan Lengkap Anda untuk Konversi Audio: Konversi File Suara dengan Mudah
     | Seri Kotak Alat Audio'
 tags:

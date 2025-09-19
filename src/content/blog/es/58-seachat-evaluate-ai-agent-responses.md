@@ -6,7 +6,7 @@ description: SeaChat te permite marcar, revisar y mejorar las respuestas de los 
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Cómo Evaluar las Respuestas de Agentes de IA: El Sistema de Revisión de SeaChat
     para la Mejora y el Control de Agentes de IA'
 tags:

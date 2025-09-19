@@ -6,7 +6,7 @@ publishDate: '2023-12-22'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: SeaChat 的無程式碼 AI 代理建構器讓 AI 採用變得輕而易舉
 tags:
 - SeaChat

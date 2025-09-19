@@ -9,7 +9,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'ग्राहक कहानी: एक प्रमुख एशियाई बैंक को बहुभाषी और गोपनीयता-केंद्रित ग्राहक
     सहायता प्रदान करने के लिए सशक्त बनाना'
 tags:

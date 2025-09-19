@@ -6,7 +6,7 @@ description: Pinapayagan ka ng SeaChat na i-flag, suriin, at pagbutihin ang mga 
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Paano Suriin ang mga Tugon ng AI Agent: Sistema ng Pagsusuri ng SeaChat para
     sa Pagpapabuti at Pagkontrol ng AI Agent'
 tags:

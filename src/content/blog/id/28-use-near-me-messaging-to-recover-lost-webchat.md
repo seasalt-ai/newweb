@@ -7,7 +7,7 @@ publishDate: '2022-12-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+  url: /images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
   alt: 'Pengguna telah meninggalkan obrolan web: gunakan Pesan di Sekitar untuk mengirim
     pesan kepada mereka!'
 tags:

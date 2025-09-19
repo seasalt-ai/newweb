@@ -6,7 +6,7 @@ publishDate: '2022-04-19'
 updatedDate: '2025-07-29'
 author: Ruli Setiawati
 image:
-  url: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+  url: /images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
   alt: أطلق وكيلك الافتراضي على خرائط Google باستخدام ميزة المراسلة القريبة مني
 tags:
 - NearMe

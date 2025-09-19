@@ -7,7 +7,7 @@ publishDate: '2023-12-24'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: உங்கள் வணிகத்திற்கு 24/7 தொலைபேசி இணைப்புடன் சிறந்த குரல் ஏஜென்ட் சாட்பாட்
     உருவாக்குவது எப்படி
 tags:

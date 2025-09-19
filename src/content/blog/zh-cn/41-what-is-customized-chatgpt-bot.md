@@ -5,7 +5,7 @@ publishDate: '2023-10-24'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
+  url: /images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
   alt: 什么是定制化的ChatGPT？如何应用于商业加强客户体验
 tags:
 - SeaChat

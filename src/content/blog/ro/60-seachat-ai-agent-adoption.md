@@ -8,7 +8,7 @@ publishDate: '2023-12-22'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: Constructorul de agenți AI fără cod al SeaChat face adoptarea AI o briză
 tags:
 - SeaChat

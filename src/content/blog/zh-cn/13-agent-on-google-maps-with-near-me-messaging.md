@@ -5,7 +5,7 @@ publishDate: '2022-04-19'
 updatedDate: '2025-07-29'
 author: Ruli Setiawati
 image:
-  url: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+  url: /images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
   alt: 通过附近消息在 Google 地图上启动您的虚拟代理
 tags:
 - NearMe

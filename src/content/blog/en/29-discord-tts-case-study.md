@@ -5,7 +5,7 @@ description: In this blog we’ll discuss our findings on how real Discord users
 publishDate: '2022-12-27'
 author: Kim Dodds
 image:
-  url: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+  url: /images/blog/29-tts-case-study/discord-tts-accessibility.jpg
   alt: 'Text-to-Speech on Discord: A TTS Discord Bot Case Study'
 tags:
 - SeaVoice

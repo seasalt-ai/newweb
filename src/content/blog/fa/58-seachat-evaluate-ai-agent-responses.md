@@ -6,7 +6,7 @@ description: SeaChat به شما امکان می‌دهد پاسخ‌های عا
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'چگونه پاسخ‌های عامل هوش مصنوعی را ارزیابی کنیم: سیستم بازبینی SeaChat برای
     بهبود و کنترل عامل هوش مصنوعی'
 tags:

@@ -5,7 +5,7 @@ description: สำรวจผู้ช่วย AI สำหรับการ
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'การแข่งขันของผู้ช่วย AI สำหรับการประชุม: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

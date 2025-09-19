@@ -5,7 +5,7 @@ description: MailerLite vs. ConverKit, 어떤 이메일 서비스가 당신에�
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: 2025년에 당신에게 적합한 이메일 마케팅 서비스는?'
 tags:
 - SeaChat

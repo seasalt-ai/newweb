@@ -6,7 +6,7 @@ description: माइक्रोसॉफ्ट टीम्स और गू�
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'एआई मीटिंग सहायकों की लड़ाई: माइक्रोसॉफ्ट टीम्स बनाम गूगल मीट'
 tags:
 - SeaMeet

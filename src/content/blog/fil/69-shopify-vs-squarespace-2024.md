@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
+  url: /images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
   alt: 'Shopify vs. Squarespace: Aling Ecommerce Website Builder ang Tama para sa
     Iyong Negosyo sa 2025?'
 tags:

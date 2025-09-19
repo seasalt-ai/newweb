@@ -6,7 +6,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-08-03'
 author: Xuchen Yao
 image:
-  url: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
+  url: /images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
   alt: 'ActiveCampaign vs. MailerLite: 2025년 어떤 이메일 마케팅 서비스가 당신에게 적합한가요?'
 tags:
 - SeaChat

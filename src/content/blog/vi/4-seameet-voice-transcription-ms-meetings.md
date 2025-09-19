@@ -5,7 +5,7 @@ description: Trong phần thứ hai của loạt blog này, hãy theo dõi hành
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Từ Demo đến Thành công: Cạm bẫy của các cuộc họp hiện đại (2/5)'
 tags:
 - SeaMeet

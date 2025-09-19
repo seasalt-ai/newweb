@@ -5,7 +5,7 @@ description: Microsoft Teams와 Google Meet의 AI 회의 어시스턴트를 탐�
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'AI 회의 어시스턴트 대결: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

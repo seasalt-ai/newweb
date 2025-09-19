@@ -9,7 +9,7 @@ publishDate: '2024-01-15'
 updatedDate: '2025-07-28'
 author: Guoguo Chen
 image:
-  url: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
+  url: /images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
   alt: Cách tải dữ liệu âm thanh từ YouTube, một và nhiều video | Chuỗi công cụ âm
     thanh
 tags:

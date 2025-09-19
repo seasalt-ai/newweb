@@ -7,7 +7,7 @@ description: LLM-based chat agents offer businesses an easy, efficient solution 
 publishDate: '2023-12-26'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'What Business Should Know about Chatbots: The Journey from Traditional Chatbots
     to LLM Agents'
 tags:

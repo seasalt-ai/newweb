@@ -5,7 +5,7 @@ description: В этом блоге мы рассмотрим интеграци
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'Автоматизация контакт-центра с ИИ: сотрудничество виртуальных агентов с CRM'
 tags:
 - HubSpot

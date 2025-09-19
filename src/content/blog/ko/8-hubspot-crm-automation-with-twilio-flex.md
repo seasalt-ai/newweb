@@ -4,7 +4,7 @@ description: 이 블로그에서는 HubSpot과 같은 CRM을 Seax 컨택센터�
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'AI 기반 컨택센터 자동화: 가상 에이전트와 CRM의 협업'
 tags:
 - HubSpot

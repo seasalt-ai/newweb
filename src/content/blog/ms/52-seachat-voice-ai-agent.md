@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'Ejen Suara AI: Sambungkan Ejen Suara AI ke Telefon dan Jawab Sebarang Soalan
     Perkhidmatan Produk 24/7'
 tags:

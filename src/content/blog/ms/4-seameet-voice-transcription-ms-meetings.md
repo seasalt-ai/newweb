@@ -5,7 +5,7 @@ description: Dalam bahagian kedua siri blog ini, ikuti perjalanan Seasalt.ai unt
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Dari Demo ke Kejayaan: Perangkap Mesyuarat Moden (2/5)'
 tags:
 - SeaMeet

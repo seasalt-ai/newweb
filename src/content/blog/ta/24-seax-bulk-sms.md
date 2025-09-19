@@ -6,7 +6,7 @@ description: இந்த வலைப்பதிவில், SeaX இன் �
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX மொத்த SMS: விரைவான, பயனுள்ள வாடிக்கையாளர் அணுகலுக்கு'
 tags:
 - SeaX

@@ -5,7 +5,7 @@ description: Google Meet의 실시간 회의 기록 방법을 알아보세요. �
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: Google Meet 회의를 실시간으로 어떻게 기록할까요?
 tags:
 - SeaMeet

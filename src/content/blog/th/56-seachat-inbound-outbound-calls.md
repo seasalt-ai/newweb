@@ -6,7 +6,7 @@ publishDate: '2023-12-18'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
+  url: /images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
   alt: การโทรเข้าและโทรออก, ตัวแทนโทรศัพท์ AI สามารถทำงานให้คุณได้ทั้งสองอย่าง
 tags:
 - SeaChat

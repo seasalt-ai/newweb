@@ -6,7 +6,7 @@ description: Sa unang bahagi ng serye ng blog na ito, sundan ang paglalakbay ng 
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Mula Demo hanggang Tagumpay: Pagpapatupad ng Mga Modernong Pagpupulong ng
     Microsoft at Higit Pa (1/5)'
 tags:

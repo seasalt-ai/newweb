@@ -5,7 +5,7 @@ description: Di bagian kedua dari seri blog ini, ikuti perjalanan Seasalt.ai dal
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Dari Demo ke Sukses: Jebakan Rapat Modern (2/5)'
 tags:
 - SeaMeet

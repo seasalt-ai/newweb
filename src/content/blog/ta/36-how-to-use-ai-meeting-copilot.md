@@ -13,7 +13,7 @@ publishDate: '2023-10-02'
 updatedDate: '2025-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: நிகழ்நேர டிரான்ஸ்கிரிப்ஷன் மற்றும் AI சந்திப்பு குறிப்புகளைப் பயன்படுத்தி குழு
     சந்திப்பு செயல்திறனை எவ்வாறு மேம்படுத்துவது?
 tags:

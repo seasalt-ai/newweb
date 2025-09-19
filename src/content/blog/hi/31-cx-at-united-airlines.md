@@ -7,7 +7,7 @@ publishDate: '2023-03-21'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
+  url: /images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
   alt: 'यूनाइटेड एयरलाइंस ग्राहक सेवा: अच्छा, बुरा, बदसूरत'
 tags:
 - SeaX

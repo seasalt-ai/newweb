@@ -9,7 +9,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Câu chuyện khách hàng: Trao quyền cho một ngân hàng lớn ở châu Á để cung cấp
     hỗ trợ đa ngôn ngữ và tập trung vào quyền riêng tư cho khách hàng'
 tags:

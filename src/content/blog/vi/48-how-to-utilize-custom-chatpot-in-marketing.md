@@ -7,7 +7,7 @@ publishDate: '2023-11-06'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: Sử dụng chatbot ChatGPT tùy chỉnh cho marketing sáng tạo
 tags:
 - SeaChat

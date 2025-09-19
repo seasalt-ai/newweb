@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'Agente de Voz de IA: Conecte o Agente de Voz de IA ao Telefone e Responda
     a Quaisquer Perguntas de Serviço de Produto 24/7'
 tags:

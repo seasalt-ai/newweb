@@ -6,7 +6,7 @@ description: Explore the future of appointment scheduling with Voice AI Agent, a
 publishDate: '2023-12-16'
 author: Xuchen Yao
 image:
-  url: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
+  url: /images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
   alt: Who's Calling? Enhance Call Quality with a Personalized Voice AI Agent
 tags:
 - SeaChat

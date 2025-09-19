@@ -10,7 +10,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Jun Mao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Histoire client : Permettre à une grande banque asiatique de fournir un support
     multilingue et axé sur la confidentialité aux clients'
 tags:

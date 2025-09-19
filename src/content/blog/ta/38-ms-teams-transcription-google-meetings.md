@@ -6,7 +6,7 @@ description: Microsoft Teams மற்றும் Google Meet இன் AI க�
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'கூட்டங்களுக்கான AI உதவியாளர்கள் போட்டி: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

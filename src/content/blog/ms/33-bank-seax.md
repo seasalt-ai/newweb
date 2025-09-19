@@ -9,7 +9,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Jun Mao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Kisah Pelanggan: Memperkasakan Bank Utama Asia untuk Menyediakan Sokongan
     Berbilang Bahasa dan Berfokuskan Privasi kepada Pelanggan'
 tags:

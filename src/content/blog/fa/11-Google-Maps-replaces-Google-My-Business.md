@@ -8,7 +8,7 @@ publishDate: '2022-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: خداحافظ Google My Business، اکنون Google Maps سیستم عامل جدیدی برای کسب و کارها
     است
 tags: []

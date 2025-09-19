@@ -10,7 +10,7 @@ publishDate: '2023-11-02'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: Construindo uma Base de Conhecimento da Empresa Usando ChatGPT
 tags:
 - SeaChat

@@ -6,7 +6,7 @@ publishDate: '2021-07-19'
 updatedDate: '2025-07-29'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Od demo do sukcesu: Wdrażanie nowoczesnych spotkań Microsoft i nie tylko (1/5)'
 tags:
 - SeaMeet

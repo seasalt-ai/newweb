@@ -9,7 +9,7 @@ publishDate: '2024-01-15'
 updatedDate: '2025-08-01'
 author: Guoguo Chen
 image:
-  url: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
+  url: /images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
   alt: Cum să descărcați date audio de pe YouTube, un singur videoclip și multe videoclipuri
     | Seria Audio Toolbox
 tags:

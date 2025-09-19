@@ -8,7 +8,7 @@ publishDate: '2023-11-04'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: நிறுவனங்கள் ஊழியர் பயிற்சியை எளிதாக்க தனிப்பயன் AI சாட்போட்களை எவ்வாறு பயன்படுத்தலாம்
 tags:
 - SeaChat

@@ -6,7 +6,7 @@ description: MailerLite vs. ConverKit, Która usługa e-mail jest dla Ciebie odp
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: Która usługa e-mail marketingu jest dla Ciebie odpowiednia
     w 2025 roku?'
 tags:

@@ -5,7 +5,7 @@ publishDate: '2022-12-27'
 updatedDate: '2025-07-29'
 author: Kim Dodds
 image:
-  url: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+  url: /images/blog/29-tts-case-study/discord-tts-accessibility.jpg
   alt: Discord 上的文本转语音：TTS Discord 机器人案例研究
 tags:
 - SeaVoice

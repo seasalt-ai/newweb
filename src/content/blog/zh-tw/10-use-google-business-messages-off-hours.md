@@ -5,7 +5,7 @@ publishDate: '2022-03-29'
 updatedDate: '2025-07-26'
 author: Ruli Setiawati
 image:
-  url: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+  url: /images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
   alt: 企業主：使用 Google 商家訊息在非營業時間與客戶互動！
 tags:
 - NearMe

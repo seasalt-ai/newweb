@@ -8,7 +8,7 @@ publishDate: '2023-12-17'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
+  url: /images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
   alt: 'Skrin Panggilan AI pada Android dan iPhone: Pembantu Peribadi dan Penjaga
     Anda'
 tags:

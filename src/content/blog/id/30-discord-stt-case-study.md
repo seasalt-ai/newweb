@@ -6,7 +6,7 @@ description: Dalam blog ini kami akan membahas temuan kami tentang bagaimana pen
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Ucapan-ke-Teks di Discord: Studi Kasus Bot Discord STT'
 tags:
 - SeaVoice

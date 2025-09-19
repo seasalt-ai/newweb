@@ -4,7 +4,7 @@ description: 이 블로그 시리즈의 첫 번째 부분에서는 공동 작업
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: '데모에서 성공까지: Microsoft의 최신 회의 및 그 이상 구현(1/5)'
 tags:
 - SeaMeet

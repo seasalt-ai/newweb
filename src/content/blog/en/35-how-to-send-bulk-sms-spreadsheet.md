@@ -6,7 +6,7 @@ description: Learn the safest ways to batch send SMS from Excel, Google Sheets, 
 publishDate: '2023-10-01'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: The Right Way to Batch Send SMS to Contacts in Excel, Google Sheets, and Apple
     Numbers
 tags:

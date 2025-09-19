@@ -6,7 +6,7 @@ publishDate: '2021-07-30'
 updatedDate: '2024-07-19'
 author: Cody Kim, Shayne Mei
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Dari Demo ke Sukses: Terobosan Algoritma Suara Rapat Modern (3/5)'
 tags:
 - SeaMeet

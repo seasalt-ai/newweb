@@ -6,7 +6,7 @@ publishDate: '2022-07-27'
 updatedDate: '2025-07-28'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: 분산형 컨택 센터로 컨택 센터 영역 확장
 tags:
 - SeaX

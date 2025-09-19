@@ -5,7 +5,7 @@ publishDate: '2023-12-12'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
+  url: /images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
   alt: 語音 AI 代理與聊天 AI 代理：為您的企業導航 SeaChat 的 AI 解決方案
 tags:
 - SeaChat

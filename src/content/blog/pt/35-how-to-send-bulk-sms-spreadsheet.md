@@ -6,7 +6,7 @@ description: Aprenda as maneiras mais seguras de enviar SMS em lote do Excel, Go
 publishDate: '2023-10-01'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: A Maneira Correta de Enviar SMS em Lote para Contatos no Excel, Google Sheets
     e Apple Numbers
 tags:

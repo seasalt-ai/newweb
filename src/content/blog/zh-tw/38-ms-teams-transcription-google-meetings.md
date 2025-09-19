@@ -4,7 +4,7 @@ description: 探索微軟Microsoft Teams、Google MeetAI會議助手功能，比
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: AI會議助手Copilot之戰：微軟Microsoft Teams vs. Google Meet
 tags:
 - SeaMeet

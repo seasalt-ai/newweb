@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'Agent AI vocal: Conectați agentul AI vocal la telefon și răspundeți la orice
     întrebări despre produse și servicii 24/7'
 tags:

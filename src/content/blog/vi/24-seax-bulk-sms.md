@@ -5,7 +5,7 @@ description: Trong blog này, chúng tôi sẽ trình bày cách tính năng Bul
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX Bulk SMS: Để Tiếp Cận Khách Hàng Nhanh Hơn, Hiệu Quả Hơn'
 tags:
 - SeaX

@@ -8,7 +8,7 @@ publishDate: '2023-11-06'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: புதுமையான சந்தைப்படுத்தலுக்கு தனிப்பயனாக்கப்பட்ட ChatGPT சாட்போட்களைப் பயன்படுத்துதல்
 tags:
 - SeaChat

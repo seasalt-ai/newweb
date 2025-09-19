@@ -5,7 +5,7 @@ description: În acest blog, vom explora caracteristicile de inteligență vocal
 publishDate: '2022-08-03'
 author: Sarah Reid
 image:
-  url: images/blog/21-seax-voice-intelligence/0-main.png
+  url: /images/blog/21-seax-voice-intelligence/0-main.png
   alt: 'SeaX Voice Intelligence: Transcriere live, rezumate și analize de sentimente'
 tags:
 - SeaX

@@ -7,7 +7,7 @@ publishDate: '2023-12-16'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
+  url: /images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
   alt: कौन कॉल कर रहा है? पर्सनलाइज़्ड वॉयस AI एजेंट से कॉल क्वालिटी बढ़ाएँ
 tags:
 - SeaChat

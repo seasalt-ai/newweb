@@ -7,7 +7,7 @@ publishDate: '2023-11-04'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: How Companies Can Use Custom AI Chatbots to Simplify Employee Training
 tags:
 - SeaChat

@@ -9,7 +9,7 @@ publishDate: '2023-12-21'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
+  url: /images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
   alt: AI முகவர்களுக்கான துஷ்பிரயோகத்தைத் தடுத்தல் மற்றும் செலவுகளை நிர்வகித்தல்
 tags:
 - SeaChat

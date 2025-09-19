@@ -8,7 +8,7 @@ publishDate: '2022-07-15'
 updatedDate: '2025-08-02'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: Dalhin ang mga Customer mula sa Anumang Channel sa Isang Lugar gamit ang SeaX
     Omnichannel Communication
 tags:

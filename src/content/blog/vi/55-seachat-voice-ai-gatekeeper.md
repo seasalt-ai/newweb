@@ -8,7 +8,7 @@ publishDate: '2023-12-17'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
+  url: /images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
   alt: 'Màn hình cuộc gọi AI trên Android và iPhone: Trợ lý cá nhân và người gác cổng
     của bạn'
 tags:

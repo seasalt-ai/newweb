@@ -9,7 +9,7 @@ publishDate: '2023-12-22'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: Le constructeur d'agents IA sans code de SeaChat facilite l'adoption de l'IA
 tags:
 - SeaChat

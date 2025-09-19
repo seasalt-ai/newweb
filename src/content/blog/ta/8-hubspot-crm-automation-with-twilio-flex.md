@@ -5,7 +5,7 @@ description: இந்த வலைப்பதிவில், HubSpot போ�
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'AI-ஐ பயன்படுத்தி தொடர்பு மைய தானியக்கம்: CRM உடன் виртуல் ஏஜென்ட் ஒத்துழைப்பு'
 tags:
 - HubSpot

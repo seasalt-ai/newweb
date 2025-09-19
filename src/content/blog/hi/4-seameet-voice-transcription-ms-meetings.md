@@ -5,7 +5,7 @@ description: इस ब्लॉग श्रृंखला के दूसर
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'डेमो से सफलता तक: आधुनिक बैठकों के नुकसान (2/5)'
 tags:
 - SeaMeet

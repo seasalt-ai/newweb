@@ -5,7 +5,7 @@ description: In this blog we will introduce SeaX, our cloud communication contac
 publishDate: '2022-06-22'
 author: Sarah Reid
 image:
-  url: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+  url: /images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
   alt: Welcome to SeaX, a Collaborative Cloud Contact Center
 tags:
 - SeaX

@@ -10,7 +10,7 @@ publishDate: '2023-11-02'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: ساخت ربات چت هوشمند سفارشی برای شرکت شما - ربات ChatGPT سفارشی برای پایگاه
     دانش داخلی شرکت
 tags:

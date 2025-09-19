@@ -5,7 +5,7 @@ description: ในส่วนที่สองของบล็อกซี�
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'จาก Demo สู่ความสำเร็จ: ข้อผิดพลาดของการประชุมสมัยใหม่ (2/5)'
 tags:
 - SeaMeet

@@ -5,7 +5,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: 客戶案例：SeaX 如何協助頂級手機品牌支援 100 個國家的客戶
 tags:
 - SeaX

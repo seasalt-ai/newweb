@@ -8,7 +8,7 @@ publishDate: '2022-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: Paalam Google My Business, Ngayon ang Google Maps ang Bagong OS para sa mga
     Negosyo
 tags: []

@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
+  url: /images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
   alt: 'Cele mai bune constructoare de site-uri web de comerț electronic pentru 2025:
     Suport chatbot și nu numai'
 tags:

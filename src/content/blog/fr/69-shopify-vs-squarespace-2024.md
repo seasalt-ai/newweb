@@ -7,7 +7,7 @@ description: Shopify vs. Squarespace, quelle solution de site e-commerce vous co
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
+  url: /images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
   alt: 'Shopify vs. Squarespace : Quel constructeur de site e-commerce est fait pour
     votre entreprise en 2025 ?'
 tags:

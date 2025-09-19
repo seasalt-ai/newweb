@@ -5,7 +5,7 @@ publishDate: '2022-12-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+  url: /images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
   alt: 使用者已離開網路聊天：使用「附近訊息」向他們推送訊息！
 tags:
 - NearMe

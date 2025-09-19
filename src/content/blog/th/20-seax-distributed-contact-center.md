@@ -5,7 +5,7 @@ description: 'ในบล็อกนี้ เราจะมาดูศู�
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: ขยายขอบเขตศูนย์ติดต่อของคุณด้วยศูนย์ติดต่อแบบกระจาย
 tags:
 - SeaX

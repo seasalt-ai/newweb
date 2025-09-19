@@ -10,7 +10,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Historia del cliente: Empoderando a un importante banco asiático para ofrecer
     soporte multilingüe y centrado en la privacidad a los clientes'
 tags:

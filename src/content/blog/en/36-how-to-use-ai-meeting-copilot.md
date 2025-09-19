@@ -11,7 +11,7 @@ description: With the advent of large language models like ChatGPT, generative A
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: How to Use Real-time Transcripts and AI Meeting Notes to Improve Team Meeting
     Efficiency?
 tags:

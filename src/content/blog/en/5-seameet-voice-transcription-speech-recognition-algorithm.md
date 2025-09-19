@@ -5,7 +5,7 @@ description: In the third part of this blog series, follow Seasalt.ai’s journe
 publishDate: '2021-07-30'
 author: Cody Kim, Shayne Mei
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'From Demo to Success: Beyond the Speech Algorithms of Modern Meetings (3/5)'
 tags:
 - SeaMeet

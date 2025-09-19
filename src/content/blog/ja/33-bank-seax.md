@@ -5,7 +5,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 顧客事例：アジアの大手銀行が多言語対応とプライバシー重視の顧客サポートを提供できるよう支援
 tags:
 - SeaX

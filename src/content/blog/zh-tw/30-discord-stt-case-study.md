@@ -4,7 +4,7 @@ description: 在這篇部落格中，我們將討論我們在審查了數週的�
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: Discord 上的語音轉文字：STT Discord 機器人案例研究
 tags:
 - SeaVoice

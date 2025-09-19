@@ -6,7 +6,7 @@ description: Изучите AI-ассистентов для совещаний 
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'Битва AI-ассистентов для совещаний: Microsoft Teams против Google Meet'
 tags:
 - SeaMeet

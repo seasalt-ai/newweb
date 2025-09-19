@@ -10,7 +10,7 @@ publishDate: '2023-10-09'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
+  url: /images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
   alt: Cómo la transcripción en tiempo real y el análisis de reuniones están cambiando
     las reuniones de Google Meet
 tags:

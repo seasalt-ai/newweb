@@ -5,7 +5,7 @@ description: MailerLite vs. ConvertKit, dịch vụ email nào phù hợp với 
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: Dịch vụ tiếp thị email nào phù hợp với bạn vào năm 2025?'
 tags:
 - SeaChat

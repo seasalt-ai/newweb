@@ -6,7 +6,7 @@ publishDate: '2022-07-15'
 updatedDate: '2024-12-19'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: นำลูกค้าจากทุกช่องทางมาสู่ที่เดียวด้วย SeaX การสื่อสารแบบ Omnichannel
 tags:
 - SeaX

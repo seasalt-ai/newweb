@@ -7,7 +7,7 @@ description: SeaChat is a no-code ChatGPT agent builder with live agent transfer
 publishDate: '2023-12-27'
 author: Xuchen Yao
 image:
-  url: images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
+  url: /images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
   alt: Why Businesses Should Opt for a Custom ChatGPT Agent Builder Solution
 tags:
 - SeaChat

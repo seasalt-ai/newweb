@@ -6,7 +6,7 @@ publishDate: '2021-08-28'
 updatedDate: '2025-07-28'
 author: Kim Dodds
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'De la démo au succès : la perception des réunions (4/5)'
 tags:
 - SeaMeet

@@ -6,7 +6,7 @@ description: MailerLite vs. ConverKit, Care serviciu de e-mail este potrivit pen
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: Care serviciu de marketing prin e-mail este potrivit pentru
     tine în 2025?'
 tags:

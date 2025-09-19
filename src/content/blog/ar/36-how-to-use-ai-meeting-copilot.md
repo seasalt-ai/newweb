@@ -9,7 +9,7 @@ description: مع ظهور نماذج اللغة الكبيرة مثل ChatGPT،
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: كيف تستخدم النصوص الفورية وملاحظات الاجتماعات بالذكاء الاصطناعي لتحسين كفاءة
     اجتماعات الفريق؟
 tags:

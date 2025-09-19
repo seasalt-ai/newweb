@@ -7,7 +7,7 @@ publishDate: '2024-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
+  url: /images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
   alt: 'Constant Contact vs. MailerLite: Layanan Pemasaran Email Mana yang Tepat untuk
     Anda di 2025?'
 tags:

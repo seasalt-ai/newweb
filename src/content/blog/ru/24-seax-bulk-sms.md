@@ -6,7 +6,7 @@ publishDate: '2022-09-09'
 updatedDate: '2025-07-28'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'Массовая рассылка SMS от SeaX: для более быстрого и эффективного охвата клиентов'
 tags:
 - SeaX

@@ -6,7 +6,7 @@ description: Discover the ultimate guide on developing an AI voice agent chatbot
 publishDate: '2023-12-24'
 author: Xuchen Yao
 image:
-  url: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: How to Create an Awesome Voice Agent Chatbot for Your Business with a 24/7
     Phone Connection
 tags:

@@ -5,7 +5,7 @@ publishDate: '2023-12-15'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
+  url: /images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
   alt: 语音 AI 代理：革新 24/7 预约服务
 tags:
 - SeaChat

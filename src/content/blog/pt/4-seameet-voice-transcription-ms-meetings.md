@@ -5,7 +5,7 @@ description: Na segunda parte desta série de blogs, acompanhe a jornada da Seas
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Do Demo ao Sucesso: Armadilhas das Reuniões Modernas (2/5)'
 tags:
 - SeaMeet

@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
+  url: /images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
   alt: 'Shopify در مقابل Squarespace: کدام سازنده وب‌سایت تجارت الکترونیک برای کسب‌وکار
     شما در سال 2025 مناسب است؟'
 tags:

@@ -7,7 +7,7 @@ description: Connect voice AI agent to a phone number directly. Explore how Voic
 publishDate: '2023-12-14'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'Voice AI Agent: Connect Voice AI Agent to Phone and Answer Any Product Service
     Questions 24/7'
 tags:

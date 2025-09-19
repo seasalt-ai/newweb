@@ -4,7 +4,7 @@ description: 在這篇部落格文章中，我們將探討「分散式」聯絡�
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: 透過分散式聯絡中心擴展您的聯絡中心範圍
 tags:
 - SeaX

@@ -5,7 +5,7 @@ publishDate: '2022-04-06'
 updatedDate: '2025-07-28'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: 告別 Google 我的商家，現在 Google 地圖是企業的新作業系統
 tags: []
 lang: zh-tw

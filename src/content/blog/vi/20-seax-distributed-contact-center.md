@@ -6,7 +6,7 @@ description: 'Trong bài đăng này, chúng ta sẽ xem xét ''trung tâm liên
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Mở rộng phạm vi trung tâm liên lạc của bạn với trung tâm liên lạc phân tán
 tags:
 - SeaX

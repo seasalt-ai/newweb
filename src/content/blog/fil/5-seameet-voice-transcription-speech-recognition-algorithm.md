@@ -7,7 +7,7 @@ publishDate: '2021-07-30'
 updatedDate: '2025-07-29'
 author: Cody Kim, Shayne Mei
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Mula Demo Hanggang Tagumpay: Lampas sa Speech Algorithms ng Modern Meetings
     (3/5)'
 tags:

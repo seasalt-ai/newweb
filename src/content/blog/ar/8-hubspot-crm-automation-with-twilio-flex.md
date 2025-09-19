@@ -6,7 +6,7 @@ description: في هذه المدونة، سنستكشف دمج نظام إدا�
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'أتمتة مركز الاتصال المدعومة بالذكاء الاصطناعي: تعاون الوكيل الافتراضي مع نظام
     إدارة علاقات العملاء'
 tags:

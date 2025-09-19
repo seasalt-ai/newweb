@@ -7,7 +7,7 @@ publishDate: '2022-06-22'
 updatedDate: '2025-07-31'
 author: Sarah Reid
 image:
-  url: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+  url: /images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
   alt: SeaX க்கு வரவேற்கிறோம், ஒரு கூட்டு கிளவுட் தொடர்பு மையம்
 tags:
 - SeaX

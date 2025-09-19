@@ -7,7 +7,7 @@ description: Pelajari cara mentranskrip mesyuarat Google Meet secara masa nyata.
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: Cara Mentranskrip Mesyuarat Google Meet
 tags:
 - SeaMeet

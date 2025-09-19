@@ -8,7 +8,7 @@ publishDate: '2022-03-29'
 updatedDate: '2025-07-26'
 author: Ruli Setiawati
 image:
-  url: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+  url: /images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
   alt: 'வணிக உரிமையாளர்களே: வேலை நேரத்திற்குப் பிறகும் வாடிக்கையாளர்களுடன் ஈடுபட Google
     Business Messages-ஐப் பயன்படுத்துங்கள்!'
 tags:

@@ -4,7 +4,7 @@ description: 在这篇博客文章中，我们将探讨“分布式”联络中�
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: 通过分布式联络中心扩展您的联络中心范围
 tags:
 - SeaX

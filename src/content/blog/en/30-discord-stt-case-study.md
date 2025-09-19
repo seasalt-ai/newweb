@@ -5,7 +5,7 @@ description: In this blog we’ll discuss our findings on how real Discord users
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Speech-to-Text on Discord: An STT Discord Bot Case Study'
 tags:
 - SeaVoice

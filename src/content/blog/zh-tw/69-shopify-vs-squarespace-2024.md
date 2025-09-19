@@ -4,7 +4,7 @@ description: Shopify vs. Squarespace，2025年哪個電子商務網站解決方�
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
+  url: /images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
   alt: Shopify vs. Squarespace：2025年哪個電子商務網站建置工具適合您的業務？
 tags:
 - SeaChat

@@ -7,7 +7,7 @@ description: Análisis de métodos para transcribir reuniones de Google Meet en 
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: ¿Cómo transcribir reuniones de Google Meet en tiempo real?
 tags:
 - SeaMeet

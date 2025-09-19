@@ -8,7 +8,7 @@ publishDate: '2023-12-14'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
+  url: /images/blog/52-seachat-voice-ai-agent/52-seachat-voice-ai-agent.png
   alt: 'AI குரல் முகவர்: AI குரல் முகவரை தொலைபேசியுடன் இணைத்து எந்த தயாரிப்பு சேவை
     கேள்விகளுக்கும் 24/7 பதிலளிக்கவும்'
 tags:

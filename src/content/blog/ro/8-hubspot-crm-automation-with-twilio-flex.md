@@ -7,7 +7,7 @@ publishDate: '2022-01-26'
 updatedDate: '2024-12-19'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'Automatizarea centrului de contact condusă de AI: colaborarea între agenții
     virtuali și CRM'
 tags:

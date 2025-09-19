@@ -7,7 +7,7 @@ publishDate: '2024-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
+  url: /images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
   alt: 'Constant Contact vs. MailerLite: Dịch vụ tiếp thị email nào phù hợp với bạn
     vào năm 2025?'
 tags:

@@ -6,7 +6,7 @@ description: Discover the future of call management with an AI-powered call agen
 publishDate: '2023-12-17'
 author: Xuchen Yao
 image:
-  url: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
+  url: /images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
   alt: 'AI Call Screens on Android and iPhone: Your Personal Assistant and Gatekeeper'
 tags:
 - SeaChat

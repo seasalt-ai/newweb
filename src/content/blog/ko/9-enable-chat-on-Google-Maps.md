@@ -5,7 +5,7 @@ publishDate: '2022-03-23'
 updatedDate: '2025-07-29'
 author: Ruli Setiawati
 image:
-  url: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+  url: /images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
   alt: '사업주 여러분: Google 지도에서 고객 메시지를 놓치지 마세요!'
 tags:
 - NearMe

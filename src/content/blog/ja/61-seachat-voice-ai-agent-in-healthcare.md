@@ -5,7 +5,7 @@ publishDate: '2023-12-23'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
+  url: /images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
   alt: ヘルスケアにおけるAI音声エージェントの台頭：患者ケアとエンゲージメントの向上
 tags:
 - SeaChat

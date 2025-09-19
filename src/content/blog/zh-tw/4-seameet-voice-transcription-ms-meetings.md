@@ -4,7 +4,7 @@ description: 在本部落格系列的第二部分中，跟隨 Seasalt.ai 創造 
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 從演示到成功：現代會議的陷阱 (2/5)
 tags:
 - SeaMeet

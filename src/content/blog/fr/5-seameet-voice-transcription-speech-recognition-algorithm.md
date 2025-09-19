@@ -7,7 +7,7 @@ publishDate: '2021-07-30'
 updatedDate: '2025-07-29'
 author: Cody Kim, Shayne Mei
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Du Démo au Succès : Au-delà des algorithmes vocaux des réunions modernes (3/5)'
 tags:
 - SeaMeet

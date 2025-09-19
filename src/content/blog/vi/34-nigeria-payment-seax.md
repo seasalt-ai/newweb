@@ -9,7 +9,7 @@ publishDate: '2023-06-30'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'Câu chuyện khách hàng: Thành công của Trung tâm liên lạc trong ngành thanh
     toán kỹ thuật số của Nigeria'
 tags:

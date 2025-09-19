@@ -7,7 +7,7 @@ publishDate: '2022-07-15'
 updatedDate: '2025-08-02'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: Bawa Pelanggan dari Saluran Apa Pun ke Satu Tempat dengan Komunikasi Omnichannel
     SeaX
 tags:

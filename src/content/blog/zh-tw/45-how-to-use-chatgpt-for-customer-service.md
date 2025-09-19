@@ -4,7 +4,7 @@ description: 客製化 ChatGPT 機器人作為客服的革命性角色。從技�
 publishDate: '2023-11-01'
 author: Xuchen Yao
 image:
-  url: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
+  url: /images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
   alt: 如何用ChatGPT做線上客服
 tags:
 - SeaChat

@@ -5,7 +5,7 @@ description: इस ब्लॉग में, हम डिस्कॉर्�
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Discord पर स्पीच-टू-टेक्स्ट: एक केस स्टडी'
 tags:
 - SeaVoice

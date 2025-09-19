@@ -6,7 +6,7 @@ publishDate: '2022-08-17'
 updatedDate: '2025-07-29'
 author: Sarah Reid
 image:
-  url: images/blog/23-seax-case-management/0-main.png
+  url: /images/blog/23-seax-case-management/0-main.png
   alt: 'SeaX 사례 관리: 컨택 센터 사례 추적 제어'
 tags:
 - SeaX

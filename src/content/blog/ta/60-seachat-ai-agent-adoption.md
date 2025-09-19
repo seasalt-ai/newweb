@@ -8,7 +8,7 @@ publishDate: '2023-12-22'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: SeaChat இன் நோ-கோட் AI முகவர் பில்டர் AI ஐ ஏற்றுக்கொள்வதை எளிதாக்குகிறது
 tags:
 - SeaChat

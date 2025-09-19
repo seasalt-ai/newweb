@@ -5,7 +5,7 @@ publishDate: '2022-04-29'
 updatedDate: '2025-07-28'
 author: Ruli Setiawati
 image:
-  url: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+  url: /images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
   alt: 在 Google 地图中启用聊天以与客户联系的终极指南
 tags:
 - NearMe

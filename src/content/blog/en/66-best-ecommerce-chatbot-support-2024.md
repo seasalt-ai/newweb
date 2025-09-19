@@ -5,7 +5,7 @@ description: Find the perfect e-commerce platform for your store in 2025. We com
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
+  url: /images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
   alt: 'Best E-commerce Website Builders for 2025: Chatbot Support and Beyond'
 tags:
 - SeaChat

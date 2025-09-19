@@ -11,7 +11,7 @@ publishDate: '2023-10-02'
 updatedDate: '2025-08-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Comment utiliser la transcription en temps réel et les notes de réunion IA
     pour améliorer l'efficacité des réunions d'équipe ?
 tags:

@@ -6,7 +6,7 @@ publishDate: '2022-06-22'
 updatedDate: '2025-08-01'
 author: Sarah Reid
 image:
-  url: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+  url: /images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
   alt: SeaX में आपका स्वागत है, एक सहयोगी क्लाउड संपर्क केंद्र
 tags:
 - SeaX

@@ -6,7 +6,7 @@ publishDate: '2024-01-15'
 updatedDate: '2025-07-28'
 author: Guoguo Chen
 image:
-  url: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
+  url: /images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
   alt: YouTube에서 오디오 데이터 다운로드 방법, 단일 및 여러 동영상 | 오디오 도구 상자 시리즈
 tags:
 - Audio Toolbox

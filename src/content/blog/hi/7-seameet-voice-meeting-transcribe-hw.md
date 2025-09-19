@@ -6,7 +6,7 @@ publishDate: '2021-09-15'
 updatedDate: '2025-07-28'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'डेमो से सफलता तक: हार्डवेयर से परे (5/5)'
 tags:
 - SeaMeet

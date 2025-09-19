@@ -8,7 +8,7 @@ publishDate: '2023-12-23'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
+  url: /images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
   alt: 'Der Aufstieg von KI-Sprachagenten im Gesundheitswesen: Verbesserung der Patientenversorgung
     und des Engagements'
 tags:

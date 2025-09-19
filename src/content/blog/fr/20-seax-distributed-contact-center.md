@@ -6,7 +6,7 @@ description: 'Dans cet article de blog, nous examinerons les centres de contact 
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Étendez la Portée de Votre Centre de Contact avec un Centre de Contact Distribué
 tags:
 - SeaX

@@ -7,7 +7,7 @@ description: Scale your marketing with the right platform. Our HubSpot vs. Maile
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
+  url: /images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
   alt: 'Hubspot vs. MailerLite: Which Email Marketing Service is Right for You in
     2025?'
 tags:

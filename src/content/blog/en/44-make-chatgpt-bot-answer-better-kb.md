@@ -8,7 +8,7 @@ description: Learn how to build a custom ChatGPT bot with accurate answers. From
 publishDate: '2023-10-30'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: How to Create a Custom ChatGPT Bot with Accurate Answers
 tags:
 - SeaChat

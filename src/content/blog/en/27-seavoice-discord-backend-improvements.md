@@ -6,7 +6,7 @@ publishDate: '2022-12-13'
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
   Vernon
 image:
-  url: images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
+  url: /images/blog/27-discord-backend-improvements/seavoice-discord-stt-tts-bot-backend-improvements.jpg
   alt: 'SeaVoice STT/TTS Discord Bot: Backend & Stability Improvements'
 tags:
 - SeaVoice

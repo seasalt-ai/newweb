@@ -8,7 +8,7 @@ publishDate: '2023-11-06'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: Paggamit ng Custom ChatGPT Bots para sa Makabagong Marketing
 tags:
 - SeaChat

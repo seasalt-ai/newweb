@@ -8,7 +8,7 @@ publishDate: '2022-12-27'
 updatedDate: '2025-07-29'
 author: Kim Dodds
 image:
-  url: images/blog/29-tts-case-study/discord-tts-accessibility.jpg
+  url: /images/blog/29-tts-case-study/discord-tts-accessibility.jpg
   alt: 'Chuyển văn bản thành giọng nói trên Discord: Nghiên cứu điển hình về Bot Discord
     TTS'
 tags:

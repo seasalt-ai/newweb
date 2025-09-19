@@ -9,7 +9,7 @@ publishDate: '2023-10-30'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: एक कस्टम चैटजीपीटी बॉट कैसे बनाएं जो बेहतर जवाब दे - नॉलेज बेस
 tags:
 - SeaChat

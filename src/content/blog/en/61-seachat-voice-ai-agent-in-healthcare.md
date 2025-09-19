@@ -6,7 +6,7 @@ description: Discover how AI voice agents are transforming healthcare with insta
 publishDate: '2023-12-23'
 author: Xuchen Yao
 image:
-  url: images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
+  url: /images/blog/61-seachat-voice-ai-agent-in-healthcare/61-seachat-voice-ai-agent-in-healthcare.png
   alt: 'The Rise of AI Voice agents in Healthcare: Enhancing Patient Care and Engagement'
 tags:
 - SeaChat

@@ -6,7 +6,7 @@ description: В этом блоге мы обсудим наши выводы о
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Речь в текст в Discord: тематическое исследование бота Discord STT'
 tags:
 - SeaVoice

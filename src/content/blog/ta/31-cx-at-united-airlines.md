@@ -8,7 +8,7 @@ publishDate: '2023-03-21'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
+  url: /images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
   alt: 'யுனைடெட் ஏர்லைன்ஸ் வாடிக்கையாளர் சேவை: நல்லது, கெட்டது மற்றும் அசிங்கமானது'
 tags:
 - SeaX

@@ -6,7 +6,7 @@ description: 'W tym blogu przyjrzymy się ''rozproszonym'' centrom kontaktowym: 
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Rozszerz zasięg swojego Contact Center dzięki Rozproszonemu Contact Center
 tags:
 - SeaX

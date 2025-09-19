@@ -7,7 +7,7 @@ description: Dowiedz się o konwerterach plików audio, konwersji formatów dźw
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Twój kompleksowy przewodnik po konwersji audio: łatwo konwertuj pliki dźwiękowe
     | Seria Audio Toolbox'
 tags:

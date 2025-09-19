@@ -5,7 +5,7 @@ description: In the fourth part of this blog series, follow Seasalt.ai’s journ
 publishDate: '2021-08-28'
 author: Kim Dodds
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'From Demo to Success: Meeting Perception (4/5)'
 tags:
 - SeaMeet

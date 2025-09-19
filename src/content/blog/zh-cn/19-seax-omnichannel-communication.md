@@ -5,7 +5,7 @@ publishDate: '2022-07-15'
 updatedDate: '2024-12-19'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: 通过 SeaX 全渠道通信将客户从任何渠道带到一处
 tags:
 - SeaX

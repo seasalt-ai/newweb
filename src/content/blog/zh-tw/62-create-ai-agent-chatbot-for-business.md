@@ -5,7 +5,7 @@ publishDate: '2023-12-24'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: 如何為您的企業打造 24/7 電話連線的 AI 語音代理聊天機器人
 tags:
 - SeaChat

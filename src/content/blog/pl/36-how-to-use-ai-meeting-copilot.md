@@ -12,7 +12,7 @@ description: Wraz z pojawieniem się dużych modeli językowych, takich jak Chat
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Jak wykorzystać transkrypcję w czasie rzeczywistym i notatki ze spotkań AI,
     aby zwiększyć efektywność spotkań zespołu?
 tags:

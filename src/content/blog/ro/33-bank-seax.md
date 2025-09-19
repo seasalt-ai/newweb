@@ -10,7 +10,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Povestea clientului: Împuternicirea unei bănci majore din Asia pentru a oferi
     suport multilingv și axat pe confidențialitate clienților'
 tags:

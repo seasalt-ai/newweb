@@ -6,7 +6,7 @@ description: استكشاف طرق النسخ الفوري لاجتماعات Go
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: كيفية نسخ اجتماعات Google Meet في الوقت الفعلي؟
 tags:
 - SeaMeet

@@ -7,7 +7,7 @@ publishDate: '2022-07-15'
 updatedDate: '2025-08-02'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: Leve clientes de qualquer canal para um só lugar com a comunicação omnicanal
     da SeaX
 tags:

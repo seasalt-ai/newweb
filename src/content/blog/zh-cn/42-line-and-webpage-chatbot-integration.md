@@ -5,7 +5,7 @@ publishDate: '2023-10-26'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: 定制ChatGPT聊天机器人，同时支持LINE和网页机器人
 tags:
 - SeaChat

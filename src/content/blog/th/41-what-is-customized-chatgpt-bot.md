@@ -10,7 +10,7 @@ publishDate: '2023-10-24'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
+  url: /images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
   alt: ChatGPT ที่ปรับแต่งได้คืออะไร? วิธีนำไปใช้ในธุรกิจเพื่อเพิ่มประสบการณ์ลูกค้า
 tags:
 - SeaChat

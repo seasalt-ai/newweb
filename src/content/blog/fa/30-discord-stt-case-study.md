@@ -6,7 +6,7 @@ description: در این وبلاگ، یافته‌های خود را در مو�
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'گفتار به متن در دیسکورد: مطالعه موردی ربات STT دیسکورد'
 tags:
 - SeaVoice

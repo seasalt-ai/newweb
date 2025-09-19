@@ -7,7 +7,7 @@ publishDate: '2022-04-12'
 updatedDate: '2025-08-01'
 author: Ruli Setiawati
 image:
-  url: images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
+  url: /images/blog/12-near-me-messaging-complements-google-business-messages/logo.png
   alt: Mesageria Near Me completează mesajele Google Business
 tags:
 - NearMe

@@ -4,7 +4,7 @@ description: 探索如何利用定制化的ChatGPT机器人为营销活动注入
 publishDate: '2023-11-06'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: 利用定制化ChatGPT机器人进行创新营销
 tags:
 - SeaChat

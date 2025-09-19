@@ -4,7 +4,7 @@ description: Launch your virtual agent on Google Business Messages with Near Me 
 publishDate: '2022-04-19'
 author: Ruli Setiawati
 image:
-  url: images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
+  url: /images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/thumbnail.png
   alt: Launch Your Virtual Agent on Google Maps With Near Me Messaging
 tags:
 - NearMe

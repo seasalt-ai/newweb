@@ -6,7 +6,7 @@ description: Trong blog này, chúng tôi tập trung vào một trong những g
 publishDate: '2022-07-15'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: Đưa khách hàng từ mọi kênh về một nơi với giao tiếp đa kênh SeaX
 tags:
 - SeaX

@@ -7,7 +7,7 @@ publishDate: '2022-06-22'
 updatedDate: '2025-08-01'
 author: Sarah Reid
 image:
-  url: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+  url: /images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
   alt: Bun venit la SeaX, un centru de contact cloud colaborativ
 tags:
 - SeaX

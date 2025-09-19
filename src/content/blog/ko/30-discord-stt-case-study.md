@@ -5,7 +5,7 @@ description: 이 블로그에서는 몇 주간의 실제 음성-텍스트 데이
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Discord에서의 음성-텍스트 변환: STT Discord 봇 사례 연구'
 tags:
 - SeaVoice

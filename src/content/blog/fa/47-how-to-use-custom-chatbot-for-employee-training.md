@@ -8,7 +8,7 @@ publishDate: '2023-11-04'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: چگونه شرکت‌ها می‌توانند از چت‌بات‌های هوش مصنوعی سفارشی برای ساده‌سازی آموزش
     کارکنان استفاده کنند
 tags:

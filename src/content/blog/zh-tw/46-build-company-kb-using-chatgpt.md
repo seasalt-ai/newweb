@@ -4,7 +4,7 @@ description: 探索客製化ChatGPT聊天機器人如何革新企業內部知識
 publishDate: '2023-11-02'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: 打造專屬企業的AI聊天機器人 - 客製化ChatGPT機器人企業內部知識庫
 tags:
 - SeaChat

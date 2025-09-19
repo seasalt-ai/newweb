@@ -8,7 +8,7 @@ publishDate: '2022-07-15'
 updatedDate: '2024-12-19'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: எந்த சேனலிலிருந்தும் SeaX முழு சேனல் தகவல் தொடர்பு மூலம் வாடிக்கையாளர்களை ஒரு
     இடத்திற்கு கொண்டு வருதல்
 tags:

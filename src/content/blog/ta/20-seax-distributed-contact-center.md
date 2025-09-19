@@ -6,7 +6,7 @@ description: 'இந்த வலைப்பதிவில், நாங்க
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: விநியோகிக்கப்பட்ட தொடர்பு மையத்துடன் உங்கள் தொடர்பு மையத்தின் தடயத்தை விரிவாக்குங்கள்
 tags:
 - SeaX

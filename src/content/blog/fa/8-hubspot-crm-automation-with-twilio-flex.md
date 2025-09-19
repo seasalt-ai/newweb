@@ -5,7 +5,7 @@ description: در این بلاگ، ادغام یک CRM مانند HubSpot با 
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'اتوماسیون مرکز تماس مبتنی بر هوش مصنوعی: همکاری نماینده مجازی با CRM'
 tags:
 - HubSpot

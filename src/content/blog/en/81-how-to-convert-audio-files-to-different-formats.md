@@ -7,7 +7,7 @@ description: Learn about audio file converters, sound format conversion, and the
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Your Comprehensive Guide to Audio Conversion: Convert Sound Files Easily |
     Audio Toolbox Series'
 tags:

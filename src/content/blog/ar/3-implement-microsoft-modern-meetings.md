@@ -6,7 +6,7 @@ description: في الجزء الأول من سلسلة المدونات هذه�
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'من العرض التوضيحي إلى النجاح: تنفيذ اجتماعات مايكروسوفت الحديثة وما بعدها
     (1/5)'
 tags:

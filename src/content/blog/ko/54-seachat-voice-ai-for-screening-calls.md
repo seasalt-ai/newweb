@@ -6,7 +6,7 @@ publishDate: '2023-12-16'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
+  url: /images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
   alt: 누가 전화하나요? 맞춤형 음성 AI 에이전트로 통화 품질 향상
 tags:
 - SeaChat

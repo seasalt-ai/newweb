@@ -11,7 +11,7 @@ publishDate: '2023-10-28'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: 'AI போட்கள் மற்றும் நேரடி முகவர்கள் இடையே தடையற்ற ஒத்துழைப்பு: மனித-இயந்திர
     ஒத்துழைப்பு மூலம் வாடிக்கையாளர் அனுபவத்தை மேம்படுத்துதல்'
 tags:

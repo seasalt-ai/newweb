@@ -4,7 +4,7 @@ description: 本篇部落格將探討如何將 HubSpot 等 CRM 整合進 Seax �
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: AI 驅動的聯絡中心自動化：虛擬代理與 CRM 的協作
 tags:
 - HubSpot

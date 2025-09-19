@@ -12,7 +12,7 @@ publishDate: '2023-10-26'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: Angepasster ChatGPT-Chatbot, der gleichzeitig LINE und Web-Bots unterstützt
 tags:
 - SeaChat

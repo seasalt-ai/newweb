@@ -9,7 +9,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Jun Mao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'داستان مشتری: توانمندسازی یک بانک بزرگ آسیایی برای ارائه پشتیبانی چندزبانه
     و متمرکز بر حریم خصوصی به مشتریان'
 tags:

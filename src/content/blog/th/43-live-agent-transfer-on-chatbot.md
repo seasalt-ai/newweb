@@ -7,7 +7,7 @@ publishDate: '2023-10-28'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: 'การทำงานร่วมกันอย่างราบรื่นระหว่าง AI Bots และ Live Agents: การยกระดับประสบการณ์ลูกค้าผ่านความร่วมมือระหว่างมนุษย์กับเครื่องจักร'
 tags:
 - SeaChat

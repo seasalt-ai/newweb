@@ -9,7 +9,7 @@ updatedDate: '2025-08-01'
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
   Vernon
 image:
-  url: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
+  url: /images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
   alt: 'Botul Discord SeaVoice STT/TTS: Primul care oferă înregistrări vocale descărcabile
     cu transcrieri AI'
 tags:

@@ -6,7 +6,7 @@ description: Dalam blog ini, kami akan membincangkan peningkatan populariti Disc
 publishDate: '2022-05-23'
 author: Kim Dodds
 image:
-  url: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+  url: /images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
   alt: 'Discord (1/3): Batasan Baru untuk Penglibatan Pelanggan'
 tags:
 - SeaX

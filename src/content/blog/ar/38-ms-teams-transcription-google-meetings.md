@@ -6,7 +6,7 @@ description: استكشف ميزات المساعد الذكي للاجتماع�
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'معركة المساعد الذكي للاجتماعات: مايكروسوفت تيمز ضد جوجل ميت'
 tags:
 - SeaMeet

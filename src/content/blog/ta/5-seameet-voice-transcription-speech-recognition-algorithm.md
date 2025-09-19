@@ -6,7 +6,7 @@ publishDate: '2021-07-30'
 updatedDate: '2025-07-29'
 author: Cody Kim, Shayne Mei
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'டெமோவிலிருந்து வெற்றிக்கு: நவீன கூட்டங்களின் பேச்சு الگொரிதம்களை கடந்தது (3/5)'
 tags:
 - SeaMeet

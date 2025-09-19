@@ -8,7 +8,7 @@ publishDate: '2022-04-29'
 updatedDate: '2025-07-28'
 author: Ruli Setiawati
 image:
-  url: images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
+  url: /images/blog/14-ultimate-guide-to-enabling-chat-on-google-maps-to-connect-with-customers/ultimate_guide_thumbnail.png
   alt: Hướng dẫn cuối cùng để bật trò chuyện trên Google Maps để kết nối với khách
     hàng
 tags:

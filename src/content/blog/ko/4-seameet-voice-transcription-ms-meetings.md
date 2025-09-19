@@ -4,7 +4,7 @@ description: 이 블로그 시리즈의 두 번째 부분에서는 Seasalt.ai가
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: '데모에서 성공까지: 현대 회의의 함정 (2/5)'
 tags:
 - SeaMeet

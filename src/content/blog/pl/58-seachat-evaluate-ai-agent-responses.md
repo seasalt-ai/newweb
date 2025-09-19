@@ -6,7 +6,7 @@ description: SeaChat umożliwia oznaczanie, recenzowanie i ulepszanie odpowiedzi
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Jak oceniać odpowiedzi agentów AI: System recenzji SeaChat dla ulepszania
     i kontroli agentów AI'
 tags:

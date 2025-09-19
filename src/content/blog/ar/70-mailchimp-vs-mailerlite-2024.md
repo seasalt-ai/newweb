@@ -7,7 +7,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
+  url: /images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
   alt: 'Mailchimp vs. MailerLite: ما هي خدمة التسويق عبر البريد الإلكتروني المناسبة
     لك في عام 2025؟'
 tags:

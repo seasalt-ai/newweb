@@ -6,7 +6,7 @@ description: MailerLite vs. Constant Contact, Which email service is right for y
 publishDate: '2024-04-06'
 author: Xuchen Yao
 image:
-  url: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
+  url: /images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
   alt: 'Constant Contact vs. MailerLite: Which Email Marketing Service is Right for
     You in 2025?'
 tags:

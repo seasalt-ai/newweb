@@ -6,7 +6,7 @@ publishDate: '2022-04-06'
 updatedDate: '2025-07-28'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: Google 마이 비즈니스여 안녕, 이제 Google 지도가 비즈니스를 위한 새로운 OS입니다
 tags: []
 lang: ko

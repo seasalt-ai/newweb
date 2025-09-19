@@ -4,7 +4,7 @@ description: 了解音訊檔案轉換器、聲音格式轉換以及最佳免費�
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 您的音訊轉換綜合指南：輕鬆轉換聲音檔案 | 音訊工具箱系列
 tags:
 - 音訊工具箱

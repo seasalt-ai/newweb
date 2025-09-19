@@ -7,7 +7,7 @@ publishDate: '2022-03-23'
 updatedDate: '2025-07-29'
 author: Ruli Setiawati
 image:
-  url: images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
+  url: /images/blog/9-enable-chat-on-Google-Maps/chat_activated_thumbnail.png
   alt: 'Propietarios de negocios: ¡No se pierdan los mensajes de los clientes en Google
     Maps!'
 tags:

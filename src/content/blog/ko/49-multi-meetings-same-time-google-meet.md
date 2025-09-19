@@ -8,7 +8,7 @@ publishDate: '2023-11-08'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
+  url: /images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
   alt: SeaMeet으로 여러 병렬 회의를 효과적으로 관리하는 방법
 tags:
 - SeaMeet

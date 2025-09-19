@@ -4,7 +4,7 @@ description: 探索如何利用客製化的ChatGPT機器人為行銷活動注入
 publishDate: '2023-11-06'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: 用客製化ChatGPT機器人做創新行銷
 tags:
 - SeaChat

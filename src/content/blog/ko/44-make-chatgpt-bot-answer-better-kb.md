@@ -7,7 +7,7 @@ publishDate: '2023-10-30'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: 정확한 답변을 제공하는 맞춤형 ChatGPT 챗봇을 만드는 방법 – 지식 기반
 tags:
 - SeaChat

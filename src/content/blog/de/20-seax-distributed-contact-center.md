@@ -8,7 +8,7 @@ publishDate: '2022-07-27'
 updatedDate: '2025-07-28'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Erweitern Sie Ihren Contact Center-Footprint mit einem Distributed Contact
     Center
 tags:

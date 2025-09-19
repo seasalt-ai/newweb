@@ -6,7 +6,7 @@ description: في هذه المدونة، سنناقش النتائج التي �
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'تحويل الكلام إلى نص على Discord: دراسة حالة لروبوت STT Discord'
 tags:
 - SeaVoice

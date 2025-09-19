@@ -9,7 +9,7 @@ publishDate: '2024-01-15'
 updatedDate: '2025-07-28'
 author: Guoguo Chen
 image:
-  url: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
+  url: /images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
   alt: Jak pobrać dane audio z YouTube, pojedyncze i wiele filmów | Seria Narzędzi
     Audio
 tags:

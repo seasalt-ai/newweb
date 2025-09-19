@@ -5,7 +5,7 @@ description: In diesem Blog zeigen wir, wie die Bulk-SMS-Funktion von SeaX Agent
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX Bulk SMS: Für schnellere, effektivere Kundenansprache'
 tags:
 - SeaX

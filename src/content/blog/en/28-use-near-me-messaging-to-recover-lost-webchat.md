@@ -5,7 +5,7 @@ description: 'Near Me Messaging solves one problem of webchat: get back in touch
 publishDate: '2022-12-25'
 author: Xuchen Yao
 image:
-  url: images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
+  url: /images/blog/28-use-near-me-messaging-to-recover-lost-webchat/near-me-messaging-google-business-messages-recover-webchat.png
   alt: 'User has left webchat: use Near Me Messaging to push a message to them!'
 tags:
 - NearMe

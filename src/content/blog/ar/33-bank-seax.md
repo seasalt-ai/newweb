@@ -8,7 +8,7 @@ publishDate: '2023-06-28'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'قصة عميل: تمكين بنك آسيوي كبير لتقديم دعم متعدد اللغات ومرتكز على الخصوصية
     للعملاء'
 tags:

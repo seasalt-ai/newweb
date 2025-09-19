@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
+  url: /images/blog/69-shopify-vs-squarespace-2024/69-shopify-vs-squarespace-2024.jpg
   alt: 'Shopify बनाम Squarespace: 2025 में आपके व्यवसाय के लिए कौन सा ईकॉमर्स वेबसाइट
     बिल्डर सही है?'
 tags:

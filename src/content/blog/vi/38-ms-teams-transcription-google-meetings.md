@@ -6,7 +6,7 @@ description: Khám phá trợ lý AI cho cuộc họp của Microsoft Teams và 
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'Cuộc Đua Trợ Lý AI cho Cuộc Họp: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

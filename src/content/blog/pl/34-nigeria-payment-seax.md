@@ -9,7 +9,7 @@ publishDate: '2023-06-30'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'Historia klienta: Sukces centrum kontaktowego w nigeryjskiej branży płatności
     cyfrowych'
 tags:

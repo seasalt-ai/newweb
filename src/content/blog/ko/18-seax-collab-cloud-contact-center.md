@@ -6,7 +6,7 @@ publishDate: '2022-06-22'
 updatedDate: '2025-08-01'
 author: Sarah Reid
 image:
-  url: images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
+  url: /images/blog/18-seax-collaborative-cloud-contact-center-introduction/SeaX_future.png
   alt: 협업 클라우드 컨택 센터 SeaX에 오신 것을 환영합니다
 tags:
 - SeaX

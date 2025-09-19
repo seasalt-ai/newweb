@@ -9,7 +9,7 @@ publishDate: '2023-10-02'
 updatedDate: '2025-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: วิธีใช้การถอดเสียงแบบเรียลไทม์และบันทึกการประชุม AI เพื่อเพิ่มประสิทธิภาพการประชุมของทีม?
 tags:
 - SeaMeet

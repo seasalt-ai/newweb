@@ -7,7 +7,7 @@ publishDate: '2023-12-20'
 updatedDate: '2024-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'كيفية تقييم استجابات وكيل الذكاء الاصطناعي: نظام مراجعة SeaChat لتحسين وكيل
     الذكاء الاصطناعي والتحكم فيه'
 tags:

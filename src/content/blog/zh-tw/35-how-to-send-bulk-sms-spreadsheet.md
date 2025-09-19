@@ -5,7 +5,7 @@ publishDate: '2023-10-01'
 updatedDate: '2024-07-01'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: 用 Excel、Google 試算表、Apple Numbers 正確批量發送簡訊的方法
 tags:
 - SeaX

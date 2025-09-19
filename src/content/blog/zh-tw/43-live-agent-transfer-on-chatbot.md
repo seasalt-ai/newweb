@@ -4,7 +4,7 @@ description: 新一代客服正在重新塑造客服行業。本文深入探討�
 publishDate: '2023-10-28'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: AI機器人與真人轉接客服合作無間、人機合作提升客戶體驗
 tags:
 - SeaChat

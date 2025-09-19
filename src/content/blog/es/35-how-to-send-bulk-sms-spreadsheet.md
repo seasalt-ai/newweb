@@ -6,7 +6,7 @@ description: Aprenda las formas más seguras de enviar mensajes SMS a granel des
 publishDate: '2024-05-16'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: La forma correcta de enviar mensajes SMS a contactos en Excel, Google Sheets
     y Apple Numbers
 tags:

@@ -6,7 +6,7 @@ description: மெயிலர்லைட் வெர்சஸ் கன்�
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'கிட் வெர்சஸ் மெயிலர்லைட்: 2025 இல் உங்களுக்கு எந்த மின்னஞ்சல் சந்தைப்படுத்தல்
     சேவை சரியானது?'
 tags:

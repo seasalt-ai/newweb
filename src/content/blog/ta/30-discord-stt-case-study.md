@@ -6,7 +6,7 @@ description: இந்த வலைப்பதிவில், பல வார
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Discord இல் பேச்சு-க்கு-உரை: ஒரு STT Discord Bot Case Study'
 tags:
 - SeaVoice

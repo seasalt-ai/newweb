@@ -8,7 +8,7 @@ publishDate: '2023-11-01'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
+  url: /images/blog/45-how-to-use-chatgpt-for-customer-service/45-how-to-use-chatgpt-for-customer-service.png
   alt: ऑनलाइन ग्राहक सेवा के लिए ChatGPT का उपयोग कैसे करें
 tags:
 - SeaChat

@@ -13,7 +13,7 @@ publishDate: '2023-10-24'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
+  url: /images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
   alt: ChatGPT tùy chỉnh là gì? Cách áp dụng vào kinh doanh để tăng cường trải nghiệm
     khách hàng
 tags:

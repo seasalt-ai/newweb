@@ -9,7 +9,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: 'Histoire client : Comment SeaX a aidé une grande marque de téléphones mobiles
     à soutenir ses clients dans 100 pays'
 tags:

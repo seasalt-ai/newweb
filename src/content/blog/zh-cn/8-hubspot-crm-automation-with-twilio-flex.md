@@ -5,7 +5,7 @@ publishDate: '2022-01-26'
 updatedDate: '2025-08-05'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 人工智能联络中心自动化：虚拟座席与CRM的协作
 tags:
 - HubSpot

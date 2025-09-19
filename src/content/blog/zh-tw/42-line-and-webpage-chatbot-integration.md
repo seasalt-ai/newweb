@@ -5,7 +5,7 @@ description: 客製化ChatGPT機器人如何顛覆傳統的客服模式，並帶
 publishDate: '2023-10-26'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: 客製ChatGPT聊天機器人，同時支援LINE和網頁機器人
 tags:
 - SeaChat

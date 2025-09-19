@@ -6,7 +6,7 @@ description: Tuklasin ang mga AI meeting assistant ng Microsoft Teams at Google 
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'Labanan ng AI Meeting Assistants: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

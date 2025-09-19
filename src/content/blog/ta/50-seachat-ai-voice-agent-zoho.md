@@ -7,7 +7,7 @@ publishDate: '2023-12-10'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
+  url: /images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
   alt: SeaChat மற்றும் Zoho Desk அறிவுத் தள ஒருங்கிணைப்புடன் வாடிக்கையாளர் ஆதரவை நெறிப்படுத்துதல்
 tags:
 - SeaChat

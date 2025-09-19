@@ -7,7 +7,7 @@ publishDate: '2024-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
+  url: /images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
   alt: 'कॉन्स्टेंट कॉन्टैक्ट बनाम मेलरलाइट: 2025 में आपके लिए कौन सी ईमेल मार्केटिंग
     सेवा सही है?'
 tags:

@@ -6,7 +6,7 @@ description: 'Neste blog, vamos analisar os contact centers ''distribuídos'': o
 publishDate: '2022-07-27'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Expanda a Pegada do seu Contact Center com um Contact Center Distribuído
 tags:
 - SeaX

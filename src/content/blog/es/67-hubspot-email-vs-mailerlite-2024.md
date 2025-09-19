@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
+  url: /images/blog/67-hubspot-email-vs-mailerlite-2024/67-hubspot-email-vs-mailerlite-2024.jpg
   alt: 'Hubspot vs. MailerLite: ¿Qué servicio de email marketing es el adecuado para
     usted en 2025?'
 tags:

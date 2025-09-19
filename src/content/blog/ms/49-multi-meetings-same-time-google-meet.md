@@ -11,7 +11,7 @@ publishDate: '2023-11-08'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
+  url: /images/blog/49-having-multiple-meetings-at-the-same-time-google-meet-meetings/49-having-multiple-meetings-at-the-same-time-google-meet-meetings.jpeg
   alt: Cara Menguruskan Beberapa Mesyuarat Selari Secara Berkesan dengan SeaMeet
 tags:
 - SeaMeet

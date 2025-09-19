@@ -5,7 +5,7 @@ description: Twilio and Seasalt.ai Expand Partnership in Asia Pacific & Japan to
 publishDate: '2022-11-23'
 author: Xuchen Yao
 image:
-  url: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+  url: /images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
   alt: Twilio and Seasalt.ai Launched SeaX in Asia-Pacific & Japan
 tags:
 - SeaX

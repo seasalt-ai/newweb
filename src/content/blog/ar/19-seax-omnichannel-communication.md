@@ -6,7 +6,7 @@ publishDate: '2022-07-15'
 updatedDate: '2025-08-02'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: اجمع العملاء من أي قناة في مكان واحد باستخدام اتصالات SeaX متعددة القنوات
 tags:
 - SeaX

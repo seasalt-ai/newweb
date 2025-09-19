@@ -7,7 +7,7 @@ publishDate: '2023-10-01'
 updatedDate: '2024-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: Der richtige Weg zum Stapelversand von SMS an Kontakte in Excel, Google Sheets
     und Apple Numbers
 tags:

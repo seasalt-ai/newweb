@@ -6,7 +6,7 @@ description: सीचैट आपको प्रदर्शन और ग्
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'एआई एजेंट प्रतिक्रियाओं का मूल्यांकन कैसे करें: एआई एजेंट सुधार और नियंत्रण
     के लिए सीचैट की समीक्षा प्रणाली'
 tags:

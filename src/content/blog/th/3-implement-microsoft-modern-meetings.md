@@ -6,7 +6,7 @@ description: ในส่วนแรกของซีรีส์บล็อ�
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'จากการสาธิตสู่ความสำเร็จ: การนำการประชุมสมัยใหม่ของ Microsoft ไปใช้และอื่นๆ
     (1/5)'
 tags:

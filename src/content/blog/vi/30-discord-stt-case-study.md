@@ -7,7 +7,7 @@ description: Trong blog này, chúng tôi sẽ thảo luận về những phát 
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Chuyển lời nói thành văn bản trên Discord: Nghiên cứu điển hình về Bot Discord
     STT'
 tags:

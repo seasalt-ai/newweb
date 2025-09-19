@@ -6,7 +6,7 @@ publishDate: '2023-03-21'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
+  url: /images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
   alt: '유나이티드 항공 고객 서비스: 좋은 점, 나쁜 점, 그리고 추한 점'
 tags:
 - SeaX

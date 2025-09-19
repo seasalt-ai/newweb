@@ -6,7 +6,7 @@ description: Descoperiți cum să folosiți roboții ChatGPT personalizați pent
 publishDate: '2023-11-06'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: Utilizarea roboților ChatGPT personalizați pentru marketing inovator
 tags:
 - SeaChat

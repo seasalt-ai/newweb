@@ -11,7 +11,7 @@ description: با ظهور مدل‌های زبان بزرگ مانند ChatGPT�
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: چگونه از رونویسی بی‌درنگ و یادداشت‌های جلسه هوش مصنوعی برای بهبود کارایی جلسات
     تیمی استفاده کنیم؟
 tags:

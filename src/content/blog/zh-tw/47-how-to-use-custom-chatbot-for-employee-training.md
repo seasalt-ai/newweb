@@ -4,7 +4,7 @@ description: 探索客製化AI聊天機器人在提升員工培訓效率和個�
 publishDate: '2023-11-04'
 author: Xuchen Yao
 image:
-  url: images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
+  url: /images/blog/47-how-to-use-custom-chatbot-for-employee-training/47-how-to-use-custom-chatbot-for-employee-training.png
   alt: 企業如何用客製化AI聊天機器人讓員工培訓更簡單
 tags:
 - SeaChat

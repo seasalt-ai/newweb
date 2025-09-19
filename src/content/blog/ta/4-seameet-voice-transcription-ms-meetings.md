@@ -5,7 +5,7 @@ description: இந்த வலைப்பதிவுத் தொடரி�
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'டெமோவிலிருந்து வெற்றிக்கு: நவீன சந்திப்புகளின் ஆபத்துகள் (2/5)'
 tags:
 - SeaMeet

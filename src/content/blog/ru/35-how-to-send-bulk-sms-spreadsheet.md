@@ -7,7 +7,7 @@ publishDate: '2023-10-01'
 updatedDate: '2024-07-01'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: Правильный способ массовой отправки SMS контактам из Excel, Google Sheets и
     Apple Numbers
 tags:

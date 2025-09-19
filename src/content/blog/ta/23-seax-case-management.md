@@ -7,7 +7,7 @@ publishDate: '2022-08-17'
 updatedDate: '2025-07-31'
 author: Sarah Reid
 image:
-  url: images/blog/23-seax-case-management/0-main.png
+  url: /images/blog/23-seax-case-management/0-main.png
   alt: 'SeaX வழக்கு மேலாண்மை: உங்கள் தொடர்பு மைய வழக்கு கண்காணிப்பைக் கட்டுப்படுத்துங்கள்'
 tags:
 - SeaX

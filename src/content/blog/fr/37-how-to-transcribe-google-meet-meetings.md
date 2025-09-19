@@ -8,7 +8,7 @@ publishDate: '2023-10-04'
 updatedDate: '2025-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: Comment transcrire les réunions Google Meet en temps réel ?
 tags:
 - SeaMeet

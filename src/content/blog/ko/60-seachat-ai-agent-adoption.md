@@ -6,7 +6,7 @@ publishDate: '2023-12-22'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
+  url: /images/blog/60-seachat-ai-agent-adoption/60-seachat-ai-agent-adoption.png
   alt: SeaChat의 노코드 AI 에이전트 빌더로 AI 도입이 쉬워집니다
 tags:
 - SeaChat

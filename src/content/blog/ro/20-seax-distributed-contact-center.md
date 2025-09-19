@@ -7,7 +7,7 @@ publishDate: '2022-07-27'
 updatedDate: '2025-08-01'
 author: Sarah Reid
 image:
-  url: images/blog/20-seax-distributed-contact-center/0-main.png
+  url: /images/blog/20-seax-distributed-contact-center/0-main.png
   alt: Extindeți amprenta centrului dvs. de contact cu un centru de contact distribuit
 tags:
 - SeaX

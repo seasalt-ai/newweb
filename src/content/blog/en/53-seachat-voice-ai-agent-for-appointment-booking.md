@@ -6,7 +6,7 @@ description: Explore the future of appointment scheduling with Voice AI Agent, a
 publishDate: '2023-12-15'
 author: Xuchen Yao
 image:
-  url: images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
+  url: /images/blog/53-seachat-voice-ai-agent-for-appointment-booking/53-seachat-voice-ai-agent-for-appointment-booking.png
   alt: 'Voice AI Agent: Revolutionizing Appointment Booking 24/7'
 tags:
 - SeaChat

@@ -8,7 +8,7 @@ publishDate: '2024-04-01'
 updatedDate: '2024-05-16'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Ghidul dumneavoastră cuprinzător pentru conversia audio: Convertiți fișierele
     audio cu ușurință | Seria Audio Toolbox'
 tags:

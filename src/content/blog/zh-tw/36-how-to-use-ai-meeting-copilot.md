@@ -4,7 +4,7 @@ description: 隨著ChatGPT等大語言模型的誕生，生成式AI開啟了新�
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: 如何利用實時逐字稿、AI會議筆記，提升團隊會議效率？
 tags:
 - SeaMeet

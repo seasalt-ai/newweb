@@ -7,7 +7,7 @@ description: ChatGPT와 같은 대규모 언어 모델의 탄생으로 생성형
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: 실시간 스크립트, AI 회의록을 활용하여 팀 회의 효율성을 높이는 방법
 tags:
 - SeaMeet

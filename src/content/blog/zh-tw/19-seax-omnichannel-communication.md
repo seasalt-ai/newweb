@@ -4,7 +4,7 @@ description: 在本部落格中，我們重點介紹 SeaX 的全通路通訊之�
 publishDate: '2022-07-15'
 author: Kim Dodds
 image:
-  url: images/blog/19-seax-omnichannel-communication/0-thumbnail.png
+  url: /images/blog/19-seax-omnichannel-communication/0-thumbnail.png
   alt: 透過 SeaX 全通路通訊將客戶從任何管道帶到一個地方
 tags:
 - SeaX

@@ -6,7 +6,7 @@ publishDate: '2022-09-09'
 updatedDate: '2024-12-19'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX बल्क एसएमएस: तेज़, अधिक प्रभावी ग्राहक विस्तार'
 tags:
 - SeaX

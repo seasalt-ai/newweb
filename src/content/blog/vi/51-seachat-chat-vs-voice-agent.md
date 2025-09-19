@@ -9,7 +9,7 @@ publishDate: '2023-12-12'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
+  url: /images/blog/51-seachat-chat-vs-voice-agent/51-seachat-chat-vs-voice-agent.png
   alt: 'Đại lý AI giọng nói so với Đại lý AI trò chuyện: Điều hướng các giải pháp
     AI của SeaChat cho doanh nghiệp của bạn'
 tags:

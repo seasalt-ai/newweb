@@ -7,7 +7,7 @@ description: In diesem Blog erfahren Sie, wie Sie ein CRM wie HubSpot in das Sea
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'KI-gestützte Contact Center-Automatisierung: Zusammenarbeit von virtuellen
     Agenten mit CRM'
 tags:

@@ -5,7 +5,7 @@ publishDate: '2022-11-23'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
+  url: /images/blog/25-twilio-seasalt-ai-launch-seax/Frankco-on-Seasalt-ai-parternship.png
   alt: Twilio 和 Seasalt.ai 在亚太地区和日本推出 SeaX
 tags:
 - SeaX

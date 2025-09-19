@@ -7,7 +7,7 @@ publishDate: '2023-12-16'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
+  url: /images/blog/54-seachat-voice-ai-for-screening-calls/54-seachat-voice-ai-for-screening-calls.png
   alt: Siapa yang Menelepon? Tingkatkan Kualitas Panggilan dengan Agen AI Suara Pribadi
 tags:
 - SeaChat

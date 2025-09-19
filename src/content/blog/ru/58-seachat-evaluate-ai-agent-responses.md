@@ -6,7 +6,7 @@ description: SeaChat позволяет помечать, просматрива
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Как оценивать ответы AI-агентов: Система обзора SeaChat для улучшения и контроля
     AI-агентов'
 tags:

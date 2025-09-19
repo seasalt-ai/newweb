@@ -5,7 +5,7 @@ description: मेलरलाइट बनाम कन्वर्टकि�
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'किट बनाम मेलरलाइट: 2025 में आपके लिए कौन सी ईमेल मार्केटिंग सेवा सही है?'
 tags:
 - SeaChat

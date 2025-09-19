@@ -7,7 +7,7 @@ description: Trong phần đầu tiên của loạt bài blog này, hãy theo d�
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'Từ bản demo đến thành công: Triển khai các cuộc họp hiện đại của Microsoft
     và hơn thế nữa (1/5)'
 tags:

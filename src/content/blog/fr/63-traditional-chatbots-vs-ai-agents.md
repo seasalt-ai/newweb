@@ -9,7 +9,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-31'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'Ce que les entreprises doivent savoir sur les chatbots : le passage des chatbots
     traditionnels aux agents LLM'
 tags:

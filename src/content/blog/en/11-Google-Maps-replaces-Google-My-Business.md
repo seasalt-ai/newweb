@@ -5,7 +5,7 @@ description: Google is replacing Google My Business app with Google Maps, where 
 publishDate: '2022-04-06'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: Farewell Google My Business, Now Google Maps Is The New OS for Businesses
 tags: []
 lang: en

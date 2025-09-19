@@ -4,7 +4,7 @@ description: ในบล็อกนี้ เราจะแสดงให้
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX Bulk SMS: เพื่อการเข้าถึงลูกค้าที่รวดเร็วและมีประสิทธิภาพยิ่งขึ้น'
 tags:
 - SeaX

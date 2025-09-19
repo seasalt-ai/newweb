@@ -7,7 +7,7 @@ description: Alamin kung paano i-transcribe ang mga Google Meet meeting nang rea
 publishDate: '2023-10-04'
 author: Xuchen Yao
 image:
-  url: images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
+  url: /images/blog/37-how-to-transcribe-google-meet-meetings/37-how-to-transcribe-google-meet-meetings.jpeg
   alt: Paano I-transcribe ang mga Google Meet Meeting nang Real-time?
 tags:
 - SeaMeet

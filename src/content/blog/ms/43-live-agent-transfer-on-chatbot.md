@@ -10,7 +10,7 @@ publishDate: '2023-10-28'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: 'Kerjasama Lancar antara Bot AI dan Ejen Langsung: Meningkatkan Pengalaman
     Pelanggan Melalui Kerjasama Manusia-Mesin'
 tags:

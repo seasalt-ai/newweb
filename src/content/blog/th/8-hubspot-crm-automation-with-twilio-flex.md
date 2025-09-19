@@ -5,7 +5,7 @@ description: ในบล็อกนี้ เราจะสำรวจกา
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'ศูนย์บริการลูกค้าอัตโนมัติด้วย AI: การทำงานร่วมกันของเอเจนต์เสมือนกับ CRM'
 tags:
 - HubSpot

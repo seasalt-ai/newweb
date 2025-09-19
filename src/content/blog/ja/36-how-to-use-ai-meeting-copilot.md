@@ -4,7 +4,7 @@ description: ChatGPTのような大規模言語モデルの誕生により、生
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: リアルタイム文字起こし、AI会議メモを活用してチーム会議の効率を向上させる方法
 tags:
 - SeaMeet

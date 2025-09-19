@@ -8,7 +8,7 @@ publishDate: '2022-03-29'
 updatedDate: '2025-07-26'
 author: Ruli Setiawati
 image:
-  url: images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
+  url: /images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/thumbnail.png
   alt: 'Właściciele firm: korzystajcie z Wiadomości Google Moja Firma, aby angażować
     klientów poza godzinami pracy!'
 tags:

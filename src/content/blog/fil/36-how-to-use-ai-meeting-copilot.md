@@ -13,7 +13,7 @@ description: Sa paglitaw ng malalaking modelo ng wika tulad ng ChatGPT, binuksan
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Paano Gamitin ang Real-time na Transkripsyon at AI Meeting Notes para Mapabuti
     ang Kahusayan ng Team Meeting?
 tags:

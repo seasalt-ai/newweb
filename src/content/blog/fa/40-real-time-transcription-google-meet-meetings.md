@@ -8,7 +8,7 @@ publishDate: '2023-10-09'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
+  url: /images/blog/40-why-is-real-time-transcription-important-google-meet-meetings/40-why-is-real-time-transcription-important-google-meet-meetings.jpeg
   alt: چگونه رونویسی بی‌درنگ و تجزیه و تحلیل جلسات، جلسات Google Meet را تغییر می‌دهد
 tags:
 - SeaMeet

@@ -8,7 +8,7 @@ description: The blog describes how the deployment of an omni-channel contact ce
 publishDate: '2023-06-28'
 author: Xuchen Yao
 image:
-  url: images/blog/33-bank-seax/33-bank-seax.jpeg
+  url: /images/blog/33-bank-seax/33-bank-seax.jpeg
   alt: 'Customer Story: Empowering a Major Asia Bank to Deliver Multilingual and Privacy-focused
     Support to Customers'
 tags:

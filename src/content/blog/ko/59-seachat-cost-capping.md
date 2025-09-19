@@ -7,7 +7,7 @@ publishDate: '2023-12-21'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
+  url: /images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
   alt: AI 에이전트의 오용 방지 및 비용 관리
 tags:
 - SeaChat

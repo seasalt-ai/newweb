@@ -7,7 +7,7 @@ description: Learn how to legally and efficiently download audio from individual
 publishDate: '2024-01-15'
 author: Guoguo Chen
 image:
-  url: images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
+  url: /images/blog/65-how-to-download-audio-from-youtube/65-how-to-download-audio-from-youtube.png
   alt: How to Download Audio Data from YouTube, One and Many Videos | Audio Toolbox
     Series
 tags:

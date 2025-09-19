@@ -6,7 +6,7 @@ description: Dans cet article de blog, nous discuterons de la montée en popular
 publishDate: '2022-05-23'
 author: Kim Dodds
 image:
-  url: images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
+  url: /images/blog/15-discord-a-new-frontier-for-customer-engagement/Discord_IAP_KeyVisuals_Header_02.jpg
   alt: 'Discord (1/3) : Une nouvelle frontière pour l’engagement client'
 tags:
 - SeaX

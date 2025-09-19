@@ -9,7 +9,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.png
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.png
   alt: 'வாடிக்கையாளர் கதை: SeaX ஒரு சிறந்த மொபைல் போன் பிராண்டிற்கு 100 நாடுகளில்
     வாடிக்கையாளர்களுக்கு ஆதரவளிக்க எவ்வாறு உதவியது'
 tags:

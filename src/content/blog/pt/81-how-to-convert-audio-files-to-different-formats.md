@@ -7,7 +7,7 @@ description: Aprenda sobre conversores de arquivos de áudio, conversão de form
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Seu Guia Completo para Conversão de Áudio: Converta Arquivos de Som Facilmente
     | Série Caixa de Ferramentas de Áudio'
 tags:

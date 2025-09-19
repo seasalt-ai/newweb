@@ -6,7 +6,7 @@ description: Xuchen Yao shares his recent experience with United Airlines' custo
 publishDate: '2023-03-21'
 author: Xuchen Yao
 image:
-  url: images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
+  url: /images/blog/31-cx-at-united-airlines/flight-delay-illustration.png
   alt: 'Customer Service at United Airlines: the Good, the Bad and the Ugly'
 tags:
 - SeaX

@@ -6,7 +6,7 @@ description: Sa blog na ito, ipapakita namin kung paano pinapayagan ng feature n
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX Bulk SMS: Para sa Mas Mabilis, Mas Epektibong Pakikipag-ugnayan sa Customer'
 tags:
 - SeaX

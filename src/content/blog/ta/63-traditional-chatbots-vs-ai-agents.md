@@ -8,7 +8,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'சாட்போட்கள் பற்றி வணிகங்கள் தெரிந்து கொள்ள வேண்டியவை: பாரம்பரிய சாட்போட்களிலிருந்து
     LLM முகவர்கள் வரையிலான பயணம்'
 tags:

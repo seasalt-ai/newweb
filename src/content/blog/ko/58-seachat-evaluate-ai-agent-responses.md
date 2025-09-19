@@ -4,7 +4,7 @@ description: SeaChat을 사용하면 AI 에이전트 응답을 플래그 지정,
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: SeaChat AI 에이전트 응답 평가 방법
 tags:
 - SeaChat

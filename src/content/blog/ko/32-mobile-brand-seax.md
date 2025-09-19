@@ -6,7 +6,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: '고객 사례: SeaX가 100개국에서 최고 모바일 브랜드 고객을 지원한 방법'
 tags:
 - SeaX

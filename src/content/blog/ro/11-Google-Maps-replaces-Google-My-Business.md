@@ -7,7 +7,7 @@ description: Google înlocuiește aplicația Google My Business cu Google Maps, 
 publishDate: '2022-04-06'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: Adio Google My Business, acum Google Maps este noul sistem de operare pentru
     afaceri
 tags: []

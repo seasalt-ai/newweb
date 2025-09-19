@@ -8,7 +8,7 @@ publishDate: '2022-08-17'
 updatedDate: '2025-07-29'
 author: Sarah Reid
 image:
-  url: images/blog/23-seax-case-management/0-main.png
+  url: /images/blog/23-seax-case-management/0-main.png
   alt: 'SeaX Case Management: Возьмите под контроль отслеживание обращений в вашем
     контакт-центре'
 tags:

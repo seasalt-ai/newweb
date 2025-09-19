@@ -8,7 +8,7 @@ publishDate: '2023-12-18'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
+  url: /images/blog/56-seachat-inbound-outbound-calls/56-seachat-inbound-outbound-calls.png
   alt: Cuộc gọi đến và cuộc gọi đi, nhân viên điện thoại AI có thể làm việc cho bạn
     ở cả hai
 tags:

@@ -7,7 +7,7 @@ publishDate: '2023-10-01'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: Modul corect de a trimite SMS-uri în masă către contacte în Excel, Google Sheets
     și Apple Numbers
 tags:

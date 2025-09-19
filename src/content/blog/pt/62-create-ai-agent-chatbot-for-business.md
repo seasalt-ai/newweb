@@ -8,7 +8,7 @@ publishDate: '2023-12-24'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: Como Criar um Chatbot Agente de Voz Incrível para Sua Empresa com Conexão Telefônica
     24/7
 tags:

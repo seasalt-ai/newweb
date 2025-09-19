@@ -7,7 +7,7 @@ publishDate: '2023-06-30'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'ग्राहक कहानी: नाइजीरिया के डिजिटल भुगतान उद्योग में संपर्क केंद्र की सफलता'
 tags:
 - SeaX

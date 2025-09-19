@@ -7,7 +7,7 @@ publishDate: '2024-04-01'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
+  url: /images/blog/71-activecampaign-vs-mailerlite-2024/71-activecampaign-vs-mailerlite-2024.jpg
   alt: 'ActiveCampaign vs. MailerLite: Dịch vụ tiếp thị email nào phù hợp với bạn
     vào năm 2025?'
 tags:

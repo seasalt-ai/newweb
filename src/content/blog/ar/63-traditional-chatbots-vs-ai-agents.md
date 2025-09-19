@@ -7,7 +7,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'ما يجب أن تعرفه الشركات عن روبوتات الدردشة: الرحلة من روبوتات الدردشة التقليدية
     إلى وكلاء LLM'
 tags:

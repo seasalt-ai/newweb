@@ -7,7 +7,7 @@ description: Alamin ang tungkol sa mga audio file converter, pag-convert ng soun
 publishDate: '2024-04-01'
 author: Guoguo Chen
 image:
-  url: images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
+  url: /images/blog/81-how-to-convert-audio-files-to-different-formats/81-how-to-convert-audio-files-to-different-formats.png
   alt: 'Ang Iyong Komprehensibong Gabay sa Pag-convert ng Audio: Madaling I-convert
     ang mga Sound File | Serye ng Audio Toolbox'
 tags:

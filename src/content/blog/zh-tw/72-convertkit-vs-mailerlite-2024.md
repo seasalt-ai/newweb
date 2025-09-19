@@ -4,7 +4,7 @@ description: MailerLite 與 ConvertKit，哪種電子郵件服務適合您？我
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: Kit 與 MailerLite：2025 年哪種電子郵件行銷服務適合您？
 tags:
 - SeaChat

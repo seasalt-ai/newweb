@@ -5,7 +5,7 @@ description: في الجزء الثاني من سلسلة المدونات هذ�
 publishDate: '2021-07-30'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'من العرض التوضيحي إلى النجاح: عيوب الاجتماعات الحديثة (2/5)'
 tags:
 - SeaMeet

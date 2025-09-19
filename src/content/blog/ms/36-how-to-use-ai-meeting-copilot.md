@@ -12,7 +12,7 @@ description: Dengan kemunculan model bahasa besar seperti ChatGPT, AI generatif 
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Bagaimana Menggunakan Transkripsi Masa Nyata dan Nota Mesyuarat AI untuk Meningkatkan
     Kecekapan Mesyuarat Pasukan?
 tags:

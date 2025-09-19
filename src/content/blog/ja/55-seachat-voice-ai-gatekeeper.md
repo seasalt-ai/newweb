@@ -5,7 +5,7 @@ publishDate: '2023-12-17'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
+  url: /images/blog/55-seachat-voice-ai-gatekeeper/55-seachat-voice-ai-gatekeeper.png
   alt: Android および iPhone の AI 通話スクリーン：あなたのパーソナルアシスタントとゲートキーパー
 tags:
 - SeaChat

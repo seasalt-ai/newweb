@@ -5,7 +5,7 @@ publishDate: '2023-06-25'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
+  url: /images/blog/32-mobile-brand-seax/32-mobile-brand-seax.jpg
   alt: 顧客事例：SeaX がトップ携帯電話ブランドの100カ国での顧客サポートを支援した方法
 tags:
 - SeaX

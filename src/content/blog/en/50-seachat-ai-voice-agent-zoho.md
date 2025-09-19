@@ -5,7 +5,7 @@ description: Discover how SeaChat's AI chat and voice agent integrates with Zoho
 publishDate: '2023-12-10'
 author: Xuchen Yao
 image:
-  url: images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
+  url: /images/blog/50-seachat-ai-chat-and-voice-agent-with-zoho-integration/50-seachat-ai-chat-and-voice-agent-with-zoho-integration.png
   alt: Streamlining Customer Support with SeaChat and Zoho Desk Knowledge Base Integration
 tags:
 - SeaChat

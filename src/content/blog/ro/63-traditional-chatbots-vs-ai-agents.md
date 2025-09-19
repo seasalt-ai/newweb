@@ -8,7 +8,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'Ce ar trebui să știe afacerile despre chatbot-uri: Călătoria de la chatbot-uri
     tradiționale la agenți LLM'
 tags:

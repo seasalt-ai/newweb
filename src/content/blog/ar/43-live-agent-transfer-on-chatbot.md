@@ -9,7 +9,7 @@ publishDate: '2023-10-28'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: 'تعاون سلس بين روبوتات الذكاء الاصطناعي ووكلاء خدمة العملاء المباشرين: تعزيز
     تجربة العملاء من خلال التعاون بين الإنسان والآلة'
 tags:

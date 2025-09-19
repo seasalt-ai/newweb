@@ -6,7 +6,7 @@ description: In the first part of this blog series, follow Seasalt.ai’s journe
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'From Demo to Success: Implementing Microsoft''s Modern Meetings and Beyond
     (1/5)'
 tags:

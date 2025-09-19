@@ -7,7 +7,7 @@ publishDate: '2023-06-30'
 updatedDate: '2025-07-28'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'داستان مشتری: موفقیت مرکز تماس در صنعت پرداخت دیجیتال نیجریه'
 tags:
 - SeaX

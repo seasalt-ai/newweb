@@ -4,7 +4,7 @@ description: 在这篇博客中，我们将讨论我们对真实 Discord 用户�
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: Discord 上的语音转文本：STT Discord 机器人案例研究
 tags:
 - SeaVoice

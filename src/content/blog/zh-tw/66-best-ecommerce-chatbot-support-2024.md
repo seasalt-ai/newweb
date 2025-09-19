@@ -4,7 +4,7 @@ description: 為您的2025年商店找到完美的電商平台。我們比較Sho
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
+  url: /images/blog/66-best-ecommerce-websites-with-chatbot-support-in-2024/66-best-ecommerce-websites-with-chatbot-support-in-2024.jpg
   alt: 2025年最佳電商網站建構工具：聊天機器人支援與更多功能
 tags:
 - SeaChat

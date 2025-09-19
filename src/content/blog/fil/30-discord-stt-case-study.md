@@ -6,7 +6,7 @@ description: Sa blog na ito, tatalakayin namin ang aming mga natuklasan kung paa
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Speech-to-Text sa Discord: Isang STT Discord Bot Case Study'
 tags:
 - SeaVoice

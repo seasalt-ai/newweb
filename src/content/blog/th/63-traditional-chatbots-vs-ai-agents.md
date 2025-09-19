@@ -7,7 +7,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'สิ่งที่ธุรกิจควรรู้เกี่ยวกับ Chatbots: การเดินทางจาก Chatbots แบบดั้งเดิมสู่
     LLM Agents'
 tags:

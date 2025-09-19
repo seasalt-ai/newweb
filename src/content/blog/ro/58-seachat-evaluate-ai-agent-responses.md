@@ -6,7 +6,7 @@ description: SeaChat vă permite să semnalați, să revizuiți și să îmbună
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Cum să evaluați răspunsurile agentului AI: Sistemul de revizuire SeaChat pentru
     îmbunătățirea și controlul agentului AI'
 tags:

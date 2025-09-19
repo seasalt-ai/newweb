@@ -6,7 +6,7 @@ description: MailerLite vs. ConverKit, Layanan email mana yang tepat untuk Anda?
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
+  url: /images/blog/72-convertkit-vs-mailerlite-2024/72-convertkit-vs-mailerlite-2024.jpg
   alt: 'Kit vs. MailerLite: Layanan Pemasaran Email Mana yang Tepat untuk Anda di
     Tahun 2025?'
 tags:

@@ -9,7 +9,7 @@ publishDate: '2023-10-05'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'La bataille des assistants de réunion IA : Microsoft Teams Copilot contre
     Google Meet'
 tags:

@@ -7,7 +7,7 @@ updatedDate: '2025-07-29'
 author: Sydney Burgess, Kim Dodds, Drake Farmer, Jack Harvison, Dylan Strong, Cody
   Vernon
 image:
-  url: images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
+  url: /images/blog/26-discord-download/seavoice-discord-audio-transcript-download.jpg
   alt: 'SeaVoice STT/TTS Discord Bot: AI 텍스트 변환 기능이 있는 다운로드 가능한 음성 녹음을 제공하는 최초의 봇'
 tags:
 - SeaVoice

@@ -10,7 +10,7 @@ description: Noua generație de servicii pentru clienți remodelează industria 
 publishDate: '2023-10-28'
 author: Xuchen Yao
 image:
-  url: images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
+  url: /images/blog/43-live-agent-transfer-on-chatbot/43-live-agent-transfer-on-chatbot.png
   alt: Colaborarea perfectă între roboții AI și transferul către agenți umani, cooperarea
     om-mașină îmbunătățește experiența clienților
 tags:

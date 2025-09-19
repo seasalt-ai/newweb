@@ -7,7 +7,7 @@ publishDate: '2021-07-19'
 updatedDate: '2025-08-01'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'De la Demo la Succes: Implementarea întâlnirilor moderne Microsoft și nu numai
     (1/5)'
 tags: []

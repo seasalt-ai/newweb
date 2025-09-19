@@ -11,7 +11,7 @@ description: ChatGPT जैसे बड़े भाषा मॉडल के 
 publishDate: '2023-10-02'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: रीयल-टाइम ट्रांसक्रिप्शन, एआई मीटिंग नोट्स का उपयोग करके टीम मीटिंग दक्षता
     में सुधार कैसे करें?
 tags:

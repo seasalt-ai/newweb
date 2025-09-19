@@ -7,7 +7,7 @@ publishDate: '2022-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao, Ruli Setiawati
 image:
-  url: images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
+  url: /images/blog/11-Google-Maps-replaces-Google-My-Business/thumbnail.png
   alt: अलविदा Google My Business, अब Google Maps व्यवसायों के लिए नया OS है
 tags: []
 lang: hi

@@ -9,7 +9,7 @@ publishDate: '2023-12-26'
 updatedDate: '2025-07-29'
 author: Xuchen Yao
 image:
-  url: images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
+  url: /images/blog/63-traditional-chatbots-vs-ai-agents/63-traditional-chatbots-vs-ai-agents.png
   alt: 'Ano ang Dapat Malaman ng Negosyo tungkol sa Chatbots: Ang Paglalakbay mula
     sa Tradisyonal na Chatbots patungo sa LLM Agents'
 tags:

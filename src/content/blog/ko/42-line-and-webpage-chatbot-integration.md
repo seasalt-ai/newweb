@@ -8,7 +8,7 @@ publishDate: '2023-10-26'
 updatedDate: '2025-08-03'
 author: Xuchen Yao
 image:
-  url: images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
+  url: /images/blog/42-line-and-webpage-chatbot-integration/42-line-and-webpage-chatbot-integration.png
   alt: 맞춤형 ChatGPT 챗봇으로 LINE과 웹페이지 봇 동시 지원
 tags:
 - SeaChat

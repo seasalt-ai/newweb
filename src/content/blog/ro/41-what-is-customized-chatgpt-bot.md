@@ -13,7 +13,7 @@ publishDate: '2023-10-24'
 updatedDate: '2024-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
+  url: /images/blog/41-what-is-customized-chatgpt-bot/41-what-is-customized-chatgpt-bot.png
   alt: Ce este un ChatGPT personalizat? Cum se aplică în afaceri pentru a îmbunătăți
     experiența clienților
 tags:

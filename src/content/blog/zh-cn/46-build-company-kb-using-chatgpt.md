@@ -5,7 +5,7 @@ publishDate: '2023-11-02'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
+  url: /images/blog/46-how-to-build-company-knowledge-base-using-chatgpt/46-how-to-build-company-knowledge-base-using-chatgpt.png
   alt: 打造专属企业的AI聊天机器人 - 定制化ChatGPT机器人企业内部知识库
 tags:
 - SeaChat

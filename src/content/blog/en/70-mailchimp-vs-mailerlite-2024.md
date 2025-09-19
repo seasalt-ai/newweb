@@ -6,7 +6,7 @@ description: MailerLite vs. Mailchimp, Which email service is right for you? Our
 publishDate: '2024-04-01'
 author: Xuchen Yao
 image:
-  url: images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
+  url: /images/blog/70-mailchimp-vs-mailerlite-2024/70-mailchimp-vs-mailerlite-2024.jpg
   alt: 'Mailchimp vs. MailerLite: Which Email Marketing Service is Right for You in
     2025?'
 tags:

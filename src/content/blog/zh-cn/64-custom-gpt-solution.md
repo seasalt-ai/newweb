@@ -5,7 +5,7 @@ publishDate: '2023-12-27'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
+  url: /images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
   alt: 为什么企业应该选择定制的ChatGPT代理构建解决方案
 tags:
 - SeaChat

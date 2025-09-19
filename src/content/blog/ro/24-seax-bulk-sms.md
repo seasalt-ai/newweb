@@ -6,7 +6,7 @@ publishDate: '2022-09-09'
 updatedDate: '2025-08-01'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
-  url: images/blog/24-seax-bulk-sms/thumbnail.png
+  url: /images/blog/24-seax-bulk-sms/thumbnail.png
   alt: 'SeaX Bulk SMS: Pentru o comunicare cu clienții mai rapidă și mai eficientă'
 tags:
 - SeaX

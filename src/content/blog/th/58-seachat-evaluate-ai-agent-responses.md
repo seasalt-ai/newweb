@@ -5,7 +5,7 @@ description: SeaChat ช่วยให้คุณสามารถทำเ�
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'วิธีประเมินการตอบกลับของ AI Agent: ระบบการปรับปรุงและควบคุม AI Agent ของ SeaChat'
 tags:
 - SeaChat

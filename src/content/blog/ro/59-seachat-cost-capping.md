@@ -9,7 +9,7 @@ publishDate: '2023-12-21'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
+  url: /images/blog/59-seachat-cost-capping/59-seachat-cost-capping.png
   alt: Prevenirea abuzului și gestionarea costurilor pentru agenții AI
 tags:
 - SeaChat

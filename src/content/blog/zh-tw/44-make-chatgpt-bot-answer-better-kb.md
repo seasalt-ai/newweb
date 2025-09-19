@@ -4,7 +4,7 @@ description: 如何打造精準回答問題的客製化ChatGPT機器人。從建
 publishDate: '2023-10-30'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: 如何製作精準回答的客製ChatGPT聊天機器人
 tags:
 - SeaChat

@@ -6,7 +6,7 @@ description: इस ब्लॉग श्रृंखला के पहले
 publishDate: '2021-07-19'
 author: Cody Kim
 image:
-  url: images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
+  url: /images/blog/3-implementing-Microsoft-modern-meetings-and-beyond/SeaMeet animation.gif
   alt: 'डेमो से सफलता तक: माइक्रोसॉफ्ट की आधुनिक बैठकों और उससे आगे का कार्यान्वयन
     (1/5)'
 tags:

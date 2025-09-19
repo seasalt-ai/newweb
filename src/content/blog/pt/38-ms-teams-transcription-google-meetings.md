@@ -6,7 +6,7 @@ description: Explore os assistentes de reunião AI do Microsoft Teams e Google M
 publishDate: '2023-10-05'
 author: Xuchen Yao
 image:
-  url: images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
+  url: /images/blog/38-microsoft-teams-transcription-on-google-meet-meetings/38-microsoft-teams-transcription-on-google-meet-meetings.jpeg
   alt: 'Batalha dos Assistentes de Reunião AI: Microsoft Teams vs Google Meet'
 tags:
 - SeaMeet

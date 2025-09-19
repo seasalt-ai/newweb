@@ -6,7 +6,7 @@ description: Alamin ang pinakaligtas na paraan upang magpadala ng maramihang SMS
 publishDate: '2024-05-13'
 author: Xuchen Yao
 image:
-  url: images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
+  url: /images/blog/35-how-to-send-bulk-sms-spreadsheet/35-how-to-send-bulk-sms-spreadsheet.jpg
   alt: Ang Tamang Paraan upang Magpadala ng Maramihang SMS sa mga Contact sa Excel,
     Google Sheets, at Apple Numbers
 tags:

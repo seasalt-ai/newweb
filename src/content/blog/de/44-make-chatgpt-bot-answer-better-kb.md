@@ -11,7 +11,7 @@ publishDate: '2023-10-30'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
+  url: /images/blog/44-how-to-make-chatgpt-bot-answer-better-by-knowledge/44-how-to-make-chatgpt-bot-answer-better-by-knowledge.png
   alt: Wie man einen benutzerdefinierten ChatGPT-Bot erstellt, der besser antwortet
     – Wissensdatenbank
 tags:

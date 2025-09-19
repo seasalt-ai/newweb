@@ -6,7 +6,7 @@ description: En este blog, exploraremos la integración de un CRM como HubSpot e
 publishDate: '2022-01-26'
 author: Sarah Reid
 image:
-  url: images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
+  url: /images/blog/8-hubspot-crm-integration-automation-with-twilio-flex-contact-center/flex-hubspot.png
   alt: 'Automatización de centros de contacto con IA: colaboración de agentes virtuales
     con CRM'
 tags:

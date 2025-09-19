@@ -6,7 +6,7 @@ description: În acest blog, vom discuta descoperirile noastre despre modul în 
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Speech-to-Text pe Discord: Un Studiu de Caz al Botului STT Discord'
 tags:
 - SeaVoice

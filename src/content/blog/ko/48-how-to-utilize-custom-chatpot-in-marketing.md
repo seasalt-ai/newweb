@@ -6,7 +6,7 @@ publishDate: '2023-11-06'
 updatedDate: '2024-12-19'
 author: Xuchen Yao
 image:
-  url: images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
+  url: /images/blog/48-how-to-utilize-custom-chatbot-in-marketing/48-how-to-utilize-custom-chatbot-in-marketing.png
   alt: 맞춤형 ChatGPT 챗봇으로 혁신적인 마케팅 실현하기
 tags:
 - SeaChat

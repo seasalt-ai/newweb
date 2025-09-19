@@ -6,7 +6,7 @@ description: SeaChat vous permet de signaler, d'examiner et d'améliorer les ré
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 'Comment évaluer les réponses des agents IA : Le système d''évaluation de SeaChat
     pour l''amélioration et le contrôle des agents IA'
 tags:

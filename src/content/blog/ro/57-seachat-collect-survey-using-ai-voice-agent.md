@@ -7,7 +7,7 @@ publishDate: '2023-12-19'
 updatedDate: '2025-08-01'
 author: Xuchen Yao
 image:
-  url: images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
+  url: /images/blog/57-seachat-collect-survey-using-ai-voice-agent/57-seachat-collect-survey-using-ai-voice-agent.png
   alt: Colectare ușoară de sondaje cu un agent AI vocal
 tags:
 - SeaChat

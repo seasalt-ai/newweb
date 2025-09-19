@@ -6,7 +6,7 @@ publishDate: '2024-04-06'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
+  url: /images/blog/68-constant-contact-vs-mailerlite-2024/68-constant-contact-vs-mailerlite-2024.jpg
   alt: 'Constant Contact vs. MailerLite: 2025년에 어떤 이메일 마케팅 서비스가 적합할까요?'
 tags:
 - SeaChat

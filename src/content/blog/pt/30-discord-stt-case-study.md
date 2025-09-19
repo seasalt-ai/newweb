@@ -6,7 +6,7 @@ description: Neste blog, discutiremos nossas descobertas sobre como os usuários
 publishDate: '2023-01-23'
 author: Kim Dodds
 image:
-  url: images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
+  url: /images/blog/30-stt-case-study/discord-stt-bot-case-study.jpg
   alt: 'Speech-to-Text no Discord: Um Estudo de Caso do Bot STT do Discord'
 tags:
 - SeaVoice

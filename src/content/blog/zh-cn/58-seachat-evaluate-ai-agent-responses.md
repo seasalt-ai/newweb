@@ -4,7 +4,7 @@ description: SeaChat帮助您标记、审查和改进AI智能体回复，从而�
 publishDate: '2023-12-20'
 author: Xuchen Yao
 image:
-  url: images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
+  url: /images/blog/58-seachat-evaluate-ai-agent-responses/58-seachat-evaluate-ai-agent-responses.png
   alt: 如何评估AI智能体回复：SeaChat的AI智能体改进与控制系统
 tags:
 - SeaChat

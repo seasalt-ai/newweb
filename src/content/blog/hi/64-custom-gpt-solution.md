@@ -8,7 +8,7 @@ publishDate: '2023-12-27'
 updatedDate: '2025-07-27'
 author: Xuchen Yao
 image:
-  url: images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
+  url: /images/blog/64-custom-gpt-solution/64-custom-gpt-solution.png
   alt: व्यवसायों को कस्टम चैटजीपीटी एजेंट बिल्डर समाधान क्यों चुनना चाहिए
 tags:
 - SeaChat

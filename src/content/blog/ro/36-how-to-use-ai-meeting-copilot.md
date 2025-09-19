@@ -13,7 +13,7 @@ publishDate: '2023-10-02'
 updatedDate: '2024-07-30'
 author: Xuchen Yao
 image:
-  url: images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
+  url: /images/blog/36-how-to-use-ai-meeting-copilot/36-how-to-use-ai-meeting-copilot.jpeg
   alt: Cum să îmbunătățiți eficiența întâlnirilor de echipă cu transcrieri în timp
     real și notițe AI?
 tags:

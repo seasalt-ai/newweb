@@ -6,7 +6,7 @@ description: Nigeria's top digital payment company achieved revolutionary custom
 publishDate: '2023-06-30'
 author: Xuchen Yao
 image:
-  url: images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
+  url: /images/blog/34-nigeria-payment-seax/34-nigeria-payment-seax.png
   alt: 'Customer Story: Contact Center Success in Nigeria''s Digital Payment Industry'
 tags:
 - SeaX
