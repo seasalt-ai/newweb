@@ -137,8 +137,9 @@ def main():
     max_lines = args.max_lines - 1  # Use one less to be safe
     
     # Define paths
-    input_file = Path(f"../public/locales/{lang}.json")
-    output_dir = Path(f"../public/locales/{lang}")
+    script_dir = Path(__file__).resolve().parent
+    input_file = script_dir / f"../public/locales/{lang}.json"
+    output_dir = script_dir / f"../public/locales/{lang}"
     
     print(f"Processing language: {lang}")
     print(f"Splitting JSON file: {input_file}")
