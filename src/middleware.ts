@@ -36,6 +36,11 @@ export const onRequest = defineMiddleware((context, next) => {
     return next();
   }
 
+  // Special case: redirect /pricing to /en/pricing
+  if (pathname === '/pricing') {
+    return Response.redirect(new URL('/en/pricing', url), 302);
+  }
+
   // If no language prefix and not root, redirect to add language prefix
   if (pathParts.length > 0) {
     const localizedPath = getLocalizedPath(pathname, currentLang);

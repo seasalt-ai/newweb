@@ -1,5 +1,5 @@
 ---
-// 根目錄重定向頁面 - 自動檢測語言並導向正確的語系頁面
+// /pricing 重定向頁面 - 自動導向用戶語言的 pricing 頁面
 ---
 
 <!DOCTYPE html>
@@ -7,25 +7,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SeaSalt.ai - AI-Powered Contact Center Solutions</title>
-    <meta name="description" content="Transform your customer communications with SeaSalt.ai's AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.">
+    <title>Pricing - SeaSalt.ai</title>
+    <meta name="description" content="Choose the right plan for your business. Transparent pricing for AI-powered contact center solutions with no hidden fees.">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://seasalt.ai/en/">
+    <link rel="canonical" href="https://seasalt.ai/en/pricing">
     
     <!-- 預加載最可能的語言頁面 -->
-    <link rel="preload" href="/en/" as="document">
+    <link rel="preload" href="/en/pricing" as="document">
     
     <!-- Hreflang 標籤 -->
-    <link rel="alternate" hreflang="en" href="https://seasalt.ai/en/">
-    <link rel="alternate" hreflang="zh-tw" href="https://seasalt.ai/zh-tw/">
-    <link rel="alternate" hreflang="zh-cn" href="https://seasalt.ai/zh-cn/">
-    <link rel="alternate" hreflang="ja" href="https://seasalt.ai/ja/">
-    <link rel="alternate" hreflang="ko" href="https://seasalt.ai/ko/">
-    <link rel="alternate" hreflang="es" href="https://seasalt.ai/es/">
-    <link rel="alternate" hreflang="fr" href="https://seasalt.ai/fr/">
-    <link rel="alternate" hreflang="de" href="https://seasalt.ai/de/">
-    <link rel="alternate" hreflang="x-default" href="https://seasalt.ai/en/">
+    <link rel="alternate" hreflang="en" href="https://seasalt.ai/en/pricing">
+    <link rel="alternate" hreflang="zh-tw" href="https://seasalt.ai/zh-tw/pricing">
+    <link rel="alternate" hreflang="zh-cn" href="https://seasalt.ai/zh-cn/pricing">
+    <link rel="alternate" hreflang="ja" href="https://seasalt.ai/ja/pricing">
+    <link rel="alternate" hreflang="ko" href="https://seasalt.ai/ko/pricing">
+    <link rel="alternate" hreflang="es" href="https://seasalt.ai/es/pricing">
+    <link rel="alternate" hreflang="fr" href="https://seasalt.ai/fr/pricing">
+    <link rel="alternate" hreflang="de" href="https://seasalt.ai/de/pricing">
+    <link rel="alternate" hreflang="x-default" href="https://seasalt.ai/en/pricing">
     
     <!-- 立即重定向腳本 -->
     <script>
@@ -63,7 +63,7 @@
                     return urlLang;
                 }
                 
-                // 2. 檢查 localStorage
+                // 2. 檢查 localStorage 中保存的語言偏好
                 try {
                     const savedLang = localStorage.getItem('seasalt-preferred-language');
                     if (savedLang && supportedLocales.includes(savedLang)) {
@@ -105,9 +105,9 @@
                 return 'en';
             }
             
-            // 執行重定向
+            // 執行重定向到 pricing 頁面
             const detectedLang = detectLanguage();
-            const newUrl = '/' + detectedLang + '/' + window.location.search + window.location.hash;
+            const newUrl = '/' + detectedLang + '/pricing' + window.location.search + window.location.hash;
             
             // 保存語言偏好
             try {
@@ -123,7 +123,7 @@
     
     <!-- SEO 友好的 noscript 回退 -->
     <noscript>
-        <meta http-equiv="refresh" content="0; url=/en/">
+        <meta http-equiv="refresh" content="0; url=/en/pricing">
     </noscript>
 </head>
 <body>
@@ -146,8 +146,8 @@
             animation: spin 1s linear infinite;
             margin: 0 auto 16px;
         "></div>
-        <p>Redirecting to your language...</p>
-        <p style="font-size: 14px; opacity: 0.7;">正在重定向到您的語言...</p>
+        <p>Redirecting to pricing page...</p>
+        <p style="font-size: 14px; opacity: 0.7;">正在重定向到定價頁面...</p>
     </div>
     
     <style>

@@ -59,7 +59,7 @@ async function loadTranslations(lang: SupportedLanguage) {
 }
 
 // 翻譯函數
-function createTranslationFunction(translations: any, lang?: SupportedLanguage) {
+function createTranslationFunction(translations: any, lang?: SupportedLanguage, fallbackTranslations?: any) {
   return function t(key: string, params?: Record<string, any>): any {
     if (!translations) {
       return key;
@@ -68,21 +68,80 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage) 
     const keys = key.split('.');
     let result: any = translations;
     
+    // 先嘗試在目前語言中找到翻譯
     for (const k of keys) {
       if (result && typeof result === 'object' && k in result) {
         result = result[k];
       } else {
-        // 在開發環境中記錄缺失的翻譯鍵
-        if (isDev) {
-          const logKey = `${lang || 'unknown'}:${key}`;
-          if (!loggedMissingKeys.has(logKey)) {
-            console.warn(`🌐 Missing translation key: "${key}" in locale "${lang || 'unknown'}"`);
-            loggedMissingKeys.add(logKey);
-          }
-        }
-        return key; // 找不到翻譯時返回 key
+        result = null;
+        break;
       }
     }
+    
+    // 如果在目前語言中找到翻譯，處理它
+    if (result !== null) {
+      // 如果參數中包含 returnObjects: true，直接返回結果
+      if (params?.returnObjects === true) {
+        return result;
+      }
+      
+      if (typeof result === 'string') {
+        // 簡單的參數替換
+        if (params) {
+          return result.replace(/\{\{(\w+)\}\}/g, (match, paramName) => {
+            return params[paramName]?.toString() || match;
+          });
+        }
+        return result;
+      }
+      
+      // 對於其他類型（數組、對象）也返回結果
+      if (Array.isArray(result) || (typeof result === 'object' && result !== null)) {
+        return result;
+      }
+    }
+    
+    // 如果在目前語言中找不到翻譯，嘗試 fallback 到默認語言
+    if (fallbackTranslations && lang !== defaultLang) {
+      let fallbackResult: any = fallbackTranslations;
+      
+      for (const k of keys) {
+        if (fallbackResult && typeof fallbackResult === 'object' && k in fallbackResult) {
+          fallbackResult = fallbackResult[k];
+        } else {
+          fallbackResult = null;
+          break;
+        }
+      }
+      
+      if (fallbackResult !== null) {
+        if (typeof fallbackResult === 'string') {
+          // 簡單的參數替換
+          if (params) {
+            return fallbackResult.replace(/\{\{(\w+)\}\}/g, (match, paramName) => {
+              return params[paramName]?.toString() || match;
+            });
+          }
+          return fallbackResult;
+        }
+        
+        // 對於其他類型（數組、對象）也返回結果
+        if (Array.isArray(fallbackResult) || (typeof fallbackResult === 'object' && fallbackResult !== null)) {
+          return fallbackResult;
+        }
+      }
+    }
+    
+    // 在開發環境中記錄缺失的翻譯鍵
+    if (isDev) {
+      const logKey = `${lang || 'unknown'}:${key}`;
+      if (!loggedMissingKeys.has(logKey)) {
+        console.warn(`🌐 Missing translation key: "${key}" in locale "${lang || 'unknown'}"`);
+        loggedMissingKeys.add(logKey);
+      }
+    }
+    
+    return key; // 找不到翻譯時返回 key
     
     // 如果參數中包含 returnObjects: true，直接返回結果
     if (params?.returnObjects === true) {
@@ -111,7 +170,14 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage) 
 // 在 Astro 組件中使用的 helper 函數
 export async function getTranslationHelpers(lang: SupportedLanguage) {
   const translations = await loadTranslations(lang);
-  const t = createTranslationFunction(translations, lang);
+  
+  // 如果不是默認語言，加載默認語言作為 fallback
+  let fallbackTranslations = null;
+  if (lang !== defaultLang) {
+    fallbackTranslations = await loadTranslations(defaultLang);
+  }
+  
+  const t = createTranslationFunction(translations, lang, fallbackTranslations);
   
   return {
     t,
@@ -198,8 +264,15 @@ export function useTranslation(lang: SupportedLanguage) {
     const cachedTranslations = translationCache.get(langKey);
     
     if (cachedTranslations) {
+      // 如果不是默認語言，嘗試取得 fallback 翻譯
+      let fallbackTranslations = null;
+      if (lang !== defaultLang) {
+        const fallbackKey = defaultLang === 'zh-tw' ? 'zh-TW' : defaultLang === 'zh-cn' ? 'zh-CN' : defaultLang;
+        fallbackTranslations = translationCache.get(fallbackKey);
+      }
+      
       return {
-        t: createTranslationFunction(cachedTranslations, lang),
+        t: createTranslationFunction(cachedTranslations, lang, fallbackTranslations),
         isLoading: false,
         error: null
       };
