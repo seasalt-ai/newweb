@@ -146,9 +146,10 @@ def main():
     suffix = args.output_suffix
     
     # Define paths
-    input_dir = Path(f"../public/locales/{lang}")
-    output_file = Path(f"../public/locales/{lang}{suffix}.json")
-    original_file = Path(f"../public/locales/{lang}.json")
+    script_dir = Path(__file__).resolve().parent
+    input_dir = script_dir / f"../public/locales/{lang}"
+    output_file = script_dir / f"../public/locales/{lang}{suffix}.json"
+    original_file = script_dir / f"../public/locales/{lang}.json"
     
     print(f"Processing language: {lang}")
     print(f"Merging JSON files from: {input_dir}")
