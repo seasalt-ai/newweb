@@ -29,6 +29,7 @@ import json
 import os
 import sys
 import argparse
+import copy
 from pathlib import Path
 from typing import Dict, Any, List, Set
 import glob
@@ -75,7 +76,7 @@ def get_all_keys(obj: Dict[Any, Any], prefix: str = "") -> Set[str]:
 
 def deep_merge_dicts(base_dict: Dict[Any, Any], merge_dict: Dict[Any, Any]) -> Dict[Any, Any]:
     """Recursively merge two dictionaries, with merge_dict taking precedence."""
-    result = base_dict.copy()
+    result = copy.deepcopy(base_dict)
     
     for key, value in merge_dict.items():
         if key in result and isinstance(result[key], dict) and isinstance(value, dict):
@@ -83,7 +84,7 @@ def deep_merge_dicts(base_dict: Dict[Any, Any], merge_dict: Dict[Any, Any]) -> D
             result[key] = deep_merge_dicts(result[key], value)
         else:
             # Either key doesn't exist in base_dict, or one of the values is not a dict
-            result[key] = value
+            result[key] = copy.deepcopy(value)
     
     return result
 

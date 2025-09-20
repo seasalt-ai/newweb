@@ -30,6 +30,7 @@ import json
 import os
 import sys
 import argparse
+import copy
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 
@@ -57,7 +58,7 @@ def split_large_nested_object(key: str, value: Dict[Any, Any], max_lines: int) -
     current_nested = {}
     
     for nested_key, nested_value in value.items():
-        temp_nested = current_nested.copy()
+        temp_nested = copy.deepcopy(current_nested)
         temp_nested[nested_key] = nested_value
         temp_chunk = {key: temp_nested}
         
@@ -102,7 +103,7 @@ def split_json_by_top_level_keys(data: Dict[Any, Any], max_lines: int = 2000) ->
             chunks.extend(large_key_chunks)
         else:
             # Create a temporary chunk to test the line count
-            temp_chunk = current_chunk.copy()
+            temp_chunk = copy.deepcopy(current_chunk)
             temp_chunk[key] = value
             temp_lines = count_json_lines(temp_chunk)
             
