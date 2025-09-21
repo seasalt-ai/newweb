@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "tableOfContents": "Table of Contents",
+    "loading": {
+      "translations": "Loading translations...",
+      "blogPosts": "Loading blog posts..."
+    },
+    "actions": {
+      "signUp": "Sign Up",
+      "bookDemo": "Book A Demo",
+      "clearFilters": "Clear filters",
+      "signUpForFree": "Sign Up For Free",
+      "scheduleDemo": "Schedule Demo"
+    }
+  },
+  "navigation": {
+    "backToHome": "Back to Home",
+    "backToBlog": "Back to Blog"
+  },
+  "blog": {
+    "searchPlaceholder": "Search blog posts...",
+    "allCategories": "All Categories",
+    "clearFilters": "Clear filters",
+    "seo": {
+      "title": "Blog - Seasalt.ai",
+      "description": "Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
+    },
+    "loading": {
+      "text": "Loading blog posts..."
+    },
+    "nav": {
+      "backToHome": "Back to Home"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "Blog",
+      "description": "Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
+    },
+    "search": {
+      "placeholder": "Search blog posts..."
+    },
+    "filter": {
+      "allCategories": "All Categories"
+    },
+    "empty": {
+      "noPosts": "No blog posts found.",
+      "noResults": "No posts match your search criteria.",
+      "clearFilters": "Clear filters"
+    },
+    "post": {
+      "readMore": "Read More →",
+      "updated": "Updated"
+    },
+    "newsletter": {
+      "title": "Stay Updated with Our Latest Insights",
+      "description": "Get the latest articles on AI automation, customer experience, and business growth delivered straight to your inbox.",
+      "emailPlaceholder": "Enter your email",
+      "subscribeButton": "Subscribe"
+    }
+  },
+  "careers": {
+    "seo": {
+      "title": "Careers at Seasalt.ai",
+      "description": "Explore career opportunities at Seasalt.ai. Join our mission to transform the world of business communication with AI."
+    },
+    "hero": {
+      "title": "Careers at Seasalt.ai",
+      "subtitle": "Join our mission to transform the world of business communication with AI. We hire the world's best and brightest people to help make this transformation a reality."
+    },
+    "mission": {
+      "title": "Seasalt.ai's Mission",
+      "content": "Seasalt.ai's mission is to transform the world of businesses with AI. We hire the world's best and brightest people to help make this transformation a reality."
+    },
+    "vision": {
+      "title": "Seasalt.ai's Vision",
+      "content": "Seasalt.ai's vision is to create a world where humans coexist with AI. We solve B2B with B2C in mind."
+    },
+    "departments": {
+      "business": "Business",
+      "product": "Product",
+      "engineering": "Engineering"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Business Developer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Field Marketing & Direct Sales",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "technicalProductManager": {
+        "title": "Technical Product Manager",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "productMarketing": {
+        "title": "Product Marketing",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "frontendEngineer": {
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "backendEngineer": {
+        "title": "Backend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "devOps": {
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerNLP": {
+        "title": "Machine Learning Engineer (NLP)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Machine Learning Engineer (Language Modeling)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Machine Learning Engineer (Speech Recognition)",
+        "location": "Remote",
+        "type": "Full-time"
+      }
+    },
+    "common": {
+      "detail": "View Details"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "About Seasalt.ai - Company Information & Leadership",
+      "description": "Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms."
+    },
+    "hero": {
+      "title": "About Seasalt.ai",
+      "description": "Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.",
+      "subtitle": "From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, elevate customer experiences, and unlock new channels for growth."
+    },
+    "mission": {
+      "title": "Our Mission & Values",
+      "heading": "Our Mission",
+      "text": "Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.",
+      "statement": "We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.",
+      "future": "We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully."
+    },
+    "vision": {
+      "heading": "Our Vision",
+      "text": "Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence."
+    },
+    "values": {
+      "title": "🧭 Our Core Values",
+      "humanFirst": {
+        "title": "Human First",
+        "description": "Putting people at the center of all our AI solutions."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Open and honest communication across our team and with customers."
+      },
+      "speedSafety": {
+        "title": "Speed & Safety",
+        "description": "Delivering fast solutions while maintaining the highest safety standards."
+      },
+      "buildPurpose": {
+        "title": "Build with Purpose",
+        "description": "Every product and feature serves a meaningful goal."
+      },
+      "globalEmpathy": {
+        "title": "Global Empathy",
+        "description": "Designing solutions with cultural sensitivity and worldwide impact."
+      }
+    },
+    "leadership": {
+      "0": {
+        "role": "CEO & Co-Founder",
+        "bio": "Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu). Two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO & Co-Founder",
+        "bio": "Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      },
+      "title": "Leadership & Co-founders",
+      "homepage": "Homepage",
+      "scholar": "Google Scholar"
+    },
+    "offices": {
+      "title": "Office Locations",
+      "list": [
+        {
+          "title": "Global Headquarters",
+          "location": "Seattle, Washington, USA"
+        },
+        {
+          "title": "Asia R&D and Support Center",
+          "location": "Taipei, Taiwan"
+        }
+      ]
+    },
+    "products": {
+      "title": "What We Build",
+      "subtitle": "Product Portfolio",
+      "downloadPressKit": "Download the Product Logo & Press Kit",
+      "product1": {
+        "name": "SeaChat (Response AI)",
+        "description": "AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice)."
+      },
+      "product2": {
+        "name": "SeaX (Outreach AI)",
+        "description": "Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing."
+      },
+      "product3": {
+        "name": "SeaMeet (Insights AI)",
+        "description": "AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings."
+      },
+      "product4": {
+        "name": "SeaVoice (Voice Autopilot)",
+        "description": "Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition."
+      }
+    },
+    "funding": {
+      "title": "Funding & Investors",
+      "seedFunding": "Seed Funding",
+      "raised": "$4.2 million USD raised in 2024",
+      "investorsTitle": "Our investors include:",
+      "investorsList": [
+        "Unlock Venture Partners (Lead Investor)",
+        "Z Venture Capital (ZVC, the corporate venture arm of LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Strategic Partnerships",
+      "description": "Our platform's power is amplified by deep, strategic partnerships with global technology leaders:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "As a Twilio Gold Partner and authorized reseller of Twilio Flex, we have a strengthened strategic relationship to enhance customer experience with conversational AI. Key to our expansion in the Asia-Pacific and Japan (APJ) region.",
+          "type": "Gold Partner"
+        },
+        {
+          "description": "Official platform integrations with Facebook/WhatsApp/Instagram, enabling seamless omnichannel communications.",
+          "type": "Official Integration"
+        },
+        {
+          "description": "Partnership allows us to seamlessly build advanced email and scheduling features directly into our applications, enhancing the contextual depth of our AI agents.",
+          "type": "Strategic Partner"
+        },
+        {
+          "description": "Through our investor ZVC, we have unique access to LINE's business call APIs, critical for our strategy in key Asian markets where LINE is the dominant communication platform.",
+          "type": "Strategic Partner and Investment"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our mission to transform business communications",
+      "list": [
+        {
+          "event": "Seasalt.ai founded by industry veterans in AI and voice technologies"
+        },
+        {
+          "event": "Surviving Covid19. No one was let go."
+        },
+        {
+          "event": "Launch of SeaChat omnichannel customer service platform"
+        },
+        {
+          "event": "Introduction of SeaX outreach AI and SeaMeet insights AI"
+        },
+        {
+          "event": "Launch of SeaVoice advanced voice AI infrastructure"
+        }
+      ]
+    },
+    "careers": {
+      "title": "Careers at Seasalt.ai",
+      "description": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, AI scientists, developers, and business builders.",
+      "cta": "See open positions",
+      "bullet1": "Global, diverse, and remote-friendly culture",
+      "bullet2": "Work with cutting-edge AI technology",
+      "bullet3": "Make real impact in business communications",
+      "bullet4": "Collaborate with industry veterans"
+    },
+    "contact": {
+      "title": "Contact & Press",
+      "press": {
+        "title": "Press & Media",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Investors",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Partnerships",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "24/7 Hotline",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "Download the Product Logo & Press Kit",
+      "tagline": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.",
+      "pressKit": {
+        "downloadText": "Download the Product Logo & Press Kit",
+        "description": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide."
+      }
+    },
+    "newsletter": {
+      "title": "Sign Up to Our Newsletter",
+      "subtitle": "One per week, written by the CEO",
+      "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
+      "emailPlaceholder": "Enter your email address",
+      "cta": "Subscribe",
+      "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Small & Medium Businesses",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "campaignMessaging": "Campaign Messaging",
+      "speechAnalysis": "Speech Analysis"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Get approved for Twilio SMS campaigns",
+      "bulkSendSms": "Bulk send SMS",
+      "whatsappCustomers": "WhatsApp your customers",
+      "callCustomersBatch": "Call your customers in batch",
+      "autoAnswerCalls": "Auto-answer calls 24/7",
+      "voiceAiSeniors": "Voice AI calls to check on seniors",
+      "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
+      "conversationalGenAi": "Conversational GenAI for classrooms",
+      "winCampaigns": "Win campaigns with automated texts & calls",
+      "transcribeAudio": "Transcribe audio & calls to discover insights",
+      "meetingAnalytics": "Meeting analytics for remote teams"
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Sales & Marketing Solutions - Seasalt.ai",
+        "description": "Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals."
+      },
+      "navigation": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title1": "Turn Every Lead into",
+        "titleGradient": "Revenue Opportunity",
+        "subtitle": "AI-Powered Sales & Marketing Automation That Never Sleeps",
+        "description": "Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals.",
+        "cta": {
+          "primary": "Boost Your Conversions",
+          "secondary": "Book A Demo"
+        },
+        "dashboard": {
+          "title": "Sales Performance",
+          "leads": "🎯 47 new leads captured today",
+          "leadsQualified": "AI qualified 23 as high-priority",
+          "responseTime": "⚡ Average response time: 12 seconds",
+          "responseTimeBenefit": "300% faster than industry average",
+          "demos": "📅 15 demos booked automatically",
+          "demosNote": "While your team was in meetings",
+          "pipeline": "💰 $24,500 pipeline added this week",
+          "conversion": "45% conversion rate improvement"
+        }
+      },
+      "challenges": {
+        "title": "Sales & Marketing Challenges",
+        "description": "Every minute you're not responding to a lead is a minute your competitor might be. Don't let manual processes cost you revenue.",
+        "leadGeneration": {
+          "title": "Lead Generation & Qualification",
+          "description": "Struggling to capture leads across multiple channels and qualify them efficiently"
+        },
+        "conversion": {
+          "title": "Conversion Optimization",
+          "description": "Missing opportunities to convert prospects due to slow response times"
+        },
+        "campaignManagement": {
+          "title": "Campaign Management",
+          "description": "Difficulty managing multi-channel campaigns and tracking their effectiveness"
+        }
+      },
+      "solutions": {
+        "title": "Your AI-Powered Sales Engine",
+        "description": "Transform your sales and marketing operations with intelligent automation that captures, qualifies, and converts leads around the clock.",
+        "leadCapture": {
+          "title": "Intelligent Lead Capture & Qualification",
+          "description": "Capture leads from every channel and let AI qualify them instantly",
+          "benefit1": "Capture leads from website, social media, and ads",
+          "benefit2": "AI qualifies leads with smart questioning",
+          "benefit3": "Automatic lead scoring and prioritization",
+          "benefit4": "Instant notifications for hot prospects"
+        },
+        "responseTime": {
+          "title": "Lightning-Fast Response Times",
+          "description": "Respond to prospects within seconds, not hours, with AI automation",
+          "benefit1": "Instant responses to all inquiries 24/7",
+          "benefit2": "AI books demos and consultations automatically",
+          "benefit3": "Smart follow-up sequences that nurture leads",
+          "benefit4": "Seamless handoff to sales reps when ready"
+        },
+        "omnichannel": {
+          "title": "Omnichannel Campaign Management",
+          "description": "Launch and manage campaigns across SMS, WhatsApp, email, and voice",
+          "benefit1": "Unified campaign management across all channels",
+          "benefit2": "Personalized messaging at scale",
+          "benefit3": "Real-time campaign performance tracking",
+          "benefit4": "Automated A/B testing and optimization"
+        },
+        "keyBenefits": "Key Benefits:"
+      },
+      "useCases": {
+        "title": "Real Sales Team Success Stories",
+        "description": "See how sales and marketing teams are using Seasalt.ai to accelerate their growth",
+        "saas": {
+          "title": "SaaS Sales Team",
+          "challenge": "Generating and qualifying leads for software demos",
+          "solution": "AI captures leads from website, qualifies interest level, and books demos automatically"
+        },
+        "ecommerce": {
+          "title": "E-commerce Marketing",
+          "challenge": "Running promotional campaigns and recovering abandoned carts",
+          "solution": "Automated SMS and WhatsApp campaigns with personalized offers and cart recovery"
+        },
+        "realEstate": {
+          "title": "Real Estate Agents",
+          "challenge": "Following up on property inquiries and scheduling showings",
+          "solution": "AI responds to property questions instantly and books showing appointments"
+        },
+        "professionalServices": {
+          "title": "Professional Services",
+          "challenge": "Converting consultation requests into booked appointments",
+          "solution": "Smart qualification process that books consultations with the right team member"
+        },
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:"
+      },
+      "metrics": {
+        "title": "Sales Performance Impact",
+        "description": "See the measurable impact on your sales and marketing metrics",
+        "responseRate": "Increase in lead response rate",
+        "conversionRate": "Higher conversion rates",
+        "availability": "Lead capture and qualification",
+        "qualifiedLeads": "More qualified leads per month"
+      },
+      "cta": {
+        "title": "Ready to Supercharge Your Sales Performance?",
+        "description": "Join hundreds of sales teams using Seasalt.ai to capture more leads, respond faster, and close more deals with AI automation.",
+        "primary": "Sign Up",
+        "secondary": "Book Sales Demo",
+        "disclaimer": "No credit card required • See results in 24 hours • Cancel anytime"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Customer Support Solutions - Seasalt.ai",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
+      },
+      "navigation": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Deliver",
+          "exceptionalSupport": "Exceptional Support",
+          "atScale": "at Scale"
+        },
+        "subtitle": "AI-Powered Customer Support That Never Sleeps",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions.",
+        "cta": {
+          "primary": "Improve Support Now",
+          "secondary": "See Demo"
+        },
+        "dashboard": {
+          "title": "Support Dashboard",
+          "aiResolved": "🤖 AI resolved 156 tickets today",
+          "resolutionTime": "Average resolution time: 23 seconds",
+          "escalated": "👥 12 tickets escalated to humans",
+          "complexIssues": "Complex issues requiring expertise",
+          "satisfaction": "😊 Customer satisfaction: 96%",
+          "satisfactionUp": "Up 15% from last month",
+          "responseTime": "⏱️ Average response time: 8 seconds",
+          "fasterThanAverage": "98% faster than industry average"
+        }
+      },
+      "challenges": {
+        "title": "Customer Support Challenges",
+        "description": "Modern customers expect instant, personalized support. Traditional support models struggle to meet these expectations while controlling costs.",
+        "responseTimePressure": {
+          "title": "Response Time Pressure",
+          "description": "Customers expect instant responses, but your team can't be available 24/7"
+        },
+        "scalingTeam": {
+          "title": "Scaling Support Team",
+          "description": "Growing customer base requires more agents, but hiring is expensive and slow"
+        },
+        "repetitiveInquiries": {
+          "title": "Repetitive Inquiries",
+          "description": "Agents spend too much time on routine questions instead of complex issues"
+        }
+      },
+      "solutions": {
+        "title": "Your AI-Powered Support Solution",
+        "description": "Combine the efficiency of AI automation with the empathy of human agents to deliver exceptional customer experiences at any scale.",
+        "instantResponse": {
+          "title": "24/7 Instant Response System",
+          "description": "AI handles customer inquiries immediately, any time of day or night",
+          "benefit1": "Instant responses to common questions",
+          "benefit2": "AI resolves 80% of routine inquiries",
+          "benefit3": "Seamless escalation to human agents",
+          "benefit4": "Consistent service quality around the clock"
+        },
+        "agentProductivity": {
+          "title": "Smart Agent Productivity",
+          "description": "Empower your human agents with AI assistance and unified customer context",
+          "benefit1": "Complete customer history in one view",
+          "benefit2": "AI suggests responses and solutions",
+          "benefit3": "Automatic ticket routing and prioritization",
+          "benefit4": "Real-time sentiment analysis and alerts"
+        },
+        "satisfactionOptimization": {
+          "title": "Customer Satisfaction Optimization",
+          "description": "Deliver exceptional experiences that turn customers into advocates",
+          "benefit1": "Proactive issue resolution and follow-up",
+          "benefit2": "Personalized support based on customer history",
+          "benefit3": "Multi-channel consistency across all touchpoints",
+          "benefit4": "Continuous improvement through AI learning"
+        },
+        "keyBenefitsTitle": "Key Benefits:"
+      },
+      "useCases": {
+        "title": "Support Team Success Stories",
+        "description": "See how customer support teams are using Seasalt.ai to improve efficiency and satisfaction",
+        "ecommerce": {
+          "title": "E-commerce Support",
+          "scenario": "Handling order status, returns, and product questions at scale",
+          "solution": "AI instantly provides order updates and processes returns, escalating complex issues to humans"
+        },
+        "saas": {
+          "title": "SaaS Customer Success",
+          "scenario": "Supporting users with technical questions and feature guidance",
+          "solution": "AI provides instant help articles and tutorials, books technical support calls when needed"
+        },
+        "healthcare": {
+          "title": "Healthcare Patient Support",
+          "scenario": "Managing appointment scheduling and basic health inquiries",
+          "solution": "HIPAA-compliant AI handles scheduling and basic questions, routes urgent matters to staff"
+        },
+        "financial": {
+          "title": "Financial Services",
+          "scenario": "Answering account questions while maintaining security compliance",
+          "solution": "Secure AI verifies identity and provides account info, escalates sensitive matters appropriately"
+        },
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:"
+      },
+      "metrics": {
+        "title": "Support Performance Impact",
+        "description": "Measurable improvements in efficiency, satisfaction, and cost management",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Reduction in response time",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Customer satisfaction score",
+        "costDecrease": "60%",
+        "costDescription": "Decrease in support costs",
+        "availability": "24/7",
+        "availabilityDescription": "Availability without overtime"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Customer Support?",
+        "description": "Join hundreds of support teams using Seasalt.ai to deliver faster, more efficient, and more satisfying customer experiences.",
+        "primary": "Sign Up",
+        "secondary": "Book Support Demo",
+        "disclaimer": "No credit card required • Improve satisfaction in 24 hours • Cancel anytime"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "AI Automation Solutions - Seasalt.ai",
+        "description": "Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results."
+      },
+      "nav": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Unleash the Power of",
+          "highlight": "AI Automation"
+        },
+        "subtitle": "Intelligent Automation That Thinks, Learns, and Scales",
+        "description": "Transform your business operations with AI that doesn't just follow rules—it understands context, makes intelligent decisions, and continuously improves to deliver exceptional results.",
+        "cta": {
+          "primary": "Start Automating",
+          "secondary": "See AI in Action"
+        },
+        "dashboard": {
+          "title": "AI Automation Center",
+          "stats": {
+            "tasks": "🧠 AI processed 342 tasks today",
+            "tasksSaved": "Saved 8.5 hours of manual work",
+            "workflows": "⚡ 23 workflows automated",
+            "workflowsDescription": "From lead capture to customer onboarding",
+            "accuracy": "📈 97% accuracy rate",
+            "accuracyDescription": "Continuously improving through ML",
+            "savings": "🎯 $12,400 cost savings this month",
+            "savingsDescription": "Through intelligent automation"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Automation Challenges",
+        "description": "Traditional automation is rigid and limited. Modern businesses need intelligent automation that adapts, learns, and scales with their growth.",
+        "manualTasks": {
+          "title": "Manual Repetitive Tasks",
+          "description": "Your team spends too much time on routine tasks that could be automated"
+        },
+        "scaling": {
+          "title": "Scaling Limitations",
+          "description": "Growth is limited by human capacity rather than market opportunity"
+        },
+        "inconsistent": {
+          "title": "Inconsistent Experiences",
+          "description": "Customer experience varies based on which team member handles the interaction"
+        }
+      },
+      "solutions": {
+        "title": "Intelligent AI Automation",
+        "description": "Go beyond simple rule-based automation with AI that understands context, makes intelligent decisions, and continuously improves performance.",
+        "voiceChat": {
+          "title": "Intelligent Voice & Chat Automation",
+          "description": "AI agents that understand context and provide human-like interactions",
+          "benefits": {
+            "nlp": "Natural language processing for complex queries",
+            "channels": "Voice and text conversations across all channels",
+            "contextAware": "Context-aware responses based on customer history",
+            "handoff": "Seamless handoff to humans when needed"
+          }
+        },
+        "workflow": {
+          "title": "Smart Workflow Automation",
+          "description": "Automate complex business processes with intelligent decision-making",
+          "benefits": {
+            "leadQualification": "Automated lead qualification and routing",
+            "scheduling": "Intelligent appointment scheduling and management",
+            "pricing": "Dynamic pricing and proposal generation",
+            "followUp": "Automated follow-up sequences and nurturing"
+          }
+        },
+        "learning": {
+          "title": "Continuous Learning & Optimization",
+          "description": "AI that gets smarter over time, improving performance automatically",
+          "benefits": {
+            "machineLearning": "Machine learning from every customer interaction",
+            "optimization": "Automatic optimization of response accuracy",
+            "predictive": "Predictive analytics for proactive customer service",
+            "monitoring": "Real-time performance monitoring and adjustment"
+          }
+        },
+        "capabilities": "Key Capabilities:"
+      },
+      "automationTypes": {
+        "title": "Automation Across Your Business",
+        "description": "From customer service to sales, marketing to operations—AI automation transforms every aspect of your business.",
+        "customerService": {
+          "title": "Customer Service Automation",
+          "description": "AI handles routine inquiries, escalates complex issues",
+          "examples": {
+            "orderStatus": "Order status updates",
+            "faq": "FAQ responses",
+            "troubleshooting": "Basic troubleshooting",
+            "account": "Account information"
+          }
+        },
+        "sales": {
+          "title": "Sales Process Automation",
+          "description": "Automate lead qualification, follow-ups, and scheduling",
+          "examples": {
+            "leadScoring": "Lead scoring",
+            "demoBooking": "Demo booking",
+            "proposals": "Proposal generation",
+            "followUp": "Follow-up sequences"
+          }
+        },
+        "marketing": {
+          "title": "Marketing Campaign Automation",
+          "description": "Intelligent campaigns that adapt based on customer behavior",
+          "examples": {
+            "personalized": "Personalized messaging",
+            "timing": "Optimal send times",
+            "testing": "A/B testing",
+            "optimization": "Performance optimization"
+          }
+        },
+        "operational": {
+          "title": "Operational Automation",
+          "description": "Streamline internal processes and workflows",
+          "examples": {
+            "dataEntry": "Data entry",
+            "reports": "Report generation",
+            "taskAssignment": "Task assignment",
+            "qualityMonitoring": "Quality monitoring"
+          }
+        },
+        "examples": "EXAMPLES:"
+      },
+      "metrics": {
+        "title": "Automation Performance Impact",
+        "description": "Measurable improvements in efficiency, accuracy, and operational capacity",
+        "reduction": {
+          "value": "80%",
+          "label": "Reduction in manual tasks"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Automated operations"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Accuracy rate"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Faster processing"
+        }
+      },
+      "security": {
+        "title": "Secure & Compliant AI",
+        "description": "Enterprise-grade security and compliance built into every AI automation",
+        "dataProtection": {
+          "title": "Data Protection",
+          "description": "End-to-end encryption and secure data handling"
+        },
+        "compliance": {
+          "title": "Compliance Ready",
+          "description": "HIPAA, GDPR, and industry-specific compliance"
+        },
+        "auditTrail": {
+          "title": "Audit Trail",
+          "description": "Complete logging and monitoring of all AI actions"
+        }
+      },
+      "cta": {
+        "title": "Ready to Automate Your Business with AI?",
+        "description": "Join hundreds of businesses using Seasalt.ai to automate operations, reduce costs, and scale efficiently with intelligent AI.",
+        "primary": "Sign Up",
+        "secondary": "Book AI Demo",
+        "disclaimer": "No credit card required • See automation in 24 hours • Cancel anytime"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "SME Owner Solutions - Seasalt.ai",
+        "description": "You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business."
+      },
+      "navigation": {
+        "backToHome": "Back to Home"
+      },
+      "hero": {
+        "title": {
+          "part1": "Stop Juggling.",
+          "part2": "Start Scaling."
+        },
+        "subtitle": "The AI-Powered Communication Hub for SME Owners Who Wear Multiple Hats",
+        "description": "You're the CEO, sales team, marketing department, and customer support all in one. Seasalt.ai gives you an AI assistant that handles routine communications so you can focus on growing your business.",
+        "cta": {
+          "getAssistant": "Get Your AI Assistant",
+          "bookDemo": "Book A Demo"
+        },
+        "dashboard": {
+          "title": "SME Owner Dashboard",
+          "aiHandledInquiries": "🤖 AI handled 23 inquiries today",
+          "timeSaved": "Saved you 3.5 hours",
+          "appointmentsBooked": "📅 5 appointments booked automatically",
+          "whileInMeetings": "While you were in meetings",
+          "leadsQualified": "💬 12 leads qualified and prioritized",
+          "readyForFollowup": "Ready for your personal follow-up",
+          "smsCampaign": "📱 SMS campaign: 89% open rate",
+          "newCustomers": "3 new customers acquired"
+        }
+      },
+      "challenges": {
+        "title": "The SME Owner's Dilemma",
+        "description": "Running a small business means wearing multiple hats. But that shouldn't mean drowning in routine communications.",
+        "wearingMultipleHats": {
+          "title": "Wearing Multiple Hats",
+          "description": "Managing sales, marketing, and support simultaneously while trying to grow your business"
+        },
+        "limitedTimeResources": {
+          "title": "Limited Time & Resources",
+          "description": "Every minute counts when you're running a small business with a lean team"
+        },
+        "scalingChallenges": {
+          "title": "Scaling Challenges",
+          "description": "Growing customer demands without proportional increase in team size or budget"
+        }
+      },
+      "solutions": {
+        "title": "Your AI-Powered Solution",
+        "description": "Seasalt.ai acts as your virtual team member, handling routine tasks so you can focus on what only you can do - growing your business.",
+        "keyBenefits": "Key Benefits:",
+        "aiAutomation": {
+          "title": "AI-Powered Automation",
+          "description": "Let AI handle routine inquiries, appointment booking, and lead qualification 24/7",
+          "benefits": {
+            "routineQuestions": "Automate 80% of routine customer questions",
+            "bookAppointments": "Book appointments while you sleep",
+            "qualifyLeads": "Qualify leads before they reach you",
+            "instantResponses": "Provide instant responses across all channels"
+          }
+        },
+        "unifiedView": {
+          "title": "Unified Customer View",
+          "description": "See every customer interaction in one place, whether they call, text, or chat",
+          "benefits": {
+            "singleInbox": "Single inbox for all customer communications",
+            "conversationHistory": "Complete conversation history across channels",
+            "neverLoseTrack": "Never lose track of customer context",
+            "seamlessHandoffs": "Seamless handoffs between AI and human"
+          }
+        },
+        "smartMarketing": {
+          "title": "Smart Marketing Campaigns",
+          "description": "Run targeted campaigns across SMS, WhatsApp, and email with AI assistance",
+          "benefits": {
+            "automatedFollowup": "Automated follow-up sequences",
+            "personalizedMessaging": "Personalized messaging at scale",
+            "trackPerformance": "Track campaign performance in real-time",
+            "recoverCarts": "Recover abandoned carts automatically"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Real SME Owner Scenarios",
+        "description": "See how other business owners like you are using Seasalt.ai to scale their operations",
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:",
+        "soloEntrepreneur": {
+          "title": "The Solo Entrepreneur",
+          "scenario": "Running a consulting business while managing all client communications",
+          "solution": "AI handles initial inquiries and books consultations, freeing you to focus on delivery"
+        },
+        "smallRetailer": {
+          "title": "The Small Retailer",
+          "scenario": "Managing online orders, customer support, and marketing campaigns",
+          "solution": "Automated order updates, instant support responses, and targeted marketing campaigns"
+        },
+        "serviceProvider": {
+          "title": "The Service Provider",
+          "scenario": "Juggling appointment scheduling, customer questions, and follow-ups",
+          "solution": "AI books appointments, answers FAQs, and sends automated reminders"
+        },
+        "growingStartup": {
+          "title": "The Growing Startup",
+          "scenario": "Scaling customer communications without hiring a full support team",
+          "solution": "AI handles volume growth while maintaining personal touch with smart handoffs"
+        }
+      },
+      "roi": {
+        "title": "The SME Owner's ROI",
+        "description": "See the immediate impact on your business operations and growth",
+        "timeSaved": {
+          "metric": "5+ Hours",
+          "description": "Saved per week on routine communications"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Increase in lead response rate"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Customer service without hiring night staff"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "More conversations handled with same team"
+        }
+      },
+      "cta": {
+        "title": "Ready to Stop Juggling and Start Scaling?",
+        "description": "Join thousands of SME owners who've reclaimed their time and scaled their customer communications with AI automation.",
+        "startTrial": "Start Your Free Trial",
+        "scheduleDemo": "Schedule Personal Demo",
+        "disclaimer": "No credit card required • Setup in under 10 minutes • Cancel anytime"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - AI-Powered Communication for Healthcare",
+        "description": "Elevate patient communication and streamline operations with SeaHealth's AI-powered, HIPAA-compliant platform. Unify calls, texts, and messaging in one secure inbox."
+      },
+      "hero": {
+        "title": "SeaHealth lets healthcare professionals –",
+        "subtitle": "Transform Patients Interactions, with:",
+        "features": {
+          "newPatients": "New Patients Acquisition",
+          "aiReceptionists": "After-hour Voice AI Receptionists",
+          "callAnalytics": "Front Office Call Analytics"
+        },
+        "cta": "Book a Demo Today!",
+        "description": "AI-powered front office for healthcare. Never miss a call, complaint, or appointment again."
+      },
+      "top4Reasons": {
+        "title": "Top 4 reasons hospitals and clinics choose SeaHealth:",
+        "neverMissCall": "Never Miss a Call",
+        "neverMissComplaint": "Never Miss a Customer Complaint",
+        "bookAppointments": "Book New Patient Appointments After Business Hours",
+        "provide247Hotline": "Provide 24/7 Hotline to Prospective and Existing Patients"
+      },
+      "frontOfficeChallenges": {
+        "title": "Addressing Front Office Challenges",
+        "unmonitoredCalls": {
+          "title": "Unmonitored Front Desk Phone Call",
+          "complaint": "Address customer complaints before they escalate.",
+          "risks": "Mitigate risks from initial medical triage errors.",
+          "professionalism": "Enhance professionalism with improved speaking tone and receptionist conduct."
+        },
+        "missedCalls": {
+          "title": "Missed Inbound Calls from Patients",
+          "voicemails": "Eliminate after-hour voicemails with active follow-ups.",
+          "scheduling": "Simplify appointment scheduling and rescheduling.",
+          "retention": "Retain patients by ensuring your phones are answered 24/7, preventing them from seeking competitors."
+        },
+        "outboundCalls": {
+          "title": "Outbound Calls Nobody Wants to Make",
+          "followUp": "Ensure thoroughness in procedure follow-up calls.",
+          "insurance": "Simplify lengthy conversations with insurance companies.",
+          "reactivation": "Reactivate lapsed patients with effective promotions to fill empty slots."
+        }
+      },
+      "solutions": {
+        "title": "Solutions for Every Healthcare Setting",
+        "hospitals": "Hospitals & Clinics",
+        "dental": "Dental Clinics",
+        "hospice": "Hospice Homes",
+        "emergency": "Emergency Care",
+        "adult": "Adult Family Homes",
+        "veterinary": "Veterinary Hospitals",
+        "cosmetic": "Cosmetic Surgery"
+      },
+      "mainSolution": {
+        "title": "The SeaHealth Front Office Solution – Fills Your Appointment Slots Automatically.",
+        "description": "Our AI-powered solution streamlines your front office operations, allowing your staff to focus on what matters most - patient care."
+      },
+      "forProviders": {
+        "title": "For Healthcare Providers",
+        "benefit1": "Reduce administrative burden",
+        "benefit2": "Improve patient satisfaction",
+        "benefit3": "Increase operational efficiency"
+      },
+      "forPatients": {
+        "title": "For Patients",
+        "benefit1": "24/7 access to support",
+        "benefit2": "Quick appointment scheduling",
+        "benefit3": "Seamless communication"
+      },
+      "whyChoose": {
+        "title": "Why Choose SeaHealth?",
+        "reason1": {
+          "title": "HIPAA Compliance",
+          "description": "We prioritize patient data privacy and security."
+        },
+        "reason2": {
+          "title": "Natural & Contextual Speech Technologies",
+          "description": "Engage patients with human-like communication."
+        },
+        "reason3": {
+          "title": "Automation Done Right",
+          "description": "Always caring for patients and your own employees."
+        }
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions",
+        "faq1": {
+          "question": "How does your front desk call analytics work?",
+          "answer": "We record your incoming and outgoing phone calls, then transcribe them for further analysis. Summary and alert emails are sent out on a daily basis."
+        },
+        "faq2": {
+          "question": "Does it require recording the phone calls, and how?",
+          "answer": "We connect your VoIP provider to get the call recordings and do speech analysis on the recordings. If you use analog phones, we use a phone recording device that connects your call with phone jacks to get the recordings."
+        },
+        "faq3": {
+          "question": "How does 24/7 phone call coverage work?",
+          "answer": "AI-powered receptionists handle calls round-the-clock, ensuring no missed opportunities. You can either pick up the call when they ring, or transfer the call to the AI receptionists during or after business hours."
+        },
+        "faq4": {
+          "question": "Why should I use your service?",
+          "answer": "SeaHealth improves efficiency, enhances patient satisfaction, and increases revenue through automation and AI-powered solutions. It's cheaper, more reliable, and more empathetic than outsourcing your front desk receptionist work."
+        }
+      },
+      "partners": {
+        "title": "Partners & Integrations"
+      },
+      "cta": {
+        "title": "Ready to transform patient interactions?",
+        "button": "Book a Demo Today!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Pricing - Seasalt.ai",
+      "description": "Simple, transparent pricing that grows with you. No hidden fees. No complex add-ons. Just one powerful platform for all your conversations."
+    },
+    "hero": {
+      "title": "Choose the Plan That Fits Your Needs",
+      "description": "No hidden fees. No complex add-ons. Just one powerful platform for all your conversations.",
+      "subtitle": "From startups to enterprise - transparent pricing with no hidden fees. Start free and scale as you grow."
+    },
+    "audienceSection": {
+      "title": "Choose Your Growth Path",
+      "description": "From startups to enterprises, we have the right solution for every stage of your journey",
+      "startups": {
+        "title": "For Startups & SMEs",
+        "subtitle": "Start Small, Scale Smart",
+        "seachatFree": {
+          "title": "🚀 Start Free with SeaChat",
+          "description": "$0 forever - 1 human agent, unlimited chats"
+        },
+        "seavoice": {
+          "title": "📞 Scale with SeaVoice",
+          "description": "$29.99/month - Add voice AI for inbound calls"
+        },
+        "seax": {
+          "title": "🌟 Grow with SeaX",
+          "description": "$99/month - Complete omnichannel platform"
+        },
+        "footer": "Perfect for businesses with 1-50 employees"
+      },
+      "enterprise": {
+        "title": "For Medium to Large Enterprises",
+        "subtitle": "Enterprise-Grade Solutions",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "$29.99/month + usage - Enterprise-grade text AI"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Professional",
+          "description": "$99/month - Unified platform with AI and omnichannel"
+        },
+        "customEnterprise": {
+          "title": "⚡ Custom Enterprise",
+          "description": "Contact us - White-label, HIPAA, custom integrations"
+        },
+        "footer": "Perfect for businesses with 50+ employees"
+      }
+    },
+    "plans": {
+      "title": "Choose Your Plan",
+      "description": "Start free and scale as you grow with our flexible pricing options",
+      "liveAgent": {
+        "name": "Live Agent",
+        "price": "$0",
+        "period": "FREE FOREVER",
+        "tagline": "👤 HUMAN ONLY",
+        "highlight": "🌟 ALL CHANNELS + HUMAN AGENTS ONLY",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Web Chat",
+        "feature1": "1 human agent included",
+        "feature2": "Unlimited human conversations",
+        "feature3": "100 AI replies to try features",
+        "feature4": "Basic Shopify integrations",
+        "cta": "🚀 START FREE NOW",
+        "poweredBy": "Powered by SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "WhatsApp Only",
+        "price": "$19.99",
+        "period": "PER USER/MONTH",
+        "tagline": "💬 MESSAGING ONLY",
+        "highlight": "📲 WHATSAPP BUSINESS SPECIALIST",
+        "channels": "Campaigns • API • 2-Way Chat",
+        "feature1": "WhatsApp Business Platform",
+        "feature2": "Campaign management tools",
+        "feature3": "WhatsApp API access",
+        "feature4": "Unlimited contacts & templates",
+        "cta": "📱 START WHATSAPP",
+        "poweredBy": "Powered by SeaX"
+      },
+      "omnichannel": {
+        "name": "Omnichannel",
+        "firstUserPrice": "$99",
+        "firstUserLabel": "FIRST USER",
+        "additionalUserPrice": "$49",
+        "additionalUserLabel": "EACH EXTRA",
+        "period": "PER MONTH",
+        "tagline": "🌐 ONE UI, ALL CHANNELS",
+        "popular": "🏆 MOST POPULAR",
+        "highlight": "🎯 COMPLETE CONTACT CENTER",
+        "subHighlight": "Make & Receive PHONE CALLS!",
+        "feature1": "AGENTS MAKE & RECEIVE CALLS",
+        "feature2": "SMS + VOICE + WHATSAPP",
+        "feature3": "Voice & SMS campaigns",
+        "feature4": "RESTful API + SeaChat integration",
+        "cta": "🚀 START FULL CENTER",
+        "poweredBy": "Powered by SeaX"
+      },
+      "custom": {
+        "name": "Custom",
+        "price": "Let's build a project",
+        "period": "Negotiate your own price",
+        "feature1": "Multiple workspaces",
+        "feature2": "Perfect for agencies",
+        "feature3": "Custom API integrations",
+        "feature4": "HIPAA compliance",
+        "feature5": "White-label options",
+        "cta": "Contact Us"
+      },
+      "popularBadge": "Most Popular",
+      "ctaStyles": {
+        "primary": "Sign Up Now"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ AI Add-Ons",
+      "description": "Enhance any plan with AI capabilities",
+      "chatAI": {
+        "title": "Chat AI with SeaChat",
+        "price": "$29.99",
+        "period": "per month"
+      },
+      "voiceAI": {
+        "title": "Voice AI with SeaVoice",
+        "price": "$29.99",
+        "period": "per month"
+      },
+      "combo": {
+        "title": "Both AI Features",
+        "price": "$29.99",
+        "period": "per month total",
+        "benefit": "🎉 Get both Chat AI and Voice AI for just $29.99/month combined!"
+      }
+    },
+    "transparentAI": {
+      "title": "Transparent AI Pricing",
+      "description": "Pay only for what you use with our clear, usage-based AI pricing",
+      "chatAI": {
+        "title": "Chat AI",
+        "price": "$0.006",
+        "period": "per response (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Web chat",
+        "feature2": "• 24/7 automated responses",
+        "feature3": "• Knowledge base integration"
+      },
+      "voiceAI": {
+        "title": "Voice AI",
+        "price": "$0.12",
+        "period": "per minute (ChatGPT-4o mini)",
+        "feature1": "• Inbound & outbound calls",
+        "feature2": "• Natural voice conversations",
+        "feature3": "• Call recording & summaries"
+      },
+      "premiumAI": {
+        "title": "Premium AI",
+        "price": "$0.80",
+        "period": "per minute (ChatGPT-4o)",
+        "feature1": "• Advanced reasoning",
+        "feature2": "• Complex conversations",
+        "feature3": "• Custom enterprise features"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Transparent Communication Pricing",
+      "description": "Clear, upfront pricing for all your communication needs",
+      "sms": {
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "per message (USA/CA)",
+        "description": "Reliable text messaging with transparent per-message rates"
+      },
+      "voiceCalls": {
+        "title": "Voice Calls",
+        "price": "$0.015",
+        "period": "per minute (USA/CA)",
+        "description": "Crystal-clear voice calls across 100+ countries"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "$0.00",
+        "period": "per message worldwide",
+        "description": "You pay Meta directly. No markup from Seasalt.ai"
+      },
+      "otherChannels": "📱 Other channels like Instagram, Facebook Messenger, and Webchat have no markup or are completely free."
+    },
+    "comparison": {
+      "title": "The Global Communications Landscape: How We Stack Up",
+      "description": "See how Seasalt.ai compares to other solutions in the market. We're the only platform that delivers enterprise features with small business simplicity.",
+      "table": {
+        "competitor": "Competitor",
+        "startingPrice": "Starting Price",
+        "pricingModel": "Pricing Model",
+        "unifiedVoiceDigital": "Unified Voice & Digital",
+        "aiCapabilities": "AI Capabilities",
+        "bestFor": "Best For"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/agent/mo",
+        "pricingModel": "Simple Per-User",
+        "unifiedVoiceDigital": "✅ Yes, Native",
+        "aiCapabilities": "✅ Yes, Native Voice & Chatbots",
+        "bestFor": "SMEs needing an affordable, truly all-in-one platform.",
+        "recommended": "Recommended"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "$30/user/mo",
+        "pricingModel": "Per-User + Add-ons",
+        "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (Add-on)",
+        "aiCapabilities": "⚠️ AI is a paid add-on",
+        "bestFor": "Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "$65/agent/mo",
+        "pricingModel": "Complex Tiers",
+        "unifiedVoiceDigital": "❌ Separate Products",
+        "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
+        "bestFor": "Large companies needing a broad UCaaS platform with a separate CCaaS."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/user/mo",
+        "pricingModel": "Per-User + High Minimums",
+        "unifiedVoiceDigital": "✅ Yes (in higher tiers)",
+        "aiCapabilities": "✅ Yes (Complex token system)",
+        "bestFor": "Large enterprises with dedicated contact center teams and budgets."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "$119/user/mo",
+        "pricingModel": "Per-User + Bundles",
+        "unifiedVoiceDigital": "✅ Yes (in premium tiers)",
+        "aiCapabilities": "✅ Yes (Advanced AI)",
+        "bestFor": "Large, outbound-heavy contact centers needing enterprise-grade tools."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "$10/user/mo",
+        "pricingModel": "Per-User + Workspace Fee",
+        "unifiedVoiceDigital": "❌ No",
+        "aiCapabilities": "❌ No (Voicemail transcription only)",
+        "bestFor": "Solopreneurs (US-only) needing a basic, separate phone number."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "$79/mo",
+        "pricingModel": "Monthly Active Contacts",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Voice is Beta)",
+        "aiCapabilities": "✅ Yes (AI Agent on higher tiers)",
+        "bestFor": "Marketing/sales teams focused on messaging channels like WhatsApp."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "$39/seat/mo",
+        "pricingModel": "Per-Seat + Add-ons + Usage",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Voice is pay-as-you-go)",
+        "aiCapabilities": "✅ Yes (Fin AI Agent is per-resolution)",
+        "bestFor": "Businesses focused on proactive website engagement and support."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Is the free plan really free forever?",
+        "answer": "Yes! Our Live Agent plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees."
+      },
+      "2": {
+        "question": "How does AI pricing work across SeaChat, SeaX, and SeaVoice?",
+        "answer": "All Voice AI calls across SeaChat, SeaX, and SeaVoice use the same $0.12 per minute rate with ChatGPT-4o mini model. Chat AI responses start at $0.006 each. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on premium plans."
+      },
+      "3": {
+        "question": "Can I upgrade or downgrade my plan anytime?",
+        "answer": "Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle. We'll prorate any billing adjustments."
+      },
+      "4": {
+        "question": "What's the difference between WhatsApp Only and Omnichannel plans?",
+        "answer": "WhatsApp Only ($19.99/month) focuses on WhatsApp messaging with unlimited contacts and templates. Omnichannel ($99/month for first user, $49 for additional) includes SMS, voice calls, campaigns, API access, and SeaChat integration for a complete contact center experience."
+      },
+      "5": {
+        "question": "Are there any hidden fees or setup costs?",
+        "answer": "No hidden fees ever! Phone numbers cost $2-$3/month with E911 address. SMS costs $0.02/message, voice calls $0.015/minute (USA/CA). WhatsApp messages are free worldwide - you pay Meta directly with no markup from us."
+      },
+      "6": {
+        "question": "What happens to my data if I cancel?",
+        "answer": "You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency."
+      },
+      "7": {
+        "question": "Do you offer volume discounts for large enterprises?",
+        "answer": "Yes! Our Custom Enterprise plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team for custom pricing, multiple workspaces, HIPAA compliance, and white-label solutions."
+      },
+      "title": "Frequently Asked Questions"
+    },
+    "cta": {
+      "title": "Ready to Transform Your",
+      "titleGradient": "Customer Communications?",
+      "description": "Join thousands of businesses using Seasalt.ai to deliver exceptional customer experiences",
+      "stats": {
+        "customers": "10,000+",
+        "customersLabel": "Happy Customers",
+        "uptime": "99.9%",
+        "uptimeLabel": "Uptime SLA",
+        "support": "24/7",
+        "supportLabel": "Support"
+      },
+      "primary": "🚀 SIGN UP NOW",
+      "secondary": "📞 Talk to Sales",
+      "trustBadge1": "No Coding Required",
+      "trustBadge2": "Setup in Under 5 Minutes",
+      "trustBadge3": "Cancel Anytime",
+      "trustBadge4": "True Free Plan Available",
+      "urgency": "⚡ Limited Time: Get 2 months free on annual plans + priority onboarding support!"
+    },
+    "billingToggle": {
+      "monthly": "Billed Monthly",
+      "annually": "Billed Annually",
+      "save20": "Save 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Live Agent",
+        "price": "$0",
+        "period": "forever",
+        "tagline": "Truly Free, Forever. Perfect for getting started.",
+        "description": "Perfect for getting started. Unify your inbox with 1 human agent.",
+        "features": {
+          "0": "1 Human Agent",
+          "1": "Unlimited Human Agent Chats",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Basic Integrations (Shopify, etc.)",
+          "4": "Email support"
+        },
+        "cta": "Sign Up"
+      },
+      "professional": {
+        "name": "Professional",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "per month",
+        "additionalPriceAnnual": "+ $20/month for each additional agent",
+        "additionalPriceMonthly": "+ $25/month for each additional agent",
+        "tagline": "The complete, unified solution for growing businesses.",
+        "description": "Everything you need to automate and scale your customer communications.",
+        "features": {
+          "0": "Everything in Live Agent",
+          "1": "AI Automation (Voicebot & Chatbot)",
+          "2": "All Communication Channels (including Phone Calls)",
+          "3": "Outbound Marketing Campaigns",
+          "4": "CRM Integrations (HubSpot, Salesforce)",
+          "5": "Advanced analytics & reporting",
+          "6": "Priority support",
+          "7": "HIPAA compliance available"
+        },
+        "cta": "Get Started"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Let's Talk",
+        "period": "",
+        "tagline": "For teams with custom needs.",
+        "description": "For larger teams with specific needs like advanced compliance or custom integrations.",
+        "features": {
+          "0": "Everything in Professional",
+          "1": "HIPAA Compliance",
+          "2": "Custom Integrations",
+          "3": "Dedicated Account Manager",
+          "4": "Custom AI training",
+          "5": "White-label options",
+          "6": "SLA guarantees",
+          "7": "On-premise deployment options"
+        },
+        "cta": "Contact Sales"
+      }
+    },
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 2 Months"
+    }
+  }
+}
