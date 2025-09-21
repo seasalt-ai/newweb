@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - 批量簡訊、WhatsApp 和 AI 語音行銷平台 | Seasalt.ai",
+        "description": "使用 SeaX 強大的批量簡訊、WhatsApp 訊息和 AI 語音活動，將您的觸達活動擴展至數百萬人。高送達率、全球覆蓋、進階分析。"
+      },
+      "scalingProblem": {
+        "title": "人工觸達問題",
+        "subtitle": "您的企業需要接觸數千名客戶，但人工觸達無法擴展。SeaX 自動化您的溝通，同時保持個人化接觸。",
+        "manualOutreach": {
+          "title": "人工觸達",
+          "description": "耗時的個別訊息、有限的接觸範圍、不一致的後續跟進"
+        },
+        "seaxAutomation": {
+          "title": "SeaX 自動化",
+          "description": "幾分鐘內發送數百萬條訊息，AI 驅動的個人化，自動後續活動"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "1,000 萬+",
+            "label": "每日發送訊息"
+          },
+          "callsPerHour": {
+            "value": "5 萬+",
+            "label": "每小時通話"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "送達率"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "平均投資報酬率"
+          }
+        }
+      },
+      "features": {
+        "title": "大規模功能",
+        "subtitle": "跨多個渠道接觸數百萬客戶所需的一切",
+        "sms": {
+          "title": "批量簡訊",
+          "description": "以 99.5% 送達率向 200 多個國家發送數百萬條簡訊"
+        },
+        "whatsapp": {
+          "title": "WhatsApp 商業版",
+          "description": "透過範本活動和個人化訊息觸達 20 億 WhatsApp 用戶"
+        },
+        "voice": {
+          "title": "AI 語音活動",
+          "description": "自動電話通話，搭配自然 AI 語音進行調查、提醒和觸達"
+        },
+        "ai": {
+          "title": "AI 自動化",
+          "description": "智能後續跟進、回應處理和由 AI 驅動的活動優化"
+        }
+      },
+      "leadGeneration": {
+        "title": "將潛在客戶轉換為客戶",
+        "subtitle": "完整的潛在客戶開發和培育系統，將潛在客戶轉化為付費客戶",
+        "capture": {
+          "title": "捕獲",
+          "description": "透過跨多個渠道的目標活動吸引潛在客戶"
+        },
+        "qualify": {
+          "title": "資格認定",
+          "description": "AI 驅動的潛在客戶評分和資格認定，識別您最佳的潛在客戶"
+        },
+        "nurture": {
+          "title": "培育",
+          "description": "自動後續序列，建立關係並推動轉換"
+        },
+        "close": {
+          "title": "成交",
+          "description": "智能移交至銷售團隊，提供完整對話歷史和潛在客戶情報"
+        }
+      },
+      "howItWorks": {
+        "title": "工作原理",
+        "subtitle": "以 4 個簡單步驟開始，幾小時內接觸數百萬客戶",
+        "timeRequired": "所需時間：",
+        "step1": {
+          "number": "01",
+          "title": "匯入您的聯絡人",
+          "description": "從 CSV、Excel 上傳聯絡人清單，或與您的 CRM 整合。支援數百萬聯絡人，具備智能去重複功能。",
+          "time": "2 分鐘",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25,847 個聯絡人",
+            "dropFiles": "將檔案放在這裡",
+            "browse": "或瀏覽上傳",
+            "importedCount": "25,847",
+            "contactsImported": "個聯絡人已匯入"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "選擇您的渠道",
+          "description": "從簡訊、WhatsApp、語音通話或多渠道活動中選擇。每個渠道都已優化以達到最大送達率和參與度。",
+          "time": "1 分鐘",
+          "illustration": {
+            "sms": {
+              "label": "簡訊",
+              "rate": "98% 開啟率"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% 開啟率"
+            },
+            "voice": {
+              "label": "語音",
+              "rate": "75% 接通率"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "建立您的活動",
+          "description": "設計個人化訊息，設定受眾目標，並安排您的活動。包含 A/B 測試。",
+          "time": "5 分鐘",
+          "illustration": {
+            "campaignDraft": "活動草稿",
+            "draftStatus": "草稿",
+            "sampleMessage": "嗨 {{name}}，我們為您準備了特別優惠！訂單享 20% 折扣。回覆 STOP 取消訂閱。",
+            "previewButton": "預覽",
+            "abTestButton": "A/B 測試",
+            "schedule": "排程",
+            "now": "立即發送"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "追蹤與優化",
+          "description": "透過詳細分析即時監控活動效果。查看送達率、回應、轉換和 ROI 指標。",
+          "time": "持續進行",
+          "illustration": {
+            "campaignStatus": "活動狀態",
+            "liveStatus": "進行中",
+            "deliveredCount": "84.7 萬",
+            "delivered": "已送達",
+            "responseRate": "12%",
+            "response": "回應率",
+            "totalCount": "120 萬",
+            "totalMessages": "總訊息",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "送達率",
+            "analytics": "即時效能分析，具備轉換追蹤"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "成長企業信賴",
+        "subtitle": "看看各公司如何使用 SeaX 擴展客戶觸達並推動成長",
+        "testimonial1": {
+          "quote": "SeaX 幫助我們在一天內觸達 50 萬客戶。送達率令人難以置信，投資報酬率不言自明。",
+          "author": "陳莎拉",
+          "role": "行銷總監，TechStart"
+        },
+        "testimonial2": {
+          "quote": "我們使用 SeaX 的 AI 驅動後續活動，轉換率提高了 300%。對我們的企業來說是改變遊戲規則的工具。",
+          "author": "麥克‧羅德里格斯",
+          "role": "執行長，GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "WhatsApp 整合非常順暢。我們現在可以與全球客戶群進行規模化的個人對話。",
+          "author": "朴麗莎",
+          "role": "客戶成功主管，GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "準備將您的觸達活動擴展至數百萬人？",
+        "subtitle": "加入數千家使用 SeaX 觸達更多客戶、產生更多潛在客戶並加速成長的公司。",
+        "demoButton": "預約演示",
+        "signupButton": "開始免費試用"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "SeaX 功能 - 大量通訊強大工具",
+        "description": "探索 SeaX 強大功能：批量訊息引擎、AI 智慧跟進、即時分析和企業級基礎設施。"
+      },
+      "hero": {
+        "title": "超大規模通訊的",
+        "titleHighlight": "強大功能",
+        "description": "透過簡訊、WhatsApp 和語音渠道觸達數百萬客戶所需的一切。專為規模化打造，為成果而設計。",
+        "stats": {
+          "messages": "每日 10M+ 訊息",
+          "countries": "200+ 國家",
+          "security": "企業級安全"
+        }
+      },
+      "core": {
+        "title": "核心功能",
+        "description": "驅動大量通訊活動的核心工具",
+        "bulkMessaging": {
+          "title": "批量訊息引擎",
+          "description": "同時發送數百萬簡訊、WhatsApp 訊息和電話，具電信級可靠性。",
+          "metrics": {
+            "value": "10M+",
+            "label": "每日發送訊息"
+          },
+          "benefits": {
+            "0": "電信級可傳遞性",
+            "1": "200+ 國家全球覆蓋",
+            "2": "即時傳送追蹤",
+            "3": "智慧路由最佳化"
+          }
+        },
+        "aiFollowup": {
+          "title": "AI 智慧跟進",
+          "description": "自動回覆和智慧潛在客戶培育，全天候篩選潛在客戶。",
+          "metrics": {
+            "value": "85%",
+            "label": "潛在客戶篩選率"
+          },
+          "benefits": {
+            "0": "智慧對話處理",
+            "1": "自動化潛在客戶評分",
+            "2": "智慧回覆時機",
+            "3": "多語言支援"
+          }
+        },
+        "analytics": {
+          "title": "即時分析",
+          "description": "透過全面的即時儀表板，大規模追蹤開啟、回覆和轉換。",
+          "metrics": {
+            "value": "99.9%",
+            "label": "運行時間保證"
+          },
+          "benefits": {
+            "0": "即時活動監控",
+            "1": "轉換追蹤",
+            "2": "效能洞察",
+            "3": "客製化報告"
+          }
+        },
+        "compliance": {
+          "title": "合規性與可傳遞性",
+          "description": "透過電信合規性和預先核准的訊息範本實現全球覆蓋。",
+          "metrics": {
+            "value": "200+",
+            "label": "支援國家"
+          },
+          "benefits": {
+            "0": "符合 GDPR 法規",
+            "1": "電信核准流程",
+            "2": "垃圾郵件保護",
+            "3": "法規合規性"
+          }
+        },
+        "collaboration": {
+          "title": "團隊協作",
+          "description": "為企業團隊提供多用戶存取、活動權限和共享資源。",
+          "metrics": {
+            "value": "500K+",
+            "label": "每小時通話數"
+          },
+          "benefits": {
+            "0": "角色權限管理",
+            "1": "共享活動範本",
+            "2": "團隊效能追蹤",
+            "3": "協作工作流程"
+          }
+        },
+        "scale": {
+          "title": "企業級規模",
+          "description": "為最大量發送者打造，配備專用基礎設施和支援。",
+          "metrics": {
+            "value": "1M+",
+            "label": "每分鐘訊息量"
+          },
+          "benefits": {
+            "0": "專用基礎設施",
+            "1": "優先支援",
+            "2": "客製化整合",
+            "3": "企業級 SLA"
+          }
+        }
+      },
+      "categories": {
+        "title": "功能分類",
+        "description": "依分類探索我們的全方位功能",
+        "messaging": {
+          "title": "訊息渠道",
+          "sms": {
+            "name": "簡訊 (10DLC、免付費、短碼)",
+            "description": "滿足各種商業需求的所有簡訊類型"
+          },
+          "whatsapp": {
+            "name": "WhatsApp 商業平台",
+            "description": "大量訊息的活動模式"
+          },
+          "voice": {
+            "name": "語音通話 (100+ 國家)",
+            "description": "透過 Twilio 的 AI 語音通話"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI 與自動化",
+          "followup": {
+            "name": "AI 智慧跟進",
+            "description": "全天候智慧潛在客戶培育"
+          },
+          "responses": {
+            "name": "自動化回覆",
+            "description": "智慧對話處理"
+          },
+          "scoring": {
+            "name": "潛在客戶評分",
+            "description": "AI 驅動的潛在客戶篩選"
+          }
+        },
+        "analytics": {
+          "title": "分析與洞察",
+          "dashboard": {
+            "name": "即時儀表板",
+            "description": "即時活動監控"
+          },
+          "tracking": {
+            "name": "轉換追蹤",
+            "description": "ROI 和效能指標"
+          },
+          "reporting": {
+            "name": "客製化報告",
+            "description": "詳細分析和洞察"
+          }
+        },
+        "enterprise": {
+          "title": "企業與安全",
+          "gdpr": {
+            "name": "GDPR 合規性",
+            "description": "完整法規合規性"
+          },
+          "team": {
+            "name": "團隊協作",
+            "description": "多用戶存取和權限"
+          },
+          "sla": {
+            "name": "企業級 SLA",
+            "description": "專用支援和運行時間"
+          }
+        }
+      },
+      "integrations": {
+        "title": "專為整合而建",
+        "description": "將 SeaX 與現有工具和工作流程連接",
+        "crm": {
+          "title": "CRM 整合",
+          "description": "與 Salesforce、HubSpot 和其他 CRM 系統連接，實現無縫數據流。",
+          "sync": "雙向同步",
+          "mapping": "客製化欄位對應"
+        },
+        "analytics": {
+          "title": "分析工具",
+          "description": "將數據匯出至 Google Analytics、Mixpanel 和其他分析平台。",
+          "exports": "即時匯出",
+          "dashboards": "客製化儀表板"
+        },
+        "api": {
+          "title": "開發者 API",
+          "description": "完整的 REST API，支援客製化整合和自動化工作流程。",
+          "endpoints": "RESTful 端點",
+          "webhooks": "Webhook 支援"
+        }
+      },
+      "cta": {
+        "title": "準備體驗這些功能了嗎？",
+        "description": "看看 SeaX 如何轉變您的溝通策略",
+        "button": "預約演示"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "訊息已發送",
+            "countries": "國家",
+            "uptime": "正常運行時間",
+            "deliveryRate": "送達率"
+          },
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%",
+            "title": "即時簡訊活動",
+            "status": "進行中",
+            "messageLabel": "範例訊息",
+            "message": "嗨 [姓名]，不要錯過我們今日結束的獨家 50% 折扣！立即購買：bit.ly/save50",
+            "delivered": "已送達",
+            "successRate": "成功率"
+          },
+          "badge": "簡訊通道",
+          "title": "擴展您的簡訊",
+          "titleHighlight": "至數百萬",
+          "description": "向全球數百萬客戶發送個人化簡訊，擁有業界領先的送達率和即時分析功能。",
+          "cta": {
+            "primary": "開始發送簡訊",
+            "secondary": "預約演示"
+          }
+        },
+        "seo": {
+          "title": "簡訊行銷與通訊平台 - SeaX by Seasalt.ai",
+          "description": "使用 SeaX 大規模發送簡訊。全球觸達客戶，98% 送達率，進階分析功能和企業級安全性，適用於行銷活動和通訊。"
+        },
+        "features": {
+          "title": "強大的簡訊功能",
+          "description": "建立、發送和優化能帶來成果的簡訊活動所需的一切功能。",
+          "globalReach": {
+            "title": "全球觸達",
+            "description": "通過直接電信商連接向超過 200 個國家發送簡訊，實現最佳送達率。"
+          },
+          "lightningFast": {
+            "title": "閃電速度",
+            "description": "訊息在幾秒內送達，提供即時狀態更新和送達確認。"
+          },
+          "secure": {
+            "title": "企業級安全",
+            "description": "銀行級加密、GDPR 合規性，以及安全的數據處理，保護您的所有通訊。"
+          },
+          "analytics": {
+            "title": "進階分析",
+            "description": "詳細的送達率、點擊率和活動效果指標報告。"
+          },
+          "bulk": {
+            "title": "批量傳訊",
+            "description": "同時發送數百萬條個人化訊息，具備智能排程和流量控制功能。"
+          },
+          "segmentation": {
+            "title": "智能分群",
+            "description": "基於行為和偏好，針對特定客戶群體發送個人化訊息。"
+          }
+        },
+        "useCases": {
+          "title": "簡訊使用案例",
+          "description": "了解企業如何使用簡訊與客戶互動並推動成長。",
+          "marketing": {
+            "title": "行銷活動",
+            "description": "透過促銷訊息、限時優惠和個人化優惠來推動銷售。",
+            "metrics": "高達 45% 開啟率"
+          },
+          "support": {
+            "title": "客戶支援",
+            "description": "發送訂單更新、運送通知和支援訊息。",
+            "metrics": "95% 客戶滿意度"
+          },
+          "appointments": {
+            "title": "預約提醒",
+            "description": "通過自動預約確認和提醒減少爽約情況。",
+            "metrics": "60% 爽約率降低"
+          },
+          "emergency": {
+            "title": "緊急警報",
+            "description": "即時發送關鍵通知和緊急通訊。",
+            "metrics": "99.9% 送達可靠性"
+          }
+        },
+        "cta": {
+          "title": "準備擴展您的簡訊了嗎？",
+          "description": "加入數千家使用 SeaX 通過簡訊觸達數百萬客戶的企業。",
+          "primary": "免費開始",
+          "secondary": "預約演示"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS 本地 (10DLC)",
+        "subtitle": "使用可信本地號碼進行專業簡訊服務",
+        "description": "使用註冊的 10DLC 號碼發送大量簡訊活動，提供卓越的可靠性和電信商信任。完美適用於行銷活動、預約提醒和客戶通知。",
+        "seo": {
+          "title": "SMS 本地 (10DLC) - 專業商業訊息服務 | SeaX",
+          "description": "使用 10DLC 本地號碼發送專業簡訊活動。高送達率、電信商信任，為您的商業通訊提供合規訊息服務。"
+        },
+        "hero": {
+          "campaign": {
+            "title": "行銷活動儀表板",
+            "status": "進行中",
+            "messagesSentValue": "2,847",
+            "messagesSent": "已發送訊息",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "送達率"
+          },
+          "recentActivity": {
+            "title": "最近活動",
+            "marketing": {
+              "title": "限時優惠活動",
+              "details": "發送給 1,523 名訂閱者 • 89% 送達"
+            },
+            "appointment": {
+              "title": "預約提醒",
+              "details": "發送 247 則提醒 • 爽約率 2%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "送達率",
+          "openRateValue": "96%",
+          "openRate": "開信率",
+          "supportValue": "24/7",
+          "support": "支援服務"
+        },
+        "features": {
+          "title": "主要特色",
+          "subtitle": "專業簡訊行銷所需的一切功能",
+          "items": {
+            "0": "電信商信任帶來的高送達率",
+            "1": "10DLC 註冊與品牌驗證",
+            "2": "活動預先審核流程",
+            "3": "雙向訊息支援",
+            "4": "進階分析與報告",
+            "5": "自動退訂管理",
+            "6": "訊息範本與個人化",
+            "7": "排程與滴水式行銷活動"
+          }
+        },
+        "useCases": {
+          "title": "完美使用案例",
+          "subtitle": "10DLC 訊息服務的理想應用",
+          "items": {
+            "0": "行銷活動與促銷",
+            "1": "預約提醒與確認",
+            "2": "訂單狀態與物流通知",
+            "3": "客戶服務與支援",
+            "4": "活動通知與警報",
+            "5": "調查與回饋收集",
+            "6": "潛在客戶培養序列",
+            "7": "緊急與急迫通訊"
+          }
+        },
+        "pricing": {
+          "title": "簡單透明的定價",
+          "subtitle": "無隱藏費用，可預測成本",
+          "setup": {
+            "label": "活動設定",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "$2/號碼"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.02"
+          },
+          "note": "價格僅限美國與加拿大。10DLC 合規需要品牌註冊和 A2P 註冊"
+        },
+        "testimonial": {
+          "quote": "10DLC 訊息服務完全改變了我們的客戶互動方式。送達率非常出色，客戶信任我們的本地號碼。",
+          "author": "陳莎拉",
+          "company": "行銷總監，GrowthTech",
+          "results": "送達率提升 35%，客戶回應率增加 42%"
+        },
+        "compliance": {
+          "title": "簡化合規流程",
+          "description": "我們處理所有複雜的 10DLC 要求，讓您專注於訊息活動",
+          "brandRegistration": {
+            "title": "品牌註冊",
+            "description": "與電信網路完成品牌驗證流程，以獲得最大信任度和送達率"
+          },
+          "campaignApproval": {
+            "title": "活動預先審核",
+            "description": "在啟動前獲得電信商的活動核准，確保合規性和最佳效能"
+          },
+          "monitoring": {
+            "title": "持續監控",
+            "description": "持續監控活動效能和合規指標，維持最佳送達率"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "簡訊短碼服務 | 大量企業簡訊 | SeaX",
+          "description": "透過高級短碼即時發送數百萬則簡訊。企業級簡訊行銷、通知和大量通訊，送達率高達99.9%。"
+        },
+        "nav": {
+          "backToChannels": "← 返回所有渠道"
+        },
+        "hero": {
+          "title": {
+            "prefix": "高級簡訊與",
+            "highlight": "專用短碼"
+          },
+          "subtitle": "使用您專屬的 5-6 位數短碼發送大量簡訊活動。最高送達率、即時速度，為認真的行銷人員提供優質品牌形象。",
+          "primaryCta": "取得您的短碼",
+          "secondaryCta": "觀看演示",
+          "demo": {
+            "title": "短碼活動",
+            "code": "來自：12345",
+            "message": "限時搶購：全場 50% 折扣！使用代碼 SAVE50。有效期至午夜。回覆 STOP 取消訂閱。",
+            "delivered": "✅ 已送達：99,847",
+            "rate": "99.9% 送達率",
+            "speed": "⚡ 即時投遞"
+          },
+          "campaign": {
+            "title": "高級活動儀表板",
+            "status": "進行中",
+            "messagesSentValue": "240萬",
+            "messagesSent": "已發送訊息",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "送達率"
+          },
+          "recentActivity": {
+            "title": "最近活動",
+            "marketing": {
+              "title": "行銷活動 #2024-001",
+              "details": "節日促銷已發送給120萬訂閱者"
+            },
+            "appointment": {
+              "title": "預約提醒",
+              "details": "已發送85萬則提醒，開啟率達95%"
+            }
+          }
+        },
+        "features": {
+          "title": "高級功能",
+          "description": "體驗專用短碼簡訊行銷的頂級層次",
+          "highVolume": {
+            "title": "高容量能力",
+            "description": "使用專用短碼基礎設施每秒發送多達 100 條訊息"
+          },
+          "instantDelivery": {
+            "title": "即時投遞",
+            "description": "透過運營商網路的最高優先級路由實現零延遲"
+          },
+          "brandRecognition": {
+            "title": "品牌識別度",
+            "description": "客戶認識和信賴的易記 5-6 位數號碼"
+          },
+          "deliverability": {
+            "title": "最大送達率",
+            "description": "通過優質運營商關係和專用路由實現 99.9% 送達率"
+          },
+          "subtitle": "企業級簡訊功能，專為大量訊息設計",
+          "items": {
+            "ultraHighThroughput": "超高吞吐量：每秒10,000+訊息",
+            "premiumDelivery": "高級傳送路由，確保最大可靠性",
+            "brandRecognition": "透過易記短碼增強品牌識別度",
+            "carrierApproved": "所有主要電信商預先核准",
+            "dedicatedSupport": "專屬帳戶管理和支援",
+            "complianceReady": "內建TCPA和CAN-SPAM法規合規"
+          }
+        },
+        "comparison": {
+          "title": "短碼與其他簡訊選項比較",
+          "description": "了解為什麼專用短碼是認真簡訊行銷人員的頂級選擇",
+          "shortCode": {
+            "title": "專用短碼",
+            "speed": "即時投遞",
+            "volume": "每秒 100 條訊息容量",
+            "deliverability": "99.9% 送達率",
+            "cost": "$1,000-$1,500/月",
+            "setup": "2-3 週設置"
+          },
+          "tollFree": {
+            "title": "免付費電話號碼",
+            "speed": "3-5 秒投遞",
+            "volume": "每秒 25 條訊息容量",
+            "deliverability": "98.5% 送達率",
+            "cost": "$15-$50/月",
+            "setup": "1-2 天設置"
+          },
+          "tenDlc": {
+            "title": "10DLC 本地號碼",
+            "speed": "5-10 秒投遞",
+            "volume": "每秒 10 條訊息容量",
+            "deliverability": "95-98% 送達率",
+            "cost": "$2-$10/月",
+            "setup": "5-10 天設置"
+          }
+        },
+        "useCases": {
+          "title": "使用場景",
+          "description": "短碼在特定高容量、時間敏感的場景中表現出色",
+          "flashSales": {
+            "title": "限時搶購與促銷",
+            "description": "需要即時投遞的時間敏感優惠",
+            "example": "限時搶購：50% 折扣 1 小時後結束！"
+          },
+          "alerts": {
+            "title": "關鍵警報與通知",
+            "description": "緊急更新和重要公告",
+            "example": "緊急：服務維護今晚 11PM-1AM"
+          },
+          "contests": {
+            "title": "競賽與投票",
+            "description": "需要即時回應的互動式活動",
+            "example": "為您的最愛投票！發送 A 或 B 到 12345"
+          },
+          "events": {
+            "title": "活動與票券更新",
+            "description": "大型活動和場所的即時更新",
+            "example": "活動 30 分鐘後開始！5 號門現已開放。"
+          },
+          "subtitle": "適用於大量、時效性通訊",
+          "items": {
+            "massMarketing": "大量行銷活動和促銷",
+            "emergencyAlerts": "緊急警報和重要通知",
+            "votingPolls": "投票、民調和觀眾互動",
+            "appointmentReminders": "大規模預約提醒",
+            "transactionalSMS": "大量交易型簡訊",
+            "eventNotifications": "活動通知和更新"
+          }
+        },
+        "requirements": {
+          "title": "短碼需求",
+          "description": "了解專用短碼的投資和程序",
+          "volume": {
+            "title": "高容量承諾",
+            "description": "每月至少 10 萬條訊息才能證明投資合理性"
+          },
+          "compliance": {
+            "title": "嚴格合規",
+            "description": "增強的合規要求和定期運營商審核"
+          },
+          "setup": {
+            "title": "設置時間表",
+            "description": "運營商審核和號碼配置需要 2-3 週"
+          },
+          "investment": {
+            "title": "頂級投資",
+            "description": "專用路由每月 $1,000-$1,500 的經常性成本"
+          }
+        },
+        "alternatives": {
+          "title": "首先考慮這些替代方案",
+          "description": "對大多數企業而言，這些選項提供更佳價值和更簡單的設置",
+          "recommended": {
+            "title": "適合大多數企業的推薦選項",
+            "tollFree": "免付費簡訊增強品牌識別度",
+            "tenDlc": "10DLC 提供經濟實惠的行銷",
+            "whatsapp": "WhatsApp 提供國際觸達"
+          },
+          "whenToUpgrade": {
+            "title": "何時升級到短碼",
+            "volume": "每月發送 50 萬+ 條訊息",
+            "speed": "時間敏感活動需要即時投遞",
+            "brand": "品牌識別度對您的策略至關重要",
+            "budget": "擁有 $15K+ 年度簡訊行銷預算"
+          }
+        },
+        "cta": {
+          "title": "準備好進行頂級簡訊行銷了嗎？",
+          "description": "短碼非常適合需要最高速度和送達率的大量行銷人員。讓我們討論這是否適合您的企業。",
+          "primary": "討論短碼需求",
+          "secondary": "從免付費簡訊開始",
+          "alternative": "大多數企業從我們的免付費簡訊選項開始，當達到更高容量時升級到短碼。"
+        },
+        "title": "簡訊短碼",
+        "subtitle": "大量企業簡訊服務",
+        "description": "透過高級短碼簡訊即時觸達數百萬客戶。適用於行銷活動、通知和大量通訊。",
+        "stats": {
+          "messagesPerSecondValue": "10,000",
+          "messagesPerSecond": "訊息/秒",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "送達率",
+          "digitNumbersValue": "5-6位數",
+          "digitNumbers": "可用號碼"
+        },
+        "pricing": {
+          "title": "企業定價",
+          "subtitle": "彈性定價方案滿足大量訊息需求",
+          "setup": {
+            "label": "設定費用",
+            "value": "$5,000"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "$1,500"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.015"
+          },
+          "note": "月發送量超過100萬則享有大量折扣"
+        },
+        "testimonial": {
+          "quote": "SeaX的短碼簡訊徹底改變了我們的客戶互動方式。現在我們能即時觸達數百萬客戶，送達率達業界領先水準。",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp 企業",
+          "results": "活動觸達率提升350%，送達率達99.8%"
+        },
+        "premiumFeatures": {
+          "title": "高級短碼優勢",
+          "description": "體驗高級短碼在企業通訊的強大威力",
+          "ultraThroughput": {
+            "title": "超高吞吐量",
+            "description": "透過我們的高級基礎設施和電信商合作夥伴關係，每秒發送高達10,000則訊息。"
+          },
+          "premiumRoutes": {
+            "title": "高級傳送路由",
+            "description": "透過專用電信商連接和高級路由，保證優先傳送。"
+          },
+          "brandRecognition": {
+            "title": "增強品牌識別",
+            "description": "易記的5-6位數號碼，讓客戶輕鬆識別並信任您的品牌通訊。"
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "免費800電話簡訊",
+        "subtitle": "可信賴的企業簡訊",
+        "description": "透過免費800電話簡訊號碼建立信任並提高互動度。客戶認識並願意回應的專業通訊方式。",
+        "seo": {
+          "title": "免費800電話簡訊號碼 | 專業企業簡訊服務 | SeaX",
+          "description": "透過免費800電話簡訊號碼增強客戶信任。專業企業簡訊服務，提供更高回應率和品牌識別度。"
+        },
+        "hero": {
+          "title": "免費800電話簡訊儀表板",
+          "status": "進行中",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "您的專屬免費號碼",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "送達率",
+          "higherTrustValue": "2.3倍",
+          "higherTrust": "更高信任度",
+          "recentMessages": {
+            "title": "最近訊息",
+            "customerSupport": {
+              "title": "客戶支援回應",
+              "details": "來自 1-800-SUPPORT 的自動回覆"
+            },
+            "survey": {
+              "title": "客戶滿意度調查",
+              "details": "調查邀請已發送，回應率達78%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "送達率",
+          "higherTrustValue": "2.3倍",
+          "higherTrust": "更高信任度",
+          "responseRateValue": "78%",
+          "responseRate": "回應率"
+        },
+        "features": {
+          "title": "免費號碼優勢",
+          "subtitle": "建立信任並提升參與度的專業訊息服務",
+          "items": {
+            "recognizableNumbers": "易於識別的 1-800 號碼",
+            "noCharges": "接收方免費 - 客戶無需付費",
+            "professionalImage": "增強專業品牌形象",
+            "higherTrust": "比一般號碼高 2.3 倍信任度",
+            "improvedResponse": "回應率提升 78%",
+            "brandRecognition": "提升品牌識別度和記憶度"
+          }
+        },
+        "useCases": {
+          "title": "完美應用場景",
+          "subtitle": "適合重視信任和專業形象的企業",
+          "items": {
+            "customerService": "客戶服務和支援通訊",
+            "appointmentReminders": "預約提醒和確認",
+            "surveys": "客戶滿意度調查",
+            "notifications": "重要帳戶通知",
+            "promotions": "專業促銷活動",
+            "alerts": "服務警報和更新"
+          }
+        },
+        "pricing": {
+          "title": "專業定價",
+          "subtitle": "免費800電話簡訊服務透明定價",
+          "setupLabel": "設定費用",
+          "setup": {
+            "label": "設定費用",
+            "value": "$99"
+          },
+          "monthlyLabel": "月費",
+          "monthly": {
+            "label": "月費",
+            "value": "$29"
+          },
+          "perMessageLabel": "每則訊息",
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.04"
+          },
+          "note": "價格限於美國與加拿大。無額外電信費用或隱藏成本"
+        },
+        "testimonial": {
+          "quote": "免費800電話簡訊功能大幅改善了我們的客戶回應率。客戶對來自 1-800 號碼的訊息比一般號碼更加信任。",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "回應率提升78%，客戶滿意度達94%"
+        },
+        "trust": {
+          "title": "為何免費800電話簡訊有效",
+          "description": "透過專業免費訊息服務建立信任並推動參與",
+          "professionalImage": {
+            "title": "專業品牌形象",
+            "description": "免費號碼立即傳達專業性和合法性，讓客戶更願意與您的訊息互動。"
+          },
+          "noCarrierFees": {
+            "title": "客戶免費",
+            "description": "客戶接收訊息無需付費，消除參與障礙並提高回應率。"
+          },
+          "higherResponse": {
+            "title": "更高回應率",
+            "description": "研究顯示比一般電話號碼有2.3倍更高信任度和78%更佳回應率。"
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "WhatsApp 企業版 API | 企業訊息解決方案 | SeaX",
+          "description": "連接全球超過20億WhatsApp用戶。提供富媒體、模板和自動化工作流程的專業企業訊息服務，提升客戶參與度。"
+        },
+        "hero": {
+          "badge": "最受歡迎管道",
+          "title": {
+            "line1": "連接",
+            "line2": "WhatsApp 企業版"
+          },
+          "description": "透過WhatsApp Business Platform API觸達全球超過20億用戶。發送富媒體訊息、自動化客戶支援，大規模建立有意義的客戶關係。",
+          "stats": {
+            "monthlyUsers": "月活躍用戶",
+            "openRate": "開啟率",
+            "engagementRate": "參與率",
+            "countriesSupported": "支援國家"
+          },
+          "cta": {
+            "primary": "開始免費試用",
+            "secondary": "預約示範"
+          },
+          "demo": {
+            "title": "WhatsApp 活動",
+            "subtitle": "即時效能儀表板",
+            "templateLabel": "模板訊息",
+            "message": "您好！您的訂單 #12345 已準備好取貨。您希望安排取貨時間還是需要店鋪地址？",
+            "button1": "安排取貨",
+            "button2": "取得路線",
+            "openRateValue": "94.8%",
+            "openRateLabel": "開啟率",
+            "deliveredValue": "1.23萬",
+            "deliveredLabel": "已送達訊息"
+          }
+        },
+        "features": {
+          "title": "為什麼選擇 WhatsApp 企業版？",
+          "subtitle": "利用全球最受歡迎的訊息平台進行企業通訊",
+          "richMedia": {
+            "title": "富媒體支援",
+            "description": "發送圖片、影片、文檔和互動按鈕，創造引人入勝的客戶體驗。"
+          },
+          "globalReach": {
+            "title": "全球觸達",
+            "description": "連接180多個國家的客戶，在他們日常使用的WhatsApp上與其互動。"
+          },
+          "security": {
+            "title": "端對端安全",
+            "description": "內建加密確保安全通訊，同時維護客戶信任和數據隱私。"
+          },
+          "instantDelivery": {
+            "title": "即時送達",
+            "description": "訊息即時送達，提供已讀回條和送達確認，便於更好的追蹤。"
+          },
+          "analytics": {
+            "title": "進階分析",
+            "description": "透過詳細洞察追蹤訊息效能、參與率和客戶互動。"
+          },
+          "twoWay": {
+            "title": "雙向對話",
+            "description": "透過自動回覆和人工客服轉接，實現與客戶的自然對話。"
+          }
+        },
+        "messageTypes": {
+          "title": "訊息類型與功能",
+          "subtitle": "選擇各種訊息格式，有效吸引客戶",
+          "template": {
+            "title": "模板訊息",
+            "description": "預先核准的訊息模板，用於通知、更新和促銷內容。",
+            "feature1": "訂單確認和更新",
+            "feature2": "預約提醒",
+            "feature3": "付款通知",
+            "feature4": "促銷活動"
+          },
+          "richMedia": {
+            "title": "富媒體訊息",
+            "description": "透過包含圖片、影片和文檔的多媒體內容吸引客戶。",
+            "feature1": "高品質圖片和影片",
+            "feature2": "PDF文檔和目錄",
+            "feature3": "語音訊息和語音筆記",
+            "feature4": "位置分享"
+          },
+          "interactive": {
+            "title": "互動訊息",
+            "description": "透過按鈕、列表和快速回覆創造引人入勝的體驗，提升客戶互動。",
+            "feature1": "快速回覆按鈕",
+            "feature2": "列表選擇",
+            "feature3": "行動呼籲按鈕",
+            "feature4": "產品目錄"
+          }
+        },
+        "useCases": {
+          "title": "熱門應用場景",
+          "subtitle": "了解企業如何使用WhatsApp推動成長和提升客戶滿意度",
+          "support": {
+            "title": "客戶支援",
+            "description": "透過自動回覆和無縫客服轉接，為複雜查詢提供即時客戶支援。",
+            "metrics": "解決時間縮短87%"
+          },
+          "orders": {
+            "title": "訂單管理",
+            "description": "發送訂單確認、運送更新和配送通知，讓客戶了解整個過程。",
+            "metrics": "95%配送確認率"
+          },
+          "marketing": {
+            "title": "行銷活動",
+            "description": "透過富媒體內容和互動元素推出定向行銷活動，推動銷售和參與度。",
+            "metrics": "轉換率提升3.2倍"
+          },
+          "appointments": {
+            "title": "預約預訂",
+            "description": "透過對話流程自動化預約排程、發送提醒和處理重新安排請求。",
+            "metrics": "爽約率降低78%"
+          }
+        },
+        "cta": {
+          "title": "準備好連接WhatsApp了嗎？",
+          "subtitle": "加入已在使用WhatsApp Business Platform API發展客戶關係的數千家企業",
+          "primary": "開始免費試用",
+          "secondary": "預約示範"
+        }
+      },
+      "voice": {
+        "title": "AI語音行銷",
+        "subtitle": "大規模自動化電話通話",
+        "description": "使用AI智能語音活動即時聯繫客戶。適用於約會提醒、調查問卷、緊急警報和個人化客戶外聯，覆蓋100多個國家。",
+        "seoTitle": "語音通話自動化平台 - AI智能電話行銷 | SeaX",
+        "seoDescription": "使用SeaX語音服務大規模自動化電話通話。AI智能語音活動、約會提醒、調查問卷和客戶外聯，在100多個國家實現高接通率。",
+        "hero": {
+          "widget": {
+            "title": "AI語音控制台",
+            "poweredBy": "由SeaX提供支持",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "今日已完成通話",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "接通率",
+            "countriesValue": "100+",
+            "countriesLabel": "支援國家",
+            "activeCalls": "活躍通話",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "約會提醒通話",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "客戶滿意度調查"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "支援語言"
+        },
+        "features": {
+          "title": "強大的語音功能",
+          "subtitle": "成功語音行銷活動所需的一切",
+          "items": {
+            "0": "AI驅動的自然語音合成",
+            "1": "多語言支援（25+種語言）",
+            "2": "即時通話分析和報告",
+            "3": "互動式語音應答（IVR）功能",
+            "4": "語音信箱檢測和處理",
+            "5": "通話錄音和轉錄",
+            "6": "智能重試邏輯和排程",
+            "7": "符合電話行銷規定",
+            "globalReach": "全球觸達，在180多個國家提供本地電話號碼",
+            "highQuality": "水晶般清晰的高清語音品質，具備智能路由",
+            "smartDialing": "智能撥號，具有最佳時機和通話排程",
+            "multiLanguage": "多語言支援，提供自然音效語音",
+            "realTimeAnalytics": "即時通話分析和效能追蹤",
+            "complianceReady": "內建電話行銷法規合規功能"
+          }
+        },
+        "useCases": {
+          "title": "語音行銷使用案例",
+          "subtitle": "語音自動化的實證應用",
+          "items": {
+            "0": "約會提醒和確認",
+            "1": "客戶滿意度調查",
+            "2": "付款提醒和催收",
+            "3": "緊急警報和通知",
+            "4": "活動確認和更新",
+            "5": "潛在客戶評估和培育",
+            "6": "市場研究和民調",
+            "7": "服務中斷通知",
+            "appointmentReminders": "自動化預約提醒和確認",
+            "customerSurveys": "客戶滿意度和意見調查",
+            "salesOutreach": "銷售觸達和潛在客戶資格審查通話",
+            "paymentReminders": "付款提醒和催收通話",
+            "emergencyAlerts": "緊急通知和急迫警報",
+            "eventNotifications": "活動提醒和重要公告"
+          }
+        },
+        "pricing": {
+          "title": "語音行銷價格",
+          "subtitle": "語音自動化的經濟實惠定價",
+          "setup": {
+            "label": "設定費用",
+            "value": "$199"
+          },
+          "monthly": {
+            "label": "月費",
+            "value": "$49"
+          },
+          "perMinute": {
+            "label": "每分鐘",
+            "value": "$0.12"
+          },
+          "note": {
+            "value": "月通話量10,000+次可享大量折扣"
+          },
+          "perMessage": {
+            "label": "每則訊息",
+            "value": "$0.08"
+          }
+        },
+        "testimonial": {
+          "quote": "SeaX語音行銷徹底改革了我們的約會提醒系統。我們將爽約率降低了70%，並顯著提升了客戶滿意度。",
+          "author": "艾蜜莉·羅德里格茲醫師",
+          "company": "健康第一醫療集團",
+          "results": "爽約率降低70%，客戶滿意度達95%"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "潛在客戶開發解決方案 - SeaX 多通道觸達",
+          "description": "使用 SeaX 的多通道潛在客戶開發解決方案，大規模產生合格的潛在客戶。SMS、WhatsApp 和語音活動搭配 AI 驅動的後續追蹤。"
+        },
+        "hero": {
+          "title": "潛在客戶開發",
+          "titleHighlight": "大規模執行",
+          "description": "透過 SMS、WhatsApp 和語音通話的多通道活動產生合格的潛在客戶。AI 驅動的後續追蹤確保不錯過任何機會。",
+          "cta": {
+            "primary": "開始開發潛在客戶",
+            "secondary": "預約示範"
+          }
+        },
+        "features": {
+          "title": "強大的潛在客戶開發功能",
+          "subtitle": "您需要的一切，以大規模獲取、評估和轉換潛在客戶",
+          "targetedOutreach": {
+            "title": "精準觸達",
+            "description": "透過 SMS、WhatsApp 和語音通話的精準定位，接觸合適的潛在客戶。"
+          },
+          "multiChannelCampaigns": {
+            "title": "多通道活動",
+            "description": "在 SMS、WhatsApp 和語音通話上執行協調一致的活動，達到最大影響力。"
+          },
+          "aiFollowUps": {
+            "title": "AI 驅動的後續追蹤",
+            "description": "24/7 自動化智慧回應，評估潛在客戶並安排會議。"
+          },
+          "realTimeAnalytics": {
+            "title": "即時分析",
+            "description": "即時追蹤活動表現、潛在客戶品質和轉換率。"
+          },
+          "leadScoring": {
+            "title": "潛在客戶評分",
+            "description": "基於互動和回應的自動潛在客戶評分和優先排序。"
+          },
+          "voiceQualification": {
+            "title": "語音評估",
+            "description": "AI 驅動的語音通話，自動評估潛在客戶並預約會面。"
+          }
+        },
+        "useCases": {
+          "title": "潛在客戶開發使用案例",
+          "subtitle": "跨行業和企業類型的經過驗證的策略",
+          "b2bSales": {
+            "title": "B2B 銷售觸達",
+            "description": "透過精準的訊息活動為 B2B 銷售團隊產生合格的潛在客戶。",
+            "stats": "合格潛在客戶增加 300%"
+          },
+          "realEstate": {
+            "title": "房地產潛在客戶開發",
+            "description": "透過多通道活動與房產買家和賣家建立聯繫。",
+            "stats": "回應率提升 85%"
+          },
+          "insurance": {
+            "title": "保險潛在客戶評估",
+            "description": "透過自動化後續追蹤和預約安排評估保險潛在客戶。",
+            "stats": "評估時間減少 60%"
+          },
+          "eventRegistration": {
+            "title": "活動報名",
+            "description": "透過精準邀請和後續追蹤序列推動活動報名。",
+            "stats": "報名增加 200%"
+          }
+        },
+        "stats": {
+          "title": "實證成果",
+          "subtitle": "看看我們的客戶透過 SeaX 潛在客戶開發達成的成就",
+          "qualifiedLeads": {
+            "value": "5倍",
+            "label": "更多合格潛在客戶"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "回應率"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "時間節省"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "ROI 增長"
+          }
+        },
+        "cta": {
+          "title": "準備擴展您的潛在客戶開發？",
+          "subtitle": "加入數千家使用 SeaX 產生合格潛在客戶的企業",
+          "primary": "立即註冊",
+          "secondary": "預約示範"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "行銷自動化平台 - SeaX 全通路自動化",
+          "description": "透過 SMS、WhatsApp 和語音通話自動化您的行銷活動。先進工作流程、受眾分群和績效分析。"
+        },
+        "hero": {
+          "title": {
+            "main": "行銷自動化",
+            "highlight": "真正有效"
+          },
+          "description": "透過 SMS、WhatsApp 和語音通話自動化您的行銷活動。建立能夠培養潛在客戶並促進轉換的精密工作流程，全天候運作。",
+          "cta": {
+            "primary": "開始自動化",
+            "secondary": "查看演示"
+          }
+        },
+        "features": {
+          "title": "強大的自動化功能",
+          "subtitle": "建立自動運行並帶來成果的精密活動",
+          "items[0]": {
+            "title": "自動化工作流程",
+            "description": "建立基於客戶行為和回應觸發的複雜多步驟活動。"
+          },
+          "items[1]": {
+            "title": "智能時機",
+            "description": "根據客戶時區和參與模式在最佳時間發送訊息。"
+          },
+          "items[2]": {
+            "title": "受眾分群",
+            "description": "透過所有通路向特定客戶群體發送個性化訊息。"
+          },
+          "items[3]": {
+            "title": "績效分析",
+            "description": "透過詳細的活動分析追蹤參與率、轉換率和投資報酬率。"
+          },
+          "items[4]": {
+            "title": "多通路序列",
+            "description": "統籌跨越 SMS、WhatsApp 和語音通話的活動，實現最大觸達率。"
+          },
+          "items[5]": {
+            "title": "A/B 測試",
+            "description": "測試不同的訊息、時機和通路以優化活動績效。"
+          }
+        },
+        "automationTypes": {
+          "title": "自動化工作流程",
+          "subtitle": "針對常見行銷情境的預建自動化序列",
+          "items[0]": {
+            "title": "歡迎系列",
+            "description": "透過個人化歡迎序列自動引導新客戶上手。",
+            "example": "歡迎簡訊 → 產品資訊 → 特別優惠 → 回饋請求"
+          },
+          "items[1]": {
+            "title": "棄購挽回",
+            "description": "透過針對性提醒重新吸引放棄購物車的客戶。",
+            "example": "購物車提醒 → 限時折扣 → 產品推薦"
+          },
+          "items[2]": {
+            "title": "客戶生命週期",
+            "description": "透過自動化接觸點引導客戶完成他們的旅程。",
+            "example": "購買確認 → 使用技巧 → 加購機會 → 忠誠度獎勵"
+          },
+          "items[3]": {
+            "title": "重新參與活動",
+            "description": "透過引人注目的重新參與序列挽回不活躍的客戶。",
+            "example": "想念您的訊息 → 專屬優惠 → 產品更新 → 挽回誘因"
+          },
+          "exampleFlowLabel": "範例流程："
+        },
+        "stats": {
+          "title": "自動化成果",
+          "subtitle": "查看行銷自動化對您業務的影響",
+          "items[0]": {
+            "value": "10倍",
+            "label": "更高效率"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "參與率"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "時間節省"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "投資報酬率提升"
+          }
+        },
+        "cta": {
+          "title": "準備好自動化您的行銷了嗎？",
+          "description": "加入成千上萬透過 SeaX 自動化擴展行銷規模的企業",
+          "primary": "立即註冊",
+          "secondary": "預約演示"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "客戶參與 - SeaX 通訊平台",
+          "description": "透過 SMS、WhatsApp 和語音通話的個人化多通路參與，建立更強大的客戶關係。"
+        },
+        "hero": {
+          "title": {
+            "main": "客戶參與",
+            "highlight": "建立忠誠度"
+          },
+          "description": "透過 SMS、WhatsApp 和語音通話的個人化多通路參與，建立更強大的客戶關係。將每次互動轉化為機會。",
+          "cta": {
+            "primary": "參與客戶",
+            "secondary": "預約演示"
+          }
+        },
+        "features": {
+          "title": "參與功能",
+          "subtitle": "建立有意義客戶關係所需的一切",
+          "items[0]": {
+            "title": "進階客戶檔案",
+            "description": "創建豐富的客戶檔案，實現更個人化的參與。"
+          },
+          "items[1]": {
+            "title": "多通路訊息傳遞",
+            "description": "透過 SMS、WhatsApp 和應用內訊息與客戶互動。"
+          },
+          "items[2]": {
+            "title": "情感分析",
+            "description": "了解客戶情感並相應調整溝通方式。"
+          },
+          "items[3]": {
+            "title": "行為分析",
+            "description": "追蹤和分析客戶行為，改善參與策略。"
+          },
+          "items[4]": {
+            "title": "直接行銷工具",
+            "description": "基於客戶數據，精準執行目標行銷活動。"
+          },
+          "items[5]": {
+            "title": "即時互動",
+            "description": "在最關鍵的時刻與客戶互動，透過即時觸發器和溝通。"
+          }
+        },
+        "useCases": {
+          "title": "參與使用案例",
+          "subtitle": "跨行業的真實客戶參與策略",
+          "items[0]": {
+            "title": "電子商務參與",
+            "description": "透過個人化促銷活動增加重複購買和客戶保留率。",
+            "stats": "重複購買增加 20%"
+          },
+          "items[1]": {
+            "title": "金融服務提醒",
+            "description": "透過自動化提醒和更新，讓客戶了解帳戶活動。",
+            "stats": "提醒參與率 80%"
+          },
+          "items[2]": {
+            "title": "旅遊和酒店業",
+            "description": "透過到達前更新和個人化行程提升賓客體驗。",
+            "stats": "客戶查詢減少 50%"
+          },
+          "items[3]": {
+            "title": "零售忠誠計劃",
+            "description": "基於購買歷史提供個人化獎勵和優惠，提升忠誠度。",
+            "stats": "忠誠計劃會員增加 25%"
+          }
+        },
+        "stats": {
+          "title": "參與成果",
+          "subtitle": "查看增強客戶參與的影響",
+          "items[0]": {
+            "value": "40%",
+            "label": "更高參與度"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "客戶滿意度"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "重複購買率"
+          },
+          "items[3]": {
+            "value": "3倍",
+            "label": "客戶終身價值"
+          }
+        },
+        "cta": {
+          "title": "準備好建立更強大的客戶關係了嗎？",
+          "description": "加入成千上萬使用 SeaX 參與客戶並建立持久忠誠度的企業",
+          "primary": "立即開始"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "預約提醒 - SeaX 自動化排程",
+          "description": "透過 SMS、WhatsApp 和語音通話的自動化預約提醒，減少爽約並提高出席率。智能排程和確認系統。"
+        },
+        "hero": {
+          "title": {
+            "main": "預約提醒",
+            "highlight": "真正有效"
+          },
+          "description": "透過 SMS、WhatsApp 和語音通話的自動化預約提醒，減少爽約並提高出席率。具備雙向溝通的智能排程。",
+          "cta": {
+            "primary": "開始減少爽約",
+            "secondary": "預約演示"
+          }
+        },
+        "features": {
+          "title": "強大的提醒功能",
+          "subtitle": "維持預約正常進行和減少爽約所需的一切",
+          "items[0]": {
+            "title": "智能排程",
+            "description": "自動安排預約並透過 SMS、WhatsApp 和語音通話發送確認。"
+          },
+          "items[1]": {
+            "title": "多階段提醒",
+            "description": "在最佳間隔發送個人化提醒 - 預約前 24 小時、1 小時和 15 分鐘。"
+          },
+          "items[2]": {
+            "title": "雙向溝通",
+            "description": "允許客戶直接透過 SMS 或 WhatsApp 確認、重新安排或取消預約。"
+          },
+          "items[3]": {
+            "title": "員工通知",
+            "description": "透過預約變更和確認的即時更新讓您的團隊保持消息靈通。"
+          },
+          "items[4]": {
+            "title": "自定義提醒",
+            "description": "為不同類型和時長的預約設定自定義提醒時程表和訊息。"
+          },
+          "items[5]": {
+            "title": "分析與洞察",
+            "description": "追蹤爽約率、確認率，並透過詳細分析優化您的提醒策略。"
+          }
+        },
+        "useCases": {
+          "title": "行業使用案例",
+          "subtitle": "跨不同行業經過驗證的預約提醒策略",
+          "items[0]": {
+            "title": "醫療診所",
+            "description": "透過自動化提醒和輕鬆重新安排選項，減少醫療預約的爽約情況。",
+            "stats": "爽約減少 40%"
+          },
+          "items[1]": {
+            "title": "美容與健康",
+            "description": "透過個人化提醒和確認請求讓美容院和水療預約保持正軌。",
+            "stats": "確認率 85%"
+          },
+          "items[2]": {
+            "title": "專業服務",
+            "description": "透過多通路提醒序列確保諮詢和會議準時進行。",
+            "stats": "出席率 90%"
+          },
+          "items[3]": {
+            "title": "汽車服務",
+            "description": "自動提醒客戶服務預約和維護時程表。",
+            "stats": "回訪增加 60%"
+          }
+        },
+        "stats": {
+          "title": "經過驗證的成果",
+          "subtitle": "查看我們的客戶透過 SeaX 預約提醒取得的成就",
+          "items[0]": {
+            "value": "40%",
+            "label": "爽約減少"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "出席率"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "時間節省"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "客戶滿意度"
+          }
+        },
+        "cta": {
+          "title": "準備好減少爽約並提高出席率了嗎？",
+          "description": "加入成千上萬透過 SeaX 提高預約出席率的企業",
+          "primary": "立即開始"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "緊急警報 - SeaX 通知系統",
+          "description": "透過SMS、語音通話和WhatsApp進行即時緊急警報。在關鍵情況下確保消息傳遞。"
+        },
+        "hero": {
+          "title": {
+            "main": "緊急警報",
+            "highlight": "拯救生命"
+          },
+          "description": "透過SMS、語音通話和WhatsApp進行即時緊急警報，在每一秒都至關重要的危機情況下確保訊息傳遞。",
+          "cta": {
+            "primary": "開始發送警報",
+            "secondary": "預約安全示範"
+          }
+        },
+        "features": {
+          "title": "關鍵警報功能",
+          "subtitle": "確保有效可靠緊急通訊的全方位解決方案",
+          "items[0]": {
+            "title": "即時緊急廣播",
+            "description": "透過SMS、語音通話和WhatsApp同時向數千名接收者發送關鍵警報。"
+          },
+          "items[1]": {
+            "title": "時效性傳遞",
+            "description": "優先訊息傳遞確保緊急通訊立即到達接收者。"
+          },
+          "items[2]": {
+            "title": "目標接收群組",
+            "description": "針對不同類型緊急情況和地點創建和管理特定群組。"
+          },
+          "items[3]": {
+            "title": "可靠基礎設施",
+            "description": "建立在電信級基礎設施上，確保在最關鍵時刻訊息能夠送達。"
+          },
+          "items[4]": {
+            "title": "多通道警報",
+            "description": "透過人們偏好的溝通管道接觸他們，以獲得最高回應率。"
+          },
+          "items[5]": {
+            "title": "雙向溝通",
+            "description": "接收來自接收者的確認和回應，追蹤警報效果。"
+          }
+        },
+        "useCases": {
+          "title": "緊急警報應用案例",
+          "subtitle": "確保安全和溝通的實際應用",
+          "items[0]": {
+            "title": "企業緊急應變",
+            "description": "通知員工安全威脅、疏散或關鍵業務中斷。",
+            "stats": "99.9%送達成功率"
+          },
+          "items[1]": {
+            "title": "學校安全警報",
+            "description": "立即通知家長、學生和教職員停課或安全事件。",
+            "stats": "平均30秒送達時間"
+          },
+          "items[2]": {
+            "title": "醫療急診警報",
+            "description": "提醒醫護人員代碼情況、病人急症或機構事件。",
+            "stats": "5分鐘內95%回應率"
+          },
+          "items[3]": {
+            "title": "公共安全通知",
+            "description": "警告社區天然災害、危險狀況或公共安全威脅。",
+            "stats": "每分鐘10,000+接收者"
+          }
+        },
+        "stats": {
+          "title": "經實證的緊急應變",
+          "subtitle": "在每一秒都重要的時刻可靠地傳遞訊息",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "送達成功率"
+          },
+          "items[1]": {
+            "value": "30秒",
+            "label": "平均送達時間"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "5分鐘內回應"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "每分鐘訊息數"
+          }
+        },
+        "cta": {
+          "title": "準備好確保安全和溝通了嗎？",
+          "description": "加入數千家使用SeaX在緊急情況下確保安全和有效溝通的組織。",
+          "primary": "立即開始"
+        }
+      }
+    }
+  }
+}

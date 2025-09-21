@@ -1,0 +1,1551 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "医疗保健解决方案",
+        "subtitle": "透过符合 HIPAA 的客户支援转变病患护理，提高病患满意度、简化营运并增强护理协调。",
+        "trialButton": "免费开始",
+        "demoButton": "安排医疗保健演示",
+        "featuresTitle": "医疗保健专用功能",
+        "featuresSubtitle": "为医疗保健提供者量身打造的功能，以提供卓越的病患护理。",
+        "features": {
+          "hipaa": {
+            "title": "HIPAA 合规性",
+            "description": "完全符合 HIPAA 规范，具有加密通讯和安全的资料处理",
+            "benefits": {
+              "encryption": "端对端加密",
+              "audit": "稽核追踪",
+              "access": "存取控制",
+              "anonymization": "资料匿名化"
+            }
+          },
+          "appointments": {
+            "title": "预约管理",
+            "description": "无缝的预约排程、重新排程和提醒系统",
+            "benefits": {
+              "availability": "即时可用性",
+              "reminders": "自动提醒",
+              "cancellation": "取消处理",
+              "waitlist": "候补名单管理"
+            }
+          },
+          "telehealth": {
+            "title": "远距医疗支援",
+            "description": "整合的远距医疗功能，用于远程病患咨询",
+            "benefits": {
+              "video": "视讯咨询",
+              "messaging": "安全讯息传递",
+              "documents": "文件共享",
+              "followup": "后续护理"
+            }
+          },
+          "engagement": {
+            "title": "病患参与",
+            "description": "透过 24/7 支援和个人化护理提高病患满意度",
+            "benefits": {
+              "availability": "24/7 全天候服务",
+              "multilanguage": "多语言支援",
+              "coordination": "护理协调",
+              "education": "健康教育"
+            }
+          }
+        },
+        "metricsTitle": "医疗保健影响指标",
+        "metricsSubtitle": "使用 SeaChat 进行病患支援的医疗保健提供者的真实结果。",
+        "metrics": {
+          "noshows": {
+            "label": "减少未到诊率",
+            "description": "透过自动预约提醒",
+            "value": "40%"
+          },
+          "response": {
+            "label": "更快的回应时间",
+            "description": "对于病患的询问和疑虑",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "病患满意度",
+            "description": "透过 24/7 的支援服务",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "行政效率",
+            "description": "透过自动化工作流程",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "常见的医疗保健使用案例",
+        "useCasesSubtitle": "了解 SeaChat 如何处理典型的病患互动和行政任务。",
+        "useCases": {
+          "appointments": {
+            "title": "预约排程",
+            "description": "病患可以透过聊天预约、改期或取消预约",
+            "example": "我需要将我的预约改到下周二",
+            "outcome": "自动排程整合日历并确认"
+          },
+          "prescriptions": {
+            "title": "处方查询",
+            "description": "安全地处理处方续订和药物问题",
+            "example": "我的处方什么时候可以取药？",
+            "outcome": "即时药房整合和状态更新"
+          },
+          "insurance": {
+            "title": "保险验证",
+            "description": "验证保险范围并向病患解释福利",
+            "example": "我的手术是否在我的保险计划范围内？",
+            "outcome": "即时保险验证和承保说明"
+          },
+          "symptoms": {
+            "title": "症状预筛",
+            "description": "由人工智慧驱动的症状评估和分流建议",
+            "example": "我发烧咳嗽，应该去看医生吗？",
+            "outcome": "症状评估并提供适当的护理建议"
+          }
+        },
+        "patientRequest": "病患要求",
+        "seachatResponse": "SeaChat 回应",
+        "hipaaTitle": "HIPAA 合规性与安全性",
+        "hipaaSubtitle": "从头开始建构，考虑到医疗保健的安全性和合规性。在提供卓越护理体验的同时保护病患资料。",
+        "compliance": {
+          "complianceFeatures": [
+            "端对端加密",
+            "稽核追踪",
+            "存取控制",
+            "资料匿名化",
+            "安全资料储存",
+            "定期安全稽核",
+            "员工培训和认证",
+            "事件应变程序"
+          ]
+        },
+        "certificationsTitle": "安全认证",
+        "certifications": {
+          "hipaa": "符合 HIPAA 规范",
+          "soc2": "SOC 2 Type II",
+          "iso": "ISO 27001",
+          "gdpr": "符合 GDPR 规范"
+        },
+        "certified": "已认证",
+        "compliant": "合规",
+        "ctaTitle": "准备好转变病患护理了吗？",
+        "ctaSubtitle": "加入已经在使用 SeaChat 提供卓越病患体验，同时维持最高安全性和合规性标准的医疗保健提供者。",
+        "ctaTrialButton": "免费开始医疗保健服务",
+        "ctaDemoButton": "安排医疗保健演示"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "所有通讯的端到端加密",
+          "多重要素验证和身份验证",
+          "定期安全稽核和渗透测试",
+          "ISO 27001 认证基础设施",
+          "即时欺诈监控和检测",
+          "具有速率限制的安全 API 端点"
+        ],
+        "title": "金融科技解决方案",
+        "subtitle": "为金融服务提供安全、合规的客户支援。处理交易、提供投资指导，并有信心地确保法规合规。",
+        "trialButton": "免费开始金融科技",
+        "demoButton": "预约金融演示",
+        "featuresTitle": "金融服务功能",
+        "featuresSubtitle": "为金融机构量身定制的功能，提供安全、合规的客户支援。",
+        "features": {
+          "security": {
+            "title": "金融安全",
+            "description": "具有 PCI DSS 合规性和欺诈保护的银行级安全",
+            "benefits": {
+              "pci": "PCI DSS 合规性",
+              "fraud": "欺诈检测",
+              "transactions": "安全交易",
+              "identity": "身份验证"
+            }
+          },
+          "payment": {
+            "title": "付款支援",
+            "description": "全面的付款处理支援和争议解决",
+            "benefits": {
+              "tracking": "交易追踪",
+              "dispute": "争议处理",
+              "refund": "退款处理",
+              "methods": "付款方式"
+            }
+          },
+          "investment": {
+            "title": "投资指导",
+            "description": "AI 驱动的投资建议和投资组合管理支援",
+            "benefits": {
+              "insights": "市场洞察",
+              "portfolio": "投资组合分析",
+              "risk": "风险评估",
+              "recommendations": "投资建议"
+            }
+          },
+          "compliance": {
+            "title": "法规合规",
+            "description": "内建金融法规合规性和报告要求",
+            "benefits": {
+              "kyc": "KYC/AML 合规性",
+              "reporting": "法规报告",
+              "audit": "稽核轨迹",
+              "protection": "数据保护"
+            }
+          }
+        },
+        "impactTitle": "金融服务影响",
+        "impactSubtitle": "使用 SeaChat 进行客户支援的金融机构的真实结果。",
+        "metrics": {
+          "accuracy": {
+            "label": "交易准确性",
+            "description": "透过自动化处理和验证"
+          },
+          "resolution": {
+            "label": "更快解决",
+            "description": "针对金融查询和争议"
+          },
+          "fraud": {
+            "label": "欺诈检测率",
+            "description": "透过 AI 驱动的监控系统"
+          },
+          "satisfaction": {
+            "label": "客户满意度",
+            "description": "针对金融支援互动"
+          }
+        },
+        "useCasesTitle": "金融支援使用案例",
+        "useCasesSubtitle": "了解 SeaChat 如何处理复杂的金融查询和交易。",
+        "useCases": {
+          "account": {
+            "title": "帐户管理",
+            "description": "协助客户进行帐户设置、验证和管理",
+            "example": "我需要协助设置我的商业帐户",
+            "outcome": "透过文件验证和合规检查进行引导式帐户设置"
+          },
+          "transaction": {
+            "title": "交易查询",
+            "description": "提供即时交易状态和历史资讯",
+            "example": "我转给 ABC 公司的电汇在哪里？",
+            "outcome": "即时交易追踪与详细状态更新"
+          },
+          "fraud": {
+            "title": "欺诈预防",
+            "description": "透过 AI 监控检测和预防欺诈活动",
+            "example": "我看到我帐户上有可疑的收费",
+            "outcome": "立即欺诈调查和帐户保护措施"
+          },
+          "investment": {
+            "title": "投资支援",
+            "description": "提供投资指导和投资组合管理协助",
+            "example": "我现在应该投资科技股吗？",
+            "outcome": "基于风险概况和市场分析的个人化投资建议"
+          }
+        },
+        "customerInquiry": "客户查询",
+        "seachatResponse": "SeaChat 回应",
+        "securityTitle": "银行级安全与合规",
+        "securitySubtitle": "采用金融服务机构的最高安全标准和法规合规要求建构。",
+        "regulatoryTitle": "法规合规",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "支付卡产业数据安全标准",
+            "status": "合规"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "萨班斯-奥克斯利法案合规",
+            "status": "合规"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "一般数据保护规范",
+            "status": "合规"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "了解您的客户/反洗钱",
+            "status": "支援"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "加州消费者隐私法案",
+            "status": "合规"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "金融业监管局",
+            "status": "支援"
+          }
+        },
+        "ctaTitle": "准备好保护您的金融服务了吗？",
+        "ctaSubtitle": "加入已经在使用 SeaChat 提供安全、合规客户支援以建立信任和推动成长的金融机构。",
+        "ctaTrialButton": "免费开始金融科技",
+        "ctaDemoButton": "预约金融演示"
+      },
+      "ecommerce": {
+        "title": "电商与零售",
+        "subtitle": "透过智慧客户支援转化您的线上商店，提升销售量、减少购物车弃置，并建立忠诚客户。",
+        "trialButton": "免费开始电商服务",
+        "demoButton": "安排电商示范",
+        "featuresTitle": "电商专业功能",
+        "featuresSubtitle": "为线上零售商量身打造的功能，最大化销售量和客户满意度。",
+        "features": {
+          "orders": {
+            "title": "订单管理整合",
+            "description": "与您的电商平台无缝整合，实现即时订单追踪和更新。",
+            "benefits": {
+              "status": "即时订单状态",
+              "shipping": "自动配送更新",
+              "returns": "退货处理",
+              "inventory": "库存查询"
+            }
+          },
+          "accounts": {
+            "title": "客户帐户支援",
+            "description": "协助客户解决帐户问题、密码重设和个人资料管理。",
+            "benefits": {
+              "recovery": "帐户恢复",
+              "updates": "个人资料更新",
+              "subscriptions": "订阅管理",
+              "billing": "帐单支援"
+            }
+          },
+          "recommendations": {
+            "title": "产品推荐",
+            "description": "基于客户偏好和浏览历史的AI产品建议。",
+            "benefits": {
+              "personalized": "个人化建议",
+              "cross": "交叉销售机会",
+              "upselling": "加价销售自动化",
+              "inventory": "库存优化"
+            }
+          },
+          "assistance": {
+            "title": "24/7 购物协助",
+            "description": "为不同时区和购物模式的客户提供全天候支援。",
+            "benefits": {
+              "global": "全球覆盖",
+              "peak": "尖峰时段支援",
+              "holiday": "假日协助",
+              "mobile": "行动购物协助"
+            }
+          }
+        },
+        "resultsTitle": "经实证的电商成果",
+        "resultsSubtitle": "使用 SeaChat 进行客户支援的电商企业真实指标。",
+        "metrics": {
+          "conversion": {
+            "label": "销售转换率提升",
+            "description": "透过积极的客户支援"
+          },
+          "abandonment": {
+            "label": "购物车弃置率降低",
+            "description": "透过即时购物协助"
+          },
+          "resolution": {
+            "label": "订单处理速度提升",
+            "description": "自动订单状态更新"
+          },
+          "satisfaction": {
+            "label": "客户满意度",
+            "description": "电商支援互动"
+          }
+        },
+        "integrationsTitle": "电商平台整合",
+        "integrationsSubtitle": "与您现有的电商技术堆叠无缝连接，实现统一的客户支援。",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "原生 Shopify 应用，完整订单整合"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "WooCommerce 商店的 WordPress 外挂"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "企业级 Magento 整合"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "完整的 BigCommerce API 整合"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "付款处理和帐单支援"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "PayPal 交易和纠纷处理"
+          }
+        },
+        "successTitle": "成功案例：时尚零售商",
+        "challenge": "挑战",
+        "challengeDescription": "高购物车弃置率，客户因尺寸问题和产品可用性疑虑而离开。",
+        "solution": "解决方案",
+        "solutionDescription": "部署具有产品目录整合、尺寸指南和主动购物车弃置恢复的 SeaChat。",
+        "results": "结果",
+        "result1": "转换率提升45%",
+        "result2": "购物车弃置率降低60%",
+        "result3": "6个月内额外获得$2.3M收入",
+        "chatPreview": "即时聊天预览",
+        "customer": "客户",
+        "customerQuestion": "这件洋装有M号吗？",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "有的！蓝色夏日洋装有M号。我们有3件库存。要我帮您加入购物车吗？",
+        "customerResponse": "太好了！是的，请加入。",
+        "aiResponse2": "已加入购物车！🛍️ 您符合免费送货资格。准备结帐了吗？",
+        "ctaTitle": "准备提升您的电商销售量吗？",
+        "ctaSubtitle": "加入数百家使用 SeaChat 提升转换率、减少购物车弃置、创造卓越购物体验的线上零售商。",
+        "ctaTrialButton": "免费开始电商服务",
+        "ctaDemoButton": "安排电商示范"
+      },
+      "education": {
+        "title": "教育解决方案",
+        "subtitle": "以AI驱动的协助转变教育支援，为学生、家长、教职员和工作人员提供服务。简化营运并提升学习体验。",
+        "trialButton": "免费开始教育方案",
+        "demoButton": "预约教育演示",
+        "featuresTitle": "教育专属功能",
+        "featuresSubtitle": "专为教育机构打造的功能，提升学生成功率和营运效率。",
+        "features": {
+          "student": {
+            "title": "学生支援服务",
+            "description": "为学生查询、入学和学术协助提供全面支援",
+            "benefits": {
+              "support": "24/7学生支援",
+              "enrollment": "入学协助",
+              "academic": "学术指导",
+              "technical": "技术支援"
+            }
+          },
+          "admin": {
+            "title": "行政自动化",
+            "description": "透过自动化排程和通知简化行政任务",
+            "benefits": {
+              "scheduling": "课程排程",
+              "events": "活动管理",
+              "deadlines": "截止日期提醒",
+              "registration": "注册支援"
+            }
+          },
+          "stakeholder": {
+            "title": "多方利害关系人支援",
+            "description": "为学生、家长、教职员和工作人员提供客制化体验支援",
+            "benefits": {
+              "portals": "学生入口网站",
+              "parent": "家长沟通",
+              "faculty": "教职员协助",
+              "staff": "职员协调"
+            }
+          },
+          "lms": {
+            "title": "学习管理系统整合",
+            "description": "与学习管理系统平台和教育工具无缝整合",
+            "benefits": {
+              "connectivity": "LMS连接",
+              "grades": "成绩查询",
+              "assignments": "作业协助",
+              "courses": "课程资讯"
+            }
+          }
+        },
+        "stakeholdersTitle": "支援所有利害关系人",
+        "stakeholdersSubtitle": "为您教育社群的每个成员提供客制化体验。",
+        "stakeholders": {
+          "students": {
+            "title": "学生",
+            "description": "学术支援、入学协助和校园服务",
+            "features": {
+              "courses": "课程资讯",
+              "assignments": "作业截止日期",
+              "grades": "成绩查询",
+              "campus": "校园导航"
+            }
+          },
+          "parents": {
+            "title": "家长",
+            "description": "了解学生进度和机构更新",
+            "features": {
+              "progress": "进度更新",
+              "payment": "缴费资讯",
+              "events": "活动通知",
+              "communication": "与教职员沟通"
+            }
+          },
+          "faculty": {
+            "title": "教职员",
+            "description": "行政支援和教学协助",
+            "features": {
+              "management": "班级管理",
+              "inquiries": "学生查询",
+              "resources": "资源请求",
+              "technical": "技术支援"
+            }
+          },
+          "staff": {
+            "title": "职员",
+            "description": "营运效率和行政自动化",
+            "features": {
+              "automation": "流程自动化",
+              "information": "资讯存取",
+              "workflow": "工作流程管理",
+              "reporting": "报告工具"
+            }
+          }
+        },
+        "metricsTitle": "教育影响指标",
+        "metricsSubtitle": "使用SeaChat进行学生和行政支援的教育机构的实际成果。",
+        "metrics": {
+          "admin": {
+            "label": "减少行政工作量",
+            "description": "透过自动化学生查询"
+          },
+          "satisfaction": {
+            "label": "学生满意度",
+            "description": "24/7支援可用性"
+          },
+          "response": {
+            "label": "更快回应时间",
+            "description": "学生和家长查询"
+          },
+          "enrollment": {
+            "label": "入学率增加",
+            "description": "简化申请流程"
+          }
+        },
+        "useCasesTitle": "常见教育使用案例",
+        "useCasesSubtitle": "了解SeaChat如何处理典型的学生和行政互动。",
+        "useCases": {
+          "enrollment": {
+            "title": "学生入学",
+            "description": "引导有意向的学生完成入学流程",
+            "example": "我想申请资讯工程系",
+            "outcome": "逐步入学指导，包含文件要求和截止日期"
+          },
+          "academic": {
+            "title": "学术支援",
+            "description": "提供学术协助和课程资讯",
+            "example": "我的历史作业截止日期是什么时候？",
+            "outcome": "即时存取作业截止日期和提交指南"
+          },
+          "campus": {
+            "title": "校园服务",
+            "description": "协助校园设施、餐饮、住宿和交通",
+            "example": "我如何在图书馆预约读书室？",
+            "outcome": "直接预订系统整合，包含可用性和确认"
+          },
+          "financial": {
+            "title": "经济援助",
+            "description": "协助经济援助申请和奖学金资讯",
+            "example": "我符合哪些奖学金资格？",
+            "outcome": "基于学生资料的个人化奖学金推荐"
+          }
+        },
+        "studentInquiry": "学生查询",
+        "seachatResponse": "SeaChat回应",
+        "integrationsTitle": "教育平台整合",
+        "integrationsSubtitle": "与热门教育工具和平台无缝连接。",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "学习管理系统整合"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "课程管理和内容传递"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "开源学习平台"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "教育协作平台"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "虚拟课程视讯会议"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "教育协作和沟通"
+          },
+          "sis": {
+            "name": "学生资讯系统",
+            "description": "学生记录SIS整合"
+          },
+          "library": {
+            "name": "图书馆系统",
+            "description": "资源预订和目录搜寻"
+          }
+        },
+        "ctaTitle": "准备转变教育支援？",
+        "ctaSubtitle": "加入已使用SeaChat提升学生成功率和简化行政营运的教育机构。",
+        "ctaTrialButton": "免费开始教育方案",
+        "ctaDemoButton": "预约教育演示"
+      },
+      "realEstate": {
+        "title": "房地产解决方案",
+        "subtitle": "透过AI驱动的客户支援转化您的房地产业务，捕捉潜在客户、协调看房，并提供24/7客户协助。",
+        "trialButton": "免费开始房地产服务",
+        "demoButton": "安排房地产示范",
+        "featuresTitle": "房地产专业功能",
+        "featuresSubtitle": "为房地产专业人士量身打造的功能，捕捉潜在客户并更好地服务客户。",
+        "features": {
+          "search": {
+            "title": "物件搜寻协助",
+            "description": "透过AI驱动的搜寻和推荐，协助客户找到完美的物件",
+            "benefits": {
+              "matching": "智慧物件配对",
+              "insights": "市场洞察",
+              "neighborhood": "社区资讯",
+              "analysis": "价格分析"
+            }
+          },
+          "showing": {
+            "title": "看房协调",
+            "description": "透过自动化排程和协调简化物件展示",
+            "benefits": {
+              "scheduling": "自动化排程",
+              "availability": "可用性同步",
+              "reminders": "提醒通知",
+              "route": "路线优化"
+            }
+          },
+          "leads": {
+            "title": "潜在客户管理",
+            "description": "透过智慧资格审核和后续追踪来捕捉和培养潜在客户",
+            "benefits": {
+              "qualification": "潜在客户资格审核",
+              "followup": "自动化后续追踪",
+              "crm": "CRM整合",
+              "tracking": "转换追踪"
+            }
+          },
+          "communication": {
+            "title": "客户沟通",
+            "description": "为咨询、更新和交易协助提供24/7客户支援",
+            "benefits": {
+              "availability": "24/7可用性",
+              "updates": "交易更新",
+              "assistance": "文件协助",
+              "market": "市场更新"
+            }
+          }
+        },
+        "metricsTitle": "房地产影响指标",
+        "metricsSubtitle": "使用SeaChat进行客户支援和潜在客户开发的房地产专业人士的真实成果。",
+        "metrics": {
+          "leads": {
+            "label": "更多合格潜在客户",
+            "description": "透过智慧潜在客户资格审核"
+          },
+          "response": {
+            "label": "更快回应时间",
+            "description": "客户咨询和请求"
+          },
+          "showing": {
+            "label": "看房效率",
+            "description": "透过自动化排程协调"
+          },
+          "satisfaction": {
+            "label": "客户满意度",
+            "description": "透过24/7支援可用性"
+          }
+        },
+        "propertyTypesTitle": "支援所有物件类型",
+        "propertyTypesSubtitle": "无论您专精于住宅、商业或投资物件，我们都能为您提供服务。",
+        "propertyTypes": {
+          "residential": {
+            "name": "住宅销售",
+            "description": "独立住宅、公寓和联排别墅"
+          },
+          "commercial": {
+            "name": "商业房地产",
+            "description": "办公大楼、零售空间和仓库"
+          },
+          "rental": {
+            "name": "租赁物件",
+            "description": "公寓大楼和租赁管理"
+          },
+          "luxury": {
+            "name": "豪华物件",
+            "description": "高端住宅和独家房源"
+          },
+          "investment": {
+            "name": "投资物件",
+            "description": "翻修转售和租赁投资"
+          },
+          "new": {
+            "name": "新建案",
+            "description": "建商合作和新开发案"
+          }
+        },
+        "useCasesTitle": "房地产使用案例",
+        "useCasesSubtitle": "了解SeaChat如何处理典型的房地产客户互动和潜在客户开发。",
+        "useCases": {
+          "property": {
+            "title": "物件咨询",
+            "description": "处理物件问题并提供详细资讯",
+            "example": "告诉我关于橡树街那栋3房住宅的资讯",
+            "outcome": "提供详细物件资讯，包括照片、价格和社区数据"
+          },
+          "showing": {
+            "title": "看房请求",
+            "description": "安排物件看房并与所有相关方协调",
+            "example": "我想安排这个周末看房",
+            "outcome": "根据经纪人可用性进行自动化排程和确认"
+          },
+          "market": {
+            "title": "市场分析",
+            "description": "提供市场洞察和物件估价",
+            "example": "在今天的市场上我的房子值多少钱？",
+            "outcome": "比较市场分析，包括近期销售和趋势"
+          },
+          "transaction": {
+            "title": "交易支援",
+            "description": "引导客户完成买卖流程",
+            "example": "过户需要什么文件？",
+            "outcome": "提供所需文件清单，包含截止日期和说明"
+          }
+        },
+        "clientInquiry": "客户咨询",
+        "seachatResponse": "SeaChat回应",
+        "integrationsTitle": "房地产平台整合",
+        "integrationsSubtitle": "与您已在使用的工具和平台无缝连接来管理房地产业务。",
+        "leadCaptureTitle": "潜在客户捕捉范例",
+        "websiteVisitor": "网站访客",
+        "visitorQuery": "我在找50万美元以下的3房住宅",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "我很乐意协助您找到完美的家！我有几间50万美元以下的3房物件。可以提供您的联络方式，让我寄送一些选项给您吗？",
+        "visitorResponse": "当然！我的Email是john@email.com",
+        "systemAction": "系统操作",
+        "leadCaptured": "潜在客户已捕捉并加入CRM，包含物件偏好",
+        "ctaTitle": "准备转化您的房地产业务吗？",
+        "ctaSubtitle": "加入已在使用SeaChat捕捉更多潜在客户、协调看房并提供卓越客户服务的房地产专业人士。",
+        "ctaTrialButton": "免费开始房地产服务",
+        "ctaDemoButton": "安排房地产示范",
+        "integrations": {
+          "0": "MLS整合",
+          "1": "CRM系统",
+          "2": "物件管理",
+          "3": "潜在客户开发工具",
+          "4": "日历与排程",
+          "5": "电子邮件行销",
+          "6": "文件管理",
+          "7": "虚拟看房平台"
+        }
+      },
+      "saas": {
+        "title": "SaaS与科技",
+        "subtitle": "透过智能客户支援加速用户采用率并减少流失率，提供技术协助、入门指导和积极的成功管理。",
+        "trialButton": "免费开始SaaS服务",
+        "demoButton": "预约SaaS演示",
+        "featuresTitle": "SaaS专属功能",
+        "featuresSubtitle": "专为SaaS公司打造的功能，推动用户成功和业务成长。",
+        "features": {
+          "technical": {
+            "title": "技术支援",
+            "description": "为软体问题和整合提供专业技术协助",
+            "benefits": {
+              "api": "API文件协助",
+              "integration": "整合支援",
+              "troubleshooting": "疑难排解指南",
+              "resources": "开发者资源"
+            }
+          },
+          "onboarding": {
+            "title": "用户入门",
+            "description": "透过引导设置和功能介绍简化用户入门流程",
+            "benefits": {
+              "tutorials": "互动教学",
+              "walkthroughs": "功能导览",
+              "setup": "设置协助",
+              "practices": "最佳实务"
+            }
+          },
+          "success": {
+            "title": "客户成功",
+            "description": "透过积极支援推动产品采用率并减少流失率",
+            "benefits": {
+              "analytics": "使用分析",
+              "adoption": "功能采用",
+              "churn": "流失预防",
+              "upselling": "向上销售机会"
+            }
+          },
+          "security": {
+            "title": "安全性与合规",
+            "description": "解决安全问题和合规要求",
+            "benefits": {
+              "documentation": "安全文件",
+              "compliance": "合规指南",
+              "protection": "资料保护",
+              "audit": "稽核支援"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "API整合协助",
+            "description": "协助开发者进行API实作和疑难排解",
+            "example": "我该如何使用你们的API进行验证？",
+            "outcome": "提供程式码范例和测试工具的逐步验证指南"
+          },
+          "feature": {
+            "title": "功能指导",
+            "description": "协助用户探索和实作进阶功能",
+            "example": "我该如何设置自动化工作流程？",
+            "outcome": "提供工作流程模板和配置协助的互动教学"
+          },
+          "billing": {
+            "title": "计费与订阅",
+            "description": "处理计费查询和订阅管理",
+            "example": "我想升级方案，有什么差别？",
+            "outcome": "提供价格详情和升级协助的方案比较"
+          },
+          "performance": {
+            "title": "效能优化",
+            "description": "提供软体效能优化指导",
+            "example": "我的仪表板载入很慢，该如何修复？",
+            "outcome": "效能分析与优化建议和实作协助"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "减少支援工单",
+            "description": "透过自助服务自动化"
+          },
+          "onboarding": {
+            "label": "加快入门速度",
+            "description": "透过引导设置协助"
+          },
+          "adoption": {
+            "label": "提高功能采用率",
+            "description": "透过积极功能指导"
+          },
+          "churn": {
+            "label": "降低流失率",
+            "description": "透过积极客户成功管理"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "B2B SaaS平台",
+            "description": "企业软体和商业工具",
+            "features": {
+              "tenant": "多租户支援",
+              "security": "企业安全",
+              "api": "API文件",
+              "assistance": "整合协助"
+            }
+          },
+          "developer": {
+            "title": "开发者工具",
+            "description": "API、SDK和开发平台",
+            "features": {
+              "examples": "程式码范例",
+              "documentation": "技术文件",
+              "debugging": "除错协助",
+              "community": "社群支援"
+            }
+          },
+          "marketing": {
+            "title": "行销软体",
+            "description": "行销自动化和分析工具",
+            "features": {
+              "campaign": "活动设置",
+              "analytics": "分析指导",
+              "integration": "整合协助",
+              "practices": "最佳实务"
+            }
+          },
+          "productivity": {
+            "title": "生产力应用",
+            "description": "协作和生产力软体",
+            "features": {
+              "tutorials": "功能教学",
+              "workflow": "工作流程优化",
+              "team": "团队设置",
+              "usage": "使用分析"
+            }
+          },
+          "ecommerce": {
+            "title": "电商平台",
+            "description": "线上商店和支付解决方案",
+            "features": {
+              "store": "商店设置",
+              "payment": "支付整合",
+              "theme": "主题客制化",
+              "performance": "效能优化"
+            }
+          },
+          "analytics": {
+            "title": "分析平台",
+            "description": "资料分析和商业智慧",
+            "features": {
+              "dashboard": "仪表板建立",
+              "data": "资料整合",
+              "report": "报告产生",
+              "visualization": "视觉化协助"
+            }
+          }
+        },
+        "typesTitle": "支援所有SaaS类别",
+        "typesSubtitle": "从企业平台到开发者工具，我们支援每种类型的SaaS业务。",
+        "impactTitle": "SaaS业务影响",
+        "impactSubtitle": "使用SeaChat进行客户支援和成功管理的SaaS公司的实际成果。",
+        "useCasesTitle": "SaaS支援使用案例",
+        "useCasesSubtitle": "了解SeaChat如何处理典型的SaaS客户互动和技术支援。",
+        "userQuestion": "用户问题",
+        "seachatResponse": "SeaChat回应",
+        "integrationsTitle": "SaaS平台整合",
+        "integrationsSubtitle": "与为您的SaaS业务提供动力的工具和平台连接，实现统一的客户成功营运。",
+        "successFlowTitle": "客户成功流程",
+        "flow": {
+          "onboarding": {
+            "title": "用户入门",
+            "description": "引导设置和功能介绍"
+          },
+          "adoption": {
+            "title": "功能采用",
+            "description": "积极功能建议"
+          },
+          "monitoring": {
+            "title": "使用监控",
+            "description": "追踪参与度并识别问题"
+          },
+          "growth": {
+            "title": "成功与成长",
+            "description": "向上销售和扩展机会"
+          }
+        },
+        "ctaTitle": "准备加速SaaS成长？",
+        "ctaSubtitle": "加入已使用SeaChat推动用户采用率、减少流失率并加速客户成功的SaaS公司。",
+        "ctaTrialButton": "免费开始SaaS服务",
+        "ctaDemoButton": "预约SaaS演示",
+        "integrations": {
+          "0": "Slack整合",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "AWS服务"
+        }
+      },
+      "smallBusiness": {
+        "title": "小型企业解决方案",
+        "subtitle": "为小型企业提供价格实惠、易于使用的客户支援。免费开始，随著您的业务成长而成长，帮助您更好地服务客户而不会超出预算。",
+        "startButton": "立即免费开始",
+        "demoButton": "查看小型企业演示",
+        "featuresTitle": "为小型企业成功而建",
+        "featuresSubtitle": "小型企业提供专业客户支援所需的一切，无需复杂性或成本。",
+        "features": {
+          "local": {
+            "title": "本地企业支援",
+            "description": "适合本地商店、餐厅和服务提供商",
+            "benefits": {
+              "seo": "本地 SEO 优化",
+              "google": "Google 我的商家整合",
+              "reviews": "评论管理",
+              "customer": "本地客户群"
+            }
+          },
+          "cost": {
+            "title": "成本效益解决方案",
+            "description": "随著您的业务成长的实惠定价",
+            "benefits": {
+              "free": "提供免费方案",
+              "setup": "无设置费用",
+              "pricing": "弹性定价",
+              "roi": "ROI 追踪"
+            }
+          },
+          "setup": {
+            "title": "快速设置",
+            "description": "在几分钟内开始，而不是几小时或几天",
+            "benefits": {
+              "minutes": "5 分钟设置",
+              "templates": "预建模板",
+              "integration": "简易整合",
+              "activation": "即时启用"
+            }
+          },
+          "personal": {
+            "title": "个人化服务",
+            "description": "在高效扩展的同时保持个人关系",
+            "benefits": {
+              "history": "客户历史记录",
+              "notes": "个人备注",
+              "relationship": "关系建立",
+              "community": "本地社区焦点"
+            }
+          }
+        },
+        "typesTitle": "适合每种小型企业",
+        "typesSubtitle": "从零售店到专业服务，我们支援所有类型的小型企业。",
+        "types": {
+          "retail": {
+            "title": "零售店",
+            "description": "服装、电子产品、家居用品和专业商店",
+            "features": {
+              "product": "产品咨询",
+              "hours": "营业时间",
+              "inventory": "库存查询",
+              "appointment": "预约预订"
+            }
+          },
+          "restaurants": {
+            "title": "餐厅和咖啡厅",
+            "description": "用餐场所和餐饮服务企业",
+            "features": {
+              "menu": "菜单问题",
+              "reservations": "订位",
+              "takeout": "外带订单",
+              "dietary": "饮食资讯"
+            }
+          },
+          "professional": {
+            "title": "专业服务",
+            "description": "律师、会计师、顾问和代理商",
+            "features": {
+              "consultation": "咨询预订",
+              "service": "服务资讯",
+              "documents": "文件请求",
+              "followup": "后续排程"
+            }
+          },
+          "health": {
+            "title": "健康与养生",
+            "description": "健身房、spa、诊所和养生中心",
+            "features": {
+              "appointment": "预约排程",
+              "class": "课程预订",
+              "membership": "会员资讯",
+              "consultations": "健康咨询"
+            }
+          },
+          "home": {
+            "title": "居家服务",
+            "description": "承包商、清洁工、园艺师和维修服务",
+            "features": {
+              "quotes": "服务报价",
+              "scheduling": "排程",
+              "emergency": "紧急请求",
+              "followup": "后续支援"
+            }
+          },
+          "creative": {
+            "title": "创意服务",
+            "description": "摄影师、设计师、艺术家和工作室",
+            "features": {
+              "portfolio": "作品集分享",
+              "quotes": "专案报价",
+              "booking": "预订会议",
+              "consultations": "创意咨询"
+            }
+          }
+        },
+        "affordableTitle": "适合每个预算",
+        "affordableSubtitle": "完全免费开始，随著您的成长只为您需要的功能付费。无隐藏费用，无长期合约，无意外。",
+        "pricingTitle": "简单定价",
+        "pricing": {
+          "free": {
+            "title": "永久免费",
+            "period": "每月",
+            "agent": "终身 1 位人工专员",
+            "conversations": "无限对话",
+            "widget": "基本网站小工具",
+            "support": "电子邮件支援"
+          },
+          "starter": {
+            "title": "AI 入门版",
+            "period": "每月",
+            "everything": "免费版的所有功能",
+            "ai": "AI 自动化",
+            "analytics": "进阶分析",
+            "priority": "优先支援"
+          }
+        },
+        "resultsTitle": "小型企业成果",
+        "resultsSubtitle": "使用 SeaChat 改善客户服务并发展业务的小型企业的真实成果。",
+        "metrics": {
+          "inquiries": {
+            "label": "更多客户咨询",
+            "description": "透过 24/7 可用性"
+          },
+          "bookings": {
+            "label": "增加预订",
+            "description": "透过自动排程"
+          },
+          "time": {
+            "label": "节省时间",
+            "description": "处理常规客户问题"
+          },
+          "satisfaction": {
+            "label": "客户满意度",
+            "description": "透过即时回应"
+          }
+        },
+        "scenariosTitle": "常见小型企业场景",
+        "scenariosSubtitle": "了解 SeaChat 如何处理典型的小型企业客户互动。",
+        "useCases": {
+          "inquiries": {
+            "title": "客户咨询",
+            "description": "处理关于产品、服务和营业时间的常见问题",
+            "example": "你们周日有营业吗？几点关门？",
+            "outcome": "即时回应当前营业时间和假日排程资讯"
+          },
+          "booking": {
+            "title": "预约预订",
+            "description": "允许客户直接预订约会和服务",
+            "example": "我需要预约这个周五下午的理发",
+            "outcome": "即时可用性检查，并提供预订确认和提醒"
+          },
+          "product": {
+            "title": "产品资讯",
+            "description": "提供详细的产品资讯和供应情况",
+            "example": "你们有蓝色的 iPhone 15 吗？",
+            "outcome": "产品供应情况检查，并提供定价和预订选项"
+          },
+          "directions": {
+            "title": "本地路线",
+            "description": "帮助客户找到您的位置并获得路线指引",
+            "example": "我要怎么从市中心到你们店里？",
+            "outcome": "互动式地图，提供路线指引和停车资讯"
+          }
+        },
+        "customerQuestion": "客户问题",
+        "seachatResponse": "SeaChat 回应",
+        "ctaTitle": "准备好发展您的小型企业了吗？",
+        "ctaSubtitle": "加入数千家已经在使用 SeaChat 提供专业客户支援并发展业务的小型企业，无需大企业的成本。",
+        "ctaStartButton": "免费开始小型企业",
+        "ctaDemoButton": "预约小型企业演示",
+        "affordableFeatures": [
+          "永久完全免费开始",
+          "无设置或入门费用",
+          "只为您使用的功能付费",
+          "随时取消，无合约",
+          "随著您的成长调整定价",
+          "免费迁移协助",
+          "包含 24/7 电子邮件支援",
+          "30 天退款保证"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "旅游预订流程",
+        "ctaDemoButton": "安排旅游演示",
+        "ctaSubtitle": "加入已经在使用 SeaChat 提供卓越客户服务并简化全球预订流程的旅游公司。",
+        "ctaTitle": "准备好转变旅游体验了吗？",
+        "ctaTrialButton": "免费开始旅游服务",
+        "demoButton": "安排旅游演示",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "即时可用性",
+              "cancellation": "取消支援",
+              "comparisons": "价格比较",
+              "modifications": "预订修改"
+            },
+            "description": "透过即时可用性协助客户进行航班、饭店和活动预订",
+            "title": "预订协助"
+          },
+          "management": {
+            "benefits": {
+              "documents": "文件管理",
+              "loyalty": "会员计划",
+              "reminders": "提醒通知",
+              "tracking": "行程追踪"
+            },
+            "description": "从预订到旅行后追踪的全面行程管理",
+            "title": "行程管理"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "目的地洞察",
+              "itinerary": "行程创建",
+              "recommendations": "当地推荐",
+              "weather": "天气更新"
+            },
+            "description": "提供个人化旅游建议和行程规划",
+            "title": "旅游规划"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "紧急协助",
+              "multilanguage": "多语言帮助",
+              "timezone": "全球时区支援",
+              "updates": "即时更新"
+            },
+            "description": "为跨越不同时区的旅客提供全天候协助",
+            "title": "24/7 旅游支援"
+          }
+        },
+        "featuresSubtitle": "为旅游和酒店业务量身打造的功能，以增强客户体验。",
+        "featuresTitle": "旅游业特色功能",
+        "flow": {
+          "assistance": {
+            "description": "引导预订及付款处理",
+            "title": "预订协助"
+          },
+          "confirmation": {
+            "description": "预订确认及持续支援",
+            "title": "确认与支援"
+          },
+          "inquiry": {
+            "description": "客户询问旅游选项",
+            "title": "旅游咨询"
+          },
+          "search": {
+            "description": "AI 跨多个系统搜寻",
+            "title": "即时搜寻"
+          }
+        },
+        "impactSubtitle": "使用 SeaChat 进行客户支援和预订协助的旅游公司的真实结果。",
+        "impactTitle": "旅游业影响",
+        "integrationsSubtitle": "无缝连接旅游预订系统、GDS 平台和酒店管理工具，实现统一营运。",
+        "integrationsTitle": "旅游业整合",
+        "metrics": {
+          "booking": {
+            "description": "透过 AI 辅助搜寻和预订",
+            "label": "更快的预订过程",
+            "value": "60%"
+          },
+          "call": {
+            "description": "透过自动化旅游协助",
+            "label": "减少通话量",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "针对旅游相关查询",
+            "label": "问题解决率",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "description": "透过 24/7 旅游支援服务",
+            "label": "客户满意度",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "SeaChat 回应",
+        "services": {
+          "agencies": {
+            "description": "全面的旅游规划和预订服务",
+            "features": {
+              "deals": "套装优惠",
+              "groups": "团体预订",
+              "insurance": "旅游保险",
+              "itineraries": "客制化行程"
+            },
+            "title": "旅行社"
+          },
+          "airlines": {
+            "description": "航班预订、报到和旅行更新",
+            "features": {
+              "baggage": "行李追踪",
+              "loyalty": "会员计划",
+              "seat": "选位服务",
+              "status": "航班状态"
+            },
+            "title": "航空公司"
+          },
+          "car": {
+            "description": "车辆租赁协助和支援",
+            "features": {
+              "availability": "车辆可用性",
+              "insurance": "保险选项",
+              "locations": "取车地点",
+              "roadside": "道路救援"
+            },
+            "title": "汽车租赁"
+          },
+          "cruise": {
+            "description": "邮轮预订和船上服务",
+            "features": {
+              "cabin": "舱房选择",
+              "dining": "餐厅预订",
+              "entertainment": "娱乐预订",
+              "shore": "岸上观光"
+            },
+            "title": "邮轮公司"
+          },
+          "hotels": {
+            "description": "饭店预订和住客服务",
+            "features": {
+              "amenity": "设施资讯",
+              "booking": "房间预订",
+              "loyalty": "会员奖励",
+              "requests": "特殊要求"
+            },
+            "title": "饭店与住宿"
+          },
+          "tour": {
+            "description": "导览旅游和活动预订",
+            "features": {
+              "availability": "旅游可用性",
+              "equipment": "设备租赁",
+              "guides": "当地导游",
+              "sizes": "团体人数"
+            },
+            "title": "旅游业者"
+          }
+        },
+        "servicesSubtitle": "从航空公司到饭店，汽车租赁到邮轮 - 我们支援旅游的各个方面。",
+        "servicesTitle": "涵盖所有旅游服务",
+        "subtitle": "透过 AI 驱动的客户支援转变旅游体验，处理预订、提供 24/7 协助，为您的客户创造难忘的旅程。",
+        "title": "旅游与酒店业",
+        "travelerRequest": "旅客要求",
+        "trialButton": "免费开始旅游服务",
+        "useCases": {
+          "destination": {
+            "description": "提供旅游建议、当地洞察和目的地推荐",
+            "example": "巴黎有哪些最好的餐厅？",
+            "outcome": "精选餐厅推荐，包含订位和当地洞察",
+            "title": "目的地资讯"
+          },
+          "disruptions": {
+            "description": "处理航班延误、取消和重新预订协助",
+            "example": "我的航班被取消了，我有什么选择？",
+            "outcome": "立即重新预订协助，提供替代航班和补偿资讯",
+            "title": "旅游中断"
+          },
+          "documentation": {
+            "description": "协助处理签证要求、护照资讯和旅行文件",
+            "example": "我去日本旅游需要签证吗？",
+            "outcome": "全面的签证要求，包含申请流程和时间表",
+            "title": "旅行文件"
+          },
+          "flight": {
+            "description": "协助航班预订、变更和取消",
+            "example": "我需要将周二的航班改到周四",
+            "outcome": "即时航班可用性检查，提供重新预订选项和费用资讯",
+            "title": "航班预订与变更"
+          }
+        },
+        "useCasesSubtitle": "了解 SeaChat 如何处理典型的旅游查询和预订协助。",
+        "useCasesTitle": "旅游支援使用案例",
+        "integrations": {
+          "0": "GDS 系统 (Amadeus, Sabre, Galileo)",
+          "1": "航空公司预订系统",
+          "2": "饭店预订系统",
+          "3": "汽车租赁平台",
+          "4": "旅游保险提供商",
+          "5": "付款处理系统"
+        }
+      }
+    },
+    "channels": {
+      "title": "连接每个客户渠道",
+      "description": "在一个平台中统一您所有的客户通讯。从 WhatsApp 到电话、简讯到社交媒体 - 从单一仪表板管理每个对话。",
+      "whatsapp": {
+        "title": "WhatsApp Business Platform",
+        "description": "在全球最受欢迎的讯息平台上与客户联系"
+      },
+      "voice": {
+        "title": "语音和电话",
+        "description": "具有 AI 语音机器人和人工专员支援的专业电话系统"
+      },
+      "sms": {
+        "title": "简讯",
+        "description": "透过个人化简讯活动即时触达客户"
+      },
+      "website": {
+        "title": "网站聊天小工具",
+        "description": "透过 AI 驱动的聊天将网站访客转化为对话"
+      },
+      "cta": {
+        "exploreAll": "探索所有渠道",
+        "subtitle": "了解所有 9 个渠道如何无缝协同工作"
+      }
+    },
+    "comparison": {
+      "title": "为什么成长中的企业选择 Seasalt.ai 而不是其他替代方案",
+      "description": "看看我们与其他解决方案的比较。我们是唯一一个以小型企业的简单性提供企业级功能的平台。",
+      "recommended": "推荐",
+      "table": {
+        "headers": {
+          "platform": "平台",
+          "startingPrice": "起始价格",
+          "pricingModel": "定价模式",
+          "unifiedVoiceDigital": "统一语音和数位",
+          "aiCapabilities": "AI 能力",
+          "bestFor": "最适合"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "每个专员每月 $20",
+          "pricingModel": "简单的每位使用者计费",
+          "unifiedVoiceDigital": "✅ 是，原生",
+          "aiCapabilities": "✅ 是，原生语音和对话机器人",
+          "bestFor": "需要价格实惠、真正多合一平台的中小企业。"
+        },
+        "aircall": {
+          "startingPrice": "每位使用者每月 $30",
+          "pricingModel": "每位使用者 + 附加功能",
+          "unifiedVoiceDigital": "⚠️ 语音 + WhatsApp (附加功能)",
+          "aiCapabilities": "⚠️ AI 是付费附加功能",
+          "bestFor": "能够负担多个附加功能并满足 3 位使用者最低要求的销售团队。"
+        },
+        "ringcentral": {
+          "startingPrice": "每个专员每月 $65",
+          "pricingModel": "复杂的层级",
+          "unifiedVoiceDigital": "❌ 独立的产品",
+          "aiCapabilities": "✅ 是 (AI 驱动的 CCaaS)",
+          "bestFor": "需要具有独立 CCaaS 的广泛 UCaaS 平台的大公司。"
+        },
+        "genesys": {
+          "startingPrice": "每位使用者每月 $75",
+          "pricingModel": "每位使用者 + 高最低消费",
+          "unifiedVoiceDigital": "✅ 是 (在较高等级中)",
+          "aiCapabilities": "✅ 是 (复杂的代币系统)",
+          "bestFor": "拥有专门联络中心团队和预算的大型企业。"
+        },
+        "five9": {
+          "startingPrice": "每位使用者每月 $119",
+          "pricingModel": "每位使用者 + 套餐",
+          "unifiedVoiceDigital": "✅ 是 (在高级层级中)",
+          "aiCapabilities": "✅ 是 (进阶 AI)",
+          "bestFor": "需要企业级工具的大型、重外拨的联络中心。"
+        },
+        "googleVoice": {
+          "startingPrice": "每位使用者每月 $10",
+          "pricingModel": "每位使用者 + Workspace 费用",
+          "unifiedVoiceDigital": "❌ 否",
+          "aiCapabilities": "❌ 否 (仅语音信箱转录)",
+          "bestFor": "需要基本、独立电话号码的个人创业者 (仅限美国)。"
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "查看所有详细比较"
+      }
+    },
+    "footer": {
+      "product": "产品",
+      "company": {
+        "productWiki": "产品 Wiki",
+        "apiReferences": "API 参考",
+        "careers": "工作机会",
+        "title": "公司",
+        "about": "关于我们"
+      },
+      "resources": "资源",
+      "legal": {
+        "privacyPolicy": "隐私权政策",
+        "termsOfService": "服务条款"
+      },
+      "getStarted": "准备好开始了吗？",
+      "joinThousands": "加入数千家已经在使用 SeaChat 提供卓越客户体验的企业。",
+      "enterEmail": "输入您的电子邮件",
+      "noCredit": "无需信用卡 • 2 分钟内完成设定 • 随时取消",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. 保留所有权利。",
+      "compliance": "🔒 符合 SOC 2",
+      "gdpr": "🛡️ 符合 GDPR",
+      "uptime": "⚡ 99.9% 正常运行时间",
+      "brand": {
+        "description": "透过人工专员与 AI 自动化的完美结合转变您的客户支援。免费开始，智能扩展，更快成功。"
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "西雅图，华盛顿州"
+      },
+      "stats": {
+        "messagesDaily": "每日 500 万+ 讯息",
+        "activeUsers": "10 万+ 活跃用户",
+        "uptime": "99.9% 正常运行时间"
+      },
+      "cta": {
+        "title": "准备好转变您的客户支援了吗？",
+        "description": "加入数千家使用 SeaChat 透过 AI 驱动的聊天支援提供卓越客户体验的企业。",
+        "signUpFree": "免费注册",
+        "scheduleDemo": "安排演示",
+        "disclaimer": "无需信用卡 • 2 分钟内设定 • 随时取消"
+      }
+    },
+    "featureComparison": {
+      "title": "为什么选择 SeaChat 而不是竞争对手？",
+      "subtitle": "了解 SeaChat 如何用一个全面的平台取代多个工具。在获得更多功能的同时节省资金。",
+      "valueTitle": "您获得的价值：",
+      "totalValue": "每月 $331 或更多",
+      "competitorTotal": "来自竞争对手的总价值",
+      "priceTitle": "您支付的价格：",
+      "seachatPrice": "每月 $29.99",
+      "seachatAll": "包含所有功能",
+      "seeDetailedPricing": "查看详细定价",
+      "ctaTitle": "准备好体验 SeaChat 的优势了吗？",
+      "ctaSubtitle": "加入数千家选择了更智慧、更实惠解决方案的企业。",
+      "startFree": "立即免费开始",
+      "bookDemo": "预约演示",
+      "features": {
+        "chatbotWebsite": "网站对话机器人",
+        "chatWidget": "带有即时专员的聊天小工具",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "多日历预约",
+        "phoneCallAI": "来电 AI 智能体",
+        "smsActions": "内建操作 - 简讯",
+        "emailActions": "内建操作 - 电子邮件",
+        "phoneNumber": "购买电话号码",
+        "agencyMode": "代理模式",
+        "bulkSMS": "批量外拨简讯、电话、WhatsApp",
+        "unlimitedContacts": "无限联络人",
+        "knowledgeBase": "额外知识库",
+        "extraChatbot": "额外对话机器人"
+      },
+      "table": {
+        "headers": {
+          "features": "功能",
+          "replaces": "取代工具",
+          "otherTools": "其他工具",
+          "seachat": "SeaChat"
+        },
+        "total": "总计",
+        "totalPrice": "每月 $331 或更多",
+        "seachatPrice": "每月 $29.99",
+        "explanations": {
+          "valueYouGet": "↑ 您获得的价值",
+          "priceYouWouldPay": "↑ 您原本需要支付的价格",
+          "priceYouPay": "↑ 您实际支付的价格"
+        }
+      },
+      "mobile": {
+        "replaces": "取代工具：",
+        "otherTools": "其他工具：",
+        "seachat": "SeaChat：",
+        "otherToolsTotal": "其他工具总计：",
+        "seachatTotal": "SeaChat 总计：",
+        "totalPrice": "每月 $331+",
+        "seachatTotalPrice": "每月 $29.99",
+        "priceYouWouldPay": "↑ 您原本需要支付的价格",
+        "priceYouPay": "↑ 您实际支付的价格"
+      },
+      "uniqueToSeachat": "独有功能",
+      "pricing": {
+        "chatbotWebsite": "每月 $99",
+        "chatWidget": "每个客服每月 $23",
+        "whatsappMessenger": "每个用户每月 $89",
+        "multiCalendar": "每个席位每月 $10",
+        "phoneCallAI": "每月 $29",
+        "smsActions": "每月 $59",
+        "emailActions": "每月 $20",
+        "phoneNumber": "每月 $2 至 $3",
+        "unlimitedContacts": "每 1 万联络人 $65",
+        "knowledgeBase": "每个额外知识库 $8",
+        "extraChatbot": "每个额外聊天机器人 $7"
+      },
+      "seachatValues": {
+        "agencyMode": "多个工作空间 - 每个客户一个工作空间",
+        "bulkSMS": "与 Seasalt.ai 的 SeaX 整合",
+        "unlimitedContacts": "无限制",
+        "knowledgeBase": "5,000 份文件或 5,000 万个 token",
+        "extraChatbot": "10 个机器人 × 5 个频道 = 50 个频道机器人"
+      },
+      "replaces": {
+        "uniqueToSeachat": "SeaChat 独有"
+      }
+    }
+  }
+}

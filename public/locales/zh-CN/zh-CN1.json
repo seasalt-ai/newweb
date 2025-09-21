@@ -1,0 +1,1723 @@
+{
+  "header": {
+    "products": "产品",
+    "solutions": "解决方案",
+    "industries": "产业",
+    "channels": "渠道",
+    "pricing": "定价",
+    "compareUs": "产品比较",
+    "blog": "部落格",
+    "login": "登入",
+    "startForFree": "免费开始",
+    "backToChannels": "返回所有渠道",
+    "allChannelsOverview": "所有渠道总览",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - 优化医疗保健",
+      "useCases": "使用案例"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "适用于销售和行销",
+      "customerSupport": "适用于客户支援",
+      "aiAutomation": "AI 和自动化",
+      "smeOwners": "适用于中小企业主"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "电话通话",
+      "sms": "简讯",
+      "websiteChat": "网站聊天",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "联络表单",
+      "line": "Line",
+      "websiteWidget": "网站小工具"
+    },
+    "comparisonsDropdown": {
+      "title": "比较",
+      "allComparisonsOverview": "所有比较总览"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "所有比较总览"
+    },
+    "signIn": "登入"
+  },
+  "footer": {
+    "company": {
+      "title": "公司",
+      "contact": "联络我们",
+      "about": "关于我们",
+      "careers": "工作机会"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. 保留所有权利。",
+    "privacyPolicy": "隐私权政策",
+    "termsOfService": "服务条款",
+    "security": "安全性",
+    "compliance": {
+      "soc2": "符合 SOC 2",
+      "hipaa": "可提供 HIPAA",
+      "uptime": "99.9% 正常运行时间"
+    },
+    "cta": {
+      "title": "准备好将您的外联规模扩展到数百万吗？",
+      "startFreeTrial": "免费注册",
+      "scheduleDemo": "安排演示",
+      "subtitle": "加入数千家使用 SeaX 的公司，触达更多客户，产生更多潜在客户，实现更快增长。",
+      "signUpNow": "立即注册"
+    },
+    "tagline": "为小型企业打造的多合一联络中心。自动化支援，捕捉每个潜在客户，并统一您所有的客户对话。",
+    "seahealth": "SeaHealth - 优化医疗保健",
+    "productWiki": "产品 Wiki",
+    "apiReferences": "API 参考",
+    "madeWith": {
+      "text": "用",
+      "inCityOf": "在这座城市制作"
+    },
+    "inCityOf": "在",
+    "description": {
+      "company": "即时触达数百万用户。发送数百万条简讯、WhatsApp 讯息和自动电话的终极平台。填充您的销售管道，推动营收，扩展您的业务。"
+    },
+    "section": {
+      "channels": "渠道",
+      "solutions": "解决方案",
+      "industries": "产业"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "简讯总览",
+        "smsLocal": "本地号码 (10DLC)",
+        "smsTollFree": "免付费电话号码",
+        "smsShortCode": "短码",
+        "whatsapp": "WhatsApp 商业平台",
+        "voice": "电话语音"
+      },
+      "solutions": {
+        "leadGeneration": "潜在客户开发",
+        "marketingAutomation": "行销自动化",
+        "customerEngagement": "客户参与",
+        "appointmentReminders": "预约提醒",
+        "emergencyAlerts": "紧急警报"
+      },
+      "industries": {
+        "ecommerceRetail": "电子商务与零售",
+        "realEstate": "房地产",
+        "politicalCampaigns": "政治竞选",
+        "healthcare": "医疗保健",
+        "financialServices": "金融服务"
+      },
+      "company": {
+        "features": "功能特色",
+        "pricing": "定价",
+        "productWiki": "产品 Wiki",
+        "apiReferences": "API 参考",
+        "careers": "工作机会"
+      }
+    },
+    "stats": {
+      "messagesDaily": "每日 1000 万+ 讯息",
+      "activeUsers": "50 万+ 活跃用户",
+      "uptime": "99.9% 正常运行时间"
+    },
+    "legal": {
+      "privacyPolicy": "隐私权政策",
+      "termsOfService": "服务条款"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "西雅图，华盛顿州"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "停止应付多个应用程式",
+      "line2": "将每个客户的",
+      "line3": "通话、WhatsApp 和聊天",
+      "line4": "统一在一个简单的收件匣中。"
+    },
+    "titleWithGradient": "停止应付多个应用程式。 <1>统一每个客户的</1> 通话、简讯、WhatsApp 和聊天于一个简单的收件匣中。",
+    "description": "Seasalt.ai 是为小型企业打造的多合一联络中心。自动化支援，捕捉每个潜在客户，并从单一萤幕管理所有对话。",
+    "signUp": "免费注册",
+    "seeDemo": "预约演示",
+    "trustedBy": "受到全球成长中企业的信赖",
+    "developerMessage": "Seasalt.ai 为开发者带来一个智能体通讯工具，用于以下<1>工具使用</1>：",
+    "developerTools": {
+      "phoneUse": "电话使用",
+      "messageUse": "讯息使用",
+      "emailUse": "电子邮件使用",
+      "meetingUse": "会议使用"
+    },
+    "unifiedInbox": "统一收件匣",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "简讯",
+      "phone": "电话",
+      "chat": "聊天"
+    }
+  },
+  "features": {
+    "mainTitle": "为中小企业设计的全渠道智能客服中心",
+    "mainDescription": "在所有渠道上无缝融合 AI 自动化与人工专业知识。赋予您的团队提供卓越服务并推动增长的能力。",
+    "omniChannel": {
+      "title": "统一全渠道收件匣",
+      "description": "不错过任何潜在客户。在一个统一的视图中查看每个渠道的每个客户互动，实现无缝的人机协作，每周为您的团队节省5小时以上。"
+    },
+    "aiVoicebot": {
+      "title": "AI 语音机器人与对话机器人",
+      "description": "您的第一位数位员工全天候工作。自动化高达80%的常规查询，每天预约5个以上的会议，并在需要时无缝转接给人工专员。"
+    },
+    "voiceWhatsapp": {
+      "title": "原生语音和 WhatsApp 整合",
+      "description": "在客户偏好的渠道上无缝为他们服务。当他们打电话时，即时查看 WhatsApp 聊天记录。"
+    },
+    "outboundMarketing": {
+      "title": "外拨行销活动",
+      "description": "创建无缝、闭环的客户旅程。在同一平台上发起有针对性的活动并管理所有回复。"
+    },
+    "enterpriseSecurity": {
+      "title": "企业级安全",
+      "description": "符合 HIPAA 标准的解决方案，具有银行级加密。相信您的客户数据始终受到保护。"
+    },
+    "predictablePricing": {
+      "title": "简单可预测的定价",
+      "description": "有信心地规划预算。透明的定价意味著您确切知道每月要支付多少费用。"
+    },
+    "testimonial": {
+      "quote": "我推荐 Seasalt.ai，因为它强大的知识库系统和全渠道支援！",
+      "author": "— 解决方案架构师评论"
+    },
+    "knowledgeBase": {
+      "title": "知识库"
+    }
+  },
+  "howItWorks": {
+    "title": "三步骤轻松开始",
+    "description1": "在几分钟内改变您的客户沟通，而不是几个月。",
+    "description2": "无需复杂的设定或技术知识。",
+    "connectYourChannels": {
+      "title": "连接您的渠道",
+      "description": "在几分钟内连接您的电话、WhatsApp、简讯、网站聊天和社交媒体。无需技术专业知识。"
+    },
+    "automateRoutineWork": {
+      "title": "自动化日常工作",
+      "description": "设定 AI 处理常见问题，如「我的订单在哪里？」，并自动预约会议。"
+    },
+    "unifyYourTeam": {
+      "title": "统一您的团队",
+      "description": "当客户从聊天切换到电话时，您的团队可以看到完整的对话历史记录。"
+    },
+    "signUpNow": "立即注册",
+    "setupTime": "5分钟内完成设定"
+  },
+  "useCases": {
+    "title": "满足各种业务需求的强大用例",
+    "description": "从联络中心到行销活动，了解 Seasalt.ai 如何以企业级功能适应您特定的业务需求，并整合在一个简单、统一的平台中。",
+    "keyFeatures": "主要功能",
+    "contactCenter": {
+      "title": "联络中心运营",
+      "headline": "具备完整通话管理的专业联络中心",
+      "description": "将您的业务转变为具备企业级功能的专业联络中心。",
+      "features": {
+        "ivr": "用于通话路由的进阶 IVR 系统",
+        "recording": "自动通话录音和转录",
+        "voicemail": "带有通知的智慧语音信箱",
+        "analytics": "即时通话分析和报告",
+        "dashboards": "专员绩效仪表板",
+        "queueManagement": "通话队列管理"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "24/7 虚拟接待员",
+      "headline": "透过 AI 驱动的接待，再也不会错过任何一通电话",
+      "description": "部署一个全天候工作的智慧语音机器人，以捕捉来电并筛选潜在客户。",
+      "features": {
+        "aiVoicebot": "AI 语音机器人 24/7 接听电话",
+        "appointments": "预约和排程",
+        "leadQualification": "潜在客户资格审核和路由",
+        "customGreeting": "自订问候语和回应",
+        "handoff": "无缝转接给人工专员",
+        "multiLanguage": "多语言支援"
+      }
+    },
+    "smsManagement": {
+      "title": "统一简讯管理",
+      "headline": "在一个平台上管理多条电话线路和双向简讯",
+      "description": "将您所有的业务电话线路和简讯通讯整合到一个强大的平台中。",
+      "features": {
+        "multipleLines": "一个仪表板中的多条电话线路",
+        "twoWaySms": "双向简讯对话",
+        "unifiedHistory": "统一的简讯和通话历史记录",
+        "teamCollaboration": "团队协作处理讯息",
+        "automatedResponses": "自动简讯回应",
+        "numberSupport": "本地和免付费电话号码支援"
+      }
+    },
+    "smsMarketing": {
+      "title": "简讯行销活动",
+      "headline": "使用 10DLC 和免付费电话发起强大的 A2P 简讯活动",
+      "description": "执行具有高送达率和合规性的专业简讯行销活动。",
+      "features": {
+        "tenDlc": "10DLC 注册活动",
+        "tollFree": "免付费和短码支援",
+        "highVolume": "大容量讯息传递",
+        "analytics": "活动绩效分析",
+        "compliance": "合规性和选择退出管理",
+        "dripCampaigns": "自动滴灌式行销活动"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "WhatsApp 商业活动",
+      "headline": "透过 WhatsApp 商业平台触达全球客户",
+      "description": "使用官方 WhatsApp 商业平台发起有针对性的 WhatsApp 活动。",
+      "features": {
+        "apiIntegration": "WhatsApp Business Platform API 整合",
+        "templateMessages": "范本讯息活动",
+        "automatedChatbot": "自动对话机器人回应",
+        "richMedia": "富媒体讯息支援",
+        "globalReach": "全球客户触达",
+        "analytics": "对话分析"
+      }
+    },
+    "aiSupport": {
+      "title": "智慧对话机器人和语音机器人 AI 支援",
+      "headline": "永不休息的 AI 驱动客户支援",
+      "description": "在您所有的通讯渠道上部署智慧对话机器人，以 24/7 处理客户查询。",
+      "features": {
+        "automated24x7": "24/7 自动化客户支援",
+        "multiChannel": "多渠道对话机器人部署",
+        "instantResponse": "对常见查询的即时回应",
+        "humanHandoff": "无缝转接人工专员",
+        "continuousLearning": "持续学习和改进",
+        "knowledgeBase": "自订知识库整合"
+      }
+    },
+    "cta": {
+      "title": "准备好转变您的业务通讯了吗？",
+      "description": "选择适合您业务需求的用例。从我们的免费方案开始，并随著您的成长而扩展。",
+      "signUp": "注册",
+      "bookDemo": "预约演示"
+    }
+  },
+  "phoneBanner": {
+    "callText": "致电",
+    "phoneNumber": "02-77443577 (台湾)",
+    "bookingText": "或 +1 (SMB)-AI-AGENT(美国Toll Free)与SeaVoice AI预约会议。",
+    "availability": "24/7 可用"
+  },
+  "problemSolution": {
+    "title": "在应用程式和收件匣的迷宫中失去潜在客户？",
+    "description": "您的客户正试图在各处与您联系。错过一条讯息就是错过一笔销售。Seasalt.ai 将您所有的通讯集中到一个地方，让您再也不会错过任何机会。",
+    "problems": {
+      "fragmented": {
+        "title": "零散的对话",
+        "description": "在 WhatsApp、通话记录和网路聊天之间切换会造成混乱并浪费时间。"
+      },
+      "lostRevenue": {
+        "title": "收入损失",
+        "description": "下班后错过的讯息和缓慢的回应意味著失去潜在客户和沮丧的客户。"
+      },
+      "operational": {
+        "title": "运营超载",
+        "description": "您的团队因管理太多工具而分身乏术，而不是专注于客户。"
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai：您的全渠道智能协作解决方案",
+      "hubTitle": "统一全渠道中心",
+      "subtitle": "AI 和人工专员，24/7",
+      "tabs": {
+        "support": "支援",
+        "marketing": "行销"
+      },
+      "features": {
+        "marketing": {
+          "title": "协驾您的行销活动",
+          "description": "透过 AI 驱动的外拨活动和智慧潜在客户培养，获取更多客户。"
+        },
+        "support": {
+          "title": "自动驾驶您的客户支援",
+          "description": "透过 24/7 AI 智能体处理常规查询和无缝的人工转接，降低支援成本。"
+        },
+        "human": {
+          "title": "永不失去人情味",
+          "description": "根据您的需求选择自动化程度：仅人工、AI 协驾或全自动驾驶。"
+        }
+      },
+      "cta": "使用 Seasalt.ai 解决这个问题"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "莎拉·强森",
+          "description": "关于订单状态的电话",
+          "timeAgo": "2分钟前"
+        },
+        "mike": {
+          "name": "麦克·陈",
+          "description": "WhatsApp：运送问题",
+          "timeAgo": "5分钟前"
+        },
+        "lisa": {
+          "name": "丽莎·朴",
+          "description": "网站聊天：产品查询",
+          "timeAgo": "8分钟前"
+        },
+        "david": {
+          "name": "大卫·金",
+          "description": "支援电话：技术问题",
+          "timeAgo": "12分钟前"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "黑色星期五活动",
+          "description": "简讯：已发送 2,847 则 • 312 则回复",
+          "result": "+47 个潜在客户"
+        },
+        "whatsappLaunch": {
+          "name": "WhatsApp 产品发布",
+          "description": "1,523 则讯息 • 89 个对话",
+          "result": "+23 笔销售"
+        },
+        "cartRecovery": {
+          "name": "废弃购物车恢复",
+          "description": "电子邮件 + 简讯：已恢复 156 个",
+          "result": "+1万2千"
+        },
+        "followUp": {
+          "name": "后续通话活动",
+          "description": "AI 语音机器人：89 通电话 • 34 个预约",
+          "result": "+34 个预约"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "支援方案",
+    "priceNote": "*所有价格均以美元计价",
+    "trial": {
+      "title": "试用",
+      "price": "$0",
+      "features": {
+        "diy": "透过产品说明文件自助服务",
+        "email": "电子邮件 (info@seasalt.ai)",
+        "chat": {
+          "line1": "或与客户支援聊天",
+          "line2": "（在此页面上）"
+        }
+      }
+    },
+    "launch": {
+      "title": "启动",
+      "startsAt": "起价",
+      "minPrice": "$500",
+      "upTo": "最高至",
+      "maxPrice": "$10,000",
+      "duration": "每月 3 个月",
+      "description": "透过启动支援方案，我们的团队致力于在以下领域提供专业指导：",
+      "features": {
+        "meetings": {
+          "title": "无限 1 对 1 会议：",
+          "description": "与 SeaChat 团队的个人化会议。"
+        },
+        "promptTuning": {
+          "title": "提示调优：",
+          "description": "针对聊天和语音应用程式的客制化。"
+        },
+        "guidance": {
+          "title": "设计和技术指导：",
+          "description": "设计和技术方面的专家建议。"
+        },
+        "launchSupport": {
+          "title": "AI 代理启动支援：",
+          "description": "在整个启动过程中提供全面协助。"
+        },
+        "marketStrategy": {
+          "title": "上市策略：",
+          "description": "市场进入的战略规划。"
+        },
+        "successfulLaunch": {
+          "title": "成功的 AI 代理启动：",
+          "description": "在 4-6 周内实现成功启动。"
+        },
+        "postLaunch": {
+          "title": "启动后迭代和改进：",
+          "description": "基于使用情况和反馈的持续改进。"
+        },
+        "operational": {
+          "title": "营运稳定性：",
+          "description": "建立 AI 代理长期营运的标准作业程序。"
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "Seasalt.ai 主站",
+      "description": "所有产品和解决方案"
+    },
+    "productsLabel": "产品"
+  },
+  "industries": {
+    "title": "自信地服务每个行业",
+    "description": "从医疗保健到金融科技，我们的平台以专业功能和合规标准适应您行业的独特要求。",
+    "cta": {
+      "title": "准备好彻底改变您的行业了吗？",
+      "description": "加入信任 Seasalt.ai 的行业领导者，提供卓越的客户体验，同时满足特定的法规和运营要求。",
+      "signUp": "注册",
+      "bookDemo": "预约演示"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← 回到首页"
+      },
+      "hero": {
+        "title": "AI 解决方案适用于",
+        "signUp": "免费开始",
+        "seeDemo": "查看演示",
+        "hipaaOffering": "也可提供：符合 HIPAA 标准的"
+      },
+      "seo": {
+        "titleSuffix": "解决方案 - Seasalt.ai",
+        "descriptionPrefix": "了解 Seasalt.ai 如何帮助",
+        "descriptionSuffix": "企业改善客户沟通并推动增长。"
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": ""
+      },
+      "benefits": {
+        "title": "为什么选择 Seasalt.ai 用于",
+        "description": "我们的 AI 驱动平台为以下行业简化沟通并自动化工作流程："
+      },
+      "useCases": {
+        "title": "常见使用案例",
+        "description": {
+          "start": "了解我们的平台如何透过智能自动化转变",
+          "end": "营运"
+        },
+        "customerSupport": {
+          "title": "24/7 客户支援",
+          "description": "透过所有渠道提供即时客户查询回应"
+        },
+        "leadGeneration": {
+          "title": "潜在客户开发",
+          "description": "透过 AI 驱动的对话自动捕获和审核潜在客户"
+        },
+        "analytics": {
+          "title": "分析和洞察",
+          "description": "追踪绩效并洞察客户互动"
+        },
+        "subtitle": "探索我们的平台如何支持教育管理的各个方面",
+        "case1": {
+          "title": "学生信息系统",
+          "description": "集中学生记录、成绩和学术进度追踪"
+        },
+        "case2": {
+          "title": "学习管理",
+          "description": "提供课程、追踪进度和管理教育内容"
+        },
+        "case3": {
+          "title": "行政工具",
+          "description": "简化注册、排程和机构运营"
+        }
+      },
+      "testimonials": {
+        "title": "公司评价",
+        "quote1": "Seasalt.ai 改变了我们的客户服务营运。回应时间减少了 80%，满意度达到史上最高。",
+        "author1": "Sarah Chen",
+        "company1": "客户成功经理",
+        "quote2": "AI 自动化为我们节省了无数小时。我们可以专注于业务成长而不是管理重复性任务。",
+        "author2": "Michael Rodriguez",
+        "company2": "营运总监",
+        "subtitle": "看看机构如何改变其运营",
+        "testimonial1": {
+          "quote": "这个平台彻底改变了我们管理学校运营的方式。学生数据现在已经集中化且易于访问。",
+          "author": "莎拉·约翰逊博士",
+          "position": "林肯小学校长"
+        },
+        "testimonial2": {
+          "quote": "学习管理功能让我们的学生和教职工能够无缝进行远程和混合式学习。",
+          "author": "陈迈克教授",
+          "position": "州立大学技术学院院长"
+        },
+        "testimonial3": {
+          "quote": "我们的行政效率大幅提升。从注册到报告的所有工作现在都变得简化。",
+          "author": "玛利亚·罗德里格斯",
+          "position": "社区学院区管理员"
+        }
+      },
+      "cta": {
+        "title": "准备好转变您的业务了吗？",
+        "description": "加入数千家信赖 Seasalt.ai 高效安全管理客户沟通的公司。",
+        "signUp": "开始免费试用",
+        "scheduleDemo": "预约演示",
+        "seahealthLink": "探索符合 HIPAA 标准的医疗保健解决方案",
+        "buttons": {
+          "primary": "开始免费试用",
+          "secondary": "安排演示",
+          "contact": "联系销售"
+        }
+      },
+      "solutions": {
+        "title": "解决方案"
+      }
+    }
+  },
+  "channels": {
+    "title": "连接每个客户渠道",
+    "description": "在一个平台中统一您所有的客户通讯。从 WhatsApp 到电话、简讯到社交媒体 - 从单一仪表板管理每个对话。",
+    "whatsapp": {
+      "title": "WhatsApp Business Platform",
+      "description": "在全球最受欢迎的讯息平台上与客户联系",
+      "seo": {
+        "title": "WhatsApp Business 整合 - Seasalt.ai",
+        "description": "将您的 WhatsApp Business 帐户连接到 Seasalt.ai，享受 AI 驱动的对话、批量活动和无缝人工专员支援。触达全球 20 亿以上用户。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": {
+          "prefix": "将 WhatsApp 转变为您的",
+          "highlight": "商业指挥中心"
+        },
+        "description": "将您的 WhatsApp Business Platform 帐户连接到 Seasalt.ai，享受 AI 驱动的对话、批量活动和无缝人工专员支援。触达全球 20 亿以上用户。",
+        "primaryCta": "10 分钟内连接 WhatsApp",
+        "secondaryCta": "查看演示",
+        "demoTitle": "WhatsApp Business Platform",
+        "demoMessages": {
+          "customer1": "客户：「我的订单 #12345 在哪里？」",
+          "bot1": "AI 机器人：「您的订单正在配送中，将于今天下午 6 点前到达。在此追踪：[连结]」",
+          "customer2": "客户：「我可以更改配送地址吗？」",
+          "bot2": "AI 机器人：「让我为您连接人工专员以更改地址...」"
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "description": "将 WhatsApp 转变为强大商业沟通平台的所有必需工具",
+        "aiResponses": {
+          "title": "AI 驱动回应",
+          "description": "具备自然语言处理功能的自动化客户服务，能理解上下文和意图"
+        },
+        "bulkCampaigns": {
+          "title": "批量活动管理",
+          "description": "透过进阶定位和排程功能，向数千个联络人发送模板讯息"
+        },
+        "humanHandoff": {
+          "title": "人工专员转接",
+          "description": "透过 /live_agent 指令和完整对话记录，实现从机器人到真人专员的无缝转接"
+        },
+        "metaIntegration": {
+          "title": "Meta Business 整合",
+          "description": "完整存取 WhatsApp Business Platform 功能，具备企业级安全性"
+        }
+      },
+      "setup": {
+        "title": "设定流程视觉化",
+        "description": "连接 WhatsApp Business 帐户的逐步指南，具备企业级安全性",
+        "steps": {
+          "0": "建立 Meta 开发者帐户",
+          "1": "设定 WhatsApp Business Platform API",
+          "2": "设定 webhook 端点",
+          "3": "生成存取权杖",
+          "4": "测试讯息传送",
+          "5": "启动您的第一个活动"
+        },
+        "security": {
+          "title": "企业级安全性",
+          "description": "您的 WhatsApp 整合包含端到端加密、安全权杖管理，并符合 Meta 商业政策。所有资料均受到银行级安全性保护。"
+        }
+      },
+      "cta": {
+        "title": "准备好连接 WhatsApp 了吗？",
+        "description": "加入数千家使用 WhatsApp 提供更佳客户服务并推动更多销售的企业。",
+        "button": "开始整合"
+      }
+    },
+    "voice": {
+      "title": "语音和电话",
+      "description": "具有 AI 语音机器人和人工专员支援的专业电话系统"
+    },
+    "sms": {
+      "title": "简讯",
+      "description": "透过个人化简讯活动即时触达客户",
+      "seo": {
+        "title": "简讯行销平台 - Seasalt.ai",
+        "description": "透过个人化简讯活动和自动化回应即时触达客户。98% 开信率和 200+ 国家的全球传送。立即开始您的简讯行销。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": "真正有效的",
+        "description": "通过个人化短信活动和自动回复立即接触客户。98%开启率，覆盖全球200+国家。",
+        "primaryCta": "开始简讯活动",
+        "secondaryCta": "查看演示",
+        "campaign": {
+          "title": "简讯活动",
+          "flashSale": {
+            "title": "📱 活动：限时特价",
+            "sent": "已发送 2,847 条讯息"
+          },
+          "delivered": {
+            "title": "✅ 已送达：2,834",
+            "rate": "99.5% 送达率"
+          },
+          "replies": {
+            "title": "💬 回复：312",
+            "rate": "11% 回应率"
+          },
+          "conversions": {
+            "title": "🛒 转换：47",
+            "revenue": "$12,400 营收"
+          }
+        },
+        "titleHighlight": "SMS行销",
+        "cta": {
+          "primary": "开始短信活动",
+          "secondary": "查看演示"
+        },
+        "dashboard": {
+          "title": "短信活动",
+          "campaign": "📱 活动：快闪特卖",
+          "campaignSent": "已发送 2,847 则讯息",
+          "delivered": "✅ 已送达：2,834",
+          "deliveryRate": "99.5% 送达率",
+          "replies": "💬 回复：312",
+          "responseRate": "11% 回复率",
+          "conversions": "🛒 转换：47",
+          "revenue": "$12,400 营收"
+        }
+      },
+      "features": {
+        "title": "合规与传送",
+        "description": "企业级短信平台，具有全球覆盖和自动合规管理功能",
+        "globalReach": {
+          "title": "全球覆盖",
+          "description": "短信传送至200+国家，支持本地号码和电信商优化"
+        },
+        "compliance": {
+          "title": "合规工具",
+          "description": "TCPA和GDPR合规功能，自动选择退出管理"
+        },
+        "analytics": {
+          "title": "传送分析",
+          "description": "即时传送追踪、回复率和活动效果指标"
+        },
+        "scheduling": {
+          "title": "智慧排程",
+          "description": "基于时区的发送，根据收件人行为优化最佳时机"
+        }
+      },
+      "useCases": {
+        "title": "实证使用案例",
+        "description": "了解企业如何使用短信提升互动和营收",
+        "marketing": {
+          "title": "行销活动",
+          "description": "高开启率的促销讯息",
+          "stats": "98% 开启率"
+        },
+        "appointments": {
+          "title": "预约提醒",
+          "description": "通过自动提醒减少缺席",
+          "stats": "缺席率减少25%"
+        },
+        "orders": {
+          "title": "订单更新",
+          "description": "让客户了解订单状态",
+          "stats": "90% 满意度"
+        },
+        "support": {
+          "title": "客户支援",
+          "description": "双向对话快速支援",
+          "stats": "解决速度快5倍"
+        }
+      },
+      "builder": {
+        "title": "进阶活动建构器",
+        "description": "使用拖放自动化和智慧锁定创建复杂的短信活动",
+        "segmentation": {
+          "title": "智慧分群",
+          "description": "基于行为、位置和偏好锁定客户"
+        },
+        "timing": {
+          "title": "完美时机",
+          "description": "AI驱动的发送时间优化，实现最大互动"
+        },
+        "analytics": {
+          "title": "即时分析",
+          "description": "即时追踪传送、开启、点击和转换"
+        }
+      },
+      "cta": {
+        "title": "准备启动您的短信活动了吗？",
+        "description": "加入数千家企业，使用短信提升互动和营收。从免费试用开始。",
+        "button": "立即注册"
+      },
+      "backToChannels": "返回通讯管道"
+    },
+    "website": {
+      "title": "网站聊天小工具",
+      "description": "透过 AI 驱动的聊天将网站访客转化为对话"
+    },
+    "cta": {
+      "exploreAll": "探索所有渠道",
+      "subtitle": "了解所有 9 个渠道如何无缝协同工作"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "专业电话系统 - Seasalt.ai",
+        "description": "透过我们的 Twilio 黄金合作伙伴关系和 AI 语音自动化，为您的专员提供云端拨号平台进行来电和去电通话。扩展您的商业沟通。"
+      },
+      "nav": {
+        "backToChannels": "返回渠道"
+      },
+      "hero": {
+        "title": {
+          "prefix": "专业电话系统",
+          "highlight": "与您的业务共同成长"
+        },
+        "description": "透过我们的 Twilio 黄金合作伙伴关系和 AI 语音自动化，为您的专员提供云端拨号平台进行来电和去电通话。",
+        "primaryCta": "今天就开始拨打电话",
+        "secondaryCta": "查看演示",
+        "dialpad": {
+          "title": "专员拨号盘",
+          "callButton": "拨号",
+          "endCallButton": "结束通话"
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "description": "您的团队专业电话通讯所需的一切",
+        "humanDialpad": {
+          "title": "人工专员拨号盘",
+          "description": "功能齐全的云端拨号盘，用于拨打和接听电话，并具有联络人管理功能"
+        },
+        "aiVoiceBot": {
+          "title": "AI 语音机器人整合",
+          "description": "自动通话处理，在需要时自然转接至人工专员"
+        },
+        "multiAgent": {
+          "title": "多专员支援",
+          "description": "轮流分配系统自动将通话分配给可用的专员"
+        },
+        "analytics": {
+          "title": "通话分析",
+          "description": "通话绩效、成果和专员生产力的综合报告"
+        }
+      },
+      "partnership": {
+        "title": "Twilio 合作伙伴优势",
+        "description": "建立在世界上最值得信赖的通讯平台之上",
+        "goldPartner": {
+          "title": "黄金合作伙伴地位",
+          "benefit1": "黄金合作伙伴地位，直接存取 Twilio Flex",
+          "benefit2": "建立在成熟基础设施上的企业级可靠性",
+          "benefit3": "全球覆盖 - 可在 200+ 个国家拨打电话",
+          "benefit4": "快速部署 - 专员可在 10 天内开始通话"
+        },
+        "global": {
+          "title": "全球能力",
+          "countries": {
+            "title": "200+ 个国家",
+            "description": "在全球范围内拨打和接听电话"
+          },
+          "uptime": {
+            "title": "99.95% 正常运行时间",
+            "description": "企业级可靠性"
+          },
+          "setup": {
+            "title": "10 天设定",
+            "description": "为您的团队快速部署"
+          }
+        }
+      },
+      "useCases": {
+        "title": "使用案例",
+        "description": "了解不同团队如何使用我们的电话系统来取得成果",
+        "sales": {
+          "title": "销售团队",
+          "description": "透过自动拨号器效率进行外拨开发"
+        },
+        "support": {
+          "title": "客户支援",
+          "description": "透过 AI 筛选处理来电"
+        },
+        "appointments": {
+          "title": "预约设定",
+          "description": "自动拨号并由人工确认"
+        },
+        "followup": {
+          "title": "后续活动",
+          "description": "大量拨号并进行个性化专员对话"
+        }
+      },
+      "cta": {
+        "title": "准备升级您的电话系统了吗？",
+        "description": "在 10 天内让您的团队开始通话，具备企业级可靠性和 AI 驱动的自动化。",
+        "button": "开始设定"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "返回频道总览"
+      },
+      "hero": {
+        "title": {
+          "prefix": "将网站访客转化为",
+          "highlight": "对话机会"
+        },
+        "description": "在 5 分钟内为您的网站添加强大的 AI 聊天小工具。获取潜在客户、提供即时支援，永不错过任何机会。",
+        "cta": {
+          "primary": "获取免费小工具",
+          "secondary": "预约产品展示"
+        },
+        "widget": {
+          "title": "网站聊天小工具",
+          "welcome": {
+            "greeting": "👋 欢迎！",
+            "question": "今天我们能如何帮助您？"
+          },
+          "visitor": {
+            "message": "访客：「你们提供免费运送吗？」"
+          },
+          "ai": {
+            "response": "AI：「是的！满 $50 即享免费运送。您想了解我们目前的优惠活动吗？」"
+          },
+          "button": {
+            "yes": "好的，告诉我",
+            "no": "不用，谢谢"
+          }
+        }
+      },
+      "features": {
+        "title": "主要功能",
+        "subtitle": "获取访客参与并将其转化为客户所需的一切功能",
+        "noCodeSetup": {
+          "title": "无需编码设定",
+          "description": "在 5 分钟内添加到任何网站，无需技术知识"
+        },
+        "customBranding": {
+          "title": "自订品牌",
+          "description": "透过自订颜色、字体和讯息风格来匹配您的品牌"
+        },
+        "leadCapture": {
+          "title": "潜在客户获取",
+          "description": "自动收集访客资讯并即时筛选潜在客户"
+        },
+        "instantResponses": {
+          "title": "即时回应",
+          "description": "AI 驱动的回应为网站访客提供 24/7 即时帮助"
+        }
+      },
+      "platforms": {
+        "title": "适用于所有平台",
+        "subtitle": "轻松整合所有主流网站建构工具和平台"
+      },
+      "customization": {
+        "title": "自订功能展示",
+        "subtitle": "透过广泛的自订选项，让小工具真正属于您",
+        "positionSize": {
+          "title": "位置和大小",
+          "description": "选择角落位置、大小和可见性设定"
+        },
+        "colorsFonts": {
+          "title": "颜色和字体",
+          "description": "完美匹配您的品牌颜色和版面设计"
+        },
+        "welcomeMessages": {
+          "title": "欢迎讯息",
+          "description": "自订欢迎讯息和对话开场白"
+        },
+        "triggerRules": {
+          "title": "触发规则",
+          "description": "设定小工具向访客显示的时间和位置"
+        },
+        "realTimePreview": {
+          "title": "即时预览",
+          "description": "透过我们的即时预览功能，立即查看您的变更。自订颜色、位置和讯息，同时准确看到在您网站上的显示效果。"
+        }
+      },
+      "analytics": {
+        "title": "强大分析功能",
+        "subtitle": "透过详细分析追踪访客参与度、转换率和聊天表现",
+        "conversations": "对话数",
+        "conversionRate": "转换率",
+        "responseTime": "回应时间",
+        "satisfaction": "满意度"
+      },
+      "cta": {
+        "title": "准备好为您的网站添加聊天功能了吗？",
+        "description": "几分钟内获取您的自订聊天小工具。无需编码，提供完整自订功能。",
+        "button": "获取小工具代码"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "返回频道总览"
+      },
+      "hero": {
+        "title": {
+          "prefix": "扩展您的",
+          "highlight": "Instagram 客户服务"
+        },
+        "subtitle": "使用 AI 自动化处理数千条 Instagram 私讯，同时保持个人化风格。完美适合品牌、网红和社群建设企业。",
+        "cta": {
+          "primary": "自动化 Instagram 私讯",
+          "secondary": "查看示范"
+        },
+        "demo": {
+          "title": "Instagram 私讯",
+          "user1": {
+            "handle": "@sarah_style",
+            "message": "我喜欢这件洋装！你们有哪些尺寸？"
+          },
+          "ai1": {
+            "response": "AI: \"嗨 Sarah！😍 这件洋装有 XS-XL 尺寸。您需要我检查您的尺寸库存吗？"
+          },
+          "user2": {
+            "handle": "@mike_fitness",
+            "message": "您能帮我处理订单吗？"
+          },
+          "ai2": {
+            "response": "AI: \"当然可以！让我为您连接客服团队..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "视觉优先方法",
+        "subtitle": "Instagram 主要是视觉平台。我们的 AI 理解图片并提供情境化回应"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "图像识别",
+          "description": "AI 理解私讯中的产品图片，提供智能回应和推荐"
+        },
+        "storyIntegration": {
+          "title": "限时动态整合",
+          "description": "自动回应限时动态互动、投票和观众问题"
+        },
+        "influencerSupport": {
+          "title": "网红支援",
+          "description": "管理大量私讯对话和品牌合作的工具"
+        },
+        "smartAutomation": {
+          "title": "智能自动化",
+          "description": "维持品牌声音和个性的 AI 驱动回应"
+        }
+      },
+      "useCases": {
+        "title": "适合每个 Instagram 企业",
+        "subtitle": "从小企业到主要网红，看看 Instagram 自动化如何推动成果",
+        "ecommerce": {
+          "title": "电商品牌",
+          "description": "产品查询和订单支援",
+          "metric": "回应速度提升 40%"
+        },
+        "influencers": {
+          "title": "网红",
+          "description": "粉丝互动和合作请求",
+          "metric": "对话量增加 10 倍"
+        },
+        "localBusiness": {
+          "title": "本地企业",
+          "description": "预约预订和客户服务",
+          "metric": "预订量增加 60%"
+        },
+        "contentCreators": {
+          "title": "内容创作者",
+          "description": "社群管理和意见回馈",
+          "metric": "95% 满意度"
+        }
+      },
+      "businessIntegration": {
+        "title": "Instagram 商业整合",
+        "subtitle": "与 Instagram 商业帐户完全整合，提供专业客户服务",
+        "analyticsIntegration": {
+          "title": "分析整合",
+          "description": "连接 Instagram 洞察，实现完整的效果追踪"
+        },
+        "audienceInsights": {
+          "title": "受众洞察",
+          "description": "透过整合的人口统计数据更好地了解您的受众"
+        },
+        "engagementTracking": {
+          "title": "互动追踪",
+          "description": "监控限时动态互动、贴文参与度和私讯效果"
+        }
+      },
+      "cta": {
+        "title": "准备好扩展您的 Instagram 影响力了吗？",
+        "subtitle": "加入数千个品牌和网红，使用 AI 提供更好的客户服务并在 Instagram 上建立更强大的社群。",
+        "primary": "开始自动化",
+        "secondary": "查看示范"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "返回频道总览"
+      },
+      "hero": {
+        "title": "将 Facebook Messenger 转变为",
+        "titleHighlight": "销售利器",
+        "subtitle": "透过 AI 驱动的对话吸引您的 Facebook 受众，将追踪者转化为客户。整合 Facebook Shop 实现无缝社群商务。",
+        "cta": {
+          "primary": "立即连接 Messenger",
+          "secondary": "观看展示"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "客户：「你们有M号吗？」",
+          "aiResponse1": "AI：「有的！M号现货供应。这是产品连结和目前价格 👇」",
+          "productName": "夏日洋装 - M号",
+          "productPrice": "$49.99 • 免运费",
+          "customerQuery2": "客户：「太好了！可以打8折吗？」",
+          "aiResponse2": "AI：「我可以提供85折优惠，使用代码 MESSENGER15！您要完成订购吗？」"
+        }
+      },
+      "features": {
+        "title": "社群商务功能",
+        "subtitle": "将您的 Facebook 存在转变为强大的销售渠道，配备整合商务功能",
+        "shopIntegration": {
+          "title": "Facebook Shop 整合",
+          "description": "在聊天中直接推荐产品，提供无缝购物体验"
+        },
+        "leadGeneration": {
+          "title": "潜在客户开发",
+          "description": "从 Messenger 对话中自动捕获潜在客户，并同步至 CRM"
+        },
+        "socialProof": {
+          "title": "社会认证",
+          "description": "整合客户推荐和评价来建立信任"
+        },
+        "instantResponses": {
+          "title": "即时回应",
+          "description": "AI 驱动的回应，24/7 全天候吸引您的 Facebook 受众"
+        }
+      },
+      "socialCommerce": {
+        "title": "完整社群商务解决方案",
+        "subtitle": "直接透过 Facebook Messenger 销售所需的一切",
+        "productCatalog": {
+          "title": "产品目录同步",
+          "description": "自动同步您的 Facebook Shop 产品以进行即时推荐"
+        },
+        "cartRecovery": {
+          "title": "购物车挽回",
+          "description": "透过个人化讯息重新吸引放弃购物车的客户"
+        },
+        "orderTracking": {
+          "title": "订单追踪",
+          "description": "透过 Messenger 提供即时订单更新和物流资讯"
+        },
+        "customerReviews": {
+          "title": "客户评价",
+          "description": "收集和展示客户评价以建立信任和社会认证"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Facebook 商业生态系统整合",
+        "subtitle": "无缝连接您的整个 Facebook 商业存在",
+        "shop": {
+          "title": "Facebook Shop",
+          "description": "直接整合您的 Facebook Shop 以进行即时产品推荐"
+        },
+        "ads": {
+          "title": "Facebook 广告",
+          "description": "将广告活动与 Messenger 连接，实现无缝客户旅程"
+        },
+        "pages": {
+          "title": "Facebook 粉丝专页",
+          "description": "统一管理粉丝专页讯息和客户互动"
+        }
+      },
+      "results": {
+        "title": "实证成果",
+        "subtitle": "看看企业如何透过 Facebook Messenger 自动化实现真实成果",
+        "engagement": {
+          "value": "85%",
+          "description": "比电子邮件更高的参与度"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "更佳的转换率"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "支援成本的降低"
+        },
+        "availability": {
+          "value": "24/7",
+          "description": "自动化客户服务"
+        }
+      },
+      "cta": {
+        "title": "准备好转变您的 Facebook 存在了吗？",
+        "subtitle": "将 Facebook Messenger 连接至 Seasalt.ai，开始将您的社群媒体追踪者转化为付费客户。",
+        "primary": "连接 Messenger",
+        "secondary": "预约展示"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "联络表单整合 - Seasalt.ai",
+        "description": "透过 AI 将联络表单转化为对话。与 MailerLite、HubSpot、Mailchimp 等平台无缝整合，实现即时潜在客户互动。"
+      },
+      "nav": {
+        "backToChannels": "返回通道"
+      },
+      "hero": {
+        "title": {
+          "part1": "将联络表单转化为",
+          "part2": "对话"
+        },
+        "subtitle": "自动捕获来自电子邮件行销表单的潜在客户，并透过 AI 驱动的对话即时互动。适用于 MailerLite、HubSpot、Mailchimp 等平台。",
+        "ctaPrimary": "连接您的表单",
+        "ctaSecondary": "查看演示",
+        "demo": {
+          "title": "表单整合",
+          "submission": "📝 新表单提交",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "AI：「嗨 Sarah！感谢您的关注。我可以立即帮助您开始。您的主要目标是什么？」",
+          "userResponse": "Sarah：「我想改善我的电子邮件行销」",
+          "aiSchedule": "AI：「太棒了！我可以立即为您安排 15 分钟的策略通话。您明天下午 2 点有空吗？」",
+          "meetingConfirmed": "✅ 会议已自动安排"
+        }
+      },
+      "platforms": {
+        "title": "支援平台",
+        "subtitle": "与所有主要电子邮件行销平台和表单建构工具无缝整合",
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "与 MailerLite 联络表单无缝同步潜在客户"
+        },
+        "mailchimp": {
+          "name": "Mailchimp",
+          "description": "与 Mailchimp 注册表单直接整合"
+        },
+        "constantContact": {
+          "name": "Constant Contact",
+          "description": "从 Constant Contact 表单捕获潜在客户"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "与 HubSpot 行销进阶表单整合"
+        },
+        "customForms": {
+          "name": "自定义表单",
+          "description": "透过 API 支援任何网站联络表单"
+        },
+        "wordpress": {
+          "name": "WordPress",
+          "description": "与 WordPress 联络表单原生整合"
+        }
+      },
+      "features": {
+        "title": "潜在客户管理功能",
+        "subtitle": "透过智慧自动化将表单提交转化为合格潜在客户",
+        "instantEngagement": {
+          "title": "即时互动",
+          "description": "AI 代理立即回应表单提交，趁潜在客户热度最高时互动"
+        },
+        "leadQualification": {
+          "title": "潜在客户资格评估",
+          "description": "自动跟进问题以在转交给人员前评估潜在客户资格"
+        },
+        "multiChannel": {
+          "title": "多通道跟进",
+          "description": "透过 WhatsApp、简讯或电话无缝继续对话"
+        },
+        "conversionTracking": {
+          "title": "转换追踪",
+          "description": "监控表单到客户的转换率并优化效能"
+        }
+      },
+      "useCases": {
+        "title": "使用案例",
+        "subtitle": "了解不同类型的表单如何透过 AI 对话得到增强",
+        "newsletter": {
+          "title": "电子报注册",
+          "description": "透过欢迎对话吸引新订阅者",
+          "example": "「感谢您的订阅！您最感兴趣的主题是什么？」"
+        },
+        "demoRequests": {
+          "title": "演示请求",
+          "description": "即时评估并安排产品演示",
+          "example": "「我可以立即为您安排演示。您偏好的时间是什么？」"
+        },
+        "contactInquiries": {
+          "title": "联络查询",
+          "description": "对一般查询提供即时回应",
+          "example": "「我在这里帮助您！您需要什么具体资讯？」"
+        },
+        "leadMagnets": {
+          "title": "潜在客户磁铁",
+          "description": "透过个性化接触跟进内容下载",
+          "example": "「您觉得这份指南有用吗？我可以回答任何问题！」"
+        }
+      },
+      "benefits": {
+        "title": "整合优势",
+        "subtitle": "了解将表单连接到对话式 AI 的即时影响",
+        "responseRates": "更高的回应率",
+        "qualification": "更快的潜在客户资格评估",
+        "meetings": "更多合格会议",
+        "engagement": "潜在客户互动"
+      },
+      "cta": {
+        "title": "准备好为您的表单充电了吗？",
+        "subtitle": "将您的联络表单连接到 Seasalt.ai，开始透过即时 AI 驱动对话转换更多潜在客户。",
+        "action": "立即连接表单"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "LINE 整合解决方案 - Seasalt.ai",
+        "description": "了解 Seasalt.ai 如何透过 LINE 整合帮助企业改善客户沟通，并在亚洲市场推动业务成长。"
+      },
+      "navigation": {
+        "backToChannels": "返回频道总览"
+      },
+      "hero": {
+        "title": "透过 LINE 整合称霸亚洲市场",
+        "subtitle": "透过 AI 对话和商务讯息，与亚洲地区超过 2 亿 LINE 用户连接。非常适合针对日本、台湾、泰国和韩国市场的企业。",
+        "cta": {
+          "startIntegration": "开始 LINE 整合",
+          "seeDemo": "查看示范"
+        },
+        "demo": {
+          "title": "LINE 商务",
+          "customer": "商品について质问があります",
+          "customerTranslation": "(我有产品问题)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(您好！我很乐意帮助您。哪一项产品？)",
+          "stickerMessage": "贴图：谢谢！",
+          "ai2": "どういたしまして！他にご质问はありますか？",
+          "ai2Translation": "(不客气！还有其他问题吗？)"
+        }
+      },
+      "marketFocus": {
+        "title": "市场重点",
+        "subtitle": "LINE 在关键亚洲市场的主导地位使其成为针对这些地区的企业必不可少的工具",
+        "activeUsers": "活跃用户",
+        "marketPenetration": "市场渗透率"
+      },
+      "markets": {
+        "JP": {
+          "country": "日本",
+          "users": "9500万",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "台湾",
+          "users": "2100万",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "泰国",
+          "users": "5300万",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "南韩",
+          "users": "3500万",
+          "penetration": "68%"
+        }
+      },
+      "features": {
+        "title": "LINE 商务功能",
+        "subtitle": "利用 LINE 的独特功能进行商务沟通和客户参与",
+        "regionalDominance": {
+          "title": "区域主导地位",
+          "description": "接触亚洲主要市场超过 2 亿 LINE 用户"
+        },
+        "officialAccount": {
+          "title": "LINE 官方帐号",
+          "description": "与 LINE 官方帐号完整整合，提供商务讯息服务"
+        },
+        "richMessaging": {
+          "title": "丰富讯息",
+          "description": "支援贴图、丰富选单和互动式讯息格式"
+        },
+        "culturalAdaptation": {
+          "title": "文化适应",
+          "description": "针对不同亚洲市场优化的本地化讯息功能"
+        }
+      },
+      "businessMessaging": {
+        "title": "进阶商务讯息",
+        "subtitle": "利用 LINE 的丰富讯息功能提升客户体验"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "LINE Pay 整合",
+          "description": "直接透过 LINE 接受付款，提供无缝交易体验"
+        },
+        "richMenu": {
+          "title": "丰富选单设计",
+          "description": "建立互动式选单，方便客户导览"
+        },
+        "broadcast": {
+          "title": "广播讯息",
+          "description": "向您的 LINE 粉丝发送目标讯息"
+        },
+        "chatbot": {
+          "title": "聊天机器人建构器",
+          "description": "专为 LINE 互动优化的视觉化聊天机器人建构器"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "文化适应",
+        "subtitle": "我们的 AI 了解不同亚洲市场的文化细节和沟通风格"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "本地化回应",
+          "description": "针对当地沟通风格和文化偏好调整的 AI 回应"
+        },
+        "multiLanguage": {
+          "title": "多语言支援",
+          "description": "原生支援日语、中文、泰语、韩语和英语"
+        },
+        "sticker": {
+          "title": "贴图整合",
+          "description": "智慧使用 LINE 贴图和表情符号进行自然对话"
+        }
+      },
+      "cta": {
+        "title": "准备进入亚洲市场了吗？",
+        "subtitle": "透过 LINE 主导的讯息平台与亚洲数百万潜在客户建立连结。",
+        "startIntegration": "开始 LINE 整合"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "回到通讯渠道"
+      },
+      "seo": {
+        "title": "网站小工具 - 全通路解决方案",
+        "description": "在WordPress、Shopify、Squarespace、Wix、MailerLite和任何网站上部署我们的全通路小工具。提供客户统一的聊天、语音和讯息选择。"
+      },
+      "hero": {
+        "title": "一个小工具，",
+        "titleHighlight": "所有平台",
+        "subtitle": "在WordPress、Shopify、Squarespace、Wix、MailerLite和任何网站上部署我们的全通路小工具。提供客户统一的聊天、语音和讯息选择。",
+        "cta": {
+          "deploy": "立即部署小工具",
+          "demo": "预约演示"
+        },
+        "widget": {
+          "title": "通用小工具",
+          "chat": {
+            "label": "💬 聊天",
+            "description": "即时讯息支援"
+          },
+          "voice": {
+            "label": "📞 语音",
+            "description": "一键语音通话"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "直接WhatsApp连接"
+          },
+          "email": {
+            "label": "📧 电子邮件",
+            "description": "联络表单整合"
+          }
+        }
+      },
+      "platforms": {
+        "title": "适用于所有平台",
+        "subtitle": "无论您使用什么平台，我们的小工具都能与您现有的网站无缝整合",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "WordPress网站的简易插件安装"
+        },
+        "shopify": {
+          "name": "Shopify",
+          "description": "与Shopify商店的原生整合"
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Squarespace网站的简单嵌入代码"
+        },
+        "wix": {
+          "name": "Wix",
+          "description": "Wix网站的拖放小工具"
+        },
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "与MailerLite著陆页的直接整合"
+        },
+        "custom": {
+          "name": "自定义HTML",
+          "description": "任何网站的通用嵌入代码"
+        }
+      },
+      "features": {
+        "title": "进阶功能",
+        "subtitle": "不只是聊天小工具 - 完整的客户互动平台",
+        "design": {
+          "title": "可自订设计",
+          "description": "使用自订颜色、字体和位置选项来匹配您的品牌"
+        },
+        "mobile": {
+          "title": "行动响应式",
+          "description": "在所有装置和萤幕尺寸上提供完美体验"
+        },
+        "nocode": {
+          "title": "免程式设定",
+          "description": "无需技术知识，5分钟内添加到任何网站"
+        },
+        "analytics": {
+          "title": "进阶分析",
+          "description": "追踪访客参与度、转换率和聊天表现"
+        }
+      },
+      "styles": {
+        "title": "选择您的样式",
+        "subtitle": "多种小工具样式，匹配您的网站设计和用户体验目标",
+        "chatBubble": {
+          "name": "聊天气泡",
+          "description": "经典的底部角落浮动聊天气泡"
+        },
+        "slidePanel": {
+          "name": "滑入面板",
+          "description": "优雅的侧边滑入面板"
+        },
+        "embeddedForm": {
+          "name": "嵌入式表单",
+          "description": "页面内容中的内联联络表单"
+        },
+        "fullModal": {
+          "name": "全萤幕模态",
+          "description": "引人注目的全萤幕覆盖层"
+        }
+      },
+      "benefits": {
+        "title": "为什么选择我们的小工具？",
+        "switching": {
+          "title": "通道切换",
+          "description": "在聊天、语音和讯息之间无缝切换，不失去背景"
+        },
+        "queue": {
+          "title": "伫列管理",
+          "description": "基于代理可用性和客户优先级的智能路由"
+        },
+        "global": {
+          "title": "全球支援",
+          "description": "多语言支援和时区感知路由，为国际客户服务"
+        }
+      },
+      "cta": {
+        "title": "准备部署您的小工具了吗？",
+        "subtitle": "在5分钟内为您的网站添加强大的全通路沟通功能。无需编程。",
+        "getWidget": "获取小工具代码"
+      }
+    }
+  },
+  "comparison": {
+    "title": "为什么成长中的企业选择 Seasalt.ai 而不是其他替代方案",
+    "description": "看看我们与其他解决方案的比较。我们是唯一一个以小型企业的简单性提供企业级功能的平台。",
+    "recommended": "推荐",
+    "table": {
+      "headers": {
+        "platform": "平台",
+        "startingPrice": "起始价格",
+        "pricingModel": "定价模式",
+        "unifiedVoiceDigital": "统一语音和数位",
+        "aiCapabilities": "AI 功能",
+        "bestFor": "最适合"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "$20/客服/月",
+        "pricingModel": "简单的每用户定价",
+        "unifiedVoiceDigital": "✅ 是，原生支援",
+        "aiCapabilities": "✅ 是，原生语音和聊天机器人",
+        "bestFor": "需要负担得起的真正一体化平台的中小企业。"
+      },
+      "aircall": {
+        "startingPrice": "$30/用户/月",
+        "pricingModel": "每用户 + 附加功能",
+        "unifiedVoiceDigital": "⚠️ 语音 + WhatsApp（附加功能）",
+        "aiCapabilities": "⚠️ AI 是付费附加功能",
+        "bestFor": "能负担多个附加功能且满足 3 用户最低要求的销售团队。"
+      },
+      "ringcentral": {
+        "startingPrice": "$65/客服/月",
+        "pricingModel": "复杂分层",
+        "unifiedVoiceDigital": "❌ 分离产品",
+        "aiCapabilities": "✅ 是（AI 驱动的 CCaaS）",
+        "bestFor": "需要广泛 UCaaS 平台和分离 CCaaS 的大公司。"
+      },
+      "genesys": {
+        "startingPrice": "$75/用户/月",
+        "pricingModel": "每用户 + 高最低要求",
+        "unifiedVoiceDigital": "✅ 是（在高级方案中）",
+        "aiCapabilities": "✅ 是（复杂代币系统）",
+        "bestFor": "拥有专门联络中心团队和预算的大型企业。"
+      },
+      "five9": {
+        "startingPrice": "$119/用户/月",
+        "pricingModel": "每用户 + 套件",
+        "unifiedVoiceDigital": "✅ 是（在高级方案中）",
+        "aiCapabilities": "✅ 是（进阶 AI）",
+        "bestFor": "需要企业级工具的大型出线重点联络中心。"
+      },
+      "googleVoice": {
+        "startingPrice": "$10/用户/月",
+        "pricingModel": "每用户 + 工作区费用",
+        "unifiedVoiceDigital": "❌ 否",
+        "aiCapabilities": "❌ 否（仅语音信箱转录）",
+        "bestFor": "需要基本独立电话号码的个体创业者（仅美国）。"
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "查看所有详细比较"
+    }
+  },
+  "industriesData": {
+    "ecommerce": {
+      "title": "电子商务",
+      "headline": "24/7 恢复废弃购物车并回答订单问题",
+      "benefits": [
+        "透过 WhatsApp 和简讯自动更新订单状态",
+        "AI 即时处理「我的包裹在哪里？」查询",
+        "透过智慧跟进恢复 15% 以上的废弃购物车",
+        "包含 Shopify 和 Squarespace 整合"
+      ]
+    },
+    "healthcare": {
+      "title": "医疗保健",
+      "headline": "自动预约病患并发送提醒",
+      "benefits": [
+        "所有渠道均符合 HIPAA 的讯息传递",
+        "自动预约确认和提醒",
+        "AI 在路由前预先筛选病患查询",
+        "透过智慧通知将未到诊率降低 25%"
+      ]
+    },
+    "realEstate": {
+      "title": "房地产",
+      "headline": "不错过任何潜在客户，并透过简讯、聊天或电话安排看房",
+      "benefits": [
+        "24/7 即时回应房产查询",
+        "透过 AI 自动安排看房预约",
+        "人工转接前的潜在客户资格审核",
+        "WhatsApp 虚拟导览和房产照片"
+      ]
+    },
+    "restaurants": {
+      "title": "餐厅和饭店业",
+      "headline": "在所有渠道处理预订和订单",
+      "benefits": [
+        "透过电话和聊天自动预订",
+        "AI 即时回答菜单问题",
+        "透过简讯和 WhatsApp 发送订单确认",
+        "无需员工干预即可处理外送查询"
+      ]
+    },
+    "education": {
+      "title": "教育和培训",
+      "headline": "简化学生沟通和课程查询",
+      "benefits": [
+        "自动化课程注册和排程",
+        "AI 24/7 处理常见学生问题",
+        "透过 WhatsApp 进行家长与教师沟通",
+        "透过简讯发送活动通知和提醒"
+      ]
+    },
+    "automotive": {
+      "title": "汽车和服务业",
+      "headline": "预约服务并处理客户查询",
+      "benefits": [
+        "自动化服务预约",
+        "透过简讯发送车辆保养提醒",
+        "AI 处理零件可用性问题",
+        "附有照片的服务完成通知"
+      ]
+    },
+    "professional": {
+      "title": "专业服务",
+      "headline": "管理客户沟通和咨询预约",
+      "benefits": [
+        "自动化咨询排程",
+        "透过聊天提供客户受理表格",
+        "透过安全渠道共享文件",
+        "预约的后续提醒"
+      ]
+    },
+    "financial": {
+      "title": "金融服务",
+      "headline": "安全的客户沟通和预约管理",
+      "benefits": [
+        "符合 FINRA 的讯息传递和记录",
+        "自动预约确认",
+        "透过聊天进行安全文件收集",
+        "客户入职工作流程自动化"
+      ]
+    },
+    "educationTraining": {
+      "title": "教育与培训",
+      "headline": "透过全面管理解决方案简化您的教育机构",
+      "benefits": [
+        "自动化课程注册和排程",
+        "AI 24/7 处理常见学生问题",
+        "透过 WhatsApp 进行家长与教师沟通",
+        "透过简讯发送活动通知和提醒"
+      ],
+      "benefits[0]": "简化学生注册和记录管理",
+      "benefits[1]": "自动化排程和课程管理",
+      "benefits[2]": "增强的家长教师沟通工具",
+      "benefits[3]": "全面的报告和分析"
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "24/7 回应客户"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "批量触达客户"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "会议和通话的协驾"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "用于通话的 AI 语音智能体",
+      "subProducts": {
+        "tts": "文字转语音",
+        "stt": "语音转文字",
+        "discord": "Discord 语音转文字机器人"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "适用于销售和行销"
+    },
+    "customerSupport": {
+      "title": "适用于客户支援"
+    },
+    "aiAutomation": {
+      "title": "AI 和自动化"
+    },
+    "smeOwners": {
+      "title": "适用于中小企业主"
+    }
+  }
+}

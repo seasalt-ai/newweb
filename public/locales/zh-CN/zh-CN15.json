@@ -1,0 +1,323 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "文字转语音技术",
+      "subtitle": "使用我们先进的神经文字转语音技术从文字生成类似人声的语音。创建自订语音，支援 40 多种语言，提供卓越的音频品质。",
+      "cta": "试用语音生成"
+    },
+    "demo": {
+      "title": "体验我们的语音技术",
+      "subtitle": "试用不同的语音并亲自体验品质",
+      "chooseVoice": "选择语音：",
+      "textPrompt": "输入要转换为语音的文字：",
+      "defaultText": "您好！我是由 SeaVoice 技术驱动的 AI 语音助理。我可以协助您处理客户服务、销售和支援，以自然、类似人声的方式。",
+      "placeholderText": "输入一些内容供我们的 AI 朗读...",
+      "generateSpeech": "生成语音",
+      "playing": "播放中..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "女性",
+        "accent": "美式英语",
+        "description": "专业、温暖"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "男性",
+        "accent": "美式英语",
+        "description": "友善、健谈"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "女性",
+        "accent": "英式英语",
+        "description": "充满活力、乐于助人"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "男性",
+        "accent": "澳洲口音",
+        "description": "清晰、自信"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "女性",
+        "accent": "西班牙语",
+        "description": "富有表现力、自然"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "男性",
+        "accent": "日语",
+        "description": "礼貌、专业"
+      }
+    },
+    "features": {
+      "title": "先进语音生成",
+      "subtitle": "尖端神经网路提供类似人声的语音品质",
+      "customVoiceCloning": {
+        "title": "自订语音复制",
+        "description": "创建符合您品牌个性和说话风格的独特语音档案。",
+        "capabilities": {
+          "voiceCloning": "从样本复制语音",
+          "brandVoice": "品牌语音一致性",
+          "emotionalExpression": "情感表达",
+          "customPronunciations": "自订发音"
+        }
+      },
+      "advancedControls": {
+        "title": "进阶控制",
+        "description": "微调语音生成的每个方面，以获得完美的音频输出。",
+        "capabilities": {
+          "speedAdjustment": "速度调整",
+          "pitchControl": "音调控制",
+          "emphasisPlacement": "重点放置",
+          "pauseInsertion": "停顿插入"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "多语言支援",
+        "description": "以原生发音生成 40 多种语言的自然语音。",
+        "capabilities": {
+          "fortyPlusLanguages": "40 多种语言",
+          "regionalAccents": "地区口音",
+          "codeSwitching": "程式码切换",
+          "multilingualVoices": "多语言语音"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "卓越品质指标",
+      "subtitle": "经过测量的性能，提供专业效果",
+      "naturalness": {
+        "metric": "自然度评分",
+        "value": "4.8/5",
+        "description": "人工评估评级"
+      },
+      "intelligibility": {
+        "metric": "可理解性",
+        "value": "99.2%",
+        "description": "单词识别准确度"
+      },
+      "latency": {
+        "metric": "延迟时间",
+        "value": "< 200ms",
+        "description": "文字转音频生成"
+      },
+      "audioQuality": {
+        "metric": "音频品质",
+        "value": "48kHz",
+        "description": "高保真输出"
+      }
+    },
+    "useCases": {
+      "title": "多样化应用",
+      "subtitle": "跨行业和使用案例将文字转换为语音",
+      "customerService": {
+        "title": "客户服务",
+        "description": "为客户互动提供一致、专业的语音回应。",
+        "benefits": {
+          "availability": "24/7 全天候服务",
+          "consistentQuality": "一致的品质",
+          "multiLanguageSupport": "多语言支援",
+          "brandVoiceAlignment": "品牌语音一致性"
+        }
+      },
+      "contentCreation": {
+        "title": "内容创作",
+        "description": "为视频、播客和多媒体内容生成配音。",
+        "benefits": {
+          "costEffectiveProduction": "经济高效的制作",
+          "quickTurnaround": "快速周转",
+          "multipleVoiceOptions": "多种语音选项",
+          "easyRevisions": "轻松修改"
+        }
+      },
+      "accessibility": {
+        "title": "无障碍功能",
+        "description": "为视障使用者提供高品质的文字转语音，使内容更易于使用。",
+        "benefits": {
+          "screenReaderEnhancement": "萤幕阅读器增强",
+          "documentNarration": "文档朗读",
+          "webAccessibility": "网站无障碍",
+          "educationalSupport": "教育支援"
+        }
+      },
+      "interactiveApplications": {
+        "title": "互动应用程式",
+        "description": "为应用程式、游戏和互动体验添加语音功能。",
+        "benefits": {
+          "realTimeGeneration": "即时生成",
+          "dynamicContent": "动态内容",
+          "userEngagement": "使用者参与",
+          "immersiveExperiences": "沉浸式体验"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "自订语音复制",
+      "subtitle": "创建完美符合您品牌个性的独特语音档案。我们的先进语音复制技术只需几分钟的样本音频，就能复制说话风格、口音和情感表达。",
+      "brandVoiceConsistency": {
+        "title": "品牌语音一致性",
+        "description": "在所有互动中保持一致的品牌语音"
+      },
+      "fineTunedControl": {
+        "title": "精细调节控制",
+        "description": "调整音调、节奏和情感表达"
+      },
+      "highFidelityOutput": {
+        "title": "高保真输出",
+        "description": "适用于任何应用的专业品质音频"
+      },
+      "process": {
+        "title": "语音复制流程",
+        "step1": {
+          "title": "上传音频样本",
+          "description": "提供 5-10 分钟的清晰音频录音"
+        },
+        "step2": {
+          "title": "AI 训练",
+          "description": "我们的神经网路学习您独特的语音特征"
+        },
+        "step3": {
+          "title": "语音生成",
+          "description": "使用您的自订语音生成无限语音"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好为您的品牌赋予语音了吗？",
+      "subtitle": "创建自订语音并为任何应用生成专业品质的语音",
+      "startVoiceCloning": "开始语音复制",
+      "exploreApi": "探索 API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "互动式 AI 虚拟化身"
+      },
+      "hero": {
+        "title": {
+          "line1": "遇见您的",
+          "line2": "AI 语音助理"
+        },
+        "subtitle": "体验 AI 通讯的未来。我们的虚拟化身展现人性化对话，具备情感智能和多重个性选项。"
+      },
+      "voices": {
+        "professional": {
+          "name": "专业莎拉",
+          "description": "清晰、权威的商业语音"
+        },
+        "friendly": {
+          "name": "友善麦克",
+          "description": "温暖、亲和的客户服务"
+        },
+        "empathetic": {
+          "name": "关怀艾玛",
+          "description": "富有同情心的医疗保健语音"
+        }
+      },
+      "languages": {
+        "english": "英文",
+        "spanish": "西班牙文",
+        "french": "法文",
+        "german": "德文",
+        "chinese": "中文"
+      },
+      "demoScripts": {
+        "professional": "您好，我是莎拉，您的 AI 商业助理。我可以处理客户查询、安排预约，并精准清晰地提供详细产品资讯。",
+        "friendly": "嗨！我是麦克，我在这里让您拥有绝佳体验。无论您需要订单协助还是只是有个简单问题，我都很乐意为您服务！",
+        "empathetic": "您好，我是艾玛。我理解医疗保健问题可能令人感到压力，我在这里随时提供关怀、准确的支援。"
+      },
+      "controls": {
+        "voicePersonality": "选择语音个性：",
+        "language": "语言：",
+        "demoVoice": "语音示范",
+        "tryVoiceInput": "尝试语音输入"
+      },
+      "status": {
+        "listening": "聆听中...",
+        "speaking": "说话中...",
+        "ready": "就绪",
+        "label": "状态："
+      },
+      "listeningResponse": "我听到了！这里将会根据您的语音输入提供contextual understanding回应。",
+      "avatarMoods": {
+        "neutral": "中性",
+        "speaking": "说话中",
+        "listening": "聆听中",
+        "thinking": "思考中"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "来电已接通",
+        "description": "客户已与您的企业连线"
+      },
+      "listening": {
+        "title": "AI 聆听中",
+        "description": "先进语音识别捕捉每一个字"
+      },
+      "processing": {
+        "title": "AI 处理中",
+        "description": "神经网路理解意图和上下文"
+      },
+      "responding": {
+        "title": "AI 回应中",
+        "description": "人性化语音提供完美回应"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "预约预订",
+      "orderSupport": "订单支援",
+      "salesInquiry": "销售咨询"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "您好，我想预约下周二的时间。",
+        "ai": "我很乐意帮助您预约。让我查看一下下周二的可用时段。什么时间对您最方便呢？"
+      },
+      "orderSupport": {
+        "customer": "我最近的订单有问题。还没有收到货。",
+        "ai": "我理解您对订单的担心。让我立即为您查询。请您提供订单号码好吗？"
+      },
+      "salesInquiry": {
+        "customer": "能告诉我您的价格方案吗？",
+        "ai": "当然可以！我们有多种价格方案以满足不同需求。我们的基本方案每月 29 美元起，包含所有核心功能。您希望我详细说明差异吗？"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "选择对话类型：",
+      "autoProgressing": "自动进行场景切换中...",
+      "liveConversation": "即时对话：",
+      "speaking": "说话中...",
+      "aiSpeaking": "AI 说话中...",
+      "aiThinking": "AI 思考中...",
+      "processingContext": "处理上下文",
+      "accuracyRate": "准确率"
+    }
+  },
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | 小型企业全通路联络中心",
+      "description": "停止切换多个应用程式。统一每一通电话、WhatsApp 和聊天於单一简洁收件箱。专为小型企业量身打造的全方位联络中心。",
+      "keywords": "全通路联络中心, 小型企业沟通, 统一收件箱, 客服软体, WhatsApp 商业, 语音通话, 聊天支援"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AI 语音通讯平台 - Seasalt.ai",
+        "description": "运用 AI 技术转变您的语音通讯。SeaVoice 提供智慧通话路由、语音分析与自动回应功能。以类人 AI 客服代理 24/7 处理客户来电。",
+        "keywords": "AI 语音, 客服中心软体, 语音分析, SeaVoice, 智慧通话路由, 自动电话系统, 语音助理, 24/7 客户服务"
+      },
+      "virtualAssistant": {
+        "title": "24/7 虚拟助理 | SeaVoice AI 语音解决方案 - Seasalt.ai",
+        "description": "运用 SeaVoice AI 虚拟助理提供全天候客户服务。智慧语音客服代理处理客户查询、预约安排与支援请求，提升满意度并降低成本。",
+        "keywords": "虚拟助理, AI 语音助理, 24/7 客户服务, 智慧客服, SeaVoice, 语音自动化, 客户服务自动化"
+      }
+    }
+  }
+}
