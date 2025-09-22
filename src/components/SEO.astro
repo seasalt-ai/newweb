@@ -274,9 +274,10 @@ const {
 } = Astro.props;
 
 // URL processing
-const currentUrl = canonical ? new URL(canonical) : new URL(Astro.url);
+// Support relative canonical URLs by resolving against the current page URL
+const currentUrl = canonical ? new URL(canonical, Astro.url) : Astro.url;
 const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
-const canonicalUrl = canonical || Astro.url.href;
+const canonicalUrl = canonical ? new URL(canonical, Astro.url).href : Astro.url.href;
 
 // Safe image URL handling
 const safeImage = image || '/images/og/seasalt-ai-social-card.png';
@@ -660,7 +661,7 @@ if (video) {
 
 // Auto-generate SoftwareApplication schema for product pages (SeaChat / SeaX / SeaVoice)
 try {
-  const pathname = new URL(Astro.url).pathname;
+  const pathname = Astro.url.pathname;
   const detectedProduct = getProductKeyFromPath(pathname) as ProductKey | null;
   if (detectedProduct) {
     const localized = getLocalizedProductInfo(detectedProduct, lang);
