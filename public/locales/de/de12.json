@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Terminbuchung und Management",
+            "description": "Automatisieren Sie die Terminplanung mit KI, die die Verfügbarkeit, Präferenzen und Geschäftsregeln versteht. Reduzieren Sie No-Shows und optimieren Sie Ihren Buchungsprozess mit intelligenten Sprachinteraktionen.",
+            "cta": "Automatisieren Sie Terminbuchung"
+          },
+          "features": {
+            "title": "Smart Termin Management",
+            "subtitle": "Umfassendes Buchungssystem, das komplexe Planungsszenarien abwickelt",
+            "intelligentScheduling": {
+              "title": "Intelligente Planung",
+              "description": "AI-betriebene Terminbuchung, die Verfügbarkeit und Vorlieben versteht.",
+              "benefit1": "Verfügbarkeit in Echtzeit",
+              "benefit2": "Intelligente Konfliktlösung",
+              "benefit3": "Präferenzübereinstimmung"
+            },
+            "automatedReminders": {
+              "title": "Automatisierte Erinnerungen",
+              "description": "Reduzieren Sie No-Shows mit automatisierten Terminerinnerungen und Bestätigungen.",
+              "benefit1": "SMS & Voice -Erinnerungen",
+              "benefit2": "Anpassbares Timing",
+              "benefit3": "Bestätigungsverfolgung"
+            },
+            "multiProviderSupport": {
+              "title": "Support für Multi-Anbieter",
+              "description": "Verwalten Sie Termine über mehrere Anbieter, Standorte und Dienstleistungen hinweg.",
+              "benefit1": "Verfügbarkeit von Anbietern",
+              "benefit2": "Standortmanagement",
+              "benefit3": "Servicekategorisierung"
+            }
+          },
+          "capabilities": {
+            "title": "Komplette Buchungslösung",
+            "subtitle": "Behandeln Sie alle Aspekte des Terminmanagements automatisch",
+            "appointmentScheduling": {
+              "capability": "Terminplanung",
+              "description": "Buchen Sie neue Termine basierend auf Verfügbarkeit und Vorlieben",
+              "feature1": "Verfügbare Zeitfenster",
+              "feature2": "Anbieterauswahl",
+              "feature3": "Service -Typ -Matching"
+            },
+            "rescheduling": {
+              "capability": "Verschieben",
+              "description": "Ändern Sie vorhandene Termine mit automatischer Konfliktlösung",
+              "feature1": "Konflikterkennung",
+              "feature2": "Alternative Vorschläge",
+              "feature3": "Automatische Updates"
+            },
+            "cancellationManagement": {
+              "capability": "Stornierungsmanagement",
+              "description": "Behandeln Sie Stornierungen und Wartelistenverwaltung effizient",
+              "feature1": "Stornierungsrichtlinien",
+              "feature2": "Warteliste Automatisierung",
+              "feature3": "Rückerstattung der Verarbeitung"
+            },
+            "reminderSystem": {
+              "capability": "Erinnerungssystem",
+              "description": "Automatische Erinnerungen an die No-Shows und die Verbesserung der Teilnahme",
+              "feature1": "Multi-Channel-Erinnerungen",
+              "feature2": "Anpassbares Timing",
+              "feature3": "Bestätigungsanfragen"
+            }
+          },
+          "industries": {
+            "title": "Branchenanwendungen",
+            "subtitle": "Speiste Buchungslösungen für verschiedene Branchen und Anwendungsfälle",
+            "healthcare": {
+              "industry": "Gesundheitspflege",
+              "description": "Medizinische Termine, Konsultationen und Verfahren",
+              "benefit1": "Patientenplanung",
+              "benefit2": "Anbieterkoordination",
+              "benefit3": "Versicherungsprüfung"
+            },
+            "beautyWellness": {
+              "industry": "Schönheit & Wellness",
+              "description": "Salontermine, Spa -Dienste und Wellness -Sitzungen",
+              "benefit1": "Servicedauer Tracking",
+              "benefit2": "Stylisteneinstellungen",
+              "benefit3": "Paketbuchungen"
+            },
+            "professionalServices": {
+              "industry": "Professionelle Dienstleistungen",
+              "description": "Konsultationen, Besprechungen und Service -Termine",
+              "benefit1": "Buchung von Besprechungsräumen",
+              "benefit2": "Verfügbarkeit von Beratern",
+              "benefit3": "Kundeneinstellungen"
+            }
+          },
+          "reminderSection": {
+            "title": "Automatisiertes Erinnerungssystem",
+            "description": "Reduzieren Sie die No-Shows mit intelligenten Erinnerungskampagnen, die Kunden durch ihre bevorzugten Kommunikationskanäle zu optimalen Zeiten erreichen, erheblich.",
+            "multiChannelReminders": {
+              "title": "Multi-Channel-Erinnerungen",
+              "description": "Sprachanrufe, SMS und E -Mail -Erinnerungen"
+            },
+            "optimalTiming": {
+              "title": "Optimales Timing",
+              "description": "KI bestimmt die besten Zeiten, um Erinnerungen zu senden"
+            },
+            "performanceTracking": {
+              "title": "Leistungsverfolgung",
+              "description": "Überwachen Sie die Erinnerungseffektivität und optimieren Sie"
+            },
+            "reminderTimeline": {
+              "title": "Erinnerungszeitleiste"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Erste Bestätigung",
+                "description": "Terminbestätigung und Details"
+              },
+              "dayBefore": {
+                "title": "Tag vor Erinnerung",
+                "description": "Letzte Erinnerung mit Vorbereitungsanweisungen"
+              },
+              "lastMinute": {
+                "title": "Last -Minute -Überprüfung",
+                "description": "Endgültige Bestätigung und Anweisungen"
+              },
+              "sevenDays": "7d",
+              "oneDay": "1d",
+              "twoHours": "2H"
+            }
+          },
+          "benefits": {
+            "title": "Buchungsleistungsergebnisse",
+            "subtitle": "Messbare Verbesserungen der Effizienz des Ernennungsmanagements",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Reduzierung der No-Show-Raten"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Verfügbarkeit von Buchung"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Buchungsgenauigkeitsrate"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Reduzierung der Administratorarbeitslast"
+            }
+          },
+          "cta": {
+            "title": "Bereit, eine Terminbuchung zu automatisieren?",
+            "description": "Stelle die Planung optimieren und No-Shows mit intelligentem Terminmanagement reduzieren",
+            "startFreeTrial": "Kostenlose Testversion beginnen",
+            "scheduleDemo": "Planen Sie Demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "Sprachbegleiter psychischer Gesundheit",
+            "description": "Bieten Sie mit KI mitfühlend, 24/7 Unterstützung bei der psychischen Gesundheit, die mit Empathie zuhört, versteht und antwortet. Brücken Sie die Lücke zwischen Krise und beruflicher Versorgung sicher.",
+            "cta": "Erfahren Sie mehr über die KI der psychischen Gesundheit"
+          },
+          "features": {
+            "title": "Mitfühlende KI -Unterstützung",
+            "description": "Fortgeschrittene KI, die in der Unterstützung der psychischen Gesundheit und zur Krisenintervention ausgebildet ist",
+            "empathetic": {
+              "title": "Einfühlsamer KI -Begleiter",
+              "description": "Trainiert, um mit angemessenen emotionalen Reaktionen mitfühlend, nicht wertend zu unterstützen.",
+              "benefits": {
+                "activeListening": "Aktives Zuhören",
+                "emotionalValidation": "Emotionale Validierung",
+                "crisisRecognition": "Krisenerkennung"
+              }
+            },
+            "safe": {
+              "title": "Sicher und vertraulich",
+              "description": "HIPAA-konforme Plattform sorgt für alle Interaktionen.",
+              "benefits": {
+                "hipaaCompliance": "HIPAA Compliance",
+                "encryptedConversations": "Verschlüsselte Gespräche",
+                "anonymousOptions": "Anonyme Optionen"
+              }
+            },
+            "availability": {
+              "title": "24/7 Verfügbarkeit",
+              "description": "Immer verfügbar, wenn jemand sprechen muss und in Krisenmomenten sofortige Unterstützung leistet.",
+              "benefits": {
+                "roundTheClockAccess": "Rund um die Uhr Zugang",
+                "immediateResponse": "Sofortige Antwort",
+                "noWaitTimes": "Keine Wartezeiten"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "Unterstützungsfunktionen für psychische Gesundheit",
+            "description": "Umfassende Unterstützung im gesamten psychischen Gesundheitsspektrum",
+            "screening": {
+              "title": "Erstes Screening der psychischen Gesundheit",
+              "description": "Führen Sie vorläufige Bewertungen mit validierten Screening -Tools durch",
+              "outcomes": {
+                "earlyIdentification": "Frühe Identifizierung",
+                "riskAssessment": "Risikobewertung",
+                "appropriateReferrals": "Angemessene Überweisungen"
+              }
+            },
+            "crisis": {
+              "title": "Krisenintervention",
+              "description": "Erkennen Sie Krisensituationen und bieten sofortige Unterstützung oder Eskalation",
+              "outcomes": {
+                "crisisDetection": "Krisenerkennung",
+                "deEscalationTechniques": "Technische Deeskalation",
+                "emergencyProtocols": "Notprotokolle"
+              }
+            },
+            "navigation": {
+              "title": "Ressourcennavigation",
+              "description": "Führen Sie Benutzer zu geeigneten Ressourcen und Diensten für psychische Gesundheit",
+              "outcomes": {
+                "serviceMatching": "Service -Matching",
+                "appointmentScheduling": "Terminplanung",
+                "followUpSupport": "Follow-up-Unterstützung"
+              }
+            },
+            "emotional": {
+              "title": "Emotionale Unterstützung",
+              "description": "Bieten Sie mitfühlendem Zuhören und emotionaler Validierung",
+              "outcomes": {
+                "reducedIsolation": "Reduzierte Isolation",
+                "emotionalRelief": "Emotionale Erleichterung",
+                "copingStrategies": "Bewältigungsstrategien"
+              }
+            }
+          },
+          "safety": {
+            "title": "Sicherheits-First-Design",
+            "description": "Unsere KI für psychische Gesundheit ist mit Sicherheit als oberste Priorität konzipiert und verfügt über eine fortschrittliche Krisenerkennung und sofortige Eskalationsprotokolle, um sicherzustellen, dass Benutzer bei Bedarf eine angemessene professionelle Versorgung erhalten.",
+            "features": {
+              "title": "Sicherheitsmerkmale"
+            },
+            "crisisDetection": {
+              "title": "Krisenerkennung",
+              "description": "Erweiterte Algorithmen identifizieren Krisensituationen"
+            },
+            "professionalHandoff": {
+              "title": "Professionelle Übergabe",
+              "description": "Nahtlose Übertragung auf menschliche Fachkräfte für psychische Gesundheit"
+            },
+            "emergencyProtocols": {
+              "title": "Notprotokolle",
+              "description": "Sofortige Verbindung zu Krisen -Hotlines bei Bedarf"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Krisenschlüsselworterkennung",
+            "suicideRiskAssessment": "Selbstmordrisikobewertung",
+            "automaticEscalationProtocols": "Automatische Eskalationsprotokolle",
+            "emergencyContactIntegration": "Notfallintegration",
+            "professionalHandoffProcedures": "Professionelle Übergabeverfahren",
+            "followUpScheduling": "Follow-up-Planung"
+          },
+          "benefits": {
+            "title": "Auswirkungen auf die psychische Gesundheit",
+            "description": "Messbare Verbesserungen in der Erreichbarkeit der psychischen Gesundheit unterstützt",
+            "alwaysAvailableSupport": "Immer verfügbare Unterstützung",
+            "crisisEscalationReduction": "Verringerung der Krisenkalation",
+            "userSatisfactionRate": "Benutzerzufriedenheitsrate",
+            "helpSeekingBehaviorIncrease": "Erhöhung des Verhaltens bei der Suche nach Hilfsmitteln"
+          },
+          "cta": {
+            "title": "Bereit, die psychische Gesundheit zu unterstützen?",
+            "description": "Bieten Sie mit KI, die sich wirklich darum kümmert",
+            "learnMore": "Erfahren Sie mehr",
+            "contactSpecialists": "Kontaktspezialisten"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "Smart Call Transfer während der Geschäftszeiten",
+            "description": "Revolutionieren Sie Ihr Call-Routing mit KI-angetriebener intelligenter Transfer, der die Caller-Absicht versteht und sie sofort mit der richtigen Person verbindet, wodurch die Wartezeiten reduziert und die Kundenzufriedenheit verbessert werden.",
+            "primaryCta": "Optimieren Sie Ihr Anrufrouting"
+          },
+          "features": {
+            "title": "Intelligent Call -Routing -Funktionen",
+            "description": "Fortgeschrittene KI -Technologie, die Aufrufe mit Präzision versteht und Routen",
+            "intelligentRouting": {
+              "title": "Intelligentes Routing",
+              "description": "AI analysiert die Caller -Absicht und Routen an die am besten geeignete Abteilung oder den am besten geeigneten Vertreter.",
+              "benefits": {
+                "0": "Absichtserkennung",
+                "1": "Skill-basierte Routing",
+                "2": "Prioritätsbeschaffung"
+              }
+            },
+            "agentOptimization": {
+              "title": "Agentenoptimierung",
+              "description": "Balken Sie die Arbeitsbelastung zwischen Agenten aus und stellen Sie sicher, dass die Anrufe den verfügbaren Spezialisten erreichen.",
+              "benefits": {
+                "0": "Lastausgleich",
+                "1": "Verfügbarkeitsprüfung",
+                "2": "Fachkompetenz"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Reduzierte Wartezeiten",
+              "description": "Minimieren Sie die Wartezeiten der Kunden mit effizientem Routing- und Warteschlangenmanagement.",
+              "benefits": {
+                "0": "Warteschlangenoptimierung",
+                "1": "Rückrufoptionen",
+                "2": "Echtzeit-Updates"
+              }
+            }
+          },
+          "routing": {
+            "title": "Smart Routing in Aktion",
+            "description": "Sehen Sie, wie unsere KI die Absicht und Routen identifiziert, um optimale Ergebnisse zu erfordern"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Abrechnungsanfrage",
+              "action": "Weg zur Abrechnungsabteilung",
+              "result": "90% erster Auflösung"
+            },
+            "technicalSupport": {
+              "trigger": "Technische Unterstützung",
+              "action": "Weg zum technischen Team",
+              "result": "85% Ausgabeauflösung"
+            },
+            "salesInterest": {
+              "trigger": "Umsatzinteresse",
+              "action": "Weg zum Verkaufsteam",
+              "result": "40% Conversion -Rate"
+            },
+            "vipCustomer": {
+              "trigger": "VIP -Kunde",
+              "action": "Prioritätswarteschlange",
+              "result": "<30 Sekunden Wartezeit"
+            }
+          },
+          "benefits": {
+            "title": "Messbare Auswirkung",
+            "description": "Echte Ergebnisse aus der Implementierung intelligenter Anrufübertragung"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Reduzierung der durchschnittlichen Wartezeit"
+            },
+            "resolution": {
+              "description": "Auflösungsrate für Erste"
+            },
+            "efficiency": {
+              "description": "Verbesserung der Agenteneffizienz"
+            },
+            "accuracy": {
+              "description": "Genaue Routing, um die Abteilung zu korrigieren"
+            }
+          },
+          "cta": {
+            "title": "Bist du bereit, deinen Anruf zu optimieren?",
+            "description": "Reduzieren Sie die Wartezeiten und verbessern Sie die Kundenzufriedenheit mit intelligenter Anrufübertragung",
+            "primaryButton": "Kostenlose Testversion beginnen",
+            "secondaryButton": "Siehe Demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "Betrugsschildschutz",
+            "subtitle": "Schützen Sie Ihre Kunden vor Telefonbetrug und betrügerischen Anrufen mit KI-angetanter Erkennung, die Bedrohungen in Echtzeit identifiziert und blockiert und Ihre Community vor Finanzbetrug schützen.",
+            "cta": "Betrugsschutz aktivieren"
+          },
+          "features": {
+            "title": "Erweiterte Betrugserkennung",
+            "subtitle": "Mehrschichtiger Schutz gegen sich entwickelnde Betrugstaktiken",
+            "realTimeDetection": {
+              "title": "Echtzeit-Betrugserkennung",
+              "description": "Erweiterte AI -Algorithmen identifizieren und blockieren betrügerische Anrufe, bevor sie Ihre Kunden erreichen.",
+              "benefit1": "Mustererkennung",
+              "benefit2": "Verhaltensanalyse",
+              "benefit3": "Sofortige Blockierung"
+            },
+            "threatIntelligence": {
+              "title": "Bedrohungsintelligenz",
+              "description": "Kontinuierlich aktualisierte Datenbank bekannter Betrugsmuster und betrügerische Telefonnummern.",
+              "benefit1": "Globale Bedrohungsdaten",
+              "benefit2": "Echtzeit-Updates",
+              "benefit3": "Maschinelles Lernen"
+            },
+            "customerProtection": {
+              "title": "Kundenschutz",
+              "description": "Schützen Sie Kunden proaktiv vor Finanzbetrug und Identitätsdiebstahlversuchen.",
+              "benefit1": "Betrugsverhütung",
+              "benefit2": "Identitätsschutz",
+              "benefit3": "Finanzielle Sicherheit"
+            }
+          },
+          "scamTypes": {
+            "title": "Gegen alle Betrugstypen geschützt",
+            "subtitle": "Umfassender Schutz gegen die häufigste Betrugstaktik",
+            "phishing": {
+              "type": "Phishing -Anrufe",
+              "description": "Versuche, persönliche Informationen oder Anmeldeinformationen anmelden",
+              "detection": "Sprachmusteranalyse und Keyword -Erkennung",
+              "action": "Sofortige Anrufbeendigung und Kundenalarm"
+            },
+            "techSupport": {
+              "type": "Tech -Support -Betrug",
+              "description": "Gefälschter technischer Support, der Computerprobleme behauptet",
+              "detection": "Skriptmustererkennung und Caller -ID -Überprüfung",
+              "action": "Blockanruf blockieren und legitimen Support -Kontakt bereitstellen"
+            },
+            "financialFraud": {
+              "type": "Finanzbetrug",
+              "description": "Banken oder Finanzinstitutionen ausgeht",
+              "detection": "Institutionsprüfung und Sprachauthentifizierung",
+              "action": "Rufen Sie den Anruf ab und benachrichtigen Sie das echte Finanzinstitut"
+            },
+            "romance": {
+              "type": "Romantik betrügt",
+              "description": "Aufbau gefälschter Beziehungen, um Geld zu extrahieren",
+              "detection": "Konversationsmusteranalyse und emotionale Manipulationserkennung",
+              "action": "Warnwarnungen und Ressourcenversorgung"
+            },
+            "detectionMethod": "Erkennungsmethode:",
+            "protectionAction": "Schutzmaßnahme:",
+            "detectionMethodLabel": "Erkennungsmethode",
+            "protectionActionLabel": "Schutzmaßnahme"
+          },
+          "protection": {
+            "title": "Mehrschichtschutzsystem",
+            "subtitle": "Unser umfassender Betrugsschild verwendet mehrere Erkennungsmethoden, die zusammenarbeiten, um einen maximalen Schutz zu bieten und gleichzeitig legitime Anrufe zu gewährleisten.",
+            "realTimeAnalysis": {
+              "title": "Echtzeitanalyse",
+              "description": "Sofortige Bewertung jedes eingehenden Anrufs"
+            },
+            "continuousLearning": {
+              "title": "Kontinuierliches Lernen",
+              "description": "KI verbessert die Erkennung mit jedem blockierten Betrug"
+            },
+            "zeroFalsePositives": {
+              "title": "Null falsche Ergebnisse",
+              "description": "Legitime Anrufe werden nie blockiert"
+            },
+            "layersTitle": "Schutzschichten",
+            "layer1": "Anrufer -ID -Überprüfung",
+            "layer2": "Sprachmusteranalyse",
+            "layer3": "Skripterkennungsalgorithmen",
+            "layer4": "Erkennung von Verhaltensanomalie",
+            "layer5": "Echtzeit Bedrohungsintelligenz",
+            "layer6": "Kundenbildungswarnungen"
+          },
+          "benefits": {
+            "title": "Schutzergebnisse",
+            "subtitle": "Nachgewiesene Wirksamkeit beim Beenden von Betrug und Schutz von Kunden",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Betrugsgenauigkeitgenauigkeit"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Verringerung erfolgreicher Betrugsversuche"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Kontinuierliche Schutzabdeckung"
+            },
+            "preservation": {
+              "metric": "99,9%",
+              "description": "Legitime Anruf Erhaltungsrate"
+            }
+          },
+          "cta": {
+            "title": "Bereit, Ihre Kunden zu schützen?",
+            "subtitle": "Stoppen Sie Betrüger in ihren Spuren mit AI-betriebener Betrugserkennung und Schutz",
+            "activateProtection": "Schutz aktivieren",
+            "learnMore": "Erfahren Sie mehr",
+            "primaryButton": "Schutz aktivieren",
+            "secondaryButton": "Erfahren Sie mehr"
+          },
+          "protectionSystem": {
+            "title": "Mehrschichtschutzsystem",
+            "subtitle": "Unser umfassender Betrugsschild verwendet mehrere Erkennungsmethoden, die zusammenarbeiten, um einen maximalen Schutz zu bieten und gleichzeitig legitime Anrufe zu gewährleisten.",
+            "realTimeAnalysis": {
+              "title": "Echtzeitanalyse",
+              "description": "Sofortige Bewertung jedes eingehenden Anrufs"
+            },
+            "continuousLearning": {
+              "title": "Kontinuierliches Lernen",
+              "description": "KI verbessert die Erkennung mit jedem blockierten Betrug"
+            },
+            "zeroFalsePositives": {
+              "title": "Null falsche Ergebnisse",
+              "description": "Legitime Anrufe werden nie blockiert"
+            }
+          },
+          "results": {
+            "title": "Schutzergebnisse",
+            "subtitle": "Nachgewiesene Wirksamkeit beim Beenden von Betrug und Schutz von Kunden"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Sicherheitsabwicklung",
+            "description": "Aktivieren Sie die sichere, pCI-konforme Zahlungsverarbeitung durch Sprachinteraktionen. Lassen Sie Kunden mit fortgeschrittenem Betrugsschutz und sofortiger Transaktionsverarbeitung sicher über das Telefon telefonieren.",
+            "cta": "Sicherstellen Sie sichere Zahlungen"
+          },
+          "features": {
+            "title": "Sichere Sprachzahlungsfunktionen",
+            "subtitle": "Die Sicherheit der Unternehmensqualität trifft eine nahtlose Kundenerfahrung",
+            "securePayment": {
+              "title": "Sicherheitsabwicklung",
+              "description": "Verarbeiten Sie Zahlungen sicher über das Telefon mit PCI-konforme Sprachtechnologie.",
+              "benefit1": "PCI DSS -Konformität",
+              "benefit2": "Verschlüsselte Transaktionen",
+              "benefit3": "Mehrere Zahlungsmethoden"
+            },
+            "fraudProtection": {
+              "title": "Betrugsschutz",
+              "description": "Erkennung und Prävention für fortgeschrittene Betrugsbetrug, um sowohl Geschäft als auch Kunden zu schützen.",
+              "benefit1": "Echtzeit-Betrugserkennung",
+              "benefit2": "Risikobewertung",
+              "benefit3": "Sichere Authentifizierung"
+            },
+            "instantProcessing": {
+              "title": "Sofortige Verarbeitung",
+              "description": "Verarbeiten Sie Zahlungen sofort mit der Echtzeit-Autorisierung und -bestätigung.",
+              "benefit1": "Echtzeit-Genehmigung",
+              "benefit2": "Sofortige Bestätigung",
+              "benefit3": "Sofortige Einnahmen"
+            }
+          },
+          "paymentMethods": {
+            "title": "Umfassende Zahlungsoptionen",
+            "subtitle": "Akzeptieren Sie alle wichtigen Zahlungsmethoden mit sichern Sprachabwicklung",
+            "creditCards": {
+              "method": "Kreditkarten",
+              "description": "Akzeptieren Sie alle wichtigen Kreditkarten mit sichern Sprachabwicklung",
+              "feature1": "Visa, MasterCard, Amex",
+              "feature2": "CVV -Überprüfung",
+              "feature3": "Ablaufvalidierung"
+            },
+            "debitCards": {
+              "method": "Debitkarten",
+              "description": "Verarbeiten Sie Debitkartenzahlungen mit PIN -Überprüfung",
+              "feature1": "PIN -Eintrag über Stimme",
+              "feature2": "Banküberprüfung",
+              "feature3": "Sofortiger Abzug"
+            },
+            "bankTransfers": {
+              "method": "Bankübertragungen",
+              "description": "Direkte Bankkontoübertragungen und ACh -Zahlungen",
+              "feature1": "Kontoüberprüfung",
+              "feature2": "Routing -Nummer -Validierung",
+              "feature3": "ACH -Verarbeitung"
+            },
+            "digitalWallets": {
+              "method": "Digitale Geldbörsen",
+              "description": "Support für beliebte digitale Zahlungsplattformen",
+              "feature1": "Apfelzahl",
+              "feature2": "Google Pay",
+              "feature3": "Paypal -Integration"
+            }
+          },
+          "security": {
+            "title": "Sicherheit auf Bankebene",
+            "description": "Unser Zahlungsverarbeitungssystem erfüllt die höchsten Sicherheitsstandards in der Branche und stellt sicher, dass jede Transaktion mit mehreren Verschlüsselungsschichten und Betrugsverhinderung geschützt ist.",
+            "endToEndEncryption": {
+              "title": "End-to-End-Verschlüsselung",
+              "description": "Alle Zahlungsdaten verschlüsselt auf dem Verkehr und in Ruhe"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS -Konformität",
+              "description": "Stufe 1 PCI DSS -zertifizierte Infrastruktur"
+            },
+            "realTimeMonitoring": {
+              "title": "Echtzeitüberwachung",
+              "description": "Erkennung und Prävention kontinuierlicher Betrug"
+            },
+            "featuresTitle": "Sicherheitsfunktionen",
+            "feature1": "End-to-End-Verschlüsselung",
+            "feature2": "PCI DSS -Stufe 1 Konformität",
+            "feature3": "Tokenisierung von Kartendaten",
+            "feature4": "Multi-Faktor-Authentifizierung",
+            "feature5": "Echtzeit-Betrugsüberwachung",
+            "feature6": "Sichere Spracherkennung"
+          },
+          "benefits": {
+            "title": "Zahlungsbearbeitungsleistung",
+            "subtitle": "Branchenführende Zuverlässigkeits- und Sicherheitsmetriken",
+            "uptime": {
+              "metric": "99,9%",
+              "description": "Zahlungszeit für Zahlung"
+            },
+            "transactionTime": {
+              "metric": "<3s",
+              "description": "Durchschnittliche Transaktionszeit"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSS -Konformität"
+            },
+            "fraudRate": {
+              "metric": "0,1%",
+              "description": "Betrugsrate mit KI -Schutz"
+            }
+          },
+          "cta": {
+            "title": "Bereit für sichere Sprachzahlungen?",
+            "subtitle": "Aktivieren Sie die PCI-konforme Zahlungsabwicklung mit fortgeschrittenem Betrugsschutz",
+            "primaryButton": "Starten Sie sichere Verarbeitung",
+            "secondaryButton": "Sicherheitsübersicht"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "Sprachbegleiter psychischer Gesundheit",
+          "subtitle": "Bieten Sie mit KI mitfühlend, 24/7 Unterstützung bei der psychischen Gesundheit, die mit Empathie zuhört, versteht und antwortet. Brücken Sie die Lücke zwischen Krise und beruflicher Versorgung sicher.",
+          "cta": "Erfahren Sie mehr über die KI der psychischen Gesundheit"
+        },
+        "features": {
+          "title": "Mitfühlende KI -Unterstützung",
+          "subtitle": "Fortgeschrittene KI, die in der Unterstützung der psychischen Gesundheit und zur Krisenintervention ausgebildet ist",
+          "empathetic": {
+            "title": "Einfühlsamer KI -Begleiter",
+            "description": "Trainiert, um mit angemessenen emotionalen Reaktionen mitfühlend, nicht wertend zu unterstützen.",
+            "benefits": {
+              "activeListing": "Aktives Zuhören",
+              "emotionalValidation": "Emotionale Validierung",
+              "crisisRecognition": "Krisenerkennung"
+            }
+          },
+          "safe": {
+            "title": "Sicher und vertraulich",
+            "description": "HIPAA-konforme Plattform sorgt für alle Interaktionen.",
+            "benefits": {
+              "hipaaCompliance": "HIPAA Compliance",
+              "encryptedConversations": "Verschlüsselte Gespräche",
+              "anonymousOptions": "Anonyme Optionen"
+            }
+          },
+          "available": {
+            "title": "24/7 Verfügbarkeit",
+            "description": "Immer verfügbar, wenn jemand sprechen muss und in Krisenmomenten sofortige Unterstützung leistet.",
+            "benefits": {
+              "roundTheClockAccess": "Rund um die Uhr Zugang",
+              "immediateResponse": "Sofortige Antwort",
+              "noWaitTimes": "Keine Wartezeiten"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "Unterstützungsfunktionen für psychische Gesundheit",
+          "subtitle": "Umfassende Unterstützung im gesamten psychischen Gesundheitsspektrum",
+          "screening": {
+            "title": "Erstes Screening der psychischen Gesundheit",
+            "description": "Führen Sie vorläufige Bewertungen mit validierten Screening -Tools durch",
+            "outcomes": {
+              "earlyIdentification": "Frühe Identifizierung",
+              "riskAssessment": "Risikobewertung",
+              "appropriateReferrals": "Angemessene Überweisungen"
+            }
+          },
+          "crisis": {
+            "title": "Krisenintervention",
+            "description": "Erkennen Sie Krisensituationen und bieten sofortige Unterstützung oder Eskalation",
+            "outcomes": {
+              "crisisDetection": "Krisenerkennung",
+              "deEscalationTechniques": "Technische Deeskalation",
+              "emergencyProtocols": "Notprotokolle"
+            }
+          },
+          "navigation": {
+            "title": "Ressourcennavigation",
+            "description": "Führen Sie Benutzer zu geeigneten Ressourcen und Diensten für psychische Gesundheit",
+            "outcomes": {
+              "serviceMatching": "Service -Matching",
+              "appointmentScheduling": "Terminplanung",
+              "followUpSupport": "Follow-up-Unterstützung"
+            }
+          },
+          "emotional": {
+            "title": "Emotionale Unterstützung",
+            "description": "Bieten Sie mitfühlendem Zuhören und emotionaler Validierung",
+            "outcomes": {
+              "reducedIsolation": "Reduzierte Isolation",
+              "emotionalRelief": "Emotionale Erleichterung",
+              "copingStrategies": "Bewältigungsstrategien"
+            }
+          }
+        },
+        "safety": {
+          "title": "Sicherheits-First-Design",
+          "description": "Unsere KI für psychische Gesundheit ist mit Sicherheit als oberste Priorität konzipiert und verfügt über eine fortschrittliche Krisenerkennung und sofortige Eskalationsprotokolle, um sicherzustellen, dass Benutzer bei Bedarf eine angemessene professionelle Versorgung erhalten.",
+          "crisisDetection": {
+            "title": "Krisenerkennung",
+            "description": "Erweiterte Algorithmen identifizieren Krisensituationen"
+          },
+          "professionalHandoff": {
+            "title": "Professionelle Übergabe",
+            "description": "Nahtlose Übertragung auf menschliche Fachkräfte für psychische Gesundheit"
+          },
+          "emergencyProtocols": {
+            "title": "Notprotokolle",
+            "description": "Sofortige Verbindung zu Krisen -Hotlines bei Bedarf"
+          },
+          "features": {
+            "title": "Sicherheitsmerkmale",
+            "crisisKeywordDetection": "Krisenschlüsselworterkennung",
+            "suicideRiskAssessment": "Selbstmordrisikobewertung",
+            "automaticEscalationProtocols": "Automatische Eskalationsprotokolle",
+            "emergencyContactIntegration": "Notfallintegration",
+            "professionalHandoffProcedures": "Professionelle Übergabeverfahren",
+            "followUpScheduling": "Follow-up-Planung"
+          }
+        },
+        "impact": {
+          "title": "Auswirkungen auf die psychische Gesundheit",
+          "subtitle": "Messbare Verbesserungen in der Erreichbarkeit der psychischen Gesundheit unterstützt",
+          "availability": {
+            "metric": "24/7",
+            "description": "Immer verfügbare Unterstützung"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Verringerung der Krisenkalation"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "Benutzerzufriedenheitsrate"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Erhöhung des Verhaltens bei der Suche nach Hilfsmitteln"
+          }
+        },
+        "cta": {
+          "title": "Bereit, die psychische Gesundheit zu unterstützen?",
+          "subtitle": "Bieten Sie mit KI, die sich wirklich darum kümmert",
+          "learnMore": "Erfahren Sie mehr",
+          "contactSpecialists": "Kontaktspezialisten"
+        }
+      }
+    }
+  }
+}
